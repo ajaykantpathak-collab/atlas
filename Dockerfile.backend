@@ -1,8 +1,8 @@
 # ── Backend Dockerfile (production) ────────────────────────────
 # Multi-stage build: install deps → run app with uvicorn workers
-# Uses Python 3.13-slim for smaller image size.
-
-FROM python:3.13-slim AS base
+# Python 3.12: scipy==1.13.0 / numpy==1.26.4 ship 3.12 wheels — on 3.13
+# pip source-builds scipy and needs gfortran (build fails on slim).
+FROM python:3.12-slim AS base
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1 \
@@ -27,7 +27,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY backend/ ./backend/
-COPY cbse_data/ ./cbse_data/ 2>/dev/null || true
+# the runtime store inside cbse_data/ is the question bank only —
+# do NOT COPY the whole corpus into the image (multi-GB build context)
+COPY cbse_data/question_bank.db ./cbse_data/question_bank.db
 
 # Expose the backend port
 EXPOSE 8000

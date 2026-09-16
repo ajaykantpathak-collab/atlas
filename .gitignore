@@ -32,7 +32,7 @@ backend/_cache/
 backend_local.db
 *.db
 *.sqlite
-cbse_data/*.json
+cbse_data/
 *.log
 
 # ── Bulk data dirs (live in deploy/, too big for git) ────────
@@ -48,6 +48,7 @@ frontend/public/**/*.wav
 organized/
 ncert_books/
 refs/
+_trash/
 hindi*/
 parsed_output/
 pipeline_output/
@@ -60,6 +61,11 @@ screenshots/
 deploy/
 dist/
 build/
+# SimDef JSON — emitted by scripts/emit-sim-json.js (prebuild/predev)
+frontend/public/sims/
+frontend/components/sims_v2/SIM_FILE_MAP.json
+frontend/components/sims_v2/engine/sim_components.gen.ts
+frontend/components/sims_v2/residual_loaders.gen.ts
 
 # ── OS / IDE ─────────────────────────────────────────────────
 .DS_Store
