@@ -25,6 +25,11 @@ async def create_tables():
     from backend.database import Base
     # Import all models so they're registered with Base
     import backend.models  # noqa: F401
+    # Services carrying tables on the same Base — must import so
+    # create_all sees them (otp_codes, refresh_tokens, parent_student_links,
+    # teacher_classes, guest_sessions, exam_*, solver_templates)
+    import backend.services.auth_service  # noqa: F401
+    import backend.services.exam_service  # noqa: F401
 
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)

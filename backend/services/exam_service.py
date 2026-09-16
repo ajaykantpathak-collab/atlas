@@ -18,8 +18,9 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from sqlalchemy import Column, DateTime, Enum, Float, ForeignKey, Integer, String, Text
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.orm import declarative_base
 from sqlalchemy.sql import func
+
+from backend.db_types import GUID
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -91,7 +92,7 @@ class SeededRNG:
 # ─────────────────────────────────────────────
 # SQLAlchemy ORM Models
 # ─────────────────────────────────────────────
-Base = declarative_base()
+from backend.database import Base
 
 
 class ExamSessionDB(Base):
@@ -99,7 +100,7 @@ class ExamSessionDB(Base):
 
     id: int = Column(Integer, primary_key=True, autoincrement=True)
     session_code: str = Column(String(64), unique=True, index=True, nullable=False)
-    student_id: int = Column(Integer, ForeignKey("students.id"), nullable=False, index=True)
+    student_id = Column(GUID(), ForeignKey("students.id"), nullable=False, index=True)
     subject: str = Column(String(64), nullable=False, index=True)
     exam_type: str = Column(String(32), default="isc_board")
 
@@ -142,7 +143,7 @@ class ExamResultDB(Base):
 
     id: int = Column(Integer, primary_key=True, autoincrement=True)
     session_id: int = Column(Integer, ForeignKey("exam_sessions.id"), nullable=False, index=True)
-    student_id: int = Column(Integer, ForeignKey("students.id"), nullable=False, index=True)
+    student_id = Column(GUID(), ForeignKey("students.id"), nullable=False, index=True)
     subject: str = Column(String(64), nullable=False)
 
     # Scores

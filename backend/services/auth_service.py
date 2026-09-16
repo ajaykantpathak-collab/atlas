@@ -25,10 +25,15 @@ from sqlalchemy import (
 from sqlalchemy.dialects.postgresql import UUID as _PG_UUID  # noqa: F401 – kept for external importers
 from backend.db_types import GUID as UUID
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
-from sqlalchemy.orm import declarative_base, relationship
+from sqlalchemy.orm import declarative_base, relationship  # noqa: F401
 
 from config import settings
-Base = declarative_base()
+# Auth models must register on the app's real metadata — a private
+# declarative_base() leaves their tables out of Base.metadata.create_all,
+# so otp_codes/refresh_tokens/parent_student_links were never created and
+# 'users' was built from the thin models.user.User without OTP columns.
+from backend.database import Base
+from backend.models.user import User as UserModel
 
 # ──────────────────────────────────────────────────────────────
 # PROTOCOLS (Pluggable Interfaces)
@@ -174,64 +179,10 @@ class ErrorResponse(BaseModel):
 # SQLAlchemy MODELS (Internal – not exposed via API)
 # ──────────────────────────────────────────────────────────────
 
-class UserModel(Base):
-    """Maps to existing 'users' table in PostgreSQL.
-    Column names match DB exactly — no aliases needed."""
-    __tablename__ = "users"
-
-    # Identity
-    id = Column(UUID(), primary_key=True, default=uuid.uuid4)
-    email = Column(String(255), nullable=False)
-    name = Column(String(200), nullable=False)
-    password_hash = Column(String(255), nullable=False)
-    role = Column(String(20), nullable=False, index=True)
-
-    # Profile
-    board = Column(String(20), nullable=True)
-    class_level = Column(Integer, nullable=True)
-    avatar_url = Column(String(500), nullable=True)
-    phone_number = Column(String(15), nullable=True, index=True)
-    school_name = Column(String(200), nullable=True)
-
-    # Status flags (NOT NULL in DB — must have server defaults)
-    is_premium = Column(Boolean, nullable=False, server_default=text("false"))
-    is_active = Column(Boolean, nullable=False, server_default=text("true"))
-    is_verified = Column(Boolean, nullable=True, server_default=text("false"))
-    is_guest = Column(Boolean, nullable=True, server_default=text("false"))
-
-    # Gamification (NOT NULL in DB — must have server defaults)
-    total_xp = Column(Integer, nullable=False, server_default=text("0"))
-    current_level = Column(Integer, nullable=False, server_default=text("1"))
-    streak_days = Column(Integer, nullable=False, server_default=text("0"))
-
-    # Activity tracking
-    last_activity_date = Column(DateTime(timezone=True), nullable=True)
-    last_login_at = Column(DateTime(timezone=True), nullable=True)
-    failed_login_attempts = Column(Integer, nullable=True, server_default=text("0"))
-    locked_until = Column(DateTime(timezone=True), nullable=True)
-
-    # Preferences (JSON type in DB)
-    preferences = Column(JSON, nullable=True)
-
-    # Timestamps
-    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
-    updated_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now(), onupdate=func.now())
-
-    # Relationships
-    children = relationship(
-        "ParentStudentLinkModel",
-        back_populates="parent",
-        foreign_keys="ParentStudentLinkModel.parent_id"
-    )
-    parent_of = relationship(
-        "ParentStudentLinkModel",
-        back_populates="student",
-        foreign_keys="ParentStudentLinkModel.student_id"
-    )
-    teaching_classes = relationship(
-        "TeacherClassModel",
-        back_populates="teacher"
-    )
+# UserModel is an alias for the canonical models.user.User (imported above).
+# The previous in-file class mapped 'users' onto a private declarative_base,
+# which collided with the real table definition and was never created by
+# create_all — replaced by the unified model in backend/models/user.py.
 
 
 class GuestSessionModel(Base):
@@ -317,8 +268,8 @@ class ParentStudentLinkModel(Base):
         server_default=func.now()
     )
 
-    parent = relationship("UserModel", back_populates="children", foreign_keys=[parent_id])
-    student = relationship("UserModel", back_populates="parent_of", foreign_keys=[student_id])
+    parent = relationship("User", foreign_keys=[parent_id])
+    student = relationship("User", foreign_keys=[student_id])
 
 
 class TeacherClassModel(Base):
@@ -342,7 +293,7 @@ class TeacherClassModel(Base):
         server_default=func.now()
     )
 
-    teacher = relationship("UserModel", back_populates="teaching_classes")
+    teacher = relationship("User")
 
 
 class RefreshTokenModel(Base):
@@ -727,11 +678,13 @@ class AuthService:
         now = datetime.now(timezone.utc)
 
         if user is None:
-            # New user
-            hashed = self._hash_password(otp_code)  # placeholder – reset after first login
+            # New user — OTP registration: no password/email/name yet,
+            # onboarding collects the profile.  password_hash holds a
+            # placeholder hash (never matches a real password).
             user = UserModel(
                 phone_number=phone_number,
-                hashed_password=hashed,
+                password_hash=self._hash_password(otp_code),
+                role="student",
                 is_verified=True,
                 created_at=now,
             )
@@ -819,7 +772,11 @@ class AuthService:
         if not user_id or not jti:
             raise ValueError("Malformed refresh token")
 
-        token_row = await self.db.get(RefreshTokenModel, jti)
+        token_row = (
+            await self.db.execute(
+                select(RefreshTokenModel).where(RefreshTokenModel.token_jti == jti)
+            )
+        ).scalar_one_or_none()
         if (
             token_row is None
             or str(token_row.user_id) != user_id

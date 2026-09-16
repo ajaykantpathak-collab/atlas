@@ -10,9 +10,7 @@ from datetime import datetime, timezone
 from sqlalchemy import Column, String, Integer, DateTime, Text, Float
 from sqlalchemy.types import TIMESTAMP
 from backend.db_types import GUID, JSONVariant
-from sqlalchemy.orm import declarative_base
-
-Base = declarative_base()
+from backend.database import Base
 
 
 class SolverTemplate(Base):
