@@ -1,0 +1,58 @@
+{
+ "c12_phy_cbse_02_007": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Materials — a metal mesh strainer or a foil-lined cardboard box as the cage, a small battery radio, and a spark-making gas lighter as the noise source, (2) Procedure — tune the radio to static, bring the noise source close so the static grows louder, then seal the radio inside the cage with no large gaps and bring the noise source close again, (3) Expected observation — the static disappears or drops drastically while the radio sits inside the closed conductive cage, proving the interior field is cancelled, (4) The reason — free charges in the cage rearrange themselves so that the external field is cancelled inside the cavity. A poor answer such as putting a phone in a microwave uses a device not designed for shielding, or misses that the conductive enclosure must have no large apertures."
+   }
+  },
+  "appends": []
+ },
+ "c12_phy_cbse_08_004": {
+  "rewrites": {
+   "5": {
+    "a": "(1) The principle — light does carry momentum, so a torch beam exerts a recoil force equal to its power divided by the speed of light, (2) The estimate — for a five-watt torch the force comes to about 1.7 times ten to the minus eight newton, (3) The comparison — that is nearly a thousand times smaller than the weight of a mosquito, which is why no recoil is ever felt, (4) The verdict — the student is right in principle but the effect is negligible at everyday power levels. A wrong evaluation says light has no mass so no momentum, confusing rest mass with relativistic momentum, or divides the power by the wrong speed."
+   }
+  },
+  "appends": []
+ },
+ "c12_phy_cbse_09_003": {
+  "rewrites": {
+   "4": {
+    "a": "(1) The plotted line — sin i against sin r falls on a straight line through the origin, and its slope is the relative refractive index of glass with respect to air, about 1.54 for this data, (2) The swapped plot — with sin r on the y-axis and sin i on the x-axis the slope becomes the reciprocal, the refractive index of air relative to glass, about 0.65, (3) The principle — slope is change in y over change in x, so swapping the axes inverts the slope. A student who says the slope is always the glass-to-air index regardless of axes does not understand the reciprocal relationship between relative refractive indices."
+   }
+  },
+  "appends": []
+ },
+ "c12_phy_cbse_10_004": {
+  "rewrites": {
+   "1": {
+    "a": "(1) Coherence — yes, the forks are coherent because they share the same frequency and were struck simultaneously, so their phase relationship stays constant even though the sources are separate, (2) The wavelength — the speed of sound divided by the frequency gives about 0.664 metre, (3) The path difference — the microphone is 1.5 metre farther from fork B than from fork A, so the path difference is 1.5 metre, (4) The phase difference — two pi over the wavelength times the path difference comes to about 14.2 radian, which reduces to about 1.6 radian modulo two pi. A student who calls the forks incoherent because they are separate instruments confuses independence with incoherence, since coherence only requires a constant phase difference."
+   }
+  },
+  "appends": []
+ },
+ "c12_phy_cbse_10_008": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Setup — face the torch at the phone's light sensor, fix the first polaroid in front of the torch, and hold the second polaroid between the first and the sensor, (2) Data — rotate the second polaroid in steps of ten degrees from zero to one hundred eighty and record the lux reading at each angle after subtracting the background taken with the torch off, (3) Analysis — plot the intensity normalised to its maximum against the angle and compare the curve with the cos-squared prediction, (4) The unpolarised check — rotating a single polaroid alone in front of the torch should give a constant reading, and if it does not, diffuse the torch light through tracing paper. A poor answer omits background subtraction, angle calibration or the unpolarised check, missing the experimental controls."
+   }
+  },
+  "appends": []
+ },
+ "c12_phy_cbse_12_001": {
+  "rewrites": {
+   "1": {
+    "a": "(1) Observation one — most alpha particles passed straight through the gold foil with little or no deflection, showing the atom is mostly empty space, (2) Observation two — a very small fraction, about one in eight thousand, scattered through angles beyond ninety degrees, some even bouncing backward, (3) The inference — rare but violent large-angle scattering is the smoking gun for a tiny, massive, positively charged nucleus at the centre. A wrong answer such as saying the particles were absorbed, or that all were deflected slightly, confuses Rutherford's result with the plum-pudding model's prediction of only small deflections from diffuse charge."
+   }
+  },
+  "appends": []
+ },
+ "c12_phy_cbse_13_001": {
+  "rewrites": {
+   "4": {
+    "a": "(1) Pair one — carbon-14 and nitrogen-14 are isobars, sharing the mass number fourteen with different atomic numbers, (2) Pair two — carbon-12 and carbon-13 are isotopes, the same atomic number six with different mass numbers, (3) Pair three — argon-40 and calcium-40 are isobars, again equal mass numbers with different atomic numbers, (4) Pair four — carbon-14 and nitrogen-15 are isotones, each holding eight neutrons, (5) The rule — isotopes share the proton count, isobars share the mass number and isotones share the neutron count, so both parameters must be checked before classifying. A wrong answer such as calling the first pair isotopes matches only one parameter without checking the other."
+   }
+  },
+  "appends": []
+ }
+}

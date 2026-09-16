@@ -445,3 +445,35 @@ READING_COMPREHENSION_PASSAGES = [
 ]
 
 # return {"status": "ok", "note": "truncated"}
+
+
+# -- solver contract --------------------------------------------
+_PASSAGES = None
+def _bank():
+    global _PASSAGES
+    if _PASSAGES is None:
+        _PASSAGES = []
+        for name, val in list(globals().items()):
+            if isinstance(val, list) and val and isinstance(val[0], dict) and "passage" in val[0]:
+                _PASSAGES = val
+                break
+    return _PASSAGES
+
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Answer a c6 reading-comprehension question from the passage bank."""
+    params = params or {}
+    bank = _bank()
+    if not bank:
+        return {"error": "passage bank empty"}
+    passage = bank[int(params.get("passage", 0)) % len(bank)]
+    qs = passage.get("questions", [])
+    q = qs[int(params.get("q", 0)) % len(qs)] if qs else {}
+    return {"passage": passage.get("title"), "question": q.get("q"), "answer": q.get("answer")}
+
+def check_answer(answer: str = "", user_answer: str = "", **kw):
+    a = (answer or "").strip().lower()
+    u = (user_answer or "").strip().lower()
+    return {"correct": bool(u) and (u in a or a in u)}
+
+SOLVER_REGISTRY = {"c6_eng_rc": solve, "c6_eng_check": check_answer}
+NODE_MAP = {"c6_eng_001": "c6_eng_rc"}

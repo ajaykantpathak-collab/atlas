@@ -3,7 +3,8 @@
 Extracts grading rubrics from question metadata (marking schemes, model
 answers, enrichment data) and stores them as structured JSON criteria.
 
-Rubric sources:
+Rubric sources, in priority order:
+  0. Marking steps (authored examiner data — used VERBATIM, outranks everything)
   1. Board questions: parse `marking_scheme` field into criteria with mark weights
   2. Diagnostic questions: derive criteria from model answer + cognitive_type
   3. Enrichment: use `mastery_criteria` + `scope_boundary` fields
@@ -31,8 +32,14 @@ Usage:
 """
 
 import re
+import sqlite3
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Optional
+
+# Question bank holding the authored marking_steps rows (same corpus the
+# ms_compiler chain pipeline reads — 54k+ examiner-authored steps).
+DEFAULT_QUESTION_BANK_PATH = Path(r"D:\platform\cbse_data\question_bank.db")
 
 
 @dataclass
@@ -106,6 +113,91 @@ class RubricGenerator:
         "process", "mechanism", "reaction", "structure", "function",
         "property", "characteristic", "feature", "method", "technique",
     ]
+
+    @classmethod
+    def generate_from_marking_steps(
+        cls,
+        step_texts: list,
+        max_marks: int = 3,
+        question_id: Optional[str] = None,
+    ) -> Rubric:
+        """Build a rubric VERBATIM from authored marking-step rows.
+
+        Marking steps are examiner-authored data and outrank every derived
+        source: each step text becomes a criterion description unchanged
+        (minus an explicit mark prefix, which becomes the criterion weight).
+        No rephrasing, no splitting, no new content — derive only.
+
+        Args:
+            step_texts: Ordered marking-step texts for one question
+                (doc_id, qno) — the ms_compiler chain grouping.
+            max_marks: Maximum marks for the question.
+            question_id: Optional question ID.
+
+        Returns:
+            Rubric with source="marking_steps". Falls back to the empty
+            model-answer rubric when no usable steps exist (caller then
+            applies the normal source priority).
+        """
+        steps = [str(s).strip() for s in (step_texts or []) if s and str(s).strip()]
+        if not steps:
+            return cls.generate_from_model_answer("", max_marks, question_id)
+
+        criteria = []
+        criterion_id = 1
+        explicit_total = 0
+        explicit_counts = []
+
+        # Honor authored per-step weights when every step declares one
+        # ("(1) State Ohm's law", "1 mark for V=IR", "2 marks: ...").
+        for step in steps:
+            m = (re.match(r"^\((\d+)\)\s*", step)
+                 or re.match(r"^(\d+)\s*marks?\b[^:]*[:\s]\s*", step, re.IGNORECASE))
+            if m:
+                explicit_counts.append(int(m.group(1)))
+            else:
+                explicit_counts.append(None)
+
+        if explicit_counts and all(c is not None for c in explicit_counts):
+            explicit_total = sum(explicit_counts)
+            if explicit_total > max_marks:
+                scale = max_marks / explicit_total
+                explicit_counts = [max(1, round(c * scale)) for c in explicit_counts]
+                # Trim the excess from the largest weights (rounding may
+                # leave the sum over max_marks).
+                while sum(explicit_counts) > max_marks:
+                    largest = max(explicit_counts)
+                    if largest <= 1:
+                        break
+                    i = len(explicit_counts) - 1 - explicit_counts[::-1].index(largest)
+                    explicit_counts[i] = largest - 1
+        else:
+            # Even distribution across authored steps (same convention as
+            # the sentence splitter below).
+            marks_per = max(1, max_marks // len(steps))
+            remainder = max_marks - marks_per * len(steps)
+            explicit_counts = [marks_per + (1 if i < remainder else 0)
+                               for i in range(len(steps))]
+
+        for step, marks in zip(steps, explicit_counts):
+            description = re.sub(r"^\((\d+)\)\s*", "", step)
+            description = re.sub(r"^(\d+)\s*marks?\b[^:]*[:\s]\s*", "", description,
+                                 count=1, flags=re.IGNORECASE).strip() or step
+            criteria.append(RubricCriterion(
+                id=f"c{criterion_id}",
+                description=description,
+                marks=max(1, int(marks)),
+                keywords=cls._extract_keywords(description),
+                bloom_level=cls._detect_bloom_level(description),
+            ))
+            criterion_id += 1
+
+        return Rubric(
+            criteria=criteria,
+            max_marks=max_marks,
+            source="marking_steps",
+            question_id=question_id,
+        )
 
     @classmethod
     def generate_from_marking_scheme(
@@ -418,3 +510,28 @@ class RubricGenerator:
             if any(verb in lower for verb in verbs):
                 return level
         return "understand"  # Default
+
+
+def fetch_marking_steps(doc_id, qno, db_path=None) -> list:
+    """Ordered marking-step texts for one question, or [] on any failure.
+
+    Uses the ms_compiler access pattern (marking_steps joined by
+    doc_id/qno, ordered by step_no). Purely defensive: a missing bank or
+    an absent question yields [] so callers fall through to the next
+    rubric source — evaluation never breaks on this lookup.
+    """
+    path = Path(db_path) if db_path else DEFAULT_QUESTION_BANK_PATH
+    if doc_id is None or qno is None:
+        return []
+    try:
+        conn = sqlite3.connect(str(path))
+        rows = conn.execute(
+            "SELECT text FROM marking_steps "
+            "WHERE doc_id = ? AND CAST(qno AS TEXT) = CAST(? AS TEXT) "
+            "ORDER BY step_no",
+            (doc_id, qno),
+        ).fetchall()
+        conn.close()
+    except Exception:
+        return []
+    return [str(r[0]).strip() for r in rows if r and r[0] and str(r[0]).strip()]

@@ -1,0 +1,426 @@
+
+### NODE c12_phy_cbse_02_007  class=12 sub=phy ch=2 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: In electrostatic equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field inside the conductor is zero, the conductor becomes an equipotential volume, and any net charge resides entirely on its surface with surface charge density σ (C/m²). An insulator (dielectric) lacks mobile charge carriers; charges remain bound to atoms/molecules and cannot move freely, so the electric field inside can be non-zero and charge distribution is fixed.
+WALKTHROUGH: Imagine touching a metal car door after sliding across the seat on a dry day — you feel a spark. That spark is excess charge on your body (a conductor) discharging through the air. Now consider a hollow metal box (Faraday cage) used to protect sensitive electronics in a lightning storm: the lightning's enormous electric field exists outside, but inside the cavity the field is zero. Why? Because free electrons in the metal instantly rearrange to cancel any internal field. Start by visualizing a neutral metal sphere placed in a uniform external field E₀. Free electrons drift opposite to E₀, creating induced surface charges that produce an opposing field E_ind inside. In equilibrium, E₀ + E_ind = 0 everywhere inside. Next, use a Gaussian pillbox straddling the surface to prove E = σ/ε₀ normal to the surface. Finally, argue that since E=0 inside, potential V is constant (∇V = -E = 0), making the entire conductor an equipotential volume. This logic extends to cavities: any cavity inside a conductor, even with external fields, has E=0 if no charges are inside the cavity.
+D1 Q: State the value of the electrostatic electric field inside a conductor in static equilibrium and give the physical reason in one sentence.
+D1 A: The electric field inside a conductor in electrostatic equilibrium is zero. Reason: If E were non-zero, free charges would experience a force (F = qE) and move, constituting a current, contradicting the static equilibrium condition. A wrong answer (e.g., "E is non-zero but small") reveals the student thinks conductors merely "reduce" field rather than cancel it completely, confusing conductors with dielectrics.
+D2 Q: A solid conducting sphere of radius R carries a net charge +Q. A student claims: "The charge +Q is distributed uniformly throughout the volume of the sphere because the sphere is solid." Is this claim correct? Explain why or why not using Gauss's law.
+D2 A: The claim is incorrect. In electrostatic equilibrium, excess charge resides only on the outer surface of a conductor, not in its volume. Proof: Draw a Gaussian sphere of radius r < R inside the conductor. Since E = 0 everywhere inside, flux = 0 ⇒ enclosed charge = 0. This holds for any r < R, so no net charge exists in the interior; all +Q must be on the surface at r = R. A wrong answer indicates the student conflate
+D3 Q: A hollow conducting spherical shell has inner radius a and outer radius b. A point charge +q is placed at the center of the cavity. Calculate the surface charge density on the inner surface (at r = a) and on the outer surface (at r = b). Express answers in terms of q, a, b, and ε₀.
+D3 A: Step 1: Gaussian sphere of radius r where a < r < b (inside conductor material). E = 0 ⇒ flux = 0 ⇒ total enclosed charge = 0. Enclosed charge = q (point charge) + q_inner = 0 ⇒ q_inner = -q.
+Step 2: Inner surface area = 4πa² ⇒ σ_inner = q_inner / (4πa²) = -q / (4πa²).
+Step 3: Conductor is neutral overall (no net charge given) ⇒ q_inner + q_outer = 0 ⇒ q_outer = +q.
+Step 4: Outer surface area = 4πb² ⇒ σ_outer = +q / 
+D4 Q: Two identical conducting spheres A and B carry charges +4 μC and -2 μC respectively. They are brought into contact and then separated. What is the final charge on each sphere? Now, if instead of identical spheres, sphere A has radius R and sphere B has radius 2R, what are the final charges after contact and separation?
+D4 A: Case 1 (identical radii R): Total charge = +2 μC. By symmetry and equal potential after contact, charge splits equally: each gets +1 μC.
+Case 2 (radii R and 2R): After contact, they form a single conductor ⇒ same potential V. For spheres far apart, V = kQ₁/R₁ = kQ₂/R₂ ⇒ Q₁/R = Q₂/(2R) ⇒ Q₂ = 2Q₁. Charge conservation: Q₁ + Q₂ = +2 μC ⇒ Q₁ + 2Q₁ = 2 ⇒ Q₁ = 2/3 μC, Q₂ = 4/3 μC.
+Principle: Conductors in contact reach com
+D5 Q: A student writes: "The electric field just outside a charged conductor is E = σ/ε₀ directed normal to the surface. This formula is derived assuming the conductor is a flat infinite plane, so it cannot be used for a curved conductor like a sphere." Evaluate this statement. Is the formula valid for a curved surface? Just
+D5 A: The statement is false. The formula E = σ/ε₀ (normal to surface) is exact for any shaped conductor in electrostatic equilibrium, not just flat planes. Derivation uses a Gaussian pillbox of infinitesimal height straddling the surface: flux = E·dA (through top) + 0 (through bottom, inside conductor) = σ dA / ε₀ ⇒ E = σ/ε₀. The curvature only affects how σ varies from point to point, but the local relation E = σ/ε₀ hold
+D6 Q: Design a simple experiment using household items to demonstrate electrostatic shielding (Faraday cage effect). List materials, procedure, and the expected observation that proves the interior field is zero. [IN-SCOPE-REWRITE]
+D6 A: Materials: Metal mesh strainer or aluminum foil wrapped around a cardboard box (cage), a small battery-operated AM radio (or a phone receiving a call), a source of strong electromagnetic noise (e.g., electric drill, hair dryer, or lightning — but safely: a piezoelectric gas lighter spark near the cage).
+Procedure: (1) Turn on the radio and tune to a station with static. (2) Bring the noise source close — static incre
+
+VETTED-DIAG cfq_1_2 (fit 0.76, src c12_physics_diagnostics.marker)
+  Q: A hollow conducting sphere of radius 10 cm carries a charge of +2muC. Find the electric field (a) at a point 5 cm from the center, (b) at a point 15 cm from the center.
+  A: (a) Inside a hollow conductor, E = 0 (by Gauss's law, all charge resides on the outer surface; enclosed charge within a Gaussian surface of radius 5 cm is zero). (b) E = kq/r^2 = (9x10^9)(2x10^-6)/(0.15)^2 = (18x10^3)/0.0225 = 8x10^5 N/C, radially outward.
+VETTED-DIAG C12_PHY_BR861A_Q06 (fit 0.64, src c12_phy_board_861a.marker)
+  Q: Define equipotential surface.
+  A: An equipotential surface is a surface on which every point has the same electric potential; no work is done moving a charge along it.
+VETTED-DIAG C12_PHY_SQP26_Q01 (fit 0.62, src c12_phy_sqp_2026.marker)
+  Q: Two point charges +50nC and -50nC separated 1mm are kept inside a large sphere of radius 1m. Electric flux emanating from the sphere is: (a) 50x10^-12 Vm (b) 50x10^-9 Vm (c) 50x10^-6 Vm (d) Zero
+  A: (d) Zero -- net enclosed charge is zero (+50nC and -50nC cancel), so by Gauss's theorem Phi = q_enclosed/epsilon_0 = 0
+VETTED-MIS misconception_9 (fit 0.67)
+  M: The electric field inside a dielectric is zero, just like inside a conductor in electrostatic equilibrium.
+  C: Field inside a dielectric is E0/K, reduced by factor K but nonzero. Field inside a conductor in equilibrium is zero.
+VETTED-MIS misconception_9 (fit 0.67)
+  M: The electric field inside a dielectric is zero, just like inside a conductor in electrostatic equilibrium.
+  C: Field inside a dielectric is E0/K, reduced by factor K but nonzero. Field inside a conductor in equilibrium is zero.
+VETTED-MIS misconception_5 (fit 0.52)
+  M: Charge resides only on the outer surface of a conductor because charges repel and push each other outward.
+  C: In electrostatic equilibrium, the electric field inside a conductor is zero, so by Gauss's law the net charge density in the interior must be zero; all excess charge resides on the surface. The surface distribution need not be uniform -- it concentrates where curvature is high.
+### NODE c12_phy_cbse_03_002  class=12 sub=phy ch=3 verdict=PARTIAL action=REWRITE [2]
+DEFINITION: Ohm's Law states that for a given metallic conductor at constant temperature, the current (I) flowing through it is directly proportional to the potential difference (V) applied across its ends, i.e., V ∝ I or V = IR, where R is the resistance of the conductor (SI unit: ohm, Ω). The law is valid only for ohmic materials where the V–I graph is a straight line passing through the origin, and resistance R is independent of V and I.
+WALKTHROUGH: Observe a household incandescent bulb: when you switch it on, the filament glows because current flows through it. If you connect the same bulb to a variable power supply (like a lab rheostat) and measure voltage across and current through it at different settings, you will notice a pattern. Start by plotting V vs I on graph paper — for a metallic wire at room temperature, the points fall on a straight line through the origin. This linear proportionality is Ohm's law. Now ask: does every material behave this way? Connect a diode (from an old LED circuit) in forward and reverse bias — the graph is not a straight line, and reversing voltage doesn't simply reverse current. This leads to the limitations. The microscopic form E = ρj connects the macroscopic V = IR to the electric field and current density inside the material, which we will use in the next node to derive drift velocity.
+D1 Q: State Ohm's law in its mathematical form and write the SI unit of resistance. What is the essential condition for a conductor to obey Ohm's law?
+D1 A: Ohm's law: V = IR, where V is potential difference (volt, V), I is current (ampere, A), R is resistance (ohm, Ω). Essential condition: temperature of the conductor must remain constant. A wrong answer (e.g., missing "constant temperature" or giving unit as "ohm per metre") reveals the student treats Ohm's law as universally true without conditions, a common Board exam error.
+D2 Q: A student claims: "Ohm's law is V = IR, so resistance R = V/I. Therefore, if I double the voltage across a resistor, the resistance doubles because R is proportional to V." Identify the flaw in this reasoning and explain what R = V/I actually defines.
+D2 A: The flaw: R = V/I defines resistance for any conductor (ohmic or non-ohmic); it does not imply R ∝ V. For an ohmic conductor, R is constant (independent of V and I) — doubling V doubles I, keeping R unchanged. The student confuses the definition of resistance with Ohm's law (which asserts R is constant). A wrong answer shows the student cannot distinguish between a definition and a physical law.
+D3 Q: A carbon resistor has a colour code: brown, black, red, gold. It is connected across a 12 V battery. Calculate the current through the resistor. (Colour code: 1st digit, 2nd digit, multiplier, tolerance; brown=1, black=0, red=×100, gold=±5%) [IN-SCOPE-REWRITE]
+D3 A: Step 1: Decode resistance: brown (1), black (0), red (×100) → R = 10 × 100 = 1000 Ω = 1 kΩ. Tolerance ±5% → R = 1000 ± 50 Ω.
+Step 2: Apply Ohm's law: I = V/R = 12 V / 1000 Ω = 0.012 A = 12 mA.
+Step 3: Check units: V/Ω = A (correct). Answer: 12 mA (range 11.4–12.6 mA due to tolerance).
+A wrong answer (e.g., 1.2 A or 120 mA) reveals misreading the colour code multiplier or unit conversion error.
+D4 Q: The V–I graphs for three devices are shown: (a) straight line through origin, (b) straight line not through origin, (c) curve symmetric about origin but non-linear. Classify each as ohmic/non-ohmic and give one physical example for each.
+D4 A: (a) Ohmic: straight line through origin → metallic wire at constant temperature (e.g., copper).
+(b) Non-ohmic: straight line with non-zero intercept → electrochemical cell (EMF + internal resistance) or a diode with threshold voltage.
+(c) Non-ohmic: non-linear but symmetric → thermistor (NTC) or varistor; current increases faster than voltage due to heating.
+A wrong classification (e.g., calling (b) ohmic) shows the 
+D5 Q: A p-n junction diode has the V–I characteristic: I = I₀(e^(qV/kT) – 1) for V > 0 (forward bias) and I ≈ –I₀ for V < 0 (reverse bias), where I₀ = 1 μA, q = 1.6×10⁻¹⁹ C, k = 1.38×10⁻²³ J/K, T = 300 K. Evaluate whether this device obeys Ohm's law. Justify using the three limitation criteria from NCERT.
+D5 A: The diode violates all three criteria: (1) V vs I is non-linear (exponential) → limitation (a). (2) Reversing V (say +0.5 V vs –0.5 V) gives vastly different |I| (mA vs μA) → limitation (b). (3) For a given I in forward bias, there is only one V, but in reverse bias, many V values give same I ≈ –I₀ → non-unique relation → limitation (c). Hence, diode is non-ohmic. A wrong answer that only cites non-linearity misses t
+D6 Q: Design a simple experiment using a pencil lead (graphite), a 9 V battery, an ammeter, a voltmeter, and a rheostat to verify Ohm's law and determine the resistance of the graphite rod. List the steps, the data table columns, and how you will conclude whether graphite is ohmic.
+D6 A: Steps: (1) Connect graphite rod in series with battery, rheostat, ammeter; voltmeter across rod. (2) Vary rheostat to get 5–6 readings of V (0–9 V) and I. (3) Table: Sr. No., V (V), I (A), R = V/I (Ω). (4) Plot V vs I; if straight line through origin, graphite is ohmic and slope = R. (5) Check if R values are constant within error. Expected: Graphite is ohmic at low currents but may deviate at high currents due to he
+
+VETTED-DIAG C12_PHY_SQP861_Q11_II (fit 0.75, src c12_phy_sqp_861.marker)
+  Q: (ii) Determine resistance of the ammeter.
+  A: 1/R = 1/100 + 1/1.01; R = 0.999 Omega.
+VETTED-DIAG C12_PHY_SQP861_Q10II_A (fit 0.71, src c12_phy_sqp_861.marker)
+  Q: Drift velocity vd = -eEtau/m. (a) How does drift velocity change with change in potential difference across the conductor?
+  A: As potential difference increases, electric field E increases. Since vd proportional to E, drift velocity also increases.
+VETTED-DIAG C12_PHY_SQP861_Q20_III (fit 0.67, src c12_phy_sqp_861.marker)
+  Q: When applied voltage during forward bias is small, why does no current flow in the diode?
+  A: Due to potential barrier or barrier p.d.
+VETTED-MIS misconception_7 (fit 0.22)
+  M: The degree Celsius is the SI unit of temperature.
+  C: SI unit of temperature = kelvin (K). Everyday unit = degree Celsius (deg C). A change of 1 deg C equals a change of 1 K. Temperature in K = temperature in deg C + 273.15.
+VETTED-MIS misconception_15 (fit 0.22)
+  M: A battery's voltage tells you its power directly.
+  C: Power = Voltage x Current (P = V x I). A 9 V battery delivering 0.5 A gives 4.5 W; the same 9 V battery delivering 2 A gives 18 W.
+VETTED-MIS misconception_7 (fit 0.22)
+  M: The degree Celsius is the SI unit of temperature.
+  C: SI unit of temperature = kelvin (K). Everyday unit = degree Celsius (deg C). A change of 1 deg C equals a change of 1 K. Temperature in K = temperature in deg C + 273.15.
+### NODE c12_phy_cbse_03_004  class=12 sub=phy ch=3 verdict=PARTIAL action=REWRITE [1, 3, 4]
+DEFINITION: Resistivity (ρ) is an intrinsic material property quantifying how strongly a material opposes electric current; its SI unit is ohm-metre (Ω·m). The temperature dependence of resistivity for metals over a limited range is approximately linear: ρ_T = ρ_0[1 + α(T - T_0)], where ρ_0 is resistivity at reference temperature T_0, α is the temperature coefficient of resistivity (SI unit: °C⁻¹ or K⁻¹), and α > 0 for metals. For semiconductors and insulators, resistivity decreases with temperature (α < 0) due to a rapid increase in charge carrier density.
+WALKTHROUGH: Observe an electric geyser heating element: when cold, its resistance is low; as it heats up to 80–90°C, the resistance increases noticeably, causing the current to settle to a steady value. Begin by measuring the resistance of a nichrome wire at room temperature (using a multimeter) and then at a higher temperature (by passing a known current). Use the formula R = R_0[1 + α(T - T_0)] to find α. Connect this to the drift velocity model (c12_phy_cbse_03_003): resistivity ρ = m/(ne²τ). In metals, n is nearly constant but τ decreases with temperature due to increased lattice vibrations, so ρ increases. In semiconductors, n increases exponentially with T, overwhelming the decrease in τ, so ρ decreases.
+D1 Q: State the formula for the temperature dependence of resistivity of a metallic conductor over a limited temperature range. Define the temperature coefficient of resistivity (α) and give its SI unit.
+D1 A: ρ_T = ρ_0[1 + α(T - T_0)], where ρ_T is resistivity at temperature T, ρ_0 at reference T_0, and α is the temperature coefficient of resistivity. α = (1/ρ_0)(dρ/dT) at T_0; SI unit: °C⁻¹ or K⁻¹. A wrong answer (e.g., writing α = (ρ_T - ρ_0)/ρ_0 without dividing by ΔT, or giving unit as Ω·m) reveals confusion between the coefficient and the fractional change, or between resistivity and its temperature coefficient.
+D2 Q: Explain why the resistivity of copper increases with temperature while that of silicon decreases, using the microscopic formula ρ = m/(ne²τ). What happens to n and τ in each case as temperature rises? [IN-SCOPE-REWRITE]
+D2 A: In copper (metal), n (free electron density) is almost temperature-independent, but τ (relaxation time) decreases because lattice vibrations increase, causing more frequent collisions. Thus ρ ∝ 1/τ increases. In silicon (semiconductor), n increases exponentially with temperature as more electrons are excited across the band gap; this increase far outweighs the decrease in τ, so ρ decreases. A wrong answer that claims
+D3 Q: A nichrome heating coil in an electric iron has a resistance of 48.0 Ω at 20.0°C. The temperature coefficient of resistivity of nichrome is 1.70 × 10⁻⁴ °C⁻¹. Calculate the resistance of the coil when the iron reaches its steady operating temperature of 320°C. Assume the dimensions of the coil do not change significantl
+D3 A: Given: R_0 = 48.0 Ω at T_0 = 20.0°C, α = 1.70 × 10⁻⁴ °C⁻¹, T = 320°C.
+Step 1: ΔT = T - T_0 = 300°C.
+Step 2: Use R = R_0[1 + αΔT] = 48.0[1 + (1.70×10⁻⁴)(300)].
+Step 3: αΔT = 1.70×10⁻⁴ × 300 = 0.0510.
+Step 4: R = 48.0 × 1.0510 = 50.448 Ω ≈ 50.4 Ω (3 significant figures).
+Units: α in °C⁻¹, ΔT in °C → dimensionless product; R in Ω.
+A wrong answer like 48.0 + 0.051 = 48.051 Ω reveals forgetting to multiply R_0 by the fact
+D4 Q: The graph below shows resistivity ρ versus temperature T for two materials A and B. Material A is a metal, Material B is a semiconductor. (i) Identify which curve corresponds to which material. (ii) Explain why the slope of curve A is positive but small, while curve B has a large negative slope. (iii) Why is the linear [IN-SCOPE-REWRITE]
+D4 A: (i) Curve with positive slope (ρ increases with T) → Material A (metal). Curve with negative slope (ρ decreases with T) → Material B (semiconductor). (ii) For metals, α is small positive (~10⁻³ to 10⁻⁴ °C⁻¹) because only τ changes slightly; for semiconductors, the exponential increase in n causes a large negative α. (iii) At very low temperatures, ρ vs T deviates from linearity (ρ ∝ T⁵ for pure metals) and saturates 
+D5 Q: A student solves Example 3.3 (nichrome toaster) but uses α = 1.70 × 10⁻⁴ K⁻¹ and temperature in Kelvin (T_1 = 300 K, T_2 = ?). They get T_2 = 1120 K. Is this correct? Evaluate the student's method and answer. [IN-SCOPE-REWRITE]
+D5 A: The student's method is incorrect because the temperature coefficient α is given per °C, and the formula uses temperature difference ΔT. Since ΔT in °C equals ΔT in K, the numerical value of α is the same whether expressed in °C⁻¹ or K⁻¹. However, the reference temperature T_0 must be in the same scale as T. If T_0 = 27°C = 300 K, then T_2 = T_0 + ΔT = 300 K + 820 K = 1120 K, which corresponds to 847°C. The answer 11
+D6 Q: Design a simple experiment using a meter bridge (slide wire bridge) to determine the temperature coefficient of resistivity (α) of a copper wire. List the apparatus, procedure, measurements, and the formula you would use to calculate α from the balance lengths at two different temperatures.
+D6 A: Apparatus: Meter bridge, copper wire (unknown resistor), standard resistance box, galvanometer, battery, thermometer, water bath with heater. Procedure: (1) Place copper wire in the left gap, a known resistance R in the right gap. (2) Immerse the copper wire in a water bath at room temperature T_1; find balance length l_1. (3) Heat the bath to a higher temperature T_2; find balance length l_2. (4) Use meter bridge fo
+
+VETTED-DIAG C12_PHY_SQP861_Q02II_B (fit 0.80, src c12_phy_sqp_861.marker)
+  Q: (b) Which temperature (T1 or T2) is higher?
+  A: Since resistance rises with temperature and R at T2 is higher, T2 > T1.
+VETTED-DIAG C12_PHY_SQP861_Q02II_A (fit 0.60, src c12_phy_sqp_861.marker)
+  Q: Figure 2 shows current-voltage graphs for a conductor at two temperatures T1 and T2. (a) At which temperature T1 or T2 is the resistance higher?
+  A: Resistance at T1 < Resistance at T2 (slope gives conductance; theta1 > theta2).
+VETTED-DIAG C12_PHY_SQP26_Q16 (fit 0.54, src c12_phy_sqp_2026.marker)
+  Q: [OR] The I-V graphs for a conductor are given at two temperatures T_1 and T_2. (a) At which temperature is the resistance higher? (b) Which temperature T_1 or T_2 is higher?
+  A: (a) R = V/I = 1/tantheta; since theta_1 > theta_2, R at T_1 < R at T_2; (b) T_2 > T_1 (resistance rises with temperature for conductors)
+VETTED-MIS misconception_1 (fit 0.25)
+  M: The electric field of an infinite line charge falls off as 1/r^2, just like a point charge.
+  C: For an infinite line of linear charge density lambda, E = lambda / (2 x pi x epsilon0 x r), directed radially outward (for positive lambda). It falls as 1/r.
+VETTED-MIS misconception_1 (fit 0.25)
+  M: The electric field of an infinite line charge falls off as 1/r^2, just like a point charge.
+  C: For an infinite line of linear charge density lambda, E = lambda / (2 x pi x epsilon0 x r), directed radially outward (for positive lambda). It falls as 1/r.
+VETTED-MIS misconception_7 (fit 0.22)
+  M: The degree Celsius is the SI unit of temperature.
+  C: SI unit of temperature = kelvin (K). Everyday unit = degree Celsius (deg C). A change of 1 deg C equals a change of 1 K. Temperature in K = temperature in deg C + 273.15.
+### NODE c12_phy_cbse_08_004  class=12 sub=phy ch=8 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: An electromagnetic wave is a self-propagating transverse wave consisting of mutually perpendicular, sinusoidally oscillating electric field vector E and magnetic field vector B, both perpendicular to the direction of propagation k. In vacuum, it travels at the universal constant speed \(c = 1/\sqrt{\mu_0\varepsilon_0} = 3.00 \times 10^8 \text{ m/s}\), with the field amplitudes related by \(E_0 = c B_0\). The wave carries energy, momentum, and angular momentum, and exerts radiation pressure on surfaces.
+WALKTHROUGH: Observe a microwave oven: the rotating turntable ensures even heating because the microwaves form standing waves with hot and cold spots — this reveals that EM waves carry energy in a spatially varying pattern. Begin by recalling from Class 11 (c11_phy_cbse_14_001) that transverse waves have oscillations perpendicular to propagation. Use Maxwell’s equations (c12_phy_cbse_08_002) to deduce that a changing E produces B and vice versa, forcing E, B, k to be mutually perpendicular. Derive \(c = 1/\sqrt{\mu_0\varepsilon_0}\) from the wave equation. Introduce the sinusoidal form \(E_x = E_0 \sin(kz - \omega t)\), \(B_y = B_0 \sin(kz - \omega t)\). Show that energy density \(u_E = u_B\) leads to intensity \(I = \frac{1}{2}\varepsilon_0 c E_0^2\). Finally, connect momentum \(p = U/c\) to radiation pressure \(P = I/c\) (absorption) and \(2I/c\) (reflection) — a measurable force used in solar sails.
+D1 Q: State the mutual orientation of the electric field E, magnetic field B, and propagation vector k in a plane electromagnetic wave travelling in vacuum. Give the SI unit of the wave number \(k\).
+D1 A: E, B, and k are mutually perpendicular (orthogonal triad). The wave number \(k\) has SI unit rad/m (or m⁻¹). A wrong answer (e.g., E parallel to k) reveals confusion with longitudinal waves like sound; missing unit indicates lack of dimensional awareness.
+D2 Q: A plane EM wave in vacuum has electric field amplitude \(E_0 = 120 \text{ N/C}\). Without calculating, explain why the magnetic field amplitude must be \(B_0 = 4.0 \times 10^{-7} \text{ T}\). What physical principle fixes this ratio?
+D2 A: From Maxwell’s equations, the wave speed \(c = E_0/B_0\). Since \(c = 3.00 \times 10^8 \text{ m/s}\), \(B_0 = E_0/c = 120 / (3 \times 10^8) = 4.0 \times 10^{-7} \text{ T}\). The principle is the intrinsic coupling of E and B in free space — they are not independent; the wave impedance of vacuum \(Z_0 = \sqrt{\mu_0/\varepsilon_0} = E_0/H_0\) fixes the ratio. A student who says “they are just proportional” misses the q
+D3 Q: A radio station broadcasts at \(f = 98.3 \text{ MHz}\) with an average intensity \(I = 2.5 \times 10^{-6} \text{ W/m}^2\) at a certain distance. Calculate (a) the wavelength \(\lambda\), (b) the electric field amplitude \(E_0\), and (c) the radiation pressure on a perfectly absorbing surface at that location.
+D3 A: (a) \(\lambda = c/f = (3.00 \times 10^8) / (98.3 \times 10^6) = 3.05 \text{ m}\). 
+(b) \(I = \frac{1}{2}\varepsilon_0 c E_0^2 \Rightarrow E_0 = \sqrt{2I/(\varepsilon_0 c)} = \sqrt{2 \times 2.5 \times 10^{-6} / (8.85 \times 10^{-12} \times 3.00 \times 10^8)} = 1.37 \text{ V/m}\). 
+(c) \(P_{\text{abs}} = I/c = 2.5 \times 10^{-6} / (3.00 \times 10^8) = 8.33 \times 10^{-15} \text{ Pa}\). 
+A wrong \(\lambda\) (e.g., using
+D4 Q: Compare the average electric energy density \(\langle u_E \rangle\) and average magnetic energy density \(\langle u_B \rangle\) in a plane EM wave in vacuum. If the wave enters a dielectric with \(\varepsilon_r = 4\), \(\mu_r = 1\), how do \(\langle u_E \rangle\) and \(\langle u_B \rangle\) change relative to each othe
+D4 A: In vacuum, \(\langle u_E \rangle = \langle u_B \rangle = \frac{1}{4}\varepsilon_0 E_0^2 = \frac{1}{4\mu_0}B_0^2\). In a dielectric, the wave speed \(v = c/\sqrt{\varepsilon_r\mu_r} = c/2\). The amplitude ratio becomes \(E_0/B_0 = v = c/2\). Since \(\langle u_E \rangle = \frac{1}{4}\varepsilon E_0^2\) and \(\langle u_B \rangle = \frac{1}{4\mu}B_0^2\), substituting \(B_0 = 2E_0/c\) and \(\varepsilon = 4\varepsilon_0\),
+D5 Q: A student argues: “Since light carries momentum, a flashlight should recoil like a gun when turned on. Why don’t we observe this?” Evaluate this statement quantitatively. Estimate the recoil force of a 5 W flashlight and compare it to the weight of a mosquito (\(mg \approx 2 \times 10^{-5} \text{ N}\)). [IN-SCOPE-REWRITE]
+D5 A: The student is correct in principle: light carries momentum \(p = U/c\), so power \(P\) exerts force \(F = P/c\) (for absorption). For a 5 W flashlight, \(F = 5 / (3 \times 10^8) = 1.67 \times 10^{-8} \text{ N}\). This is \(\sim 1000\times\) smaller than a mosquito’s weight (\(2 \times 10^{-5} \text{ N}\)), hence imperceptible. The statement is physically sound but the effect is negligible for everyday power levels. 
+D6 Q: Design a thought experiment using a torsion balance to measure radiation pressure of a laser beam. Specify the key measurable quantities, the expected deflection angle formula, and one major systematic error to control.
+D6 A: Suspend a lightweight mirror (area \(A\), mass \(m\)) on a torsion fiber (torsion constant \(\kappa\)). Reflect a laser of power \(P\) normally onto the mirror. Radiation pressure \(P_{\text{rad}} = 2P/(cA)\) exerts force \(F = 2P/c\). Torque \(\tau = F \cdot d\) (where \(d\) is lever arm) twists fiber by angle \(\theta = \tau/\kappa = (2Pd)/(\kappa c)\). Measure \(\theta\) with an optical lever. Major systematic err
+
+VETTED-DIAG C12_PHY_SQP861_Q07_II (fit 0.62, src c12_phy_sqp_861.marker)
+  Q: What is the wavelength range of electromagnetic radiation used in radio broadcast?
+  A: Greater than 1 m.
+VETTED-DIAG C12_PHY_SQP26_Q7 (fit 0.57, src c12_phy_sqp_2026.marker)
+  Q: Name the electromagnetic wave used in: (a) radars (b) crystallography
+  A: (a) Microwaves, (b) X-rays
+VETTED-DIAG C12_PHY_SQP861_Q07_I (fit 0.57, src c12_phy_sqp_861.marker)
+  Q: Name the electromagnetic radiation that has been used in obtaining the image below.
+  A: X-rays.
+VETTED-MIS misconception_4 (fit 0.24)
+  M: There is no acceleration in uniform circular motion because speed is constant.
+  C: Uniform circular motion has constant speed but changing velocity, hence a centripetal acceleration. The acceleration is perpendicular to the velocity (toward the center), so it changes direction, not magnitude, of velocity.
+VETTED-MIS misconception_4 (fit 0.24)
+  M: There is no acceleration in uniform circular motion because speed is constant.
+  C: Uniform circular motion has constant speed but changing velocity, hence a centripetal acceleration. The acceleration is perpendicular to the velocity (toward the center), so it changes direction, not magnitude, of velocity.
+VETTED-MIS misconception_12 (fit 0.21)
+  M: A stationary electric charge produces a magnetic field just like a moving charge does.
+  C: Stationary charge -> electric field only. Moving charge (current) -> both electric and magnetic fields. The magnetic field is a relativistic consequence of the motion of charge.
+### NODE c12_phy_cbse_09_003  class=12 sub=phy ch=9 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: Refraction is the bending of a light ray when it passes obliquely from one transparent medium into another due to a change in its speed. Snell's law states that for a given pair of media and a given wavelength of light, the ratio of the sine of the angle of incidence (i) to the sine of the angle of refraction (r) is a constant, called the relative refractive index (n₂₁): n₂₁ = sin i / sin r. The angles are measured from the normal at the point of incidence. The absolute refractive index of a medium (n) is the ratio of the speed of light in vacuum (c) to its speed in that medium (v): n = c/v.
+WALKTHROUGH: Observe a pencil partially immersed in a glass of water — it appears bent at the water surface. This everyday observation is refraction. Begin by placing a rectangular glass slab on a white sheet, trace its outline, and direct a pin at an angle to one face. View from the other side and place two more pins so all four appear collinear. Remove the slab, join the pin holes, and measure the angles with the normal. You will find sin i / sin r is constant for different angles. This constant is the relative refractive index of glass with respect to air. Connect this to Class 10 knowledge: the speed of light decreases in glass, causing the ray to bend towards the normal. The key formula n₁ sin i = n₂ sin r emerges from the definition n = c/v and the wavefront continuity condition at the boundary.
+D1 Q: State Snell's law of refraction in terms of the absolute refractive indices of the two media and the angles of incidence and refraction. Define each symbol and its SI unit.
+D1 A: Snell's law: n₁ sin i = n₂ sin r. Here n₁ = absolute refractive index of medium 1 (dimensionless), n₂ = absolute refractive index of medium 2 (dimensionless), i = angle of incidence (radian or degree), r = angle of refraction (radian or degree). A wrong answer (e.g., writing sin i / sin r = n₁/n₂ or swapping n₁ and n₂) reveals confusion about which medium's refractive index multiplies which angle. The correct form fo
+D2 Q: A ray of light travels from water (n = 1.33) into crown glass (n = 1.52). Will the ray bend towards the normal or away from the normal? Explain using the concept of optical density and the speed of light in the two media.
+D2 A: The ray bends towards the normal. Crown glass (n=1.52) is optically denser than water (n=1.33) because light travels slower in glass (v = c/1.52) than in water (v = c/1.33). When light enters a medium where its speed decreases, the wavefronts bend such that the ray turns towards the normal. A student who says "away from the normal" incorrectly thinks higher refractive index means faster speed, or confuses optical den
+D3 Q: A light ray in air (n = 1.00) strikes a glass slab (n = 1.50) at an angle of incidence of 35°. Calculate the angle of refraction inside the glass. Give your answer in degrees to one decimal place.
+D3 A: Given: n₁ = 1.00, n₂ = 1.50, i = 35°. Using n₁ sin i = n₂ sin r → sin r = (n₁/n₂) sin i = (1.00/1.50) × sin 35° = 0.6667 × 0.5736 = 0.3824. r = sin⁻¹(0.3824) = 22.5°. A wrong answer like 57° or 23.5° (using sin 35° ≈ 0.57 without division) reveals either swapping n₁ and n₂ (sin r = 1.5 × sin 35° = 0.86 → r ≈ 59°) or forgetting to take inverse sine. Unit check: refractive indices are dimensionless, angles in degrees, 
+D4 Q: A student performs the glass slab experiment and obtains the following data for sin i and sin r:
+
+| sin i | 0.20 | 0.40 | 0.60 | 0.80 |
+| sin r | 0.13 | 0.26 | 0.39 | 0.52 |
+
+Plot sin i vs sin r mentally. What does the slope represent? If the student accidentally swapped the axes (plotting sin r on y-axis and sin i on  [IN-SCOPE-REWRITE]
+D4 A: The data shows sin i / sin r = 0.20/0.13 ≈ 1.54 (constant). Plotting sin i (y) vs sin r (x) gives a straight line through origin with slope = n₂₁ = n_glass/n_air ≈ 1.54. If axes are swapped (sin r vs sin i), the slope becomes 1/n₂₁ = n₁₂ ≈ 0.65. A student who says the slope is always n₂₁ regardless of axes does not understand that slope = Δy/Δx. This tests whether they can interpret graphical representation of Snell'
+D5 Q: A ray of light passes from medium A (n = 1.6) to medium B (n = 1.2). The angle of incidence is 40°. A student calculates the angle of refraction as 60°. Evaluate this answer. Is it physically possible? If not, what phenomenon occurs instead?
+D5 A: The calculation gives sin r = (n_A/n_B) sin i = (1.6/1.2) × sin 40° = 1.333 × 0.6428 = 0.857. Then r = sin⁻¹(0.857) ≈ 59°. The student's 60° is close but not exact. However, the critical angle for this interface is sin⁻¹(n_B/n_A) = sin⁻¹(1.2/1.6) = sin⁻¹(0.75) = 48.6°. Since i = 40° < 48.6°, refraction does occur and the answer is physically possible (ray bends away from normal). If the student had used i = 50°, then
+D6 Q: Design a simple experiment using a laser pointer, a semicircular glass block, and a protractor to verify Snell's law and determine the refractive index of glass. Describe how you would ensure the incident ray passes through the centre of the flat face, and why this geometry avoids refraction at the curved surface.
+D6 A: Place the semicircular block on a protractor with its flat face along the 0°-180° line and its centre at the protractor's centre. Direct the laser at the centre of the flat face at various angles of incidence. The ray enters undeviated at the flat face (normal incidence? No — wait: if the ray hits the flat face at an angle, it refracts. But if we want to measure refraction at the curved surface? Actually, standard me
+
+VETTED-DIAG C12_PHY_SQP26_Q11 (fit 0.62, src c12_phy_sqp_2026.marker)
+  Q: Give any one example where a ray of light travelling from one optical medium to another travels undeviated.
+  A: When light is incident normally on the interface, or when mu_1 = mu_2 (refractive indices of both media are equal)
+VETTED-DIAG C12_PHY_BR861A_Q11 (fit 0.56, src c12_phy_board_861a.marker)
+  Q: Define critical angle for a given medium.
+  A: The angle of incidence in the denser medium for which the angle of refraction in the rarer medium is 90 deg .
+VETTED-DIAG C12_PHY_CFQ_SA_Q02 (fit 0.53, src c12_phy_cfq_vsa_sa.marker)
+  Q: Which material is used to make this glass slab? (Given lateral displacement = 5.7 mm, thickness = 10 mm, angle of incidence = 30 degrees.)
+  A: Lateral displacement = t*sin(i-r)/cos(r). cos(r) = (10*0.5)/5.7 = 0.8772, so r = 28.69 degrees. Refractive index = sin(i)/sin(r) = sin(58.69)/sin(28.69) = 1.77. The material is sapphire.
+VETTED-MIS misconception_14 (fit 0.22)
+  M: Friction is the same whether an object is at rest, just about to move, or sliding, because the surfaces are the same.
+  C: For a given pair and normal load, static friction is variable (0 to limiting), and kinetic friction is roughly constant but less than limiting friction.
+VETTED-MIS misconception_14 (fit 0.22)
+  M: Friction is the same whether an object is at rest, just about to move, or sliding, because the surfaces are the same.
+  C: For a given pair and normal load, static friction is variable (0 to limiting), and kinetic friction is roughly constant but less than limiting friction.
+VETTED-MIS misconception_8 (fit 0.21)
+  M: The shadow moves by itself when the object is still.
+  C: A shadow's position depends on the relative positions of the light source, the object, and the screen. If any one of them moves, the shadow moves.
+### NODE c12_phy_cbse_10_004  class=12 sub=phy ch=10 verdict=PARTIAL action=REWRITE [0]
+DEFINITION: Coherent sources are two or more wave sources that maintain a constant phase difference and have the same frequency, enabling stable interference patterns where positions of maxima and minima remain fixed in time. Incoherent sources have a rapidly varying phase difference, causing the interference pattern to fluctuate and time-average to uniform intensity.
+WALKTHROUGH: Observe two LED bulbs in your room — they illuminate the wall uniformly without dark/bright bands. Now recall the ripple tank from Class 11 where two vibrating needles created stable nodal/antinodal lines. The difference is coherence: the needles were mechanically linked (same driver), while LEDs are independent. In Young's 1801 experiment, he used a single pinhole to illuminate two closely spaced pinholes, "locking" their phases. We begin by writing displacements y₁ = a cos ωt and y₂ = a cos(ωt + φ), then superpose them using trigonometric identities to find resultant amplitude and intensity. The key step is recognizing φ = (2π/λ) × path difference.
+D1 Q: Two identical tuning forks of frequency 512 Hz are struck simultaneously. Fork A is at x = 0 m, Fork B is at x = 1.5 m. A microphone at x = 3.0 m detects sound. Speed of sound = 340 m/s. Are the two sources coherent? What is the phase difference at the microphone? [IN-SCOPE-REWRITE]
+D1 A: Yes, the sources are coherent because they have the same frequency (512 Hz) and maintain a constant phase relationship (both struck simultaneously). Wavelength λ = v/f = 340/512 = 0.664 m. Path difference Δx = (3.0 - 1.5) - (3.0 - 0) = -1.5 m. Phase difference φ = (2π/λ) × |Δx| = (2π/0.664) × 1.5 = 14.2 rad ≡ 1.6 rad (mod 2π). WRONG ANSWER REVEALS: If student says "not coherent because they are separate forks", they 
+D2 Q: In a Young's double slit experiment, the two slits are illuminated by a single sodium lamp (λ = 589 nm). A student covers one slit with a thin mica sheet of thickness 2 μm and refractive index 1.58. Explain whether the central fringe shifts, and if so, in which direction and by how many fringes.
+D2 A: Yes, central fringe shifts. The mica introduces additional optical path = (μ - 1)t = (1.58 - 1) × 2 × 10⁻⁶ = 1.16 × 10⁻⁶ m. Number of fringes shifted = (μ - 1)t / λ = 1.16 × 10⁻⁶ / 589 × 10⁻⁹ = 1.97 ≈ 2 fringes. Since the covered slit's light is delayed (longer optical path), the central maximum moves TOWARDS the covered slit to compensate. WRONG ANSWER REVEALS: If student says "fringe shifts away from covered slit",
+D3 Q: Two coherent sources S₁ and S₂ emit light of wavelength 600 nm with equal intensity I₀ = 4 W/m². At point P on a screen, the path difference S₂P - S₁P = 450 nm. Calculate the resultant intensity at P. If the sources were incoherent, what would be the intensity at P?
+D3 A: Given: λ = 600 nm, Δx = 450 nm, I₀ = 4 W/m². Phase difference φ = (2π/λ) × Δx = (2π/600) × 450 = 1.5π rad. For coherent sources: I = 4I₀ cos²(φ/2) = 4 × 4 × cos²(0.75π) = 16 × cos²(135°) = 16 × (-1/√2)² = 16 × ½ = 8 W/m². For incoherent sources: I = 2I₀ = 2 × 4 = 8 W/m². (Coincidentally same here because cos²(φ/2) = ½). WRONG ANSWER REVEALS: If student uses φ = (2π/λ)Δx but forgets the factor of 2 in 4I₀, they get 2 
+D4 Q: A student sets up Young's double slit with slit separation d = 0.5 mm, screen distance D = 1.2 m, using a He-Ne laser (λ = 632.8 nm). They observe clear fringes. Then they replace the laser with a white light LED bulb placed at the same position. The fringes disappear. Explain why, using the concept of temporal coheren
+D4 A: White light LED emits a broad spectrum (Δλ ≈ 30 nm). Each wavelength produces its own fringe pattern with slightly different fringe spacing (β ∝ λ). These patterns overlap and wash out because the central maxima coincide but higher orders diverge. Temporal coherence length L_c = λ²/Δλ = (600 × 10⁻⁹)² / (30 × 10⁻⁹) = 3.6 × 10⁻⁶ m = 3.6 μm. For interference to be visible, path difference must be < L_c. In Young's setup
+D5 Q: Evaluate the following statement: "Two independent laser pointers of the same wavelength (650 nm) can produce a stable interference pattern on a screen because lasers are highly coherent sources." Identify the error and explain the correct physics.
+D5 A: The statement is FALSE. Even though each laser has high temporal coherence (narrow linewidth), two INDEPENDENT lasers have no fixed phase relationship — their phases drift randomly due to independent quantum fluctuations in the gain medium. The phase difference changes rapidly (~MHz to GHz), so the interference pattern fluctuates faster than the eye/detector can resolve, time-averaging to I = 2I₀. To get stable fring
+D6 Q: Design a tabletop experiment using household items to demonstrate that two independent light sources (e.g., two smartphone flashlights) do not produce interference fringes, but a single source split into two paths does. List materials, procedure, and expected observations.
+D6 A: Materials: Two smartphones with flashlights, a piece of aluminium foil, a pin, a white wall/screen, a dark room. Procedure: (1) Turn on both flashlights, place them side by side 5 cm apart, shine on wall 2 m away — observe uniform illumination, no fringes. (2) Make a double slit in foil: fold foil, use pin to make two closely spaced pinholes (~0.5 mm apart). (3) Use ONE flashlight to illuminate the double slit (hold
+
+VETTED-DIAG C12_PHY_SQP861_Q15_I (fit 0.71, src c12_phy_sqp_861.marker)
+  Q: In Young's double slit experiment, how is interference pattern affected when: (i) Slits are brought closer to each other?
+  A: Fringe width (separation) increases.
+VETTED-DIAG C12_PHY_SQP861_Q15_II (fit 0.62, src c12_phy_sqp_861.marker)
+  Q: (ii) Screen is moved away from the slits?
+  A: Fringe width (separation) increases.
+VETTED-DIAG cfq_8_1 (fit 0.59, src c12_physics_diagnostics.marker)
+  Q: In Young's double-slit experiment, lambda = 600 nm, slit separation d = 0.2 mm, and screen distance D = 1 m. Find the fringe width. What happens to the fringe width if lambda is changed to 400 nm?
+  A: Fringe width beta = lambdaD/d = (600x10^-9)(1)/(0.2x10^-3) = 3x10^-3 m = 3 mm. With lambda = 400 nm: beta' = (400x10^-9)(1)/(0.2x10^-3) = 2x10^-3 m = 2 mm. Fringe width decreases proportionally with lambda.
+VETTED-MIS misconception_10 (fit 0.20)
+  M: If two bulbs have the same power rating, they must use the same energy in a day.
+  C: Two 60 W bulbs use the same energy only if both are on for the same duration. Energy = Power x Time, so different run times give different energies.
+VETTED-MIS misconception_5 (fit 0.20)
+  M: Ultrasonic waves have a longer wavelength than audible sound.
+  C: In air at 340 m/s, a 1 kHz audible tone has wavelength 0.34 m, while a 40 kHz ultrasonic wave has wavelength 0.0085 m (about 8.5 mm). Higher frequency -> shorter wavelength.
+VETTED-MIS misconception_10 (fit 0.20)
+  M: If two bulbs have the same power rating, they must use the same energy in a day.
+  C: Two 60 W bulbs use the same energy only if both are on for the same duration. Energy = Power x Time, so different run times give different energies.
+### NODE c12_phy_cbse_10_008  class=12 sub=phy ch=10 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Polarization is the phenomenon of restricting the oscillations of the electric field vector of a transverse light wave to a single plane perpendicular to the direction of propagation. Malus's law states that when a plane-polarized light beam of intensity \(I_0\) passes through an analyzer (a second polaroid) whose pass-axis makes an angle \(\theta\) with the polarization direction of the incident light, the transmitted intensity \(I\) is given by \(I = I_0 \cos^2\theta\). The SI unit of intensity is watt per square metre (W/m²); angle \(\theta\) is measured in radians or degrees.
+WALKTHROUGH: Observe a pair of polarized sunglasses: when you rotate one lens in front of the other, the view darkens and brightens periodically. This is Malus's law in action. Begin by recalling that light is a transverse electromagnetic wave with the electric field oscillating perpendicular to the propagation direction. Unpolarized light (e.g., from a bulb) has its electric field vector randomly oriented in the transverse plane. A polaroid sheet absorbs the component parallel to its molecular chains and transmits only the perpendicular component, producing linearly polarized light. The transmitted intensity is half the incident intensity because the average of \(\cos^2\theta\) over \(0\) to \(2\pi\) is \(1/2\). When this polarized light passes through a second polaroid (analyzer), only the component of the electric field along the analyzer's pass-axis is transmitted, leading to \(I = I_0 \cos^2\theta\). Demonstrate with two polaroid sheets from a physics lab kit: hold them crossed (90°) to block nearly all light, then insert a third polaroid at 45° between them to show light reappears — a classic JEE/NEET demonstration.
+D1 Q: State Malus's law in words and give the mathematical formula with SI units for each quantity. What is the transmitted intensity when the angle between the pass-axes is 60° if the incident polarized intensity is 10 W/m²?
+D1 A: Malus's law: The intensity of plane-polarized light transmitted through an analyzer is proportional to the square of the cosine of the angle between the polarization direction of the incident light and the pass-axis of the analyzer. Formula: \(I = I_0 \cos^2\theta\), where \(I_0\) = incident polarized intensity (W/m²), \(I\) = transmitted intensity (W/m²), \(\theta\) = angle between pass-axes (rad or °). For \(I_0 = 
+D2 Q: Unpolarized light of intensity \(I_{\text{inc}}\) falls on a polaroid P1. The transmitted light then passes through a second polaroid P2 whose pass-axis is at 30° to that of P1. A student claims the final intensity is \(I_{\text{inc}} \cos^2 30^\circ\). Is this correct? Explain why or why not, and give the correct expr
+D2 A: The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component along its pass-axis. Since the electric field vectors are randomly oriented, the average transmitted intensity is half the incident intensity: \(I_1 = \frac{1}{2} I_{\text{inc}}\). This light is now polarized along P1's pass-axis. When it passes through P2 at 30°, Malus's law gives \(I_2 = I_1 \cos^2 30^
+D3 Q: Two polaroids P1 and P2 are crossed (pass-axes at 90°). A third polaroid P3 is inserted between them with its pass-axis at 45° to both P1 and P2. If unpolarized light of intensity 32 W/m² is incident on P1, calculate the intensity emerging from P2. Show all steps with units.
+D3 A: Step 1: Unpolarized light on P1 → transmitted intensity \(I_1 = \frac{1}{2} \times 32 = 16\ \text{W/m}^2\) (polarized along P1).
+Step 2: P1 to P3 (angle 45°): \(I_3 = I_1 \cos^2 45^\circ = 16 \times \left(\frac{1}{\sqrt{2}}\right)^2 = 16 \times \frac{1}{2} = 8\ \text{W/m}^2\) (polarized along P3).
+Step 3: P3 to P2 (angle 45°): \(I_2 = I_3 \cos^2 45^\circ = 8 \times \frac{1}{2} = 4\ \text{W/m}^2\).
+Final answer: 4 W/m
+D4 Q: A beam of plane-polarized light of intensity \(I_0\) is incident on a polaroid whose pass-axis makes an angle \(\theta\) with the polarization direction. The transmitted beam then passes through a second identical polaroid whose pass-axis is at an angle \(\phi\) relative to the first polaroid. Derive the expression for
+D4 A: After first polaroid: \(I_1 = I_0 \cos^2\theta\) (polarized along first polaroid's axis). After second polaroid: \(I_2 = I_1 \cos^2\phi = I_0 \cos^2\theta \cos^2\phi\). Maximum intensity occurs when \(\cos^2\theta = 1\) and \(\cos^2\phi = 1\) i.e., \(\theta = 0^\circ, 180^\circ\) and \(\phi = 0^\circ, 180^\circ\) (both polaroids parallel to incident polarization and to each other). Minimum intensity (zero) occurs whe
+D5 Q: In an experiment, a student uses two polaroids and measures transmitted intensity at various angles. The data shows \(I = 0\) at \(\theta = 90^\circ\) and \(I = I_{\text{max}}\) at \(\theta = 0^\circ\), but at \(\theta = 30^\circ\) the measured intensity is \(0.6 I_{\text{max}}\) instead of the theoretical \(0.75 I_{\t
+D5 A: Possible reasons: (1) The polaroids are not ideal — they absorb some light even for the transmitted component (absorption loss). (2) The incident light is not perfectly monochromatic or perfectly collimated, causing partial depolarization. (3) The angle setting has a systematic error (e.g., the scale reads 30° but actual angle is larger). (4) The detector (photodiode/LDR) has a non-linear response. Most likely in a s
+D6 Q: Design a simple experiment using two polaroid sheets, a white LED torch, and a smartphone light sensor app to verify Malus's law. Describe the procedure, the data to be recorded, and how you would analyze the data to confirm the \(\cos^2\theta\) dependence. What precautions would you take to ensure the incident light i [IN-SCOPE-REWRITE]
+D6 A: Procedure: (1) Place the LED torch facing the smartphone's light sensor (or use the phone's front camera with a light meter app). (2) Hold one polaroid (P1) fixed in front of the torch. (3) Hold the second polaroid (P2) between P1 and the sensor, and rotate P2 in steps of 10° from 0° to 180°. (4) Record the sensor reading (lux) at each angle. (5) Subtract the background reading (with torch off). (6) Plot normalized i
+
+VETTED-DIAG C12_PHY_CFQ_SA_Q10 (fit 0.50, src c12_phy_cfq_vsa_sa.marker)
+  Q: For a prism with given angles (53, 35, 42, 45 degrees), calculate the refractive index of the material of the prism.
+  A: From the first diagram, I + e = A + delta, so A = 53 + 42 - 35 = 60 degrees. From the second diagram, angle of minimum deviation = 2i - A = 30 degrees. Refractive index = sin((A+delta)/2) / sin(A/2) = sin(45)/sin(30) = 1.414.
+VETTED-DIAG C12_PHY_CFQ_VSA_Q08 (fit 0.44, src c12_phy_cfq_vsa_sa.marker)
+  Q: In the X-Y plane, a magnetic field of 4 T is applied along the Y-axis. Calculate the magnetic force on a proton, if it moves at 3 x 10^6 m/s along the +Y-axis.
+  A: Zero. Since the velocity is parallel to the magnetic field (both along Y-axis), the angle between v and B is 0 degrees, so F = qvB sin(0) = 0.
+VETTED-DIAG C12_PHY_SQP26_Q06 (fit 0.44, src c12_phy_sqp_2026.marker)
+  Q: When a beam of white light is incident on a prism, the prism: (a) only disperses (b) only deviates (c) deviates as well as disperses (d) neither deviates nor disperses the incident light
+  A: (c) deviates as well as disperses incident light
+VETTED-MIS misconception_4 (fit 0.38)
+  M: The watt is a unit of energy.
+  C: 1 watt = 1 joule per second. Energy is measured in joules (J); power is measured in watts (W). A 60 W bulb converts 60 J of electrical energy every second.
+VETTED-MIS misconception_4 (fit 0.38)
+  M: The watt is a unit of energy.
+  C: 1 watt = 1 joule per second. Energy is measured in joules (J); power is measured in watts (W). A 60 W bulb converts 60 J of electrical energy every second.
+VETTED-MIS misconception_12 (fit 0.38)
+  M: The second is a derived unit because we get it from clocks.
+  C: The second (s) is a base SI unit. Units like hertz, becquerel and watt per square metre are derived from it, but the second itself is fundamental.
+### NODE c12_phy_cbse_11_006  class=12 sub=phy ch=11 verdict=PARTIAL action=REWRITE [1, 2, 3]
+DEFINITION: Heisenberg's Uncertainty Principle states that it is fundamentally impossible to simultaneously determine the exact position (x) and exact momentum (p) of a particle. The product of the uncertainties in position (Δx) and momentum (Δp) is always greater than or equal to the reduced Planck constant divided by 2: Δx Δp ≥ ħ/2, where ħ = h/(2π) = 1.055 × 10⁻³⁴ J·s. This is not a limitation of experimental apparatus but a fundamental property of quantum systems arising from the wave nature of matter.
+WALKTHROUGH: Imagine trying to locate an electron inside a hydrogen atom (size ~ 0.1 nm) using a powerful microscope. To "see" the electron, you must illuminate it with light of wavelength λ ≤ 0.1 nm (X-rays). But each X-ray photon carries momentum p = h/λ. When it strikes the electron, it transfers a large, unpredictable momentum kick, making the electron's momentum uncertain. If you use longer-wavelength light to reduce the momentum kick, you lose position resolution because diffraction blurs the image. This trade-off is unavoidable — it stems from the de Broglie wave nature (c12_phy_cbse_11_004): a particle is a wave packet, and a narrower packet in position space requires a broader spread of wavelengths (momenta). The quantitative limit is Δx Δp ≥ ħ/2.
+D1 Q: State Heisenberg's Uncertainty Principle for position and momentum, giving the exact mathematical inequality with the reduced Planck constant ħ. What are the SI units of Δx and Δp?
+D1 A: Δx Δp ≥ ħ/2, where ħ = h/(2π) = 1.055 × 10⁻³⁴ J·s. Δx is in metres (m), Δp is in kg·m/s. A wrong answer (e.g., Δx Δp ≥ h, or using h instead of ħ/2, or omitting the factor 1/2) reveals the student has memorised an approximate or incorrect form and does not know the precise lower bound from the standard deviation definition used in quantum mechanics.
+D2 Q: A student argues: "The uncertainty principle is just because our measuring instruments disturb the particle. If we had perfect instruments, we could measure both position and momentum exactly." Explain why this reasoning is incorrect, using the concept of a matter wave packet. [IN-SCOPE-REWRITE]
+D2 A: The principle is fundamental, not instrumental. A particle is represented by a wave packet (superposition of waves). A wave packet localised in space (small Δx) must contain a range of wavelengths (large Δp). This is a mathematical property of Fourier transforms/wave superposition (c11_phy_cbse_14_005), not a result of measurement clumsiness. Even with ideal instruments, the particle simply does not possess simultane
+D3 Q: An electron is confined within a region of size Δx = 0.10 nm (typical atomic radius). Calculate the minimum uncertainty in its velocity (Δv_min). Use mₑ = 9.11 × 10⁻³¹ kg, ħ = 1.055 × 10⁻³⁴ J·s. [IN-SCOPE-REWRITE]
+D3 A: Step 1: Δx = 0.10 nm = 1.0 × 10⁻¹⁰ m.
+Step 2: Minimum Δp = ħ/(2Δx) = (1.055 × 10⁻³⁴) / (2 × 1.0 × 10⁻¹⁰) = 5.275 × 10⁻²⁵ kg·m/s.
+Step 3: Δv_min = Δp / mₑ = (5.275 × 10⁻²⁵) / (9.11 × 10⁻³¹) = 5.79 × 10⁵ m/s.
+Answer: Δv_min ≈ 5.8 × 10⁵ m/s. A wrong answer (e.g., using h instead of ħ/2, forgetting the factor 2, or unit conversion error nm→m) shows the student cannot correctly apply the inequality with the precise consta
+D4 Q: Compare the minimum uncertainty in velocity for (a) an electron (mₑ = 9.11 × 10⁻³¹ kg) and (b) a dust particle (m = 1.0 × 10⁻⁹ kg), both confined to Δx = 1.0 μm. Explain why the uncertainty principle is negligible for macroscopic objects but crucial for subatomic particles. [IN-SCOPE-REWRITE]
+D4 A: (a) Electron: Δv_min = ħ/(2mΔx) = 1.055×10⁻³⁴ / (2 × 9.11×10⁻³¹ × 1.0×10⁻⁶) ≈ 58 m/s (significant compared to typical atomic speeds ~10⁶ m/s).
+(b) Dust: Δv_min = 1.055×10⁻³⁴ / (2 × 1.0×10⁻⁹ × 1.0×10⁻⁶) ≈ 5.3 × 10⁻²⁰ m/s (immeasurably small).
+The principle is negligible for macroscopic objects because Δv_min ∝ 1/m; large mass makes Δv_min tiny. A wrong answer (e.g., claiming both are significant, or not linking to mas
+D5 Q: A student writes: "The energy-time uncertainty principle ΔE Δt ≥ ħ/2 means if I measure the energy of a system very quickly (small Δt), the energy becomes uncertain." Evaluate this statement. Is Δt the time taken to make the measurement? Explain the correct interpretation of Δt.
+D5 A: The statement is incorrect. Δt is NOT the measurement duration. It is the characteristic lifetime of the state (e.g., mean lifetime of an excited atomic state) or the time interval over which the system's energy changes significantly. For an unstable state with lifetime τ, the energy width (natural linewidth) is ΔE ≈ ħ/(2τ). A wrong answer reveals the common misconception that Δt is the time taken to perform the ener
+D6 Q: Design a thought experiment (different from the gamma-ray microscope) that illustrates the position-momentum uncertainty principle using a single-slit diffraction setup for electrons. Describe how the slit width relates to Δx and the diffraction angle to Δp.
+D6 A: Pass a beam of electrons through a single slit of width a. The slit localises the electron in the transverse direction: Δx ≈ a. After the slit, the electron wave diffracts. The first minimum occurs at angle θ where a sinθ = λ. The transverse momentum spread is Δpₓ ≈ p sinθ ≈ h/λ × λ/a = h/a. Thus Δx Δpₓ ≈ a × (h/a) = h ≈ 2πħ, consistent with Δx Δp ≥ ħ/2 (within a factor of 2π). A good answer connects slit width to Δx
+
+VETTED-DIAG C12_PHY_CFQ_VSA_Q16 (fit 0.62, src c12_phy_cfq_vsa_sa.marker)
+  Q: Calculate the wavelength of a photon needed to ionize a hydrogen atom.
+  A: lambda = hc/E = (6.6 x 10^-34 x 3 x 10^8) / (13.6 x 1.6 x 10^-19) = 909.9 x 10^-10 m.
+VETTED-DIAG C12_PHY_SQP861_Q01B_V (fit 0.57, src c12_phy_sqp_861.marker)
+  Q: What is meant by "Dual nature of matter"?
+  A: Matter exhibits both particle and wave nature.
+VETTED-DIAG C12_PHY_SQP861_Q01A_IV (fit 0.54, src c12_phy_sqp_861.marker)
+  Q: The de Broglie wavelength of an electron in the first Bohr's orbit of hydrogen atom is equal to: (a) diameter of first orbit (b) circumference of first orbit (c) radius of second orbit (d) h/2pi.
+  A: (b) circumference of the first orbit.
+VETTED-MIS misconception_10 (fit 0.18)
+  M: Heavier objects always have more friction, so friction depends only on weight.
+  C: Friction depends on the nature of the surfaces (rough or smooth) and how tightly they are pressed together. Both factors matter.
+VETTED-MIS misconception_10 (fit 0.18)
+  M: Heavier objects always have more friction, so friction depends only on weight.
+  C: Friction depends on the nature of the surfaces (rough or smooth) and how tightly they are pressed together. Both factors matter.
+VETTED-MIS misconception_14 (fit 0.17)
+  M: Scattering of light proves that light is a particle, not a wave.
+  C: Scattering is consistent with both wave and particle descriptions of light; it is simply the redirection of light by particles or molecules. It is not evidence that light is only a particle.
+### NODE c12_phy_cbse_12_001  class=12 sub=phy ch=12 verdict=PARTIAL action=REWRITE [0]
+DEFINITION: Rutherford's nuclear model of the atom states that the entire positive charge and nearly all the mass of an atom are concentrated in a tiny, dense nucleus (radius ~10⁻¹⁵ m), while electrons revolve around this nucleus at distances ~10⁻¹⁰ m, making the atom mostly empty space. The alpha-particle scattering experiment (Geiger-Marsden, 1911) provided the empirical evidence: a narrow beam of 5.5 MeV α-particles (He²⁺ nuclei) directed at a thin gold foil showed most particles passing through undeviated, but a few (1 in 8000) scattered at angles >90°, which could only be explained by a concentrated central charge.
+WALKTHROUGH: Imagine holding a thin gold leaf used in Indian traditional sweets (varak) — it is so thin that light passes through, yet it is made of gold atoms. Now picture firing tiny, fast, positively charged helium nuclei (α-particles) at this foil. Most zip through as if the foil were empty space, but a few bounce straight back. This shocking result — like firing a cannonball at tissue paper and having it rebound — forces us to conclude that the atom's mass and positive charge are squeezed into a minuscule nucleus. We begin by measuring the α-particle's kinetic energy (from its radioactive source) and the scattering angles (using a ZnS screen and microscope). The key physical principle is conservation of energy: the initial kinetic energy converts entirely to electrostatic potential energy at the distance of closest approach. From this, we derive the formula that gives us the nuclear size upper bound.
+D1 Q: State the two key experimental observations from the Geiger-Marsden alpha-scattering experiment that contradicted Thomson's plum pudding model. [IN-SCOPE-REWRITE]
+D1 A: Correct answer: (1) Most α-particles passed through the gold foil with little or no deflection (indicating atoms are mostly empty space). (2) A very small fraction (~1 in 8000) were scattered at large angles >90°, some even backwards (indicating a concentrated, massive, positively charged nucleus). 
+A wrong answer (e.g., "α-particles were absorbed" or "all particles deflected slightly") reveals the student confuses R
+D2 Q: Explain why the impact parameter *b* determines the scattering angle θ, and describe the relationship between *b* and θ for a given α-particle energy and target nucleus.
+D2 A: Correct answer: The impact parameter *b* is the perpendicular distance from the nucleus to the initial velocity vector of the α-particle. A smaller *b* means the α-particle approaches closer to the nucleus, experiences a stronger Coulomb repulsion, and is deflected through a larger angle θ. For a head-on collision (*b* = 0), θ = 180° (backscattering). As *b* increases, θ decreases monotonically; for very large *b*, θ
+D3 Q: An α-particle with kinetic energy 7.7 MeV is fired directly at a gold nucleus (Z = 79). Calculate the distance of closest approach *d*. Use 1/(4πε₀) = 9.0 × 10⁹ N·m²/C² and e = 1.6 × 10⁻¹⁹ C. Express your answer in metres and in fermi (1 fm = 10⁻¹⁵ m).
+D3 A: Step 1: Identify givens: K = 7.7 MeV = 7.7 × 10⁶ eV = 7.7 × 10⁶ × 1.6 × 10⁻¹⁹ J = 1.232 × 10⁻¹² J. Z = 79, charge of α-particle = 2e. 
+Step 2: Formula for head-on collision (conservation of energy): K = (1/4πε₀) × (2e)(Ze)/d → d = (1/4πε₀) × 2Ze²/K. 
+Step 3: Substitute: d = (9.0 × 10⁹) × 2 × 79 × (1.6 × 10⁻¹⁹)² / (1.232 × 10⁻¹²). 
+Step 4: Compute numerator: 9.0e9 × 2 × 79 × 2.56e-38 = 9.0 × 2 × 79 × 2.56 × 10⁻²⁹ = 36
+D4 Q: The Geiger-Marsden experiment used a gold foil of thickness 2.1 × 10⁻⁷ m. Given that the atomic radius of gold is ~1.4 × 10⁻¹⁰ m, estimate how many atomic layers thick the foil was. Why is it important that the foil be thin enough for *single scattering* to dominate?
+D4 A: Step 1: Atomic diameter ≈ 2 × 1.4 × 10⁻¹⁰ m = 2.8 × 10⁻¹⁰ m. 
+Step 2: Number of layers = foil thickness / atomic diameter = (2.1 × 10⁻⁷) / (2.8 × 10⁻¹⁰) = 750 layers (approx). 
+Step 3: Single scattering dominance means each α-particle encounters at most one nucleus. If the foil were thick, multiple scattering would blur the angular distribution, and the simple Rutherford formula (derived for one Coulomb encounter) wo
+D5 Q: A student claims: "Rutherford's model explains why atoms are stable because the electrostatic attraction between the nucleus and electrons provides the centripetal force for circular orbits, just like gravity keeps planets in orbit." Evaluate this statement. Is the student correct? Why or why not?
+D5 A: The student is incorrect. While it is true that the Coulomb force provides the centripetal force (Fe = Fc) for a *classical* circular orbit, Rutherford's model fails to explain atomic stability. According to classical electromagnetism, an accelerating charge (the electron in circular motion) must radiate electromagnetic waves, lose energy, and spiral into the nucleus in ~10⁻¹¹ s. The model predicts a continuous spect
+D6 Q: Design a thought experiment: If you repeated the Geiger-Marsden experiment using a thin foil of solid hydrogen (Z = 1) at 14 K instead of gold (Z = 79), how would the scattering pattern change? Predict qualitatively the distance of closest approach for a 5.5 MeV α-particle and the fraction of particles scattered at >90
+D6 A: Expected answer: 
+- Distance of closest approach *d* ∝ Z. For hydrogen (Z=1), *d* is 79× smaller than for gold: ~0.37 fm (vs 29.5 fm for gold). This is *smaller* than the proton radius (~0.84 fm), meaning the α-particle would penetrate the nucleus — nuclear forces would dominate, and Rutherford's pure Coulomb formula breaks down. 
+- Scattering cross-section ∝ Z². For hydrogen, the probability of large-angle scatterin
+
+VETTED-DIAG C12_PHY_BR861A_Q22 (fit 0.74, src c12_phy_board_861a.marker)
+  Q: What conclusion is drawn from Rutherford's scattering experiment of alpha-particles?
+  A: The atom has a small, dense, positively charged central nucleus containing most of the mass; most of the atom is empty space.
+VETTED-DIAG C12_PHY_CFQ_VSA_Q17 (fit 0.67, src c12_phy_cfq_vsa_sa.marker)
+  Q: The kinetic energy of an alpha-particle incident on a gold foil is doubled. How does the distance of the closest approach change?
+  A: K.E. is proportional to 1/r0, where r0 is the distance of closest approach. So when the kinetic energy is doubled, the distance of the closest approach is halved.
+VETTED-DIAG C12_PHY_SQP861_Q19I_C (fit 0.64, src c12_phy_sqp_861.marker)
+  Q: During Rutherford's gold foil experiment, most alpha-particles did not deflect but some showed 180 deg  deflection. What hypothesis was made to justify the 180 deg  deflection?
+  A: Entire positive charge in the atom is concentrated at its centre, which he called the nucleus.
+VETTED-MIS misconception_14 (fit 0.33)
+  M: Scattering of light proves that light is a particle, not a wave.
+  C: Scattering is consistent with both wave and particle descriptions of light; it is simply the redirection of light by particles or molecules. It is not evidence that light is only a particle.
+VETTED-MIS misconception_14 (fit 0.33)
+  M: Scattering of light proves that light is a particle, not a wave.
+  C: Scattering is consistent with both wave and particle descriptions of light; it is simply the redirection of light by particles or molecules. It is not evidence that light is only a particle.
+VETTED-MIS misconception_3 (fit 0.25)
+  M: Sound can travel through empty space (vacuum), like between planets.
+  C: Sound cannot travel through a vacuum. It needs a medium with particles that can vibrate and pass the disturbance along.
+### NODE c12_phy_cbse_13_001  class=12 sub=phy ch=13 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: The atomic number (Z) of an element is the number of protons in its nucleus, which determines the element's chemical identity and its position in the periodic table. The mass number (A) is the total number of nucleons (protons + neutrons) in the nucleus. A nuclide is represented as \(^A_Z X\), where X is the chemical symbol. The neutron number N = A - Z. The atomic mass unit (u) is defined as 1/12th the mass of a carbon-12 atom: 1 u = 1.660539 × 10⁻²⁷ kg.
+WALKTHROUGH: Look at a periodic table on your classroom wall — every box shows an integer (atomic number) and a decimal (average atomic mass). The integer is the proton count, which fixes the element's identity. The decimal is a weighted average of isotopic masses. Now imagine a helium balloon: the helium-4 nucleus has 2 protons and 2 neutrons (A=4). If you could magically add a neutron, you'd get helium-3? No, that would be helium-3 (2 protons, 1 neutron). The key is that changing neutron number creates isotopes of the same element. Start by writing the nuclide symbol for carbon-12: \(^{12}_6 C\). Identify Z=6, A=12, N=6. Then do the same for carbon-13 and carbon-14 to see the pattern. This leads to the general relations A = Z + N and the definitions of isotopes/isobars/isotones.
+D1 Q: State the definition of atomic mass unit (u) and give its value in kg. What is the atomic number and mass number of a neutral atom of \(^{23}_{11} Na\)?
+D1 A: Atomic mass unit (u) = 1/12th the mass of a carbon-12 atom = 1.660539 × 10⁻²⁷ kg. For \(^{23}_{11} Na\): atomic number Z = 11, mass number A = 23. A wrong answer (e.g., confusing u with kg, or swapping Z and A) reveals the student has not internalized the definition of u or the nuclide notation convention (superscript = A, subscript = Z).
+D2 Q: Explain why chlorine has an atomic mass of 35.46 u even though no single chlorine atom has that exact mass. Use the terms isotopes and weighted average in your explanation.
+D2 A: Chlorine exists as two stable isotopes: \(^{35}_{17} Cl\) (75.4% abundance, mass ≈ 34.98 u) and \(^{37}_{17} Cl\) (24.6% abundance, mass ≈ 36.98 u). The quoted atomic mass (35.46 u) is the weighted average: (0.754 × 34.98) + (0.246 × 36.98) ≈ 35.46 u. No individual atom has this mass. A wrong answer (e.g., "chlorine atoms have fractional neutrons") reveals the misconception that atomic mass is the mass of a single at
+D3 Q: A nuclide has 26 protons and 30 neutrons. Write its nuclide symbol. If its atomic mass is 55.934939 u, calculate its mass defect in u using proton mass = 1.00727 u and neutron mass = 1.00866 u. (Do not convert to kg or energy yet.)
+D3 A: Nuclide symbol: \(^{56}_{26} Fe\). Mass of constituents = 26 × 1.00727 u + 30 × 1.00866 u = 26.18902 u + 30.2598 u = 56.44882 u. Mass defect ΔM = 56.44882 u - 55.934939 u = 0.513881 u. A wrong answer (e.g., using electron mass, or subtracting in reverse order) shows confusion about what constitutes the nucleus (protons + neutrons only) and the definition of mass defect (constituents minus actual nucleus).
+D4 Q: Compare the following pairs and classify each as isotopes, isobars, or isotones: (a) \(^{14}_6 C\) and \(^{14}_7 N\); (b) \(^{12}_6 C\) and \(^{13}_6 C\); (c) \(^{40}_{18} Ar\) and \(^{40}_{20} Ca\); (d) \(^{14}_6 C\) and \(^{15}_7 N\). Explain your reasoning for each. [IN-SCOPE-REWRITE]
+D4 A: (a) Isobars (same A=14, different Z). (b) Isotopes (same Z=6, different A). (c) Isobars (same A=40, different Z). (d) Isotones (same N=8: for C-14, N=8; for N-15, N=8). A wrong classification (e.g., calling (a) isotopes) reveals the student is matching only one parameter (A or Z) without checking both. The key is: isotopes = same Z; isobars = same A; isotones = same N.
+D5 Q: A student writes: "The mass number of an element is the weighted average of its isotopic masses." Evaluate this statement. Is it correct? If not, correct it and explain the difference between mass number and atomic mass.
+D5 A: The statement is incorrect. Mass number (A) is an integer: the total number of protons plus neutrons in a specific nucleus. Atomic mass (or atomic weight) is the weighted average of the naturally occurring isotopic masses, expressed in u, and is usually not an integer. For example, carbon has mass numbers 12, 13, 14 for its isotopes, but its atomic mass is 12.011 u. Confusing these two is a classic board-exam error t
+D6 Q: Design a simple card-sorting activity for Class 11 students to help them distinguish between isotopes, isobars, and isotones. Specify what information each card should show, how many cards you would make, and the sorting rules.
+D6 A: Create cards each showing a nuclide symbol \(^A_Z X\) and its neutron number N. Make 12 cards: 4 isotopes of oxygen (Z=8, A=16,17,18,19), 4 isobars with A=40 (Ar, K, Ca, Sc), 4 isotones with N=20 (e.g., \(^{36}_{16} S\), \(^{38}_{18} Ar\), \(^{40}_{20} Ca\), \(^{42}_{22} Ti\)). Sorting rule: Group by same Z → isotopes; same A → isobars; same N → isotones. A poor activity (e.g., cards missing N, or only showing elemen
+
+VETTED-DIAG C12_PHY_BR861A_Q21 (fit 0.67, src c12_phy_board_861a.marker)
+  Q: What is meant by mass defect?
+  A: Mass defect is the difference between the sum of masses of individual nucleons (protons + neutrons) and the actual mass of the nucleus.
+VETTED-DIAG C12_PHY_SQP861_Q19II_A (fit 0.67, src c12_phy_sqp_861.marker)
+  Q: Define unified atomic mass unit.
+  A: 1/12th of the mass of an atom of _6C^12 isotope.
+VETTED-DIAG C12_PHY_SQP861_Q19II_B (fit 0.56, src c12_phy_sqp_861.marker)
+  Q: Calculate the energy equivalent of unified atomic mass unit.
+  A: E = Deltam x c^2 = 931.5 MeV.
+VETTED-MIS misconception_13 (fit 0.25)
+  M: The unit of length is the same as the unit of mass.
+  C: Length is measured in centimetres (cm) or metres (m). Mass is measured in grams (g) or kilograms (kg).
+VETTED-MIS misconception_13 (fit 0.25)
+  M: The unit of length is the same as the unit of mass.
+  C: Length is measured in centimetres (cm) or metres (m). Mass is measured in grams (g) or kilograms (kg).
+VETTED-MIS misconception_3 (fit 0.22)
+  M: The kilogram is the SI unit of weight.
+  C: SI unit of mass = kilogram (kg). SI unit of weight (force of gravity) = newton (N). On Earth, a 1 kg mass has a weight of about 9.8 N.
+### NODE c12_phy_cbse_13_005  class=12 sub=phy ch=13 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Nuclear fusion is the process in which two or more light atomic nuclei combine to form a heavier nucleus, releasing energy because the binding energy per nucleon of the product nucleus is greater than that of the reactant nuclei. The energy released (Q-value) equals the mass defect times c², where the mass defect is the difference between the total rest mass of the initial nuclei and the final nucleus (plus any other product particles). In stars like the Sun, the dominant fusion process is the proton-proton (p-p) cycle, where four protons fuse into a helium-4 nucleus, two positrons, two neutrinos, and gamma photons, releasing approximately 26.7 MeV per helium nucleus formed.
+WALKTHROUGH: Look at the Sun — a steady, blindingly bright source of energy that has shone for 4.6 billion years. Chemical burning (like coal) would exhaust the Sun in mere thousands of years, so the energy source must be nuclear. Recall from the binding energy curve (c12_phy_cbse_13_002) that light nuclei (A < 30) have lower binding energy per nucleon than medium-mass nuclei (A ≈ 56). Therefore, fusing light nuclei into heavier ones releases energy. The challenge: protons are positively charged and repel each other via the Coulomb force. They must get within ~1 fm for the strong nuclear force to take over. This requires enormous kinetic energy, i.e., temperatures of millions of kelvin. In the Sun's core (T ≈ 1.5×10⁷ K), a small fraction of protons in the high-energy tail of the Maxwell-Boltzmann distribution can tunnel through the barrier. The net reaction is 4¹H → ⁴He + 2e⁺ + 2νₑ + 26.7 MeV. We will learn to balance the steps, compute Q-values, and estimate the Coulomb barrier height.
+D1 Q: What is the net nuclear reaction of the proton-proton (p-p) cycle in the Sun, and how much energy is released per helium-4 nucleus formed?
+D1 A: The net reaction is 4¹₁H → ⁴₂He + 2e⁺ + 2νₑ + 26.7 MeV (or equivalently 4 protons → helium-4 + 2 positrons + 2 electron neutrinos + gamma photons). Energy released ≈ 26.7 MeV per helium nucleus. A wrong answer (e.g., writing 2 protons → deuteron + 0.42 MeV as the net reaction) reveals confusion between an individual step and the overall cycle; the student has not grasped that the first three steps must occur twice to
+D2 Q: Why must the temperature in the Sun's core be high (~1.5×10⁷ K) for fusion to occur, even though the average kinetic energy at this temperature (≈1.3 keV) is far below the Coulomb barrier height for two protons (~400 keV)?
+D2 A: Fusion occurs because a small fraction of protons in the high-energy tail of the Maxwell-Boltzmann distribution have energies comparable to the barrier height, and quantum tunneling allows them to fuse even at energies below the classical barrier. The reaction rate depends exponentially on temperature (Gamow peak). A wrong answer stating "average kinetic energy must exceed the barrier" shows a misunderstanding of sta
+D3 Q: Calculate the Q-value (in MeV) for the fusion reaction: ²₁H + ²₁H → ³₂He + ¹₀n. Given atomic masses: m(²₁H) = 2.014102 u, m(³₂He) = 3.016029 u, m(¹₀n) = 1.008665 u. Use 1 u = 931.5 MeV/c².
+D3 A: Step 1: Initial total mass = 2 × 2.014102 u = 4.028204 u. 
+Step 2: Final total mass = 3.016029 u + 1.008665 u = 4.024694 u. 
+Step 3: Mass defect Δm = 4.028204 u - 4.024694 u = 0.003510 u. 
+Step 4: Q = Δm × 931.5 MeV/u = 0.003510 × 931.5 ≈ 3.27 MeV. 
+A wrong answer (e.g., 3.27 MeV but with sign error, or using nuclear masses instead of atomic masses without accounting for electrons) reveals confusion about whether ato
+D4 Q: Compare the energy released per kilogram of fuel for the fusion of deuterium (²₁H + ²₁H → ³₂He + n + 3.27 MeV) with the fission of ²³⁵U (≈200 MeV per fission). Which yields more energy per unit mass, and by roughly what factor?
+D4 A: Fusion of deuterium: 3.27 MeV per reaction consuming 2 deuterons (≈4 u). Energy per kg = (3.27 MeV / 4 u) × (1 u / 1.66×10⁻²⁷ kg) ≈ 4.9×10¹⁴ J/kg. 
+Fission of ²³⁵U: 200 MeV per 235 u. Energy per kg = (200 MeV / 235 u) × (1 u / 1.66×10⁻²⁷ kg) ≈ 5.1×10¹³ J/kg. 
+Fusion yields ~10 times more energy per unit mass than fission. A wrong answer claiming fission yields more, or getting the factor wrong by orders of magnitude,
+D5 Q: A student argues: "In the p-p cycle, the first step (p + p → d + e⁺ + νₑ) releases only 0.42 MeV, which is very small. Therefore, the Sun's energy output is mostly from the later steps." Evaluate this statement.
+D5 A: The statement is misleading. While the first step releases only 0.42 MeV, it is the bottleneck (slowest step) that determines the overall rate of the cycle. The total energy released per helium-4 nucleus is 26.7 MeV, distributed across all steps. The later steps release more energy individually (5.49 MeV, 12.86 MeV), but they occur only because the first step happened. The Sun's luminosity is sustained by the rate of
+D6 Q: Design a simple thought experiment to estimate the minimum temperature required for two deuterons to overcome the Coulomb barrier classically (ignoring tunneling). Assume deuterons are hard spheres of radius 2.0 fm. What temperature do you get, and how does it compare to the Sun's core temperature? [IN-SCOPE-REWRITE]
+D6 A: Coulomb barrier height U = (1/4πε₀) (e² / r) with r = 4.0 fm (sum of radii). 
+U = (9×10⁹ N·m²/C²) × (1.6×10⁻¹⁹ C)² / (4×10⁻¹⁵ m) ≈ 5.76×10⁻¹⁴ J ≈ 360 keV. 
+Equate average kinetic energy (3/2)kT = U → T = 2U/(3k) ≈ 2×360×10³×1.6×10⁻¹⁹ / (3×1.38×10⁻²³) ≈ 2.8×10⁹ K. 
+This is ~200 times hotter than the Sun's core (1.5×10⁷ K). The huge discrepancy shows classical overcoming is impossible; quantum tunneling is essential. A
+
+VETTED-DIAG C12_PHY_SQP861_Q19I_B (fit 0.75, src c12_phy_sqp_861.marker)
+  Q: Find the energy released during fission reaction: 235U + n -> 90Kr + 143Ba + 3n. Masses: 235U=235.0439, 90Kr=89.9195, 143Ba=142.9206, 1n=1.0087.
+  A: Deltam = 236.0526 - 235.8662 = 0.1864u; Q = 0.1864 x 931.5 = 173.63 MeV.
+VETTED-DIAG C12_PHY_SQP861_Q19II_B (fit 0.67, src c12_phy_sqp_861.marker)
+  Q: Calculate the energy equivalent of unified atomic mass unit.
+  A: E = Deltam x c^2 = 931.5 MeV.
+VETTED-DIAG C12_PHY_SQP861_Q19I_A (fit 0.64, src c12_phy_sqp_861.marker)
+  Q: Find the binding energy per nucleon of 235U based on: mass of 235U = 235.0439u, mass of proton = 1.0073u, mass of neutron = 1.0087u.
+  A: mp = 92x1.0073 = 92.6716u; mn = 143x1.0087 = 144.2441u; Deltam = 1.8718u; BE = 1743.6 MeV; BE/nucleon = 7.42 MeV.
+VETTED-MIS misconception_5 (fit 0.38)
+  M: The sun gives us light but not energy, because we cannot see energy.
+  C: Light and heat are forms of energy. The sun gives us light energy and heat energy.
+VETTED-MIS misconception_5 (fit 0.38)
+  M: The sun gives us light but not energy, because we cannot see energy.
+  C: Light and heat are forms of energy. The sun gives us light energy and heat energy.
+VETTED-MIS misconception_2 (fit 0.33)
+  M: A heavy and a light object at the same height have the same potential energy.
+  C: Gravitational potential energy = mass x g x height. So at equal height, the object with greater mass has more potential energy.

@@ -1,0 +1,74 @@
+{
+ "c11_phy_cbse_03_012": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Record a video of a ball thrown at a fixed angle against a grid background, keeping the camera perpendicular to the plane of motion, (2) Calibrate pixels to metres using the grid and mark the ball's x and y position in every frame with video analysis software, (3) Plot y against x and fit a quadratic of the form y = ax + bx squared, (4) Check that the fitted coefficient b is negative and matches the theoretical value of minus g over two u squared cos squared theta, calculated from the measured launch speed and angle, (5) Accept that air resistance causes slight deviation at high speeds. A poor answer plots y against t, which is also quadratic but does not test the trajectory equation, or skips the pixel-to-metre calibration."
+   }
+  },
+  "appends": []
+ },
+ "c11_phy_cbse_04_006": {
+  "rewrites": {
+   "5": {
+    "a": "(1) The mass conversion is right — 10 g equals 0.01 kg, (2) The momentum sum is right — 0.01 times 800 gives 8 kg m/s and 100 times minus 0.08 gives minus 8 kg m/s, (3) The total momentum is zero, so the student's recoil speed of minus 0.08 m/s is correct, (4) The negative sign only shows the gun recoils opposite to the bullet. A wrong evaluation claiming a sign error or a mass-conversion error shows the student has not carefully checked units and the sign convention."
+   }
+  },
+  "appends": []
+ },
+ "c11_phy_cbse_05_004": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Place the trolley on a friction-compensated runway and attach a card of known length, (2) Use a light gate to time the card and get the velocity v as length over t for several different starting heights, (3) Compute K as half m v squared for each run, (4) Plot K against v, which curves, and K against v squared, which gives a straight line through the origin, (5) Read the slope as half the mass, confirming K is proportional to v squared. A poor answer measures speed and energy directly with no graph analysis, revealing weak experimental design for testing a quadratic relationship."
+   }
+  },
+  "appends": []
+ },
+ "c11_phy_cbse_07_001": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Setup — tie a small mass on a string passing through a hole in a frictionless horizontal air table so the string tension is a purely central force, (2) Measure — video the mass, mark its position at equal time intervals, and draw radius vectors from the centre to each position, (3) Verify — compute each triangular area as half r1 r2 sin delta-theta between successive radius vectors and check the areas stay constant within experimental error, (4) Key condition — the force must remain central, because friction or any tangential force changes the angular momentum and violates the law. A poor answer uses a vertical circle where gravity adds a non-central component, or measures speed at different radii without measuring areas, which tests a consequence rather than the law itself."
+   }
+  },
+  "appends": []
+ },
+ "c11_phy_cbse_11_010": {
+  "rewrites": {
+   "6": {
+    "a": "(1) System — the steam and the mirror; surroundings — the room air at room temperature, (2) Criterion — the process is reversible only if it is quasi-static, with an infinitesimal temperature difference at the interface, and free of dissipation, (3) Observation — condensation runs at a finite temperature difference across the steam-mirror interface and releases latent heat into a temperature gradient, violating the quasi-static condition, (4) Reversal test — evaporating the water back needs a hotter source, which changes the surroundings and leaves a net change, so the process is irreversible. A poor answer claiming it is reversible because you can boil the water again misses that boiling requires a hotter source and alters the surroundings."
+   }
+  },
+  "appends": []
+ },
+ "c11_phy_cbse_12_007": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from the measured viscosity, (3) Calculate n as P over k T, m as M over N A, and v-bar as the square root of eight k T over pi m, (4) Solve lambda equals one over root-two pi d squared n for the molecular diameter d. A poor answer omits the connection between viscosity and mean free path, or fails to identify all the measurable quantities needed."
+   }
+  },
+  "appends": []
+ },
+ "c11_phy_cbse_12_009": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Apparatus — two coaxial disks with narrow radial slots offset by a fixed angle and separated by a known distance L, (2) Selection — only molecules with speed v equal to omega L over theta pass through both slots, (3) Measurement — vary omega and record the transmitted flux at a detector, (4) Analysis — the flux is proportional to v cubed times f of v, so plot the signal against v, normalise the area to one, and compare with the theoretical distribution. A poor answer omits the v-cubed factor or assumes the selector transmits all speeds equally."
+   }
+  },
+  "appends": []
+ },
+ "c11_phy_cbse_13_001": {
+  "rewrites": {
+   "4": {
+    "a": "(1) Graph A, a straight line with positive slope, is not periodic, (2) Graph B, an upward-opening parabola, is not periodic, (3) Graph C, a repeating sinusoidal curve, is periodic and also oscillatory because it is symmetric to-and-fro about an equilibrium position under a restoring force, (4) Graph D, a repeating sawtooth, is periodic but not oscillatory because it is not symmetric about a mean position and its instant reversal would require infinite force. A wrong answer shows inability to distinguish oscillatory from non-oscillatory periodic motion using symmetry and physical plausibility."
+   }
+  },
+  "appends": []
+ },
+ "c11_phy_cbse_13_008": {
+  "rewrites": {
+   "5": {
+    "a": "(1) Marching frequency — 120 steps per minute equals 2 Hz, (2) Natural frequency of the bridge — 0.5 Hz, (3) Verdict — no resonance occurs, because the 2 Hz driving fundamental does not match the 0.5 Hz natural frequency, (4) Break step — ordering soldiers out of step destroys the periodicity and spreads the driving energy over a continuous spectrum instead of discrete harmonics, so no strong component matches the natural frequency. A wrong answer claiming resonance occurs confuses a frequency with its harmonics, and saying break step works only by reducing the force magnitude misses the spectral argument."
+   }
+  },
+  "appends": []
+ }
+}

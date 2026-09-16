@@ -586,3 +586,28 @@ class Class7MathsEvaluator:
             incorrect=incorrect,
             results=results,
         )
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Integer arithmetic + properties via the module's real solvers."""
+    params = params or {}
+    sub = params.get("sub_type", "multiply")
+    if sub in ("multiply", "divide"):
+        s = IntegerArithmeticSolver()
+        r = getattr(s, sub)(int(params.get("a", 0)), int(params.get("b", 1) or 1))
+        return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": r})
+    if sub in ("verify_property", "get_property_that_holds", "get_property_that_fails"):
+        s = IntegerPropertiesSolver()
+        r = getattr(s, sub)(*params.get("args", []))
+        return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": r})
+    r = Class7MathsEvaluator.evaluate(node_id or "c7_math_001", sub)
+    return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": r})
+
+def check_answer(a: int = 0, b: int = 0, user_answer: int = 0, op: str = "multiply", **kw):
+    s = IntegerArithmeticSolver()
+    if hasattr(s, "check_answer"):
+        return s.check_answer(a, b, user_answer)
+    return {"correct": (a * b) == user_answer}
+
+SOLVER_REGISTRY = {"c7_math_solve": solve, "c7_math_check": check_answer}
+NODE_MAP = {"c7_math_001": "c7_math_solve", "c7_math_002": "c7_math_solve"}

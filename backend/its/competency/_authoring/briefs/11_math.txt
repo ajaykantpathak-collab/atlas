@@ -1,0 +1,265 @@
+
+### NODE c11_math_cbse_01_004  class=11 sub=math ch=1 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A set A is a subset of set B, denoted A ⊂ B, if and only if every element of A is also an element of B; formally, A ⊂ B ⇔ (∀x)(x ∈ A ⇒ x ∈ B). If A ⊂ B and A ≠ B (i.e., B contains at least one element not in A), then A is a proper subset of B and B is a superset of A. The empty set φ is a subset of every set, and every set is a subset of itself.
+WALKTHROUGH: Imagine your school has a "Science Club" (set S) and a "Robotics Team" (set R). Every member of the Robotics Team is also in the Science Club, but the Science Club has additional members who only do biology projects. Ask: "Is the Robotics Team a subset of the Science Club?" Write down the defining condition: check each robotics member — are they in Science Club? If yes for all, then R ⊂ S. Since Science Club has extra members, R is a proper subset. Now consider: "Is the empty set a subset of the Science Club?" Since there are no members to check, the condition is vacuously true — φ ⊂ S. Finally, "Is Science Club a subset of itself?" Every member of S is in S, so S ⊂ S. This element-wise implication (x ∈ A ⇒ x ∈ B) is the single rule that decides every subset question.
+D1 Q: State the precise condition that must be satisfied for a set A to be a subset of a set B, using the symbols ∈ and ⇒.
+D1 A: A ⊂ B ⇔ (∀x)(x ∈ A ⇒ x ∈ B). A wrong answer like "A ⊂ B means all elements of B are in A" reveals confusion between subset and superset direction. Writing "x ∈ A ∧ x ∈ B" instead of implication shows the student does not grasp the conditional nature of the definition.
+D2 Q: Let A = {1, 2} and B = {1, 2, 3}. Is A ⊂ B? Is B ⊂ A? Is A a proper subset of B? Justify each answer using the definition.
+D2 A: A ⊂ B is true because 1 ∈ A ⇒ 1 ∈ B and 2 ∈ A ⇒ 2 ∈ B. B ⊂ A is false because 3 ∈ B but 3 ∉ A, violating the implication. A is a proper subset of B because A ⊂ B and A ≠ B (3 ∈ B but 3 ∉ A). A student who says "B ⊂ A because B has more elements" confuses cardinality with the subset condition.
+D3 Q: Given C = {x ∈ ℤ : x² < 10} and D = {−3, −2, −1, 0, 1, 2, 3}. Determine whether C ⊂ D and whether D ⊂ C. Show all steps.
+D3 A: C = {x ∈ ℤ : x² < 10} = {−3, −2, −1, 0, 1, 2, 3} because (−3)²=9<10, (−2)²=4<10, (−1)²=1<10, 0²=0<10, 1²=1<10, 2²=4<10, 3²=9<10, but 4²=16≥10. So C = D exactly. Therefore C ⊂ D (true, every element of C is in D) and D ⊂ C (true, every element of D is in C). Since C = D, neither is a proper subset of the other. A student who writes C = {1,2,3} misses negative integers, revealing they forgot ℤ includes negatives.
+D4 Q: Consider the statement: "For any sets A, B, C, if A ⊂ B and B ⊂ C, then A ⊂ C." Is this always true? Prove your answer or give a counterexample.
+D4 A: Yes, always true. Proof: Assume A ⊂ B and B ⊂ C. Let x ∈ A be arbitrary. Since A ⊂ B, x ∈ A ⇒ x ∈ B. Since B ⊂ C, x ∈ B ⇒ x ∈ C. By transitivity of implication, x ∈ A ⇒ x ∈ C. Since x was arbitrary, ∀x(x ∈ A ⇒ x ∈ C), so A ⊂ C. A student who says "false, counterexample: A={1}, B={1,2}, C={2,3}" fails to check that B ⊂ C is false here (1 ∈ B but 1 ∉ C), revealing they don't verify the premise properly.
+D5 Q: A student writes: "φ ⊄ {1, 2, 3} because the empty set has no elements, so it cannot be a subset of anything." Evaluate this reasoning and correct the error.
+D5 A: The reasoning is incorrect. The definition A ⊂ B means ∀x(x ∈ A ⇒ x ∈ B). For A = φ, there is no x such that x ∈ φ, so the implication "x ∈ φ ⇒ x ∈ B" is vacuously true for every x. Hence φ ⊂ B for every set B, including {1, 2, 3}. The student's error is treating "no elements to check" as "condition fails" instead of "condition holds vacuously." This is a classic logical misunderstanding of universal quantification o
+D6 Q: Construct an example of three sets A, B, C such that A ⊂ B, B ⊄ C, but A ⊂ C. Explain why this does not contradict the transitivity property proved in Question 4. [IN-SCOPE-REWRITE]
+D6 A: Example: A = {1}, B = {1, 2}, C = {1, 3}. Then A ⊂ B (1 ∈ A ⇒ 1 ∈ B), B ⊄ C (2 ∈ B but 2 ∉ C), but A ⊂ C (1 ∈ A ⇒ 1 ∈ C). This does not contradict transitivity because transitivity requires BOTH A ⊂ B AND B ⊂ C to conclude A ⊂ C. Here B ⊂ C is false, so the premise of transitivity is not satisfied — the conclusion A ⊂ C happens to be true for a different reason (1 happens to be in C). A student who says "this contrad
+
+VETTED-DIAG cfq_11_1 (fit 0.50, src c11_maths_cfq_diagnostics.marker)
+  Q: If A = {1, 2, 3}, find the number of elements in the power set P(A).
+  A: |A| = 3. |P(A)| = 2^3 = 8. The power set has 8 elements (subsets): {empty set, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3}}.
+VETTED-DIAG cfq_5_2 (fit 0.40, src c11_maths_cfq_diagnostics.marker)
+  Q: Find d/dx[x^x] using logarithmic differentiation.
+  A: Let y = x^x. ln y = x ln x. (1/y)(dy/dx) = ln x + 1. dy/dx = y(ln x + 1) = x^x(ln x + 1).
+VETTED-DIAG cfq_18_2 (fit 0.33, src c11_maths_cfq_diagnostics.marker)
+  Q: Find d/dx[x sin x] and evaluate at x = pi/2.
+  A: Product rule: d/dx[x sin x] = 1 x sin x + x x cos x = sin x + x cos x. At x = pi/2: sin(pi/2) + (pi/2)cos(pi/2) = 1 + 0 = 1.
+VETTED-MIS misconception_5 (fit 0.36)
+  M: The empty set is the same as the set containing zero, i.e., {} = {0}.
+  C: {} or the null set has zero elements; {0} has exactly one element. So {} is not equal to {0}.
+VETTED-MIS misconception_13 (fit 0.36)
+  M: A set with one element is the same as that element itself, so {5} = 5.
+  C: 5 is an element of {5}, written 5 in {5}, but {5} is not equal to 5. A singleton set and its lone element are different mathematical objects.
+VETTED-MIS misconception_7 (fit 0.30)
+  M: A set with no elements at the moment is not really a set, so the empty set is not a valid set.
+  C: The empty set is a legitimate set with cardinality zero and is a subset of every set.
+### NODE c11_math_cbse_01_012  class=11 sub=math ch=1 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: The complement of a set \(A\) with respect to a universal set \(U\) is the set of all elements of \(U\) that are not in \(A\), denoted by \(A'\) or \(A^c\). Formally, \(A' = \{x \mid x \in U \text{ and } x \notin A\}\). This operation is defined only when a universal set \(U\) is specified, and \(A \subseteq U\).
+WALKTHROUGH: Imagine a Class XI teacher taking attendance: the universal set \(U\) is the list of all 40 students in the class. The set \(A\) is the list of students present today. The complement \(A'\) instantly gives the absent students — exactly those in \(U\) but not in \(A\). To begin any complement problem, first write down the universal set \(U\) explicitly (or describe it clearly). Next, write the subset \(A\). Then list every element of \(U\) that is not in \(A\); that list is \(A'\). This mirrors the difference operation \(U - A\) studied earlier. The key insight is that the complement is always relative to a chosen universal set — without \(U\), the complement is undefined.
+D1 Q: State the definition of the complement of a set \(A\) with respect to a universal set \(U\) using set-builder notation.
+D1 A: The complement of \(A\) is \(A' = \{x \mid x \in U \text{ and } x \notin A\}\). A wrong answer (e.g., \(A' = \{x \mid x \notin A\}\) without mentioning \(U\)) reveals that the student thinks complement is absolute, not relative to a universal set — a fundamental misconception that leads to errors when the universal set changes.
+D2 Q: Explain why \((A')' = A\) for any subset \(A\) of a universal set \(U\). Use the definition of complement in your reasoning.
+D2 A: By definition, \(A' = \{x \in U \mid x \notin A\}\). Then \((A')' = \{x \in U \mid x \notin A'\}\). But \(x \notin A'\) means it is false that (\(x \in U\) and \(x \notin A\)), i.e., \(x \notin U\) or \(x \in A\). Since we only consider \(x \in U\), this simplifies to \(x \in A\). Hence \((A')' = A\). A wrong answer (e.g., "it's obvious" without using the definition) shows the student cannot connect the double comple
+D3 Q: Let \(U = \{1,2,3,4,5,6,7,8,9,10\}\), \(A = \{2,4,6,8,10\}\), \(B = \{1,3,5,7,9\}\). Find \(A'\), \(B'\), \(A \cup B\), and \((A \cup B)'\). Verify that \((A \cup B)' = A' \cap B'\).
+D3 A: \(A' = \{1,3,5,7,9\}\), \(B' = \{2,4,6,8,10\}\), \(A \cup B = U\), so \((A \cup B)' = \varnothing\). \(A' \cap B' = \varnothing\). Hence \((A \cup B)' = A' \cap B'\). A wrong answer (e.g., claiming \((A \cup B)' = A' \cup B'\)) indicates the student has confused De Morgan's law for union with the incorrect "distributive" version.
+D4 Q: Given \(U = \{x \in \mathbb{N} \mid x \le 12\}\), \(A = \{x \in U \mid x \text{ is a multiple of } 3\}\), \(B = \{x \in U \mid x \text{ is a multiple of } 4\}\). Without listing all elements, explain why \((A \cap B)' = A' \cup B'\) must hold.
+D4 A: By definition, \(x \in (A \cap B)' \iff x \in U \text{ and } x \notin (A \cap B) \iff x \in U \text{ and } (x \notin A \text{ or } x \notin B) \iff (x \in U \text{ and } x \notin A) \text{ or } (x \in U \text{ and } x \notin B) \iff x \in A' \cup B'\). A wrong answer (e.g., "because the Venn diagram looks the same") shows the student relies on visual intuition without understanding the logical equivalence that drives
+D5 Q: A student solved: \(U = \{1,2,3,4,5\}\), \(A = \{1,2\}\), \(B = \{2,3\}\). They wrote \((A \cup B)' = \{4,5\}\) and \(A' \cap B' = \{4,5\}\), then concluded \((A \cup B)' = A' \cup B'\). Identify the error and correct it. [IN-SCOPE-REWRITE]
+D5 A: The student correctly computed \((A \cup B)' = \{4,5\}\) and \(A' \cap B' = \{4,5\}\), but incorrectly wrote the conclusion as \((A \cup B)' = A' \cup B'\) instead of \((A \cup B)' = A' \cap B'\). This slip reveals a memory confusion between the two De Morgan's laws — the student recalled the pattern "complement of union becomes intersection of complements" but wrote the wrong symbol.
+D6 Q: Create a real-life problem (in an Indian school context) where finding the complement of a set is necessary to answer the question. Define \(U\), \(A\), and the question clearly.
+D6 A: Example: In a school of 500 students (\(U\)), 320 students opted for Mathematics (\(A\)). The principal wants to know how many students did NOT opt for Mathematics to plan alternative classes. The answer is \(n(A') = n(U) - n(A) = 180\). A poor answer would omit the universal set or ask a question that doesn't require complement (e.g., "how many opted for Mathematics?"). This tests whether the student can recognise a
+
+VETTED-DIAG cfq_13_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: If (1 + i)^2 = a + bi, find a and b.
+  A: (1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i. So a = 0, b = 2.
+VETTED-DIAG cfq_5_2 (fit 0.60, src c11_maths_cfq_diagnostics.marker)
+  Q: Find d/dx[x^x] using logarithmic differentiation.
+  A: Let y = x^x. ln y = x ln x. (1/y)(dy/dx) = ln x + 1. dy/dx = y(ln x + 1) = x^x(ln x + 1).
+VETTED-DIAG cfq_6_2 (fit 0.50, src c11_maths_cfq_diagnostics.marker)
+  Q: Find the sum: 1 + 2 + 3 + ... + 100.
+  A: S = n(n+1)/2 = 100 x 101 / 2 = 5050.
+VETTED-MIS misconception_1 (fit 0.25)
+  M: A relation R on a set A is reflexive if (a, a) belongs to R for some elements a in A.
+  C: R is reflexive on A if and only if (a, a) in R for every a in A. Equivalently, the diagonal {(a, a) : a in A} must be a subset of R.
+VETTED-MIS misconception_7 (fit 0.20)
+  M: A set with no elements at the moment is not really a set, so the empty set is not a valid set.
+  C: The empty set is a legitimate set with cardinality zero and is a subset of every set.
+VETTED-MIS misconception_5 (fit 0.18)
+  M: The empty set is the same as the set containing zero, i.e., {} = {0}.
+  C: {} or the null set has zero elements; {0} has exactly one element. So {} is not equal to {0}.
+### NODE c11_math_cbse_01_014  class=11 sub=math ch=1 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Word problems on set operations involve translating real-world scenarios involving collections of objects (people, items, outcomes) into mathematical statements using set notation (union, intersection, difference, complement) and solving for unknown cardinalities using the principle of inclusion-exclusion: \(n(A \cup B) = n(A) + n(B) - n(A \cap B)\) for two sets, and \(n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(B \cap C) - n(C \cap A) + n(A \cap B \cap C)\) for three sets, where \(n(X)\) denotes the number of elements in set \(X\).
+WALKTHROUGH: Imagine a survey of 200 Class 11 students in a Delhi school: 120 study Mathematics, 90 study Physics, 70 study Chemistry, 40 study Math and Physics, 30 study Physics and Chemistry, 25 study Math and Chemistry, and 15 study all three. To find how many study none, start by drawing a three-circle Venn diagram. Fill the innermost region (all three) with 15. Then work outward: Math∩Physics only = 40-15=25, Physics∩Chemistry only = 30-15=15, Math∩Chemistry only = 25-15=10. Next, find "only Math" = 120 - (25+15+10) = 70. Similarly "only Physics" = 90 - (25+15+15) = 35, "only Chemistry" = 70 - (15+10+15) = 30. Sum all seven regions = 70+35+30+25+15+10+15 = 200. Since total surveyed is 200, none = 0. The key insight: always fill Venn diagram from the innermost intersection outward, subtracting known overlaps to avoid double-counting.
+D1 Q: State the formula for the number of elements in the union of three finite sets A, B, and C in terms of their individual cardinalities and pairwise/triple intersections.
+D1 A: The formula is \(n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(B \cap C) - n(C \cap A) + n(A \cap B \cap C)\). A wrong answer (e.g., missing the triple intersection term or subtracting it) reveals the student does not understand the inclusion-exclusion principle for three sets and likely memorised the two-set formula without generalising.
+D2 Q: In a survey, 100 people were asked if they drink Tea (T) or Coffee (C). 60 drink Tea, 50 drink Coffee, and 20 drink both. A student claims the number who drink neither is \(100 - (60 + 50) = -10\). Explain why this reasoning is flawed and state the correct calculation.
+D2 A: The student double-counted the 20 people who drink both. The correct calculation uses inclusion-exclusion: \(n(T \cup C) = 60 + 50 - 20 = 90\). Then neither = \(100 - 90 = 10\). A wrong explanation (e.g., "the total is wrong") shows the student cannot identify the overlap error and lacks the concept that "or" in sets is inclusive unless specified otherwise.
+D3 Q: A class has 50 students. 30 play Cricket, 25 play Football, 15 play Hockey. 10 play Cricket and Football, 8 play Football and Hockey, 5 play Cricket and Hockey. 3 play all three. How many students play exactly one sport? Show stepwise working.
+D3 A: Step 1: Draw Venn diagram, fill centre = 3.
+Step 2: Cricket∩Football only = 10-3=7; Football∩Hockey only = 8-3=5; Cricket∩Hockey only = 5-3=2.
+Step 3: Only Cricket = 30 - (7+2+3) = 18; Only Football = 25 - (7+5+3) = 10; Only Hockey = 15 - (5+2+3) = 5.
+Step 4: Exactly one = 18+10+5 = 33.
+Answer: 33 students. A wrong answer (e.g., 30+25+15 - 2*(10+8+5) + 3*3 = ...) reveals the student tries to use a memorised formula w
+D4 Q: Compare the two statements: (i) "Students who study Math or Physics" and (ii) "Students who study Math or Physics but not both". For sets M and P, write the set expression for each and explain the difference in cardinality calculation.
+D4 A: (i) \(M \cup P\), cardinality \(n(M) + n(P) - n(M \cap P)\). (ii) \((M \cup P) - (M \cap P)\) or \((M - P) \cup (P - M)\), cardinality \(n(M) + n(P) - 2n(M \cap P)\). The difference is that (ii) excludes the intersection entirely, so its cardinality subtracts the intersection twice. A wrong answer (e.g., same expression for both) shows the student conflates inclusive "or" (union) with exclusive "or" (symmetric differ
+D5 Q: A student solves a 3-set problem and gets region values: only A=10, only B=15, only C=20, A∩B only=5, B∩C only=8, C∩A only=7, all three=4. The universal set has 80 elements. The student claims the complement (none) is \(80 - (10+15+20+5+8+7+4) = 11\). Evaluate if this is correct and justify.
+D5 A: The calculation is correct: sum of all seven disjoint regions = 69, so none = 80-69 = 11. The student correctly identified all regions are mutually exclusive and exhaustive within the universal set. If a student says it's wrong because "we need to use the formula", they misunderstand that the Venn diagram region-sum method IS the formula decomposed; both are valid. This tests whether the student recognises the equiva
+D6 Q: Create a word problem involving three sets (e.g., languages spoken, subjects studied, products bought) where the given data includes the universal set total, individual set totals, all three pairwise intersections, and the triple intersection. The question must ask for "exactly two" and "none". Provide the problem stat [IN-SCOPE-REWRITE]
+D6 A: Example problem: "In a housing society of 150 families, 80 subscribe to Newspaper A, 70 to B, 60 to C. 30 subscribe to A and B, 25 to B and C, 20 to A and C. 10 subscribe to all three. Find (i) number of families subscribing to exactly two newspapers, (ii) number subscribing to none." A poor problem (e.g., missing universal total, or asking only for union) reveals the student cannot design a problem requiring multi-s
+
+VETTED-DIAG cfq_6_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: Find the sum: 1 + 2 + 3 + ... + 100.
+  A: S = n(n+1)/2 = 100 x 101 / 2 = 5050.
+VETTED-DIAG cfq_13_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: If (1 + i)^2 = a + bi, find a and b.
+  A: (1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i. So a = 0, b = 2.
+VETTED-DIAG cfq_16_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: Find the sum of the AP: 10 + 7 + 4 + 1 + ... to 15 terms.
+  A: a = 10, d = -3, n = 15. S = n/2 x (2a + (n-1)d) = 15/2 x (20 + 14(-3)) = 15/2 x (20 - 42) = 15/2 x (-22) = -165.
+VETTED-MIS misconception_12 (fit 0.75)
+  M: When three sets are involved, n(A U B U C) = n(A) + n(B) + n(C) - n(A intersection B intersection C).
+  C: n(A U B U C) = n(A) + n(B) + n(C) - n(A intersection B) - n(B intersection C) - n(A intersection C) + n(A intersection B intersection C).
+VETTED-MIS misconception_2 (fit 0.50)
+  M: The intersection of two sets is always non-empty.
+  C: A intersection B = {} (the empty set) when A and B are disjoint. The intersection can be empty.
+VETTED-MIS misconception_5 (fit 0.46)
+  M: The union of two sets always has more elements than either set, and the intersection always has fewer.
+  C: If A is a subset of B, then A U B = B and A intersection B = A. The union is not larger than B and the intersection is not smaller than A.
+### NODE c11_math_cbse_06_007  class=11 sub=math ch=6 verdict=PARTIAL action=REWRITE [2, 3]
+DEFINITION: Word problems involving linear inequalities require translating real-life constraints into one or more linear inequalities in one or two variables, solving them algebraically or graphically, and interpreting the solution set in the context of the problem.
+WALKTHROUGH: Start with a relatable scenario: "A student has ₹500 to buy notebooks (₹40 each) and pens (₹10 each). He needs at least 5 notebooks and at least 3 pens. How many of each can he buy?" Guide the student to define variables (x = notebooks, y = pens), write inequalities (40x + 10y ≤ 500, x ≥ 5, y ≥ 3, x,y ≥ 0 integers), and then solve graphically or by testing integer points. Connect to prior nodes: forming inequalities (c11_math_cbse_06_001), solving systems (c11_math_cbse_06_005), and graphical method (c11_math_cbse_06_006). The key insight: word problems add the step of modeling before solving.
+D1 Q: A student writes the inequality for "The sum of two numbers is at most 50" as x + y < 50. Is this correct? Explain why or why not.
+D1 A: No, it is not correct. "At most 50" means less than or equal to 50, so the inequality should be x + y ≤ 50. A wrong answer reveals the student confuses "at most" (≤) with "less than" (<), a common language-to-symbol translation error.
+D2 Q: In a word problem, a student defines variables as "x = number of apples" and "y = cost of apples". Why is this definition problematic for forming inequalities?
+D2 A: The variables must represent quantities of the same type (usually counts or amounts) to be combined in an inequality. Mixing a count (number) and a cost (rupees) leads to dimensionally inconsistent expressions like x + y ≤ budget. A wrong answer shows the student does not grasp the need for consistent units in mathematical modeling.
+D3 Q: Ravi has ₹200 to spend on pens (₹15 each) and pencils (₹5 each). He wants at least 4 pens and at least 6 pencils. Write the system of inequalities and find one possible combination of pens and pencils he can buy. [IN-SCOPE-REWRITE]
+D3 A: Let x = number of pens, y = number of pencils.
+Inequalities: 15x + 5y ≤ 200, x ≥ 4, y ≥ 6, x,y ≥ 0 integers.
+Simplify cost: 3x + y ≤ 40.
+One possible combination: x=4, y=6 gives cost = 15*4+5*6=60+30=90 ≤200, satisfies all. (Many others exist.)
+A wrong answer might forget non-negativity, or miswrite the cost inequality (e.g., 15x+5y ≥ 200), revealing misunderstanding of "has ₹200 to spend" as a maximum budget.
+D4 Q: Compare the solution sets of the following two problems:
+Problem A: "Find the number of items x such that 2x + 3 ≤ 15."
+Problem B: "A shopkeeper has 15 meters of cloth. Each shirt requires 2 meters and each trouser requires 3 meters. If he makes x shirts and y trousers, write the inequality."
+How does the interpretatio [IN-SCOPE-REWRITE]
+D4 A: Problem A yields a single-variable inequality with solution x ≤ 6 (x ∈ ℝ or ℤ depending on context). Problem B yields a two-variable inequality 2x + 3y ≤ 15, whose solution is a region in the xy-plane. The difference is that Problem A's solution is a set of numbers, while Problem B's solution is a set of ordered pairs representing combinations. A wrong answer indicates the student does not recognize the shift from on
+D5 Q: A student solves the word problem: "Find two consecutive even integers such that their sum is at least 30." They write: Let x be the first even integer, then x+2 is the next. Inequality: x + (x+2) ≥ 30 → 2x ≥ 28 → x ≥ 14. They answer: 14 and 16. Is this fully correct? Evaluate.
+D5 A: The solution is mathematically correct for the inequality, but the problem asks for "two consecutive even integers" (implying a specific pair? Actually "find two consecutive even integers such that..." usually means find all such pairs, or the smallest pair). The student gave one pair (14,16). However, any even integer ≥14 works (e.g., 16,18; 18,20). The answer should indicate the set of all such pairs or the smalles
+D6 Q: Create a real-life word problem (Indian context) that leads to the system of inequalities:
+3x + 2y ≤ 100
+x ≥ 10
+y ≥ 5
+x, y are non-negative integers.
+Explain what x and y represent.
+D6 A: Example: "A farmer has 100 kg of fertilizer. Crop A requires 3 kg per acre and Crop B requires 2 kg per acre. He must plant at least 10 acres of Crop A and at least 5 acres of Crop B. Let x = acres of Crop A, y = acres of Crop B. Write the constraints." A good answer shows creativity and correct mapping of coefficients to resource usage. A poor answer might assign x,y to unrelated quantities or misstate the inequalit
+
+VETTED-DIAG cfq_6_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: Find the sum: 1 + 2 + 3 + ... + 100.
+  A: S = n(n+1)/2 = 100 x 101 / 2 = 5050.
+VETTED-DIAG cfq_13_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: If (1 + i)^2 = a + bi, find a and b.
+  A: (1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i. So a = 0, b = 2.
+VETTED-DIAG cfq_16_2 (fit 0.67, src c11_maths_cfq_diagnostics.marker)
+  Q: Find the sum of the AP: 10 + 7 + 4 + 1 + ... to 15 terms.
+  A: a = 10, d = -3, n = 15. S = n/2 x (2a + (n-1)d) = 15/2 x (20 + 14(-3)) = 15/2 x (20 - 42) = 15/2 x (-22) = -165.
+VETTED-MIS misconception_14 (fit 0.25)
+  M: If A + B = A, then B must be the number 0.
+  C: If A + B = A for 2x2 matrices A and B, then B = O = [0 0; 0 0]. The additive identity in the set of 2x2 matrices is the zero matrix, not the real number 0.
+VETTED-MIS misconception_2 (fit 0.25)
+  M: The intersection of two sets is always non-empty.
+  C: A intersection B = {} (the empty set) when A and B are disjoint. The intersection can be empty.
+VETTED-MIS PP_C12_2019_043 (fit 0.22)
+  M: Many candidates could not express the given constraints in the form of linear inequalities correctly, translating the problem conditions into wrong inequalities.
+  C: Carefully read each resource/availability condition and translate it into a linear inequality (e.g., 2x + y <= 90) that matches the direction and coefficients of the constraint.
+### NODE c11_math_cbse_06_008  class=11 sub=math ch=6 verdict=PARTIAL action=REWRITE [0]
+DEFINITION: A quadratic inequality in one variable is an inequality of the form \(ax^2 + bx + c > 0\), \(ax^2 + bx + c < 0\), \(ax^2 + bx + c \geq 0\), or \(ax^2 + bx + c \leq 0\), where \(a, b, c \in \mathbb{R}\), \(a \neq 0\), and \(x\) is the variable. The solution set consists of all real values of \(x\) that satisfy the inequality, determined by the sign of the quadratic expression relative to its roots.
+WALKTHROUGH: Imagine a small business sells handmade candles. The profit (in ₹) from selling \(x\) candles is given by \(P(x) = -2x^2 + 40x - 150\). The owner wants to know how many candles to sell to make a profit of at least ₹50. This translates to \(-2x^2 + 40x - 150 \geq 50\), a quadratic inequality. We already know how to solve linear inequalities and quadratic equations. Here we combine both: first bring all terms to one side to get a standard quadratic expression, then find its roots (like solving a quadratic equation), and finally use a sign chart or graph to determine where the expression is positive or negative. The key insight is that a quadratic expression changes sign only at its real roots, so the number line is divided into intervals whose signs alternate (if \(a>0\)) or follow a predictable pattern.
+D1 Q: State the general form of a quadratic inequality in one variable and write the condition on the leading coefficient for the parabola to open upward. [IN-SCOPE-REWRITE]
+D1 A: The general form is \(ax^2 + bx + c > 0\) (or \(<, \geq, \leq\)) with \(a, b, c \in \mathbb{R}, a \neq 0\). The parabola opens upward when \(a > 0\). A wrong answer (e.g., saying \(a < 0\) for upward opening) reveals confusion between the sign of \(a\) and the direction of the parabola, which is critical for determining the sign of the quadratic expression outside the roots.
+D2 Q: Explain why the inequality \(x^2 - 4x + 5 > 0\) is true for all real \(x\) without solving it algebraically. Use the discriminant and the sign of the leading coefficient.
+D2 A: The discriminant \(\Delta = (-4)^2 - 4(1)(5) = 16 - 20 = -4 < 0\), so the quadratic has no real roots and the parabola does not intersect the x-axis. Since the leading coefficient \(a = 1 > 0\), the parabola opens upward and lies entirely above the x-axis. Hence \(x^2 - 4x + 5 > 0\) for all \(x \in \mathbb{R}\). A wrong answer indicates the student does not connect the discriminant to the graph's position relative to
+D3 Q: Solve the inequality \(2x^2 - 5x - 3 \leq 0\) using the algebraic (wavy curve) method. Show the sign chart and write the solution in interval notation.
+D3 A: Step 1: Factor the quadratic: \(2x^2 - 5x - 3 = (2x+1)(x-3)\). Roots: \(x = -\frac{1}{2}, 3\).
+Step 2: Mark roots on number line. Since \(a=2>0\), the expression is positive outside the roots and negative between them.
+Step 3: For \(\leq 0\), we include the interval where expression is negative or zero: \([-\frac{1}{2}, 3]\).
+A wrong answer (e.g., \((-\infty, -\frac{1}{2}] \cup [3, \infty)\)) reveals the student reve
+D4 Q: Compare the solution sets of \(x^2 - 4x + 3 > 0\) and \(x^2 - 4x + 3 \geq 0\). How does the inequality symbol change the solution? Illustrate on a number line.
+D4 A: The quadratic factors as \((x-1)(x-3)\) with roots 1 and 3. For \(> 0\): \((-\infty, 1) \cup (3, \infty)\) (open circles at 1,3). For \(\geq 0\): \((-\infty, 1] \cup [3, \infty)\) (closed circles at 1,3). The only difference is the inclusion of the roots. A wrong answer that gives the same intervals for both shows the student does not distinguish between strict and non-strict inequalities when the expression equals z
+D5 Q: A student solves \(-x^2 + 2x + 3 \geq 0\) by multiplying both sides by \(-1\) to get \(x^2 - 2x - 3 \leq 0\), then factors as \((x-3)(x+1) \leq 0\) and writes the solution as \([-1, 3]\). Is this correct? Justify.
+D5 A: Yes, it is correct. Multiplying an inequality by \(-1\) reverses the inequality sign, so \(\geq\) becomes \(\leq\). The roots of \(x^2-2x-3\) are \(-1\) and \(3\). Since \(a=1>0\), the expression is \(\leq 0\) between the roots, giving \([-1, 3]\). Alternatively, the original quadratic has \(a=-1<0\) (opens downward) and is \(\geq 0\) between its roots, which are the same. A wrong answer (e.g., saying the sign should
+D6 Q: Create a quadratic inequality whose solution set is exactly \((-2, 5)\). Explain how you constructed it.
+D6 A: The solution \((-2, 5)\) means the quadratic is positive strictly between the roots \(-2\) and \(5\) (assuming \(a>0\)). So the roots are \(-2\) and \(5\). A simple quadratic with these roots is \((x+2)(x-5) = x^2 - 3x - 10\). Since we want \(> 0\) between the roots, we need the parabola to open downward, so multiply by \(-1\): \(-x^2 + 3x + 10 > 0\). Check: roots are \(-2, 5\); \(a=-1<0\) so expression is positive b
+
+VETTED-DIAG cfq_13_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: If (1 + i)^2 = a + bi, find a and b.
+  A: (1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i. So a = 0, b = 2.
+VETTED-DIAG cfq_6_2 (fit 0.74, src c11_maths_diagnostics.marker)
+  Q: Solve the inequality x^2 - 5x + 6 < 0. Represent the solution set on the number line and write it in interval notation.
+  A: Factorise x^2 - 5x + 6 = (x - 2)(x - 3). The parabola opens upward (coefficient of x^2 is positive). The expression is negative between the roots. So (x - 2)(x - 3) < 0 when 2 < x < 3. Solution set in interval notation: (2, 3). On the number line, open circles at 2 and 3 with shading between them.
+VETTED-DIAG cfq_15_1 (fit 0.67, src c11_maths_cfq_diagnostics.marker)
+  Q: Find the coefficient of x^1^0 in the expansion of (x^2 + 2/x)^8.
+  A: T(r+1) = C(8,r)(x^2)^(8-r)(2/x)^r = C(8,r) x 2^r x x^(16-2r-r) = C(8,r) x 2^r x x^(16-3r). For x^1^0: 16 - 3r = 10 -> r = 2. Coefficient = C(8,2) x 2^2 = 28 x 4 = 112.
+VETTED-MIS misconception_11 (fit 0.50)
+  M: Expanded form of 4,28,365 is 4 + 2 + 8 + 3 + 6 + 5.
+  C: 4,28,365 = 4 x 100000 + 2 x 10000 + 8 x 1000 + 3 x 100 + 6 x 10 + 5 x 1 = 400000 + 20000 + 8000 + 300 + 60 + 5.
+VETTED-MIS misconception_6 (fit 0.28)
+  M: The +/- in the formula means I can choose either sign and get the same answer, so I only need to compute one root.
+  C: Always write both values: x = [-b + sqrt(D)] / (2a) and x = [-b - sqrt(D)] / (2a). Both are part of the solution set.
+VETTED-MIS misconception_14 (fit 0.25)
+  M: If A + B = A, then B must be the number 0.
+  C: If A + B = A for 2x2 matrices A and B, then B = O = [0 0; 0 0]. The additive identity in the set of 2x2 matrices is the zero matrix, not the real number 0.
+### NODE c11_math_cbse_09_003  class=11 sub=math ch=9 verdict=PARTIAL action=REWRITE [1]
+DEFINITION: The sum of the first n terms of an Arithmetic Progression (AP) with first term a and common difference d is given by S_n = n/2 [2a + (n-1)d]. Equivalently, if the last term (nth term) is denoted by l, then S_n = n/2 (a + l). This formula calculates the total of all terms from the 1st to the nth term in an arithmetic sequence.
+WALKTHROUGH: Imagine you are saving money every month for a school trip: you save ₹500 in the first month and increase your savings by ₹50 each subsequent month. After 12 months, how much will you have saved in total? This is exactly an AP sum problem where a = 500, d = 50, n = 12. To begin, always write down what is given: identify a, d, and n from the problem statement. Then decide which formula to use: if you know a and d, use S_n = n/2 [2a + (n-1)d]; if you know the first and last term, use S_n = n/2 (a + l). The key insight is that pairing the first and last term, second and second-last term, etc., each pair sums to the same value (a + l), and there are n/2 such pairs - this is the intuitive basis for the formula.
+D1 Q: Write the formula for the sum of first n terms of an AP when the first term is a and the common difference is d. Then state the alternative formula when the last term l is known instead of d.
+D1 A: The two formulas are: S_n = n/2 [2a + (n-1)d] and S_n = n/2 (a + l) where l = a + (n-1)d is the nth term. A wrong answer (e.g., writing S_n = n(a + l) or S_n = n/2 [a + (n-1)d]) reveals the student has memorised the formula incorrectly - missing the factor of 2 in the first term or forgetting the 1/2 factor entirely, which are the two most common algebraic errors in this formula.
+D2 Q: Explain why the formula S_n = n/2 (a + l) works by describing the pairing method. Use the AP: 3, 7, 11, 15, 19 to illustrate with n = 5. [IN-SCOPE-REWRITE]
+D2 A: In the AP 3, 7, 11, 15, 19, pairing first and last: 3+19=22, second and fourth: 7+15=22, middle term 11 is half of 22. There are 5/2 = 2.5 pairs each summing to 22, giving 2.5 × 22 = 55. A wrong explanation (e.g., "multiply first term by n" or "add all terms individually") shows the student does not understand the structural symmetry of an AP and is relying on rote memorisation without grasping why the formula works.
+D3 Q: Find the sum of the first 20 terms of the AP whose nth term is given by a_n = 5n - 3.
+D3 A: Given a_n = 5n - 3. For n=1, a = 5(1) - 3 = 2. Common difference d = coefficient of n = 5. Using S_n = n/2 [2a + (n-1)d]: S_20 = 20/2 [2(2) + 19(5)] = 10[4 + 95] = 10 × 99 = 990. A wrong answer (e.g., 1000 or 980) typically comes from incorrectly identifying a or d - students often take a = -3 (constant term) instead of finding the first term, or miscalculate 2a + (n-1)d as 2(5n-3) + (n-1)5.
+D4 Q: The sum of first n terms of an AP is given by S_n = 3n² + 5n. Find the 10th term of this AP. Explain why you cannot simply substitute n=10 into S_n.
+D4 A: The 10th term a_10 = S_10 - S_9. S_10 = 3(100) + 50 = 350. S_9 = 3(81) + 45 = 288. a_10 = 350 - 288 = 62. Substituting n=10 into S_n gives the sum of first 10 terms, not the 10th term alone. A student who substitutes n=10 directly into S_n and gets 350 as the answer confuses "sum of first n terms" with "nth term" - this is the most fundamental conceptual error in this topic.
+D5 Q: A student solves: "Find n if S_n = 210 for the AP: 2, 5, 8, ..." and writes: 210 = n/2 [2(2) + (n-1)3] → 420 = n(4 + 3n - 3) → 420 = n(3n + 1) → 3n² + n - 420 = 0 → (3n + 36)(n - 11.67) = 0 → n = 11.67. Identify the error and find the correct answer.
+D5 A: The factorisation is wrong: 3n² + n - 420 = 0 does not factor to (3n + 36)(n - 11.67). Correct factorisation: 3n² + 36n - 35n - 420 = 3n(n+12) - 35(n+12) = (3n-35)(n+12) = 0 → n = 35/3 or n = -12. Since n must be a positive integer, check: n=11 gives S_11 = 11/2[4+30] = 187; n=12 gives S_12 = 12/2[4+33] = 222. No integer n gives exactly 210. The error is incorrect factorisation of the quadratic - a very common algebr
+D6 Q: Create a real-life problem (Indian context: rupees, savings, instalments) where the sum of an AP is given and the student must find the number of terms n. The problem should result in a quadratic equation that has one valid positive integer solution. Provide the problem statement and the complete solution.
+D6 A: Problem: "Ravi saves ₹100 in the first week and increases his weekly savings by ₹20 each week. After how many weeks will his total savings reach ₹2800?" Solution: a=100, d=20, S_n=2800. 2800 = n/2[200 + (n-1)20] → 5600 = n(200 + 20n - 20) → 5600 = n(20n + 180) → 20n² + 180n - 5600 = 0 → n² + 9n - 280 = 0 → (n+20)(n-14) = 0 → n = 14 weeks. A poor problem would have non-integer solutions or negative time, showing the s
+
+VETTED-DIAG cfq_6_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: Find the sum: 1 + 2 + 3 + ... + 100.
+  A: S = n(n+1)/2 = 100 x 101 / 2 = 5050.
+VETTED-DIAG cfq_13_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: If (1 + i)^2 = a + bi, find a and b.
+  A: (1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i. So a = 0, b = 2.
+VETTED-DIAG cfq_16_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: Find the sum of the AP: 10 + 7 + 4 + 1 + ... to 15 terms.
+  A: a = 10, d = -3, n = 15. S = n/2 x (2a + (n-1)d) = 15/2 x (20 + 14(-3)) = 15/2 x (20 - 42) = 15/2 x (-22) = -165.
+VETTED-MIS misconception_5 (fit 0.43)
+  M: (a+b)^2 = a^2 + 2ab - b^2 — the sign of the last term is flipped
+  C: (a+b)^2 = a^2 + 2ab + b^2, with all three terms positive.
+VETTED-MIS PP_C10_2025_080 (fit 0.42)
+  M: Some candidates were confused between the formulae for Arithmetic Progression (AP) and Geometric Progression (GP), applying the AP nth term formula (a + (n-1)d) to a GP problem.
+  C: In a GP, the nth term is axr^(n-1), where a is the first term and r is the common ratio. In an AP, the nth term is a + (n-1)d. The key difference is addition (AP) vs multiplication (GP).
+VETTED-MIS PP_C10_2025_080 (fit 0.42)
+  M: Some candidates were confused between the formulae for Arithmetic Progression (AP) and Geometric Progression (GP), applying the AP nth term formula (a + (n-1)d) to a GP problem.
+  C: In a GP, the nth term is axr^(n-1), where a is the first term and r is the common ratio. In an AP, the nth term is a + (n-1)d. The key difference is addition (AP) vs multiplication (GP).
+### NODE c11_math_cbse_10_002  class=11 sub=math ch=10 verdict=PARTIAL action=REWRITE [1]
+DEFINITION: The distance between two points \(P(x_1, y_1)\) and \(Q(x_2, y_2)\) in the Cartesian plane is the length of the straight line segment joining them, given by \(PQ = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\). This formula is derived from the Pythagorean theorem applied to the right triangle formed by the horizontal and vertical distances between the points.
+WALKTHROUGH: Imagine you are standing at your school gate (point A) and your friend is at the bus stop (point B). If you map your locations on a grid where each unit is 10 metres, and your coordinates are (2, 3) and (5, 7) respectively, how far apart are you in a straight line? Start by plotting the points on graph paper. Draw horizontal and vertical lines to form a right triangle with the segment AB as the hypotenuse. The horizontal leg length is \(|5 - 2| = 3\) units, the vertical leg is \(|7 - 3| = 4\) units. By Pythagoras, \(AB = \sqrt{3^2 + 4^2} = 5\) units = 50 metres. Generalise: for any points \((x_1, y_1)\) and \((x_2, y_2)\), the horizontal distance is \(|x_2 - x_1|\), vertical is \(|y_2 - y_1|\), so the distance is \(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\). The squares remove the need for absolute values.
+D1 Q: State the distance formula between points \(P(x_1, y_1)\) and \(Q(x_2, y_2)\). If \(P(1, 2)\) and \(Q(4, 6)\), write the expression for PQ without evaluating.
+D1 A: The distance formula is \(PQ = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\). For the given points, \(PQ = \sqrt{(4-1)^2 + (6-2)^2} = \sqrt{3^2 + 4^2}\). A wrong answer like \(\sqrt{(1-4)^2 + (2-6)^2}\) is also algebraically correct because of squaring, but \(\sqrt{(4-1) + (6-2)} = \sqrt{7}\) reveals the student forgot to square the differences. Writing \(\sqrt{(x_1 - x_2)^2 - (y_1 - y_2)^2}\) shows confusion with the hyper
+D2 Q: Explain why the distance formula uses \((x_2 - x_1)^2 + (y_2 - y_1)^2\) instead of \(|x_2 - x_1| + |y_2 - y_1|\). Give a concrete counterexample where the two expressions give different results. [IN-SCOPE-REWRITE]
+D2 A: The formula \(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\) gives the straight-line (Euclidean) distance, while \(|x_2 - x_1| + |y_2 - y_1|\) gives the Manhattan distance (sum of horizontal and vertical legs). For \(P(0,0)\) and \(Q(3,4)\), Euclidean distance = 5, Manhattan distance = 7. A student who says "both give the same because squaring removes signs" misunderstands that \(\sqrt{a^2+b^2} \neq |a|+|b|\) in general. The
+D3 Q: Find the distance between \(A(-2, 5)\) and \(B(3, -1)\). Then determine if the point \(C(0, 2)\) lies on the line segment AB by checking if \(AC + CB = AB\).
+D3 A: \(AB = \sqrt{(3 - (-2))^2 + (-1 - 5)^2} = \sqrt{5^2 + (-6)^2} = \sqrt{25+36} = \sqrt{61}\).
+\(AC = \sqrt{(0 - (-2))^2 + (2 - 5)^2} = \sqrt{2^2 + (-3)^2} = \sqrt{13}\).
+\(CB = \sqrt{(3 - 0)^2 + (-1 - 2)^2} = \sqrt{3^2 + (-3)^2} = \sqrt{18}\).
+\(\sqrt{13} + \sqrt{18} \approx 3.61 + 4.24 = 7.85\), while \(\sqrt{61} \approx 7.81\). Not equal, so C is not on AB. A student who gets \(AB = \sqrt{61}\) but then claims C is o
+D4 Q: Three points are \(P(1, 1)\), \(Q(4, 5)\), \(R(7, 9)\). Without plotting, determine if they form a right triangle, an equilateral triangle, or are collinear. Justify using only distances.
+D4 A: \(PQ = \sqrt{(4-1)^2+(5-1)^2} = \sqrt{9+16}=5\).
+\(QR = \sqrt{(7-4)^2+(9-5)^2} = \sqrt{9+16}=5\).
+\(PR = \sqrt{(7-1)^2+(9-1)^2} = \sqrt{36+64}=10\).
+Since \(PQ + QR = 5+5=10 = PR\), the points are collinear (R lies on the line segment PQ extended). They do not form a triangle. A student who computes \(PQ=5, QR=5, PR=10\) but says "isosceles triangle because two sides equal" fails to check the triangle inequality / co
+D5 Q: A student solves: "Find point on x-axis equidistant from (2, 3) and (4, 5)." Their working: Let point be (x, 0). \(\sqrt{(x-2)^2+(0-3)^2} = \sqrt{(x-4)^2+(0-5)^2}\). Squaring: \((x-2)^2+9 = (x-4)^2+25\). \(x^2-4x+4+9 = x^2-8x+16+25\). \(-4x+13 = -8x+41\). \(4x = 28\), \(x=7\). Answer: (7, 0). Is this correct? Identify 
+D5 A: The solution is correct. The algebra is sound: \((x-2)^2+9 = (x-4)^2+25\) expands correctly to \(x^2-4x+13 = x^2-8x+41\), giving \(4x=28, x=7\). Verification: distance to (2,3) = \(\sqrt{5^2+3^2}=\sqrt{34}\); to (4,5) = \(\sqrt{3^2+5^2}=\sqrt{34}\). A student who claims an error might mistakenly think the point on x-axis should have y-coordinate 3 or 5, or might incorrectly square only the x-difference: \((x-2)^2 = (
+D6 Q: Create a real-world problem (Indian context) that requires using the distance formula twice and comparing the results. The problem must involve a decision (e.g., which route is shorter, which location to choose). Provide the coordinates and the question.
+D6 A: Example: "Rahul lives at (2, 3) and works at (8, 7). He can take the metro from station A(5, 5) or station B(4, 6). Walking speed is same. Which station should he walk to from home to minimize total walking distance (home → station + station → work)?"
+A good answer sets up coordinates, computes home→A + A→work and home→B + B→work, compares. A poor answer only computes home→station distances and ignores station→work,
+
+VETTED-DIAG cfq_13_2 (fit 1.00, src c11_maths_cfq_diagnostics.marker)
+  Q: If (1 + i)^2 = a + bi, find a and b.
+  A: (1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i. So a = 0, b = 2.
+VETTED-DIAG cfq_5_2 (fit 0.60, src c11_maths_cfq_diagnostics.marker)
+  Q: Find d/dx[x^x] using logarithmic differentiation.
+  A: Let y = x^x. ln y = x ln x. (1/y)(dy/dx) = ln x + 1. dy/dx = y(ln x + 1) = x^x(ln x + 1).
+VETTED-DIAG cfq_2_2 (fit 0.50, src c11_maths_cfq_diagnostics.marker)
+  Q: If z = 2 + 3i, find |z| and zxz.
+  A: |z| = sqrt(4+9) = sqrt13. zxz = (2+3i)(2-3i) = 4 + 9 = 13. Note: zxz = |z|^2 = 13.
+VETTED-MIS misconception_9 (fit 0.32)
+  M: The polar form and the Cartesian form are unrelated, so converting between them is just memorizing a formula.
+  C: For z = a + ib = r(cos theta + i sin theta), we have r = sqrt(a^2 + b^2), a = r cos theta, b = r sin theta, and tan theta = b/a (with quadrant adjustment). The relationships come from the right triangle in the Argand plane.
+VETTED-MIS PP_C10_2020_029 (fit 0.32)
+  M: Candidates could not apply the section formula correctly to find the ratio and coordinates of the point where the y-axis divides the line joining two given points.
+  C: The section formula states that if P(x, y) divides the line joining A(x_1, y_1) and B(x_2, y_2) in the ratio m:n, then x = (mx_2 + nx_1)/(m + n) and y = (my_2 + ny_1)/(m + n). For the y-axis, set x = 0 and solve for the ratio.
+VETTED-MIS PP_C10_2020_029 (fit 0.32)
+  M: Candidates could not apply the section formula correctly to find the ratio and coordinates of the point where the y-axis divides the line joining two given points.
+  C: The section formula states that if P(x, y) divides the line joining A(x_1, y_1) and B(x_2, y_2) in the ratio m:n, then x = (mx_2 + nx_1)/(m + n) and y = (my_2 + ny_1)/(m + n). For the y-axis, set x = 0 and solve for the ratio.

@@ -1,0 +1,41 @@
+
+### NODE c8_chem_ch2_3  class=8 sub=chem ch=2 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: An atom is the smallest unit of an element that retains all the chemical properties of that element and can take part in a chemical reaction. Atoms are the fundamental building blocks of all matter in the universe, represented symbolically by chemical symbols like H for hydrogen, C for carbon, and Fe for iron.
+WALKTHROUGH: When you look at a pure iron rod used in construction, or a piece of pure copper wire, you see a solid mass of metal. If you could zoom in millions of times using a powerful microscope, you would see that this bulk material is made of countless tiny, identical building blocks packed tightly together. In Class 7, you learned about the physical and chemical properties of metals and non-metals like iron, copper, and sulfur. Now, we take a deeper step to ask: what is the fundamental unit making up each of these elements? Just as a massive brick wall is constructed from individual, identical bricks, every element is composed of identical smallest units called atoms.
+D1 Q: What is the term for the smallest unit of an element that retains the chemical properties of that element?
+D1 A: The correct answer is an atom. A student who answers "molecule" has confused the smallest unit of an element (atom) with the smallest independent unit of a compound or certain elements (molecule). A student who answers "cell" is confusing chemistry with biology.
+D2 Q: Why can a single atom of iron (Fe) be considered chemically identical to a large block of iron metal?
+D2 A: The correct answer is that all atoms of a specific element share the exact same chemical properties and characteristics, meaning the fundamental behavior of iron is present in every single one of its atoms. A student who says "because atoms are large enough to see" misunderstands their microscopic scale. A student who says "because atoms can change into copper" has forgotten that atoms of one element cannot turn into
+D3 Q: If you have a pure sample of copper wire weighing 10 grams, what fundamental particles make up this element?
+D3 A: The correct answer is copper atoms (Cu). 
+Steps:
+1. Identify the substance given: pure copper wire.
+2. Recall that copper is classified as a chemical element.
+3. Determine the smallest unit that makes up an element: an atom.
+4. Conclude that the wire is composed entirely of copper atoms.
+A student who answers "copper molecules" or "compounds" does not realize that pure metallic elements like copper exist as a vast as
+D4 Q: Compare the atoms of oxygen (O) and the atoms of hydrogen (H). How do they differ in terms of their identity and properties?
+D4 A: The correct answer is that oxygen atoms and hydrogen atoms are atoms of completely different elements, meaning they have different masses, chemical symbols, and distinct chemical properties. A student who says they are identical fails to understand that each element has its own unique type of atom.
+D5 Q: A student claims that if you crush a piece of sulfur powder into finer and finer dust, you eventually reach a point where crushing it further destroys its sulfur properties because you are no longer at the atomic level. Evaluate this statement.
+D5 A: The statement is scientifically accurate in principle because once you break a substance down to a single atom of sulfur, any further division would split the atom into subatomic particles, which do not exhibit the chemical properties of sulfur. A student who claims you can keep crushing forever without changing the chemical nature ignores the particulate limit of matter.
+D6 Q: Design a simple mental model or analogy to explain to a younger student why an atom is considered the "building block" of an element. [IN-SCOPE-REWRITE]
+D6 A: A good answer uses an analogy like Lego bricks, where a single red Lego brick represents an atom of one element (like copper), and a massive structure built entirely of those red bricks represents the bulk element. A poor answer relies on vague statements without a clear structural comparison, showing a weak grasp of how microscopic units form macroscopic matter.
+
+VETTED-DIAG cfq_10_1 (fit 0.19, src c8_chem_diagnostics.marker)
+  Q: Balance the following equation by inspection and state the type of reaction: N2 + H2 -> NH3. Show each step and the final balanced equation.
+  A: Unbalanced: N2 + H2 -> NH3. Count atoms: left has 2 N, 2 H; right has 1 N, 3 H. Step 1 — balance N: put a 2 before NH3 -> N2 + H2 -> 2NH3. Now right has 2 N, 6 H. Step 2 — balance H: put a 3 before H2 -> N2 + 3H2 -> 2NH3. Check: left = 2 N, 6 H; right = 2 N, 6 H. Balanced. Type: combination (synthesis) — two elements combine to form one compound. It is also a redox reaction but the primary classification at this level is combination.
+VETTED-DIAG cfq_3_2 (fit 0.19, src c8_chem_diagnostics.marker)
+  Q: A piece of iron is left exposed to moist air for several days. A reddish-brown flaky layer forms. The mass of the object increases. Explain, with reasons, whether this is a physical or chemical change, why the mass increases, and whether the law of conservation of mass is violated.
+  A: This is rusting — a chemical change. Iron reacts with oxygen and water to form hydrated iron(III) oxide (rust), a new substance with different properties (flaky, reddish-brown, non-magnetic). The mass increases because oxygen and hydrogen from water/air combine with the iron and become part of the rust; the extra mass comes from the air, not from nowhere. The law of conservation of mass is NOT violated — if you weighed the iron plus all the oxygen and water that reacted, the total mass before equals the total mass after. The "increase" is only because the object alone is being weighed, not the
+VETTED-DIAG cfq_5_2 (fit 0.18, src c8_chem_diagnostics.marker)
+  Q: Water can be split by electrolysis into hydrogen and oxygen in a 2:1 volume ratio. A student concludes that water is therefore a mixture of hydrogen and oxygen gases. Explain why this conclusion is wrong and what the electrolysis actually proves.
+  A: The conclusion is wrong because water is a compound, not a mixture. In water, hydrogen and oxygen are chemically bonded in a fixed ratio (2:1 by volume of gases produced corresponds to H2O, a fixed mass ratio). Evidence it is a compound, not a mixture: (1) water has properties totally different from hydrogen (a flammable gas) and oxygen (a supporter of combustion) — water puts out fires; (2) energy (electricity) is required to split it, showing bonds must be broken; (3) the ratio of hydrogen to oxygen is always fixed, whereas a mixture can have any proportion. Electrolysis proves that water is
+VETTED-MIS misconception_2 (fit 0.31)
+  M: Atoms and elements mean the same thing.
+  C: Atoms are the smallest particles of an element that keep its properties. When many atoms of the same kind group together, they form the element. For example, many carbon atoms form the element carbon.
+VETTED-MIS misconception_2 (fit 0.31)
+  M: Hydrogen is heavier than air because it is a gas like carbon dioxide.
+  C: Hydrogen is the lightest element and the lightest gas. It is much lighter than air, which is why it was once used in balloons and airships.
+VETTED-MIS M12 (fit 0.27)
+  M: Diamond and graphite are different elements
+  C: Diamond and graphite are BOTH carbon -- they are ALLOTROPES (different forms of the same element). Same atoms, different arrangements.

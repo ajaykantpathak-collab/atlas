@@ -1,0 +1,1273 @@
+{
+ "c11_acc_cbse_01_003": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   0
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "acc",
+   1
+  ]
+ },
+ "c11_acc_cbse_01_005": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "acc",
+   1
+  ]
+ },
+ "c11_acc_cbse_07_012": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "acc",
+   7
+  ]
+ },
+ "c11_acc_cbse_08_001": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "acc",
+   8
+  ]
+ },
+ "c11_acc_cbse_08_008": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "acc",
+   8
+  ]
+ },
+ "c11_acc_cbse_09_009": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4,
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1,
+   2
+  ],
+  "cluster": [
+   11,
+   "acc",
+   9
+  ]
+ },
+ "c11_geo_cbse_07_004": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "geo",
+   7
+  ]
+ },
+ "c11_geo_cbse_20_001": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   11,
+   "geo",
+   20
+  ]
+ },
+ "c11_geo_cbse_23_009": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   11,
+   "geo",
+   23
+  ]
+ },
+ "c11_phy_cbse_03_012": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   3
+  ]
+ },
+ "c11_phy_cbse_04_006": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   4
+  ]
+ },
+ "c11_phy_cbse_05_004": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   5
+  ]
+ },
+ "c11_phy_cbse_07_001": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   7
+  ]
+ },
+ "c11_phy_cbse_11_010": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   11
+  ]
+ },
+ "c11_phy_cbse_12_007": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   12
+  ]
+ },
+ "c11_phy_cbse_12_009": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   12
+  ]
+ },
+ "c11_phy_cbse_13_001": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   13
+  ]
+ },
+ "c11_phy_cbse_13_008": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   11,
+   "phy",
+   13
+  ]
+ },
+ "c12_acc_cbse_05_002": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   0
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "acc",
+   5
+  ]
+ },
+ "c12_acc_cbse_05_004": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "acc",
+   5
+  ]
+ },
+ "c12_acc_cbse_08_008": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "acc",
+   8
+  ]
+ },
+ "c12_acc_cbse_08_009": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "acc",
+   8
+  ]
+ },
+ "c12_acc_cbse_09_002": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "acc",
+   9
+  ]
+ },
+ "c12_bio_cbse_03_008": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2,
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1,
+   2
+  ],
+  "cluster": [
+   12,
+   "bio",
+   3
+  ]
+ },
+ "c12_biotech_cbse_03_002": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "biotech",
+   3
+  ]
+ },
+ "c12_biotech_cbse_08_009": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   1,
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1,
+   2
+  ],
+  "cluster": [
+   12,
+   "biotech",
+   8
+  ]
+ },
+ "c12_biotech_cbse_11_002": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3,
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1,
+   2
+  ],
+  "cluster": [
+   12,
+   "biotech",
+   11
+  ]
+ },
+ "c12_bs_cbse_03_007": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "bs",
+   3
+  ]
+ },
+ "c12_bs_cbse_04_007": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "bs",
+   4
+  ]
+ },
+ "c12_bs_cbse_07_008": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "bs",
+   7
+  ]
+ },
+ "c12_bs_cbse_09_006": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "bs",
+   9
+  ]
+ },
+ "c12_bs_cbse_10_009": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "bs",
+   10
+  ]
+ },
+ "c12_bs_cbse_11_001": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "bs",
+   11
+  ]
+ },
+ "c12_bs_cbse_11_011": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   1
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "bs",
+   11
+  ]
+ },
+ "c12_chem_cbse_01_001": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "chem",
+   1
+  ]
+ },
+ "c12_chem_cbse_01_002": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   1
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "chem",
+   1
+  ]
+ },
+ "c12_chem_cbse_01_010": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "chem",
+   1
+  ]
+ },
+ "c12_chem_cbse_05_002": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "chem",
+   5
+  ]
+ },
+ "c12_cs_cbse_08_004": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "cs",
+   8
+  ]
+ },
+ "c12_eco_cbse_05_003": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "eco",
+   5
+  ]
+ },
+ "c12_eco_cbse_10_001": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   1
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "eco",
+   10
+  ]
+ },
+ "c12_eco_cbse_11_007": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "eco",
+   11
+  ]
+ },
+ "c12_eco_cbse_11_010": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "eco",
+   11
+  ]
+ },
+ "c12_eng_f_cbse_08_009": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "eng_f",
+   8
+  ]
+ },
+ "c12_eng_k_cbse_03_014": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "eng_k",
+   3
+  ]
+ },
+ "c12_eng_k_cbse_05_014": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "cluster": [
+   12,
+   "eng_k",
+   5
+  ]
+ },
+ "c12_eng_k_cbse_16_005": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "eng_k",
+   16
+  ]
+ },
+ "c12_geo_cbse_02_006": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "geo",
+   2
+  ]
+ },
+ "c12_geo_cbse_17_004": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "geo",
+   17
+  ]
+ },
+ "c12_geo_cbse_19_011": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   1,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "geo",
+   19
+  ]
+ },
+ "c12_geo_cbse_21_002": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "geo",
+   21
+  ]
+ },
+ "c12_hin_ar_cbse_12_015": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "hin_ar",
+   12
+  ]
+ },
+ "c12_hin_ar_cbse_13_006": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "hin_ar",
+   13
+  ]
+ },
+ "c12_hin_ar_cbse_13_013": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "hin_ar",
+   13
+  ]
+ },
+ "c12_hs_cbse_01_010": {
+  "need": "append3",
+  "plan_rewrite": [],
+  "plan_append": 3,
+  "failing_diags": [
+   1,
+   4,
+   5,
+   6
+  ],
+  "cluster": [
+   12,
+   "hs",
+   1
+  ]
+ },
+ "c12_hs_cbse_02_005": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "hs",
+   2
+  ]
+ },
+ "c12_math_cbse_01_009": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "math",
+   1
+  ]
+ },
+ "c12_math_cbse_02_007": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "math",
+   2
+  ]
+ },
+ "c12_math_cbse_05_013": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "math",
+   5
+  ]
+ },
+ "c12_math_cbse_06_006": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   1
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "math",
+   6
+  ]
+ },
+ "c12_math_cbse_11_004": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2,
+   4
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1,
+   2
+  ],
+  "cluster": [
+   12,
+   "math",
+   11
+  ]
+ },
+ "c12_phy_cbse_02_007": {
+  "need": "isolated-rich",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 4,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "phy",
+   2
+  ]
+ },
+ "c12_phy_cbse_08_004": {
+  "need": "isolated-rich",
+  "plan_rewrite": [
+   4
+  ],
+  "plan_append": 4,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "phy",
+   8
+  ]
+ },
+ "c12_phy_cbse_09_003": {
+  "need": "isolated-rich",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 4,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "phy",
+   9
+  ]
+ },
+ "c12_phy_cbse_10_004": {
+  "need": "isolated-rich",
+  "plan_rewrite": [
+   0
+  ],
+  "plan_append": 4,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "phy",
+   10
+  ]
+ },
+ "c12_phy_cbse_10_008": {
+  "need": "isolated-rich",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 4,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "phy",
+   10
+  ]
+ },
+ "c12_phy_cbse_12_001": {
+  "need": "isolated-rich",
+  "plan_rewrite": [
+   0
+  ],
+  "plan_append": 4,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "phy",
+   12
+  ]
+ },
+ "c12_ps_cbse_09_006": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "ps",
+   9
+  ]
+ },
+ "c12_ps_cbse_09_009": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "ps",
+   9
+  ]
+ },
+ "c12_ps_cbse_14_006": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "ps",
+   14
+  ]
+ },
+ "c12_psy_cbse_01_001": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "psy",
+   1
+  ]
+ },
+ "c12_psy_cbse_01_005": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "psy",
+   1
+  ]
+ },
+ "c12_psy_cbse_03_006": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "psy",
+   3
+  ]
+ },
+ "c12_psy_cbse_05_004": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "psy",
+   5
+  ]
+ },
+ "c12_psy_cbse_05_006": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "psy",
+   5
+  ]
+ },
+ "c12_psy_cbse_05_007": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "psy",
+   5
+  ]
+ },
+ "c12_soc_cbse_01_008": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "soc",
+   1
+  ]
+ },
+ "c12_soc_cbse_05_003": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2,
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1,
+   2
+  ],
+  "cluster": [
+   12,
+   "soc",
+   5
+  ]
+ },
+ "c12_soc_cbse_05_007": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   2,
+   3
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1,
+   2
+  ],
+  "cluster": [
+   12,
+   "soc",
+   5
+  ]
+ },
+ "c12_soc_cbse_12_006": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   3,
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1,
+   2
+  ],
+  "cluster": [
+   12,
+   "soc",
+   12
+  ]
+ },
+ "c12_soc_cbse_15_004": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "soc",
+   15
+  ]
+ },
+ "c12_soc_cbse_15_010": {
+  "need": "rewrite-multi",
+  "plan_rewrite": [
+   5
+  ],
+  "plan_append": 0,
+  "failing_diags": [
+   1
+  ],
+  "cluster": [
+   12,
+   "soc",
+   15
+  ]
+ }
+}

@@ -106,6 +106,14 @@ async def _resolve_student_async(db: AsyncSession, requested: str) -> Optional[s
                     return rid
             except Exception:
                 return None
+            # a users.id with no students row yet -> mirror it via the
+            # canonical bridge instead of dumping attempts on the demo row
+            try:
+                from backend.services.identity_bridge import ensure_student_row
+                row = await ensure_student_row(db, rid)
+                return str(row.id)
+            except Exception:
+                pass
     # non-UUID or missing student -> shared demo student (find or create)
     try:
         res = await db.execute(
@@ -715,6 +723,25 @@ async def submit_answer(
         )
     except Exception as exc:
         logger.debug("Analytics emission failed: %s", exc)
+
+    # ── Emit to intelligence bus — drives remediation + concept gaps ──
+    try:
+        from backend.services.intelligence_bus import (
+            emit_student_answer, emit_hint,
+        )
+        emit_student_answer(
+            problem_type_id=_q_attr(question, "topic", "") or qid_requested,
+            correct=is_correct,
+            student_id=str(session.student_id),
+        )
+        for _ in range(req.hints_used or 0):
+            emit_hint(
+                problem_type_id=_q_attr(question, "topic", "") or qid_requested,
+                rung=1,
+                student_id=str(session.student_id),
+            )
+    except Exception as exc:
+        logger.debug("Intelligence bus emission failed: %s", exc)
 
     # ── Update session counters (stored in session_meta) ──
     answered = _meta_inc(session, "answered_count")

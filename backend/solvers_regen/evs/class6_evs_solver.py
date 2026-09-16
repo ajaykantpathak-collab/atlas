@@ -288,4 +288,133 @@ def _solve_area_calc(params: dict) -> SolverResult:
 
 def _solve_housing_density(params: dict) -> SolverResult:
     population = int(params.get("population", 1500))
-    family_size = int(params.get("family_size
+    family_size = int(params.get("family_size", 5))
+    houses = math.ceil(population / family_size)
+    s1 = "Step 1: Population of the settlement = " + str(population)
+    s2 = "Step 2: Average family size = " + str(family_size) + " members per house"
+    s3 = "Step 3: Number of houses needed = Population / Family size = " + str(population) + " / " + str(family_size) + " = " + str(houses)
+    s4 = "Answer: About " + str(houses) + " houses are needed for the settlement"
+    ver = "Verification: " + str(houses) + " houses x " + str(family_size) + " members/house = " + str(houses * family_size) + " >= " + str(population) + " (correct)"
+    return SolverResult(answer=str(houses) + " houses", steps=[s1, s2, s3, s4], verification=ver, confidence="high")
+
+
+# ===== SECTION 4: DETERMINISTIC QUESTION GENERATOR (registry adapter) =====
+
+# PROBLEM_TYPES names -> implemented solvers (problem types lost in the file
+# truncation are simply not offered by the generator).
+_PROBLEM_SOLVERS: Dict[str, Any] = {
+    "gas_composition": _solve_gas_composition,
+    "air_quality_index": _solve_air_quality_index,
+    "freshwater_pct": _solve_freshwater_pct,
+    "water_usage_calc": _solve_water_usage,
+    "water_wastage": _solve_water_wastage,
+    "soil_composition": _solve_soil_composition,
+    "soil_erosion_calc": _solve_soil_erosion,
+    "forest_cover_calc": _solve_forest_cover,
+    "tree_planting_calc": _solve_tree_planting,
+    "diet_percentage": _solve_diet_percentage,
+    "calorie_calc": _solve_calorie_calc,
+    "area_calc": _solve_area_calc,
+    "housing_density": _solve_housing_density,
+}
+
+
+def _scenario_for(problem: str, rng: random.Random):
+    """Return (params, question_text) for a seeded scenario of the given problem type."""
+    if problem == "gas_composition":
+        n2 = rng.choice([78, 76, 80])
+        o2 = rng.choice([20, 21, 22])
+        return ({"nitrogen_pct": n2, "oxygen_pct": o2},
+                "Air contains " + str(n2) + "% nitrogen and " + str(o2) + "% oxygen. What percentage of air is made up of other gases?")
+    if problem == "air_quality_index":
+        rspm = rng.choice([120, 150, 180, 220])
+        return ({"rspm": rspm, "safe_limit": 100},
+                "The RSPM level of a city is " + str(rspm) + " ug/m3 and the safe limit is 100 ug/m3. By what percentage does it exceed the safe limit?")
+    if problem == "freshwater_pct":
+        ocean = rng.choice([97.5, 97, 98])
+        return ({"ocean_pct": ocean},
+                "About " + str(ocean) + "% of all water on Earth is in the oceans. What percentage is freshwater?")
+    if problem == "water_usage_calc":
+        fam = rng.choice([15, 20, 25])
+        per = rng.choice([400, 500, 600])
+        days = rng.choice([7, 30])
+        return ({"families": fam, "daily_per_family": per, "days": days},
+                "A colony has " + str(fam) + " families, each using " + str(per) + " L of water daily. How much water do they use in " + str(days) + " days (in litres)?")
+    if problem == "water_wastage":
+        drops = rng.choice([10, 20, 30])
+        days = rng.choice([7, 15, 30])
+        return ({"drops_per_min": drops, "vol_per_drop": 0.05, "min_per_day": 1440, "days": days},
+                "A tap drips " + str(drops) + " drops per minute, each drop being 0.05 mL. How much water is wasted in " + str(days) + " days (in litres)?")
+    if problem == "soil_composition":
+        m = rng.choice([40, 45, 50])
+        o = rng.choice([5, 8, 10])
+        w = rng.choice([20, 25, 30])
+        return ({"mineral_pct": m, "organic_pct": o, "water_pct": w},
+                "A soil sample has " + str(m) + "% mineral matter, " + str(o) + "% organic matter and " + str(w) + "% water. What percentage is air?")
+    if problem == "soil_erosion_calc":
+        rate = rng.choice([4, 5, 8])
+        area = rng.choice([6, 8, 10])
+        years = rng.choice([2, 3, 5])
+        return ({"erosion_rate": rate, "area": area, "years": years},
+                "A field loses " + str(rate) + " tonnes of soil per hectare every year. How much soil is lost from " + str(area) + " hectares in " + str(years) + " years?")
+    if problem == "forest_cover_calc":
+        pct = rng.choice([21, 22, 24])
+        return ({"geographical_area": 3287263, "forest_pct": pct},
+                "India's geographical area is 32,87,263 sq km. If forest cover is " + str(pct) + "%, what is the forest cover area (in sq km)?")
+    if problem == "tree_planting_calc":
+        planted = rng.choice([150, 200, 500])
+        l1 = rng.choice([5, 10, 15])
+        l2 = rng.choice([5, 8])
+        return ({"planted": planted, "year1_loss_pct": l1, "year2_loss_pct": l2},
+                "A school plants " + str(planted) + " trees. In the first year " + str(l1) + "% die, and in the second year another " + str(l2) + "% die. How many trees survive after two years?")
+    if problem == "diet_percentage":
+        c = rng.choice([40, 45, 50])
+        v = rng.choice([20, 25, 30])
+        p = rng.choice([10, 15, 20])
+        return ({"cereals_pct": c, "veg_pct": v, "proteins_pct": p},
+                "A balanced diet has " + str(c) + "% cereals, " + str(v) + "% vegetables and fruits and " + str(p) + "% proteins. What percentage is fats and sugars?")
+    if problem == "calorie_calc":
+        n = rng.choice([2, 3, 4])
+        cal = rng.choice([100, 120, 150])
+        return ({"num_items": n, "cals_per_item": cal},
+                "If one food item gives " + str(cal) + " calories, how many calories do " + str(n) + " such items give?")
+    if problem == "area_calc":
+        ln = rng.choice([4, 5, 6, 8])
+        wd = rng.choice([3, 4, 5])
+        return ({"length": ln, "width": wd},
+                "A room is " + str(ln) + " m long and " + str(wd) + " m wide. What is the area of its floor (in square metres)?")
+    if problem == "housing_density":
+        pop = rng.choice([800, 1200, 1500, 2400])
+        fam = rng.choice([4, 5, 6])
+        return ({"population": pop, "family_size": fam},
+                "A settlement has " + str(pop) + " people and each house holds one family of " + str(fam) + " members on average. About how many houses are needed?")
+    return ({}, "")
+
+
+def generate_questions(seed: int = 0, count: int = 1, topic: Optional[str] = None) -> List[Dict[str, Any]]:
+    """Deterministically build drill questions from the solvers above."""
+    rng = random.Random(seed)
+    available = [(tid, p) for tid, probs in PROBLEM_TYPES.items() for p in probs if p in _PROBLEM_SOLVERS]
+    if topic and topic in PROBLEM_TYPES:
+        available = [(tid, p) for tid, p in available if tid == topic]
+
+    out: List[Dict[str, Any]] = []
+    for i in range(count):
+        tid, problem = available[(seed + i) % len(available)]
+        solver = _PROBLEM_SOLVERS[problem]
+        params, question = _scenario_for(problem, rng)
+        try:
+            result = solver(params)
+        except Exception:
+            continue
+        out.append({
+            "id": f"{tid}_{problem}_{seed}_{i}",
+            "type": "numerical",
+            "topic": tid,
+            "difficulty": "medium",
+            "question": question,
+            "answer": result.answer,
+            "steps": result.steps,
+            "explanation": result.verification,
+        })
+    return out

@@ -2,7 +2,7 @@
 Database configuration, async engine, session management,
 and all SQLAlchemy ORM models for the K-12 learning platform.
 
-Path: D:\platform\backend\database.py
+Path: backend/database.py
 """
 
 from __future__ import annotations
@@ -821,7 +821,9 @@ class SolverExecution(Base, TimestampMixin):
     )
 
     # -- Relationships -----------------------------------------------
-    student: Mapped[Student | None] = relationship("Student")
+    student: Mapped[Student | None] = relationship(
+        "Student", back_populates="solver_executions"
+    )
 
     def __repr__(self) -> str:  # pragma: no cover
         return (
@@ -926,7 +928,187 @@ __all__ = [
     "TutorSession",
     "DiagnosticResult",
     "SolverExecution",
+    "Homework",
+    "HomeworkQuestion",
+    "HomeworkSubmission",
     # Association tables (used by Alembic autogenerate & services)
     "student_parents",
     "practice_session_topics",
 ]
+
+
+# ------------------------------------------------------------------ #
+#  HOMEWORK – teacher-assigned per-student homework                  #
+# ------------------------------------------------------------------ #
+class Homework(Base, TimestampMixin):
+    __tablename__ = "homework"
+
+    id: Mapped[uuid.UUID] = mapped_column(
+        GUID(),
+        primary_key=True,
+        default=uuid.uuid4,
+    )
+    student_id: Mapped[uuid.UUID] = mapped_column(
+        GUID(),
+        ForeignKey("students.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+    teacher_id: Mapped[uuid.UUID | None] = mapped_column(
+        GUID(),
+        ForeignKey("teachers.id", ondelete="SET NULL"),
+        nullable=True,
+        index=True,
+    )
+
+    title: Mapped[str] = mapped_column(String(200), nullable=False)
+    description: Mapped[str | None] = mapped_column(Text, nullable=True)
+    subject: Mapped[str] = mapped_column(String(100), nullable=False, index=True)
+    due_date: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True, index=True,
+    )
+    teacher_instructions: Mapped[str | None] = mapped_column(
+        String(1000), nullable=True,
+    )
+    allow_late_submission: Mapped[bool] = mapped_column(
+        Boolean, nullable=False, server_default="false",
+    )
+    status: Mapped[str] = mapped_column(
+        String(30), nullable=False, server_default="pending", index=True,
+    )
+    total_marks: Mapped[int] = mapped_column(
+        Integer, nullable=False, server_default="0",
+    )
+
+    # -- Relationships -----------------------------------------------
+    questions: Mapped[list["HomeworkQuestion"]] = relationship(
+        "HomeworkQuestion",
+        back_populates="homework",
+        cascade="all, delete-orphan",
+        lazy="selectin",
+    )
+    submissions: Mapped[list["HomeworkSubmission"]] = relationship(
+        "HomeworkSubmission",
+        back_populates="homework",
+        cascade="all, delete-orphan",
+        lazy="selectin",
+    )
+    student: Mapped[Student] = relationship("Student")
+
+    def __repr__(self) -> str:  # pragma: no cover
+        return (
+            f"<Homework id={self.id} student={self.student_id} "
+            f"subject={self.subject!r} status={self.status!r}>"
+        )
+
+
+class HomeworkQuestion(Base, TimestampMixin):
+    __tablename__ = "homework_questions"
+
+    id: Mapped[uuid.UUID] = mapped_column(
+        GUID(),
+        primary_key=True,
+        default=uuid.uuid4,
+    )
+    homework_id: Mapped[uuid.UUID] = mapped_column(
+        GUID(),
+        ForeignKey("homework.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+
+    question_text: Mapped[str] = mapped_column(Text, nullable=False)
+    question_type: Mapped[str] = mapped_column(
+        String(20), nullable=False, server_default="short_answer",
+    )
+    options: Mapped[list[str] | None] = mapped_column(
+        JSONVariant(), nullable=True,
+    )
+    correct_answer: Mapped[str | None] = mapped_column(Text, nullable=True)
+    marks: Mapped[int] = mapped_column(
+        Integer, nullable=False, server_default="1",
+    )
+    difficulty: Mapped[str | None] = mapped_column(String(10), nullable=True)
+    hint: Mapped[str | None] = mapped_column(String(500), nullable=True)
+
+    # -- Relationships -----------------------------------------------
+    homework: Mapped[Homework] = relationship(
+        "Homework", back_populates="questions"
+    )
+
+    def __repr__(self) -> str:  # pragma: no cover
+        return f"<HomeworkQuestion id={self.id} hw={self.homework_id}>"
+
+
+class HomeworkSubmission(Base, TimestampMixin):
+    __tablename__ = "homework_submissions"
+
+    id: Mapped[uuid.UUID] = mapped_column(
+        GUID(),
+        primary_key=True,
+        default=uuid.uuid4,
+    )
+    homework_id: Mapped[uuid.UUID] = mapped_column(
+        GUID(),
+        ForeignKey("homework.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+    student_id: Mapped[uuid.UUID] = mapped_column(
+        GUID(),
+        ForeignKey("students.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+
+    # -- [{question_id, answer, score, max_marks, feedback}] ----------
+    answers: Mapped[dict[str, Any] | list | None] = mapped_column(
+        JSONVariant(), nullable=True,
+    )
+    score: Mapped[float | None] = mapped_column(Float, nullable=True)
+    max_score: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    percentage: Mapped[float | None] = mapped_column(Float, nullable=True)
+    grade: Mapped[str | None] = mapped_column(String(5), nullable=True)
+    overall_feedback: Mapped[str | None] = mapped_column(Text, nullable=True)
+    submitted_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True,
+    )
+    is_late: Mapped[bool] = mapped_column(
+        Boolean, nullable=False, server_default="false",
+    )
+    graded: Mapped[bool] = mapped_column(
+        Boolean, nullable=False, server_default="false",
+    )
+    graded_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True,
+    )
+
+    # -- Relationships -----------------------------------------------
+    homework: Mapped[Homework] = relationship(
+        "Homework", back_populates="submissions"
+    )
+    student: Mapped[Student] = relationship("Student")
+
+    def __repr__(self) -> str:  # pragma: no cover
+        return (
+            f"<HomeworkSubmission id={self.id} hw={self.homework_id} "
+            f"graded={self.graded}>"
+        )
+
+
+class TutorStudentState(Base, TimestampMixin):
+    """Per-student tutor engine state (mastery, mistake book, streaks).
+
+    Replaces the tutor_students.json file store: one row per student,
+    upserted after each serve/submit instead of rewriting a whole JSON
+    blob — so concurrent workers can't clobber each other's writes and
+    the state survives container rebuilds in Postgres, not a volume file.
+    """
+
+    __tablename__ = "tutor_student_states"
+
+    student_id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    state: Mapped[dict] = mapped_column(JSONVariant(), nullable=False)
+
+    def __repr__(self) -> str:  # pragma: no cover
+        return f"<TutorStudentState student={self.student_id}>"

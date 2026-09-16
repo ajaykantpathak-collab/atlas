@@ -502,7 +502,7 @@ def _gen_addition_subtraction(seed: int, count: int) -> List[Question]:
 
         elif st == "subtraction_no_regroup":
             a = rng.randint(100, 999)
-            b = rng.randint(10, a % 100)
+            b = rng.randint(10, max(10, a % 100))
             correct = a - b
             if is_comp:
                 qtext = (f"{name} had Rs {a}. She spent Rs {b} at a shop in {place}. "
@@ -863,7 +863,7 @@ def _gen_division(seed: int, count: int) -> List[Question]:
                 qtext = (f"{name} has {dividend} beads. She makes necklaces "
                          f"with {divisor} beads each. How many complete necklaces "
                          f"can she make and how many beads are left?")
-                expl = (f"{dividest} / {divisor}: Quotient = {quotient}, "
+                expl = (f"{dividend} / {divisor}: Quotient = {quotient}, "
                         f"Remainder = {remainder}")
                 ctx = "Making necklaces with beads"
             else:
@@ -1033,11 +1033,9 @@ def _gen_fractions(seed: int, count: int) -> List[Question]:
             questions.append(q)
 
         elif st == "compare_fractions":
-            denom = rng.choice([2, 3, 4, 5, 8, 10])
+            denom = rng.choice([3, 4, 5, 8, 10])
             n1 = rng.randint(1, denom - 1)
-            n2 = rng.randint(1, denom - 1)
-            while n2 == n1:
-                n2 = rng.randint(1, denom - 1)
+            n2 = rng.choice([k for k in range(1, denom) if k != n1])
             f1 = n1 / denom
             f2 = n2 / denom
             if f1 > f2:
@@ -2277,4 +2275,117 @@ def _gen_symmetry(seed: int, count: int) -> List[Question]:
                 question_type="MCQ", competency_type=comp_type,
                 difficulty="medium", bloom_level="Apply",
                 question_text=qtext, options=opts,
-                answer=correct
+                answer=correct, correct_index=corr_idx,
+                steps=[f"A {shape} can be folded along a line so both halves match",
+                       f"Number of such lines = {symmetry_count}"],
+                explanation=expl, context_hint=ctx,
+                verification=f"Definition confirms: {shape} has {symmetry_count} line(s) of symmetry"
+            )
+            questions.append(q)
+
+        elif st == "symmetric_shapes":
+            shape = rng.choice(["Butterfly", "Letter A", "Letter S",
+                                "Square", "Leaf", "Letter E", "Letter P"])
+            has_sym = shape not in ("Letter S", "Letter P")
+            letter_shape = shape.startswith("Letter")
+
+            if is_comp:
+                ctx_word = "kite" if shape == "Butterfly" else "school notebook"
+                qtext = (f"{name} observes a {shape} in the {ctx_word} at {place}. "
+                         f"Is the {shape} symmetrical?")
+                expl = (f"A {shape} {'has' if has_sym else 'does not have'} "
+                        f"a line of symmetry.")
+                ctx = f"Spotting symmetry in a {ctx_word}"
+            else:
+                qtext = f"Is a {shape} symmetrical?"
+                expl = (f"A {shape} {'has' if has_sym else 'does not have'} "
+                        f"a line of symmetry.")
+                ctx = "Symmetric shapes"
+
+            correct = "Yes" if has_sym else "No"
+            wrong_opts = ["No"] if has_sym else ["Yes"]
+            opts = _make_options(rng, correct, wrong_opts)
+            corr_idx = opts.index(correct)
+
+            q = Question(
+                id=qid, topic="Symmetry", subtopic="symmetric_shapes",
+                question_type="MCQ", competency_type=comp_type,
+                difficulty="easy", bloom_level="Understand",
+                question_text=qtext, options=opts,
+                answer=correct, correct_index=corr_idx,
+                steps=[f"Imagine folding the {shape} along a middle line",
+                       f"The two halves {'match' if has_sym else 'do not match'}"],
+                explanation=expl, context_hint=ctx,
+                verification=f"Answer confirmed: {shape} is {'symmetrical' if has_sym else 'not symmetrical'}"
+            )
+            questions.append(q)
+
+    return questions
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ═══  TOPIC REGISTRY  ═══════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════════════════
+
+_TOPIC_GENERATORS = [
+    ("numbers", _gen_numbers),
+    ("addition_subtraction", _gen_addition_subtraction),
+    ("multiplication", _gen_multiplication),
+    ("division", _gen_division),
+    ("fractions", _gen_fractions),
+    ("money", _gen_money),
+    ("time", _gen_time),
+    ("calendar", _gen_calendar),
+    ("length", _gen_length),
+    ("weight", _gen_weight),
+    ("capacity", _gen_capacity),
+    ("geometry", _gen_geometry),
+    ("symmetry", _gen_symmetry),
+]
+
+
+def generate_questions(seed=None, count=5, topic=None):
+    """Generate deterministic CISCE Class 3 Mathematics questions.
+
+    Args:
+        seed: Random seed for reproducibility
+        count: Number of questions (called as fn(seed) returns one)
+        topic: Optional topic filter (e.g., "money", "fractions", "symmetry")
+
+    Returns:
+        List of question dictionaries.
+    """
+    n = 1 if count is None else max(1, int(count))
+    seed_val = int(seed) if seed is not None else 0
+
+    if topic:
+        t = str(topic).lower().replace(" ", "_")
+        gens = [g for name, g in _TOPIC_GENERATORS if name == t]
+        if not gens:
+            gens = [g for _, g in _TOPIC_GENERATORS]
+    else:
+        gens = [g for _, g in _TOPIC_GENERATORS]
+
+    questions = []
+    per_topic = max(1, -(-n // len(gens)))
+    for i, gen in enumerate(gens):
+        if len(questions) >= n:
+            break
+        need = min(per_topic, n - len(questions))
+        sub_seed = seed_val * 7919 + i * 104729
+        qs = gen(sub_seed, need)
+        questions.extend(q.to_dict() for q in qs)
+    return questions[:n]
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ═══  DEMO  ═════════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════════════════
+
+if __name__ == "__main__":
+    for q in generate_questions(seed=42, count=6):
+        print(f"[{q['id']}] ({q['topic']}) {q['question_text']}")
+        for o in q["options"]:
+            print(f"    {o}")
+        print(f"    Answer: {q['answer']}")
+        print()

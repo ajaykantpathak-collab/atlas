@@ -1,0 +1,55 @@
+{
+ "c7_math_ch03_007": {
+  "rewrites": {
+   "1": {
+    "q": "State the correct sequence of steps for comparing two decimals such as 3.45 and 3.485.",
+    "a": "The comparison follows: (1) Write the decimals with points aligned (2) Add placeholder zeros to equalise decimal places (3) Compare digits from left to right through tenths (4) Decide at the first place where digits differ. Padding 3.45 to 3.450 and comparing with 3.485, the thousandths digits 0 and 5 decide it, so 3.485 is greater. A wrong answer that declares 3.45 larger because 45 looks bigger after the point shows the student is comparing the decimal part as a whole number instead of by place value."
+   }
+  },
+  "appends": []
+ },
+ "c7_math_ch07_003": {
+  "rewrites": {
+   "5": {
+    "q": "Why is marking the third vertex of a triangle by ruler-guessing unreliable compared to using two compass arcs?",
+    "a": "Compass arcs give precision: (1) The needle at one endpoint holds an exact fixed radius (2) The arc is a locus of points at that exact distance (3) The second arc from the other endpoint is a second exact locus (4) Only their intersection satisfies both side lengths at once. A ruler-guessed dot carries no locus guarantee, so at least one side length will be off. A wrong answer that calls the ruler method acceptable shows the student believes construction is merely sketching rather than the precise geometric mapping of exact side-length constraints."
+   }
+  },
+  "appends": []
+ },
+ "c7_math_ch10_001": {
+  "rewrites": {
+   "2": {
+    "q": "Shimla records -4 degree Celsius and Srinagar records -7 degree Celsius. Which place is colder, and by what number-line reasoning?",
+    "a": "The number-line reasoning runs: (1) Locate both readings on the number line (2) Observe that -7 lies to the left of -4 (3) Recall that values decrease as you move left (4) Conclude that Srinagar at -7 is colder than Shimla at -4. A wrong answer that picks Shimla because 4 is less than 7 shows the student is comparing the digits while ignoring the negative signs, which reverse the order of magnitude on the number line."
+   }
+  },
+  "appends": []
+ },
+ "c7_math_ch10_007": {
+  "rewrites": {
+   "4": {
+    "q": "Both A = [(-2) x 7] x (-5) and B = (-2) x [7 x (-5)] equal +70. Give the correct sequence of reasoning that turns A into B.",
+    "a": "Converting A to B takes two distinct properties in order: (1) Associativity moves the brackets without changing any factor (2) Commutativity only swaps the order of factors (3) Sign rules give each grouped product its value (4) Both expressions still evaluate to +70. A wrong answer that calls the bracket move itself commutative shows the student confuses the property that changes grouping with the property that changes the position of factors."
+   }
+  },
+  "appends": []
+ },
+ "c7_math_ch15_010": {
+  "rewrites": {},
+  "appends": [
+   {
+    "q": "State the correct sequence of steps to solve the stationery-shop word problem that leads to the equation 50 + 3x = 200.",
+    "a": "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x. A wrong answer that adds before subtracting, or divides only the total by the quantity, shows the student has not understood that inverse operations must undo the equation in reverse order while keeping both sides balanced."
+   },
+   {
+    "q": "You carry 200 rupees to a stationery shop, buy a notebook for 50 rupees, and spend the rest on 3 identical pens. What is the cost of one pen, and which equation models the situation?",
+    "a": "The remaining money is 200 - 50 = 150 rupees, so the balance statement is 50 + 3x = 200 with each pen costing 50 rupees. A wrong answer that divides 200 by 3, or subtracts before writing the balance equation, shows the student cannot translate the word problem into a balanced algebraic statement before applying inverse operations."
+   },
+   {
+    "q": "Why does solving an equation by applying the same operation to both sides preserve its balance?",
+    "a": "An equation is a balanced scale: performing the same inverse operation on both sides keeps the two sides equal while stripping away one layer, moving the unknown closer to isolation. A wrong answer that changes only one side shows the student treats the equals sign as a command to write an answer rather than a statement of balance between two expressions."
+   }
+  ]
+ }
+}

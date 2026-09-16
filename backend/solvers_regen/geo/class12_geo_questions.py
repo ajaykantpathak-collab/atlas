@@ -8,7 +8,7 @@ Topics: Climate, Soils, Natural Vegetation, Water Resources, Minerals,
 import random
 import math
 from dataclasses import dataclass, field
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Any
 import json
 
 # ─── Question Data Structures ───────────────────────────────────────────────
@@ -1259,10 +1259,10 @@ class WaterResourcesGenerator:
                 ),
                 correct_answer=(
                     f"Total runoff = {area} ha x {rain} cm x {runoff_coeff:.2f} = "
-                    f"{area * rain * runcoeff:.0f} hectare-cm = "
-                    f"{(area * rain * runcoeff) / 10000:.2f} million cubic metres.\n"
-                    f"Harvestable water = 40% of {(area * rain * runcoeff)/10000:.2f} = "
-                    f"{(area * rain * runcoeff) / 10000 * 0.4:.2f} million cubic metres."
+                    f"{area * rain * runoff_coeff:.0f} hectare-cm = "
+                    f"{(area * rain * runoff_coeff) / 10000:.2f} million cubic metres.\n"
+                    f"Harvestable water = 40% of {(area * rain * runoff_coeff)/10000:.2f} = "
+                    f"{(area * rain * runoff_coeff) / 10000 * 0.4:.2f} million cubic metres."
                 ),
                 explanation=(
                     "Runoff calculation: Volume = Area x Rainfall x Runoff Coefficient. "
@@ -2034,7 +2034,7 @@ class PopulationGenerator:
         return questions
 
     def _competency_population(self) -> List[Question]:
-        bank = self.banked
+        bank = self.bank
         questions = []
 
         state = bank.choice(["Bihar", "Uttar Pradesh", "Rajasthan", "Madhya Pradesh", "Odisha"])
@@ -2521,7 +2521,7 @@ class OceansGenerator:
                 difficulty="Easy",
                 competency_level="Remembering",
                 question_text=(
-                    "The ______ Reef, located off the coast of {bank.choice(['Tamil Nadu', 'Kerala', 'Lakshadweep'])}, "
+                    f"The ______ Reef, located off the coast of {bank.choice(['Tamil Nadu', 'Kerala', 'Lakshadweep'])}, "
                     "is the largest coral reef system in India."
                 ),
                 correct_answer=bank.choice(["Gulf of Mannar", "Palk Bay"]),
@@ -3001,3 +3001,188 @@ class TopoMapGenerator:
                     correct_answer="290 degrees",
                     explanation=(
                         "Back Bearing = Fore Bearing +/- 180 degrees. If Fore Bearing < 180, add 180. "
+                        "Here, 110 + 180 = 290 degrees. Conversely, if the fore bearing were more than 180, "
+                        "we would subtract 180. So a fore bearing of 290 degrees gives a back bearing of "
+                        "290 - 180 = 110 degrees."
+                    ),
+                    marks=1, topic_tags=["Topographical Maps", "Bearing"]
+                )
+            elif sub == "contour":
+                vi = bank.choice([10, 20, 30])
+                question = Question(
+                    id=bank.next_id("Q"),
+                    node_id="c12_geo_topo_contour",
+                    question_type="mcq", difficulty="Easy",
+                    competency_level="Remembering",
+                    question_text=(
+                        f"On a toposheet, the difference in height between two consecutive contour lines "
+                        f"is {vi} metres. What is the Vertical Interval (V.I.) of these contours?"
+                    ),
+                    options=generate_mcq_options(
+                        bank, f"{vi} metres",
+                        [f"{vi*2} metres", f"{vi} metres", f"{vi//2} metres", f"{vi+10} metres"]
+                    ),
+                    correct_answer=f"{vi} metres",
+                    explanation=(
+                        f"Vertical Interval (V.I.) is the difference in height between two consecutive "
+                        f"contour lines. Here it is directly given as {vi} metres. Do not confuse it with "
+                        f"the Horizontal Equivalent, which is the horizontal ground distance between contours."
+                    ),
+                    marks=1, topic_tags=["Topographical Maps", "Contours"]
+                )
+            elif sub == "grid":
+                easting = bank.randint(11, 89)
+                northing = bank.randint(11, 89)
+                gr = f"{easting}{northing}"
+                question = Question(
+                    id=bank.next_id("Q"),
+                    node_id="c12_geo_topo_grid",
+                    question_type="mcq", difficulty="Medium",
+                    competency_level="Applying",
+                    question_text=(
+                        f"A temple lies within Easting {easting} and Northing {northing} on a toposheet. "
+                        f"What is its four-figure grid reference?"
+                    ),
+                    options=generate_mcq_options(
+                        bank, gr,
+                        [gr, f"{northing}{easting}", f"{easting}0{northing}0", f"{northing}0{easting}0"]
+                    ),
+                    correct_answer=gr,
+                    explanation=(
+                        "A four-figure grid reference is written Eastings first, then Northings "
+                        "('go along the corridor before going up the stairs'). "
+                        f"Hence the reference is {easting} (Eastings) followed by {northing} (Northings) = {gr}."
+                    ),
+                    marks=1, topic_tags=["Topographical Maps", "Grid Reference"]
+                )
+        elif q_type == "fill_blank":
+            fill_data = bank.choice([
+                ("The ratio between the distance on a map and the corresponding distance on the ground is called the ______.", "Representative Fraction"),
+                ("Contour lines drawn very close together on a toposheet indicate a ______ slope.", "steep"),
+                ("The difference in height between two consecutive contour lines is called the ______.", "Vertical Interval"),
+                ("In a grid reference, Eastings are always read ______ Northings.", "before"),
+            ])
+            question = Question(
+                id=bank.next_id("Q"),
+                node_id="c12_geo_topo_fill",
+                question_type="fill_blank", difficulty="Easy",
+                competency_level="Remembering",
+                question_text=fill_data[0],
+                correct_answer=fill_data[1],
+                explanation=(
+                    "These are standard terms used in the interpretation of Survey of India "
+                    "topographical maps in the ISC Class 12 syllabus."
+                ),
+                marks=1, topic_tags=["Topographical Maps"]
+            )
+        else:
+            vi = bank.choice([10, 20, 40])
+            scale = bank.choice(["1:50,000", "1:25,000"])
+            question = Question(
+                id=bank.next_id("Q"),
+                node_id="c12_geo_topo_sa",
+                question_type="short_answer", difficulty="Medium",
+                competency_level="Understanding",
+                question_text=(
+                    f"Explain how you would identify a steep slope and a gentle slope on a toposheet of scale "
+                    f"{scale} with a contour interval of {vi} metres. Also state what the closeness of contour "
+                    f"lines tells you about the terrain."
+                ),
+                correct_answer=(
+                    "On a toposheet, contour lines drawn close together indicate a steep slope because the "
+                    "height rises quickly over a short horizontal distance, while widely spaced contours "
+                    "indicate a gentle slope. The vertical interval remains constant; it is the horizontal "
+                    "spacing (Horizontal Equivalent) that changes with the steepness of the terrain."
+                ),
+                explanation=(
+                    "Interpretation of contour patterns is a core skill of the Topographical Maps unit. "
+                    "The contour interval stays fixed on a sheet; only the horizontal spacing varies, "
+                    "which is why closely packed contours mean steep terrain."
+                ),
+                marks=2, topic_tags=["Topographical Maps", "Contours"]
+            )
+
+        questions.append(question)
+        return questions
+
+    def _competency_topo(self) -> List[Question]:
+        bank = self.bank
+        questions = []
+
+        question = Question(
+            id=bank.next_id("Q"),
+            node_id="c12_geo_topo_comp",
+            question_type="case_study",
+            difficulty="Medium",
+            competency_level="Applying",
+            question_text=(
+                "CASE STUDY: Your school trekking team is planning an expedition using Survey of India "
+                f"toposheet number {bank.choice(['45D/7', '45D/10', '53A/4'])} on a scale of 1:50,000.\n\n"
+                "(a) How would you find the highest and lowest points in the mapped area using contour lines?\n"
+                "(b) Two members measure 6 cm between a temple and a school on the map. What actual ground "
+                "distance does this represent?\n"
+                "(c) How would you give the exact location of the temple to a rescue team over the phone?"
+            ),
+            correct_answer=(
+                "(a) The highest point is where contours peak (spot heights, triangulated points, or closed "
+                "contour rings show the summit); the lowest point lies along the valley or river where contour "
+                "values are smallest.\n"
+                "(b) On a 1:50,000 map, 1 cm = 50,000 cm = 0.5 km. So 6 cm = 3 km on the ground.\n"
+                "(c) By giving the grid reference of the temple (Eastings first, then Northings), read from "
+                "the grid lines printed on the toposheet."
+            ),
+            explanation=(
+                "Topographical map interpretation combines scale, contour and grid-reference skills. "
+                "The Survey of India's 1:50,000 sheets are the standard for field navigation, and the "
+                "four- or six-figure grid reference is the accepted way of communicating precise locations."
+            ),
+            marks=5, topic_tags=["Topographical Maps", "Map Interpretation"]
+        )
+        questions.append(question)
+        return questions
+
+
+# ─── Registry-style dispatcher and deterministic entry point ─────────────────
+
+_TOPIC_GENERATORS: List[Tuple[str, type]] = [
+    ("c12_geo_climate", ClimateGenerator),
+    ("c12_geo_soils", SoilsGenerator),
+    ("c12_geo_vegetation", VegetationGenerator),
+    ("c12_geo_water", WaterResourcesGenerator),
+    ("c12_geo_minerals", MineralsGenerator),
+    ("c12_geo_agriculture", AgricultureGenerator),
+    ("c12_geo_industries", IndustriesGenerator),
+    ("c12_geo_population", PopulationGenerator),
+    ("c12_geo_settlements", SettlementsGenerator),
+    ("c12_geo_transport", TransportGenerator),
+    ("c12_geo_oceans", OceansGenerator),
+    ("c12_geo_humandevelopment", HumanDevGenerator),
+    ("c12_geo_projections", MapProjectionGenerator),
+    ("c12_geo_topo", TopoMapGenerator),
+]
+
+
+def generate_questions(seed: int = 0, count: int = 1, topic: Optional[str] = None) -> List[Dict[str, Any]]:
+    """Deterministically generate ISC Class 12 Geography questions.
+
+    Mirrors the convention of the other solvers_regen question modules so the
+    engagement-layer registry can call ``generate_questions(seed)``.
+    """
+    bank = SeededQuestionBank(seed)
+    generators = _TOPIC_GENERATORS
+    if topic:
+        matching = [(nid, gen) for nid, gen in generators if nid == topic or gen.__name__.lower().startswith(str(topic).lower())]
+        if matching:
+            generators = matching
+    out: List[Dict[str, Any]] = []
+    for i in range(count):
+        _, gen_cls = generators[(seed + i) % len(generators)]
+        try:
+            qs = gen_cls(bank).generate(is_competency=bool(bank.rng.random() < 0.3))
+        except Exception:
+            continue
+        if not qs:
+            continue
+        q = qs[0]
+        out.append(q.to_dict())
+    return out

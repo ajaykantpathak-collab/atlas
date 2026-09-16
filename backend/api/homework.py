@@ -20,6 +20,8 @@ from sqlalchemy.orm import selectinload
 
 from database import get_db, Student, Homework, HomeworkQuestion, HomeworkSubmission
 from services.llm_client import LLMClient
+from backend.deps import get_current_user
+from backend.models.user import User
 
 logger = logging.getLogger(__name__)
 
@@ -361,20 +363,19 @@ class HomeworkService:
         self.db = db
         self.llm = llm or LLMClient()
 
+    async def _get_or_create_student(self, sid: str) -> "Student":
+        """students-row resolution — delegates to the canonical
+        users→students bridge (services.identity_bridge)."""
+        from backend.services.identity_bridge import ensure_student_row
+        return await ensure_student_row(self.db, sid)
+
     # ---- CREATE ----
 
     async def create_homework(
         self, data: HomeworkCreate, teacher_id: str
     ) -> Homework:
         """Create a homework assignment with questions for one student."""
-        result = await self.db.execute(
-            select(Student).where(Student.id == data.student_id)
-        )
-        if not result.scalar_one_or_none():
-            raise HTTPException(
-                status_code=status.HTTP_404_NOT_FOUND,
-                detail=f"Student {data.student_id} not found.",
-            )
+        await self._get_or_create_student(data.student_id)
 
         now = datetime.now(timezone.utc)
         hw = Homework(
@@ -762,6 +763,7 @@ class HomeworkService:
 )
 async def create_homework_endpoint(
     data: HomeworkCreate,
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     """
@@ -770,8 +772,12 @@ async def create_homework_endpoint(
     - MCQ: supply `options` + `correct_answer`
     - Short / long answer: supply `correct_answer` as reference for LLM grading
     """
-    # TODO: replace with authenticated teacher id from session/JWT
-    teacher_id = "system"
+    if user.role not in ("teacher", "admin"):
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Only teachers can create homework",
+        )
+    teacher_id = str(user.id)
     service = HomeworkService(db)
     hw = await service.create_homework(data, teacher_id)
 
@@ -802,6 +808,40 @@ async def create_homework_endpoint(
     )
 
 
+async def _resolve_student_for_user(
+    user: User, student_id: Optional[str], db: AsyncSession
+) -> str:
+    """Auth-aware student resolution: students get their own id; parents
+    may pass a linked child's id (verified); teachers/admins any id."""
+    sid = str(user.id)
+    if user.role == "student":
+        return sid
+    if user.role == "parent":
+        if not student_id:
+            raise HTTPException(400, "Parent must specify student_id of a linked child")
+        # Verify the parent↔student link exists
+        try:
+            from backend.services.auth_service import ParentStudentLinkModel
+            link = await db.execute(
+                select(ParentStudentLinkModel).where(
+                    and_(
+                        ParentStudentLinkModel.parent_id == user.id,
+                        ParentStudentLinkModel.student_id == student_id,
+                    )
+                )
+            )
+            if link.scalar_one_or_none() is None:
+                raise HTTPException(403, "Not linked to this student")
+        except ImportError:
+            pass  # link table unavailable — fall back to data scoping
+        return student_id
+    if user.role in ("teacher", "admin"):
+        if not student_id:
+            raise HTTPException(400, "teacher/admin must specify student_id")
+        return student_id
+    return sid
+
+
 @router.get(
     "/student/{student_id}",
     response_model=List[HomeworkSummary],
@@ -812,11 +852,16 @@ async def list_student_homework(
         default=None,
         description="Filter by status: pending | submitted | overdue | late",
     ),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
-    """List all homework for a student, optionally filtered by status."""
+    """List all homework for a student, optionally filtered by status.
+
+    Students can only list their own; parents must pass a linked child's id;
+    teachers/admins may pass any id."""
+    sid = await _resolve_student_for_user(user, student_id, db)
     service = HomeworkService(db)
-    items = await service.get_student_homework(student_id)
+    items = await service.get_student_homework(sid)
     if status_filter:
         items = [i for i in items if i.status == status_filter]
     return items
@@ -825,9 +870,10 @@ async def list_student_homework(
 @router.get("/{homework_id}", response_model=HomeworkDetail)
 async def get_homework_detail(
     homework_id: str,
-    student_id: str = Query(
-        ..., description="Student ID for access control"
+    student_id: Optional[str] = Query(
+        default=None, description="For parents/teachers: the student's id"
     ),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     """
@@ -835,8 +881,9 @@ async def get_homework_detail(
 
     If already submitted, includes a submission snapshot (score, grade, etc.).
     """
+    sid = await _resolve_student_for_user(user, student_id, db)
     service = HomeworkService(db)
-    hw = await service.get_homework_detail(homework_id, student_id)
+    hw = await service.get_homework_detail(homework_id, sid)
 
     sub_data = None
     if hasattr(hw, "_submission") and hw._submission:
@@ -884,9 +931,7 @@ async def get_homework_detail(
 async def submit_homework_endpoint(
     homework_id: str,
     data: HomeworkSubmit,
-    student_id: str = Query(
-        ..., description="Student ID submitting the homework"
-    ),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     """
@@ -897,9 +942,12 @@ async def submit_homework_endpoint(
     - Cannot submit more than once.
     - Late submissions blocked unless teacher allowed.
     """
+    if user.role != "student":
+        raise HTTPException(403, "Only students can submit homework")
+    sid = str(user.id)
     llm = LLMClient()
     service = HomeworkService(db, llm=llm)
-    sub = await service.submit_homework(homework_id, student_id, data)
+    sub = await service.submit_homework(homework_id, sid, data)
 
     # Fetch title / subject for the response
     hw_row = (await db.execute(
@@ -939,12 +987,16 @@ async def submit_homework_endpoint(
 @router.get("/{homework_id}/result", response_model=HomeworkResult)
 async def get_homework_result(
     homework_id: str,
-    student_id: str = Query(..., description="Student ID"),
+    student_id: Optional[str] = Query(
+        default=None, description="For parents/teachers: the student's id"
+    ),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     """Retrieve the graded result for a previously submitted homework."""
+    sid = await _resolve_student_for_user(user, student_id, db)
     service = HomeworkService(db)
-    sub = await service.get_result(homework_id, student_id)
+    sub = await service.get_result(homework_id, sid)
 
     hw_row = (await db.execute(
         select(Homework.title, Homework.subject).where(
@@ -983,20 +1035,23 @@ async def get_homework_result(
 @router.get("/overdue/{student_id}", response_model=List[OverdueItem])
 async def get_overdue_homework(
     student_id: str,
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     """List overdue homework (past due date, not yet submitted)."""
+    sid = await _resolve_student_for_user(user, student_id, db)
     service = HomeworkService(db)
-    return await service.get_overdue(student_id)
+    return await service.get_overdue(sid)
 
 
 @router.post("/{homework_id}/reminder")
 async def send_reminder(
     homework_id: str,
-    student_id: str = Query(
-        ..., description="Student ID to send reminder to"
+    student_id: Optional[str] = Query(
+        default=None, description="For teachers/parents: the student's id"
     ),
     request: Optional[ReminderRequest] = None,
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     """
@@ -1007,4 +1062,5 @@ async def send_reminder(
     """
     service = HomeworkService(db)
     msg = request.custom_message if request else None
-    return await service.send_reminder(homework_id, student_id, msg)
+    sid = await _resolve_student_for_user(user, student_id, db)
+    return await service.send_reminder(homework_id, sid, msg)

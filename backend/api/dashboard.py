@@ -43,13 +43,21 @@ except ImportError:
     Student = None  # type: ignore
     Parent = None  # type: ignore
     Teacher = None  # type: ignore
-    Enrollment = None  # type: ignore
     Achievement = None  # type: ignore
     ActivityLog = None  # type: ignore
     Attempt = None  # type: ignore
     Mastery = None  # type: ignore
     Subject = None  # type: ignore
     Topic = None  # type: ignore
+
+# Parent↔student links live in parent_student_links (users↔users) —
+# the real auth link table from services/auth_service.py.
+try:
+    from backend.services.auth_service import ParentStudentLinkModel  # type: ignore
+    from backend.models.user import User as UserModel  # type: ignore
+except ImportError:
+    ParentStudentLinkModel = None  # type: ignore
+    UserModel = None  # type: ignore
 
 # ---------------------------------------------------------------------------
 # Optional service imports
@@ -552,29 +560,36 @@ async def get_parent_dashboard(
     Includes per-child progress summaries, aggregate insights, and alerts
     that may require parent action.
     """
-    if Parent is None or Student is None or Enrollment is None:
+    if ParentStudentLinkModel is None or UserModel is None:
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
             detail="Database models not configured",
         )
 
-    result = await db.execute(select(Parent).where(Parent.id == parent_id))
+    # parent_id is the parent's users.id — verify it exists and is a parent
+    result = await db.execute(select(UserModel).where(UserModel.id == parent_id))
     parent = result.scalar_one_or_none()
     if parent is None:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Parent '{parent_id}' not found",
         )
+    if getattr(parent, "role", None) != "parent":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="User is not a parent account",
+        )
 
-    # Fetch enrollments for this parent
+    # Linked children via parent_student_links (parent_id → student users.id)
     enroll_rows = (await db.execute(
-        select(Enrollment).where(Enrollment.parent_id == parent_id)
+        select(ParentStudentLinkModel.student_id)
+        .where(ParentStudentLinkModel.parent_id == parent_id)
     )).scalars().all()
 
     children: list[ChildProgressSummary] = []
-    for enrollment in enroll_rows:
+    for student_id in enroll_rows:
         child_row = (await db.execute(
-            select(Student).where(Student.id == enrollment.student_id)
+            select(UserModel).where(UserModel.id == student_id)
         )).scalar_one_or_none()
         if child_row is None:
             continue
@@ -597,7 +612,7 @@ async def get_parent_dashboard(
         children.append(ChildProgressSummary(
             student_id=child_row.id,
             student_name=child_row.name,
-            grade=str(child_row.student_class) if child_row.student_class else "",
+            grade=str(child_row.class_level) if child_row.class_level else "",
             overall_mastery=overall_mastery,
             total_xp=total_xp,
             current_level=current_level,
@@ -695,13 +710,19 @@ async def get_teacher_dashboard(
 
     class_name = getattr(teacher, "class_name", None) or getattr(teacher, "department", "Class")
 
-    # Gather students taught by this teacher
+    # Gather students taught by this teacher — linked via homework they
+    # assigned (the only persisted teacher→student edge in the schema).
     student_ids: list[str] = []
-    if Enrollment is not None:
-        enroll_rows = (await db.execute(
-            select(Enrollment).where(Enrollment.teacher_id == teacher_id)
+    try:
+        from database import Homework  # type: ignore
+        hw_rows = (await db.execute(
+            select(Homework.student_id)
+            .where(Homework.teacher_id == teacher_id)
+            .distinct()
         )).scalars().all()
-        student_ids = list({e.student_id for e in enroll_rows})
+        student_ids = [str(s) for s in hw_rows]
+    except Exception:
+        pass
 
     students: list[Any] = []
     for sid in student_ids:

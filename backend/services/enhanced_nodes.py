@@ -243,6 +243,11 @@ def parse_node_file(path: str) -> Tuple[Optional[Dict], Optional[str]]:
         return None, "malformed: no core sections (DEFINITION/WALKTHROUGH)"
 
     missing = [s for s in REQUIRED_SECTIONS if not sections.get(s)]
+    prereq_ids = [
+        p.strip() for p in
+        sections.get("PREREQUISITE_NODE_IDS", "").replace("\n", ",").split(",")
+        if p.strip()
+    ]
     node = {
         "node_id": stem,
         "class": coords["class"],
@@ -256,6 +261,9 @@ def parse_node_file(path: str) -> Tuple[Optional[Dict], Optional[str]]:
         "scope_boundary": sections.get("SCOPE_BOUNDARY", ""),
         "walkthrough": walkthrough,
         "diagnostics": parse_diagnostics(sections),
+        "prereq_ids": prereq_ids,
+        "common_misconception": sections.get("COMMON_MISCONCEPTION", "") or None,
+        "on_failure": sections.get("ON_FAILURE", "") or None,
         "missing_sections": missing,
         "source_file": fname,
     }

@@ -25,8 +25,10 @@ from backend.routers import (
     teacher_analytics_router,
     analytics_router,
     accessibility_router,
-    student_router,
-    sync_router,
+    student_sync_router,
+    id_remapping_router,
+    homework_router,
+    dashboard_router,
 )
 
 settings = get_settings()
@@ -41,6 +43,19 @@ async def lifespan(app: FastAPI):
         wire_persistence()
     except Exception as e:
         print(f"[intelligence] persistence not wired: {e}")
+    # warm the enhanced-nodes index in the background — its first build per
+    # worker takes ~80s over the 13k-file corpus; without this, the first
+    # user of each worker eats that latency
+    import threading
+
+    def _warm_nodes() -> None:
+        try:
+            from backend.services.enhanced_nodes import load_index
+            load_index()
+        except Exception:
+            pass
+
+    threading.Thread(target=_warm_nodes, daemon=True).start()
     yield
     # Shutdown
     try:
@@ -85,8 +100,10 @@ app.include_router(its_tutor_router)
 app.include_router(teacher_analytics_router)
 app.include_router(analytics_router)
 app.include_router(accessibility_router)
-app.include_router(student_router)
-app.include_router(sync_router)
+app.include_router(student_sync_router)
+app.include_router(id_remapping_router)
+app.include_router(homework_router)
+app.include_router(dashboard_router)
 
 
 @app.get("/health")

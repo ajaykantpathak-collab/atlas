@@ -1492,7 +1492,7 @@ COMPETENCY_IDS = [g[0] for g in ALL_GENERATORS if g[0].startswith("c1_eng_c")]
 #  MAIN API
 # ============================================================
 
-def generate_questions(seed: int, count: int, topic: str = None) -> list:
+def generate_questions(seed: int, count: int = None, topic: str = None) -> list:
     """
     Generate 'count' deterministic questions.
 
@@ -1508,6 +1508,8 @@ def generate_questions(seed: int, count: int, topic: str = None) -> list:
     """
     random.seed(seed)
     questions = []
+    if count is None:
+        count = 1  # registry calls fn(seed) for a single drill
 
     # Build a filterable list
     available = ALL_GENERATORS

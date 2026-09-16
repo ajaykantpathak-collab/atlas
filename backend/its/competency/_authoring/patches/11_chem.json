@@ -1,0 +1,47 @@
+{
+ "c11_chem_cbse_02_017": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps for the magnet experiment that reveals unpaired d-electrons in three salt solutions.",
+    "a": "The procedure runs: (1) Fill identical tubes with FeSO4, CuSO4 and ZnSO4 solutions (2) Hang each from a strong magnet in turn and note attraction or not (3) Explain Fe2+ with d6 as four unpaired and Cu2+ with d9 as one unpaired (4) Confirm Zn2+ with d10 has no unpaired electrons and shows no pull. A wrong answer that expects zinc to be magnetic shows the student has misapplied Hund's rule, which fills d orbitals singly first and pairs only after each orbital has one electron."
+   }
+  },
+  "appends": []
+ },
+ "c11_chem_cbse_04_012": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps for the charged-ruler experiment that distinguishes a polar liquid from a non-polar one.",
+    "a": "The demonstration runs: (1) Charge a plastic ruler by rubbing it with wool (2) Run a thin stream of water past the charged ruler and watch it bend (3) Repeat the stream with carbon tetrachloride or cooking oil (4) Read the bending as alignment of water's net dipole and the straight stream as tetrahedral symmetry cancelling the dipoles. A wrong answer that expects both liquids to bend shows the student has missed that only molecules with a net dipole moment respond to the external field."
+   }
+  },
+  "appends": []
+ },
+ "c11_chem_cbse_07_001": {
+  "rewrites": {
+   "3": {
+    "q": "Solid iodine in a sealed flask at 25 degree Celsius develops a vapour density of 0.012 g per litre. Calculate its vapour pressure in atm.",
+    "a": "Using P = (density / M) x R x T with molar mass 254 g per mol: P = (0.012 / 254) x 0.0821 x 298 = 0.00116 atm. A wrong answer that uses 127 g per mol for atomic iodine shows the student has confused the molecule with the atom."
+   }
+  },
+  "appends": []
+ },
+ "c11_chem_cbse_07_002": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps in the thiocyanate experiment that proves chemical equilibrium is dynamic.",
+    "a": "The demonstration runs: (1) Mix iron three plus with thiocyanate ions to form the deep red complex (2) Split the equilibrium mixture into separate tubes (3) Add extra iron three plus to one tube and extra thiocyanate to another (4) Watch both tubes deepen in colour, showing the equilibrium shifts forward no matter which reactant is added. A wrong answer that predicts no change on addition shows the student has missed that the constant colour at equilibrium hides continuous forward and reverse reactions that any disturbance exposes."
+   }
+  },
+  "appends": []
+ },
+ "c11_chem_cbse_07_011": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps for the baking-soda test that separates a weak acid from a strong one.",
+    "a": "The comparison runs: (1) Measure equal volumes of vinegar and diluted toilet cleaner (2) Add a spoon of baking soda to each and watch the fizzing (3) Note the vigorous carbon dioxide rush from the strong acid and the gentler release from vinegar (4) Confirm with pH paper that the toilet cleaner is far more acidic at equal concentration. A wrong answer that expects identical fizzing shows the student has missed that a weak acid ionises only partially, so its free hydrogen ion concentration stays low."
+   }
+  },
+  "appends": []
+ }
+}

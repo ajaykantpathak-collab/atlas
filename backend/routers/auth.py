@@ -52,6 +52,33 @@ class ChangePasswordRequest(BaseModel):
     )
 
 
+class RefreshRequest(BaseModel):
+    refresh_token: str = Field(..., min_length=10)
+
+
+class RefreshResponse(BaseModel):
+    access_token: str
+    refresh_token: str
+    expires_in: int
+
+
+class SendOtpRequest(BaseModel):
+    phone_number: str = Field(..., min_length=8)
+
+
+class VerifyOtpRequest(BaseModel):
+    phone_number: str = Field(..., min_length=8)
+    otp: str = Field(..., min_length=4, max_length=8)
+
+
+class OtpTokenResponse(BaseModel):
+    access_token: str
+    refresh_token: str
+    expires_in: int
+    student_id: str
+    is_new_user: bool
+
+
 # --------------------------------------------------------------------------- #
 # Endpoints
 # --------------------------------------------------------------------------- #
@@ -68,10 +95,13 @@ async def login(payload: LoginRequest, db: AsyncSession = Depends(get_db)):
             detail=str(exc),
         )
 
+    refresh = AuthService(db)._create_refresh_token(str(user.id))
     return TokenResponse(
         access_token=token,
         token_type="bearer",
         user=UserInfo.model_validate(user),
+        refresh_token=refresh,
+        expires_in=int(AuthService.ACCESS_TOKEN_TTL.total_seconds()),
     )
 
 
@@ -86,10 +116,13 @@ async def signup(payload: SignupRequest, db: AsyncSession = Depends(get_db)):
             detail=str(exc),
         )
 
+    refresh = AuthService(db)._create_refresh_token(str(user.id))
     return TokenResponse(
         access_token=token,
         token_type="bearer",
         user=UserInfo.model_validate(user),
+        refresh_token=refresh,
+        expires_in=int(AuthService.ACCESS_TOKEN_TTL.total_seconds()),
     )
 
 
@@ -138,6 +171,67 @@ async def change_password(
     return {"message": "Password changed successfully"}
 
 
+@router.post("/send-otp", status_code=status.HTTP_200_OK)
+async def send_otp(payload: SendOtpRequest, db: AsyncSession = Depends(get_db)):
+    """Issue an OTP for the phone number — 'login' purpose when the number
+    already belongs to a verified account, 'register' otherwise."""
+    try:
+        purpose = await AuthService(db).request_auth_otp(payload.phone_number)
+    except RuntimeError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY, detail=str(exc)
+        )
+    return {"sent": True, "purpose": purpose}
+
+
+@router.post("/verify-otp", response_model=OtpTokenResponse)
+async def verify_otp(payload: VerifyOtpRequest, db: AsyncSession = Depends(get_db)):
+    """Verify an OTP — logs in an existing verified account or completes
+    registration for a new one. Returns the token pair + user id."""
+    svc = AuthService(db)
+    try:
+        is_new = (
+            await svc._get_user_by_phone(svc._normalize_phone(payload.phone_number))
+        ) is None
+        user, access, refresh = await svc.verify_auth_otp(
+            payload.phone_number, payload.otp
+        )
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED, detail=str(exc)
+        )
+    return OtpTokenResponse(
+        access_token=access,
+        refresh_token=refresh,
+        expires_in=int(AuthService.ACCESS_TOKEN_TTL.total_seconds()),
+        student_id=str(user.id),
+        is_new_user=is_new,
+    )
+
+
+@router.post("/refresh", response_model=RefreshResponse)
+async def refresh(payload: RefreshRequest, db: AsyncSession = Depends(get_db)):
+    """Exchange a valid refresh token for a new access + refresh pair.
+
+    Rotates the refresh token (the old one is revoked on use) — the client
+    must store the returned refresh_token for the next call.
+    """
+    try:
+        access, new_refresh = await AuthService(db).refresh_access_token(
+            payload.refresh_token
+        )
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail=str(exc),
+        )
+    return RefreshResponse(
+        access_token=access,
+        refresh_token=new_refresh,
+        expires_in=int(AuthService.ACCESS_TOKEN_TTL.total_seconds()),
+    )
+
+
 @router.post("/logout", status_code=status.HTTP_200_OK)
 async def logout(user: User = Depends(get_current_user)):
     """Logout the currently authenticated user.
@@ -147,3 +241,66 @@ async def logout(user: User = Depends(get_current_user)):
     completeness and logging purposes.
     """
     return {"message": "Logged out successfully"}
+
+
+# --------------------------------------------------------------------- #
+# Parent ↔ student linking
+# --------------------------------------------------------------------- #
+
+class LinkChildRequest(BaseModel):
+    student_id: str = Field(..., min_length=1)
+    relation: str = Field(default="parent", pattern=r"^(parent|guardian)$")
+
+
+@router.post("/link-child", status_code=status.HTTP_201_CREATED)
+async def link_child(
+    payload: LinkChildRequest,
+    user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    """Link the authenticated parent to a student account.
+
+    The parent must have role='parent' (set at signup); the student must
+    exist and have role='student'. Idempotent — duplicate links 409.
+    """
+    if user.role != "parent":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Only parent accounts can link children",
+        )
+    try:
+        link = await AuthService(db).link_parent_to_student(
+            parent_id=str(user.id),
+            student_id=payload.student_id,
+            relation=payload.relation,
+        )
+        await db.commit()
+    except ValueError as exc:
+        msg = str(exc)
+        code = status.HTTP_409_CONFLICT if "already exists" in msg else status.HTTP_400_BAD_REQUEST
+        raise HTTPException(status_code=code, detail=msg)
+    return {"link_id": str(link.id), "student_id": payload.student_id}
+
+
+@router.get("/my-children")
+async def my_children(
+    user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    """Return the students linked to the authenticated parent."""
+    if user.role != "parent":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Only parent accounts have children",
+        )
+    students = await AuthService(db).get_students_for_parent(str(user.id))
+    return {
+        "children": [
+            {
+                "student_id": str(s.id),
+                "name": s.name,
+                "class_level": s.class_level,
+            }
+            for s in students
+        ]
+    }

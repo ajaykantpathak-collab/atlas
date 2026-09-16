@@ -1119,4 +1119,114 @@ def solve_population_env(params: Dict) -> SolverResult:
         steps.append(f"  = {p2:,.0f} - {p1:,.0f} = {absolute_growth:,.0f}")
         steps.append("Step 3: Growth rate:")
         steps.append(f"  r = (P2-P1)/(P1 x t) x 100")
-        steps.append(f"  r = ({p2:,.0f}-{p1:,.0
+        steps.append(f"  r = ({p2:,.0f}-{p1:,.0f})/({p1:,.0f} x {years}) x 100 = {growth_rate:.2f}%")
+        if growth_rate > 3:
+            level = "High growth rate"
+        elif growth_rate > 1:
+            level = "Moderate growth rate"
+        elif growth_rate > 0:
+            level = "Low growth rate"
+        else:
+            level = "Stable or declining population"
+        steps.append(f"Step 4: Interpretation: {level}")
+        if doubling_time != float('inf'):
+            steps.append(f"  Doubling time (rule of 70) = {doubling_time:.1f} years")
+        else:
+            steps.append("  Doubling time: not applicable (growth rate <= 0)")
+        ans = {
+            "absolute_growth": absolute_growth,
+            "growth_rate_percent": round(growth_rate, 2),
+            "doubling_time_years": round(doubling_time, 1) if doubling_time != float('inf') else None,
+            "interpretation": level,
+        }
+        ver = f"Verified: ({p2:,.0f}-{p1:,.0f})/({p1:,.0f} x {years}) x 100 = {growth_rate:.2f}% => {level}"
+        return SolverResult(answer=ans, steps=steps, verification=ver, confidence="high")
+
+    return SolverResult(answer="Unknown mode", steps=["Use mode='growth'."], verification="N/A", confidence="low")
+
+
+# ============================================================
+# 17. DETERMINISTIC QUESTION GENERATOR (registry adapter)
+# ============================================================
+
+def generate_questions(seed: int = 0, count: int = 1, topic: Optional[str] = None) -> List[Dict[str, Any]]:
+    """Deterministically build drill questions from the solvers above.
+
+    Each question is derived by feeding seeded inputs into one of the
+    ``solve_*`` functions and asking for the computed result, so answers are
+    always verifiable against the solver itself.
+    """
+    rng = random.Random(seed)
+    scenarios: List[tuple] = [
+        (solve_air_pollution,
+         {"mode": "aqi", "pm25": rng.choice([45, 68, 92, 121, 154]),
+          "pm10": rng.choice([70, 95, 130]), "so2": rng.choice([10, 25, 40]), "no2": rng.choice([20, 35, 48])},
+         "Using the CPCB method (overall AQI = max of sub-indices), what is the overall AQI for the given pollutant concentrations?",
+         "aqi", None),
+        (solve_water_pollution,
+         {"mode": "bod", "do_initial": rng.choice([6.5, 7.0, 8.0]),
+          "do_final": rng.choice([3.0, 4.0, 5.0]), "dilution": rng.choice([1, 2, 5])},
+         "A BOD test on a river sample gives the listed initial/final dissolved oxygen readings and dilution factor. What is the BOD (mg/L)?",
+         "bod_mg_per_L", "mg/L"),
+        (solve_noise_pollution,
+         {"mode": "combined", "noise_levels": rng.choice([[70, 75, 80], [65, 72], [85, 90, 78]])},
+         "Several noise sources with the listed levels (dB) operate together. What is the combined noise level (dB)?",
+         "combined_db", "dB"),
+        (solve_climate_change,
+         {"mode": "carbon_footprint", "electricity_kwh": rng.choice([90, 150, 220]),
+          "lpg_kg": rng.choice([0, 5, 10]), "petrol_liters": rng.choice([0, 20, 40])},
+         "For the given monthly activity data (electricity kWh, LPG kg, petrol litres), what is the total monthly CO2 emission (kg)?",
+         "monthly_kg", "kg"),
+        (solve_forest_resources,
+         {"mode": "deforestation", "initial_forest": rng.choice([2000, 5000, 8000]),
+          "annual_rate": rng.choice([1.5, 2.0, 3.0]), "years": rng.choice([5, 10, 15])},
+         "A region starts with the given forest area (sq km) and loses the given percentage annually. What forest area remains (sq km) after the period?",
+         "remaining", "sq km"),
+        (solve_energy_resources,
+         {"mode": "solar", "panel_area": rng.choice([10, 20, 30]),
+          "solar_irradiance": rng.choice([5.0, 5.5, 6.0]), "panel_efficiency": rng.choice([15, 18, 20]),
+          "sun_hours": rng.choice([4.5, 5.0, 5.5])},
+         "For a solar panel of the given area, irradiance, efficiency and sun hours, what is the daily energy output (kWh)?",
+         "daily_kwh", "kWh"),
+        (solve_water_resources,
+         {"mode": "rainwater", "rainfall": rng.choice([800, 1000, 1200]),
+          "rooftop_area": rng.choice([100, 150, 200]), "runoff_coeff": 0.8, "efficiency": 0.9},
+         "For the given annual rainfall (mm) and rooftop area (sq m), how much rainwater can be harvested per year (litres)?",
+         "annual_liters", "litres"),
+        (solve_population_env,
+         {"mode": "growth", "population_initial": rng.choice([5000, 12000, 45000]),
+          "population_final": rng.choice([6000, 15000, 52000]), "years": rng.choice([5, 10])},
+         "Given the initial and final population over the period, what is the annual growth rate (%) using r = (P2-P1)/(P1 x t) x 100?",
+         "growth_rate_percent", "%"),
+        (solve_disaster_mgmt,
+         {"mode": "risk", "hazard_value": rng.choice([0.4, 0.6, 0.8]),
+          "vulnerability": rng.choice([0.3, 0.5, 0.7]), "capacity": rng.choice([0.5, 0.8])},
+         "Using Risk = (Hazard x Vulnerability) / Capacity, what is the risk value?",
+         "risk_value", None),
+    ]
+    if topic:
+        matching = [s for s in scenarios if s[0].__name__ == f"solve_{topic}"]
+        if matching:
+            scenarios = matching
+
+    out: List[Dict[str, Any]] = []
+    for i in range(count):
+        solver_fn, params, question, answer_key, unit = scenarios[(seed + i) % len(scenarios)]
+        try:
+            result = solver_fn(params)
+        except Exception:
+            continue
+        if not isinstance(result.answer, dict) or answer_key not in result.answer:
+            continue
+        out.append({
+            "id": f"c10_evs_{seed}_{i}",
+            "type": "numerical",
+            "topic": topic or solver_fn.__name__.replace("solve_", ""),
+            "difficulty": "medium",
+            "question": question,
+            "answer": result.answer[answer_key],
+            "unit": unit,
+            "steps": result.steps,
+            "explanation": " | ".join(result.steps),
+        })
+    return out

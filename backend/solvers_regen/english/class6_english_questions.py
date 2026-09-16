@@ -10,6 +10,7 @@ Covers the full CISCE Class 6 English syllabus:
 """
 
 import random
+import re
 import string
 import hashlib
 from fractions import Fraction
@@ -2087,6 +2088,7 @@ def _gen_competency_writing(rng, count):
 
     for i in range(count):
         diff = rng.choice(DIFFICULTY_LEVELS)
+        bloom = rng.choice(["apply", "analyze", "create"])
 
         prompt_type = rng.choice(["formal_letter", "informal_letter", "notice", "story", "essay", "diary"])
 
@@ -2343,7 +2345,7 @@ def _gen_competency_writing(rng, count):
             "steps": steps,
             "explanation": explanation,
             "difficulty": diff,
-            "bloom_level": p["bloom"],
+            "bloom_level": bloom,
             "is_competency": True,
             "syllabus_node": "Competency-Based-Writing",
         })
@@ -2413,10 +2415,16 @@ def _gen_competency_grammar_application(rng, count):
             f"Complete the following text:\n{scenario['template']}"
         )
 
+        # Templates use "{name:opt1/opt2}" style blanks; reduce them to plain
+        # "{name}" fields so str.format can substitute the chosen answers.
+        template = re.sub(r"\{(\w+):[^}]*\}", r"{\1}", scenario["template"])
+        completed_text = template.format(
+            **scenario["answers"],
+            place=rng.choice(INDIAN_PLACES), place2=rng.choice(INDIAN_PLACES),
+            landmark="Taj Mahal", food="dal makhani", festival=rng.choice(FESTIVALS))
+
         answer_text = (
-            f"Completed Text:\n\n{scenario['template'].format(**scenario['answers'], "
-            f"place=rng.choice(INDIAN_PLACES), place2=rng.choice(INDIAN_PLACES), "
-            f"landmark='Taj Mahal', food='dal makhani', festival=rng.choice(FESTIVALS))}\n\n"
+            f"Completed Text:\n\n{completed_text}\n\n"
             f"Answers: {scenario['answers']}"
         )
 
@@ -2463,13 +2471,13 @@ def _gen_competency_vocabulary(rng, count):
             "question": "Read the context and choose the best word from the synonyms given to complete each sentence.",
             "items": [
                 {
-                    "sentence": f"The article was very {syn1:interesting/beautiful}. Everyone wanted to read it.",
+                    "sentence": "The article was very ______. Everyone wanted to read it.",
                     "options": ["interesting", "boring", "difficult", "simple"],
                     "correct": "interesting",
                     "explanation": "'Interesting' is a synonym for 'engaging' or 'captivating', which describes the article."
                 },
                 {
-                    "sentence": f"The {syn2:different/various} ways of celebration showed India's diversity.",
+                    "sentence": "The ______ ways of celebration showed India's diversity.",
                     "options": ["same", "different", "ordinary", "similar"],
                     "correct": "different",
                     "explanation": "'Different' means not the same, which fits the context of various celebration styles."
@@ -2481,13 +2489,13 @@ def _gen_competency_vocabulary(rng, count):
             "question": "Choose the correct word (synonym or antonym) to complete each sentence.",
             "items": [
                 {
-                    "sentence": f"The sky was {syn1:dark/light} with thick clouds.",
+                    "sentence": "The sky was ______ with thick clouds.",
                     "options": ["dark", "bright", "clear", "white"],
                     "correct": "dark",
                     "explanation": "'Dark' means not bright, which describes thick monsoon clouds."
                 },
                 {
-                    "sentence": f"The rain fell {syn2:heavily/lightly} that afternoon.",
+                    "sentence": "The rain fell ______ that afternoon.",
                     "options": ["lightly", "heavily", "slowly", "quietly"],
                     "correct": "heavily",
                     "explanation": "'Heavily' is an adverb describing how the rain fell in large amounts."
@@ -2760,4 +2768,8 @@ def main():
         print(f"  - {t}{is_comp}")
 
     print("\n" + "=" * 70)
-    print("
+    print("=" * 70)
+
+
+if __name__ == "__main__":
+    main()

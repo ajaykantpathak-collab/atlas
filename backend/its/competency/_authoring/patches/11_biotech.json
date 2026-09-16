@@ -1,0 +1,72 @@
+{
+ "c11_biotech_cbse_01_005": {
+  "rewrites": {
+   "4": {
+    "q": "Trace the correct sequence of events by which coat protein protects papaya and antisense RNA delays ripening in tomato.",
+    "a": "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In Flavr Savr tomato an antisense RNA binds the polygalacturonase mRNA (4) The blocked mRNA halts softening enzymes and the fruit ripens late. A wrong answer that treats both as protein-mediated shows the student has missed that papaya resistance acts at the protein level while Flavr Savr acts at the RNA level by base pairing."
+   },
+   "5": {
+    "q": "Give the correct order of points in a balanced evaluation of Golden Rice as an answer to vitamin A deficiency.",
+    "a": "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to retinol (3) Recognise deficiency is multifactorial, involving infection, fat malabsorption and dietary diversity (4) Weigh the molecular promise against the socio-economic barriers before judging the technology. A wrong answer that either dismisses Golden Rice as a mere technological fix or calls it a complete solution shows the student has missed that both molecular evidence and public health context must enter the verdict."
+   }
+  },
+  "appends": []
+ },
+ "c11_biotech_cbse_01_006": {
+  "rewrites": {
+   "4": {
+    "q": "Trace the correct sequence of steps in the ex vivo gene therapy used for ADA-SCID.",
+    "a": "The therapy runs: (1) Harvest the patient's own bone marrow stem cells (2) Transduce them with a retroviral vector carrying a functional ADA gene (3) Reinfuse the corrected cells into the patient (4) The engrafted cells restore ADA production, unlike in vivo plasmid injection which transfects muscle cells at the site. A wrong answer that injects the vector directly in vivo for ADA-SCID shows the student has missed that the ex vivo approach allows selection and checking of corrected cells before they re-enter the body."
+   },
+   "5": {
+    "q": "Give the correct order of objections that weaken the case for edible vaccines as the ideal global immunization tool.",
+    "a": "The critique runs: (1) Gut immunity defaults to oral tolerance rather than systemic antibody response (2) Gastric acid and proteases degrade the antigen and ruin dose precision (3) Cooking or processing can denature the antigen in crops like potato (4) No licensed edible vaccine exists despite decades of work, so practical hurdles remain decisive. A wrong answer that only praises the end of cold chains and needles shows the student has missed that immunological and standardisation barriers must be answered first."
+   }
+  },
+  "appends": []
+ },
+ "c11_biotech_cbse_01_011": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of stages in a prior art search for a patent claim on a novel guide RNA sequence.",
+    "a": "The search runs: (1) Classify the invention by its patent codes such as those covering CRISPR systems and gene therapy (2) Sweep the patent databases and scientific literature with targeted search strings (3) Shortlist documents claiming guide RNA sequences for the same gene or mutation (4) Compare claim elements against each hit to judge novelty and inventive step before drafting. A wrong answer that drafts claims before searching shows the student has missed that the roadmap runs from identifying the invention through patentability checks to filing."
+   }
+  },
+  "appends": []
+ },
+ "c11_biotech_cbse_04_002": {
+  "rewrites": {
+   "3": {
+    "q": "Trace the correct sequence of reasoning that predicts binding of a three-sugar substrate in lysozyme's six-sugar cleft.",
+    "a": "The reasoning runs: (1) The cleft offers six subsites shaped for the sugar chain (2) A three-unit substrate can occupy a subset of these subsites (3) Fewer occupied subsites mean fewer hydrogen bonds and hydrophobic contacts (4) An enzyme-substrate complex still forms, but with weaker binding than the natural six-sugar chain. A wrong answer that declares no binding possible shows the student has missed that the lock and key needs geometric complementarity in part, not perfect occupancy, before binding occurs."
+   },
+   "5": {
+    "q": "Give the correct order of points that decide whether the lock and key model can explain chymotrypsin binding a competitive inhibitor.",
+    "a": "The assessment runs: (1) Note the inhibitor carries an aromatic side chain like the enzyme's preferred residues (2) The hydrophobic pocket accepts a correct shape regardless of a cleavable bond (3) Binding without reaction follows from complementarity alone (4) The lock and key model therefore supports competitive inhibition as shaped binding without chemistry. A wrong answer that calls the model falsified shows the student has missed that the model requires only a matching shape, never a bond to break."
+   }
+  },
+  "appends": []
+ },
+ "c11_biotech_cbse_10_008": {
+  "rewrites": {
+   "4": {
+    "q": "Give the correct order of stages in a domain-based prediction of partners for a new protein with annotated domains.",
+    "a": "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the partner domains back to proteins of the target proteome (4) Rank candidates by how completely their domains match the known interacting pairs. A wrong answer that treats any domain sharing as a genuine interaction shows the student has missed that domain-based prediction infers binding from established interacting pairs, not from co-occurrence alone."
+   },
+   "6": {
+    "q": "Give the correct order of evidence types in a hybrid pipeline that predicts host targets of a pathogen effector with no homologs.",
+    "a": "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known domain-domain interactions (3) Apply guilt by association on host-pathogen network data to shortlist disease-linked partners (4) Merge the ranked lists with confidence scores so each candidate carries several independent lines of evidence. A wrong answer that trusts a single evidence type shows the student has missed that prediction strength comes from combining motif, domain and network signals."
+   }
+  },
+  "appends": []
+ },
+ "c11_biotech_cbse_11_008": {
+  "rewrites": {
+   "3": {
+    "q": "Calculate the score in cell (3,3) of the Needleman-Wunsch matrix for SEQ1 = GATTACA and SEQ2 = GCATGCU with match +2, mismatch -1 and gap -2.",
+    "a": "Filling the matrix row by row gives S(2,2) = 1 and S(2,3) = 2, so the candidates at (3,3) are diagonal 1 - 1 = 0, up 2 - 2 = 0 and left -1 - 2 = -3, and the maximum: S(3,3) = 0. A wrong answer of 2 or -3 shows the student took a single neighbour instead of the maximum of all three recurrence choices."
+   }
+  },
+  "appends": []
+ }
+}

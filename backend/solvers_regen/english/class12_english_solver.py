@@ -733,7 +733,7 @@ class EnglishLanguageSolver:
                       f"(target: {duration_minutes} minutes)")
 
         verification = (
-            f"Salutation: {'Present' if any(s in speech_text for s in ['Respected', 'Honourable', 'Good morning'])} | "
+            f"Salutation: {'Present' if any(s in speech_text for s in ['Respected', 'Honourable', 'Good morning']) else 'Missing'} | "
             f"Introduction: {'Present' if 'stand before you today' in speech_text else 'Missing'} | "
             f"Conclusion: {'Present' if 'In conclusion' in speech_text or 'Thank you' in speech_text else 'Missing'} | "
             f"Thank you: {'Present' if 'Thank you' in speech_text else 'Missing'} | "
@@ -2588,7 +2588,7 @@ def main():
         'num_participants': 450,
         'highlights': [
             'Winning project: Solar-powered water purifier by Class XII students',
-            'Robotics demonstration by the school's tech club',
+            "Robotics demonstration by the school's tech club",
             'Interactive science quiz with audience participation',
             'Exhibition of over 200 student projects across all classes'
         ]

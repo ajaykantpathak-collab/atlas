@@ -1,0 +1,300 @@
+
+### NODE c11_acc_cbse_01_003  class=11 sub=acc ch=1 verdict=PARTIAL action=REWRITE [0]
+DEFINITION: The evolution of accounting refers to the chronological development of accounting practices from primitive record-keeping in ancient civilisations (Babylonia, Egypt, Greece, Rome, China, India) to the formalisation of double-entry bookkeeping by Luca Pacioli in 1494, driven by the growing complexity of trade, taxation, and organisational governance needs.
+WALKTHROUGH: Imagine you are a merchant in 15th century Venice managing multiple ships, goods, and creditors across the Mediterranean — how would you know if you made a profit or loss without a systematic way to track every transaction? This practical problem faced by traders like those Pacioli observed is exactly why accounting evolved from simple lists to double-entry systems. Begin by listing the major ancient civilisations mentioned in your textbook (Babylonia, Egypt, Greece, Rome, China, India) and for each, identify: (1) what economic activity drove record-keeping (taxes, trade, treasury), (2) what recording method they used (clay tablets, daybooks, ledgers), and (3) what limitation existed (single-entry, no profit calculation). Then trace how Pacioli synthesised Italian merchant practices into a universal system where every transaction affects two accounts — this duality is the key insight that transformed accounting from memory-aid to decision-making tool.
+D1 Q: Name any three ancient civilisations that developed early accounting systems and state the primary economic purpose (taxation, trade, or treasury management) that drove each civilisation's accounting innovation. [IN-SCOPE-REWRITE]
+D1 A: Correct answer: Babylonia (trade/fraud detection), Egypt (treasury management/tax collection), Greece (public revenue apportionment), Rome (public finance/memorandum recording), China (government accounting), India (state administration per Arthashastra). A wrong answer revealing confusion would be listing only one civilisation, confusing the purpose (e.g., saying Egypt used accounting for trade rather than treasury)
+D2 Q: Explain in your own words why the Roman practice of posting from daybooks (memorandum) to ledgers on a monthly basis was an advancement over Babylonian clay tablet recording, but still insufficient for calculating periodic profit.
+D2 A: Correct answer: Romans introduced chronological recording in daybooks followed by classified posting to ledgers, enabling organised retrieval — an advance over Babylonian chronological-only tablets. However, both systems were essentially single-entry (listing receipts/payments) without the dual-aspect concept; they tracked cash flow but couldn't match revenues to expenses for a period, so profit determination was imp
+D3 Q: A 14th century Italian merchant records a credit sale of 500 florins to a buyer in his daybook as "Sold goods to Giovanni, 500 florins." Using Pacioli's double-entry principle, show the two accounts affected and the debit/credit entry for this transaction, explaining why both entries are necessary.
+D3 A: Correct answer: Debit Giovanni (Debtor/Asset) 500 florins — Credit Sales (Revenue) 500 florins. Both entries are necessary because double-entry captures the dual effect: the merchant gains a claim on Giovanni (asset increase) and earns revenue (capital increase). This allows later matching of this revenue against expenses to determine profit. A wrong answer recording only "Giovanni owes 500" (single-entry) misses the
+D4 Q: Compare Kautilya's Arthashastra prescriptions for government accounting (23 centuries ago) with the Egyptian treasury system described in your textbook. Identify two similarities in their administrative purpose and one key difference in their reporting frequency.
+D4 A: Correct answer: Similarities — both served state administration (tax collection, expenditure control, fraud prevention); both required hierarchical reporting (subordinates to superiors). Difference — Egyptian system mandated daily reports to Wazirs and monthly to kings, while Arthashastra emphasised periodic audits and annual statements for the treasury. A wrong answer claiming both used double-entry bookkeeping is a
+D5 Q: Evaluate the claim: "Luca Pacioli invented double-entry bookkeeping in 1494." Defend your position using evidence from the textbook about Pacioli's own statement and the Italian merchant context.
+D5 A: Correct answer: The claim is false. Pacioli explicitly did not claim invention — he codified and disseminated existing Italian merchant practices ("he probably relied on then-current book-keeping manuals"). His contribution was systematic documentation in Summa de Arithmetica, introducing standardised terminology (Debit/Credit from Italian debito/credito) and the rule "if you make one creditor, you must make some deb
+D6 Q: Create a timeline diagram (described in words) showing five milestones in accounting evolution from 4000 B.C. to 1494 A.D., where each milestone includes: (a) civilisation/period, (b) key innovation, (c) economic driver. Ensure the timeline demonstrates increasing sophistication in handling credit transactions.
+D6 A: Expected answer: 1) 4000 B.C. Babylonia/Egypt — clay tablet wage/tax records — state treasury needs; 2) 700 B.C.–400 A.D. Rome — daybook to ledger posting (monthly) — expanding public finance; 3) 2000 B.C. China — sophisticated government accounting — bureaucratic administration; 4) 3rd century B.C. India (Arthashastra) — detailed audit procedures, classification — imperial revenue management; 5) 1494 Venice (Pacioli
+
+VETTED-DIAG DQ_C11_ACC_016B (fit 0.37, src c11_acc_diagnostic_questions.marker)
+  Q: Which of the following is a compound journal entry rather than a simple journal entry?
+  A: A single entry that debits Bank Rs 1,00,000 and credits both Cash Rs 40,000 and Sales Rs 60,000 in one combined entry, because it involves more than one debit OR more than one credit (here, two credits) while still representing one combined transaction — for example, a sale of Rs 60,000 goods plus a separate cash deposit of Rs 40,000 into the bank recorded together for convenience.
+VETTED-DIAG PRE_c11_acc_002_01 (fit 0.32, src c11_acc_diagnostics.marker)
+  Q: In your own words, what is the difference between 'something happening' in a business and 'a business deal involving money'? Give one example of each from a shop you know.
+  A: 'Something happening' is an event - it may or may not involve money (e.g., a shop owner appointing a new salesperson). 'A business deal involving money' is a transaction - it is an event that changes the financial position and is expressed in money (e.g., the shop buying goods for Rs 5,000 from a wholesaler). Every transaction is an event, but not every event is a transaction.
+VETTED-DIAG DQ_C11_ACC_018B (fit 0.32, src c11_acc_diagnostic_questions.marker)
+  Q: What is the purpose of the "To" and "By" prefixes used on the debit and credit sides of a ledger account respectively?
+  A: "To" is used on the debit side to indicate the account from which the posting came (i.e., the account that was credited in the journal), and "By" is used on the credit side to indicate the account from which the posting came (i.e., the account that was debited in the journal). They are posting references that preserve the double-entry link and make the ledger self-auditing.
+VETTED-MIS ACC_MIS_020 (fit 0.09)
+  M: The Dual Aspect concept means every transaction has two sides - debit and credit - and that is all
+  C: Dual Aspect is deeper: every transaction has two effects on the accounting equation (Assets = Liabilities + Capital). It is the foundation of the equation, not just of double-entry. Every transaction affects at least two accounts in such a way that the equation always stays balanced. This is why a Trial Balance tallies and the Balance Sheet balances.
+VETTED-MIS ACC_MIS_001 (fit 0.09)
+  M: Book-keeping and Accounting are the same thing
+  C: Book-keeping is only the recording stage of the accounting process. It stops at preparing the Trial Balance. Accounting is much broader - it includes book-keeping PLUS classifying, summarising, interpreting and communicating financial information, and ends with Final Accounts (Trading, P&L, Balance Sheet). Accountancy is wider still - it is the profession/body of knowledge including accounting, au
+VETTED-MIS ACC_MIS_002 (fit 0.09)
+  M: Accountancy is just about maintaining Tally entries
+  C: Tally is one Computerised Accounting System (CAS) tool. Accountancy is a full discipline covering theory (GAAP, AS, IFRS), analysis (ratios, cash flow), decision-making, auditing and taxation. A person entering Tally entries without knowing why a particular account is debited is a data entry operator, not an accountant.
+### NODE c11_acc_cbse_01_005  class=11 sub=acc ch=1 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: Qualitative characteristics are the attributes that make accounting information useful for decision-making by enhancing its understandability and decision-usefulness. The four principal characteristics are reliability (information is free from material error and bias and faithfully represents what it purports to represent), relevance (information influences decisions by helping users predict outcomes or confirm/correct past evaluations), understandability (information is interpreted by users in the same sense as prepared by accountants), and comparability (information enables users to identify similarities and differences across entities and time periods through common measurement units, reporting formats, and periods).
+WALKTHROUGH: Imagine you are a bank manager deciding whether to approve a ₹50 lakh loan to a small manufacturing firm. The firm submits its financial statements, but you notice the machinery is valued at its original purchase price from 10 years ago, not its current market value. You also see that the statements were finalised 14 months after the year-end. As a decision-maker, which qualitative characteristics are compromised here? This scenario reveals why accounting information must possess specific attributes to be useful. We begin by identifying the four characteristics from the NCERT framework, then break down each into its components (e.g., reliability includes verifiability, faithfulness, neutrality). We connect each to the users studied in the previous node (c11_acc_cbse_01_004) — investors need relevance for prediction, creditors need reliability for assurance, regulators need comparability across firms. The key insight is that these characteristics are not independent; they interact and sometimes conflict (e.g., timely information may be less reliable), requiring professional judgment to balance them.
+D1 Q: State the four qualitative characteristics of accounting information as per the NCERT Class 11 framework.
+D1 A: The four qualitative characteristics are: (1) Reliability, (2) Relevance, (3) Understandability, and (4) Comparability. A wrong answer (e.g., listing "accuracy," "completeness," or "materiality" as separate top-level characteristics) reveals the student is confusing the NCERT classification with the IASB Conceptual Framework hierarchy where materiality is a pervasive constraint and faithful representation replaces re
+D2 Q: A company changes its depreciation method from straight-line to written-down value in the current year without disclosing the change or its effect on profit. The financial statements are issued on time. Which qualitative characteristic is primarily violated, and why is timeliness not the issue here?
+D2 A: Comparability is primarily violated because the change in accounting policy without disclosure prevents users from comparing financial statements across periods and with other entities using consistent methods. Timeliness is satisfied (statements issued on time), but comparability requires consistent application of policies or full disclosure of changes. A wrong answer identifying "reliability" or "relevance" shows t
+D3 Q: XYZ Ltd. values its closing inventory at the higher of cost and net realisable value, as required by accounting standards. However, the accountant deliberately overstates the net realisable value to show higher profits. The financial statements are otherwise prepared on time and use consistent policies. Identify the TW
+D3 A: (1) Reliability — specifically faithfulness (faithful representation) and neutrality are violated because the information does not faithfully represent the economic reality and is biased toward showing higher profits. (2) Relevance — specifically predictive value is impaired because users cannot rely on the reported profit to predict future performance. A wrong answer identifying only "reliability" misses that delibe
+D4 Q: Compare and contrast the roles of verifiability and faithfulness as sub-components of reliability. Can information be verifiable but not faithful? Give a concrete example. [IN-SCOPE-REWRITE]
+D4 A: Verifiability means independent observers using the same method reach substantially the same measurement (consensus on measurement process). Faithfulness means the measurement actually represents the economic phenomenon it purports to represent (correspondence with reality). Yes, information can be verifiable but not faithful. Example: A company values inventory at historical cost (verifiable — multiple auditors agre
+D5 Q: Evaluate the following statement: "For accounting information to be decision-useful, it must satisfy all four qualitative characteristics simultaneously and to the maximum degree possible." Is this statement true or false? Justify your answer with reference to the trade-offs between characteristics.
+D5 A: False. The statement is false because qualitative characteristics often conflict, requiring trade-offs rather than simultaneous maximisation. Key trade-offs: (1) Reliability vs. Relevance (Timeliness): Early estimates (relevant for timely decisions) are less reliable than audited figures available later. (2) Comparability vs. Relevance: Strict uniformity (comparability) may prevent adoption of improved methods that b
+D6 Q: Create a realistic scenario involving a small Indian business (e.g., a textile trader in Surat) where the accountant must make a judgment call between two qualitative characteristics. Describe the situation, the two characteristics in conflict, the decision the accountant should make, and the disclosure required.
+D6 A: Scenario: Surat Textiles receives a large order in late March 2024 (year-end 31 March). The goods are dispatched on 28 March but reach the customer on 3 April. The accountant must decide whether to recognise revenue in FY 2023-24 or FY 2024-25. Conflict: Relevance (timeliness/predictive value) — recognising in FY 2023-24 gives timely information about the order secured — vs. Reliability (faithfulness) — revenue recog
+
+VETTED-DIAG DQ_C11_ACC_013B (fit 0.67, src c11_acc_diagnostic_questions.marker)
+  Q: A trader's books show the following: Cash Rs 1,20,000
+  A: Bank Rs 4,80,000
+VETTED-DIAG DQ_C11_ACC_034B (fit 0.52, src c11_acc_diagnostic_questions.marker)
+  Q: A machine costs Rs 5,00,000 with an estimated scrap value of Rs 50,000 and a useful life of 10 years. Under the Straight Line Method, what is the annual depreciation and the rate per annum?
+  A: Annual depreciation = (Cost - Scrap) / Useful life = (5,00,000 - 50,000) / 10 = Rs 45,000 per year. Rate per annum = (Annual depreciation / Cost) × 100 = (45,000 / 5,00,000) × 100 = 9% per annum. Note: the rate is computed on the ORIGINAL COST, not on (cost - scrap).
+VETTED-DIAG DQ_C11_ACC_035 (fit 0.47, src c11_acc_diagnostic_questions.marker)
+  Q: A trader purchases furniture on 1st April 2022 for Rs 2,00,000 and charges depreciation at 10% per annum on the Written Down Value (WDV) method. What is the book value on 31st March 2025 after three years?
+  A: Year 1 (2022-23): WDV = 2,00,000; Depreciation = 10% × 2,00,000 = 20,000; Closing WDV = 1,80,000. Year 2 (2023-24): WDV = 1,80,000; Depreciation = 10% × 1,80,000 = 18,000; Closing WDV = 1,62,000. Year 3 (2024-25): WDV = 1,62,000; Depreciation = 10% × 1,62,000 = 16,200; Closing WDV = 1,45,800. Book value on 31st March 2025 = Rs 1,45,800. Shortcut: 2,00,000 × (0.90)³ = 2,00,000 × 0.729 = 1,45,800.
+VETTED-MIS ACC_MIS_166 (fit 0.18)
+  M: Accounting is only about recording the past and has no role in decision-making
+  C: Accounting provides information for DECISION-making: ratio analysis (liquidity, solvency, profitability), cash flow analysis, budgeting, cost-volume-profit analysis, and comparative/common-size statements all support management decisions (whether to expand, borrow, cut costs, change pricing). Management accounting and cost accounting are specialised fields focused on decision-making. Accounting is
+VETTED-MIS ACC_MIS_021 (fit 0.15)
+  M: Accounting Standards are optional guidelines we can ignore
+  C: Accounting Standards (AS) issued by ICAI are mandatory for entities to which they apply. Companies must follow AS notified under Companies Act 2013 (Section 133). Non-compliance means auditors qualify the audit report. They ensure comparability and reliability across entities. Small proprietary firms must also follow relevant AS for true and fair view.
+VETTED-MIS ACC_MIS_091 (fit 0.13)
+  M: CAS and AIS (Accounting Information System) are the same
+  C: CAS is the SOFTWARE/TOOL that automates accounting entries and reports (e.g., Tally, Busy). AIS is the broader SYSTEM that includes people, procedures, data, hardware, software, and controls that collect, record, store, and process accounting data to produce information for decision-making. CAS is one component of an AIS. AIS is the entire information system; CAS is the software part of it.
+### NODE c11_acc_cbse_04_003  class=11 sub=acc ch=4 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A Petty Cash Book is a subsidiary book maintained under the Imprest System to record small, repetitive cash payments (e.g., conveyance, postage, stationery) where a fixed amount (imprest money) is advanced to a petty cashier and reimbursed periodically to restore the original float, ensuring the petty cashier always begins each period with the same fixed cash balance.
+WALKTHROUGH: Imagine you are the office manager of a busy stationery shop in Delhi. Every day, the main cashier is interrupted for ₹20 auto fare, ₹50 courier charges, ₹15 refreshments – dozens of tiny payments that clog the main cash book and distract the cashier from large receipts and payments. How can you handle these efficiently without losing control? The answer is the Imprest System: you give a trusted petty cashier a fixed float of ₹2,000. She spends it on small items, collects vouchers, and when the float drops to ₹300, you reimburse exactly ₹1,700 by cheque, restoring the ₹2,000 float. In this node you will learn to design the analytical columns, record each voucher in the right column, total each column at month-end, and post only the totals to the ledger – saving time, enforcing control, and keeping the main cash book clean.
+D1 Q: What is the meaning of "imprest amount" in the context of a petty cash book, and how does it differ from the opening cash balance in a simple cash book?
+D1 A: The imprest amount is a fixed, pre-determined float advanced to the petty cashier at the start of each period (e.g., ₹2,000) which is restored to the same amount after reimbursement; it is not the result of prior transactions but a policy decision. In a simple cash book, the opening balance is the actual cash on hand carried forward from the previous period and fluctuates with every transaction. A wrong answer (e.g.,
+D2 Q: Explain why the total of the "Amount Paid" column in a petty cash book is always equal to the sum of the individual analysis column totals, and why this equality is critical for the ledger posting.
+D2 A: Every payment is recorded once in the total "Amount Paid" column and simultaneously allocated to one specific analysis column (postage, conveyance, etc.); therefore, the sum of analysis columns must equal the total paid column – this is the cross-casting check. If they differ, an error exists in allocation. This equality ensures that when we debit each expense account with its column total and credit Petty Cash Accou
+D3 Q: A petty cashier receives an imprest of ₹5,000 on 1st April. During the month, she spends ₹1,200 on postage, ₹800 on conveyance, ₹1,500 on stationery, and ₹600 on miscellaneous expenses. On 30th April, she submits the book for reimbursement. Show the reimbursement journal entry in the main cash book and the ledger posti
+D3 A: Step 1: Total expenses = ₹1,200 + ₹800 + ₹1,500 + ₹600 = ₹4,100. This is the reimbursement amount. 
+Step 2: In the main cash book (bank column), credit Bank ₹4,100 and debit Petty Cash ₹4,100 (reimbursement). 
+Step 3: In the ledger, debit Stationery Account ₹1,500 and credit Petty Cash Account ₹1,500 (via the periodic total). 
+Step 4: Petty Cash Account now shows: Dr. side – Imprest ₹5,000 + Reimbursement ₹4,100; Cr.
+D4 Q: Compare the Imprest System with a non-imprest (open) petty cash system where the petty cashier is simply given cash as needed and no fixed float is maintained. Identify two specific control weaknesses of the non-imprest system that the Imprest System eliminates.
+D4 A: 1. No fixed accountability: Without a fixed float, the amount with the petty cashier varies unpredictably, making surprise cash counts meaningless – the Imprest System ensures the cash + unpaid vouchers always equal the fixed imprest amount, enabling instant verification. 
+2. No periodic review: In an open system, reimbursements occur irregularly, so expense totals are not periodically compiled for ledger posting; th
+D5 Q: A company decides to increase the imprest amount from ₹2,000 to ₹3,000 effective 1st July. The petty cashier has a balance of ₹450 on 30th June. Describe the exact journal entries required on 30th June and 1st July to implement this change, and evaluate whether the petty cash book needs a new ledger account.
+D5 A: 30th June: Reimburse the spent amount (₹2,000 - ₹450 = ₹1,550) to restore the old float: Dr. Petty Cash ₹1,550, Cr. Bank ₹1,550. Petty Cash Account balance becomes ₹2,000. 
+1st July: Increase the float by ₹1,000: Dr. Petty Cash ₹1,000, Cr. Bank ₹1,000. New imprest ₹3,000 established. 
+Evaluation: The same Petty Cash Account continues; no new ledger account is needed because the account represents the same fund, only 
+D6 Q: Design a petty cash book format for a school canteen that incurs the following recurring small expenses: ingredients (flour, oil, spices), gas cylinder refills, disposable plates/cups, cleaning supplies, and miscellaneous. The canteen manager wants to track ingredient costs separately for menu pricing. Specify the anal [IN-SCOPE-REWRITE]
+D6 A: Format columns: Date, Particulars, Voucher No., Total Amount Paid, then analysis columns: (1) Ingredients, (2) Gas Cylinder Refill, (3) Disposables, (4) Cleaning Supplies, (5) Miscellaneous, Remarks. 
+Justification: Ingredients are direct variable costs tied to each menu item (needed for costing and pricing), while gas refills are a fixed-period overhead (e.g., one cylinder lasts two weeks regardless of dishes made).
+
+VETTED-DIAG DQ_C11_ACC_023 (fit 0.82, src c11_acc_diagnostic_questions.marker)
+  Q: A trader uses the imprest system for his petty cash book with a fixed imprest of Rs 5,000 for each month. On 1st April 2024 he receives Rs 5,000 from the main cashier. During April he spends Rs 1,200 on postage
+  A: Rs 800 on stationery
+VETTED-DIAG DQ_C11_ACC_023B (fit 0.56, src c11_acc_diagnostic_questions.marker)
+  Q: What is the key advantage of the analytical petty cash book over a simple petty cash book?
+  A: The analytical petty cash book provides separate analysis columns for each class of petty expense (postage, stationery, conveyance, refreshments, etc.) so that at the end of the period the totals of each column can be posted directly to the relevant ledger account in one line, instead of posting each individual petty voucher separately. This saves posting labour and gives management a ready breakdown of small expenses by category.
+VETTED-DIAG DQ_C11_ACC_013B (fit 0.50, src c11_acc_diagnostic_questions.marker)
+  Q: A trader's books show the following: Cash Rs 1,20,000
+  A: Bank Rs 4,80,000
+VETTED-MIS ACC_MIS_035 (fit 0.39)
+  M: Petty cash book under imprest system is replenished whenever the cashier feels like it
+  C: Under the imprest system, the petty cashier is reimbursed at fixed intervals (e.g., end of each month) for the exact amount spent, restoring the balance to the original imprest amount. Reimbursement is based on vouchers of expenses already paid, not on demand. This ensures controlled, accountable small payments.
+VETTED-MIS ACC_MIS_032 (fit 0.21)
+  M: A cash book is just another name for a cash account in the ledger
+  C: A cash book is a subsidiary book (book of original entry) - it records cash transactions as they happen, before posting to ledger. A cash account in the ledger is posted from the cash book. The cash book serves dual purpose: journal and ledger for cash. It is not the same as a ledger cash account, which is a copy derived from the cash book.
+VETTED-MIS ACC_MIS_043 (fit 0.21)
+  M: Favourable bank balance means the same in Cash Book and Pass Book
+  C: Favourable balance (positive) in the Cash Book means a debit balance (asset - money in bank). Favourable balance in the Pass Book also means money in bank, but from the bank's perspective it is a CREDIT balance (because the bank owes the customer). The same physical position is a debit in the customer's Cash Book and a credit in the bank's Pass Book. Overdraft is the opposite - credit in Cash Book
+### NODE c11_acc_cbse_07_012  class=11 sub=acc ch=7 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: Secret Reserve is a reserve that is not disclosed in the balance sheet, created by deliberately understating assets (e.g., charging excessive depreciation, undervaluing inventory) or overstating liabilities (e.g., excessive provisions, treating contingent liabilities as actual liabilities), resulting in reported profits lower than actual profits.
+WALKTHROUGH: Imagine you run a successful family sweets business in Delhi. Your competitors keep asking for your recipe because your profits are publicly visible in your filed balance sheet. You wonder: "Can I legally show lower profits to keep my competitive edge?" This is exactly why companies create secret reserves. Let's begin by recalling what a reserve is (from node c11_acc_cbse_07_010) – an appropriation of profit to strengthen financial position. Now, a secret reserve is simply a reserve that is *hidden* from the balance sheet. How do we hide it? By making assets look smaller or liabilities look bigger than they really are. For example, if your machine will last 10 years but you depreciate it as if it lasts 5 years, you charge double depreciation – profit goes down, but you've secretly built a reserve. The key insight: secret reserves are not illegal if within reasonable limits; they are a prudence tool. We'll now learn the four specific methods, their journal entries, and how they distort the true picture for stakeholders.
+D1 Q: Define "Secret Reserve" in one sentence using the exact terminology from NCERT Class 11 Accountancy.
+D1 A: Secret Reserve is a reserve which does not appear in the balance sheet, created by understating assets or overstating liabilities, thereby reducing disclosed profits and tax liability. A wrong answer (e.g., "a reserve kept secretly by the owner" or "a reserve for emergencies") reveals the student confuses secret reserve with general reserve or thinks it's about physical secrecy rather than non-disclosure in financial
+D2 Q: Explain why charging depreciation at 20% per annum on a machine with a useful life of 10 years (instead of 10% per annum) creates a secret reserve. Use the terms "Profit and Loss Account", "Asset Account", and "Balance Sheet" in your explanation.
+D2 A: Charging 20% instead of 10% debits double depreciation to Profit and Loss Account, reducing reported profit. The Asset Account shows a lower book value (original cost minus excessive accumulated depreciation). The Balance Sheet shows understated assets and understated profit, while the difference (excess depreciation) becomes a hidden reserve not shown anywhere. A wrong answer focusing only on "lower profit" without 
+D3 Q: A company purchases inventory for ₹5,00,000. Its net realizable value is ₹5,20,000. The accountant values it at ₹4,00,000 in the balance sheet. Calculate the secret reserve created and show the journal entry that would have been passed if the correct value was recorded.
+D3 A: Secret reserve created = ₹5,00,000 (cost) - ₹4,00,000 (undervalued) = ₹1,00,000. Correct entry: Inventory A/c Dr. ₹5,00,000 To Trading A/c ₹5,00,000. The undervaluation effectively credits an extra ₹1,00,000 to a hidden reserve by reducing closing stock (asset) and increasing cost of goods sold (reducing profit). A wrong calculation using NRV (₹5,20,000 - ₹4,00,000 = ₹1,20,000) reveals the student doesn't know invent
+D4 Q: Compare and contrast "Secret Reserve" and "Capital Reserve" on three bases: (a) Source of creation, (b) Disclosure in Balance Sheet, (c) Availability for dividend distribution. Present as a table.
+D4 A: | Basis | Secret Reserve | Capital Reserve |
+|-------|----------------|-----------------|
+| Source | Created by accounting manipulation (excessive depreciation, undervaluation, etc.) | Created from capital profits (premium on shares, profit on sale of fixed assets, etc.) |
+| Disclosure | NOT shown in Balance Sheet (hidden) | SHOWN under 'Reserves and Surplus' on Liabilities side |
+| Dividend | Not available (not disc
+D5 Q: "Creation of secret reserves within reasonable limits is justifiable on grounds of expediency, prudence and preventing competition." Evaluate this statement. Give two arguments FOR and two arguments AGAINST secret reserves from a stakeholder perspective (shareholders, creditors, tax authorities, competitors). [IN-SCOPE-REWRITE]
+D5 A: FOR: (1) Prudence: Conservative valuation protects against future uncertainties (e.g., inventory obsolescence). (2) Competition: Hidden profits prevent competitors from targeting high-margin products. AGAINST: (1) Shareholders: Misled about true profitability, affecting investment decisions. (2) Tax Authorities: Reduced tax liability deprives government revenue. (3) Creditors: Understated assets overstate leverage ra
+D6 Q: Design a scenario where a company uses TWO methods simultaneously to create a secret reserve of ₹15,00,000. Specify the asset/liability involved, the correct accounting treatment, the manipulated treatment, and the journal entries for both. The scenario must be realistic for a manufacturing firm.
+D6 A: Example: A manufacturing firm buys machinery ₹1 crore (life 10 years, SLM). Correct depreciation: ₹10 lakh/year. Manipulated: ₹15 lakh/year (excess ₹5 lakh). Also, inventory cost ₹50 lakh, NRV ₹52 lakh. Manipulated value: ₹40 lakh (undervaluation ₹10 lakh). Total secret reserve = ₹15 lakh. Journal for correct: Depreciation A/c Dr. 10 To Machinery 10; Closing Stock Dr. 50 To Trading 50. Journal for manipulated: Deprec
+
+VETTED-DIAG DQ_C11_ACC_050B (fit 0.57, src c11_acc_diagnostic_questions.marker)
+  Q: Which of the following is a SECRET RESERVE, and why is it called "secret"?
+  A: A secret reserve is created by deliberately understating assets or overstating liabilities (e.g., charging excess depreciation, undervaluing stock, showing contingent liabilities as actual) so that the true financial position is stronger than what the Balance Sheet discloses. It is called "secret" because it is NOT visible on the Balance Sheet — the reserve is hidden within the asset valuations and is not disclosed to shareholders or external users. It is permissible for sole traders and partnerships but is generally NOT permitted for companies (because company accounts must show a true and fa
+VETTED-DIAG DQ_C11_ACC_037B (fit 0.44, src c11_acc_diagnostic_questions.marker)
+  Q: Under the "charging to asset account" method of recording depreciation, where does the depreciation charge appear in the final accounts?
+  A: The depreciation for the year appears on the DEBIT side of the Profit & Loss Account (as an expense). The asset appears on the Balance Sheet at its net book value (cost minus accumulated depreciation, which in this method is simply the balance of the asset account).
+VETTED-DIAG DQ_C11_ACC_034B (fit 0.38, src c11_acc_diagnostic_questions.marker)
+  Q: A machine costs Rs 5,00,000 with an estimated scrap value of Rs 50,000 and a useful life of 10 years. Under the Straight Line Method, what is the annual depreciation and the rate per annum?
+  A: Annual depreciation = (Cost - Scrap) / Useful life = (5,00,000 - 50,000) / 10 = Rs 45,000 per year. Rate per annum = (Annual depreciation / Cost) × 100 = (45,000 / 5,00,000) × 100 = 9% per annum. Note: the rate is computed on the ORIGINAL COST, not on (cost - scrap).
+VETTED-MIS ACC_MIS_065 (fit 0.47)
+  M: Secret reserves are disclosed in the Balance Sheet like other reserves
+  C: A Secret Reserve is NOT disclosed in the Balance Sheet. It is created by intentionally understating assets or overstating liabilities (e.g., charging more depreciation than necessary, undervaluing stock, showing contingent liabilities as actual). It is hidden from outsiders. Banks and insurance companies often create secret reserves for additional security. It is the opposite of disclosed reserves
+VETTED-MIS ACC_MIS_141 (fit 0.18)
+  M: Common size Balance Sheet uses total assets as the base for liabilities side too
+  C: In a Common Size Balance Sheet, EACH item on BOTH the assets side and the liabilities side (including equity) is expressed as a percentage of the TOTAL OF ASSETS (which equals total of liabilities + equity, since the Balance Sheet balances). So the common base is Total Assets = Total Liabilities + Equity, and every item on both sides is a % of this same total. The two sides total 100% each, using 
+VETTED-MIS ACC_MIS_015 (fit 0.14)
+  M: We can hide information from the Balance Sheet to keep competitors in the dark
+  C: The Full Disclosure concept (and Schedule III of Companies Act 2013) requires all material information to be disclosed - in the body of statements or in Notes to Accounts. Hiding contingent liabilities or related-party transactions misleads stakeholders. Disclosure does not mean revealing trade secrets, only material financial information.
+### NODE c11_acc_cbse_08_001  class=11 sub=acc ch=8 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Financial statements are formal, structured reports prepared at the end of an accounting period that communicate the financial performance (profit/loss) and financial position (assets/liabilities/capital) of a business entity to its stakeholders, comprising the Trading and Profit & Loss Account (Income Statement) and the Balance Sheet (Position Statement), prepared from the Trial Balance and additional information following the accrual concept and accounting standards.
+WALKTHROUGH: Imagine you run a small bakery in Delhi. At year-end, your father asks "Did we make money?" your bank manager asks "Can you repay the loan?" and the tax officer asks "What is your taxable income?" All three need different answers from the same financial data. This node teaches you how accounting organises raw transaction data into two standard reports—the Income Statement (performance) and Balance Sheet (position)—that answer all these questions simultaneously. We begin by identifying who the users are and what they need, then learn the golden rule: every rupee spent or received is either capital (long-term benefit/obligation) or revenue (current period benefit/obligation). Misplacing even one item—like treating a machine repair as a machine purchase—changes reported profit by thousands and misleads every user. You will practise classifying 15-20 real items, then see how the Trial Balance splits into the two statements. The key insight: financial statements are not just compliance—they are the language through which a business speaks to the world.
+D1 Q: Define "financial statements" as per the Companies Act/NCERT framework and name the two primary statements prepared by a sole proprietorship. What is the fundamental accounting equation that the Balance Sheet portrays?
+D1 A: Financial statements are the end products of the accounting process that present a true and fair view of the financial performance and financial position of an enterprise. The two primary statements are: (1) Trading and Profit & Loss Account (Income Statement) showing financial performance (profit/loss), and (2) Balance Sheet (Position Statement) showing financial position (assets, liabilities, capital). The Balance 
+D2 Q: A student says: "Capital expenditure is any large amount spent; revenue expenditure is any small amount spent." Using the NCERT criteria (benefit period, earning capacity, recurrence, balance sheet vs P&L treatment), explain why this statement is incorrect and give one concrete example where a small amount is capital e
+D2 A: The statement is incorrect because the distinction depends on the *period of benefit* and *nature of benefit*, not the amount. Capital expenditure benefits multiple accounting periods, increases earning capacity, is non-recurring, and appears in the Balance Sheet (subject to depreciation). Revenue expenditure benefits only the current period, maintains earning capacity, is recurring, and is transferred to Trading/P&L
+D3 Q: Classify each of the following items as Capital Expenditure (CapEx), Revenue Expenditure (RevEx), Capital Receipt (CapRec), or Revenue Receipt (RevRec). Justify each classification in one sentence using the benefit/obligation criterion:
+(a) ₹2,00,000 paid to purchase a delivery van
+(b) ₹15,000 paid for van repairs afte
+D3 A: (a) CapEx – Acquires a fixed asset (van) benefiting multiple years, increases earning capacity.
+(b) RevEx – Restores asset to working condition; maintains (not increases) earning capacity; benefits current period only.
+(c) CapRec – Creates a long-term obligation to repay principal + interest; liability appears in Balance Sheet.
+(d) CapRec – Proceeds from sale of a fixed asset; not a regular trading activity; no oblig
+D4 Q: The Trial Balance of a firm shows: Opening Stock ₹50,000, Purchases ₹2,00,000, Wages ₹30,000, Sales ₹4,00,000, Closing Stock ₹60,000 (not in Trial Balance), Salaries ₹40,000, Rent ₹20,000, Commission Received ₹10,000. 
+(i) Calculate Cost of Goods Sold and Gross Profit.
+(ii) Explain why Closing Stock is credited to Trad
+D4 A: (i) COGS = Opening Stock + Purchases + Wages – Closing Stock = 50,000 + 2,00,000 + 30,000 – 60,000 = ₹2,20,000. Gross Profit = Sales – COGS = 4,00,000 – 2,20,000 = ₹1,80,000.
+(ii) Closing Stock is valued at year-end *after* the Trial Balance is extracted; it represents unsold goods (asset) carried forward. The entry "Closing Stock A/c Dr. To Trading A/c" brings it into books—hence credit to Trading Account.
+(iii) Wro
+D5 Q: "Operating Profit (EBIT) is a better measure of core business performance than Net Profit because it excludes financial and abnormal items." Critically evaluate this statement for: (a) a bank assessing loan repayment capacity, (b) an equity investor comparing two firms with different debt levels, (c) the owner-manager 
+D5 A: (a) Bank: Needs *Net Profit* (or cash flow) because interest *must* be paid; ignoring interest (e.g., ₹5 lakh interest on ₹50 lakh loan) overstates repayment capacity. Operating Profit alone is insufficient.
+(b) Equity Investor: Prefers *Operating Profit* for comparability—it strips out financing choices (interest) and one-offs (loss by fire). Example: Firm A (high debt) has EBIT ₹1 crore, Interest ₹40 lakh, PAT ₹60 
+D6 Q: Design a 10-item "Capital vs Revenue Classification Challenge" for your classmates. Include 5 expenditure items and 5 receipt items. At least 3 items must be *borderline/deceptive* (e.g., heavy advertising, legal fees for defending title, government grant for machinery, sale of scrap, renovation of old building). Provi [IN-SCOPE-REWRITE]
+D6 A: A good answer lists 10 realistic items with correct classifications and precise justifications, e.g.:
+1. ₹2 lakh renovation of newly purchased old factory (CapEx—makes asset usable, increases capacity).
+2. ₹50,000 annual whitewashing of factory (RevEx—maintains, recurring).
+3. ₹10 lakh heavy ad campaign for new product launch (Deferred RevEx—benefits 3 years, written off over 3 years).
+4. ₹5 lakh legal fees defending
+
+VETTED-DIAG DQ_C11_ACC_051 (fit 0.86, src c11_acc_diagnostic_questions.marker)
+  Q: A trader's Trial Balance shows: Opening Stock Rs 40,000
+  A: Purchases Rs 3,20,000
+VETTED-DIAG DQ_C11_ACC_058 (fit 0.86, src c11_acc_diagnostic_questions.marker)
+  Q: A trader's Trial Balance shows: Opening Stock Rs 50,000
+  A: Purchases Rs 4,50,000
+VETTED-DIAG DQ_C11_ACC_052 (fit 0.71, src c11_acc_diagnostic_questions.marker)
+  Q: A trader's Trial Balance shows: Gross Profit b/d Rs 2,00,000
+  A: Salary Rs 50,000
+VETTED-MIS ACC_MIS_014 (fit 0.36)
+  M: The accounting period can be any random period the owner chooses
+  C: The Accounting Period concept requires financial statements to be prepared for a definite period (usually 1 April to 31 March in India) so that profit/loss and financial position can be measured periodically and compared. It is not arbitrary - it is mandated by the Income Tax Act 1961 and Companies Act 2013 for tax and compliance.
+VETTED-MIS ACC_MIS_005 (fit 0.31)
+  M: Capital and cash are the same because the owner invests cash
+  C: Capital is the owner's claim/financial interest in the business (Assets minus Liabilities). Cash is just one asset. Capital can be brought in as cash, goods, machinery, or land. The business may have large capital but very little cash if it is invested in assets. Cash balance changes daily; capital changes only with profit, loss, or additional drawings/contributions.
+VETTED-MIS ACC_MIS_023 (fit 0.29)
+  M: The accounting equation must always show capital equal to cash
+  C: The accounting equation is Assets = Liabilities + Capital. Cash is only one of many assets. Capital equals total assets minus total liabilities, not cash balance. A business can have huge capital and zero cash if all is invested in stock and machinery.
+### NODE c11_acc_cbse_08_008  class=11 sub=acc ch=8 verdict=PARTIAL action=REWRITE [2]
+DEFINITION: In a Balance Sheet, liabilities are classified as Current Liabilities (obligations expected to be settled within 12 months after the reporting date or within the normal operating cycle, whichever is longer) and Non-Current (Fixed/Long-term) Liabilities (obligations not meeting the current criteria, typically payable after one year). This classification follows the principle of liquidity and permanence to show the timing of cash outflows.
+WALKTHROUGH: Imagine you are a bank manager reviewing a loan application from a small business. The owner hands you a Balance Sheet where all liabilities are jumbled together: a 10-year machinery loan, tomorrow's electricity bill, and a 3-month bank overdraft are listed randomly. How can you quickly assess if the business can repay its short-term debts? This is exactly why we classify liabilities into Current (due soon) and Non-Current (due later). We start by identifying the reporting date (Balance Sheet date) and the operating cycle (time to convert raw material into cash). Any liability due within 12 months or the operating cycle goes under Current Liabilities; the rest go under Non-Current Liabilities. The key insight: classification depends on time to settlement, not the name of the liability (e.g., a "Loan" can be current if payable within a year).
+D1 Q: Define Current Liabilities and give two examples from a trading business.
+D1 A: Correct Answer: Current Liabilities are obligations expected to be settled within 12 months after the reporting date or within the normal operating cycle, whichever is longer. Examples: Sundry Creditors (payable within 30-90 days), Bank Overdraft (repayable on demand). 
+What a wrong answer reveals: If a student defines it only as "liabilities payable within a year" without mentioning the operating cycle, they miss th
+D2 Q: A business has an operating cycle of 15 months. On the Balance Sheet date, it has a loan installment of ₹50,000 due in 14 months. Is this Current or Non-Current? Explain.
+D2 A: Correct Answer: Current Liability. Because the operating cycle (15 months) is longer than 12 months, the criterion becomes the operating cycle. Since 14 months < 15 months, it falls within the operating cycle and is classified as Current. 
+What a wrong answer reveals: If the student says Non-Current because 14 months > 12 months, they are applying the 12-month rule mechanically without considering the operating cycle
+D3 Q: Classify the following into Current and Non-Current Liabilities for a Balance Sheet as at 31st March 2026 (operating cycle = 12 months):
+1. 10% Bank Loan taken on 1st April 2020, repayable in 5 equal annual installments starting 31st March 2021.
+2. Outstanding Salaries for March 2026: ₹25,000.
+3. Bills Payable due on 1 [IN-SCOPE-REWRITE]
+D3 A: Correct Answer:
+1. Current Liability (₹ installment due on 31st March 2027 is within 12 months? Wait: As on 31st March 2026, the next installment is due on 31st March 2027? Actually, installments start 31st March 2021. So by 31st March 2026, 5 installments would have been paid? Let's recalc: Loan taken 1 Apr 2020, 5 equal annual installments starting 31 Mar 2021. So installments due: 31 Mar 2021, 2022, 2023, 2024, 20
+D4 Q: Compare the presentation of Liabilities in the Order of Permanence vs. Order of Liquidity. Which order is more useful for a short-term creditor (supplier) and why?
+D4 A: Correct Answer: 
+- Order of Permanence: Capital → Long-term Loan → Current Liabilities (Creditors, Bills Payable, Bank Overdraft). Most permanent (Capital) at top.
+- Order of Liquidity: Current Liabilities (Bank Overdraft, Bills Payable, Creditors) → Long-term Loan → Capital. Most urgent to pay (Bank Overdraft) at top.
+For a short-term creditor (supplier), Order of Liquidity is more useful because it immediately show
+D5 Q: Evaluate this statement: "Capital is a Non-Current Liability because it is never repaid during the life of the business." Is this correct? Justify.
+D5 A: Correct Answer: The statement is partially correct but conceptually flawed. Capital is shown separately under "Owners' Funds" or "Shareholders' Funds", not under "Non-Current Liabilities". While it is permanent (not repayable on a fixed date), it represents the owner's claim, not an obligation to outsiders. Liabilities are obligations to external parties. Capital is the residual interest (Assets - Liabilities). Class
+D6 Q: Create a mini Balance Sheet (Liabilities side only) for a fictional bakery as at 31st March 2026, using the Order of Liquidity. Include at least 2 Current Liabilities, 1 Non-Current Liability, and Capital. Invent reasonable amounts.
+D6 A: Expected Answer (Criteria):
+- Correct headings: Liabilities side, Order of Liquidity.
+- Current Liabilities listed first (e.g., Bank Overdraft ₹15,000; Creditors ₹45,000; Outstanding Expenses ₹5,000).
+- Non-Current Liability next (e.g., 10% Bank Loan ₹2,00,000).
+- Capital last (e.g., Capital ₹3,00,000 + Net Profit ₹50,000 - Drawings ₹20,000 = ₹3,30,000).
+- Total both sides match (not required here but implied).
+What
+
+VETTED-DIAG DQ_C11_ACC_013B (fit 0.67, src c11_acc_diagnostic_questions.marker)
+  Q: A trader's books show the following: Cash Rs 1,20,000
+  A: Bank Rs 4,80,000
+VETTED-DIAG DQ_C11_ACC_003B (fit 0.53, src c11_acc_diagnostic_questions.marker)
+  Q: A trader owes Rs.3,00,000 to Supplier A (payable in 2 months) and Rs.10,00,000 to a bank (housing loan, payable over 10 years). He also has an internal liability of Rs.2,00,000 (capital introduced by the owner, to be returned eventually). How are these classified?
+  A: Supplier A Rs.3L is an external current liability (payable within one year, owed to an outside party); Bank loan Rs.10L is an external long-term liability (payable after one year, owed to an outside party); Capital Rs.2L is an internal liability (owed to the owner, internal claim on assets)
+VETTED-DIAG POST_c11_acc_003_01 (fit 0.48, src c11_acc_diagnostics.marker)
+  Q: Classify the following liabilities of a Delhi trading firm as on 31-03-2026 into internal/external and current/long-term/contingent: (i) Capital Rs 5,00,000; (ii) Bank loan repayable in 2028; (iii) Creditors for goods Rs 80,000; (iv) Outstanding salaries Rs 20,000; (v) A court case pending against the firm claiming Rs 2,00,000 damages.
+  A: (i) Capital Rs 5,00,000 - Internal liability (owed to the owner); it is also a long-term/non-current liability as it is not repayable in the ordinary course. (ii) Bank loan repayable in 2028 - External liability (owed to an outsider bank); Long-term (payable after 12 months from the balance sheet date). (iii) Creditors for goods Rs 80,000 - External liability; Current liability (payable within the operating cycle, normally 12 months). (iv) Outstanding salaries Rs 20,000 - External liability (owed to employees); Current liability (payable within 12 months). (v) Court case claiming Rs 2,00,000 -
+VETTED-MIS ACC_MIS_136 (fit 0.33)
+  M: Current maturities of long-term borrowings are shown under Non-Current Liabilities
+  C: Per the Schedule III amendment, the current portion of long-term borrowings (the portion due for repayment within 12 months from the Balance Sheet date) must be shown under Current Liabilities, sub-head 'Short-Term Borrowings', with a separate line 'Current maturities of long-term borrowings'. Only the non-current portion (due after 12 months) remains under Non-Current Liabilities - Long-Term Borr
+VETTED-MIS ACC_MIS_023 (fit 0.24)
+  M: The accounting equation must always show capital equal to cash
+  C: The accounting equation is Assets = Liabilities + Capital. Cash is only one of many assets. Capital equals total assets minus total liabilities, not cash balance. A business can have huge capital and zero cash if all is invested in stock and machinery.
+VETTED-MIS ACC_MIS_144 (fit 0.21)
+  M: Cash Flow Statement is the same as Funds Flow Statement
+  C: A Cash Flow Statement (AS-3 Revised) shows only CASH and cash equivalents inflows and outflows, classified into Operating, Investing and Financing activities. A Funds Flow Statement (older, not mandatory now) showed changes in WORKING CAPITAL (current assets minus current liabilities), a broader concept than cash. Cash Flow is narrower (cash only); Funds Flow was broader (working capital). AS-3 ma
+### NODE c11_acc_cbse_09_009  class=11 sub=acc ch=9 verdict=PARTIAL action=REWRITE [4, 5]
+DEFINITION: Goods sent on approval basis (or sale on approval) refers to a transaction where goods are delivered to a customer with the understanding that the sale is complete only when the customer approves/accepts them; until approval, ownership remains with the seller and the transaction is not a sale. At the end of the accounting period, if such goods are still with the customer awaiting approval, the original sale entry must be reversed and the goods must be included in closing stock at cost price.
+WALKTHROUGH: Imagine you run a boutique and send a lehenga worth ₹15,000 (cost ₹10,000) to a bride-to-be on "try before you buy" terms on March 28. Your accountant records it as a sale immediately. On March 31 (year-end), the bride hasn't decided. If you leave it as a sale, your profit is inflated by ₹5,000 and the lehenga is missing from your stock. To fix this, we must ask: "Has the sale actually happened?" No. So we undo the sale entry and put the lehenga back in our stock at what it cost us. This adjustment ensures we follow the accrual concept — revenue is recognized only when earned (approval received), not when goods are dispatched.
+D1 Q: A trader sends goods costing ₹8,000 to a customer on approval basis at a sale price of ₹10,000 on March 25. The accountant records it as a regular sale. On March 31 (year-end), the customer has not yet approved. What is the correct adjustment entry to reverse the sale?
+D1 A: Correct Answer: 
+Sales A/c Dr. ₹10,000 
+ To Debtors A/c ₹10,000 
+(Being sale on approval reversed as approval not received by year-end)
+
+Why wrong answers reveal misunderstanding: 
+If a student debits Debtors and credits Sales, they confuse the direction of reversal. If they use ₹8,000 (cost) instead of ₹10,000 (sale price), they don't understand that the original entry was at sale price, so reversal must be at the s
+D2 Q: In the same scenario (goods costing ₹8,000 sent at ₹10,000 on approval, recorded as sale, unapproved at year-end), a student passes only the first entry (reversing sale) and forgets the second entry for stock. Explain why the financial statements will still be incorrect.
+D2 A: Correct Answer: 
+Without the second entry (Stock on Approval A/c Dr. ₹8,000 to Trading A/c ₹8,000), the Trading Account will not include these goods in closing stock. This understates gross profit by ₹8,000 (since closing stock is credited to Trading Account) and understates current assets in the Balance Sheet by ₹8,000. The reversal of sale reduces revenue by ₹10,000, but without adding back the cost, the net effect
+D3 Q: Goods costing ₹12,000 were sent on approval at ₹15,000 on March 20 and recorded as sales. On March 31, the customer approves the goods. No adjustment is needed. True or False? Justify.
+D3 A: Correct Answer: 
+True. No adjustment is needed because the sale is now confirmed (approval received before year-end). The original entry (Debtors Dr. ₹15,000 to Sales ₹15,000) is correct. The goods are no longer the seller's stock; they belong to the customer. The profit of ₹3,000 is rightly recognized in the current year.
+
+Why wrong answers reveal misunderstanding: 
+If the student says "False, we still need to adjus
+D4 Q: Compare the treatment of "Goods sent on approval" with "Goods sent on consignment" at year-end when goods remain unsold/unapproved. Identify two key differences in accounting treatment.
+D4 A: Correct Answer: 
+1. Ownership: In approval, ownership transfers only on approval; in consignment, ownership remains with consignor throughout. 
+2. Valuation of unsold stock: Approval stock is valued at *cost* (since it's the seller's own stock). Consignment stock is valued at *cost + proportionate non-recurring expenses* (e.g., freight, insurance) because the consignor incurs extra costs to send goods to the consigne
+D5 Q: A company sends goods on approval frequently. At year-end, 20 such transactions are pending approval. The accountant proposes: "Instead of reversing each sale individually, let's just reduce Sales by total invoice price and increase Closing Stock by total cost." Evaluate this proposal. [IN-SCOPE-REWRITE]
+D5 A: Correct Answer: 
+The proposal is correct in effect but incomplete in procedure. The net impact on Trading Account and Balance Sheet is identical: Sales reduced by total invoice price, Closing Stock increased by total cost. However, proper accounting requires individual journal entries (or a combined entry with narration) to maintain audit trail, allow customer-wise tracking (for follow-up), and ensure the Debtors con
+D6 Q: Create a new adjustment problem (with numbers) involving goods sent on approval where: (a) some goods are approved before year-end, (b) some are returned after year-end, and (c) some are still pending. Provide the additional information note as it would appear in a board exam question. [IN-SCOPE-REWRITE]
+D6 A: Expected Answer (example): 
+*Additional Information:* 
+1. Goods costing ₹25,000 were sent on approval at ₹30,000 on March 15 and recorded as sales. Of these: 
+ - Goods costing ₹10,000 (invoice ₹12,000) were approved by the customer on March 28. 
+ - Goods costing ₹5,000 (invoice ₹6,000) were returned by the customer on April 5. 
+ - The remaining goods are still with the customer awaiting approval. 
+
+Criteria for good
+
+VETTED-DIAG DQ_C11_ACC_010 (fit 0.47, src c11_acc_diagnostic_questions.marker)
+  Q: Under the cash basis of accounting, a trader provides services worth Rs.1,00,000 in March 2027 but receives payment in April 2027. The financial year ends on 31 March 2027. When is the Rs.1,00,000 recognised as income?
+  A: Under the cash basis, the Rs.1,00,000 is recognised as income in April 2027 (when cash is received)
+VETTED-DIAG DQ_C11_ACC_058B (fit 0.38, src c11_acc_diagnostic_questions.marker)
+  Q: A trader's Trial Balance shows Purchases Rs 5,00,000 and Sales Rs 8,00,000. The adjustment states: "Closing Stock Rs 1,00,000." The Trial Balance also shows Opening Stock Rs 70,000. What is the Cost of Goods Sold and the Gross Profit?
+  A: COGS = Opening Stock + Purchases - Closing Stock = Rs 70,000 + Rs 5,00,000 - Rs 1,00,000 = Rs 4,70,000. Gross Profit = Sales - COGS = Rs 8,00,000 - Rs 4,70,000 = Rs 3,30,000. In the Trading Account: Debit side — Opening Stock Rs 70,000
+VETTED-DIAG DQ_C11_ACC_009 (fit 0.35, src c11_acc_diagnostic_questions.marker)
+  Q: A trader pays Rs.60,000 rent on 1 April 2026 for the entire year (April 2026 to March 2027). The financial year ends on 31 March 2027. Under the Accrual concept, how much rent is treated as an expense for the year ended 31 March 2027?
+  A: Rs.60,000 — the entire rent is an expense for the year ended 31 March 2027 because it relates to the period April 2026 to March 2027, which is the accounting period. Under the accrual concept, expenses are recognised when incurred (when the benefit is used), not when paid
+VETTED-MIS ACC_MIS_068 (fit 0.19)
+  M: Closing stock is shown only in the Balance Sheet as a current asset
+  C: Closing stock appears in TWO places: (1) on the credit side of the Trading Account (to match cost of goods sold with current period sales), and (2) as a current asset in the Balance Sheet. Showing it only in the Balance Sheet understates gross profit. Both appearances are required and the figure is the same in both places.
+VETTED-MIS ACC_MIS_038 (fit 0.18)
+  M: Sales return means the customer returns goods because the seller asked for them back
+  C: Sales return (return inward) means the CUSTOMER returns goods to the seller, usually because goods are defective, wrong specification, or not as ordered. It is initiated by the buyer. The seller issues a credit note to the customer. It reduces sales.
+VETTED-MIS ACC_MIS_076 (fit 0.18)
+  M: Adjusted purchases = Purchases + Closing Stock - Opening Stock
+  C: Adjusted Purchases (or Cost of Goods Sold) = Opening Stock + Purchases + Direct Expenses - Closing Stock. Closing stock is SUBTRACTED (it is unsold, not part of cost of goods sold). Opening stock is ADDED (it was sold during the year). Direct expenses (wages, carriage inward, freight) are added. The formula gives the cost of goods actually sold.

@@ -1440,6 +1440,24 @@ class Class10EnglishSolver:
 
 
 # ============================================================
+# REGISTRY ADAPTER
+# ============================================================
+
+def generate_questions_registry(seed: int = 0, count: int = None,
+                                topic: str = None) -> List[Dict]:
+    """Registry adapter: deterministic questions for Class 10 English.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    (Named to avoid clashing with the class method of the same name.)
+    """
+    n = 1 if count is None else max(1, int(count))
+    solver = Class10EnglishSolver()
+    topic_arg = topic if topic and topic != "all" else "all"
+    result = solver.generate_questions(topic=topic_arg, count=n, seed=seed)
+    return result.get("questions", [])
+
+
+# ============================================================
 # MAIN FUNCTION - DEMONSTRATION
 # ============================================================
 

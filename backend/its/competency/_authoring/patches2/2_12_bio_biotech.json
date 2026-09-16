@@ -1,0 +1,43 @@
+{
+ "c12_bio_cbse_03_008": {
+  "rewrites": {
+   "3": {
+    "a": "(1) Cause of the nausea — hCG peaks around weeks 8 to 10 and structurally resembles TSH, so it can overstimulate the thyroid and the chemoreceptor trigger zone in the area postrema, (2) The relief — as hCG declines toward the end of the first trimester, progesterone and estrogen from the placenta rise steadily, (3) Why symptoms resolve — placental progesterone relaxes gastrointestinal smooth muscle and established placentation correlates with symptom relief. A wrong answer attributing the nausea solely to progesterone misses the specific temporal correlation with hCG dynamics."
+   },
+   "4": {
+    "a": "(1) Yolk sac roles — it is the first site of hematopoiesis with blood island formation, produces primordial germ cells and contributes to the gut tube, (2) Why it is non-nutritive — placental nutrition through the chorionic villi is established early, so the well-developed human yolk sac never feeds the embryo, (3) Allantois roles — it grows out of the yolk sac as an endodermal diverticulum, expands into the connecting stalk, forms the umbilical vessels and its proximal part becomes the urachus. A wrong answer that assigns a nutritive function to the human yolk sac confuses human development with avian and reptilian models."
+   }
+  },
+  "appends": []
+ },
+ "c12_biotech_cbse_03_002": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Vector choice — a cosmid or fosmid carrying 35 to 45 kb inserts, so a 4.2 Mb genome needs only a few hundred clones for 99 percent coverage and stays stable in E. coli, (2) Enzyme strategy — partial digestion with a 4-base cutter such as Sau3AI yields overlapping fragments in the right size range and preserves native promoter, ribosome-binding-site and ORF continuity better than complete digestion, which can cut inside genes, (3) De-biasing modification — replace restriction digestion with mechanical shearing followed by end-repair and A-tailing, avoiding sequence-specific bias against AT-rich or GC-rich regions. A poor answer choosing a plasmid vector with complete EcoRI digestion ignores insert capacity limits, restriction site bias and the need for native regulatory elements for expression."
+   }
+  },
+  "appends": []
+ },
+ "c12_biotech_cbse_08_009": {
+  "rewrites": {
+   "2": {
+    "a": "(1) Why Pen-Strep fails — penicillin attacks bacterial cell walls and mycoplasma simply lack a cell wall, so they are intrinsically resistant, (2) Suppression not cure — antibiotics at best suppress mycoplasma, leaving a persistent low-level infection that alters cell metabolism with no visible turbidity, (3) Reliable detection — a PCR-based assay using primers for the 16S rRNA gene of Mycoplasma species finds trace contamination in a culture that looks normal under the microscope. A student who claims Pen-Strep kills all bacteria including mycoplasma misunderstands the cell-wall target of penicillin, and one who suggests ordinary microscopy misses that mycoplasma sit below the resolution limit of light microscopy."
+   },
+   "5": {
+    "a": "(1) HEPA limits — incubator filters recirculate air but do not sterilise it, capturing particles of about 0.3 micrometres while mycoplasma slip through at the smaller end, (2) Ethanol limits — spraying disinfects surfaces only and cannot reach mycoplasma already inside closed vessels or entering through reagents and operator aerosols, (3) Silent damage — infection shows no turbidity or pH change, yet it alters chromosomes, membranes and cytokine expression and invalidates data, (4) Regulatory duty — FDA, EMA and ICH expectations mandate mycoplasma testing at cell-bank establishment, end of production and periodically during manufacturing, so skipping it risks batch rejection. A student who agrees with the researcher confuses a clean environment with a sterile culture and overlooks that mycoplasma are the most common culture contaminant precisely because they evade visual and antibiotic surveillance."
+   }
+  },
+  "appends": []
+ },
+ "c12_biotech_cbse_11_002": {
+  "rewrites": {
+   "4": {
+    "a": "(1) Binary plasmid structure — two separate plasmids, a small T-DNA vector carrying the borders and transgene plus a disarmed helper plasmid carrying the vir genes, (2) Co-integrate structure — one large plasmid formed when the T-DNA vector recombines with a disarmed Ti plasmid through shared homology regions, (3) Binary mechanism — no recombination is needed, since Vir proteins act in trans from the helper plasmid on the T-DNA borders, (4) Co-integrate mechanism — RecA-dependent homologous recombination assembles it, and its very size makes cloning difficult, (5) Practical verdict — binary vectors clone easily in E. coli at high copy while co-integrates are unwieldy. A wrong answer saying the binary vector uses recombination misses that Vir proteins are trans-acting while only the border repeats and homology regions are cis-required."
+   },
+   "6": {
+    "a": "(1) Borders — 25 bp left and right border repeats bracket the T-DNA, the only cis-elements the transfer machinery needs, (2) Marker cassette — the rice actin1 promoter drives hpt for hygromycin selection, the standard monocot combination, (3) Expression cassette — the maize ubiquitin1 promoter with its first intron drives the codon-optimised drought-tolerance cDNA for very high monocot expression, (4) Terminators — nos or 35S terminators close both cassettes and prevent read-through, (5) Backbone — an E. coli origin for propagation, bacterial selection marker and the RK2 replicon for stability in Agrobacterium. A poor answer using the 35S promoter or nptII selection for rice reveals ignorance of monocot-specific expression and selection requirements."
+   }
+  },
+  "appends": []
+ }
+}

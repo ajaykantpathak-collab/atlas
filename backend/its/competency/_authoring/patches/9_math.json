@@ -1,0 +1,47 @@
+{
+ "c9_math_ch3_1": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps to find the money Rohan keeps when he buys 0 kg of apples at 50 rupees per kg and receives 0 rupees as a gift, starting with 200 rupees.",
+    "a": "The evaluation runs: (1) Multiplying 0 by 50 gives 0 by the annihilation property (2) Adding the zero costs changes nothing by the additive identity (3) The gift of 0 rupees adds nothing again (4) Subtracting 0 from 200 leaves 200 rupees. A wrong answer that treats the zero quantities as real spending shows the student cannot apply a x 0 = 0 and a + 0 = a together, which is exactly the dual role of zero in the whole number system."
+   }
+  },
+  "appends": []
+ },
+ "c9_math_ch3_11": {
+  "rewrites": {
+   "4": {
+    "q": "Give the correct sequence of steps to construct √13 on the number line using the direct triplet method with legs 2 and 3.",
+    "a": "The construction runs: (1) Recall that 2 squared plus 3 squared equals 13 (2) Ensure length 2 is already constructed on the number line (3) Erect a perpendicular of 3 units at the point 2 (4) Join its end to zero and swing the arc of this hypotenuse to mark √13. A wrong answer that walks the whole square root spiral, or claims the triplet method fails, shows the student has missed that any integers a and b with a squared plus b squared equal to n give a direct construction."
+   }
+  },
+  "appends": []
+ },
+ "c9_math_ch6_1": {
+  "rewrites": {
+   "6": {
+    "q": "A farmer has 200 m of fencing, and the length must be 10 m more than twice the breadth. Calculate the breadth of the pen in metres.",
+    "a": "Let the breadth be b, so the length is 2b + 10: Perimeter = 2(b + 2b + 10) = 6b + 20 = 200, giving b = 30 m. A wrong answer that forgets to double the breadth term, or drops the 2 from the perimeter formula, shows the student cannot translate the words twice the breadth into algebra before solving."
+   }
+  },
+  "appends": []
+ },
+ "c9_math_ch6_11": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps to verify that a composite garden bed of three basic shapes really totals 150 square metres.",
+    "a": "Verification proceeds: (1) Decompose the sketch into its basic shapes with labelled dimensions (2) Compute each part area separately, watching radius versus diameter (3) Add the joined regions and subtract the cut-out regions (4) Check that the combined total equals 150 square metres exactly. A wrong answer that adds every region including cut-outs, or never checks the target total, shows the student has missed that composite areas are algebraic sums where removed material is subtracted."
+   }
+  },
+  "appends": []
+ },
+ "c9_math_ch6_6": {
+  "rewrites": {
+   "5": {
+    "q": "Give the correct order of checks to apply before trusting a Heron's Formula area for sides 5 cm, 6 cm, and 12 cm.",
+    "a": "The checks run: (1) Test the triangle inequality on the three sides (2) Observe that 5 plus 6 equals 11, which is less than 12 (3) Conclude the sides form no triangle at all (4) Reject the area before computing any square root, whose negative radicand was only a symptom. A wrong answer that trusts the algebra and reports an imaginary area shows the student has missed that the triangle inequality must be checked first, before any formula is applied."
+   }
+  },
+  "appends": []
+ }
+}

@@ -1,0 +1,1420 @@
+{
+ "c10_civ_cbse_03_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c10_civ_cbse_03_003.md"
+ },
+ "c10_engl_cbse_06_006": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c10_engl_cbse_06_006.md"
+ },
+ "c10_geo_cbse_04_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c10_geo_cbse_04_009.md"
+ },
+ "c10_geo_cbse_04_010": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c10_geo_cbse_04_010.md"
+ },
+ "c10_hist_cbse_01_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c10_hist_cbse_01_002.md"
+ },
+ "c10_hist_cbse_01_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c10_hist_cbse_01_005.md"
+ },
+ "c10_hist_cbse_01_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c10_hist_cbse_01_008.md"
+ },
+ "c10_math_cbse_01_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c10_math_cbse_01_005.md"
+ },
+ "c10_math_cbse_01_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c10_math_cbse_01_008.md"
+ },
+ "c10_math_cbse_03_012": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c10_math_cbse_03_012.md"
+ },
+ "c10_math_cbse_05_011": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c10_math_cbse_05_011.md"
+ },
+ "c10_math_cbse_12_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c10_math_cbse_12_003.md"
+ },
+ "c10_math_cbse_14_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c10_math_cbse_14_007.md"
+ },
+ "c11_acc_cbse_01_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   0
+  ],
+  "append": 0,
+  "file": "c11_acc_cbse_01_003.md"
+ },
+ "c11_acc_cbse_01_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c11_acc_cbse_01_005.md"
+ },
+ "c11_acc_cbse_07_012": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_acc_cbse_07_012.md"
+ },
+ "c11_acc_cbse_08_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_acc_cbse_08_001.md"
+ },
+ "c11_acc_cbse_08_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c11_acc_cbse_08_008.md"
+ },
+ "c11_acc_cbse_09_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4,
+   5
+  ],
+  "append": 0,
+  "file": "c11_acc_cbse_09_009.md"
+ },
+ "c11_bio_cbse_10_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_bio_cbse_10_002.md"
+ },
+ "c11_bio_cbse_10_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c11_bio_cbse_10_005.md"
+ },
+ "c11_bio_cbse_10_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_bio_cbse_10_008.md"
+ },
+ "c11_bio_cbse_11_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_bio_cbse_11_001.md"
+ },
+ "c11_bio_cbse_13_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_bio_cbse_13_001.md"
+ },
+ "c11_biotech_cbse_01_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3,
+   4
+  ],
+  "append": 0,
+  "file": "c11_biotech_cbse_01_005.md"
+ },
+ "c11_biotech_cbse_01_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3,
+   4
+  ],
+  "append": 0,
+  "file": "c11_biotech_cbse_01_006.md"
+ },
+ "c11_biotech_cbse_01_011": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_biotech_cbse_01_011.md"
+ },
+ "c11_biotech_cbse_04_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2,
+   4
+  ],
+  "append": 0,
+  "file": "c11_biotech_cbse_04_002.md"
+ },
+ "c11_biotech_cbse_10_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3,
+   5
+  ],
+  "append": 0,
+  "file": "c11_biotech_cbse_10_008.md"
+ },
+ "c11_biotech_cbse_11_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c11_biotech_cbse_11_008.md"
+ },
+ "c11_bs_cbse_02_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c11_bs_cbse_02_001.md"
+ },
+ "c11_bs_cbse_02_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_bs_cbse_02_007.md"
+ },
+ "c11_bs_cbse_02_010": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_bs_cbse_02_010.md"
+ },
+ "c11_bs_cbse_07_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_bs_cbse_07_001.md"
+ },
+ "c11_bs_cbse_10_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c11_bs_cbse_10_008.md"
+ },
+ "c11_bs_cbse_10_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_bs_cbse_10_009.md"
+ },
+ "c11_chem_cbse_02_017": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_chem_cbse_02_017.md"
+ },
+ "c11_chem_cbse_04_012": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_chem_cbse_04_012.md"
+ },
+ "c11_chem_cbse_07_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c11_chem_cbse_07_001.md"
+ },
+ "c11_chem_cbse_07_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_chem_cbse_07_002.md"
+ },
+ "c11_chem_cbse_07_011": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_chem_cbse_07_011.md"
+ },
+ "c11_cs_cbse_11_010": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_cs_cbse_11_010.md"
+ },
+ "c11_eco_cbse_02_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c11_eco_cbse_02_006.md"
+ },
+ "c11_geo_cbse_04_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_geo_cbse_04_002.md"
+ },
+ "c11_geo_cbse_04_010": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_geo_cbse_04_010.md"
+ },
+ "c11_geo_cbse_04_011": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   0
+  ],
+  "append": 0,
+  "file": "c11_geo_cbse_04_011.md"
+ },
+ "c11_geo_cbse_07_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_geo_cbse_07_004.md"
+ },
+ "c11_geo_cbse_20_001": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c11_geo_cbse_20_001.md"
+ },
+ "c11_geo_cbse_23_009": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c11_geo_cbse_23_009.md"
+ },
+ "c11_hs_cbse_07_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2,
+   5
+  ],
+  "append": 0,
+  "file": "c11_hs_cbse_07_006.md"
+ },
+ "c11_hs_cbse_07_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3,
+   4,
+   5
+  ],
+  "append": 0,
+  "file": "c11_hs_cbse_07_008.md"
+ },
+ "c11_math_cbse_01_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_math_cbse_01_004.md"
+ },
+ "c11_math_cbse_01_012": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_math_cbse_01_012.md"
+ },
+ "c11_math_cbse_01_014": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_math_cbse_01_014.md"
+ },
+ "c11_math_cbse_09_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c11_math_cbse_09_003.md"
+ },
+ "c11_math_cbse_10_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c11_math_cbse_10_002.md"
+ },
+ "c11_phy_cbse_03_012": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_03_012.md"
+ },
+ "c11_phy_cbse_04_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_04_006.md"
+ },
+ "c11_phy_cbse_05_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_05_004.md"
+ },
+ "c11_phy_cbse_07_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_07_001.md"
+ },
+ "c11_phy_cbse_11_010": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_11_010.md"
+ },
+ "c11_phy_cbse_12_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_12_007.md"
+ },
+ "c11_phy_cbse_12_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_12_009.md"
+ },
+ "c11_phy_cbse_13_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_13_001.md"
+ },
+ "c11_phy_cbse_13_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_phy_cbse_13_008.md"
+ },
+ "c11_ps_cbse_04_006": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c11_ps_cbse_04_006.md"
+ },
+ "c11_psy_cbse_01_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c11_psy_cbse_01_005.md"
+ },
+ "c11_psy_cbse_01_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_psy_cbse_01_008.md"
+ },
+ "c11_psy_cbse_06_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_psy_cbse_06_008.md"
+ },
+ "c11_psy_cbse_06_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c11_psy_cbse_06_009.md"
+ },
+ "c11_soc_cbse_01_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_soc_cbse_01_003.md"
+ },
+ "c11_soc_cbse_01_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_soc_cbse_01_005.md"
+ },
+ "c11_soc_cbse_05_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_soc_cbse_05_006.md"
+ },
+ "c11_soc_cbse_09_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c11_soc_cbse_09_006.md"
+ },
+ "c11_soc_cbse_09_011": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c11_soc_cbse_09_011.md"
+ },
+ "c11_stat_cbse_06_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c11_stat_cbse_06_001.md"
+ },
+ "c11_stat_cbse_08_007": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c11_stat_cbse_08_007.md"
+ },
+ "c12_acc_cbse_05_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   0
+  ],
+  "append": 0,
+  "file": "c12_acc_cbse_05_002.md"
+ },
+ "c12_acc_cbse_05_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_acc_cbse_05_004.md"
+ },
+ "c12_acc_cbse_08_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_acc_cbse_08_008.md"
+ },
+ "c12_acc_cbse_08_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_acc_cbse_08_009.md"
+ },
+ "c12_acc_cbse_09_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_acc_cbse_09_002.md"
+ },
+ "c12_bio_cbse_03_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2,
+   3
+  ],
+  "append": 0,
+  "file": "c12_bio_cbse_03_008.md"
+ },
+ "c12_bio_cbse_06_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_bio_cbse_06_006.md"
+ },
+ "c12_bio_cbse_06_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_bio_cbse_06_007.md"
+ },
+ "c12_bio_cbse_06_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c12_bio_cbse_06_009.md"
+ },
+ "c12_biotech_cbse_03_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_biotech_cbse_03_002.md"
+ },
+ "c12_biotech_cbse_08_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1,
+   4
+  ],
+  "append": 0,
+  "file": "c12_biotech_cbse_08_009.md"
+ },
+ "c12_biotech_cbse_11_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3,
+   5
+  ],
+  "append": 0,
+  "file": "c12_biotech_cbse_11_002.md"
+ },
+ "c12_bs_cbse_03_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_03_007.md"
+ },
+ "c12_bs_cbse_04_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_04_007.md"
+ },
+ "c12_bs_cbse_07_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_07_008.md"
+ },
+ "c12_bs_cbse_09_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_09_001.md"
+ },
+ "c12_bs_cbse_09_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_09_003.md"
+ },
+ "c12_bs_cbse_09_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_09_006.md"
+ },
+ "c12_bs_cbse_09_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_09_007.md"
+ },
+ "c12_bs_cbse_10_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_10_009.md"
+ },
+ "c12_bs_cbse_11_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_11_001.md"
+ },
+ "c12_bs_cbse_11_011": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c12_bs_cbse_11_011.md"
+ },
+ "c12_ca_cbse_02_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_ca_cbse_02_001.md"
+ },
+ "c12_ca_cbse_02_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_ca_cbse_02_004.md"
+ },
+ "c12_ca_cbse_02_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_ca_cbse_02_005.md"
+ },
+ "c12_chem_cbse_01_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_chem_cbse_01_001.md"
+ },
+ "c12_chem_cbse_01_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c12_chem_cbse_01_002.md"
+ },
+ "c12_chem_cbse_01_010": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_chem_cbse_01_010.md"
+ },
+ "c12_chem_cbse_05_002": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_chem_cbse_05_002.md"
+ },
+ "c12_cs_cbse_08_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_cs_cbse_08_004.md"
+ },
+ "c12_eco_cbse_05_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_eco_cbse_05_003.md"
+ },
+ "c12_eco_cbse_10_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c12_eco_cbse_10_001.md"
+ },
+ "c12_eco_cbse_11_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c12_eco_cbse_11_007.md"
+ },
+ "c12_eco_cbse_11_010": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c12_eco_cbse_11_010.md"
+ },
+ "c12_eng_f_cbse_08_009": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_eng_f_cbse_08_009.md"
+ },
+ "c12_eng_k_cbse_03_014": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_eng_k_cbse_03_014.md"
+ },
+ "c12_eng_k_cbse_05_014": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_eng_k_cbse_05_014.md"
+ },
+ "c12_eng_k_cbse_16_005": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_eng_k_cbse_16_005.md"
+ },
+ "c12_geo_cbse_02_006": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_geo_cbse_02_006.md"
+ },
+ "c12_geo_cbse_17_004": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_geo_cbse_17_004.md"
+ },
+ "c12_geo_cbse_19_011": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_geo_cbse_19_011.md"
+ },
+ "c12_geo_cbse_21_002": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_geo_cbse_21_002.md"
+ },
+ "c12_hin_ar_cbse_12_015": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_hin_ar_cbse_12_015.md"
+ },
+ "c12_hin_ar_cbse_13_006": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_hin_ar_cbse_13_006.md"
+ },
+ "c12_hin_ar_cbse_13_013": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_hin_ar_cbse_13_013.md"
+ },
+ "c12_hs_cbse_01_010": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c12_hs_cbse_01_010.md"
+ },
+ "c12_hs_cbse_02_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_hs_cbse_02_005.md"
+ },
+ "c12_math_cbse_01_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_math_cbse_01_009.md"
+ },
+ "c12_math_cbse_02_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c12_math_cbse_02_007.md"
+ },
+ "c12_math_cbse_05_013": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c12_math_cbse_05_013.md"
+ },
+ "c12_math_cbse_06_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c12_math_cbse_06_006.md"
+ },
+ "c12_math_cbse_11_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2,
+   4
+  ],
+  "append": 0,
+  "file": "c12_math_cbse_11_004.md"
+ },
+ "c12_phy_cbse_02_007": {
+  "need": "isolated-rich",
+  "rewrite": [
+   5
+  ],
+  "append": 4,
+  "file": "c12_phy_cbse_02_007.md"
+ },
+ "c12_phy_cbse_08_004": {
+  "need": "isolated-rich",
+  "rewrite": [
+   4
+  ],
+  "append": 4,
+  "file": "c12_phy_cbse_08_004.md"
+ },
+ "c12_phy_cbse_09_003": {
+  "need": "isolated-rich",
+  "rewrite": [
+   3
+  ],
+  "append": 4,
+  "file": "c12_phy_cbse_09_003.md"
+ },
+ "c12_phy_cbse_10_004": {
+  "need": "isolated-rich",
+  "rewrite": [
+   0
+  ],
+  "append": 4,
+  "file": "c12_phy_cbse_10_004.md"
+ },
+ "c12_phy_cbse_10_008": {
+  "need": "isolated-rich",
+  "rewrite": [
+   5
+  ],
+  "append": 4,
+  "file": "c12_phy_cbse_10_008.md"
+ },
+ "c12_phy_cbse_12_001": {
+  "need": "isolated-rich",
+  "rewrite": [
+   0
+  ],
+  "append": 4,
+  "file": "c12_phy_cbse_12_001.md"
+ },
+ "c12_ps_cbse_01_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_ps_cbse_01_003.md"
+ },
+ "c12_ps_cbse_01_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_ps_cbse_01_007.md"
+ },
+ "c12_ps_cbse_01_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_ps_cbse_01_009.md"
+ },
+ "c12_ps_cbse_09_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c12_ps_cbse_09_006.md"
+ },
+ "c12_ps_cbse_09_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c12_ps_cbse_09_009.md"
+ },
+ "c12_ps_cbse_14_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_ps_cbse_14_006.md"
+ },
+ "c12_psy_cbse_01_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c12_psy_cbse_01_001.md"
+ },
+ "c12_psy_cbse_01_005": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c12_psy_cbse_01_005.md"
+ },
+ "c12_psy_cbse_03_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_psy_cbse_03_006.md"
+ },
+ "c12_psy_cbse_05_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_psy_cbse_05_004.md"
+ },
+ "c12_psy_cbse_05_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c12_psy_cbse_05_006.md"
+ },
+ "c12_psy_cbse_05_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_psy_cbse_05_007.md"
+ },
+ "c12_soc_cbse_01_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c12_soc_cbse_01_008.md"
+ },
+ "c12_soc_cbse_05_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2,
+   5
+  ],
+  "append": 0,
+  "file": "c12_soc_cbse_05_003.md"
+ },
+ "c12_soc_cbse_05_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2,
+   3
+  ],
+  "append": 0,
+  "file": "c12_soc_cbse_05_007.md"
+ },
+ "c12_soc_cbse_12_006": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3,
+   5
+  ],
+  "append": 0,
+  "file": "c12_soc_cbse_12_006.md"
+ },
+ "c12_soc_cbse_15_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_soc_cbse_15_004.md"
+ },
+ "c12_soc_cbse_15_010": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c12_soc_cbse_15_010.md"
+ },
+ "c7_civ_ch02_008": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c7_civ_ch02_008.md"
+ },
+ "c7_hist_ch07_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c7_hist_ch07_003.md"
+ },
+ "c7_math_ch03_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   0
+  ],
+  "append": 0,
+  "file": "c7_math_ch03_007.md"
+ },
+ "c7_math_ch07_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c7_math_ch07_003.md"
+ },
+ "c7_math_ch10_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c7_math_ch10_001.md"
+ },
+ "c7_math_ch10_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c7_math_ch10_007.md"
+ },
+ "c7_math_ch15_010": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c7_math_ch15_010.md"
+ },
+ "c7_physics_ch02_004": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c7_physics_ch02_004.md"
+ },
+ "c7_physics_ch02_007": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c7_physics_ch02_007.md"
+ },
+ "c7_physics_ch03_009": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c7_physics_ch03_009.md"
+ },
+ "c7_physics_ch04_001": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c7_physics_ch04_001.md"
+ },
+ "c7_physics_ch04_003": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   1
+  ],
+  "append": 0,
+  "file": "c7_physics_ch04_003.md"
+ },
+ "c8_chem_ch2_3": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c8_chem_ch2_3.md"
+ },
+ "c8_eco_ch3_10": {
+  "need": "append3",
+  "rewrite": [],
+  "append": 3,
+  "file": "c8_eco_ch3_10.md"
+ },
+ "c8_hist_ch3_2": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   2
+  ],
+  "append": 0,
+  "file": "c8_hist_ch3_2.md"
+ },
+ "c8_hist_ch3_3": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c8_hist_ch3_3.md"
+ },
+ "c9_bio_ch4_3": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c9_bio_ch4_3.md"
+ },
+ "c9_eco_ch2_5": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c9_eco_ch2_5.md"
+ },
+ "c9_geo_ch1_11": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3,
+   5
+  ],
+  "append": 0,
+  "file": "c9_geo_ch1_11.md"
+ },
+ "c9_geo_ch1_4": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c9_geo_ch1_4.md"
+ },
+ "c9_math_ch3_1": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c9_math_ch3_1.md"
+ },
+ "c9_math_ch3_11": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   3
+  ],
+  "append": 0,
+  "file": "c9_math_ch3_11.md"
+ },
+ "c9_math_ch6_1": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c9_math_ch6_1.md"
+ },
+ "c9_math_ch6_11": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c9_math_ch6_11.md"
+ },
+ "c9_math_ch6_6": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   4
+  ],
+  "append": 0,
+  "file": "c9_math_ch6_6.md"
+ },
+ "c9_physics_ch2_4": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c9_physics_ch2_4.md"
+ },
+ "c9_physics_ch2_6": {
+  "need": "rewrite-multi",
+  "rewrite": [
+   5
+  ],
+  "append": 0,
+  "file": "c9_physics_ch2_6.md"
+ }
+}

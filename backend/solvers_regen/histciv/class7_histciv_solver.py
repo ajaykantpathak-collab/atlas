@@ -770,7 +770,7 @@ _QUESTION_BANK: List[Dict[str, Any]] = [
         "explanation": "The Right against Exploitation (Articles 23-24) prohibits traffic in human beings, forced labour, and child labour. Bonded labour is a form of forced labour and is therefore prohibited under this right.",
         "competency": False,
     },
-    // ── CIVICS: Directive Principles ──────────────────────────────────
+    # ── CIVICS: Directive Principles ──────────────────────────────────
     {
         "id": "C7C_DP_01",
         "type": "mcq",
@@ -803,7 +803,7 @@ _QUESTION_BANK: List[Dict[str, Any]] = [
         "explanation": "Directive Principles are non-justiciable, meaning they cannot be enforced by courts. They serve as guidelines for the government to make laws and policies. However, some have been made justiciable through amendments.",
         "competency": False,
     },
-    // ── CIVICS: Union Executive ──────────────────────────────────────
+    # ── CIVICS: Union Executive ──────────────────────────────────────
     {
         "id": "C7C_EXEC_01",
         "type": "mcq",
@@ -884,7 +884,7 @@ _QUESTION_BANK: List[Dict[str, Any]] = [
         "explanation": "The Vice President of India is the ex-officio Chairman of the Rajya Sabha (Council of States). He is the second highest constitutional office in India.",
         "competency": False,
     },
-    // ── CIVICS: Parliament ────────────────────────────────────────────
+    # ── CIVICS: Parliament ────────────────────────────────────────────
     {
         "id": "C7C_PARL_01",
         "type": "mcq",
@@ -965,7 +965,7 @@ _QUESTION_BANK: List[Dict[str, Any]] = [
         "explanation": "The Rajya Sabha is a permanent body and is not subject to dissolution. One-third of its members retire every two years. Each member has a term of 6 years.",
         "competency": False,
     },
-    // ── CIVICS: Judiciary ─────────────────────────────────────────────
+    # ── CIVICS: Judiciary ─────────────────────────────────────────────
     {
         "id": "C7C_JUD_01",
         "type": "mcq",
@@ -1046,7 +1046,7 @@ _QUESTION_BANK: List[Dict[str, Any]] = [
         "explanation": "Appellate Jurisdiction allows the Supreme Court to hear appeals against judgments of the High Courts in civil, criminal, and constitutional cases. Original Jurisdiction is for disputes between states or between the Centre and states.",
         "competency": False,
     },
-    // ── CIVICS: Local Self-Government ─────────────────────────────────
+    # ── CIVICS: Local Self-Government ─────────────────────────────────
     {
         "id": "C7C_LSG_01",
         "type": "mcq",
@@ -1406,7 +1406,7 @@ _QUESTION_BANK: List[Dict[str, Any]] = [
         "explanation": "To become a member of the Lok Sabha, a person must: (1) Be a citizen of India, (2) Be at least 25 years of age, (3) Be registered as a voter in any parliamentary constituency, (4) Not hold any office of profit under the Government of India or any State Government.",
         "competency": False,
     },
-    // ── LONG ANSWER QUESTIONS ─────────────────────────────────────────
+    # ── LONG ANSWER QUESTIONS ─────────────────────────────────────────
     {
         "id": "C7H_LA_01",
         "type": "long_answer",
@@ -1935,6 +1935,51 @@ class QuestionGenerator:
 
 
 # ======================================================================
+# REGISTRY ADAPTER
+# ======================================================================
+
+def generate_questions(seed: int = 0, count: int = None,
+                       topic: str = None) -> List[Dict]:
+    """Registry adapter: deterministic questions for Class 7 History & Civics.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    """
+    n = 1 if count is None else max(1, int(count))
+    generator = QuestionGenerator(seed=seed)
+    questions = []
+    seen_ids = set()
+    attempts = 0
+    while len(questions) < n and attempts < n * 10:
+        attempts += 1
+        q = generator.generate(topic=topic or "",
+                               seed=make_seed("gq", seed, attempts))
+        if not isinstance(q, dict) or "error" in q:
+            continue
+        if q["id"] in seen_ids:
+            continue
+        seen_ids.add(q["id"])
+        out = {
+            "id": q["id"],
+            "type": q.get("type", "mcq"),
+            "difficulty": q.get("difficulty", ""),
+            "topic": q.get("topic", ""),
+            "question": q["question"],
+            "answer": "",
+            "explanation": "",
+            "competency": q.get("competency", False),
+        }
+        solved = q.get("solution") or {}
+        if isinstance(solved, dict):
+            out["answer"] = solved.get("answer", "")
+            out["explanation"] = solved.get("explanation",
+                                            solved.get("answer_text", ""))
+        if q.get("options"):
+            out["options"] = q["options"]
+        questions.append(out)
+    return questions
+
+
+# ======================================================================
 # DEMO
 # ======================================================================
 
@@ -1963,7 +2008,7 @@ def main() -> None:
     print(f"\nQ: {result['question']}")
     for opt in result.get("options", []):
         print(f"   {opt}")
-    print(f"\nAnswer: {result['answer']) - {result['answer_text']}")
+    print(f"\nAnswer: {result['answer']} - {result['answer_text']}")
     print(f"\nSteps:")
     for step in result["steps"]:
         print(f"  Step {step['step']}: {step['description']}")
@@ -1977,7 +2022,7 @@ def main() -> None:
     print(f"Q: {result['question']}")
     for opt in result.get("options", []):
         print(f"   {opt}")
-    print(f"\nAnswer: {result['answer']) - {result['answer_text']}")
+    print(f"\nAnswer: {result['answer']} - {result['answer_text']}")
     print(f"Verification: {result['verification']}")
 
     # ── Demo 3: Fill in the Blank ──────────────────────────────────
@@ -2016,7 +2061,7 @@ def main() -> None:
     print(f"\nQ: {result['question']}")
     for opt in result.get("options", []):
         print(f"   {opt}")
-    print(f"\nAnswer: {result['answer']) - {result['answer_text']}")
+    print(f"\nAnswer: {result['answer']} - {result['answer_text']}")
     print(f"Explanation: {result['explanation']}")
     print(f"Verification: {result['verification']}")
 

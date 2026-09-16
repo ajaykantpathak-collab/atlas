@@ -289,3 +289,29 @@ class DeterministicQuestionGenerator:
         for i, (func, comp) in enumerate(func_items[:min(2, count - 2)]):
             opts = self._shuffle_det(components[:])
             correct_idx = opts
+
+# -- solver contract --------------------------------------------
+# NOTE: DeterministicQuestionGenerator is truncated mid-method upstream;
+# serve questions directly from KnowledgeBase.FOOD_COMPONENTS instead.
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Answer c4 bio food-component questions from KnowledgeBase."""
+    params = params or {}
+    comps = KnowledgeBase.get_all_food_components()
+    comp = params.get("component")
+    if comp and comp in KnowledgeBase.FOOD_COMPONENTS:
+        f = KnowledgeBase.FOOD_COMPONENTS[comp]
+        return {"component": comp, "definition": f.definition,
+                "examples": f.examples, "indian_examples": f.indian_examples}
+    out = [{"component": c, "definition": KnowledgeBase.FOOD_COMPONENTS[c].definition,
+            "examples": KnowledgeBase.FOOD_COMPONENTS[c].indian_examples}
+           for c in comps]
+    return {"node_id": node_id or "c4_bio_001", "components": out}
+
+def check_answer(component: str = "", user_answer: str = "", **kw):
+    comps = KnowledgeBase.get_all_food_components()
+    return {"correct": (component or "").strip().lower() in comps and
+            (user_answer or "").strip().lower() in
+            [component.strip().lower()]}
+
+SOLVER_REGISTRY = {"c4_bio_food": solve, "c4_bio_check": check_answer}
+NODE_MAP = {"c4_bio_001": "c4_bio_food", "c4_bio_002": "c4_bio_food", "c4_bio_003": "c4_bio_food"}

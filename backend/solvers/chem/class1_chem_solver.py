@@ -121,115 +121,82 @@ class SolutionsLoader:
         """
         Minimal YAML parser for the flat-key structures used here.
         Handles:
-          • Top-level scalar  key: value
-          • Nested  section → node_id → key → value
-          • Inline Python dicts  {key: val, ...}
+          - Top-level scalar  key: value
+          - Nested  section -> node_id -> key -> value
+          - Inline lists  [a, b, c]
         """
         root: dict[str, Any] = {}
-        current_section: str | None = None
-        current_node:    str | None = None
-        in_fib = in_match = in_tf = in_mcq = in_sa = False
-        fib_buf: dict[int, list[str]] = {}
-        fib_q: int | None = None
+        current_node: str | None = None
+        mode: str | None = None  # fib|matching|true_false|mcq|short_answer
+
+        _TOGGLES = ("fib", "matching", "true_false", "mcq", "short_answer")
 
         for raw_line in yaml_text.splitlines():
             stripped = raw_line.strip()
-
-            # Skip comments and blanks
             if not stripped or stripped.startswith("#"):
                 continue
 
-            # ── Section boundary (uses_of_water / sources_of_water / …) ──────
-            sec_m = re.match(r"^([a-z_]+):\s*$", stripped)
-            if sec_m and not stripped.startswith(" "):
-                current_section = sec_m.group(1)
-                in_fib = in_match = in_tf = in_mcq = in_sa = False
-                fib_buf.clear()
-                fib_q = None
+            # Section-type toggles must be checked BEFORE generic `key:` rules —
+            # `fib:`/`mcq:` etc. also match the node/section regex.
+            key = stripped[:-1]
+            if stripped.endswith(":") and key in _TOGGLES:
+                mode = key
                 continue
 
-            # ── Node ID ────────────────────────────────────────────────────────
-            node_m = re.match(r"^(c1_[a-z0-9_]+):\s*$", stripped)
-            if node_m and not stripped.startswith(" "):
+            # Node ID:  c1_chem_001:
+            node_m = re.match(r"^(c\d+_[a-z0-9_]+):\s*$", stripped)
+            if node_m:
                 current_node = node_m.group(1)
-                if current_node not in root:
-                    root[current_node] = {}
-                in_fib = in_match = in_tf = in_mcq = in_sa = False
-                fib_buf.clear()
-                fib_q = None
+                root.setdefault(current_node, {})
+                mode = None
                 continue
 
-            # ── Section-type toggles ───────────────────────────────────────────
-            if stripped == "fib:":
-                in_fib = True; fib_q = None; fib_buf.clear()
-                continue
-            if stripped == "matching:":
-                in_match = True; in_fib = False
-                continue
-            if stripped == "true_false:":
-                in_tf = True; in_fib = False
-                continue
-            if stripped == "mcq:":
-                in_mcq = True; in_fib = False
-                continue
-            if stripped == "short_answer:":
-                in_sa = True; in_fib = False
+            # Generic `word:` headers (comments section names) — ignore
+            if re.match(r"^[a-z_]+:\s*$", stripped):
+                mode = None
                 continue
 
-            # ── Parse content lines ─────────────────────────────────────────────
-            if current_node is None:
+            if current_node is None or mode is None:
                 continue
 
-            # FIB:  2:  ["tap", "hand pump", "river"]
-            if in_fib:
-                fib_m = re.match(r"^(\d+):\s*\[(.+?)\]\s*$", stripped)
-                if fib_m:
-                    fib_q = int(fib_m.group(1))
-                    fib_buf[fib_q] = [
+            node = root[current_node]
+
+            # FIB:  2:  ["tap", "hand pump"]
+            if mode == "fib":
+                m = re.match(r"^(\d+):\s*\[(.+?)\]\s*$", stripped)
+                if m:
+                    node.setdefault("fib", {})[int(m.group(1))] = [
                         s.strip().strip('"').strip("'")
-                        for s in fib_m.group(2).split(",")
-                    ]
+                        for s in m.group(2).split(",")]
                 continue
 
-            # matching:  "tap": "Water from the pipe at home"
-            if in_match:
-                kv = re.match(r'^"([^"]+)":\s*"(.+)"\s*$', stripped)
-                if kv:
-                    root[current_node].setdefault("matching", {})[
-                        kv.group(1)
-                    ] = kv.group(2)
+            # matching:  "tap (A)": "Water from the pipe at home"
+            if mode == "matching":
+                m = re.match(r'^"([^"]+)":\s*"(.+)"\s*$', stripped)
+                if m:
+                    node.setdefault("matching", {})[m.group(1)] = m.group(2)
                 continue
 
-            # true_false:  1: true
-            if in_tf:
-                tf_m = re.match(r"^(\d+):\s*(True|False|true|false)\s*$", stripped)
-                if tf_m:
-                    root[current_node].setdefault("true_false", {})[
-                        int(tf_m.group(1))
-                    ] = tf_m.group(2).lower() == "true"
+            # true_false:  1: True
+            if mode == "true_false":
+                m = re.match(r"^(\d+):\s*(True|False|true|false)\s*$", stripped)
+                if m:
+                    node.setdefault("true_false", {})[int(m.group(1))] =                         m.group(2).lower() == "true"
                 continue
 
             # mcq:  1: "C"
-            if in_mcq:
-                mcq_m = re.match(r'^(\d+):\s*"([A-D])"\s*$', stripped)
-                if mcq_m:
-                    root[current_node].setdefault("mcq", {})[
-                        int(mcq_m.group(1))
-                    ] = mcq_m.group(2)
+            if mode == "mcq":
+                m = re.match(r'^(\d+):\s*"([A-D])"\s*$', stripped)
+                if m:
+                    node.setdefault("mcq", {})[int(m.group(1))] = m.group(2)
                 continue
 
-            # short_answer:  1: "Water is precious …"
-            if in_sa:
-                sa_m = re.match(r'^(\d+):\s*"(.+)"\s*$', stripped)
-                if sa_m:
-                    root[current_node].setdefault("short_answer", {})[
-                        int(sa_m.group(1))
-                    ] = sa_m.group(2)
+            # short_answer:  1: "Water is precious"
+            if mode == "short_answer":
+                m = re.match(r'^(\d+):\s*"(.+)"\s*$', stripped)
+                if m:
+                    node.setdefault("short_answer", {})[int(m.group(1))] = m.group(2)
                 continue
-
-        # Flush buffered FIB data
-        if fib_buf and current_node:
-            root[current_node].setdefault("fib", {}).update(fib_buf)
 
         return root
 
@@ -302,6 +269,8 @@ class ChemistrySolver:
                 feedback=f"Unknown section '{section}'. "
                          f"Use: fib, matching, true_false, mcq, short_answer.",
             )
+        if section == "true_false" and not isinstance(answer, bool):
+            answer = str(answer).strip().lower() in ("true", "t", "1", "yes")
         return checker(node_id, q_num, answer)
 
     # ── Individual checkers ────────────────────────────────────────────────────
@@ -569,3 +538,20 @@ if __name__ == "__main__":
     print(f"Q{args.q}   : answered '{args.answer}'")
     print(f"Correct  : {'YES ✓' if result.is_correct else 'NO ✗'}")
     print(f"Feedback : {result.feedback}")
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Check a c1 chem answer via ChemistrySolver.check."""
+    params = params or {}
+    s = ChemistrySolver(int(params.get("seed", 42)))
+    r = s.check(node_id or params.get("node_id", "c1_chem_001"),
+                params.get("section", ""),
+                int(params.get("q_num", params.get("q", 1))),
+                params.get("answer", params.get("user_answer", "")))
+    return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": str(r)})
+
+def check_answer(node_id: str = "", answer: str = "", **kw):
+    return solve(node_id, dict(kw, answer=answer))
+
+SOLVER_REGISTRY = {"c1_chem_check": solve}
+NODE_MAP = {"c1_chem_001": "c1_chem_check"}

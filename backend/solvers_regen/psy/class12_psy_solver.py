@@ -1855,6 +1855,47 @@ class QuestionGenerator:
 
 
 # ============================================================================
+# REGISTRY ADAPTER
+# ============================================================================
+
+def generate_questions(seed: int = 0, count: int = None,
+                       topic: str = None) -> List[Dict[str, Any]]:
+    """Registry adapter: deterministic questions for Class 12 Psychology solver.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    """
+    n = 1 if count is None else max(1, int(count))
+    generator = QuestionGenerator(seed=seed)
+    difficulties = ["easy", "medium", "hard"]
+    gens = [
+        generator.generate_statistics_question,
+        generator.generate_iq_question,
+        generator.generate_personality_question,
+        generator.generate_stress_question,
+        generator.generate_disorder_question,
+        generator.generate_defence_mechanism_question,
+        generator.generate_social_influence_question,
+        generator.generate_correlation_question,
+    ]
+    questions = []
+    for i in range(n):
+        gen_fn = gens[(seed + i) % len(gens)]
+        difficulty = difficulties[(seed + i) // 2 % len(difficulties)]
+        q = gen_fn(difficulty)
+        questions.append({
+            "id": f"psy12_{seed}_{i}",
+            "type": "numerical",
+            "difficulty": q.difficulty,
+            "topic": q.topic,
+            "question": q.question,
+            "answer": q.expected_answer,
+            "explanation": q.explanation,
+            "competency": q.competency_type == "competency_based",
+        })
+    return questions
+
+
+# ============================================================================
 # MAIN DEMONSTRATION
 # ============================================================================
 

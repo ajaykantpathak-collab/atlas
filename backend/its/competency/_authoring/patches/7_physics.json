@@ -1,0 +1,47 @@
+{
+ "c7_physics_ch02_004": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of connections for wiring three lemon cells so their voltages add up to light an LED.",
+    "a": "The series chain runs: (1) Place one copper and one zinc strip in each lemon (2) Join the copper strip of the first lemon to the zinc strip of the second (3) Join the copper of the second to the zinc of the third (4) Connect the two free ends, one copper and one zinc, to the LED terminals with correct polarity. A wrong answer that pairs like metals together shows the student does not understand that a battery adds cell voltages only when every cell pushes current in the same direction along the chain."
+   }
+  },
+  "appends": []
+ },
+ "c7_physics_ch02_007": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of assembly for a homemade paper-clip switch that opens and closes a torchlight circuit.",
+    "a": "Assembly proceeds: (1) Fix two drawing pins on a wooden stick a small gap apart (2) Pivot a metal paper clip under one pin so its free end can swing (3) Wire the two pins into the torchlight circuit gap (4) Swing the clip onto both pins to close and away to open. A wrong answer that lets the clip rest on only one pin shows the student does not understand that a switch works by making and breaking metal-to-metal contact between conducting parts of the circuit."
+   }
+  },
+  "appends": []
+ },
+ "c7_physics_ch03_009": {
+  "rewrites": {
+   "4": {
+    "q": "Trace the correct sequence from a raindrop landing on root-filled soil to the recharging of an aquifer.",
+    "a": "The seepage pathway runs: (1) Roots loosen the compacted surface soil (2) Microscopic channels raise the soil's porosity and permeability (3) Gravity pulls water downward through the open pore spaces (4) Percolated water reaches and recharges the underground aquifer. A wrong answer that treats plant roots as blockers that drink up all the water shows the student misunderstands how root structures improve infiltration and reduce surface run-off."
+   }
+  },
+  "appends": []
+ },
+ "c7_physics_ch04_001": {
+  "rewrites": {
+   "5": {
+    "q": "Give the correct sequence of effects showing why a water clock miscalibrates in freezing winter.",
+    "a": "The physics chain runs: (1) Cold raises the viscosity of water (2) Thicker water drips more slowly through the hole (3) The drip rate falls below its calibrated rate (4) The marked intervals no longer match true time. A wrong answer that calls temperature irrelevant shows the student ignores basic properties of matter and heat transfer that govern how fluids flow."
+   }
+  },
+  "appends": []
+ },
+ "c7_physics_ch04_003": {
+  "rewrites": {
+   "2": {
+    "q": "Trace the correct sequence from local timekeeping units to a single worldwide standard unit of time.",
+    "a": "The standardisation chain runs: (1) Traditional units like the ghati differ from region to region (2) Scientists need one common unit to share and compare measurements (3) The second is adopted as the SI base unit of time (4) Every speed and motion calculation worldwide uses the same consistent time unit. A wrong answer that claims traditional units serve science equally well shows the student has not understood why uniformity, consistency and unambiguous communication motivate the SI system."
+   }
+  },
+  "appends": []
+ }
+}

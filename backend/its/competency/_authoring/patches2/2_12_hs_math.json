@@ -1,0 +1,71 @@
+{
+ "c12_hs_cbse_01_010": {
+  "rewrites": {
+   "1": {
+    "a": "(1) Definition — entrepreneurship is the act of creating a new and innovative enterprise, product or service by changing the pattern of production or design through innovation or new technological methods, assembling resources and finance, and taking calculated risks to make a livelihood, (2) Self-employment — a plumber or a tutor works for oneself using existing skills without necessarily innovating or scaling a novel idea, (3) The difference — entrepreneurship stresses newness in product, process or market together with growth orientation, while self-employment may stay static and replicative. A student who equates entrepreneurship with any self-employment misses the required innovation and misclassifies traditional shopkeepers as entrepreneurs in case-study questions."
+   },
+   "4": {
+    "a": "(1) Commercial innovation — the fitness tracker innovates technologically, through new features, design or production method, to win market differentiation and profit, (2) Social innovation — Lijjat Papad keeps a traditional product and innovates organisationally, a cooperative model of collective ownership and home-based work that empowers women economically, (3) The contrast — commercial innovation targets profit maximisation while social innovation targets inclusion, dignity and systemic change, so the metric of success differs from profit to social impact, (4) The shared core — both assemble resources and take calculated risks. A student who says social entrepreneurship lacks innovation because the product is traditional misses that the innovation often lies in the business model and delivery."
+   },
+   "5": {
+    "a": "(1) Verdict — false according to the textbook, which treats the characteristics as competencies that can be acquired and honed as a person develops, (2) The life-skills link — they parallel the core life skills such as self-awareness and coping with stress, which cannot be taught as academic lessons yet are acquired through experience, (3) The evidence — a famous biotech founder began as a trainee brewer and learned her industry before building her company, and the chapter itself lists training facilities, skill development and the ability to acquire necessary skills among the characteristics, (4) The takeaway — entrepreneurship is a mindset developed experientially, not a fixed trait. Agreeing with the statement reflects a fixed-mindset misconception that board exams specifically test."
+   },
+   "6": {
+    "a": "(1) The underserved group — name a specific one, such as migrant construction workers' children who lack safe play and learning spaces, (2) The innovative solution — something beyond copying existing services, like a mobile learning van staffed by Home Science students and equipped with toys made from recycled material, (3) The livelihood link — train and employ local women as early-childhood facilitators so the venture creates income as it serves, (4) The characteristics — name two with justification, such as networking with builders for site access and coping with setbacks like monsoon disruptions, (5) The dual metrics — social outcomes such as children served and women employed alongside financial ones such as breaking even within a year through grants and nominal parent fees. A poor answer names a vague target group, copies an existing daycare, or reports only profit metrics."
+   }
+  },
+  "appends": []
+ },
+ "c12_hs_cbse_02_005": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation — rice bran oil for cooking, mustard oil for its alpha-linolenic acid, and flaxseed oil used cold in dressings, (3) Omega-3 sources — flaxseed powder daily, fatty fish twice a week for EPA and DHA, and walnuts as the snack, (4) The day's menu — oats with flaxseed powder and skim milk at breakfast, brown rice, dal, mustard-oil greens and fish curry at lunch, and multigrain roti with rajma and a flaxseed-oil salad at dinner. A poor answer prescribes generic low-fat eating without quantitative oil allocation, omega-3 specification or cooking method."
+   }
+  },
+  "appends": []
+ },
+ "c12_math_cbse_01_009": {
+  "rewrites": {
+   "6": {
+    "a": "(1) The investigation — checking the two-element tables shows that the symmetric ones, such as the exclusive-or, logical-and and equivalence tables, all pass the associativity check on every triple, (2) The realisation — on a two-element set every commutative binary operation is also associative, so no counterexample can be constructed there, (3) The correct claim — no such operation exists on the set containing only zero and one, and the smallest set admitting a commutative but non-associative operation has three elements, (4) The lesson — a single counterexample disproves a universal property, but the counterexample must actually exist. A student who asserts a table without verifying associativity for every triple produces a wrong example."
+   }
+  },
+  "appends": []
+ },
+ "c12_math_cbse_02_007": {
+  "rewrites": {
+   "5": {
+    "a": "(1) The verdict — on the restricted domain from minus one to one the answer of two tan-inverse x happens to be correct, but the method is flawed, (2) The flaw — the student replaced sin-inverse of sin of two theta by two theta without verifying that two theta lies inside the principal range of sin-inverse, (3) The lucky save — on this domain theta stays between minus pi by four and pi by four, so two theta does fall inside the principal range and the answer survives by accident, (4) The general rule — outside this domain the piecewise form uses pi minus two tan-inverse x for values above one and the negative counterpart below minus one, so skipping range verification only worked this time. A student who assumes sin-inverse of sin always returns the angle has a dangerous habit that fails on extended domains."
+   }
+  },
+  "appends": []
+ },
+ "c12_math_cbse_05_013": {
+  "rewrites": {
+   "4": {
+    "a": "(1) Rolle's theorem — when the endpoint values are equal, the function has an interior point where its derivative vanishes, (2) The generalisation — the Mean Value Theorem drops the equal-endpoint condition and finds a point where the derivative equals the chord's slope, the change in value divided by the change in x, (3) The auxiliary function — subtract from f the equation of the secant line, producing a new function whose values at both endpoints are zero, (4) The proof — the new function satisfies Rolle's conditions, so its derivative vanishes somewhere, and since that derivative is f's derivative minus the chord slope, f's derivative must equal the chord slope there. A student who omits the constant term or writes the wrong bracket has missed the geometric idea of subtracting the secant to equalise the endpoints."
+   }
+  },
+  "appends": []
+ },
+ "c12_math_cbse_06_006": {
+  "rewrites": {
+   "2": {
+    "a": "(1) Why it works — the tangent line approximates a curve only in a small neighbourhood, because the function is locally linear and the curve and its tangent become indistinguishable as the step shrinks, (2) The good case — for the square root near twenty-five, a step of one point three is about a five percent change, so the linear estimate stays accurate, (3) The bad case — approximating the square root of one hundred from twenty-five means a step of seventy-five, a three-hundred-percent change, and the curvature accumulates large error, (4) The rule — approximation error grows with the square of the step and higher-order terms, so the step must be small enough. A student who says the formula works for any step size applies it blindly, which is the classic trap."
+   }
+  },
+  "appends": []
+ },
+ "c12_math_cbse_11_004": {
+  "rewrites": {
+   "3": {
+    "q": "For the lines r = (i + 2j + 3k) + λ(i - j + k) and r = (2i - j - k) + μ(2i + j + 2k), work out the shortest distance between them, showing the cross product, the connector vector, and the final rationalised value.",
+    "a": "(1) Directions cross product — crossing the two direction vectors gives minus 3 i plus 3 k, whose magnitude is three root two, (2) The connector — subtracting the first point from the second gives i minus 3 j minus 4 k, (3) The numerator — the dot product of the cross product with the connector is minus 15, and taking the absolute value gives 15, (4) The distance — divide 15 by three root two to get five over root two, which rationalises to five root two by two units, (5) Sanity checks — the modulus bars are essential, and sign errors in the determinant cross product are the usual source of a wrong numerator. A negative result means the absolute value was dropped, not that distance can be negative."
+   },
+   "5": {
+    "a": "(1) The verdict — the claim is wrong, because distance is a scalar magnitude and can never be negative, (2) The formula's protection — the shortest-distance formula wraps the dot product in an absolute value, and only the signed projection inside it can be negative, depending on the orientation of the connecting vector relative to the cross product, (3) The student's error — forgetting the absolute value confuses a signed projection with a distance, a conceptual slip rather than a computational one, (4) The exam stakes — dropping the modulus costs a mark in board exams and appears as a negative-distance trap option in competitive tests. A student who defends negative distances has confused orientation with magnitude."
+   }
+  },
+  "appends": []
+ }
+}

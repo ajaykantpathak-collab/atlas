@@ -718,7 +718,7 @@ def problem_advertising_35():
     read_fact = 3
     read = int(circ * read_fact)
     ad_size_pct = 25
-    imp = int(read * ad_size / 100)
+    imp = int(read * ad_size_pct / 100)
     steps = [
         f"Circulation = {circ:,}",
         f"Readership factor = {read_fact}",
@@ -1523,17 +1523,7 @@ class StandardQuestionGenerator:
         "Public Relations": list(range(41, 51)),
         "Media Law & Ethics": list(range(51, 61)),
     }
-    SOLVERS = {
-        i: globals()[f"problem_{name.lower().replace(' & ', '_').replace(' ', '_').split('_')[0]}_{i}" if name == "Print Media" else
-             (globals()[f"problem_print_{i}"] if i <= 10 else
-              (globals()[f"problem_electronic_{i}"] if i <= 20 else
-               (globals()[f"problem_newmedia_{i}"] if i <= 30 else
-                (globals()[f"problem_advertising_{i}"] if i <= 40 else
-                 (globals()[f"problem_pr_{i}"] if i <= 50 else
-                  globals()[f"problem_law_{i}"])))))
-        for name in TOPICS for i in PROBLEMS[name]
-    }
-    # Use a direct mapping instead
+    # Use a direct mapping instead (built lazily in _get_solvers)
     _solvers = None
 
     @classmethod
@@ -1758,6 +1748,67 @@ class MassMediaSolver:
 
     def get_problem_count(self):
         return 60
+
+
+# ============================================================
+# REGISTRY ADAPTER
+# ============================================================
+
+def generate_questions(seed: int = 0, count: int = None,
+                       topic: str = None) -> list:
+    """Registry adapter: deterministic questions for Class 12 Mass Media.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    Mixes standard problems and competency case studies (~1 in 3 competency).
+    """
+    n = 1 if count is None else max(1, int(count))
+    rng = random.Random(seed if seed is not None else 0)
+    questions = []
+    for i in range(n):
+        if i % 3 == 2:
+            case = CompetencyQuestionGenerator.generate(
+                seed=seed * 1000 + i)
+            prompt = case.get("scenario", "")
+            qs = case.get("questions") or []
+            if qs:
+                first = qs[0]
+                if isinstance(first, dict):
+                    sub_q = first.get("question", "")
+                    sub_a = first.get("answer", "")
+                else:
+                    sub_q = str(first)
+                    sub_a = ""
+                prompt = f"{prompt}\n\nQ1: {sub_q}"
+                answer = sub_a or case.get("answer", "")
+            else:
+                answer = case.get("answer", "")
+            questions.append({
+                "id": f"massmedia_case_{seed}_{i}",
+                "type": "case_study",
+                "topic": case.get("topic", ""),
+                "question": prompt,
+                "answer": answer,
+                "explanation": case.get("solution", ""),
+                "competency": True,
+            })
+        else:
+            res = StandardQuestionGenerator.generate(seed=seed * 1000 + i)
+            questions.append({
+                "id": f"massmedia_std_{seed}_{i}",
+                "type": "numerical",
+                "topic": res.get("topic", ""),
+                "question": res.get("statement", ""),
+                "answer": res.get("answer", ""),
+                "explanation": " | ".join(res.get("steps", [])[:5]),
+                "competency": False,
+            })
+    if topic:
+        t = topic.lower()
+        filtered = [q for q in questions
+                    if t in q["topic"].lower() or t in q["question"].lower()]
+        if filtered:
+            return filtered
+    return questions
 
 
 # ============================================================

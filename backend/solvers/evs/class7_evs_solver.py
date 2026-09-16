@@ -1058,3 +1058,37 @@ class EVSClass7Solver:
 
     # ─────────────────────────────────────────────
     #   Question-sequence generator
+
+# -- solver contract --------------------------------------------
+# NOTE: EVSClass7Solver.__init__ calls _generate_question_sequence which was
+# truncated upstream — construct via __new__ and call _build_bank directly.
+def _mk_solver(seed=42):
+    s = EVSClass7Solver.__new__(EVSClass7Solver)
+    s.seed = seed
+    import random as _r
+    s.rng = _r.Random(seed)
+    s._question_bank = s._build_bank()
+    return s
+
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Serve/answer c7 EVS bank questions via _build_bank."""
+    params = params or {}
+    s = _mk_solver(params.get("seed", 42))
+    bank = s._question_bank
+    if not bank:
+        return {"error": "question bank empty"}
+    topic = params.get("topic") or next(iter(bank))
+    qs = bank.get(topic, [])
+    q = qs[int(params.get("q", 0)) % len(qs)] if qs else {}
+    if "user_answer" in params or "answer" in params:
+        ua = params.get("user_answer", params.get("answer"))
+        try:
+            ua = int(ua)
+        except (TypeError, ValueError):
+            pass
+        return {"topic": topic, "correct": ua == q.get("correct"),
+                "explanation": q.get("explanation")}
+    return {"topic": topic, "question": q}
+
+SOLVER_REGISTRY = {"c7_evs_solve": solve}
+NODE_MAP = {"c7_evs_001": "c7_evs_solve"}

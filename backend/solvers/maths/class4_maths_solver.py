@@ -340,3 +340,31 @@ if __name__ == "__main__":
     print()
     print("=== NODE 003 — Comparison ===")
     print(s.q3_comparison(345678, 298451))
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Answer c4 number-system questions via Class4MathSolver q* methods.
+    q1/q2 take a 6-digit number (100000-999999)."""
+    import inspect
+    params = params or {}
+    s = Class4MathSolver(params.get("seed", 42))
+    task = params.get("task", "q1_read_numeral")
+    fn = getattr(s, task if task.startswith("q") else "q1_read_numeral", None)
+    if fn is None:
+        return {"node_id": node_id, "error": "unknown task %s" % task}
+    # sane defaults: q1/q2 need n (6-digit), q3 need numbers/a,b
+    if "n" in inspect.signature(fn).parameters and "n" not in params:
+        params["n"] = 100000 + int(params.get("seed", 42)) % 900000
+    if "numbers" in inspect.signature(fn).parameters and "numbers" not in params:
+        params["numbers"] = [123456, 234567, 345678]
+    sig = inspect.signature(fn)
+    args = [params[p] for p in sig.parameters if p in params]
+    try:
+        r = fn(*args)
+    except TypeError as ex:
+        return {"node_id": node_id, "error": str(ex),
+                "hint": "q1/q2 need n (6-digit int); q3 needs numbers (list) or a,b"}
+    return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": r})
+
+SOLVER_REGISTRY = {"c4_math_solve": solve}
+NODE_MAP = {"c4_math_001": "c4_math_solve", "c4_math_002": "c4_math_solve", "c4_math_003": "c4_math_solve"}

@@ -581,7 +581,7 @@ _QUESTION_BANK: List[Dict[str, Any]] = [
         "topic": "The Union Parliament",
         "node": "CIV001",
         "question": "What is the maximum strength of the Lok Sabha (excluding the 2 Anglo-Indian members nominated by the President)?",
-        "options": ["A - 525", "B - 545", "C - 552", " "D - 543"],
+        "options": ["A - 525", "B - 545", "C - 552", "D - 543"],
         "answer": "C",
         "explanation": "The maximum strength of the Lok Sabha is 552, as per Article 81 of the Constitution. This includes: (1) 530 members from the states, (2) 20 members from Union Territories, and (3) 2 members of the Anglo-Indian community nominated by the President. However, after the 104th Constitutional Amendment Act 2020, the provision for Anglo-Indian nomination was abolished. Currently, the Lok Sabha has 543 elected members.",
         "competency": False,
@@ -1445,6 +1445,49 @@ class HistoryCivicsSolver:
             "questions": questions_out,
             "answer_key": answer_key,
         }
+
+
+# ======================================================================
+# REGISTRY ADAPTER
+# ======================================================================
+
+def generate_questions(seed: int = 0, count: int = None,
+                       topic: str = None) -> List[Dict[str, Any]]:
+    """Registry adapter: deterministic questions for Class 10 History & Civics.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    """
+    n = 1 if count is None else max(1, int(count))
+    rng = random.Random(make_seed("generate_questions", seed))
+    pool = [q for q in _QUESTION_BANK if not topic
+            or normalize(q.get("topic", "")) == normalize(topic)]
+    if not pool:
+        pool = list(_QUESTION_BANK)
+    questions = []
+    seen_ids = set()
+    attempts = 0
+    while len(questions) < n and attempts < n * 10:
+        attempts += 1
+        q = dict(rng.choice(pool))
+        if q["id"] in seen_ids:
+            continue
+        seen_ids.add(q["id"])
+        out = {
+            "id": q["id"],
+            "type": q.get("type", "mcq"),
+            "difficulty": q.get("difficulty", "Medium"),
+            "topic": q.get("topic", ""),
+            "question": q["question"],
+            "answer": q.get("answer", ""),
+            "explanation": q.get("explanation", ""),
+            "competency": q.get("competency", False),
+        }
+        if q.get("options"):
+            opts = list(q["options"])
+            random.Random(make_seed(seed, q["id"])).shuffle(opts)
+            out["options"] = opts
+        questions.append(out)
+    return questions
 
 
 # ======================================================================

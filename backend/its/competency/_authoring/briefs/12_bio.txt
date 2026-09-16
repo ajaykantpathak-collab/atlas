@@ -1,0 +1,143 @@
+
+### NODE c12_bio_cbse_03_008  class=12 sub=bio ch=3 verdict=PARTIAL action=REWRITE [2, 3]
+DEFINITION: Pregnancy is the physiological state in a female mammal beginning with the implantation of the blastocyst in the uterine endometrium and ending with parturition, during which the embryo and later the fetus develops inside the uterus. Embryonic development encompasses the sequential, highly regulated processes of cleavage, gastrulation, neurulation, and organogenesis that transform the zygote into a multicellular embryo with distinct germ layers and rudimentary organ systems by the end of the eighth week.
+WALKTHROUGH: Begin by asking the student to recall the journey of the zygote from the fallopian tube to the uterus — a journey they studied in the fertilization and implantation nodes. Then, have them observe a timeline diagram of human prenatal development (available in the NCERT textbook Fig. 3.11). Point out that the first two weeks are "pre-embryonic" (cleavage to blastocyst), weeks 3–8 are the embryonic period proper (gastrulation to organogenesis), and week 9 to birth is the fetal period. Connect this to their Class 9 knowledge (c9_bio_ch3_10) where they learned the trimesters. The key biological principle is that development is a continuous cascade of cell division, migration, differentiation, and induction, all orchestrated by genetic programs and maternal–fetal hormonal dialogue.
+D1 Q: What is the name of the solid ball of 16–32 cells formed by successive mitotic divisions of the zygote without an increase in overall size, and approximately when does it reach the uterus?
+D1 A: The structure is the morula; it typically reaches the uterus about 3–4 days after fertilization. A wrong answer (e.g., "blastocyst" or "gastrula") reveals confusion between the pre-implantation stages — the morula is solid and pre-cavitation, whereas the blastocyst has a fluid-filled blastocoel and an inner cell mass.
+D2 Q: Why does the corpus luteum persist and enlarge during early pregnancy instead of degenerating as it does in a non-pregnant menstrual cycle?
+D2 A: The syncytiotrophoblast of the implanting blastocyst secretes human chorionic gonadotropin (hCG), which mimics LH and rescues the corpus luteum from luteolysis. The corpus luteum continues to secrete progesterone and estradiol, maintaining the endometrium until the placenta takes over steroidogenesis (~week 8–10). A wrong answer (e.g., "progesterone from the pituitary") shows a failure to grasp the embryo's active si
+D3 Q: A pregnant woman at 6 weeks gestation experiences severe nausea and vomiting (hyperemesis gravidarum). Her serum hCG level is markedly elevated. Explain the physiological basis for the correlation between high hCG and nausea, and predict which hormone's rising levels will likely bring relief by the end of the first tri [IN-SCOPE-REWRITE]
+D3 A: hCG peaks around weeks 8–10 and shares structural similarity with TSH, potentially overstimulating the thyroid and the chemoreceptor trigger zone in the area postrema, contributing to nausea. As hCG declines, progesterone and estrogen from the placenta rise steadily; progesterone's smooth-muscle relaxant effect on the gastrointestinal tract and the establishment of placentation correlate with symptom resolution. A wr
+D4 Q: Compare and contrast the roles of the yolk sac and the allantois in early human embryonic development. Why is the human yolk sac non-nutritive despite being well-developed? [IN-SCOPE-REWRITE]
+D4 A: The yolk sac is the first site of hematopoiesis (blood island formation), produces primordial germ cells, and contributes to the gut tube; it is non-nutritive because placental nutrition is established early via the chorionic villi. The allantois emerges as an endodermal diverticulum from the yolk sac, expands into the connecting stalk, forms the umbilical vessels, and its proximal part becomes the urachus (later med
+D5 Q: Evaluate the statement: "The fetal liver is the primary site of erythropoiesis throughout pregnancy." Is this correct? Justify your answer with the correct sequence of hematopoietic sites.
+D5 A: The statement is incorrect. The sequence is: yolk sac (mesoblastic, weeks 3–8) → fetal liver (hepatic, weeks 6–30) → spleen and lymph nodes (weeks 9–28) → bone marrow (myeloid, from week 28 onward). The fetal liver is the *major* site during the second trimester, but bone marrow takes over in the third trimester and becomes the sole site after birth. A student who says "liver throughout" fails to recognize the develo
+D6 Q: Design a simple flowchart (text-based) that traces the origin of the three primary germ layers from the epiblast through gastrulation, and lists one major organ system derived from each layer. Include the key structure that initiates gastrulation.
+D6 A: Flowchart: 
+Epiblast → (cells migrate through primitive streak) → 
+- Endoderm (first layer to ingress) → Gut tube epithelium, liver, pancreas, lungs 
+- Mesoderm (middle layer) → Notochord, somites → muscle, bone, kidney, gonads, circulatory system 
+- Ectoderm (remaining epiblast) → Neural plate → CNS, PNS, epidermis, hair, nails 
+
+A poor answer that omits the primitive streak or lists "heart" under ectoderm reveals a
+
+VETTED-DIAG q3 (fit 0.50, src c12_bio_cfq_diagnostics.marker)
+  Q: The corpus luteum secretes:
+  A: B) Progesterone
+VETTED-DIAG q1 (fit 0.44, src c12_bio_cfq_diagnostics.marker)
+  Q: In double fertilization, the triploid (3n) structure formed is the:
+  A: B) Primary endosperm nucleus (PEN)
+VETTED-DIAG q14 (fit 0.33, src c12_bio_cfq_diagnostics.marker)
+  Q: The first organisms to appear on Earth were most likely:
+  A: B) Chemoautotrophs
+VETTED-MIS misconception_14 (fit 0.36)
+  M: The embryo and the foetus are the same thing at all stages of pregnancy.
+  C: Zygote -> morula -> blastocyst -> embryo (up to ~8 weeks) -> foetus (from ~9 weeks) -> newborn. The names mark distinct developmental stages.
+VETTED-MIS misconception_3 (fit 0.27)
+  M: Fertilization takes place inside the uterus.
+  C: Site of fertilization = fallopian tube (oviduct). Site of implantation and gestation = uterus.
+VETTED-MIS misconception_12 (fit 0.23)
+  M: Fertilisation happens in the uterus.
+  C: Site of fertilisation = fallopian tube. Site of implantation and development = uterus. Mixing these up confuses where life begins vs where it grows.
+### NODE c12_bio_cbse_06_006  class=12 sub=bio ch=6 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: The genetic code is the set of rules by which information encoded in mRNA sequences (codons, three-nucleotide units) is translated into amino acid sequences during protein synthesis; the wobble hypothesis explains how a single tRNA anticodon can recognize multiple codons due to flexible base pairing at the third (5') position of the anticodon.
+WALKTHROUGH: Imagine you receive a WhatsApp message written in a language where every word is exactly three letters long, there are no spaces, and the same word can mean slightly different things depending on context — that is essentially what the ribosome reads on mRNA. Begin by recalling that transcription (c12_bio_cbse_06_005) produces mRNA with a sequence of A, U, G, C. Next, observe that 4³ = 64 possible three-letter combinations (codons) must specify only 20 amino acids plus start/stop signals — this forces degeneracy. Then, use the standard codon table to translate a short mRNA fragment (e.g., AUG UUU UCU UAA) into Met-Phe-Ser-Stop. Finally, introduce Crick's wobble hypothesis: the third base of the codon (3' end) pairs loosely with the first base of the anticodon (5' end), allowing one tRNA to read multiple codons — this reduces the number of tRNAs needed and buffers against mutations.
+D1 Q: How many different codons exist in the standard genetic code, and how many of them code for amino acids (sense codons) versus signal termination (stop codons)?
+D1 A: There are 64 codons (4³). 61 are sense codons specifying amino acids; 3 (UAA, UAG, UGA) are stop codons. A wrong answer (e.g., 60 sense codons) reveals the student has not memorized the exact count or confuses start codon (AUG) as separate from sense codons — AUG codes for methionine AND signals start, so it is counted among the 61.
+D2 Q: The genetic code is described as "degenerate." Explain what this means and give a concrete example using the amino acid leucine.
+D2 A: Degeneracy means most amino acids are specified by more than one codon. Leucine has six codons: UUA, UUG, CUU, CUC, CUA, CUG. A wrong answer that says "degenerate means the code is broken" or "each codon codes for multiple amino acids" reveals confusion between degeneracy and ambiguity — the code is degenerate but not ambiguous (each codon specifies only one amino acid).
+D3 Q: A tRNA molecule has the anticodon 5'-IAG-3' (where I = inosine). Using Crick's wobble rules, list all mRNA codons this tRNA can recognize and the amino acid they specify.
+D3 A: Inosine at the 5' anticodon position (wobble position) pairs with U, C, or A at the 3' codon position. The anticodon 5'-IAG-3' reads codons 3'-AUC-5', 3'-AUU-5', 3'-AUA-5' (written 5'→3': CUA, UUA, AUA). These are all leucine codons (CUA, UUA) and isoleucine (AUA) — wait, AUA codes for isoleucine, not leucine. Actually, 5'-IAG-3' pairs with 3'-AUC-5' (CUA, Leu), 3'-AUU-5' (UUA, Leu), 3'-AUA-5' (AUA, Ile). But a singl
+D4 Q: Compare the genetic code properties "non-overlapping" and "comma-less." Are they synonymous? If not, give a hypothetical scenario where a code is non-overlapping but not comma-less.
+D4 A: They are distinct. Non-overlapping means each nucleotide belongs to only one codon (read in triplets consecutively). Comma-less means no punctuation (spacers) between codons; the reading frame is fixed by the start codon. A hypothetical code with a "spacer" nucleotide between each triplet (e.g., AUG X UUU X UCU) would be non-overlapping (each base still used once) but NOT comma-less (it has commas/spacers). A wrong a
+D5 Q: A point mutation changes the DNA template strand sequence from 3'-TAC-5' to 3'-TAA-5' in a gene's coding region. Predict the effect on the mRNA codon and the resulting protein, assuming this is not the start codon. Justify using genetic code properties.
+D5 A: Original DNA template 3'-TAC-5' → mRNA 5'-AUG-3' (Met). Mutated DNA template 3'-TAA-5' → mRNA 5'-AUU-3' (Ile). This is a missense mutation (Met → Ile). The code's degeneracy did not protect against this change because the mutation altered the second base (U→A in mRNA), which is highly specific. A wrong answer claiming "no effect because code is degenerate" shows misunderstanding that degeneracy mostly involves third-
+D6 Q: Design a minimal set of tRNA anticodons (using standard bases A, U, G, C and inosine I) that can translate all six leucine codons (UUA, UUG, CUU, CUC, CUA, CUG). Explain how wobble reduces the number of tRNAs needed compared to a strict Watson-Crick pairing model. [IN-SCOPE-REWRITE]
+D6 A: Leucine codons: UUA, UUG (both UUR), CUU, CUC, CUA, CUG (all CUN). With wobble: one tRNA with anticodon 5'-UAA-3' (reads UUA, UUG via U-A and U-G wobble at third base? Actually anticodon 5'-UAA-3' pairs with 3'-AUU-5' (UUA) and 3'-AUC-5' (UUG)? Wait, standard: tRNA^Leu with anticodon UAA reads UUA and UUG? Let's use known biology: tRNA^Leu with anticodon 5'-UAA-3' (modified) reads UUA and UUG. For CUN family: one tRN
+
+VETTED-DIAG q9 (fit 0.55, src c12_bio_cfq_diagnostics.marker)
+  Q: DNA replication is described as "semi-conservative" because:
+  A: B) Each new DNA molecule has one old strand and one new strand
+VETTED-DIAG q12 (fit 0.50, src c12_bio_cfq_diagnostics.marker)
+  Q: During translation, the process of bringing amino acids to the ribosome is done by:
+  A: B) tRNA
+VETTED-DIAG cfq_4_2 (fit 0.23, src c12_bio_diagnostics.marker)
+  Q: In a PCR, you use primers that are 20 nucleotides long and anneal at 55 C. After 30 cycles starting from a single double-stranded template, how many copies of the target double-stranded DNA are theoretically produced, and what is the role of the primers?
+  A: Theoretically, after n cycles the number of double-stranded target molecules = 2^n. Starting from 1 dsDNA, after 30 cycles: 2^30 = 1,073,741,824 dsDNA molecules. Primers provide a free 3'-OH group for DNA polymerase to extend and define the exact endpoints of the amplified region by annealing to opposite strands flanking the target.
+VETTED-MIS M3 (fit 0.42)
+  M: Students confuse codon and anticodon.
+  C: Codon = 3 nucleotides on mRNA (specifies amino acid). Anticodon = 3 nucleotides on tRNA (complementary to codon). Codon is read 5'->3', anticodon is 3'->5'.
+VETTED-MIS misconception_9 (fit 0.31)
+  M: Nucleotides are the monomers of proteins.
+  C: Amino acid -> protein. Nucleotide -> DNA / RNA. Each polymer has its own monomer type.
+VETTED-MIS misconception_13 (fit 0.23)
+  M: DNA is a protein because chromosomes are made of protein.
+  C: DNA is a nucleic acid, not a protein. Histone proteins package and regulate DNA, but the information-carrying molecule is DNA.
+### NODE c12_bio_cbse_06_007  class=12 sub=bio ch=6 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: Translation is the biological process where the genetic information encoded in messenger RNA (mRNA) is decoded by ribosomes to synthesize a specific polypeptide chain, using transfer RNA (tRNA) molecules as adaptors that match codons on mRNA with their corresponding amino acids.
+WALKTHROUGH: Imagine you order a custom protein shake at a gym café — you read the menu (mRNA), the barista (ribosome) assembles ingredients (amino acids) brought by specific containers (tRNA) in the exact order listed. Start by visualizing the ribosome as a two-subunit machine with three slots (A, P, E). Connect to prior node c12_bio_cbse_06_006: the genetic code tells which tRNA anticodon matches which mRNA codon. Walk through initiation (small subunit + mRNA + initiator tRNA), elongation (codon recognition → peptide bond formation → translocation), and termination (stop codon → release factor → subunit dissociation). The key principle: translation is a cyclic, energy-driven (GTP hydrolysis) molecular assembly line ensuring fidelity through codon-anticodon pairing and proofreading.
+D1 Q: What is the function of the Shine-Dalgarno sequence in prokaryotic translation initiation?
+D1 A: The Shine-Dalgarno sequence (AGGAGG) is a ribosome-binding site upstream of the start codon on prokaryotic mRNA that base-pairs with the 16S rRNA of the 30S ribosomal subunit to position the start codon (AUG) in the P site. A wrong answer (e.g., "it codes for methionine" or "it is the start codon") reveals confusion between the ribosomal binding site and the coding sequence, or between prokaryotic and eukaryotic init
+D2 Q: Why does the initiator tRNA in prokaryotes carry formyl-methionine (fMet) while in eukaryotes it carries unmodified methionine, even though both recognize AUG?
+D2 A: In prokaryotes, methionyl-tRNA is formylated by transformylase using N10-formyl-THF after aminoacylation, creating fMet-tRNA^fMet which is recognized by IF2 for initiation; in eukaryotes, Met-tRNA^iMet is directly recognized by eIF2. A wrong answer (e.g., "eukaryotes don't have formyl groups" or "fMet is only for elongation") shows lack of understanding of the distinct initiator tRNAs (tRNA^fMet vs tRNA^iMet) and the
+D3 Q: A mutation changes the anticodon of a tRNA^Lys from UUU to UCU. The mRNA codon for lysine is AAA. What amino acid will be incorporated at AAA codons in this mutant, and why?
+D3 A: The mutant tRNA^Lys with anticodon UCU will pair with AGA (not AAA) due to complementary base pairing (A-U, G-C, A-U). Since AGA codes for arginine, arginine will be incorporated at AGA codons. At AAA codons, the wild-type tRNA^Lys (anticodon UUU) or other near-cognate tRNAs may still function, but the mutant tRNA will NOT recognize AAA. A wrong answer (e.g., "lysine will still be inserted at AAA" or "the mutant tRNA
+D4 Q: Compare the energy cost (in high-energy phosphate bonds) of adding one amino acid during elongation in prokaryotes vs eukaryotes. Are they the same or different? Justify.
+D4 A: Both require 4 high-energy phosphate bonds per amino acid added: 1 for aminoacyl-tRNA synthetase (ATP → AMP + PPi, equivalent to 2 ATP), 1 for EF-Tu/eEF1A GTP hydrolysis during ternary complex binding, 1 for EF-G/eEF2 GTP hydrolysis during translocation, and 1 for peptide bond formation (catalyzed by peptidyl transferase, no direct GTP but energy from ester bond in peptidyl-tRNA). Total = 4. They are the same. A wron
+D5 Q: A researcher treats a eukaryotic cell-free translation system with a drug that prevents eIF2α phosphorylation. Under stress conditions (e.g., heat shock), how will global protein synthesis and stress-response protein synthesis (e.g., HSP70) be affected compared to untreated cells? [IN-SCOPE-REWRITE]
+D5 A: Preventing eIF2α phosphorylation blocks the integrated stress response (ISR). Normally, stress → eIF2α-P → inhibits eIF2B (GEF) → reduces ternary complex (eIF2-GTP-Met-tRNA^iMet) → global translation downregulation BUT selective translation of uORF-containing mRNAs like ATF4/HSP70. With the drug: global synthesis remains HIGH (no inhibition), but stress-response proteins like HSP70 are NOT selectively upregulated. A 
+D6 Q: Design a minimal in vitro translation system using purified components to synthesize a 10-amino acid peptide from a synthetic mRNA. List the absolute minimum components required and explain why each is essential.
+D6 A: Minimum components: (1) synthetic mRNA with start codon, 10 sense codons, stop codon; (2) 30S/40S and 50S/60S ribosomal subunits (or 70S/80S ribosomes); (3) all 20 amino acids; (4) complete set of tRNAs (or at least those for the 10 codons + initiator + stop); (5) aminoacyl-tRNA synthetases (or pre-charged tRNAs); (6) initiation factors (IF1, IF2, IF3 / eIFs); (7) elongation factors (EF-Tu, EF-Ts, EF-G / eEF1A, eEF1B
+
+VETTED-DIAG q12 (fit 0.75, src c12_bio_cfq_diagnostics.marker)
+  Q: During translation, the process of bringing amino acids to the ribosome is done by:
+  A: B) tRNA
+VETTED-DIAG q20 (fit 0.25, src c12_bio_cfq_diagnostics.marker)
+  Q: The "suicide bags" of the cell are:
+  A: B) Lysosomes
+VETTED-DIAG q22 (fit 0.22, src c12_bio_cfq_diagnostics.marker)
+  Q: According to the 10% law, if producers receive 10,000 kJ of energy, secondary consumers will receive approximately:
+  A: B) 100 kJ
+VETTED-MIS M1 (fit 0.27)
+  M: Students confuse transcription and translation.
+  C: Transcription: DNA -> mRNA (in nucleus). Translation: mRNA -> protein (on ribosomes in cytoplasm). Transcription first, then translation.
+VETTED-MIS M3 (fit 0.25)
+  M: Students confuse codon and anticodon.
+  C: Codon = 3 nucleotides on mRNA (specifies amino acid). Anticodon = 3 nucleotides on tRNA (complementary to codon). Codon is read 5'->3', anticodon is 3'->5'.
+VETTED-MIS misconception_8 (fit 0.17)
+  M: Lipids are polymers because they are large biological molecules.
+  C: Lipids are macromolecules (large) but generally not polymers because they are not built from a long chain of identical repeating monomers. They are aggregates or complexes of different small molecules.
+### NODE c12_bio_cbse_06_009  class=12 sub=bio ch=6 verdict=PARTIAL action=REWRITE [1]
+DEFINITION: The Human Genome Project (HGP) was an international scientific research project (1990–2003) with the primary goal of determining the complete sequence of nucleotide base pairs that make up human DNA and identifying and mapping all human genes from both a physical and functional standpoint.
+WALKTHROUGH: Think about how a doctor today can order a genetic test to check if you carry a mutation for thalassemia or breast cancer risk — that test exists because we have a reference human genome sequence. Begin by recalling that DNA is the genetic material (c12_bio_cbse_06_001) and has a double-helix structure (c12_bio_cbse_06_002). Observe that the human genome is ~3 billion base pairs long — far too large to sequence in one go. The key biological principle is that HGP used hierarchical cloning (BAC libraries) and shotgun sequencing, combined with computational assembly, to produce a draft (2001) and finished (2003) sequence. This reference genome now anchors all human genetic research.
+D1 Q: State the five primary goals of the Human Genome Project as defined at its inception in 1990.
+D1 A: The five goals were: (1) Identify all ~20,000–25,000 human genes; (2) Determine the sequence of the 3 billion base pairs in human DNA; (3) Store this information in databases; (4) Improve data analysis tools; (5) Address ethical, legal, and social issues (ELSI). A wrong answer that omits ELSI or databases reveals the student treats HGP as purely a sequencing exercise, missing its bioinformatics and societal dimension
+D2 Q: Explain why the BAC-to-BAC (hierarchical) sequencing strategy was chosen over whole-genome shotgun sequencing for the public HGP effort, despite being slower. [IN-SCOPE-REWRITE]
+D2 A: BAC-to-BAC used mapped bacterial artificial chromosome clones as anchors, ensuring each sequenced fragment had a known chromosomal location. This minimized misassembly in repetitive regions (centromeres, telomeres, segmental duplications) which constitute >50% of the genome. Whole-genome shotgun (used by Celera) assembles purely by sequence overlap and struggles with repeats. A wrong answer claiming "BAC was faster" 
+D3 Q: A researcher sequences a 150 kb human genomic region and finds it contains 4 genes, 3 pseudogenes, and 45% repetitive DNA. Using HGP-derived knowledge, predict the gene density (genes per Mb) of this region and state whether it is typical of gene-rich or gene-poor chromosomal bands.
+D3 A: Gene density = 4 genes / 0.15 Mb = 26.7 genes/Mb. The human genome average is ~10–15 genes/Mb, but gene-rich euchromatic bands (e.g., 19p13) reach 20–30 genes/Mb while gene-poor heterochromatic bands (e.g., 13q) have <3 genes/Mb. This region is gene-rich. A wrong answer giving 4 genes/Mb (forgetting to convert kb to Mb) or calling it gene-poor reveals unit-conversion error and lack of familiarity with HGP's finding t
+D4 Q: Compare the HGP finding that "less than 2% of the human genome codes for proteins" with the earlier estimate that humans have ~100,000 genes. Explain how alternative splicing reconciles the low gene count with proteomic complexity.
+D4 A: HGP revealed ~20,000 protein-coding genes, not 100,000. Alternative splicing allows a single gene to produce multiple mRNA isoforms by including/excluding exons. Over 90% of human multi-exon genes undergo alternative splicing, generating >100,000 distinct proteins from ~20,000 genes. A wrong answer stating "non-coding DNA is junk" or "each gene makes one protein" ignores the central HGP insight that regulatory comple
+D5 Q: Evaluate this claim: "The Human Genome Project is complete, so we now know the function of every human gene." Identify two specific gaps in functional annotation that remain.
+D5 A: The claim is false. Two major gaps: (1) ~30% of protein-coding genes still have "unknown" or "predicted" function (GO annotations: "molecular function unknown"); (2) Non-coding RNA genes (lncRNAs, miRNAs, circRNAs) discovered post-HGP remain largely uncharacterized functionally. The reference sequence is "finished" (high accuracy, few gaps), but functional annotation is ongoing (e.g., ENCODE, GTEx projects). A wrong 
+D6 Q: Design a stepwise strategy to identify the causal mutation for a rare autosomal recessive disorder in a consanguineous Indian family using HGP-derived resources. Specify the databases and tools you would use at each step.
+D6 A: Step 1: Perform whole-exome sequencing (WES) on affected siblings and parents. Step 2: Align reads to GRCh38 reference genome (NCBI/Ensembl) using BWA; call variants with GATK. Step 3: Filter for rare (gnomAD allele frequency <0.001), homozygous, protein-altering variants shared by affecteds. Step 4: Prioritize variants in genes expressed in relevant tissue (GTEx portal) and with known disease association (OMIM, Clin
+
+VETTED-DIAG q1 (fit 0.33, src c12_bio_cfq_diagnostics.marker)
+  Q: In double fertilization, the triploid (3n) structure formed is the:
+  A: B) Primary endosperm nucleus (PEN)
+VETTED-DIAG q17 (fit 0.29, src c12_bio_cfq_diagnostics.marker)
+  Q: Bt cotton is resistant to bollworms because it contains:
+  A: B) A gene from Bacillus thuringiensis
+VETTED-DIAG q9 (fit 0.27, src c12_bio_cfq_diagnostics.marker)
+  Q: DNA replication is described as "semi-conservative" because:
+  A: B) Each new DNA molecule has one old strand and one new strand
+VETTED-MIS misconception_3 (fit 0.22)
+  M: Each chromosome contains only one gene.
+  C: A gene is a small segment of DNA that codes for one polypeptide or functional RNA. One chromosome carries many genes, each occupying a specific position (locus). The 23 pairs of human chromosomes together carry roughly 20,000-25,000 genes.
+VETTED-MIS misconception_4 (fit 0.20)
+  M: DNA and gene are interchangeable words.
+  C: DNA is the full genetic material; a gene is a functional segment of that DNA. All genes are made of DNA, but not all DNA is made of genes — there are non-coding regions between and around genes.
+VETTED-MIS misconception_9 (fit 0.15)
+  M: Nucleotides are the monomers of proteins.
+  C: Amino acid -> protein. Nucleotide -> DNA / RNA. Each polymer has its own monomer type.

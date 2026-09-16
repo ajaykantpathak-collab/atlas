@@ -1387,3 +1387,30 @@ TOPICS = {
 }
 
 # return {"status": "ok", "note": "truncated"}
+
+
+# -- solver contract --------------------------------------------
+def _topics():
+    for name, val in globals().items():
+        if isinstance(val, dict) and val and all(isinstance(v, dict) for v in val.values()):
+            return val
+    return {}
+
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Serve a c12 political-science question (or its answer) from the bank."""
+    params = params or {}
+    bank = _topics()
+    if not bank:
+        return {"error": "topic bank empty"}
+    topic = params.get("topic") or next(iter(bank))
+    tdata = bank.get(topic, {})
+    items = tdata.get((params.get("kind") or "mcq") + "_pool") or         next((v for k, v in tdata.items() if k.endswith("_pool")), [])
+    item = items[int(params.get("q", 0)) % len(items)] if items else {}
+    if callable(item.get("compute")):
+        return {"topic": topic, "q": item.get("q"), "answer": item["compute"](),
+                "explanation": item.get("explanation"), "steps": item.get("steps")}
+    return {"topic": topic, "q": item.get("q"),
+            "answer": item.get("answer") or item.get("model_answer")}
+
+SOLVER_REGISTRY = {"c12_pol_solve": solve}
+NODE_MAP = {"c12_pol_001": "c12_pol_solve"}

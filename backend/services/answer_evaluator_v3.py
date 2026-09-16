@@ -22,10 +22,20 @@ Replaces the old keyword+MiniLM evaluator with a multi-tier pipeline:
     - If borderline → escalate to Tier 3
 
   Tier 3: LLM rubric grading (for borderline/complex cases)
-    - Rubric criteria extracted from marking scheme or model answer
+    - Rubric criteria: authored marking_steps (verbatim) > marking_scheme
+      > model answer
     - LLM judges each criterion as met/not-met
     - Score = weighted fraction of met criteria
     - Fallback to keyword matching if no LLM available
+
+  Grammar/mechanics dimension (free-text tiers only):
+    - Tier 3 with an LLM: the grader scores grammar/spelling/sentence
+      structure/technical vocabulary separately from the rubric marks
+    - All other free-text paths: a deterministic, conservative mechanics
+      pass (capitalization, doubled words, obvious missing punctuation)
+    - Zero-wrong: no fabricated issues — when there is no LLM assessment
+      and no mechanical signal, grammar_score stays None and the UI omits
+      the section
 
   Post-grading: Misconception matching
     - If answer is wrong, match against misconceptions DB
@@ -63,7 +73,11 @@ except ImportError:
     from backend.services.ner_extractor import NERExtractor
     from backend.services.interpreter_loop import InterpreterLoop
 from backend.services.cross_encoder_grader import CrossEncoderGrader
-from backend.services.rubric_generator import RubricGenerator, Rubric
+from backend.services.rubric_generator import (
+    RubricGenerator,
+    Rubric,
+    fetch_marking_steps,
+)
 from backend.services.llm_grader import LLMGrader
 
 
@@ -80,6 +94,19 @@ class EvaluationResultV3:
     nli_label: Optional[str] = None
     criteria_met: list = field(default_factory=list)
     criteria_missed: list = field(default_factory=list)
+    # Grammar/mechanics dimension (free-text tiers only).
+    #   grammar_score: 0-1, or None when there is NO reliable signal —
+    #     the UI must omit the grammar section entirely (zero-wrong rule:
+    #     never fabricate a grammar assessment).
+    #   grammar_notes: specific, kind, actionable notes ([] when none).
+    grammar_score: Optional[float] = None
+    grammar_notes: list = field(default_factory=list)
+    # Rubric shown to the review UI. criteria are exact texts (marking
+    # steps verbatim when the question has them), so the checklist can
+    # render criterion-by-criterion met/missed. Empty unless per-criterion
+    # verdicts exist (Tier 3) — statuses are never guessed.
+    rubric_criteria: list = field(default_factory=list)  # [{id, description, marks}]
+    rubric_source: Optional[str] = None  # "marking_steps" | "marking_scheme" | "model_answer"
     misconceptions: list = field(default_factory=list)
     error: Optional[str] = None
     latency_ms: float = 0.0
@@ -109,6 +136,9 @@ class AnswerEvaluatorV3:
         key_concepts: Optional[list] = None,
         options: Optional[list] = None,
         board: Optional[str] = None,
+        marking_steps: Optional[list] = None,
+        doc_id: Optional[int] = None,
+        qno: Optional[int] = None,
     ) -> EvaluationResultV3:
         """Evaluate a student answer using the 3-tier + 1b pipeline.
 
@@ -122,9 +152,16 @@ class AnswerEvaluatorV3:
             marking_scheme: Optional marking scheme text for rubric generation.
             key_concepts: Optional list of key concepts to check.
             options: For MCQ, the list of options.
+            marking_steps: Authored examiner marking-step texts for this
+                question — the TOP rubric source, used verbatim.
+            doc_id: Question-bank doc id; when marking_steps is not given,
+                steps are fetched for (doc_id, qno) via the ms_compiler
+                access pattern (defensive — [] on any failure).
+            qno: Question number within the doc (used with doc_id).
 
         Returns:
-            EvaluationResultV3 with marks, tier, strategy, and feedback.
+            EvaluationResultV3 with marks, tier, strategy, feedback, the
+            rubric used (exact criterion texts), and grammar fields.
         """
         import time
         start = time.time()
@@ -195,6 +232,7 @@ class AnswerEvaluatorV3:
                     confidence=confidence,
                     feedback=feedback,
                 )
+                self._apply_mechanics(result, student_answer)
                 result.latency_ms = (time.time() - start) * 1000
                 return result
 
@@ -226,13 +264,31 @@ class AnswerEvaluatorV3:
                 similarity_score=ce_result.score,
                 nli_label=ce_result.nli_label,
             )
+            self._apply_mechanics(result, student_answer)
             result.latency_ms = (time.time() - start) * 1000
             return result
 
         # ── Tier 3: LLM rubric grading ── #
 
-        # Generate rubric
-        if marking_scheme:
+        # Rubric source priority — authored examiner data outranks derived
+        # criteria: marking_steps (verbatim) > marking_scheme > model answer.
+        # When only (doc_id, qno) are known, fetch the authored steps from
+        # the question bank (defensive; [] keeps the normal priority).
+        if not marking_steps and doc_id is not None and qno is not None:
+            marking_steps = fetch_marking_steps(doc_id, qno)
+
+        # Sanity bound: a question-sized chain has at most about two steps
+        # per mark. Larger groupings (e.g. document-level qno=0 dumps) are
+        # not one question's scheme — fall through to the next source
+        # rather than present a bogus checklist.
+        if len(marking_steps or []) > max(2 * max_marks, 8):
+            marking_steps = None
+
+        if marking_steps:
+            rubric = self.rubric_generator.generate_from_marking_steps(
+                marking_steps, max_marks
+            )
+        elif marking_scheme:
             rubric = self.rubric_generator.generate_from_marking_scheme(
                 marking_scheme, max_marks
             )
@@ -259,13 +315,126 @@ class AnswerEvaluatorV3:
             feedback=feedback,
             criteria_met=llm_result.criteria_met,
             criteria_missed=llm_result.criteria_missed,
+            rubric_criteria=[
+                {
+                    "id": c.id,
+                    "description": c.description,
+                    "marks": c.marks,
+                }
+                for c in rubric.criteria
+            ],
+            rubric_source=rubric.source,
             error=llm_result.error,
         )
+
+        # Grammar dimension: prefer the LLM's separate assessment; when it
+        # is absent (keyword fallback or malformed) run the conservative
+        # deterministic mechanics pass instead. Both may legitimately leave
+        # grammar_score = None — the UI then omits the section.
+        llm_grammar = llm_result.grammar
+        if llm_result.model and llm_result.model != "keyword_fallback" and llm_grammar:
+            result.grammar_score = llm_grammar.get("score")
+            result.grammar_notes = list(llm_grammar.get("notes") or [])
+        else:
+            self._apply_mechanics(result, student_answer)
+
         result.latency_ms = (time.time() - start) * 1000
         if board:
             result.board = board
             result.feedback = self._apply_board_feedback(board, result)
         return result
+
+    # ── Grammar / mechanics tier ──────────────────────────────────── #
+    # Deterministic, conservative mechanics pass for non-LLM paths.
+    # Only unambiguous mechanical signals are reported; nothing is
+    # inferred beyond them. When no signal is found, grammar_score stays
+    # None — absence of detected errors is NOT proof of good grammar, so
+    # the UI omits the section instead of awarding a hollow score.
+
+    # Legitimately doubled words ("that that", "had had") — never flagged.
+    _DOUBLED_OK = {"that", "had", "very"}
+    # Abbreviations after which a lowercase sentence start is normal.
+    _SENT_ABBREV = {"e.g", "i.e", "etc", "vs", "approx", "fig", "eq", "no",
+                    "dr", "mr", "mrs", "ms", "st", "vol", "ch", "pg", "p", "pp"}
+    # Max one note per category — specific and kind, never a wall of nitpicks.
+    _MAX_NOTES_PER_CATEGORY = 1
+
+    @classmethod
+    def _mechanics_check(cls, text: str):
+        """Conservative mechanics pass over a free-text answer.
+
+        Returns (score, notes): score is 0-1 when notes exist, else None.
+        """
+        if not text or not text.strip():
+            return None, []
+        words = text.split()
+        if len(words) < 6:
+            return None, []  # too short to judge mechanically (e.g. "42 cm")
+
+        notes: list = []
+        seen_categories: set = set()
+
+        def add(category: str, note: str) -> None:
+            if category in seen_categories:
+                return
+            seen_categories.add(category)
+            notes.append(note)
+
+        # 1. Doubled words ("the the") minus a legitimate-doubles allowlist
+        for m in re.finditer(r"\b([A-Za-z]{2,})\s+\1\b", text):
+            if m.group(1).lower() not in cls._DOUBLED_OK:
+                add("doubled_word",
+                    f"Doubled word: \u201c{m.group(0)}\u201d — remove the repeat.")
+
+        # 2. Standalone lowercase "i" (pronoun), never "i = ..." (math symbol)
+        for m in re.finditer(r"(?<![A-Za-z0-9_'.])i(?![A-Za-z0-9_'=])", text):
+            add("capital_i", "The pronoun \u201cI\u201d should be a capital letter.")
+
+        # 3. Sentence start not capitalised (skip abbreviations and initials)
+        for m in re.finditer(r"(?<=[.!?])(\s+)([a-z])", text):
+            before = text[:m.start()].rstrip()
+            last_word = re.split(r"[\s(\u201c\"]", before)[-1] if before else ""
+            stem = last_word.lower().rstrip(".")
+            if stem in cls._SENT_ABBREV or len(stem) == 0 or len(stem) == 1:
+                continue
+            add("sentence_cap",
+                f"A sentence starts with \u201c{m.group(2)}\u2026\u201d — "
+                "begin it with a capital letter.")
+            break
+
+        # 4. Missing space after comma ("word,word")
+        if re.search(r"\w,\w", text):
+            add("comma_space",
+                "Add a space after commas (e.g. \u201cfirst,second\u201d \u2192 \u201cfirst, second\u201d).")
+
+        # 5. Missing space between sentences ("end.Next")
+        if re.search(r"(?<=[a-z])\.(?=[A-Z][a-z])", text):
+            add("stop_space",
+                "Add a space after full stops between sentences.")
+
+        # 6. Doubled commas (doubled dots are risky — ellipsis — so skipped)
+        if re.search(r",\s*,", text):
+            add("double_comma", "Remove the repeated comma (\",,\").")
+
+        # 7. Punctuated prose that forgets its final full stop
+        stripped = text.rstrip()
+        if (len(re.findall(r"[.!?]", text)) >= 1 and stripped
+                and stripped[-1] not in ".!?\"'):\u201d"):
+            add("final_stop", "End the final sentence with a full stop.")
+
+        if not notes:
+            return None, []
+        # Small, transparent deduction per note, clamped so the score
+        # never claims certainty it does not have.
+        score = max(0.3, 1.0 - 0.2 * len(notes))
+        return score, notes
+
+    def _apply_mechanics(self, result: EvaluationResultV3, student_answer: str) -> None:
+        """Attach mechanical grammar signal to a result, if any was found."""
+        score, notes = self._mechanics_check(student_answer)
+        if notes:
+            result.grammar_score = score
+            result.grammar_notes = notes
 
     # ── Board-aware feedback ──────────────────────────────────────── #
 

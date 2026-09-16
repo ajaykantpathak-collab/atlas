@@ -1,0 +1,60 @@
+
+### NODE c11_stat_cbse_06_001  class=11 sub=stat ch=6 verdict=PARTIAL action=REWRITE [1]
+DEFINITION: Measures of dispersion quantify the extent to which individual data points in a distribution deviate from a central value (mean, median, or mode), describing the spread, variability, or scatter of the dataset around its average.
+WALKTHROUGH: Imagine two Class 11 sections, Section A and Section B, both have an average (mean) score of 75 in Statistics. Section A has scores clustered tightly: 73, 74, 75, 76, 77. Section B has extreme variation: 40, 60, 75, 90, 110. The mean is identical, but would you say both sections performed similarly? A teacher planning remedial classes needs to know the spread, not just the average. This is where measures of dispersion enter — they answer "how far are the values from the centre?" We begin by recognising that central tendency gives a single representative value, but dispersion reveals the reliability of that representative value. The key insight: two distributions with the same mean can have completely different structures, and dispersion measures capture this difference.
+D1 Q: Define "measure of dispersion" in your own words and state its primary purpose in statistical analysis.
+D1 A: A measure of dispersion is a statistical tool that quantifies the spread or variability of data points around a central value (mean, median, or mode). Its primary purpose is to describe how much the data deviates from the average, indicating the reliability of the central tendency and the heterogeneity of the dataset. A WRONG answer (e.g., "it finds the average" or "it measures central tendency") reveals the student 
+D2 Q: Two cricket batsmen, Rohit and Virat, both have a batting average of 50 runs over 10 innings. Rohit's scores: 48, 49, 50, 51, 52, 48, 49, 50, 51, 52. Virat's scores: 0, 0, 0, 0, 100, 100, 100, 100, 50, 50. Explain why their averages are misleading as sole performance indicators and what additional information dispersio [IN-SCOPE-REWRITE]
+D2 A: The average of 50 is misleading because it suggests consistent performance for both, but Rohit is highly consistent (scores tightly clustered around 50) while Virat is extremely volatile (alternating between failure and century). Dispersion measures would quantify this: Rohit has low dispersion (high reliability), Virat has high dispersion (unpredictable performance). A WRONG answer (e.g., "both are equally good beca
+D3 Q: A factory produces 1000 bolts daily. The target length is 5.00 cm. The quality control manager only checks the mean length of a sample of 50 bolts each day. On Day 1, mean = 5.00 cm. On Day 2, mean = 5.00 cm. The manager declares both days "perfect." Why is this conclusion statistically flawed? What dispersion measure 
+D3 A: The conclusion is flawed because the mean alone hides variation: Day 1 could have all bolts at 5.00 ± 0.01 cm (excellent), while Day 2 could have half at 4.80 cm and half at 5.20 cm (unacceptable for precision machinery) — both yield mean 5.00 cm. I would recommend standard deviation (or range for quick check) because it quantifies the typical deviation from target. A WRONG answer (e.g., "mean is enough if it matches
+D4 Q: Compare the following two income distributions in two villages (incomes in ₹ lakhs/year):
+Village X: 2, 2.1, 2.2, 2.3, 2.4
+Village Y: 0.5, 1.0, 2.3, 4.0, 7.2
+Both have mean = 2.2. Analyse which village has greater income inequality and explain how dispersion measures would capture this difference better than the mean. 
+D4 A: Village Y has far greater inequality: incomes range from 0.5 to 7.2 (spread 6.7) vs Village X's 2.0 to 2.4 (spread 0.4). Absolute measures (range, standard deviation) would show Village Y's larger absolute spread. However, relative measures (coefficient of variation) are more meaningful for comparison because they express dispersion as a percentage of the mean, allowing comparison across different scales — though her
+D5 Q: A government policy uses "average household income" to allocate funds to districts. District A has mean income ₹50,000 with low dispersion. District B has mean income ₹50,000 with very high dispersion (few ultra-rich, many poor). Evaluate whether using only the mean for fund allocation is fair or effective. Justify you
+D5 A: Using only the mean is neither fair nor effective. District B's high dispersion means the mean is not representative — the "average" household doesn't exist; most are far below ₹50,000 while a few are far above. Funds allocated based on mean would inadequately support District B's poor majority. Dispersion measures (e.g., Gini coefficient, coefficient of variation, or percentile ratios) would reveal the true need. A 
+D6 Q: Create a real-world scenario (Indian context) where two datasets have identical mean, median, and mode but completely different dispersions. Describe the scenario, give sample data for both datasets (minimum 7 values each), and explain why a decision-maker would reach a wrong conclusion if they only looked at central t
+D6 A: Scenario: Two government hospitals, Hospital A and Hospital B, both report "average patient waiting time = 30 minutes."
+Hospital A (consistent): 28, 29, 30, 30, 30, 31, 32 minutes. Mean=30, Median=30, Mode=30.
+Hospital B (erratic): 5, 10, 15, 30, 45, 55, 65 minutes. Mean=30, Median=30, Mode=30 (no mode, but median=30).
+A patient choosing based on "average 30 minutes" would expect similar experience at both. In realit
+
+### NODE c11_stat_cbse_08_007  class=11 sub=stat ch=8 verdict=MISSING action=APPEND 3 from idx 7
+DEFINITION: Fisher's Ideal Index Number is a weighted price index calculated as the geometric mean of Laspeyres' and Paasche's price indices, expressed as \( P_{01} = \sqrt{P_L \times P_P} \times 100 \), where \( P_L = \frac{\sum p_1 q_0}{\sum p_0 q_0} \) uses base-year quantities as weights and \( P_P = \frac{\sum p_1 q_1}{\sum p_0 q_1} \) uses current-year quantities as weights. It is called "ideal" because it satisfies both the Time Reversal Test (\( P_{01} \times P_{10} = 1 \)) and the Factor Reversal Test (\( P_{01} \times Q_{01} = \frac{\sum p_1 q_1}{\sum p_0 q_0} \)), making it theoretically superior to Laspeyres and Paasche indices alone.
+WALKTHROUGH: Imagine you are a market analyst comparing rice prices between 2020 and 2024. You calculate Laspeyres index using 2020 quantities (giving 125) and Paasche index using 2024 quantities (giving 115). Which one is "correct"? Neither — Laspeyres overstates inflation by ignoring consumers switching to cheaper alternatives, while Paasche understates it by using current consumption patterns. Fisher's insight: take the geometric mean of both! Start by computing Laspeyres and Paasche separately, then multiply them and take the square root. This single number balances both perspectives and passes rigorous mathematical tests that neither index passes alone — that's why Fisher called it "ideal."
+D1 Q: Write the formula for Fisher's Ideal Price Index using summation notation with \( p_0, p_1, q_0, q_1 \) and explain what each symbol represents.
+D1 A: Correct answer: Fisher's Ideal Price Index \( P_{01} = \sqrt{ \frac{\sum p_1 q_0}{\sum p_0 q_0} \times \frac{\sum p_1 q_1}{\sum p_0 q_1} } \times 100 \). Here \( p_0 \) = base year price, \( p_1 \) = current year price, \( q_0 \) = base year quantity, \( q_1 \) = current year quantity. The first fraction is Laspeyres index, the second is Paasche index.
+
+What a wrong answer reveals: If a student writes arithmetic mean
+D2 Q: A student calculates Laspeyres index as 130 and Paasche index as 110 for the same data. They claim Fisher's index is 120 because "it's the average of the two." Is this correct? Explain why or why not.
+D2 A: Correct answer: No, this is incorrect. Fisher's index is the geometric mean, not the arithmetic mean. \( P_F = \sqrt{130 \times 110} = \sqrt{14300} \approx 119.58 \), not \( \frac{130+110}{2} = 120 \). The geometric mean is always less than or equal to the arithmetic mean (AM ≥ GM), so Fisher's index will always lie between Laspeyres and Paasche but closer to the smaller one.
+
+What a wrong answer reveals: If the stud
+D3 Q: Given the following data for wheat and rice, compute Fisher's Ideal Price Index for 2024 with base year 2020:
+
+| Commodity | \( p_0 \) (₹/kg) | \( q_0 \) (kg) | \( p_1 \) (₹/kg) | \( q_1 \) (kg) |
+|-----------|------------------|----------------|------------------|----------------|
+| Wheat | 20 | 100 | 25 | 80 |
+| Rice
+D3 A: Correct answer with steps:
+1. Compute \( \sum p_0 q_0 = (20 \times 100) + (30 \times 50) = 2000 + 1500 = 3500 \)
+2. Compute \( \sum p_1 q_0 = (25 \times 100) + (35 \times 50) = 2500 + 1750 = 4250 \)
+3. Compute \( \sum p_0 q_1 = (20 \times 80) + (30 \times 60) = 1600 + 1800 = 3400 \)
+4. Compute \( \sum p_1 q_1 = (25 \times 80) + (35 \times 60) = 2000 + 2100 = 4100 \)
+5. Laspeyres \( P_L = \frac{4250}{3500} \times 100 
+D4 Q: Compare Fisher's Ideal Index with Laspeyres and Paasche indices on these three criteria: (a) weights used, (b) Time Reversal Test, (c) Factor Reversal Test. Which index satisfies both reversal tests?
+D4 A: Correct answer:
+| Criterion | Laspeyres | Paasche | Fisher |
+|-----------|-----------|---------|--------|
+| (a) Weights | Base year quantities (\( q_0 \)) only | Current year quantities (\( q_1 \)) only | Both \( q_0 \) and \( q_1 \) (via geometric mean) |
+| (b) Time Reversal Test | Fails (\( P_{01} \times P_{10} \neq 1 \)) | Fails (\( P_{01} \times P_{10} \neq 1 \)) | Passes (\( P_{01} \times P_{10} = 1 \)) |
+| (c) 
+D5 Q: "Fisher's Ideal Index is the best index number because it satisfies both Time Reversal and Factor Reversal Tests." Evaluate this statement. Are there any practical limitations that might make other indices preferable in real-world applications?
+D5 A: Correct answer with justification: The statement is theoretically correct but practically limited. Fisher is "ideal" in a mathematical sense — it satisfies both reversal tests, uses both base and current year weights, and lies between Laspeyres and Paasche. However, practical limitations include: (1) Data requirement — needs current-year quantities (\( q_1 \)), which are often unavailable or delayed (e.g., national a
+D6 Q: Create a new numerical problem (with your own data for 2 commodities, 2 years) where Laspeyres index > Paasche index, and compute Fisher's Ideal Index. Then construct a second problem where Paasche > Laspeyres. Explain what economic situation each pattern reflects.
+D6 A: Expected answer criteria:
+- Problem 1 (Laspeyres > Paasche): e.g., Commodity A: \( p_0=10, q_0=100, p_1=15, q_1=50 \); Commodity B: \( p_0=20, q_0=50, p_1=22, q_1=60 \). Here price rise is larger for A, and consumers reduce A's consumption significantly (\( q_1 < q_0 \)) — substitution away from the good whose price rose most. Laspeyres (using \( q_0 \)) overweights the expensive good → higher index.
+- Problem 2 (Paa
+(append 3 new diagnostics as D7..)

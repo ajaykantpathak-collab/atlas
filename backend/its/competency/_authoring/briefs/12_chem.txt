@@ -1,0 +1,229 @@
+
+### NODE c12_chem_cbse_01_001  class=12 sub=chem ch=1 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A solution is a homogeneous mixture of two or more chemically non-reacting substances whose composition can be varied within certain limits. Based on the physical states of solute and solvent, binary solutions are classified into nine types: gaseous solutions (gas in gas, liquid in gas, solid in gas), liquid solutions (gas in liquid, liquid in liquid, solid in liquid), and solid solutions (gas in solid, liquid in solid, solid in solid). The component present in larger amount is the solvent and determines the physical state of the solution; the other component(s) is the solute.
+WALKTHROUGH: Look around your kitchen: air (gas in gas), soda water (gas in liquid), brass utensil (solid in solid), dental amalgam (liquid in solid). All are solutions but in different physical states. Recall from Class 9 (c9_chem_ch1_1) that mixtures can be homogeneous (solutions) or heterogeneous. Now we categorise homogeneous mixtures by the states of solute and solvent. Start by identifying the solvent — the component in excess that sets the solution's state. Then place the solute-solvent pair into the 3×3 grid (gas/liquid/solid × gas/liquid/solid). Notice that solid solutions like alloys are technologically crucial (steel, brass), while gas-in-liquid solutions like oxygen in water sustain aquatic life. This classification underpins all subsequent quantitative work.
+D1 Q: Name the type of solution formed when oxygen gas dissolves in water. Identify the solute and solvent.
+D1 A: Correct answer: Liquid solution — gas in liquid. Solute: oxygen (gas); Solvent: water (liquid). A wrong answer (e.g., "gas in gas" or swapping solute/solvent) reveals the student cannot map a real example to the 3×3 classification grid and confuses which component determines the physical state.
+D2 Q: Why is a mixture of hydrogen gas in palladium metal classified as a solid solution and not a liquid solution? Explain using the definition of solvent.
+D2 A: Correct answer: Palladium is the solvent (present in larger amount) and is a solid, so the solution's physical state is solid. Hydrogen is the solute (gas). A wrong answer (e.g., "because hydrogen is a gas") shows the student thinks the solute's state decides the solution type, violating the definition that solvent determines the physical state.
+D3 Q: A dentist uses an amalgam of mercury (liquid) and silver (solid) for fillings. Classify this solution, identify solute and solvent, and state the physical state of the resulting solution.
+D3 A: Correct answer: Solid solution — liquid in solid. Solute: mercury (liquid); Solvent: silver (solid); Physical state: solid. Steps: (1) Recognise amalgam is a solid solution. (2) Mercury is the minor component (solute), silver is the major component (solvent). (3) Solvent is solid → solution is solid. A wrong classification (e.g., "liquid solution") indicates the student cannot apply the solvent-dominance rule to a fa
+D4 Q: Compare the three gaseous solutions in Table 1.1 (gas in gas, liquid in gas, solid in gas). What common feature allows all three to be homogeneous mixtures despite different solute states?
+D4 A: Correct answer: In all three, the solvent is a gas. Gas molecules have large inter-particle spaces and weak intermolecular forces (recall Class 11 kinetic theory, c11_chem_cbse_05_009), allowing solute particles (gas, liquid, or solid) to disperse uniformly at molecular level. A wrong answer focusing only on "all are gases" misses the key role of the gaseous solvent's properties in achieving homogeneity.
+D5 Q: A student claims: "Brass (copper + zinc) is a liquid solution because both metals melt at high temperatures." Evaluate this statement and correct the error.
+D5 A: Correct evaluation: False. Brass is a solid solution (solid in solid) at room temperature. The physical state of a solution is determined by the state of the solvent at the given temperature, not by melting points. Copper is the solvent (major component), zinc is the solute; both are solids at room temperature → solid solution. The error reveals confusion between the solution's state at a specific temperature and the
+D6 Q: Design a simple home experiment to demonstrate that air is a gaseous solution (gas in gas). List materials, procedure, and how you would prove homogeneity. [IN-SCOPE-REWRITE]
+D6 A: Expected answer: Materials: incense stick, matchbox, room with still air. Procedure: Light incense stick in one corner; observe fragrance spreading uniformly throughout the room within minutes. Homogeneity proof: Fragrance (solute gas) mixes uniformly with air (solvent gas) without separation, showing single-phase homogeneous mixture. A poor answer (e.g., "mix two gases in a jar") lacks a practical demonstration of h
+
+VETTED-DIAG C12_ORIG_Q2 (fit 0.25, src c12_cfq_mcq.marker)
+  Q: For an ideal solution: (a) DeltaHmix = 0, DeltaVmix = 0 (b) DeltaHmix > 0, DeltaVmix > 0 (c) DeltaHmix < 0, DeltaVmix < 0 (d) DeltaHmix ~= 0, DeltaVmix = 0
+  A: (a) DeltaHmix = 0, DeltaVmix = 0
+VETTED-DIAG C12_ORIG_Q16 (fit 0.25, src c12_cfq_mcq.marker)
+  Q: Which amine is most basic in aqueous solution? (a) NH3 (b) CH3NH2 (c) (CH3)2NH (d) (CH3)3N
+  A: (c) (CH3)2NH
+VETTED-DIAG C12_ORIG_MCQ_31 (fit 0.25, src c12_cfq_mcq.marker)
+  Q: Henry's law states that the solubility of a gas in a liquid is: (a) directly proportional to pressure (b) inversely proportional to pressure (c) directly proportional to temperature (d) independent of pressure
+  A: (a) directly proportional to pressure
+VETTED-MIS misconception_11 (fit 0.70)
+  M: The solute is always a solid and the solvent is always a liquid.
+  C: A solution is a homogeneous mixture of two or more substances. The component present in the larger amount is usually called the solvent, and the others are solutes, regardless of their physical state.
+VETTED-MIS M10 (fit 0.50)
+  M: Ice and water are different substances
+  C: Ice and water are the SAME substance (H2O) in different states. Ice = solid water, water = liquid, steam = gas.
+VETTED-MIS misconception_3 (fit 0.36)
+  M: All non-metals are gases.
+  C: Non-metals can be solid (sulphur, carbon), liquid (bromine), or gas (oxygen, nitrogen).
+### NODE c12_chem_cbse_01_002  class=12 sub=chem ch=1 verdict=PARTIAL action=REWRITE [1]
+DEFINITION: Solubility is the maximum amount of solute (in grams or moles) that can dissolve in a specified amount of solvent (typically 100 g or 1 kg) at a given temperature and pressure to form a saturated solution under dynamic equilibrium between dissolution and crystallisation. For solids in liquids, solubility depends primarily on temperature and the chemical nature of solute-solvent (like dissolves like); for gases in liquids, it is governed by Henry's law (p = KH x) where solubility is directly proportional to the partial pressure of the gas above the solution.
+WALKTHROUGH: Begin with a kitchen observation: sugar dissolves rapidly in hot tea but barely in ice-cold water, while a soda bottle fizzes violently when opened warm but stays calm when chilled. Ask students why temperature helps solids but hurts gases. Connect to Class 9 (c9_chem_ch1_3) where they learned "like dissolves like" — now deepen it: polar solutes (NaCl) need polar solvents (water) for ion-dipole interactions; non-polar solutes (naphthalene) need non-polar solvents (benzene) for London forces. Introduce dynamic equilibrium: dissolution ⇌ crystallisation. For solids, use Le Chatelier's principle — if dissolution is endothermic (most solids), heat is a reactant, so raising temperature shifts equilibrium right → higher solubility. For gases, dissolution is exothermic (gas molecules lose kinetic energy entering liquid), so raising temperature shifts equilibrium left → lower solubility. Pressure affects gases dramatically (Henry's law) because compressing gas increases concentration at interface; solids/liquids are incompressible. Work through Henry's law calculations (Example 1.4 from NCERT). End with applications: CO2 in soft drinks (high pressure sealing), scuba divers' bends (N2 bubbles on depressurisation), anoxia at high altitude (low pO2).
+D1 Q: A student claims: "Since pressure increases gas solubility, it should also increase the solubility of salt in water because both involve dissolving." Is this statement correct? Explain why or why not in 2-3 sentences.
+D1 A: The statement is incorrect. Pressure has negligible effect on solubility of solids in liquids because solids and liquids are highly incompressible — their molar volumes change insignificantly under pressure. In contrast, gases are highly compressible; increasing pressure increases the concentration of gas molecules at the gas-liquid interface, driving more dissolution until a new equilibrium is established (Henry's l
+D2 Q: The dissolution of ammonium nitrate (NH4NO3) in water is endothermic (ΔsolH > 0). A saturated solution of NH4NO3 at 30°C is heated to 50°C. Will the solution become unsaturated, remain saturated, or become supersaturated? Justify using Le Chatelier's principle. [IN-SCOPE-REWRITE]
+D2 A: The solution will become unsaturated. Since dissolution is endothermic, heat acts as a reactant: NH4NO3(s) + heat ⇌ NH4NO3(aq). Raising temperature adds heat, shifting equilibrium to the right (forward dissolution), increasing solubility. The previously saturated solution can now dissolve more solid, so it becomes unsaturated relative to the new higher solubility at 50°C. A common error is to think heating always mak
+D3 Q: At 298 K, Henry's law constant (KH) for O2 in water is 34.86 kbar. Calculate the mole fraction of O2 dissolved in water when the partial pressure of O2 above the solution is 0.21 bar (approximate atmospheric pO2). Then calculate the molar concentration of dissolved O2 assuming 1 L of water ≈ 55.5 mol.
+D3 A: Step 1: Henry's law: p = KH × x → x = p/KH = 0.21 bar / 34,860 bar = 6.02 × 10⁻⁶.
+Step 2: Mole fraction x = nO2 / (nO2 + nH2O) ≈ nO2 / nH2O (since nO2 ≪ nH2O).
+Step 3: nO2 = x × nH2O = 6.02 × 10⁻⁶ × 55.5 mol = 3.34 × 10⁻⁴ mol.
+Step 4: Molar concentration = nO2 / V = 3.34 × 10⁻⁴ mol / 1 L = 3.34 × 10⁻⁴ M.
+Common error: forgetting to convert kbar to bar (34.86 kbar = 34,860 bar) or using molarity directly in Henry's la
+D4 Q: Compare the temperature dependence of solubility for: (a) NaCl in water (ΔsolH ≈ +3.9 kJ/mol), (b) Ce2(SO4)3 in water (ΔsolH < 0, exothermic), (c) O2 in water (exothermic dissolution). Sketch qualitative solubility vs temperature curves for all three on the same axes. Label axes.
+D4 A: (a) NaCl: endothermic dissolution → solubility increases with temperature (positive slope, gentle curve).
+(b) Ce2(SO4)3: exothermic dissolution → solubility decreases with temperature (negative slope).
+(c) O2: gas dissolution is exothermic → solubility decreases sharply with temperature (steeper negative slope than solids).
+All curves start at some solubility at 0°C. The key distinction: for solids, the sign of ΔsolH
+D5 Q: A sealed soda bottle contains CO2 at 4 atm partial pressure over the liquid at 298 K. Henry's law constant for CO2 is 1.67 × 10³ bar. The bottle is opened, and the pressure above the liquid drops to 0.0004 atm (atmospheric pCO2). Calculate the ratio of CO2 mole fraction before and after opening. Explain why the drink f
+D5 A: Before: x₁ = p₁/KH = (4 atm × 1.013 bar/atm) / 1670 bar = 4.052/1670 = 2.43 × 10⁻³.
+After: x₂ = p₂/KH = (0.0004 atm × 1.013 bar/atm) / 1670 bar = 4.05 × 10⁻⁴/1670 = 2.43 × 10⁻⁷.
+Ratio x₁/x₂ = 10,000. The dissolved CO2 is now 10,000× supersaturated relative to the new equilibrium. The system rapidly evolves CO2 gas (fizzing) to re-establish equilibrium at the lower pressure. Students often forget unit conversion (atm 
+D6 Q: Design a simple experiment using household materials to demonstrate that gas solubility decreases with temperature. Specify: materials, procedure, observations, and the underlying principle. How would you modify it to show pressure effect?
+D6 A: Materials: Two identical transparent bottles of carbonated water (same brand, same initial pressure), refrigerator, bowl of hot water (~60°C).
+Procedure: Chill one bottle in refrigerator for 30 min. Place the other in hot water bath for 5 min. Open both simultaneously and observe fizzing.
+Observation: Warm bottle fizzes violently (large bubbles, rapid gas escape); cold bottle fizzes gently.
+Principle: CO2 solubility
+
+VETTED-DIAG C12_ORIG_MCQ_31 (fit 0.75, src c12_cfq_mcq.marker)
+  Q: Henry's law states that the solubility of a gas in a liquid is: (a) directly proportional to pressure (b) inversely proportional to pressure (c) directly proportional to temperature (d) independent of pressure
+  A: (a) directly proportional to pressure
+VETTED-DIAG cfq_2_1 (fit 0.58, src c12_chem_diagnostics.marker)
+  Q: A solution is prepared by dissolving 18 g of glucose (M = 180 g/mol) in 250 g of water. Calculate the molality and the mole fraction of glucose. Also state whether the solution will show a boiling-point elevation of 0.52 K given Kb(water) = 0.52 K kg/mol.
+  A: Moles of glucose = 18 / 180 = 0.1 mol. Molality m = moles of solute / mass of solvent in kg = 0.1 / 0.250 = 0.4 mol/kg. Moles of water = 250 / 18 = 13.89 mol. Mole fraction of glucose = 0.1 / (0.1 + 13.89) = 0.1 / 13.99 = 0.00715. Boiling-point elevation: delta Tb = Kb x m = 0.52 x 0.4 = 0.208 K, which is NOT 0.52 K. So the statement is false; the elevation is only 0.208 K.
+VETTED-DIAG C12_ORIG_P2_03 (fit 0.50, src c12_board_paper2.marker)
+  Q: Calculate the strength of a 0.049M Mohr's salt solution in g/L. (Molar mass = 392)
+  A: Strength = Molarity x Molar mass = 0.049 x 392 = 19.21 g/L.
+VETTED-MIS misconception_5 (fit 0.43)
+  M: Stirring or shaking increases the amount of solute that can dissolve in a fixed amount of water.
+  C: Solubility (the maximum mass that can dissolve) depends mainly on the nature of the solute and solvent and on temperature, not on stirring. Stirring affects how quickly a solution reaches saturation, not the saturation point itself.
+VETTED-MIS misconception_15 (fit 0.39)
+  M: Solubility and rate of dissolving are the same thing, so a substance that dissolves quickly is very soluble.
+  C: Solubility is the maximum mass of solute that dissolves in a fixed mass of solvent at a given temperature. Rate of dissolving depends on factors like stirring, particle size, and temperature, and is a separate idea from solubility.
+VETTED-MIS M16 (fit 0.36)
+  M: Hot and cold water dissolve the same amount
+  C: Hot water dissolves MORE substance than cold water. Higher temperature = faster and more dissolving.
+### NODE c12_chem_cbse_01_010  class=12 sub=chem ch=1 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Osmotic pressure (Π) is the minimum excess pressure that must be applied to a solution to prevent the net flow of solvent molecules through a semipermeable membrane from the pure solvent (or dilute solution) into the solution. It is a colligative property directly proportional to the molar concentration of solute particles for dilute solutions, expressed as Π = iCRT where i is the van't Hoff factor, C is molarity (mol L⁻¹), R is the gas constant, and T is absolute temperature.
+WALKTHROUGH: Imagine placing a raw mango in concentrated brine (salt water) — it shrivels as water leaves its cells. Now place wilted lettuce in fresh water — it becomes crisp as water enters. Both phenomena are osmosis: solvent (water) moves through semipermeable cell membranes from lower solute concentration to higher solute concentration. In Class 11 (c11_chem_cbse_05_006), you learned PV = nRT for gases. Here we make a powerful analogy: solute particles in dilute solution behave like gas molecules occupying the solution volume, exerting a "pressure" — osmotic pressure. Start by visualising the thistle funnel experiment (Fig 1.9 NCERT): semipermeable membrane tied at the mouth, filled with solution, inverted in pure solvent. The liquid column rises until the hydrostatic pressure (ρgh) balances the osmotic influx. That equilibrium height gives Π. Connect this to the ideal gas law: n₂/V = C (molarity), so ΠV = n₂RT → Π = CRT. This analogy is the key to solving every osmotic pressure problem in boards and JEE/NEET.
+D1 Q: State the formula for osmotic pressure of a dilute solution and define each term with its SI unit. Why is molarity (not molality) used in this formula?
+D1 A: Π = iCRT where Π = osmotic pressure (Pa), i = van't Hoff factor (dimensionless), C = molar concentration (mol m⁻³ or mol L⁻¹ with R adjusted), R = gas constant (8.314 J mol⁻¹ K⁻¹ or 0.083 L bar mol⁻¹ K⁻¹), T = absolute temperature (K). Molarity is used because osmotic pressure depends on number of solute particles per unit volume of solution (like gas pressure depends on molecules per unit volume), and volume of solu
+D2 Q: A student writes: "Osmotic pressure is the pressure exerted by the solute particles on the semipermeable membrane." Is this statement correct? Explain why or why not using the kinetic molecular picture.
+D2 A: The statement is incorrect. Osmotic pressure is NOT the pressure exerted by solute particles on the membrane. In the kinetic picture, solute particles are too large to pass through the membrane pores; they collide with the membrane but this is not the origin of Π. Instead, Π arises because solvent molecules on the pure solvent side strike the membrane more frequently than solvent molecules on the solution side (where
+D3 Q: 200 cm³ of an aqueous protein solution contains 1.26 g of protein. The osmotic pressure at 300 K is 2.57 × 10⁻³ bar. Calculate the molar mass of the protein. (R = 0.083 L bar mol⁻¹ K⁻¹)
+D3 A: Given: w₂ = 1.26 g, V = 200 cm³ = 0.200 L, Π = 2.57 × 10⁻³ bar, T = 300 K, R = 0.083 L bar mol⁻¹ K⁻¹.
+Step 1: Use M₂ = (w₂RT)/(ΠV)
+Step 2: Substitute values: M₂ = (1.26 g × 0.083 L bar mol⁻¹ K⁻¹ × 300 K) / (2.57 × 10⁻³ bar × 0.200 L)
+Step 3: Numerator = 1.26 × 0.083 × 300 = 31.374
+Step 4: Denominator = 2.57 × 10⁻³ × 0.200 = 5.14 × 10⁻⁴
+Step 5: M₂ = 31.374 / 5.14 × 10⁻⁴ = 61,039 g mol⁻¹ ≈ 61.0 kg mol⁻¹
+Answer: 6.10 × 
+D4 Q: Two solutions are separated by a semipermeable membrane: Solution A is 0.1 M NaCl, Solution B is 0.1 M glucose. Both at 298 K. Predict the direction of net solvent flow and justify using van't Hoff factors. Assume complete dissociation for NaCl.
+D4 A: Solution A (0.1 M NaCl): i ≈ 2 (NaCl → Na⁺ + Cl⁻), effective particle concentration = iC = 0.2 osmol L⁻¹.
+Solution B (0.1 M glucose): i = 1 (non-electrolyte), effective particle concentration = 0.1 osmol L⁻¹.
+Since Π ∝ iC, Π_A > Π_B. Solvent flows from lower osmotic pressure (Solution B, glucose) to higher osmotic pressure (Solution A, NaCl).
+Net flow: Glucose side → NaCl side.
+Justification: Osmotic pressure depends
+D5 Q: Evaluate this statement: "Reverse osmosis can purify sea water because applying pressure greater than osmotic pressure forces pure water through the membrane, leaving salts behind. The minimum pressure required is exactly equal to the osmotic pressure of sea water." Is the "exactly equal" part correct? Explain.
+D5 A: The statement is partially incorrect. The minimum pressure to *stop* osmosis (equilibrium) is exactly Π. But to *produce* pure water at a practical rate (reverse osmosis), the applied pressure must be greater than Π (typically 1.5–2×Π for sea water). At P = Π, net flux is zero — no water is produced. At P > Π, net solvent flux reverses: water flows from solution to pure side. The "exactly equal" phrasing confuses the
+D6 Q: Design a simple experiment using household materials to demonstrate osmosis and estimate the osmotic pressure of a sugar solution qualitatively. List materials, procedure, observation, and how you would relate the observation to Π. [IN-SCOPE-REWRITE]
+D6 A: Materials: Potato (semipermeable cell membranes), knife, two bowls, water, sugar, scale, ruler.
+Procedure: (1) Cut potato into 4 identical cylinders (same dimensions). (2) Weigh each (initial mass m₀). (3) Place two in pure water, two in saturated sugar solution (~2 M). (4) Wait 30 min. (5) Remove, blot dry, reweigh (final mass m).
+Observation: Potato in water gains mass (water enters cells → turgid). Potato in sugar
+
+VETTED-DIAG C12_ORIG_Q28 (fit 1.00, src c12_cfq_mcq.marker)
+  Q: The Van't Hoff factor for K2SO4 in dilute solution is: (a) 1 (b) 2 (c) 3 (d) 4
+  A: (c) 3
+VETTED-DIAG C12_ORIG_P2_03 (fit 0.75, src c12_board_paper2.marker)
+  Q: Calculate the strength of a 0.049M Mohr's salt solution in g/L. (Molar mass = 392)
+  A: Strength = Molarity x Molar mass = 0.049 x 392 = 19.21 g/L.
+VETTED-DIAG C12_ORIG_P2_02 (fit 0.60, src c12_board_paper2.marker)
+  Q: Calculate the molarity of a KMnO4 solution containing 3.16g per litre. (K=39, Mn=55, O=16)
+  A: Molar mass of KMnO4 = 39 + 55 + 4(16) = 158 g/mol. Molarity = 3.16/158 = 0.02M.
+VETTED-MIS misconception_11 (fit 0.35)
+  M: Osmotic pressure of a NaCl solution is the same as that of a glucose solution of the same molarity because both are dissolved in water.
+  C: pi = iCRT. For equal molarity C, NaCl (i ~ 2) gives about twice the osmotic pressure of glucose (i = 1). The i factor is essential when comparing electrolytes with non-electrolytes.
+VETTED-MIS PP_C12_006 (fit 0.33)
+  M: Candidates calculate osmotic pressure of electrolyte solutions without applying the Van't Hoff factor, treating electrolytes like non-electrolytes.
+  C: For electrolytes that dissociate, the Van't Hoff factor (i) must be included in the osmotic pressure formula: pi = (i * w/m) * R * T / V. For Na2SO4, i = 3 (Na2SO4 -> 2Na+ + SO4 2-).
+VETTED-MIS PP_C12_006 (fit 0.33)
+  M: Candidates calculate osmotic pressure of electrolyte solutions without applying the Van't Hoff factor, treating electrolytes like non-electrolytes.
+  C: For electrolytes that dissociate, the Van't Hoff factor (i) must be included in the osmotic pressure formula: pi = (i * w/m) * R * T / V. For Na2SO4, i = 3 (Na2SO4 -> 2Na+ + SO4 2-).
+### NODE c12_chem_cbse_05_002  class=12 sub=chem ch=5 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: IUPAC nomenclature of coordination compounds provides a systematic set of rules to name mononuclear coordination entities by identifying the central metal, its oxidation state (Roman numeral), the ligands (listed alphabetically with appropriate prefixes), and the counter ions, ensuring an unambiguous name-to-structure correspondence.
+WALKTHROUGH: Observe a blister pack of the anticancer drug cisplatin — its generic name is *cis-diamminedichloridoplatinum(II)*, yet the trans isomer *transplatin* is inactive. This real-world consequence of precise naming motivates the need for rules. Begin by identifying the coordination sphere (inside square brackets) and counter ions (outside). List ligands alphabetically ignoring prefixes (di, bis), assign oxidation state to the metal using ligand charges, then assemble: cation name first (ligands + metal + oxidation state), then anion name. Connect to Werner's theory (c12_chem_cbse_05_001) where you learned to distinguish coordination sphere from counter ions. The key pattern: ligands alphabetically → metal with oxidation state → counter ion.
+D1 Q: State the exact IUPAC rule for the order in which ligands are listed in the name of a coordination compound, and give the correct ligand name for NH₃ and H₂O.
+D1 A: Ligands are listed in alphabetical order of their names (ignoring multiplicative prefixes like di-, tri-, bis-, tris-). The ligand name for NH₃ is ammine (not ammonia) and for H₂O is aqua (not water). A wrong answer (e.g., "alphabetical order of formulas" or "ammonia/water") reveals the student is confusing chemical formula ordering with name ordering, or using common names instead of IUPAC ligand names — both cause 
+D2 Q: Explain why the complex K₃[Fe(CN)₆] is named *potassium hexacyanidoferrate(III)* while [Fe(CN)₆]⁴⁻ would be named *hexacyanidoferrate(II)*, focusing on the metal name change and oxidation state.
+D2 A: In anionic complexes, the metal name takes the –ate suffix (ferrate for Fe, cobaltate for Co, etc.) and the oxidation state is indicated in Roman numerals. For K₃[Fe(CN)₆], each CN⁻ is –1, total –6; three K⁺ give +3, so Fe must be +3 → ferrate(III). For [Fe(CN)₆]⁴⁻, total ligand charge –6, overall –4 → Fe is +2 → ferrate(II). A wrong answer (e.g., "iron(III) cyanide") shows the student misses the –ate convention for 
+D3 Q: Write the IUPAC name for [Co(NH₃)₅Cl]Cl₂. Show all steps: identify coordination sphere, ligand names, alphabetical order, oxidation state of Co, and final name.
+D3 A: Steps: (1) Coordination sphere: [Co(NH₃)₅Cl]²⁺ (two Cl⁻ counter ions). (2) Ligands: five NH₃ (ammine), one Cl⁻ (chlorido). (3) Alphabetical order: ammine (a) before chlorido (c) → pentaamminechlorido. (4) Oxidation state: let x = Co oxidation state; x + 0×5 + (–1) = +2 → x = +3. (5) Cationic complex → metal name = cobalt. Name: pentaamminechloridocobalt(III) chloride. A wrong answer (e.g., "chloridopentaamminecobalt(
+D4 Q: Compare the names of [Ni(CO)₄] and [Ni(CN)₄]²⁻. Why does nickel become *nickelate* in the second but not the first? What prefix is used for four CO ligands?
+D4 A: [Ni(CO)₄] is neutral → metal name = nickel(0) → *tetracarbonylnickel(0)*. [Ni(CN)₄]²⁻ is anionic → metal name = nickelate(II) → *tetracyanidonickelate(II)*. Four CO ligands use prefix tetra- (not tetrakis) because "carbonyl" has no numerical prefix. A wrong answer (e.g., "tetracarbonylnickelate(0)") shows confusion between neutral and anionic complex naming conventions and misuse of tetrakis.
+D5 Q: A student writes the name of K₂[PdCl₄] as *potassium tetrachloridopalladium(II)*. Evaluate this name and correct it if wrong. [IN-SCOPE-REWRITE]
+D5 A: Incorrect. The complex anion is [PdCl₄]²⁻ → metal must take –ate suffix: palladate(II). Correct name: potassium tetrachloridopalladate(II). The student's error: using elemental metal name for an anionic complex. This is a classic board-exam trap — the –ate suffix is mandatory for anionic coordination entities (except for a few metals with Latin-based names like ferrate, cuprate, argentate).
+D6 Q: Design a mononuclear coordination compound that contains Cr(III), two bidentate ethane-1,2-diamine (en) ligands, and two chloride ligands, with one chloride as counter ion. Write its formula and IUPAC name. Predict its isomerism.
+D6 A: Formula: [CrCl₂(en)₂]Cl. Name: dichloridobis(ethane-1,2-diamine)chromium(III) chloride. Isomerism: Shows geometrical (cis/trans) and optical isomerism (cis is chiral). A poor answer (e.g., missing "bis", wrong oxidation state, or missing counter ion) reveals inability to handle polydentate ligand prefixes (bis/tris) and charge balance — a multi-concept failure.
+
+VETTED-DIAG C12_ORIG_S26_16 (fit 0.70, src c12_specimen_2026.marker)
+  Q: Write the IUPAC names of: (a) [Pt(NH3)2Cl2], (b) [Co(NH3)4Cl2]Cl, (c) K3[Fe(CN)6], (d) [Ni(CO)4].
+  A: (a) Diamminedichloridoplatinum(II). (b) Tetraamminedichloridocobalt(III) chloride. (c) Potassium hexacyanoferrate(III). (d) Tetracarbonylnickel(0).
+VETTED-DIAG C12_ORIG_P1_15 (fit 0.64, src c12_board_paper1.marker)
+  Q: Write the IUPAC name of K3[Fe(C2O4)3]. What is the oxidation state of Fe and the coordination number?
+  A: Potassium trioxalatoferrate(III). Oxidation state of Fe = +3. Coordination number = 6 (oxalate is bidentate, 3 oxalates x 2 = 6).
+VETTED-DIAG C12_ORIG_Q43 (fit 0.62, src c12_cfq_rest.marker)
+  Q: Very Short Answer: Write the IUPAC name of [Cr(NH3)4Cl2]Cl. What is the oxidation state of Cr?
+  A: Tetraamminedichloridochromium(III) chloride. Oxidation state of Cr = +3.
+VETTED-MIS misconception_4 (fit 0.18)
+  M: Ionic compounds conduct electricity in solid state.
+  C: Ionic compounds conduct only when MOLTEN or in AQUEOUS solution. In solid, ions are fixed in lattice.
+VETTED-MIS misconception_2 (fit 0.17)
+  M: Less reactive metal displaces more reactive metal.
+  C: MORE reactive metal displaces LESS reactive metal. Zn displaces Cu, not vice versa.
+VETTED-MIS misconception_12 (fit 0.16)
+  M: Coordinate bonds are always formed by transition metals accepting lone pairs from ligands.
+  C: Coordinate bonding occurs in many contexts, including main-group compounds and simple ions like NH4+ and H3O+. Transition metal complexes are one important category but not the only one.
+### NODE c12_chem_cbse_05_009  class=12 sub=chem ch=5 verdict=PARTIAL action=REWRITE [2]
+DEFINITION: Coordination compounds are complex entities where a central metal atom/ion is bonded to surrounding ligands via coordinate bonds, exhibiting unique properties (color, magnetism, stability) that enable their critical roles in biological systems (oxygen transport, photosynthesis), medicine (chelation therapy, anticancer drugs), analytical chemistry (EDTA titrations, indicators), metallurgy (hydrometallurgical extraction, purification), and industry (catalysis, electroplating).
+WALKTHROUGH: Start with a real-world observation: When you get a blood test, the red color comes from hemoglobin — an iron coordination complex that carries O₂. In the lab, you've seen the pink precipitate with DMG confirming Ni²⁺, or the violet color with EDTA indicating endpoint in water hardness titration. These are not isolated facts; they are applications of the same principles: metal-ligand bonding, stability constants (Kf), geometry, and redox behavior. Connect to prior nodes: The stability of [Ni(DMG)₂] (node 008: magnetic properties → square planar diamagnetic) explains its selective precipitation. The high Kf of [Ca(EDTA)]²⁻ vs [Mg(EDTA)]²⁻ (node 007: spectrochemical series → ligand field strength) enables selective estimation. End with the key insight: Coordination chemistry bridges inorganic structure to biological function and industrial utility — the "why" behind the "what" you learned in nodes 001-008.
+D1 Q: A student writes: "EDTA is used in water hardness titration because it forms a stable complex with Ca²⁺ and Mg²⁺." Is this statement complete? If not, what critical detail about the *difference* in stability constants is missing for selective estimation?
+D1 A: No, the statement is incomplete. While EDTA forms stable complexes with both Ca²⁺ and Mg²⁺, selective estimation requires exploiting the *difference* in their formation constants: log Kf(Ca-EDTA) ≈ 10.7, log Kf(Mg-EDTA) ≈ 8.7. At pH 10 (NH₄Cl/NH₃ buffer), Ca²⁺ complexes fully while Mg²⁺ does not, allowing stepwise titration. A student who misses this cannot explain why we add Mg²⁺ indicator (Eriochrome Black T) only 
+D2 Q: In the cyanide process for gold extraction: 4Au + 8CN⁻ + O₂ + 2H₂O → 4[Au(CN)₂]⁻ + 4OH⁻. Why is oxygen (O₂) essential? What would happen if the reaction were carried out under inert atmosphere (N₂)?
+D2 A: O₂ acts as the oxidant: Au(0) → Au(I) in [Au(CN)₂]⁻ requires electron loss. The half-reaction is Au + 2CN⁻ → [Au(CN)₂]⁻ + e⁻. O₂ accepts these electrons: O₂ + 2H₂O + 4e⁻ → 4OH⁻. Under N₂, no oxidation occurs — gold remains metallic and insoluble. Students often think CN⁻ alone dissolves gold (like acids dissolve metals), missing the redox requirement. This error stems from not recognizing Au(0)→Au(I) oxidation (Class
+D3 Q: A water sample contains 0.01 M Ca²⁺ and 0.01 M Mg²⁺. You titrate with 0.01 M EDTA at pH 10 using Eriochrome Black T indicator. Calculate the volume of EDTA needed to reach the first endpoint (Ca²⁺ only) and the second endpoint (Ca²⁺ + Mg²⁺) for 50.0 mL of the sample. Given: log Kf(Ca-EDTA)=10.7, log Kf(Mg-EDTA)=8.7. [IN-SCOPE-REWRITE]
+D3 A: Step 1: Moles of Ca²⁺ = 0.01 mol/L × 0.050 L = 5.0×10⁻⁴ mol. Step 2: Moles of Mg²⁺ = same = 5.0×10⁻⁴ mol. Step 3: At pH 10, Ca²⁺ titrates completely first (higher Kf). Volume for Ca²⁺ = (5.0×10⁻⁴ mol) / (0.01 M) = 50.0 mL. Step 4: After Ca²⁺, Mg²⁺ titrates. Additional volume = 50.0 mL. Step 5: Total volume for both = 100.0 mL. First endpoint at 50.0 mL, second at 100.0 mL. A student who adds volumes directly (100 mL 
+D4 Q: Compare the role of coordination compounds in hemoglobin (O₂ transport) and chlorophyll (photosynthesis). Both are porphyrin complexes. Why does Fe²⁺ in hemoglobin bind O₂ reversibly, while Mg²⁺ in chlorophyll does not bind O₂ but undergoes photoexcitation? Analyze using d-electron configuration and ligand field effect
+D4 A: Hemoglobin: Fe²⁺ (d⁶) in porphyrin (strong field) → low-spin t₂g⁶ eg⁰. O₂ binds to the 6th coordination site (axial) forming Fe²⁺-O₂ (diamagnetic oxyhemoglobin). Reversibility comes from weak π-backbonding and protein conformational change (cooperative binding). Chlorophyll: Mg²⁺ (d¹⁰) — no d-d transitions possible. Photoexcitation involves π→π* transition in the porphyrin ring (ligand-centered), not metal-centered. 
+D5 Q: Evaluate this claim: "cis-Platin [Pt(NH₃)₂Cl₂] is an anticancer drug because it is a square planar Pt(II) complex that binds to DNA. Therefore, trans-platin should be equally effective since it has the same formula and geometry." Identify the flaw and explain why trans-platin is inactive.
+D5 A: The claim is false. Both are square planar Pt(II) (d⁸, dsp²), but *geometry* of ligand arrangement differs. cis-Platin can form *intrastrand cross-links* on adjacent guanine N7 atoms on the same DNA strand (1,2-GG cross-link), bending DNA ~60° and blocking replication. trans-Platin forms *interstrand* or *long-range* cross-links that DNA repair enzymes easily recognize and remove. Also, trans-platin hydrolyzes faster
+D6 Q: Design a qualitative analysis scheme to separate and identify Ni²⁺, Co²⁺, and Fe³⁺ in a mixture using selective complexation/precipitation. Specify reagents, conditions (pH, concentration), and the coordination chemistry principle (stability constant, geometry, redox) exploited at each step.
+D6 A: Good answer: (1) Add NH₄Cl/NH₃ buffer (pH 10) + (NH₄)₂S → Fe³⁺ precipitates as Fe₂S₃ (hydrolyzes to Fe(OH)₃), while Ni²⁺/Co²⁺ stay as [Ni(NH₃)₆]²⁺/[Co(NH₃)₆]²⁺ (high Kf with NH₃). Filter. (2) Filtrate: Add DMG in slightly acidic NH₄Cl medium → Ni²⁺ precipitates as red [Ni(DMG)₂] (square planar, very high Kf, chelate effect). Co²⁺ remains as [Co(NH₃)₆]²⁺ (DMG doesn't precipitate Co²⁺). Filter. (3) Filtrate: Oxidize Co
+
+VETTED-DIAG C12_ORIG_MCQ_41 (fit 0.50, src c12_cfq_mcq.marker)
+  Q: Which transition metal is used as a catalyst in the Haber process? (a) Fe (b) V2O5 (c) Pt (d) Ni
+  A: (a) Fe
+VETTED-DIAG C12_ORIG_MCQ_60 (fit 0.50, src c12_cfq_mcq.marker)
+  Q: Which statement about [Fe(CN)6]^3- is TRUE? (a) It is high-spin (b) It has 5 unpaired electrons (c) It is paramagnetic with 1 unpaired electron (d) It is diamagnetic
+  A: (c) It is paramagnetic with 1 unpaired electron
+VETTED-DIAG C12_ORIG_S26_06 (fit 0.50, src c12_specimen_2026.marker)
+  Q: Fill in the blanks: According to the spectrochemical series, the order of ligand field strength is: ________ < ________ < ________ < ________ < ________ < ________ (write 6 common ligands in order).
+  A: I^- < Br^- < Cl^- < F^- < H2O < NH3 (< CN^- < CO)
+VETTED-MIS misconception_2 (fit 0.33)
+  M: Hybridisation counts pi bonds.
+  C: Hybridisation = sigma bonds + lone pairs on central atom. Pi bonds are NOT counted.
+VETTED-MIS M12 (fit 0.25)
+  M: Air is mostly oxygen
+  C: Air is mostly nitrogen (78%). Oxygen is only 21%.
+VETTED-MIS C11_004 (fit 0.22)
+  M: Students assign wrong hybridisation by counting only bonded atoms, not lone pairs.
+  C: Hybridisation depends on STERIC NUMBER = bonded atoms + lone pairs on central atom. Steric 2 = sp, 3 = sp2, 4 = sp3, 5 = sp3d, 6 = sp3d2. Example: NH3 has 3 bonds + 1 lone pair = 4 -> sp3 (not sp2 just because 3 bonds).
+### NODE c12_chem_cbse_09_006  class=12 sub=chem ch=9 verdict=PARTIAL action=REWRITE [2]
+DEFINITION: Physical properties of amines refer to the observable characteristics (state, odor, boiling point, solubility) arising from their molecular structure — specifically the pyramidal geometry around sp³-hybridised nitrogen, the presence of N–H bonds (in primary and secondary amines), the lone pair on nitrogen, and the hydrophobic alkyl/aryl groups. These properties are governed by the interplay of hydrogen bonding (N–H···N), dipole-dipole interactions, and van der Waals forces, with hydrogen bonding being the dominant factor for boiling points and water solubility of lower amines.
+WALKTHROUGH: Observe a bottle of methylamine (gas, fishy smell) versus aniline (liquid, darkens on standing) in the lab — the difference hits you immediately. Start by recalling Class 11 hydrogen bonding (c11_chem_cbse_05_003) and the electronegativity values of N (3.0) and O (3.5). Ask: "Why does butan-1-ol (b.p. 390 K) boil higher than butan-1-amine (b.p. 351 K) despite similar molar mass?" The answer lies in O–H···O being stronger than N–H···N. Then build the boiling point order: primary amines have two N–H bonds → more H-bonding sites → higher association → higher b.p. than secondary (one N–H) and tertiary (no N–H). For solubility, visualise the hydrophobic alkyl chain growing like a "tail" that disrupts water structure — beyond 6 carbons, the tail wins. End with the key NCERT Table 9.2 comparison: amines boil lower than alcohols but higher than alkanes of same molar mass.
+D1 Q: A student writes: "Tertiary amines have higher boiling points than primary amines because they have more alkyl groups which increase van der Waals forces." Is this statement correct? Answer yes/no and justify in one sentence.
+D1 A: No. The statement is incorrect because tertiary amines lack N–H bonds and cannot form intermolecular hydrogen bonds, while primary amines have two N–H bonds enabling extensive H-bonding; H-bonding dominates over van der Waals forces for amines of comparable molar mass, making primary > secondary > tertiary the correct boiling point order. A wrong answer reveals the student is overgeneralising the "more alkyl groups =
+D2 Q: Butan-1-amine (C₄H₁₁N, molar mass 73 g/mol) and n-butanol (C₄H₁₀O, molar mass 74 g/mol) have nearly identical molar masses. Yet n-butanol boils at 390 K while butan-1-amine boils at 351 K. Explain this 39 K difference using electronegativity and hydrogen bond strength.
+D2 A: Oxygen (EN=3.5) is more electronegative than nitrogen (EN=3.0), so the O–H bond is more polar than N–H, making O–H···O hydrogen bonds significantly stronger than N–H···N; additionally, each alcohol molecule can form two H-bonds (one as donor via O–H, one as acceptor via lone pairs on O), while primary amines also form two but with weaker N–H···N bonds. A wrong answer (e.g., "alcohols have more H-bonds" or "molar mass
+D3 Q: Arrange the following in increasing order of boiling point: (CH₃)₃N, CH₃CH₂CH₂NH₂, (CH₃)₂NH, CH₃CH₂CH₂CH₃. All have molar mass ~73 g/mol. Show your reasoning step by step. [IN-SCOPE-REWRITE]
+D3 A: CH₃CH₂CH₂CH₃ (butane, alkane, only van der Waals) < (CH₃)₃N (trimethylamine, 3° amine, no N–H, only dipole-dipole + vdW) < (CH₃)₂NH (dimethylamine, 2° amine, one N–H, moderate H-bonding) < CH₃CH₂CH₂NH₂ (butan-1-amine, 1° amine, two N–H, strongest H-bonding). Steps: (1) Identify functional groups and H-bonding capacity; (2) Rank intermolecular forces: vdW < dipole-dipole < H-bonding; (3) Within H-bonding, more N–H bon
+D4 Q: A student claims: "Aniline (C₆H₅NH₂) is more soluble in water than cyclohexylamine (C₆H₁₁NH₂) because the phenyl group is planar and packs better." Evaluate this claim and explain the actual solubility difference.
+D4 A: The claim is false. Aniline is LESS soluble in water (3.6 g/100 mL at 20°C) than cyclohexylamine (miscible). The phenyl group in aniline is hydrophobic and, more importantly, the lone pair on nitrogen delocalises into the benzene ring (resonance), reducing its availability for H-bonding with water. Cyclohexylamine has a saturated aliphatic ring — no resonance, full lone pair availability, and the alkyl group is less 
+D5 Q: Given the pKb values: CH₃NH₂ (3.38), (CH₃)₂NH (3.27), (CH₃)₃N (4.22), NH₃ (4.75). A student argues: "Basicity order should be 3° > 2° > 1° > NH₃ because +I effect increases with more methyl groups." Is the student's reasoning valid for aqueous phase? Explain why the observed order is (CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃.
+D5 A: The student's reasoning is valid ONLY for gas phase. In aqueous phase, solvation of the conjugate acid (ammonium ion) dominates: primary ammonium (RNH₃⁺) has three N–H bonds for H-bonding with water → best solvation; secondary has two; tertiary has one → poorest solvation. Steric hindrance from three methyl groups in (CH₃)₃N further blocks solvation. Thus the interplay: +I effect favours 3°, but solvation + steric fa
+D6 Q: Design a simple laboratory test to distinguish between three unlabelled bottles containing: (i) a primary aliphatic amine, (ii) a secondary aliphatic amine, (iii) a tertiary aliphatic amine — all liquids of similar molar mass (~73 g/mol). You have access to: water, HCl, NaOH, benzenesulphonyl chloride (Hinsberg's reage
+D6 A: Use Hinsberg's test (benzenesulphonyl chloride + NaOH): (1) Primary amine: reacts to give N-alkylbenzenesulphonamide soluble in NaOH (acidic N–H); on acidification, precipitate reforms. (2) Secondary amine: gives N,N-dialkylbenzenesulphonamide insoluble in NaOH (no N–H). (3) Tertiary amine: no reaction with Hinsberg's reagent (no N–H). Alternative: nitrous acid test at 0–5°C — primary aliphatic gives N₂ gas + alcohol
+
+VETTED-DIAG C12_ORIG_Q26 (fit 0.86, src c12_cfq_mcq.marker)
+  Q: The carbylamine test is given by: (a) Primary amines only (b) Secondary amines only (c) Tertiary amines only (d) All amines
+  A: (a) Primary amines only
+VETTED-DIAG C12_ORIG_MCQ_38 (fit 0.69, src c12_cfq_mcq.marker)
+  Q: In the Hinsberg test, a primary amine reacts with benzenesulphonyl chloride to give a product that is: (a) insoluble in NaOH (b) soluble in NaOH (c) insoluble in HCl (d) volatile
+  A: (b) soluble in NaOH
+VETTED-DIAG C12_ORIG_Q11 (fit 0.67, src c12_cfq_mcq.marker)
+  Q: In the Lucas test, tertiary alcohols react immediately because: (a) They are more soluble (b) The tertiary carbocation is most stable (c) They have lower molecular mass (d) They are more acidic
+  A: (b) The tertiary carbocation is most stable
+VETTED-MIS misconception_5 (fit 0.33)
+  M: Hydrogen is collected over air.
+  C: Hydrogen is collected over WATER (it is insoluble in water and lighter than air).
+VETTED-MIS misconception_1 (fit 0.25)
+  M: Vapour density = 2 x molecular mass.
+  C: VD = molecular mass / 2. So molecular mass = 2 x VD.
+VETTED-MIS M12 (fit 0.25)
+  M: Air is mostly oxygen
+  C: Air is mostly nitrogen (78%). Oxygen is only 21%.

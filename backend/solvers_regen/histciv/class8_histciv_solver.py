@@ -1640,4 +1640,190 @@ _TEMPLATES: Dict[str, List[Dict[str, Any]]] = {
             "generate": lambda s: {
                 "question": f"List any three causes of the Renaissance.",
                 "keywords": ["trade", "wealth", "city", "state", "classical", "greek", "roman", "byzantine", "ottoman", "patron", "medici", "printing", "press", "constantinople", "scholar"],
-                "answer": "Three causes: (1) Fall of Constantinople bringing Greek scholars and classical texts
+                "answer": "Three causes: (1) Fall of Constantinople in 1453 brought Greek scholars and classical texts to Italy. (2) Wealthy Italian city-states and patrons like the Medici family funded art and learning. (3) The invention of the printing press by Gutenberg spread new ideas quickly.",
+                "explanation": "The Renaissance began in Italy because of: (1) The fall of Constantinople (1453) - Greek scholars fled to Italy with rare manuscripts. (2) Patronage - rich families like the Medici of Florence supported artists such as Leonardo da Vinci and Michelangelo. (3) The printing press (c. 1440) spread knowledge faster and cheaper than hand copying.",
+            }
+        },
+        {
+            "template_id": "SA_H_002",
+            "difficulty": "Medium",
+            "topic": "The Industrial Revolution",
+            "generate": lambda s: {
+                "question": f"Explain any two effects of the Industrial Revolution on society.",
+                "keywords": ["urbanization", "cities", "working", "class", "conditions", "child", "labour", "slums", "middle", "factory"],
+                "answer": "Two effects: (1) Urbanization - people migrated from villages to cities for factory jobs, causing overcrowded slums. (2) Harsh working conditions - long hours, low wages, and child labour eventually gave rise to labour movements and reform laws.",
+                "explanation": "The Industrial Revolution transformed society: (1) Urbanization - industrial cities like Manchester grew rapidly as workers moved from rural areas. (2) Poor working conditions - 14-16 hour workdays, low pay, and child labour in factories. (3) New social classes - the industrial middle class (bourgeoisie) and the factory working class (proletariat). These hardships later inspired labour reforms and workers' movements.",
+            }
+        },
+    ],
+    "sa_civics": [
+        {
+            "template_id": "SA_C_001",
+            "difficulty": "Medium",
+            "topic": "The Indian Parliament",
+            "generate": lambda s: {
+                "question": f"State any two features of the Indian Parliament.",
+                "keywords": ["loksabha", "lok", "sabha", "rajya", "president", "two", "houses", "bicameral", "members", "elected"],
+                "answer": "Two features: (1) The Indian Parliament is bicameral - it has two houses, the Lok Sabha and the Rajya Sabha. (2) The President of India is an integral part of Parliament; a bill becomes law only with the President's assent.",
+                "explanation": "The Indian Parliament consists of the President and two houses: the Lok Sabha (House of the People, directly elected, maximum 550 members) and the Rajya Sabha (Council of States, max 250 members, mostly elected by state legislatures). The Lok Sabha has a term of five years; the Rajya Sabha is a permanent body with one-third of members retiring every two years.",
+            }
+        },
+        {
+            "template_id": "SA_C_002",
+            "difficulty": "Medium",
+            "topic": "Fundamental Rights",
+            "generate": lambda s: {
+                "question": f"Why is the Right to Constitutional Remedies called the 'heart and soul' of the Constitution?",
+                "keywords": ["article", "32", "supreme", "court", "enforce", "fundamental", "rights", "remedies", "move", "writs"],
+                "answer": "Because under Article 32 a citizen can move the Supreme Court directly to enforce his/her Fundamental Rights through writs. Dr. B.R. Ambedkar called it the 'heart and soul' of the Constitution.",
+                "explanation": "The Right to Constitutional Remedies (Articles 32-35) makes all other Fundamental Rights effective: the Supreme Court (and High Courts under Article 226) can issue writs such as habeas corpus, mandamus, prohibition, certiorari, and quo warranto to enforce them. Without this right, the other rights would remain mere declarations. Dr. Ambedkar therefore called it the heart and soul of the Constitution.",
+            }
+        },
+    ],
+}
+
+
+# ======================================================================
+# GENERATOR + REGISTRY ADAPTER
+# ======================================================================
+
+class Class8HistCivGenerator:
+    """Deterministic question generator for CISCE Class 8 History & Civics."""
+
+    def __init__(self, seed: int = 42):
+        self.rng = random.Random(seed)
+
+    def _bank_pool(self) -> List[Dict[str, Any]]:
+        """Normalised view of the static question bank."""
+        pool = []
+        for q in _QUESTION_BANK:
+            pool.append({
+                "id": q["id"],
+                "type": q.get("type", "mcq"),
+                "difficulty": q.get("difficulty", "Medium"),
+                "topic": q.get("topic", ""),
+                "question": q["question"],
+                "options": q.get("options", []),
+                "answer": q.get("answer", ""),
+                "explanation": q.get("explanation", ""),
+                "competency": q.get("competency", False),
+            })
+        return pool
+
+    def _template_pool(self) -> List[Dict[str, Any]]:
+        """Materialise every template once with a fixed sub-seed."""
+        pool = []
+        for category, templates in _TEMPLATES.items():
+            for idx, tpl in enumerate(templates):
+                sub_seed = make_seed(category, tpl.get("template_id", idx))
+                gen = tpl["generate"](sub_seed)
+                qtype = ("mcq" if category.startswith("mcq")
+                         else "fib" if category.startswith("fib")
+                         else "true_false" if category.startswith("tf")
+                         else "short_answer")
+                pool.append({
+                    "id": tpl.get("template_id", f"{category}_{idx}"),
+                    "type": qtype,
+                    "difficulty": tpl.get("difficulty", "Medium"),
+                    "topic": tpl.get("topic", ""),
+                    "question": gen.get("question", ""),
+                    "options": gen.get("options", []),
+                    "answer": gen.get("answer", ""),
+                    "explanation": gen.get("explanation", ""),
+                    "keywords": gen.get("keywords", []),
+                    "competency": tpl.get("competency", False),
+                })
+        return pool
+
+    def generate(self, topic: str = "", qtype: str = "",
+                 difficulty: str = "", competency: bool = None,
+                 seed: int = None) -> Dict[str, Any]:
+        """Generate one question with optional filters."""
+        if seed is not None:
+            self.rng = random.Random(seed)
+
+        pool = self._bank_pool() + self._template_pool()
+        if topic:
+            pool = [q for q in pool if normalize(q.get("topic", ""))
+                    == normalize(topic)]
+        if qtype:
+            pool = [q for q in pool if q.get("type") == qtype]
+        if difficulty:
+            pool = [q for q in pool if q.get("difficulty", "") == difficulty]
+        if competency is not None:
+            pool = [q for q in pool
+                    if q.get("competency", False) == competency]
+        if not pool:
+            return {"error": "No matching questions found",
+                    "filters": {"topic": topic, "qtype": qtype,
+                                "difficulty": difficulty,
+                                "competency": competency}}
+
+        q = dict(self.rng.choice(pool))
+        if q.get("options"):
+            q["options"] = shuffle_deterministic(
+                make_seed(seed, q["id"]), q["options"])
+        return q
+
+
+def generate_questions(seed: int = 0, count: int = None,
+                       topic: str = None) -> List[Dict[str, Any]]:
+    """Registry adapter: deterministic questions for Class 8 History & Civics.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    """
+    n = 1 if count is None else max(1, int(count))
+    gen = Class8HistCivGenerator(seed=seed)
+    rng = random.Random(make_seed("generate_questions", seed))
+    questions = []
+    seen_ids = set()
+    attempts = 0
+    while len(questions) < n and attempts < n * 10:
+        attempts += 1
+        q = gen.generate(topic=topic or "",
+                         seed=make_seed("gq", seed, attempts))
+        if not isinstance(q, dict) or "error" in q:
+            continue
+        if q["id"] in seen_ids:
+            continue
+        seen_ids.add(q["id"])
+        out = {
+            "id": q["id"],
+            "type": q.get("type", "short_answer"),
+            "difficulty": q.get("difficulty", "Medium"),
+            "topic": q.get("topic", ""),
+            "question": q["question"],
+            "answer": q.get("answer", ""),
+            "explanation": q.get("explanation", ""),
+            "competency": q.get("competency", False),
+        }
+        if q.get("options"):
+            out["options"] = q["options"]
+        if q.get("keywords"):
+            out["keywords"] = q["keywords"]
+        questions.append(out)
+    return questions
+
+
+# ======================================================================
+# MAIN (demo)
+# ======================================================================
+
+def main():
+    print("=" * 70)
+    print("CISCE Class 8 History & Civics - Deterministic Generator Demo")
+    print("=" * 70)
+    for seed in (1, 2, 3):
+        qs = generate_questions(seed=seed, count=3)
+        print(f"\n--- seed={seed} ---")
+        for q in qs:
+            print(f"[{q['id']}] {q['topic']} ({q['difficulty']}): "
+                  f"{q['question']}")
+            if q.get("options"):
+                for opt in q["options"]:
+                    print(f"    {opt}")
+            print(f"    Answer: {q['answer']}")
+
+
+if __name__ == "__main__":
+    main()

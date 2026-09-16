@@ -39,6 +39,50 @@ def get_index() -> EnhancedNodesIndex:
         raise HTTPException(503, str(exc))
 
 
+# ── sims-for-node ────────────────────────────────────────────────────────
+# The learn page asks "which sims teach this node?" — resolved from
+# frontend/components/sims_v2/SIM_INDEX.json (3,018 sims, each carrying
+# its node-id list). Served from the BACKEND on purpose: the Next dev/
+# prod proxy shadows dynamic app/api routes, so a Next-side handler can
+# never execute under the /api/* rewrite.
+import json
+import os
+from functools import lru_cache
+
+_SIM_INDEX_CANDIDATES = [
+    # in-image copy (backend/_cache/sim_index.json — synced from
+    # frontend/components/sims_v2/SIM_INDEX.json)
+    os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                 "..", "_cache", "sim_index.json"),
+    # local dev fallback: read the frontend registry in place
+    os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                 "..", "..", "frontend", "components", "sims_v2",
+                 "SIM_INDEX.json"),
+]
+_SIM_INDEX_PATH = next((p for p in _SIM_INDEX_CANDIDATES
+                        if os.path.isfile(p)), _SIM_INDEX_CANDIDATES[0])
+
+
+@lru_cache(maxsize=1)
+def _node_sim_index() -> dict:
+    with open(_SIM_INDEX_PATH, encoding="utf-8") as fh:
+        sim_index = json.load(fh)
+    out: dict = {}
+    for sim_id, meta in sim_index.items():
+        entry = {"id": sim_id, "title": meta.get("t", sim_id),
+                 "classLevel": meta.get("c"),
+                 "generated": "_gen" in sim_id or sim_id.startswith("gen_")}
+        for nid in meta.get("n") or []:
+            out.setdefault(nid, []).append(entry)
+    return out
+
+
+@router.get("/{node_id}/sims")
+async def sims_for_node(node_id: str):
+    """Sims whose nodeIds include this node (learn-page launcher)."""
+    return _node_sim_index().get(node_id, [])
+
+
 @router.get("/node")
 async def get_node(node_id: str = Query(..., min_length=1,
                                         description="e.g. c10_bio_cbse_01_001")):

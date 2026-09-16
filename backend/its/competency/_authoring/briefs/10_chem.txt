@@ -1,0 +1,96 @@
+
+### NODE c10_chem_cbse_01_002  class=10 sub=chem ch=1 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: A chemical equation is a symbolic representation of a chemical reaction where reactants (starting substances) are written on the left side and products (new substances formed) on the right side, separated by an arrow (→), with physical states indicated in parentheses. Balancing by inspection is the method of adjusting stoichiometric coefficients (numbers placed before formulas) to ensure the number of atoms of each element is identical on both sides, obeying the Law of Conservation of Mass.
+WALKTHROUGH: Observe a magnesium ribbon burning in air — it produces a blinding white light and leaves a white ash (magnesium oxide). This is a chemical change you saw in Class 6 (c6_chemistry_ch05_004) and Class 9 (c9_chem_ch3_1). To represent it chemically, we first write the word equation: Magnesium + Oxygen → Magnesium oxide. Then we convert to formulas using valency rules from Class 9 (c9_chem_ch3_6): Mg + O₂ → MgO. Notice oxygen atoms are unbalanced (2 on left, 1 on right). We balance by placing coefficient 2 before MgO, then 2 before Mg: 2Mg + O₂ → 2MgO. This step-by-step inspection method is the core skill for all reaction types in this chapter.
+D1 Q: Write the balanced chemical equation for the reaction: Hydrogen gas burns in oxygen gas to form liquid water. Include physical states.
+D1 A: Correct answer: 2H₂(g) + O₂(g) → 2H₂O(l). A wrong answer like H₂ + O₂ → H₂O reveals the student recalls the reaction but fails to apply the Law of Conservation of Mass — they have not balanced oxygen atoms (2 on left, 1 on right). Another error: writing H₂O(g) instead of (l) shows confusion about water's state at room temperature, a common board exam marking penalty.
+D2 Q: A student writes the skeleton equation for heating calcium carbonate as: CaCO₃(s) → CaO(s) + CO₂(g). They claim it is already balanced. Is the student correct? Explain why or why not by counting atoms of each element on both sides.
+D2 A: Yes, the student is correct. Left side: Ca=1, C=1, O=3. Right side: Ca=1 (in CaO), C=1 (in CO₂), O=1+2=3. All atoms match. A wrong answer claiming it is unbalanced reveals the student does not recognize that polyatomic ions (CO₃²⁻) break apart in decomposition — they may incorrectly treat CO₃ as a unit that must stay intact, a misconception from not understanding ionic dissociation in thermal decomposition.
+D3 Q: Balance the following skeleton equation by inspection: Fe(s) + H₂O(g) → Fe₃O₄(s) + H₂(g). Show all steps and verify the final atom count.
+D3 A: Step 1: Count atoms: Fe: 1 vs 3, H: 2 vs 2, O: 1 vs 4. Step 2: Balance Fe first (appears in one compound each side): place 3 before Fe → 3Fe + H₂O → Fe₃O₄ + H₂. Step 3: Balance O: 4 on right, so place 4 before H₂O → 3Fe + 4H₂O → Fe₃O₄ + H₂. Step 4: Balance H: 8 on left, so place 4 before H₂ → 3Fe + 4H₂O → Fe₃O₄ + 4H₂. Step 5: Verify: Fe=3, H=8, O=4 on both sides. Balanced: 3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g). A wron
+D4 Q: Compare the balancing approach for these two reactions: (i) Na(s) + Cl₂(g) → NaCl(s) and (ii) P₄(s) + Cl₂(g) → PCl₃(l). Which reaction requires balancing the diatomic element first? Justify your answer by analyzing the element inventory. [IN-SCOPE-REWRITE]
+D4 A: Reaction (ii) requires balancing the diatomic element (Cl₂) first. In (i), Na and Cl₂ both appear once; we balance Cl by putting 2 before NaCl, then 2 before Na. In (ii), P₄ has 4 P atoms, so we put 4 before PCl₃, giving 12 Cl on right. Then we balance Cl₂ by putting 6 before it. If a student starts with P₄ in (i) or Cl₂ in (ii) without checking which element appears in multiple compounds, they create fractional coef
+D5 Q: A student balances the double displacement reaction: BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + NaCl(aq) as: BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl. They argue it is balanced because Ba, Cl, Na, S, O counts match. Evaluate this claim and identify the error if any.
+D5 A: The claim is wrong. Atom count: Left: Ba=1, Cl=2, Na=2, S=1, O=4. Right: Ba=1, S=1, O=4, Na=2, Cl=2. Atoms match, BUT the student wrote NaCl instead of 2NaCl in the skeleton. The error is in the skeleton equation: Na₂SO₄ provides 2 Na⁺, so product must be 2NaCl, not NaCl. The student "balanced" by changing the formula of sodium chloride from NaCl to 2NaCl (coefficient) but the skeleton itself was incorrectly written 
+D6 Q: Design a 3-step experimental procedure to prove that the reaction between iron nails and copper sulphate solution follows the balanced equation: Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s). Your procedure must include how to verify the stoichiometric ratio 1:1:1:1.
+D6 A: Good answer: Step 1: Weigh a clean iron nail (mass m₁). Step 2: Immerse in 50 mL of 0.1 M CuSO₄ solution until reaction stops (blue colour fades, reddish Cu deposits). Step 3: Remove nail, wash, dry, weigh again (mass m₂). Mass loss = m₁ - m₂ = mass of Fe reacted. Filter and dry the Cu deposit, weigh (mass m₃). Calculate moles: n(Fe) = (m₁-m₂)/56, n(Cu) = m₃/63.5. If n(Fe) ≈ n(Cu), 1:1 ratio verified. Poor answer: "O
+
+VETTED-DIAG C10_ORIG_BS_23 (fit 0.71, src c10_board_2017_2019.marker)
+  Q: Calculate the mass of 0.25 moles of CaCO3 and the number of oxygen atoms in it.
+  A: Mass = 25g. Oxygen atoms = 4.5165 x 10^23.
+VETTED-DIAG C10_ORIG_Q15 (fit 0.67, src c10_cfq_mcq.marker)
+  Q: The percentage of oxygen in water (H2O) is: (a) 11.1% (b) 88.9% (c) 50% (d) 33.3%
+  A: (b) 88.9%
+VETTED-DIAG C10_ORIG_Q39 (fit 0.67, src c10_cfq_mcq.marker)
+  Q: The mass of 0.5 moles of CaCO3 is: (a) 50g (b) 100g (c) 25g (d) 200g
+  A: (a) 50g
+VETTED-MIS misconception_7 (fit 0.40)
+  M: Gay-Lussac's law applies to all substances.
+  C: Gay-Lussac's law applies to GASES only (volumes of gaseous reactants and products).
+VETTED-MIS M3 (fit 0.40)
+  M: Atomic number = number of neutrons
+  C: Atomic number = number of PROTONS. Mass number = protons + neutrons. Neutrons = mass number - atomic number.
+VETTED-MIS misconception_4 (fit 0.40)
+  M: Atomic number = mass number.
+  C: Atomic number = number of protons only. Mass number = protons + neutrons.
+### NODE c10_chem_cbse_01_003  class=10 sub=chem ch=1 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A combination reaction is a chemical reaction in which two or more reactants (elements or compounds) combine to form a single product. The general form is A + B → AB, where A and B can be elements or compounds, and AB is always a compound.
+WALKTHROUGH: Begin with a real-world observation: a student lighting a magnesium ribbon in the school laboratory sees an intense white flame and a white powdery ash (MgO). Ask: "What happened to the magnesium and the oxygen from the air?" Connect to prior node c10_chem_cbse_01_001 (identifying chemical change) — new substance formed, energy released. Then use c10_chem_cbse_01_002 (balancing equations) to write the skeletal equation Mg + O₂ → MgO and balance it step-by-step. Highlight that two reactants (Mg, O₂) form ONE product (MgO) — this is the defining pattern. Extend to other examples: burning coal (C + O₂ → CO₂), quicklime reacting with water (CaO + H₂O → Ca(OH)₂). Emphasize that combination reactions are often exothermic (release heat), linking to the flame observed.
+D1 Q: Define a combination reaction and give the general symbolic representation. Provide one example with a balanced chemical equation including physical states.
+D1 A: A combination reaction is a reaction where two or more substances combine to form a single product. General form: A + B → AB. Example: 2Mg(s) + O₂(g) → 2MgO(s). 
+Wrong answer insight: If a student writes "A + B → C + D" or gives an example like 2H₂O → 2H₂ + O₂, they confuse combination with decomposition. If they omit physical states, they lose board exam marks (1 mark for states in 3-marker questions).
+D2 Q: Why is the reaction CaO(s) + H₂O(l) → Ca(OH)₂(aq) classified as a combination reaction, even though one reactant is a compound and the product is a solution? Explain the criterion that defines the reaction type.
+D2 A: It is a combination reaction because two distinct reactants (calcium oxide and water) combine to form only ONE product (calcium hydroxide). The physical state of the product (aqueous) does not change the fact that a single compound is formed from two reactants. The defining criterion is the number of products (exactly one), not the states or complexity of reactants. 
+Wrong answer insight: If a student says "because i
+D3 Q: Balance the following combination reaction and identify the type of each reactant (element/compound): 
+Fe(s) + S(s) → FeS(s) 
+Then, if 56 g of iron reacts with 32 g of sulphur, calculate the mass of iron(II) sulphide formed. (Atomic masses: Fe=56, S=32)
+D3 A: Step 1: Identify reactants: Fe (element), S (element). Product: FeS (compound). 
+Step 2: Balance atoms: 1 Fe on left, 1 Fe on right; 1 S on left, 1 S on right. Equation is already balanced: Fe(s) + S(s) → FeS(s). 
+Step 3: Molar masses: Fe = 56 g/mol, S = 32 g/mol, FeS = 88 g/mol. 
+Step 4: Moles of Fe = 56/56 = 1 mol; moles of S = 32/32 = 1 mol. Stoichiometric ratio 1:1, so neither is limiting. 
+Step 5: 1 mol FeS form
+D4 Q: Compare the reactions: 
+(A) 2H₂(g) + O₂(g) → 2H₂O(l) 
+(B) NH₃(g) + HCl(g) → NH₄Cl(s) 
+(C) 2KClO₃(s) → 2KCl(s) + 3O₂(g) 
+Which are combination reactions? Justify by analyzing the number of reactants and products in each.
+D4 A: (A) and (B) are combination reactions. (C) is a decomposition reaction. 
+Analysis: 
+- (A) Two reactants (H₂, O₂) → one product (H₂O). 
+- (B) Two reactants (NH₃, HCl) → one product (NH₄Cl). 
+- (C) One reactant (KClO₃) → two products (KCl, O₂). 
+The key pattern: combination reactions ALWAYS have multiple reactants and exactly ONE product. 
+Wrong answer insight: If a student includes (C) because "it has oxygen", they co
+D5 Q: A student writes the equation for the reaction of ammonia with hydrogen chloride as: 
+NH₃ + HCl → NH₄Cl 
+and states: "This is not a combination reaction because no element is involved." Evaluate this statement and correct the error.
+D5 A: The statement is incorrect. The reaction NH₃(g) + HCl(g) → NH₄Cl(s) is a combination reaction. The definition requires two or more reactants forming a single product — it does NOT require reactants to be elements. Here, two compounds (ammonia and hydrogen chloride) combine to form one compound (ammonium chloride). 
+Correction: Combination reactions include: element+element, element+compound, compound+compound. 
+Wrong
+D6 Q: Design a simple classroom activity to demonstrate a combination reaction using materials available in a school lab. Write the balanced chemical equation, list observations, and state one safety precaution. [IN-SCOPE-REWRITE]
+D6 A: Activity: Burning a magnesium ribbon in air. 
+Materials: Magnesium ribbon (2 cm), tongs, Bunsen burner, watch glass. 
+Procedure: Hold Mg ribbon with tongs, ignite in burner flame, collect white ash on watch glass. 
+Equation: 2Mg(s) + O₂(g) → 2MgO(s) 
+Observations: (1) Intense white flame (blinding), (2) Ribbon burns completely, (3) White powdery ash (MgO) formed, (4) Mass of ash > mass of ribbon (oxygen added). 
+Safe
+
+VETTED-DIAG C10_ORIG_MCQ_47 (fit 1.00, src c10_cfq_mcq.marker)
+  Q: The pH of a 0.01M HCl solution is: (a) 1 (b) 2 (c) 3 (d) 12
+  A: (b) 2
+VETTED-DIAG C10_ORIG_Q15 (fit 0.67, src c10_cfq_mcq.marker)
+  Q: The percentage of oxygen in water (H2O) is: (a) 11.1% (b) 88.9% (c) 50% (d) 33.3%
+  A: (b) 88.9%
+VETTED-DIAG C10_ORIG_SP1_08 (fit 0.67, src c10_specimen_2024.marker)
+  Q: Which reaction is a substitution reaction? (a) C2H4 + Br2 -> C2H4Br2 (b) CH4 + Cl2 ->(UV)-> CH3Cl + HCl (c) C2H2 + 2H2 -> C2H6 (d) C2H4 + H2O -> C2H5OH
+  A: (b) CH4 + Cl2 ->(UV)-> CH3Cl + HCl
+VETTED-MIS misconception_1 (fit 0.65)
+  M: A combination reaction always produces a compound from two elements only.
+  C: A combination reaction is any reaction in which two or more reactants (which may be elements or compounds) join to form a single product. The defining feature is "many reactants -> one product", not the type of reactants.
+VETTED-MIS misconception_12 (fit 0.40)
+  M: When two substances combine, the product always has properties that are an average of the reactants' properties.
+  C: A chemical combination produces a new substance with its own characteristic properties. These properties are not predictable by averaging the properties of the reactants; they must be measured for the new compound.
+VETTED-MIS misconception_9 (fit 0.39)
+  M: In a combination reaction, mass is created because one product is formed from two reactants.
+  C: In any chemical reaction, including combination reactions, mass is conserved. The atoms of the reactants rearrange to form the product, so the mass of the product equals the combined mass of the reactants.

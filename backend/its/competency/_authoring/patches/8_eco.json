@@ -1,0 +1,19 @@
+{
+ "c8_eco_ch3_10": {
+  "rewrites": {},
+  "appends": [
+   {
+    "q": "Trace the correct sequence by which smart LED streetlights with daylight sensors cut a municipality's operating costs.",
+    "a": "The savings chain runs: (1) Light sensors detect natural daylight levels (2) Streetlights automatically dim or switch off when daylight is enough (3) Wasted electricity from broken manual timers disappears (4) The municipal operating budget shrinks without building new power plants. A wrong answer that says the city must simply build more power plants shows the student has missed the economic shift from capital-intensive physical expansion to data-driven efficiency improvement of existing assets."
+   },
+   {
+    "q": "A city fleet burns fuel worth 15,00,000 rupees a year; smart routing cuts distance travelled by 20 percent. How many rupees of fuel does the city save per year?",
+    "a": "Smart routing saves fuel equal to 20 percent of the fleet's 15,00,000 rupee annual bill: Savings = 0.20 x 15,00,000 = 3,00,000 rupees per year. A wrong answer that books the one-time 50,00,000 sensor installation as the yearly saving confuses capital expenditure with recurring operational savings."
+   },
+   {
+    "q": "What makes prepaid smart water meters a self-financing answer to Non-Revenue Water in a low-fund municipal ward?",
+    "a": "Sub-meters compare the volume pumped into a neighbourhood with the volume actually billed, so any mismatch pinpoints the exact pipe section with a leak or illegal tap; repairs target only that section instead of digging up entire lines, and the recovered water sales pay for the installation. A wrong answer that raises the tariff to cover losses shows the student ignores that charging consumers for wasted water reduces welfare and trust while leaving the physical loss itself unfixed."
+   }
+  ]
+ }
+}

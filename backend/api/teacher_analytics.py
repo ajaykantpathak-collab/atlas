@@ -40,8 +40,13 @@ router = APIRouter(prefix="/api/teacher-analytics", tags=["teacher-analytics"])
 logger = logging.getLogger("api.teacher_analytics")
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
-_STUDENT_STORE = os.path.normpath(
-    os.path.join(_HERE, "..", "_cache", "tutor_students.json"))
+# Same store the tutor writes — kept in cbse_data/ (shared runtime dir)
+# so all backend replicas and the analytics endpoint see one file.
+_STUDENT_STORE = os.environ.get(
+    "TUTOR_STORE",
+    os.path.normpath(
+        os.path.join(_HERE, "..", "..", "cbse_data",
+                     "tutor_students.json")))
 _COMPETENCY_DIR = os.path.normpath(
     os.path.join(_HERE, "..", "its", "competency"))
 _SIM_NODE_MAP_PATH = os.path.join(_COMPETENCY_DIR, "SIM_NODE_MAP.json")
@@ -154,7 +159,16 @@ def _sims_by_catalog() -> dict[str, list[dict[str, Any]]]:
 
 
 def _load_students() -> Optional[dict[str, Any]]:
-    """Raw per-student state, or None when the store is unavailable."""
+    """Raw per-student state, or None when the store is unavailable.
+
+    Postgres (tutor_student_states) is authoritative; the legacy JSON
+    file is only a fallback for pre-migration data or a DB outage.
+    """
+    try:
+        from backend.services.tutor_store import DbTutorStore
+        return DbTutorStore().load_all()
+    except Exception:
+        pass
     try:
         with open(_STUDENT_STORE, encoding="utf-8") as fh:
             data = json.load(fh)

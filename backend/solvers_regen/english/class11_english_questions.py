@@ -53,6 +53,12 @@ INDIAN_SCHOOLS = [
     "Saraswati Vidyalaya", "Carmel Convent School",
 ]
 
+INDIAN_ORGANIZATIONS = [
+    "the Red Cross Society", "the Rotary Club", "the Municipal Corporation",
+    "the Sports Authority", "the Environment Club", "the Nature Trust",
+    "the Community Centre", "the Youth Welfare Board",
+]
+
 INDIAN_EVENTS = [
     "Independence Day celebration", "Diwali festival",
     "Holi celebration", "Republic Day parade",
@@ -641,6 +647,12 @@ def _gen_voice(rng: random.Random, competency: str) -> Dict[str, Any]:
             f"Use Passive Voice when the action itself is more important than the doer "
             f"(e.g., 'A new campaign was launched') or when the doer is unknown."
         )
+        explanation = (
+            "Voice transformation requires identifying the subject, verb, and object, "
+            "then shifting focus between the doer and the action while preserving tense. "
+            "In report writing, the choice depends on whether the doer or the action "
+            "deserves emphasis."
+        )
         return _make_la(
             _uid("voice", idx), "voice", question, answer,
             "hard", explanation, competency, 6,
@@ -956,7 +968,7 @@ def _gen_transformation(rng: random.Random, competency: str) -> Dict[str, Any]:
     idx = rng.randint(0, 100)
     if competency == "standard":
         pair = rng.choice(TRANSFORMATION_TEMPLATES)
-        direct_sent, indirect_sent, _ = pair
+        direct_sent, indirect_sent = pair[0], pair[1]
         question = f"Rewrite the following sentence as indicated:\n{direct_sent}"
         answer = indirect_sent
         explanation = (
@@ -1983,7 +1995,7 @@ ALL_TOPICS = list(ALL_GENERATORS.keys())
 #  MAIN INTERFACE
 # ═══════════════════════════════════════════════════════════════
 
-def generate_questions(seed: int, count: int, topic: Optional[str] = None) -> List[Dict[str, Any]]:
+def generate_questions(seed: int, count: int = None, topic: Optional[str] = None) -> List[Dict[str, Any]]:
     """
     Generate a list of CISCE Class 11 English practice questions.
 
@@ -2002,6 +2014,8 @@ def generate_questions(seed: int, count: int, topic: Optional[str] = None) -> Li
     """
     rng = random.Random(seed)
     questions = []
+    if count is None:
+        count = 1  # registry calls fn(seed) for a single drill
 
     available_topics = [topic] if topic and topic in ALL_GENERATORS else ALL_TOPICS
 

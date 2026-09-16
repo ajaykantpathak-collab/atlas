@@ -1,0 +1,11 @@
+{
+ "c11_cs_cbse_11_010": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of immediate actions after receiving a suspicious bank-verification email asking for your PIN.",
+    "a": "The response runs: (1) Inspect the sender domain against the bank's real domain (2) Refuse to click the link or enter the PIN anywhere (3) Delete the message and report it through the bank's official helpline (4) Forward the details to the national cyber crime helpline. A wrong answer that clicks first to check shows the student has missed that phishing exploits trust and urgency, and that technical indicators must be verified before any action."
+   }
+  },
+  "appends": []
+ }
+}

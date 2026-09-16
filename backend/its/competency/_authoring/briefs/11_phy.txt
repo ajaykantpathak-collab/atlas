@@ -1,0 +1,423 @@
+
+### NODE c11_phy_cbse_03_012  class=11 sub=phy ch=3 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: The equation of trajectory of a projectile is the mathematical relationship between the vertical displacement (y) and horizontal displacement (x) of an object projected with initial velocity \(v_0\) at an angle \(\theta_0\) to the horizontal, under constant gravitational acceleration \(g\) and negligible air resistance. It is given by \(y = x \tan\theta_0 - \frac{g x^2}{2 v_0^2 \cos^2\theta_0}\), which describes a parabolic path in the vertical plane.
+WALKTHROUGH: Watch a cricket ball hit for a six — it follows a curved path. That curve is not circular; it is a parabola. We already know the horizontal motion is uniform (\(x = v_0 \cos\theta_0 \, t\)) and vertical motion is uniformly accelerated (\(y = v_0 \sin\theta_0 \, t - \frac{1}{2}gt^2\)). To find the *shape* of the path, we need a direct relation between \(y\) and \(x\) without time. Solve the first equation for \(t = \frac{x}{v_0 \cos\theta_0}\) and substitute into the second. The result is a quadratic in \(x\), confirming the parabolic trajectory. This equation is the "fingerprint" of the projectile — it tells us the height at any horizontal distance.
+D1 Q: Write the standard form of the trajectory equation for a projectile launched from the origin with speed \(v_0\) at angle \(\theta_0\). Identify the physical meaning of the coefficient of \(x\) and the coefficient of \(x^2\).
+D1 A: The equation is \(y = (\tan\theta_0)x - \left(\frac{g}{2v_0^2\cos^2\theta_0}\right)x^2\). The coefficient of \(x\) is \(\tan\theta_0\), which equals the initial slope of the trajectory (ratio of initial vertical to horizontal velocity). The coefficient of \(x^2\) is \(-\frac{g}{2v_0^2\cos^2\theta_0}\), which is negative, showing the parabola opens downward; its magnitude determines the "tightness" of the curve — larg
+D2 Q: A student claims: "The trajectory equation \(y = x\tan\theta - \frac{gx^2}{2u^2\cos^2\theta}\) is valid even if the projectile is launched from a cliff of height \(h\) above the ground." Is this correct? Explain why or why not.
+D2 A: Incorrect. The given equation assumes the origin (0,0) is the launch point. If launched from a height \(h\), the vertical displacement from the *ground* is \(y_{\text{ground}} = h + x\tan\theta - \frac{gx^2}{2u^2\cos^2\theta}\). The trajectory *relative to the launch point* is still parabolic with the same shape, but the equation in ground coordinates has an added constant \(h\). A student who says "yes" is confusing
+D3 Q: A stone is projected from ground level with a speed of \(20 \, \text{m/s}\) at an angle of \(30^\circ\) to the horizontal. Using the trajectory equation, find the height of the stone when it has travelled a horizontal distance of \(15 \, \text{m}\). Take \(g = 10 \, \text{m/s}^2\).
+D3 A: Given: \(u = 20 \, \text{m/s}\), \(\theta = 30^\circ\), \(x = 15 \, \text{m}\), \(g = 10 \, \text{m/s}^2\). 
+\(\tan30^\circ = 1/\sqrt{3} \approx 0.577\), \(\cos30^\circ = \sqrt{3}/2\), \(\cos^2 30^\circ = 3/4\). 
+Coefficient of \(x^2\): \(\frac{g}{2u^2\cos^2\theta} = \frac{10}{2 \times 400 \times (3/4)} = \frac{10}{600} = \frac{1}{60} \, \text{m}^{-1}\). 
+\(y = (0.577)(15) - \frac{1}{60}(15)^2 = 8.66 - \frac{225}{60}
+D4 Q: Two projectiles A and B are launched with the same initial speed \(u\) but at angles \(\theta\) and \(90^\circ-\theta\) respectively. Compare their trajectory equations. At what horizontal distance \(x\) (other than \(x=0\)) do their paths intersect?
+D4 A: For A: \(y_A = x\tan\theta - \frac{gx^2}{2u^2\cos^2\theta}\). 
+For B: \(y_B = x\tan(90^\circ-\theta) - \frac{gx^2}{2u^2\cos^2(90^\circ-\theta)} = x\cot\theta - \frac{gx^2}{2u^2\sin^2\theta}\). 
+Set \(y_A = y_B\): \(x(\tan\theta - \cot\theta) = \frac{gx^2}{2u^2}\left(\frac{1}{\cos^2\theta} - \frac{1}{\sin^2\theta}\right)\). 
+Using \(\frac{1}{\cos^2\theta} - \frac{1}{\sin^2\theta} = \frac{\sin^2\theta - \cos^2\theta}{\
+D5 Q: A projectile's trajectory is given by \(y = 2x - 0.02x^2\) (SI units). A student calculates the maximum height by setting \(dy/dx = 0\) and finds \(x = 50 \, \text{m}\), then \(y = 50 \, \text{m}\). Another student uses the formula \(H = \frac{u^2\sin^2\theta}{2g}\) and gets a different answer. Which method is correct?
+D5 A: Both methods are correct *if* the parameters are extracted correctly. From \(y = 2x - 0.02x^2\), comparing with \(y = x\tan\theta - \frac{g}{2u^2\cos^2\theta}x^2\): 
+\(\tan\theta = 2 \Rightarrow \theta \approx 63.4^\circ\). 
+\(\frac{g}{2u^2\cos^2\theta} = 0.02\). With \(g = 10\), \(\cos\theta = 1/\sqrt{5}\), \(\cos^2\theta = 1/5\). 
+\(\frac{10}{2u^2(1/5)} = 0.02 \Rightarrow \frac{25}{u^2} = 0.02 \Rightarrow u^2 = 125
+D6 Q: Design a simple experiment using a smartphone camera and a ball thrown in a darkened room with a strobe light (or video analysis) to verify that the trajectory is parabolic. What measurements would you take, and how would you plot the data to confirm the quadratic relationship? [IN-SCOPE-REWRITE]
+D6 A: Record a video of a ball thrown at an angle (e.g., 30°) against a grid background. Use video analysis software (like Tracker) to mark the ball's position \((x, y)\) in each frame. Plot \(y\) vs \(x\). Fit a quadratic curve \(y = ax + bx^2\). The coefficient \(b\) should be negative. Calculate theoretical \(b_{\text{theory}} = -\frac{g}{2u^2\cos^2\theta}\) using measured \(u\) and \(\theta\). Compare \(b_{\text{exp}}\
+
+VETTED-DIAG cfq_2_1 (fit 0.71, src c11_physics_diagnostics.marker)
+  Q: A projectile is launched with speed u = 30 m/s at angle theta = 30 deg  above horizontal. Find the maximum height, time of flight, and range. (g = 10 m/s^2)
+  A: u_x = 30cos30 deg  = 25.98 m/s, u_y = 30sin30 deg  = 15 m/s. Max height: H = u_y^2/(2g) = 225/20 = 11.25 m. Time of flight: T = 2u_y/g = 30/10 = 3 s. Range: R = u^2sin2theta/g = 900xsin60 deg /10 = 900x0.866/10 = 77.94 m.
+VETTED-DIAG cfq_1_1 (fit 0.50, src c11_physics_diagnostics.marker)
+  Q: Find the dimensional formula of force and of the universal gravitational constant G.
+  A: Force: F = ma -> [F] = [M][LT^-2] = [MLT^-2]. Gravitational constant: From F = Gm_1m_2/r^2 -> G = Fr^2/(m_1m_2) -> [G] = [MLT^-2][L^2]/([M][M]) = [M^-1L^3T^-2].
+VETTED-DIAG cfq_7_1 (fit 0.33, src c11_physics_diagnostics.marker)
+  Q: Find the value of g at a height h = R above Earth's surface. (g on surface = 9.8 m/s^2, R = Earth's radius). Also find the escape velocity from Earth. (R = 6.4x10^6 m, g = 9.8)
+  A: (a) g at height h: g' = g(R/(R+h))^2 = g(R/(R+R))^2 = g(R/2R)^2 = g/4 = 9.8/4 = 2.45 m/s^2. (b) Escape velocity: v_e = sqrt(2gR) = sqrt(2 x 9.8 x 6.4x10^6) = sqrt(1.254x10^8) = 11,200 m/s ~= 11.2 km/s.
+VETTED-MIS misconception_10 (fit 0.18)
+  M: Torque = r x F and torque = rF, so they are the same thing.
+  C: Torque is the vector tau = r x F. Its magnitude is |r||F|sin(theta), where theta is the angle between r and F. Only when theta = 90 degrees does |tau| = rF.
+VETTED-MIS misconception_12 (fit 0.18)
+  M: The shadow is part of the object and travels with it inside the object.
+  C: The shadow is formed behind the object in the path of blocked light. It is not a part of the object's body.
+VETTED-MIS misconception_9 (fit 0.18)
+  M: If I push an object and it moves in any direction, work is done by my push.
+  C: Only the force component in the direction of displacement counts toward work done by that force.
+### NODE c11_phy_cbse_04_001  class=11 sub=phy ch=4 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Aristotle's fallacy is the incorrect assertion that a continuous external force is required to maintain a body in uniform motion; Galileo's experiments with inclined planes demonstrated that in the absence of friction, a body in uniform motion continues indefinitely without any external force, establishing the law of inertia: a body remains in its state of rest or uniform motion in a straight line unless compelled by a net external force to change that state.
+WALKTHROUGH: Observe a marble rolling on a smooth floor versus a rough carpet—on the smooth floor it travels farther before stopping. Now imagine a perfectly frictionless horizontal surface (like an air hockey table with the air on): the marble would never stop. This thought experiment mirrors Galileo's insight: he asked what happens to a ball rolling down one smooth incline and up another; as the second incline flattens to horizontal, the ball rolls farther to reach the same height, implying infinite distance on a frictionless horizontal plane. Start by identifying the hidden force (friction) in everyday experience, then trace Galileo's logical extrapolation to the idealised frictionless case, and conclude with the law of inertia as the correct principle.
+D1 Q: State Aristotle's law of motion in your own words and give one everyday example that seems to support it.
+D1 A: Aristotle's law: "An external force is required to keep a body in motion." Example: A child must continuously pull a toy car with a string to keep it moving on the floor; if the child stops pulling, the car stops. A wrong answer (e.g., "force is needed to start motion only") reveals the student has not grasped the historical misconception that dominated physics for nearly two millennia.
+D2 Q: Why did Aristotle—and most people—believe a force is needed to sustain uniform motion? Identify the specific force that is always present in terrestrial experience but absent in Galileo's idealised thought experiment.
+D2 A: Aristotle generalised from everyday experience where friction (and air resistance) always opposes motion. On Earth, a moving object slows down unless a force counters friction. Galileo's genius was to imagine a world without friction—an idealised horizontal plane—where no force is needed to maintain uniform motion. A wrong answer (e.g., "gravity stops the motion") reveals confusion between the vertical force of gravi
+D3 Q: A ball is released from rest at height h on a smooth (frictionless) inclined plane. It rolls down and up a second smooth inclined plane of the same angle. What maximum height does it reach on the second plane? Now, if the second plane is made horizontal (angle = 0°), how far does the ball travel before stopping? Explai
+D3 A: On the second inclined plane, the ball reaches exactly height h (conservation of mechanical energy, no friction). On a horizontal plane (angle = 0°), the ball never stops—it travels an infinite distance at constant speed because no component of gravity acts horizontally and there is no friction to dissipate kinetic energy. A wrong answer (e.g., "it stops after a finite distance") reveals the student still thinks moti
+D4 Q: Galileo's double inclined plane experiment is often called a "thought experiment." Why could Galileo not perform this experiment exactly as described in a real laboratory? What practical limitation forces the ball to stop even on a horizontal plane?
+D4 A: In a real laboratory, friction (rolling friction, air resistance) can never be completely eliminated. Even on a very smooth horizontal surface, these dissipative forces do negative work, reducing the ball's kinetic energy until it stops. Galileo's experiment is a thought experiment because it requires an idealised frictionless world that does not exist. A wrong answer (e.g., "gravity pulls it down") shows the student
+D5 Q: A student argues: "Galileo was wrong. If I stop pushing my bicycle on a level road, it stops. So force IS needed to keep it moving." Evaluate this claim. Is the student's observation correct? Is the conclusion correct? Explain the flaw in reasoning.
+D5 A: The observation is correct (bicycle stops), but the conclusion is wrong. The bicycle stops because friction (tyre-road, bearings, air resistance) exerts a net retarding force. To maintain constant velocity, the cyclist must apply a forward force that exactly cancels friction—net force zero. Galileo's law states: if net external force is zero, velocity is constant. The student confuses "applied force" with "net force.
+D6 Q: Design a simple classroom demonstration using low-cost materials (e.g., a wooden plank, a marble, a towel, a book) that illustrates Galileo's insight: reducing friction makes an object move farther with the same initial push. Describe the setup, the variable you change, and what students should observe. [IN-SCOPE-REWRITE]
+D6 A: Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel, (3) wood with a smooth plastic sheet (or just the bare wood if very smooth). Variable: surface roughness (friction coefficient). Observation: Marble travels farthest on smoothest surface. Students infer: less friction → less opposing force → longer distance at constant
+
+VETTED-DIAG cfq_7_2 (fit 0.30, src c11_physics_diagnostics.marker)
+  Q: If the distance between two masses is doubled, by what factor does the gravitational force change? What happens to the gravitational potential energy?
+  A: Force: F = Gm_1m_2/r^2. If r -> 2r: F' = Gm_1m_2/(2r)^2 = F/4. Force becomes 1/4 (inverse square law). Potential energy: U = -Gm_1m_2/r. If r -> 2r: U' = -Gm_1m_2/(2r) = U/2. PE becomes half (inverse law, not inverse square). Note: PE is negative and becomes less negative (closer to zero) as r increases.
+VETTED-DIAG cfq_3_1 (fit 0.25, src c11_physics_diagnostics.marker)
+  Q: A 5 kg block is placed on a frictionless incline of angle 30 deg . Find the acceleration of the block and the normal force. (g = 10 m/s^2)
+  A: Forces on block: weight mg = 50 N (vertically down), normal N (perpendicular to incline). Component of weight along incline: mg sin30 deg  = 50 x 0.5 = 25 N. Component perpendicular: mg cos30 deg  = 50 x 0.866 = 43.3 N. Acceleration: a = mg sintheta/m = g sin30 deg  = 10 x 0.5 = 5 m/s^2 (along incline, downward). Normal force: N = mg cos30 deg  = 43.3 N.
+VETTED-DIAG cfq_3_2 (fit 0.25, src c11_physics_diagnostics.marker)
+  Q: A 0.1 kg ball moving at 20 m/s is caught and brought to rest in 0.05 s. Find the average force exerted on the ball. Is this force on the ball or by the ball?
+  A: Impulse-momentum: FxDeltat = Deltap = m(v - u) = 0.1(0 - 20) = -2 kgxm/s. F = Deltap/Deltat = -2/0.05 = -40 N. The force ON the ball is -40 N (opposing motion, i.e., decelerating). By Newton's 3rd law, the force BY the ball on the hand is +40 N (action-reaction pair).
+VETTED-MIS misconception_13 (fit 0.31)
+  M: A force is needed to keep an object moving forever.
+  C: A force is needed to start, stop, or change motion. An object in motion tends to stay in motion unless a force (like friction) acts on it.
+VETTED-MIS misconception_13 (fit 0.31)
+  M: A force is needed to keep an object moving forever.
+  C: A force is needed to start, stop, or change motion. An object in motion tends to stay in motion unless a force (like friction) acts on it.
+VETTED-MIS misconception_2 (fit 0.23)
+  M: There is no force acting on a book resting quietly on a table.
+  C: A stationary object can have forces acting on it; the forces are just balanced, so there is no change in motion.
+### NODE c11_phy_cbse_04_006  class=11 sub=phy ch=4 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: The law of conservation of momentum states that for an isolated system (no net external force), the total vector momentum remains constant in time: \(\sum \vec{p}_{\text{initial}} = \sum \vec{p}_{\text{final}}\). Momentum \(\vec{p} = m\vec{v}\) is a vector quantity measured in kg·m/s. The law follows directly from Newton's second and third laws and holds for all collisions and explosions in isolated systems, regardless of whether kinetic energy is conserved.
+WALKTHROUGH: Watch a cricket bowler deliver a ball: the ball gains forward momentum while the bowler experiences a tiny backward recoil. Now imagine the same interaction on a frictionless icy lake — the total momentum of bowler+ball system before release (zero) equals total momentum after. Begin by identifying the system boundaries: are external forces (friction, gravity component along motion) negligible during the brief interaction? If yes, apply \(\sum \vec{p}_i = \sum \vec{p}_f\) as a vector equation. Break into x and y components. For 1D problems, choose a sign convention. Always verify isolation assumption before writing the conservation equation.
+D1 Q: State the law of conservation of linear momentum and write its mathematical form for a two-body isolated system. What is the SI unit of momentum?
+D1 A: The total linear momentum of an isolated system remains constant: \(\vec{p}_{1i} + \vec{p}_{2i} = \vec{p}_{1f} + \vec{p}_{2f}\). SI unit: kg·m/s. A wrong answer (e.g., "momentum is conserved always" or unit as N·s without recognizing it equals kg·m/s) reveals confusion about the isolation condition or dimensional analysis.
+D2 Q: A 0.15 kg cricket ball moving at 40 m/s is caught by a fielder who brings it to rest in 0.1 s. Explain why the momentum of the ball alone is not conserved, but the momentum of the ball+fielder+Earth system is conserved. Identify the external impulse.
+D2 A: The ball experiences a large external impulse from the fielder's hands (force × time = change in momentum = 6 N·s). The ball alone is not isolated. However, the ball+fielder+Earth system experiences no net external horizontal force during the catch, so its total momentum is conserved. The external impulse is the friction force from the ground on the fielder's feet, but if the catch is quick, this impulse is small. A 
+D3 Q: A 50 g bullet moving horizontally at 400 m/s embeds into a 2 kg wooden block initially at rest on a smooth horizontal table. Calculate the speed of the combined block+bullet system just after impact. Show all steps with units.
+D3 A: Given: \(m_b = 0.05\ \text{kg}\), \(u_b = 400\ \text{m/s}\), \(M = 2\ \text{kg}\), \(u_B = 0\). System isolated horizontally (smooth table). Conservation: \(m_b u_b + M u_B = (m_b + M) v\). \((0.05 \times 400) + 0 = (2.05) v\). \(20 = 2.05 v\). \(v = 9.76\ \text{m/s}\). Units: kg·m/s = kg·(m/s) ✓. A wrong answer (e.g., forgetting to add masses, using 2 kg instead of 2.05 kg) reveals algebraic error or misunderstandin
+D4 Q: Two identical balls of mass m approach each other with speeds 3v and v on a frictionless surface. They collide elastically. Without calculation, predict the final velocities and explain your reasoning using momentum and kinetic energy conservation.
+D4 A: Initial total momentum: \(m(3v) + m(-v) = 2mv\). Initial KE: \(\frac{1}{2}m(9v^2) + \frac{1}{2}m(v^2) = 5mv^2\). For identical masses in elastic 1D collision, velocities exchange in centre-of-mass frame. Result: first ball moves at \(-v\), second at \(3v\) (they exchange velocities relative to CM). Total final momentum: \(m(-v) + m(3v) = 2mv\) ✓. KE: \(5mv^2\) ✓. A wrong prediction (e.g., both stop, or stick together
+D5 Q: A student solves a recoil problem: "A 100 kg gun fires a 10 g bullet at 800 m/s. Find recoil speed." They write: \(0 = 0.01 \times 800 + 100 \times v \Rightarrow v = -0.08\ \text{m/s}\). Is this correct? If not, identify the error and give the correct answer. [IN-SCOPE-REWRITE]
+D5 A: The equation is correct but the mass conversion is wrong: 10 g = 0.01 kg ✓. \(0 = 8 + 100v \Rightarrow v = -0.08\ \text{m/s}\). Actually correct! Wait — check: \(0.01 \times 800 = 8\ \text{kg·m/s}\). \(100 \times (-0.08) = -8\ \text{kg·m/s}\). Sum = 0 ✓. The negative sign means opposite direction. The student's answer is correct. A wrong evaluation would be claiming the sign is wrong or mass conversion error. This te
+D6 Q: Design a simple classroom experiment using low-friction carts on a track to verify momentum conservation in a perfectly inelastic collision. Specify measurements needed, how to ensure isolation, and how to analyse data.
+D6 A: Use two carts with Velcro pads (stick on collision). Measure masses \(m_1, m_2\). Give cart 1 initial velocity \(u_1\) (photogate), cart 2 at rest. After collision, measure combined velocity \(v\) (photogate). Check \(m_1 u_1 \approx (m_1+m_2)v\). Ensure isolation: level track (no gravity component), minimal friction (air track or low-friction wheels), collision time short so friction impulse negligible. Analyse: plo
+
+VETTED-DIAG cfq_4_1 (fit 0.69, src c11_physics_diagnostics.marker)
+  Q: A 2 kg ball moving at 6 m/s collides ELASTICALLY with a stationary 4 kg ball. Find the velocities of both balls after collision. Verify that kinetic energy is conserved.
+  A: Elastic collision (1D): v_1 = (m_1-m_2)u_1/(m_1+m_2) = (2-4)(6)/(6) = -2 m/s (rebounds). v_2 = 2m_1u_1/(m_1+m_2) = 2(2)(6)/6 = 4 m/s. Check KE: Before = 1/2(2)(36) = 36 J. After = 1/2(2)(4) + 1/2(4)(16) = 4 + 32 = 36 J OK.
+VETTED-DIAG cfq_3_2 (fit 0.46, src c11_physics_diagnostics.marker)
+  Q: A 0.1 kg ball moving at 20 m/s is caught and brought to rest in 0.05 s. Find the average force exerted on the ball. Is this force on the ball or by the ball?
+  A: Impulse-momentum: FxDeltat = Deltap = m(v - u) = 0.1(0 - 20) = -2 kgxm/s. F = Deltap/Deltat = -2/0.05 = -40 N. The force ON the ball is -40 N (opposing motion, i.e., decelerating). By Newton's 3rd law, the force BY the ball on the hand is +40 N (action-reaction pair).
+VETTED-DIAG cfq_1_1 (fit 0.38, src c11_physics_diagnostics.marker)
+  Q: Find the dimensional formula of force and of the universal gravitational constant G.
+  A: Force: F = ma -> [F] = [M][LT^-2] = [MLT^-2]. Gravitational constant: From F = Gm_1m_2/r^2 -> G = Fr^2/(m_1m_2) -> [G] = [MLT^-2][L^2]/([M][M]) = [M^-1L^3T^-2].
+VETTED-MIS misconception_7 (fit 0.43)
+  M: The cgs unit of force is the newton, just like in SI.
+  C: In cgs, force is measured in dyne (1 dyne = 1 g cm s^-2). In SI, force is measured in newton (1 N = 1 kg m s^-2). 1 N = 10^5 dyne.
+VETTED-MIS misconception_7 (fit 0.43)
+  M: The cgs unit of force is the newton, just like in SI.
+  C: In cgs, force is measured in dyne (1 dyne = 1 g cm s^-2). In SI, force is measured in newton (1 N = 1 kg m s^-2). 1 N = 10^5 dyne.
+VETTED-MIS misconception_12 (fit 0.38)
+  M: Moment is measured in newtons (N) because it comes from a force.
+  C: The SI unit of moment of force is the newton metre (N m). It is not the same as the joule even though both are N x m, because moment is a vector (rotational) quantity while joule is a scalar (energy) quantity.
+### NODE c11_phy_cbse_05_004  class=11 sub=phy ch=5 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Kinetic energy is the energy possessed by a body due to its motion, defined as the work needed to accelerate a body of mass \( m \) from rest to velocity \( \vec{v} \). For a particle of mass \( m \) moving with speed \( v \), its kinetic energy \( K \) is given by \( K = \frac{1}{2} m v^2 \). It is a scalar quantity, always non-negative, with SI unit joule (J) and dimensions \([ML^2T^{-2}]\).
+WALKTHROUGH: Observe a cricket ball and a tennis ball thrown at the same speed — the cricket ball hurts more because it has more mass. Now imagine the same cricket ball thrown at different speeds — the faster one does more damage. This shows kinetic energy depends on both mass and speed. In Class 9 you learned \( v^2 - u^2 = 2as \) and multiplied by \( m/2 \) to get \( \frac{1}{2}mv^2 - \frac{1}{2}mu^2 = mas = Fs = W \). The quantity \( \frac{1}{2}mv^2 \) is kinetic energy, and the change in it equals the net work done. Start by measuring mass (kg) and speed (m/s), then apply \( K = \frac{1}{2}mv^2 \).
+D1 Q: Write the SI unit of kinetic energy and state whether it is a scalar or vector quantity.
+D1 A: The SI unit of kinetic energy is joule (J). It is a scalar quantity. A wrong answer (e.g., "newton" or "vector") reveals confusion between force/energy or between kinetic energy and momentum (which is a vector). Students often mistakenly think kinetic energy has direction because velocity has direction, forgetting the \( v^2 = \vec{v} \cdot \vec{v} \) dot product makes it scalar.
+D2 Q: A truck of mass 2000 kg and a bicycle of mass 20 kg are both moving at 10 m/s. Which has more kinetic energy? Explain why the factor \( \frac{1}{2} \) appears in the formula \( K = \frac{1}{2}mv^2 \) but not in momentum \( p = mv \).
+D2 A: The truck has more kinetic energy (100,000 J vs 1,000 J) because kinetic energy is proportional to mass. The \( \frac{1}{2} \) arises from integrating \( F = ma \) over displacement: \( W = \int F\,dx = \int m \frac{dv}{dt} dx = \int m v\,dv = \frac{1}{2}mv^2 \). Momentum comes from integrating force over time: \( \int F\,dt = \int m \frac{dv}{dt} dt = mv \). A wrong answer (e.g., "they are equal" or "the \( \frac{1}
+D3 Q: A 1500 kg car accelerates from 36 km/h to 72 km/h. Calculate the change in its kinetic energy. (Use 1 km/h = 5/18 m/s)
+D3 A: Step 1: Convert speeds: \( u = 36 \times \frac{5}{18} = 10 \) m/s, \( v = 72 \times \frac{5}{18} = 20 \) m/s.
+Step 2: \( \Delta K = \frac{1}{2}m(v^2 - u^2) = \frac{1}{2} \times 1500 \times (20^2 - 10^2) = 750 \times (400 - 100) = 750 \times 300 = 225,000 \) J.
+Step 3: Unit check: kg × (m/s)² = kg·m²/s² = J. Correct.
+Answer: 225 kJ. A wrong answer often comes from forgetting to convert km/h to m/s (giving 225,000 × (1
+D4 Q: Two identical balls are thrown with the same speed, one vertically upward and one at 30° to the horizontal. Compare their kinetic energies at the instant of release and at the highest point of their trajectories. Ignore air resistance.
+D4 A: At release: both have same speed → same kinetic energy (scalar, independent of direction). At highest point: the vertical ball has zero speed → \( K = 0 \). The angled ball has horizontal speed \( v \cos 30° \) → \( K = \frac{1}{2}m(v \cos 30°)^2 = \frac{3}{4} \times \frac{1}{2}mv^2 \). A wrong answer (e.g., "same at highest point" or "vertical ball has more at release") reveals the misconception that kinetic energy 
+D5 Q: A student claims: "If the momentum of a body is doubled, its kinetic energy also doubles." Evaluate this statement and give the correct relationship.
+D5 A: The statement is false. \( p = mv \), \( K = \frac{1}{2}mv^2 = \frac{p^2}{2m} \). If momentum doubles (\( p' = 2p \)), kinetic energy becomes \( K' = \frac{(2p)^2}{2m} = 4 \frac{p^2}{2m} = 4K \). Kinetic energy quadruples, not doubles. A wrong evaluation (e.g., "true" or "kinetic energy halves") shows confusion between linear and quadratic dependence, and inability to combine \( p \) and \( K \) formulas algebraicall
+D6 Q: Design a simple experiment using a school laboratory setup (trolley, light gate, masses, runway) to verify that kinetic energy is proportional to the square of velocity. Outline the procedure, measurements, and how you would analyze the data. [IN-SCOPE-REWRITE]
+D6 A: Procedure: Place trolley on friction-compensated runway. Attach a card of known length. Use a light gate to measure time \( t \) for card to pass → velocity \( v = \text{length}/t \). Vary starting height to change \( v \). Measure \( v \) and compute \( K = \frac{1}{2}mv^2 \). Plot \( K \) vs \( v \) (curved) and \( K \) vs \( v^2 \) (straight line through origin). Slope = \( \frac{1}{2}m \). A poor answer (e.g., "m
+
+VETTED-DIAG cfq_7_2 (fit 0.39, src c11_physics_diagnostics.marker)
+  Q: If the distance between two masses is doubled, by what factor does the gravitational force change? What happens to the gravitational potential energy?
+  A: Force: F = Gm_1m_2/r^2. If r -> 2r: F' = Gm_1m_2/(2r)^2 = F/4. Force becomes 1/4 (inverse square law). Potential energy: U = -Gm_1m_2/r. If r -> 2r: U' = -Gm_1m_2/(2r) = U/2. PE becomes half (inverse law, not inverse square). Note: PE is negative and becomes less negative (closer to zero) as r increases.
+VETTED-DIAG cfq_2_2 (fit 0.38, src c11_physics_diagnostics.marker)
+  Q: A car moving at 20 m/s decelerates uniformly at 4 m/s^2. Find the stopping distance and stopping time. If the car had been moving at 40 m/s with the same deceleration, by what factor would the stopping distance increase?
+  A: Stopping: v = 0, u = 20, a = -4. v^2 = u^2 + 2as -> 0 = 400 + 2(-4)s -> s = 50 m. Time: v = u + at -> 0 = 20 - 4t -> t = 5 s. At 40 m/s: s' = 40^2/(2x4) = 1600/8 = 200 m. Factor: 200/50 = 4. Stopping distance QUADRUPLES when speed doubles (s proportional to u^2).
+VETTED-DIAG cfq_4_1 (fit 0.38, src c11_physics_diagnostics.marker)
+  Q: A 2 kg ball moving at 6 m/s collides ELASTICALLY with a stationary 4 kg ball. Find the velocities of both balls after collision. Verify that kinetic energy is conserved.
+  A: Elastic collision (1D): v_1 = (m_1-m_2)u_1/(m_1+m_2) = (2-4)(6)/(6) = -2 m/s (rebounds). v_2 = 2m_1u_1/(m_1+m_2) = 2(2)(6)/6 = 4 m/s. Check KE: Before = 1/2(2)(36) = 36 J. After = 1/2(2)(4) + 1/2(4)(16) = 4 + 32 = 36 J OK.
+VETTED-MIS misconception_8 (fit 0.50)
+  M: The cgs unit of energy is the joule.
+  C: In cgs, energy is measured in erg (1 erg = 1 g cm^2 s^-2). In SI, energy is measured in joule (1 J = 1 kg m^2 s^-2). 1 J = 10^7 erg.
+VETTED-MIS misconception_8 (fit 0.50)
+  M: The cgs unit of energy is the joule.
+  C: In cgs, energy is measured in erg (1 erg = 1 g cm^2 s^-2). In SI, energy is measured in joule (1 J = 1 kg m^2 s^-2). 1 J = 10^7 erg.
+VETTED-MIS misconception_3 (fit 0.38)
+  M: Power is just energy divided by distance.
+  C: Power = Work / Time = Energy / Time. The SI unit of power is the watt, where 1 W = 1 J / 1 s.
+### NODE c11_phy_cbse_07_001  class=11 sub=phy ch=7 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Kepler's laws of planetary motion are three empirical principles describing the motion of planets around the Sun: (1) Law of Orbits – Every planet moves in an elliptical orbit with the Sun at one focus; (2) Law of Areas – The radius vector from the Sun to a planet sweeps out equal areas in equal time intervals, a consequence of angular momentum conservation under a central force; (3) Law of Periods – The square of the orbital period \(T\) is proportional to the cube of the semi-major axis \(a\) of the ellipse, i.e., \(T^2 \propto a^3\). For circular orbits of radius \(r\) around a central mass \(M\), the precise relation is \(T^2 = \frac{4\pi^2}{GM}r^3\), where \(G = 6.67 \times 10^{-11} \, \text{N·m}^2\text{/kg}^2\) is the universal gravitational constant.
+WALKTHROUGH: Begin by asking students to observe the night sky over several weeks (or use a free planetarium app like Stellarium) and note that planets like Mars or Jupiter appear to move against the background stars, sometimes even reversing direction (retrograde motion). This historical puzzle – which troubled astronomers for millennia – was resolved by Tycho Brahe's precise naked-eye data and Kepler's analysis. Connect to their prior knowledge of uniform circular motion (Class 9, node c9_physics_ch2_10) and central forces (Class 9, node c9_physics_ch3_4): the Sun's pull is always directed toward the Sun, making it a central force. Then introduce the ellipse using the string-and-pins construction (NCERT Fig. 7.1b) to define semi-major axis \(a\), perihelion, and aphelion. Derive the second law from angular momentum conservation (\(L = mvr_\perp = \text{constant}\)) for a central force, showing that \(\Delta A/\Delta t = L/(2m)\). Finally, present the third law as a proportionality \(T^2 \propto a^3\) and give the exact formula for circular orbits, emphasizing that the constant \(\frac{4\pi^2}{GM}\) depends only on the central mass \(M\).
+D1 Q: State Kepler's three laws of planetary motion in your own words, using the terms *ellipse*, *focus*, *radius vector*, *semi-major axis*, and *period*.
+D1 A: Correct answer: 
+1. Law of Orbits: Planets orbit the Sun in ellipses with the Sun at one focus. 
+2. Law of Areas: The line joining the Sun and a planet sweeps equal areas in equal times. 
+3. Law of Periods: The square of the orbital period is proportional to the cube of the semi-major axis (\(T^2 \propto a^3\)). 
+
+What a wrong answer reveals: If a student says "circular orbits" for Law 1, they confuse the Copernican 
+D2 Q: Explain why a planet moves faster at perihelion than at aphelion, using the concept of angular momentum conservation. Draw a sketch showing the radius vector and velocity vectors at both points.
+D2 A: Correct answer: 
+At perihelion and aphelion, the velocity vector is perpendicular to the radius vector. Angular momentum \(L = m v r\) is conserved because the gravitational force is central (zero torque). Since \(r_{\text{peri}} < r_{\text{aph}}\), we must have \(v_{\text{peri}} > v_{\text{aph}}\) to keep \(L\) constant. The sketch should show a shorter \(r\) with a longer \(v\) arrow at perihelion, and a longer \(r
+D3 Q: Mars has a semi-major axis \(a = 2.28 \times 10^{11} \, \text{m}\) and orbital period \(T = 687 \, \text{days}\). Earth has \(a = 1.50 \times 10^{11} \, \text{m}\) and \(T = 365 \, \text{days}\). Verify Kepler's third law by computing the ratio \(T^2/a^3\) for both planets. Express your answer in \(\text{s}^2/\text{m}^
+D3 A: Step 1: Convert periods to seconds. 
+\(T_{\text{Earth}} = 365 \times 24 \times 3600 = 3.1536 \times 10^7 \, \text{s}\) 
+\(T_{\text{Mars}} = 687 \times 24 \times 3600 = 5.9357 \times 10^7 \, \text{s}\)
+
+Step 2: Compute \(a^3\). 
+\(a_{\text{Earth}}^3 = (1.50 \times 10^{11})^3 = 3.375 \times 10^{33} \, \text{m}^3\) 
+\(a_{\text{Mars}}^3 = (2.28 \times 10^{11})^3 = 1.185 \times 10^{34} \, \text{m}^3\)
+
+Step 3: Compute \(T
+D4 Q: A comet orbits the Sun in a highly elliptical orbit. At perihelion its distance is \(0.5 \, \text{AU}\) and speed is \(54 \, \text{km/s}\). At aphelion its distance is \(30 \, \text{AU}\). What is its speed at aphelion? (1 AU = \(1.5 \times 10^{11} \, \text{m}\)). Assume angular momentum is conserved.
+D4 A: Step 1: Identify given quantities. 
+\(r_p = 0.5 \, \text{AU} = 7.5 \times 10^{10} \, \text{m}\) 
+\(v_p = 54 \, \text{km/s} = 5.4 \times 10^4 \, \text{m/s}\) 
+\(r_a = 30 \, \text{AU} = 4.5 \times 10^{12} \, \text{m}\)
+
+Step 2: Apply angular momentum conservation \(m v_p r_p = m v_a r_a\) (velocity perpendicular to radius at apses). 
+\(v_a = v_p \frac{r_p}{r_a} = 5.4 \times 10^4 \times \frac{7.5 \times 10^{10}}{4.5 \ti
+D5 Q: A student claims: "Kepler's second law means a planet takes the same time to travel from perihelion to aphelion as from aphelion to perihelion because the orbit is symmetric." Evaluate this statement.
+D5 A: Correct evaluation: The statement is false. While the orbit is geometrically symmetric, the *speed* is not symmetric in time. Kepler's second law states equal areas are swept in equal times. The area swept from perihelion to aphelion (the "front" half of the ellipse) is exactly half the total area of the ellipse. The area swept from aphelion back to perihelion is the other half. Since the total area is swept in one p
+D6 Q: Design a simple tabletop experiment using a ball on a string (or a puck on an air table) to demonstrate the principle behind Kepler's second law (equal areas in equal times). Describe the setup, what you would measure, and how you would verify the law. [IN-SCOPE-REWRITE]
+D6 A: Expected answer criteria: 
+- Setup: A small mass (ball/puck) attached to a string passing through a hole in a frictionless horizontal surface (air table or smooth glass). The string is pulled from below to provide a central force. Alternatively, a ball on a string whirled horizontally with the hand providing the central force (less ideal because hand moves). 
+- Measurement: Mark positions of the mass at equal time in
+
+VETTED-DIAG cfq_1_1 (fit 0.62, src c11_physics_diagnostics.marker)
+  Q: Find the dimensional formula of force and of the universal gravitational constant G.
+  A: Force: F = ma -> [F] = [M][LT^-2] = [MLT^-2]. Gravitational constant: From F = Gm_1m_2/r^2 -> G = Fr^2/(m_1m_2) -> [G] = [MLT^-2][L^2]/([M][M]) = [M^-1L^3T^-2].
+VETTED-DIAG cfq_17_1 (fit 0.52, src c11_physics_diagnostics.marker)
+  Q: A particle of mass 0.5 kg moves in a circle of radius 0.2 m with speed 4 m/s. Find its angular momentum about the center. If the radius is halved (to 0.1 m) while conserving angular momentum, find the new speed.
+  A: Angular momentum: L = mvr = 0.5 x 4 x 0.2 = 0.4 kgxm^2/s. Conservation of angular momentum: L = constant -> mv_1r_1 = mv_2r_2 -> v_2 = v_1r_1/r_2 = 4 x 0.2/0.1 = 8 m/s. When radius halves, speed doubles (L conserved, v proportional to 1/r).
+VETTED-DIAG cfq_20_1 (fit 0.38, src c11_physics_diagnostics.marker)
+  Q: A satellite orbits Earth at height h = R above the surface. Find its orbital speed and period. (R = 6.4x10^6 m, g = 9.8 m/s^2). Compare with a satellite at the surface (h = 0).
+  A: Orbital speed at height h: v = sqrt(GM/(R+h)) = sqrt(gR^2/(R+h)). At h = R: v = sqrt(gR^2/2R) = sqrt(gR/2) = sqrt(9.8 x 6.4x10^6/2) = sqrt(3.136x10^7) = 5600 m/s = 5.6 km/s. At surface (h = 0): v = sqrt(gR) = sqrt(6.272x10^7) = 7920 m/s = 7.9 km/s. Period at h = R: r = 2R, T = 2pir/v = 2pi(2x6.4x10^6)/5600 = 2pi x 2286 = 14,363 s ~= 3.99 hours.
+VETTED-MIS misconception_9 (fit 0.31)
+  M: The Sun is a planet, just bigger than the others.
+  C: The Sun is the star at the centre of our solar system. The Earth and other planets move around the Sun.
+VETTED-MIS misconception_9 (fit 0.31)
+  M: The Sun is a planet, just bigger than the others.
+  C: The Sun is the star at the centre of our solar system. The Earth and other planets move around the Sun.
+VETTED-MIS misconception_5 (fit 0.30)
+  M: i x i = 1, because any unit vector times itself is one.
+  C: i x i = j x j = k x k = 0 (zero vector). The cyclic relations are i x j = k, j x k = i, k x i = j, and the anti-cyclic ones are j x i = -k, k x j = -i, i x k = -j.
+### NODE c11_phy_cbse_11_004  class=11 sub=phy ch=11 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Work done in an isothermal process is the energy transferred by an ideal gas as work when it expands or compresses at constant temperature, calculated by integrating pressure with respect to volume under the condition that the product of pressure and volume remains constant (Boyle's law). For an ideal gas undergoing a quasi-static isothermal change from volume V₁ to V₂ at temperature T, the work done by the gas is W = μRT ln(V₂/V₁), where μ is the number of moles and R is the universal gas constant (8.31 J mol⁻¹ K⁻¹). The SI unit of work is joule (J).
+WALKTHROUGH: Imagine a bicycle pump with its nozzle blocked, placed in a bucket of water at room temperature. If you push the piston slowly, the air inside compresses but its temperature stays constant because heat flows into the water. This is a quasi-static isothermal compression. To analyze it, first recall that for an ideal gas at constant temperature, pressure varies inversely with volume (Boyle's law: PV = constant). The work done in a small volume change dV is dW = P dV. Substitute P = μRT/V from the ideal gas equation, then integrate from V₁ to V₂. The result is W = μRT ln(V₂/V₁). Since internal energy of an ideal gas depends only on temperature, ΔU = 0, so by the first law, the heat supplied Q equals the work done W.
+D1 Q: State the formula for work done by an ideal gas in a quasi-static isothermal process and give the SI unit of each variable in the formula.
+D1 A: The formula is W = μRT ln(V₂/V₁). Variables: W (work) in joules (J), μ (amount of substance) in moles (mol), R (universal gas constant) in J mol⁻¹ K⁻¹, T (absolute temperature) in kelvin (K), V₂ and V₁ (final and initial volumes) in cubic metres (m³). The ratio V₂/V₁ is dimensionless. A wrong answer (e.g., using Celsius for T, or omitting the logarithm) reveals confusion between isothermal and isobaric work formulas 
+D2 Q: Explain why the internal energy of an ideal gas does not change during an isothermal process, and how this relates to the first law of thermodynamics for this process.
+D2 A: For an ideal gas, internal energy U depends only on temperature (U = f/2 μRT, where f is degrees of freedom). Since temperature is constant in an isothermal process, ΔU = 0. By the first law, ΔQ = ΔU + ΔW, so ΔQ = ΔW. This means all heat supplied to the gas is converted entirely into work done by the gas (in expansion), or all work done on the gas is released as heat (in compression). A wrong answer (e.g., saying ΔU 
+D3 Q: Two moles of an ideal gas at 300 K expand isothermally from 0.02 m³ to 0.05 m³. Calculate the work done by the gas. (R = 8.31 J mol⁻¹ K⁻¹)
+D3 A: Given: μ = 2 mol, T = 300 K, V₁ = 0.02 m³, V₂ = 0.05 m³, R = 8.31 J mol⁻¹ K⁻¹.
+Formula: W = μRT ln(V₂/V₁)
+Substitute: W = (2 mol) × (8.31 J mol⁻¹ K⁻¹) × (300 K) × ln(0.05/0.02)
+Compute ratio: 0.05/0.02 = 2.5
+ln(2.5) ≈ 0.9163
+W = 2 × 8.31 × 300 × 0.9163 = 4566.5 J ≈ 4.57 × 10³ J
+Work done by the gas is positive (expansion), so W = +4.57 kJ.
+A wrong answer (e.g., using log₁₀ instead of ln, or getting negative sign) rev
+D4 Q: An ideal gas undergoes an isothermal compression from volume V₁ to V₂ (V₂ < V₁) at temperature T. Compare the magnitude of work done ON the gas in this process with the magnitude of work done BY the gas in an isothermal expansion from V₂ to V₁ at the same temperature. Are they equal? Justify.
+D4 A: Yes, the magnitudes are equal. For compression: W_on = -μRT ln(V₂/V₁) = μRT ln(V₁/V₂) (positive value for work done on gas). For expansion: W_by = μRT ln(V₁/V₂) (positive value for work done by gas). Both have the same magnitude μRT ln(V₁/V₂) because the integral ∫P dV depends only on the endpoints and the path (isotherm), and the isotherm is reversible. The sign differs because work done by the gas is positive for e
+D5 Q: A student claims: "In an isothermal expansion of an ideal gas, the gas does work, so its internal energy must decrease unless heat is supplied. But the temperature is constant, so internal energy is constant. Therefore, heat must be supplied exactly equal to the work done." Evaluate this statement and identify if there
+D5 A: The student's statement is entirely correct. For an ideal gas, internal energy U depends only on temperature (ΔU = 0 for isothermal process). The first law ΔQ = ΔU + ΔW gives ΔQ = ΔW. In expansion, work done by gas is positive (ΔW > 0), so heat supplied ΔQ must be positive and equal in magnitude to the work done. The reasoning correctly links constant temperature → constant internal energy → heat input equals work ou
+D6 Q: Design a simple experiment using a syringe, a water bath, and a pressure sensor to verify the work done formula for an isothermal process. Describe the procedure, measurements needed, and how you would calculate work from the data. [IN-SCOPE-REWRITE]
+D6 A: Procedure: (1) Trap a known amount of air (μ moles) in a syringe at room temperature. (2) Immerse syringe in a large water bath at constant temperature T. (3) Connect pressure sensor to syringe. (4) Slowly push/pull plunger to change volume quasi-statically, recording P and V at each step. (5) Plot P vs V; it should follow PV = constant. (6) Calculate work by numerical integration of P dV (area under curve) or use W
+
+VETTED-DIAG cfq_11_1 (fit 0.58, src c11_physics_diagnostics.marker)
+  Q: 500 J of heat is added to a gas, and the gas does 200 J of work by expanding. Find the change in internal energy. Is the process isothermal, adiabatic, or neither? If the gas is ideal and monatomic, find the temperature change for 2 moles. (C_v = 3R/2)
+  A: First law: DeltaU = Q - W = 500 - 200 = 300 J. The process is NEITHER isothermal (DeltaU ~= 0, so T changes) NOR adiabatic (Q ~= 0, heat is added). For monatomic ideal gas: DeltaU = nC_vDeltaT -> 300 = 2 x (3x8.314/2) x DeltaT = 2 x 12.47 x DeltaT -> DeltaT = 300/24.94 = 12.0 K.
+VETTED-DIAG cfq_18_1 (fit 0.41, src c11_physics_diagnostics.marker)
+  Q: An ideal gas at (P_1 = 2 atm, V_1 = 1 L) is compressed isothermally to V_2 = 0.5 L. Find P_2 and the work done. If instead compressed isobarically to V_2 = 0.5 L at P = 2 atm, find the work done. Compare.
+  A: Isothermal: P_1V_1 = P_2V_2 -> P_2 = P_1V_1/V_2 = 2 x 1/0.5 = 4 atm. Work done BY gas: W = nRT ln(V_2/V_1) = P_1V_1 ln(V_2/V_1) = 2x1xln(0.5) = 2x(-0.693) = -1.386 Lxatm = -140.5 J (negative: work done ON gas during compression). Isobaric: W = PDeltaV = 2 x (0.5 - 1) = -1 Lxatm = -101.3 J. Isothermal compression requires MORE work (140.5 J) than isobaric (101.3 J) because pressure increases during isothermal compression.
+VETTED-DIAG cfq_1_1 (fit 0.38, src c11_physics_diagnostics.marker)
+  Q: Find the dimensional formula of force and of the universal gravitational constant G.
+  A: Force: F = ma -> [F] = [M][LT^-2] = [MLT^-2]. Gravitational constant: From F = Gm_1m_2/r^2 -> G = Fr^2/(m_1m_2) -> [G] = [MLT^-2][L^2]/([M][M]) = [M^-1L^3T^-2].
+VETTED-MIS misconception_8 (fit 0.50)
+  M: The cgs unit of energy is the joule.
+  C: In cgs, energy is measured in erg (1 erg = 1 g cm^2 s^-2). In SI, energy is measured in joule (1 J = 1 kg m^2 s^-2). 1 J = 10^7 erg.
+VETTED-MIS misconception_8 (fit 0.50)
+  M: The cgs unit of energy is the joule.
+  C: In cgs, energy is measured in erg (1 erg = 1 g cm^2 s^-2). In SI, energy is measured in joule (1 J = 1 kg m^2 s^-2). 1 J = 10^7 erg.
+VETTED-MIS misconception_3 (fit 0.38)
+  M: Power is just energy divided by distance.
+  C: Power = Work / Time = Energy / Time. The SI unit of power is the watt, where 1 W = 1 J / 1 s.
+### NODE c11_phy_cbse_11_010  class=11 sub=phy ch=11 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A thermodynamic process is reversible if it can be reversed such that both the system and the surroundings return to their original states with no net change anywhere else in the universe; it is irreversible if it cannot be reversed without leaving a net change in the universe. Reversibility requires the process to be quasi-static (infinitesimally slow, maintaining equilibrium at every stage) and free from dissipative effects like friction, viscosity, or unrestrained expansion.
+WALKTHROUGH: Observe a gas leaking from a punctured LPG cylinder in a kitchen – the gas spreads irreversibly throughout the room and never spontaneously returns to the cylinder. Ask: "What would need to happen for this to reverse?" Guide students to see that reversal would require external work (a compressor) and would heat the surroundings, leaving a net change. Contrast with an idealised frictionless piston compressing gas infinitely slowly: at each step, an infinitesimal pressure difference drives the change, and the process can be retraced exactly. Connect to prior nodes: thermal equilibrium (c11_phy_cbse_11_002) defines the quasi-static condition; First Law (c11_phy_cbse_11_003) shows energy conservation; Second Law (c11_phy_cbse_11_009) forbids complete heat-to-work conversion, making reversibility the theoretical limit for maximum efficiency.
+D1 Q: State the two necessary and sufficient conditions for a thermodynamic process to be reversible.
+D1 A: A process is reversible only if (1) it is quasi-static (system remains in thermal and mechanical equilibrium with surroundings at every stage) and (2) it involves no dissipative effects (friction, viscosity, inelastic deformation, unrestrained expansion, etc.). A wrong answer listing only "slow process" or only "no friction" reveals the student misses that both conditions must hold simultaneously – a slow process wit
+D2 Q: Why is the free expansion of a gas into vacuum (Joule expansion) irreversible even though no friction is involved?
+D2 A: Free expansion is irreversible because the gas passes through non-equilibrium states – pressure and temperature are not uniform during the expansion, so the process cannot be represented by a continuous path on a P-V diagram. A student who says "it is reversible because no friction" confuses the absence of dissipation with the presence of equilibrium; they miss that irreversibility also arises from non-equilibrium in
+D3 Q: An ideal gas undergoes an isothermal expansion from volume V₁ to V₂ at temperature T. The process is carried out quasi-statically but the piston has a small constant friction force f. Calculate the extra work dissipated as heat due to friction if the piston moves a distance Δx, and explain whether the process remains r
+D3 A: Extra work dissipated = f·Δx (joules). This energy appears as heat transferred to the gas and surroundings. The process is irreversible because friction is a dissipative effect – even if quasi-static, the dissipative work cannot be recovered without leaving a net change in the universe. A student who calculates f·Δx correctly but claims the process is still reversible misunderstands that dissipation, however small, v
+D4 Q: Compare the P-V diagrams of a reversible isothermal expansion and an irreversible isothermal expansion (against constant external pressure) between the same initial and final states. Which diagram shows a larger area under the curve? What does this imply about work done?
+D4 A: The reversible isothermal expansion shows a larger area under the curve (the curve follows PV = constant). The irreversible expansion against constant P_ext is a horizontal line on the P-V diagram at P = P_ext, giving less area. This implies the reversible process delivers maximum work for a given state change. A student who says the irreversible process does more work confuses the constant external pressure with the
+D5 Q: A student argues: "Since the Carnot engine is reversible, its efficiency η = 1 - T₂/T₁ can be exceeded by an irreversible engine that cleverly uses friction to generate extra heat." Evaluate this claim using the Kelvin-Planck statement.
+D5 A: The claim is false. The Kelvin-Planck statement says no process can have the sole effect of converting heat completely into work. An irreversible engine with friction produces *less* work output for the same heat input because part of the work is dissipated as heat. Carnot's theorem proves no engine (reversible or irreversible) operating between T₁ and T₂ can exceed η_Carnot. A student who agrees with the claim misun
+D6 Q: Design a thought experiment to test whether the condensation of steam on a cold mirror is reversible or irreversible. Specify the system, surroundings, and the criterion you would use to decide. [IN-SCOPE-REWRITE]
+D6 A: System: steam + mirror. Surroundings: room air at T_room. Process: steam at T₁ > T_room condenses on mirror at T₂ < T₁. Criterion: check if (a) the process is quasi-static (infinitesimal T difference at interface) and (b) no dissipation occurs. In reality, condensation occurs with finite ΔT across the steam-mirror interface and involves latent heat release into a temperature gradient – both violate quasi-static condi
+
+VETTED-DIAG cfq_11_1 (fit 0.50, src c11_physics_diagnostics.marker)
+  Q: 500 J of heat is added to a gas, and the gas does 200 J of work by expanding. Find the change in internal energy. Is the process isothermal, adiabatic, or neither? If the gas is ideal and monatomic, find the temperature change for 2 moles. (C_v = 3R/2)
+  A: First law: DeltaU = Q - W = 500 - 200 = 300 J. The process is NEITHER isothermal (DeltaU ~= 0, so T changes) NOR adiabatic (Q ~= 0, heat is added). For monatomic ideal gas: DeltaU = nC_vDeltaT -> 300 = 2 x (3x8.314/2) x DeltaT = 2 x 12.47 x DeltaT -> DeltaT = 300/24.94 = 12.0 K.
+VETTED-DIAG cfq_12_1 (fit 0.37, src c11_physics_diagnostics.marker)
+  Q: A Carnot engine operates between T_H = 500 K and T_C = 300 K. Find the efficiency. If the engine absorbs 1000 J from the hot reservoir, find the work done and heat rejected to the cold reservoir. What is the coefficient of performance if run as a refrigerator?
+  A: Efficiency: eta = 1 - T_C/T_H = 1 - 300/500 = 0.4 = 40%. Work: W = eta x Q_H = 0.4 x 1000 = 400 J. Heat rejected: Q_C = Q_H - W = 1000 - 400 = 600 J. COP as refrigerator: COP = T_C/(T_H - T_C) = 300/(500 - 300) = 300/200 = 1.5.
+VETTED-DIAG cfq_18_1 (fit 0.36, src c11_physics_diagnostics.marker)
+  Q: An ideal gas at (P_1 = 2 atm, V_1 = 1 L) is compressed isothermally to V_2 = 0.5 L. Find P_2 and the work done. If instead compressed isobarically to V_2 = 0.5 L at P = 2 atm, find the work done. Compare.
+  A: Isothermal: P_1V_1 = P_2V_2 -> P_2 = P_1V_1/V_2 = 2 x 1/0.5 = 4 atm. Work done BY gas: W = nRT ln(V_2/V_1) = P_1V_1 ln(V_2/V_1) = 2x1xln(0.5) = 2x(-0.693) = -1.386 Lxatm = -140.5 J (negative: work done ON gas during compression). Isobaric: W = PDeltaV = 2 x (0.5 - 1) = -1 Lxatm = -101.3 J. Isothermal compression requires MORE work (140.5 J) than isobaric (101.3 J) because pressure increases during isothermal compression.
+VETTED-MIS misconception_2 (fit 0.20)
+  M: We can live without air for many hours, just like we can live without food.
+  C: Air is needed for breathing. People, animals and plants cannot stay alive for more than a few minutes without air.
+VETTED-MIS misconception_13 (fit 0.19)
+  M: A force is needed to keep an object moving forever.
+  C: A force is needed to start, stop, or change motion. An object in motion tends to stay in motion unless a force (like friction) acts on it.
+VETTED-MIS misconception_13 (fit 0.19)
+  M: A force is needed to keep an object moving forever.
+  C: A force is needed to start, stop, or change motion. An object in motion tends to stay in motion unless a force (like friction) acts on it.
+### NODE c11_phy_cbse_12_007  class=11 sub=phy ch=12 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Mean free path is the average distance traveled by a gas molecule between two successive collisions with other molecules. It is a statistical quantity representing the mean of the free paths of all molecules in a gas at equilibrium. The SI unit is metre (m). For an ideal gas of rigid spherical molecules of diameter \(d\) and number density \(n\), the mean free path \(\lambda\) is given by \(\lambda = \frac{1}{\sqrt{2} \pi d^2 n}\).
+WALKTHROUGH: Observe that when a gas cylinder leaks in a kitchen, the smell takes minutes to reach the other corner even though molecules move at ~500 m/s. This is because molecules collide frequently, deflecting their paths. Imagine a single molecule moving through a crowd of stationary molecules: it sweeps a cylindrical volume \(\pi d^2 \langle v \rangle \Delta t\) in time \(\Delta t\). Any molecule whose centre lies in this cylinder will collide. The number of collisions is \(n \pi d^2 \langle v \rangle \Delta t\), giving collision frequency \(n \pi d^2 \langle v \rangle\). The average distance between collisions is \(\langle v \rangle\) divided by this frequency, yielding \(\lambda = 1/(\pi d^2 n)\). A rigorous treatment replaces \(\langle v \rangle\) with average relative speed \(\langle v_r \rangle = \sqrt{2} \langle v \rangle\), giving the exact formula \(\lambda = 1/(\sqrt{2} \pi d^2 n)\).
+D1 Q: State the definition of mean free path and write its exact formula in terms of molecular diameter \(d\) and number density \(n\). What is its SI unit?
+D1 A: Mean free path (\(\lambda\)) is the average distance a molecule travels between two successive collisions. Exact formula: \(\lambda = \frac{1}{\sqrt{2} \pi d^2 n}\). SI unit: metre (m). A wrong answer (e.g., omitting \(\sqrt{2}\) or using \(r\) instead of \(d\)) reveals confusion between the simplified derivation (stationary targets) and the exact result (moving targets), or confusion between radius and diameter.
+D2 Q: In the exact derivation of mean free path, a factor of \(1/\sqrt{2}\) appears compared to the simplified derivation. Explain physically why this factor arises and what assumption about the other molecules is relaxed.
+D2 A: The simplified derivation assumes all other molecules are at rest. In reality, all molecules move with a distribution of velocities. The collision rate depends on the average relative speed \(\langle v_r \rangle\), not the average speed \(\langle v \rangle\). For a Maxwellian distribution, \(\langle v_r \rangle = \sqrt{2} \langle v \rangle\). Since collision frequency is proportional to relative speed, the mean free 
+D3 Q: Calculate the mean free path of nitrogen molecules at STP (0°C, 1 atm). Given: molecular diameter of N₂ = 3.7 Å, molar volume at STP = 22.4 L. Show all steps with units.
+D3 A: Step 1: Number density \(n = \frac{N_A}{V_m} = \frac{6.022 \times 10^{23}}{22.4 \times 10^{-3}} = 2.69 \times 10^{25} \text{ m}^{-3}\).
+Step 2: Diameter \(d = 3.7 \text{ Å} = 3.7 \times 10^{-10} \text{ m}\).
+Step 3: \(\lambda = \frac{1}{\sqrt{2} \pi d^2 n} = \frac{1}{1.414 \times 3.14 \times (3.7 \times 10^{-10})^2 \times 2.69 \times 10^{25}}\).
+Step 4: \(d^2 = 13.69 \times 10^{-20} \text{ m}^2\); denominator \(= 1.4
+D4 Q: A gas is kept at constant temperature. If its pressure is doubled, how does the mean free path change? Justify using the formula and the ideal gas law.
+D4 A: From ideal gas law, \(P = n k_B T\). At constant \(T\), \(n \propto P\). Since \(\lambda \propto 1/n\), doubling \(P\) doubles \(n\), so \(\lambda\) halves. A wrong answer (e.g., \(\lambda\) unchanged or doubled) shows the student does not connect number density to pressure via the ideal gas law, or thinks molecular diameter changes with pressure.
+D5 Q: A student derives \(\lambda = \frac{1}{\pi d^2 n}\) by assuming a moving molecule collides with stationary molecules. They claim this is correct because "on average, the other molecules are at rest". Evaluate this claim and identify the error.
+D5 A: The claim is incorrect. Even though the average velocity of all molecules is zero, the average relative speed between two molecules is not zero. For a Maxwell-Boltzmann distribution, the average relative speed is \(\sqrt{2}\) times the average speed. Ignoring the motion of target molecules underestimates the collision frequency by \(\sqrt{2}\) and overestimates \(\lambda\) by \(\sqrt{2}\). The error is confusing the 
+D6 Q: Design a thought experiment to estimate the diameter of an air molecule using only macroscopic measurements of mean free path (e.g., by measuring viscosity or diffusion). Outline the steps and the formula you would use. [IN-SCOPE-REWRITE]
+D6 A: Measure the viscosity \(\eta\) of air at known \(T\) and \(P\). From kinetic theory, \(\eta = \frac{1}{3} n m \langle v \rangle \lambda\). Measure \(\eta\) experimentally. Calculate \(n = P/(k_B T)\), \(m = M/N_A\), \(\langle v \rangle = \sqrt{8 k_B T/(\pi m)}\). Solve for \(\lambda = 3\eta/(n m \langle v \rangle)\). Then use \(\lambda = 1/(\sqrt{2} \pi d^2 n)\) to find \(d\). A poor answer would omit the connection
+
+VETTED-DIAG cfq_13_1 (fit 0.40, src c11_physics_diagnostics.marker)
+  Q: Find the RMS speed of nitrogen molecules (N_2, M = 0.028 kg/mol) at 300 K. (R = 8.314 J/molxK). Compare with the speed of sound in air at the same temperature.
+  A: v_rms = sqrt(3RT/M) = sqrt(3 x 8.314 x 300 / 0.028) = sqrt(7482.6/0.028) = sqrt(267236) = 517 m/s. Speed of sound in air at 300 K ~= 347 m/s. v_rms > v_sound because v_rms = sqrt(3RT/M) while v_sound = sqrt(gammaRT/M) where gamma = 1.4 for air, so v_sound/v_rms = sqrt(gamma/3) = sqrt(1.4/3) = 0.68. Indeed 347/517 ~= 0.67 OK.
+VETTED-DIAG cfq_16_1 (fit 0.33, src c11_physics_diagnostics.marker)
+  Q: Two trains move on parallel tracks. Train A moves east at 20 m/s, Train B moves west at 15 m/s. Find the velocity of A relative to B. If they are 700 m apart and moving toward each other, when do they meet?
+  A: Velocity of A relative to B: v_AB = v_A - v_B = 20 - (-15) = 35 m/s (east). (B's velocity is -15 m/s since it moves west). Relative speed of approach: 35 m/s. Time to meet: t = 700/35 = 20 s.
+VETTED-DIAG cfq_2_2 (fit 0.31, src c11_physics_diagnostics.marker)
+  Q: A car moving at 20 m/s decelerates uniformly at 4 m/s^2. Find the stopping distance and stopping time. If the car had been moving at 40 m/s with the same deceleration, by what factor would the stopping distance increase?
+  A: Stopping: v = 0, u = 20, a = -4. v^2 = u^2 + 2as -> 0 = 400 + 2(-4)s -> s = 50 m. Time: v = u + at -> 0 = 20 - 4t -> t = 5 s. At 40 m/s: s' = 40^2/(2x4) = 1600/8 = 200 m. Factor: 200/50 = 4. Stopping distance QUADRUPLES when speed doubles (s proportional to u^2).
+VETTED-MIS misconception_3 (fit 0.25)
+  M: Power is just energy divided by distance.
+  C: Power = Work / Time = Energy / Time. The SI unit of power is the watt, where 1 W = 1 J / 1 s.
+VETTED-MIS misconception_12 (fit 0.25)
+  M: Relative density (specific gravity) is the same as density and has the unit g/cm^3.
+  C: Relative density = (density of substance) / (density of water). It is a pure number. For example, the density of iron is 7.8 g/cm^3 and its relative density is 7.8 (no unit).
+VETTED-MIS misconception_3 (fit 0.25)
+  M: Power is just energy divided by distance.
+  C: Power = Work / Time = Energy / Time. The SI unit of power is the watt, where 1 W = 1 J / 1 s.
+### NODE c11_phy_cbse_12_009  class=11 sub=phy ch=12 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Maxwell's Speed Distribution Law describes the statistical distribution of molecular speeds in an ideal gas at thermal equilibrium, giving the fraction of molecules having speeds between v and v+dv as f(v)dv = 4π (m/2πk_BT)^{3/2} v^2 e^{-mv^2/2k_BT} dv, where m is the molecular mass (kg), k_B is the Boltzmann constant (1.38×10^{-23} J/K), and T is the absolute temperature (K). The distribution is asymmetric, peaking at the most probable speed v_p = √(2k_BT/m), with mean speed v_avg = √(8k_BT/πm) and root-mean-square speed v_rms = √(3k_BT/m), satisfying v_p < v_avg < v_rms.
+WALKTHROUGH: Imagine releasing a drop of perfume in one corner of a classroom – the scent doesn't reach everyone at once because air molecules move at vastly different speeds, not a single uniform speed. In Class 9 you learned that gas pressure arises from molecular collisions, but we treated all molecules as having the same rms speed. Now we ask: what is the actual spread of speeds? Start by plotting a histogram of molecular speeds from a simulation – you'll see a skewed bell curve. The peak gives the most probable speed v_p, the area under the curve is total molecules, and the average speed v_avg is the first moment. Connect this to the kinetic interpretation of temperature (c11_phy_cbse_12_003): since average kinetic energy is fixed by T, lighter molecules must have a broader, right-shifted distribution. The key formula f(v) = 4π (m/2πk_BT)^{3/2} v^2 e^{-mv^2/2k_BT} emerges from maximizing entropy subject to energy constraints.
+D1 Q: State the Maxwell-Boltzmann speed distribution function f(v) for an ideal gas, defining every symbol with its SI unit. What is the physical meaning of f(v)dv?
+D1 A: f(v) = 4π (m/2πk_BT)^{3/2} v^2 e^{-mv^2/2k_BT}, where m = molecular mass (kg), k_B = 1.38×10^{-23} J/K, T = temperature (K), v = speed (m/s). f(v)dv is the fraction of molecules with speeds between v and v+dv (dimensionless). A wrong answer (e.g., omitting the v^2 factor or the normalization constant) reveals the student memorizes the exponential but forgets the phase-space volume factor v^2 that makes low speeds les
+D2 Q: Explain why the most probable speed v_p is less than the average speed v_avg, which in turn is less than the rms speed v_rms, using the shape of the Maxwell-Boltzmann curve.
+D2 A: The curve is right-skewed (positive skew) because the v^2 factor pushes the peak rightward from zero, but the exponential tail extends far to high speeds. The mean v_avg is pulled toward the tail more than the peak v_p, and v_rms = √⟨v^2⟩ weights high speeds even more heavily (squaring before averaging), so v_p < v_avg < v_rms. A student who claims v_p = v_avg = v_rms or orders them incorrectly confuses the distribut
+D3 Q: Calculate the most probable speed, average speed, and rms speed of nitrogen molecules (M = 28.0 g/mol) at 300 K. Use R = 8.31 J/mol·K and N_A = 6.022×10^{23} mol^{-1}.
+D3 A: Step 1: m = M/N_A = 0.0280 kg/mol / 6.022×10^{23} mol^{-1} = 4.65×10^{-26} kg. 
+Step 2: v_p = √(2k_BT/m) = √(2×1.38×10^{-23}×300 / 4.65×10^{-26}) = √(1.78×10^5) = 422 m/s. 
+Step 3: v_avg = √(8k_BT/πm) = √(8/π) × v_p/√2 = √(4/π) × v_p = 1.128 × 422 = 476 m/s. 
+Step 4: v_rms = √(3k_BT/m) = √(3/2) × v_p = 1.225 × 422 = 517 m/s. 
+Check: v_p : v_avg : v_rms = 1 : 1.128 : 1.225. A wrong answer often uses M instead of m, fo
+D4 Q: Two gases, helium (M = 4 g/mol) and oxygen (M = 32 g/mol), are at the same temperature. Sketch their Maxwell-Boltzmann curves on the same axes. Which gas has a higher fraction of molecules with speeds > 2000 m/s? Justify quantitatively.
+D4 A: Helium's curve is broader and shifted right (lower mass → higher speeds at same T). The fraction with v > 2000 m/s is ∫_{2000}^∞ f(v)dv. Since v_rms(He) ≈ 2.83 × v_rms(O_2) at same T, helium's distribution extends much further. Quantitatively, the exponential factor e^{-mv^2/2k_BT} decays slower for smaller m, so helium has a far larger high-speed tail. A student who says oxygen has more high-speed molecules because 
+D5 Q: A student claims: "At a given temperature, all gas molecules have the same kinetic energy, so the Maxwell distribution should be a vertical line at v = v_rms." Evaluate this statement and identify the misconception.
+D5 A: The statement is false. Temperature fixes the *average* translational kinetic energy (3/2 k_BT), not the energy of each molecule. Collisions constantly redistribute energy, creating a spread of speeds. The Maxwell distribution is the equilibrium result of this stochastic process. The misconception is equating a thermodynamic average with a microscopic certainty – a category error between ensemble average and individu
+D6 Q: Design a thought experiment using a velocity selector (rotating slotted disks) to experimentally verify the Maxwell-Boltzmann distribution for argon gas at 400 K. Specify the key measurements and how you would extract f(v). [IN-SCOPE-REWRITE]
+D6 A: Use two coaxial disks with narrow radial slots offset by angle θ, separated by distance L. Only molecules with speed v = ωL/θ pass through both slots. Vary ω and measure the transmitted flux I(ω) with a detector. The flux is proportional to v^3 f(v) (accounting for flux ∝ v and the v^2 in f(v)). Plot I(ω) vs v; normalize area to 1. Compare with theoretical f(v). A poor answer omits the v^3 factor or assumes the selec
+
+VETTED-DIAG cfq_13_1 (fit 0.47, src c11_physics_diagnostics.marker)
+  Q: Find the RMS speed of nitrogen molecules (N_2, M = 0.028 kg/mol) at 300 K. (R = 8.314 J/molxK). Compare with the speed of sound in air at the same temperature.
+  A: v_rms = sqrt(3RT/M) = sqrt(3 x 8.314 x 300 / 0.028) = sqrt(7482.6/0.028) = sqrt(267236) = 517 m/s. Speed of sound in air at 300 K ~= 347 m/s. v_rms > v_sound because v_rms = sqrt(3RT/M) while v_sound = sqrt(gammaRT/M) where gamma = 1.4 for air, so v_sound/v_rms = sqrt(gamma/3) = sqrt(1.4/3) = 0.68. Indeed 347/517 ~= 0.67 OK.
+VETTED-DIAG cfq_1_1 (fit 0.25, src c11_physics_diagnostics.marker)
+  Q: Find the dimensional formula of force and of the universal gravitational constant G.
+  A: Force: F = ma -> [F] = [M][LT^-2] = [MLT^-2]. Gravitational constant: From F = Gm_1m_2/r^2 -> G = Fr^2/(m_1m_2) -> [G] = [MLT^-2][L^2]/([M][M]) = [M^-1L^3T^-2].
+VETTED-DIAG cfq_11_1 (fit 0.25, src c11_physics_diagnostics.marker)
+  Q: 500 J of heat is added to a gas, and the gas does 200 J of work by expanding. Find the change in internal energy. Is the process isothermal, adiabatic, or neither? If the gas is ideal and monatomic, find the temperature change for 2 moles. (C_v = 3R/2)
+  A: First law: DeltaU = Q - W = 500 - 200 = 300 J. The process is NEITHER isothermal (DeltaU ~= 0, so T changes) NOR adiabatic (Q ~= 0, heat is added). For monatomic ideal gas: DeltaU = nC_vDeltaT -> 300 = 2 x (3x8.314/2) x DeltaT = 2 x 12.47 x DeltaT -> DeltaT = 300/24.94 = 12.0 K.
+VETTED-MIS misconception_9 (fit 0.16)
+  M: Increasing temperature always makes particles move faster in a straight line only.
+  C: Heating raises the average kinetic energy of particles, so their average speed increases. Their paths remain random and constantly changing because of collisions. The distribution of speeds also broadens -- some particles move much faster than the average.
+VETTED-MIS misconception_9 (fit 0.16)
+  M: Increasing temperature always makes particles move faster in a straight line only.
+  C: Heating raises the average kinetic energy of particles, so their average speed increases. Their paths remain random and constantly changing because of collisions. The distribution of speeds also broadens -- some particles move much faster than the average.
+VETTED-MIS misconception_14 (fit 0.14)
+  M: A thermometer measures heat, not temperature.
+  C: A thermometer reads temperature in deg C or K. Heat energy is calculated from mass, specific heat capacity, and temperature change, and is measured in joules (J).
+### NODE c11_phy_cbse_13_001  class=11 sub=phy ch=13 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: Periodic motion is a motion that repeats itself identically after a fixed interval of time called the period (T). Oscillatory motion is a special type of periodic motion where a particle moves to and fro about a stable equilibrium position under the action of a restoring force. The frequency (ν) is the reciprocal of the period (ν = 1/T) measured in hertz (Hz). Displacement in oscillations refers to the change with time of any physical quantity (position, angle, voltage, pressure) from its equilibrium value and can be represented by a sinusoidal function of time.
+WALKTHROUGH: Observe a ceiling fan rotating at constant speed — its motion repeats but the blade does not move to and fro about a fixed point; it is periodic but not oscillatory. Now observe a swing in a playground: the child moves back and forth about the lowest point (equilibrium). Use a stopwatch to measure the time for 10 complete to-and-fro motions of the swing; divide by 10 to get the period T. Recall from Class 7 (c7_physics_ch04_002) that the pendulum's period depends on length. The number of oscillations per second is the frequency ν = 1/T. Generalize: the voltage across a capacitor in an AC circuit also oscillates — its displacement is voltage, not position.
+D1 Q: A student claims that the motion of the Earth around the Sun is oscillatory because it repeats every year. Is the student correct? Justify your answer using the definitions of periodic and oscillatory motion.
+D1 A: No, the student is incorrect. The Earth's orbital motion is periodic (repeats after a fixed interval of 1 year) but not oscillatory because the Earth does not move to and fro about an equilibrium position; it undergoes circular/elliptical motion without a restoring force directed toward a fixed mean position. A wrong answer reveals the misconception that all periodic motions are oscillatory.
+D2 Q: The displacement of a particle in an oscillatory system is given by x(t) = 0.05 cos(10πt) where x is in meters and t in seconds. What is the physical meaning of the number 0.05 and the term 10π? Explain why this displacement function represents an oscillatory motion.
+D2 A: 0.05 m is the amplitude (maximum displacement from equilibrium). 10π rad/s is the angular frequency ω, related to period by T = 2π/ω = 0.2 s. The cosine function varies between -1 and +1, so x(t) moves symmetrically about zero (equilibrium), confirming to-and-fro motion. A wrong answer indicates the student cannot link the mathematical form to the physical concepts of amplitude, equilibrium, and periodic repetition.
+D3 Q: A quartz crystal in a digital watch vibrates with a frequency of 32,768 Hz. Calculate its period of vibration in microseconds (μs). Show unit conversion steps.
+D3 A: Given ν = 32,768 Hz = 32,768 s⁻¹. Period T = 1/ν = 1/32,768 s ≈ 3.0518 × 10⁻⁵ s. Convert to μs: 1 s = 10⁶ μs, so T = 3.0518 × 10⁻⁵ × 10⁶ μs = 30.518 μs ≈ 30.5 μs. A wrong answer (e.g., forgetting unit conversion or misplacing decimal) reveals difficulty with reciprocal relationship and metric prefixes.
+D4 Q: Figure shows four x-t graphs. Graph A: straight line with positive slope. Graph B: parabola opening upward. Graph C: repeating sinusoidal curve. Graph D: repeating sawtooth pattern (sharp peaks). Which graphs represent periodic motion? For the periodic ones, which represent oscillatory motion? Explain your reasoning. [IN-SCOPE-REWRITE]
+D4 A: Graphs C and D are periodic (repeat after a fixed interval). Graph C is oscillatory (sinusoidal, symmetric about an equilibrium position, implying a restoring force). Graph D is periodic but not oscillatory (the motion is not symmetric to-and-fro about a mean position; it resembles a particle moving with constant velocity and instantly reversing, which requires infinite force). A wrong answer shows inability to disti
+D5 Q: A student writes the displacement of an oscillating simple pendulum as θ(t) = 0.2 sin(5t) where θ is in degrees and t in seconds. Evaluate the correctness of this equation. If incorrect, provide the correct form with proper units.
+D5 A: The equation is incorrect because the argument of a trigonometric function must be in radians (dimensionless). 5t has units of rad/s × s = rad, but 0.2 is in degrees. The amplitude should be in radians: 0.2° = 0.2 × π/180 ≈ 0.00349 rad. Correct form: θ(t) = 0.00349 sin(5t) rad. A wrong evaluation indicates the student overlooks the radian requirement for angular arguments in calculus-based physics.
+D6 Q: Design a simple experiment using household items to demonstrate the difference between periodic motion that is oscillatory and periodic motion that is not oscillatory. List materials, procedure, and the observations that distinguish the two.
+D6 A: Materials: a thread with a small stone (pendulum), a rotating stool or a bicycle wheel mounted on an axle. Procedure: (1) Displace the pendulum slightly and release; observe to-and-fro motion about the lowest point. (2) Spin the bicycle wheel; observe continuous rotation. Observations: The pendulum moves back and forth about an equilibrium position (oscillatory). The wheel repeats its orientation after each full turn
+
+VETTED-DIAG cfq_2_1 (fit 0.29, src c11_physics_diagnostics.marker)
+  Q: A projectile is launched with speed u = 30 m/s at angle theta = 30 deg  above horizontal. Find the maximum height, time of flight, and range. (g = 10 m/s^2)
+  A: u_x = 30cos30 deg  = 25.98 m/s, u_y = 30sin30 deg  = 15 m/s. Max height: H = u_y^2/(2g) = 225/20 = 11.25 m. Time of flight: T = 2u_y/g = 30/10 = 3 s. Range: R = u^2sin2theta/g = 900xsin60 deg /10 = 900x0.866/10 = 77.94 m.
+VETTED-DIAG cfq_14_1 (fit 0.29, src c11_physics_diagnostics.marker)
+  Q: A simple pendulum has length L = 0.99 m. Find its period. (g = 9.8 m/s^2). If taken to the Moon (g_moon = 1.6 m/s^2), find the new period.
+  A: Period: T = 2pisqrt(L/g) = 2pisqrt(0.99/9.8) = 2pi x 0.318 = 2.0 s. On Moon: T_moon = 2pisqrt(0.99/1.6) = 2pi x 0.786 = 4.94 s. The period increases on the Moon because g is smaller (T proportional to 1/sqrtg).
+VETTED-DIAG cfq_1_1 (fit 0.25, src c11_physics_diagnostics.marker)
+  Q: Find the dimensional formula of force and of the universal gravitational constant G.
+  A: Force: F = ma -> [F] = [M][LT^-2] = [MLT^-2]. Gravitational constant: From F = Gm_1m_2/r^2 -> G = Fr^2/(m_1m_2) -> [G] = [MLT^-2][L^2]/([M][M]) = [M^-1L^3T^-2].
+VETTED-MIS misconception_15 (fit 0.42)
+  M: Frequency is measured in seconds because it is about time.
+  C: Time period is measured in seconds (s). Frequency is measured in hertz (Hz), where 1 Hz = 1 cycle per second. For example, a pendulum with a 2 s time period has a frequency of 0.5 Hz.
+VETTED-MIS misconception_15 (fit 0.42)
+  M: Frequency is measured in seconds because it is about time.
+  C: Time period is measured in seconds (s). Frequency is measured in hertz (Hz), where 1 Hz = 1 cycle per second. For example, a pendulum with a 2 s time period has a frequency of 0.5 Hz.
+VETTED-MIS misconception_12 (fit 0.37)
+  M: The second hand of a clock is periodic but the minute hand is not, because the minute hand moves too slowly to repeat.
+  C: The size of the time period does not matter. Any hand of a clock is periodic because it returns to the same position after a fixed interval -- only the length of that interval differs.
+### NODE c11_phy_cbse_13_008  class=11 sub=phy ch=13 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: Forced oscillations occur when an external periodic force drives a damped oscillator at a frequency different from its natural frequency; resonance is the phenomenon where the driving frequency matches the natural frequency of the system, causing the amplitude to reach a maximum limited only by damping. The steady-state amplitude is given by A = (F₀/m) / √[(ω₀² - ω²)² + (2βω)²] where F₀ is the driving force amplitude (N), m is mass (kg), ω₀ is natural angular frequency (rad/s), ω is driving angular frequency (rad/s), and β = b/2m is the damping constant (s⁻¹) with b being the damping coefficient (N·s/m).
+WALKTHROUGH: Watch a swing in a playground: if you push it at random times, it barely moves, but if you push exactly when it starts moving forward each time, the swing goes higher and higher — this is resonance. In the lab, attach a mass-spring system to a vibration generator and vary the driving frequency while measuring amplitude; you will see a sharp peak at the natural frequency. Connect this to the damped SHM you studied: the external force adds energy each cycle, while damping removes it. The balance between energy input and dissipation determines the steady-state amplitude. The key formula emerges from solving mẍ + bẋ + kx = F₀ cos(ωt) for the particular solution.
+D1 Q: A student writes the resonance condition as ω_d = √(k/m) for a forced damped oscillator. Is this correct? If not, what is the exact resonance frequency for a damped system?
+D1 A: The student's answer is approximately correct only for light damping. The exact resonance frequency for a damped driven oscillator is ω_res = √(ω₀² - 2β²) where ω₀ = √(k/m) and β = b/2m. A wrong answer reveals the student ignores the damping shift and confuses natural frequency with resonance frequency — a critical error in engineering applications where damping is significant.
+D2 Q: Why does the amplitude not become infinite at resonance in a real system? Explain using energy balance between the driving force and damping force.
+D2 A: At resonance, the driving force does maximum work per cycle because it is in phase with velocity. The power input P_in = (1/2)F₀v₀ equals the power dissipated by damping P_diss = (1/2)bv₀². Equating them gives v₀ = F₀/b, so amplitude A = v₀/ω = F₀/(bω) — finite because damping coefficient b > 0. A wrong answer shows the student thinks resonance implies infinite amplitude, missing that damping limits energy buildup.
+D3 Q: A mass-spring system (m = 0.5 kg, k = 200 N/m) has a damping coefficient b = 0.4 N·s/m. It is driven by F(t) = 2 cos(ωt) N. Calculate the resonance frequency (rad/s) and the maximum steady-state amplitude (m).
+D3 A: Step 1: ω₀ = √(k/m) = √(200/0.5) = √400 = 20 rad/s. Step 2: β = b/2m = 0.4/(2×0.5) = 0.4 s⁻¹. Step 3: ω_res = √(ω₀² - 2β²) = √(400 - 2×0.16) = √399.68 ≈ 19.992 rad/s. Step 4: A_max = F₀/(2mβω₀) for light damping ≈ 2/(2×0.5×0.4×20) = 2/8 = 0.25 m. A wrong answer using ω₀ instead of ω_res gives A = 2/(0.4×20) = 0.25 m — numerically similar here but conceptually wrong; using A = F₀/(m√((ω₀²-ω²)²)) at ω=ω₀ gives division
+D4 Q: Two identical forced damped oscillators have different damping coefficients: b₁ = 0.2 N·s/m and b₂ = 0.8 N·s/m. Sketch their amplitude vs. driving frequency curves on the same axes. Label the resonance peaks and explain which curve has a higher quality factor Q.
+D4 A: Both curves peak near ω₀ = √(k/m). The b₁ curve has a taller, narrower peak (higher Q = ω₀/2β₁ = mω₀/b₁) while the b₂ curve has a shorter, broader peak (lower Q = mω₀/b₂). Since Q ∝ 1/b, the lightly damped oscillator (b₁) has Q four times larger. A wrong answer with identical peak heights or widths reveals the student does not understand that damping controls both peak amplitude (A_max ∝ 1/b) and sharpness (Δω ∝ b).
+D5 Q: A bridge has a natural frequency of 0.5 Hz. Soldiers marching in step at 120 steps/minute cross it. Will resonance occur? If the commander orders "break step," explain why this prevents resonance using the concept of driving frequency spectrum. [IN-SCOPE-REWRITE]
+D5 A: Marching frequency = 120/60 = 2 Hz. Natural frequency = 0.5 Hz. No resonance because 2 Hz ≠ 0.5 Hz. However, the periodic marching force contains Fourier harmonics: the 4th harmonic (4 × 0.5 Hz = 2 Hz) matches the marching fundamental, but the bridge's natural frequency 0.5 Hz could be excited by the 1st harmonic of a 0.5 Hz component — but marching at 2 Hz has no 0.5 Hz component. "Break step" destroys the periodici
+D6 Q: Design a simple experiment using a smartphone and a spring-mass system to measure the quality factor Q of the oscillator. Describe the procedure, measurements needed, and how to calculate Q from the resonance curve.
+D6 A: Procedure: (1) Hang a spring with known k and mass m. (2) Attach a small magnet to the mass and place a coil connected to a function generator (or smartphone speaker output via amplifier) to drive it. (3) Use the smartphone's accelerometer (via phyphox app) to record amplitude vs. driving frequency. (4) Sweep frequency slowly across resonance, record A(ω). (5) Find ω_res (peak), measure FWHM Δω (frequency width at A_
+
+VETTED-DIAG cfq_14_2 (fit 0.50, src c11_physics_diagnostics.marker)
+  Q: A spring-mass system has m = 0.5 kg and k = 200 N/m. Find the period and frequency. If the amplitude is 0.1 m, find the maximum speed and maximum acceleration.
+  A: Period: T = 2pisqrt(m/k) = 2pisqrt(0.5/200) = 2pi x 0.05 = 0.314 s. Frequency: f = 1/T = 3.18 Hz. Angular frequency: omega = sqrt(k/m) = sqrt(400) = 20 rad/s. Max speed: v_max = Aomega = 0.1 x 20 = 2 m/s. Max acceleration: a_max = Aomega^2 = 0.1 x 400 = 40 m/s^2.
+VETTED-DIAG cfq_1_1 (fit 0.38, src c11_physics_diagnostics.marker)
+  Q: Find the dimensional formula of force and of the universal gravitational constant G.
+  A: Force: F = ma -> [F] = [M][LT^-2] = [MLT^-2]. Gravitational constant: From F = Gm_1m_2/r^2 -> G = Fr^2/(m_1m_2) -> [G] = [MLT^-2][L^2]/([M][M]) = [M^-1L^3T^-2].
+VETTED-DIAG cfq_7_2 (fit 0.22, src c11_physics_diagnostics.marker)
+  Q: If the distance between two masses is doubled, by what factor does the gravitational force change? What happens to the gravitational potential energy?
+  A: Force: F = Gm_1m_2/r^2. If r -> 2r: F' = Gm_1m_2/(2r)^2 = F/4. Force becomes 1/4 (inverse square law). Potential energy: U = -Gm_1m_2/r. If r -> 2r: U' = -Gm_1m_2/(2r) = U/2. PE becomes half (inverse law, not inverse square). Note: PE is negative and becomes less negative (closer to zero) as r increases.
+VETTED-MIS misconception_3 (fit 0.22)
+  M: The kilogram is the SI unit of weight.
+  C: SI unit of mass = kilogram (kg). SI unit of weight (force of gravity) = newton (N). On Earth, a 1 kg mass has a weight of about 9.8 N.
+VETTED-MIS misconception_3 (fit 0.22)
+  M: The kilogram is the SI unit of weight.
+  C: SI unit of mass = kilogram (kg). SI unit of weight (force of gravity) = newton (N). On Earth, a 1 kg mass has a weight of about 9.8 N.
+VETTED-MIS misconception_6 (fit 0.21)
+  M: The fps system uses the pound as a unit of mass, so it is the same as the SI kilogram.
+  C: In the fps system, the pound is the base unit of mass (1 lb ~ 0.4536 kg). The unit of force is the poundal (pdl), defined so that 1 pdl accelerates 1 lb at 1 ft s^-2. Do not mix up pound-mass and pound-force.

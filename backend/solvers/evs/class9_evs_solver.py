@@ -661,3 +661,18 @@ class EVSSolver:
         required = ["sun", "producer", "consumer", "decomposer"]
         kw_score = self._keyword_overlap(chain
 )
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    params = params or {}
+    s = EVSSolver(params.get("seed", 42))
+    if "qid" in params and ("user_answer" in params or "answer" in params):
+        r = s.verify(params["qid"], params.get("user_answer", params.get("answer")))
+        return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": str(r)})
+    return {"node_id": node_id, "hint": "pass qid + user_answer to verify"}
+
+def check_answer(qid: str = "", user_answer: str = "", **kw):
+    return EVSSolver(kw.get("seed", 42)).verify(qid, user_answer)
+
+SOLVER_REGISTRY = {"c9_evs_solve": solve, "c9_evs_check": check_answer}
+NODE_MAP = {"c9_evs_001": "c9_evs_solve", "c9_evs_002": "c9_evs_solve"}

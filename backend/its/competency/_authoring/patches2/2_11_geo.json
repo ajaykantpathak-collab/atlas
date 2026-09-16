@@ -1,0 +1,50 @@
+{
+ "c11_geo_cbse_07_004": {
+  "rewrites": {
+   "5": {
+    "a": "(1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and Srisailam dams came up, an 85 percent cut, (2) Delta damage — the starved delta front erodes at 10 to 20 m per year, natural compaction of 2 to 4 mm per year goes uncompensated, and salinity intrudes about 30 km inland, hitting groundwater and agriculture, (3) Countervailing gains — the dams irrigate about 1.2 million hectares and add flood control and hydropower, (4) Verdict — destroyed is hyperbolic because the delta persists but is degrading, so the statement is only partially true and sustainable management needs environmental flows and sediment bypass. A purely positive or negative evaluation misses the trade-off analysis that resource geography demands."
+   }
+  },
+  "appends": []
+ },
+ "c11_geo_cbse_20_001": {
+  "rewrites": {
+   "3": {
+    "a": "(1) Refining stage — bauxite loses half its weight per tonne of alumina, so the material index is 2 and this stage sits near the bauxite in Region A, (2) Smelting stage — the index is again 2 for two tonnes of alumina per tonne of aluminium, but alumina is already a concentrated intermediate and the decisive input is now electricity of 15000 kWh per tonne, (3) Cost comparison — transmitting electricity over long distance loses roughly 5 to 10 percent, yet hauling alumina by rail is cheaper per tonne-km, and the power pull still dominates, (4) Conclusion — the smelter belongs beside the cheap hydropower in Region B, because after refining the location logic shifts from material-oriented to power-oriented. A wrong answer placing the smelter beside the bauxite ignores that multi-stage shift."
+   },
+   "4": {
+    "a": "(1) Constant factor — market access, both industries sell into large urban consumer markets, (2) Constant factor — transport connectivity, port and rail for cotton exports then, highways and rail for auto components now, (3) Constant factor — labour availability, though the skill type has changed, (4) Shifted factor — raw material, cotton was grown locally on the Deccan while autos use globally sourced steel and plastics, so the raw-material pull weakened, (5) Shifted factor — power, cotton mills needed coal imported into Mumbai while auto plants run on reliable grid power that is less location-specific, (6) Shifted factor — agglomeration, from Mumbai's general finance and services cluster to specialised supplier clusters such as Chakan. Listing only labour, market and transport for both misses the evolutionary geography of industrial location."
+   },
+   "5": {
+    "a": "(1) Judgement — government policy is necessary but not sufficient, it can override geographical disadvantages yet cannot create viability without underlying locational logic, (2) Supporting case — the Tata Nano at Sanand won land, tax holidays and single-window clearance, on a site that already had port proximity, an automotive vendor base and labour, so policy accelerated a geographically plausible choice, (3) Limiting case — POSCO in Odisha had a massive policy push yet stalled, blocked by forest clearance delays, tribal resistance and water scarcity, which policy could not offset, (4) Conclusion — policy is a catalyst where geography is favourable and cannot manufacture comparative advantage where factor endowments are absent. Calling policy most decisive is determinism, and calling it irrelevant ignores the liberalisation-era spatial redistribution."
+   },
+   "6": {
+    "a": "(1) Import-port proximity for lithium, cobalt and nickel — weight 15, inputs arrive by sea, (2) Renewable energy availability — weight 20, green power cuts cost and carbon, (3) Water stress index — weight 15, electrolyte production needs ultra-pure water, (4) Skilled technical labour pool — weight 15, chemists, engineers and technicians, (5) EV demand cluster proximity — weight 10, Pune, Chennai and Delhi-NCR hubs, (6) State industrial policy incentives — weight 15, decisive for capital-heavy projects, (7) Notified industrial land with effluent treatment — weight 10, avoids acquisition delays, (8) Sustainability constraint — zero liquid discharge is mandatory. A poor answer lists factors without weights, ignores import dependence of critical minerals, or treats sustainability as optional."
+   }
+  },
+  "appends": []
+ },
+ "c11_geo_cbse_23_009": {
+  "rewrites": {
+   "1": {
+    "a": "(1) Equidistance — the scale factor equals 1 along specified lines only, h = 1 along chosen meridians or k = 1 along standard parallels, never everywhere at once, (2) Equivalence — the area scale factor h times k equals 1 everywhere, with the meridional and parallel scale factors reciprocals of each other, (3) Conformality — h equals k at every point and the maximum angular deformation omega is zero, while the area factor h squared departs from 1 away from standard lines. A wrong answer claiming equidistant means distances are true everywhere, or conformal means shapes are perfect at finite size, confuses local scale preservation with global truth, because only infinitesimal shapes are preserved."
+   },
+   "2": {
+    "a": "(1) Requirement of conformality — h equals k everywhere on the map, (2) Requirement of equivalence — h times k equals 1 everywhere, (3) Combining the two — h squared = 1, so h = k = 1 everywhere, which means zero distortion globally, (4) The impossibility — the sphere carries positive Gaussian curvature of 1 over R squared while the plane has none, and by Gauss's Theorema Egregium curvature is invariant under isometric mappings, so a perfect flattening cannot exist, (5) Conclusion — no projection can be both conformal and equivalent. A wrong answer that cites Mercator and Gall-Peters offers examples rather than the proof, and saying the sphere cannot be flattened states the symptom without the curvature cause."
+   },
+   "3": {
+    "a": "(1) Conformal check — the condition h equals k fails, since h is 1.15 and k is 0.87, (2) Equivalent check — the product 1.15 times 0.87 equals 1.0005, and because equivalence demands exactly 1 the projection is not equivalent, (3) Equidistant check — h is not 1 along the meridian and k is not 1 along the parallel, so neither direction is equidistant, (4) Area scale factor — h times k gives 1.0005, roughly 1.0005 times the true area, (5) Angular deformation — applying the given sine rule puts omega close to sixteen degrees. Declaring it equivalent because the product is nearly 1 misses that equivalence is exact, and equidistance must be checked direction by direction."
+   },
+   "4": {
+    "a": "(1) Mercator — conformal, with area scaling as sec squared of latitude from about 1.02 at 8 N to 1.58 at 37 N, so it misrepresents a population-density map, (2) Lambert Conformal Conic — true scale along its standard parallels at 18 and 30 N with under 3 percent area error inside India, suiting administrative shape work, (3) Sinusoidal — equidistant along every parallel and the central meridian but not equivalent, because its area factor is cos of latitude, so a density choropleth needs a truly equivalent choice such as Mollweide. Saying the sinusoidal is equivalent repeats the classic confusion with Mollweide, and calling Mercator good for India because it is a world map ignores the latitudinal extent."
+   },
+   "5": {
+    "a": "(1) Error one — the Survey of India's topographical series uses the Polyconic projection, while the Lambert Conformal Conic serves aeronautical and some thematic charts, (2) Error two — no projection preserves both shape and area, and a conformal projection still distorts area by roughly 1 to 3 percent between its standard parallels, (3) Error three — accuracy claims must be quantified, and with standard parallels near 18 and 30 North the scale error between them stays under half a percent, (4) Corrected statement — Polyconic for the topographical sheets, Lambert Conformal Conic where constant bearings matter. A student who corrects only the projection name but keeps shape-plus-area accuracy has missed the mutual-exclusivity theorem."
+   },
+   "6": {
+    "a": "(1) Task A, navigation with rhumb lines straight — the Mercator, whose conformality makes loxodromes straight lines at the price of area exaggeration toward the north, (2) Task B, comparing forest-cover area across states — an equivalent choice such as the Albers Equal-Area Conic with standard parallels at 18 and 30 North and central meridian 82.5 East, keeping h times k equal to 1 everywhere, (3) Task C, distances from Delhi to district headquarters — the Azimuthal Equidistant centred on Delhi, true to scale along every great circle radiating from the centre with near-zero radial error, (4) Parameters — conic choices must state their standard parallels, and qualitative low-distortion claims without numbers lack board-exam precision. A poor answer picks Mercator for the distance task, not realising equidistance is radial rather than global."
+   }
+  },
+  "appends": []
+ }
+}

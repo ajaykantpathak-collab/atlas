@@ -1,0 +1,11 @@
+{
+ "c9_bio_ch4_3": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of levels when building a two-level classification of kitchen items by biological origin.",
+    "a": "The hierarchy builds: (1) Sort items into broad groups by shared biological origin (2) Split each group into subgroups by plant part or family (3) Name every level after its single shared characteristic (4) Place each item in exactly one subgroup, leaving non-plant items like salt in their own group. A wrong answer that mixes culinary use with biological origin, or lets an item sit in two subgroups, shows the student has not grasped that classification imposes a single consistent hierarchy that supports identification, communication and the study of relationships among organisms."
+   }
+  },
+  "appends": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "c10_math_cbse_01_005": {
+  "rewrites": {
+   "4": {
+    "q": "A prime 5 divides 1 squared plus 2 squared. Does the theorem force 5 to divide 1 and 2 as well? Give the correct sequence of reasoning.",
+    "a": "The reasoning runs: (1) The theorem speaks only of a prime dividing a single perfect square (2) Compute 1 squared plus 2 squared equals 5 (3) The prime 5 divides this sum (4) Yet 5 divides neither 1 nor 2, so no conclusion follows for sums of squares. A wrong answer that says yes shows the student has overgeneralised the theorem from a single square to a sum of squares, ignoring that the prime's factors must come from one factorisation."
+   }
+  },
+  "appends": []
+ },
+ "c10_math_cbse_01_008": {
+  "rewrites": {
+   "3": {
+    "q": "Give the correct order of steps in the contradiction proof that 5 minus √3 is irrational.",
+    "a": "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This contradicts the proven irrationality of √3, so the assumption fails. A wrong answer that accepts the slogan that rational and irrational never mix as a proof shows the student has missed that the assertion needs the contradiction argument, not intuition."
+   }
+  },
+  "appends": []
+ },
+ "c10_math_cbse_03_012": {
+  "rewrites": {
+   "6": {
+    "q": "An auto ride of 5 km costs 50 rupees and a ride of 10 km costs 80 rupees, with a fixed charge for the first 2 km plus a per-km charge. Calculate the fixed charge in rupees.",
+    "a": "The equations are x + 3y = 50 and x + 8y = 80; subtracting gives 5y = 30 so the per-km charge is 6 rupees, and substituting back: x = 50 - 18 = 32 rupees fixed. A wrong answer that uses 5y and 10y for the distances shows the student forgot to subtract the fixed 2 km before forming the equations."
+   }
+  },
+  "appends": []
+ },
+ "c10_math_cbse_05_011": {
+  "rewrites": {
+   "6": {
+    "q": "Meena puts 5 rupees in her piggy bank on the first day and increases the amount by 5 rupees each following day. Her total savings reach 275 rupees. Calculate the number of days she saved.",
+    "a": "With a = 5 and d = 5, the sum formula gives 275 = n/2 x (10 + 5(n-1)); this simplifies to n squared + n - 110 = 0, whose positive root is n = 10 days. A wrong answer that uses n instead of n - 1 inside the bracket shows the off-by-one slip that corrupts the sum formula."
+   }
+  },
+  "appends": []
+ },
+ "c10_math_cbse_12_003": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of volume calculations for the temple kalash built from a cubical base, a cylindrical middle and a conical top.",
+    "a": "The computation runs: (1) The cube of side 20 cm gives 8000 cubic cm (2) The cylinder of radius 7 cm and height 30 cm gives 4620 cubic cm (3) The cone of radius 7 cm and height 24 cm gives 1232 cubic cm (4) Adding the three parts yields 13852 cubic cm of brass. A wrong answer that forgets the one-third in the cone volume shows the student has missed the decompose, compute and add method for combined solids."
+   }
+  },
+  "appends": []
+ },
+ "c10_math_cbse_14_007": {
+  "rewrites": {
+   "4": {
+    "q": "Trace the correct sequence of reasoning that shows P(E) plus P(not E) equals 1 for any event E.",
+    "a": "The partition argument runs: (1) Every outcome of the sample space lies in E or in not E (2) The two events are mutually exclusive with no overlap (3) Their probabilities therefore add to the probability of the whole sample space (4) Since the probability of the sample space is 1, the two probabilities sum to 1. A wrong answer that treats E and not E as the same event shows the student has missed the partition of the sample space into an event and its complement."
+   }
+  },
+  "appends": []
+ }
+}

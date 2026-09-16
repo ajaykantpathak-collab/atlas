@@ -1,0 +1,50 @@
+{
+ "c12_bio_cbse_06_006": {
+  "rewrites": {
+   "6": {
+    "a": "(1) For the UUA and UUG pair — one leucine tRNA with a modified UAA anticodon reads both codons through wobble at the third base, (2) For the CUN family — a tRNA carrying the inosine-containing IAG anticodon reads CUU, CUC and CUA, since inosine pairs with U, C or A, (3) For CUG — a separate tRNA with the CAG anticodon pairs by standard base pairing, (4) The economy — the minimal set is therefore three tRNAs instead of the six demanded by strict Watson-Crick pairing, which is exactly what the wobble hypothesis predicts. A poor answer that lists six anticodons or never uses inosine shows failure to apply the wobble rules for economy."
+   }
+  },
+  "appends": []
+ },
+ "c12_bio_cbse_06_007": {
+  "rewrites": {
+   "5": {
+    "a": "(1) What the drug blocks — phosphorylation of eIF2 alpha, the trigger of the integrated stress response, (2) The normal response — stress phosphorylates eIF2 alpha, slowing global translation while selectively raising stress-response proteins such as HSP70 through their upstream ORFs, (3) With the drug — global protein synthesis stays high because the inhibitory phosphorylation never happens, (4) The cost — HSP70 and the other stress proteins are not selectively upregulated, since both effects require that same phosphorylation step. A wrong answer saying both decrease, or that global synthesis and HSP70 both increase, misses the dual role of eIF2 alpha phosphorylation in global suppression and selective activation."
+   }
+  },
+  "appends": []
+ },
+ "c12_bio_cbse_06_009": {
+  "rewrites": {
+   "2": {
+    "a": "(1) The anchor advantage — each sequenced BAC clone had a known chromosomal location, so every fragment landed where it belonged, (2) The repeat problem — over half the genome is repeats such as centromeres, telomeres and segmental duplications, where overlap-only assembly misplaces sequence, (3) The shotgun trade-off — whole-genome shotgun assembles purely by sequence overlap, faster but less accurate in repeat-rich eukaryotic genomes, (4) The priority — the public project chose slower mapped-clone sequencing because a reference standard demanded accuracy. A wrong answer claiming BAC was faster, or that shotgun cannot handle large genomes at all, misses that this was an accuracy-versus-speed choice."
+   }
+  },
+  "appends": []
+ },
+ "c12_ca_cbse_02_001": {
+  "rewrites": {
+   "6": {
+    "a": "(1) The input cells — B2 holds the annual rate, B3 the number of years and B4 the loan amount, (2) The formula — B6 carries =PMT(B2/12, B3*12, -B4), with the rate divided and the years multiplied by twelve to match monthly periods, (3) The sign convention — the loan amount enters negative because it is money received, so the EMI comes out positive, about 8678 rupees, (4) The what-if design — because the formula references the input cells, changing the rate cell alone recalculates the EMI instantly. A poor answer hard-codes the numbers inside PMT, which is not a what-if model, or forgets the periodicity conversion and gets a wildly wrong EMI."
+   }
+  },
+  "appends": []
+ },
+ "c12_ca_cbse_02_004": {
+  "rewrites": {
+   "6": {
+    "a": "(1) Set the print area — Page Layout, then Print Area, then Set Print Area over the whole statement, (2) Fit the page — in the Page Setup dialog choose landscape orientation and scale to one page wide by one page tall, (3) Repeat the header — on the Sheet tab set rows to repeat at the top as the header row, (4) Stamp the footer — under the Header and Footer tab build a custom centred footer with dynamic page numbers of the form Confidential, Page X of Y, (5) Verify — use Print Preview before printing to confirm the layout. A poor answer misses the repeat-rows setting or types literal numbers instead of dynamic page codes, showing incomplete mastery of multi-page report setup."
+   }
+  },
+  "appends": []
+ },
+ "c12_ca_cbse_02_005": {
+  "rewrites": {
+   "5": {
+    "a": "(1) The likely cause — the source Quantity column carries blank or text entries in some records, which the Sum ignores while the percentage base still spans the whole column, (2) The first fix — clean the source column by replacing text and blanks with zeros, then refresh the Pivot Table, (3) The verification — check that the pivot grand total matches a manual sum of the cleaned column before reapplying the percentage view, (4) The principle — trace every calculation anomaly back to source-data integrity rather than to the pivot display. A wrong answer such as switching to percent of row total, or merely refreshing without cleaning the source, shows the student did not trace the calculation logic to the data."
+   }
+  },
+  "appends": []
+ }
+}

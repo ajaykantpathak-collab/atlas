@@ -479,7 +479,7 @@ def gen_aptitude_questions(rng, count):
                 "The cutoff score for selection in a recruitment drive for {} positions "
                 "was {}. {name} from {city} scored {}. "
                 "What is the margin by which {name} exceeded the cutoff?"
-            ).format(profession, cutoff, name=name, city=city, scored=scored)
+            ).format(profession, cutoff, scored, name=name, city=city)
             margin = scored - cutoff
             wrong_margin = rng.choice([margin + rng.randint(5, 15), margin - rng.randint(1, 10),
                                        rng.randint(5, 20)])
@@ -488,7 +488,7 @@ def gen_aptitude_questions(rng, count):
             rng.shuffle(opts)
             steps = [
                 "Cutoff score = {}".format(cutoff),
-                "{name}'s score = {}".format(scored),
+                "{name}'s score = {scored}".format(name=name, scored=scored),
                 "Margin = Scored - Cutoff",
                 "Margin = {} - {} = {}".format(scored, cutoff, margin),
             ]
@@ -502,9 +502,9 @@ def gen_aptitude_questions(rng, count):
                 "answer": str(margin),
                 "steps": steps,
                 "explanation": _clean_string(
-                    "The margin is the difference between {name}'s score ({}) and the "
-                    "cutoff ({}), which is {}. A positive margin indicates selection above "
-                    "the minimum requirement.".format(name, scored, cutoff, margin)
+                    "The margin is the difference between {name}'s score ({scored}) and the "
+                    "cutoff ({cutoff}), which is {margin}. A positive margin indicates selection above "
+                    "the minimum requirement.".format(name=name, scored=scored, cutoff=cutoff, margin=margin)
                 ),
                 "difficulty": "Easy",
                 "bloom_level": "Apply",
@@ -1204,7 +1204,7 @@ def gen_emotional_intelligence_questions(rng, count):
                 "cohesion, lower job satisfaction, higher turnover, and decreased "
                 "productivity. In a culturally diverse workplace like {city}, EI is "
                 "especially important for managing cross-cultural interactions."
-            ).format(city=city)
+            ).format(name=name, city=city)
 
             questions.append({
                 "id": rng.randint(1, 999999),
@@ -1819,7 +1819,7 @@ def gen_therapeutic_approaches_questions(rng, count):
         city = get_city(rng)
 
         if q_type == "competency":
-            approach = rng.choice(["psychoanalysis", "CBT", "client-centered",
+            approach = rng.choice(["psychoanalysis", "CBT", "client_centered",
                                    "behavior_therapy", "cognitive_therapy"])
             client_issue = rng.choice([
                 "social anxiety and fear of public speaking",
@@ -1891,7 +1891,7 @@ def gen_therapeutic_approaches_questions(rng, count):
                 "COMPETENCY-BASED: {name}, aged {age}, from {city}, is seeking therapy "
                 "for {issue}. As a clinical psychologist, you need to recommend the most "
                 "appropriate therapeutic approach.\n\n"
-                "(a) Explain the key principles of {} therapy, including its founder, "
+                "(a) Explain the key principles of {approach} therapy, including its founder, "
                 "core concepts, and primary techniques.\n"
                 "(b) Justify why this approach is suitable for {name}'s condition, "
                 "referencing the approach's key features.\n"
@@ -2772,7 +2772,7 @@ def gen_prejudice_questions(rng, count):
                 "3. Equal opportunity policies: Implement and enforce anti-discrimination policies.\n"
                 "4. Mentorship programs: Support women's career advancement.\n"
                 "5. Role models: Promote women leaders to challenge stereotypes."
-            ).format(city)
+            ).format(city=city)
             questions.append({
                 "id": rng.randint(1, 999999),
                 "syllabus_node": "c12_psy_012",
@@ -2807,7 +2807,7 @@ def gen_social_influence_questions(rng, count):
 
         if q_type == "competency":
             q_text = (
-                "COMPETENCY-BASED: A group of 8 friends from {} regularly meets at a "
+                "COMPETENCY-BASED: A group of 8 friends from {city} regularly meets at a "
                 "local cafe. Over time, {name}, who is usually cautious, has started "
                 "making riskier decisions during group discussions. During a recent "
                 "outing, the group collectively decided to take a dangerous shortcut "
@@ -3206,4 +3206,97 @@ def gen_environment_questions(rng, count):
                 "4. Sleep disturbance: Poor air quality disrupts sleep patterns.\n"
                 "5. Developmental effects: Affects children's cognitive development.\n\n"
                 "In {}: High pollution levels contribute to widespread stress, "
-                "reduced workplace productivity, and increased healthcare burden
+                "reduced workplace productivity, and increased healthcare burden. "
+                "Pro-environmental behaviors such as carpooling, using public "
+                "transport, and supporting clean-air policies can mitigate these effects."
+            ).format(city)
+            questions.append({
+                "id": rng.randint(1, 999999),
+                "syllabus_node": "c12_psy_014",
+                "topic": "Psychology and Life",
+                "type": "short",
+                "question": _clean_string(q_text),
+                "options": [],
+                "answer": _clean_string(answer_text),
+                "steps": [
+                    "Identify the psychological effects of air pollution.",
+                    "Relate the effects to the given city context.",
+                    "Suggest pro-environmental behaviors as mitigation.",
+                ],
+                "explanation": _clean_string(
+                    "Environmental degradation acts as a chronic stressor. "
+                    "Understanding its effects encourages pro-environmental behavior."
+                ),
+                "difficulty": "Medium",
+                "bloom_level": "Understand",
+            })
+
+    return questions
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# TOPIC REGISTRY + ADAPTER
+# ═══════════════════════════════════════════════════════════════════════════
+
+_TOPIC_GENERATORS = [
+    ("intelligence", gen_intelligence_questions),
+    ("aptitude", gen_aptitude_questions),
+    ("personality", gen_personality_questions),
+    ("life_skills", gen_life_skills_questions),
+    ("emotional_intelligence", gen_emotional_intelligence_questions),
+    ("needs_maslow", gen_needs_maslow_questions),
+    ("disorders", gen_disorders_questions),
+    ("therapeutic_approaches", gen_therapeutic_approaches_questions),
+    ("cbt_rebt", gen_cbt_rebt_questions),
+    ("attitude", gen_attitude_questions),
+    ("prejudice", gen_prejudice_questions),
+    ("social_influence", gen_social_influence_questions),
+    ("environment", gen_environment_questions),
+]
+
+
+def generate_questions(seed=None, count=5, topic=None):
+    """Generate deterministic CISCE Class 12 Psychology questions.
+
+    Args:
+        seed: Random seed for reproducibility
+        count: Number of questions (called as fn(seed) returns one)
+        topic: Optional topic filter (e.g., "disorders", "attitude")
+
+    Returns:
+        List of question dictionaries.
+    """
+    n = 1 if count is None else max(1, int(count))
+    seed_val = int(seed) if seed is not None else 0
+
+    if topic:
+        t = str(topic).lower().replace(" ", "_").replace("-", "_")
+        gens = [g for name, g in _TOPIC_GENERATORS
+                if name == t or name in t or t in name]
+        if not gens:
+            gens = [g for _, g in _TOPIC_GENERATORS]
+    else:
+        gens = [g for _, g in _TOPIC_GENERATORS]
+
+    questions = []
+    per_topic = max(1, -(-n // len(gens)))
+    for i, gen in enumerate(gens):
+        if len(questions) >= n:
+            break
+        need = min(per_topic, n - len(questions))
+        sub_rng = random.Random(seed_val * 7919 + i * 104729)
+        questions.extend(gen(sub_rng, need))
+    return questions[:n]
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# DEMO
+# ═══════════════════════════════════════════════════════════════════════════
+
+if __name__ == "__main__":
+    for q in generate_questions(seed=42, count=6):
+        print(f"[{q['syllabus_node']}] ({q['topic']}) {q['question'][:80]}")
+        for o in q.get("options", []):
+            print(f"    {o}")
+        print(f"    Answer: {str(q['answer'])[:80]}")
+        print()

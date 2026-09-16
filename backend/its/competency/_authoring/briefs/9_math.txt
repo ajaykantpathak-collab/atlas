@@ -1,0 +1,252 @@
+
+### NODE c9_math_ch2_10  class=9 sub=math ch=2 verdict=PARTIAL action=REWRITE [2]
+DEFINITION: A word problem using linear equations is a real-world situation described in words that can be translated into one or more linear equations in one or two variables, where the unknown quantities satisfy a constant rate of change relationship. The solution involves identifying variables, forming equations from the given conditions, solving the system algebraically, and interpreting the solution in the context of the original problem.
+WALKTHROUGH: Imagine you are helping your family plan a trip from Delhi to Jaipur. You know the total distance is 280 km, and you travel partly by car at 60 km/h and partly by bus at 40 km/h. The total journey takes 5 hours. How far did you travel by car? Start by asking: what are the two unknown distances? Let distance by car be x km and by bus be y km. From the problem, we get two conditions: x + y = 280 (total distance) and x/60 + y/40 = 5 (total time). This connects to c9_math_ch2_8 (substitution method) and c9_math_ch2_3 (linear patterns in real life). The key insight is that every word problem gives you relationships that become equations — your job is to name the unknowns, write the equations, and solve systematically.
+D1 Q: What is the first step when solving any word problem using linear equations?
+D1 A: The first step is to identify the unknown quantities and assign variables (like x and y) to them. A wrong answer (e.g., "write the equation immediately" or "guess the answer") reveals the student does not understand the systematic process of mathematical modelling — they skip the crucial translation from words to algebraic representation, which leads to incorrect equations.
+D2 Q: In a two-variable word problem, you get two equations. Why must both equations be true at the same time for the solution to be correct?
+D2 A: Both equations represent different conditions from the same real-world situation, so the values of the variables must satisfy all given conditions simultaneously. A wrong answer (e.g., "we only need one equation" or "we can pick the easier equation") reveals the student treats equations as isolated instead of a system — a critical misconception because real problems impose multiple constraints that must all hold.
+D3 Q: Ravi is 3 times as old as his son. After 10 years, Ravi will be twice as old as his son. Find their present ages. [IN-SCOPE-REWRITE]
+D3 A: Let son's age = x, Ravi's age = 3x. After 10 years: son = x+10, Ravi = 3x+10. Condition: 3x+10 = 2(x+10) → 3x+10 = 2x+20 → x = 10. Son = 10 years, Ravi = 30 years. A wrong answer (e.g., x=5 or 3x=2(x+10) without +10) reveals the student either misassigns variables, forgets to add 10 to both ages, or incorrectly sets up the future relationship — showing weak translation of "after 10 years" into algebraic expressions.
+D4 Q: A boat travels 30 km upstream and 44 km downstream in 10 hours. It travels 40 km upstream and 55 km downstream in 13 hours. The speed of the boat in still water is 8 km/h and stream is 3 km/h. Without solving fully, explain how you would set up the equations and why this problem gives a pair of linear equations in two 
+D4 A: Let boat speed in still water = x km/h, stream speed = y km/h. Upstream speed = x−y, downstream = x+y. Time = distance/speed. First trip: 30/(x−y) + 44/(x+y) = 10. Second: 40/(x−y) + 55/(x+y) = 13. These are not linear in x,y but become linear if we substitute u = 1/(x−y), v = 1/(x+y). A wrong answer (e.g., writing 30x+44y=10) reveals the student does not understand that time = distance/speed and incorrectly assumes 
+D5 Q: A student solved this problem: "The sum of two numbers is 15. Their difference is 3. Find the numbers." They wrote: x+y=15, x−y=3, added to get 2x=18 → x=9, then y=6. They concluded the numbers are 9 and 6. Is this solution complete and correct? Justify.
+D5 A: Yes, the solution is complete and correct. The student correctly formed equations from both conditions, solved the system, and found values satisfying both equations. A wrong answer (e.g., "they should have used substitution" or "they didn't check") reveals the student either prefers one method over another without mathematical reason, or doesn't recognize that verification is implicit when both equations are used — 
+D6 Q: Create a word problem from your daily life (school, home, market) that requires a pair of linear equations in two variables to solve. Write the problem, define variables, form equations, and solve.
+D6 A: Example: "I bought 3 pens and 2 notebooks for ₹80. Next day, I bought 2 pens and 3 notebooks for ₹85. Find cost of one pen and one notebook." Variables: pen = x, notebook = y. Equations: 3x+2y=80, 2x+3y=85. Solving gives x=14, y=19. A poor answer (e.g., problem with only one condition, or equations not matching the story) reveals the student cannot reverse-engineer a realistic scenario with two independent constraint
+
+VETTED-DIAG cfq_6_1 (fit 0.67, src c9_maths_cfq_diagnostics.marker)
+  Q: Find the distance between A(3, -4) and B(-2, 1).
+  A: AB = sqrt((-2-3)^2 + (1-(-4))^2) = sqrt(25 + 25) = sqrt50 = 5sqrt2.
+VETTED-DIAG cfq_17_2 (fit 0.57, src c9_maths_cfq_diagnostics.marker)
+  Q: The mean of 5 numbers is 18. If a 6th number is added and the new mean is 17, find the 6th number.
+  A: Sum of 5 numbers = 5 x 18 = 90. Sum of 6 numbers = 6 x 17 = 102. 6th number = 102 - 90 = 12.
+VETTED-DIAG cfq_4_2 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: If (x - 3) is a factor of x^3 - 2x^2 + px - 12, find p.
+  A: P(3) = 27 - 18 + 3p - 12 = 0 -> -3 + 3p = 0 -> p = 1.
+VETTED-MIS PP_C12_2024_015 (fit 0.26)
+  M: Candidates struggled with questions based on the rate of change (rate of measure), indicating weak application of derivatives to real-world problems.
+  C: The rate of change of a quantity y with respect to x is given by dy/dx. For related rates, use the chain rule: dy/dt = (dy/dx)x(dx/dt). Identify the relationship between variables and differentiate with respect to time.
+VETTED-MIS PP_C12_2024_015 (fit 0.26)
+  M: Candidates struggled with questions based on the rate of change (rate of measure), indicating weak application of derivatives to real-world problems.
+  C: The rate of change of a quantity y with respect to x is given by dy/dx. For related rates, use the chain rule: dy/dt = (dy/dx)x(dx/dt). Identify the relationship between variables and differentiate with respect to time.
+VETTED-MIS PP_C12_2024_015 (fit 0.26)
+  M: Candidates struggled with questions based on the rate of change (rate of measure), indicating weak application of derivatives to real-world problems.
+  C: The rate of change of a quantity y with respect to x is given by dy/dx. For related rates, use the chain rule: dy/dt = (dy/dx)x(dx/dt). Identify the relationship between variables and differentiate with respect to time.
+### NODE c9_math_ch2_3  class=9 sub=math ch=2 verdict=PARTIAL action=REWRITE [1, 5]
+DEFINITION: Linear patterns in real-life situations are relationships where one quantity changes at a constant rate with respect to another, expressible in the form y = mx + c (where m is the constant rate of change and c is the initial value), observed in contexts like taxi fares (fixed charge + per-km charge), mobile phone bills (rental + per-minute cost), temperature conversion (C = 9C/5 + 32), and simple interest (I = Prt, linear in time at fixed rate).
+WALKTHROUGH: Imagine you take a taxi. The driver says: "Rs 30 base fare, plus Rs 12 per kilometer." After 1 km, you pay 30 + 12 = Rs 42. After 2 km, 30 + 24 = Rs 54. After 5 km, 30 + 60 = Rs 90. Notice the pattern: the total fare increases by Rs 12 for every additional km — the rate of change is constant (12 Rs/km). This is a linear pattern. The equation is: Fare = 12 × (distance) + 30, or y = 12x + 30, where m = 12 (rate per km) and c = 30 (base fare). Now compare with a different pattern: the area of a square (A = s²). If s = 1, A = 1; s = 2, A = 4; s = 3, A = 9. The increase is not constant (1, 3, 5) — this is non-linear (quadratic). The key test: if the difference between consecutive values is constant, the pattern is linear. The key insight: linear patterns are everywhere in daily life — billing, rates, conversions — and recognizing them lets you predict values without calculating each one.
+D1 Q: A water tank fills at 5 liters per minute. It already has 20 liters. Write the linear equation for the total volume V after t minutes.
+D1 A: V = 5t + 20. Here, m = 5 (rate of filling, liters per minute) and c = 20 (initial volume). After 10 minutes: V = 5(10) + 20 = 70 liters. A wrong answer (e.g., V = 5t, omitting the initial 20 liters) misses the initial value c — the tank already has 20 liters before filling begins.
+D2 Q: A mobile plan charges Rs 200 monthly rental plus Rs 1.50 per minute of calls. Write the equation for the monthly bill B in terms of call minutes n. Calculate the bill for 100 minutes. [IN-SCOPE-REWRITE]
+D2 A: B = 1.50n + 200. For 100 minutes: B = 1.50(100) + 200 = 150 + 200 = Rs 350. Here m = 1.50 (rate per minute) and c = 200 (fixed rental). A wrong answer (e.g., B = 200n + 1.50) swaps the rate and the fixed charge — the fixed rental is c (constant), and the per-minute charge is m (rate of change).
+D3 Q: Determine whether the following pattern is linear or non-linear: 3, 7, 11, 15, 19, 23. Justify your answer.
+D3 A: Linear. The difference between consecutive terms is constant: 7-3=4, 11-7=4, 15-11=4, 19-15=4, 23-19=4. Since the rate of change is constant (4), the pattern is linear. The equation is y = 4n + 3 (where n starts from 0) or a_n = 4n - 1 (where n starts from 1). A wrong answer (e.g., "linear because the numbers increase") confuses increasing with linear — a non-linear pattern can also increase, but not at a constant ra
+D4 Q: A student claims: "If a quantity increases, it must follow a linear pattern." Give a counterexample and explain why it is non-linear.
+D4 A: Counterexample: Compound interest. Rs 1000 at 10% compound interest: Year 1: 1100, Year 2: 1210, Year 3: 1331. The increase is 100, 110, 121 — not constant. The pattern is exponential (A = 1000 × 1.1^n), not linear. The quantity increases, but the rate of increase also increases, so it is non-linear. A wrong answer (agreeing with the student) fails to distinguish between increasing and linearly increasing.
+D5 Q: Convert the temperature conversion formula C = (5/9)(F - 32) to the form y = mx + c. Identify m and c.
+D5 A: C = (5/9)F - (5/9)(32) = (5/9)F - 160/9. So m = 5/9 (rate of change: 5/9 degrees Celsius per degree Fahrenheit) and c = -160/9 (the Celsius equivalent when F = 0, which is -17.78°C). A wrong answer (e.g., m = 5/9, c = 32) misidentifies c — 32 is subtracted from F before multiplying, so c is -160/9, not 32.
+D6 Q: A car rental charges Rs 1500 per day plus Rs 8 per km. A customer is charged Rs 3860 for one day. How many km did they drive? Show the linear equation and solve. [IN-SCOPE-REWRITE]
+D6 A: Equation: Total = 8d + 1500, where d = km driven. Given Total = 3860: 3860 = 8d + 1500. Subtract 1500: 2360 = 8d. Divide by 8: d = 295 km. The customer drove 295 km. A wrong answer (e.g., d = 3860/8 = 482.5) ignores the fixed daily charge of Rs 1500.
+
+VETTED-DIAG cfq_1_1 (fit 0.33, src c9_maths_cfq_diagnostics.marker)
+  Q: Is 0.333... (repeating) rational or irrational? Justify.
+  A: Rational. 0.333... = 1/3, which is of the form p/q (p=1, q=3, q~=0). Any repeating decimal is rational.
+VETTED-DIAG cfq_6_1 (fit 0.33, src c9_maths_cfq_diagnostics.marker)
+  Q: Find the distance between A(3, -4) and B(-2, 1).
+  A: AB = sqrt((-2-3)^2 + (1-(-4))^2) = sqrt(25 + 25) = sqrt50 = 5sqrt2.
+VETTED-DIAG cfq_15_2 (fit 0.33, src c9_maths_cfq_diagnostics.marker)
+  Q: Find the volume of a sphere with surface area 154 cm^2. (pi = 22/7)
+  A: SA = 4pir^2 = 154. r^2 = 154/(4 x 22/7) = 154 x 7/88 = 1078/88 = 12.25. r = 3.5 cm. V = (4/3)pir^3 = (4/3)(22/7)(42.875) = (4/3)(22)(6.125) = (4/3)(134.75) ~= 179.67 cm^3.
+VETTED-MIS misconception_11 (fit 0.50)
+  M: Expanded form of 4,28,365 is 4 + 2 + 8 + 3 + 6 + 5.
+  C: 4,28,365 = 4 x 100000 + 2 x 10000 + 8 x 1000 + 3 x 100 + 6 x 10 + 5 x 1 = 400000 + 20000 + 8000 + 300 + 60 + 5.
+VETTED-MIS misconception_3 (fit 0.25)
+  M: If the speed doubles, the time also doubles.
+  C: For a fixed distance, speed x time = distance (constant). So if speed becomes 2 times, time becomes 1/2. If speed becomes 3 times, time becomes 1/3. They move in opposite directions.
+VETTED-MIS PP_C10_2025_021 (fit 0.23)
+  M: Many candidates calculated the rate of interest using the maturity value (Rs10,110) as the principal instead of the actual deposited principal.
+  C: The rate of interest for a recurring deposit is calculated on the principal (P x n), not on the maturity value. The maturity value = principal + interest.
+### NODE c9_math_ch3_1  class=9 sub=math ch=3 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for ordering and quantifying discrete objects. Whole numbers (denoted by W) extend natural numbers by including zero: W = {0, 1, 2, 3, ...}. Zero is the unique additive identity in W, meaning for any whole number a, a + 0 = a = 0 + a. The discovery of zero as a number (not merely a placeholder) enabled the place-value system and the algebraic structure required for integers, rationals, and real numbers.
+WALKTHROUGH: Imagine a Class 9 teacher asks: "If you have ₹50 and spend exactly ₹50, how much money do you have left?" You answer "zero rupees." But is "zero" a number you can add, subtract, or multiply like 1, 2, 3? Ancient Indians asked this too. Start by writing the set ℕ = {1, 2, 3, ...} and W = {0, 1, 2, 3, ...}. Notice that 0 ∉ ℕ but 0 ∈ W. Connect to Class 6 (c6_math_ch01_002) where you learned whole numbers include zero. Now, test if zero behaves like other numbers: take any whole number a, compute a + 0 and a × 0. Observe that a + 0 = a (additive identity) but a × 0 = 0 (annihilation property). This distinction is crucial — zero is not "nothing" in multiplication; it actively changes the product. The key insight: zero's dual role as additive identity and multiplicative annihilator makes the whole number system algebraically complete for addition and multiplication, setting the stage for integers where every number gets an additive inverse.
+D1 Q: State the exact difference between the set of natural numbers (ℕ) and the set of whole numbers (W). Write both sets in roster form.
+D1 A: ℕ = {1, 2, 3, 4, ...} and W = {0, 1, 2, 3, 4, ...}. The only difference is that W contains 0 while ℕ does not. A wrong answer (e.g., saying ℕ includes 0, or that W starts from 1) reveals the student has not internalised the precise definition and is relying on vague memory from middle school. This confusion propagates to later topics like "Is 0 a rational number?" where the definition of the starting set matters.
+D2 Q: Explain why zero is called the "additive identity" for whole numbers but the "multiplicative annihilator". Give one example of each property using a specific whole number.
+D2 A: Additive identity: for any whole number a, a + 0 = a (e.g., 7 + 0 = 7). Multiplicative annihilator: for any whole number a, a × 0 = 0 (e.g., 7 × 0 = 0). A wrong answer that says "0 × a = a" or "adding zero changes the number" shows the student confuses the two operations. This misconception leads to errors in solving equations like x + 0 = 5 (thinking x ≠ 5) or simplifying 5 × 0 as 5.
+D3 Q: Simplify the expression: (125 × 0) + (372 + 0) - (0 × 489) using properties of whole numbers. Show each step and name the property used.
+D3 A: Step 1: 125 × 0 = 0 (Multiplicative Annihilation Property)
+Step 2: 372 + 0 = 372 (Additive Identity Property)
+Step 3: 0 × 489 = 0 (Multiplicative Annihilation Property)
+Step 4: Substitute: 0 + 372 - 0 = 372 (Additive Identity and Subtraction)
+Final answer: 372. A wrong answer like 0 or 125 reveals the student applies operations left-to-right without recognising that multiplication by zero dominates, or they forget th
+D4 Q: Compare the closure property of whole numbers under addition and under subtraction. Is W closed under subtraction? Justify with two examples: one where the result stays in W, one where it leaves W.
+D4 A: W is closed under addition: for any a, b ∈ W, a + b ∈ W (e.g., 3 + 5 = 8 ∈ W). W is NOT closed under subtraction: 3 - 5 = -2 ∉ W (leaves W), but 5 - 3 = 2 ∈ W (stays in W). A wrong answer claiming "W is closed under subtraction because 5-3=2" shows the student tests only favourable cases and does not understand that closure requires the result to be in W for ALL pairs. This is exactly why we need integers (next node)
+D5 Q: A student writes: "Since 0 is the additive identity, dividing any number by 0 should give that number back, because division is the inverse of multiplication." Evaluate this reasoning. Is the conclusion correct? Identify the flaw.
+D5 A: The conclusion is incorrect. Division by zero is undefined in whole numbers (and all number systems). The flaw: the student assumes the inverse of multiplication (a × b = c ⇒ c ÷ b = a) works for b = 0. But 0 has no multiplicative inverse because a × 0 = 0 for all a, so 0 ÷ 0 could be any number, and a ÷ 0 (a ≠ 0) has no solution. A wrong answer accepting the student's reasoning reveals a fundamental misunderstanding
+D6 Q: Construct a real-world problem (using Indian context: rupees, metres, kilograms) where the solution requires recognising that zero is the additive identity AND that multiplication by zero gives zero. The problem must have at least two steps. [IN-SCOPE-REWRITE]
+D6 A: Example: "Rohan has ₹200. He buys 0 kg of apples at ₹50/kg and 0 metres of cloth at ₹120/m. He then receives ₹0 as a gift. How much money does he have now?" Solution: Cost of apples = 0 × 50 = 0 (multiplicative annihilation). Cost of cloth = 0 × 120 = 0. Total spent = 0 + 0 = 0 (additive identity). Money left = 200 - 0 = 200 (additive identity in subtraction). A poor answer that ignores the zero quantities or adds th
+
+VETTED-DIAG cfq_2_1 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: Evaluate: log_2(1/8).
+  A: log_2(1/8) = log_2(2^-^3) = -3.
+VETTED-DIAG cfq_11_2 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: Is sqrt2/3 rational or irrational? Justify.
+  A: Irrational. sqrt2 is irrational. Dividing an irrational number by a non-zero rational number (3) gives an irrational number. If sqrt2/3 were rational (p/q), then sqrt2 = 3p/q would be rational -- contradiction.
+VETTED-DIAG cfq_12_1 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: Solve: 3x + 2y = 12, 2x - 3y = -5.
+  A: Multiply first by 3: 9x + 6y = 36. Multiply second by 2: 4x - 6y = -10. Add: 13x = 26. x = 2. 3(2) + 2y = 12 -> 2y = 6 -> y = 3. Solution: (2, 3).
+VETTED-MIS misconception_14 (fit 0.75)
+  M: If A + B = A, then B must be the number 0.
+  C: If A + B = A for 2x2 matrices A and B, then B = O = [0 0; 0 0]. The additive identity in the set of 2x2 matrices is the zero matrix, not the real number 0.
+VETTED-MIS PP_C10_2025_016 (fit 0.50)
+  M: A few candidates included 0 in the set of Natural numbers, leading to dividing 45 by 10 instead of 9.
+  C: Natural numbers N = {1, 2, 3, ...}. Zero is included in the set of Whole numbers W = {0, 1, 2, 3, ...}, not in Natural numbers.
+VETTED-MIS PP_C10_2025_016 (fit 0.50)
+  M: A few candidates included 0 in the set of Natural numbers, leading to dividing 45 by 10 instead of 9.
+  C: Natural numbers N = {1, 2, 3, ...}. Zero is included in the set of Whole numbers W = {0, 1, 2, 3, ...}, not in Natural numbers.
+### NODE c9_math_ch3_11  class=9 sub=math ch=3 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: Representing square roots on the number line is a geometric construction method that uses the Pythagorean theorem to locate the exact position of irrational numbers of the form √n (where n is a positive integer) on the real number line. Starting from a known unit length, we construct a series of right triangles where the hypotenuse of each triangle becomes the leg of the next, allowing us to mark √2, √3, √5, etc., at precise distances from zero.
+WALKTHROUGH: Imagine you have a 1-metre ruler and need to mark exactly √2 metres without a calculator. You know √2 ≈ 1.414, but how do you locate it precisely? Start by drawing a number line with 0 and 1 marked. At point 1, construct a perpendicular line of length 1 unit using your compass. Join the endpoint to 0 — this hypotenuse is exactly √2 by Pythagoras. Now swing an arc from 0 with radius equal to this hypotenuse to cut the number line: that intersection is √2. To get √3, repeat: at √2, erect a perpendicular of 1 unit, join to 0, and swing the arc. Each step builds on the previous hypotenuse, creating a "square root spiral" that places every √n exactly.
+D1 Q: What is the length of the hypotenuse of a right triangle with legs of length 1 unit and 1 unit, and where does this length appear on the number line constructed from zero?
+D1 A: The hypotenuse length is √2 units. On the number line, it appears at the point where an arc of radius √2 (drawn from zero) intersects the positive side. A wrong answer like "2 units" or "1.5 units" reveals the student is confusing the Pythagorean sum of squares (1²+1²=2) with linear addition (1+1=2) or averaging, indicating they haven't internalised that the hypotenuse is √(a²+b²), not a+b.
+D2 Q: Explain why constructing a perpendicular of 1 unit at the point √2 on the number line and joining it to zero gives a hypotenuse of exactly √3. Use the Pythagorean theorem in your reasoning.
+D2 A: The existing distance from zero to √2 is one leg (√2). The new perpendicular of 1 unit is the other leg. By Pythagoras, hypotenuse² = (√2)² + 1² = 2 + 1 = 3, so hypotenuse = √3. A student who says "we add 1 to √2 to get √3" or "the hypotenuse becomes √2 + 1" is treating the construction as linear addition rather than quadratic addition of squares, a fundamental misconception about how distances combine in right trian
+D3 Q: Construct √5 on the number line starting from 0 and 1. Show all steps and state the exact legs of the right triangle used in the final step.
+D3 A: Step 1: Mark 0 and 1 on number line. Step 2: At 1, draw perpendicular of 1 unit → hypotenuse = √2. Step 3: At √2, draw perpendicular of 1 unit → hypotenuse = √3. Step 4: At √3, draw perpendicular of 1 unit → hypotenuse = √4 = 2. Step 5: At 2, draw perpendicular of 1 unit → hypotenuse = √(2²+1²) = √5. Final triangle legs: 2 and 1. A student who tries to jump directly from 1 to √5 using legs 1 and 2 (without first cons
+D4 Q: Compare the "spiral method" (adding 1 unit perpendicular each time) with the "direct triplet method" (using known Pythagorean triplets like 3-4-5) for representing √5, √10, and √13. Which is more efficient for √13 and why? [IN-SCOPE-REWRITE]
+D4 A: For √13, the direct triplet method using legs 2 and 3 (since 2²+3²=13) is more efficient: construct 2 (already on number line), erect perpendicular of 3 units, hypotenuse = √13. The spiral method would require 12 steps (√2 through √13). A student who says "spiral is always better" or "triplet method doesn't work for √13" fails to recognise that any representation relies on finding integers a,b such that a²+b²=n, and 
+D5 Q: A student constructs √7 by drawing a right triangle with legs 1 and √6, but they haven't constructed √6 yet. They claim the construction is valid because "1² + (√6)² = 7". Evaluate this reasoning.
+D5 A: The reasoning is mathematically correct (1² + (√6)² = 7) but geometrically invalid because √6 is not yet available on the number line. Constructions must be sequential: each new length must be built from already-constructed lengths. The student must first construct √2, √3, √4=2, √5, √6, then use √6 and 1 to get √7. A wrong evaluation that says "it's fine because the algebra works" confuses algebraic truth with constr
+D6 Q: Design a construction sequence to represent √11 on the number line using the fewest possible steps. Justify your choice of right triangle legs at each step.
+D6 A: Optimal sequence: 0,1 → √2 (1,1) → √3 (√2,1) → 2 (√3,1) → √5 (2,1) → √11 (√5,√6?) Wait, better: use triplet 1²+√10²? No, √10 not built. Best: Build 3 (from 2 and √5? No). Actually, 11 = 3² + √2²? 9+2=11. So if we have 3 and √2, we can get √11 in one step after having 3. To get 3: 0,1 → √2 → √3 → 2 → √5 → √6 → √7 → √8 → 3 (that's 8 steps). Alternatively, 11 = 1²+√10², but √10 needs building. The minimal step construct
+
+VETTED-DIAG cfq_1_1 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: Is 0.333... (repeating) rational or irrational? Justify.
+  A: Rational. 0.333... = 1/3, which is of the form p/q (p=1, q=3, q~=0). Any repeating decimal is rational.
+VETTED-DIAG cfq_2_1 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: Evaluate: log_2(1/8).
+  A: log_2(1/8) = log_2(2^-^3) = -3.
+VETTED-DIAG cfq_11_2 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: Is sqrt2/3 rational or irrational? Justify.
+  A: Irrational. sqrt2 is irrational. Dividing an irrational number by a non-zero rational number (3) gives an irrational number. If sqrt2/3 were rational (p/q), then sqrt2 = 3p/q would be rational -- contradiction.
+VETTED-MIS misconception_11 (fit 0.50)
+  M: Expanded form of 4,28,365 is 4 + 2 + 8 + 3 + 6 + 5.
+  C: 4,28,365 = 4 x 100000 + 2 x 10000 + 8 x 1000 + 3 x 100 + 6 x 10 + 5 x 1 = 400000 + 20000 + 8000 + 300 + 60 + 5.
+VETTED-MIS misconception_12 (fit 0.39)
+  M: Irrational numbers do not exist on the number line because they cannot be written as fractions.
+  C: Every real number, rational or irrational, has a unique position on the number line. The number line is the geometric picture of the entire real number system.
+VETTED-MIS misconception_6 (fit 0.38)
+  M: A number with a square root sign is always irrational.
+  C: sqrt(n) is rational when n is a perfect square (or a ratio of perfect squares); it is irrational when n is a positive integer that is not a perfect square.
+### NODE c9_math_ch6_1  class=9 sub=math ch=6 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: The perimeter of a plane figure is the total length of its boundary, calculated as the sum of the lengths of all its sides. For a rectangle with length $l$ and breadth $b$, perimeter $P = 2(l + b)$; for a square with side $a$, $P = 4a$; for a triangle with sides $a$, $b$, $c$, $P = a + b + c$.
+WALKTHROUGH: Imagine you are helping your family fence a rectangular garden that is 12 metres long and 8 metres wide. The fencing wire costs ₹45 per metre. How much wire do you need and what will it cost? Start by drawing the rectangle and labelling the sides. Recall from Class 6 that perimeter is the distance around the shape. For a rectangle, opposite sides are equal, so you add length + breadth + length + breadth, which simplifies to $2(l + b)$. Substitute the values: $2(12 + 8) = 40$ metres. Then multiply by cost per metre: $40 \times 45 = ₹1800$. The key insight is that perimeter is a linear measure (metres) while cost involves multiplication of two quantities (metres × rupees/metre), connecting to the unitary method from Class 7.
+D1 Q: Write the formula for the perimeter of a rectangle in terms of its length $l$ and breadth $b$. If the length is doubled and the breadth is halved, write the new perimeter in terms of $l$ and $b$.
+D1 A: The perimeter of a rectangle is $P = 2(l + b)$. If length becomes $2l$ and breadth becomes $b/2$, the new perimeter is $P' = 2(2l + b/2) = 4l + b$. A wrong answer like $P' = 2l + b$ reveals the student incorrectly applied the operations only to one term inside the bracket, showing a misunderstanding of the distributive property over addition.
+D2 Q: A square and a rectangle have the same perimeter. The square has side 10 cm. The rectangle has length 14 cm. Explain why the rectangle's breadth must be 6 cm without calculating the perimeter numerically first.
+D2 A: Since perimeters are equal, $4 \times 10 = 2(14 + b) \Rightarrow 40 = 28 + 2b \Rightarrow 2b = 12 \Rightarrow b = 6$. A student who says "breadth is 6 because 14 + 6 = 20 and 2 × 20 = 40" is using guess-and-check rather than algebraic reasoning. The correct explanation uses the equality of perimeters to set up an equation, showing understanding that perimeter is a conserved quantity that can be equated across shapes.
+D3 Q: An isosceles triangle has a perimeter of 36 cm. The base is 4 cm less than each equal side. Find the length of each side.
+D3 A: Let each equal side be $x$ cm. Then base = $(x - 4)$ cm. Perimeter = $x + x + (x - 4) = 3x - 4 = 36 \Rightarrow 3x = 40 \Rightarrow x = 40/3 = 13\frac{1}{3}$ cm. Equal sides = $13\frac{1}{3}$ cm, base = $9\frac{1}{3}$ cm. A wrong answer like $x = 12$ (giving sides 12, 12, 8) reveals the student set up $3x = 36$ ignoring the "4 cm less" condition, or set up $2x + (x - 4) = 36$ but solved as $3x = 32$ (subtracting 4 in
+D4 Q: A rectangular field has length $(3x + 2)$ m and breadth $(2x - 1)$ m. Its perimeter is 50 m. Find $x$ and hence the actual dimensions. Then determine if the same perimeter could enclose a square with a larger area. Justify.
+D4 A: $P = 2[(3x+2)+(2x-1)] = 2(5x+1) = 10x+2 = 50 \Rightarrow 10x=48 \Rightarrow x=4.8$. Length = $3(4.8)+2 = 16.4$ m, Breadth = $2(4.8)-1 = 8.6$ m. Area = $16.4 \times 8.6 = 141.04$ m². Square with same perimeter: side = $50/4 = 12.5$ m, area = $156.25$ m² > $141.04$ m². Yes, square has larger area. A student who only finds $x$ and dimensions but cannot compare areas shows they treat perimeter and area as independent rat
+D5 Q: Rahul solved: "Perimeter of a triangle with sides $2x$, $3x$, $5x$ is 60 cm. So $2x+3x+5x=60 \Rightarrow 10x=60 \Rightarrow x=6$. Sides are 12, 18, 30 cm." Evaluate his solution. Is the triangle possible? Explain.
+D5 A: Rahul's algebra is correct ($x=6$, sides 12, 18, 30), but the triangle is NOT possible because it violates the triangle inequality theorem: $12 + 18 = 30$, which is NOT greater than the third side (30). The sum of two sides must be strictly greater than the third. A student who says "yes, it's correct" only checked the perimeter arithmetic, not the geometric feasibility. This reveals a gap in connecting algebraic sol
+D6 Q: Create a real-world problem where a farmer has 200 m of fencing wire to make a rectangular pen for goats. The length must be 10 m more than twice the breadth. Write the problem statement, define variables, form the equation, and solve for dimensions. Then calculate the area of the pen. [IN-SCOPE-REWRITE]
+D6 A: Problem: "A farmer has 200 m fencing. Length = 2 × breadth + 10. Find dimensions and area." Let breadth = $b$, length = $2b+10$. $P = 2(b + 2b+10) = 2(3b+10) = 6b+20 = 200 \Rightarrow 6b=180 \Rightarrow b=30$ m. Length = $70$ m. Area = $30 \times 70 = 2100$ m². A poor answer might omit the "twice the breadth" translation to $2b$, or forget to multiply by 2 in the perimeter formula, or calculate area as $30+70=100$. T
+
+VETTED-DIAG cfq_12_1 (fit 0.83, src c9_maths_cfq_diagnostics.marker)
+  Q: Solve: 3x + 2y = 12, 2x - 3y = -5.
+  A: Multiply first by 3: 9x + 6y = 36. Multiply second by 2: 4x - 6y = -10. Add: 13x = 26. x = 2. 3(2) + 2y = 12 -> 2y = 6 -> y = 3. Solution: (2, 3).
+VETTED-DIAG cfq_6_1 (fit 0.67, src c9_maths_cfq_diagnostics.marker)
+  Q: Find the distance between A(3, -4) and B(-2, 1).
+  A: AB = sqrt((-2-3)^2 + (1-(-4))^2) = sqrt(25 + 25) = sqrt50 = 5sqrt2.
+VETTED-DIAG cfq_19_2 (fit 0.60, src c9_maths_cfq_diagnostics.marker)
+  Q: Find the area of the triangle with vertices A(1, 2), B(4, 6), and C(7, 3).
+  A: Area = (1/2)|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| = (1/2)|1(6-3) + 4(3-2) + 7(2-6)| = (1/2)|3 + 4 - 28| = (1/2)|-21| = 10.5 sq units.
+VETTED-MIS misconception_6 (fit 0.33)
+  M: a^2 - b^2 = (a+b)^2 — confusing the difference of squares with the square of a sum
+  C: a^2 - b^2 = (a-b)(a+b). It is a product of a sum and a difference, not a square of a sum.
+VETTED-MIS misconception_14 (fit 0.20)
+  M: Putting x = y in the sum formula gives tan⁻¹(2x/(1-x^2)) = 2 tan⁻¹x for all x.
+  C: 2 tan⁻¹x = tan⁻¹(2x/(1-x^2)) for |x| < 1; = pi/2 for x = 1; = -pi/2 for x = -1; = tan⁻¹(2x/(1-x^2)) +/- pi for |x| > 1.
+VETTED-MIS misconception_6 (fit 0.20)
+  M: A plane is a flat shape like a square or rectangle.
+  C: A plane is a flat surface with no edges and no thickness. It extends endlessly. The top of a table, the floor, or the surface of a calm lake give us an idea of a plane, but a true plane has no boundary.
+### NODE c9_math_ch6_11  class=9 sub=math ch=6 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A composite plane figure is a shape formed by combining two or more basic plane figures (rectangles, triangles, circles, sectors, segments) such that they share boundaries but do not overlap. The total area is the algebraic sum of the areas of the constituent parts: areas of added parts are summed, and areas of removed parts (holes, cut-outs) are subtracted.
+WALKTHROUGH: Imagine a school is designing a new badge: a rectangular strip 10 cm by 3 cm with a semicircular top of diameter 3 cm, and a triangular cut-out at the bottom for a pin. "How much metal is needed?" This real-world fabrication question forces decomposition. First, sketch the figure and label all given dimensions. Second, identify each distinct region: rectangle, semicircle (addition), triangle (subtraction). Third, recall the area formula for each from previous nodes (c9_math_ch6_4, c9_math_ch6_5, c9_math_ch6_9). Fourth, compute each area separately, watching for radius vs. diameter. Finally, combine: Total Area = Area_rectangle + Area_semicircle - Area_triangle. The key insight is that area is additive for non-overlapping regions, and subtraction handles removed material.
+D1 Q: State the general rule for finding the area of a composite figure formed by joining a rectangle and a semicircle along one side, and then cutting out a right triangle from the opposite side.
+D1 A: The total area equals the area of the rectangle plus the area of the semicircle minus the area of the right triangle. A wrong answer (e.g., adding all three) reveals the student does not distinguish between added material (joining) and removed material (cutting out), treating all operations as addition.
+D2 Q: A figure consists of a square of side 14 cm with a quadrant (quarter circle) of radius 14 cm drawn inside it, sharing two sides. A student claims the shaded area between the square and the quadrant is found by adding the area of the square and the area of the quadrant. Is this correct? Explain why or why not.
+D2 A: Incorrect. The quadrant lies inside the square, so the shaded region is the square minus the quadrant. Adding would give an area larger than the square itself, which is impossible for a part of the square. This error shows the student cannot visually determine set inclusion (which region contains which) and defaults to addition for any combination.
+D3 Q: A rectangular sheet of metal 40 cm by 25 cm has four quarter-circles of radius 5 cm cut from its four corners. Find the area of the remaining sheet. (Use π = 3.14)
+D3 A: Step 1: Area of rectangle = 40 × 25 = 1000 cm². 
+Step 2: Four quarter-circles = one full circle of radius 5 cm. Area = πr² = 3.14 × 25 = 78.5 cm². 
+Step 3: Remaining area = 1000 - 78.5 = 921.5 cm². 
+A wrong answer of 1078.5 cm² reveals the student added the cut-outs instead of subtracting. An answer of 1000 - 3.14×5 = 984.3 reveals using radius instead of radius squared.
+D4 Q: Two composite figures have the same outer boundary: a square of side 20 cm. Figure A has a circular hole of radius 6 cm at the centre. Figure B has four quarter-circles of radius 6 cm cut from the four corners. Without calculating exact numerical values, determine which figure has the larger remaining area and justify 
+D4 A: Figure B has larger remaining area. Both remove circular regions totalling one full circle of radius 6 cm (since four quarter-circles = one circle). However, in Figure A the circle is entirely inside the square (diameter 12 cm < side 20 cm). In Figure B, the quarter-circles at corners also fit (radius 6 cm < half side 10 cm). The removed area is identical (π×36). Since the original square is identical, the remaining 
+D5 Q: A student solves: "Find the area of a regular hexagon of side 10 cm with a circular hole of radius 3 cm at its centre." Their working: 
+Area = 6 × (1/2 × 10 × 10) - π × 3² = 300 - 28.26 = 271.74 cm². 
+Identify the conceptual error in the triangle area calculation and give the correct area. (Use √3 = 1.732, π = 3.14)
+D5 A: The student used 1/2 × side × side for the equilateral triangle, which assumes a right triangle with legs 10 cm. The correct area of an equilateral triangle is (√3/4) × side² = 0.433 × 100 = 43.3 cm². Hexagon area = 6 × 43.3 = 259.8 cm². Circle area = 28.26 cm². Correct remaining area = 231.54 cm². The error shows the student confuses the formula for a right isosceles triangle with that of an equilateral triangle.
+D6 Q: Design a composite figure for a garden bed that uses exactly three different basic shapes (choose from rectangle, triangle, circle, sector, segment) and has a total area of exactly 150 m². Provide a labelled sketch (description), all dimensions, and the step-by-step area calculation proving the total is 150 m². [IN-SCOPE-REWRITE]
+D6 A: Example: A rectangle 10 m × 10 m = 100 m². An equilateral triangle of side 10 m attached to one side: area = (√3/4)×100 ≈ 43.3 m². A semicircle of radius 5 m cut out from the rectangle: area = ½×π×25 ≈ 39.25 m². Total = 100 + 43.3 - 39.25 = 104.05 m² (not 150). A correct answer must adjust dimensions to hit exactly 150. A poor answer uses random dimensions without verification or uses only two shapes. This tests synt
+
+VETTED-DIAG cfq_19_2 (fit 0.60, src c9_maths_cfq_diagnostics.marker)
+  Q: Find the area of the triangle with vertices A(1, 2), B(4, 6), and C(7, 3).
+  A: Area = (1/2)|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| = (1/2)|1(6-3) + 4(3-2) + 7(2-6)| = (1/2)|3 + 4 - 28| = (1/2)|-21| = 10.5 sq units.
+VETTED-DIAG cfq_17_2 (fit 0.57, src c9_maths_cfq_diagnostics.marker)
+  Q: The mean of 5 numbers is 18. If a 6th number is added and the new mean is 17, find the 6th number.
+  A: Sum of 5 numbers = 5 x 18 = 90. Sum of 6 numbers = 6 x 17 = 102. 6th number = 102 - 90 = 12.
+VETTED-DIAG cfq_4_2 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: If (x - 3) is a factor of x^3 - 2x^2 + px - 12, find p.
+  A: P(3) = 27 - 18 + 3p - 12 = 0 -> -3 + 3p = 0 -> p = 1.
+VETTED-MIS misconception_8 (fit 0.25)
+  M: The centroid divides the triangle into three triangles of different areas.
+  C: The three triangles formed by joining the centroid to the vertices have equal areas, each equal to one-third of the area of the original triangle.
+VETTED-MIS misconception_3 (fit 0.25)
+  M: tan⁻¹x + tan⁻¹y = tan⁻¹(x) + tan⁻¹(y) = tan⁻¹(x+y).
+  C: tan⁻¹x + tan⁻¹y is a sum of two angles; it equals tan⁻¹((x+y)/(1-xy)) only under the conditions in Misconception 1. There is no identity tan⁻¹(x+y) = tan⁻¹x + tan⁻¹y.
+VETTED-MIS misconception_1 (fit 0.24)
+  M: Any two matrices can be added together.
+  C: Two matrices can be added (or subtracted) only when they have the same order, i.e. the same number of rows and the same number of columns. For 2x2 matrices, each of the four entries in one matrix is added to the entry in the same position of the other matrix.
+### NODE c9_math_ch6_6  class=9 sub=math ch=6 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: Heron's Formula calculates the area of a triangle when the lengths of all three sides (a, b, c) are known, without requiring the height. The formula is Area = √[s(s-a)(s-b)(s-c)], where s = (a+b+c)/2 is the semi-perimeter (half the perimeter) of the triangle.
+WALKTHROUGH: Imagine a farmer in Punjab has a triangular field with sides measuring 50 m, 60 m, and 70 m. He needs to buy fertilizer but doesn't know the field's area because he cannot measure the height easily. We already know Area = ½ × base × height, but that requires the height which is hard to measure in a large field. Heron, an ancient Greek mathematician, discovered we can find the area using only the three side lengths. First, we find the semi-perimeter s by adding all three sides and dividing by 2. Then we substitute s and the three sides into the formula √[s(s-a)(s-b)(s-c)]. The key insight is that the semi-perimeter acts as a "balancing point" that makes the formula work for any triangle shape.
+D1 Q: Write down Heron's Formula for the area of a triangle with sides a, b, c. Define what s represents.
+D1 A: Heron's Formula: Area = √[s(s-a)(s-b)(s-c)] where s = (a+b+c)/2 is the semi-perimeter. A wrong answer where the student writes s = a+b+c (full perimeter instead of semi-perimeter) reveals they don't understand the "semi" prefix means half, or they confuse perimeter with semi-perimeter. If they write the formula as √[s(s-a)(s-b)(s-c)] but forget the square root, they misunderstand that the product inside represents th
+D2 Q: A triangle has sides 3 cm, 4 cm, and 5 cm. Without calculating the area, explain why Heron's Formula will give the same result as ½ × base × height for this triangle.
+D2 A: The 3-4-5 triangle is a right triangle (3²+4²=5²), so the height corresponding to base 4 cm is exactly 3 cm. Area = ½ × 4 × 3 = 6 cm². Heron's Formula: s = 6, Area = √[6(3)(2)(1)] = √36 = 6 cm². Both methods give the same answer because they are mathematically equivalent formulas for area. A student who says "Heron's Formula is only for triangles without height" reveals the misconception that it's an alternative meth
+D3 Q: Find the area of a triangle with sides 7 cm, 8 cm, and 9 cm using Heron's Formula. Show all steps.
+D3 A: Step 1: s = (7+8+9)/2 = 24/2 = 12 cm
+Step 2: s-a = 12-7 = 5, s-b = 12-8 = 4, s-c = 12-9 = 3
+Step 3: Area = √[12 × 5 × 4 × 3] = √[720]
+Step 4: Simplify: √720 = √(144 × 5) = 12√5 cm² ≈ 26.83 cm²
+A wrong answer of √720 without simplifying to 12√5 shows the student doesn't recognize perfect square factors. An answer of 720 cm² (forgetting the square root) reveals they treat the formula as s(s-a)(s-b)(s-c) without the rad
+D4 Q: Two triangles have the same perimeter: Triangle P has sides 6 cm, 8 cm, 10 cm. Triangle Q has sides 7 cm, 7 cm, 10 cm. Without calculating the exact areas, determine which triangle has the larger area and explain your reasoning.
+D4 A: Triangle P (6-8-10) is a right triangle, area = ½ × 6 × 8 = 24 cm². Triangle Q (7-7-10) is isosceles. Both have perimeter 24 cm, so s = 12 for both. For P: product = 12×6×4×2 = 576, area = 24. For Q: product = 12×5×5×2 = 600, area = √600 ≈ 24.49 cm². Triangle Q has slightly larger area. A student who says "same perimeter means same area" reveals the misconception that perimeter determines area (confusing with the fac
+D5 Q: A student calculates the area of a triangle with sides 5 cm, 6 cm, and 12 cm as follows: s = (5+6+12)/2 = 11.5, Area = √[11.5 × 6.5 × 5.5 × (-0.5)] = √(-205.9375). They say "the area is imaginary, so the triangle doesn't exist." Evaluate this solution. [IN-SCOPE-REWRITE]
+D5 A: The student's conclusion is correct (the triangle doesn't exist) but their reasoning has a flaw: they computed Heron's Formula without first checking the triangle inequality. The correct approach: Check triangle inequality FIRST: 5+6 = 11 < 12, so these sides cannot form a triangle. The negative value under the square root (s-c = -0.5) is a CONSEQUENCE of the triangle inequality violation, not the primary reason. A s
+D6 Q: Create a real-world problem involving a triangular plot of land where Heron's Formula is the ONLY practical method to find the area (not base-height). Provide the side lengths in metres and ask for the area in square metres. Then solve your own problem.
+D6 A: Good problem: "A triangular garden has sides 13 m, 14 m, and 15 m. The ground is uneven so measuring height is impossible. Find the area to buy grass seed." Solution: s = 21, Area = √[21×8×7×6] = √7056 = 84 m². A poor problem would use a right triangle (e.g., 3-4-5 scaled) where base-height is easier, showing the student doesn't understand WHEN Heron's Formula is practically useful. A problem with sides that violate
+
+VETTED-DIAG cfq_19_2 (fit 0.60, src c9_maths_cfq_diagnostics.marker)
+  Q: Find the area of the triangle with vertices A(1, 2), B(4, 6), and C(7, 3).
+  A: Area = (1/2)|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| = (1/2)|1(6-3) + 4(3-2) + 7(2-6)| = (1/2)|3 + 4 - 28| = (1/2)|-21| = 10.5 sq units.
+VETTED-DIAG cfq_2_1 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: Evaluate: log_2(1/8).
+  A: log_2(1/8) = log_2(2^-^3) = -3.
+VETTED-DIAG cfq_4_2 (fit 0.50, src c9_maths_cfq_diagnostics.marker)
+  Q: If (x - 3) is a factor of x^3 - 2x^2 + px - 12, find p.
+  A: P(3) = 27 - 18 + 3p - 12 = 0 -> -3 + 3p = 0 -> p = 1.
+VETTED-MIS misconception_12 (fit 0.25)
+  M: When three sets are involved, n(A U B U C) = n(A) + n(B) + n(C) - n(A intersection B intersection C).
+  C: n(A U B U C) = n(A) + n(B) + n(C) - n(A intersection B) - n(B intersection C) - n(A intersection C) + n(A intersection B intersection C).
+VETTED-MIS PP_C12_2019_003 (fit 0.21)
+  M: Candidates wrote an incorrect formula for the area of a triangle and could not find the area using determinants.
+  C: Area of triangle with vertices (x1,y1), (x2,y2), (x3,y3) = (1/2)|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|, which can be expressed as (1/2)|determinant of the coordinate matrix|.
+VETTED-MIS PP_C12_2019_003 (fit 0.21)
+  M: Candidates wrote an incorrect formula for the area of a triangle and could not find the area using determinants.
+  C: Area of triangle with vertices (x1,y1), (x2,y2), (x3,y3) = (1/2)|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|, which can be expressed as (1/2)|determinant of the coordinate matrix|.

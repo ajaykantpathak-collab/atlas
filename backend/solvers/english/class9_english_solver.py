@@ -1253,3 +1253,21 @@ class DescriptiveCompositionQuestionGenerator:
             type=QuestionType.FILL_BLANK.value, topic=cls.TOPIC_ID, topic_title=cls.TOPIC,
             question=f"Fill in the"
 )
+
+# -- solver contract --------------------------------------------
+_TASKS = {
+    "stage_order": "solve_mcq_stage_order", "revise_vs_edit": "solve_revise_vs_edit",
+    "brainstorm": "solve_brainstorm_evaluation", "first_vs_revised": "solve_first_vs_revised",
+    "revision_checklist": "solve_revision_checklist",
+}
+
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Solve a c9 writing-process task via WritingProcessSolver."""
+    params = params or {}
+    s = WritingProcessSolver()
+    fn = getattr(s, _TASKS.get(params.get("task", "stage_order"), "solve_mcq_stage_order"))
+    r = fn(params)
+    return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": str(r)})
+
+SOLVER_REGISTRY = {"c9_eng_writing": solve}
+NODE_MAP = {"c9_eng_121": "c9_eng_writing"}

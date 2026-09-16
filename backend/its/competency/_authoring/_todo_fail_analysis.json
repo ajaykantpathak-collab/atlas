@@ -1,0 +1,965 @@
+{
+ "c11_acc_cbse_01_003": {
+  "cluster": [
+   11,
+   "acc",
+   1
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_acc_cbse_01_005": {
+  "cluster": [
+   11,
+   "acc",
+   1
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_acc_cbse_07_012": {
+  "cluster": [
+   11,
+   "acc",
+   7
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_acc_cbse_08_001": {
+  "cluster": [
+   11,
+   "acc",
+   8
+  ],
+  "n_pool_cores": 0,
+  "detail": [
+   "D1:core-long1145"
+  ]
+ },
+ "c11_acc_cbse_08_008": {
+  "cluster": [
+   11,
+   "acc",
+   8
+  ],
+  "n_pool_cores": 0,
+  "detail": [
+   "D1:core-long2217"
+  ]
+ },
+ "c11_acc_cbse_09_009": {
+  "cluster": [
+   11,
+   "acc",
+   9
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)",
+   "D2:core-long1097"
+  ]
+ },
+ "c11_geo_cbse_07_004": {
+  "cluster": [
+   11,
+   "geo",
+   7
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_geo_cbse_20_001": {
+  "cluster": [
+   11,
+   "geo",
+   20
+  ],
+  "n_pool_cores": 41,
+  "detail": [
+   "D3:core-long952",
+   "D4:core-long921",
+   "D5:core-long1081",
+   "D6:core-long1421"
+  ]
+ },
+ "c11_geo_cbse_23_009": {
+  "cluster": [
+   11,
+   "geo",
+   23
+  ],
+  "n_pool_cores": 45,
+  "detail": [
+   "D1:core-long936",
+   "D2:core-long965",
+   "D3:core-long994",
+   "D4:core-long2364",
+   "D5:core-long1691",
+   "D6:core-long2074"
+  ]
+ },
+ "c11_phy_cbse_03_012": {
+  "cluster": [
+   11,
+   "phy",
+   3
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_phy_cbse_04_006": {
+  "cluster": [
+   11,
+   "phy",
+   4
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_phy_cbse_05_004": {
+  "cluster": [
+   11,
+   "phy",
+   5
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_phy_cbse_07_001": {
+  "cluster": [
+   11,
+   "phy",
+   7
+  ],
+  "n_pool_cores": 6,
+  "detail": [
+   "D1:core-long1296"
+  ]
+ },
+ "c11_phy_cbse_11_010": {
+  "cluster": [
+   11,
+   "phy",
+   11
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_phy_cbse_12_007": {
+  "cluster": [
+   11,
+   "phy",
+   12
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_phy_cbse_12_009": {
+  "cluster": [
+   11,
+   "phy",
+   12
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_phy_cbse_13_001": {
+  "cluster": [
+   11,
+   "phy",
+   13
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c11_phy_cbse_13_008": {
+  "cluster": [
+   11,
+   "phy",
+   13
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=True)"
+  ]
+ },
+ "c12_acc_cbse_05_002": {
+  "cluster": [
+   12,
+   "acc",
+   5
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:core-short18"
+  ]
+ },
+ "c12_acc_cbse_05_004": {
+  "cluster": [
+   12,
+   "acc",
+   5
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_acc_cbse_08_008": {
+  "cluster": [
+   12,
+   "acc",
+   8
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_acc_cbse_08_009": {
+  "cluster": [
+   12,
+   "acc",
+   8
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_acc_cbse_09_002": {
+  "cluster": [
+   12,
+   "acc",
+   9
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_bio_cbse_03_008": {
+  "cluster": [
+   12,
+   "bio",
+   3
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)",
+   "D2:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_biotech_cbse_03_002": {
+  "cluster": [
+   12,
+   "biotech",
+   3
+  ],
+  "n_pool_cores": 6,
+  "detail": [
+   "D1:core-long975"
+  ]
+ },
+ "c12_biotech_cbse_08_009": {
+  "cluster": [
+   12,
+   "biotech",
+   8
+  ],
+  "n_pool_cores": 7,
+  "detail": [
+   "D1:core-long952",
+   "D2:core-long1310"
+  ]
+ },
+ "c12_biotech_cbse_11_002": {
+  "cluster": [
+   12,
+   "biotech",
+   11
+  ],
+  "n_pool_cores": 18,
+  "detail": [
+   "D1:core-long1379",
+   "D2:core-long1538"
+  ]
+ },
+ "c12_bs_cbse_03_007": {
+  "cluster": [
+   12,
+   "bs",
+   3
+  ],
+  "n_pool_cores": 6,
+  "detail": [
+   "D1:core-long1008"
+  ]
+ },
+ "c12_bs_cbse_04_007": {
+  "cluster": [
+   12,
+   "bs",
+   4
+  ],
+  "n_pool_cores": 8,
+  "detail": [
+   "D1:core-long929"
+  ]
+ },
+ "c12_bs_cbse_07_008": {
+  "cluster": [
+   12,
+   "bs",
+   7
+  ],
+  "n_pool_cores": 6,
+  "detail": [
+   "D1:core-long1191"
+  ]
+ },
+ "c12_bs_cbse_09_006": {
+  "cluster": [
+   12,
+   "bs",
+   9
+  ],
+  "n_pool_cores": 3,
+  "detail": [
+   "D1:core-long1040"
+  ]
+ },
+ "c12_bs_cbse_10_009": {
+  "cluster": [
+   12,
+   "bs",
+   10
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_bs_cbse_11_001": {
+  "cluster": [
+   12,
+   "bs",
+   11
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_bs_cbse_11_011": {
+  "cluster": [
+   12,
+   "bs",
+   11
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_chem_cbse_01_001": {
+  "cluster": [
+   12,
+   "chem",
+   1
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_chem_cbse_01_002": {
+  "cluster": [
+   12,
+   "chem",
+   1
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_chem_cbse_01_010": {
+  "cluster": [
+   12,
+   "chem",
+   1
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:core-long1104"
+  ]
+ },
+ "c12_chem_cbse_05_002": {
+  "cluster": [
+   12,
+   "chem",
+   5
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_cs_cbse_08_004": {
+  "cluster": [
+   12,
+   "cs",
+   8
+  ],
+  "n_pool_cores": 0,
+  "detail": [
+   "D1:core-long1057"
+  ]
+ },
+ "c12_eco_cbse_05_003": {
+  "cluster": [
+   12,
+   "eco",
+   5
+  ],
+  "n_pool_cores": 0,
+  "detail": [
+   "D1:core-long1078"
+  ]
+ },
+ "c12_eco_cbse_10_001": {
+  "cluster": [
+   12,
+   "eco",
+   10
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_eco_cbse_11_007": {
+  "cluster": [
+   12,
+   "eco",
+   11
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_eco_cbse_11_010": {
+  "cluster": [
+   12,
+   "eco",
+   11
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_eng_f_cbse_08_009": {
+  "cluster": [
+   12,
+   "eng_f",
+   8
+  ],
+  "n_pool_cores": 82,
+  "detail": [
+   "D1:core-long966",
+   "D2:core-long1306",
+   "D3:core-long1254",
+   "D4:core-long1323",
+   "D5:core-long1540",
+   "D6:core-long1238"
+  ]
+ },
+ "c12_eng_k_cbse_03_014": {
+  "cluster": [
+   12,
+   "eng_k",
+   3
+  ],
+  "n_pool_cores": 85,
+  "detail": [
+   "D3:core-long989",
+   "D4:core-long975",
+   "D5:core-long1086",
+   "D6:core-long1000"
+  ]
+ },
+ "c12_eng_k_cbse_05_014": {
+  "cluster": [
+   12,
+   "eng_k",
+   5
+  ],
+  "n_pool_cores": 84,
+  "detail": [
+   "D2:core-long1065",
+   "D3:core-long906",
+   "D4:core-long1048",
+   "D5:core-long1040"
+  ]
+ },
+ "c12_eng_k_cbse_16_005": {
+  "cluster": [
+   12,
+   "eng_k",
+   16
+  ],
+  "n_pool_cores": 81,
+  "detail": [
+   "D1:core-long1361",
+   "D2:core-long950",
+   "D3:core-long1339",
+   "D4:core-long1512",
+   "D5:core-long1433",
+   "D6:core-long1586"
+  ]
+ },
+ "c12_geo_cbse_02_006": {
+  "cluster": [
+   12,
+   "geo",
+   2
+  ],
+  "n_pool_cores": 53,
+  "detail": [
+   "D2:core-long962",
+   "D3:core-long1021",
+   "D4:core-long1035",
+   "D5:core-long1108",
+   "D6:core-long914"
+  ]
+ },
+ "c12_geo_cbse_17_004": {
+  "cluster": [
+   12,
+   "geo",
+   17
+  ],
+  "n_pool_cores": 57,
+  "detail": [
+   "D2:core-long952",
+   "D3:core-long965",
+   "D4:core-long1229",
+   "D5:core-long1444",
+   "D6:core-long1902"
+  ]
+ },
+ "c12_geo_cbse_19_011": {
+  "cluster": [
+   12,
+   "geo",
+   19
+  ],
+  "n_pool_cores": 61,
+  "detail": [
+   "D1:core-long955",
+   "D3:core-long1088",
+   "D4:core-long1029",
+   "D5:core-long1093",
+   "D6:core-long1253"
+  ]
+ },
+ "c12_geo_cbse_21_002": {
+  "cluster": [
+   12,
+   "geo",
+   21
+  ],
+  "n_pool_cores": 61,
+  "detail": [
+   "D3:core-long1050",
+   "D4:core-long1115",
+   "D5:core-long1083",
+   "D6:core-long1548"
+  ]
+ },
+ "c12_hin_ar_cbse_12_015": {
+  "cluster": [
+   12,
+   "hin_ar",
+   12
+  ],
+  "n_pool_cores": 86,
+  "detail": [
+   "D3:core-long985",
+   "D4:core-long902",
+   "D5:core-long1136",
+   "D6:core-long1050"
+  ]
+ },
+ "c12_hin_ar_cbse_13_006": {
+  "cluster": [
+   12,
+   "hin_ar",
+   13
+  ],
+  "n_pool_cores": 80,
+  "detail": [
+   "D3:core-long1205",
+   "D4:core-long1040",
+   "D5:core-long1021",
+   "D6:core-long1196"
+  ]
+ },
+ "c12_hin_ar_cbse_13_013": {
+  "cluster": [
+   12,
+   "hin_ar",
+   13
+  ],
+  "n_pool_cores": 80,
+  "detail": [
+   "D1:core-long1031",
+   "D2:core-long1002",
+   "D3:core-long1152",
+   "D4:core-long1187",
+   "D5:core-long1066",
+   "D6:core-long1252"
+  ]
+ },
+ "c12_hs_cbse_01_010": {
+  "cluster": [
+   12,
+   "hs",
+   1
+  ],
+  "n_pool_cores": 61,
+  "detail": [
+   "D1:core-long926",
+   "D4:core-long1160",
+   "D5:core-long1079",
+   "D6:core-long1052"
+  ]
+ },
+ "c12_hs_cbse_02_005": {
+  "cluster": [
+   12,
+   "hs",
+   2
+  ],
+  "n_pool_cores": 19,
+  "detail": [
+   "D1:core-long905"
+  ]
+ },
+ "c12_math_cbse_01_009": {
+  "cluster": [
+   12,
+   "math",
+   1
+  ],
+  "n_pool_cores": 0,
+  "detail": [
+   "D1:core-long1323"
+  ]
+ },
+ "c12_math_cbse_02_007": {
+  "cluster": [
+   12,
+   "math",
+   2
+  ],
+  "n_pool_cores": 0,
+  "detail": [
+   "D1:core-long1053"
+  ]
+ },
+ "c12_math_cbse_05_013": {
+  "cluster": [
+   12,
+   "math",
+   5
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_math_cbse_06_006": {
+  "cluster": [
+   12,
+   "math",
+   6
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_math_cbse_11_004": {
+  "cluster": [
+   12,
+   "math",
+   11
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:core-long1077",
+   "D2:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_phy_cbse_02_007": {
+  "cluster": [
+   12,
+   "phy",
+   2
+  ],
+  "n_pool_cores": 0,
+  "detail": [
+   "D1:core-long947"
+  ]
+ },
+ "c12_phy_cbse_08_004": {
+  "cluster": [
+   12,
+   "phy",
+   8
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_phy_cbse_09_003": {
+  "cluster": [
+   12,
+   "phy",
+   9
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_phy_cbse_10_004": {
+  "cluster": [
+   12,
+   "phy",
+   10
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_phy_cbse_10_008": {
+  "cluster": [
+   12,
+   "phy",
+   10
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:core-long992"
+  ]
+ },
+ "c12_phy_cbse_12_001": {
+  "cluster": [
+   12,
+   "phy",
+   12
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_ps_cbse_09_006": {
+  "cluster": [
+   12,
+   "ps",
+   9
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_ps_cbse_09_009": {
+  "cluster": [
+   12,
+   "ps",
+   9
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_ps_cbse_14_006": {
+  "cluster": [
+   12,
+   "ps",
+   14
+  ],
+  "n_pool_cores": 6,
+  "detail": [
+   "D1:core-long1452"
+  ]
+ },
+ "c12_psy_cbse_01_001": {
+  "cluster": [
+   12,
+   "psy",
+   1
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_psy_cbse_01_005": {
+  "cluster": [
+   12,
+   "psy",
+   1
+  ],
+  "n_pool_cores": 2,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_psy_cbse_03_006": {
+  "cluster": [
+   12,
+   "psy",
+   3
+  ],
+  "n_pool_cores": 8,
+  "detail": [
+   "D1:core-long969"
+  ]
+ },
+ "c12_psy_cbse_05_004": {
+  "cluster": [
+   12,
+   "psy",
+   5
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:core-long974"
+  ]
+ },
+ "c12_psy_cbse_05_006": {
+  "cluster": [
+   12,
+   "psy",
+   5
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:nocand(ord=False,math=False,mcq=False)"
+  ]
+ },
+ "c12_psy_cbse_05_007": {
+  "cluster": [
+   12,
+   "psy",
+   5
+  ],
+  "n_pool_cores": 1,
+  "detail": [
+   "D1:core-long1569"
+  ]
+ },
+ "c12_soc_cbse_01_008": {
+  "cluster": [
+   12,
+   "soc",
+   1
+  ],
+  "n_pool_cores": 17,
+  "detail": [
+   "D1:core-long937"
+  ]
+ },
+ "c12_soc_cbse_05_003": {
+  "cluster": [
+   12,
+   "soc",
+   5
+  ],
+  "n_pool_cores": 16,
+  "detail": [
+   "D1:core-long993",
+   "D2:core-long943"
+  ]
+ },
+ "c12_soc_cbse_05_007": {
+  "cluster": [
+   12,
+   "soc",
+   5
+  ],
+  "n_pool_cores": 16,
+  "detail": [
+   "D1:core-long1035",
+   "D2:core-long1276"
+  ]
+ },
+ "c12_soc_cbse_12_006": {
+  "cluster": [
+   12,
+   "soc",
+   12
+  ],
+  "n_pool_cores": 27,
+  "detail": [
+   "D1:core-long1140",
+   "D2:core-long1393"
+  ]
+ },
+ "c12_soc_cbse_15_004": {
+  "cluster": [
+   12,
+   "soc",
+   15
+  ],
+  "n_pool_cores": 28,
+  "detail": [
+   "D1:core-long1130"
+  ]
+ },
+ "c12_soc_cbse_15_010": {
+  "cluster": [
+   12,
+   "soc",
+   15
+  ],
+  "n_pool_cores": 28,
+  "detail": [
+   "D1:core-long928"
+  ]
+ }
+}

@@ -1,0 +1,282 @@
+
+### NODE c12_math_cbse_01_009  class=12 sub=math ch=1 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A binary operation * on a set S is commutative if a * b = b * a for every a, b ∈ S. It is associative if (a * b) * c = a * (b * c) for every a, b, c ∈ S. These are universal properties: they must hold for all elements of S, not just some. A single counterexample disproves the property.
+WALKTHROUGH: Imagine you're at a kirana store in Delhi buying 3 kg apples at ₹120/kg and 2 kg oranges at ₹80/kg. The shopkeeper calculates (3 × 120) + (2 × 80) = 360 + 160 = ₹520. You wonder: "Does it matter if I add apple cost first or orange cost first?" This is commutativity of addition in real life. Now, if the shopkeeper offers a discount scheme: "Buy 3 items, get the 4th at half price" — does the order in which you pick items change your final bill? That's associativity of a custom operation. In this node, we formalise these questions: for any operation * on a set S, we ask: does a * b always equal b * a? Does (a * b) * c always equal a * (b * c)? We start by writing the definition, then test with concrete numbers, then move to algebraic verification for infinite sets.
+D1 Q: State the definition of a commutative binary operation on a set S. Use the quantifier "for all" in your answer.
+D1 A: A binary operation * on a set S is commutative if for all a, b ∈ S, a * b = b * a. A wrong answer like "a * b = b * a for some a, b" reveals the student confuses "property holds for all" with "property holds for at least one pair" — a critical error because commutativity is a universal statement. Another common error: omitting "for all a, b ∈ S" and just writing "a * b = b * a", which is an equation, not a definition
+D2 Q: Consider the binary operation * on ℤ defined by a * b = a - b. Is * commutative? Justify your answer with a specific counterexample.
+D2 A: No, * is not commutative. Counterexample: take a = 5, b = 3. Then 5 * 3 = 5 - 3 = 2, but 3 * 5 = 3 - 5 = -2. Since 2 ≠ -2, commutativity fails. A student who says "it is commutative because 2 * 2 = 2 * 2" reveals the misconception that checking equal elements (a = b) is sufficient. Another error: saying "subtraction is not commutative" without a concrete numerical counterexample — the definition requires exhibiting s
+D3 Q: Let * be the binary operation on ℕ defined by a * b = a^b (a raised to power b). Check whether * is associative. Show all steps for a = 2, b = 3, c = 2.
+D3 A: Compute (2 * 3) * 2 = (2^3) * 2 = 8 * 2 = 8^2 = 64.
+Compute 2 * (3 * 2) = 2 * (3^2) = 2 * 9 = 2^9 = 512.
+Since 64 ≠ 512, * is not associative.
+A wrong answer like "(a^b)^c = a^(bc) and a^(b^c) = a^(bc), so they are equal" reveals the student incorrectly applies exponent rules: (a^b)^c = a^(bc) is true, but a^(b^c) = a^(b^c), NOT a^(bc). The confusion between (a^b)^c and a^(b^c) is a classic exponent-law error.
+D4 Q: A student claims: "The operation * on ℝ defined by a * b = a + b + ab is commutative because addition and multiplication are commutative." Is this reasoning valid? Explain why or why not.
+D4 A: The conclusion is correct (the operation IS commutative), but the reasoning is incomplete. Commutativity of * does not automatically follow from commutativity of + and ×; one must verify a * b = a + b + ab = b + a + ba = b * a using commutativity of + and × and the fact that ab = ba. The step "ab = ba" uses commutativity of multiplication, which is valid in ℝ. A student who says "yes, because + and × are commutative"
+D5 Q: The binary operation * on the set {1, 2, 3} is given by the following Cayley table. Determine whether * is associative. Show your checking process.
+
+| * | 1 | 2 | 3 |
+|---|---|---|---|
+| 1 | 1 | 2 | 3 |
+| 2 | 2 | 3 | 1 |
+| 3 | 3 | 1 | 2 |
+D5 A: To check associativity, we must verify (x * y) * z = x * (y * z) for all 27 triples (x,y,z) ∈ {1,2,3}^3.
+Check (2 * 2) * 3 = 3 * 3 = 2, and 2 * (2 * 3) = 2 * 1 = 2 → OK.
+Check (2 * 3) * 3 = 1 * 3 = 3, and 2 * (3 * 3) = 2 * 2 = 3 → OK.
+Check (3 * 2) * 1 = 1 * 1 = 1, and 3 * (2 * 1) = 3 * 2 = 1 → OK.
+(Continue for all 27 cases — this operation is actually associative; it's addition modulo 3 with 3 representing 0.)
+A st
+D6 Q: Construct a binary operation * on the set {0, 1} that is commutative but NOT associative. Provide the Cayley table and verify both properties. [IN-SCOPE-REWRITE]
+D6 A: Example: Define * by the table:
+| * | 0 | 1 |
+|---|---|---|
+| 0 | 0 | 1 |
+| 1 | 1 | 0 |
+This is XOR (addition mod 2), which IS associative — so this is a bad example!
+Correct example: Define * by:
+| * | 0 | 1 |
+|---|---|---|
+| 0 | 0 | 0 |
+| 1 | 0 | 1 |
+This is logical AND. It is commutative (table symmetric). Check associativity: (1 * 1) * 0 = 1 * 0 = 0, but 1 * (1 * 0) = 1 * 0 = 0 → OK. Wait, AND is associative.
+Bet
+
+VETTED-DIAG C12_MATH_SQP_Q04 (fit 0.50, src c12_math_specimen_860.marker)
+  Q: If A = [[1, b],[0, 1]], then A^n (n in N) is equal to (a) [[1, nb],[0, 1]] (b) [[1, b^n],[0, 1]] (c) [[1, nb],[0, 1]] (d) [[1, nb],[0, 0]]
+  A: See marking scheme
+VETTED-DIAG C12_MATH_SQP_Q18 (fit 0.50, src c12_math_specimen_860.marker)
+  Q: Let f: R -> R defined as f(x) = 2x - 3. Find f^-1(x).
+  A: See marking scheme
+VETTED-DIAG C12_MATH_BR_Q59 (fit 0.44, src c12_math_board_860.marker)
+  Q: Consider the following data: x: 1, 2, 3, 6; y: 6, 4, [value], 1. (b) Complete the table.
+  A: See marking scheme
+VETTED-MIS misconception_1 (fit 0.25)
+  M: A relation R on a set A is reflexive if (a, a) belongs to R for some elements a in A.
+  C: R is reflexive on A if and only if (a, a) in R for every a in A. Equivalently, the diagonal {(a, a) : a in A} must be a subset of R.
+VETTED-MIS misconception_4 (fit 0.25)
+  M: The associative property works for division of rational numbers.
+  C: Only addition and multiplication are associative over rational numbers.
+VETTED-MIS misconception_7 (fit 0.20)
+  M: A set with no elements at the moment is not really a set, so the empty set is not a valid set.
+  C: The empty set is a legitimate set with cardinality zero and is a subset of every set.
+### NODE c12_math_cbse_02_007  class=12 sub=math ch=2 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: Simplifying expressions using inverse trigonometric identities means rewriting complex inverse trigonometric expressions (involving compositions like $\tan^{-1}(\sqrt{\frac{1-x}{1+x}})$, $\sin^{-1}(\frac{2x}{1+x^2})$, etc.) into simpler algebraic or basic trigonometric forms by applying standard identities and appropriate trigonometric substitutions (such as $x = \sin\theta$, $x = \cos\theta$, $x = \tan\theta$, $x = \sec\theta$) while strictly respecting the principal value branch restrictions of each inverse function.
+WALKTHROUGH: Imagine you are an ISRO scientist calculating the optimal angle for a satellite dish reflector. The geometry gives you $\tan^{-1}\left(\sqrt{\frac{f-D}{f+D}}\right)$ where $f$ is focal length and $D$ is dish diameter. To interpret this angle physically, you must simplify it. Start by identifying the algebraic pattern: $\sqrt{\frac{1-x}{1+x}}$ suggests the substitution $x = \cos\theta$ because $1-\cos\theta = 2\sin^2\frac{\theta}{2}$ and $1+\cos\theta = 2\cos^2\frac{\theta}{2}$. Write down the substitution, transform the square root using half-angle identities, simplify the trigonometric ratio, apply the inverse function, and finally check that the resulting angle lies in the principal range of $\tan^{-1}$ (i.e., $(-\frac{\pi}{2}, \frac{\pi}{2})$). The key insight is recognizing that specific algebraic forms map to specific half-angle or double-angle trigonometric identities.
+D1 Q: Write the standard trigonometric substitution used to simplify $\tan^{-1}\sqrt{\frac{1-x}{1+x}}$ and state the resulting simplified form in terms of $\cos^{-1}x$. No need to show steps.
+D1 A: Correct answer: Substitute $x = \cos\theta$ ($\theta \in [0, \pi]$). Then $\sqrt{\frac{1-x}{1+x}} = \sqrt{\frac{1-\cos\theta}{1+\cos\theta}} = \sqrt{\frac{2\sin^2\frac{\theta}{2}}{2\cos^2\frac{\theta}{2}}} = \tan\frac{\theta}{2}$. So $\tan^{-1}\sqrt{\frac{1-x}{1+x}} = \frac{\theta}{2} = \frac{1}{2}\cos^{-1}x$ for $x \in (-1, 1]$.
+
+A wrong answer (e.g., using $x = \sin\theta$ or writing $\sin^{-1}x$) reveals the stude
+D2 Q: A student simplifies $\tan^{-1}\left(\sqrt{\frac{1-\cos x}{1+\cos x}}\right)$ directly to $\frac{x}{2}$ without any condition on $x$. Explain why this is incomplete and state the exact condition on $x$ for which $\frac{x}{2}$ is the correct principal value.
+D2 A: Correct explanation: $\sqrt{\frac{1-\cos x}{1+\cos x}} = \sqrt{\frac{2\sin^2\frac{x}{2}}{2\cos^2\frac{x}{2}}} = \left|\tan\frac{x}{2}\right|$. The principal value of $\tan^{-1}$ lies in $(-\frac{\pi}{2}, \frac{\pi}{2})$. So $\tan^{-1}\left(\left|\tan\frac{x}{2}\right|\right) = \frac{x}{2}$ only when $\frac{x}{2} \in [0, \frac{\pi}{2})$, i.e., $x \in [0, \pi)$. For $x \in (\pi, 2\pi)$, $\frac{x}{2} \in (\frac{\pi}{2},
+D3 Q: Simplify $\tan^{-1}\left(\sqrt{\frac{1-\sin x}{1+\sin x}}\right)$ for $x \in \left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$. Show all steps including the substitution, half-angle transformation, absolute value handling, and range verification.
+D3 A: Step 1: Recognize the form $\sqrt{\frac{1-\sin x}{1+\sin x}}$. Use substitution based on $\sin x = \cos\left(\frac{\pi}{2}-x\right)$ or directly use $\sin x = 2\sin\frac{x}{2}\cos\frac{x}{2}$. Better: Write $1 \pm \sin x = \left(\sin\frac{x}{2} \pm \cos\frac{x}{2}\right)^2$.
+Step 2: $\sqrt{\frac{1-\sin x}{1+\sin x}} = \sqrt{\frac{(\cos\frac{x}{2} - \sin\frac{x}{2})^2}{(\cos\frac{x}{2} + \sin\frac{x}{2})^2}} = \left|\
+D4 Q: Compare the two simplifications:
+(A) $\tan^{-1}\sqrt{\frac{1-x}{1+x}}$ using $x = \cos\theta$
+(B) $\tan^{-1}\sqrt{\frac{1-x}{1+x}}$ using $x = \sin\theta$
+Which substitution directly yields the principal value without extra case analysis? Justify your answer by showing the range of the resulting angle in each case.
+D4 A: Correct analysis:
+(A) With $x = \cos\theta$, $\theta = \cos^{-1}x \in [0, \pi]$. Then $\sqrt{\frac{1-x}{1+x}} = \tan\frac{\theta}{2}$. Since $\theta \in [0, \pi]$, $\frac{\theta}{2} \in [0, \frac{\pi}{2}) \subset (-\frac{\pi}{2}, \frac{\pi}{2})$. So $\tan^{-1}(\tan\frac{\theta}{2}) = \frac{\theta}{2} = \frac{1}{2}\cos^{-1}x$ directly, no absolute value issues.
+(B) With $x = \sin\theta$, $\theta = \sin^{-1}x \in [-\fr
+D5 Q: A student solves: "Simplify $\sin^{-1}\left(\frac{2x}{1+x^2}\right)$ for $x \in [-1, 1]$."
+Their working:
+$\text{Let } x = \tan\theta \implies \theta = \tan^{-1}x$.
+$\frac{2x}{1+x^2} = \frac{2\tan\theta}{1+\tan^2\theta} = \sin 2\theta$.
+$\sin^{-1}\left(\frac{2x}{1+x^2}\right) = \sin^{-1}(\sin 2\theta) = 2\theta = 2\tan [IN-SCOPE-REWRITE]
+D5 A: Evaluation: The solution is incorrect because it ignores the principal value range of $\sin^{-1}$, which is $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+Flaw: $\theta = \tan^{-1}x$. For $x \in [-1, 1]$, $\theta \in [-\frac{\pi}{4}, \frac{\pi}{4}]$. Then $2\theta \in [-\frac{\pi}{2}, \frac{\pi}{2}]$. In this specific domain, $2\theta$ accidentally falls within the principal range of $\sin^{-1}$, so the answer $2\tan^{-1}x$ happ
+D6 Q: Create a new inverse trigonometric simplification problem of the form $\tan^{-1}(f(x))$ that simplifies to $\frac{\pi}{4} - \frac{1}{2}\sin^{-1}x$ for $x \in [0, 1]$. Specify $f(x)$ explicitly and show the substitution path that leads to this result.
+D6 A: Expected answer: $f(x) = \sqrt{\frac{1-x}{1+x}}$ or equivalent forms like $\frac{\sqrt{1-x^2}}{1+x}$ or $\frac{1-x}{\sqrt{1-x^2}}$.
+Substitution path:
+1. Let $x = \sin\theta$, $\theta \in [0, \frac{\pi}{2}]$ for $x \in [0, 1]$.
+2. Then $\sqrt{\frac{1-x}{1+x}} = \sqrt{\frac{1-\sin\theta}{1+\sin\theta}} = \left|\frac{\cos\frac{\theta}{2} - \sin\frac{\theta}{2}}{\cos\frac{\theta}{2} + \sin\frac{\theta}{2}}\right| = \lef
+
+VETTED-DIAG C12_MATH_SP26_Q08 (fit 1.00, src c12_math_specimen_2026.marker)
+  Q: If f(x) = kx^2 + 7x - 4 and f'(5) = 97, then what is the value of k? (a) -4 (b) 0 (c) 4 (d) 9
+  A: (d) 9
+VETTED-DIAG C12_MATH_CFQ_Q53 (fit 0.86, src c12_math_cfq.marker)
+  Q: [Inverse Trigonometric Function] If cos^(-1) a - cos^(-1) b = pi/3 and sin^(-1) a + sin^(-1) b = 2pi/3, then find the value of 4(a + b).
+  A: 2
+VETTED-DIAG cfq_3_2 (fit 0.75, src c12_maths_cfq_diagnostics.marker)
+  Q: Evaluate integral_0^(pi/2) sin^2x dx.
+  A: sin^2x = (1 - cos 2x)/2. integral = (1/2)[x - sin 2x/2]_0^(pi/2) = (1/2)[(pi/2 - 0) - (0 - 0)] = (1/2)(pi/2) = pi/4.
+VETTED-MIS PP_C10_2020_024 (fit 0.50)
+  M: Candidates failed to express tan A and cot A in terms of sin A and cos A correctly when simplifying trigonometric identities.
+  C: tan A = sin A / cos A and cot A = cos A / sin A. These basic conversions are the first step in simplifying trigonometric expressions involving tan and cot.
+VETTED-MIS PP_C10_2020_024 (fit 0.50)
+  M: Candidates failed to express tan A and cot A in terms of sin A and cos A correctly when simplifying trigonometric identities.
+  C: tan A = sin A / cos A and cot A = cos A / sin A. These basic conversions are the first step in simplifying trigonometric expressions involving tan and cot.
+VETTED-MIS PP_C10_2020_024 (fit 0.50)
+  M: Candidates failed to express tan A and cot A in terms of sin A and cos A correctly when simplifying trigonometric identities.
+  C: tan A = sin A / cos A and cot A = cos A / sin A. These basic conversions are the first step in simplifying trigonometric expressions involving tan and cot.
+### NODE c12_math_cbse_05_013  class=12 sub=math ch=5 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: The Mean Value Theorem (MVT) states: If a function \( f \) is continuous on the closed interval \([a, b]\) and differentiable on the open interval \((a, b)\), then there exists at least one point \( c \in (a, b) \) such that \( f'(c) = \frac{f(b) - f(a)}{b - a} \). Geometrically, this means there is at least one point on the curve where the tangent is parallel to the chord joining the endpoints \((a, f(a))\) and \((b, f(b))\).
+WALKTHROUGH: Imagine you drive from Delhi to Agra, a distance of 200 km, in exactly 2 hours. Your average speed is 100 km/h. The Mean Value Theorem guarantees that at some instant during the trip, your speedometer must have read exactly 100 km/h — provided your speed changed continuously (no teleporting) and you didn't stop (differentiable). To begin, write down the two conditions: continuity on \([a, b]\) and differentiability on \((a, b)\). Then recall Rolle's Theorem: if \( f(a) = f(b) \), there is a point with zero derivative. The clever step is to construct an auxiliary function \( g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x-a) - f(a) \) which satisfies \( g(a) = g(b) \). Applying Rolle's Theorem to \( g \) yields the MVT. The key insight is that subtracting the secant line's equation from \( f \) creates a function with equal endpoint values.
+D1 Q: State the Mean Value Theorem precisely, including all hypotheses and the conclusion. Use mathematical notation.
+D1 A: Correct Answer: If \( f \) is continuous on \([a, b]\) and differentiable on \((a, b)\), then there exists at least one \( c \in (a, b) \) such that \( f'(c) = \frac{f(b) - f(a)}{b - a} \). 
+Misconception Analysis: A common wrong answer omits "continuous on \([a, b]\)" or "differentiable on \((a, b)\)", or writes the conclusion as \( f(c) = \frac{f(b)-f(a)}{b-a} \) (confusing function value with derivative). This rev
+D2 Q: Explain why the function \( f(x) = |x| \) on \([-1, 1]\) does NOT satisfy the hypotheses of the Mean Value Theorem. What happens if you try to find \( c \) such that \( f'(c) = \frac{f(1)-f(-1)}{1-(-1)} \)?
+D2 A: Correct Answer: \( f(x) = |x| \) is continuous on \([-1, 1]\) but NOT differentiable at \( x = 0 \in (-1, 1) \). The right-hand derivative at 0 is 1, left-hand derivative is -1, so \( f'(0) \) does not exist. The secant slope is \( \frac{1-1}{2} = 0 \). There is no \( c \in (-1, 1) \) with \( f'(c) = 0 \) because \( f'(x) = 1 \) for \( x>0 \) and \( f'(x) = -1 \) for \( x<0 \). 
+Misconception Analysis: Students often
+D3 Q: Verify the Mean Value Theorem for \( f(x) = x^3 - 3x^2 + 2x \) on the interval \([0, 2]\). Find all values of \( c \) that satisfy the conclusion.
+D3 A: Correct Answer with Steps: 
+1. \( f(x) = x^3 - 3x^2 + 2x \) is a polynomial, so continuous on \([0, 2]\) and differentiable on \((0, 2)\). Conditions satisfied. 
+2. \( f(0) = 0 \), \( f(2) = 8 - 12 + 4 = 0 \). Secant slope \( = \frac{0-0}{2-0} = 0 \). 
+3. \( f'(x) = 3x^2 - 6x + 2 \). 
+4. Set \( f'(c) = 0 \Rightarrow 3c^2 - 6c + 2 = 0 \Rightarrow c = \frac{6 \pm \sqrt{36 - 24}}{6} = \frac{6 \pm 2\sqrt{3}}{6} = 1 \pm \
+D4 Q: Compare Rolle's Theorem and the Mean Value Theorem. How is MVT a generalization of Rolle's Theorem? Construct the auxiliary function used in the proof of MVT from Rolle's Theorem and explain why it works. [IN-SCOPE-REWRITE]
+D4 A: Correct Answer: Rolle's Theorem requires \( f(a) = f(b) \) and concludes \( f'(c) = 0 \). MVT drops the equal-endpoint condition and concludes \( f'(c) = \frac{f(b)-f(a)}{b-a} \). The auxiliary function is \( g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x-a) - f(a) \). Then \( g(a) = f(a) - 0 - f(a) = 0 \) and \( g(b) = f(b) - (f(b)-f(a)) - f(a) = 0 \). So \( g \) satisfies Rolle's conditions. By Rolle's Theorem, \( \exists c
+D5 Q: A student claims: "The function \( f(x) = \frac{1}{x} \) on \([-1, 1]\) satisfies the Mean Value Theorem because it is differentiable everywhere except at 0, and 0 is just one point." Evaluate this claim. Is the student correct? Justify your answer.
+D5 A: Correct Answer: The student is INCORRECT. The Mean Value Theorem requires differentiability on the ENTIRE OPEN INTERVAL \((-1, 1)\). Since \( f(x) = \frac{1}{x} \) is not defined at \( x = 0 \), it is neither continuous nor differentiable at 0. The domain of \( f \) is \( (-\infty, 0) \cup (0, \infty) \), so \( f \) is not even a function on \([-1, 1]\). The hypotheses fail at the very first step. 
+Error Analysis: Th
+D6 Q: Construct a function \( f \) defined on \([0, 2]\) such that \( f(0) = 0 \), \( f(2) = 4 \), and the Mean Value Theorem guarantees at least one \( c \in (0, 2) \) with \( f'(c) = 2 \). Your function must be differentiable on \((0, 2)\) but NOT a straight line. Verify that your function works.
+D6 A: Expected Answer: Any function continuous on \([0, 2]\), differentiable on \((0, 2)\), with \( f(0)=0, f(2)=4 \), and non-linear. Example: \( f(x) = x^2 \). Check: \( f(0)=0, f(2)=4 \). Secant slope \( = \frac{4-0}{2-0} = 2 \). \( f'(x) = 2x \). Set \( 2c = 2 \Rightarrow c = 1 \in (0, 2) \). Works. Another example: \( f(x) = 2x + \sin(\pi x) \). 
+Poor Answer Indicators: If the student gives a straight line \( f(x) = 2
+
+VETTED-DIAG cfq_8_1 (fit 1.00, src c12_maths_cfq_diagnostics.marker)
+  Q: X ~ B(n=10, p=0.4). Find P(X = 3) and the mean.
+  A: P(X=3) = C(10,3)(0.4)^3(0.6)^7 = 120 x 0.064 x 0.0280 = 0.2150. Mean = np = 10 x 0.4 = 4.
+VETTED-DIAG C12_MATH_SP26_Q08 (fit 1.00, src c12_math_specimen_2026.marker)
+  Q: If f(x) = kx^2 + 7x - 4 and f'(5) = 97, then what is the value of k? (a) -4 (b) 0 (c) 4 (d) 9
+  A: (d) 9
+VETTED-DIAG C12_MATH_SP26_Q18 (fit 0.64, src c12_math_specimen_2026.marker)
+  Q: Find the point on the curve y = (x - 2)^2 at which the tangent is parallel to the chord joining the end points (2, 0) and (4, 4).
+  A: dy/dx = 2(x - 2). Slope of chord = (4 - 0)/(4 - 2) = 2. Since tangent is parallel to chord: 2(x - 2) = 2 => x = 3 and y = 1. The point is (3, 1).
+VETTED-MIS misconception_6 (fit 0.38)
+  M: The function [x] is continuous everywhere because it has a value at every point.
+  C: [x] is right-continuous at every integer n (lim x->n+ [x] = n = [n]), but the left-hand limit lim x->n- [x] = n - 1 != n. Hence [x] is discontinuous at every integer and continuous on every open interval (n, n+1).
+VETTED-MIS misconception_10 (fit 0.38)
+  M: If [x] = k, then x = k.
+  C: [x] = k is equivalent to k <= x < k+1, where k is an integer. The solution is an interval, not a single point. For example, [x] = 3 means 3 <= x < 4.
+VETTED-MIS PP_C12_2024_020 (fit 0.35)
+  M: Some candidates were unable to equate the slope of the tangent (dy/dx) with the slope of the chord joining two given points to find the required point on the curve.
+  C: The slope of the tangent to the curve y = (x-2)^2 is dy/dx = 2(x-2). The slope of the chord joining (2,0) and (4,4) is m = (4-0)/(4-2) = 2. For the tangent to be parallel to the chord, set dy/dx = m, i.e., 2(x-2) = 2, giving x = 3 and y = 1.
+### NODE c12_math_cbse_06_006  class=12 sub=math ch=6 verdict=PARTIAL action=REWRITE [1]
+DEFINITION: The differential of a function y = f(x) is defined as dy = f'(x) dx, where dx = Δx is a small change in the independent variable x, and dy approximates the corresponding change Δy in the dependent variable y. For sufficiently small Δx, the approximation Δy ≈ dy = f'(x) Δx holds, allowing us to estimate values of f(x + Δx) ≈ f(x) + f'(x) Δx without exact computation.
+WALKTHROUGH: Imagine you need to find √26.3 instantly during a physics lab without a calculator. You know √25 = 5 exactly. The difference is Δx = 1.3. Using the derivative of √x at x=25, which is 1/(2√25) = 1/10, the approximate change is dy = (1/10)(1.3) = 0.13. So √26.3 ≈ 5 + 0.13 = 5.13. This is the power of differentials: replacing a curved function with its tangent line over a tiny interval. Start by identifying a "nice" point x₀ near your target where f(x₀) is known exactly. Compute f'(x₀). Then Δy ≈ f'(x₀)Δx gives the approximation. The key insight: the tangent line is the best linear approximation to the curve near the point of tangency.
+D1 Q: State the formula for approximating Δy using differentials and explain what each symbol represents. Under what condition is this approximation valid?
+D1 A: The formula is Δy ≈ dy = f'(x) dx, where Δy = f(x + Δx) - f(x) is the actual change in y, f'(x) is the derivative at x, and dx = Δx is a small change in x. The approximation is valid when Δx is sufficiently small (|Δx| → 0) and f is differentiable at x. A wrong answer like "Δy = f'(x)Δx exactly" reveals confusion between exact differential dy and actual change Δy — students often forget this is an approximation, not 
+D2 Q: Why does the tangent line approximation work for √26.3 near x=25 but would fail badly if we tried to approximate √100 using the tangent at x=25? Explain using the concept of local linearity. [IN-SCOPE-REWRITE]
+D2 A: The tangent line approximates the curve well only in a small neighbourhood of the point of tangency because f(x) is locally linear — the curve and its tangent become indistinguishable as Δx → 0. For √26.3, Δx = 1.3 is small relative to x=25 (5.2% change), so the linear approximation is accurate. For √100 from x=25, Δx = 75 is huge (300% change); the curvature of √x accumulates significant error over this interval, ma
+D3 Q: Use differentials to approximate the value of (82)^(1/3). Show all steps including the choice of base point, derivative calculation, and final approximation. Compute the actual error if the true value is 4.34448.
+D3 A: Let f(x) = x^(1/3). Choose x₀ = 8 (since 8^(1/3) = 2 exactly). Δx = 82 - 8 = 74. f'(x) = (1/3)x^(-2/3). f'(8) = (1/3)(8)^(-2/3) = (1/3)(1/4) = 1/12. dy = f'(8)Δx = (1/12)(74) = 74/12 = 37/6 ≈ 6.1667. Approximate value = f(8) + dy = 2 + 6.1667 = 8.1667. Wait — this is clearly wrong! The error is massive because Δx = 74 is NOT small. Correct approach: Choose x₀ = 64 (4³ = 64). Δx = 82 - 64 = 18. f'(64) = (1/3)(64)^(-2/
+D4 Q: A spherical balloon's radius is measured as 10 cm with a possible error of ±0.02 cm. Use differentials to estimate the maximum possible error in the calculated volume. Also find the relative error and percentage error in volume.
+D4 A: Volume V = (4/3)πr³. dV = V'(r) dr = 4πr² dr. At r = 10 cm, dr = ±0.02 cm. |dV| = 4π(10)²(0.02) = 4π(100)(0.02) = 8π ≈ 25.13 cm³. Relative error = |dV|/V = (4πr² dr) / ((4/3)πr³) = 3(dr/r) = 3(0.02/10) = 0.006. Percentage error = 0.006 × 100% = 0.6%. A common error: students compute dV = 4πr² Δr but forget the 3 in relative error (writing dr/r instead of 3dr/r), or they use ΔV ≈ dV but then compute percentage error a
+D5 Q: A student approximates √15.9 using differentials with base point x₀ = 16. They write: f(x) = √x, f'(x) = 1/(2√x), f'(16) = 1/8. Δx = 15.9 - 16 = -0.1. dy = (1/8)(-0.1) = -0.0125. √15.9 ≈ 4 - 0.0125 = 3.9875. Is this correct? If not, identify the exact error and correct it.
+D5 A: The method and arithmetic are correct, but the base point choice is problematic. f'(x) = 1/(2√x) is valid for x > 0. At x₀ = 16, Δx = -0.1 gives |Δx|/x₀ = 0.1/16 = 0.625% — this IS small, so the approximation is actually valid and accurate. The error is only in the student's potential thinking: if they chose x₀ = 9 (since √9=3), Δx = 6.9 would be huge (76.7% change), giving a terrible approximation. The given solutio
+D6 Q: Design a real-world problem where a manufacturing engineer must use differentials to estimate the maximum allowable error in measuring the radius of a cylindrical pipe so that the cross-sectional area error stays within 1%. Specify all given values and what needs to be found. Solve your own problem.
+D6 A: Problem: A cylindrical pipe's cross-sectional area A = πr² must be manufactured with area error ≤ 1%. If the nominal radius is r = 5 cm, find the maximum allowable measurement error Δr in the radius.
+Solution: dA = A'(r) dr = 2πr dr. Relative error: |dA|/A = |2πr dr| / (πr²) = 2|dr|/r. Set 2|dr|/r ≤ 0.01 → |dr| ≤ 0.01r/2 = 0.01(5)/2 = 0.025 cm. Maximum allowable error = ±0.025 cm.
+A good answer shows: (1) correct for
+
+VETTED-DIAG C12_MATH_SP26_Q08 (fit 1.00, src c12_math_specimen_2026.marker)
+  Q: If f(x) = kx^2 + 7x - 4 and f'(5) = 97, then what is the value of k? (a) -4 (b) 0 (c) 4 (d) 9
+  A: (d) 9
+VETTED-DIAG C12_MATH_CFQ_Q79 (fit 0.57, src c12_math_cfq.marker)
+  Q: [Differential Equations] Find the function 'f' which satisfies the equation df/dx = 2f, given that f(0) = e^3.
+  A: f = e^(2x+3)
+VETTED-DIAG C12_MATH_SP26_Q73 (fit 0.57, src c12_math_specimen_2026.marker)
+  Q: (c) Find the maximum value of the objective function Z = x + y.
+  A: The corner points are O(0,0), C(0,20), B(20,10) and A(25,0). At O, Z = 0; At C, Z = 20; At B, Z = 30; At A, Z = 25. Maximum value of Z is 30.
+VETTED-MIS PP_C12_2023B_026 (fit 0.21)
+  M: Candidates failed to recognise that the given differential equation is of the type dx/dy + Px = Q, where P and Q are constants or functions of y (i.e., a linear DE with x as the dependent variable).
+  C: When the equation has dx/dy (not dy/dx), it must be rearranged to the standard linear form dx/dy + P(y)xx = Q(y). The dependent variable is x and the independent variable is y, which is the reverse of the more common dy/dx + P(x)y = Q(x) form.
+VETTED-MIS PP_C12_2023B_026 (fit 0.21)
+  M: Candidates failed to recognise that the given differential equation is of the type dx/dy + Px = Q, where P and Q are constants or functions of y (i.e., a linear DE with x as the dependent variable).
+  C: When the equation has dx/dy (not dy/dx), it must be rearranged to the standard linear form dx/dy + P(y)xx = Q(y). The dependent variable is x and the independent variable is y, which is the reverse of the more common dy/dx + P(x)y = Q(x) form.
+VETTED-MIS PP_C12_2023B_026 (fit 0.21)
+  M: Candidates failed to recognise that the given differential equation is of the type dx/dy + Px = Q, where P and Q are constants or functions of y (i.e., a linear DE with x as the dependent variable).
+  C: When the equation has dx/dy (not dy/dx), it must be rearranged to the standard linear form dx/dy + P(y)xx = Q(y). The dependent variable is x and the independent variable is y, which is the reverse of the more common dy/dx + P(x)y = Q(x) form.
+### NODE c12_math_cbse_11_004  class=12 sub=math ch=11 verdict=PARTIAL action=REWRITE [2, 4]
+DEFINITION: The shortest distance between two skew lines in three-dimensional space is the length of the unique line segment that is perpendicular to both lines. Skew lines are non-parallel, non-intersecting lines that lie in different planes. If the lines are given in vector form as \(\vec{r} = \vec{a_1} + \lambda \vec{b_1}\) and \(\vec{r} = \vec{a_2} + \mu \vec{b_2}\), the shortest distance \(d\) is \(d = \frac{|(\vec{b_1} \times \vec{b_2}) \cdot (\vec{a_2} - \vec{a_1})|}{|\vec{b_1} \times \vec{b_2}|}\), provided \(\vec{b_1} \times \vec{b_2} \neq \vec{0}\).
+WALKTHROUGH: Imagine you are an architect designing a modern building in Mumbai. Two drainage pipes run diagonally across different floors: one goes from the northeast corner of the ground floor to the southwest corner of the first floor, and another runs from the northwest corner of the ground floor to the southeast corner of the second floor. These pipes are skew — they don't intersect and aren't parallel. To avoid collision, you need the minimum clearance between them. Start by writing the vector equations of both lines from their endpoints. Identify \(\vec{a_1}, \vec{b_1}, \vec{a_2}, \vec{b_2}\). Compute \(\vec{b_1} \times \vec{b_2}\) (the direction perpendicular to both pipes). Then find \(\vec{a_2} - \vec{a_1}\) (vector connecting a point on each pipe). The shortest distance is the absolute projection of this connecting vector onto the perpendicular direction: \(d = \frac{|(\vec{b_1} \times \vec{b_2}) \cdot (\vec{a_2} - \vec{a_1})|}{|\vec{b_1} \times \vec{b_2}|}\). The key insight: the cross product gives a vector perpendicular to both lines, and the dot product with the connecting vector extracts the component along that perpendicular.
+D1 Q: State the vector formula for the shortest distance between two skew lines \(\vec{r} = \vec{a_1} + \lambda \vec{b_1}\) and \(\vec{r} = \vec{a_2} + \mu \vec{b_2}\). What condition must \(\vec{b_1} \times \vec{b_2}\) satisfy for this formula to be valid?
+D1 A: The formula is \(d = \frac{|(\vec{b_1} \times \vec{b_2}) \cdot (\vec{a_2} - \vec{a_1})|}{|\vec{b_1} \times \vec{b_2}|}\). The condition is \(\vec{b_1} \times \vec{b_2} \neq \vec{0}\), i.e., the lines are not parallel. If a student writes the formula without absolute value or forgets the condition, they confuse it with the parallel lines formula or sign errors. A wrong answer like \(d = \frac{(\vec{b_1} \times \vec{b_
+D2 Q: Two lines are given by \(\frac{x-1}{2} = \frac{y-2}{3} = \frac{z-3}{4}\) and \(\frac{x-4}{5} = \frac{y-5}{6} = \frac{z-6}{7}\). Without computing the distance, explain how you would verify that these lines are skew (neither parallel nor intersecting).
+D2 A: First, check if direction ratios are proportional: (2,3,4) and (5,6,7) are not proportional → not parallel. Second, equate parametric forms: \(x=1+2\lambda, y=2+3\lambda, z=3+4\lambda\) and \(x=4+5\mu, y=5+6\mu, z=6+7\mu\). Solve for \(\lambda, \mu\) from two equations; if they don't satisfy the third, lines don't intersect. A student who only checks non-parallelism and assumes skew reveals they don't know intersecti
+D3 Q: Find the shortest distance between the lines \(\vec{r} = (\hat{i} + 2\hat{j} + 3\hat{k}) + \lambda(\hat{i} - \hat{j} + \hat{k})\) and \(\vec{r} = (2\hat{i} - \hat{j} - \hat{k}) + \mu(2\hat{i} + \hat{j} + 2\hat{k})\). [IN-SCOPE-REWRITE]
+D3 A: Given: \(\vec{a_1} = \hat{i} + 2\hat{j} + 3\hat{k}\), \(\vec{b_1} = \hat{i} - \hat{j} + \hat{k}\); \(\vec{a_2} = 2\hat{i} - \hat{j} - \hat{k}\), \(\vec{b_2} = 2\hat{i} + \hat{j} + 2\hat{k}\).
+Step 1: \(\vec{b_1} \times \vec{b_2} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & -1 & 1 \\ 2 & 1 & 2 \end{vmatrix} = \hat{i}(-2-1) - \hat{j}(2-2) + \hat{k}(1+2) = -3\hat{i} + 0\hat{j} + 3\hat{k}\).
+Step 2: \(|\vec{b_1} 
+D4 Q: Compare the formulas for shortest distance between skew lines and parallel lines. Why does the skew lines formula have a cross product in the denominator while the parallel lines formula has a single direction vector magnitude?
+D4 A: For skew lines, the perpendicular direction is \(\vec{b_1} \times \vec{b_2}\) (unique direction perpendicular to both). The distance is the projection of the connecting vector onto this direction, hence denominator \(|\vec{b_1} \times \vec{b_2}|\). For parallel lines, both lines share the same direction \(\vec{b}\); the perpendicular direction is any vector perpendicular to \(\vec{b}\). The distance is \(|\vec{b} \ti
+D5 Q: A student computes the shortest distance between two skew lines and gets a negative value. They argue that distance can be negative if the lines are oriented in opposite directions. Evaluate this claim and explain the error. [IN-SCOPE-REWRITE]
+D5 A: Distance is a scalar magnitude, always non-negative. The formula includes absolute value: \(d = \frac{|(\vec{b_1} \times \vec{b_2}) \cdot (\vec{a_2} - \vec{a_1})|}{|\vec{b_1} \times \vec{b_2}|}\). The numerator without absolute value gives the signed scalar projection, which can be negative depending on the orientation of \(\vec{a_2} - \vec{a_1}\) relative to \(\vec{b_1} \times \vec{b_2}\). The student forgot the abs
+D6 Q: Create a real-world problem (Indian context) where finding the shortest distance between two skew lines is necessary. Define the lines using coordinates of two points each, and set up the vector equations. Do not solve.
+D6 A: Example: Two metro rail tracks in Delhi run as skew lines. Track A passes through points \(A_1(100, 200, 0)\) and \(A_2(150, 250, 50)\) (coordinates in meters). Track B passes through \(B_1(120, 180, 10)\) and \(B_2(170, 230, 60)\). Find the minimum clearance between the tracks. Vector equations: \(\vec{r} = \vec{a_1} + \lambda \vec{b_1}\) with \(\vec{a_1} = 100\hat{i}+200\hat{j}\), \(\vec{b_1} = 50\hat{i}+50\hat{j}+
+
+VETTED-DIAG C12_MATH_SP26_Q08 (fit 1.00, src c12_math_specimen_2026.marker)
+  Q: If f(x) = kx^2 + 7x - 4 and f'(5) = 97, then what is the value of k? (a) -4 (b) 0 (c) 4 (d) 9
+  A: (d) 9
+VETTED-DIAG C12_MATH_CFQ_Q15 (fit 0.67, src c12_math_cfq.marker)
+  Q: [Vectors] The value of i_hat . (k_hat x j_hat) + j_hat . (i_hat x k_hat) + k_hat . (i_hat x j_hat) is: (a) -3 (b) -2 (c) -1 (d) 0
+  A: (c) -1
+VETTED-DIAG cfq_5_2 (fit 0.60, src c12_maths_cfq_diagnostics.marker)
+  Q: Find a unit vector perpendicular to both a = i + j and b = j + k.
+  A: a x b = |i j k; 1 1 0; 0 1 1| = i(1-0) - j(1-0) + k(1-0) = i - j + k. |a x b| = sqrt3. Unit vector = (i - j + k)/sqrt3.
+VETTED-MIS misconception_11 (fit 0.50)
+  M: Expanded form of 4,28,365 is 4 + 2 + 8 + 3 + 6 + 5.
+  C: 4,28,365 = 4 x 100000 + 2 x 10000 + 8 x 1000 + 3 x 100 + 6 x 10 + 5 x 1 = 400000 + 20000 + 8000 + 300 + 60 + 5.
+VETTED-MIS misconception_8 (fit 0.27)
+  M: A line segment can be extended on both sides, so it is really a line.
+  C: A line segment is the part of a line between two endpoints. It has a definite length. If we extend it beyond the endpoints, we are thinking of the whole line, not the segment.
+VETTED-MIS PP_C12_2023_042 (fit 0.26)
+  M: Candidates made errors when finding the direction ratios of a line perpendicular to two given lines by applying the perpendicularity condition, i.e., failing to correctly compute the cross product of the two direction vectors.
+  C: The direction vector of a line perpendicular to two lines with direction vectors b_1 and b_2 is b = b_1 x b_2 (cross product). Compute the determinant correctly to obtain the direction ratios.
+### NODE c12_math_cbse_11_005  class=12 sub=math ch=11 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: The shortest distance between two parallel lines in three-dimensional space is the length of the perpendicular segment drawn from any point on one line to the other line. Since parallel lines are coplanar, this perpendicular distance is constant for all points on either line.
+WALKTHROUGH: Imagine two railway tracks running parallel in 3D space — one at ground level, another on an elevated bridge. You need the minimum length of a ladder that can bridge from a point on the lower track perpendicularly to the upper track. Start by checking if the lines are truly parallel: compare their direction ratios (a₁:b₁:c₁) and (a₂:b₂:c₂). If proportional, they're parallel. Pick any point A on line 1 (from its position vector a₁) and any point B on line 2 (from a₂). The vector AB = a₂ - a₁. The direction vector of both lines is b. The perpendicular distance is the component of AB perpendicular to b, found using cross product: d = |AB × b| / |b|. This connects to Class 11's 2D parallel line distance formula (|c₁-c₂|/√(a²+b²)) but generalises to 3D using vectors.
+D1 Q: Write the formula for the shortest distance between two parallel lines given in vector form as r = a₁ + λb and r = a₂ + μb. Define each symbol.
+D1 A: Correct answer: d = |(a₂ - a₁) × b| / |b|, where a₁ and a₂ are position vectors of points on line 1 and line 2 respectively, and b is the common direction vector of both parallel lines. The numerator is the magnitude of the cross product of (a₂ - a₁) with b; the denominator is the magnitude of b. A wrong answer like d = |(a₂ - a₁) · b| / |b| reveals the student confuses cross product (perpendicular component) with do
+D2 Q: Two lines are given: L₁: r = (2î + 3ĵ - k̂) + λ(î - 2ĵ + 2k̂) and L₂: r = (4î + ĵ + 3k̂) + μ(2î - 4ĵ + 4k̂). Without calculating the distance, explain how you would verify these lines are parallel before applying the distance formula.
+D2 A: Correct answer: Compare direction vectors b₁ = î - 2ĵ + 2k̂ and b₂ = 2î - 4ĵ + 4k̂. Since b₂ = 2b₁, the direction ratios are proportional (1:2 = -2:-4 = 2:4), confirming the lines are parallel. A wrong answer like "check if they don't intersect" reveals the student doesn't know parallel lines in 3D are defined by proportional direction ratios, not by non-intersection (skew lines also don't intersect). Another error: 
+D3 Q: Find the shortest distance between the parallel lines:
+L₁: r = (î + 2ĵ - k̂) + λ(2î + 3ĵ + 6k̂)
+L₂: r = (3î - ĵ + 2k̂) + μ(4î + 6ĵ + 12k̂)
+D3 A: Step 1: Identify a₁ = î + 2ĵ - k̂, a₂ = 3î - ĵ + 2k̂.
+Step 2: Check direction vectors: b₁ = 2î + 3ĵ + 6k̂, b₂ = 4î + 6ĵ + 12k̂ = 2b₁ → parallel confirmed.
+Step 3: Use common direction b = 2î + 3ĵ + 6k̂ (or b₂, magnitude scales same).
+Step 4: Compute a₂ - a₁ = (3-1)î + (-1-2)ĵ + (2+1)k̂ = 2î - 3ĵ + 3k̂.
+Step 5: Cross product (a₂ - a₁) × b = |î ĵ k̂; 2 -3 3; 2 3 6| = î(-18-9) - ĵ(12-6) + k̂(6+6) = -27î - 6ĵ + 12k̂.
+Ste
+D4 Q: A student solves a parallel line distance problem and gets d = 0. They claim the lines are coincident. Is this necessarily true? Justify your answer with a counterexample or proof.
+D4 A: Correct answer: Not necessarily. d = 0 means |(a₂ - a₁) × b| = 0, so (a₂ - a₁) is parallel to b. This means the vector connecting the chosen points lies along the direction of the lines — i.e., the points are collinear with the line direction. The lines could be coincident (infinitely many common points) OR they could be distinct parallel lines where the specific points a₁ and a₂ happen to lie on a line parallel to b
+D5 Q: Evaluate this student's solution:
+Problem: Distance between lines (x-1)/2 = (y+2)/3 = (z-3)/6 and (x-4)/4 = (y-1)/6 = (z+1)/12.
+Student's steps:
+1. Direction ratios: 2,3,6 and 4,6,12 → parallel.
+2. Point on L₁: (1, -2, 3), Point on L₂: (4, 1, -1).
+3. a₂ - a₁ = (3, 3, -4).
+4. b = (2, 3, 6).
+5. Cross product = (3,3,-4) ×
+D5 A: The student's answer is incorrect. The error is in Step 5: cross product calculation.
+Correct cross product: (3,3,-4) × (2,3,6) = î(3·6 - (-4)·3) - ĵ(3·6 - (-4)·2) + k̂(3·3 - 3·2) = î(18+12) - ĵ(18+8) + k̂(9-6) = 30î - 26ĵ + 3k̂.
+Wait, that matches the student's cross product. Let me recalculate carefully:
+|i j k|
+|3 3 -4|
+|2 3 6|
+= i(3·6 - (-4)·3) - j(3·6 - (-4)·2) + k(3·3 - 3·2)
+= i(18 + 12) - j(18 + 8) + k(9 - 6)
+
+D6 Q: Create a real-world problem (Indian context) where finding the shortest distance between two parallel lines in 3D is necessary. Define the lines with specific coordinates and ask for the distance. The problem must involve a practical scenario like construction, piping, or cable laying. [IN-SCOPE-REWRITE]
+D6 A: Expected answer: A problem like: "Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres. Pipeline B passes through (0, 3, 2) and has the same direction as Pipeline A. Find the minimum length of a connecting pipe perpendicular to both pipelines." 
+Good answer criteria: (1) Correctly extracts direction ratios from given points. (2) Writes vector/Cartesia
+
+VETTED-DIAG cfq_5_2 (fit 0.60, src c12_maths_cfq_diagnostics.marker)
+  Q: Find a unit vector perpendicular to both a = i + j and b = j + k.
+  A: a x b = |i j k; 1 1 0; 0 1 1| = i(1-0) - j(1-0) + k(1-0) = i - j + k. |a x b| = sqrt3. Unit vector = (i - j + k)/sqrt3.
+VETTED-DIAG C12_MATH_CFQ_Q61 (fit 0.60, src c12_math_cfq.marker)
+  Q: [Vectors] If |a| = 1, |b| = 2, |c| = 3 and a + b + c = 0, then verify a, b, c are NOT mutually perpendicular.
+  A: a.b + b.c + c.a != 0. Hence a, b, c are not mutually perpendicular.
+VETTED-DIAG C12_MATH_SP26_Q52 (fit 0.60, src c12_math_specimen_2026.marker)
+  Q: If the direction cosines of a line are <1/c, 1/c, 1/c> then: (a) c > 0 (b) 0 < c < 1 (c) c = +/- sqrt(3) (d) c > 2
+  A: (c) c = +/- sqrt(3). Using l^2 + m^2 + n^2 = 1: 1/c^2 + 1/c^2 + 1/c^2 = 1 => 3/c^2 = 1 => c^2 = 3 => c = +/- sqrt(3).
+VETTED-MIS misconception_14 (fit 0.33)
+  M: If two lines cross once, they can still be parallel after the crossing point.
+  C: Parallel lines never intersect. A single crossing proves the lines are not parallel.
+VETTED-MIS misconception_12 (fit 0.29)
+  M: When reflecting a point across a line, the mirror line is the perpendicular bisector of the segment joining the point and its image.
+  C: For a point P and its reflection P' across a line l, the segment PP' is perpendicular to l and l bisects PP'. So P and P' are equidistant from l along the perpendicular.
+VETTED-MIS misconception_5 (fit 0.27)
+  M: Parallel lines are lines that look the same length and are drawn straight.
+  C: Parallel lines never intersect and the gap between them stays the same everywhere. Length does not decide whether lines are parallel.

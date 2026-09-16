@@ -634,3 +634,30 @@ if __name__ == "__main__":
     for r in batch.results:
         status = "✅" if r.correct else "❌"
         print(f"  {status} [{r.node_id}] Your answer: {r.user_answer!r}")
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Verify a c5 CS answer via CS5Solver._dispatch / solve_batch.
+    q must be a dict: {question_text, device, gen_number, ...} per qtype."""
+    params = params or {}
+    s = CS5Solver()
+    if "questions" in params:
+        r = s.solve_batch(params["questions"])
+    else:
+        q = params.get("question") if isinstance(params.get("question"), dict) else {
+            "question_text": params.get("question", ""),
+            "device": params.get("device", ""),
+            "gen_number": params.get("gen_number", params.get("gen", 1)),
+            "correct_order": params.get("correct_order", []),
+            "user_ordered": params.get("user_ordered", []),
+            "component_hint": params.get("component_hint", ""),
+        }
+        r = s._dispatch(params.get("qtype", "name_devices"), q,
+                        params.get("user_answer", params.get("answer", "")))
+    return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": str(r)})
+
+def check_answer(user_answer: str = "", **kw):
+    return solve(params=dict(kw, user_answer=user_answer))
+
+SOLVER_REGISTRY = {"c5_cs_solve": solve, "c5_cs_check": check_answer}
+NODE_MAP = {"c5_cs_001": "c5_cs_solve", "c5_cs_002": "c5_cs_solve", "c5_cs_003": "c5_cs_solve"}

@@ -72,6 +72,7 @@ try:
                        'PracticeSession', 'TutorSession', 'DiagnosticResult', 'SolverExecution',
                        'TimestampMixin', 'Question', 'Class', 'ClassEnrollment',
                        'Worksheet', 'Homework', 'HomeworkQuestion', 'HomeworkSubmission',
+                       'TutorStudentState',
                        'EnrichmentContent', 'Subject', 'Node', 'Exam', 'ExamSubmission'):
             if hasattr(_db_mod, _name):
                 globals()[_name] = getattr(_db_mod, _name)

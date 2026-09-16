@@ -1,0 +1,47 @@
+{
+ "c11_bio_cbse_10_002": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps in a pulse-chase experiment that identifies which cultured cells are in S phase.",
+    "a": "The protocol runs: (1) Pulse the culture with radioactive thymidine for a short window (2) Replace it with excess unlabelled thymidine for the chase (3) Fix cells at intervals and prepare autoradiographs (4) Count nuclei with silver grains over chromatin as S phase and compute the labelling index. A wrong answer that labels with a non-DNA precursor, or skips the chase, shows the student has missed that only cells replicating DNA take up thymidine, which is what makes the pulse S-phase specific."
+   }
+  },
+  "appends": []
+ },
+ "c11_bio_cbse_10_005": {
+  "rewrites": {
+   "4": {
+    "q": "Trace the correct sequence of reasoning that contrasts mitosis in human skin with mitosis in a honeybee drone.",
+    "a": "The contrast runs: (1) Human skin cells arise from diploid somatic divisions (2) The drone develops from an unfertilised haploid egg (3) Mitosis in the drone's tissues is therefore haploid acting on haploid (4) Mitosis itself preserves whatever ploidy the dividing cell carries, diploid or haploid. A wrong answer that insists mitosis only occurs in diploid cells shows the student has missed that mitosis is equational, conserving the starting chromosome number in both cases."
+   }
+  },
+  "appends": []
+ },
+ "c11_bio_cbse_10_008": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps in a Drosophila test-cross that measures recombination between vestigial wings and black body.",
+    "a": "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as parental wild-type, vestigial black or recombinant classes (4) Compute the recombination frequency as recombinants over total times 100. A wrong answer that uses unlinked genes or omits the test-cross shows the student has missed that measurable recombination needs heterozygous alleles revealed against a homozygous recessive parent."
+   }
+  },
+  "appends": []
+ },
+ "c11_bio_cbse_11_001": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps in the prism-and-bacteria experiment that shows where photosynthesis is maximal.",
+    "a": "The experiment runs: (1) Pass white light through a prism to spread a spectrum over a filament of the alga (2) Suspend aerobic bacteria in the drop with the alga (3) Wait and observe where the bacteria accumulate most densely (4) Read the dense clusters in the blue and red regions as the zones of highest oxygen evolution and photosynthesis. A wrong answer that expects bacteria evenly everywhere shows the student has missed that bacteria track oxygen, making them living indicators of the photosynthetic rate across wavelengths."
+   }
+  },
+  "appends": []
+ },
+ "c11_bio_cbse_13_001": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of setup steps for the experiment testing water, oxygen and temperature as conditions for moong seed growth.",
+    "a": "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water, boil out oxygen, or shift temperature in the test groups (4) Measure radicle length and fresh weight daily against the control. A wrong answer that runs the test groups without a control shows the student has missed that each condition must be isolated by comparison with a normally growing set."
+   }
+  },
+  "appends": []
+ }
+}

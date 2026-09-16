@@ -1,0 +1,2803 @@
+{
+ "c10_bio_cbse_02_009": {
+  "file": "c10_bio_cbse_02_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 9,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c10_bio_cbse_03_005": {
+  "file": "c10_bio_cbse_03_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 5,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c10_chem_cbse_01_002": {
+  "file": "c10_chem_cbse_01_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 2,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_chem_cbse_01_003": {
+  "file": "c10_chem_cbse_01_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c10_civ_cbse_03_003": {
+  "file": "c10_civ_cbse_03_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_engl_cbse_06_006": {
+  "file": "c10_engl_cbse_06_006.md",
+  "verdict": "MISSING",
+  "chapter": 6,
+  "node_num": 6,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c10_geo_cbse_01_008": {
+  "file": "c10_geo_cbse_01_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 8,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c10_geo_cbse_04_009": {
+  "file": "c10_geo_cbse_04_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 9,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_geo_cbse_04_010": {
+  "file": "c10_geo_cbse_04_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 10,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_hist_cbse_01_002": {
+  "file": "c10_hist_cbse_01_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 2,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c10_hist_cbse_01_005": {
+  "file": "c10_hist_cbse_01_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 5,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c10_hist_cbse_01_008": {
+  "file": "c10_hist_cbse_01_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 8,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c10_math_cbse_01_005": {
+  "file": "c10_math_cbse_01_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 5,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_math_cbse_01_008": {
+  "file": "c10_math_cbse_01_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 8,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_math_cbse_03_012": {
+  "file": "c10_math_cbse_03_012.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 12,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_math_cbse_05_011": {
+  "file": "c10_math_cbse_05_011.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 11,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_math_cbse_12_003": {
+  "file": "c10_math_cbse_12_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 12,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c10_math_cbse_14_007": {
+  "file": "c10_math_cbse_14_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 14,
+  "node_num": 7,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_acc_cbse_01_003": {
+  "file": "c11_acc_cbse_01_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 3,
+  "rewrite_indices": [
+   0
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_acc_cbse_01_005": {
+  "file": "c11_acc_cbse_01_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 5,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_acc_cbse_04_003": {
+  "file": "c11_acc_cbse_04_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c11_acc_cbse_07_012": {
+  "file": "c11_acc_cbse_07_012.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 12,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_acc_cbse_08_001": {
+  "file": "c11_acc_cbse_08_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 8,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_acc_cbse_08_008": {
+  "file": "c11_acc_cbse_08_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 8,
+  "node_num": 8,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_acc_cbse_09_009": {
+  "file": "c11_acc_cbse_09_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 9,
+  "rewrite_indices": [
+   4,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_bio_cbse_10_002": {
+  "file": "c11_bio_cbse_10_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 2,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_bio_cbse_10_005": {
+  "file": "c11_bio_cbse_10_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 5,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_bio_cbse_10_008": {
+  "file": "c11_bio_cbse_10_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 8,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_bio_cbse_11_001": {
+  "file": "c11_bio_cbse_11_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_bio_cbse_13_001": {
+  "file": "c11_bio_cbse_13_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 13,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_bio_cbse_13_008": {
+  "file": "c11_bio_cbse_13_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 13,
+  "node_num": 8,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c11_biotech_cbse_01_005": {
+  "file": "c11_biotech_cbse_01_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 5,
+  "rewrite_indices": [
+   3,
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_biotech_cbse_01_006": {
+  "file": "c11_biotech_cbse_01_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 6,
+  "rewrite_indices": [
+   3,
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_biotech_cbse_01_011": {
+  "file": "c11_biotech_cbse_01_011.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 11,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_biotech_cbse_04_002": {
+  "file": "c11_biotech_cbse_04_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 2,
+  "rewrite_indices": [
+   2,
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_biotech_cbse_10_008": {
+  "file": "c11_biotech_cbse_10_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 8,
+  "rewrite_indices": [
+   3,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_biotech_cbse_11_008": {
+  "file": "c11_biotech_cbse_11_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 8,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_bs_cbse_02_001": {
+  "file": "c11_bs_cbse_02_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 1,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_bs_cbse_02_007": {
+  "file": "c11_bs_cbse_02_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 7,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_bs_cbse_02_010": {
+  "file": "c11_bs_cbse_02_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 10,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_bs_cbse_07_001": {
+  "file": "c11_bs_cbse_07_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 1,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_bs_cbse_10_008": {
+  "file": "c11_bs_cbse_10_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 8,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_bs_cbse_10_009": {
+  "file": "c11_bs_cbse_10_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 9,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_chem_cbse_02_017": {
+  "file": "c11_chem_cbse_02_017.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 17,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_chem_cbse_04_012": {
+  "file": "c11_chem_cbse_04_012.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 12,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_chem_cbse_07_001": {
+  "file": "c11_chem_cbse_07_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 1,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_chem_cbse_07_002": {
+  "file": "c11_chem_cbse_07_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 2,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_chem_cbse_07_011": {
+  "file": "c11_chem_cbse_07_011.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 11,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_cs_cbse_11_010": {
+  "file": "c11_cs_cbse_11_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 10,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_eco_cbse_02_006": {
+  "file": "c11_eco_cbse_02_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 6,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_geo_cbse_03_008": {
+  "file": "c11_geo_cbse_03_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 8,
+  "rewrite_indices": [
+   3,
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c11_geo_cbse_03_009": {
+  "file": "c11_geo_cbse_03_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 9,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c11_geo_cbse_04_002": {
+  "file": "c11_geo_cbse_04_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 2,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_geo_cbse_04_010": {
+  "file": "c11_geo_cbse_04_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 10,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_geo_cbse_04_011": {
+  "file": "c11_geo_cbse_04_011.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 11,
+  "rewrite_indices": [
+   0
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_geo_cbse_07_004": {
+  "file": "c11_geo_cbse_07_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 4,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_geo_cbse_20_001": {
+  "file": "c11_geo_cbse_20_001.md",
+  "verdict": "MISSING",
+  "chapter": 20,
+  "node_num": 1,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c11_geo_cbse_23_009": {
+  "file": "c11_geo_cbse_23_009.md",
+  "verdict": "MISSING",
+  "chapter": 23,
+  "node_num": 9,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 3 for MISSING)"
+ },
+ "c11_hs_cbse_03_005": {
+  "file": "c11_hs_cbse_03_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 5,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c11_hs_cbse_03_011": {
+  "file": "c11_hs_cbse_03_011.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 11,
+  "rewrite_indices": [
+   0,
+   2,
+   3,
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c11_hs_cbse_07_006": {
+  "file": "c11_hs_cbse_07_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 6,
+  "rewrite_indices": [
+   2,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_hs_cbse_07_008": {
+  "file": "c11_hs_cbse_07_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 8,
+  "rewrite_indices": [
+   3,
+   4,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_math_cbse_01_004": {
+  "file": "c11_math_cbse_01_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_math_cbse_01_012": {
+  "file": "c11_math_cbse_01_012.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 12,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_math_cbse_01_014": {
+  "file": "c11_math_cbse_01_014.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 14,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c11_math_cbse_06_007": {
+  "file": "c11_math_cbse_06_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 7,
+  "rewrite_indices": [
+   2,
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c11_math_cbse_06_008": {
+  "file": "c11_math_cbse_06_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 8,
+  "rewrite_indices": [
+   0
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c11_math_cbse_09_003": {
+  "file": "c11_math_cbse_09_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 3,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_math_cbse_10_002": {
+  "file": "c11_math_cbse_10_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 2,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_03_012": {
+  "file": "c11_phy_cbse_03_012.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 12,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_04_001": {
+  "file": "c11_phy_cbse_04_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c11_phy_cbse_04_006": {
+  "file": "c11_phy_cbse_04_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 6,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_05_004": {
+  "file": "c11_phy_cbse_05_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_07_001": {
+  "file": "c11_phy_cbse_07_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_11_004": {
+  "file": "c11_phy_cbse_11_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c11_phy_cbse_11_010": {
+  "file": "c11_phy_cbse_11_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 10,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_12_007": {
+  "file": "c11_phy_cbse_12_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 12,
+  "node_num": 7,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_12_009": {
+  "file": "c11_phy_cbse_12_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 12,
+  "node_num": 9,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_13_001": {
+  "file": "c11_phy_cbse_13_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 13,
+  "node_num": 1,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_phy_cbse_13_008": {
+  "file": "c11_phy_cbse_13_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 13,
+  "node_num": 8,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_ps_cbse_04_006": {
+  "file": "c11_ps_cbse_04_006.md",
+  "verdict": "MISSING",
+  "chapter": 4,
+  "node_num": 6,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 3 for MISSING)"
+ },
+ "c11_psy_cbse_01_005": {
+  "file": "c11_psy_cbse_01_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 5,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_psy_cbse_01_008": {
+  "file": "c11_psy_cbse_01_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 8,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_psy_cbse_06_008": {
+  "file": "c11_psy_cbse_06_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 8,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_psy_cbse_06_009": {
+  "file": "c11_psy_cbse_06_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 9,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_psy_cbse_06_010": {
+  "file": "c11_psy_cbse_06_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 10,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c11_soc_cbse_01_003": {
+  "file": "c11_soc_cbse_01_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_soc_cbse_01_005": {
+  "file": "c11_soc_cbse_01_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 5,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_soc_cbse_05_006": {
+  "file": "c11_soc_cbse_05_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 6,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_soc_cbse_09_006": {
+  "file": "c11_soc_cbse_09_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 6,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_soc_cbse_09_011": {
+  "file": "c11_soc_cbse_09_011.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 11,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_stat_cbse_06_001": {
+  "file": "c11_stat_cbse_06_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 1,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c11_stat_cbse_08_007": {
+  "file": "c11_stat_cbse_08_007.md",
+  "verdict": "MISSING",
+  "chapter": 8,
+  "node_num": 7,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_acc_cbse_05_002": {
+  "file": "c12_acc_cbse_05_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 2,
+  "rewrite_indices": [
+   0
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_acc_cbse_05_004": {
+  "file": "c12_acc_cbse_05_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 4,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_acc_cbse_08_008": {
+  "file": "c12_acc_cbse_08_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 8,
+  "node_num": 8,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_acc_cbse_08_009": {
+  "file": "c12_acc_cbse_08_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 8,
+  "node_num": 9,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_acc_cbse_09_002": {
+  "file": "c12_acc_cbse_09_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 2,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bio_cbse_03_008": {
+  "file": "c12_bio_cbse_03_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 8,
+  "rewrite_indices": [
+   2,
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bio_cbse_06_006": {
+  "file": "c12_bio_cbse_06_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 6,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_bio_cbse_06_007": {
+  "file": "c12_bio_cbse_06_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 7,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_bio_cbse_06_009": {
+  "file": "c12_bio_cbse_06_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 9,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_biotech_cbse_03_002": {
+  "file": "c12_biotech_cbse_03_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 2,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_biotech_cbse_08_009": {
+  "file": "c12_biotech_cbse_08_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 8,
+  "node_num": 9,
+  "rewrite_indices": [
+   1,
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_biotech_cbse_11_002": {
+  "file": "c12_biotech_cbse_11_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 2,
+  "rewrite_indices": [
+   3,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bs_cbse_03_007": {
+  "file": "c12_bs_cbse_03_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 7,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bs_cbse_04_007": {
+  "file": "c12_bs_cbse_04_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 7,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bs_cbse_07_008": {
+  "file": "c12_bs_cbse_07_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 8,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bs_cbse_09_001": {
+  "file": "c12_bs_cbse_09_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 1,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_bs_cbse_09_003": {
+  "file": "c12_bs_cbse_09_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 3,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_bs_cbse_09_006": {
+  "file": "c12_bs_cbse_09_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 6,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bs_cbse_09_007": {
+  "file": "c12_bs_cbse_09_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 7,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_bs_cbse_10_009": {
+  "file": "c12_bs_cbse_10_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 9,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bs_cbse_11_001": {
+  "file": "c12_bs_cbse_11_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 1,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_bs_cbse_11_011": {
+  "file": "c12_bs_cbse_11_011.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 11,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_ca_cbse_02_001": {
+  "file": "c12_ca_cbse_02_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_ca_cbse_02_004": {
+  "file": "c12_ca_cbse_02_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_ca_cbse_02_005": {
+  "file": "c12_ca_cbse_02_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 5,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_chem_cbse_01_001": {
+  "file": "c12_chem_cbse_01_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_chem_cbse_01_002": {
+  "file": "c12_chem_cbse_01_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 2,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_chem_cbse_01_010": {
+  "file": "c12_chem_cbse_01_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 10,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_chem_cbse_05_002": {
+  "file": "c12_chem_cbse_05_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 2,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_chem_cbse_05_009": {
+  "file": "c12_chem_cbse_05_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 9,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c12_chem_cbse_09_006": {
+  "file": "c12_chem_cbse_09_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 6,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c12_cs_cbse_08_004": {
+  "file": "c12_cs_cbse_08_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 8,
+  "node_num": 4,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_eco_cbse_05_003": {
+  "file": "c12_eco_cbse_05_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 3,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_eco_cbse_10_001": {
+  "file": "c12_eco_cbse_10_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 1,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_eco_cbse_11_007": {
+  "file": "c12_eco_cbse_11_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 7,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_eco_cbse_11_010": {
+  "file": "c12_eco_cbse_11_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 10,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_eng_f_cbse_08_009": {
+  "file": "c12_eng_f_cbse_08_009.md",
+  "verdict": "MISSING",
+  "chapter": 8,
+  "node_num": 9,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_eng_k_cbse_03_014": {
+  "file": "c12_eng_k_cbse_03_014.md",
+  "verdict": "MISSING",
+  "chapter": 3,
+  "node_num": 14,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_eng_k_cbse_05_014": {
+  "file": "c12_eng_k_cbse_05_014.md",
+  "verdict": "MISSING",
+  "chapter": 5,
+  "node_num": 14,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_eng_k_cbse_16_005": {
+  "file": "c12_eng_k_cbse_16_005.md",
+  "verdict": "MISSING",
+  "chapter": 16,
+  "node_num": 5,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_geo_cbse_02_006": {
+  "file": "c12_geo_cbse_02_006.md",
+  "verdict": "MISSING",
+  "chapter": 2,
+  "node_num": 6,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 1 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_geo_cbse_11_012": {
+  "file": "c12_geo_cbse_11_012.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 12,
+  "rewrite_indices": [
+   1,
+   4,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c12_geo_cbse_17_004": {
+  "file": "c12_geo_cbse_17_004.md",
+  "verdict": "MISSING",
+  "chapter": 17,
+  "node_num": 4,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 1 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_geo_cbse_19_011": {
+  "file": "c12_geo_cbse_19_011.md",
+  "verdict": "MISSING",
+  "chapter": 19,
+  "node_num": 11,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 1 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_geo_cbse_21_002": {
+  "file": "c12_geo_cbse_21_002.md",
+  "verdict": "MISSING",
+  "chapter": 21,
+  "node_num": 2,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_hin_ar_cbse_12_015": {
+  "file": "c12_hin_ar_cbse_12_015.md",
+  "verdict": "MISSING",
+  "chapter": 12,
+  "node_num": 15,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_hin_ar_cbse_13_006": {
+  "file": "c12_hin_ar_cbse_13_006.md",
+  "verdict": "MISSING",
+  "chapter": 13,
+  "node_num": 6,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_hin_ar_cbse_13_013": {
+  "file": "c12_hin_ar_cbse_13_013.md",
+  "verdict": "MISSING",
+  "chapter": 13,
+  "node_num": 13,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_hs_cbse_01_010": {
+  "file": "c12_hs_cbse_01_010.md",
+  "verdict": "MISSING",
+  "chapter": 1,
+  "node_num": 10,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c12_hs_cbse_02_005": {
+  "file": "c12_hs_cbse_02_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 5,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_math_cbse_01_009": {
+  "file": "c12_math_cbse_01_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 9,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_math_cbse_02_007": {
+  "file": "c12_math_cbse_02_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 7,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_math_cbse_05_013": {
+  "file": "c12_math_cbse_05_013.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 13,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_math_cbse_06_006": {
+  "file": "c12_math_cbse_06_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 6,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_math_cbse_11_004": {
+  "file": "c12_math_cbse_11_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 4,
+  "rewrite_indices": [
+   2,
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_math_cbse_11_005": {
+  "file": "c12_math_cbse_11_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 5,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c12_phy_cbse_02_007": {
+  "file": "c12_phy_cbse_02_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 7,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_phy_cbse_03_002": {
+  "file": "c12_phy_cbse_03_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 2,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c12_phy_cbse_03_004": {
+  "file": "c12_phy_cbse_03_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 4,
+  "rewrite_indices": [
+   1,
+   3,
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c12_phy_cbse_08_004": {
+  "file": "c12_phy_cbse_08_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 8,
+  "node_num": 4,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_phy_cbse_09_003": {
+  "file": "c12_phy_cbse_09_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 3,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_phy_cbse_10_004": {
+  "file": "c12_phy_cbse_10_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 4,
+  "rewrite_indices": [
+   0
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_phy_cbse_10_008": {
+  "file": "c12_phy_cbse_10_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 8,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_phy_cbse_11_006": {
+  "file": "c12_phy_cbse_11_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 11,
+  "node_num": 6,
+  "rewrite_indices": [
+   1,
+   2,
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c12_phy_cbse_12_001": {
+  "file": "c12_phy_cbse_12_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 12,
+  "node_num": 1,
+  "rewrite_indices": [
+   0
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_phy_cbse_13_001": {
+  "file": "c12_phy_cbse_13_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 13,
+  "node_num": 1,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_phy_cbse_13_005": {
+  "file": "c12_phy_cbse_13_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 13,
+  "node_num": 5,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c12_ps_cbse_01_003": {
+  "file": "c12_ps_cbse_01_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_ps_cbse_01_007": {
+  "file": "c12_ps_cbse_01_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 7,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_ps_cbse_01_009": {
+  "file": "c12_ps_cbse_01_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 9,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c12_ps_cbse_09_006": {
+  "file": "c12_ps_cbse_09_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 6,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_ps_cbse_09_009": {
+  "file": "c12_ps_cbse_09_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 9,
+  "node_num": 9,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_ps_cbse_14_006": {
+  "file": "c12_ps_cbse_14_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 14,
+  "node_num": 6,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_psy_cbse_01_001": {
+  "file": "c12_psy_cbse_01_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 1,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_psy_cbse_01_005": {
+  "file": "c12_psy_cbse_01_005.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 5,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_psy_cbse_03_006": {
+  "file": "c12_psy_cbse_03_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 6,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_psy_cbse_05_004": {
+  "file": "c12_psy_cbse_05_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_psy_cbse_05_006": {
+  "file": "c12_psy_cbse_05_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 6,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_psy_cbse_05_007": {
+  "file": "c12_psy_cbse_05_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 7,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_soc_cbse_01_008": {
+  "file": "c12_soc_cbse_01_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 8,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_soc_cbse_05_003": {
+  "file": "c12_soc_cbse_05_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 3,
+  "rewrite_indices": [
+   2,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_soc_cbse_05_007": {
+  "file": "c12_soc_cbse_05_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 7,
+  "rewrite_indices": [
+   2,
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_soc_cbse_12_006": {
+  "file": "c12_soc_cbse_12_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 12,
+  "node_num": 6,
+  "rewrite_indices": [
+   3,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_soc_cbse_15_004": {
+  "file": "c12_soc_cbse_15_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 15,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c12_soc_cbse_15_010": {
+  "file": "c12_soc_cbse_15_010.md",
+  "verdict": "PARTIAL",
+  "chapter": 15,
+  "node_num": 10,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_civ_ch02_006": {
+  "file": "c7_civ_ch02_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 6,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c7_civ_ch02_008": {
+  "file": "c7_civ_ch02_008.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 8,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_hist_ch07_003": {
+  "file": "c7_hist_ch07_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_math_ch03_007": {
+  "file": "c7_math_ch03_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 7,
+  "rewrite_indices": [
+   0
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_math_ch05_004": {
+  "file": "c7_math_ch05_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 4,
+  "rewrite_indices": [
+   2,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c7_math_ch05_006": {
+  "file": "c7_math_ch05_006.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 6,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c7_math_ch07_002": {
+  "file": "c7_math_ch07_002.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 2,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c7_math_ch07_003": {
+  "file": "c7_math_ch07_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 7,
+  "node_num": 3,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_math_ch10_001": {
+  "file": "c7_math_ch10_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 1,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_math_ch10_007": {
+  "file": "c7_math_ch10_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 10,
+  "node_num": 7,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_math_ch15_010": {
+  "file": "c7_math_ch15_010.md",
+  "verdict": "MISSING",
+  "chapter": 15,
+  "node_num": 10,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c7_physics_ch02_004": {
+  "file": "c7_physics_ch02_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_physics_ch02_007": {
+  "file": "c7_physics_ch02_007.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 7,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_physics_ch03_009": {
+  "file": "c7_physics_ch03_009.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 9,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_physics_ch04_001": {
+  "file": "c7_physics_ch04_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 1,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_physics_ch04_003": {
+  "file": "c7_physics_ch04_003.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 3,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c7_physics_ch05_001": {
+  "file": "c7_physics_ch05_001.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 1,
+  "rewrite_indices": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c7_physics_ch05_004": {
+  "file": "c7_physics_ch05_004.md",
+  "verdict": "PARTIAL",
+  "chapter": 5,
+  "node_num": 4,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c8_chem_ch2_3": {
+  "file": "c8_chem_ch2_3.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c8_civ_ch2_10": {
+  "file": "c8_civ_ch2_10.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 10,
+  "rewrite_indices": [
+   4,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c8_civ_ch2_2": {
+  "file": "c8_civ_ch2_2.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 2,
+  "rewrite_indices": [
+   1
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c8_eco_ch3_10": {
+  "file": "c8_eco_ch3_10.md",
+  "verdict": "MISSING",
+  "chapter": 3,
+  "node_num": 10,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 2 usable diagnostics (need 3 for MISSING)"
+ },
+ "c8_hist_ch3_2": {
+  "file": "c8_hist_ch3_2.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 2,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c8_hist_ch3_3": {
+  "file": "c8_hist_ch3_3.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 3,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c8_physics_ch2_11": {
+  "file": "c8_physics_ch2_11.md",
+  "verdict": "MISSING",
+  "chapter": 2,
+  "node_num": 11,
+  "rewrite_indices": [],
+  "append_count": 3,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (1 qualifying nodes < 3)"
+ },
+ "c9_bio_ch4_3": {
+  "file": "c9_bio_ch4_3.md",
+  "verdict": "PARTIAL",
+  "chapter": 4,
+  "node_num": 3,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c9_eco_ch2_5": {
+  "file": "c9_eco_ch2_5.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 5,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c9_geo_ch1_11": {
+  "file": "c9_geo_ch1_11.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 11,
+  "rewrite_indices": [
+   3,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c9_geo_ch1_4": {
+  "file": "c9_geo_ch1_4.md",
+  "verdict": "PARTIAL",
+  "chapter": 1,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c9_math_ch2_10": {
+  "file": "c9_math_ch2_10.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 10,
+  "rewrite_indices": [
+   2
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c9_math_ch2_3": {
+  "file": "c9_math_ch2_3.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 3,
+  "rewrite_indices": [
+   1,
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "chapter cluster too small (2 qualifying nodes < 3)"
+ },
+ "c9_math_ch3_1": {
+  "file": "c9_math_ch3_1.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c9_math_ch3_11": {
+  "file": "c9_math_ch3_11.md",
+  "verdict": "PARTIAL",
+  "chapter": 3,
+  "node_num": 11,
+  "rewrite_indices": [
+   3
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c9_math_ch6_1": {
+  "file": "c9_math_ch6_1.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 1,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c9_math_ch6_11": {
+  "file": "c9_math_ch6_11.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 11,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c9_math_ch6_6": {
+  "file": "c9_math_ch6_6.md",
+  "verdict": "PARTIAL",
+  "chapter": 6,
+  "node_num": 6,
+  "rewrite_indices": [
+   4
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "cluster too thin (3 challenges)"
+ },
+ "c9_physics_ch2_4": {
+  "file": "c9_physics_ch2_4.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 4,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ },
+ "c9_physics_ch2_6": {
+  "file": "c9_physics_ch2_6.md",
+  "verdict": "PARTIAL",
+  "chapter": 2,
+  "node_num": 6,
+  "rewrite_indices": [
+   5
+  ],
+  "append_count": 0,
+  "append_start_index": 7,
+  "diag_count": 6,
+  "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
+ }
+}

@@ -324,7 +324,7 @@ _STANDARD_HUMAN_RIGHTS = [
     {
         "q": "The term of a member of the State Human Rights Commission is:",
         "type": "mcq",
-        "opts": "3 years or until age 70", "5 years or until age 70", "5 years or until age 65", "3 years or until age 65"],
+        "opts": ["3 years or until age 70", "5 years or until age 70", "5 years or until age 65", "3 years or until age 65"],
         "ans": "5 years or until age 70",
         "expl": "A member of the State Human Rights Commission holds office for a term of 5 years or until attaining the age of 70 years, whichever is earlier.",
         "diff": "medium", "bloom": "remember"
@@ -520,7 +520,7 @@ _STANDARD_IP = [
     {
         "q": "The Trade Marks Act, 1999 replaced which earlier Act?",
         "type": "mcq",
-        "opts": "Trade and Merchandise Marks Act, 1958", "Patents Act, 1970", "Designs Act, 1911", "Copyright Act, 1957"],
+        "opts": ["Trade and Merchandise Marks Act, 1958", "Patents Act, 1970", "Designs Act, 1911", "Copyright Act, 1957"],
         "ans": "Trade and Merchandise Marks Act, 1958",
         "expl": "The Trade Marks Act, 1999 replaced the Trade and Merchandise Marks Act, 1958 to comply with TRIPS Agreement requirements.",
         "diff": "medium", "bloom": "remember"
@@ -563,7 +563,7 @@ _STANDARD_IT = [
     {
         "q": "Hacking under the IT Act is covered under:",
         "type": "mcq",
-        "opts": "Section 65", "Section 66", "Section 67", "Section 43"],
+        "opts": ["Section 65", "Section 66", "Section 67", "Section 43"],
         "ans": "Section 66",
         "expl": "Section 66 of the IT Act deals with hacking with the intention to cause wrongful loss or damage, punishable with imprisonment up to 3 years or fine up to Rs 5 lakh.",
         "diff": "easy", "bloom": "remember"
@@ -1313,12 +1313,13 @@ def _comp_il_001(r, idx):
     treaty_topic = r.choice(["double taxation avoidance", "mutual legal assistance in criminal matters",
                              "extradition treaty", "protection of investments",
                              "maritime boundary delimitation"])
-    dispute = r.choice("Country A claims the treaty is invalid due to lack of parliamentary approval. "
-        "Country B argues the treaty is valid under international law. "
-        "Answer:\n"
-        "(a) What are the sources of international law applicable to treaty validity?\n"
-        "(b) What is the doctrine of pacta sunt servanda and how does it apply?\n"
-        "(c) Under Indian law, what is the process for treaty ratification?"
+    q_text = (
+        f"India and {country_b} are parties to negotiations for a {treaty_topic} agreement. "
+        f"During the negotiations, {country_b} claims the treaty is invalid due to lack of parliamentary approval. "
+        f"Answer:\n"
+        f"(a) What are the sources of international law applicable to treaty validity?\n"
+        f"(b) What is the doctrine of pacta sunt servanda and how does it apply?\n"
+        f"(c) Under Indian law, what is the process for treaty ratification?"
     )
     
     answer = (
@@ -1360,8 +1361,8 @@ def _comp_lp_001(r, idx):
     client2 = r.choice(NAMES_F)
     case1 = r.choice(["criminal trial for theft", "divorce proceedings", "property dispute",
                       "corporate merger negotiation", "intellectual property infringement"])
-    case2 = r.choice("the same property dispute but on opposite side", "the same criminal case as prosecution witness",
-        "a related family law matter connected to the same divorce", "a commercial contract dispute involving the same company")
+    case2 = r.choice(["the same property dispute but on opposite side", "the same criminal case as prosecution witness",
+        "a related family law matter connected to the same divorce", "a commercial contract dispute involving the same company"])
     
     q_text = (
         f"Advocate {lawyer} is representing {client1} in {case1}. "
@@ -1387,4 +1388,128 @@ def _comp_lp_001(r, idx):
     )
     steps = [
         "Step 1: Identify the conflict - lawyer already represents client1 and is asked to represent client2 in related/opposite matter",
-        "Step 2: Apply BCI Rules - conflict of interest prohibits accepting opposing
+        "Step 2: Apply BCI Rules - conflict of interest prohibits accepting opposing briefs without informed consent of both clients",
+        "Step 3: Evaluate consequences - disciplinary proceedings before the Bar Council of India for professional misconduct",
+        "Step 4: List possible disciplinary actions - reprimand, suspension, or removal from the roll of advocates",
+        "Step 5: Conclude on the ethical course of action - decline the brief and disclose the conflict"
+    ]
+    verification = (
+        "Verification: Section 49 of the Advocates Act, 1961 empowers the Bar Council of India to make "
+        "professional conduct rules. Chapter II, Part VI of BCI Rules governs standards of professional conduct; "
+        "Section 35 of the Advocates Act provides for disciplinary action including suspension and removal."
+    )
+    return _q(
+        f"c12_lp_comp_{idx:03d}", "long_answer", q_text, None, answer,
+        explanation, "hard", "Legal Profession - Ethics and Accountability",
+        "evaluate", True, steps, verification
+    )
+
+
+# ============================================================
+# COMPETENCY GENERATOR REGISTRY
+# ============================================================
+
+_COMPETENCY_GENERATORS = [
+    _comp_jud_001, _comp_jud_002,
+    _comp_adr_001, _comp_adr_002,
+    _comp_hr_001, _comp_hr_002,
+    _comp_cr_001, _comp_cr_002,
+    _comp_tort_001, _comp_tort_002,
+    _comp_ce_001,
+    _comp_ip_001,
+    _comp_it_001,
+    _comp_il_001,
+    _comp_lp_001,
+]
+
+_STANDARD_BANKS = [
+    _STANDARD_JUDICIARY, _STANDARD_ADR, _STANDARD_HUMAN_RIGHTS,
+    _STANDARD_CRIMES, _STANDARD_TORTS, _STANDARD_COMMERCIAL,
+    _STANDARD_IP, _STANDARD_IT, _STANDARD_LEGAL_PROF,
+    _STANDARD_INTERNATIONAL,
+]
+
+
+def _standard_pool() -> List[Dict[str, Any]]:
+    """Flatten the standard banks into _q-style question dicts."""
+    pool = []
+    for bank_no, bank in enumerate(_STANDARD_BANKS):
+        for i, item in enumerate(bank):
+            pool.append(_q(
+                f"c12_std_b{bank_no:02d}_{i:03d}",
+                item.get("type", "mcq"), item.get("q", ""),
+                item.get("opts"), item.get("ans", ""),
+                item.get("expl", ""), item.get("diff", "medium"),
+                "", item.get("bloom", "remember"), False, [], ""
+            ))
+    return pool
+
+
+def generate_questions(seed=None, count=10, topic=None):
+    """Generate deterministic CISCE Class 12 Legal Studies questions.
+
+    Args:
+        seed: Random seed for reproducibility
+        count: Number of questions (called as fn(seed) returns one)
+        topic: Optional topic filter (matched against question text)
+
+    Returns:
+        List of question dictionaries.
+    """
+    n = 1 if count is None else max(1, int(count))
+    r = _seed_r(seed if seed is not None else 0)
+
+    # Normalised standard bank
+    pool = _standard_pool()
+
+    # Competency questions (mixed in ~50%)
+    comp_count = max(1, n // 2)
+    chosen_comps = []
+    for j in range(comp_count):
+        gen = _COMPETENCY_GENERATORS[(int(seed or 0) + j) % len(_COMPETENCY_GENERATORS)]
+        chosen_comps.append(gen(r, (int(seed or 0) + j) % 999 + 1))
+
+    questions = []
+    used = set()
+    # Interleave competency and standard questions
+    comp_iter = iter(chosen_comps)
+    idx = 0
+    while len(questions) < n:
+        if idx % 2 == 0:
+            q = next(comp_iter, None)
+            if q is None:
+                idx += 1
+                continue
+            key = q["id"]
+            if key in used:
+                q = None
+            else:
+                used.add(key)
+        else:
+            q = pool[r.randrange(len(pool))]
+            q = dict(q)
+            q["id"] = f"{q['id']}_{int(seed or 0)}_{idx}"
+        idx += 1
+        if q is None:
+            continue
+        if topic and topic.lower() not in str(q.get("question", "")).lower() \
+                and topic.lower() not in str(q.get("topic", "")).lower():
+            continue
+        questions.append(q)
+        if len(questions) >= n:
+            break
+    return questions
+
+
+# ============================================================
+# MAIN
+# ============================================================
+
+if __name__ == "__main__":
+    for q in generate_questions(seed=42, count=5):
+        print(f"[{q['id']}] ({q['type']}) {q['question'][:90]}")
+        if q.get("options"):
+            for o in q["options"]:
+                print(f"    {o}")
+        print(f"    Answer: {str(q['answer'])[:80]}")
+        print()

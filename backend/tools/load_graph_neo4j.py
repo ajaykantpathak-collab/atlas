@@ -23,7 +23,14 @@ from collections import Counter
 
 from neo4j import GraphDatabase
 
-MD_DIR = r"C:/Users/Alesha4285/Desktop/enhanced_nodes/md_cache"
+# In-repo copy first (content/md_cache — synced from the Desktop original so
+# the graph is rebuildable on any machine); fall back to the Desktop path.
+_MD_CANDIDATES = [
+    os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                 "..", "..", "content", "md_cache"),
+    r"C:/Users/Alesha4285/Desktop/enhanced_nodes/md_cache",
+]
+MD_DIR = next((p for p in _MD_CANDIDATES if os.path.isdir(p)), _MD_CANDIDATES[0])
 MD_INDEX = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                         "..", "_cache", "enhanced_nodes_index.json")
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",

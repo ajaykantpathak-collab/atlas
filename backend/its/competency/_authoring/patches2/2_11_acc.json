@@ -1,0 +1,60 @@
+{
+ "c11_acc_cbse_01_003": {
+  "rewrites": {
+   "1": {
+    "q": "Name any three ancient civilisations that developed early accounting systems and state the primary economic purpose (taxation, trade, or treasury management) that drove each civilisation's accounting innovation.",
+    "a": "(1) Babylonia recorded trade and detected fraud on clay tablets, (2) Egypt kept treasury records and collected taxes for the state, (3) Greece apportioned public revenue, (4) Rome posted daybooks to monthly ledgers for public finance, (5) China ran sophisticated government accounting, (6) India prescribed detailed state administration in Kautilya's Arthashastra. A wrong answer pairing Egypt with trade-driven recording, listing only one civilisation, or naming modern countries instead of these six shows the student has not grasped the geographic and functional diversity of early accounting origins."
+   }
+  },
+  "appends": []
+ },
+ "c11_acc_cbse_01_005": {
+  "rewrites": {
+   "4": {
+    "q": "Compare and contrast the roles of verifiability and faithfulness as sub-components of reliability. Can information be verifiable but not faithful? Give a concrete example.",
+    "a": "(1) Verifiability demands that independent observers applying the same method reach the same measurement, (2) Faithfulness demands that the measurement actually represents the economic phenomenon it purports to represent, (3) Yes, information can be verifiable without being faithful, (4) Example — obsolete inventory still held at invoice cost is verifiable because auditors agree on the price, yet not faithful to its near-zero realisable value. A wrong answer treating the two as synonyms, or claiming verifiability guarantees faithfulness, reveals a fundamental misunderstanding of the sub-components of reliability."
+   }
+  },
+  "appends": []
+ },
+ "c11_acc_cbse_07_012": {
+  "rewrites": {
+   "5": {
+    "q": "\"Creation of secret reserves within reasonable limits is justifiable on grounds of expediency, prudence and preventing competition.\" Evaluate this statement. Give two arguments FOR and two arguments AGAINST secret reserves from a stakeholder perspective (shareholders, creditors, tax authorities, competitors).",
+    "a": "(1) For prudence — conservative valuation cushions the firm against future uncertainties such as inventory obsolescence, (2) For competition — hidden profits keep rivals from targeting high-margin products, (3) Against shareholders' interest — true profitability stays hidden from the owners who rely on disclosed profits, (4) Against tax and creditor interest — the state loses revenue and understated assets overstate leverage ratios. A one-sided answer that gives only the for-side or only the against-side shows the student cannot evaluate an accounting policy from multiple stakeholder perspectives, a key board exam skill."
+   }
+  },
+  "appends": []
+ },
+ "c11_acc_cbse_08_001": {
+  "rewrites": {
+   "6": {
+    "q": "Design a 10-item \"Capital vs Revenue Classification Challenge\" for your classmates. Include 5 expenditure items and 5 receipt items. At least 3 items must be borderline/deceptive (heavy advertising, legal fees for defending title, government grant for machinery, sale of scrap, renovation of a newly purchased building). Give the correct classification and one-sentence justification for each.",
+    "a": "(1) Renovation of a newly purchased old factory — capital expenditure because it makes the asset usable and raises earning capacity, (2) Annual whitewashing of the factory — revenue expenditure because it only maintains the asset and recurs every year, (3) Heavy advertising campaign for a new product launch — deferred revenue expenditure because the benefit spans about three years and it is written off over them, (4) Legal fees for defending a patent's title — capital expenditure because it protects the intangible asset, (5) Bank loan of one crore — capital receipt because it creates a long-term repayment obligation. A weak answer lines up ten items without any borderline cases, or justifies each item by its amount instead of by the period and nature of the benefit."
+   }
+  },
+  "appends": []
+ },
+ "c11_acc_cbse_08_008": {
+  "rewrites": {
+   "3": {
+    "q": "Classify the following into Current and Non-Current Liabilities as at 31st March 2026 (operating cycle 12 months): a 10% bank loan of ₹5,00,000 taken on 1st April 2022 repayable in five equal annual installments from 31st March 2023; outstanding salaries for March 2026 ₹25,000; bills payable ₹40,000 due on 15th April 2026; and 8% debentures issued 1st April 2024, redeemable on 31st March 2030.",
+    "a": "(1) The loan installment due on 31st March 2027 — a current liability because it falls within the next twelve months, (2) The remaining loan balance after that installment — a non-current liability, (3) Outstanding salaries for March 2026 — a current liability because they are due within a month, (4) Bills payable due on 15th April 2026 — a current liability because maturity is about fifteen days away, (5) 8% debentures redeemable on 31st March 2030 — a non-current liability because redemption is more than twelve months away. A wrong answer that treats the whole bank loan as non-current fails to split off the current portion, and classifying bills payable as non-current because it is a \"bill\" ignores that the maturity date decides classification."
+   }
+  },
+  "appends": []
+ },
+ "c11_acc_cbse_09_009": {
+  "rewrites": {
+   "5": {
+    "q": "A company sends goods on approval frequently. At year-end, 20 such transactions are pending approval. The accountant proposes: \"Instead of reversing each sale individually, let's just reduce Sales by total invoice price and increase Closing Stock by total cost.\" Evaluate this proposal.",
+    "a": "(1) In effect correct — the net impact on the Trading Account and Balance Sheet is identical whether reversals are item-wise or combined, (2) In procedure incomplete — proper accounting still needs individual entries, or a combined entry supported by a schedule, to preserve the audit trail, (3) Customer-wise tracking suffers — without item-wise reversal the firm cannot identify which specific customers still owe approval or return, (4) Reconciliation breaks — the Debtors control account may fail to agree with the subsidiary ledger if sales are reversed only in total. A wrong answer insisting the proposal is flatly wrong because every sale must be reversed separately prioritises form over substance, while calling it perfectly fine with no entries neglects internal control and reconciliation."
+   },
+   "6": {
+    "q": "Create a new adjustment problem (with numbers) involving goods sent on approval where: (a) some goods are approved before year-end, (b) some are returned after year-end, and (c) some are still pending. Provide the additional information note as it would appear in a board exam question.",
+    "a": "(1) Goods approved before year-end need no adjustment because the sale stands confirmed, (2) Goods returned after the year-end also need no adjustment because they were still unapproved on the reporting date, (3) Goods still awaiting approval must have the sale reversed at invoice price and the goods added back to closing stock at cost, (4) The note should state cost and invoice price separately for each category with the relevant dates. A wrong answer that pulls the post-year-end return into the year-end adjustment confuses subsequent events with year-end status."
+   }
+  },
+  "appends": []
+ }
+}

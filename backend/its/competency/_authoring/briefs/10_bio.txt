@@ -1,0 +1,73 @@
+
+### NODE c10_bio_cbse_02_009  class=10 sub=bio ch=2 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: The thyroid gland is a bilobed endocrine gland located in the neck that secretes thyroxine (T4) and triiodothyronine (T3), iodine-containing hormones that regulate the basal metabolic rate (BMR) of lipids, proteins, and carbohydrates in almost all body tissues by increasing oxygen consumption and heat production.
+WALKTHROUGH: Start by asking students to observe a person with a visible swelling in the front of the neck (goitre) — a common sight in iodine-deficient regions like the sub-Himalayan belt. Connect this to their Class 6 knowledge of "The 'Why' Question: Hormones Behind the Changes" where they learned hormones drive growth. Ask: "If this swelling is due to a hormone deficiency, which gland is involved and why does the neck swell?" Guide them to locate the thyroid gland in the neck, explain its need for dietary iodine (link to iodised salt packets in Indian kitchens), and trace how low thyroxine slows down cellular respiration (recall Class 6 "Cellular Respiration: How Cells Extract Energy" and Class 9 "Mitochondria: Powerhouse of the Cell"). Conclude with the key principle: thyroxine acts as the body's metabolic thermostat, setting the pace of energy release from food.
+D1 Q: Name the hormone secreted by the thyroid gland that regulates basal metabolic rate and state the mineral element essential for its synthesis.
+D1 A: The hormone is thyroxine (T4) or triiodothyronine (T3); the essential mineral is iodine. A wrong answer (e.g., "insulin" or "iron") reveals the student cannot distinguish between endocrine glands and their specific hormones, or confuses the mineral requirement for thyroid hormone (iodine) with that for haemoglobin (iron).
+D2 Q: Explain why a person living in the sub-Himalayan region who does not consume iodised salt develops a swelling in the neck (goitre), linking the lack of iodine to the hormone feedback loop.
+D2 A: Low dietary iodine → thyroid cannot synthesise thyroxine → low blood thyroxine levels → pituitary senses this and secretes excess TSH → TSH overstimulates thyroid gland → thyroid hypertrophies (enlarges) causing goitre. A wrong answer that stops at "low iodine causes goitre" without mentioning TSH overstimulation reveals the student does not understand the negative feedback mechanism (taught in c10_bio_cbse_02_008) a
+D3 Q: A 10-year-old child shows stunted growth, mental retardation, and a puffy face. The doctor suspects a thyroid disorder. Predict whether this is hypothyroidism or hyperthyroidism, and name the specific condition. Justify your answer using the role of thyroxine in development.
+D3 A: Hypothyroidism; condition is cretinism. Thyroxine is essential for normal growth of bones and brain development in children. Deficiency during early years causes irreversible stunting and mental retardation. A wrong answer of "hyperthyroidism" or "goitre" shows the student confuses the general term (goitre) with the specific developmental disorder (cretinism) and does not recall that thyroxine deficiency in children 
+D4 Q: Compare the metabolic effects of thyroxine on lipids, proteins, and carbohydrates in a table. Then analyse why a hyperthyroid patient loses weight despite increased appetite.
+D4 A: Thyroxine increases: lipolysis (fat breakdown), protein catabolism (breakdown), and carbohydrate oxidation/glucose absorption. In hyperthyroidism, BMR is excessively high → rapid catabolism of fats, proteins, and carbs → high heat production and energy expenditure exceeds caloric intake even with increased appetite → weight loss. A wrong answer that only says "metabolism increases" without specifying catabolic direct
+D5 Q: Evaluate this statement: "Taking extra iodine supplements will always cure goitre and restore normal metabolism." Identify the error and explain the conditions under which iodine supplementation works or fails.
+D5 A: The statement is false. Iodine supplementation only works if goitre is caused by dietary iodine deficiency (endemic goitre) and the thyroid gland is still functional. It fails in: (1) Autoimmune thyroiditis (Hashimoto's) where gland is destroyed, (2) Genetic defects in hormone synthesis (dyshormonogenic goitre), (3) Pituitary/hypothalamic failure (secondary hypothyroidism), (4) Goitrogens in diet (e.g., cassava, cabb
+D6 Q: Design a simple public health survey for your village to assess iodine deficiency risk. List 3 measurable indicators you would check, the method for each, and how you would link the data to thyroid health. [IN-SCOPE-REWRITE]
+D6 A: Indicators: (1) Urinary iodine concentration (UIE) — collect spot urine samples, measure iodine via titration; median <100 µg/L indicates deficiency. (2) Goitre prevalence — palpate necks of 6-12 year children; >5% prevalence signals endemic goitre. (3) Salt iodine content — test household salt samples with MBI kit; <15 ppm indicates inadequate iodisation. Link: Low UIE + high goitre rate + low salt iodine = communit
+
+VETTED-DIAG q20 (fit 0.33, src c10_bio_cfq_diagnostics.marker)
+  Q: Insulin deficiency in the body causes:
+  A: B) Diabetes mellitus
+VETTED-DIAG q1 (fit 0.29, src c10_bio_cfq_diagnostics.marker)
+  Q: During which phase of the cell cycle does DNA replication occur?
+  A: B) S phase
+VETTED-DIAG q2 (fit 0.29, src c10_bio_cfq_diagnostics.marker)
+  Q: A cell with 20 chromosomes undergoes mitosis. How many chromosomes will each daughter cell have?
+  A: B) 20
+VETTED-MIS M9 (fit 0.20)
+  M: Students think hormones are produced only by endocrine glands.
+  C: Hormones are also produced by other tissues -- heart (ANF), stomach (gastrin), kidney (erythropoietin), placenta (hCG).
+VETTED-MIS misconception_2 (fit 0.19)
+  M: Proteins give us the most energy.
+  C: Carbohydrates are the primary energy-giving food. Fats also give energy but are stored for later use. Proteins are body-building foods used for growth and repair.
+VETTED-MIS misconception_3 (fit 0.18)
+  M: The heart beats faster only when we are scared; otherwise it beats at the same speed all the time.
+  C: Heart rate adjusts to the body's need for oxygen. More activity means muscles need more oxygen, so the heart pumps faster to deliver it.
+### NODE c10_bio_cbse_03_005  class=10 sub=bio ch=3 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A flower is the reproductive shoot of an angiosperm, composed of four whorls of modified leaves — calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels) — arranged on a thalamus, where the androecium produces male gametes (pollen grains) and the gynoecium houses the female gamete (ovule) for sexual reproduction.
+WALKTHROUGH: Begin by asking the student to pluck a hibiscus (china rose) or mustard flower from a nearby garden — a familiar sight in Indian homes and fields. Have them gently separate the flower from the outermost green leaf-like structures inward, placing each whorl on a white paper. Connect this to Class 9 (c9_bio_ch3_5) where they learned the four whorls; now we deepen by examining the internal structure of anther (pollen sacs) and ovary (ovules on placenta), and the concept of essential vs accessory whorls. Emphasize that the flower is a condensed shoot where nodes are compressed — the thalamus represents the stem, and each whorl arises from a node. The key biological principle: every floral part is a modified leaf adapted for a specific reproductive role, illustrating the concept of homology in plant morphology.
+D1 Q: Name the four whorls of a typical angiosperm flower in order from outermost to innermost, and state which two are called essential whorls.
+D1 A: The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), gynoecium (carpels). The essential whorls are androecium and gynoecium because they directly participate in sexual reproduction (produce gametes). A wrong answer (e.g., listing calyx and corolla as essential) reveals the student confuses protective/attractive functions with reproductive function — a common board exam error where students mem
+D2 Q: A student observes a flower where the sepals are brightly coloured and petal-like, while the petals are absent. The student writes in the exam: "This flower has no corolla, so it cannot attract pollinators." Explain why this reasoning is biologically incorrect.
+D2 A: The reasoning is incorrect because sepals can become petaloid (coloured and showy) and take over the attractant function of petals — e.g., in Clematis or Bougainvillea, the calyx is coloured and attracts pollinators. The student's error is assuming a fixed one-to-one mapping between whorl name and function; board exams test understanding that floral parts can modify their function (homology). A wrong answer indicates
+D3 Q: In a longitudinal section of a mustard flower ovary, you observe ovules attached to the inner wall of the ovary along a swollen ridge. Identify the type of placentation and explain how this arrangement ensures maximum ovule packaging in a syncarpous, unilocular ovary.
+D3 A: The placentation is parietal. In a syncarpous (fused carpels) unilocular ovary, the fused margins of carpels form swollen ridges (placentae) on the inner wall; ovules develop on these ridges, maximizing space utilization without a central column. A wrong answer (e.g., axile placentation) shows the student cannot link ovary structure (unilocular vs multilocular) to placentation type — a frequent board exam diagram-lab
+D4 Q: Compare the structural adaptations of a wind-pollinated flower (e.g., maize) and an insect-pollinated flower (e.g., mustard) with respect to: (a) perianth, (b) stamens, (c) stigma. Present your comparison as a three-row table.
+D4 A: | Feature | Wind-pollinated (Maize) | Insect-pollinated (Mustard) |
+|---------|--------------------------|-----------------------------|
+| Perianth | Absent or reduced to lodicules (small scales) | Well-developed, coloured petals (corolla) + sepals |
+| Stamens | Versatile, long filaments, exposed anthers; produce light, smooth pollen | Shorter, often hidden; pollen sticky/spiny; anthers may be dorsifixed |
+| Stigma |
+D5 Q: A board exam question states: "The androecium is the male reproductive whorl because it produces pollen grains." A student writes: "This statement is false because the anther produces pollen, not the whole androecium." Evaluate the student's claim and justify your evaluation.
+D5 A: The student's claim is incorrect. In botanical terminology, the androecium is the collective term for all stamens (each stamen = filament + anther). Since the anther is a part of the stamen, and the stamen is the unit of androecium, it is biologically accurate to say the androecium produces pollen grains. The student commits a part-whole logical error — confusing the organ (stamen) with the tissue (anther). Board exa
+D6 Q: Design a simple observation activity using locally available flowers (choose any two from: datura, pumpkin, rose, maize, cucumber) to demonstrate the difference between hypogynous, perigynous, and epigynous flowers. List the materials, steps, and the key observation that distinguishes the three types. [IN-SCOPE-REWRITE]
+D6 A: Materials: Fresh flowers of Datura (hypogynous), Rose (perigynous), Cucumber/Pumpkin (epigynous), razor blade, white paper, hand lens. Steps: (1) Remove sepals and petals to expose thalamus and gynoecium attachment. (2) Make a longitudinal section of each flower through the thalamus. (3) Observe the position of ovary relative to insertion of other whorls on thalamus. Key observation: In Datura, ovary sits above the i
+
+VETTED-DIAG q4 (fit 0.33, src c10_bio_cfq_diagnostics.marker)
+  Q: Which sex chromosome combination produces a male child?
+  A: B) XY
+VETTED-DIAG cfq_1_1 (fit 0.29, src c10_bio_diagnostics.marker)
+  Q: A student observes a cell under the microscope that has a cell wall, a large central vacuole, and chloroplasts, but no centrioles. The cell is taken from which tissue? Justify with reasoning.
+  A: The cell is from a plant tissue (specifically a green/photosynthetic tissue such as a leaf mesophyll cell). Reasoning: presence of a rigid cell wall, large central vacuole and chloroplasts are hallmark features of plant cells; the absence of centrioles is consistent with most plant cells, which do not contain centrioles. Chloroplasts further indicate a photosynthetic (green) tissue rather than a non-green plant tissue like root or storage tissue.
+VETTED-DIAG q17 (fit 0.25, src c10_bio_cfq_diagnostics.marker)
+  Q: Which gland is called the "master gland"?
+  A: B) Pituitary
+VETTED-MIS misconception_4 (fit 0.30)
+  M: Pollen is the same as nectar.
+  C: Pollen is a powder for reproduction; nectar is a sweet reward that lures pollinators to visit the flower.
+VETTED-MIS misconception_2 (fit 0.29)
+  M: Pollination and fertilisation are the same thing.
+  C: Pollination brings pollen to the stigma; fertilisation happens later inside the ovule when the male and female cells meet.
+VETTED-MIS C5_001 (fit 0.27)
+  M: Students think flowers are only for beauty and have nothing to do with reproduction.
+  C: The flower is the reproductive organ of the plant. After pollination, the flower produces seeds and fruits. The stamen makes pollen (male), the pistil receives pollen and produces seeds (female). Without flowers, plants cannot reproduce.

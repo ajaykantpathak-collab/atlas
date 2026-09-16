@@ -51,3 +51,7 @@ class TokenResponse(BaseModel):
     access_token: str
     token_type: str = Field(default="bearer")
     user: UserInfo
+    # optional so older callers/tests that build TokenResponse without a
+    # refresh token keep validating
+    refresh_token: Optional[str] = None
+    expires_in: Optional[int] = None

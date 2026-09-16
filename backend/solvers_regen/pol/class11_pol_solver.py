@@ -1353,6 +1353,21 @@ class PoliticalScienceSolver:
 
 
 # ============================================================================
+# REGISTRY ADAPTER
+# ============================================================================
+
+def generate_questions(seed: int = 0, count: int = None,
+                       topic: str = None) -> List[Dict]:
+    """Registry adapter: deterministic questions for Class 11 Political Science.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    """
+    n = 1 if count is None else max(1, int(count))
+    solver = PoliticalScienceSolver()
+    return solver.generate_question_set(seed=seed, count=n)
+
+
+# ============================================================================
 # MAIN
 # ============================================================================
 

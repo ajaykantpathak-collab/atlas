@@ -1,0 +1,341 @@
+
+### NODE c7_math_ch03_007  class=7 sub=math ch=3 verdict=PARTIAL action=REWRITE [0]
+DEFINITION: Comparing and ordering decimals involves determining the relative magnitude of two or more decimal numbers by examining their place values sequentially from left to right, and arranging them in ascending or descending order.
+WALKTHROUGH: Imagine you are at a local stationery shop in India buying notebooks, and you see two gel pens priced at ₹12.45 and ₹12.48. Which one costs more, and how do you decide without guessing? To begin, we write both numbers vertically, aligning their decimal points and whole number parts. We learned in earlier grades how to compare whole numbers digit by digit from left to right. Here, we extend that exact same left-to-right digit comparison past the decimal point into the tenths, hundredths, and thousandths places. The key insight is that placeholder zeros can be added at the end of a decimal (like making 5.4 into 5.40) to make both numbers have the same number of decimal places, making comparison effortless.
+D1 Q: Which of the following numbers is greater: $3.45$ or $3.485$? Explain your choice using place value. [IN-SCOPE-REWRITE]
+D1 A: $3.485$ is greater. A student who incorrectly chooses $3.45$ is likely focusing only on the number of digits after the decimal point (thinking 485 is shorter or ignoring place value order) or failing to align the numbers by adding a placeholder zero to make it $3.450$ before comparing the thousandths place.
+D2 Q: Why do we compare the tenths digit first before looking at the hundredths digit when comparing two decimals like $7.23$ and $7.51$?
+D2 A: The tenths place represents a larger place value ($\frac{1}{10}$) than the hundredths place ($\frac{1}{100}$), just like the tens place is larger than the units place in whole numbers. A student who thinks we should look at the hundredths place first misunderstands the hierarchical nature of place value in decimals, where higher-order decimal places completely outweigh any combination of lower-order places.
+D3 Q: Arrange the following decimal numbers in ascending order: $6.03$, $6.30$, $6.033$, and $6.3$. Show all comparison steps.
+D3 A: First, make all numbers have three decimal places by adding placeholder zeros: $6.030$, $6.300$, $6.033$, and $6.300$. Comparing the whole number part, all are $6$. Next, compare the tenths place: $6.030$ and $6.033$ have a tenths digit of $0$, while $6.300$ and $6.300$ have a tenths digit of $3$. Thus, $6.030$ and $6.033$ are smaller. Comparing their hundredths and thousandths, $6.030 < 6.033$. For the larger pair, 
+D4 Q: Analyze the statement: "If a decimal has more digits after the decimal point, it is always a larger number." Provide a counterexample and explain why the statement is false.
+D4 A: The statement is false. Counterexample: Consider $4.8$ and $4.799$. The number $4.799$ has three digits after the point, whereas $4.8$ has only one. However, $4.8$ can be written as $4.800$, and comparing the tenths place ($8$ vs $7$) shows that $4.8 > 4.799$. A student who agrees with the statement fails to understand place value padding and is confused by digit length versus numerical value.
+D5 Q: A student evaluated the set of decimals $\{12.05, 12.5, 12.005\}$ and ordered them in descending order as: $12.005 > 12.05 > 12.5$. Identify the error in the student's reasoning and write the correct descending order.
+D5 A: The student incorrectly treated the decimal portion as whole numbers ($5 > 05 > 005$) without aligning place values. By padding them to equal decimal lengths: $12.500$, $12.050$, and $12.005$, the correct descending order is $12.5 > 12.05 > 12.005$. A student who agrees with the original order does not realize that $12.5$ is equivalent to $12.500$, which has a $5$ in the tenths place compared to $0$ in the tenths pla
+D6 Q: Create a set of four unique decimal numbers between $5.4$ and $5.5$ and arrange them in strict ascending order. Explain how you generated them.
+D6 A: An example set is: $5.41, 5.432, 5.46, 5.49$. These were created by keeping the whole number $5$ and the tenths digit $4$, then choosing progressively larger hundredths and thousandths digits ($1, 3, 6, 9$) while ensuring each number remains greater than $5.400$ and less than $5.500$. A poor answer would feature numbers outside the range (like $5.51$) or numbers in descending order, showing a failure to understand bo
+
+VETTED-DIAG cfq_3_2 (fit 0.55, src c7_maths_diagnostics.marker)
+  Q: Multiply 0.045 by 0.6. Explain how many decimal places the answer must have and why, then give the exact product.
+  A: 0.045 has 3 decimal places; 0.6 has 1 decimal place. The product must have 3 + 1 = 4 decimal places because multiplying two decimals multiplies their place-value units (thousandths x tenths = ten-thousandths). Compute 45 x 6 = 270. Now place 4 decimal digits: 0.0270, which simplifies to 0.027. Exact product: 0.027.
+VETTED-DIAG cfq_2_2 (fit 0.44, src c7_maths_diagnostics.marker)
+  Q: On a number line, a point P is at -7. It is moved 5 units to the right, then 9 units to the left, then 4 units to the right. What is its final position? Show the arithmetic using directed numbers.
+  A: Start: -7. Move right 5: -7 + 5 = -2. Move left 9: -2 + (-9) = -11. Move right 4: -11 + 4 = -7. Final position is -7. Using directed numbers in one expression: -7 + (+5) + (-9) + (+4) = -7 + 5 - 9 + 4 = (-7 - 9) + (5 + 4) = -16 + 9 = -7.
+VETTED-DIAG cfq_3_1 (fit 0.36, src c7_maths_diagnostics.marker)
+  Q: Add 3.05, 18.4, and 0.275. Express the result as a decimal and also as a fraction in lowest terms. Show place-value alignment.
+  A: Align by decimal point, padding with zeros: 3.050 + 18.400 + 0.275. Thousandths column: 0 + 0 + 5 = 5. Hundredths: 5 + 0 + 7 = 12, write 2 carry 1. Tenths: 0 + 4 + 2 + 1 (carry) = 7. Ones: 3 + 8 = 11, write 1 carry 1. Tens: 1 + 1 (carry) = 2. Sum = 21.725. As a fraction: 21725/1000. Simplify by dividing by 25: 21725 / 25 = 869, 1000 / 25 = 40, so 869/40. Check gcd(869,40): 869 = 40 x 21 + 29; 40 = 29 x 1 + 11; 29 = 11 x 2 + 7; 11 = 7 x 1 + 4; 7 = 4 x 1 + 3; 4 = 3 x 1 + 1; gcd = 1. So 869/40 is in lowest terms.
+VETTED-MIS misconception_2 (fit 0.43)
+  M: In 47, the 4 means 4 ones and the 7 means 7 tens.
+  C: In 47, the digit on the left (4) is in the tens place and means 4 tens = 40. The digit on the right (7) is in the ones place and means 7 ones = 7. So 47 = 40 + 7.
+VETTED-MIS misconception_8 (fit 0.33)
+  M: Comparing 2567 and 489, the bigger number is 489 because 4 is bigger than 2.
+  C: A number with more digits is always greater. 2567 (4 digits) is greater than 489 (3 digits). Only when two numbers have the same number of digits do we compare digit by digit from the left.
+VETTED-MIS misconception_2 (fit 0.29)
+  M: The decimal point separates two whole numbers, so 12.7 is twelve and seven, expanded as 10 + 2 + 7.
+  C: 12.7 = 10 + 2 + 0.7, or 1 x 10 + 2 x 1 + 7 x 0.1. The decimal point marks where place values become tenths, hundredths, and so on, not a new whole number.
+### NODE c7_math_ch05_004  class=7 sub=math ch=5 verdict=PARTIAL action=REWRITE [2, 5]
+DEFINITION: Parallel lines are two or more lines in a single plane that never intersect or meet, no matter how far they are extended in either direction, and they always maintain a constant perpendicular distance from each other.
+WALKTHROUGH: Imagine you are walking down a long railway track in your town where the two steel rails run side by side, never touching each other even as they stretch into the distance. How do engineers ensure that trains do not derail? They ensure that the perpendicular distance between the rails remains exactly the same everywhere. Previously in Class 6, you learned to identify parallel lines visually among various intersecting shapes. Now in Class 7, we will explore their strict mathematical definition based on a constant perpendicular distance. The key insight is that two lines are parallel if and only if the distance measured perpendicularly between them is equal at every single point.
+D1 Q: What condition must two straight lines in the same plane satisfy to be classified as parallel lines?
+D1 A: The correct answer is that they must never intersect and must maintain a constant perpendicular distance apart. A wrong answer—such as stating that parallel lines just go in the same direction or have the same length—reveals that the student confuses line properties with ray or segment properties, ignoring the requirement of infinite non-intersection and uniform spacing.
+D2 Q: Two lines, $l$ and $m$, are drawn on a large sheet of paper. Line $l$ and line $m$ are extended to 10 metres in length, and they do not meet. Can you guarantee with absolute certainty that lines $l$ and $m$ are parallel? Why or why not?
+D2 A: The correct answer is no, because lines in a plane can diverge or converge very gradually; unless their perpendicular distance is constant across their entire infinite extension, they might intersect if extended further. A wrong answer assuming that not meeting over a finite length guarantees parallelism shows a failure to grasp the infinity condition inherent in the definition of lines.
+D3 Q: A carpenter is fixing two wooden planks for a shelf in a Mumbai apartment. Plank A is represented by equation-like coordinates where it passes through points $(0, 2)$ and $(4, 2)$, and Plank B passes through points $(0, 5)$ and $(4, 5)$. What is the constant perpendicular distance between these two parallel planks in m [IN-SCOPE-REWRITE]
+D3 A: The correct answer is 3 units (or metres). 
+Steps:
+1. Identify the y-coordinates of Plank A, which are both at $y = 2$.
+2. Identify the y-coordinates of Plank B, which are both at $y = 5$.
+3. Calculate the perpendicular distance along the y-axis: $\text{Distance} = 5 - 2 = 3$.
+4. Verify that at $x = 0$ and $x = 4$, the vertical gap is identically 3 units.
+A wrong answer, such as adding the coordinates or miscalculati
+D4 Q: If line $p$ is parallel to line $q$, and line $q$ is parallel to line $r$, what is the geometric relationship between line $p$ and line $r$? Explain using the property of parallel lines.
+D4 A: The correct answer is that line $p$ is parallel to line $r$. Since line $q$ maintains a constant distance from $p$ and $r$ maintains that same constant distance from $q$, all three lines maintain uniform spacing relative to one another. A wrong answer stating they intersect shows a lack of understanding of the transitive property of parallel lines in a plane.
+D5 Q: A student claims: "If two line segments of length 5 cm do not intersect, then the lines containing them must be parallel." Evaluate this claim and find the error in reasoning if any.
+D5 A: The correct answer is that the claim is false because line segments have finite endpoints, whereas lines are infinite. Two non-intersecting line segments can lie on intersecting lines if their extended paths cross each other outside the segment lengths. A wrong answer agreeing with the claim reveals confusion between bounded line segments and infinite geometric lines.
+D6 Q: Design a real-world scenario in a school playground using boundary white lines for a running race track that demonstrates the necessity of parallel lines, specifying how you would test that the lines are truly parallel. [IN-SCOPE-REWRITE]
+D6 A: The expected answer should describe two lane-marking lines for a 100-metre running track. To test if they are parallel, one must measure the perpendicular width of the lane using a measuring tape at the start line, the 50-metre mark, and the finish line; if every measurement is exactly 1.22 metres, the lines are parallel. A poor answer merely says "look at them to see if they look straight," failing to use the measur
+
+VETTED-DIAG cfq_3_2 (fit 0.33, src c7_maths_cfq_diagnostics.marker)
+  Q: Two triangles have sides 3,4,5 and 3,4,5. By which criterion are they congruent?
+  A: SSS (Side-Side-Side).
+VETTED-DIAG cfq_8_2 (fit 0.33, src c7_maths_diagnostics.marker)
+  Q: In a parallelogram ABCD, angle A = (3x + 20) degrees and angle B = (5x - 10) degrees. Find x and all four angles of the parallelogram. State the property used.
+  A: In a parallelogram, ADJACENT angles are supplementary (they lie between parallel lines on the same side of the transversal). So angle A + angle B = 180. (3x + 20) + (5x - 10) = 180, so 8x + 10 = 180, 8x = 170, x = 170/8 = 21.25. Angle A = 3(21.25) + 20 = 63.75 + 20 = 83.75 degrees. Angle B = 5(21.25) - 10 = 106.25 - 10 = 96.25 degrees. Check: 83.75 + 96.25 = 180 (correct). Opposite angles are equal: angle C = angle A = 83.75 degrees, angle D = angle B = 96.25 degrees. Property used: adjacent angles of a parallelogram are supplementary; opposite angles are equal.
+VETTED-DIAG cfq_4_1 (fit 0.25, src c7_maths_cfq_diagnostics.marker)
+  Q: Find the mean of: 4, 8, 12, 16, 20.
+  A: 12 (sum=60, count=5, mean=60/5=12).
+VETTED-MIS misconception_14 (fit 0.58)
+  M: If two lines cross once, they can still be parallel after the crossing point.
+  C: Parallel lines never intersect. A single crossing proves the lines are not parallel.
+VETTED-MIS misconception_9 (fit 0.41)
+  M: Two lines that do not touch on the page are always parallel.
+  C: To check for parallel lines, we must see whether they would ever meet if extended. If the gap stays the same, they are parallel. If the gap changes, they are not parallel even if they do not meet on the page.
+VETTED-MIS misconception_12 (fit 0.41)
+  M: Parallel lines must be horizontal or vertical only.
+  C: Direction does not decide whether lines are parallel. Any pair of lines, in any slant, is parallel as long as they never meet and the gap between them is constant.
+### NODE c7_math_ch05_006  class=7 sub=math ch=5 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A transversal is a line that intersects two or more lines at distinct, separate points. When this third line crosses the others, it creates a rich geometric framework of eight distinct angles that allow us to study the relationship between lines.
+WALKTHROUGH: Imagine you are walking across a railway track where multiple parallel tracks run side by side, and a footpath crosses them diagonally at an angle. The footpath is a line cutting across two or more other lines, creating a specific intersection pattern. To begin studying this, we draw two lines on a paper and then draw a third line that crosses both of them. We label the points where the third line meets the first two lines as our points of intersection. Connecting back to what we know about basic intersecting lines, a single intersection creates four angles, so two intersections create eight angles in total. The key insight is that the line doing the cutting is special—it is called a transversal, and it divides the plane into specific zones: interior (between the two lines) and exterior (outside the two lines).
+D1 Q: What defines a line as a "transversal" when it interacts with other lines in a plane?
+D1 A: A transversal is a line that intersects two or more other lines at distinct, separate points. A wrong answer often claims any line that touches another line is a transversal, failing to realize it must cut across *at least two* separate lines at *different* points. This shows a confusion between a single pair of intersecting lines and a multi-line intersection system.
+D2 Q: If a single straight line intersects three parallel lines drawn horizontally on your notebook, how many distinct points of intersection are created?
+D2 A: There are 3 distinct points of intersection because each of the three parallel lines is crossed once by the transversal. If a student answers 6, they are likely counting the number of angles formed (4 angles per intersection point multiplied by 2, or miscounting) rather than the physical points where the lines cross.
+D3 Q: Line $t$ intersects line $m$ at point $A$ and line $n$ at point $B$. If line $m$ and line $n$ are in the same plane, what is line $t$ called with respect to lines $m$ and $n$? Calculate the total number of angles formed around these two intersection points.
+D3 A: Step 1: Identify the given information: line $t$ crosses two lines ($m$ and $n$) at two distinct points ($A$ and $B$).
+Step 2: Apply the definition of a transversal: since line $t$ intersects two lines at distinct points, line $t$ is a transversal.
+Step 3: Count the angles at each intersection point: each intersection point creates 4 angles around it.
+Step 4: Compute the total number of angles: $2 \text{ intersection
+D4 Q: Why can a line that intersects two lines at the *exact same point* (concurrent lines) not be considered a transversal for those two lines?
+D4 A: A transversal requires *distinct, separate* intersection points. If lines pass through a single common point, they form a star-like intersection rather than creating the "between" regions (interior/exterior) needed to study parallel or non-parallel line relationships. A wrong answer suggests the student thinks any crossing line qualifies, missing the requirement of multiple separate intersection locations.
+D5 Q: A student claims that if line $p$ intersects line $q$, then line $p$ is automatically a transversal. Evaluate this statement and correct the error.
+D5 A: This statement is incorrect because a transversal must intersect *two or more* lines. Intersecting only *one* line makes them simply an intersecting pair, not a transversal system. A wrong answer shows the student has memorized the word "intersecting" without paying attention to the minimum requirement of multiple lines being cut.
+D6 Q: Draw a rough sketch or describe a layout where a straight water pipe acts as a transversal across three fencing wires in a garden. How many intersection points and how many total angles are created? [IN-SCOPE-REWRITE]
+D6 A: The expected answer describes a straight pipe crossing 3 fencing wires, resulting in 3 distinct points of intersection and $3 \times 4 = 12$ total angles formed. A poor answer fails to connect the physical scenario to the geometric definitions of intersection points and angle counts per vertex.
+
+VETTED-DIAG cfq_8_2 (fit 0.38, src c7_maths_diagnostics.marker)
+  Q: In a parallelogram ABCD, angle A = (3x + 20) degrees and angle B = (5x - 10) degrees. Find x and all four angles of the parallelogram. State the property used.
+  A: In a parallelogram, ADJACENT angles are supplementary (they lie between parallel lines on the same side of the transversal). So angle A + angle B = 180. (3x + 20) + (5x - 10) = 180, so 8x + 10 = 180, 8x = 170, x = 170/8 = 21.25. Angle A = 3(21.25) + 20 = 63.75 + 20 = 83.75 degrees. Angle B = 5(21.25) - 10 = 106.25 - 10 = 96.25 degrees. Check: 83.75 + 96.25 = 180 (correct). Opposite angles are equal: angle C = angle A = 83.75 degrees, angle D = angle B = 96.25 degrees. Property used: adjacent angles of a parallelogram are supplementary; opposite angles are equal.
+VETTED-DIAG cfq_1_3 (fit 0.33, src c7_maths_cfq_diagnostics.marker)
+  Q: Evaluate: 5^0 = ?
+  A: 1 (any non-zero number to the power 0 equals 1).
+VETTED-DIAG cfq_2_1 (fit 0.33, src c7_maths_diagnostics.marker)
+  Q: A student claims: 'The product of any three negative integers is always negative, so the product of any four negative integers is also always negative.' Evaluate this claim with examples and state the correct rule.
+  A: The first part is correct: product of three negative integers is negative, e.g., (-2) x (-3) x (-4) = -24. The second part is INCORRECT. Product of four negative integers is POSITIVE because negatives pair up: (-2) x (-3) x (-4) x (-5) = [(+6)] x [(+20)] = +120. Correct rule: the product of an EVEN number of negative integers is positive; the product of an ODD number of negative integers is negative. The student over-generalised from odd to even.
+VETTED-MIS misconception_3 (fit 0.25)
+  M: tan⁻¹x + tan⁻¹y = tan⁻¹(x) + tan⁻¹(y) = tan⁻¹(x+y).
+  C: tan⁻¹x + tan⁻¹y is a sum of two angles; it equals tan⁻¹((x+y)/(1-xy)) only under the conditions in Misconception 1. There is no identity tan⁻¹(x+y) = tan⁻¹x + tan⁻¹y.
+VETTED-MIS PP_C10_2025_072 (fit 0.23)
+  M: Candidates made errors in finding the slope of line RS perpendicular to PQ, not correctly applying the relationship m1 x m2 = -1 for perpendicular lines.
+  C: If the slope of PQ is m1, then the slope of a line perpendicular to PQ is m2 = -1/m1. The product of slopes of perpendicular lines is -1.
+VETTED-MIS PP_C10_2025_072 (fit 0.23)
+  M: Candidates made errors in finding the slope of line RS perpendicular to PQ, not correctly applying the relationship m1 x m2 = -1 for perpendicular lines.
+  C: If the slope of PQ is m1, then the slope of a line perpendicular to PQ is m2 = -1/m1. The product of slopes of perpendicular lines is -1.
+### NODE c7_math_ch07_002  class=7 sub=math ch=7 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: An equilateral triangle is a special three-sided polygon in which all three sides are equal in length and all three interior angles are equal, measuring exactly 60° each.
+WALKTHROUGH: Imagine you are an architect designing a stained-glass window for a school auditorium in Delhi, and you need to cut three glass panels that are identical in every way, forming a perfectly balanced triangle where every corner and edge matches. To begin, you must recall that triangles have three sides and three angles, but an equilateral triangle is unique because its symmetry means all boundary lengths are identical. We start by drawing a base line segment using a ruler, just like measuring cloth with a metre tape. Then, we use a compass opened to the exact length of that base to swing intersecting arcs from both endpoints. The key insight is that the intersection point of these arcs is equidistant from both ends, guaranteeing that all three sides are equal and each interior angle automatically measures 60°.
+D1 Q: What is the measure of each interior angle in an equilateral triangle?
+D1 A: Each interior angle in an equilateral triangle is 60°. If a student answers 90° or 180°, it reveals a confusion with right angles or the sum of all angles in a triangle rather than recognizing that equal sides force the three angles to be equal and sum to 180° ($180^\circ \div 3 = 60^\circ$).
+D2 Q: If you are given only the length of one side of a triangle as 7 cm, and you are told it is an equilateral triangle, what are the lengths of the other two sides? Explain why.
+D2 A: The other two sides are also 7 cm each because by definition, an equilateral triangle has all three sides equal in length. If a student states the other sides can be any random length, they do not understand the defining characteristic property of equilateral triangles.
+D3 Q: An artisan builds a decorative metal frame in the shape of an equilateral triangle. If one side of the frame measures 12.5 cm, what is the total length of metal wire required to make the entire frame?
+D3 A: Step 1: Identify that an equilateral triangle has 3 sides of equal length. 
+Step 2: Note that the given side length $s = 12.5\text{ cm}$. 
+Step 3: Set up the perimeter formula for an equilateral triangle: $\text{Perimeter} = 3 \times s$. 
+Step 4: Substitute the value: $\text{Perimeter} = 3 \times 12.5\text{ cm} = 37.5\text{ cm}$. 
+Answer: 37.5 cm. If a student answers 25 cm, they likely added only two sides (mistakin
+D4 Q: Compare an isosceles triangle and an equilateral triangle. Can every equilateral triangle be classified as an isosceles triangle? Why or why not?
+D4 A: Yes, every equilateral triangle is an isosceles triangle because an isosceles triangle requires at least two sides to be equal, and an equilateral triangle has three equal sides (which satisfies the condition of having at least two equal sides). If a student says no, they mistakenly believe that "isosceles" means "exactly two equal sides" rather than "at least two equal sides."
+D5 Q: A student claims that they constructed an equilateral triangle where the side lengths are 5 cm, 5 cm, and 7 cm, and the interior angles are 60°, 60°, and 60°. Evaluate this claim and identify the error.
+D5 A: The claim is false and geometrically impossible. While the angles sum to 180°, the side lengths given (5 cm, 5 cm, 7 cm) form an isosceles triangle, not an equilateral triangle. In a true equilateral triangle, all three sides must be equal in length (e.g., 5 cm, 5 cm, 5 cm). If a student believes this is possible, they are separating angle properties from side properties without checking consistency.
+D6 Q: Design a word problem involving a school garden shaped like an equilateral triangle where students need to calculate the cost of fencing. Provide the side length and the cost per metre. [IN-SCOPE-REWRITE]
+D6 A: Expected response: A problem stating "A school flower bed is in the shape of an equilateral triangle with each side measuring 8 metres. If wire fencing costs ₹50 per metre, find the total cost of fencing the flower bed." A poor response would give inconsistent dimensions or omit the cost rate, showing a failure to connect shape properties (perimeter) with real-world unit pricing.
+
+VETTED-DIAG cfq_3_2 (fit 0.67, src c7_maths_cfq_diagnostics.marker)
+  Q: Two triangles have sides 3,4,5 and 3,4,5. By which criterion are they congruent?
+  A: SSS (Side-Side-Side).
+VETTED-DIAG cfq_3_1 (fit 0.60, src c7_maths_cfq_diagnostics.marker)
+  Q: Can a triangle have sides 3 cm, 4 cm, and 8 cm?
+  A: No (3+4=7 < 8, violates triangle inequality).
+VETTED-DIAG cfq_8_1 (fit 0.38, src c7_maths_diagnostics.marker)
+  Q: In triangle PQR, angle P = 47 degrees and angle Q = 68 degrees. Find angle R. Then classify the triangle by (a) angles and (b) sides, giving reasons.
+  A: Angle sum of a triangle = 180 degrees. So angle R = 180 - (47 + 68) = 180 - 115 = 65 degrees. (a) By angles: all three angles are less than 90 degrees, so PQR is an ACUTE-angled triangle. (b) By sides: the problem does not give side lengths, so we CANNOT definitively classify by sides from the given information alone. If all sides were unequal it would be scalene; if two equal it would be isosceles. The angle data alone does not determine side classification.
+VETTED-MIS PP_C10_2025_008 (fit 0.29)
+  M: Candidates did not use the property that base angles of an isosceles triangle are equal, and chose the incorrect option.
+  C: In an isosceles triangle, the angles opposite the equal sides are equal.
+VETTED-MIS PP_C10_2025_008 (fit 0.29)
+  M: Candidates did not use the property that base angles of an isosceles triangle are equal, and chose the incorrect option.
+  C: In an isosceles triangle, the angles opposite the equal sides are equal.
+VETTED-MIS PP_C10_2025_008 (fit 0.29)
+  M: Candidates did not use the property that base angles of an isosceles triangle are equal, and chose the incorrect option.
+  C: In an isosceles triangle, the angles opposite the equal sides are equal.
+### NODE c7_math_ch07_003  class=7 sub=math ch=7 verdict=PARTIAL action=REWRITE [4]
+DEFINITION: Constructing triangles using a ruler and compass involves accurately drawing a triangle when specific dimensions (such as side lengths or angle measures) are provided, ensuring that the geometric properties of triangles are strictly satisfied. This process relies on basic geometric tools to measure line segments and draw arcs representing fixed distances from vertices.
+WALKTHROUGH: Imagine you are a builder designing a triangular roof truss for a community center in your village, and the blueprint specifies exact side lengths in metres to ensure the structure does not collapse. How do you translate these measurements from paper to actual building materials with absolute precision? We begin by drawing a clean baseline using a straightedge ruler to represent one of the known sides of the triangle. Next, we recall our prior knowledge of circles and arcs from geometry: every point on a compass arc is at an exact fixed distance from the center. By opening our compass to the length of the second side, we swing an arc from one endpoint of our baseline, and by opening it to the third side, we swing an intersecting arc from the other endpoint. The key insight is that the exact intersection point of these two arcs forms the third vertex of our triangle, guaranteeing that all side lengths are exact.
+D1 Q: What tool is used alongside an ungraduated ruler to draw arcs of precise radii when constructing triangles?
+D1 A: The correct answer is a compass. A student who answers "protractor" is confusing tools used for measuring angles with the tool used for measuring fixed distances and drawing circular arcs.
+D2 Q: Explain why you cannot construct a triangle with side lengths 3 cm, 4 cm, and 8 cm using a ruler and compass.
+D2 A: The correct explanation is that the sum of the two shorter sides (3 cm + 4 cm = 7 cm) is less than the third side (8 cm), which violates the Triangle Inequality Theorem, making arc intersection impossible. A student who says "the lines are too short" fails to understand the mathematical condition required for triangle closure.
+D3 Q: Constructing a triangle with side lengths 5 cm, 6 cm, and 7 cm requires setting your compass radius to which value first, assuming you start by drawing the 7 cm side as your baseline?
+D3 A: The correct answer is either 5 cm or 6 cm. Working steps: 1. Draw baseline AB = 7 cm using a ruler. 2. Open compass to 5 cm, place needle at A, and draw an arc above AB. 3. Open compass to 6 cm, place needle at B, and draw an arc to intersect the first arc at point C. 4. Connect A to C and B to C. A student who picks 7 cm has confused the base length with the radius used for drawing arcs.
+D4 Q: If you accidentally use a graduated ruler instead of a compass to measure and place the third vertex by guessing the intersection point, what geometric error does this introduce?
+D4 A: The correct answer is that guessing or using a ruler directly as a measuring caliper introduces inaccuracy because a ruler's edge cannot maintain a fixed radial distance from two separate points simultaneously, leading to a failure in satisfying the exact side-length constraints. A student who thinks it is acceptable believes construction is merely sketching rather than precise geometric mapping.
+D5 Q: Evaluate the following student procedure for constructing a triangle with sides 4 cm, 5 cm, and 6 cm: "I drew a 4 cm line, measured 5 cm from one end with my ruler, measured 6 cm from the other end with my ruler, and marked the dot where they met." Is this method reliable? Why or why not? [IN-SCOPE-REWRITE]
+D5 A: The method is unreliable. While the intent is correct, using a ruler to measure and plot a single point without arcs creates a locus of uncertainty; the compass creates a locus of points at an exact fixed distance (a circle/arc), ensuring pinpoint precision. A student who defends the ruler method does not understand why compasses are essential for geometric loci.
+D6 Q: Design a set of three side lengths that would make it impossible to construct a triangle using your compass, and explain the mathematical rule that proves your design works.
+D6 A: An example set is 2 cm, 3 cm, and 6 cm. The mathematical proof relies on the Triangle Inequality Theorem: 2 + 3 = 5, and since 5 is less than 6, the two arcs drawn from endpoints of the 6 cm base will never touch or intersect in a plane. A poor answer gives three numbers where the sum of the two smaller sides exceeds the largest side, showing a misunderstanding of the theorem.
+
+VETTED-DIAG cfq_3_2 (fit 0.56, src c7_maths_cfq_diagnostics.marker)
+  Q: Two triangles have sides 3,4,5 and 3,4,5. By which criterion are they congruent?
+  A: SSS (Side-Side-Side).
+VETTED-DIAG cfq_3_1 (fit 0.40, src c7_maths_cfq_diagnostics.marker)
+  Q: Can a triangle have sides 3 cm, 4 cm, and 8 cm?
+  A: No (3+4=7 < 8, violates triangle inequality).
+VETTED-DIAG cfq_9_1 (fit 0.40, src c7_maths_diagnostics.marker)
+  Q: Construct triangle XYZ with XY = 6 cm, YZ = 4.5 cm, and angle XYZ = 60 degrees, using ruler and compasses. List the construction steps in order and state how you would verify the result.
+  A: Steps: (1) Draw base segment YZ = 4.5 cm using a ruler. (2) At point Y, construct an angle of 60 degrees: draw an arc with centre Y cutting YZ at P; with the same radius and centre P, draw an arc cutting the first arc at Q; join YQ and extend to form ray YR. Angle RYZ = 60 degrees. (3) On ray YR, mark point X such that YX = 6 cm (using compass set to 6 cm, arc with centre Y). (4) Join X to Z. Triangle XYZ is constructed. Verification: measure XY (should be 6 cm), YZ (should be 4.5 cm), and angle XYZ with a protractor (should be 60 degrees).
+VETTED-MIS PP_C10_2025_027 (fit 0.36)
+  M: Some candidates used a protractor for constructing the angle 120 deg  instead of using a ruler and compass construction.
+  C: Geometric constructions must be performed using only a ruler and compass, not a protractor. The angle 120 deg  can be constructed by drawing an arc and stepping off the radius twice to create 60 deg  arcs.
+VETTED-MIS PP_C10_2025_027 (fit 0.36)
+  M: Some candidates used a protractor for constructing the angle 120 deg  instead of using a ruler and compass construction.
+  C: Geometric constructions must be performed using only a ruler and compass, not a protractor. The angle 120 deg  can be constructed by drawing an arc and stepping off the radius twice to create 60 deg  arcs.
+VETTED-MIS PP_C10_2025_027 (fit 0.36)
+  M: Some candidates used a protractor for constructing the angle 120 deg  instead of using a ruler and compass construction.
+  C: Geometric constructions must be performed using only a ruler and compass, not a protractor. The angle 120 deg  can be constructed by drawing an arc and stepping off the radius twice to create 60 deg  arcs.
+### NODE c7_math_ch10_001  class=7 sub=math ch=10 verdict=PARTIAL action=REWRITE [1]
+DEFINITION: Integers are a set of numbers that include all whole numbers and their negative counterparts, represented as $\{..., -3, -2, -1, 0, 1, 2, 3, ...\}$, where positive integers lie to the right of zero, negative integers lie to the left of zero, and zero is neither positive nor negative.
+WALKTHROUGH: Imagine you are standing at ground level in a multi-story parking building in Delhi. Ground level is marked as 0. If you go up 3 floors to park your car, we call that $+3$ (positive 3). If you take the elevator down 2 floors to the basement to check the electricity meter, we call that $-2$ (negative 2). To understand integers fully, we expand our whole numbers by introducing a mirror image of counting numbers to the left of zero. We write positive numbers with a plus sign (or no sign) and negative numbers with a minus sign. Zero acts as the neutral reference point or origin, separating positive and negative quantities.
+D1 Q: Which of the following numbers is considered neither a positive integer nor a negative integer?
+A) $+1$
+B) $0$
+C) $-1$
+D) Both A and C
+D1 A: The correct answer is B) $0$. Zero is the neutral reference integer that separates positive and negative numbers on the number line; it carries no sign. A student who chooses A or C has forgotten that positive and negative integers are strictly greater than or less than zero, respectively. A student who chooses D shows a complete misunderstanding of the definitions of signed numbers.
+D2 Q: A weather app shows the temperature in Shimla is $-4^\circ\text{C}$ and in Srinagar is $-7^\circ\text{C}$. Which statement correctly explains which place is colder?
+A) Shimla is colder because $4$ is less than $7$.
+B) Srinagar is colder because $-7$ is to the left of $-4$ on the number line, meaning it has a lower valu [IN-SCOPE-REWRITE]
+D2 A: The correct answer is B) Srinagar is colder because $-7$ is to the left of $-4$ on the number line, meaning it has a lower value. As you move left on a number line, values decrease. A student who chooses A looks only at the digits $4$ and $7$ and forgets that negative signs reverse the order of magnitude for debt or temperature drops. A student who chooses C or D misinterprets how negative integers compare to one ano
+D3 Q: An elevator starts at the ground floor ($0$). It goes up $5$ floors, then goes down $8$ floors, and finally goes up $3$ floors. What is the final floor position represented as an integer?
+D3 A: The correct answer is $0$ (ground floor). Working steps: 
+1) Start at ground level: $0$. 
+2) Going up $5$ floors translates to $0 + 5 = +5$. 
+3) Going down $8$ floors translates to $+5 - 8 = -3$. 
+4) Going up $3$ floors translates to $-3 + 3 = 0$. 
+A student who answers $+3$ or $-3$ likely made an error in tracking directional movements, treating up and down additions incorrectly or miscalculating the arithmetic sequ
+D4 Q: Analyze the set of numbers $\{-5, 12, 0, -3, 8, -1\}$. Group them into positive integers, negative integers, and neither, and explain how the number line helps prove your grouping.
+D4 A: Positive integers: $\{12, 8\}$; Negative integers: $\{-5, -3, -1\}$; Neither: $\{0\}$. On a number line, positive integers are positioned strictly to the right of zero, negative integers are positioned strictly to the left of zero, and zero occupies the exact center point. A student who includes zero in the positive or negative group fails to recognize zero's unique neutral classification.
+D5 Q: A student claims that since $-15$ is a larger number than $-5$ in terms of digits ($15 > 5$), $-15$ must represent a higher temperature than $-5^\circ\text{C}$. Evaluate this claim and correct the error.
+D5 A: The claim is incorrect. While the whole number $15$ is greater than $5$, when applied to negative integers, $-15$ represents a deficit or depth greater than $-5$, placing $-15$ further to the left on the number line than $-5$. Therefore, $-15^\circ\text{C}$ is colder (lower in value) than $-5^\circ\text{C}$. A student who agrees with the claim fails to understand that for negative numbers, a larger absolute value mea
+D6 Q: Create a real-world scenario involving a bank account balance, deposits, and withdrawals that results in a final integer value of $-500$ rupees. Explain each step using positive and negative integers.
+D6 A: A valid response should feature a starting balance (e.g., $0$ or a positive amount), a series of withdrawals represented as negative integers, and deposits represented as positive integers, resulting in a net balance of $-500$. For example: Rahul starts with a balance of ₹200 ($+200$). He withdraws ₹800 ($-800$). His current balance is $+200 - 800 = -600$ rupees. Then he deposits ₹100 ($+100$), making his final balan
+
+VETTED-DIAG cfq_1_3 (fit 0.50, src c7_maths_cfq_diagnostics.marker)
+  Q: Evaluate: 5^0 = ?
+  A: 1 (any non-zero number to the power 0 equals 1).
+VETTED-DIAG cfq_2_2 (fit 0.50, src c7_maths_diagnostics.marker)
+  Q: On a number line, a point P is at -7. It is moved 5 units to the right, then 9 units to the left, then 4 units to the right. What is its final position? Show the arithmetic using directed numbers.
+  A: Start: -7. Move right 5: -7 + 5 = -2. Move left 9: -2 + (-9) = -11. Move right 4: -11 + 4 = -7. Final position is -7. Using directed numbers in one expression: -7 + (+5) + (-9) + (+4) = -7 + 5 - 9 + 4 = (-7 - 9) + (5 + 4) = -16 + 9 = -7.
+VETTED-DIAG cfq_2_1 (fit 0.42, src c7_maths_diagnostics.marker)
+  Q: A student claims: 'The product of any three negative integers is always negative, so the product of any four negative integers is also always negative.' Evaluate this claim with examples and state the correct rule.
+  A: The first part is correct: product of three negative integers is negative, e.g., (-2) x (-3) x (-4) = -24. The second part is INCORRECT. Product of four negative integers is POSITIVE because negatives pair up: (-2) x (-3) x (-4) x (-5) = [(+6)] x [(+20)] = +120. Correct rule: the product of an EVEN number of negative integers is positive; the product of an ODD number of negative integers is negative. The student over-generalised from odd to even.
+VETTED-MIS misconception_1 (fit 0.44)
+  M: Negative numbers do not exist on the number line because we cannot count them.
+  C: The number line extends in both directions from zero. Numbers to the right of zero are positive, numbers to the left of zero are negative, and zero itself is neither positive nor negative.
+VETTED-MIS misconception_14 (fit 0.43)
+  M: The identity (a/b x 1) = a/b works only when a/b is positive.
+  C: For every rational a/b (including negative and zero), a/b x 1 = a/b and a/b x 0 = 0.
+VETTED-MIS misconception_2 (fit 0.41)
+  M: Zero is a negative number because it sits at the start of the negative side.
+  C: Zero is the reference point on the number line. Positive numbers lie to its right, negative numbers lie to its left, and zero itself has no sign.
+### NODE c7_math_ch10_007  class=7 sub=math ch=10 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: The commutative property of integer multiplication states that changing the order of two integers being multiplied does not change their product; mathematically expressed as $a \times b = b \times a$ for any integers $a$ and $b$.
+WALKTHROUGH: Imagine you are at a school sports event in Delhi, arranging chairs for the annual function. You have 5 rows of chairs, and each row has (-3) extra chairs allocated or removed due to spacing adjustments, giving you a quick calculation of $5 \times (-3)$. Alternatively, if you calculate (-3) rows of 5 units each, how does the product compare? To begin, write down both expressions side by side: $5 \times (-3)$ and $(-3) \times 5$. Recall from your earlier work with integer multiplication sign rules that a positive integer multiplied by a negative integer results in a negative product. Compute each side independently to find that both equal $-15$. The key insight is that just like whole numbers, integers are commutative under multiplication, meaning the flip in order never alters the final product.
+D1 Q: Which of the following mathematical statements correctly demonstrates the commutative property of multiplication for integers $-8$ and $4$?
+A) $(-8) + 4 = 4 + (-8)$
+B) $(-8) \times 4 = 4 \times (-8)$
+C) $(-8) \div 4 = 4 \div (-8)$
+D) $(-8) - 4 = 4 - (-8)$
+D1 A: The correct answer is B. Option B correctly uses the multiplication operation to show that flipping the order of $-8$ and $4$ maintains equality: $(-8) \times 4 = -32$ and $4 \times (-8) = -32$. Choosing Option A shows a confusion between the commutative property of *addition* and multiplication. Choosing options C or D indicates that the student does not recognize that commutativity applies specifically to multiplic
+D2 Q: Rahul claims that $(-5) \times (-6)$ is not equal to $(-6) \times (-5)$ because the negative signs shift positions when you rewrite the expression. Is Rahul correct, and why?
+A) Yes, because switching the order of negative numbers changes the sign of the product.
+B) No, because the commutative property applies to integ
+D2 A: The correct answer is B. Rahul is incorrect because the commutative property of multiplication holds true for all integers, whether positive, negative, or zero. Both expressions evaluate to $+30$ ($(-5) \times (-6) = 30$ and $(-6) \times (-5) = 30$). Choosing Option A or C reveals a misconception that negative integers break fundamental arithmetic properties or that commutativity is restricted to natural numbers.
+D3 Q: Calculate the value of $14 \times (-9)$ using the commutative property of multiplication by first rewriting the expression with (-9) as the first multiplier. What is the final product?
+D3 A: The correct answer is $-126$. 
+Steps:
+1. Rewrite using commutativity: $(-9) \times 14$.
+2. Identify the sign rules: negative integer $\times$ positive integer = negative product.
+3. Multiply the absolute values: $9 \times 14 = 126$.
+4. Apply the negative sign: $-126$.
+A student who answers $+126$ has made a sign error, forgetting that multiplying a negative integer by a positive integer yields a negative product.
+D4 Q: Examine the following chain of multiplications: $A = [(-2) \times 7] \times (-5)$ and $B = (-2) \times [7 \times (-5)]$. How does the commutative property relate to rewriting these expressions? [IN-SCOPE-REWRITE]
+D4 A: The correct answer is that while both $A$ and $B$ evaluate to $+70$, transitioning between them requires both the *associative* property (moving brackets) and the *commutative* property (swapping inner terms). A student who confuses commutativity with associativity will state that swapping brackets is an example of the commutative property. Commutativity strictly refers to changing the order (position) of factors, wh
+D5 Q: Evaluate the student working below for the expression $(-12) \times (-3) = (-3) \times (-12)$:
+Step 1: $(-12) \times (-3) = +36$
+Step 2: $(-3) \times (-12) = -36$
+Step 3: Therefore, the commutative property does not hold for negative integers.
+Identify the error in the student's work.
+D5 A: The correct answer is that the error is in Step 2, where the student incorrectly computed $(-3) \times (-12)$ as $-36$. The correct product of two negative integers is positive, so $(-3) \times (-12)$ equals $+36$. A student who agrees with the faulty conclusion does not understand the sign rule for multiplying two negative integers (negative $\times$ negative = positive) and falsely believes negative numbers violate
+D6 Q: Create an algebraic or numerical expression involving three different integers (one positive, one negative, and zero) and show how applying the commutative property to two of the factors leaves the overall product unchanged.
+D6 A: A good answer will present an expression such as $5 \times (-4) \times 0$, apply commutativity to rewrite it as $(-4) \times 5 \times 0$, and show that both evaluate to $0$. A poor answer uses only positive numbers, omits zero, or fails to demonstrate an actual change in the order of the factors.
+
+VETTED-DIAG cfq_1_1 (fit 0.55, src c7_maths_diagnostics.marker)
+  Q: The product of a negative integer and a positive integer is -156. If the positive integer is 12, what is the negative integer? Show your working and state the property of multiplication used.
+  A: Let the negative integer be n. Then n x 12 = -156. So n = -156 / 12 = -13. Check: -13 x 12 = -156 (correct). Property used: Closure property of integers under multiplication (product of a negative and a positive integer is always a negative integer), and the associative/closure behaviour follows from the rule "negative x positive = negative".
+VETTED-DIAG cfq_2_1 (fit 0.42, src c7_maths_diagnostics.marker)
+  Q: A student claims: 'The product of any three negative integers is always negative, so the product of any four negative integers is also always negative.' Evaluate this claim with examples and state the correct rule.
+  A: The first part is correct: product of three negative integers is negative, e.g., (-2) x (-3) x (-4) = -24. The second part is INCORRECT. Product of four negative integers is POSITIVE because negatives pair up: (-2) x (-3) x (-4) x (-5) = [(+6)] x [(+20)] = +120. Correct rule: the product of an EVEN number of negative integers is positive; the product of an ODD number of negative integers is negative. The student over-generalised from odd to even.
+VETTED-DIAG cfq_4_3 (fit 0.40, src c7_maths_cfq_diagnostics.marker)
+  Q: Find the median of: 3, 7, 9, 11, 15.
+  A: 9 (middle value when arranged; n=5, median = 3rd value).
+VETTED-MIS misconception_14 (fit 0.50)
+  M: In a^2 - b^2 = (a-b)(a+b), the order of factors does not matter, so (a+b)(a-b) is a different identity
+  C: a^2 - b^2 = (a-b)(a+b) = (a+b)(a-b). The order of the factors does not change the product.
+VETTED-MIS misconception_4 (fit 0.40)
+  M: The order matters: a + 0 is different from 0 + a.
+  C: Addition is commutative. 5 + 0 and 0 + 5 both equal 5. The order of adding does not change the total.
+VETTED-MIS misconception_5 (fit 0.36)
+  M: (a + b)^3 = a^3 + 3a^2 b + 3b^2 a + b^3 is different from a^3 + 3a^2 b + 3a b^2 + b^3
+  C: 3a b^2 and 3b^2 a are identical; the order of factors does not change the product. Both writings represent the same term in the expansion.
+### NODE c7_math_ch15_010  class=7 sub=math ch=15 verdict=MISSING action=APPEND 3 from idx 7
+DEFINITION: Applications of equations in real-life situations involve translating everyday word problems into algebraic equations and solving them to find an unknown quantity. By assigning a variable to the missing value, we can set up a balance statement (equation) and use systematic inverse operations to find the exact numerical solution.
+WALKTHROUGH: Imagine you go to a stationery shop with ₹200. You buy a notebook for ₹50, and spend the rest of your money buying 3 identical pens. How much does each pen cost? To solve this puzzle without guessing, we can use algebra—a tool you started learning in Class 6 through simple expressions. First, we identify the unknown value (the cost of one pen) and give it a variable name, say $x$. Next, we write an equation that connects all the given information: the fixed cost plus 3 times the variable cost equals the total money spent ($50 + 3x = 200$). Finally, we use inverse operations to isolate the variable and find its exact value. The key insight is that every word problem is a balanced scale where both sides must remain equal as we peel away numbers step by step.
+D1 Q: If Rahul buys 4 identical notebooks and a school bag worth ₹150, and the total bill is ₹350, which of the following algebraic equations correctly represents this situation if $x$ is the cost of one notebook?
+A) $150x + 4 = 350$
+B) $4x + 150 = 350$
+C) $4(x + 150) = 350$
+D) $x + 150 = 350$
+D1 A: The correct answer is B. A student who chooses A confuses the coefficient of the variable with the fixed cost, thinking 150 is the price per notebook. A student who chooses C incorrectly groups the bag price with the notebook price before multiplying by the quantity. A student who chooses D ignores the quantity of notebooks purchased entirely.
+D2 Q: When solving the equation $5x - 12 = 28$ for a real-life money problem, why must we add 12 to both sides of the equation before dividing by 5?
+A) Because addition is always easier than subtraction.
+B) Because we must undo operations in reverse order of how they were applied to isolate the variable.
+C) Because the varia
+D2 A: The correct answer is B. A student who chooses A or D relies on superficial arithmetic preferences rather than algebraic structure. A student who chooses C misunderstands why inverse operations are performed; variables can certainly represent negative numbers in other contexts. Reversing operations systematically is the core principle of balancing equations.
+D3 Q: A gardener has a rectangular vegetable patch whose length is 3 metres more than twice its width. If the perimeter of the patch is 42 metres, what is the width of the patch?
+A) 6 metres
+B) 8 metres
+C) 9 metres
+D) 12 metres
+D3 A: The correct answer is B. 
+Steps:
+1. Let the width of the rectangle be $w$ metres. Then the length is $2w + 3$ metres.
+2. Recall the perimeter formula for a rectangle: $P = 2(\text{length} + \text{width})$.
+3. Substitute the expressions into the formula: $2((2w + 3) + w) = 42$.
+4. Simplify inside the parentheses: $2(3w + 3) = 42$, which expands to $6w + 6 = 42$.
+5. Subtract 6 from both sides: $6w = 36$, so $w = 6$. Wa
+D4 Q: Analyze the two word problems below:
+Problem X: "Sum of three consecutive integers is 72."
+Problem Y: "A number increased by 15 is equal to 3 times the number minus 5."
+How do the algebraic strategies for setting up these two problems differ?
+A) Problem X requires fractions, while Problem Y requires integers.
+B) Proble
+D4 A: The correct answer is B. A student who chooses C or D fails to analyze the structural setup of linear equations, confusing equation types with inequality or identity properties. Understanding how to represent consecutive integers versus balancing variables on both sides is crucial for advanced word problems.
+D5 Q: Priya solved the word problem "Find a number which when multiplied by 4 and diminished by 7 gives 25" with the following steps:
+Step 1: Let the number be $x$.
+Step 2: Write equation: $4x - 7 = 25$.
+Step 3: Add 7 to both sides: $4x = 25 + 7 = 32$.
+Step 4: Multiply both sides by 4: $x = 32 \times 4 = 128$.
+Evaluate Priya
+D5 A: The correct answer is B. A student who chooses A failed to verify the answer (if $x=128$, $4(128)-7 = 505 \neq 25$). The error occurred in Step 4 where she applied the wrong inverse operation; since $4$ is multiplied by $x$, the inverse operation is division, giving $x = 32 \div 4 = 8$.
+D6 Q: Create a real-world word problem about money or shopping that results in the linear equation $3x + 50 = 200$, and state what $x$ represents in your scenario.
+D6 A: A good response will clearly define $x$ as an unknown cost per item or quantity and construct a coherent scenario. For example: "A customer buys 3 identical chocolate bars and pays a delivery charge of ₹50. If the total bill is ₹200, find the cost of one chocolate bar where $x$ is the cost of one bar." A poor response fails to link the coefficients and constants to a logical real-world context.
+(append 3 new diagnostics as D7..)
+
+VETTED-DIAG cfq_2_1 (fit 1.00, src c7_maths_cfq_diagnostics.marker)
+  Q: Solve: 3x + 5 = 17
+  A: x = 4.
+VETTED-DIAG cfq_2_2 (fit 1.00, src c7_maths_cfq_diagnostics.marker)
+  Q: Solve: 2(x - 3) = 10
+  A: x = 8.
+VETTED-DIAG cfq_2_3 (fit 1.00, src c7_maths_cfq_diagnostics.marker)
+  Q: Solve: x/3 + 2 = 7
+  A: x = 15.
+VETTED-MIS misconception_14 (fit 0.25)
+  M: If A + B = A, then B must be the number 0.
+  C: If A + B = A for 2x2 matrices A and B, then B = O = [0 0; 0 0]. The additive identity in the set of 2x2 matrices is the zero matrix, not the real number 0.
+VETTED-MIS PP_C10_2023_033 (fit 0.24)
+  M: Candidates correctly form two equations from AP conditions but struggle to solve them, failing to find a = 20 and d = -4.
+  C: Use the general term Tn = a + (n-1)d to form equations, then solve the simultaneous equations by substitution or elimination.
+VETTED-MIS PP_C10_2023_033 (fit 0.24)
+  M: Candidates correctly form two equations from AP conditions but struggle to solve them, failing to find a = 20 and d = -4.
+  C: Use the general term Tn = a + (n-1)d to form equations, then solve the simultaneous equations by substitution or elimination.

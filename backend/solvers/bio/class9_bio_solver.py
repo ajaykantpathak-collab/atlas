@@ -425,3 +425,22 @@ class PlantPhysiologySolver:
         )
 
     # ---------- Transpiration (c9_bio_009) ----------
+
+# -- solver contract --------------------------------------------
+_SOLVERS = {"cell": BasicBiologySolver, "plant": PlantPhysiologySolver}
+
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Run a c9 bio question builder; q_* methods take an rng."""
+    params = params or {}
+    rng = make_rng(params.get("seed", 42))
+    topic = (params.get("topic") or "cell").lower()
+    key = "plant" if ("plant" in topic or "transpir" in topic or "photosyn" in topic) else "cell"
+    inst = _SOLVERS[key]()
+    fn_name = params.get("fn") or next((m for m in dir(inst) if m.startswith("q_")), None)
+    if not fn_name:
+        return {"node_id": node_id, "error": "no question builders"}
+    r = getattr(inst, fn_name)(rng)
+    return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": str(r)})
+
+SOLVER_REGISTRY = {"c9_bio_basic": solve}
+NODE_MAP = {n: "c9_bio_basic" for n in ("c9_bio_001", "c9_bio_002", "c9_bio_003", "c9_bio_008", "c9_bio_009")}

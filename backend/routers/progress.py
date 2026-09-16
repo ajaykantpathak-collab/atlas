@@ -295,6 +295,38 @@ async def get_study_heatmap(
 # --------------------------------------------------------------------------- #
 # Mastery records
 # --------------------------------------------------------------------------- #
+class MasteryBatchRequest(BaseModel):
+    model_config = _CAMEL_CFG
+    node_ids: List[str] = Field(default_factory=list, max_length=500)
+
+
+@router.post("/mastery/batch", response_model=List[MasteryRecordSchema])
+async def get_mastery_batch(
+    payload: MasteryBatchRequest,
+    user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    """Return mastery records for a list of nodes — used by the sims
+    mastery store to hydrate a fresh device from server-side state."""
+    out: List[MasteryRecordSchema] = []
+    for node_id in payload.node_ids:
+        try:
+            record = await ProgressService.get_mastery_record(
+                db, user_id=str(user.id), node_id=node_id
+            )
+        except ValueError:
+            continue
+        if record is None:
+            continue
+        if isinstance(record, MasteryRecordSchema):
+            out.append(record)
+        elif isinstance(record, dict):
+            out.append(MasteryRecordSchema(**record))
+        else:
+            out.append(MasteryRecordSchema.model_validate(record))
+    return out
+
+
 @router.get("/mastery/{node_id}", response_model=MasteryRecordSchema)
 async def get_mastery_record(
     node_id: str,

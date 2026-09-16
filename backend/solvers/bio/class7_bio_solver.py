@@ -1218,3 +1218,37 @@ __all__ = [
     "KB",
     "QUESTION_BANK",
 ]
+
+# -- solver contract --------------------------------------------
+# NOTE: BioSolver.get_all_questions() is broken upstream (bank lacks 'qid'
+# keys) — read QUESTION_BANK directly.
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    node = node_id or "c7_bio_001"
+    bank = QUESTION_BANK.get(node, {})
+    qi = int((params or {}).get("q", 0))
+    for qtype, qlist in bank.items():
+        if qlist:
+            q = qlist[qi % len(qlist)]
+            return {"node_id": node, "qtype": qtype, "question": q.get("text"),
+                    "options": q.get("options"), "answer": q.get("answer"),
+                    "explanation": q.get("explanation")}
+    return {"node_id": node, "error": "no questions"}
+
+def check_answer(node_id: str = "", qid: str = "", user_answer: str = "", **kw):
+    s = BioSolver()
+    if qid:
+        return s.validate(node_id, qid, user_answer)
+    # fuzzy check against node bank answers
+    node = node_id or "c7_bio_001"
+    for qlist in QUESTION_BANK.get(node, {}).values():
+        for q in qlist:
+            r = s._compare_answers(q.get("answer", ""), user_answer)
+            if r.get("correct") or r.get("match"):
+                return r
+    return {"correct": False, "note": "no bank match"}
+
+def explain_concept_q(node_id: str = "", topic_key: str = "", **kw):
+    return BioSolver().explain(node_id or "c7_bio_001", topic_key)
+
+SOLVER_REGISTRY = {"c7_bio_solve": solve, "c7_bio_check": check_answer, "c7_bio_explain": explain_concept_q}
+NODE_MAP = {"c7_bio_001": "c7_bio_solve", "c7_bio_002": "c7_bio_solve", "c7_bio_003": "c7_bio_solve"}

@@ -1,0 +1,23 @@
+====================================================================================================
+NODE c12_cs_cbse_08_004 verdict=PARTIAL cluster=[12, 'cs', 8] failing_abs=[5]
+DEFINITION: Infix to Postfix conversion is a stack-based algorithm that transforms an arithmetic expression from infix notation (operators between operands, e.g., A + B) to postfix notation (operators after operands, e.g., AB+), using a stack to temporarily hold operators and parentheses while respecting operator precedence and associativity rules. The algorithm scans the infix expression left-to-right, outputs operands immediately, and uses the stack to reorder operators so that the resulting postfix expression can be evaluated without parentheses or precedence rules.
+WALKTHROUGH: Imagine you are writing a calculator app that evaluates expressions like "3 + 4 * 2 / (1 - 5)^2". The CPU cannot directly understand infix because it needs to know which operation to do first — but postfix makes evaluation trivial: just scan left-to-right, push numbers, and when you see an operator, pop two numbers, apply it, push result. So how do we automatically convert infix to postfix? We'll use a stack as a "holding area" for operators. Start with a simple expression: A + B * C. Scan A → output A. Scan + → stack empty, push +. Scan B → output B. Scan * → top is +, * has higher precedence, so push *. Scan C → output C. End → pop all: * then + → output: ABC*+. Now try with parentheses: (A + B) * C. The '(' forces + to wait until ')' appears. This systematic left-to-right scan with stack decisions is the complete algorithm.
+D5 Q: A student writes the postfix of A + B * C ^ D - E as ABCD^*+E-. Is this correct? If not, identify the exact error and give the correct postfix.
+D5 A: Incorrect. Error: The student popped ^ and * before pushing - but ^ has higher precedence than *, so ^ should be popped first, then *, then - pushed. 
+Correct trace: 
+A → A 
++ → push + 
+B → B 
+* → top +, * > + push * 
+C → C 
+^ → top *, ^ > * push ^ 
+D → D 
+- → top ^, - < ^ pop ^ output ^; top *, - < * pop * output *; top +, - = + left-assoc pop + output +; push - 
+E → E 
+End → pop - 
+Correct postfix: ABCD^*+E-? Wait, let's re-evaluate: after popping ^, *, +, stack has -, then E, then pop - → ABCD^*+E-? Actually the student's answer ABCD^*+E- matches this! Let me re-check: 
+Student's answer: ABCD^*+E- 
+My trace: output A, B, C, D, then pop ^ → output ^, pop * → output *, pop + → output +, push -, output E, pop - → output -. So ABCD^*+E- is CORRECT. 
+But wait: The student wrote ABCD^*+E- which is exactly what I got. So the student is correct! 
+But the question asks "Is this correct? If not, identify error". It is correct. So the answer should be: Yes, it is correct. The conversion follows precedence: ^ highest, then *, then + and - same precedence left-assoc. 
+A wrong answer claiming it's incorrect would reveal misunderstanding of precedence hierarchy or associativity.

@@ -867,3 +867,32 @@ def _self_test() -> None:
 
 if __name__ == "__main__":
     _self_test()
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Generate + optionally check c8 CS problems via SolverEngine."""
+    params = params or {}
+    e = SolverEngine()
+    node = node_id or params.get("node_id", "c8_cs_001")
+    ptype = params.get("problem_type") or params.get("task")
+    if not ptype:
+        ptype = next((k.split("::")[-1] for k in SolverEngine._REGISTRY
+                      if str(k).startswith(node)), None)
+    try:
+        prob = e.generate(node, ptype, params.get("seed", 42))
+    except Exception as ex:
+        cand = [k for k in SolverEngine._REGISTRY if str(k).startswith(node)]
+        if not cand:
+            return {"node_id": node, "error": str(ex)}
+        key = cand[0]
+        prob = e.generate(key.split("::")[0], key.split("::")[-1], params.get("seed", 42))
+    out = prob if isinstance(prob, dict) else dict(getattr(prob, "__dict__", {"problem": str(prob)}))
+    if "user_answer" in params or "answer" in params:
+        out["check"] = e.check_answer(prob, params.get("user_answer", params.get("answer")))
+    return out
+
+def check_answer(problem=None, user_answer: str = "", **kw):
+    return SolverEngine().check_answer(problem, user_answer)
+
+SOLVER_REGISTRY = {"c8_cs_solve": solve, "c8_cs_check": check_answer}
+NODE_MAP = {"c8_cs_001": "c8_cs_solve", "c8_cs_002": "c8_cs_solve"}

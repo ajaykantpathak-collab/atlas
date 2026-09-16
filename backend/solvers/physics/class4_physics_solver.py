@@ -474,3 +474,21 @@ class Class4PhysicsSolver:
             },
         }
         return recs.get(node_id, {}).get(status, "Keep practising!")
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Classify/check c4 physics items via Class4PhysicsSolver."""
+    params = params or {}
+    s = Class4PhysicsSolver()
+    if "question" in params and ("user_answer" in params or "answer" in params):
+        r = s.check_answer(params["question"], params.get("user_answer", params.get("answer")))
+        return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": str(r)})
+    if "item" in params:
+        return {"classification": s.classify(node_id or params.get("node_id", "c4_phy_001"), params["item"])}
+    return {"node_id": node_id, "hint": "pass item to classify, or question + user_answer to check"}
+
+def check_answer(question=None, user_answer: str = "", **kw):
+    return Class4PhysicsSolver().check_answer(question, user_answer)
+
+SOLVER_REGISTRY = {"c4_phy_solve": solve, "c4_phy_check": check_answer}
+NODE_MAP = {"c4_phy_001": "c4_phy_solve", "c4_phy_002": "c4_phy_solve", "c4_phy_003": "c4_phy_solve"}

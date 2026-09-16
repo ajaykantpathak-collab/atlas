@@ -306,3 +306,22 @@ class MasteryTracker:
         if not all_hits:
             return 0.0
         return round(sum(all_hits) / len(all_hits), 2)
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Check/explain c6 geo questions via GeoSolver."""
+    params = params or {}
+    s = GeoSolver()
+    q = params.get("question") or params.get("q") or {}
+    if params.get("explain"):
+        return {"explanation": s.explain(q)}
+    if "answer" in params or "user_answer" in params:
+        r = s.check(q, params.get("answer", params.get("user_answer")))
+        return r if isinstance(r, dict) else getattr(r, "__dict__", {"result": str(r)})
+    return {"node_id": node_id, "hint": "pass question + answer to check, or explain=1"}
+
+def check_answer(question=None, user_answer: str = "", **kw):
+    return GeoSolver().check(question, user_answer)
+
+SOLVER_REGISTRY = {"c6_geo_solve": solve, "c6_geo_check": check_answer}
+NODE_MAP = {"c6_geo_001": "c6_geo_solve", "c6_geo_002": "c6_geo_solve", "c6_geo_003": "c6_geo_solve"}

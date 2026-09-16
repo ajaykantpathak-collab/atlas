@@ -1119,7 +1119,7 @@ class GeographySolver:
             answer = f"Longitude diff: {long_diff} deg -> {time_diff_min:.0f} min from IST"
             verification = f"{longitude} - 82.5 = {long_diff} deg x 4 = {time_diff_min:.0f} min"
 
-        elif qtype == "find_local':
+        elif qtype == "find_local":
             ref_time_str = params.get("reference_time", "12:00")
             ref_long = params.get("reference_longitude", 82.5)
             place_long = params.get("longitude", 75.0)
@@ -1210,7 +1210,7 @@ class GeographySolver:
             answer = "Logarithmic scale; each unit = 10x amplitude; measures earthquake magnitude"
             verification = "Richter scale: log scale, 10x per unit"
 
-        elif qtype == "ring_of_fire':
+        elif qtype == "ring_of_fire":
             steps.append("Pacific Ring of Fire:")
             steps.append("  - Horseshoe-shaped zone around Pacific Ocean")
             steps.append("  - 75% of world's volcanoes are here")
@@ -1594,7 +1594,7 @@ class GeographySolver:
                 answer = "Pollution type not found"
                 verification = "N/A"
 
-        elif qtype == "renewable_nonrenewable':
+        elif qtype == "renewable_nonrenewable":
             resources = {
                 "renewable": ["Solar energy", "Wind energy", "Hydropower", "Biomass/Biogas", "Tidal energy", "Geothermal energy"],
                 "nonrenewable": ["Coal", "Petroleum (Crude Oil)", "Natural Gas", "Minerals (Iron ore, Bauxite, Mica)", "Nuclear (Uranium)"]
@@ -1693,7 +1693,7 @@ class GeographySolver:
             answer = f"{back}T"
             verification = f"Back bearing of {forward}T = {back}T ({back}T + {forward}T = {(back+forward)%360}T = 360T = same line)"
 
-        elif qtype == "convert':
+        elif qtype == "convert":
             direction = params.get("direction_from", "North 30 East")
             # Parse "North 30 East" -> 30T
             match = re.search(r"(\d+)", direction)
@@ -2408,6 +2408,47 @@ class QuestionGenerator:
             q = self.generate(topic, difficulty, qtype)
             questions.append(q)
         return questions
+
+
+# ─── Registry Adapter ─────────────────────────────────────────────────────────
+
+_GEO7_TOPICS = [
+    "Map Scales", "Latitude and Longitude", "Temperature Conversion",
+    "Average Temperature", "Rainfall Analysis", "Wind Direction",
+    "Water Cycle", "Weather Instruments", "Soil Types",
+    "Natural Vegetation", "Landform Identification", "Contour Interval",
+    "Atmosphere Layers", "Standard Time", "Earthquake Terms",
+    "Ocean Currents", "Local Climate", "Environment",
+    "Compass Bearing",
+]
+
+
+def generate_questions(seed: int = 0, count: int = None,
+                       topic: str = None) -> List[Dict[str, Any]]:
+    """Registry adapter: deterministic questions for Class 7 Geography.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    """
+    n = 1 if count is None else max(1, int(count))
+    gen = QuestionGenerator(seed=seed)
+    questions = []
+    for i in range(n):
+        t = topic if topic else _GEO7_TOPICS[(seed + i) % len(_GEO7_TOPICS)]
+        qtype = "Standard" if (seed + i) % 2 == 0 else "Competency-Based"
+        # Deterministic per-question state for the generator's global RNG use.
+        random.seed((seed * 100003 + i * 7919) % (2 ** 31))
+        q = gen.generate(t, "Medium", qtype)
+        questions.append({
+            "id": f"geo7_{seed}_{i}",
+            "type": "short_answer",
+            "difficulty": q.difficulty,
+            "topic": q.topic,
+            "question": q.question_text,
+            "answer": q.answer,
+            "explanation": " | ".join(q.solution_steps[:5]),
+            "question_type": "numerical" if qtype == "Standard" else "short_answer",
+        })
+    return questions
 
 
 # ─── Main ──────────────────────────────────────────────────────────────────────

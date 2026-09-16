@@ -277,8 +277,13 @@ def get_intelligence() -> tuple[IntelligenceBus, IntelligenceState]:
     global _bus, _state, _wired
     with _wire_lock:
         if _bus is None:
+            data_dir = os.environ.get("DREAM_DATA")
+            if not data_dir:
+                # Deploy layout: cbse_data/ sits next to backend/ in the bundle
+                _here = os.path.dirname(os.path.abspath(__file__))
+                data_dir = os.path.join(_here, "..", "..", "cbse_data")
             log_path = os.path.join(
-                os.environ.get("DREAM_DATA", r"D:\platform\cbse_data"),
+                os.path.normpath(data_dir),
                 "intelligence_updates", "events.jsonl",
             )
             _bus = IntelligenceBus(log_path=log_path)

@@ -80,12 +80,17 @@ def _bound_student_id(
 _CATALOG_DIR = os.path.normpath(os.path.join(
     os.path.dirname(__file__), "..", "its", "competency"))
 
-# Student-model store (backend/_cache/, the same JSON-cache pattern the
-# enhanced-nodes index uses): the tutor's mastery, mistake book and
-# serve state are re-written here after every serve/submit so
-# /api/tutor-graph/progress survives backend restarts.
-_TUTOR_STORE = os.path.normpath(os.path.join(
-    os.path.dirname(__file__), "..", "_cache", "tutor_students.json"))
+# Student-model store: the tutor's mastery, mistake book and serve state
+# persist per student after every serve/submit so /api/tutor-graph/progress
+# survives backend restarts.  Postgres is authoritative (one row per
+# student — concurrent replicas can't clobber a shared file); the legacy
+# cbse_data/tutor_students.json path remains as the fallback when the DB
+# is unreachable.  Overridable via TUTOR_STORE env.
+_TUTOR_STORE = os.environ.get(
+    "TUTOR_STORE",
+    os.path.normpath(os.path.join(
+        os.path.dirname(__file__), "..", "..", "cbse_data",
+        "tutor_students.json")))
 
 _engine: Optional[TutorEngine] = None
 _lock = threading.Lock()
@@ -127,7 +132,9 @@ def _get_engine() -> TutorEngine:
         if _engine is None:
             if not os.path.isdir(_CATALOG_DIR):
                 raise HTTPException(503, "competency catalog dir missing")
-            _engine = TutorEngine(_CATALOG_DIR, persist_path=_TUTOR_STORE)
+            from backend.services.tutor_store import build_store
+            _engine = TutorEngine(_CATALOG_DIR, persist_path=_TUTOR_STORE,
+                                  store=build_store(_TUTOR_STORE))
             # spiral-review feed: graded wrong answers booked into the
             # tutor's mistake book are also scheduled in the SM-2
             # review queue (best-effort; grading never depends on it)

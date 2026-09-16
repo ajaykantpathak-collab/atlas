@@ -1,0 +1,11 @@
+{
+ "c8_chem_ch2_3": {
+  "rewrites": {
+   "6": {
+    "q": "Trace the correct sequence of scaling from a single atom to a visible piece of an element like copper.",
+    "a": "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can see (4) The visible metal still behaves chemically as copper. A wrong answer that calls the smallest unit a molecule shows the student has confused the smallest unit of an element with the smallest independent unit of a compound, and an analogy with no structural match shows a weak grasp of how microscopic units build macroscopic matter."
+   }
+  },
+  "appends": []
+ }
+}

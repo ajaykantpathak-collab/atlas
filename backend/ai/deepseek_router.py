@@ -17,7 +17,9 @@ from datetime import datetime
 
 import httpx
 import numpy as np
-from sentence_transformers import SentenceTransformer
+
+# sentence_transformers (→ torch) is heavy — import lazily in _get_embedder
+# so boot doesn't pay for it on workers that never route.
 
 from backend.ai.problem_type_descriptions import PROBLEM_TYPE_DESCRIPTIONS
 from backend.ai.problem_types import PROBLEM_TYPES, ProblemType
@@ -53,7 +55,7 @@ MINILM_GAP_THRESHOLD = 0.15  # and gap between #1 and #2 > this
 # MiniLM embedder — loaded once, reused across requests
 # ─────────────────────────────────────────────────────────────────────
 
-_embedder: Optional[SentenceTransformer] = None
+_embedder = None  # Optional[SentenceTransformer] — lazy, see _get_embedder
 _pt_ids: list = []
 _pt_embeddings = None
 
@@ -66,6 +68,7 @@ def _get_embedder():
     """Lazy-load MiniLM and pre-compute problem type embeddings."""
     global _embedder, _pt_ids, _pt_embeddings
     if _embedder is None:
+        from sentence_transformers import SentenceTransformer
         logger.info("Loading MiniLM for DeepSeek router...")
         _embedder = SentenceTransformer('all-MiniLM-L6-v2')
         _pt_ids = list(PROBLEM_TYPE_DESCRIPTIONS.keys())

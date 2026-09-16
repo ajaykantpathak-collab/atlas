@@ -1,0 +1,185 @@
+
+### NODE c11_chem_cbse_02_017  class=11 sub=chem ch=2 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Hund's Rule of Maximum Multiplicity states that when electrons occupy degenerate orbitals (orbitals of equal energy within the same subshell), they occupy separate orbitals singly with parallel spins before any pairing occurs. This arrangement maximizes the total spin multiplicity (2S+1) and minimizes electron-electron repulsion, leading to the lowest energy ground state.
+WALKTHROUGH: Observe a magnetic stirrer in the chemistry lab: the stir bar (iron) is strongly attracted to the rotating magnet beneath the beaker, while a ceramic stir bar is not. This macroscopic magnetism originates from unpaired electron spins in the iron atoms. Now consider the electron configuration of gaseous oxygen atoms (1s²2s²2p⁴). How do four electrons arrange in three degenerate 2p orbitals? If they paired up immediately, we would get one paired orbital and two empty orbitals — but experiments show oxygen atoms have two unpaired electrons (paramagnetic). This forces us to accept that electrons fill degenerate orbitals singly first with parallel spins (Hund's rule). Let's verify with carbon (2p²): two electrons occupy two different p orbitals with parallel spins. For nitrogen (2p³): three electrons singly occupy all three p orbitals (half-filled, extra stable). For oxygen (2p⁴): the fourth electron must pair in one orbital, leaving two unpaired. This pattern — singles first, parallel spins, then pairs — is Hund's rule, driven by exchange energy stabilization and reduced electron-electron repulsion.
+D1 Q: State Hund's rule of maximum multiplicity in your own words.
+D1 A: Correct answer: When filling degenerate orbitals (same subshell), electrons occupy separate orbitals singly with parallel spins before any orbital gets a second electron. This maximizes total spin multiplicity. A wrong answer (e.g., "electrons pair up as soon as possible" or "electrons fill orbitals in order of increasing energy") reveals confusion with the Aufbau principle or a misunderstanding that pairing lowers e
+D2 Q: Why do electrons in degenerate orbitals prefer to remain unpaired with parallel spins rather than pair up in the same orbital? Explain using the concepts of electron-electron repulsion and exchange energy.
+D2 A: Correct answer: Parallel spins in different orbitals keep electrons farther apart on average (reducing Coulombic repulsion) and allow quantum mechanical exchange interactions that lower the energy (exchange energy). Pairing forces two electrons into the same orbital, increasing repulsion and losing exchange stabilization. A wrong answer focusing only on Pauli exclusion ("opposite spins required in same orbital") miss
+D3 Q: Draw the orbital diagram for the 3d subshell of a Fe²⁺ ion (Z=26). How many unpaired electrons does it have? Is Fe²⁺ paramagnetic or diamagnetic?
+D3 A: Correct working: Fe atomic config = [Ar]4s²3d⁶. Fe²⁺ loses 4s² electrons → [Ar]3d⁶. For 3d⁶: five degenerate d orbitals. Hund's rule: first 5 electrons go singly into each orbital with parallel spins (↑ ↑ ↑ ↑ ↑). The 6th electron pairs in one orbital (↑↓). Unpaired electrons = 4. Paramagnetic (attracted to magnetic field). A wrong answer (e.g., 2 unpaired or 0 unpaired) shows the student paired electrons too early (v
+D4 Q: Compare the orbital diagrams of nitrogen (1s²2s²2p³) and oxygen (1s²2s²2p⁴). Explain why nitrogen has a half-filled p subshell and how this affects its ionization energy relative to oxygen.
+D4 A: Correct answer: Nitrogen (2p³): three electrons singly occupy all three p orbitals with parallel spins (↑ ↑ ↑) — half-filled, maximum exchange energy, symmetrical distribution, extra stable. Oxygen (2p⁴): one orbital has paired electrons (↑↓), two orbitals have single electrons (↑ ↑). The paired electrons in oxygen experience greater repulsion, making it easier to remove one (lower ionization energy) despite oxygen's
+D5 Q: A student draws the orbital diagram for a 2p⁴ configuration as: Orbital 1: ↑, Orbital 2: ↑, Orbital 3: ↑, and places the fourth electron in a "fourth p orbital" (↑). Identify the error and draw the correct diagram.
+D5 A: Error: A p subshell has exactly three orbitals (px, py, pz). There is no fourth p orbital. The fourth electron must pair in one of the three existing orbitals. Correct diagram: One orbital with ↑↓, two orbitals with ↑ each. All unpaired electrons have parallel spins. A wrong answer reveals the student doesn't know the number of orbitals per subshell (p=3, d=5, f=7) — a prerequisite from quantum numbers (ml values). T
+D6 Q: Design a simple experiment using a strong magnet and aqueous solutions of FeSO₄, CuSO₄, and ZnSO₄ to demonstrate the concept of unpaired electrons predicted by Hund's rule. Explain your observations and link them to the d-electron configurations of Fe²⁺, Cu²⁺, and Zn²⁺. [IN-SCOPE-REWRITE]
+D6 A: Expected answer: FeSO₄ (Fe²⁺: [Ar]3d⁶ → 4 unpaired electrons) and CuSO₄ (Cu²⁺: [Ar]3d⁹ → 1 unpaired electron) show paramagnetic attraction to the magnet. ZnSO₄ (Zn²⁺: [Ar]3d¹⁰ → 0 unpaired electrons) shows no attraction (diamagnetic). The student must correctly apply Hund's rule to d⁶ (↑↓ ↑ ↑ ↑ ↑), d⁹ (↑↓ ↑↓ ↑↓ ↑↓ ↑), and d¹⁰ (↑↓ ×5) to predict unpaired counts. A poor answer confuses the configurations (e.g., thinks
+
+VETTED-DIAG C11_CFQ_Q6 (fit 0.53, src c11_cfq_diagnostic.marker)
+  Q: The first ionisation enthalpy of nitrogen is higher than that of oxygen. This is because: (a) N has a smaller atomic size (b) N has a half-filled p subshell (c) O has more protons (d) O has more electrons
+  A: (b) N has a half-filled p subshell
+VETTED-DIAG C11_CFQ_Q5 (fit 0.50, src c11_cfq_diagnostic.marker)
+  Q: The electronic configuration of Cr (Z=24) is: (a) [Ar] 4s^2 3d^4 (b) [Ar] 4s^1 3d^5 (c) [Ar] 4s^2 3d^6 (d) [Ar] 4s^0 3d^6
+  A: (b) [Ar] 4s^1 3d^5
+VETTED-DIAG C11_CFQ_Q31 (fit 0.40, src c11_cfq_diagnostic.marker)
+  Q: Balance: Cr2O7^2- + C2H5OH + H^+ -> Cr^3+ + CO2 + H2O using the half-reaction method.
+  A: 3C2H5OH + 2Cr2O7^2- + 16H^+ -> 4Cr^3+ + 6CO2 + 11H2O
+VETTED-MIS misconception_5 (fit 0.25)
+  M: The nucleus contains protons, neutrons, AND electrons.
+  C: The nucleus contains only protons and neutrons. Electrons occupy the region outside the nucleus.
+VETTED-MIS misconception_11 (fit 0.22)
+  M: Promotion of an electron and hybridisation are the same step.
+  C: Promotion is an energy investment that creates unpaired electrons for bonding; hybridisation is the reshaping of orbitals to match the molecular geometry. Both are theoretical constructs within the valence-bond model, but they answer different questions (how many bonds vs. what shape).
+VETTED-MIS misconception_7 (fit 0.21)
+  M: Atomic size depends only on the number of electrons, not on the number of shells.
+  C: The number of electron shells is the primary determinant of atomic size; nuclear charge modifies it within a shell.
+### NODE c11_chem_cbse_04_012  class=11 sub=chem ch=4 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: The dipole moment (μ) of a polar covalent bond is the product of the magnitude of the partial charge (δ) on either atom and the distance (r) between the centres of positive and negative charge: μ = δ × r. It is a vector quantity directed from the positive centre to the negative centre by convention, but represented in chemistry by a crossed arrow (➤) pointing from positive to negative end on the Lewis structure, with the cross on the positive end. The SI unit is coulomb metre (C·m); the commonly used unit is the Debye (D), where 1 D = 3.336 × 10⁻³⁰ C·m.
+WALKTHROUGH: Observe how a stream of water from a tap bends towards a charged plastic comb rubbed through dry hair — the water molecule acts like a tiny magnet with a positive and negative end. This happens because oxygen pulls the shared electrons more strongly than hydrogen, creating a charge separation. Recall from Class 9 (c9_chem_ch3_4) that covalent bonds involve electron sharing, but here the sharing is unequal. Start by identifying the more electronegative atom in a bond (using periodic trends from Class 10, c10_chem_cbse_05_010). Then determine molecular shape using VSEPR theory (c11_chem_cbse_04_005). Finally, add bond dipoles as vectors — if they cancel by symmetry, net μ = 0 (non-polar); if not, the molecule is polar. This vector addition uses trigonometry (c10_math_cbse_08_001) where the resultant of two equal dipoles at angle θ is μ_net = 2μ_bond cos(θ/2).
+D1 Q: Define dipole moment and state its SI unit. Why is the crossed arrow representation used in chemistry instead of the conventional vector arrow?
+D1 A: Dipole moment (μ) = charge (q) × distance of separation (r); SI unit = C·m. The crossed arrow (➤) points from δ+ to δ− with the cross on the δ+ end, opposite to the physics convention (vector from − to +). A wrong answer (e.g., stating unit as Debye only, or drawing arrow from negative to positive) reveals confusion between physics and chemistry conventions and ignorance of the 1 D = 3.336 × 10⁻³⁰ C·m conversion.
+D2 Q: Explain why CO₂ has zero net dipole moment while H₂O has a net dipole moment of 1.85 D, even though both contain polar bonds. Use molecular geometry in your explanation.
+D2 A: CO₂ is linear (O=C=O, 180°); the two equal C=O bond dipoles are opposite and cancel vectorially → μ_net = 0. H₂O is bent (∠HOH ≈ 104.5°); the two O−H bond dipoles add at an angle, giving a resultant along the bisector. A wrong answer (e.g., "CO₂ has no polar bonds" or "H₂O is linear") shows failure to connect VSEPR geometry to vector addition of dipoles.
+D3 Q: The bond dipole moment of H−F is 1.91 D and the H−F bond length is 92 pm. Calculate the partial charge (δ) on each atom in units of elementary charge (e). (1 D = 3.336 × 10⁻³⁰ C·m; e = 1.602 × 10⁻¹⁹ C)
+D3 A: μ = 1.91 D = 1.91 × 3.336 × 10⁻³⁰ = 6.372 × 10⁻³⁰ C·m. r = 92 pm = 92 × 10⁻¹² m. δ = μ/r = 6.372×10⁻³⁰ / 92×10⁻¹² = 6.926×10⁻²⁰ C. In units of e: δ/e = 6.926×10⁻²⁰ / 1.602×10⁻¹⁹ = 0.432 e. A wrong answer (e.g., forgetting unit conversion, using 1 D = 10⁻¹⁸ esu·cm incorrectly) reveals poor dimensional analysis and confusion between Debye and SI units.
+D4 Q: Compare the dipole moments of NH₃ (1.47 D) and NF₃ (0.23 D). Both are pyramidal with a lone pair on nitrogen. Explain the large difference using the direction of the lone pair dipole relative to the bond dipoles.
+D4 A: In NH₃, N is more electronegative than H; each N−H bond dipole points N←H. The lone pair dipole points in the same direction as the resultant of the three N−H dipoles (away from H atoms), adding constructively → large μ. In NF₃, F is more electronegative than N; each N−F dipole points N→F. The lone pair dipole points opposite to the resultant of the three N−F dipoles, partially cancelling → small μ. A wrong answer (e
+D5 Q: A student claims: "BF₃ has polar B−F bonds, so it must have a net dipole moment." Evaluate this statement and correct the error.
+D5 A: The statement is false. BF₃ is trigonal planar (sp², 120°). The three equal B−F bond dipoles are symmetrically arranged at 120°; their vector sum is zero. Polarity of individual bonds does not guarantee molecular polarity — geometry determines whether bond dipoles cancel. A wrong answer accepting the claim shows inability to apply symmetry arguments and vector addition to molecular shape.
+D6 Q: Design a simple experiment using household items to demonstrate that water is a polar molecule but carbon tetrachloride (CCl₄) is non-polar. Explain the expected observations. [IN-SCOPE-REWRITE]
+D6 A: Charge a plastic ruler by rubbing with wool. Bring it near a thin stream of water from a tap — the stream bends toward the ruler. Repeat with CCl₄ (or cooking oil as proxy) — no bending. Water's net dipole aligns with the external field; CCl₄'s tetrahedral symmetry gives μ_net = 0, so no alignment. A poor answer (e.g., "both bend" or "neither bends") reveals no understanding of molecular polarity's macroscopic manife
+
+VETTED-DIAG C11_CFQ_Q30 (fit 1.00, src c11_cfq_diagnostic.marker)
+  Q: Calculate the pH of 0.1M NH4OH (Kb = 1.8 x 10^-5).
+  A: pH = 11.13
+VETTED-DIAG C11_CFQ_Q9 (fit 0.57, src c11_cfq_diagnostic.marker)
+  Q: The bond order of O2 molecule according to Molecular Orbital Theory is: (a) 1 (b) 2 (c) 3 (d) 2.5
+  A: (b) 2
+VETTED-DIAG cfq_4_2 (fit 0.52, src c11_chem_diagnostics.marker)
+  Q: The dipole moment of NH3 (1.46 D) is higher than that of NF3 (0.235 D), even though fluorine is more electronegative than hydrogen. Explain.
+  A: In NH3, the N-H bond dipoles point from H toward N (N is more electronegative than H), and the lone pair on N also points toward the lone-pair side. Thus the bond dipoles and the lone-pair contribution add, giving a large net dipole. In NF3, the N-F bond dipoles point from N toward F (F is more electronegative), which is opposite to the direction of the lone pair on N. The bond dipoles and the lone-pair contribution therefore oppose each other, and the net dipole is small. So NH3 > NF3 in dipole moment.
+VETTED-MIS misconception_7 (fit 0.33)
+  M: The atom is neutral because it has no particles with charge inside it.
+  C: "Neutral atom" means total charge = 0 because positive and negative charges balance, not because there are no charges at all.
+VETTED-MIS misconception_6 (fit 0.25)
+  M: pH = log[H+] (no negative sign).
+  C: pH = -log[H+]. The negative sign is essential.
+VETTED-MIS misconception_2 (fit 0.22)
+  M: In electrolysis, H2 is produced at the anode.
+  C: H2 is produced at the CATHODE (negative electrode, reduction). O2 at the ANODE (positive, oxidation).
+### NODE c11_chem_cbse_07_001  class=11 sub=chem ch=7 verdict=PARTIAL action=REWRITE [2]
+DEFINITION: Equilibrium in physical processes is a dynamic state in a closed system where opposing physical changes (such as melting/freezing, evaporation/condensation, or sublimation/deposition) occur at equal rates, resulting in no net change in the macroscopic properties (temperature, pressure, concentration) of the system over time. The equilibrium is characterized by a constant value of an intensive property (e.g., vapour pressure for liquid-vapour equilibrium, melting point for solid-liquid equilibrium) at a given temperature.
+WALKTHROUGH: Observe a sealed bottle of carbonated drink (like Thums Up or Limca) at room temperature — you see no bubbles rising, yet when you open it, CO₂ fizzes out violently. This demonstrates gas-liquid equilibrium: inside the sealed bottle, CO₂ dissolves in the liquid at the same rate it escapes, maintaining constant pressure. Now place an ice cube in a insulated flask at 0°C — it neither melts completely nor grows; solid and liquid water coexist at constant temperature. These everyday Indian kitchen observations reveal that physical equilibrium requires a closed system, a constant temperature, and opposing processes at equal rates. Begin by identifying the two phases present and the intensive property that remains constant (vapour pressure, melting point, solubility). Connect this to Class 9's "Particulate Nature of Matter" (c8_chem_ch2_5) where you learned particles in liquids have enough energy to escape — now understand that at equilibrium, the *rate* of escape equals the *rate* of return.
+D1 Q: A student places 50 g of ice and 50 g of water in a perfectly insulated, sealed container at 0°C and 1 atm. After 2 hours, they measure the mass of ice and water. What will they observe, and why does this represent a physical equilibrium?
+D1 A: The masses of ice and water will remain 50 g each — no net melting or freezing occurs. This is solid-liquid equilibrium at the melting point (0°C at 1 atm) where the rate of melting equals the rate of freezing. A wrong answer (e.g., "all ice melts" or "all water freezes") reveals the student thinks equilibrium means "reaction stops" rather than "opposing processes continue at equal rates" — they miss the dynamic natu
+D2 Q: Why does water in an open beaker at 25°C eventually evaporate completely, while water in a sealed bottle at 25°C reaches a constant vapour pressure? Explain using the concept of dynamic equilibrium and system closure.
+D2 A: In the open beaker, water vapour escapes into the infinite surroundings, so the reverse process (condensation) cannot keep up — the system is not closed, so equilibrium cannot be established. In the sealed bottle, escaped molecules accumulate, increasing condensation rate until it equals evaporation rate. A wrong answer (e.g., "evaporation stops in sealed bottle") shows the student confuses "no net change" with "proc
+D3 Q: Solid iodine (I₂) is placed in a sealed evacuated flask at 25°C. Purple vapour appears and gradually darkens until its colour intensity becomes constant. Write the equilibrium equation, identify the constant intensive property, and calculate the vapour pressure of iodine at 25°C if the density of the vapour is 0.012 g/ [IN-SCOPE-REWRITE]
+D3 A: Equation: I₂(s) ⇌ I₂(g) 
+Constant property: Vapour pressure of iodine at 25°C 
+Calculation: 
+PV = nRT → P = (density/M) × RT = (0.012 g/L ÷ 254 g/mol) × 0.0821 L·atm·mol⁻¹·K⁻¹ × 298 K = 1.16 × 10⁻³ atm 
+A wrong calculation (e.g., using M = 127 g/mol for I atom) reveals confusion between atomic and molecular molar mass. Forgetting to write the equilibrium equation with phases shows inability to represent physical equi
+D4 Q: Compare the solid-liquid equilibrium of water (ice ⇌ water) at 0°C and 1 atm with the liquid-vapour equilibrium of water (water ⇌ steam) at 100°C and 1 atm. Identify two similarities and two differences in terms of: (a) intensive property that remains constant, (b) effect of pressure on equilibrium temperature, (c) mol
+D4 A: Similarities: (1) Both are dynamic equilibria in closed systems at constant T and P; (2) Both have ΔG = 0 at equilibrium. 
+Differences: 
+(a) Constant property: Melting point (0°C) vs. Vapour pressure (1 atm / boiling point 100°C) 
+(b) Pressure effect: Increasing pressure *lowers* melting point of ice (ΔV < 0) but *raises* boiling point (ΔV > 0) 
+(c) Molar volume: Ice → water: ΔV = -1.6 cm³/mol (contraction); Water → 
+D5 Q: A student claims: "At liquid-vapour equilibrium, the rate of evaporation equals the rate of condensation, so the vapour pressure becomes zero because no net molecules enter the vapour phase." Evaluate this statement and correct the misconception.
+D5 A: The statement is false. Equal rates mean *no net change* in vapour density/pressure, not zero vapour pressure. At equilibrium, vapour pressure reaches a constant non-zero value (saturated vapour pressure) characteristic of that temperature. Molecules continuously evaporate and condense — the vapour phase is not empty. A student making this claim confuses "net rate = 0" with "individual rates = 0" and fails to grasp t
+D6 Q: Design a simple experiment using household items (pressure cooker, water, thermometer, stopwatch) to demonstrate that the boiling point of water increases with pressure. Describe the procedure, what you would measure, and how you would relate it to liquid-vapour equilibrium and Le Chatelier's principle.
+D6 A: Procedure: (1) Heat 200 mL water in an open pan — record temperature when vigorous boiling starts (T₁ ≈ 100°C at 1 atm). (2) Heat 200 mL water in a pressure cooker *without* the weight/whistle — record temperature when steady steam escapes the vent (T₂ > 100°C, pressure > 1 atm). (3) Repeat with weight on, noting higher temperature (T₃ > T₂). 
+Measurements: Boiling temperature at different pressures. 
+Relation: Liqui
+
+VETTED-DIAG C11_CFQ_Q13 (fit 1.00, src c11_cfq_diagnostic.marker)
+  Q: For N2 + 3H2 <=> 2NH3, if [N2]=0.1, [H2]=0.2, [NH3]=0.4, the value of Kc is: (a) 100 (b) 200 (c) 50 (d) 400
+  A: (b) 200
+VETTED-DIAG C11_CFQ_Q30 (fit 1.00, src c11_cfq_diagnostic.marker)
+  Q: Calculate the pH of 0.1M NH4OH (Kb = 1.8 x 10^-5).
+  A: pH = 11.13
+VETTED-DIAG C11_CFQ_Q35 (fit 0.57, src c11_cfq_diagnostic.marker)
+  Q: For PCl5 <=> PCl3 + Cl2, Kc = 0.5 at 500K. If 1 mol PCl5 is placed in a 2L container, find the equilibrium concentrations.
+  A: [PCl5] = 0.191M, [PCl3] = [Cl2] = 0.309M
+VETTED-MIS misconception_6 (fit 0.53)
+  M: A change of state (solid to liquid to gas) is a chemical change because the substance looks different.
+  C: Changes of state are physical changes. The substance keeps its identity; only its form changes. Melting, freezing, evaporation, and condensation are all physical.
+VETTED-MIS misconception_13 (fit 0.50)
+  M: Evaporation is a chemical change because the liquid 'disappears'.
+  C: Evaporation is a physical change of state from liquid to gas. The substance remains the same; only its state changes.
+VETTED-MIS misconception_5 (fit 0.38)
+  M: When ice melts into water, new matter is created.
+  C: During melting, solid changes to liquid but the amount of matter stays the same. No new substance is formed; it is a physical change.
+### NODE c11_chem_cbse_07_002  class=11 sub=chem ch=7 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Dynamic equilibrium in a chemical process is a state in a reversible reaction where the rate of the forward reaction equals the rate of the reverse reaction, resulting in no net change in the concentrations of reactants and products over time, though molecular-level transformations continue unabated.
+WALKTHROUGH: Observe a saturated sugar solution in a glass with undissolved crystals at the bottom — the amount of dissolved sugar appears constant, yet if you add radioactive sugar crystals, radioactivity soon appears in the solution, proving molecules continuously exchange. This mirrors Class 9 learning on saturated solutions (c9_chem_ch1_3) but now we generalize: in a closed vessel, N₂(g) + 3H₂(g) ⇌ 2NH₃(g) reaches a point where ammonia forms as fast as it decomposes. Start by identifying a reversible reaction (⇌), then track concentration vs time graphs until they plateau — that plateau is dynamic equilibrium.
+D1 Q: In the reversible reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium in a closed container, which statement is correct? (a) The forward reaction has stopped. (b) The concentrations of N₂, H₂, and NH₃ are equal. (c) The rate of formation of NH₃ equals the rate of its decomposition. (d) The total pressure of the system is 
+D1 A: Correct: (c) The rate of formation of NH₃ equals the rate of its decomposition. Dynamic equilibrium means both forward and reverse reactions continue at equal rates, so no net change occurs. A wrong choice (a) reveals the static equilibrium misconception — students think "equilibrium" means everything stops. Choice (b) confuses equal rates with equal concentrations; equilibrium concentrations depend on Kc, not stoich
+D2 Q: A student writes: "At equilibrium, the reaction N₂O₄(g) ⇌ 2NO₂(g) has no net change because all N₂O₄ molecules have converted to NO₂." Explain why this is incorrect using the concept of dynamic equilibrium.
+D2 A: The statement is incorrect because at equilibrium, both N₂O₄ and NO₂ coexist; N₂O₄ continuously dissociates into NO₂ while NO₂ simultaneously recombines into N₂O₄ at the same rate. The "no net change" refers to constant macroscopic concentrations, not cessation of reaction. A wrong answer indicates the student views equilibrium as a completion point (like irreversible reactions in Class 10) rather than a dynamic bala
+D3 Q: For the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g), initially 1.0 mol H₂ and 1.0 mol I₂ are placed in a 10 L vessel. At equilibrium, 0.6 mol of HI is found. Calculate the equilibrium concentrations of all species and determine if the system has reached equilibrium from the forward or reverse direction.
+D3 A: Initial: [H₂] = 0.1 M, [I₂] = 0.1 M, [HI] = 0 M. Change: HI increases by 0.6 mol/10 L = 0.06 M, so H₂ and I₂ each decrease by 0.03 M (stoichiometry 1:1:2). Equilibrium: [HI] = 0.06 M, [H₂] = 0.07 M, [I₂] = 0.07 M. Since HI was zero initially and increased, the net reaction proceeded forward. A wrong answer (e.g., using 0.6 M instead of 0.06 M) reveals mole-to-concentration conversion error. Forgetting the 2:1 stoichi
+D4 Q: Compare the equilibrium in a saturated NaCl solution (solid NaCl ⇌ Na⁺(aq) + Cl⁻(aq)) with the gas-phase equilibrium 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). Identify two similarities and two differences in their dynamic nature and macroscopic observables.
+D4 A: Similarities: (1) Both are dynamic — ions/crystals and gas molecules continuously interchange at equal rates. (2) Both show constant macroscopic properties (concentration/pressure) at equilibrium. Differences: (1) Heterogeneous vs homogeneous — NaCl equilibrium involves a solid phase (activity = 1), while SO₂/SO₃ is all gas. (2) Observable: saturated solution shows constant conductivity; gas equilibrium shows constan
+D5 Q: A student claims: "If I add more H₂ to the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the system will immediately form more NH₃ and the equilibrium constant Kc will increase." Evaluate this claim.
+D5 A: The claim is partially correct in outcome but wrong in reasoning. Adding H₂ shifts equilibrium forward (Le Chatelier), producing more NH₃ temporarily, but Kc remains constant at constant temperature — only temperature changes Kc. The student confuses "position of equilibrium" (concentrations) with "equilibrium constant" (ratio at equilibrium). A wrong answer reveals confusion between Kc (thermodynamic constant) and Q
+D6 Q: Design a simple school-lab experiment to demonstrate that chemical equilibrium is dynamic, not static, using the reaction Fe³⁺(aq) + SCN⁻(aq) ⇌ [Fe(SCN)]²⁺(aq) (deep red). List materials, procedure, and the key observation that proves dynamism. [IN-SCOPE-REWRITE]
+D6 A: Materials: FeCl₃ solution, KSCN solution, water, test tubes, spectrophotometer or colorimeter (or visual comparison). Procedure: (1) Prepare equilibrium mixture — deep red. (2) Split into two tubes. (3) Add excess Fe³⁺ to tube A (color intensifies). (4) Add excess SCN⁻ to tube B (color intensifies). (5) To a third tube, add radioactive isotope tracer (⁵⁹Fe or ³⁵S) — if available — and track incorporation into complex
+
+VETTED-DIAG C11_CFQ_Q30 (fit 1.00, src c11_cfq_diagnostic.marker)
+  Q: Calculate the pH of 0.1M NH4OH (Kb = 1.8 x 10^-5).
+  A: pH = 11.13
+VETTED-DIAG C11_CFQ_Q35 (fit 0.71, src c11_cfq_diagnostic.marker)
+  Q: For PCl5 <=> PCl3 + Cl2, Kc = 0.5 at 500K. If 1 mol PCl5 is placed in a 2L container, find the equilibrium concentrations.
+  A: [PCl5] = 0.191M, [PCl3] = [Cl2] = 0.309M
+VETTED-DIAG cfq_7_1 (fit 0.50, src c11_chem_diagnostics.marker)
+  Q: For the reaction N2(g) + 3 H2(g) -> 2 NH3(g), the equilibrium concentrations at a certain temperature are [N2] = 0.50 mol/L, [H2] = 0.30 mol/L and [NH3] = 0.60 mol/L. Calculate Kc.
+  A: Kc = [NH3]^2 / ([N2] x [H2]^3).
+    Numerator = (0.60)^2 = 0.36.
+    Denominator = 0.50 x (0.30)^3 = 0.50 x 0.027 = 0.0135.
+    Kc = 0.36 / 0.0135 = 26.67 (approx).
+    So Kc is about 26.7 L^2/mol^2.
+VETTED-MIS misconception_1 (fit 0.25)
+  M: Vapour density = 2 x molecular mass.
+  C: VD = molecular mass / 2. So molecular mass = 2 x VD.
+VETTED-MIS misconception_2 (fit 0.25)
+  M: Combination reactions are always exothermic.
+  C: Most combination reactions are exothermic, but the heat change depends on the bond energies of the reactants and products. A combination reaction is classified by the number of products, not by whether heat is released.
+VETTED-MIS misconception_9 (fit 0.22)
+  M: In a combination reaction, mass is created because one product is formed from two reactants.
+  C: In any chemical reaction, including combination reactions, mass is conserved. The atoms of the reactants rearrange to form the product, so the mass of the product equals the combined mass of the reactants.
+### NODE c11_chem_cbse_07_011  class=11 sub=chem ch=7 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: The ionisation constant of a weak acid (Ka) is the equilibrium constant for its partial dissociation in aqueous solution: HA(aq) ⇌ H⁺(aq) + A⁻(aq), where Ka = [H⁺][A⁻]/[HA]. The ionisation constant of a weak base (Kb) is the equilibrium constant for its reaction with water: B(aq) + H₂O(l) ⇌ BH⁺(aq) + OH⁻(aq), where Kb = [BH⁺][OH⁻]/[B]. Both are temperature-dependent equilibrium constants with units of mol L⁻¹ (or dimensionless when using activities).
+WALKTHROUGH: Observe a bottle of vinegar (5% acetic acid) and a bottle of ammonia solution (used for cleaning) in your kitchen. Both taste/smell sharp but neither conducts electricity as well as hydrochloric acid or sodium hydroxide solutions of the same concentration. This tells you they are partially ionised — they exist in equilibrium between molecules and ions. Start by writing the equilibrium for acetic acid: CH₃COOH ⇌ H⁺ + CH₃COO⁻. Notice that water concentration is constant and omitted from Ka. Connect this to the Law of Chemical Equilibrium (c11_chem_cbse_07_003) where Kc = [products]/[reactants]. The key step is recognising that for weak acids, [H⁺] ≠ initial concentration — you must use the equilibrium expression with an ICE table. End with the quantitative relationship: Ka = Cα²/(1-α) ≈ Cα² when α < 5%.
+D1 Q: Write the expression for the acid ionisation constant (Ka) for hydrocyanic acid (HCN) and the base ionisation constant (Kb) for methylamine (CH₃NH₂). State the units of Ka and Kb.
+D1 A: Ka(HCN) = [H⁺][CN⁻]/[HCN]; Kb(CH₃NH₂) = [CH₃NH₃⁺][OH⁻]/[CH₃NH₂]. Units: mol L⁻¹ (or dimensionless if activities are used). A wrong answer reveals the student either includes water in the Kb expression (treating it as a reactant with variable concentration) or writes the reciprocal expression, confusing Ka with 1/Ka. This indicates they haven't internalised that equilibrium constants omit pure liquids and that the for
+D2 Q: A 0.10 M solution of a weak acid HA has pH = 3.00. A student calculates Ka = (10⁻³)²/0.10 = 1.0 × 10⁻⁵. Is this calculation correct? Explain why or why not, and provide the exact Ka value.
+D2 A: The calculation is approximate, not exact. It assumes [H⁺]eq = [A⁻]eq = 10⁻³ M and [HA]eq ≈ 0.10 M (ignoring the decrease due to ionisation). Exact Ka = (10⁻³)²/(0.10 - 10⁻³) = 1.01 × 10⁻⁵. The 5% rule (α = 10⁻³/0.10 = 1% < 5%) justifies the approximation. A wrong answer (saying it's exactly correct) reveals the student doesn't understand the approximation's validity condition or that equilibrium concentration of HA 
+D3 Q: Calculate the degree of ionisation (α) and pH of a 0.05 M acetic acid solution given Ka = 1.8 × 10⁻⁵. Show all steps including the validity check for the approximation.
+D3 A: Step 1: Write Ka = Cα²/(1-α). Step 2: Check if α < 5% using approximation α ≈ √(Ka/C) = √(1.8×10⁻⁵/0.05) = √(3.6×10⁻⁴) = 0.019 = 1.9% < 5% → approximation valid. Step 3: α = 0.019. Step 4: [H⁺] = Cα = 0.05 × 0.019 = 9.5 × 10⁻⁴ M. Step 5: pH = -log(9.5×10⁻⁴) = 3.02. A wrong answer (e.g., α = 0.19 or pH = 2.02) reveals the student either forgot to take square root, misplaced decimal in Ka/C, or used [H⁺] = √(Ka) instea
+D4 Q: The Ka of acetic acid is 1.8 × 10⁻⁵ at 298 K. The Kb of its conjugate base (acetate ion) is 5.6 × 10⁻¹⁰. Verify that Ka × Kb = Kw. Now, if the temperature is raised to 310 K where Kw = 1.47 × 10⁻¹⁴, what happens to Ka and Kb individually? Can you determine their new values from this information alone?
+D4 A: At 298 K: Ka × Kb = (1.8×10⁻⁵)(5.6×10⁻¹⁰) = 1.008×10⁻¹⁴ ≈ Kw (1.0×10⁻¹⁴). At 310 K, Kw increases to 1.47×10⁻¹⁴. The product Ka×Kb must equal the new Kw, but we CANNOT determine individual new Ka and Kb values from this alone — they depend on the enthalpy of ionisation of each species (van't Hoff equation). A wrong answer claiming Ka and Kb both increase by the same factor reveals the student thinks Ka and Kb scale id
+D5 Q: A student is given two 0.1 M solutions: one of weak acid HA (Ka = 1.0 × 10⁻⁵) and one of weak base B (Kb = 1.0 × 10⁻⁵). They claim both solutions have the same pH. Evaluate this claim.
+D5 A: The claim is FALSE. For HA: [H⁺] = √(Ka×C) = √(10⁻⁵ × 0.1) = √10⁻⁶ = 10⁻³ M → pH = 3. For B: [OH⁻] = √(Kb×C) = 10⁻³ M → pOH = 3 → pH = 14 - 3 = 11. The acid solution is acidic (pH 3), the basic solution is basic (pH 11). A wrong answer (pH = 3 for both) reveals the student calculates [H⁺] for the base instead of [OH⁻], or forgets pH + pOH = 14. This is a fundamental confusion between acid and base ionisation equilibr
+D6 Q: Design a simple experiment using only household materials (vinegar, baking soda, pH paper, measuring cups) to demonstrate that acetic acid is a weak acid while HCl (toilet cleaner) is a strong acid. Explain how your observations would differ and what quantitative estimate you could make. [IN-SCOPE-REWRITE]
+D6 A: Take equal volumes (e.g., 50 mL) of vinegar (~0.8 M CH₃COOH) and diluted toilet cleaner (~0.1 M HCl). Add 1 tsp baking soda (NaHCO₃) to each. HCl reacts vigorously with immediate CO₂ evolution (strong acid → complete H⁺). Vinegar reacts slowly with less vigorous fizzing (weak acid → partial H⁺, equilibrium shifts as CO₂ leaves). Use pH paper: HCl solution pH ≈ 1, vinegar pH ≈ 2.4. Estimate Ka: from vinegar pH, [H⁺] =
+
+VETTED-DIAG C11_CFQ_Q13 (fit 1.00, src c11_cfq_diagnostic.marker)
+  Q: For N2 + 3H2 <=> 2NH3, if [N2]=0.1, [H2]=0.2, [NH3]=0.4, the value of Kc is: (a) 100 (b) 200 (c) 50 (d) 400
+  A: (b) 200
+VETTED-DIAG C11_CFQ_Q14 (fit 1.00, src c11_cfq_diagnostic.marker)
+  Q: The pH of 0.001M HCl is: (a) 1 (b) 2 (c) 3 (d) 4
+  A: (c) 3
+VETTED-DIAG C11_CFQ_Q30 (fit 1.00, src c11_cfq_diagnostic.marker)
+  Q: Calculate the pH of 0.1M NH4OH (Kb = 1.8 x 10^-5).
+  A: pH = 11.13
+VETTED-MIS C11_013 (fit 0.29)
+  M: Students use [H+] = C (molarity) for weak acids instead of [H+] = sqrt(Ka x C).
+  C: Strong acid: [H+] = C (complete dissociation). Weak acid: [H+] = sqrt(Ka x C) (partial dissociation). Example: 0.01 M CH3COOH (Ka = 1.8x10^-5) -> [H+] = sqrt(1.8x10^-5 x 0.01) = 4.24x10^-4, NOT 0.01.
+VETTED-MIS misconception_5 (fit 0.24)
+  M: All acids are strong electrolytes and all bases are weak electrolytes.
+  C: Classify by degree of ionisation, not by acid/base nature. Strong acids: HCl, HNO3, H2SO4. Weak acids: CH3COOH, H2CO3, H2S. Strong bases: NaOH, KOH, Ca(OH)2 (mostly). Weak base: NH4OH.
+VETTED-MIS misconception_8 (fit 0.22)
+  M: The Van't Hoff factor is a constant for a given solute, like a fixed property of the substance.
+  C: i is condition-dependent. For weak electrolytes it rises with dilution (alpha increases); for strong electrolytes it approaches the integer n at infinite dilution. Temperature affects alpha and equilibrium constants, hence i.

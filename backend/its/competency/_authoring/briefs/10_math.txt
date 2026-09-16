@@ -1,0 +1,219 @@
+
+### NODE c10_math_cbse_01_005  class=10 sub=math ch=1 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: If p is a prime number and p divides a² (where a is a positive integer), then p must also divide a. In other words, if a prime number divides the square of an integer, it necessarily divides the integer itself.
+WALKTHROUGH: Imagine you are packing 36 identical square tiles (6×6) into boxes. If a prime number of boxes, say 3, exactly divides the total tiles, then 3 must also divide the side length 6. Why? Because 36 = 6×6, and if 3 divides 6×6, by the Fundamental Theorem of Arithmetic (unique prime factorization), the prime 3 must appear in the factorization of 6. Start by writing a as a product of primes: a = p₁p₂...pₖ. Then a² = p₁²p₂²...pₖ². If prime p divides a², p must be one of the pᵢ, hence p divides a. This insight is the engine that drives all irrationality proofs in Class 10.
+D1 Q: State the theorem: "If p is a prime number and p divides a², then p divides a." Is the converse true? That is, if p divides a, does p always divide a²?
+D1 A: Yes, the converse is true. If p divides a, then a = p·k for some integer k. Then a² = p²·k² = p·(p·k²), so p divides a². A wrong answer (saying converse is false) reveals the student confuses the direction of implication and does not understand that divisibility is preserved under multiplication.
+D2 Q: Why does the theorem require p to be prime? Give a counterexample showing the statement fails if p is composite.
+D2 A: The theorem fails for composites because a composite number's prime factors can be split between the two factors of a². Counterexample: Let p = 4 (composite), a = 6. Then a² = 36, and 4 divides 36, but 4 does not divide 6. A wrong answer (e.g., "it works for all numbers") shows the student has not grasped the role of unique prime factorization and the definition of prime numbers.
+D3 Q: Let a = 180. Find all prime numbers p such that p divides a². For each such p, verify that p divides a.
+D3 A: a = 180 = 2² × 3² × 5¹. So a² = 2⁴ × 3⁴ × 5². The primes dividing a² are 2, 3, 5. Each of these divides 180. A wrong answer (missing a prime, or including a non-prime) reveals the student cannot correctly perform prime factorization or does not connect the theorem to the factorization of a.
+D4 Q: Suppose p is a prime and p divides a² + b². Can we conclude that p divides a and p divides b? Justify your answer with an example or proof. [IN-SCOPE-REWRITE]
+D4 A: No, we cannot conclude that. The theorem only applies when a prime divides a perfect square of a single integer. For example, p = 5, a = 1, b = 2: a² + b² = 1 + 4 = 5, and 5 divides 5, but 5 does not divide 1 and 5 does not divide 2. A wrong answer (saying yes) shows the student overgeneralizes the theorem to sums of squares, confusing it with properties of Gaussian integers or misapplying the logic.
+D5 Q: A student claims: "Since 9 divides 15² (225), by the theorem 9 must divide 15." Identify the error in the student's reasoning and correct it.
+D5 A: The error is that 9 is not a prime number (9 = 3²). The theorem only applies when p is prime. Indeed, 9 divides 225 but 9 does not divide 15. The correct statement: The prime 3 divides 15², so 3 divides 15 (which is true). A wrong answer (not identifying the primality condition) shows the student memorizes the statement without the crucial hypothesis "p is prime".
+D6 Q: Construct a new problem: Find a positive integer a and a prime p such that p divides a² but p does NOT divide a. If impossible, explain why.
+D6 A: It is impossible. By the theorem, if p is prime and p|a², then p|a always. Any attempt to find such a pair will fail. A student who provides an example (e.g., a=6, p=4) has missed the condition that p must be prime. This reveals they treat the theorem as a pattern without understanding the logical necessity of the prime condition.
+
+VETTED-DIAG cfq_3_1 (fit 1.00, src c10_maths_cfq_diagnostics.marker)
+  Q: If A = [[2, 3], [1, 4]], find A^2 and |A|.
+  A: A^2 = [[2,3],[1,4]] x [[2,3],[1,4]] = [[4+3, 6+12], [2+4, 3+16]] = [[7, 18], [6, 19]]. |A| = 2(4) - 3(1) = 8 - 3 = 5.
+VETTED-DIAG C10_MATH_BR24_Q33 (fit 1.00, src c10_math_board_2024.marker)
+  Q: If ((a+b)/(a-b))^3 = 64/27, (a) Find (a+b)/(a-b)
+  A: ((a+b)/(a-b))^3 = (4/3)^3; So (a+b)/(a-b) = 4/3
+VETTED-DIAG C10_MATH_BR24_Q16 (fit 0.50, src c10_math_board_2024.marker)
+  Q: Find the values of x and y, if A x B = C, where A = [[x, 0],[1, 1]], B = [[4, 0],[4, x]], C = [[4, 0],[y, 1]].
+  A: A x B = [[4x, 0],[8, x]] = C = [[4, 0],[y, 1]]; So 4x = 4 => x = 1, y = 8
+VETTED-MIS misconception_6 (fit 0.43)
+  M: The prime factorization of a prime number is the number itself multiplied by 1, e.g. 7 = 7 x 1.
+  C: The prime factorization of a prime number is the number itself. For example, the prime factorization of 7 is simply 7.
+VETTED-MIS misconception_4 (fit 0.33)
+  M: When a branch reaches a prime number, I should still split it into 1 and itself.
+  C: When a branch reaches a prime number, that branch stops. We do not split primes further.
+VETTED-MIS misconception_12 (fit 0.33)
+  M: The HCF must always be a prime number.
+  C: The HCF can be composite. It is the product of all common prime factors, which may itself be a composite number. For 24 and 36, HCF = 12, which is composite.
+### NODE c10_math_cbse_01_008  class=10 sub=math ch=1 verdict=PARTIAL action=REWRITE [2]
+DEFINITION: The number 5 − √3 is irrational. This is proved by contradiction using the sum/difference property: the sum or difference of a non-zero rational number and an irrational number is always irrational. Assume 5 − √3 is rational, say r. Then √3 = 5 − r. Since 5 is rational and r is rational (by assumption), and rational numbers are closed under subtraction, 5 − r is rational. This means √3 is rational, which contradicts the proven fact that √3 is irrational (c10_math_cbse_01_007). Hence 5 − √3 is irrational.
+WALKTHROUGH: Recall that √3 is irrational (c10_math_cbse_01_007). We also know that rational numbers are closed under addition and subtraction: if you subtract two rationals, you get a rational. Now consider 5 − √3. The number 5 is rational, √3 is irrational. Intuitively, subtracting an irrational from a rational should give something "not rational" — but intuition is not proof. We use contradiction: assume 5 − √3 IS rational, then rearrange to isolate √3. If √3 becomes a difference of two rationals, it must be rational — contradicting what we already proved. This is the standard template for all "rational ± irrational = irrational" proofs.
+D1 Q: State the closure property of rational numbers under subtraction that is used in this proof.
+D1 A: If a and b are rational numbers, then a − b is also rational. A wrong answer (e.g., "rational minus irrational is rational") reveals the student confuses closure (which applies only to operations within the rationals) with cross-set operations.
+D2 Q: In the proof, after assuming 5 − √3 = r (rational), we write √3 = 5 − r. Explain why this step is valid and why it leads to a contradiction.
+D2 A: The step is valid because we simply rearranged the equation (subtracted r from both sides, then swapped). Since 5 is rational and r is rational (by assumption), 5 − r is rational by closure. But this says √3 is rational, contradicting the proven fact that √3 is irrational. A wrong answer (e.g., "we assumed √3 is irrational so it stays irrational") misses that the contradiction arises from the assumption, not from an 
+D3 Q: A student argues: "5 is rational, √3 is irrational, so 5 − √3 must be irrational because rational and irrational don't mix." Identify the flaw in this reasoning. [IN-SCOPE-REWRITE]
+D3 A: The flaw is that "rational and irrational don't mix" is an unproven assertion, not a theorem. While the result is correct, the justification is incomplete. The board exam requires the contradiction argument: assume rational, isolate the irrational, derive contradiction. A wrong answer accepting this as sufficient shows the student does not understand the need for rigorous proof.
+D4 Q: Is 5 + √3 irrational? Prove it using the same method.
+D4 A: Yes. Assume 5 + √3 = r (rational). Then √3 = r − 5. Since r and 5 are rational, r − 5 is rational, so √3 is rational — contradiction. Hence 5 + √3 is irrational. A wrong answer (e.g., "yes, because addition works the same way") without the proof shows the student recognises the pattern but cannot formalise it.
+D5 Q: Is √3 − 5 irrational? How does this differ from 5 − √3?
+D5 A: Yes, √3 − 5 is irrational. Proof: assume √3 − 5 = r (rational). Then √3 = r + 5. Since r and 5 are rational, r + 5 is rational, so √3 is rational — contradiction. It differs from 5 − √3 only in sign; both are irrational because the irrational component √3 cannot be eliminated by adding/subtracting a rational. A wrong answer (e.g., "√3 − 5 = −(5 − √3) so it's rational if 5 − √3 is rational") confuses negation with rat
+D6 Q: Prove that 7 − 2√5 is irrational. (Hint: Use the irrationality of √5 and closure of rationals.)
+D6 A: Assume 7 − 2√5 = r (rational). Then 2√5 = 7 − r. Since 7 and r are rational, 7 − r is rational, so 2√5 is rational. Then √5 = (7 − r)/2, which is rational (division of rational by non-zero rational 2). But √5 is irrational (proved similarly to √3). Contradiction. Hence 7 − 2√5 is irrational. A poor answer fails to handle the coefficient 2 correctly or forgets that √5 must be proven or assumed irrational.
+
+VETTED-DIAG C10_MATH_SP26_Q10_ii (fit 0.40, src c10_math_specimen_2026.marker)
+  Q: Given matrix X = [1 1; 8 3], prove that X^2 = 4X + 5I, where I = [1 0; 0 1].
+  A: X^2 = [1 1; 8 3] x [1 1; 8 3] = [1+8 1+3; 8+24 8+9] = [9 4; 32 17]. 4X + 5I = [4 4; 32 12] + [5 0; 0 5] = [9 4; 32 17]. Therefore X^2 = 4X + 5I, proved.
+VETTED-DIAG cfq_7_1 (fit 0.38, src c10_maths_diagnostics.marker)
+  Q: The 4th term of an AP is 14 and the 10th term is 32. Find the first term, common difference, and the sum of the first 15 terms.
+  A: a + 3d = 14 ... (1); a + 9d = 32 ... (2).
+    Subtract (1) from (2): 6d = 18 -> d = 3.
+    a + 9 = 14 -> a = 5.
+    S15 = (15/2) x [2a + (15-1)d] = (15/2) x [10 + 42] = (15/2) x 52 = 15 x 26 = 390.
+    First term = 5, common difference = 3, S15 = 390.
+VETTED-DIAG cfq_4_1 (fit 0.33, src c10_maths_cfq_diagnostics.marker)
+  Q: The 5th term of an AP is 22 and the 10th term is 37. Find the first term and common difference.
+  A: a + 4d = 22, a + 9d = 37. Subtract: 5d = 15, d = 3. a = 22 - 12 = 10. AP: 10, 13, 16, ...
+VETTED-MIS misconception_13 (fit 0.54)
+  M: The sum, difference, product, and quotient of two rational numbers can sometimes be irrational.
+  C: For any two rational numbers a and b (with b not zero for division), a+b, a-b, a x b, and a/b are all rational. This is the closure property of rational numbers.
+VETTED-MIS misconception_2 (fit 0.45)
+  M: Zero has a multiplicative inverse because zero is a rational number.
+  C: The multiplicative inverse property holds for every non-zero rational number only. Zero is the single exception.
+VETTED-MIS misconception_9 (fit 0.45)
+  M: Rational numbers are closed under division because they are closed under multiplication.
+  C: Rationals are closed under addition, subtraction, and multiplication. They are closed under division only when the divisor is not zero.
+### NODE c10_math_cbse_03_012  class=10 sub=math ch=3 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: A fixed charge plus variable charge problem is a real-world situation where the total cost is the sum of a constant fixed charge and a variable charge that depends linearly on the number of units consumed. It leads to a pair of linear equations in two variables: the fixed charge (x) and the variable charge per unit (y), formed from two given scenarios with different units and total costs.
+WALKTHROUGH: Imagine you hire an auto-rickshaw in Mumbai. The driver says there is a fixed charge for the first 2 km and then a per km charge after that. You travel 5 km and pay ₹50. Your friend travels 10 km and pays ₹80. How do you find the fixed charge and the per km charge? First, identify the two unknowns: let the fixed charge for the first 2 km be ₹x and the charge per additional km be ₹y. Then write the equations: for 5 km (3 extra km), x + 3y = 50; for 10 km (8 extra km), x + 8y = 80. Notice the fixed charge x appears with coefficient 1 in both equations — this makes elimination the quickest method. Subtract the first equation from the second to eliminate x, find y, then substitute back to find x. The key insight is that the fixed charge is constant regardless of distance, while the variable charge multiplies with the number of units beyond the fixed portion.
+D1 Q: Write the general form of the pair of linear equations for a fixed charge plus variable charge problem if the fixed charge is ₹x and the variable charge per unit is ₹y, given two situations with units u1, u2 and total costs C1, C2.
+D1 A: The equations are: x + u1·y = C1 and x + u2·y = C2. A wrong answer (e.g., writing u1·x + y = C1) reveals the student confuses which quantity is multiplied by the units — they treat the fixed charge as variable and the variable charge as fixed.
+D2 Q: Explain why the fixed charge remains the same in both equations while the variable charge is multiplied by the number of units.
+D2 A: The fixed charge is a one-time constant fee (e.g., base fare, monthly rental) that does not change with usage, so it appears as x in both equations. The variable charge depends on how many units are consumed, so it is multiplied by the number of units (u1·y and u2·y). A wrong answer indicates the student does not understand the real-world meaning of "fixed" versus "variable" and may treat both as coefficients of the 
+D3 Q: A telephone bill has a fixed monthly rental and a charge per call. In January, 100 calls cost ₹350. In February, 150 calls cost ₹425. Find the fixed rental and charge per call.
+D3 A: Let fixed rental = ₹x, charge per call = ₹y.
+January: x + 100y = 350
+February: x + 150y = 425
+Subtract: 50y = 75 → y = 1.5
+Substitute: x + 100(1.5) = 350 → x = 200.
+Fixed rental = ₹200, charge per call = ₹1.50.
+A wrong answer (e.g., y = 75, x = -4000) reveals arithmetic errors in subtraction or sign mistakes when substituting.
+D4 Q: Compare the elimination method and substitution method for solving the equations from the telephone bill problem. Which is more efficient and why?
+D4 A: Elimination is more efficient because the coefficients of x are identical (both 1). Subtracting the equations directly eliminates x in one step. Substitution would require solving one equation for x (x = 350 - 100y) and substituting into the other, involving more steps and fractions. A wrong answer (e.g., "substitution is better because it's easier") shows the student does not recognize structural advantages of elimi
+D5 Q: A student solved the auto-rickshaw problem (5 km → ₹50, 10 km → ₹80) and got fixed charge = ₹30, per km charge = ₹6. For 5 km, the cost would be ₹30 + 3×6 = ₹48, but the problem says ₹50. The student claims the solution is correct because it satisfies the second condition (₹30 + 8×6 = ₹78 ≈ ₹80). Evaluate the student's
+D5 A: The student's claim is incorrect. A valid solution must satisfy both given conditions simultaneously. The student's values give ₹48 for 5 km (not ₹50) and ₹78 for 10 km (not ₹80), so they satisfy neither condition exactly. The student likely made an error in forming the equations (e.g., using 5y instead of 3y for the 5 km journey) and then only checked one condition approximately. A wrong evaluation (e.g., "it's clos
+D6 Q: Create your own fixed charge plus variable charge problem with a real-life context (e.g., electricity bill, gym membership, taxi fare). Provide two conditions and ask for the fixed and variable charges. Also provide the solution. [IN-SCOPE-REWRITE]
+D6 A: A good answer will present a coherent scenario (e.g., "A gym charges a fixed annual fee plus ₹y per visit. Member A visits 20 times and pays ₹4000. Member B visits 35 times and pays ₹5750."), correctly form the equations (x + 20y = 4000, x + 35y = 5750), solve them (y = 116.67, x = 1666.67), and state the answer with units. A poor answer (e.g., missing one condition, equations not matching the story, or solution not
+
+VETTED-DIAG cfq_3_1 (fit 1.00, src c10_maths_cfq_diagnostics.marker)
+  Q: If A = [[2, 3], [1, 4]], find A^2 and |A|.
+  A: A^2 = [[2,3],[1,4]] x [[2,3],[1,4]] = [[4+3, 6+12], [2+4, 3+16]] = [[7, 18], [6, 19]]. |A| = 2(4) - 3(1) = 8 - 3 = 5.
+VETTED-DIAG C10_MATH_BR24_Q33 (fit 1.00, src c10_math_board_2024.marker)
+  Q: If ((a+b)/(a-b))^3 = 64/27, (a) Find (a+b)/(a-b)
+  A: ((a+b)/(a-b))^3 = (4/3)^3; So (a+b)/(a-b) = 4/3
+VETTED-DIAG cfq_4_2 (fit 0.75, src c10_maths_cfq_diagnostics.marker)
+  Q: Find the sum of the first 10 terms of the GP: 2, 6, 18, ...
+  A: a = 2, r = 3. S_1_0 = 2(3^1^0 - 1)/(3-1) = 2(59049 - 1)/2 = 59048.
+VETTED-MIS misconception_6 (fit 0.38)
+  M: In the number 5236, the digit 2 stands for 2, not 200.
+  C: The value of a digit depends on its place. In 5236, 5 means 5000, 2 means 200, 3 means 30 and 6 means 6. The total is 5000 + 200 + 30 + 6.
+VETTED-MIS PP_C12_2024_036 (fit 0.30)
+  M: Candidates made errors in the process of simplification when identifying the correct option for the cost function MCQ (total cost = 35000 + 30x).
+  C: The total cost function must be read and simplified carefully; the fixed cost is 35000 and the variable cost per unit is 30, giving C(x) = 35000 + 30x.
+VETTED-MIS PP_C12_2024_036 (fit 0.30)
+  M: Candidates made errors in the process of simplification when identifying the correct option for the cost function MCQ (total cost = 35000 + 30x).
+  C: The total cost function must be read and simplified carefully; the fixed cost is 35000 and the variable cost per unit is 30, giving C(x) = 35000 + 30x.
+### NODE c10_math_cbse_05_011  class=10 sub=math ch=5 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: Word problems on Arithmetic Progressions involve translating a real-life situation where a quantity changes by a constant amount (common difference) into an AP model, identifying the first term (a), common difference (d), and number of terms (n), then applying the nth term formula \(a_n = a + (n-1)d\) or the sum formula \(S_n = \frac{n}{2}[2a + (n-1)d]\) to find the required unknown.
+WALKTHROUGH: Imagine Ravi saves ₹100 in the first month and increases his savings by ₹50 every month. How much will he save in the 12th month? What is his total savings in one year? First, ask: "Does the savings increase by the same amount every month?" Yes, ₹50 constant increase → AP. Write down: a = 100, d = 50. For 12th month savings, we need the 12th term → use \(a_n = a + (n-1)d\). For total savings in 12 months, we need sum of first 12 terms → use \(S_n = \frac{n}{2}[2a + (n-1)d]\). The key insight: every AP word problem reduces to identifying (a, d, n) and choosing between term formula or sum formula.
+D1 Q: State the two standard formulas used to solve AP word problems and what each variable represents.
+D1 A: The two formulas are: (1) nth term: \(a_n = a + (n-1)d\) where a = first term, d = common difference, n = term number. (2) Sum of first n terms: \(S_n = \frac{n}{2}[2a + (n-1)d]\) or \(S_n = \frac{n}{2}(a + l)\) where l = last term. A wrong answer (e.g., writing \(a_n = a + nd\) or \(S_n = n(a + d)\)) reveals the student has not memorized the exact structure of the formulas, especially the (n-1) factor, leading to of
+D2 Q: A student says: "The heights of students in a class form an AP because they increase." Explain why this reasoning is incorrect and state the precise condition for a sequence to be an AP.
+D2 A: Heights of students do not necessarily increase by a constant difference; they vary randomly. An AP requires a constant difference between every pair of consecutive terms. The student's error is confusing "increasing" with "constant difference". This misconception leads to forcing non-AP data into AP formulas, producing meaningless answers in board exams.
+D3 Q: A contractor pays a penalty for delay: ₹200 for the first day, ₹250 for the second day, ₹300 for the third day, and so on. If the work is delayed by 30 days, find the total penalty paid. Show all steps.
+D3 A: Given: a = 200, d = 50, n = 30. Use sum formula: \(S_{30} = \frac{30}{2}[2(200) + (30-1)(50)] = 15[400 + 1450] = 15 \times 1850 = 27750\). Total penalty = ₹27,750. A wrong answer (e.g., using n=29 or d=200) reveals the student cannot correctly map "first day = first term" and "increase per day = common difference", or miscounts n.
+D4 Q: Compare the two problems: (A) "Find the 10th term of AP: 5, 8, 11, ..." (B) "A tree grows 5 cm first year, 8 cm second year, 11 cm third year... Find growth in 10th year." Are they mathematically identical? Justify.
+D4 A: Yes, mathematically identical. Both have a=5, d=3, n=10 → \(a_{10} = 5 + 9(3) = 32\). The only difference is context: Problem A is abstract, Problem B is real-life. A student who solves A but not B lacks the skill to translate words into mathematical parameters (a, d, n). This is the core competency tested in CBSE case-based questions.
+D5 Q: A student solves: "Sum of first 20 terms of an AP is 400. First term is 5. Find d." Their working: \(400 = \frac{20}{2}[2(5) + 20d] \Rightarrow 400 = 10[10 + 20d] \Rightarrow 40 = 10 + 20d \Rightarrow d = 1.5\). Identify the error and correct it.
+D5 A: Error: Used \(20d\) instead of \((20-1)d = 19d\) in the sum formula. Correct step: \(400 = 10[10 + 19d] \Rightarrow 40 = 10 + 19d \Rightarrow 19d = 30 \Rightarrow d = 30/19\). The student forgot the (n-1) factor in the sum formula. This is the most common algebraic slip in board exams — writing nd instead of (n-1)d.
+D6 Q: Create a real-life word problem (Indian context: rupees, metres, etc.) that requires finding the number of terms (n) given the sum and first term/difference. Write the problem and outline the solution steps. [IN-SCOPE-REWRITE]
+D6 A: Example: "Meena puts ₹5 in her piggy bank on day 1, ₹10 on day 2, ₹15 on day 3, and so on. After how many days will her total savings become ₹275?" Steps: a=5, d=5, S_n=275. Use \(S_n = \frac{n}{2}[2a+(n-1)d] \Rightarrow 275 = \frac{n}{2}[10+5(n-1)] \Rightarrow 550 = n(5n+5) \Rightarrow 5n^2+5n-550=0 \Rightarrow n^2+n-110=0 \Rightarrow (n+11)(n-10)=0 \Rightarrow n=10\) (reject negative). A poor answer uses a non-AP p
+
+VETTED-DIAG cfq_3_1 (fit 1.00, src c10_maths_cfq_diagnostics.marker)
+  Q: If A = [[2, 3], [1, 4]], find A^2 and |A|.
+  A: A^2 = [[2,3],[1,4]] x [[2,3],[1,4]] = [[4+3, 6+12], [2+4, 3+16]] = [[7, 18], [6, 19]]. |A| = 2(4) - 3(1) = 8 - 3 = 5.
+VETTED-DIAG cfq_4_2 (fit 1.00, src c10_maths_cfq_diagnostics.marker)
+  Q: Find the sum of the first 10 terms of the GP: 2, 6, 18, ...
+  A: a = 2, r = 3. S_1_0 = 2(3^1^0 - 1)/(3-1) = 2(59049 - 1)/2 = 59048.
+VETTED-DIAG C10_MATH_BR24_Q33 (fit 1.00, src c10_math_board_2024.marker)
+  Q: If ((a+b)/(a-b))^3 = 64/27, (a) Find (a+b)/(a-b)
+  A: ((a+b)/(a-b))^3 = (4/3)^3; So (a+b)/(a-b) = 4/3
+VETTED-MIS PP_C10_2025_080 (fit 0.42)
+  M: Some candidates were confused between the formulae for Arithmetic Progression (AP) and Geometric Progression (GP), applying the AP nth term formula (a + (n-1)d) to a GP problem.
+  C: In a GP, the nth term is axr^(n-1), where a is the first term and r is the common ratio. In an AP, the nth term is a + (n-1)d. The key difference is addition (AP) vs multiplication (GP).
+VETTED-MIS PP_C10_2025_080 (fit 0.42)
+  M: Some candidates were confused between the formulae for Arithmetic Progression (AP) and Geometric Progression (GP), applying the AP nth term formula (a + (n-1)d) to a GP problem.
+  C: In a GP, the nth term is axr^(n-1), where a is the first term and r is the common ratio. In an AP, the nth term is a + (n-1)d. The key difference is addition (AP) vs multiplication (GP).
+VETTED-MIS PP_C10_2025_080 (fit 0.42)
+  M: Some candidates were confused between the formulae for Arithmetic Progression (AP) and Geometric Progression (GP), applying the AP nth term formula (a + (n-1)d) to a GP problem.
+  C: In a GP, the nth term is axr^(n-1), where a is the first term and r is the common ratio. In an AP, the nth term is a + (n-1)d. The key difference is addition (AP) vs multiplication (GP).
+### NODE c10_math_cbse_12_003  class=10 sub=math ch=12 verdict=PARTIAL action=REWRITE [5]
+DEFINITION: The volume of a combination of solids is the total space occupied by a 3D object formed by joining two or more basic solids (cube, cuboid, cylinder, cone, sphere, hemisphere) such that their volumes are additive without overlap. The method involves decomposing the combined solid into its constituent basic solids, calculating the volume of each using standard formulas, and summing them to obtain the total volume.
+WALKTHROUGH: Imagine you are designing a decorative paperweight for your school's annual day gift shop — it is shaped like a cylinder with a hemisphere on top, made of solid glass. The shop owner needs to know how much glass (in cm³) is required to make 50 such paperweights. You already know the volume formulas for a cylinder and a hemisphere separately from Class 9. The key insight is that the glass paperweight is just these two solids joined together without any gaps or overlaps, so the total glass volume is simply the sum of the two individual volumes. Start by sketching the solid, labelling all given dimensions (radius, heights), writing the volume formula for each component, substituting values, computing each volume, and finally adding them. This "decompose → formula → substitute → compute → add" method works for every combination problem in the board exam.
+D1 Q: State the volume formula for a solid formed by placing a hemisphere of radius r on top of a cylinder of the same radius r and height h. Write the formula in terms of π, r, and h only.
+D1 A: Correct answer: V = πr²h + (2/3)πr³. A wrong answer like V = πr²h + (4/3)πr³ reveals the student is using the full sphere formula instead of the hemisphere formula — a very common board exam error where students forget that a hemisphere is exactly half a sphere. Another wrong answer V = πr²h + πr³ shows the student might be confusing volume with surface area formulas or misremembering the coefficient.
+D2 Q: A solid toy is made by fixing a cone of height 12 cm on top of a cylinder of height 8 cm. Both have the same base radius of 5 cm. A student calculates the total volume as π(5)²(12) + π(5)²(8) = 500π cm³. Is this correct? Explain why or why not.
+D2 A: The student's answer is incorrect. They used the cylinder volume formula πr²h for both the cone and the cylinder. The cone volume is (1/3)πr²h, not πr²h. The correct total volume is (1/3)π(5)²(12) + π(5)²(8) = 100π + 200π = 300π cm³. This error reveals the student cannot distinguish between cone and cylinder volume formulas — a critical gap since board exams frequently combine these two solids. The student likely mem
+D3 Q: A cylindrical pencil holder of radius 3.5 cm and height 12 cm has a hemispherical cavity of radius 3.5 cm drilled out from the top. Find the volume of wood used. (Use π = 22/7)
+D3 A: Step 1: Volume of cylinder = πr²h = (22/7) × (3.5)² × 12 = (22/7) × 12.25 × 12 = 22 × 1.75 × 12 = 462 cm³.
+Step 2: Volume of hemisphere = (2/3)πr³ = (2/3) × (22/7) × (3.5)³ = (2/3) × (22/7) × 42.875 = (2/3) × 22 × 6.125 = 89.833... cm³.
+Step 3: Volume of wood = Cylinder volume − Hemisphere volume = 462 − 89.833... = 372.167 cm³ ≈ 372.17 cm³.
+A wrong answer of 462 + 89.83 = 551.83 cm³ reveals the student added instead
+D4 Q: Two students solve the same problem: "A solid is made of a cube of side 7 cm with a hemisphere of radius 3.5 cm on top. Find the total volume." Student A computes 7³ + (2/3)π(3.5)³. Student B computes 7³ + (4/3)π(3.5)³. Which student is correct? What conceptual error did the other student make?
+D4 A: Student A is correct. The solid is a cube + hemisphere, so total volume = cube volume + hemisphere volume = a³ + (2/3)πr³. Student B used the full sphere formula (4/3)πr³ instead of the hemisphere formula. The error is failing to recognise that "hemisphere on top" means exactly half a sphere, not a full sphere. In board exams, questions often say "a hemisphere is surmounted on a cube" — the word "surmounted" means pl
+D5 Q: A board exam question asks: "A solid iron pole consists of a cylinder of height 220 cm and base diameter 24 cm, which is surmounted by another cylinder of height 60 cm and radius 8 cm. Find the mass of the pole, given that 1 cm³ of iron has mass 8 g." A student writes: "Total volume = π(12)²(220) + π(8)²(60) = 31680π +
+D5 A: The student's volume calculation is correct: 35520π cm³. However, the mass calculation uses π ≈ 3.14 implicitly, but the problem expects π = 22/7 for exact computation in CBSE. Using π = 22/7: Volume = 35520 × (22/7) = 111531.43 cm³. Mass = 111531.43 × 8 = 892251.43 g = 892.25 kg. The error is using decimal π instead of 22/7 — CBSE marking scheme deducts marks for not using the prescribed value of π. Also, the studen
+D6 Q: Create a real-world word problem (Indian context) that requires finding the volume of a combination of THREE different basic solids. Specify all dimensions and ask for the total volume. The problem must be solvable using only Class 10 formulas. [IN-SCOPE-REWRITE]
+D6 A: Sample problem: "A temple kalash (finial) is made of a cubical base of side 20 cm, a cylindrical middle section of radius 7 cm and height 30 cm, and a conical top of radius 7 cm and height 24 cm. Find the total volume of brass required to make the kalash. (Use π = 22/7)". 
+Solution: Cube volume = 20³ = 8000 cm³. Cylinder volume = (22/7)×7²×30 = 4620 cm³. Cone volume = (1/3)×(22/7)×7²×24 = 1232 cm³. Total = 8000 + 462
+
+VETTED-DIAG cfq_3_1 (fit 1.00, src c10_maths_cfq_diagnostics.marker)
+  Q: If A = [[2, 3], [1, 4]], find A^2 and |A|.
+  A: A^2 = [[2,3],[1,4]] x [[2,3],[1,4]] = [[4+3, 6+12], [2+4, 3+16]] = [[7, 18], [6, 19]]. |A| = 2(4) - 3(1) = 8 - 3 = 5.
+VETTED-DIAG C10_MATH_BR24_Q16 (fit 1.00, src c10_math_board_2024.marker)
+  Q: Find the values of x and y, if A x B = C, where A = [[x, 0],[1, 1]], B = [[4, 0],[4, x]], C = [[4, 0],[y, 1]].
+  A: A x B = [[4x, 0],[8, x]] = C = [[4, 0],[y, 1]]; So 4x = 4 => x = 1, y = 8
+VETTED-DIAG C10_MATH_BR24_Q33 (fit 1.00, src c10_math_board_2024.marker)
+  Q: If ((a+b)/(a-b))^3 = 64/27, (a) Find (a+b)/(a-b)
+  A: ((a+b)/(a-b))^3 = (4/3)^3; So (a+b)/(a-b) = 4/3
+VETTED-MIS PP_C10_2023_042 (fit 0.50)
+  M: Candidates apply incorrect formulas for the volume of the cylinder, cone, and hemisphere in a combined-solid problem.
+  C: V_cylinder = pir^2h, V_cone = (1/3)pir^2h, V_hemisphere = (2/3)pir^3; each solid uses its own formula.
+VETTED-MIS PP_C10_2023_042 (fit 0.50)
+  M: Candidates apply incorrect formulas for the volume of the cylinder, cone, and hemisphere in a combined-solid problem.
+  C: V_cylinder = pir^2h, V_cone = (1/3)pir^2h, V_hemisphere = (2/3)pir^3; each solid uses its own formula.
+VETTED-MIS PP_C10_2023_042 (fit 0.50)
+  M: Candidates apply incorrect formulas for the volume of the cylinder, cone, and hemisphere in a combined-solid problem.
+  C: V_cylinder = pir^2h, V_cone = (1/3)pir^2h, V_hemisphere = (2/3)pir^3; each solid uses its own formula.
+### NODE c10_math_cbse_14_007  class=10 sub=math ch=14 verdict=PARTIAL action=REWRITE [3]
+DEFINITION: The complement of an event E, denoted E' or "not E", is the event that E does NOT occur. The probability of the complement is P(not E) = 1 − P(E). This follows from the fact that the sample space S is partitioned into E and E' (E and not E), so P(E) + P(not E) = P(S) = 1. The complement rule is one of the most useful tools in probability: if computing P(E) directly is difficult, compute P(not E) and subtract from 1.
+WALKTHROUGH: When you roll a die, the event E = "rolling a 6" has P(E) = 1/6. The complement "not E" = "not rolling a 6" includes {1, 2, 3, 4, 5}, so P(not E) = 5/6. Notice: 1/6 + 5/6 = 1. This is the complement rule: P(not E) = 1 − P(E). The rule is powerful when direct counting is hard. For example, "at least one head in 3 coin tosses" — counting directly (HHH, HHT, HTH, HTT, THH, THT, TTH = 7) is tedious. Instead, compute P(no heads) = P(TTT) = 1/8, then P(at least one head) = 1 − 1/8 = 7/8. The complement trick ("at least one" → complement is "none") is a standard board exam technique.
+D1 Q: State the complement rule for probability.
+D1 A: P(not E) = 1 − P(E), where "not E" is the complement of event E. A wrong answer (e.g., "P(not E) = P(E)") shows the student does not understand the relationship between an event and its complement.
+D2 Q: If P(E) = 0.3, find P(not E).
+D2 A: P(not E) = 1 − 0.3 = 0.7. A wrong answer (e.g., 0.3 or −0.3) shows the student cannot apply the complement formula.
+D3 Q: A die is rolled. What is the probability of NOT getting a prime number?
+D3 A: P(prime) = 3/6 = 1/2 (primes: 2, 3, 5). P(not prime) = 1 − 1/2 = 1/2. (Non-primes: 1, 4, 6 — note 1 is not prime.) A wrong answer (e.g., 3/6 = 1/2 without showing the complement step, or including 1 as prime) shows incomplete reasoning or a number theory error.
+D4 Q: Explain why P(E) + P(not E) = 1. [IN-SCOPE-REWRITE]
+D4 A: The sample space S is the union of E and "not E", and they are mutually exclusive (an outcome either is in E or is not, but not both). So P(E) + P(not E) = P(S) = 1. A wrong answer (e.g., "because they are the same event") shows the student does not understand that E and not E partition the sample space.
+D5 Q: A bag has 10 balls, 4 of which are defective. What is the probability of drawing a non-defective ball?
+D5 A: P(defective) = 4/10 = 2/5. P(non-defective) = 1 − 2/5 = 3/5. (Directly: 6 non-defective out of 10, P = 6/10 = 3/5.) A wrong answer (e.g., 4/10) shows the student computed P(defective) instead of P(non-defective).
+D6 Q: Three coins are tossed. Use the complement rule to find the probability of getting at least one head.
+D6 A: P(at least one head) = 1 − P(no heads) = 1 − P(TTT) = 1 − 1/8 = 7/8. The complement of "at least one head" is "no heads" (all tails), which is easier to compute. A wrong answer (e.g., listing all 7 favourable outcomes and getting 7/8 without using the complement) is correct but misses the efficiency of the method.
+
+VETTED-DIAG cfq_3_1 (fit 1.00, src c10_maths_cfq_diagnostics.marker)
+  Q: If A = [[2, 3], [1, 4]], find A^2 and |A|.
+  A: A^2 = [[2,3],[1,4]] x [[2,3],[1,4]] = [[4+3, 6+12], [2+4, 3+16]] = [[7, 18], [6, 19]]. |A| = 2(4) - 3(1) = 8 - 3 = 5.
+VETTED-DIAG C10_MATH_BR24_Q33 (fit 1.00, src c10_math_board_2024.marker)
+  Q: If ((a+b)/(a-b))^3 = 64/27, (a) Find (a+b)/(a-b)
+  A: ((a+b)/(a-b))^3 = (4/3)^3; So (a+b)/(a-b) = 4/3
+VETTED-DIAG C10_MATH_BR24_Q16 (fit 0.50, src c10_math_board_2024.marker)
+  Q: Find the values of x and y, if A x B = C, where A = [[x, 0],[1, 1]], B = [[4, 0],[4, x]], C = [[4, 0],[y, 1]].
+  A: A x B = [[4x, 0],[8, x]] = C = [[4, 0],[y, 1]]; So 4x = 4 => x = 1, y = 8
+VETTED-MIS PP_C10_2025_004 (fit 0.25)
+  M: Many candidates chose 67% as a valid probability, not realising that a probability value cannot exceed 1 (100%).
+  C: Probability p of any event satisfies 0 <= p <= 1. A value of 67% expressed as a fraction of a small sample space can exceed 1, which is impossible for a probability.
+VETTED-MIS PP_C10_2025_004 (fit 0.25)
+  M: Many candidates chose 67% as a valid probability, not realising that a probability value cannot exceed 1 (100%).
+  C: Probability p of any event satisfies 0 <= p <= 1. A value of 67% expressed as a fraction of a small sample space can exceed 1, which is impossible for a probability.
+VETTED-MIS PP_C10_2025_004 (fit 0.25)
+  M: Many candidates chose 67% as a valid probability, not realising that a probability value cannot exceed 1 (100%).
+  C: Probability p of any event satisfies 0 <= p <= 1. A value of 67% expressed as a fraction of a small sample space can exceed 1, which is impossible for a probability.

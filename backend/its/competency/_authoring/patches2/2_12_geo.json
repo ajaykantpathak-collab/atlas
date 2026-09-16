@@ -1,0 +1,80 @@
+{
+ "c12_geo_cbse_02_006": {
+  "rewrites": {
+   "2": {
+    "a": "(1) Stage one — birth and death rates are both high and roughly equal, so the gap stays near zero because epidemics and famine balance the absence of contraception, (2) Stage two — medicine and sanitation arriving from outside rapidly cut the death rate while fertility behaviour tied to illiteracy, agrarian life and family norms changes slowly, so this time lag widens the gap, (3) Stage three — urbanisation, female literacy and access to contraception finally pull the birth rate down toward the low death rate, closing the gap, (4) The trigger distinction — the mortality fall is credited to improvements in sanitation and health conditions, not to economic development in general. A student who says development reduces both rates simultaneously misses the sequential, lagged nature of the transition."
+   },
+   "3": {
+    "a": "(1) Country A — stage one, since its birth rate of 42 and death rate of 38 sit close together with tiny urbanisation and female literacy under subsistence agriculture, (2) Country B — stage two, the expanding stage, carrying the widest gap of 24 with moderate urbanisation and literacy in a mixed economy, (3) Country C — stage three, a narrow gap of 6 with high urbanisation, near-total female literacy and a service economy, (4) The rule — the expanding stage is identified by the largest birth-rate-minus-death-rate gap together with the matching socioeconomic correlates, not by a low absolute birth rate. A student who calls country B stage three because its birth rate is lower ignores the magnitude of the gap."
+   },
+   "4": {
+    "a": "(1) Literacy and autonomy — Japan reached near-universal female literacy, enabling fertility decline through delayed marriage and contraception, while gender norms and limited reproductive autonomy keep desired family size high in Kenya, (2) Economy and urbanisation — Japan's early industrialisation moved labour from farms where children are assets to factories where they are costs, whereas Kenya stays heavily agrarian and lightly urbanised, keeping children as economic assets longer, (3) The lesson — the pace of transition hangs on literacy, urbanisation and sectoral shift, not on poverty alone. A student who simply says Kenya is poorer misses the specific mechanisms linking those correlates to the fertility decision."
+   },
+   "5": {
+    "a": "(1) Verdict — invalid as a universal law, because the theory is a historical generalisation drawn from Europe and North America rather than a deterministic sequence, (2) Agency and policy — Kerala and Sri Lanka reached stage three without heavy industrialisation through state-led female literacy, healthcare and family planning, (3) Structural constraints — many Least Developed Countries show stalled transitions where imported medicine cut deaths while poverty, weak female education and cultural norms keep births high, (4) Reversibility — some post-Soviet states saw death rates rise and births fall below replacement, breaking the unidirectional order, so convergence is conditional rather than inevitable. A student who treats the theory as a prediction misses the evaluation competency."
+   },
+   "6": {
+    "a": "(1) Panel one — stage one equilibrium, high birth and death rates, rural, agrarian, illiterate, large families as asset, stable population, (2) Panel two — the exogenous shock, deaths fall sharply thanks to improvements in sanitation and health conditions, (3) Panel three — the lag, births stay high because society remains rural, agrarian and illiterate, children remain an asset and family planning is not accessible, (4) Panel four — the widening gap brings high net addition to population, the explosion, until urbanisation, literacy and technical know-how later bring births down. A student who credits economic development for the mortality fall, or ignores the asset value of children, has not internalised the exogenous-versus-endogenous distinction."
+   }
+  },
+  "appends": []
+ },
+ "c12_geo_cbse_17_004": {
+  "rewrites": {
+   "2": {
+    "a": "(1) Delhi in November — strong radiation inversion from clear skies, long nights and continental cooling drops the mixing height to a shallow layer, so the ventilation coefficient of mixing height times wind speed falls into the poor category, (2) Mumbai the same month — sea breezes keep the mixing height high and winds steady, giving a far larger ventilation coefficient, (3) The consequence — identical emissions disperse through a much larger air volume in Mumbai, so PM2.5 concentrations stay far lower, (4) The process chain — inversion, then low mixing height, then high concentration, is the required explanation, not merely more cars or a landlocked site. A student who blames stubble burning alone cites an episodic source and misses the meteorological amplification."
+   },
+   "3": {
+    "a": "(1) Convert the emission — 1200 kg per hour becomes about 333 grams per second, (2) Apply the box model — concentration equals Q divided by wind speed times mixing height times crosswind width, that is 333 over 2 times 300 times 20000, (3) The result — roughly 27.8 micrograms per cubic metre ten kilometres downwind, (4) The verdict — this sits below the 24-hour standard of 80, yet the 275 m stack nearly touches the 300 m mixing height, so fumigation risk remains when the inversion breaks and near-source concentrations run higher. A student who forgets the unit conversion overstates the concentration by thousands of times, and using stack height instead of mixing height misunderstands the box model assumption."
+   },
+   "4": {
+    "a": "(1) Dominant pollutants — Kanpur carries PM2.5, sulphur dioxide and nitrogen dioxide from industry and vehicles, while Bengaluru's mix is PM2.5, nitrogen dioxide and ground-level ozone from traffic and secondary formation, (2) Seasonality — Kanpur turns severe in winter under inversion and shallow mixing, while Bengaluru stays elevated year-round and peaks in the drier months, (3) Source sectors — thermal power, fertiliser, leather and brick kilns dominate Kanpur, whereas transport, construction and generator sets dominate Bengaluru, (4) Dispersion control — the Ganga plain's shallow winter mixing and calm winds trap Kanpur's pollution, while the Deccan plateau's deeper mixing and breeze influence ventilate Bengaluru. A student who says both simply have vehicular pollution misses source apportionment, and denying Bengaluru a winter peak ignores its local meteorology."
+   },
+   "5": {
+    "a": "(1) Effectiveness — modest, since studies find peak PM2.5 falls only about 10 to 15 percent while transboundary stubble smoke and persistent inversion overwhelm local cuts, (2) Equity — highly regressive, because construction bans hit daily-wage migrants, the vehicle ban bites small transporters, work-from-home covers only the formal sector and no income support exists, (3) Enforcement — weakly feasible, with vehicle checks causing congestion, small sites evading drone monitoring and the industrial fuel switch incomplete, (4) The better path — permanent ventilation corridors, year-round industrial compliance and ex-ante stubble management subsidies instead of ex-post bans. A student who calls the plan very effective because the AQI dropped afterwards confuses correlation with causation, since wind speeds usually rose at the same time."
+   },
+   "6": {
+    "a": "(1) Source apportionment — receptor modelling at four site types across three seasons, with isotope analysis separating biomass from fossil carbon, (2) First interventions — cleaner municipal generator fuel and zig-zag brick kilns within months, then electrified shared autos and non-motorised corridors, (3) Longer term — a peri-urban green buffer that cuts dust, cools the microclimate and raises the mixing height, (4) Monitoring and community — low-cost sensor nodes calibrated against the regulatory station, plus ward air-quality committees reporting burning through a civic bot, (5) The geography — the plan must answer the city's own tourism dust, industrial cluster and seasonal profile. A poor answer offers generic tree-planting without geographic specificity, seasonal design or an equity lens."
+   }
+  },
+  "appends": []
+ },
+ "c12_geo_cbse_19_011": {
+  "rewrites": {
+   "1": {
+    "a": "(1) Essential step — normalisation to a common scale, such as z-scores or min-max scaling, before correlating variables measured in percent and in rupees, (2) Why — comparability in geographical analysis needs one scale, and correlation additionally assumes both variables are approximately normally distributed, (3) The nuance — income is right-skewed and may first need a log transform, while a bounded, roughly symmetric literacy rate usually does not. A student who says no preprocessing is needed confuses correlation's mathematical invariance to linear scaling with the practical need for comparability and normality."
+   },
+   "3": {
+    "a": "(1) Rainfall statistics — the mean is 920 mm with a standard deviation of about 107.5, giving z-scores of minus 0.65, zero, minus 1.30, plus 1.67 and plus 0.28 for the five districts, (2) Groundwater statistics — the mean is 12 m with a standard deviation of about 6.9, giving z-scores of minus 0.58, zero, minus 1.01, plus 1.88 and minus 0.29, (3) Why z-score wins — groundwater holds an outlier at 25 m, and min-max scaling would squeeze the other four values into a narrow band near zero, while z-scores spread the bulk of the data around the mean and preserve structure, (4) The SD choice — for census-style data covering all districts, the population standard deviation with denominator n is the correct divisor. A student who computes min-max instead misses the outlier problem entirely."
+   },
+   "4": {
+    "a": "(1) The violated assumption — equal weighting presumes the three indicators are uncorrelated, but rainfall deficit drives both groundwater decline and crop loss, so averaging double-counts the rainfall signal, (2) The statistical quirk — z-scores centre on zero, and averaging them shrinks the index variance, making the values hard to interpret, (3) The better scheme — derive weights from the first principal component of the correlation matrix, or assign causal weights after checking multicollinearity with variance inflation factors, (4) The competency — normalising variables does not by itself make an index valid. A student who says z-scores are already standardised so averaging is fine misses multicollinearity and the equal-weight assumption."
+   },
+   "5": {
+    "a": "(1) Verdict — not always, because log transformation suits strongly right-skewed data, where many low values and a few very high ones hide the dense tail, (2) When inappropriate — for roughly symmetric data such as literacy rates, for data containing zeros or negatives where log is undefined, and when the map must show absolute thresholds such as districts above a qualifying density, (3) The distortion example — in Rajasthan most districts sit between 100 and 300 persons per square kilometre while the capital exceeds 5000, and taking logs visually shrinks the urban-rural contrast that policymakers need to see, (4) The rule — match the transformation to the data distribution and the map's purpose. Saying always log-transform treats it as a ritual, and saying never ignores skewness handling."
+   },
+   "6": {
+    "a": "(1) Explore first — compute skewness and kurtosis, boxplot outliers, and check for zeros or negatives in every variable, (2) Transform — apply log or square root to variables whose skewness exceeds one in magnitude, keeping all values positive, recording the choice per variable, (3) Normalise by purpose — z-scores for the correlation matrix, min-max to a zero-one range for the composite index, and transformed but unnormalised values with per-variable classification schemes for the choropleth maps, (4) Document — a metadata table of original unit, skewness, transformation and normalisation per variable, plus a codebook of parameters so the workflow is reproducible. A poor answer transforms everything uniformly, applies one normalisation to all purposes, or ignores zeros in log."
+   }
+  },
+  "appends": []
+ },
+ "c12_geo_cbse_21_002": {
+  "rewrites": {
+   "3": {
+    "q": "You are designing a survey to map household-level flood vulnerability in a 2 km² urban ward in Guwahati with 1,200 households across three micro-zones: riverfront (300 HH), mid-slope (600 HH) and hilltop (300 HH). Work out the minimum sample size at 95% confidence with a 5% margin of error using the finite population correction formula, then justify whether proportional or disproportional stratified sampling is appropriate, and allocate the sample across strata.",
+    "a": "(1) Base sample — at 95 percent confidence with a five percent margin and maximum variability the uncorrected requirement is about 385 households, (2) Finite population correction — with 1200 households the requirement falls to about 292, (3) Stratification choice — disproportional sampling fits, because the high-variability riverfront needs oversampling while the stable hilltop needs only minimum representation, (4) Neyman allocation — apportioning by stratum size times standard deviation gives roughly 91 households on the riverfront, 146 on the mid-slope and 55 on the hilltop, (5) The flaw to avoid — a simple random sample of the same size would under-sample the critical riverfront zone where flood risk concentrates. A wrong answer ignores spatial heterogeneity altogether."
+   },
+   "4": {
+    "a": "(1) Unit of analysis — individual mobile human vendors in the bazaar versus fixed grid cells on the farm, (2) Sampling frame — no vendor list exists, so quotas or snowball sampling from market entry points, against a complete frame of grid cells from GPS and satellite basemaps, (3) Instrument — semi-structured interviews with thermal-comfort scales for the vendors, versus gravimetric soil cores and probe readings for the plots, (4) Scheduling and ethics — peak heat hours on non-consecutive days with informed consent and anonymity, versus dawn and dusk readings at growth stages with farmer permission and no crop damage. A wrong answer treats both as questionnaire surveys, missing that the farm study is a biophysical measurement survey."
+   },
+   "5": {
+    "a": "(1) No sampling frame — taking every tenth person at a bus stop is a convenience sample skewed to daytime travellers and missing women and the elderly, so migration rates are badly underestimated, (2) No spatial stratification — villages differing in distance to town, caste composition and landholding are treated as identical, so findings cannot generalise and an ecological fallacy creeps in, (3) No instrument standardisation — notebook probing varies from interview to interview, leaving qualitative answers that cannot be coded for push and pull factors, (4) No ethics or logistics — without consent, panchayat permission and enumerator training, the project risks community conflict and rejection of the fieldwork. A poor answer stops at calling the sample small or unscientific without naming the violated design principles of frame, stratification, standardisation and ethics."
+   },
+   "6": {
+    "a": "(1) Hypotheses — metered households consume less water per person than flat-rate ones, rainwater-harvesting adoption tracks awareness rather than income, and greywater reuse for flushing cuts freshwater demand, (2) Coded variables — household identifier, meter type, daily litres per capita computed from meter reading over household size, harvesting status and greywater use, each with fixed codes and units, (3) Skip logic — a filter on owning a functional harvesting system routes non-owners straight to the greywater section, (4) Field protocol — GPS waypoints, coded photo names, and a refusal script citing school identity and residents'-association approval. A poor answer writes vague questions about water with no codes, units or logic."
+   }
+  },
+  "appends": []
+ }
+}

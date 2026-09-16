@@ -2021,7 +2021,7 @@ class GeographyQuestionGenerator:
                           [2, 3, 8, 25, 65, 85, 95, 110, 140, 140, 60, 15]),
         }
 
-        city, lat, temps, rains = self.rng.choice(list(cities.items()))
+        city, (lat, temps, rains) = self.rng.choice(list(cities.items()))
         params = {
             "monthly_temp": temps,
             "monthly_rainfall": rains,
@@ -2306,23 +2306,23 @@ class GeographyQuestionGenerator:
                 formula="Analyze given demographic indicators",
                 calculation=f"State: {s['state']}\nPopulation: {s['population']:,}\n"
                             f"Area: {s['area']} sq km\nDensity: {s['density']}/sq km\n"
-                            f"Growth Rate: {s['growth_rate']}%\nLiteracy: {s['literacy']}%")),
+                            f"Growth Rate: {s['growth_rate']}%\nLiteracy: {s['literacy']}%"),
             Step(2, "Analyze Population Growth Pattern",
                 formula="Growth rate comparison with national average (~17.7%)",
                 calculation=f"State Growth: {s['growth_rate']}% vs National: 17.7%\n"
                             f"Deviation: {s['growth_rate'] - 17.7:+.1f}% points\n"
-                            f"{'Below' if s['growth_rate'] < 17.7 else 'Above'} national average")),
+                            f"{'Below' if s['growth_rate'] < 17.7 else 'Above'} national average"),
             Step(3, "Literacy and Social Indicators",
                 formula="Compare literacy with national average (~77.7%)",
                 calculation=f"Literacy: {s['literacy']}% vs National: 77.7%\n"
                             f"Sex Ratio: {s['sex_ratio']} (national: 940)\n"
-                            f"Urbanization: {s['urban_pct']}%")),
+                            f"Urbanization: {s['urban_pct']}%"),
             Step(4, "Dependency Ratio Calculation",
                 formula="DR = (0-14 and 65+ population) / (15-64 population) x 100",
                 calculation=f"Elderly (65+): {s['elderly_pct']}%\n"
                             f"Using approximate youth pop ~{100 - s['elderly_pct'] - 55:.0f}%\n"
                             f"Working age: ~55%\nDependency Ratio (approx): "
-                            f"{(100 - 55) / 55 * 100:.1f}%")),
+                            f"{(100 - 55) / 55 * 100:.1f}%"),
             Step(5, "Regional Comparison",
                 formula="Compare with other Indian states",
                 calculation=f"{s['state']} shows "
@@ -2331,14 +2331,14 @@ class GeographyQuestionGenerator:
                             f"{'high' if s['literacy'] > 80 else 'moderate' if s['literacy'] > 60 else 'low'} "
                             f"literacy, "
                             f"{'high' if s['urban_pct'] > 40 else 'moderate' if s['urban_pct'] > 20 else 'low'} "
-                            f"urbanization.")),
+                            f"urbanization."),
             Step(6, "Conclusion and Policy Implications",
                 formula="Synthesize findings for policy recommendations",
                 calculation=f"Based on the data, {s['state']} faces:\n"
                             f"1. {'Population pressure' if s['density'] > 500 else 'Moderate population'}\n"
                             f"2. {'Literacy improvement needed' if s['literacy'] < 80 else 'Good literacy achievement'}\n"
                             f"3. {'Rural development focus' if s['urban_pct'] < 30 else 'Urban planning needs'}\n"
-                            f"4. {'Aging population concern' if s['elderly_pct'] > 10 else 'Demographic dividend opportunity'}")),
+                            f"4. {'Aging population concern' if s['elderly_pct'] > 10 else 'Demographic dividend opportunity'}"),
         ]
 
         return {
@@ -2393,29 +2393,29 @@ class GeographyQuestionGenerator:
         steps = [
             Step(1, "Identify the Industry and Location",
                 formula="Read and understand the industrial case",
-                calculation=f"Industry: {ind['name']}\nLocation: {ind['location']}")),
+                calculation=f"Industry: {ind['name']}\nLocation: {ind['location']}"),
             Step(2, "Analyze Raw Material Availability",
                 formula="Proximity to raw materials reduces transport cost",
                 calculation=f"Raw Material: {ind['raw_material']}\n"
-                            f"Factor Score: High - {'Near' if 'near' in ind['location'].lower() or 'Odisha' in ind['location'] else 'Regional'} source")),
+                            f"Factor Score: High - {'Near' if 'near' in ind['location'].lower() or 'Odisha' in ind['location'] else 'Regional'} source"),
             Step(3, "Analyze Power and Water",
                 formula="Essential inputs for manufacturing",
-                calculation=f"Power: {ind['power']}\nWater: {ind['water']}")),
+                calculation=f"Power: {ind['power']}\nWater: {ind['water']}"),
             Step(4, "Analyze Transport and Market Access",
                 formula="Market proximity and transport connectivity",
-                calculation=f"Transport: {ind['transport']}\nMarket: {ind['market']}")),
+                calculation=f"Transport: {ind['transport']}\nMarket: {ind['market']}"),
             Step(5, "Evaluate Labour Availability",
                 formula="Skilled and unskilled labour force",
-                calculation=f"Labour: {ind['labour']}")),
+                calculation=f"Labour: {ind['labour']}"),
             Step(6, "Apply Weber's Theory",
                 formula="Material Index, Labour Cost, Agglomeration",
                 calculation=f"Based on factors: {', '.join(ind['factors'])}\n"
                             f"Locational Classification: "
-                            f"{'Material-oriented' if 'raw' in ind['factors'][0].lower() else 'Market-oriented'}")),
+                            f"{'Material-oriented' if 'raw' in ind['factors'][0].lower() else 'Market-oriented'}"),
             Step(7, "Sustainable Development Assessment",
                 formula="Environmental and social sustainability",
                 calculation="Consider:\n1. Pollution control measures\n2. Waste management\n3. Worker safety\n"
-                            f"4. Impact on local community\n5. Resource depletion concerns")),
+                            f"4. Impact on local community\n5. Resource depletion concerns"),
         ]
 
         return {
@@ -2439,28 +2439,28 @@ class GeographyQuestionGenerator:
             Step(1, "Study the Climate Data Table",
                 formula="Observe monthly temperature and rainfall patterns",
                 calculation="Identify:\n- Highest and lowest temperatures\n- Wet and dry seasons\n"
-                            "- Annual rainfall distribution")),
+                            "- Annual rainfall distribution"),
             Step(2, "Plot the Climate Graph",
                 formula="Bar chart for rainfall, line graph for temperature",
                 calculation="X-axis: Months (Jan-Dec)\n"
                             "Y-axis-left: Temperature (C)\n"
-                            "Y-axis-right: Rainfall (mm)")),
+                            "Y-axis-right: Rainfall (mm)"),
             Step(3, "Identify Climate Type",
                 formula="Koppen classification or Indian seasonal classification",
-                calculation="Check:\n- Temperature range\n- Rainfall seasonality\n- Monsoon influence")),
+                calculation="Check:\n- Temperature range\n- Rainfall seasonality\n- Monsoon influence"),
             Step(4, "Correlate with Vegetation",
                 formula="Climate determines natural vegetation",
                 calculation="Based on rainfall and temperature:\n"
                             "- High rainfall + high temp = Tropical Evergreen\n"
                             "- Moderate rainfall = Deciduous forest\n"
-                            "- Low rainfall = Thorn/Scrub")),
+                            "- Low rainfall = Thorn/Scrub"),
             Step(5, "Agricultural Implications",
                 formula="Climate affects cropping patterns",
                 calculation="Determine:\n- Suitable crops\n- Growing seasons\n- Irrigation needs\n"
-                            "- Risk of droughts/floods")),
+                            "- Risk of droughts/floods"),
             Step(6, "Climate Change Indicators",
                 formula="Look for long-term trends",
-                calculation="Consider:\n- Rising temperatures\n- Erratic rainfall\n- Extreme weather events")),
+                calculation="Consider:\n- Rising temperatures\n- Erratic rainfall\n- Extreme weather events"),
         ]
 
         return {
@@ -2509,18 +2509,18 @@ class GeographyQuestionGenerator:
         steps = [
             Step(1, "Evaluate the Assertion",
                 formula="Is the statement factually correct?",
-                calculation=f"Assertion: \"{q['assertion']}\"\nVerdict: {'TRUE' if True else 'FALSE'}")),
+                calculation=f"Assertion: \"{q['assertion']}\"\nVerdict: {'TRUE' if True else 'FALSE'}"),
             Step(2, "Evaluate the Reason",
                 formula="Is the reason factually correct?",
-                calculation=f"Reason: \"{q['reason']}\"\nVerdict: {'TRUE' if True else 'FALSE'}")),
+                calculation=f"Reason: \"{q['reason']}\"\nVerdict: {'TRUE' if True else 'FALSE'}"),
             Step(3, "Evaluate the Relationship",
                 formula="Does the reason explain the assertion?",
                 calculation=f"Does reason explain assertion: {q['answer_both']}\n"
-                            f"Explanation: {q['explanation']}")),
+                            f"Explanation: {q['explanation']}"),
             Step(4, "Select the Correct Option",
                 formula="A: Both true, R explains A | B: Both true, R does not explain A | C: A true, R false | D: A false, R true",
                 calculation=f"Correct Answer: Both assertion and reason are true "
-                            f"{'and reason explains assertion' if q['answer_both'] else 'but reason does not explain assertion'}.")),
+                            f"{'and reason explains assertion' if q['answer_both'] else 'but reason does not explain assertion'}."),
         ]
 
         return {
@@ -2568,14 +2568,14 @@ class GeographyQuestionGenerator:
             Step(1, "Describe the Farming System",
                 formula="Identify region, type, and main characteristics",
                 calculation=f"Region: {fs['region']}\nSystem: {fs['system']}\n"
-                            f"Crops: {', '.join(fs['main_crops'])}")),
+                            f"Crops: {', '.join(fs['main_crops'])}"),
             Step(2, "Analyze Physical Factors",
                 formula="Relief, soil, climate, water availability",
                 calculation=f"Soil/Water: {fs['irrigation']}\n"
-                            f"Technology Level: {fs['technology']}")),
+                            f"Technology Level: {fs['technology']}"),
             Step(3, "Identify Socio-economic Factors",
-                formula "Farm size, labour, market access, capital",
-                calculation=f"Average Farm Size: {fs['farm_size']}")),
+                formula="Farm size, labour, market access, capital",
+                calculation=f"Average Farm Size: {fs['farm_size']}"),
             Step(4, "Evaluate Sustainability Issues",
                 formula="Environmental, economic, social sustainability",
                 calculation="Problems:\n" + "\n".join([f"- {p}" for p in fs["problems"]]) +
@@ -2584,7 +2584,7 @@ class GeographyQuestionGenerator:
                 formula="Intensive vs Extensive, Commercial vs Subsistence",
                 calculation=f"Compare {fs['system']} with organic farming and precision agriculture.\n"
                             f"Pros: Higher yields, market access\n"
-                            f"Cons: Environmental cost, input dependency")),
+                            f"Cons: Environmental cost, input dependency"),
             Step(6, "Recommend Sustainable Practices",
                 formula="Integrated approach based on SWOT analysis",
                 calculation="Recommendations:\n" + "\n".join([f"1. {s}" for s in fs["solutions"]])),
@@ -2611,29 +2611,75 @@ class GeographyQuestionGenerator:
             Step(1, "Define the Survey Objective",
                 formula="What is being studied?",
                 calculation="Examples:\n- Study of land use in a local area\n- Survey of a local river/channel\n"
-                            "- Analysis of a local settlement pattern\n- Study of soil types in the area")),
+                            "- Analysis of a local settlement pattern\n- Study of soil types in the area"),
             Step(2, "Select Survey Method",
                 formula="Choose appropriate method (chain, compass, levelling, etc.)",
                 calculation="Methods:\n- Chain survey for small areas\n- Compass traversing for boundaries\n"
-                            "- Levelling for height differences\n- Plane table for detailed mapping")),
+                            "- Levelling for height differences\n- Plane table for detailed mapping"),
             Step(3, "Conduct Field Work",
                 formula="Collect primary data systematically",
                 calculation="Record:\n- Measurements (with instrument and correction)\n- Observations\n- Sketches/photos\n"
-                            "- Interviews (if applicable)")),
+                            "- Interviews (if applicable)"),
             Step(4, "Process Data",
                 formula="Calculate areas, bearings, gradients, etc.",
                 calculation="- Apply corrections to measurements\n- Calculate areas using appropriate formulas\n"
-                            "- Draw maps/plans\n- Analyze patterns")),
+                            "- Draw maps/plans\n- Analyze patterns"),
             Step(5, "Write Field Report",
                 formula="Structure: Introduction, Methodology, Results, Analysis, Conclusion",
                 calculation="Report should include:\n- Title and objectives\n- Methods used\n- Data tables/diagrams\n"
-                            "- Analysis and findings\n- Conclusions and recommendations\n- Bibliography")),
+                            "- Analysis and findings\n- Conclusions and recommendations\n- Bibliography"),
             Step(6, "Viva Voce Preparation",
                 formula="Be prepared to defend your findings",
                 calculation="Know:\n- Why you chose the method\n- Sources of error\n- How to improve the study\n- "
-                            "Broader geographical significance of findings")),
+                            "Broader geographical significance of findings"),
         ]
 
         return {
             "topic": "Competency: Field Survey / Practical",
-            "question
+            "question": (
+                "Design a mini field survey for your local area (for example, land use, water bodies, "
+                "traffic density or settlement pattern). Describe the objective of your survey, the "
+                "method you would choose and why, how you would record and process the data, and how "
+                "you would present your findings in the field report."
+            ),
+            "steps": [{"n": s.number, "desc": s.description, "formula": s.formula,
+                        "calc": s.calculation} for s in steps],
+            "answer": {
+                "objective": "Study a geographical feature or problem of the local area",
+                "method": "Chain/compass/levelling survey or questionnaire, as suited to the objective",
+                "deliverables": [
+                    "Field notebook with raw measurements and observations",
+                    "Map/plan of the surveyed area",
+                    "Report: Introduction, Methodology, Results, Analysis, Conclusion",
+                    "Viva voce presentation of findings",
+                ],
+            },
+            "verification": "Field survey format follows the prescribed ISC Geography practical scheme.",
+        }
+
+
+# ─── Deterministic module-level entry point (registry adapter) ──────────────
+
+def generate_questions(seed: int = 0, count: int = 1, topic: Optional[str] = None) -> List[Dict[str, Any]]:
+    """Deterministically generate ISC Class 12 Geography questions.
+
+    Mirrors the convention of the other solvers_regen question modules so the
+    engagement-layer registry can call ``generate_questions(seed)``.
+    """
+    gen = GeographyQuestionGenerator(seed=seed)
+    out: List[Dict[str, Any]] = []
+    for i in range(count):
+        try:
+            if i % 4 == 3:
+                q = gen.generate_competency_question()
+            elif topic:
+                q = gen.generate_question(topic)
+            else:
+                q = gen.generate_question()
+        except Exception:
+            continue
+        q = dict(q)
+        q.setdefault("id", f"c12_geo_{seed}_{i}")
+        q["explanation"] = q.get("verification", "")
+        out.append(q)
+    return out

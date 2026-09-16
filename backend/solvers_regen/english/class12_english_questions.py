@@ -925,7 +925,7 @@ def gen_prose_mcq(rng: random.Random, story: dict) -> Dict[str, Any]:
             f"Step 3: Match the description with the correct option",
             f"Answer: {correct_ans}",
         ],
-        "explanation": f"In '{story['title']}', {correct_ans}. This is established through the narrative's focus on {themes[0] if themes else 'the character's journey'}.",
+        "explanation": f"In '{story['title']}', {correct_ans}. This is established through the narrative's focus on {themes[0] if themes else "the character's journey"}.",
         "difficulty": "easy" if rng.random() < 0.5 else "medium",
         "bloom_level": "remembering" if rng.random() < 0.4 else "understanding",
     }
@@ -2117,7 +2117,7 @@ def gen_article_writing(rng: random.Random) -> Dict[str, Any]:
             f"{rng.choice(['Studies show that', 'Recent data indicates that', 'Experts believe that'])} "
             f"{rng.choice(['62% of Indian youth', 'over 500 million Indians', 'millions of young Indians'])} "
             f"are affected by this issue. "
-            f"Consider the example of {rng.choice(['a government initiative', 'a community program', 'a school project', 'an NGO')} "
+            f"Consider the example of {rng.choice(['a government initiative', 'a community program', 'a school project', 'an NGO'])} "
             f"in {pick_city(rng)} that has made a significant difference. "
             f"We, as young citizens, must {rng.choice(['take action', 'raise our voices', 'demand change', 'be the change'])}. "
             f"The time to act is now."
@@ -2166,7 +2166,7 @@ def gen_speech_writing(rng: random.Random) -> Dict[str, Any]:
             f"Today I stand before you to speak about '{topic}'. "
             f"{rng.choice(['As students of this great nation', 'As young Indians', 'As the future of this country'])} "
             f", we have a responsibility to understand the significance of this issue. "
-            f"{rng.choice(['Did you know', 'Consider this', 'Take the example of')} "
+            f"{rng.choice(['Did you know', 'Consider this', 'Take the example of'])} "
             f"— {rng.choice(['India has 22 scheduled languages', 'over 60% of our youth', 'more than 5000 years of history'])} "
             f"and yet we often overlook the importance of {rng.choice(['our heritage', 'our environment', 'our future', 'our diversity'])}. "
             f"Let us each take a small step today. "

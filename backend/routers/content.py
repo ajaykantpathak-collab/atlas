@@ -280,15 +280,56 @@ async def list_enrichment(
 @router.get("/nodes/{node_id}/enrichment", response_model=EnrichmentContentSchema)
 async def get_node_enrichment(
     node_id: str,
-    user: User | None = Depends(get_current_user_optional),
-    db: AsyncSession = Depends(get_db),
 ):
-    """Return the full enrichment content for a node."""
+    """Serve node pedagogy from the OFFICIAL enhanced-nodes corpus
+    (9,010 nodes) — the single source of teaching content across the
+    whole app.  (The enrichment_content DB table is legacy CISCE-era
+    data covering only ~3.6k nodes and is no longer consulted.)
+    Fields the corpus lacks for a node are simply absent; the frontend
+    renders sections conditionally."""
+    from backend.services.enhanced_nodes import load_index
+    from fastapi.responses import JSONResponse
     try:
-        content = await ContentService.get_enrichment(db, node_id)
-    except ValueError as exc:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc))
-    return _enrichment_to_full_schema(content)
+        node = load_index().get(node_id)
+    except Exception:
+        node = None
+    if node is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"no enhanced node {node_id!r}",
+        )
+    diagnostics = node.get("diagnostics") or []
+    subj = str(node.get("subject") or "").strip().capitalize()
+    chap = node.get("chapter")
+    display_title = node.get("title") or (
+        f"{subj} · Chapter {chap}" if subj and chap else node_id)
+    return JSONResponse({
+        "node_id": node_id,
+        "title": display_title,
+        "subject": node.get("subject") or "",
+        "class_level": node.get("class") or 0,
+        "chapter": node.get("chapter"),
+        "definition": node.get("definition"),
+        "text_walkthrough": node.get("walkthrough"),
+        "eli5": node.get("eli5"),
+        "common_misconception": node.get("common_misconception"),
+        "diagnostic_questions": [
+            {"question": d.get("question"), "answer": d.get("answer"),
+             "options": d.get("options") or [],
+             "misconception_if_wrong": d.get("misconception")}
+            for d in diagnostics if isinstance(d, dict)
+        ],
+        "on_failure": None,
+        "examples": node.get("examples"),
+        "cognitive_level": node.get("cognitive_level"),
+        "mastery_criteria": node.get("mastery_criteria"),
+        "scope_boundary": node.get("scope_boundary"),
+        "prereq_ids": node.get("prereq_ids") or [],
+        "depth_prereq_ids": node.get("depth_prereq_ids") or [],
+        "forward_node_ids": node.get("forward_node_ids") or [],
+        "difficulty": node.get("difficulty"),
+        "board": node.get("board") or "CBSE",
+    })
 
 
 @router.get("/nodes/{node_id}/enrichment/{field}", response_model=EnrichmentFieldSchema)

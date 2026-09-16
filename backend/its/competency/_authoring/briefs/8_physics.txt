@@ -1,0 +1,40 @@
+
+### NODE c8_physics_ch2_11  class=8 sub=physics ch=2 verdict=MISSING action=APPEND 3 from idx 7
+DEFINITION: A rechargeable cell (secondary cell) uses a reversible chemical reaction that allows electrical energy to be restored by passing a current through it in the opposite direction, whereas a non-rechargeable cell (primary cell) uses an irreversible chemical reaction that cannot be practically reversed, making it a single-use energy source.
+WALKTHROUGH: Observe a TV remote (uses AA alkaline cells that you throw away) and a mobile phone (uses a Li-ion battery you recharge daily). Both convert chemical energy to electrical energy, but the phone's battery can be "refilled" with electricity while the remote's cannot. Recall from Class 6 (c6_physics_ch03_016) that a cell has two electrodes and an electrolyte; the key difference is whether the chemical changes at the electrodes can be undone by forcing current backwards. We will examine the reaction reversibility, then compare cost, waste, and performance to decide which cell suits which job.
+D1 Q: State the fundamental chemical difference between a rechargeable (secondary) cell and a non-rechargeable (primary) cell in one sentence.
+D1 A: A rechargeable cell employs a reversible chemical reaction that can be driven in the opposite direction by an external current, restoring the original reactants, while a non-rechargeable cell uses an irreversible reaction that permanently consumes the reactants. A wrong answer such as "rechargeable cells have more chemicals" reveals the student is focusing on quantity rather than the reversibility of the redox reacti
+D2 Q: Why does a zinc–carbon dry cell (used in a wall clock) become useless after a few months even if the clock is switched off, whereas a lithium-ion phone battery holds charge for weeks when the phone is powered down?
+D2 A: The zinc–carbon cell has a relatively high self-discharge rate due to local action (impurities in zinc causing internal short circuits) and the irreversible nature of its chemistry, while lithium-ion cells have very low self-discharge (<2% per month) because their intercalation chemistry is stable when not cycling. If a student says "the clock uses more current", they confuse load current with self-discharge and miss
+D3 Q: A student buys a pack of four AA alkaline cells for ₹120. Each cell delivers 2.5 Ah at 1.5 V before dying. She also considers four AA NiMH rechargeable cells costing ₹600 that can be recharged 500 times, each cycle delivering 2.0 Ah at 1.2 V. Calculate the cost per watt-hour (Wh) for each option over the lifetime of th
+D3 A: Alkaline: Energy per cell = 2.5 Ah × 1.5 V = 3.75 Wh. Pack energy = 4 × 3.75 = 15 Wh. Cost per Wh = ₹120 / 15 Wh = ₹8/Wh. 
+NiMH: Energy per cycle per cell = 2.0 Ah × 1.2 V = 2.4 Wh. Pack energy per cycle = 4 × 2.4 = 9.6 Wh. Lifetime energy = 9.6 Wh × 500 cycles = 4800 Wh. Cost per Wh = ₹600 / 4800 Wh = ₹0.125/Wh. 
+A wrong answer often forgets to multiply by the number of cells or cycles, or mixes up Ah and Wh, showin
+D4 Q: Compare the voltage profiles of an alkaline cell and a NiMH cell during discharge. Which device—a digital camera requiring a minimum 1.1 V per cell or a wall clock working down to 0.8 V—would benefit more from NiMH, and why?
+D4 A: NiMH maintains a nearly flat voltage around 1.2 V for most of its discharge, then drops sharply; alkaline voltage declines steadily from 1.5 V to 0.8 V. The digital camera needs a stable voltage above 1.1 V, so NiMH's flat profile keeps it operating longer before sudden cutoff. The clock works fine with alkaline's gradual decline. A student who says "alkaline lasts longer because it starts higher" ignores the voltage
+D5 Q: A classmate claims: "Throwing used alkaline cells in household trash is harmless because they don't contain mercury anymore." Evaluate this statement and explain the environmental concern that remains.
+D5 A: The statement is partially true (mercury was phased out in the 1990s) but misleading. Alkaline cells still contain zinc, manganese dioxide, and potassium hydroxide electrolyte, which can leach into soil and groundwater. Moreover, the sheer volume of single-use cells creates solid waste. Rechargeable cells reduce waste by replacing hundreds of primaries. A student who agrees completely misses the cumulative impact of 
+D6 Q: Design a simple classroom experiment to demonstrate that a lead–acid cell (like a 6 V lantern battery) can be recharged, while a zinc–carbon cell cannot. List materials, procedure, and the observation that proves reversibility.
+D6 A: Materials: 6 V lead–acid battery, zinc–carbon AA cell, DC power supply (0–12 V), multimeter, connecting wires, 6 V bulb as load. 
+Procedure: 1) Discharge both cells through the bulb until voltage drops below 4 V (lead–acid) and 0.8 V (zinc–carbon). 2) Connect the power supply to the lead–acid cell at 7.2 V (2.4 V per cell) for 2 hours. 3) Measure open-circuit voltage of both cells. 4) Reconnect the bulb to each. 
+Obs
+(append 3 new diagnostics as D7..)
+
+VETTED-DIAG cfq_10_1 (fit 0.23, src c8_physics_diagnostics.marker)
+  Q: Three identical bulbs are connected in series across a battery. If one bulb fuses, what happens to the other two? What if they were in parallel?
+  A: Series: If one bulb fuses (breaks the circuit), the other two go OUT. In series, the same current flows through all components -- a break anywhere stops all current. Parallel: If one bulb fuses, the other two STAY ON. In parallel, each bulb has its own independent path to the battery -- a break in one path doesn't affect the others.
+VETTED-DIAG cfq_7_1 (fit 0.23, src c8_physics_diagnostics.marker)
+  Q: A bar magnet is cut into two equal pieces perpendicular to its length. How many poles does each piece have? Can a magnetic monopole be created by cutting a magnet?
+  A: Each piece has TWO poles (N and S). Cutting a magnet creates two smaller magnets, each with a north and south pole. A magnetic monopole CANNOT be created by cutting -- no matter how many times you cut, each piece always has both poles. This is a fundamental difference from electric charges (which can be isolated as positive or negative).
+VETTED-DIAG cfq_5_1 (fit 0.18, src c8_physics_diagnostics.marker)
+  Q: A 6V battery is connected to a 3Omega resistor. Find the current. If an ammeter (very low resistance) is connected in series and a voltmeter (very high resistance) in parallel across the resistor, do they affect the circuit?
+  A: I = V/R = 6/3 = 2 A. The ammeter (low resistance in series) has negligible effect on current. The voltmeter (high resistance in parallel) draws negligible current. Ideally, ammeters have zero resistance and voltmeters have infinite resistance, so they don't affect the circuit.
+VETTED-MIS misconception_4 (fit 0.27)
+  M: A solar cell stores electricity for later use.
+  C: A solar cell converts light energy into electrical energy. To use the electricity later, a battery or storage device is needed separately.
+VETTED-MIS misconception_4 (fit 0.27)
+  M: A solar cell stores electricity for later use.
+  C: A solar cell converts light energy into electrical energy. To use the electricity later, a battery or storage device is needed separately.
+VETTED-MIS misconception_5 (fit 0.25)
+  M: The sun gives us light but not energy, because we cannot see energy.
+  C: Light and heat are forms of energy. The sun gives us light energy and heat energy.

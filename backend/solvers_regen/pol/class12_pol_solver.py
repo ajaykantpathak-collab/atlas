@@ -22,7 +22,10 @@ class Topic(Enum):
     SOUTH_ASIA = "South Asia"
     INT_ORGS = "International Organizations"
     ENVIRONMENT = "Environment and Global Commons"
+    HUMAN_RIGHTS = "Human Rights"
     GLOBALIZATION = "Globalization"
+    INDIA_FP = "India's Foreign Policy"
+    CASE_STUDY = "Case Studies"
 
 
 class QuestionType(Enum):
@@ -37,6 +40,7 @@ class QuestionType(Enum):
 @dataclass
 class SolverResult:
     steps: List[str]
+    question: str
     answer: str
     verification: str
     topic: str
@@ -177,7 +181,7 @@ def _solve_cold_war_comp_short(q_text):
         "All facts verified against standard historical records."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.COLD_WAR.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -196,7 +200,7 @@ def _solve_cold_war_comp_long(q_text):
         "'Ten Principles of Bandung' emphasizing sovereignty, territorial integrity, "
         "equality, peaceful coexistence. Laid the foundation for NAM.",
         "Step 4: Analyze NAM's role in the bipolar world -- provided a 'third way' "
-        that gave newly independent nations agency. NAM countries numbered 120 by "
+        "that gave newly independent nations agency. NAM countries numbered 120 by "
         "1990s. Played crucial role in UN General Assembly, Nuclear Non-Proliferation "
         "Treaty, and New International Economic Order (NIEO) demands.",
         "Step 5: Examine specific contributions -- NAM pressured superpowers for "
@@ -233,7 +237,7 @@ def _solve_cold_war_comp_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.COLD_WAR.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -310,7 +314,7 @@ def _solve_us_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.US_HEGEMONY.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -367,7 +371,7 @@ def _solve_us_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.US_HEGEMONY.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -450,7 +454,7 @@ def _solve_alt_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.ALT_CENTRES.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -512,7 +516,7 @@ def _solve_alt_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.ALT_CENTRES.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -598,7 +602,7 @@ def _solve_sa_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.SOUTH_ASIA.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -652,7 +656,7 @@ def _solve_sa_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.SOUTH_ASIA.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -736,7 +740,7 @@ def _solve_io_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.INT_ORGS.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -793,7 +797,7 @@ def _solve_io_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.INT_ORGS.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -880,7 +884,7 @@ def _solve_env_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.ENVIRONMENT.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -941,7 +945,7 @@ def _solve_env_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.ENVIRONMENT.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -1030,7 +1034,7 @@ def _solve_hr_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.HUMAN_RIGHTS.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -1090,7 +1094,7 @@ def _solve_hr_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.HUMAN_RIGHTS.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -1178,7 +1182,7 @@ def _solve_glob_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.GLOBALIZATION.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -1240,7 +1244,7 @@ def _solve_glob_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.GLOBALIZATION.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -1331,7 +1335,7 @@ def _solve_ifp_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.INDIA_FP.value, question_type="Competency Short Answer",
         difficulty="Medium", step_count=len(steps),
     )
@@ -1394,7 +1398,7 @@ def _solve_ifp_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.INDIA_FP.value, question_type="Competency Long Answer",
         difficulty="Hard", step_count=len(steps),
     )
@@ -1494,7 +1498,7 @@ def _solve_case_short(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.COLD_WAR.value, question_type="Competency Case Study",
         difficulty="Hard", step_count=len(steps),
     )
@@ -1562,7 +1566,7 @@ def _solve_case_long(q_text):
         "All facts verified."
     )
     return SolverResult(
-        steps=steps, answer=answer, verification=verification,
+        steps=steps, question=q_text, answer=answer, verification=verification,
         topic=Topic.COLD_WAR.value, question_type="Competency Case Study",
         difficulty="Hard", step_count=len(steps),
     )
@@ -2124,6 +2128,7 @@ def _build_std_result(q_text, topic_name, qtype, variation):
 
     return SolverResult(
         steps=steps,
+        question=q_text,
         answer=data["answer"],
         verification=data["verification"],
         topic=topic_name,
@@ -2160,4 +2165,94 @@ def _get_comp_solver(topic_name):
 def _get_std_solver(topic_name):
     topic_map = {
         Topic.COLD_WAR.value: _std_cold_war,
-        Topic.US_HEGEMONY
+        Topic.US_HEGEMONY.value: _std_us_hegemony,
+        Topic.ALT_CENTRES.value: _std_alt_centres,
+        Topic.SOUTH_ASIA.value: _std_south_asia,
+        Topic.INT_ORGS.value: _std_int_orgs,
+        Topic.ENVIRONMENT.value: _std_environment,
+        Topic.HUMAN_RIGHTS.value: _std_human_rights,
+        Topic.GLOBALIZATION.value: _std_globalization,
+    }
+    return topic_map.get(topic_name)
+
+
+# ============================================================================
+# REGISTRY ADAPTER
+# ============================================================================
+
+_COMP_TOPICS = [
+    Topic.COLD_WAR, Topic.US_HEGEMONY, Topic.ALT_CENTRES, Topic.SOUTH_ASIA,
+    Topic.INT_ORGS, Topic.ENVIRONMENT, Topic.HUMAN_RIGHTS,
+    Topic.GLOBALIZATION, Topic.INDIA_FP,
+]
+
+
+def generate_questions(seed: int = 0, count: int = None,
+                       topic: str = None) -> list:
+    """Registry adapter: deterministic questions for Class 12 Political Science.
+
+    Called as fn(seed) it returns one question; with count=N it returns N.
+    """
+    n = 1 if count is None else max(1, int(count))
+    rng = random.Random(seed if seed is not None else 0)
+    questions = []
+    for i in range(n):
+        if topic:
+            t_name = _get_topic_name(topic)
+            topic_enum = None
+            for t in Topic:
+                if t.value == t_name:
+                    topic_enum = t
+                    break
+            if topic_enum is None:
+                topic_enum = _COMP_TOPICS[(seed + i) % len(_COMP_TOPICS)]
+        else:
+            topic_enum = _COMP_TOPICS[(seed + i) % len(_COMP_TOPICS)]
+
+        variation = rng.randint(0, 4)
+        if i % 3 == 2:
+            qtype = QuestionType.STANDARD_SHORT
+            solver_fn = _get_std_solver(topic_enum.value)
+            if solver_fn is None:
+                # Topics without standard banks fall back to competency solvers
+                qtype = QuestionType.COMPETENCY_SHORT
+                solver_fn = _get_comp_solver(topic_enum.value)
+        else:
+            qtype = (QuestionType.COMPETENCY_SHORT if i % 2 == 0
+                     else QuestionType.COMPETENCY_LONG)
+            solver_fn = _get_comp_solver(topic_enum.value)
+
+        if solver_fn is None:
+            continue
+        try:
+            result = solver_fn(variation, qtype)
+        except Exception:
+            continue
+        steps = getattr(result, "steps", None) or []
+        q_text = getattr(result, "question", "")
+        if isinstance(q_text, (tuple, list)):
+            pick = 0 if i % 2 == 0 else 1
+            q_text = q_text[min(pick, len(q_text) - 1)]
+        questions.append({
+            "id": f"pol12_{seed}_{i}",
+            "type": ("short_answer" if i % 3 == 2
+                     else "long_answer" if i % 2 else "short_answer"),
+            "topic": getattr(result, "topic", topic_enum.value),
+            "question": q_text or f"Explain the key aspects of {topic_enum.value}.",
+            "answer": getattr(result, "answer", ""),
+            "explanation": steps[0] if steps else "",
+            "steps": steps,
+            "difficulty": getattr(result, "difficulty", "Medium"),
+        })
+    return questions
+
+
+# ============================================================================
+# MAIN
+# ============================================================================
+
+if __name__ == "__main__":
+    for q in generate_questions(seed=42, count=6):
+        print(f"[{q['id']}] ({q['topic']}) {q['question'][:80]}")
+        print(f"    Answer: {str(q['answer'])[:80]}")
+        print()

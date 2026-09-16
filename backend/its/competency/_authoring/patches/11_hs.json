@@ -1,0 +1,32 @@
+{
+ "c11_hs_cbse_07_006": {
+  "rewrites": {
+   "3": {
+    "q": "Trace the correct sequence from the slum household's environment to the infant's weight loss and infection cycle.",
+    "a": "The case mapping runs: (1) Tanker water stored in open buckets carries pathogens into every feed (2) Repeated infection raises nutrient needs while vomiting and diarrhoea drain stores (3) Food refusal during illness cuts intake further and weight-for-age falls (4) Weakened immunity invites the next pneumonia episode, completing the spiral. A wrong answer that prescribes rations alone shows the student has missed that the safe environment and health pillars must be fixed to break the cycle."
+   },
+   "6": {
+    "q": "Give the correct order of steps for an ASHA worker applying the two-axis household classification tool.",
+    "a": "The tool runs: (1) Assess the child's nutritional status against the underweight threshold (2) Count infection episodes over the last three months against the burden threshold (3) Place the household in one of four quadrants from malnutrition-driven to resilient (4) Match the quadrant to its priority action, from enriched feeding to water treatment and immunisation. A wrong answer that skips the thresholds and labels by impression shows the student has missed that the matrix classifies only on the two measured axes."
+   }
+  },
+  "appends": []
+ },
+ "c11_hs_cbse_07_008": {
+  "rewrites": {
+   "4": {
+    "q": "Trace the correct sequence from flood contamination to outbreak, showing why environmental fixes act fastest.",
+    "a": "The chain runs: (1) Floodwater mixes with excreta and spreads pathogens across the village (2) Exposure dose overwhelms even well-nourished hosts (3) Attack rate follows the level of environmental contamination rather than personal constitution (4) Restoring safe water and excreta disposal cuts transmission at once, faster than nutrition support can rebuild host resistance. A wrong answer that focuses on feeding alone during the outbreak shows the student has missed that extrinsic factors set the dose while intrinsic factors set severity."
+   },
+   "5": {
+    "q": "Give the correct order of points that test whether toilet coverage alone means safely managed sanitation.",
+    "a": "The assessment runs: (1) Note that coverage measures containment access only (2) Check whether pits and tanks are actually emptied and transported safely (3) Ask where the faecal sludge is treated or dumped (4) Conclude that discharge into open drains returns pathogens despite the 95 percent figure. A wrong answer that equates toilets built with sanitation achieved shows the student has missed that the full chain from containment to treatment must be safe."
+   },
+   "6": {
+    "q": "Give the correct order of gadget assignments for a food-safety character mapping WHO keys to hygiene components.",
+    "a": "The mapping runs: (1) Assign the water gadget to safe water in raw materials with its chlorine test strips (2) Assign the vector drone to keeping food at safe temperatures by keeping flies off cooling food (3) Tie each gadget to the environmental component it protects (4) Check that every WHO key is covered by at least one gadget before finalising the comic. A wrong answer that invents gadgets with no component link shows the student has missed that each gadget must map to one hygiene component and one food key."
+   }
+  },
+  "appends": []
+ }
+}

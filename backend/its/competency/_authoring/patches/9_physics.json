@@ -1,0 +1,20 @@
+{
+ "c9_physics_ch2_4": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps for the toy-car experiment that tests whether motion on a tilted plank is uniform.",
+    "a": "The procedure runs: (1) Mark positions at 20 cm intervals along the plank (2) Release the car from rest at the top (3) Record the time at which the car passes each mark (4) Compare displacements per equal time interval and conclude uniform motion when they match. A wrong answer that only measures total time shows the student cannot design a test of equal displacements in equal intervals, which is the definition of uniform motion."
+   }
+  },
+  "appends": []
+ },
+ "c9_physics_ch2_6": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of steps to collect distance-time data for a toy car speeding down an inclined ramp.",
+    "a": "The data collection runs: (1) Raise one end of a wooden plank to make an incline (2) Mark the ramp at equal intervals up to 100 cm (3) Release the car from rest and time its arrival at each mark (4) Plot distance against time and expect a curve that grows steeper as the car speeds up. A wrong answer that pushes the car at constant effort on a flat track shows the student has not arranged genuinely non-uniform motion, which only a steepening graph can reveal."
+   }
+  },
+  "appends": []
+ }
+}

@@ -549,3 +549,34 @@ def _verify() -> None:
 
 
 _verify()
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Solve c10 physics moments/CG/equilibrium via Physics10Solver.
+    lever needs a LeverProblem: pivot_cm, weight_left_g, dist_left_cm,
+    answer_right_g, dist_right_cm."""
+    params = params or {}
+    s = Physics10Solver()
+    task = params.get("task", "lever")
+    if task == "lever" or task == "solve_lever":
+        p = LeverProblem(
+            pivot_cm=float(params.get("pivot_cm", 50)),
+            weight_left_g=float(params.get("weight_left_g", 20)),
+            dist_left_cm=float(params.get("dist_left_cm", 30)),
+            answer_right_g=float(params.get("answer_right_g", 0)),
+            dist_right_cm=float(params.get("dist_right_cm", 25)),
+        )
+        return s.solve_lever(p)
+    if task == "spring_balance":
+        return s.solve_spring_balance(
+            float(params.get("weight_left_g", 20)), float(params.get("dist_left_cm", 30)),
+            float(params.get("weight_right_g", 24)), float(params.get("dist_right_cm", 25)))
+    if task in ("cg_regular", "solve_cg_regular"):
+        return s.solve_cg_regular()
+    if task in ("equilibrium", "solve_equilibrium"):
+        return s.solve_equilibrium()
+    return {"node_id": node_id, "error": "unknown task %s" % task,
+            "tasks": ["lever", "spring_balance", "cg_regular", "equilibrium"]}
+
+SOLVER_REGISTRY = {"c10_phy_solve": solve}
+NODE_MAP = {"c10_phy_001": "c10_phy_solve", "c10_phy_002": "c10_phy_solve", "c10_phy_003": "c10_phy_solve"}

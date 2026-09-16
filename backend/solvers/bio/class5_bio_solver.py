@@ -537,3 +537,19 @@ def demo():
 
 if __name__ == "__main__":
     demo()
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Answer c5 bio questions via BiologySolver.answer()."""
+    params = params or {}
+    q = params.get("question") or params.get("q") or ""
+    res = BiologySolver().answer(q)
+    return res if isinstance(res, dict) else getattr(res, "__dict__", {"answer": str(res)})
+
+def check_answer(question: str = "", user_answer: str = "", **kw):
+    v = AnswerVerifier()
+    fn = getattr(v, "check_short_answer", None) or getattr(v, "check_mcq")
+    return fn(question, user_answer) if fn else {"ok": False}
+
+SOLVER_REGISTRY = {"c5_bio_answer": solve, "c5_bio_check": check_answer}
+NODE_MAP = {"c5_bio_001": "c5_bio_answer", "c5_bio_002": "c5_bio_answer", "c5_bio_003": "c5_bio_answer"}

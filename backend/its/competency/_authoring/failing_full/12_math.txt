@@ -1,0 +1,81 @@
+====================================================================================================
+NODE c12_math_cbse_01_009 verdict=PARTIAL cluster=[12, 'math', 1] failing_abs=[6]
+DEFINITION: A binary operation * on a set S is commutative if a * b = b * a for every a, b ∈ S. It is associative if (a * b) * c = a * (b * c) for every a, b, c ∈ S. These are universal properties: they must hold for all elements of S, not just some. A single counterexample disproves the property.
+WALKTHROUGH: Imagine you're at a kirana store in Delhi buying 3 kg apples at ₹120/kg and 2 kg oranges at ₹80/kg. The shopkeeper calculates (3 × 120) + (2 × 80) = 360 + 160 = ₹520. You wonder: "Does it matter if I add apple cost first or orange cost first?" This is commutativity of addition in real life. Now, if the shopkeeper offers a discount scheme: "Buy 3 items, get the 4th at half price" — does the order in which you pick items change your final bill? That's associativity of a custom operation. In this node, we formalise these questions: for any operation * on a set S, we ask: does a * b always equal b * a? Does (a * b) * c always equal a * (b * c)? We start by writing the definition, then test with concrete numbers, then move to algebraic verification for infinite sets.
+D6 Q: Construct a binary operation * on the set {0, 1} that is commutative but NOT associative. Provide the Cayley table and verify both properties.
+D6 A: Example: Define * by the table:
+| * | 0 | 1 |
+|---|---|---|
+| 0 | 0 | 1 |
+| 1 | 1 | 0 |
+This is XOR (addition mod 2), which IS associative — so this is a bad example!
+Correct example: Define * by:
+| * | 0 | 1 |
+|---|---|---|
+| 0 | 0 | 0 |
+| 1 | 0 | 1 |
+This is logical AND. It is commutative (table symmetric). Check associativity: (1 * 1) * 0 = 1 * 0 = 0, but 1 * (1 * 0) = 1 * 0 = 0 → OK. Wait, AND is associative.
+Better example: Define * by:
+| * | 0 | 1 |
+|---|---|---|
+| 0 | 0 | 1 |
+| 1 | 1 | 1 |
+Commutative? Yes, symmetric. Associative? (0 * 1) * 1 = 1 * 1 = 1, but 0 * (1 * 1) = 0 * 1 = 1 → OK. Still associative.
+Actually, on a 2-element set, all commutative operations are associative? No. Consider:
+| * | 0 | 1 |
+|---|---|---|
+| 0 | 1 | 0 |
+| 1 | 0 | 1 |
+This is XNOR. Commutative: yes. (0*0)*1 = 1*1 = 1, 0*(0*1) = 0*0 = 1. (1*1)*0 = 1*0 = 0, 1*(1*0) = 1*0 = 0. Still associative.
+It is a known fact that on a 2-element set, all 8 commutative operations are associative. So no such example exists on {0,1}. The student must realise this and state: "On a 2-element set, every commutative binary operation is also associative; therefore no such example exists. The smallest set admitting a commutative but non-associative operation has 3 elements." This tests deep understanding of the space of binary operations.
+
+====================================================================================================
+NODE c12_math_cbse_02_007 verdict=PARTIAL cluster=[12, 'math', 2] failing_abs=[5]
+DEFINITION: Simplifying expressions using inverse trigonometric identities means rewriting complex inverse trigonometric expressions (involving compositions like $\tan^{-1}(\sqrt{\frac{1-x}{1+x}})$, $\sin^{-1}(\frac{2x}{1+x^2})$, etc.) into simpler algebraic or basic trigonometric forms by applying standard identities and appropriate trigonometric substitutions (such as $x = \sin\theta$, $x = \cos\theta$, $x = \tan\theta$, $x = \sec\theta$) while strictly respecting the principal value branch restrictions of each inverse function.
+WALKTHROUGH: Imagine you are an ISRO scientist calculating the optimal angle for a satellite dish reflector. The geometry gives you $\tan^{-1}\left(\sqrt{\frac{f-D}{f+D}}\right)$ where $f$ is focal length and $D$ is dish diameter. To interpret this angle physically, you must simplify it. Start by identifying the algebraic pattern: $\sqrt{\frac{1-x}{1+x}}$ suggests the substitution $x = \cos\theta$ because $1-\cos\theta = 2\sin^2\frac{\theta}{2}$ and $1+\cos\theta = 2\cos^2\frac{\theta}{2}$. Write down the substitution, transform the square root using half-angle identities, simplify the trigonometric ratio, apply the inverse function, and finally check that the resulting angle lies in the principal range of $\tan^{-1}$ (i.e., $(-\frac{\pi}{2}, \frac{\pi}{2})$). The key insight is recognizing that specific algebraic forms map to specific half-angle or double-angle trigonometric identities.
+D5 Q: A student solves: "Simplify $\sin^{-1}\left(\frac{2x}{1+x^2}\right)$ for $x \in [-1, 1]$."
+Their working:
+$\text{Let } x = \tan\theta \implies \theta = \tan^{-1}x$.
+$\frac{2x}{1+x^2} = \frac{2\tan\theta}{1+\tan^2\theta} = \sin 2\theta$.
+$\sin^{-1}\left(\frac{2x}{1+x^2}\right) = \sin^{-1}(\sin 2\theta) = 2\theta = 2\tan^{-1}x$.
+They conclude the answer is $2\tan^{-1}x$ for all $x \in [-1, 1]$.
+Evaluate this solution. Is it fully correct? If not, identify the flaw and give the correct piecewise expression.
+D5 A: Evaluation: The solution is incorrect because it ignores the principal value range of $\sin^{-1}$, which is $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
+Flaw: $\theta = \tan^{-1}x$. For $x \in [-1, 1]$, $\theta \in [-\frac{\pi}{4}, \frac{\pi}{4}]$. Then $2\theta \in [-\frac{\pi}{2}, \frac{\pi}{2}]$. In this specific domain, $2\theta$ accidentally falls within the principal range of $\sin^{-1}$, so the answer $2\tan^{-1}x$ happens to be correct for $x \in [-1, 1]$. However, the student's method is flawed because they did not verify the range; they assumed $\sin^{-1}(\sin 2\theta) = 2\theta$ always holds.
+Correct piecewise expression (for general $x \in \mathbb{R}$):
+$\sin^{-1}\left(\frac{2x}{1+x^2}\right) = \begin{cases}
+2\tan^{-1}x, & |x| \le 1 \\
+\pi - 2\tan^{-1}x, & x > 1 \\
+-\pi - 2\tan^{-1}x, & x < -1
+\end{cases}$
+The student's answer is only valid on the restricted domain given in the question, but their reasoning would fail if the domain were extended. This reveals a dangerous habit: skipping range verification because "it worked this time."
+
+====================================================================================================
+NODE c12_math_cbse_05_013 verdict=PARTIAL cluster=[12, 'math', 5] failing_abs=[4]
+DEFINITION: The Mean Value Theorem (MVT) states: If a function \( f \) is continuous on the closed interval \([a, b]\) and differentiable on the open interval \((a, b)\), then there exists at least one point \( c \in (a, b) \) such that \( f'(c) = \frac{f(b) - f(a)}{b - a} \). Geometrically, this means there is at least one point on the curve where the tangent is parallel to the chord joining the endpoints \((a, f(a))\) and \((b, f(b))\).
+WALKTHROUGH: Imagine you drive from Delhi to Agra, a distance of 200 km, in exactly 2 hours. Your average speed is 100 km/h. The Mean Value Theorem guarantees that at some instant during the trip, your speedometer must have read exactly 100 km/h — provided your speed changed continuously (no teleporting) and you didn't stop (differentiable). To begin, write down the two conditions: continuity on \([a, b]\) and differentiability on \((a, b)\). Then recall Rolle's Theorem: if \( f(a) = f(b) \), there is a point with zero derivative. The clever step is to construct an auxiliary function \( g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x-a) - f(a) \) which satisfies \( g(a) = g(b) \). Applying Rolle's Theorem to \( g \) yields the MVT. The key insight is that subtracting the secant line's equation from \( f \) creates a function with equal endpoint values.
+D4 Q: Compare Rolle's Theorem and the Mean Value Theorem. How is MVT a generalization of Rolle's Theorem? Construct the auxiliary function used in the proof of MVT from Rolle's Theorem and explain why it works.
+D4 A: Correct Answer: Rolle's Theorem requires \( f(a) = f(b) \) and concludes \( f'(c) = 0 \). MVT drops the equal-endpoint condition and concludes \( f'(c) = \frac{f(b)-f(a)}{b-a} \). The auxiliary function is \( g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x-a) - f(a) \). Then \( g(a) = f(a) - 0 - f(a) = 0 \) and \( g(b) = f(b) - (f(b)-f(a)) - f(a) = 0 \). So \( g \) satisfies Rolle's conditions. By Rolle's Theorem, \( \exists c \in (a,b) \) with \( g'(c) = 0 \). But \( g'(x) = f'(x) - \frac{f(b)-f(a)}{b-a} \), so \( g'(c) = 0 \Rightarrow f'(c) = \frac{f(b)-f(a)}{b-a} \). 
+Error Analysis: Students often write the auxiliary function incorrectly, e.g., missing the \(-f(a)\) term or using \( (x-b) \) instead of \( (x-a) \). This shows they don't understand the geometric idea of subtracting the secant line equation to make endpoints equal.
+
+====================================================================================================
+NODE c12_math_cbse_06_006 verdict=PARTIAL cluster=[12, 'math', 6] failing_abs=[2]
+DEFINITION: The differential of a function y = f(x) is defined as dy = f'(x) dx, where dx = Δx is a small change in the independent variable x, and dy approximates the corresponding change Δy in the dependent variable y. For sufficiently small Δx, the approximation Δy ≈ dy = f'(x) Δx holds, allowing us to estimate values of f(x + Δx) ≈ f(x) + f'(x) Δx without exact computation.
+WALKTHROUGH: Imagine you need to find √26.3 instantly during a physics lab without a calculator. You know √25 = 5 exactly. The difference is Δx = 1.3. Using the derivative of √x at x=25, which is 1/(2√25) = 1/10, the approximate change is dy = (1/10)(1.3) = 0.13. So √26.3 ≈ 5 + 0.13 = 5.13. This is the power of differentials: replacing a curved function with its tangent line over a tiny interval. Start by identifying a "nice" point x₀ near your target where f(x₀) is known exactly. Compute f'(x₀). Then Δy ≈ f'(x₀)Δx gives the approximation. The key insight: the tangent line is the best linear approximation to the curve near the point of tangency.
+D2 Q: Why does the tangent line approximation work for √26.3 near x=25 but would fail badly if we tried to approximate √100 using the tangent at x=25? Explain using the concept of local linearity.
+D2 A: The tangent line approximates the curve well only in a small neighbourhood of the point of tangency because f(x) is locally linear — the curve and its tangent become indistinguishable as Δx → 0. For √26.3, Δx = 1.3 is small relative to x=25 (5.2% change), so the linear approximation is accurate. For √100 from x=25, Δx = 75 is huge (300% change); the curvature of √x accumulates significant error over this interval, making the tangent line a terrible approximation. A student who says "it works for any Δx" fails to understand that the approximation error grows with (Δx)² and higher-order terms — a classic JEE trap where they apply the formula blindly without checking if Δx is "small enough."
+
+====================================================================================================
+NODE c12_math_cbse_11_004 verdict=PARTIAL cluster=[12, 'math', 11] failing_abs=[3, 5]
+DEFINITION: The shortest distance between two skew lines in three-dimensional space is the length of the unique line segment that is perpendicular to both lines. Skew lines are non-parallel, non-intersecting lines that lie in different planes. If the lines are given in vector form as \(\vec{r} = \vec{a_1} + \lambda \vec{b_1}\) and \(\vec{r} = \vec{a_2} + \mu \vec{b_2}\), the shortest distance \(d\) is \(d = \frac{|(\vec{b_1} \times \vec{b_2}) \cdot (\vec{a_2} - \vec{a_1})|}{|\vec{b_1} \times \vec{b_2}|}\), provided \(\vec{b_1} \times \vec{b_2} \neq \vec{0}\).
+WALKTHROUGH: Imagine you are an architect designing a modern building in Mumbai. Two drainage pipes run diagonally across different floors: one goes from the northeast corner of the ground floor to the southwest corner of the first floor, and another runs from the northwest corner of the ground floor to the southeast corner of the second floor. These pipes are skew — they don't intersect and aren't parallel. To avoid collision, you need the minimum clearance between them. Start by writing the vector equations of both lines from their endpoints. Identify \(\vec{a_1}, \vec{b_1}, \vec{a_2}, \vec{b_2}\). Compute \(\vec{b_1} \times \vec{b_2}\) (the direction perpendicular to both pipes). Then find \(\vec{a_2} - \vec{a_1}\) (vector connecting a point on each pipe). The shortest distance is the absolute projection of this connecting vector onto the perpendicular direction: \(d = \frac{|(\vec{b_1} \times \vec{b_2}) \cdot (\vec{a_2} - \vec{a_1})|}{|\vec{b_1} \times \vec{b_2}|}\). The key insight: the cross product gives a vector perpendicular to both lines, and the dot product with the connecting vector extracts the component along that perpendicular.
+D3 Q: Find the shortest distance between the lines \(\vec{r} = (\hat{i} + 2\hat{j} + 3\hat{k}) + \lambda(\hat{i} - \hat{j} + \hat{k})\) and \(\vec{r} = (2\hat{i} - \hat{j} - \hat{k}) + \mu(2\hat{i} + \hat{j} + 2\hat{k})\).
+D3 A: Given: \(\vec{a_1} = \hat{i} + 2\hat{j} + 3\hat{k}\), \(\vec{b_1} = \hat{i} - \hat{j} + \hat{k}\); \(\vec{a_2} = 2\hat{i} - \hat{j} - \hat{k}\), \(\vec{b_2} = 2\hat{i} + \hat{j} + 2\hat{k}\).
+Step 1: \(\vec{b_1} \times \vec{b_2} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & -1 & 1 \\ 2 & 1 & 2 \end{vmatrix} = \hat{i}(-2-1) - \hat{j}(2-2) + \hat{k}(1+2) = -3\hat{i} + 0\hat{j} + 3\hat{k}\).
+Step 2: \(|\vec{b_1} \times \vec{b_2}| = \sqrt{(-3)^2 + 0^2 + 3^2} = \sqrt{18} = 3\sqrt{2}\).
+Step 3: \(\vec{a_2} - \vec{a_1} = (2-1)\hat{i} + (-1-2)\hat{j} + (-1-3)\hat{k} = \hat{i} - 3\hat{j} - 4\hat{k}\).
+Step 4: \((\vec{b_1} \times \vec{b_2}) \cdot (\vec{a_2} - \vec{a_1}) = (-3)(1) + (0)(-3) + (3)(-4) = -3 -12 = -15\).
+Step 5: \(d = \frac{|-15|}{3\sqrt{2}} = \frac{15}{3\sqrt{2}} = \frac{5}{\sqrt{2}} = \frac{5\sqrt{2}}{2}\) units.
+A common error: forgetting absolute value → negative distance. Another: wrong cross product (sign errors in determinant). If student gets \(d = \frac{5}{\sqrt{2}}\) but writes \(\frac{5\sqrt{2}}{2}\) as final, that's correct simplification.
+D5 Q: A student computes the shortest distance between two skew lines and gets a negative value. They argue that distance can be negative if the lines are oriented in opposite directions. Evaluate this claim and explain the error.
+D5 A: Distance is a scalar magnitude, always non-negative. The formula includes absolute value: \(d = \frac{|(\vec{b_1} \times \vec{b_2}) \cdot (\vec{a_2} - \vec{a_1})|}{|\vec{b_1} \times \vec{b_2}|}\). The numerator without absolute value gives the signed scalar projection, which can be negative depending on the orientation of \(\vec{a_2} - \vec{a_1}\) relative to \(\vec{b_1} \times \vec{b_2}\). The student forgot the absolute value. The error is conceptual: confusing signed projection with distance. In board exams, missing absolute value loses 1 mark. In JEE, negative distance is a trap option.

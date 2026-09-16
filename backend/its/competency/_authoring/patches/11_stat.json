@@ -1,0 +1,28 @@
+{
+ "c11_stat_cbse_06_001": {
+  "rewrites": {
+   "2": {
+    "q": "Give the correct order of judgments a coach should make when two batsmen average the same 50 runs over 10 innings.",
+    "a": "The analysis runs: (1) Note that both batsmen average 50 over 10 innings (2) Examine the scatter of individual scores around that mean (3) Find Rohit tightly clustered while Virat alternates between failures and centuries (4) Conclude that Rohit is reliable and Virat volatile, so the identical averages are misleading without a dispersion measure. A wrong answer that declares both equally good shows the student has read only the central tendency and missed that dispersion describes the reliability of the average."
+   }
+  },
+  "appends": []
+ },
+ "c11_stat_cbse_08_007": {
+  "rewrites": {},
+  "appends": [
+   {
+    "q": "A market analyst computes a Laspeyres index of 125 and a Paasche index of 115 for rice prices between two years. Calculate Fisher's Ideal Index to one decimal place.",
+    "a": "Fisher's index is the geometric mean of the two: Fisher index = square root of (125 x 115) = 119.9 approximately. A wrong answer that takes the arithmetic mean 120 shows the student has missed that Fisher's formula takes the square root of the product, not the plain average."
+   },
+   {
+    "q": "Give the correct order of steps to compute Fisher's Ideal Index from raw price and quantity data of two years.",
+    "a": "The computation runs: (1) Sum the products of current prices and base quantities for Laspeyres (2) Sum the products of current prices and current quantities for Paasche (3) Divide each by its base-year total and multiply by 100 (4) Take the square root of the product of the two indices. A wrong answer that averages the two indices arithmetically shows the student has missed that Fisher's ideal form is the geometric mean, the step that lets it pass the reversal tests."
+   },
+   {
+    "q": "Why is Fisher's index called ideal, and which two tests does it alone satisfy?",
+    "a": "It is called ideal because the geometric mean of Laspeyres and Paasche uses both base-year and current-year quantities as weights, lies between the two, and alone passes both the Time Reversal Test and the Factor Reversal Test. A wrong answer that credits Laspeyres with passing the reversal tests shows the student has missed that base-year weights alone overstate inflation and current-year weights alone understate it."
+   }
+  ]
+ }
+}

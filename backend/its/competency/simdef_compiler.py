@@ -31,8 +31,11 @@ randomness, no timestamps in outputs -> byte-identical re-runs):
                mapped class-10 chapters).
   4. PURITY    nodes with <3 usable diagnostics (MISSING) / <2 (PARTIAL),
                junk or ambiguous keys -> REVIEW_NEEDED.json, never
-               force-generated. Clusters with <3 qualifying nodes or <4
-               compiled challenges -> review.
+               force-generated. Clusters with <4 compiled challenges ->
+               review. A chapter left with only 1-2 qualifying nodes is
+               MERGED into the nearest viable chapter cluster of the same
+               class+subject (cap-aware) instead of being dropped; only
+               nodes with no viable sibling chapter stay in review.
 
 Outputs:
   frontend/components/sims_v2/generated/<class>_<subject>_gen.ts
@@ -70,6 +73,9 @@ MIN_USABLE_PARTIAL = 1       # PARTIAL nodes owe only their uncovered gap(s) --
                              # thickness is guarded at cluster level
 MIN_CLUSTER_NODES = 3        # below this the whole cluster goes to review
 MIN_CLUSTER_CHALLENGES = 4   # a thinner lesson reads as trivia, not a sim
+# merge 1-2-node chapters into the nearest viable sibling chapter of the
+# same subject (SIMDEF_SIBLING_MERGE=0 disables -- regression baseline)
+SIBLING_MERGE = os.environ.get("SIMDEF_SIBLING_MERGE", "1") != "0"
 SOFT_MAX_CHUNK = 12          # n_chunks = ceil(n / SOFT_MAX_CHUNK) when n > 15
 MAX_CLUSTER_SLIDE_NODES = 15
 MAX_CHALLENGES_PER_CLUSTER = 18
@@ -839,6 +845,66 @@ class Compiler:
             }))
         return [(pr, ch) for pr, ch in cands if challenge_ok(ch)]
 
+    # -- per-cluster preparation -------------------------------------------
+    def prepare_cluster(self, members, sim_seed, partial_scope_all=False):
+        """Scope + usability screen + challenge candidates for one chapter
+        cluster.  Returns (usable, member) where usable is the list of
+        qualifying (nid, node, entry, verdict, diags, definition, cands)
+        tuples and member maps nid -> scope/cores used by the sibling pool.
+        ``partial_scope_all`` widens PARTIAL nodes to ALL their diagnostics
+        (subject-isolated micro-lessons only -- there is no curated-sim
+        sibling chapter to merge with, so the node's own six diagnostics
+        must fill a >= MIN_CLUSTER_CHALLENGES lesson).
+        """
+        member = {}
+        for nid, node, entry, verdict in members:
+            if partial_scope_all and verdict != "MISSING":
+                diags, kind = list(node.get("diagnostics") or []), "partial-isolated-all"
+            else:
+                diags, kind = scope_diagnostics(
+                    node, verdict, entry.get("uncovered_diagnostics") or [])
+            cores = []
+            for k, d in enumerate(diags):
+                core, _w = strip_wrong_tail(d.get("a", ""))
+                if MIN_CORE_CHARS <= len(core) <= MAX_CORE_CHARS:
+                    cores.append((k, core))
+            member[nid] = (node, entry, verdict, diags, kind, cores)
+
+        def sibling_pool(nid):
+            """MCQ distractor pool: other nodes first, then this node's
+            own other diagnostics (closest -- hence most confusable --
+            last).  Entries: (nid2, k, core, stem bucket)."""
+            own = [(nid, k, core,
+                    stem_bucket(clean(member[nid][3][k].get("q", ""))))
+                   for (k, core) in member[nid][5]]
+            others = [(nid2, k, core,
+                       stem_bucket(clean(member[nid2][3][k].get("q", ""))))
+                      for nid2 in member if nid2 != nid
+                      for (k, core) in member[nid2][5]]
+            return others + own
+
+        usable = []
+        for nid in [m[0] for m in members]:
+            node, entry, verdict, diags, kind, cores = member[nid]
+            definition = clean(node.get("definition", ""))
+            if len(definition) < 40:
+                self.review.setdefault(nid, "definition too short for a teaching slide")
+                continue
+            cands_per_diag = []
+            for k, d in enumerate(diags):
+                got = self.diag_candidates(node, d, sibling_pool(nid),
+                                           f"{sim_seed}:{nid}:{k}")
+                if got:
+                    cands_per_diag.append((k, got))
+            min_needed = MIN_USABLE_MISSING if verdict == "MISSING" else MIN_USABLE_PARTIAL
+            if len(cands_per_diag) < min_needed:
+                self.review.setdefault(
+                    nid, f"only {len(cands_per_diag)} usable diagnostics "
+                         f"(need {min_needed} for {verdict})")
+                continue
+            usable.append((nid, node, entry, verdict, diags, definition, cands_per_diag))
+        return usable, member
+
     # -- main ---------------------------------------------------------------
     def run(self):
         groups = defaultdict(list)
@@ -858,86 +924,115 @@ class Compiler:
 
         compiled_by_file = defaultdict(list)
         index_clusters = []
+        prepared = {}                             # key -> (usable, sim_seed)
+        orphan_groups = {}                        # key -> usable (1-2 nodes)
         for (cls, sub, chap) in sorted(groups.keys()):
             members = sorted(groups[(cls, sub, chap)],
                              key=lambda x: (x[1]["node_num"], x[0]))
             sim_seed = f"gen_c{cls}_{sub}_ch{chap:02d}"
+            usable, _member = self.prepare_cluster(members, sim_seed)
+            prepared[(cls, sub, chap)] = (usable, sim_seed)
 
-            # scope + core answers ONCE per member (shared MCQ sibling pool)
-            member = {}
-            for nid, node, entry, verdict in members:
-                diags, kind = scope_diagnostics(
-                    node, verdict, entry.get("uncovered_diagnostics") or [])
-                cores = []
-                for k, d in enumerate(diags):
-                    core, _w = strip_wrong_tail(d.get("a", ""))
-                    if MIN_CORE_CHARS <= len(core) <= MAX_CORE_CHARS:
-                        cores.append((k, core))
-                member[nid] = (node, entry, verdict, diags, kind, cores)
-
-            def sibling_pool(nid):
-                """MCQ distractor pool: other nodes first, then this node's
-                own other diagnostics (closest -- hence most confusable --
-                last).  Entries: (nid2, k, core, stem bucket)."""
-                own = [(nid, k, core,
-                        stem_bucket(clean(member[nid][3][k].get("q", ""))))
-                       for (k, core) in member[nid][5]]
-                others = [(nid2, k, core,
-                           stem_bucket(clean(member[nid2][3][k].get("q", ""))))
-                          for nid2 in member if nid2 != nid
-                          for (k, core) in member[nid2][5]]
-                return others + own
-
-            usable = []
-            for nid in [m[0] for m in members]:
-                node, entry, verdict, diags, kind, cores = member[nid]
-                definition = clean(node.get("definition", ""))
-                if len(definition) < 40:
-                    self.review.setdefault(nid, "definition too short for a teaching slide")
-                    continue
-                cands_per_diag = []
-                for k, d in enumerate(diags):
-                    got = self.diag_candidates(node, d, sibling_pool(nid),
-                                               f"{sim_seed}:{nid}:{k}")
-                    if got:
-                        cands_per_diag.append((k, got))
-                min_needed = MIN_USABLE_MISSING if verdict == "MISSING" else MIN_USABLE_PARTIAL
-                if len(cands_per_diag) < min_needed:
-                    self.review.setdefault(
-                        nid, f"only {len(cands_per_diag)} usable diagnostics "
-                             f"(need {min_needed} for {verdict})")
-                    continue
-                usable.append((nid, node, entry, verdict, diags, definition, cands_per_diag))
-
-            if len(usable) < MIN_CLUSTER_NODES:
+        # sibling merge: a chapter with only 1-2 qualifying nodes joins the
+        # nearest viable chapter of the same class+subject (prefer a target
+        # that stays within one lesson's slide cap; else nearest viable).
+        merged_keys = {}
+        isolated_keys = set()
+        for (cls, sub, chap) in sorted(prepared.keys()):
+            usable, _seed = prepared[(cls, sub, chap)]
+            if len(usable) >= MIN_CLUSTER_NODES:
+                continue
+            if not SIBLING_MERGE:
                 for u in usable:
                     self.review.setdefault(
                         u[0], f"chapter cluster too small "
-                              f"({len(usable)} qualifying nodes < {MIN_CLUSTER_NODES})")
+                              f"({len(usable)} qualifying nodes < "
+                              f"{MIN_CLUSTER_NODES})")
                 continue
+            if not usable:
+                continue                          # members already reviewed
+            orphan_groups[(cls, sub, chap)] = usable
+            caps_ok, any_viable = [], []
+            for (c2, s2, c) in sorted(prepared.keys()):
+                if c2 != cls or s2 != sub or (c2, s2, c) not in prepared:
+                    continue
+                if len(prepared[(c2, s2, c)][0]) < MIN_CLUSTER_NODES:
+                    continue
+                total = len(prepared[(c2, s2, c)][0]) + len(usable)
+                any_viable.append((abs(c - chap), c))
+                if total <= MAX_CLUSTER_SLIDE_NODES:
+                    caps_ok.append((abs(c - chap), c))
+            tgt_list = caps_ok or any_viable
+            if not tgt_list:
+                # Subject-isolated chapter (every sibling chapter of this
+                # class+subject is GOLD-covered).  Second chance: re-prepare
+                # the group as a STANDALONE micro-lesson with PARTIAL nodes
+                # scoped to all their own diagnostics; the chunk-level
+                # >= MIN_CLUSTER_CHALLENGES bar still guards thickness.
+                iso_usable, _ = self.prepare_cluster(
+                    groups[(cls, sub, chap)], sim_seed, partial_scope_all=True)
+                if iso_usable:
+                    prepared[(cls, sub, chap)] = (iso_usable, sim_seed)
+                    isolated_keys.add((cls, sub, chap))
+                    continue
+                for u in usable:
+                    self.review.setdefault(
+                        u[0], f"no viable sibling chapter to merge into "
+                              f"({len(usable)} usable node(s), "
+                              f"{MIN_CLUSTER_NODES} needed for a lesson)")
+                continue
+            tgt = (cls, sub, min(tgt_list)[1])
+            prepared[tgt] = (prepared[tgt][0] + usable, prepared[tgt][1])
+            merged_keys.setdefault(tgt, []).append(chap)
+
+        for (cls, sub, chap) in sorted(prepared.keys()):
+            usable, sim_seed = prepared[(cls, sub, chap)]
+            if len(usable) < MIN_CLUSTER_NODES and (cls, sub, chap) not in isolated_keys:
+                continue                          # orphan group already reviewed
+            merged = sorted(usable, key=lambda x: (x[1]["node_num"], x[0]))
+            if (cls, sub, chap) in merged_keys:
+                # re-prepare so every member (including merged orphans)
+                # builds candidates against the full merged sibling pool
+                members = [(nid, node, entry, verdict)
+                           for (nid, node, entry, verdict, _d, _df, _c) in merged]
+                usable, _m = self.prepare_cluster(members, sim_seed)
+                if len(usable) < MIN_CLUSTER_NODES:
+                    for u in usable:
+                        self.review.setdefault(
+                            u[0], "merged cluster fell below the "
+                                  "qualifying-node minimum after re-pooling")
+                    continue
+                merged = sorted(usable,
+                                key=lambda x: (x[1]["node_num"], x[0]))
+            merged_chaps = sorted({chap} | set(merged_keys.get((cls, sub, chap), [])))
 
             # chunk into lesson-sized clusters (5-15 nodes)
-            n = len(usable)
+            n = len(merged)
             n_chunks = 1 if n <= MAX_CLUSTER_SLIDE_NODES else math.ceil(n / SOFT_MAX_CHUNK)
             base, extra = divmod(n, n_chunks)
             chunks, i = [], 0
             for ci in range(n_chunks):
                 size = base + (1 if ci < extra else 0)
-                chunks.append(usable[i: i + size])
+                chunks.append(merged[i: i + size])
                 i += size
 
             for part, chunk in enumerate(chunks, 1):
-                built = self.build_simdef(cls, sub, chap, part, n_chunks, chunk, sim_seed)
+                built = self.build_simdef(cls, sub, chap, part, n_chunks,
+                                          chunk, sim_seed,
+                                          merged_chaps if len(merged_chaps) > 1 else None)
                 if built is None:
                     continue
                 simdef, meta = built
                 compiled_by_file[(cls, sub)].append(simdef)
                 index_clusters.append(meta)
+                for c in chunk:                   # compiled -> not in review
+                    self.review.pop(c[0], None)
 
         self.emit(compiled_by_file, index_clusters)
 
     # -- SimDef assembly ---------------------------------------------------
-    def build_simdef(self, cls, sub, chap, part, parts, chunk, sim_seed):
+    def build_simdef(self, cls, sub, chap, part, parts, chunk, sim_seed,
+                     merged_chaps=None):
         heads = {}
         head_order = []
         for c in chunk:
@@ -993,7 +1088,9 @@ class Compiler:
 
         # challenges: pass 1 = best candidate per node (its own hardest,
         # carrying that node's walkthrough as workedExample);
-        # pass 2 = extra diagnostics up to the cluster cap
+        # pass 2 = every remaining candidate (other diagnostics AND the
+        # unused order/math/mcq variants of the best diagnostic) up to the
+        # cluster cap
         challenges = []
         covered = 0
         scope_total = sum(len(c[4]) for c in chunk)
@@ -1001,7 +1098,8 @@ class Compiler:
         for nid, node, entry, verdict, diags, definition, cands_per_diag in chunk:
             ranked = sorted(cands_per_diag, key=lambda kv: min(p for p, _ in kv[1]))
             k_best, best = ranked[0]
-            pr, ch = min(best, key=lambda x: x[0])
+            b_idx = min(range(len(best)), key=lambda i: best[i][0])
+            pr, ch = best[b_idx]
             ch = dict(ch)
             ch["id"] = f"{sim_id}_q{len(challenges) + 1}"
             ch["nodeId"] = nid
@@ -1010,9 +1108,8 @@ class Compiler:
             challenges.append(ch)
             covered += 1
             for k2, lst in ranked:
-                if k2 == k_best:
-                    continue
-                for pr2, ch2 in lst:
+                start = b_idx + 1 if k2 == k_best else 0
+                for pr2, ch2 in lst[start:]:
                     overflow.append((pr2, nid, node, ch2))
         overflow.sort(key=lambda x: (x[0], x[1], x[3]["question"][:24]))
         for pr, nid, node, ch in overflow:
@@ -1031,6 +1128,7 @@ class Compiler:
             return None
 
         types = Counter(c["type"] for c in challenges)
+        chap_list = merged_chaps or [chap]
         defn = {
             "id": sim_id,
             "title": trim(topic, 48),
@@ -1040,7 +1138,7 @@ class Compiler:
             "mode": "senior",
             "subject": sim_subject,
             "topic": topic,
-            "chapters": [f"{label} Ch{chap}: {topic}"],
+            "chapters": [f"{label} Ch{c}: {topic}" for c in chap_list],
             "nodeIds": [c[0] for c in chunk],
             "emoji": emoji,
             "theme": {"bg": bg, "accent": accent, "scene": scene},
@@ -1059,6 +1157,7 @@ class Compiler:
             "class": cls,
             "subject": sub,
             "chapter": chap,
+            "merged_chapters": [c for c in chap_list if c != chap],
             "part": part,
             "node_ids": [c[0] for c in chunk],
             "verdicts": {c[0]: c[3] for c in chunk},

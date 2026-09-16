@@ -575,7 +575,8 @@ class TutorEngine:
 
     def __init__(self, catalog_dir: str,
                  generated_dir: Optional[str] = None,
-                 persist_path: Optional[str] = None):
+                 persist_path: Optional[str] = None,
+                 store: Optional[object] = None):
         self.concepts: Dict[str, _Concept] = {}
         self._load_catalogs(catalog_dir)
         self.generated_questions = 0      # generated items merged into pools
@@ -593,14 +594,20 @@ class TutorEngine:
         # same-subject earlier-chapter fallback
         self.prereq_overrides: Dict[str, str] = {}
         self._graph_prereqs: Optional[Dict[str, str]] = None
-        # persistence: when a persist_path is given, the whole student
-        # model (mastery, mistake book, streaks) is loaded from it at
-        # startup and re-written atomically after every serve/submit so
-        # /api/tutor-graph/progress survives restarts.  None (the test
-        # default) keeps the engine fully in-memory and hermetic.
+        # persistence: a store (services.tutor_store) is loaded at startup
+        # and upserted after every serve/submit so /api/tutor-graph/progress
+        # survives restarts.  DbTutorStore writes one row per student;
+        # FileTutorStore keeps the legacy whole-dict JSON behaviour for
+        # tests.  persist_path alone → FileTutorStore (hermetic default).
         self.persist_path = persist_path
-        if persist_path:
-            self.load(persist_path)
+        self.store = None
+        if store is not None:
+            self.store = store
+            self.students = store.load_all()
+        elif persist_path:
+            from backend.services.tutor_store import FileTutorStore
+            self.store = FileTutorStore(persist_path)
+            self.students = self.store.load_all()
         # spiral-review hook: called with (student_id, concept_id,
         # question, expected) whenever a graded wrong answer is booked
         # into the mistake book, so the tutoring SM-2 queue schedules a
@@ -1283,7 +1290,7 @@ class TutorEngine:
             out["options"] = [str(o) for o in mcq.get("options") or []]
             out["answer_mode"] = "mcq"
         st["last_serve_ts"] = time.monotonic()
-        self._persist()
+        self._persist(student_id)
         return out
 
     def submit(self, student_id: str, question_id: str,
@@ -1441,7 +1448,7 @@ class TutorEngine:
             # armed by this wrong answer: the next serve retreats here
             out["retreat_to"] = st["retreat_to"]
         _record_attempt(st, verdict is True)
-        self._persist()
+        self._persist(student_id)
         return out
 
     def hint(self, student_id: str, question_id: str,
@@ -1550,21 +1557,20 @@ class TutorEngine:
         }
 
     # ---------------- persistence ---------------- #
-    def _persist(self) -> None:
-        """Atomic write of the whole student model to persist_path
-        (tmp file + os.replace), so /api/tutor-graph/progress and the
-        serve loop survive backend restarts.  Best-effort: a failed
-        write never blocks the teaching loop."""
-        if not self.persist_path:
+    def _persist(self, student_id: Optional[str] = None) -> None:
+        """Upsert the changed student's state through the configured store.
+
+        DbTutorStore: one row per student — concurrent workers can't
+        clobber each other.  FileTutorStore: whole-dict atomic rewrite
+        (legacy/test path).  Best-effort: a failed write never blocks
+        the teaching loop."""
+        if self.store is None:
             return
         try:
-            d = os.path.dirname(self.persist_path)
-            if d and not os.path.isdir(d):
-                os.makedirs(d, exist_ok=True)
-            tmp = self.persist_path + ".tmp"
-            with open(tmp, "w", encoding="utf-8") as fh:
-                json.dump(self.students, fh)
-            os.replace(tmp, self.persist_path)
+            if student_id is not None and hasattr(self.store, "upsert"):
+                self.store.upsert(student_id, self.students[student_id])
+            elif hasattr(self.store, "upsert_all"):
+                self.store.upsert_all(self.students)
         except Exception:
             pass
 

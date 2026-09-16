@@ -1,0 +1,47 @@
+{
+ "c11_math_cbse_01_004": {
+  "rewrites": {
+   "6": {
+    "q": "Give the correct order of checks that decide whether A subset B and B subset C can deliver A subset C in the example A = {1}, B = {1, 2}, C = {1, 3}.",
+    "a": "The checks run: (1) Verify A subset B by testing each element of A (2) Test B subset C and find element 2 in B but not in C (3) Conclude the premise of transitivity fails since B subset C is false (4) Note that A subset C still holds here because 1 happens to lie in C, for a different reason. A wrong answer that calls this a contradiction of transitivity shows the student has missed that the law needs both premises, and a false second premise ends the argument."
+   }
+  },
+  "appends": []
+ },
+ "c11_math_cbse_01_012": {
+  "rewrites": {
+   "5": {
+    "q": "Give the correct order of steps to check a student's claim that the complement of a union equals the union of complements.",
+    "a": "The check runs: (1) Compute the union of the two sets inside the universal set (2) Complement that union by listing what the union misses (3) Compute each set's complement separately and intersect them (4) Compare the two results and correct the conclusion to De Morgan's law with an intersection. A wrong answer that keeps the union on the right shows the student has swapped the two De Morgan identities from memory."
+   }
+  },
+  "appends": []
+ },
+ "c11_math_cbse_01_014": {
+  "rewrites": {
+   "6": {
+    "q": "In a society of 150 families, 80 take paper A, 70 take B, 60 take C, while 30 take A and B, 25 take B and C, 20 take A and C, and 10 take all three. Calculate how many families take exactly two papers.",
+    "a": "Exactly two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families. A wrong answer of 75 shows the student added the pairwise overlaps without removing the triple-intersection families counted three times."
+   }
+  },
+  "appends": []
+ },
+ "c11_math_cbse_09_003": {
+  "rewrites": {
+   "2": {
+    "q": "For the AP 3, 7, 11, 15, 19, use the pairing idea of the sum formula and calculate the sum of all five terms.",
+    "a": "Pairing first with last gives 3 + 19 = 22, and the middle term contributes the same: sum = 5/2 x 22 = 55. A wrong answer of 45 shows the student paired only the outer terms and forgot the middle term counts half a pair."
+   }
+  },
+  "appends": []
+ },
+ "c11_math_cbse_10_002": {
+  "rewrites": {
+   "2": {
+    "q": "Give the correct order of steps that show the straight-line distance between P(0, 0) and Q(3, 4) differs from the along-the-grid distance.",
+    "a": "The contrast runs: (1) Form the right triangle with legs 3 and 4 between the points (2) Apply Pythagoras to get the straight-line distance of 5 units (3) Add the legs directly to get the along-the-grid distance of 7 units (4) Conclude the two measures differ because squares do not distribute over addition. A wrong answer that treats the two distances as equal shows the student has confused the Pythagorean theorem with simple addition of leg lengths."
+   }
+  },
+  "appends": []
+ }
+}

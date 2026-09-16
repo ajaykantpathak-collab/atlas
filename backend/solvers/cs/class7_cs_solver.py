@@ -900,3 +900,19 @@ def run_demo():
 
 if __name__ == "__main__":
     run_demo()
+
+# -- solver contract --------------------------------------------
+def solve(node_id: str = "", params: dict | None = None, **kw):
+    """Generate or verify c7 CS hardware questions."""
+    params = params or {}
+    if params.get("property_name") is not None:
+        return InternalHardwareSolver().verify_answer(
+            params["property_name"], params.get("proposed_value", params.get("user_answer", "")))
+    gen = Class7CSQuestionGenerator(params.get("config", {}))
+    return {"node_id": node_id, "questions": gen.get_questions(params.get("n", 5))}
+
+def check_answer(property_name: str = "", user_answer: str = "", **kw):
+    return InternalHardwareSolver().verify_answer(property_name, user_answer)
+
+SOLVER_REGISTRY = {"c7_cs_solve": solve, "c7_cs_check": check_answer}
+NODE_MAP = {"c7_cs_001": "c7_cs_solve", "c7_cs_002": "c7_cs_solve"}

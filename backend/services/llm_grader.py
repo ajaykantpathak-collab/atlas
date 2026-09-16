@@ -80,6 +80,12 @@ class LLMGradeResult:
     criteria_missed: list = field(default_factory=list)
     feedback: str = ""
     model: str = ""
+    # Grammar/mechanics dimension, judged SEPARATELY from the rubric
+    # criteria (never affects marks). Shape:
+    #   {"score": float|None (0-1), "notes": [str, ...]}
+    # None = the model returned no usable grammar assessment — callers
+    # must omit the grammar section rather than guess (zero-wrong rule).
+    grammar: Optional[dict] = None
     error: Optional[str] = None
     latency_ms: float = 0.0
 
@@ -120,8 +126,10 @@ Instructions:
 1. For each criterion, output whether it is met (true) or not met (false)
 2. Provide brief feedback (1-2 sentences)
 3. Be strict but fair — only mark a criterion as met if the student clearly demonstrates it
-4. Output ONLY valid JSON in this format:
-{{"criteria": [{{"id": "c1", "met": true}}, {{"id": "c2", "met": false}}], "feedback": "Brief feedback here"}}
+4. Separately, assess the WRITING MECHANICS of the student's answer only (spelling, grammar, sentence structure, correct use of technical vocabulary). This is a separate dimension — it must NOT change the criteria verdicts or the marks. Output "score" as a number from 0.0 to 1.0.
+5. In "notes", list at most 3 REAL, VISIBLE mechanics issues, each one specific and kind, phrased as actionable advice (for example: "The word 'recieve' is spelled 'receive'." or "Consider splitting the second sentence — it runs two ideas together."). Never invent an issue: if the writing is clean, use score 1.0 and an empty notes list. If you are uncertain whether something is an error, leave it out.
+6. Output ONLY valid JSON in this format:
+{{"criteria": [{{"id": "c1", "met": true}}, {{"id": "c2", "met": false}}], "feedback": "Brief feedback here", "grammar": {{"score": 0.9, "notes": ["One specific, kind, actionable note."]}}}}
 
 JSON Output:"""
 
@@ -304,6 +312,15 @@ JSON Output:"""
             except json.JSONDecodeError:
                 pass
 
+        # Outermost-brace span (handles the nested "grammar" object that
+        # the flat-object regex above cannot match)
+        start, end = text.find("{"), text.rfind("}")
+        if start != -1 and end > start:
+            try:
+                return json.loads(text[start:end + 1])
+            except json.JSONDecodeError:
+                pass
+
         # Try line by line
         for line in text.split("\n"):
             line = line.strip()
@@ -347,7 +364,41 @@ JSON Output:"""
             criteria_missed=missed_ids,
             feedback=feedback,
             model=model,
+            grammar=cls._parse_grammar(parsed.get("grammar")),
         )
+
+    @staticmethod
+    def _parse_grammar(raw) -> Optional[dict]:
+        """Defensively parse the LLM's grammar assessment.
+
+        Zero-wrong: anything malformed, out of range, or empty is dropped —
+        the caller then omits the grammar section instead of guessing.
+        """
+        if not isinstance(raw, dict):
+            return None
+
+        notes = []
+        for n in (raw.get("notes") or []):
+            if not isinstance(n, str):
+                continue
+            n = n.strip()
+            if n:
+                notes.append(n[:240])
+            if len(notes) >= 4:
+                break
+
+        score = raw.get("score")
+        if isinstance(score, bool) or not isinstance(score, (int, float)):
+            score = None
+        elif not (0.0 <= float(score) <= 1.0):
+            score = None
+
+        if score is None and not notes:
+            return None
+        return {
+            "score": round(float(score), 2) if score is not None else None,
+            "notes": notes,
+        }
 
     @staticmethod
     def _keyword_fallback(

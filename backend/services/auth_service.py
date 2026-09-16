@@ -640,6 +640,65 @@ class AuthService:
 
         return otp_record, raw_otp
 
+    async def request_auth_otp(self, phone_number: str) -> str:
+        """Unified OTP request for the /auth/send-otp endpoint.
+
+        Picks the purpose from account state: 'login' when the phone already
+        belongs to a verified, non-guest user, else 'register'. Returns the
+        purpose so the caller can respond appropriately; never returns the
+        raw OTP (only the configured sender sees it).
+        """
+        phone_number = self._normalize_phone(phone_number)
+        user = await self._get_user_by_phone(phone_number)
+        purpose = (
+            "login"
+            if user is not None and user.is_verified and not user.is_guest
+            else "register"
+        )
+
+        # Revoke any prior unused OTPs for this phone
+        await self.db.execute(
+            update(OTPModel)
+            .where(
+                and_(
+                    OTPModel.phone_number == phone_number,
+                    OTPModel.is_used == False,  # noqa: E712
+                    OTPModel.expires_at > datetime.now(timezone.utc),
+                )
+            )
+            .values(is_used=True)
+        )
+
+        raw_otp = self._generate_otp()
+        self.db.add(
+            OTPModel(
+                phone_number=phone_number,
+                otp_code_hash=self._hash_otp(raw_otp),
+                purpose=purpose,
+                expires_at=datetime.now(timezone.utc)
+                + timedelta(minutes=self.OTP_TTL_MINUTES),
+                max_attempts=self.MAX_OTP_ATTEMPTS,
+            )
+        )
+        await self.db.flush()
+
+        sent = await self.otp_sender.send_otp(phone_number, raw_otp)
+        if not sent:
+            raise RuntimeError("Failed to send OTP. Please try again.")
+        return purpose
+
+    async def verify_auth_otp(
+        self, phone_number: str, otp_code: str
+    ) -> tuple[UserModel, str, str]:
+        """Unified verify for /auth/verify-otp: dispatches to
+        verify_registration_otp or login_with_otp by account state,
+        matching the purpose request_auth_otp issued."""
+        phone_number = self._normalize_phone(phone_number)
+        user = await self._get_user_by_phone(phone_number)
+        if user is not None and user.is_verified and not user.is_guest:
+            return await self.login_with_otp(phone_number, otp_code)
+        return await self.verify_registration_otp(phone_number, otp_code)
+
     async def verify_registration_otp(
         self,
         phone_number: str,
