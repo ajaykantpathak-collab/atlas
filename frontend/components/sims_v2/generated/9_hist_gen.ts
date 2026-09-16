@@ -328,6 +328,21 @@ export const C9_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a research plan to investigate whether the 1857 Revolt was primarily a \"sepoy mutiny\" or a \"popular uprising.\" List three primary source types you would consult, one secondary source you would critique, and explain how you would use them together to build an argument.",
+    "answer": "Primary sources: (1) British military dispatches and court-martial records (state perspective)",
+    "options": [
+     "(b) the figurine was made using a mould. This can be directly observed through manufacturing marks (seam lines, uniform thickness)",
+     "Expected answer: *Chauth/sardeshmukhi* were negotiable, often shared with local deshmukhs/patils, and varied with harvest — embedded in existing social mediation",
+     "Primary sources: (1) British military dispatches and court-martial records (state perspective)"
+    ],
+    "hint": "Straight from the 'Primary sources' slide -- match the key terms.",
+    "misconception": "A poor answer lists only British sources, revealing an uncritical acceptance of colonial archives as the sole \"primary\" record.",
+    "id": "gen_c9_hist_ch01_q12",
+    "nodeId": "c9_hist_ch1_4",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why do archaeologists prefer *stratigraphic context* (the layer where an artefact is found) over the artefact's style alone for dating? Explain using the principle of superposition.",
     "answer": "Stratigraphy provides a *relative chronological sequence* based on the law of superposition: lower layers are older than upper layers (unless disturbed)",
     "options": [
@@ -337,7 +352,7 @@ export const C9_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Archaeological sources' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student treats style as a direct chronological marker, ignoring issues of heirlooms, revivals, and contamination.",
-    "id": "gen_c9_hist_ch01_q12",
+    "id": "gen_c9_hist_ch01_q13",
     "nodeId": "c9_hist_ch1_5",
     "difficulty": "advanced"
    },
@@ -352,7 +367,7 @@ export const C9_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Governance and society represent' slide -- match the key terms.",
     "misconception": "A poor answer listing rates without analysing sovereignty (shared vs. absolute) and social mediation misses the structural difference.",
-    "id": "gen_c9_hist_ch01_q13",
+    "id": "gen_c9_hist_ch01_q14",
     "nodeId": "c9_hist_ch1_8",
     "difficulty": "advanced"
    }
@@ -785,6 +800,21 @@ export const C9_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Construct a historical argument: \"The pyramid was not a tomb but a machine for creating the state.\" Defend or refute using three pieces of evidence from Old Kingdom Egypt.",
+    "answer": "Defend: (1) Pyramid complexes included workshops, bakeries, and administrative buildings — they were economic hubs",
+    "options": [
+     "The co-occurrence suggests either a mixed/disturbed layer (e.g., bioturbation, later pit digging) or a transitional Mesolithic-Neolithic phase",
+     "Middle Palaeolithic; the absence of handaxes suggests a specialized activity site (e.g., butchery or tool maintenance) rather than a base camp where large cores were reduced",
+     "Defend: (1) Pyramid complexes included workshops, bakeries, and administrative buildings — they were economic hubs"
+    ],
+    "hint": "Straight from the 'Egyptian Civilisation  was' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Defend: (1) Pyramid complexes included workshops, bakeries, and administrative buildings — they were economic hubs.",
+    "id": "gen_c9_hist_ch02_q15",
+    "nodeId": "c9_hist_ch2_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "\" The Mandate of Heaven was merely a propaganda tool for Zhou usurpers.\" Critique this statement using the concepts of moral accountability and cyclical dynastic theory.",
     "answer": "The Mandate introduced moral accountability: heaven's withdrawal was signaled by natural disasters/peasant revolts, making rulers responsible for welfare",
     "options": [
@@ -794,7 +824,7 @@ export const C9_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Early Chinese Civilisation' slide -- match the key terms.",
     "misconception": "A poor answer treats it as static justification rather than an evolving ethical standard.",
-    "id": "gen_c9_hist_ch02_q15",
+    "id": "gen_c9_hist_ch02_q16",
     "nodeId": "c9_hist_ch2_11",
     "difficulty": "advanced"
    },
@@ -809,7 +839,7 @@ export const C9_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Early Chinese Civilisation' slide -- match the key terms.",
     "misconception": "A weak answer ignores the dialect bridge function or conflates logographs with \"pictures.\"",
-    "id": "gen_c9_hist_ch02_q16",
+    "id": "gen_c9_hist_ch02_q17",
     "nodeId": "c9_hist_ch2_11",
     "difficulty": "advanced"
    },
@@ -824,24 +854,9 @@ export const C9_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Early Chinese Civilisation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Zhou abolished ancestor worship\") shows misunderstanding: Zhou retained ancestor worship but added a transferable heavenly mandate, unlike Egypt's permanent divine kingship.",
-    "id": "gen_c9_hist_ch02_q17",
+    "id": "gen_c9_hist_ch02_q18",
     "nodeId": "c9_hist_ch2_11",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the information provided by relative dating (stratigraphy, typology) and absolute dating (radiocarbon, OSL). Why do archaeologists *always* use both together rather than relying on just one?",
-    "answer": "Relative dating provides the *sequence* (Layer A is older than Layer B) and cultural phases (Handaxe phase precedes Blade phase) but no calendar dates",
-    "options": [
-     "Kashmir: pit dwellings, hunting (deer, ibex) alongside cultivation of wheat, barley, lentils; cold climate favored animal husbandry and storage",
-     "Lower: large-game hunting/scavenging with heavy tools in open grasslands; Upper: diversified hunting (small game, fish), plant processing, and symbolic behavior in patchy forests",
-     "Relative dating provides the *sequence* (Layer A is older than Layer B) and cultural phases (Handaxe phase precedes Blade phase) but no calendar dates"
-    ],
-    "hint": "Straight from the 'Archaeology' slide -- match the key terms.",
-    "misconception": "A student who says \"radiocarbon is more accurate so we don't need stratigraphy\" fails to understand that a date without secure context is archaeologically meaningless.",
-    "id": "gen_c9_hist_ch02_q18",
-    "nodeId": "c9_hist_ch2_2",
-    "difficulty": "standard"
    }
   ],
   "reflect": {

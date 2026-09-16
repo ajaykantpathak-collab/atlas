@@ -4482,6 +4482,21 @@ export const C11_ENG_H_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student claims: \"The title *The Browning Version* just refers to Robert Browning's translation of *Agamemnon* that Crocker-Harris loves.\" Apply your knowledge of the play's themes to evaluate this statement.",
+    "answer": "The title operates on three levels: (1) Literal — Browning's translation of Aeschylus's *Agamemnon* is Crocker-Harris's cherished project",
+    "options": [
+     "The exchange reveals Taplow's suppressed resentment toward Crocker-Harris's dehumanising authority and Frank's subtle encouragement of that rebellion",
+     "Tenor = Crocker-Harris; Vehicle = corpse. \"Corpse\" implies *once was alive, now dead, beyond repair* — it carries finality and the tragedy of extinguished humanity",
+     "The title operates on three levels: (1) Literal — Browning's translation of Aeschylus's *Agamemnon* is Crocker-Harris's cherished project"
+    ],
+    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "misconception": "A wrong answer that stops at the literal level reveals inability to recognize layered symbolism — a core senior secondary skill.",
+    "id": "gen_c11_eng_h_ch06_q17",
+    "nodeId": "c11_eng_h_cbse_06_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the role of the \"classics master\" in 1940s British public schools with the role of a senior teacher in a modern Indian CBSE school. How does this comparison deepen understanding of Crocker-Harris's isolation?",
     "answer": "In 1940s public schools, the classics master embodied tradition, moral authority, and cultural gatekeeping — his subject *was* the curriculum's soul",
     "options": [
@@ -4491,21 +4506,6 @@ export const C11_ENG_H_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists surface differences (e.g., \"one teaches Latin, one teaches Physics\") misses the thematic bridge: the teacher as guardian of a vanishing world.",
-    "id": "gen_c11_eng_h_ch06_q17",
-    "nodeId": "c11_eng_h_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the view that *The Browning Version* is \"just a period piece about an outdated British school system\" and defend its inclusion in a 21st-century Indian curriculum.",
-    "answer": "The play transcends its period through three universals: (1) The terror of professional irrelevance — every worker faces technological or structural displacement",
-    "options": [
-     "A strong monologue shows Frobisher's private respect for Andrew's scholarship (\"Thirty years of Greek",
-     "The line explicitly names the central theme (failure/wasted vocation) and reveals the protagonist's internalization of external judgment",
-     "The play transcends its period through three universals: (1) The terror of professional irrelevance — every worker faces technological or structural displacement"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees it's \"just a period piece\" reveals failure to extract transferable human insight — the core purpose of literature education.",
     "id": "gen_c11_eng_h_ch06_q18",
     "nodeId": "c11_eng_h_cbse_06_001",
     "difficulty": "standard"

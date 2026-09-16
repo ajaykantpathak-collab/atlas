@@ -1800,6 +1800,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "c12_eng_k_cbse_03_011",
    "c12_eng_k_cbse_03_012",
    "c12_eng_k_cbse_03_013",
+   "c12_eng_k_cbse_03_014",
    "c12_eng_k_cbse_03_015"
   ],
   "emoji": "📗",
@@ -1896,6 +1897,12 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "text": "Critical thinking in literary analysis involves moving beyond literal comprehension to examine how narrative techniques, symbolism, and historical context shape meaning; it requires evaluating the author's choices, interpreting ambiguity, and constructing",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Writing Skills Based On \"A Wedding In",
+    "text": "Writing Skills based on \"A Wedding in Brownsville\" refers to the ability to construct structured, evidence-based analytical responses about the story's themes (Holocaust trauma, memory, identity, surrealism), characterisation (Dr Margolin's psychological",
+    "emoji": "📗",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Speaking And Listening",
@@ -2429,6 +2436,69 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A student writes: \"Dr Margolin is a tragic character because he lost his family in the Holocaust and his true love Raizel died.\" Identify the specific weakness in this answer for a CBSE 6-mark question and explain how to fix it using textual evidence.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evidence like \"Hitler's carnage.",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explanation of how these create tragic",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "link to the story's central concern",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "identification of tragic dimensions",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The answer states facts but lacks ANALYSIS — it narrates plot instead of analysing character construction.",
+    "id": "gen_c12_eng_k_ch03_q14",
+    "nodeId": "c12_eng_k_cbse_03_014",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you're sitting in the CBSE exam hall facing a 6-mark question: \"How does Singer use surrealism to portray Dr Margolin's Holocaust trauma?",
+     "Start by identifying the core demand: \"surrealism\" + \"trauma portrayal.\" Next, hunt for two precise textual moments — the taxi ride's cosmic",
+     "Now apply PEEL: Point — Singer blurs reality to externalise internal trauma.",
+     "Evidence — quote the taxi metaphor and the pulse check."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What are the two discussion topics explicitly given in the NCERT \"Talking about the Text\" section for this story?",
     "answer": "The two topics are: (1) Fiction often deals with human consciousness, rather than with the reality of existence. (2) The ways in which survivors of holocausts deal with life",
@@ -2439,7 +2509,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing themes like \"love\" or \"identity\") reveals the student has not distinguished between thematic analysis and the specific discussion prompts set by the board.",
-    "id": "gen_c12_eng_k_ch03_q14",
+    "id": "gen_c12_eng_k_ch03_q15",
     "nodeId": "c12_eng_k_cbse_03_015",
     "difficulty": "advanced",
     "workedExample": [
@@ -2502,7 +2572,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer focusing only on \"he's tired\" or \"dislikes greasy food\" ignores the historical weight the context provides.",
-    "id": "gen_c12_eng_k_ch03_q15",
+    "id": "gen_c12_eng_k_ch03_q16",
     "nodeId": "c12_eng_k_cbse_03_001",
     "difficulty": "standard"
    },
@@ -2559,39 +2629,66 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A weak answer names emotions directly (\"it became scary\"), uses vague details (\"it was noisy then quiet\"), or lacks a clear before/after contrast — revealing the student cannot yet wield sensory language as an atmospheric tool.",
-    "id": "gen_c12_eng_k_ch03_q16",
+    "id": "gen_c12_eng_k_ch03_q17",
     "nodeId": "c12_eng_k_cbse_03_003",
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Compare the \"American Judaism\" Margolin criticizes (Anglicised Yiddish, rabbis aping Christian ministers) with the world of the Senciminers at the wedding. What does this contrast reveal about the immigrant experience?",
-    "answer": "The contrast reveals a fracture between assimilation and preservation. Margolin, educated and integrated, sees the community's rituals as hollow performances — \"a mess",
-    "options": [
-     "Sentence 1 establishes the comforting ritual: \"Usually after breakfast on Sunday, he and his wife took a walk in Central Park, or, when the weather was mild, went to the Palisades",
-     "The literal fact (Sencimin destroyed) provides the historical ground zero; the inferential layer (repeated \"died, shot",
-     "The contrast reveals a fracture between assimilation and preservation. Margolin, educated and integrated, sees the community's rituals as hollow performances — \"a mess"
+    "type": "order",
+    "question": "Analyse how Singer's narrative perspective shifts in the final section (chapel scene) and evaluate the effect of this shift on the reader's understanding of Margolin's psychological state.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The marker",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The peak",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The effect",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "The shift",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer that merely lists differences without interpreting their psychological significance misses the analytical depth required.",
-    "id": "gen_c12_eng_k_ch03_q17",
-    "nodeId": "c12_eng_k_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"The surreal elements in the story (the taxi ride, the encounter with Raizel, the final revelation) are just a dream sequence — they don't really happen, so they don't matter historically.\"",
-    "answer": "This claim is flawed. In surrealist literature, the \"unreal\" conveys a deeper historical truth: the Holocaust shattered the boundary between life and death",
-    "options": [
-     "The visual imagery (\"neither young nor old\", \"long braids\", \"dark eyes\") establishes Raizel's timeless, ghostly presence",
-     "Refute. The atmosphere actively constructs the surreal turn. The taxi ride's \"frosted window,\" \"impenetrably dark\" streets, \"sky",
-     "This claim is flawed. In surrealist literature, the \"unreal\" conveys a deeper historical truth: the Holocaust shattered the boundary between life and death"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats the ending as a simple twist ending fails to engage with the literary-historical purpose of surrealism.",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) The shift — narration moves from third-person limited through Margolin's perception to a destabilised mode where",
     "id": "gen_c12_eng_k_ch03_q18",
-    "nodeId": "c12_eng_k_cbse_03_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_k_cbse_03_014",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -3506,6 +3603,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "c12_eng_k_cbse_05_011",
    "c12_eng_k_cbse_05_012",
    "c12_eng_k_cbse_05_013",
+   "c12_eng_k_cbse_05_014",
    "c12_eng_k_cbse_05_015"
   ],
   "emoji": "📗",
@@ -3602,6 +3700,12 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "text": "Critical thinking in literary analysis is the disciplined process of actively examining a text's explicit and implicit meanings, evaluating the author's choices (structure, language, perspective), and synthesizing evidence to form an independent, reasoned",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Writing Skills Based On The Chapter \"One",
+    "text": "Writing Skills based on the chapter \"One Centimetre\" refers to the ability to compose structured, evidence-based responses — such as character sketches, thematic essays, critical appreciations, letters, diary entries, and analytical paragraphs — that",
+    "emoji": "📗",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Speaking And Listening",
@@ -4114,6 +4218,69 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "In \"One Centimetre,\" Tao Ying measures Xiao Ye at home and gets 1.09 m, but the temple guard claims he is 1.10 m. A student writes: \"This shows the guard was wrong and Tao Ying was right.\" Identify the analytical gap in this response and rewrite it as a PEEL paragraph that earns full marks.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The evidence",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The point of a full-mark rewrite",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The gap",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The link",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) The gap — the student's line states a fact but offers no analysis, no literary device and no reason the discrepancy",
+    "id": "gen_c12_eng_k_ch05_q14",
+    "nodeId": "c12_eng_k_cbse_05_014",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you're in the exam hall and the question reads: \"How does Bi Shu-min use the 'one centimetre' as a symbol to explore the gap between parental",
+     "Support your answer with textual evidence.\" You might freeze — where to begin?",
+     "Start by identifying the *core tension*: Tao Ying's desire to be a \"flawless mother\" versus the messy reality of institutional rules and her son's",
+     "Next, hunt for the *symbol's three appearances*: the bus height mark (1.10 m), the temple's \"earthworm\" line, and the final measurement (1."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What are the two discussion topics explicitly listed under \"Talking about the Text\" in the NCERT textbook for \"One Centimetre\"?",
     "answer": "The two topics are: (1) \"The way a child looks at the world is very different from that of an adult",
@@ -4124,7 +4291,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing comprehension questions or theme statements) reveals the student has not distinguished between discussion prompts and other end-of-chapter exercises, indicating a lack of familiarity with the textbook's structure.",
-    "id": "gen_c12_eng_k_ch05_q14",
+    "id": "gen_c12_eng_k_ch05_q15",
     "nodeId": "c12_eng_k_cbse_05_015",
     "difficulty": "advanced",
     "workedExample": [
@@ -4187,7 +4354,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that says \"it just describes the line\" misses the critical function of figurative language in shaping atmosphere and theme.",
-    "id": "gen_c12_eng_k_ch05_q15",
+    "id": "gen_c12_eng_k_ch05_q16",
     "nodeId": "c12_eng_k_cbse_05_003",
     "difficulty": "advanced"
    },
@@ -4244,7 +4411,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that only describes the action (\"she measures him\") without linking the metaphor to atmosphere shows inability to read figurative language as atmospheric construction.",
-    "id": "gen_c12_eng_k_ch05_q16",
+    "id": "gen_c12_eng_k_ch05_q17",
     "nodeId": "c12_eng_k_cbse_05_003",
     "difficulty": "advanced"
    },
@@ -4301,65 +4468,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer uses clichés (\"dark and scary\"), lacks sensory specificity, or doesn't connect to Tao Ying's psychology.",
-    "id": "gen_c12_eng_k_ch05_q17",
-    "nodeId": "c12_eng_k_cbse_05_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Compare the two measurement scenes: the bus conductor's \"pale finger\" pointing at 1.10 m and the temple guard's \"earthworm\" red line. How does the narrative treatment of each reveal a shift in the story's attitude toward institutional rules?",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "The shift from faded paint to authoritative",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "At the temple",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "On the bus",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "The narrative thus critiques how rules",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer (e.g., \"Both are just height markers\") ignores the symbolic progression and the guard's performative authority.",
     "id": "gen_c12_eng_k_ch05_q18",
-    "nodeId": "c12_eng_k_cbse_05_013",
+    "nodeId": "c12_eng_k_cbse_05_003",
     "difficulty": "advanced"
    }
   ],
@@ -11662,6 +11772,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "c12_eng_k_cbse_16_002",
    "c12_eng_k_cbse_16_003",
    "c12_eng_k_cbse_16_004",
+   "c12_eng_k_cbse_16_005",
    "c12_eng_k_cbse_16_006",
    "c12_eng_k_cbse_16_007",
    "c12_eng_k_cbse_16_008",
@@ -11713,6 +11824,12 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "text": "Character analysis of the protagonist in a non-fiction autobiographical text involves examining the author-narrator's personality traits, motivations, internal conflicts, values, and development as revealed through selected anecdotes, reflections, and stated",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "In a Non-fiction Autobiographical Essay",
+    "text": "In a non-fiction autobiographical essay like Bergman's \"Film-Making,\" supporting characters are the real-life individuals — parents, mentors, collaborators — whom the author explicitly names and describes as having shaped his artistic vision, professional",
+    "emoji": "📗",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "Primary Theme Of Ingmar Bergman's",
@@ -11804,7 +11921,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "options": [
      "Bergman's central metaphor is the film-maker as conjurer (magician), exploiting the \"persistence of vision\"",
      "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity",
-     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *Swedish*",
+     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *Umberto Eco*",
      "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The Virgin Spring*"
     ],
     "hint": "Straight from the 'Plot and Narrative Structure in a' slide -- match the key terms.",
@@ -11846,7 +11963,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "The magic lantern (metal box, carbide lamp smell, coloured glass slides of Red Riding Hood where the wolf represented the Devil) and the rattling film projector (chimney, lamp",
     "options": [
      "Bergman's central metaphor is the film-maker as conjurer (magician), exploiting the \"persistence of vision\"",
-     "Correct analysis: This is a compound predicate sentence with two clauses joined by \"and\". Clause 1: Subject = \"The film\", Verb = \"was\" (linking verb)",
+     "(1) Father and mother — the strict home he rebelled against instilled efficiency, punctuality and thrift, (2) Torsten Hammaren",
      "The magic lantern (metal box, carbide lamp smell, coloured glass slides of Red Riding Hood where the wolf represented the Devil) and the rattling film projector (chimney, lamp"
     ],
     "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
@@ -11859,6 +11976,91 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Bergman's text is exactly that — but he shows rather than tells his character through three layered portraits: the child under the dining table",
      "Start by asking: \"What kind of person turns a crane sighting into a defining metaphor for their national cinema?",
      "The key insight: Bergman's protagonist isn't just a filmmaker — he's a man who transformed childhood trauma into a rigorous artistic philosophy where"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "List the seven supporting figures Bergman explicitly names in the essay (including the interview section) and state the one specific contribution each made to his development.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Carl Anders Dymling",
+      "emoji": "📌",
+      "correctBin": "o5"
+     },
+     {
+      "id": "s1",
+      "label": "Lorens Marmstedt",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Herbert Grevenius",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "Father and mother",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s4",
+      "label": "Alf Sjoberg",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s5",
+      "label": "Torsten Hammaren",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     },
+     {
+      "id": "o5",
+      "label": "6th",
+      "color": "#ec4899"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Father and mother — the strict home he rebelled against instilled efficiency, punctuality and thrift, (2) Torsten",
+    "id": "gen_c12_eng_k_ch16_q5",
+    "nodeId": "c12_eng_k_cbse_16_005",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are assembling a documentary about a famous director.",
+     "You wouldn't just interview the director; you'd track down the teacher who spotted their talent, the producer who funded their first flop, the parent",
+     "That's exactly what Bergman does in this essay — he builds his own \"documentary\" on paper.",
+     "Start by asking: *Who are the people Bergman thanks or blames for who he became?* List them."
     ]
    },
    {
@@ -11903,7 +12105,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: *Criteria for a good answer:* (1) Opens with a vague sensory fragment (\"a shaft of winter light on a dusty courtyard,\"",
-    "id": "gen_c12_eng_k_ch16_q5",
+    "id": "gen_c12_eng_k_ch16_q6",
     "nodeId": "c12_eng_k_cbse_16_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -11955,7 +12157,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that treats this as merely \"Bergman's opinion on books\" misses the thematic function: it defines film's ontology by negative and positive analogy, reinforcing the primary theme that film is rhythm and emotion, not intellectual narrative.",
-    "id": "gen_c12_eng_k_ch16_q6",
+    "id": "gen_c12_eng_k_ch16_q7",
     "nodeId": "c12_eng_k_cbse_16_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -11976,7 +12178,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Imagery' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student only lists \"cold\" and \"snowflakes,\" they miss the visual specificity (\"rugged,\" \"rain-dimmed\") that creates atmosphere. This shows they confuse *listing details* with *analyzing sensory appeal* — they need practice identifying which sense each adjective phrase targets.",
-    "id": "gen_c12_eng_k_ch16_q7",
+    "id": "gen_c12_eng_k_ch16_q8",
     "nodeId": "c12_eng_k_cbse_16_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -11997,7 +12199,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Irony' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses irony with coincidence (e.g., \"it rained on my wedding day\") reveals the student doesn't grasp the structural contrast required for irony. A wrong answer that treats a symbol as just a metaphor (e.",
-    "id": "gen_c12_eng_k_ch16_q8",
+    "id": "gen_c12_eng_k_ch16_q9",
     "nodeId": "c12_eng_k_cbse_16_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -12018,7 +12220,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"dictionary\" or \"guessing\" reveals the student lacks systematic strategies and depends on external help instead of textual evidence.",
-    "id": "gen_c12_eng_k_ch16_q9",
+    "id": "gen_c12_eng_k_ch16_q10",
     "nodeId": "c12_eng_k_cbse_16_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -12092,7 +12294,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that misses \"for a film\" as an adjunct or mislabels \"very\" as an adjective shows inability to handle nested modification — a skill tested in CUET sentence-improvement items.",
-    "id": "gen_c12_eng_k_ch16_q10",
+    "id": "gen_c12_eng_k_ch16_q11",
     "nodeId": "c12_eng_k_cbse_16_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -12113,7 +12315,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Literal. The text explicitly states: \"This is where my magic lantern came in.",
-    "id": "gen_c12_eng_k_ch16_q11",
+    "id": "gen_c12_eng_k_ch16_q12",
     "nodeId": "c12_eng_k_cbse_16_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -12134,7 +12336,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Critical Thinking' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"director as author\" or \"film as literature\") reveals the student misses Bergman's insistence that film is *deception-based illusion*, not intellectual communication like writing.",
-    "id": "gen_c12_eng_k_ch16_q12",
+    "id": "gen_c12_eng_k_ch16_q13",
     "nodeId": "c12_eng_k_cbse_16_013",
     "difficulty": "advanced",
     "workedExample": [
@@ -12155,7 +12357,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Writing Skills for this chapter' slide -- match the key terms.",
     "misconception": "A wrong answer that lists 'Quote, Explain, Conclude' reveals the student misses the critical 'Point' (argument-first) and 'Link' (thematic closure) steps, leading to narrative summaries instead of analytical arguments — a major mark-loser in CBSE marking schemes.",
-    "id": "gen_c12_eng_k_ch16_q13",
+    "id": "gen_c12_eng_k_ch16_q14",
     "nodeId": "c12_eng_k_cbse_16_014",
     "difficulty": "advanced",
     "workedExample": [
@@ -12176,7 +12378,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"director is a teacher\" or \"film is a mirror\") reveals the student has not grasped Bergman's central thesis that cinema is fundamentally illusion and emotional manipulation, not intellectual instruction.",
-    "id": "gen_c12_eng_k_ch16_q14",
+    "id": "gen_c12_eng_k_ch16_q15",
     "nodeId": "c12_eng_k_cbse_16_015",
     "difficulty": "advanced",
     "workedExample": [
@@ -12187,64 +12389,164 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Compare Bergman's view that \"film has nothing to do with literature\" with Umberto Eco's experience of *The Name of the Rose* being adapted into a film. What is the core disagreement?",
-    "answer": "Bergman argues the two forms are fundamentally incompatible: literature works through conscious intellect and imagination; film works through direct emotional illusion",
-    "options": [
-     "A primary theme is the central, unifying idea that the entire text revolves around (here: film-making as a personal yet collaborative creative process)",
-     "Bergman's concern: Formal incompatibility. Film and literature are different art forms with conflicting \"character and substance\"",
-     "Bergman argues the two forms are fundamentally incompatible: literature works through conscious intellect and imagination; film works through direct emotional illusion"
+    "type": "order",
+    "question": "Analyze the contrast between Bergman's supporting figures (mentors, producer) and Umberto Eco's experience with the film adaptation of *The Name of the Rose*. How do their respective \"supporting characters\" (Dymling vs.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Bergman's model",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The synthesis",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Eco's model",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: Student thinks both authors hold identical views, missing Eco's pragmatic acceptance versus Bergman's categorical rejection, or fails to link Eco's \"layers\" to Bergman's \"irrational dimension.\"",
-    "id": "gen_c12_eng_k_ch16_q15",
-    "nodeId": "c12_eng_k_cbse_16_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Do you agree with Bergman that \"the script is a very imperfect technical basis for a film\"? Justify with reference to the challenges of translating rhythm and mood into words.",
-    "answer": "Yes. Bergman explains that the film's essence — \"rhythms, moods, atmosphere, tensions, sequences, tones and scents\" — cannot be fully captured in a screenplay",
-    "options": [
-     "The film-literature vs. film-music contrast establishes a secondary theme: \"Film's kinship with music over literature",
-     "A strong response: Point — It is a violation because the film fixes the reader's imagination. Evidence",
-     "Yes. Bergman explains that the film's essence — \"rhythms, moods, atmosphere, tensions, sequences, tones and scents\" — cannot be fully captured in a screenplay"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: Student says \"scripts are important blueprints\" without addressing Bergman's specific point about rhythm/mood being untranslatable, showing they confuse practical utility with artistic fidelity.",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Bergman's model — Dymling places faith in a creative artist's responsibility over profit and loss calculations, a",
     "id": "gen_c12_eng_k_ch16_q16",
-    "nodeId": "c12_eng_k_cbse_16_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_k_cbse_16_005",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Explain Bergman's metaphor of the film-maker as a conjurer. What does he mean by \"deception of the human eye\"?",
-    "answer": "Bergman compares film-making to conjuring because cinematography exploits the persistence of vision: the projector shows 24 frames per second with dark intervals between them",
-    "options": [
-     "Bergman's structure is associative and thematic, not chronological. He jumps from childhood magic lantern to first projector to theatre mentors to scriptwriting struggles to",
-     "Tenor = the initial vague idea for a film; Vehicle = a bright thread protruding from a dark sack. The metaphor suggests film ideas emerge mysteriously from the unconscious mind",
-     "Bergman compares film-making to conjuring because cinematography exploits the persistence of vision: the projector shows 24 frames per second with dark intervals between them"
+    "type": "order",
+    "question": "Apply the \"cathedral-builder\" test to one supporting figure: If that person were removed from Bergman's life, which specific \"stone\" (skill, value, opportunity) would be missing from his cathedral? Choose any figure except the parents.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The missing stone",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The absence",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The rule",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The connection",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: Student takes \"conjurer\" literally as a magician doing tricks, missing the technical basis (frame-rate, persistence of vision) and the artistic implication (emotional manipulation through illusion).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) The missing stone — rigorous self-critique, (2) The rule — Marmstedt's unbreakable rule that you must watch your",
     "id": "gen_c12_eng_k_ch16_q17",
-    "nodeId": "c12_eng_k_cbse_16_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_k_cbse_16_005",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Using Bergman's idea that film is closer to music than literature, describe how a specific film scene uses rhythm and editing to evoke emotion without dialogue.",
-    "answer": "Example: The shower scene in *Psycho* (Hitchcock). Rapid cuts (78 setups in 45 seconds), screeching violin stabs, no dialogue",
-    "options": [
-     "Literature works through conscious intellect→imagination→emotion; film bypasses intellect to hit feelings directly via rhythm (\"inhalation and exhalation\")",
-     "The film-literature vs. film-music contrast establishes a secondary theme: \"Film's kinship with music over literature",
-     "Example: The shower scene in *Psycho* (Hitchcock). Rapid cuts (78 setups in 45 seconds), screeching violin stabs, no dialogue"
+    "type": "order",
+    "question": "Create a 100-word \"missing mentor\" paragraph written in Bergman's voice, describing a fictional sixth mentor who taught him sound design. Use the same sentence rhythm, vocabulary level, and \"lesson + personal detail\" structure as the original text.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The habit",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "The opening",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The personal detail",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The lesson",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: Student describes plot or dialogue instead of editing/sound rhythm, showing they cannot apply the concept of \"film as rhythm\" to concrete analysis.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer offers generic praise with no technical specificity, no personal anecdote and a wrong modern tone, missing that style is a deliberate rhetorical choice.",
     "id": "gen_c12_eng_k_ch16_q18",
-    "nodeId": "c12_eng_k_cbse_16_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_k_cbse_16_005",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {

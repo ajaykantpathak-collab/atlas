@@ -588,6 +588,21 @@ export const C12_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Define the three central problems of an economy and state which scarce resource each problem primarily concerns.",
+    "answer": "The three central problems are: (1) What to produce — concerns allocation of land and capital among alternative goods; (2) How to produce — concerns choice of technique, i",
+    "options": [
+     "Microeconomics is the study of individual economic agents (consumers, producers) and their interactions in specific markets, focusing on price and quantity determination",
+     "The four core assumptions are: (1) The economy consists of only two sectors — households and firms",
+     "The three central problems are: (1) What to produce — concerns allocation of land and capital among alternative goods; (2) How to produce — concerns choice of technique, i"
+    ],
+    "hint": "Straight from the 'The central problems of an' slide -- match the key terms.",
+    "misconception": "A wrong answer that lists only \"money\" or \"resources\" without linking each problem to specific factors reveals the student has memorised the names but not the underlying factor-income connection.",
+    "id": "gen_c12_eco_ch01_q17",
+    "nodeId": "c12_eco_cbse_01_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple production plan for a school canteen that must decide: (a) What snacks to offer (samosas, sandwiches, fruit), (b) How to prepare them (in-house cooking vs outsourcing), (c) For whom (students, staff, or both). List the scarce resources, the decision criteria for each problem, and one trade-off for each.",
     "answer": "Scarce resources: Kitchen space, cooking staff time, budget (capital), raw materials, serving time",
     "options": [
@@ -597,21 +612,6 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The central problems of an' slide -- match the key terms.",
     "misconception": "A poor answer lists only \"money\" as resource or ignores trade-offs. Good answer shows each problem involves a distinct choice with opportunity cost.",
-    "id": "gen_c12_eco_ch01_q17",
-    "nodeId": "c12_eco_cbse_01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"In a market economy, the 'For whom to produce' problem is solved efficiently because goods go to those who value them most.\" Use the concepts of willingness to pay vs ability to pay, and give an Indian context example.",
-    "answer": "The statement confuses willingness to pay (marginal utility) with ability to pay (income). A poor farmer may value a life-saving drug more than a rich urbanite (higher marginal",
-    "options": [
-     "The statement contains \"should\" and \"living wage\" — a normative concept reflecting a view on fairness",
-     "The statement is incorrect. MRT is defined only for points on the PPF (efficient production). Inside the PPF, resources are unemployed or misallocated",
-     "The statement confuses willingness to pay (marginal utility) with ability to pay (income). A poor farmer may value a life-saving drug more than a rich urbanite (higher marginal"
-    ],
-    "hint": "Straight from the 'The central problems of an' slide -- match the key terms.",
-    "misconception": "A student who agrees without qualification misses the normative dimension: markets solve *allocation* efficiently only under perfect competition and initial endowment fairness, which rarely hold.",
     "id": "gen_c12_eco_ch01_q18",
     "nodeId": "c12_eco_cbse_01_002",
     "difficulty": "standard"
@@ -1138,6 +1138,22 @@ export const C12_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A firm's production function is Q = 10L^0.5 K^0.5. In the short run, capital is fixed at K = 16. Calculate the maximum output when the firm employs 25 units of labour. Show the steps.",
+    "answer": "Step 1: Substitute fixed K = 16 into the production function: Q = 10 L^0.5 (16)^0.5. Step 2: (16)^0",
+    "options": [
+     "Marginal Cost is the additional cost incurred to produce one more unit of output. Formula: MC = ΔTC/ΔQ (or MC = TCₙ - TCₙ₋₁ for discrete output)",
+     "Sum of exponents = 0.6 + 0.3 = 0.9 < 1, so DRS. The sum of exponents (α+β) in a Cobb-Douglas function Q = AL^α K^β directly indicates returns to scale: α+β > 1 → IRS, = 1 → CRS",
+     "Step 1: In Stage III fixed K = 16 into the production function: Q = 10 L^0.5 (16)^0.5. Step 2: (16)^0",
+     "Step 1: Substitute fixed K = 16 into the production function: Q = 10 L^0.5 (16)^0.5. Step 2: (16)^0"
+    ],
+    "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
+    "misconception": "A wrong answer that uses L=25, K=25 (ignoring fixity) shows the student does not grasp the short-run constraint.",
+    "id": "gen_c12_eco_ch03_q12",
+    "nodeId": "c12_eco_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the following two statements and identify which correctly describes the long-run production function. (A) Q = f(L) with K constant. (B) Q = f(L, K) with both L and K variable. Justify your choice using the concept of factor fixity.",
     "answer": "Statement (B) is correct. The long-run production function has all inputs variable, so output depends on both labour and capital: Q = f(L, K)",
     "options": [
@@ -1147,7 +1163,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Statement (B) is correct. The long-run production function has all inputs variable, so output depends on both labour",
-    "id": "gen_c12_eco_ch03_q12",
+    "id": "gen_c12_eco_ch03_q13",
     "nodeId": "c12_eco_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1162,7 +1178,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example: A cloud kitchen in Bengaluru starts with 2 ovens (fixed capital) and 5 chefs (variable labour).",
-    "id": "gen_c12_eco_ch03_q13",
+    "id": "gen_c12_eco_ch03_q14",
     "nodeId": "c12_eco_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1177,7 +1193,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"short run is less than one year\" reveals confusion between calendar time and economic time — the distinction is about factor fixity, not a specific duration.",
-    "id": "gen_c12_eco_ch03_q14",
+    "id": "gen_c12_eco_ch03_q15",
     "nodeId": "c12_eco_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1192,7 +1208,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
     "misconception": "A student who agrees overlooks that factor fixity is about all inputs, not just physical space.",
-    "id": "gen_c12_eco_ch03_q15",
+    "id": "gen_c12_eco_ch03_q16",
     "nodeId": "c12_eco_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1207,36 +1223,21 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Total Product' slide -- match the key terms.",
     "misconception": "A student who sets MP=0 instead of d(AP)/dL=0 finds TP maximum, not AP maximum — a common confusion between maximizing total vs average.",
-    "id": "gen_c12_eco_ch03_q16",
-    "nodeId": "c12_eco_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the statement: “If marginal product is falling, average product must also be falling.” Provide a counterexample using a TP schedule.",
-    "answer": "The statement is false. MP can fall while still being above AP, causing AP to rise. Example: TP at L=2 is 24 (AP=12, MP=14), at L=3 TP=36 (AP=12, MP=12)",
-    "options": [
-     "First, find MP = dQ/dL = 12 + 6L - 0.6L^2. Set MP = 0 to find end of Stage II: 12 + 6L - 0.6L^2 = 0 => multiply by 5: 60 + 30L - 3L^2 = 0 => 3L^2 - 30L - 60 = 0 => L^2 - 10L - 20",
-     "Sum of exponents = 0.6 + 0.3 = 0.9 < 1, so DRS. The sum of exponents (α+β) in a Cobb-Douglas function Q = AL^α K^β directly indicates returns to scale: α+β > 1 → IRS, = 1 → CRS",
-     "The statement is false. MP can fall while still being above AP, causing AP to rise. Example: TP at L=2 is 24 (AP=12, MP=14), at L=3 TP=36 (AP=12, MP=12)"
-    ],
-    "hint": "Straight from the 'Total Product' slide -- match the key terms.",
-    "misconception": "A student who agrees confuses the direction of MP with the level of MP relative to AP.",
     "id": "gen_c12_eco_ch03_q17",
     "nodeId": "c12_eco_cbse_03_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Define Marginal Product and Average Product. Write the formulas for each using TP and L (units of labour).",
-    "answer": "Marginal Product (MP) = ΔTP/ΔL, the change in total product from a one-unit change in labour. Average Product (AP) = TP/L, total product divided by units of labour",
+    "question": "Construct a hypothetical TP schedule for 5 units of labour that exhibits: (a) increasing MP for first two units, (b) diminishing but positive MP for next two, (c) zero MP at fifth unit. Compute MP and AP, and sketch the three curves qualitatively.",
+    "answer": "Example: L=0 TP=0; L=1 TP=5 (MP=5, AP=5); L=2 TP=14 (MP=9, AP=7); L=3 TP=21 (MP=7, AP=7); L=4 TP=26 (MP=5, AP=6",
     "options": [
-     "The vertical distance equals Total Fixed Cost (TFC), which is constant because fixed factors (rent, machinery) do not change with output in the short run",
-     "The LRAC curve is the lower envelope of the family of SAC curves — it touches each SAC at exactly one point (the tangency point) and lies on or below every SAC at all output",
-     "Marginal Product (MP) = ΔTP/ΔL, the change in total product from a one-unit change in labour. Average Product (AP) = TP/L, total product divided by units of labour"
+     "Expected answer criteria: - Correct per-unit variable cost = 0.1×30 + 5 + 0.01×200 = 3+5+2 = ₹10/candle (constant)",
+     "LRAC slopes downward up to 500 (increasing returns), is flat from 500–1000 (constant returns), slopes upward beyond 1000 (decreasing returns)",
+     "Example: L=0 TP=0; L=1 TP=5 (MP=5, AP=5); L=2 TP=14 (MP=9, AP=7); L=3 TP=21 (MP=7, AP=7); L=4 TP=26 (MP=5, AP=6"
     ],
     "hint": "Straight from the 'Total Product' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., MP = TP/L or AP = ΔTP/ΔL) shows the student confuses the marginal concept (incremental) with the average concept (per unit).",
+    "misconception": "A poor answer shows MP never crossing AP or TP not flattening when MP=0, indicating misunderstanding of the graphical relationships.",
     "id": "gen_c12_eco_ch03_q18",
     "nodeId": "c12_eco_cbse_03_002",
     "difficulty": "standard"
@@ -1261,10 +1262,12 @@ export const C12_ECO_GEN: SimDef[] = [
   "subject": "economics",
   "topic": "Perfect Competition",
   "chapters": [
-   "Economics Ch4: Perfect Competition"
+   "Economics Ch4: Perfect Competition",
+   "Economics Ch5: Perfect Competition"
   ],
   "nodeIds": [
    "c12_eco_cbse_04_001",
+   "c12_eco_cbse_05_003",
    "c12_eco_cbse_04_005",
    "c12_eco_cbse_04_009"
   ],
@@ -1292,6 +1295,12 @@ export const C12_ECO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "Shift In Supply Occurs When",
+    "text": "A shift in supply occurs when a non-price determinant of supply (such as input prices, technology, number of sellers, expectations, or government policies) changes, causing the entire supply curve to move rightward (increase in supply) or leftward (decrease",
+    "emoji": "📈",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Short Run Supply Curve Of a Perfectly",
     "text": "The short run supply curve of a perfectly competitive firm is the portion of its marginal cost (MC) curve that lies above the minimum point of its average variable cost (AVC) curve.",
     "emoji": "📈",
@@ -1310,8 +1319,8 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Evaluate the statement: \"The assumption of perfect knowledge in perfect competition is unrealistic and therefore the model is useless for policy analysis.\" Provide two arguments for and two against this view.",
     "answer": "For: (1) Real markets have asymmetric information (e.g., sellers know more about product quality than buyers), so perfect knowledge is an idealisation",
     "options": [
-     "Example: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce",
      "Example: A local vegetable market (mandi) for a standard variety of onions. Satisfies: many buyers and sellers, homogeneous product (same grade onions)",
+     "(1) Step one — the heatwave shifts supply leftward, so fewer mangoes are available at every price and the equilibrium price rises through a movement along the demand curve",
      "For: (1) Real markets have asymmetric information (e.g., sellers know more about product quality than buyers), so perfect knowledge is an idealisation"
     ],
     "hint": "Straight from the 'Perfect competition' slide -- match the key terms.",
@@ -1327,17 +1336,81 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A news report states: \"Due to a severe heatwave, the supply of mangoes in Uttar Pradesh has decreased, causing mango prices to rise. The higher prices will encourage farmers to plant more mango trees next year, which will increase supply and bring prices back down.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Step two",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The error",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Step three",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Step one",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who agrees with the reporter conflates short-run movements along the supply curve with long-run shifts of it.",
+    "id": "gen_c12_eco_ch04_q2",
+    "nodeId": "c12_eco_cbse_05_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you run a small wheat flour (atta) mill in Punjab.",
+     "Last year, you bought wheat at ₹2,200 per quintal; this year, a bumper harvest pushes the wheat price down to ₹1,900 per quintal.",
+     "Your cost of production falls, so you are willing to supply more flour at every possible selling price — your supply curve shifts rightward.",
+     "Walk through the market: at the old equilibrium price, there is now excess supply (surplus); sellers compete by lowering price; as price falls,"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Construct a numerical example where a firm incurs losses in the short run but continues to produce. Specify TFC, TVC function, market price, and show that producing reduces losses compared to shutting down.",
     "answer": "Example: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce",
     "options": [
      "Example: A local vegetable market (mandi) for a standard variety of onions. Satisfies: many buyers and sellers, homogeneous product (same grade onions)",
-     "Correct ranking (most to least elastic): (b) digital software copies (perfectly elastic, near-zero marginal cost), (a) fresh strawberries in winter (somewhat elastic",
+     "(1) Step one — the heatwave shifts supply leftward, so fewer mangoes are available at every price and the equilibrium price rises through a movement along the demand curve",
+     "Transaction: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce",
      "Example: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce"
     ],
     "hint": "Straight from the 'short run supply curve of a' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., showing profit) reveals the student cannot construct a loss-making-yet-producing scenario, missing the core insight that covering variable costs + part of fixed costs is better than covering N/A.",
-    "id": "gen_c12_eco_ch04_q2",
+    "id": "gen_c12_eco_ch04_q3",
     "nodeId": "c12_eco_cbse_04_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -1352,13 +1425,13 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Compare the price elasticity of supply for: (a) fresh strawberries in winter, (b) digital software copies, (c) crude oil from existing wells, (d) handcrafted Persian carpets. Rank them from most elastic to least elastic and justify each ranking using determinants of supply elasticity.",
     "answer": "Correct ranking (most to least elastic): (b) digital software copies (perfectly elastic, near-zero marginal cost), (a) fresh strawberries in winter (somewhat elastic",
     "options": [
+     "(1) Step one — the heatwave shifts supply leftward, so fewer mangoes are available at every price and the equilibrium price rises through a movement along the demand curve",
      "For: (1) Real markets have asymmetric information (e.g., sellers know more about product quality than buyers), so perfect knowledge is an idealisation",
-     "Example: A local vegetable market (mandi) for a standard variety of onions. Satisfies: many buyers and sellers, homogeneous product (same grade onions)",
      "Correct ranking (most to least elastic): (b) digital software copies (perfectly elastic, near-zero marginal cost), (a) fresh strawberries in winter (somewhat elastic"
     ],
     "hint": "Straight from the 'Price elasticity of supply' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student ranks strawberries as perfectly elastic, they ignore perishability and seasonality.",
-    "id": "gen_c12_eco_ch04_q3",
+    "id": "gen_c12_eco_ch04_q4",
     "nodeId": "c12_eco_cbse_04_009",
     "difficulty": "standard",
     "workedExample": [
@@ -1374,14 +1447,29 @@ export const C12_ECO_GEN: SimDef[] = [
     "answer": "Example: A local vegetable market (mandi) for a standard variety of onions. Satisfies: many buyers and sellers, homogeneous product (same grade onions)",
     "options": [
      "Example: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce",
-     "Correct ranking (most to least elastic): (b) digital software copies (perfectly elastic, near-zero marginal cost), (a) fresh strawberries in winter (somewhat elastic",
+     "(1) Step one — the heatwave shifts supply leftward, so fewer mangoes are available at every price and the equilibrium price rises through a movement along the demand curve",
      "Example: A local vegetable market (mandi) for a standard variety of onions. Satisfies: many buyers and sellers, homogeneous product (same grade onions)"
     ],
     "hint": "Straight from the 'Perfect competition' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., picking a branded product market) shows the student cannot apply the abstract assumptions to concrete Indian contexts.",
-    "id": "gen_c12_eco_ch04_q4",
+    "id": "gen_c12_eco_ch04_q5",
     "nodeId": "c12_eco_cbse_04_001",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A news report states: \"Due to a severe heatwave, the supply of mangoes in Uttar Pradesh has decreased, causing mango prices to rise. The higher prices will encourage farmers to plant more mango trees next year, which will increase supply and bring prices back down.",
+    "answer": "(1) Step one — the heatwave shifts supply leftward, so fewer mangoes are available at every price and the equilibrium price rises through a movement along the demand curve",
+    "options": [
+     "Example: A local vegetable market (mandi) for a standard variety of onions. Satisfies: many buyers and sellers, homogeneous product (same grade onions)",
+     "Example: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce",
+     "(1) Step one — the heatwave shifts supply leftward, so fewer mangoes are available at every price and the equilibrium price rises through a movement along the demand curve"
+    ],
+    "hint": "Straight from the 'shift in supply occurs when' slide -- match the key terms.",
+    "misconception": "A student who agrees with the reporter conflates short-run movements along the supply curve with long-run shifts of it.",
+    "id": "gen_c12_eco_ch04_q6",
+    "nodeId": "c12_eco_cbse_05_003",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -1931,6 +2019,21 @@ export const C12_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "State the four key features of a monopoly market structure as per NCERT Class 12 Microeconomics.",
+    "answer": "The four key features are: (1) Single seller (firm = industry), (2) No close substitutes for the product, (3) High barriers to entry for new firms",
+    "options": [
+     "Average Revenue (AR) = Total Revenue / Quantity = Price. For a monopoly, the AR curve is identical to the market demand curve because the firm is the sole seller",
+     "Monopolistic competition is a market structure with many firms selling differentiated products that are close substitutes, free entry and exit, and some degree of price control",
+     "The four key features are: (1) Single seller (firm = industry), (2) No close substitutes for the product, (3) High barriers to entry for new firms"
+    ],
+    "hint": "Straight from the 'Monopoly' slide -- match the key terms.",
+    "misconception": "A wrong answer that misses \"no close substitutes\" or \"barriers to entry\" reveals the student confuses monopoly with mere single-seller situations (like a local vegetable vendor who still faces competition from substitutes).",
+    "id": "gen_c12_eco_ch06_q17",
+    "nodeId": "c12_eco_cbse_06_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A monopoly faces the demand curve: P = 100 - 2Q. Calculate the MR function. At what output level does MR become zero? What is the price elasticity of demand at that output?",
     "answer": "TR = P×Q = (100 - 2Q)Q = 100Q - 2Q². MR = d(TR)/dQ = 100 - 4Q. Set MR = 0 → 100 - 4Q = 0 → Q = 25. At Q = 25, P = 100 - 2(25) = 50",
     "options": [
@@ -1940,21 +2043,6 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'For a monopoly firm, Average' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., MR = 100 - 2Q, or Q = 50 for MR=0, or elasticity = 0) reveals the student either differentiates incorrectly, confuses AR and MR slopes, or does not know the relationship MR = P(1 - 1/|e|) and that MR = 0 when |e| = 1.",
-    "id": "gen_c12_eco_ch06_q17",
-    "nodeId": "c12_eco_cbse_06_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the AR and MR curves of a monopoly with those of a perfectly competitive firm. Why can a monopoly not choose both price and quantity independently?",
-    "answer": "In perfect competition, AR = MR = P (horizontal line). In monopoly, AR is downward sloping, MR lies below AR and is steeper (twice the slope for linear demand)",
-    "options": [
-     "(a) Monopolistic competition: P > MC (markup due to market power); perfect competition: P = MC. (b) Monopolistic competition: output < min AC (excess capacity)",
-     "(i) Oligopoly: few firms (2-10); Monopolistic competition: many firms. (ii) Oligopoly: homogeneous or differentiated; Monopolistic competition: differentiated",
-     "In perfect competition, AR = MR = P (horizontal line). In monopoly, AR is downward sloping, MR lies below AR and is steeper (twice the slope for linear demand)"
-    ],
-    "hint": "Straight from the 'For a monopoly firm, Average' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Monopoly can set any price and sell any quantity\" or \"AR and MR are same for both\") reveals the student does not understand the constraint imposed by the downward-sloping demand curve or the distinction between price-maker and price-taker.",
     "id": "gen_c12_eco_ch06_q18",
     "nodeId": "c12_eco_cbse_06_002",
     "difficulty": "standard"
@@ -1979,17 +2067,22 @@ export const C12_ECO_GEN: SimDef[] = [
   "subject": "economics",
   "topic": "Macroeconomics",
   "chapters": [
-   "Economics Ch7: Macroeconomics"
+   "Economics Ch7: Macroeconomics",
+   "Economics Ch10: Macroeconomics",
+   "Economics Ch11: Macroeconomics"
   ],
   "nodeIds": [
    "c12_eco_cbse_07_001",
+   "c12_eco_cbse_10_001",
    "c12_eco_cbse_07_002",
    "c12_eco_cbse_07_003",
    "c12_eco_cbse_07_004",
    "c12_eco_cbse_07_005",
    "c12_eco_cbse_07_006",
    "c12_eco_cbse_07_007",
-   "c12_eco_cbse_07_008"
+   "c12_eco_cbse_11_007",
+   "c12_eco_cbse_07_008",
+   "c12_eco_cbse_11_010"
   ],
   "emoji": "📈",
   "theme": {
@@ -2013,6 +2106,12 @@ export const C12_ECO_GEN: SimDef[] = [
     "text": "Macroeconomics is the branch of economics that studies the behaviour and performance of an economy as a whole by focusing on aggregate measures such as total output (GDP), employment, aggregate price level, and economic growth, rather than individual markets",
     "emoji": "📈",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Aggregate Demand",
+    "text": "Aggregate Demand (AD) is the total planned expenditure on final goods and services in an economy during a given period, comprising four components: Consumption (C) by households, Investment (I) by firms, Government spending (G), and Net Exports (NX = Exports",
+    "emoji": "📈",
+    "bgColor": "from-sky-400 to-cyan-500"
    },
    {
     "title": "Microeconomics Studies The Behaviour Of",
@@ -2051,10 +2150,22 @@ export const C12_ECO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
+    "title": "Balance Of Payments",
+    "text": "The Balance of Payments (BoP) is a systematic, double-entry record of all economic transactions between residents of a country and the rest of the world during a given period (usually a year).",
+    "emoji": "📈",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Circular Flow Model",
     "text": "The Circular Flow Model is a simplified representation of the macroeconomy that illustrates the continuous flow of money, goods, and services between households and firms (and later government and foreign sectors).",
     "emoji": "📈",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Foreign Exchange Rate",
+    "text": "The foreign exchange rate is the price of one country's currency expressed in terms of another country's currency, determined by the interaction of demand for and supply of foreign exchange in the foreign exchange market under a flexible exchange rate regime.",
+    "emoji": "📈",
+    "bgColor": "from-emerald-400 to-teal-500"
    }
   ],
   "challenges": [
@@ -2079,6 +2190,69 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A resident Indian household purchases a ₹50 lakh apartment from a builder. The builder uses ₹10 lakh of that to buy a new crane (capital good) and ₹5 lakh to import Italian marble.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The five lakh marble",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Why the flat",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The fifty lakh apartment purchase",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The ten lakh crane",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer classifying the full fifty lakh as investment reveals the misconception that buying a house is always investment.",
+    "id": "gen_c12_eco_ch07_q2",
+    "nodeId": "c12_eco_cbse_10_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are analysing the Union Budget 2024-25: the Finance Minister announces ₹11.",
+     "Simultaneously, Indian IT firms export services worth $200 billion, while we import crude oil worth $150 billion.",
+     "Households spend on food, rent, and durables; firms invest in new plants.",
+     "To understand whether this economy will grow or contract, you must first add up all planned spending — that total is Aggregate Demand."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Define microeconomics and macroeconomics in one sentence each, using the terms \"individual economic agents\" and \"aggregate measures\".",
     "answer": "Microeconomics studies the behaviour of individual economic agents (households, firms) in specific markets to determine prices and quantities",
@@ -2089,7 +2263,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Microeconomics studies the' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the definitions or omits \"individual\" vs \"aggregate\" reveals the student has memorised labels without grasping the unit of analysis.",
-    "id": "gen_c12_eco_ch07_q2",
+    "id": "gen_c12_eco_ch07_q3",
     "nodeId": "c12_eco_cbse_07_002",
     "difficulty": "standard",
     "workedExample": [
@@ -2152,7 +2326,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer reveals: (1) inability to track units consistently, (2) missing that factor payments = revenue in equilibrium, (3) confusing per-unit with aggregate values, (4) not verifying the closed-loop identity.",
-    "id": "gen_c12_eco_ch07_q3",
+    "id": "gen_c12_eco_ch07_q4",
     "nodeId": "c12_eco_cbse_07_003",
     "difficulty": "standard",
     "workedExample": [
@@ -2171,7 +2345,7 @@ export const C12_ECO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A student who forgets to subtract M in GDP or adds M to injections makes a sign error. A student who uses C + I + G + X + M double-counts imports.",
-    "id": "gen_c12_eco_ch07_q4",
+    "id": "gen_c12_eco_ch07_q5",
     "nodeId": "c12_eco_cbse_07_004",
     "difficulty": "standard",
     "workedExample": [
@@ -2186,13 +2360,13 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "REMEMBER: Define a stock variable and a flow variable. Give one example of each from macroeconomics.",
     "answer": "Correct: Stock = quantity measured at a point in time (e.g., capital stock on 31st March 2024). Flow = quantity measured over a period (e",
     "options": [
-     "B) The flow breaks because planned expenditure (₹450 crore) < planned output (₹500 crore). The two-sector model assumes ZERO savings — all income is spent",
+     "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand",
      "Good answer example: | Stock Variable | Opening (1 Apr 23) | Inflows (Flow) | Outflows (Flow) | Closing (31 Mar 24) | |---|---|---|---|---| | Bank Deposits | ₹5,00,000 | Salary",
      "Correct: Stock = quantity measured at a point in time (e.g., capital stock on 31st March 2024). Flow = quantity measured over a period (e"
     ],
     "hint": "Straight from the 'stock variable' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: Student confuses \"wealth\" (stock) with \"income\" (flow) or thinks \"money supply\" is a flow because money \"circulates\".",
-    "id": "gen_c12_eco_ch07_q5",
+    "id": "gen_c12_eco_ch07_q6",
     "nodeId": "c12_eco_cbse_07_005",
     "difficulty": "standard",
     "workedExample": [
@@ -2255,7 +2429,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer missing the foreign sector, mislabeling M or X, or writing the equilibrium as C + I + G + X = C + S + T + M (which is the expenditure-output identity, not the leakage-injection equilibrium) shows the student hasn't grasped the specific leakage-injection framework.",
-    "id": "gen_c12_eco_ch07_q6",
+    "id": "gen_c12_eco_ch07_q7",
     "nodeId": "c12_eco_cbse_07_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -2307,7 +2481,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., listing expenditure before income) reveals the student does not grasp the causal chain: production must occur first to generate factor incomes, which then enable expenditure.",
-    "id": "gen_c12_eco_ch07_q7",
+    "id": "gen_c12_eco_ch07_q8",
     "nodeId": "c12_eco_cbse_07_007",
     "difficulty": "standard",
     "workedExample": [
@@ -2315,6 +2489,69 @@ export const C12_ECO_GEN: SimDef[] = [
      "In the production phase, the factory combines land, labour, capital, and entrepreneurship to create 10,000 shirts.",
      "In the income phase, the firm pays ₹50 lakh as wages to workers, ₹10 lakh as rent to the landowner, ₹5 lakh as interest on loans, and retains ₹15",
      "In the expenditure phase, workers, landowner, bank, and entrepreneur spend their incomes on shirts, food, housing, etc."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Classify the following transactions into Current Account or Capital Account, and indicate credit (+) or debit (−): (a) India imports crude oil worth $5 billion. (b) An NRI deposits ₹2 crore in an NRE account in an Indian bank.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The World Bank grant",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The crude oil import",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The NRI deposit in an NRE account",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The German factory purchase",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong classification such as treating the NRI deposit as a current-account item confuses financial flows with income and transfers, and wrong signs break the rule that inflow means credit and outflow means debit.",
+    "id": "gen_c12_eco_ch07_q9",
+    "nodeId": "c12_eco_cbse_11_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine an Indian software firm exports a ₹50 lakh service to a US client, and simultaneously an Indian student pays ₹20 lakh tuition to a UK",
+     "Both are international transactions.",
+     "To track them, economists use the Balance of Payments — a ledger where every transaction has two equal and opposite entries (credit and debit).",
+     "Start by identifying whether the transaction involves real resources (goods, services, income, transfers) → Current Account, or financial"
     ]
    },
    {
@@ -2370,7 +2607,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"households save a fixed proportion\") reveals the student confuses the *basic* model with the *extended* model that includes the financial sector (covered in node c12_eco_cbse_07_006).",
-    "id": "gen_c12_eco_ch07_q8",
+    "id": "gen_c12_eco_ch07_q10",
     "nodeId": "c12_eco_cbse_07_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -2378,6 +2615,58 @@ export const C12_ECO_GEN: SimDef[] = [
      "You start with the simplest mental model: a two-sector circular flow where households spend all income on domestic goods.",
      "You quickly realise this model cannot explain the slowdown because it assumes no savings, no government spending changes, and no export demand shifts",
      "Step 1: List the two-sector assumptions (no savings, no government, no foreign trade, fixed prices)."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Analyse the impact on the Indian rupee exchange rate (₹/$) if: (a) Global crude oil prices rise sharply, (b) The US Federal Reserve raises interest rates while RBI keeps rates unchanged, (c) Foreign portfolio investors (FPIs) sell Indian stocks and repatriate funds.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "US Fed hikes while RBI holds",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Crude oil prices rise sharply",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "FPIs sell Indian stocks and repatriate",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer such as a US rate hike making the dollar cheaper, or FPI selling increasing the supply of dollars, confuses asset returns with currency flows and misses who supplies what in the forex market.",
+    "id": "gen_c12_eco_ch07_q11",
+    "nodeId": "c12_eco_cbse_11_010",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are an Indian importer wanting to buy crude oil priced in US dollars, or an IT firm in Bengaluru receiving payment in dollars for",
+     "In both cases, you need to convert currencies — this creates demand for and supply of foreign exchange.",
+     "Start by identifying who demands foreign exchange (importers, tourists going abroad, investors buying foreign assets) and who supplies it (exporters,",
+     "Draw the demand curve downward sloping (higher exchange rate → imports become expensive → quantity demanded falls) and supply curve upward sloping"
     ]
    },
    {
@@ -2389,7 +2678,7 @@ export const C12_ECO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer (e.g., forgetting to include profit as factor income) shows misunderstanding that profit is also a factor income (reward for entrepreneurship).",
-    "id": "gen_c12_eco_ch07_q9",
+    "id": "gen_c12_eco_ch07_q12",
     "nodeId": "c12_eco_cbse_07_007",
     "difficulty": "standard"
    },
@@ -2457,7 +2746,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer accepting the statement shows confusion between an *accounting identity* (ex-post) and a *behavioural model* (ex-ante) — a classic JEE/NEET trap.",
-    "id": "gen_c12_eco_ch07_q10",
+    "id": "gen_c12_eco_ch07_q13",
     "nodeId": "c12_eco_cbse_07_008",
     "difficulty": "advanced"
    },
@@ -2525,7 +2814,7 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"equilibrium because G > T\") ignores the saving-investment balance and the simultaneous equilibrium condition taught in node c12_eco_cbse_07_006.",
-    "id": "gen_c12_eco_ch07_q11",
+    "id": "gen_c12_eco_ch07_q14",
     "nodeId": "c12_eco_cbse_07_008",
     "difficulty": "advanced"
    },
@@ -2534,13 +2823,13 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "\"Paradox of Thrift: If every household tries to save more by cutting consumption, national saving will not rise; it may fall.\" Evaluate this statement using the income-expenditure identity Y = C + I + G + NX and the saving-investment identity S = I + (G − T) + (X − M). Assume a closed economy with no government.",
     "answer": "In a closed economy with no government: Y = C + I, and S ≡ Y − C ≡ I. If households *plan* to save more (lower C)",
     "options": [
-     "A good answer will show: Production phase – farms produce crops using land, labour, capital; real flow: crops to market",
-     "Leakages = S + T + M = 200 + 150 + 100 = 450. Injections = I + G + X = 180 + 200 + 70 = 450. Since leakages = injections, the economy is in equilibrium",
+     "A good answer includes: (1) four sectors arranged in a loop; (2) arrows for C (consumption), S (saving), T (taxes), G (government spending), I (investment), M (imports)",
+     "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand",
      "In a closed economy with no government: Y = C + I, and S ≡ Y − C ≡ I. If households *plan* to save more (lower C)"
     ],
     "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: In a closed economy with no government: Y = C + I, and S ≡ Y − C ≡ I.",
-    "id": "gen_c12_eco_ch07_q12",
+    "id": "gen_c12_eco_ch07_q15",
     "nodeId": "c12_eco_cbse_07_001",
     "difficulty": "standard"
    },
@@ -2549,13 +2838,13 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Construct a short narrative (4–5 sentences) showing how a sudden drop in export demand for Indian textiles (an external shock) can trigger a recession through circular flow linkages. Use the terms: leakages, injections, multiplier, aggregate demand, involuntary unemployment.",
     "answer": "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand",
     "options": [
+     "(a) Growth = (135.1 − 145.7)/145.7 × 100 = −7.28%. (b) Real GDP is a flow (measured over a year); unemployment rate and inflation rate are stocks (measured at a point in time)",
      "The microeconomist sees lower car demand → lower car prices → equilibrium restored in car market. The macroeconomist sees: lower C → lower aggregate demand → lower GDP → lower",
-     "(i) GDP = C + I + G + (X - M) = 5,000 + 1,200 + 1,500 + (800 - 600) = ₹7,900 crore. (ii) Leakages = S + T + M",
      "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand"
     ],
     "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A fall in textile exports reduces injections (X↓) into the circular flow.",
-    "id": "gen_c12_eco_ch07_q13",
+    "id": "gen_c12_eco_ch07_q16",
     "nodeId": "c12_eco_cbse_07_001",
     "difficulty": "standard"
    },
@@ -2564,13 +2853,13 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "During the 2020 lockdown, Maruti Suzuki's sales dropped 50%. A microeconomist analyses this using demand-supply in the car market. A macroeconomist notes that aggregate consumption (C) fell, investment (I) collapsed, and net exports (NX) turned negative.",
     "answer": "The microeconomist sees lower car demand → lower car prices → equilibrium restored in car market. The macroeconomist sees: lower C → lower aggregate demand → lower GDP → lower",
     "options": [
-     "C) Factor services (land, labour, capital, entrepreneurship) supplied by households. Real flows are the physical movement of goods, services, and factor services",
      "B) The flow breaks because planned expenditure (₹450 crore) < planned output (₹500 crore). The two-sector model assumes ZERO savings — all income is spent",
+     "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand",
      "The microeconomist sees lower car demand → lower car prices → equilibrium restored in car market. The macroeconomist sees: lower C → lower aggregate demand → lower GDP → lower"
     ],
     "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
     "misconception": "A student who only describes the car market misses the *general equilibrium* nature of macroeconomics.",
-    "id": "gen_c12_eco_ch07_q14",
+    "id": "gen_c12_eco_ch07_q17",
     "nodeId": "c12_eco_cbse_07_001",
     "difficulty": "standard"
    },
@@ -2579,59 +2868,14 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Given India's 2019–21 data: Real GDP (₹ lakh crore): 2019–20: 145.7, 2020–21: 135.1; Unemployment rate (%): 2019–20: 4.8, 2020–21: 9.1; CPI inflation (%): 2019–20: 4.8, 2020–21: 6.",
     "answer": "(a) Growth = (135.1 − 145.7)/145.7 × 100 = −7.28%. (b) Real GDP is a flow (measured over a year); unemployment rate and inflation rate are stocks (measured at a point in time)",
     "options": [
-     "(a) Micro — individual producer's decision. (b) Macro — central bank policy affects aggregate interest rates and money supply",
-     "(i) GDP = C + I + G + (X - M) = 5,000 + 1,200 + 1,500 + (800 - 600) = ₹7,900 crore. (ii) Leakages = S + T + M",
+     "(1) The crude oil import — current account and a debit, because trade in goods records real resources, (2) The NRI deposit in an NRE account",
+     "A good answer will show: Production phase – farms produce crops using land, labour, capital; real flow: crops to market",
      "(a) Growth = (135.1 − 145.7)/145.7 × 100 = −7.28%. (b) Real GDP is a flow (measured over a year); unemployment rate and inflation rate are stocks (measured at a point in time)"
     ],
     "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Growth = (135.1 − 145.7)/145.7 × 100 = −7.28%. (b) Real GDP is a flow (measured over a year); unemployment rate and",
-    "id": "gen_c12_eco_ch07_q15",
-    "nodeId": "c12_eco_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "The Great Depression (1929–33) saw US unemployment peak at 25% while wages and prices fell. Classical economists argued markets would self-correct via wage cuts. Explain why this reasoning failed at the aggregate level, referencing the fallacy of composition.",
-    "answer": "Individually, a firm cutting wages reduces costs and may hire more. But if *all* firms cut wages simultaneously, aggregate income falls",
-    "options": [
-     "Correct: Reserves ($640B) = stock (point in time). CAD ($23B) = flow (over FY24). Change in reserves ≠ CAD because reserves also change due to capital account flows (FDI, FII",
-     "The microeconomist sees lower car demand → lower car prices → equilibrium restored in car market. The macroeconomist sees: lower C → lower aggregate demand → lower GDP → lower",
-     "Individually, a firm cutting wages reduces costs and may hire more. But if *all* firms cut wages simultaneously, aggregate income falls"
-    ],
-    "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
-    "misconception": "A student who says \"lower wages always increase employment\" misses the aggregate demand feedback loop Keynes identified.",
-    "id": "gen_c12_eco_ch07_q16",
-    "nodeId": "c12_eco_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Classify each of the following as a microeconomic or macroeconomic issue: (a) A farmer in Punjab decides to switch from wheat to cotton. (b) The Reserve Bank of India raises the repo rate.",
-    "answer": "(a) Micro — individual producer's decision. (b) Macro — central bank policy affects aggregate interest rates and money supply",
-    "options": [
-     "C) Factor services (land, labour, capital, entrepreneurship) supplied by households. Real flows are the physical movement of goods, services, and factor services",
-     "B) The flow breaks because planned expenditure (₹450 crore) < planned output (₹500 crore). The two-sector model assumes ZERO savings — all income is spent",
-     "(a) Micro — individual producer's decision. (b) Macro — central bank policy affects aggregate interest rates and money supply"
-    ],
-    "hint": "Straight from the 'Microeconomics studies the' slide -- match the key terms.",
-    "misconception": "A wrong classification (e.g., calling (b) micro) shows the student cannot distinguish policy instruments targeting aggregates from decisions of single agents.",
-    "id": "gen_c12_eco_ch07_q17",
-    "nodeId": "c12_eco_cbse_07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare how a microeconomist and a macroeconomist would analyse the problem of rising food prices. What different questions would they ask, and what different tools would they use?",
-    "answer": "A microeconomist would study the supply and demand for specific food items (onions, wheat), shifts in their curves, and price elasticity",
-    "options": [
-     "An increase in G is an increase in an injection; it directly adds to aggregate demand, creating a situation where injections > leakages, so national income rises",
-     "(a) Constant price level is more critical for inflation targeting because the model cannot show how excess demand (injections > leakages) translates into price rises instead of",
-     "A microeconomist would study the supply and demand for specific food items (onions, wheat), shifts in their curves, and price elasticity"
-    ],
-    "hint": "Straight from the 'Microeconomics studies the' slide -- match the key terms.",
-    "misconception": "A student who gives the same answer for both has not grasped the difference in analytical framework.",
     "id": "gen_c12_eco_ch07_q18",
-    "nodeId": "c12_eco_cbse_07_002",
+    "nodeId": "c12_eco_cbse_07_001",
     "difficulty": "standard"
    }
   ],

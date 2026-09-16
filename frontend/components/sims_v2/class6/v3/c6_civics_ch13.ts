@@ -8,7 +8,7 @@ export const c6_civics_ch13: SimDef = {
     subtitle: 'A country\'s pocket-money plan, scaled up a billion times',
     classLevel: 6, subject: 'civics', topic: 'Government Budget',
     chapters: ['c6_civics_ch13'],
-    nodeIds: ['c6_civics_ch13_023', 'c6_civics_ch13_024', 'c6_civics_ch13_025', 'c6_civics_ch13_026', 'c6_civics_ch13_027'],
+    nodeIds: [],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a junior finance minister planning the year', intro: 'Taxes are in and requests are flooding — hospitals want machines, schools want roofs, farmers want roads. You hold the plan that decides it all.', goal: 'Read a budget as a plan for spending, not a rule against it.' },

@@ -8,7 +8,7 @@ export const c6_geography_ch05: SimDef = {
     subtitle: 'This node covers the identification and cardinal location of India\'s seven land.',
     classLevel: 6, subject: 'geography', topic: 'India and Her Neighbours',
     chapters: ['c6_geography_ch05'],
-    nodeIds: ['c6_geography_ch05_026', 'c6_geography_ch05_027', 'c6_geography_ch05_028', 'c6_geography_ch05_029', 'c6_geography_ch05_030', 'c6_geography_ch05_031'],
+    nodeIds: ['c6_geography_ch05_026', 'c6_geography_ch05_028', 'c6_geography_ch05_029', 'c6_geography_ch05_031'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'If you were to invite all your friends to a party, you would start by looking at who lives right next door.', goal: 'Master every idea in this chapter.' },

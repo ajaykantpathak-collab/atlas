@@ -8,7 +8,7 @@ export const c6_math_ch03_p3: SimDef = {
     subtitle: 'This node covers multi-step arithmetic operations with positive fractions.',
     classLevel: 6, subject: 'mathematics', topic: 'Fractions · Part 3/3',
     chapters: ['c6_math_ch03'],
-    nodeIds: ['c6_math_ch03_041'],
+    nodeIds: ['c6_math_ch03_029'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine your school is organizing a snack event where you have 1/2 a packet of biscuits, and you need to add.', goal: 'Master every idea in this chapter.' },

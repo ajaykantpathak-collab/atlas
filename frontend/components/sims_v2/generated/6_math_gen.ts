@@ -2827,6 +2827,21 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "If 3 kilograms of sugar cost 135 rupees, how much will 7 kilograms cost?",
+    "answer": "Step 1: Cost of 1 kg = 135 ÷ 3 = 45 rupees. Step 2: Cost of 7 kg = 7 × 45 = 315 rupees",
+    "options": [
+     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
+     "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the",
+     "Step 1: Cost of 1 kg = 135 ÷ 3 = 45 rupees. Step 2: Cost of 7 kg = 7 × 45 = 315 rupees"
+    ],
+    "hint": "Straight from the 'unitary method' slide -- match the key terms.",
+    "misconception": "If a student adds or subtracts, it shows they are failing to see the proportional relationship between quantity and price.",
+    "id": "gen_c6_math_ch06_q14",
+    "nodeId": "c6_math_ch06_064",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "If 5 notebooks cost 100 rupees, how can you determine if 10 notebooks will cost more or less than 100 rupees?",
     "answer": "Since 10 is more than 5, the cost will be more",
     "options": [
@@ -2837,7 +2852,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'unitary method' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student is not logically evaluating the relationship between quantity and total cost before calculating.",
-    "id": "gen_c6_math_ch06_q14",
+    "id": "gen_c6_math_ch06_q15",
     "nodeId": "c6_math_ch06_064",
     "difficulty": "advanced"
    },
@@ -2852,7 +2867,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'unitary method' slide -- match the key terms.",
     "misconception": "A wrong answer reveals that the student misunderstands the purpose of the unitary method, likely viewing it as a static formula rather than a two-step problem-solving strategy.",
-    "id": "gen_c6_math_ch06_q15",
+    "id": "gen_c6_math_ch06_q16",
     "nodeId": "c6_math_ch06_064",
     "difficulty": "advanced"
    },
@@ -2867,36 +2882,21 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'unitary method' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks division is just a random rule rather than a tool to isolate the value of a single item.",
-    "id": "gen_c6_math_ch06_q16",
+    "id": "gen_c6_math_ch06_q17",
     "nodeId": "c6_math_ch06_064",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Create a real-world scenario involving inverse proportion that is NOT about workers or time.",
-    "answer": "Example: \"A fixed amount of money (₹100) is used to buy pens. If the price per pen increases, the number of pens you can buy decreases",
+    "question": "A car travels at 40 km/h and reaches a destination in 6 hours. If the speed is increased to 80 km/h, how long will the journey take?",
+    "answer": "Step 1: Product = 40 × 6 = 240. Step 2: New speed = 80. Step 3: Time = 240 / 80 = 3 hours",
     "options": [
      "Because $a/b = c/d$ is equivalent to $a \\times d = b \\times c$ when you clear the denominators",
-     "No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas here",
-     "Example: \"A fixed amount of money (₹100) is used to buy pens. If the price per pen increases, the number of pens you can buy decreases"
+     "Since 10 is more than 5, the cost will be more",
+     "Step 1: Product = 40 × 6 = 240. Step 2: New speed = 80. Step 3: Time = 240 / 80 = 3 hours"
     ],
     "hint": "Straight from the 'Inverse proportion' slide -- match the key terms.",
-    "misconception": "A poor answer would be \"Buying more apples costs more money,\" which is direct, not inverse, proportion.",
-    "id": "gen_c6_math_ch06_q17",
-    "nodeId": "c6_math_ch06_066",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a machine produces 100 items in 2 hours, and a faster machine produces 200 items in the same 2 hours, is this an inverse proportion? Why?",
-    "answer": "No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas here",
-    "options": [
-     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
-     "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the",
-     "No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas here"
-    ],
-    "hint": "Straight from the 'Inverse proportion' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas",
+    "misconception": "A student who guesses \"12 hours\" is incorrectly applying direct proportion (thinking more speed means more time).",
     "id": "gen_c6_math_ch06_q18",
     "nodeId": "c6_math_ch06_066",
     "difficulty": "standard"
@@ -3881,17 +3881,17 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Create a real-world scenario where knowing the area of a circle is more important than knowing its circumference.",
-    "answer": "A good answer would involve buying paint for a circular tabletop or choosing the size of a circular rug to cover a floor",
+    "question": "What is the formula to calculate the area of a triangle if you know its base ($b$) and its perpendicular height ($h$)?",
+    "answer": "The formula is $A = \\frac{1}{2} \\times b \\times h$",
     "options": [
-     "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this",
-     "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original",
-     "A good answer would involve buying paint for a circular tabletop or choosing the size of a circular rug to cover a floor"
+     "The three components are the area of the top circle, the area of the bottom circle, and the area of the curved side",
+     "The unit is cubic centimetres (cm³)",
+     "The formula is $A = \\frac{1}{2} \\times b \\times h$"
     ],
-    "hint": "Straight from the 'area of a circle' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A good answer would involve buying paint for a circular tabletop or choosing the size of a circular rug to cover a",
+    "hint": "Straight from the 'area of a parallelogram' slide -- match the key terms.",
+    "misconception": "A wrong answer like $A = b \\times h$ indicates the student is confusing the triangle formula with the parallelogram/rectangle formula, forgetting that a triangle is half of a parallelogram.",
     "id": "gen_c6_math_ch08_q18",
-    "nodeId": "c6_math_ch08_089",
+    "nodeId": "c6_math_ch08_088",
     "difficulty": "advanced"
    }
   ],
@@ -4627,6 +4627,21 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Draw a rectangle on a piece of paper. How many lines of symmetry can you find by folding it?",
+    "answer": "A rectangle has two lines of symmetry: one horizontal and one vertical",
+    "options": [
+     "The number '3' has a horizontal line of symmetry (if drawn with a flat top and bottom)",
+     "The student should describe a cross-like or oval-like shape where you can fold it vertically and horizontally",
+     "A rectangle has two lines of symmetry: one horizontal and one vertical"
+    ],
+    "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
+    "misconception": "If a student says \"four,\" they are confusing a rectangle with a square; if they say \"one,\" they likely missed the second axis of reflection.",
+    "id": "gen_c6_math_ch10_q11",
+    "nodeId": "c6_math_ch10_105",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Look at the English letter 'A'. Does it have a line of symmetry? If so, where is it?",
     "answer": "Yes, it has one vertical line of symmetry passing through the top point down to the base. A student saying it has no symmetry fails to see that the left and right sides are mirror",
     "options": [
@@ -4636,7 +4651,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Yes, it has one vertical line of symmetry passing through the top point down to the base.",
-    "id": "gen_c6_math_ch10_q11",
+    "id": "gen_c6_math_ch10_q12",
     "nodeId": "c6_math_ch10_105",
     "difficulty": "standard"
    },
@@ -4651,7 +4666,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
     "misconception": "If a student answers \"middle line\" or \"bisector,\" they lack the specific geometric vocabulary, which is essential for identifying that the parts must be mirror images, not just equal in area.",
-    "id": "gen_c6_math_ch10_q12",
+    "id": "gen_c6_math_ch10_q13",
     "nodeId": "c6_math_ch10_105",
     "difficulty": "standard"
    },
@@ -4666,7 +4681,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student relies on visual orientation rather than the geometric properties of the shape.",
-    "id": "gen_c6_math_ch10_q13",
+    "id": "gen_c6_math_ch10_q14",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
    },
@@ -4681,7 +4696,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: An equilateral triangle has 3 lines of symmetry (one from each vertex), whereas an isosceles triangle has only 1 (from",
-    "id": "gen_c6_math_ch10_q14",
+    "id": "gen_c6_math_ch10_q15",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
    },
@@ -4696,7 +4711,22 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A rectangle (that is not a square) is a classic example. A third line (like a diagonal) would result in parts that do",
-    "id": "gen_c6_math_ch10_q15",
+    "id": "gen_c6_math_ch10_q16",
+    "nodeId": "c6_math_ch10_106",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "How many lines of symmetry does a scalene triangle have?",
+    "answer": "A scalene triangle has 0 lines of symmetry",
+    "options": [
+     "A circle has an infinite number of lines of symmetry (every diameter), whereas a triangle (depending on its type) has a fixed, small number (0, 1, or 3)",
+     "A rectangle has two lines of symmetry: one horizontal and one vertical",
+     "A scalene triangle has 0 lines of symmetry"
+    ],
+    "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
+    "misconception": "A wrong answer (like saying 1 or 3) reveals the student does not understand that \"scalene\" means all sides are of different lengths, preventing any perfect fold.",
+    "id": "gen_c6_math_ch10_q17",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
    },
@@ -4711,39 +4741,9 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, only lines passing through the midpoints of opposite sides are lines of symmetry; diagonals in a non-square",
-    "id": "gen_c6_math_ch10_q16",
+    "id": "gen_c6_math_ch10_q18",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the symmetry of the letter 'M' and the letter 'O'. Why is one more symmetrical than the other?",
-    "answer": "'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry. A student struggling here might only see \"balance\" rather than specific",
-    "options": [
-     "The hexagon has an order of 6, while the square has an order of 4; therefore, the hexagon is higher",
-     "A butterfly has a definite, repeating pattern (reflectional), whereas a cloud has no fixed, repeating structure",
-     "'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry. A student struggling here might only see \"balance\" rather than specific"
-    ],
-    "hint": "Straight from the 'letter or number has a' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: 'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry.",
-    "id": "gen_c6_math_ch10_q17",
-    "nodeId": "c6_math_ch10_107",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a list of three numbers that have absolutely no line of symmetry and explain why.",
-    "answer": "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal)",
-    "options": [
-     "The number '3' has a horizontal line of symmetry (if drawn with a flat top and bottom)",
-     "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal",
-     "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal)"
-    ],
-    "hint": "Straight from the 'letter or number has a' slide -- match the key terms.",
-    "misconception": "An incorrect answer (e.g., including '8') shows a failure to test for both horizontal and vertical axes.",
-    "id": "gen_c6_math_ch10_q18",
-    "nodeId": "c6_math_ch10_107",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -5365,6 +5365,21 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "If you have a square grid of 16 dots, and you want to form the next square, how many *additional* dots do you need to add to the existing 16?",
+    "answer": "You need 9 dots. The current square is $4 \\times 4$ (16 dots); the next square is $5 \\times 5$ (25 dots). Subtracting the two ($25 - 16 = 9$) shows the growth",
+    "options": [
+     "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$",
+     "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots",
+     "You need 9 dots. The current square is $4 \\times 4$ (16 dots); the next square is $5 \\times 5$ (25 dots). Subtracting the two ($25 - 16 = 9$) shows the growth"
+    ],
+    "hint": "Straight from the 'pattern' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates the student is not visualizing the transition from one square size to the next.",
+    "id": "gen_c6_math_ch12_q9",
+    "nodeId": "c6_math_ch12_123",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Is it always true that if you add two consecutive triangular numbers, you get a square number? Give an example to support your answer.",
     "answer": "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$",
     "options": [
@@ -5374,7 +5389,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'pattern' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student has not tested the hypothesis across different parts of the sequence.",
-    "id": "gen_c6_math_ch12_q9",
+    "id": "gen_c6_math_ch12_q10",
     "nodeId": "c6_math_ch12_123",
     "difficulty": "advanced"
    }

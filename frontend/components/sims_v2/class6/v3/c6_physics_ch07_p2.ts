@@ -8,7 +8,7 @@ export const c6_physics_ch07_p2: SimDef = {
     subtitle: 'This node covers the definition and examples of thermal insulators and their role.',
     classLevel: 6, subject: 'physics', topic: 'Heat: Conduction, Convection, Radiation · Part 2/2',
     chapters: ['c6_physics_ch07'],
-    nodeIds: ['c6_physics_ch07_025', 'c6_physics_ch07_026'],
+    nodeIds: ['c6_physics_ch07_025', 'c6_physics_ch07_019'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why the handle of a metal frying pan is often made of plastic or wood instead.', goal: 'Master every idea in this chapter.' },

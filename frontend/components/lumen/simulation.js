@@ -123,7 +123,7 @@ export function createSimulation(renderer, bounds, lessonId = 'solar') {
       velocityVar.material.uniforms.u_burst.value = burst
       velocityVar.material.uniforms.u_bounds.value.copy(bounds)
 
-      const voidR = currentId === 'hole' ? Math.min(bounds.x, bounds.y) * 0.42 * 0.27 : 0
+      const voidR = currentId === 'hole' ? Math.min(bounds.x, bounds.y) * 0.42 * 0.2 : 0
       positionVar.material.uniforms.u_voidRadius.value = voidR
       velocityVar.material.uniforms.u_voidRadius.value = voidR
       positionVar.material.uniforms.u_bounds.value.copy(bounds)

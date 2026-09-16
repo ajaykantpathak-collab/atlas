@@ -843,12 +843,12 @@ const VapourDensityVsTempPressureSVG: React.FC<{ tempK: number; pressAtm: number
           <text x="100" y="15" textAnchor="middle" fill="#94a3b8" fontSize="11" fontWeight="bold">Absolute Density (g/L at {tempK}K, {pressAtm}atm)</text>
           
           {/* H2 Bar */}
-          <rect x="30" y="30" width="40" height={Math.min(110, h2AbsoluteDensity * 30)} y={150 - Math.min(110, h2AbsoluteDensity * 30)} fill="#38bdf8" rx="4" />
+          <rect x="30" width="40" height={Math.min(110, h2AbsoluteDensity * 30)} y={150 - Math.min(110, h2AbsoluteDensity * 30)} fill="#38bdf8" rx="4" />
           <text x="50" y="165" textAnchor="middle" fill="#38bdf8" fontSize="10">H₂</text>
           <text x="50" y={140 - Math.min(110, h2AbsoluteDensity * 30)} textAnchor="middle" fill="#e2e8f0" fontSize="9">{h2AbsoluteDensity.toFixed(3)} g/L</text>
 
           {/* Target Gas Bar */}
-          <rect x="110" y="30" width="40" height={Math.min(110, absoluteDensity * 5)} y={150 - Math.min(110, absoluteDensity * 5)} fill={gas.color} rx="4" />
+          <rect x="110" width="40" height={Math.min(110, absoluteDensity * 5)} y={150 - Math.min(110, absoluteDensity * 5)} fill={gas.color} rx="4" />
           <text x="130" y="165" textAnchor="middle" fill={gas.color} fontSize="10">{gas.formula}</text>
           <text x="130" y={140 - Math.min(110, absoluteDensity * 5)} textAnchor="middle" fill="#e2e8f0" fontSize="9">{absoluteDensity.toFixed(2)} g/L</text>
 

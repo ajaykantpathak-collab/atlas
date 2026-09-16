@@ -8,7 +8,7 @@ export const c6_english_ch05_p2: SimDef = {
     subtitle: 'This node covers vocabulary related to patriotism, tradition, and personal resilience.',
     classLevel: 6, subject: 'english', topic: 'Bravehearts · Part 2/2',
     chapters: ['c6_english_ch05'],
-    nodeIds: ['c6_english_u5_047', 'c6_english_u5_048', 'c6_english_u5_049', 'c6_english_u5_050'],
+    nodeIds: ['c6_english_u5_047', 'c6_english_u5_041', 'c6_english_u5_049', 'c6_english_u5_042'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are watching a news report about a soldier who helped his village during a flood; if the reporter.', goal: 'Master every idea in this chapter.' },

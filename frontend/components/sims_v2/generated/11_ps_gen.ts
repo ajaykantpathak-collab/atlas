@@ -382,6 +382,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A housing society has ₹50 lakh surplus. Residents want: (A) a swimming pool, (B) solar panels, (C) a community hall. The Managing Committee can fund only two. Using the concept of politics as resource allocation, explain why this situation is political and propose a fair decision-making procedure the committee could",
+    "answer": "It is political because diverse preferences clash over scarce funds, requiring a collective choice that will bind all residents",
+    "options": [
+     "A strong answer links: Clarity — theory defines \"informed consent,\" \"privacy,\" \"public good\" precisely, preventing ethical sloppiness in human trials or AI data",
+     "This illustrates the principle that sovereign authority is constrained by deliberative institutions (sabha/samiti) and customary law (dharma), not the ruler's personal will",
+     "It is political because diverse preferences clash over scarce funds, requiring a collective choice that will bind all residents"
+    ],
+    "hint": "Straight from the 'Politics' slide -- match the key terms.",
+    "misconception": "A wrong answer that suggests \"majority vote without discussion\" or \"committee decides arbitrarily\" reveals the student equates politics with raw power rather than legitimate collective decision-making.",
+    "id": "gen_c11_ps_ch01_q10",
+    "nodeId": "c11_ps_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the politics in a family deciding a vacation destination with politics in a municipal corporation allocating the annual budget. Identify two similarities and two differences in terms of scale, authority, and inclusivity.",
     "answer": "Similarities: both involve conflicting preferences, scarce resources (money/time), and a binding collective decision",
     "options": [
@@ -391,7 +406,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Politics' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"family isn't politics because no government\" shows the student restricts politics to state institutions only.",
-    "id": "gen_c11_ps_ch01_q10",
+    "id": "gen_c11_ps_ch01_q11",
     "nodeId": "c11_ps_cbse_01_001",
     "difficulty": "standard"
    },
@@ -406,7 +421,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Politics' slide -- match the key terms.",
     "misconception": "A poor answer that depicts a dictatorship (\"coach orders\") without showing negotiation or a mechanism misses the collective, procedural nature of politics.",
-    "id": "gen_c11_ps_ch01_q11",
+    "id": "gen_c11_ps_ch01_q12",
     "nodeId": "c11_ps_cbse_01_001",
     "difficulty": "standard"
    },
@@ -421,7 +436,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Politics as the art of government' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the claim confuses conceptual breadth with normative vacuity and ignores the textbook's explicit defense of politics as a necessary, noble activity.",
-    "id": "gen_c11_ps_ch01_q12",
+    "id": "gen_c11_ps_ch01_q13",
     "nodeId": "c11_ps_cbse_01_002",
     "difficulty": "standard"
    },
@@ -436,7 +451,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Political theory' slide -- match the key terms.",
     "misconception": "A poor answer stays generic (\"helps critical thinking\") without connecting specific theory functions to concrete scientific dilemmas (ethics committees, funding priorities, technology governance).",
-    "id": "gen_c11_ps_ch01_q13",
+    "id": "gen_c11_ps_ch01_q14",
     "nodeId": "c11_ps_cbse_01_004",
     "difficulty": "standard"
    },
@@ -451,7 +466,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Normative political theory' slide -- match the key terms.",
     "misconception": "A wrong answer misses that the argument smuggles a normative interpretation of \"equality\" into a seemingly descriptive conclusion.",
-    "id": "gen_c11_ps_ch01_q14",
+    "id": "gen_c11_ps_ch01_q15",
     "nodeId": "c11_ps_cbse_01_005",
     "difficulty": "advanced"
    },
@@ -466,7 +481,22 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Normative political theory' slide -- match the key terms.",
     "misconception": "A wrong answer conflates the two — e.g., saying descriptive research \"determines the right policy.\"",
-    "id": "gen_c11_ps_ch01_q15",
+    "id": "gen_c11_ps_ch01_q16",
+    "nodeId": "c11_ps_cbse_01_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate this claim: \"Since descriptive political science can tell us which policies reduce poverty (e.g., MGNREGA increased rural wages by X%), we don't need normative theory — just implement what works.\" Consider: (i) the fact-value gap, (ii) trade-offs between values, (iii) democratic legitimacy.",
+    "answer": "The claim fails because: (i) \"What works\" presupposes a normative goal (poverty reduction) — but *which* goal?",
+    "options": [
+     "Formal equality applies identical rules to unequally positioned people: in the NCERT queue, everyone waits their turn",
+     "Premise 1 (Article 14): D (legal fact). Premise 2 (NFHS data): D (empirical fact). Conclusion \"failed to achieve constitutional equality\": N",
+     "The claim fails because: (i) \"What works\" presupposes a normative goal (poverty reduction) — but *which* goal?"
+    ],
+    "hint": "Straight from the 'Normative political theory' slide -- match the key terms.",
+    "misconception": "A wrong answer treats policy as purely technical optimization, ignoring that \"effectiveness\" is defined relative to contested values.",
+    "id": "gen_c11_ps_ch01_q17",
     "nodeId": "c11_ps_cbse_01_005",
     "difficulty": "advanced"
    },
@@ -481,7 +511,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Political theory's engagement' slide -- match the key terms.",
     "misconception": "A wrong answer choosing \"integration\" because \"India is secular\" confuses Indian secularism (principled distance, group rights) with French laïcité (strict separation, no group recognition).",
-    "id": "gen_c11_ps_ch01_q16",
+    "id": "gen_c11_ps_ch01_q18",
     "nodeId": "c11_ps_cbse_01_009",
     "difficulty": "advanced"
    }
@@ -1665,6 +1695,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Create a two-column table with three rows. In each row, describe a real Indian situation where an inequality *appears* natural but is actually socially produced. For each, name the social mechanism (e.g., caste endogamy, gendered schooling, colonial land revenue) that produces it.",
+    "answer": "Expected answer (criteria): Three distinct Indian cases where surface \"natural\" difference masks social production",
+    "options": [
+     "The original logic (Art 15(4)/16(4)) targets *social and educational backwardness* arising from historical caste discrimination (structural inequality)",
+     "Formal equality treats everyone identically regardless of their starting position. If inequalities are socially produced (e",
+     "Expected answer (criteria): Three distinct Indian cases where surface \"natural\" difference masks social production"
+    ],
+    "hint": "Straight from the 'Natural inequalities refer to' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Expected answer (criteria): Three distinct Indian cases where surface \"natural\" difference masks social production.",
+    "id": "gen_c11_ps_ch03_q17",
+    "nodeId": "c11_ps_cbse_03_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Define \"natural inequality\" and \"socially-produced inequality\" in your own words, giving one original example of each that does NOT appear in the textbook.",
     "answer": "Natural inequality = differences arising from inborn traits (e.g., one person born with perfect pitch, another tone-deaf)",
     "options": [
@@ -1674,21 +1719,6 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural inequalities refer to' slide -- match the key terms.",
     "misconception": "A wrong answer that cites \"wealth difference\" as natural reveals confusion between outcome and origin; one that calls \"caste discrimination\" natural reveals internalized caste ideology.",
-    "id": "gen_c11_ps_ch03_q17",
-    "nodeId": "c11_ps_cbse_03_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this statement: \"Since natural inequalities cannot be eliminated, a just society should only address socially-produced inequalities.\" Use the NCERT's discussion of disability and technology to support your evaluation.",
-    "answer": "The statement is flawed. Even if a natural trait (e.g., paralysis) cannot be \"eliminated,\" the *inequality it produces* (inaccess to buildings",
-    "options": [
-     "The paradox arises because equality is universally endorsed in constitutions, religions, and moral discourse, yet inequality is the lived reality",
-     "Marxists contend that under capitalism, private ownership of productive assets (land, factories",
-     "The statement is flawed. Even if a natural trait (e.g., paralysis) cannot be \"eliminated,\" the *inequality it produces* (inaccess to buildings"
-    ],
-    "hint": "Straight from the 'Natural inequalities refer to' slide -- match the key terms.",
-    "misconception": "A wrong answer agreeing with the statement confuses \"trait cannot be changed\" with \"disadvantage cannot be mitigated\" — a category error the text explicitly warns against.",
     "id": "gen_c11_ps_ch03_q18",
     "nodeId": "c11_ps_cbse_03_002",
     "difficulty": "advanced"
@@ -1721,6 +1751,7 @@ export const C11_PS_GEN: SimDef[] = [
    "c11_ps_cbse_04_003",
    "c11_ps_cbse_04_004",
    "c11_ps_cbse_04_005",
+   "c11_ps_cbse_04_006",
    "c11_ps_cbse_04_007",
    "c11_ps_cbse_04_008",
    "c11_ps_cbse_04_009",
@@ -1772,6 +1803,12 @@ export const C11_PS_GEN: SimDef[] = [
     "text": "The utilitarian approach to justice holds that a just society is one that maximises the overall welfare or happiness of its members, where welfare is understood as the sum total of individual utilities (pleasure, preference satisfaction, or well-being).",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Marxist Critique Of Liberal Justice",
+    "text": "The Marxist critique of liberal justice argues that liberal theories (like those of Rawls or Nozick) treat justice as a matter of fair procedures and formal rights within the existing capitalist framework, thereby ignoring the structural exploitation inherent",
+    "emoji": "🏃",
+    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Distributive Justice Concerns The Fair",
@@ -1931,7 +1968,7 @@ export const C11_PS_GEN: SimDef[] = [
     "answer": "(1) Each person has an equal right to the most extensive scheme of equal basic liberties compatible with a similar scheme for others",
     "options": [
      "The original position is a hypothetical choice situation where free and equal persons select principles of justice for the basic structure of society",
-     "The three principles are: (1) Justice in acquisition – how unowned resources become legitimately owned; (2) Justice in transfer – voluntary exchange, gift, or bequest of holdings",
+     "Rawls' Veil of Ignorance excludes knowledge of one's class, social position, talents and conception of the good, modelling justice as a fair contract among abstract individuals",
      "(1) Each person has an equal right to the most extensive scheme of equal basic liberties compatible with a similar scheme for others"
     ],
     "hint": "Straight from the 'Rawls' difference principle' slide -- match the key terms.",
@@ -2051,17 +2088,80 @@ export const C11_PS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of stages in the wage relation as Marx analyses it, from the market exchange to the extraction of surplus value.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The worker sells labour-power for a wage",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "In production the capitalist consumes",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The unpaid surplus value",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Buyer and seller of labour-power meet",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that stops at the fair market exchange shows the student has confused the realm of circulation with the realm of production.",
+    "id": "gen_c11_ps_ch04_q6",
+    "nodeId": "c11_ps_cbse_04_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a factory worker, Ramesh, and the factory owner, Mr.",
+     "Under liberal justice (Rawls/Nozick), both have equal rights to property, contract, and vote.",
+     "They sign a \"voluntary\" employment contract.",
+     "A liberal theorist says this is just because the procedure was fair."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Define distributive justice and retributive justice in one sentence each, using the terms \"allocation\" and \"punishment\" respectively.",
     "answer": "Distributive justice is the fair allocation of society's benefits and burdens among its members. Retributive justice is the fair and proportionate punishment of wrongdoing based",
     "options": [
-     "The three principles are: (1) Justice in acquisition – how unowned resources become legitimately owned; (2) Justice in transfer – voluntary exchange, gift, or bequest of holdings",
-     "(1) Each person has an equal right to the most extensive scheme of equal basic liberties compatible with a similar scheme for others",
+     "Rawls' Veil of Ignorance excludes knowledge of one's class, social position, talents and conception of the good, modelling justice as a fair contract among abstract individuals",
+     "The original position is a hypothetical choice situation where free and equal persons select principles of justice for the basic structure of society",
      "Distributive justice is the fair allocation of society's benefits and burdens among its members. Retributive justice is the fair and proportionate punishment of wrongdoing based"
     ],
     "hint": "Straight from the 'Distributive justice concerns the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., swapping the definitions or using \"revenge\" for retributive) reveals confusion between the *pattern* of distribution and the *response* to violation, indicating the student has not grasped the structural difference between ex-ante fairness and ex-post accountability.",
-    "id": "gen_c11_ps_ch04_q6",
+    "id": "gen_c11_ps_ch04_q7",
     "nodeId": "c11_ps_cbse_04_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -2124,7 +2224,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong draft would: (1) cite the specific harm (algorithmic exclusion of marginalised groups), (2) direct the State",
-    "id": "gen_c11_ps_ch04_q7",
+    "id": "gen_c11_ps_ch04_q8",
     "nodeId": "c11_ps_cbse_04_008",
     "difficulty": "standard",
     "workedExample": [
@@ -2176,7 +2276,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists input/output metrics (calories served, enrollment numbers), missing the *freedom-to-achieve* core of the approach.",
-    "id": "gen_c11_ps_ch04_q8",
+    "id": "gen_c11_ps_ch04_q9",
     "nodeId": "c11_ps_cbse_04_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -2191,13 +2291,13 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which constitutional article empowers the President to specify the castes deemed to be Scheduled Castes in a state?",
     "answer": "Article 341(1) authorises the President to notify the list of Scheduled Castes for each state after consulting the Governor",
     "options": [
-     "Distributive justice is the fair allocation of society's benefits and burdens among its members. Retributive justice is the fair and proportionate punishment of wrongdoing based",
+     "The analysis runs: (1) Buyer and seller of labour-power meet as formal equals in the market (2) The worker sells labour-power for a wage equal to its reproduction cost (3) In",
      "Distributive justice concerns the fair allocation of social goods (income, opportunities, rights) and burdens among members of society",
      "Article 341(1) authorises the President to notify the list of Scheduled Castes for each state after consulting the Governor"
     ],
     "hint": "Straight from the 'Social justice for marginalised' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., Article 330 or 15(4)) reveals confusion between legislative reservation (Article 330), enabling provision for special provisions (Article 15(4)), and the actual identification mechanism (Article 341).",
-    "id": "gen_c11_ps_ch04_q9",
+    "id": "gen_c11_ps_ch04_q10",
     "nodeId": "c11_ps_cbse_04_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -2206,6 +2306,63 @@ export const C11_PS_GEN: SimDef[] = [
      "Ask: which principle justifies treating unequal groups differently?",
      "Connect to Rawls' veil of ignorance (c11_ps_cbse_04_003): if you didn't know your caste, would you want a society that ignores centuries of exclusion?"
     ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of stages in the wage relation as Marx analyses it, from the market exchange to the extraction of surplus value.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The worker sells labour-power for a wage",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Buyer and seller of labour-power meet",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The unpaid surplus value",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "In production the capitalist consumes",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that stops at the fair market exchange shows the student has confused the realm of circulation with the realm of production.",
+    "id": "gen_c11_ps_ch04_q11",
+    "nodeId": "c11_ps_cbse_04_006",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -2260,7 +2417,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer focusing only on merit ignores that \"merit\" itself is socially constructed and unequally nurtured.",
-    "id": "gen_c11_ps_ch04_q10",
+    "id": "gen_c11_ps_ch04_q12",
     "nodeId": "c11_ps_cbse_04_001",
     "difficulty": "advanced"
    },
@@ -2306,7 +2463,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing \"risk aversion\" as a psychological trait misses Rawls' structural argument: maximin is rational *given the epistemic constraints and the nature of the choice*, not because people are inherently cautious.",
-    "id": "gen_c11_ps_ch04_q11",
+    "id": "gen_c11_ps_ch04_q13",
     "nodeId": "c11_ps_cbse_04_002",
     "difficulty": "advanced"
    },
@@ -2321,7 +2478,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social justice' slide -- match the key terms.",
     "misconception": "A wrong answer equating both as \"special treatment\" misses that Policy B levels the playing field before competition (proportionality), while Policy A adjusts outcomes to correct systemic exclusion (special needs).",
-    "id": "gen_c11_ps_ch04_q12",
+    "id": "gen_c11_ps_ch04_q14",
     "nodeId": "c11_ps_cbse_04_001",
     "difficulty": "advanced"
    },
@@ -2336,7 +2493,22 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social justice' slide -- match the key terms.",
     "misconception": "A wrong answer claiming both support \"helping the poor\" misses the fundamental disagreement: libertarians reject *forced* redistribution as unjust; Rawlsians see it as a requirement of justice, not charity.",
-    "id": "gen_c11_ps_ch04_q13",
+    "id": "gen_c11_ps_ch04_q15",
+    "nodeId": "c11_ps_cbse_04_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Define \"distributive justice\" in one sentence and name the three principles of justice discussed in the chapter that govern distribution.",
+    "answer": "Distributive justice concerns the fair allocation of social goods (income, opportunities, rights) and burdens among members of society",
+    "options": [
+     "Rawls' Veil of Ignorance excludes knowledge of one's class, social position, talents and conception of the good, modelling justice as a fair contract among abstract individuals",
+     "(1) Each person has an equal right to the most extensive scheme of equal basic liberties compatible with a similar scheme for others",
+     "Distributive justice concerns the fair allocation of social goods (income, opportunities, rights) and burdens among members of society"
+    ],
+    "hint": "Straight from the 'Social justice' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"distributive justice means everyone gets the same\") reveals confusion between formal equality and substantive justice, ignoring that equal treatment of unequals perpetuates inequality.",
+    "id": "gen_c11_ps_ch04_q16",
     "nodeId": "c11_ps_cbse_04_001",
     "difficulty": "advanced"
    },
@@ -2351,7 +2523,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social justice' slide -- match the key terms.",
     "misconception": "A poor answer focusing only on merit ignores that \"merit\" itself is socially constructed and unequally nurtured.",
-    "id": "gen_c11_ps_ch04_q14",
+    "id": "gen_c11_ps_ch04_q17",
     "nodeId": "c11_ps_cbse_04_001",
     "difficulty": "advanced"
    },
@@ -2366,53 +2538,8 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social justice' slide -- match the key terms.",
     "misconception": "A wrong answer calling it \"charity\" reveals confusion between moral benevolence and constitutional obligation — the state *must* provide basic needs as a matter of right (Article 21, 39), not generosity.",
-    "id": "gen_c11_ps_ch04_q15",
-    "nodeId": "c11_ps_cbse_04_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why treating everyone identically (formal equality) can produce unjust outcomes, using the example of a scholarship awarded solely on exam marks to students from vastly different educational backgrounds.",
-    "answer": "Identical treatment ignores unequal starting conditions: a student from a resource-rich school and one from a deprived school may score the same marks",
-    "options": [
-     "Under the veil of ignorance, parties lack probability estimates for their future social position. Maximising average utility risks catastrophic outcomes for the worst-off (e",
-     "Reservations are a distributive justice measure because they allocate opportunities (jobs, seats) to historically disadvantaged groups to achieve fair representation and equality",
-     "Identical treatment ignores unequal starting conditions: a student from a resource-rich school and one from a deprived school may score the same marks"
-    ],
-    "hint": "Straight from the 'Social justice' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"marks are objective\" reveals a misunderstanding that justice requires examining the conditions behind outcomes, not just the outcomes themselves.",
-    "id": "gen_c11_ps_ch04_q16",
-    "nodeId": "c11_ps_cbse_04_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare Rawls' original position with the utilitarian \"impartial spectator\" (Harsanyi). How does the *structure of the choice situation* differ, and why does it lead to different principles?",
-    "answer": "Harsanyi's impartial spectator assumes *equal probability* of being any person (Bayesian rationality) and maximizes *average utility*",
-    "options": [
-     "Difference 1: Rawls uses a hypothetical original position/veil of ignorance to derive principles for the basic structure",
-     "Rawls strips parties of all probability distributions over social positions (thick veil), whereas Harsanyi assumes equiprobability (thin veil)",
-     "Harsanyi's impartial spectator assumes *equal probability* of being any person (Bayesian rationality) and maximizes *average utility*"
-    ],
-    "hint": "Straight from the 'John Rawls' \"justice as fairness\"' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"Rawls cares about the poor, utilitarians care about total happiness\" misses the *procedural* distinction: it's about the rationality of choice under uncertainty vs. risk.",
-    "id": "gen_c11_ps_ch04_q17",
-    "nodeId": "c11_ps_cbse_04_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a new, original scenario (not from the textbook) where the veil of ignorance would yield a different judgment than majority voting. Explain the divergence using Rawls' distinction between *fairness* and *aggregation*.",
-    "answer": "Scenario: A city council votes on locating a hazardous waste plant. Majority (wealthy districts) votes to place it in a low-income neighborhood (minority)",
-    "options": [
-     "Policy A (reservation) aligns with special needs — it provides differential treatment to a historically excluded group to overcome structural barriers",
-     "A just policy could include: (1) Merit-based seats (50%) — serves *proportionality*, rewarding demonstrated effort/skill",
-     "Scenario: A city council votes on locating a hazardous waste plant. Majority (wealthy districts) votes to place it in a low-income neighborhood (minority)"
-    ],
-    "hint": "Straight from the 'John Rawls' \"justice as fairness\"' slide -- match the key terms.",
-    "misconception": "A poor answer gives a scenario where both methods agree (e.g., \"everyone wants clean water\"), failing to demonstrate the *structural* difference between aggregation and fairness.",
     "id": "gen_c11_ps_ch04_q18",
-    "nodeId": "c11_ps_cbse_04_002",
+    "nodeId": "c11_ps_cbse_04_001",
     "difficulty": "advanced"
    }
   ],
@@ -4212,6 +4339,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Draft a 150-word opinion piece for a student newspaper arguing whether the demand for a separate \"Gorkhaland\" state in West Bengal constitutes a legitimate exercise of national self-determination or an illegitimate secessionist threat, using the NCERT criteria for nationhood and the distinction between",
+    "answer": "A strong answer will: (1) identify Gorkha claims—distinct language (Nepali), history (British recruitment, separate administration), territory (Darjeeling hills)",
+    "options": [
+     "A strong answer proposes: (1) Guaranteed legislative representation via reserved seats or consociational quota (e",
+     "(1) 1929 Lahore Congress Purna Swaraj resolution declaring independence for \"India\" as a whole, not a Hindu nation",
+     "A strong answer will: (1) identify Gorkha claims—distinct language (Nepali), history (British recruitment, separate administration), territory (Darjeeling hills)"
+    ],
+    "hint": "Straight from the 'Nationalism' slide -- match the key terms.",
+    "misconception": "A poor answer treats it as purely \"anti-national\" or \"fully justified\" without engaging the NCERT's nuanced redefinition of self-determination.",
+    "id": "gen_c11_ps_ch07_q9",
+    "nodeId": "c11_ps_cbse_07_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the Basque nationalist movement (described in the NCERT box) and the Indian nationalist movement led by the Congress. Identify two key similarities and two key differences in their basis of nationhood claims.",
     "answer": "Similarities: Both claim a distinct historical identity (Basque autonomy since Roman times; Indian civilisational continuity) and a specific territory (Basque region",
     "options": [
@@ -4221,7 +4363,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Civic nationalism defines the' slide -- match the key terms.",
     "misconception": "A wrong answer that labels both as purely \"ethnic\" ignores the Congress's deliberate rejection of religious/linguistic homogeneity (e.g., 1929 Lahore session's pledge for complete independence without religious qualification).",
-    "id": "gen_c11_ps_ch07_q9",
+    "id": "gen_c11_ps_ch07_q10",
     "nodeId": "c11_ps_cbse_07_003",
     "difficulty": "advanced"
    },
@@ -4236,7 +4378,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Benedict Anderson's theory of' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"industrialization\" or \"French Revolution\" as sole causes ignores Anderson's specific media-historical argument: the *form* of the novel/newspaper (simultaneity, homogeneous time) structurally precedes and enables the political form.",
-    "id": "gen_c11_ps_ch07_q10",
+    "id": "gen_c11_ps_ch07_q11",
     "nodeId": "c11_ps_cbse_07_005",
     "difficulty": "standard"
    },
@@ -4251,7 +4393,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Benedict Anderson's theory of' slide -- match the key terms.",
     "misconception": "A poor answer shows only \"spreading information\" without visualizing the *structural shift*: standardization, commodification, simultaneity, and the map/boundedness.",
-    "id": "gen_c11_ps_ch07_q11",
+    "id": "gen_c11_ps_ch07_q12",
     "nodeId": "c11_ps_cbse_07_005",
     "difficulty": "standard"
    },
@@ -4266,7 +4408,22 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'National self-determination' slide -- match the key terms.",
     "misconception": "A student who sees consistency confuses *outcome* (Germany lost land) with *principle* (all nations choose their fate), missing the geopolitical calculus that drove border-drawing.",
-    "id": "gen_c11_ps_ch07_q12",
+    "id": "gen_c11_ps_ch07_q13",
+    "nodeId": "c11_ps_cbse_07_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Draft a constitutional provision for a fictional multi-ethnic state that implements *internal self-determination* for its three major national minorities without granting a right to secede. Include at least three specific institutional mechanisms.",
+    "answer": "A strong answer proposes: (1) Guaranteed legislative representation via reserved seats or consociational quota (e",
+    "options": [
+     "Self-determination was denied to German Austrians (forbidden Anschluss), Sudeten Germans (placed in Czechoslovakia for strategic borders), and South Tyroleans (given to Italy)",
+     "A strong answer will: (1) identify Gorkha claims—distinct language (Nepali), history (British recruitment, separate administration), territory (Darjeeling hills)",
+     "A strong answer proposes: (1) Guaranteed legislative representation via reserved seats or consociational quota (e"
+    ],
+    "hint": "Straight from the 'National self-determination' slide -- match the key terms.",
+    "misconception": "A weak answer offers only symbolic recognition or copies Indian provisions without adapting to the fictional context, showing inability to translate principle into institutional design.",
+    "id": "gen_c11_ps_ch07_q14",
     "nodeId": "c11_ps_cbse_07_006",
     "difficulty": "advanced"
    },
@@ -4281,7 +4438,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'National self-determination' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is overstated. The *mechanical* application of \"one culture–one state\" in ethnically mixed regions caused",
-    "id": "gen_c11_ps_ch07_q13",
+    "id": "gen_c11_ps_ch07_q15",
     "nodeId": "c11_ps_cbse_07_006",
     "difficulty": "advanced"
    },
@@ -4296,7 +4453,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'National self-determination' slide -- match the key terms.",
     "misconception": "A student who claims the treaties \"solved\" the minority problem misses the structural flaw: the model assumed homogeneous territories that did not exist, confusing the map with the territory.",
-    "id": "gen_c11_ps_ch07_q14",
+    "id": "gen_c11_ps_ch07_q16",
     "nodeId": "c11_ps_cbse_07_006",
     "difficulty": "advanced"
    },
@@ -4311,7 +4468,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Anti-colonial nationalism' slide -- match the key terms.",
     "misconception": "A wrong answer calling Tagore \"anti-national\" or \"pro-British\" reveals a binary misunderstanding: that critique of nationalism's excesses equals opposition to freedom. This is a senior-secondary error—confusing normative political theory with partisan loyalty.",
-    "id": "gen_c11_ps_ch07_q15",
+    "id": "gen_c11_ps_ch07_q17",
     "nodeId": "c11_ps_cbse_07_007",
     "difficulty": "advanced"
    }
@@ -5716,6 +5873,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Draft a one-paragraph \"Chairman's Note\" that Ambedkar might have written on 21 February 1948 (submission of Draft Constitution) summarizing the Committee's three biggest achievements and one unresolved tension.",
+    "answer": "A strong answer identifies: (1) Integrated Fundamental Rights with judicial remedies (Art 32); (2) Federal balance with strong Centre (Art 356)",
+    "options": [
+     "The Iraqi Constitution exhibits an imposed character: external deadline (August 2005), limited Sunni participation (boycott), and key provisions shaped by US negotiators (e",
+     "Functions at stake: \"Limiting government\" (state legislature's power constrained by fundamental rights) and \"Establishing rules\" (federal distribution of legislative competence)",
+     "A strong answer identifies: (1) Integrated Fundamental Rights with judicial remedies (Art 32); (2) Federal balance with strong Centre (Art 356)"
+    ],
+    "hint": "Straight from the 'Drafting Committee, constituted' slide -- match the key terms.",
+    "misconception": "A weak answer lists generic \"rights, federalism, secularism\" without citing specific articles or the amendment/judicial review tension, showing lack of textual grounding.",
+    "id": "gen_c11_ps_ch10_q7",
+    "nodeId": "c11_ps_cbse_10_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Who was the Chairman of the Drafting Committee of the Indian Constituent Assembly, and on what date was the committee constituted?",
     "answer": "Dr. B.R. Ambedkar was the Chairman; the committee was constituted on 29 August 1947",
     "options": [
@@ -5726,7 +5898,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Drafting Committee, constituted' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Nehru or Patel as Chairman, or giving the Assembly's first sitting date of 9 Dec 1946) reveals confusion between the Constituent Assembly's political leadership and the technical drafting leadership, or between the Assembly's inception and the committee's formation.",
-    "id": "gen_c11_ps_ch10_q7",
+    "id": "gen_c11_ps_ch10_q8",
     "nodeId": "c11_ps_cbse_10_007",
     "difficulty": "advanced"
    },
@@ -5741,9 +5913,24 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Drafting Committee, constituted' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to reduce workload\" without mentioning legal coherence) shows misunderstanding of the distinction between political deliberation (Assembly) and legal drafting (Committee) – a core procedural concept in constitution-making.",
-    "id": "gen_c11_ps_ch10_q8",
+    "id": "gen_c11_ps_ch10_q9",
     "nodeId": "c11_ps_cbse_10_007",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Draft a one-paragraph \"Procedural Charter\" for a hypothetical constituent assembly in a deeply divided post-conflict society, incorporating three specific procedural lessons from the Indian experience (e.g., committee specialization, consensus threshold, public debate records).",
+    "answer": "A strong answer includes: (1) specialized committees for each major cleavage (ethnic, religious, regional) with proportional representation",
+    "options": [
+     "A strong answer includes: (1) *Composition*: Directly elected assembly with reserved seats for minorities + civil society nominees (not just parties)",
+     "Functions at stake: \"Limiting government\" (state legislature's power constrained by fundamental rights) and \"Establishing rules\" (federal distribution of legislative competence)",
+     "A strong answer includes: (1) specialized committees for each major cleavage (ethnic, religious, regional) with proportional representation"
+    ],
+    "hint": "Straight from the 'procedures of constitution-making' slide -- match the key terms.",
+    "misconception": "A poor answer lists generic democratic ideals without concrete procedural mechanisms derived from the Indian case.",
+    "id": "gen_c11_ps_ch10_q10",
+    "nodeId": "c11_ps_cbse_10_009",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -5756,7 +5943,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'procedures of constitution-making' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the Chair would reject it\" or \"it would pass if 51% agreed\") ignores the procedural reality that the Assembly operated under a self-imposed discipline of accommodation, recorded in the CAD.",
-    "id": "gen_c11_ps_ch10_q9",
+    "id": "gen_c11_ps_ch10_q11",
     "nodeId": "c11_ps_cbse_10_009",
     "difficulty": "standard"
    },
@@ -5771,7 +5958,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'procedures of constitution-making' slide -- match the key terms.",
     "misconception": "A wrong answer conflates legitimacy of origin with quality of deliberative process.",
-    "id": "gen_c11_ps_ch10_q10",
+    "id": "gen_c11_ps_ch10_q12",
     "nodeId": "c11_ps_cbse_10_009",
     "difficulty": "standard"
    },
@@ -5786,9 +5973,24 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'procedures of constitution-making' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it wrote the Constitution alone\" or \"it only translated the Constitution\") reveals the misconception that constitution-making was a centralized drafting exercise rather than a multi-stage deliberative process involving multiple committees and the full Assembly.",
-    "id": "gen_c11_ps_ch10_q11",
+    "id": "gen_c11_ps_ch10_q13",
     "nodeId": "c11_ps_cbse_10_009",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a deliberative constitution-making process for a hypothetical diverse federation of 50 million people with 5 major ethnic groups and a history of authoritarian rule. Specify three procedural safeguards to ensure it is not perceived as imposed.",
+    "answer": "A strong answer includes: (1) *Composition*: Directly elected assembly with reserved seats for minorities + civil society nominees (not just parties)",
+    "options": [
+     "A strong answer includes: (1) specialized committees for each major cleavage (ethnic, religious, regional) with proportional representation",
+     "The Iraqi Constitution exhibits an imposed character: external deadline (August 2005), limited Sunni participation (boycott), and key provisions shaped by US negotiators (e",
+     "A strong answer includes: (1) *Composition*: Directly elected assembly with reserved seats for minorities + civil society nominees (not just parties)"
+    ],
+    "hint": "Straight from the 'Indian Constitution' slide -- match the key terms.",
+    "misconception": "A poor answer copies India's 1946 model without adapting for universal suffrage era — revealing inability to transfer principles across contexts.",
+    "id": "gen_c11_ps_ch10_q14",
+    "nodeId": "c11_ps_cbse_10_010",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -5801,7 +6003,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian Constitution' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"both had elections\" ignores the *conditions* of deliberation: freedom from external coercion and sufficient time for reasoned exchange.",
-    "id": "gen_c11_ps_ch10_q12",
+    "id": "gen_c11_ps_ch10_q15",
     "nodeId": "c11_ps_cbse_10_010",
     "difficulty": "advanced"
    },
@@ -5816,7 +6018,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian Constitution' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to save time only\" misses the epistemic function: committees allowed experts and minority voices to shape provisions (e.g., Sub-Committee on Minorities chaired by H.C. Mookherjee) that might be drowned in plenary majoritarianism.",
-    "id": "gen_c11_ps_ch10_q13",
+    "id": "gen_c11_ps_ch10_q16",
     "nodeId": "c11_ps_cbse_10_010",
     "difficulty": "advanced"
    }
@@ -6677,6 +6879,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A state government passes a law reserving 80% of medical college seats for \"domicile students,\" arguing this promotes regional equity. A non-domicile student challenges this under Article 14 (equality) and Article 19(1)(g) (freedom of profession).",
+    "answer": "Step 1: Identify the right infringed - Article 19(1)(g) (occupation) and Article 14 (equality). Step 2: Check if the restriction falls under Article 19(6) \"reasonable restrictions",
+    "options": [
+     "The test was necessary because Article 25(1) protects \"practice of religion\" but Article 25(2) allows state regulation of \"secular activities associated with religious",
+     "The law likely does NOT violate Article 26. Financial administration of a religious institution is a \"secular activity associated with religious practice\" under Article 25(2) and",
+     "Step 1: Identify the right infringed - Article 19(1)(g) (occupation) and Article 14 (equality). Step 2: Check if the restriction falls under Article 19(6) \"reasonable restrictions"
+    ],
+    "hint": "Straight from the 'Rights in a constitution' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals inability to apply the \"reasonable restriction\" framework and the hierarchy between justiciable rights and non-justiciable directives.",
+    "id": "gen_c11_ps_ch11_q16",
+    "nodeId": "c11_ps_cbse_11_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the Indian constitutional approach to rights (Part III + Part IV) with the South African Constitution's Bill of Rights (Chapter 2). How does each system handle the tension between civil-political rights and socio-economic rights?",
     "answer": "India separates them: Part III (justiciable fundamental rights - mostly civil-political) and Part IV (non-justiciable directive principles - socio-economic)",
     "options": [
@@ -6686,7 +6903,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Rights in a constitution' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"India has no socio-economic rights\") misses that India's directives have been partially judicialized through Article 21 expansion (Olga Tellis, Chameli Singh) - showing the student doesn't understand the dynamic interplay between Parts III and IV.",
-    "id": "gen_c11_ps_ch11_q16",
+    "id": "gen_c11_ps_ch11_q17",
     "nodeId": "c11_ps_cbse_11_001",
     "difficulty": "advanced"
    },
@@ -6701,21 +6918,6 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Rights in a constitution' slide -- match the key terms.",
     "misconception": "A weak answer treats judicial review as inherently undemocratic, missing that the Constitution itself (democratically adopted) authorizes it as a check on temporary majorities.",
-    "id": "gen_c11_ps_ch11_q17",
-    "nodeId": "c11_ps_cbse_11_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Draft a constitutional provision for a new democracy that guarantees \"digital privacy\" as a fundamental right. Your provision must specify: (a) the right's scope, (b) permissible restrictions with constitutional standards, (c) enforcement mechanism, and (d) relationship to existing rights.",
-    "answer": "Good answer includes: (a) Scope: \"Right to informational self-determination including control over personal data, surveillance protection",
-    "options": [
-     "Article 17 abolishes untouchability and forbids its practice in any form. The Protection of Civil Rights Act",
-     "*Shreya Singhal* struck down Section 66A for vagueness and overbreadth, establishing that restrictions under 19(2) must be: (i) narrowly tailored to a listed ground (sovereignty",
-     "Good answer includes: (a) Scope: \"Right to informational self-determination including control over personal data, surveillance protection"
-    ],
-    "hint": "Straight from the 'Rights in a constitution' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Good answer includes: (a) Scope: \"Right to informational self-determination including control over personal data,",
     "id": "gen_c11_ps_ch11_q18",
     "nodeId": "c11_ps_cbse_11_001",
     "difficulty": "advanced"
@@ -7971,6 +8173,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Draft a one-paragraph constitutional provision (in your own words) that would establish an independent \"Executive Accountability Commission\" to monitor whether the permanent executive implements laws faithfully without political interference, while preserving the political executive's right to set policy priorities.",
+    "answer": "A good answer would include: (1) Composition ensuring independence (e.g., appointed by a collegium including CJI, Leader of Opposition, PM)",
+    "options": [
+     "The Ministry (political executive - Minister + senior bureaucrats) issues the directive; the District Collector (permanent executive - IAS officer) implements it at district level",
+     "The Secretary invokes financial accountability under GFR and constitutional responsibility under Article 311",
+     "A good answer would include: (1) Composition ensuring independence (e.g., appointed by a collegium including CJI, Leader of Opposition, PM)"
+    ],
+    "hint": "Straight from the 'executive' slide -- match the key terms.",
+    "misconception": "A poor answer (e.g., giving it power to overrule ministers or making it subordinate to a ministry) reveals misunderstanding of the separation between *policy direction* (political executive's domain) and *implementation integrity* (permanent executive's duty) - the core tension this node introduces.",
+    "id": "gen_c11_ps_ch13_q16",
+    "nodeId": "c11_ps_cbse_13_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the statement: \"In a parliamentary system, the executive is subordinate to the legislature because the Council of Ministers is collectively responsible to the Lok Sabha.\" Is this an accurate characterization of the executive-legislature relationship?",
     "answer": "Partially accurate but incomplete. The executive (Council of Ministers) is *accountable* to the legislature (Lok Sabha) through collective responsibility (Article 75(3))",
     "options": [
@@ -7980,7 +8197,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'executive' slide -- match the key terms.",
     "misconception": "A wrong answer (uncritical agreement) reveals the student confuses accountability with subordination and misses the executive's dominant role in policy initiation - a key insight for c11_ps_cbse_13_008.",
-    "id": "gen_c11_ps_ch13_q16",
+    "id": "gen_c11_ps_ch13_q17",
     "nodeId": "c11_ps_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7995,21 +8212,6 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'executive' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing Article 75 or saying the President acts independently) reveals the student confuses the formal constitutional head (President) with the real executive (Council of Ministers), a critical distinction in parliamentary democracy.",
-    "id": "gen_c11_ps_ch13_q17",
-    "nodeId": "c11_ps_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does the Constitution create a distinction between the \"political executive\" (ministers) and the \"permanent executive\" (civil servants), rather than having elected officials directly administer all government functions?",
-    "answer": "The distinction ensures continuity, expertise, and political neutrality in administration. Ministers change with elections and represent partisan priorities",
-    "options": [
-     "The Constitution mandates collective responsibility of the entire Council of Ministers (Article 75(3)) to ensure democratic accountability",
-     "Fixed terms prevent mid-term collapse but can create rigid gridlock when executive and legislature clash",
-     "The distinction ensures continuity, expertise, and political neutrality in administration. Ministers change with elections and represent partisan priorities"
-    ],
-    "hint": "Straight from the 'executive' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"to give ministers more power\" or \"bureaucrats are more honest\") reveals the student misses the constitutional design principle: democratic accountability (political executive) balanced with administrative stability and neutrality (permanent executive) - a concept previewed in Class 8",
     "id": "gen_c11_ps_ch13_q18",
     "nodeId": "c11_ps_cbse_13_001",
     "difficulty": "standard"
@@ -8895,6 +9097,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Draft a one-paragraph argument for a student council constitution explaining why the council (legislature) must have separate law-making power from the principal (executive), using the principles of representation, deliberation, and checks and balances.",
+    "answer": "A strong answer will argue: (1) Rules made by elected student representatives reflect collective will, not one person's preference",
+    "options": [
+     "This illustrates the federal representation rationale: Rajya Sabha's composition (Article 80) gives states representation roughly proportional to population but with a minimum",
+     "No, the Bill cannot become law. Article 111 gives the President three options: assent (Bill becomes Act), withhold assent (Bill dies)",
+     "A strong answer will argue: (1) Rules made by elected student representatives reflect collective will, not one person's preference"
+    ],
+    "hint": "Straight from the 'legislature' slide -- match the key terms.",
+    "misconception": "A poor answer focuses only on \"fairness\" without constitutional reasoning or confuses the council's role with advisory-only function.",
+    "id": "gen_c11_ps_ch14_q17",
+    "nodeId": "c11_ps_cbse_14_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the statement: \"Since the executive is drawn from the legislature and usually commands a majority, parliamentary oversight is a myth — the legislature cannot effectively control the executive.\" Use the concepts of Question Hour, No-Confidence Motion, and Committee System in your reasoning.",
     "answer": "While party discipline often limits overt opposition, oversight tools remain potent: Question Hour forces ministers to answer publicly",
     "options": [
@@ -8904,21 +9121,6 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'legislature' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"oversight is useless because of majority\") ignores institutional design that creates accountability moments even within party systems.",
-    "id": "gen_c11_ps_ch14_q17",
-    "nodeId": "c11_ps_cbse_14_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary constitutional basis for the existence of Parliament in India, and which article defines its composition?",
-    "answer": "Article 79 establishes Parliament consisting of the President and two Houses (Lok Sabha and Rajya Sabha)",
-    "options": [
-     "(a) Article 105 for Parliament; (b) Article 194 for State Legislatures. The immunity clause is Article 105(2) [and Article 194(2) for states]: \"No member of Parliament shall be",
-     "Article 169 empowers Parliament to create/abolish Legislative Councils. The state Legislative Assembly must pass a resolution by a special majority (majority of total membership +",
-     "Article 79 establishes Parliament consisting of the President and two Houses (Lok Sabha and Rajya Sabha)"
-    ],
-    "hint": "Straight from the 'legislature' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Article 326\" or \"the Prime Minister creates Parliament\") reveals confusion between the electoral basis (universal adult franchise) and the institutional constitutional foundation, or mixing up the executive's role with the legislature's constitutional origin.",
     "id": "gen_c11_ps_ch14_q18",
     "nodeId": "c11_ps_cbse_14_001",
     "difficulty": "standard"
@@ -9702,6 +9904,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Draft a one-paragraph constitutional provision for a new democracy that guarantees judicial independence, incorporating at least three distinct safeguards (tenure, financial, institutional) and explaining the purpose of each in one sentence.",
+    "answer": "A strong answer includes: (1) Tenure safeguard: \"Judges shall hold office during good behaviour until a fixed retirement age",
+    "options": [
+     "Article 131 grants the Supreme Court original jurisdiction in disputes between the Government of India and one or more States, or between two or more States",
+     "The Supreme Court CAN hear the challenge. Advisory opinions under Article 143 are not binding judicial decisions — they are consultative",
+     "A strong answer includes: (1) Tenure safeguard: \"Judges shall hold office during good behaviour until a fixed retirement age"
+    ],
+    "hint": "Straight from the 'independent judiciary' slide -- match the key terms.",
+    "misconception": "A poor answer lists safeguards without linking each to the specific threat it counters.",
+    "id": "gen_c11_ps_ch15_q17",
+    "nodeId": "c11_ps_cbse_15_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the claim: \"Judicial independence means judges can decide cases however they want without accountability.\" Is this true in the Indian constitutional scheme?",
     "answer": "False. Independence means freedom from external pressure, not absence of accountability. Indian judges are accountable through: (1) constitutional oath to uphold the Constitution",
     "options": [
@@ -9711,21 +9928,6 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'independent judiciary' slide -- match the key terms.",
     "misconception": "A wrong answer conflates independence with arbitrariness, missing that constitutional independence is bounded by law and institutional checks.",
-    "id": "gen_c11_ps_ch15_q17",
-    "nodeId": "c11_ps_cbse_15_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Which constitutional article explicitly directs the State to separate the judiciary from the executive in public services?",
-    "answer": "Article 50 (Directive Principle of State Policy) directs the State to take steps to separate the judiciary from the executive in public services",
-    "options": [
-     "Article 32 empowers the Supreme Court to issue writs for the enforcement of Fundamental Rights. Article 226 empowers High Courts to issue writs for the enforcement of Fundamental",
-     "Article 124(2) for Supreme Court and Article 217(1) for High Courts; the phrase \"after consultation with the Chief Justice of India\" (and other judges) was reinterpreted by the",
-     "Article 50 (Directive Principle of State Policy) directs the State to take steps to separate the judiciary from the executive in public services"
-    ],
-    "hint": "Straight from the 'independent judiciary' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., Article 124 or 217) reveals confusion between the directive principle and the operational provisions for Supreme Court/High Court appointments, indicating the student hasn't distinguished between constitutional aspiration and institutional design.",
     "id": "gen_c11_ps_ch15_q18",
     "nodeId": "c11_ps_cbse_15_001",
     "difficulty": "standard"
@@ -11378,6 +11580,21 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Draft a one-paragraph provision for a hypothetical \"Local Government Accountability Act\" that would operationalize the principle of responsiveness for urban local bodies. Include at least three concrete mechanisms.",
+    "answer": "A strong answer would include: (1) mandatory quarterly Ward Committee meetings with published minutes",
+    "options": [
+     "Yes, the corporation violated the principle of responsiveness embedded in the 74th Amendment. Article 243S mandates Ward Committees for citizen participation in municipal",
+     "No, it is not correct. Most state Panchayat Acts (under Article 243A) mandate a quorum of at least 1/10th or 1/5th of total members (120–240 voters for 1,200)",
+     "A strong answer would include: (1) mandatory quarterly Ward Committee meetings with published minutes"
+    ],
+    "hint": "Straight from the 'Local government' slide -- match the key terms.",
+    "misconception": "A poor answer would only mention elections or vague \"transparency\" without specific institutional mechanisms, showing inability to translate democratic principles into institutional design.",
+    "id": "gen_c11_ps_ch17_q16",
+    "nodeId": "c11_ps_cbse_17_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the argument: \"Local governments are unnecessary because State governments can administer local matters more efficiently due to economies of scale and professional expertise.\" Use democratic theory and Indian constitutional design to justify your position.",
     "answer": "The argument confuses administrative efficiency with democratic legitimacy. The Constitution (via 73rd/74th Amendments) prioritizes self-governance (Article 40",
     "options": [
@@ -11387,7 +11604,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Local government' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees with the statement reveals a technocratic view of governance, ignoring the constitutional commitment to deepening democracy through decentralization.",
-    "id": "gen_c11_ps_ch17_q16",
+    "id": "gen_c11_ps_ch17_q17",
     "nodeId": "c11_ps_cbse_17_001",
     "difficulty": "standard"
    },
@@ -11402,21 +11619,6 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Local government' slide -- match the key terms.",
     "misconception": "A wrong answer that equates grassroots democracy with merely having local elections misses the continuous engagement aspect and the principle of subsidiarity.",
-    "id": "gen_c11_ps_ch17_q17",
-    "nodeId": "c11_ps_cbse_17_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the constitutional basis for local governments in India after the 1992 amendments? (Recall the specific articles and amendment numbers.)",
-    "answer": "The 73rd Constitutional Amendment (1992) added Part IX (Articles 243 to 243O) for Panchayats, and the 74th Amendment added Part IXA (Articles 243P to 243ZG) for Municipalities",
-    "options": [
-     "Article 243B mandates a three-tier structure (village, intermediate, district) in every state, except states with a population not exceeding 20 lakh",
-     "Article 243(b) defines Gram Sabha as a body consisting of persons registered in the electoral rolls relating to a village comprised within the area of Panchayat at the village",
-     "The 73rd Constitutional Amendment (1992) added Part IX (Articles 243 to 243O) for Panchayats, and the 74th Amendment added Part IXA (Articles 243P to 243ZG) for Municipalities"
-    ],
-    "hint": "Straight from the 'Local government' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., citing Article 40 only) reveals confusion between the original Directive Principle (non-justiciable) and the later constitutional mandate (justiciable). It also shows the student may not know that local governments became a constitutional requirement, not just a directive.",
     "id": "gen_c11_ps_ch17_q18",
     "nodeId": "c11_ps_cbse_17_001",
     "difficulty": "standard"

@@ -596,6 +596,21 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate the statement: \"For producing a non-glycosylated human enzyme requiring only disulfide bonds, S. cerevisiae is always superior to E. coli because it is eukaryotic.\" Defend or refute with three specific arguments.",
+    "answer": "Correct evaluation: Refute. (1) E. coli cytoplasm is reducing (thioredoxin/glutaredoxin systems) — disulfide bonds don't form",
+    "options": [
+     "Critique — the statement is false. Three arguments: (1) Insect cells produce pauci-mannose N-glycans (Man3GlcNAc2) lacking β-1,4-galactosyltransferase and α-2,6-sialyltransferase",
+     "The statement is false. While HEK293 offers human‑like glycosylation and high transient titers",
+     "Correct evaluation: Refute. (1) E. coli cytoplasm is reducing (thioredoxin/glutaredoxin systems) — disulfide bonds don't form"
+    ],
+    "hint": "Straight from the 'Saccharomyces cerevisiae' slide -- match the key terms.",
+    "misconception": "A student who agrees reveals the \"eukaryote = better\" heuristic without considering engineering workarounds in E. coli.",
+    "id": "gen_c12_biotech_ch01_q14",
+    "nodeId": "c12_biotech_cbse_01_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Explain why a human glycoprotein produced in wild-type S. cerevisiae often triggers immune reactions when administered to patients, whereas the same protein from CHO cells does not.",
     "answer": "Wild-type yeast performs hypermannosylation — adding >50 mannose residues in α-1,3 and α-1,6 linkages — creating epitopes recognized by human mannose-binding lectin and antibodies",
     "options": [
@@ -605,7 +620,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Saccharomyces cerevisiae' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"yeast glycosylates differently\" without specifying α-1,3-mannose linkages or immunogenicity mechanism shows superficial understanding; the student must link structure to immune recognition.",
-    "id": "gen_c12_biotech_ch01_q14",
+    "id": "gen_c12_biotech_ch01_q15",
     "nodeId": "c12_biotech_cbse_01_003",
     "difficulty": "standard"
    },
@@ -620,7 +635,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Saccharomyces cerevisiae' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"ampicillin resistance\" or \"lacZ\") reveals the student is conflating bacterial antibiotic-selection with yeast auxotrophic complementation — a fundamental host-system confusion.",
-    "id": "gen_c12_biotech_ch01_q15",
+    "id": "gen_c12_biotech_ch01_q16",
     "nodeId": "c12_biotech_cbse_01_003",
     "difficulty": "standard"
    },
@@ -635,7 +650,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Baculovirus-Insect Cell' slide -- match the key terms.",
     "misconception": "A wrong answer choosing yeast or E. coli indicates failure to link host PTM machinery to protein functional requirements.",
-    "id": "gen_c12_biotech_ch01_q16",
+    "id": "gen_c12_biotech_ch01_q17",
     "nodeId": "c12_biotech_cbse_01_004",
     "difficulty": "standard"
    },
@@ -650,21 +665,6 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Baculovirus-Insect Cell' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps advantages/limitations or misses the screening burden shows lack of practical workflow understanding.",
-    "id": "gen_c12_biotech_ch01_q17",
-    "nodeId": "c12_biotech_cbse_01_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the polyhedrin gene is an ideal target for replacement by a foreign gene in baculovirus expression vectors.",
-    "answer": "The polyhedrin gene is non-essential for viral replication in cell culture (viruses replicate normally without it)",
-    "options": [
-     "CHO cells grow robustly in chemically defined, serum‑free suspension culture, reach higher cell densities (>20 × 10⁶ cells/mL)",
-     "The statement is false. While HEK293 offers human‑like glycosylation and high transient titers",
-     "The polyhedrin gene is non-essential for viral replication in cell culture (viruses replicate normally without it)"
-    ],
-    "hint": "Straight from the 'Baculovirus-Insect Cell' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"strong promoter\" without mentioning non-essentiality or screenability shows incomplete understanding of vector design constraints.",
     "id": "gen_c12_biotech_ch01_q18",
     "nodeId": "c12_biotech_cbse_01_004",
     "difficulty": "standard"
@@ -912,16 +912,17 @@ export const C12_BIOTECH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_biotech_ch03",
-  "title": "Introduction Of Recombinant DNA Into a Host Cell",
+  "title": "Genomic Library",
   "subtitle": "Biotechnology · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "biotechnology",
-  "topic": "Introduction Of Recombinant DNA Into a Host Cell",
+  "topic": "Genomic Library",
   "chapters": [
-   "Biotechnology Ch3: Introduction Of Recombinant DNA Into a Host Cell"
+   "Biotechnology Ch3: Genomic Library"
   ],
   "nodeIds": [
+   "c12_biotech_cbse_03_002",
    "c12_biotech_cbse_03_006",
    "c12_biotech_cbse_03_009",
    "c12_biotech_cbse_03_010",
@@ -934,16 +935,22 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Introduction Of Recombinant DNA actually explain?",
+   "question": "In one line -- what does Genomic Library actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
     "Only how to score marks"
    ],
    "answer": "Why things around us behave the way they do",
-   "hook": "The introduction of recombinant DNA (rDNA) into a host cell is the process by which a vector carrying foreign DNA is delivered into a suitable host"
+   "hook": "A genomic library is a collection of recombinant DNA clones, each containing a different fragment of an organism's entire genomic DNA, that together"
   },
   "teaching": [
+   {
+    "title": "Genomic Library",
+    "text": "A genomic library is a collection of recombinant DNA clones, each containing a different fragment of an organism's entire genomic DNA, that together represent the complete genome including both coding (exons) and non-coding (introns, regulatory sequences,",
+    "emoji": "🧬",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
    {
     "title": "Introduction Of Recombinant DNA Into a Host",
     "text": "The introduction of recombinant DNA (rDNA) into a host cell is the process by which a vector carrying foreign DNA is delivered into a suitable host organism (bacterial, yeast, plant, or animal cells) so that the recombinant DNA can replicate and express the",
@@ -971,17 +978,69 @@ export const C12_BIOTECH_GEN: SimDef[] = [
   ],
   "challenges": [
    {
+    "type": "order",
+    "question": "Design a strategy to construct a genomic library for a newly sequenced extremophile bacterium with a 4.2 Mb genome, where the goal is to express eukaryotic-like proteins in E. coli.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "De-biasing modification",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Vector choice",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Enzyme strategy",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer choosing a plasmid vector with complete EcoRI digestion ignores insert capacity limits, restriction site bias and the need for native regulatory elements for expression.",
+    "id": "gen_c12_biotech_ch03_q1",
+    "nodeId": "c12_biotech_cbse_03_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you have the entire instruction manual for building a human (the genome) but it's one massive 3-billion-letter book with no index.",
+     "You want to find the page for \"insulin production\" but you don't know where it is.",
+     "A genomic library is like photocopying that whole book, cutting it into manageable chapters, and storing each chapter in a separate bacterial cell —",
+     "We begin by asking: \"How do we chop the genome into pieces small enough for a plasmid to carry, yet ensure every single page ends up in at least one"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A student writes: \"Transformation is the process where a virus transfers DNA from one bacterium to another.\" Is this statement correct? If not, what is the correct term for virus-mediated DNA transfer?",
     "answer": "The statement is incorrect. Transformation is the direct uptake of naked DNA from the environment by a competent cell",
     "options": [
      "The statement is incorrect. While ³²P probes historically offer high sensitivity (detection limit ~0",
-     "Choose CHO cells (Chinese Hamster Ovary). Reason 1: E. coli lacks the endoplasmic reticulum and Golgi apparatus required for N-linked glycosylation",
+     "(1) Vector choice — a cosmid or fosmid carrying 35 to 45 kb inserts, so a 4.2 Mb genome needs only a few hundred clones for 99 percent coverage and stays stable in E",
      "The statement is incorrect. Transformation is the direct uptake of naked DNA from the environment by a competent cell"
     ],
     "hint": "Straight from the 'introduction of recombinant DNA' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between the three natural horizontal gene transfer mechanisms: transformation (naked DNA), transduction (phage vector), and conjugation (cell-to-cell contact via pilus).",
-    "id": "gen_c12_biotech_ch03_q1",
+    "id": "gen_c12_biotech_ch03_q2",
     "nodeId": "c12_biotech_cbse_03_006",
     "difficulty": "standard",
     "workedExample": [
@@ -1002,7 +1061,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'probe' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees reveals a misconception that \"radioactive = superior\" and ignorance of modern non-radioactive detection systems emphasized in competitive exams (NEET/JEE).",
-    "id": "gen_c12_biotech_ch03_q2",
+    "id": "gen_c12_biotech_ch03_q3",
     "nodeId": "c12_biotech_cbse_03_009",
     "difficulty": "standard",
     "workedExample": [
@@ -1018,12 +1077,12 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "answer": "Refute. Three reasons: 1. *E. coli* lacks post-translational modifications (glycosylation, disulfide bond formation) needed for many human therapeutic proteins",
     "options": [
      "(1) Immunogenicity: Human insulin differs from porcine insulin by one amino acid (Thr vs Ala at B30)",
-     "Choose CHO cells (Chinese Hamster Ovary). Reason 1: E. coli lacks the endoplasmic reticulum and Golgi apparatus required for N-linked glycosylation",
+     "The statement is incorrect. Transformation is the direct uptake of naked DNA from the environment by a competent cell",
      "Refute. Three reasons: 1. *E. coli* lacks post-translational modifications (glycosylation, disulfide bond formation) needed for many human therapeutic proteins"
     ],
     "hint": "Straight from the 'Amplification of cloned genes in' slide -- match the key terms.",
     "misconception": "A student who agrees shows they equate \"more DNA\" with \"better therapeutic product\" — ignoring protein folding, modifications, and regulatory requirements.",
-    "id": "gen_c12_biotech_ch03_q3",
+    "id": "gen_c12_biotech_ch03_q4",
     "nodeId": "c12_biotech_cbse_03_010",
     "difficulty": "standard",
     "workedExample": [
@@ -1086,7 +1145,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer revealing misconception: listing \"PCR\" as an application domain instead of a technique used across domains, or citing \"Golden Rice\" as currently commercialized in India (it is approved but not yet widely cultivated).",
-    "id": "gen_c12_biotech_ch03_q4",
+    "id": "gen_c12_biotech_ch03_q5",
     "nodeId": "c12_biotech_cbse_03_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -1138,22 +1197,37 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answer reveals: confusing \"porcine insulin is identical to human\" (it is not), or thinking scalability is limited by plasmid copy number (industrial strains use high-copy vectors and optimized fermentation).",
-    "id": "gen_c12_biotech_ch03_q5",
+    "id": "gen_c12_biotech_ch03_q6",
     "nodeId": "c12_biotech_cbse_03_011",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a strategy to construct a genomic library for a newly sequenced extremophile bacterium with a 4.2 Mb genome, where the goal is to express eukaryotic-like proteins in E. coli.",
+    "answer": "(1) Vector choice — a cosmid or fosmid carrying 35 to 45 kb inserts, so a 4.2 Mb genome needs only a few hundred clones for 99 percent coverage and stays stable in E",
+    "options": [
+     "The statement is incorrect. While ³²P probes historically offer high sensitivity (detection limit ~0",
+     "Choose CHO cells (Chinese Hamster Ovary). Reason 1: E. coli lacks the endoplasmic reticulum and Golgi apparatus required for N-linked glycosylation",
+     "(1) Vector choice — a cosmid or fosmid carrying 35 to 45 kb inserts, so a 4.2 Mb genome needs only a few hundred clones for 99 percent coverage and stays stable in E"
+    ],
+    "hint": "Straight from the 'genomic library' slide -- match the key terms.",
+    "misconception": "A poor answer choosing a plasmid vector with complete EcoRI digestion ignores insert capacity limits, restriction site bias and the need for native regulatory elements for expression.",
+    "id": "gen_c12_biotech_ch03_q7",
+    "nodeId": "c12_biotech_cbse_03_002",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
     "question": "A biotech startup wants to produce a human glycoprotein therapeutic (e.g., erythropoietin) that requires N-linked glycosylation for activity. They have the cDNA clone. Should they use E. coli or a mammalian cell line (CHO cells) as host? Justify your choice with TWO specific molecular reasons.",
     "answer": "Choose CHO cells (Chinese Hamster Ovary). Reason 1: E. coli lacks the endoplasmic reticulum and Golgi apparatus required for N-linked glycosylation",
     "options": [
-     "The statement is incorrect. Transformation is the direct uptake of naked DNA from the environment by a competent cell",
+     "(1) Vector choice — a cosmid or fosmid carrying 35 to 45 kb inserts, so a 4.2 Mb genome needs only a few hundred clones for 99 percent coverage and stays stable in E",
      "The statement is incorrect. While ³²P probes historically offer high sensitivity (detection limit ~0",
      "Choose CHO cells (Chinese Hamster Ovary). Reason 1: E. coli lacks the endoplasmic reticulum and Golgi apparatus required for N-linked glycosylation"
     ],
     "hint": "Straight from the 'Applications of gene cloning' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: choosing E. coli because \"it grows faster and gives higher yield\" ignoring that the product would be inactive aglycosylated protein; or suggesting yeast (Pichia) without noting its hyperglycosylation (α-1,3-mannose) causes immunogenicity in humans.",
-    "id": "gen_c12_biotech_ch03_q6",
+    "id": "gen_c12_biotech_ch03_q8",
     "nodeId": "c12_biotech_cbse_03_011",
     "difficulty": "advanced"
    },
@@ -1168,19 +1242,35 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Applications of gene cloning' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: confusing \"porcine insulin is identical to human\" (it is not), or thinking scalability is limited by plasmid copy number (industrial strains use high-copy vectors and optimized fermentation).",
-    "id": "gen_c12_biotech_ch03_q7",
+    "id": "gen_c12_biotech_ch03_q9",
+    "nodeId": "c12_biotech_cbse_03_011",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Name FOUR distinct application domains of gene cloning and give ONE specific product/example for each domain that is commercially used in India.",
+    "answer": "(1) Medical — recombinant human insulin (Humulin) produced in E. coli; (2) Agricultural — Bt cotton (Cry1Ac gene from Bacillus thuringiensis) for bollworm resistance",
+    "options": [
+     "Choose CHO cells (Chinese Hamster Ovary). Reason 1: E. coli lacks the endoplasmic reticulum and Golgi apparatus required for N-linked glycosylation",
+     "(1) Immunogenicity: Human insulin differs from porcine insulin by one amino acid (Thr vs Ala at B30)",
+     "(1) Medical — recombinant human insulin (Humulin) produced in E. coli; (2) Agricultural — Bt cotton (Cry1Ac gene from Bacillus thuringiensis) for bollworm resistance"
+    ],
+    "hint": "Straight from the 'Applications of gene cloning' slide -- match the key terms.",
+    "misconception": "A wrong answer revealing misconception: listing \"PCR\" as an application domain instead of a technique used across domains, or citing \"Golden Rice\" as currently commercialized in India (it is approved but not yet widely cultivated).",
+    "id": "gen_c12_biotech_ch03_q10",
     "nodeId": "c12_biotech_cbse_03_011",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about introduction of recombinant dna into a host cell?",
+    "What surprised you about genomic library?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Introduction Of Recombinant mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "successLine": "Genomic Library mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_biotech_ch04",
@@ -1590,6 +1680,21 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A process engineer observes declining specific productivity (qP) after 20 generations in a GS-CHO stable pool. Propose a mechanistic hypothesis and a two-step experimental plan to confirm it.",
+    "answer": "Hypothesis: Transgene silencing via heterochromatin spreading or DNA methylation at the integration locus",
+    "options": [
+     "Possible reasons: (1) Epitope denaturation in ELISA coating vs. native conformation on live cells — validate by staining live vs",
+     "Immunise mice with purified RBD protein (not whole spike) adjuvanted with alum. Fuse splenocytes with HGPRT-negative myeloma cells using PEG",
+     "Hypothesis: Transgene silencing via heterochromatin spreading or DNA methylation at the integration locus"
+    ],
+    "hint": "Straight from the 'Recombinant protein production in' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"mutations in the transgene\") confuses genetic instability with epigenetic silencing; the latter is reversible and locus-dependent, not sequence-altering.",
+    "id": "gen_c12_biotech_ch04_q10",
+    "nodeId": "c12_biotech_cbse_04_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the claim: \"Transient HEK293 expression is superior to stable CHO pools for Phase I clinical material because it delivers grams of protein in 2 weeks with human-like glycosylation.\" Justify your evaluation with three technical and two regulatory arguments.",
     "answer": "The claim is partially true technically but flawed regulatorily. Technical: (1) HEK293 transient gives 1–3 g/L in 10–14 days vs",
     "options": [
@@ -1599,7 +1704,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Recombinant protein production in' slide -- match the key terms.",
     "misconception": "A wrong answer ignores that Phase I still requires GMP comparability and viral clearance — transient is acceptable only for early toxicology, not First-in-Human.",
-    "id": "gen_c12_biotech_ch04_q10",
+    "id": "gen_c12_biotech_ch04_q11",
     "nodeId": "c12_biotech_cbse_04_003",
     "difficulty": "advanced"
    },
@@ -1614,9 +1719,24 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Recombinant protein production in' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"CHO glycosylation is identical to human\") shows the student misses the species-specific glycosyltransferase repertoire — a critical regulatory comparability issue.",
-    "id": "gen_c12_biotech_ch04_q11",
+    "id": "gen_c12_biotech_ch04_q12",
     "nodeId": "c12_biotech_cbse_04_003",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A research team develops a monoclonal antibody against a cancer cell surface antigen using hybridoma technology. The antibody works well in ELISA but fails in flow cytometry. Evaluate three possible technical reasons for this discrepancy and propose a validation step for each.",
+    "answer": "Possible reasons: (1) Epitope denaturation in ELISA coating vs. native conformation on live cells — validate by staining live vs",
+    "options": [
+     "The statement is partially correct but overconfident. The recombinant HGH amino acid sequence (191 aa) is identical to the mature pituitary hormone",
+     "(a) In vivo gene therapy (direct delivery to target tissue). (b) Somatic cells (lung epithelial cells)",
+     "Possible reasons: (1) Epitope denaturation in ELISA coating vs. native conformation on live cells — validate by staining live vs"
+    ],
+    "hint": "Straight from the 'Monoclonal antibody production' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"ELISA is more sensitive\" or \"flow cytometry is broken\") shows inability to connect antibody biophysics to assay format — a critical competency for translational research.",
+    "id": "gen_c12_biotech_ch04_q13",
+    "nodeId": "c12_biotech_cbse_04_007",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -1629,7 +1749,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Monoclonal antibody production' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"inject virus, test for binding\") ignores the need for domain-specific immunogen, counter-screening, and functional validation — revealing gap between textbook protocol and real-world antibody development.",
-    "id": "gen_c12_biotech_ch04_q12",
+    "id": "gen_c12_biotech_ch04_q14",
     "nodeId": "c12_biotech_cbse_04_007",
     "difficulty": "standard"
    },
@@ -1644,7 +1764,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gene therapy' slide -- match the key terms.",
     "misconception": "a poor answer reveals: Choosing retrovirus (integrates, needs dividing cells — hepatocytes are quiescent). Choosing ex vivo (unnecessary invasive procedure for liver). Using a ubiquitous promoter (risk of off-target expression).",
-    "id": "gen_c12_biotech_ch04_q13",
+    "id": "gen_c12_biotech_ch04_q15",
     "nodeId": "c12_biotech_cbse_04_008",
     "difficulty": "standard"
    },
@@ -1659,7 +1779,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ex vivo gene therapy involves' slide -- match the key terms.",
     "misconception": "Choosing ex vivo would be impractical because lung tissue cannot be extracted, cultured, and re-engrafted efficiently.",
-    "id": "gen_c12_biotech_ch04_q14",
+    "id": "gen_c12_biotech_ch04_q16",
     "nodeId": "c12_biotech_cbse_04_009",
     "difficulty": "advanced"
    },
@@ -1674,7 +1794,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ex vivo gene therapy involves' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both are equal\") ignores the pharmacokinetics of vector exposure.",
-    "id": "gen_c12_biotech_ch04_q15",
+    "id": "gen_c12_biotech_ch04_q17",
     "nodeId": "c12_biotech_cbse_04_009",
     "difficulty": "advanced"
    },
@@ -1689,38 +1809,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ex vivo gene therapy involves' slide -- match the key terms.",
     "misconception": "A poor answer would suggest ex vivo hepatocyte transplant without addressing engraftment failure.",
-    "id": "gen_c12_biotech_ch04_q16",
-    "nodeId": "c12_biotech_cbse_04_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A researcher wants to produce recombinant human α-galactosidase A (deficient in Fabry disease) for ERT. They have three expression systems available: (i) CHO cells, (ii) Pichia pastoris yeast, (iii) carrot cell suspension culture.",
-    "answer": "(i) CHO cells. Mammalian cells (CHO) possess the complete phosphotransferase machinery (GlcNAc-1-phosphotransferase) that adds GlcNAc-1-P to mannose residues on N-glycans in the",
-    "options": [
-     "*S. cerevisiae* performs high-mannose N-glycosylation (Man₈₋₁₄GlcNAc₂) instead of human complex sialylated glycans",
-     "Possible reasons: (1) Epitope denaturation in ELISA coating vs. native conformation on live cells — validate by staining live vs",
-     "(i) CHO cells. Mammalian cells (CHO) possess the complete phosphotransferase machinery (GlcNAc-1-phosphotransferase) that adds GlcNAc-1-P to mannose residues on N-glycans in the"
-    ],
-    "hint": "Straight from the 'Enzyme Replacement Therapy  for' slide -- match the key terms.",
-    "misconception": "A wrong choice (yeast or plant) reveals the student does not distinguish between mannose receptor targeting (macrophages, Gaucher) and M6P receptor targeting (fibroblasts, endothelial cells, cardiomyocytes — Fabry, Pompe).",
-    "id": "gen_c12_biotech_ch04_q17",
-    "nodeId": "c12_biotech_cbse_04_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the pharmacokinetics and clinical implications of imiglucerase (CHO-derived, deglycosylated to expose mannose) versus taliglucerase alfa (carrot-derived, native high-mannose) in Gaucher disease type 1. Which parameter would you expect to differ most significantly, and how does this impact dosing frequency?",
-    "answer": "Correct analysis: The most significant difference is terminal half-life and clearance rate. Imiglucerase (deglycosylated CHO product) has heterogeneous glycoforms due to",
-    "options": [
-     "Insulin lispro (B28 Lys, B29 Pro) reverses the C-terminal B-chain residues, disrupting hydrophobic hexamer interface (B24-B26) via steric hindrance and charge repulsion",
-     "In vivo poses higher risk. Direct intravenous or intra-tissue injection of adenoviral vectors exposes the entire immune system to high viral loads",
-     "Correct analysis: The most significant difference is terminal half-life and clearance rate. Imiglucerase (deglycosylated CHO product) has heterogeneous glycoforms due to"
-    ],
-    "hint": "Straight from the 'Enzyme Replacement Therapy  for' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"no difference,\" \"immunogenicity is the main difference\") shows the student overlooks that glycan homogeneity directly dictates receptor-mediated pharmacokinetics — a core principle in glycoprotein therapeutics. Both products have comparable immunogenicity profiles in treatment-naïve patients.",
     "id": "gen_c12_biotech_ch04_q18",
-    "nodeId": "c12_biotech_cbse_04_010",
+    "nodeId": "c12_biotech_cbse_04_009",
     "difficulty": "advanced"
    }
   ],
@@ -2014,6 +2104,21 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A researcher wants to identify biomarkers for drought stress in wheat. She collects leaf samples from control and drought-treated plants at noon and midnight. Describe the critical sample preparation steps she must standardize to ensure valid metabolomic comparison, and explain why quenching is essential.",
+    "answer": "Steps: (1) Rapid harvesting and immediate freezing in liquid nitrogen to arrest metabolism (quenching)",
+    "options": [
+     "If both DBD and AD were fused to the same test protein, the transcription factor would be constitutively reconstituted regardless of any interaction",
+     "Constructs: (1) Full-length TF-X fused to DBD (bait) + full-length TF-X fused to AD (prey) → test homodimerisation",
+     "Steps: (1) Rapid harvesting and immediate freezing in liquid nitrogen to arrest metabolism (quenching)"
+    ],
+    "hint": "Straight from the 'Metabolomics' slide -- match the key terms.",
+    "misconception": "A wrong answer omitting quenching or using only one extraction solvent reveals a failure to grasp metabolic lability and chemical diversity.",
+    "id": "gen_c12_biotech_ch05_q7",
+    "nodeId": "c12_biotech_cbse_05_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast targeted and untargeted metabolomics approaches. In which scenario would you choose each, and why?",
     "answer": "Untargeted metabolomics aims to detect all measurable metabolites without prior bias, generating hypothesis-generating data (e",
     "options": [
@@ -2023,7 +2128,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Metabolomics' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the scenarios (e.g., using untargeted for clinical validation) shows confusion about throughput, quantification rigor, and biological question alignment.",
-    "id": "gen_c12_biotech_ch05_q7",
+    "id": "gen_c12_biotech_ch05_q8",
     "nodeId": "c12_biotech_cbse_05_011",
     "difficulty": "standard"
    },
@@ -2038,7 +2143,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Metabolomics' slide -- match the key terms.",
     "misconception": "A poor answer lacking replication, QC, or multiple platforms shows inability to design a rigorous, publication-ready metabolomics study.",
-    "id": "gen_c12_biotech_ch05_q8",
+    "id": "gen_c12_biotech_ch05_q9",
     "nodeId": "c12_biotech_cbse_05_011",
     "difficulty": "standard"
    },
@@ -2053,7 +2158,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Metabolomics' slide -- match the key terms.",
     "misconception": "A wrong answer that simply agrees reveals a one-dimensional view ignoring NMR's unique strengths in quantification and structure determination.",
-    "id": "gen_c12_biotech_ch05_q9",
+    "id": "gen_c12_biotech_ch05_q10",
     "nodeId": "c12_biotech_cbse_05_011",
     "difficulty": "standard"
    }
@@ -2581,6 +2686,21 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A tissue culture lab regenerates 5000 banana plantlets from a single elite cultivar. After field planting, 120 plants show stunted growth and 85 show resistance to Fusarium wilt. Propose a step-by-step strategy to manage this somaclonal variation for commercial deployment.",
+    "answer": "Step 1: Identify off-types (stunted) and desirable variants (resistant) through phenotypic screening",
+    "options": [
+     "The claim is plausible for many species if beads contain antioxidants (ascorbate), osmoticum, and ABA, and are stored under low light",
+     "Excise at late globular/early heart stage (just before abortion at 10 DAP) — earlier stages lack developmental competence; later stages are already necrotic",
+     "Step 1: Identify off-types (stunted) and desirable variants (resistant) through phenotypic screening"
+    ],
+    "hint": "Straight from the 'Somaclonal variation' slide -- match the key terms.",
+    "misconception": "A wrong answer that suggests discarding all variants or using all variants indiscriminately reveals inability to apply the concept of selective screening for crop improvement.",
+    "id": "gen_c12_biotech_ch07_q7",
+    "nodeId": "c12_biotech_cbse_07_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a complete embryo rescue experiment to introgress drought tolerance from *Oryza rufipogon* (wild rice) into *O. sativa* cv. IR64. Specify: (a) crossing direction, (b) embryo excision timing, (c) medium recipe (key components only), (d) hardening strategy, and (e) one molecular marker to confirm hybridity.",
     "answer": "(a) *O. sativa* ♀ × *O. rufipogon* ♂ (cultivated as mother for better endosperm support); (b) 8–10 DAP (torpedo stage, before abortion at 12 DAP)",
     "options": [
@@ -2590,8 +2710,23 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Embryo rescue' slide -- match the key terms.",
     "misconception": "A poor answer uses generic MS medium, wrong stage, or skips molecular confirmation — revealing lack of integration across tissue culture, breeding, and molecular biology.",
-    "id": "gen_c12_biotech_ch07_q7",
+    "id": "gen_c12_biotech_ch07_q8",
     "nodeId": "c12_biotech_cbse_07_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a two-stage bioreactor strategy for *Artemisia annua* hairy-root cultures to maximize artemisinin yield. Specify: (i) Stage 1 conditions (medium, duration, goal), (ii) Stage 2 trigger (elicitor type, concentration, timing), (iii) one downstream processing step unique to hairy roots vs.",
+    "answer": "Expected answer (criteria for full marks): - Stage 1: Hormone-free B5 or MS medium, 2–3 weeks, biomass accumulation (no elicitor — jasmonates inhibit growth)",
+    "options": [
+     "Step 1: Identify off-types (stunted) and desirable variants (resistant) through phenotypic screening",
+     "(a) Preculture: MS medium + 0.3-0.5 M sucrose, 16-24 hrs at 25°C — induces osmotic adjustment and cold acclimation",
+     "Expected answer (criteria for full marks): - Stage 1: Hormone-free B5 or MS medium, 2–3 weeks, biomass accumulation (no elicitor — jasmonates inhibit growth)"
+    ],
+    "hint": "Straight from the 'Secondary metabolite production' slide -- match the key terms.",
+    "misconception": "a poor answer reveals: If they add elicitor from day 0, they don't understand growth-defence trade-off (Class 11 Plant Hormones: c11_bio_cbse_13_005 ABA/Ethylene). If they suggest centrifugation for hairy roots, they ignore the filamentous morphology that clogs centrifuges — requiring filtration or ISPR instead.",
+    "id": "gen_c12_biotech_ch07_q9",
+    "nodeId": "c12_biotech_cbse_07_009",
     "difficulty": "advanced"
    }
   ],
@@ -2602,7 +2737,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    ]
   },
   "successLine": "Synthetic Seeds mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_biotech_ch08",
@@ -2620,6 +2756,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    "c12_biotech_cbse_08_002",
    "c12_biotech_cbse_08_003",
    "c12_biotech_cbse_08_006",
+   "c12_biotech_cbse_08_009",
    "c12_biotech_cbse_08_010"
   ],
   "emoji": "🧬",
@@ -2664,6 +2801,12 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
+    "title": "Contamination In Animal Cell Culture",
+    "text": "Contamination in animal cell culture refers to the unwanted presence of microorganisms (bacteria, fungi, yeast, mycoplasma, viruses) or foreign cells that compromise culture integrity, alter cellular physiology, and invalidate experimental results.",
+    "emoji": "🧬",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
     "title": "Scale-up In Animal Cell Culture",
     "text": "Scale-up in animal cell culture refers to the systematic process of increasing cell culture volume from laboratory-scale (millilitres in flasks) to industrial-scale (thousands of litres in bioreactors) while maintaining cell viability, product quality, and",
     "emoji": "🧬",
@@ -2677,7 +2820,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "answer": "The 1950s saw (i) George Gey’s establishment of the first continuous human cell line (HeLa, 1951) providing an immortal, standardized cell source, and (ii) Enders et al",
     "options": [
      "Primary culture refers to the culture before the first subculture (passage 0) and sometimes includes early passages (typically ≤2) where the population still reflects the original",
-     "Correct criterion: (a) Impeller tip speed (v_tip = π × D × N). For shear-sensitive animal cells on microcarriers",
+     "(1) Why Pen-Strep fails — penicillin attacks bacterial cell walls and mycoplasma simply lack a cell wall, so they are intrinsically resistant, (2) Suppression not cure",
      "The 1950s saw (i) George Gey’s establishment of the first continuous human cell line (HeLa, 1951) providing an immortal, standardized cell source, and (ii) Enders et al"
     ],
     "hint": "Straight from the 'Animal cell culture' slide -- match the key terms.",
@@ -2697,8 +2840,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Explain why a primary culture of human dermal fibroblasts at passage 2 is still considered a primary culture, but the same cells at passage 10 are called an established cell line. What fundamental change occurs during those passages?",
     "answer": "Primary culture refers to the culture before the first subculture (passage 0) and sometimes includes early passages (typically ≤2) where the population still reflects the original",
     "options": [
+     "(1) Why Pen-Strep fails — penicillin attacks bacterial cell walls and mycoplasma simply lack a cell wall, so they are intrinsically resistant, (2) Suppression not cure",
      "The 1950s saw (i) George Gey’s establishment of the first continuous human cell line (HeLa, 1951) providing an immortal, standardized cell source, and (ii) Enders et al",
-     "(a) Primary osteoblasts (passage 1) — they retain normal differentiation capacity and express physiological markers (e",
      "Primary culture refers to the culture before the first subculture (passage 0) and sometimes includes early passages (typically ≤2) where the population still reflects the original"
     ],
     "hint": "Straight from the 'Primary cell culture' slide -- match the key terms.",
@@ -2719,7 +2862,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "answer": "CHO (continuous) is preferred: it scales easily in suspension, gives consistent high yields, and has a long regulatory track record for biologics",
     "options": [
      "Use microcarrier beads (e.g., Cytodex) in a stirred-tank bioreactor: beads provide high surface-area-to-volume for attachment (solving anchorage)",
-     "Correct criterion: (a) Impeller tip speed (v_tip = π × D × N). For shear-sensitive animal cells on microcarriers",
+     "(1) HEPA limits — incubator filters recirculate air but do not sterilise it, capturing particles of about 0",
      "CHO (continuous) is preferred: it scales easily in suspension, gives consistent high yields, and has a long regulatory track record for biologics"
     ],
     "hint": "Straight from the 'Finite cell lines' slide -- match the key terms.",
@@ -2739,8 +2882,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Create a hypothetical scenario where a researcher wants to produce a recombinant protein from an anchorage-dependent cell line at 10,000 L scale. Propose a strategy that addresses both anchorage dependence and contact inhibition limitations.",
     "answer": "Use microcarrier beads (e.g., Cytodex) in a stirred-tank bioreactor: beads provide high surface-area-to-volume for attachment (solving anchorage)",
     "options": [
-     "The claim is flawed. True primary neuronal cultures are post-mitotic and cannot be passaged; they are typically used within days of isolation",
      "CHO (continuous) is preferred: it scales easily in suspension, gives consistent high yields, and has a long regulatory track record for biologics",
+     "(1) HEPA limits — incubator filters recirculate air but do not sterilise it, capturing particles of about 0",
      "Use microcarrier beads (e.g., Cytodex) in a stirred-tank bioreactor: beads provide high surface-area-to-volume for attachment (solving anchorage)"
     ],
     "hint": "Straight from the 'Anchorage dependence' slide -- match the key terms.",
@@ -2756,17 +2899,69 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Explain why routine addition of penicillin‑streptomycin (Pen‑Strep) to culture medium does NOT guarantee protection against mycoplasma contamination, and describe one specific detection method that can reliably identify mycoplasma in a culture that appears clear and healthy under the microscope.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Suppression not cure",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Reliable detection",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Why Pen-Strep fails",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who claims Pen-Strep kills all bacteria including mycoplasma misunderstands the cell-wall target of penicillin, and one who suggests ordinary microscopy misses that mycoplasma sit below the resolution limit of light microscopy.",
+    "id": "gen_c12_biotech_ch08_q5",
+    "nodeId": "c12_biotech_cbse_08_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are culturing CHO cells for recombinant EPO production.",
+     "On Day 3, the medium turns yellow‑orange and tiny moving dots appear under the inverted microscope.",
+     "Step 1: Recognise that a pH drop (phenol red shift) plus motile particles signal bacterial contamination — bacteria divide every 20–30 min, outpacing",
+     "Step 2: Check the laminar‑flow hood log: was the HEPA filter certified?"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A process engineer is scaling up a Vero cell vaccine process from a 10 L stirred-tank bioreactor (impeller diameter 5 cm, speed 60 rpm) to a 2,000 L production bioreactor (impeller diameter 50 cm).",
     "answer": "Correct criterion: (a) Impeller tip speed (v_tip = π × D × N). For shear-sensitive animal cells on microcarriers",
     "options": [
+     "(1) HEPA limits — incubator filters recirculate air but do not sterilise it, capturing particles of about 0",
      "Use microcarrier beads (e.g., Cytodex) in a stirred-tank bioreactor: beads provide high surface-area-to-volume for attachment (solving anchorage)",
-     "(a) Primary osteoblasts (passage 1) — they retain normal differentiation capacity and express physiological markers (e",
      "Correct criterion: (a) Impeller tip speed (v_tip = π × D × N). For shear-sensitive animal cells on microcarriers"
     ],
     "hint": "Straight from the 'Scale-up in animal cell culture' slide -- match the key terms.",
     "misconception": "A wrong choice of (b) power/volume would give ~23 rpm (excessive shear); (c) Reynolds number is irrelevant in turbulent regime; (d) mixing time increases with scale and cannot be held constant.",
-    "id": "gen_c12_biotech_ch08_q5",
+    "id": "gen_c12_biotech_ch08_q6",
     "nodeId": "c12_biotech_cbse_08_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -2777,17 +2972,74 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A junior researcher argues: \"Since our CO₂ incubator has a HEPA filter and we spray 70% ethanol on everything, we don't need to waste money on routine mycoplasma testing — our cultures look healthy.\" Critique this statement using evidence from cell culture best practices and regulatory expectations.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Silent damage",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "HEPA limits",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Ethanol limits",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Regulatory duty",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who agrees with the researcher confuses a clean environment with a sterile culture and overlooks that mycoplasma are the most common culture contaminant precisely because they evade visual and antibiotic surveillance.",
+    "id": "gen_c12_biotech_ch08_q7",
+    "nodeId": "c12_biotech_cbse_08_009",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A lab reports that their \"primary neuronal culture\" from rat cortex has been passaged 5 times over 2 months and shows uniform morphology. Critique this claim using the concepts of primary culture, senescence, and neural cell biology.",
     "answer": "The claim is flawed. True primary neuronal cultures are post-mitotic and cannot be passaged; they are typically used within days of isolation",
     "options": [
      "Use microcarrier beads (e.g., Cytodex) in a stirred-tank bioreactor: beads provide high surface-area-to-volume for attachment (solving anchorage)",
-     "Correct criterion: (a) Impeller tip speed (v_tip = π × D × N). For shear-sensitive animal cells on microcarriers",
+     "(1) HEPA limits — incubator filters recirculate air but do not sterilise it, capturing particles of about 0",
      "The claim is flawed. True primary neuronal cultures are post-mitotic and cannot be passaged; they are typically used within days of isolation"
     ],
     "hint": "Straight from the 'Primary cell culture' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is flawed. True primary neuronal cultures are post-mitotic and cannot be passaged; they are typically used",
-    "id": "gen_c12_biotech_ch08_q6",
+    "id": "gen_c12_biotech_ch08_q8",
     "nodeId": "c12_biotech_cbse_08_002",
     "difficulty": "standard"
    },
@@ -2796,15 +3048,45 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "You need to study the effect of a cytokine on the differentiation of human osteoblasts. You have access to primary human osteoblasts (passage 1) and the established osteosarcoma line Saos-2.",
     "answer": "(a) Primary osteoblasts (passage 1) — they retain normal differentiation capacity and express physiological markers (e",
     "options": [
+     "(1) HEPA limits — incubator filters recirculate air but do not sterilise it, capturing particles of about 0",
      "Correct criterion: (a) Impeller tip speed (v_tip = π × D × N). For shear-sensitive animal cells on microcarriers",
-     "The claim is flawed. True primary neuronal cultures are post-mitotic and cannot be passaged; they are typically used within days of isolation",
      "(a) Primary osteoblasts (passage 1) — they retain normal differentiation capacity and express physiological markers (e"
     ],
     "hint": "Straight from the 'Primary cell culture' slide -- match the key terms.",
     "misconception": "Choosing Saos-2 for (a) or primary cells for (b) reveals failure to match culture type to experimental goal: primary for physiological relevance, established for throughput/reproducibility.",
-    "id": "gen_c12_biotech_ch08_q7",
+    "id": "gen_c12_biotech_ch08_q9",
     "nodeId": "c12_biotech_cbse_08_002",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A junior researcher argues: \"Since our CO₂ incubator has a HEPA filter and we spray 70% ethanol on everything, we don't need to waste money on routine mycoplasma testing — our cultures look healthy.\" Critique this statement using evidence from cell culture best practices and regulatory expectations.",
+    "answer": "(1) HEPA limits — incubator filters recirculate air but do not sterilise it, capturing particles of about 0",
+    "options": [
+     "Use microcarrier beads (e.g., Cytodex) in a stirred-tank bioreactor: beads provide high surface-area-to-volume for attachment (solving anchorage)",
+     "Correct criterion: (a) Impeller tip speed (v_tip = π × D × N). For shear-sensitive animal cells on microcarriers",
+     "(1) HEPA limits — incubator filters recirculate air but do not sterilise it, capturing particles of about 0"
+    ],
+    "hint": "Straight from the 'Contamination in animal cell' slide -- match the key terms.",
+    "misconception": "A student who agrees with the researcher confuses a clean environment with a sterile culture and overlooks that mycoplasma are the most common culture contaminant precisely because they evade visual and antibiotic surveillance.",
+    "id": "gen_c12_biotech_ch08_q10",
+    "nodeId": "c12_biotech_cbse_08_009",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Explain why routine addition of penicillin‑streptomycin (Pen‑Strep) to culture medium does NOT guarantee protection against mycoplasma contamination, and describe one specific detection method that can reliably identify mycoplasma in a culture that appears clear and healthy under the microscope.",
+    "answer": "(1) Why Pen-Strep fails — penicillin attacks bacterial cell walls and mycoplasma simply lack a cell wall, so they are intrinsically resistant, (2) Suppression not cure",
+    "options": [
+     "The 1950s saw (i) George Gey’s establishment of the first continuous human cell line (HeLa, 1951) providing an immortal, standardized cell source, and (ii) Enders et al",
+     "Primary culture refers to the culture before the first subculture (passage 0) and sometimes includes early passages (typically ≤2) where the population still reflects the original",
+     "(1) Why Pen-Strep fails — penicillin attacks bacterial cell walls and mycoplasma simply lack a cell wall, so they are intrinsically resistant, (2) Suppression not cure"
+    ],
+    "hint": "Straight from the 'Contamination in animal cell' slide -- match the key terms.",
+    "misconception": "A student who claims Pen-Strep kills all bacteria including mycoplasma misunderstands the cell-wall target of penicillin, and one who suggests ordinary microscopy misses that mycoplasma sit below the resolution limit of light microscopy.",
+    "id": "gen_c12_biotech_ch08_q11",
+    "nodeId": "c12_biotech_cbse_08_009",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -2814,7 +3096,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    ]
   },
   "successLine": "Animal Cell Culture mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_biotech_ch09",
@@ -4272,16 +4555,17 @@ export const C12_BIOTECH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_biotech_ch11",
-  "title": "Bt Cotton",
+  "title": "Agrobacterium-mediated Transformation",
   "subtitle": "Biotechnology · Chapter 11",
   "classLevel": 12,
   "mode": "senior",
   "subject": "biotechnology",
-  "topic": "Bt Cotton",
+  "topic": "Agrobacterium-mediated Transformation",
   "chapters": [
-   "Biotechnology Ch11: Bt Cotton"
+   "Biotechnology Ch11: Agrobacterium-mediated Transformation"
   ],
   "nodeIds": [
+   "c12_biotech_cbse_11_002",
    "c12_biotech_cbse_11_004",
    "c12_biotech_cbse_11_005",
    "c12_biotech_cbse_11_006",
@@ -4297,16 +4581,22 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Bt Cotton outside the classroom?",
+   "question": "Quick guess -- where do you meet Agrobacterium-mediated outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
     "Nowhere -- it is pure theory"
    ],
    "answer": "Hidden in everyday things around us",
-   "hook": "Bt cotton is a genetically modified cotton variety that expresses insecticidal crystal (Cry) proteins from the bacterium *Bacillus thuringiensis*"
+   "hook": "Agrobacterium-mediated transformation is a natural gene transfer mechanism where *Agrobacterium tumefaciens*, a soil bacterium, transfers a defined"
   },
   "teaching": [
+   {
+    "title": "Agrobacterium-mediated Transformation",
+    "text": "Agrobacterium-mediated transformation is a natural gene transfer mechanism where *Agrobacterium tumefaciens*, a soil bacterium, transfers a defined segment of its Ti (tumour-inducing) plasmid called T-DNA into the genome of wounded dicotyledonous plants,",
+    "emoji": "🧬",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
    {
     "title": "Bt Cotton",
     "text": "Bt cotton is a genetically modified cotton variety that expresses insecticidal crystal (Cry) proteins from the bacterium *Bacillus thuringiensis* (Bt), providing inherent resistance against specific lepidopteran pests (e.",
@@ -4351,6 +4641,79 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    }
   ],
   "challenges": [
+   {
+    "type": "order",
+    "question": "Compare and contrast the binary vector system and the co-integrate vector system for *Agrobacterium*-mediated transformation in terms of plasmid structure, recombination mechanism, and practical advantages for plant transformation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Co-integrate structure",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Binary plasmid structure",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Practical verdict",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "Binary mechanism",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s4",
+      "label": "Co-integrate mechanism",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer saying the binary vector uses recombination misses that Vir proteins are trans-acting while only the border repeats and homology regions are cis-required.",
+    "id": "gen_c12_biotech_ch11_q1",
+    "nodeId": "c12_biotech_cbse_11_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you find a tumour-like growth on a rose stem — that is crown gall disease, nature's own genetic engineering.",
+     "We hijack this by deleting the oncogenes (auxin/cytokinin synthesis) from T-DNA and inserting our gene of interest plus a selectable marker, using",
+     "The key insight: the only cis-acting elements required for transfer are the 25-bp left and right border repeats — everything else (vir genes, origin"
+    ]
+   },
    {
     "type": "order",
     "question": "Critique the statement: \"Planting a 20% non-Bt cotton refuge is sufficient to prevent resistance evolution in pink bollworm (*Pectinophora gossypiella*) to Bt cotton expressing *cry1Ac* and *cry2Ab*.\"",
@@ -4415,7 +4778,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is incomplete and potentially dangerous. While a 20% refuge is a standard starting point, its sufficiency",
-    "id": "gen_c12_biotech_ch11_q1",
+    "id": "gen_c12_biotech_ch11_q2",
     "nodeId": "c12_biotech_cbse_11_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -4478,7 +4841,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that suggests constitutive promoters (e.g., CaMV 35S) shows misunderstanding of tissue-specific metabolic engineering and potential yield penalties.",
-    "id": "gen_c12_biotech_ch11_q2",
+    "id": "gen_c12_biotech_ch11_q3",
     "nodeId": "c12_biotech_cbse_11_005",
     "difficulty": "standard",
     "workedExample": [
@@ -4499,7 +4862,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Herbicide-resistant crops' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both need transit peptides\" or \"neither needs one\") shows the student does not connect subcellular localisation of metabolic pathways to transgene design — a frequent board exam trap.",
-    "id": "gen_c12_biotech_ch11_q3",
+    "id": "gen_c12_biotech_ch11_q4",
     "nodeId": "c12_biotech_cbse_11_006",
     "difficulty": "standard",
     "workedExample": [
@@ -4562,7 +4925,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer omits promoter choice or suggests an irrelevant gene (e.g., replicase), showing lack of strategic thinking.",
-    "id": "gen_c12_biotech_ch11_q4",
+    "id": "gen_c12_biotech_ch11_q5",
     "nodeId": "c12_biotech_cbse_11_007",
     "difficulty": "standard",
     "workedExample": [
@@ -4583,7 +4946,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Abiotic stress-tolerant' slide -- match the key terms.",
     "misconception": "A wrong answer such as \"Bt gene for drought\" reveals confusion between biotic (insect) and abiotic stress mechanisms — the student is recalling a famous transgene without checking its function.",
-    "id": "gen_c12_biotech_ch11_q5",
+    "id": "gen_c12_biotech_ch11_q6",
     "nodeId": "c12_biotech_cbse_11_008",
     "difficulty": "standard",
     "workedExample": [
@@ -4599,12 +4962,12 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "answer": "No, Rhizobium will not increase soil nitrogen in wheat because Rhizobium forms nodules only on legume roots (e",
     "options": [
      "Introduce *psy* (from maize for high activity) and *crtI* (from *Erwinia*) both driven by wheat endosperm-specific promoters (e",
-     "The statement is incomplete and potentially dangerous. While a 20% refuge is a standard starting point",
+     "(1) Borders — 25 bp left and right border repeats bracket the T-DNA, the only cis-elements the transfer machinery needs, (2) Marker cassette",
      "No, Rhizobium will not increase soil nitrogen in wheat because Rhizobium forms nodules only on legume roots (e"
     ],
     "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
     "misconception": "A student who answers \"yes\" thinks Rhizobium works on all crops — a common misconception that ignores host specificity.",
-    "id": "gen_c12_biotech_ch11_q6",
+    "id": "gen_c12_biotech_ch11_q7",
     "nodeId": "c12_biotech_cbse_11_009",
     "difficulty": "standard",
     "workedExample": [
@@ -4619,13 +4982,13 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Critique the following farmer’s statement: “I will stop using chemical fungicides entirely and rely only on *Trichoderma* for all my fungal disease problems because it is natural and has no side effects.”",
     "answer": "The statement is over‑optimistic. *Trichoderma* efficacy depends on environmental conditions (moisture, temperature, pH), formulation quality, timing of application (preventive vs",
     "options": [
+     "Introduce *psy* (from maize for high activity) and *crtI* (from *Erwinia*) both driven by wheat endosperm-specific promoters (e",
      "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e",
-     "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited",
      "The statement is over‑optimistic. *Trichoderma* efficacy depends on environmental conditions (moisture, temperature, pH), formulation quality, timing of application (preventive vs"
     ],
     "hint": "Straight from the 'Biopesticides' slide -- match the key terms.",
     "misconception": "A poor answer simply agrees or dismisses biopesticides altogether, showing lack of systems thinking.",
-    "id": "gen_c12_biotech_ch11_q7",
+    "id": "gen_c12_biotech_ch11_q8",
     "nodeId": "c12_biotech_cbse_11_010",
     "difficulty": "standard",
     "workedExample": [
@@ -4636,17 +4999,145 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a binary vector for expressing a drought-tolerance transgene (DREB1A, 1.8 kb cDNA) in rice, including all essential cis-elements for *Agrobacterium* transfer, plant expression, and selection. Specify promoter, terminator, selectable marker, and border orientation. Justify each choice.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Borders",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Backbone",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s2",
+      "label": "Expression cassette",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Terminators",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "Marker cassette",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer using the 35S promoter or nptII selection for rice reveals ignorance of monocot-specific expression and selection requirements.",
+    "id": "gen_c12_biotech_ch11_q9",
+    "nodeId": "c12_biotech_cbse_11_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare and contrast the binary vector system and the co-integrate vector system for *Agrobacterium*-mediated transformation in terms of plasmid structure, recombination mechanism, and practical advantages for plant transformation.",
+    "answer": "(1) Binary plasmid structure — two separate plasmids, a small T-DNA vector carrying the borders and transgene plus a disarmed helper plasmid carrying the vir genes",
+    "options": [
+     "DREB/CBF regulates dozens of downstream genes (COR, RD, LEA proteins); constitutive expression causes dwarfism, delayed flowering",
+     "Rhizobium is highly sensitive to low pH; most strains die below pH 6.0 because acidic conditions denature nitrogenase and damage cell membranes",
+     "(1) Binary plasmid structure — two separate plasmids, a small T-DNA vector carrying the borders and transgene plus a disarmed helper plasmid carrying the vir genes"
+    ],
+    "hint": "Straight from the 'Agrobacterium-mediated' slide -- match the key terms.",
+    "misconception": "A wrong answer saying the binary vector uses recombination misses that Vir proteins are trans-acting while only the border repeats and homology regions are cis-required.",
+    "id": "gen_c12_biotech_ch11_q10",
+    "nodeId": "c12_biotech_cbse_11_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a binary vector for expressing a drought-tolerance transgene (DREB1A, 1.8 kb cDNA) in rice, including all essential cis-elements for *Agrobacterium* transfer, plant expression, and selection. Specify promoter, terminator, selectable marker, and border orientation. Justify each choice.",
+    "answer": "(1) Borders — 25 bp left and right border repeats bracket the T-DNA, the only cis-elements the transfer machinery needs, (2) Marker cassette",
+    "options": [
+     "Constitutive NHX1 expression diverts energy and H⁺ gradient (maintained by H⁺-ATPase) to vacuolar Na⁺ sequestration even in non-stressed tissues",
+     "The statement is incomplete and potentially dangerous. While a 20% refuge is a standard starting point",
+     "(1) Borders — 25 bp left and right border repeats bracket the T-DNA, the only cis-elements the transfer machinery needs, (2) Marker cassette"
+    ],
+    "hint": "Straight from the 'Agrobacterium-mediated' slide -- match the key terms.",
+    "misconception": "A poor answer using the 35S promoter or nptII selection for rice reveals ignorance of monocot-specific expression and selection requirements.",
+    "id": "gen_c12_biotech_ch11_q11",
+    "nodeId": "c12_biotech_cbse_11_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Critique the statement: \"Planting a 20% non-Bt cotton refuge is sufficient to prevent resistance evolution in pink bollworm (*Pectinophora gossypiella*) to Bt cotton expressing *cry1Ac* and *cry2Ab*.\"",
+    "answer": "The statement is incomplete and potentially dangerous. While a 20% refuge is a standard starting point",
+    "options": [
+     "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e",
+     "The statement is inaccurate. Golden Rice produces β-carotene (provitamin A), not vitamin A (retinol)",
+     "The statement is incomplete and potentially dangerous. While a 20% refuge is a standard starting point"
+    ],
+    "hint": "Straight from the 'Bt cotton' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The statement is incomplete and potentially dangerous. While a 20% refuge is a standard starting point, its sufficiency",
+    "id": "gen_c12_biotech_ch11_q12",
+    "nodeId": "c12_biotech_cbse_11_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A researcher wants to engineer β-carotene production in wheat endosperm using the Golden Rice strategy. The wheat endosperm naturally accumulates GGPP. Which two genes must be introduced, and what promoters should drive their expression? Justify your choices.",
+    "answer": "Introduce *psy* (from maize for high activity) and *crtI* (from *Erwinia*) both driven by wheat endosperm-specific promoters (e",
+    "options": [
+     "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited",
+     "Constitutive NHX1 expression diverts energy and H⁺ gradient (maintained by H⁺-ATPase) to vacuolar Na⁺ sequestration even in non-stressed tissues",
+     "Introduce *psy* (from maize for high activity) and *crtI* (from *Erwinia*) both driven by wheat endosperm-specific promoters (e"
+    ],
+    "hint": "Straight from the 'Golden Rice' slide -- match the key terms.",
+    "misconception": "A wrong answer that suggests constitutive promoters (e.g., CaMV 35S) shows misunderstanding of tissue-specific metabolic engineering and potential yield penalties.",
+    "id": "gen_c12_biotech_ch11_q13",
+    "nodeId": "c12_biotech_cbse_11_005",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Compare the β-carotene levels in GR1 and GR2. What specific change in the *psy* gene source caused the increase, and why does that change improve flux?",
     "answer": "GR1 (daffodil *psy*) produced ~1.6 µg/g β-carotene; GR2 (maize *psy*) produced up to 37 µg/g. The maize PSY enzyme has higher catalytic efficiency and/or better stability in the",
     "options": [
-     "DREB/CBF regulates dozens of downstream genes (COR, RD, LEA proteins); constitutive expression causes dwarfism, delayed flowering",
      "Rhizobium is highly sensitive to low pH; most strains die below pH 6.0 because acidic conditions denature nitrogenase and damage cell membranes",
+     "(1) Binary plasmid structure — two separate plasmids, a small T-DNA vector carrying the borders and transgene plus a disarmed helper plasmid carrying the vir genes",
      "GR1 (daffodil *psy*) produced ~1.6 µg/g β-carotene; GR2 (maize *psy*) produced up to 37 µg/g. The maize PSY enzyme has higher catalytic efficiency and/or better stability in the"
     ],
     "hint": "Straight from the 'Golden Rice' slide -- match the key terms.",
     "misconception": "A wrong answer that attributes the increase solely to “stronger promoter” or “better transformation” ignores the enzyme kinetics evidence from the original papers (Paine et al., 2005) showing maize PSY has higher specific activity.",
-    "id": "gen_c12_biotech_ch11_q8",
+    "id": "gen_c12_biotech_ch11_q14",
     "nodeId": "c12_biotech_cbse_11_005",
     "difficulty": "standard"
    },
@@ -4655,13 +5146,13 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Critique the statement: “Golden Rice solves vitamin A deficiency because it produces vitamin A in the grain.”",
     "answer": "The statement is inaccurate. Golden Rice produces β-carotene (provitamin A), not vitamin A (retinol)",
     "options": [
+     "(1) Borders — 25 bp left and right border repeats bracket the T-DNA, the only cis-elements the transfer machinery needs, (2) Marker cassette",
      "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e",
-     "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited",
      "The statement is inaccurate. Golden Rice produces β-carotene (provitamin A), not vitamin A (retinol)"
     ],
     "hint": "Straight from the 'Golden Rice' slide -- match the key terms.",
     "misconception": "A student who says “it produces vitamin A directly” confuses the provitamin with the active vitamin and overlooks the physiological conversion step — a common error in board answers that costs marks for precision.",
-    "id": "gen_c12_biotech_ch11_q9",
+    "id": "gen_c12_biotech_ch11_q15",
     "nodeId": "c12_biotech_cbse_11_005",
     "difficulty": "standard"
    },
@@ -4676,7 +5167,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Golden Rice' slide -- match the key terms.",
     "misconception": "A wrong answer that says “*crtI* is more efficient” without mentioning the multi-enzyme replacement misses the core rationale of reducing genetic load and avoiding complex co-regulation.",
-    "id": "gen_c12_biotech_ch11_q10",
+    "id": "gen_c12_biotech_ch11_q16",
     "nodeId": "c12_biotech_cbse_11_005",
     "difficulty": "standard"
    },
@@ -4685,129 +5176,39 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Design a hypothetical transgene cassette for a crop resistant to a new herbicide that inhibits acetolactate synthase (ALS). Specify promoter, targeting sequence, coding sequence, and terminator, and justify each choice based on ALS subcellular localisation and herbicide mode of action.",
     "answer": "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e",
     "options": [
-     "Constitutive NHX1 expression diverts energy and H⁺ gradient (maintained by H⁺-ATPase) to vacuolar Na⁺ sequestration even in non-stressed tissues",
+     "The statement is inaccurate. Golden Rice produces β-carotene (provitamin A), not vitamin A (retinol)",
      "Expected answer: (a) *ZmDREB2A* (heat/drought-responsive TF) + *ZmHSP101* (heat-shock chaperone); (b) stress-inducible promoter (e",
      "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e"
     ],
     "hint": "Straight from the 'Herbicide-resistant crops' slide -- match the key terms.",
     "misconception": "A poor answer omits the transit peptide or uses a cytosolic enzyme, showing failure to integrate pathway localisation with transgene engineering.",
-    "id": "gen_c12_biotech_ch11_q11",
+    "id": "gen_c12_biotech_ch11_q17",
     "nodeId": "c12_biotech_cbse_11_006",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A transgenic rice line expresses the *AtNHX1* gene (vacuolar Na⁺/H⁺ antiporter) under a constitutive promoter. In a field trial with 150 mM NaCl irrigation, the transgenic plants show improved vegetative growth but reduced grain yield compared to wild type under the same stress. Propose a physiological explanation.",
-    "answer": "Constitutive NHX1 expression diverts energy and H⁺ gradient (maintained by H⁺-ATPase) to vacuolar Na⁺ sequestration even in non-stressed tissues",
+    "question": "Design a transgenic strategy to confer resistance to a new virus, \"Zeta virus\", in soybean. Specify: (i) which viral gene you would use, (ii) the promoter choice, (iii) one potential limitation, and (iv) how you would test efficacy in the lab.",
+    "answer": "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited",
     "options": [
      "Introduce *psy* (from maize for high activity) and *crtI* (from *Erwinia*) both driven by wheat endosperm-specific promoters (e",
-     "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited",
-     "Constitutive NHX1 expression diverts energy and H⁺ gradient (maintained by H⁺-ATPase) to vacuolar Na⁺ sequestration even in non-stressed tissues"
+     "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e",
+     "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited"
     ],
-    "hint": "Straight from the 'Abiotic stress-tolerant' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"salt toxicity\" misses the trade-off between stress survival and yield allocation — a classic competitive-exam trap.",
-    "id": "gen_c12_biotech_ch11_q12",
-    "nodeId": "c12_biotech_cbse_11_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the DREB/CBF transcription factor strategy with the *mtlD* (mannitol-1-phosphate dehydrogenase) strategy for drought tolerance. Which is more likely to cause pleiotropic growth penalties under non-stress conditions and why?",
-    "answer": "DREB/CBF regulates dozens of downstream genes (COR, RD, LEA proteins); constitutive expression causes dwarfism, delayed flowering",
-    "options": [
-     "GR1 (daffodil *psy*) produced ~1.6 µg/g β-carotene; GR2 (maize *psy*) produced up to 37 µg/g. The maize PSY enzyme has higher catalytic efficiency and/or better stability in the",
-     "Rhizobium is highly sensitive to low pH; most strains die below pH 6.0 because acidic conditions denature nitrogenase and damage cell membranes",
-     "DREB/CBF regulates dozens of downstream genes (COR, RD, LEA proteins); constitutive expression causes dwarfism, delayed flowering"
-    ],
-    "hint": "Straight from the 'Abiotic stress-tolerant' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming \"both are equal\" ignores the master-regulator vs. single-enzyme distinction — a key concept for JEE/NEET application questions.",
-    "id": "gen_c12_biotech_ch11_q13",
-    "nodeId": "c12_biotech_cbse_11_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a transgenic strategy for combined drought and heat tolerance in maize that minimises yield penalty under optimal conditions. Specify: (a) gene(s), (b) promoter choice, (c) subcellular targeting, and (d) one molecular assay to verify function.",
-    "answer": "Expected answer: (a) *ZmDREB2A* (heat/drought-responsive TF) + *ZmHSP101* (heat-shock chaperone); (b) stress-inducible promoter (e",
-    "options": [
-     "Introduce *psy* (from maize for high activity) and *crtI* (from *Erwinia*) both driven by wheat endosperm-specific promoters (e",
-     "The statement is over‑optimistic. *Trichoderma* efficacy depends on environmental conditions (moisture, temperature, pH), formulation quality, timing of application (preventive vs",
-     "Expected answer: (a) *ZmDREB2A* (heat/drought-responsive TF) + *ZmHSP101* (heat-shock chaperone); (b) stress-inducible promoter (e"
-    ],
-    "hint": "Straight from the 'Abiotic stress-tolerant' slide -- match the key terms.",
-    "misconception": "A poor answer uses constitutive promoters (CaMV 35S) or single genes, ignoring the need for inducible, multi-target protection and validation.",
-    "id": "gen_c12_biotech_ch11_q14",
-    "nodeId": "c12_biotech_cbse_11_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Engineering glycine betaine synthesis via *betA* gene is superior to engineering proline synthesis via *P5CS* for salinity tolerance because glycine betaine does not accumulate to toxic levels.\"",
-    "answer": "The statement is partially true but oversimplified. Glycine betaine (GB) is indeed non-toxic at high concentrations and stabilises Rubisco and PSII",
-    "options": [
-     "*Erwinia crtI* encodes a single bifunctional enzyme that performs the four desaturation steps (phytoene → phytofluene → ζ-carotene → neurosporene → lycopene) that in plants",
-     "SOD converts superoxide (O₂⁻) to H₂O₂; without concurrent up-regulation of H₂O₂-scavenging enzymes (catalase, ascorbate peroxidase)",
-     "The statement is partially true but oversimplified. Glycine betaine (GB) is indeed non-toxic at high concentrations and stabilises Rubisco and PSII"
-    ],
-    "hint": "Straight from the 'Abiotic stress-tolerant' slide -- match the key terms.",
-    "misconception": "A wrong answer accepting the statement uncritically fails to evaluate metabolic constraints and context-dependency.",
-    "id": "gen_c12_biotech_ch11_q15",
-    "nodeId": "c12_biotech_cbse_11_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why over-expressing a single antioxidant enzyme like superoxide dismutase (SOD) alone may not improve oxidative stress tolerance and can sometimes increase damage.",
-    "answer": "SOD converts superoxide (O₂⁻) to H₂O₂; without concurrent up-regulation of H₂O₂-scavenging enzymes (catalase, ascorbate peroxidase)",
-    "options": [
-     "*Erwinia crtI* encodes a single bifunctional enzyme that performs the four desaturation steps (phytoene → phytofluene → ζ-carotene → neurosporene → lycopene) that in plants",
-     "EPSPS functions in the chloroplast where the shikimate pathway operates, so the bacterial CP4 EPSPS must be imported into chloroplasts via a transit peptide",
-     "SOD converts superoxide (O₂⁻) to H₂O₂; without concurrent up-regulation of H₂O₂-scavenging enzymes (catalase, ascorbate peroxidase)"
-    ],
-    "hint": "Straight from the 'Abiotic stress-tolerant' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"SOD removes all ROS\" shows the student misses the sequential nature of the antioxidant cascade and the danger of intermediate accumulation.",
-    "id": "gen_c12_biotech_ch11_q16",
-    "nodeId": "c12_biotech_cbse_11_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the survival challenges of Rhizobium vs. Azotobacter when applied to acidic soil (pH 5.0). Which is more tolerant and why?",
-    "answer": "Rhizobium is highly sensitive to low pH; most strains die below pH 6.0 because acidic conditions denature nitrogenase and damage cell membranes",
-    "options": [
-     "GR1 (daffodil *psy*) produced ~1.6 µg/g β-carotene; GR2 (maize *psy*) produced up to 37 µg/g. The maize PSY enzyme has higher catalytic efficiency and/or better stability in the",
-     "DREB/CBF regulates dozens of downstream genes (COR, RD, LEA proteins); constitutive expression causes dwarfism, delayed flowering",
-     "Rhizobium is highly sensitive to low pH; most strains die below pH 6.0 because acidic conditions denature nitrogenase and damage cell membranes"
-    ],
-    "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
-    "misconception": "A student who says \"both die equally\" misses the physiological adaptation difference.",
-    "id": "gen_c12_biotech_ch11_q17",
-    "nodeId": "c12_biotech_cbse_11_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a small experiment to test whether a local isolate of Azotobacter fixes nitrogen more efficiently than a commercial strain. List the control, measurable variable, and one precaution.",
-    "answer": "Control: Uninoculated sterile soil with same carbon source. Measurable variable: Acetylene reduction assay (ARA) rate (nmol C2H4/h/g soil) or total nitrogen increase by Kjeldahl",
-    "options": [
-     "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited",
-     "No, Rhizobium will not increase soil nitrogen in wheat because Rhizobium forms nodules only on legume roots (e",
-     "Control: Uninoculated sterile soil with same carbon source. Measurable variable: Acetylene reduction assay (ARA) rate (nmol C2H4/h/g soil) or total nitrogen increase by Kjeldahl"
-    ],
-    "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
-    "misconception": "A poor answer that uses \"plant height\" as the only measure confuses biofertilizer effect with plant genetics.",
+    "hint": "Straight from the 'Coat protein-mediated resistance' slide -- match the key terms.",
+    "misconception": "A poor answer omits promoter choice or suggests an irrelevant gene (e.g., replicase), showing lack of strategic thinking.",
     "id": "gen_c12_biotech_ch11_q18",
-    "nodeId": "c12_biotech_cbse_11_009",
+    "nodeId": "c12_biotech_cbse_11_007",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about bt cotton?",
+    "What surprised you about agrobacterium-mediated transformation?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Bt Cotton mastered! 🎯",
+  "successLine": "Agrobacterium-mediated mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6739,6 +7140,21 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A 2023 survey shows 68% of urban Indian respondents believe \"GM foods are unsafe,\" while 85% of plant scientists affirm their safety. Explain *why* this gap exists, using at least three distinct determinants of public perception from the chapter.",
+    "answer": "The gap arises from: (1) *Media amplification of outlier studies* (e.g., the retracted Séralini rat study) over consensus reports; (2) *Distrust of corporate control* (e",
+    "options": [
+     "Sample survey: (1) Competence: \"How confident are you that GEAC has the scientific expertise to evaluate GMO safety?",
+     "Use GM maize expressing a herbicide-tolerance marker (e.g., BAR gene for glufosinate resistance). At each distance, plant a 10 m × 10 m non-GM maize block",
+     "The gap arises from: (1) *Media amplification of outlier studies* (e.g., the retracted Séralini rat study) over consensus reports; (2) *Distrust of corporate control* (e"
+    ],
+    "hint": "Straight from the 'Public perception of' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The gap arises from: (1) *Media amplification of outlier studies* (e.",
+    "id": "gen_c12_biotech_ch13_q16",
+    "nodeId": "c12_biotech_cbse_13_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare how *religious beliefs* and *media framing* differently influence public perception of GMOs in India versus the USA. Give one concrete example for each country.",
     "answer": "In India, *religious beliefs* (e.g., vegetarianism, cow protection) make transgenic crops with animal genes (like Bt brinjal with a bacterial gene) sensitive",
     "options": [
@@ -6748,7 +7164,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Public perception of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: In India, *religious beliefs* (e.g., vegetarianism, cow protection) make transgenic crops with animal genes (like Bt",
-    "id": "gen_c12_biotech_ch13_q16",
+    "id": "gen_c12_biotech_ch13_q17",
     "nodeId": "c12_biotech_cbse_13_001",
     "difficulty": "standard"
    },
@@ -6763,21 +7179,6 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Public perception of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement assumes the *deficit model* of science communication — that opposition stems solely from lack of",
-    "id": "gen_c12_biotech_ch13_q17",
-    "nodeId": "c12_biotech_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Define \"public perception of biotechnology\" in one sentence, and list three non-scientific factors that can shape it.",
-    "answer": "Public perception of biotechnology is the aggregate of attitudes and beliefs held by society toward biotech products and processes, shaped by factors such as media framing",
-    "options": [
-     "LMO stands for Living Modified Organism, defined as any living organism that possesses a novel combination of genetic material obtained through modern biotechnology",
-     "Gene flow is the transfer of genetic material (here, the transgene and its regulatory sequences) from a GM crop to sexually compatible non-GM plants or wild relatives",
-     "Public perception of biotechnology is the aggregate of attitudes and beliefs held by society toward biotech products and processes, shaped by factors such as media framing"
-    ],
-    "hint": "Straight from the 'Public perception of' slide -- match the key terms.",
-    "misconception": "A wrong answer that lists only scientific factors (e.g., \"toxicity data, allergenicity studies\") reveals the student conflates *risk assessment* with *perception*, missing the sociological dimension that this node emphasizes.",
     "id": "gen_c12_biotech_ch13_q18",
     "nodeId": "c12_biotech_cbse_13_001",
     "difficulty": "standard"

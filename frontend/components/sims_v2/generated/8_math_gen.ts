@@ -430,17 +430,17 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student writes: \\( (-2)^3 = -2 \\times -2 \\times -2 = 4 \\times -2 = -8 \\). Another writes: \\( (-2)^3 = -6 \\) because \"cubing means multiply by 3\". Evaluate both methods and state which is correct and why the other is wrong.",
-    "answer": "The first method is correct: it follows the definition of exponentiation as repeated multiplication",
+    "question": "Write the square of 7 using the correct notation and calculate its value.",
+    "answer": "The square of 7 is written as \\( 7^2 \\) and its value is \\( 7 \\times 7 = 49 \\)",
     "options": [
-     "Yes, the student is correct. For 49 = 7², the two consecutive triangular numbers are T₇ and T₆. T₇ = 7×8/2 = 28, T₆ = 6×7/2 = 21",
-     "The solution is correct in result (21) but the factorisation shown is incomplete: \\( 441 = 3 \\times 147 = 3 \\times 3 \\times 49 = 3^2 \\times 7^2 \\) is correct",
-     "The first method is correct: it follows the definition of exponentiation as repeated multiplication"
+     "The student made an arithmetic error: 52 - 25 = 27 is correct, but the next odd number should be 27 (since the sequence is 1,3,5,7,9,11,13,15,17,19,21,23,25,27",
+     "Ravi is correct. The cube root is defined as the number which when cubed gives the original number; \\(20^3 = 8000\\) verifies this",
+     "The square of 7 is written as \\( 7^2 \\) and its value is \\( 7 \\times 7 = 49 \\)"
     ],
-    "hint": "Straight from the 'cube number' slide -- match the key terms.",
-    "misconception": "A student who defends the second method does not grasp the notation \\( n^3 \\).",
+    "hint": "Straight from the 'square number' slide -- match the key terms.",
+    "misconception": "A wrong answer like \\( 7 \\times 2 = 14 \\) or \\( 2^7 = 128 \\) reveals the student confuses the exponent 2 with multiplication by 2 or with the base and exponent swapped. They have not grasped that the superscript 2 means \"multiply the base by itself once.\"",
     "id": "gen_c8_math_ch01_q18",
-    "nodeId": "c8_math_ch1_10",
+    "nodeId": "c8_math_ch1_1",
     "difficulty": "standard"
    }
   ],
@@ -919,6 +919,21 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A piece of paper is folded in half repeatedly. After 4 folds there are 16 layers. How many layers will there be after 6 folds? Show your steps.",
+    "answer": "After 4 folds: 16 layers. 5th fold: 16 × 2 = 32 layers. 6th fold: 32 × 2 = 64 layers. Answer: 64 layers",
+    "options": [
+     "Incorrect. \\((-2)^4 = (-2) \\times (-2) \\times (-2) \\times (-2) = 4 \\times 4 = 16\\). The student likely computed \\(- (2^4) = -16\\)",
+     "x^23. Steps: (x^5)^3 = x^(5×3) = x^15. (x^2)^4 = x^(2×4) = x^8. Then x^15 × x^8 = x^(15+8) = x^23",
+     "After 4 folds: 16 layers. 5th fold: 16 × 2 = 32 layers. 6th fold: 32 × 2 = 64 layers. Answer: 64 layers"
+    ],
+    "hint": "Straight from the 'doubling pattern in paper folding' slide -- match the key terms.",
+    "misconception": "A wrong answer of 20 (adding 4) or 24 (adding 8) shows the student is not carrying forward the multiplicative pattern. A wrong answer of 256 (squaring 16) shows confusion between repeated multiplication and exponentiation.",
+    "id": "gen_c8_math_ch02_q14",
+    "nodeId": "c8_math_ch2_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A student claims: \"If I fold a paper 7 times, I get 128 layers. If I fold it 8 times, I get 256 layers. The difference between 7 and 8 folds is 128 layers, which is exactly the number of layers at 7 folds. This pattern of differences will continue forever.\" Evaluate this claim.",
     "answer": "The claim is correct and insightful. In a doubling pattern, the difference between consecutive terms equals the previous term (because 2^(n+1) - 2^n = 2^n)",
     "options": [
@@ -928,7 +943,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'doubling pattern in paper folding' slide -- match the key terms.",
     "misconception": "A student who says \"it won't continue forever because paper can't be folded that many times\" is confusing the physical limitation with the mathematical pattern. A student who says the difference stays constant (128) is still thinking linearly.",
-    "id": "gen_c8_math_ch02_q14",
+    "id": "gen_c8_math_ch02_q15",
     "nodeId": "c8_math_ch2_1",
     "difficulty": "standard"
    },
@@ -943,7 +958,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'doubling pattern in paper folding' slide -- match the key terms.",
     "misconception": "A poor answer gives an additive situation (e.g., \"saving ₹2 every day\") or a multiplicative situation with a different factor (e.g., tripling).",
-    "id": "gen_c8_math_ch02_q15",
+    "id": "gen_c8_math_ch02_q16",
     "nodeId": "c8_math_ch2_1",
     "difficulty": "standard"
    },
@@ -958,7 +973,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'doubling pattern in paper folding' slide -- match the key terms.",
     "misconception": "A student who agrees with Riya is applying additive reasoning (constant difference) instead of multiplicative reasoning (constant ratio).",
-    "id": "gen_c8_math_ch02_q16",
+    "id": "gen_c8_math_ch02_q17",
     "nodeId": "c8_math_ch2_1",
     "difficulty": "standard"
    },
@@ -973,21 +988,6 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'When two powers have the same' slide -- match the key terms.",
     "misconception": "A student who only says \"wrong exponent\" without naming the specific confusion between laws has not fully diagnosed the misconception.",
-    "id": "gen_c8_math_ch02_q17",
-    "nodeId": "c8_math_ch2_10",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-world problem (using Indian context: rupees, metres, kg) that requires using a^m × b^m = (ab)^m to solve. Write the problem and its solution.",
-    "answer": "Example problem: \"A rectangular garden has length 10^2 m and breadth 5^2 m. Find the area in exponential form",
-    "options": [
-     "Colony A (linear): Rate is constant 1000 bacteria/hour at both Hour 3 and Hour 5. Colony B (exponential): Hour 3 population = 10 × 3³ = 270",
-     "The claim is true for positive multipliers > 1 and positive increments, given enough steps. However",
-     "Example problem: \"A rectangular garden has length 10^2 m and breadth 5^2 m. Find the area in exponential form"
-    ],
-    "hint": "Straight from the 'When two powers have the same' slide -- match the key terms.",
-    "misconception": "A poor answer uses different exponents (e.g., 10^2 × 5^3) or adds exponents, showing the student cannot construct a scenario where the law applies naturally.",
     "id": "gen_c8_math_ch02_q18",
     "nodeId": "c8_math_ch2_10",
     "difficulty": "standard"
@@ -1807,6 +1807,21 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A REMEMBER level question: List three specific daily-life situations in an early farming community where *not* having a way to count would cause a serious problem.",
+    "answer": "(1) Checking if all sheep/goats returned from grazing. (2) Dividing harvested grain equally among families or for storage vs",
+    "options": [
+     "Fingers are limited to 10 (or 20 with toes). They cannot *record* a count for later comparison (e.g",
+     "Example problem: \"A school library has 3,005 books. They buy 2,090 more. How many books total?\" Answer: 5,095",
+     "(1) Checking if all sheep/goats returned from grazing. (2) Dividing harvested grain equally among families or for storage vs"
+    ],
+    "hint": "Straight from the 'origin of counting' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"doing math homework\" or \"building a pyramid\") reveals the student is projecting modern uses of numbers onto the past, not understanding the *survival-driven* origin of counting.",
+    "id": "gen_c8_math_ch03_q17",
+    "nodeId": "c8_math_ch3_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "An ANALYZE level question: Compare the \"pebble-in-a-bag\" method (one pebble per sheep) with the \"notch-on-a-stick\" method. Which is better for a nomadic herder moving camp daily? Which is better for a settled farmer checking granary stores monthly? Justify with two reasons each.",
     "answer": "Correct analysis: Pebble bag: portable, reusable, good for mobile herder. Notch stick: permanent record, cannot lose pebbles, good for fixed granary",
     "options": [
@@ -1816,21 +1831,6 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'origin of counting' slide -- match the key terms.",
     "misconception": "A weak answer (e.g., \"both are same\") fails to analyze how *material constraints* (portability, durability, reusability) shape counting technology — a key theme in the evolution of number systems.",
-    "id": "gen_c8_math_ch03_q17",
-    "nodeId": "c8_math_ch3_1",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "An APPLY level question: A Neolithic farmer uses a tally stick with one notch per goat. In the morning he makes 37 notches. In the evening he counts 34 notches matching returning goats.",
-    "answer": "Steps: (1) Morning: each goat → one notch (bijection). (2) Evening: each returning goat → one existing notch (matching)",
-    "options": [
-     "Originally 8 pencils ↔ 8 erasers (perfect pairing). Adding 3 pencils gives 11 pencils total. Erasers remain 8. Pencils without erasers = 11 − 8 = 3",
-     "For base-6, we could use five vertical marks and the sixth as a diagonal crossing all five, or a different symbol like a horizontal line",
-     "Steps: (1) Morning: each goat → one notch (bijection). (2) Evening: each returning goat → one existing notch (matching)"
-    ],
-    "hint": "Straight from the 'origin of counting' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"he subtracts 34 from 37\") reveals the student is imposing modern arithmetic on a pre-arithmetic process — the farmer *does not know subtraction*; he sees physical leftovers.",
     "id": "gen_c8_math_ch03_q18",
     "nodeId": "c8_math_ch3_1",
     "difficulty": "standard"
@@ -2531,6 +2531,21 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "In quadrilateral WXYZ, ∠W = 80°, ∠X = 110°, ∠Y = 95°. Find ∠Z. Show all steps.",
+    "answer": "Step 1: Use angle sum property: ∠W + ∠X + ∠Y + ∠Z = 360°. Step 2: Substitute known values: 80° + 110° + 95° + ∠Z = 360°",
+    "options": [
+     "The statement is correct. A rectangle satisfies the parallelogram condition (opposite sides parallel and equal) and adds the right-angle condition",
+     "Example problem: \"A rectangular plot has a perimeter of 140 m. Its length is 10 m more than its breadth",
+     "Step 1: Use angle sum property: ∠W + ∠X + ∠Y + ∠Z = 360°. Step 2: Substitute known values: 80° + 110° + 95° + ∠Z = 360°"
+    ],
+    "hint": "Straight from the 'quadrilateral' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., 85°) reveals the student added incorrectly (80+110+95=275, then 360-275=85) or forgot to include all three given angles.",
+    "id": "gen_c8_math_ch04_q16",
+    "nodeId": "c8_math_ch4_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What are the four elements of a quadrilateral? List them using the standard notation for a quadrilateral named PQRS.",
     "answer": "The four elements are: four sides (PQ, QR, RS, SP), four vertices (P, Q, R, S), four interior angles (∠P, ∠Q, ∠R, ∠S), and two diagonals (PR, QS)",
     "options": [
@@ -2540,7 +2555,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'quadrilateral' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing only sides and angles) reveals the student thinks diagonals are not part of the basic definition or confuses vertices with angles.",
-    "id": "gen_c8_math_ch04_q16",
+    "id": "gen_c8_math_ch04_q17",
     "nodeId": "c8_math_ch4_1",
     "difficulty": "standard"
    },
@@ -2555,21 +2570,6 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In a parallelogram, the two' slide -- match the key terms.",
     "misconception": "A wrong answer (saying it's false or only for special quadrilaterals) shows the student does not understand the biconditional nature of this property.",
-    "id": "gen_c8_math_ch04_q17",
-    "nodeId": "c8_math_ch4_10",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-life problem (using metres or rupees) where the diagonal bisection property of a parallelogram is used to find an unknown length. Write the problem and solve it.",
-    "answer": "Example: A parallelogram-shaped plot has diagonals crossing at a well. One diagonal is 40 m long. The distance from the well to one corner along the other diagonal is 15 m",
-    "options": [
-     "Both statements are true. Priya's statement is a property of parallelograms (forward direction). Ravi's statement is the converse: if diagonals bisect each other",
-     "Ravi is incorrect. Only one diagonal (the one joining the equal angles) bisects the other. The diagonal joining the unequal angles is bisected, but does not bisect the other",
-     "Example: A parallelogram-shaped plot has diagonals crossing at a well. One diagonal is 40 m long. The distance from the well to one corner along the other diagonal is 15 m"
-    ],
-    "hint": "Straight from the 'In a parallelogram, the two' slide -- match the key terms.",
-    "misconception": "A poor answer (problem doesn't use bisection or uses wrong property) shows inability to transfer the concept to a contextual situation.",
     "id": "gen_c8_math_ch04_q18",
     "nodeId": "c8_math_ch4_10",
     "difficulty": "standard"
@@ -3706,6 +3706,21 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Simplify \\(7 \\times \\left(\\frac{2}{3} + \\frac{1}{6}\\right)\\) using the distributive property. Show all steps.",
+    "answer": "Step 1: Distribute 7 to both fractions: \\(7 \\times \\frac{2}{3} + 7 \\times \\frac{1}{6}\\). Step 2: Multiply: \\(\\frac{14}{3} + \\frac{7}{6}\\)",
+    "options": [
+     "(2m + 1)(3n + 1) = 2m(3n + 1) + 1(3n + 1) = 2m×3n + 2m×1 + 1×3n + 1×1 = 6mn + 2m + 3n + 1. A common error: 6mn + 1 (missing 2m and 3n) or 6mn + 5mn (adding unlike terms)",
+     "Incorrect. The student missed both distributions of the 1: they did not multiply 1 by (q+1) and did not multiply p by 1",
+     "Step 1: Distribute 7 to both fractions: \\(7 \\times \\frac{2}{3} + 7 \\times \\frac{1}{6}\\). Step 2: Multiply: \\(\\frac{14}{3} + \\frac{7}{6}\\)"
+    ],
+    "hint": "Straight from the 'distributive property of' slide -- match the key terms.",
+    "misconception": "A wrong answer like \\(\\frac{14}{3} + \\frac{1}{6}\\) (missing the 7 on the second term) shows the \"incomplete distribution\" error. An answer of \\(\\frac{21}{9}\\) (adding numerators and denominators) shows a fraction addition misconception.",
+    "id": "gen_c8_math_ch06_q16",
+    "nodeId": "c8_math_ch6_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "State the distributive property of multiplication over addition using the variables \\(a\\), \\(b\\), and \\(c\\).",
     "answer": "The property is \\(a(b + c) = ab + ac\\)",
     "options": [
@@ -3715,7 +3730,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'distributive property of' slide -- match the key terms.",
     "misconception": "A wrong answer like \\(a(b + c) = ab + c\\) reveals the student thinks the multiplier only applies to the first term inside the bracket, a classic \"incomplete distribution\" error. Writing \\(a(b + c) = a + b + c\\) shows confusion between multiplication and addition.",
-    "id": "gen_c8_math_ch06_q16",
+    "id": "gen_c8_math_ch06_q17",
     "nodeId": "c8_math_ch6_1",
     "difficulty": "standard"
    },
@@ -3730,21 +3745,6 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'distributive property states that' slide -- match the key terms.",
     "misconception": "A wrong judgment here reveals the student cannot verify expansions using the area model's signed areas.",
-    "id": "gen_c8_math_ch06_q17",
-    "nodeId": "c8_math_ch6_10",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-world problem (using metres, rupees, or kilograms) that requires drawing an area model for a product of two binomials with at least one negative term. Write the problem, draw the model, and give the algebraic expression.",
-    "answer": "Example: A rectangular field's length is (x - 2) metres and breadth is (x + 10) metres. Find the area in terms of x",
-    "options": [
-     "Incorrect. The error is incomplete distribution: the student multiplied 5 by \\(x\\) but forgot to multiply 5 by 3. The correct expansion is \\(5x + 15\\)",
-     "The error is incomplete distribution: the student multiplied \\(3z\\) by \\(5x\\) but forgot to multiply \\(3z\\) by \\(-2y\\)",
-     "Example: A rectangular field's length is (x - 2) metres and breadth is (x + 10) metres. Find the area in terms of x"
-    ],
-    "hint": "Straight from the 'distributive property states that' slide -- match the key terms.",
-    "misconception": "A poor answer uses only positive terms or ignores the context, showing the student cannot connect negative terms to real-world subtraction (e.g., reducing a dimension).",
     "id": "gen_c8_math_ch06_q18",
     "nodeId": "c8_math_ch6_10",
     "difficulty": "standard"
@@ -4403,6 +4403,21 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A movie poster is 60 cm wide and 90 cm tall. You want to make a smaller version with a height of 30 cm for a brochure. What should the width be to keep the poster similar? Show your working using a proportion.",
+    "answer": "Step 1: Original ratio = width/height = 60/90 = 2/3. Step 2: Let new width = w. New ratio = w/30. Step 3: For similarity, 60/90 = w/30",
+    "options": [
+     "No, it is incorrect. The ratio of girls to boys should compare girls (25) to boys (15), so it is 25:15",
+     "Flour:sugar = 3:2. Sugar:total = 2:5. Steps: (1) Identify quantities: flour=3, sugar=2. (2) First ratio: antecedent=flour=3, consequent=sugar=2 → 3:2",
+     "Step 1: Original ratio = width/height = 60/90 = 2/3. Step 2: Let new width = w. New ratio = w/30. Step 3: For similarity, 60/90 = w/30"
+    ],
+    "hint": "Straight from the 'When an image' slide -- match the key terms.",
+    "misconception": "A wrong answer like 10 cm (subtracting 30 from 60) shows additive thinking. An answer of 45 cm (using 60/90 = 30/w incorrectly) reveals misplacing the unknown in the proportion.",
+    "id": "gen_c8_math_ch07_q17",
+    "nodeId": "c8_math_ch7_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A rectangular image has width 18 cm and height 12 cm. What is its width-to-height ratio in simplest form?",
     "answer": "The ratio is 18:12, which simplifies to 3:2 (dividing both terms by their HCF, 6)",
     "options": [
@@ -4413,21 +4428,6 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'When an image' slide -- match the key terms.",
     "misconception": "A wrong answer like 18:12 (not simplified) reveals the student does not recall that ratios must be expressed in simplest form (c8_math_ch7_3). An answer of 2:3 reveals confusion between width-to-height and height-to-width order.",
-    "id": "gen_c8_math_ch07_q17",
-    "nodeId": "c8_math_ch7_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A student solves this problem: \"A 4 cm × 6 cm image is scaled to a width of 10 cm. Find the new height.\" Their working: 4/6 = 10/h → 4h = 60 → h = 15. Is the answer correct? If not, identify the error and give the correct height.",
-    "answer": "The answer 15 cm is incorrect. The error is in setting up the proportion: the student wrote width/height = new width/new height, but used 4/6 = 10/h",
-    "options": [
-     "Example problem: \"A car uses 5 litres of petrol to travel 75 km. How far can it travel on 12 litres?",
-     "Flour:sugar = 3:2. Sugar:total = 2:5. Steps: (1) Identify quantities: flour=3, sugar=2. (2) First ratio: antecedent=flour=3, consequent=sugar=2 → 3:2",
-     "The answer 15 cm is incorrect. The error is in setting up the proportion: the student wrote width/height = new width/new height, but used 4/6 = 10/h"
-    ],
-    "hint": "Straight from the 'When an image' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The answer 15 cm is incorrect. The error is in setting up the proportion: the student wrote width/height = new",
     "id": "gen_c8_math_ch07_q18",
     "nodeId": "c8_math_ch7_10",
     "difficulty": "advanced"
@@ -4655,6 +4655,22 @@ export const C8_MATH_GEN: SimDef[] = [
     "misconception": "A wrong answer that says \"move decimal two places left from 0.8 to get 0.008\" but then writes 0.08 reveals confusion about decimal places when the percentage is less than 1%.",
     "id": "gen_c8_math_ch08_q7",
     "nodeId": "c8_math_ch8_3",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "The population of a town decreased from 25,000 to 22,500 in one year. Calculate the percentage decrease.",
+    "answer": "Decrease = 25,000 - 22,500 = 2,500. Percentage decrease = (2,500 / 25,000) × 100 = (1/10) × 100 = 10%",
+    "options": [
+     "Example: \"A 1-litre juice bottle says 'Contains 12% fruit juice'.\" This is better than saying \"Contains 3/25 fruit juice\" or \"Contains 0",
+     "The student forgot to divide by 100. 0.8% = 0.8/100 = 0.008. The error is treating the percentage number as already a decimal. Correct steps: 0.8% = 0.8/100 = 8/1000 = 0.008",
+     "Decrease = 25,000 - 22,500 = 2,500. This decrease = (2,500 / 25,000) × 100 = (1/10) × 100 = 10%",
+     "Decrease = 25,000 - 22,500 = 2,500. Percentage decrease = (2,500 / 25,000) × 100 = (1/10) × 100 = 10%"
+    ],
+    "hint": "Straight from the 'Percentage increase' slide -- match the key terms.",
+    "misconception": "A wrong answer of 11.11% would come from dividing by 22,500 (the new value) instead of 25,000 (the original value). An answer of 0.1 shows the student forgot to multiply by 100 to convert the decimal to a percentage.",
+    "id": "gen_c8_math_ch08_q8",
+    "nodeId": "c8_math_ch8_6",
     "difficulty": "advanced"
    }
   ],
@@ -5581,6 +5597,22 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Solve for x using cross-multiplication: 5/12 = x/36. Show all steps.",
+    "answer": "Step 1: Cross-multiply: 5 × 36 = 12 × x. Step 2: Calculate 5 × 36 = 180. So 180 = 12x. Step 3: Divide both sides by 12: x = 180/12 = 15",
+    "options": [
+     "1 unit (cm, mm, inch, etc.) measured on the map corresponds to 200,000 of the same units in reality",
+     "The product of map distance and RF denominator is invariant. Map A: 5 × 100,000 = 500,000 cm. Map B: 2.5 × 200,000 = 500,000 cm. Both give the same actual distance",
+     "Step 1: Cross-multiply: 5 × 36 = 12 × x. Step 2: Calculate 5 × 36 = 180. So 180 = 12x. Step 3: Find both sides by 12: x = 180/12 = 15",
+     "Step 1: Cross-multiply: 5 × 36 = 12 × x. Step 2: Calculate 5 × 36 = 180. So 180 = 12x. Step 3: Divide both sides by 12: x = 180/12 = 15"
+    ],
+    "hint": "Straight from the 'cross-multiplication method' slide -- match the key terms.",
+    "misconception": "A wrong answer like x = 2.08 (from 5/12 = x/36 → x = 5×36/12 but miscalculating 180/12) shows arithmetic weakness. An answer x = 5×12/36 = 1.67 shows the student multiplied the wrong pairs (a×b = c×d).",
+    "id": "gen_c8_math_ch10_q15",
+    "nodeId": "c8_math_ch10_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "State the cross-multiplication rule for the proportion a/b = c/d (where b and d are not zero). Write the resulting equation.",
     "answer": "The rule gives a × d = b × c",
     "options": [
@@ -5591,7 +5623,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'cross-multiplication method' slide -- match the key terms.",
     "misconception": "A wrong answer like a × c = b × d reveals the student confuses the positions of extremes and means, multiplying numerators together and denominators together instead of cross-multiplying. This is the most common procedural error.",
-    "id": "gen_c8_math_ch10_q15",
+    "id": "gen_c8_math_ch10_q16",
     "nodeId": "c8_math_ch10_1",
     "difficulty": "advanced"
    },
@@ -5606,7 +5638,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Two quantities' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student incorrectly used direct proportion. More pumps should take *less* time, not more.",
-    "id": "gen_c8_math_ch10_q16",
+    "id": "gen_c8_math_ch10_q17",
     "nodeId": "c8_math_ch10_10",
     "difficulty": "advanced"
    },
@@ -5622,21 +5654,6 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Representative Fraction' slide -- match the key terms.",
     "misconception": "A wrong answer like 1.2 km or 1200 km reveals errors in decimal multiplication or unit conversion (forgetting 1 km = 100,000 cm). This tests both RF understanding and decimal operations from Class 7 (c7_math_ch12_003).",
-    "id": "gen_c8_math_ch10_q17",
-    "nodeId": "c8_math_ch10_2",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student converts \"1 cm = 4 km\" to RF and writes 1:4000. They argue: \"4 km = 4000 m, so 1:4000\". Evaluate their reasoning and correct the error.",
-    "answer": "The student's reasoning is incorrect. 4 km = 4000 m is true, but RF requires both distances in the SAME units",
-    "options": [
-     "The student used the wrong denominator. The correct denominator is the sum of the ratio terms (2+3=5), not the second term (3)",
-     "Incorrect. The student used direct proportion (12/8 = 6/d) instead of inverse proportion. Correct: men × days = constant → 12 × 8 = 6 × d → 96 = 6d → d = 16 days",
-     "The student's reasoning is incorrect. 4 km = 4000 m is true, but RF requires both distances in the SAME units"
-    ],
-    "hint": "Straight from the 'Representative Fraction' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student's reasoning is incorrect. 4 km = 4000 m is true, but RF requires both distances in the SAME units.",
     "id": "gen_c8_math_ch10_q18",
     "nodeId": "c8_math_ch10_2",
     "difficulty": "standard"

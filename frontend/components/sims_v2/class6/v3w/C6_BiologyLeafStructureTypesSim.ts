@@ -10,7 +10,7 @@ export const w_c6_biologyleafstructuretypessim: SimDef = {
     subtitle: 'This node covers the fundamental concept and the basic ingredients/products of.',
     classLevel: 6, subject: 'biology', topic: 'How Do Plants Make Food? Understanding Photosynthesis',
     chapters: [],
-    nodeIds: ['c6_biology_ch10_002', 'c6_biology_ch10_005'],
+    nodeIds: ['c6_biology_ch10_002', 'c6_biology_ch10_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why you need to eat lunch to have energy to play, but the tree in your garden just.', goal: 'Master Leaf Structure Types.' },
     discovery: {

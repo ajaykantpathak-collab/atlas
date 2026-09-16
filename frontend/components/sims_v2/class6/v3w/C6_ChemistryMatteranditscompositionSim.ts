@@ -10,7 +10,7 @@ export const w_c6_chemistrymatteranditscompositionsim: SimDef = {
     subtitle: 'Covers the definition of materials/matter and the logic of classification based on.',
     classLevel: 6, subject: 'chemistry', topic: 'What Are Materials and Why We Classify Them',
     chapters: [],
-    nodeIds: ['c6_chemistry_ch04_001', 'c6_chemistry_ch04_010', 'c6_chemistry_ch05_001', 'c6_chemistry_ch05_008', 'c6_chemistry_ch05_010'],
+    nodeIds: ['c6_chemistry_ch04_001', 'c6_chemistry_ch04_002', 'c6_chemistry_ch05_001', 'c6_chemistry_ch05_008', 'c6_chemistry_ch05_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are looking at your school bag. Why is it made of fabric or plastic, but not glass?', goal: 'Master Matteranditscomposition.' },
     discovery: {

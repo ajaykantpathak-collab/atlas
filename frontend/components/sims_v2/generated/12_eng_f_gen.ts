@@ -5907,6 +5907,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "c12_eng_f_cbse_08_006",
    "c12_eng_f_cbse_08_007",
    "c12_eng_f_cbse_08_008",
+   "c12_eng_f_cbse_08_009",
    "c12_eng_f_cbse_08_010",
    "c12_eng_f_cbse_08_011",
    "c12_eng_f_cbse_08_012",
@@ -5980,6 +5981,12 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
+    "title": "Irony",
+    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or surface meaning, creating a contrast between expectation and reality.",
+    "emoji": "📕",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Vocabulary In Context",
     "text": "Vocabulary in Context is the skill of inferring the meaning of unfamiliar words or phrases by analyzing the surrounding text — including definitions, synonyms, antonyms, examples, and the overall situation — without relying solely on a dictionary.",
     "emoji": "📕",
@@ -6024,7 +6031,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "options": [
      "The five settings are: (1) Sophie's home (kitchen/living area), (2) The street/arcade (Royce's window), (3) Geoff's bedroom, (4) The football stadium (United's match)",
      "The five major supporting characters are: (1) Jansie — practical/realistic (\"Takes money, Soaf... They wouldn't make you manager straight off\"), (2) Geoff",
-     "The author is A.R. Father, a modern writer who lives in Zurich",
+     "The author is A.R. TV, a modern writer who lives in Zurich",
      "The author is A.R. Barton, a modern writer who lives in Zurich"
     ],
     "hint": "Straight from the 'Context and background provide' slide -- match the key terms.",
@@ -6297,8 +6304,8 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the difference between a primary theme and a secondary theme in a literary work?",
     "answer": "A primary theme is the central, dominating idea of the work (e.g., adolescent fantasising in \"Going Places\"), while secondary themes are supporting ideas that run parallel",
     "options": [
+     "Literal questions have answers directly stated in the text (e.g., \"What does Sophie dream of?\" → \"a boutique\")",
      "A TV interview script is public, structured, and designed to engage an audience; questions are prepared, tone is professional yet conversational",
-     "Jansie responds with melancholy acceptance — \"knowing they were both earmarked for the biscuit factory, became melancholy\"",
      "A primary theme is the central, dominating idea of the work (e.g., adolescent fantasising in \"Going Places\"), while secondary themes are supporting ideas that run parallel"
     ],
     "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
@@ -6318,8 +6325,8 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define imagery and metaphor in your own words, and give one example of each from \"Going Places\" (quote the exact phrase).",
     "answer": "Imagery: Language appealing to senses to create mental pictures. Example: \"the glare of the lamps from the wharf across the water\" (visual) or \"the unceasing drone of the city was",
     "options": [
+     "The author is A.R. Barton, a modern writer who lives in Zurich",
      "The five stages are exposition, rising action, climax, falling action, and resolution. The climax is Sophie waiting by the canal for Danny Casey and realizing he will not come",
-     "Scene 1: Sophie's detailed description of meeting Danny at Royce's window (green eyes, accent, autograph request)",
      "Imagery: Language appealing to senses to create mental pictures. Example: \"the glare of the lamps from the wharf across the water\" (visual) or \"the unceasing drone of the city was"
     ],
     "hint": "Straight from the 'Imagery' slide -- match the key terms.",
@@ -6335,17 +6342,69 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Define verbal irony and give one example from \"Going Places\" where Sophie uses verbal irony (or where her words are ironic in hindsight).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Example from the story",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The test",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Definition",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who cites the father's wild-stories remark as verbal irony confuses a character's reaction with the device, and one who cannot tell irony from lying misses that the irony here is structural, not deceit.",
+    "id": "gen_c12_eng_f_ch08_q9",
+    "nodeId": "c12_eng_f_cbse_08_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are scrolling through social media and see a friend post a photo of a luxury vacation with the caption \"Living my best life #blessed,\"",
+     "That gap between the curated image and the hidden reality is irony — and the vacation photo itself becomes a symbol of the life they *wish* they had.",
+     "In \"Going Places,\" Sophie does exactly this: she constructs a fantasy life around Danny Casey and a boutique, while her actual world is a cramped,",
+     "To analyze this, first locate the moments where what Sophie says clashes with what the reader knows is true (irony)."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What does the word *incongruity* mean in the sentence: \"Sophie wondered at the incongruity of the delicate bow which fastened her apron strings\"? Choose the option that best matches the contextual meaning.",
     "answer": "B) A lack of harmony or suitability between two things. The context contrasts the mother's \"crooked back\" (from years of hard labor) with the \"delicate-seeming bow\"",
     "options": [
+     "(1) Definition — verbal irony occurs when a speaker says something but means the opposite, the literal meaning contradicting the intended one, (2) Example from the story",
      "The five stages are exposition, rising action, climax, falling action, and resolution. The climax is Sophie waiting by the canal for Danny Casey and realizing he will not come",
-     "The five settings are: (1) Sophie's home (kitchen/living area), (2) The street/arcade (Royce's window), (3) Geoff's bedroom, (4) The football stadium (United's match)",
      "B) A lack of harmony or suitability between two things. The context contrasts the mother's \"crooked back\" (from years of hard labor) with the \"delicate-seeming bow\""
     ],
     "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
     "misconception": "Choosing C ignores context entirely. Choosing D mistakes the *result* of noticing for the *definition*.",
-    "id": "gen_c12_eng_f_ch08_q9",
+    "id": "gen_c12_eng_f_ch08_q10",
     "nodeId": "c12_eng_f_cbse_08_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -6366,7 +6425,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Present participles  used without' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., identifying \"looked\" as the participle or missing the simultaneity) reveals confusion between main verb and participle, or failure to recognize that the participle phrase modifies the subject of the main clause.",
-    "id": "gen_c12_eng_f_ch08_q10",
+    "id": "gen_c12_eng_f_ch08_q11",
     "nodeId": "c12_eng_f_cbse_08_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -6418,7 +6477,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Insufficient. The answer captures only the literal image (motorcycle ride) but misses the deeper inferential layers:",
-    "id": "gen_c12_eng_f_ch08_q11",
+    "id": "gen_c12_eng_f_ch08_q12",
     "nodeId": "c12_eng_f_cbse_08_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -6470,7 +6529,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Sophie experiences a *qualified* epiphany — she recognizes the fantasy's falsity (\"knowing he will not come\") but",
-    "id": "gen_c12_eng_f_ch08_q12",
+    "id": "gen_c12_eng_f_ch08_q13",
     "nodeId": "c12_eng_f_cbse_08_013",
     "difficulty": "advanced",
     "workedExample": [
@@ -6491,7 +6550,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"write a letter to Danny Casey\") reveals the student has not read the end-of-chapter exercises or confuses the writing task with other chapters' tasks.",
-    "id": "gen_c12_eng_f_ch08_q13",
+    "id": "gen_c12_eng_f_ch08_q14",
     "nodeId": "c12_eng_f_cbse_08_014",
     "difficulty": "advanced",
     "workedExample": [
@@ -6512,7 +6571,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Discuss Sophie's character\" or \"Talk about the story's theme\") reveals the student has not located the actual discussion tasks in the textbook and will likely go off-topic during the assessment.",
-    "id": "gen_c12_eng_f_ch08_q14",
+    "id": "gen_c12_eng_f_ch08_q15",
     "nodeId": "c12_eng_f_cbse_08_015",
     "difficulty": "advanced",
     "workedExample": [
@@ -6564,7 +6623,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer listing details without linking to Sophie's psychology (e.g., \"it's dark and quiet\") treats atmosphere as decoration, not character revelation — a JEE/NEET-style trap where surface observation replaces analysis.",
-    "id": "gen_c12_eng_f_ch08_q15",
+    "id": "gen_c12_eng_f_ch08_q16",
     "nodeId": "c12_eng_f_cbse_08_003",
     "difficulty": "advanced"
    },
@@ -6621,39 +6680,66 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong entry will: (1) Use colloquial language (\"Soaf\", \"chuffed\", \"nosey\"), (2) Show Jansie's practicality (\"Factory",
-    "id": "gen_c12_eng_f_ch08_q16",
+    "id": "gen_c12_eng_f_ch08_q17",
     "nodeId": "c12_eng_f_cbse_08_005",
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "A Class 12 student writes: \"The story is about a girl who wants to become a fashion designer and meets her favourite footballer.\" Using the concept of 'adolescent fantasising and hero worship', explain why this summary is incomplete.",
-    "answer": "The summary states the fantasies as if they are plot facts, but the pre-reading context tells us these are Sophie's imaginative constructions",
-    "options": [
-     "Sophie is a character, not the narrator — the story uses third-person limited focalization through Sophie",
-     "Strong question: \"How does the story use Danny Casey — an Irish prodigy in an English league",
-     "The summary states the fantasies as if they are plot facts, but the pre-reading context tells us these are Sophie's imaginative constructions"
+    "type": "order",
+    "question": "Analyze how the boutique functions as a symbol that evolves across the story. Trace its mentions from Sophie's opening declaration to her father's reaction (\"This another of your wild stories?\") to the final canal scene.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Middle",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The arc",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "End",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Opening",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Context and background provide' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The summary states the fantasies as if they are plot facts, but the pre-reading context tells us these are Sophie's",
-    "id": "gen_c12_eng_f_ch08_q17",
-    "nodeId": "c12_eng_f_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Based on the context provided, evaluate whether the title \"Going Places\" is primarily ironic, aspirational, or both. Justify your judgment.",
-    "answer": "The title operates on both levels: it is aspirational because it captures Sophie's yearning to \"go places\" metaphorically (success, glamour, escape)",
-    "options": [
-     "Example for Dr. APJ Abdul Kalam: 1. \"What childhood experience sparked your love for science?\" 2. \"How did you overcome failures in your early career?",
-     "A strong answer: Danny appears at the canal, signs the autograph, and Sophie returns home glowing, but the final paragraph reveals she still faces the biscuit factory",
-     "The title operates on both levels: it is aspirational because it captures Sophie's yearning to \"go places\" metaphorically (success, glamour, escape)"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
     ],
-    "hint": "Straight from the 'Context and background provide' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The title operates on both levels: it is aspirational because it captures Sophie's yearning to \"go places\"",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Opening — the boutique is a vehicle for self-invention, the space where Sophie imagines controlling aesthetics,",
     "id": "gen_c12_eng_f_ch08_q18",
-    "nodeId": "c12_eng_f_cbse_08_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_f_cbse_08_009",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -8144,6 +8230,21 @@ export const C12_ENG_F_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Apply the concept of \"juxtaposition\" to the poem's opening stanza: identify two contrasting images and explain how the poet uses them to establish the central conflict.",
+    "answer": "Step 1: Identify the image of the children — \"rootless weeds,\" \"torn map,\" \"slag heap.\" Step 2: Identify the image of the privileged world",
+    "options": [
+     "A strong answer might produce: *No bell rings for their recess, no whistle calls them home,* *The only alphabet they know is hunger's hollow drone,* *Their mother-tongue is",
+     "A good response uses words like \"slag heap,\" \"lead sky,\" \"shut,\" \"rootless,\" or \"catacombs\" in a way that preserves their connotations of oppression and wasted potential",
+     "Step 1: Identify the image of the children — \"rootless weeds,\" \"torn map,\" \"slag heap.\" Step 2: Identify the image of the privileged world"
+    ],
+    "hint": "Straight from the 'This node provides the' slide -- match the key terms.",
+    "misconception": "A wrong answer that lists images without explaining the contrast fails to apply the literary concept.",
+    "id": "gen_c12_eng_f_ch10_q17",
+    "nodeId": "c12_eng_f_cbse_10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Create a two-stanza poem (4 lines each) that mirrors Spender's structure: first stanza depicts a marginalized space, second stanza contrasts it with a privileged space, using one metaphor in each stanza.",
     "answer": "A strong response will show two clear stanzas, each with a central metaphor (e.g., \"cracked pitcher\" for the marginalized, \"crystal goblet\" for the privileged)",
     "options": [
@@ -8153,21 +8254,6 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node provides the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong response will show two clear stanzas, each with a central metaphor (e.",
-    "id": "gen_c12_eng_f_ch10_q17",
-    "nodeId": "c12_eng_f_cbse_10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the effectiveness of the poet's appeal to the \"governor, inspector, visitor\" in the final stanza. Does the poem offer a realistic solution or a rhetorical gesture?",
-    "answer": "The appeal is a rhetorical gesture that exposes the indifference of authority figures. By addressing them directly, the poet shifts responsibility onto the powerful",
-    "options": [
-     "The poet distinguishes *chosen, mindful stillness* (a pause for introspection) from *total inactivity* (death-like paralysis or giving up on life)",
-     "The fourth stanza contrasts \"green wars, wars with gas, wars with fire\" and \"victory with no survivors\" with the image of warriors putting on clean clothes and walking with",
-     "The appeal is a rhetorical gesture that exposes the indifference of authority figures. By addressing them directly, the poet shifts responsibility onto the powerful"
-    ],
-    "hint": "Straight from the 'This node provides the' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls it a \"hopeful ending\" ignores the poem's angry, urgent tone and the structural critique.",
     "id": "gen_c12_eng_f_ch10_q18",
     "nodeId": "c12_eng_f_cbse_10_001",
     "difficulty": "standard"

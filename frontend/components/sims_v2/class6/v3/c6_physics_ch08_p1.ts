@@ -8,7 +8,7 @@ export const c6_physics_ch08_p1: SimDef = {
     subtitle: 'This node covers the historical transition from observing natural cycles to using the.',
     classLevel: 6, subject: 'physics', topic: 'Measurement of Time and Motion · Part 1/2',
     chapters: ['c6_physics_ch08'],
-    nodeIds: ['c6_physics_ch08_027', 'c6_physics_ch08_028', 'c6_physics_ch08_029', 'c6_physics_ch08_030', 'c6_physics_ch08_031', 'c6_physics_ch08_032'],
+    nodeIds: ['c6_physics_ch08_027', 'c6_physics_ch08_033', 'c6_physics_ch08_029', 'c6_physics_ch08_030', 'c6_physics_ch08_031'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed how your own shadow changes length and direction during a sunny day?', goal: 'Master every idea in this chapter.' },

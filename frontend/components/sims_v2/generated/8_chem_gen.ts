@@ -16,10 +16,12 @@ export const C8_CHEM_GEN: SimDef[] = [
   "subject": "chemistry",
   "topic": "Mixture",
   "chapters": [
+   "Chemistry Ch2: Mixture",
    "Chemistry Ch3: Mixture"
   ],
   "nodeIds": [
    "c8_chem_ch3_1",
+   "c8_chem_ch2_3",
    "c8_chem_ch3_3",
    "c8_chem_ch3_4",
    "c8_chem_ch3_5",
@@ -50,6 +52,12 @@ export const C8_CHEM_GEN: SimDef[] = [
     "text": "A mixture is a physical combination of two or more substances (elements or compounds) in any proportion, where each component retains its individual chemical properties and can be separated by physical methods.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Atom",
+    "text": "An atom is the smallest unit of an element that retains all the chemical properties of that element and can take part in a chemical reaction. Atoms are the fundamental building blocks of all matter in the universe, represented symbolically by chemical symbols",
+    "emoji": "🧪",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Air",
@@ -100,8 +108,8 @@ export const C8_CHEM_GEN: SimDef[] = [
     "question": "A student mixes 10 grams of iron filings with 10 grams of sulfur powder in a watch glass. Which of the following describes the resulting material? A) A chemical compound because iron and sulfur have combined.",
     "answer": "The correct answer is B. Iron filings and sulfur powder mixed together form a physical mixture",
     "options": [
-     "The student's claim is incorrect. Brass is a homogeneous mixture (an alloy), not a compound, because: 1",
-     "1. In Container X (pure iron), the magnet attracts the iron, but no separation occurs because only one substance (the element iron) is present",
+     "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can",
+     "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume",
      "The correct answer is B. Iron filings and sulfur powder mixed together form a physical mixture"
     ],
     "hint": "Straight from the 'mixture' slide -- match the key terms.",
@@ -117,6 +125,69 @@ export const C8_CHEM_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Trace the correct sequence of scaling from a single atom to a visible piece of an element like copper.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "One copper atom keeps the element's chemical",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The visible metal still behaves chemically",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Countless identical atoms pack together",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The assembly forms the bulk copper wire we",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls the smallest unit a molecule shows the student has confused the smallest unit of an element with the smallest independent unit of a compound, and an analogy with no structural match shows a weak grasp of how microscopic units build macroscopic matter.",
+    "id": "gen_c8_chem_ch03_q2",
+    "nodeId": "c8_chem_ch2_3",
+    "difficulty": "foundation",
+    "workedExample": [
+     "When you look at a pure iron rod used in construction, or a piece of pure copper wire, you see a solid mass of metal.",
+     "If you could zoom in millions of times using a powerful microscope, you would see that this bulk material is made of countless tiny, identical",
+     "In Class 7, you learned about the physical and chemical properties of metals and non-metals like iron, copper, and sulfur.",
+     "Now, we take a deeper step to ask: what is the fundamental unit making up each of these elements?"
+    ]
+   },
+   {
     "type": "math_input",
     "question": "If a closed steel cylinder contains 100 liters of dry air, approximately how many liters of oxygen are present inside the cylinder?",
     "answer": "21",
@@ -125,7 +196,7 @@ export const C8_CHEM_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer usually confuses percentage composition with total mass or uses nitrogen's percentage (78%).",
-    "id": "gen_c8_chem_ch03_q2",
+    "id": "gen_c8_chem_ch03_q3",
     "nodeId": "c8_chem_ch3_3",
     "difficulty": "standard",
     "workedExample": [
@@ -146,7 +217,7 @@ export const C8_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Filtration and sedimentation' slide -- match the key terms.",
     "misconception": "A wrong answer indicates an overestimation of rough filtering barriers and confusion between physical clarity and chemical purity.",
-    "id": "gen_c8_chem_ch03_q3",
+    "id": "gen_c8_chem_ch03_q4",
     "nodeId": "c8_chem_ch3_4",
     "difficulty": "advanced",
     "workedExample": [
@@ -162,12 +233,12 @@ export const C8_CHEM_GEN: SimDef[] = [
     "answer": "Condensation. *What a wrong answer reveals:* If a student writes \"evaporation\" or \"melting,\" they are confusing the direction of the phase change (gas-to-liquid vs",
     "options": [
      "In a mixture of iron and sulphur, you can see distinct yellow sulphur particles and grey iron particles separately under a magnifying glass",
-     "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume",
+     "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can",
      "Condensation. *What a wrong answer reveals:* If a student writes \"evaporation\" or \"melting,\" they are confusing the direction of the phase change (gas-to-liquid vs"
     ],
     "hint": "Straight from the 'Evaporation' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student writes \"evaporation\" or \"melting,\" they are confusing the direction of the phase change (gas-to-liquid vs. liquid-to-gas or solid-to-liquid). If they write \"precipitation,\" they are using meteorological terms instead of the specific chemical physical change term.",
-    "id": "gen_c8_chem_ch03_q4",
+    "id": "gen_c8_chem_ch03_q5",
     "nodeId": "c8_chem_ch3_5",
     "difficulty": "advanced",
     "workedExample": [
@@ -188,7 +259,7 @@ export const C8_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Magnetic separation' slide -- match the key terms.",
     "misconception": "A wrong answer shows an over-reliance on a single technique without considering safety, speed, and physical properties.",
-    "id": "gen_c8_chem_ch03_q5",
+    "id": "gen_c8_chem_ch03_q6",
     "nodeId": "c8_chem_ch3_7",
     "difficulty": "advanced",
     "workedExample": [
@@ -203,13 +274,13 @@ export const C8_CHEM_GEN: SimDef[] = [
     "question": "A student is given three containers: Container X has pure iron filings ($Fe$), Container Y has rust ($Fe_2O_3$), and Container Z has a physical mixture of iron filings and sulfur powder.",
     "answer": "1. In Container X (pure iron), the magnet attracts the iron, but no separation occurs because only one substance (the element iron) is present",
     "options": [
-     "Steps: 1. Identify the components: Copper (Cu) and Tin (Sn) in roughly an 85:15 ratio. 2. Match with known alloys: Copper and tin form bronze",
      "The correct answer is B. Iron filings and sulfur powder mixed together form a physical mixture",
+     "The student's claim is incorrect. Brass is a homogeneous mixture (an alloy), not a compound, because: 1",
      "1. In Container X (pure iron), the magnet attracts the iron, but no separation occurs because only one substance (the element iron) is present"
     ],
     "hint": "Straight from the 'element' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student thinks the iron in rust can be separated by a magnet, they do not understand that elements lose their individual properties when they chemically react to form compounds.",
-    "id": "gen_c8_chem_ch03_q6",
+    "id": "gen_c8_chem_ch03_q7",
     "nodeId": "c8_chem_ch3_8",
     "difficulty": "standard",
     "workedExample": [
@@ -230,7 +301,7 @@ export const C8_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'mixture' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student thinks the compound iron sulphide is still magnetic because \"it contains iron,\" they do not understand that elements completely lose their individual physical properties (like magnetism) when they chemically react to form a compound.",
-    "id": "gen_c8_chem_ch03_q7",
+    "id": "gen_c8_chem_ch03_q8",
     "nodeId": "c8_chem_ch3_10",
     "difficulty": "advanced",
     "workedExample": [
@@ -251,7 +322,7 @@ export const C8_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'alloy' slide -- match the key terms.",
     "misconception": "A student who answers that steel is a pure chemical compound with a fixed formula misses the point that alloys are variable mixtures.",
-    "id": "gen_c8_chem_ch03_q8",
+    "id": "gen_c8_chem_ch03_q9",
     "nodeId": "c8_chem_ch3_11",
     "difficulty": "advanced",
     "workedExample": [
@@ -260,6 +331,21 @@ export const C8_CHEM_GEN: SimDef[] = [
      "Pure metals often have atoms arranged in neat, orderly layers that slide past each other easily, making them soft or reactive.",
      "By melting a metal and mixing in specific proportions of other elements, we disrupt these orderly layers, creating a much tougher substance."
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "Trace the correct sequence of scaling from a single atom to a visible piece of an element like copper.",
+    "answer": "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can",
+    "options": [
+     "Steps: 1. Identify the components: Copper (Cu) and Tin (Sn) in roughly an 85:15 ratio. 2. Match with known alloys: Copper and tin form bronze",
+     "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume",
+     "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can"
+    ],
+    "hint": "Straight from the 'atom' slide -- match the key terms.",
+    "misconception": "A wrong answer that calls the smallest unit a molecule shows the student has confused the smallest unit of an element with the smallest independent unit of a compound, and an analogy with no structural match shows a weak grasp of how microscopic units build macroscopic matter.",
+    "id": "gen_c8_chem_ch03_q10",
+    "nodeId": "c8_chem_ch2_3",
+    "difficulty": "foundation"
    },
    {
     "type": "mcq",
@@ -272,7 +358,7 @@ export const C8_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'mixture' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* The student is over-relying on \"uniform appearance\" (homogeneity) and \"difficulty of mechanical separation\" as proof of a compound, failing to recognize that alloys are homogeneous mixtures.",
-    "id": "gen_c8_chem_ch03_q9",
+    "id": "gen_c8_chem_ch03_q11",
     "nodeId": "c8_chem_ch3_10",
     "difficulty": "advanced"
    },
@@ -287,7 +373,7 @@ export const C8_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'alloy' slide -- match the key terms.",
     "misconception": "A student who identifies this as brass confuses tin with zinc; brass is made from copper and zinc, whereas bronze is copper and tin.",
-    "id": "gen_c8_chem_ch03_q10",
+    "id": "gen_c8_chem_ch03_q12",
     "nodeId": "c8_chem_ch3_11",
     "difficulty": "advanced"
    },
@@ -302,9 +388,24 @@ export const C8_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'alloy' slide -- match the key terms.",
     "misconception": "A student who believes brass is a chemical compound will incorrectly assume a new chemical formula protects it, rather than understanding that altered atomic spacing in a mixture changes reaction rates.",
-    "id": "gen_c8_chem_ch03_q11",
+    "id": "gen_c8_chem_ch03_q13",
     "nodeId": "c8_chem_ch3_11",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "If a closed steel cylinder contains 100 liters of dry air, approximately how many liters of oxygen are present inside the cylinder?",
+    "answer": "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume",
+    "options": [
+     "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can",
+     "The student's claim is incorrect. Brass is a homogeneous mixture (an alloy), not a compound, because: 1",
+     "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume"
+    ],
+    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "misconception": "A wrong answer usually confuses percentage composition with total mass or uses nitrogen's percentage (78%).",
+    "id": "gen_c8_chem_ch03_q14",
+    "nodeId": "c8_chem_ch3_3",
+    "difficulty": "standard"
    }
   ],
   "reflect": {

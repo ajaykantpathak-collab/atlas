@@ -16,7 +16,8 @@ export const C11_ECO_GEN: SimDef[] = [
   "subject": "economics",
   "topic": "Colonial Exploitation",
   "chapters": [
-   "Economics Ch1: Colonial Exploitation"
+   "Economics Ch1: Colonial Exploitation",
+   "Economics Ch2: Colonial Exploitation"
   ],
   "nodeIds": [
    "c11_eco_cbse_01_001",
@@ -24,6 +25,7 @@ export const C11_ECO_GEN: SimDef[] = [
    "c11_eco_cbse_01_004",
    "c11_eco_cbse_01_005",
    "c11_eco_cbse_01_006",
+   "c11_eco_cbse_02_006",
    "c11_eco_cbse_01_007",
    "c11_eco_cbse_01_008",
    "c11_eco_cbse_01_009",
@@ -74,6 +76,12 @@ export const C11_ECO_GEN: SimDef[] = [
    {
     "title": "Deindustrialisation",
     "text": "Deindustrialisation refers to the deliberate and systematic decline of India's indigenous handicraft and artisan industries under British colonial rule, driven by a two-fold policy: transforming India into a supplier of raw materials (cotton, jute, indigo)",
+    "emoji": "📈",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Green Revolution's Regional Spread",
+    "text": "The Green Revolution's regional spread refers to the uneven geographical diffusion of High Yielding Variety (HYV) seed technology, irrigation, and chemical inputs across India, concentrated initially in Punjab, Haryana, Western Uttar Pradesh, and parts of",
     "emoji": "📈",
     "bgColor": "from-rose-400 to-pink-500"
    },
@@ -188,7 +196,8 @@ export const C11_ECO_GEN: SimDef[] = [
     "answer": "Normal year: Gross value = 5 ha × ₹40,000 = ₹2,00,000. Revenue = 50% = ₹1,00,000. Net income = ₹1,00,000",
     "options": [
      "Example table: - Zamindari: Revenue Certainty = High (fixed forever), Admin Cost = Low (few intermediaries), Peasant Incentive = Low (no ownership)",
-     "(i) Sectoral shares: Primary < 50% (vs. actual 72%), Secondary > 30% (vs. actual 10%), Tertiary ~20%",
+     "The adoption chain runs: (1) HYV seeds demand assured water, fertiliser and pesticide together (2) Irrigated northwestern districts could fund the package through institutional",
+     "Tata Power year: Gross value = 5 ha × ₹40,000 = ₹2,00,000. Revenue = 50% = ₹1,00,000. Net income = ₹1,00,000",
      "Normal year: Gross value = 5 ha × ₹40,000 = ₹2,00,000. Revenue = 50% = ₹1,00,000. Net income = ₹1,00,000"
     ],
     "hint": "Straight from the 'Zamindari, Ryotwari, and' slide -- match the key terms.",
@@ -246,6 +255,69 @@ export const C11_ECO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Trace the correct sequence of requirements that decided whether a region could adopt the High Yielding Variety package.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Productivity and income gaps between",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Irrigated northwestern districts could fund",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Rainfed eastern regions lacked canals",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "HYV seeds demand assured water",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that blames farmer laziness or soil poverty shows the student has confused agro-climatic constraint with institutional and infrastructural failure.",
+    "id": "gen_c11_eco_ch01_q6",
+    "nodeId": "c11_eco_cbse_02_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a farmer in Punjab in 1970 with a tubewell, buying HYV wheat seeds and fertiliser on subsidised credit, harvesting 5 tonnes/hectare, while a",
+     "First, observe the input package: HYV seeds require assured water, fertiliser, and pesticide — a \"package\" that only irrigated regions could adopt.",
+     "Next, connect to the prior node (c11_eco_cbse_02_005) where you learned HYV seeds increased wheat yields.",
+     "Now ask: why did this package not reach eastern India?"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Compare the regional-industrial map of 1947 (cotton in Bombay-Ahmedabad, jute in Bengal, steel in Jamshedpur) with the resource map (cotton in Deccan, jute in Bengal, iron ore in Chotanagpur).",
     "answer": "Cotton textile mills in Bombay-Ahmedabad were located *away* from the main cotton-growing Deccan plateau (though connected by rail)",
@@ -256,7 +328,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Modern Industry's Limited Growth' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"labour availability\" ignores that labour migrated *to* mills; the causality runs from colonial port-infrastructure investment to mill location.",
-    "id": "gen_c11_eco_ch01_q6",
+    "id": "gen_c11_eco_ch01_q7",
     "nodeId": "c11_eco_cbse_01_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -319,7 +391,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who equates export surplus with economic gain commits the mercantilist fallacy, ignoring that the surplus was not retained as reserves but transferred abroad to service colonial obligations.",
-    "id": "gen_c11_eco_ch01_q7",
+    "id": "gen_c11_eco_ch01_q8",
     "nodeId": "c11_eco_cbse_01_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -382,7 +454,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer describing Council Bills as \"normal trade finance\" misses that the *Government* was the counterparty, making it a fiscal transfer disguised as commercial transaction.",
-    "id": "gen_c11_eco_ch01_q8",
+    "id": "gen_c11_eco_ch01_q9",
     "nodeId": "c11_eco_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -401,7 +473,7 @@ export const C11_ECO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer (e.g., multiplying 0.07 × 0.32) reveals inability to work with demographic probabilities and confusion between life expectancy and survival probabilities.",
-    "id": "gen_c11_eco_ch01_q9",
+    "id": "gen_c11_eco_ch01_q10",
     "nodeId": "c11_eco_cbse_01_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -422,7 +494,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Infrastructure under colonial rule' slide -- match the key terms.",
     "misconception": "A wrong answer that blames \"lack of maintenance\" or \"natural silting\" misses the core economic reasoning: colonial transport policy favoured railways because they served British commercial and strategic needs better.",
-    "id": "gen_c11_eco_ch01_q10",
+    "id": "gen_c11_eco_ch01_q11",
     "nodeId": "c11_eco_cbse_01_012",
     "difficulty": "standard",
     "workedExample": [
@@ -431,6 +503,22 @@ export const C11_ECO_GEN: SimDef[] = [
      "Ask: *Who built this, and why?* Start by recalling that the British introduced railways in 1850.",
      "Observe that roads were built to link interior raw-material-producing areas to railway stations or ports, not to connect villages to markets."
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "Construct a *counterfactual development path* for India (1757-1947) assuming: (a) no colonial rule, (b) indigenous rulers adopt Meiji-style selective modernisation. Specify: (i) likely sectoral shares in 1947, (ii) institutional prerequisites, (iii) one major risk.",
+    "answer": "(i) Sectoral shares: Primary < 50% (vs. actual 72%), Secondary > 30% (vs. actual 10%), Tertiary ~20%",
+    "options": [
+     "The adoption chain runs: (1) HYV seeds demand assured water, fertiliser and pesticide together (2) Irrigated northwestern districts could fund the package through institutional",
+     "Normal year: Gross value = 5 ha × ₹40,000 = ₹2,00,000. Revenue = 50% = ₹1,00,000. Net income = ₹1,00,000",
+     "(i) Bombay-Ahmedabad shares: Primary < 50% (vs. actual 72%), Secondary > 30% (vs. actual 10%), Tertiary ~20%",
+     "(i) Sectoral shares: Primary < 50% (vs. actual 72%), Secondary > 30% (vs. actual 10%), Tertiary ~20%"
+    ],
+    "hint": "Straight from the 'Colonial exploitation' slide -- match the key terms.",
+    "misconception": "A poor answer merely says \"India would be developed\" without *quantitative benchmarks* or *institutional specificity* — counterfactuals require comparable historical cases, not wishful thinking.",
+    "id": "gen_c11_eco_ch01_q12",
+    "nodeId": "c11_eco_cbse_01_001",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -443,7 +531,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Colonial exploitation' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"railways connected India\" misses the *directionality* and *pricing* design — infrastructure that serves extraction has negative linkage effects for domestic industry.",
-    "id": "gen_c11_eco_ch01_q11",
+    "id": "gen_c11_eco_ch01_q13",
     "nodeId": "c11_eco_cbse_01_001",
     "difficulty": "advanced"
    },
@@ -458,8 +546,38 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Zamindari, Ryotwari, and' slide -- match the key terms.",
     "misconception": "A poor answer with unsupported ratings reveals the student cannot adopt the colonial administrator's perspective to understand why different systems were chosen for different regions.",
-    "id": "gen_c11_eco_ch01_q12",
+    "id": "gen_c11_eco_ch01_q14",
     "nodeId": "c11_eco_cbse_01_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the statement: \"India's persistent export surplus under British rule proves the economy was competitive and gaining foreign exchange.\" Use the concept of 'invisible imports' and 'home charges' in your reasoning.",
+    "answer": "The statement is false. The export surplus (visible trade) was offset by large invisible imports: (1) Home charges",
+    "options": [
+     "The Coast Canal was built at huge cost, but railways soon ran parallel to it, offering faster, cheaper, and more reliable transport. The canal could not compete and was abandoned",
+     "Daccai muslin collapsed because British machine-made cloth entered India duty-free (or at nominal tariffs) while Indian textiles faced 70-80% duties in Britain",
+     "The statement is false. The export surplus (visible trade) was offset by large invisible imports: (1) Home charges"
+    ],
+    "hint": "Straight from the 'Foreign trade composition and' slide -- match the key terms.",
+    "misconception": "A student who equates export surplus with economic gain commits the mercantilist fallacy, ignoring that the surplus was not retained as reserves but transferred abroad to service colonial obligations.",
+    "id": "gen_c11_eco_ch01_q15",
+    "nodeId": "c11_eco_cbse_01_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Analyse how the \"Council Bills\" mechanism operated to convert India's export surplus into sterling for home charges, and why this mechanism meant that Indian taxpayers effectively paid for British administrative costs twice.",
+    "answer": "Mechanism: (1) British importers bought Council Bills from London (denominated in sterling) to pay Indian exporters",
+    "options": [
+     "Railways were built to connect raw-material-producing interiors to ports (not industrial centres to each other)",
+     "The Coast Canal was built at huge cost, but railways soon ran parallel to it, offering faster, cheaper, and more reliable transport. The canal could not compete and was abandoned",
+     "Mechanism: (1) British importers bought Council Bills from London (denominated in sterling) to pay Indian exporters"
+    ],
+    "hint": "Straight from the 'The Drain of Wealth theory' slide -- match the key terms.",
+    "misconception": "A wrong answer describing Council Bills as \"normal trade finance\" misses that the *Government* was the counterparty, making it a fiscal transfer disguised as commercial transaction.",
+    "id": "gen_c11_eco_ch01_q16",
+    "nodeId": "c11_eco_cbse_01_009",
     "difficulty": "advanced"
    },
    {
@@ -467,13 +585,13 @@ export const C11_ECO_GEN: SimDef[] = [
     "question": "Construct a simplified balance-of-payments style account for colonial India (c. 1900) showing: merchandise exports, merchandise imports, invisible debits (home charges, interest, profits), invisible credits, and net drain.",
     "answer": "Sample account (all £ millions): Merchandise Exports: 180 Merchandise Imports: 100 Merchandise Trade Balance: +80 Invisible Credits (shipping, insurance",
     "options": [
+     "The adoption chain runs: (1) HYV seeds demand assured water, fertiliser and pesticide together (2) Irrigated northwestern districts could fund the package through institutional",
      "Table: CBR ~40, CDR ~40, IMR 218, LE 32, Literacy 16%, Female Literacy 7%, Urbanisation ~14%. Policy Brief: \"Priority: Universal public health and nutrition programme targeting",
-     "Step 1: Probability of surviving infancy = 1 - 0.218 = 0.782. Step 2: Approximate survival to age 15 given life expectancy 32",
      "Sample account (all £ millions): Merchandise Exports: 180 Merchandise Imports: 100 Merchandise Trade Balance: +80 Invisible Credits (shipping, insurance"
     ],
     "hint": "Straight from the 'The Drain of Wealth theory' slide -- match the key terms.",
     "misconception": "A poor answer shows imbalance or omits profit remittances, revealing misunderstanding that drain operated *through* the trade surplus, not alongside it. The key insight: the £80 merchandise surplus financed the £60 invisible debit — the \"surplus\" was the drain's vehicle.",
-    "id": "gen_c11_eco_ch01_q13",
+    "id": "gen_c11_eco_ch01_q17",
     "nodeId": "c11_eco_cbse_01_009",
     "difficulty": "advanced"
    },
@@ -488,54 +606,9 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Demographic conditions refer to' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"poverty\" without policy links shows inability to connect demographic outcomes to institutional causes.",
-    "id": "gen_c11_eco_ch01_q14",
+    "id": "gen_c11_eco_ch01_q18",
     "nodeId": "c11_eco_cbse_01_010",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Construct a demographic profile table for British India in 1941 using these indicators: CBR, CDR, IMR, Life Expectancy, Total Literacy, Female Literacy, Urbanisation Rate. Then write a 3-sentence policy brief for the 1947 Interim Government identifying the TOP priority demographic intervention with justification.",
-    "answer": "Table: CBR ~40, CDR ~40, IMR 218, LE 32, Literacy 16%, Female Literacy 7%, Urbanisation ~14%. Policy Brief: \"Priority: Universal public health and nutrition programme targeting",
-    "options": [
-     "Example table: - Zamindari: Revenue Certainty = High (fixed forever), Admin Cost = Low (few intermediaries), Peasant Incentive = Low (no ownership)",
-     "The statement is a half-truth. While infrastructure was built, its *design, financing, and operation* served colonial interests: - Railways: guaranteed returns to British",
-     "Table: CBR ~40, CDR ~40, IMR 218, LE 32, Literacy 16%, Female Literacy 7%, Urbanisation ~14%. Policy Brief: \"Priority: Universal public health and nutrition programme targeting"
-    ],
-    "hint": "Straight from the 'Demographic conditions refer to' slide -- match the key terms.",
-    "misconception": "A poor answer listing \"education\" as top priority without linking to mortality reduction shows inability to sequence policy by demographic impact.",
-    "id": "gen_c11_eco_ch01_q15",
-    "nodeId": "c11_eco_cbse_01_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "What was the approximate infant mortality rate (IMR) in British India on the eve of independence, and how does it compare to the present IMR in India?",
-    "answer": "The IMR in British India was approximately 218 per thousand live births, compared to about 28 per thousand in present-day India",
-    "options": [
-     "Table: CBR ~40, CDR ~40, IMR 218, LE 32, Literacy 16%, Female Literacy 7%, Urbanisation ~14%. Policy Brief: \"Priority: Universal public health and nutrition programme targeting",
-     "Railways were built to connect raw-material-producing interiors to ports (not industrial centres to each other)",
-     "The IMR in British India was approximately 218 per thousand live births, compared to about 28 per thousand in present-day India"
-    ],
-    "hint": "Straight from the 'Demographic conditions refer to' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., stating IMR was low or confusing it with crude death rate) reveals the student cannot distinguish between different mortality indicators or recall the specific quantitative magnitude of colonial-era demographic distress.",
-    "id": "gen_c11_eco_ch01_q16",
-    "nodeId": "c11_eco_cbse_01_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Critically evaluate the statement: \"The British administration in India was quite beneficial because it built railways, roads, and telegraphs.\"",
-    "answer": "The statement is a half-truth. While infrastructure was built, its *design, financing, and operation* served colonial interests: - Railways: guaranteed returns to British",
-    "options": [
-     "(i) Sectoral shares: Primary < 50% (vs. actual 72%), Secondary > 30% (vs. actual 10%), Tertiary ~20%",
-     "Normal year: Gross value = 5 ha × ₹40,000 = ₹2,00,000. Revenue = 50% = ₹1,00,000. Net income = ₹1,00,000",
-     "The statement is a half-truth. While infrastructure was built, its *design, financing, and operation* served colonial interests: - Railways: guaranteed returns to British"
-    ],
-    "hint": "Straight from the 'Infrastructure under colonial rule' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is a half-truth. While infrastructure was built, its *design, financing, and operation* served colonial",
-    "id": "gen_c11_eco_ch01_q17",
-    "nodeId": "c11_eco_cbse_01_012",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -779,6 +852,21 @@ export const C11_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simplified tax reform proposal for a hypothetical state government that currently has: (a) 5% VAT on goods, (b) 8% entertainment tax, (c) 10% luxury tax, (d) no service tax.",
+    "answer": "Proposal: Single SGST rate of 12% on all goods and services (replacing VAT, entertainment, luxury taxes)",
+    "options": [
+     "NPR = [(Domestic Price - International Price) / International Price] × 100 = [(2200 - 1600) / 1600] × 100 = 37",
+     "Step 1: Original revenue = 2 quintals × ₹7,000 = ₹14,000. Step 2: Original cost = ₹10,000. Step 3: New cost = ₹10,000 + ₹2,000 = ₹12,000",
+     "Proposal: Single SGST rate of 12% on all goods and services (replacing VAT, entertainment, luxury taxes)"
+    ],
+    "hint": "Straight from the 'Tax reforms under liberalisation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Proposal: Single SGST rate of 12% on all goods and services (replacing VAT, entertainment, luxury taxes).",
+    "id": "gen_c11_eco_ch03_q5",
+    "nodeId": "c11_eco_cbse_03_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Explain why the introduction of MODVAT (Modified Value Added Tax) in 1986 and its evolution into CENVAT and finally GST represents a solution to the \"cascading effect\" of indirect taxes. Use a numerical example with a manufacturer, wholesaler, and retailer.",
     "answer": "Under the old system, tax was levied on the full value at each stage (manufacturer pays excise on raw materials + value added",
     "options": [
@@ -788,7 +876,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Tax reforms under liberalisation' slide -- match the key terms.",
     "misconception": "Wrong answer (e.g., \"MODVAT reduced tax rates\") confuses rate reduction with structural elimination of cascading — the rate could stay same but base changes to value added only.",
-    "id": "gen_c11_eco_ch03_q5",
+    "id": "gen_c11_eco_ch03_q6",
     "nodeId": "c11_eco_cbse_03_005",
     "difficulty": "advanced"
    },
@@ -803,8 +891,23 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Globalisation in the Indian' slide -- match the key terms.",
     "misconception": "A poor answer suggesting \"retaliatory tariffs\" misses WTO dispute settlement requirements and risks authorised retaliation against India.",
-    "id": "gen_c11_eco_ch03_q6",
+    "id": "gen_c11_eco_ch03_q7",
     "nodeId": "c11_eco_cbse_03_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Using the Mahadeva case study: if fertiliser cost rose by ₹2,000 per half-acre due to subsidy removal, and imported edible oil reduced groundnut price by ₹1,000 per quintal (from ₹7,000 to ₹6,000), calculate the new profit/loss per half-acre assuming output remains 2 quintals.",
+    "answer": "Step 1: Original revenue = 2 quintals × ₹7,000 = ₹14,000. Step 2: Original cost = ₹10,000. Step 3: New cost = ₹10,000 + ₹2,000 = ₹12,000",
+    "options": [
+     "NPR = [(Domestic Price - International Price) / International Price] × 100 = [(2200 - 1600) / 1600] × 100 = 37",
+     "(a) Legal basis: Challenge under GATT Article I (MFN) and III (National Treatment)—CBAM discriminates by origin (no carbon price in EU for domestic steel) and acts as a border tax",
+     "Step 1: Original revenue = 2 quintals × ₹7,000 = ₹14,000. Step 2: Original cost = ₹10,000. Step 3: New cost = ₹10,000 + ₹2,000 = ₹12,000"
+    ],
+    "hint": "Straight from the 'assessment of LPG reforms on' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., still showing profit) reveals inability to combine simultaneous cost-push and price-deflation shocks — the dual squeeze reform critics highlight.",
+    "id": "gen_c11_eco_ch03_q8",
+    "nodeId": "c11_eco_cbse_03_011",
     "difficulty": "advanced"
    }
   ],
@@ -2632,15 +2735,15 @@ export const C11_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "UNDERSTAND LEVEL: Explain why the worker-population ratio for rural women (34.8%) is higher than for urban women (20.7%) in 2023-24 (Table 6.1), despite urban areas having more diverse employment opportunities.",
-    "answer": "Rural women participate more because (a) subsistence agriculture requires family labour — women work on family farms without explicit wages but are counted as workers since farm",
+    "question": "REMEMBER LEVEL: State the precise NCERT definition of a 'worker' and list the three employment status categories with one example each.",
+    "answer": "A worker is \"all those who are engaged in economic activities, in whatever capacity — high or low\" including those temporarily absent due to illness, festivals, etc",
     "options": [
-     "The 1999–2005 spike coincides with: (1) Construction boom (secondary sector share rose 16% → 24.3%) — labour-intensive, absorbing low-skilled rural workers",
-     "A worker is \"all those who are engaged in economic activities, in whatever capacity — high or low\" including those temporarily absent due to illness, festivals, etc",
-     "Rural women participate more because (a) subsistence agriculture requires family labour — women work on family farms without explicit wages but are counted as workers since farm"
+     "with Steps: (a) Worker-population ratio = (4,200 ÷ 10,000) × 100 = 42.0% (b) Female workers = 700 + 200 + 300 = 1,200",
+     "Case: Ahmedabad mill worker (from Box 6.2) becomes casual construction worker. Vulnerabilities: (1) No PF → no retirement corpus",
+     "A worker is \"all those who are engaged in economic activities, in whatever capacity — high or low\" including those temporarily absent due to illness, festivals, etc"
     ],
     "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Rural women participate more because (a) subsistence agriculture requires family labour — women work on family farms",
+    "misconception": "Recheck the lesson slide -- the key claim is: A worker is \"all those who are engaged in economic activities, in whatever capacity — high or low\" including those",
     "id": "gen_c11_eco_ch06_q18",
     "nodeId": "c11_eco_cbse_06_001",
     "difficulty": "standard"
@@ -3959,6 +4062,21 @@ export const C11_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Calculate the approximate number of annual live births in Pakistan in 2021–23 using its estimated population (240 million) and the crude birth rate implied by its fertility rate of 3.",
+    "answer": "Step 1: Estimated CBR for Pakistan ≈ 27 per 1,000 (from external data consistent with TFR 3.4). Step 2: Population = 240 million = 240,000 thousand",
+    "options": [
+     "Reason 1: Pakistan's agricultural growth depended on \"good harvest\" (weather luck) not \"institutionalised process of technical change\" — so volatility dragged down overall growth",
+     "Profile: Population 1,000 million (between 240 and 1,411); Growth rate 0.4% (between –0.10% and 0.81%); Density 300 persons/sq",
+     "Step 1: Estimated CBR for Pakistan ≈ 27 per 1,000 (from external data consistent with TFR 3.4). Step 2: Population = 240 million = 240,000 thousand"
+    ],
+    "hint": "Straight from the 'Demographic indicators' slide -- match the key terms.",
+    "misconception": "A wrong answer using TFR directly (e.g., 3.4 × 240 million) reveals misunderstanding that TFR is a synthetic cohort measure, not a period birth count.",
+    "id": "gen_c11_eco_ch08_q9",
+    "nodeId": "c11_eco_cbse_08_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the sex ratios of the three countries (India 930, China 898, Pakistan 948 females per 1,000 males). Analyse why all three are below 1,000 despite different population policies, and explain why China's ratio is the lowest even after relaxing the one-child norm.",
     "answer": "All three ratios below 1,000 indicate son preference — a cultural norm leading to sex-selective abortion, female infanticide, or neglect of girl children",
     "options": [
@@ -3968,7 +4086,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Demographic indicators' slide -- match the key terms.",
     "misconception": "A wrong answer blaming only \"poverty\" or \"illiteracy\" ignores that China's ratio is worse than India's despite higher income and literacy — showing policy interaction with culture.",
-    "id": "gen_c11_eco_ch08_q9",
+    "id": "gen_c11_eco_ch08_q10",
     "nodeId": "c11_eco_cbse_08_003",
     "difficulty": "advanced"
    },
@@ -3983,7 +4101,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Demographic indicators' slide -- match the key terms.",
     "misconception": "A poor answer picks numbers outside the range or copies one country's values, showing inability to interpolate demographic trends.",
-    "id": "gen_c11_eco_ch08_q10",
+    "id": "gen_c11_eco_ch08_q11",
     "nodeId": "c11_eco_cbse_08_003",
     "difficulty": "advanced"
    },
@@ -3998,8 +4116,23 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Demographic indicators' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., omitting NMR or forgetting division by 10) reveals confusion between rate per thousand and percentage, or ignorance of migration's role — a common error when textbooks only emphasise natural increase.",
-    "id": "gen_c11_eco_ch08_q11",
+    "id": "gen_c11_eco_ch08_q12",
     "nodeId": "c11_eco_cbse_08_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Construct a policy brief (3 bullet points) for India's NITI Aayog recommending how to leverage its current demographic transition stage (using Table 8.1 data) to avoid the middle-income trap, referencing China's experience.",
+    "answer": "Good answer includes: (1) Accelerate female labour force participation (fertility 2.0 allows women to work) to boost savings and human capital",
+    "options": [
+     "Reason 1: Pakistan's agricultural growth depended on \"good harvest\" (weather luck) not \"institutionalised process of technical change\" — so volatility dragged down overall growth",
+     "China's negative growth stems from its fertility rate of 1.2 (well below replacement level 2.1) due to the one-child policy legacy, while Pakistan's fertility rate is 3",
+     "Good answer includes: (1) Accelerate female labour force participation (fertility 2.0 allows women to work) to boost savings and human capital"
+    ],
+    "hint": "Straight from the 'Demographic transition' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Good answer includes: (1) Accelerate female labour force participation (fertility 2.",
+    "id": "gen_c11_eco_ch08_q13",
+    "nodeId": "c11_eco_cbse_08_004",
     "difficulty": "advanced"
    },
    {
@@ -4013,7 +4146,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Demographic transition' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement shows misunderstanding that dividend is not automatic—it requires complementary policies (education, health, labour market flexibility).",
-    "id": "gen_c11_eco_ch08_q12",
+    "id": "gen_c11_eco_ch08_q14",
     "nodeId": "c11_eco_cbse_08_004",
     "difficulty": "advanced"
    },
@@ -4028,7 +4161,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Demographic transition' slide -- match the key terms.",
     "misconception": "A wrong answer attributing growth difference to sex ratio shows confusion between stock (sex ratio) and flow (growth rate) variables, and ignores fertility rate as the direct driver of natural increase.",
-    "id": "gen_c11_eco_ch08_q13",
+    "id": "gen_c11_eco_ch08_q15",
     "nodeId": "c11_eco_cbse_08_004",
     "difficulty": "advanced"
    },
@@ -4043,7 +4176,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Great Leap Forward  was' slide -- match the key terms.",
     "misconception": "A wrong answer blaming only drought or the later Cultural Revolution shows a misunderstanding of the policy-induced supply-side collapse and the role of foreign technology dependence in the pre-reform era.",
-    "id": "gen_c11_eco_ch08_q14",
+    "id": "gen_c11_eco_ch08_q16",
     "nodeId": "c11_eco_cbse_08_009",
     "difficulty": "advanced"
    },
@@ -4058,7 +4191,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lessons from Chinese and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is partially valid: China achieved remarkable poverty reduction (Table 8.",
-    "id": "gen_c11_eco_ch08_q15",
+    "id": "gen_c11_eco_ch08_q17",
     "nodeId": "c11_eco_cbse_08_011",
     "difficulty": "advanced"
    }

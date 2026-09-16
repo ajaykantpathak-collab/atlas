@@ -4,12 +4,25 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   ArrowLeft, BookOpen, Brain, Lightbulb, AlertTriangle, FileText,
-  PlayCircle, PenSquare, CheckCircle2, Circle, ChevronRight,
-  Sparkles, Clock, TrendingUp, Target, Zap, BookMarked, Award,
+  PlayCircle, PenSquare, Circle, ChevronRight,
+  Sparkles, TrendingUp, Target, Zap, BookMarked, Award,
+  FlaskConical, GraduationCap, WifiOff, Eye, EyeOff,
 } from 'lucide-react'
 import Link from 'next/link'
 import { PrismLogo } from '@/components/prism/PrismLogo'
 import { api } from '@/lib/api'
+import { subjectName } from '@/lib/nodeTitle'
+import DoodleCardImage from '@/components/doodle/DoodleCardImage'
+import QuickQuiz from '@/components/learn/QuickQuiz'
+import PrereqFixList from '@/components/learn/PrereqFixList'
+import AuthoredText from '@/components/learn/AuthoredText'
+import {
+  fetchNodeRemediation,
+  nodeRefLabel,
+  type NodeRemediation,
+} from '@/components/learn/remediation'
+
+interface SimRef { id: string; title: string; classLevel: number; generated: boolean }
 
 interface EnrichmentData {
   node_id: string
@@ -34,30 +47,181 @@ interface EnrichmentData {
   board: string | null
 }
 
+/** One node in a prerequisite / unlock chain (GET /api/graph/prerequisites|unlocks). */
+interface GraphNodeRef {
+  node_id: string
+  name?: string | null
+  subject?: string | null
+  class_level?: string | number | null
+  difficulty?: string | null
+}
+
+/** GET /api/tutor-graph/teach response (compact). */
+interface TeachDiagnostic {
+  index: number
+  question: string
+  answer: string
+  misconception: string | null
+}
+
+interface TeachData {
+  node_id: string
+  definition: string | null
+  walkthrough: string | null
+  diagnostic: TeachDiagnostic | null
+}
+
+type GraphPanelState = 'loading' | 'ready' | 'unavailable'
+
+/** Human label for a graph node — a raw node id must never reach the screen.
+ *  Prefer the backend's topic label; fall back to the sanctioned helper. */
+function graphNodeLabel(node: GraphNodeRef): string {
+  const name = (node.name || '').trim()
+  if (name && name !== node.node_id && !/^[a-z0-9_-]+$/i.test(name)) return name
+  return nodeRefLabel(node.node_id)
+}
+
+function Skeleton({ className = '' }: { className?: string }) {
+  return <div className={`animate-pulse rounded-lg bg-surface-200/40 ${className}`} aria-hidden="true" />
+}
+
+function PanelSkeleton({ rows = 3 }: { rows?: number }) {
+  return (
+    <div className="space-y-3" role="status" aria-label="Loading">
+      {Array.from({ length: rows }).map((_, i) => (
+        <Skeleton key={i} className="h-4" />
+      ))}
+    </div>
+  )
+}
+
 export default function TopicDetailPage({ params }: { params: { topicId: string } }) {
   const { topicId } = params
   const [activeTab, setActiveTab] = useState<'overview' | 'exam' | 'faq' | 'glossary'>('overview')
   const [topic, setTopic] = useState<EnrichmentData | null>(null)
+  const [nodeSims, setNodeSims] = useState<SimRef[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+
+  // Prerequisite / unlock chains (knowledge graph)
+  const [prereqs, setPrereqs] = useState<GraphNodeRef[]>([])
+  const [prereqsState, setPrereqsState] = useState<GraphPanelState>('loading')
+  const [unlocks, setUnlocks] = useState<GraphNodeRef[]>([])
+  const [unlocksState, setUnlocksState] = useState<GraphPanelState>('loading')
+
+  // Tutor teach card ("What you'll learn")
+  const [teach, setTeach] = useState<TeachData | null>(null)
+  const [teachState, setTeachState] = useState<'loading' | 'ready' | 'unavailable'>('loading')
+  const [showDiag, setShowDiag] = useState(false)
+
+  // In-page quick quiz
+  const [quizOpen, setQuizOpen] = useState(false)
+  // Diagnostic to re-serve first (retry CTA from the Remediation tab)
+  const [focusDiagnostic, setFocusDiagnostic] = useState<number | null>(null)
+
+  // Closed-world remediation recipe (misconception + diagnostics + prereqs)
+  const [remediation, setRemediation] = useState<NodeRemediation | null>(null)
+  const [remediationState, setRemediationState] = useState<'loading' | 'ready'>('loading')
+  const [openDiag, setOpenDiag] = useState<Set<number>>(new Set())
 
   useEffect(() => {
     setLoading(true)
     setError(null)
+    setTopic(null)
+    setQuizOpen(false)
+    setShowDiag(false)
+    setFocusDiagnostic(null)
+    setOpenDiag(new Set())
+    setRemediation(null)
+    setRemediationState('loading')
     api.get<EnrichmentData>(`/api/content/nodes/${topicId}/enrichment`)
       .then((data) => setTopic(data))
       .catch((e) => setError(e.message || 'Failed to load topic'))
       .finally(() => setLoading(false))
+    // sims teaching this node — served by the backend from SIM_INDEX
+    // (the /api/* rewrite shadows Next-side dynamic handlers, so the
+    // lookup lives on the backend like every other endpoint)
+    api.get<SimRef[]>(`/api/nodes/${encodeURIComponent(topicId)}/sims`)
+      .then((sims) => setNodeSims(Array.isArray(sims) ? sims : []))
+      .catch(() => setNodeSims([]))
+    // remediation recipe: authored misconception + servable diagnostics
+    // + prereq chain (all from the enhanced-nodes corpus, all optional —
+    // the tab degrades per field)
+    fetchNodeRemediation(topicId)
+      .then((r) => {
+        setRemediation(r)
+        setRemediationState('ready')
+      })
+      .catch(() => setRemediationState('ready'))
   }, [topicId])
 
-  if (loading) {
+  // Knowledge-graph chains + tutor teach card (independent sections)
+  useEffect(() => {
+    setPrereqsState('loading')
+    setUnlocksState('loading')
+    setTeachState('loading')
+    setTeach(null)
+    api.get<{ prerequisites: GraphNodeRef[] }>(`/api/graph/prerequisites/${encodeURIComponent(topicId)}`)
+      .then((d) => {
+        setPrereqs(Array.isArray(d?.prerequisites) ? d.prerequisites : [])
+        setPrereqsState('ready')
+      })
+      .catch(() => setPrereqsState('unavailable'))
+    api.get<{ unlocks: GraphNodeRef[] }>(`/api/graph/unlocks/${encodeURIComponent(topicId)}`)
+      .then((d) => {
+        setUnlocks(Array.isArray(d?.unlocks) ? d.unlocks : [])
+        setUnlocksState('ready')
+      })
+      .catch(() => setUnlocksState('unavailable'))
+    api.get<TeachData>(`/api/tutor-graph/teach?node_id=${encodeURIComponent(topicId)}`)
+      .then((d) => {
+        setTeach(d)
+        setTeachState('ready')
+      })
+      .catch(() => setTeachState('unavailable'))
+  }, [topicId])
+
+  if (loading && !topic) {
     return (
-      <div className="min-h-screen mesh-bg flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-12 h-12 rounded-full bg-brand-gradient flex items-center justify-center mx-auto mb-4 animate-pulse">
-            <BookOpen className="w-6 h-6 text-white" />
+      <div className="min-h-screen mesh-bg">
+        {/* Top bar skeleton */}
+        <div className="sticky top-0 z-40 glass-strong border-b border-surface-300/30">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center gap-4">
+            <PrismLogo size={28} />
+            <Skeleton className="h-8 w-8 rounded-lg" />
+            <Skeleton className="h-4 w-64 hidden sm:block" />
           </div>
-          <p className="text-sm text-surface-600">Loading topic...</p>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {/* Header skeleton */}
+          <div className="flex items-start gap-4 mb-8">
+            <Skeleton className="h-14 w-14 rounded-2xl" />
+            <div className="flex-1 space-y-3">
+              <Skeleton className="h-8 w-1/2" />
+              <Skeleton className="h-4 w-1/3" />
+              <Skeleton className="h-5 w-40" />
+            </div>
+          </div>
+          <div className="grid lg:grid-cols-3 gap-6">
+            <div className="lg:col-span-2 space-y-6">
+              <div className="grid grid-cols-2 gap-3">
+                <Skeleton className="h-12 rounded-xl" />
+                <Skeleton className="h-12 rounded-xl" />
+              </div>
+              <Skeleton className="h-44 rounded-2xl" />
+              <div className="flex gap-1 p-1 glass rounded-xl">
+                {Array.from({ length: 4 }).map((_, i) => (
+                  <Skeleton key={i} className="h-10 flex-1 rounded-lg" />
+                ))}
+              </div>
+              <Skeleton className="h-56 rounded-2xl" />
+            </div>
+            <div className="space-y-6">
+              <Skeleton className="h-40 rounded-2xl" />
+              <Skeleton className="h-40 rounded-2xl" />
+              <Skeleton className="h-36 rounded-2xl" />
+            </div>
+          </div>
         </div>
       </div>
     )
@@ -69,7 +233,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
         <div className="glass-card p-8 text-center max-w-md">
           <AlertTriangle className="w-10 h-10 text-red-300 mx-auto mb-4" />
           <h1 className="font-display text-xl font-bold text-white mb-2">Topic Not Found</h1>
-          <p className="text-sm text-surface-600 mb-4">{error || `No enrichment content for node "${topicId}"`}</p>
+          <p className="text-sm text-surface-600 mb-4">
+            {error || `No enrichment content for ${nodeRefLabel(topicId)}.`}
+          </p>
           <Link href="/learn" className="btn-primary inline-block">
             Back to Topics
           </Link>
@@ -78,11 +244,14 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
     )
   }
 
-  const subjectName = topic.subject === 'physics' ? 'Physics'
-    : topic.subject === 'chem' ? 'Chemistry'
-    : topic.subject === 'bio' ? 'Biology'
-    : topic.subject === 'maths' ? 'Mathematics'
-    : topic.subject
+  const subject = subjectName(topic.subject)
+
+  // Diagnostic entries the corpus actually serves with question text —
+  // the enrichment route can carry placeholder entries with null fields;
+  // those are dropped here, never rendered as empty blocks.
+  const servableDiagnostics = (topic.diagnostic_questions || []).filter(
+    (dq: any) => dq && String(dq.question || '').trim(),
+  )
 
   return (
     <div className="min-h-screen mesh-bg">
@@ -99,7 +268,7 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
               <ChevronRight className="w-3 h-3" />
               <span>Class {topic.class_level}</span>
               <ChevronRight className="w-3 h-3" />
-              <span>{subjectName}</span>
+              <span>{subject}</span>
               <ChevronRight className="w-3 h-3" />
               <span className="text-white">{topic.title}</span>
             </div>
@@ -135,13 +304,15 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
             <div className="flex-1">
               <h1 className="font-display text-3xl font-bold text-white mb-1">{topic.title}</h1>
               <p className="text-sm text-surface-600">
-                {topic.chapter || subjectName} · {subjectName} · Class {topic.class_level}
+                {topic.chapter || subject} · {subject} · Class {topic.class_level}
               </p>
               <div className="flex flex-wrap items-center gap-2 mt-3">
-                <span className="badge-brand">
-                  <Target className="w-3 h-3" />
-                  Node: {topic.node_id}
-                </span>
+                {topic.chapter && (
+                  <span className="badge-brand">
+                    <BookMarked className="w-3 h-3" />
+                    Chapter {topic.chapter}
+                  </span>
+                )}
                 {topic.difficulty && (
                   <span className="badge-accent">
                     <TrendingUp className="w-3 h-3" />
@@ -157,16 +328,151 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
           {/* Main content */}
           <div className="lg:col-span-2 space-y-6">
             {/* Action buttons */}
-            <div className="grid grid-cols-2 gap-3">
+            <motion.div
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.05 }}
+              className="grid grid-cols-2 gap-3"
+            >
               <Link href="/tutor" className="btn-primary group">
                 <PlayCircle className="w-5 h-5" />
                 Start Learning
               </Link>
-              <Link href="/practice" className="btn-secondary">
+              <button
+                onClick={() => setQuizOpen((v) => !v)}
+                aria-expanded={quizOpen}
+                className={`btn-secondary ${quizOpen ? 'ring-1 ring-gold-400/50' : ''}`}
+              >
                 <PenSquare className="w-5 h-5" />
-                Take Quiz
-              </Link>
-            </div>
+                {quizOpen ? 'Hide Quick Quiz' : 'Take Quiz'}
+              </button>
+            </motion.div>
+
+            {/* In-page quick quiz — authored diagnostics + remediation loop
+                when the node's corpus serves them, practice engine otherwise */}
+            <div id="quick-quiz-anchor" />
+            <AnimatePresence>
+              {quizOpen && (
+                <motion.div
+                  key="quick-quiz"
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: 'auto' }}
+                  exit={{ opacity: 0, height: 0 }}
+                  className="overflow-hidden"
+                >
+                  <QuickQuiz
+                    subject={topic.subject}
+                    nodeId={topicId}
+                    startDiagnostic={focusDiagnostic}
+                    onClose={() => {
+                      setQuizOpen(false)
+                      setFocusDiagnostic(null)
+                    }}
+                  />
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+            {/* What you'll learn — surfaced from the tutor's teach card */}
+            {teachState === 'loading' && (
+              <div className="glass-card p-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <GraduationCap className="w-5 h-5 text-gold-300" />
+                  <h3 className="font-display text-base font-semibold text-white">What you&apos;ll learn</h3>
+                </div>
+                <PanelSkeleton rows={2} />
+              </div>
+            )}
+            {teachState === 'ready' && teach && (teach.definition || teach.diagnostic) && (
+              <motion.div
+                initial={{ opacity: 0, y: 14 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 }}
+                className="glass-card p-5"
+              >
+                <div className="flex items-center gap-2 mb-3">
+                  <GraduationCap className="w-5 h-5 text-gold-300" />
+                  <h3 className="font-display text-base font-semibold text-white">What you&apos;ll learn</h3>
+                </div>
+                {teach.definition && (
+                  <p className="text-sm text-surface-800 leading-relaxed mb-3">
+                    <AuthoredText text={teach.definition} />
+                  </p>
+                )}
+                {teach.diagnostic && (
+                  <div className="rounded-xl border border-gold-500/20 bg-gold-500/5 p-3">
+                    <p className="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-gold-300 font-semibold mb-1.5">
+                      <Sparkles className="w-3.5 h-3.5" />
+                      Warm-up check
+                    </p>
+                    <p className="text-sm text-white mb-2">
+                      <AuthoredText text={teach.diagnostic.question} />
+                    </p>
+                    <button
+                      onClick={() => setShowDiag((v) => !v)}
+                      className="inline-flex items-center gap-1.5 text-xs font-medium text-brand-300 hover:text-brand-200 transition-colors"
+                    >
+                      {showDiag ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
+                      {showDiag ? 'Hide answer' : 'Show answer'}
+                    </button>
+                    <AnimatePresence>
+                      {showDiag && (
+                        <motion.div
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: 'auto', opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          className="overflow-hidden"
+                        >
+                          <p className="text-sm text-mint-300 mt-2">
+                            <AuthoredText text={teach.diagnostic.answer} />
+                          </p>
+                          {teach.diagnostic.misconception && (
+                            <p className="text-xs text-surface-600 mt-1">
+                              Watch out: <AuthoredText text={teach.diagnostic.misconception} />
+                            </p>
+                          )}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                )}
+              </motion.div>
+            )}
+
+            {/* Simulation launcher — only when a sim teaches this node */}
+            {nodeSims.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, y: 14 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.15 }}
+                className="glass-card p-4"
+              >
+                <div className="flex items-center gap-2 mb-3">
+                  <FlaskConical className="w-5 h-5 text-brand-300" />
+                  <h3 className="font-display text-base font-semibold text-white">
+                    {nodeSims.length === 1 ? 'Simulation for this topic' : `${nodeSims.length} simulations for this topic`}
+                  </h3>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {nodeSims.map((sim) => (
+                    <Link
+                      key={sim.id}
+                      href={`/sims-v2/${encodeURIComponent(sim.id)}`}
+                      className="btn-secondary text-sm inline-flex items-center gap-2"
+                    >
+                      <Zap className="w-4 h-4 text-brand-300" />
+                      {sim.title}
+                      {sim.generated && (
+                        <span className="badge text-[10px] px-1.5 py-0.5">auto</span>
+                      )}
+                    </Link>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+
+            {/* Hand-drawn recap card (renders only when exported) */}
+            <DoodleCardImage nodeId={topic.node_id || topicId} classLevel={topic.class_level} />
 
             {/* Tabs */}
             <div className="flex gap-1 p-1 glass rounded-xl overflow-x-auto">
@@ -207,7 +513,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                         <Sparkles className="w-5 h-5 text-brand-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Definition</h3>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">{topic.definition}</p>
+                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                        <AuthoredText text={topic.definition} />
+                      </p>
                     </div>
                   )}
 
@@ -218,7 +526,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                         <Lightbulb className="w-5 h-5 text-gold-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Simple Explanation (ELI5)</h3>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">{topic.eli5}</p>
+                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                        <AuthoredText text={topic.eli5} />
+                      </p>
                     </div>
                   )}
 
@@ -229,7 +539,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                         <BookOpen className="w-5 h-5 text-mint-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Step-by-Step Walkthrough</h3>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">{topic.text_walkthrough}</p>
+                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                        <AuthoredText text={topic.text_walkthrough} />
+                      </p>
                     </div>
                   )}
 
@@ -240,7 +552,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                         <AlertTriangle className="w-5 h-5 text-red-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Common Misconceptions</h3>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">{topic.common_misconception}</p>
+                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                        <AuthoredText text={topic.common_misconception} />
+                      </p>
                     </div>
                   )}
 
@@ -251,7 +565,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                         <Award className="w-5 h-5 text-gold-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Examples</h3>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">{topic.examples}</p>
+                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                        <AuthoredText text={topic.examples} />
+                      </p>
                     </div>
                   )}
                 </motion.div>
@@ -265,15 +581,15 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                   exit={{ opacity: 0, y: -10 }}
                   className="space-y-6"
                 >
-                  {/* Diagnostic questions */}
-                  {topic.diagnostic_questions && topic.diagnostic_questions.length > 0 ? (
+                  {/* Diagnostic questions — servable entries only */}
+                  {servableDiagnostics.length > 0 ? (
                     <div className="glass-card p-6">
                       <div className="flex items-center gap-2 mb-4">
                         <FileText className="w-5 h-5 text-brand-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Diagnostic Questions</h3>
                       </div>
                       <div className="space-y-4">
-                        {topic.diagnostic_questions.map((dq: any, i: number) => (
+                        {servableDiagnostics.map((dq: any, i: number) => (
                           <div key={i} className="border-l-2 border-brand-500/40 pl-4">
                             <div className="flex items-center gap-2 mb-2">
                               <span className="badge-brand text-xs">Q{dq.number || i + 1}</span>
@@ -281,8 +597,14 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                                 <span className="badge text-xs">{dq.cognitive_type}</span>
                               )}
                             </div>
-                            <p className="text-sm text-white font-medium mb-2">{dq.question}</p>
-                            <p className="text-sm text-surface-700 whitespace-pre-wrap">{dq.answer}</p>
+                            <p className="text-sm text-white font-medium mb-2">
+                              <AuthoredText text={dq.question} />
+                            </p>
+                            {String(dq.answer || '').trim() && (
+                              <p className="text-sm text-surface-700 whitespace-pre-wrap">
+                                <AuthoredText text={dq.answer} />
+                              </p>
+                            )}
                           </div>
                         ))}
                       </div>
@@ -300,7 +622,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                         <Target className="w-5 h-5 text-mint-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Mastery Criteria</h3>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">{topic.mastery_criteria}</p>
+                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                        <AuthoredText text={topic.mastery_criteria} />
+                      </p>
                     </div>
                   )}
                 </motion.div>
@@ -314,42 +638,192 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                   exit={{ opacity: 0, y: -10 }}
                   className="space-y-4"
                 >
-                  {/* On failure / remediation */}
-                  {topic.on_failure && topic.on_failure.length > 0 ? (
+                  {/* Closed-world remediation loop: missed diagnostic →
+                      authored misconception → prereq lesson → prereq sim.
+                      Every string below is authored corpus content; fields
+                      the node lacks are omitted, never invented. */}
+                  {remediationState === 'loading' && (
                     <div className="glass-card p-6">
                       <div className="flex items-center gap-2 mb-4">
-                        <AlertTriangle className="w-5 h-5 text-gold-300" />
-                        <h3 className="font-display text-lg font-semibold text-white">Remediation Guidance</h3>
+                        <Lightbulb className="w-5 h-5 text-gold-300" />
+                        <h3 className="font-display text-lg font-semibold text-white">Remediation</h3>
                       </div>
-                      <div className="space-y-4">
-                        {topic.on_failure.map((of: any, i: number) => (
-                          <div key={i} className="border-l-2 border-gold-500/40 pl-4">
-                            <p className="text-sm font-medium text-gold-300 mb-1">
-                              If Q{of.question_number} fails:
-                            </p>
-                            <p className="text-sm text-surface-700 whitespace-pre-wrap">{of.remediation_text}</p>
-                            {of.review_node_ids && of.review_node_ids.length > 0 && (
-                              <div className="flex flex-wrap gap-2 mt-2">
-                                {of.review_node_ids.map((nid: string, j: number) => (
-                                  <Link
-                                    key={j}
-                                    href={`/learn/${nid}`}
-                                    className="badge-brand text-xs hover:scale-105 transition-transform"
-                                  >
-                                    <ChevronRight className="w-3 h-3" />
-                                    {nid}
-                                  </Link>
-                                ))}
-                              </div>
-                            )}
+                      <PanelSkeleton rows={3} />
+                    </div>
+                  )}
+
+                  {remediationState === 'ready' && remediation && (
+                    <>
+                      {/* Authored on_failure steps (only when the corpus provides them) */}
+                      {remediation.onFailure && remediation.onFailure.length > 0 && (
+                        <div className="glass-card p-6">
+                          <div className="flex items-center gap-2 mb-4">
+                            <AlertTriangle className="w-5 h-5 text-gold-300" />
+                            <h3 className="font-display text-lg font-semibold text-white">Remediation Guidance</h3>
                           </div>
-                        ))}
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="glass-card p-6 text-center">
-                      <p className="text-sm text-surface-600">No remediation guidance available.</p>
-                    </div>
+                          <div className="space-y-4">
+                            {remediation.onFailure.map((of, i) => (
+                              <div key={i} className="border-l-2 border-gold-500/40 pl-4">
+                                {of.question_number !== undefined && (
+                                  <p className="text-sm font-medium text-gold-300 mb-1">
+                                    If Q{of.question_number} fails:
+                                  </p>
+                                )}
+                                <p className="text-sm text-surface-700 whitespace-pre-wrap">
+                                  <AuthoredText text={of.remediation_text} />
+                                </p>
+                                {of.review_node_ids && of.review_node_ids.length > 0 && (
+                                  <div className="flex flex-wrap gap-2 mt-2">
+                                    {of.review_node_ids.map((nid, j) => (
+                                      <Link
+                                        key={j}
+                                        href={`/learn/${encodeURIComponent(nid)}`}
+                                        className="badge-brand text-xs hover:scale-105 transition-transform"
+                                      >
+                                        <ChevronRight className="w-3 h-3" />
+                                        {nodeRefLabel(nid)}
+                                      </Link>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Authored common misconception for the node */}
+                      {remediation.commonMisconception && (
+                        <div className="glass-card p-6">
+                          <div className="flex items-center gap-2 mb-4">
+                            <AlertTriangle className="w-5 h-5 text-red-300" />
+                            <h3 className="font-display text-lg font-semibold text-white">Common Misconception</h3>
+                          </div>
+                          <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                            {remediation.commonMisconception}
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Authored diagnostics — each with its misconception
+                          and a retry CTA that re-serves it in the quiz */}
+                      {remediation.diagnostics.length > 0 && (
+                        <div className="glass-card p-6">
+                          <div className="flex items-center gap-2 mb-1">
+                            <FileText className="w-5 h-5 text-brand-300" />
+                            <h3 className="font-display text-lg font-semibold text-white">Diagnose Your Gaps</h3>
+                          </div>
+                          <p className="text-xs text-surface-600 mb-5">
+                            Miss one of these and the quiz opens its authored fix-it recipe —
+                            the misconception, then the prerequisite lessons and sims.
+                          </p>
+                          <div className="space-y-5">
+                            {remediation.diagnostics.map((dq, i) => (
+                              <div key={i} className="border-l-2 border-brand-500/40 pl-4">
+                                <div className="flex items-center gap-2 mb-2">
+                                  <span className="badge-brand text-xs">Q{i + 1}</span>
+                                </div>
+                                <p className="text-sm text-white font-medium mb-2">
+                                  <AuthoredText text={dq.question} />
+                                </p>
+
+                                {/* Authored answer, revealed on demand */}
+                                <button
+                                  onClick={() => setOpenDiag((prev) => {
+                                    const next = new Set(prev)
+                                    if (next.has(i)) next.delete(i)
+                                    else next.add(i)
+                                    return next
+                                  })}
+                                  className="inline-flex items-center gap-1.5 text-xs font-medium text-brand-300 hover:text-brand-200 transition-colors mb-2"
+                                >
+                                  {openDiag.has(i) ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
+                                  {openDiag.has(i) ? 'Hide answer' : 'Show answer'}
+                                </button>
+                                <AnimatePresence>
+                                  {openDiag.has(i) && (
+                                    <motion.div
+                                      initial={{ height: 0, opacity: 0 }}
+                                      animate={{ height: 'auto', opacity: 1 }}
+                                      exit={{ height: 0, opacity: 0 }}
+                                      className="overflow-hidden"
+                                    >
+                                      <p className="text-sm text-surface-700 whitespace-pre-wrap mb-2 border-l-2 border-mint-500/30 pl-3">
+                                        <AuthoredText text={dq.answer} />
+                                      </p>
+                                    </motion.div>
+                                  )}
+                                </AnimatePresence>
+
+                                {/* Authored misconception for a wrong answer */}
+                                {dq.misconception && (
+                                  <div className="rounded-lg border border-gold-500/25 bg-gold-500/5 p-3 mt-2">
+                                    <p className="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-gold-300 font-semibold mb-1">
+                                      <AlertTriangle className="w-3 h-3" />
+                                      If you miss this
+                                    </p>
+                                    <p className="text-xs text-surface-700 leading-relaxed">
+                                      <AuthoredText text={dq.misconception} />
+                                    </p>
+                                  </div>
+                                )}
+
+                                {/* Retry CTA — re-serves this diagnostic in the quiz */}
+                                <button
+                                  onClick={() => {
+                                    setFocusDiagnostic(i)
+                                    setQuizOpen(true)
+                                    document
+                                      .getElementById('quick-quiz-anchor')
+                                      ?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+                                  }}
+                                  className="btn-secondary text-xs inline-flex items-center gap-2 mt-3"
+                                >
+                                  <PenSquare className="w-3.5 h-3.5" />
+                                  Practice this
+                                </button>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Prerequisite chain — each prereq with its sims */}
+                      {remediation.prereqIds.length > 0 && (
+                        <div className="glass-card p-6">
+                          <div className="flex items-center gap-2 mb-4">
+                            <Target className="w-5 h-5 text-gold-300" />
+                            <h3 className="font-display text-lg font-semibold text-white">Prerequisite Chain</h3>
+                          </div>
+                          <PrereqFixList
+                            prereqIds={remediation.prereqIds}
+                            heading="Revise these first — in order — then retry the diagnostic"
+                          />
+                        </div>
+                      )}
+
+                      {/* Honest empty state — no authored recipe for this node */}
+                      {!remediation.commonMisconception &&
+                        remediation.diagnostics.length === 0 &&
+                        remediation.prereqIds.length === 0 &&
+                        !(remediation.onFailure && remediation.onFailure.length > 0) && (
+                          <div className="glass-card p-6 text-center">
+                            <Lightbulb className="w-8 h-8 text-surface-500 mx-auto mb-3" />
+                            <p className="text-sm text-surface-600 mb-4">
+                              No authored remediation recipe for this topic yet —
+                              the quiz below still checks you against the topic&apos;s
+                              verified questions.
+                            </p>
+                            <button
+                              onClick={() => setQuizOpen((v) => !v)}
+                              className="btn-secondary text-sm inline-flex items-center gap-2"
+                            >
+                              <PenSquare className="w-4 h-4" />
+                              Take Quiz
+                            </button>
+                          </div>
+                        )}
+                    </>
                   )}
                 </motion.div>
               )}
@@ -369,7 +843,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                         <BookMarked className="w-5 h-5 text-brand-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Scope Boundary</h3>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">{topic.scope_boundary}</p>
+                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                        <AuthoredText text={topic.scope_boundary} />
+                      </p>
                     </div>
                   )}
 
@@ -380,7 +856,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                         <Target className="w-5 h-5 text-mint-300" />
                         <h3 className="font-display text-lg font-semibold text-white">Mastery Criteria</h3>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">{topic.mastery_criteria}</p>
+                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                        <AuthoredText text={topic.mastery_criteria} />
+                      </p>
                     </div>
                   )}
                 </motion.div>
@@ -390,58 +868,108 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Prerequisites */}
-            <div className="glass-card p-5">
+            {/* Prerequisites — live from the knowledge graph */}
+            <motion.div
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              className="glass-card p-5"
+            >
               <h3 className="font-display text-sm font-semibold text-white mb-4 flex items-center gap-2">
                 <Target className="w-4 h-4 text-brand-300" />
                 Prerequisites
               </h3>
-              <div className="space-y-3">
-                {topic.prereq_ids && topic.prereq_ids.length > 0 ? (
-                  topic.prereq_ids.map((nid) => (
-                    <Link
-                      key={nid}
-                      href={`/learn/${nid}`}
-                      className="flex items-center gap-3 group"
+              {prereqsState === 'loading' ? (
+                <PanelSkeleton rows={2} />
+              ) : prereqsState === 'unavailable' ? (
+                <p className="text-xs text-surface-600 flex items-center gap-2">
+                  <WifiOff className="w-3.5 h-3.5 text-surface-500 flex-shrink-0" />
+                  Prerequisite map unavailable right now.
+                </p>
+              ) : prereqs.length > 0 ? (
+                <div className="space-y-3">
+                  {prereqs.map((n, i) => (
+                    <motion.div
+                      key={n.node_id}
+                      initial={{ opacity: 0, x: 10 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: 0.04 * i }}
                     >
-                      <Circle className="w-4 h-4 text-gold-300 flex-shrink-0" />
-                      <p className="text-sm text-white group-hover:text-brand-300 transition-colors">
-                        {nid}
-                      </p>
-                    </Link>
-                  ))
-                ) : (
-                  <p className="text-xs text-surface-600">No prerequisites — this is a foundational topic.</p>
-                )}
-              </div>
-            </div>
+                      <Link href={`/learn/${n.node_id}`} className="flex items-center gap-3 group">
+                        <Circle className="w-4 h-4 text-gold-300 flex-shrink-0" />
+                        <div className="min-w-0">
+                          <p className="text-sm text-white group-hover:text-brand-300 transition-colors truncate">
+                            {graphNodeLabel(n)}
+                          </p>
+                          {(n.difficulty || n.class_level) && (
+                            <p className="text-[10px] text-surface-600">
+                              {[
+                                n.difficulty,
+                                n.class_level ? `Class ${n.class_level}` : null,
+                              ].filter(Boolean).join(' · ')}
+                            </p>
+                          )}
+                        </div>
+                      </Link>
+                    </motion.div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-xs text-surface-600">No prerequisites — this is a foundational topic.</p>
+              )}
+            </motion.div>
 
-            {/* Forward nodes */}
-            <div className="glass-card p-5">
+            {/* This Unlocks — live from the knowledge graph */}
+            <motion.div
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15 }}
+              className="glass-card p-5"
+            >
               <h3 className="font-display text-sm font-semibold text-white mb-4 flex items-center gap-2">
                 <TrendingUp className="w-4 h-4 text-accent-300" />
                 This Unlocks
               </h3>
-              <div className="space-y-2">
-                {topic.forward_node_ids && topic.forward_node_ids.length > 0 ? (
-                  topic.forward_node_ids.map((nid) => (
-                    <Link
-                      key={nid}
-                      href={`/learn/${nid}`}
-                      className="flex items-center gap-2 text-sm text-surface-600 hover:text-white transition-colors group"
+              {unlocksState === 'loading' ? (
+                <PanelSkeleton rows={2} />
+              ) : unlocksState === 'unavailable' ? (
+                <p className="text-xs text-surface-600 flex items-center gap-2">
+                  <WifiOff className="w-3.5 h-3.5 text-surface-500 flex-shrink-0" />
+                  Unlock map unavailable right now.
+                </p>
+              ) : unlocks.length > 0 ? (
+                <div className="space-y-2">
+                  {unlocks.map((n, i) => (
+                    <motion.div
+                      key={n.node_id}
+                      initial={{ opacity: 0, x: 10 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: 0.04 * i }}
                     >
-                      <ChevronRight className="w-4 h-4 text-surface-600 group-hover:text-brand-300 transition-colors" />
-                      {nid}
-                    </Link>
-                  ))
-                ) : (
-                  <p className="text-xs text-surface-600">No forward nodes listed.</p>
-                )}
-              </div>
-            </div>
+                      <Link
+                        href={`/learn/${n.node_id}`}
+                        className="flex items-center gap-2 text-sm text-surface-600 hover:text-white transition-colors group"
+                      >
+                        <ChevronRight className="w-4 h-4 text-surface-600 group-hover:text-brand-300 transition-colors flex-shrink-0" />
+                        <span className="truncate">{graphNodeLabel(n)}</span>
+                      </Link>
+                    </motion.div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-xs text-surface-600">
+                  Nothing unlocks from here yet — this is the newest edge of the map.
+                </p>
+              )}
+            </motion.div>
 
             {/* Prism AI assistant */}
-            <div className="glass-card p-5">
+            <motion.div
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="glass-card p-5"
+            >
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-xl bg-brand-gradient flex items-center justify-center shadow-glow"><Brain className="w-5 h-5 text-white" /></div>
                 <div>
@@ -453,39 +981,10 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                 <Sparkles className="w-3 h-3" />
                 Start AI Tutor Session
               </Link>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
-    </div>
-  )
-}
-
-function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-  const [open, setOpen] = useState(false)
-  return (
-    <div className="glass-card overflow-hidden">
-      <button
-        onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between p-5 text-left"
-      >
-        <span className="text-sm font-medium text-white">{question}</span>
-        <motion.div animate={{ rotate: open ? 180 : 0 }} className="flex-shrink-0">
-          <ChevronRight className="w-4 h-4 text-surface-600" />
-        </motion.div>
-      </button>
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ height: 0 }}
-            animate={{ height: 'auto' }}
-            exit={{ height: 0 }}
-            className="overflow-hidden"
-          >
-            <p className="text-sm text-surface-700 p-5 pt-0">{answer}</p>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </div>
   )
 }

@@ -16,7 +16,8 @@ export const C7_CIV_GEN: SimDef[] = [
   "subject": "civics",
   "topic": "Democracy",
   "chapters": [
-   "Civics Ch1: Democracy"
+   "Civics Ch1: Democracy",
+   "Civics Ch2: Democracy"
   ],
   "nodeIds": [
    "c7_civ_ch01_001",
@@ -25,8 +26,10 @@ export const C7_CIV_GEN: SimDef[] = [
    "c7_civ_ch01_004",
    "c7_civ_ch01_005",
    "c7_civ_ch01_006",
+   "c7_civ_ch02_006",
    "c7_civ_ch01_007",
    "c7_civ_ch01_008",
+   "c7_civ_ch02_008",
    "c7_civ_ch01_009",
    "c7_civ_ch01_010",
    "c7_civ_ch01_011"
@@ -85,6 +88,12 @@ export const C7_CIV_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Influence Of Civilisational Heritage On The",
+    "text": "The influence of civilisational heritage on the Indian Constitution refers to how ancient Indian philosophical traditions, cultural values of pluralism, ethics of non-violence, and historical practices of community self-governance shaped the ideals,",
+    "emoji": "⚖️",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Sources Of Authority Refer To",
     "text": "The sources of authority refer to the foundational origins and justifications from which a government derives its right to rule, make laws, and exercise political power over its citizens.",
     "emoji": "⚖️",
@@ -95,6 +104,12 @@ export const C7_CIV_GEN: SimDef[] = [
     "text": "How government interacts with people through representation and participation refers to the institutional channels—such as regular elections, public consultations, petitioning, and organized interest groups—through which citizens voice their needs and hold",
     "emoji": "⚖️",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Fundamental Rights",
+    "text": "Fundamental Rights are the basic human rights enshrined in Part III of the Indian Constitution (Articles 12 to 35) that guarantee civil liberties to all citizens, protecting them against state infringement and ensuring equal dignity and development.",
+    "emoji": "⚖️",
+    "bgColor": "from-violet-400 to-purple-500"
    },
    {
     "title": "Democracy",
@@ -274,6 +289,69 @@ export const C7_CIV_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Trace the correct sequence linking an ancient Indian village tradition to its modern constitutional form.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The Constitution recognises grassroots",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Village elders gather",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The practice of community self-governance",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Panchayat consensus settles the dispute",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that breaks this chain, such as crediting medieval foreign rulers with inventing village councils, shows the student cannot connect ancient Indian practices of community self-governance to the constitutional emphasis on grassroots democracy and local self-governance.",
+    "id": "gen_c7_civ_ch01_q7",
+    "nodeId": "c7_civ_ch02_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine walking through an ancient stone temple or reading a classical text that speaks of universal harmony, and then looking at the Preamble of our",
+     "To understand this connection, we begin by asking: why do our constitutional values sound so deeply rooted in Indian ethos rather than being entirely",
+     "We connect this to Class 6 discussions on religious and cultural diversity (*c6_civics_ch14_032*), where we learned how India accommodates multiple",
+     "By examining key debates in the Constituent Assembly, students see that the framers drew heavily upon thousands of years of shared civilisational"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What is the foundational document of India that outlines how the government derives its power and authority from the citizens?",
     "answer": "The correct answer is the Constitution of India",
@@ -284,7 +362,7 @@ export const C7_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'sources of authority refer to' slide -- match the key terms.",
     "misconception": "A student who answers incorrectly by naming a specific politician or a political party confuses the temporary holders of political office with the permanent legal and moral source of governmental authority.",
-    "id": "gen_c7_civ_ch01_q7",
+    "id": "gen_c7_civ_ch01_q8",
     "nodeId": "c7_civ_ch01_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -305,7 +383,7 @@ export const C7_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'How government interacts with' slide -- match the key terms.",
     "misconception": "A wrong answer often shows the misconception that representatives are rulers who hold supreme authority over citizens, rather than public servants acting on behalf of the electorate.",
-    "id": "gen_c7_civ_ch01_q8",
+    "id": "gen_c7_civ_ch01_q9",
     "nodeId": "c7_civ_ch01_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -316,18 +394,70 @@ export const C7_CIV_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A local government authority denies a group of citizens permission to hold a peaceful, unarmed meeting to discuss civic issues, claiming it might cause inconvenience. Which category of Fundamental Rights is primarily being challenged here, and what limit would let the state restrict it?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The verdict",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The permitted limit",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The challenged right",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer reveals the misconception that the government has absolute control over public spaces and citizen gatherings without needing constitutional justification.",
+    "id": "gen_c7_civ_ch01_q10",
+    "nodeId": "c7_civ_ch02_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine walking into school and noticing that the teacher allows only certain students to speak during a debate based on their family background.",
+     "Immediately, you feel that something is deeply unfair and goes against basic fairness.",
+     "In Class 6, you learned general concepts of human rights and simple equality; now in Class 7, we examine how the Indian Constitution legally",
+     "To begin exploring this, ask yourself: what makes a right \"fundamental\" instead of just a regular legal rule?"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Which core principle of democracy ensures that all adult citizens have the right to vote regardless of their caste, religion, wealth, or gender?",
     "answer": "Universal adult franchise",
     "options": [
      "The executive branch is responsible for enforcing laws and maintaining internal order",
      "Power is acquired through hereditary succession, meaning it is passed down within a royal family from parent to child",
-     "Member adult franchise",
+     "Fixed-term adult franchise",
      "Universal adult franchise"
     ],
     "hint": "Straight from the 'Democracy' slide -- match the key terms.",
     "misconception": "A student who answers \"majoritarian rule\" or \"hereditary succession\" misunderstands democracy as rule by a single group or family rather than political equality for every individual citizen.",
-    "id": "gen_c7_civ_ch01_q9",
+    "id": "gen_c7_civ_ch01_q11",
     "nodeId": "c7_civ_ch01_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -348,7 +478,7 @@ export const C7_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'comparison of different types of' slide -- match the key terms.",
     "misconception": "A wrong answer often reveals confusion between legal constitutional authority and traditional family succession, showing the student has not grasped how political power is initially acquired.",
-    "id": "gen_c7_civ_ch01_q10",
+    "id": "gen_c7_civ_ch01_q12",
     "nodeId": "c7_civ_ch01_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -368,7 +498,7 @@ export const C7_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian Parliament' slide -- match the key terms.",
     "misconception": "A wrong answer usually confuses Parliament with just the Lok Sabha or forgets to include the President as an essential part of the lawmaking process.",
-    "id": "gen_c7_civ_ch01_q11",
+    "id": "gen_c7_civ_ch01_q13",
     "nodeId": "c7_civ_ch01_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -383,13 +513,13 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "A town wants to build a new public hospital and a major highway connecting it to the state capital. Which institution is primarily responsible for planning and executing such large-scale projects?",
     "answer": "The government is responsible for planning and funding large infrastructure projects because they require public funds (taxes) and legal authority over land use",
     "options": [
-     "A strong plan includes: Step 1) Collecting data, photos, and signatures from residents documenting the plastic waste problem to build a clear, evidence-based appeal",
-     "Public accountability and transparency",
+     "This scenario represents a dictatorship because the state is actively suppressing the right to freedom of speech, expression, and assembly, which are protected in a democracy",
+     "The Indian Parliament must debate and approve the legislation and budget for the highway because it is a national-level infrastructure project falling under central jurisdiction",
      "The government is responsible for planning and funding large infrastructure projects because they require public funds (taxes) and legal authority over land use"
     ],
     "hint": "Straight from the 'government' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student believes private companies or charity groups alone can manage national infrastructure without government coordination.",
-    "id": "gen_c7_civ_ch01_q12",
+    "id": "gen_c7_civ_ch01_q14",
     "nodeId": "c7_civ_ch01_001",
     "difficulty": "standard"
    },
@@ -398,13 +528,13 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "Design a simple framework for a newly formed island community of 500 people, listing at least three essential functions their new government must perform immediately to survive.",
     "answer": "A strong answer will propose: 1) Maintaining internal security (making and enforcing basic rules against theft or violence)",
     "options": [
-     "The government derives its authority from the mandate given by the citizens during elections, which is legally empowered by the Constitution of India",
      "This action represents the welfare function of government, which aims to improve the living standards, health, and well-being of all citizens",
+     "A valid checklist should include: (1) Are citizens free to criticize the government and organize peaceful protests without fear of arrest?",
      "A strong answer will propose: 1) Maintaining internal security (making and enforcing basic rules against theft or violence)"
     ],
     "hint": "Straight from the 'government' slide -- match the key terms.",
     "misconception": "A poor answer lists random wishes like \"everyone should get free toys\" without identifying core governance functions.",
-    "id": "gen_c7_civ_ch01_q13",
+    "id": "gen_c7_civ_ch01_q15",
     "nodeId": "c7_civ_ch01_001",
     "difficulty": "standard"
    },
@@ -419,7 +549,7 @@ export const C7_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'government' slide -- match the key terms.",
     "misconception": "A wrong answer shows an oversimplified view of freedom that ignores how rules protect collective safety and equality.",
-    "id": "gen_c7_civ_ch01_q14",
+    "id": "gen_c7_civ_ch01_q16",
     "nodeId": "c7_civ_ch01_001",
     "difficulty": "standard"
    },
@@ -434,7 +564,7 @@ export const C7_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'government' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student thinks a single person or group holds absolute power over all decisions without any division of responsibilities.",
-    "id": "gen_c7_civ_ch01_q15",
+    "id": "gen_c7_civ_ch01_q17",
     "nodeId": "c7_civ_ch01_001",
     "difficulty": "standard"
    },
@@ -449,39 +579,9 @@ export const C7_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'government' slide -- match the key terms.",
     "misconception": "A wrong answer shows the misunderstanding that people can organize complex national services like railways or public health entirely without a structured institutional framework.",
-    "id": "gen_c7_civ_ch01_q16",
+    "id": "gen_c7_civ_ch01_q18",
     "nodeId": "c7_civ_ch01_001",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A local municipal corporation builds a new public hospital and provides free vaccination drives in a slum area. Which primary function of government does this action represent?",
-    "answer": "This action represents the welfare function of government, which aims to improve the living standards, health, and well-being of all citizens",
-    "options": [
-     "Correct — democratic authority is conditional: constitutional rules and fundamental rights bind even a popularly elected government so that minority rights are protected from",
-     "A valid checklist should include: (1) Are citizens free to criticize the government and organize peaceful protests without fear of arrest?",
-     "This action represents the welfare function of government, which aims to improve the living standards, health, and well-being of all citizens"
-    ],
-    "hint": "Straight from the 'functions of government encompass' slide -- match the key terms.",
-    "misconception": "A student who selects \"foreign relations\" or \"law and order\" is failing to distinguish between social development initiatives and security or diplomatic operations.",
-    "id": "gen_c7_civ_ch01_q17",
-    "nodeId": "c7_civ_ch01_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a short proposal for a new government program that balances both law and order and public welfare in a crowded urban neighborhood.",
-    "answer": "A strong proposal would suggest establishing community policing centers (for law and order) alongside youth skill-development hubs and health clinics (for welfare) in the same",
-    "options": [
-     "This action represents the welfare function of government, which aims to improve the living standards, health, and well-being of all citizens",
-     "The government is responsible for planning and funding large infrastructure projects because they require public funds (taxes) and legal authority over land use",
-     "A strong proposal would suggest establishing community policing centers (for law and order) alongside youth skill-development hubs and health clinics (for welfare) in the same"
-    ],
-    "hint": "Straight from the 'functions of government encompass' slide -- match the key terms.",
-    "misconception": "A poor answer would focus exclusively on punishment or police patrols while completely ignoring social support systems, missing the holistic nature of governance.",
-    "id": "gen_c7_civ_ch01_q18",
-    "nodeId": "c7_civ_ch01_002",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {

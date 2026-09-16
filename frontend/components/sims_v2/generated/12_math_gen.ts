@@ -16,6 +16,10 @@ export const C12_MATH_GEN: SimDef[] = [
   "subject": "maths",
   "topic": "Differential Equation",
   "chapters": [
+   "Mathematics Ch1: Differential Equation",
+   "Mathematics Ch2: Differential Equation",
+   "Mathematics Ch5: Differential Equation",
+   "Mathematics Ch6: Differential Equation",
    "Mathematics Ch9: Differential Equation"
   ],
   "nodeIds": [
@@ -24,9 +28,13 @@ export const C12_MATH_GEN: SimDef[] = [
    "c12_math_cbse_09_003",
    "c12_math_cbse_09_004",
    "c12_math_cbse_09_005",
+   "c12_math_cbse_06_006",
    "c12_math_cbse_09_006",
+   "c12_math_cbse_02_007",
    "c12_math_cbse_09_007",
-   "c12_math_cbse_09_008"
+   "c12_math_cbse_09_008",
+   "c12_math_cbse_01_009",
+   "c12_math_cbse_05_013"
   ],
   "emoji": "🔢",
   "theme": {
@@ -76,10 +84,22 @@ export const C12_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
+    "title": "Differential Of a Function y = f",
+    "text": "The differential of a function y = f(x) is defined as dy = f'(x) dx, where dx = Δx is a small change in the independent variable x, and dy approximates the corresponding change Δy in the dependent variable y.",
+    "emoji": "🔢",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
     "title": "A First-order, First-degree Differential",
     "text": "A first-order, first-degree differential equation of the form \\(\\frac{dy}{dx} = F(x, y)\\) is called homogeneous if \\(F(x, y)\\) is a homogeneous function of degree zero, i.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Simplifying Expressions Using Inverse",
+    "text": "Simplifying expressions using inverse trigonometric identities means rewriting complex inverse trigonometric expressions (involving compositions like $\\tan^{-1}(\\sqrt{\\frac{1-x}{1+x}})$, $\\sin^{-1}(\\frac{2x}{1+x^2})$, etc.",
+    "emoji": "🔢",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "First-order Linear Differential Equation",
@@ -92,6 +112,18 @@ export const C12_MATH_GEN: SimDef[] = [
     "text": "A first-order first-degree differential equation of the form \\(M(x,y)dx + N(x,y)dy = 0\\) is called an exact differential equation if there exists a differentiable function \\(F(x,y)\\) such that \\(\\frac{\\partial F}{\\partial x} = M\\) and \\(\\frac{\\partial",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Binary Operation * On a Set S",
+    "text": "A binary operation * on a set S is commutative if a * b = b * a for every a, b ∈ S. It is associative if (a * b) * c = a * (b * c) for every a, b, c ∈ S.",
+    "emoji": "🔢",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Mean Value Theorem States",
+    "text": "The Mean Value Theorem (MVT) states: If a function \\( f \\) is continuous on the closed interval \\([a, b]\\) and differentiable on the open interval \\((a, b)\\), then there exists at least one point \\( c \\in (a, b) \\) such that \\( f'(c) = \\frac{f(b) - f(a)}{b -",
+    "emoji": "🔢",
+    "bgColor": "from-violet-400 to-purple-500"
    }
   ],
   "challenges": [
@@ -258,8 +290,8 @@ export const C12_MATH_GEN: SimDef[] = [
     "question": "Why must we differentiate the general solution exactly as many times as the number of essential arbitrary constants? Explain what happens if we differentiate fewer times or more times.",
     "answer": "Differentiating \\(n\\) times (where \\(n\\) is the number of essential constants) yields \\(n+1\\) equations (the original plus \\(n\\) derivatives) which can be solved to eliminate the",
     "options": [
-     "Differentiate the student's solution implicitly w.r.t \\(x\\): \\(\\frac{1}{x^2+y^2}(2x + 2y y') = \\frac{2}{1+(y/x)^2} \\cdot \\frac{x y' - y}{x^2}\\)",
-     "The solution is incomplete. The step \\(e^y = e^x + C\\) implies \\(e^x + C > 0\\) for the logarithm to be defined",
+     "(1) Why it works — the tangent line approximates a curve only in a small neighbourhood, because the function is locally linear and the curve and its tangent become",
+     "The term \\(y^2\\) makes the equation nonlinear because the dependent variable \\(y\\) appears with power 2",
      "Differentiating \\(n\\) times (where \\(n\\) is the number of essential constants) yields \\(n+1\\) equations (the original plus \\(n\\) derivatives) which can be solved to eliminate the"
     ],
     "hint": "Straight from the 'differential equation' slide -- match the key terms.",
@@ -350,6 +382,69 @@ export const C12_MATH_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "Why does the tangent line approximation work for √26.3 near x=25 but would fail badly if we tried to approximate √100 using the tangent at x=25? Explain using the concept of local linearity.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The bad case",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Why it works",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The good case",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The rule",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who says the formula works for any step size applies it blindly, which is the classic trap.",
+    "id": "gen_c12_math_ch09_q6",
+    "nodeId": "c12_math_cbse_06_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you need to find √26.3 instantly during a physics lab without a calculator.",
+     "You know √25 = 5 exactly.",
+     "The difference is Δx = 1.3.",
+     "Using the derivative of √x at x=25, which is 1/(2√25) = 1/10, the approximate change is dy = (1/10)(1.3) = 0.13."
+    ]
+   },
+   {
+    "type": "order",
     "question": "APPLY: Solve the homogeneous differential equation: \\(\\frac{dy}{dx} = \\frac{y}{x} + \\tan\\left(\\frac{y}{x}\\right)\\), given that \\(y = \\frac{\\pi}{4}\\) when \\(x = 1\\). Show all steps including the substitution, separation, integration, and back-substitution.",
     "sortItems": [
      {
@@ -423,7 +518,7 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answer reveals: If a student forgets the chain rule when differentiating \\(y = vx\\) (writes \\(dy/dx = v\\) only), they miss the \\(x dv/dx\\) term.",
-    "id": "gen_c12_math_ch09_q6",
+    "id": "gen_c12_math_ch09_q7",
     "nodeId": "c12_math_cbse_09_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -431,6 +526,69 @@ export const C12_MATH_GEN: SimDef[] = [
      "This is a homogeneous differential equation because the right-hand side is a function of \\(y/x\\) alone.",
      "To solve it, you cannot separate \\(x\\) and \\(y\\) directly.",
      "Instead, you introduce a new variable \\(v = y/x\\), so \\(y = vx\\)."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A student solves: \"Simplify $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for $x \\in [-1, 1]$.\" Their working: $\\text{Let } x = \\tan\\theta \\implies \\theta = \\tan^{-1}x$. $\\frac{2x}{1+x^2} = \\frac{2\\tan\\theta}{1+\\tan^2\\theta} = \\sin 2\\theta$.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The verdict",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The general rule",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The flaw",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The lucky save",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who assumes sin-inverse of sin always returns the angle has a dangerous habit that fails on extended domains.",
+    "id": "gen_c12_math_ch09_q8",
+    "nodeId": "c12_math_cbse_02_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are an ISRO scientist calculating the optimal angle for a satellite dish reflector.",
+     "The geometry gives you $\\tan^{-1}\\left(\\sqrt{\\frac{f-D}{f+D}}\\right)$ where $f$ is focal length and $D$ is dish diameter.",
+     "To interpret this angle physically, you must simplify it.",
+     "Start by identifying the algebraic pattern: $\\sqrt{\\frac{1-x}{1+x}}$ suggests the substitution $x = \\cos\\theta$ because $1-\\cos\\theta ="
     ]
    },
    {
@@ -442,7 +600,7 @@ export const C12_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer like \\(y = \\tan x + C\\) reveals the student forgot to divide by the integrating factor after integration.",
-    "id": "gen_c12_math_ch09_q7",
+    "id": "gen_c12_math_ch09_q9",
     "nodeId": "c12_math_cbse_09_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -459,12 +617,12 @@ export const C12_MATH_GEN: SimDef[] = [
     "options": [
      "Order = 2 Step 1: Identify all derivatives: \\( \\frac{d^2y}{dx^2} \\) (second derivative) and \\( \\frac{dy}{dx} \\) (first derivative)",
      "The degree is NOT DEFINED. The equation contains sin(dy/dx), which is a transcendental function of the derivative, so the equation is not a polynomial in derivatives",
-     "MCQs, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)",
+     "Start, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)",
      "Yes, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)"
     ],
     "hint": "Straight from the 'A first-order first-degree' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., forgetting the arbitrary function \\(g(y)\\) or mis-integrating) reveals the student treats the integration as single-variable, ignoring that the \"constant\" of integration can depend on the other variable.",
-    "id": "gen_c12_math_ch09_q8",
+    "id": "gen_c12_math_ch09_q10",
     "nodeId": "c12_math_cbse_09_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -472,6 +630,132 @@ export const C12_MATH_GEN: SimDef[] = [
      "The engineer gives you a condition: \\((2xy + 3x^2)dx + (x^2 + 4y)dy = 0\\).",
      "You need the shape of the track (the relation between \\(x\\) and \\(y\\)).",
      "Start by checking if this equation is \"exact\" — i.e., does it come from a total differential of some function \\(F(x,y)\\)?"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Construct a binary operation * on the set {0, 1} that is commutative but NOT associative. Provide the Cayley table and verify both properties.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The investigation",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The realisation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The correct claim",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The lesson",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who asserts a table without verifying associativity for every triple produces a wrong example.",
+    "id": "gen_c12_math_ch09_q11",
+    "nodeId": "c12_math_cbse_01_009",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you're at a kirana store in Delhi buying 3 kg apples at ₹120/kg and 2 kg oranges at ₹80/kg.",
+     "The shopkeeper calculates (3 × 120) + (2 × 80) = 360 + 160 = ₹520.",
+     "You wonder: \"Does it matter if I add apple cost first or orange cost first?\" This is commutativity of addition in real life.",
+     "Now, if the shopkeeper offers a discount scheme: \"Buy 3 items, get the 4th at half price\" — does the order in which you pick items change your final"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Compare Rolle's Theorem and the Mean Value Theorem. How is MVT a generalization of Rolle's Theorem? Construct the auxiliary function used in the proof of MVT from Rolle's Theorem and explain why it works.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Rolle's theorem",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The proof",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The generalisation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The auxiliary function",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who omits the constant term or writes the wrong bracket has missed the geometric idea of subtracting the secant to equalise the endpoints.",
+    "id": "gen_c12_math_ch09_q12",
+    "nodeId": "c12_math_cbse_05_013",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you drive from Delhi to Agra, a distance of 200 km, in exactly 2 hours.",
+     "Your average speed is 100 km/h.",
+     "The Mean Value Theorem guarantees that at some instant during the trip, your speedometer must have read exactly 100 km/h — provided your speed",
+     "To begin, write down the two conditions: continuity on \\([a, b]\\) and differentiability on \\((a, b)\\)."
     ]
    },
    {
@@ -549,8 +833,68 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answer reveals: If a student gives \\(y' = \\frac{y^2 - x^2}{2xy}\\) but forgets to verify homogeneity, they may not understand the definition.",
-    "id": "gen_c12_math_ch09_q9",
+    "id": "gen_c12_math_ch09_q13",
     "nodeId": "c12_math_cbse_09_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Construct a binary operation * on the set {0, 1} that is commutative but NOT associative. Provide the Cayley table and verify both properties.",
+    "answer": "(1) The investigation — checking the two-element tables shows that the symmetric ones, such as the exclusive-or, logical-and and equivalence tables",
+    "options": [
+     "The correct answer is (D) not defined. The term sin(dy/dx) makes the equation non-polynomial in derivatives",
+     "Example of order 2, degree 3: (d²y/dx²)³ + x(dy/dx) + y = 0. To make degree undefined: (d²y/dx²)³ + sin(dy/dx) + y = 0 (adds transcendental function of first derivative) OR",
+     "(1) The investigation — checking the two-element tables shows that the symmetric ones, such as the exclusive-or, logical-and and equivalence tables"
+    ],
+    "hint": "Straight from the 'binary operation * on a set S' slide -- match the key terms.",
+    "misconception": "A student who asserts a table without verifying associativity for every triple produces a wrong example.",
+    "id": "gen_c12_math_ch09_q14",
+    "nodeId": "c12_math_cbse_01_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A student solves: \"Simplify $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for $x \\in [-1, 1]$.\" Their working: $\\text{Let } x = \\tan\\theta \\implies \\theta = \\tan^{-1}x$. $\\frac{2x}{1+x^2} = \\frac{2\\tan\\theta}{1+\\tan^2\\theta} = \\sin 2\\theta$.",
+    "answer": "(1) The verdict — on the restricted domain from minus one to one the answer of two tan-inverse x happens to be correct, but the method is flawed, (2) The flaw",
+    "options": [
+     "The student is wrong. The order is determined by the number of essential arbitrary constants, not the polynomial degree",
+     "Yes, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)",
+     "(1) The verdict — on the restricted domain from minus one to one the answer of two tan-inverse x happens to be correct, but the method is flawed, (2) The flaw"
+    ],
+    "hint": "Straight from the 'Simplifying expressions using' slide -- match the key terms.",
+    "misconception": "A student who assumes sin-inverse of sin always returns the angle has a dangerous habit that fails on extended domains.",
+    "id": "gen_c12_math_ch09_q15",
+    "nodeId": "c12_math_cbse_02_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare Rolle's Theorem and the Mean Value Theorem. How is MVT a generalization of Rolle's Theorem? Construct the auxiliary function used in the proof of MVT from Rolle's Theorem and explain why it works.",
+    "answer": "(1) Rolle's theorem — when the endpoint values are equal, the function has an interior point where its derivative vanishes, (2) The generalisation",
+    "options": [
+     "Both use an integrating factor: for the first, \\(\\text{I.F.} = e^{\\int P \\, dx}\\) and solution is \\(y \\cdot \\text{I",
+     "Equation (A) has degree 1 (polynomial in y''). Equation (B) has degree NOT DEFINED because √(d²y/dx²) = (d²y/dx²)^(1/2) is a fractional power",
+     "(1) Rolle's theorem — when the endpoint values are equal, the function has an interior point where its derivative vanishes, (2) The generalisation"
+    ],
+    "hint": "Straight from the 'Mean Value Theorem  states' slide -- match the key terms.",
+    "misconception": "A student who omits the constant term or writes the wrong bracket has missed the geometric idea of subtracting the secant to equalise the endpoints.",
+    "id": "gen_c12_math_ch09_q16",
+    "nodeId": "c12_math_cbse_05_013",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why does the tangent line approximation work for √26.3 near x=25 but would fail badly if we tried to approximate √100 using the tangent at x=25? Explain using the concept of local linearity.",
+    "answer": "(1) Why it works — the tangent line approximates a curve only in a small neighbourhood, because the function is locally linear and the curve and its tangent become",
+    "options": [
+     "The solution is incomplete. The step \\(e^y = e^x + C\\) implies \\(e^x + C > 0\\) for the logarithm to be defined",
+     "Differentiate the student's solution implicitly w.r.t \\(x\\): \\(\\frac{1}{x^2+y^2}(2x + 2y y') = \\frac{2}{1+(y/x)^2} \\cdot \\frac{x y' - y}{x^2}\\)",
+     "(1) Why it works — the tangent line approximates a curve only in a small neighbourhood, because the function is locally linear and the curve and its tangent become"
+    ],
+    "hint": "Straight from the 'differential of a function y = f' slide -- match the key terms.",
+    "misconception": "A student who says the formula works for any step size applies it blindly, which is the classic trap.",
+    "id": "gen_c12_math_ch09_q17",
+    "nodeId": "c12_math_cbse_06_006",
     "difficulty": "advanced"
    },
    {
@@ -558,134 +902,14 @@ export const C12_MATH_GEN: SimDef[] = [
     "question": "A student writes: \"The order of the differential equation \\( y''' + 2y'' + y' = 0 \\) is 3 because there are three terms.\" Evaluate this statement and correct it if necessary.",
     "answer": "The statement is incorrect. The order is 3, but the reason is wrong. The order is 3 because the highest derivative present is \\( y''' \\) (third derivative)",
     "options": [
-     "The student is wrong. The order is determined by the number of essential arbitrary constants, not the polynomial degree",
-     "The correct answer is (D) not defined. The term sin(dy/dx) makes the equation non-polynomial in derivatives",
+     "Equation (I): Ordinary differential equation (ODE), order = 2. Only one independent variable \\( x \\); highest derivative is \\( \\frac{d^2y}{dx^2} \\)",
+     "Yes, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)",
      "The statement is incorrect. The order is 3, but the reason is wrong. The order is 3 because the highest derivative present is \\( y''' \\) (third derivative)"
     ],
     "hint": "Straight from the 'differential equation' slide -- match the key terms.",
     "misconception": "If the student had written \"order is 3 because the highest derivative is the third derivative\", that would be correct.",
-    "id": "gen_c12_math_ch09_q10",
-    "nodeId": "c12_math_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Consider the two equations: (I) \\( \\frac{d^2y}{dx^2} + 3\\frac{dy}{dx} + 2y = \\sin x \\) (II) \\( \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0 \\) Classify each as ordinary or partial differential equation and state the order of each.",
-    "answer": "Equation (I): Ordinary differential equation (ODE), order = 2. Only one independent variable \\( x \\); highest derivative is \\( \\frac{d^2y}{dx^2} \\)",
-    "options": [
-     "Order = 2 Step 1: Identify all derivatives: \\( \\frac{d^2y}{dx^2} \\) (second derivative) and \\( \\frac{dy}{dx} \\) (first derivative)",
-     "The degree is NOT DEFINED. The equation contains sin(dy/dx), which is a transcendental function of the derivative, so the equation is not a polynomial in derivatives",
-     "Equation (I): Ordinary differential equation (ODE), order = 2. Only one independent variable \\( x \\); highest derivative is \\( \\frac{d^2y}{dx^2} \\)"
-    ],
-    "hint": "Straight from the 'differential equation' slide -- match the key terms.",
-    "misconception": "If a student labels (II) as an ODE, they have not noticed the partial derivative symbols \\( \\partial \\) and multiple independent variables.",
-    "id": "gen_c12_math_ch09_q11",
-    "nodeId": "c12_math_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Construct a differential equation of order 2 that models the following situation: \"The acceleration of a particle moving along a straight line is proportional to its displacement from the origin, but in the opposite direction.\" Use \\( x \\) for displacement and \\( t \\) for time.",
-    "answer": "Expected answer: \\( \\frac{d^2x}{dt^2} = -k x \\) (where \\( k > 0 \\) is a constant). Reasoning: Acceleration is the second derivative of displacement with respect to time: \\( a =",
-    "options": [
-     "Equation (I): Ordinary differential equation (ODE), order = 2. Only one independent variable \\( x \\); highest derivative is \\( \\frac{d^2y}{dx^2} \\)",
-     "Order = 3 (highest derivative is d³y/dx³). Degree = 2 (highest power of the highest order derivative d³y/dx³ is 2). The equation is a polynomial in y''', y'', y'",
-     "Expected answer: \\( \\frac{d^2x}{dt^2} = -k x \\) (where \\( k > 0 \\) is a constant). Reasoning: Acceleration is the second derivative of displacement with respect to time: \\( a ="
-    ],
-    "hint": "Straight from the 'differential equation' slide -- match the key terms.",
-    "misconception": "A poor answer might write \\( \\frac{dx}{dt} = -k x \\) (order 1, confusing velocity with acceleration) or omit the negative sign. This reveals whether the student can translate a physical description into the correct derivative order.",
-    "id": "gen_c12_math_ch09_q12",
-    "nodeId": "c12_math_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "The equation \\( \\frac{d^3y}{dx^3} + x\\left(\\frac{dy}{dx}\\right)^2 - y = 0 \\) is given. A student claims its order is 2 because the term \\( \\left(\\frac{dy}{dx}\\right)^2 \\) has power 2. Explain why this reasoning is incorrect and state the correct order.",
-    "answer": "Correct order: 3 The order is determined by the highest derivative that appears, not by the power (exponent) of any derivative",
-    "options": [
-     "The student is incorrect. y = x² + 5 is a particular solution (no arbitrary constants). The general solution of dy/dx = 2x is y = x² + C, where C is an arbitrary constant",
-     "Order = 2 Step 1: Identify all derivatives: \\( \\frac{d^2y}{dx^2} \\) (second derivative) and \\( \\frac{dy}{dx} \\) (first derivative)",
-     "Correct order: 3 The order is determined by the highest derivative that appears, not by the power (exponent) of any derivative"
-    ],
-    "hint": "Straight from the 'differential equation' slide -- match the key terms.",
-    "misconception": "This misconception is extremely common and must be corrected before moving to the degree concept in the next node.",
-    "id": "gen_c12_math_ch09_q13",
-    "nodeId": "c12_math_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Which of the following equations is a differential equation? (A) \\( x^2 - 5x + 6 = 0 \\) (B) \\( \\sin x + \\cos x = 1 \\) (C) \\( \\frac{dy}{dx} + 2y = e^x \\) (D) \\( 3x + 4y = 12 \\)",
-    "answer": "(C) Equation (C) contains the derivative \\( \\frac{dy}{dx} \\), making it a differential equation. Equations (A), (B), and (D) involve only variables and constants, not derivatives",
-    "options": [
-     "The integrating factor is \\(e^{\\int \\frac{2}{x} dx} = e^{2 \\ln x} = x^2\\)",
-     "The degree is 3. The equation is a polynomial in derivatives (y'' and y'), the highest order derivative is d²y/dx² (order 2), and its highest power is 3",
-     "(C) Equation (C) contains the derivative \\( \\frac{dy}{dx} \\), making it a differential equation. Equations (A), (B), and (D) involve only variables and constants, not derivatives"
-    ],
-    "hint": "Straight from the 'differential equation' slide -- match the key terms.",
-    "misconception": "If a student chooses (A) or (D), they have not yet internalised that a differential equation must contain at least one derivative of the dependent variable.",
-    "id": "gen_c12_math_ch09_q14",
-    "nodeId": "c12_math_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student solves Exercise 9.1 Q11: \"The degree of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0 is (A) 3 (B) 2 (C) 1 (D) not defined.\" They choose (A) 3. Evaluate their answer and identify the exact error.",
-    "answer": "The correct answer is (D) not defined. The term sin(dy/dx) makes the equation non-polynomial in derivatives",
-    "options": [
-     "Equation (I): Ordinary differential equation (ODE), order = 2. Only one independent variable \\( x \\); highest derivative is \\( \\frac{d^2y}{dx^2} \\)",
-     "The degree is NOT DEFINED. The equation contains sin(dy/dx), which is a transcendental function of the derivative, so the equation is not a polynomial in derivatives",
-     "The correct answer is (D) not defined. The term sin(dy/dx) makes the equation non-polynomial in derivatives"
-    ],
-    "hint": "Straight from the 'degree of a differential equation' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The correct answer is (D) not defined. The term sin(dy/dx) makes the equation non-polynomial in derivatives.",
-    "id": "gen_c12_math_ch09_q15",
-    "nodeId": "c12_math_cbse_09_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the degree of these two equations: (A) (d²y/dx²) + (dy/dx)² = 0 and (B) √(d²y/dx²) + (dy/dx)² = 0. Are they the same? Why or why not?",
-    "answer": "Equation (A) has degree 1 (polynomial in y''). Equation (B) has degree NOT DEFINED because √(d²y/dx²) = (d²y/dx²)^(1/2) is a fractional power",
-    "options": [
-     "Both use an integrating factor: for the first, \\(\\text{I.F.} = e^{\\int P \\, dx}\\) and solution is \\(y \\cdot \\text{I",
-     "(i) gives \\(y'' - 3y' + 2y = 0\\) (distinct roots 1, 2). (ii) gives \\(y'' - 2y' + y = 0\\) (repeated root 1)",
-     "Equation (A) has degree 1 (polynomial in y''). Equation (B) has degree NOT DEFINED because √(d²y/dx²) = (d²y/dx²)^(1/2) is a fractional power"
-    ],
-    "hint": "Straight from the 'degree of a differential equation' slide -- match the key terms.",
-    "misconception": "A student who says both have degree 1 fails to recognize that degree is defined only when the original equation is polynomial in derivatives.",
-    "id": "gen_c12_math_ch09_q16",
-    "nodeId": "c12_math_cbse_09_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Consider the differential equation: sin(dy/dx) + y = 0. A student claims the degree is 1 because dy/dx appears to the first power. Explain why this reasoning is incorrect.",
-    "answer": "The degree is NOT DEFINED. The equation contains sin(dy/dx), which is a transcendental function of the derivative, so the equation is not a polynomial in derivatives",
-    "options": [
-     "Start with a known exact equation, e.g., \\(y dx + x dy = 0\\) (exact). Divide by the integrating factor \\(x\\) (assuming \\(x\\neq0\\)): \\(\\frac{y}{x} dx + dy = 0\\)",
-     "Example of order 2, degree 3: (d²y/dx²)³ + x(dy/dx) + y = 0. To make degree undefined: (d²y/dx²)³ + sin(dy/dx) + y = 0 (adds transcendental function of first derivative) OR",
-     "The degree is NOT DEFINED. The equation contains sin(dy/dx), which is a transcendental function of the derivative, so the equation is not a polynomial in derivatives"
-    ],
-    "hint": "Straight from the 'degree of a differential equation' slide -- match the key terms.",
-    "misconception": "This misconception costs marks in both board MCQs and JEE integer-type questions.",
-    "id": "gen_c12_math_ch09_q17",
-    "nodeId": "c12_math_cbse_09_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Construct a differential equation of order 2 and degree 3 that is a polynomial in derivatives. Then modify it slightly to make the degree undefined while keeping order 2. Explain the modification.",
-    "answer": "Example of order 2, degree 3: (d²y/dx²)³ + x(dy/dx) + y = 0. To make degree undefined: (d²y/dx²)³ + sin(dy/dx) + y = 0 (adds transcendental function of first derivative) OR",
-    "options": [
-     "Equation (I): Ordinary differential equation (ODE), order = 2. Only one independent variable \\( x \\); highest derivative is \\( \\frac{d^2y}{dx^2} \\)",
-     "The correct answer is (D) not defined. The term sin(dy/dx) makes the equation non-polynomial in derivatives",
-     "Example of order 2, degree 3: (d²y/dx²)³ + x(dy/dx) + y = 0. To make degree undefined: (d²y/dx²)³ + sin(dy/dx) + y = 0 (adds transcendental function of first derivative) OR"
-    ],
-    "hint": "Straight from the 'degree of a differential equation' slide -- match the key terms.",
-    "misconception": "A poor answer modifies the dependent variable y (e.g., adds sin y) which does not affect degree.",
     "id": "gen_c12_math_ch09_q18",
-    "nodeId": "c12_math_cbse_09_002",
+    "nodeId": "c12_math_cbse_09_001",
     "difficulty": "standard"
    }
   ],
@@ -701,19 +925,22 @@ export const C12_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_math_ch12",
-  "title": "Linear Programming Problem",
+  "title": "The Shortest Distance Between Two",
   "subtitle": "Mathematics · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Linear Programming Problem",
+  "topic": "The Shortest Distance Between Two",
   "chapters": [
-   "Mathematics Ch12: Linear Programming Problem"
+   "Mathematics Ch11: The Shortest Distance Between Two",
+   "Mathematics Ch12: The Shortest Distance Between Two"
   ],
   "nodeIds": [
    "c12_math_cbse_12_001",
    "c12_math_cbse_12_002",
+   "c12_math_cbse_11_004",
    "c12_math_cbse_12_004",
+   "c12_math_cbse_11_005",
    "c12_math_cbse_12_005",
    "c12_math_cbse_12_006"
   ],
@@ -724,7 +951,7 @@ export const C12_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Linear Programming Problem directly with your eyes?",
+   "question": "Can you see The Shortest Distance Between Two directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -747,10 +974,22 @@ export const C12_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
+    "title": "The Shortest Distance Between Two",
+    "text": "The shortest distance between two skew lines in three-dimensional space is the length of the unique line segment that is perpendicular to both lines.",
+    "emoji": "🔢",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Feasible Region In a Linear Programming",
     "text": "A feasible region in a linear programming problem is bounded if it can be enclosed within a circle of finite radius (i.e., it does not extend infinitely in any direction); otherwise, it is unbounded.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "The Shortest Distance Between Two",
+    "text": "The shortest distance between two parallel lines in three-dimensional space is the length of the perpendicular segment drawn from any point on one line to the other line.",
+    "emoji": "🔢",
+    "bgColor": "from-violet-400 to-purple-500"
    },
    {
     "title": "In a Linear Programming Problem ,",
@@ -840,6 +1079,80 @@ export const C12_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "For the lines r = (i + 2j + 3k) + λ(i - j + k) and r = (2i - j - k) + μ(2i + j + 2k), work out the shortest distance between them, showing the cross product, the connector vector, and the final rationalised value.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Directions cross product",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Sanity checks",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s2",
+      "label": "The numerator",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The distance",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "The connector",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Directions cross product — crossing the two direction vectors gives minus 3 i plus 3 k, whose magnitude is three",
+    "id": "gen_c12_math_ch12_q3",
+    "nodeId": "c12_math_cbse_11_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are an architect designing a modern building in Mumbai.",
+     "Two drainage pipes run diagonally across different floors: one goes from the northeast corner of the ground floor to the southwest corner of the",
+     "These pipes are skew — they don't intersect and aren't parallel.",
+     "To avoid collision, you need the minimum clearance between them."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "State the exact mathematical condition that distinguishes a bounded feasible region from an unbounded one in a two-variable linear programming problem.",
     "answer": "A feasible region is bounded if it can be enclosed within a circle of finite radius (i.e., it does not extend infinitely in any direction)",
@@ -850,7 +1163,7 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'feasible region in a linear' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"bounded means it has corners\" or \"bounded means all constraints are ≤\") reveals the student is relying on visual heuristics rather than the precise topological definition, which leads to errors when the region is a strip or a wedge that appears \"closed\" but is actually unbounded.",
-    "id": "gen_c12_math_ch12_q3",
+    "id": "gen_c12_math_ch12_q4",
     "nodeId": "c12_math_cbse_12_004",
     "difficulty": "standard",
     "workedExample": [
@@ -861,17 +1174,91 @@ export const C12_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Create a real-world problem (Indian context) where finding the shortest distance between two parallel lines in 3D is necessary. Define the lines with specific coordinates and ask for the distance. The problem must involve a practical scenario like construction, piping, or cable laying.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Correctly extracts direction ratios",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Identifies a₁",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Gives answer in metres. A poor answer uses",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "Applies formula",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "Writes vector/Cartesian equations",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer uses 2D distance formula, ignores z-coordinates, or assumes the connecting pipe joins the given points directly without perpendicularity.",
+    "id": "gen_c12_math_ch12_q5",
+    "nodeId": "c12_math_cbse_11_005",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine two railway tracks running parallel in 3D space — one at ground level, another on an elevated bridge.",
+     "You need the minimum length of a ladder that can bridge from a point on the lower track perpendicularly to the upper track.",
+     "Start by checking if the lines are truly parallel: compare their direction ratios (a₁:b₁:c₁) and (a₂:b₂:c₂).",
+     "If proportional, they're parallel."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A student solves an LPP and finds the feasible region is unbounded. The smallest value of \\(Z\\) at the corner points is \\(-300\\) at \\((6,0)\\). The student immediately writes \"Minimum value of Z is \\(-300\\)\". Why is this conclusion potentially incorrect, and what additional step must be performed?",
     "answer": "For an unbounded feasible region, a candidate minimum value at a corner point is only the true minimum if the open half-plane \\(ax + by < m\\) (here \\(Z < -300\\)) has no point in",
     "options": [
-     "The investment constraint limits total spending to *at most* ₹50,000 (the dealer may not spend all money)",
+     "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres",
      "The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\"",
      "For an unbounded feasible region, a candidate minimum value at a corner point is only the true minimum if the open half-plane \\(ax + by < m\\) (here \\(Z < -300\\)) has no point in"
     ],
     "hint": "Straight from the 'In a Linear Programming Problem ,' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: For an unbounded feasible region, a candidate minimum value at a corner point is only the true minimum if the open",
-    "id": "gen_c12_math_ch12_q4",
+    "id": "gen_c12_math_ch12_q6",
     "nodeId": "c12_math_cbse_12_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -886,13 +1273,13 @@ export const C12_MATH_GEN: SimDef[] = [
     "question": "In a diet problem, a dietician wants to mix two foods X and Y to meet minimum daily requirements of vitamin A (at least 80 units) and vitamin B (at least 100 units). Food X gives 4 units of vitamin A and 5 units of vitamin B per kg; Food Y gives 2 units of vitamin A and 10 units of vitamin B per kg.",
     "answer": "B) 4x + 2y ≥ 80. The requirement is \"at least 80 units\", so the total vitamin A from both foods (4x from X and 2y from Y) must be greater than or equal to 80",
     "options": [
-     "Let x = units F1→D1, y = units F1→D2. Then F1→D3 = 100 - x - y (since F1 total = 100). D1 demand 60: F2→D1 = 60 - x",
-     "For an unbounded feasible region, a candidate minimum value at a corner point is only the true minimum if the open half-plane \\(ax + by < m\\) (here \\(Z < -300\\)) has no point in",
+     "(1) Directions cross product — crossing the two direction vectors gives minus 3 i plus 3 k, whose magnitude is three root two, (2) The connector",
+     "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres",
      "B) 4x + 2y ≥ 80. The requirement is \"at least 80 units\", so the total vitamin A from both foods (4x from X and 2y from Y) must be greater than or equal to 80"
     ],
     "hint": "Straight from the 'Linear Programming Problem  word' slide -- match the key terms.",
     "misconception": "A wrong answer A (≤) would mean the diet provides at most 80 units, which fails the minimum requirement. Choosing C or D shows confusion between vitamin A and vitamin B coefficients.",
-    "id": "gen_c12_math_ch12_q5",
+    "id": "gen_c12_math_ch12_q7",
     "nodeId": "c12_math_cbse_12_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -903,17 +1290,119 @@ export const C12_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A student computes the shortest distance between two skew lines and gets a negative value. They argue that distance can be negative if the lines are oriented in opposite directions. Evaluate this claim and explain the error.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The exam stakes",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "The formula's protection",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The student's error",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The verdict",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who defends negative distances has confused orientation with magnitude.",
+    "id": "gen_c12_math_ch12_q8",
+    "nodeId": "c12_math_cbse_11_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A student computes the shortest distance between two skew lines and gets a negative value. They argue that distance can be negative if the lines are oriented in opposite directions. Evaluate this claim and explain the error.",
+    "answer": "(1) The verdict — the claim is wrong, because distance is a scalar magnitude and can never be negative, (2) The formula's protection",
+    "options": [
+     "Graph the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))",
+     "For an unbounded feasible region, a candidate minimum value at a corner point is only the true minimum if the open half-plane \\(ax + by < m\\) (here \\(Z < -300\\)) has no point in",
+     "(1) The verdict — the claim is wrong, because distance is a scalar magnitude and can never be negative, (2) The formula's protection"
+    ],
+    "hint": "Straight from the 'The shortest distance between two' slide -- match the key terms.",
+    "misconception": "A student who defends negative distances has confused orientation with magnitude.",
+    "id": "gen_c12_math_ch12_q9",
+    "nodeId": "c12_math_cbse_11_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "For the lines r = (i + 2j + 3k) + λ(i - j + k) and r = (2i - j - k) + μ(2i + j + 2k), work out the shortest distance between them, showing the cross product, the connector vector, and the final rationalised value.",
+    "answer": "(1) Directions cross product — crossing the two direction vectors gives minus 3 i plus 3 k, whose magnitude is three root two, (2) The connector",
+    "options": [
+     "The statement is incomplete. When two corner points yield the same optimal value, every point on the line segment joining them also gives that same optimal value (because the",
+     "Graph the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))",
+     "(1) Directions cross product — crossing the two direction vectors gives minus 3 i plus 3 k, whose magnitude is three root two, (2) The connector"
+    ],
+    "hint": "Straight from the 'The shortest distance between two' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Directions cross product — crossing the two direction vectors gives minus 3 i plus 3 k, whose magnitude is three",
+    "id": "gen_c12_math_ch12_q10",
+    "nodeId": "c12_math_cbse_11_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a real-world problem (Indian context) where finding the shortest distance between two parallel lines in 3D is necessary. Define the lines with specific coordinates and ask for the distance. The problem must involve a practical scenario like construction, piping, or cable laying.",
+    "answer": "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres",
+    "options": [
+     "(1) Directions cross product — crossing the two direction vectors gives minus 3 i plus 3 k, whose magnitude is three root two, (2) The connector",
+     "The investment constraint limits total spending to *at most* ₹50,000 (the dealer may not spend all money)",
+     "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres"
+    ],
+    "hint": "Straight from the 'The shortest distance between two' slide -- match the key terms.",
+    "misconception": "A poor answer uses 2D distance formula, ignores z-coordinates, or assumes the connecting pipe joins the given points directly without perpendicularity.",
+    "id": "gen_c12_math_ch12_q11",
+    "nodeId": "c12_math_cbse_11_005",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A farmer has 10 hectares of land. He grows wheat (profit ₹5000/hectare) and barley (profit ₹3000/hectare). Wheat requires 2 hours of labour per hectare, barley requires 1 hour.",
     "answer": "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land: \\(x + y \\le 10\\) Labour: \\(2x + y \\le 15\\) Fertiliser: \\(3x",
     "options": [
-     "The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\"",
-     "The statement is incomplete. When two corner points yield the same optimal value, every point on the line segment joining them also gives that same optimal value (because the",
+     "(1) The verdict — the claim is wrong, because distance is a scalar magnitude and can never be negative, (2) The formula's protection",
+     "Graph the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))",
      "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land: \\(x + y \\le 10\\) Labour: \\(2x + y \\le 15\\) Fertiliser: \\(3x"
     ],
     "hint": "Straight from the 'Linear Programming Problem' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land:",
-    "id": "gen_c12_math_ch12_q6",
+    "id": "gen_c12_math_ch12_q12",
     "nodeId": "c12_math_cbse_12_001",
     "difficulty": "standard"
    },
@@ -928,7 +1417,7 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Linear Programming Problem' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The formulation is incorrect. Machine hours available are a *limited resource*; the factory cannot *exceed* the",
-    "id": "gen_c12_math_ch12_q7",
+    "id": "gen_c12_math_ch12_q13",
     "nodeId": "c12_math_cbse_12_001",
     "difficulty": "standard"
    },
@@ -937,13 +1426,13 @@ export const C12_MATH_GEN: SimDef[] = [
     "question": "Consider two LPP formulations: (A) Maximise \\(Z = 3x + 4y\\) subject to \\(x + y \\le 5,\\ x \\ge 0,\\ y \\ge 0\\). (B) Maximise \\(Z = 3x + 4y\\) subject to \\(x + y \\le 5,\\ x \\ge 0,\\ y \\ge 0,\\ x \\le 3\\).",
     "answer": "In (A), the feasible region is the triangle with vertices \\((0,0), (5,0), (0,5)\\). In (B), the extra constraint \\(x \\le 3\\) cuts off the part of the triangle where \\(x > 3\\)",
     "options": [
-     "The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\"",
-     "For an unbounded feasible region, a candidate minimum value at a corner point is only the true minimum if the open half-plane \\(ax + by < m\\) (here \\(Z < -300\\)) has no point in",
+     "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres",
+     "(1) The verdict — the claim is wrong, because distance is a scalar magnitude and can never be negative, (2) The formula's protection",
      "In (A), the feasible region is the triangle with vertices \\((0,0), (5,0), (0,5)\\). In (B), the extra constraint \\(x \\le 3\\) cuts off the part of the triangle where \\(x > 3\\)"
     ],
     "hint": "Straight from the 'Linear Programming Problem' slide -- match the key terms.",
     "misconception": "A student who thinks the optimal value must change or that the new constraint is redundant without checking corner points fails to analyse the geometric effect of constraints — a key skill for JEE/NEET where constraint modification questions appear.",
-    "id": "gen_c12_math_ch12_q8",
+    "id": "gen_c12_math_ch12_q14",
     "nodeId": "c12_math_cbse_12_001",
     "difficulty": "standard"
    },
@@ -958,7 +1447,22 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Linear Programming Problem' slide -- match the key terms.",
     "misconception": "This misconception leads to infeasible formulations in word problems where resources are not fully utilised.",
-    "id": "gen_c12_math_ch12_q9",
+    "id": "gen_c12_math_ch12_q15",
+    "nodeId": "c12_math_cbse_12_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "State the three essential components of a Linear Programming Problem in standard form.",
+    "answer": "The three essential components are: (1) Decision variables (non‑negative), (2) A linear objective function to be maximised or minimised",
+    "options": [
+     "A feasible region is bounded if it can be enclosed within a circle of finite radius (i.e., it does not extend infinitely in any direction)",
+     "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres",
+     "The three essential components are: (1) Decision variables (non‑negative), (2) A linear objective function to be maximised or minimised"
+    ],
+    "hint": "Straight from the 'Linear Programming Problem' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., listing only \"objective function and constraints\" but omitting non‑negativity) reveals that the student does not recognise non‑negativity restrictions as a separate, mandatory component — a frequent source of errors in board exams where forgetting \\(x, y \\ge 0\\) leads to an unbounded feasible",
+    "id": "gen_c12_math_ch12_q16",
     "nodeId": "c12_math_cbse_12_001",
     "difficulty": "standard"
    },
@@ -973,7 +1477,7 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'feasible region in a linear' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\".",
-    "id": "gen_c12_math_ch12_q10",
+    "id": "gen_c12_math_ch12_q17",
     "nodeId": "c12_math_cbse_12_004",
     "difficulty": "standard"
    },
@@ -984,99 +1488,23 @@ export const C12_MATH_GEN: SimDef[] = [
     "options": [
      "The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\"",
      "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land: \\(x + y \\le 10\\) Labour: \\(2x + y \\le 15\\) Fertiliser: \\(3x",
-     "Adding the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))",
+     "Evaluation the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))",
      "Graph the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))"
     ],
     "hint": "Straight from the 'feasible region in a linear' slide -- match the key terms.",
     "misconception": "A student who says \"unbounded because ≥ constraint\" reveals the misconception that any ≥ constraint makes the region unbounded; they must check intersection of all half-planes.",
-    "id": "gen_c12_math_ch12_q11",
+    "id": "gen_c12_math_ch12_q18",
     "nodeId": "c12_math_cbse_12_004",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student solves an LPP and gets two corner points giving the same maximum value of the objective function. The student writes: \"The maximum occurs at both points, so there are two optimal solutions.\" Is this statement complete? What does the NCERT remark say about the set of all optimal solutions in this case?",
-    "answer": "The statement is incomplete. When two corner points yield the same optimal value, every point on the line segment joining them also gives that same optimal value (because the",
-    "options": [
-     "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land: \\(x + y \\le 10\\) Labour: \\(2x + y \\le 15\\) Fertiliser: \\(3x",
-     "The investment constraint limits total spending to *at most* ₹50,000 (the dealer may not spend all money)",
-     "The statement is incomplete. When two corner points yield the same optimal value, every point on the line segment joining them also gives that same optimal value (because the"
-    ],
-    "hint": "Straight from the 'In a Linear Programming Problem ,' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is incomplete. When two corner points yield the same optimal value, every point on the line segment",
-    "id": "gen_c12_math_ch12_q12",
-    "nodeId": "c12_math_cbse_12_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A manufacturing problem has constraints: 3x + 2y ≤ 12 (machine hours), x + y ≤ 5 (labour hours), x ≥ 0, y ≥ 0. The objective is to maximise Z = 10x + 15y. A student graphs the constraints and gets corner points (0,0), (4,0), (0,5), and (2,3).",
-    "answer": "The conclusion is correct. The feasible region is bounded, so by Theorem 2 the maximum occurs at a corner point",
-    "options": [
-     "The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\"",
-     "The investment constraint limits total spending to *at most* ₹50,000 (the dealer may not spend all money)",
-     "The conclusion is correct. The feasible region is bounded, so by Theorem 2 the maximum occurs at a corner point"
-    ],
-    "hint": "Straight from the 'Linear Programming Problem  word' slide -- match the key terms.",
-    "misconception": "If a student got 70 at (2,3) they might have used wrong coefficients.",
-    "id": "gen_c12_math_ch12_q13",
-    "nodeId": "c12_math_cbse_12_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A student solves a manufacturing LPP: Maximise Z = 50x + 40y subject to 2x + y ≤ 10, x + 3y ≤ 15, x ≥ 0, y ≥ 0. They find corner points: (0,0), (5,0), (0,5), and (3,4) [intersection of 2x+y=10 and x+3y=15].",
-    "answer": "Check (3,4) in x+3y ≤ 15: 3 + 3*4 = 3+12 = 15 ≤ 15. It satisfies (equality). Also check 2x+y ≤ 10: 2*3+4 = 6+4 = 10 ≤ 10",
-    "options": [
-     "The conclusion is correct. The feasible region is bounded, so by Theorem 2 the maximum occurs at a corner point",
-     "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land: \\(x + y \\le 10\\) Labour: \\(2x + y \\le 15\\) Fertiliser: \\(3x",
-     "Check (3,4) in x+3y ≤ 15: 3 + 3*4 = 3+12 = 15 ≤ 15. It satisfies (equality). Also check 2x+y ≤ 10: 2*3+4 = 6+4 = 10 ≤ 10"
-    ],
-    "hint": "Straight from the 'Linear Programming Problem  word' slide -- match the key terms.",
-    "misconception": "If a student got (3,4) but didn't verify, they might have missed that it violates a third constraint if one existed.",
-    "id": "gen_c12_math_ch12_q14",
-    "nodeId": "c12_math_cbse_12_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A transportation problem: Two factories F1 and F2 supply to three depots D1, D2, D3. But we reduce to two variables by considering only F1's shipments to D1 and D2 (let x = units from F1 to D1, y = units from F1 to D2).",
-    "answer": "Let x = units F1→D1, y = units F1→D2. Then F1→D3 = 100 - x - y (since F1 total = 100). D1 demand 60: F2→D1 = 60 - x",
-    "options": [
-     "B) 4x + 2y ≥ 80. The requirement is \"at least 80 units\", so the total vitamin A from both foods (4x from X and 2y from Y) must be greater than or equal to 80",
-     "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land: \\(x + y \\le 10\\) Labour: \\(2x + y \\le 15\\) Fertiliser: \\(3x",
-     "Correct x = units F1→D1, y = units F1→D2. Then F1→D3 = 100 - x - y (since F1 total = 100). D1 demand 60: F2→D1 = 60 - x",
-     "Let x = units F1→D1, y = units F1→D2. Then F1→D3 = 100 - x - y (since F1 total = 100). D1 demand 60: F2→D1 = 60 - x"
-    ],
-    "hint": "Straight from the 'Linear Programming Problem  word' slide -- match the key terms.",
-    "misconception": "A wrong answer often misses the constant term or makes sign errors in substitution.",
-    "id": "gen_c12_math_ch12_q15",
-    "nodeId": "c12_math_cbse_12_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the following two LPPs: Problem A: Maximise Z = 3x + 2y subject to x + y ≤ 4, x ≥ 0, y ≥ 0. Problem B: Maximise Z = 3x + 2y subject to x + y ≥ 4, x ≥ 0, y ≥ 0. Both have the same objective function.",
-    "answer": "Problem A: constraint x+y ≤ 4 with x,y ≥ 0 gives a bounded feasible region (triangle with vertices (0,0), (4,0), (0,4))",
-    "options": [
-     "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land: \\(x + y \\le 10\\) Labour: \\(2x + y \\le 15\\) Fertiliser: \\(3x",
-     "The three essential components are: (1) Decision variables (non‑negative), (2) A linear objective function to be maximised or minimised",
-     "Problem A: constraint x+y ≤ 4 with x,y ≥ 0 gives a bounded feasible region (triangle with vertices (0,0), (4,0), (0,4))"
-    ],
-    "hint": "Straight from the 'Linear Programming Problem  word' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Problem A: constraint x+y ≤ 4 with x,y ≥ 0 gives a bounded feasible region (triangle with vertices (0,0), (4,0), (0,4)).",
-    "id": "gen_c12_math_ch12_q16",
-    "nodeId": "c12_math_cbse_12_006",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about linear programming problem?",
+    "What surprised you about the shortest distance between two?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Linear Programming Problem mastered! 🎯",
+  "successLine": "The Shortest Distance Between mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

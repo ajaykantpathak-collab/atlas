@@ -556,18 +556,18 @@ export const C12_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student writes this CREATE TABLE statement for an ORDERS table: CREATE TABLE ORDERS ( OrderID INT, CustomerID INT, OrderDate DATE DEFAULT CURRENT_DATE, Amount DECIMAL(10,2) CHECK (Amount >= 0), PRIMARY KEY (OrderID), FOREIGN KEY (CustomerID) REFERENCES CUSTOMER(CustID) ); The CUSTOMER table exists with CustID as",
-    "answer": "1. DEFAULT CURRENT_DATE for DATE column is invalid in MySQL — use DEFAULT (CURRENT_DATE) with parentheses or a literal",
+    "question": "Write a CREATE TABLE statement for a table orders with columns: order_id (auto-increment integer, primary key), order_date (date only, no time), amount (up to 9999999.99, exact), status (fixed 1-character code: 'P', 'S', 'C'), and notes (up to 500 characters). Use the most storage-efficient types.",
+    "answer": "CREATE TABLE orders ( order_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, order_date DATE NOT NULL, amount DECIMAL(9,2) NOT NULL, status CHAR(1) NOT NULL, notes VARCHAR(500) )",
     "options": [
-     "Correct reasons: 1) The WHERE condition matches no row (CustId 'C0001' does not exist or is spelled differently, e",
-     "Correct statement: INSERT INTO PRODUCT (PCode, PName, Price, Qty) VALUES ('P001','Pen',10.00,100), ('P002','Pencil',5",
-     "1. DEFAULT CURRENT_DATE for DATE column is invalid in MySQL — use DEFAULT (CURRENT_DATE) with parentheses or a literal"
+     "The statement fails with a foreign key constraint violation because CustID = 5 does not exist in the referenced CUSTOMER table",
+     "Scenario: Table STUDENT(RollNo INT PRIMARY KEY, Name VARCHAR(30)) already contains a row with RollNo = 101",
+     "CREATE TABLE orders ( order_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, order_date DATE NOT NULL, amount DECIMAL(9,2) NOT NULL, status CHAR(1) NOT NULL, notes VARCHAR(500) )"
     ],
-    "hint": "Straight from the 'CREATE TABLE' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals: not knowing MySQL-specific DEFAULT syntax for functions, treating CHECK as optional naming, or overlooking that FK columns default to nullable — a major data integrity hole.",
+    "hint": "Straight from the 'MySQL data types define the kind' slide -- match the key terms.",
+    "misconception": "Wrong answers using FLOAT for amount, DATETIME for order_date, or VARCHAR(1) for status show inability to match type to exact constraints.",
     "id": "gen_c12_ip_ch01_q18",
-    "nodeId": "c12_ip_cbse_01_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_ip_cbse_01_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -1014,6 +1014,21 @@ export const C12_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "You have a file \"sales.txt\" where fields are separated by the pipe character | (e.g., \"101|Laptop|45000\"). Write the exact read_csv statement to load this into a DataFrame with columns \"ID\", \"Product\", \"Price\".",
+    "answer": "df = pd.read_csv(\"sales.txt\", sep=\"|\", names=[\"ID\", \"Product\", \"Price\"], header=N/A) Steps: (1) Identify separator is |, not comma → sep=\"|\"",
+    "options": [
+     "def export_dataframe(df, filepath, fmt='csv', kwargs): \"\"\" Export DataFrame to CSV or Excel with sensible defaults",
+     "sales.loc[['Madhu','Kusum'], ['2015','2016']] — note double brackets for lists",
+     "df = pd.read_csv(\"sales.txt\", sep=\"|\", names=[\"ID\", \"Product\", \"Price\"], header=N/A) Steps: (1) Identify separator is |, not comma → sep=\"|\""
+    ],
+    "hint": "Straight from the 'read_csv and read_excel functions' slide -- match the key terms.",
+    "misconception": "A wrong answer (missing sep, or missing header=N/A, or using read_excel) reveals the student cannot adapt the function to non-standard delimiters and headerless files — a common board exam scenario.",
+    "id": "gen_c12_ip_ch02_q14",
+    "nodeId": "c12_ip_cbse_02_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A DataFrame df has columns 'Math', 'Physics', 'Chemistry' with marks of 50 students. You run df.describe(). The output shows 'std' for Math = 15.2, Physics = 8.7, Chemistry = 22.1. Which subject has the most consistent performance? Justify using the standard deviation.",
     "answer": "Physics has the most consistent performance because it has the lowest standard deviation (8.7), meaning marks are clustered closest to the mean",
     "options": [
@@ -1023,7 +1038,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Descriptive statistics in Pandas' slide -- match the key terms.",
     "misconception": "A wrong answer that picks the highest std or confuses consistency with average shows misunderstanding of standard deviation as a measure of spread.",
-    "id": "gen_c12_ip_ch02_q14",
+    "id": "gen_c12_ip_ch02_q15",
     "nodeId": "c12_ip_cbse_02_008",
     "difficulty": "advanced"
    },
@@ -1038,7 +1053,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Filtering a DataFrame selects' slide -- match the key terms.",
     "misconception": "A student who misses the logical error confuses inclusive OR with the required AND for range filtering.",
-    "id": "gen_c12_ip_ch02_q15",
+    "id": "gen_c12_ip_ch02_q16",
     "nodeId": "c12_ip_cbse_02_010",
     "difficulty": "advanced"
    },
@@ -1053,7 +1068,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Exporting a pandas DataFrame to' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Excel is better because it's binary\") shows misunderstanding of .xlsx internals and archival best practices.",
-    "id": "gen_c12_ip_ch02_q16",
+    "id": "gen_c12_ip_ch02_q17",
     "nodeId": "c12_ip_cbse_02_011",
     "difficulty": "advanced"
    },
@@ -1068,23 +1083,8 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Exporting a pandas DataFrame to' slide -- match the key terms.",
     "misconception": "A poor answer hardcodes parameters, ignores kwargs, or doesn't handle the two formats separately — showing lack of abstraction skill.",
-    "id": "gen_c12_ip_ch02_q17",
-    "nodeId": "c12_ip_cbse_02_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A student writes df.plot(kind='line', x='Date', y='Sales') on a DataFrame where Date is a string column like '2023-01', '2023-02', etc. The plot renders but x-axis labels are crowded and unreadable. They try plt.xticks(rotation=45) but it doesn't work. Diagnose the issue and give the correct fix.",
-    "answer": "The issue: plt.xticks() operates on the *current* axes, but Pandas .plot() may create a new figure/axes that isn't the current one when plt",
-    "options": [
-     "Expected solution: import pandas as pd df = pd.DataFrame({'Physics': [85, 90, 78], 'Chemistry': [80, 88, 82], 'Biology': [92, 85, 88]}, index=['Riya', 'Aman'",
-     "df = pd.read_csv(\"sales.txt\", sep=\"|\", names=[\"ID\", \"Product\", \"Price\"], header=N/A) Steps: (1) Identify separator is |, not comma → sep=\"|\"",
-     "The issue: plt.xticks() operates on the *current* axes, but Pandas .plot() may create a new figure/axes that isn't the current one when plt"
-    ],
-    "hint": "Straight from the 'Plotting from Pandas' slide -- match the key terms.",
-    "misconception": "A wrong answer (blaming data format or suggesting plt.xticks() alone) reveals the student doesn't understand that Pandas plotting returns an Axes object and matplotlib pyplot state-machine commands may not target it — a classic JEE/board practical exam error.",
     "id": "gen_c12_ip_ch02_q18",
-    "nodeId": "c12_ip_cbse_02_012",
+    "nodeId": "c12_ip_cbse_02_011",
     "difficulty": "advanced"
    }
   ],
@@ -2333,6 +2333,21 @@ export const C12_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student says: \"E-waste is just plastic and metal — it's not dangerous like chemical waste.\" Explain why this statement is incorrect using three specific toxic substances found in e-waste and their targeted health effects.",
+    "answer": "The statement is incorrect because e-waste contains concentrated hazardous substances: (1) Lead in solder/CRT glass — causes neurological damage, especially in children",
+    "options": [
+     "Good reply: \"Hi! Thanks for sharing your code. To help you better, could you please: (1) format the code using the </> button so it's readable",
+     "Campaign: \"E-Waste Warriors\". (a) Target: Collect 500 kg e-waste in 4 weeks (2.5 kg/flat). (b) Nudges: (i) \"Green Bin\" at each tower entrance with QR code linking to recycler",
+     "The statement is incorrect because e-waste contains concentrated hazardous substances: (1) Lead in solder/CRT glass — causes neurological damage, especially in children"
+    ],
+    "hint": "Straight from the 'E-waste' slide -- match the key terms.",
+    "misconception": "A wrong answer that only mentions \"pollution\" or \"heavy metals\" without naming specific substance→effect pairs shows superficial awareness, not mechanistic understanding of toxicity pathways.",
+    "id": "gen_c12_ip_ch04_q17",
+    "nodeId": "c12_ip_cbse_04_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the environmental impact of informal sector recycling (open burning, acid leaching) vs. formal sector recycling (mechanical shredding, hydrometallurgy) for a printed circuit board (PCB). Which recovers more gold per tonne, and why does the informal sector persist despite lower recovery?",
     "answer": "Formal recycling recovers >95% of gold (≈300 g/tonne PCB) via controlled hydrometallurgy; informal acid leaching recovers <30% and releases cyanide/acid effluents",
     "options": [
@@ -2342,21 +2357,6 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'E-waste' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"informal recovers more gold because they use strong acid\" confuses reagent strength with process control — uncontrolled acid leaching dissolves gold but fails to precipitate it efficiently, losing most to waste sludge.",
-    "id": "gen_c12_ip_ch04_q17",
-    "nodeId": "c12_ip_cbse_04_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this school e-waste drive plan: \"Students bring all old electronics from home; we pile them in the courtyard; a local scrap dealer offers ₹50/kg and takes everything away.\" Identify three violations of E-Waste Management Rules 2022 and propose a compliant alternative.",
-    "answer": "Violations: (1) Handing e-waste to unauthorized scrap dealer (Rule 9: only authorized dismantlers/recyclers)",
-    "options": [
-     "Campaign: \"E-Waste Warriors\". (a) Target: Collect 500 kg e-waste in 4 weeks (2.5 kg/flat). (b) Nudges: (i) \"Green Bin\" at each tower entrance with QR code linking to recycler",
-     "For: (1) Basic kindness (don't insult) is intuitive; (2) Many rules mirror offline manners (say please/thank you)",
-     "Violations: (1) Handing e-waste to unauthorized scrap dealer (Rule 9: only authorized dismantlers/recyclers)"
-    ],
-    "hint": "Straight from the 'E-waste' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"money lost\" misses the legal and ecological core of the violation.",
     "id": "gen_c12_ip_ch04_q18",
     "nodeId": "c12_ip_cbse_04_008",
     "difficulty": "standard"
@@ -4008,6 +4008,21 @@ export const C12_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A Class 12 student says: \"I don't need cyber safety because I don't have money in my bank account and I don't post anything secret.\" Explain why this reasoning is flawed, using at least three distinct risk categories that apply to teenagers.",
+    "answer": "The reasoning is flawed because cyber safety risks extend far beyond direct financial loss. Three categories affecting teenagers: (1) Identity theft",
+    "options": [
+     "Counterexample 1: Phishing sites routinely use valid HTTPS certificates (Let's Encrypt issues them free for any domain the attacker controls)",
+     "Last incremental was Wednesday 6 PM. Failure Thursday 10 AM → data created between Wed 6 PM and Thu 10 AM is lost (max ~16 hours)",
+     "The reasoning is flawed because cyber safety risks extend far beyond direct financial loss. Three categories affecting teenagers: (1) Identity theft"
+    ],
+    "hint": "Straight from the 'Cyber safety' slide -- match the key terms.",
+    "misconception": "A wrong answer focusing only on \"money\" shows the student hasn't internalized the non-financial, long-term consequences emphasized in CBSE competency questions.",
+    "id": "gen_c12_ip_ch07_q11",
+    "nodeId": "c12_ip_cbse_07_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a personal \"secure login checklist\" for a Class 12 student who uses: school email, Instagram, banking app, and a coding platform (GitHub). The checklist must include 2FA method per service, password strategy, recovery preparation, and a habit to review quarterly. Present as a table.",
     "answer": "A strong answer produces a table with columns: Service | 2FA Method (primary/backup) | Password Manager Entry | Recovery Codes Stored | Quarterly Review Action",
     "options": [
@@ -4017,9 +4032,24 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Two-factor authentication' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong answer produces a table with columns: Service | 2FA Method (primary/backup) | Password Manager Entry |",
-    "id": "gen_c12_ip_ch07_q11",
+    "id": "gen_c12_ip_ch07_q12",
     "nodeId": "c12_ip_cbse_07_006",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A freelancer has 200 GB of client videos. They do a full backup to an external SSD every Sunday, and incremental backups to the same SSD every weekday at 6 PM. On Thursday at 10 AM, the SSD fails. What is the maximum data loss (RPO), and how many backup sets are needed to restore the latest clean state?",
+    "answer": "Last incremental was Wednesday 6 PM. Failure Thursday 10 AM → data created between Wed 6 PM and Thu 10 AM is lost (max ~16 hours)",
+    "options": [
+     "The reasoning is flawed because cyber safety risks extend far beyond direct financial loss. Three categories affecting teenagers: (1) Identity theft",
+     "A strong answer produces a table with columns: Service | 2FA Method (primary/backup) | Password Manager Entry | Recovery Codes Stored | Quarterly Review Action",
+     "Last incremental was Wednesday 6 PM. Failure Thursday 10 AM → data created between Wed 6 PM and Thu 10 AM is lost (max ~16 hours)"
+    ],
+    "hint": "Straight from the 'Data backup' slide -- match the key terms.",
+    "misconception": "A wrong answer saying \"only Sunday full backup needed\" ignores that incrementals capture changes after the full backup; skipping them loses all work done Mon-Wed.",
+    "id": "gen_c12_ip_ch07_q13",
+    "nodeId": "c12_ip_cbse_07_009",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -4032,7 +4062,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Data backup' slide -- match the key terms.",
     "misconception": "A wrong answer accepting \"cloud durability = backup\" confuses infrastructure durability with logical data protection against user/attacker actions.",
-    "id": "gen_c12_ip_ch07_q12",
+    "id": "gen_c12_ip_ch07_q14",
     "nodeId": "c12_ip_cbse_07_009",
     "difficulty": "advanced"
    },
@@ -4047,7 +4077,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Data backup' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer: (1) On-site: ingest to laptop → immediate copy to rugged external SSD (media 1) + verify.",
-    "id": "gen_c12_ip_ch07_q13",
+    "id": "gen_c12_ip_ch07_q15",
     "nodeId": "c12_ip_cbse_07_009",
     "difficulty": "advanced"
    },
@@ -4062,7 +4092,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Data backup' slide -- match the key terms.",
     "misconception": "A wrong answer like \"3 backups on the same external drive\" reveals misunderstanding of media diversity and geographic redundancy — a single drive failure or fire would destroy all copies.",
-    "id": "gen_c12_ip_ch07_q14",
+    "id": "gen_c12_ip_ch07_q16",
     "nodeId": "c12_ip_cbse_07_009",
     "difficulty": "advanced"
    },
@@ -4077,7 +4107,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Privacy protection on social' slide -- match the key terms.",
     "misconception": "A wrong answer that equates them ignores persistence, searchability, and audience scope — key dimensions of location‑privacy risk.",
-    "id": "gen_c12_ip_ch07_q15",
+    "id": "gen_c12_ip_ch07_q17",
     "nodeId": "c12_ip_cbse_07_011",
     "difficulty": "advanced"
    }

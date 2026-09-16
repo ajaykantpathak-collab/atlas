@@ -8,7 +8,7 @@ export const c6_history_ch07: SimDef = {
     subtitle: 'This node covers the transition of power under Qutbuddin Aibak and the timeline of the.',
     classLevel: 6, subject: 'history', topic: 'The Delhi Sultanate',
     chapters: ['c6_history_ch07'],
-    nodeIds: ['c6_history_ch07_021', 'c6_history_ch07_022', 'c6_history_ch07_023', 'c6_history_ch07_024', 'c6_history_ch07_025', 'c6_history_ch07_026'],
+    nodeIds: ['c6_history_ch07_023', 'c6_history_ch07_024', 'c6_history_ch07_026'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever seen a sports team get a new coach who changes how the whole game is played?', goal: 'Master every idea in this chapter.' },

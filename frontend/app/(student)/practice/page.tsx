@@ -10,6 +10,7 @@ import '@fontsource/plus-jakarta-sans/700.css';
 // ─── Core React / Framer Motion ───────────────────────────────────────────────
 
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import katex from 'katex';
 
@@ -21,6 +22,7 @@ import { create } from 'zustand';
 
 import offlineCache from '@/lib/offlineCache';
 import { getAuthToken } from "@/lib/api";
+import { friendlyNodeTitle, subjectName } from '@/lib/nodeTitle';
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 
@@ -442,7 +444,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
       'Great job! Keep the momentum going!',
       "You're on fire! Sahi kaam chal raha hai! 🔥",
       'Impressive work! Practice makes perfect!',
-      'Baat bat ja! 5 din aur aise hi karte raho! 💪',
+      'Shabaash! Isi tarah practice karte raho! 💪',
       'Wow! Your effort is paying off!',
     ];
     const hints = [
@@ -697,7 +699,7 @@ function TopBar({ streakDays, masteryPercent, masterySubject, topic }: {
             Practice
           </h1>
           <span className="text-xs px-2 py-0.5 rounded-full" style={{ backgroundColor: 'rgba(251,191,36,0.15)', color: GOLD_PALE, border: '1px solid rgba(251,191,36,0.2)' }}>
-            {topic}
+            {friendlyNodeTitle(topic)}
           </span>
         </div>
         <div className="flex items-center gap-4">
@@ -756,10 +758,10 @@ function ReadyScreen({ topic, subject, onStart }: {
           Ready to practice?
         </h2>
         <p className="text-sm mb-1" style={{ color: TEXT_SECONDARY, fontFamily: BODY_FONT }}>
-          {topic} — {subject}
+          {friendlyNodeTitle(topic)} — {subjectName(subject)}
         </p>
         <p className="text-xs" style={{ color: TEXT_MUTED, fontFamily: BODY_FONT }}>
-          5 questions • 15 min session • Instant feedback
+          5 questions • Instant feedback • Adaptive difficulty
         </p>
       </motion.div>
 
@@ -847,28 +849,72 @@ function LoadingScreen({ topic }: { topic: string }) {
   const msg = loadingMessages[Math.floor(Math.random() * loadingMessages.length)];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[calc(100vh-140px)] px-6">
+    <div className="flex flex-col items-center justify-center min-h-[calc(100vh-140px)] px-6 w-full">
+      {/* Skeleton question card */}
+      <div
+        className="w-full max-w-sm rounded-2xl p-5 mb-6"
+        style={{
+          background: 'rgba(255,255,255,0.03)',
+          border: '1px solid rgba(255,255,255,0.06)',
+        }}
+        aria-hidden="true"
+      >
+        <div className="flex justify-between mb-4">
+          <motion.div
+            className="h-6 w-24 rounded-full"
+            style={{ backgroundColor: 'rgba(251,191,36,0.12)' }}
+            animate={{ opacity: [0.4, 1, 0.4] }}
+            transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut' }}
+          />
+          <motion.div
+            className="h-6 w-16 rounded-full"
+            style={{ backgroundColor: 'rgba(255,255,255,0.06)' }}
+            animate={{ opacity: [0.4, 1, 0.4] }}
+            transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut', delay: 0.2 }}
+          />
+        </div>
+        {[100, 88, 64].map((w, i) => (
+          <motion.div
+            key={i}
+            className="h-3.5 rounded-full mb-2.5"
+            style={{ width: `${w}%`, backgroundColor: 'rgba(255,255,255,0.07)' }}
+            animate={{ opacity: [0.35, 0.9, 0.35] }}
+            transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut', delay: 0.3 + i * 0.15 }}
+          />
+        ))}
+        {[0, 1, 2].map((i) => (
+          <motion.div
+            key={`opt-${i}`}
+            className="h-12 rounded-xl mb-2.5"
+            style={{ backgroundColor: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.05)' }}
+            animate={{ opacity: [0.35, 0.9, 0.35] }}
+            transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut', delay: 0.6 + i * 0.15 }}
+          />
+        ))}
+      </div>
+
       <motion.div
-        animate={{ rotate: 360 }}
-        transition={{ duration: 1.5, repeat: Infinity, ease: 'linear' }}
-        className="w-12 h-12 border-3 rounded-full mb-6"
+        className="w-12 h-12 rounded-full mb-6"
         style={{
           borderWidth: '3px',
+          borderStyle: 'solid',
           borderColor: 'rgba(251,191,36,0.2)',
           borderTopColor: GOLD_CORE,
         }}
+        animate={{ rotate: 360 }}
+        transition={{ duration: 1.5, repeat: Infinity, ease: 'linear' }}
         aria-hidden="true"
-        role="status"
       />
       <p
         className="text-sm animate-pulse"
         style={{ color: TEXT_SECONDARY, fontFamily: BODY_FONT }}
         aria-live="polite"
+        role="status"
       >
         {msg}
       </p>
-      <p className="text-xs mt-1" style={{ color: TEXT_MUTED }}>
-        {topic}
+      <p className="text-xs mt-1" style={{ color: TEXT_MUTED, fontFamily: BODY_FONT }}>
+        {friendlyNodeTitle(topic)}
       </p>
     </div>
   );
@@ -944,7 +990,7 @@ function QuestionScreen({
           className="text-xs px-2.5 py-1 rounded-full font-medium"
           style={{ backgroundColor: 'rgba(251,191,36,0.1)', color: GOLD_PALE, border: '1px solid rgba(251,191,36,0.15)' }}
         >
-          {question.topic}
+          {friendlyNodeTitle(question.topic)}
         </span>
         <span
           className="text-xs px-2.5 py-1 rounded-full font-medium"
@@ -1250,6 +1296,8 @@ function SummaryScreen({
   masteryPercent: number;
   onRestart: () => void;
 }) {
+  const router = useRouter();
+
   if (!summary) return null;
 
   const accuracyColor = summary.accuracy >= 80
@@ -1414,7 +1462,13 @@ function SummaryScreen({
         <motion.button
           whileHover={{ scale: 1.01 }}
           whileTap={{ scale: 0.98 }}
-          onClick={() => window.history.back()}
+          onClick={() => {
+            if (typeof window !== 'undefined' && window.history.length > 1) {
+              window.history.back();
+            } else {
+              router.push('/dashboard');
+            }
+          }}
           className="w-full py-3 rounded-2xl font-medium text-sm"
           style={{
             fontFamily: DISPLAY_FONT,

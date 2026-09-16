@@ -4,11 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "sync:sim-index": "node scripts/sync-sim-index.js",
+    "emit:sims": "node scripts/emit-sim-json.js",
+    "predev": "npm run emit:sims",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "sims:build": "node components/sims_v2/tools/build_simdefs.mjs && node components/sims_v2/tools/wrap_masters.mjs && node components/sims_v2/tools/build_simindex.mjs && node components/sims_v2/tools/validate_sims.mjs --new-only",
-    "test:browser": "node scripts/sim-browser-test.mjs"
+    "test:browser": "node scripts/sim-browser-test.mjs",
+    "prebuild": "npm run sync:sim-index && npm run emit:sims"
   },
   "dependencies": {
     "@fontsource/plus-jakarta-sans": "^5.3.0",

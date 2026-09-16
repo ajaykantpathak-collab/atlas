@@ -12,7 +12,7 @@ export const c6CivRights: SimDef = {
     id: 'c6_civ_rights', title: 'Our Rights', subtitle: 'Fundamental rights & duties',
     classLevel: 6, subject: 'social', topic: 'Rights and Duties',
     chapters: ['Civics Ch10: Rights'],
-    nodeIds: ['c6_civics_ch10_001','c6_civics_ch10_002','c6_civics_ch10_003','c6_civics_ch10_004','c6_civics_ch10_005','c6_civics_ch10_006','c6_civics_ch10_007','c6_civics_ch10_008'],
+    nodeIds: ['c6_civics_ch10_002','c6_civics_ch10_003','c6_civics_ch10_004','c6_civics_ch10_006','c6_civics_ch10_007'],
     emoji: '⚖️', theme: { bg: 'from-amber-100 to-yellow-200', accent: 'amber', scene: 'rights' },
     scenario: { role: "a young citizen", intro: "Every Indian has fundamental rights — equality, freedom, protection from exploitation — plus duties.", goal: "Understand your rights and duties." },
     discovery: {
@@ -72,7 +72,7 @@ export const c6CivGovernment: SimDef = {
     id: 'c6_civ_govt', title: 'How Government Works', subtitle: 'Democracy & levels',
     classLevel: 6, subject: 'social', topic: 'Government',
     chapters: ['Civics Ch11-12: Government & Grassroots'],
-    nodeIds: ['c6_civics_ch11_009','c6_civics_ch11_010','c6_civics_ch11_011','c6_civics_ch11_012','c6_civics_ch11_013','c6_civics_ch11_014','c6_civics_ch12_015','c6_civics_ch12_016','c6_civics_ch12_017','c6_civics_ch12_018','c6_civics_ch12_019','c6_civics_ch12_020','c6_civics_ch12_021','c6_civics_ch12_022'],
+    nodeIds: ['c6_civics_ch11_009','c6_civics_ch11_010','c6_civics_ch11_011','c6_civics_ch11_012','c6_civics_ch11_013','c6_civics_ch11_014','c6_civics_ch12_015','c6_civics_ch12_018','c6_civics_ch12_019','c6_civics_ch12_020','c6_civics_ch12_022'],
     emoji: '🏛️', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'government' },
     scenario: { role: "a young voter", intro: "India is a democracy — people elect leaders at village, state, and national levels.", goal: "Understand how government works." },
     discovery: {
@@ -137,7 +137,7 @@ export const c6EcoMoney: SimDef = {
     id: 'c6_eco_money', title: 'Money', subtitle: 'From barter to banks',
     classLevel: 6, subject: 'social', topic: 'Money and Banking',
     chapters: ['Economics Ch11: Money'],
-    nodeIds: ['c6_economics_ch11_001','c6_economics_ch11_002','c6_economics_ch11_003','c6_economics_ch11_004','c6_economics_ch11_005','c6_economics_ch11_006'],
+    nodeIds: ['c6_economics_ch11_001','c6_economics_ch11_002','c6_economics_ch11_003','c6_economics_ch11_004'],
     emoji: '💰', theme: { bg: 'from-green-100 to-emerald-200', accent: 'green', scene: 'money' },
     scenario: { role: "a young economist", intro: "Before money, people traded goods directly — barter. Money solved the problem and made trade easy.", goal: "Understand why money exists." },
     discovery: {
@@ -308,7 +308,7 @@ export const c6HistHarappan: SimDef = {
     id: 'c6_hist_harappan', title: 'The Harappan Civilisation', subtitle: 'India\'s first cities',
     classLevel: 6, subject: 'social', topic: 'Harappan Civilisation',
     chapters: ['History Ch4: Early Cities'],
-    nodeIds: ['c6_history_ch04_001','c6_history_ch04_002','c6_history_ch04_003','c6_history_ch04_004','c6_history_ch04_005','c6_history_ch04_006'],
+    nodeIds: ['c6_history_ch04_001','c6_history_ch04_003','c6_history_ch04_004','c6_history_ch04_005','c6_history_ch04_006'],
     emoji: '🏺', theme: { bg: 'from-orange-100 to-amber-200', accent: 'orange', scene: 'harappan' },
     scenario: { role: "an archaeologist", intro: "5000 years ago, the Harappan civilisation built planned cities with drains, baths, and granaries.", goal: "Explore India's first cities." },
     discovery: {
@@ -365,7 +365,7 @@ export const c6HistEmpires: SimDef = {
     id: 'c6_hist_empires', title: 'Empires of India', subtitle: 'Mauryas to Mughals',
     classLevel: 6, subject: 'social', topic: 'Indian Empires',
     chapters: ['History Ch5-9: Empires'],
-    nodeIds: ['c6_history_ch05_007','c6_history_ch05_008','c6_history_ch05_009','c6_history_ch05_010','c6_history_ch05_011','c6_history_ch05_012','c6_history_ch05_013','c6_history_ch05_014','c6_history_ch09_033','c6_history_ch09_034','c6_history_ch09_035','c6_history_ch09_036','c6_history_ch09_037','c6_history_ch09_038'],
+    nodeIds: ['c6_history_ch05_007','c6_history_ch05_008','c6_history_ch05_009','c6_history_ch05_010','c6_history_ch05_011','c6_history_ch05_012','c6_history_ch05_013','c6_history_ch05_014','c6_history_ch09_034','c6_history_ch09_035','c6_history_ch09_036','c6_history_ch09_037','c6_history_ch09_038'],
     emoji: '👑', theme: { bg: 'from-purple-100 to-violet-200', accent: 'purple', scene: 'empires' },
     scenario: { role: "a history-chronicler", intro: "India saw great empires — Mauryas under Ashoka, the golden Guptas, and the mighty Mughals.", goal: "Trace India's great empires." },
     discovery: {
@@ -504,7 +504,7 @@ export const c6HistMedieval: SimDef = {
     id: 'c6_hist_medieval', title: 'Medieval India', subtitle: 'Sultanate to regional kingdoms',
     classLevel: 6, subject: 'social', topic: 'Medieval History',
     chapters: ['History Ch6-8: Medieval'],
-    nodeIds: ['c6_history_ch06_015','c6_history_ch06_016','c6_history_ch06_017','c6_history_ch06_018','c6_history_ch06_019','c6_history_ch06_020','c6_history_ch07_021','c6_history_ch07_022','c6_history_ch07_023','c6_history_ch07_024','c6_history_ch07_025','c6_history_ch07_026','c6_history_ch08_027','c6_history_ch08_028','c6_history_ch08_029','c6_history_ch08_030','c6_history_ch08_031','c6_history_ch08_032'],
+    nodeIds: ['c6_history_ch06_015','c6_history_ch06_016','c6_history_ch06_017','c6_history_ch06_018','c6_history_ch06_019','c6_history_ch06_020','c6_history_ch07_023','c6_history_ch07_024','c6_history_ch07_026','c6_history_ch08_027','c6_history_ch08_028','c6_history_ch08_029','c6_history_ch08_030','c6_history_ch08_032'],
     emoji: '🏰', theme: { bg: 'from-amber-100 to-orange-200', accent: 'amber', scene: 'medieval' },
     scenario: { role: "a medieval-chronicler", intro: "After the ancient empires came the medieval age — Delhi Sultanate, Bhakti saints, and regional kingdoms like the Marathas.", goal: "Trace medieval India's kingdoms." },
     discovery: {
@@ -573,7 +573,7 @@ export const c6CivBudget: SimDef = {
     id: 'c6_civ_budget', title: 'Government Budget', subtitle: 'Where money comes & goes',
     classLevel: 6, subject: 'social', topic: 'Government Budget',
     chapters: ['Civics Ch13: Budget'],
-    nodeIds: ['c6_civics_ch13_023','c6_civics_ch13_024','c6_civics_ch13_025','c6_civics_ch13_026','c6_civics_ch13_027'],
+    nodeIds: [],
     emoji: '💼', theme: { bg: 'from-green-100 to-emerald-200', accent: 'green', scene: 'budget' },
     scenario: { role: "a budget-analyst", intro: "Governments plan spending through a budget — collecting taxes and spending on services.", goal: "Understand how a budget works." },
     discovery: {
@@ -629,7 +629,7 @@ export const c6CivDiversity: SimDef = {
     id: 'c6_civ_diversity', title: 'Unity in Diversity', subtitle: 'India\'s many cultures',
     classLevel: 6, subject: 'social', topic: 'Diversity',
     chapters: ['Civics Ch14: Diversity'],
-    nodeIds: ['c6_civics_ch14_028','c6_civics_ch14_029','c6_civics_ch14_030','c6_civics_ch14_031','c6_civics_ch14_032','c6_civics_ch14_033','c6_civics_ch14_034'],
+    nodeIds: ['c6_civics_ch14_033'],
     emoji: '🌈', theme: { bg: 'from-rose-100 to-pink-200', accent: 'rose', scene: 'diversity' },
     scenario: { role: "a unity-builder", intro: "India has hundreds of languages, many religions, and countless customs — yet stands as one nation.", goal: "Understand unity in diversity." },
     discovery: {
@@ -686,7 +686,7 @@ export const c6CivMedia: SimDef = {
     id: 'c6_civ_media', title: 'Media & Democracy', subtitle: 'Information and responsibility',
     classLevel: 6, subject: 'social', topic: 'Media',
     chapters: ['Civics Ch15: Media'],
-    nodeIds: ['c6_civics_ch15_035','c6_civics_ch15_036','c6_civics_ch15_037','c6_civics_ch15_038'],
+    nodeIds: [],
     emoji: '📰', theme: { bg: 'from-slate-100 to-gray-200', accent: 'slate', scene: 'media' },
     scenario: { role: "a media-critic", intro: "Media informs the public — newspapers, TV, internet — but requires responsibility and critical thinking.", goal: "Understand media's role and ethics." },
     discovery: {
@@ -798,7 +798,7 @@ export const c6EcoBanking: SimDef = {
     id: 'c6_eco_banking', title: 'Banking', subtitle: 'Save, borrow, grow',
     classLevel: 6, subject: 'social', topic: 'Banking',
     chapters: ['Economics Ch8: Banking'],
-    nodeIds: ['c6_economics_ch08_001','c6_economics_ch08_002','c6_economics_ch08_003','c6_economics_ch08_004','c6_economics_ch08_005','c6_economics_ch08_006'],
+    nodeIds: ['c6_economics_ch08_001','c6_economics_ch08_002','c6_economics_ch08_003','c6_economics_ch08_006'],
     emoji: '🏦', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'banking' },
     scenario: { role: "a young banker", intro: "Banks keep money safe, lend to borrowers, and pay interest to savers — keeping the economy moving.", goal: "Understand how banks work." },
     discovery: {
@@ -855,7 +855,7 @@ export const c6EcoMarket: SimDef = {
     id: 'c6_eco_market', title: 'Markets', subtitle: 'Buyers, sellers, prices',
     classLevel: 6, subject: 'social', topic: 'Markets',
     chapters: ['Economics Ch12: Markets'],
-    nodeIds: ['c6_economics_ch12_001','c6_economics_ch12_002','c6_economics_ch12_003','c6_economics_ch12_004','c6_economics_ch12_005','c6_economics_ch12_006'],
+    nodeIds: ['c6_economics_ch12_001','c6_economics_ch12_002','c6_economics_ch12_003','c6_economics_ch12_005'],
     emoji: '🛒', theme: { bg: 'from-teal-100 to-cyan-200', accent: 'teal', scene: 'market' },
     scenario: { role: "a market-trader", intro: "Markets bring buyers and sellers together — from vegetable vendors to online shops — where prices are set.", goal: "Understand how markets work." },
     discovery: {
@@ -911,7 +911,7 @@ export const c6GeoWeather: SimDef = {
     id: 'c6_geo_weather', title: 'Weather', subtitle: 'Temperature, rain, wind',
     classLevel: 6, subject: 'social', topic: 'Weather',
     chapters: ['Geography Ch2: Weather'],
-    nodeIds: ['c6_geography_ch02_008','c6_geography_ch02_009','c6_geography_ch02_010','c6_geography_ch02_011','c6_geography_ch02_012','c6_geography_ch02_013','c6_geography_ch02_014'],
+    nodeIds: ['c6_geography_ch02_008','c6_geography_ch02_009','c6_geography_ch02_011','c6_geography_ch02_012'],
     emoji: '🌡️', theme: { bg: 'from-cyan-100 to-sky-200', accent: 'cyan', scene: 'weather' },
     scenario: { role: "a meteorologist", intro: "Weather is the day-to-day state of the air — temperature, rain, wind — and we measure it with instruments.", goal: "Understand weather and how we measure it." },
     discovery: {
@@ -968,7 +968,7 @@ export const c6GeoFarming: SimDef = {
     id: 'c6_geo_farming', title: 'Farming in India', subtitle: 'Crops & seasons',
     classLevel: 6, subject: 'social', topic: 'Agriculture',
     chapters: ['Geography Ch4: Farming'],
-    nodeIds: ['c6_geography_ch04_020','c6_geography_ch04_021','c6_geography_ch04_022','c6_geography_ch04_023','c6_geography_ch04_024','c6_geography_ch04_025'],
+    nodeIds: ['c6_geography_ch04_020','c6_geography_ch04_021','c6_geography_ch04_023','c6_geography_ch04_025'],
     emoji: '🌾', theme: { bg: 'from-lime-100 to-green-200', accent: 'lime', scene: 'farming' },
     scenario: { role: "a young farmer", intro: "India feeds a billion people — through kharif and rabi seasons, wheat and rice, traditional and modern methods.", goal: "Understand Indian farming." },
     discovery: {
@@ -1024,7 +1024,7 @@ export const c6GeoNeighbours: SimDef = {
     id: 'c6_geo_neighbours', title: 'India\'s Neighbours', subtitle: 'Borders & relations',
     classLevel: 6, subject: 'social', topic: 'India\'s Neighbours',
     chapters: ['Geography Ch5: Neighbours'],
-    nodeIds: ['c6_geography_ch05_026','c6_geography_ch05_027','c6_geography_ch05_028','c6_geography_ch05_029','c6_geography_ch05_030','c6_geography_ch05_031'],
+    nodeIds: ['c6_geography_ch05_026','c6_geography_ch05_028','c6_geography_ch05_029','c6_geography_ch05_031'],
     emoji: '🗺️', theme: { bg: 'from-teal-100 to-emerald-200', accent: 'teal', scene: 'neighbours' },
     scenario: { role: "a young diplomat", intro: "India shares borders with Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar — and seas with Sri Lanka and Maldives.", goal: "Map India's neighbours." },
     discovery: {
@@ -1082,7 +1082,7 @@ export const c6HistPostIndep: SimDef = {
     id: 'c6_hist_postindep', title: 'Building the Nation', subtitle: 'After 1947',
     classLevel: 6, subject: 'social', topic: 'Post-Independence India',
     chapters: ['History Ch12: Post-Independence'],
-    nodeIds: ['c6_history_ch12_051','c6_history_ch12_052','c6_history_ch12_053','c6_history_ch12_054','c6_history_ch12_055','c6_history_ch12_056'],
+    nodeIds: ['c6_history_ch12_051'],
     emoji: '🇮🇳', theme: { bg: 'from-orange-100 to-green-200', accent: 'orange', scene: 'postindep' },
     scenario: { role: "a nation-builder", intro: "After freedom in 1947, India faced huge tasks — writing a constitution, uniting princely states, and building a modern nation.", goal: "Understand how modern India was built." },
     discovery: {
@@ -1138,7 +1138,7 @@ export const c6CivEconomy: SimDef = {
     id: 'c6_civ_economy', title: 'Economy & Work', subtitle: 'Activities, workers, government',
     classLevel: 6, subject: 'social', topic: 'Economic Activities',
     chapters: ['Civics Ch16: Economy'],
-    nodeIds: ['c6_civics_ch16_039','c6_civics_ch16_040','c6_civics_ch16_041'],
+    nodeIds: [],
     emoji: '💼', theme: { bg: 'from-indigo-100 to-blue-200', accent: 'indigo', scene: 'economy' },
     scenario: { role: "a young economist", intro: "People work to earn a living — economic activities produce goods and services, and workers have rights.", goal: "Understand economic activities and workers' rights." },
     discovery: {

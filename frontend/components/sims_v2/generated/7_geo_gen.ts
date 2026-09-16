@@ -1449,6 +1449,21 @@ export const C7_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A weather station in Jaipur records daily temperatures and rainfall for one week, noting an average temperature of 42°C. Does this one-week average allow meteorologists to redefine Jaipur's climate as tropical rainforest? Why or why not?",
+    "answer": "No, it does not. Step 1: Identify the timeframe of the data (one week). Step 2: Recall that climate requires atmospheric data collected over a long period (typically 30 years)",
+    "options": [
+     "Steps: 1. Identify the months (February to March). 2. Note the weather conditions (pleasant, moderately warm days, cooling nights, blooming flowers)",
+     "A good answer will separate daily logs (Column 1: Today's temperature, wind direction, humidity",
+     "No, it does not. Step 1: Identify the timeframe of the data (one week). Step 2: Recall that climate requires atmospheric data collected over a long period (typically 30 years)"
+    ],
+    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates that the student thinks short-term weather anomalies can instantly change a region's permanent climate zone.",
+    "id": "gen_c7_geo_ch03_q12",
+    "nodeId": "c7_geo_ch03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Analyze the statement: \"Global warming is causing today's afternoon rain shower in Bengaluru.\" Is this statement geographically accurate, and how does it confuse weather with climate?",
     "answer": "The statement is inaccurate because an afternoon rain shower is an instance of daily weather, whereas global warming is a long-term shift in global climate patterns",
     "options": [
@@ -1458,7 +1473,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Weather' slide -- match the key terms.",
     "misconception": "A wrong answer shows a failure to separate micro-scale daily occurrences from macro-scale atmospheric trends.",
-    "id": "gen_c7_geo_ch03_q12",
+    "id": "gen_c7_geo_ch03_q13",
     "nodeId": "c7_geo_ch03_001",
     "difficulty": "standard"
    },
@@ -1473,7 +1488,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Weather' slide -- match the key terms.",
     "misconception": "A poor answer lists random geographical facts without distinguishing between daily observations and long-term data collection methods.",
-    "id": "gen_c7_geo_ch03_q13",
+    "id": "gen_c7_geo_ch03_q14",
     "nodeId": "c7_geo_ch03_001",
     "difficulty": "standard"
    },
@@ -1488,7 +1503,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Weather' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a lack of critical judgment regarding statistical sample sizes and the definition of long-term climatic norms.",
-    "id": "gen_c7_geo_ch03_q14",
+    "id": "gen_c7_geo_ch03_q15",
     "nodeId": "c7_geo_ch03_001",
     "difficulty": "standard"
    },
@@ -1503,7 +1518,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Weather' slide -- match the key terms.",
     "misconception": "A wrong answer—such as climate—reveals that the student confuses a single daily measurement with long-term regional trends, failing to recognize that weather changes hourly while climate requires decades of observation.",
-    "id": "gen_c7_geo_ch03_q15",
+    "id": "gen_c7_geo_ch03_q16",
     "nodeId": "c7_geo_ch03_001",
     "difficulty": "standard"
    },
@@ -1518,7 +1533,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Weather' slide -- match the key terms.",
     "misconception": "A wrong answer shows the misconception that a single season defines the entire long-term climate of a region without looking at multi-year data.",
-    "id": "gen_c7_geo_ch03_q16",
+    "id": "gen_c7_geo_ch03_q17",
     "nodeId": "c7_geo_ch03_001",
     "difficulty": "standard"
    },
@@ -1533,21 +1548,6 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'cycle of seasons in' slide -- match the key terms.",
     "misconception": "A student who selects \"Autumn\" confuses the two transition seasons (spring versus post-monsoon/autumn), ignoring the preceding winter cold and the approaching summer heat.",
-    "id": "gen_c7_geo_ch03_q17",
-    "nodeId": "c7_geo_ch03_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Assess whether it is correct to say that all parts of India experience the exact same weather conditions during the winter season. Justify your answer using geographical reasoning.",
-    "answer": "This statement is incorrect. While northern India experiences cold winters with frost and snowfall in the mountains (like Himachal Pradesh), southern India experiences mild",
-    "options": [
-     "A complete answer must list: Winter (Dec-Feb, cold/dry), Spring (Mar-Apr, pleasant/blooming), Summer (May-Jun, hot/low pressure), Monsoon (Jul-Sep, wet/southwest winds)",
-     "The season primarily occurs from October to December",
-     "This statement is incorrect. While northern India experiences cold winters with frost and snowfall in the mountains (like Himachal Pradesh), southern India experiences mild"
-    ],
-    "hint": "Straight from the 'cycle of seasons in' slide -- match the key terms.",
-    "misconception": "A student who agrees that all of India has the same winter overlooks India's immense latitudinal spread and physical diversity.",
     "id": "gen_c7_geo_ch03_q18",
     "nodeId": "c7_geo_ch03_002",
     "difficulty": "advanced"
@@ -2040,6 +2040,21 @@ export const C7_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Calculate the proportion of agricultural land use if a state has a total geographical area of 200,000 square kilometers, and 120,000 square kilometers of that area is under active cultivation.",
+    "answer": "Step 1: Identify total geographical area (200,000 sq km). Step 2: Identify cultivated area (120,000 sq km)",
+    "options": [
+     "Steps: 1. Identify total input costs: ₹25,000. 2. Identify total revenue from harvest: ₹18,000. 3. Calculate net income: Revenue minus Costs ($18,000 - ₹25,000 = -₹7,000$)",
+     "Steps: 1) Identify flat alluvial soil and canal water availability. 2) Recall that high water and flat land support intensive commercial cultivation",
+     "Step 1: Identify total geographical area (200,000 sq km). Step 2: Identify cultivated area (120,000 sq km)"
+    ],
+    "hint": "Straight from the 'Agriculture in India' slide -- match the key terms.",
+    "misconception": "A wrong answer often divides the wrong way around or makes calculation errors, showing poor spatial data interpretation.",
+    "id": "gen_c7_geo_ch04_q13",
+    "nodeId": "c7_geo_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare how the flat terrain of the Northern Plains versus the rugged terrain of the Peninsular Plateau influences the characteristics of agricultural practices in those regions.",
     "answer": "The Northern Plains feature deep, fertile alluvial soils and flat land that allow for large-scale mechanized farming and extensive canal irrigation",
     "options": [
@@ -2049,7 +2064,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Agriculture in India' slide -- match the key terms.",
     "misconception": "A wrong answer treats all Indian landforms as identical, ignoring how relief and soil type dictate farming methods.",
-    "id": "gen_c7_geo_ch04_q13",
+    "id": "gen_c7_geo_ch04_q14",
     "nodeId": "c7_geo_ch04_001",
     "difficulty": "standard"
    },
@@ -2064,7 +2079,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Agriculture in India' slide -- match the key terms.",
     "misconception": "A poor answer lists random traits without connecting physical environment to human effort, showing a lack of integrated geographical thinking.",
-    "id": "gen_c7_geo_ch04_q14",
+    "id": "gen_c7_geo_ch04_q15",
     "nodeId": "c7_geo_ch04_001",
     "difficulty": "standard"
    },
@@ -2079,7 +2094,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Agriculture in India' slide -- match the key terms.",
     "misconception": "A wrong answer overestimates human technology while ignoring that groundwater recharge and overall hydrological cycles rely on natural precipitation.",
-    "id": "gen_c7_geo_ch04_q15",
+    "id": "gen_c7_geo_ch04_q16",
     "nodeId": "c7_geo_ch04_001",
     "difficulty": "standard"
    },
@@ -2094,7 +2109,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Agriculture in India' slide -- match the key terms.",
     "misconception": "A wrong answer usually confuses primary activities with manufacturing (secondary) or services (tertiary), showing a weak grasp of basic economic geography.",
-    "id": "gen_c7_geo_ch04_q16",
+    "id": "gen_c7_geo_ch04_q17",
     "nodeId": "c7_geo_ch04_001",
     "difficulty": "standard"
    },
@@ -2109,24 +2124,9 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Agriculture in India' slide -- match the key terms.",
     "misconception": "A wrong answer assumes that all Indian farms have advanced artificial irrigation systems, ignoring that many regions still depend entirely on seasonal rainfall.",
-    "id": "gen_c7_geo_ch04_q17",
+    "id": "gen_c7_geo_ch04_q18",
     "nodeId": "c7_geo_ch04_001",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A small landholder in a peninsular plateau region with a 2-hectare farm wants to maximize output. If they switch from traditional bullock-farming to modern capital-intensive farming, which challenge are they most likely to encounter first?",
-    "answer": "The correct answer is B. Modern farming requires high financial capital for inputs like machinery, seeds, and irrigation",
-    "options": [
-     "The plan should feature: (1) Traditional multi-cropping or crop rotation to protect soil cover; (2) Traditional organic mulching or manure to retain soil moisture",
-     "Cultivating water-intensive cash crops in semi-arid regions is unsustainable because these areas lack natural high rainfall and perennial river flooding",
-     "The correct answer is B. Modern farming requires high financial capital for inputs like machinery, seeds, and irrigation"
-    ],
-    "hint": "Straight from the 'Types of farming in India' slide -- match the key terms.",
-    "misconception": "A student who selects C or D lacks understanding of the economic realities and physical constraints of Indian agriculture, mistakenly assuming government subsidies cover everything or that climate barriers are non-existent.",
-    "id": "gen_c7_geo_ch04_q18",
-    "nodeId": "c7_geo_ch04_002",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {

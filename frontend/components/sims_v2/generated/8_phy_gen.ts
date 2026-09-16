@@ -16,7 +16,8 @@ export const C8_PHY_GEN: SimDef[] = [
   "subject": "physics",
   "topic": "Focused Scientific Question",
   "chapters": [
-   "Physics Ch1: Focused Scientific Question"
+   "Physics Ch1: Focused Scientific Question",
+   "Physics Ch2: Focused Scientific Question"
   ],
   "nodeIds": [
    "c8_physics_ch1_1",
@@ -28,7 +29,8 @@ export const C8_PHY_GEN: SimDef[] = [
    "c8_physics_ch1_7",
    "c8_physics_ch1_8",
    "c8_physics_ch1_9",
-   "c8_physics_ch1_10"
+   "c8_physics_ch1_10",
+   "c8_physics_ch2_11"
   ],
   "emoji": "⚡",
   "theme": {
@@ -106,6 +108,12 @@ export const C8_PHY_GEN: SimDef[] = [
     "text": "An overview of the major themes and topics in Class 8 Science, connecting prior knowledge from Classes 6–7 to new concepts in physics (force, friction, sound, light, chemical effects of current), chemistry (synthetic materials, metals/non-metals, combustion),",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Rechargeable Cell Uses",
+    "text": "A rechargeable cell (secondary cell) uses a reversible chemical reaction that allows electrical energy to be restored by passing a current through it in the opposite direction, whereas a non-rechargeable cell (primary cell) uses an irreversible chemical",
+    "emoji": "⚡",
+    "bgColor": "from-amber-400 to-orange-500"
    }
   ],
   "challenges": [
@@ -199,8 +207,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "A student writes in her notebook: \"The metal spoon feels colder than the wooden spoon.\" Is this a qualitative or quantitative observation? State the reason in one sentence.",
     "answer": "It is a qualitative observation because it describes a quality (coldness) using senses without any numerical measurement or units",
     "options": [
-     "Student A's design is reliable; Student B's is not. Student A keeps the motor constant (controlled variable)",
-     "This is neither careful observation nor creative thinking — it is an untested inference masquerading as observation",
+     "Student B's hypothesis is better because it includes the scientific reasoning (energy conversion) linking the variables",
+     "Student B follows the convention: independent variable (length) on x-axis, dependent variable (time period) on y-axis",
      "It is a qualitative observation because it describes a quality (coldness) using senses without any numerical measurement or units"
     ],
     "hint": "Straight from the 'Observation in science' slide -- match the key terms.",
@@ -220,8 +228,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "A student wants to investigate \"Does the thickness of a wire affect the brightness of a bulb in a simple circuit?\" What is the independent variable in this experiment?",
     "answer": "The independent variable is the thickness of the wire (e.g., measured in mm² or SWG gauge)",
     "options": [
-     "Example good question: \"How does the temperature of the environment affect the volume increase of yeast dough in 60 minutes?",
-     "Student B’s data can support a cause-effect claim because only one variable (angle) was changed – it is a fair test",
+     "Neither is yet iterative. Student A is only replicating (same conditions). Student B is varying the independent variable (surface area) but only one trial per area",
+     "The independent variable is the length of the pendulum string",
      "The independent variable is the thickness of the wire (e.g., measured in mm² or SWG gauge)"
     ],
     "hint": "Straight from the 'Designing a simple experiment' slide -- match the key terms.",
@@ -241,8 +249,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "A student observes that a pendulum takes 2 seconds per swing when the string is 1 m long. She writes: \"If I make the string longer, the pendulum will swing differently.\" Why is this NOT a good scientific hypothesis for Class 8?",
     "answer": "The statement is vague: \"differently\" is not measurable and does not specify the direction of change (increase/decrease in time period)",
     "options": [
-     "Example question: \"Why does milk boil over but water doesn't, and can we predict the moment it will spill?",
      "No. Iterative investigation requires modifying something (hypothesis, method, or variable control) based on the results of the previous cycle",
+     "Student A demonstrates careful observation (systematic, measurable, comparative). Student B demonstrates creative thinking (proposing a mechanism — charge conduction",
      "The statement is vague: \"differently\" is not measurable and does not specify the direction of change (increase/decrease in time period)"
     ],
     "hint": "Straight from the 'hypothesis' slide -- match the key terms.",
@@ -262,8 +270,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "In an experiment to find out whether the length of a pendulum affects its time period, a student changes the length of the string and measures the time for 10 oscillations. What is the independent variable in this experiment?",
     "answer": "The independent variable is the length of the pendulum string",
     "options": [
-     "B. It identifies the independent variable (Sun's position / time of day) and dependent variable (shadow length) and implies a measurable relationship",
      "Neither is yet iterative. Student A is only replicating (same conditions). Student B is varying the independent variable (surface area) but only one trial per area",
+     "The independent variable is the thickness of the wire (e.g., measured in mm² or SWG gauge)",
      "The independent variable is the length of the pendulum string"
     ],
     "hint": "Straight from the 'Variables in an experiment' slide -- match the key terms.",
@@ -335,8 +343,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "A student investigates how the angle of a ramp affects the speed of a toy car. After the first trial, they get widely different speed values for the same angle. They decide to repeat the exact same procedure five more times without changing anything.",
     "answer": "No. Iterative investigation requires modifying something (hypothesis, method, or variable control) based on the results of the previous cycle",
     "options": [
-     "Yes, Riya is correct. Using the same car ensures its mass stays constant without extra effort — this is an inherent control",
-     "Neither is yet iterative. Student A is only replicating (same conditions). Student B is varying the independent variable (surface area) but only one trial per area",
+     "Student Q's question is investigable; Student P's is not (seeks explanation, not testable relationship)",
+     "Student A's design is reliable; Student B's is not. Student A keeps the motor constant (controlled variable)",
      "No. Iterative investigation requires modifying something (hypothesis, method, or variable control) based on the results of the previous cycle"
     ],
     "hint": "Straight from the 'Iterative investigation' slide -- match the key terms.",
@@ -356,8 +364,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "A student watches a candle burn and writes: \"The wax disappears because fire eats it.\" Is this careful observation, creative thinking, or neither? Explain your choice in one sentence.",
     "answer": "This is neither careful observation nor creative thinking — it is an untested inference masquerading as observation",
     "options": [
-     "Student B’s data can support a cause-effect claim because only one variable (angle) was changed – it is a fair test",
-     "Student Q's question is investigable; Student P's is not (seeks explanation, not testable relationship)",
+     "Student B's hypothesis is better because it includes the scientific reasoning (energy conversion) linking the variables",
+     "Student B follows the convention: independent variable (length) on x-axis, dependent variable (time period) on y-axis",
      "This is neither careful observation nor creative thinking — it is an untested inference masquerading as observation"
     ],
     "hint": "Straight from the 'Balancing careful observation' slide -- match the key terms.",
@@ -379,7 +387,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "options": [
      "A well-structured observation table must have: (1) columns for the independent variable with units, (2) columns for the dependent variable with units (including repeated trials)",
      "includes any five from: Microorganisms, Synthetic Fibres and Plastics, Materials: Metals and Non-metals, Coal and Petroleum, Combustion and Flame",
-     "Oersted's dioxide (CO₂) is produced",
+     "Flame dioxide (CO₂) is produced",
      "Carbon dioxide (CO₂) is produced"
     ],
     "hint": "Straight from the 'Science in Everyday Life' slide -- match the key terms.",
@@ -447,16 +455,37 @@ export const C8_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "State the fundamental chemical difference between a rechargeable (secondary) cell and a non-rechargeable (primary) cell in one sentence.",
+    "answer": "A rechargeable cell employs a reversible chemical reaction that can be driven in the opposite direction by an external current, restoring the original reactants",
+    "options": [
+     "NiMH maintains a nearly flat voltage around 1.2 V for most of its discharge, then drops sharply; alkaline voltage declines steadily from 1",
+     "In *Microorganisms*, observation is primarily microscopic and qualitative (shape, movement, colony growth) and often requires culturing over days",
+     "A rechargeable cell employs a reversible chemical reaction that can be driven in the opposite direction by an external current, restoring the original reactants"
+    ],
+    "hint": "Straight from the 'rechargeable cell  uses' slide -- match the key terms.",
+    "misconception": "A wrong answer such as \"rechargeable cells have more chemicals\" reveals the student is focusing on quantity rather than the reversibility of the redox reaction.",
+    "id": "gen_c8_phy_ch01_q11",
+    "nodeId": "c8_physics_ch2_11",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe a TV remote (uses AA alkaline cells that you throw away) and a mobile phone (uses a Li-ion battery you recharge daily).",
+     "Both convert chemical energy to electrical energy, but the phone's battery can be \"refilled\" with electricity while the remote's cannot.",
+     "Recall from Class 6 (c6_physics_ch03_016) that a cell has two electrodes and an electrolyte; the key difference is whether the chemical changes at",
+     "We will examine the reaction reversibility, then compare cost, waste, and performance to decide which cell suits which job."
+    ]
+   },
+   {
+    "type": "mcq",
     "question": "A group of students wants to investigate \"How does the amount of sugar affect how fast it dissolves in water?\" They list these possible independent variables: (1) water temperature, (2) sugar mass, (3) stirring speed, (4) sugar type (white vs brown).",
     "answer": "Correct: (2) sugar mass is the independent variable matching the question. (1) water temperature → controlled variable (keep constant, e",
     "options": [
-     "Independent variable: type of surface (carpet, wood, wet marble, sandpaper). Dependent variable: distance travelled by the car (metres)",
-     "Student B's experiment is valid because only the independent variable (ramp angle) changes; all other factors (car mass, wheels, ramp surface, release height) are controlled",
+     "The question works because: independent variable = type of surface (can be changed deliberately: carpet, tile, cardboard)",
+     "Example question: \"Why does milk boil over but water doesn't, and can we predict the moment it will spill?",
      "Correct: (2) sugar mass is the independent variable matching the question. (1) water temperature → controlled variable (keep constant, e"
     ],
     "hint": "Straight from the 'focused scientific question' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student cannot map the question's wording to the correct variable role, confusing the factor being tested with factors that must be held constant.",
-    "id": "gen_c8_phy_ch01_q11",
+    "id": "gen_c8_phy_ch01_q12",
     "nodeId": "c8_physics_ch1_1",
     "difficulty": "advanced"
    },
@@ -465,13 +494,13 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "A student wonders, \"Why do shadows change during the day?\" Which of the following rewrites this as a focused, testable question for a Class 8 investigation? A) What causes shadows to change?",
     "answer": "B. It identifies the independent variable (Sun's position / time of day) and dependent variable (shadow length) and implies a measurable relationship",
     "options": [
-     "Correct: (2) sugar mass is the independent variable matching the question. (1) water temperature → controlled variable (keep constant, e",
-     "Example good question: \"How does the temperature of the environment affect the volume increase of yeast dough in 60 minutes?",
+     "Student B follows the convention: independent variable (length) on x-axis, dependent variable (time period) on y-axis",
+     "The conclusion is not supported by the data. The time period varies only between 2.00 s and 2.02 s across a 10-fold mass change",
      "B. It identifies the independent variable (Sun's position / time of day) and dependent variable (shadow length) and implies a measurable relationship"
     ],
     "hint": "Straight from the 'focused scientific question' slide -- match the key terms.",
     "misconception": "A wrong choice reveals the student cannot yet distinguish a testable variable relationship from a general why-question or a fact-recall question.",
-    "id": "gen_c8_phy_ch01_q12",
+    "id": "gen_c8_phy_ch01_q13",
     "nodeId": "c8_physics_ch1_1",
     "difficulty": "advanced"
    },
@@ -480,13 +509,28 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "A textbook suggests this investigation: \"Find out which brand of paper towel absorbs the most water.\" A student proposes this focused question: \"How does the brand of paper towel affect the mass of water absorbed in 30 seconds?",
     "answer": "Strength: The question specifies the dependent variable (mass of water absorbed in grams, measurable with a balance) and a fixed time (30 s)",
     "options": [
-     "The question works because: independent variable = type of surface (can be changed deliberately: carpet, tile, cardboard)",
-     "Student B’s data can support a cause-effect claim because only one variable (angle) was changed – it is a fair test",
+     "Example question: \"Why does milk boil over but water doesn't, and can we predict the moment it will spill?",
+     "Correct: (2) sugar mass is the independent variable matching the question. (1) water temperature → controlled variable (keep constant, e",
      "Strength: The question specifies the dependent variable (mass of water absorbed in grams, measurable with a balance) and a fixed time (30 s)"
     ],
     "hint": "Straight from the 'focused scientific question' slide -- match the key terms.",
     "misconception": "A wrong evaluation reveals the student thinks any specific wording is an improvement, missing that the independent variable must be a controllable physical parameter, not a commercial label.",
-    "id": "gen_c8_phy_ch01_q13",
+    "id": "gen_c8_phy_ch01_q14",
+    "nodeId": "c8_physics_ch1_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a focused question for this scenario: You notice that dough made with yeast rises faster on a sunny windowsill than in a shaded corner. Your question must be investigable in a school lab (not outdoors), use equipment available in Class 8 (thermometer, measuring cylinder, stopwatch, balance, oven/incubator or",
+    "answer": "Example good question: \"How does the temperature of the environment affect the volume increase of yeast dough in 60 minutes?",
+    "options": [
+     "Steps: 1) Prepare identical dough batches with each flour type (same yeast, water, sugar, salt). 2) Place in same warm spot",
+     "(a) Water temperature (e.g., 10 °C, 30 °C, 50 °C). (b) Time for 1 teaspoon sugar to fully dissolve (stopwatch)",
+     "Example good question: \"How does the temperature of the environment affect the volume increase of yeast dough in 60 minutes?"
+    ],
+    "hint": "Straight from the 'focused scientific question' slide -- match the key terms.",
+    "misconception": "A poor answer uses vague terms (\"warmth\" not °C), omits controlled variables, or picks an unmeasurable dependent variable (\"how much it rises\" without units).",
+    "id": "gen_c8_phy_ch01_q15",
     "nodeId": "c8_physics_ch1_1",
     "difficulty": "advanced"
    },
@@ -495,13 +539,13 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "Riya asks: \"How does the type of surface affect how far a toy car rolls?\" Her teacher says this is a good focused question. Explain WHY this question works for a Class 8 investigation, using the terms independent variable, dependent variable, and controlled variables.",
     "answer": "The question works because: independent variable = type of surface (can be changed deliberately: carpet, tile, cardboard)",
     "options": [
-     "Student A's design is reliable; Student B's is not. Student A keeps the motor constant (controlled variable)",
      "Independent: water temperature (20°C, 40°C, 60°C). Dependent: time for sugar to dissolve (seconds)",
+     "The hypothesis is testable in principle but has limitations: (1) \"Better\" is ambiguous — must define measurable dependent variable (e",
      "The question works because: independent variable = type of surface (can be changed deliberately: carpet, tile, cardboard)"
     ],
     "hint": "Straight from the 'focused scientific question' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student thinks a focused question is just \"specific\" rather than structurally identifying what varies and what is held constant.",
-    "id": "gen_c8_phy_ch01_q14",
+    "id": "gen_c8_phy_ch01_q16",
     "nodeId": "c8_physics_ch1_1",
     "difficulty": "advanced"
    },
@@ -510,13 +554,13 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "Two students write questions for the same phenomenon — a balloon sticking to a wall after rubbing. Student P: \"Why does the balloon stick?\" Student Q: \"How does the number of rubs affect the time the balloon stays stuck?",
     "answer": "Student Q's question is investigable; Student P's is not (seeks explanation, not testable relationship)",
     "options": [
-     "The statement is vague: \"differently\" is not measurable and does not specify the direction of change (increase/decrease in time period)",
-     "Example good question: \"How does the temperature of the environment affect the volume increase of yeast dough in 60 minutes?",
+     "(a) Water temperature (e.g., 10 °C, 30 °C, 50 °C). (b) Time for 1 teaspoon sugar to fully dissolve (stopwatch)",
+     "Student A's design is reliable; Student B's is not. Student A keeps the motor constant (controlled variable)",
      "Student Q's question is investigable; Student P's is not (seeks explanation, not testable relationship)"
     ],
     "hint": "Straight from the 'focused scientific question' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student cannot decompose a question into its measurable components or identify what \"fair test\" means in practice.",
-    "id": "gen_c8_phy_ch01_q15",
+    "id": "gen_c8_phy_ch01_q17",
     "nodeId": "c8_physics_ch1_1",
     "difficulty": "advanced"
    },
@@ -525,42 +569,12 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "A Class 8 group designs an investigation for *Chemical Effects of Electric Current*: \"We will pass current through water with different amounts of salt and see which produces the most bubbles.",
     "answer": "The plan has a flaw: using pencils as electrodes introduces an uncontrolled variable—graphite from the pencil leads may react or wear unevenly",
     "options": [
-     "Example question: \"Why does milk boil over but water doesn't, and can we predict the moment it will spill?",
-     "Independent: mass of salt added (e.g., 0 g, 5 g, 10 g, 15 g per 100 mL water). Dependent: boiling point of solution (°C)",
+     "B. It identifies the independent variable (Sun's position / time of day) and dependent variable (shadow length) and implies a measurable relationship",
+     "The question works because: independent variable = type of surface (can be changed deliberately: carpet, tile, cardboard)",
      "The plan has a flaw: using pencils as electrodes introduces an uncontrolled variable—graphite from the pencil leads may react or wear unevenly"
     ],
     "hint": "Straight from the 'overview of the major themes' slide -- match the key terms.",
     "misconception": "A wrong answer that calls the plan \"perfect\" reveals the student cannot yet evaluate experimental design for confounding factors—a key skill from c8_physics_ch1_7.",
-    "id": "gen_c8_phy_ch01_q16",
-    "nodeId": "c8_physics_ch1_10",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student plans to investigate *which household surface produces the most friction* for a toy car. They list: (1) carpet, (2) wooden floor, (3) wet marble, (4) sandpaper. They will measure the distance the car travels after rolling down the same ramp.",
-    "answer": "Independent variable: type of surface (carpet, wood, wet marble, sandpaper). Dependent variable: distance travelled by the car (metres)",
-    "options": [
-     "(a) Measure ramp angle (protractor), car travel distance (meter tape), and time from release to bottom (stopwatch, 3 trials per angle)",
-     "Student B's experiment is valid because only the independent variable (ramp angle) changes; all other factors (car mass, wheels, ramp surface, release height) are controlled",
-     "Independent variable: type of surface (carpet, wood, wet marble, sandpaper). Dependent variable: distance travelled by the car (metres)"
-    ],
-    "hint": "Straight from the 'overview of the major themes' slide -- match the key terms.",
-    "misconception": "A wrong answer that swaps independent/dependent variables or misses controlled variables (e.g., forgetting ramp height) reveals the student cannot yet apply variable identification to a concrete friction investigation.",
-    "id": "gen_c8_phy_ch01_q17",
-    "nodeId": "c8_physics_ch1_10",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the investigative approach for *Microorganisms* (biology) and *Light* (physics) in Class 8. How does the role of observation differ between these two topics?",
-    "answer": "In *Microorganisms*, observation is primarily microscopic and qualitative (shape, movement, colony growth) and often requires culturing over days",
-    "options": [
-     "A well-structured observation table must have: (1) columns for the independent variable with units, (2) columns for the dependent variable with units (including repeated trials)",
-     "Student A demonstrates careful observation (systematic, measurable, comparative). Student B demonstrates creative thinking (proposing a mechanism — charge conduction",
-     "In *Microorganisms*, observation is primarily microscopic and qualitative (shape, movement, colony growth) and often requires culturing over days"
-    ],
-    "hint": "Straight from the 'overview of the major themes' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"both use eyes\" or \"both need microscopes\" shows the student has not analyzed how the nature of the phenomenon dictates the observational method.",
     "id": "gen_c8_phy_ch01_q18",
     "nodeId": "c8_physics_ch1_10",
     "difficulty": "standard"
@@ -977,6 +991,36 @@ export const C8_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple classroom experiment to compare the effectiveness of three friction-reducing methods: (i) lubricating oil, (ii) ball bearings (marbles), (iii) polishing with sandpaper. Specify: the test setup, measurable quantity, control variables, and how you would quantitatively rank the methods.",
+    "answer": "Good answer: Use a wooden block (fixed mass) pulled by a spring balance across a wooden plank. Test four surfaces: (1) bare wood (control), (2) oiled wood",
+    "options": [
+     "Procedure: 1) Place block on tabletop. Attach spring balance horizontally. 2) Pull gently until block just starts moving; record the maximum reading (static friction)",
+     "Attach the rubber band to the toy car. Pull the car horizontally with the spring balance reading 2 N — car accelerates forward",
+     "Good answer: Use a wooden block (fixed mass) pulled by a spring balance across a wooden plank. Test four surfaces: (1) bare wood (control), (2) oiled wood"
+    ],
+    "hint": "Straight from the 'Increasing and reducing friction' slide -- match the key terms.",
+    "misconception": "A poor answer suggesting \"see which slides farthest\" without force measurement reveals the student confuses distance (which depends on initial kinetic energy and deceleration) with friction force magnitude.",
+    "id": "gen_c8_phy_ch03_q11",
+    "nodeId": "c8_physics_ch3_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A boat is pulled by two ropes: one exerts 20 N east, the other exerts 15 N north. Calculate the magnitude of the net force on the boat. (Use Pythagoras: √(20² + 15²))",
+    "answer": "Step 1: Identify perpendicular forces: F₁ = 20 N east, F₂ = 15 N north. Step 2: Net force magnitude = √(F₁² + F₂²) = √(20² + 15²) = √(400 + 225) = √625 = 25 N",
+    "options": [
+     "Steps: (1) Hang the block from the spring balance – students pull down (muscular force) and see the spring stretch (spring force)",
+     "Setup: Tie three strings to a small ring. Attach two spring balances to two strings, pulling horizontally at 90° (e",
+     "Step 1: Identify perpendicular forces: F₁ = 20 N east, F₂ = 15 N north. Step 2: Net force magnitude = √(F₁² + F₂²) = √(20² + 15²) = √(400 + 225) = √625 = 25 N"
+    ],
+    "hint": "Straight from the 'Net force' slide -- match the key terms.",
+    "misconception": "A wrong answer of 35 N indicates scalar addition (20+15). An answer of 5 N indicates scalar subtraction. Both show the student cannot apply vector addition for perpendicular forces.",
+    "id": "gen_c8_phy_ch03_q12",
+    "nodeId": "c8_physics_ch3_6",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple experiment using spring balances and a small ring to demonstrate that two perpendicular forces of 3 N and 4 N produce a net force of 5 N. Describe the setup, measurements, and how you would verify the resultant magnitude and direction.",
     "answer": "Setup: Tie three strings to a small ring. Attach two spring balances to two strings, pulling horizontally at 90° (e",
     "options": [
@@ -986,7 +1030,7 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Net force' slide -- match the key terms.",
     "misconception": "A poor answer omits the equilibrium condition or uses only two balances, showing they don't understand that the net force is balanced by an equal and opposite force for verification.",
-    "id": "gen_c8_phy_ch03_q11",
+    "id": "gen_c8_phy_ch03_q13",
     "nodeId": "c8_physics_ch3_6",
     "difficulty": "advanced"
    },
@@ -1001,9 +1045,24 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Net force' slide -- match the key terms.",
     "misconception": "A wrong answer of 75 N shows the student added magnitudes ignoring direction (treating forces as scalars). An answer of 15 N north reveals they subtracted correctly but assigned the direction of the smaller force, misunderstanding that the net force points in the direction of the larger force.",
-    "id": "gen_c8_phy_ch03_q12",
+    "id": "gen_c8_phy_ch03_q14",
     "nodeId": "c8_physics_ch3_6",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple classroom activity using only a spring balance, a wooden block, a rubber band, and a rough cloth to demonstrate all three contact forces (muscular, friction, spring) in one sequence. Describe the steps and what students should observe.",
+    "answer": "Steps: (1) Hang the block from the spring balance – students pull down (muscular force) and see the spring stretch (spring force)",
+    "options": [
+     "Steps: 1) Place block on rough table. Attach spring balance. Pull gently: block doesn't move, spring reading increases but block static → balanced (pull = static friction)",
+     "Attach the rubber band to the toy car. Pull the car horizontally with the spring balance reading 2 N — car accelerates forward",
+     "Steps: (1) Hang the block from the spring balance – students pull down (muscular force) and see the spring stretch (spring force)"
+    ],
+    "hint": "Straight from the 'Contact forces' slide -- match the key terms.",
+    "misconception": "A poor answer that uses a magnet or drops the block shows the student cannot distinguish contact from non-contact forces.",
+    "id": "gen_c8_phy_ch03_q15",
+    "nodeId": "c8_physics_ch3_7",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -1016,7 +1075,7 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-contact forces' slide -- match the key terms.",
     "misconception": "A wrong answer claiming aluminium or plastic gets attracted reveals the student thinks magnetic force works on all metals or all objects, confusing it with gravity which acts on all masses.",
-    "id": "gen_c8_phy_ch03_q13",
+    "id": "gen_c8_phy_ch03_q16",
     "nodeId": "c8_physics_ch3_8",
     "difficulty": "standard"
    },
@@ -1031,7 +1090,7 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-contact forces' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is false for small objects: a small magnet can lift a paper clip against the entire Earth's gravitational",
-    "id": "gen_c8_phy_ch03_q14",
+    "id": "gen_c8_phy_ch03_q17",
     "nodeId": "c8_physics_ch3_8",
     "difficulty": "standard"
    },
@@ -1046,7 +1105,7 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-contact forces' slide -- match the key terms.",
     "misconception": "A wrong answer that focuses only on \"both attract\" shows the student has not grasped the different physical origins (magnetism vs static charge) and the different rules for attraction/repulsion.",
-    "id": "gen_c8_phy_ch03_q15",
+    "id": "gen_c8_phy_ch03_q18",
     "nodeId": "c8_physics_ch3_8",
     "difficulty": "standard"
    }
@@ -1852,15 +1911,15 @@ export const C8_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A sharp knife and a blunt knife are made of the same material. You apply the same force on both while cutting a tomato. Why does the sharp knife cut easily while the blunt one crushes the tomato? Explain using the concept of pressure.",
-    "answer": "The sharp knife has a very small cutting edge area, so the same force produces a large pressure (P = F/A) that exceeds the tomato's skin strength",
+    "question": "A force of 250 N acts perpendicularly on a rectangular surface of dimensions 50 cm × 20 cm. Calculate the pressure exerted on the surface in pascals. Show all unit conversions.",
+    "answer": "Step 1: Area = 50 cm × 20 cm = 1000 cm² = 1000 × 10⁻⁴ m² = 0.1 m². Step 2: P = F/A = 250 N / 0.1 m² = 2500 N/m² = 2500 Pa",
     "options": [
-     "The reasoning is partially correct but incomplete. Pressure decreases with altitude because the air column above is shorter (less weight)",
-     "The student is incorrect. Pressure = Force/Area. The force (weight of book) and contact area are the same in both cases",
-     "The sharp knife has a very small cutting edge area, so the same force produces a large pressure (P = F/A) that exceeds the tomato's skin strength"
+     "The correct pressure is 100 N / 0.02 m² = 5000 Pa. The student's answer of 2000 Pa is incorrect. They likely multiplied force by area (100 × 0",
+     "The statement is incorrect. Wind is fundamentally caused by pressure differences (pressure gradient force), not directly by Earth's rotation",
+     "Step 1: Area = 50 cm × 20 cm = 1000 cm² = 1000 × 10⁻⁴ m² = 0.1 m². Step 2: P = F/A = 250 N / 0.1 m² = 2500 N/m² = 2500 Pa"
     ],
     "hint": "Straight from the 'Pressure' slide -- match the key terms.",
-    "misconception": "A wrong answer that focuses only on \"sharpness\" without mentioning area shows the student has not linked the physical quantity pressure to the geometric property of the contact surface.",
+    "misconception": "A wrong answer of 2.5 Pa (using cm² directly) or 250000 Pa (incorrect conversion) reveals the student is not converting area to m² before substituting, a very common unit error at this level.",
     "id": "gen_c8_phy_ch04_q18",
     "nodeId": "c8_physics_ch4_1",
     "difficulty": "standard"
@@ -2609,18 +2668,18 @@ export const C8_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student claims: \"If I double the pressure on a gas-liquid system, the amount of dissolved gas will double, no matter what the temperature is.\" Evaluate this statement.",
-    "answer": "The statement is partially correct but incomplete. Henry's law (C = kₕP) predicts doubling pressure doubles concentration ONLY if temperature (and thus kₕ) remains constant",
+    "question": "Design a simple kitchen experiment to demonstrate that a solution is homogeneous. List materials, steps, and how you would prove uniformity without using a microscope.",
+    "answer": "Materials: Salt, water, two transparent glasses, spoon, food colour (optional). Steps: (1) Dissolve 1 tsp salt in 100 mL water in Glass A",
     "options": [
      "Student X's solution is unsaturated (crystal dissolves). Student Y's solution is saturated (crystal grows)",
      "The solution has reached saturation: 15 g dissolved in 100 mL, so the solubility is 15 g/100 mL at 25°C",
-     "The statement is partially correct but incomplete. Henry's law (C = kₕP) predicts doubling pressure doubles concentration ONLY if temperature (and thus kₕ) remains constant"
+     "Materials: Salt, water, two transparent glasses, spoon, food colour (optional). Steps: (1) Dissolve 1 tsp salt in 100 mL water in Glass A"
     ],
-    "hint": "Straight from the 'solubility of a gas in a liquid' slide -- match the key terms.",
-    "misconception": "A wrong evaluation like \"always true\" ignores that kₕ is temperature-dependent; \"never true\" confuses proportionality with absolute doubling.",
+    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Materials: Salt, water, two transparent glasses, spoon, food colour (optional).",
     "id": "gen_c8_phy_ch05_q18",
-    "nodeId": "c8_physics_ch5_10",
-    "difficulty": "advanced"
+    "nodeId": "c8_physics_ch5_1",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -2974,6 +3033,21 @@ export const C8_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple activity using a stainless steel spoon, a sheet of paper, and a pencil to demonstrate the difference between the pole and the centre of curvature of a spherical mirror. Describe the steps and what a Class 8 student would observe.",
+    "answer": "Steps: (1) Place the spoon's concave side (inner curve) on paper. (2) Trace the circular rim. (3) Find the centre of this circle by folding or using a compass - mark it as C",
+    "options": [
+     "Distance PC = R = 30 cm. No, the centre of curvature cannot lie on the mirror's surface because it is 30 cm from the pole",
+     "The statement is incorrect. The principal axis is the straight line passing through the pole (P) and the centre of curvature (C)",
+     "Steps: (1) Place the spoon's concave side (inner curve) on paper. (2) Trace the circular rim. (3) Find the centre of this circle by folding or using a compass - mark it as C"
+    ],
+    "hint": "Straight from the 'pole' slide -- match the key terms.",
+    "misconception": "A poor answer traces only the rim without distinguishing P (on the surface) from C (centre of the circle), or cannot explain why C shifts sides.",
+    "id": "gen_c8_phy_ch06_q8",
+    "nodeId": "c8_physics_ch6_2",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "The radius of curvature of a concave mirror is 30 cm. What is the distance between the pole and the centre of curvature? If the mirror's aperture (diameter of reflecting surface) is 10 cm, can the centre of curvature lie on the mirror's surface? Explain.",
     "answer": "Distance PC = R = 30 cm. No, the centre of curvature cannot lie on the mirror's surface because it is 30 cm from the pole",
     "options": [
@@ -2983,9 +3057,24 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'pole' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between aperture (physical size of mirror) and radius of curvature (radius of parent sphere).",
-    "id": "gen_c8_phy_ch06_q8",
+    "id": "gen_c8_phy_ch06_q9",
     "nodeId": "c8_physics_ch6_2",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment using a concave mirror (e.g., a shiny steel spoon or a makeup mirror) to demonstrate all three uses: shaving, dentist, and headlight. List the steps and what you would observe in each case.",
+    "answer": "A good answer includes: (1) Hold spoon close to eye → magnified erect image (shaving/dentist). (2) Hold spoon at arm's length → inverted diminished image (not a use)",
+    "options": [
+     "Steps: (1) Hold the spoon's convex side and a plane mirror at arm's length. (2) Look at a fixed scene (e",
+     "Procedure: Place a lit candle in front of the convex mirror (spoon back). Hold a white screen (paper) at various positions in front of the mirror (where reflected rays go) and",
+     "A good answer includes: (1) Hold spoon close to eye → magnified erect image (shaving/dentist). (2) Hold spoon at arm's length → inverted diminished image (not a use)"
+    ],
+    "hint": "Straight from the 'Concave mirrors' slide -- match the key terms.",
+    "misconception": "A poor answer misses the focal point demonstration or cannot explain why the bulb must be at the focus.",
+    "id": "gen_c8_phy_ch06_q10",
+    "nodeId": "c8_physics_ch6_8",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -2998,7 +3087,22 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Convex mirrors' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"no, because convex mirrors distort\" or \"yes, with no downside\" shows the student cannot weigh advantages against disadvantages in a practical context.",
-    "id": "gen_c8_phy_ch06_q9",
+    "id": "gen_c8_phy_ch06_q11",
+    "nodeId": "c8_physics_ch6_9",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple activity using a stainless steel spoon (convex side) and a plane mirror to demonstrate why convex mirrors are used as side-view mirrors in vehicles. List the steps and what the student should observe.",
+    "answer": "Steps: (1) Hold the spoon's convex side and a plane mirror at arm's length. (2) Look at a fixed scene (e",
+    "options": [
+     "Yes, it solves the problem: the convex mirror's wider field of view lets the shopkeeper see the entire aisle",
+     "Procedure: Place a lit candle in front of the convex mirror (spoon back). Hold a white screen (paper) at various positions in front of the mirror (where reflected rays go) and",
+     "Steps: (1) Hold the spoon's convex side and a plane mirror at arm's length. (2) Look at a fixed scene (e"
+    ],
+    "hint": "Straight from the 'Convex mirrors' slide -- match the key terms.",
+    "misconception": "A poor answer that only says \"spoon shows more\" without mentioning diminution, or that designs an activity without a fair comparison (same distance, same eye position), reveals inability to isolate the variable of mirror curvature.",
+    "id": "gen_c8_phy_ch06_q12",
     "nodeId": "c8_physics_ch6_9",
     "difficulty": "standard"
    }
@@ -3374,6 +3478,21 @@ export const C8_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "If an ancient lunisolar calendar adds an extra 13th month (Adhik Maas) every 3 years to catch up with the solar year, how many total days does this 3-year cycle contain, and how close is it to 3 solar years? (Use 29.5 days/lunar month, 365.25 days/solar year)",
+    "answer": "3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.25 = 1095.75 days",
+    "options": [
+     "The claim is incorrect. Egyptians developed a *solar* civil calendar (365 days, 12 months × 30 days + 5 epagomenal days) tied to the heliacal rising of Sirius",
+     "The statement is incorrect. A solar day is defined by the Sun's return to the same meridian due to Earth's rotation",
+     "3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.25 = 1095.75 days"
+    ],
+    "hint": "Straight from the 'lunar calendar measures time by' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: 3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.",
+    "id": "gen_c8_phy_ch07_q16",
+    "nodeId": "c8_physics_ch7_7",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A student claims: \"If Earth stopped rotating but kept orbiting the Sun, we would still have day and night, just each lasting half a year.\" Analyze this statement. Is it correct? Explain using the definition of a solar day.",
     "answer": "The statement is incorrect. A solar day is defined by the Sun's return to the same meridian due to Earth's rotation",
     "options": [
@@ -3383,7 +3502,7 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'solar day' slide -- match the key terms.",
     "misconception": "A wrong agreement reveals the student conflates orbital motion with rotation as the cause of day-night.",
-    "id": "gen_c8_phy_ch07_q16",
+    "id": "gen_c8_phy_ch07_q17",
     "nodeId": "c8_physics_ch7_8",
     "difficulty": "standard"
    },
@@ -3399,21 +3518,6 @@ export const C8_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'solar day' slide -- match the key terms.",
     "misconception": "A wrong evaluation that calls it impractical without quantifying the difference shows lack of analytical reasoning about time zone design.",
-    "id": "gen_c8_phy_ch07_q17",
-    "nodeId": "c8_physics_ch7_8",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment using a globe, a lamp (Sun), and a protractor to demonstrate why the solar day is longer than the sidereal day. Describe the setup, what you measure, and how you calculate the extra rotation angle.",
-    "answer": "Setup: Place a globe on a rotating stand with a fixed lamp as the Sun. Mark a meridian line on the globe",
-    "options": [
-     "3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.25 = 1095.75 days",
-     "Because the Sun is ~400 times farther away than the Moon, their angular diameters are nearly equal (~0",
-     "Setup: Place a globe on a rotating stand with a fixed lamp as the Sun. Mark a meridian line on the globe"
-    ],
-    "hint": "Straight from the 'solar day' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Setup: Place a globe on a rotating stand with a fixed lamp as the Sun.",
     "id": "gen_c8_phy_ch07_q18",
     "nodeId": "c8_physics_ch7_8",
     "difficulty": "standard"
@@ -4781,17 +4885,17 @@ export const C8_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the utility of a geostationary satellite (e.g., INSAT-3D) versus a polar-orbiting satellite (e.g., Cartosat-3) for monitoring: (a) the rapid development of a cyclone in the Bay of Bengal, and (b) the exact boundary change of a flood in a specific district of Assam. Justify your choice for each.",
-    "answer": "(a) Cyclone monitoring → Geostationary (INSAT-3D). Reason: Cyclones evolve over hours. Geostationary provides images every 15–30 minutes (high temporal resolution) of the *same*",
+    "question": "Name any three physical conditions that make Earth suitable for life, and state the SI unit used to measure the temperature condition.",
+    "answer": "Three conditions: (1) Suitable temperature range for liquid water (measured in kelvin, K, or degree Celsius, °C), (2) Presence of liquid water",
     "options": [
-     "Venus fails the \"suitable temperature\" condition. Its atmosphere is 96% CO₂ (vs Earth's 0.04%), creating a runaway greenhouse effect: solar radiation passes through",
-     "Statement B is accurate. The crust is not uniform; it has continental crust (thicker, granitic, less dense) and oceanic crust (thinner, basaltic, denser)",
-     "(a) Cyclone monitoring → Geostationary (INSAT-3D). Reason: Cyclones evolve over hours. Geostationary provides images every 15–30 minutes (high temporal resolution) of the *same*"
+     "One sidereal day is 23 hours 56 minutes 4 seconds. Earth rotates counterclockwise (west to east) as viewed from above the North Pole",
+     "The three major cycles are the water cycle, carbon cycle, and nitrogen cycle. The primary energy source driving them is solar radiation (sunlight)",
+     "Three conditions: (1) Suitable temperature range for liquid water (measured in kelvin, K, or degree Celsius, °C), (2) Presence of liquid water"
     ],
-    "hint": "Straight from the 'Satellite images' slide -- match the key terms.",
-    "misconception": "A wrong assignment (e.g., using geostationary for flood boundaries) reveals the student cannot match the *spatiotemporal trade-off* (high time/low space vs. high space/low time) to the specific monitoring need.",
+    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"gravity\" without mentioning atmosphere retention, or giving temperature in Fahrenheit without SI unit, reveals the student cannot distinguish between necessary conditions and their measurable parameters, or confuses everyday units with scientific units.",
     "id": "gen_c8_phy_ch09_q18",
-    "nodeId": "c8_physics_ch9_10",
+    "nodeId": "c8_physics_ch9_1",
     "difficulty": "standard"
    }
   ],

@@ -8,6 +8,178 @@ import type { SimDef } from '../engine/types';
 
 export const C12_PS_GEN: SimDef[] = [
  {
+  "id": "gen_c12_ps_ch01",
+  "title": "NATO And",
+  "subtitle": "Physical Education · Chapter 1",
+  "classLevel": 12,
+  "mode": "senior",
+  "subject": "physical education",
+  "topic": "NATO And",
+  "chapters": [
+   "Physical Education Ch1: NATO And"
+  ],
+  "nodeIds": [
+   "c12_ps_cbse_01_003",
+   "c12_ps_cbse_01_007",
+   "c12_ps_cbse_01_009"
+  ],
+  "emoji": "🏃",
+  "theme": {
+   "bg": "from-emerald-100 to-teal-200",
+   "accent": "emerald",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Is NATO And more about facts, or about reasoning?",
+   "options": [
+    "Mostly reasoning from a few core ideas",
+    "Pure memorisation of facts",
+    "Random guessing"
+   ],
+   "answer": "Mostly reasoning from a few core ideas",
+   "hook": "NATO (North Atlantic Treaty Organization) and the Warsaw Pact were the two opposing military alliances that formalized the bipolar division of Europe"
+  },
+  "teaching": [
+   {
+    "title": "NATO And",
+    "text": "NATO (North Atlantic Treaty Organization) and the Warsaw Pact were the two opposing military alliances that formalized the bipolar division of Europe during the Cold War.",
+    "emoji": "🏃",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Korean War Was a",
+    "text": "The Korean War (1950–1953) was a military conflict between North Korea (Democratic People's Republic of Korea), supported by the Soviet Union and China, and South Korea (Republic of Korea), supported by a United Nations coalition led by the United States,",
+    "emoji": "🏃",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Domino Theory Was a Cold",
+    "text": "The Domino Theory was a Cold War foreign policy concept articulated by US President Eisenhower in 1954, which posited that if one country in a region fell to communism, neighboring countries would follow in a chain reaction, like a row of falling dominoes.",
+    "emoji": "🏃",
+    "bgColor": "from-amber-400 to-orange-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Draft a hypothetical \"Article 5\" equivalent for a new defensive alliance of five neutral states in a multipolar world. Include three key elements that would make it credible.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Clear geographic scope and definition",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Automatic consultation mechanism",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Commitment to maintain minimum defense",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer copies NATO's text verbatim without adapting to multipolarity (e.g., no mention of non-state actors, cyber, or burden-sharing formulas), showing the student cannot apply principles to new contexts.",
+    "id": "gen_c12_ps_ch01_q1",
+    "nodeId": "c12_ps_cbse_01_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you see a news report today about NATO expansion eastward and Russian objections — this is a direct legacy of the Cold War alliance system.",
+     "Begin by asking: \"Why do countries form military alliances?\" Connect to the Containment Doctrine (node c12_ps_cbse_01_002): the US needed a permanent",
+     "Then introduce NATO (1949) as the Western response.",
+     "Next, ask: \"Why did the USSR wait six years to create the Warsaw Pact?\" The answer lies in West Germany's rearmament and entry into NATO (1954)."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Draft a one-paragraph UN Security Council resolution (operative clauses only) that could have ended the Korean War in 1951, incorporating a ceasefire, withdrawal to the 38th parallel, and a political conference.",
+    "answer": "A strong answer includes: \"1. Calls for an immediate ceasefire and withdrawal of all forces to the 38th parallel; 2",
+    "options": [
+     "A credible collective defense clause must include: (1) Clear geographic scope and definition of \"armed attack\" (including cyber/hybrid)",
+     "A strong answer will reference the Domino Theory, assess Zambezia's strategic location/resources, weigh risks of intervention vs",
+     "A strong answer includes: \"1. Calls for an immediate ceasefire and withdrawal of all forces to the 38th parallel; 2"
+    ],
+    "hint": "Straight from the 'Korean War  was a' slide -- match the key terms.",
+    "misconception": "A poor answer omits enforcement mechanisms, ignores the 38th parallel baseline, or assigns roles to the General Assembly instead of the Security Council.",
+    "id": "gen_c12_ps_ch01_q2",
+    "nodeId": "c12_ps_cbse_01_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine two students arguing in a classroom, but each is quietly backed by a different teacher who supplies arguments and resources without stepping",
+     "Begin by asking: \"Why did the US and USSR avoid fighting each other directly after 1945?",
+     "Then trace the Korean War: post-WWII division at the 38th parallel (1945), North Korea's invasion (1950), UN Security Council resolution (absent USSR",
+     "Emphasize the key civic principle: proxy wars allow great powers to pursue ideological competition while avoiding nuclear escalation, a pattern"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Create a one-paragraph diplomatic cable (as a 1960s US State Department analyst) advising the President on whether to intervene in a fictional newly independent African nation \"Zambezia\" where a socialist-leaning leader just won elections.",
+    "answer": "A strong answer will reference the Domino Theory, assess Zambezia's strategic location/resources, weigh risks of intervention vs",
+    "options": [
+     "A strong answer includes: \"1. Calls for an immediate ceasefire and withdrawal of all forces to the 38th parallel; 2",
+     "A credible collective defense clause must include: (1) Clear geographic scope and definition of \"armed attack\" (including cyber/hybrid)",
+     "A strong answer will reference the Domino Theory, assess Zambezia's strategic location/resources, weigh risks of intervention vs"
+    ],
+    "hint": "Straight from the 'Domino Theory was a Cold' slide -- match the key terms.",
+    "misconception": "A weak answer (e.g., \"intervene because communism is bad\") shows uncritical ideological thinking without strategic analysis.",
+    "id": "gen_c12_ps_ch01_q3",
+    "nodeId": "c12_ps_cbse_01_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are watching a documentary on the Vietnam War and hear a 1960s US official say, \"If Vietnam falls, Thailand, Malaysia, and Indonesia will",
+     "Then examine how decolonization in Asia and Africa created power vacuums where both superpowers competed for influence.",
+     "Map the theory onto the Vietnam War escalation and African proxy wars.",
+     "The key civic principle: ideological fear often overrides local realities, leading to prolonged conflicts."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Draft a hypothetical \"Article 5\" equivalent for a new defensive alliance of five neutral states in a multipolar world. Include three key elements that would make it credible.",
+    "answer": "A credible collective defense clause must include: (1) Clear geographic scope and definition of \"armed attack\" (including cyber/hybrid)",
+    "options": [
+     "A strong answer includes: \"1. Calls for an immediate ceasefire and withdrawal of all forces to the 38th parallel; 2",
+     "A strong answer will reference the Domino Theory, assess Zambezia's strategic location/resources, weigh risks of intervention vs",
+     "A credible collective defense clause must include: (1) Clear geographic scope and definition of \"armed attack\" (including cyber/hybrid)"
+    ],
+    "hint": "Straight from the 'NATO  and' slide -- match the key terms.",
+    "misconception": "A poor answer copies NATO's text verbatim without adapting to multipolarity (e.g., no mention of non-state actors, cyber, or burden-sharing formulas), showing the student cannot apply principles to new contexts.",
+    "id": "gen_c12_ps_ch01_q4",
+    "nodeId": "c12_ps_cbse_01_003",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about nato and?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "NATO And mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
   "id": "gen_c12_ps_ch02",
   "title": "Soviet System",
   "subtitle": "Physical Education · Chapter 2",
@@ -626,6 +798,22 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Draft a 1989 Politburo memo advising Gorbachev on whether to use force to suppress the Baltic independence movements, weighing the risks of violence against the risk of Union dissolution.",
+    "answer": "A strong memo would: (1) acknowledge the legitimacy of Baltic grievances exposed by Glasnost",
+    "options": [
+     "A good diagram shows: Economic stagnation → (necessitated) → Gorbachev's reforms; Gorbachev's reforms → (enabled) → Rise of republican nationalism",
+     "A strong memo identifies: Opportunities — (1) Diversify defence procurement beyond Russia (action: initiate talks with Israel, France)",
+     "A strong memo would: (1) acknowledge the legitimacy of Feb-Apr grievances exposed by Glasnost",
+     "A strong memo would: (1) acknowledge the legitimacy of Baltic grievances exposed by Glasnost"
+    ],
+    "hint": "Straight from the 'Glasnost  and Perestroika  were' slide -- match the key terms.",
+    "misconception": "A poor answer that recommends force without analyzing political costs, or recommends surrender without a federal alternative, shows failure to integrate ethical, strategic, and institutional reasoning.",
+    "id": "gen_c12_ps_ch02_q16",
+    "nodeId": "c12_ps_cbse_02_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the argument: \"Gorbachev's reforms failed because he moved too slowly on economic restructuring but too quickly on political liberalization.\"",
     "answer": "This argument is partially valid but oversimplified. Moving slowly on economics (retaining price controls, soft budgets) caused shortages and loss of faith in reform",
     "options": [
@@ -635,7 +823,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Glasnost  and Perestroika  were' slide -- match the key terms.",
     "misconception": "A wrong answer that blames only speed or only one reform shows inability to weigh interdependent political-economic dynamics.",
-    "id": "gen_c12_ps_ch02_q16",
+    "id": "gen_c12_ps_ch02_q17",
     "nodeId": "c12_ps_cbse_02_002",
     "difficulty": "advanced"
    },
@@ -650,21 +838,6 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Glasnost  and Perestroika  were' slide -- match the key terms.",
     "misconception": "A wrong answer that only describes the law's provisions without analyzing the missing complementary reforms (price reform, banking) shows the student cannot apply systems thinking to policy design.",
-    "id": "gen_c12_ps_ch02_q17",
-    "nodeId": "c12_ps_cbse_02_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "What were the two main pillars of Gorbachev's reform agenda, and what does each term literally mean in Russian?",
-    "answer": "The two pillars were Glasnost (meaning \"openness\" or \"transparency\") and Perestroika (meaning \"restructuring\" or \"rebuilding\")",
-    "options": [
-     "Kosovo (an autonomous province within Serbia)",
-     "Shock therapy is a rapid, simultaneous transition package — price liberalization, mass privatization, fiscal stabilization, trade liberalization, and legal/institutional reform",
-     "The two pillars were Glasnost (meaning \"openness\" or \"transparency\") and Perestroika (meaning \"restructuring\" or \"rebuilding\")"
-    ],
-    "hint": "Straight from the 'Glasnost  and Perestroika  were' slide -- match the key terms.",
-    "misconception": "A wrong answer — such as confusing the terms, translating them incorrectly, or adding a third pillar like \"Demokratizatsiya\" as an equal pillar — reveals that the student has not memorized the core vocabulary and cannot distinguish the political opening from the economic restructuring, which is essential for analyzing",
     "id": "gen_c12_ps_ch02_q18",
     "nodeId": "c12_ps_cbse_02_002",
     "difficulty": "advanced"
@@ -2885,15 +3058,15 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Name the eight countries that constitute the geopolitical region of South Asia as defined in the NCERT Class 12 Contemporary World Politics textbook.",
-    "answer": "The eight countries are India, Pakistan, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, and Afghanistan",
+    "question": "Explain why the Partition of 1947 is considered the \"foundational trauma\" that structures interstate relations in South Asia, rather than just a historical event.",
+    "answer": "Partition created three enduring structural legacies: (1) contested borders (Kashmir, Sir Creek",
     "options": [
-     "The Indus Waters Treaty (IWT) was signed in 1960 and brokered by the World Bank",
-     "The seven countries are Pakistan, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, and Afghanistan. The guiding principle is the Gujral Doctrine (1996)",
-     "The eight countries are India, Pakistan, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, and Afghanistan"
+     "Gyanendra dismissed the elected government, assumed executive powers, and suspended civil liberties",
+     "Supporting: (1) The Constituent Assembly’s first act was declaring a republic; (2) Elections to the CA were held with former combatants participating",
+     "Partition created three enduring structural legacies: (1) contested borders (Kashmir, Sir Creek"
     ],
     "hint": "Straight from the 'South Asia as a region' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., including Myanmar, excluding Afghanistan, or listing only seven) reveals the student lacks the basic geographic-political framework for the chapter. This is a recall error that will cascade into misidentifying conflict parties in later nodes (e.",
+    "misconception": "A wrong answer treating Partition as merely \"a division of territory\" misses how it embedded zero-sum security perceptions into the region's DNA.",
     "id": "gen_c12_ps_ch05_q18",
     "nodeId": "c12_ps_cbse_05_001",
     "difficulty": "standard"
@@ -3771,6 +3944,21 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Critique the argument: \"International organisations are ineffective because they lack an army and cannot enforce decisions; therefore, states should rely solely on bilateral diplomacy.\"",
+    "answer": "The argument overlooks three key functions: (1) IOs reduce transaction costs of repeated negotiations by providing standing forums and standardised procedures",
+    "options": [
+     "The argument confuses peacekeeping with peace enforcement. Peacekeepers operate with consent and limited force",
+     "Yes, the ICJ can hear the case if the reservations attached by both states do not exclude this specific dispute",
+     "The argument overlooks three key functions: (1) IOs reduce transaction costs of repeated negotiations by providing standing forums and standardised procedures"
+    ],
+    "hint": "Straight from the 'International organisations' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The argument overlooks three key functions: (1) IOs reduce transaction costs of repeated negotiations by providing",
+    "id": "gen_c12_ps_ch06_q16",
+    "nodeId": "c12_ps_cbse_06_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What is the primary reason states establish international organisations, according to the collective-action perspective?",
     "answer": "The primary reason is to overcome collective action problems — situations where individual states acting in their own self-interest produce outcomes worse for all (e",
     "options": [
@@ -3780,7 +3968,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'International organisations' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to create a world government\" or \"to replace state sovereignty\") reveals a confusion between supranational authority and intergovernmental cooperation — the student conflates pooling sovereignty with surrendering it.",
-    "id": "gen_c12_ps_ch06_q16",
+    "id": "gen_c12_ps_ch06_q17",
     "nodeId": "c12_ps_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3795,23 +3983,8 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'International organisations' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"globalisation makes states more powerful so they don't need IOs\") shows the student misses the core paradox: greater interdependence reduces unilateral control, increasing the need for multilateral institutions.",
-    "id": "gen_c12_ps_ch06_q17",
-    "nodeId": "c12_ps_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A resolution calling for immediate humanitarian access in a conflict zone is adopted by the General Assembly with 140 votes in favour, 10 against, and 5 abstentions. The Security Council later considers a binding resolution on the same issue but fails because one P5 member casts a veto.",
-    "answer": "The GA resolution is recommendatory (non-binding) under Article 10-14 of the Charter; it expresses world opinion but imposes no legal obligation",
-    "options": [
-     "Correct analysis: As non-permanent member, India abstained on the procedural vote to refer Ukraine to General Assembly (S/RES/2623)",
-     "No, the resolution fails. Step 1: Identify it's a substantive matter (condemnation of military action = Chapter VII enforcement action)",
-     "The GA resolution is recommendatory (non-binding) under Article 10-14 of the Charter; it expresses world opinion but imposes no legal obligation"
-    ],
-    "hint": "Straight from the 'UN System' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats both as equally binding ignores the Charter’s hierarchy: the SC has primary responsibility for peace and security with enforcement power; the GA does not.",
     "id": "gen_c12_ps_ch06_q18",
-    "nodeId": "c12_ps_cbse_06_002",
+    "nodeId": "c12_ps_cbse_06_001",
     "difficulty": "standard"
    }
   ],
@@ -4397,6 +4570,21 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Create a hypothetical scenario where a state simultaneously faces a conventional military buildup by a hostile neighbor and an armed separatist movement in a border region. Describe how traditional security logic would prioritize and sequence responses.",
+    "answer": "Scenario: State X detects Neighbor Y massing armor at their border while Region Z (bordering Y) sees an armed separatist uprising backed by Y",
+    "options": [
+     "The lockdown (health security measure) destroyed livelihoods of daily-wage workers (deepening poverty)",
+     "The diversion compromises health security (reduced access to care), economic security (higher out-of-pocket expenses)",
+     "Scenario: State X detects Neighbor Y massing armor at their border while Region Z (bordering Y) sees an armed separatist uprising backed by Y"
+    ],
+    "hint": "Straight from the 'Traditional notions of security' slide -- match the key terms.",
+    "misconception": "A poor answer treats both equally or prioritizes internal threat without justifying the greater immediacy of sovereign state-on-state war.",
+    "id": "gen_c12_ps_ch07_q13",
+    "nodeId": "c12_ps_cbse_07_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Define traditional security and name its two main categories of threats with one example each from the Indian context.",
     "answer": "Traditional security is a state-centric framework that defines security in terms of military threats to the state's sovereignty and territorial integrity",
     "options": [
@@ -4406,7 +4594,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Traditional notions of security' slide -- match the key terms.",
     "misconception": "A wrong answer citing climate change or pandemics as traditional threats reveals confusion with non-traditional security concepts introduced later in the chapter.",
-    "id": "gen_c12_ps_ch07_q13",
+    "id": "gen_c12_ps_ch07_q14",
     "nodeId": "c12_ps_cbse_07_001",
     "difficulty": "standard"
    },
@@ -4421,7 +4609,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Traditional notions of security' slide -- match the key terms.",
     "misconception": "A wrong answer calling traditional security \"completely obsolete\" ignores ongoing conflicts; one calling it \"fully adequate\" ignores the need for broader frameworks like human security.",
-    "id": "gen_c12_ps_ch07_q14",
+    "id": "gen_c12_ps_ch07_q15",
     "nodeId": "c12_ps_cbse_07_001",
     "difficulty": "standard"
    },
@@ -4436,7 +4624,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Traditional notions of security' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"because the military is the strongest institution\" confuses institutional power with the theoretical reasoning about threat perception in this framework.",
-    "id": "gen_c12_ps_ch07_q15",
+    "id": "gen_c12_ps_ch07_q16",
     "nodeId": "c12_ps_cbse_07_001",
     "difficulty": "standard"
    },
@@ -4451,7 +4639,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Traditional notions of security' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"yes, because a foreign state is involved\" fails to distinguish the specific criteria of traditional security (physical military action) from broader modern threat definitions.",
-    "id": "gen_c12_ps_ch07_q16",
+    "id": "gen_c12_ps_ch07_q17",
     "nodeId": "c12_ps_cbse_07_001",
     "difficulty": "standard"
    },
@@ -4466,21 +4654,6 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Deterrence' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both have nuclear weapons so it's the same\") reveals the student overlooks how geography, technology, and institutional depth critically affect deterrence stability.",
-    "id": "gen_c12_ps_ch07_q17",
-    "nodeId": "c12_ps_cbse_07_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Critically evaluate the argument that India's \"No First Use\" (NFU) doctrine strengthens deterrence by raising the nuclear threshold, versus the counter-argument that it weakens credibility by tying India's hands.",
-    "answer": "NFU strengthens deterrence by: (a) reducing first-strike incentives for the adversary (Pakistan knows India won't strike first, so it need not fear a disarming attack)",
-    "options": [
-     "India's restraint demonstrates the stability-instability paradox: nuclear deterrence at the strategic level (MAD) creates space for limited conventional conflict below the nuclear",
-     "The argument ignores that military preparedness alone cannot stop a virus, reverse climate change, or feed the hungry",
-     "NFU strengthens deterrence by: (a) reducing first-strike incentives for the adversary (Pakistan knows India won't strike first, so it need not fear a disarming attack)"
-    ],
-    "hint": "Straight from the 'Deterrence' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"NFU is good because it's peaceful\") reveals the student treats doctrine as a moral stance rather than a strategic calculation of credibility and stability.",
     "id": "gen_c12_ps_ch07_q18",
     "nodeId": "c12_ps_cbse_07_002",
     "difficulty": "advanced"
@@ -4505,7 +4678,8 @@ export const C12_PS_GEN: SimDef[] = [
   "subject": "physical education",
   "topic": "Partition Of India",
   "chapters": [
-   "Physical Education Ch8: Partition Of India"
+   "Physical Education Ch8: Partition Of India",
+   "Physical Education Ch9: Partition Of India"
   ],
   "nodeIds": [
    "c12_ps_cbse_08_001",
@@ -4514,9 +4688,11 @@ export const C12_PS_GEN: SimDef[] = [
    "c12_ps_cbse_08_004",
    "c12_ps_cbse_08_005",
    "c12_ps_cbse_08_006",
+   "c12_ps_cbse_09_006",
    "c12_ps_cbse_08_007",
    "c12_ps_cbse_08_008",
    "c12_ps_cbse_08_009",
+   "c12_ps_cbse_09_009",
    "c12_ps_cbse_08_010"
   ],
   "emoji": "🏃",
@@ -4573,6 +4749,12 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
+    "title": "Bharatiya Jana Sangh Was",
+    "text": "The Bharatiya Jana Sangh (BJS) was a right-wing nationalist political party founded in 1951 by Dr. Shyama Prasad Mukherjee, with ideological roots in the Rashtriya Swayamsevak Sangh (RSS) and the pre-independence Hindu Mahasabha.",
+    "emoji": "🏃",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Linguistic Reorganisation Of States",
     "text": "Linguistic reorganisation of states refers to the process of redrawing internal boundaries of Indian states along linguistic lines, formalised through the States Reorganisation Act, 1956, based on the recommendation of the States Reorganisation Commission",
     "emoji": "🏃",
@@ -4589,6 +4771,12 @@ export const C12_PS_GEN: SimDef[] = [
     "text": "The First General Elections of 1951-52 were the inaugural nationwide elections held under the Constitution of India to constitute the first Lok Sabha and state legislative assemblies, conducted on the basis of Universal Adult Franchise (Article 326) which",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Congress 'Syndicate'",
+    "text": "The Congress 'Syndicate' refers to an informal group of powerful regional Congress leaders (prominently K. Kamaraj, S. Nijalingappa, Atulya Ghosh, S.",
+    "emoji": "🏃",
+    "bgColor": "from-violet-400 to-purple-500"
    },
    {
     "title": "Partition Of India Triggered",
@@ -4852,6 +5040,69 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "ANALYSE: The BJS opposed \"concessions to religious and cultural minorities.\" Identify two specific Constitutional provisions (Articles) that guarantee such concessions, and explain how the BJS’s stance created a structural tension with the Constitution’s minority-rights framework.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The debate",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Article 30",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The tension",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Article 29",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who cites only the general equality article misses the specific minority-rights provisions and cannot explain the structural tension with the Constitution's framework.",
+    "id": "gen_c12_ps_ch08_q7",
+    "nodeId": "c12_ps_cbse_09_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are watching a news debate where a panelist says, \"The BJP’s ideology began in 1951 with the Jana Sangh.",
+     "Next, revisit the FPTP electoral system (c11_ps_cbse_12_004) — a party with 3–5% national vote share gets almost no seats if its support is thinly",
+     "Then read the NCERT paragraph on BJS (p.",
+     "39) and list its five demands."
+    ]
+   },
+   {
+    "type": "order",
     "question": "\"Linguistic reorganisation strengthened Indian unity rather than weakening it.\" Evaluate this claim using evidence from the NCERT text and at least two post-1956 examples.",
     "sortItems": [
      {
@@ -4892,7 +5143,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong evaluation (e.g., \"it caused fragmentation\") confuses *demand* with *outcome* — the *process* of accommodation neutralised separatist potential.",
-    "id": "gen_c12_ps_ch08_q7",
+    "id": "gen_c12_ps_ch08_q8",
     "nodeId": "c12_ps_cbse_08_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -4944,7 +5195,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing \"the Constitution mandated central planning\" ignores that the Constitution is silent on planning — it was a political choice reflecting Nehru's vision (c12_ps_cbse_08_006) and the trauma of partition.",
-    "id": "gen_c12_ps_ch08_q8",
+    "id": "gen_c12_ps_ch08_q9",
     "nodeId": "c12_ps_cbse_08_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -5006,7 +5257,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer omits the secrecy safeguard (e.g., \"officer stamps for the voter\") or confuses the symbol system with open voting, revealing ignorance of the secret ballot principle.",
-    "id": "gen_c12_ps_ch08_q9",
+    "id": "gen_c12_ps_ch08_q10",
     "nodeId": "c12_ps_cbse_08_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -5017,18 +5268,81 @@ export const C12_PS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Compare the Syndicate's role in the 1967 presidential election (Dr. Zakir Husain) with the 1969 presidential election (V.V. Giri vs. Neelam Sanjiva Reddy). How did the shift from consensus to open conflict reflect the breakdown of the Congress system's faction-management mechanism?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The 1967 consensus",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The 1969 rupture",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The outcome",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The structural meaning",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) The 1967 consensus — the Syndicate consulted the Prime Minister and the factions agreed on Dr Zakir Husain, showing",
+    "id": "gen_c12_ps_ch08_q11",
+    "nodeId": "c12_ps_cbse_09_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are a Congress worker in 1965: your local leader tells you the party ticket for the upcoming election will be decided by \"the Syndicate\"",
+     "Start by asking: who were these unelected leaders, and how did they gain veto power over elected representatives?",
+     "Connect to c12_ps_cbse_09_002 (Congress System) — the Syndicate was the organizational backbone that made the \"system\" work, but also its central",
+     "Trace how Patel's vision of a \"disciplined cadre party\" (from Rajni Kothari's excerpt) clashed with Nehru's preference for a broad coalition,"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What was the estimated number of people forced to migrate across the new India-Pakistan border during Partition (1947–1948), and what was the estimated death toll from Partition-related violence?",
     "answer": "Approximately 80 lakh (8 million) people migrated; 5–10 lakh (500,000–1,000,000) killed",
     "options": [
      "The Standstill Agreement was a temporary arrangement whereby the Government of India agreed to maintain the existing administrative, postal, telegraphic",
      "The Indian Independence Act, 1947 declared that British paramountcy over princely states would lapse, making them legally independent sovereign entities free to accede to India",
-     "Temporary 80 lakh (8 million) people migrated; 5–10 lakh (500,000–1,000,000) killed",
+     "Bandung 80 lakh (8 million) people migrated; 5–10 lakh (500,000–1,000,000) killed",
      "Approximately 80 lakh (8 million) people migrated; 5–10 lakh (500,000–1,000,000) killed"
     ],
     "hint": "Straight from the 'Partition of India  triggered' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"10 lakh migrated, 1 lakh died\") reveals the student underestimates the scale of the humanitarian crisis, which is critical for understanding the administrative and moral burden on the nascent Indian state.",
-    "id": "gen_c12_ps_ch08_q10",
+    "id": "gen_c12_ps_ch08_q12",
     "nodeId": "c12_ps_cbse_08_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -5090,7 +5404,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer treats 1956 as the *only* valid model or ignores Parliament's constitutional authority under Article 3.",
-    "id": "gen_c12_ps_ch08_q11",
+    "id": "gen_c12_ps_ch08_q13",
     "nodeId": "c12_ps_cbse_08_007",
     "difficulty": "advanced"
    },
@@ -5147,7 +5461,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong proposal would: (1) make the body a constitutional authority under Article 263 (Inter-State Council), (2) give",
-    "id": "gen_c12_ps_ch08_q12",
+    "id": "gen_c12_ps_ch08_q14",
     "nodeId": "c12_ps_cbse_08_008",
     "difficulty": "advanced"
    },
@@ -5162,7 +5476,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Partition of India' slide -- match the key terms.",
     "misconception": "A wrong answer claiming 'both wanted secular states' ignores that Jinnah's vision was immediately contested within Pakistan, whereas Nehru's became India's constitutional bedrock — a failure to distinguish rhetorical promise from institutional trajectory.",
-    "id": "gen_c12_ps_ch08_q13",
+    "id": "gen_c12_ps_ch08_q15",
     "nodeId": "c12_ps_cbse_08_001",
     "difficulty": "advanced"
    },
@@ -5177,7 +5491,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Partition of India' slide -- match the key terms.",
     "misconception": "A poor answer either copies the actual 1950 Preamble (missing the 1946 compromise attempt) or omits 'mandatory safeguards' (missing the League's core demand) — revealing ignorance of the last serious negotiated alternative to Partition.",
-    "id": "gen_c12_ps_ch08_q14",
+    "id": "gen_c12_ps_ch08_q16",
     "nodeId": "c12_ps_cbse_08_001",
     "difficulty": "advanced"
    },
@@ -5192,7 +5506,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Partition of India' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the claim shows inability to read demographic data critically and ignores Nehru's explicit prudential reasoning — a major board exam error.",
-    "id": "gen_c12_ps_ch08_q15",
+    "id": "gen_c12_ps_ch08_q17",
     "nodeId": "c12_ps_cbse_08_001",
     "difficulty": "advanced"
    },
@@ -5207,39 +5521,8 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Partition of India' slide -- match the key terms.",
     "misconception": "A wrong answer listing only 'violence' or 'migration' without the structural boundary problems shows inability to distinguish symptoms from institutional design flaws — a key analytical distinction for board answers.",
-    "id": "gen_c12_ps_ch08_q16",
-    "nodeId": "c12_ps_cbse_08_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did the Cabinet Mission Plan (1946) fail, and how did its failure make Partition inevitable?",
-    "answer": "The Cabinet Mission Plan proposed a loose federation with grouped provinces (Muslim-majority Sections B and C",
-    "options": [
-     "Valid criticism: Plan expenditures (controlled by Planning Commission) became the dominant discretionary channel, letting the Centre bypass state priorities",
-     "The claim is false. Partition did not solve the communal problem: (a) 10–12% of India's 1951 population remained Muslim (35–40 million), larger than West Pakistan's population",
-     "The Cabinet Mission Plan proposed a loose federation with grouped provinces (Commission B and C",
-     "The Cabinet Mission Plan proposed a loose federation with grouped provinces (Muslim-majority Sections B and C"
-    ],
-    "hint": "Straight from the 'Partition of India' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., 'British forced Partition immediately after WWII') misses the critical 1946–47 negotiation window where a united India was still possible — a misunderstanding of contingency vs. determinism in history.",
-    "id": "gen_c12_ps_ch08_q17",
-    "nodeId": "c12_ps_cbse_08_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A princely state ruler signs the Instrument of Accession ceding only Defence, External Affairs, and Communications to the Dominion of India. The ruler argues this preserves the state's internal sovereignty. How would you evaluate this claim using the distinction between *paramountcy* and *accession*?",
-    "answer": "The claim is constitutionally accurate for the *initial* stage: the Instrument of Accession (IoA) was a limited surrender of three subjects, preserving internal autonomy",
-    "options": [
-     "The claim is invalid. Under the Indian Independence Act 1947, British paramountcy lapsed, meaning princely states became legally independent but only in theory",
-     "Federal accommodation of diversity — the SRC created bilingual Bombay State (1956) as a compromise",
-     "The claim is constitutionally accurate for the *initial* stage: the Instrument of Accession (IoA) was a limited surrender of three subjects, preserving internal autonomy"
-    ],
-    "hint": "Straight from the 'integration of princely states' slide -- match the key terms.",
-    "misconception": "A wrong answer treating IoA as full merger confuses the *staged* integration strategy (IoA → Standstill Agreement → Merger → Constitutional integration) with a single event.",
     "id": "gen_c12_ps_ch08_q18",
-    "nodeId": "c12_ps_cbse_08_002",
+    "nodeId": "c12_ps_cbse_08_001",
     "difficulty": "advanced"
    }
   ],
@@ -6580,6 +6863,21 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What were the three major objectives of Nehru's foreign policy as stated in the NCERT text? (Recall only)",
+    "answer": "The three objectives were: (1) preserve hard‑earned sovereignty, (2) protect territorial integrity, and (3) promote rapid economic development",
+    "options": [
+     "The three objectives were: preserving sovereignty, protecting territorial integrity, and promoting rapid economic development",
+     "Article 51 of the Constitution (Directive Principles of State Policy) directs the State to: (a) promote international peace and security",
+     "The three objectives were: (1) preserve hard‑earned sovereignty, (2) protect territorial integrity, and (3) promote rapid economic development"
+    ],
+    "hint": "Straight from the 'Nehru's foreign policy  was a' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"spread democracy\" or \"join the US bloc\") reveals the student has not distinguished Nehru's *national interest* framework from ideological preferences of domestic groups like the Jan Sangh or Ambedkar's view.",
+    "id": "gen_c12_ps_ch11_q17",
+    "nodeId": "c12_ps_cbse_11_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why did Nehru choose non‑alignment instead of joining either the US‑led or Soviet‑led bloc during the Cold War? Explain using the concepts of sovereignty and economic development.",
     "answer": "Nehru avoided blocs because joining one would compromise India's sovereignty (foreign relations would be \"in the charge of somebody else\") and limit access to aid/technology from",
     "options": [
@@ -6589,24 +6887,9 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Nehru's foreign policy  was a' slide -- match the key terms.",
     "misconception": "A wrong answer that equates non‑alignment with \"neutrality\" or \"isolationism\" shows the student misses the *active, independent judgment* dimension — India took positions on issues (condemning Suez invasion, not condemning Hungary) rather than staying silent.",
-    "id": "gen_c12_ps_ch11_q17",
+    "id": "gen_c12_ps_ch11_q18",
     "nodeId": "c12_ps_cbse_11_001",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the 1947 Asian Relations Conference (convened by India before independence) and the 1955 Bandung Conference. What shifted in the international context and India's role between these two events?",
-    "answer": "The 1947 conference was aspirational — India was not yet independent, and decolonization was just beginning",
-    "options": [
-     "The 1971 treaty was a *security guarantee* against a US-China-Pakistan axis in a bipolar world — a quasi-alliance with one superpower",
-     "Bandung (1955) was the *political* birth of Afro‑Asian solidarity — 29 nations condemned colonialism/racism, adopted the Ten Principles (incorporating Panchsheel)",
-     "The 1947 conference was aspirational — India was not yet independent, and decolonization was just beginning"
-    ],
-    "hint": "Straight from the 'Non-Aligned Movement' slide -- match the key terms.",
-    "misconception": "A student who sees them as identical misses the evolution from moral solidarity to institutionalized non-alignment.",
-    "id": "gen_c12_ps_ch11_q18",
-    "nodeId": "c12_ps_cbse_11_002",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -7325,6 +7608,7 @@ export const C12_PS_GEN: SimDef[] = [
   "nodeIds": [
    "c12_ps_cbse_14_002",
    "c12_ps_cbse_14_003",
+   "c12_ps_cbse_14_006",
    "c12_ps_cbse_14_008",
    "c12_ps_cbse_14_009",
    "c12_ps_cbse_14_010"
@@ -7359,6 +7643,12 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Northeast India Node Examines How",
+    "text": "The Northeast India node examines how ethnic diversity, geographic isolation, and historical marginalization have fueled insurgency and secessionist movements in the region, and how the Indian state has responded through a mix of military action,",
+    "emoji": "🏃",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
     "title": "Accommodation Of Regional Demands",
     "text": "Accommodation of regional demands refers to the Indian state's constitutional and political mechanisms — including state reorganisation on linguistic/ethnic lines (Articles 2-4), asymmetrical federal provisions (Article 370 for J&K until 2019, Sixth Schedule",
     "emoji": "🏃",
@@ -7383,8 +7673,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Why did the Dravidian movement, which initially spoke for the whole of South India, become confined to Tamil Nadu?",
     "answer": "The movement lacked support from other South Indian states (Andhra, Karnataka, Kerala) which had their own linguistic and political trajectories",
     "options": [
+     "Both parties claimed the Dravidian legacy, alternated in power for decades, and since 1996 have been part of national ruling coalitions",
      "A strong answer would: (1) acknowledge the Accord as a democratic opening after years of violence, (2) note unfulfilled promises like Chandigarh transfer and fair water sharing",
-     "Draft Article 371-V (Vidarbha): (1) President may order: (a) separate development board for Vidarbha with annual report to Assembly",
      "The movement lacked support from other South Indian states (Andhra, Karnataka, Kerala) which had their own linguistic and political trajectories"
     ],
     "hint": "Straight from the 'Dravidian movement in Tamil Nadu' slide -- match the key terms.",
@@ -7464,6 +7754,69 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "Draft a constitutional provision (modeled on Article 371A for Nagaland) for a hypothetical \"Karbi Anglong State\" that would protect Karbi customary law, land ownership, and resource control while remaining within the Indian Union. Include at least three specific safeguards.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Cultural autonomy",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Land and resources",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Representation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Customary law",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer copies the Nagaland article verbatim without adapting land-transfer restrictions, royalty sharing or reserved seats.",
+    "id": "gen_c12_ps_ch14_q3",
+    "nodeId": "c12_ps_cbse_14_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a Class 12 student from Guwahati reading a news report about the Citizenship Amendment Act protests in 2019 — they see echoes of the 1979",
+     "Start by asking: \"Why does the Northeast, with 4% of India's population but 8% of its area, produce such intense identity-based conflicts?",
+     "Then guide the student through three analytical lenses: (1) geography — the Siliguri Corridor as a lifeline and vulnerability; (2) demography —",
+     "End with the key principle: India's flexible federalism accommodates diversity by granting autonomy within the Union, but only when movements accept"
+    ]
+   },
+   {
+    "type": "order",
     "question": "Draft a constitutional provision (modelled on Article 371) for a hypothetical new state 'Vidarbha' carved out of Maharashtra, addressing: (a) equitable development fund allocation, (b) local cadre in public services, (c) protection of tribal cultural practices in Melghat.",
     "sortItems": [
      {
@@ -7515,7 +7868,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer copies Article 371 verbatim without adapting to Vidarbha's specific grievances (agrarian distress, tribal marginalisation, intra-state inequality) or fails to cite the *correct* existing variant for each clause.",
-    "id": "gen_c12_ps_ch14_q3",
+    "id": "gen_c12_ps_ch14_q4",
     "nodeId": "c12_ps_cbse_14_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -7536,7 +7889,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Telangana Movement' slide -- match the key terms.",
     "misconception": "A wrong answer conflating them as \"both linguistic\" misses the sub-regional developmental dimension unique to Telangana.",
-    "id": "gen_c12_ps_ch14_q4",
+    "id": "gen_c12_ps_ch14_q5",
     "nodeId": "c12_ps_cbse_14_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -7551,13 +7904,13 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Draft a constitutional provision (modeled on the Sixth Schedule) for a hypothetical tribal region \"X\" in central India that demands autonomy over land, forests, and customary law while remaining within the state.",
     "answer": "A strong answer will mirror Sixth Schedule structure: (a) District/Regional Council with elected members (max 30) plus nominated members (max 4) by Governor",
     "options": [
+     "(1) Customary law — no law on Karbi custom or customary justice applies unless the assembly resolves so by a two-thirds majority, (2) Land and resources",
      "Draft Article 371-V (Vidarbha): (1) President may order: (a) separate development board for Vidarbha with annual report to Assembly",
-     "A strong answer would: (1) acknowledge the Accord as a democratic opening after years of violence, (2) note unfulfilled promises like Chandigarh transfer and fair water sharing",
      "A strong answer will mirror Sixth Schedule structure: (a) District/Regional Council with elected members (max 30) plus nominated members (max 4) by Governor"
     ],
     "hint": "Straight from the 'Balancing regional identity with' slide -- match the key terms.",
     "misconception": "A poor answer copies state-level powers (police, education) or omits the Governor's oversight, showing misunderstanding of *asymmetric autonomy within a state* vs *statehood*.",
-    "id": "gen_c12_ps_ch14_q5",
+    "id": "gen_c12_ps_ch14_q6",
     "nodeId": "c12_ps_cbse_14_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -7573,13 +7926,58 @@ export const C12_PS_GEN: SimDef[] = [
     "answer": "Both parties claimed the Dravidian legacy, alternated in power for decades, and since 1996 have been part of national ruling coalitions",
     "options": [
      "Differences: (1) Telangana sought separation *within* a linguistic state (sub-regional identity based on historical backwardness, not language)",
-     "The movement lacked support from other South Indian states (Andhra, Karnataka, Kerala) which had their own linguistic and political trajectories",
+     "Draft Article 371-V (Vidarbha): (1) President may order: (a) separate development board for Vidarbha with annual report to Assembly",
      "Both parties claimed the Dravidian legacy, alternated in power for decades, and since 1996 have been part of national ruling coalitions"
     ],
     "hint": "Straight from the 'Dravidian movement in Tamil Nadu' slide -- match the key terms.",
     "misconception": "A wrong answer treating them as ideologically distinct ignores their shared Dravidian ideological core and the pragmatism of their national engagement.",
-    "id": "gen_c12_ps_ch14_q6",
+    "id": "gen_c12_ps_ch14_q7",
     "nodeId": "c12_ps_cbse_14_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a hypothetical 1985 newspaper editorial (3-4 sentences) that a moderate Akali leader might have written, urging Sikhs to accept the Punjab Accord while acknowledging its shortcomings.",
+    "answer": "A strong answer would: (1) acknowledge the Accord as a democratic opening after years of violence, (2) note unfulfilled promises like Chandigarh transfer and fair water sharing",
+    "options": [
+     "Draft Article 371-V (Vidarbha): (1) President may order: (a) separate development board for Vidarbha with annual report to Assembly",
+     "A strong answer will mirror Sixth Schedule structure: (a) District/Regional Council with elected members (max 30) plus nominated members (max 4) by Governor",
+     "A strong answer would: (1) acknowledge the Accord as a democratic opening after years of violence, (2) note unfulfilled promises like Chandigarh transfer and fair water sharing"
+    ],
+    "hint": "Straight from the 'Punjab Crisis' slide -- match the key terms.",
+    "misconception": "A poor answer either fully endorses the Accord without critique (missing the nuance of partial victory) or rejects it outright (missing the strategic shift from armed struggle to electoral politics that the Accord enabled).",
+    "id": "gen_c12_ps_ch14_q8",
+    "nodeId": "c12_ps_cbse_14_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Draft a constitutional provision (modeled on Article 371A for Nagaland) for a hypothetical \"Karbi Anglong State\" that would protect Karbi customary law, land ownership, and resource control while remaining within the Indian Union. Include at least three specific safeguards.",
+    "answer": "(1) Customary law — no law on Karbi custom or customary justice applies unless the assembly resolves so by a two-thirds majority, (2) Land and resources",
+    "options": [
+     "A strong answer would: (1) acknowledge the Accord as a democratic opening after years of violence, (2) note unfulfilled promises like Chandigarh transfer and fair water sharing",
+     "A strong answer will mirror Sixth Schedule structure: (a) District/Regional Council with elected members (max 30) plus nominated members (max 4) by Governor",
+     "(1) Customary law — no law on Karbi custom or customary justice applies unless the assembly resolves so by a two-thirds majority, (2) Land and resources"
+    ],
+    "hint": "Straight from the 'Northeast India node examines how' slide -- match the key terms.",
+    "misconception": "A poor answer copies the Nagaland article verbatim without adapting land-transfer restrictions, royalty sharing or reserved seats.",
+    "id": "gen_c12_ps_ch14_q9",
+    "nodeId": "c12_ps_cbse_14_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Draft a constitutional provision (modelled on Article 371) for a hypothetical new state 'Vidarbha' carved out of Maharashtra, addressing: (a) equitable development fund allocation, (b) local cadre in public services, (c) protection of tribal cultural practices in Melghat.",
+    "answer": "Draft Article 371-V (Vidarbha): (1) President may order: (a) separate development board for Vidarbha with annual report to Assembly",
+    "options": [
+     "A strong answer will mirror Sixth Schedule structure: (a) District/Regional Council with elected members (max 30) plus nominated members (max 4) by Governor",
+     "A strong answer would: (1) acknowledge the Accord as a democratic opening after years of violence, (2) note unfulfilled promises like Chandigarh transfer and fair water sharing",
+     "Draft Article 371-V (Vidarbha): (1) President may order: (a) separate development board for Vidarbha with annual report to Assembly"
+    ],
+    "hint": "Straight from the 'Accommodation of regional demands' slide -- match the key terms.",
+    "misconception": "A poor answer copies Article 371 verbatim without adapting to Vidarbha's specific grievances (agrarian distress, tribal marginalisation, intra-state inequality) or fails to cite the *correct* existing variant for each clause.",
+    "id": "gen_c12_ps_ch14_q10",
+    "nodeId": "c12_ps_cbse_14_008",
     "difficulty": "advanced"
    }
   ],
@@ -7590,7 +7988,8 @@ export const C12_PS_GEN: SimDef[] = [
    ]
   },
   "successLine": "Dravidian Movement In Tamil mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_ps_ch15",
@@ -8169,6 +8568,21 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Create a hypothetical scenario: It is 1996. The BJP emerges as the single largest party (161 seats) but cannot prove majority. As President, you must decide whom to invite to form government. Draft a 3-point reasoning you would record in your decision note, citing constitutional conventions and the 1989 precedent.",
+    "answer": "A good answer includes: (1) Convention: Invite the leader of the single largest party/pre-poll alliance first (BJP/NDA)",
+    "options": [
+     "The Kalyan Singh (BJP) government in UP failed to honour its Supreme Court undertaking, and the Centre (Congress-led Narasimha Rao government) did not invoke Article 356",
+     "The party will likely support the government's economic policies despite cadre opposition, because the pragmatic consensus means coalition partners prioritize power-sharing and",
+     "A good answer includes: (1) Convention: Invite the leader of the single largest party/pre-poll alliance first (BJP/NDA)"
+    ],
+    "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
+    "misconception": "A poor answer omits the 1989 precedent or suggests the President can pick based on personal preference, revealing ignorance of constitutional conventions and the role of the President as a constitutional head bound by precedent.",
+    "id": "gen_c12_ps_ch15_q14",
+    "nodeId": "c12_ps_cbse_15_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the statement: \"The end of the Congress system weakened Indian democracy because coalition governments are inherently unstable and ineffective.\" Use evidence from 1989–2014 to support or refute.",
     "answer": "The statement is refutable. While coalitions (1989–2014) saw 11 governments in 25 years, they also passed landmark legislation (RTI Act 2005, MGNREGA 2005, Nuclear Deal 2008",
     "options": [
@@ -8178,7 +8592,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the premise uncritically reveals a bias toward single-party majorities and ignores the democratic value of power-sharing in a plural society.",
-    "id": "gen_c12_ps_ch15_q14",
+    "id": "gen_c12_ps_ch15_q15",
     "nodeId": "c12_ps_cbse_15_001",
     "difficulty": "standard"
    },
@@ -8194,7 +8608,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 1977, 1996, or 2014) reveals confusion between the first non-Congress government (1977 Janata Party), the first stable coalition era (1996 United Front), or the return of single-party majority (2014 BJP).",
-    "id": "gen_c12_ps_ch15_q15",
+    "id": "gen_c12_ps_ch15_q16",
     "nodeId": "c12_ps_cbse_15_001",
     "difficulty": "standard"
    },
@@ -8209,7 +8623,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Congress didn't want to rule\" or \"President didn't invite them\") reveals misunderstanding of parliamentary government formation: the President invites the leader most likely to command a majority; Congress realised it couldn't cobble together 272 votes without ideological compromises it wasn't",
-    "id": "gen_c12_ps_ch15_q16",
+    "id": "gen_c12_ps_ch15_q17",
     "nodeId": "c12_ps_cbse_15_001",
     "difficulty": "standard"
    },
@@ -8224,21 +8638,6 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bharatiya Janata Party' slide -- match the key terms.",
     "misconception": "A wrong answer that claims coalitions are ideologically unified ignores the explicit 'agreement to disagree' that characterises Indian coalitions.",
-    "id": "gen_c12_ps_ch15_q17",
-    "nodeId": "c12_ps_cbse_15_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Draft a 150-word opinion piece for a school magazine arguing whether the rise of the BJP represents a 'deepening of democracy' or a 'threat to secularism'. Use at least three specific historical events from 1980-2019 to support your position.",
-    "answer": "A strong answer will take a clear stance and integrate events like: BJP's formation (1980) with Gandhian Socialism, the Shah Bano controversy (1986)",
-    "options": [
-     "The Kalyan Singh (BJP) government in UP failed to honour its Supreme Court undertaking, and the Centre (Congress-led Narasimha Rao government) did not invoke Article 356",
-     "The party will likely support the government's economic policies despite cadre opposition, because the pragmatic consensus means coalition partners prioritize power-sharing and",
-     "A strong answer will take a clear stance and integrate events like: BJP's formation (1980) with Gandhian Socialism, the Shah Bano controversy (1986)"
-    ],
-    "hint": "Straight from the 'Bharatiya Janata Party' slide -- match the key terms.",
-    "misconception": "A poor answer will merely list events without a coherent argument or confuse secularism with minority appeasement.",
     "id": "gen_c12_ps_ch15_q18",
     "nodeId": "c12_ps_cbse_15_002",
     "difficulty": "advanced"

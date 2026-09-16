@@ -270,6 +270,21 @@ export const C10_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a power-sharing arrangement for a fictional diverse city with three major linguistic groups (A: 50%, B: 30%, C: 20%) that ensures no group dominates the city council. Specify the mechanism (reserved seats, community government, coalition requirement) and justify your choice.",
+    "answer": "A good answer proposes: (1) Reserved seats for Groups B and C in the city council proportional to population, elected by all voters (joint electorate)",
+    "options": [
+     "\"Any law affecting language use in education, public employment, or cultural institutions shall require a two-thirds majority in the City Council including at least 50% of members",
+     "Parliament (Legislature) made the law; Ministry/Executive implements it via rules; Supreme Court (Judiciary) will interpret whether the law violates Fundamental Rights (Article",
+     "A good answer proposes: (1) Reserved seats for Groups B and C in the city council proportional to population, elected by all voters (joint electorate)"
+    ],
+    "hint": "Straight from the 'Power sharing among social groups' slide -- match the key terms.",
+    "misconception": "A poor answer proposes only one mechanism or suggests separate electorates, showing inability to combine multiple forms of power sharing for deep accommodation.",
+    "id": "gen_c10_civ_ch01_q9",
+    "nodeId": "c10_civ_cbse_01_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "What is the constitutional mechanism that ensures representation of Scheduled Castes and Scheduled Tribes in the Lok Sabha and State Legislative Assemblies?",
     "answer": "The Constitution provides for reserved constituencies under Articles 330 (Lok Sabha) and 332 (State Assemblies) where only candidates belonging to Scheduled Castes or Scheduled",
     "options": [
@@ -279,7 +294,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Power sharing among social groups' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"separate electorates\" or \"nomination by the President\") reveals confusion between reserved constituencies (joint electorate, reserved candidate) and separate electorates (colonial system where only community members vote), which India explicitly rejected.",
-    "id": "gen_c10_civ_ch01_q9",
+    "id": "gen_c10_civ_ch01_q10",
     "nodeId": "c10_civ_cbse_01_006",
     "difficulty": "advanced"
    },
@@ -294,7 +309,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Prudential reasons for power' slide -- match the key terms.",
     "misconception": "A weak answer that mixes mechanisms without labeling the reasoning type shows the student cannot operationalize the distinction in policy design, a skill tested in CBSE competency-based case studies.",
-    "id": "gen_c10_civ_ch01_q10",
+    "id": "gen_c10_civ_ch01_q11",
     "nodeId": "c10_civ_cbse_01_008",
     "difficulty": "advanced"
    }
@@ -323,6 +338,7 @@ export const C10_CIV_GEN: SimDef[] = [
   "nodeIds": [
    "c10_civ_cbse_03_001",
    "c10_civ_cbse_03_002",
+   "c10_civ_cbse_03_003",
    "c10_civ_cbse_03_004",
    "c10_civ_cbse_03_006",
    "c10_civ_cbse_03_007",
@@ -356,6 +372,12 @@ export const C10_CIV_GEN: SimDef[] = [
     "text": "The public-private division refers to the societal separation of roles where the public sphere (politics, economy, paid work) is traditionally dominated by men, while the private sphere (home, family, unpaid care work) is assigned to women.",
     "emoji": "⚖️",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Women's Political Representation",
+    "text": "Women's political representation refers to the presence and participation of women in elected legislative bodies (Parliament, State Assemblies, Local Governments).",
+    "emoji": "⚖️",
+    "bgColor": "from-violet-400 to-purple-500"
    },
    {
     "title": "Indian Secularism",
@@ -425,6 +447,69 @@ export const C10_CIV_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of steps a state follows to implement women's reservation in the Lok Sabha under the 106th Amendment.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Wait for the next Census and Delimitation",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Identify which specific constituencies",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Apply horizontal reservation inside SC and",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Set a rotation mechanism and support elected",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that overlays women's quotas on caste quotas as separate seats shows the student has missed the horizontal reservation principle used in Articles 243D and 330/332.",
+    "id": "gen_c10_civ_ch03_q3",
+    "nodeId": "c10_civ_cbse_03_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are reading a newspaper headline: \"Women's Reservation Bill Passed: 33% Seats Reserved in Lok Sabha.",
+     "This creates a structural barrier where formal equality (Article 326) does not translate into actual representation.",
+     "Next, examine the data: women constitute ~14% of Lok Sabha (2019) vs.",
+     "49% of the population."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A political party’s manifesto promises to “enact a law based on the religious scriptures of the majority community.” Using Articles 14, 15, and 25, analyse whether this promise is constitutionally permissible.",
     "answer": "The promise violates Articles 14 (equality before law) and 15 (prohibition of discrimination on grounds of religion) because it privileges one religion’s scriptures over others",
@@ -435,7 +520,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian secularism' slide -- match the key terms.",
     "misconception": "A student who says “it is allowed because Article 25 protects religious freedom” confuses individual freedom with state endorsement, missing that the State must remain neutral.",
-    "id": "gen_c10_civ_ch03_q3",
+    "id": "gen_c10_civ_ch03_q4",
     "nodeId": "c10_civ_cbse_03_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -456,7 +541,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Politics in Caste' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"caste solidarity\" misses the crucial role of state policy in creating the incentive for political mobilisation.",
-    "id": "gen_c10_civ_ch03_q4",
+    "id": "gen_c10_civ_ch03_q5",
     "nodeId": "c10_civ_cbse_03_006",
     "difficulty": "standard",
     "workedExample": [
@@ -477,7 +562,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Caste inequalities refer to the' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., a slogan that only names one caste or ignores structural issues) reveals failure to grasp the transformative potential of cross-caste alliances.",
-    "id": "gen_c10_civ_ch03_q5",
+    "id": "gen_c10_civ_ch03_q6",
     "nodeId": "c10_civ_cbse_03_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -540,7 +625,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer saying \"Article 17 banned it, so it should be over\" reveals ignorance of the implementation gap between constitutional text and social reality.",
-    "id": "gen_c10_civ_ch03_q6",
+    "id": "gen_c10_civ_ch03_q7",
     "nodeId": "c10_civ_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -561,7 +646,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Sexual division of labour' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Expected answer: Poster shows split image — left: woman in office + cooking at night (clock shows 10 PM); right: man in",
-    "id": "gen_c10_civ_ch03_q7",
+    "id": "gen_c10_civ_ch03_q8",
     "nodeId": "c10_civ_cbse_03_001",
     "difficulty": "standard"
    },
@@ -576,8 +661,23 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'public-private division' slide -- match the key terms.",
     "misconception": "A student who only sees the benefit misses the structural reinforcement of the sexual division of labour — a common board exam trap where one-sided analysis loses marks.",
-    "id": "gen_c10_civ_ch03_q8",
+    "id": "gen_c10_civ_ch03_q9",
     "nodeId": "c10_civ_cbse_03_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps a state follows to implement women's reservation in the Lok Sabha under the 106th Amendment.",
+    "answer": "Implementation proceeds: (1) Wait for the next Census and Delimitation Commission report (2) Identify which specific constituencies become reserved for women (3) Apply horizontal",
+    "options": [
+     "Expected answer: Poster shows split image — left: woman in office + cooking at night (clock shows 10 PM); right: man in same office + relaxing at night (clock shows 10 PM)",
+     "Early reformers operated within a colonial context where political rights were denied to all Indians",
+     "Implementation proceeds: (1) Wait for the next Census and Delimitation Commission report (2) Identify which specific constituencies become reserved for women (3) Apply horizontal"
+    ],
+    "hint": "Straight from the 'Women's political representation' slide -- match the key terms.",
+    "misconception": "A wrong answer that overlays women's quotas on caste quotas as separate seats shows the student has missed the horizontal reservation principle used in Articles 243D and 330/332.",
+    "id": "gen_c10_civ_ch03_q10",
+    "nodeId": "c10_civ_cbse_03_003",
     "difficulty": "advanced"
    },
    {
@@ -591,7 +691,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Politics in Caste' slide -- match the key terms.",
     "misconception": "A poor answer either ignores caste within Muslims or proposes religion-based quota (unconstitutional under Article 15(1)), revealing confusion between caste and religious categories.",
-    "id": "gen_c10_civ_ch03_q9",
+    "id": "gen_c10_civ_ch03_q11",
     "nodeId": "c10_civ_cbse_03_006",
     "difficulty": "standard"
    },
@@ -606,7 +706,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Constitutional provisions against' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"Yes, Article 15 applies to everyone\" reveals confusion between vertical and horizontal application of fundamental rights.",
-    "id": "gen_c10_civ_ch03_q10",
+    "id": "gen_c10_civ_ch03_q12",
     "nodeId": "c10_civ_cbse_03_008",
     "difficulty": "advanced"
    },
@@ -621,7 +721,22 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Constitutional provisions against' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"Parliament must amend the Constitution\" shows the student does not understand judicial interpretation as a method of constitutional adaptation.",
-    "id": "gen_c10_civ_ch03_q11",
+    "id": "gen_c10_civ_ch03_q13",
+    "nodeId": "c10_civ_cbse_03_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the effectiveness of Article 17 in eradicating manual scavenging despite the Prohibition of Employment as Manual Scavengers and their Rehabilitation Act, 2013. What structural gap remains?",
+    "answer": "Article 17 provides constitutional backing, but manual scavenging persists due to: (1) caste-based occupational binding not fully addressed by criminal law alone",
+    "options": [
+     "Early reformers operated within a colonial context where political rights were denied to all Indians",
+     "The 27% reservation in central jobs gave diverse castes a shared material interest in maintaining the OBC label, prompting leaders to organise across traditional boundaries",
+     "Article 17 provides constitutional backing, but manual scavenging persists due to: (1) caste-based occupational binding not fully addressed by criminal law alone"
+    ],
+    "hint": "Straight from the 'Constitutional provisions against' slide -- match the key terms.",
+    "misconception": "A wrong answer saying \"Article 17 banned it, so it should be over\" reveals ignorance of the implementation gap between constitutional text and social reality.",
+    "id": "gen_c10_civ_ch03_q14",
     "nodeId": "c10_civ_cbse_03_008",
     "difficulty": "advanced"
    }
@@ -968,6 +1083,21 @@ export const C10_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A citizen argues: \"Political parties only create division; we should ban them and let all candidates contest as independents.\" Using your knowledge of party functions, write a three-point rebuttal that addresses representation, governance, and accountability.",
+    "answer": "(1) Representation: Parties aggregate diverse sectional interests (region, religion, class) into broad national coalitions",
+    "options": [
+     "FPTP favors two parties when social cleavages are national (class, ideology). In India, social cleavages are territorial/regional (language, religion, caste, ethnicity)",
+     "Democrania would likely evolve a multi-party system with 4-6 effective parties: each social group forms/backs a party (e",
+     "(1) Representation: Parties aggregate diverse sectional interests (region, religion, class) into broad national coalitions"
+    ],
+    "hint": "Straight from the 'political party' slide -- match the key terms.",
+    "misconception": "A wrong answer that merely repeats \"parties are necessary\" without linking each point to a specific function shows superficial understanding.",
+    "id": "gen_c10_civ_ch04_q8",
+    "nodeId": "c10_civ_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the statement: \"The Anti-Defection Law (Tenth Schedule) has strengthened political parties as democratic institutions.\" Give two arguments for and two against, then state your reasoned judgment.",
     "answer": "For: (1) It enforces party discipline, ensuring the mandate voters gave to a party's manifesto is honoured",
     "options": [
@@ -977,7 +1107,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'political party' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists pros or cons without weighing them shows inability to evaluate institutional trade-offs.",
-    "id": "gen_c10_civ_ch04_q8",
+    "id": "gen_c10_civ_ch04_q9",
     "nodeId": "c10_civ_cbse_04_001",
     "difficulty": "standard"
    },
@@ -992,7 +1122,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Major national political parties' slide -- match the key terms.",
     "misconception": "A wrong answer choosing INC or BJP reveals the student knows these parties have SC support but cannot articulate the *ideological specificity* of BSP's caste-based assertion versus INC's broad secular welfare or BJP's cultural nationalism with social engineering.",
-    "id": "gen_c10_civ_ch04_q9",
+    "id": "gen_c10_civ_ch04_q10",
     "nodeId": "c10_civ_cbse_04_002",
     "difficulty": "standard"
    },
@@ -1007,7 +1137,23 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Major national political parties' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"both represent the poor\" misses the crucial class vs. caste distinction in their mobilization logic. This analysis is needed for \"compare and contrast\" questions on party systems.",
-    "id": "gen_c10_civ_ch04_q10",
+    "id": "gen_c10_civ_ch04_q11",
+    "nodeId": "c10_civ_cbse_04_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a hypothetical election manifesto excerpt (3-4 bullet points) for the National People's Party (NPP) contesting in Meghalaya, reflecting its ideology of \"regional autonomy within national unity\" and its core support base among tribal communities in the Northeast.",
+    "answer": "A good answer includes points like: (1) Strengthening Sixth Schedule autonomy for tribal self-governance",
+    "options": [
+     "Yes, AAP qualifies under the first criterion: (1) 6%+ valid votes in at least four states (Delhi, Punjab, Goa, Gujarat) — satisfied",
+     "FPTP favors two parties when social cleavages are national (class, ideology). In India, social cleavages are territorial/regional (language, religion, caste, ethnicity)",
+     "A good answer includes points like: (1) Accountability autonomy for tribal self-governance",
+     "A good answer includes points like: (1) Strengthening Sixth Schedule autonomy for tribal self-governance"
+    ],
+    "hint": "Straight from the 'Major national political parties' slide -- match the key terms.",
+    "misconception": "A poor answer copies generic promises (jobs, roads) without linking to NPP's specific ideology of tribal autonomy and regional assertion within the Indian Union. This tests the ability to synthesize ideology into political communication — a creative application skill.",
+    "id": "gen_c10_civ_ch04_q12",
     "nodeId": "c10_civ_cbse_04_002",
     "difficulty": "standard"
    },
@@ -1022,7 +1168,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'party system' slide -- match the key terms.",
     "misconception": "A poor answer creates a two-party system ignoring social diversity, or a fragmented 20-party system with no coalition mechanism — showing inability to balance representation and stability.",
-    "id": "gen_c10_civ_ch04_q11",
+    "id": "gen_c10_civ_ch04_q13",
     "nodeId": "c10_civ_cbse_04_003",
     "difficulty": "advanced"
    },
@@ -1037,7 +1183,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'party system' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student equates \"stability\" with \"majority government\" and ignores representation-federalism trade-offs.",
-    "id": "gen_c10_civ_ch04_q12",
+    "id": "gen_c10_civ_ch04_q14",
     "nodeId": "c10_civ_cbse_04_003",
     "difficulty": "advanced"
    },
@@ -1052,8 +1198,23 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'National Party in India' slide -- match the key terms.",
     "misconception": "A poor answer gives only generic \"it's hard\" without citing specific thresholds or the alternative pathway.",
-    "id": "gen_c10_civ_ch04_q13",
+    "id": "gen_c10_civ_ch04_q15",
     "nodeId": "c10_civ_cbse_04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare the internal democracy deficit in a national party where the same family has held the top post for three generations (via unanimous \"elections\" with no rival candidates) versus a regional party where the founder-leader nominates all office-bearers but holds open primaries for candidate selection in 50% of",
+    "answer": "The national party with hereditary leadership poses greater long-term threat. Reasoning: (1) Scale of impact — national parties govern at Centre, set national agenda",
+    "options": [
+     "CPI(M)'s social base is primarily the rural and urban working class, peasants, and agricultural laborers, with historical geographical concentration in West Bengal, Kerala",
+     "Common principle: parties are public institutions accountable to citizens. Law Commission: statutory mandate for periodic organizational elections (legislative enforcement)",
+     "The national party with hereditary leadership poses greater long-term threat. Reasoning: (1) Scale of impact — national parties govern at Centre, set national agenda"
+    ],
+    "hint": "Straight from the 'Lack of internal democracy in' slide -- match the key terms.",
+    "misconception": "A wrong answer choosing the regional party because \"nominations are undemocratic\" ignores the *systemic normalization* of dynastic rule and the difference between a *complete facade* and *partial but real* democratic practice.",
+    "id": "gen_c10_civ_ch04_q16",
+    "nodeId": "c10_civ_cbse_04_005",
     "difficulty": "standard"
    },
    {
@@ -1067,7 +1228,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lack of internal democracy in' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"no elections\" without explaining the *causal link* to voter disconnect (e.g., \"workers feel ignored so they don't campaign\") shows superficial understanding — the student recalls features but cannot analyze functional consequences for the party-voter linkage (Class 9 concept).",
-    "id": "gen_c10_civ_ch04_q14",
+    "id": "gen_c10_civ_ch04_q17",
     "nodeId": "c10_civ_cbse_04_005",
     "difficulty": "standard"
    },
@@ -1082,22 +1243,7 @@ export const C10_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Political party reform' slide -- match the key terms.",
     "misconception": "A wrong answer conflating the two or missing the \"public institution\" principle shows failure to distinguish legislative vs judicial reform pathways.",
-    "id": "gen_c10_civ_ch04_q15",
-    "nodeId": "c10_civ_cbse_04_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Draft a two-clause constitutional amendment proposal that would make internal party democracy justiciable. Clause 1: define the right. Clause 2: specify the enforcement body.",
-    "answer": "Clause 1: \"Every registered political party shall hold periodic, free, and fair elections for all executive positions and candidate selection, open to all registered members",
-    "options": [
-     "(1) Representation: Parties aggregate diverse sectional interests (region, religion, class) into broad national coalitions",
-     "A good answer includes points like: (1) Strengthening Sixth Schedule autonomy for tribal self-governance",
-     "Clause 1: \"Every registered political party shall hold periodic, free, and fair elections for all executive positions and candidate selection, open to all registered members"
-    ],
-    "hint": "Straight from the 'Political party reform' slide -- match the key terms.",
-    "misconception": "A poor answer omits \"justiciable\" enforcement (e.g., only \"EC will monitor\") or forgets judicial review, showing ignorance of separation of powers.",
-    "id": "gen_c10_civ_ch04_q16",
+    "id": "gen_c10_civ_ch04_q18",
     "nodeId": "c10_civ_cbse_04_007",
     "difficulty": "advanced"
    }

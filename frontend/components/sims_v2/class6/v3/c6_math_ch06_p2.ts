@@ -8,7 +8,7 @@ export const c6_math_ch06_p2: SimDef = {
     subtitle: 'This node covers basic ratio representation and simple proportion problems using.',
     classLevel: 6, subject: 'mathematics', topic: 'Ratio and Proportion · Part 2/2',
     chapters: ['c6_math_ch06'],
-    nodeIds: ['c6_math_ch06_068', 'c6_math_ch06_069'],
+    nodeIds: ['c6_math_ch06_068', 'c6_math_ch06_062'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'If your mother uses 2 cups of sugar for a cake that serves 4 people, how much sugar do you need for 8 people?', goal: 'Master every idea in this chapter.' },

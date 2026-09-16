@@ -8,7 +8,7 @@ export const c6_economics_ch12: SimDef = {
     subtitle: 'Is an empty shop still a market?',
     classLevel: 6, subject: 'economics', topic: 'Understanding Markets',
     chapters: ['c6_economics_ch12'],
-    nodeIds: ['c6_economics_ch12_001', 'c6_economics_ch12_002', 'c6_economics_ch12_003', 'c6_economics_ch12_004', 'c6_economics_ch12_005', 'c6_economics_ch12_006'],
+    nodeIds: ['c6_economics_ch12_001', 'c6_economics_ch12_002', 'c6_economics_ch12_003', 'c6_economics_ch12_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a market-maker matching buyers with sellers', intro: 'One shop, zero customers; one app, a million trades. Your job is to figure out what a market really is — and it isn\'t a building.', goal: 'Define a market by the exchange — buyer, seller, price — not by walls and stalls.' },

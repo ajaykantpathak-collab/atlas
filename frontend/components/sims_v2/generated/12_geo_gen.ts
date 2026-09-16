@@ -684,6 +684,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate the statement: \"The quantitative revolution in human geography (1950s-60s) made the discipline more scientific but less human.\" Use the emergence of the three schools in the 1970s as evidence.",
+    "answer": "The statement is largely valid. The quantitative revolution applied physics-like laws and statistical models to map mappable patterns, but treated humans as abstract data points",
+    "options": [
+     "False. Settlement Geography (interface: Urban/Rural Planning) studies all settlements — rural and urban — their patterns, types, and evolution",
+     "The claim is flawed. NCERT Table 1.1 shows regional analysis (later colonial period) preceded the quantitative revolution (1950s-1960s) and the emergence of",
+     "The statement is largely valid. The quantitative revolution applied physics-like laws and statistical models to map mappable patterns, but treated humans as abstract data points"
+    ],
+    "hint": "Straight from the 'Human Geography' slide -- match the key terms.",
+    "misconception": "A wrong answer that praises quantitative revolution without acknowledging the disciplinary crisis it caused shows inability to evaluate methodological trade-offs in geography's evolution.",
+    "id": "gen_c12_geo_ch01_q15",
+    "nodeId": "c12_geo_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Given the table below showing two regions, identify which region exemplifies *naturalisation of humans* and which exemplifies *humanisation of nature*. Justify using technology level and environmental control.",
     "answer": "Region A = Naturalisation of humans. Low technology forces direct dependence: Benda's tribe follows forest cycles, worships nature spirits",
     "options": [
@@ -693,7 +708,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Human Geography' slide -- match the key terms.",
     "misconception": "A wrong answer swapping the regions reveals inability to link technology level to the direction of dominance in the human-environment relationship.",
-    "id": "gen_c12_geo_ch01_q15",
+    "id": "gen_c12_geo_ch01_q16",
     "nodeId": "c12_geo_cbse_01_001",
     "difficulty": "standard"
    },
@@ -708,7 +723,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Human Geography' slide -- match the key terms.",
     "misconception": "A wrong answer that treats neo-determinism as mere compromise without the *traffic light mechanism* (obey limits to enable sustainable progress) misses the operational core of the concept.",
-    "id": "gen_c12_geo_ch01_q16",
+    "id": "gen_c12_geo_ch01_q17",
     "nodeId": "c12_geo_cbse_01_001",
     "difficulty": "standard"
    },
@@ -724,21 +739,6 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Naturalisation of Humans' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Naturalisation — direct dependence, low technology, nature as provider.",
-    "id": "gen_c12_geo_ch01_q17",
-    "nodeId": "c12_geo_cbse_01_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the cultural landscapes created by Benda's shifting cultivation in Abujh Maad and Kari's glass-domed university campus in Trondheim. What does each landscape reveal about the society's technology level and relationship with nature?",
-    "answer": "Benda's landscape: temporary forest clearings, ash-fertilised patches, no permanent structures",
-    "options": [
-     "| Aspect | Benda (Determinism) | Kari (Possibilism) | |--------|----------------------|---------------------| | Technological Level | Very low (axe",
-     "Cultural Geography interfaces with Anthropology (study of cultures). Gender Geography interfaces with Sociology, Anthropology",
-     "Benda's landscape: temporary forest clearings, ash-fertilised patches, no permanent structures"
-    ],
-    "hint": "Straight from the 'Naturalisation of Humans' slide -- match the key terms.",
-    "misconception": "A weak answer that only lists physical differences misses the geographical reasoning: cultural landscape is the visible imprint of the society's technology-nature relationship.",
     "id": "gen_c12_geo_ch01_q18",
     "nodeId": "c12_geo_cbse_01_002",
     "difficulty": "advanced"
@@ -771,6 +771,7 @@ export const C12_GEO_GEN: SimDef[] = [
    "c12_geo_cbse_02_003",
    "c12_geo_cbse_02_004",
    "c12_geo_cbse_02_005",
+   "c12_geo_cbse_02_006",
    "c12_geo_cbse_02_007",
    "c12_geo_cbse_02_008",
    "c12_geo_cbse_02_009",
@@ -822,6 +823,12 @@ export const C12_GEO_GEN: SimDef[] = [
     "text": "Population growth refers to the change in the number of inhabitants of a territory over a specific period, driven by two components: natural increase (the difference between live births and deaths) and net migration (the difference between in-migration and",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Demographic Transition Theory",
+    "text": "Demographic Transition Theory describes the historical shift in a population from high birth and death rates to low birth and death rates as a society progresses from a rural, agrarian, and illiterate state to an urban, industrial, and literate one, occurring",
+    "emoji": "🌍",
+    "bgColor": "from-sky-400 to-cyan-500"
    },
    {
     "title": "Population Composition",
@@ -1045,6 +1052,69 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "EVALUATE: Critique the statement: *\"The Demographic Transition Theory is a universal law — every country will inevitably pass through all three stages in the same sequence and reach Stage III.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Verdict",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Agency and policy",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Structural constraints",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Reversibility",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who treats the theory as a prediction misses the evaluation competency.",
+    "id": "gen_c12_geo_ch02_q6",
+    "nodeId": "c12_geo_cbse_02_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Begin by asking the student to observe a local hospital or clinic: in their grandparents' generation, many children were born but few survived;",
+     "Connect this observation to the core idea of the transition — mortality declines first due to sanitation and medicine, while fertility declines later",
+     "Use the NCERT diagram (Fig 2.2) as a visual anchor: trace the CBR and CDR lines with a finger, noting where the gap (natural increase) is widest.",
+     "Then, classify India's current position (late Stage II / early Stage III) using recent CBR (~17) and CDR (~6) data from Sample Registration System."
+    ]
+   },
+   {
     "type": "math_input",
     "question": "Census 2011 data for a hypothetical district: Total population = 2,500,000; Males = 1,280,000; Females = 1,220,000. Calculate the sex ratio (females per 1,000 males). Show all steps.",
     "answer": "953.125",
@@ -1053,7 +1123,7 @@ export const C12_GEO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer such as 953 males per 1,000 females, or forgetting to multiply by 1,000 (giving 0.95), reveals either confusion between numerator/denominator or missing the scaling factor.",
-    "id": "gen_c12_geo_ch02_q6",
+    "id": "gen_c12_geo_ch02_q7",
     "nodeId": "c12_geo_cbse_02_007",
     "difficulty": "standard",
     "workedExample": [
@@ -1072,7 +1142,7 @@ export const C12_GEO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer using total population as denominator for literacy (28/50 = 56%) confuses crude literacy with effective literacy — a common error that underestimates human capital by including children under 7 who are not yet expected to be literate.",
-    "id": "gen_c12_geo_ch02_q7",
+    "id": "gen_c12_geo_ch02_q8",
     "nodeId": "c12_geo_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -1124,7 +1194,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer calling it \"Stage 3\" reveals misapplication of thresholds — ignoring that tertiary+quaternary+quinary must exceed 50% for post-industrial classification.",
-    "id": "gen_c12_geo_ch02_q8",
+    "id": "gen_c12_geo_ch02_q9",
     "nodeId": "c12_geo_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -1176,7 +1246,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., listing \"one-child norm\" or \"sterilisation targets\") reveals confusion with China's policy or the coercive Emergency-era Indian approach, indicating the student cannot distinguish voluntary, rights-based policies from top-down demographic engineering.",
-    "id": "gen_c12_geo_ch02_q9",
+    "id": "gen_c12_geo_ch02_q10",
     "nodeId": "c12_geo_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -1185,6 +1255,223 @@ export const C12_GEO_GEN: SimDef[] = [
      "Then introduce the sustainability lens: every additional person requires food, water, energy, and waste absorption — but the per-capita ecological",
      "8.1 gha in the USA)."
     ]
+   },
+   {
+    "type": "order",
+    "question": "ANALYZE: Compare the demographic transition trajectories of Japan (NCERT Stage III example) and Kenya (NCERT Stage II example). Japan completed its transition in ~100 years (1870–1970); Kenya entered Stage II only post-1950 and still has CBR ~30, CDR ~8 (2023).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The lesson",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Economy and urbanisation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Literacy and autonomy",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who simply says Kenya is poorer misses the specific mechanisms linking those correlates to the fertility decision.",
+    "id": "gen_c12_geo_ch02_q11",
+    "nodeId": "c12_geo_cbse_02_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "APPLY: Given the following vital rates for three hypothetical countries, identify the demographic transition stage for each and justify using *only* the CBR-CDR gap and socioeconomic correlates from the NCERT model.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Country C",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Country",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Country B",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The rule",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who calls country B stage three because its birth rate is lower ignores the magnitude of the gap.",
+    "id": "gen_c12_geo_ch02_q12",
+    "nodeId": "c12_geo_cbse_02_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "CREATE: Design a 4-panel storyboard (with captions) that teaches a Class 10 student the *causal mechanism* of the population explosion in Stage II. Panel 1: Stage I equilibrium.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Panel one",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Panel four",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Panel two",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Panel three",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who credits economic development for the mortality fall, or ignores the asset value of children, has not internalised the exogenous-versus-endogenous distinction.",
+    "id": "gen_c12_geo_ch02_q13",
+    "nodeId": "c12_geo_cbse_02_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "UNDERSTAND: The NCERT text states: \"Fertility remains high in the beginning of second stage but it declines with time. This is accompanied by reduced mortality rate. Improvements in sanitation and health conditions lead to decline in mortality.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Stage one",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Stage three",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Stage two",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The trigger distinction",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who says development reduces both rates simultaneously misses the sequential, lagged nature of the transition.",
+    "id": "gen_c12_geo_ch02_q14",
+    "nodeId": "c12_geo_cbse_02_006",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -1228,7 +1515,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. Evidence: (1) Sub-Saharan Africa's urbanization rate rose from 32% to 41% (2000-2020) but adult",
-    "id": "gen_c12_geo_ch02_q10",
+    "id": "gen_c12_geo_ch02_q15",
     "nodeId": "c12_geo_cbse_02_008",
     "difficulty": "advanced"
    },
@@ -1274,7 +1561,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing reveals confusion between demographic window (age structure) and demographic dividend (economic payoff from productive employment).",
-    "id": "gen_c12_geo_ch02_q11",
+    "id": "gen_c12_geo_ch02_q16",
     "nodeId": "c12_geo_cbse_02_009",
     "difficulty": "advanced"
    },
@@ -1342,7 +1629,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Total TFR decline = 3.4 - 2.0 = 1.4 over 20 years. Step 2: Annual decline rate = 1.",
-    "id": "gen_c12_geo_ch02_q12",
+    "id": "gen_c12_geo_ch02_q17",
     "nodeId": "c12_geo_cbse_02_010",
     "difficulty": "advanced"
    },
@@ -1388,85 +1675,9 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that equates TFR 2.1 with \"problem solved\" ignores the core geography insight: sustainability is about distribution and consumption patterns, not just aggregate numbers.",
-    "id": "gen_c12_geo_ch02_q13",
+    "id": "gen_c12_geo_ch02_q18",
     "nodeId": "c12_geo_cbse_02_010",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the role of water availability in shaping population distribution in the Nile Valley (Egypt) versus the Indus-Ganga-Brahmaputra plains (South Asia). How does the *nature* of water availability (single river vs. multiple perennial rivers fed by different mechanisms) create different distribution patterns?",
-    "answer": "The Nile Valley exhibits a linear, ribbon-like distribution tightly bound to a single exogenous river in a hyper-arid desert",
-    "options": [
-     "Nile Valley: arid climate but predictable flooding deposits fertile silt (renewed soil fertility), enabling intensive irrigation agriculture",
-     "Japan’s much higher physiological density indicates very limited cultivable land per person, forcing intensive farming, high yields, and heavy food imports",
-     "The Nile Valley exhibits a linear, ribbon-like distribution tightly bound to a single exogenous river in a hyper-arid desert"
-    ],
-    "hint": "Straight from the 'World population distribution' slide -- match the key terms.",
-    "misconception": "A wrong answer treating both as \"river valley civilizations\" without distinguishing linear vs. areal patterns misses how water *reliability* and *spatial extent* shape distribution geometry.",
-    "id": "gen_c12_geo_ch02_q14",
-    "nodeId": "c12_geo_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a choropleth map legend for world population distribution using five classes that effectively communicates both the extreme concentration (90% in 10% land) and the vast empty areas. Specify class intervals, color scheme rationale, and one annotation you would add to prevent misinterpretation.",
-    "answer": "Class intervals (persons/sq km): 0–2 (white/very light yellow — non-ecumene: deserts, ice caps, high mountains), 2–25 (light orange",
-    "options": [
-     "High-density: southern coastal plain (water + fertile soil + moderate climate + flat land). Low-density: northern river edge (water but limited arable land if steep banks)",
-     "Legend design: 5 classes using natural breaks (Jenks) to reflect India's bimodal distribution: (1) <40% (dark red) — \"Critical deficit\" (e",
-     "Class intervals (persons/sq km): 0–2 (white/very light yellow — non-ecumene: deserts, ice caps, high mountains), 2–25 (light orange"
-    ],
-    "hint": "Straight from the 'World population distribution' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Class intervals (persons/sq km): 0–2 (white/very light yellow — non-ecumene: deserts, ice caps, high mountains), 2–25",
-    "id": "gen_c12_geo_ch02_q15",
-    "nodeId": "c12_geo_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"Economic factors such as minerals and industrialization have become more important than geographical factors in determining modern population distribution.\" Support your judgment with two contrasting examples from different continents.",
-    "answer": "The claim is partially valid but overstated. In the Ruhr region (Germany) and the Kobe-Osaka belt (Japan)",
-    "options": [
-     "Stage 2 demographic transition features high birth rates and declining death rates, yielding a youthful, rapidly growing population",
-     "Physiological density divides population by net cultivable area, ignoring non‑arable land (deserts, mountains, urban built‑up)",
-     "The claim is partially valid but overstated. In the Ruhr region (Germany) and the Kobe-Osaka belt (Japan)"
-    ],
-    "hint": "Straight from the 'World population distribution' slide -- match the key terms.",
-    "misconception": "A wrong evaluation that ignores the Amazon/Siberia counterexamples shows failure to analyze the hierarchy of factors.",
-    "id": "gen_c12_geo_ch02_q16",
-    "nodeId": "c12_geo_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the statement \"Asia has many places where people are few and few places where people are very many\" (George B. Cressey) accurately describes global population distribution, using the concepts of ecumene and non-ecumene.",
-    "answer": "The statement reflects the dichotomy between ecumene (permanently inhabited areas) and non-ecumene (sparsely/uninhabited areas)",
-    "options": [
-     "The statement is FALSE. Demographic dividend requires not just a youthful population but productive employment in high-value sectors",
-     "Physiological density divides population by net cultivable area, ignoring non‑arable land (deserts, mountains, urban built‑up)",
-     "The statement reflects the dichotomy between ecumene (permanently inhabited areas) and non-ecumene (sparsely/uninhabited areas)"
-    ],
-    "hint": "Straight from the 'World population distribution' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats Asia as uniformly dense misses the core geographical concept that habitability, not continental size, determines distribution.",
-    "id": "gen_c12_geo_ch02_q17",
-    "nodeId": "c12_geo_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Given that Region A has an area of 250 sq km and a population of 375,000, and Region B has an area of 400 sq km and a population of 480,000, calculate the population density of each region.",
-    "answer": "Region A density = 375,000 / 250 = 1,500 persons/sq km. Region B density = 480,000 / 400 = 1,200 persons/sq km",
-    "options": [
-     "Class intervals (persons/sq km): 0–2 (white/very light yellow — non-ecumene: deserts, ice caps, high mountains), 2–25 (light orange",
-     "Axes: x-axis = population (or % of total), split left for males, right for females; y-axis = 5-year age cohorts from 0-4 to 80+",
-     "Tamil Nadu A density = 375,000 / 250 = 1,500 persons/sq km. Region B density = 480,000 / 400 = 1,200 persons/sq km",
-     "Region A density = 375,000 / 250 = 1,500 persons/sq km. Region B density = 480,000 / 400 = 1,200 persons/sq km"
-    ],
-    "hint": "Straight from the 'World population distribution' slide -- match the key terms.",
-    "misconception": "A wrong calculation (e.g., inverting the formula) or attributing the difference solely to minerals without considering landform constraints shows procedural or conceptual gaps.",
-    "id": "gen_c12_geo_ch02_q18",
-    "nodeId": "c12_geo_cbse_02_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -1781,6 +1992,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a village-level indicator dashboard that captures human development beyond economic growth. List five indicators, explain why each reflects a capability, and specify the data source for each.",
+    "answer": "Good answer includes: (1) Under-5 mortality rate (health capability) — NFHS data; (2) Mean years of schooling for women (education capability) — Census/ASER",
+    "options": [
+     "Correct matching: (a) → Education (lack of access to knowledge limits occupational choice); (b) → Access to resources (purchasing power deprivation limits health choice)",
+     "Activity: \"The Unread Notice.\" Distribute a handout with a fictional government scholarship notice written in a script N/A of the students know (e",
+     "Good answer includes: (1) Under-5 mortality rate (health capability) — NFHS data; (2) Mean years of schooling for women (education capability) — Census/ASER"
+    ],
+    "hint": "Straight from the 'Human development' slide -- match the key terms.",
+    "misconception": "A poor answer lists only income or infrastructure indicators, showing the student cannot operationalise the capability concept.",
+    "id": "gen_c12_geo_ch03_q8",
+    "nodeId": "c12_geo_cbse_03_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the following two statements and identify which is correct and why: Statement A: \"GDI is simply the HDI calculated separately for women and men, then averaged.\" Statement B: \"GDI uses the same dimension indices as HDI but applies an inequality-aversion penalty (harmonic mean of male/female indices) before",
     "answer": "Statement B is correct. GDI computes dimension indices for males and females separately, then takes the harmonic mean (not arithmetic mean) of each pair to penalize inequality",
     "options": [
@@ -1790,7 +2016,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gender-related Development Index' slide -- match the key terms.",
     "misconception": "A wrong choice reveals the student doesn't understand the mathematical purpose of harmonic mean in inequality-sensitive indices.",
-    "id": "gen_c12_geo_ch03_q8",
+    "id": "gen_c12_geo_ch03_q9",
     "nodeId": "c12_geo_cbse_03_007",
     "difficulty": "advanced"
    },
@@ -1805,7 +2031,22 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Human Development in India' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"poverty\" or \"illiteracy\" as causes fails to distinguish between proximate symptoms and deep structural drivers — a distinction board examiners expect in 5-mark \"analyze\" questions.",
-    "id": "gen_c12_geo_ch03_q9",
+    "id": "gen_c12_geo_ch03_q10",
+    "nodeId": "c12_geo_cbse_03_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a targeted intervention plan to raise the HDI of a hypothetical low-performing state (State Z: HDI 0.55, high infant mortality, female literacy 52%, per capita income $3,200 PPP) by 0.",
+    "answer": "Prioritize health (infant mortality) and female education — they have multiplicative effects on all three dimensions",
+    "options": [
+     "Expected criteria for a strong answer: (a) Prioritise *education* (mean/expected years schooling) — it has multiplier effects on health, fertility, and future income",
+     "Correct matching: (a) → Education (lack of access to knowledge limits occupational choice); (b) → Access to resources (purchasing power deprivation limits health choice)",
+     "Prioritize health (infant mortality) and female education — they have multiplicative effects on all three dimensions"
+    ],
+    "hint": "Straight from the 'Human Development in India' slide -- match the key terms.",
+    "misconception": "A poor answer proposes generic \"build more hospitals/schools\" without targeting the *binding constraint* (female agency) or using convergence — showing inability to translate HDI components into operational geography.",
+    "id": "gen_c12_geo_ch03_q11",
     "nodeId": "c12_geo_cbse_03_008",
     "difficulty": "advanced"
    }
@@ -3293,6 +3534,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A satellite image shows a landscape with: (i) geometric rectangular fields of uniform green in Punjab, (ii) irregular forest clearings with ash-enriched soil in Bastar, (iii) radial tracks converging on water points in western Rajasthan, (iv) terraced slopes with flooded paddies in Uttarakhand.",
+    "answer": "(i) Punjab rectangles → extensive commercial grain farming (wheat/rice). Physical: flat alluvial plain, fertile soil",
+    "options": [
+     "Good answer includes questions about: (1) primary source of protein (wild game vs. herd animals), (2) presence of domesticated animals, (3) mobility pattern (following game vs",
+     "1. North-West Europe: Netherlands — Holstein-Friesian; 2. North-Eastern USA: USA (Wisconsin, New York) — Holstein-Friesian; 3",
+     "(i) Punjab rectangles → extensive commercial grain farming (wheat/rice). Physical: flat alluvial plain, fertile soil"
+    ],
+    "hint": "Straight from the 'Primary activities' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (i) Punjab rectangles → extensive commercial grain farming (wheat/rice).",
+    "id": "gen_c12_geo_ch05_q9",
+    "nodeId": "c12_geo_cbse_05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the resource base and economic logic of two primary activities: (a) deep-shaft coal mining in Jharkhand's Dhanbad region, and (b) plantation tea cultivation in Assam's Brahmaputra Valley.",
     "answer": "Both are primary because they obtain value directly from nature without prior manufacturing: mining extracts a geological stock; plantation agriculture manages a biological flow",
     "options": [
@@ -3302,7 +3558,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Primary activities' slide -- match the key terms.",
     "misconception": "A student who says \"mining isn't primary because it uses machines\" confuses technology level with production order — mechanization does not change the activity's primary character.",
-    "id": "gen_c12_geo_ch05_q9",
+    "id": "gen_c12_geo_ch05_q10",
     "nodeId": "c12_geo_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3317,7 +3573,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Primary activities' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between \"working with natural materials\" and \"extracting natural materials\" — students often think any rural/traditional work is primary.",
-    "id": "gen_c12_geo_ch05_q10",
+    "id": "gen_c12_geo_ch05_q11",
     "nodeId": "c12_geo_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3332,7 +3588,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (A) Siberian tundra and (C) Central Australian desert — both have harsh climates, low agricultural potential, and",
-    "id": "gen_c12_geo_ch05_q11",
+    "id": "gen_c12_geo_ch05_q12",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3347,7 +3603,22 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "A student who says “both use similar tools” overlooks the fundamental distinction between extraction without alteration (hunting-gathering) and extensive but temporary alteration (shifting cultivation).",
-    "id": "gen_c12_geo_ch05_q12",
+    "id": "gen_c12_geo_ch05_q13",
+    "nodeId": "c12_geo_cbse_05_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple field-survey questionnaire (5 questions) that a researcher could use to distinguish a hunting-gathering camp from a pastoralist camp in a remote area.",
+    "answer": "Good answer includes questions about: (1) primary source of protein (wild game vs. herd animals), (2) presence of domesticated animals, (3) mobility pattern (following game vs",
+    "options": [
+     "(A) Siberian tundra and (C) Central Australian desert — both have harsh climates, low agricultural potential, and sparse wild resources that favour nomadic hunting-gathering",
+     "(i) Punjab rectangles → extensive commercial grain farming (wheat/rice). Physical: flat alluvial plain, fertile soil",
+     "Good answer includes questions about: (1) primary source of protein (wild game vs. herd animals), (2) presence of domesticated animals, (3) mobility pattern (following game vs"
+    ],
+    "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Good answer includes questions about: (1) primary source of protein (wild game vs.",
+    "id": "gen_c12_geo_ch05_q14",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3362,7 +3633,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "A wrong answer like “Punjab plains” or “Gangetic valley” reveals the student confuses hunting-gathering with settled agriculture and does not understand that this activity survives only in marginal, ecologically extreme areas where farming is difficult.",
-    "id": "gen_c12_geo_ch05_q13",
+    "id": "gen_c12_geo_ch05_q15",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3377,7 +3648,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "A wrong answer such as “they choose to have few children” shows the student misses the environmental determinism aspect — carrying capacity of the land limits population, not cultural preference alone.",
-    "id": "gen_c12_geo_ch05_q14",
+    "id": "gen_c12_geo_ch05_q16",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3392,53 +3663,23 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Correct evaluation: For disappearance — encroachment of commercial logging/mining, government settlement policies,",
-    "id": "gen_c12_geo_ch05_q15",
+    "id": "gen_c12_geo_ch05_q17",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Design a dairy development plan for a hypothetical district in central India (Madhya Pradesh) with 5000 crossbred cows, 50 km from a tier-2 city, poor roads, and erratic electricity. Specify: (a) collection model, (b) chilling infrastructure, (c) breed strategy, (d) market linkage.",
-    "answer": "(a) Village-level Dairy Cooperative Societies (DCS) with electronic milk testers (fat/SNF) — transparent, reduces spoilage risk",
+    "question": "Given a climate graph for a station in the Canadian Prairies (e.g., Regina: annual precipitation 390 mm, summer max 26°C, winter min -20°C), explain whether it supports extensive wheat farming and why.",
+    "answer": "Step 1: Identify the climate type: semi-arid continental (BSk). Step 2: Check precipitation: 390 mm falls within the 250–750 mm range for wheat",
     "options": [
+     "Good answer: 6 ha dairy (300 cows, biogas from dung → electricity for cold storage), 3 ha truck farming (leafy greens, compost from digested slurry → organic fertiliser)",
      "(A) Siberian tundra and (C) Central Australian desert — both have harsh climates, low agricultural potential, and sparse wild resources that favour nomadic hunting-gathering",
-     "(i) Punjab rectangles → extensive commercial grain farming (wheat/rice). Physical: flat alluvial plain, fertile soil",
-     "(a) Village-level Dairy Cooperative Societies (DCS) with electronic milk testers (fat/SNF) — transparent, reduces spoilage risk"
+     "Step 1: Identify the climate type: semi-arid continental (BSk). Step 2: Check precipitation: 390 mm falls within the 250–750 mm range for wheat"
     ],
-    "hint": "Straight from the 'Dairy farming' slide -- match the key terms.",
-    "misconception": "A poor answer proposing \"large automated farm\" ignores smallholder reality and capital constraints.",
-    "id": "gen_c12_geo_ch05_q16",
-    "nodeId": "c12_geo_cbse_05_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "On an outline world map, mark and label the four major dairy farming regions. For each, name one representative country and the dominant breed used there.",
-    "answer": "1. North-West Europe: Netherlands — Holstein-Friesian; 2. North-Eastern USA: USA (Wisconsin, New York) — Holstein-Friesian; 3",
-    "options": [
-     "(a) Village-level Dairy Cooperative Societies (DCS) with electronic milk testers (fat/SNF) — transparent, reduces spoilage risk",
-     "(A) Siberian tundra and (C) Central Australian desert — both have harsh climates, low agricultural potential, and sparse wild resources that favour nomadic hunting-gathering",
-     "1. North-West Europe: Netherlands — Holstein-Friesian; 2. North-Eastern USA: USA (Wisconsin, New York) — Holstein-Friesian; 3"
-    ],
-    "hint": "Straight from the 'Dairy farming' slide -- match the key terms.",
-    "misconception": "A wrong map placing dairy in Sahel or Amazon reveals misunderstanding of climate-breed-market triad.",
-    "id": "gen_c12_geo_ch05_q17",
-    "nodeId": "c12_geo_cbse_05_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why do the major dairy regions of the world (NW Europe, NE USA, SE Australia, New Zealand) all lie in temperate latitudes between 40°–60° N/S? Explain the climatic and vegetation link.",
-    "answer": "Temperate latitudes provide: (a) cool, moist climate ideal for high-yield exotic breeds (Holstein-Friesian, Jersey) which suffer heat stress above 25°C",
-    "options": [
-     "Because wild resources are dispersed and unpredictable; a large area is needed to support even a small group",
-     "(a) Village-level Dairy Cooperative Societies (DCS) with electronic milk testers (fat/SNF) — transparent, reduces spoilage risk",
-     "Temperate latitudes provide: (a) cool, moist climate ideal for high-yield exotic breeds (Holstein-Friesian, Jersey) which suffer heat stress above 25°C"
-    ],
-    "hint": "Straight from the 'Dairy farming' slide -- match the key terms.",
-    "misconception": "A wrong answer citing \"tropical climate\" or \"monsoon rains\" reveals failure to link breed physiology and fodder ecology to latitude.",
+    "hint": "Straight from the 'Extensive commercial grain farming' slide -- match the key terms.",
+    "misconception": "A wrong answer might misinterpret low precipitation as unsuitable, ignoring that wheat is drought-tolerant and the region uses summer fallow to conserve moisture.",
     "id": "gen_c12_geo_ch05_q18",
-    "nodeId": "c12_geo_cbse_05_009",
+    "nodeId": "c12_geo_cbse_05_007",
     "difficulty": "standard"
    }
   ],
@@ -3862,6 +4103,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A manufacturing unit in Pune employs 120 workers, has ₹75 crore invested in plant and machinery, produces 50,000 units/month of automotive components using CNC machines, and supplies to two major OEMs. Classify this unit as household, small-scale, or large-scale. Justify using three quantitative criteria.",
+    "answer": "Large-scale industry. Step 1: Labour = 120 workers (>100 threshold for large-scale in many state industrial policies)",
+    "options": [
+     "Expected criteria (any valid state-level measures): (a) Technology: Subsidised tool-room access / common facility centre for CNC machines (state industrial dept)",
+     "Site A. Mango pulp production has a material index >1 (fresh mangoes ~85% water, pulp ~30% water; 3-4 kg mangoes yield 1 kg pulp)",
+     "Large-scale industry. Step 1: Labour = 120 workers (>100 threshold for large-scale in many state industrial policies)"
+    ],
+    "hint": "Straight from the 'Large-scale industries' slide -- match the key terms.",
+    "misconception": "A wrong classification as \"small-scale\" shows the student is using only one criterion (e.g., workforce <500) and ignoring the capital threshold that legally defines the category.",
+    "id": "gen_c12_geo_ch06_q10",
+    "nodeId": "c12_geo_cbse_06_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the backward and forward linkages of a large-scale integrated steel plant (like Tata Steel Jamshedpur) with a small-scale steel re-rolling mill. How does this difference affect regional economic development?",
     "answer": "An integrated steel plant creates backward linkages to iron ore mines, coal washeries, machinery manufacturers, and refractory brick units, and forward linkages to automotive",
     "options": [
@@ -3871,8 +4127,23 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Large-scale industries' slide -- match the key terms.",
     "misconception": "A weak answer that says \"both create jobs\" misses the multiplier effect and agglomeration economies that are central to large-scale industry's role in regional development (Hirschman's unbalanced growth theory).",
-    "id": "gen_c12_geo_ch06_q10",
+    "id": "gen_c12_geo_ch06_q11",
     "nodeId": "c12_geo_cbse_06_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A furniture manufacturer is deciding between two sites: Site A is 20 km from a metropolitan market (population 5 million) but has poor road connectivity; Site B is 80 km from the same market but lies on a four-lane highway and a freight rail line.",
+    "answer": "Step 1: Define cost distance = monetary expense of moving one unit of product from factory to market",
+    "options": [
+     "Large-scale industry. Step 1: Labour = 120 workers (>100 threshold for large-scale in many state industrial policies)",
+     "Matrix (weights: 5=critical): - Port access for imported raw materials + export: 5 (Mundra, Krishnapatnam, Tuticorin",
+     "Step 1: Define cost distance = monetary expense of moving one unit of product from factory to market"
+    ],
+    "hint": "Straight from the 'Market, transport, and capital' slide -- match the key terms.",
+    "misconception": "A wrong choice of Site A reveals the student equates \"km distance\" with \"cost distance\" and ignores transport quality.",
+    "id": "gen_c12_geo_ch06_q12",
+    "nodeId": "c12_geo_cbse_06_007",
     "difficulty": "standard"
    },
    {
@@ -3886,7 +4157,22 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Major Industrial Regions of the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Similarities: (1) Both anchored on massive coal basins (Appalachian/US interior coal vs.",
-    "id": "gen_c12_geo_ch06_q11",
+    "id": "gen_c12_geo_ch06_q13",
+    "nodeId": "c12_geo_cbse_06_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a 4-step decision framework for a multinational corporation choosing between locating a new electric vehicle battery plant in (A) the Ruhr region (Germany) or (B) the Great Lakes region (USA). Your framework must use locational factors from c12_geo_cbse_06_006 and c12_geo_cbse_06_007.",
+    "answer": "Good answer framework: Step 1: Map factor requirements — battery plants need lithium/cobalt/nickel (imported), cheap renewable electricity, skilled chemical engineers",
+    "options": [
+     "Site A. Mango pulp production has a material index >1 (fresh mangoes ~85% water, pulp ~30% water; 3-4 kg mangoes yield 1 kg pulp)",
+     "Correct mapping and factors: (a) Great Lakes — southern shore of Lake Michigan/Lake Erie (Chicago, Detroit, Pittsburgh)",
+     "Good answer framework: Step 1: Map factor requirements — battery plants need lithium/cobalt/nickel (imported), cheap renewable electricity, skilled chemical engineers"
+    ],
+    "hint": "Straight from the 'Major Industrial Regions of the' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Good answer framework: Step 1: Map factor requirements — battery plants need lithium/cobalt/nickel (imported), cheap",
+    "id": "gen_c12_geo_ch06_q14",
     "nodeId": "c12_geo_cbse_06_008",
     "difficulty": "advanced"
    },
@@ -3901,7 +4187,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Major Industrial Regions of the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Correct mapping and factors: (a) Great Lakes — southern shore of Lake Michigan/Lake Erie (Chicago, Detroit, Pittsburgh)",
-    "id": "gen_c12_geo_ch06_q12",
+    "id": "gen_c12_geo_ch06_q15",
     "nodeId": "c12_geo_cbse_06_008",
     "difficulty": "advanced"
    },
@@ -3916,7 +4202,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Agro-based industries' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Shared: both need quality water, reliable power, effluent treatment, and access to urban market.",
-    "id": "gen_c12_geo_ch06_q13",
+    "id": "gen_c12_geo_ch06_q16",
     "nodeId": "c12_geo_cbse_06_009",
     "difficulty": "advanced"
    },
@@ -3931,7 +4217,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Agro-based industries' slide -- match the key terms.",
     "misconception": "A student who calls it \"fully effective\" ignores spatial mismatch between infrastructure nodes and production geography.",
-    "id": "gen_c12_geo_ch06_q14",
+    "id": "gen_c12_geo_ch06_q17",
     "nodeId": "c12_geo_cbse_06_009",
     "difficulty": "advanced"
    },
@@ -3946,23 +4232,8 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Agro-based industries' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) 30-40 km radius (jackfruit is bulky, 70-80% waste, highly perishable once cut).",
-    "id": "gen_c12_geo_ch06_q15",
+    "id": "gen_c12_geo_ch06_q18",
     "nodeId": "c12_geo_cbse_06_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "\"India's digital divide is primarily a rural-urban gap.\" Evaluate this statement using evidence on intra-urban inequality, gender, and caste dimensions of ICT access.",
-    "answer": "The statement is incomplete. While rural-urban divide exists (NFHS-5: 73% urban vs 42% rural women ever used internet)",
-    "options": [
-     "Correct mapping and factors: (a) Great Lakes — southern shore of Lake Michigan/Lake Erie (Chicago, Detroit, Pittsburgh)",
-     "Good answer framework: Step 1: Map factor requirements — battery plants need lithium/cobalt/nickel (imported), cheap renewable electricity, skilled chemical engineers",
-     "The statement is incomplete. While rural-urban divide exists (NFHS-5: 73% urban vs 42% rural women ever used internet)"
-    ],
-    "hint": "Straight from the 'High-tech industries' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is incomplete. While rural-urban divide exists (NFHS-5: 73% urban vs 42% rural women ever used internet),",
-    "id": "gen_c12_geo_ch06_q16",
-    "nodeId": "c12_geo_cbse_06_011",
     "difficulty": "advanced"
    }
   ],
@@ -6153,6 +6424,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "EVALUATE: \"Beti Bachao Beti Padhao (BBBP) launched in 2015 has successfully reversed the declining child sex ratio trend in Haryana.\" Critically evaluate this statement using Census 2011 vs. NFHS-5 (2019–21) data and implementation challenges.",
+    "answer": "NFHS-5 shows Haryana’s sex ratio at birth improved from 834 (NFHS-4, 2015–16) to 914 (NFHS-5) — a significant gain",
+    "options": [
+     "The statement is partially true but misleading. Small area inflates arithmetic density, but UTs like Delhi, Chandigarh",
+     "(a) Kerala’s narrow base = low fertility (TFR ~1.8), advanced demographic transition (Phase IV); Bihar’s wide base = high fertility (TFR ~3",
+     "NFHS-5 shows Haryana’s sex ratio at birth improved from 834 (NFHS-4, 2015–16) to 914 (NFHS-5) — a significant gain"
+    ],
+    "hint": "Straight from the 'Age structure' slide -- match the key terms.",
+    "misconception": "a wrong answer reveals: Citing only NFHS-5 headline number without methodological caveats; ignoring that Census 2021 is delayed so no post-2011 universal data exists; treating scheme launch as outcome. Evaluation requires triangulating sources — a CUET/UPSC skill.",
+    "id": "gen_c12_geo_ch09_q10",
+    "nodeId": "c12_geo_cbse_09_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "UNDERSTAND: The child sex ratio (0–6 years) in India dropped from 945 (1991) to 927 (2001) to 919 (2011) while the overall sex ratio improved slightly from 927 to 943 in the same period. Explain *why* these two ratios can move in opposite directions.",
     "answer": "Overall sex ratio reflects cumulative mortality/migration history of all cohorts; it improves when female life expectancy rises faster than male (as seen post-1990)",
     "options": [
@@ -6162,8 +6448,38 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Age structure' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: Attributing the decline solely to \"female infanticide\" misses the dominant role of prenatal technology (ultrasound) post-1980s. Confusing the two ratios shows inability to disaggregate cohort effects — a conceptual gap for JEE/NEET demography questions.",
-    "id": "gen_c12_geo_ch09_q10",
+    "id": "gen_c12_geo_ch09_q11",
     "nodeId": "c12_geo_cbse_09_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a migration data collection framework for a district-level study that captures seasonal/circular migration missed by the Census (which uses place of last residence at a fixed date).",
+    "answer": "(a) Variables: (i) Duration of stay at destination per trip (days/months), (ii) Frequency of return trips per year, (iii) Remittance amount and channel (formal/informal)",
+    "options": [
+     "Expected answer criteria: (1) % of PHCs with 24/7 delivery services and trained staff (immediate objective: infrastructure)",
+     "The statement is reductionist. Punjab has lower population density (551) than Bihar (1102) but far higher per-capita resource consumption (groundwater for rice-wheat, fertilizer",
+     "(a) Variables: (i) Duration of stay at destination per trip (days/months), (ii) Frequency of return trips per year, (iii) Remittance amount and channel (formal/informal)"
+    ],
+    "hint": "Straight from the 'Migration in India' slide -- match the key terms.",
+    "misconception": "A poor answer replicates Census questions or suggests one-time surveys, missing the temporal dimension of circular migration.",
+    "id": "gen_c12_geo_ch09_q12",
+    "nodeId": "c12_geo_cbse_09_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a state-level implementation checklist for NPP 2000's 'decentralized planning' strategy that a District Collector could use. Include 5 measurable indicators linking health infrastructure, gender equity, and community participation.",
+    "answer": "Expected answer criteria: (1) % of PHCs with 24/7 delivery services and trained staff (immediate objective: infrastructure)",
+    "options": [
+     "Overall sex ratio reflects cumulative mortality/migration history of all cohorts; it improves when female life expectancy rises faster than male (as seen post-1990)",
+     "Expected answer (criteria for a good response): Prong 1 — *Silver Economy Skilling*: Train 50,000 women (45–59) in geriatric care, home nursing, palliative support by 2027",
+     "Expected answer criteria: (1) % of PHCs with 24/7 delivery services and trained staff (immediate objective: infrastructure)"
+    ],
+    "hint": "Straight from the 'National Population Policy  2000' slide -- match the key terms.",
+    "misconception": "A poor answer lists only health inputs (doctors, beds) ignoring gender and community pillars — revealing a biomedical rather than socio-demographic understanding of NPP 2000's multi-sectoral design.",
+    "id": "gen_c12_geo_ch09_q13",
+    "nodeId": "c12_geo_cbse_09_010",
     "difficulty": "advanced"
    }
   ],
@@ -6186,7 +6502,8 @@ export const C12_GEO_GEN: SimDef[] = [
   "subject": "geography",
   "topic": "Urban Settlements In India",
   "chapters": [
-   "Geography Ch10: Urban Settlements In India"
+   "Geography Ch10: Urban Settlements In India",
+   "Geography Ch11: Urban Settlements In India"
   ],
   "nodeIds": [
    "c12_geo_cbse_10_001",
@@ -6198,7 +6515,8 @@ export const C12_GEO_GEN: SimDef[] = [
    "c12_geo_cbse_10_007",
    "c12_geo_cbse_10_008",
    "c12_geo_cbse_10_009",
-   "c12_geo_cbse_10_010"
+   "c12_geo_cbse_10_010",
+   "c12_geo_cbse_11_012"
   ],
   "emoji": "🌍",
   "theme": {
@@ -6276,6 +6594,12 @@ export const C12_GEO_GEN: SimDef[] = [
     "text": "The Smart Cities Mission (launched 2015) is a Government of India urban renewal program that selects 100 cities through a competitive challenge to develop core infrastructure (water, electricity, sanitation, mobility, housing, IT connectivity, governance,",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Food Security In India",
+    "text": "Food security in India refers to the state where all citizens have physical, social, and economic access to sufficient, safe, and nutritious food at all times; the Public Distribution System (PDS) is the government-run network of fair price shops that",
+    "emoji": "🌍",
+    "bgColor": "from-indigo-400 to-blue-500"
    }
   ],
   "challenges": [
@@ -6683,6 +7007,27 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "mcq",
+    "question": "Why did India shift from a Universal PDS to a Targeted PDS (TPDS) in 1997, and what geographical criterion was used for initial targeting?",
+    "answer": "The shift aimed to reduce the fiscal burden of food subsidies and ensure grains reached the truly needy",
+    "options": [
+     "The decline is due to the base effect: as the urban population base becomes larger, the same absolute increase yields a lower percentage growth",
+     "The statement is false. Slowing growth rate reflects base effect and temporary migration slowdown, not transition completion",
+     "The shift aimed to reduce the fiscal burden of food subsidies and ensure grains reached the truly needy"
+    ],
+    "hint": "Straight from the 'Food security in India' slide -- match the key terms.",
+    "misconception": "A wrong answer citing \"corruption reduction\" as the primary driver confuses a symptom with the policy motive; the 1997 shift was explicitly budget-driven (subsidy containment), though leakage reduction was a stated co-objective.",
+    "id": "gen_c12_geo_ch10_q11",
+    "nodeId": "c12_geo_cbse_11_012",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine standing outside a Fair Price Shop in your village or city early morning: you see ration cards being swiped on an e-PoS machine, biometric",
+     "This is the last mile of a massive logistical chain that starts with the government announcing Minimum Support Prices (MSP) for wheat and rice, FCI",
+     "Connect this to what you learned in c12_geo_cbse_11_010 (Green Revolution) — the surplus production made PDS possible — and c12_geo_cbse_11_006/007",
+     "The key geographical principle: food security is a spatial problem of moving surplus from production regions (Northwest) to consumption regions"
+    ]
+   },
+   {
     "type": "order",
     "question": "Design a settlement map legend for a topographical sheet (1:50,000) that distinguishes the four rural settlement types using standard SOI symbols. Explain how you would identify each type from contour patterns and drainage.",
     "sortItems": [
@@ -6735,7 +7080,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Legend: (1) Clustered: dense nucleation symbol (●) on flat contour-spaced land near perennial streams.",
-    "id": "gen_c12_geo_ch10_q11",
+    "id": "gen_c12_geo_ch10_q12",
     "nodeId": "c12_geo_cbse_10_001",
     "difficulty": "standard"
    },
@@ -6781,7 +7126,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., citing only population size or using 75% total workers instead of male main workers) reveals the student has memorised fragments without understanding the precise Census definition — a common error in 1-mark board questions.",
-    "id": "gen_c12_geo_ch10_q12",
+    "id": "gen_c12_geo_ch10_q13",
     "nodeId": "c12_geo_cbse_10_001",
     "difficulty": "standard"
    },
@@ -6838,7 +7183,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer proposes only road widening (induced demand) or ignores spatial distribution of origins/destinations.",
-    "id": "gen_c12_geo_ch10_q13",
+    "id": "gen_c12_geo_ch10_q14",
     "nodeId": "c12_geo_cbse_10_008",
     "difficulty": "advanced"
    },
@@ -6884,7 +7229,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that calls it \"fully successful\" ignores exclusion and long-term maintenance issues.",
-    "id": "gen_c12_geo_ch10_q14",
+    "id": "gen_c12_geo_ch10_q15",
     "nodeId": "c12_geo_cbse_10_008",
     "difficulty": "advanced"
    },
@@ -6952,7 +7297,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer includes: (1) Solar mini-grid + battery storage (grid extension uneconomical due to low density and",
-    "id": "gen_c12_geo_ch10_q15",
+    "id": "gen_c12_geo_ch10_q16",
     "nodeId": "c12_geo_cbse_10_009",
     "difficulty": "advanced"
    },
@@ -6998,7 +7343,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer: (i) Sensors: (a) Bulk flow meters at DMA inlets (water), (b) GPS+ETM on buses (mobility), (c) Low-cost PM2.",
-    "id": "gen_c12_geo_ch10_q16",
+    "id": "gen_c12_geo_ch10_q17",
     "nodeId": "c12_geo_cbse_10_010",
     "difficulty": "advanced"
    },
@@ -7013,21 +7358,6 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'human settlement' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it semi-clustered or dispersed) shows the student cannot link physical geography (flat, fertile terrain) to settlement morphology — a core Class 12 skill.",
-    "id": "gen_c12_geo_ch10_q17",
-    "nodeId": "c12_geo_cbse_10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the factors leading to dispersed settlements in the north-eastern hills (e.g., Nagaland) with those in the Thar Desert of Rajasthan. Why do both produce dispersed patterns despite opposite climates?",
-    "answer": "In Nagaland (Fig. 2.3), extreme terrain fragmentation and limited habitable land on slopes force isolated huts",
-    "options": [
-     "Pre-independence: low urbanisation (10.84% → 17.29%), driven by colonial port cities (Mumbai, Kolkata, Chennai) and administrative centres; growth rate volatile (0",
-     "Correct analysis: A town like Mahabaleshwar has a single dominant function (tourism) and limited administrative powers (municipal council)",
-     "In Nagaland (Fig. 2.3), extreme terrain fragmentation and limited habitable land on slopes force isolated huts"
-    ],
-    "hint": "Straight from the 'human settlement' slide -- match the key terms.",
-    "misconception": "A wrong answer treating both as \"hilly terrain\" or \"low rainfall\" misses the nuanced geography — a typical analysis error in 3-mark questions.",
     "id": "gen_c12_geo_ch10_q18",
     "nodeId": "c12_geo_cbse_10_001",
     "difficulty": "standard"
@@ -7467,6 +7797,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "The Cauvery basin covers ~81,000 km² with Karnataka (upstream) and Tamil Nadu (downstream) as major riparian states. If Karnataka builds a new reservoir storing 50 TMC (thousand million cubic feet) of water that would otherwise flow to Tamil Nadu, and Tamil Nadu's existing irrigation depends on 400 TMC annual flow,",
+    "answer": "Percentage reduction = (50/400) × 100 = 12.5% reduction. This triggers dispute because: (1) Tamil Nadu's agriculture (especially delta paddy) is adapted to historical flow",
+    "options": [
+     "Benefit: Pricing water volumetrically incentivises efficient use (e.g., adoption of drip irrigation), reduces waste, and generates revenue for infrastructure maintenance",
+     "A good infographic flows: 4,000 km³ precipitation → (evaporation, transpiration, runoff) → 1,869 km³ available surface + groundwater → 60% utilizable = 1,122 km³ → split:",
+     "Percentage reduction = (50/400) × 100 = 12.5% reduction. This triggers dispute because: (1) Tamil Nadu's agriculture (especially delta paddy) is adapted to historical flow"
+    ],
+    "hint": "Straight from the 'Inter-state water disputes' slide -- match the key terms.",
+    "misconception": "A wrong answer treating this as purely a math problem misses the geographical reasoning: disputes arise from the interaction of hydrological variability, established water rights, and the timing of flow reduction relative to crop calendars.",
+    "id": "gen_c12_geo_ch12_q15",
+    "nodeId": "c12_geo_cbse_12_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the environmental impacts of a Himalayan dam (e.g., Tehri on Bhagirathi) and a Peninsular dam (e.g., Almatti on Krishna) in terms of sedimentation rate, seismic risk, and downstream delta effects.",
     "answer": "Himalayan dam (Tehri): High sedimentation due to young, eroding mountains; high seismic risk (Zone IV-V)",
     "options": [
@@ -7476,7 +7821,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dams' slide -- match the key terms.",
     "misconception": "A wrong answer that treats both as similar ignores the geomorphic and tectonic differences critical for board exam \"compare and contrast\" questions.",
-    "id": "gen_c12_geo_ch12_q15",
+    "id": "gen_c12_geo_ch12_q16",
     "nodeId": "c12_geo_cbse_12_011",
     "difficulty": "advanced"
    }
@@ -7946,6 +8291,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate the statement: \"India's petroleum reserves are located only in Assam and Gujarat.\" Is this accurate as of current knowledge? Justify with basin names and geological setting.",
+    "answer": "Correct evaluation: The statement is outdated/incomplete. Petroleum occurs in sedimentary basins of: (1) Assam-Arakan Basin (Digboi, Naharkatiya, Moran",
+    "options": [
+     "The statement is false. Lignite (2,500-3,000 kcal/kg) requires 2-3× mass vs bituminous coal (4,500-5,500 kcal/kg) for same energy, increasing handling, transport",
+     "Lead and zinc occur together because they have similar geochemical behaviour (chalcophile elements) and precipitate from the same hydrothermal fluids in sedimentary exhalative",
+     "Correct evaluation: The statement is outdated/incomplete. Petroleum occurs in sedimentary basins of: (1) Assam-Arakan Basin (Digboi, Naharkatiya, Moran"
+    ],
+    "hint": "Straight from the 'Mineral resources in India' slide -- match the key terms.",
+    "misconception": "A wrong answer omitting Mumbai High or the east coast basins reveals reliance on older textbook editions without updating for post-1973 discoveries — a common board exam trap.",
+    "id": "gen_c12_geo_ch13_q9",
+    "nodeId": "c12_geo_cbse_13_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "On an outline map of India, a student marks the following coal fields: (a) Jharia, (b) Raniganj, (c) Singrauli, (d) Korba, (e) Talcher. Identify which river valley each belongs to: Damodar, Godavari, Mahanadi, Sone. Explain the geological age of these coal deposits.",
     "answer": "Correct mapping: Jharia & Raniganj → Damodar Valley (Jharkhand-West Bengal); Singrauli → Sone Valley (Madhya Pradesh-Uttar Pradesh); Korba → Mahanadi Valley (Chhattisgarh)",
     "options": [
@@ -7955,7 +8315,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mineral resources in India' slide -- match the key terms.",
     "misconception": "A wrong answer placing Singrauli in Damodar or Talcher in Godavari reveals the student memorised names without understanding the structural control: Gondwana coal occurs in linear rift valleys along the Damodar-Sone-Mahanadi-Godavari lineament, not randomly scattered.",
-    "id": "gen_c12_geo_ch13_q9",
+    "id": "gen_c12_geo_ch13_q10",
     "nodeId": "c12_geo_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7970,7 +8330,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
     "misconception": "A student who says \"both are in Dharwar rocks\" is partially wrong — Khetri is in the Aravalli Supergroup, not Dharwar.",
-    "id": "gen_c12_geo_ch13_q10",
+    "id": "gen_c12_geo_ch13_q11",
     "nodeId": "c12_geo_cbse_13_004",
     "difficulty": "advanced"
    },
@@ -7985,7 +8345,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
     "misconception": "A poor answer suggests only \"soil sampling\" without structural control, missing the Indian context where cover is thick and structures are key.",
-    "id": "gen_c12_geo_ch13_q11",
+    "id": "gen_c12_geo_ch13_q12",
     "nodeId": "c12_geo_cbse_13_004",
     "difficulty": "advanced"
    },
@@ -8000,7 +8360,22 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Critical factors: (1) Low average grade of Indian copper ore (~0.8-1% Cu) vs.",
-    "id": "gen_c12_geo_ch13_q12",
+    "id": "gen_c12_geo_ch13_q13",
+    "nodeId": "c12_geo_cbse_13_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Name the three major copper mining belts in India and the states they are located in.",
+    "answer": "The three major copper mining belts are: (1) Singhbhum district in Jharkhand, (2) Khetri-Jhunjhunu-Alwar belt in Rajasthan, and (3) Malanjkhand-Balaghat belt in Madhya Pradesh",
+    "options": [
+     "Lead and zinc occur together because they have similar geochemical behaviour (chalcophile elements) and precipitate from the same hydrothermal fluids in sedimentary exhalative",
+     "Critical factors: (1) Low average grade of Indian copper ore (~0.8-1% Cu) vs. global average (~0.6% but with massive tonnage in porphyry deposits like Chile)",
+     "The three major copper mining belts are: (1) Singhbhum district in Jharkhand, (2) Khetri-Jhunjhunu-Alwar belt in Rajasthan, and (3) Malanjkhand-Balaghat belt in Madhya Pradesh"
+    ],
+    "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., listing Kolar or Bailadila) reveals confusion between ferrous (iron) and non-ferrous belts, or inability to distinguish copper from gold/minor copper occurrences like Agnigundala.",
+    "id": "gen_c12_geo_ch13_q14",
     "nodeId": "c12_geo_cbse_13_004",
     "difficulty": "advanced"
    },
@@ -8015,7 +8390,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
     "misconception": "A wrong explanation citing \"higher grade\" for Malanjkhand reveals misunderstanding of porphyry vs. vein deposit economics.",
-    "id": "gen_c12_geo_ch13_q13",
+    "id": "gen_c12_geo_ch13_q15",
     "nodeId": "c12_geo_cbse_13_004",
     "difficulty": "advanced"
    },
@@ -8030,8 +8405,23 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"Dharwar system\" for Zawar shows confusion between the copper-hosting Dharwar rocks (Singhbhum, Khetri) and the younger Aravalli sequence hosting lead-zinc.",
-    "id": "gen_c12_geo_ch13_q14",
+    "id": "gen_c12_geo_ch13_q16",
     "nodeId": "c12_geo_cbse_13_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A cement plant in Satna (Madhya Pradesh) sources limestone from the nearby Kaimur range. Using the geological map of India, identify the rock formation (group) this limestone belongs to and state its geological age.",
+    "answer": "Steps: (1) Locate Satna in MP on the Vindhyan range. (2) Recall that the Vindhyan Supergroup (Sandstone, Limestone, Shale) of Proterozoic age hosts extensive limestone",
+    "options": [
+     "(a) Induced Polarisation (IP) for disseminated sulphides and Magnetics for mapping shear zones; (b) Pathfinders: Arsenic (As) and Antimony (Sb) for lead-zinc",
+     "Expected answer: Outline map of India with (a) Limestone: shaded patches in Rajasthan (Jaisalmer, Chittorgarh), MP (Satna, Katni), AP (Cuddapah), Karnataka (Gulbarga)",
+     "Steps: (1) Locate Satna in MP on the Vindhyan range. (2) Recall that the Vindhyan Supergroup (Sandstone, Limestone, Shale) of Proterozoic age hosts extensive limestone"
+    ],
+    "hint": "Straight from the 'Non-metallic minerals' slide -- match the key terms.",
+    "misconception": "Wrong answer \"Gondwana\" indicates confusion with coal-bearing formations; \"Deccan Traps\" confuses volcanic basalt with sedimentary limestone.",
+    "id": "gen_c12_geo_ch13_q17",
+    "nodeId": "c12_geo_cbse_13_005",
     "difficulty": "advanced"
    },
    {
@@ -8045,54 +8435,9 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Non-metallic minerals' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"both are only in Rajasthan\" misses the Jharkhand mica belt and the widespread Vindhyan dolomite.",
-    "id": "gen_c12_geo_ch13_q15",
-    "nodeId": "c12_geo_cbse_13_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a one-page map annotation for a Class 12 board exam that shows the distribution of limestone, mica, dolomite, and phosphate with correct symbols, labels, and a legend. Include two industrial centres linked to each mineral.",
-    "answer": "Expected answer: Outline map of India with (a) Limestone: shaded patches in Rajasthan (Jaisalmer, Chittorgarh), MP (Satna, Katni), AP (Cuddapah), Karnataka (Gulbarga)",
-    "options": [
-     "Correct mapping: Jharia & Raniganj → Damodar Valley (Jharkhand-West Bengal); Singrauli → Sone Valley (Madhya Pradesh-Uttar Pradesh); Korba → Mahanadi Valley (Chhattisgarh)",
-     "(a) Malanjkhand — Madhya Pradesh (Balaghat district), (b) Zawar — Rajasthan (Udaipur district), (c) Khetri — Rajasthan (Jhunjhunu district), (d) Singhbhum",
-     "Expected answer: Outline map of India with (a) Limestone: shaded patches in Rajasthan (Jaisalmer, Chittorgarh), MP (Satna, Katni), AP (Cuddapah), Karnataka (Gulbarga)"
-    ],
-    "hint": "Straight from the 'Non-metallic minerals' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Expected answer: Outline map of India with (a) Limestone: shaded patches in Rajasthan (Jaisalmer, Chittorgarh), MP",
-    "id": "gen_c12_geo_ch13_q16",
-    "nodeId": "c12_geo_cbse_13_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"India's lignite reserves in Neyveli (Tamil Nadu) and Rajasthan can fully substitute bituminous coal imports for thermal power generation.\" Consider calorific value, mining method, water requirement, and environmental impact.",
-    "answer": "The statement is false. Lignite (2,500-3,000 kcal/kg) requires 2-3× mass vs bituminous coal (4,500-5,500 kcal/kg) for same energy, increasing handling, transport",
-    "options": [
-     "Lead and zinc occur together because they have similar geochemical behaviour (chalcophile elements) and precipitate from the same hydrothermal fluids in sedimentary exhalative",
-     "Petroleum forms from organic matter buried in sedimentary basins; tertiary period basins (like Assam, Gujarat, Mumbai offshore) provided the right conditions of source rock",
-     "The statement is false. Lignite (2,500-3,000 kcal/kg) requires 2-3× mass vs bituminous coal (4,500-5,500 kcal/kg) for same energy, increasing handling, transport"
-    ],
-    "hint": "Straight from the 'Coal' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. Lignite (2,500-3,000 kcal/kg) requires 2-3× mass vs bituminous coal (4,500-5,500 kcal/kg) for",
-    "id": "gen_c12_geo_ch13_q17",
-    "nodeId": "c12_geo_cbse_13_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the geological settings of uranium (Dharwar rocks, Singhbhum belt) and thorium (beach sands, monazite/ilmenite). How does this difference dictate India's three-stage nuclear programme design?",
-    "answer": "Uranium occurs in limited, hard-rock vein deposits (Dharwar/Singhbhum) — scarce, difficult to mine, finite",
-    "options": [
-     "Both occur in Proterozoic mobile belts: Singhbhum in the Singhbhum Shear Zone (Dharwar craton margin) and Khetri in the Khetri Copper Belt (Aravalli-Delhi mobile belt)",
-     "The Chhotanagpur Plateau (Jharkhand) hosts high-quality mica belts, while dolomite occurs in the same Precambrian shield (Dharwar, Cuddapah) but also in the Vindhyan basin",
-     "Uranium occurs in limited, hard-rock vein deposits (Dharwar/Singhbhum) — scarce, difficult to mine, finite"
-    ],
-    "hint": "Straight from the 'Nuclear energy in India' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both mined similarly\") misses the strategic logic: programme design is a direct response to geological endowment asymmetry.",
     "id": "gen_c12_geo_ch13_q18",
-    "nodeId": "c12_geo_cbse_13_010",
-    "difficulty": "standard"
+    "nodeId": "c12_geo_cbse_13_005",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -8370,6 +8715,36 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate the effectiveness of the Jute Packaging Materials Act (1987) in reviving the jute industry. Consider both the mandatory packaging quota and the competition from synthetic substitutes.",
+    "answer": "The Act mandated 100% foodgrains and 20% sugar packaging in jute bags, creating captive demand. However",
+    "options": [
+     "(a) Koraput (Odisha) – Hirakud hydroelectric power + bauxite in Kalahandi; (b) Ratnagiri (Maharashtra) – imported alumina + thermal power",
+     "Rank: 1. Gas pipeline access (feedstock is 70-80% of production cost, non-substitutable), 2. Water availability (high volume for cooling and steam, non-negotiable), 3",
+     "The Act mandated 100% foodgrains and 20% sugar packaging in jute bags, creating captive demand. However"
+    ],
+    "hint": "Straight from the 'Agro-based industries like jute' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The Act mandated 100% foodgrains and 20% sugar packaging in jute bags, creating captive demand.",
+    "id": "gen_c12_geo_ch14_q8",
+    "nodeId": "c12_geo_cbse_14_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A thermal power plant burns 10,000 tonnes of coal per day with 35% ash content. The electrostatic precipitator (ESP) efficiency is 99.5%. Calculate the mass of fly ash emitted daily (in tonnes) and the mass captured.",
+    "answer": "Step 1: Total ash produced = 10,000 t × 0.35 = 3,500 t/day. Step 2: ESP captures 99.5% → captured = 3,500 × 0",
+    "options": [
+     "Flowchart decisions: 1. Raw material: Forest-based (bamboo) → Agro/Forest category 2. Scale: ₹50 Lakh > ₹25 Lakh (cottage limit) but < ₹10 Cr (large limit) → Small-scale industry",
+     "Rank: 1. Gas pipeline access (feedstock is 70-80% of production cost, non-substitutable), 2. Water availability (high volume for cooling and steam, non-negotiable), 3",
+     "Step 1: Total ash produced = 10,000 t × 0.35 = 3,500 t/day. Step 2: ESP captures 99.5% → captured = 3,500 × 0"
+    ],
+    "hint": "Straight from the 'Industrial pollution' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., forgetting to convert hectares to m², or using 99.5% as emitted fraction) reveals unit conversion errors and misunderstanding of efficiency definition. Competitive exams often trap students with \"efficiency\" vs \"penetration\" confusion.",
+    "id": "gen_c12_geo_ch14_q9",
+    "nodeId": "c12_geo_cbse_14_011",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the Air (Prevention and Control of Pollution) Act, 1981 and the Water (Prevention and Control of Pollution) Act, 1974 in terms of: (a) regulatory approach (command-and-control vs market-based), (b) enforcement agency structure (CPCB/SPCB roles), and (c) a key amendment that strengthened penalties.",
     "answer": "Both Acts follow command-and-control: they set emission/effluent standards, require consent-to-establish/operate, and empower CPCB/SPCBs to inspect and prosecute",
     "options": [
@@ -8379,7 +8754,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Industrial pollution' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"Water Act is older so better enforced\" misses the technical monitoring asymmetry. Students often confuse ambient standards (air) with emission standards (water).",
-    "id": "gen_c12_geo_ch14_q8",
+    "id": "gen_c12_geo_ch14_q10",
     "nodeId": "c12_geo_cbse_14_011",
     "difficulty": "advanced"
    }
@@ -8391,7 +8766,8 @@ export const C12_GEO_GEN: SimDef[] = [
    ]
   },
   "successLine": "Manufacturing mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_geo_ch15",
@@ -8864,6 +9240,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student is given a map of India showing 12 airports: 4 metro hubs (Delhi, Mumbai, Chennai, Kolkata), 4 tier-2 cities (Bengaluru, Hyderabad, Ahmedabad, Pune), and 4 UDAN airports (Jharsuguda, Pasighat, Tezu, Rupsi).",
+    "answer": "Correct working: Step 1: Locate airports by region — Jharsuguda (Odisha, east), Pasighat & Tezu (Arunachal Pradesh, northeast), Rupsi (Assam, northeast)",
+    "options": [
+     "Satellite-based television (Doordarshan via INSAT) would be most reliable. Steps: (1) Identify the need: mass communication (one-to-many) for disaster warnings",
+     "(a) HVJ runs from Hazira (Gujarat coast) → Vijaipur (Madhya Pradesh) → Jagdishpur (Uttar Pradesh). (b) Mumbai High (offshore Maharashtra) and Bassein (offshore Maharashtra) gas",
+     "Correct working: Step 1: Locate airports by region — Jharsuguda (Odisha, east), Pasighat & Tezu (Arunachal Pradesh, northeast), Rupsi (Assam, northeast)"
+    ],
+    "hint": "Straight from the 'Air transport in India' slide -- match the key terms.",
+    "misconception": "Wrong answer (e.g., connecting Pasighat directly to Delhi) ignores great circle geography and the hub-and-spoke model, revealing inability to apply spatial reasoning to network design.",
+    "id": "gen_c12_geo_ch15_q13",
+    "nodeId": "c12_geo_cbse_15_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Design a hypothetical UDAN 5.0 route network for the Andaman & Nicobar Islands that connects Port Blair (Veer Savarkar Airport) to three unserved islands (Car Nicobar, Campbell Bay, Diglipur) using only helicopter operations under Pawan Hans.",
     "answer": "Expected answer criteria: (i) Route sequence: Port Blair → Diglipur (North Andaman) → Port Blair → Car Nicobar → Campbell Bay (Great Nicobar) — hub-and-spoke from Port Blair",
     "options": [
@@ -8873,7 +9264,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Air transport in India' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Expected answer criteria: (i) Route sequence: Port Blair → Diglipur (North Andaman) → Port Blair → Car Nicobar →",
-    "id": "gen_c12_geo_ch15_q13",
+    "id": "gen_c12_geo_ch15_q14",
     "nodeId": "c12_geo_cbse_15_008",
     "difficulty": "advanced"
    },
@@ -8888,7 +9279,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Air transport in India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"DGCA\" or \"Ministry of Civil Aviation\" for the first part, or \"1947\" for the year) reveals confusion between regulatory, policy, and operational bodies, and ignorance of the historical origin of Indian aviation — a fact frequently tested in 1-mark board questions.",
-    "id": "gen_c12_geo_ch15_q14",
+    "id": "gen_c12_geo_ch15_q15",
     "nodeId": "c12_geo_cbse_15_008",
     "difficulty": "advanced"
    },
@@ -8903,7 +9294,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pipeline transport in India' slide -- match the key terms.",
     "misconception": "A poor answer omits flow direction, uses same line style for all, or misses the North East extension — revealing inability to distinguish network hierarchy (trunk vs spur vs planned) critical for board map questions.",
-    "id": "gen_c12_geo_ch15_q15",
+    "id": "gen_c12_geo_ch15_q16",
     "nodeId": "c12_geo_cbse_15_009",
     "difficulty": "advanced"
    },
@@ -8918,36 +9309,21 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pipeline transport in India' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) HVJ runs from Hazira (Gujarat coast) → Vijaipur (Madhya Pradesh) → Jagdishpur (Uttar Pradesh).",
-    "id": "gen_c12_geo_ch15_q16",
+    "id": "gen_c12_geo_ch15_q17",
     "nodeId": "c12_geo_cbse_15_009",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Compare the spatial distribution patterns of radio vs. television penetration in India as implied by their historical rollout (radio: 1923 Bombay → 1930 national → 1957 Akashwani; TV: 1959 Delhi → 1972 other centres → 1976 Doordarshan → 1983 INSAT).",
-    "answer": "Radio spread gradually via terrestrial transmitters — early concentration in urban centres (Bombay, Calcutta, Delhi)",
+    "question": "A village in Arunachal Pradesh at 2,500 m elevation has no mobile towers, no landline, and receives only intermittent radio signals. Which communication system from the NCERT chapter would provide the most reliable *mass communication* link for disaster warnings, and why?",
+    "answer": "Satellite-based television (Doordarshan via INSAT) would be most reliable. Steps: (1) Identify the need: mass communication (one-to-many) for disaster warnings",
     "options": [
-     "West coast: submerged coastline with rias, estuaries, and natural deep-water harbours (Mumbai's harbour, Kochi's backwater lagoon, Mormugao's Zuari estuary) — minimal dredging",
-     "NW1 and NW2 are on perennial Himalayan rivers with high discharge, gentle gradient in plains, and natural depth maintained by snowmelt and monsoon flow, allowing mechanical boats",
-     "Radio spread gradually via terrestrial transmitters — early concentration in urban centres (Bombay, Calcutta, Delhi)"
+     "(a) ~19.5°N, 85.5°E (near Gopalpur/Dhamra). (b) Thermal coal for Odisha/Andhra power plants + alumina from NALCO (Angul) + steel from Kalinganagar",
+     "Expected answer criteria: (i) Route sequence: Port Blair → Diglipur (North Andaman) → Port Blair → Car Nicobar → Campbell Bay (Great Nicobar) — hub-and-spoke from Port Blair",
+     "Satellite-based television (Doordarshan via INSAT) would be most reliable. Steps: (1) Identify the need: mass communication (one-to-many) for disaster warnings"
     ],
     "hint": "Straight from the 'Communication in India' slide -- match the key terms.",
-    "misconception": "A wrong answer stating \"both reached villages at the same time\" misses the technological leap of satellite broadcasting that decoupled TV access from ground networks.",
-    "id": "gen_c12_geo_ch15_q17",
-    "nodeId": "c12_geo_cbse_15_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"The internet is the most effective personal communication system in India.\" Use evidence on urban-rural divide, cost, and language barriers from the NCERT context and current data trends.",
-    "answer": "The statement is *conditionally true* but geographically incomplete. NCERT calls internet \"most effective and advanced\" and \"widely used in urban areas\"",
-    "options": [
-     "Support: (1) Mundra (Gujarat, minor port) handled 155 MMT in 2022-23 — more than any major port — diverting container/coal traffic from Kandla/Mumbai",
-     "At the time (1959–1962), Assam had no refinery capable of processing Naharkatiya's crude output",
-     "The statement is *conditionally true* but geographically incomplete. NCERT calls internet \"most effective and advanced\" and \"widely used in urban areas\""
-    ],
-    "hint": "Straight from the 'Communication in India' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees uncritically ignores the digital divide; one that disagrees entirely undervalues internet's transformative role where accessible.",
+    "misconception": "A wrong answer choosing \"radio\" ignores the physics of terrestrial wave propagation in mountains; choosing \"internet\" ignores infrastructure dependency.",
     "id": "gen_c12_geo_ch15_q18",
     "nodeId": "c12_geo_cbse_15_010",
     "difficulty": "standard"
@@ -9255,6 +9631,36 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "India exports engineering goods to both the USA (under no preferential agreement) and South Korea (under the India-Korea CEPA). In 2022-23, the applied MFN tariff on a specific engineering item is 7.",
+    "answer": "Step 1: Identify MFN tariff = 7.5% for USA. Step 2: Identify preferential CEPA tariff = 0% for South Korea",
+    "options": [
+     "The Agreement on Agriculture (AoA) classifies MSP-backed procurement as trade-distorting \"Amber Box\" support (Aggregate Measurement of Support — AMS)",
+     "A strong brief: (1) Launch a mission-mode Oilseeds Programme targeting 30% yield increase in mustard, groundnut, soybean via hybrid seeds, micro-irrigation",
+     "Step 1: Identify MFN tariff = 7.5% for USA. Step 2: Identify preferential CEPA tariff = 0% for South Korea"
+    ],
+    "hint": "Straight from the 'Bilateral trade' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., using bound tariff instead of applied, or ignoring that CEPA tariff is phased) indicates confusion between bound/applied/preferential rates and inability to apply percentage calculations to trade values.",
+    "id": "gen_c12_geo_ch16_q6",
+    "nodeId": "c12_geo_cbse_16_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Calculate the Aggregate Measurement of Support (AMS) for wheat if: (a) India's MSP = ₹2,275/quintal (2023-24), (b) External reference price (1986-88 base) = ₹500/quintal, (c) Quantity procured = 26 million tonnes, (d) Value of wheat production = ₹1.",
+    "answer": "Step 1: Convert units — 1 quintal = 100 kg. MSP = ₹2,275/quintal = ₹22.75/kg. Reference price = ₹500/quintal = ₹5/kg",
+    "options": [
+     "The Agreement on Agriculture (AoA) classifies MSP-backed procurement as trade-distorting \"Amber Box\" support (Aggregate Measurement of Support — AMS)",
+     "A strong brief: (1) Launch a mission-mode Oilseeds Programme targeting 30% yield increase in mustard, groundnut, soybean via hybrid seeds, micro-irrigation",
+     "Step 1: Convert units — 1 quintal = 100 kg. MSP = ₹2,275/quintal = ₹22.75/kg. Reference price = ₹500/quintal = ₹5/kg"
+    ],
+    "hint": "Straight from the 'World Trade Organization' slide -- match the key terms.",
+    "misconception": "A wrong calculation (e.g., forgetting unit conversion, using MSP directly without reference price) reveals inability to operationalise AoA formulas — a skill tested in CUET/UPSC geography optional.",
+    "id": "gen_c12_geo_ch16_q7",
+    "nodeId": "c12_geo_cbse_16_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare India's defensive interests in the WTO Agriculture Agreement (AoA) with its offensive interests in the General Agreement on Trade in Services (GATS), specifically Mode 4 (movement of natural persons).",
     "answer": "Defensive (AoA): India seeks policy space for MSP, procurement, PDS, and input subsidies to ensure food security and livelihood of small farmers",
     "options": [
@@ -9264,7 +9670,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Trade Organization' slide -- match the key terms.",
     "misconception": "A wrong answer conflating the two (e.g., \"India wants subsidies in both\") misses the fundamental asymmetry: India is a net food importer in crisis scenarios but a net services exporter.",
-    "id": "gen_c12_geo_ch16_q6",
+    "id": "gen_c12_geo_ch16_q8",
     "nodeId": "c12_geo_cbse_16_010",
     "difficulty": "advanced"
    },
@@ -9279,7 +9685,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Trade Organization' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"MSP is Green Box because it helps farmers\" or \"Peace Clause allows unlimited subsidies\") shows misunderstanding of subsidy boxes and the conditional, temporary nature of the Peace Clause — a frequent board exam trap.",
-    "id": "gen_c12_geo_ch16_q7",
+    "id": "gen_c12_geo_ch16_q9",
     "nodeId": "c12_geo_cbse_16_010",
     "difficulty": "advanced"
    }
@@ -9291,7 +9697,8 @@ export const C12_GEO_GEN: SimDef[] = [
    ]
   },
   "successLine": "International Trade mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_geo_ch17",
@@ -9308,6 +9715,7 @@ export const C12_GEO_GEN: SimDef[] = [
    "c12_geo_cbse_17_001",
    "c12_geo_cbse_17_002",
    "c12_geo_cbse_17_003",
+   "c12_geo_cbse_17_004",
    "c12_geo_cbse_17_005",
    "c12_geo_cbse_17_006",
    "c12_geo_cbse_17_007",
@@ -9350,6 +9758,12 @@ export const C12_GEO_GEN: SimDef[] = [
     "text": "Water pollution is the contamination of water bodies (rivers, lakes, groundwater, oceans) by harmful substances — such as industrial effluents, agricultural chemicals, sewage, and solid waste — that degrade water quality, making it unfit for human",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Air Pollution",
+    "text": "Air pollution is the introduction of contaminants — including particulate matter (PM2.5, PM10), gaseous pollutants (SO₂, NOₓ, CO, O₃, hydrocarbons), heavy metals (lead, mercury), and toxic compounds (asbestos, benzene) — into the troposphere in concentrations",
+    "emoji": "🌍",
+    "bgColor": "from-indigo-400 to-blue-500"
    },
    {
     "title": "Noise Pollution",
@@ -9553,6 +9967,69 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "UNDERSTAND level: Explain why the same quantity of vehicular emissions produces far higher PM2.5 concentrations in Delhi during November than in Mumbai during the same month, even if vehicle density were identical. Use the concepts of mixing height, temperature inversion, and ventilation coefficient.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The process chain",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Delhi in November",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The consequence",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Mumbai the same month",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who blames stubble burning alone cites an episodic source and misses the meteorological amplification.",
+    "id": "gen_c12_geo_ch17_q4",
+    "nodeId": "c12_geo_cbse_17_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Begin with a real-world observation: ask the student to check the AQI (Air Quality Index) on their phone for their city today — note the PM2.",
+     "Connect this to Class 9 learning on atmospheric composition (c9_geo_ch2_1) and Class 11 industrial pollution (c11_geo_cbse_20_006): the same",
+     "Next, have them locate the Indo-Gangetic Plain on a physical map and trace the Himalayan barrier — this topographical funnel combined with winter",
+     "Then introduce the pollutant typology from NCERT Table 9.1: distinguish primary pollutants (directly emitted: CO, SO₂, PM) from secondary pollutants"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Define noise pollution according to NCERT and state the unit used to measure its intensity.",
     "answer": "Noise pollution is the state of unbearable and uncomfortable sound levels caused by various sources such as traffic, industries, aircraft, and construction",
@@ -9563,7 +10040,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Noise pollution' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"noise pollution is only from factories\" or \"measured in hertz\") reveals confusion between sound frequency and intensity, or ignorance of diverse urban sources.",
-    "id": "gen_c12_geo_ch17_q4",
+    "id": "gen_c12_geo_ch17_q5",
     "nodeId": "c12_geo_cbse_17_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -9584,7 +10061,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'disaster' slide -- match the key terms.",
     "misconception": "WRONG ANSWER REVEALS: If a student says \"a disaster is just a big hazard\" or gives an example like \"the 2004 tsunami was a hazard,\" they confuse the physical event with its societal impact and miss the vulnerability-exposure-capacity framework.",
-    "id": "gen_c12_geo_ch17_q5",
+    "id": "gen_c12_geo_ch17_q6",
     "nodeId": "c12_geo_cbse_17_006",
     "difficulty": "standard",
     "workedExample": [
@@ -9605,7 +10082,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural disasters in India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing zones alphabetically or citing the Deccan Traps for Zone V) reveals the student has memorized zone numbers without linking them to plate-boundary processes taught in c11_geo_cbse_04_008 and c11_geo_cbse_11_002.",
-    "id": "gen_c12_geo_ch17_q6",
+    "id": "gen_c12_geo_ch17_q7",
     "nodeId": "c12_geo_cbse_17_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -9679,7 +10156,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"not MAH because chlorine is common\") shows ignorance of the regulatory threshold concept, a frequent gap in competitive exams testing legal geography.",
-    "id": "gen_c12_geo_ch17_q7",
+    "id": "gen_c12_geo_ch17_q8",
     "nodeId": "c12_geo_cbse_17_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -9700,7 +10177,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Disaster management' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"mitigation is evacuation during earthquake\") reveals confusion between mitigation (pre-event risk reduction) and response (during-event action) — a critical board exam distinction.",
-    "id": "gen_c12_geo_ch17_q8",
+    "id": "gen_c12_geo_ch17_q9",
     "nodeId": "c12_geo_cbse_17_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -9721,7 +10198,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Sustainable development' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"development that protects the environment only\") reveals the student misses the intergenerational equity and the balance with present needs.",
-    "id": "gen_c12_geo_ch17_q9",
+    "id": "gen_c12_geo_ch17_q10",
     "nodeId": "c12_geo_cbse_17_010",
     "difficulty": "standard",
     "workedExample": [
@@ -9773,7 +10250,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that only compares populations (X > Y) misses the multiplicative role of affluence and technology.",
-    "id": "gen_c12_geo_ch17_q10",
+    "id": "gen_c12_geo_ch17_q11",
     "nodeId": "c12_geo_cbse_17_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -9847,7 +10324,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., 25 × 44.7% = 1117%) shows misunderstanding of alpha vs gamma diversity and the non-additivity of species across isolated fragments.",
-    "id": "gen_c12_geo_ch17_q11",
+    "id": "gen_c12_geo_ch17_q12",
     "nodeId": "c12_geo_cbse_17_002",
     "difficulty": "advanced"
    },
@@ -9893,8 +10370,247 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who agrees reveals a narrow \"end-of-pipe\" mindset, ignoring the multi-source, basin-scale nature of river pollution that geography emphasizes.",
-    "id": "gen_c12_geo_ch17_q12",
+    "id": "gen_c12_geo_ch17_q13",
     "nodeId": "c12_geo_cbse_17_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "ANALYZE level: Compare the air pollution profile of Kanpur (industrial, Ganga plain) with Bengaluru (IT/services, Deccan plateau) across four dimensions: (a) dominant pollutant species, (b) seasonal pattern, (c) primary source sector, (d) topographical/climatic control on dispersion. Present as a 2×4 comparison table.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Dominant pollutants",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Dispersion control",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Seasonality",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Source sectors",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who says both simply have vehicular pollution misses source apportionment, and denying Bengaluru a winter peak ignores its local meteorology.",
+    "id": "gen_c12_geo_ch17_q14",
+    "nodeId": "c12_geo_cbse_17_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "APPLY level: A thermal power plant in Singrauli (Madhya Pradesh) emits 1200 kg/hr of SO₂ from a 275 m stack. On a winter night, the mixing height is 300 m and wind speed at stack height is 2 m/s.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The verdict",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "The result",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Apply the box model",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Convert the emission",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who forgets the unit conversion overstates the concentration by thousands of times, and using stack height instead of mixing height misunderstands the box model assumption.",
+    "id": "gen_c12_geo_ch17_q15",
+    "nodeId": "c12_geo_cbse_17_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "CREATE level: Design a city-level Air Quality Management Plan (AQMP) for Prayagraj (Uttar Pradesh) — a Tier-2 city on the Ganga with mixed economy (administrative, educational, religious tourism, small-scale industry).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Longer term",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Source apportionment",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "First interventions",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Monitoring and community",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "The geography",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer offers generic tree-planting without geographic specificity, seasonal design or an equity lens.",
+    "id": "gen_c12_geo_ch17_q16",
+    "nodeId": "c12_geo_cbse_17_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "EVALUATE level: The Graded Response Action Plan (GRAP) for Delhi-NCR triggers \"Stage 3\" (Severe+) when AQI > 400, banning construction, BS-III petrol/BS-IV diesel vehicles, and mandating 50% work-from-home.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Equity",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The better path",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Enforcement",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Effectiveness",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who calls the plan very effective because the AQI dropped afterwards confuses correlation with causation, since wind speeds usually rose at the same time.",
+    "id": "gen_c12_geo_ch17_q17",
+    "nodeId": "c12_geo_cbse_17_004",
     "difficulty": "advanced"
    },
    {
@@ -9950,114 +10666,8 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Layers: (1) Hazard footprint — ALOHA/CAMEO dispersion modeling output for worst-case chlorine release (source: depot's",
-    "id": "gen_c12_geo_ch17_q13",
-    "nodeId": "c12_geo_cbse_17_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Design a geographical inquiry project for your city/town that maps the population-environment-development linkages for one local issue (e.g., solid waste, water scarcity, air quality).",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Indicators",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Layers",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "Policy question",
-      "emoji": "📌",
-      "correctBin": "o2"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer that suggests only “make a map of garbage dumps” shows inability to conceptualize the *linkages* — it treats waste as an isolated environmental problem rather than a product of population distribution, economic activity, and governance gaps.",
-    "id": "gen_c12_geo_ch17_q14",
-    "nodeId": "c12_geo_cbse_17_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the NRSC wasteland categories \"gullied/ravinous land\" and \"waterlogged/marshy land\" in terms of: (a) primary causative agent (natural vs. human), (b) reversibility, and (c) dominant region in India.",
-    "answer": "(a) Gullied land: primarily natural (running water on steep slopes, e.g., Chambal ravines) but accelerated by deforestation",
-    "options": [
-     "Similarities: (1) Both receive large volumes of domestic sewage from major urban centres (Kanpur, Prayagraj, Varanasi, Patna, Kolkata for Ganga; Delhi for Yamuna)",
-     "Metros like Mumbai collect ~90% waste but still face hazards due to sheer volume and landfill saturation; smaller towns collect only 30-50%, leaving waste uncollected on streets",
-     "(a) Gullied land: primarily natural (running water on steep slopes, e.g., Chambal ravines) but accelerated by deforestation"
-    ],
-    "hint": "Straight from the 'Land degradation' slide -- match the key terms.",
-    "misconception": "Wrong answers conflate the two or misattribute waterlogging to \"excess rain\" rather than irrigation mismanagement — a frequent board exam error.",
-    "id": "gen_c12_geo_ch17_q15",
-    "nodeId": "c12_geo_cbse_17_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the statement: \"The Jhabua model succeeds only because of NGO funding; it cannot be replicated without external money.\" Use the concepts of Common Property Resources (CPR), social fencing, and opportunity cost.",
-    "answer": "The critique is flawed. Jhabua's core innovation is institutional: households planted trees on CPR, adopted social fencing (no open grazing for 2 years)",
-    "options": [
-     "The six criteria pollutants are: PM10, PM2.5, SO₂, NO₂, CO, and O₃ (some lists include NH₃ and Pb)",
-     "Day exceedance = 90 - 55 = 35 dB; Night exceedance = 55 - 45 = 10 dB. Such chronic exposure leads to respiratory, nervous",
-     "The critique is flawed. Jhabua's core innovation is institutional: households planted trees on CPR, adopted social fencing (no open grazing for 2 years)"
-    ],
-    "hint": "Straight from the 'Land degradation' slide -- match the key terms.",
-    "misconception": "Students who agree with the statement miss the NCERT's emphasis on \"Government-NGO partnership and community participation\" and the CPR governance lesson from Class 11.",
-    "id": "gen_c12_geo_ch17_q16",
-    "nodeId": "c12_geo_cbse_17_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Define land degradation as per NCERT Class 12 Geography. How does it differ from wasteland?",
-    "answer": "Land degradation is a temporary or permanent decline in productive capacity of land. Wasteland is land degraded beyond economic recovery",
-    "options": [
-     "Forest cover (FSI) = all lands >1 ha with tree canopy density >10%, irrespective of ownership/legal status",
-     "The three major categories are industrial activities, agricultural activities, and cultural activities",
-     "Land degradation is a temporary or permanent decline in productive capacity of land. Wasteland is land degraded beyond economic recovery"
-    ],
-    "hint": "Straight from the 'Land degradation' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"they are the same\" or \"wasteland is only desert\") reveals confusion between process (degradation) and end-state (wasteland), and misses the NCERT's explicit distinction that unchecked degradation *may* lead to wasteland conversion.",
-    "id": "gen_c12_geo_ch17_q17",
-    "nodeId": "c12_geo_cbse_17_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a 3-year land restoration plan for a 50-ha degraded panchayat land in Bundelkhand (gullied, sparse scrub, seasonal water scarcity). Specify: (a) physical structures, (b) vegetation strategy, (c) social rules, (d) monitoring indicators. Justify each with geographical reasoning.",
-    "answer": "(a) Physical: Contour trenches + check dams on gullies (reduce runoff velocity, recharge groundwater); gully plugging with local stone",
-    "options": [
-     "A strong answer includes: (a) Technical: Install rainwater harvesting structures to recharge aquifers with clean water, diluting heavy metal contamination (as done in Daurala)",
-     "Area treated = 20% of 6,782 km² = 1,356.4 km². This contributes by improving resource base (water, soil), increasing agricultural productivity (economic)",
-     "(a) Physical: Contour trenches + check dams on gullies (reduce runoff velocity, recharge groundwater); gully plugging with local stone"
-    ],
-    "hint": "Straight from the 'Land degradation' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: (a) Physical: Contour trenches + check dams on gullies (reduce runoff velocity, recharge groundwater); gully plugging",
     "id": "gen_c12_geo_ch17_q18",
-    "nodeId": "c12_geo_cbse_17_001",
+    "nodeId": "c12_geo_cbse_17_008",
     "difficulty": "advanced"
    }
   ],
@@ -10638,6 +11248,21 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student collects maximum temperatures (°C) of five Indian cities on a summer day: Delhi 42, Mumbai 33, Chennai 38, Kolkata 36, Shimla 22. (a) Calculate the mean temperature. (b) The student concludes \"India is experiencing a heat wave.\" Identify the geographical error in this conclusion and name the concept violated.",
+    "answer": "(a) Mean = (42+33+38+36+22)/5 = 34.2°C. (b) The conclusion ignores spatial variation — Shimla (22°C) is not in a heat wave",
+    "options": [
+     "Most appropriate: India Meteorological Department (IMD) gridded rainfall dataset (0.25° × 0.25°) or tehsil-level rainfall normals published in IMD's \"Rainfall Statistics of India\"",
+     "The UNDP Human Development Report provides national and sometimes state-level HDI, but rarely district-level data for India",
+     "(a) Mean = (42+33+38+36+22)/5 = 34.2°C. (b) The conclusion ignores spatial variation — Shimla (22°C) is not in a heat wave"
+    ],
+    "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (a) Mean = (42+33+38+36+22)/5 = 34.2°C. (b) The conclusion ignores spatial variation — Shimla (22°C) is not in a heat",
+    "id": "gen_c12_geo_ch18_q12",
+    "nodeId": "c12_geo_cbse_18_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Contrast these two pairs of Indian geographical data: Pair A: Annual rainfall — Cherrapunji 11,000 mm vs. Jaisalmer 150 mm. Pair B: Population density — Delhi 11,320 persons/km² vs.",
     "answer": "Geographical data exhibit extreme spatial variability (orders of magnitude difference). National averages (e",
     "options": [
@@ -10647,7 +11272,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Geographical data exhibit extreme spatial variability (orders of magnitude difference).",
-    "id": "gen_c12_geo_ch18_q12",
+    "id": "gen_c12_geo_ch18_q13",
     "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    },
@@ -10662,7 +11287,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"data are facts\" or \"data are information\" reveals the student has not grasped the NCERT distinction: data are *raw measurements*; information is a *meaningful answer to a query* derived from data.",
-    "id": "gen_c12_geo_ch18_q13",
+    "id": "gen_c12_geo_ch18_q14",
     "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    },
@@ -10677,7 +11302,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Maximum air temperature using a calibrated thermometer. (b) Minimum 5 locations representing different",
-    "id": "gen_c12_geo_ch18_q14",
+    "id": "gen_c12_geo_ch18_q15",
     "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    },
@@ -10692,7 +11317,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Agree. Big data provides voluminous *raw measurements* (data), but without critical processing — source validation,",
-    "id": "gen_c12_geo_ch18_q15",
+    "id": "gen_c12_geo_ch18_q16",
     "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    },
@@ -10707,7 +11332,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The average (0.95 m) masks the actual variation: one measurement was 1.",
-    "id": "gen_c12_geo_ch18_q16",
+    "id": "gen_c12_geo_ch18_q17",
     "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    },
@@ -10722,21 +11347,6 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Primary data' slide -- match the key terms.",
     "misconception": "A wrong answer choosing Census reveals confusion between *administrative reporting frequency* and *phenomenon frequency*; choosing NFHS reveals ignoring spatial scale mismatch. This tests the geographical skill of matching data resolution to process scale.",
-    "id": "gen_c12_geo_ch18_q17",
-    "nodeId": "c12_geo_cbse_18_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this statement for a Class 12 board exam answer: \"Secondary data is always less reliable than primary data because the researcher cannot verify the collection methodology.\" Provide two geographical scenarios where secondary data is *more* reliable, and one where primary data is indispensable.",
-    "answer": "The statement is false. Secondary data can be *more* reliable when: (1) Census of India population totals — primary enumeration of 1",
-    "options": [
-     "The claim is false. Complete enumeration eliminates sampling error but not non-sampling errors. Two key non-sampling errors: (1) Response error",
-     "The statement is false. Scientific rigour depends on appropriateness of data to the research question, not data type",
-     "The statement is false. Secondary data can be *more* reliable when: (1) Census of India population totals — primary enumeration of 1"
-    ],
-    "hint": "Straight from the 'Primary data' slide -- match the key terms.",
-    "misconception": "A wrong answer treating \"secondary = less reliable\" as a rule misses NCERT’s emphasis on *source credibility* (government, UN, peer-reviewed) over source type.",
     "id": "gen_c12_geo_ch18_q18",
     "nodeId": "c12_geo_cbse_18_002",
     "difficulty": "standard"
@@ -10773,7 +11383,8 @@ export const C12_GEO_GEN: SimDef[] = [
    "c12_geo_cbse_19_007",
    "c12_geo_cbse_19_008",
    "c12_geo_cbse_19_009",
-   "c12_geo_cbse_19_010"
+   "c12_geo_cbse_19_010",
+   "c12_geo_cbse_19_011"
   ],
   "emoji": "🌍",
   "theme": {
@@ -10849,6 +11460,12 @@ export const C12_GEO_GEN: SimDef[] = [
    {
     "title": "Spearman's Rank Correlation Coefficient",
     "text": "Spearman's Rank Correlation Coefficient (ρ or rₛ) is a non-parametric statistical measure that assesses the strength and direction of the monotonic relationship between two variables by converting their raw values into ranks and then computing the Pearson",
+    "emoji": "🌍",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Data Transformation And Normalisation",
+    "text": "Data transformation and normalisation are statistical preprocessing techniques used to convert raw geographical data into a standardised format that enables meaningful comparison, correlation analysis, and mapping across variables with different units,",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
    }
@@ -10963,9 +11580,9 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "A geography student has collected the altitudes (in meters) of 20 villages in the Himalayan foothills. The minimum altitude is 320 m and the maximum is 1,850 m. Using Sturges' rule, how many class intervals should they ideally create for a frequency distribution?",
     "answer": "6 classes. Reasoning: Sturges' rule: k = 1 + 3.322 log₁₀ N. Here N = 20 → log₁₀ 20 ≈ 1.301 → 3.322 × 1.301 ≈ 4.32 → k ≈ 5.32 → round up to 6",
     "options": [
-     "1. Problem: Quantify UHI intensity (°C difference between urban core and rural fringe). 2. Collect: Landsat 8 Band 10 (thermal) for summer cloud-free day + shapefile of Bengaluru",
-     "1. Group the 365 daily values into a frequency distribution with equal class intervals (e.g., 5°C)",
-     "6 classes. Quantitative: Sturges' rule: k = 1 + 3.322 log₁₀ N. Here N = 20 → log₁₀ 20 ≈ 1.301 → 3.322 × 1.301 ≈ 4.32 → k ≈ 5.32 → round up to 6",
+     "Flaw — equal intervals ignore data distribution; most cities cluster at low end (12-60), leaving 40-180 empty or sparse",
+     "Range = 26. Use 6 classes (Sturges: 1+3.322log₁₀12≈4.6→5; but 6 gives monthly granularity). Width = 26/6 ≈ 4",
+     "6 classes. Geographically: Sturges' rule: k = 1 + 3.322 log₁₀ N. Here N = 20 → log₁₀ 20 ≈ 1.301 → 3.322 × 1.301 ≈ 4.32 → k ≈ 5.32 → round up to 6",
      "6 classes. Reasoning: Sturges' rule: k = 1 + 3.322 log₁₀ N. Here N = 20 → log₁₀ 20 ≈ 1.301 → 3.322 × 1.301 ≈ 4.32 → k ≈ 5.32 → round up to 6"
     ],
     "hint": "Straight from the 'Frequency distribution' slide -- match the key terms.",
@@ -11193,6 +11810,58 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A researcher has district-level data on literacy rate (percentage, range 45–98) and per capita income (rupees, range 25,000–1,20,000). She wants to compute Karl Pearson's correlation coefficient between them. Which preprocessing step is ESSENTIAL before correlation, and why?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Why",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The nuance",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Essential step",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who says no preprocessing is needed confuses correlation's mathematical invariance to linear scaling with the practical need for comparability and normality.",
+    "id": "gen_c12_geo_ch19_q11",
+    "nodeId": "c12_geo_cbse_19_011",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you have district-level data for Madhya Pradesh: annual rainfall (mm), groundwater depth (m), and crop yield (quintals/hectare).",
+     "You want to find which factor correlates most with yield, but the variables have wildly different units and ranges — rainfall varies 600–1400,",
+     "First, observe the raw distributions: rainfall is roughly symmetric, groundwater is right-skewed (many shallow wells, few very deep), yield is",
+     "Next, recall from c12_geo_cbse_19_006 that dispersion measures (standard deviation) and from c12_geo_cbse_19_009 that Karl Pearson's correlation"
+    ]
+   },
+   {
     "type": "math_input",
     "question": "A dataset of 50 villages’ population sizes is grouped into classes. The median class is identified as 2000‑3000 with frequency 16, cumulative frequency before median class = 21, class interval = 1000. Using the median formula for grouped data, compute the median and explain what the result represents geographically.",
     "answer": "2250",
@@ -11201,7 +11870,7 @@ export const C12_GEO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "An incorrect answer (e.g., using \\(N\\) instead of \\(N/2\\), or wrong cumulative frequency) shows inability to locate the median class or misapply the formula.",
-    "id": "gen_c12_geo_ch19_q11",
+    "id": "gen_c12_geo_ch19_q12",
     "nodeId": "c12_geo_cbse_19_005",
     "difficulty": "advanced"
    },
@@ -11258,7 +11927,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Expected answer: (i) Chronological primary (years 2000-2020) to track change over time.",
-    "id": "gen_c12_geo_ch19_q12",
+    "id": "gen_c12_geo_ch19_q13",
     "nodeId": "c12_geo_cbse_19_002",
     "difficulty": "standard"
    },
@@ -11326,84 +11995,237 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer (e.g., choosing mean for soil type, or mode for continuous temperature data without binning) reveals inability to match data type and research question to the appropriate measure.",
-    "id": "gen_c12_geo_ch19_q13",
+    "id": "gen_c12_geo_ch19_q14",
     "nodeId": "c12_geo_cbse_19_004",
     "difficulty": "standard"
    },
    {
-    "type": "mcq",
-    "question": "A Class 12 project concludes: \"Since the mean annual rainfall of District X is 1100 mm, farmers should grow rice.\" Evaluate this conclusion using the concept of data processing steps. What critical analytical step is missing, and what additional data would be required?",
-    "answer": "The conclusion skips dispersion analysis (measure of variability) and interpretation in context. Mean alone hides risk: if standard deviation is 400 mm",
-    "options": [
-     "1. Group the 365 daily values into a frequency distribution with equal class intervals (e.g., 5°C)",
-     "Boundaries: P80 (critical depletion: deepest 20%), P50 (stress: next 30% between P50–P80), below P50 (safe: shallowest 50%)",
-     "The conclusion skips dispersion analysis (measure of variability) and interpretation in context. Mean alone hides risk: if standard deviation is 400 mm"
+    "type": "order",
+    "question": "A student constructs a \"Drought Vulnerability Index\" for 100 districts using three normalised indicators: (1) rainfall deficit (z-score), (2) groundwater decline (z-score), (3) crop yield loss (z-score).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The violated assumption",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The better scheme",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The statistical quirk",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The competency",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Data processing in geographical' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"need for median\" shows confusion between central tendency and variability — the exact trap addressed in c12_geo_cbse_19_006.",
-    "id": "gen_c12_geo_ch19_q14",
-    "nodeId": "c12_geo_cbse_19_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student downloads daily maximum temperature records for 50 weather stations across Rajasthan for the month of May. They immediately calculate the arithmetic mean of all 1500 values (50 stations × 30 days) and report it as \"average May temperature of Rajasthan\".",
-    "answer": "The student skipped classification (grouping data by homogeneous regions) and tabulation (organizing into meaningful summaries)",
-    "options": [
-     "1. Group the 365 daily values into a frequency distribution with equal class intervals (e.g., 5°C)",
-     "Procedure: 1. Compute mean monthly rainfall for each subdivision. 2. Calculate standard deviation for each (using grouped data method if data is in classes)",
-     "The student skipped classification (grouping data by homogeneous regions) and tabulation (organizing into meaningful summaries)"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
     ],
-    "hint": "Straight from the 'Data processing in geographical' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the misconception that \"more data points always improve accuracy\" — ignoring that geographical data must be structured by spatial/temporal homogeneity before aggregation.",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who says z-scores are already standardised so averaging is fine misses multicollinearity and the equal-weight assumption.",
     "id": "gen_c12_geo_ch19_q15",
-    "nodeId": "c12_geo_cbse_19_001",
-    "difficulty": "standard"
+    "nodeId": "c12_geo_cbse_19_011",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Compare the data processing needs for two geographical studies: (A) Mapping literacy rates across Indian states using Census 2011 data, and (B) Analyzing hourly PM2.5 levels from a single Delhi monitoring station for January 2023. Identify which steps differ most and explain why.",
-    "answer": "Study A (spatial cross-section): Emphasis on classification by state boundaries, tabulation as state-wise table, choropleth mapping",
-    "options": [
-     "Mean deviation is more affected because it uses all observations, so adding an extreme value changes the mean and increases absolute deviations",
-     "Karl Pearson's coefficient requires quantitative (interval/ratio) data and assumes a linear relationship with normal distribution",
-     "Study A (spatial cross-section): Emphasis on classification by state boundaries, tabulation as state-wise table, choropleth mapping"
+    "type": "order",
+    "question": "Design a preprocessing workflow for a dataset containing 15 variables (rainfall, temperature, soil pH, elevation, population density, literacy, road density, forest cover %, etc.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Transform",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Document",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Normalise by purpose",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Explore first",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Data processing in geographical' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats both identically reveals failure to match processing steps to data structure (spatial vs temporal) — a key distinction from Class 11 GIS (c11_geo_cbse_26_008: spatial vs attribute data handling).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer transforms everything uniformly, applies one normalisation to all purposes, or ignores zeros in log.",
     "id": "gen_c12_geo_ch19_q16",
-    "nodeId": "c12_geo_cbse_19_001",
-    "difficulty": "standard"
+    "nodeId": "c12_geo_cbse_19_011",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Design a 6-step data processing workflow for a geographical investigation of \"Urban Heat Island intensity in Bengaluru using Landsat thermal bands\". Specify the input data, classification criteria, tabulation format, and statistical technique for each step.",
-    "answer": "1. Problem: Quantify UHI intensity (°C difference between urban core and rural fringe). 2. Collect: Landsat 8 Band 10 (thermal) for summer cloud-free day + shapefile of Bengaluru",
-    "options": [
-     "Example investigation: \"Modal soil type in my district for crop suitability mapping.\" Variable: Soil type (categorical: alluvial, black, red, laterite, etc",
-     "Correct steps: (1) List decades chronologically: 1951-61, 1961-71, ..., 2001-11. (2) For each decade, compute growth rate = ((Pop_end - Pop_start)/Pop_start) × 100",
-     "1. Problem: Quantify UHI intensity (°C difference between urban core and rural fringe). 2. Collect: Landsat 8 Band 10 (thermal) for summer cloud-free day + shapefile of Bengaluru"
+    "type": "order",
+    "question": "Evaluate the claim: \"For choropleth mapping of district-level population density, log transformation should always be applied before classification into classes.\" Is this always true? When would it be inappropriate? Give a geographical example where log transformation distorts the spatial pattern.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Verdict",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The distortion example",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "When inappropriate",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The rule",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Data processing in geographical' slide -- match the key terms.",
-    "misconception": "A poor answer omits radiometric calibration (sub-step of collection) or uses inappropriate statistics (e.g., correlation for categorical classes) — showing inability to link remote sensing (c11_geo_cbse_26_001) with statistical workflow.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Verdict — not always, because log transformation suits strongly right-skewed data, where many low values and a few",
     "id": "gen_c12_geo_ch19_q17",
-    "nodeId": "c12_geo_cbse_19_001",
-    "difficulty": "standard"
+    "nodeId": "c12_geo_cbse_19_011",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "In a study of groundwater depletion in Punjab, a researcher collects well-depth data from 200 wells but finds the dataset contains entries from both dug wells and tube wells, measured in feet and meters mixed together.",
-    "answer": "Without standardizing units (all to meters) and separating well types (different depth ranges), tabulation would combine incomparable measurements",
-    "options": [
-     "Boundaries: P80 (critical depletion: deepest 20%), P50 (stress: next 30% between P50–P80), below P50 (safe: shallowest 50%)",
-     "Min-max normalisation (x' = (x - min)/(max - min)) is sensitive to outliers — the few very deep wells (40–60 m) will stretch the denominator",
-     "Without standardizing units (all to meters) and separating well types (different depth ranges), tabulation would combine incomparable measurements"
+    "type": "order",
+    "question": "Given the following raw data for 5 districts: Annual Rainfall (mm): [850, 920, 780, 1100, 950]; Groundwater Depth (m): [8, 12, 5, 25, 10]. Compute the z-score normalised values for both variables. Show all steps. Then explain why z-score is preferable to min-max here.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Why z-score wins",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Groundwater statistics",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Rainfall statistics",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The SD choice",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Data processing in geographical' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student thinks \"tabulation is just making tables\" rather than ensuring data comparability — a Class 11 map reading skill (c11_geo_cbse_22_005: interpreting symbols consistently) applied to numerical data.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who computes min-max instead misses the outlier problem entirely.",
     "id": "gen_c12_geo_ch19_q18",
-    "nodeId": "c12_geo_cbse_19_001",
-    "difficulty": "standard"
+    "nodeId": "c12_geo_cbse_19_011",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -12362,6 +13184,7 @@ export const C12_GEO_GEN: SimDef[] = [
   ],
   "nodeIds": [
    "c12_geo_cbse_21_001",
+   "c12_geo_cbse_21_002",
    "c12_geo_cbse_21_003",
    "c12_geo_cbse_21_004",
    "c12_geo_cbse_21_005",
@@ -12395,6 +13218,12 @@ export const C12_GEO_GEN: SimDef[] = [
     "text": "A field survey in geography is a systematic primary data collection method where researchers directly observe, measure, and record spatial phenomena (physical features, human activities, environmental conditions) in their real-world settings using",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Field Survey Design",
+    "text": "Field Survey Design is the systematic process of planning a primary data collection exercise by defining clear research objectives, selecting appropriate sampling techniques, constructing data collection instruments (questionnaires, interview schedules,",
+    "emoji": "🌍",
+    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Field Survey Methods",
@@ -12480,6 +13309,58 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "During reconnaissance for a survey on \"changing cropping patterns in Narmada valley villages,\" a student decides to skip the pilot test because \"the questionnaire looks fine.\" Explain why this is a methodological error, using the concepts of *validity*, *reliability*, and *field logistics* specific to rural",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Field logistics",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Validity",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Reliability",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Pilot testing is not optional — it validates three things simultaneously: (1) Validity: Farmers in Narmada valley may",
+    "id": "gen_c12_geo_ch21_q2",
+    "nodeId": "c12_geo_cbse_21_002",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are a Class 12 student in Bhopal asked to investigate why the water level in your colony's borewells drops sharply every April.",
+     "You cannot just walk around with a notebook — you need a plan.",
+     "Start by asking: *What exactly am I measuring?* (Static water level, pumping duration, household size, roof area for rainwater harvesting).",
+     "Then ask: *Where and from whom?* (Stratify colonies by housing type — plotted, apartments, slums — because water access differs)."
+    ]
+   },
+   {
+    "type": "order",
     "question": "A student wants to study \"spatial pattern of household waste segregation practices in a Delhi neighborhood.\" They plan to use a questionnaire. Explain why observation would be more appropriate, and describe what specific behaviors the observer would record.",
     "sortItems": [
      {
@@ -12531,7 +13412,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (insisting questionnaire is fine) reveals failure to recognize the \"say-do gap\" in human geography — a critical competitive exam trap where students ignore method validity for sensitive or observable behaviors.",
-    "id": "gen_c12_geo_ch21_q2",
+    "id": "gen_c12_geo_ch21_q3",
     "nodeId": "c12_geo_cbse_21_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -12594,7 +13475,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong interval (e.g., 60/420) or starting at household #1 without randomisation reveals misunderstanding of the interval formula and the necessity of a random start to avoid periodicity bias.",
-    "id": "gen_c12_geo_ch21_q3",
+    "id": "gen_c12_geo_ch21_q4",
     "nodeId": "c12_geo_cbse_21_004",
     "difficulty": "standard",
     "workedExample": [
@@ -12657,7 +13538,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer reveals the student treats GPS coordinates as absolute truth without understanding that positional accuracy varies with satellite geometry, atmospheric conditions, and device settings — a critical error in competitive exams where GIS data quality assessment is tested.",
-    "id": "gen_c12_geo_ch21_q4",
+    "id": "gen_c12_geo_ch21_q5",
     "nodeId": "c12_geo_cbse_21_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -12742,7 +13623,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Sequence: (1) Acquire georeferenced satellite images for 2000 and 2020 (raster).",
-    "id": "gen_c12_geo_ch21_q5",
+    "id": "gen_c12_geo_ch21_q6",
     "nodeId": "c12_geo_cbse_21_006",
     "difficulty": "standard",
     "workedExample": [
@@ -12816,7 +13697,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: GIS is \"A system for capturing, storing, checking, integrating, manipulating, analysing and displaying data, which are",
-    "id": "gen_c12_geo_ch21_q6",
+    "id": "gen_c12_geo_ch21_q7",
     "nodeId": "c12_geo_cbse_21_007",
     "difficulty": "standard",
     "workedExample": [
@@ -12868,7 +13749,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (choosing raster) indicates the student overlooks that network/buffer analysis relies on precise geometry and topology — vector's strength.",
-    "id": "gen_c12_geo_ch21_q7",
+    "id": "gen_c12_geo_ch21_q8",
     "nodeId": "c12_geo_cbse_21_008",
     "difficulty": "standard",
     "workedExample": [
@@ -12920,7 +13801,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong sequence (e.g., buffering wards instead of hospitals, or using “intersect” instead of “within”) shows inability to translate a proximity question into the correct geometric logic and tool order.",
-    "id": "gen_c12_geo_ch21_q8",
+    "id": "gen_c12_geo_ch21_q9",
     "nodeId": "c12_geo_cbse_21_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -12939,7 +13820,7 @@ export const C12_GEO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer (e.g., \"more pixels = better\") reveals confusion between spatial resolution (pixel size) and spectral resolution (number/width of bands) — both are independent resolution types.",
-    "id": "gen_c12_geo_ch21_q9",
+    "id": "gen_c12_geo_ch21_q10",
     "nodeId": "c12_geo_cbse_21_010",
     "difficulty": "standard",
     "workedExample": [
@@ -12959,7 +13840,7 @@ export const C12_GEO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value in km.",
     "misconception": "A student who forgets to convert ms to s or subtracts instead of adds reveals confusion about pseudorange vs. true geometric range.",
-    "id": "gen_c12_geo_ch21_q10",
+    "id": "gen_c12_geo_ch21_q11",
     "nodeId": "c12_geo_cbse_21_011",
     "difficulty": "standard",
     "workedExample": [
@@ -12980,7 +13861,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Applications of Spatial' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying vector is better for satellite imagery) reveals the student confuses the *native format of remote sensing data* (raster) with the *format preferred for precise boundary representation* (vector). This is a common trap in board MCQs.",
-    "id": "gen_c12_geo_ch21_q11",
+    "id": "gen_c12_geo_ch21_q12",
     "nodeId": "c12_geo_cbse_21_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -12989,6 +13870,245 @@ export const C12_GEO_GEN: SimDef[] = [
      "This is exactly what the NCERT chapter demonstrates using overlay analysis (Fig.",
      "4.8–4.10) and buffer analysis (Fig."
     ]
+   },
+   {
+    "type": "order",
+    "question": "Compare the field survey design requirements for studying (A) \"Perception of heat stress among street vendors in Delhi's Chandni Chowk\" vs (B) \"Soil moisture variation across a 50-ha wheat farm in Punjab.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Instrument",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Scheduling and ethics",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Unit of analysis",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Sampling frame",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer treats both as questionnaire surveys, missing that the farm study is a biophysical measurement survey.",
+    "id": "gen_c12_geo_ch21_q13",
+    "nodeId": "c12_geo_cbse_21_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Design a one-page field survey protocol card (mental or paper) that a Class 12 student can carry during a household survey on \"Domestic Water Use and Conservation Practices in a Bengaluru Apartment Complex.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Hypotheses",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Skip logic",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Coded variables",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Field protocol",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer writes vague questions about water with no codes, units or logic.",
+    "id": "gen_c12_geo_ch21_q14",
+    "nodeId": "c12_geo_cbse_21_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Evaluate the following field survey plan for a Class 12 project: \"I will visit 5 villages near my town, stand at the bus stop, and ask every 10th person coming out about their migration history.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "No ethics or logistics",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "No instrument standardisation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "No spatial stratification",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "No sampling frame",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer stops at calling the sample small or unscientific without naming the violated design principles of frame, stratification, standardisation and ethics.",
+    "id": "gen_c12_geo_ch21_q15",
+    "nodeId": "c12_geo_cbse_21_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "You are designing a survey to map household-level flood vulnerability in a 2 km² urban ward in Guwahati with 1,200 households across three micro-zones: riverfront (300 HH), mid-slope (600 HH) and hilltop (300 HH).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Neyman allocation",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Stratification choice",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Finite population correction",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Base sample",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s4",
+      "label": "The flaw to avoid",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer ignores spatial heterogeneity altogether.",
+    "id": "gen_c12_geo_ch21_q16",
+    "nodeId": "c12_geo_cbse_21_002",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -13032,7 +14152,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (agreeing with the statement) reveals \"method monism\" — the competitive exam trap of treating one method as universally sufficient, ignoring triangulation (a core NCERT principle in Practical Work in Geography).",
-    "id": "gen_c12_geo_ch21_q12",
+    "id": "gen_c12_geo_ch21_q17",
     "nodeId": "c12_geo_cbse_21_003",
     "difficulty": "advanced"
    },
@@ -13100,283 +14220,9 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The five essential elements: (1) Title/Feature name — identifies what is sketched (e.",
-    "id": "gen_c12_geo_ch21_q13",
-    "nodeId": "c12_geo_cbse_21_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Compare two field recording approaches for a traffic count at a busy intersection in Bengaluru: (A) Tally marks on a printed form with 15-minute interval columns for each vehicle category.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Spatial analysis needs GPS-tagged entries",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Peak-hour factor requires exact timestamps",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "Enumerator fatigue",
-      "emoji": "📌",
-      "correctBin": "o2"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer focuses only on \"digital is better\" without analyzing the specific analytical requirements of traffic geography.",
-    "id": "gen_c12_geo_ch21_q14",
-    "nodeId": "c12_geo_cbse_21_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Evaluate the ethical and legal implications of recording audio interviews with farmers in a Maharashtra drought-affected district without written consent, using only verbal agreement recorded at the start of the audio file.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "CBSE practical guidelines explicitly require",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "DPDP Act",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "ICMR National Ethical Guidelines",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Verbal consent on tape is insufficient for three reasons: (1) ICMR National Ethical Guidelines (2017) require written",
-    "id": "gen_c12_geo_ch21_q15",
-    "nodeId": "c12_geo_cbse_21_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Compare the advantages of GIS over manual methods for studying urban sprawl over 30 years (e.g., Aligarh city 1974–2001). Why is overlay analysis in GIS superior to sieve mapping on a light table?",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Overlay analysis integrates multiple layers",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "Dynamic querying",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "Separate storage of data and presentation",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "Reproducible",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Manual sieve mapping requires physical transparencies, fixed themes, and redrawing for each change.",
-    "id": "gen_c12_geo_ch21_q16",
-    "nodeId": "c12_geo_cbse_21_007",
-    "difficulty": "standard"
-   },
-   {
-    "type": "order",
-    "question": "Design a remote sensing based monitoring plan for detecting illegal mining in a forested district of Jharkhand. Specify: (i) satellite/sensor combination, (ii) temporal frequency, (iii) key spectral bands/indices, (iv) one GIS operation to quantify change.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "GIS overlay analysis",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s1",
-      "label": "Sentinel-2",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "SWIR bands",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s3",
-      "label": "fortnightly during dry season",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Good answer: (i) Sentinel-2 (10 m multispectral, 5-day revisit) or Resourcesat-2A LISS-IV (5.",
-    "id": "gen_c12_geo_ch21_q17",
-    "nodeId": "c12_geo_cbse_21_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "order",
-    "question": "Design a GPS-based field survey plan to map the boundary of a 50-ha village pond in West Bengal during monsoon. Specify equipment, observation strategy, and quality checks.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "≥5 satellites",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "repeat 10% points for closure",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s2",
-      "label": "PDOP < 4",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "fixed integer solution",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s4",
-      "label": "compare with high-resolution satellite",
-      "emoji": "📌",
-      "correctBin": "o4"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Equipment: Dual-frequency RTK-GPS (base + rover), choke-ring antenna, pole, controller.",
     "id": "gen_c12_geo_ch21_q18",
-    "nodeId": "c12_geo_cbse_21_011",
-    "difficulty": "standard"
+    "nodeId": "c12_geo_cbse_21_005",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {

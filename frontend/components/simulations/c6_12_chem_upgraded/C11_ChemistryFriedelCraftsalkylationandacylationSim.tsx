@@ -782,8 +782,10 @@ const ReactionEnergyProfileSVG: React.FC<{ reactionType: 'alkylation' | 'acylati
 // --- MAIN COMPONENT ---
 export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
   initialNodeId = NODE_FC_ALKYLATION,
+  onComplete,
 }: {
   initialNodeId?: string;
+  onComplete?: (score: number) => void;
 }) {
   // Navigation & Tabs
   const [activeTab, setActiveTab] = useState<'discovery' | 'lab' | 'challenges' | 'summary'>('discovery');
@@ -1026,6 +1028,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
         audioManager.play('celebration');
         speechManager.speak('Congratulations! You have completed all Friedel-Crafts challenges!');
         recordGameScore('c11_chem_fc_reactions', score + 50);
+        if (onComplete) onComplete(score + 50);
       }
     } else {
       audioManager.play('drop-wrong');

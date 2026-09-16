@@ -8,7 +8,7 @@ export const c6_math_ch07_p3: SimDef = {
     subtitle: 'This node covers identifying angle pairs and applying their properties (equality.',
     classLevel: 6, subject: 'mathematics', topic: 'Geometry · Part 3/3',
     chapters: ['c6_math_ch07'],
-    nodeIds: ['c6_math_ch07_082', 'c6_math_ch07_083', 'c6_math_ch07_084'],
+    nodeIds: ['c6_math_ch07_082', 'c6_math_ch07_083', 'c6_math_ch07_070'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a railway track with a diagonal metal rod crossing over the two parallel rails?', goal: 'Master every idea in this chapter.' },

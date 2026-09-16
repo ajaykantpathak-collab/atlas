@@ -16,13 +16,16 @@ export const C12_ACC_GEN: SimDef[] = [
   "subject": "accountancy",
   "topic": "Dissolution Of Partnership",
   "chapters": [
-   "Accountancy Ch4: Dissolution Of Partnership"
+   "Accountancy Ch4: Dissolution Of Partnership",
+   "Accountancy Ch5: Dissolution Of Partnership"
   ],
   "nodeIds": [
    "c12_acc_cbse_04_001",
    "c12_acc_cbse_04_002",
+   "c12_acc_cbse_05_002",
    "c12_acc_cbse_04_003",
    "c12_acc_cbse_04_004",
+   "c12_acc_cbse_05_004",
    "c12_acc_cbse_04_005",
    "c12_acc_cbse_04_006",
    "c12_acc_cbse_04_007",
@@ -60,6 +63,12 @@ export const C12_ACC_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
+    "title": "Public Issue, Private Placement, And Rights",
+    "text": "Public Issue, Private Placement, and Rights Issue are three distinct methods through which a company can issue shares to raise capital. A Public Issue involves offering shares to the general public through a prospectus.",
+    "emoji": "🧾",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
     "title": "Realisation Account",
     "text": "A Realisation Account is a temporary nominal account prepared during the dissolution of a partnership firm to record the sale of assets, settlement of liabilities, and realization expenses, thereby determining the profit or loss on realization which is",
     "emoji": "🧾",
@@ -70,6 +79,12 @@ export const C12_ACC_GEN: SimDef[] = [
     "text": "Treatment of Realisation Expenses refers to the accounting procedure for recording costs incurred during the winding up of a partnership firm (e.",
     "emoji": "🧾",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Minimum Subscription",
+    "text": "Minimum Subscription is the SEBI-mandated threshold (90% of issued capital) that a company must receive in cash before making any allotment of shares; Over-subscription occurs when applications for shares exceed the number offered; Pro-rata Allotment is the",
+    "emoji": "🧾",
+    "bgColor": "from-violet-400 to-purple-500"
    },
    {
     "title": "Unrecorded Assets",
@@ -152,6 +167,58 @@ export const C12_ACC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A company wants to raise capital quickly without extensive regulatory filings and is willing to limit its investor base to fewer than 200 sophisticated investors. Which method of share issue should it choose?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The contrast",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The fit",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Method chosen",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer choosing a public issue confuses speed and regulatory burden, and a rights issue cannot reach new investors.",
+    "id": "gen_c12_acc_ch04_q3",
+    "nodeId": "c12_acc_cbse_05_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a startup, \"GreenTech Ltd.\", needs ₹50 crore to expand its solar panel manufacturing.",
+     "The board debates three routes: (a) go to the public via an IPO, (b) approach a few venture capital funds privately, or (c) offer new shares to",
+     "Which route suits which situation?",
+     "We begin by defining each method, then compare their investor base, disclosure norms, and speed."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What is the primary purpose of preparing a Realisation Account in the dissolution of a partnership firm?",
     "answer": "The primary purpose is to ascertain the profit or loss on the realization of assets and payment of liabilities by comparing their book values with the actual amounts realized/paid",
@@ -162,7 +229,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Realisation Account' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to distribute cash among partners\") reveals the student confuses Realisation Account with the final cash distribution or partners' capital accounts.",
-    "id": "gen_c12_acc_ch04_q3",
+    "id": "gen_c12_acc_ch04_q4",
     "nodeId": "c12_acc_cbse_04_003",
     "difficulty": "standard",
     "workedExample": [
@@ -214,7 +281,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer that puts the whole ₹28,000 on Realisation and ignores the partner's cap shows inability to split expenses per agreement.",
-    "id": "gen_c12_acc_ch04_q4",
+    "id": "gen_c12_acc_ch04_q5",
     "nodeId": "c12_acc_cbse_04_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -222,6 +289,80 @@ export const C12_ACC_GEN: SimDef[] = [
      "They hire a lawyer for ₹25,000 and an auctioneer for ₹15,000 to sell assets.",
      "The partnership deed is silent on who pays these costs.",
      "The partners argue: \"Should the firm pay from asset proceeds, or should one partner pay personally?\" This is exactly the problem this node solves."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A company issued 2,00,000 shares of ₹10 each at par. Applications received for 3,00,000 shares. The board decides to: reject applications for 50,000 shares; make pro-rata allotment to remaining applicants.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Adjustment",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Refund",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Verdict",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "Pro-rata ratio",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s4",
+      "label": "Minimum subscription test",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who skips the minimum subscription check fails the evaluation competency.",
+    "id": "gen_c12_acc_ch04_q6",
+    "nodeId": "c12_acc_cbse_05_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a popular IPO like Zomato or Paytm where millions of investors apply but the company only offered 10 crore shares.",
+     "The company receives applications for 100 crore shares — that's over-subscription!",
+     "How does the company fairly decide who gets shares?",
+     "They can't give everyone what they asked for."
     ]
    },
    {
@@ -235,7 +376,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Unrecorded assets' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"assets not yet sold\") reveals the student confuses unrecorded with unrealised; unrecorded means absent from books, not unsold.",
-    "id": "gen_c12_acc_ch04_q5",
+    "id": "gen_c12_acc_ch04_q7",
     "nodeId": "c12_acc_cbse_04_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -287,7 +428,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer like \"Partner's capital before partner's loan\" reveals the student confuses loan (a liability) with capital (equity) and violates Section 48 of the Partnership Act. This error leads to incorrect journal entries and balance sheet presentation in board exams.",
-    "id": "gen_c12_acc_ch04_q6",
+    "id": "gen_c12_acc_ch04_q8",
     "nodeId": "c12_acc_cbse_04_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -339,7 +480,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., paying partner loans before creditors) reveals the student confuses internal priority with statutory priority — a fatal error in board exams because Section 48 is mandatory and non-negotiable.",
-    "id": "gen_c12_acc_ch04_q7",
+    "id": "gen_c12_acc_ch04_q9",
     "nodeId": "c12_acc_cbse_04_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -358,7 +499,7 @@ export const C12_ACC_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer (e.g., sharing ₹20,000 among A, B, C in 3:2:1) reveals the student applies normal loss-sharing instead of Garner v Murray — they fail to exclude the insolvent partner from bearing the loss.",
-    "id": "gen_c12_acc_ch04_q8",
+    "id": "gen_c12_acc_ch04_q10",
     "nodeId": "c12_acc_cbse_04_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -379,7 +520,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Preparation of Realisation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to record journal entries\" or \"to calculate partner's capital\") reveals the student confuses the Realisation Account with the journal or the Partners' Capital Account.",
-    "id": "gen_c12_acc_ch04_q9",
+    "id": "gen_c12_acc_ch04_q11",
     "nodeId": "c12_acc_cbse_04_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -431,7 +572,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who says profit-sharing ratio ignores the specific legal precedent and the distinction between profit-sharing (for P&L) and capital contribution (for loss on realisation).",
-    "id": "gen_c12_acc_ch04_q10",
+    "id": "gen_c12_acc_ch04_q12",
     "nodeId": "c12_acc_cbse_04_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -450,7 +591,7 @@ export const C12_ACC_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer (e.g., not sharing realization loss first, or sharing deficiency among all three) reveals the student misses the sequence: first share realization profit/loss normally, then apply Garner v Murray on resulting deficiency.",
-    "id": "gen_c12_acc_ch04_q11",
+    "id": "gen_c12_acc_ch04_q13",
     "nodeId": "c12_acc_cbse_04_008",
     "difficulty": "advanced"
    },
@@ -496,7 +637,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer paying capitals before loan, or ignoring the loan, shows the student hasn't internalised the statutory payment hierarchy.",
-    "id": "gen_c12_acc_ch04_q12",
+    "id": "gen_c12_acc_ch04_q14",
     "nodeId": "c12_acc_cbse_04_006",
     "difficulty": "advanced"
    },
@@ -542,7 +683,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that distributes ₹40,000 equally or before loans reveals failure to apply the waterfall and profit-sharing ratio simultaneously.",
-    "id": "gen_c12_acc_ch04_q13",
+    "id": "gen_c12_acc_ch04_q15",
     "nodeId": "c12_acc_cbse_04_007",
     "difficulty": "advanced"
    },
@@ -551,13 +692,13 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "\"Every dissolution of partnership firm involves dissolution of partnership, but the reverse is not true.\" Evaluate this statement with reasons.",
     "answer": "True. When a firm is dissolved, the partnership agreement automatically ends (so partnership is dissolved)",
     "options": [
+     "(1) Method chosen — private placement of shares to at most 200 select investors in a financial year, (2) The fit",
      "Assets are debited and external liabilities are credited at their book values",
-     "Realisation Account Dr. | Cr. ---|--- To Building (book value) | 5,00,000 | By Creditors (book value) | 1,20,000 To Creditors (paid) | 1,15,000 | By Building (sale) | 6,20,000 To",
      "True. When a firm is dissolved, the partnership agreement automatically ends (so partnership is dissolved)"
     ],
     "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
     "misconception": "A wrong evaluation (saying both are same or reverse is true) reveals the student misses the hierarchical relationship: firm dissolution ⊃ partnership dissolution.",
-    "id": "gen_c12_acc_ch04_q14",
+    "id": "gen_c12_acc_ch04_q16",
     "nodeId": "c12_acc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -572,7 +713,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
     "misconception": "A wrong answer (dissolution of partnership or no Realisation Account) indicates the student does not link firm closure with the mandatory preparation of Realisation Account.",
-    "id": "gen_c12_acc_ch04_q15",
+    "id": "gen_c12_acc_ch04_q17",
     "nodeId": "c12_acc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -587,36 +728,6 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
     "misconception": "A wrong answer (saying Realisation Account is used in both) shows the student does not distinguish between revaluation (continuing firm) and realization (closing firm).",
-    "id": "gen_c12_acc_ch04_q16",
-    "nodeId": "c12_acc_cbse_04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a short scenario (2-3 sentences) where a partnership firm undergoes dissolution of partnership twice within a year but never reaches dissolution of firm.",
-    "answer": "Example: \"In January, Partner A retires and Partner D is admitted — first dissolution of partnership",
-    "options": [
-     "Scenario: Partners X and Y run a manufacturing firm. Y is found to have secretly diverted firm's funds to a competing business he started, causing loss of trust",
-     "Scenario: Assets: Machinery ₹2,00,000 (sold ₹1,50,000), Stock ₹80,000 (sold ₹60,000), Debtors ₹50,000 (realized ₹45,000)",
-     "Example: \"In January, Partner A retires and Partner D is admitted — first dissolution of partnership"
-    ],
-    "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
-    "misconception": "A poor answer (describing firm closure or only one event) shows the student cannot conceive of multiple reconstitutions without firm termination.",
-    "id": "gen_c12_acc_ch04_q17",
-    "nodeId": "c12_acc_cbse_04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words why the death of a partner leads to dissolution of partnership but not necessarily dissolution of the firm.",
-    "answer": "The death of a partner dissolves the existing partnership agreement (dissolution of partnership)",
-    "options": [
-     "When the firm bears, the expense reduces the firm's profit/loss on realisation (debited to Realisation A/c)",
-     "Section 43 applies only to partnerships at will, where no fixed duration is agreed upon. In a fixed-term partnership, the partnership deed binds partners for the specified period",
-     "The death of a partner dissolves the existing partnership agreement (dissolution of partnership)"
-    ],
-    "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
-    "misconception": "A wrong answer (saying the firm always dissolves) shows the student confuses the legal end of the agreement with the end of the business entity.",
     "id": "gen_c12_acc_ch04_q18",
     "nodeId": "c12_acc_cbse_04_001",
     "difficulty": "standard"
@@ -1092,6 +1203,21 @@ export const C12_ACC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "State the three mandatory legal elements that must be present for a document to qualify as a debenture under the Companies Act 2013, as per NCERT terminology.",
+    "answer": "(1) Written instrument acknowledging a debt, (2) Issued under the common seal of the company",
+    "options": [
+     "Correct Entry: Bank A/c Dr. 5,50,000 To 9% Debenture Application & Allotment A/c 5,50,000 9% Debenture Application & Allotment A/c Dr",
+     "Correct entry: Bank A/c Dr. 30,000 To Debenture Application A/c 30,000 (Application money received) Debenture Application A/c Dr",
+     "(1) Written instrument acknowledging a debt, (2) Issued under the common seal of the company"
+    ],
+    "hint": "Straight from the 'debenture' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals the student is confusing the *definition* with *features* (like \"fixed interest\" or \"secured\") or with *types* (like \"redeemable\"). Many students omit \"common seal\" which is a specific legal requirement under the Companies Act — missing this loses 1 mark in board exams where definitions are",
+    "id": "gen_c12_acc_ch06_q14",
+    "nodeId": "c12_acc_cbse_06_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Volt Motors Ltd. issues 5,000 debentures of ₹100 each at par, carrying 9% interest, redeemable after 7 years at a premium of 5%. The debentures are secured by a floating charge on all current assets and are convertible into equity shares at the holder's option after 3 years at a ratio of 1 debenture : 2 equity shares.",
     "answer": "Correct classification with justifications: 1. Security: Secured — floating charge on current assets creates a charge on assets",
     "options": [
@@ -1101,7 +1227,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'debenture' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student cannot map a single real-world instrument to multiple classification dimensions simultaneously — a critical skill for board case studies and CUET assertion-reason questions where one debenture must be analysed across all bases.",
-    "id": "gen_c12_acc_ch06_q14",
+    "id": "gen_c12_acc_ch06_q15",
     "nodeId": "c12_acc_cbse_06_001",
     "difficulty": "standard"
    },
@@ -1116,7 +1242,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Issue of debentures' slide -- match the key terms.",
     "misconception": "If the student only records premium on issue and ignores redemption premium, they understate liabilities and overstate profit.",
-    "id": "gen_c12_acc_ch06_q15",
+    "id": "gen_c12_acc_ch06_q16",
     "nodeId": "c12_acc_cbse_06_002",
     "difficulty": "advanced"
    },
@@ -1131,7 +1257,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Issue of debentures' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, it is not correct. \"Discount on Issue of Debentures\" and \"Loss on Issue of Debentures\" are different.",
-    "id": "gen_c12_acc_ch06_q16",
+    "id": "gen_c12_acc_ch06_q17",
     "nodeId": "c12_acc_cbse_06_002",
     "difficulty": "advanced"
    },
@@ -1146,21 +1272,6 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Issue of debentures' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Premium on issue → Credited to Securities Premium Reserve → Shown under Shareholders' Funds → Reserves and Surplus",
-    "id": "gen_c12_acc_ch06_q17",
-    "nodeId": "c12_acc_cbse_06_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a scenario where a company issues debentures at a discount but the discount is not written off in the same year. Show the Balance Sheet extract for Year 1 and Year 2 (assuming equal write-off over 5 years). Explain the change.",
-    "answer": "Scenario: ABC Ltd. issues 5,000, 10% debentures of ₹100 each at 5% discount on 1 April 2023. Discount = ₹25,000",
-    "options": [
-     "(a) Annual contribution = ₹5,00,00,000 × 0.177396 = ₹88,69,800. (b) Year 1 (31 Mar 2024): Dr P&L Appropriation ₹88,69,800 Cr Sinking Fund ₹88,69,800",
-     "Total discount = ₹50,000. Debentures outstanding at start of each year: Year 1: ₹10,00,000; Year 2: ₹7,50,000; Year 3: ₹5,00,000; Year 4: ₹2,50,000",
-     "Scenario: ABC Ltd. issues 5,000, 10% debentures of ₹100 each at 5% discount on 1 April 2023. Discount = ₹25,000"
-    ],
-    "hint": "Straight from the 'Issue of debentures' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Scenario: ABC Ltd. issues 5,000, 10% debentures of ₹100 each at 5% discount on 1 April 2023.",
     "id": "gen_c12_acc_ch06_q18",
     "nodeId": "c12_acc_cbse_06_002",
     "difficulty": "advanced"
@@ -1185,15 +1296,20 @@ export const C12_ACC_GEN: SimDef[] = [
   "subject": "accountancy",
   "topic": "Financial Statements Of a Company",
   "chapters": [
-   "Accountancy Ch7: Financial Statements Of a Company"
+   "Accountancy Ch7: Financial Statements Of a Company",
+   "Accountancy Ch8: Financial Statements Of a Company",
+   "Accountancy Ch9: Financial Statements Of a Company"
   ],
   "nodeIds": [
    "c12_acc_cbse_07_001",
    "c12_acc_cbse_07_002",
+   "c12_acc_cbse_09_002",
    "c12_acc_cbse_07_003",
    "c12_acc_cbse_07_004",
    "c12_acc_cbse_07_006",
-   "c12_acc_cbse_07_007"
+   "c12_acc_cbse_07_007",
+   "c12_acc_cbse_08_008",
+   "c12_acc_cbse_08_009"
   ],
   "emoji": "🧾",
   "theme": {
@@ -1225,6 +1341,12 @@ export const C12_ACC_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
+    "title": "As Per Accounting Standard-3 , Cash",
+    "text": "As per Accounting Standard-3 (AS-3), Cash comprises cash in hand and demand deposits with banks (i.e., balances that can be withdrawn at any time without notice).",
+    "emoji": "🧾",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
     "title": "Statement Of Profit And Loss",
     "text": "The Statement of Profit and Loss (as per Schedule III, Part II of the Companies Act, 2013) is a standardized financial statement that presents a company's revenues, expenses, and profit/loss for a specific accounting period in a prescribed vertical format",
     "emoji": "🧾",
@@ -1247,6 +1369,18 @@ export const C12_ACC_GEN: SimDef[] = [
     "text": "Live Stock, Loose Tools, and Patent Rights are specific assets that require distinct classification and presentation in a company's Balance Sheet as per Schedule III of the Companies Act, 2013.",
     "emoji": "🧾",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Trend Analysis",
+    "text": "Trend analysis is a technique of financial statement analysis that expresses each item of a financial statement for a series of years as a percentage of the same item in a chosen base year, thereby revealing the direction and magnitude of changes over time.",
+    "emoji": "🧾",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Internal Analysis",
+    "text": "Internal analysis is the examination of financial statements by persons who have access to the detailed accounting records of the enterprise (e.",
+    "emoji": "🧾",
+    "bgColor": "from-amber-400 to-orange-500"
    }
   ],
   "challenges": [
@@ -1255,8 +1389,8 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "Compare the objective of \"Stewardship Reporting\" in a company versus a partnership firm. How does the separation of ownership and management in a company change the nature of this objective?",
     "answer": "In a partnership, partners are usually both owners and managers; stewardship is internal — partners monitor each other directly",
     "options": [
-     "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
-     "Loose Tools are consumable, low-value implements with short useful lives, frequently replaced and not used for long-term production capacity",
+     "Example mnemonic: \"Revenge Of Total Expenses Produces Big Exceptional Extra Profits Before Tax Takes Profit Discontinuing Tax Profit Earnings\"",
+     "No, it is NOT permissible. Under Table F of Schedule I of the Companies Act 2013 (which applies when Articles are silent): (i) Interest on Calls in Arrears cannot exceed 10% p",
      "In a partnership, partners are usually both owners and managers; stewardship is internal — partners monitor each other directly"
     ],
     "hint": "Straight from the 'Financial Statements of a Company' slide -- match the key terms.",
@@ -1276,8 +1410,8 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "A company reclassifies a ₹2 crore loan from \"Long-term Borrowings\" (Non-Current) to \"Short-term Borrowings\" (Current) because the maturity date is now 10 months away. The CFO argues this \"improves the Current Ratio.\" Evaluate this action: Is it compliant with Schedule III? Does it mislead users?",
     "answer": "Compliant but potentially misleading. Schedule III *requires* reclassification when a long-term borrowing's maturity falls within 12 months",
     "options": [
-     "No, it is NOT permissible. Under Table F of Schedule I of the Companies Act 2013 (which applies when Articles are silent): (i) Interest on Calls in Arrears cannot exceed 10% p",
-     "Example mnemonic: \"Revenge Of Total Expenses Produces Big Exceptional Extra Profits Before Tax Takes Profit Discontinuing Tax Profit Earnings\"",
+     "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
+     "(1) Flawed premise — the base year is not normal, because the one-time gain on selling a factory makes that year's net profit abnormally high, (2) Misread trend",
      "Compliant but potentially misleading. Schedule III *requires* reclassification when a long-term borrowing's maturity falls within 12 months"
     ],
     "hint": "Straight from the 'The Balance Sheet of a' slide -- match the key terms.",
@@ -1293,17 +1427,80 @@ export const C12_ACC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Critique this statement: *\"Any investment with a maturity of less than 3 months automatically qualifies as a Cash Equivalent.\"* Provide a counter-example from the NCERT text and explain which AS-3 criterion it violates.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Counter-example",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Stance",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The missing criterion",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Further counter-example",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls the three-month rule sufficient has memorised the maturity test but missed the dual criteria of maturity plus risk.",
+    "id": "gen_c12_acc_ch07_q3",
+    "nodeId": "c12_acc_cbse_09_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are the CFO of a startup.",
+     "Your bank balance shows ₹50 lakh, but you also hold ₹20 lakh in a 6-month Fixed Deposit, ₹10 lakh in Treasury Bills maturing in 45 days, and ₹5 lakh",
+     "A potential investor asks: \"What is your *true* liquid cash position today?\" You cannot simply add everything.",
+     "The 6-month FD isn't instantly accessible without penalty; the shares fluctuate daily."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Design a mnemonic or memory aid to recall the 16-line sequence of the Statement of Profit and Loss (I to XVI). Test it by writing the full sequence from memory.",
     "answer": "Example mnemonic: \"Revenge Of Total Expenses Produces Big Exceptional Extra Profits Before Tax Takes Profit Discontinuing Tax Profit Earnings\"",
     "options": [
-     "No, it is NOT permissible. Under Table F of Schedule I of the Companies Act 2013 (which applies when Articles are silent): (i) Interest on Calls in Arrears cannot exceed 10% p",
      "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
+     "(1) Stance — the statement is false, because a maturity of three months or less is necessary but not sufficient, (2) The missing criterion",
      "Example mnemonic: \"Revenge Of Total Expenses Produces Big Exceptional Extra Profits Before Tax Takes Profit Discontinuing Tax Profit Earnings\""
     ],
     "hint": "Straight from the 'Statement of Profit and Loss' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example mnemonic: \"Revenge Of Total Expenses Produces Big Exceptional Extra Profits Before Tax Takes Profit",
-    "id": "gen_c12_acc_ch07_q3",
+    "id": "gen_c12_acc_ch07_q4",
     "nodeId": "c12_acc_cbse_07_003",
     "difficulty": "standard",
     "workedExample": [
@@ -1318,13 +1515,13 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "A company's Articles of Association are silent on interest on Calls in Arrears and Calls in Advance. The company charges 10% p.a. on arrears and pays 12% p.a. on advance. Is this permissible under the Companies Act 2013? Justify your answer with the relevant statutory provision.",
     "answer": "No, it is NOT permissible. Under Table F of Schedule I of the Companies Act 2013 (which applies when Articles are silent): (i) Interest on Calls in Arrears cannot exceed 10% p",
     "options": [
-     "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
+     "(1) Flawed premise — the base year is not normal, because the one-time gain on selling a factory makes that year's net profit abnormally high, (2) Misread trend",
      "Compliant but potentially misleading. Schedule III *requires* reclassification when a long-term borrowing's maturity falls within 12 months",
      "No, it is NOT permissible. Under Table F of Schedule I of the Companies Act 2013 (which applies when Articles are silent): (i) Interest on Calls in Arrears cannot exceed 10% p"
     ],
     "hint": "Straight from the 'Calls in Arrears' slide -- match the key terms.",
     "misconception": "A student who says \"not allowed because Articles are silent\" misunderstands: Table F provides default provisions that apply automatically when Articles don't specify otherwise. A student who says \"any rate is allowed\" misses the statutory ceilings.",
-    "id": "gen_c12_acc_ch07_q4",
+    "id": "gen_c12_acc_ch07_q5",
     "nodeId": "c12_acc_cbse_07_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -1339,13 +1536,13 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "GreenEnergy Ltd. issues 1,00,000 equity shares of ₹10 each at a discount of 5%. The issue is fully subscribed. Pass the journal entry for the allotment money due (including discount) and show how the discount appears in the Balance Sheet.",
     "answer": "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
     "options": [
-     "Compliant but potentially misleading. Schedule III *requires* reclassification when a long-term borrowing's maturity falls within 12 months",
      "Example mnemonic: \"Revenge Of Total Expenses Produces Big Exceptional Extra Profits Before Tax Takes Profit Discontinuing Tax Profit Earnings\"",
+     "No, it is NOT permissible. Under Table F of Schedule I of the Companies Act 2013 (which applies when Articles are silent): (i) Interest on Calls in Arrears cannot exceed 10% p",
      "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of"
     ],
     "hint": "Straight from the 'Underwriting commission' slide -- match the key terms.",
     "misconception": "A wrong entry (e.g., crediting Discount on Issue to Share Capital) or showing discount as a deduction from share capital on the face of Balance Sheet (old format) indicates confusion with the pre-2013 presentation or misapplication of the \"net proceeds\" concept.",
-    "id": "gen_c12_acc_ch07_q5",
+    "id": "gen_c12_acc_ch07_q6",
     "nodeId": "c12_acc_cbse_07_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -1360,13 +1557,13 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "Explain why Loose Tools are classified as Current Assets (Inventories) rather than Property, Plant and Equipment, even though they are physical tools.",
     "answer": "Loose Tools are consumable, low-value implements with short useful lives, frequently replaced and not used for long-term production capacity",
     "options": [
-     "No, it is NOT permissible. Under Table F of Schedule I of the Companies Act 2013 (which applies when Articles are silent): (i) Interest on Calls in Arrears cannot exceed 10% p",
-     "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
+     "(1) Stance — refute the statement, because access to more data does not decide reliability, (2) Argument one",
+     "Example mnemonic: \"Revenge Of Total Expenses Produces Big Exceptional Extra Profits Before Tax Takes Profit Discontinuing Tax Profit Earnings\"",
      "Loose Tools are consumable, low-value implements with short useful lives, frequently replaced and not used for long-term production capacity"
     ],
     "hint": "Straight from the 'Live Stock, Loose Tools, and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they are tools so they are fixed assets\") shows inability to distinguish between capital equipment and consumable stores based on materiality and usage pattern.",
-    "id": "gen_c12_acc_ch07_q6",
+    "id": "gen_c12_acc_ch07_q7",
     "nodeId": "c12_acc_cbse_07_007",
     "difficulty": "standard",
     "workedExample": [
@@ -1375,6 +1572,155 @@ export const C12_ACC_GEN: SimDef[] = [
      "Start by recalling the asset classification: Fixed vs Current, Tangible vs Intangible.",
      "Live Stock is a tangible asset used for breeding/production → Non-current Assets → Property, Plant & Equipment."
     ]
+   },
+   {
+    "type": "order",
+    "question": "A student computes trend percentages for a company's Net Profit using 2020 as base year. In 2020, the company sold a factory building and recorded a large one-time gain, making Net Profit abnormally high.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Misread trend",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Flawed premise",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Correct practice",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that agrees with the student shows inability to critique base-year selection and confuses one-time gains with recurring profit.",
+    "id": "gen_c12_acc_ch07_q8",
+    "nodeId": "c12_acc_cbse_08_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are a credit analyst at a bank reviewing a loan application from a manufacturing company.",
+     "The borrower provides five years of revenue data: ₹50 lakh, ₹55 lakh, ₹48 lakh, ₹62 lakh, ₹70 lakh.",
+     "At first glance, the numbers fluctuate — how do you quickly assess whether the business is growing, stagnating, or volatile?",
+     "Trend analysis solves this by converting each year's figure into a percentage of a single base year (say, Year 1 = 100%)."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Evaluate this statement: \"Since external users only have access to published financial statements, their analysis is always less reliable than internal analysis.\" Defend or refute with two specific arguments.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Argument one",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Stance",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Argument two",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer agreeing with the statement equates more data access with more reliable conclusions, ignoring the quality assurance of audit and the comparability of standards.",
+    "id": "gen_c12_acc_ch07_q9",
+    "nodeId": "c12_acc_cbse_08_009",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are the CFO of a large Indian manufacturing company preparing the annual report.",
+     "The board of directors (internal users) asks for a detailed breakdown of why raw material costs increased by 18% — they want to see purchase orders,",
+     "Simultaneously, a potential investor (external user) reads the same annual report and only sees \"Cost of Materials Consumed\" as a single line item in",
+     "How would each analyse the company's performance differently?"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A student computes trend percentages for a company's Net Profit using 2020 as base year. In 2020, the company sold a factory building and recorded a large one-time gain, making Net Profit abnormally high.",
+    "answer": "(1) Flawed premise — the base year is not normal, because the one-time gain on selling a factory makes that year's net profit abnormally high, (2) Misread trend",
+    "options": [
+     "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
+     "Example mnemonic: \"Revenge Of Total Expenses Produces Big Exceptional Extra Profits Before Tax Takes Profit Discontinuing Tax Profit Earnings\"",
+     "(1) Flawed premise — the base year is not normal, because the one-time gain on selling a factory makes that year's net profit abnormally high, (2) Misread trend"
+    ],
+    "hint": "Straight from the 'Trend analysis' slide -- match the key terms.",
+    "misconception": "A wrong answer that agrees with the student shows inability to critique base-year selection and confuses one-time gains with recurring profit.",
+    "id": "gen_c12_acc_ch07_q10",
+    "nodeId": "c12_acc_cbse_08_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate this statement: \"Since external users only have access to published financial statements, their analysis is always less reliable than internal analysis.\" Defend or refute with two specific arguments.",
+    "answer": "(1) Stance — refute the statement, because access to more data does not decide reliability, (2) Argument one",
+    "options": [
+     "Loose Tools are consumable, low-value implements with short useful lives, frequently replaced and not used for long-term production capacity",
+     "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
+     "(1) Stance — refute the statement, because access to more data does not decide reliability, (2) Argument one"
+    ],
+    "hint": "Straight from the 'Internal analysis' slide -- match the key terms.",
+    "misconception": "A wrong answer agreeing with the statement equates more data access with more reliable conclusions, ignoring the quality assurance of audit and the comparability of standards.",
+    "id": "gen_c12_acc_ch07_q11",
+    "nodeId": "c12_acc_cbse_08_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Critique this statement: *\"Any investment with a maturity of less than 3 months automatically qualifies as a Cash Equivalent.\"* Provide a counter-example from the NCERT text and explain which AS-3 criterion it violates.",
+    "answer": "(1) Stance — the statement is false, because a maturity of three months or less is necessary but not sufficient, (2) The missing criterion",
+    "options": [
+     "Journal Entry: Bank A/c Dr. 9,50,000 Discount on Issue of Shares A/c Dr. 50,000 To Share Allotment A/c 10,00,000 Balance Sheet (Extract): Equity Share Capital: 1,00,000 shares of",
+     "(1) Flawed premise — the base year is not normal, because the one-time gain on selling a factory makes that year's net profit abnormally high, (2) Misread trend",
+     "(1) Stance — the statement is false, because a maturity of three months or less is necessary but not sufficient, (2) The missing criterion"
+    ],
+    "hint": "Straight from the 'As per Accounting Standard-3 ,' slide -- match the key terms.",
+    "misconception": "A wrong answer that calls the three-month rule sufficient has memorised the maturity test but missed the dual criteria of maturity plus risk.",
+    "id": "gen_c12_acc_ch07_q12",
+    "nodeId": "c12_acc_cbse_09_002",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -1384,6 +1730,7 @@ export const C12_ACC_GEN: SimDef[] = [
    ]
   },
   "successLine": "Financial Statements Of a mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  }
 ];

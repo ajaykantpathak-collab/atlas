@@ -2316,15 +2316,15 @@ export const C12_HIN_V_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Apply the \"proper noun clustering\" technique: From the first three paragraphs, extract ALL proper nouns (names of people, places, buildings, years). Group them into three categories: Political Figures, Architectural Sites, and Historical Events. How many distinct entries does each category contain?",
-    "answer": "Political Figures (4): Akbar (implied by \"flaèkq ?kkVh\"), Jahangir (jk[kkynkl), British archaeologist (tkWu ek'kZy), Archaeological Survey director (vfHk;ku)",
+    "question": "Analyze the phrase: \"flaèkq ?kkVh lH;rk dk lcls cM+k 'kgj gh ugha Fkk] mls lkèkuksa vkSj O;oLFkkvksa dks ns[krs gq, lcls le¼ Hkh ekuk x;k gSA\" (Fatehpur Sikri was not just the largest city of Akbar's reign, but also the most planned when viewing its systems and arrangements).",
+    "answer": "Evidence for \"le¼\": (1) Grid-like \"x<+\" (ridge) layout with distinct zones — administrative (Diwan-i-Aam/Khas), residential (palaces on ridge), religious (Jama Masjid)",
     "options": [
-     "This is a weak discussion starter because it reduces the chapter's multi-layered exploration of historical continuity, social stratification (*xat* vs *mapp* quarters)",
-     "Expectation: A sacred site marked by imperial edicts promoting moral law. Reality: Visitors use the same space for casual photography, often unaware of the historical gravity",
-     "Political Figures (4): Akbar (implied by \"flaèkq ?kkVh\"), Jahangir (jk[kkynkl), British archaeologist (tkWu ek'kZy), Archaeological Survey director (vfHk;ku)"
+     "Refute. The author's closing lines — \"vkt osQ eqgkojs esa dg ldrs gSa og ^yks&izksI+kQkby* lH;rk Fkh_ y?",
+     "Refute. The city *acts*: 1. \"यह नगर... अकबर को अपनी ओर खींचता है\" (the city draws Akbar to itself) — agency in choosing its master",
+     "Evidence for \"le¼\": (1) Grid-like \"x<+\" (ridge) layout with distinct zones — administrative (Diwan-i-Aam/Khas), residential (palaces on ridge), religious (Jama Masjid)"
     ],
     "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Political Figures (4): Akbar (implied by \"flaèkq ?kkVh\"), Jahangir (jk[kkynkl), British archaeologist (tkWu ek'kZy),",
+    "misconception": "Recheck the lesson slide -- the key claim is: Evidence for \"le¼\": (1) Grid-like \"x<+\" (ridge) layout with distinct zones — administrative (Diwan-i-Aam/Khas),",
     "id": "gen_c12_hin_v_ch03_q18",
     "nodeId": "c12_hin_v_cbse_03_001",
     "difficulty": "standard"

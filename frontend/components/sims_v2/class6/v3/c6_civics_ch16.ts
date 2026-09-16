@@ -8,7 +8,7 @@ export const c6_civics_ch16: SimDef = {
     subtitle: 'Same work, same sweat — so why is only one \'economic\'?',
     classLevel: 6, subject: 'civics', topic: 'Economic Life and Rights',
     chapters: ['c6_civics_ch16'],
-    nodeIds: ['c6_civics_ch16_039', 'c6_civics_ch16_040', 'c6_civics_ch16_041'],
+    nodeIds: [],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a neighbourhood survey-taker sorting everyone\'s daily work', intro: 'A shopkeeper opens shutters, a parent packs tiffins, a volunteer plants trees. Which of today\'s activities earn money — and which earn something else?', goal: 'Draw the line between economic and non-economic activity — the transaction test.' },

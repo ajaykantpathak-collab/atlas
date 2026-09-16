@@ -10,7 +10,7 @@ export const w_c6_evshumanimpactenvironmentsim: SimDef = {
     subtitle: 'This node covers the classification of changes based on utility and impact.',
     classLevel: 6, subject: 'evs', topic: 'Are All Changes Desirable? Good and Bad Changes',
     chapters: [],
-    nodeIds: ['c6_chemistry_ch05_007', 'c6_geography_ch03_019', 'c6_geography_ch02_014'],
+    nodeIds: ['c6_chemistry_ch05_007', 'c6_geography_ch03_019', 'c6_geography_ch02_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed that while you love the smell of a fresh, juicy mango, you feel sad when that same.', goal: 'Master Human Impact Environment.' },
     discovery: {

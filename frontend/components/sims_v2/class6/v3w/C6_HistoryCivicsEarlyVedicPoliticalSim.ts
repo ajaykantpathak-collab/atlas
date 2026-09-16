@@ -10,7 +10,7 @@ export const w_c6_historycivicsearlyvedicpoliticalsim: SimDef = {
     subtitle: 'This node covers the emergence of nationalism as a unified consciousness.',
     classLevel: 6, subject: 'history', topic: 'The Birth of Indian Nationalism',
     chapters: [],
-    nodeIds: ['c6_history_ch11_045', 'c6_history_ch11_049', 'c6_history_ch12_053', 'c6_history_ch04_001', 'c6_history_ch04_006'],
+    nodeIds: ['c6_history_ch11_045', 'c6_history_ch11_049', 'c6_history_ch12_051', 'c6_history_ch04_001', 'c6_history_ch04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are part of a team where everyone has different ideas, but you all decide to work together.', goal: 'Master Early Vedic Political.' },
     discovery: {

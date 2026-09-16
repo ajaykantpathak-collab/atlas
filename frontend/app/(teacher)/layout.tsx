@@ -2,24 +2,18 @@
 
 import { motion } from 'framer-motion'
 import {
-  LayoutDashboard, PenTool, Video, Users, BookOpen,
-  FileEdit, BarChart3, FileText, MessageSquare, Sparkles,
+  LayoutDashboard, BarChart3, Sparkles,
   Bell, Search, ChevronDown,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
+// Links must be real URL paths — route groups like (teacher) never appear
+// in the URL, so '/(teacher)/x' hrefs would 404.
 const navItems = [
-  { href: '/(teacher)/dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/(teacher)/grading', label: 'AI Grading', icon: PenTool },
-  { href: '/(teacher)/live-classes', label: 'Live Classes', icon: Video },
-  { href: '/(teacher)/students', label: 'Students', icon: Users },
-  { href: '/(teacher)/lessons', label: 'Lesson Plans', icon: BookOpen },
-  { href: '/(teacher)/authoring', label: 'Authoring', icon: FileEdit },
-  { href: '/(teacher)/analytics', label: 'Analytics', icon: BarChart3 },
-  { href: '/(teacher)/reports', label: 'Reports', icon: FileText },
-  { href: '/(teacher)/communication', label: 'Communication', icon: MessageSquare },
+  { href: '/teacher-overview', label: 'Dashboard', icon: LayoutDashboard },
+  { href: '/teacher-dashboard', label: 'Analytics', icon: BarChart3 },
 ]
 
 export default function TeacherLayout({ children }: { children: React.ReactNode }) {

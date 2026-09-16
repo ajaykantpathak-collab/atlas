@@ -8,7 +8,7 @@ export const c6_history_ch08: SimDef = {
     subtitle: 'This node covers the origins, the timeline, the capital (Hampi), and the peak leadership.',
     classLevel: 6, subject: 'history', topic: 'Regional Kingdoms',
     chapters: ['c6_history_ch08'],
-    nodeIds: ['c6_history_ch08_027', 'c6_history_ch08_028', 'c6_history_ch08_029', 'c6_history_ch08_030', 'c6_history_ch08_031', 'c6_history_ch08_032'],
+    nodeIds: ['c6_history_ch08_027', 'c6_history_ch08_028', 'c6_history_ch08_029', 'c6_history_ch08_030', 'c6_history_ch08_032'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered how a massive team project in class starts with just two friends coming up with.', goal: 'Master every idea in this chapter.' },

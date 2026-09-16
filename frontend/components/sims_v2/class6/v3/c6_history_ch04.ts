@@ -8,7 +8,7 @@ export const c6_history_ch04: SimDef = {
     subtitle: 'This node covers the emergence of early cities as a consequence of agricultural.',
     classLevel: 6, subject: 'history', topic: 'Early Cities',
     chapters: ['c6_history_ch04'],
-    nodeIds: ['c6_history_ch04_001', 'c6_history_ch04_002', 'c6_history_ch04_003', 'c6_history_ch04_004', 'c6_history_ch04_005', 'c6_history_ch04_006'],
+    nodeIds: ['c6_history_ch04_001', 'c6_history_ch04_003', 'c6_history_ch04_004', 'c6_history_ch04_005', 'c6_history_ch04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Think about your home: why do you live in a house in a specific town instead of moving to a new forest every.', goal: 'Master every idea in this chapter.' },

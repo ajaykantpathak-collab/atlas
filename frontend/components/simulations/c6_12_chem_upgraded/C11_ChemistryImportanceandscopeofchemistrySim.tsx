@@ -902,7 +902,7 @@ const NanoscaleCanvasSVG: React.FC<{ sizeNm: number; onSizeChange: (v: number) =
         <div className="grid grid-cols-2 gap-2 mt-2">
           <div className="bg-slate-800 p-2 rounded border border-slate-700 text-center">
             <div className="text-[10px] text-slate-400">Specific Surface Area ($S/V$)</div>
-            <div className="text-sm font-bold text-cyan-400 font-mono">{specificArea} $\text{nm}^{-1}$</div>
+            <div className="text-sm font-bold text-cyan-400 font-mono">{specificArea} {"$\\text{nm}^{-1}$"}</div>
           </div>
           <div className="bg-slate-800 p-2 rounded border border-slate-700 text-center">
             <div className="text-[10px] text-slate-400">Surface Atom Ratio</div>

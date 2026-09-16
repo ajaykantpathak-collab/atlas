@@ -5,13 +5,16 @@ import { useState, useEffect, useRef, Component, type ReactNode } from 'react'
 import Link from 'next/link'
 import {
   ArrowRight, Search, X, Sparkles, BookOpen,
-  TrendingUp, GraduationCap, Atom, FlaskConical,
+  GraduationCap, Atom, FlaskConical,
   Sigma, Leaf, Brain, Target, Layers, Compass,
   MapPin, Route, Trophy, CheckCircle2, Quote,
   ChevronDown, HelpCircle, Check,
 } from 'lucide-react'
 import { AtlasLandscape, type Region } from '@/components/prism/AtlasLandscape'
 import { GoldenGalaxy } from '@/components/prism/GoldenGalaxy'
+import AskBox from '@/components/discovery/AskBox'
+import AnswerCard, { type AtlasAnswer } from '@/components/discovery/AnswerCard'
+import SubjectStrip from '@/components/discovery/SubjectStrip'
 
 /* ═══════════════════════════════════════════════════════════════════════════
    ATLAS — Your map to mastery.
@@ -260,20 +263,14 @@ function buildRegions(subjects: string[], totalTopics: number) {
   })
 }
 
-const SUGGESTIONS = [
-  "I don't understand quadratic equations",
-  'Explain photosynthesis simply',
-  'What are the laws of motion?',
-  'How do chemical reactions work?',
-  'What is the solar system?',
-]
-
 const BOARDS = ['CISCE', 'CBSE', 'ICSE', 'ISC']
 
 const STATS = [
-  { countUp: true, value: 10000, suffix: '+', label: 'Topics mapped across all boards' },
-  { countUp: false, value: 'Class 1–12', label: 'Every class, every subject' },
-  { countUp: false, value: '3 min', label: 'To find your gaps' },
+  // live-wired: teaching_nodes from /api/tutor-graph/stats (official
+  // graph = 9,010; the 21k-era datasets are the old syllabus — never shown)
+  { countUp: true, dynamic: true, value: 9010, suffix: '', label: 'Topics in the Atlas graph' },
+  { countUp: false, dynamic: false, value: 'Class 1–12', label: 'Every class, every subject' },
+  { countUp: false, dynamic: false, value: '3 min', label: 'To find your gaps' },
 ]
 
 const FAQ_ITEMS = [
@@ -599,14 +596,30 @@ export default function AtlasLanding() {
   const [hoveredRegion, setHoveredRegion] = useState<Region | null>(null)
   const [selectedRegion, setSelectedRegion] = useState<Region | null>(null)
   const [query, setQuery] = useState('')
-  const [inputFocused, setInputFocused] = useState(false)
-  const [answer, setAnswer] = useState<typeof TOPIC_DB[0] | null>(null)
+  const [answer, setAnswer] = useState<AtlasAnswer | null>(null)
   const [asking, setAsking] = useState(false)
   const [mockQuery, setMockQuery] = useState('')
-  const [answerSource, setAnswerSource] = useState<'live' | 'sample' | null>(null)
   const [activeSubject, setActiveSubject] = useState<string | null>(null)
   const [email, setEmail] = useState('')
   const [emailSubmitted, setEmailSubmitted] = useState(false)
+  // official node count — live from the graph, honest 9,010 fallback
+  const [liveNodes, setLiveNodes] = useState(9010)
+  // per-subject counts from the same stats call — drives the subject strip
+  const [statsSubjects, setStatsSubjects] = useState<Record<string, number> | null>(null)
+  // guards against a slow node-resolution landing after a newer ask
+  const askSeq = useRef(0)
+  useEffect(() => {
+    fetch('/api/tutor-graph/stats')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        const n = Number(d?.teaching_nodes)
+        if (Number.isFinite(n) && n > 0) setLiveNodes(n)
+        if (d?.subjects && typeof d.subjects === 'object' && !Array.isArray(d.subjects)) {
+          setStatsSubjects(d.subjects as Record<string, number>)
+        }
+      })
+      .catch(() => {})
+  }, [])
   // The map is the brand — never show an empty frame. Auto-load the
   // Class 10 demo map so the Atlas section demonstrates itself.
   useEffect(() => {
@@ -614,7 +627,6 @@ export default function AtlasLanding() {
     return () => clearTimeout(t)
   }, [])
   const atlasRef = useRef<HTMLDivElement>(null)
-  const inputRef = useRef<HTMLInputElement>(null)
   const heroRef = useRef<HTMLDivElement>(null)
   const reducedMotion = useReducedMotion()
 
@@ -662,7 +674,20 @@ export default function AtlasLanding() {
   function handleAsk(override?: string) {
     if (asking) return
     const q = (override ?? query).trim()
+    if (!q) return
     setAsking(true)
+    askSeq.current += 1
+    const seq = askSeq.current
+    // resolve the topic node in parallel so the answer can deep-link into
+    // /learn/{nodeId}; the ask response itself carries node_id only in the
+    // enhanced-nodes teach lane, so the corpus search is the general resolver
+    const resolution = fetch(`/api/content/search?q=${encodeURIComponent(q)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((nodes) => {
+        const top = Array.isArray(nodes) ? nodes[0] : null
+        return top?.node_id ? String(top.node_id) : null
+      })
+      .catch(() => null)
     // the REAL deterministic engine (WHY-lane -> solver), same one the
     // tutor uses — the local TOPIC_DB is only an offline fallback now
     fetch('/api/tutor-graph/ask', {
@@ -673,25 +698,38 @@ export default function AtlasLanding() {
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
       .then((d) => {
         const steps: string[] = Array.isArray(d.steps) ? d.steps : []
-        const text = String(d.answer || '') +
-          (steps.length ? '\n\n' + steps.map((s: string, i: number) => `${i + 1}. ${s}`).join('\n') : '')
+        const text = String(d.answer || '')
         const topic = d.topic || (d.teach ? 'Teaching answer' : d.verified ? 'Verified solution' : 'Guided next step')
-        setAnswer({ keywords: [], subject: '', topic, answer: text, prerequisites: [] })
-        setAnswerSource('live')
+        const directId = typeof d.node_id === 'string' && d.node_id ? d.node_id : null
+        setAnswer({ topic, answer: text, steps, source: 'live', nodeId: directId, prerequisites: [] })
         setActiveSubject(null)
         setSelectedRegion(null)
+        // patch the gold deep-link once the parallel resolution lands
+        resolution.then((nodeId) => {
+          if (seq !== askSeq.current || !nodeId) return
+          setAnswer((prev) => (prev && !prev.nodeId ? { ...prev, nodeId } : prev))
+        })
       })
       .catch(() => {
-        setAnswerSource('sample')
         const topic = findTopic(q)
         if (topic) {
-          setAnswer(topic)
+          setAnswer({
+            topic: topic.topic,
+            answer: topic.answer,
+            steps: [],
+            source: 'sample',
+            nodeId: null,
+            prerequisites: topic.prerequisites,
+          })
           setActiveSubject(topic.subject)
           setSelectedRegion(null)
         } else {
           setAnswer({
-            keywords: [], subject: '', topic: 'Not mapped yet',
+            topic: 'Not mapped yet',
             answer: `"${q}" — the answer engine is unreachable right now. This is the offline sample mode; the full engine covers CBSE, ICSE and ISC from Class 1 to 12.`,
+            steps: [],
+            source: 'sample',
+            nodeId: null,
             prerequisites: [],
           })
           setActiveSubject(null)
@@ -781,7 +819,7 @@ export default function AtlasLanding() {
               >
                 Stop guessing what
                 <br />
-                <span className="bg-gradient-to-r from-gold-400 via-brand-400 to-accent-400 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-gold-200 via-gold-400 to-gold-600 bg-clip-text text-transparent">
                   you don't know.
                 </span>
               </motion.h1>
@@ -1127,63 +1165,14 @@ export default function AtlasLanding() {
             transition={{ duration: 0.7, ease }}
             className="relative rounded-3xl overflow-hidden border border-white/10 bg-surface-100/30 backdrop-blur-sm shadow-2xl"
           >
-            {/* Top bar — question input */}
+            {/* Top bar — question input + live topics dropdown */}
             <div className="relative z-20 p-5 border-b border-white/10 bg-surface-100/50 backdrop-blur-xl">
-              <div className={`flex items-center gap-3 px-4 py-3 rounded-xl border transition-all duration-300 ${
-                inputFocused
-                  ? 'bg-surface-200/60 border-brand-500/50'
-                  : 'bg-surface-200/30 border-white/10'
-              }`}>
-                <Search className={`w-5 h-5 transition-colors ${inputFocused ? 'text-brand-400' : 'text-surface-600'}`} />
-                <input
-                  ref={inputRef}
-                  id="atlas-ask-input"
-                  type="text"
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  onFocus={() => setInputFocused(true)}
-                  onBlur={() => setInputFocused(false)}
-                  onKeyDown={(e) => { if (e.key === 'Enter') handleAsk() }}
-                  placeholder="Ask anything — 'photosynthesis' or 'newton laws'"
-                  className="flex-1 bg-transparent text-base text-white placeholder:text-surface-600 outline-none"
-                />
-                {query && (
-                  <motion.button
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    whileTap={{ scale: 0.95 }}
-                    onClick={() => handleAsk()}
-                    className="px-4 py-1.5 rounded-lg bg-gold-400/20 border border-gold-400/50 text-sm text-gold-200 hover:bg-gold-400/30 transition-all font-medium"
-                  >
-                    Ask →
-                  </motion.button>
-                )}
-              </div>
-
-              {/* Suggestions */}
-              <AnimatePresence>
-                {inputFocused && !query && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -8 }}
-                    transition={{ duration: 0.2 }}
-                    className="mt-2 p-3 rounded-xl bg-surface-200/50 border border-white/10 text-left"
-                  >
-                    <div className="text-xs text-surface-600 mb-2 px-2 font-medium">Try asking:</div>
-                    {SUGGESTIONS.map((q, i) => (
-                      <button
-                        key={i}
-                        onClick={() => { setQuery(q); setInputFocused(false); inputRef.current?.focus() }}
-                        className="flex items-center gap-2 w-full text-left px-3 py-2 rounded-lg text-sm text-surface-400 hover:text-white hover:bg-white/5 transition-all"
-                      >
-                        <Search className="w-3 h-3 text-surface-600 flex-shrink-0" />
-                        {q}
-                      </button>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
+              <AskBox
+                value={query}
+                onValueChange={setQuery}
+                onAsk={() => handleAsk()}
+                asking={asking}
+              />
             </div>
 
             {/* Canvas map area — the galaxy speaks for itself */}
@@ -1249,7 +1238,7 @@ export default function AtlasLanding() {
                     )
                   })}
 
-                  {/* Answer Panel */}
+                  {/* Answer Panel — live ask result with gold node deep-link */}
                   <AnimatePresence>
                     {answer && (
                       <motion.div
@@ -1260,72 +1249,7 @@ export default function AtlasLanding() {
                         transition={{ type: 'spring', stiffness: 280, damping: 28 }}
                         className="absolute top-4 right-4 bottom-4 w-80 md:w-96 z-20"
                       >
-                        <div className="h-full rounded-2xl backdrop-blur-2xl bg-surface-100/70 border border-white/15 overflow-y-auto scrollbar-hide">
-                          <div className="sticky top-0 flex items-center justify-between px-5 py-4 bg-surface-100/80 backdrop-blur-2xl border-b border-white/10">
-                            <div className="flex items-center gap-2">
-                              <Sparkles className="w-4 h-4 text-brand-400" />
-                              <span className="font-display text-sm font-bold">{answer.topic}</span>
-                            </div>
-                            <button onClick={closePanel} className="text-surface-500 hover:text-white transition-colors">
-                              <X className="w-4 h-4" />
-                            </button>
-                          </div>
-                          <div className="p-5 space-y-5">
-                            {answer.subject && (() => {
-                              const r = regions.find(reg => reg.subject === answer.subject)
-                              const Icon = SUBJECT_ICONS[answer.subject]
-                              if (!r) return null
-                              return (
-                                <div className="flex items-center gap-2">
-                                  {Icon && <Icon className="w-4 h-4" style={{ color: r.color }} />}
-                                  <span className="text-xs text-surface-400 font-medium">{r.name} · {r.topics} topics</span>
-                                </div>
-                              )
-                            })()}
-                            <div>
-                              <div className="flex items-center justify-between mb-2">
-                                <div className="font-display text-xs text-surface-600 uppercase tracking-wider">Answer</div>
-                                {answerSource && (
-                                  <span className={`px-2 py-0.5 rounded-full text-[9px] uppercase tracking-wider border ${
-                                    answerSource === 'live'
-                                      ? 'bg-emerald-500/10 text-emerald-300 border-emerald-400/30'
-                                      : 'bg-amber-500/10 text-amber-300 border-amber-400/30'
-                                  }`}>
-                                    {answerSource === 'live' ? 'live · deterministic engine' : 'offline sample'}
-                                  </span>
-                                )}
-                              </div>
-                              <p className="text-sm text-surface-300 leading-relaxed whitespace-pre-line">{answer.answer}</p>
-                            </div>
-                            {answer.prerequisites.length > 0 && (
-                              <div>
-                                <div className="font-display text-xs text-surface-600 mb-2 uppercase tracking-wider flex items-center gap-1.5">
-                                  <TrendingUp className="w-3 h-3" /> Prerequisites
-                                </div>
-                                <div className="space-y-1.5">
-                                  {answer.prerequisites.map((p, i) => (
-                                    <motion.div
-                                      key={i}
-                                      initial={{ opacity: 0, x: -10 }}
-                                      animate={{ opacity: 1, x: 0 }}
-                                      transition={{ delay: 0.2 + i * 0.08 }}
-                                      className="flex items-center gap-2 px-3 py-2 rounded-lg bg-white/5"
-                                    >
-                                      <BookOpen className="w-3 h-3 text-surface-600" />
-                                      <span className="text-xs text-surface-400">{p}</span>
-                                    </motion.div>
-                                  ))}
-                                </div>
-                              </div>
-                            )}
-                            <Link
-                              href="/signup"
-                              className="block w-full text-center px-4 py-3.5 rounded-xl bg-gradient-to-r from-brand-500 to-accent-500 text-white text-sm font-display font-semibold hover:shadow-lg hover:shadow-brand-500/25 transition-all"
-                            >
-                              Learn this topic →
-                            </Link>
-                          </div>
-                        </div>
+                        <AnswerCard answer={answer} onClose={closePanel} />
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -1445,6 +1369,10 @@ export default function AtlasLanding() {
               )}
             </div>
           </motion.div>
+
+          {/* Subject strip — real per-subject counts from /api/tutor-graph/stats,
+              each chip deep-linking to a real node via /api/graph/search */}
+          <SubjectStrip subjects={statsSubjects} totalTopics={liveNodes} />
         </div>
       </section>
 
@@ -1552,7 +1480,7 @@ export default function AtlasLanding() {
             {STATS.map(s => (
               <motion.div key={s.label} {...staggerItem} className="text-center">
                 <div className="font-display text-3xl md:text-4xl font-bold bg-gradient-to-r from-gold-400 to-brand-400 bg-clip-text text-transparent">
-                  {s.countUp ? <CountUp end={s.value as number} suffix={s.suffix} /> : String(s.value)}
+                  {s.countUp ? <CountUp end={(s.dynamic ? liveNodes : s.value) as number} suffix={s.suffix} /> : String(s.value)}
                 </div>
                 <div className="mt-1 text-sm text-surface-500">{s.label}</div>
               </motion.div>

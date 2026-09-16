@@ -312,6 +312,21 @@ export const C9_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student places a strip of raw potato in a concentrated salt solution for 30 minutes. The strip becomes limp. Explain the vacuole-level changes that cause this observation.",
+    "answer": "Step 1: The concentrated salt solution has lower water potential (more negative) than the potato cell sap",
+    "options": [
+     "In 0.9% NaCl (isotonic), water moves equally in and out — cell retains shape. In distilled water (hypotonic), water enters by osmosis down the water potential gradient",
+     "The statement is partially correct but oversimplified: enucleated cells (mammalian RBCs, cytoplasts) survive for limited periods using pre-existing mRNA and proteins",
+     "Step 1: The concentrated salt solution has lower water potential (more negative) than the potato cell sap"
+    ],
+    "hint": "Straight from the 'vacuole' slide -- match the key terms.",
+    "misconception": "A wrong answer stating \"salt enters the vacuole and kills the cell\" or \"water moves into the vacuole\" reveals misunderstanding of water potential direction and the physical consequence of vacuolar volume change on tissue texture.",
+    "id": "gen_c9_bio_ch01_q5",
+    "nodeId": "c9_bio_ch1_11",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple experiment using potato cubes and sugar solutions of different concentrations to demonstrate osmosis. State the independent variable, dependent variable, and one control variable.",
     "answer": "Independent variable: concentration of sucrose solution (0%, 5%, 10%, 15%). Dependent variable: change in mass/length of potato cubes",
     "options": [
@@ -321,8 +336,38 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'cell membrane' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Independent variable: concentration of sucrose solution (0%, 5%, 10%, 15%).",
-    "id": "gen_c9_bio_ch01_q5",
+    "id": "gen_c9_bio_ch01_q6",
     "nodeId": "c9_bio_ch1_3",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A Class 9 student claims: \"The nucleus controls everything in the cell because it contains DNA, so if you remove the nucleus, the cell dies immediately.\" Evaluate this statement with evidence from enucleation experiments (e.g., red blood cells, cytoplasts).",
+    "answer": "The statement is partially correct but oversimplified: enucleated cells (mammalian RBCs, cytoplasts) survive for limited periods using pre-existing mRNA and proteins",
+    "options": [
+     "Step 1: The concentrated salt solution has lower water potential (more negative) than the potato cell sap",
+     "Step 1: Insulin mRNA translated on ribosomes attached to rough ER → polypeptide enters ER lumen. Step 2: Proinsulin folds, disulfide bonds form in ER lumen",
+     "The statement is partially correct but oversimplified: enucleated cells (mammalian RBCs, cytoplasts) survive for limited periods using pre-existing mRNA and proteins"
+    ],
+    "hint": "Straight from the 'nucleus' slide -- match the key terms.",
+    "misconception": "A wrong evaluation (e.g., \"cell dies instantly\" or \"cell lives forever\") shows lack of understanding of mRNA/protein half-life and the distinction between genetic control and metabolic maintenance.",
+    "id": "gen_c9_bio_ch01_q7",
+    "nodeId": "c9_bio_ch1_5",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A pancreatic beta cell produces insulin, a protein hormone secreted into the bloodstream. Trace the complete pathway of insulin from its synthesis to secretion, naming every organelle and vesicle type involved.",
+    "answer": "Step 1: Insulin mRNA translated on ribosomes attached to rough ER → polypeptide enters ER lumen. Step 2: Proinsulin folds, disulfide bonds form in ER lumen",
+    "options": [
+     "In 0.9% NaCl (isotonic), water moves equally in and out — cell retains shape. In distilled water (hypotonic), water enters by osmosis down the water potential gradient",
+     "Independent variable: concentration of sucrose solution (0%, 5%, 10%, 15%). Dependent variable: change in mass/length of potato cubes",
+     "Step 1: Insulin mRNA translated on ribosomes attached to rough ER → polypeptide enters ER lumen. Step 2: Proinsulin folds, disulfide bonds form in ER lumen"
+    ],
+    "hint": "Straight from the 'Golgi apparatus' slide -- match the key terms.",
+    "misconception": "A wrong pathway (e.g., skipping Golgi, or saying \"secreted directly from ER\") reveals the student doesn't grasp the mandatory Golgi checkpoint for all secretory proteins.",
+    "id": "gen_c9_bio_ch01_q8",
+    "nodeId": "c9_bio_ch1_8",
     "difficulty": "standard"
    },
    {
@@ -336,7 +381,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Golgi apparatus' slide -- match the key terms.",
     "misconception": "A wrong prediction (e.g., \"secretion increases\") reveals the student doesn't understand Golgi as an obligatory sorting station, not just a passive tube.",
-    "id": "gen_c9_bio_ch01_q6",
+    "id": "gen_c9_bio_ch01_q9",
     "nodeId": "c9_bio_ch1_8",
     "difficulty": "standard"
    }
@@ -348,7 +393,8 @@ export const C9_BIO_GEN: SimDef[] = [
    ]
   },
   "successLine": "Cell Membrane mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c9_bio_ch02",
@@ -1587,6 +1633,21 @@ export const C9_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A woman misses her period and tests positive on a home pregnancy test. What hormone does the test detect, and from which structure is it secreted at this early stage?",
+    "answer": "The test detects hCG in urine, secreted by the trophoblast cells of the implanting blastocyst (later by the placenta)",
+    "options": [
+     "Experiment: Take 20 uniform stem cuttings (2 nodes each) of money plant. Divide into two groups of 10: Control — dip basal end in water",
+     "A good model: Draw one pair of homologous chromosomes (one maternal, one paternal), each replicated into two sister chromatids",
+     "The test detects hCG in urine, secreted by the trophoblast cells of the implanting blastocyst (later by the placenta)"
+    ],
+    "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"ovary\" or \"pituitary\") reveals confusion between maternal and embryonic hormone sources.",
+    "id": "gen_c9_bio_ch03_q12",
+    "nodeId": "c9_bio_ch3_10",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the functions of the amniotic fluid and the placenta during pregnancy. How are their roles distinct yet complementary?",
     "answer": "Amniotic fluid provides mechanical protection (cushioning), temperature stability, allows fetal movement for musculoskeletal development, and prevents adhesion",
     "options": [
@@ -1596,7 +1657,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
     "misconception": "A wrong answer that conflates them (e.g., \"both provide nutrition\") reveals the student cannot separate physical protection from physiological exchange — a key board-level distinction.",
-    "id": "gen_c9_bio_ch03_q12",
+    "id": "gen_c9_bio_ch03_q13",
     "nodeId": "c9_bio_ch3_10",
     "difficulty": "standard"
    },
@@ -1611,7 +1672,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it a \"fertilized egg\" or \"morula\") reveals the student cannot distinguish pre-implantation stages or understand that implantation requires a specific structural stage with trophoblast cells capable of invading the endometrium.",
-    "id": "gen_c9_bio_ch03_q13",
+    "id": "gen_c9_bio_ch03_q14",
     "nodeId": "c9_bio_ch3_10",
     "difficulty": "standard"
    },
@@ -1626,7 +1687,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
     "misconception": "A poor answer (random events, wrong sequence) reveals inability to organize developmental chronology — a skill tested in board diagram-labeling questions.",
-    "id": "gen_c9_bio_ch03_q14",
+    "id": "gen_c9_bio_ch03_q15",
     "nodeId": "c9_bio_ch3_10",
     "difficulty": "standard"
    },
@@ -1641,7 +1702,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"progesterone maintains itself\") reveals the student misses the critical embryonic signal (hCG) that establishes maternal-fetal endocrine communication.",
-    "id": "gen_c9_bio_ch03_q15",
+    "id": "gen_c9_bio_ch03_q16",
     "nodeId": "c9_bio_ch3_10",
     "difficulty": "standard"
    },
@@ -1656,7 +1717,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Contraception' slide -- match the key terms.",
     "misconception": "A wrong answer like \"oral pills\" or \"condom\" fails to match the criteria (long-term, reversible, non-hormonal, low user-dependence), showing inability to apply method characteristics to user needs.",
-    "id": "gen_c9_bio_ch03_q16",
+    "id": "gen_c9_bio_ch03_q17",
     "nodeId": "c9_bio_ch3_11",
     "difficulty": "standard"
    },
@@ -1671,21 +1732,6 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Contraception' slide -- match the key terms.",
     "misconception": "A wrong agreement shows inability to distinguish emergency vs. routine use based on mechanism, efficacy, and safety profile.",
-    "id": "gen_c9_bio_ch03_q17",
-    "nodeId": "c9_bio_ch3_11",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare vasectomy and tubectomy in terms of procedure, reversibility, and physiological impact on hormone production.",
-    "answer": "Vasectomy cuts/ties vas deferens in males; tubectomy cuts/ties fallopian tubes in females. Both are considered permanent but vasectomy reversal is more successful",
-    "options": [
-     "Sperm path: seminiferous tubules → epididymis (maturation/storage) → vas deferens → urethra → deposited in vagina → swims through cervix, uterus, into fallopian tube",
-     "Amniotic fluid provides mechanical protection (cushioning), temperature stability, allows fetal movement for musculoskeletal development, and prevents adhesion",
-     "Vasectomy cuts/ties vas deferens in males; tubectomy cuts/ties fallopian tubes in females. Both are considered permanent but vasectomy reversal is more successful"
-    ],
-    "hint": "Straight from the 'Contraception' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming \"vasectomy stops testosterone production\" or \"tubectomy causes menopause\" reveals confusion between gamete transport and endocrine function.",
     "id": "gen_c9_bio_ch03_q18",
     "nodeId": "c9_bio_ch3_11",
     "difficulty": "standard"
@@ -1714,6 +1760,7 @@ export const C9_BIO_GEN: SimDef[] = [
   ],
   "nodeIds": [
    "c9_bio_ch4_2",
+   "c9_bio_ch4_3",
    "c9_bio_ch4_4",
    "c9_bio_ch4_5",
    "c9_bio_ch4_6",
@@ -1744,6 +1791,12 @@ export const C9_BIO_GEN: SimDef[] = [
     "text": "Evolution is the gradual, cumulative change in the heritable characteristics of populations of organisms over successive generations, driven by mechanisms such as natural selection, genetic drift, and mutation, resulting in the diversity of life observed",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Classification",
+    "text": "Classification is the scientific process of grouping living organisms into hierarchical categories based on shared characteristics and evolutionary relationships, enabling systematic study, identification, and communication about the vast diversity of life.",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Classification Criteria",
@@ -1843,6 +1896,69 @@ export const C9_BIO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "Give the correct order of levels when building a two-level classification of kitchen items by biological origin.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Name every level after its single shared",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Split each group into subgroups by plant",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Sort items into broad groups by shared",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Place each item in exactly one subgroup",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that mixes culinary use with biological origin, or lets an item sit in two subgroups, shows the student has not grasped that classification imposes a single consistent hierarchy that supports identification, communication and the study of relationships among organisms.",
+    "id": "gen_c9_bio_ch04_q2",
+    "nodeId": "c9_bio_ch4_3",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine walking into a massive library in Delhi where millions of books are piled randomly on the floor with no shelves, no labels, and no catalog —",
+     "This chaos mirrors the challenge biologists face with over 8.7 million estimated species on Earth.",
+     "In the previous node (c9_bio_ch4_1), you learned that biodiversity refers to this immense variety of life forms.",
+     "Now, consider how a botanist in the Western Ghats identifies a new frog species, or how a doctor in Mumbai communicates about a pathogen to a"
+    ]
+   },
+   {
+    "type": "order",
     "question": "A student observes a green, slimy growth on a damp wall. It is unicellular, has a cell wall, and performs photosynthesis. Using classification criteria, predict its kingdom and justify why \"green colour\" alone would be a misleading criterion.",
     "sortItems": [
      {
@@ -1905,7 +2021,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer placing it in Plantae because \"it's green and makes food\" ignores the critical criterion of *cellular organization* (unicellular vs multicellular with tissues). This shows the student prioritizes a single superficial trait over the hierarchy of criteria.",
-    "id": "gen_c9_bio_ch04_q2",
+    "id": "gen_c9_bio_ch04_q3",
     "nodeId": "c9_bio_ch4_4",
     "difficulty": "standard",
     "workedExample": [
@@ -1990,7 +2106,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera.",
-    "id": "gen_c9_bio_ch04_q3",
+    "id": "gen_c9_bio_ch04_q4",
     "nodeId": "c9_bio_ch4_5",
     "difficulty": "advanced",
     "workedExample": [
@@ -2006,12 +2122,12 @@ export const C9_BIO_GEN: SimDef[] = [
     "answer": "Mass nesting is a behavioural adaptation because it is an inherited, instinctive pattern of synchronous egg-laying by thousands of females",
     "options": [
      "Jellyfish lack hard parts (exoskeleton, shell, bones) so their soft tissues decay completely before mineralization can occur",
-     "The 1950 classification is incorrect. Nostoc is prokaryotic (no true nucleus, no membrane-bound organelles) → Kingdom Monera",
+     "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →",
      "Mass nesting is a behavioural adaptation because it is an inherited, instinctive pattern of synchronous egg-laying by thousands of females"
     ],
     "hint": "Straight from the 'Adaptation' slide -- match the key terms.",
     "misconception": "A wrong answer that calls it \"a habit they learned\" or \"they gather for safety\" reveals a misunderstanding that behavioural adaptations are genetically programmed, not learned, and misses the specific mechanism (predator satiation) that makes it adaptive.",
-    "id": "gen_c9_bio_ch04_q4",
+    "id": "gen_c9_bio_ch04_q5",
     "nodeId": "c9_bio_ch4_6",
     "difficulty": "standard",
     "workedExample": [
@@ -2026,13 +2142,13 @@ export const C9_BIO_GEN: SimDef[] = [
     "question": "What are the seven major taxonomic ranks in the hierarchical classification system, listed from broadest to most specific?",
     "answer": "The seven major ranks in order are: Kingdom, Phylum, Class, Order, Family, Genus, Species",
     "options": [
+     "The hierarchy builds: (1) Sort items into broad groups by shared biological origin (2) Split each group into subgroups by plant part or family (3) Name every level after its",
      "Compare: (1) internal skeleton — bat wing has humerus, radius, ulna, digits; butterfly wing has no bones, only chitinous veins",
-     "The statement is incorrect. Viruses are *acellular* — they lack any cellular structure (no cell membrane, cytoplasm, ribosomes)",
      "The seven major ranks in order are: Kingdom, Phylum, Class, Order, Family, Genus, Species"
     ],
     "hint": "Straight from the 'hierarchical classification' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., missing Phylum, swapping Genus and Species, or adding \"Domain\" as a major rank) reveals the student has memorized an incomplete or incorrect sequence, indicating they cannot reliably navigate or construct a full taxonomic hierarchy for any organism.",
-    "id": "gen_c9_bio_ch04_q5",
+    "id": "gen_c9_bio_ch04_q6",
     "nodeId": "c9_bio_ch4_7",
     "difficulty": "standard",
     "workedExample": [
@@ -2053,7 +2169,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Binomial nomenclature' slide -- match the key terms.",
     "misconception": "If a student only says \"they are both big cats\" without referencing the genus-level grouping, they miss the hierarchical information embedded in the binomial system that connects to the classification hierarchy (c9_bio_ch4_7).",
-    "id": "gen_c9_bio_ch04_q6",
+    "id": "gen_c9_bio_ch04_q7",
     "nodeId": "c9_bio_ch4_8",
     "difficulty": "standard",
     "workedExample": [
@@ -2105,7 +2221,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"it's a cast\" or \"the shell turned to stone\") reveals confusion between mold (negative impression) and cast (positive replica), or misunderstanding that original material can be lost while shape is preserved.",
-    "id": "gen_c9_bio_ch04_q7",
+    "id": "gen_c9_bio_ch04_q8",
     "nodeId": "c9_bio_ch4_9",
     "difficulty": "standard",
     "workedExample": [
@@ -2126,7 +2242,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Extinction' slide -- match the key terms.",
     "misconception": "A wrong answer favouring only one approach reveals inability to match strategy to threat: ex-situ buys time for critically small populations while in-situ addresses root causes; both needed for species with complex life cycles in degraded habitats.",
-    "id": "gen_c9_bio_ch04_q8",
+    "id": "gen_c9_bio_ch04_q9",
     "nodeId": "c9_bio_ch4_10",
     "difficulty": "advanced",
     "workedExample": [
@@ -2178,8 +2294,23 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"gaps prove evolution false\" or \"we have all transitions\") reveals misunderstanding that fossil record incompleteness is a geological sampling artifact, not evidence against evolutionary change.",
-    "id": "gen_c9_bio_ch04_q9",
+    "id": "gen_c9_bio_ch04_q10",
     "nodeId": "c9_bio_ch4_9",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple investigation using only observable features (no DNA) to determine whether the wings of a butterfly and a bat are homologous or analogous. List the specific structures you would compare and the conclusion each outcome would support.",
+    "answer": "Compare: (1) internal skeleton — bat wing has humerus, radius, ulna, digits; butterfly wing has no bones, only chitinous veins",
+    "options": [
+     "The statement is incorrect. Viruses are *acellular* — they lack any cellular structure (no cell membrane, cytoplasm, ribosomes)",
+     "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →",
+     "Compare: (1) internal skeleton — bat wing has humerus, radius, ulna, digits; butterfly wing has no bones, only chitinous veins"
+    ],
+    "hint": "Straight from the 'Evolution' slide -- match the key terms.",
+    "misconception": "A poor answer only compares \"both used for flying,\" ignoring structural and developmental criteria.",
+    "id": "gen_c9_bio_ch04_q11",
+    "nodeId": "c9_bio_ch4_2",
     "difficulty": "standard"
    },
    {
@@ -2193,8 +2324,38 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Evolution' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"similarity proves common design\" misses the critical point: the *suboptimal* retention of the same bones for different functions (e.g., whale flipper bones not ideal for swimming) is strong evidence of historical constraint from common ancestry.",
-    "id": "gen_c9_bio_ch04_q10",
+    "id": "gen_c9_bio_ch04_q12",
     "nodeId": "c9_bio_ch4_2",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of levels when building a two-level classification of kitchen items by biological origin.",
+    "answer": "The hierarchy builds: (1) Sort items into broad groups by shared biological origin (2) Split each group into subgroups by plant part or family (3) Name every level after its",
+    "options": [
+     "The seven major ranks in order are: Kingdom, Phylum, Class, Order, Family, Genus, Species",
+     "Yes, the statement is correct. International rules allow abbreviating the genus to its initial capital letter followed by a period once the full genus has been written in the same",
+     "The hierarchy builds: (1) Sort items into broad groups by shared biological origin (2) Split each group into subgroups by plant part or family (3) Name every level after its"
+    ],
+    "hint": "Straight from the 'Classification' slide -- match the key terms.",
+    "misconception": "A wrong answer that mixes culinary use with biological origin, or lets an item sit in two subgroups, shows the student has not grasped that classification imposes a single consistent hierarchy that supports identification, communication and the study of relationships among organisms.",
+    "id": "gen_c9_bio_ch04_q13",
+    "nodeId": "c9_bio_ch4_3",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A student observes a green, slimy growth on a damp wall. It is unicellular, has a cell wall, and performs photosynthesis. Using classification criteria, predict its kingdom and justify why \"green colour\" alone would be a misleading criterion.",
+    "answer": "Step 1: Identify observed traits — unicellular, cell wall present, photosynthetic (autotrophic). Step 2: Recall criteria",
+    "options": [
+     "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →",
+     "Key: 1a. Prokaryotic cell → Monera (Lactobacillus). 1b. Eukaryotic cell → go to 2. 2a. Unicellular/colonial → go to 3",
+     "Step 1: Identify observed traits — unicellular, cell wall present, photosynthetic (autotrophic). Step 2: Recall criteria"
+    ],
+    "hint": "Straight from the 'Classification criteria' slide -- match the key terms.",
+    "misconception": "A wrong answer placing it in Plantae because \"it's green and makes food\" ignores the critical criterion of *cellular organization* (unicellular vs multicellular with tissues). This shows the student prioritizes a single superficial trait over the hierarchy of criteria.",
+    "id": "gen_c9_bio_ch04_q14",
+    "nodeId": "c9_bio_ch4_4",
     "difficulty": "standard"
    },
    {
@@ -2208,7 +2369,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Classification criteria' slide -- match the key terms.",
     "misconception": "A student who agrees with the textbook confuses *size* (microscopic) with *cellular organization*.",
-    "id": "gen_c9_bio_ch04_q11",
+    "id": "gen_c9_bio_ch04_q15",
     "nodeId": "c9_bio_ch4_4",
     "difficulty": "standard"
    },
@@ -2223,7 +2384,7 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Five Kingdom Classification' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The 1950 classification is incorrect. Nostoc is prokaryotic (no true nucleus, no membrane-bound organelles) → Kingdom",
-    "id": "gen_c9_bio_ch04_q12",
+    "id": "gen_c9_bio_ch04_q16",
     "nodeId": "c9_bio_ch4_5",
     "difficulty": "advanced"
    },
@@ -2238,84 +2399,24 @@ export const C9_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Five Kingdom Classification' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Key: 1a. Prokaryotic cell → Monera (Lactobacillus). 1b. Eukaryotic cell → go to 2.",
-    "id": "gen_c9_bio_ch04_q13",
+    "id": "gen_c9_bio_ch04_q17",
     "nodeId": "c9_bio_ch4_5",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "A student claims: \"The Chameleon (*Chamaeleo zeylanicus* in India) changes its skin colour to match the background because it *wants* to hide from predators.\" Evaluate this statement. Identify the misconception and provide the correct biological explanation for colour change.",
-    "answer": "The statement contains two misconceptions: (1) It implies conscious intent (\"wants to hide\"), which is anthropomorphism",
+    "question": "You find a slimy, yellowish mass on a decaying log in the Western Ghats during monsoon. It moves slowly, engulfing bacteria. Under a microscope, its cells have a true nucleus but no cell wall. Classify this organism into the correct kingdom and justify each step using Whittaker's criteria.",
+    "answer": "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →",
     "options": [
-     "The thick skin (up to 4 cm) protects against slashing cuts from sharp-edged grasses (like *Saccharum* species) and bites from insects/parasites in dense vegetation",
+     "Yes, the statement is correct. International rules allow abbreviating the genus to its initial capital letter followed by a period once the full genus has been written in the same",
      "The shared pentadactyl limb pattern (one upper bone, two lower bones, wrist bones, five digits) across mammals and reptiles indicates inheritance from a common ancestor that had",
-     "The statement contains two misconceptions: (1) It implies conscious intent (\"wants to hide\"), which is anthropomorphism"
+     "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →"
     ],
-    "hint": "Straight from the 'Adaptation' slide -- match the key terms.",
-    "misconception": "A wrong answer that accepts the \"wanting to hide\" explanation reveals Lamarckian thinking (use/disuse driven by need) and ignores the physiological mechanisms (chromatophores) and multiple selective pressures shaping the trait.",
-    "id": "gen_c9_bio_ch04_q14",
-    "nodeId": "c9_bio_ch4_6",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "The Indian Rhinoceros (*Rhinoceros unicornis*) in Kaziranga National Park has thick, folded skin that resembles armour plates. Predict how this structural adaptation helps it survive in the tall grasslands and wetlands of the Brahmaputra floodplain.",
-    "answer": "The thick skin (up to 4 cm) protects against slashing cuts from sharp-edged grasses (like *Saccharum* species) and bites from insects/parasites in dense vegetation",
-    "options": [
-     "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →",
-     "The 1950 classification is incorrect. Nostoc is prokaryotic (no true nucleus, no membrane-bound organelles) → Kingdom Monera",
-     "The thick skin (up to 4 cm) protects against slashing cuts from sharp-edged grasses (like *Saccharum* species) and bites from insects/parasites in dense vegetation"
-    ],
-    "hint": "Straight from the 'Adaptation' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"protection from predators\" misses the specific abiotic (sharp grass, heat) and biotic (parasites) challenges of its specific microhabitat, showing an inability to link structure to precise environmental pressures.",
-    "id": "gen_c9_bio_ch04_q15",
-    "nodeId": "c9_bio_ch4_6",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the taxonomic hierarchy of Homo sapiens (human) and Pan troglodytes (chimpanzee) versus Homo sapiens and Panthera leo (lion). Humans and chimpanzees share Kingdom, Phylum, Class, Order, and Family but differ at Genus.",
-    "answer": "Humans and chimpanzees share a more recent common ancestor (at the Family Hominidae level) than humans and lions (which share only Class Mammalia)",
-    "options": [
-     "In-situ (protected river stretches like National Chambal Sanctuary) preserves natural breeding behaviour, ecological interactions",
-     "The shared genus *Panthera* indicates that lions and tigers belong to the same genus and are closely related evolutionarily, a relationship invisible in the common names",
-     "Humans and chimpanzees share a more recent common ancestor (at the Family Hominidae level) than humans and lions (which share only Class Mammalia)"
-    ],
-    "hint": "Straight from the 'hierarchical classification' slide -- match the key terms.",
-    "misconception": "A wrong answer (claiming human-lion are equally related, or focusing only on shared Class) reveals inability to use hierarchical depth as a proxy for evolutionary distance.",
-    "id": "gen_c9_bio_ch04_q16",
-    "nodeId": "c9_bio_ch4_7",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A textbook states: \"The scientific name of the house crow is *Corvus splendens*. In a list of Indian birds, it can be abbreviated as *C. splendens* after the first full mention.\" Evaluate whether this statement follows correct nomenclatural practice and justify your answer.",
-    "answer": "Yes, the statement is correct. International rules allow abbreviating the genus to its initial capital letter followed by a period once the full genus has been written in the same",
-    "options": [
-     "The statement contains two misconceptions: (1) It implies conscious intent (\"wants to hide\"), which is anthropomorphism",
-     "The statement is incorrect. Viruses are *acellular* — they lack any cellular structure (no cell membrane, cytoplasm, ribosomes)",
-     "Yes, the statement is correct. International rules allow abbreviating the genus to its initial capital letter followed by a period once the full genus has been written in the same"
-    ],
-    "hint": "Straight from the 'Binomial nomenclature' slide -- match the key terms.",
-    "misconception": "A student who says \"never abbreviate\" or \"abbreviate both words\" misunderstands the specific convention for subsequent mentions in a single document.",
-    "id": "gen_c9_bio_ch04_q17",
-    "nodeId": "c9_bio_ch4_8",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A creationist argues: \"If evolution is true, we should find countless transitional fossils. The fossil record has gaps, so evolution didn't happen.\" Evaluate this claim using the concepts of fossilization probability and stratigraphic completeness.",
-    "answer": "The claim is flawed because: (1) fossilization is exceptionally rare - requires rapid burial, hard parts, mineral-rich groundwater; most organisms decay completely",
-    "options": [
-     "The 1950 classification is incorrect. Nostoc is prokaryotic (no true nucleus, no membrane-bound organelles) → Kingdom Monera",
-     "Compare: (1) internal skeleton — bat wing has humerus, radius, ulna, digits; butterfly wing has no bones, only chitinous veins",
-     "The claim is flawed because: (1) fossilization is exceptionally rare - requires rapid burial, hard parts, mineral-rich groundwater; most organisms decay completely"
-    ],
-    "hint": "Straight from the 'Fossils' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"gaps prove evolution false\" or \"we have all transitions\") reveals misunderstanding that fossil record incompleteness is a geological sampling artifact, not evidence against evolutionary change.",
+    "hint": "Straight from the 'Five Kingdom Classification' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera.",
     "id": "gen_c9_bio_ch04_q18",
-    "nodeId": "c9_bio_ch4_9",
-    "difficulty": "standard"
+    "nodeId": "c9_bio_ch4_5",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {

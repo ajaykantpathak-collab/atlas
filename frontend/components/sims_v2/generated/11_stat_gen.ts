@@ -470,6 +470,21 @@ export const C11_STAT_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Compare the statement \"Hundreds of people died in the earthquake\" with \"310 people died in the recent earthquake in Kashmir.\" Which statistical function does this contrast illustrate? Why is the second statement more useful for government relief operations?",
+    "answer": "This illustrates the function \"presenting economic facts in a precise and definite form.\" The second statement enables: (1) exact compensation budgeting (₹X per family × 310)",
+    "options": [
+     "(a) For nominal qualitative data (e.g., religion), only mode is meaningful—mean requires numerical values",
+     "(i) illustrates the limitation that statistics deals with quantitative data and cannot judge qualitative value (good/bad) without a value judgment",
+     "This illustrates the function \"presenting economic facts in a precise and definite form.\" The second statement enables: (1) exact compensation budgeting (₹X per family × 310)"
+    ],
+    "hint": "Straight from the 'Statistics in economics' slide -- match the key terms.",
+    "misconception": "A wrong answer that says \"both mean the same thing\" reveals the student treats precision as pedantry rather than operational necessity—they miss that vague data leads to vague (and often inadequate) policy response.",
+    "id": "gen_c11_stat_ch01_q15",
+    "nodeId": "c11_stat_cbse_01_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Critique this argument: \"Since statistics can predict future trends using past data, the Finance Minister should simply use last year's tax collection data to forecast next year's revenue and set the budget accordingly.\"",
     "answer": "The argument ignores three critical limitations: (1) Structural changes—GST rate revisions, new tax laws, demonetisation effects break continuity with past data",
     "options": [
@@ -479,7 +494,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Statistics in economics' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees reveals the student treats statistical prediction as mechanical extrapolation, ignoring the ceteris paribus assumption and the role of structural breaks in economic time series.",
-    "id": "gen_c11_stat_ch01_q15",
+    "id": "gen_c11_stat_ch01_q16",
     "nodeId": "c11_stat_cbse_01_003",
     "difficulty": "standard"
    },
@@ -494,7 +509,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Statistics has inherent' slide -- match the key terms.",
     "misconception": "A wrong answer that says both are correct uses of statistics shows the student cannot distinguish statistical facts from interpretation.",
-    "id": "gen_c11_stat_ch01_q16",
+    "id": "gen_c11_stat_ch01_q17",
     "nodeId": "c11_stat_cbse_01_004",
     "difficulty": "standard"
    },
@@ -509,23 +524,8 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Statistics has inherent' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees reveals the student thinks statistics is inherently unreliable rather than a tool that requires proper use.",
-    "id": "gen_c11_stat_ch01_q17",
-    "nodeId": "c11_stat_cbse_01_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "\"Secondary data should never be used without scrutiny.\" Evaluate this statement by listing three specific precautions an investigator must take, and explain the consequence of ignoring each.",
-    "answer": "1. Reliability: Check the credibility of the collecting agency and methodology; ignoring this may introduce bias from poorly designed surveys",
-    "options": [
-     "(i) Religion – qualitative, nominal (no natural order). (ii) Electricity consumption – quantitative, continuous (can take any value in a range)",
-     "This is secondary data because the researcher did not conduct the census; the Office of the Registrar General & Census Commissioner collected it for administrative planning",
-     "1. Reliability: Check the credibility of the collecting agency and methodology; ignoring this may introduce bias from poorly designed surveys"
-    ],
-    "hint": "Straight from the 'Primary data' slide -- match the key terms.",
-    "misconception": "A weak answer that gives generic advice like \"check if it's correct\" shows lack of specific evaluative criteria.",
     "id": "gen_c11_stat_ch01_q18",
-    "nodeId": "c11_stat_cbse_01_006",
+    "nodeId": "c11_stat_cbse_01_004",
     "difficulty": "standard"
    }
   ],
@@ -2349,6 +2349,21 @@ export const C11_STAT_GEN: SimDef[] = [
      "In the pie diagram, you compare the size of slices — both the angle and the radius matter because the AREA of each slice represents the expenditure.",
      "Now ask yourself: when you draw a histogram for daily wages, why do the rectangles touch each other and why does the width of each rectangle equal"
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "Given the following data for a company's quarterly profit (₹ crore): Q1: 12, Q2: 15, Q3: 10, Q4: 18, Q5: 14, Q6: 20. Construct an arithmetic line graph on graph paper with appropriate scales. Identify the quarter with the steepest decline and calculate the average quarterly growth rate from Q1 to Q6.",
+    "answer": "Steps: (1) X-axis: quarters 1-6, 1 cm = 1 quarter. (2) Y-axis: profit range 10-20, start at 0, 1 cm = 2 crore",
+    "options": [
+     "Stubs (rows): Stream × Gender combinations → 3 streams × 2 genders = 6 row categories (Science-Male, Science-Female, Commerce-Male, Commerce-Female, Arts-Male, Arts-Female)",
+     "(a) Pie: Compare 144° vs 96° — moderate ease (angle comparison). Bar: Compare 40 units vs 26.67 units — easier (linear length comparison)",
+     "Steps: (1) X-axis: quarters 1-6, 1 cm = 1 quarter. (2) Y-axis: profit range 10-20, start at 0, 1 cm = 2 crore"
+    ],
+    "hint": "Straight from the 'arithmetic line graph' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., identifying Q4→Q5 as steepest decline) reveals inability to visually compare slopes or confusion between absolute change and rate of change.",
+    "id": "gen_c11_stat_ch04_q5",
+    "nodeId": "c11_stat_cbse_04_009",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -2369,10 +2384,12 @@ export const C11_STAT_GEN: SimDef[] = [
   "subject": "statistics",
   "topic": "Average",
   "chapters": [
-   "Statistics Ch5: Average"
+   "Statistics Ch5: Average",
+   "Statistics Ch6: Average"
   ],
   "nodeIds": [
    "c11_stat_cbse_05_001",
+   "c11_stat_cbse_06_001",
    "c11_stat_cbse_05_002",
    "c11_stat_cbse_05_006",
    "c11_stat_cbse_05_008"
@@ -2399,6 +2416,12 @@ export const C11_STAT_GEN: SimDef[] = [
     "text": "An average (or measure of central tendency) is a single representative value that summarises an entire data set by identifying the central position around which all observations tend to cluster, enabling meaningful comparison and analysis of large volumes of",
     "emoji": "📊",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Measures Of Dispersion Quantify The Extent",
+    "text": "Measures of dispersion quantify the extent to which individual data points in a distribution deviate from a central value (mean, median, or mode), describing the spread, variability, or scatter of the dataset around its average.",
+    "emoji": "📊",
+    "bgColor": "from-violet-400 to-purple-500"
    },
    {
     "title": "Arithmetic Mean",
@@ -2443,17 +2466,80 @@ export const C11_STAT_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of judgments a coach should make when two batsmen average the same 50 runs over 10 innings.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Find Rohit tightly clustered while Virat",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Conclude that Rohit",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Note that both batsmen average 50 over 10",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Examine the scatter of individual scores",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that declares both equally good shows the student has read only the central tendency and missed that dispersion describes the reliability of the average.",
+    "id": "gen_c11_stat_ch05_q2",
+    "nodeId": "c11_stat_cbse_06_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine two Class 11 sections, Section A and Section B, both have an average (mean) score of 75 in Statistics.",
+     "Section A has scores clustered tightly: 73, 74, 75, 76, 77.",
+     "Section B has extreme variation: 40, 60, 75, 90, 110.",
+     "The mean is identical, but would you say both sections performed similarly?"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Compare the Direct Method and Step Deviation Method for calculating the mean of a discrete series with large frequencies and large values (e.g., X = 1000, 2000, 3000; f = 50, 80, 70). Which is more efficient and why? What condition must be met for Step Deviation to work smoothly?",
     "answer": "Step Deviation is more efficient because dividing deviations by a common factor c (here c=1000) reduces large numbers to small integers (d' = -1, 0, 1)",
     "options": [
-     "N=10. D₇ position = 7(10+1)/10 = 7.7th item. 7th item = 42, 8th item = 48. D₇ = 42 + 0.7(48-42) = 42 + 4.2 = 46.2",
-     "The statement is partially true but misleading. Percentiles *can* be calculated for any N (e.g., P₉₀ for N=30 gives position 27",
+     "(a) In a symmetric distribution, Mean = Median = Mode; the formula gives Mode = 3M – 2M = M, which holds trivially but is unnecessary—the exact equality is known",
+     "The analysis runs: (1) Note that both batsmen average 50 over 10 innings (2) Examine the scatter of individual scores around that mean (3) Find Rohit tightly clustered while Virat",
      "Step Deviation is more efficient because dividing deviations by a common factor c (here c=1000) reduces large numbers to small integers (d' = -1, 0, 1)"
     ],
     "hint": "Straight from the 'Arithmetic Mean' slide -- match the key terms.",
     "misconception": "A student who says \"Direct Method is always better\" lacks strategic thinking about computational efficiency.",
-    "id": "gen_c11_stat_ch05_q2",
+    "id": "gen_c11_stat_ch05_q3",
     "nodeId": "c11_stat_cbse_05_002",
     "difficulty": "advanced",
     "workedExample": [
@@ -2472,7 +2558,7 @@ export const C11_STAT_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer of 48 (taking the 8th item directly) reveals the student doesn't interpolate for fractional positions. A wrong answer using 7N/10 = 7th item (no +1) reveals confusion between grouped and ungrouped formulas.",
-    "id": "gen_c11_stat_ch05_q3",
+    "id": "gen_c11_stat_ch05_q4",
     "nodeId": "c11_stat_cbse_05_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -2487,13 +2573,13 @@ export const C11_STAT_GEN: SimDef[] = [
     "question": "Explain why the empirical relationship Mode = 3 Median – 2 Mean is not applicable to: (a) a perfectly symmetric distribution, (b) a bimodal distribution, (c) a highly skewed (J-shaped) distribution.",
     "answer": "(a) In a symmetric distribution, Mean = Median = Mode; the formula gives Mode = 3M – 2M = M, which holds trivially but is unnecessary—the exact equality is known",
     "options": [
-     "Mode = 10 (appears 4 times). The owner should use the mode because she needs the size with maximum demand (most frequent), not the central tendency of sizes",
      "Step Deviation is more efficient because dividing deviations by a common factor c (here c=1000) reduces large numbers to small integers (d' = -1, 0, 1)",
+     "N=10. D₇ position = 7(10+1)/10 = 7.7th item. 7th item = 42, 8th item = 48. D₇ = 42 + 0.7(48-42) = 42 + 4.2 = 46.2",
      "(a) In a symmetric distribution, Mean = Median = Mode; the formula gives Mode = 3M – 2M = M, which holds trivially but is unnecessary—the exact equality is known"
     ],
     "hint": "Straight from the 'For a moderately skewed unimodal' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it works for all distributions\") reveals the misconception that the empirical formula is a universal mathematical identity rather than an approximation derived under specific shape assumptions.",
-    "id": "gen_c11_stat_ch05_q4",
+    "id": "gen_c11_stat_ch05_q5",
     "nodeId": "c11_stat_cbse_05_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -2514,9 +2600,39 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Quartiles, deciles, and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is partially true but misleading. Percentiles *can* be calculated for any N (e.",
-    "id": "gen_c11_stat_ch05_q5",
+    "id": "gen_c11_stat_ch05_q6",
     "nodeId": "c11_stat_cbse_05_006",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Calculate D₇ for the following individual series: 12, 18, 25, 30, 35, 40, 42, 48, 50, 55.",
+    "answer": "N=10. D₇ position = 7(10+1)/10 = 7.7th item. 7th item = 42, 8th item = 48. D₇ = 42 + 0.7(48-42) = 42 + 4.2 = 46.2",
+    "options": [
+     "Mode = 10 (appears 4 times). The owner should use the mode because she needs the size with maximum demand (most frequent), not the central tendency of sizes",
+     "The statement is partially true but misleading. Percentiles *can* be calculated for any N (e.g., P₉₀ for N=30 gives position 27",
+     "N=10. D₇ position = 7(10+1)/10 = 7.7th item. 7th item = 42, 8th item = 48. D₇ = 42 + 0.7(48-42) = 42 + 4.2 = 46.2"
+    ],
+    "hint": "Straight from the 'Quartiles, deciles, and' slide -- match the key terms.",
+    "misconception": "A wrong answer of 48 (taking the 8th item directly) reveals the student doesn't interpolate for fractional positions. A wrong answer using 7N/10 = 7th item (no +1) reveals confusion between grouped and ungrouped formulas.",
+    "id": "gen_c11_stat_ch05_q7",
+    "nodeId": "c11_stat_cbse_05_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of judgments a coach should make when two batsmen average the same 50 runs over 10 innings.",
+    "answer": "The analysis runs: (1) Note that both batsmen average 50 over 10 innings (2) Examine the scatter of individual scores around that mean (3) Find Rohit tightly clustered while Virat",
+    "options": [
+     "Mode = 10 (appears 4 times). The owner should use the mode because she needs the size with maximum demand (most frequent), not the central tendency of sizes",
+     "Step Deviation is more efficient because dividing deviations by a common factor c (here c=1000) reduces large numbers to small integers (d' = -1, 0, 1)",
+     "The analysis runs: (1) Note that both batsmen average 50 over 10 innings (2) Examine the scatter of individual scores around that mean (3) Find Rohit tightly clustered while Virat"
+    ],
+    "hint": "Straight from the 'Measures of dispersion quantify' slide -- match the key terms.",
+    "misconception": "A wrong answer that declares both equally good shows the student has read only the central tendency and missed that dispersion describes the reliability of the average.",
+    "id": "gen_c11_stat_ch05_q8",
+    "nodeId": "c11_stat_cbse_06_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -2688,6 +2804,21 @@ export const C11_STAT_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A researcher claims: \"For large datasets, the assumed mean method is obsolete because computers use the actual mean method directly.\" Evaluate this claim. When might the assumed mean method still be preferred in practice?",
+    "answer": "The claim is partially true for automated computation but false for human calculation and pedagogical understanding",
+    "options": [
+     "This violates Limitation 3: correlation does not imply causation. The confounding variable is \"severity of fire\" — larger fires cause more damage AND require more fire engines",
+     "(iii) is the classic spurious correlation example. Storks and human births both correlate with rural/urban character and economic development",
+     "The claim is partially true for automated computation but false for human calculation and pedagogical understanding"
+    ],
+    "hint": "Straight from the 'assumed mean method' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The claim is partially true for automated computation but false for human calculation and pedagogical understanding.",
+    "id": "gen_c11_stat_ch07_q4",
+    "nodeId": "c11_stat_cbse_07_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A researcher observes r = +0.91 between per capita cheese consumption (kg) and deaths by bedsheet entanglement (per million) over 2000–2009. The p-value is < 0.001. The researcher claims: \"Statistical significance proves the relationship is real and not due to chance.",
     "answer": "Statistical significance (low p-value) only indicates the observed correlation is unlikely under the null hypothesis of zero population correlation",
     "options": [
@@ -2697,7 +2828,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Correlation' slide -- match the key terms.",
     "misconception": "A wrong answer conflates \"not due to random sampling error\" with \"reflects a genuine causal mechanism.\"",
-    "id": "gen_c11_stat_ch07_q4",
+    "id": "gen_c11_stat_ch07_q5",
     "nodeId": "c11_stat_cbse_07_010",
     "difficulty": "advanced"
    },
@@ -2712,7 +2843,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Correlation' slide -- match the key terms.",
     "misconception": "A wrong answer fails to identify the confounding by population health severity or propose methods to address it.",
-    "id": "gen_c11_stat_ch07_q5",
+    "id": "gen_c11_stat_ch07_q6",
     "nodeId": "c11_stat_cbse_07_010",
     "difficulty": "advanced"
    }
@@ -2744,6 +2875,7 @@ export const C11_STAT_GEN: SimDef[] = [
    "c11_stat_cbse_08_004",
    "c11_stat_cbse_08_005",
    "c11_stat_cbse_08_006",
+   "c11_stat_cbse_08_007",
    "c11_stat_cbse_08_008",
    "c11_stat_cbse_08_009",
    "c11_stat_cbse_08_010",
@@ -2803,6 +2935,12 @@ export const C11_STAT_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Fisher's Ideal Index Number",
+    "text": "Fisher's Ideal Index Number is a weighted price index calculated as the geometric mean of Laspeyres' and Paasche's price indices, expressed as \\( P_{01} = \\sqrt{P_L \\times P_P} \\times 100 \\), where \\( P_L = \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\) uses base-year",
+    "emoji": "📊",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Consumer Price Index",
     "text": "Consumer Price Index (CPI) is a weighted index number that measures the average change over time in the retail prices of a fixed basket of goods and services typically consumed by a specific population group (e.",
     "emoji": "📊",
@@ -2855,7 +2993,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "answer": "The primary purpose is to measure relative changes in a group of related variables (like prices or quantities) over time or space, expressed as a percentage of a base period",
     "options": [
      "The formula is \\( P_{01} = \\frac{\\sum P_1}{\\sum P_0} \\times 100 \\), where \\( P_1 \\) is the price in the current period, \\( P_0 \\) is the price in the base period",
-     "WPI measures the average change in prices of goods only (excluding services) at the wholesale/bulk transaction stage (between businesses)",
+     "The computation runs: (1) Sum the products of current prices and base quantities for Laspeyres (2) Sum the products of current prices and current quantities for Paasche (3) Divide",
      "The primary purpose is to measure relative changes in a group of related variables (like prices or quantities) over time or space, expressed as a percentage of a base period"
     ],
     "hint": "Straight from the 'Index numbers' slide -- match the key terms.",
@@ -2959,7 +3097,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "options": [
      "The claim is valid. Laspeyre's index assumes fixed base-year consumption (q₀). When prices rise, consumers substitute toward relatively cheaper goods",
      "Textiles sub-index change = (143-130)/130 × 100 = 10%. Overall WPI change = (147-140)/140 × 100 = 5%",
-     "Steps (P₀₁) = [Σ(p₁q₀) / Σ(p₀q₀)] × 100, where p₀ = price in base year, p₁ = price in current year, q₀ = quantity in base year",
+     "Their (P₀₁) = [Σ(p₁q₀) / Σ(p₀q₀)] × 100, where p₀ = price in base year, p₁ = price in current year, q₀ = quantity in base year",
      "Laspeyre's Price Index (P₀₁) = [Σ(p₁q₀) / Σ(p₀q₀)] × 100, where p₀ = price in base year, p₁ = price in current year, q₀ = quantity in base year"
     ],
     "hint": "Straight from the 'Laspeyre's Price Index Number' slide -- match the key terms.",
@@ -3050,6 +3188,25 @@ export const C11_STAT_GEN: SimDef[] = [
    },
    {
     "type": "math_input",
+    "question": "A market analyst computes a Laspeyres index of 125 and a Paasche index of 115 for rice prices between two years. Calculate Fisher's Ideal Index to one decimal place.",
+    "answer": "119.9",
+    "mathInput": {
+     "tolerance": 1.199
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer that takes the arithmetic mean 120 shows the student has missed that Fisher's formula takes the square root of the product, not the plain average.",
+    "id": "gen_c11_stat_ch08_q7",
+    "nodeId": "c11_stat_cbse_08_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are a market analyst comparing rice prices between 2020 and 2024.",
+     "You calculate Laspeyres index using 2020 quantities (giving 125) and Paasche index using 2024 quantities (giving 115).",
+     "Which one is \"correct\"?",
+     "Neither — Laspeyres overstates inflation by ignoring consumers switching to cheaper alternatives, while Paasche understates it by using current"
+    ]
+   },
+   {
+    "type": "math_input",
     "question": "Given: Base year (2020) prices and quantities for a worker's basket: Rice (₹40/kg, 20 kg), Wheat (₹25/kg, 15 kg), Oil (₹120/L, 5 L). Current year (2024) prices: Rice ₹52/kg, Wheat ₹30/kg, Oil ₹150/L. Calculate the CPI for 2024 with base 2020 = 100 using Laspeyres method.",
     "answer": "126.2",
     "mathInput": {
@@ -3057,7 +3214,7 @@ export const C11_STAT_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer using current quantities (if invented) or simple average of price relatives reveals the student cannot distinguish Laspeyres (fixed basket) from other methods, or cannot execute the weighted aggregation formula correctly.",
-    "id": "gen_c11_stat_ch08_q7",
+    "id": "gen_c11_stat_ch08_q8",
     "nodeId": "c11_stat_cbse_08_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -3076,7 +3233,7 @@ export const C11_STAT_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer using overall WPI shows inability to apply disaggregated index data for decision-making.",
-    "id": "gen_c11_stat_ch08_q8",
+    "id": "gen_c11_stat_ch08_q9",
     "nodeId": "c11_stat_cbse_08_009",
     "difficulty": "standard",
     "workedExample": [
@@ -3095,7 +3252,7 @@ export const C11_STAT_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer (e.g., comparing absolute index differences) shows the student does not normalize by the base index, leading to incorrect comparison.",
-    "id": "gen_c11_stat_ch08_q9",
+    "id": "gen_c11_stat_ch08_q10",
     "nodeId": "c11_stat_cbse_08_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -3180,7 +3337,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"index numbers are difficult to calculate\") reveals the student confuses computational difficulty with conceptual limitations, or has memorized formulas without understanding what index numbers actually measure.",
-    "id": "gen_c11_stat_ch08_q10",
+    "id": "gen_c11_stat_ch08_q11",
     "nodeId": "c11_stat_cbse_08_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -3189,6 +3346,159 @@ export const C11_STAT_GEN: SimDef[] = [
      "Then categorize these into the six standard limitations.",
      "The key insight is that index numbers are statistical approximations, not precise measurements of individual cost-of-living changes."
     ]
+   },
+   {
+    "type": "math_input",
+    "question": "A market analyst computes a Laspeyres index of 125 and a Paasche index of 115 for rice prices between two years. Calculate Fisher's Ideal Index to one decimal place.",
+    "answer": "119.9",
+    "mathInput": {
+     "tolerance": 1.199
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer that takes the arithmetic mean 120 shows the student has missed that Fisher's formula takes the square root of the product, not the plain average.",
+    "id": "gen_c11_stat_ch08_q12",
+    "nodeId": "c11_stat_cbse_08_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps to compute Fisher's Ideal Index from raw price and quantity data of two years.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Divide each by its base-year total",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Sum the products of current prices and base",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Sum the products of current prices",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Take the square root of the product",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that averages the two indices arithmetically shows the student has missed that Fisher's ideal form is the geometric mean, the step that lets it pass the reversal tests.",
+    "id": "gen_c11_stat_ch08_q13",
+    "nodeId": "c11_stat_cbse_08_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "math_input",
+    "question": "Give the correct order of steps to compute Fisher's Ideal Index from raw price and quantity data of two years.",
+    "answer": "1",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer that averages the two indices arithmetically shows the student has missed that Fisher's ideal form is the geometric mean, the step that lets it pass the reversal tests.",
+    "id": "gen_c11_stat_ch08_q14",
+    "nodeId": "c11_stat_cbse_08_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps to compute Fisher's Ideal Index from raw price and quantity data of two years.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Sum the products of current prices and base",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Take the square root of the product",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Sum the products of current prices",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Divide each by its base-year total",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that averages the two indices arithmetically shows the student has missed that Fisher's ideal form is the geometric mean, the step that lets it pass the reversal tests.",
+    "id": "gen_c11_stat_ch08_q15",
+    "nodeId": "c11_stat_cbse_08_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "math_input",
+    "question": "Give the correct order of steps to compute Fisher's Ideal Index from raw price and quantity data of two years.",
+    "answer": "1",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer that averages the two indices arithmetically shows the student has missed that Fisher's ideal form is the geometric mean, the step that lets it pass the reversal tests.",
+    "id": "gen_c11_stat_ch08_q16",
+    "nodeId": "c11_stat_cbse_08_007",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -3232,7 +3542,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing with the statement confuses \"statistical convenience\" with \"policy relevance\" and ignores the legal mandate of inflation targeting.",
-    "id": "gen_c11_stat_ch08_q11",
+    "id": "gen_c11_stat_ch08_q17",
     "nodeId": "c11_stat_cbse_08_009",
     "difficulty": "standard"
    },
@@ -3300,99 +3610,9 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing reveals the student confuses formula properties with data/conceptual limitations – a critical senior-secondary error.",
-    "id": "gen_c11_stat_ch08_q12",
+    "id": "gen_c11_stat_ch08_q18",
     "nodeId": "c11_stat_cbse_08_011",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "\"Index numbers are the only reliable tool for measuring inflation.\" Evaluate this statement. Provide two arguments for and two against, using characteristics of index numbers.",
-    "answer": "*For*: (1) Index numbers capture net price change across a representative basket, reflecting the true cost-of-living impact better than any single price",
-    "options": [
-     "The statement is false. Fisher's index only satisfies mathematical consistency tests (formula properties)",
-     "No, the statement is incorrect. An index of 125 means the total cost of the base-year basket increased by 25%, not that each commodity's price rose by 25%",
-     "*For*: (1) Index numbers capture net price change across a representative basket, reflecting the true cost-of-living impact better than any single price"
-    ],
-    "hint": "Straight from the 'index number' slide -- match the key terms.",
-    "misconception": "A wrong answer that only agrees or disagrees without using *characteristics* (weighting, base period, group measurement) shows the student cannot evaluate the tool using its own defining properties.",
-    "id": "gen_c11_stat_ch08_q13",
-    "nodeId": "c11_stat_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student calculates the simple average of price relatives for three commodities (A, B, C) and gets 120. They claim \"prices have risen by 20% on average.\" Why might this statement be misleading for a household's cost of living?",
-    "answer": "The simple average ignores the quantities consumed (weights). If the household spends 90% of its budget on commodity A (which rose 10%) and only 10% on commodity C (which rose",
-    "options": [
-     "The student used the current period index (165) as the denominator instead of the base period index (150)",
-     "Weighted average of price relatives with base-year value weights (V₀ = p₀q₀) is more appropriate because expenditure shares are value weights",
-     "The simple average ignores the quantities consumed (weights). If the household spends 90% of its budget on commodity A (which rose 10%) and only 10% on commodity C (which rose"
-    ],
-    "hint": "Straight from the 'index number' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student does not understand that index numbers must incorporate weights to reflect the actual impact on a group, a core characteristic: \"measures net change in a group of related variables.\"",
-    "id": "gen_c11_stat_ch08_q14",
-    "nodeId": "c11_stat_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare and contrast the characteristics of index numbers with those of a simple percentage change calculated for a single variable (e.g., price of wheat). Identify at least three distinguishing features.",
-    "answer": "1. Index numbers measure *average relative change in a group* of variables; a single percentage change measures change in *one* variable",
-    "options": [
-     "Yes, they are equivalent for the same base and current periods. Statement A gives the absolute change in index points (10 points)",
-     "(a) Weighted aggregative naturally uses quantity weights (q₀ or q₁) because it aggregates price × quantity",
-     "1. Index numbers measure *average relative change in a group* of variables; a single percentage change measures change in *one* variable"
-    ],
-    "hint": "Straight from the 'index number' slide -- match the key terms.",
-    "misconception": "A wrong answer that lists only \"both are percentages\" or \"both use base period\" shows the student cannot analytically separate the *group-measurement* and *weighting* aspects that define index numbers.",
-    "id": "gen_c11_stat_ch08_q15",
-    "nodeId": "c11_stat_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a mini-index number to track the \"study cost\" for a Class 11 student over two years. Specify: (a) the group of variables, (b) the base period, (c) how you would assign weights, and (d) one limitation of your index.",
-    "answer": "(a) Variables: tuition fees, textbook prices, stationery, transport, online subscription costs. (b) Base period: Academic year 2023-24 (assigned 100)",
-    "options": [
-     "The claim is valid. Laspeyre's index assumes fixed base-year consumption (q₀). When prices rise, consumers substitute toward relatively cheaper goods",
-     "The criticism is *partially valid but standard practice*. Laspeyres CPI *always* has a weight-reference period (survey year) earlier than price-reference period (base year) and",
-     "(a) Variables: tuition fees, textbook prices, stationery, transport, online subscription costs. (b) Base period: Academic year 2023-24 (assigned 100)"
-    ],
-    "hint": "Straight from the 'index number' slide -- match the key terms.",
-    "misconception": "A poor answer that uses equal weights or ignores the \"group of variables\" requirement shows the student has not internalized the characteristics of weighting and group measurement.",
-    "id": "gen_c11_stat_ch08_q16",
-    "nodeId": "c11_stat_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why an index number is called a \"specialized average\" and how it differs from a simple arithmetic mean of price relatives.",
-    "answer": "An index number is a \"specialized average\" because it averages price/quantity relatives (ratios × 100) using weights that reflect the economic importance of each item",
-    "options": [
-     "Laspeyres uses fixed base-year weights (q₀), allowing CPI to be computed *monthly* using only current prices (p₁) since weights don't change",
-     "WPI captures prices at the first commercial transaction (wholesale), while CPI captures final retail prices",
-     "An index number is a \"specialized average\" because it averages price/quantity relatives (ratios × 100) using weights that reflect the economic importance of each item"
-    ],
-    "hint": "Straight from the 'index number' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"it's just an average of percentages\") shows the student misses the critical role of weighting and the fact that index numbers measure net change in a *group* of variables, not just a mathematical average of individual changes.",
-    "id": "gen_c11_stat_ch08_q17",
-    "nodeId": "c11_stat_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the use of a Price Index (like CPI) and a Quantity Index (like Index of Industrial Production) in economic analysis. Give one specific policy decision each might inform.",
-    "answer": "CPI measures price changes for a consumption basket and informs monetary policy (e.g., RBI setting repo rate) and wage indexation",
-    "options": [
-     "Yes, they are equivalent for the same base and current periods. Statement A gives the absolute change in index points (10 points)",
-     "CPI uses *consumption expenditure weights* derived from family budget surveys of the target population (retail-level consumption patterns)",
-     "CPI measures price changes for a consumption basket and informs monetary policy (e.g., RBI setting repo rate) and wage indexation"
-    ],
-    "hint": "Straight from the 'Index numbers' slide -- match the key terms.",
-    "misconception": "A wrong answer that swaps the uses or gives vague decisions shows the student cannot distinguish between price-level indicators and real-activity indicators.",
-    "id": "gen_c11_stat_ch08_q18",
-    "nodeId": "c11_stat_cbse_08_002",
-    "difficulty": "standard"
    }
   ],
   "reflect": {

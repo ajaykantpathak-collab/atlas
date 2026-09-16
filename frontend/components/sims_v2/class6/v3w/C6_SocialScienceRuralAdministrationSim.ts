@@ -10,7 +10,7 @@ export const w_c6_socialscienceruraladministrationsim: SimDef = {
     subtitle: 'This node covers the structure (Legislature, Executive, Judiciary) and core functions of.',
     classLevel: 6, subject: 'science', topic: 'State Government: Structure and Functions',
     chapters: [],
-    nodeIds: ['c6_civics_ch12_019', 'c6_civics_ch12_015', 'c6_civics_ch12_016', 'c6_civics_ch12_018', 'c6_history_ch09_038', 'c6_history_ch09_034', 'c6_history_ch09_035'],
+    nodeIds: ['c6_civics_ch12_019', 'c6_civics_ch12_015', 'c6_civics_ch12_020', 'c6_civics_ch12_018', 'c6_history_ch09_038', 'c6_history_ch09_034', 'c6_history_ch09_035'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine your school needs a new playground, but the local village council doesn\'t have the money to build it.', goal: 'Master Social Science Rural Administration.' },
     discovery: {

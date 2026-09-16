@@ -16,12 +16,15 @@ export const C9_PHY_GEN: SimDef[] = [
   "subject": "physics",
   "topic": "Science As a Systematic Study Of Nature",
   "chapters": [
-   "Physics Ch1: Science As a Systematic Study Of Nature"
+   "Physics Ch1: Science As a Systematic Study Of Nature",
+   "Physics Ch2: Science As a Systematic Study Of Nature"
   ],
   "nodeIds": [
    "c9_physics_ch1_1",
    "c9_physics_ch1_3",
    "c9_physics_ch1_4",
+   "c9_physics_ch2_4",
+   "c9_physics_ch2_6",
    "c9_physics_ch1_8",
    "c9_physics_ch1_9",
    "c9_physics_ch1_10"
@@ -60,6 +63,18 @@ export const C9_PHY_GEN: SimDef[] = [
     "text": "A hypothesis is a testable, falsifiable prediction about the relationship between variables, stated in a form that allows experimental verification or rejection; testing involves designing a controlled investigation where only the independent variable is",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Uniform Motion",
+    "text": "Uniform motion is motion in which an object covers equal displacements in equal intervals of time, implying constant velocity (both magnitude and direction remain unchanged).",
+    "emoji": "⚡",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Distance-time Graph",
+    "text": "A distance-time graph is a graphical representation plotting distance travelled (on the y-axis) against time elapsed (on the x-axis) for an object moving along a straight line.",
+    "emoji": "⚡",
+    "bgColor": "from-indigo-400 to-blue-500"
    },
    {
     "title": "Collaboration And Communication In Science",
@@ -175,6 +190,132 @@ export const C9_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of steps for the toy-car experiment that tests whether motion on a tilted plank is uniform.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Release the car from rest at the top",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Compare displacements per equal time",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Record the time at which the car passes each",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Mark positions at 20 cm intervals along",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that only measures total time shows the student cannot design a test of equal displacements in equal intervals, which is the definition of uniform motion.",
+    "id": "gen_c9_phy_ch01_q4",
+    "nodeId": "c9_physics_ch2_4",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a ceiling fan rotating at constant speed – the blades cover equal angles in equal time but their direction changes continuously.",
+     "Now compare with a bicycle moving on a straight road at a steady 10 km/h.",
+     "Ask: \"In which case is the velocity constant?\" Measure the bicycle's position every 2 seconds using a tape measure and stopwatch; record",
+     "If displacements are equal, motion is uniform."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps to collect distance-time data for a toy car speeding down an inclined ramp.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Plot distance against time and expect a",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Release the car from rest and time",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Mark the ramp at equal intervals up to 100",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Raise one end of a wooden plank to make",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that pushes the car at constant effort on a flat track shows the student has not arranged genuinely non-uniform motion, which only a steepening graph can reveal.",
+    "id": "gen_c9_phy_ch01_q5",
+    "nodeId": "c9_physics_ch2_6",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are standing at a railway crossing in Delhi and watch a train pass by.",
+     "You note its distance from you every 10 seconds: at 0 s it is 0 m, at 10 s it is 200 m, at 20 s it is 400 m, at 30 s it is 600 m.",
+     "Plot these points on graph paper with time on the horizontal axis and distance on the vertical axis.",
+     "You will see the points lie on a straight line passing through the origin."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What is the primary purpose of peer review in scientific publishing?",
     "answer": "Peer review subjects a manuscript to independent evaluation by experts in the same field to assess validity, significance, and originality before publication",
@@ -185,7 +326,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Collaboration and communication' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to check grammar\" or \"to ensure the result is correct\") reveals the student confuses editorial checking with expert validation of methodology and interpretation, missing that peer review filters *plausibility*, not absolute truth.",
-    "id": "gen_c9_phy_ch01_q4",
+    "id": "gen_c9_phy_ch01_q6",
     "nodeId": "c9_physics_ch1_8",
     "difficulty": "standard",
     "workedExample": [
@@ -205,7 +346,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Laboratory safety' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to show the chemical name\" or \"to indicate price\") reveals the student confuses hazard communication with labeling for identification or inventory, missing the critical safety function of immediate hazard recognition.",
-    "id": "gen_c9_phy_ch01_q5",
+    "id": "gen_c9_phy_ch01_q7",
     "nodeId": "c9_physics_ch1_9",
     "difficulty": "advanced",
     "workedExample": [
@@ -225,7 +366,7 @@ export const C9_PHY_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value in times.",
     "misconception": "A wrong ratio (e.g., 200) reveals confusion between efficacy and overall system efficiency.",
-    "id": "gen_c9_phy_ch01_q6",
+    "id": "gen_c9_phy_ch01_q8",
     "nodeId": "c9_physics_ch1_10",
     "difficulty": "standard",
     "workedExample": [
@@ -234,6 +375,21 @@ export const C9_PHY_GEN: SimDef[] = [
      "Connect this to the prior concept of energy conversion (Class 8: heating and magnetic effects of current).",
      "Then trace the societal impact: fans enable comfort in hot climates, increase productivity, but consume electricity often generated by burning coal,"
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "A Class 9 student reads a WhatsApp forward: \"NASA confirms: rubbing lemon on forehead cures migraine instantly.\" Evaluate this claim using *three* criteria of systematic science. State your judgment: accept, reject, or suspend judgment — with reasoning.",
+    "answer": "Judgment: Reject. Three criteria violated: (1) No peer-reviewed publication — WhatsApp is not a vetted scientific channel",
+    "options": [
+     "No, the student is not correct. While the grandmother's knowledge is based on observation, it lacks systematic controls (no comparison group, no dosage standardization",
+     "Student A's statement is a qualitative observation (mass/volume decrease visible). Student B's statement is an inference (vaporization and combustion are not directly seen)",
+     "Judgment: Reject. Three criteria violated: (1) No peer-reviewed publication — WhatsApp is not a vetted scientific channel"
+    ],
+    "hint": "Straight from the 'Science as a systematic study of' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"accept because NASA is authoritative\") reveals the student relies on authority rather than methodological criteria, a classic board-level error called 'appeal to authority' fallacy.",
+    "id": "gen_c9_phy_ch01_q9",
+    "nodeId": "c9_physics_ch1_1",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -246,7 +402,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science as a systematic study of' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student conflates *any* observation with *scientific* observation, missing the requirement for controlled, replicable, and communally vetted evidence.",
-    "id": "gen_c9_phy_ch01_q7",
+    "id": "gen_c9_phy_ch01_q10",
     "nodeId": "c9_physics_ch1_1",
     "difficulty": "standard"
    },
@@ -261,8 +417,23 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science as a systematic study of' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., just \"do a survey\") reveals inability to translate belief into controlled, replicable, communally verified investigation — the essence of systematic science.",
-    "id": "gen_c9_phy_ch01_q8",
+    "id": "gen_c9_phy_ch01_q11",
     "nodeId": "c9_physics_ch1_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A rural household replaces a kerosene lamp (luminous efficacy 0.5 lm/W) with a 5 W LED bulb (efficacy 100 lm/W) powered by a solar panel. If the lamp runs 4 hours daily, calculate the ratio of useful light output (lumens) of the LED to the kerosene lamp for the same electrical energy input.",
+    "answer": "Step 1: Kerosene lamp light output per joule = 0.5 lm/W × (1 W = 1 J/s) → 0.5 lm per joule of electrical energy",
+    "options": [
+     "Example scenario: \"Eating curd before exams brings good marks\" (non-scientific belief). Redesign: (a) Hypothesis: \"Consuming 100 g curd daily for 7 days before a standardized test",
+     "No, the student is not correct. While the grandmother's knowledge is based on observation, it lacks systematic controls (no comparison group, no dosage standardization",
+     "Step 1: Kerosene lamp light output per joule = 0.5 lm/W × (1 W = 1 J/s) → 0.5 lm per joule of electrical energy"
+    ],
+    "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
+    "misconception": "A wrong ratio (e.g., 200) reveals confusion between efficacy and overall system efficiency.",
+    "id": "gen_c9_phy_ch01_q12",
+    "nodeId": "c9_physics_ch1_10",
     "difficulty": "standard"
    },
    {
@@ -276,7 +447,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
     "misconception": "A wrong answer (\"scientists are fully responsible\") reveals a misunderstanding of the science-society interface and the role of regulation.",
-    "id": "gen_c9_phy_ch01_q9",
+    "id": "gen_c9_phy_ch01_q13",
     "nodeId": "c9_physics_ch1_10",
     "difficulty": "standard"
    },
@@ -291,7 +462,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
     "misconception": "A wrong answer treating both as \"just sound\" misses the ethical dimension of technology deployment.",
-    "id": "gen_c9_phy_ch01_q10",
+    "id": "gen_c9_phy_ch01_q14",
     "nodeId": "c9_physics_ch1_10",
     "difficulty": "standard"
    },
@@ -306,7 +477,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
     "misconception": "A poor answer proposes a \"magic\" device without energy accounting or ignores maintenance/social context.",
-    "id": "gen_c9_phy_ch01_q11",
+    "id": "gen_c9_phy_ch01_q15",
     "nodeId": "c9_physics_ch1_10",
     "difficulty": "standard"
    },
@@ -321,7 +492,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"electricity is good\" shows inability to evaluate trade-offs.",
-    "id": "gen_c9_phy_ch01_q12",
+    "id": "gen_c9_phy_ch01_q16",
     "nodeId": "c9_physics_ch1_10",
     "difficulty": "standard"
    },
@@ -331,12 +502,12 @@ export const C9_PHY_GEN: SimDef[] = [
     "answer": "Principle: Newton's laws of motion (especially second law F=ma and third law action-reaction) and friction. Technology: gear system and braking mechanism",
     "options": [
      "The primary purpose is to provide a standardized, language-independent visual warning about the specific type of hazard a chemical poses (e",
-     "Peer review subjects a manuscript to independent evaluation by experts in the same field to assess validity, significance, and originality before publication",
+     "The data collection runs: (1) Raise one end of a wooden plank to make an incline (2) Mark the ramp at equal intervals up to 100 cm (3) Release the car from rest and time its",
      "Principle: Newton's laws of motion (especially second law F=ma and third law action-reaction) and friction. Technology: gear system and braking mechanism"
     ],
     "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"thermodynamics\") reveals the student cannot map basic mechanics to a familiar machine and confuses energy domains.",
-    "id": "gen_c9_phy_ch01_q13",
+    "id": "gen_c9_phy_ch01_q17",
     "nodeId": "c9_physics_ch1_10",
     "difficulty": "standard"
    },
@@ -351,66 +522,6 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Observation' slide -- match the key terms.",
     "misconception": "A wrong evaluation shows the student accepts inferences as facts without demanding corroborating evidence.",
-    "id": "gen_c9_phy_ch01_q14",
-    "nodeId": "c9_physics_ch1_3",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student places a thermometer in a beaker of ice-water mixture and records: \"The temperature is 0°C because ice melts at 0°C.\" Identify the observation and the inference in this statement. Rewrite it as two separate entries.",
-    "answer": "Observation: \"The thermometer reads 0°C.\" Inference: \"The mixture is at the melting point of ice.\" Rewritten: (1) Observation – Thermometer reading: 0°C",
-    "options": [
-     "No, the student is not correct. While the grandmother's knowledge is based on observation, it lacks systematic controls (no comparison group, no dosage standardization",
-     "Student A's design is valid — only temperature (independent) varies, drop height (controlled) is constant, so bounce height differences can be attributed to temperature",
-     "Observation: \"The thermometer reads 0°C.\" Inference: \"The mixture is at the melting point of ice.\" Rewritten: (1) Observation – Thermometer reading: 0°C"
-    ],
-    "hint": "Straight from the 'Observation' slide -- match the key terms.",
-    "misconception": "A wrong separation indicates the student treats the known melting point as a direct observation rather than a theoretical inference.",
-    "id": "gen_c9_phy_ch01_q15",
-    "nodeId": "c9_physics_ch1_3",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a 5-minute classroom activity where you make at least three distinct observations (using at least two senses) of a burning incense stick, and then write two inferences that logically follow. Provide a template table with columns: Sense Used, Observation (with units if any), Inference.",
-    "answer": "A good answer includes a table like: Sight – \"White smoke rises in a straight column\" (observation) → \"Hot air carries particles upward\" (inference)",
-    "options": [
-     "A good answer will be a structured table with columns: Category, Checkpoint 1, Checkpoint 2. Example rows: PPE | Safety goggles worn?",
-     "Judgment: Reject. Three criteria violated: (1) No peer-reviewed publication — WhatsApp is not a vetted scientific channel",
-     "A good answer includes a table like: Sight – \"White smoke rises in a straight column\" (observation) → \"Hot air carries particles upward\" (inference)"
-    ],
-    "hint": "Straight from the 'Observation' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A good answer includes a table like: Sight – \"White smoke rises in a straight column\" (observation) → \"Hot air carries",
-    "id": "gen_c9_phy_ch01_q16",
-    "nodeId": "c9_physics_ch1_3",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Two students observe a candle burning. Student A writes: \"The wax disappears.\" Student B writes: \"The wax vaporizes and combusts.\" Compare the two statements. Which is a better observation? Which is an inference? Can Student B's statement be directly verified?",
-    "answer": "Student A's statement is a qualitative observation (mass/volume decrease visible). Student B's statement is an inference (vaporization and combustion are not directly seen)",
-    "options": [
-     "A good answer includes a table like: Sight – \"White smoke rises in a straight column\" (observation) → \"Hot air carries particles upward\" (inference)",
-     "The statement is not falsifiable (it asserts a \"because\" mechanism without a testable prediction structure) and it confuses hypothesis with explanation",
-     "Student A's statement is a qualitative observation (mass/volume decrease visible). Student B's statement is an inference (vaporization and combustion are not directly seen)"
-    ],
-    "hint": "Straight from the 'Observation' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., calling B's statement an observation) reveals the student equates scientific terminology with direct observation.",
-    "id": "gen_c9_phy_ch01_q17",
-    "nodeId": "c9_physics_ch1_3",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why must a scientist carefully label statements as \"observation\" or \"inference\" in a lab notebook? What goes wrong if they are mixed?",
-    "answer": "Mixing them destroys the chain of evidence: others cannot verify the raw data, and the reasoning becomes circular",
-    "options": [
-     "Synthetic fibers melt at relatively low temperatures and adhere to skin, causing severe burns that are difficult to treat",
-     "Electromagnetic induction (Faraday's law) converts mechanical rotation into electrical energy, providing lighting and appliance power",
-     "Mixing them destroys the chain of evidence: others cannot verify the raw data, and the reasoning becomes circular"
-    ],
-    "hint": "Straight from the 'Observation' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student does not grasp that science requires transparent, reproducible evidence separate from interpretation.",
     "id": "gen_c9_phy_ch01_q18",
     "nodeId": "c9_physics_ch1_3",
     "difficulty": "standard"
@@ -707,6 +818,52 @@ export const C9_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Three forces act on a box on a smooth floor: 10 N east, 6 N north, and 8 N west. Calculate the magnitude and direction of the resultant force. (Take east as +x, north as +y)",
+    "answer": "Step 1: Identify components. F₁ₓ = +10 N, F₁ᵧ = 0; F₂ₓ = 0, F₂ᵧ = +6 N; F₃ₓ = -8 N, F₃ᵧ = 0. Step 2: Sum x-components: Rₓ = 10 + 0 - 8 = 2 N",
+    "options": [
+     "Control: mass of the car (keep constant). Independent variable: applied force (vary using spring balance by stretching different amounts)",
+     "Setup: Thread a straw on a long horizontal string stretched across the room. Inflate a balloon, tape it to the straw (opening backward), hold the balloon closed, then release",
+     "Step 1: Identify components. F₁ₓ = +10 N, F₁ᵧ = 0; F₂ₓ = 0, F₂ᵧ = +6 N; F₃ₓ = -8 N, F₃ᵧ = 0. Step 2: Sum x-components: Rₓ = 10 + 0 - 8 = 2 N"
+    ],
+    "hint": "Straight from the 'resultant of multiple forces' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., 24 N) reveals the student added all magnitudes without vector resolution.",
+    "id": "gen_c9_phy_ch03_q10",
+    "nodeId": "c9_physics_ch3_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Three forces act on a 5 kg box on a smooth horizontal floor: 30 N east, 40 N north, and 50 N at 225° (south-west). Calculate the net force vector (magnitude and direction) and the resulting acceleration of the box.",
+    "answer": "Step 1: Resolve each force into x (east) and y (north) components. F₁ = 30 N east → F₁ₓ = +30 N, F₁ᵧ = 0 N F₂ = 40 N north → F₂ₓ = 0 N",
+    "options": [
+     "Control: mass of the car (keep constant). Independent variable: applied force (vary using spring balance by stretching different amounts)",
+     "Setup: Thread a straw on a long horizontal string stretched across the room. Inflate a balloon, tape it to the straw (opening backward), hold the balloon closed, then release",
+     "Resultant 1: Resolve each force into x (east) and y (north) components. F₁ = 30 N east → F₁ₓ = +30 N, F₁ᵧ = 0 N F₂ = 40 N north → F₂ₓ = 0 N",
+     "Step 1: Resolve each force into x (east) and y (north) components. F₁ = 30 N east → F₁ₓ = +30 N, F₁ᵧ = 0 N F₂ = 40 N north → F₂ₓ = 0 N"
+    ],
+    "hint": "Straight from the 'Balanced forces occur when the' slide -- match the key terms.",
+    "misconception": "A wrong answer adding magnitudes directly (30+40+50=120 N) reveals the student treats forces as scalars, ignoring vector nature.",
+    "id": "gen_c9_phy_ch03_q11",
+    "nodeId": "c9_physics_ch3_2",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A 1500 kg car moving at 20 m/s east collides with a stationary 1000 kg truck. After collision, the car moves at 5 m/s east. Calculate the velocity of the truck after collision. Assume no external forces.",
+    "answer": "Given: m₁ = 1500 kg, u₁ = 20 m/s east; m₂ = 1000 kg, u₂ = 0 m/s; v₁ = 5 m/s east. Find v₂. Step 1: Choose east as positive",
+    "options": [
+     "Control: mass of the car (keep constant). Independent variable: applied force (vary using spring balance by stretching different amounts)",
+     "The statement correctly identifies the action-reaction pair (horse pulls cart forward, cart pulls horse backward) but incorrectly concludes the cart should not move",
+     "Given: m₁ = 1500 kg, u₁ = 20 m/s east; m₂ = 1000 kg, u₂ = 0 m/s; v₁ = 5 m/s east. Find v₂. Step 1: Choose east as positive"
+    ],
+    "hint": "Straight from the 'Momentum' slide -- match the key terms.",
+    "misconception": "A wrong sign or magnitude reveals failure to assign direction signs or algebraic error in solving for v₂.",
+    "id": "gen_c9_phy_ch03_q12",
+    "nodeId": "c9_physics_ch3_6",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple experiment using a balloon and a straw to demonstrate conservation of momentum. Describe the setup, what you measure, and how you would verify the principle.",
     "answer": "Setup: Thread a straw on a long horizontal string stretched across the room. Inflate a balloon, tape it to the straw (opening backward), hold the balloon closed, then release",
     "options": [
@@ -716,7 +873,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Momentum' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"just watch it move\") reveals inability to identify the system, isolate variables, or connect observation to quantitative principle.",
-    "id": "gen_c9_phy_ch03_q10",
+    "id": "gen_c9_phy_ch03_q13",
     "nodeId": "c9_physics_ch3_6",
     "difficulty": "standard"
    },
@@ -731,7 +888,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Increasing friction involves' slide -- match the key terms.",
     "misconception": "A wrong evaluation (accepting the ball-bearing analogy) reveals the student memorizes \"powder reduces friction\" without understanding the microscopic geometry of lubricants.",
-    "id": "gen_c9_phy_ch03_q11",
+    "id": "gen_c9_phy_ch03_q14",
     "nodeId": "c9_physics_ch3_9",
     "difficulty": "advanced"
    }
@@ -1014,6 +1171,21 @@ export const C9_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A 1500 kg car accelerates from 10 m/s to 25 m/s on a straight road. Calculate the net work done on the car. (Ignore unit conversion; answer in joules.)",
+    "answer": "Given: \\(m = 1500\\,\\text{kg}\\), \\(u = 10\\,\\text{m/s}\\), \\(v = 25\\,\\text{m/s}\\). Step 1: Identify formula: \\(W_{\\text{net}} = \\frac{1}{2}m(v^2 - u^2)\\)",
+    "options": [
+     "30 J. The student must recall U = mgh = 2 kg × 10 m/s² × 1.5 m = 30 J",
+     "Elastic potential energy = ½ × 200 N/m × (0.05 m)² = 0.25 J. Kinetic energy = ½mv² = 0.25 J → ½ × 0.5 kg × v² = 0.25 J → v² = 1 → v = 1 m/s",
+     "Given: \\(m = 1500\\,\\text{kg}\\), \\(u = 10\\,\\text{m/s}\\), \\(v = 25\\,\\text{m/s}\\). Step 1: Identify formula: \\(W_{\\text{net}} = \\frac{1}{2}m(v^2 - u^2)\\)"
+    ],
+    "hint": "Straight from the 'The Work-Energy Theorem states' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., using \\(v-u\\) instead of \\(v^2-u^2\\)) shows the student treats kinetic energy as linear in velocity, missing the square dependence.",
+    "id": "gen_c9_phy_ch04_q10",
+    "nodeId": "c9_physics_ch4_3",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A classmate argues: \"In a rechargeable battery, during charging electrical energy is converted to chemical energy, and during discharging chemical energy is converted to electrical energy.",
     "answer": "The claim is false. The battery does not *create* energy; it *stores* energy from the charger as chemical potential energy (reversing the discharge reaction) and releases it later",
     "options": [
@@ -1023,7 +1195,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Energy' slide -- match the key terms.",
     "misconception": "A wrong evaluation (agreeing with the claim) reveals the deep misconception that energy can be created by a device, ignoring the input during charging.",
-    "id": "gen_c9_phy_ch04_q10",
+    "id": "gen_c9_phy_ch04_q11",
     "nodeId": "c9_physics_ch4_4",
     "difficulty": "standard"
    },
@@ -1038,7 +1210,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Energy' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying gas stove starts with \"heat energy\") reveals confusion between energy *source* (fuel) and energy *form* (chemical potential).",
-    "id": "gen_c9_phy_ch04_q11",
+    "id": "gen_c9_phy_ch04_q12",
     "nodeId": "c9_physics_ch4_4",
     "difficulty": "standard"
    },
@@ -1053,8 +1225,23 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Energy' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"use a voltmeter\" without explaining the chemical reaction, or expecting bright light) reveals lack of understanding of the electrochemical cell principle and energy magnitude.",
-    "id": "gen_c9_phy_ch04_q12",
+    "id": "gen_c9_phy_ch04_q13",
     "nodeId": "c9_physics_ch4_4",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A 150 g cricket ball is bowled at 144 km/h. Calculate its kinetic energy in joules.",
+    "answer": "Step 1: Convert mass to kg: \\( 150 \\, \\text{g} = 0.150 \\, \\text{kg} \\). Step 2: Convert speed to m/s: \\( 144 \\, \\text{km/h} = 144 \\times \\frac{1000}{3600} = 40 \\, \\text{m/s} \\)",
+    "options": [
+     "At release: Ball A has ME = mgh (KE=0). Ball B has ME = mgh + ½m(10)² = mgh + 50m. Ball B has greater mechanical energy initially because of its horizontal kinetic energy",
+     "Elastic potential energy = ½ × 200 N/m × (0.05 m)² = 0.25 J. Kinetic energy = ½mv² = 0.25 J → ½ × 0.5 kg × v² = 0.25 J → v² = 1 → v = 1 m/s",
+     "Step 1: Convert mass to kg: \\( 150 \\, \\text{g} = 0.150 \\, \\text{kg} \\). Step 2: Convert speed to m/s: \\( 144 \\, \\text{km/h} = 144 \\times \\frac{1000}{3600} = 40 \\, \\text{m/s} \\)"
+    ],
+    "hint": "Straight from the 'Kinetic energy' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Convert mass to kg: \\( 150 \\, \\text{g} = 0.150 \\, \\text{kg} \\).",
+    "id": "gen_c9_phy_ch04_q14",
+    "nodeId": "c9_physics_ch4_5",
     "difficulty": "standard"
    },
    {
@@ -1069,7 +1256,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Potential energy' slide -- match the key terms.",
     "misconception": "A wrong answer of 0.25 J for energy but 0.5 m/s for speed reveals the student forgot the ½ in kinetic energy formula or made a unit error (using 5 cm instead of 0.05 m gives 250 J, which is physically unreasonable for a toy car).",
-    "id": "gen_c9_phy_ch04_q13",
+    "id": "gen_c9_phy_ch04_q15",
     "nodeId": "c9_physics_ch4_6",
     "difficulty": "standard"
    },
@@ -1084,7 +1271,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Potential energy' slide -- match the key terms.",
     "misconception": "A poor answer would just say \"measure extension for different masses\" without connecting to energy conversion or plotting x².",
-    "id": "gen_c9_phy_ch04_q14",
+    "id": "gen_c9_phy_ch04_q16",
     "nodeId": "c9_physics_ch4_6",
     "difficulty": "standard"
    },
@@ -1099,7 +1286,7 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Potential energy' slide -- match the key terms.",
     "misconception": "A wrong answer like \"four times\" reveals the student incorrectly thinks energy depends on k², perhaps confusing with the force formula F = kx. If the student says \"same energy\", they think energy depends only on displacement, ignoring the stiffness of the spring.",
-    "id": "gen_c9_phy_ch04_q15",
+    "id": "gen_c9_phy_ch04_q17",
     "nodeId": "c9_physics_ch4_6",
     "difficulty": "standard"
    },
@@ -1114,38 +1301,8 @@ export const C9_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mechanical energy' slide -- match the key terms.",
     "misconception": "A poor answer that only measures final speed or ignores the middle point shows the student doesn't understand that conservation must hold at every instant, not just initial and final.",
-    "id": "gen_c9_phy_ch04_q16",
-    "nodeId": "c9_physics_ch4_7",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student solves: \"A 100 W bulb runs for 5 hours. Energy = 100 × 5 = 500 J.\" Evaluate this solution. Identify the error and give the correct energy in joules and kWh.",
-    "answer": "The solution is incorrect. Error: used power in watts and time in hours directly, giving watt-hours, not joules",
-    "options": [
-     "Yes. At maximum height H, total energy = mgH. At half height (H/2), PE = mg(H/2) = half the total energy",
-     "Power = 1.5 kW = 1500 W. Time = 2 h = 7200 s. Energy in joules = P × t = 1500 × 7200 = 10,800,000 J = 1.08 × 10^7 J. Energy in kWh = 1.5 kW × 2 h = 3 kWh",
-     "The solution is incorrect. Error: used power in watts and time in hours directly, giving watt-hours, not joules"
-    ],
-    "hint": "Straight from the 'Power' slide -- match the key terms.",
-    "misconception": "A student who accepts 500 J reveals they treat units as labels without dimensional consistency.",
-    "id": "gen_c9_phy_ch04_q17",
-    "nodeId": "c9_physics_ch4_9",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment using household items to compare the power output of two different electric bulbs (e.g., LED vs incandescent) without using a power meter. Describe the procedure, measurements, and calculation.",
-    "answer": "Good answer: Use a calorimeter (or water container) to measure heat energy produced. Immerse each bulb in a known mass of water, run for fixed time, measure temperature rise",
-    "options": [
-     "Even LED bulbs produce some heat because no energy conversion is 100% efficient; a fraction of electrical energy always dissipates as heat due to resistance in the circuit and",
-     "Power = 1.5 kW = 1500 W. Time = 2 h = 7200 s. Energy in joules = P × t = 1500 × 7200 = 10,800,000 J = 1.08 × 10^7 J. Energy in kWh = 1.5 kW × 2 h = 3 kWh",
-     "Good answer: Use a calorimeter (or water container) to measure heat energy produced. Immerse each bulb in a known mass of water, run for fixed time, measure temperature rise"
-    ],
-    "hint": "Straight from the 'Power' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Good answer: Use a calorimeter (or water container) to measure heat energy produced.",
     "id": "gen_c9_phy_ch04_q18",
-    "nodeId": "c9_physics_ch4_9",
+    "nodeId": "c9_physics_ch4_7",
     "difficulty": "standard"
    }
   ],
@@ -1680,15 +1837,15 @@ export const C9_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the penetration ability of ultrasound in air versus in soft tissue. Explain why medical ultrasound requires a gel coupling medium.",
-    "answer": "Ultrasound attenuates strongly in air due to large impedance mismatch; most energy reflects at the air-skin interface",
+    "question": "An ultrasonic flaw detector sends a pulse into a steel rail (speed of sound in steel = 5960 m/s). The reflected pulse from a crack returns after 40 μs. Calculate the distance of the crack from the detector.",
+    "answer": "Given: v = 5960 m/s, t = 40 μs = 40 × 10⁻⁶ s. The pulse travels to the crack and back, so total distance = v × t = 5960 × 40 × 10⁻⁶ = 0",
     "options": [
-     "Sound is a mechanical wave — it requires a material medium to propagate. In vacuum, there are no molecules to compress or rarefy, so there is nothing to carry the disturbance",
-     "Ultrasound is sound with frequency above 20,000 Hz (20 kHz), above the human audible upper limit. Medical ultrasound typically uses 2-15 MHz (million Hz)",
-     "Ultrasound attenuates strongly in air due to large impedance mismatch; most energy reflects at the air-skin interface"
+     "The statement is incorrect. Echo and reverberation are related (both involve sound reflection) but different",
+     "The statement is too vague. Not all motion produces sound — a slowly moving object does not produce sound",
+     "Given: v = 5960 m/s, t = 40 μs = 40 × 10⁻⁶ s. The pulse travels to the crack and back, so total distance = v × t = 5960 × 40 × 10⁻⁶ = 0"
     ],
     "hint": "Straight from the 'Ultrasound' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., saying gel increases frequency) shows misunderstanding of acoustic impedance and reflection at boundaries.",
+    "misconception": "A wrong answer (e.g., forgetting to halve the distance) reveals the student does not account for the round-trip travel time.",
     "id": "gen_c9_phy_ch05_q18",
     "nodeId": "c9_physics_ch5_10",
     "difficulty": "standard"

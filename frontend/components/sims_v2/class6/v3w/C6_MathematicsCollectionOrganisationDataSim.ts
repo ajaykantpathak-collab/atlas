@@ -10,7 +10,7 @@ export const w_c6_mathematicscollectionorganisationdatasim: SimDef = {
     subtitle: 'This node covers the definition of data, collection methods, tally marks, frequency.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Data',
     chapters: [],
-    nodeIds: ['c6_math_ch09_095', 'c6_math_ch09_096', 'c6_math_ch09_102', 'c6_math_ch09_104'],
+    nodeIds: ['c6_math_ch09_095', 'c6_math_ch09_096', 'c6_math_ch09_102', 'c6_math_ch09_097'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you want to find out the favourite fruit of everyone in your class.', goal: 'Master Collection Organisation Data.' },
     // discovery omitted — no cleanly extractable hook

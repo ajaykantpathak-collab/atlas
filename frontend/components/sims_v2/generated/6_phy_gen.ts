@@ -329,6 +329,21 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "You notice your plant in the balcony is wilting. How would you apply the scientific method to find out why?",
+    "answer": "First, observe the plant (it's dry). Second, ask why (does it need water?). Third, guess the cause (the soil is too dry)",
+    "options": [
+     "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge",
+     "This falls under Chemistry, because it involves a change in the state of a substance",
+     "First, observe the plant (it's dry). Second, ask why (does it need water?). Third, guess the cause (the soil is too dry)"
+    ],
+    "hint": "Straight from the 'scientific method' slide -- match the key terms.",
+    "misconception": "A wrong answer here shows the student cannot connect the abstract steps to a concrete action.",
+    "id": "gen_c6_phy_ch01_q13",
+    "nodeId": "c6_physics_ch01_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "\"Science is just about memorizing the names of the branches.\" Is this statement true or false? Justify your answer.",
     "answer": "False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the world works",
     "options": [
@@ -338,7 +353,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the",
-    "id": "gen_c6_phy_ch01_q13",
+    "id": "gen_c6_phy_ch01_q14",
     "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    },
@@ -353,7 +368,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science' slide -- match the key terms.",
     "misconception": "A wrong answer here shows the student does not see the connection between the \"Earth system\" and the \"Universe system.\"",
-    "id": "gen_c6_phy_ch01_q14",
+    "id": "gen_c6_phy_ch01_q15",
     "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    },
@@ -368,7 +383,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science' slide -- match the key terms.",
     "misconception": "A student who says they are \"completely unrelated\" fails to understand that all branches of science overlap in the real world.",
-    "id": "gen_c6_phy_ch01_q15",
+    "id": "gen_c6_phy_ch01_q16",
     "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    },
@@ -384,7 +399,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science' slide -- match the key terms.",
     "misconception": "Students who say \"Biology\" are likely confusing \"nature\" with \"living things,\" failing to distinguish between chemical properties and biological life functions.",
-    "id": "gen_c6_phy_ch01_q16",
+    "id": "gen_c6_phy_ch01_q17",
     "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    },
@@ -399,23 +414,8 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science' slide -- match the key terms.",
     "misconception": "A poor answer only names one branch without explaining the \"why.\"",
-    "id": "gen_c6_phy_ch01_q17",
-    "nodeId": "c6_physics_ch01_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it better to do science alone or with others? Justify your choice based on the nature of science.",
-    "answer": "Working with others is often better because science is rarely a solitary task; team members can share observations and help solve problems faster",
-    "options": [
-     "Explain that if science were just memorization, it would never change; however, we know science changes as we discover new things",
-     "This is Astronomy. It relates to Earth Science because both study large-scale systems (planets/stars vs. rocks/oceans)",
-     "Working with others is often better because science is rarely a solitary task; team members can share observations and help solve problems faster"
-    ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of understanding that scientific inquiry thrives on collaboration and shared curiosity.",
     "id": "gen_c6_phy_ch01_q18",
-    "nodeId": "c6_physics_ch01_004",
+    "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    }
   ],
@@ -741,6 +741,21 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "You observe that every time it gets windy, the leaves on a tree fall. How would you collect data on this?",
+    "answer": "Step 1: Observe the tree on calm days vs. windy days. Step 2: Record how many leaves fall in both conditions. Step 3: Compare the numbers",
+    "options": [
+     "Observing over time allows you to see changes, such as different birds visiting at different times or the impact of weather",
+     "No, it is not a good record because \"fast\" is subjective; it lacks a measurement (time) and units. You should have recorded the start time, end time",
+     "Step 1: Observe the tree on calm days vs. windy days. Step 2: Record how many leaves fall in both conditions. Step 3: Compare the numbers"
+    ],
+    "hint": "Straight from the 'Nature' slide -- match the key terms.",
+    "misconception": "A wrong answer would involve guessing without counting, failing to record evidence.",
+    "id": "gen_c6_phy_ch02_q11",
+    "nodeId": "c6_physics_ch02_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple 3-step plan for how you would share your discovery that \"sunlight affects plant growth\" at a school science fair.",
     "answer": "1. Create a visual display with photos of the plants. 2. Write a clear summary of the hypothesis and results",
     "options": [
@@ -750,7 +765,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'science fair' slide -- match the key terms.",
     "misconception": "A poor answer lacks a clear, structured way to convey evidence.",
-    "id": "gen_c6_phy_ch02_q11",
+    "id": "gen_c6_phy_ch02_q12",
     "nodeId": "c6_physics_ch02_007",
     "difficulty": "standard"
    },
@@ -765,7 +780,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'science fair' slide -- match the key terms.",
     "misconception": "A wrong answer shows a lack of understanding that science relies on analyzing differences, not just finding one \"right\" answer.",
-    "id": "gen_c6_phy_ch02_q12",
+    "id": "gen_c6_phy_ch02_q13",
     "nodeId": "c6_physics_ch02_007",
     "difficulty": "standard"
    },
@@ -780,7 +795,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'science fair' slide -- match the key terms.",
     "misconception": "A wrong answer suggests a \"trial and error\" approach without a clear plan, which is not the scientific method.",
-    "id": "gen_c6_phy_ch02_q13",
+    "id": "gen_c6_phy_ch02_q14",
     "nodeId": "c6_physics_ch02_007",
     "difficulty": "standard"
    },
@@ -795,7 +810,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'science fair' slide -- match the key terms.",
     "misconception": "A wrong answer implies that the *result* is more important than the *transmission* of information.",
-    "id": "gen_c6_phy_ch02_q14",
+    "id": "gen_c6_phy_ch02_q15",
     "nodeId": "c6_physics_ch02_007",
     "difficulty": "standard"
    },
@@ -810,7 +825,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
     "misconception": "An incorrect answer suggests the student doesn't grasp the concept of using a \"pigment extraction\" to create a testing medium.",
-    "id": "gen_c6_phy_ch02_q15",
+    "id": "gen_c6_phy_ch02_q16",
     "nodeId": "c6_physics_ch02_008",
     "difficulty": "standard"
    },
@@ -825,7 +840,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
     "misconception": "If a student says it stays blue, they are failing to recognize that acids cause a color change in litmus, a fundamental property of this specific indicator.",
-    "id": "gen_c6_phy_ch02_q16",
+    "id": "gen_c6_phy_ch02_q17",
     "nodeId": "c6_physics_ch02_008",
     "difficulty": "standard"
    },
@@ -840,21 +855,6 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
     "misconception": "A student who predicts the stain will change colour clearly does not understand that turmeric is only sensitive to bases.",
-    "id": "gen_c6_phy_ch02_q17",
-    "nodeId": "c6_physics_ch02_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why can't we use a single natural indicator like turmeric to test every substance in the world with total certainty?",
-    "answer": "Some substances might be neutral (like plain water) and cause no colour change, or some might not react visibly with turmeric",
-    "options": [
-     "It is the oldest because humans have been observing natural patterns (like seasons or animal behavior) to survive long before formal buildings or technology existed",
-     "Human-made structures are built by people for specific purposes and do not grow or reproduce, whereas natural features are part of an ecosystem",
-     "Some substances might be neutral (like plain water) and cause no colour change, or some might not react visibly with turmeric"
-    ],
-    "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
-    "misconception": "A student who thinks one indicator is \"perfect\" fails to realize that science often requires multiple tests to confirm results when a reaction is not clear.",
     "id": "gen_c6_phy_ch02_q18",
     "nodeId": "c6_physics_ch02_008",
     "difficulty": "standard"

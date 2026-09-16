@@ -10,7 +10,7 @@ export const w_c6_sciencechangesaroundussim: SimDef = {
     subtitle: 'This node covers the cause of day and night and the direction of Earth\'s rotation.',
     classLevel: 6, subject: 'science', topic: 'Rotation of the Earth: Day and Night',
     chapters: [],
-    nodeIds: ['c6_physics_ch12_045', 'c6_physics_ch12_046', 'c6_physics_ch12_047', 'c6_physics_ch11_036', 'c6_physics_ch11_044', 'c6_physics_ch12_051', 'c6_physics_ch01_001'],
+    nodeIds: ['c6_physics_ch12_045', 'c6_physics_ch12_046', 'c6_physics_ch12_047', 'c6_physics_ch11_036', 'c6_physics_ch11_035', 'c6_physics_ch12_051', 'c6_physics_ch01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why you go to bed when it’s dark and wake up when it’s bright?', goal: 'Master Changes Around Us.' },
     discovery: {

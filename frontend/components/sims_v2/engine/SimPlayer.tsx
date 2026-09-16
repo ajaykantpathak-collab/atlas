@@ -32,6 +32,7 @@ import { prereqLinks, nextLinks } from '../lite';
 import { generateLex } from './lexgen';
 import { shuffled } from './shuffle';
 import { CanvasLab, LABS } from './canvasLab';
+import { SIM_COMPONENTS } from './sim_components.gen';
 import { BuddyCharacter } from './buddy/BuddyCharacter';
 import { useBuddyStore } from './buddy/buddyStore';
 import { useIslandStore } from './island/islandStore';
@@ -916,8 +917,8 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                                 <SpeakButton text={def.explore.prompt} junior={junior} /></p>
                         </div>
                         <div className="w-full bg-white/60 backdrop-blur rounded-3xl p-4 shadow-inner min-h-[240px] flex items-center justify-center">
-                            {def.explore.component
-                                ? <def.explore.component />
+                            {(def.explore.component ?? (def.explore.componentId ? SIM_COMPONENTS[def.explore.componentId] : undefined)) as ComponentType | undefined
+                                ? (() => { const C = (def.explore!.component ?? SIM_COMPONENTS[def.explore!.componentId!]) as ComponentType; return <C /> })()
                                 : def.explore.lab && LABS[def.explore.lab]
                                 ? <CanvasLab spec={LABS[def.explore.lab]} onChange={setWidgetState} />
                                 : Widget ? <Widget onChange={setWidgetState} /> : <p className="text-gray-500 font-bold">Explore!</p>}

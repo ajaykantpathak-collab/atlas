@@ -8,7 +8,7 @@ export const c6_english_ch03_p1: SimDef = {
     subtitle: 'This node covers the narrative structure of Anand’s inventions (the opening incident, the.',
     classLevel: 6, subject: 'english', topic: 'Dreams and Discoveries · Part 1/2',
     chapters: ['c6_english_ch03'],
-    nodeIds: ['c6_english_u3_021', 'c6_english_u3_022', 'c6_english_u3_023', 'c6_english_u3_024', 'c6_english_u3_025', 'c6_english_u3_026'],
+    nodeIds: ['c6_english_u3_021', 'c6_english_u3_022', 'c6_english_u3_023', 'c6_english_u3_024', 'c6_english_u3_025', 'c6_english_u3_027'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever tried to fix a broken toy but made it worse instead?', goal: 'Master every idea in this chapter.' },

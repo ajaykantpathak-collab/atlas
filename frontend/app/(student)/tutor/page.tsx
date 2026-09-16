@@ -9,10 +9,12 @@
 import { useRef, useEffect, useState, useCallback, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import Link from 'next/link';
 import katex from 'katex';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useStudentStore } from '@/stores/studentStore';
 import { offlineCache } from '@/lib/offlineCache';
+import { friendlyNodeTitle, subjectName } from '@/lib/nodeTitle';
 
 // ─── Local toast shim (sonner not installed) ──────────────
 // Minimal no-op implementation so toast.success/error/info/loading
@@ -95,6 +97,9 @@ interface Message {
   hint?: string;
   feedback?: string;
   isSimplified?: boolean;
+  // Where the submitted answer's content came from (authored corpus).
+  sourceNodeId?: string | null;
+  sourceField?: string | null;
 }
 
 interface TutorApiResponse {
@@ -106,6 +111,11 @@ interface TutorApiResponse {
   hint_level: number;
   quality_score: number;
   simplified?: string;
+  // Authored provenance (quick-question router): the corpus node whose
+  // enrichment field served this answer, and which field it was.
+  node_id?: string | null;
+  node_title?: string | null;
+  type?: string;
 }
 
 // ─── Constants ────────────────────────────────────────────
@@ -143,6 +153,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     inputHelp: 'Press Enter to send · Shift+Enter for new line',
     askTeacher: 'Stuck? Ask your teacher for help',
     errorTitle: "Couldn't reach the tutor",
+    errorDetail: 'Please check your connection and try again.',
     retry: 'Retry',
     queuedOffline: "Message queued — will send when you're back online",
     backOnline: 'Back online! Syncing…',
@@ -196,6 +207,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     inputHelp: 'Enter dabayein bhejne ke liye · Shift+Enter nayi line ke liye',
     askTeacher: 'Stuck ho? Apne teacher se poochein',
     errorTitle: 'Tutor se connect nahi ho paya',
+    errorDetail: 'Kripya apna internet check karein aur phir try karein.',
     retry: 'Phir try karein',
     queuedOffline: 'Message queue mein hai — reconnect par bhej diya jayega',
     backOnline: 'Wapas online ho gaye! Syncing…',
@@ -248,6 +260,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     inputHelp: 'भेजने के लिए Enter दबाएं · नई पंक्ति के लिए Shift+Enter',
     askTeacher: 'परेशान हैं? अपने शिक्षक से पूछें',
     errorTitle: 'ट्यूटर से कनेक्ट नहीं हो पाया',
+    errorDetail: 'कृपया अपना कनेक्शन जाँचें और फिर प्रयास करें।',
     retry: 'पुनः प्रयास',
     queuedOffline: 'संदेश कतारबद्ध — रिकनेक्ट पर भेज दिया जाएगा',
     backOnline: 'वापस ऑनलाइन! सिंक हो रहा है…',
@@ -259,7 +272,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     hintError: 'संकेत लोड नहीं हो पाया। फिर प्रयास करें।',
     explainError: 'व्याख्या लोड नहीं हो पाई। फिर प्रयास करें।',
     topic: 'विषय',
-    mastery: 'प्रतिघटन',
+    mastery: 'महारत',
     s_derivatives: 'डेरिवेटिव्स समझ नहीं आए',
     s_hint: 'संकेत दो',
     s_example: 'उदाहरण दिखाओ',
@@ -517,6 +530,8 @@ export default function TutorPage({
               hintLevel: data.hint_level,
               hint: data.hint,
               feedback: data.feedback,
+              sourceNodeId: data.node_id ?? null,
+              sourceField: data.type ?? null,
             };
             setMessages((prev) => {
               const updated = [...prev, tutorMessage];
@@ -581,8 +596,8 @@ export default function TutorPage({
         signal: AbortSignal.timeout(45000),
       });
       if (!res.ok) {
-        const errText = await res.text().catch(() => 'Unknown error');
-        throw new Error(errText || `Server error (${res.status})`);
+        // Never surface raw server response bodies to students.
+        throw new Error(`tutor_unavailable_${res.status}`);
       }
       return res.json();
     },
@@ -767,6 +782,8 @@ export default function TutorPage({
         hintLevel: data.hint_level,
         hint: data.hint,
         feedback: data.feedback,
+        sourceNodeId: data.node_id ?? null,
+        sourceField: data.type ?? null,
       };
 
       setMessages((prev) => {
@@ -779,11 +796,9 @@ export default function TutorPage({
         setMastery(data.mastery_level);
         queryClient.invalidateQueries({ queryKey: ['mastery'] });
       }
-    } catch (err) {
-      const msg =
-        err instanceof Error
-          ? err.message
-          : t(lang, 'errorTitle') + '.';
+    } catch {
+      // Friendly, translated copy only — no raw error text reaches students.
+      const msg = `${t(lang, 'errorTitle')} — ${t(lang, 'errorDetail')}`;
       setError(msg);
       setMessages((prev) => prev.filter((m) => m.id !== studentMessage.id));
       setInputValue(text);
@@ -903,7 +918,7 @@ export default function TutorPage({
       >
         {/* Avatar */}
         <div className="relative flex-shrink-0" aria-hidden="true">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center shadow-md shadow-indigo-200 dark:shadow-indigo-900/30">
+          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center shadow-md shadow-amber-200/50 dark:shadow-amber-900/30">
             <svg
               className="w-5 h-5 text-white"
               fill="none"
@@ -950,8 +965,8 @@ export default function TutorPage({
           </p>
           {/* Subject · Class · Mastery bar */}
           <div className="flex items-center gap-2 mt-1">
-            <span className="text-[10px] font-medium text-indigo-600 dark:text-indigo-400">
-              {effectiveSubject} · Class {effectiveClassLevel}
+            <span className="text-[10px] font-medium text-amber-600 dark:text-amber-400">
+              {subjectName(effectiveSubject)} · Class {effectiveClassLevel}
             </span>
             <span className="text-[10px] text-gray-400 dark:text-gray-500">
               · {t(lang, 'mastery')}: {Math.round(mastery * 100)}%
@@ -979,7 +994,7 @@ export default function TutorPage({
           <div className="relative" ref={langMenuRef}>
             <button
               onClick={() => setLangMenuOpen((prev) => !prev)}
-              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 hover:text-amber-600 dark:hover:text-amber-400 transition-colors"
               aria-label="Change language"
               aria-haspopup="true"
               aria-expanded={langMenuOpen}
@@ -1010,7 +1025,7 @@ export default function TutorPage({
                       className={
                         'w-full text-left px-4 py-2.5 text-sm flex items-center gap-2 '
                         + (l === lang
-                          ? 'bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 font-medium'
+                          ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 font-medium'
                           : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50')
                       }
                       role="menuitem"
@@ -1019,7 +1034,7 @@ export default function TutorPage({
                         className={
                           'text-[10px] font-bold px-1.5 py-0.5 rounded '
                           + (l === lang
-                            ? 'bg-indigo-100 dark:bg-indigo-800 text-indigo-700 dark:text-indigo-200'
+                            ? 'bg-amber-100 dark:bg-amber-800 text-amber-700 dark:text-amber-200'
                             : 'bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400')
                         }
                       >
@@ -1077,10 +1092,10 @@ export default function TutorPage({
             className="flex flex-col items-center justify-center h-full text-center px-6 py-12"
           >
             <div
-              className="w-20 h-20 rounded-full bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-indigo-900/40 dark:to-purple-900/40 flex items-center justify-center mb-5"
+              className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-100 to-amber-50 dark:from-amber-900/40 dark:to-amber-800/30 flex items-center justify-center mb-5"
               aria-hidden="true"
             >
-              <svg className="w-10 h-10 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <svg className="w-10 h-10 text-amber-500 dark:text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -1095,9 +1110,9 @@ export default function TutorPage({
               {t(lang, 'welcomeSubtitle')}
             </p>
             <p className="text-xs text-gray-400 dark:text-gray-500 mt-3">
-              {effectiveSubject} · Class {effectiveClassLevel}
+              {subjectName(effectiveSubject)} · Class {effectiveClassLevel}
               {nodeId && (
-                <>{' '}· {t(lang, 'topic')}: {nodeId}</>
+                <>{' '}· {t(lang, 'topic')}: {friendlyNodeTitle(nodeId)}</>
               )}
             </p>
           </motion.div>
@@ -1119,7 +1134,7 @@ export default function TutorPage({
               <div
                 className={`group relative max-w-[85%] sm:max-w-[75%] rounded-2xl px-4 py-2.5 ${
                   isStudent
-                    ? 'bg-indigo-600 text-white rounded-br-md'
+                    ? 'bg-amber-500 text-gray-900 rounded-br-md'
                     : 'glass-card text-gray-900 dark:text-gray-100 rounded-bl-md'
                 }`}
               >
@@ -1161,7 +1176,7 @@ export default function TutorPage({
                   dateTime={new Date(msg.timestamp).toISOString()}
                   className={`block text-[10px] mt-1 select-none ${
                     isStudent
-                      ? 'text-indigo-200'
+                      ? 'text-amber-900/70'
                       : 'text-gray-400 dark:text-gray-500'
                   }`}
                 >
@@ -1248,6 +1263,32 @@ export default function TutorPage({
                       </motion.p>
                     )}
 
+                    {/* Authored provenance of this submit result: when the
+                        grader served the answer from a corpus node, link the
+                        lesson — and flag authored misconception answers so
+                        the student can study the full remediation recipe. */}
+                    {!isStudent && msg.sourceNodeId && (
+                      <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.45 }}
+                        className="mt-1.5"
+                      >
+                        <Link
+                          href={`/learn/${encodeURIComponent(msg.sourceNodeId)}`}
+                          className={
+                            'inline-flex items-center gap-1 text-[11px] font-medium px-2.5 py-1 rounded-full '
+                            + 'bg-amber-50 text-amber-700 hover:bg-amber-100 dark:bg-amber-900/30 dark:text-amber-300 dark:hover:bg-amber-900/50 '
+                            + 'transition-colors'
+                          }
+                        >
+                          {msg.sourceField === 'common_misconception'
+                            ? `Common misconception · ${friendlyNodeTitle(msg.sourceNodeId)}`
+                            : `Authored answer · ${friendlyNodeTitle(msg.sourceNodeId)}`}
+                        </Link>
+                      </motion.div>
+                    )}
+
                     {/* Action buttons */}
                     <div className="mt-2 flex flex-wrap items-center gap-1.5">
                       {msg.hasHint && !openHints.has(msg.id) && (
@@ -1255,8 +1296,8 @@ export default function TutorPage({
                           onClick={() => requestHint(msg.id)}
                           className={
                             'inline-flex items-center gap-1 text-[11px] font-medium px-2.5 py-1 rounded-full '
-                            + 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100 dark:bg-indigo-900/30 dark:text-indigo-300 dark:hover:bg-indigo-900/50 '
-                            + 'transition-colors focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-1'
+                            + 'bg-amber-50 text-amber-700 hover:bg-amber-100 dark:bg-amber-900/30 dark:text-amber-300 dark:hover:bg-amber-900/50 '
+                            + 'transition-colors focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-1'
                           }
                           aria-label={t(lang, 'requestHint')}
                         >
@@ -1404,7 +1445,7 @@ export default function TutorPage({
                 />
               </svg>
               <p className="text-xs text-red-700 dark:text-red-300 flex-1 leading-relaxed">
-                {t(lang, 'errorTitle')}: {error}
+                {error}
               </p>
               <button
                 onClick={retryLast}
@@ -1446,9 +1487,9 @@ export default function TutorPage({
                     onClick={() => navigateTo(navPath)}
                     className={
                       'flex-shrink-0 text-xs px-3.5 py-2 rounded-full border transition-all duration-200 '
-                      + 'hover:shadow-md focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-1 '
+                      + 'hover:shadow-md focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-1 '
                       + 'active:scale-95 '
-                      + 'border-indigo-200 text-indigo-700 bg-indigo-50/50 hover:bg-indigo-100 dark:border-indigo-700 dark:text-indigo-300 dark:bg-indigo-900/20 dark:hover:bg-indigo-900/40'
+                      + 'border-amber-200 text-amber-700 bg-amber-50/50 hover:bg-amber-100 dark:border-amber-700 dark:text-amber-300 dark:bg-amber-900/20 dark:hover:bg-amber-900/40'
                     }
                     aria-label={label}
                   >
@@ -1478,11 +1519,11 @@ export default function TutorPage({
                   onClick={() => setInputValue(label)}
                   className={
                     'flex-shrink-0 text-xs px-3.5 py-2 rounded-full border transition-all duration-200 '
-                    + 'hover:shadow-md focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-1 '
+                    + 'hover:shadow-md focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-1 '
                     + 'active:scale-95 '
                     + (showEscalation
                       ? 'border-red-200 text-red-700 hover:bg-red-50 dark:border-red-700 dark:text-red-300 dark:hover:bg-red-900/20'
-                      : 'border-indigo-200 text-indigo-700 bg-indigo-50/50 hover:bg-indigo-100 dark:border-indigo-700 dark:text-indigo-300 dark:bg-indigo-900/20 dark:hover:bg-indigo-900/40')
+                      : 'border-amber-200 text-amber-700 bg-amber-50/50 hover:bg-amber-100 dark:border-amber-700 dark:text-amber-300 dark:bg-amber-900/20 dark:hover:bg-amber-900/40')
                   }
                   aria-label={`${label}`}
                 >
@@ -1519,7 +1560,7 @@ export default function TutorPage({
                 + 'bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 '
                 + 'placeholder-gray-400 dark:placeholder-gray-500 '
                 + 'border-2 border-transparent '
-                + 'focus:border-indigo-400 dark:focus:border-indigo-500 '
+                + 'focus:border-amber-400 dark:focus:border-amber-500 '
                 + 'focus:bg-white dark:focus:bg-gray-800 '
                 + 'focus:outline-none focus:ring-0 '
                 + 'disabled:opacity-50 disabled:cursor-not-allowed '
@@ -1542,9 +1583,9 @@ export default function TutorPage({
             aria-label="Send message"
             className={
               'flex-shrink-0 w-11 h-11 rounded-full flex items-center justify-center '
-              + 'transition-all duration-200 focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 '
+              + 'transition-all duration-200 focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 '
               + (inputValue.trim() && !isLoading
-                ? 'bg-indigo-600 hover:bg-indigo-700 active:scale-90 shadow-lg shadow-indigo-200 dark:shadow-indigo-900/40 text-white'
+                ? 'bg-amber-500 hover:bg-amber-600 active:scale-90 shadow-lg shadow-amber-300/40 dark:shadow-amber-900/40 text-gray-900'
                 : 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-500 cursor-not-allowed')
             }
           >
@@ -1590,6 +1631,10 @@ export default function TutorPage({
               className="mt-3"
             >
               <button
+                onClick={() => {
+                  setInputValue(t(lang, 's_askTeacher'));
+                  inputRef.current?.focus();
+                }}
                 className={
                   'w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium '
                   + 'border border-red-200 dark:border-red-800 '

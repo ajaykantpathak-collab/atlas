@@ -2552,5 +2552,3 @@ export default function C9_ChemistryCovalentbondingSim() {
     </div>
   );
 }
-
-export default C9_ChemistryCovalentbondingSim;

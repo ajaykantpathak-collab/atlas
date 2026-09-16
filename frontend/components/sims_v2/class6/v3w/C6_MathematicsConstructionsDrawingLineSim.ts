@@ -10,7 +10,7 @@ export const w_c6_mathematicsconstructionsdrawinglinesim: SimDef = {
     subtitle: 'This node covers the introduction to geometric tools and the basic concept of.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Geometric Construction',
     chapters: [],
-    nodeIds: ['c6_math_ch11_113', 'c6_math_ch11_114', 'c6_math_ch11_115', 'c6_math_ch10_112', 'c6_math_ch07_080', 'c6_math_ch07_081', 'c6_math_ch11_118', 'c6_math_ch11_119', 'c6_math_ch07_070', 'c6_math_ch07_071', 'c6_math_ch07_076', 'c6_math_ch11_116', 'c6_math_ch11_120', 'c6_math_ch10_105', 'c6_math_ch10_106'],
+    nodeIds: ['c6_math_ch11_113', 'c6_math_ch11_114', 'c6_math_ch11_115', 'c6_math_ch10_108', 'c6_math_ch07_080', 'c6_math_ch07_081', 'c6_math_ch11_118', 'c6_math_ch11_117', 'c6_math_ch07_070', 'c6_math_ch07_071', 'c6_math_ch07_072', 'c6_math_ch11_116', 'c6_math_ch10_105', 'c6_math_ch10_109'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are asked to draw a perfect square on a piece of paper; if you just use a pencil, it might look.', goal: 'Master Constructions Drawing Line.' },
     discovery: {

@@ -16,15 +16,20 @@ export const C11_ACC_GEN: SimDef[] = [
   "subject": "accountancy",
   "topic": "Generally Accepted Accounting Principles",
   "chapters": [
-   "Accountancy Ch2: Generally Accepted Accounting Principles"
+   "Accountancy Ch1: Generally Accepted Accounting Principles",
+   "Accountancy Ch2: Generally Accepted Accounting Principles",
+   "Accountancy Ch9: Generally Accepted Accounting Principles"
   ],
   "nodeIds": [
    "c11_acc_cbse_02_001",
    "c11_acc_cbse_02_002",
+   "c11_acc_cbse_01_003",
    "c11_acc_cbse_02_003",
    "c11_acc_cbse_02_004",
+   "c11_acc_cbse_01_005",
    "c11_acc_cbse_02_008",
-   "c11_acc_cbse_02_009"
+   "c11_acc_cbse_02_009",
+   "c11_acc_cbse_09_009"
   ],
   "emoji": "🧾",
   "theme": {
@@ -56,6 +61,12 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "Evolution Of Accounting",
+    "text": "The evolution of accounting refers to the chronological development of accounting practices from primitive record-keeping in ancient civilisations (Babylonia, Egypt, Greece, Rome, China, India) to the formalisation of double-entry bookkeeping by Luca Pacioli",
+    "emoji": "🧾",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
     "title": "The Money Measurement Concept States",
     "text": "The Money Measurement Concept states that only those transactions and events which can be expressed in monetary terms (rupees and paise) are recorded in the books of accounts; all non-monetary facts such as employee competence, brand reputation, or management",
     "emoji": "🧾",
@@ -64,6 +75,12 @@ export const C11_ACC_GEN: SimDef[] = [
    {
     "title": "Going Concern Concept Assumes That",
     "text": "The Going Concern Concept assumes that a business entity will continue its operations indefinitely for the foreseeable future and has no intention or necessity to liquidate or significantly curtail its operations.",
+    "emoji": "🧾",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Qualitative Characteristics",
+    "text": "Qualitative characteristics are the attributes that make accounting information useful for decision-making by enhancing its understandability and decision-usefulness.",
     "emoji": "🧾",
     "bgColor": "from-sky-400 to-cyan-500"
    },
@@ -78,6 +95,12 @@ export const C11_ACC_GEN: SimDef[] = [
     "text": "The Conservatism (Prudence) Concept requires that anticipated losses be recognised immediately while anticipated gains are ignored until realised, ensuring profits are never overstated.",
     "emoji": "🧾",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Goods Sent On Approval Basis",
+    "text": "Goods sent on approval basis (or sale on approval) refers to a transaction where goods are delivered to a customer with the understanding that the sale is complete only when the customer approves/accepts them; until approval, ownership remains with the seller",
+    "emoji": "🧾",
+    "bgColor": "from-rose-400 to-pink-500"
    }
   ],
   "challenges": [
@@ -86,8 +109,8 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "What does GAAP stand for, and what is its primary purpose in accounting?",
     "answer": "GAAP stands for Generally Accepted Accounting Principles. Its primary purpose is to bring uniformity and consistency in the preparation and presentation of financial statements so",
     "options": [
-     "The statement is partially valid but overlooks the concept's purpose. Counter-argument: The concept provides objectivity, verifiability, and comparability—without it",
-     "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
+     "(1) Babylonia recorded trade and detected fraud on clay tablets, (2) Egypt kept treasury records and collected taxes for the state, (3) Greece apportioned public revenue",
+     "(1) Verifiability demands that independent observers applying the same method reach the same measurement",
      "GAAP stands for Generally Accepted Accounting Principles. Its primary purpose is to bring uniformity and consistency in the preparation and presentation of financial statements so"
     ],
     "hint": "Straight from the 'Generally Accepted Accounting' slide -- match the key terms.",
@@ -107,8 +130,8 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "Scenario: Riya starts a bakery. She invests ₹10,00,000 from her savings. She buys an oven for ₹4,00,000 (paid by cheque from business account). She takes ₹20,000 cash from the business to buy a personal laptop.",
     "answer": "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
     "options": [
+     "(1) In effect correct — the net impact on the Trading Account and Balance Sheet is identical whether reversals are item-wise or combined, (2) In procedure incomplete",
      "The going concern concept applies unless there is evidence the entity will cease operations in the near future (typically 12 months from balance sheet date)",
-     "Since the liability is \"possible but not probable,\" it does not meet the recognition criteria for a provision (which requires \"probable\" outflow)",
      "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total"
     ],
     "hint": "Straight from the 'Business Entity Concept states' slide -- match the key terms.",
@@ -124,6 +147,91 @@ export const C11_ACC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Name any three ancient civilisations that developed early accounting systems and state the primary economic purpose (taxation, trade, or treasury management) that drove each civilisation's accounting innovation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Greece apportioned public revenue",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Babylonia recorded trade and detected fraud",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Egypt kept treasury records and collected",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "China ran sophisticated government",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s4",
+      "label": "Rome posted daybooks to monthly ledgers",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s5",
+      "label": "India prescribed detailed state",
+      "emoji": "📌",
+      "correctBin": "o5"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     },
+     {
+      "id": "o5",
+      "label": "6th",
+      "color": "#ec4899"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer pairing Egypt with trade-driven recording, listing only one civilisation, or naming modern countries instead of these six shows the student has not grasped the geographic and functional diversity of early accounting origins.",
+    "id": "gen_c11_acc_ch02_q3",
+    "nodeId": "c11_acc_cbse_01_003",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are a merchant in 15th century Venice managing multiple ships, goods, and creditors across the Mediterranean — how would you know if you",
+     "This practical problem faced by traders like those Pacioli observed is exactly why accounting evolved from simple lists to double-entry systems.",
+     "Begin by listing the major ancient civilisations mentioned in your textbook (Babylonia, Egypt, Greece, Rome, China, India) and for each, identify:",
+     "Then trace how Pacioli synthesised Italian merchant practices into a universal system where every transaction affects two accounts — this duality is"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Evaluate this statement: \"The Money Measurement Concept makes financial statements irrelevant for decision-making because they ignore human capital, brand value, and inflation effects.\" Provide a balanced argument.",
     "answer": "The statement is partially valid but overlooks the concept's purpose. Counter-argument: The concept provides objectivity, verifiability, and comparability—without it",
@@ -134,7 +242,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The Money Measurement Concept' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is partially valid but overlooks the concept's purpose.",
-    "id": "gen_c11_acc_ch02_q3",
+    "id": "gen_c11_acc_ch02_q4",
     "nodeId": "c11_acc_cbse_02_003",
     "difficulty": "standard",
     "workedExample": [
@@ -149,13 +257,13 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "A student argues: \"If a company is making losses for three consecutive years, the going concern concept no longer applies and we should value assets at liquidation value.\" Explain why this reasoning is incorrect and state the correct accounting treatment.",
     "answer": "The going concern concept applies unless there is evidence the entity will cease operations in the near future (typically 12 months from balance sheet date)",
     "options": [
-     "Since the liability is \"possible but not probable,\" it does not meet the recognition criteria for a provision (which requires \"probable\" outflow)",
+     "(1) Goods approved before year-end need no adjustment because the sale stands confirmed, (2) Goods returned after the year-end also need no adjustment because they were still",
      "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
      "The going concern concept applies unless there is evidence the entity will cease operations in the near future (typically 12 months from balance sheet date)"
     ],
     "hint": "Straight from the 'Going Concern Concept assumes that' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the misconception that profitability determines going concern status rather than operational continuity intent and ability.",
-    "id": "gen_c11_acc_ch02_q4",
+    "id": "gen_c11_acc_ch02_q5",
     "nodeId": "c11_acc_cbse_02_004",
     "difficulty": "standard",
     "workedExample": [
@@ -166,17 +274,80 @@ export const C11_ACC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Compare and contrast the roles of verifiability and faithfulness as sub-components of reliability. Can information be verifiable but not faithful? Give a concrete example.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Faithfulness demands that the measurement",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Example",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Yes",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Verifiability demands that independent",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer treating the two as synonyms, or claiming verifiability guarantees faithfulness, reveals a fundamental misunderstanding of the sub-components of reliability.",
+    "id": "gen_c11_acc_ch02_q6",
+    "nodeId": "c11_acc_cbse_01_005",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are a bank manager deciding whether to approve a ₹50 lakh loan to a small manufacturing firm.",
+     "The firm submits its financial statements, but you notice the machinery is valued at its original purchase price from 10 years ago, not its current",
+     "You also see that the statements were finalised 14 months after the year-end.",
+     "As a decision-maker, which qualitative characteristics are compromised here?"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "XYZ Ltd. has a contingent liability of ₹10 crore for a pending tax dispute. The directors believe the chance of losing is \"possible but not probable.\" Under the Full Disclosure Concept, how should this be treated in the financial statements for the year ended 31st March 2024?",
     "answer": "Since the liability is \"possible but not probable,\" it does not meet the recognition criteria for a provision (which requires \"probable\" outflow)",
     "options": [
-     "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
-     "The going concern concept applies unless there is evidence the entity will cease operations in the near future (typically 12 months from balance sheet date)",
+     "(1) In effect correct — the net impact on the Trading Account and Balance Sheet is identical whether reversals are item-wise or combined, (2) In procedure incomplete",
+     "(1) Goods approved before year-end need no adjustment because the sale stands confirmed, (2) Goods returned after the year-end also need no adjustment because they were still",
      "Since the liability is \"possible but not probable,\" it does not meet the recognition criteria for a provision (which requires \"probable\" outflow)"
     ],
     "hint": "Straight from the 'Full Disclosure Concept requires' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student says \"record as a provision\" or \"ignore it,\" they fail to distinguish between recognition (balance sheet) and disclosure (notes).",
-    "id": "gen_c11_acc_ch02_q5",
+    "id": "gen_c11_acc_ch02_q7",
     "nodeId": "c11_acc_cbse_02_008",
     "difficulty": "standard",
     "workedExample": [
@@ -192,12 +363,12 @@ export const C11_ACC_GEN: SimDef[] = [
     "answer": "Refute. Conservatism prevents *overstatement* of profits/assets, but deliberate understatement (creating secret reserves) also violates the concept and misleads creditors by",
     "options": [
      "The statement is partially valid but overlooks the concept's purpose. Counter-argument: The concept provides objectivity, verifiability, and comparability—without it",
-     "The going concern concept applies unless there is evidence the entity will cease operations in the near future (typically 12 months from balance sheet date)",
+     "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
      "Refute. Conservatism prevents *overstatement* of profits/assets, but deliberate understatement (creating secret reserves) also violates the concept and misleads creditors by"
     ],
     "hint": "Straight from the 'The Conservatism (Prudence)' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"agree, worst-case is safest\") reveals the student equates conservatism with systematic undervaluation, missing the NCERT warning against \"deliberate attempt to underestimate\".",
-    "id": "gen_c11_acc_ch02_q6",
+    "id": "gen_c11_acc_ch02_q8",
     "nodeId": "c11_acc_cbse_02_009",
     "difficulty": "standard",
     "workedExample": [
@@ -206,6 +377,186 @@ export const C11_ACC_GEN: SimDef[] = [
      "Simultaneously, you bought a ₹500 calculator that will last 5 years.",
      "Ask: \"Should I show the cakes at ₹200 (cost) or ₹150 (market)?"
     ]
+   },
+   {
+    "type": "order",
+    "question": "A company sends goods on approval frequently. At year-end, 20 such transactions are pending approval. The accountant proposes: \"Instead of reversing each sale individually, let's just reduce Sales by total invoice price and increase Closing Stock by total cost.\" Evaluate this proposal.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "In effect correct",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Reconciliation breaks",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "In procedure incomplete",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Customer-wise tracking suffers",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer insisting the proposal is flatly wrong because every sale must be reversed separately prioritises form over substance, while calling it perfectly fine with no entries neglects internal control and reconciliation.",
+    "id": "gen_c11_acc_ch02_q9",
+    "nodeId": "c11_acc_cbse_09_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you run a boutique and send a lehenga worth ₹15,000 (cost ₹10,000) to a bride-to-be on \"try before you buy\" terms on March 28.",
+     "Your accountant records it as a sale immediately.",
+     "On March 31 (year-end), the bride hasn't decided.",
+     "If you leave it as a sale, your profit is inflated by ₹5,000 and the lehenga is missing from your stock."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Create a new adjustment problem (with numbers) involving goods sent on approval where: (a) some goods are approved before year-end, (b) some are returned after year-end, and (c) some are still pending. Provide the additional information note as it would appear in a board exam question.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The note should state cost and invoice price",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Goods returned after the year-end also need",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Goods still awaiting approval must",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Goods approved before year-end need no",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that pulls the post-year-end return into the year-end adjustment confuses subsequent events with year-end status.",
+    "id": "gen_c11_acc_ch02_q10",
+    "nodeId": "c11_acc_cbse_09_009",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Name any three ancient civilisations that developed early accounting systems and state the primary economic purpose (taxation, trade, or treasury management) that drove each civilisation's accounting innovation.",
+    "answer": "(1) Babylonia recorded trade and detected fraud on clay tablets, (2) Egypt kept treasury records and collected taxes for the state, (3) Greece apportioned public revenue",
+    "options": [
+     "GAAP stands for Generally Accepted Accounting Principles. Its primary purpose is to bring uniformity and consistency in the preparation and presentation of financial statements so",
+     "The statement is partially valid but overlooks the concept's purpose. Counter-argument: The concept provides objectivity, verifiability, and comparability—without it",
+     "(1) Babylonia recorded trade and detected fraud on clay tablets, (2) Egypt kept treasury records and collected taxes for the state, (3) Greece apportioned public revenue"
+    ],
+    "hint": "Straight from the 'evolution of accounting' slide -- match the key terms.",
+    "misconception": "A wrong answer pairing Egypt with trade-driven recording, listing only one civilisation, or naming modern countries instead of these six shows the student has not grasped the geographic and functional diversity of early accounting origins.",
+    "id": "gen_c11_acc_ch02_q11",
+    "nodeId": "c11_acc_cbse_01_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare and contrast the roles of verifiability and faithfulness as sub-components of reliability. Can information be verifiable but not faithful? Give a concrete example.",
+    "answer": "(1) Verifiability demands that independent observers applying the same method reach the same measurement",
+    "options": [
+     "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
+     "(1) Babylonia recorded trade and detected fraud on clay tablets, (2) Egypt kept treasury records and collected taxes for the state, (3) Greece apportioned public revenue",
+     "(1) Verifiability demands that independent observers applying the same method reach the same measurement"
+    ],
+    "hint": "Straight from the 'Qualitative characteristics' slide -- match the key terms.",
+    "misconception": "A wrong answer treating the two as synonyms, or claiming verifiability guarantees faithfulness, reveals a fundamental misunderstanding of the sub-components of reliability.",
+    "id": "gen_c11_acc_ch02_q12",
+    "nodeId": "c11_acc_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A company sends goods on approval frequently. At year-end, 20 such transactions are pending approval. The accountant proposes: \"Instead of reversing each sale individually, let's just reduce Sales by total invoice price and increase Closing Stock by total cost.\" Evaluate this proposal.",
+    "answer": "(1) In effect correct — the net impact on the Trading Account and Balance Sheet is identical whether reversals are item-wise or combined, (2) In procedure incomplete",
+    "options": [
+     "(1) Goods approved before year-end need no adjustment because the sale stands confirmed, (2) Goods returned after the year-end also need no adjustment because they were still",
+     "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
+     "(1) In effect correct — the net impact on the Trading Account and Balance Sheet is identical whether reversals are item-wise or combined, (2) In procedure incomplete"
+    ],
+    "hint": "Straight from the 'Goods sent on approval basis' slide -- match the key terms.",
+    "misconception": "A wrong answer insisting the proposal is flatly wrong because every sale must be reversed separately prioritises form over substance, while calling it perfectly fine with no entries neglects internal control and reconciliation.",
+    "id": "gen_c11_acc_ch02_q13",
+    "nodeId": "c11_acc_cbse_09_009",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a new adjustment problem (with numbers) involving goods sent on approval where: (a) some goods are approved before year-end, (b) some are returned after year-end, and (c) some are still pending. Provide the additional information note as it would appear in a board exam question.",
+    "answer": "(1) Goods approved before year-end need no adjustment because the sale stands confirmed, (2) Goods returned after the year-end also need no adjustment because they were still",
+    "options": [
+     "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
+     "The going concern concept applies unless there is evidence the entity will cease operations in the near future (typically 12 months from balance sheet date)",
+     "(1) Goods approved before year-end need no adjustment because the sale stands confirmed, (2) Goods returned after the year-end also need no adjustment because they were still"
+    ],
+    "hint": "Straight from the 'Goods sent on approval basis' slide -- match the key terms.",
+    "misconception": "A wrong answer that pulls the post-year-end return into the year-end adjustment confuses subsequent events with year-end status.",
+    "id": "gen_c11_acc_ch02_q14",
+    "nodeId": "c11_acc_cbse_09_009",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -215,7 +566,8 @@ export const C11_ACC_GEN: SimDef[] = [
    ]
   },
   "successLine": "Generally Accepted Accounting mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_acc_ch03",
@@ -226,20 +578,27 @@ export const C11_ACC_GEN: SimDef[] = [
   "subject": "accountancy",
   "topic": "Business Transaction",
   "chapters": [
-   "Accountancy Ch3: Business Transaction"
+   "Accountancy Ch3: Business Transaction",
+   "Accountancy Ch4: Business Transaction",
+   "Accountancy Ch7: Business Transaction",
+   "Accountancy Ch8: Business Transaction"
   ],
   "nodeIds": [
    "c11_acc_cbse_03_001",
+   "c11_acc_cbse_08_001",
    "c11_acc_cbse_03_002",
    "c11_acc_cbse_03_003",
+   "c11_acc_cbse_04_003",
    "c11_acc_cbse_03_004",
    "c11_acc_cbse_03_005",
    "c11_acc_cbse_03_006",
    "c11_acc_cbse_03_007",
    "c11_acc_cbse_03_008",
+   "c11_acc_cbse_08_008",
    "c11_acc_cbse_03_009",
    "c11_acc_cbse_03_010",
-   "c11_acc_cbse_03_011"
+   "c11_acc_cbse_03_011",
+   "c11_acc_cbse_07_012"
   ],
   "emoji": "🧾",
   "theme": {
@@ -265,6 +624,12 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "Financial Statements",
+    "text": "Financial statements are formal, structured reports prepared at the end of an accounting period that communicate the financial performance (profit/loss) and financial position (assets/liabilities/capital) of a business entity to its stakeholders, comprising",
+    "emoji": "🧾",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
     "title": "Voucher",
     "text": "A voucher is a written document that serves as the primary evidence of a business transaction, containing essential details such as date, amount, accounts debited and credited, narration, and authorized signatures, which forms the basis for recording entries",
     "emoji": "🧾",
@@ -275,6 +640,12 @@ export const C11_ACC_GEN: SimDef[] = [
     "text": "The accounting equation (A = L + C) expresses the fundamental duality that every business transaction affects at least two elements — Assets, Liabilities, or Capital — such that total resources (Assets) always equal total claims (Liabilities + Capital).",
     "emoji": "🧾",
     "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Petty Cash Book",
+    "text": "A Petty Cash Book is a subsidiary book maintained under the Imprest System to record small, repetitive cash payments (e.g., conveyance, postage, stationery) where a fixed amount (imprest money) is advanced to a petty cashier and reimbursed periodically to",
+    "emoji": "🧾",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "The Rules Of Debit And",
@@ -307,6 +678,12 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "In a Balance Sheet, Liabilities",
+    "text": "In a Balance Sheet, liabilities are classified as Current Liabilities (obligations expected to be settled within 12 months after the reporting date or within the normal operating cycle, whichever is longer) and Non-Current (Fixed/Long-term) Liabilities",
+    "emoji": "🧾",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Ledger",
     "text": "The ledger is the principal book of accounts in which all transactions from the journal are systematically posted to individual accounts, allowing the net effect of all transactions on a specific account (e.",
     "emoji": "🧾",
@@ -323,6 +700,12 @@ export const C11_ACC_GEN: SimDef[] = [
     "text": "Balancing of a ledger account is the process of determining the net difference between the total of the debit side and the total of the credit side of that account at the end of an accounting period, and recording that difference on the shorter side as",
     "emoji": "🧾",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Secret Reserve",
+    "text": "Secret Reserve is a reserve that is not disclosed in the balance sheet, created by deliberately understating assets (e.g., charging excessive depreciation, undervaluing inventory) or overstating liabilities (e.",
+    "emoji": "🧾",
+    "bgColor": "from-rose-400 to-pink-500"
    }
   ],
   "challenges": [
@@ -331,8 +714,8 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "A student says: \"When my father gives me ₹500 as pocket money, that's a business transaction because money changed hands.\" Is the student correct? Explain why or why not using the definition of a business transaction.",
     "answer": "No, the student is incorrect. A business transaction must involve an exchange between a business entity and another party that changes the financial position of the business",
     "options": [
-     "Incorrect. NCERT defines Compound Voucher as having multiple debits/credits AND one credit/debit (i",
-     "Debit Voucher Name of Firm: [Firm Name] Voucher No: [Serial No.] Date: 12-03-2024 Credit Account: Bank Amount: ₹15,000 Debit Accounts: S",
+     "First entry is correct. Rent is an expense (decreases capital) → increase in expense is debited. Cash (asset) decreases → credited",
+     "\"Sales\". The Particulars column always records the name of the *other* account involved in the transaction (the counterpart), not the account being posted to",
      "No, the student is incorrect. A business transaction must involve an exchange between a business entity and another party that changes the financial position of the business"
     ],
     "hint": "Straight from the 'business transaction' slide -- match the key terms.",
@@ -345,6 +728,80 @@ export const C11_ACC_GEN: SimDef[] = [
      "The shopkeeper gives you a digital receipt.",
      "Is this a business transaction?",
      "Yes — because there's a two-way exchange (you get the notebook, shopkeeper gets ₹50), it has monetary value, and it changes both your financial"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Design a 10-item \"Capital vs Revenue Classification Challenge\" for your classmates. Include 5 expenditure items and 5 receipt items. At least 3 items must be borderline/deceptive (heavy advertising, legal fees for defending title, government grant for machinery, sale of scrap, renovation of a newly purchased building).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Bank loan of one crore",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s1",
+      "label": "Annual whitewashing of the factory",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Renovation of a newly purchased old factory",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Legal fees for defending a patent's title",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "Heavy advertising campaign for a new product",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A weak answer lines up ten items without any borderline cases, or justifies each item by its amount instead of by the period and nature of the benefit.",
+    "id": "gen_c11_acc_ch03_q2",
+    "nodeId": "c11_acc_cbse_08_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you run a small bakery in Delhi.",
+     "At year-end, your father asks \"Did we make money?\" your bank manager asks \"Can you repay the loan?",
+     "This node teaches you how accounting organises raw transaction data into two standard reports—the Income Statement (performance) and Balance Sheet",
+     "We begin by identifying who the users are and what they need, then learn the golden rule: every rupee spent or received is either capital (long-term"
     ]
    },
    {
@@ -389,7 +846,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., listing \"amount\" or \"date\" only) reveals the student confuses transaction details with voucher validity requirements — they miss that legal enforceability comes from authorization and sequencing, not just data fields.",
-    "id": "gen_c11_acc_ch03_q2",
+    "id": "gen_c11_acc_ch03_q3",
     "nodeId": "c11_acc_cbse_03_002",
     "difficulty": "standard",
     "workedExample": [
@@ -410,7 +867,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'accounting equation (A = L' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"A = L - C\" or missing Capital) reveals the student has memorised the formula without understanding that Capital is a separate claim distinct from Liabilities, or confuses the equity side structure.",
-    "id": "gen_c11_acc_ch03_q3",
+    "id": "gen_c11_acc_ch03_q4",
     "nodeId": "c11_acc_cbse_03_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -418,6 +875,80 @@ export const C11_ACC_GEN: SimDef[] = [
      "You now possess the phone (an asset) but owe the dealer (a liability).",
      "How do you record this so your books stay balanced?",
      "Start by asking: \"What did I get?\" (Phone → Asset ↑) and \"What did I give?\" (Promise to pay → Liability ↑)."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Design a petty cash book format for a school canteen that incurs the following recurring small expenses: ingredients (flour, oil, spices), gas cylinder refills, disposable plates/cups, cleaning supplies, and miscellaneous.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Cleaning Supplies",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Disposables",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Gas Cylinder Refill",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Ingredients",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s4",
+      "label": "Miscellaneous",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer that merges them shows inability to link accounting design to managerial decision-making.",
+    "id": "gen_c11_acc_ch03_q5",
+    "nodeId": "c11_acc_cbse_04_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are the office manager of a busy stationery shop in Delhi.",
+     "Every day, the main cashier is interrupted for ₹20 auto fare, ₹50 courier charges, ₹15 refreshments – dozens of tiny payments that clog the main cash",
+     "How can you handle these efficiently without losing control?",
+     "The answer is the Imprest System: you give a trusted petty cashier a fixed float of ₹2,000."
     ]
    },
    {
@@ -462,7 +993,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong classification (e.g., crediting cash) shows failure to recognise cash as an asset increase.",
-    "id": "gen_c11_acc_ch03_q4",
+    "id": "gen_c11_acc_ch03_q6",
     "nodeId": "c11_acc_cbse_03_004",
     "difficulty": "standard",
     "workedExample": [
@@ -514,7 +1045,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer uses only cash transactions, misses prepaid/accrued distinctions, or misclassifies accounts (e.g., debiting Insurance Expense instead of Prepaid Insurance). This reveals inability to apply expense/revenue rules beyond simple cash transactions.",
-    "id": "gen_c11_acc_ch03_q5",
+    "id": "gen_c11_acc_ch03_q7",
     "nodeId": "c11_acc_cbse_03_005",
     "difficulty": "standard",
     "workedExample": [
@@ -535,7 +1066,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'traditional classification' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing \"Assets, Liabilities, Capital\" or swapping the rules) reveals the student is confusing traditional classification with the modern approach or has memorised the rules without understanding the classification basis.",
-    "id": "gen_c11_acc_ch03_q6",
+    "id": "gen_c11_acc_ch03_q8",
     "nodeId": "c11_acc_cbse_03_006",
     "difficulty": "standard",
     "workedExample": [
@@ -556,7 +1087,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Journal' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying narration is a column, or that L.F. is filled at entry time) reveals the student confuses journal format with ledger format or doesn't understand the posting sequence.",
-    "id": "gen_c11_acc_ch03_q7",
+    "id": "gen_c11_acc_ch03_q9",
     "nodeId": "c11_acc_cbse_03_007",
     "difficulty": "standard",
     "workedExample": [
@@ -619,7 +1150,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., missing GST accounts, wrong amounts, or debiting GST) reveals inability to handle multi-account transactions with tax implications.",
-    "id": "gen_c11_acc_ch03_q8",
+    "id": "gen_c11_acc_ch03_q10",
     "nodeId": "c11_acc_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -627,6 +1158,80 @@ export const C11_ACC_GEN: SimDef[] = [
      "This single transaction affects THREE accounts — Laptop (asset), Cash (asset), and Creditor (liability).",
      "A simple journal entry only handles two accounts, so we need a compound entry.",
      "Start by identifying ALL accounts involved, then classify each as asset/liability/expense/revenue."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Classify the following into Current and Non-Current Liabilities as at 31st March 2026 (operating cycle 12 months): a 10% bank loan of ₹5,00,000 taken on 1st April 2022 repayable in five equal annual installments from 31st March 2023; outstanding salaries for March 2026 ₹25,000; bills payable ₹40,000 due on 15th April",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Outstanding salaries for March 2026",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The loan installment due on 31st March 2027",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Bills payable due on 15th April 2026",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "The remaining loan balance after",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "8% debentures redeemable on 31st March 2030",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats the whole bank loan as non-current fails to split off the current portion, and classifying bills payable as non-current because it is a \"bill\" ignores that the maturity date decides classification.",
+    "id": "gen_c11_acc_ch03_q11",
+    "nodeId": "c11_acc_cbse_08_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are a bank manager reviewing a loan application from a small business.",
+     "The owner hands you a Balance Sheet where all liabilities are jumbled together: a 10-year machinery loan, tomorrow's electricity bill, and a 3-month",
+     "How can you quickly assess if the business can repay its short-term debts?",
+     "This is exactly why we classify liabilities into Current (due soon) and Non-Current (due later)."
     ]
    },
    {
@@ -640,7 +1245,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ledger' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"ledger records transactions first\") reveals the student confuses the sequence of recording (journal first, ledger second) and misses the analytical purpose of the ledger.",
-    "id": "gen_c11_acc_ch03_q9",
+    "id": "gen_c11_acc_ch03_q12",
     "nodeId": "c11_acc_cbse_03_009",
     "difficulty": "standard",
     "workedExample": [
@@ -655,13 +1260,13 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "In the ledger account for \"Cash\", a journal entry shows \"Cash A/c Dr. 10,000 To Sales A/c 10,000\". What should be written in the Particulars column on the debit side of the Cash Account?",
     "answer": "\"Sales\". The Particulars column always records the name of the *other* account involved in the transaction (the counterpart), not the account being posted to",
     "options": [
+     "Correct. Furniture is a Real account (comes in) → Debit. Sharma is a Personal account (giver) → Credit. The entry follows both traditional rules perfectly",
      "Accounts: Cash (Asset) — Debit ₹3,00,000; Building (Asset) — Debit ₹5,00,000; Capital (Capital) — Credit ₹8,00,000",
-     "This format visually distinguishes debit from credit accounts, prevents errors in identification, and follows the double-entry convention where debit (left side) is recorded first",
      "\"Sales\". The Particulars column always records the name of the *other* account involved in the transaction (the counterpart), not the account being posted to"
     ],
     "hint": "Straight from the 'Posting' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Cash\" or \"Capital\" reveals the student misunderstands that ledger accounts track inflows/outflows by naming the source/destination account.",
-    "id": "gen_c11_acc_ch03_q10",
+    "id": "gen_c11_acc_ch03_q13",
     "nodeId": "c11_acc_cbse_03_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -735,7 +1340,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer placing \"Balance b/d\" on the debit side reveals confusion that revenue accounts have a credit balance.",
-    "id": "gen_c11_acc_ch03_q11",
+    "id": "gen_c11_acc_ch03_q14",
     "nodeId": "c11_acc_cbse_03_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -743,6 +1348,69 @@ export const C11_ACC_GEN: SimDef[] = [
      "At month-end, your \"Cash Account\" has 15 entries on the debit side (receipts) and 10 entries on the credit side (payments).",
      "You need to know exactly how much cash you actually have in hand.",
      "You cannot just guess; you must total both columns, find the difference, and write that difference on the credit side (the shorter side) as \"Balance"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "\"Creation of secret reserves within reasonable limits is justifiable on grounds of expediency, prudence and preventing competition.\" Evaluate this statement. Give two arguments FOR and two arguments AGAINST secret reserves from a stakeholder perspective (shareholders, creditors, tax authorities, competitors).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "For competition",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Against tax and creditor interest",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Against shareholders' interest",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "For prudence",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) For prudence — conservative valuation cushions the firm against future uncertainties such as inventory",
+    "id": "gen_c11_acc_ch03_q15",
+    "nodeId": "c11_acc_cbse_07_012",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you run a successful family sweets business in Delhi.",
+     "Your competitors keep asking for your recipe because your profits are publicly visible in your filed balance sheet.",
+     "You wonder: \"Can I legally show lower profits to keep my competitive edge?\" This is exactly why companies create secret reserves.",
+     "Let's begin by recalling what a reserve is (from node c11_acc_cbse_07_010) – an appropriation of profit to strengthen financial position."
     ]
    },
    {
@@ -787,7 +1455,7 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Critique: Even in computerized systems, NCERT requires physical vouchers (or printed system-generated ones) with",
-    "id": "gen_c11_acc_ch03_q12",
+    "id": "gen_c11_acc_ch03_q16",
     "nodeId": "c11_acc_cbse_03_002",
     "difficulty": "standard"
    },
@@ -796,13 +1464,13 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "A shopkeeper sells goods worth ₹2,000 to a customer on credit. No invoice is issued, but the shopkeeper records it in a personal diary from memory. Is the diary entry a valid source document? Why or why not?",
     "answer": "No, the diary entry is not a valid source document. Source documents must be original, objective, verifiable records created at the time of the transaction (e",
     "options": [
+     "Accounts: Rent Account (Nominal – expense) and Bank Account (Personal – giver). Rule for Nominal: Debit expenses → Debit Rent Account",
      "\"Balance c/d\" must always be written on the *shorter* side to make the two sides equal. Here the credit side (₹10,000) is shorter, so \"Balance c/d ₹75,000\" goes on the credit side",
-     "Incorrect. NCERT defines Compound Voucher as having multiple debits/credits AND one credit/debit (i",
      "No, the diary entry is not a valid source document. Source documents must be original, objective, verifiable records created at the time of the transaction (e"
     ],
     "hint": "Straight from the 'business transaction' slide -- match the key terms.",
     "misconception": "This misconception shows the student thinks any written record qualifies, not understanding the legal and audit requirements of authenticity and contemporaneity.",
-    "id": "gen_c11_acc_ch03_q13",
+    "id": "gen_c11_acc_ch03_q17",
     "nodeId": "c11_acc_cbse_03_001",
     "difficulty": "standard"
    },
@@ -817,69 +1485,8 @@ export const C11_ACC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'business transaction' slide -- match the key terms.",
     "misconception": "If a student says \"voucher comes first,\" they reverse the causality: source document → voucher → journal entry.",
-    "id": "gen_c11_acc_ch03_q14",
-    "nodeId": "c11_acc_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a realistic scenario of a business transaction involving three parties where *two different source documents* are generated for the *same economic event* from different perspectives. Name the documents and explain why both are needed.",
-    "answer": "Scenario: M/s Sharma Traders (buyer) orders goods from M/s Gupta Wholesalers (seller). M/s Gupta delivers goods via M/s Speedy Transport (carrier)",
-    "options": [
-     "The statement is incorrect and dangerous. The dual aspect concept requires that every transaction maintains the accounting equation (Assets = Liabilities + Capital)",
-     "The argument is invalid. \"Balance c/d\" and \"Balance b/d\" provide a clear audit trail: they show *when* the account was closed, *that* the two sides were equalised",
-     "Scenario: M/s Sharma Traders (buyer) orders goods from M/s Gupta Wholesalers (seller). M/s Gupta delivers goods via M/s Speedy Transport (carrier)"
-    ],
-    "hint": "Straight from the 'business transaction' slide -- match the key terms.",
-    "misconception": "A poor answer gives only one document or confuses perspectives.",
-    "id": "gen_c11_acc_ch03_q15",
-    "nodeId": "c11_acc_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this statement: \"A transaction without a source document cannot be recorded in the books of accounts.\" Is it always true? Justify with a Class 11-level example.",
-    "answer": "The statement is generally true but has an exception. Normally, no entry without a source document (verifiable evidence)",
-    "options": [
-     "Incorrect. Outstanding salary means salary incurred but not yet paid. Entry: Salary A/c Dr. 3,000 / To Outstanding Salary A/c 3,000",
-     "The J.F. column in the ledger records the journal page number *from which* the entry is posted. This page number is only known after the journal entry is written and the journal",
-     "The statement is generally true but has an exception. Normally, no entry without a source document (verifiable evidence)"
-    ],
-    "hint": "Straight from the 'business transaction' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is generally true but has an exception. Normally, no entry without a source document (verifiable",
-    "id": "gen_c11_acc_ch03_q16",
-    "nodeId": "c11_acc_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Identify the source document for each: (a) Business deposits ₹50,000 cash into bank. (b) Business buys furniture on credit from M/s Delhi Furnishers. (c) Business pays ₹15,000 salary via cheque. (d) Business returns defective goods to supplier.",
-    "answer": "(a) Pay-in-slip (bank deposit slip) — evidences cash deposited into bank. (b) Purchase invoice (received from supplier) — evidences credit purchase",
-    "options": [
-     "Expenses: Increase → Debit, Decrease → Credit. Revenues: Increase → Credit, Decrease → Debit",
-     "The three categories are Personal, Real, and Nominal. Personal: Debit the receiver, Credit the giver",
-     "(a) Pay-in-slip (bank deposit slip) — evidences cash deposited into bank. (b) Purchase invoice (received from supplier) — evidences credit purchase"
-    ],
-    "hint": "Straight from the 'business transaction' slide -- match the key terms.",
-    "misconception": "If a student confuses (a) with cash memo or (d) with credit note, they misunderstand the direction and purpose of each document — a common error in distinguishing buyer- vs seller-initiated documents.",
-    "id": "gen_c11_acc_ch03_q17",
-    "nodeId": "c11_acc_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student says: \"Since a Compound Voucher has multiple debits and one credit, a transaction with two debits and two credits is also a Compound Voucher.\" Is this correct? Explain why or why not using the NCERT classification.",
-    "answer": "Incorrect. NCERT defines Compound Voucher as having multiple debits/credits AND one credit/debit (i",
-    "options": [
-     "No, the student is incorrect. A business transaction must involve an exchange between a business entity and another party that changes the financial position of the business",
-     "\"Balance c/d\" must always be written on the *shorter* side to make the two sides equal. Here the credit side (₹10,000) is shorter, so \"Balance c/d ₹75,000\" goes on the credit side",
-     "Incorrect. NCERT defines Office Machines as having multiple debits/credits AND one credit/debit (i",
-     "Incorrect. NCERT defines Compound Voucher as having multiple debits/credits AND one credit/debit (i"
-    ],
-    "hint": "Straight from the 'voucher' slide -- match the key terms.",
-    "misconception": "This misconception arises because students focus on \"multiple\" without noticing the asymmetry — they treat \"compound\" as simply \"more than two accounts\" rather than the specific many-to-one structure.",
     "id": "gen_c11_acc_ch03_q18",
-    "nodeId": "c11_acc_cbse_03_002",
+    "nodeId": "c11_acc_cbse_03_001",
     "difficulty": "standard"
    }
   ],

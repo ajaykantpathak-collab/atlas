@@ -555,7 +555,8 @@ export const C12_BIO_GEN: SimDef[] = [
   "subject": "biology",
   "topic": "Flower",
   "chapters": [
-   "Biology Ch2: Flower"
+   "Biology Ch2: Flower",
+   "Biology Ch3: Flower"
   ],
   "nodeIds": [
    "c12_bio_cbse_02_001",
@@ -566,6 +567,7 @@ export const C12_BIO_GEN: SimDef[] = [
    "c12_bio_cbse_02_006",
    "c12_bio_cbse_02_007",
    "c12_bio_cbse_02_008",
+   "c12_bio_cbse_03_008",
    "c12_bio_cbse_02_009",
    "c12_bio_cbse_02_010",
    "c12_bio_cbse_02_011",
@@ -635,6 +637,12 @@ export const C12_BIO_GEN: SimDef[] = [
     "text": "Outbreeding devices are structural, temporal, biochemical, or genetic mechanisms in flowering plants that prevent self-pollination and promote cross-pollination, thereby increasing genetic diversity.",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Pregnancy",
+    "text": "Pregnancy is the physiological state in a female mammal beginning with the implantation of the blastocyst in the uterine endometrium and ending with parturition, during which the embryo and later the fetus develops inside the uterus.",
+    "emoji": "🌿",
+    "bgColor": "from-indigo-400 to-blue-500"
    },
    {
     "title": "Double Fertilization",
@@ -1021,17 +1029,69 @@ export const C12_BIO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A pregnant woman at 6 weeks gestation experiences severe nausea and vomiting (hyperemesis gravidarum). Her serum hCG level is markedly elevated. Explain the physiological basis for the correlation between high hCG and nausea, and predict which hormone's rising levels will likely bring relief by the end of the first",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Cause of the nausea",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The relief",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Why symptoms resolve",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer attributing the nausea solely to progesterone misses the specific temporal correlation with hCG dynamics.",
+    "id": "gen_c12_bio_ch02_q9",
+    "nodeId": "c12_bio_cbse_03_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Begin by asking the student to recall the journey of the zygote from the fallopian tube to the uterus — a journey they studied in the fertilization",
+     "Then, have them observe a timeline diagram of human prenatal development (available in the NCERT textbook Fig.",
+     "Point out that the first two weeks are \"pre-embryonic\" (cleavage to blastocyst), weeks 3–8 are the embryonic period proper (gastrulation to",
+     "Connect this to their Class 9 knowledge (c9_bio_ch3_10) where they learned the trimesters."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Design a simple experiment using a flowering plant (e.g., Petunia) to demonstrate that both male gametes from a single pollen tube participate in fertilization. Describe the key observation that would confirm double fertilization.",
     "answer": "Use a transgenic line where one male gamete expresses a fluorescent marker (e.g., GFP) and the other expresses a different marker (e",
     "options": [
-     "The device is sporophytic self-incompatibility (SSI). In SSI, the pollen phenotype is determined by the diploid genotype of the parent plant (sporophyte)",
      "(a) 2-celled pollen advantageous: generative cell division occurs during tube growth, allowing time for DNA repair and reducing metabolic load during dispersal",
+     "The statement is incorrect. Each polar nucleus is haploid (n); their fusion *before* fertilization forms a diploid (2n) secondary nucleus",
      "Use a transgenic line where one male gamete expresses a fluorescent marker (e.g., GFP) and the other expresses a different marker (e"
     ],
     "hint": "Straight from the 'Double fertilization' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Use a transgenic line where one male gamete expresses a fluorescent marker (e.",
-    "id": "gen_c12_bio_ch02_q9",
+    "id": "gen_c12_bio_ch02_q10",
     "nodeId": "c12_bio_cbse_02_009",
     "difficulty": "standard",
     "workedExample": [
@@ -1052,7 +1112,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Post-fertilization events in' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., diploid or haploid) reveals confusion between syngamy (2n zygote) and triple fusion, or ignorance that polar nuclei are haploid.",
-    "id": "gen_c12_bio_ch02_q10",
+    "id": "gen_c12_bio_ch02_q11",
     "nodeId": "c12_bio_cbse_02_010",
     "difficulty": "standard",
     "workedExample": [
@@ -1073,7 +1133,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Seed development' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying endosperm comes from the zygote or seed coat from the ovary wall) reveals confusion between double fertilization products and maternal tissues — a common error where students mix up the ploidy and origin of seed components.",
-    "id": "gen_c12_bio_ch02_q11",
+    "id": "gen_c12_bio_ch02_q12",
     "nodeId": "c12_bio_cbse_02_011",
     "difficulty": "standard",
     "workedExample": [
@@ -1125,7 +1185,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answer conflating them reveals fundamental misunderstanding of fruit vs seed development pathways.",
-    "id": "gen_c12_bio_ch02_q12",
+    "id": "gen_c12_bio_ch02_q13",
     "nodeId": "c12_bio_cbse_02_012",
     "difficulty": "standard",
     "workedExample": [
@@ -1134,6 +1194,52 @@ export const C12_BIO_GEN: SimDef[] = [
      "Ask: how can a fruit form without seeds?",
      "Recall that in Class 11 (c11_bio_cbse_05_007) you studied fruit types — now we see an exception where ovary wall (pericarp) grows without"
     ]
+   },
+   {
+    "type": "order",
+    "question": "Compare and contrast the roles of the yolk sac and the allantois in early human embryonic development. Why is the human yolk sac non-nutritive despite being well-developed?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Why it",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Allantois roles",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Yolk sac roles",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that assigns a nutritive function to the human yolk sac confuses human development with avian and reptilian models.",
+    "id": "gen_c12_bio_ch02_q14",
+    "nodeId": "c12_bio_cbse_03_008",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -1146,7 +1252,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'flower' slide -- match the key terms.",
     "misconception": "A student who says \"it is incomplete therefore unisexual\" conflates morphological completeness with sexual condition — a common error because both terms describe \"what is present\" but at different organizational levels.",
-    "id": "gen_c12_bio_ch02_q13",
+    "id": "gen_c12_bio_ch02_q15",
     "nodeId": "c12_bio_cbse_02_001",
     "difficulty": "standard"
    },
@@ -1161,7 +1267,22 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'flower' slide -- match the key terms.",
     "misconception": "A student who only notes \"different numbers\" misses the functional morphology linking androecium cohesion to pollination mechanism — a NEET-level application.",
-    "id": "gen_c12_bio_ch02_q14",
+    "id": "gen_c12_bio_ch02_q16",
+    "nodeId": "c12_bio_cbse_02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple field observation to distinguish between a hypogynous, perigynous, and epigynous flower using only a hand lens and a scalpel. List the steps and the key feature you would record for each type.",
+    "answer": "Expected answer: Step 1: Pick a fresh flower. Step 2: Make a longitudinal section through the thalamus",
+    "options": [
+     "Steps: (1) Bag several buds before anthesis to exclude pollinators. (2) Leave similar buds unbagged as controls",
+     "Control: flowers bagged before anthesis, hand-pollinated with viable pollen. Treatment: flowers bagged, no pollination (or pollinated with dead pollen)",
+     "Expected answer: Step 1: Pick a fresh flower. Step 2: Make a longitudinal section through the thalamus"
+    ],
+    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "misconception": "A poor answer that only describes \"ovary position\" without the sectioning step shows lack of practical anatomical skill — a common gap in lab-based board questions.",
+    "id": "gen_c12_bio_ch02_q17",
     "nodeId": "c12_bio_cbse_02_001",
     "difficulty": "standard"
    },
@@ -1176,53 +1297,8 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'flower' slide -- match the key terms.",
     "misconception": "A student who agrees reveals overgeneralization from textbook examples without understanding the definition of zygomorphy.",
-    "id": "gen_c12_bio_ch02_q15",
-    "nodeId": "c12_bio_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "In a longitudinal section of a flower, you observe that the thalamus is cup-shaped and the ovary sits at the bottom of the cup with sepals, petals, and stamens attached to the rim. What is the position of the ovary? How does this position affect the type of fruit that will develop?",
-    "answer": "The ovary is inferior (epigynous flower). The thalamus grows upward and fuses with the ovary wall, so the fruit that develops will be an inferior ovary fruit (e",
-    "options": [
-     "Maize will show greater variation because it is predominantly xenogamous (cross-pollinated), reshuffling alleles each generation",
-     "Collect flowers at 1, 3, 5, 7, 10 days after pollination; fix in FAA, clear in chloral hydrate, and observe under a dissecting microscope",
-     "The ovary is inferior (epigynous flower). The thalamus grows upward and fuses with the ovary wall, so the fruit that develops will be an inferior ovary fruit (e"
-    ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"superior ovary\" or \"fruit type unchanged\" shows failure to visualize 3D floral architecture and its consequence for fruit morphology — a frequent board exam diagram-labeling trap.",
-    "id": "gen_c12_bio_ch02_q16",
-    "nodeId": "c12_bio_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Name the four whorls of a typical angiosperm flower in correct acropetal order (from base to apex) and state the primary function of each whorl in one phrase.",
-    "answer": "Calyx (sepals) – protection of bud; Corolla (petals) – attraction of pollinators; Androecium (stamens) – production of male gametes (pollen)",
-    "options": [
-     "Epidermis (diploid, 2n) → Endothecium (diploid, 2n) → Middle layers (1–3 layers, diploid, 2n) → Tapetum (diploid, 2n, but often becomes binucleate or polyploid)",
-     "Microspore mother cell: diploid (2n); microspore: haploid (n); vegetative cell: haploid (n)",
-     "Calyx (sepals) – protection of bud; Corolla (petals) – attraction of pollinators; Androecium (stamens) – production of male gametes (pollen)"
-    ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., swapping androecium/gynoecium order or assigning photosynthesis to petals) reveals confusion between vegetative and reproductive roles or misunderstanding of acropetal succession on the thalamus.",
-    "id": "gen_c12_bio_ch02_q17",
-    "nodeId": "c12_bio_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student observes a transverse section of an anther where the endothecium lacks fibrous thickenings and the stomium is not differentiated. Predict the consequence for pollen release and justify your answer.",
-    "answer": "The anther will fail to dehisce (split open) at maturity, trapping pollen inside. The endothecial fibrous thickenings (α-cellulose bands) generate mechanical tension upon",
-    "options": [
-     "Control: flowers bagged before anthesis, hand-pollinated with viable pollen. Treatment: flowers bagged, no pollination (or pollinated with dead pollen)",
-     "Use aceto-carmine or iodine-potassium iodide (IKI) stain on a squash preparation of a young anther",
-     "The anther will fail to dehisce (split open) at maturity, trapping pollen inside. The endothecial fibrous thickenings (α-cellulose bands) generate mechanical tension upon"
-    ],
-    "hint": "Straight from the 'stamen' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"pollen will not form\" confuses dehiscence (release) with microsporogenesis (formation). This tests application of structure-function reasoning to a developmental defect.",
     "id": "gen_c12_bio_ch02_q18",
-    "nodeId": "c12_bio_cbse_02_002",
+    "nodeId": "c12_bio_cbse_02_001",
     "difficulty": "standard"
    }
   ],
@@ -1454,6 +1530,21 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a community-level intervention package for a block with TFR 3.5, CPR 40%, and unmet need for spacing 12%. Specify three measurable indicators to track progress over 3 years.",
+    "answer": "Package: (1) ASHA-led home delivery of contraceptives (condoms, OCPs, Chhaya); (2) Fixed-day IUCD insertion services at sub-centres with counsellors",
+    "options": [
+     "Behavioural: Peer-led workshops in native language promoting condom use and reducing stigma. Biomedical: Monthly mobile clinic offering free syndromic management (WHO flowcharts)",
+     "CBR = (4500/250000)×1000 = 18 per 1000. CDR = (2000/250000)×1000 = 8 per 1000. TFR 3.2 with CBR 18 and CDR 8 indicates Stage 3 of demographic transition: death rate has fallen",
+     "Package: (1) ASHA-led home delivery of contraceptives (condoms, OCPs, Chhaya); (2) Fixed-day IUCD insertion services at sub-centres with counsellors"
+    ],
+    "hint": "Straight from the 'Population stabilisation' slide -- match the key terms.",
+    "misconception": "A poor answer lists only awareness camps without service delivery or measurable indicators, showing inability to translate demographic data into actionable programme design.",
+    "id": "gen_c12_bio_ch04_q7",
+    "nodeId": "c12_bio_cbse_04_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Explain why a population continues to grow for several decades even after TFR reaches replacement level (2.1).",
     "answer": "This is population momentum: a large proportion of the population is in the reproductive age group due to past high fertility",
     "options": [
@@ -1463,7 +1554,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Population stabilisation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"because TFR 2.1 still means growth\") shows the student does not understand the age-structure effect and the lag between fertility decline and population stabilisation.",
-    "id": "gen_c12_bio_ch04_q7",
+    "id": "gen_c12_bio_ch04_q8",
     "nodeId": "c12_bio_cbse_04_008",
     "difficulty": "advanced"
    }
@@ -1644,6 +1735,303 @@ export const C12_BIO_GEN: SimDef[] = [
    ]
   },
   "successLine": "Monohybrid Cross mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
+  "id": "gen_c12_bio_ch06",
+  "title": "Genetic Code",
+  "subtitle": "Biology · Chapter 6",
+  "classLevel": 12,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Genetic Code",
+  "chapters": [
+   "Biology Ch6: Genetic Code"
+  ],
+  "nodeIds": [
+   "c12_bio_cbse_06_006",
+   "c12_bio_cbse_06_007",
+   "c12_bio_cbse_06_009"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-lime-100 to-green-200",
+   "accent": "green",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Is Genetic Code more about facts, or about reasoning?",
+   "options": [
+    "Mostly reasoning from a few core ideas",
+    "Pure memorisation of facts",
+    "Random guessing"
+   ],
+   "answer": "Mostly reasoning from a few core ideas",
+   "hook": "Molecular biologist: rewrites gene expression using the replication-transcription-translation machinery mapped here."
+  },
+  "teaching": [
+   {
+    "title": "Genetic Code",
+    "text": "The genetic code is the set of rules by which information encoded in mRNA sequences (codons, three-nucleotide units) is translated into amino acid sequences during protein synthesis; the wobble hypothesis explains how a single tRNA anticodon can recognize",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Translation",
+    "text": "Translation is the biological process where the genetic information encoded in messenger RNA (mRNA) is decoded by ribosomes to synthesize a specific polypeptide chain, using transfer RNA (tRNA) molecules as adaptors that match codons on mRNA with their",
+    "emoji": "🌿",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Human Genome Project Was",
+    "text": "The Human Genome Project (HGP) was an international scientific research project (1990–2003) with the primary goal of determining the complete sequence of nucleotide base pairs that make up human DNA and identifying and mapping all human genes from both a",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Design a minimal set of tRNA anticodons (using standard bases A, U, G, C and inosine I) that can translate all six leucine codons (UUA, UUG, CUU, CUC, CUA, CUG). Explain how wobble reduces the number of tRNAs needed compared to a strict Watson-Crick pairing model.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "For CUG",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "For the CUN family",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "For the UUA and UUG pair",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The economy",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer that lists six anticodons or never uses inosine shows failure to apply the wobble rules for economy.",
+    "id": "gen_c12_bio_ch06_q1",
+    "nodeId": "c12_bio_cbse_06_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you receive a WhatsApp message written in a language where every word is exactly three letters long, there are no spaces, and the same word",
+     "Begin by recalling that transcription (c12_bio_cbse_06_005) produces mRNA with a sequence of A, U, G, C.",
+     "Next, observe that 4³ = 64 possible three-letter combinations (codons) must specify only 20 amino acids plus start/stop signals — this forces",
+     "Then, use the standard codon table to translate a short mRNA fragment (e.g., AUG UUU UCU UAA) into Met-Phe-Ser-Stop."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A researcher treats a eukaryotic cell-free translation system with a drug that prevents eIF2α phosphorylation. Under stress conditions (e.g., heat shock), how will global protein synthesis and stress-response protein synthesis (e.g., HSP70) be affected compared to untreated cells?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "With the drug",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "What the drug blocks",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The normal response",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The cost",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer saying both decrease, or that global synthesis and HSP70 both increase, misses the dual role of eIF2 alpha phosphorylation in global suppression and selective activation.",
+    "id": "gen_c12_bio_ch06_q2",
+    "nodeId": "c12_bio_cbse_06_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you order a custom protein shake at a gym café — you read the menu (mRNA), the barista (ribosome) assembles ingredients (amino acids) brought",
+     "Start by visualizing the ribosome as a two-subunit machine with three slots (A, P, E).",
+     "Connect to prior node c12_bio_cbse_06_006: the genetic code tells which tRNA anticodon matches which mRNA codon.",
+     "Walk through initiation (small subunit + mRNA + initiator tRNA), elongation (codon recognition → peptide bond formation → translocation), and"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Explain why the BAC-to-BAC (hierarchical) sequencing strategy was chosen over whole-genome shotgun sequencing for the public HGP effort, despite being slower.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The repeat problem",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The shotgun trade-off",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The priority",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "The anchor advantage",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer claiming BAC was faster, or that shotgun cannot handle large genomes at all, misses that this was an accuracy-versus-speed choice.",
+    "id": "gen_c12_bio_ch06_q3",
+    "nodeId": "c12_bio_cbse_06_009",
+    "difficulty": "standard",
+    "workedExample": [
+     "Think about how a doctor today can order a genetic test to check if you carry a mutation for thalassemia or breast cancer risk — that test exists",
+     "Begin by recalling that DNA is the genetic material (c12_bio_cbse_06_001) and has a double-helix structure (c12_bio_cbse_06_002).",
+     "Observe that the human genome is ~3 billion base pairs long — far too large to sequence in one go.",
+     "The key biological principle is that HGP used hierarchical cloning (BAC libraries) and shotgun sequencing, combined with computational assembly, to"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a minimal set of tRNA anticodons (using standard bases A, U, G, C and inosine I) that can translate all six leucine codons (UUA, UUG, CUU, CUC, CUA, CUG). Explain how wobble reduces the number of tRNAs needed compared to a strict Watson-Crick pairing model.",
+    "answer": "(1) For the UUA and UUG pair — one leucine tRNA with a modified UAA anticodon reads both codons through wobble at the third base, (2) For the CUN family",
+    "options": [
+     "(1) What the drug blocks — phosphorylation of eIF2 alpha, the trigger of the integrated stress response, (2) The normal response",
+     "(1) The anchor advantage — each sequenced BAC clone had a known chromosomal location, so every fragment landed where it belonged, (2) The repeat problem",
+     "(1) For the UUA and UUG pair — one leucine tRNA with a modified UAA anticodon reads both codons through wobble at the third base, (2) For the CUN family"
+    ],
+    "hint": "Straight from the 'genetic code' slide -- match the key terms.",
+    "misconception": "A poor answer that lists six anticodons or never uses inosine shows failure to apply the wobble rules for economy.",
+    "id": "gen_c12_bio_ch06_q4",
+    "nodeId": "c12_bio_cbse_06_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A researcher treats a eukaryotic cell-free translation system with a drug that prevents eIF2α phosphorylation. Under stress conditions (e.g., heat shock), how will global protein synthesis and stress-response protein synthesis (e.g., HSP70) be affected compared to untreated cells?",
+    "answer": "(1) What the drug blocks — phosphorylation of eIF2 alpha, the trigger of the integrated stress response, (2) The normal response",
+    "options": [
+     "(1) For the UUA and UUG pair — one leucine tRNA with a modified UAA anticodon reads both codons through wobble at the third base, (2) For the CUN family",
+     "(1) The anchor advantage — each sequenced BAC clone had a known chromosomal location, so every fragment landed where it belonged, (2) The repeat problem",
+     "(1) What the drug blocks — phosphorylation of eIF2 alpha, the trigger of the integrated stress response, (2) The normal response"
+    ],
+    "hint": "Straight from the 'Translation' slide -- match the key terms.",
+    "misconception": "A wrong answer saying both decrease, or that global synthesis and HSP70 both increase, misses the dual role of eIF2 alpha phosphorylation in global suppression and selective activation.",
+    "id": "gen_c12_bio_ch06_q5",
+    "nodeId": "c12_bio_cbse_06_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Explain why the BAC-to-BAC (hierarchical) sequencing strategy was chosen over whole-genome shotgun sequencing for the public HGP effort, despite being slower.",
+    "answer": "(1) The anchor advantage — each sequenced BAC clone had a known chromosomal location, so every fragment landed where it belonged, (2) The repeat problem",
+    "options": [
+     "(1) What the drug blocks — phosphorylation of eIF2 alpha, the trigger of the integrated stress response, (2) The normal response",
+     "(1) For the UUA and UUG pair — one leucine tRNA with a modified UAA anticodon reads both codons through wobble at the third base, (2) For the CUN family",
+     "(1) The anchor advantage — each sequenced BAC clone had a known chromosomal location, so every fragment landed where it belonged, (2) The repeat problem"
+    ],
+    "hint": "Straight from the 'Human Genome Project  was' slide -- match the key terms.",
+    "misconception": "A wrong answer claiming BAC was faster, or that shotgun cannot handle large genomes at all, misses that this was an accuracy-versus-speed choice.",
+    "id": "gen_c12_bio_ch06_q6",
+    "nodeId": "c12_bio_cbse_06_009",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about genetic code?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Genetic Code mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -1908,6 +2296,21 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple investigation using only museum specimens or photographs to distinguish whether the streamlined body shape of a shark (fish) and dolphin (mammal) is homologous or analogous. List the specific anatomical features you would compare and the expected outcome for each hypothesis.",
+    "answer": "Compare: (1) Skeletal structure — shark has cartilaginous vertebral column, no limb bones; dolphin has bony vertebral column, homologous forelimb bones (humerus, radius",
+    "options": [
+     "The fossil likely belongs to Homo erectus. The long femoral neck and prominent linea aspera indicate strong gluteal attachments for efficient bipedal striding",
+     "(1) Limb structure: reduction from 4 functional toes (Eohippus) to single toe with splint bones (Equus)",
+     "Compare: (1) Skeletal structure — shark has cartilaginous vertebral column, no limb bones; dolphin has bony vertebral column, homologous forelimb bones (humerus, radius"
+    ],
+    "hint": "Straight from the 'Evidences for evolution from' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Compare: (1) Skeletal structure — shark has cartilaginous vertebral column, no limb bones; dolphin has bony vertebral",
+    "id": "gen_c12_bio_ch07_q9",
+    "nodeId": "c12_bio_cbse_07_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "In the horse evolution series (Eohippus → Mesohippus → Merychippus → Pliohippus → Equus), which two specific morphological changes correlate most directly with the shift from forest to grassland habitats? Explain the selective pressure driving each change.",
     "answer": "(1) Limb structure: reduction from 4 functional toes (Eohippus) to single toe with splint bones (Equus)",
     "options": [
@@ -1917,7 +2320,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Evidences for evolution from' slide -- match the key terms.",
     "misconception": "Wrong answers often list \"size increase\" as primary — size change is secondary to locomotor and dietary adaptations.",
-    "id": "gen_c12_bio_ch07_q9",
+    "id": "gen_c12_bio_ch07_q10",
     "nodeId": "c12_bio_cbse_07_003",
     "difficulty": "standard"
    },
@@ -1932,7 +2335,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Adaptive radiation' slide -- match the key terms.",
     "misconception": "A wrong answer that predicts only one beak type (e.g., all evolve large beaks) ignores disruptive selection and the availability of two distinct niches.",
-    "id": "gen_c12_bio_ch07_q10",
+    "id": "gen_c12_bio_ch07_q11",
     "nodeId": "c12_bio_cbse_07_008",
     "difficulty": "standard"
    },
@@ -1947,7 +2350,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Adaptive radiation' slide -- match the key terms.",
     "misconception": "A wrong answer that says both are identical in mechanism misses the role of geographic scale and gene flow.",
-    "id": "gen_c12_bio_ch07_q11",
+    "id": "gen_c12_bio_ch07_q12",
     "nodeId": "c12_bio_cbse_07_008",
     "difficulty": "standard"
    },
@@ -1962,7 +2365,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Adaptive radiation' slide -- match the key terms.",
     "misconception": "A poor answer that only measures beak depth once or lacks a control group shows inability to design a controlled evolutionary study.",
-    "id": "gen_c12_bio_ch07_q12",
+    "id": "gen_c12_bio_ch07_q13",
     "nodeId": "c12_bio_cbse_07_008",
     "difficulty": "standard"
    },
@@ -1977,7 +2380,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Human evolution' slide -- match the key terms.",
     "misconception": "A student who suggests Australopithecus fails to recognize that by 1.8 Ma, Australopithecus was extinct and Homo erectus had already evolved modern-human-like limb proportions and a larger cranial capacity (~900 cc).",
-    "id": "gen_c12_bio_ch07_q13",
+    "id": "gen_c12_bio_ch07_q14",
     "nodeId": "c12_bio_cbse_07_009",
     "difficulty": "advanced"
    },
@@ -1992,7 +2395,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Human evolution' slide -- match the key terms.",
     "misconception": "A student who only mentions \"smaller teeth\" without linking arcade shape, canine projection, and dietary change shows superficial understanding of functional morphology.",
-    "id": "gen_c12_bio_ch07_q14",
+    "id": "gen_c12_bio_ch07_q15",
     "nodeId": "c12_bio_cbse_07_009",
     "difficulty": "advanced"
    }
@@ -2323,6 +2726,21 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple community-level intervention plan to reduce the incidence of all three diseases simultaneously in a dense urban slum. List three specific actions, each targeting a different disease's primary transmission route.",
+    "answer": "Good answer must include: (1) Typhoid: Provide chlorinated piped water / promote boiling water / build toilets with safe sewage disposal (faecal-oral route)",
+    "options": [
+     "Mode: vehicle-borne (water). Likely pathogens: enteric bacteria (Vibrio, Shigella, E. coli) or viruses (rotavirus)",
+     "This is artificial passive immunity. Antivenom contains pre-formed antibodies against snake venom, providing immediate neutralization",
+     "Good answer must include: (1) Typhoid: Provide chlorinated piped water / promote boiling water / build toilets with safe sewage disposal (faecal-oral route)"
+    ],
+    "hint": "Straight from the 'Typhoid, pneumonia, and the' slide -- match the key terms.",
+    "misconception": "A poor answer lists generic \"cleanliness\" without linking each action to a specific transmission biology — shows lack of analytical application.",
+    "id": "gen_c12_bio_ch08_q7",
+    "nodeId": "c12_bio_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A 10-year-old child missed the MMR vaccine at 9-12 months. The parents ask if giving it now is still effective. Apply the concept of immunological memory and age-related immune maturation to justify your answer.",
     "answer": "Yes, MMR (live attenuated) can be given at any age >9 months; the immune system is fully competent by 10 years",
     "options": [
@@ -2332,7 +2750,22 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Vaccination' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"too late, immunity window closed\") reveals misunderstanding that adaptive immunity has no upper age limit for primary vaccination — only lower limit (maternal antibody interference <9 months).",
-    "id": "gen_c12_bio_ch08_q7",
+    "id": "gen_c12_bio_ch08_q8",
+    "nodeId": "c12_bio_cbse_08_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple community-level study to estimate the herd immunity threshold for a new vaccine in a rural Indian block, using only vaccination records and reported case data over 12 months. Outline the key variables, data sources, and analytical steps.",
+    "answer": "Key variables: vaccination coverage (%), monthly incidence rate, Rₑ estimate. Data sources: CoWIN/UIDAI vaccination registers, PHC/CHC case reports (IDSP)",
+    "options": [
+     "This is artificial passive immunity. Antivenom contains pre-formed antibodies against snake venom, providing immediate neutralization",
+     "Good answer must include: (1) Typhoid: Provide chlorinated piped water / promote boiling water / build toilets with safe sewage disposal (faecal-oral route)",
+     "Key variables: vaccination coverage (%), monthly incidence rate, Rₑ estimate. Data sources: CoWIN/UIDAI vaccination registers, PHC/CHC case reports (IDSP)"
+    ],
+    "hint": "Straight from the 'Vaccination' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Key variables: vaccination coverage (%), monthly incidence rate, Rₑ estimate.",
+    "id": "gen_c12_bio_ch08_q9",
     "nodeId": "c12_bio_cbse_08_005",
     "difficulty": "standard"
    },
@@ -2347,9 +2780,24 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Vaccination' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling hepatitis B \"live attenuated\") reveals confusion between whole-organism and subunit strategies, and ignorance of recombinant DNA technology in vaccines.",
-    "id": "gen_c12_bio_ch08_q8",
+    "id": "gen_c12_bio_ch08_q10",
     "nodeId": "c12_bio_cbse_08_005",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A patient presents with a 3 cm firm, non-tender lump in the left breast. The physician orders a mammogram followed by a core needle biopsy. The biopsy report says \"invasive ductal carcinoma, grade 2, ER+, PR+, HER2-\".",
+    "answer": "The critical step is histopathological confirmation via biopsy (core needle or excisional). Treatment cannot begin without microscopic proof of malignancy because: (1) clinical",
+    "options": [
+     "Mode: vehicle-borne (water). Likely pathogens: enteric bacteria (Vibrio, Shigella, E. coli) or viruses (rotavirus)",
+     "This is artificial passive immunity. Antivenom contains pre-formed antibodies against snake venom, providing immediate neutralization",
+     "The critical step is histopathological confirmation via biopsy (core needle or excisional). Treatment cannot begin without microscopic proof of malignancy because: (1) clinical"
+    ],
+    "hint": "Straight from the 'Cancer diagnosis' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"mammogram is enough\" or \"start chemo based on imaging\") reveals the misconception that imaging replaces tissue diagnosis, which is a dangerous error in clinical practice and board exams.",
+    "id": "gen_c12_bio_ch08_q11",
+    "nodeId": "c12_bio_cbse_08_008",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -2362,7 +2810,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cancer diagnosis' slide -- match the key terms.",
     "misconception": "Wrong answers often confuse targeted therapy side effects with chemo (e.g., \"trastuzumab causes hair loss\") — this is a specific NEET trap.",
-    "id": "gen_c12_bio_ch08_q9",
+    "id": "gen_c12_bio_ch08_q12",
     "nodeId": "c12_bio_cbse_08_008",
     "difficulty": "advanced"
    }
@@ -2856,6 +3304,21 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple monthly health‑monitoring checklist for a small goat farm (20 does) that a farmer with basic literacy can use. Include at least five observable parameters and the action triggered by an abnormal finding.",
+    "answer": "A good checklist includes: (1) Body condition score (BCS) — if ≤2, investigate nutrition/parasites; (2) FAMACHA eye membrane colour — if pale, deworm for Haemonchus",
+    "options": [
+     "(a) FCR improves (decreases) because pellets reduce selective feeding — birds consume balanced nutrition in every bite",
+     "Expected answer criteria: Structural: Perimeter fence, footbaths at all entries, bird-proof netting, separate clean/dirty zones, dedicated vehicles",
+     "A good checklist includes: (1) Body condition score (BCS) — if ≤2, investigate nutrition/parasites; (2) FAMACHA eye membrane colour — if pale, deworm for Haemonchus"
+    ],
+    "hint": "Straight from the 'Animal husbandry' slide -- match the key terms.",
+    "misconception": "A poor answer lists vague items like “check health” without measurable indicators or linked actions.",
+    "id": "gen_c12_bio_ch09_q9",
+    "nodeId": "c12_bio_cbse_09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the statement: “Regular deworming and vaccination are unnecessary if farm hygiene is excellent.” Provide a biological justification for your evaluation.",
     "answer": "The statement is false. Excellent hygiene reduces pathogen load but cannot eliminate all parasites (e",
     "options": [
@@ -2865,7 +3328,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Animal husbandry' slide -- match the key terms.",
     "misconception": "A student who agrees overlooks the environmental resilience of pathogens and the specific protective mechanisms of vaccines/anthelmintics.",
-    "id": "gen_c12_bio_ch09_q9",
+    "id": "gen_c12_bio_ch09_q10",
     "nodeId": "c12_bio_cbse_09_001",
     "difficulty": "standard"
    },
@@ -2880,7 +3343,22 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dairy farm management' slide -- match the key terms.",
     "misconception": "A WRONG answer choosing A for \"higher energy\" ignores that SARA reduces DMI and milk fat % — net energy for milk may actually be lower despite higher concentrate.",
-    "id": "gen_c12_bio_ch09_q10",
+    "id": "gen_c12_bio_ch09_q11",
+    "nodeId": "c12_bio_cbse_09_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a clean milk production protocol for a 20-cow farm targeting somatic cell count (SCC) <200,000 cells/mL and total plate count (TPC) <50,000 cfu/mL. Include pre-milking, milking, and post-milking steps with biological justification for each.",
+    "answer": "Pre-milking: (1) Cow entry → clean loafing area (reduces environmental mastitis pathogens). (2) Fore-strip 3-4 streams → detects clinical mastitis, stimulates oxytocin",
+    "options": [
+     "A good checklist includes: (1) Body condition score (BCS) — if ≤2, investigate nutrition/parasites; (2) FAMACHA eye membrane colour — if pale, deworm for Haemonchus",
+     "(a) FCR improves (decreases) because pellets reduce selective feeding — birds consume balanced nutrition in every bite",
+     "Pre-milking: (1) Cow entry → clean loafing area (reduces environmental mastitis pathogens). (2) Fore-strip 3-4 streams → detects clinical mastitis, stimulates oxytocin"
+    ],
+    "hint": "Straight from the 'Dairy farm management' slide -- match the key terms.",
+    "misconception": "A poor answer lists steps without linking to bacterial growth kinetics or udder physiology.",
+    "id": "gen_c12_bio_ch09_q12",
     "nodeId": "c12_bio_cbse_09_002",
     "difficulty": "advanced"
    },
@@ -2895,7 +3373,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dairy farm management' slide -- match the key terms.",
     "misconception": "A WRONG answer focusing only on \"cleaning teats\" misses the neuroendocrine mechanism — students often confuse hygiene with physiology of milk let-down.",
-    "id": "gen_c12_bio_ch09_q11",
+    "id": "gen_c12_bio_ch09_q13",
     "nodeId": "c12_bio_cbse_09_002",
     "difficulty": "advanced"
    },
@@ -2910,7 +3388,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Poultry farm management' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"FCR worsens because pellets are expensive\") confuses economic cost with biological efficiency; pellets cost more per tonne but improve FCR, lowering feed cost per dozen eggs.",
-    "id": "gen_c12_bio_ch09_q12",
+    "id": "gen_c12_bio_ch09_q14",
     "nodeId": "c12_bio_cbse_09_003",
     "difficulty": "advanced"
    },
@@ -2925,7 +3403,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Poultry farm management' slide -- match the key terms.",
     "misconception": "A poor answer listing only \"vaccination and cleaning\" misses the layered defense concept (structural + operational + emergency) and fails to address specific AI transmission routes (wild birds, fomites, aerosols).",
-    "id": "gen_c12_bio_ch09_q13",
+    "id": "gen_c12_bio_ch09_q15",
     "nodeId": "c12_bio_cbse_09_003",
     "difficulty": "advanced"
    },
@@ -2940,7 +3418,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Poultry farm management' slide -- match the key terms.",
     "misconception": "A wrong answer supporting AGPs shows ignorance of regulatory changes, AMR crisis, and modern gut health management — critical for NEET biology (human health) and competitive exams.",
-    "id": "gen_c12_bio_ch09_q14",
+    "id": "gen_c12_bio_ch09_q16",
     "nodeId": "c12_bio_cbse_09_003",
     "difficulty": "advanced"
    },
@@ -2955,7 +3433,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Artificial Insemination' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: Single AI timing error (e.g., \"at heat onset\" or \"24 hours after PGF2α\") shows ignorance of follicular asynchrony.",
-    "id": "gen_c12_bio_ch09_q15",
+    "id": "gen_c12_bio_ch09_q17",
     "nodeId": "c12_bio_cbse_09_004",
     "difficulty": "advanced"
    },
@@ -2970,39 +3448,9 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Artificial Insemination' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If student says \"AI gives more calves so more gain\" without invoking selection intensity formula, they miss the quantitative genetics core (Falconer's equation).",
-    "id": "gen_c12_bio_ch09_q16",
-    "nodeId": "c12_bio_cbse_09_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Define artificial insemination and state the single most critical parameter for timing insemination in cattle.",
-    "answer": "Artificial Insemination (AI) is the technique of collecting semen from a male and depositing it artificially into the female reproductive tract (cervix/uterus) using instruments",
-    "options": [
-     "The four species are *Apis dorsata* (rock bee), *Apis florea* (little bee), *Apis cerana indica* (Indian hive bee), and *Apis mellifera* (European/Italian bee)",
-     "Correct: Catla catla (surface feeder, zooplankton), Labeo rohita (column feeder, omnivorous), Cirrhinus mrigala (bottom feeder, detritus/algae)",
-     "Artificial Insemination (AI) is the technique of collecting semen from a male and depositing it artificially into the female reproductive tract (cervix/uterus) using instruments"
-    ],
-    "hint": "Straight from the 'Artificial Insemination' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: If student says \"any time during heat\" or \"after ovulation\", they confuse estrus detection with ovulation timing — a classic error causing repeat breeding.",
-    "id": "gen_c12_bio_ch09_q17",
-    "nodeId": "c12_bio_cbse_09_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A beekeeper in Uttar Pradesh observes capped drone brood cells protruding from the comb surface in March, while worker brood is flat-capped. The colony has no queen cells. What management action should be taken immediately, and why?",
-    "answer": "Action: Remove the protruding drone comb frames and replace with worker foundation sheets. Reason: Excessive drone brood in spring indicates the colony is preparing to swarm",
-    "options": [
-     "Correct: Monoculture of a surface feeder exhausts zooplankton (its sole food) while column and bottom niches remain unutilized",
-     "A good checklist includes: (1) Body condition score (BCS) — if ≤2, investigate nutrition/parasites; (2) FAMACHA eye membrane colour — if pale, deworm for Haemonchus",
-     "Action: Remove the protruding drone comb frames and replace with worker foundation sheets. Reason: Excessive drone brood in spring indicates the colony is preparing to swarm"
-    ],
-    "hint": "Straight from the 'Apiculture' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"add more supers\" ignores the swarm trigger — a common competitive exam trap where students confuse space management with reproductive impulse control.",
     "id": "gen_c12_bio_ch09_q18",
-    "nodeId": "c12_bio_cbse_09_005",
-    "difficulty": "standard"
+    "nodeId": "c12_bio_cbse_09_004",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -3377,6 +3825,21 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple kitchen experiment to demonstrate that the gas produced during bread dough rising is CO₂ and not oxygen or nitrogen. List materials, procedure, and the confirmatory test.",
+    "answer": "Expected answer: Materials: Fresh bread dough (flour, water, yeast), small bottle, balloon, lime water (Ca(OH)₂), matchstick",
+    "options": [
+     "Treatments: (i) Bt isolate at 3 concentrations (e.g., 10^6, 10^7, 10^8 spores/mL), (ii) commercial Bt formulation (positive control), (iii) water only (negative control)",
+     "(1) Low pH (5.2) inhibits *Rhizobium* survival and nod gene expression — most rhizobia prefer pH 6",
+     "Expected answer: Materials: Fresh bread dough (flour, water, yeast), small bottle, balloon, lime water (Ca(OH)₂), matchstick"
+    ],
+    "hint": "Straight from the 'Microbes in household products' slide -- match the key terms.",
+    "misconception": "a poor answer reveals: If a student uses \"smell\" or \"balloon size\" as proof, they rely on qualitative guesswork, not chemical identification. If they suggest glowing splint test (for O₂), they confuse gas tests. This assesses ability to design a controlled bio-chemical test — a CBSE practical/board competency skill.",
+    "id": "gen_c12_bio_ch10_q10",
+    "nodeId": "c12_bio_cbse_10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Why does curd form only when a small amount of already-set curd (starter) is added to warm milk, but not when milk is simply left at room temperature without a starter?",
     "answer": "The starter provides a high initial population of *Lactobacillus* that rapidly outcompetes spoilage microbes and drops pH to ~4",
     "options": [
@@ -3386,8 +3849,23 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Microbes in household products' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student says \"milk has natural bacteria that make curd\", they ignore microbial competition and the need for a selected inoculum — a common error in board answers where students omit the *starter culture* concept.",
-    "id": "gen_c12_bio_ch10_q10",
+    "id": "gen_c12_bio_ch10_q11",
     "nodeId": "c12_bio_cbse_10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple field experiment to test whether a local isolate of Bacillus thuringiensis is effective against the diamondback moth (Plutella xylostella) on cabbage. List the key treatments, controls, and measurable parameters.",
+    "answer": "Treatments: (i) Bt isolate at 3 concentrations (e.g., 10^6, 10^7, 10^8 spores/mL), (ii) commercial Bt formulation (positive control), (iii) water only (negative control)",
+    "options": [
+     "Setup: 3 identical bottles with 200 mL pasteurised grape juice + 0g, 10g, 20g added sucrose; inoculate each with 0",
+     "(1) Low pH (5.2) inhibits *Rhizobium* survival and nod gene expression — most rhizobia prefer pH 6",
+     "Treatments: (i) Bt isolate at 3 concentrations (e.g., 10^6, 10^7, 10^8 spores/mL), (ii) commercial Bt formulation (positive control), (iii) water only (negative control)"
+    ],
+    "hint": "Straight from the 'Microbes as biocontrol agents' slide -- match the key terms.",
+    "misconception": "A poor answer that omits dose-response, replication, or a proper negative control reveals inability to design a valid biological experiment — a skill required for practical exams and research aptitude.",
+    "id": "gen_c12_bio_ch10_q12",
+    "nodeId": "c12_bio_cbse_10_006",
     "difficulty": "standard"
    },
    {
@@ -3401,7 +3879,22 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
     "misconception": "A wrong answer blaming only \"poor quality inoculant\" misses the agronomic management errors that are equally critical in competitive exams.",
-    "id": "gen_c12_bio_ch10_q11",
+    "id": "gen_c12_bio_ch10_q13",
+    "nodeId": "c12_bio_cbse_10_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple low-cost experiment for a Class 12 student to demonstrate that *Rhizobium* inoculation increases nitrogen content in legume plants compared to uninoculated controls, using only school lab equipment (no spectrophotometer, no Kjeldahl). Specify measurable parameters, controls, and duration.",
+    "answer": "Grow soybean in sterilized sand culture (N-free nutrient solution) in pots: (1) Inoculated with *Rhizobium*, (2) Uninoculated control",
+    "options": [
+     "Treatments: (i) Bt isolate at 3 concentrations (e.g., 10^6, 10^7, 10^8 spores/mL), (ii) commercial Bt formulation (positive control), (iii) water only (negative control)",
+     "Destabilize. Urea hydrolyzes to NH₃/NH₄⁺, raising pH above 8.0. Free ammonia (NH₃) diffuses into methanogen cells, uncouples proton motive force",
+     "Grow soybean in sterilized sand culture (N-free nutrient solution) in pots: (1) Inoculated with *Rhizobium*, (2) Uninoculated control"
+    ],
+    "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Grow soybean in sterilized sand culture (N-free nutrient solution) in pots: (1) Inoculated with *Rhizobium*, (2)",
+    "id": "gen_c12_bio_ch10_q14",
     "nodeId": "c12_bio_cbse_10_007",
     "difficulty": "standard"
    },
@@ -3416,7 +3909,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement ignores the ecological requirement (water) and overgeneralizes — a classic board exam trap where \"nitrogen-fixing\" is equated with \"universally applicable.\"",
-    "id": "gen_c12_bio_ch10_q12",
+    "id": "gen_c12_bio_ch10_q15",
     "nodeId": "c12_bio_cbse_10_007",
     "difficulty": "standard"
    },
@@ -3431,9 +3924,24 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
     "misconception": "A wrong answer (\"Rhizobium cannot infect cereals because cereals don't have nodules\") is circular reasoning — it confuses the result (no nodules) with the cause (missing molecular dialogue).",
-    "id": "gen_c12_bio_ch10_q13",
+    "id": "gen_c12_bio_ch10_q16",
     "nodeId": "c12_bio_cbse_10_007",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A 10 m³ fixed-dome plant is fed 50 kg fresh cattle dung (20% total solids, 80% volatile solids) daily. Assuming 60% volatile solids destruction and 0.35 m³ CH₄ per kg VS destroyed, calculate the daily methane volume produced. Show steps.",
+    "answer": "Step 1: Total solids = 50 kg × 0.20 = 10 kg TS/day. Step 2: Volatile solids = 10 kg × 0.80 = 8 kg VS/day",
+    "options": [
+     "Treatments: (i) Bt isolate at 3 concentrations (e.g., 10^6, 10^7, 10^8 spores/mL), (ii) commercial Bt formulation (positive control), (iii) water only (negative control)",
+     "(1) Low pH (5.2) inhibits *Rhizobium* survival and nod gene expression — most rhizobia prefer pH 6",
+     "Step 1: Total solids = 50 kg × 0.20 = 10 kg TS/day. Step 2: Volatile solids = 10 kg × 0.80 = 8 kg VS/day"
+    ],
+    "hint": "Straight from the 'Gobar gas production' slide -- match the key terms.",
+    "misconception": "A student who uses fresh dung mass directly or forgets the volatile solids fraction shows inability to translate feedstock composition into gas yield — a common NEET numerical trap.",
+    "id": "gen_c12_bio_ch10_q17",
+    "nodeId": "c12_bio_cbse_10_008",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -3446,22 +3954,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gobar gas production' slide -- match the key terms.",
     "misconception": "A student who says \"nitrogen is a nutrient so it helps\" confuses nutritional requirement with toxicity threshold; competitive exams test this exact trap.",
-    "id": "gen_c12_bio_ch10_q14",
-    "nodeId": "c12_bio_cbse_10_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the microbial ecology of a gobar gas digester with the bovine rumen. Identify two similarities and two differences in microbial consortia and process conditions.",
-    "answer": "Similarities: (1) Both host hydrolytic, acidogenic, acetogenic, and methanogenic guilds in syntrophy",
-    "options": [
-     "Penicillin inhibits transpeptidase (penicillin-binding proteins) blocking peptidoglycan cross-linking → cell lysis (bactericidal, mainly Gram-positive)",
-     "Swiss cheese: *Propionibacterium freudenreichii* subsp. *shermanii* ferments lactate (from prior lactic acid fermentation) to propionic acid, acetic acid, and CO₂",
-     "Similarities: (1) Both host hydrolytic, acidogenic, acetogenic, and methanogenic guilds in syntrophy"
-    ],
-    "hint": "Straight from the 'Gobar gas production' slide -- match the key terms.",
-    "misconception": "A student who only lists \"both make methane\" misses the syntrophic guild structure and engineering implications for digester design.",
-    "id": "gen_c12_bio_ch10_q15",
+    "id": "gen_c12_bio_ch10_q18",
     "nodeId": "c12_bio_cbse_10_008",
     "difficulty": "advanced"
    }
@@ -4196,17 +4689,17 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Design a simple experiment to verify that a plasmid vector has successfully incorporated a foreign DNA insert using blue-white screening.",
-    "answer": "Transform competent E. coli with ligation mixture, plate on LB+ampicillin+X-gal+IPTG. Blue colonies = empty vector (functional lacZα)",
+    "question": "What is the correct sequential order of steps in recombinant DNA technology starting from the source organism?",
+    "answer": "Correct order: (1) Isolation of DNA from source organism → (2) Fragmentation using restriction endonucleases → (3) Isolation of desired gene fragment (gel electrophoresis) → (4)",
     "options": [
-     "Host: *E. coli* DH10B (recombination-deficient, good for large inserts). Competence: electroporation (high efficiency for 12 kb)",
-     "Good answer: (1) Choose vector with T7/lac promoter, lacZ α-fragment (for blue-white screening), and ampicillin resistance",
-     "Transform competent E. coli with ligation mixture, plate on LB+ampicillin+X-gal+IPTG. Blue colonies = empty vector (functional lacZα)"
+     "The four essential parameters are temperature, pH, dissolved oxygen (DO), and foam level",
+     "Type II restriction enzymes are most widely used in rDNA technology. Their defining characteristic: they cleave DNA *at* or *very close to* their specific recognition sequence",
+     "Correct order: (1) Isolation of DNA from source organism → (2) Fragmentation using restriction endonucleases → (3) Isolation of desired gene fragment (gel electrophoresis) → (4)"
     ],
-    "hint": "Straight from the 'vector' slide -- match the key terms.",
-    "misconception": "A poor answer omits controls or misinterprets color.",
+    "hint": "Straight from the 'Recombinant DNA Technology' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., ligation before fragmentation, or transformation before ligation) reveals the student does not understand the dependency chain: you cannot ligate uncut DNA, and you cannot transform a vector that hasn't been constructed.",
     "id": "gen_c12_bio_ch11_q18",
-    "nodeId": "c12_bio_cbse_11_004",
+    "nodeId": "c12_bio_cbse_11_003",
     "difficulty": "standard"
    }
   ],
@@ -4694,6 +5187,36 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a monitoring strategy for a patient 6 months post-gene therapy to confirm sustained engraftment of corrected HSCs and detect early insertional oncogenesis.",
+    "answer": "Quarterly: (1) qPCR for vector copy number in sorted CD34+ cells; (2) TREC assay for thymic output; (3) integration site analysis (LM-PCR/NGS) to track clonal expansion",
+    "options": [
+     "Key vector elements: (1) Yeast replication origin (ARS) and selection marker (e.g., *URA3*); (2) Strong inducible promoter (e",
+     "SCID gene therapy (c12_bio_cbse_12_003) targets somatic cells (patient's T-cells) — changes are not heritable, affect only the individual",
+     "Quarterly: (1) qPCR for vector copy number in sorted CD34+ cells; (2) TREC assay for thymic output; (3) integration site analysis (LM-PCR/NGS) to track clonal expansion"
+    ],
+    "hint": "Straight from the 'Gene therapy for SCID' slide -- match the key terms.",
+    "misconception": "A poor answer omits integration site analysis — the only direct assay for insertional mutagenesis risk.",
+    "id": "gen_c12_bio_ch12_q11",
+    "nodeId": "c12_bio_cbse_12_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simplified experimental workflow to produce human insulin in *Saccharomyces cerevisiae* (yeast) using a proinsulin expression strategy. List the key genetic elements needed in the expression vector and the post-fermentation processing steps.",
+    "answer": "Key vector elements: (1) Yeast replication origin (ARS) and selection marker (e.g., *URA3*); (2) Strong inducible promoter (e",
+    "options": [
+     "AAV remains episomal and is diluted in dividing HSCs — unsuitable for a disease requiring lifelong correction in a self-renewing compartment",
+     "ELISA detects antibodies against HIV (host immune response), not the virus itself. The window period is the time between infection and detectable antibody production",
+     "Key vector elements: (1) Yeast replication origin (ARS) and selection marker (e.g., *URA3*); (2) Strong inducible promoter (e"
+    ],
+    "hint": "Straight from the 'Insulin production using' slide -- match the key terms.",
+    "misconception": "A poor answer omits the secretion signal (leading to cytoplasmic inclusion bodies) or suggests chemical cleavage of C-peptide (which is enzymatic in eukaryotes).",
+    "id": "gen_c12_bio_ch12_q12",
+    "nodeId": "c12_bio_cbse_12_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A lab uses SYBR Green qPCR for Chikungunya detection but gets amplification in no-template controls (NTC). Evaluate three possible causes and the best corrective action.",
     "answer": "Causes: (1) Primer-dimer formation (SYBR Green binds any dsDNA), (2) Contamination from amplicon carryover, (3) Non-specific priming",
     "options": [
@@ -4703,7 +5226,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"increase annealing temperature only\") treats symptom not root cause; probe-based chemistry is the standard diagnostic fix — tests evaluative reasoning.",
-    "id": "gen_c12_bio_ch12_q11",
+    "id": "gen_c12_bio_ch12_q13",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -4718,7 +5241,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"ELISA detects viral RNA\") reveals confusion between antibody-based (ELISA) and nucleic acid-based (PCR) detection targets.",
-    "id": "gen_c12_bio_ch12_q12",
+    "id": "gen_c12_bio_ch12_q14",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -4733,7 +5256,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"NS1 mutates\") ignores the antibody-mediated interference specific to secondary heterologous infections — a known competitive exam trap in immunology.",
-    "id": "gen_c12_bio_ch12_q13",
+    "id": "gen_c12_bio_ch12_q15",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -4748,7 +5271,22 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"both are equally quantitative\") misses that conventional PCR plateaus variably, losing quantification accuracy — a board exam distinction.",
-    "id": "gen_c12_bio_ch12_q14",
+    "id": "gen_c12_bio_ch12_q16",
+    "nodeId": "c12_bio_cbse_12_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a diagnostic algorithm using both ELISA and PCR for a suspected acute hepatitis B outbreak in a rural Maharashtra village. Justify the sequence and interpretation criteria.",
+    "answer": "Algorithm: Step 1: HBsAg ELISA (screening — cheap, high throughput). Step 2: If HBsAg+, do HBV DNA qPCR (quantify viral load, confirm active replication)",
+    "options": [
+     "The transgenic rice will likely show severe growth defects or lethality because the 85% sequence identity is sufficient for the plant's own RNAi machinery to recognize the",
+     "ELISA detects antibodies against HIV (host immune response), not the virus itself. The window period is the time between infection and detectable antibody production",
+     "Algorithm: Step 1: HBsAg ELISA (screening — cheap, high throughput). Step 2: If HBsAg+, do HBV DNA qPCR (quantify viral load, confirm active replication)"
+    ],
+    "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Algorithm: Step 1: HBsAg ELISA (screening — cheap, high throughput).",
+    "id": "gen_c12_bio_ch12_q17",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -4763,54 +5301,9 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"Taq polymerase can use RNA\") reveals misunderstanding of polymerase substrate specificity — a classic NEET trap.",
-    "id": "gen_c12_bio_ch12_q15",
+    "id": "gen_c12_bio_ch12_q18",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the Oncomouse (Harvard mouse carrying a human oncogene) and transgenic mice expressing the human poliovirus receptor (CD155) used for oral polio vaccine (OPV) testing. What is the common experimental principle, and how do the *read‑outs* differ?",
-    "answer": "Common principle: Both use transgenic mice as in vivo models of human molecular pathology — the introduced human gene recreates a human‑specific molecular interaction (oncogenic",
-    "options": [
-     "Biopiracy: Corporations patent products/processes based on indigenous knowledge (e.g., neem fungicide, turmeric wound healing) without benefit-sharing",
-     "cryIAc encodes a Cry1Ac protein toxic primarily to *Helicoverpa armigera* (American bollworm). cryIIAb encodes Cry2Ab",
-     "Common principle: Both use transgenic mice as in vivo models of human molecular pathology — the introduced human gene recreates a human‑specific molecular interaction (oncogenic"
-    ],
-    "hint": "Straight from the 'Transgenic animals' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: Student thinks both are for \"drug production\" or says the read‑out is \"protein yield\" in both cases.",
-    "id": "gen_c12_bio_ch12_q16",
-    "nodeId": "c12_bio_cbse_12_006",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student argues: \"Bt cotton is unethical because it contains a bacterial toxin gene, so it is fundamentally unnatural and should be banned.\" Explain why this argument confuses intrinsic ethical concerns with extrinsic risk assessment, and identify which Indian committee evaluates the environmental risk of such crops",
-    "answer": "The argument confuses intrinsic ethical objection (\"playing God,\" unnaturalness) with extrinsic risk assessment (measurable harm to non-target organisms, gene flow",
-    "options": [
-     "The transgenic rice will likely show severe growth defects or lethality because the 85% sequence identity is sufficient for the plant's own RNAi machinery to recognize the",
-     "AAV remains episomal and is diluted in dividing HSCs — unsuitable for a disease requiring lifelong correction in a self-renewing compartment",
-     "The argument confuses intrinsic ethical objection (\"playing God,\" unnaturalness) with extrinsic risk assessment (measurable harm to non-target organisms, gene flow"
-    ],
-    "hint": "Straight from the 'Ethical issues in biotechnology' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees with the student or cites only IBSC shows failure to distinguish philosophical objections from regulatory science and ignorance of the multi-tiered Indian biosafety hierarchy (IBSC → RCGM → GEAC).",
-    "id": "gen_c12_bio_ch12_q17",
-    "nodeId": "c12_bio_cbse_12_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the ethical issue of \"biopiracy\" (e.g., patenting of neem or turmeric by foreign firms) with the issue of \"terminator technology\" (GURT - Genetic Use Restriction Technology) in GM seeds. How do both exploit farmers' traditional knowledge and economic vulnerability, and which Indian law addresses biopiracy?",
-    "answer": "Biopiracy: Corporations patent products/processes based on indigenous knowledge (e.g., neem fungicide, turmeric wound healing) without benefit-sharing",
-    "options": [
-     "Conventional PCR is endpoint detection (qualitative/semi-quantitative via gel band intensity) with lower sensitivity (~10³ copies/mL)",
-     "Common principle: Both use transgenic mice as in vivo models of human molecular pathology — the introduced human gene recreates a human‑specific molecular interaction (oncogenic",
-     "Biopiracy: Corporations patent products/processes based on indigenous knowledge (e.g., neem fungicide, turmeric wound healing) without benefit-sharing"
-    ],
-    "hint": "Straight from the 'Ethical issues in biotechnology' slide -- match the key terms.",
-    "misconception": "A wrong answer that conflates them or cites the Patents Act 1970 (amended 2005) for biopiracy instead of the Biodiversity Act 2002 shows gaps in legal framework knowledge.",
-    "id": "gen_c12_bio_ch12_q18",
-    "nodeId": "c12_bio_cbse_12_007",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -5330,6 +5823,21 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple field observation to test whether the \"sunken stomata\" trait in a local xerophytic shrub (e.g., *Calotropis procera*) is a morphological adaptation reducing transpiration. Specify: (i) what you measure, (ii) control, (iii) expected outcome if adaptive.",
+    "answer": "(i) Transpiration rate (e.g., cobalt chloride paper color change time or potometer) on leaves with intact sunken stomata vs",
+    "options": [
+     "Density = total individuals counted / total area sampled = 150 / (20 × 1 m²) = 7.5 individuals/m². Since 1 hectare = 10,000 m², density per hectare = 7",
+     "Yes, the calculation is correct: N = (M × C) / R = (80 × 60) / 12 = 400 frogs. However, the estimate assumes: (1) marked and unmarked frogs mix randomly in the population",
+     "(i) Transpiration rate (e.g., cobalt chloride paper color change time or potometer) on leaves with intact sunken stomata vs"
+    ],
+    "hint": "Straight from the 'adaptation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (i) Transpiration rate (e.g., cobalt chloride paper color change time or potometer) on leaves with intact sunken",
+    "id": "gen_c12_bio_ch13_q12",
+    "nodeId": "c12_bio_cbse_13_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate this statement: \"The thick fur of a polar bear is an adaptation for cold; therefore, a polar bear moved to a zoo in Chennai will shed its fur and develop thinner fur as an adaptation to heat.\" Identify the error and correct it.",
     "answer": "Error: confuses adaptation (genetic, population-level, generational) with acclimatization (individual, reversible)",
     "options": [
@@ -5339,7 +5847,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'adaptation' slide -- match the key terms.",
     "misconception": "A student who agrees reveals the \"need-based evolution\" misconception.",
-    "id": "gen_c12_bio_ch13_q12",
+    "id": "gen_c12_bio_ch13_q13",
     "nodeId": "c12_bio_cbse_13_003",
     "difficulty": "standard"
    },
@@ -5354,7 +5862,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'adaptation' slide -- match the key terms.",
     "misconception": "A student who labels (a) as \"morphological\" confuses the *source* of water (seeds are structural, but the metabolic pathway is physiological).",
-    "id": "gen_c12_bio_ch13_q13",
+    "id": "gen_c12_bio_ch13_q14",
     "nodeId": "c12_bio_cbse_13_003",
     "difficulty": "standard"
    },
@@ -5369,7 +5877,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
     "misconception": "A student who chooses crude rates because \"they are simpler\" reveals they don't understand that crude rates conflate demographic structure with vital rates — a conceptual gap for competitive exams.",
-    "id": "gen_c12_bio_ch13_q14",
+    "id": "gen_c12_bio_ch13_q15",
     "nodeId": "c12_bio_cbse_13_004",
     "difficulty": "standard"
    },
@@ -5384,7 +5892,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., forgetting to convert m² to hectares, or multiplying by 20 instead of dividing) reveals the student cannot handle unit conversions or misunderstands that quadrat sampling estimates density from a sample, not the whole area.",
-    "id": "gen_c12_bio_ch13_q15",
+    "id": "gen_c12_bio_ch13_q16",
     "nodeId": "c12_bio_cbse_13_004",
     "difficulty": "standard"
    },
@@ -5399,7 +5907,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
     "misconception": "A student who says \"the calculation is wrong\" or ignores migration reveals they think crude rates capture all population change, missing that they only reflect births and deaths — a key distinction for board case-study questions.",
-    "id": "gen_c12_bio_ch13_q16",
+    "id": "gen_c12_bio_ch13_q17",
     "nodeId": "c12_bio_cbse_13_004",
     "difficulty": "standard"
    },
@@ -5414,21 +5922,6 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
     "misconception": "A student who swaps the methods reveals they don't link method choice to organism mobility and distribution pattern — a frequent board exam error.",
-    "id": "gen_c12_bio_ch13_q17",
-    "nodeId": "c12_bio_cbse_13_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a field protocol to estimate the population density of Indian bullfrogs (Hoplobatrachus tigerinus) in a 2-hectare seasonal wetland during monsoon. Specify: (i) method choice with justification, (ii) sampling design (number/size of units), (iii) how you will handle the \"closed population\" assumption, (iv) one",
-    "answer": "(i) Mark-recapture using toe-clipping or PIT tags — frogs are mobile, nocturnal, and hide in vegetation, making quadrats unreliable",
-    "options": [
-     "Collect: (1) clutch size per nest, (2) number of broods per season, (3) age at first breeding (band nestlings), (4) parental care duration (feeding visits/hour)",
-     "(a) Independent: time (weeks); Dependent: population count N(t). (b) Fit N(t) = N₀e^(rt) for exponential",
-     "(i) Mark-recapture using toe-clipping or PIT tags — frogs are mobile, nocturnal, and hide in vegetation, making quadrats unreliable"
-    ],
-    "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
-    "misconception": "A poor answer that suggests quadrat sampling for frogs or ignores the closed-population assumption reveals the student cannot match method to organism ecology — a skill tested in NEET practical-based questions.",
     "id": "gen_c12_bio_ch13_q18",
     "nodeId": "c12_bio_cbse_13_004",
     "difficulty": "standard"

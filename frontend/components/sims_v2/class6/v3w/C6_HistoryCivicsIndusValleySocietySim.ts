@@ -10,7 +10,7 @@ export const w_c6_historycivicsindusvalleysocietysim: SimDef = {
     subtitle: 'This node covers the discovery and the geographical extent of the Harappan Civilisation.',
     classLevel: 6, subject: 'history', topic: 'The Harappan Civilisation: Discovery and Extent',
     chapters: [],
-    nodeIds: ['c6_history_ch04_002', 'c6_history_ch04_001', 'c6_history_ch04_003'],
+    nodeIds: ['c6_history_ch04_004', 'c6_history_ch04_001', 'c6_history_ch04_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'If you were exploring a dusty site in Pakistan and found ancient bricks and city walls, how would you know.', goal: 'Master Indus Valley Society.' },
     discovery: {

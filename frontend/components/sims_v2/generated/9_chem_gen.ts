@@ -1141,6 +1141,21 @@ export const C9_CHEM_GEN: SimDef[] = [
     "id": "gen_c9_chem_ch03_q8",
     "nodeId": "c9_chem_ch3_3",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "State all five postulates of Dalton's Atomic Theory using precise chemical terminology.",
+    "answer": "The five postulates are: (1) All matter consists of indivisible particles called atoms. (2) Atoms of the same element are identical in mass and chemical properties",
+    "options": [
+     "\"Mass is neither created nor destroyed in a chemical reaction; the total mass of reactants equals total mass of products",
+     "\"The sealed retort trapped the oxygen gas produced, keeping all products inside so total mass could be measured",
+     "The five postulates are: (1) All matter consists of indivisible particles called atoms. (2) Atoms of the same element are identical in mass and chemical properties"
+    ],
+    "hint": "Straight from the 'Dalton's Atomic Theory proposes' slide -- match the key terms.",
+    "misconception": "A wrong answer revealing confusion between postulates 2 and 4 indicates the student doesn't distinguish between atomic identity (intrinsic property) and combining behavior (relational property). Missing postulate 3 suggests the student hasn't connected the theory to the Law of Conservation of Mass (c9_chem_ch3_1).",
+    "id": "gen_c9_chem_ch03_q9",
+    "nodeId": "c9_chem_ch3_3",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -1150,6 +1165,7 @@ export const C9_CHEM_GEN: SimDef[] = [
    ]
   },
   "successLine": "Law Of Conservation Of Mass mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  }
 ];

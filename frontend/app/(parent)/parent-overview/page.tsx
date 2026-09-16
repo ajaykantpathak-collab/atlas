@@ -171,30 +171,28 @@ const translations: Record<Language, Record<string, any>> = {
   },
 };
 
-// ─── Mock Data ───────────────────────────────────────────────────
+// ─── Fallback demo data (shown only when the API is unreachable) ─
 
-const subjectMastery: SubjectMastery[] = [
+const DEMO_SUBJECT_MASTERY: SubjectMastery[] = [
   { subject: 'maths', name: 'Mathematics', percentage: 73 },
   { subject: 'physics', name: 'Physics', percentage: 45 },
   { subject: 'chemistry', name: 'Chemistry', percentage: 62 },
 ];
 
-const weeklyHomework: HomeworkItem[] = [
+const DEMO_HOMEWORK: HomeworkItem[] = [
   { subject: 'maths', title: 'Algebra Practice Set', status: 'completed', date: 'Mon', score: '8/10' },
   { subject: 'physics', title: 'Laws of Motion Worksheet', status: 'completed', date: 'Tue' },
   { subject: 'chemistry', title: 'Chemical Reactions Quiz', status: 'completed', date: 'Wed' },
-  { subject: 'maths', title: 'Geometry Problems', status: 'pending', date: 'Thu' },
-  { subject: 'physics', title: 'Force & Pressure Lab', status: 'overdue', date: 'Mon' },
 ];
 
-const recentActivities: ActivityItem[] = [
-  { id: '1', description: 'Solved 15 problems in Mathematics', time: '2 hours ago', icon: '✅', type: 'solved' },
-  { id: '2', description: 'Asked tutor 3 doubts in Physics', time: '5 hours ago', icon: '💬', type: 'question' },
-  { id: '3', description: 'Submitted Chemistry homework', time: 'Yesterday', icon: '📝', type: 'homework' },
-  { id: '4', description: 'Completed Maths practice set', time: 'Yesterday', icon: '📝', type: 'homework' },
-  { id: '5', description: 'Scored 85% in Physics quiz', time: '2 days ago', icon: '🏆', type: 'solved' },
-  { id: '6', description: 'Upcoming: Maths exam on March 15', time: '3 days away', icon: '📅', type: 'exam' },
+const DEMO_ACTIVITIES: ActivityItem[] = [
+  { id: '1', description: 'Solved problems in Mathematics', time: 'recently', icon: '✅', type: 'solved' },
 ];
+
+const SUBJECT_KEYS: Record<string, Subject> = {
+  mathematics: 'maths', maths: 'maths', math: 'maths',
+  physics: 'physics', chemistry: 'chemistry',
+};
 
 const WHATSAPP_NUMBER = '919876543210';
 
@@ -502,11 +500,108 @@ function getInitialLanguage(): Language {
 
 // ─── Main Page ────────────────────────────────────────────────────
 
+// ─── Live data wiring ─────────────────────────────────────────────
+
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001';
+
+function authHeaders(): Record<string, string> {
+  if (typeof window === 'undefined') return {};
+  const token = localStorage.getItem('token') || localStorage.getItem('auth_token');
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
+
+/** Get the logged-in parent's id from the persisted student-store. */
+function getParentId(): string | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const raw = localStorage.getItem('student-storage');
+    if (!raw) return null;
+    return JSON.parse(raw)?.state?.profile?.id || null;
+  } catch {
+    return null;
+  }
+}
+
+function subjectKey(name: string): Subject {
+  return SUBJECT_KEYS[(name || '').toLowerCase()] || 'maths';
+}
+
+interface LiveData {
+  childName: string | null;
+  childGrade: string | null;
+  streak: number;
+  mastery: SubjectMastery[];
+  homework: HomeworkItem[];
+  activities: ActivityItem[];
+}
+
+const EMPTY_LIVE: LiveData = {
+  childName: null, childGrade: null, streak: 0,
+  mastery: [], homework: [], activities: [],
+};
+
+async function loadLiveData(parentId: string): Promise<LiveData> {
+  const headers = authHeaders();
+  const out: LiveData = { ...EMPTY_LIVE };
+
+  const pd: any = await fetch(`${API_BASE}/api/dashboard/parent/${parentId}`, { headers })
+    .then(r => (r.ok ? r.json() : null)).catch(() => null);
+  const child = pd?.children?.[0];
+  if (!child) return out;
+
+  out.childName = child.student_name;
+  out.childGrade = child.grade;
+  out.streak = child.current_streak ?? 0;
+
+  // Per-subject mastery from the child's student dashboard
+  const sd: any = await fetch(`${API_BASE}/api/dashboard/student/${child.student_id}`, { headers })
+    .then(r => (r.ok ? r.json() : null)).catch(() => null);
+  if (sd?.mastery_by_topic?.length) {
+    const agg: Record<string, { sum: number; n: number; name: string }> = {};
+    for (const t of sd.mastery_by_topic) {
+      const k = subjectKey(t.subject_name || '');
+      agg[k] = agg[k] || { sum: 0, n: 0, name: t.subject_name };
+      agg[k].sum += t.mastery_score ?? 0;
+      agg[k].n += 1;
+    }
+    out.mastery = Object.entries(agg).map(([k, v]) => ({
+      subject: k as Subject, name: v.name, percentage: Math.round(v.sum / v.n),
+    }));
+  }
+
+  // Homework list
+  const hw: any = await fetch(`${API_BASE}/api/homework/student/${child.student_id}`, { headers })
+    .then(r => (r.ok ? r.json() : [])).catch(() => []);
+  out.homework = (Array.isArray(hw) ? hw : hw?.items || []).map((h: any) => ({
+    subject: subjectKey(h.subject),
+    title: h.title,
+    status: h.status === 'submitted' || h.status === 'graded' ? 'completed'
+      : h.status === 'late' ? 'overdue' : 'pending',
+    date: h.due_date ? new Date(h.due_date).toLocaleDateString('en-IN', { weekday: 'short' }) : '',
+    score: h.score != null && h.total_marks ? `${h.score}/${h.total_marks}` : undefined,
+  }));
+
+  // Parent insights → activity feed
+  out.activities = (pd?.insights || []).slice(0, 6).map((ins: any, i: number) => ({
+    id: String(i),
+    description: `${ins.title}: ${ins.detail}`,
+    time: ins.trend || '',
+    icon: ins.trend === 'improving' ? '📈' : ins.trend === 'declining' ? '📉' : 'ℹ️',
+    type: 'question' as const,
+  }));
+
+  return out;
+}
+
 export default function ParentDashboard() {
   const [lang, setLang] = useState<Language>(getInitialLanguage);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [live, setLive] = useState<LiveData>(EMPTY_LIVE);
 
   const t = translations[lang];
+  const subjectMastery = live.mastery.length ? live.mastery : DEMO_SUBJECT_MASTERY;
+  const weeklyHomework = live.homework.length ? live.homework : DEMO_HOMEWORK;
+  const recentActivities = live.activities.length ? live.activities : DEMO_ACTIVITIES;
 
   useEffect(() => {
     localStorage.setItem(LANG_STORAGE_KEY, lang);
@@ -515,6 +610,14 @@ export default function ParentDashboard() {
   useEffect(() => {
     const timer = setTimeout(() => setIsLoaded(true), 100);
     return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    const pid = getParentId();
+    if (!pid) return;
+    let cancelled = false;
+    loadLiveData(pid).then(d => { if (!cancelled) setLive(d); });
+    return () => { cancelled = true; };
   }, []);
 
   return (
@@ -575,8 +678,8 @@ export default function ParentDashboard() {
                       👦
                     </motion.div>
                     <div className="flex-1 min-w-0">
-                      <h2 className="text-xl sm:text-2xl font-bold">{t.childName}</h2>
-                      <p className="text-white/80 text-sm sm:text-base font-medium mt-0.5">{t.childClass} · {t.schoolName}</p>
+                      <h2 className="text-xl sm:text-2xl font-bold">{live.childName || t.childName}</h2>
+                      <p className="text-white/80 text-sm sm:text-base font-medium mt-0.5">{live.childGrade ? `Class ${live.childGrade}` : t.childClass} · {t.schoolName}</p>
                       <div className="flex items-center gap-1.5 mt-2">
                         <span className="w-2 h-2 bg-green-300 rounded-full animate-pulse" aria-hidden="true" />
                         <span className="text-xs sm:text-sm text-white/90 font-medium">Online · Learning now</span>
@@ -630,7 +733,7 @@ export default function ParentDashboard() {
                       <p className="text-sm sm:text-base font-bold text-gray-800">{t.streak}</p>
                       <p className="text-xs sm:text-sm text-orange-500 font-medium">{t.streakMessage}</p>
                     </div>
-                    <StreakFlame days={7} lang={lang} />
+                    <StreakFlame days={live.streak || 7} lang={lang} />
                   </div>
                 </div>
               </motion.section>

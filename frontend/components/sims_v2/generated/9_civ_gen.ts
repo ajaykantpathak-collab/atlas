@@ -652,6 +652,21 @@ export const C9_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a 3-step \"Voter Verification Protocol\" that a Class 9 student can use when they receive a sensational political claim on social media 48 hours before polling. Each step must use only tools accessible to a student (no specialized software).",
+    "answer": "Step 1: Source Trace — Ask \"Who posted this originally?\" Check if the account is verified, official (ECI, PIB, party handle), or anonymous",
+    "options": [
+     "A good proposal would: (1) Require all political advertisements on social media to be pre-certified by the EC's Media Certification and Monitoring Committee (MCMC)",
+     "(a) Yes, under MCC guidelines and Section 126 of RP Act (prohibiting election matter during silence period), the RO can direct social media platforms to remove the video",
+     "Step 1: Source Trace — Ask \"Who posted this originally?\" Check if the account is verified, official (ECI, PIB, party handle), or anonymous"
+    ],
+    "hint": "Straight from the 'Misinformation in elections' slide -- match the key terms.",
+    "misconception": "A poor answer suggesting \"ask parents\" or \"trust the forward count\" reveals reliance on authority/heuristics instead of critical verification habits.",
+    "id": "gen_c9_civ_ch02_q11",
+    "nodeId": "c9_civ_ch2_11",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the Election Commission's \"Voluntary Code of Ethics\" for social media platforms (2019) as a response to election misinformation. Is voluntary self-regulation sufficient? Argue using the concept of \"level playing field.\"",
     "answer": "Voluntary codes are insufficient because they lack enforcement teeth, create inconsistent compliance across platforms",
     "options": [
@@ -661,7 +676,7 @@ export const C9_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Misinformation in elections' slide -- match the key terms.",
     "misconception": "A wrong answer praising the code as \"good first step\" without critiquing its structural weakness shows inability to evaluate institutional design against democratic standards.",
-    "id": "gen_c9_civ_ch02_q11",
+    "id": "gen_c9_civ_ch02_q12",
     "nodeId": "c9_civ_ch2_11",
     "difficulty": "advanced"
    },
@@ -676,7 +691,22 @@ export const C9_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Election Commission of India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"no violation since approved earlier\") shows misunderstanding that MCC regulates electoral fairness during the campaign period, not policy legality. ECI's power here derives from Article 324's \"superintendence, direction, and control\" — a broad constitutional mandate, not a specific statute.",
-    "id": "gen_c9_civ_ch02_q12",
+    "id": "gen_c9_civ_ch02_q13",
+    "nodeId": "c9_civ_ch2_2",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the argument: \"Since the Executive appoints Election Commissioners, ECI can never be truly independent. The collegium system (PM + LoP + CJI) for appointments, mandated by the 2023 Supreme Court judgment, solves this.\" Is this evaluation sound?",
+    "answer": "The argument is partially sound but incomplete. The collegium (PM, Leader of Opposition, CJI) for CEC/EC appointments (Anoop Baranwal v",
+    "options": [
+     "Braille signage (numbers 1-16 on ballot unit, candidate names on VVPAT) enables visually impaired voters to identify and verify their vote independently",
+     "Voluntary codes are insufficient because they lack enforcement teeth, create inconsistent compliance across platforms",
+     "The argument is partially sound but incomplete. The collegium (PM, Leader of Opposition, CJI) for CEC/EC appointments (Anoop Baranwal v"
+    ],
+    "hint": "Straight from the 'Election Commission of India' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The argument is partially sound but incomplete. The collegium (PM, Leader of Opposition, CJI) for CEC/EC appointments",
+    "id": "gen_c9_civ_ch02_q14",
     "nodeId": "c9_civ_ch2_2",
     "difficulty": "advanced"
    },
@@ -691,8 +721,38 @@ export const C9_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'electoral roll' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"BLO decides objections\") confuses administrative hierarchy with legal power, risking misunderstanding of accountability.",
-    "id": "gen_c9_civ_ch02_q13",
+    "id": "gen_c9_civ_ch02_q15",
     "nodeId": "c9_civ_ch2_3",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Draft a simplified election schedule for a hypothetical school student council election (single phase) that mirrors the statutory stages of a real Indian election, labeling each stage with its purpose and approximate duration.",
+    "answer": "A good answer includes: (1) Announcement by principal (ECI equivalent) → MCC starts; (2) Notification (returning officer issues notice) → 2 days; (3) Nomination filing → 3 days",
+    "options": [
+     "Yes, it was constitutionally correct. The Sarkaria Commission (1988) recommended the Governor invite the \"single largest party or pre-poll alliance\" first to attempt government",
+     "(a) Yes, under MCC guidelines and Section 126 of RP Act (prohibiting election matter during silence period), the RO can direct social media platforms to remove the video",
+     "A good answer includes: (1) Announcement by principal (ECI equivalent) → MCC starts; (2) Notification (returning officer issues notice) → 2 days; (3) Nomination filing → 3 days"
+    ],
+    "hint": "Straight from the 'election schedule' slide -- match the key terms.",
+    "misconception": "A poor answer omits scrutiny/withdrawal or merges stages, showing lack of understanding of the mandatory legal sequence.",
+    "id": "gen_c9_civ_ch02_q16",
+    "nodeId": "c9_civ_ch2_4",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare the symbol allotment for three categories: (i) a recognised National Party, (ii) a recognised State Party contesting outside its recognised State, and (iii) a registered but unrecognised party. How does this difference impact a voter with low literacy?",
+    "answer": "(i) National Party → same reserved symbol (e.g., Lotus) in every constituency nationwide. (ii) State Party outside its State → free symbol from the pool",
+    "options": [
+     "The ERO (usually the SDM/Tehsildar) is the *statutory authority* appointed under Section 13B of RPA 1950",
+     "The Saksham App (launched 2024) is specifically designed for PwD voters with features like text-to-speech, sign language videos, and high-contrast UI",
+     "(i) National Party → same reserved symbol (e.g., Lotus) in every constituency nationwide. (ii) State Party outside its State → free symbol from the pool"
+    ],
+    "hint": "Straight from the 'Party symbols' slide -- match the key terms.",
+    "misconception": "A wrong answer that says “State Party keeps its symbol everywhere” confuses the jurisdictional limit of reserved symbols.",
+    "id": "gen_c9_civ_ch02_q17",
+    "nodeId": "c9_civ_ch2_6",
     "difficulty": "advanced"
    },
    {
@@ -706,68 +766,8 @@ export const C9_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Free and fair elections refer to' slide -- match the key terms.",
     "misconception": "A wrong answer that claims ballot papers are more secret because they are 'physical' reveals a lack of understanding of how booth capturing and forced display of ballot papers historically undermined secrecy.",
-    "id": "gen_c9_civ_ch02_q14",
-    "nodeId": "c9_civ_ch2_7",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the effectiveness of the 'None of the Above' (NOTA) option as a safeguard for free and fair elections. Does it enhance voter freedom or merely serve as a symbolic protest?",
-    "answer": "NOTA enhances voter freedom by allowing a voter to register dissent without abstaining, which protects the right to secrecy (the voter need not reveal why they rejected all",
-    "options": [
-     "Voluntary codes are insufficient because they lack enforcement teeth, create inconsistent compliance across platforms",
-     "The argument is partially sound but incomplete. The collegium (PM, Leader of Opposition, CJI) for CEC/EC appointments (Anoop Baranwal v",
-     "NOTA enhances voter freedom by allowing a voter to register dissent without abstaining, which protects the right to secrecy (the voter need not reveal why they rejected all"
-    ],
-    "hint": "Straight from the 'Free and fair elections refer to' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"NOTA forces a re-election\" reveals a factual error; one that says \"it is useless\" ignores its value as a democratic feedback mechanism.",
-    "id": "gen_c9_civ_ch02_q15",
-    "nodeId": "c9_civ_ch2_7",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "In a state assembly election, the ruling party's chief minister announces a new welfare scheme and distributes cash benefits two days before polling. Which specific condition of free and fair elections is violated, and which safeguard can the Election Commission invoke to stop this?",
-    "answer": "The condition violated is the 'level playing field' — the ruling party is misusing state resources and administrative machinery for electoral gain",
-    "options": [
-     "The BLO in Delhi should initiate deletion using Form 7 (objection to inclusion) after verification, while the Mumbai application (Form 6) proceeds",
-     "A strong proposal would cite Article 29 of UNCRPD (participation in political life) and Section 11 of RPwD Act (accessibility in voting)",
-     "The condition violated is the 'level playing field' — the ruling party is misusing state resources and administrative machinery for electoral gain"
-    ],
-    "hint": "Straight from the 'Free and fair elections refer to' slide -- match the key terms.",
-    "misconception": "A wrong answer that focuses only on 'bribery' under Section 123 of the Representation of the People Act misses the broader structural violation of the level playing field and the EC's preventive role via the MCC.",
-    "id": "gen_c9_civ_ch02_q16",
-    "nodeId": "c9_civ_ch2_7",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the accessibility features of the NVSP portal, Voter Helpline 1950, and Saksham App. Which service specifically addresses the information gap for a first-time voter with hearing impairment, and why?",
-    "answer": "The Saksham App (launched 2024) is specifically designed for PwD voters with features like text-to-speech, sign language videos, and high-contrast UI",
-    "options": [
-     "(i) National Party → same reserved symbol (e.g., Lotus) in every constituency nationwide. (ii) State Party outside its State → free symbol from the pool",
-     "The EVM-VVPAT system provides a stronger guarantee against voter intimidation because the voter's choice is recorded electronically inside a sealed machine",
-     "The Saksham App (launched 2024) is specifically designed for PwD voters with features like text-to-speech, sign language videos, and high-contrast UI"
-    ],
-    "hint": "Straight from the 'Accessibility in elections' slide -- match the key terms.",
-    "misconception": "A wrong answer selecting NVSP or Helpline shows the student cannot differentiate between general voter services and targeted accessibility solutions, missing the 'universal design' vs 'reasonable accommodation' distinction.",
-    "id": "gen_c9_civ_ch02_q17",
-    "nodeId": "c9_civ_ch2_8",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Draft a one-paragraph proposal for an additional accessibility measure the ECI should implement for voters with intellectual disabilities, referencing the UNCRPD (ratified by India in 2007) and the RPwD Act, 2016.",
-    "answer": "A strong proposal would cite Article 29 of UNCRPD (participation in political life) and Section 11 of RPwD Act (accessibility in voting)",
-    "options": [
-     "The BLO in Delhi should initiate deletion using Form 7 (objection to inclusion) after verification, while the Mumbai application (Form 6) proceeds",
-     "The condition violated is the 'level playing field' — the ruling party is misusing state resources and administrative machinery for electoral gain",
-     "A strong proposal would cite Article 29 of UNCRPD (participation in political life) and Section 11 of RPwD Act (accessibility in voting)"
-    ],
-    "hint": "Straight from the 'Accessibility in elections' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A strong proposal would cite Article 29 of UNCRPD (participation in political life) and Section 11 of RPwD Act",
     "id": "gen_c9_civ_ch02_q18",
-    "nodeId": "c9_civ_ch2_8",
+    "nodeId": "c9_civ_ch2_7",
     "difficulty": "advanced"
    }
   ],

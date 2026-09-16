@@ -5421,6 +5421,21 @@ export const C11_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Why did the Renaissance begin in Italy rather than in France or England, despite all three regions having access to Latin classical texts?",
+    "answer": "Italy had a unique combination: (1) surviving urban institutions from Roman times, (2) no strong centralized monarchy to suppress city autonomy",
+    "options": [
+     "Against. Perspective was a *necessary but insufficient* condition. - Patronage: Medici, Sforza, and papal courts competed for *named* artists (Leonardo",
+     "The claim overstates the debate's radicalism. De Pizan *defended* women's virtue using classical exempla but accepted gender hierarchy",
+     "Italy had a unique combination: (1) surviving urban institutions from Roman times, (2) no strong centralized monarchy to suppress city autonomy"
+    ],
+    "hint": "Straight from the 'Italian Renaissance' slide -- match the key terms.",
+    "misconception": "A wrong answer focusing only on \"Italy had Roman ruins\" misses the socioeconomic and political structures that turned access to ruins into a cultural movement.",
+    "id": "gen_c11_hist_ch07_q17",
+    "nodeId": "c11_hist_cbse_07_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A student reads Pico della Mirandola's *Oration on the Dignity of Man* (1486) and claims it proves Renaissance humanism was secular and anti-church. Using the text's context, evaluate this claim.",
     "answer": "The *Oration* argues humans have free will to choose their nature — ascending to the divine or descending to the brute",
     "options": [
@@ -5430,21 +5445,6 @@ export const C11_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Humanism was an intellectual' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The *Oration* argues humans have free will to choose their nature — ascending to the divine or descending to the brute",
-    "id": "gen_c11_hist_ch07_q17",
-    "nodeId": "c11_hist_cbse_07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Assess the argument that the printing press was the *primary* cause of the spread of humanism. Provide two pieces of evidence supporting and two challenging this view.",
-    "answer": "Supporting: (1) Printed editions of classical texts and humanist commentaries reached a wider audience; (2) Erasmus's works sold thousands of copies across Europe",
-    "options": [
-     "The Index targeted Protestant vernacular Bibles, Erasmus, Machiavelli, and later Galileo — works challenging papal authority or Catholic doctrine",
-     "Basel press → Rhine river barge to Strasbourg → Frankfurt Book Fair (wholesale) → Rhine/Meuse river network to Antwerp → retail bookseller",
-     "Supporting: (1) Printed editions of classical texts and humanist commentaries reached a wider audience; (2) Erasmus's works sold thousands of copies across Europe"
-    ],
-    "hint": "Straight from the 'Humanism was an intellectual' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Supporting: (1) Printed editions of classical texts and humanist commentaries reached a wider audience; (2) Erasmus's",
     "id": "gen_c11_hist_ch07_q18",
     "nodeId": "c11_hist_cbse_07_002",
     "difficulty": "standard"

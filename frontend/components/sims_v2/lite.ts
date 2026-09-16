@@ -27,63 +27,40 @@ export const prereqLinks = (nodeId: string): SimMeta[] =>
 export const nextLinks = (nodeId: string): SimMeta[] =>
     (GRAPH[nodeId]?.fwd ?? []).flatMap(simsForNode);
 
-/** lazily load ONLY the class module containing a sim — the page's
- *  module graph stays ~1/7th the size of the full static index. */
-const CLASS_LOADERS: Record<number, () => Promise<{ default?: unknown } & Record<string, unknown>>> = {
-    1: () => import('./class1'), 2: () => import('./class2'),
-    3: () => import('./class3'), 4: () => import('./class4'),
-    5: () => import('./class5'), 6: () => import('./class6'),
-    7: () => import('./class7'), 8: () => import('./class8'),
-    9: () => import('./class9'), 10: () => import('./class10'),
-    11: () => import('./class11'), 12: () => import('./class12'),
-};
+/** SimDefs are emitted as JSON by scripts/emit-sim-json.js (prebuild) —
+ *  served statically from /sims/, fetched one pack at a time at play time.
+ *  This keeps ~80MB of generated data OUT of the webpack module graph;
+ *  only the component code (masters + interactives) is compiled. */
+import SIM_FILE_MAP_JSON from './SIM_FILE_MAP.json';
+const FILE_MAP = SIM_FILE_MAP_JSON as Record<string, string>;
 
-/** per-sim loader maps (generated): each entry is its own webpack chunk,
- *  so playing ONE sim compiles only that sim's module — not the whole
- *  class barrel and not 48 wrapped masters. */
-const V3_LOADER_FILES: Record<number, () => Promise<{ V3_LOADERS: Record<string, () => Promise<Record<string, unknown>>> }>> = {
-    6: () => import('./class6/v3_loaders'), 7: () => import('./class7/v3_loaders'),
-    8: () => import('./class8/v3_loaders'), 9: () => import('./class9/v3_loaders'),
-    10: () => import('./class10/v3_loaders'), 11: () => import('./class11/v3_loaders'),
-    12: () => import('./class12/v3_loaders'),
-};
-const V3W_LOADER_FILES: Record<number, () => Promise<{ V3W_LOADERS: Record<string, () => Promise<Record<string, unknown>>> }>> = {
-    6: () => import('./class6/v3w_loaders'), 7: () => import('./class7/v3w_loaders'),
-    8: () => import('./class8/v3w_loaders'), 9: () => import('./class9/v3w_loaders'),
-    10: () => import('./class10/v3w_loaders'), 11: () => import('./class11/v3w_loaders'),
-    12: () => import('./class12/v3w_loaders'),
+const packs = new Map<string, Promise<Record<string, unknown> | null>>();
+const loadPack = (file: string) => {
+    let p = packs.get(file);
+    if (!p) {
+        p = fetch(`/sims/${file}.json`)
+            .then(r => (r.ok ? r.json() : null))
+            .catch(() => null);
+        packs.set(file, p);
+    }
+    return p;
 };
 
 const pickDef = (mod: Record<string, unknown>, id: string) =>
     Object.values(mod).find(v => v && typeof v === 'object' && (v as { id?: string }).id === id) ?? null;
 
 export async function loadSimDef(id: string) {
-    const meta = IDX[id];
-    const cls = meta?.c ?? +(id.match(/_c(\d+)_/)?.[1] ?? 6);
-    try {
-        const files = id.startsWith('v3w_') ? V3W_LOADER_FILES : id.startsWith('v3_') ? V3_LOADER_FILES : null;
-        const loader = files?.[cls] ? (await files[cls]!()) : null;
-        const load = loader && (id.startsWith('v3w_')
-            ? (loader as { V3W_LOADERS: Record<string, () => Promise<Record<string, unknown>>> }).V3W_LOADERS[id]
-            : (loader as { V3_LOADERS: Record<string, () => Promise<Record<string, unknown>>> }).V3_LOADERS[id]);
-        if (load) {
-            const def = pickDef(await load(), id);
-            if (def) return def;
-        }
-    } catch { /* fall through to the class barrel */ }
-    // compiled diagnostic sims (backend/its/competency/simdef_compiler.py) —
-    // one lazy chunk per class_subject file, like the v3 loaders above
-    if (id.startsWith('gen_')) {
-        try {
-            const g = await import('./generated/loaders');
-            const genLoad = g.GENERATED_LOADERS[id];
-            if (genLoad) {
-                const def = pickDef(await genLoad(), id);
-                if (def) return def;
-            }
-        } catch { /* fall through to the class barrel */ }
+    const file = FILE_MAP[id];
+    if (file) {
+        const pack = await loadPack(file);
+        const def = pack?.[id];
+        if (def) return def;
     }
-    const mod = await (CLASS_LOADERS[cls] ?? CLASS_LOADERS[6])();
-    const all = Object.values(mod).flatMap(v => Array.isArray(v) ? v : []) as { id: string }[];
-    return all.find(s => s.id === id) ?? null;
+    // defs that could not be JSON-serialized keep their real modules
+    try {
+        const { RESIDUAL_LOADERS } = await import('./residual_loaders.gen');
+        const load = RESIDUAL_LOADERS[id];
+        if (load) return pickDef(await load(), id);
+    } catch { /* no residual match */ }
+    return null;
 }

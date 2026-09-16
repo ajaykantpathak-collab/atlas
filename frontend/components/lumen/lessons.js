@@ -1,8 +1,8 @@
 export const VIEW_TILT = (58 * Math.PI) / 180
-// The black-hole disk reads best inclined (Interstellar-style), not
-// face-on: 58° view tilt + the camera's downward angle makes an in-plane
-// disk nearly face-on, so the hole lesson overrides the tilt.
-export const HOLE_TILT = (24 * Math.PI) / 180
+// The hole reads best near-edge-on (Interstellar): the disk becomes a thin
+// blade across the silhouette, with the lensed halo arcing over the top.
+// sin(tilt) is the on-screen ellipse ratio, so 7° ≈ 0.12 — a blade.
+export const HOLE_TILT = (7 * Math.PI) / 180
 
 export const LESSONS = {
   solar: {
@@ -31,7 +31,7 @@ export const LESSONS = {
     orbit: 0.0,
     kepler: 1.35,
     friction: 0.972,
-    bloom: 0.42,
+    bloom: 0.27,
     labels: []
   },
   galaxy: {
@@ -92,7 +92,7 @@ export const LESSONS = {
     shear: 1.45,
     tilt: HOLE_TILT,
     friction: 0.982,
-    bloom: 0.5,
+    bloom: 0.36,
     labels: []
   }
 }
@@ -118,11 +118,12 @@ export function generateCloud(lessonId, bounds) {
 
 function generateSolar(extent) {
   const points = []
-  const sunR = extent * 0.11
+  const sunR = extent * 0.15
 
-  for (let i = 0; i < 36000; i += 1) {
-    const p = randomInSphere(sunR * (i < 22000 ? 0.72 : 1))
-    pushTilted(points, p[0], p[1], p[2], i % 9 === 0 ? 0.18 : 0.04)
+  // sun — sparse and wide: a warm heart, never a white blast
+  for (let i = 0; i < 14000; i += 1) {
+    const p = randomInSphere(sunR * (i < 9000 ? 0.72 : 1))
+    pushTilted(points, p[0], p[1], p[2], i % 9 === 0 ? 0.18 : 0.1)
   }
 
   const planets = [
@@ -141,14 +142,14 @@ function generateSolar(extent) {
     const angle = planet.r * 12.7
     const px = Math.cos(angle) * orbitR
     const pz = Math.sin(angle) * orbitR
-    const body = planet.s * extent
+    const body = planet.s * extent * 1.4
 
     for (let i = 0; i < planet.n; i += 1) {
       const p = randomInSphere(body)
       pushTilted(points, px + p[0], p[1] * 0.85, pz + p[2], planet.role)
     }
 
-    addOrbit(points, orbitR, planet.ring, 0.012 * extent, planet.role * 0.7 + 0.15)
+    addOrbit(points, orbitR, planet.ring * 0.7, 0.012 * extent, planet.role * 0.7 + 0.15)
 
     if (planet.belt) {
       for (let i = 0; i < 18000; i += 1) {
@@ -226,42 +227,62 @@ function generateGalaxy(extent) {
 function generateHole(extent) {
   const points = []
   const horizon = extent * 0.26
-  const diskInner = horizon * 1.85
-  const diskOuter = extent * 0.62
+  const diskInner = horizon * 1.35
+  const diskOuter = extent * 0.5
 
+  // accretion disk — t^0.72 spreads density so the inner edge stays hot
+  // without blowing out to a white blob; the approaching side (cos a > 0)
+  // keeps more particles (Doppler beaming cue)
   for (let i = 0; i < 110000; i += 1) {
-    const t = Math.pow(Math.random(), 0.6)
+    const t = Math.pow(Math.random(), 0.72)
     const r = diskInner + (diskOuter - diskInner) * t
     const a = Math.random() * Math.PI * 2
-    const flare = 0.55 + 0.45 * Math.max(0, Math.cos(a))
-    if (Math.random() > 0.22 + flare * 0.78) continue
+    const flare = 0.38 + 0.62 * Math.max(0, Math.cos(a))
+    if (Math.random() > 0.18 + flare * 0.82) continue
     const y = (Math.random() - 0.5) * extent * (0.006 + t * 0.006)
     const approaching = Math.cos(a) > 0
     const role = approaching
       ? t < 0.22
-        ? 0.08
-        : 0.28
+        ? 0.14
+        : 0.32
       : t < 0.22
-        ? 0.42
+        ? 0.44
         : 0.68
     pushTilted(points, Math.cos(a) * r, y, Math.sin(a) * r, role)
   }
 
-  for (let i = 0; i < 34000; i += 1) {
+  // inner edge glow — the bright rim where the disk plunges
+  for (let i = 0; i < 30000; i += 1) {
     const a = Math.random() * Math.PI * 2
-    const r = horizon * 1.92 + (Math.random() - 0.5) * extent * 0.02
+    const r = horizon * 1.45 + (Math.random() - 0.5) * extent * 0.02
     const y = (Math.random() - 0.5) * extent * 0.01
-    pushTilted(points, Math.cos(a) * r, y, Math.sin(a) * r, 0.1)
+    pushTilted(points, Math.cos(a) * r, y, Math.sin(a) * r, 0.16)
   }
 
+  // lensed far side — the Interstellar halo: the disk's image bent above
+  // and below the silhouette. Pushed RAW (no tilt): these must hug the
+  // silhouette in view space, sitting just behind the hole.
+  for (let i = 0; i < 26000; i += 1) {
+    const t = Math.random()
+    const side = i % 2 === 0 ? 1 : -1
+    const a = (Math.random() - 0.5) * 1.9
+    const r = horizon * (1.05 + t * 0.24)
+    const x = Math.sin(a) * r
+    const y = side * (horizon * (1.02 + Math.cos(a) * 0.1 + t * 0.12))
+    const z = -horizon * (0.5 - t * 0.45)
+    points.push(x, y, z, 0.12 + t * 0.22)
+  }
+
+  // jets — collimated beams, deliberately SPARSE: they read as faint
+  // light pillars; the accretion disk is the star of the scene
   for (let side = -1; side <= 1; side += 2) {
     for (let i = 0; i < 9000; i += 1) {
-      const t = Math.pow(Math.random(), 0.7)
-      const y = side * (horizon * 1.35 + t * extent * 1.05)
-      const spread = extent * 0.016 * (0.2 + t * 1.4)
+      const t = Math.pow(Math.random(), 0.6)
+      const y = side * (horizon * 1.25 + t * extent * 1.05)
+      const spread = extent * 0.0048 * (0.12 + t * 4.6)
       const x = (Math.random() - 0.5) * spread
       const z = (Math.random() - 0.5) * spread
-      pushTilted(points, x, y, z, 0.82)
+      points.push(x, y, z, 0.74)
     }
   }
 

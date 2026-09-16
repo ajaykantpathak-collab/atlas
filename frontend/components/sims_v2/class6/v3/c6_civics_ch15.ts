@@ -8,7 +8,7 @@ export const c6_civics_ch15: SimDef = {
     subtitle: 'What disappears when the news does?',
     classLevel: 6, subject: 'civics', topic: 'Media and Democracy',
     chapters: ['c6_civics_ch15'],
-    nodeIds: ['c6_civics_ch15_035', 'c6_civics_ch15_036', 'c6_civics_ch15_037', 'c6_civics_ch15_038'],
+    nodeIds: [],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'editor of a busy newsroom for a day', intro: 'A flood in one state, a new law in Delhi, a scam in the municipal office — three stories, one deadline. What do the people most need to know?', goal: 'See media as a democratic tool that keeps citizens informed and governments honest.' },

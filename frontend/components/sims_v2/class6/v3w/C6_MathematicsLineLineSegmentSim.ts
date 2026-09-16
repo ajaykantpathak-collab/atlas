@@ -10,7 +10,7 @@ export const w_c6_mathematicslinelinesegmentsim: SimDef = {
     subtitle: 'This node covers the identification and naming of points, lines, and line segments.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Geometry: Points, Lines, Line Segments',
     chapters: [],
-    nodeIds: ['c6_math_ch07_070', 'c6_math_ch07_073', 'c6_math_ch07_074', 'c6_math_ch07_075', 'c6_math_ch07_076', 'c6_math_ch07_081', 'c6_math_ch11_113', 'c6_math_ch11_114', 'c6_math_ch11_116', 'c6_math_ch03_037', 'c6_math_ch07_071', 'c6_math_ch07_078', 'c6_math_ch07_082', 'c6_math_ch07_084', 'c6_math_ch03_039'],
+    nodeIds: ['c6_math_ch07_070', 'c6_math_ch07_073', 'c6_math_ch07_074', 'c6_math_ch07_075', 'c6_math_ch07_072', 'c6_math_ch07_081', 'c6_math_ch11_113', 'c6_math_ch11_114', 'c6_math_ch11_116', 'c6_math_ch03_037', 'c6_math_ch07_071', 'c6_math_ch07_078', 'c6_math_ch07_082', 'c6_math_ch07_077', 'c6_math_ch03_029'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a map and seen cities marked as tiny dots?', goal: 'Master Line Line Segment.' },
     discovery: {

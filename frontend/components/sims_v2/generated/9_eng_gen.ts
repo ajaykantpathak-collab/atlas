@@ -609,6 +609,22 @@ export const C9_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Apply the concept of \"respect for elders' autonomy\" to this scenario: The grandmother initially refuses to learn, saying \"I am too old.\" The granddaughter does not force her but waits for the grandmother to ask. How does this demonstrate respect? Use the story's sequence.",
+    "answer": "Step 1: Grandmother refuses (autonomy respected). Step 2: Granddaughter waits without pressure (patience)",
+    "options": [
+     "A good entry includes: the anticipation of the bus, the sound of the magazine being read aloud, the protagonist's dilemma mirroring her own, and her resolve to learn",
+     "\"Ajji touched my feet today — me, her twelve-year-old teacher! The girl who once sat on her lap listening to *Kashi Yatre* now watches her read it alone",
+     "Step 1: Grandmother refuses (autonomy respected). Step 2: My Kashi Yatre waits without pressure (patience)",
+     "Step 1: Grandmother refuses (autonomy respected). Step 2: Granddaughter waits without pressure (patience)"
+    ],
+    "hint": "Straight from the 'Respect for elders and' slide -- match the key terms.",
+    "misconception": "A wrong answer saying \"she respected her by teaching her\" confuses care with autonomy.",
+    "id": "gen_c9_eng_ch01_q17",
+    "nodeId": "c9_engl_ch1_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Create a 4-line dialogue between the grandmother and granddaughter set six months after the story ends, showing how inter-generational learning continues in a new domain (e.g., technology, cooking, storytelling).",
     "answer": "Grandmother: \"Teach me to write a letter to my sister, now that I can read.\" Granddaughter: \"Only if you teach me your secret recipe for holige first",
     "options": [
@@ -618,22 +634,6 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Respect for elders and' slide -- match the key terms.",
     "misconception": "A poor answer writes a generic \"I love you\" exchange without a new learning exchange, showing inability to extend the bidirectional pattern.",
-    "id": "gen_c9_eng_ch01_q17",
-    "nodeId": "c9_engl_ch1_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Define \"inter-generational learning\" in the context of the story \"How I Taught My Grandmother to Read\" in one sentence.",
-    "answer": "Inter-generational learning in the story is the bidirectional exchange where the granddaughter teaches literacy skills to her grandmother",
-    "options": [
-     "The protagonist is the grandmother, named Krishtakka (also called Avva). She is a 62-year-old woman living in a village in North Karnataka who cannot read",
-     "The Saraswati Puja deadline is the date by which Krishtakka committed to learning the alphabet and reading independently",
-     "The Saraswati Puja learning in the story is the bidirectional exchange where the granddaughter teaches literacy skills to her grandmother",
-     "Inter-generational learning in the story is the bidirectional exchange where the granddaughter teaches literacy skills to her grandmother"
-    ],
-    "hint": "Straight from the 'Respect for elders and' slide -- match the key terms.",
-    "misconception": "A wrong answer that defines it only as \"young teaching old\" reveals the misconception that learning flows one-way; the board expects recognition of mutual growth.",
     "id": "gen_c9_eng_ch01_q18",
     "nodeId": "c9_engl_ch1_10",
     "difficulty": "advanced"
@@ -1216,6 +1216,21 @@ export const C9_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Given the following disordered events, arrange them in the correct chronological order for a summary: (a) Sentila's pots are displayed at the village exhibition. (b) Sentila secretly practices pottery with her grandfather's old tools.",
+    "answer": "Correct order: (b) → (d) → (a) → (c). Step 1: Identify the inciting incident (secret practice). Step 2: The confrontation (asking permission)",
+    "options": [
+     "This detail reveals a structured gender role system where pottery is a collective, gender-segregated process — not an individual choice",
+     "Sentila sees pottery as a calling and a way to keep her grandfather's legacy alive; Arenla sees it as an unstable livelihood that cannot provide security in a modern economy",
+     "Correct order: (b) → (d) → (a) → (c). Step 1: Identify the inciting incident (secret practice). Step 2: The confrontation (asking permission)"
+    ],
+    "hint": "Straight from the 'story summary' slide -- match the key terms.",
+    "misconception": "A wrong sequence indicates the student cannot trace cause-effect relationships in the plot.",
+    "id": "gen_c9_eng_ch02_q14",
+    "nodeId": "c9_engl_ch2_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "In your own words, explain why Sentila's mother Arenla initially opposes her learning pottery.",
     "answer": "Arenla opposes Sentila's pursuit because she believes formal education and a government job offer financial security and social mobility, whereas pottery is seen as a traditional",
     "options": [
@@ -1225,7 +1240,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"Arenla hates pottery\" shows the student has reduced a nuanced parental concern to a simple emotion, missing the socio-economic reasoning.",
-    "id": "gen_c9_eng_ch02_q14",
+    "id": "gen_c9_eng_ch02_q15",
     "nodeId": "c9_engl_ch2_1",
     "difficulty": "standard"
    },
@@ -1240,7 +1255,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only \"beginning, middle, end\" reveals the student confuses structure with content and cannot distinguish between a plot outline and a summary.",
-    "id": "gen_c9_eng_ch02_q15",
+    "id": "gen_c9_eng_ch02_q16",
     "nodeId": "c9_engl_ch2_1",
     "difficulty": "standard"
    },
@@ -1255,7 +1270,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A weak answer omits the cultural stake or uses informal language (\"cool pots\").",
-    "id": "gen_c9_eng_ch02_q16",
+    "id": "gen_c9_eng_ch02_q17",
     "nodeId": "c9_engl_ch2_1",
     "difficulty": "standard"
    },
@@ -1270,21 +1285,6 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Perseverance in \"The Pot Maker\"' slide -- match the key terms.",
     "misconception": "A wrong answer that treats the disaster as merely a plot setback misses its structural role as the crucible where both values are forged together.",
-    "id": "gen_c9_eng_ch02_q17",
-    "nodeId": "c9_engl_ch2_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Apply the concept of \"respect for traditional skills\" to this scenario: A city designer visits the village, calls the pottery \"rustic aesthetic,\" and wants to mass-produce the designs using molds. How would the story's value system judge this?",
-    "answer": "The story would critique this as exploitation, not respect. Respect in the text means engaging with the craft's full knowledge system",
-    "options": [
-     "Arenla opposes Sentila's pursuit because she believes formal education and a government job offer financial security and social mobility, whereas pottery is seen as a traditional",
-     "Designer: \"Your patterns will sell beautifully in Delhi malls -- we'll reproduce them by the thousand",
-     "The story would critique this as exploitation, not respect. Respect in the text means engaging with the craft's full knowledge system"
-    ],
-    "hint": "Straight from the 'Perseverance in \"The Pot Maker\"' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls this \"modernization\" or \"wider appreciation\" reveals the misconception that traditional skills are static artifacts to be packaged, rather than living practices requiring embodied participation.",
     "id": "gen_c9_eng_ch02_q18",
     "nodeId": "c9_engl_ch2_10",
     "difficulty": "advanced"
@@ -3305,6 +3305,21 @@ export const C9_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What are the three essential components that must appear in the opening sentence of a board-level text summary for this chapter?",
+    "answer": "The opening sentence must name: (1) the text's dual subject (Paralympic movement AND Dr. Deepa Malik), (2) the text type (interview/biographical account)",
+    "options": [
+     "Person-first language puts the person before the disability (e.g., \"athlete with a disability\" not \"disabled athlete\")",
+     "Determination in the Paralympic context is the will to train, compete, and excel despite physical disabilities and social barriers",
+     "The opening sentence must name: (1) the text's dual subject (Paralympic movement AND Dr. Deepa Malik), (2) the text type (interview/biographical account)"
+    ],
+    "hint": "Straight from the 'text summary' slide -- match the key terms.",
+    "misconception": "A wrong answer that only says \"It's about Deepa Malik\" reveals the student treats summary as character description rather than structural condensation of a non-fiction text with two intertwined threads.",
+    "id": "gen_c9_eng_ch05_q17",
+    "nodeId": "c9_engl_ch5_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Write a 3-sentence \"elevator pitch\" summary of this text that a Class 9 student could use to explain the chapter to a Class 7 student, using only facts from the text but language a 12-year-old would grasp.",
     "answer": "Expected answer: \"The Paralympics started in 1960 for athletes with disabilities, but India joined only in 1968",
     "options": [
@@ -3314,24 +3329,9 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'text summary' slide -- match the key terms.",
     "misconception": "A poor answer uses jargon (\"paraplegic,\" \"shot put classification F53\") or omits the Paralympics history, revealing inability to audience-adapt — a skill tested in board \"writing for specific purpose\" questions.",
-    "id": "gen_c9_eng_ch05_q17",
+    "id": "gen_c9_eng_ch05_q18",
     "nodeId": "c9_engl_ch5_1",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the barrier-breaking journey of Deepa Malik (Chapter 5) with Jahnavi in \"The Day the River Spoke\" (Class 6). Analyse how both protagonists transform *systemic exclusion* into *personal agency* through dialogue — but with a critical difference in the *nature of the system* they confront.",
-    "answer": "Both use dialogue to claim space: Jahnavi negotiates with the river (nature/patriarchy) for education; Deepa negotiates with sports federators/society for competitive recognition",
-    "options": [
-     "The drop from 2 to 1 medal reflects the *quality* of support: recognition existed but systematic high-performance funding (TOPS, foreign coaches",
-     "Dr. Malik faces internal/biological adversity (tumour, paralysis) and systemic barriers (accessibility, stereotypes)",
-     "Both use dialogue to claim space: Jahnavi negotiates with the river (nature/patriarchy) for education; Deepa negotiates with sports federators/society for competitive recognition"
-    ],
-    "hint": "Straight from the 'structured discussion on' slide -- match the key terms.",
-    "misconception": "A wrong answer treating both as \"girls fighting for dreams\" misses the systemic vs. cultural distinction crucial for board-level thematic analysis.",
-    "id": "gen_c9_eng_ch05_q18",
-    "nodeId": "c9_engl_ch5_10",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -4949,6 +4949,21 @@ export const C9_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A Class 9 student wants to become a classical singer but her family needs her to contribute to household income immediately after Class 10. Using the mother's advice on \"sacrifice\" and \"changing circumstances,\" suggest a balanced 3-year plan.",
+    "answer": "Step 1: Acknowledge the reality—financial pressure requires income (mother: \"life rearranges itself\")",
+    "options": [
+     "Conviction: \"I have researched the community's needs for two years and believe this enterprise can create lasting change",
+     "It means the student should first join a local academy (achievable step) rather than dreaming only of the IPL (distant picture)",
+     "Step 1: Acknowledge the reality—financial pressure requires income (mother: \"life rearranges itself\")"
+    ],
+    "hint": "Straight from the 'Balancing Dreams with Practical' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"she should quit singing and focus on a job\") shows failure to apply the mother's nuanced view that dreams adapt rather than die.",
+    "id": "gen_c9_eng_ch08_q17",
+    "nodeId": "c9_engl_ch8_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare how Jahnavi (Class 6, \"The Day the River Spoke\") and the mother in this letter each balance a dream with practical realities. Identify one similarity and one difference in their strategies.",
     "answer": "Similarity: Both use dialogue with a mentor (River / Mother) to clarify the path—external wisdom structures internal drive",
     "options": [
@@ -4958,21 +4973,6 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Balancing Dreams with Practical' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both just worked hard\") misses the structural vs. personal distinction and the role of mentorship in converting dream to plan.",
-    "id": "gen_c9_eng_ch08_q17",
-    "nodeId": "c9_engl_ch8_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the statement: \"The mother's letter proves that practical realities should always limit the scope of your dreams.\" Defend your position with two textual evidences.",
-    "answer": "The statement is false. Evidence 1: The mother writes, \"I didn't write this to tell you to climb a smaller mountain\"—she explicitly rejects limiting the dream's scope",
-    "options": [
-     "*Example:* \"Stalled at the 'signal' of my PhD rejection today. Remembered your driving lessons, Ma",
-     "A strong reply: \"Ma — Found your letter in my suitcase. The kite string? I'm holding it. Not pulling",
-     "The statement is false. Evidence 1: The mother writes, \"I didn't write this to tell you to climb a smaller mountain\"—she explicitly rejects limiting the dream's scope"
-    ],
-    "hint": "Straight from the 'Balancing Dreams with Practical' slide -- match the key terms.",
-    "misconception": "A wrong answer agreeing with the statement reveals a binary mindset (dreams vs. reality = zero-sum) instead of the mother's integrative view (realities shape the *method*, not the *destination*).",
     "id": "gen_c9_eng_ch08_q18",
     "nodeId": "c9_engl_ch8_10",
     "difficulty": "advanced"

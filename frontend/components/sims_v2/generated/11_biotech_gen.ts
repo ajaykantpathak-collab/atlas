@@ -9,19 +9,22 @@ import type { SimDef } from '../engine/types';
 export const C11_BIOTECH_GEN: SimDef[] = [
  {
   "id": "gen_c11_biotech_ch01",
-  "title": "Industrial Fermentation",
+  "title": "Genetically Modified Crops",
   "subtitle": "Biotechnology · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biotechnology",
-  "topic": "Industrial Fermentation",
+  "topic": "Genetically Modified Crops",
   "chapters": [
-   "Biotechnology Ch1: Industrial Fermentation"
+   "Biotechnology Ch1: Genetically Modified Crops"
   ],
   "nodeIds": [
+   "c11_biotech_cbse_01_005",
+   "c11_biotech_cbse_01_006",
    "c11_biotech_cbse_01_007",
    "c11_biotech_cbse_01_009",
-   "c11_biotech_cbse_01_010"
+   "c11_biotech_cbse_01_010",
+   "c11_biotech_cbse_01_011"
   ],
   "emoji": "🧬",
   "theme": {
@@ -30,16 +33,28 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Industrial Fermentation in real working life?",
+   "question": "Who uses Genetically Modified Crops in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Industrial fermentation is the controlled, large-scale cultivation of microorganisms (bacteria, yeast, fungi) in bioreactors to metabolically convert"
+   "hook": "Genetically Modified (GM) crops are transgenic plants created by inserting specific gene(s) from any organism into a crop plant's genome using"
   },
   "teaching": [
+   {
+    "title": "Genetically Modified Crops",
+    "text": "Genetically Modified (GM) crops are transgenic plants created by inserting specific gene(s) from any organism into a crop plant's genome using recombinant DNA technology to confer desirable traits such as insect resistance, herbicide tolerance, enhanced",
+    "emoji": "🧬",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Biotechnology In Medicine Encompasses",
+    "text": "Biotechnology in medicine (Red Biotechnology) encompasses the application of recombinant DNA technology, molecular biology, and cell culture techniques to develop diagnostic tools, therapeutic proteins (e.",
+    "emoji": "🧬",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
    {
     "title": "Industrial Fermentation",
     "text": "Industrial fermentation is the controlled, large-scale cultivation of microorganisms (bacteria, yeast, fungi) in bioreactors to metabolically convert substrates (like glucose, molasses, corn steep liquor) into commercially valuable products such as organic",
@@ -57,21 +72,153 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "text": "Biosafety refers to the principles, practices, and containment measures applied to prevent unintentional exposure to biological agents (pathogens, genetically modified organisms, recombinant DNA) and their accidental release into the environment, thereby",
     "emoji": "🧬",
     "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Intellectual Property Rights In",
+    "text": "Intellectual Property Rights (IPR) in biotechnology are legal rights that protect creations of the mind—such as inventions, designs, and biological materials—granting the creator exclusive control over their use and commercialization for a defined period.",
+    "emoji": "🧬",
+    "bgColor": "from-amber-400 to-orange-500"
    }
   ],
   "challenges": [
+   {
+    "type": "order",
+    "question": "Trace the correct sequence of events by which coat protein protects papaya and antisense RNA delays ripening in tomato.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Expressed coat protein interferes with viral",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The viral coat protein gene",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The blocked mRNA halts softening enzymes",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "In Flavr Savr tomato an antisense RNA binds",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats both as protein-mediated shows the student has missed that papaya resistance acts at the protein level while Flavr Savr acts at the RNA level by base pairing.",
+    "id": "gen_c11_biotech_ch01_q1",
+    "nodeId": "c11_biotech_cbse_01_005",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a cotton farmer in Vidarbha who spends ₹15,000 per acre on pesticide sprays yet loses 30% yield to pink bollworm.",
+     "Ask: \"Can we put the pesticide *inside* the plant so only the pest eating it dies?",
+     "When bollworm larvae feed, the alkaline gut pH activates the protoxin, which binds specific cadherin receptors, forming pores that lyse midgut cells.",
+     "The key insight: GM crops shift crop protection from *external chemical application* to *in planta genetic immunity*, reducing sprays but requiring"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence of steps in the ex vivo gene therapy used for ADA-SCID.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Reinfuse the corrected cells into the",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Transduce them with a retroviral vector",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Harvest the patient's own bone marrow stem",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The engrafted cells restore ADA production",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that injects the vector directly in vivo for ADA-SCID shows the student has missed that the ex vivo approach allows selection and checking of corrected cells before they re-enter the body.",
+    "id": "gen_c11_biotech_ch01_q2",
+    "nodeId": "c11_biotech_cbse_01_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a diabetic patient in rural India who needs daily insulin injections.",
+     "Ask: \"Before 1982, this insulin came from pig pancreases — limited supply, allergic reactions, and ethical issues.",
+     "How did biotechnology solve this?\" Guide students to trace the journey: isolate human insulin gene → insert into plasmid vector → transform E.",
+     "Connect this to India's current status as a global vaccine hub (Covaxin, Hepatitis B) and the concept of correcting a faulty gene at its source (gene"
+    ]
+   },
    {
     "type": "mcq",
     "question": "Compare and contrast the bioreactor operational requirements (aeration, agitation, pH control, foam control) for (i) ethanol production by yeast and (ii) citric acid production by *Aspergillus niger*. Explain how the morphology of the production organism dictates these differences.",
     "answer": "Ethanol (yeast): unicellular, low viscosity broth → high agitation/shear tolerated, anaerobic (no aeration needed after initial growth), pH ~4-5 controlled by acid production",
     "options": [
      "The Precautionary Principle (Cartagena Protocol, Article 10.6) allows a country to restrict/ban a GMO import *even without full scientific certainty* of harm if there is a",
-     "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly",
+     "Refute. Traditional fermentations use undefined mixed consortia (e.g., *Lactobacillus* + yeast in idli",
      "Ethanol (yeast): unicellular, low viscosity broth → high agitation/shear tolerated, anaerobic (no aeration needed after initial growth), pH ~4-5 controlled by acid production"
     ],
     "hint": "Straight from the 'Industrial fermentation' slide -- match the key terms.",
     "misconception": "A wrong answer treating both as \"just stirring tanks\" ignores rheology, oxygen demand, and morphological sensitivity.",
-    "id": "gen_c11_biotech_ch01_q1",
+    "id": "gen_c11_biotech_ch01_q3",
     "nodeId": "c11_biotech_cbse_01_007",
     "difficulty": "standard",
     "workedExample": [
@@ -86,13 +233,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "A couple uses preimplantation genetic diagnosis (PGD) to select an embryo free of the Huntington's disease allele. They also request selection for a gene variant associated with higher IQ. Apply the therapy vs. enhancement distinction and the principle of non-maleficence to evaluate both requests.",
     "answer": "Selecting against Huntington's is therapeutic (preventing a serious, certain harm) and aligns with non-maleficence",
     "options": [
-     "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly",
+     "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In",
      "1. Glucose (carbon source): 150 g/L total, fed gradually to maintain ~20 g/L (prevents catabolite repression, ensures high flux through glycolysis/TCA)",
      "Selecting against Huntington's is therapeutic (preventing a serious, certain harm) and aligns with non-maleficence"
     ],
     "hint": "Straight from the 'Bioethics in biotechnology' slide -- match the key terms.",
     "misconception": "A wrong answer treating both requests identically fails to distinguish restoring health from augmenting traits, a critical boundary in bioethics.",
-    "id": "gen_c11_biotech_ch01_q2",
+    "id": "gen_c11_biotech_ch01_q4",
     "nodeId": "c11_biotech_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -113,7 +260,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Biosafety' slide -- match the key terms.",
     "misconception": "A wrong answer conflating them as \"both require absolute proof of safety\" misses the fundamental policy difference: one is a risk-management trigger for trade/environment, the other a scientific comparator for food safety.",
-    "id": "gen_c11_biotech_ch01_q3",
+    "id": "gen_c11_biotech_ch01_q5",
     "nodeId": "c11_biotech_cbse_01_010",
     "difficulty": "standard",
     "workedExample": [
@@ -124,17 +271,254 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of stages in a prior art search for a patent claim on a novel guide RNA sequence.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Classify the invention by its patent codes",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Sweep the patent databases and scientific",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Shortlist documents claiming guide RNA",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Compare claim elements against each hit",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that drafts claims before searching shows the student has missed that the roadmap runs from identifying the invention through patentability checks to filing.",
+    "id": "gen_c11_biotech_ch01_q6",
+    "nodeId": "c11_biotech_cbse_01_011",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you've engineered a novel *Bacillus* strain that degrades plastic waste 10x faster than existing strains—your lab wants to commercialize it.",
+     "Where do you begin to protect this invention so competitors cannot copy it?",
+     "Start by asking: is this a discovery or an invention?",
+     "Indian law excludes mere discoveries of naturally occurring organisms, but a genetically modified strain with enhanced traits may be patentable if it"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of points in a balanced evaluation of Golden Rice as an answer to vitamin A deficiency.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Acknowledge bioavailability studies show",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Note the psy and crtI genes reconstruct",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Weigh the molecular promise against",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Recognise deficiency",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that either dismisses Golden Rice as a mere technological fix or calls it a complete solution shows the student has missed that both molecular evidence and public health context must enter the verdict.",
+    "id": "gen_c11_biotech_ch01_q7",
+    "nodeId": "c11_biotech_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of objections that weaken the case for edible vaccines as the ideal global immunization tool.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Gut immunity defaults to oral tolerance",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Gastric acid and proteases degrade",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Cooking or processing can denature",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "No licensed edible vaccine exists despite",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that only praises the end of cold chains and needles shows the student has missed that immunological and standardisation barriers must be answered first.",
+    "id": "gen_c11_biotech_ch01_q8",
+    "nodeId": "c11_biotech_cbse_01_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of points in a balanced evaluation of Golden Rice as an answer to vitamin A deficiency.",
+    "answer": "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to",
+    "options": [
+     "The critique runs: (1) Gut immunity defaults to oral tolerance rather than systemic antibody response (2) Gastric acid and proteases degrade the antigen and ruin dose precision",
+     "The search runs: (1) Classify the invention by its patent codes such as those covering CRISPR systems and gene therapy (2) Sweep the patent databases and scientific literature",
+     "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to"
+    ],
+    "hint": "Straight from the 'Genetically Modified  crops' slide -- match the key terms.",
+    "misconception": "A wrong answer that either dismisses Golden Rice as a mere technological fix or calls it a complete solution shows the student has missed that both molecular evidence and public health context must enter the verdict.",
+    "id": "gen_c11_biotech_ch01_q9",
+    "nodeId": "c11_biotech_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Trace the correct sequence of events by which coat protein protects papaya and antisense RNA delays ripening in tomato.",
+    "answer": "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In",
+    "options": [
+     "Selecting against Huntington's is therapeutic (preventing a serious, certain harm) and aligns with non-maleficence",
+     "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly",
+     "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In"
+    ],
+    "hint": "Straight from the 'Genetically Modified  crops' slide -- match the key terms.",
+    "misconception": "A wrong answer that treats both as protein-mediated shows the student has missed that papaya resistance acts at the protein level while Flavr Savr acts at the RNA level by base pairing.",
+    "id": "gen_c11_biotech_ch01_q10",
+    "nodeId": "c11_biotech_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of objections that weaken the case for edible vaccines as the ideal global immunization tool.",
+    "answer": "The critique runs: (1) Gut immunity defaults to oral tolerance rather than systemic antibody response (2) Gastric acid and proteases degrade the antigen and ruin dose precision",
+    "options": [
+     "The search runs: (1) Classify the invention by its patent codes such as those covering CRISPR systems and gene therapy (2) Sweep the patent databases and scientific literature",
+     "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to",
+     "The critique runs: (1) Gut immunity defaults to oral tolerance rather than systemic antibody response (2) Gastric acid and proteases degrade the antigen and ruin dose precision"
+    ],
+    "hint": "Straight from the 'Biotechnology in medicine' slide -- match the key terms.",
+    "misconception": "A wrong answer that only praises the end of cold chains and needles shows the student has missed that immunological and standardisation barriers must be answered first.",
+    "id": "gen_c11_biotech_ch01_q11",
+    "nodeId": "c11_biotech_cbse_01_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Trace the correct sequence of steps in the ex vivo gene therapy used for ADA-SCID.",
+    "answer": "The therapy runs: (1) Harvest the patient's own bone marrow stem cells (2) Transduce them with a retroviral vector carrying a functional ADA gene (3) Reinfuse the corrected cells",
+    "options": [
+     "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In",
+     "1. Glucose (carbon source): 150 g/L total, fed gradually to maintain ~20 g/L (prevents catabolite repression, ensures high flux through glycolysis/TCA)",
+     "The therapy runs: (1) Harvest the patient's own bone marrow stem cells (2) Transduce them with a retroviral vector carrying a functional ADA gene (3) Reinfuse the corrected cells"
+    ],
+    "hint": "Straight from the 'Biotechnology in medicine' slide -- match the key terms.",
+    "misconception": "A wrong answer that injects the vector directly in vivo for ADA-SCID shows the student has missed that the ex vivo approach allows selection and checking of corrected cells before they re-enter the body.",
+    "id": "gen_c11_biotech_ch01_q12",
+    "nodeId": "c11_biotech_cbse_01_006",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Design a minimal medium formulation (list 5 key components with concentrations) for a fed-batch production of L-glutamic acid by *Corynebacterium glutamicum*, justifying each component's role in triggering glutamate overflow (the \"biotin limitation\" strategy).",
     "answer": "1. Glucose (carbon source): 150 g/L total, fed gradually to maintain ~20 g/L (prevents catabolite repression, ensures high flux through glycolysis/TCA)",
     "options": [
-     "Selecting against Huntington's is therapeutic (preventing a serious, certain harm) and aligns with non-maleficence",
-     "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly",
+     "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In",
+     "The therapy runs: (1) Harvest the patient's own bone marrow stem cells (2) Transduce them with a retroviral vector carrying a functional ADA gene (3) Reinfuse the corrected cells",
      "1. Glucose (carbon source): 150 g/L total, fed gradually to maintain ~20 g/L (prevents catabolite repression, ensures high flux through glycolysis/TCA)"
     ],
     "hint": "Straight from the 'Industrial fermentation' slide -- match the key terms.",
     "misconception": "A poor answer omits biotin limitation or uses rich media (corn steep liquor) without explaining the metabolic trigger.",
-    "id": "gen_c11_biotech_ch01_q4",
+    "id": "gen_c11_biotech_ch01_q13",
     "nodeId": "c11_biotech_cbse_01_007",
     "difficulty": "standard"
    },
@@ -143,13 +527,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "Evaluate the statement: \"Traditional fermented foods (idli, dahi, kinema) are primitive versions of modern industrial fermentation and offer no scientific advantage.\" Defend or refute using concepts of microbial consortia, metabolic interactions, and nutritional enhancement.",
     "answer": "Refute. Traditional fermentations use undefined mixed consortia (e.g., *Lactobacillus* + yeast in idli",
     "options": [
-     "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly",
-     "Ethanol (yeast): unicellular, low viscosity broth → high agitation/shear tolerated, anaerobic (no aeration needed after initial growth), pH ~4-5 controlled by acid production",
+     "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to",
+     "The therapy runs: (1) Harvest the patient's own bone marrow stem cells (2) Transduce them with a retroviral vector carrying a functional ADA gene (3) Reinfuse the corrected cells",
      "Refute. Traditional fermentations use undefined mixed consortia (e.g., *Lactobacillus* + yeast in idli"
     ],
     "hint": "Straight from the 'Industrial fermentation' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement reveals a \"modern = superior\" bias and ignorance of microbial ecology and nutritional biochemistry in traditional systems.",
-    "id": "gen_c11_biotech_ch01_q5",
+    "id": "gen_c11_biotech_ch01_q14",
     "nodeId": "c11_biotech_cbse_01_007",
     "difficulty": "standard"
    },
@@ -159,24 +543,40 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "answer": "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly",
     "options": [
      "Selecting against Huntington's is therapeutic (preventing a serious, certain harm) and aligns with non-maleficence",
-     "1. Glucose (carbon source): 150 g/L total, fed gradually to maintain ~20 g/L (prevents catabolite repression, ensures high flux through glycolysis/TCA)",
+     "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In",
      "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly"
     ],
     "hint": "Straight from the 'Bioethics in biotechnology' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement reveals inability to hold multiple ethical principles in tension.",
-    "id": "gen_c11_biotech_ch01_q6",
+    "id": "gen_c11_biotech_ch01_q15",
     "nodeId": "c11_biotech_cbse_01_009",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of stages in a prior art search for a patent claim on a novel guide RNA sequence.",
+    "answer": "The search runs: (1) Classify the invention by its patent codes such as those covering CRISPR systems and gene therapy (2) Sweep the patent databases and scientific literature",
+    "options": [
+     "The critique runs: (1) Gut immunity defaults to oral tolerance rather than systemic antibody response (2) Gastric acid and proteases degrade the antigen and ruin dose precision",
+     "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to",
+     "The search runs: (1) Classify the invention by its patent codes such as those covering CRISPR systems and gene therapy (2) Sweep the patent databases and scientific literature"
+    ],
+    "hint": "Straight from the 'Intellectual Property Rights  in' slide -- match the key terms.",
+    "misconception": "A wrong answer that drafts claims before searching shows the student has missed that the roadmap runs from identifying the invention through patentability checks to filing.",
+    "id": "gen_c11_biotech_ch01_q16",
+    "nodeId": "c11_biotech_cbse_01_011",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about industrial fermentation?",
+    "What surprised you about genetically modified crops?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Industrial Fermentation mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "successLine": "Genetically Modified Crops mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_biotech_ch02",
@@ -627,6 +1027,21 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a conceptual experiment using temperature-sensitive yeast mutants to identify a gene required for Golgi-mediated glycosylation of a cell-surface receptor. Outline the key steps, the phenotype you would screen for, and how you would confirm the defect is in the Golgi.",
+    "answer": "Key steps: (1) Mutagenize yeast; (2) Screen for temperature-sensitive mutants that fail to bind a fluorescent lectin (e",
+    "options": [
+     "Pulse cells with fluorescent dextran (fluid‑phase marker) and a pH‑sensitive dye (e.g., LysoSensor)",
+     "1. Phagosome forms by plasma membrane invagination around bacterium. 2. Early endosome/phagosome fuses with transport vesicles from trans‑Golgi carrying M6P‑tagged acid hydrolases",
+     "Key steps: (1) Mutagenize yeast; (2) Screen for temperature-sensitive mutants that fail to bind a fluorescent lectin (e"
+    ],
+    "hint": "Straight from the 'Golgi apparatus' slide -- match the key terms.",
+    "misconception": "A poor answer that only says \"check if receptor works\" without linking glycosylation status, subcellular localization, and genetic complementation shows inability to integrate cell biology, genetics, and biochemistry.",
+    "id": "gen_c11_biotech_ch02_q13",
+    "nodeId": "c11_biotech_cbse_02_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast heterophagy and autophagy in terms of (a) origin of material digested, (b) membrane dynamics, and (c) physiological trigger.",
     "answer": "(a) Heterophagy digests extracellular material (e.g., phagocytosed bacteria); autophagy digests intracellular components (e",
     "options": [
@@ -636,7 +1051,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lysosomes' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Heterophagy digests extracellular material (e.g., phagocytosed bacteria); autophagy digests intracellular",
-    "id": "gen_c11_biotech_ch02_q13",
+    "id": "gen_c11_biotech_ch02_q14",
     "nodeId": "c11_biotech_cbse_02_006",
     "difficulty": "standard"
    },
@@ -651,7 +1066,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lysosomes' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Pulse cells with fluorescent dextran (fluid‑phase marker) and a pH‑sensitive dye (e.",
-    "id": "gen_c11_biotech_ch02_q14",
+    "id": "gen_c11_biotech_ch02_q15",
     "nodeId": "c11_biotech_cbse_02_006",
     "difficulty": "standard"
    },
@@ -666,7 +1081,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lysosomes' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Neurons have high membrane turnover and synthesize large amounts of gangliosides for synaptic function; they lack",
-    "id": "gen_c11_biotech_ch02_q15",
+    "id": "gen_c11_biotech_ch02_q16",
     "nodeId": "c11_biotech_cbse_02_006",
     "difficulty": "standard"
    },
@@ -681,7 +1096,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'chloroplast' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Grana thylakoids are enriched in Photosystem II (PSII) and light-harvesting complex II (LHCII), while stroma lamellae",
-    "id": "gen_c11_biotech_ch02_q16",
+    "id": "gen_c11_biotech_ch02_q17",
     "nodeId": "c11_biotech_cbse_02_008",
     "difficulty": "standard"
    },
@@ -696,23 +1111,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'chloroplast' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Refute. The claim contains a factual error: mammalian mitochondrial ribosomes are 55S, but plant mitochondrial",
-    "id": "gen_c11_biotech_ch02_q17",
-    "nodeId": "c11_biotech_cbse_02_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design an experiment using density gradient centrifugation to separate 70S and 80S ribosomes from a mixed sample of prokaryotic and eukaryotic cell lysates. Specify the gradient medium, centrifugation parameters, and how you would identify each fraction.",
-    "answer": "Use a 10-30% sucrose gradient, ultracentrifuge at 100,000 × g for 16 hours at 4°C. Fractionate from top to bottom; monitor absorbance at 260 nm (rRNA)",
-    "options": [
-     "Label Protein X with GFP. Bleach a small membrane region with laser. Monitor fluorescence recovery over time",
-     "In Gram-positive bacteria, lysozyme directly accesses the thick peptidoglycan layer. In Gram-negative bacteria, the outer membrane blocks lysozyme",
-     "Use a 10-30% sucrose gradient, ultracentrifuge at 100,000 × g for 16 hours at 4°C. Fractionate from top to bottom; monitor absorbance at 260 nm (rRNA)"
-    ],
-    "hint": "Straight from the 'Ribosomes' slide -- match the key terms.",
-    "misconception": "A poor answer (e.g., \"use a centrifuge\") reveals ignorance of the physical basis of Svedberg separation — that S value depends on mass, shape, and density, requiring a density gradient for resolution.",
     "id": "gen_c11_biotech_ch02_q18",
-    "nodeId": "c11_biotech_cbse_02_010",
+    "nodeId": "c11_biotech_cbse_02_008",
     "difficulty": "standard"
    }
   ],
@@ -735,10 +1135,12 @@ export const C11_BIOTECH_GEN: SimDef[] = [
   "subject": "biotechnology",
   "topic": "Amino Acids",
   "chapters": [
-   "Biotechnology Ch3: Amino Acids"
+   "Biotechnology Ch3: Amino Acids",
+   "Biotechnology Ch4: Amino Acids"
   ],
   "nodeIds": [
    "c11_biotech_cbse_03_002",
+   "c11_biotech_cbse_04_002",
    "c11_biotech_cbse_03_003",
    "c11_biotech_cbse_03_004",
    "c11_biotech_cbse_03_005",
@@ -767,6 +1169,12 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    {
     "title": "Amino Acids",
     "text": "Amino acids are organic molecules with a central α-carbon bonded to four different groups: an amino group (-NH₂), a carboxyl group (-COOH), a hydrogen atom, and a variable side chain (R group).",
+    "emoji": "🧬",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Active Site",
+    "text": "The active site is a three-dimensional pocket or cleft on the enzyme surface formed by specific amino acid residues, where substrate binds through non-covalent interactions (electrostatic, hydrogen bonds, Van der Waals forces, hydrophobic interactions) to",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
    },
@@ -837,6 +1245,69 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "Trace the correct sequence of reasoning that predicts binding of a three-sugar substrate in lysozyme's six-sugar cleft.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "A three-unit substrate can occupy a subset",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Fewer occupied subsites mean fewer hydrogen",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "An enzyme-substrate complex still forms",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "The cleft offers six subsites shaped",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that declares no binding possible shows the student has missed that the lock and key needs geometric complementarity in part, not perfect occupancy, before binding occurs.",
+    "id": "gen_c11_biotech_ch03_q2",
+    "nodeId": "c11_biotech_cbse_04_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you have a bunch of keys on a keyring but only one opens your front door.",
+     "Why does that one key work while others don't, even if they look similar?",
+     "This is exactly what Emil Fischer asked about enzymes in 1894.",
+     "Start by visualizing the enzyme as a large protein with a small dent on its surface—that dent is the active site."
+    ]
+   },
+   {
+    "type": "order",
     "question": "A polypeptide segment has the sequence: Lys-Ala-Glu-Cys-Val. Identify the N-terminal and C-terminal residues, and write the conventional name for this pentapeptide using the -yl suffix rule.",
     "sortItems": [
      {
@@ -877,7 +1348,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong name (e.g., starting with Val) reveals misunderstanding of polypeptide polarity and naming convention.",
-    "id": "gen_c11_biotech_ch03_q2",
+    "id": "gen_c11_biotech_ch03_q3",
     "nodeId": "c11_biotech_cbse_03_003",
     "difficulty": "standard",
     "workedExample": [
@@ -898,7 +1369,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lipids' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Glycerophospholipid: glycerol backbone; fatty acids at sn-1 and sn-2 via ester bonds; phosphate at sn-3.",
-    "id": "gen_c11_biotech_ch03_q3",
+    "id": "gen_c11_biotech_ch03_q4",
     "nodeId": "c11_biotech_cbse_03_004",
     "difficulty": "standard",
     "workedExample": [
@@ -914,12 +1385,12 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "answer": "The steroid nucleus consists of three cyclohexane rings (A, B, C) and one cyclopentane ring (D) fused together",
     "options": [
      "Macro-minerals: Calcium (structural component of hydroxyapatite in bones/teeth, also second messenger in cell signaling) and Potassium (maintains resting membrane potential",
-     "Primary: Two domains — N-terminal 20 residues rich in hydrophobic residues (Leu, Ile, Val) for dimer interface",
+     "The assessment runs: (1) Note the inhibitor carries an aromatic side chain like the enzyme's preferred residues (2) The hydrophobic pocket accepts a correct shape regardless of a",
      "The steroid nucleus consists of three cyclohexane rings (A, B, C) and one cyclopentane ring (D) fused together"
     ],
     "hint": "Straight from the 'Steroids' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"three rings\" or \"20 carbons\") reveals that the student has not memorized the systematic ring nomenclature and carbon count that is standard for naming steroid derivatives in board exams.",
-    "id": "gen_c11_biotech_ch03_q4",
+    "id": "gen_c11_biotech_ch03_q5",
     "nodeId": "c11_biotech_cbse_03_005",
     "difficulty": "standard",
     "workedExample": [
@@ -934,13 +1405,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "A eukaryotic mRNA has the sequence 5'-GCC AUG GCU UAA-3' (where AUG = start, UAA = stop). Write the anticodon sequence of the tRNA that would deliver the second amino acid, and explain why the anticodon is written 3'→5' relative to the mRNA codon.",
     "answer": "Second codon = GCU (Ala). Anticodon = 3'-CGA-5' (complementary, antiparallel). Written 3'→5' because tRNA anticodon loop reads mRNA 5'→3' in antiparallel orientation",
     "options": [
-     "Iodine is incorporated into tyrosine residues of thyroglobulin to form monoiodotyrosine (MIT) and diiodotyrosine (DIT), which couple to produce T₃ and T₄",
+     "A valid analog: 2',3'-dideoxynucleoside 5'-triphosphate (ddNTP) — remove both the 2'-OH and 3'-OH from the pentose sugar",
      "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble",
      "Second codon = GCU (Ala). Anticodon = 3'-CGA-5' (complementary, antiparallel). Written 3'→5' because tRNA anticodon loop reads mRNA 5'→3' in antiparallel orientation"
     ],
     "hint": "Straight from the 'RNA' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 5'-AGC-3' or 5'-CGA-3') reveals failure to apply antiparallel base-pairing rules or confusion between codon/anticodon directionality conventions.",
-    "id": "gen_c11_biotech_ch03_q5",
+    "id": "gen_c11_biotech_ch03_q6",
     "nodeId": "c11_biotech_cbse_03_007",
     "difficulty": "standard",
     "workedExample": [
@@ -955,13 +1426,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "Design a hypothetical nucleotide analog that could act as a chain terminator in DNA sequencing (like ddNTPs). Specify the modification at the sugar and explain why it prevents further elongation.",
     "answer": "A valid analog: 2',3'-dideoxynucleoside 5'-triphosphate (ddNTP) — remove both the 2'-OH and 3'-OH from the pentose sugar",
     "options": [
+     "Ala-Ser: N-terminal = Ala, C-terminal = Ser. Name: Alanyl-L-serine. Peptide bond between Ala carbonyl C and Ser amide N",
      "N-terminal: Lysine; C-terminal: Valine. Name: Lysyl-alanyl-glutamyl-cysteinyl-valine. Steps: (1) Identify free amino group (Lys) and free carboxyl group (Val)",
-     "Primary: Two domains — N-terminal 20 residues rich in hydrophobic residues (Leu, Ile, Val) for dimer interface",
      "A valid analog: 2',3'-dideoxynucleoside 5'-triphosphate (ddNTP) — remove both the 2'-OH and 3'-OH from the pentose sugar"
     ],
     "hint": "Straight from the 'nucleoside consists of a' slide -- match the key terms.",
     "misconception": "A poor answer that only removes the 2'-OH (creating a 3'-deoxy analog) or modifies the base shows misunderstanding of the 3'-OH's role as the nucleophile in polymerization.",
-    "id": "gen_c11_biotech_ch03_q6",
+    "id": "gen_c11_biotech_ch03_q7",
     "nodeId": "c11_biotech_cbse_03_008",
     "difficulty": "standard",
     "workedExample": [
@@ -981,7 +1452,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value in kJ.",
     "misconception": "A wrong answer (e.g., forgetting to convert mass to moles for vaporization, or using ΔHvap in J·g⁻¹) reveals the student cannot distinguish between specific heat (per gram) and molar enthalpy (per mole) or misses unit conversions.",
-    "id": "gen_c11_biotech_ch03_q7",
+    "id": "gen_c11_biotech_ch03_q8",
     "nodeId": "c11_biotech_cbse_03_009",
     "difficulty": "standard",
     "workedExample": [
@@ -1055,7 +1526,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists foods without addressing enhancers/inhibitors or ignores the B₁₂ challenge in vegetarian diets, showing inability to synthesize knowledge into practical application.",
-    "id": "gen_c11_biotech_ch03_q8",
+    "id": "gen_c11_biotech_ch03_q9",
     "nodeId": "c11_biotech_cbse_03_010",
     "difficulty": "standard",
     "workedExample": [
@@ -1066,17 +1537,89 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of points that decide whether the lock and key model can explain chymotrypsin binding a competitive inhibitor.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Note the inhibitor carries an aromatic side",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The hydrophobic pocket accepts a correct",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Binding without reaction follows",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The lock and key model therefore supports",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls the model falsified shows the student has missed that the model requires only a matching shape, never a bond to break.",
+    "id": "gen_c11_biotech_ch03_q10",
+    "nodeId": "c11_biotech_cbse_04_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A polypeptide segment has the sequence: Lys-Ala-Glu-Cys-Val. Identify the N-terminal and C-terminal residues, and write the conventional name for this pentapeptide using the -yl suffix rule.",
+    "answer": "N-terminal: Lysine; C-terminal: Valine. Name: Lysyl-alanyl-glutamyl-cysteinyl-valine. Steps: (1) Identify free amino group (Lys) and free carboxyl group (Val)",
+    "options": [
+     "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble",
+     "Ala-Ser: N-terminal = Ala, C-terminal = Ser. Name: Alanyl-L-serine. Peptide bond between Ala carbonyl C and Ser amide N",
+     "N-terminal: Lysine; C-terminal: Valine. Name: Lysyl-alanyl-glutamyl-cysteinyl-valine. Steps: (1) Identify free amino group (Lys) and free carboxyl group (Val)"
+    ],
+    "hint": "Straight from the 'Protein structure' slide -- match the key terms.",
+    "misconception": "A wrong name (e.g., starting with Val) reveals misunderstanding of polypeptide polarity and naming convention.",
+    "id": "gen_c11_biotech_ch03_q11",
+    "nodeId": "c11_biotech_cbse_03_003",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Design a hypothetical 40-residue protein that would form a stable homodimer (quaternary structure) but each monomer remains unstructured in isolation. Describe the sequence features you would include at each structural level to achieve this.",
     "answer": "Primary: Two domains — N-terminal 20 residues rich in hydrophobic residues (Leu, Ile, Val) for dimer interface",
     "options": [
+     "The reasoning runs: (1) The cleft offers six subsites shaped for the sugar chain (2) A three-unit substrate can occupy a subset of these subsites (3) Fewer occupied subsites mean",
      "Second codon = GCU (Ala). Anticodon = 3'-CGA-5' (complementary, antiparallel). Written 3'→5' because tRNA anticodon loop reads mRNA 5'→3' in antiparallel orientation",
-     "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble",
      "Primary: Two domains — N-terminal 20 residues rich in hydrophobic residues (Leu, Ile, Val) for dimer interface"
     ],
     "hint": "Straight from the 'Protein structure' slide -- match the key terms.",
     "misconception": "A poor answer ignores the coupling between levels (e.g., designing a stable monomer fold) or omits specific residue-level rationale.",
-    "id": "gen_c11_biotech_ch03_q9",
+    "id": "gen_c11_biotech_ch03_q12",
     "nodeId": "c11_biotech_cbse_03_003",
     "difficulty": "standard"
    },
@@ -1091,7 +1634,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Steroids' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"phytosterols make membranes more fluid\" without explaining the steric effect shows the student cannot analyze how a single carbon substitution changes biophysical properties.",
-    "id": "gen_c11_biotech_ch03_q10",
+    "id": "gen_c11_biotech_ch03_q13",
     "nodeId": "c11_biotech_cbse_03_005",
     "difficulty": "standard"
    },
@@ -1102,12 +1645,12 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "options": [
      "Vitamin A is fat-soluble, stored in hepatic stellate cells; chronic excess causes hypervitaminosis A (hepatotoxicity, teratogenicity",
      "Glycerophospholipid: glycerol backbone; fatty acids at sn-1 and sn-2 via ester bonds; phosphate at sn-3",
-     "Fe-S: 30S subunit (16S rRNA) + 50S subunit (23S + 5S rRNA) = 70S. Eukaryotic: 40S subunit (18S rRNA) + 60S subunit (28S + 5",
+     "Modify: 30S subunit (16S rRNA) + 50S subunit (23S + 5S rRNA) = 70S. Eukaryotic: 40S subunit (18S rRNA) + 60S subunit (28S + 5",
      "Prokaryotic: 30S subunit (16S rRNA) + 50S subunit (23S + 5S rRNA) = 70S. Eukaryotic: 40S subunit (18S rRNA) + 60S subunit (28S + 5"
     ],
     "hint": "Straight from the 'RNA' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"30+50=80\") reveals treating S as molecular weight rather than hydrodynamic property.",
-    "id": "gen_c11_biotech_ch03_q11",
+    "id": "gen_c11_biotech_ch03_q14",
     "nodeId": "c11_biotech_cbse_03_007",
     "difficulty": "standard"
    },
@@ -1117,12 +1660,12 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "answer": "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble",
     "options": [
      "Ala-Ser: N-terminal = Ala, C-terminal = Ser. Name: Alanyl-L-serine. Peptide bond between Ala carbonyl C and Ser amide N",
-     "A valid analog: 2',3'-dideoxynucleoside 5'-triphosphate (ddNTP) — remove both the 2'-OH and 3'-OH from the pentose sugar",
+     "The reasoning runs: (1) The cleft offers six subsites shaped for the sugar chain (2) A three-unit substrate can occupy a subset of these subsites (3) Fewer occupied subsites mean",
      "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble"
     ],
     "hint": "Straight from the 'RNA' slide -- match the key terms.",
     "misconception": "A poor answer proposes chemically implausible modifications or ignores the evolutionary trade-off between versatility and fidelity.",
-    "id": "gen_c11_biotech_ch03_q12",
+    "id": "gen_c11_biotech_ch03_q15",
     "nodeId": "c11_biotech_cbse_03_007",
     "difficulty": "standard"
    },
@@ -1137,7 +1680,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'RNA' slide -- match the key terms.",
     "misconception": "A wrong answer reveals treating modifications as generic \"stability tags\" rather than distinct functional modules.",
-    "id": "gen_c11_biotech_ch03_q13",
+    "id": "gen_c11_biotech_ch03_q16",
     "nodeId": "c11_biotech_cbse_03_007",
     "difficulty": "standard"
    },
@@ -1152,68 +1695,24 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Water' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"ice is heavier so it sinks\" or \"hydrogen bonds are shorter in ice\") reveals misunderstanding of H-bond geometry and its volumetric consequence.",
-    "id": "gen_c11_biotech_ch03_q14",
+    "id": "gen_c11_biotech_ch03_q17",
     "nodeId": "c11_biotech_cbse_03_009",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A 10-year-old child living in a region with iodine-deficient soil develops a goiter. Using your knowledge of thyroid hormone synthesis, explain the mechanistic link between iodine deficiency and thyroid enlargement.",
-    "answer": "Iodine is incorporated into tyrosine residues of thyroglobulin to form monoiodotyrosine (MIT) and diiodotyrosine (DIT), which couple to produce T₃ and T₄",
+    "question": "You are given 100 mL of water at 25°C. Calculate the energy (in kJ) required to heat it to 100°C and then completely vaporize it. Use: specific heat capacity of water = 4.18 J·g⁻¹·K⁻¹, heat of vaporization = 44 kJ·mol⁻¹, density of water = 1.00 g·mL⁻¹. Show all steps.",
+    "answer": "Step 1: Mass of water = 100 mL × 1.00 g·mL⁻¹ = 100 g. Step 2: Energy to heat from 25°C to 100°C = m·c·ΔT = 100 g × 4",
     "options": [
-     "N-terminal: Lysine; C-terminal: Valine. Name: Lysyl-alanyl-glutamyl-cysteinyl-valine. Steps: (1) Identify free amino group (Lys) and free carboxyl group (Val)",
      "Primary: Two domains — N-terminal 20 residues rich in hydrophobic residues (Leu, Ile, Val) for dimer interface",
-     "Iodine is incorporated into tyrosine residues of thyroglobulin to form monoiodotyrosine (MIT) and diiodotyrosine (DIT), which couple to produce T₃ and T₄"
+     "Second codon = GCU (Ala). Anticodon = 3'-CGA-5' (complementary, antiparallel). Written 3'→5' because tRNA anticodon loop reads mRNA 5'→3' in antiparallel orientation",
+     "Step 1: OH of water = 100 mL × 1.00 g·mL⁻¹ = 100 g. Step 2: Energy to heat from 25°C to 100°C = m·c·ΔT = 100 g × 4",
+     "Step 1: Mass of water = 100 mL × 1.00 g·mL⁻¹ = 100 g. Step 2: Energy to heat from 25°C to 100°C = m·c·ΔT = 100 g × 4"
     ],
-    "hint": "Straight from the 'Minerals' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"iodine makes thyroid hormone, so lack of it causes swelling\" misses the *feedback loop* mechanism; the student must articulate the endocrine axis (hypothalamus-pituitary-thyroid) to show analytical reasoning.",
-    "id": "gen_c11_biotech_ch03_q15",
-    "nodeId": "c11_biotech_cbse_03_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare and contrast the consequences of excess intake of vitamin A (retinol) versus vitamin C (ascorbic acid). Why does the body handle these two excesses so differently?",
-    "answer": "Vitamin A is fat-soluble, stored in hepatic stellate cells; chronic excess causes hypervitaminosis A (hepatotoxicity, teratogenicity",
-    "options": [
-     "Glycerophospholipid: glycerol backbone; fatty acids at sn-1 and sn-2 via ester bonds; phosphate at sn-3",
-     "Both cholesterol and phytosterols modulate membrane fluidity by inserting between phospholipid fatty acyl chains",
-     "Vitamin A is fat-soluble, stored in hepatic stellate cells; chronic excess causes hypervitaminosis A (hepatotoxicity, teratogenicity"
-    ],
-    "hint": "Straight from the 'Minerals' slide -- match the key terms.",
-    "misconception": "A wrong answer stating \"both are vitamins so both are safe in excess\" or \"vitamin C causes liver damage\" reveals the misconception that all vitamins behave similarly, ignoring the fundamental physicochemical property of solubility.",
-    "id": "gen_c11_biotech_ch03_q16",
-    "nodeId": "c11_biotech_cbse_03_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"Taking a daily multivitamin-mineral supplement guarantees optimal enzymatic function and prevents all deficiency diseases.\"",
-    "answer": "The claim is false. Supplements provide nutrients in isolated, often synthetic forms; bioavailability differs from food matrices (e",
-    "options": [
-     "Thiamine pyrophosphate (TPP) is the coenzyme for pyruvate dehydrogenase complex (PDH) and α-ketoglutarate dehydrogenase in the TCA cycle",
-     "Refute. 5' cap (m⁷GpppN) binds eIF4E for ribosome recruitment and protects from 5'→3' exonucleases",
-     "The claim is false. Supplements provide nutrients in isolated, often synthetic forms; bioavailability differs from food matrices (e"
-    ],
-    "hint": "Straight from the 'Minerals' slide -- match the key terms.",
-    "misconception": "A wrong answer that simply agrees or disagrees without biochemical justification shows lack of critical evaluation skill.",
-    "id": "gen_c11_biotech_ch03_q17",
-    "nodeId": "c11_biotech_cbse_03_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why a deficiency of vitamin B₁ (thiamine) leads to elevated blood pyruvate and lactate levels, and why this particularly affects the nervous system.",
-    "answer": "Thiamine pyrophosphate (TPP) is the coenzyme for pyruvate dehydrogenase complex (PDH) and α-ketoglutarate dehydrogenase in the TCA cycle",
-    "options": [
-     "In ice, each water molecule forms four stable H-bonds in a tetrahedral arrangement, creating an open hexagonal lattice with large empty spaces → lower density (0",
-     "The claim is false. Supplements provide nutrients in isolated, often synthetic forms; bioavailability differs from food matrices (e",
-     "Thiamine pyrophosphate (TPP) is the coenzyme for pyruvate dehydrogenase complex (PDH) and α-ketoglutarate dehydrogenase in the TCA cycle"
-    ],
-    "hint": "Straight from the 'Minerals' slide -- match the key terms.",
-    "misconception": "A wrong answer that merely says \"thiamine helps energy production\" without naming the specific enzyme complexes shows superficial understanding – the student knows the vitamin is \"for energy\" but cannot link it to the biochemical bottleneck.",
+    "hint": "Straight from the 'Water' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., forgetting to convert mass to moles for vaporization, or using ΔHvap in J·g⁻¹) reveals the student cannot distinguish between specific heat (per gram) and molar enthalpy (per mole) or misses unit conversions.",
     "id": "gen_c11_biotech_ch03_q18",
-    "nodeId": "c11_biotech_cbse_03_010",
+    "nodeId": "c11_biotech_cbse_03_009",
     "difficulty": "standard"
    }
   ],
@@ -1677,6 +2176,21 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate the statement: \"Mitosis alone is sufficient for wound healing in human skin.\" Consider the roles of cell migration, differentiation, and apoptosis.",
+    "answer": "False. Mitosis provides new cells, but healing also requires: (1) migration of keratinocytes/fibroblasts across the wound (c11_biotech_cbse_05_006)",
+    "options": [
+     "Refute. While chromosome number reduction is essential for sexual reproduction, the mechanisms generating variation are not passive by-products but active",
+     "Inaccurate. Terminally differentiated neurons exit the cell cycle at the G1 restriction point and enter G0 (quiescent stage)",
+     "False. Mitosis provides new cells, but healing also requires: (1) migration of keratinocytes/fibroblasts across the wound (c11_biotech_cbse_05_006)"
+    ],
+    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "misconception": "A student who agrees overlooks that uncontrolled mitosis without migration/differentiation/apoptosis leads to hyperplasia or keloids, not organized repair.",
+    "id": "gen_c11_biotech_ch05_q14",
+    "nodeId": "c11_biotech_cbse_05_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A student claims: \"Meiosis II is exactly like mitosis because both separate sister chromatids.\" Is this statement correct? Justify your answer with two specific differences in the starting chromosome configuration.",
     "answer": "The statement is incorrect. Two key differences: (1) Meiosis II starts with haploid (n) chromosomes each composed of two sister chromatids",
     "options": [
@@ -1686,7 +2200,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Meiosis II' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student is focusing only on the mechanical separation event and ignoring the ploidy context and genetic consequences of prior recombination.",
-    "id": "gen_c11_biotech_ch05_q14",
+    "id": "gen_c11_biotech_ch05_q15",
     "nodeId": "c11_biotech_cbse_05_006",
     "difficulty": "advanced"
    },
@@ -1701,7 +2215,22 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Meiosis II' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., just \"label DNA\") reveals inability to design experiments that exploit the conceptual difference rather than the mechanical similarity.",
-    "id": "gen_c11_biotech_ch05_q15",
+    "id": "gen_c11_biotech_ch05_q16",
+    "nodeId": "c11_biotech_cbse_05_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate this claim: \"Interkinesis between Meiosis I and II is functionally equivalent to a G1 phase because no DNA replication occurs.\" Support or refute with three specific differences between interkinesis and a typical G1 phase.",
+    "answer": "Refute. Three differences: (1) Interkinesis lacks a G1/S checkpoint — the cell is committed to Meiosis II regardless of size/nutrient signals",
+    "options": [
+     "During prophase, cohesin on chromosome arms is removed by Wapl-Pds5 (prophase pathway), allowing chromosome individualization",
+     "Similarity: both rely on mitosis of somatic cells to restore tissue mass. Difference: planarians use pluripotent neoblasts (stem cells) that migrate and differentiate",
+     "Refute. Three differences: (1) Interkinesis lacks a G1/S checkpoint — the cell is committed to Meiosis II regardless of size/nutrient signals"
+    ],
+    "hint": "Straight from the 'Meiosis II' slide -- match the key terms.",
+    "misconception": "A wrong answer (accepting the claim) reveals superficial understanding of cell cycle phases — confusing \"no DNA replication\" with \"functional equivalence.\"",
+    "id": "gen_c11_biotech_ch05_q17",
     "nodeId": "c11_biotech_cbse_05_006",
     "difficulty": "advanced"
    },
@@ -1716,38 +2245,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Meiosis' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Design: Create a trihybrid organism heterozygous for three genes: A/a and B/b on chromosome 1 (linked, 20 map units",
-    "id": "gen_c11_biotech_ch05_q16",
-    "nodeId": "c11_biotech_cbse_05_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the specific stage of meiosis where crossing over occurs, and between which chromatids does it take place?",
-    "answer": "Crossing over occurs during the pachytene stage of Prophase I and takes place between non-sister chromatids of homologous chromosomes",
-    "options": [
-     "Cyclin D-CDK4/6 complex phosphorylates Rb in mid-to-late G1, leading to partial inactivation of Rb and release of E2F transcription factors",
-     "Inaccurate. Terminally differentiated neurons exit the cell cycle at the G1 restriction point and enter G0 (quiescent stage)",
-     "Crossing over occurs during the pachytene stage of Prophase I and takes place between non-sister chromatids of homologous chromosomes"
-    ],
-    "hint": "Straight from the 'Meiosis' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"prophase II\" or \"between sister chromatids\") reveals the student confuses meiotic stages or misunderstands that recombination requires homologous chromosomes, not identical sister chromatids.",
-    "id": "gen_c11_biotech_ch05_q17",
-    "nodeId": "c11_biotech_cbse_05_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a flow cytometry experiment using two fluorescent dyes to quantitatively distinguish early apoptotic, late apoptotic, necrotic, and viable cells in a mixed population. Specify the dyes, their targets, and the expected quadrant plot pattern for each population.",
-    "answer": "Use Annexin V-FITC (binds phosphatidylserine exposed on outer membrane leaflet) and Propidium Iodide (PI, intercalates DNA but only enters membrane-compromised cells)",
-    "options": [
-     "Autograft: yes (identical genome). Identical twin graft: yes (mitosis produces genetically identical cells, so twin's cells match patient's)",
-     "Design: Create a trihybrid organism heterozygous for three genes: A/a and B/b on chromosome 1 (linked, 20 map units apart), C/c on chromosome 2, D/d on chromosome 3",
-     "Use Annexin V-FITC (binds phosphatidylserine exposed on outer membrane leaflet) and Propidium Iodide (PI, intercalates DNA but only enters membrane-compromised cells)"
-    ],
-    "hint": "Straight from the 'Apoptosis' slide -- match the key terms.",
-    "misconception": "A poor answer (using only one dye or wrong dye targets) shows inability to design a controlled assay distinguishing membrane asymmetry loss from membrane rupture.",
     "id": "gen_c11_biotech_ch05_q18",
-    "nodeId": "c11_biotech_cbse_05_008",
+    "nodeId": "c11_biotech_cbse_05_007",
     "difficulty": "advanced"
    }
   ],
@@ -2950,6 +3449,21 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Compare and contrast the following two scenarios: (A) A tetraploid (4n) maize plant produced by colchicine treatment of a diploid (2n=20) line. (B) A human conceptus with 92 chromosomes (4n) resulting from fertilisation of a diploid egg by a diploid sperm.",
+    "answer": "Scenario A: Tetraploid maize (4n=40) is viable, often larger (\"gigas\" effect), fertile due to even chromosome pairing (bivalents or quadrivalents), and used in agriculture",
+    "options": [
+     "Centromere: nucleates kinetochore → microtubule attachment → segregation. Telomere: forms T-loop/shelterin complex → hides DNA end from NHEJ repair machinery → prevents fusion",
+     "t(8;14) places MYC oncogene (8q24) under control of immunoglobulin heavy chain enhancer (14q32) → constitutive MYC overexpression → uncontrolled B-cell proliferation (cancer)",
+     "Scenario A: Tetraploid maize (4n=40) is viable, often larger (\"gigas\" effect), fertile due to even chromosome pairing (bivalents or quadrivalents), and used in agriculture"
+    ],
+    "hint": "Straight from the 'Numerical chromosomal' slide -- match the key terms.",
+    "misconception": "A wrong answer claiming both are equally viable reveals lack of understanding of fundamental differences in developmental constraints between kingdoms.",
+    "id": "gen_c11_biotech_ch08_q7",
+    "nodeId": "c11_biotech_cbse_08_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a hypothetical crop improvement program using polyploidy to develop a new variety of a diploid vegetable (2n=18) with larger edible parts and seedlessness. Outline the steps, the type of polyploidy you would induce, and the cytogenetic verification methods at each stage.",
     "answer": "Steps: (1) Treat diploid (2n=18) meristems with colchicine to inhibit spindle formation, producing autotetraploid (4n=36) sectors",
     "options": [
@@ -2959,7 +3473,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Numerical chromosomal' slide -- match the key terms.",
     "misconception": "A poor answer omits the triploid bridge step or suggests using autotetraploid directly (which would be fertile and seeded), revealing misunderstanding that triploidy causes seedlessness via unbalanced gametes.",
-    "id": "gen_c11_biotech_ch08_q7",
+    "id": "gen_c11_biotech_ch08_q8",
     "nodeId": "c11_biotech_cbse_08_003",
     "difficulty": "standard"
    },
@@ -2974,7 +3488,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Translocation' slide -- match the key terms.",
     "misconception": "A poor answer using only whole-chromosome paints misses breakpoint resolution — FISH must target the specific gene region.",
-    "id": "gen_c11_biotech_ch08_q8",
+    "id": "gen_c11_biotech_ch08_q9",
     "nodeId": "c11_biotech_cbse_08_005",
     "difficulty": "advanced"
    }
@@ -2986,7 +3500,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    ]
   },
   "successLine": "Chromosome mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_biotech_ch09",
@@ -3325,6 +3840,21 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A colleague claims: \"Since MMDB is derived from PDB, it is redundant and we should only use PDB.\" Evaluate this statement and justify your position.",
+    "answer": "The statement is false. MMDB adds value: (1) it converts PDB's legacy format into ASN.1 (structured data model) with explicit bond orders and hydrogen atoms",
+    "options": [
+     "START: What is your primary need? ├─ Need raw experimental data with original submitter metadata? → YES → PRIMARY (GenBank, PDB, SRA) │ └─ NO → Need expert-curated, annotated",
+     "Example project: \"How does the active site of serine proteases differ across species?\" Steps: 1) Search PDB for \"serine protease\" with taxonomy filters (human, mouse, bacteria)",
+     "The statement is false. MMDB adds value: (1) it converts PDB's legacy format into ASN.1 (structured data model) with explicit bond orders and hydrogen atoms"
+    ],
+    "hint": "Straight from the 'Structure databases' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. MMDB adds value: (1) it converts PDB's legacy format into ASN.",
+    "id": "gen_c11_biotech_ch09_q11",
+    "nodeId": "c11_biotech_cbse_09_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a mini-project for a Class 11 student to explore the relationship between protein structure and function using PDB. Specify the research question, database queries, and expected output.",
     "answer": "Example project: \"How does the active site of serine proteases differ across species?\" Steps: 1) Search PDB for \"serine protease\" with taxonomy filters (human, mouse, bacteria)",
     "options": [
@@ -3334,7 +3864,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Structure databases' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example project: \"How does the active site of serine proteases differ across species?",
-    "id": "gen_c11_biotech_ch09_q11",
+    "id": "gen_c11_biotech_ch09_q12",
     "nodeId": "c11_biotech_cbse_09_004",
     "difficulty": "standard"
    },
@@ -3349,7 +3879,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Structure databases' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"download the file and count lines\") shows inability to use database interfaces for biological insight.",
-    "id": "gen_c11_biotech_ch09_q12",
+    "id": "gen_c11_biotech_ch09_q13",
     "nodeId": "c11_biotech_cbse_09_004",
     "difficulty": "standard"
    },
@@ -3364,8 +3894,23 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pairwise sequence alignment using' slide -- match the key terms.",
     "misconception": "A poor answer would just list parameters without modifying the recurrence structure, or would keep linear gap penalty.",
-    "id": "gen_c11_biotech_ch09_q13",
+    "id": "gen_c11_biotech_ch09_q14",
     "nodeId": "c11_biotech_cbse_09_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A researcher wants to find remote homologs of a 200-aa protein domain. She runs blastp with default parameters (BLOSUM62, gap open=11, extend=1) and gets no significant hits. She then tries: (i) BLOSUM45, (ii) decreasing gap open penalty to 7, (iii) using tblastn against EST databases.",
+    "answer": "Correct critique: (i) BLOSUM45 is better for distant relationships (lower number = more divergent sequences clustered) – increases sensitivity",
+    "options": [
+     "Steps: 1) Go to rcsb.org and enter \"4HHB\" in the search bar. 2) Open the entry page; under \"Macromolecules\" see 4 chains (2 alpha, 2 beta)",
+     "START: What is your primary need? ├─ Need raw experimental data with original submitter metadata? → YES → PRIMARY (GenBank, PDB, SRA) │ └─ NO → Need expert-curated, annotated",
+     "Correct critique: (i) BLOSUM45 is better for distant relationships (lower number = more divergent sequences clustered) – increases sensitivity"
+    ],
+    "hint": "Straight from the 'BLAST' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Correct critique: (i) BLOSUM45 is better for distant relationships (lower number = more divergent sequences clustered)",
+    "id": "gen_c11_biotech_ch09_q15",
+    "nodeId": "c11_biotech_cbse_09_009",
     "difficulty": "advanced"
    },
    {
@@ -3379,7 +3924,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'BLAST' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"just run blastp and take top hit\") reveals the student confuses homology (any common ancestry) with orthology (speciation-derived) and ignores paralogs from gene duplication. This synthesis question mirrors competency-based exam tasks.",
-    "id": "gen_c11_biotech_ch09_q14",
+    "id": "gen_c11_biotech_ch09_q16",
     "nodeId": "c11_biotech_cbse_09_009",
     "difficulty": "advanced"
    }
@@ -3408,7 +3953,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
   "nodeIds": [
    "c11_biotech_cbse_10_003",
    "c11_biotech_cbse_10_006",
-   "c11_biotech_cbse_10_007"
+   "c11_biotech_cbse_10_007",
+   "c11_biotech_cbse_10_008"
   ],
   "emoji": "🧬",
   "theme": {
@@ -3444,6 +3990,12 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "text": "Molecular visualisation tools are software applications that render three-dimensional protein structures from atomic coordinate files (primarily PDB format) into interactive graphical representations, enabling analysis of spatial geometry, secondary structure",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Protein-protein Interaction Prediction",
+    "text": "Protein-protein interaction (PPI) prediction methods are computational techniques used to identify and characterize physical associations between two or more protein molecules based on sequence, structure, or network data, enabling the reconstruction of",
+    "emoji": "🧬",
+    "bgColor": "from-amber-400 to-orange-500"
    }
   ],
   "challenges": [
@@ -3452,8 +4004,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "State the three secondary structure states predicted by both Chou-Fasman and GOR methods and the single-letter codes conventionally used to represent them in output files.",
     "answer": "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)",
     "options": [
-     "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
-     "Residues 1–6 all have Pα > 1.00 (Ala 1.42, Glu 1.51, Leu 1.21, Lys 1.16, Met 1.45, Phe 1.13). Therefore the entire hexapeptide forms a single helix nucleation site spanning",
+     "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the",
+     "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known",
      "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)"
     ],
     "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
@@ -3474,7 +4026,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "answer": "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
     "options": [
      "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)",
-     "Chou-Fasman assigns proline a very low Pα (0.57) and high Pτ (1.52), so it acts as a strong helix breaker during extension; the helix stops before proline",
+     "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the",
      "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond"
     ],
     "hint": "Straight from the 'Ramachandran Plot' slide -- match the key terms.",
@@ -3511,6 +4063,126 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of stages in a domain-based prediction of partners for a new protein with annotated domains.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Rank candidates by how completely",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Scan the protein against domain databases",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Map the partner domains back to proteins",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Look up known domain-domain interactions",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats any domain sharing as a genuine interaction shows the student has missed that domain-based prediction infers binding from established interacting pairs, not from co-occurrence alone.",
+    "id": "gen_c11_biotech_ch10_q4",
+    "nodeId": "c11_biotech_cbse_10_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you have discovered a novel hypothetical protein from a genomic sequence (as discussed in c11_biotech_cbse_10_008) and you need to find its",
+     "You cannot run wet-lab experiments for thousands of candidates.",
+     "Begin by asking: \"What computational evidence can link this protein to others?\" First, check if its sequence has homologs in databases like STRING or",
+     "If no homologs exist, analyse its domain architecture using InterPro (from c11_biotech_cbse_10_001) to infer partners via known domain-domain"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of evidence types in a hybrid pipeline that predicts host targets of a pathogen effector with no homologs.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Apply guilt by association on host-pathogen",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Detect a structured C-terminal domain family",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Scan the disordered N-terminus for short",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Merge the ranked lists with confidence",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that trusts a single evidence type shows the student has missed that prediction strength comes from combining motif, domain and network signals.",
+    "id": "gen_c11_biotech_ch10_q5",
+    "nodeId": "c11_biotech_cbse_10_008",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A researcher runs both methods on a 100-residue protein and obtains 62% Q3 accuracy for Chou-Fasman and 68% for GOR. She concludes GOR is universally superior. Critique this conclusion using two methodological considerations.",
     "answer": "First, Q3 accuracy on a single protein is statistically unreliable; benchmarking requires large, non-redundant datasets (e",
@@ -3521,7 +4193,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
     "misconception": "A student who accepts the conclusion uncritically fails to appreciate the historical context and evaluation rigour required in bioinformatics.",
-    "id": "gen_c11_biotech_ch10_q4",
+    "id": "gen_c11_biotech_ch10_q6",
     "nodeId": "c11_biotech_cbse_10_003",
     "difficulty": "advanced"
    },
@@ -3536,7 +4208,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Chou-Fasman assigns proline a very low Pα (0.57) and high Pτ (1.52), so it acts as a strong helix breaker during",
-    "id": "gen_c11_biotech_ch10_q5",
+    "id": "gen_c11_biotech_ch10_q7",
     "nodeId": "c11_biotech_cbse_10_003",
     "difficulty": "advanced"
    },
@@ -3551,7 +4223,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
     "misconception": "A poor answer merely states \"add proline\" without showing the window calculation.",
-    "id": "gen_c11_biotech_ch10_q6",
+    "id": "gen_c11_biotech_ch10_q8",
     "nodeId": "c11_biotech_cbse_10_003",
     "difficulty": "advanced"
    },
@@ -3566,7 +4238,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
     "misconception": "A student who says \"both use nucleation\" confuses the cooperative physics of helix formation with the statistical framework of GOR.",
-    "id": "gen_c11_biotech_ch10_q7",
+    "id": "gen_c11_biotech_ch10_q9",
     "nodeId": "c11_biotech_cbse_10_003",
     "difficulty": "advanced"
    },
@@ -3581,7 +4253,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
     "misconception": "A student who misses this because they only check tetrapeptides misunderstands the \"four out of six\" rule and will under-predict helices in longer sequences.",
-    "id": "gen_c11_biotech_ch10_q8",
+    "id": "gen_c11_biotech_ch10_q10",
     "nodeId": "c11_biotech_cbse_10_003",
     "difficulty": "advanced"
    },
@@ -3596,7 +4268,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ramachandran Plot' slide -- match the key terms.",
     "misconception": "A student who confuses quadrant locations or claims α_L is \"disallowed\" confuses steric allowance with thermodynamic preference.",
-    "id": "gen_c11_biotech_ch10_q9",
+    "id": "gen_c11_biotech_ch10_q11",
     "nodeId": "c11_biotech_cbse_10_006",
     "difficulty": "advanced"
    },
@@ -3611,7 +4283,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular visualisation tools' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: PyMOL is far more suitable. Its Python-embedded scripting allows loops, conditionals, and functions (e.",
-    "id": "gen_c11_biotech_ch10_q10",
+    "id": "gen_c11_biotech_ch10_q12",
     "nodeId": "c11_biotech_cbse_10_007",
     "difficulty": "advanced"
    },
@@ -3626,8 +4298,38 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular visualisation tools' slide -- match the key terms.",
     "misconception": "A poor answer hardcodes the filename, uses select all instead of byres, or omits cmd.util.cbag (standard element colouring). This reveals inability to translate a multi-step visualisation workflow into reproducible code — a core competency for structural bioinformatics.",
-    "id": "gen_c11_biotech_ch10_q11",
+    "id": "gen_c11_biotech_ch10_q13",
     "nodeId": "c11_biotech_cbse_10_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of stages in a domain-based prediction of partners for a new protein with annotated domains.",
+    "answer": "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the",
+    "options": [
+     "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
+     "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known",
+     "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the"
+    ],
+    "hint": "Straight from the 'Protein-protein interaction' slide -- match the key terms.",
+    "misconception": "A wrong answer that treats any domain sharing as a genuine interaction shows the student has missed that domain-based prediction infers binding from established interacting pairs, not from co-occurrence alone.",
+    "id": "gen_c11_biotech_ch10_q14",
+    "nodeId": "c11_biotech_cbse_10_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of evidence types in a hybrid pipeline that predicts host targets of a pathogen effector with no homologs.",
+    "answer": "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known",
+    "options": [
+     "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)",
+     "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
+     "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known"
+    ],
+    "hint": "Straight from the 'Protein-protein interaction' slide -- match the key terms.",
+    "misconception": "A wrong answer that trusts a single evidence type shows the student has missed that prediction strength comes from combining motif, domain and network signals.",
+    "id": "gen_c11_biotech_ch10_q15",
+    "nodeId": "c11_biotech_cbse_10_008",
     "difficulty": "advanced"
    }
   ],
@@ -3659,6 +4361,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    "c11_biotech_cbse_11_005",
    "c11_biotech_cbse_11_006",
    "c11_biotech_cbse_11_007",
+   "c11_biotech_cbse_11_008",
    "c11_biotech_cbse_11_009",
    "c11_biotech_cbse_11_010"
   ],
@@ -3714,6 +4417,12 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "text": "Sequence manipulation in biotechnology programming refers to the computational implementation of central dogma processes: transcription (converting a DNA coding strand sequence to mRNA by replacing thymine with uracil) and translation (converting mRNA codons",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Dynamic Programming For Sequence Alignment",
+    "text": "Dynamic programming for sequence alignment is an algorithmic technique that guarantees finding the optimal pairwise alignment (global or local) by breaking the problem into smaller subproblems, storing their solutions in a scoring matrix, and using a",
+    "emoji": "🧬",
+    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Biological Data Formats",
@@ -3949,6 +4658,25 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "math_input",
+    "question": "Calculate the score in cell (3,3) of the Needleman-Wunsch matrix for SEQ1 = GATTACA and SEQ2 = GCATGCU with match +2, mismatch -1 and gap -2.",
+    "answer": "0",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer of 2 or -3 shows the student took a single neighbour instead of the maximum of all three recurrence choices.",
+    "id": "gen_c11_biotech_ch11_q7",
+    "nodeId": "c11_biotech_cbse_11_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you have two short DNA sequences from different strains of *Mycobacterium tuberculosis* isolated in India, and you want to find the exact",
+     "You could try aligning them by eye, but with longer sequences that becomes impossible.",
+     "Dynamic programming solves this by building a grid where each cell represents the best alignment score up to that position.",
+     "Start by defining a scoring scheme (e.g., +1 for match, -1 for mismatch, -2 for gap)."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Given a FASTA file containing 50 sequences, a student writes record = SeqIO.read(\"file.fasta\", \"fasta\") and gets a ValueError: More than one record found. They then change to records = SeqIO.",
     "answer": "SeqIO.parse() returns a generator (iterator), not a list; if the student iterates over it once (e.g",
@@ -3959,7 +4687,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Biological data formats' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: SeqIO.parse() returns a generator (iterator), not a list; if the student iterates over it once (e.",
-    "id": "gen_c11_biotech_ch11_q7",
+    "id": "gen_c11_biotech_ch11_q8",
     "nodeId": "c11_biotech_cbse_11_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -4022,7 +4750,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer that manually hardcodes accessions or uses only one database shows lack of automation and cross-database linking.",
-    "id": "gen_c11_biotech_ch11_q8",
+    "id": "gen_c11_biotech_ch11_q9",
     "nodeId": "c11_biotech_cbse_11_010",
     "difficulty": "standard",
     "workedExample": [
@@ -4074,7 +4802,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong evaluation reveals the student conflates pattern matching (searching for known motifs) with sequence alignment (measuring similarity between unknown sequences).",
-    "id": "gen_c11_biotech_ch11_q9",
+    "id": "gen_c11_biotech_ch11_q10",
     "nodeId": "c11_biotech_cbse_11_004",
     "difficulty": "advanced"
    },
@@ -4153,7 +4881,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., missing capture groups or not escaping ^) reveals the student cannot decompose a structured biological string into reusable components using capture groups.",
-    "id": "gen_c11_biotech_ch11_q10",
+    "id": "gen_c11_biotech_ch11_q11",
     "nodeId": "c11_biotech_cbse_11_004",
     "difficulty": "advanced"
    },
@@ -4199,7 +4927,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that only suggests \"use a faster internet connection\" shows inability to diagnose server-side throttling.",
-    "id": "gen_c11_biotech_ch11_q11",
+    "id": "gen_c11_biotech_ch11_q12",
     "nodeId": "c11_biotech_cbse_11_010",
     "difficulty": "standard"
    },
@@ -4214,7 +4942,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "A student who agrees overlooks the domain-specific functionality that justifies using Biopython in the first place.",
-    "id": "gen_c11_biotech_ch11_q12",
+    "id": "gen_c11_biotech_ch11_q13",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
    },
@@ -4229,7 +4957,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "If a student chooses list because \"it's simpler,\" they ignore the performance implications for datasets with thousands of genes.",
-    "id": "gen_c11_biotech_ch11_q13",
+    "id": "gen_c11_biotech_ch11_q14",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
    },
@@ -4244,7 +4972,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "A poor answer might omit newline=\"\" (causing blank rows on Windows), use manual string splitting instead of csv.writer, or forget to handle file closing—indicating gaps in practical file I/O robustness.",
-    "id": "gen_c11_biotech_ch11_q14",
+    "id": "gen_c11_biotech_ch11_q15",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
    },
@@ -4259,7 +4987,22 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "If a student says \"indentation is just a style choice,\" they miss the pedagogical point that Python's design intentionally lowers cognitive load for non-programmers.",
-    "id": "gen_c11_biotech_ch11_q15",
+    "id": "gen_c11_biotech_ch11_q16",
+    "nodeId": "c11_biotech_cbse_11_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is the primary reason Python is preferred over Perl for modern bioinformatics workflows, according to the NCERT textbook?",
+    "answer": "The NCERT highlights three reasons: (i) clear meaning of terms and statement structure, (ii) expressivity and alignment with object-oriented programming",
+    "options": [
+     "A RESTful API allows programs to query remote biological databases (like NCBI or UniProt) using standard HTTP methods (GET, POST) and receive structured data (XML, JSON",
+     "The pattern /A[TC]G/ matches any 3-base sequence starting with A, ending with G, and having either T or C in the middle. It can match exactly 2 sequences: ATG and ACG",
+     "The NCERT highlights three reasons: (i) clear meaning of terms and statement structure, (ii) expressivity and alignment with object-oriented programming"
+    ],
+    "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"Python is faster than Perl\") reveals the student is relying on general programming hearsay instead of the textbook's specific justification for biologists.",
+    "id": "gen_c11_biotech_ch11_q17",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
    },
@@ -4274,39 +5017,9 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "A wrong answer that uses a manual loop (for base in seq:) shows the student hasn't internalized Python's built-in string methods (count), which are faster and more idiomatic for bioinformatics.",
-    "id": "gen_c11_biotech_ch11_q16",
+    "id": "gen_c11_biotech_ch11_q18",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student writes this script to download 10,000 nucleotide sequences from NCBI using Entrez. Identify three critical flaws and explain the consequences: from Bio import Entrez Entrez.",
-    "answer": "Flaw 1: No Entrez.api_key — without it, NCBI limits to 3 requests/second; 10,000 IDs in one request exceeds URL length limits and will be rejected",
-    "options": [
-     "from Bio import SeqIO from Bio.SeqUtils import gc_fraction count = 0 gc_sum = 0.0 for record in SeqIO",
-     "from Bio.Seq import Seq def find_all_orfs(dna_seq, min_length=30): orfs = [] for strand, seq in [(1, dna_seq), (-1, dna_seq",
-     "Flaw 1: No Entrez.api_key — without it, NCBI limits to 3 requests/second; 10,000 IDs in one request exceeds URL length limits and will be rejected"
-    ],
-    "hint": "Straight from the 'Biopython' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"missing import SeqIO\" misses the architectural flaws that cause real-world failures. If a student says \"it works fine for small datasets,\" they don't understand scalability constraints in bioinformatics.",
-    "id": "gen_c11_biotech_ch11_q17",
-    "nodeId": "c11_biotech_cbse_11_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain the difference between a Seq object and a Python string, and why str(my_seq) is sometimes necessary when using Biopython.",
-    "answer": "A Seq object is a Biopython class that wraps a sequence string and adds biological methods (.transcribe(), ",
-    "options": [
-     "FASTA returns only the header and sequence; JSON returns structured fields including uniProtKBCrossReferences with GO terms",
-     "A dict (e.g., {\"gene1\": 52.3, \"gene2\": 48.7}) provides O(1) average-case lookup by key (gene ID), while a list of tuples requires O(n) linear search",
-     "A Seq object is a Biopython class that wraps a sequence string and adds biological methods (.transcribe(), "
-    ],
-    "hint": "Straight from the 'Biopython' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming \"Seq is just a string with extra methods\" misses that Seq objects are immutable like strings but have different slicing behavior (returns Seq, not str) and alphabet-aware operations. If a student says \"no difference,\" they will fail when code breaks at re.search(pattern, seq_obj) with TypeError.",
-    "id": "gen_c11_biotech_ch11_q18",
-    "nodeId": "c11_biotech_cbse_11_003",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -4499,6 +5212,21 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A diagnostic lab uses PCR to detect a pathogen. They observe amplification in the no-template control (NTC). Evaluate three possible causes and propose a specific experimental fix for each. Rank them by likelihood in a typical molecular biology lab.",
+    "answer": "Ranked by likelihood: (1) Primer-dimer formation — primers anneal to each other and amplify short non-specific products",
+    "options": [
+     "The claim is false. Isoschizomers recognize the *identical* sequence and cleave at the *same* position (e",
+     "Prolonged trypsinization cleaves cell-surface proteins (integrins, cadherins) and membrane receptors, causing irreversible membrane damage, apoptosis",
+     "Ranked by likelihood: (1) Primer-dimer formation — primers anneal to each other and amplify short non-specific products"
+    ],
+    "hint": "Straight from the 'Polymerase Chain Reaction' slide -- match the key terms.",
+    "misconception": "A wrong answer blaming \"Taq polymerase contamination\" reveals misunderstanding: Taq is an enzyme, not a DNA template; it cannot amplify without a nucleic acid template.",
+    "id": "gen_c11_biotech_ch12_q4",
+    "nodeId": "c11_biotech_cbse_12_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast standard endpoint PCR, RT-PCR, and qPCR (real-time PCR) in terms of: (a) what they measure, (b) when quantification occurs, and (c) the role of reverse transcriptase. Create a summary table.",
     "answer": "| Feature | Standard PCR | RT-PCR | qPCR (Real-time PCR) | |---------|--------------|--------|----------------------| | (a) Measures | DNA amplicon presence/size (gel) | RNA",
     "options": [
@@ -4508,7 +5236,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Polymerase Chain Reaction' slide -- match the key terms.",
     "misconception": "A wrong answer conflating RT-PCR with qPCR (common error: \"RT-PCR is real-time PCR\") reveals the student confuses the Reverse Transcription step (RNA→cDNA) with Real-Time detection. They are orthogonal: you can have RT-qPCR (RNA start, real-time detection) or standard RT-PCR (RNA start, endpoint gel).",
-    "id": "gen_c11_biotech_ch12_q4",
+    "id": "gen_c11_biotech_ch12_q5",
     "nodeId": "c11_biotech_cbse_12_005",
     "difficulty": "standard"
    },
@@ -4523,8 +5251,23 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Restriction enzymes' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between dam methylation (bacterial, GATC) and CpG methylation (mammalian, CG), and inability to predict methylation sensitivity from sequence composition.",
-    "id": "gen_c11_biotech_ch12_q5",
+    "id": "gen_c11_biotech_ch12_q6",
     "nodeId": "c11_biotech_cbse_12_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A biotech company wants to produce a recombinant human glycoprotein (requiring complex N-glycosylation) at commercial scale. Evaluate whether CHO (Chinese Hamster Ovary) cell suspension culture in serum-free media or Nicotiana benthamiana leaf transient expression (agroinfiltration) is more suitable.",
+    "answer": "CHO suspension culture is superior for this glycoprotein because: (1) Glycosylation fidelity",
+    "options": [
+     "Ranked by likelihood: (1) Primer-dimer formation — primers anneal to each other and amplify short non-specific products",
+     "The claim is false. Isoschizomers recognize the *identical* sequence and cleave at the *same* position (e",
+     "CHO suspension culture is superior for this glycoprotein because: (1) Glycosylation fidelity"
+    ],
+    "hint": "Straight from the 'Cell culture' slide -- match the key terms.",
+    "misconception": "A wrong answer choosing plants for \"lower cost\" ignores that glycosylation mismatch causes clinical failure (immunogenicity, rapid clearance) — cost of failure far exceeds production savings.",
+    "id": "gen_c11_biotech_ch12_q7",
+    "nodeId": "c11_biotech_cbse_12_011",
     "difficulty": "standard"
    },
    {
@@ -4538,7 +5281,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cell culture' slide -- match the key terms.",
     "misconception": "A wrong answer (\"just add more serum and plate\") ignores that damaged cells release intracellular proteases that amplify damage in suspension, and that dead cells contaminate the culture with DNA debris causing clumping.",
-    "id": "gen_c11_biotech_ch12_q6",
+    "id": "gen_c11_biotech_ch12_q8",
     "nodeId": "c11_biotech_cbse_12_011",
     "difficulty": "standard"
    }

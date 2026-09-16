@@ -6627,15 +6627,15 @@ export const C11_HIN_AR_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Evaluate the claim: \"Kabir's poetry is primarily of historical interest; its radical edge is blunted in modern times because caste and religious orthodoxy have weakened.\" Defend or critique using specific themes from his verses (e.g., critique of ritual, hypocrisy, social hierarchy) and contemporary parallels.",
-    "answer": "Strong critique: Kabir's edge remains sharp because he targets *structural* hypocrisy—performative piety masking exploitation—which persists in new forms (e",
+    "question": "Compose a 4-line poem in Hindi (or English) that imitates Kabir's *strategy*: use a metaphor from a specific manual profession (not weaving) to critique a modern form of empty ritual or social hypocrisy. Include one direct address to the listener (\"bhai\" / \"suno\").",
+    "answer": "Criteria for a good answer: (1) Profession-specific metaphor (e.g., coder, driver, farmer, nurse), (2) Clear target of critique (e",
     "options": [
-     "Refute. The secondary theme of knowledge gatekeeping (critique of \"ns'kkVu vkSj lRlax\" as monopoly) maps directly to modern credentialism and academic elitism - who gets to define",
-     "Refute. The poem rejects *institutional mediation* and *mechanical ritual*, not spirituality itself",
-     "Strong critique: Kabir's edge remains sharp because he targets *structural* hypocrisy—performative piety masking exploitation—which persists in new forms (e"
+     "A good answer begins in medias res: \"Years later, a disciple recalled the day Kabir cut his woven cloth",
+     "A good stanza will use simple, rustic vocabulary, collective voice, and show the driver as another exploited worker or as an agent of the market",
+     "Criteria for a good answer: (1) Profession-specific metaphor (e.g., coder, driver, farmer, nurse), (2) Clear target of critique (e"
     ],
     "hint": "Straight from the 'Context and Background' slide -- match the key terms.",
-    "misconception": "A weak answer agreeing with the claim reveals a failure to abstract thematic universals from historical particulars—the core skill of literary study at this level.",
+    "misconception": "A poor answer using generic metaphors (\"life is a journey\") or lacking direct address shows inability to internalize Kabir's technique of grounding abstraction in material labor.",
     "id": "gen_c11_hin_ar_ch09_q18",
     "nodeId": "c11_hin_ar_cbse_09_001",
     "difficulty": "standard"

@@ -229,7 +229,8 @@ async function apiFetch<T>(
 
   const token =
     typeof window !== "undefined"
-      ? localStorage.getItem("authToken")
+      ? localStorage.getItem("token") ||
+        localStorage.getItem("auth_token")
       : null;
 
   const headers: HeadersInit = {

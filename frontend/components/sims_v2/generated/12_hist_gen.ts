@@ -1282,6 +1282,21 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Given a set of Indo-Greek coins with Greek legends on the obverse and Kharoshthi on the reverse, explain the exact steps Prinsep would take to assign phonetic values to Kharoshthi signs.",
+    "answer": "Step 1: Identify Greek names (e.g., \"Apollodotus\", \"Menander\") from known Greek alphabet. Step 2: Locate the same names in Kharoshthi on the reverse",
+    "options": [
+     "Chronology: 1 → 2 → 3 → 4 (Roman coins arrive later via trade). The shift from bilingual Greek/Kharoshthi to exclusively Indian deities (Shiva) on Kushana gold shows increasing",
+     "Turning points: (1) c. 55 BCE: Azes I (Shaka) ends Indo-Greek rule in Taxila—cause: Scythian migration after Yuezhi pressure",
+     "Step 1: Identify Greek names (e.g., \"Apollodotus\", \"Menander\") from known Greek alphabet. Step 2: Locate the same names in Kharoshthi on the reverse"
+    ],
+    "hint": "Straight from the 'decipherment of Brahmi and' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"he guessed the language first\") misses that *bilingual coins provided the controlled comparison* — the methodological gold standard in decipherment.",
+    "id": "gen_c12_hist_ch02_q17",
+    "nodeId": "c12_hist_cbse_02_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Who was James Prinsep, and what was his official position when he deciphered Brahmi and Kharoshthi?",
     "answer": "James Prinsep was an assay master (senior officer) at the East India Company's mint in Benares (later Calcutta)",
     "options": [
@@ -1291,21 +1306,6 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'decipherment of Brahmi and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he was a historian\" or \"he worked for the Asiatic Society\") reveals the student misses how his *mint job* provided direct access to the coin evidence that cracked Kharoshthi.",
-    "id": "gen_c12_hist_ch02_q17",
-    "nodeId": "c12_hist_cbse_02_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did scholars initially assume Asokan inscriptions were in Sanskrit, and what does this reveal about early colonial epistemology?",
-    "answer": "Scholars assumed Sanskrit because it was the prestige literary language of Brahmins, whom they consulted as \"native informants\"",
-    "options": [
-     "The statement is an overgeneralization. Inscriptions cluster around five political centres (Pataliputra, Taxila, Ujjayini, Tosali, Suvarnagiri) and major routes",
-     "The claim is false. NCERT explicitly states: \"From the late eighteenth century, European scholars aided by Indian pandits worked backwards from contemporary Bengali and Devanagari",
-     "Scholars assumed Sanskrit because it was the prestige literary language of Brahmins, whom they consulted as \"native informants\""
-    ],
-    "hint": "Straight from the 'decipherment of Brahmi and' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student doesn't grasp how colonial knowledge production was filtered through Brahmin intermediaries, leading to systematic misidentification of language — a classic \"elite bias\" in source interpretation.",
     "id": "gen_c12_hist_ch02_q18",
     "nodeId": "c12_hist_cbse_02_001",
     "difficulty": "advanced"
@@ -2015,6 +2015,21 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "In which year did the BORI Critical Edition project begin, who was its first general editor, and approximately how many manuscripts were consulted?",
+    "answer": "The project began in 1919 under General Editor V.S. Sukthankar; the team consulted over 1,200 manuscripts",
+    "options": [
+     "Patrilineal succession is explicit: the throne passes from father to son (e.g., Siri-Satakani to Siri-Pulumayi)",
+     "The Pandavas shared the same father (Pandu) and thus the same gotra; Draupadi, born from a sacrificial fire, had no paternal gotra but adopted the Pandavas' gotra upon marriage",
+     "The project began in 1919 under General Editor V.S. Sukthankar; the team consulted over 1,200 manuscripts"
+    ],
+    "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., naming Bhandarkar as editor, or dating it to 1947) reveals confusion between the institute's founder (R.G. Bhandarkar) and the project leader, or ignorance of the project's pre-Independence origins — a common error because textbooks often mention \"Bhandarkar\" in the institute's name but not",
+    "id": "gen_c12_hist_ch03_q16",
+    "nodeId": "c12_hist_cbse_03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "The NCERT text states: \"More than half the 13,000 pages are devoted to these variations.\" What does this quantitative fact imply about the nature of the Mahabharata as a historical source, and how should it change a historian's approach compared to pre-1919 scholarship?",
     "answer": "It implies the Mahabharata was not a single authored text but a fluid, multi-vocal tradition with massive regional diversity",
     "options": [
@@ -2024,7 +2039,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"accuracy of the main text\" misses the epistemological shift: the variations ARE the data for social history.",
-    "id": "gen_c12_hist_ch03_q16",
+    "id": "gen_c12_hist_ch03_q17",
     "nodeId": "c12_hist_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -2039,23 +2054,8 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they chose the most popular version\" or \"they voted on the best verses\") shows the student misses the rigorous comparative method and treats the edition as subjective selection rather than historical reconstruction.",
-    "id": "gen_c12_hist_ch03_q17",
-    "nodeId": "c12_hist_cbse_03_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A historian finds two manuscript versions of a Mahabharata verse: Version A (from Kashmir) describes a king performing a Vedic sacrifice; Version B (from Tamil Nadu) omits the sacrifice but keeps the king's genealogy.",
-    "answer": "The historian would apply the Critical Edition's principle: readings common to most manuscripts across regions form the \"constituted text\" (likely older core)",
-    "options": [
-     "Evidence: multiple Satavahana queens have names derived from the same gotras (Gotama, Vasistha) as their husbands, meaning they married within the same gotra",
-     "Patrilineal succession is explicit: the throne passes from father to son (e.g., Siri-Satakani to Siri-Pulumayi)",
-     "The historian would apply the Critical Edition's principle: readings common to most manuscripts across regions form the \"constituted text\" (likely older core)"
-    ],
-    "hint": "Straight from the 'Mahabharata's authorship' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Version A is older because it's more religious\") confuses piety with textual antiquity and ignores the stemmatic method Sukthankar's team used.",
     "id": "gen_c12_hist_ch03_q18",
-    "nodeId": "c12_hist_cbse_03_002",
+    "nodeId": "c12_hist_cbse_03_001",
     "difficulty": "advanced"
    }
   ],
@@ -3272,6 +3272,21 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Al-Biruni adopted a distinctive three-part structure in most chapters of the *Kitab-ul-Hind*. Identify the three parts and explain how his mathematical orientation influenced this structure.",
+    "answer": "(1) A question, (2) description based on Sanskritic traditions, (3) comparison with other cultures",
+    "options": [
+     "Al-Biruni does NOT claim caste existed in Persia. He identifies four Persian *functional* categories (knights/princes; monks/fire-priests/lawyers",
+     "Al-Biruni's *Panchatantra* translation (via earlier Arabic versions like Ibn al-Muqaffa's *Kalila wa Dimna*) embedded Indian political wisdom — *niti* as practical statecraft",
+     "(1) A question, (2) description based on Sanskritic traditions, (3) comparison with other cultures"
+    ],
+    "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., “narrative storytelling” or “chronological order”) misses the analytical, almost axiomatic method that distinguishes Al-Biruni from later travelogue writers.",
+    "id": "gen_c12_hist_ch05_q14",
+    "nodeId": "c12_hist_cbse_05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Construct a comparative timeline entry for Al-Biruni, Ibn Battuta, and Bernier showing: (a) century of travel, (b) place of origin, (c) language of writing, (d) primary motive, and (e) one key structural feature of their work.",
     "answer": "| Traveller | Century | Origin | Language | Motive | Structural Feature | |-----------|---------|--------|----------|--------|-------------------| | Al-Biruni | 11th | Khwarizm",
     "options": [
@@ -3281,7 +3296,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
     "misconception": "A poor answer mixes up centuries, languages, or motives (e.g., placing Bernier in the 14th century), indicating failure to synthesize the chapter’s comparative framework.",
-    "id": "gen_c12_hist_ch05_q14",
+    "id": "gen_c12_hist_ch05_q15",
     "nodeId": "c12_hist_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3296,7 +3311,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is partially valid but incomplete. Al-Biruni *did* rely heavily on normative texts (Vedas, Puranas,",
-    "id": "gen_c12_hist_ch05_q15",
+    "id": "gen_c12_hist_ch05_q16",
     "nodeId": "c12_hist_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3311,7 +3326,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
     "misconception": "A wrong answer that omits “self-absorption” or ranks religion first reveals a superficial reading of the NCERT text (p. 124).",
-    "id": "gen_c12_hist_ch05_q16",
+    "id": "gen_c12_hist_ch05_q17",
     "nodeId": "c12_hist_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3326,21 +3341,6 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “he came voluntarily as a courtier” or “1025 CE”) reveals confusion between Al-Biruni’s forced relocation and the voluntary travels of Ibn Battuta or Bernier, and misplaces the Ghaznavid conquest chronology.",
-    "id": "gen_c12_hist_ch05_q17",
-    "nodeId": "c12_hist_cbse_05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did Al-Biruni choose to write the *Kitab-ul-Hind* in Arabic rather than Persian or Sanskrit, and for whom did he intend it?",
-    "answer": "Arabic was the lingua franca of scholarship across the Islamic world; Al-Biruni wrote for peoples living along the frontiers of the subcontinent who knew Arabic but not Sanskrit",
-    "options": [
-     "The claim is partially valid but incomplete. Al-Biruni *did* rely heavily on normative texts (Vedas, Puranas, Manusmriti) which prescribe ideal rules, not lived reality — e",
-     "Al-Biruni invokes the natural law of *homeostasis* or self-purification in nature — impurity is temporary and self-correcting",
-     "Arabic was the lingua franca of scholarship across the Islamic world; Al-Biruni wrote for peoples living along the frontiers of the subcontinent who knew Arabic but not Sanskrit"
-    ],
-    "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., “for the Mughal emperor” or “in Persian because it was the court language”) shows ignorance of the 11th-century linguistic landscape and conflates Al-Biruni’s context with later Persianate courts.",
     "id": "gen_c12_hist_ch05_q18",
     "nodeId": "c12_hist_cbse_05_001",
     "difficulty": "standard"
@@ -4777,6 +4777,21 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a research plan to investigate how the *amara-nayaka* system (military chiefs holding territory) functioned in the 1520s, using ONLY sources available by 1900 (i.e., before modern archaeology). List the source types, their specific contributions, and one major gap that would remain.",
+    "answer": "Sources: (1) Inscriptions (donative records showing nayaka land grants, titles, obligations) — gives legal/formal structure",
+    "options": [
+     "The Vijayanagara Empire was founded in 1336 by the Sangama dynasty (Harihara I and Bukka I)",
+     "Krishnadeva Raya belonged to the Tuluva dynasty. He acquired the Raichur Doab (1512), subdued the Gajapati rulers of Orissa (1514), and defeated the Sultan of Bijapur (1520)",
+     "Sources: (1) Inscriptions (donative records showing nayaka land grants, titles, obligations) — gives legal/formal structure"
+    ],
+    "hint": "Straight from the 'discovery of Vijayanagara' slide -- match the key terms.",
+    "misconception": "A poor answer lists sources without linking each to a specific research question, or misses the structural gap (subaltern voice).",
+    "id": "gen_c12_hist_ch07_q15",
+    "nodeId": "c12_hist_cbse_07_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the claim: \"The term 'Vijayanagara Empire' is a modern colonial construct; contemporaries called it 'karnataka samrajyamu'.\" Does this invalidate the colonial contribution to its rediscovery?",
     "answer": "The claim is *partially true but misleading*. \"Karnataka samrajyamu\" (Karnataka empire) *was* the contemporary endogenous term, reflecting regional identity",
     "options": [
@@ -4786,7 +4801,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'discovery of Vijayanagara' slide -- match the key terms.",
     "misconception": "A wrong answer either dismisses colonial work as \"biased\" (ignoring its evidentiary foundation) or uncritically adopts \"Vijayanagara Empire\" as the only valid name (ignoring indigenous self-representation).",
-    "id": "gen_c12_hist_ch07_q15",
+    "id": "gen_c12_hist_ch07_q16",
     "nodeId": "c12_hist_cbse_07_001",
     "difficulty": "standard"
    },
@@ -4801,7 +4816,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'discovery of Vijayanagara' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"1856\" or \"Robert Sewell\") reveals confusion between the initial survey and later photographic/epigraphical phases, or conflating Mackenzie with the historian who wrote the first major synthesis (Sewell's *A Forgotten Empire*, 1900).",
-    "id": "gen_c12_hist_ch07_q16",
+    "id": "gen_c12_hist_ch07_q17",
     "nodeId": "c12_hist_cbse_07_001",
     "difficulty": "standard"
    },
@@ -4816,24 +4831,9 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'discovery of Vijayanagara' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"priests had written records\" or \"Mackenzie knew Sanskrit\") misses the specific role of *oral tradition* in bridging the gap between a deserted city (post-1565) and 19th-century investigation, and overlooks that Mackenzie's informants were indigenous knowledge-holders, not colonial archives.",
-    "id": "gen_c12_hist_ch07_q17",
+    "id": "gen_c12_hist_ch07_q18",
     "nodeId": "c12_hist_cbse_07_001",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A board exam question asks: \"Assess the significance of the amara-nayaka system in the early Sangama period.\" A student writes: \"It was copied from the Delhi Sultanate's iqta system and caused the empire's collapse.\" Evaluate this answer.",
-    "answer": "The answer is partially correct but flawed. *Correct*: The amara-nayaka system *was* influenced by the iqta system (NCERT explicitly states this)",
-    "options": [
-     "A good answer produces a layered map where: Layer 1 shows Tungabhadra flowing NE, granite hills girdling the site, streams descending",
-     "A strong answer notes: (1) Nayakas built massive gopurams (Madurai's Meenakshi Temple gopurams) dwarfing central shrines — continuing the *raya gopuram* tradition",
-     "The answer is partially correct but flawed. *Correct*: The amara-nayaka system *was* influenced by the iqta system (NCERT explicitly states this)"
-    ],
-    "hint": "Straight from the 'Sangama dynasty  was the' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The answer is partially correct but flawed. *Correct*: The amara-nayaka system *was* influenced by the iqta system",
-    "id": "gen_c12_hist_ch07_q18",
-    "nodeId": "c12_hist_cbse_07_002",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -6864,6 +6864,21 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Construct a timeline showing how the cartridge rumour (January 1857, Dum Dum) moved through three distinct social networks to become the Meerut mutiny (10 May 1857). Label each network and the mechanism of transmission.",
+    "answer": "A strong answer identifies: (1) Sepoy network — khalasi-to-sepoy conversation at Dum Dum magazine → regimental lines across Bengal Army via letters/emissaries (e",
+    "options": [
+     "A strong argument will link: (1) Promise of religious non-interference → but British continued to legislate on social customs (e",
+     "The proclamation articulated a vision of unity but lacked an enforcement mechanism: it was a declarative document issued by a nominal leader (Bahadur Shah) with no administrative",
+     "A strong answer identifies: (1) Sepoy network — khalasi-to-sepoy conversation at Dum Dum magazine → regimental lines across Bengal Army via letters/emissaries (e"
+    ],
+    "hint": "Straight from the 'Mutiny at Meerut (10 May' slide -- match the key terms.",
+    "misconception": "A poor answer lists events without distinguishing networks or mechanisms, treating the rumour as a single undifferentiated wave.",
+    "id": "gen_c12_hist_ch10_q13",
+    "nodeId": "c12_hist_cbse_10_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "The Azamgarh Proclamation (25 August 1857) promises \"light Jumas,\" \"dignity of zemindars,\" and \"trade opened to native merchants.\" Evaluate whether this proclamation represents a genuine revolutionary vision or a conservative restoration of the pre-British order.",
     "answer": "It is primarily a conservative restoration: it appeals to Mughal-era hierarchies (Badshahi government, zemindari dignity, merchant monopolies",
     "options": [
@@ -6873,7 +6888,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mutiny at Meerut (10 May' slide -- match the key terms.",
     "misconception": "A wrong answer calling it \"revolutionary\" ignores its feudal language; calling it \"purely feudal\" ignores its responsive character to peasant and artisan suffering.",
-    "id": "gen_c12_hist_ch10_q13",
+    "id": "gen_c12_hist_ch10_q14",
     "nodeId": "c12_hist_cbse_10_001",
     "difficulty": "advanced"
    },
@@ -6888,7 +6903,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Spread of the Revolt' slide -- match the key terms.",
     "misconception": "A poor answer omits dates, misorders centres, or fails to link leaders to centres, indicating weak spatial-chronological synthesis.",
-    "id": "gen_c12_hist_ch10_q14",
+    "id": "gen_c12_hist_ch10_q15",
     "nodeId": "c12_hist_cbse_10_002",
     "difficulty": "advanced"
    },
@@ -6903,7 +6918,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Spread of the Revolt' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The proclamation is a rare rebel-authored document that articulates a unified vision (Hindu-Muslim unity, redress for",
-    "id": "gen_c12_hist_ch10_q15",
+    "id": "gen_c12_hist_ch10_q16",
     "nodeId": "c12_hist_cbse_10_002",
     "difficulty": "advanced"
    },
@@ -6918,7 +6933,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Spread of the Revolt' slide -- match the key terms.",
     "misconception": "A student who lists only “high taxes” or “loss of livelihood” without citing the proclamation’s specific sections shows inability to extract evidence from a primary source.",
-    "id": "gen_c12_hist_ch10_q16",
+    "id": "gen_c12_hist_ch10_q17",
     "nodeId": "c12_hist_cbse_10_002",
     "difficulty": "advanced"
    },
@@ -6933,21 +6948,6 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bahadur Shah Zafar , the last' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as unrelated shows failure to see the revolt's multi-class character.",
-    "id": "gen_c12_hist_ch10_q17",
-    "nodeId": "c12_hist_cbse_10_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Construct a timeline showing how the news of Bahadur Shah's acceptance at Delhi (11–12 May) triggered mutinies at Aligarh, Etawah, Mainpuri, and Etah by 20–27 May. What does the sequence reveal about communication and coordination?",
-    "answer": "A good timeline will show: 11 May — Delhi falls; 12 May — Bahadur Shah blesses revolt; 20–27 May — cascade of mutinies along the Grand Trunk Road and Ganga-Yamuna doab",
-    "options": [
-     "The proclamation articulated a vision of unity but lacked an enforcement mechanism: it was a declarative document issued by a nominal leader (Bahadur Shah) with no administrative",
-     "The British recaptured Delhi in late September 1857, nearly five months after the mutiny began at Meerut on 10 May 1857",
-     "A good timeline will show: 11 May — Delhi falls; 12 May — Bahadur Shah blesses revolt; 20–27 May — cascade of mutinies along the Grand Trunk Road and Ganga-Yamuna doab"
-    ],
-    "hint": "Straight from the 'Bahadur Shah Zafar , the last' slide -- match the key terms.",
-    "misconception": "A poor answer lists dates without explaining the mechanism, missing the \"planning and coordination\" theme in the NCERT.",
     "id": "gen_c12_hist_ch10_q18",
     "nodeId": "c12_hist_cbse_10_003",
     "difficulty": "advanced"
@@ -7382,6 +7382,21 @@ export const C12_HIST_GEN: SimDef[] = [
     "hint": "Straight from the 'Gandhi's Constructive Programme' slide -- match the key terms.",
     "misconception": "A wrong answer either uncritically accepts the \"anti-modern\" label or claims Gandhi rejected all technology, missing his sophisticated critique of industrial capitalism's distributional consequences.",
     "id": "gen_c12_hist_ch11_q17",
+    "nodeId": "c12_hist_cbse_11_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Why did Gandhi choose the charkha (spinning wheel) as the central symbol of the Constructive Programme, rather than a purely political symbol like the flag?",
+    "answer": "The charkha simultaneously addressed economic, social, and symbolic dimensions: (1) Economic",
+    "options": [
+     "Phoenix was designed to *live* the principles satyagraha would later demand: manual labour (dignity of work), inter-racial/religious coexistence",
+     "Mountbatten's insistence on speed (transfer by 15 Aug 1947, announced 3 June — only 73 days) forced the Radcliffe Boundary Commission to demarcate Punjab and Bengal in 5 weeks",
+     "The charkha simultaneously addressed economic, social, and symbolic dimensions: (1) Economic"
+    ],
+    "hint": "Straight from the 'Gandhi's Constructive Programme' slide -- match the key terms.",
+    "misconception": "A wrong answer focusing only on \"Swadeshi\" or \"boycott of foreign cloth\" misses the caste-transcending and anti-industrial modernity dimensions Gandhi explicitly articulated in Young India (1924, 1927).",
+    "id": "gen_c12_hist_ch11_q18",
     "nodeId": "c12_hist_cbse_11_008",
     "difficulty": "advanced"
    }

@@ -489,15 +489,15 @@ export const C8_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Which of the following administrative practices was introduced by Alauddin Khilji to prevent corruption and false entries in the military cavalry? A) The *Iqta* system of land distribution B) The *Dagh* (branding of horses) and *Chehra* (descriptive roll of soldiers) systems C) The *Jizya* tax on non-Muslim citizens",
-    "answer": "B) The *Dagh* (branding of horses) and *Chehra* (descriptive roll of soldiers) systems *Explanation*: Option B is correct because Alauddin Khilji mandated *dagh* (branding",
+    "question": "Suppose you are an economic advisor to a medieval Indian ruler who wants to maintain a massive standing army without increasing land revenue tax rates beyond 50%. Based on Alauddin Khilji's administrative model, construct a 3-part strategic plan to achieve this goal.",
+    "answer": "A successful plan must propose: (1) Paying soldiers fixed cash salaries (*naqad*) directly from the central treasury rather than granting autonomous land assignments (*iqtas*)",
     "options": [
-     "Domination of the fertile Raichur Doab situated between the Krishna and Tungabhadra rivers",
-     "Shams-ud-din Iltutmish received official investiture (*manshur*) from the Abbasid Caliph Al-Mustansir of Baghdad in 1229 CE",
-     "B) The *Dagh* (branding of horses) and *Chehra* (descriptive roll of soldiers) systems *Explanation*: Option B is correct because Alauddin Khilji mandated *dagh* (branding"
+     "It illustrates how capital relocations were used to consolidate administrative power closer to disputed border regions and secure central trade routes",
+     "A strong defense plan would involve: 1. Deploying wide advance scout cavalry to detect and intercept Babur's flanking units (*tulughma*) before they can sweep around the rear. 2",
+     "A successful plan must propose: (1) Paying soldiers fixed cash salaries (*naqad*) directly from the central treasury rather than granting autonomous land assignments (*iqtas*)"
     ],
     "hint": "Straight from the 'Khilji Dynasty , led' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: B) The *Dagh* (branding of horses) and *Chehra* (descriptive roll of soldiers) systems *Explanation*: Option B is",
+    "misconception": "Recheck the lesson slide -- the key claim is: A successful plan must propose: (1) Paying soldiers fixed cash salaries (*naqad*) directly from the central treasury",
     "id": "gen_c8_hist_ch01_q18",
     "nodeId": "c8_hist_ch1_4",
     "difficulty": "advanced"
@@ -522,12 +522,15 @@ export const C8_HIST_GEN: SimDef[] = [
   "subject": "history",
   "topic": "Term 'Marathas' Historically Designates The",
   "chapters": [
-   "History Ch2: Term 'Marathas' Historically Designates The"
+   "History Ch2: Term 'Marathas' Historically Designates The",
+   "History Ch3: Term 'Marathas' Historically Designates The"
   ],
   "nodeIds": [
    "c8_hist_ch2_1",
    "c8_hist_ch2_2",
+   "c8_hist_ch3_2",
    "c8_hist_ch2_3",
+   "c8_hist_ch3_3",
    "c8_hist_ch2_4",
    "c8_hist_ch2_5",
    "c8_hist_ch2_6",
@@ -567,10 +570,22 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
+    "title": "Age Of Colonialism From The 15th Century",
+    "text": "The Age of Colonialism from the 15th century refers to the era of global history when European maritime powers initiated extensive overseas exploration and established colonies.",
+    "emoji": "🏛️",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
     "title": "Chhatrapati Shivaji Maharaj Was The",
     "text": "Chhatrapati Shivaji Maharaj (1630–1680) was the founder of the Maratha Empire in western India. Born at Shivneri Fort to Shahaji Bhonsle and Jijabai, his early life was shaped by his mother's moral teachings, training under Dadoji Konddeo, and the influence",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Portuguese In India",
+    "text": "The Portuguese in India refers to the period beginning with Vasco da Gama's arrival at Calicut in 1498, marking the establishment of the first direct European sea route to India and the subsequent creation of a militarized maritime trade empire (*Estado da",
+    "emoji": "🏛️",
+    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Shivaji's Military Campaigns And",
@@ -681,7 +696,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "options": [
      "B) Padmadurg (Kasa Fort) A wrong choice shows that the student confuses European colonial coastal settlements (Fort William) or Portuguese forts (Aguada) with indigenous Maratha",
      "The eight ministers were the *Peshwa* (Prime Minister), *Amatya* (Finance Minister), *Sachiv* (Secretary), *Mantri* (Interior Minister/Chronicler)",
-     "Bundelkhand (Daulatabad) is the correct answer",
+     "Audited (Daulatabad) is the correct answer",
      "Devagiri (Daulatabad) is the correct answer"
     ],
     "hint": "Straight from the 'Yadava Dynasty (also known as' slide -- match the key terms.",
@@ -697,17 +712,80 @@ export const C8_HIST_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Trace the correct sequence of developments that carried European sailors from the 1453 route blockage to the open-ocean voyage to India.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Spice prices soar under mercantilist",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The Ottoman capture of Constantinople blocks",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Portuguese captains sail directly to India",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "The caravel with lateen sails",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that credits the Industrial Revolution or the East India Company shows the student has missed the chronological trigger in West Asia and the two navigational innovations that turned a spice crisis into the Age of Discovery.",
+    "id": "gen_c8_hist_ch02_q3",
+    "nodeId": "c8_hist_ch3_2",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine opening a spice box in an Indian kitchen and finding black pepper, cardamom, and cloves.",
+     "Did you know that in 15th-century Europe, these exact spices were so rare and valuable that they were literally worth their weight in gold?",
+     "To understand why European ships suddenly began arriving on India's western coast, we must first look at Europe in 1453, when the Ottoman Empire",
+     "This created a massive crisis for European merchants who desperately wanted Indian spices but could no longer travel safely by land."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "In which fort was Shivaji Maharaj born in 1630, and who were his parents?",
     "answer": "Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and Jijabai",
     "options": [
-     "Chhatrapati Shivaji Maharaj launched the Dakshina Digvijaya in 1677, forming a diplomatic alliance with the Qutb Shahi Sultanate of Golconda",
-     "B) Invalid, because the Mughals lacked a dedicated imperial navy and relied on the Siddis of Janjira, whereas Shivaji Maharaj built an indigenous navy to protect coastal interests",
+     "Shivaji Maharaj was crowned in 1674 at Raigad Fort",
+     "His presence demonstrates that European maritime trading powers (the East India Company) formally recognized Shivaji Maharaj as an independent sovereign monarch with whom they",
      "Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and Jijabai"
     ],
     "hint": "Straight from the 'Chhatrapati Shivaji Maharaj  was' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and",
-    "id": "gen_c8_hist_ch02_q3",
+    "id": "gen_c8_hist_ch02_q4",
     "nodeId": "c8_hist_ch2_3",
     "difficulty": "advanced",
     "workedExample": [
@@ -715,6 +793,69 @@ export const C8_HIST_GEN: SimDef[] = [
      "To understand Shivaji Maharaj's rise, we first look at the political condition of the Deccan in the early 17th century, where regional powers like",
      "We ask: How did Shivaji Maharaj build an independent kingdom when his father, Shahaji Bhonsle, was himself a military commander serving regional",
      "We explore how Jijabai instilled ideals of justice and self-rule in young Shivaji, while the rugged terrain of Maval provided a natural fortress and"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence of changes by which Goa's capture in 1510 transformed the Portuguese presence in India.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Temporary trade factories operate under",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Afonso de Albuquerque seizes Goa as a secure",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Goa gains shipyards and mints as the Estado",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Vasco da Gama lands at Calicut in 1498",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats Goa as just another trading post shows the student has missed the shift from vulnerable factories to permanent sovereign territorial control.",
+    "id": "gen_c8_hist_ch02_q5",
+    "nodeId": "c8_hist_ch3_3",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Look at the spices in your kitchen, like black pepper or cloves.",
+     "Did you know that in the 15th century, these simple ingredients were worth their weight in gold, driving European nations to sail across uncharted",
+     "We begin our exploration by analyzing why the traditional overland trade routes through Central Asia became blocked after the fall of Constantinople",
+     "We will trace Vasco da Gama's historic journey around the southern tip of Africa to Calicut in 1498."
     ]
    },
    {
@@ -728,7 +869,7 @@ export const C8_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Shivaji's military campaigns and' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student answers \"Raigad\" or \"Sinhagad,\" they are confusing Shivaji's later capital or highly famous battle locations with the initial, symbolic starting point of his military campaign.",
-    "id": "gen_c8_hist_ch02_q4",
+    "id": "gen_c8_hist_ch02_q6",
     "nodeId": "c8_hist_ch2_4",
     "difficulty": "advanced",
     "workedExample": [
@@ -791,7 +932,7 @@ export const C8_HIST_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong response should propose: (1) Constructing offshore island forts (like Sindhudurg and Padmadurg) to block rival",
-    "id": "gen_c8_hist_ch02_q5",
+    "id": "gen_c8_hist_ch02_q7",
     "nodeId": "c8_hist_ch2_5",
     "difficulty": "advanced",
     "workedExample": [
@@ -812,7 +953,7 @@ export const C8_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Shivaji's administration was a' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student lists Mughal administrative offices (like *Mansabdar*, *Mir Bakshi*, or *Wazir*), it shows they are confusing the Maratha administrative framework with the Mughal system they studied in Class 7.",
-    "id": "gen_c8_hist_ch02_q6",
+    "id": "gen_c8_hist_ch02_q8",
     "nodeId": "c8_hist_ch2_6",
     "difficulty": "advanced",
     "workedExample": [
@@ -827,14 +968,14 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "In which year and at which hilltop fort was Shivaji Maharaj formally crowned as *Chhatrapati*?",
     "answer": "Shivaji Maharaj was crowned in 1674 at Raigad Fort",
     "options": [
-     "His presence demonstrates that European maritime trading powers (the East India Company) formally recognized Shivaji Maharaj as an independent sovereign monarch with whom they",
-     "B) Invalid, because the Mughals lacked a dedicated imperial navy and relied on the Siddis of Janjira, whereas Shivaji Maharaj built an indigenous navy to protect coastal interests",
-     "Vyankoji was crowned in 1674 at Raigad Fort",
+     "Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and Jijabai",
+     "Chhatrapati Shivaji Maharaj launched the Dakshina Digvijaya in 1677, forming a diplomatic alliance with the Qutb Shahi Sultanate of Golconda",
+     "Bengal was crowned in 1674 at Raigad Fort",
      "Shivaji Maharaj was crowned in 1674 at Raigad Fort"
     ],
     "hint": "Straight from the 'Coronation of Shivaji Maharaj took' slide -- match the key terms.",
     "misconception": "A wrong answer indicates a failure to recall basic foundational facts regarding the date and site of the Maratha coronation.",
-    "id": "gen_c8_hist_ch02_q7",
+    "id": "gen_c8_hist_ch02_q9",
     "nodeId": "c8_hist_ch2_7",
     "difficulty": "advanced",
     "workedExample": [
@@ -855,7 +996,7 @@ export const C8_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mughal-Maratha Wars  were a' slide -- match the key terms.",
     "misconception": "A wrong choice shows the student confuses individual Mughal commanders and their respective campaigns against the Marathas.",
-    "id": "gen_c8_hist_ch02_q8",
+    "id": "gen_c8_hist_ch02_q10",
     "nodeId": "c8_hist_ch2_8",
     "difficulty": "advanced",
     "workedExample": [
@@ -870,14 +1011,13 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "In which year did Chhatrapati Shivaji Maharaj launch the Dakshina Digvijaya campaign, and which major southern sultanate did he form a diplomatic alliance with to finance this expedition?",
     "answer": "Chhatrapati Shivaji Maharaj launched the Dakshina Digvijaya in 1677, forming a diplomatic alliance with the Qutb Shahi Sultanate of Golconda",
     "options": [
-     "Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and Jijabai",
      "B) Invalid, because the Mughals lacked a dedicated imperial navy and relied on the Siddis of Janjira, whereas Shivaji Maharaj built an indigenous navy to protect coastal interests",
-     "Chhatrapati Shivaji Maharaj launched the Yadava King Ramachandra in 1677, forming a diplomatic alliance with the Qutb Shahi Sultanate of Golconda",
+     "His presence demonstrates that European maritime trading powers (the East India Company) formally recognized Shivaji Maharaj as an independent sovereign monarch with whom they",
      "Chhatrapati Shivaji Maharaj launched the Dakshina Digvijaya in 1677, forming a diplomatic alliance with the Qutb Shahi Sultanate of Golconda"
     ],
     "hint": "Straight from the 'Dakshina Digvijaya  was' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student suggests the Adil Shahis of Bijapur or dates it before his coronation (e.g., 1670), it shows they do not understand the chronological link between his coronation as a sovereign king (1674) and his subsequent need to engage in high-level interstate diplomacy as an equal sovereign.",
-    "id": "gen_c8_hist_ch02_q9",
+    "id": "gen_c8_hist_ch02_q11",
     "nodeId": "c8_hist_ch2_9",
     "difficulty": "advanced",
     "workedExample": [
@@ -898,7 +1038,7 @@ export const C8_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Maratha Confederacy' slide -- match the key terms.",
     "misconception": "Choosing option 1 confuses him with his father who laid the administrative groundwork, while option 3 confuses him with his son under whose rule the empire reached its maximum territorial extent but faced Panipat.",
-    "id": "gen_c8_hist_ch02_q10",
+    "id": "gen_c8_hist_ch02_q12",
     "nodeId": "c8_hist_ch2_10",
     "difficulty": "advanced",
     "workedExample": [
@@ -950,7 +1090,7 @@ export const C8_HIST_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A weak answer focuses solely on naval battles without identifying maritime sovereignty principles or coastal defense architecture.",
-    "id": "gen_c8_hist_ch02_q11",
+    "id": "gen_c8_hist_ch02_q13",
     "nodeId": "c8_hist_ch2_11",
     "difficulty": "advanced",
     "workedExample": [
@@ -965,13 +1105,13 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "A 14th-century inscription found in a temple near Satara is written in Marathi using the Modi script rather than formal classical Sanskrit. What does this indicate about the political and cultural shift happening in the region at the time?",
     "answer": "It demonstrates that regional governance, local record-keeping, and popular communication had shifted to the vernacular language of the local population",
     "options": [
-     "2. Administrative control relied on financial rights (*chauth/sardeshmukhi*) and military fiefs (*saranjam*) rather than direct centralized bureaucracy",
-     "Hemadpanthi style (Option 2) is correct. Named after Hemadri (Hemadpant), the prime minister of Yadava King Ramachandra",
+     "Maharashtri Prakrit (which later developed into Apabhramsha before evolving into early Marathi)",
+     "The path of tax collection was: 1. Peasant's Field: Crop assessed using the standardized *Kathi* measuring rod",
      "It demonstrates that regional governance, local record-keeping, and popular communication had shifted to the vernacular language of the local population"
     ],
     "hint": "Straight from the 'term 'Marathas' historically' slide -- match the key terms.",
     "misconception": "A wrong answer claiming that Sanskrit had been banned reveals a failure to apply evidence to explain gradual social-linguistic empowerment and pragmatic administration.",
-    "id": "gen_c8_hist_ch02_q12",
+    "id": "gen_c8_hist_ch02_q14",
     "nodeId": "c8_hist_ch2_1",
     "difficulty": "advanced"
    },
@@ -986,7 +1126,7 @@ export const C8_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'term 'Marathas' historically' slide -- match the key terms.",
     "misconception": "A wrong answer focusing solely on agricultural wealth reveals a failure to link physical geography to distinct military tactics and regional political leverage.",
-    "id": "gen_c8_hist_ch02_q13",
+    "id": "gen_c8_hist_ch02_q15",
     "nodeId": "c8_hist_ch2_1",
     "difficulty": "advanced"
    },
@@ -1001,7 +1141,7 @@ export const C8_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'term 'Marathas' historically' slide -- match the key terms.",
     "misconception": "A student who agrees with the claim fails to evaluate historical agency beneath the elite level, overlooking the deep cultural and linguistic preparation that precedes political state-building.",
-    "id": "gen_c8_hist_ch02_q14",
+    "id": "gen_c8_hist_ch02_q16",
     "nodeId": "c8_hist_ch2_1",
     "difficulty": "advanced"
    },
@@ -1010,59 +1150,29 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "From which ancient Prakrit dialect did the modern Marathi language primarily evolve?",
     "answer": "Maharashtri Prakrit (which later developed into Apabhramsha before evolving into early Marathi)",
     "options": [
-     "Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and Jijabai",
-     "Traditional jagirdars collected taxes for foreign Sultanates and maintained loyalties based on royal grants",
+     "Hemadpanthi style (Option 2) is correct. Named after Hemadri (Hemadpant), the prime minister of Yadava King Ramachandra",
+     "The maritime chain runs: (1) The Ottoman capture of Constantinople blocks the overland Silk Route (2) Spice prices soar under mercantilist competition (3) The caravel with lateen",
      "Maharashtri Prakrit (which later developed into Apabhramsha before evolving into early Marathi)"
     ],
     "hint": "Straight from the 'term 'Marathas' historically' slide -- match the key terms.",
     "misconception": "A wrong answer such as 'Sanskrit' or 'Bhojpuri' reveals that the student confuses root liturgical languages with regional vernacular linguistic lineage, or fails to recognize the distinct regional origin of the Deccan languages.",
-    "id": "gen_c8_hist_ch02_q15",
+    "id": "gen_c8_hist_ch02_q17",
     "nodeId": "c8_hist_ch2_1",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Why is the relationship between the 'Kunbi' and 'Maratha' labels often described by historians as an agrarian-military continuum rather than two entirely separate, rigid castes?",
-    "answer": "Because Kunbis were peasant-cultivators who, during non-harvest months or times of war, served as light cavalry and soldiers (*bargirs*) under local chieftains",
+    "question": "Suppose you are an archivist categorizing early regional historical sources. Construct an explanatory guide outlining three distinct types of primary sources (e.g., inscriptions, literary compositions, administrative revenue papers) that historians use to trace the evolution of the Marathi language and Maratha",
+    "answer": "The guide must include: (1) Inscriptional evidence, such as the 10th-century Shravanabelagola inscription or Yadava-era rock records showing early written Marathi",
     "options": [
-     "Option 2 is correct. By using Marathi for official land grants and encouraging literary works like Sant Dnyaneshwar's *Dnyaneshwari*",
-     "Option 2 is correct. Sants like Dnyaneshwar and Namdev preached egalitarian devotion in the vernacular Marathi language",
-     "Because Kunbis were peasant-cultivators who, during non-harvest months or times of war, served as light cavalry and soldiers (*bargirs*) under local chieftains"
+     "No, a village inside *Swarajya* would not pay *Chauth*. *Chauth* was a tax consisting of 25% (one-fourth) of the land revenue levied *only* on neighboring territories outside",
+     "2. Create a permanent federal council of regional chiefs with standardized tax-sharing, unified military commands, and clear territorial boundaries",
+     "The guide must include: (1) Inscriptional evidence, such as the 10th-century Shravanabelagola inscription or Yadava-era rock records showing early written Marathi"
     ],
     "hint": "Straight from the 'term 'Marathas' historically' slide -- match the key terms.",
-    "misconception": "A wrong answer stating they were completely unrelated castes reveals that the student applies modern rigid caste assumptions backward into medieval history, missing the fluid socio-economic mobility of Deccan agrarian society.",
-    "id": "gen_c8_hist_ch02_q16",
-    "nodeId": "c8_hist_ch2_1",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A historian finds an 18th-century tax record showing that revenues from a village in Malwa were divided: 25% collected directly as *Chauth*, 10% as *Sardeshmukhi*, and the remainder managed by a local chief under a *Saranjam* grant.",
-    "answer": "2. Administrative control relied on financial rights (*chauth/sardeshmukhi*) and military fiefs (*saranjam*) rather than direct centralized bureaucracy",
-    "options": [
-     "Hemadpanthi style (Option 2) is correct. Named after Hemadri (Hemadpant), the prime minister of Yadava King Ramachandra",
-     "No, a village inside *Swarajya* would not pay *Chauth*. *Chauth* was a tax consisting of 25% (one-fourth) of the land revenue levied *only* on neighboring territories outside",
-     "2. Administrative control relied on financial rights (*chauth/sardeshmukhi*) and military fiefs (*saranjam*) rather than direct centralized bureaucracy"
-    ],
-    "hint": "Straight from the 'Maratha Confederacy' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: 2. Administrative control relied on financial rights (*chauth/sardeshmukhi*) and military fiefs (*saranjam*) rather",
-    "id": "gen_c8_hist_ch02_q17",
-    "nodeId": "c8_hist_ch2_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the governance structure of Shivaji Maharaj’s *Ashtapradhan* with the Maratha Confederacy under the later Peshwas. Which analysis correctly highlights their key difference?",
-    "answer": "1. The *Ashtapradhan* was a council of ministers directly appointed by and accountable to a centralized monarch",
-    "options": [
-     "2. Baji Rao I *Explanation*: Baji Rao I (Peshwa from 1720 to 1740) was instrumental in expanding Maratha authority northward into Malwa, Bundelkhand, and Gujarat",
-     "It demonstrates that regional governance, local record-keeping, and popular communication had shifted to the vernacular language of the local population",
-     "1. The *Ashtapradhan* was a council of ministers directly appointed by and accountable to a centralized monarch"
-    ],
-    "hint": "Straight from the 'Maratha Confederacy' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: 1. The *Ashtapradhan* was a council of ministers directly appointed by and accountable to a centralized monarch,",
+    "misconception": "A poor answer merely lists modern history books or fails to categorize authentic primary source genres.",
     "id": "gen_c8_hist_ch02_q18",
-    "nodeId": "c8_hist_ch2_10",
+    "nodeId": "c8_hist_ch2_1",
     "difficulty": "advanced"
    }
   ],

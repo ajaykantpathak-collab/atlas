@@ -1756,11 +1756,11 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                 <div className="mt-auto bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs flex flex-col gap-2">
                   <span className="font-bold text-slate-300 border-b border-slate-800 pb-1">Calculated Parameters</span>
                   <div className="flex justify-between">
-                    <span className="text-slate-400">Apparent $V_{max}$:</span>
+                    <span className="text-slate-400">{"Apparent $V_{max}$:"}</span>
                     <span className="font-mono text-emerald-400 font-bold">
                       {inhibitorType === 'allosteric'
                         ? (100 / (1 + inhibitorConc * 0.15)).toFixed(1)
-                        : '100.0'} $\mu\text{mol/min}$
+                        : '100.0'} {"$\\mu\\text{mol/min}$"}
                     </span>
                   </div>
                   <div className="flex justify-between">
@@ -1768,7 +1768,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                     <span className="font-mono text-amber-400 font-bold">
                       {inhibitorType === 'competitive'
                         ? (5.0 * (1 + inhibitorConc * 0.3)).toFixed(1)
-                        : '5.0'} $\text{mM}$
+                        : '5.0'} {"$\\text{mM}$"}
                     </span>
                   </div>
                 </div>

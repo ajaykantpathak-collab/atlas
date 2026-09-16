@@ -9,18 +9,21 @@ import type { SimDef } from '../engine/types';
 export const C12_PSY_GEN: SimDef[] = [
  {
   "id": "gen_c12_psy_ch02",
-  "title": "Self",
+  "title": "Individual Differences Refer To The",
   "subtitle": "Psychology · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "psychology",
-  "topic": "Self",
+  "topic": "Individual Differences Refer To The Distinctiveness",
   "chapters": [
-   "Psychology Ch2: Self"
+   "Psychology Ch1: Individual Differences Refer To The Distinctiveness",
+   "Psychology Ch2: Individual Differences Refer To The Distinctiveness"
   ],
   "nodeIds": [
+   "c12_psy_cbse_01_001",
    "c12_psy_cbse_02_001",
    "c12_psy_cbse_02_003",
+   "c12_psy_cbse_01_005",
    "c12_psy_cbse_02_007",
    "c12_psy_cbse_02_009"
   ],
@@ -31,16 +34,22 @@ export const C12_PSY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Self more about facts, or about reasoning?",
+   "question": "Is Individual Differences Refer To more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "The self is the totality of an individual's conscious experiences, ideas, thoughts, and feelings regarding themselves, defining their existence at"
+   "hook": "Individual differences refer to the distinctiveness and variability among people in their psychological characteristics (such as intelligence,"
   },
   "teaching": [
+   {
+    "title": "Individual Differences Refer To The",
+    "text": "Individual differences refer to the distinctiveness and variability among people in their psychological characteristics (such as intelligence, personality, aptitude, interests, values) and behavior patterns, arising from the complex interplay of hereditary",
+    "emoji": "🧠",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
    {
     "title": "Self",
     "text": "The self is the totality of an individual's conscious experiences, ideas, thoughts, and feelings regarding themselves, defining their existence at both personal (unique attributes like name, qualities, beliefs) and social (group memberships like religion,",
@@ -50,6 +59,12 @@ export const C12_PSY_GEN: SimDef[] = [
    {
     "title": "Cultural Perspective On Self",
     "text": "The cultural perspective on self refers to how culture shapes the way individuals define the boundaries between themselves and others. In Western individualistic cultures, the self is viewed as an autonomous, bounded entity separate from the group,",
+    "emoji": "🧠",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Gardner's Theory Of Multiple Intelligences",
+    "text": "Gardner's Theory of Multiple Intelligences proposes that intelligence is not a single general ability (g-factor) but rather eight distinct, relatively independent intelligences: Linguistic, Logical-Mathematical, Spatial, Musical, Bodily-Kinaesthetic,",
     "emoji": "🧠",
     "bgColor": "from-emerald-400 to-teal-500"
    },
@@ -68,17 +83,80 @@ export const C12_PSY_GEN: SimDef[] = [
   ],
   "challenges": [
    {
+    "type": "order",
+    "question": "A student, Rohan, is usually very talkative and outgoing with friends but becomes quiet and reserved during a formal school assembly. Using the trait-situation debate, explain Rohan's behavior.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The pattern",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The situational reading",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The trait reading",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The correct analysis",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer attributes the change solely to his trait shifting, or ignores the situational influence, revealing inability to apply the interactionist perspective.",
+    "id": "gen_c12_psy_ch02_q1",
+    "nodeId": "c12_psy_cbse_01_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Start by asking students to observe their classmates: \"Why do some students finish a math test quickly while others take longer?",
+     "Why is one friend outgoing at parties but quiet in class?\" This real-world observation introduces individual differences.",
+     "Then guide them to understand that psychologists study these differences through two lenses: traits (internal dispositions) and situations (external",
+     "Use the example of a normally aggressive person acting submissive in front of a boss to illustrate situationism."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Rahul says: \"When I am with my friends, I am loud and funny. When I am with my grandparents, I am quiet and respectful. So I have two different selves.\" Using the NCERT concepts of personal self and social/relational self, evaluate Rahul's statement. Is he correct that he has \"two different selves\"? Why or why not?",
     "answer": "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*",
     "options": [
-     "Stage: Anal (18‑36 months). Erogenous zone: anus/bowel. Core conflict: toilet training — balancing id’s pleasure in expulsion/retention with ego/superego demands for control",
-     "Rahul's conflict arises because his self-boundary shifts between two positions: (1) When he considers his parents' expectations and family duty, his self expands to include them",
+     "The urge originates in the id (pleasure principle — immediate gratification of hunger/desire). The health goals represent the superego (morality principle",
+     "Oral fixation occurs when an infant’s needs for sucking/feeding are either over‑gratified or frustrated, causing libido to remain anchored to the mouth",
      "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*"
     ],
     "hint": "Straight from the 'self' slide -- match the key terms.",
     "misconception": "A wrong answer would either agree uncritically (\"yes, he has multiple selves\") or deny any change (\"no, self is always the same\"), missing the nuance of *context-dependent expression* of a unified self.",
-    "id": "gen_c12_psy_ch02_q1",
+    "id": "gen_c12_psy_ch02_q2",
     "nodeId": "c12_psy_cbse_02_001",
     "difficulty": "standard",
     "workedExample": [
@@ -93,13 +171,13 @@ export const C12_PSY_GEN: SimDef[] = [
     "question": "Rahul, raised in a traditional joint family in Varanasi, accepts a job in Mumbai against his parents' wish that he stay nearby. He feels guilty but also excited. Using the concept of shifting self-boundary, explain Rahul's inner conflict in 3-4 sentences.",
     "answer": "Rahul's conflict arises because his self-boundary shifts between two positions: (1) When he considers his parents' expectations and family duty, his self expands to include them",
     "options": [
-     "Stage: Anal (18‑36 months). Erogenous zone: anus/bowel. Core conflict: toilet training — balancing id’s pleasure in expulsion/retention with ego/superego demands for control",
-     "Example: “Ravi, 28, avoids all romantic relationships. He spends evenings alone mastering chess strategies and collecting stamps, feeling intense anxiety when peers discuss dating",
+     "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*",
+     "(1) The pattern — Rohan is talkative and outgoing with friends but reserved at a formal school assembly, (2) The situational reading",
      "Rahul's conflict arises because his self-boundary shifts between two positions: (1) When he considers his parents' expectations and family duty, his self expands to include them"
     ],
     "hint": "Straight from the 'cultural perspective on self' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"Rahul is torn between Indian and Western values\" misses the point — the shifting boundary is an indigenous Indian cultural pattern, not a Western import. The NCERT describes this as a characteristic of the Indian view itself.",
-    "id": "gen_c12_psy_ch02_q2",
+    "id": "gen_c12_psy_ch02_q3",
     "nodeId": "c12_psy_cbse_02_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -110,17 +188,91 @@ export const C12_PSY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Priya is a 17-year-old who: (a) writes award-winning Hindi poetry, (b) cannot read maps or assemble furniture, (c) learns dance choreography after one demonstration, (d) struggles with algebraic word problems, (e) intuitively understands her friends' unspoken emotions.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The principle",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s1",
+      "label": "Linguistic",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Interpersonal",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Logical-mathematical and spatial",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "Musical",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer forces every intelligence into high or low from overall smartness, violating the theory's core claim.",
+    "id": "gen_c12_psy_ch02_q4",
+    "nodeId": "c12_psy_cbse_01_005",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a Class 12 student, Arjun, who struggles with textbook mathematics but can effortlessly compose original ragas on the sitar, navigate Delhi's",
+     "Standard IQ tests would label him \"average,\" yet his life demonstrates exceptional capabilities.",
+     "Begin by asking: \"If intelligence were one thing, how could Arjun be 'average' in math but extraordinary in music, navigation, and people skills?",
+     "Walk through each intelligence using Indian exemplars: Linguistic (Gulzar), Logical-Mathematical (Ramanujan), Spatial (architect B.V."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "\"Rahul is on a strict diet. He walks past a bakery and smells fresh chocolate cake. He feels a strong urge to buy and eat it immediately, but he reminds himself of his health goals and walks away.",
     "answer": "The urge originates in the id (pleasure principle — immediate gratification of hunger/desire). The health goals represent the superego (morality principle",
     "options": [
      "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*",
-     "Oral fixation occurs when an infant’s needs for sucking/feeding are either over‑gratified or frustrated, causing libido to remain anchored to the mouth",
+     "(1) The pattern — Rohan is talkative and outgoing with friends but reserved at a formal school assembly, (2) The situational reading",
      "The urge originates in the id (pleasure principle — immediate gratification of hunger/desire). The health goals represent the superego (morality principle"
     ],
     "hint": "Straight from the 'Freud's psychodynamic approach' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., swapping id/superego roles) reveals the misconception that the superego generates impulses or that the ego is merely a passive referee rather than an active executor that must negotiate reality.",
-    "id": "gen_c12_psy_ch02_q3",
+    "id": "gen_c12_psy_ch02_q5",
     "nodeId": "c12_psy_cbse_02_007",
     "difficulty": "standard",
     "workedExample": [
@@ -135,13 +287,13 @@ export const C12_PSY_GEN: SimDef[] = [
     "question": "A 30‑year‑old chain‑smoker who constantly chews pens and makes sarcastic remarks when stressed is described by a friend as “orally fixated.” Explain in your own words what “oral fixation” means and why these specific behaviours fit that label.",
     "answer": "Oral fixation occurs when an infant’s needs for sucking/feeding are either over‑gratified or frustrated, causing libido to remain anchored to the mouth",
     "options": [
-     "The urge originates in the id (pleasure principle — immediate gratification of hunger/desire). The health goals represent the superego (morality principle",
-     "Stage: Anal (18‑36 months). Erogenous zone: anus/bowel. Core conflict: toilet training — balancing id’s pleasure in expulsion/retention with ego/superego demands for control",
+     "Rahul's conflict arises because his self-boundary shifts between two positions: (1) When he considers his parents' expectations and family duty, his self expands to include them",
+     "(1) Linguistic — high, because award-winning poetry shows fluent and flexible language use, (2) Logical-mathematical and spatial",
      "Oral fixation occurs when an infant’s needs for sucking/feeding are either over‑gratified or frustrated, causing libido to remain anchored to the mouth"
     ],
     "hint": "Straight from the 'Freud's psychosexual stages' slide -- match the key terms.",
     "misconception": "If the student merely says “they like oral things” without linking to early weaning conflict or the pleasure principle, they confuse fixation with simple habit.",
-    "id": "gen_c12_psy_ch02_q4",
+    "id": "gen_c12_psy_ch02_q6",
     "nodeId": "c12_psy_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -153,16 +305,46 @@ export const C12_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student, Rohan, is usually very talkative and outgoing with friends but becomes quiet and reserved during a formal school assembly. Using the trait-situation debate, explain Rohan's behavior.",
+    "answer": "(1) The pattern — Rohan is talkative and outgoing with friends but reserved at a formal school assembly, (2) The situational reading",
+    "options": [
+     "(1) Linguistic — high, because award-winning poetry shows fluent and flexible language use, (2) Logical-mathematical and spatial",
+     "The urge originates in the id (pleasure principle — immediate gratification of hunger/desire). The health goals represent the superego (morality principle",
+     "(1) The pattern — Rohan is talkative and outgoing with friends but reserved at a formal school assembly, (2) The situational reading"
+    ],
+    "hint": "Straight from the 'Individual differences refer to' slide -- match the key terms.",
+    "misconception": "A wrong answer attributes the change solely to his trait shifting, or ignores the situational influence, revealing inability to apply the interactionist perspective.",
+    "id": "gen_c12_psy_ch02_q7",
+    "nodeId": "c12_psy_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Priya is a 17-year-old who: (a) writes award-winning Hindi poetry, (b) cannot read maps or assemble furniture, (c) learns dance choreography after one demonstration, (d) struggles with algebraic word problems, (e) intuitively understands her friends' unspoken emotions.",
+    "answer": "(1) Linguistic — high, because award-winning poetry shows fluent and flexible language use, (2) Logical-mathematical and spatial",
+    "options": [
+     "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*",
+     "Rahul's conflict arises because his self-boundary shifts between two positions: (1) When he considers his parents' expectations and family duty, his self expands to include them",
+     "(1) Linguistic — high, because award-winning poetry shows fluent and flexible language use, (2) Logical-mathematical and spatial"
+    ],
+    "hint": "Straight from the 'Gardner's Theory of Multiple' slide -- match the key terms.",
+    "misconception": "A wrong answer forces every intelligence into high or low from overall smartness, violating the theory's core claim.",
+    "id": "gen_c12_psy_ch02_q8",
+    "nodeId": "c12_psy_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A preschooler refuses to let anyone else flush the toilet after a bowel movement, insisting on doing it themselves, and throws tantrums if interrupted. Using Freud’s theory, identify the stage, the erogenous zone, the core conflict, and the two possible adult personality outcomes if fixation occurs.",
     "answer": "Stage: Anal (18‑36 months). Erogenous zone: anus/bowel. Core conflict: toilet training — balancing id’s pleasure in expulsion/retention with ego/superego demands for control",
     "options": [
-     "Example: “Ravi, 28, avoids all romantic relationships. He spends evenings alone mastering chess strategies and collecting stamps, feeling intense anxiety when peers discuss dating",
-     "Oral fixation occurs when an infant’s needs for sucking/feeding are either over‑gratified or frustrated, causing libido to remain anchored to the mouth",
+     "Rahul's conflict arises because his self-boundary shifts between two positions: (1) When he considers his parents' expectations and family duty, his self expands to include them",
+     "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*",
      "Stage: Anal (18‑36 months). Erogenous zone: anus/bowel. Core conflict: toilet training — balancing id’s pleasure in expulsion/retention with ego/superego demands for control"
     ],
     "hint": "Straight from the 'Freud's psychosexual stages' slide -- match the key terms.",
     "misconception": "A student who only names “anal stage” without describing the dual fixation outcomes or the role of parental training style has not applied the concept fully.",
-    "id": "gen_c12_psy_ch02_q5",
+    "id": "gen_c12_psy_ch02_q9",
     "nodeId": "c12_psy_cbse_02_009",
     "difficulty": "advanced"
    },
@@ -171,25 +353,26 @@ export const C12_PSY_GEN: SimDef[] = [
     "question": "Create a short original case vignette (3‑4 sentences) of an adult showing clear latency‑stage fixation. Describe the behaviours and explain why they indicate unresolved latency conflicts rather than phallic or genital issues.",
     "answer": "Example: “Ravi, 28, avoids all romantic relationships. He spends evenings alone mastering chess strategies and collecting stamps, feeling intense anxiety when peers discuss dating",
     "options": [
-     "Stage: Anal (18‑36 months). Erogenous zone: anus/bowel. Core conflict: toilet training — balancing id’s pleasure in expulsion/retention with ego/superego demands for control",
-     "Oral fixation occurs when an infant’s needs for sucking/feeding are either over‑gratified or frustrated, causing libido to remain anchored to the mouth",
+     "(1) The pattern — Rohan is talkative and outgoing with friends but reserved at a formal school assembly, (2) The situational reading",
+     "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*",
      "Example: “Ravi, 28, avoids all romantic relationships. He spends evenings alone mastering chess strategies and collecting stamps, feeling intense anxiety when peers discuss dating"
     ],
     "hint": "Straight from the 'Freud's psychosexual stages' slide -- match the key terms.",
     "misconception": "A poor answer would describe mere shyness or asexuality without linking to the stage’s hallmark: sublimation of sexual urges into intellectual/social pursuits.",
-    "id": "gen_c12_psy_ch02_q6",
+    "id": "gen_c12_psy_ch02_q10",
     "nodeId": "c12_psy_cbse_02_009",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about self?",
+    "What surprised you about individual differences refer to the distinctiveness?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Self mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "successLine": "Individual Differences Refer mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_psy_ch03",
@@ -207,6 +390,7 @@ export const C12_PSY_GEN: SimDef[] = [
    "c12_psy_cbse_03_003",
    "c12_psy_cbse_03_004",
    "c12_psy_cbse_03_005",
+   "c12_psy_cbse_03_006",
    "c12_psy_cbse_03_008",
    "c12_psy_cbse_03_012"
   ],
@@ -252,6 +436,12 @@ export const C12_PSY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
+    "title": "Psychoneuroimmunology",
+    "text": "Psychoneuroimmunology (PNI) is the interdisciplinary field studying the bidirectional communication pathways between the central nervous system (brain), the endocrine system (hormones), and the immune system (white blood cells), explaining how psychological",
+    "emoji": "🧠",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
     "title": "Stress Management Techniques",
     "text": "Stress management techniques are structured, evidence-based psychological procedures that enable individuals to voluntarily regulate their physiological arousal, cognitive appraisal, and emotional responses to stressors.",
     "emoji": "🧠",
@@ -291,9 +481,8 @@ export const C12_PSY_GEN: SimDef[] = [
     "question": "Riya, a Class 12 student, experiences: (i) chronic asthma worsened by Delhi's air pollution, (ii) intrusive thoughts \"I'm not smart enough for JEE\", (iii) her best friend stops talking to her after a misunderstanding.",
     "answer": "(i) Physical/environmental (pollution → bodily strain). (ii) Psychological (internal cognitive distortion)",
     "options": [
+     "Week 1: Diet — replace one junk meal/day with a fruit + nut snack; Exercise — 15-min walk 3×/week; Attitude — write one realistic appraisal of exam preparedness daily",
      "The statement is partially false. Optimism is adaptive when it fuels problem-focused coping (planning",
-     "Two NCERT-cited limitations: (1) The correlation between life event scores and actual illness is weak, indicating life events alone poorly predict stress outcomes",
-     "(i) Physical/environmental (pollution → bodily strain). (ii) Two NCERT-cited (internal cognitive distortion)",
      "(i) Physical/environmental (pollution → bodily strain). (ii) Psychological (internal cognitive distortion)"
     ],
     "hint": "Straight from the 'Stress types categorize the origin' slide -- match the key terms.",
@@ -313,7 +502,7 @@ export const C12_PSY_GEN: SimDef[] = [
     "question": "A 17-year-old faces chronic parental conflict. Over six months, she develops: (a) frequent headaches and stomach aches, (b) difficulty concentrating in class, (c) avoids friends and stops attending dance class, (d) feels hopeless about the future.",
     "answer": "(a) Headaches/stomach aches → physiological (somatic complaints from sustained autonomic arousal). (b) Difficulty concentrating → cognitive (prefrontal cortex impairment)",
     "options": [
-     "The statement is partially false. Optimism is adaptive when it fuels problem-focused coping (planning",
+     "Week 1: Diet — replace one junk meal/day with a fruit + nut snack; Exercise — 15-min walk 3×/week; Attitude — write one realistic appraisal of exam preparedness daily",
      "Correct analysis: The explosion is the external stressor; Rahul's immediate physiological freeze response and subsequent intrusive thoughts/avoidance are the strain",
      "(a) Headaches/stomach aches → physiological (somatic complaints from sustained autonomic arousal). (b) Difficulty concentrating → cognitive (prefrontal cortex impairment)"
     ],
@@ -334,8 +523,8 @@ export const C12_PSY_GEN: SimDef[] = [
     "question": "Rahul has been caring for his bedridden father for 14 months. He reports: \"I don't feel panicked anymore like I did in the first month. I just function on autopilot. But I've had three colds in two months, my blood pressure is creeping up, and I snap at small things.",
     "answer": "Rahul is in the Resistance stage. The \"autopilot\" feeling reflects parasympathetic modulation attempting to conserve energy while the HPA axis remains chronically activated",
     "options": [
+     "Two NCERT-cited limitations: (1) The correlation between life event scores and actual illness is weak, indicating life events alone poorly predict stress outcomes",
      "(i) Physical/environmental (pollution → bodily strain). (ii) Psychological (internal cognitive distortion)",
-     "(a) Headaches/stomach aches → physiological (somatic complaints from sustained autonomic arousal). (b) Difficulty concentrating → cognitive (prefrontal cortex impairment)",
      "Rahul is in the Resistance stage. The \"autopilot\" feeling reflects parasympathetic modulation attempting to conserve energy while the HPA axis remains chronically activated"
     ],
     "hint": "Straight from the 'General Adaptation Syndrome' slide -- match the key terms.",
@@ -351,6 +540,80 @@ export const C12_PSY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a 4-week intervention study for Class 12 students during board exams to test whether a combined \"cognitive reappraisal + social support + sleep hygiene\" program preserves NK cell function better than a control group.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The pattern",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s1",
+      "label": "The control",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Reappraisal",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Support and sleep",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s4",
+      "label": "The endpoint",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) The endpoint — natural killer cell cytotoxicity from blood drawn before and after exams, a biological parameter",
+    "id": "gen_c12_psy_ch03_q5",
+    "nodeId": "c12_psy_cbse_03_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine two Class 12 students, Arjun and Priya, both preparing for NEET.",
+     "Arjun sleeps 5 hours, skips meals, and constantly thinks \"I'll fail.\" Priya sleeps 7 hours, eats balanced meals, and tells herself \"I've prepared",
+     "This node reveals the biological pathway: Arjun's negative appraisal → chronic cortisol surge → NK cell paralysis → viral defence collapse.",
+     "We begin by mapping the immune cells (T, B, NK), then trace how stress hormones silence them, and finally see how social support and positive"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "ANALYZE level: Compare and contrast the mechanism of Meditation and Creative Visualisation in terms of (a) attentional focus, (b) role of imagery, and (c) intended altered state. Use NCERT descriptions.",
     "answer": "(a) Attentional focus: Meditation uses *concentrative* focus (e.g., breath, mantra) to exclude *all* external stimulation, leading to an altered state of consciousness",
@@ -361,7 +624,7 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Stress management techniques' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"both use imagery to relax\" conflates the two, missing the critical distinction: meditation *quiets* the mind, visualisation *directs* it.",
-    "id": "gen_c12_psy_ch03_q5",
+    "id": "gen_c12_psy_ch03_q6",
     "nodeId": "c12_psy_cbse_03_008",
     "difficulty": "standard",
     "workedExample": [
@@ -376,13 +639,13 @@ export const C12_PSY_GEN: SimDef[] = [
     "question": "A student facing board exams reports: \"I eat junk food, don't exercise, think I'll fail, and avoid friends.\" Using the five pillars of positive health, design a 4-week intervention plan with one specific, measurable action per pillar per week.",
     "answer": "Week 1: Diet — replace one junk meal/day with a fruit + nut snack; Exercise — 15-min walk 3×/week; Attitude — write one realistic appraisal of exam preparedness daily",
     "options": [
+     "(a) Headaches/stomach aches → physiological (somatic complaints from sustained autonomic arousal). (b) Difficulty concentrating → cognitive (prefrontal cortex impairment)",
      "Rahul is in the Resistance stage. The \"autopilot\" feeling reflects parasympathetic modulation attempting to conserve energy while the HPA axis remains chronically activated",
-     "The statement is partially false. Optimism is adaptive when it fuels problem-focused coping (planning",
      "Week 1: Diet — replace one junk meal/day with a fruit + nut snack; Exercise — 15-min walk 3×/week; Attitude — write one realistic appraisal of exam preparedness daily"
     ],
     "hint": "Straight from the 'Positive health' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Week 1: Diet — replace one junk meal/day with a fruit + nut snack; Exercise — 15-min walk 3×/week; Attitude — write one",
-    "id": "gen_c12_psy_ch03_q6",
+    "id": "gen_c12_psy_ch03_q7",
     "nodeId": "c12_psy_cbse_03_012",
     "difficulty": "standard",
     "workedExample": [
@@ -402,8 +665,23 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Stress types categorize the origin' slide -- match the key terms.",
     "misconception": "A student who only cites \"it doesn't include positive events\" misses the textbook's specific critique about weak predictive validity and omitted moderators.",
-    "id": "gen_c12_psy_ch03_q7",
+    "id": "gen_c12_psy_ch03_q8",
     "nodeId": "c12_psy_cbse_03_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a 4-week intervention study for Class 12 students during board exams to test whether a combined \"cognitive reappraisal + social support + sleep hygiene\" program preserves NK cell function better than a control group.",
+    "answer": "(1) The endpoint — natural killer cell cytotoxicity from blood drawn before and after exams, a biological parameter rather than self-report, (2) Reappraisal",
+    "options": [
+     "Rahul is in the Resistance stage. The \"autopilot\" feeling reflects parasympathetic modulation attempting to conserve energy while the HPA axis remains chronically activated",
+     "(i) Physical/environmental (pollution → bodily strain). (ii) Psychological (internal cognitive distortion)",
+     "(1) The endpoint — natural killer cell cytotoxicity from blood drawn before and after exams, a biological parameter rather than self-report, (2) Reappraisal"
+    ],
+    "hint": "Straight from the 'Psychoneuroimmunology' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) The endpoint — natural killer cell cytotoxicity from blood drawn before and after exams, a biological parameter",
+    "id": "gen_c12_psy_ch03_q9",
+    "nodeId": "c12_psy_cbse_03_006",
     "difficulty": "standard"
    },
    {
@@ -417,7 +695,7 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Positive health' slide -- match the key terms.",
     "misconception": "A student who agrees uncritically misses the crucial distinction between realistic optimism (expecting favorable outcomes *with effort*) and Pollyanna optimism (expecting favorable outcomes *without effort*).",
-    "id": "gen_c12_psy_ch03_q8",
+    "id": "gen_c12_psy_ch03_q10",
     "nodeId": "c12_psy_cbse_03_012",
     "difficulty": "standard"
    }
@@ -429,7 +707,8 @@ export const C12_PSY_GEN: SimDef[] = [
    ]
   },
   "successLine": "Stress mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_psy_ch04",
@@ -749,6 +1028,21 @@ export const C12_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student argues: \"Since catatonia involves motor abnormalities like stupor and posturing, it should be classified as a negative symptom because the patient is 'doing less'.\" Evaluate this argument using the NCERT three-category symptom framework for schizophrenia.",
+    "answer": "The argument is incorrect. NCERT explicitly lists psychomotor symptoms as a third, separate category — distinct from both positive and negative symptoms",
+    "options": [
+     "Conduct Disorder (Childhood-Onset Type, since onset before age 10). Three criteria met: (1) Aggression to people/animals",
+     "Somatic Symptom Disorder is the correct diagnosis. The primary distinction: Somatic Symptom Disorder centers on distressing somatic symptoms (pain",
+     "The argument is incorrect. NCERT explicitly lists psychomotor symptoms as a third, separate category — distinct from both positive and negative symptoms"
+    ],
+    "hint": "Straight from the 'Schizophrenia' slide -- match the key terms.",
+    "misconception": "A student who collapses catatonia into negative symptoms will lose marks on classification questions and fail to recognise catatonia as a specifier for schizophrenia subtype (catatonic type) in ICD-10/DSM-5.",
+    "id": "gen_c12_psy_ch04_q9",
+    "nodeId": "c12_psy_cbse_04_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A 10-year-old child frequently argues with adults, actively defies rules, deliberately annoys peers, and blames others for his mistakes. These behaviours have persisted for 7 months and occur at home and school.",
     "answer": "Oppositional Defiant Disorder (ODD). The child shows the classic angry/irritable mood (argues, defies), argumentative/defiant behaviour (annoys, blames)",
     "options": [
@@ -758,7 +1052,22 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Disruptive Behaviour Disorders' slide -- match the key terms.",
     "misconception": "A WRONG answer of \"Conduct Disorder\" reveals the student conflates defiance with antisocial behaviour and misses the critical boundary: ODD involves *non-compliance and hostility*; Conduct Disorder involves *violation of others' basic rights*.",
-    "id": "gen_c12_psy_ch04_q9",
+    "id": "gen_c12_psy_ch04_q10",
+    "nodeId": "c12_psy_cbse_04_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Case: 13-year-old Arjun has, for the past 14 months, repeatedly initiated physical fights, used a cricket bat to threaten a classmate, deliberately set fire to a neighbour's shed, broken into a parked car to steal a music system, and stayed out past midnight despite parental prohibition since age 11.",
+    "answer": "Conduct Disorder (Childhood-Onset Type, since onset before age 10). Three criteria met: (1) Aggression to people/animals",
+    "options": [
+     "Correct explanation: Galen proposed that four body fluids (blood, black bile, yellow bile, phlegm) determine temperament",
+     "Correct application: The priest assumes supernatural cause (demonic possession) → treatment = exorcism (counter-magic/prayer)",
+     "Conduct Disorder (Childhood-Onset Type, since onset before age 10). Three criteria met: (1) Aggression to people/animals"
+    ],
+    "hint": "Straight from the 'Disruptive Behaviour Disorders' slide -- match the key terms.",
+    "misconception": "A WRONG answer of \"ODD\" reveals the student fails to recognise that *physical aggression with weapons, arson, burglary, and chronic rule-breaking* far exceed ODD's scope of defiance/hostility and constitute violation of others' rights — the hallmark of Conduct Disorder.",
+    "id": "gen_c12_psy_ch04_q11",
     "nodeId": "c12_psy_cbse_04_011",
     "difficulty": "standard"
    },
@@ -773,7 +1082,7 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Substance-Related and Addictive' slide -- match the key terms.",
     "misconception": "A wrong question like \"Do you use more cocaine now than 6 months ago?\" tests *tolerance* (criterion 10), not impaired control (criterion 1).",
-    "id": "gen_c12_psy_ch04_q10",
+    "id": "gen_c12_psy_ch04_q12",
     "nodeId": "c12_psy_cbse_04_012",
     "difficulty": "advanced"
    },
@@ -788,7 +1097,7 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Substance-Related and Addictive' slide -- match the key terms.",
     "misconception": "A wrong answer stating both produce \"craving\" misses that opioid cues often elicit *conditioned withdrawal* (physiological opposite of the drug), which drives *negative reinforcement* (use to avoid withdrawal), while alcohol cues primarily elicit *conditioned appetitive* responses (positive reinforcement).",
-    "id": "gen_c12_psy_ch04_q11",
+    "id": "gen_c12_psy_ch04_q13",
     "nodeId": "c12_psy_cbse_04_012",
     "difficulty": "advanced"
    },
@@ -803,7 +1112,7 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Substance-Related and Addictive' slide -- match the key terms.",
     "misconception": "A wrong answer equating the two disorders ignores *pharmacological specificity*: agonist substitution requires a clean receptor target with a safe partial agonist — available for opioids, absent for alcohol.",
-    "id": "gen_c12_psy_ch04_q12",
+    "id": "gen_c12_psy_ch04_q14",
     "nodeId": "c12_psy_cbse_04_012",
     "difficulty": "advanced"
    }
@@ -817,6 +1126,325 @@ export const C12_PSY_GEN: SimDef[] = [
   "successLine": "Abnormal Behaviour mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c12_psy_ch05",
+  "title": "Behaviour Therapy",
+  "subtitle": "Psychology · Chapter 5",
+  "classLevel": 12,
+  "mode": "senior",
+  "subject": "psychology",
+  "topic": "Behaviour Therapy",
+  "chapters": [
+   "Psychology Ch5: Behaviour Therapy"
+  ],
+  "nodeIds": [
+   "c12_psy_cbse_05_004",
+   "c12_psy_cbse_05_006",
+   "c12_psy_cbse_05_007"
+  ],
+  "emoji": "🧠",
+  "theme": {
+   "bg": "from-emerald-100 to-teal-200",
+   "accent": "emerald",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "In one line -- what does Behaviour Therapy actually explain?",
+   "options": [
+    "Why things around us behave the way they do",
+    "Nothing -- it is just a name",
+    "Only how to score marks"
+   ],
+   "answer": "Why things around us behave the way they do",
+   "hook": "Behaviour therapy is a therapeutic approach based on learning theory principles that identifies malfunctioning behaviours, their antecedent triggers,"
+  },
+  "teaching": [
+   {
+    "title": "Behaviour Therapy",
+    "text": "Behaviour therapy is a therapeutic approach based on learning theory principles that identifies malfunctioning behaviours, their antecedent triggers, and consequent maintaining factors, then applies antecedent operations (modifying triggers) and consequent",
+    "emoji": "🧠",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Cognitive Therapy",
+    "text": "Cognitive therapy is a structured, short-term psychotherapy that identifies and modifies distorted thinking patterns (cognitions) causing emotional distress and maladaptive behaviours; Ellis' Rational Emotive Therapy (RET) uses the ABC model",
+    "emoji": "🧠",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Cognitive Behaviour Therapy",
+    "text": "Cognitive Behaviour Therapy (CBT) is a structured, time-limited, evidence-based psychotherapy that integrates cognitive therapy (identifying and restructuring maladaptive thoughts and core schemas) with behavioural techniques (modifying overt behaviours",
+    "emoji": "🧠",
+    "bgColor": "from-violet-400 to-purple-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Create a novel 5-step behavioural analysis and treatment plan for a college student who compulsively checks phone notifications during lectures, missing key content. Use the exact sequence: target behaviour → antecedents → maintaining consequences → antecedent operation → consequent operation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Antecedent operation",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Target behaviour",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Consequent operation",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "Antecedents",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "Maintaining consequences",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer lists vague antecedents, omits maintaining consequences, or proposes only punishment without reinforcing the alternative behaviour.",
+    "id": "gen_c12_psy_ch05_q1",
+    "nodeId": "c12_psy_cbse_05_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a Class 12 student, Rohan, who procrastinates on studying by scrolling social media until 2 AM, then feels anxious and sleeps poorly.",
+     "Where would a behaviour therapist start?",
+     "Not with \"why\" but with \"what, when, and what happens after.\" First, we define the target behaviour (procrastination/social media use).",
+     "Next, we identify antecedents: fatigue after school, phone on desk, notification sounds."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Case: Rahul, 17, is not selected for the school football team. He thinks: \"The coach hates me. I'll never make any team. I'm useless at sports.\" Using Beck's model, identify: (a) the negative automatic thought (NAT), (b) the cognitive distortion (name it), and (c) the likely core schema activated.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The hierarchy",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "The distortions",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The core schema",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The negative automatic thought",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls the coach-hates-me thought a core schema confuses a deep global belief with a situation-specific one.",
+    "id": "gen_c12_psy_ch05_q2",
+    "nodeId": "c12_psy_cbse_05_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine your friend says, \"I failed one test — I'm a total failure and will never succeed in life.",
+     "This is exactly what cognitive therapy addresses: the *interpretation* of events, not the events themselves.",
+     "Start by learning the ABC framework — write down a recent upsetting situation (A), your immediate thought (B), and your feeling/action (C).",
+     "Then ask: \"Is this thought a 'must/should' demand?"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Create a mini CBT case formulation for a 17-year-old student, Priya, who experiences panic attacks before chemistry practical exams. Include: (a) bio-psychosocial predisposing/precipitating/perpetuating factors, (b) a vicious cycle diagram description (thoughts → feelings → behaviours → physical), (c) two specific CBT",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The vicious cycle",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Intervention one",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Predisposing",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Precipitating and perpetuating",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "Intervention two",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer offers generic relaxation and positive thinking without the case-specific cycle.",
+    "id": "gen_c12_psy_ch05_q3",
+    "nodeId": "c12_psy_cbse_05_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a Class 12 student, Rohan, who freezes during board exam mock tests — heart racing, thoughts like \"I'll fail, my future is ruined,\" leading",
+     "How would a CBT therapist help?",
+     "Start by recognising this as a bio-psychosocial problem: biological (arousal), psychological (catastrophic thoughts), social (exam pressure).",
+     "First, map the ABC: Activating event (mock test) → Beliefs (\"I must score 95% or I'm a failure\") → Consequences (panic, avoidance)."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Create a novel 5-step behavioural analysis and treatment plan for a college student who compulsively checks phone notifications during lectures, missing key content. Use the exact sequence: target behaviour → antecedents → maintaining consequences → antecedent operation → consequent operation.",
+    "answer": "(1) Target behaviour — unlocking the phone to view notifications during a lecture, counted per class period, (2) Antecedents",
+    "options": [
+     "(1) The negative automatic thought — the whole cluster of the coach hating him, never making any team and being useless at sports, which is persistent",
+     "(1) Predisposing — family anxiety history and high neuroticism, a perfectionistic core belief, and high parental expectations in a competitive school",
+     "(1) Target behaviour — unlocking the phone to view notifications during a lecture, counted per class period, (2) Antecedents"
+    ],
+    "hint": "Straight from the 'Behaviour therapy' slide -- match the key terms.",
+    "misconception": "A poor answer lists vague antecedents, omits maintaining consequences, or proposes only punishment without reinforcing the alternative behaviour.",
+    "id": "gen_c12_psy_ch05_q4",
+    "nodeId": "c12_psy_cbse_05_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Case: Rahul, 17, is not selected for the school football team. He thinks: \"The coach hates me. I'll never make any team. I'm useless at sports.\" Using Beck's model, identify: (a) the negative automatic thought (NAT), (b) the cognitive distortion (name it), and (c) the likely core schema activated.",
+    "answer": "(1) The negative automatic thought — the whole cluster of the coach hating him, never making any team and being useless at sports, which is persistent",
+    "options": [
+     "(1) Predisposing — family anxiety history and high neuroticism, a perfectionistic core belief, and high parental expectations in a competitive school",
+     "(1) Target behaviour — unlocking the phone to view notifications during a lecture, counted per class period, (2) Antecedents",
+     "(1) The negative automatic thought — the whole cluster of the coach hating him, never making any team and being useless at sports, which is persistent"
+    ],
+    "hint": "Straight from the 'Cognitive therapy' slide -- match the key terms.",
+    "misconception": "A wrong answer that calls the coach-hates-me thought a core schema confuses a deep global belief with a situation-specific one.",
+    "id": "gen_c12_psy_ch05_q5",
+    "nodeId": "c12_psy_cbse_05_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a mini CBT case formulation for a 17-year-old student, Priya, who experiences panic attacks before chemistry practical exams. Include: (a) bio-psychosocial predisposing/precipitating/perpetuating factors, (b) a vicious cycle diagram description (thoughts → feelings → behaviours → physical), (c) two specific CBT",
+    "answer": "(1) Predisposing — family anxiety history and high neuroticism, a perfectionistic core belief, and high parental expectations in a competitive school",
+    "options": [
+     "(1) Target behaviour — unlocking the phone to view notifications during a lecture, counted per class period, (2) Antecedents",
+     "(1) The negative automatic thought — the whole cluster of the coach hating him, never making any team and being useless at sports, which is persistent",
+     "(1) Predisposing — family anxiety history and high neuroticism, a perfectionistic core belief, and high parental expectations in a competitive school"
+    ],
+    "hint": "Straight from the 'Cognitive Behaviour Therapy' slide -- match the key terms.",
+    "misconception": "A poor answer offers generic relaxation and positive thinking without the case-specific cycle.",
+    "id": "gen_c12_psy_ch05_q6",
+    "nodeId": "c12_psy_cbse_05_007",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about behaviour therapy?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Behaviour Therapy mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c12_psy_ch06",
@@ -1268,6 +1896,21 @@ export const C12_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A teacher wants students to develop a positive attitude toward reading classic literature. The teacher is well-liked but rarely reads classics themselves. A popular senior student starts a \"Classic Book Club\" and actively discusses novels.",
+    "answer": "The senior student is more likely to succeed. Step 1: Students likely identify more strongly with a peer (similar age, shared context) than a teacher",
+    "options": [
+     "Expected answer criteria: (i) Source: Respected local vendors / community elders / popular shopkeepers (not outsiders)",
+     "The claim is false. Heider's theory only predicts *that* change will occur toward balance, not *which specific* relation will flip",
+     "The senior student is more likely to succeed. Step 1: Students likely identify more strongly with a peer (similar age, shared context) than a teacher"
+    ],
+    "hint": "Straight from the 'S.M. Mohsin's Two-Step Concept of' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The senior student is more likely to succeed. Step 1: Students likely identify more strongly with a peer (similar age,",
+    "id": "gen_c12_psy_ch06_q15",
+    "nodeId": "c12_psy_cbse_06_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Critique this claim: \"Mohsin's Two-Step Concept is just Bandura's Observational Learning applied to attitudes.\" Defend or refute using specific elements of Mohsin's model.",
     "answer": "Refute — it's an incomplete overlap. Bandura's observational learning (attention, retention, reproduction, motivation) explains *how* imitation works generally",
     "options": [
@@ -1277,7 +1920,7 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'S.M. Mohsin's Two-Step Concept of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Refute — it's an incomplete overlap. Bandura's observational learning (attention, retention, reproduction, motivation)",
-    "id": "gen_c12_psy_ch06_q15",
+    "id": "gen_c12_psy_ch06_q16",
     "nodeId": "c12_psy_cbse_06_007",
     "difficulty": "standard"
    },
@@ -1292,7 +1935,7 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'S.M. Mohsin's Two-Step Concept of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Expected answer criteria: (i) Source: Respected local vendors / community elders / popular shopkeepers (not outsiders).",
-    "id": "gen_c12_psy_ch06_q16",
+    "id": "gen_c12_psy_ch06_q17",
     "nodeId": "c12_psy_cbse_06_007",
     "difficulty": "standard"
    },
@@ -1307,7 +1950,7 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'S.M. Mohsin's Two-Step Concept of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Preeti changed because (Step 1) she identified with the sportsperson (liking, regard, psychological closeness) — this",
-    "id": "gen_c12_psy_ch06_q17",
+    "id": "gen_c12_psy_ch06_q18",
     "nodeId": "c12_psy_cbse_06_007",
     "difficulty": "standard"
    }
@@ -1885,6 +2528,21 @@ export const C12_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "List the five salient characteristics of a group as defined in the NCERT Class 12 Psychology textbook.",
+    "answer": "The five characteristics are: (1) A social unit of two or more individuals who perceive themselves as belonging to the group, giving it a unique identity",
+    "options": [
+     "Social facilitation is the change in individual performance due to the presence of others. Performance improves on simple/well-learned tasks (dominant responses) and declines on",
+     "The statement is incorrect because the Minimal Group Paradigm explicitly *removed* competition over resources: boys allocated points/money using a matrix where ingroup and",
+     "The five characteristics are: (1) A social unit of two or more individuals who perceive themselves as belonging to the group, giving it a unique identity"
+    ],
+    "hint": "Straight from the 'group' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., listing only \"common goals\" and \"interaction\") reveals the student has memorised a partial definition and misses the structural (roles/norms) and psychological (identity, need satisfaction) dimensions that differentiate a group from a mere gathering.",
+    "id": "gen_c12_psy_ch07_q17",
+    "nodeId": "c12_psy_cbse_07_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Your school's Student Council (12 elected members, fixed portfolios, weekly meetings, constitution) and the spectators at the Annual Day function (500 parents/students watching performances) are both collections of people.",
     "answer": "Student Council = Group (also a Team subset). Justification: (a) Interdependence — portfolios are complementary; Treasurer's report affects Secretary's minutes",
     "options": [
@@ -1894,23 +2552,8 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'group' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling spectators a \"crowd\") reveals confusion between audience (assembled for a purpose, generally passive) and crowd (chance gathering, potential for irrationality/mob).",
-    "id": "gen_c12_psy_ch07_q17",
-    "nodeId": "c12_psy_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "“Adjourning is irrelevant for permanent groups like families or long-standing departments.” Evaluate this claim using Tuckman’s model and the NCERT caveat about stage universality.",
-    "answer": "The claim is partially valid but incomplete. Adjourning applies to *temporary* groups (e.g., committees, project teams) that disband after goal achievement",
-    "options": [
-     "The statement is incomplete because status can be ascribed (assigned based on characteristics like age, seniority, or position) OR achieved (earned through expertise, effort",
-     "The statement is incorrect because the Minimal Group Paradigm explicitly *removed* competition over resources: boys allocated points/money using a matrix where ingroup and",
-     "The claim is partially valid but incomplete. Adjourning applies to *temporary* groups (e.g., committees, project teams) that disband after goal achievement"
-    ],
-    "hint": "Straight from the 'Tuckman's Stages of Group' slide -- match the key terms.",
-    "misconception": "A wrong answer that says “Adjourning never happens in permanent groups” ignores the model’s conditional applicability and the reality of sub-group dissolution.",
     "id": "gen_c12_psy_ch07_q18",
-    "nodeId": "c12_psy_cbse_07_004",
+    "nodeId": "c12_psy_cbse_07_001",
     "difficulty": "standard"
    }
   ],

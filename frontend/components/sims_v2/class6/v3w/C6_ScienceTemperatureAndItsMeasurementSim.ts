@@ -10,7 +10,7 @@ export const w_c6_sciencetemperatureanditsmeasurementsim: SimDef = {
     subtitle: 'This node covers the conceptual difference between heat and temperature and the.',
     classLevel: 6, subject: 'science', topic: 'Heat vs Temperature: Understanding the Difference',
     chapters: [],
-    nodeIds: ['c6_physics_ch07_024', 'c6_physics_ch07_019', 'c6_physics_ch07_026', 'c6_physics_ch08_032', 'c6_physics_ch08_033', 'c6_physics_ch08_034'],
+    nodeIds: ['c6_physics_ch07_024', 'c6_physics_ch07_019', 'c6_physics_ch07_020', 'c6_physics_ch08_027', 'c6_physics_ch08_033', 'c6_physics_ch08_029'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a small cup of tea feels hot enough to burn your tongue, but a giant swimming pool.', goal: 'Master Temperature And Its Measurement.' },
     discovery: {

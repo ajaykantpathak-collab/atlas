@@ -466,6 +466,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A museum curator argues that wet-preserved specimens in jars are obsolete because high-resolution CT scans can now digitize internal morphology. Evaluate this claim for taxonomic practice.",
+    "answer": "The claim is flawed: CT scans cannot replace voucher specimens because (1) scans are interpretations dependent on resolution and staining",
+    "options": [
+     "The raisin exhibits *physical* swelling (imbibition), not biological growth — growth in living organisms occurs by *intracellular accretion* (new protoplasm synthesis via",
+     "Aerobic respiration (Flask A) yields ~36-38 ATP per glucose via glycolysis + Krebs cycle + oxidative phosphorylation",
+     "The claim is flawed: CT scans cannot replace voucher specimens because (1) scans are interpretations dependent on resolution and staining"
+    ],
+    "hint": "Straight from the 'Taxonomic aids' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The claim is flawed: CT scans cannot replace voucher specimens because (1) scans are interpretations dependent on",
+    "id": "gen_c11_bio_ch01_q14",
+    "nodeId": "c11_bio_cbse_01_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A researcher collects a rare orchid in Arunachal Pradesh. She prepares a herbarium specimen, preserves the flowers in FAA (formalin-acetic acid-alcohol) for the museum, and sends live rhizomes to a botanical garden. Explain the specific taxonomic problem each aid solves for this single species.",
     "answer": "The herbarium fixes the vegetative morphology and overall habit for future comparison; the FAA-preserved flowers in the museum retain three-dimensional floral architecture (column",
     "options": [
@@ -475,7 +490,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Taxonomic aids' slide -- match the key terms.",
     "misconception": "A wrong answer that treats all three as redundant backups misses the complementary nature of the aids.",
-    "id": "gen_c11_bio_ch01_q14",
+    "id": "gen_c11_bio_ch01_q15",
     "nodeId": "c11_bio_cbse_01_006",
     "difficulty": "standard"
    },
@@ -490,7 +505,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Taxonomic aids' slide -- match the key terms.",
     "misconception": "A student who says the garden accession replaces the type specimen misunderstands the International Code of Nomenclature: only the herbarium type fixes the application of the name.",
-    "id": "gen_c11_bio_ch01_q15",
+    "id": "gen_c11_bio_ch01_q16",
     "nodeId": "c11_bio_cbse_01_006",
     "difficulty": "standard"
    },
@@ -505,36 +520,21 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Taxonomic aids' slide -- match the key terms.",
     "misconception": "A poor answer omits poisoning, uses non-archival paper, or skips Index Herbariorum registration—making specimens unusable for formal taxonomy.",
-    "id": "gen_c11_bio_ch01_q16",
+    "id": "gen_c11_bio_ch01_q17",
     "nodeId": "c11_bio_cbse_01_006",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Design a dichotomous key for identifying the following five Indian primate species using only characters observable in a zoo setting: *Macaca mulatta* (rhesus macaque), *Macaca radiata* (bonnet macaque), *Semnopithecus entellus* (gray langur), *Trachypithecus geei* (golden langur), and *Hoolock hoolock* (western",
-    "answer": "Couplet 1: (a) Tail absent or vestigial (<5 cm) → *Hoolock hoolock*; (b) Tail well-developed (>20 cm) → go to 2",
+    "question": "A student argues: \"Since DNA barcoding is now available, dichotomous keys and zoological parks are obsolete for taxonomy.\" Evaluate this claim with three specific counterarguments grounded in Class 11 biology.",
+    "answer": "The claim is invalid because: (1) Dichotomous keys remain essential for rapid field identification where lab facilities are unavailable",
     "options": [
-     "(a) Mimosa pudica (touch-me-not) potted plant; (b) Mechanical stimulus — gentle touch to one leaflet with a glass rod",
-     "Activity: \"The Mystery Vegetable.\" Teacher brings 5 vegetables (e.g., brinjal, ridge gourd, drumstick, colocasia, amaranth)",
-     "Couplet 1: (a) Tail absent or vestigial (<5 cm) → *Hoolock hoolock*; (b) Tail well-developed (>20 cm) → go to 2"
-    ],
-    "hint": "Straight from the 'Zoological parks' slide -- match the key terms.",
-    "misconception": "A poor answer using only \"monkey vs ape\" or color alone fails to demonstrate hierarchical character selection and ignores intraspecific variation.",
-    "id": "gen_c11_bio_ch01_q17",
-    "nodeId": "c11_bio_cbse_01_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why are zoological parks considered superior to museums for studying reproductive behavior and breeding biology of endangered species?",
-    "answer": "Zoological parks maintain living, breeding populations under controlled conditions allowing direct observation of courtship, mating, parental care, and developmental stages",
-    "options": [
-     "Metabolism is the sum total of all enzyme-catalyzed biochemical reactions (anabolism - building up, catabolism - breaking down) occurring in a living cell to maintain homeostasis",
+     "The raisin exhibits *physical* swelling (imbibition), not biological growth — growth in living organisms occurs by *intracellular accretion* (new protoplasm synthesis via",
      "Aerobic respiration (Flask A) yields ~36-38 ATP per glucose via glycolysis + Krebs cycle + oxidative phosphorylation",
-     "Zoological parks maintain living, breeding populations under controlled conditions allowing direct observation of courtship, mating, parental care, and developmental stages"
+     "The claim is invalid because: (1) Dichotomous keys remain essential for rapid field identification where lab facilities are unavailable"
     ],
     "hint": "Straight from the 'Zoological parks' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"museums have more specimens\") confuses quantity of specimens with quality of biological information; museums excel in morphological comparison and historical distribution records, not live behavioral data.",
+    "misconception": "A wrong answer accepting the claim reflects technological determinism, misunderstanding that taxonomy integrates multiple evidence streams.",
     "id": "gen_c11_bio_ch01_q18",
     "nodeId": "c11_bio_cbse_01_008",
     "difficulty": "advanced"
@@ -896,6 +896,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "*Parasitic flatworms (Platyhelminthes) lack a true body cavity (acoelomate) and a complete digestive tract. Despite these \"simplifications,\" they are unequivocally placed in Kingdom Animalia. Justify this placement using *four* defining animal characteristics they possess.*",
+    "answer": "Flatworms are placed in Animalia because they: (1) Are multicellular eukaryotes; (2) Lack cell walls (body covered by syncytial tegument)",
+    "options": [
+     "Cell wall (peptidoglycan) — provides structural support and shape, differs between Gram-positive (thick) and Gram-negative (thin)",
+     "SO₂ dissolves in the lichen's surface moisture forming sulfurous acid (H₂SO₃), which dissociates to H⁺ and bisulfite (HSO₃⁻)",
+     "Flatworms are placed in Animalia because they: (1) Are multicellular eukaryotes; (2) Lack cell walls (body covered by syncytial tegument)"
+    ],
+    "hint": "Straight from the 'Kingdom Animalia comprises' slide -- match the key terms.",
+    "misconception": "A wrong answer citing \"they move\" or \"they are parasites\" fails because some protists move and many parasites are non-animal; the student must cite *structural/organizational* synapomorphies.",
+    "id": "gen_c11_bio_ch02_q11",
+    "nodeId": "c11_bio_cbse_02_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A farmer reports cattle showing progressive neurological symptoms: ataxia, tremors, and aggression. Brain biopsy reveals spongiform vacuolation. The infectious agent resists UV radiation, nucleases, and proteases but is inactivated by protein denaturants.",
     "answer": "The agent is a prion (PrP^Sc) causing bovine spongiform encephalopathy (BSE). Resistance to UV and nucleases confirms absence of nucleic acid",
     "options": [
@@ -905,7 +920,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Prions' slide -- match the key terms.",
     "misconception": "A wrong answer attributing the disease to a virus or suggesting normal autoclaving works reveals misunderstanding of prion's unique physicochemical stability and the implications for iatrogenic transmission.",
-    "id": "gen_c11_bio_ch02_q11",
+    "id": "gen_c11_bio_ch02_q12",
     "nodeId": "c11_bio_cbse_02_010",
     "difficulty": "standard"
    },
@@ -920,7 +935,22 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Prions' slide -- match the key terms.",
     "misconception": "A wrong answer treating both as \"fungus-algae/plant associations\" without distinguishing thallus-level vs organ-level integration misses the evolutionary significance of lichens as a distinct morphological entity.",
-    "id": "gen_c11_bio_ch02_q12",
+    "id": "gen_c11_bio_ch02_q13",
+    "nodeId": "c11_bio_cbse_02_010",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple field study to map lichen diversity as an indicator of air quality across an urban-rural gradient in your district. Specify sampling method, metrics, and how you would correlate with pollution data.",
+    "answer": "Select 5-7 sites along a transect from city center (high traffic/industry) to rural area. At each site, use a 50 cm × 50 cm quadrat on 10 randomly chosen trees (same species",
+    "options": [
+     "The agent is a prion (PrP^Sc) causing bovine spongiform encephalopathy (BSE). Resistance to UV and nucleases confirms absence of nucleic acid",
+     "SO₂ dissolves in the lichen's surface moisture forming sulfurous acid (H₂SO₃), which dissociates to H⁺ and bisulfite (HSO₃⁻)",
+     "Select 5-7 sites along a transect from city center (high traffic/industry) to rural area. At each site, use a 50 cm × 50 cm quadrat on 10 randomly chosen trees (same species"
+    ],
+    "hint": "Straight from the 'Prions' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Select 5-7 sites along a transect from city center (high traffic/industry) to rural area.",
+    "id": "gen_c11_bio_ch02_q14",
     "nodeId": "c11_bio_cbse_02_010",
     "difficulty": "standard"
    },
@@ -935,7 +965,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Prions' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"lichens die in pollution\" without explaining the physiological mechanism (direct absorption, no cuticle, photosynthetic inhibition) shows superficial memorization without understanding lichen anatomy-physiology linkage.",
-    "id": "gen_c11_bio_ch02_q13",
+    "id": "gen_c11_bio_ch02_q15",
     "nodeId": "c11_bio_cbse_02_010",
     "difficulty": "standard"
    }
@@ -1570,6 +1600,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "An unknown alga is collected from a marine habitat. It has chlorophyll a and c, stores mannitol and laminarin, has a cellulosic wall with algin coating, and produces biflagellate zoospores with unequal lateral flagella. Classify it into the correct class and justify each diagnostic feature.",
+    "answer": "The alga belongs to Phaeophyceae (brown algae). Step 1: Habitat — marine (matches Phaeophyceae: primarily marine)",
+    "options": [
+     "Phaeophyceae. Justification: (1) Cell wall of cellulose covered by algin (gelatinous coating) is characteristic of brown algae",
+     "Biorefinery Design: 1. From *Sargassum* (brown alga): Extract alginate (cell wall) → biomedical hydrogels/wound dressings",
+     "The alga belongs to Phaeophyceae (brown algae). Step 1: Habitat — marine (matches Phaeophyceae: primarily marine)"
+    ],
+    "hint": "Straight from the 'Algae' slide -- match the key terms.",
+    "misconception": "A wrong classification (e.g., Chlorophyceae) reveals inability to use the multi-character diagnostic key in Table 3.1 and over-reliance on a single trait like \"marine habitat\".",
+    "id": "gen_c11_bio_ch03_q17",
+    "nodeId": "c11_bio_cbse_03_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the evolutionary progression of sexual reproduction in algae from isogamy to oogamy. Explain how this progression relates to the division of labour between gametes and the protection of the zygote.",
     "answer": "Isogamy (Ulothrix, Spirogyra): morphologically identical, flagellated gametes; no division of labour; both gametes motile and vulnerable",
     "options": [
@@ -1579,21 +1624,6 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Algae' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"oogamy evolved for faster swimming\") misses the core concept of gamete specialization and zygote protection, confusing it with sperm competition.",
-    "id": "gen_c11_bio_ch03_q17",
-    "nodeId": "c11_bio_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Define 'thalloid' plant body and explain why algae are described as having a thalloid organization rather than true roots, stems, and leaves.",
-    "answer": "A thalloid plant body is an undifferentiated, flat or filamentous structure that is not organized into true roots, stems, and leaves",
-    "options": [
-     "Bryophytes are called amphibians of the plant kingdom because they live in soil (terrestrial habitat) but require an external film of water for sexual reproduction",
-     "Chlorophyceae: chlorophyll a and b (grass green); Phaeophyceae: chlorophyll a, c and fucoxanthin (brown); Rhodophyceae: chlorophyll a, d and r-phycoerythrin (red)",
-     "A thalloid plant body is an undifferentiated, flat or filamentous structure that is not organized into true roots, stems, and leaves"
-    ],
-    "hint": "Straight from the 'Algae' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"algae have roots called rhizoids\") reveals confusion between rhizoids (simple unicellular/multicellular filaments for attachment) and true roots (with vascular tissue and root cap), a Class 9-level error (c9_bio_ch2_4).",
     "id": "gen_c11_bio_ch03_q18",
     "nodeId": "c11_bio_cbse_03_002",
     "difficulty": "standard"
@@ -1984,6 +2014,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student observes a transparent, gelatinous, oval marine animal about 2 cm long with eight shimmering rows of cilia running along its body. It captures small crustaceans using sticky tentacles that retract into sheaths.",
+    "answer": "The animal belongs to Phylum Ctenophora, not Cnidaria. Step 1: Eight meridional rows of ciliated comb plates are unique to Ctenophora; cnidarians lack comb plates entirely",
+    "options": [
+     "Class Crustacea (e.g., prawn). Diagnostic features: (1) Two pairs of antennae (insects have one pair)",
+     "Steps: (1) Locate the animal in its microhabitat (snail on vegetation/wall, bivalve buried in mud/sand)",
+     "The animal belongs to Phylum Ctenophora, not Cnidaria. Step 1: Eight meridional rows of ciliated comb plates are unique to Ctenophora; cnidarians lack comb plates entirely"
+    ],
+    "hint": "Straight from the 'Phylum Ctenophora comprises' slide -- match the key terms.",
+    "misconception": "A student who still calls it a cnidarian is over-relying on superficial \"jellyfish-like\" appearance and ignoring the defining structural differences taught in c11_bio_cbse_04_004.",
+    "id": "gen_c11_bio_ch04_q10",
+    "nodeId": "c11_bio_cbse_04_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Explain why the presence of eight rows of ciliated comb plates is a more reliable diagnostic feature for Ctenophora than bioluminescence, even though both are mentioned in the textbook.",
     "answer": "Comb plates are a universal, permanent, structural feature present in all ctenophores and directly linked to their locomotion and phylum name (ctene = comb)",
     "options": [
@@ -1993,7 +2038,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Phylum Ctenophora comprises' slide -- match the key terms.",
     "misconception": "A student who claims bioluminescence is equally diagnostic confuses a variable physiological trait with a fixed morphological synapomorphy, showing inability to distinguish defining characters from accessory features in taxonomy.",
-    "id": "gen_c11_bio_ch04_q10",
+    "id": "gen_c11_bio_ch04_q11",
     "nodeId": "c11_bio_cbse_04_005",
     "difficulty": "standard"
    },
@@ -2008,7 +2053,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Phylum Platyhelminthes comprises' slide -- match the key terms.",
     "misconception": "A wrong evaluation (\"they are homologous\" or \"completely different\") reveals the student cannot link body cavity type to excretory structure evolution — a key analytical skill for board-level comparative questions.",
-    "id": "gen_c11_bio_ch04_q11",
+    "id": "gen_c11_bio_ch04_q12",
     "nodeId": "c11_bio_cbse_04_006",
     "difficulty": "advanced"
    },
@@ -2023,7 +2068,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Phylum Platyhelminthes comprises' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Place Planaria in Petri dish half-covered with black paper; shine light on illuminated half — observe negative",
-    "id": "gen_c11_bio_ch04_q12",
+    "id": "gen_c11_bio_ch04_q13",
     "nodeId": "c11_bio_cbse_04_006",
     "difficulty": "advanced"
    },
@@ -2038,9 +2083,24 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Phylum Platyhelminthes comprises' slide -- match the key terms.",
     "misconception": "A wrong prediction (\"nothing happens\" or \"adult worm develops\") shows the student memorises the cycle linearly without understanding host-specific developmental triggers (oncosphere vs. cysticercus) — a frequent board exam application question.",
-    "id": "gen_c11_bio_ch04_q13",
+    "id": "gen_c11_bio_ch04_q14",
     "nodeId": "c11_bio_cbse_04_006",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A student finds an unknown arthropod specimen with two pairs of antennae, biramous appendages, and gills for respiration. Identify its class and justify your classification using three diagnostic features.",
+    "answer": "Class Crustacea (e.g., prawn). Diagnostic features: (1) Two pairs of antennae (insects have one pair)",
+    "options": [
+     "The statement is partially correct functionally (both osmoregulate/excrete) but structurally incorrect",
+     "Ingesting eggs → oncospheres hatch in human intestine → penetrate intestinal wall → enter circulation → encyst as cysticerci in human tissues (muscle, brain",
+     "Class Crustacea (e.g., prawn). Diagnostic features: (1) Two pairs of antennae (insects have one pair)"
+    ],
+    "hint": "Straight from the 'Phylum Arthropoda' slide -- match the key terms.",
+    "misconception": "A wrong classification as Insecta reveals inability to distinguish crustacean vs. insect synapomorphies, particularly the antennae number and appendage branching pattern.",
+    "id": "gen_c11_bio_ch04_q15",
+    "nodeId": "c11_bio_cbse_04_009",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -2053,7 +2113,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Phylum Arthropoda' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Cockroach: Malpighian tubules (blind tubules opening into gut) extract uric acid from haemolymph and empty into hindgut",
-    "id": "gen_c11_bio_ch04_q14",
+    "id": "gen_c11_bio_ch04_q16",
     "nodeId": "c11_bio_cbse_04_009",
     "difficulty": "standard"
    },
@@ -2068,7 +2128,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Phylum Arthropoda' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer: Observe cockroach - head (antennae, compound eyes, mouthparts: labrum, mandibles, maxillae, labium),",
-    "id": "gen_c11_bio_ch04_q15",
+    "id": "gen_c11_bio_ch04_q17",
     "nodeId": "c11_bio_cbse_04_009",
     "difficulty": "standard"
    },
@@ -2083,38 +2143,8 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Phylum Arthropoda' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on protection without mentioning desiccation prevention or moulting reveals incomplete understanding of the terrestrial adaptation trade-off.",
-    "id": "gen_c11_bio_ch04_q16",
-    "nodeId": "c11_bio_cbse_04_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A cone snail (Conus) injects venom into a fish using a modified radular tooth. A chiton (Chaetopleura) scrapes algae off rocks with a radula bearing dozens of transverse rows of teeth. Predict the radular formula (arrangement of teeth per row) for each and justify based on feeding mechanism.",
-    "answer": "Cone snail: radula reduced to a single hollow, harpoon-like tooth per row (formula 1+0+1 or similar) — each tooth is a disposable venom-delivery syringe",
-    "options": [
-     "Ingesting eggs → oncospheres hatch in human intestine → penetrate intestinal wall → enter circulation → encyst as cysticerci in human tissues (muscle, brain",
-     "(a) Place Planaria in Petri dish half-covered with black paper; shine light on illuminated half — observe negative phototaxis (move to dark)",
-     "Cone snail: radula reduced to a single hollow, harpoon-like tooth per row (formula 1+0+1 or similar) — each tooth is a disposable venom-delivery syringe"
-    ],
-    "hint": "Straight from the 'Phylum Mollusca comprises' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both have many teeth\") reveals the student does not link radular morphology to functional adaptation — venom delivery requires single-shot precision, scraping requires durability and replacement.",
-    "id": "gen_c11_bio_ch04_q17",
-    "nodeId": "c11_bio_cbse_04_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the circulatory systems of a typical gastropod (Pila) and a cephalopod (Octopus). Identify the key structural difference and explain how it correlates with metabolic rate and locomotion in these two classes.",
-    "answer": "Gastropods have an open circulatory system: heart pumps haemolymph into sinuses (haemocoel) bathing tissues directly; low pressure, slow flow suits slow crawling",
-    "options": [
-     "Cockroach: Malpighian tubules (blind tubules opening into gut) extract uric acid from haemolymph and empty into hindgut - water-conserving",
-     "Sycon (marine): calcareous spicules — rigid support. Euspongia (marine bath sponge): only spongin fibres — soft, elastic, used commercially",
-     "Gastropods have an open circulatory system: heart pumps haemolymph into sinuses (haemocoel) bathing tissues directly; low pressure, slow flow suits slow crawling"
-    ],
-    "hint": "Straight from the 'Phylum Mollusca comprises' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both are open because they are molluscs\") shows the student overgeneralises phylum-level traits and misses the cephalopod innovation that enables their predatory lifestyle.",
     "id": "gen_c11_bio_ch04_q18",
-    "nodeId": "c11_bio_cbse_04_010",
+    "nodeId": "c11_bio_cbse_04_009",
     "difficulty": "standard"
    }
   ],
@@ -3572,6 +3602,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student examines a transverse section of a young stem under a microscope and observes vascular bundles arranged in a distinct ring. The bundles are conjoint, open, and show endarch protoxylem. Identify the plant group (monocot/dicot) and justify your answer using tissue organization.",
+    "answer": "The stem is dicotyledonous. Reasoning: (1) Ring arrangement of vascular bundles is a hallmark of dicot stems",
+    "options": [
+     "This is a monocot stem (e.g., maize). Justification: (i) Conjoint collateral bundles occur in both, but (ii) sclerenchymatous bundle sheath is characteristic of monocots",
+     "Steps: 1) Collect young stems of grass (monocot) and bean/marigold (dicot). 2) Make clean transverse cuts with razor blade",
+     "The stem is dicotyledonous. Reasoning: (1) Ring arrangement of vascular bundles is a hallmark of dicot stems"
+    ],
+    "hint": "Straight from the 'Plant tissues' slide -- match the key terms.",
+    "misconception": "A wrong answer of \"monocot\" shows inability to link bundle arrangement and cambium presence to the correct plant group.",
+    "id": "gen_c11_bio_ch06_q13",
+    "nodeId": "c11_bio_cbse_06_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the functional roles of intercalary meristem in grasses with apical meristem in a dicot herb. How does their location relate to the plant's response to grazing or pruning?",
     "answer": "Apical meristem at the shoot tip drives primary elongation; if removed (pruning), the main stem stops lengthening but axillary buds may grow",
     "options": [
@@ -3581,7 +3626,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Plant tissues' slide -- match the key terms.",
     "misconception": "A wrong answer that states both are at the tips fails to recognize the adaptive significance of intercalary meristem location in monocots.",
-    "id": "gen_c11_bio_ch06_q13",
+    "id": "gen_c11_bio_ch06_q14",
     "nodeId": "c11_bio_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3596,7 +3641,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Plant tissues' slide -- match the key terms.",
     "misconception": "A poor answer merely states \"measure root length daily\" without spatial resolution.",
-    "id": "gen_c11_bio_ch06_q14",
+    "id": "gen_c11_bio_ch06_q15",
     "nodeId": "c11_bio_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3611,7 +3656,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Plant tissues' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement has overgeneralized from sclerenchyma to all permanent tissues.",
-    "id": "gen_c11_bio_ch06_q15",
+    "id": "gen_c11_bio_ch06_q16",
     "nodeId": "c11_bio_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3626,7 +3671,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Plant tissues' slide -- match the key terms.",
     "misconception": "A wrong answer that lists parenchyma, collenchyma, or sclerenchyma reveals confusion between meristematic and permanent tissue categories.",
-    "id": "gen_c11_bio_ch06_q16",
+    "id": "gen_c11_bio_ch06_q17",
     "nodeId": "c11_bio_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3641,23 +3686,8 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Plant tissues' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"storage of food\" or \"mechanical support\" indicates the student is attributing permanent tissue functions to meristematic cells.",
-    "id": "gen_c11_bio_ch06_q17",
-    "nodeId": "c11_bio_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the parenchyma in potato tuber (storage), leaf mesophyll (photosynthesis), and aquatic plant cortex (aerenchyma). Analyze how wall structure and intercellular space differ to serve each function.",
-    "answer": "Potato tuber: thin walls, dense cytoplasm, amyloplasts, minimal air spaces — maximizes starch storage per volume",
-    "options": [
-     "Dicot stem: Mechanical support is provided by collenchymatous hypodermis (flexible support for young growing stem) and sclerenchymatous pericycle patches (hard support above",
-     "Root: Cambium from conjunctive tissue (between radial xylem-phloem) + pericycle (outside vascular bundles)",
-     "Potato tuber: thin walls, dense cytoplasm, amyloplasts, minimal air spaces — maximizes starch storage per volume"
-    ],
-    "hint": "Straight from the 'Simple permanent tissues' slide -- match the key terms.",
-    "misconception": "A wrong comparison that treats all parenchyma as identical misses adaptive wall/space modifications: storage requires cytoplasmic density, photosynthesis requires chloroplast positioning, aeration requires gas-filled volume.",
     "id": "gen_c11_bio_ch06_q18",
-    "nodeId": "c11_bio_cbse_06_002",
+    "nodeId": "c11_bio_cbse_06_001",
     "difficulty": "standard"
    }
   ],
@@ -4926,6 +4956,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate this statement: \"The fluid mosaic model implies that all membrane proteins move freely and randomly in the plane of the membrane.\" Is this true? Provide evidence.",
+    "answer": "False. While the model proposes lateral mobility, many proteins have restricted movement: (1) Cytoskeletal anchors (e",
+    "options": [
+     "Schleiden and Schwann (1838-39) established that plants and animals are composed of cells, but they believed new cells formed spontaneously from a \"cytoblastema\" or nucleated",
+     "Partially correct. Glyoxysomes are prominent in germinating oil seeds (castor, groundnut) where they run the glyoxylate cycle (isocitrate lyase + malate synthase) to convert",
+     "False. While the model proposes lateral mobility, many proteins have restricted movement: (1) Cytoskeletal anchors (e"
+    ],
+    "hint": "Straight from the 'Fluid Mosaic Model' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: False. While the model proposes lateral mobility, many proteins have restricted movement: (1) Cytoskeletal anchors (e.",
+    "id": "gen_c11_bio_ch08_q15",
+    "nodeId": "c11_bio_cbse_08_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple experiment using locally available plant materials (e.g., potato, carrot, spinach) to demonstrate that cell wall composition differs between storage tissue (parenchyma) and mechanical tissue (collenchyma/sclerenchyma). Specify the stain/chemical test, expected observation, and conclusion.",
     "answer": "Experiment: Cut transverse sections of potato tuber (storage parenchyma) and celery petiole (collenchyma strands)",
     "options": [
@@ -4935,7 +4980,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'cell wall' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Experiment: Cut transverse sections of potato tuber (storage parenchyma) and celery petiole (collenchyma strands).",
-    "id": "gen_c11_bio_ch08_q15",
+    "id": "gen_c11_bio_ch08_q16",
     "nodeId": "c11_bio_cbse_08_004",
     "difficulty": "standard"
    },
@@ -4950,7 +4995,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ribosomes' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Incubate cells with ³⁵S-methionine for a short pulse, then fractionate the cell into nuclear and cytoplasmic",
-    "id": "gen_c11_bio_ch08_q16",
+    "id": "gen_c11_bio_ch08_q17",
     "nodeId": "c11_bio_cbse_08_007",
     "difficulty": "standard"
    },
@@ -4965,21 +5010,6 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Microbodies' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"starch granules are plastids\" or \"lipid droplets are microbodies\") reveals inability to distinguish membranous organelles from non-living inclusions based on structure and function.",
-    "id": "gen_c11_bio_ch08_q17",
-    "nodeId": "c11_bio_cbse_08_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this statement: \"Glyoxysomes are present only in germinating oil-rich seeds and disappear once the seedling becomes photosynthetic.\" Is it entirely correct? Justify with two specific biochemical reasons.",
-    "answer": "Partially correct. Glyoxysomes are prominent in germinating oil seeds (castor, groundnut) where they run the glyoxylate cycle (isocitrate lyase + malate synthase) to convert",
-    "options": [
-     "False. While the model proposes lateral mobility, many proteins have restricted movement: (1) Cytoskeletal anchors (e",
-     "Schleiden and Schwann (1838-39) established that plants and animals are composed of cells, but they believed new cells formed spontaneously from a \"cytoblastema\" or nucleated",
-     "Partially correct. Glyoxysomes are prominent in germinating oil seeds (castor, groundnut) where they run the glyoxylate cycle (isocitrate lyase + malate synthase) to convert"
-    ],
-    "hint": "Straight from the 'Microbodies' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"they stay forever\" or \"they become mitochondria\") reveals ignorance of organelle interconversion and metabolic switching during seedling development.",
     "id": "gen_c11_bio_ch08_q18",
     "nodeId": "c11_bio_cbse_08_010",
     "difficulty": "standard"
@@ -5296,6 +5326,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple experiment using only household materials (vinegar, baking soda, egg white, clear cups) to demonstrate that proteins are made of amino acids linked by bonds that can be broken by acid hydrolysis. List steps, expected observations, and the chemical principle.",
+    "answer": "Steps: (1) Place egg white (albumin) in cup A; add vinegar (acid) to cup B with egg white. (2) Heat both gently for 10 min",
+    "options": [
+     "Incubate yeast in glucose solution with methylene blue (blue when oxidized, colorless when reduced)",
+     "Procedure: Pour equal volumes of coconut oil and groundnut oil into separate transparent containers",
+     "Steps: (1) Place egg white (albumin) in cup A; add vinegar (acid) to cup B with egg white. (2) Heat both gently for 10 min"
+    ],
+    "hint": "Straight from the 'Proteins' slide -- match the key terms.",
+    "misconception": "A poor answer (e.g., \"vinegar digests protein like stomach\") reveals confusion between chemical hydrolysis and enzymatic digestion, or missing the control.",
+    "id": "gen_c11_bio_ch09_q8",
+    "nodeId": "c11_bio_cbse_09_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast the lock-and-key model versus the induced-fit model of enzyme-substrate binding. Which model better explains the observation that enzymes often show conformational changes upon substrate binding, and why?",
     "answer": "Lock-and-key: rigid, pre-formed active site exactly complementary to substrate (static fit). Induced-fit: flexible active site that undergoes conformational change upon substrate",
     "options": [
@@ -5305,7 +5350,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Enzymes' slide -- match the key terms.",
     "misconception": "A wrong answer claiming lock-and-key explains conformational changes reveals the student hasn't grasped that lock-and-key assumes rigidity, while induced-fit was proposed specifically to account for observed flexibility.",
-    "id": "gen_c11_bio_ch09_q8",
+    "id": "gen_c11_bio_ch09_q9",
     "nodeId": "c11_bio_cbse_09_005",
     "difficulty": "standard"
    },
@@ -5320,7 +5365,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Enzymes' slide -- match the key terms.",
     "misconception": "A poor answer omits controlled variables or predicts continuous increase, revealing confusion between reaction rate theory (rate doubles per 10°C) and protein stability limits.",
-    "id": "gen_c11_bio_ch09_q9",
+    "id": "gen_c11_bio_ch09_q10",
     "nodeId": "c11_bio_cbse_09_005",
     "difficulty": "standard"
    },
@@ -5335,7 +5380,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Enzyme kinetics' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"measure bubbles at different temperatures\") lacks quantitative dependent variable, controls, or prediction of the decline phase, showing inability to design a controlled investigation.",
-    "id": "gen_c11_bio_ch09_q10",
+    "id": "gen_c11_bio_ch09_q11",
     "nodeId": "c11_bio_cbse_09_006",
     "difficulty": "advanced"
    },
@@ -5350,7 +5395,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'metabolic pathway' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"pyruvate enters Krebs cycle anyway\") reveals misunderstanding that PDC is the sole gateway linking glycolysis to mitochondrial oxidation, and that LDH reaction is reversible but driven by NADH/NAD⁺ ratio.",
-    "id": "gen_c11_bio_ch09_q11",
+    "id": "gen_c11_bio_ch09_q12",
     "nodeId": "c11_bio_cbse_09_007",
     "difficulty": "advanced"
    },
@@ -5365,7 +5410,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'metabolic pathway' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the acetyl-CoA carbons are lost immediately\") reveals failure to recognize the citrate synthase reaction creates a symmetric molecule and that decarboxylations occur at the original oxaloacetate-derived carbons — a classic board exam conceptual trap.",
-    "id": "gen_c11_bio_ch09_q12",
+    "id": "gen_c11_bio_ch09_q13",
     "nodeId": "c11_bio_cbse_09_007",
     "difficulty": "advanced"
    },
@@ -5380,7 +5425,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'metabolic pathway' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Incubate yeast in glucose solution with methylene blue (blue when oxidized, colorless when reduced).",
-    "id": "gen_c11_bio_ch09_q13",
+    "id": "gen_c11_bio_ch09_q14",
     "nodeId": "c11_bio_cbse_09_007",
     "difficulty": "advanced"
    },
@@ -5395,7 +5440,22 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'metabolic pathway' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is incorrect. Per glucose, two acetyl-CoA enter the Krebs cycle, so the cycle turns twice.",
-    "id": "gen_c11_bio_ch09_q14",
+    "id": "gen_c11_bio_ch09_q15",
+    "nodeId": "c11_bio_cbse_09_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Explain why glycolysis is described as having an \"energy investment phase\" and an \"energy payoff phase,\" and calculate the net ATP yield per glucose molecule when glycolysis operates under aerobic conditions in a eukaryotic cell.",
+    "answer": "The investment phase (steps 1–5) consumes 2 ATP to phosphorylate glucose and fructose-6-phosphate",
+    "options": [
+     "The statement is incorrect. Per glucose, two acetyl-CoA enter the Krebs cycle, so the cycle turns twice",
+     "The statement ignores that enzymes are proteins with a narrow thermal stability range. While molecular motion increases with temperature (raising collision frequency)",
+     "The investment phase (steps 1–5) consumes 2 ATP to phosphorylate glucose and fructose-6-phosphate"
+    ],
+    "hint": "Straight from the 'metabolic pathway' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"4 ATP net\" or \"38 ATP\") reveals failure to distinguish gross vs net yield, or confusion between glycolysis alone and complete aerobic respiration including oxidative phosphorylation.",
+    "id": "gen_c11_bio_ch09_q16",
     "nodeId": "c11_bio_cbse_09_007",
     "difficulty": "advanced"
    },
@@ -5410,7 +5470,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'metabolic pathway' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming hexokinase or pyruvate kinase) reveals confusion between the first irreversible step (hexokinase) and the committed step (PFK-1), or inability to distinguish tissue-specific regulation — liver PFK-1 responds to F2,6BP while muscle PFK-1 does not.",
-    "id": "gen_c11_bio_ch09_q15",
+    "id": "gen_c11_bio_ch09_q17",
     "nodeId": "c11_bio_cbse_09_007",
     "difficulty": "advanced"
    },
@@ -5425,39 +5485,9 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'living state' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both are alive so both are far from equilibrium\") reveals inability to apply the steady-state concept quantitatively — dormancy is a protected near-equilibrium state, not a steady state.",
-    "id": "gen_c11_bio_ch09_q16",
-    "nodeId": "c11_bio_cbse_09_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Cyanide inhibits cytochrome c oxidase (Complex IV) in the mitochondrial electron transport chain. Predict the immediate effect on: (a) ATP synthesis via oxidative phosphorylation, (b) NAD+/NADH ratio in the mitochondrial matrix, (c) glycolytic rate in a hepatocyte. Justify each prediction.",
-    "answer": "(a) ATP synthesis via oxidative phosphorylation stops because proton motive force cannot be generated without electron flow to O₂",
-    "options": [
-     "Independent variable: temperature (e.g., 10°C, 25°C, 37°C, 50°C, 70°C). Dependent variable: rate of O₂ evolution (measured as volume of gas per minute or time for foam to reach a",
-     "With PDC deficient, pyruvate cannot enter mitochondria as acetyl-CoA. In liver, pyruvate is carboxylated to oxaloacetate (via pyruvate carboxylase) for gluconeogenesis or diverted",
-     "(a) ATP synthesis via oxidative phosphorylation stops because proton motive force cannot be generated without electron flow to O₂"
-    ],
-    "hint": "Straight from the 'living state' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"glycolysis stops because mitochondria are damaged\") reveals failure to understand metabolic regulation via energy charge and redox state, and the compensatory cross-talk between pathways.",
-    "id": "gen_c11_bio_ch09_q17",
-    "nodeId": "c11_bio_cbse_09_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "During tissue homogenization in trichloroacetic acid, phospholipids from the endoplasmic reticulum membranes appear in the acid-insoluble pellet. A student argues: \"Phospholipids have molecular weight ~750 Da, so they should be in the acid-soluble filtrate.",
-    "answer": "Correct explanation: Homogenization mechanically disrupts membranes into closed vesicles (liposomes) that are physically large and water-insoluble",
-    "options": [
-     "Independent variable: Temperature (e.g., 10, 20, 30, 40, 50, 60°C). Dependent variable: Volume of O2 gas evolved per minute (or time for filter paper disc to rise)",
-     "With PDC deficient, pyruvate cannot enter mitochondria as acetyl-CoA. In liver, pyruvate is carboxylated to oxaloacetate (via pyruvate carboxylase) for gluconeogenesis or diverted",
-     "Correct explanation: Homogenization mechanically disrupts membranes into closed vesicles (liposomes) that are physically large and water-insoluble"
-    ],
-    "hint": "Straight from the 'Biomacromolecules' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student treats molecular weight as the sole criterion, missing the crucial experimental context that defines the operational classification in biochemistry.",
     "id": "gen_c11_bio_ch09_q18",
-    "nodeId": "c11_bio_cbse_09_009",
-    "difficulty": "advanced"
+    "nodeId": "c11_bio_cbse_09_008",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -5471,22 +5501,408 @@ export const C11_BIO_GEN: SimDef[] = [
   "sampleChallenges": 8
  },
  {
+  "id": "gen_c11_bio_ch10",
+  "title": "Photosynthesis In Higher Plants",
+  "subtitle": "Biology · Chapter 10",
+  "classLevel": 11,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Photosynthesis In Higher Plants",
+  "chapters": [
+   "Biology Ch10: Photosynthesis In Higher Plants",
+   "Biology Ch11: Photosynthesis In Higher Plants"
+  ],
+  "nodeIds": [
+   "c11_bio_cbse_11_001",
+   "c11_bio_cbse_10_002",
+   "c11_bio_cbse_10_005",
+   "c11_bio_cbse_10_008"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-indigo-100 to-blue-200",
+   "accent": "indigo",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "What happens if Photosynthesis In Higher Plants suddenly stops working?",
+   "options": [
+    "Things around us change in noticeable ways",
+    "Absolutely nothing changes",
+    "Only textbooks would change"
+   ],
+   "answer": "Things around us change in noticeable ways",
+   "hook": "Cancer researcher: cancer is the cell cycle gone rogue, and this chapter is the control panel."
+  },
+  "teaching": [
+   {
+    "title": "Photosynthesis In Higher Plants",
+    "text": "Photosynthesis in higher plants is a physico-chemical process occurring in chloroplasts where green plants convert light energy into chemical energy by using carbon dioxide and water to synthesise carbohydrates, with oxygen released as a by-product.",
+    "emoji": "🌿",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Interphase",
+    "text": "Interphase is the longest phase of the cell cycle where a eukaryotic cell prepares for division by undergoing sequential growth (G1), DNA replication (S), and final preparation for mitosis (G2), without any visible chromosome condensation or nuclear division.",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Mitosis",
+    "text": "Mitosis is an equational cell division process in which a single diploid parent cell divides to produce two genetically identical diploid daughter cells, maintaining the chromosome number (2n) and DNA content (2C) across generations of somatic cells.",
+    "emoji": "🌿",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Meiosis",
+    "text": "Meiosis is a specialized reductional cell division in diploid germ cells that produces four genetically unique haploid gametes through two sequential divisions (Meiosis I and II) following a single DNA replication, thereby halving the chromosome number and",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Give the correct order of steps in the prism-and-bacteria experiment that shows where photosynthesis is maximal.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Suspend aerobic bacteria in the drop",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Read the dense clusters in the blue and red",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Wait and observe where the bacteria",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Pass white light through a prism to spread",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that expects bacteria evenly everywhere shows the student has missed that bacteria track oxygen, making them living indicators of the photosynthetic rate across wavelengths.",
+    "id": "gen_c11_bio_ch10_q1",
+    "nodeId": "c11_bio_cbse_11_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a spinach leaf (palak) held against sunlight – you see deep green, but notice the younger leaves are lighter green while older ones may",
+     "This variation hints at different pigment compositions.",
+     "Begin by recalling Class 9 cell structure (c9_bio_ch1_10: plastids) where you learned chloroplasts contain chlorophyll.",
+     "Now, understand that the \"green colour\" is not one pigment but a mixture."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps in a pulse-chase experiment that identifies which cultured cells are in S phase.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Replace it with excess unlabelled thymidine",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Fix cells at intervals and prepare",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Count nuclei with silver grains over",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Pulse the culture with radioactive thymidine",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that labels with a non-DNA precursor, or skips the chase, shows the student has missed that only cells replicating DNA take up thymidine, which is what makes the pulse S-phase specific.",
+    "id": "gen_c11_bio_ch10_q2",
+    "nodeId": "c11_bio_cbse_10_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a growing onion root tip under a microscope – most cells appear large with a distinct nucleus and nucleolus, not dividing.",
+     "This is interphase, where the cell spends ~95% of its time.",
+     "Start by recalling Class 9 knowledge that the nucleus contains chromosomes made of DNA.",
+     "In G1, the cell grows and duplicates organelles; in S, each chromosome replicates its DNA so it temporarily consists of two sister chromatids (but"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence of reasoning that contrasts mitosis in human skin with mitosis in a honeybee drone.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Mitosis in the drone's tissues",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The drone develops from an unfertilised",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Human skin cells arise from diploid somatic",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Mitosis itself preserves whatever ploidy",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that insists mitosis only occurs in diploid cells shows the student has missed that mitosis is equational, conserving the starting chromosome number in both cases.",
+    "id": "gen_c11_bio_ch10_q3",
+    "nodeId": "c11_bio_cbse_10_005",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a mango tree in your courtyard: it grows taller every year, heals bark wounds within weeks, and produces new leaves each spring.",
+     "Ask: \"How does a single zygote become this massive tree, and how does it replace damaged cells without changing its genetic identity?",
+     "Now trace the cellular mechanism: every new cell originates from mitosis.",
+     "The key principle is that mitosis preserves genetic fidelity while enabling multiplication — the foundation of development, maintenance, and asexual"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps in a Drosophila test-cross that measures recombination between vestigial wings and black body.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Test-cross the heterozygous F1 to the double",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Score progeny as parental wild-type",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Compute the recombination frequency",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Cross a homozygous wild-type fly",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that uses unlinked genes or omits the test-cross shows the student has missed that measurable recombination needs heterozygous alleles revealed against a homozygous recessive parent.",
+    "id": "gen_c11_bio_ch10_q4",
+    "nodeId": "c11_bio_cbse_10_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe a family photograph: siblings share parents but look different — different eye colour, height, hair texture.",
+     "This variation arises because each sperm and egg carries a unique genetic combination.",
+     "Start by recalling that homologous chromosomes pair in prophase I (synapsis) and exchange segments at chiasmata.",
+     "Then visualize metaphase I: each bivalent aligns independently, so maternal and paternal chromosomes assort randomly."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps in a pulse-chase experiment that identifies which cultured cells are in S phase.",
+    "answer": "The protocol runs: (1) Pulse the culture with radioactive thymidine for a short window (2) Replace it with excess unlabelled thymidine for the chase (3) Fix cells at intervals and",
+    "options": [
+     "The experiment runs: (1) Pass white light through a prism to spread a spectrum over a filament of the alga (2) Suspend aerobic bacteria in the drop with the alga (3) Wait and",
+     "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as",
+     "The protocol runs: (1) Pulse the culture with radioactive thymidine for a short window (2) Replace it with excess unlabelled thymidine for the chase (3) Fix cells at intervals and"
+    ],
+    "hint": "Straight from the 'Interphase' slide -- match the key terms.",
+    "misconception": "A wrong answer that labels with a non-DNA precursor, or skips the chase, shows the student has missed that only cells replicating DNA take up thymidine, which is what makes the pulse S-phase specific.",
+    "id": "gen_c11_bio_ch10_q5",
+    "nodeId": "c11_bio_cbse_10_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Trace the correct sequence of reasoning that contrasts mitosis in human skin with mitosis in a honeybee drone.",
+    "answer": "The contrast runs: (1) Human skin cells arise from diploid somatic divisions (2) The drone develops from an unfertilised haploid egg (3) Mitosis in the drone's tissues is",
+    "options": [
+     "The protocol runs: (1) Pulse the culture with radioactive thymidine for a short window (2) Replace it with excess unlabelled thymidine for the chase (3) Fix cells at intervals and",
+     "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as",
+     "The contrast runs: (1) Human skin cells arise from diploid somatic divisions (2) The drone develops from an unfertilised haploid egg (3) Mitosis in the drone's tissues is"
+    ],
+    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "misconception": "A wrong answer that insists mitosis only occurs in diploid cells shows the student has missed that mitosis is equational, conserving the starting chromosome number in both cases.",
+    "id": "gen_c11_bio_ch10_q6",
+    "nodeId": "c11_bio_cbse_10_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps in a Drosophila test-cross that measures recombination between vestigial wings and black body.",
+    "answer": "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as",
+    "options": [
+     "The experiment runs: (1) Pass white light through a prism to spread a spectrum over a filament of the alga (2) Suspend aerobic bacteria in the drop with the alga (3) Wait and",
+     "The protocol runs: (1) Pulse the culture with radioactive thymidine for a short window (2) Replace it with excess unlabelled thymidine for the chase (3) Fix cells at intervals and",
+     "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as"
+    ],
+    "hint": "Straight from the 'Meiosis' slide -- match the key terms.",
+    "misconception": "A wrong answer that uses unlinked genes or omits the test-cross shows the student has missed that measurable recombination needs heterozygous alleles revealed against a homozygous recessive parent.",
+    "id": "gen_c11_bio_ch10_q7",
+    "nodeId": "c11_bio_cbse_10_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps in the prism-and-bacteria experiment that shows where photosynthesis is maximal.",
+    "answer": "The experiment runs: (1) Pass white light through a prism to spread a spectrum over a filament of the alga (2) Suspend aerobic bacteria in the drop with the alga (3) Wait and",
+    "options": [
+     "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as",
+     "The protocol runs: (1) Pulse the culture with radioactive thymidine for a short window (2) Replace it with excess unlabelled thymidine for the chase (3) Fix cells at intervals and",
+     "The experiment runs: (1) Pass white light through a prism to spread a spectrum over a filament of the alga (2) Suspend aerobic bacteria in the drop with the alga (3) Wait and"
+    ],
+    "hint": "Straight from the 'Photosynthesis in higher plants' slide -- match the key terms.",
+    "misconception": "A wrong answer that expects bacteria evenly everywhere shows the student has missed that bacteria track oxygen, making them living indicators of the photosynthetic rate across wavelengths.",
+    "id": "gen_c11_bio_ch10_q8",
+    "nodeId": "c11_bio_cbse_11_001",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about photosynthesis in higher plants?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Photosynthesis In Higher mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
   "id": "gen_c11_bio_ch12",
-  "title": "Glycolysis",
+  "title": "Growth In Plants",
   "subtitle": "Biology · Chapter 12",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Glycolysis",
+  "topic": "Growth In Plants",
   "chapters": [
-   "Biology Ch12: Glycolysis"
+   "Biology Ch12: Growth In Plants",
+   "Biology Ch13: Growth In Plants"
   ],
   "nodeIds": [
+   "c11_bio_cbse_13_001",
    "c11_bio_cbse_12_002",
    "c11_bio_cbse_12_003",
    "c11_bio_cbse_12_004",
    "c11_bio_cbse_12_005",
-   "c11_bio_cbse_12_008"
+   "c11_bio_cbse_12_008",
+   "c11_bio_cbse_13_008"
   ],
   "emoji": "🌿",
   "theme": {
@@ -5495,7 +5911,7 @@ export const C11_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Glycolysis suddenly stops working?",
+   "question": "What happens if Growth In Plants suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -5505,6 +5921,12 @@ export const C11_BIO_GEN: SimDef[] = [
    "hook": "Post-harvest technologist: controls stored-grain respiration so food does not rot in silos."
   },
   "teaching": [
+   {
+    "title": "Growth In Plants",
+    "text": "Growth in plants is an irreversible, permanent increase in the size of an organ, its parts, or an individual cell, accompanied by metabolic processes (anabolic and catabolic) that occur at the expense of energy; it is distinct from transient changes like",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
    {
     "title": "Glycolysis",
     "text": "Glycolysis is the universal, ten-step enzymatic pathway in the cytoplasm where one molecule of glucose (6C) is partially oxidized into two molecules of pyruvic acid (3C), with a net gain of 2 ATP (substrate-level phosphorylation) and 2 NADH + H⁺ per glucose",
@@ -5534,21 +5956,90 @@ export const C11_BIO_GEN: SimDef[] = [
     "text": "The amphibolic pathway refers to the respiratory pathway (glycolysis, pyruvate oxidation, and Krebs cycle) that functions in both catabolism (breakdown of respiratory substrates like glucose, fatty acids, and amino acids to release energy) and anabolism",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Seed Dormancy",
+    "text": "Seed dormancy is a physiological state in which a viable seed fails to germinate under otherwise favorable environmental conditions (adequate water, oxygen, and suitable temperature) due to internal blocks such as impermeable seed coats, immature embryos, or",
+    "emoji": "🌿",
+    "bgColor": "from-indigo-400 to-blue-500"
    }
   ],
   "challenges": [
+   {
+    "type": "order",
+    "question": "Give the correct order of setup steps for the experiment testing water, oxygen and temperature as conditions for moong seed growth.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Withhold water",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Divide twenty seeds each into control",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Give the control moist cotton at room",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Measure radicle length and fresh weight",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that runs the test groups without a control shows the student has missed that each condition must be isolated by comparison with a normally growing set.",
+    "id": "gen_c11_bio_ch12_q1",
+    "nodeId": "c11_bio_cbse_13_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a mango sapling in your garden over a year: it grows taller, thicker, and produces new leaves each season, unlike a metal rod that only",
+     "Start by asking: \"What makes this increase permanent and irreversible?\" Connect to Class 9 meristematic tissue (c9_bio_ch2_2) — the apical meristems",
+     "This open form of growth (indeterminate) is unique to plants.",
+     "The key principle: growth = cell division (meristematic) → cell enlargement (elongation) → cell maturation (maturation), each measurable by different"
+    ]
+   },
    {
     "type": "mcq",
     "question": "Name the enzyme that catalyzes the committed step of glycolysis and the allosteric activator that signals high energy demand in the cell.",
     "answer": "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate",
     "options": [
      "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
-     "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant)",
+     "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
      "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate"
     ],
     "hint": "Straight from the 'Glycolysis' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming hexokinase or pyruvate kinase) reveals confusion between the first irreversible step (hexokinase) and the committed step (PFK-1), or ignorance of energy-charge regulation.",
-    "id": "gen_c11_bio_ch12_q1",
+    "id": "gen_c11_bio_ch12_q2",
     "nodeId": "c11_bio_cbse_12_002",
     "difficulty": "advanced",
     "workedExample": [
@@ -5567,7 +6058,7 @@ export const C11_BIO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "Wrong answer (e.g., 38 ATP or mentioning mitochondria) reveals confusion between anaerobic and aerobic ATP yields or compartmentalization.",
-    "id": "gen_c11_bio_ch12_q2",
+    "id": "gen_c11_bio_ch12_q3",
     "nodeId": "c11_bio_cbse_12_003",
     "difficulty": "standard",
     "workedExample": [
@@ -5584,12 +6075,11 @@ export const C11_BIO_GEN: SimDef[] = [
     "options": [
      "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant)",
      "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
-     "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, KG DH + H⁺",
      "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, NADH + H⁺"
     ],
     "hint": "Straight from the 'Pyruvate oxidation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"pyruvate decarboxylase\" or missing NADH) reveals confusion between the aerobic link reaction and the anaerobic fermentation enzyme (pyruvate decarboxylase in yeast), or failure to recognize that oxidation of pyruvate reduces NAD⁺.",
-    "id": "gen_c11_bio_ch12_q3",
+    "id": "gen_c11_bio_ch12_q4",
     "nodeId": "c11_bio_cbse_12_004",
     "difficulty": "standard",
     "workedExample": [
@@ -5605,12 +6095,12 @@ export const C11_BIO_GEN: SimDef[] = [
     "answer": "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
     "options": [
      "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, NADH + H⁺",
-     "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate",
+     "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
      "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA"
     ],
     "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"aconitase\" or \"isocitrate dehydrogenase\") reveals confusion between the entry step and later isomerization/oxidation steps; the student likely memorized enzyme names without associating them with substrate/product changes.",
-    "id": "gen_c11_bio_ch12_q4",
+    "id": "gen_c11_bio_ch12_q5",
     "nodeId": "c11_bio_cbse_12_005",
     "difficulty": "standard",
     "workedExample": [
@@ -5673,7 +6163,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that says 'muscle only does catabolism, liver only anabolism' misses that both tissues can do both depending on conditions.",
-    "id": "gen_c11_bio_ch12_q5",
+    "id": "gen_c11_bio_ch12_q6",
     "nodeId": "c11_bio_cbse_12_008",
     "difficulty": "standard",
     "workedExample": [
@@ -5684,17 +6174,84 @@ export const C11_BIO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a simple experiment to determine whether dormancy in a newly collected wild legume species is due to seed coat impermeability or physiological factors. List materials, steps, and the expected observation for each case.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Divide seeds into four groups",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Record germination daily for 14 days.",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Place on moist filter paper at 25°C",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm).",
+    "id": "gen_c11_bio_ch12_q7",
+    "nodeId": "c11_bio_cbse_13_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe a handful of mung bean (moong) seeds soaked overnight: they swell, the seed coat wrinkles, and a tiny white radicle appears.",
+     "Now compare with untreated seeds kept dry — they remain hard and unchanged.",
+     "This simple observation reveals two key ideas: water is the trigger, and something inside the dry seed actively prevents growth until water arrives.",
+     "In Class 6 you learned that seeds need water, air, and warmth to germinate."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A marathon runner experiences muscle cramps during the final kilometers. Blood tests show elevated lactate. Explain the biochemical sequence from glucose to lactate in the muscle fiber, including the specific step where NAD⁺ is regenerated, and calculate the net ATP yield per glucose molecule.",
+    "answer": "Glucose → (glycolysis, 10 steps, cytoplasm) → 2 pyruvate + 2 ATP (net) + 2 NADH+H⁺. Under low O₂, pyruvate + NADH+H⁺ → (lactate dehydrogenase) → lactate + NAD⁺",
+    "options": [
+     "The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the four-carbon oxaloacetate is regenerated",
+     "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate",
+     "Glucose → (glycolysis, 10 steps, cytoplasm) → 2 pyruvate + 2 ATP (net) + 2 NADH+H⁺. Under low O₂, pyruvate + NADH+H⁺ → (lactate dehydrogenase) → lactate + NAD⁺"
+    ],
+    "hint": "Straight from the 'Fermentation' slide -- match the key terms.",
+    "misconception": "Wrong answer (e.g., 38 ATP or mentioning mitochondria) reveals confusion between anaerobic and aerobic ATP yields or compartmentalization.",
+    "id": "gen_c11_bio_ch12_q8",
+    "nodeId": "c11_bio_cbse_12_003",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Name the two enzymes that catalyze the conversion of pyruvic acid to ethanol in alcoholic fermentation, and state the cofactor required by the first enzyme.",
     "answer": "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant)",
     "options": [
+     "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
      "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate",
-     "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, NADH + H⁺",
      "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant)"
     ],
     "hint": "Straight from the 'Fermentation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming lactate dehydrogenase or omitting TPP) reveals the student confuses the two fermentation types or doesn't know enzyme-cofactor specificity, which is critical for understanding why yeast cannot perform lactic acid fermentation and vice versa.",
-    "id": "gen_c11_bio_ch12_q6",
+    "id": "gen_c11_bio_ch12_q9",
     "nodeId": "c11_bio_cbse_12_003",
     "difficulty": "standard"
    },
@@ -5703,13 +6260,13 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "A plant cell is exposed to a specific inhibitor of α-ketoglutarate dehydrogenase. Predict the immediate effect on: (a) NADH production, (b) CO₂ release, (c) oxaloacetate regeneration, and (d) succinyl-CoA accumulation.",
     "answer": "(a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH",
     "options": [
-     "The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the four-carbon oxaloacetate is regenerated",
      "Glucose → (glycolysis, 10 steps, cytoplasm) → 2 pyruvate + 2 ATP (net) + 2 NADH+H⁺. Under low O₂, pyruvate + NADH+H⁺ → (lactate dehydrogenase) → lactate + NAD⁺",
+     "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate",
      "(a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH"
     ],
     "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per",
-    "id": "gen_c11_bio_ch12_q7",
+    "id": "gen_c11_bio_ch12_q10",
     "nodeId": "c11_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5719,12 +6276,12 @@ export const C11_BIO_GEN: SimDef[] = [
     "answer": "The two carboxyl carbons of oxaloacetate are NOT lost in the first turn; they become the two carboxyl groups of α-ketoglutarate and are released as CO₂ in the *second* turn (via",
     "options": [
      "(a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH",
-     "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate",
+     "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
      "The two carboxyl carbons of oxaloacetate are NOT lost in the first turn; they become the two carboxyl groups of α-ketoglutarate and are released as CO₂ in the *second* turn (via"
     ],
     "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
     "misconception": "A wrong answer (\"first turn\") shows the student assumes symmetric citrate → symmetric loss, ignoring that citrate is prochiral and aconitase acts stereospecifically — a classic senior-secondary error.",
-    "id": "gen_c11_bio_ch12_q8",
+    "id": "gen_c11_bio_ch12_q11",
     "nodeId": "c11_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5733,13 +6290,13 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Design a simple experiment using ¹⁴C-labeled acetate to determine whether the TCA cycle operates in a germinating mung bean (moong) seedling under aerobic conditions. Specify what you would measure and expected results.",
     "answer": "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate",
     "options": [
-     "The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the four-carbon oxaloacetate is regenerated",
-     "Glucose → (glycolysis, 10 steps, cytoplasm) → 2 pyruvate + 2 ATP (net) + 2 NADH+H⁺. Under low O₂, pyruvate + NADH+H⁺ → (lactate dehydrogenase) → lactate + NAD⁺",
+     "Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm). Steps: (1) Divide seeds into four groups: intact control, scarified (seed coat nicked)",
+     "(a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH",
      "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate"
     ],
     "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure",
-    "id": "gen_c11_bio_ch12_q9",
+    "id": "gen_c11_bio_ch12_q12",
     "nodeId": "c11_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5754,7 +6311,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. Counter-examples: (1) α-ketoglutarate → glutamate (amino acid synthesis) via transamination;",
-    "id": "gen_c11_bio_ch12_q10",
+    "id": "gen_c11_bio_ch12_q13",
     "nodeId": "c11_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5769,7 +6326,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"ATP is made at every oxidation\") shows the student thinks all redox energy directly makes ATP, missing the distinction between substrate-level and oxidative phosphorylation.",
-    "id": "gen_c11_bio_ch12_q11",
+    "id": "gen_c11_bio_ch12_q14",
     "nodeId": "c11_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5778,24 +6335,69 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "A student claims: \"Since the Krebs cycle oxidizes acetyl-CoA to CO₂, it is purely catabolic; the cell cannot use Krebs cycle intermediates to build new molecules because they would be lost as CO₂.\" Explain why this reasoning is incorrect using the concept of anaplerotic reactions and intermediate withdrawal.",
     "answer": "The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the four-carbon oxaloacetate is regenerated",
     "options": [
-     "(a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH",
      "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate",
+     "Glucose → (glycolysis, 10 steps, cytoplasm) → 2 pyruvate + 2 ATP (net) + 2 NADH+H⁺. Under low O₂, pyruvate + NADH+H⁺ → (lactate dehydrogenase) → lactate + NAD⁺",
      "The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the four-carbon oxaloacetate is regenerated"
     ],
     "hint": "Straight from the 'amphibolic pathway' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the",
-    "id": "gen_c11_bio_ch12_q12",
+    "id": "gen_c11_bio_ch12_q15",
     "nodeId": "c11_bio_cbse_12_008",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "During intense exercise, muscle cells take up large amounts of branched-chain amino acids (BCAAs) and transaminate them to form glutamate, which enters the Krebs cycle as α-ketoglutarate.",
+    "answer": "Step 1: In muscle, BCAAs (valine, leucine, isoleucine) are transaminated → glutamate → α-ketoglutarate (Krebs intermediate)",
+    "options": [
+     "Glucose → (glycolysis, 10 steps, cytoplasm) → 2 pyruvate + 2 ATP (net) + 2 NADH+H⁺. Under low O₂, pyruvate + NADH+H⁺ → (lactate dehydrogenase) → lactate + NAD⁺",
+     "(a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH",
+     "Step 1: In muscle, BCAAs (valine, leucine, isoleucine) are transaminated → glutamate → α-ketoglutarate (Krebs intermediate)"
+    ],
+    "hint": "Straight from the 'amphibolic pathway' slide -- match the key terms.",
+    "misconception": "A wrong answer that says 'muscle only does catabolism, liver only anabolism' misses that both tissues can do both depending on conditions.",
+    "id": "gen_c11_bio_ch12_q16",
+    "nodeId": "c11_bio_cbse_12_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of setup steps for the experiment testing water, oxygen and temperature as conditions for moong seed growth.",
+    "answer": "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
+    "options": [
+     "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, NADH + H⁺",
+     "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
+     "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water"
+    ],
+    "hint": "Straight from the 'Growth in plants' slide -- match the key terms.",
+    "misconception": "A wrong answer that runs the test groups without a control shows the student has missed that each condition must be isolated by comparison with a normally growing set.",
+    "id": "gen_c11_bio_ch12_q17",
+    "nodeId": "c11_bio_cbse_13_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment to determine whether dormancy in a newly collected wild legume species is due to seed coat impermeability or physiological factors. List materials, steps, and the expected observation for each case.",
+    "answer": "Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm). Steps: (1) Divide seeds into four groups: intact control, scarified (seed coat nicked)",
+    "options": [
+     "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate",
+     "The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the four-carbon oxaloacetate is regenerated",
+     "Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm). Steps: (1) Divide seeds into four groups: intact control, scarified (seed coat nicked)"
+    ],
+    "hint": "Straight from the 'Seed dormancy' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm).",
+    "id": "gen_c11_bio_ch12_q18",
+    "nodeId": "c11_bio_cbse_13_008",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about glycolysis?",
+    "What surprised you about growth in plants?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Glycolysis mastered! 🎯",
+  "successLine": "Growth In Plants mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6636,6 +7238,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple investigation using a light microscope and Wright's stain to differentiate the five types of WBCs in a peripheral blood smear. What morphological features would you use to identify each type, and how would you calculate the differential leukocyte count?",
+    "answer": "Prepare a thin blood smear, fix with methanol, stain with Wright's stain. Under oil immersion (1000x), identify: (1) Neutrophil",
+    "options": [
+     "Only O negative is compatible. Reasoning: (1) Recipient is B negative → has B antigen and Rh-negative (no D antigen)",
+     "Inflate the BP cuff above systolic pressure, then slowly deflate while auscultating the brachial artery",
+     "Prepare a thin blood smear, fix with methanol, stain with Wright's stain. Under oil immersion (1000x), identify: (1) Neutrophil"
+    ],
+    "hint": "Straight from the 'Blood' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Prepare a thin blood smear, fix with methanol, stain with Wright's stain.",
+    "id": "gen_c11_bio_ch15_q9",
+    "nodeId": "c11_bio_cbse_15_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Why are mammalian RBCs described as anucleate and biconcave, and how do these features relate to their 120-day lifespan and gas transport efficiency?",
     "answer": "Mammalian RBCs lose their nucleus during maturation to maximize intracellular space for hemoglobin (increasing O₂-carrying capacity) and adopt a biconcave shape that increases",
     "options": [
@@ -6645,7 +7262,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Blood' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"nucleus is lost to make them lighter\") shows the student cannot connect structural adaptations to physiological function and cellular limitations.",
-    "id": "gen_c11_bio_ch15_q9",
+    "id": "gen_c11_bio_ch15_q10",
     "nodeId": "c11_bio_cbse_15_001",
     "difficulty": "standard"
    },
@@ -6660,7 +7277,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., choosing B positive) shows the student ignores Rh compatibility or thinks \"same ABO group = always safe\".",
-    "id": "gen_c11_bio_ch15_q10",
+    "id": "gen_c11_bio_ch15_q11",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -6675,7 +7292,22 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying anti-D are naturally present) reveals confusion between the two systems' immunology, leading to inability to explain why first Rh-incompatible pregnancy is usually safe but first ABO-incompatible transfusion is dangerous.",
-    "id": "gen_c11_bio_ch15_q11",
+    "id": "gen_c11_bio_ch15_q12",
+    "nodeId": "c11_bio_cbse_15_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a step-by-step laboratory procedure (using only anti-A, anti-B, and anti-D sera) to determine the ABO and Rh group of an unknown blood sample. Include a table showing expected agglutination results for all 8 blood groups (A+, A-, B+, B-, AB+, AB-, O+, O-).",
+    "answer": "Good answer criteria: Procedure: (1) Place three drops of blood sample on a slide/tile. (2) Add anti-A to drop 1, anti-B to drop 2, anti-D to drop 3",
+    "options": [
+     "Use a live frog's webbed foot (or transparent lymphatic vessel in a suitable animal model) under a microscope",
+     "Step 1: Identify major risk factors — hypertension (stage 1), dyslipidemia (high LDL, low HDL), smoking, male sex, age >45",
+     "Good answer criteria: Procedure: (1) Place three drops of blood sample on a slide/tile. (2) Add anti-A to drop 1, anti-B to drop 2, anti-D to drop 3"
+    ],
+    "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
+    "misconception": "A poor answer (missing Rh testing, wrong agglutination pattern for AB/O) reveals the student cannot translate the antigen-antibody logic into a practical diagnostic algorithm.",
+    "id": "gen_c11_bio_ch15_q13",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -6690,7 +7322,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong evaluation shows the student misunderstands the timeline of sensitisation and the prophylactic purpose of anti-D immunoglobulin.",
-    "id": "gen_c11_bio_ch15_q12",
+    "id": "gen_c11_bio_ch15_q14",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -6705,7 +7337,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student memorised \"O = universal donor\" without distinguishing between cellular (RBC) and plasma components, a critical error for clinical transfusion practice.",
-    "id": "gen_c11_bio_ch15_q13",
+    "id": "gen_c11_bio_ch15_q15",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -6720,7 +7352,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying anti-A or anti-B are present) reveals the student has not internalised Landsteiner's law: an individual cannot make antibodies against their own RBC antigens. They are confusing the donor's perspective (receiving antibodies) with the recipient's own plasma composition.",
-    "id": "gen_c11_bio_ch15_q14",
+    "id": "gen_c11_bio_ch15_q16",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -6735,39 +7367,24 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'cardiac cycle' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"listen for loudness\") shows no understanding of the cardiac cycle's pressure events or the physics of Korotkoff sounds.",
-    "id": "gen_c11_bio_ch15_q15",
+    "id": "gen_c11_bio_ch15_q17",
     "nodeId": "c11_bio_cbse_15_004",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A patient has a blockage in the thoracic duct. Predict the consequences on (a) fluid balance in the left leg and (b) fat absorption from the intestine.",
-    "answer": "(a) The left leg drains into the thoracic duct; blockage would cause lymph accumulation (lymphedema) in the left leg and left side of the body",
+    "question": "A 45-year-old male has BP 150/95 mmHg, LDL 160 mg/dL, HDL 35 mg/dL, and smokes 10 cigarettes/day. Calculate his 10-year cardiovascular risk category using the concept of risk factor clustering and explain which single modifiable factor contributes most to atherosclerotic progression.",
+    "answer": "Step 1: Identify major risk factors — hypertension (stage 1), dyslipidemia (high LDL, low HDL), smoking, male sex, age >45",
     "options": [
-     "Use a live frog's webbed foot (or transparent lymphatic vessel in a suitable animal model) under a microscope",
-     "Step 1: Identify major risk factors — hypertension (stage 1), dyslipidemia (high LDL, low HDL), smoking, male sex, age >45",
-     "(a) The left leg drains into the thoracic duct; blockage would cause lymph accumulation (lymphedema) in the left leg and left side of the body"
-    ],
-    "hint": "Straight from the 'Lymph' slide -- match the key terms.",
-    "misconception": "A wrong answer shows inability to integrate anatomical drainage patterns with physiological functions.",
-    "id": "gen_c11_bio_ch15_q16",
-    "nodeId": "c11_bio_cbse_15_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment to demonstrate that lymph flows only in one direction (towards the heart) in a lymphatic vessel. Mention the principle used.",
-    "answer": "Use a live frog's webbed foot (or transparent lymphatic vessel in a suitable animal model) under a microscope",
-    "options": [
+     "Inflate the BP cuff above systolic pressure, then slowly deflate while auscultating the brachial artery",
      "Prepare a thin blood smear, fix with methanol, stain with Wright's stain. Under oil immersion (1000x), identify: (1) Neutrophil",
-     "Only O negative is compatible. Reasoning: (1) Recipient is B negative → has B antigen and Rh-negative (no D antigen)",
-     "Use a live frog's webbed foot (or transparent lymphatic vessel in a suitable animal model) under a microscope"
+     "Step 1: Identify major risk factors — hypertension (stage 1), dyslipidemia (high LDL, low HDL), smoking, male sex, age >45"
     ],
-    "hint": "Straight from the 'Lymph' slide -- match the key terms.",
-    "misconception": "A poor answer (e.g., \"measure pressure at two points\") fails to address the valvular mechanism and direct observation of flow direction.",
-    "id": "gen_c11_bio_ch15_q17",
-    "nodeId": "c11_bio_cbse_15_008",
-    "difficulty": "standard"
+    "hint": "Straight from the 'Hypertension' slide -- match the key terms.",
+    "misconception": "Wrong answer attributing most risk to LDL alone ignores the multiplicative effect of smoking on plaque rupture.",
+    "id": "gen_c11_bio_ch15_q18",
+    "nodeId": "c11_bio_cbse_15_007",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -7194,6 +7811,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A patient with severe hypoalbuminemia (plasma albumin 1.5 g/dL vs normal 4.5 g/dL) develops edema. Using Starling forces, explain how this alters glomerular filtration and contributes to edema formation.",
+    "answer": "Step 1: Reduced plasma albumin lowers glomerular capillary oncotic pressure (π_GC). Step 2: NFP = (P_GC - P_BC) - (π_GC - π_BC) increases because π_GC drops",
+    "options": [
+     "The PCT's brush border massively increases apical surface area for *high-capacity active reabsorption* of glucose, amino acids, ions, and water (70-80% of filtrate)",
+     "Expected answer: Prepare 3 simulated samples: (A) normal (water + NaCl + urea + yellow dye), (B) diabetic (A + 2% glucose), (C) starvation (A + 0",
+     "Step 1: Reduced plasma albumin lowers glomerular capillary oncotic pressure (π_GC). Step 2: NFP = (P_GC - P_BC) - (π_GC - π_BC) increases because π_GC drops"
+    ],
+    "hint": "Straight from the 'Glomerular filtration' slide -- match the key terms.",
+    "misconception": "A wrong answer ignoring the systemic capillary effect or RAAS compensation shows incomplete integration of filtration physics with whole-body homeostasis.",
+    "id": "gen_c11_bio_ch16_q11",
+    "nodeId": "c11_bio_cbse_16_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast the autoregulatory roles of the myogenic mechanism and tubuloglomerular feedback (TGF) in maintaining constant GFR when systemic blood pressure fluctuates between 80–180 mmHg.",
     "answer": "Myogenic mechanism: Stretch of afferent arteriole smooth muscle → depolarization → vasoconstriction (rapid, seconds)",
     "options": [
@@ -7203,7 +7835,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Glomerular filtration' slide -- match the key terms.",
     "misconception": "A wrong answer conflating the two sensors (stretch vs. NaCl) or suggesting efferent constriction for autoregulation reveals misunderstanding of the distinct signaling pathways and their effector sites.",
-    "id": "gen_c11_bio_ch16_q11",
+    "id": "gen_c11_bio_ch16_q12",
     "nodeId": "c11_bio_cbse_16_003",
     "difficulty": "standard"
    },
@@ -7218,7 +7850,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Glomerular filtration' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: False. Angiotensin II preferentially constricts the efferent arteriole (higher AT1 receptor density), which increases",
-    "id": "gen_c11_bio_ch16_q12",
+    "id": "gen_c11_bio_ch16_q13",
     "nodeId": "c11_bio_cbse_16_003",
     "difficulty": "standard"
    },
@@ -7233,7 +7865,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Glomerular filtration' slide -- match the key terms.",
     "misconception": "A wrong answer citing only \"small pores\" misses the critical role of negative charge selectivity; students often forget that albumin's negative charge at physiological pH enhances its retention beyond size exclusion.",
-    "id": "gen_c11_bio_ch16_q13",
+    "id": "gen_c11_bio_ch16_q14",
     "nodeId": "c11_bio_cbse_16_003",
     "difficulty": "standard"
    },
@@ -7248,7 +7880,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Tubular reabsorption' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Medullary osmolarity decreases because NaCl reabsorption into interstitium is blocked, collapsing the gradient.",
-    "id": "gen_c11_bio_ch16_q14",
+    "id": "gen_c11_bio_ch16_q15",
     "nodeId": "c11_bio_cbse_16_004",
     "difficulty": "advanced"
    },
@@ -7263,7 +7895,22 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Tubular reabsorption' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Perfuse IMCD with radiolabeled urea ± phloretin (UT inhibitor) or high urea gradient; measure transepithelial urea flux",
-    "id": "gen_c11_bio_ch16_q15",
+    "id": "gen_c11_bio_ch16_q16",
+    "nodeId": "c11_bio_cbse_16_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate this statement: \"Aldosterone increases Na+ reabsorption in the collecting duct solely by inserting ENaC channels into the apical membrane.\" Identify what is correct, what is incomplete, and what additional mechanisms contribute.",
+    "answer": "Partially correct but incomplete. Aldosterone (via mineralocorticoid receptor) does upregulate ENaC synthesis and apical insertion",
+    "options": [
+     "The dialysate mimics plasma osmolarity to prevent net water shift (osmotic balance) and maintain electrolyte gradients for essential ions (Na⁺, K⁺, HCO₃⁻)",
+     "CO₂ is a gas with high diffusion coefficient and low solubility in plasma; it equilibrates rapidly across alveolar-capillary membrane driven by partial pressure gradient (PₐCO₂",
+     "Partially correct but incomplete. Aldosterone (via mineralocorticoid receptor) does upregulate ENaC synthesis and apical insertion"
+    ],
+    "hint": "Straight from the 'Tubular reabsorption' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Partially correct but incomplete. Aldosterone (via mineralocorticoid receptor) does upregulate ENaC synthesis and",
+    "id": "gen_c11_bio_ch16_q17",
     "nodeId": "c11_bio_cbse_16_004",
     "difficulty": "advanced"
    },
@@ -7278,36 +7925,6 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Regulation of kidney function' slide -- match the key terms.",
     "misconception": "A wrong prediction (e.g., urine volume increases) indicates failure to integrate the synergistic actions of both hormones during hypovolemia.",
-    "id": "gen_c11_bio_ch16_q16",
-    "nodeId": "c11_bio_cbse_16_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare and contrast the triggers, sources, and renal targets of ADH and ANF. Why is ANF considered a physiological antagonist of RAAS?",
-    "answer": "ADH: triggered by high plasma osmolarity/low volume; source = neurohypophysis; target = collecting duct principal cells (aquaporin insertion)",
-    "options": [
-     "Myogenic mechanism: Stretch of afferent arteriole smooth muscle → depolarization → vasoconstriction (rapid, seconds)",
-     "Calcium oxalate stones form in neutral to alkaline urine where oxalate solubility is low; risk factors include high oxalate diet (spinach, nuts) and low citrate",
-     "ADH: triggered by high plasma osmolarity/low volume; source = neurohypophysis; target = collecting duct principal cells (aquaporin insertion)"
-    ],
-    "hint": "Straight from the 'Regulation of kidney function' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: ADH: triggered by high plasma osmolarity/low volume; source = neurohypophysis; target = collecting duct principal cells",
-    "id": "gen_c11_bio_ch16_q17",
-    "nodeId": "c11_bio_cbse_16_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment using a human volunteer to demonstrate the effect of ADH on urine output and osmolarity. Specify the control condition, experimental intervention, measurements, and expected results.",
-    "answer": "Control: volunteer drinks 500 mL water after overnight fast; collect urine for 2 hours. Experimental: same volunteer receives intravenous hypertonic saline (raises plasma",
-    "options": [
-     "A good poster would depict: (1) \"Drink 8-10 glasses of water daily\" (prevents concentrated urine), (2) \"Limit salt and pickles\" (reduces calcium excretion)",
-     "Path: Abdominal aorta → left renal artery → segmental arteries → interlobar arteries → arcuate arteries → interlobular arteries → afferent arteriole → glomerular capillaries (1st",
-     "Control: volunteer drinks 500 mL water after overnight fast; collect urine for 2 hours. Experimental: same volunteer receives intravenous hypertonic saline (raises plasma"
-    ],
-    "hint": "Straight from the 'Regulation of kidney function' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Control: volunteer drinks 500 mL water after overnight fast; collect urine for 2 hours.",
     "id": "gen_c11_bio_ch16_q18",
     "nodeId": "c11_bio_cbse_16_005",
     "difficulty": "standard"
@@ -8731,6 +9348,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple experiment using isolated rat hepatocytes to demonstrate that insulin and glucagon have opposing effects on glycogen metabolism. Specify the treatments, measurable outcome, and expected result.",
+    "answer": "Treatments: (1) Control (basal), (2) + Glucagon (10 nM), (3) + Insulin (100 nM), (4) + Glucagon + Insulin",
+    "options": [
+     "LH surge triggers ovulation. Rising estrogen from the mature follicle exerts positive feedback on the anterior pituitary, causing a massive LH release",
+     "The patient will develop anemia (low RBC count) because damaged juxtaglomerular cells produce insufficient erythropoietin, reducing stimulation of erythropoiesis in bone marrow",
+     "Treatments: (1) Control (basal), (2) + Glucagon (10 nM), (3) + Insulin (100 nM), (4) + Glucagon + Insulin"
+    ],
+    "hint": "Straight from the 'pancreas' slide -- match the key terms.",
+    "misconception": "A poor answer measuring only \"glucose uptake\" misses that hepatocytes take up glucose via GLUT2 bidirectionally; the key is net glycogen synthesis vs. breakdown, requiring direct glycogen quantification or radiolabel flux.",
+    "id": "gen_c11_bio_ch19_q7",
+    "nodeId": "c11_bio_cbse_19_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A 30-year-old woman presents with fatigue, hyperpigmentation of palmar creases, hypotension (90/60 mmHg), hyponatraemia (128 mmol/L), and hyperkalaemia (5.8 mmol/L). Her plasma cortisol is low and ACTH is markedly elevated. Identify the most likely diagnosis and explain the electrolyte abnormalities mechanistically.",
     "answer": "Primary adrenal insufficiency (Addison's disease). Low cortisol → loss of negative feedback → high ACTH (which shares POMC precursor with MSH → hyperpigmentation)",
     "options": [
@@ -8740,7 +9372,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'adrenal glands' slide -- match the key terms.",
     "misconception": "A wrong diagnosis (e.g., secondary adrenal insufficiency) would miss the mineralocorticoid deficiency and electrolyte signature, showing the student does not grasp that ACTH primarily drives glucocorticoids, not mineralocorticoids.",
-    "id": "gen_c11_bio_ch19_q7",
+    "id": "gen_c11_bio_ch19_q8",
     "nodeId": "c11_bio_cbse_19_004",
     "difficulty": "standard"
    },
@@ -8755,7 +9387,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gonads' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"FSH surge causes ovulation\") indicates the student cannot differentiate the distinct roles of the two gonadotropins in the ovarian cycle.",
-    "id": "gen_c11_bio_ch19_q8",
+    "id": "gen_c11_bio_ch19_q9",
     "nodeId": "c11_bio_cbse_19_005",
     "difficulty": "standard"
    },
@@ -8770,7 +9402,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gonads' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Progesterone comes from the adrenal cortex in pregnancy\") shows the student has not linked corpus luteum function to pregnancy maintenance.",
-    "id": "gen_c11_bio_ch19_q9",
+    "id": "gen_c11_bio_ch19_q10",
     "nodeId": "c11_bio_cbse_19_005",
     "difficulty": "standard"
    },
@@ -8785,8 +9417,23 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gonads' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., agreeing with the statement) reveals a binary misconception that ignores the shared steroidogenic pathways and local conversion in both gonads.",
-    "id": "gen_c11_bio_ch19_q10",
+    "id": "gen_c11_bio_ch19_q11",
     "nodeId": "c11_bio_cbse_19_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A patient has chronic kidney disease with significantly reduced functional nephrons. Predict the hematological consequence and explain the hormonal mechanism.",
+    "answer": "The patient will develop anemia (low RBC count) because damaged juxtaglomerular cells produce insufficient erythropoietin, reducing stimulation of erythropoiesis in bone marrow",
+    "options": [
+     "Incubate target cells with radiolabeled hormone X. Fractionate cells into membrane, cytosol, and nuclear fractions",
+     "Primary adrenal insufficiency (Addison's disease). Low cortisol → loss of negative feedback → high ACTH (which shares POMC precursor with MSH → hyperpigmentation)",
+     "The patient will develop anemia (low RBC count) because damaged juxtaglomerular cells produce insufficient erythropoietin, reducing stimulation of erythropoiesis in bone marrow"
+    ],
+    "hint": "Straight from the 'Hormones of the heart, kidney,' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"iron deficiency\" or \"blood loss\") reveals inability to link kidney endocrine function to hematopoiesis.",
+    "id": "gen_c11_bio_ch19_q12",
+    "nodeId": "c11_bio_cbse_19_006",
     "difficulty": "standard"
    }
   ],

@@ -8,7 +8,7 @@ export const c6_physics_ch02: SimDef = {
     subtitle: 'This node covers the philosophy and practice of using nature as an environment for.',
     classLevel: 6, subject: 'physics', topic: 'Exploring Science Through Nature',
     chapters: ['c6_physics_ch02'],
-    nodeIds: ['c6_physics_ch02_006', 'c6_physics_ch02_007', 'c6_physics_ch02_008', 'c6_physics_ch02_009', 'c6_physics_ch02_010'],
+    nodeIds: ['c6_physics_ch02_006', 'c6_physics_ch02_008', 'c6_physics_ch02_009', 'c6_physics_ch02_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why flowers turn toward the sunlight, or why clouds seem to change color just before.', goal: 'Master every idea in this chapter.' },

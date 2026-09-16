@@ -8,7 +8,7 @@ export const c6_english_ch03_p2: SimDef = {
     subtitle: 'This covers identifying word meanings using surrounding text within the \'Nurturing.',
     classLevel: 6, subject: 'english', topic: 'Dreams and Discoveries · Part 2/2',
     chapters: ['c6_english_ch03'],
-    nodeIds: ['c6_english_u3_027', 'c6_english_u3_028', 'c6_english_u3_029', 'c6_english_u3_030'],
+    nodeIds: ['c6_english_u3_027', 'c6_english_u3_021', 'c6_english_u3_029', 'c6_english_u3_022'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever been reading a story and bumped into a word you didn\'t know, like \'stagnant\'.', goal: 'Master every idea in this chapter.' },

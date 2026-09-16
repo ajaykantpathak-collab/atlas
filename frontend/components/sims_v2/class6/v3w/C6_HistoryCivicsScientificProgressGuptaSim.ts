@@ -10,7 +10,7 @@ export const w_c6_historycivicsscientificprogressguptasim: SimDef = {
     subtitle: 'Covers India\'s progress in space and technology and its identity as a democracy.',
     classLevel: 6, subject: 'history', topic: 'India Today: Achievements and Challenges',
     chapters: [],
-    nodeIds: ['c6_history_ch12_056'],
+    nodeIds: ['c6_history_ch12_051'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered how a country that was known as \'Jambudvīpa\' or \'Bhāratavarṣha\' thousands of years ago.', goal: 'Master Scientific Progress Gupta.' },
     discovery: {

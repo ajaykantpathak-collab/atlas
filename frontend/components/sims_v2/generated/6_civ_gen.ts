@@ -397,6 +397,21 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A movie theater manager decides to charge people different ticket prices based on their religion. Is this allowed under the Right to Equality?",
+    "answer": "No, it is not allowed. Step 1: Identify the action (different prices based on religion). Step 2: Check against the Right to Equality",
+    "options": [
+     "It violates the right because the school is using a prohibited ground (caste) to determine access to an opportunity",
+     "No, because the Right to Equality dictates that no one is above or below the law",
+     "No, it is not allowed. Step 1: Identify the action (different prices based on religion). Step 2: Check against the Right to Equality"
+    ],
+    "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student might confuse \"fairness\" with \"business choice.\"",
+    "id": "gen_c6_civ_ch10_q15",
+    "nodeId": "c6_civics_ch10_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Create a scenario where a person is being discriminated against based on \"place of birth.\" How would you use the Right to Equality to defend them?",
     "answer": "A good answer would involve someone being denied a job because they moved from a different state. The student should explain that \"place of birth\" is not a valid reason to deny",
     "options": [
@@ -406,7 +421,7 @@ export const C6_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer would involve someone being denied a job because they moved from a different state.",
-    "id": "gen_c6_civ_ch10_q15",
+    "id": "gen_c6_civ_ch10_q16",
     "nodeId": "c6_civics_ch10_003",
     "difficulty": "standard"
    },
@@ -421,7 +436,7 @@ export const C6_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
     "misconception": "A wrong answer often indicates the student thinks \"equality\" only applies to government offices, not private institutions like schools.",
-    "id": "gen_c6_civ_ch10_q16",
+    "id": "gen_c6_civ_ch10_q17",
     "nodeId": "c6_civics_ch10_003",
     "difficulty": "standard"
    },
@@ -437,21 +452,6 @@ export const C6_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student believes status or money creates a different level of \"human value,\" which contradicts the core principle of the Right.",
-    "id": "gen_c6_civ_ch10_q17",
-    "nodeId": "c6_civics_ch10_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What are the five grounds upon which the Right to Equality prohibits discrimination?",
-    "answer": "The five grounds are religion, race, caste, sex, and place of birth",
-    "options": [
-     "The two forms are human trafficking (buying/selling/transporting people) and forced labour (forcing someone to work without payment)",
-     "It means they are inseparable parts of a whole; you get a benefit (right) only when you accept a responsibility (duty)",
-     "The five grounds are religion, race, caste, sex, and place of birth"
-    ],
-    "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is guessing rather than recalling the specific criteria, which may lead to confusion about what \"discrimination\" actually includes.",
     "id": "gen_c6_civ_ch10_q18",
     "nodeId": "c6_civics_ch10_003",
     "difficulty": "standard"

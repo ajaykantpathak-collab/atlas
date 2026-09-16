@@ -38,14 +38,20 @@ void main() {
 
       if (jetGone > 0.5 && h > 0.62) {
         float side = loc.y >= 0.0 ? 1.0 : -1.0;
-        vec3 local = vec3((h - 0.5) * 0.05, side * u_voidRadius * 1.35, (h2 - 0.5) * 0.05);
+        // restart anywhere along a narrow cone so the jet reads as a
+        // thin continuous beam, not beads or a fat glowing column
+        float along = h3 * u_bounds.y * 0.22;
+        vec3 local = vec3(
+          (h - 0.5) * (0.04 + along * 0.09),
+          side * (u_voidRadius * 1.2 + along),
+          (h2 - 0.5) * (0.04 + along * 0.09));
         position = rotateX(local, u_tilt);
       } else {
         float a = h * 6.2831853;
         // Accretion-style respawn: concentrate back into the hot inner disk
         // (pow bias < 1 keeps gas near the horizon instead of filling a
         // wide round halo), with a thin scale height.
-        float rad = mix(u_voidRadius * 1.7, min(u_bounds.x, u_bounds.y) * 0.34, pow(h2, 2.2));
+        float rad = mix(u_voidRadius * 1.45, min(u_bounds.x, u_bounds.y) * 0.34, pow(h2, 2.2));
         vec3 local = vec3(cos(a) * rad, (h3 - 0.5) * 0.012, sin(a) * rad);
         position = rotateX(local, u_tilt);
       }

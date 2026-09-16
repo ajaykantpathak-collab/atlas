@@ -41,7 +41,7 @@ export function createParticlePoints() {
       u_colorB: { value: new Color(LESSONS.solar.colors.b) },
       u_colorC: { value: new Color(LESSONS.solar.colors.c) },
       u_colorCore: { value: new Color(LESSONS.solar.colors.core) },
-      u_opacity: { value: 0.58 },
+      u_opacity: { value: 0.46 },
       u_mouse: { value: new Vector2() },
       u_time: { value: 0 },
       u_voidRadius: { value: 0 }

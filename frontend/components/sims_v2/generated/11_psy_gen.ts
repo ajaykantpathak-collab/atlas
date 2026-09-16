@@ -16,15 +16,18 @@ export const C11_PSY_GEN: SimDef[] = [
   "subject": "psychology",
   "topic": "Goals Of Psychological Enquiry",
   "chapters": [
+   "Psychology Ch1: Goals Of Psychological Enquiry",
    "Psychology Ch2: Goals Of Psychological Enquiry"
   ],
   "nodeIds": [
    "c11_psy_cbse_02_001",
    "c11_psy_cbse_02_003",
    "c11_psy_cbse_02_004",
+   "c11_psy_cbse_01_005",
    "c11_psy_cbse_02_005",
    "c11_psy_cbse_02_006",
    "c11_psy_cbse_02_007",
+   "c11_psy_cbse_01_008",
    "c11_psy_cbse_02_008",
    "c11_psy_cbse_02_010",
    "c11_psy_cbse_02_011"
@@ -65,6 +68,12 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
+    "title": "Functionalism",
+    "text": "Functionalism is a school of psychology founded by William James that studies the adaptive functions of consciousness and behaviour—how mental processes help organisms survive and adjust to their environment—viewing consciousness as a continuous, flowing",
+    "emoji": "🧠",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Correlational Research",
     "text": "Correlational research is a non-experimental method that quantifies the strength and direction of the linear relationship between two continuous variables using a correlation coefficient (r) ranging from -1.",
     "emoji": "🧠",
@@ -79,6 +88,12 @@ export const C11_PSY_GEN: SimDef[] = [
    {
     "title": "Psychological Test",
     "text": "A psychological test is a standardised and objective instrument used to measure an individual's standing relative to others on a specific mental or behavioural characteristic (e.",
+    "emoji": "🧠",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Psychoanalysis",
+    "text": "Psychoanalysis is a comprehensive theory of personality and a therapeutic method developed by Sigmund Freud that posits human behavior is largely driven by unconscious conflicts, desires, and memories, particularly those rooted in early childhood experiences,",
     "emoji": "🧠",
     "bgColor": "from-rose-400 to-pink-500"
    },
@@ -166,17 +181,80 @@ export const C11_PSY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of events in the stream of consciousness when a student absorbs herself in the textbook during a lecture.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Interest shifts and the textbook becomes",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The lecture voice occupies the focus",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Five minutes pass unnoticed because",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "The teacher's words recede into the fringe",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that says she blocked out or paused the noise shows the student has missed that consciousness is continuous and attention is selective amplification, not a switch.",
+    "id": "gen_c11_psy_ch02_q4",
+    "nodeId": "c11_psy_cbse_01_005",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you're watching a cricket match on TV while simultaneously thinking about your upcoming exam, hearing your mother call from the kitchen, and",
+     "A structuralist would ask you to break this into isolated sensations: \"red color,\" \"loud sound,\" \"rough texture.",
+     "Start by asking: \"Can you pause your thoughts and examine them like specimens in a jar?\" The answer is no—the act of observing changes the flow.",
+     "This leads to James's radical insight: psychology must study the *function* of this flowing stream in helping us navigate life, not its static"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What is the range of the correlation coefficient (r) and what do the extreme values +1.0 and -1.0 indicate?",
     "answer": "The correlation coefficient *r* ranges from -1.0 to +1.0. A value of +1.0 indicates a perfect positive linear relationship (as X increases, Y increases proportionally)",
     "options": [
-     "False. Random assignment only equalizes the *probability* that extraneous variables are distributed equally across groups; it does not eliminate them",
-     "The sample suffers from self-selection bias: only teenagers with smartphones, internet access, WhatsApp usage, and motivation to respond participated",
+     "The stream runs: (1) The lecture voice occupies the focus of consciousness at first (2) Interest shifts and the textbook becomes the new focus (3) The teacher's words recede into",
+     "The vignette runs: (1) Show the unconscious impulse of hostility toward the newborn sibling (2) Display the conscious behaviour of exaggerated doting and constant hugging (3) Mark",
      "The correlation coefficient *r* ranges from -1.0 to +1.0. A value of +1.0 indicates a perfect positive linear relationship (as X increases, Y increases proportionally)"
     ],
     "hint": "Straight from the 'Correlational research' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"0 to 1\" or \"extremes mean causation\") reveals the student confuses correlation with causation or misremembers the bidirectional range.",
-    "id": "gen_c11_psy_ch02_q4",
+    "id": "gen_c11_psy_ch02_q5",
     "nodeId": "c11_psy_cbse_02_005",
     "difficulty": "standard",
     "workedExample": [
@@ -197,7 +275,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Survey research' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"sample size is too small\") misses the systematic exclusion mechanism — the student confuses sample size with sample representativeness, a senior-secondary error where they don't distinguish random error from systematic bias.",
-    "id": "gen_c11_psy_ch02_q5",
+    "id": "gen_c11_psy_ch02_q6",
     "nodeId": "c11_psy_cbse_02_006",
     "difficulty": "standard",
     "workedExample": [
@@ -249,7 +327,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer listing \"unfairness\" without specifying the psychometric mechanism (construct-irrelevant variance, construct underrepresentation) shows superficial understanding. A wrong answer suggesting \"translate the test\" ignores that translation changes item difficulty and norms, requiring full re-standardisation.",
-    "id": "gen_c11_psy_ch02_q6",
+    "id": "gen_c11_psy_ch02_q7",
     "nodeId": "c11_psy_cbse_02_007",
     "difficulty": "standard",
     "workedExample": [
@@ -257,6 +335,69 @@ export const C11_PSY_GEN: SimDef[] = [
      "Begin by asking: \"How do we know a psychological test actually measures what it claims, and that the score means the same thing for every student?",
      "Second, standardisation — the test must have uniform procedures (instructions, time limits, environment) and be normed on a representative sample so",
      "Third, reliability — the test must yield consistent scores across time (test-retest) and across items (split-half); without this, a score is"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of elements in a case vignette that demonstrates reaction formation convincingly.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Show the unconscious impulse of hostility",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Mark the exaggeration that goes beyond",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Display the conscious behaviour",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Read the rigidity and excess as the defence",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that describes simple kindness or open jealousy shows the student has missed that reaction formation is the exaggerated opposite of the repressed impulse.",
+    "id": "gen_c11_psy_ch02_q8",
+    "nodeId": "c11_psy_cbse_01_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever blurted out a word you didn't mean to say, or had a dream that felt strangely meaningful, or found yourself irrationally angry at",
+     "Freud would say these are not accidents but leaks from your unconscious mind — a vast reservoir of thoughts, wishes, and memories hidden from",
+     "Begin by asking students to recall a \"Freudian slip\" they've made or witnessed.",
+     "Then introduce the revolutionary idea that much of mental life operates below consciousness, contrasting this with structuralism's focus on conscious"
     ]
    },
    {
@@ -312,7 +453,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that lists only one data source per safeguard reveals failure to grasp that *convergence* across sources/investigators is the core validity mechanism.",
-    "id": "gen_c11_psy_ch02_q7",
+    "id": "gen_c11_psy_ch02_q9",
     "nodeId": "c11_psy_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -333,7 +474,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Inferential statistics involves' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim overinterprets correlation as causation. Chi-square only tests association between categorical variables, not",
-    "id": "gen_c11_psy_ch02_q8",
+    "id": "gen_c11_psy_ch02_q10",
     "nodeId": "c11_psy_cbse_02_010",
     "difficulty": "standard",
     "workedExample": [
@@ -407,7 +548,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "If the student only fixes deception but keeps identifiable data, they miss the confidentiality violation — showing compartmentalised rather than systemic ethical thinking.",
-    "id": "gen_c11_psy_ch02_q9",
+    "id": "gen_c11_psy_ch02_q11",
     "nodeId": "c11_psy_cbse_02_011",
     "difficulty": "standard",
     "workedExample": [
@@ -416,6 +557,36 @@ export const C11_PSY_GEN: SimDef[] = [
      "Would your name appear in the published paper?",
      "This is exactly what happened in Milgram's famous obedience experiments."
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of events in the stream of consciousness when a student absorbs herself in the textbook during a lecture.",
+    "answer": "The stream runs: (1) The lecture voice occupies the focus of consciousness at first (2) Interest shifts and the textbook becomes the new focus (3) The teacher's words recede into",
+    "options": [
+     "The vignette runs: (1) Show the unconscious impulse of hostility toward the newborn sibling (2) Display the conscious behaviour of exaggerated doting and constant hugging (3) Mark",
+     "The correlation coefficient *r* ranges from -1.0 to +1.0. A value of +1.0 indicates a perfect positive linear relationship (as X increases, Y increases proportionally)",
+     "The stream runs: (1) The lecture voice occupies the focus of consciousness at first (2) Interest shifts and the textbook becomes the new focus (3) The teacher's words recede into"
+    ],
+    "hint": "Straight from the 'Functionalism' slide -- match the key terms.",
+    "misconception": "A wrong answer that says she blocked out or paused the noise shows the student has missed that consciousness is continuous and attention is selective amplification, not a switch.",
+    "id": "gen_c11_psy_ch02_q12",
+    "nodeId": "c11_psy_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of elements in a case vignette that demonstrates reaction formation convincingly.",
+    "answer": "The vignette runs: (1) Show the unconscious impulse of hostility toward the newborn sibling (2) Display the conscious behaviour of exaggerated doting and constant hugging (3) Mark",
+    "options": [
+     "The stream runs: (1) The lecture voice occupies the focus of consciousness at first (2) Interest shifts and the textbook becomes the new focus (3) The teacher's words recede into",
+     "The correlation coefficient *r* ranges from -1.0 to +1.0. A value of +1.0 indicates a perfect positive linear relationship (as X increases, Y increases proportionally)",
+     "The vignette runs: (1) Show the unconscious impulse of hostility toward the newborn sibling (2) Display the conscious behaviour of exaggerated doting and constant hugging (3) Mark"
+    ],
+    "hint": "Straight from the 'Psychoanalysis' slide -- match the key terms.",
+    "misconception": "A wrong answer that describes simple kindness or open jealousy shows the student has missed that reaction formation is the exaggerated opposite of the repressed impulse.",
+    "id": "gen_c11_psy_ch02_q13",
+    "nodeId": "c11_psy_cbse_01_008",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -428,7 +599,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Correlational research' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the headline shows failure to apply the core limitation.",
-    "id": "gen_c11_psy_ch02_q10",
+    "id": "gen_c11_psy_ch02_q14",
     "nodeId": "c11_psy_cbse_02_005",
     "difficulty": "standard"
    },
@@ -443,7 +614,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Correlational research' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example: X = \"hours of self-study per week\", Y = \"monthly test average (%)\".",
-    "id": "gen_c11_psy_ch02_q11",
+    "id": "gen_c11_psy_ch02_q15",
     "nodeId": "c11_psy_cbse_02_005",
     "difficulty": "standard"
    },
@@ -458,7 +629,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Correlational research' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the definitions or gives causation examples (e.g., \"studying causes marks, so positive\") shows the student hasn't grasped the *co-variation* concept distinct from cause-effect.",
-    "id": "gen_c11_psy_ch02_q12",
+    "id": "gen_c11_psy_ch02_q16",
     "nodeId": "c11_psy_cbse_02_005",
     "difficulty": "standard"
    },
@@ -473,7 +644,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Survey research' slide -- match the key terms.",
     "misconception": "A wrong choice (telephone for \"cost\") reveals the student prioritises logistics over ethical and methodological fit — a senior-secondary error where they treat methods as interchangeable tools rather than context-sensitive choices.",
-    "id": "gen_c11_psy_ch02_q13",
+    "id": "gen_c11_psy_ch02_q17",
     "nodeId": "c11_psy_cbse_02_006",
     "difficulty": "standard"
    },
@@ -488,68 +659,8 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'psychological test' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"high reliability means high validity\" confuses consistency with accuracy; a wrong answer claiming \"the test is valid because it's reliable\" commits the same error. The correct reasoning: reliability sets the ceiling for validity (validity ≤ √reliability), but does not ensure it.",
-    "id": "gen_c11_psy_ch02_q14",
-    "nodeId": "c11_psy_cbse_02_007",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this research claim: \"A case study of a 16-year-old prodigy who practices piano 6 hours daily proves that deliberate practice alone causes exceptional expertise.\" Identify two specific limitations of the case study method that invalidate this causal claim, and suggest one complementary method that could test",
-    "answer": "Two limitations: (1) *No control over extraneous variables* — the prodigy's genetics, family support, teaching quality, motivation",
-    "options": [
-     "The claim is invalid. Correlational research *cannot* prove causation. The +0.65 only shows that breakfast-eating and IQ co-vary positively",
-     "The claim overinterprets correlation as causation. Chi-square only tests association between categorical variables, not causation",
-     "Two limitations: (1) *No control over extraneous variables* — the prodigy's genetics, family support, teaching quality, motivation"
-    ],
-    "hint": "Straight from the 'case study method' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"case studies can't prove causation\" without naming *specific confounds* or *measurement bias* shows surface-level understanding of the \"no causality\" limitation.",
-    "id": "gen_c11_psy_ch02_q15",
-    "nodeId": "c11_psy_cbse_02_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a psychological study where a one-tailed t-test would be more appropriate than a two-tailed test. Justify your choice of tail.",
-    "answer": "Example: Testing if a new depression therapy *reduces* symptoms compared to standard care. H₀: μ_new ≥ μ_standard, H₁: μ_new < μ_standard (one-tailed, left-tailed)",
-    "options": [
-     "The claim is incorrect. Three principles violated: 1. Setting control: Laboratory = controlled observation (variables manipulated: music vs",
-     "The statement is too absolute. Deception *can* be justified when: (a) no alternative method exists to study the phenomenon (e",
-     "Example: Testing if a new depression therapy *reduces* symptoms compared to standard care. H₀: μ_new ≥ μ_standard, H₁: μ_new < μ_standard (one-tailed, left-tailed)"
-    ],
-    "hint": "Straight from the 'Inferential statistics involves' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Example: Testing if a new depression therapy *reduces* symptoms compared to standard care.",
-    "id": "gen_c11_psy_ch02_q16",
-    "nodeId": "c11_psy_cbse_02_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "\"Deception is never justified in psychological research.\" Evaluate this statement using the principles of beneficence (protecting from harm) and the scientific need for valid results. Give one example where deception *might* be ethically defensible with safeguards.",
-    "answer": "The statement is too absolute. Deception *can* be justified when: (a) no alternative method exists to study the phenomenon (e",
-    "options": [
-     "The claim is incorrect. Three principles violated: 1. Setting control: Laboratory = controlled observation (variables manipulated: music vs",
-     "The claim is invalid. Correlational research *cannot* prove causation. The +0.65 only shows that breakfast-eating and IQ co-vary positively",
-     "The statement is too absolute. Deception *can* be justified when: (a) no alternative method exists to study the phenomenon (e"
-    ],
-    "hint": "Straight from the 'Ethical issues in psychological' slide -- match the key terms.",
-    "misconception": "A student who says \"deception is always wrong\" shows rigid rule-following without understanding the *risk-benefit analysis* central to research ethics. A student who says \"deception is fine if results are important\" misses the harm-minimisation requirement.",
-    "id": "gen_c11_psy_ch02_q17",
-    "nodeId": "c11_psy_cbse_02_011",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A researcher tells participants: \"Sign this form agreeing to participate in a study on memory.\" The form doesn't mention that participants will receive false failure feedback to induce stress. Which principle is violated, and why is a signature alone insufficient?",
-    "answer": "Informed Consent is violated. A signature only documents *agreement*, not *informed* agreement. True informed consent requires: (a) full disclosure of procedures (including",
-    "options": [
-     "The sample suffers from self-selection bias: only teenagers with smartphones, internet access, WhatsApp usage, and motivation to respond participated",
-     "The test has excellent reliability (temporal stability r = 0.92, internal consistency r = 0.89) but very low criterion-related validity (r = 0",
-     "Informed Consent is violated. A signature only documents *agreement*, not *informed* agreement. True informed consent requires: (a) full disclosure of procedures (including"
-    ],
-    "hint": "Straight from the 'Ethical issues in psychological' slide -- match the key terms.",
-    "misconception": "If the student says \"consent was given because they signed,\" they're confusing procedural compliance with ethical substance — a critical error in board exam answers.",
     "id": "gen_c11_psy_ch02_q18",
-    "nodeId": "c11_psy_cbse_02_011",
+    "nodeId": "c11_psy_cbse_02_007",
     "difficulty": "standard"
    }
   ],
@@ -908,6 +1019,21 @@ export const C11_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A 5-year-old girl says, \"I'm a girl, so I can't be a pilot when I grow up.\" Using the concept of gender typing, explain how she might have reached this conclusion even if no adult explicitly told her \"girls can't be pilots.\"",
+    "answer": "Gender typing is the process by which children actively organise information along gender lines once they have achieved gender constancy",
+    "options": [
+     "Scenario: \"The Super-Principal\" (52, school principal). Behavior: Runs 15 committees, adopts every new policy, mentors 20 teachers but remembers none of their names",
+     "Priya exhibits \"imaginary audience\"—belief that others are as preoccupied with her appearance as she is, causing extreme self-consciousness",
+     "Gender typing is the process by which children actively organise information along gender lines once they have achieved gender constancy"
+    ],
+    "hint": "Straight from the 'Gender socialisation' slide -- match the key terms.",
+    "misconception": "A wrong answer focusing only on direct instruction (\"her father told her\") misses the active, self-socialisation aspect central to cognitive theories of gender development and underestimates the child's agency in internalising stereotypes.",
+    "id": "gen_c11_psy_ch03_q13",
+    "nodeId": "c11_psy_cbse_03_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a 10-minute classroom activity for Class 6 students to help them recognize gender stereotypes in Indian television advertisements. Specify the steps, materials needed, and the specific gender socialisation concept each step targets.",
     "answer": "Activity: \"Ad Detective\". Steps: 1. Show 4 ads (2 mins): a detergent ad with a mother, a bike ad with a father, a fairness cream ad with a girl, a bank loan ad with a man",
     "options": [
@@ -917,7 +1043,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gender socialisation' slide -- match the key terms.",
     "misconception": "A poor answer would just list \"watch ads and discuss\" without linking steps to specific socialisation mechanisms (modelling, symbolic annihilation, reinforcement).",
-    "id": "gen_c11_psy_ch03_q13",
+    "id": "gen_c11_psy_ch03_q14",
     "nodeId": "c11_psy_cbse_03_009",
     "difficulty": "standard"
    },
@@ -932,7 +1058,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
     "misconception": "A wrong answer attributing Priya's behaviour to \"vanity\" or \"insecurity\" misses the cognitive-structural basis—this is not a personality flaw but a normative cognitive distortion of early formal operations.",
-    "id": "gen_c11_psy_ch03_q14",
+    "id": "gen_c11_psy_ch03_q15",
     "nodeId": "c11_psy_cbse_03_010",
     "difficulty": "advanced"
    },
@@ -947,7 +1073,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Adulthood and old age represent' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement reflects ageist stereotyping and ignores NCERT's explicit mention of \"myth of old age as incapacitating... is changing\" and the role of openness/achievement-orientation in adjustment.",
-    "id": "gen_c11_psy_ch03_q15",
+    "id": "gen_c11_psy_ch03_q16",
     "nodeId": "c11_psy_cbse_03_011",
     "difficulty": "advanced"
    }
@@ -1266,6 +1392,21 @@ export const C11_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple classroom experiment to estimate the class average difference threshold for saltiness using salt solutions. Specify: (a) standard stimulus, (b) comparison stimuli, (c) procedure to minimise order effects, (d) how to calculate the group DL.",
+    "answer": "(a) Standard: 1% NaCl solution. (b) Comparisons: 1.1%, 1.2%, 1.3%, 1.4%, 1.5% NaCl. (c) Randomise presentation order of pairs (standard vs",
+    "options": [
+     "Procedure: Strike a 512 Hz tuning fork. Hold it over a plastic tube partially submerged in water (acting as a closed-end resonator)",
+     "1. Light reflects off object → retinal image (sensation). 2. Low light + familiarity with dogs in park → perceptual hypothesis \"dog\" (perception, top-down: expectancy/set)",
+     "(a) Standard: 1% NaCl solution. (b) Comparisons: 1.1%, 1.2%, 1.3%, 1.4%, 1.5% NaCl. (c) Randomise presentation order of pairs (standard vs"
+    ],
+    "hint": "Straight from the 'Absolute threshold' slide -- match the key terms.",
+    "misconception": "A poor answer that uses ascending order only or omits the 50% interpolation reveals inability to translate psychophysical logic into experimental design.",
+    "id": "gen_c11_psy_ch04_q8",
+    "nodeId": "c11_psy_cbse_04_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A 45-year-old factory worker has difficulty hearing high-pitched sounds (e.g., alarms, children's voices) but hears low-pitched sounds normally. Audiometry shows a 4000 Hz notch.",
     "answer": "High frequencies (like 4000 Hz) are encoded at the base of the cochlea (near the oval window), where the basilar membrane is narrow and stiff",
     "options": [
@@ -1275,7 +1416,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"high frequencies are at the apex\") reverses the tonotopic map, showing the student memorized terms but not the physical basis of frequency-to-place mapping (stiffness gradient).",
-    "id": "gen_c11_psy_ch04_q8",
+    "id": "gen_c11_psy_ch04_q9",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1290,7 +1431,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"place theory for all pitches\") ignores the physiological limit of neural firing rates and the need for temporal coding at mid-frequencies.",
-    "id": "gen_c11_psy_ch04_q9",
+    "id": "gen_c11_psy_ch04_q10",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1305,7 +1446,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Procedure: Strike a 512 Hz tuning fork. Hold it over a plastic tube partially submerged in water (acting as a",
-    "id": "gen_c11_psy_ch04_q10",
+    "id": "gen_c11_psy_ch04_q11",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1320,7 +1461,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"amplitude determines loudness directly\") treats the ear as a linear microphone, ignoring its active, frequency-dependent nonlinear processing.",
-    "id": "gen_c11_psy_ch04_q11",
+    "id": "gen_c11_psy_ch04_q12",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1335,8 +1476,23 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"bone conduction also requires the eardrum\") reveals the student does not understand the dual pathways to the cochlea and mistakenly thinks all sound must pass through the tympanic membrane.",
-    "id": "gen_c11_psy_ch04_q12",
+    "id": "gen_c11_psy_ch04_q13",
     "nodeId": "c11_psy_cbse_04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A student pinches their finger in a door. Describe the sequence from stimulus to perception, distinguishing between first pain (sharp, fast) and second pain (dull, throbbing), including fibre types, conduction velocities, and brain areas involved.",
+    "answer": "Step 1: Mechanical deformation activates A-delta nociceptors (myelinated, 5-30 m/s) and C-fibre nociceptors (unmyelinated, 0",
+    "options": [
+     "1. Light reflects off object → retinal image (sensation). 2. Low light + familiarity with dogs in park → perceptual hypothesis \"dog\" (perception, top-down: expectancy/set)",
+     "(a) Standard: 1% NaCl solution. (b) Comparisons: 1.1%, 1.2%, 1.3%, 1.4%, 1.5% NaCl. (c) Randomise presentation order of pairs (standard vs",
+     "Step 1: Mechanical deformation activates A-delta nociceptors (myelinated, 5-30 m/s) and C-fibre nociceptors (unmyelinated, 0"
+    ],
+    "hint": "Straight from the 'The cutaneous senses (skin),' slide -- match the key terms.",
+    "misconception": "Wrong answers confusing fibre types or claiming both pains reach S1 reveal misunderstanding of the dual-pathway architecture for sensory-discriminative vs. affective-motivational pain dimensions.",
+    "id": "gen_c11_psy_ch04_q14",
+    "nodeId": "c11_psy_cbse_04_005",
     "difficulty": "standard"
    },
    {
@@ -1350,7 +1506,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The cutaneous senses (skin),' slide -- match the key terms.",
     "misconception": "Wrong answers equating flavour with taste alone ignore the 80% contribution of olfaction.",
-    "id": "gen_c11_psy_ch04_q13",
+    "id": "gen_c11_psy_ch04_q15",
     "nodeId": "c11_psy_cbse_04_005",
     "difficulty": "standard"
    },
@@ -1365,7 +1521,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The cutaneous senses (skin),' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"olfaction goes to thalamus first\" reveals confusion with vision/hearing pathways. Saying \"smells are processed in the amygdala\" without mentioning piriform cortex shows incomplete pathway knowledge.",
-    "id": "gen_c11_psy_ch04_q14",
+    "id": "gen_c11_psy_ch04_q16",
     "nodeId": "c11_psy_cbse_04_005",
     "difficulty": "standard"
    },
@@ -1380,7 +1536,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The cutaneous senses (skin),' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"touch, heat, cold, pain\" without receptor types reveals the student memorised modalities but not the labelled-line coding principle. Confusing Ruffini for both stretch and warmth shows misunderstanding that one receptor type can serve multiple modalities depending on stimulus intensity.",
-    "id": "gen_c11_psy_ch04_q15",
+    "id": "gen_c11_psy_ch04_q17",
     "nodeId": "c11_psy_cbse_04_005",
     "difficulty": "standard"
    }
@@ -1729,6 +1885,21 @@ export const C11_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a 2-trial mini-experiment to demonstrate that learning is inferred, not observed. Specify: (1) pre-test, (2) experience/practice phase, (3) post-test, (4) the inference step. Use a verbal learning task.",
+    "answer": "(1) Pre-test: Ask participant to recall a list of 10 nonsense syllables — score 0. (2) Experience: Show each syllable for 2 sec, repeat list 5 times",
+    "options": [
+     "Week 1 = Cognitive phase (characteristic: conscious memorisation of instructions, high attentional demand, verbal mediation)",
+     "The phenomenon is stimulus generalisation. Fear generalises more to the rabbit because it shares more perceptual features (colour, texture, size",
+     "(1) Pre-test: Ask participant to recall a list of 10 nonsense syllables — score 0. (2) Experience: Show each syllable for 2 sec, repeat list 5 times"
+    ],
+    "hint": "Straight from the 'Learning' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Pre-test: Ask participant to recall a list of 10 nonsense syllables — score 0.",
+    "id": "gen_c11_psy_ch05_q8",
+    "nodeId": "c11_psy_cbse_05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "State the NCERT definition of learning verbatim, including the two exclusionary criteria for non-learning changes.",
     "answer": "Learning is \"any relatively permanent change in behaviour or behavioural potential produced by experience",
     "options": [
@@ -1738,8 +1909,23 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Learning' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"learning is a change in behaviour\") reveals the student misses the critical qualifiers \"relatively permanent\" and \"produced by experience,\" leading to over-inclusion of temporary states like fatigue.",
-    "id": "gen_c11_psy_ch05_q8",
+    "id": "gen_c11_psy_ch05_q9",
     "nodeId": "c11_psy_cbse_05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A parent wants their 10-year-old to practise piano daily. They try three plans: (A) ₹50 immediately after each practice session; (B) ₹500 at the end of each month if the child practised every day; (C) ₹50 after each session for the first week, then randomly on some days thereafter.",
+    "answer": "Step 1: Plan A uses continuous immediate reinforcement—fast acquisition but low resistance to extinction",
+    "options": [
+     "A strong answer will structure: Week 1 (Cognitive) — learn algorithms with tutorial, continuous reinforcement (praise per solved layer), intrinsic goal (\"understand logic\")",
+     "(1) Pre-test: Ask participant to recall a list of 10 nonsense syllables — score 0. (2) Experience: Show each syllable for 2 sec, repeat list 5 times",
+     "Step 1: Plan A uses continuous immediate reinforcement—fast acquisition but low resistance to extinction"
+    ],
+    "hint": "Straight from the 'Operant conditioning' slide -- match the key terms.",
+    "misconception": "A wrong answer choosing Plan A or B indicates the student has not internalised that partial reinforcement > continuous reinforcement for persistence, and that delay degrades reinforcement efficacy.",
+    "id": "gen_c11_psy_ch05_q10",
+    "nodeId": "c11_psy_cbse_05_004",
     "difficulty": "standard"
    },
    {
@@ -1753,7 +1939,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Observational learning' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Experimental group: child watches peer fold crane twice. Control group: child sees finished crane only (no modeling).",
-    "id": "gen_c11_psy_ch05_q9",
+    "id": "gen_c11_psy_ch05_q11",
     "nodeId": "c11_psy_cbse_05_006",
     "difficulty": "standard"
    },
@@ -1768,7 +1954,22 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Insight learning' slide -- match the key terms.",
     "misconception": "A wrong answer that merges incubation with preparation or omits verification shows the student views insight as a single \"flash\" rather than a structured sequence where verification proves the cognitive restructuring is robust and generalizable.",
-    "id": "gen_c11_psy_ch05_q10",
+    "id": "gen_c11_psy_ch05_q12",
+    "nodeId": "c11_psy_cbse_05_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a classroom activity for Class 9 students that would allow them to experience insight learning (not trial-and-error) in a geometry context. Specify: (a) the problem, (b) how you would structure the preparation/incubation phases, (c) how you would verify genuine insight occurred versus lucky guessing.",
+    "answer": "(a) Problem: \"Using only a single straight cut on a folded sheet of paper, create a symmetrical star shape",
+    "options": [
+     "A strong answer will structure: Week 1 (Cognitive) — learn algorithms with tutorial, continuous reinforcement (praise per solved layer), intrinsic goal (\"understand logic\")",
+     "The phenomenon is stimulus generalisation. Fear generalises more to the rabbit because it shares more perceptual features (colour, texture, size",
+     "(a) Problem: \"Using only a single straight cut on a folded sheet of paper, create a symmetrical star shape"
+    ],
+    "hint": "Straight from the 'Insight learning' slide -- match the key terms.",
+    "misconception": "A poor answer proposes a routine textbook exercise, missing that insight requires a *novel* problem where prior algorithms fail, forcing restructuring.",
+    "id": "gen_c11_psy_ch05_q13",
     "nodeId": "c11_psy_cbse_05_007",
     "difficulty": "advanced"
    },
@@ -1783,7 +1984,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Skill learning' slide -- match the key terms.",
     "misconception": "A weak answer uses same drills throughout or ignores the reinforcement shift, showing failure to integrate phase-specific demands.",
-    "id": "gen_c11_psy_ch05_q11",
+    "id": "gen_c11_psy_ch05_q14",
     "nodeId": "c11_psy_cbse_05_009",
     "difficulty": "standard"
    },
@@ -1798,7 +1999,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Skill learning' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the claim confuses motivation (energising factor) with preparedness (biological constraint on *what* can be associated).",
-    "id": "gen_c11_psy_ch05_q12",
+    "id": "gen_c11_psy_ch05_q15",
     "nodeId": "c11_psy_cbse_05_009",
     "difficulty": "standard"
    }
@@ -1812,6 +2013,246 @@ export const C11_PSY_GEN: SimDef[] = [
   "successLine": "Learning mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c11_psy_ch06",
+  "title": "Memory As a Constructive Process",
+  "subtitle": "Psychology · Chapter 6",
+  "classLevel": 11,
+  "mode": "senior",
+  "subject": "psychology",
+  "topic": "Memory As a Constructive Process",
+  "chapters": [
+   "Psychology Ch6: Memory As a Constructive Process"
+  ],
+  "nodeIds": [
+   "c11_psy_cbse_06_008",
+   "c11_psy_cbse_06_009",
+   "c11_psy_cbse_06_010"
+  ],
+  "emoji": "🧠",
+  "theme": {
+   "bg": "from-sky-100 to-cyan-200",
+   "accent": "sky",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Can you see Memory As a Constructive Process directly with your eyes?",
+   "options": [
+    "Often only through its effects",
+    "Always directly visible",
+    "It is invisible by definition"
+   ],
+   "answer": "Often only through its effects",
+   "hook": "Memory as a constructive process refers to the understanding that memory is not a passive, faithful recording of events that is later replayed"
+  },
+  "teaching": [
+   {
+    "title": "Memory As a Constructive Process",
+    "text": "Memory as a constructive process refers to the understanding that memory is not a passive, faithful recording of events that is later replayed intact, but an active, reconstructive process in which the brain uses schemas — mental frameworks organized by prior",
+    "emoji": "🧠",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Mnemonics",
+    "text": "Mnemonics are systematic memory enhancement strategies that impose meaningful organisation or vivid imagery onto to-be-remembered information, thereby creating effective retrieval cues and facilitating deep semantic encoding.",
+    "emoji": "🧠",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Eyewitness Memory",
+    "text": "Eyewitness memory refers to the reconstructive process by which individuals encode, store, and retrieve details of a witnessed event, where accuracy is systematically influenced by estimator variables (uncontrollable factors like lighting, stress, cross-race",
+    "emoji": "🧠",
+    "bgColor": "from-indigo-400 to-blue-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Give the correct order of steps explaining how two honest witnesses can report opposite details of the same argument.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "At recall the schema fills the ambiguous",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Each carries a different schema about",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Both students encode the same fragmentary",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The two reconstructions contradict each",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls one witness dishonest shows the student has missed that memory is a schema-guided reconstruction rather than a playback of stored facts.",
+    "id": "gen_c11_psy_ch06_q1",
+    "nodeId": "c11_psy_cbse_06_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are telling a friend about a movie you saw last month.",
+     "You don't replay the movie frame by frame in your head — you reconstruct the plot from fragments: \"There was a scene where the hero.",
+     "That is reconstructive memory: you are not retrieving a recording but *rebuilding* the experience from fragments and schemas.",
+     "Now consider Bartlett's famous experiment: he gave English participants a Native American folktale called \"War of the Ghosts\" and asked them to"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "You need to memorise the following 12-item grocery list *in exact order*: milk, bread, apples, soap, rice, eggs, tomatoes, toothpaste, chicken, onions, butter, shampoo. Design a Method of Loci walkthrough using your home as the mental route.",
+    "answer": "(a) Loci: 1) Front door mat, 2) Living room sofa, 3) Kitchen counter, 4) Bathroom sink, 5) Bedroom pillow",
+    "options": [
+     "Step 1: Poor lighting during encoding creates weak, fragmentary memory trace. Step 2: Biased lineup (red hoodie only on suspect) acts as post-event suggestion",
+     "The explanation runs: (1) Both students encode the same fragmentary events of the quarrel (2) Each carries a different schema about which classmate is the angry one (3) At recall",
+     "(a) Loci: 1) Front door mat, 2) Living room sofa, 3) Kitchen counter, 4) Bathroom sink, 5) Bedroom pillow"
+    ],
+    "hint": "Straight from the 'Mnemonics' slide -- match the key terms.",
+    "misconception": "A wrong answer that suggests Chunking reveals confusion between *capacity expansion* (Chunking's purpose) and *order preservation* (Loci's purpose).",
+    "id": "gen_c11_psy_ch06_q2",
+    "nodeId": "c11_psy_cbse_06_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you have a history test tomorrow with 15 Mughal emperors in chronological order, their reign years, and one major achievement each — pure",
+     "Where do you even begin?",
+     "Start by asking: *what kind of material is this?* It's ordered, verbal, and factual — so the Method of Loci (for serial order) combined with Chunking",
+     "Next, schedule your study to avoid interference: don't study history right after political science (similar themes cause proactive interference)."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A witness views a 30-second robbery at 9 PM under a flickering sodium-vapor lamp (estimator: poor lighting). Police conduct a simultaneous lineup 48 hours later where the suspect is the only one wearing a red hoodie matching the witness's description (system: biased lineup).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Poor lighting during encoding creates weak",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Biased lineup",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "During retrieval",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "High confidence emerges from fluency",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Wrong answers ignoring the 48-hour delay's role in memory decay reveal failure to integrate Ebbinghaus forgetting curve with retrieval contamination.",
+    "id": "gen_c11_psy_ch06_q3",
+    "nodeId": "c11_psy_cbse_06_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you witness a snatch-theft outside your Delhi Metro station — a person in a red hoodie grabs a phone and runs toward Gate 3.",
+     "Two hours later, police show you six photos asking \"Which one did it?\" You're confident it's Photo 3.",
+     "But what if the lighting was poor?",
+     "What if the officer said \"We think it's the guy in Photo 3\"?"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps explaining how two honest witnesses can report opposite details of the same argument.",
+    "answer": "The explanation runs: (1) Both students encode the same fragmentary events of the quarrel (2) Each carries a different schema about which classmate is the angry one (3) At recall",
+    "options": [
+     "(a) Loci: 1) Front door mat, 2) Living room sofa, 3) Kitchen counter, 4) Bathroom sink, 5) Bedroom pillow",
+     "Step 1: Poor lighting during encoding creates weak, fragmentary memory trace. Step 2: Biased lineup (red hoodie only on suspect) acts as post-event suggestion",
+     "The explanation runs: (1) Both students encode the same fragmentary events of the quarrel (2) Each carries a different schema about which classmate is the angry one (3) At recall"
+    ],
+    "hint": "Straight from the 'Memory as a constructive process' slide -- match the key terms.",
+    "misconception": "A wrong answer that calls one witness dishonest shows the student has missed that memory is a schema-guided reconstruction rather than a playback of stored facts.",
+    "id": "gen_c11_psy_ch06_q4",
+    "nodeId": "c11_psy_cbse_06_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A witness views a 30-second robbery at 9 PM under a flickering sodium-vapor lamp (estimator: poor lighting). Police conduct a simultaneous lineup 48 hours later where the suspect is the only one wearing a red hoodie matching the witness's description (system: biased lineup).",
+    "answer": "Step 1: Poor lighting during encoding creates weak, fragmentary memory trace. Step 2: Biased lineup (red hoodie only on suspect) acts as post-event suggestion",
+    "options": [
+     "(a) Loci: 1) Front door mat, 2) Living room sofa, 3) Kitchen counter, 4) Bathroom sink, 5) Bedroom pillow",
+     "The explanation runs: (1) Both students encode the same fragmentary events of the quarrel (2) Each carries a different schema about which classmate is the angry one (3) At recall",
+     "Step 1: Poor lighting during encoding creates weak, fragmentary memory trace. Step 2: Biased lineup (red hoodie only on suspect) acts as post-event suggestion"
+    ],
+    "hint": "Straight from the 'Eyewitness memory' slide -- match the key terms.",
+    "misconception": "Wrong answers ignoring the 48-hour delay's role in memory decay reveal failure to integrate Ebbinghaus forgetting curve with retrieval contamination.",
+    "id": "gen_c11_psy_ch06_q5",
+    "nodeId": "c11_psy_cbse_06_010",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about memory as a constructive process?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Memory As a Constructive mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c11_psy_ch07",
@@ -1974,6 +2415,21 @@ export const C11_PSY_GEN: SimDef[] = [
     "id": "gen_c11_psy_ch07_q4",
     "nodeId": "c11_psy_cbse_07_006",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Critique the claim: \"The fact that Hindi has distinct words for paternal uncle (chacha/tau) and maternal uncle (mama) proves that Hindi speakers think about kinship relationships more precisely than English speakers.\" Use evidence from cross-cultural psychology to evaluate this claim.",
+    "answer": "This claim reflects linguistic determinism (strong Whorf), which is not supported. Evidence: (1) English speakers can learn and use the distinctions when explained",
+    "options": [
+     "She initially displayed functional fixedness (seeing spoon only as eating utensil, textbook only as reading material). She overcame it by using the textbook as a hammer substitute",
+     "Bias 1: Bandwagon effect / Social proof bias — Heuristic: Availability heuristic (the claim \"No. 1\" makes the idea of popularity highly accessible",
+     "This claim reflects linguistic determinism (strong Whorf), which is not supported. Evidence: (1) English speakers can learn and use the distinctions when explained"
+    ],
+    "hint": "Straight from the 'relationship between thought and' slide -- match the key terms.",
+    "misconception": "A wrong answer accepting the claim reveals failure to distinguish cultural emphasis from cognitive determinism.",
+    "id": "gen_c11_psy_ch07_q5",
+    "nodeId": "c11_psy_cbse_07_010",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -2531,6 +2987,21 @@ export const C11_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A researcher shows standardized fear-face photographs to two groups: Group A (urban Indian adolescents) and Group B (rural Japanese adolescents). Both groups label the face \"fear\" at 85% accuracy in a forced-choice format.",
+    "answer": "Step 1: Forced-choice equivalence (85% both) confirms the universal facial configuration for fear is recognized panculturally — supporting Ekman's universality thesis",
+    "options": [
+     "Independent variable: Presence vs. absence of food aroma (e.g., baking bread scent diffused in room)",
+     "\"Adequately satisfied\" means *relatively* or *partially* met, not 100% fulfilled. Maslow explicitly noted that needs overlap—e",
+     "Step 1: Forced-choice equivalence (85% both) confirms the universal facial configuration for fear is recognized panculturally — supporting Ekman's universality thesis"
+    ],
+    "hint": "Straight from the 'Cultural bases of emotion refer' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"Group A feels more fear\" or \"Japanese don't understand fear\") commits the lexical fallacy — equating label granularity with experience intensity or capacity.",
+    "id": "gen_c11_psy_ch08_q16",
+    "nodeId": "c11_psy_cbse_08_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast the gaze behavior norms during emotional conversations in (a) Latin American/Southern European cultures and (b) South Asian (Indian/Pakistani) cultures. Analyze how these norms reflect divergent cultural models of self (independent vs. interdependent).",
     "answer": "Latin American/Southern European norm: Direct eye contact maintained with the interactant's eyes",
     "options": [
@@ -2540,7 +3011,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cultural bases of emotion refer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Indians avoid eye contact because they are shy\" or \"Latin Americans stare because they are aggressive\") commits the dispositional attribution error — ignoring the cultural logic that makes each norm adaptive in its context.",
-    "id": "gen_c11_psy_ch08_q16",
+    "id": "gen_c11_psy_ch08_q17",
     "nodeId": "c11_psy_cbse_08_008",
     "difficulty": "advanced"
    },
@@ -2555,21 +3026,6 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cultural bases of emotion refer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Ekman proved culture doesn't matter\" or \"All emotions are culturally constructed\") fails to integrate the interactionist consensus: biology constrains, culture constructs.",
-    "id": "gen_c11_psy_ch08_q17",
-    "nodeId": "c11_psy_cbse_08_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Name the six basic emotions identified by Paul Ekman as universal across cultures, and state the key methodological evidence he used to support this claim.",
-    "answer": "The six basic emotions are anger, disgust, fear, happiness, sadness, and surprise. Ekman's key evidence came from studies with the Fore people of Papua New Guinea",
-    "options": [
-     "The six universal basic emotions are happiness, sadness, anger, fear, disgust, and surprise",
-     "The statement incorrectly assumes positive and negative emotions exist on a single continuum where reducing one automatically increases the other",
-     "The six basic emotions are anger, disgust, fear, happiness, sadness, and surprise. Ekman's key evidence came from studies with the Fore people of Papua New Guinea"
-    ],
-    "hint": "Straight from the 'Cultural bases of emotion refer' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., listing \"love, jealousy, pride\" or citing only Western college student data) reveals the student confuses basic emotions with complex social emotions or ignores the critical cross-cultural methodological control.",
     "id": "gen_c11_psy_ch08_q18",
     "nodeId": "c11_psy_cbse_08_008",
     "difficulty": "advanced"

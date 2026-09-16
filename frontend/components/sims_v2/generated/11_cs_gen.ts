@@ -389,6 +389,21 @@ export const C11_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design an input-system block diagram for a \"Smart Attendance Terminal\" used by construction workers wearing gloves and helmets in noisy, dusty outdoors. Label each block (sensor, transducer, encoder, interface) and specify the device chosen for each input: worker ID, presence verification, and override command.",
+    "answer": "Expected blocks: (1) RFID reader (sensor: antenna; transducer: inductive coupling; encoder: Manchester-coded bit stream",
+    "options": [
+     "Android and iOS are operating systems because they manage hardware resources (CPU, memory, storage, sensors, radios) and provide system services (process scheduling",
+     "A haptic-audio interface: user taps shelf zones (touch), receives vibration patterns indicating item categories, speaks item names (voice), and gets audio confirmation",
+     "Expected blocks: (1) RFID reader (sensor: antenna; transducer: inductive coupling; encoder: Manchester-coded bit stream"
+    ],
+    "hint": "Straight from the 'input device' slide -- match the key terms.",
+    "misconception": "A poor answer uses fingerprint scanner (fails with gloves/dirt), keyboard (dust ingress), or microphone (noise). Missing encoder/interface labels shows incomplete system-view.",
+    "id": "gen_c11_cs_ch01_q11",
+    "nodeId": "c11_cs_cbse_01_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the statement: \"A touch screen makes both a keyboard and a mouse obsolete for general-purpose computing.\" Provide two arguments supporting and two arguments refuting it, referencing human-factor and technical constraints.",
     "answer": "Supporting: (1) Direct manipulation reduces cognitive load (no mapping between hand movement and cursor)",
     "options": [
@@ -398,7 +413,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'input device' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Supporting: (1) Direct manipulation reduces cognitive load (no mapping between hand movement and cursor).",
-    "id": "gen_c11_cs_ch01_q11",
+    "id": "gen_c11_cs_ch01_q12",
     "nodeId": "c11_cs_cbse_01_003",
     "difficulty": "standard"
    },
@@ -413,7 +428,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'input device' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"both send binary data\" misses the crucial distinction in *temporal pattern* and *OS handling*. Saying \"mouse sends pixels\" confuses the sensor output with the transmitted data.",
-    "id": "gen_c11_cs_ch01_q12",
+    "id": "gen_c11_cs_ch01_q13",
     "nodeId": "c11_cs_cbse_01_003",
     "difficulty": "standard"
    },
@@ -428,8 +443,38 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'output device' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"OLED has a better backlight\" or \"LCD turns off backlight for black\" reveals confusion between transmissive and emissive technologies. If they say contrast ratio is the same, they miss the fundamental physics difference.",
-    "id": "gen_c11_cs_ch01_q13",
+    "id": "gen_c11_cs_ch01_q14",
     "nodeId": "c11_cs_cbse_01_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the statement: \"A 3D printer is just a printer that prints in three dimensions instead of two, so it should be judged by the same metrics — DPI and pages per minute.\" Defend or refute with at least three technical arguments.",
+    "answer": "Refute. (1) 3D printers build volume layer by layer; resolution is specified in layer height (µm) and XY micron accuracy, not DPI",
+    "options": [
+     "For FOSS: (1) Source code access allows customization and security audits. (2) Community-driven updates can be rapid",
+     "Warm boot skips the Power-On Self-Test (POST), hardware enumeration, and peripheral initialization because the CPU and devices are already in a known powered state",
+     "Refute. (1) 3D printers build volume layer by layer; resolution is specified in layer height (µm) and XY micron accuracy, not DPI"
+    ],
+    "hint": "Straight from the 'output device' slide -- match the key terms.",
+    "misconception": "A student who agrees shows they treat 3D printing as a trivial extension of 2D printing, missing the paradigm shift from area deposition to volumetric additive manufacturing.",
+    "id": "gen_c11_cs_ch01_q15",
+    "nodeId": "c11_cs_cbse_01_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A student wants to install the operating system on a laptop that currently has only a 1 TB HDD. They have the option to replace it with a 512 GB SSD. List three specific advantages of choosing the SSD for the OS drive, and one disadvantage.",
+    "answer": "Advantages: (1) Much faster boot and application load times due to no mechanical seek/rotational latency",
+    "options": [
+     "(a) Ubuntu → System Software → Operating System; (b) Python IDLE → Programming Tools → IDE (Integrated Development Environment)",
+     "(a) Python IDLE — programming tool (IDE for writing/running Python code). (b) Ubuntu OS — system software (manages hardware, runs apps)",
+     "Advantages: (1) Much faster boot and application load times due to no mechanical seek/rotational latency"
+    ],
+    "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
+    "misconception": "A wrong answer that only says “SSD is faster” without linking to mechanical vs electronic access, or misses the durability/power aspects, indicates superficial understanding of solid-state vs magnetic technology trade-offs.",
+    "id": "gen_c11_cs_ch01_q16",
+    "nodeId": "c11_cs_cbse_01_007",
     "difficulty": "standard"
    },
    {
@@ -443,7 +488,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
     "misconception": "A wrong answer that states CD-R holds 4.7 GB or confuses laser wavelengths reveals the student has memorised capacities without understanding the physical reason (pit size, track pitch, laser wavelength) for the capacity difference.",
-    "id": "gen_c11_cs_ch01_q14",
+    "id": "gen_c11_cs_ch01_q17",
     "nodeId": "c11_cs_cbse_01_007",
     "difficulty": "standard"
    },
@@ -458,53 +503,8 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
     "misconception": "A poor answer that chooses pen drives for primary backup shows the student ignores scalability, management overhead, and endurance limits of flash memory for institutional backup.",
-    "id": "gen_c11_cs_ch01_q15",
-    "nodeId": "c11_cs_cbse_01_007",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: “For long-term archival of family photos (10+ years), a pen drive is better than an external HDD because it has no moving parts.” Provide a reasoned judgment with two supporting arguments and one counter-argument.",
-    "answer": "Judgment: The statement is generally FALSE for 10+ year archival. Supporting arguments for HDD: (1) Magnetic media (HDD) retains data without power for decades if stored properly",
-    "options": [
-     "Refute. (1) 3D printers build volume layer by layer; resolution is specified in layer height (µm) and XY micron accuracy, not DPI",
-     "For FOSS: (1) Source code access allows customization and security audits. (2) Community-driven updates can be rapid",
-     "Judgment: The statement is generally FALSE for 10+ year archival. Supporting arguments for HDD: (1) Magnetic media (HDD) retains data without power for decades if stored properly"
-    ],
-    "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees with the statement shows the student equates “no moving parts” with “long-term reliability” without knowing flash memory’s data retention physics (electron leakage from floating gate).",
-    "id": "gen_c11_cs_ch01_q16",
-    "nodeId": "c11_cs_cbse_01_007",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Classify each of the following as system software, programming tool, or application software, and justify each in one sentence: (a) Python IDLE, (b) Ubuntu OS, (c) VLC Media Player, (d) GCC Compiler, (e) Device driver for a printer.",
-    "answer": "(a) Python IDLE — programming tool (IDE for writing/running Python code). (b) Ubuntu OS — system software (manages hardware, runs apps)",
-    "options": [
-     "(a) Ubuntu → System Software → Operating System; (b) Python IDLE → Programming Tools → IDE (Integrated Development Environment)",
-     "Pre-installation doesn't determine software category; system software manages hardware and provides a platform",
-     "(a) Python IDLE — programming tool (IDE for writing/running Python code). (b) Ubuntu OS — system software (manages hardware, runs apps)"
-    ],
-    "hint": "Straight from the 'System software' slide -- match the key terms.",
-    "misconception": "A wrong classification (e.g., calling GCC an app) reveals the student doesn't distinguish between tools for developers vs tools for end-users.",
-    "id": "gen_c11_cs_ch01_q17",
-    "nodeId": "c11_cs_cbse_01_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a scenario where a school needs both customised application software and general purpose application software. Specify the purpose of each, and explain why the customised one cannot be replaced by a general purpose tool.",
-    "answer": "Scenario: School uses LibreOffice Calc (general purpose) for teachers' individual marksheets, but needs customised \"School Management Software\" for centralized admission",
-    "options": [
-     "(a) Python IDLE — programming tool (IDE for writing/running Python code). (b) Ubuntu OS — system software (manages hardware, runs apps)",
-     "Advantages: (1) Much faster boot and application load times due to no mechanical seek/rotational latency",
-     "Scenario: School uses LibreOffice Calc (general purpose) for teachers' individual marksheets, but needs customised \"School Management Software\" for centralized admission"
-    ],
-    "hint": "Straight from the 'System software' slide -- match the key terms.",
-    "misconception": "A weak answer (e.g., \"Excel can do everything\") misses that customisation is about domain-specific logic, not just data storage.",
     "id": "gen_c11_cs_ch01_q18",
-    "nodeId": "c11_cs_cbse_01_008",
+    "nodeId": "c11_cs_cbse_01_007",
     "difficulty": "standard"
    }
   ],
@@ -4734,6 +4734,7 @@ export const C11_CS_GEN: SimDef[] = [
    "c11_cs_cbse_11_007",
    "c11_cs_cbse_11_008",
    "c11_cs_cbse_11_009",
+   "c11_cs_cbse_11_010",
    "c11_cs_cbse_11_011",
    "c11_cs_cbse_11_012",
    "c11_cs_cbse_11_013",
@@ -4801,6 +4802,12 @@ export const C11_CS_GEN: SimDef[] = [
    {
     "title": "Network Protocols",
     "text": "Network protocols are standardized sets of rules that define how devices format, transmit, and receive data across a network; HTTP governs unencrypted web communication, HTTPS adds TLS/SSL encryption for secure web transactions, FTP manages file transfers",
+    "emoji": "💻",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Cyber Safety",
+    "text": "Cyber safety refers to the practices, measures, and awareness required to protect individuals, systems, and networks from cyber threats such as unauthorised access, data theft, malware, phishing, and identity theft, while ensuring ethical, legal, and",
     "emoji": "💻",
     "bgColor": "from-sky-400 to-cyan-500"
    },
@@ -4971,8 +4978,8 @@ export const C11_CS_GEN: SimDef[] = [
     "question": "What is the primary function of a DNS recursive resolver in the domain name resolution process?",
     "answer": "The recursive resolver acts on behalf of the client (stub resolver) to perform the full sequence of queries",
     "options": [
+     "The response runs: (1) Inspect the sender domain against the bank's real domain (2) Refuse to click the link or enter the PIN anywhere (3) Delete the message and report it through",
      "Phishing is a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity",
-     "Each campus network is a LAN (confined to a single campus). The inter-campus network spanning the city is a MAN (connects multiple LANs within a metropolitan area)",
      "The recursive resolver acts on behalf of the client (stub resolver) to perform the full sequence of queries"
     ],
     "hint": "Straight from the 'Domain Name System' slide -- match the key terms.",
@@ -5061,6 +5068,69 @@ export const C11_CS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of immediate actions after receiving a suspicious bank-verification email asking for your PIN.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Refuse to click the link or enter the PIN",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Forward the details to the national cyber",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Delete the message and report it through",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Inspect the sender domain against the bank's",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that clicks first to check shows the student has missed that phishing exploits trust and urgency, and that technical indicators must be verified before any action.",
+    "id": "gen_c11_cs_ch11_q9",
+    "nodeId": "c11_cs_cbse_11_010",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you receive an email claiming to be from your bank asking you to \"verify your account\" by clicking a link and entering your PIN.",
+     "The logo looks perfect, the language is professional, but the sender address is \"security@bank-verification-services.",
+     "This is a classic phishing attempt — but how do you prove it?",
+     "Start by examining the URL structure: legitimate banks use their primary domain (e.g., hdfcbank.com), not subdomains on unrelated domains."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "UNDERSTAND: A student claims: \"WannaCry was a virus because it destroyed data.\" Using the definitions from this chapter, explain why this classification is incorrect and identify the correct category with two technical reasons.",
     "answer": "WannaCry is Ransomware (specifically a cryptoworm). Reason 1: Its primary payload is encryption of user files (AES-128) followed by a ransom demand in Bitcoin",
@@ -5071,7 +5141,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Malware' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If the student focuses only on \"damage\" or \"spread speed,\" they are classifying by *effect* rather than *mechanism*. This is a senior-secondary error: NCERT explicitly distinguishes malware by *how it spreads* and *what it does after execution*.",
-    "id": "gen_c11_cs_ch11_q9",
+    "id": "gen_c11_cs_ch11_q10",
     "nodeId": "c11_cs_cbse_11_011",
     "difficulty": "standard",
     "workedExample": [
@@ -5123,7 +5193,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer like \"it's not bullying because they're friends\" reveals misunderstanding that relationship doesn't negate bullying — intent and impact matter more.",
-    "id": "gen_c11_cs_ch11_q10",
+    "id": "gen_c11_cs_ch11_q11",
     "nodeId": "c11_cs_cbse_11_012",
     "difficulty": "standard",
     "workedExample": [
@@ -5144,7 +5214,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'firewall' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"allow all from 203.0.113.5\") indicates inability to read logs and infer the minimal necessary rule, a critical skill for board exam log-analysis questions.",
-    "id": "gen_c11_cs_ch11_q11",
+    "id": "gen_c11_cs_ch11_q12",
     "nodeId": "c11_cs_cbse_11_013",
     "difficulty": "advanced",
     "workedExample": [
@@ -5218,7 +5288,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that suggests clicking to \"check if it's real\" reveals failure to apply the principle of never trusting unsolicited credential requests, a core phishing defence.",
-    "id": "gen_c11_cs_ch11_q12",
+    "id": "gen_c11_cs_ch11_q13",
     "nodeId": "c11_cs_cbse_11_014",
     "difficulty": "advanced",
     "workedExample": [
@@ -5281,7 +5351,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing only \"coax is old\" reveals inability to analyze specific electrical engineering and economic drivers of technology adoption.",
-    "id": "gen_c11_cs_ch11_q13",
+    "id": "gen_c11_cs_ch11_q14",
     "nodeId": "c11_cs_cbse_11_005",
     "difficulty": "standard"
    },
@@ -5327,8 +5397,23 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing reveals dangerous misconception that deletion = safety — this discourages evidence preservation and enables bullies to destroy proof.",
-    "id": "gen_c11_cs_ch11_q14",
+    "id": "gen_c11_cs_ch11_q15",
     "nodeId": "c11_cs_cbse_11_012",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A student claims: \"Optical fiber is always better than twisted pair cable because it has higher bandwidth.\" Explain why this statement is an oversimplification by identifying three specific scenarios where twisted pair would be the more appropriate choice.",
+    "answer": "Twisted pair is more appropriate when: (1) Cost is critical for short distances (e.g., home/office LANs under 100m) where Cat6 UTP costs ₹15-25/meter vs fiber at ₹50-100/meter",
+    "options": [
+     "Each campus network is a LAN (confined to a single campus). The inter-campus network spanning the city is a MAN (connects multiple LANs within a metropolitan area)",
+     "Yes, both work correctly. For HTTP: www.company.com → CNAME → web.company.com → A → 203.0.113.10 (web server)",
+     "Twisted pair is more appropriate when: (1) Cost is critical for short distances (e.g., home/office LANs under 100m) where Cat6 UTP costs ₹15-25/meter vs fiber at ₹50-100/meter"
+    ],
+    "hint": "Straight from the 'Transmission media' slide -- match the key terms.",
+    "misconception": "A wrong answer focusing only on bandwidth reveals the student cannot evaluate engineering trade-offs beyond raw specifications.",
+    "id": "gen_c11_cs_ch11_q16",
+    "nodeId": "c11_cs_cbse_11_005",
     "difficulty": "standard"
    },
    {
@@ -5342,7 +5427,7 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Transmission media' slide -- match the key terms.",
     "misconception": "A wrong answer citing only \"coax is old\" reveals inability to analyze specific electrical engineering and economic drivers of technology adoption.",
-    "id": "gen_c11_cs_ch11_q15",
+    "id": "gen_c11_cs_ch11_q17",
     "nodeId": "c11_cs_cbse_11_005",
     "difficulty": "standard"
    },
@@ -5357,36 +5442,6 @@ export const C11_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Transmission media' slide -- match the key terms.",
     "misconception": "A poor answer uses same media everywhere, ignores PoE needs, omits backbone vs horizontal distinction, or suggests wireless for stationary desktops.",
-    "id": "gen_c11_cs_ch11_q16",
-    "nodeId": "c11_cs_cbse_11_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"For a rural school in hilly terrain needing internet connectivity, satellite link is the best transmission medium.\" Consider latency, bandwidth asymmetry, weather dependence, cost, and alternatives like long-range Wi-Fi or TV white space.",
-    "answer": "The claim is generally FALSE for interactive educational use. Geostationary satellite (35,786 km altitude) imposes ~550ms round-trip latency, making video conferencing, VoIP",
-    "options": [
-     "False. Deletion doesn't erase digital footprints: (1) Platform servers retain backups, (2) Screenshots/shares by others create copies, (3) Metadata (IP, timestamp) logs persist",
-     "Once uploaded, content persists on remote servers even if deleted from the user's profile; it can be copied, forwarded, or archived by others",
-     "The claim is generally FALSE for interactive educational use. Geostationary satellite (35,786 km altitude) imposes ~550ms round-trip latency, making video conferencing, VoIP"
-    ],
-    "hint": "Straight from the 'Transmission media' slide -- match the key terms.",
-    "misconception": "A wrong answer accepting the claim reveals inability to quantify latency impact on TCP throughput and user experience, and ignorance of emerging rural connectivity alternatives.",
-    "id": "gen_c11_cs_ch11_q17",
-    "nodeId": "c11_cs_cbse_11_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the fundamental physical difference between guided and unguided transmission media that determines how signals propagate?",
-    "answer": "Guided media uses physical conductors (copper wires or glass fibers) that physically confine and direct electromagnetic signals along a specific path",
-    "options": [
-     "Plagiarism is presenting someone else's work/idea as your own without attribution (ethical offense)",
-     "IP handles addressing and routing of individual packets across networks but provides no guarantee of order, loss recovery, or flow control",
-     "Guided media uses physical conductors (copper wires or glass fibers) that physically confine and direct electromagnetic signals along a specific path"
-    ],
-    "hint": "Straight from the 'Transmission media' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"guided is faster\" or \"guided uses wires, unguided doesn't\") reveals the student is confusing performance characteristics with the defining physical mechanism of signal propagation.",
     "id": "gen_c11_cs_ch11_q18",
     "nodeId": "c11_cs_cbse_11_005",
     "difficulty": "standard"

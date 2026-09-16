@@ -13422,15 +13422,15 @@ export const C11_ENG_W_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Define the term \"ode\" as a poetic form and name the two main types (Pindaric and Horatian). Which type does Keats use in \"Ode to a Nightingale\"?",
-    "answer": "An ode is a lyric poem of elevated style, formally addressing a subject. The Pindaric ode has a triadic structure (strophe, antistrophe, epode) for public performance",
+    "question": "Create a 4-line stanza in the Horatian ode form (ABABCDECDE rhyme scheme) that mimics Keats's opening mood—physical numbness contrasted with an awareness of another's joy—using a different natural image (e.g., a river, a star, a blooming flower).",
+    "answer": "A successful stanza will: (1) use the exact rhyme scheme, (2) establish a first-person somatic sensation (ache, chill, weight)",
     "options": [
-     "A secondary theme is a recurring idea that supports or adds layers to the primary theme; for example",
-     "Nightingale/Dryad (stanza 1), Beauty and Love (stanza 3), Ruth (stanza 7), Emperor and Clown (stanza 7), Fancy (stanza 8)",
-     "An ode is a lyric poem of elevated style, formally addressing a subject. The Pindaric ode has a triadic structure (strophe, antistrophe, epode) for public performance"
+     "A strong prompt: \"In stanza 3, Keats personifies Beauty and Love as fragile and fleeting. Find two other stanzas where human experiences are personified or contrasted with the",
+     "Model Thesis: Both Keats and Shelley invoke a natural force — the nightingale's song and the West Wind",
+     "A successful stanza will: (1) use the exact rhyme scheme, (2) establish a first-person somatic sensation (ache, chill, weight)"
     ],
     "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., calling it a sonnet or ballad) reveals the student cannot distinguish lyric forms, which undermines later structural analysis.",
+    "misconception": "A poor answer breaks the rhyme scheme, lacks the somatic/natural contrast, or resolves the tension too neatly—showing the student hasn't internalized Keats's structural and thematic control.",
     "id": "gen_c11_eng_w_ch19_q18",
     "nodeId": "c11_eng_w_cbse_19_001",
     "difficulty": "standard"
@@ -16931,6 +16931,21 @@ export const C11_ENG_W_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student claims, \"Tribal songs are just folklore; they don't have the depth of written poetry.\" Using Devy's arguments, construct a three-point rebuttal that a Class 11 student could use in a debate.",
+    "answer": "Step 1: Cite Devy—every written literature contains \"substantial layers of orality\" (poetry, drama, prose all rely on spoken rhythm)",
+    "options": [
+     "Devy claims tribal imagination is \"dreamlike and hallucinatory\" and admits \"fusion between various planes of existence and levels of time",
+     "Devy uses an inductive structure: the songs provide empirical data (the \"what\") that grounds the subsequent theoretical analysis (the \"why\" and \"how\")",
+     "Step 1: Cite Devy—every written literature contains \"substantial layers of orality\" (poetry, drama, prose all rely on spoken rhythm)"
+    ],
+    "hint": "Straight from the 'This node establishes the' slide -- match the key terms.",
+    "misconception": "A wrong answer that only says \"they are old\" or \"they are cultural\" misses Devy's structural argument about literary value.",
+    "id": "gen_c11_eng_w_ch24_q17",
+    "nodeId": "c11_eng_w_cbse_24_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the Munda, Kondh, and Adi tribes on: (a) geographical concentration, (b) one unique cultural practice mentioned in the notes, and (c) the occasion for which their selected song is performed.",
     "answer": "Munda: Jharkhand/West Bengal/Assam/Tripura/MP/Odisha; women dominate economic/ritual life; song sung at birth of son/daughter",
     "options": [
@@ -16940,21 +16955,6 @@ export const C11_ENG_W_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node establishes the' slide -- match the key terms.",
     "misconception": "A wrong answer that conflates the tribes or misses the language distinction in Adi shows superficial reading of the notes.",
-    "id": "gen_c11_eng_w_ch24_q17",
-    "nodeId": "c11_eng_w_cbse_24_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Define \"oral literature\" in your own words and give one reason why G.N. Devy insists it must be included in the literary canon.",
-    "answer": "Oral literature refers to creative works—songs, epics, chants, stories—composed, transmitted, and preserved through spoken performance and memory rather than writing",
-    "options": [
-     "The four topics are: (1) modifying the established notion of literature as something written, (2) whether tribal arts not meant for sale helps or hampers their growth",
-     "The collective protagonist is tribal communities (adivasis) as a whole, represented through their shared characteristics, worldview, and artistic expressions",
-     "Oral literature refers to creative works—songs, epics, chants, stories—composed, transmitted, and preserved through spoken performance and memory rather than writing"
-    ],
-    "hint": "Straight from the 'This node establishes the' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates oral literature with \"folk tales\" or \"simple stories\" reveals the misconception that orality lacks structural complexity or aesthetic conventions.",
     "id": "gen_c11_eng_w_ch24_q18",
     "nodeId": "c11_eng_w_cbse_24_001",
     "difficulty": "standard"

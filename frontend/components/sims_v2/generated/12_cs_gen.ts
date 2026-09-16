@@ -767,30 +767,30 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student says: \"My home Wi-Fi network connecting my laptop, phone, and smart TV is a WAN because it connects to the internet.\" Is this statement correct? Explain why or why not in 2–3 sentences.",
-    "answer": "The statement is incorrect. A home Wi-Fi network is a LAN — it spans a single residence (typically <100 m), uses wireless (802",
+    "question": "What are the three fundamental needs that motivate the creation of a computer network? State each need in one phrase and give a distinct real-world example for each.",
+    "answer": "The three fundamental needs are: (1) Resource sharing — e.g., multiple computers in a lab accessing a single network printer",
     "options": [
-     "Diagram: 10 PCs → 12‑port switch (Layer 2, separate collision domains) → router (Layer 3, connects LAN to ISP WAN, NAT for internet) → ISP",
-     "The statement is incorrect. 172.16.255.255 is a valid host address in the Class B network 172.16.0",
-     "The statement is incorrect. A home Wi-Fi network is a LAN — it spans a single residence (typically <100 m), uses wireless (802"
+     "Microwaves: 300 MHz – 300 GHz (commonly 1–40 GHz for terrestrial links). Propagation: Line-of-sight (space wave)",
+     "The maximum first-octet value for Class A is 127; Class A is defined by a leading bit of 0 (i.e., first octet 0xxxxxxx in binary)",
+     "The three fundamental needs are: (1) Resource sharing — e.g., multiple computers in a lab accessing a single network printer"
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals confusion between the local network infrastructure and the upstream internet connection; students often conflate \"accessing the internet\" with \"being a WAN.\"",
+    "misconception": "A wrong answer that lists only \"sharing files\" or \"internet access\" reveals the student conflates specific applications with the underlying abstract needs, and cannot generalise to new scenarios like cloud gaming or IoT sensor networks.",
     "id": "gen_c12_cs_ch01_q17",
-    "nodeId": "c12_cs_cbse_01_002",
+    "nodeId": "c12_cs_cbse_01_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Analyze this scenario: \"A wearable fitness tracker syncs data to a smartphone via Bluetooth. The smartphone uploads the data to a cloud server over 4G. The cloud server is accessed by a doctor in another country via a hospital LAN.",
-    "answer": "(a) PAN — Bluetooth, <10 m, personal devices. (b) WAN — 4G cellular link connects to the telecom's wide-area infrastructure",
+    "question": "A company has offices in three buildings within a 1.5 km radius on the same campus. They want to interconnect all computers with high speed (1 Gbps), low latency, and full control over the infrastructure. Which network type should they implement? Justify your choice with three specific reasons.",
+    "answer": "They should implement a LAN (specifically a Campus Area Network, a LAN variant). Reasons: (1) Geographical span 1",
     "options": [
-     "Client-Server has a clear trust boundary: the server is the single trusted authority; security policies (authentication, encryption, access control) are enforced at one point",
-     "The statement is false. A repeater operates at Layer 1 only; it regenerates the physical signal (amplifies/reshapes bits) but does not examine or translate frames, MAC addresses",
-     "(a) PAN — Bluetooth, <10 m, personal devices. (b) WAN — 4G cellular link connects to the telecom's wide-area infrastructure"
+     "The statement is incorrect. 172.16.255.255 is a valid host address in the Class B network 172.16.0",
+     "(a) Class C (first octet 203 → 192–223). (b) Default mask: 255.255.255.0 or /24. (c) Network address: 203",
+     "They should implement a LAN (specifically a Campus Area Network, a LAN variant). Reasons: (1) Geographical span 1"
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
-    "misconception": "A wrong answer labeling (b) as MAN shows confusion: cellular networks are WANs (they span cities/regions via core networks), not MANs. Students often think \"city-wide = MAN\" but cellular architecture is fundamentally WAN.",
+    "misconception": "A wrong answer choosing MAN reveals misunderstanding that MAN implies third-party/provider ownership and typically spans a city, not a single campus.",
     "id": "gen_c12_cs_ch01_q18",
     "nodeId": "c12_cs_cbse_01_002",
     "difficulty": "standard"
@@ -1267,6 +1267,21 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate the statement: \"Bus topology is the best choice for a modern school computer lab with 30 PCs requiring high-speed internet access and file sharing.\" Justify your evaluation with three technical reasons.",
+    "answer": "The statement is false. Three reasons: (1) Bus topology uses a single collision domain — 30 PCs would cause excessive collisions, drastically reducing throughput",
+    "options": [
+     "Packet switching allows multiple users to share the same link by statistically multiplexing packets; when one user is idle (reading a page), others can use the bandwidth",
+     "Refute. Counter-example 1: Traditional PSTN voice calls — circuit switching provides guaranteed 64 kbps with negligible jitter, essential for real-time conversation",
+     "The statement is false. Three reasons: (1) Bus topology uses a single collision domain — 30 PCs would cause excessive collisions, drastically reducing throughput"
+    ],
+    "hint": "Straight from the 'Bus topology' slide -- match the key terms.",
+    "misconception": "A student who agrees likely confuses \"easy to set up\" with \"suitable for high performance\", ignoring scalability limits.",
+    "id": "gen_c12_cs_ch02_q14",
+    "nodeId": "c12_cs_cbse_02_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Explain why adding more devices to a bus topology degrades network performance, using the concept of shared bandwidth and collision domain.",
     "answer": "In a bus topology, all devices share the same communication channel (single collision domain). As more devices are added",
     "options": [
@@ -1276,8 +1291,23 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bus topology' slide -- match the key terms.",
     "misconception": "A wrong answer that blames \"cable length\" or \"terminator failure\" shows the student cannot distinguish between physical limitations and media access control issues.",
-    "id": "gen_c12_cs_ch02_q14",
+    "id": "gen_c12_cs_ch02_q15",
     "nodeId": "c12_cs_cbse_02_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A small business has 8 workstations, 1 server, and 1 network printer. They currently use bus topology with coaxial cable. The owner wants to upgrade to star topology using Cat6 UTP and a 16-port switch.",
+    "answer": "(1) Cabling cost: INCREASES — star requires 10 separate Cat6 runs (8 workstations + server + printer) vs one coaxial backbone with 10 short taps",
+    "options": [
+     "The IP address changes because it is assigned by the local network's DHCP server (different subnet at café)",
+     "They should configure IMAP because it leaves messages on the server and synchronizes folder structure and message flags (read/unread) across all clients",
+     "(1) Cabling cost: INCREASES — star requires 10 separate Cat6 runs (8 workstations + server + printer) vs one coaxial backbone with 10 short taps"
+    ],
+    "hint": "Straight from the 'Star topology' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Cabling cost: INCREASES — star requires 10 separate Cat6 runs (8 workstations + server + printer) vs one coaxial",
+    "id": "gen_c12_cs_ch02_q16",
+    "nodeId": "c12_cs_cbse_02_003",
     "difficulty": "standard"
    },
    {
@@ -1291,7 +1321,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Star topology' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) One 16-port access switch per floor in each wiring closet (12 workstations + 1 uplink + 3 spare).",
-    "id": "gen_c12_cs_ch02_q15",
+    "id": "gen_c12_cs_ch02_q17",
     "nodeId": "c12_cs_cbse_02_003",
     "difficulty": "standard"
    },
@@ -1306,38 +1336,8 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Tree topology' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"use star everywhere\") shows inability to match topology properties to application requirements — a key competency for board case-study questions.",
-    "id": "gen_c12_cs_ch02_q16",
-    "nodeId": "c12_cs_cbse_02_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this statement: \"Hybrid topology is always superior to tree topology because it combines the best features of multiple topologies.\" Provide two specific counterexamples where tree would be better.",
-    "answer": "The statement is false. Hybrid topologies introduce complexity (multiple protocols, media, management tools) and higher cost",
-    "options": [
-     "(a) One 16-port access switch per floor in each wiring closet (12 workstations + 1 uplink + 3 spare)",
-     "Each building uses a dual-ring (fiber) connecting floor switches — low cost, deterministic latency, self-healing within building",
-     "The statement is false. Hybrid topologies introduce complexity (multiple protocols, media, management tools) and higher cost"
-    ],
-    "hint": "Straight from the 'Tree topology' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"hybrid is always better because it's flexible\") reveals the student equates \"more features\" with \"better\" without considering operational overhead — a classic competitive-exam trap.",
-    "id": "gen_c12_cs_ch02_q17",
-    "nodeId": "c12_cs_cbse_02_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A company hosts a public website and an internal file server. The website must be accessible to anyone on the internet. The file server should only allow employees to upload/download files after authentication.",
-    "answer": "Public website → HTTPS (port 443): Mandatory because (a) public internet exposure requires encryption to protect user privacy (cookies, session IDs, form data)",
-    "options": [
-     "(d) A is false but R is true. In a tree, if a non‑root node fails, all its descendants lose connection to the root",
-     "The entire network becomes unusable because the faulty network card jams the shared medium, preventing any other device from transmitting successfully (a \"babbling node\" scenario)",
-     "Public website → HTTPS (port 443): Mandatory because (a) public internet exposure requires encryption to protect user privacy (cookies, session IDs, form data)"
-    ],
-    "hint": "Straight from the 'Network protocols' slide -- match the key terms.",
-    "misconception": "Wrong answer: \"Use FTP for files because it's made for file transfer\" — ignores security. \"Use HTTP for website\" — ignores encryption requirement for public sites.",
     "id": "gen_c12_cs_ch02_q18",
-    "nodeId": "c12_cs_cbse_02_006",
+    "nodeId": "c12_cs_cbse_02_005",
     "difficulty": "standard"
    }
   ],
@@ -1867,6 +1867,21 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a minimal Web 2.0 feature for a school library website: students can reserve books online and receive notifications. Sketch the client-side interactions, server-side endpoints, and data entities needed. Assume the school uses a MySQL database and a Python (Flask) backend.",
+    "answer": "Client-side: (1) Login page (form → POST /login), (2) Book search (AJAX GET /api/books?q=...), (3) Reserve button (AJAX POST /api/reserve {book_id})",
+    "options": [
+     "Recommend static. Reasons: (1) Content changes infrequently — no need for a CMS or database",
+     "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>Minimal Page</title> </head> <body> <h1>Hello, World!",
+     "Client-side: (1) Login page (form → POST /login), (2) Book search (AJAX GET /api/books?q=...), (3) Reserve button (AJAX POST /api/reserve {book_id})"
+    ],
+    "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
+    "misconception": "A poor answer that puts all logic in HTML/JS (no server, no database) shows the student hasn't grasped the client-server-data triad essential to Web 2.0.",
+    "id": "gen_c12_cs_ch03_q14",
+    "nodeId": "c12_cs_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate this claim: \"Web 2.0 eliminated the need for HTML because everything is now built with JavaScript frameworks like React.\" Provide a reasoned judgment with technical justification.",
     "answer": "The claim is false. JavaScript frameworks (React, Vue, Angular) ultimately produce HTML that the browser renders",
     "options": [
@@ -1876,7 +1891,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student conflates *authoring tools* with *output format* — a dangerous misconception that leads to inaccessible, poorly indexed web applications.",
-    "id": "gen_c12_cs_ch03_q14",
+    "id": "gen_c12_cs_ch03_q15",
     "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1891,7 +1906,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student confuses the *application layer paradigm* with the *transport protocol*, a common category error that leads to misunderstanding why Web 2.0 sites still use standard URLs and browsers.",
-    "id": "gen_c12_cs_ch03_q15",
+    "id": "gen_c12_cs_ch03_q16",
     "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1906,7 +1921,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'HTML  uses tags' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The approach is wrong. required is a boolean attribute — its presence alone means true; writing required=\"false\" still",
-    "id": "gen_c12_cs_ch03_q16",
+    "id": "gen_c12_cs_ch03_q17",
     "nodeId": "c12_cs_cbse_03_002",
     "difficulty": "standard"
    },
@@ -1921,21 +1936,6 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'HTML  uses tags' slide -- match the key terms.",
     "misconception": "Students who pick A often think \"both look the same\" — missing that semantic HTML affects SEO, accessibility, and maintainability, which CBSE competency questions explicitly test.",
-    "id": "gen_c12_cs_ch03_q17",
-    "nodeId": "c12_cs_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design an HTML snippet for a \"Student Profile Card\" that uses at least 3 semantic elements, 2 global attributes, and 1 void element. Explain your choices.",
-    "answer": "<article class=\"profile-card\" id=\"student-1\"> <header> <img src=\"avatar.png\" alt=\"Student photo\"> <!",
-    "options": [
-     "Scenario: company.com hosts a website on IP 203.0.113.10, uses www.company.com as alias, email handled by Google Workspace, and needs SPF verification",
-     "No, the statement is incorrect. A live clock implemented purely with client-side JavaScript runs in the browser after the static HTML/CSS/JS files are delivered",
-     "<article class=\"profile-card\" id=\"student-1\"> <header> <img src=\"avatar.png\" alt=\"Student photo\"> <!"
-    ],
-    "hint": "Straight from the 'HTML  uses tags' slide -- match the key terms.",
-    "misconception": "A poor answer uses only <div>/<span>, misses alt on <img>, or puts block elements inside inline ones — showing weak grasp of content categories.",
     "id": "gen_c12_cs_ch03_q18",
     "nodeId": "c12_cs_cbse_03_002",
     "difficulty": "standard"
@@ -2216,6 +2216,21 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A company argues: \"We don't need a DBMS; our custom file-based system works fine and we have full control.\" Evaluate this claim by identifying three hidden costs or risks of file-based systems that a DBMS mitigates, and one scenario where a file-based system might actually be preferable.",
+    "answer": "Hidden costs/risks: (1) Development effort: building custom concurrency, recovery, security from scratch is expensive and error-prone",
+    "options": [
+     "File system steps: (1) Read Customers.csv, filter rows where city = 'Delhi', collect customer IDs. (2) Read Orders",
+     "Expected schema: - Movie(MovieID, Title, Genre, Duration) — PK: MovieID; Candidate: {MovieID}; Alternate: N/A (unless Title+Genre unique, but unlikely)",
+     "Hidden costs/risks: (1) Development effort: building custom concurrency, recovery, security from scratch is expensive and error-prone"
+    ],
+    "hint": "Straight from the 'database' slide -- match the key terms.",
+    "misconception": "A wrong answer that only mentions \"DBMS is easier\" without concrete technical trade-offs shows superficial evaluation.",
+    "id": "gen_c12_cs_ch04_q6",
+    "nodeId": "c12_cs_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Explain in your own words what \"program-data independence\" means and why it is a key characteristic of the database approach. Provide a concrete example of a change that would break a file-based application but not a database application.",
     "answer": "Program-data independence means the physical storage structure (file organization, indexing",
     "options": [
@@ -2225,9 +2240,24 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'database' slide -- match the key terms.",
     "misconception": "A wrong answer that describes only \"data independence\" without specifying program vs data, or gives an example like \"changing a password\" (which is access control, not structural independence), shows the student misunderstands the level of abstraction the DBMS provides.",
-    "id": "gen_c12_cs_ch04_q6",
+    "id": "gen_c12_cs_ch04_q7",
     "nodeId": "c12_cs_cbse_04_001",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A small business uses separate CSV files for Customers, Orders, and Products. They want to generate a report of all orders placed by customers from Delhi. Describe the steps a programmer must write in a file system approach, and identify two difficulties that a DBMS would eliminate.",
+    "answer": "File system steps: (1) Read Customers.csv, filter rows where city = 'Delhi', collect customer IDs. (2) Read Orders",
+    "options": [
+     "Hidden costs/risks: (1) Development effort: building custom concurrency, recovery, security from scratch is expensive and error-prone",
+     "Expected schema: - Movie(MovieID, Title, Genre, Duration) — PK: MovieID; Candidate: {MovieID}; Alternate: N/A (unless Title+Genre unique, but unlikely)",
+     "File system steps: (1) Read Customers.csv, filter rows where city = 'Delhi', collect customer IDs. (2) Read Orders"
+    ],
+    "hint": "Straight from the 'file system manages data as' slide -- match the key terms.",
+    "misconception": "A wrong answer that only mentions \"writing code is hard\" without specifying join logic or integrity misses the core technical differences.",
+    "id": "gen_c12_cs_ch04_q8",
+    "nodeId": "c12_cs_cbse_04_002",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -2240,7 +2270,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'file system manages data as' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees without qualifications shows the student cannot evaluate trade-offs beyond initial setup effort.",
-    "id": "gen_c12_cs_ch04_q7",
+    "id": "gen_c12_cs_ch04_q9",
     "nodeId": "c12_cs_cbse_04_002",
     "difficulty": "advanced"
    },
@@ -2255,7 +2285,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In relational algebra, Union' slide -- match the key terms.",
     "misconception": "A student who says \"yes, just rename columns\" misses the semantic requirement that corresponding attributes represent the same real-world concept.",
-    "id": "gen_c12_cs_ch04_q8",
+    "id": "gen_c12_cs_ch04_q10",
     "nodeId": "c12_cs_cbse_04_007",
     "difficulty": "standard"
    }
@@ -2267,7 +2297,8 @@ export const C12_CS_GEN: SimDef[] = [
    ]
   },
   "successLine": "Database mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_cs_ch05",
@@ -2712,6 +2743,21 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A classmate argues: “Since SQL is a standard, any SQL code I write in MySQL will run unchanged on PostgreSQL, Oracle, or SQL Server.” Evaluate this claim and justify your position with two concrete examples of MySQL-specific syntax or behaviour that are not portable.",
+    "answer": "The claim is false. While core DML (SELECT, INSERT, UPDATE, DELETE) and basic DDL (CREATE TABLE) are largely standard, every RDBMS adds proprietary extensions",
+    "options": [
+     "INSERT INTO Orders (OrderID, CustID, OrderDate, Amount) SELECT n.OrderID, n.CustID, n.OrderDate, n",
+     "SELECT product_name, price AS cost FROM products; or SELECT product_name, price cost FROM products;",
+     "The claim is false. While core DML (SELECT, INSERT, UPDATE, DELETE) and basic DDL (CREATE TABLE) are largely standard, every RDBMS adds proprietary extensions"
+    ],
+    "hint": "Straight from the 'SQL' slide -- match the key terms.",
+    "misconception": "A student who agrees with the claim has not encountered dialect differences — a major pitfall in competitive exams where “write a query that works on any RDBMS” is a common constraint.",
+    "id": "gen_c12_cs_ch05_q13",
+    "nodeId": "c12_cs_cbse_05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast the storage implications and use-cases of CHAR(10) versus VARCHAR(10) for a column that stores Indian mobile numbers (always exactly 10 digits). Which would you choose and why?",
     "answer": "CHAR(10) always stores exactly 10 characters, padding with spaces if the input is shorter — wasteful for fixed-length data like mobile numbers where every entry is exactly 10",
     "options": [
@@ -2721,7 +2767,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'SQL' slide -- match the key terms.",
     "misconception": "A student who picks VARCHAR “to save space” shows they don’t understand the fixed-length nature of the data and the trade-off between length-prefix overhead and fixed-width performance.",
-    "id": "gen_c12_cs_ch05_q13",
+    "id": "gen_c12_cs_ch05_q14",
     "nodeId": "c12_cs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2736,7 +2782,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'SQL' slide -- match the key terms.",
     "misconception": "A poor answer might omit primary keys, use VARCHAR for adm_no, or forget NOT NULL on mandatory columns. This reveals inability to translate a real-world scenario into relational structure — the core competency for board case-study questions.",
-    "id": "gen_c12_cs_ch05_q14",
+    "id": "gen_c12_cs_ch05_q15",
     "nodeId": "c12_cs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2751,7 +2797,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'SQL' slide -- match the key terms.",
     "misconception": "this misconception leads to schema designs that allow garbage data and slow queries.",
-    "id": "gen_c12_cs_ch05_q15",
+    "id": "gen_c12_cs_ch05_q16",
     "nodeId": "c12_cs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2766,7 +2812,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'SQL' slide -- match the key terms.",
     "misconception": "A wrong answer such as “SQL is the software and MySQL is the language” reveals the student has confused the specification with the implementation — a classic Category Error that leads to writing “MySQL queries” when they mean “SQL queries” and causes confusion when switching to PostgreSQL or SQLite later.",
-    "id": "gen_c12_cs_ch05_q16",
+    "id": "gen_c12_cs_ch05_q17",
     "nodeId": "c12_cs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2781,23 +2827,8 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'SQL' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: CREATE DATABASE school_fest; USE school_fest; CREATE TABLE participants ( pid INT, name VARCHAR(30), class INT, phone",
-    "id": "gen_c12_cs_ch05_q17",
-    "nodeId": "c12_cs_cbse_05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student writes: ALTER TABLE Student DROP COLUMN RollNo; but gets an error: \"ERROR 1091 (42000): Can't DROP 'RollNo'; check that column/key exists\". The column RollNo exists and is a PRIMARY KEY. Why did the error occur, and how to fix it?",
-    "answer": "The error occurs because MySQL does not allow dropping a column that is part of a PRIMARY KEY (or any index) directly",
-    "options": [
-     "SELECT UPPER(name) AS student_name, YEAR(dob) AS birth_year FROM STUDENT; Steps: (1) Identify columns name and dob",
-     "The query is incorrect because it compares each student's marks to the overall average across all classes, not their own class",
-     "The error occurs because MySQL does not allow dropping a column that is part of a PRIMARY KEY (or any index) directly"
-    ],
-    "hint": "Straight from the 'DDL  commands' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"column doesn't exist\" or \"use DELETE\" shows ignorance of constraint dependency. This is a classic board exam trap: DDL operations on constrained columns require constraint removal first.",
     "id": "gen_c12_cs_ch05_q18",
-    "nodeId": "c12_cs_cbse_05_002",
+    "nodeId": "c12_cs_cbse_05_001",
     "difficulty": "standard"
    }
   ],
@@ -3396,12 +3427,14 @@ export const C12_CS_GEN: SimDef[] = [
   "subject": "computer science",
   "topic": "Function In Python",
   "chapters": [
+   "Computer Science Ch8: Function In Python",
    "Computer Science Ch9: Function In Python"
   ],
   "nodeIds": [
    "c12_cs_cbse_09_001",
    "c12_cs_cbse_09_002",
    "c12_cs_cbse_09_003",
+   "c12_cs_cbse_08_004",
    "c12_cs_cbse_09_004",
    "c12_cs_cbse_09_005",
    "c12_cs_cbse_09_006",
@@ -3446,6 +3479,12 @@ export const C12_CS_GEN: SimDef[] = [
     "text": "In Python, a parameter is a variable listed in the function definition that receives a value when the function is called; an argument is the actual value passed during the call.",
     "emoji": "💻",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Infix To Postfix Conversion",
+    "text": "Infix to Postfix conversion is a stack-based algorithm that transforms an arithmetic expression from infix notation (operators between operands, e.",
+    "emoji": "💻",
+    "bgColor": "from-indigo-400 to-blue-500"
    },
    {
     "title": "Keyword Arguments Allow Passing Values To",
@@ -3640,18 +3679,80 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A student writes the postfix of A + B * C ^ D - E as ABCD^*+E-. Is this correct? If not, identify the exact error and give the correct postfix.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Verdict",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Meeting the minus",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The trace",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The logic",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer claiming the conversion is incorrect reveals misunderstanding of the precedence hierarchy or of associativity.",
+    "id": "gen_c12_cs_ch09_q4",
+    "nodeId": "c12_cs_cbse_08_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are writing a calculator app that evaluates expressions like \"3 + 4 * 2 / (1 - 5)^2\".",
+     "The CPU cannot directly understand infix because it needs to know which operation to do first — but postfix makes evaluation trivial: just scan",
+     "So how do we automatically convert infix to postfix?",
+     "We'll use a stack as a \"holding area\" for operators."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What is the output of the following code? def demo(a, b=10, *args, kwargs): print(f\"a={a}, b={b}, args={args}, kwargs={kwargs}\") demo(1, 2, 3, 4, x=5, y=6)",
     "answer": "Correct output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}",
     "options": [
      "A function encapsulates a specific task into a named, reusable unit that can be called with different inputs, avoiding code duplication",
      "lambda x, y: x + y A wrong answer like lambda x, y { return x + y } reveals the student thinks lambdas use block syntax like def",
-     "Adding output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}",
      "Correct output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}"
     ],
     "hint": "Straight from the 'Keyword arguments allow passing' slide -- match the key terms.",
     "misconception": "A wrong answer like a=1, b=10, args=(2, 3, 4)... reveals the student thinks default parameters are skipped when extra positional arguments exist — they don't realize positional arguments fill parameters left-to-right before *args collects leftovers.",
-    "id": "gen_c12_cs_ch09_q4",
+    "id": "gen_c12_cs_ch09_q5",
     "nodeId": "c12_cs_cbse_09_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -3672,7 +3773,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Variable scope in Python defines' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Output: 20. The inner function has no local x, so Python looks in the enclosing scope (outer) and finds x = 20.",
-    "id": "gen_c12_cs_ch09_q5",
+    "id": "gen_c12_cs_ch09_q6",
     "nodeId": "c12_cs_cbse_09_005",
     "difficulty": "standard",
     "workedExample": [
@@ -3746,7 +3847,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer using global count would create a single module-level counter shared by all counters, breaking independence — a classic competitive-exam trap.",
-    "id": "gen_c12_cs_ch09_q6",
+    "id": "gen_c12_cs_ch09_q7",
     "nodeId": "c12_cs_cbse_09_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -3767,7 +3868,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python function returns a value' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., thinking result is N/A or that the function prints 42) reveals the student confuses print with return or does not understand that return passes a value back to the assignment.",
-    "id": "gen_c12_cs_ch09_q7",
+    "id": "gen_c12_cs_ch09_q8",
     "nodeId": "c12_cs_cbse_09_007",
     "difficulty": "standard",
     "workedExample": [
@@ -3788,7 +3889,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'recursive function in Python' slide -- match the key terms.",
     "misconception": "If a student omits the base case or describes it as \"the last call\", they confuse the base case with the final recursive call; the base case must be a non‑recursive return.",
-    "id": "gen_c12_cs_ch09_q8",
+    "id": "gen_c12_cs_ch09_q9",
     "nodeId": "c12_cs_cbse_09_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -3809,7 +3910,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'lambda function in Python' slide -- match the key terms.",
     "misconception": "A wrong answer like lambda x, y { return x + y } reveals the student thinks lambdas use block syntax like def. Another error lambda x, y -> x + y shows confusion with arrow syntax from other languages. The correct form uses a colon and a single expression without return.",
-    "id": "gen_c12_cs_ch09_q9",
+    "id": "gen_c12_cs_ch09_q10",
     "nodeId": "c12_cs_cbse_09_009",
     "difficulty": "standard",
     "workedExample": [
@@ -3830,7 +3931,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'user-defined module in Python' slide -- match the key terms.",
     "misconception": "A wrong answer like \".pyc\" or \"the folder name\" reveals the student confuses compiled bytecode files or packages with modules.",
-    "id": "gen_c12_cs_ch09_q10",
+    "id": "gen_c12_cs_ch09_q11",
     "nodeId": "c12_cs_cbse_09_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -3851,7 +3952,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python Standard Library provides' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Output is 1.0 (within floating-point precision). A student might expect exactly 1.",
-    "id": "gen_c12_cs_ch09_q11",
+    "id": "gen_c12_cs_ch09_q12",
     "nodeId": "c12_cs_cbse_09_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -3872,7 +3973,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python package' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it must contain at least one .py file\" or \"it must have a setup.py\") reveals the student confuses a package with a mere collection of modules or a distributable project. The presence of init.py is the defining marker for regular packages (pre-PEP 420).",
-    "id": "gen_c12_cs_ch09_q12",
+    "id": "gen_c12_cs_ch09_q13",
     "nodeId": "c12_cs_cbse_09_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -3881,6 +3982,21 @@ export const C12_CS_GEN: SimDef[] = [
      "Instead, you create a directory school with an init.py file, and inside it subdirectories academics and admin each with their own init.py and modules.",
      "This hierarchy lets you write from school.academics import students — clean, scalable, and professional."
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "A student writes the postfix of A + B * C ^ D - E as ABCD^*+E-. Is this correct? If not, identify the exact error and give the correct postfix.",
+    "answer": "(1) Verdict — the student's postfix ABCD^*+E- is correct, (2) The trace — A is output, plus is pushed, B is output, star is pushed above plus, C is output",
+    "options": [
+     "Example scenario: A school library system needs to print book checkout receipts. def print_checkout_receipt(book_title",
+     "def divmod_custom(a, b): return a // b, a % b # returns a tuple q, r = divmod_custom(17, 5) print(q, r) # 3 2 A student who writes return a // b",
+     "(1) Verdict — the student's postfix ABCD^*+E- is correct, (2) The trace — A is output, plus is pushed, B is output, star is pushed above plus, C is output"
+    ],
+    "hint": "Straight from the 'Infix to Postfix conversion' slide -- match the key terms.",
+    "misconception": "A wrong answer claiming the conversion is incorrect reveals misunderstanding of the precedence hierarchy or of associativity.",
+    "id": "gen_c12_cs_ch09_q14",
+    "nodeId": "c12_cs_cbse_08_004",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -3893,7 +4009,22 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'function in Python' slide -- match the key terms.",
     "misconception": "A wrong answer that suggests copying the code block or using a loop shows they don't grasp parameterization and single-responsibility — the function should do ONE thing (grade from average) and take exactly what it needs.",
-    "id": "gen_c12_cs_ch09_q13",
+    "id": "gen_c12_cs_ch09_q15",
+    "nodeId": "c12_cs_cbse_09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A team of three students is building a library management system. One writes the \"book search\" logic, another writes \"issue book\", another writes \"return book\". They decide to put all code in one giant function run_library(). Evaluate this design decision. What specific problems will arise?",
+    "answer": "This violates modularity: (1) merge conflicts when editing the same function, (2) no reuse — search logic can't be used without running issue/return, (3) debugging is harder",
+    "options": [
+     "def factorial(n): if n == 0: # base case return 1 else: # recursive step return n * factorial(n-1) Trace for factorial(4): - factorial(4) calls 4 * factorial(3) - factorial(3)",
+     "Example scenario: A school library system needs to print book checkout receipts. def print_checkout_receipt(book_title",
+     "This violates modularity: (1) merge conflicts when editing the same function, (2) no reuse — search logic can't be used without running issue/return, (3) debugging is harder"
+    ],
+    "hint": "Straight from the 'function in Python' slide -- match the key terms.",
+    "misconception": "A weak answer (\"it's messy\") lacks specificity — the student must articulate why monolithic functions hurt collaboration and maintenance.",
+    "id": "gen_c12_cs_ch09_q16",
     "nodeId": "c12_cs_cbse_09_001",
     "difficulty": "standard"
    },
@@ -3904,12 +4035,11 @@ export const C12_CS_GEN: SimDef[] = [
     "options": [
      "In Snippet A, x is never assigned inside f, so it is a free variable resolved via LEGB to the global x = 10",
      "Snippet A (global): inner modifies the module-level x. Output: outer: 20 (outer's local x unchanged), global: 30",
-     "Python Programming: both are called by name with parentheses and arguments, and both return a value (or N/A)",
      "Similarity: both are called by name with parentheses and arguments, and both return a value (or N/A)"
     ],
     "hint": "Straight from the 'function in Python' slide -- match the key terms.",
     "misconception": "A wrong answer like \"built-ins are faster\" or \"user-defined functions can't return values\" reveals confusion about origin vs. capability — both can do the same things; the difference is who wrote them and for what purpose.",
-    "id": "gen_c12_cs_ch09_q14",
+    "id": "gen_c12_cs_ch09_q17",
     "nodeId": "c12_cs_cbse_09_001",
     "difficulty": "standard"
    },
@@ -3918,59 +4048,14 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "Design a new real-world scenario (not bakery, not marks) where a function would be useful. Specify: (a) the task, (b) inputs, (c) output, (d) why a function is better than inline code. Write the function signature.",
     "answer": "Example: Auto-rickshaw fare calculator. (a) Task: compute fare from distance. (b) Input: distance_km (float)",
     "options": [
+     "Example scenario: A school library system needs to print book checkout receipts. def print_checkout_receipt(book_title",
      "Correct evaluation: The error is area (missing parentheses) on the last line. This is a valid expression that evaluates to the function object itself but does not call it",
-     "This violates modularity: (1) merge conflicts when editing the same function, (2) no reuse — search logic can't be used without running issue/return, (3) debugging is harder",
      "Example: Auto-rickshaw fare calculator. (a) Task: compute fare from distance. (b) Input: distance_km (float)"
     ],
     "hint": "Straight from the 'function in Python' slide -- match the key terms.",
     "misconception": "A poor answer gives a trivial task (e.g., \"add two numbers\") or omits why a function helps — the scenario must show repeated use with varying inputs and likelihood of change.",
-    "id": "gen_c12_cs_ch09_q15",
-    "nodeId": "c12_cs_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words why \"modularity\" is an advantage of functions, using a real-life analogy (not a coding example).",
-    "answer": "Modularity means breaking a complex problem into independent, manageable pieces — like a kitchen where separate chefs handle starters, mains, and desserts",
-    "options": [
-     "Lambda functions can only contain a single expression, not statements like if/else blocks. The correct way is to use a conditional expression: lambda x: x if x > 0 else -x",
-     "First import: Python searches sys.path, finds mymodule.py, executes its top-level code (creating functions, classes, variables), and stores the module object in sys",
-     "Modularity means breaking a complex problem into independent, manageable pieces — like a kitchen where separate chefs handle starters, mains, and desserts"
-    ],
-    "hint": "Straight from the 'function in Python' slide -- match the key terms.",
-    "misconception": "A wrong answer that only says \"code becomes shorter\" misses the independence and isolation aspect — modularity is about structure, not just length.",
-    "id": "gen_c12_cs_ch09_q16",
-    "nodeId": "c12_cs_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary purpose of a function in Python, and how does it differ from simply writing the same code multiple times?",
-    "answer": "A function encapsulates a specific task into a named, reusable unit that can be called with different inputs, avoiding code duplication",
-    "options": [
-     "A recursive function is a function that calls itself to solve a problem by dividing it into smaller sub‑problems of the same type",
-     "def calculate_gst(): \"\"\"Calculate GST at 18%\"\"\" # function body here A wrong answer like function calculate_gst(): or def calculate_gst (missing parentheses and colon) reveals the",
-     "A function encapsulates a specific task into a named, reusable unit that can be called with different inputs, avoiding code duplication"
-    ],
-    "hint": "Straight from the 'function in Python' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"functions make code run faster\" or \"functions are only for math\") reveals the student confuses functions with performance optimization or mathematical functions, missing the core idea of abstraction and reuse.",
-    "id": "gen_c12_cs_ch09_q17",
-    "nodeId": "c12_cs_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student writes this code to calculate the area of a rectangle: def area(): length = 10 width = 5 print(length * width) area They run it and see no output. Evaluate the code: identify the exact error, explain why it produces no error message but also no output, and provide the corrected code.",
-    "answer": "Correct evaluation: The error is area (missing parentheses) on the last line. This is a valid expression that evaluates to the function object itself but does not call it",
-    "options": [
-     "from datetime import datetime def log_event(event_type, *messages, timestamp=N/A, metadata): if timestamp is N/A: timestamp = datetime",
-     "def make_counter(): n = 0 def counter(): nonlocal n n += 1 return n return counter Steps: 1) Create n in make_counter's local scope",
-     "Correct evaluation: The error is area (missing parentheses) on the last line. This is a valid expression that evaluates to the function object itself but does not call it"
-    ],
-    "hint": "Straight from the 'Python function' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"indentation error\" or \"missing return\" shows the student doesn't distinguish between a function reference and a function call, and doesn't realize that missing () is syntactically legal but semantically wrong.",
     "id": "gen_c12_cs_ch09_q18",
-    "nodeId": "c12_cs_cbse_09_002",
+    "nodeId": "c12_cs_cbse_09_001",
     "difficulty": "standard"
    }
   ],
@@ -4687,15 +4772,15 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the fundamental difference between a text file and a binary file in terms of how data is stored and interpreted by Python?",
-    "answer": "A text file stores data as encoded characters (e.g., UTF-8, ASCII) where each byte or byte-sequence represents a human-readable character",
+    "question": "Evaluate this statement: \"Since binary files are more compact and faster, we should always use binary mode for all file operations in Python.\" Defend or refute with at least three concrete arguments.",
+    "answer": "Refute. Arguments: (1) Human readability & debugging: text files (logs, config, CSV) can be inspected/edited with Notepad, vi, Excel — critical for maintenance",
     "options": [
-     "'r+' raises FileNotFoundError because it requires the file to exist. 'w+' creates a new file (or truncates if it exists)",
-     "In binary mode, seek(0, 2) moves the pointer to the end of the file; tell() returns the file size in bytes",
-     "A text file stores data as encoded characters (e.g., UTF-8, ASCII) where each byte or byte-sequence represents a human-readable character"
+     "pickle produces a binary byte stream that may contain null bytes, non‑ASCII bytes, and byte sequences that are not valid text encodings",
+     "writelines() does not insert newline characters; it writes each string exactly as given. Since the strings in lines lack \\n, they are concatenated without separation",
+     "Refute. Arguments: (1) Human readability & debugging: text files (logs, config, CSV) can be inspected/edited with Notepad, vi, Excel — critical for maintenance"
     ],
     "hint": "Straight from the 'File handling' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"text files are .txt and binary files are .dat\") reveals the student confuses file extension with storage format — the same file can be opened in either mode, but interpretation differs.",
+    "misconception": "A student who agrees ignores real-world software engineering constraints.",
     "id": "gen_c12_cs_ch10_q18",
     "nodeId": "c12_cs_cbse_10_001",
     "difficulty": "standard"
@@ -5554,6 +5639,21 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student receives an email claiming to be from \"CBSE Board\" with sender address \"cbse.results@gov.in.biz\" and subject \"URGENT: Your Class 12 Marksheet Error - Click to Correct\".",
+    "answer": "Correct indicators: (1) Sender domain \"gov.in.biz\" is a subdomain of \"biz\" — not the official \"gov",
+    "options": [
+     "Demonstration outline: 1. Enable IP forwarding: echo 1 > /proc/sys/net/ipv4/ip_forward (Linux) — makes attacker a router",
+     "The claim is flawed. Even if roll numbers alone seem low-risk, HTTP exposes metadata (timestamps, IP addresses",
+     "Correct indicators: (1) Sender domain \"gov.in.biz\" is a subdomain of \"biz\" — not the official \"gov"
+    ],
+    "hint": "Straight from the 'Phishing' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"the email has spelling mistakes\" reveals the student relies on superficial cues rather than structural domain analysis — they would miss sophisticated phishing with perfect grammar but malicious domains.",
+    "id": "gen_c12_cs_ch12_q9",
+    "nodeId": "c12_cs_cbse_12_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast these two scenarios: (A) A classmate posts one rude comment on your photo: \"You look stupid.\" (B) For three weeks, multiple anonymous accounts post daily insults on all your posts, create memes mocking your disability, and threaten to share morphed images.",
     "answer": "Scenario B is cyberbullying: repetition (daily for weeks), power imbalance (anonymous mob vs single target, disability targeting), intent to harm (threats, morphed images)",
     "options": [
@@ -5563,7 +5663,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Phishing' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Scenario B is cyberbullying: repetition (daily for weeks), power imbalance (anonymous mob vs single target, disability",
-    "id": "gen_c12_cs_ch12_q9",
+    "id": "gen_c12_cs_ch12_q10",
     "nodeId": "c12_cs_cbse_12_003",
     "difficulty": "standard"
    },
@@ -5578,7 +5678,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Eavesdropping' slide -- match the key terms.",
     "misconception": "A poor answer that suggests using Wireshark alone misses the active ARP poisoning step; one that says \"use Ettercap\" violates the \"no specialized frameworks\" constraint.",
-    "id": "gen_c12_cs_ch12_q10",
+    "id": "gen_c12_cs_ch12_q11",
     "nodeId": "c12_cs_cbse_12_004",
     "difficulty": "standard"
    },
@@ -5593,7 +5693,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Data protection and privacy in' slide -- match the key terms.",
     "misconception": "A student who agrees with the admin misses that privacy risk emerges from data combination, not single fields — a classic competitive-exam trap.",
-    "id": "gen_c12_cs_ch12_q11",
+    "id": "gen_c12_cs_ch12_q12",
     "nodeId": "c12_cs_cbse_12_007",
     "difficulty": "standard"
    },
@@ -5608,7 +5708,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Open Source Software' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Both have the same patent terms\") indicates lack of awareness of Apache's explicit patent provisions.",
-    "id": "gen_c12_cs_ch12_q12",
+    "id": "gen_c12_cs_ch12_q13",
     "nodeId": "c12_cs_cbse_12_010",
     "difficulty": "advanced"
    },
@@ -5623,7 +5723,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ethical hacking' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement fails to evaluate the ethical and legal dimensions that differentiate hacking types.",
-    "id": "gen_c12_cs_ch12_q13",
+    "id": "gen_c12_cs_ch12_q14",
     "nodeId": "c12_cs_cbse_12_011",
     "difficulty": "standard"
    },
@@ -5638,7 +5738,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ethical hacking' slide -- match the key terms.",
     "misconception": "A poor answer that ignores legal/ethical concerns or suggests grey hats are a viable alternative shows failure to create a balanced analysis.",
-    "id": "gen_c12_cs_ch12_q14",
+    "id": "gen_c12_cs_ch12_q15",
     "nodeId": "c12_cs_cbse_12_011",
     "difficulty": "standard"
    }

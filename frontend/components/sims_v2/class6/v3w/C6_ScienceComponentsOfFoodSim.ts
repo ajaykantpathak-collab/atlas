@@ -10,7 +10,7 @@ export const w_c6_sciencecomponentsoffoodsim: SimDef = {
     subtitle: 'This node covers the definition and components of a balanced diet within the context of.',
     classLevel: 6, subject: 'science', topic: 'What is a Balanced Diet?',
     chapters: [],
-    nodeIds: ['c6_biology_ch09_007', 'c6_biology_ch09_001', 'c6_biology_ch09_003', 'c6_biology_ch09_005', 'c6_biology_ch09_006', 'c6_chemistry_ch05_004', 'c6_chemistry_ch05_007', 'c6_chemistry_ch05_010'],
+    nodeIds: ['c6_biology_ch09_007', 'c6_biology_ch09_001', 'c6_biology_ch09_003', 'c6_biology_ch09_005', 'c6_biology_ch09_006', 'c6_chemistry_ch05_004', 'c6_chemistry_ch05_007', 'c6_chemistry_ch05_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Think about how you feel after eating a heavy meal of just sweets versus a meal with dal, roti, and.', goal: 'Master Components Of Food.' },
     discovery: {

@@ -8,7 +8,7 @@ export const c6_english_ch05_p1: SimDef = {
     subtitle: 'This node covers the purpose and structure of letter-writing within the prose "A Homage.',
     classLevel: 6, subject: 'english', topic: 'Bravehearts · Part 1/2',
     chapters: ['c6_english_ch05'],
-    nodeIds: ['c6_english_u5_041', 'c6_english_u5_042', 'c6_english_u5_043', 'c6_english_u5_044', 'c6_english_u5_045', 'c6_english_u5_046'],
+    nodeIds: ['c6_english_u5_041', 'c6_english_u5_042', 'c6_english_u5_043', 'c6_english_u5_044', 'c6_english_u5_047', 'c6_english_u5_049'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever received a handwritten note or a personal message from a friend that felt more special than.', goal: 'Master every idea in this chapter.' },

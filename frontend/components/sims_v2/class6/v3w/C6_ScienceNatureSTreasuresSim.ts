@@ -10,7 +10,7 @@ export const w_c6_sciencenaturestreasuressim: SimDef = {
     subtitle: 'This node covers the philosophy and practice of using nature as an environment for.',
     classLevel: 6, subject: 'science', topic: 'Nature as Our Laboratory',
     chapters: [],
-    nodeIds: ['c6_physics_ch02_006', 'c6_physics_ch02_008', 'c6_physics_ch02_009', 'c6_physics_ch01_003', 'c6_physics_ch01_005', 'c6_chemistry_ch04_005', 'c6_physics_ch11_036'],
+    nodeIds: ['c6_physics_ch02_006', 'c6_physics_ch02_008', 'c6_physics_ch02_009', 'c6_physics_ch01_003', 'c6_physics_ch01_001', 'c6_chemistry_ch04_005', 'c6_physics_ch11_036'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why flowers turn toward the sunlight, or why clouds seem to change color just before.', goal: 'Master Nature STreasures.' },
     discovery: {

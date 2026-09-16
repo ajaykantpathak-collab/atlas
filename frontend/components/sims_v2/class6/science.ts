@@ -9,7 +9,7 @@ export const c6PhyCircuits: SimDef = {
     id: 'c6_phy_circuits', title: 'Electric Circuits', subtitle: 'Current, cells, conductors',
     classLevel: 6, subject: 'science', topic: 'Electricity',
     chapters: ['Physics Ch3: Electricity'],
-    nodeIds: ['c6_physics_ch03_011','c6_physics_ch03_012','c6_physics_ch03_013','c6_physics_ch03_014','c6_physics_ch03_015','c6_physics_ch03_016','c6_physics_ch03_017','c6_physics_ch03_018'],
+    nodeIds: ['c6_physics_ch03_011','c6_physics_ch03_012','c6_physics_ch03_013','c6_physics_ch03_014','c6_physics_ch03_015','c6_physics_ch03_016','c6_physics_ch03_017'],
     emoji: '⚡', theme: { bg: 'from-yellow-100 to-amber-200', accent: 'yellow', scene: 'circuits' },
     scenario: { role: "a young electrician", intro: "A circuit is a complete path for electricity — break it and the bulb goes out.", goal: "Build and understand circuits." },
     discovery: {
@@ -79,7 +79,7 @@ export const c6PhyHeat: SimDef = {
     id: 'c6_phy_heat', title: 'Heat', subtitle: 'Conduction, convection, radiation',
     classLevel: 6, subject: 'science', topic: 'Heat',
     chapters: ['Physics Ch7: Heat'],
-    nodeIds: ['c6_physics_ch07_019','c6_physics_ch07_020','c6_physics_ch07_021','c6_physics_ch07_022','c6_physics_ch07_023','c6_physics_ch07_024','c6_physics_ch07_025','c6_physics_ch07_026'],
+    nodeIds: ['c6_physics_ch07_019','c6_physics_ch07_020','c6_physics_ch07_021','c6_physics_ch07_022','c6_physics_ch07_023','c6_physics_ch07_024','c6_physics_ch07_025'],
     emoji: '🔥', theme: { bg: 'from-red-100 to-orange-200', accent: 'red', scene: 'heat' },
     scenario: { role: "a heat-investigator", intro: "Heat travels three ways — through solids, liquids, and empty space — warming our world.", goal: "Understand how heat moves." },
     discovery: {
@@ -138,7 +138,7 @@ export const c6PhyMotion: SimDef = {
     id: 'c6_phy_motion', title: 'Motion & Time', subtitle: 'Speed and measurement',
     classLevel: 6, subject: 'science', topic: 'Motion',
     chapters: ['Physics Ch8: Motion'],
-    nodeIds: ['c6_physics_ch08_027','c6_physics_ch08_028','c6_physics_ch08_029','c6_physics_ch08_030','c6_physics_ch08_031','c6_physics_ch08_032','c6_physics_ch08_033','c6_physics_ch08_034'],
+    nodeIds: ['c6_physics_ch08_027','c6_physics_ch08_029','c6_physics_ch08_030','c6_physics_ch08_031','c6_physics_ch08_033'],
     emoji: '🏃', theme: { bg: 'from-sky-100 to-cyan-200', accent: 'sky', scene: 'motion' },
     scenario: { role: "a race-timer", intro: "Speed is distance over time — and motion can be steady (uniform) or changing (non-uniform).", goal: "Measure speed and motion." },
     discovery: {
@@ -192,7 +192,7 @@ export const c6PhyLight: SimDef = {
     id: 'c6_phy_light', title: 'Light & Shadows', subtitle: 'Rectilinear propagation',
     classLevel: 6, subject: 'science', topic: 'Light',
     chapters: ['Physics Ch11: Light'],
-    nodeIds: ['c6_physics_ch11_035','c6_physics_ch11_036','c6_physics_ch11_037','c6_physics_ch11_038','c6_physics_ch11_039','c6_physics_ch11_040','c6_physics_ch11_041','c6_physics_ch11_042','c6_physics_ch11_043','c6_physics_ch11_044'],
+    nodeIds: ['c6_physics_ch11_035','c6_physics_ch11_036','c6_physics_ch11_037','c6_physics_ch11_038','c6_physics_ch11_039','c6_physics_ch11_040'],
     emoji: '💡', theme: { bg: 'from-yellow-100 to-amber-200', accent: 'yellow', scene: 'light' },
     scenario: { role: "a light-investigator", intro: "Light travels in straight lines — that's why shadows form and mirrors reflect.", goal: "Understand how light behaves." },
     discovery: {
@@ -253,7 +253,7 @@ export const c6PhyEarth: SimDef = {
     id: 'c6_phy_earth', title: 'Earth & Sky', subtitle: 'Day, night, seasons, eclipses',
     classLevel: 6, subject: 'science', topic: 'Earth and Space',
     chapters: ['Physics Ch12: Earth & Sky'],
-    nodeIds: ['c6_physics_ch12_045','c6_physics_ch12_046','c6_physics_ch12_047','c6_physics_ch12_048','c6_physics_ch12_049','c6_physics_ch12_050','c6_physics_ch12_051','c6_physics_ch12_052'],
+    nodeIds: ['c6_physics_ch12_045','c6_physics_ch12_046','c6_physics_ch12_047','c6_physics_ch12_048','c6_physics_ch12_049','c6_physics_ch12_050','c6_physics_ch12_051'],
     emoji: '🌍', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'earth' },
     scenario: { role: "an astronomer", intro: "Earth spins for day and night, orbits the sun for the year — and shadows in space cause eclipses.", goal: "Understand Earth's motions." },
     discovery: {
@@ -304,7 +304,7 @@ export const c6ChemMaterials: SimDef = {
     id: 'c6_chem_materials', title: 'Materials', subtitle: 'Properties & classification',
     classLevel: 6, subject: 'science', topic: 'Materials',
     chapters: ['Chemistry Ch4: Materials'],
-    nodeIds: ['c6_chemistry_ch04_001','c6_chemistry_ch04_002','c6_chemistry_ch04_003','c6_chemistry_ch04_004','c6_chemistry_ch04_005','c6_chemistry_ch04_006','c6_chemistry_ch04_007','c6_chemistry_ch04_008','c6_chemistry_ch04_009','c6_chemistry_ch04_010'],
+    nodeIds: ['c6_chemistry_ch04_001','c6_chemistry_ch04_002','c6_chemistry_ch04_003','c6_chemistry_ch04_005','c6_chemistry_ch04_008','c6_chemistry_ch04_009'],
     emoji: '🧱', theme: { bg: 'from-stone-100 to-slate-200', accent: 'stone', scene: 'materials' },
     scenario: { role: "a materials-scientist", intro: "Everything is made of materials — metals, non-metals — each with properties that decide its use.", goal: "Classify materials by their properties." },
     discovery: {
@@ -366,7 +366,7 @@ export const c6ChemChanges: SimDef = {
     id: 'c6_chem_changes', title: 'Changes Around Us', subtitle: 'Physical vs chemical',
     classLevel: 6, subject: 'science', topic: 'Changes',
     chapters: ['Chemistry Ch5: Changes'],
-    nodeIds: ['c6_chemistry_ch05_001','c6_chemistry_ch05_002','c6_chemistry_ch05_003','c6_chemistry_ch05_004','c6_chemistry_ch05_005','c6_chemistry_ch05_006','c6_chemistry_ch05_007','c6_chemistry_ch05_008','c6_chemistry_ch05_009','c6_chemistry_ch05_010'],
+    nodeIds: ['c6_chemistry_ch05_001','c6_chemistry_ch05_002','c6_chemistry_ch05_003','c6_chemistry_ch05_004','c6_chemistry_ch05_005','c6_chemistry_ch05_006','c6_chemistry_ch05_007','c6_chemistry_ch05_008'],
     emoji: '🔄', theme: { bg: 'from-teal-100 to-cyan-200', accent: 'teal', scene: 'changes' },
     scenario: { role: "a change-detective", intro: "Changes happen everywhere — some are physical (reversible), some chemical (new substance forms).", goal: "Tell physical from chemical changes." },
     discovery: {
@@ -498,7 +498,7 @@ export const c6BioPlants: SimDef = {
     id: 'c6_bio_plants', title: 'How Plants Live', subtitle: 'Photosynthesis & growth',
     classLevel: 6, subject: 'science', topic: 'Plant Life',
     chapters: ['Biology Ch10: Plants'],
-    nodeIds: ['c6_biology_ch10_001','c6_biology_ch10_002','c6_biology_ch10_003','c6_biology_ch10_004','c6_biology_ch10_005','c6_biology_ch10_006','c6_biology_ch10_007'],
+    nodeIds: ['c6_biology_ch10_001','c6_biology_ch10_002','c6_biology_ch10_003'],
     emoji: '🌱', theme: { bg: 'from-green-100 to-emerald-200', accent: 'green', scene: 'plants' },
     scenario: { role: "a botanist", intro: "Plants make their own food from sunlight, move water through hidden tubes, and reproduce from seeds.", goal: "Understand how plants live." },
     discovery: {
@@ -554,7 +554,7 @@ export const c6PhyScience: SimDef = {
     id: 'c6_phy_science', title: 'Doing Science', subtitle: 'Observe, test, conclude',
     classLevel: 6, subject: 'science', topic: 'Scientific Method',
     chapters: ['Physics Ch1-2: Science'],
-    nodeIds: ['c6_physics_ch01_001','c6_physics_ch01_002','c6_physics_ch01_003','c6_physics_ch01_004','c6_physics_ch01_005','c6_physics_ch02_006','c6_physics_ch02_007','c6_physics_ch02_008','c6_physics_ch02_009','c6_physics_ch02_010'],
+    nodeIds: ['c6_physics_ch01_001','c6_physics_ch01_002','c6_physics_ch01_003','c6_physics_ch01_004','c6_physics_ch02_006','c6_physics_ch02_008','c6_physics_ch02_009','c6_physics_ch02_010'],
     emoji: '🔬', theme: { bg: 'from-cyan-100 to-blue-200', accent: 'cyan', scene: 'science' },
     scenario: { role: "a young scientist", intro: "Science is a way of asking questions — observe, guess, test, and conclude.", goal: "Learn how science works." },
     discovery: {
@@ -664,7 +664,7 @@ export const c6BioAdolescence: SimDef = {
     id: 'c6_bio_adolescence', title: 'Growing Up', subtitle: 'Adolescence & change',
     classLevel: 6, subject: 'science', topic: 'Adolescence',
     chapters: ['Biology Ch6: Adolescence'],
-    nodeIds: ['c6_biology_ch06_001','c6_biology_ch06_002','c6_biology_ch06_003','c6_biology_ch06_004','c6_biology_ch06_005','c6_biology_ch06_006','c6_biology_ch06_007','c6_biology_ch06_008'],
+    nodeIds: ['c6_biology_ch06_001','c6_biology_ch06_002','c6_biology_ch06_003','c6_biology_ch06_004','c6_biology_ch06_005','c6_biology_ch06_008'],
     emoji: '🌱', theme: { bg: 'from-green-100 to-teal-200', accent: 'green', scene: 'adolescence' },
     scenario: { role: "a growing-body expert", intro: "Adolescence is the journey from child to adult — the body changes, hormones drive it, and health matters.", goal: "Understand growing up." },
     discovery: {

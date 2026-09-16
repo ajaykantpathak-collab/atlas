@@ -356,6 +356,21 @@ export const C7_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A weaver has 4 metres of cotton cloth and needs 2 kilograms of pulses. A pulse farmer has 5 kilograms of pulses and needs cloth. If they agree to trade 4 metres of cloth for 2 kilograms of pulses, how many kilograms of pulses does the weaver receive per metre of cloth?",
+    "answer": "Steps: 1. Identify total pulses received (2 kg) and total cloth given (4 metres). 2. Set up the ratio of pulses to cloth: 2 kg / 4 metres",
+    "options": [
+     "Steps: 1. Identify Rohan's supply (rice) and demand (sugarcane). 2. Identify Priya's supply (sugarcane) and demand (cotton)",
+     "Expected criteria: Step 1: Dairy farmer takes milk to the potter who wants milk in exchange for a pot",
+     "Steps: 1. Identify total pulses received (2 kg) and total cloth given (4 metres). 2. Set up the ratio of pulses to cloth: 2 kg / 4 metres"
+    ],
+    "hint": "Straight from the 'barter system' slide -- match the key terms.",
+    "misconception": "A wrong answer like 2 kg per metre reveals that the student confused total quantity with the unit rate of exchange.",
+    "id": "gen_c7_eco_ch01_q11",
+    "nodeId": "c7_eco_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Analyze the difference between a modern vegetable market transaction and a barter exchange. Which variable is completely missing in a pure barter exchange?",
     "answer": "In a pure barter exchange, the price expressed in monetary units (such as Indian Rupees) is completely missing, and instead, physical ratios of commodities are used",
     "options": [
@@ -365,7 +380,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'barter system' slide -- match the key terms.",
     "misconception": "A wrong answer claiming that \"buyers and sellers are missing\" shows confusion because buyers and sellers exist in both systems; only the medium of exchange differs.",
-    "id": "gen_c7_eco_ch01_q11",
+    "id": "gen_c7_eco_ch01_q12",
     "nodeId": "c7_eco_ch01_001",
     "difficulty": "standard"
    },
@@ -380,7 +395,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'barter system' slide -- match the key terms.",
     "misconception": "A poor answer introduces currency or fails to show physical items being exchanged directly between parties.",
-    "id": "gen_c7_eco_ch01_q12",
+    "id": "gen_c7_eco_ch01_q13",
     "nodeId": "c7_eco_ch01_001",
     "difficulty": "standard"
    },
@@ -395,7 +410,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'barter system' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"the potter can sell pots for digital money\" ignores the premise of a pure barter economy where money does not exist.",
-    "id": "gen_c7_eco_ch01_q13",
+    "id": "gen_c7_eco_ch01_q14",
     "nodeId": "c7_eco_ch01_001",
     "difficulty": "standard"
    },
@@ -410,7 +425,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'barter system' slide -- match the key terms.",
     "misconception": "A wrong answer like \"trading goods for rupees\" reveals a misunderstanding because rupees represent a monetary system, not a barter system.",
-    "id": "gen_c7_eco_ch01_q14",
+    "id": "gen_c7_eco_ch01_q15",
     "nodeId": "c7_eco_ch01_001",
     "difficulty": "standard"
    },
@@ -425,7 +440,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'barter system' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"the farmer uses coins to buy vegetables\" shows the student is confusing the barter system with a modern monetary economy.",
-    "id": "gen_c7_eco_ch01_q15",
+    "id": "gen_c7_eco_ch01_q16",
     "nodeId": "c7_eco_ch01_001",
     "difficulty": "standard"
    },
@@ -440,36 +455,21 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'double coincidence of wants' slide -- match the key terms.",
     "misconception": "A wrong answer claiming that \"barter becomes faster because people know each other\" ignores the exponential growth of matching problems as the number of specialized goods in an economy increases.",
-    "id": "gen_c7_eco_ch01_q16",
-    "nodeId": "c7_eco_ch01_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the argument: \"The barter system is actually superior to a money-based economy because people exchange real useful goods directly without needing paper currency or banks.\" Is this statement economically sound? Justify your answer.",
-    "answer": "The statement is not economically sound. While barter involves real goods, it severely restricts economic growth, trade volume",
-    "options": [
-     "This is economically unsound for early metallic monetary systems because people trusted coins based partly on the intrinsic value of the precious metal and the difficulty of",
-     "Paper currency allows merchants to transport large sums of capital safely across long distances without hiring heavily guarded wagons for massive coin chests",
-     "The statement is not economically sound. While barter involves real goods, it severely restricts economic growth, trade volume"
-    ],
-    "hint": "Straight from the 'double coincidence of wants' slide -- match the key terms.",
-    "misconception": "A wrong answer agreeing with the statement reveals a failure to recognize transaction costs and the severe inefficiencies of search friction in trade.",
     "id": "gen_c7_eco_ch01_q17",
     "nodeId": "c7_eco_ch01_002",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Rohan has extra rice and wants to trade it for sugarcane. Priya has sugarcane and wants to trade it for cotton. Amit has cotton and wants to trade it for rice. Assuming no other traders are available in the village market, can a successful two-person barter trade happen between Rohan and Priya?",
-    "answer": "Steps: 1. Identify Rohan's supply (rice) and demand (sugarcane). 2. Identify Priya's supply (sugarcane) and demand (cotton)",
+    "question": "Design a hypothetical 3-step trade chain involving a dairy farmer with milk, a potter with clay pots, and a weaver with blankets, where no two people have a direct double coincidence of wants, but trade is successfully achieved through multi-step indirect barter.",
+    "answer": "Expected criteria: Step 1: Dairy farmer takes milk to the potter who wants milk in exchange for a pot",
     "options": [
-     "Steps: 1. Identify the given exchange rates: 50 cowrie shells = 1 iron plough; total cowrie shells = 200",
-     "Expected criteria: Step 1: Dairy farmer takes milk to the potter who wants milk in exchange for a pot",
-     "Steps: 1. Identify Rohan's supply (rice) and demand (sugarcane). 2. Identify Priya's supply (sugarcane) and demand (cotton)"
+     "Steps: 1. Identify the wasted time per failed trade attempt: 3 hours for both parties combined. 2. Identify the number of failed trade attempts: 4 attempts",
+     "Steps: 1. Identify total pulses received (2 kg) and total cloth given (4 metres). 2. Set up the ratio of pulses to cloth: 2 kg / 4 metres",
+     "Expected criteria: Step 1: Dairy farmer takes milk to the potter who wants milk in exchange for a pot"
     ],
     "hint": "Straight from the 'double coincidence of wants' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming they can trade anyway reveals that the student ignored Priya's actual demand for cotton.",
+    "misconception": "A poor answer leaves parties with unwanted goods or fails to resolve the mismatch in desires, showing a lack of understanding of how indirect exchange bridges the gap left by missing double coincidence of wants.",
     "id": "gen_c7_eco_ch01_q18",
     "nodeId": "c7_eco_ch01_002",
     "difficulty": "advanced"
@@ -921,6 +921,21 @@ export const C7_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A local fruit vendor sells apples at ₹100 per kilogram. If a customer buys 3 kilograms of apples and pays with a ₹500 note, how much change should the seller return to the buyer?",
+    "answer": "Step 1: Identify the price per unit (₹100 per kg) and the quantity purchased (3 kg). Step 2: Calculate the total cost by multiplying price by quantity: ₹100 × 3 = ₹300",
+    "options": [
+     "Steps: 1. Identify daily net profit before transport: ₹800. 2. Identify transport cost per market day: ₹200",
+     "The correct answer is C. Step 1: Identify the claimed price per kg (₹90) and the true value per kg (₹60)",
+     "Step 1: Identify the price per unit (₹100 per kg) and the quantity purchased (3 kg). Step 2: Calculate the total cost by multiplying price by quantity: ₹100 × 3 = ₹300"
+    ],
+    "hint": "Straight from the 'Market exchange' slide -- match the key terms.",
+    "misconception": "A student who answers ₹400 has subtracted the quantity from the money instead of calculating the total cost first.",
+    "id": "gen_c7_eco_ch02_q16",
+    "nodeId": "c7_eco_ch02_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple transaction record for a school stationery shop where 2 items are sold to a student, showing the calculation of total revenue for the seller and total expenditure for the buyer.",
     "answer": "A valid response should list Item 1 (e.g., 2 Notebooks at ₹40 each = ₹80) and Item 2 (e.g., 3 Pens at ₹10 each = ₹30), sum them up to show Total Exchange Value = ₹110",
     "options": [
@@ -930,7 +945,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Market exchange' slide -- match the key terms.",
     "misconception": "A poor answer lists items without quantities or prices, or fails to show the mathematical link between units sold and total money transferred.",
-    "id": "gen_c7_eco_ch02_q16",
+    "id": "gen_c7_eco_ch02_q17",
     "nodeId": "c7_eco_ch02_002",
     "difficulty": "advanced"
    },
@@ -945,21 +960,6 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Market exchange' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement fails to understand that exchange is inherently a two-way social and economic interaction.",
-    "id": "gen_c7_eco_ch02_q17",
-    "nodeId": "c7_eco_ch02_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "How does a disagreement over price between a buyer and a seller typically get resolved in an open market?",
-    "answer": "Through a process of negotiation and bargaining where the buyer offers a lower price and the seller counters until they reach an equilibrium price acceptable to both",
-    "options": [
-     "This statement is incorrect because a market exchange requires a bilateral transaction—both a willing buyer and a willing seller",
-     "The statement is false because market exchange is voluntary and mutually beneficial; the buyer gains utility or satisfaction from the good or service acquired",
-     "Through a process of negotiation and bargaining where the buyer offers a lower price and the seller counters until they reach an equilibrium price acceptable to both"
-    ],
-    "hint": "Straight from the 'Market exchange' slide -- match the key terms.",
-    "misconception": "A student who believes the government fixes every single price in a local market ignores how decentralized market forces operate through buyer-seller interaction.",
     "id": "gen_c7_eco_ch02_q18",
     "nodeId": "c7_eco_ch02_002",
     "difficulty": "advanced"
@@ -1498,6 +1498,21 @@ export const C7_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A small manufacturing unit in a rural district of Uttar Pradesh produces 500 units of handmade pottery daily. Due to a poorly maintained dirt road (broken physical infrastructure), delivery trucks take 6 hours to reach the nearest national highway, causing 10% of the pottery to break and delaying shipments.",
+    "answer": "The correct answer is B. Step 1: Identify initial successful deliveries: 90% of 500 units = 450 units (since 10% broke)",
+    "options": [
+     "C) ₹1,000,000 Working steps: 1. Total windmills = 50. 2. Daily output per windmill = 2 MWh. 3. Total daily output = 50 × 2 = 100 MWh",
+     "Steps: 1. Identify the time saved: 7 days - 3 days = 4 days. 2. Identify the daily operating cost: ₹5,000 per day",
+     "The correct answer is B. Step 1: Identify initial successful deliveries: 90% of 500 units = 450 units (since 10% broke)"
+    ],
+    "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates an inability to calculate percentage changes from operational loss data caused by poor infrastructure.",
+    "id": "gen_c7_eco_ch03_q14",
+    "nodeId": "c7_eco_ch03_001",
+    "difficulty": "foundation"
+   },
+   {
+    "type": "mcq",
     "question": "Analyze the economic relationship between physical infrastructure and transportation costs. How does upgrading a regional transport network affect the final market price of agricultural goods?",
     "answer": "The correct answer is B. Upgrading physical infrastructure like roads lowers friction in trade, reducing transportation costs",
     "options": [
@@ -1507,7 +1522,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the misconception that government construction costs directly inflate retail prices, ignoring how lowered transport friction actually decreases operational business expenses.",
-    "id": "gen_c7_eco_ch03_q14",
+    "id": "gen_c7_eco_ch03_q15",
     "nodeId": "c7_eco_ch03_001",
     "difficulty": "foundation"
    },
@@ -1522,7 +1537,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
     "misconception": "A poor answer misclassifies private retail or entertainment as infrastructure, revealing a failure to separate foundational public systems from commercial businesses.",
-    "id": "gen_c7_eco_ch03_q15",
+    "id": "gen_c7_eco_ch03_q16",
     "nodeId": "c7_eco_ch03_001",
     "difficulty": "foundation"
    },
@@ -1537,7 +1552,7 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
     "misconception": "A wrong answer shows a failure to understand that infrastructure is a prerequisite for all other commercial investments, treating private real estate as self-sustaining.",
-    "id": "gen_c7_eco_ch03_q16",
+    "id": "gen_c7_eco_ch03_q17",
     "nodeId": "c7_eco_ch03_001",
     "difficulty": "foundation"
    },
@@ -1552,21 +1567,6 @@ export const C7_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a confusion between physical infrastructure and social infrastructure (Option A) or financial assets (Options C and D), failing to recognize that infrastructure consists of foundational physical assets.",
-    "id": "gen_c7_eco_ch03_q17",
-    "nodeId": "c7_eco_ch03_001",
-    "difficulty": "foundation"
-   },
-   {
-    "type": "mcq",
-    "question": "Why are physical infrastructure components like roads and power supply considered \"foundational\" to an economy rather than regular consumer goods? A) Because they can be bought and sold by individual households in a local market daily B) Because they are temporary structures built only for festive seasons C) Because",
-    "answer": "The correct answer is C. Physical infrastructure provides the essential framework that makes all other economic activities—such as manufacturing, farming",
-    "options": [
-     "The correct answer is B. Upgrading physical infrastructure like roads lowers friction in trade, reducing transportation costs",
-     "Disagree. While roads and electricity are essential physical infrastructure, modern agricultural and rural economic activity relies heavily on digital access for weather updates",
-     "The correct answer is C. Physical infrastructure provides the essential framework that makes all other economic activities—such as manufacturing, farming"
-    ],
-    "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a misunderstanding of how infrastructure differs from everyday consumer goods, often assuming that because roads and power lines are used by everyone, they are traded like daily groceries in a market.",
     "id": "gen_c7_eco_ch03_q18",
     "nodeId": "c7_eco_ch03_001",
     "difficulty": "foundation"

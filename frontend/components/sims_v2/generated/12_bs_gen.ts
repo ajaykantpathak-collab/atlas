@@ -447,6 +447,21 @@ export const C12_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a coordination mechanism for a hospital's Emergency Department, Radiology, and Pharmacy to reduce patient wait times. Your mechanism must address all six characteristics of coordination.",
+    "answer": "Mechanism: (1) Integrates group efforts — daily huddle aligning ED admissions, Radiology slots, Pharmacy stock",
+    "options": [
+     "The system is efficient (less time/resource used) but not effective (wrong attendance means the task — accurate recording — is not achieved). Management must balance both",
+     "Top: Medical Director / CEO / Board of Trustees — Unique function: Define hospital's medical ethics charter, approve capital budget for MRI/CT equipment",
+     "Mechanism: (1) Integrates group efforts — daily huddle aligning ED admissions, Radiology slots, Pharmacy stock"
+    ],
+    "hint": "Straight from the 'Coordination' slide -- match the key terms.",
+    "misconception": "A poor answer lists generic IT solutions without mapping to each characteristic.",
+    "id": "gen_c12_bs_ch01_q16",
+    "nodeId": "c12_bs_cbse_01_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the following two managers in a garment export house: - Manager A: Consistently meets monthly shipment targets but frequently uses air freight (costly) to compensate for production delays.",
     "answer": "Manager A is effective but inefficient (high logistics cost erodes margins). Manager B is efficient on unit cost but ineffective (missed deadlines lead to penalties and lost",
     "options": [
@@ -456,7 +471,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Effectiveness in management' slide -- match the key terms.",
     "misconception": "A student who picks one manager as \"better\" without analysing the trade‑off fails to see that management must integrate both dimensions.",
-    "id": "gen_c12_bs_ch01_q16",
+    "id": "gen_c12_bs_ch01_q17",
     "nodeId": "c12_bs_cbse_01_009",
     "difficulty": "standard"
    }
@@ -709,6 +724,36 @@ export const C12_BS_GEN: SimDef[] = [
      "Start by identifying the three principles at play: the developer's personal interest vs.",
      "Next, apply each principle: subordination says the product launch (general interest) must come first; remuneration says pay must be fair to both"
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the statement: \"Principles of management are outdated in modern flat organisations with empowered employees.\" Use at least three nature/significance points to defend or refute.",
+    "answer": "Correct evaluation: Refute. (1) 'Flexible' and 'contingent' — principles adapt; e.g., Fayol's 'Authority & Responsibility' now means employee empowerment (Then vs",
+    "options": [
+     "The VP’s reasoning is invalid. Fayol states Equity requires \"kindliness and justice\" and \"no discrimination against anyone on account of gender, religion, language, caste",
+     "The flaw is confusing \"stability of positions\" with \"stability of personnel.\" Fayol's principle means selected employees should be kept at their posts for a minimum fixed tenure",
+     "Correct evaluation: Refute. (1) 'Flexible' and 'contingent' — principles adapt; e.g., Fayol's 'Authority & Responsibility' now means employee empowerment (Then vs"
+    ],
+    "hint": "Straight from the 'Principles of management' slide -- match the key terms.",
+    "misconception": "A wrong answer agreeing with the statement ignores the NCERT's explicit 'Then and Now' evolution and the significance of adaptation.",
+    "id": "gen_c12_bs_ch02_q5",
+    "nodeId": "c12_bs_cbse_02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A factory produces steel brackets. The current method requires a worker to: (1) pick up a blank from a bin 2 m away, (2) walk to the press, (3) load the blank, (4) press the pedal, (5) unload the finished bracket, (6) walk to a gauge 3 m away, (7) inspect, (8) walk back to the bin.",
+    "answer": "New sequence: (1) Pick blank from bin placed at press side (eliminates walk to press), (2) Load blank, (3) Press pedal",
+    "options": [
+     "The flaw is confusing \"stability of positions\" with \"stability of personnel.\" Fayol's principle means selected employees should be kept at their posts for a minimum fixed tenure",
+     "The VP’s reasoning is invalid. Fayol states Equity requires \"kindliness and justice\" and \"no discrimination against anyone on account of gender, religion, language, caste",
+     "New sequence: (1) Pick blank from bin placed at press side (eliminates walk to press), (2) Load blank, (3) Press pedal"
+    ],
+    "hint": "Straight from the 'Taylor's Techniques of Scientific' slide -- match the key terms.",
+    "misconception": "A wrong answer that merely reorders steps without relocating bins/gauges shows the student treats Motion Study as scheduling rather than workplace layout redesign.",
+    "id": "gen_c12_bs_ch02_q6",
+    "nodeId": "c12_bs_cbse_02_003",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -735,6 +780,7 @@ export const C12_BS_GEN: SimDef[] = [
    "c12_bs_cbse_03_003",
    "c12_bs_cbse_03_004",
    "c12_bs_cbse_03_006",
+   "c12_bs_cbse_03_007",
    "c12_bs_cbse_03_008",
    "c12_bs_cbse_03_009"
   ],
@@ -772,6 +818,12 @@ export const C12_BS_GEN: SimDef[] = [
     "text": "The political environment refers to the political conditions such as the stability of the government, the attitudes of political parties and leaders towards business, and the extent of government intervention in the economy.",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Economic Liberalisation",
+    "text": "Economic Liberalisation refers to the process of reducing government controls and restrictions on industries, trade, and investment to promote competition, efficiency, and integration with the global economy.",
+    "emoji": "🏢",
+    "bgColor": "from-violet-400 to-purple-500"
    },
    {
     "title": "Demonetisation",
@@ -913,17 +965,80 @@ export const C12_BS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Create a 3-column table: Column A = Pre-1991 Restriction, Column B = 1991 Policy Change, Column C = New Business Opportunity/Threat for a hypothetical Indian consumer durables firm. Fill at least four rows with specific, non-generic entries.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "FDI capped at 40 percent with case-by-case",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Import licensing for components and",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Industrial licence for capacity expansion",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "MRTP Act limit on asset size",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer uses vague entries like less control or more freedom without naming the specific instrument such as licence, MRTP, FDI cap or import licence.",
+    "id": "gen_c12_bs_ch03_q4",
+    "nodeId": "c12_bs_cbse_03_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are the CEO of an Indian car manufacturer in 1990: you need a licence to expand capacity, you cannot import the latest engine technology",
+     "Suddenly, in 1991, the government announces you no longer need a licence for expansion, you can sign technology agreements freely, and foreign",
+     "How do you restructure your strategy?",
+     "Begin by listing the pre-1991 restrictions (licensing, MRTP limits, public sector reservations)."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What were the two specific denominations demonetised on November 8, 2016, and what percentage of currency in circulation by value did they constitute?",
     "answer": "The demonetised denominations were ₹500 and ₹1,000 notes, which together constituted 86% of the total currency in circulation by value",
     "options": [
-     "The pre-1991 model prioritised heavy industry under public sector via import substitution, but neglected export competitiveness and fiscal discipline",
-     "(a) Pre-1991: Public sector received substantial budgetary support (plan outlays, subsidies, soft loans)",
+     "The statement is flawed. Festivals reflect deep‑rooted traditions and values (social environment elements) that shape year‑round consumer psychology",
+     "A legal change (amended Competition Act) creates more immediate operational disruption because it imposes *direct, enforceable obligations* with penalties",
      "The demonetised denominations were ₹500 and ₹1,000 notes, which together constituted 86% of the total currency in circulation by value"
     ],
     "hint": "Straight from the 'Demonetisation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming ₹200 and ₹2,000 or stating 50%) reveals the student has not memorised the basic factual anchor required for every subsequent analysis.",
-    "id": "gen_c12_bs_ch03_q4",
+    "id": "gen_c12_bs_ch03_q5",
     "nodeId": "c12_bs_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -944,7 +1059,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Goods and Services Tax' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"GST increased warehousing costs\" or ignoring the CST credit blockage shows inability to connect tax structure to supply chain decisions — a frequent case-study question in board exams.",
-    "id": "gen_c12_bs_ch03_q5",
+    "id": "gen_c12_bs_ch03_q6",
     "nodeId": "c12_bs_cbse_03_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -965,9 +1080,54 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'economic environment in India' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"privatisation solved all inefficiencies\" ignores the social cost of job losses and the incomplete nature of disinvestment (many PSUs remain government-controlled). This oversimplification fails in 'evaluate' type questions.",
-    "id": "gen_c12_bs_ch03_q6",
+    "id": "gen_c12_bs_ch03_q7",
     "nodeId": "c12_bs_cbse_03_003",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Explain why the pre-1991 Indian economic model, despite achieving self-reliance in heavy industry, led to a balance of payments crisis by 1991. Use at least three specific indicators from the crisis data.",
+    "answer": "The pre-1991 model prioritised heavy industry under public sector via import substitution, but neglected export competitiveness and fiscal discipline",
+    "options": [
+     "The statement is flawed. Festivals reflect deep‑rooted traditions and values (social environment elements) that shape year‑round consumer psychology",
+     "A legal change (amended Competition Act) creates more immediate operational disruption because it imposes *direct, enforceable obligations* with penalties",
+     "The pre-1991 model prioritised heavy industry under public sector via import substitution, but neglected export competitiveness and fiscal discipline"
+    ],
+    "hint": "Straight from the 'economic environment in India' slide -- match the key terms.",
+    "misconception": "A wrong answer that blames only \"corruption\" or \"population\" misses the structural policy failures — import controls stifled export orientation, and public sector monopolies bred inefficiency. This misconception costs marks in long-answer questions requiring policy-economy linkage.",
+    "id": "gen_c12_bs_ch03_q8",
+    "nodeId": "c12_bs_cbse_03_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Critique the statement: \"Celebration of festivals like Diwali and Eid is only a short‑term sales spike; it does not require any strategic change in business operations.\" Use at least two social environment concepts from NCERT.",
+    "answer": "The statement is flawed. Festivals reflect deep‑rooted traditions and values (social environment elements) that shape year‑round consumer psychology",
+    "options": [
+     "(1) Industrial licence for capacity expansion — delicensing of all but 18 industries, so the firm can scale production quickly without bureaucratic delay",
+     "The pre-1991 model prioritised heavy industry under public sector via import substitution, but neglected export competitiveness and fiscal discipline",
+     "The statement is flawed. Festivals reflect deep‑rooted traditions and values (social environment elements) that shape year‑round consumer psychology"
+    ],
+    "hint": "Straight from the 'Social Environment' slide -- match the key terms.",
+    "misconception": "A wrong answer that agrees with the statement or only mentions \"increased advertising\" shows superficial understanding of how cultural values permeate strategy.",
+    "id": "gen_c12_bs_ch03_q9",
+    "nodeId": "c12_bs_cbse_03_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a 3-column table: Column A = Pre-1991 Restriction, Column B = 1991 Policy Change, Column C = New Business Opportunity/Threat for a hypothetical Indian consumer durables firm. Fill at least four rows with specific, non-generic entries.",
+    "answer": "(1) Industrial licence for capacity expansion — delicensing of all but 18 industries, so the firm can scale production quickly without bureaucratic delay",
+    "options": [
+     "The statement is flawed. Festivals reflect deep‑rooted traditions and values (social environment elements) that shape year‑round consumer psychology",
+     "(a) Pre-1991: Public sector received substantial budgetary support (plan outlays, subsidies, soft loans)",
+     "(1) Industrial licence for capacity expansion — delicensing of all but 18 industries, so the firm can scale production quickly without bureaucratic delay"
+    ],
+    "hint": "Straight from the 'Economic Liberalisation' slide -- match the key terms.",
+    "misconception": "A poor answer uses vague entries like less control or more freedom without naming the specific instrument such as licence, MRTP, FDI cap or import licence.",
+    "id": "gen_c12_bs_ch03_q10",
+    "nodeId": "c12_bs_cbse_03_007",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -977,7 +1137,8 @@ export const C12_BS_GEN: SimDef[] = [
    ]
   },
   "successLine": "Economic Environment In India mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_bs_ch04",
@@ -996,6 +1157,7 @@ export const C12_BS_GEN: SimDef[] = [
    "c12_bs_cbse_04_003",
    "c12_bs_cbse_04_005",
    "c12_bs_cbse_04_006",
+   "c12_bs_cbse_04_007",
    "c12_bs_cbse_04_008"
   ],
   "emoji": "🏢",
@@ -1044,6 +1206,12 @@ export const C12_BS_GEN: SimDef[] = [
     "text": "Standing plans are recurring organisational guides used for repetitive activities; Objectives are measurable end-results management aims to achieve within a defined period; Strategy is a comprehensive long-term plan encompassing three dimensions — determining",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Procedures",
+    "text": "Procedures are chronological sequences of routine steps detailing exactly how to carry out specific activities within a broad policy framework; Methods are prescribed ways of performing a single task or step within a procedure, specifying the technique to",
+    "emoji": "🏢",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "Planning",
@@ -1223,6 +1391,58 @@ export const C12_BS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "A company's \"Expense Reimbursement Procedure\" has 6 steps. Step 3 says \"Attach original bills.\" The finance department issues a new Rule: \"No reimbursement without GST-compliant invoice.\" Analyse how this Rule impacts the Procedure and Method at Step 3.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Impact on the method",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Hierarchy",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Impact on the procedure",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who says the procedure now has seven steps confuses content modification with structural change, and calling the method a rule misses that the method merely implements the rule's requirement.",
+    "id": "gen_c12_bs_ch04_q6",
+    "nodeId": "c12_bs_cbse_04_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you join a new school as a Class 12 student.",
+     "On Day 1 you receive three documents: (a) \"Library Entry Procedure\" listing steps — show ID, sign register, sanitise hands, enter; (b) \"Book Search",
+     "Which explains *how* to do one step?",
+     "Which admits no exception?"
+    ]
+   },
+   {
+    "type": "order",
     "question": "Critique this statement: \"With AI-powered forecasting tools becoming 95% accurate, the need for human planning will disappear.\" Use the features of planning (pervasiveness, decision-making, mental exercise) to justify your answer.",
     "sortItems": [
      {
@@ -1263,7 +1483,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer reveals the student equates \"accurate prediction\" with \"strategic choice,\" ignoring the normative, multi-stakeholder, and creative dimensions of planning.",
-    "id": "gen_c12_bs_ch04_q6",
+    "id": "gen_c12_bs_ch04_q7",
     "nodeId": "c12_bs_cbse_04_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -1284,9 +1504,54 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'planning process' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Most appropriate: (1) Cost-Benefit Analysis (CBA) — quantifies net present value of each alternative under the given",
-    "id": "gen_c12_bs_ch04_q7",
+    "id": "gen_c12_bs_ch04_q8",
     "nodeId": "c12_bs_cbse_04_003",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a 7-step planning process for a new CBSE-affiliated school aiming to achieve 100% student pass rate with 30% scoring above 90% in Class 12 boards within 3 years. For each step, write ONE concrete action specific to this context (e.",
+    "answer": "Sample answer: (1) Objectives: \"95% pass, 30% >90% in 3 years.\" (2) Premises: \"CBSE pattern stable; teacher attrition 15%; fee hike 10%/yr; parent demand for STEM focus",
+    "options": [
+     "(1) Impact on the procedure — step three becomes attach original GST-compliant invoices while the six-step sequence stays unchanged, (2) Impact on the method",
+     "The manager confuses *accuracy of forecast* with *utility of budget*. NCERT states: \"Since budget represents all items in numbers",
+     "Sample answer: (1) Objectives: \"95% pass, 30% >90% in 3 years.\" (2) Premises: \"CBSE pattern stable; teacher attrition 15%; fee hike 10%/yr; parent demand for STEM focus"
+    ],
+    "hint": "Straight from the 'planning process' slide -- match the key terms.",
+    "misconception": "A poor answer uses generic actions like \"make a plan\" for Step 6, showing inability to contextualise abstract steps.",
+    "id": "gen_c12_bs_ch04_q9",
+    "nodeId": "c12_bs_cbse_04_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A company's \"Expense Reimbursement Procedure\" has 6 steps. Step 3 says \"Attach original bills.\" The finance department issues a new Rule: \"No reimbursement without GST-compliant invoice.\" Analyse how this Rule impacts the Procedure and Method at Step 3.",
+    "answer": "(1) Impact on the procedure — step three becomes attach original GST-compliant invoices while the six-step sequence stays unchanged, (2) Impact on the method",
+    "options": [
+     "Planning is pervasive — it occurs at *all levels* (top, middle, lower) and in *all departments* of *every* organisation, regardless of size",
+     "Most appropriate: (1) Cost-Benefit Analysis (CBA) — quantifies net present value of each alternative under the given premises, and (2) Break-even Analysis",
+     "(1) Impact on the procedure — step three becomes attach original GST-compliant invoices while the six-step sequence stays unchanged, (2) Impact on the method"
+    ],
+    "hint": "Straight from the 'Procedures' slide -- match the key terms.",
+    "misconception": "A student who says the procedure now has seven steps confuses content modification with structural change, and calling the method a rule misses that the method merely implements the rule's requirement.",
+    "id": "gen_c12_bs_ch04_q10",
+    "nodeId": "c12_bs_cbse_04_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Critique this statement: \"With AI-powered forecasting tools becoming 95% accurate, the need for human planning will disappear.\" Use the features of planning (pervasiveness, decision-making, mental exercise) to justify your answer.",
+    "answer": "The statement is false. Even perfect forecasts only provide *premises* (Step 2). Planning still requires: (i) *Pervasiveness*",
+    "options": [
+     "Most appropriate: (1) Cost-Benefit Analysis (CBA) — quantifies net present value of each alternative under the given premises, and (2) Break-even Analysis",
+     "The manager confuses *accuracy of forecast* with *utility of budget*. NCERT states: \"Since budget represents all items in numbers",
+     "The statement is false. Even perfect forecasts only provide *premises* (Step 2). Planning still requires: (i) *Pervasiveness*"
+    ],
+    "hint": "Straight from the 'Planning' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals the student equates \"accurate prediction\" with \"strategic choice,\" ignoring the normative, multi-stakeholder, and creative dimensions of planning.",
+    "id": "gen_c12_bs_ch04_q11",
+    "nodeId": "c12_bs_cbse_04_008",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -1299,7 +1564,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Planning' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"pick the middle forecast and start production\") shows the student skips the critical planning steps of premise agreement and alternative generation/evaluation, jumping straight from data to action.",
-    "id": "gen_c12_bs_ch04_q8",
+    "id": "gen_c12_bs_ch04_q12",
     "nodeId": "c12_bs_cbse_04_008",
     "difficulty": "advanced"
    }
@@ -1311,7 +1576,8 @@ export const C12_BS_GEN: SimDef[] = [
    ]
   },
   "successLine": "Planning mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_bs_ch05",
@@ -2018,6 +2284,21 @@ export const C12_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "\"GreenLeaf Organics\" is a startup with 15 employees. Currently, everyone does everything: the same person handles procurement, production, and customer complaints. The founder wants to implement organising.",
+    "answer": "Step 1: Identify and divide work into manageable activities: (a) Procuring raw materials (organic ingredients, packaging), (b) Production (recipe formulation, baking",
+    "options": [
+     "Correct explanation: An organisation chart is a static *outcome* of organising, not the process itself",
+     "For a 100-employee startup, this \"advantage\" can become a disadvantage. Functional structure forces premature departmentalisation",
+     "Step 1: Identify and divide work into manageable activities: (a) Procuring raw materials (organic ingredients, packaging), (b) Production (recipe formulation, baking"
+    ],
+    "hint": "Straight from the 'Organising' slide -- match the key terms.",
+    "misconception": "A wrong answer that creates a separate department for each activity (6 departments for 15 people) shows misunderstanding of departmentalisation — it must balance specialisation with coordination and span of management.",
+    "id": "gen_c12_bs_ch05_q12",
+    "nodeId": "c12_bs_cbse_05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A student says: \"Organising is just making an organisation chart with boxes and lines.\" Explain why this statement is incomplete using the concept of 'establishing authority and reporting relationships'.",
     "answer": "Correct explanation: An organisation chart is a static *outcome* of organising, not the process itself",
     "options": [
@@ -2027,7 +2308,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Organising' slide -- match the key terms.",
     "misconception": "This misconception leads to believing that drawing a chart once solves organising forever, ignoring that relationships must be continuously clarified as work changes.",
-    "id": "gen_c12_bs_ch05_q12",
+    "id": "gen_c12_bs_ch05_q13",
     "nodeId": "c12_bs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2042,7 +2323,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Organising' slide -- match the key terms.",
     "misconception": "A student who reverses these shows they don't understand that adaptation is about *structural agility* in response to external shocks, while optimum utilisation is about *internal efficiency* in steady state.",
-    "id": "gen_c12_bs_ch05_q13",
+    "id": "gen_c12_bs_ch05_q14",
     "nodeId": "c12_bs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2057,7 +2338,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Organising' slide -- match the key terms.",
     "misconception": "A wrong answer that omits \"identifying and grouping work\" or \"defining and delegating responsibility and authority\" reveals the student has memorised a fragmented definition. They likely confuse organising with just \"making a structure\" or \"dividing work,\" missing the critical elements of authority delegation and",
-    "id": "gen_c12_bs_ch05_q14",
+    "id": "gen_c12_bs_ch05_q15",
     "nodeId": "c12_bs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2072,7 +2353,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Organising' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement likely conflates organising with excessive formalisation and misses the delegation-development link.",
-    "id": "gen_c12_bs_ch05_q15",
+    "id": "gen_c12_bs_ch05_q16",
     "nodeId": "c12_bs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2087,7 +2368,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'organising process' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as the same step reveals the student misses the distinction between task allocation (horizontal fit) and hierarchy creation (vertical structure).",
-    "id": "gen_c12_bs_ch05_q16",
+    "id": "gen_c12_bs_ch05_q17",
     "nodeId": "c12_bs_cbse_05_002",
     "difficulty": "standard"
    },
@@ -2102,21 +2383,6 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'organising process' slide -- match the key terms.",
     "misconception": "A wrong answer blaming \"poor communication\" misses the structural root cause — the absence of the grouping step that precedes assignment.",
-    "id": "gen_c12_bs_ch05_q17",
-    "nodeId": "c12_bs_cbse_05_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student writes: \"The first step in organising is departmentalisation because we need to create departments before dividing work.\" Is this statement correct? Explain why or why not using the NCERT sequence.",
-    "answer": "The statement is incorrect. NCERT explicitly states the sequence: (i) Identification and division of work comes FIRST, (ii) Departmentalisation comes SECOND",
-    "options": [
-     "Correct explanation: An organisation chart is a static *outcome* of organising, not the process itself",
-     "No. NCERT states divisional structure is suitable when \"a large variety of products are manufactured using different productive resources",
-     "The statement is incorrect. NCERT explicitly states the sequence: (i) Identification and division of work comes FIRST, (ii) Departmentalisation comes SECOND"
-    ],
-    "hint": "Straight from the 'organising process' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the student confuses the logical prerequisite (division creates the units that departmentalisation groups) and memorises steps as a list without understanding their causal linkage.",
     "id": "gen_c12_bs_ch05_q18",
     "nodeId": "c12_bs_cbse_05_002",
     "difficulty": "standard"
@@ -3117,6 +3383,7 @@ export const C12_BS_GEN: SimDef[] = [
   "nodeIds": [
    "c12_bs_cbse_07_004",
    "c12_bs_cbse_07_007",
+   "c12_bs_cbse_07_008",
    "c12_bs_cbse_07_009"
   ],
   "emoji": "🏢",
@@ -3149,6 +3416,12 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
+    "title": "Financial Incentives",
+    "text": "Financial incentives are direct monetary rewards or benefits measurable in monetary terms (such as salary, bonus, profit sharing, stock options, retirement benefits, and perquisites) used to motivate employees for better performance.",
+    "emoji": "🏢",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Herzberg's Two-Factor Theory",
     "text": "Herzberg's Two-Factor Theory (Motivation-Hygiene Theory) states that job satisfaction and dissatisfaction are not opposites but arise from two distinct sets of factors: Hygiene Factors (extrinsic, prevent dissatisfaction when adequate but do not motivate) and",
     "emoji": "🏢",
@@ -3162,7 +3435,7 @@ export const C12_BS_GEN: SimDef[] = [
     "answer": "| Dimension | Formal Communication | Informal Communication | |-----------|---------------------|------------------------| | Speed | Slow (follows hierarchy) | Very fast (bypasses",
     "options": [
      "A motive is an internal need (e.g., an employee's desire for recognition); a motivator is the external technique used to address that need (e.g., an 'Employee of the Month' award)",
-     "Invalid. Herzberg explicitly states hygiene factors (including pay) *must* be adequate to avoid dissatisfaction; ignoring them creates active demotivation",
+     "Hygiene Factors are extrinsic conditions (e.g., salary, company policy, working conditions) whose absence causes dissatisfaction but whose presence only prevents dissatisfaction",
      "| Dimension | Formal Communication | Informal Communication | |-----------|---------------------|------------------------| | Speed | Slow (follows hierarchy) | Very fast (bypasses"
     ],
     "hint": "Straight from the 'Communication' slide -- match the key terms.",
@@ -3252,17 +3525,69 @@ export const C12_BS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a balanced incentive package for a 50-person sales team in a B2B SaaS company. The team has: 10 top performers (consistently exceed quota), 30 core performers (meet quota), 10 struggling performers (below quota 3+ months).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Top ten performers",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Struggling ten",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Core thirty",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer gives generic incentives without sub-group targeting or Maslow linkage, treating incentives as one-size-fits-all.",
+    "id": "gen_c12_bs_ch07_q3",
+    "nodeId": "c12_bs_cbse_07_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are the HR manager of a mid-size IT company in Bengaluru.",
+     "Your software developers are technically skilled but showing signs of burnout — they work long hours, meet deadlines, but rarely suggest innovations",
+     "The CEO asks you to design an incentive scheme that reignites their passion.",
+     "Where do you begin?"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Define 'Hygiene Factors' and 'Motivators' in Herzberg's Two-Factor Theory and give one example of each.",
     "answer": "Hygiene Factors are extrinsic conditions (e.g., salary, company policy, working conditions) whose absence causes dissatisfaction but whose presence only prevents dissatisfaction",
     "options": [
-     "| Dimension | Formal Communication | Informal Communication | |-----------|---------------------|------------------------| | Speed | Slow (follows hierarchy) | Very fast (bypasses",
      "A motive is an internal need (e.g., an employee's desire for recognition); a motivator is the external technique used to address that need (e.g., an 'Employee of the Month' award)",
+     "A good answer maps each level to a low-cost action: (1) Physiological — subsidised healthy snacks (₹5,000)",
      "Hygiene Factors are extrinsic conditions (e.g., salary, company policy, working conditions) whose absence causes dissatisfaction but whose presence only prevents dissatisfaction"
     ],
     "hint": "Straight from the 'Herzberg's Two-Factor Theory' slide -- match the key terms.",
     "misconception": "A wrong answer that lists salary as a motivator reveals the student confuses \"preventing dissatisfaction\" with \"creating positive motivation\" — the core conceptual error in Herzberg.",
-    "id": "gen_c12_bs_ch07_q3",
+    "id": "gen_c12_bs_ch07_q4",
     "nodeId": "c12_bs_cbse_07_009",
     "difficulty": "standard",
     "workedExample": [
@@ -3277,14 +3602,29 @@ export const C12_BS_GEN: SimDef[] = [
     "question": "A CEO wants to announce a merger (high sensitivity, legal implications). Evaluate which formal communication network is MOST appropriate and which is LEAST appropriate. Justify using two principles of directing from NCERT.",
     "answer": "Most appropriate: Wheel (CEO as hub communicates directly to each department head). Ensures Unity of Command (each subordinate receives instructions from one superior only",
     "options": [
-     "A good answer maps each level to a low-cost action: (1) Physiological — subsidised healthy snacks (₹5,000)",
+     "(1) Top ten performers — accelerated commission and an ESOP grant for esteem and ownership, plus a Rainmaker Club offsite and a voice in the roadmap, (2) Core thirty",
      "Invalid. Herzberg explicitly states hygiene factors (including pay) *must* be adequate to avoid dissatisfaction; ignoring them creates active demotivation",
      "Most appropriate: Wheel (CEO as hub communicates directly to each department head). Ensures Unity of Command (each subordinate receives instructions from one superior only"
     ],
     "hint": "Straight from the 'Communication' slide -- match the key terms.",
     "misconception": "A wrong answer choosing \"Free Flow\" for merger announcement shows the student prioritises speed over accuracy/legal safety — they miss that principle (v) \"Effective managerial communication across all levels\" requires controlled, verifiable flow for strategic decisions.",
-    "id": "gen_c12_bs_ch07_q4",
+    "id": "gen_c12_bs_ch07_q5",
     "nodeId": "c12_bs_cbse_07_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a motivation plan for a team of 10 junior sales executives (aged 22-25) in a mid-sized FMCG firm. Specify ONE concrete action for each of Maslow's five levels, ensuring the plan is implementable within a ₹50,000/month budget.",
+    "answer": "A good answer maps each level to a low-cost action: (1) Physiological — subsidised healthy snacks (₹5,000)",
+    "options": [
+     "Most appropriate: Wheel (CEO as hub communicates directly to each department head). Ensures Unity of Command (each subordinate receives instructions from one superior only",
+     "(1) Top ten performers — accelerated commission and an ESOP grant for esteem and ownership, plus a Rainmaker Club offsite and a voice in the roadmap, (2) Core thirty",
+     "A good answer maps each level to a low-cost action: (1) Physiological — subsidised healthy snacks (₹5,000)"
+    ],
+    "hint": "Straight from the 'Motivation' slide -- match the key terms.",
+    "misconception": "A poor answer lists only monetary rewards or ignores budget constraints, showing inability to translate theory into contextualised practice.",
+    "id": "gen_c12_bs_ch07_q6",
+    "nodeId": "c12_bs_cbse_07_007",
     "difficulty": "standard"
    },
    {
@@ -3293,13 +3633,28 @@ export const C12_BS_GEN: SimDef[] = [
     "answer": "A motive is an internal need (e.g., an employee's desire for recognition); a motivator is the external technique used to address that need (e.g., an 'Employee of the Month' award)",
     "options": [
      "| Dimension | Formal Communication | Informal Communication | |-----------|---------------------|------------------------| | Speed | Slow (follows hierarchy) | Very fast (bypasses",
-     "A good answer maps each level to a low-cost action: (1) Physiological — subsidised healthy snacks (₹5,000)",
+     "Most appropriate: Wheel (CEO as hub communicates directly to each department head). Ensures Unity of Command (each subordinate receives instructions from one superior only",
      "A motive is an internal need (e.g., an employee's desire for recognition); a motivator is the external technique used to address that need (e.g., an 'Employee of the Month' award)"
     ],
     "hint": "Straight from the 'Motivation' slide -- match the key terms.",
     "misconception": "If a student says \"salary is a motive,\" they have reversed the terms: salary is a motivator (external), while the need for food/shelter it satisfies is the motive (internal).",
-    "id": "gen_c12_bs_ch07_q5",
+    "id": "gen_c12_bs_ch07_q7",
     "nodeId": "c12_bs_cbse_07_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a balanced incentive package for a 50-person sales team in a B2B SaaS company. The team has: 10 top performers (consistently exceed quota), 30 core performers (meet quota), 10 struggling performers (below quota 3+ months).",
+    "answer": "(1) Top ten performers — accelerated commission and an ESOP grant for esteem and ownership, plus a Rainmaker Club offsite and a voice in the roadmap, (2) Core thirty",
+    "options": [
+     "Invalid. Herzberg explicitly states hygiene factors (including pay) *must* be adequate to avoid dissatisfaction; ignoring them creates active demotivation",
+     "Most appropriate: Wheel (CEO as hub communicates directly to each department head). Ensures Unity of Command (each subordinate receives instructions from one superior only",
+     "(1) Top ten performers — accelerated commission and an ESOP grant for esteem and ownership, plus a Rainmaker Club offsite and a voice in the roadmap, (2) Core thirty"
+    ],
+    "hint": "Straight from the 'Financial incentives' slide -- match the key terms.",
+    "misconception": "A poor answer gives generic incentives without sub-group targeting or Maslow linkage, treating incentives as one-size-fits-all.",
+    "id": "gen_c12_bs_ch07_q8",
+    "nodeId": "c12_bs_cbse_07_008",
     "difficulty": "standard"
    },
    {
@@ -3313,7 +3668,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Herzberg's Two-Factor Theory' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement shows the student missed the \"necessary but insufficient\" role of hygiene factors.",
-    "id": "gen_c12_bs_ch07_q6",
+    "id": "gen_c12_bs_ch07_q9",
     "nodeId": "c12_bs_cbse_07_009",
     "difficulty": "standard"
    }
@@ -3325,7 +3680,8 @@ export const C12_BS_GEN: SimDef[] = [
    ]
   },
   "successLine": "Communication mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_bs_ch08",
@@ -3831,6 +4187,21 @@ export const C12_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A factory sets a standard of “maximum 2% defective units”. In a week, actual defective units are 3.5%. The production manager investigates and finds a worn‑out machine part. He replaces the part and defects drop to 1.",
+    "answer": "Steps shown: (1) Setting performance standards (2% defect), (2) Measurement of actual performance (3",
+    "options": [
+     "Scenario: A hospital emergency ward sets a standard: “Patient triage to doctor consultation ≤ 15 minutes",
+     "Example design: Standard food cost 30% ±2% (report to owner if >32% or <28%); wait time 15 min ±5 min (report to regional manager if >20 min)",
+     "Steps shown: (1) Setting performance standards (2% defect), (2) Measurement of actual performance (3"
+    ],
+    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
+    "misconception": "A wrong answer that lists “planning” as a controlling step or omits “analysing deviations” indicates the student cannot distinguish the five‑step controlling sequence from the planning function.",
+    "id": "gen_c12_bs_ch08_q12",
+    "nodeId": "c12_bs_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the statements: “Planning is looking ahead, controlling is looking back” and “Planning and controlling are both backward‑looking and forward‑looking”. Which is more accurate? Justify using the NCERT view.",
     "answer": "The second statement is more accurate. NCERT explains: plans are based on forecasts (forward‑looking), but planning uses past experience (backward‑looking)",
     "options": [
@@ -3840,7 +4211,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Controlling' slide -- match the key terms.",
     "misconception": "A student who picks only the first statement treats them as mutually exclusive and misses the reciprocal reinforcement NCERT emphasises.",
-    "id": "gen_c12_bs_ch08_q12",
+    "id": "gen_c12_bs_ch08_q13",
     "nodeId": "c12_bs_cbse_08_001",
     "difficulty": "standard"
    },
@@ -3855,7 +4226,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Controlling' slide -- match the key terms.",
     "misconception": "a poor answer lists six disconnected examples or misses the linkage between standards and outcomes.",
-    "id": "gen_c12_bs_ch08_q13",
+    "id": "gen_c12_bs_ch08_q14",
     "nodeId": "c12_bs_cbse_08_001",
     "difficulty": "standard"
    },
@@ -3870,7 +4241,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Controlling' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees with the statement ignores the cost‑benefit principle and the adaptability of standards to qualitative measures.",
-    "id": "gen_c12_bs_ch08_q14",
+    "id": "gen_c12_bs_ch08_q15",
     "nodeId": "c12_bs_cbse_08_001",
     "difficulty": "standard"
    },
@@ -3885,7 +4256,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Controlling' slide -- match the key terms.",
     "misconception": "A wrong answer that says “only top managers control” or “controlling is for profit only” shows misunderstanding of pervasiveness across levels and sectors, and of the goal‑orientation beyond just financial targets.",
-    "id": "gen_c12_bs_ch08_q15",
+    "id": "gen_c12_bs_ch08_q16",
     "nodeId": "c12_bs_cbse_08_001",
     "difficulty": "standard"
    },
@@ -3900,7 +4271,7 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Controlling' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “controlling means dominating subordinates” or “controlling is only about checking finished work”) reveals the student confuses controlling with authoritarian supervision or a one‑time inspection, missing the continuous, plan‑aligned, goal‑oriented nature of the function.",
-    "id": "gen_c12_bs_ch08_q16",
+    "id": "gen_c12_bs_ch08_q17",
     "nodeId": "c12_bs_cbse_08_001",
     "difficulty": "standard"
    },
@@ -3915,21 +4286,6 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Controlling' slide -- match the key terms.",
     "misconception": "A student who accepts the manager's view misunderstands that standards are benchmarks, not rough targets, and that analysing deviations requires adherence to pre-set limits.",
-    "id": "gen_c12_bs_ch08_q17",
-    "nodeId": "c12_bs_cbse_08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A manager measures actual performance only after the task is fully completed. According to the textbook, when should measurement ideally happen, and why?",
-    "answer": "Measurement should happen during performance wherever possible (e.g., checking each part before assembly, continuous gas monitoring). This allows early detection and correction",
-    "options": [
-     "The statement is incorrect. Planning *sets* the standards and course of action (e.g., \"We will produce 10,000 units with <2% defect rate\")",
-     "(A) Feedforward Control — changing supplier *before* production starts to prevent defects. (B) Concurrent Control — sensors act *during* weaving to stop defects in real time",
-     "Measurement should happen during performance wherever possible (e.g., checking each part before assembly, continuous gas monitoring). This allows early detection and correction"
-    ],
-    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
-    "misconception": "A student who says \"after completion\" misses the textbook's emphasis on concurrent measurement for timely control; they confuse controlling with post-mortem inspection.",
     "id": "gen_c12_bs_ch08_q18",
     "nodeId": "c12_bs_cbse_08_002",
     "difficulty": "standard"
@@ -3942,6 +4298,432 @@ export const C12_BS_GEN: SimDef[] = [
    ]
   },
   "successLine": "Controlling mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c12_bs_ch09",
+  "title": "Financial Management",
+  "subtitle": "Business Studies · Chapter 9",
+  "classLevel": 12,
+  "mode": "senior",
+  "subject": "business studies",
+  "topic": "Financial Management",
+  "chapters": [
+   "Business Studies Ch9: Financial Management",
+   "Business Studies Ch10: Financial Management",
+   "Business Studies Ch11: Financial Management"
+  ],
+  "nodeIds": [
+   "c12_bs_cbse_09_001",
+   "c12_bs_cbse_11_001",
+   "c12_bs_cbse_09_003",
+   "c12_bs_cbse_09_006",
+   "c12_bs_cbse_09_007",
+   "c12_bs_cbse_10_009",
+   "c12_bs_cbse_11_011"
+  ],
+  "emoji": "🏢",
+  "theme": {
+   "bg": "from-sky-100 to-cyan-200",
+   "accent": "sky",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "What happens if Financial Management suddenly stops working?",
+   "options": [
+    "Things around us change in noticeable ways",
+    "Absolutely nothing changes",
+    "Only textbooks would change"
+   ],
+   "answer": "Things around us change in noticeable ways",
+   "hook": "Financial Management is the process of planning, organizing, directing, and controlling the procurement and utilization of funds to maximize"
+  },
+  "teaching": [
+   {
+    "title": "Financial Management",
+    "text": "Financial Management is the process of planning, organizing, directing, and controlling the procurement and utilization of funds to maximize shareholders' wealth through optimal investment, financing, and dividend decisions.",
+    "emoji": "🏢",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Marketing",
+    "text": "Marketing is a social and managerial process by which individuals and groups obtain what they need and want through creating, offering, and freely exchanging products and services of value with others.",
+    "emoji": "🏢",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Capital Budgeting",
+    "text": "Capital Budgeting is the process of evaluating and selecting long-term investment proposals that involve significant capital outlay, are irreversible in nature, and affect the firm's profitability and risk profile over multiple years; it uses techniques like",
+    "emoji": "🏢",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Financial Planning",
+    "text": "Financial Planning is the process of preparing a financial blueprint of an organisation's future operations by estimating fund requirements (both quantum and timing) and specifying sources of funds to ensure adequate funds are available when needed while",
+    "emoji": "🏢",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Working Capital",
+    "text": "Working capital refers to the capital required for financing day-to-day operations of a business. Gross Working Capital is the total investment in current assets (cash, inventory, debtors, etc.",
+    "emoji": "🏢",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Derivatives",
+    "text": "Derivatives are financial instruments whose value is derived from the value of an underlying asset such as shares, commodities, currencies, interest rates, or market indices.",
+    "emoji": "🏢",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Consumer Behaviour",
+    "text": "Consumer behaviour refers to the study of how individuals, groups, or organizations select, purchase, use, and dispose of goods, services, ideas, or experiences to satisfy their needs and wants.",
+    "emoji": "🏢",
+    "bgColor": "from-rose-400 to-pink-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "A company earns ₹10 crore profit. The board proposes distributing ₹9 crore as dividend and retaining ₹1 crore. Another director argues for retaining ₹9 crore and distributing ₹1 crore. Using the wealth maximization objective, explain which approach is better — or why neither can be judged without more information.",
+    "answer": "Neither can be judged without knowing: (a) the company's growth opportunities (ROI on retained earnings), (b) shareholders' preference for current income vs capital gains",
+    "options": [
+     "(1) Income forecast — the family's eighty thousand rupees of monthly inflow projects to about 14.4 lakh over the eighteen months, (2) Fund requirement",
+     "Good answer should include: - Peak season: Build up raw material inventory early (anticipate lead time), increase production → higher WIP & finished goods",
+     "Neither can be judged without knowing: (a) the company's growth opportunities (ROI on retained earnings), (b) shareholders' preference for current income vs capital gains"
+    ],
+    "hint": "Straight from the 'Financial Management' slide -- match the key terms.",
+    "misconception": "A student who says \"retain more for growth\" or \"pay more to satisfy shareholders\" without conditions reveals the misconception that dividend policy has a universal rule.",
+    "id": "gen_c12_bs_ch09_q1",
+    "nodeId": "c12_bs_cbse_09_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are the CFO of a startup that just raised ₹50 lakh from investors.",
+     "The founders want to buy expensive servers (investment), but you also need cash for salaries (working capital).",
+     "Should you use the ₹50 lakh for servers and borrow for salaries, or split it?",
+     "This dilemma is financial management."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Compare the AMA (2017) definition of marketing with the Kotler definition. Identify ONE key similarity and ONE key difference in their emphasis.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Takeaway",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Similarity",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Difference",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer saying the two are the same, or citing only the stakeholder clause without the process similarity, shows a superficial reading of the definitions.",
+    "id": "gen_c12_bs_ch09_q2",
+    "nodeId": "c12_bs_cbse_11_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you want to buy a new smartphone.",
+     "You see an Instagram reel reviewing the camera, read a comparison article on a tech website, visit a store to hold the phone, check exchange offers",
+     "Every touchpoint — the reel, the article, the store display, the exchange offer, the cashback — is marketing in action.",
+     "Marketing is NOT just the ad you saw; it is the entire system that identified your need for a better camera, designed the phone, priced it, made it"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A project requires an initial investment of ₹10,00,000 and generates cash inflows of ₹3,00,000 per year for 5 years. Calculate the Payback Period. If the company's maximum acceptable payback is 3 years, should the project be accepted? Explain why a student might incorrectly accept it.",
+    "answer": "Payback Period = Initial Investment / Annual Cash Inflow = ₹10,00,000 / ₹3,00,000 = 3.33 years. Since 3",
+    "options": [
+     "(1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an opinion leader, (2) His sister's dominant factor",
+     "Neither can be judged without knowing: (a) the company's growth opportunities (ROI on retained earnings), (b) shareholders' preference for current income vs capital gains",
+     "Payback Period = Initial Investment / Difference = ₹10,00,000 / ₹3,00,000 = 3.33 years. Since 3",
+     "Payback Period = Initial Investment / Annual Cash Inflow = ₹10,00,000 / ₹3,00,000 = 3.33 years. Since 3"
+    ],
+    "hint": "Straight from the 'Capital Budgeting' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Payback Period = Initial Investment / Annual Cash Inflow = ₹10,00,000 / ₹3,00,000 = 3.",
+    "id": "gen_c12_bs_ch09_q3",
+    "nodeId": "c12_bs_cbse_09_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine your family runs a small manufacturing unit and has ₹50 lakh to invest: should you buy a new CNC machine that saves ₹12 lakh/year for 6",
+     "Both need the same upfront money but give different cash flow patterns over time.",
+     "To decide, you must learn to compare future rupees with today's rupees — that's exactly what capital budgeting techniques do.",
+     "We start by listing expected yearly cash inflows, then apply each technique step by step, and finally interpret which project adds more value to the"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Design a 3-step financial planning checklist for a Class 12 student's family planning a ₹15 lakh home renovation over 18 months. The father gets a ₹50,000/month salary, mother ₹30,000/month, and they have ₹3 lakh savings.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Income forecast",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Source identification",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Fund requirement",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer that just says save more or take a loan, without quantifying the gap and sequencing sources by cost, cannot translate corporate financial planning into personal finance.",
+    "id": "gen_c12_bs_ch09_q4",
+    "nodeId": "c12_bs_cbse_09_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you're the CFO of a startup planning to launch a new electric scooter plant.",
+     "You have ₹50 crore in hand but need to know: will this last 3 years?",
+     "When will you need more?",
+     "Where will it come from?"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a working capital policy for a seasonal business — a manufacturer of woollen garments in Ludhiana. Specify how you would manage each current asset and current liability component in peak (Oct–Jan) and lean (Apr–Jul) seasons to balance liquidity and profitability.",
+    "answer": "Good answer should include: - Peak season: Build up raw material inventory early (anticipate lead time), increase production → higher WIP & finished goods",
+    "options": [
+     "(1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an opinion leader, (2) His sister's dominant factor",
+     "Neither can be judged without knowing: (a) the company's growth opportunities (ROI on retained earnings), (b) shareholders' preference for current income vs capital gains",
+     "Good answer should include: - Peak season: Build up raw material inventory early (anticipate lead time), increase production → higher WIP & finished goods"
+    ],
+    "hint": "Straight from the 'Working capital' slide -- match the key terms.",
+    "misconception": "A poor answer treats both seasons identically or ignores the financing mix (short-term vs long-term). This reveals inability to apply \"Seasonal Factors\" and \"Credit Availed/Allowed\" dynamically — a key competency for CUET case-based questions.",
+    "id": "gen_c12_bs_ch09_q5",
+    "nodeId": "c12_bs_cbse_09_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine your uncle runs a small garment shop in Delhi.",
+     "He buys cloth on credit from a wholesaler, stitches shirts, and sells them to customers — some pay cash, some take 30 days credit.",
+     "He needs enough cash to pay rent, electricity, and tailor wages every month.",
+     "Ask: \"What current assets does he have?"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "\"Options are always better than futures for hedging because they limit downside.\" Evaluate this statement with reference to the cost of hedging and the obligation to perform.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The futures trade-off",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The real rule",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Why the claim fails",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who agrees without mentioning premium cost or the obligation to perform shows only superficial understanding.",
+    "id": "gen_c12_bs_ch09_q6",
+    "nodeId": "c12_bs_cbse_10_009",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a wheat farmer in Punjab who fears prices may drop by harvest time, and a bread factory in Delhi that fears prices may rise.",
+     "They could sign a private deal today to fix the price for delivery in three months — that's a forward.",
+     "If they want the safety of a regulated exchange, daily settlement, and no counterparty risk, they'd use a future.",
+     "If the farmer wants protection against a price drop but still wants to benefit if prices rise, he buys a put option paying a premium."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Rahul, a 25-year-old software engineer, buys a premium noise-cancelling headphone after seeing his team lead use the same brand. His sister, a college student, buys the same brand because she believes \"expensive means better quality.\" Identify the dominant factor for each and explain the difference.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "His sister's dominant factor",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Rahul's dominant factor",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The difference",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an",
+    "id": "gen_c12_bs_ch09_q7",
+    "nodeId": "c12_bs_cbse_11_011",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you walk into a supermarket to buy toothpaste.",
+     "You pick up a red pack of Colgate, but your friend insists on a green Ayurvedic brand.",
+     "Why did you choose differently?",
+     "The answer lies in invisible forces: your upbringing (cultural), your friend's dentist recommendation (social), your sensitive teeth (personal), and"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a 3-step financial planning checklist for a Class 12 student's family planning a ₹15 lakh home renovation over 18 months. The father gets a ₹50,000/month salary, mother ₹30,000/month, and they have ₹3 lakh savings.",
+    "answer": "(1) Income forecast — the family's eighty thousand rupees of monthly inflow projects to about 14.4 lakh over the eighteen months, (2) Fund requirement",
+    "options": [
+     "(1) Why the claim fails — options charge an upfront premium, which raises the cost of hedging, (2) The futures trade-off",
+     "(1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an opinion leader, (2) His sister's dominant factor",
+     "(1) Income forecast — the family's eighty thousand rupees of monthly inflow projects to about 14.4 lakh over the eighteen months, (2) Fund requirement"
+    ],
+    "hint": "Straight from the 'Financial Planning' slide -- match the key terms.",
+    "misconception": "A poor answer that just says save more or take a loan, without quantifying the gap and sequencing sources by cost, cannot translate corporate financial planning into personal finance.",
+    "id": "gen_c12_bs_ch09_q8",
+    "nodeId": "c12_bs_cbse_09_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "\"Options are always better than futures for hedging because they limit downside.\" Evaluate this statement with reference to the cost of hedging and the obligation to perform.",
+    "answer": "(1) Why the claim fails — options charge an upfront premium, which raises the cost of hedging, (2) The futures trade-off",
+    "options": [
+     "Payback Period = Initial Investment / Annual Cash Inflow = ₹10,00,000 / ₹3,00,000 = 3.33 years. Since 3",
+     "(1) Income forecast — the family's eighty thousand rupees of monthly inflow projects to about 14.4 lakh over the eighteen months, (2) Fund requirement",
+     "(1) Why the claim fails — options charge an upfront premium, which raises the cost of hedging, (2) The futures trade-off"
+    ],
+    "hint": "Straight from the 'Derivatives' slide -- match the key terms.",
+    "misconception": "A student who agrees without mentioning premium cost or the obligation to perform shows only superficial understanding.",
+    "id": "gen_c12_bs_ch09_q9",
+    "nodeId": "c12_bs_cbse_10_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare the AMA (2017) definition of marketing with the Kotler definition. Identify ONE key similarity and ONE key difference in their emphasis.",
+    "answer": "(1) Similarity — both treat marketing as a process of creating, communicating, delivering and exchanging offerings that carry value, (2) Difference",
+    "options": [
+     "(1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an opinion leader, (2) His sister's dominant factor",
+     "Neither can be judged without knowing: (a) the company's growth opportunities (ROI on retained earnings), (b) shareholders' preference for current income vs capital gains",
+     "(1) Similarity — both treat marketing as a process of creating, communicating, delivering and exchanging offerings that carry value, (2) Difference"
+    ],
+    "hint": "Straight from the 'Marketing' slide -- match the key terms.",
+    "misconception": "A wrong answer saying the two are the same, or citing only the stakeholder clause without the process similarity, shows a superficial reading of the definitions.",
+    "id": "gen_c12_bs_ch09_q10",
+    "nodeId": "c12_bs_cbse_11_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Rahul, a 25-year-old software engineer, buys a premium noise-cancelling headphone after seeing his team lead use the same brand. His sister, a college student, buys the same brand because she believes \"expensive means better quality.\" Identify the dominant factor for each and explain the difference.",
+    "answer": "(1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an opinion leader, (2) His sister's dominant factor",
+    "options": [
+     "Neither can be judged without knowing: (a) the company's growth opportunities (ROI on retained earnings), (b) shareholders' preference for current income vs capital gains",
+     "Payback Period = Initial Investment / Annual Cash Inflow = ₹10,00,000 / ₹3,00,000 = 3.33 years. Since 3",
+     "(1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an opinion leader, (2) His sister's dominant factor"
+    ],
+    "hint": "Straight from the 'Consumer behaviour' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an",
+    "id": "gen_c12_bs_ch09_q11",
+    "nodeId": "c12_bs_cbse_11_011",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about financial management?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Financial Management mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

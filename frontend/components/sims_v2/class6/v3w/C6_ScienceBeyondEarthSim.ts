@@ -10,7 +10,7 @@ export const w_c6_sciencebeyondearthsim: SimDef = {
     subtitle: 'This node covers the Earth\'s orbital period and the concept of a leap year.',
     classLevel: 6, subject: 'science', topic: 'Revolution of the Earth: The Year',
     chapters: [],
-    nodeIds: ['c6_physics_ch12_046', 'c6_physics_ch12_049', 'c6_physics_ch12_045', 'c6_physics_ch12_047', 'c6_physics_ch12_048', 'c6_physics_ch12_050', 'c6_physics_ch12_051', 'c6_physics_ch12_052'],
+    nodeIds: ['c6_physics_ch12_046', 'c6_physics_ch12_049', 'c6_physics_ch12_045', 'c6_physics_ch12_047', 'c6_physics_ch12_048', 'c6_physics_ch12_050', 'c6_physics_ch12_051'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Think about your birthday—it happens every year, but have you ever wondered why we suddenly have an extra day.', goal: 'Master Beyond Earth.' },
     discovery: {

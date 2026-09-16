@@ -227,6 +227,8 @@ export interface SimDef {
         lab?: string;            // 'pour'|'grow'|'stretch'|'jump'|'balance' — real canvas lab
         /** bespoke React component (an old rich sim) rendered as the interactive */
         component?: React.ComponentType;
+        /** JSON-emitted form of `component` — resolved via engine/sim_components.gen */
+        componentId?: string;
         prompt: string;
     };
     /** "What did you notice?" after explore — kid reports a discovery. */

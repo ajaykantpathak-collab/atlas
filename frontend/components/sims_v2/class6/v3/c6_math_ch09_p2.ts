@@ -8,7 +8,7 @@ export const c6_math_ch09_p2: SimDef = {
     subtitle: 'This node covers finding the median for simple numerical data sets with odd or even.',
     classLevel: 6, subject: 'mathematics', topic: 'Data Handling · Part 2/2',
     chapters: ['c6_math_ch09'],
-    nodeIds: ['c6_math_ch09_101', 'c6_math_ch09_102', 'c6_math_ch09_103', 'c6_math_ch09_104'],
+    nodeIds: ['c6_math_ch09_101', 'c6_math_ch09_102', 'c6_math_ch09_095', 'c6_math_ch09_096'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you and your friends line up by height. To find the "middle" person, you naturally arrange yourselves.', goal: 'Master every idea in this chapter.' },

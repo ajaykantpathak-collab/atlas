@@ -16,18 +16,23 @@ export const C7_PHY_GEN: SimDef[] = [
   "subject": "physics",
   "topic": "Science As a Process",
   "chapters": [
-   "Physics Ch1: Science As a Process"
+   "Physics Ch1: Science As a Process",
+   "Physics Ch2: Science As a Process",
+   "Physics Ch3: Science As a Process"
   ],
   "nodeIds": [
    "c7_physics_ch01_001",
    "c7_physics_ch01_002",
    "c7_physics_ch01_003",
    "c7_physics_ch01_004",
+   "c7_physics_ch02_004",
    "c7_physics_ch01_005",
    "c7_physics_ch01_006",
    "c7_physics_ch01_007",
+   "c7_physics_ch02_007",
    "c7_physics_ch01_008",
    "c7_physics_ch01_009",
+   "c7_physics_ch03_009",
    "c7_physics_ch01_010"
   ],
   "emoji": "⚡",
@@ -72,6 +77,12 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Battery",
+    "text": "A battery is a combination of two or more electric cells connected together to provide a higher total voltage and sustained electric current to a circuit.",
+    "emoji": "⚡",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Science And Society",
     "text": "Science and Society: Responsibility and Sustainability refers to the ethical duty of scientists, engineers, and citizens to ensure that scientific discoveries and technological applications preserve ecological balance, conserve natural resources, and protect",
     "emoji": "⚡",
@@ -90,6 +101,12 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Electric Switch",
+    "text": "An electric switch is a simple mechanical or electronic device used to open or close an electric circuit safely, thereby controlling the flow of electric current without needing to disconnect wires manually.",
+    "emoji": "⚡",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
     "title": "Role Of Experiments In Understanding Nature",
     "text": "The role of experiments in understanding nature is the systematic process of testing ideas, hypotheses, and observations by manipulating physical variables under controlled conditions to discover underlying scientific laws and principles.",
     "emoji": "⚡",
@@ -98,6 +115,12 @@ export const C7_PHY_GEN: SimDef[] = [
    {
     "title": "Environmental Challenges And The Role",
     "text": "Environmental challenges and the role of science refer to how scientific methods, principles, and technological innovations are applied to understand, monitor, and mitigate ecological issues such as pollution, climate change, and resource depletion, measured",
+    "emoji": "⚡",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Seepage Of Water Beneath The Ground",
+    "text": "The seepage of water beneath the ground refers to the process by which rainwater and surface water infiltrate through soil layers and permeable rock strata under the influence of gravity, recharging underground water reservoirs known as aquifers.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
    },
@@ -114,9 +137,9 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is the very first step in the scientific process when encountering an unfamiliar natural phenomenon?",
     "answer": "Asking a curious question based on observation",
     "options": [
+     "The series chain runs: (1) Place one copper and one zinc strip in each lemon (2) Join the copper strip of the first lemon to the zinc strip of the second (3) Join the copper of",
      "The primary goal is to use natural resources responsibly so that human needs are met today without destroying the environment or depriving future generations of those same",
-     "Physics is the branch that primarily deals with forces, motion, energy, and heat transfer",
-     "Keeping a curious question based on observation",
+     "LED a curious question based on observation",
      "Asking a curious question based on observation"
     ],
     "hint": "Straight from the 'Science as a process' slide -- match the key terms.",
@@ -211,7 +234,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "answer": "A qualitative observation describes properties using words without numbers (e.g., the flame is yellow, the wax melts smoothly)",
     "options": [
      "Incandescent bulbs convert a large portion of electrical energy into thermal energy (heat) rather than light, requiring more power generation from fossil fuels",
-     "While heat transfer and temperature changes involve physics, the phase change from liquid to vapor and the chemical structure of water involve chemistry",
+     "Most electricity generation relies on burning fossil fuels, which releases greenhouse gases and causes pollution",
      "A qualitative observation describes properties using words without numbers (e.g., the flame is yellow, the wax melts smoothly)"
     ],
     "hint": "Straight from the 'Observation and experimentation' slide -- match the key terms.",
@@ -231,8 +254,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is the very first step a scientist typically takes when beginning an investigation using the scientific method?",
     "answer": "The first step is making an observation and asking a question about a natural phenomenon or a problem in the environment",
     "options": [
+     "The series chain runs: (1) Place one copper and one zinc strip in each lemon (2) Join the copper strip of the first lemon to the zinc strip of the second (3) Join the copper of",
      "Asking a curious question based on observation",
-     "Physics is the branch that primarily deals with forces, motion, energy, and heat transfer",
      "The first step is making an observation and asking a question about a natural phenomenon or a problem in the environment"
     ],
     "hint": "Straight from the 'Scientific Method' slide -- match the key terms.",
@@ -248,6 +271,69 @@ export const C7_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of connections for wiring three lemon cells so their voltages add up to light an LED.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Join the copper of the second to the zinc",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Place one copper and one zinc strip in each",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Join the copper strip of the first lemon",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Connect the two free ends",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that pairs like metals together shows the student does not understand that a battery adds cell voltages only when every cell pushes current in the same direction along the chain.",
+    "id": "gen_c7_phy_ch01_q5",
+    "nodeId": "c7_physics_ch02_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "When you look inside a TV remote control or a large wall clock, you notice that multiple cylindrical electric cells are placed end-to-end rather than",
+     "If you examine the metal springs and flat contacts inside the battery compartment, you will see how the positive metal cap of one cell touches the",
+     "Building upon how a single electric cell pushes current through a simple circuit, combining them increases the electrical push or voltage available",
+     "To understand how they work together, we must observe the alignment of the terminals and trace the path of the current from cell to cell."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What is the primary goal of sustainable development in the context of scientific and technological applications?",
     "answer": "The primary goal is to use natural resources responsibly so that human needs are met today without destroying the environment or depriving future generations of those same",
@@ -258,7 +344,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
     "misconception": "A wrong answer often shows the misconception that science should focus solely on maximizing production and profit without considering environmental consequences.",
-    "id": "gen_c7_phy_ch01_q5",
+    "id": "gen_c7_phy_ch01_q6",
     "nodeId": "c7_physics_ch01_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -273,13 +359,13 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "Which branch of science primarily investigates forces, motion, heat, light, and electricity?",
     "answer": "Physics is the branch that studies forces, motion, heat, light, and electricity",
     "options": [
-     "Controlled variables ensure that any change observed in the dependent variable is caused *only* by the independent variable being tested, making the experiment fair and reliable",
+     "Cumulative building or scientific evolution",
      "Physics is the branch that primarily deals with forces, motion, energy, and heat transfer",
      "Physics is the branch that studies forces, motion, heat, light, and electricity"
     ],
     "hint": "Straight from the 'Physics' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Biology\" reveals a confusion between the study of living organisms and the study of physical forces and energy.",
-    "id": "gen_c7_phy_ch01_q6",
+    "id": "gen_c7_phy_ch01_q7",
     "nodeId": "c7_physics_ch01_006",
     "difficulty": "standard",
     "workedExample": [
@@ -353,7 +439,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who thinks advanced electronics ignore basic circuits will fail to see how complex systems are just combinations of simple building blocks.",
-    "id": "gen_c7_phy_ch01_q7",
+    "id": "gen_c7_phy_ch01_q8",
     "nodeId": "c7_physics_ch01_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -361,6 +447,69 @@ export const C7_PHY_GEN: SimDef[] = [
      "Science never starts from scratch; every new invention or theoretical breakthrough rests securely on the shoulders of past discoveries and simple",
      "When inventors wanted faster communication, they did not invent a completely new type of energy; instead, they built upon existing electrical",
      "By examining how simple instruments like sundials evolved into precise atomic clocks, students learn that scientific ideas are stepping stones where"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of assembly for a homemade paper-clip switch that opens and closes a torchlight circuit.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Swing the clip onto both pins to close",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Fix two drawing pins on a wooden stick",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Wire the two pins into the torchlight",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Pivot a metal paper clip under one pin",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that lets the clip rest on only one pin shows the student does not understand that a switch works by making and breaking metal-to-metal contact between conducting parts of the circuit.",
+    "id": "gen_c7_phy_ch01_q9",
+    "nodeId": "c7_physics_ch02_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "When you walk into your classroom and press the wall switch to turn on the ceiling fan, you hear a click and the fan starts spinning.",
+     "How does pushing a tiny plastic button control electricity flowing through wires hidden inside the wall?",
+     "To understand this, observe how a simple household torchlight or a science kit switch has a movable metal piece.",
+     "When you flip or slide the switch, the metal piece physically touches or separates from another metal contact."
     ]
    },
    {
@@ -374,7 +523,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'role of experiments in' slide -- match the key terms.",
     "misconception": "If a student thinks controlled variables are just extra steps to make an experiment harder, they misunderstand that uncontrolled factors can ruin the validity of the results by introducing hidden causes.",
-    "id": "gen_c7_phy_ch01_q8",
+    "id": "gen_c7_phy_ch01_q10",
     "nodeId": "c7_physics_ch01_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -393,7 +542,7 @@ export const C7_PHY_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer often results from calculating 40% and forgetting to subtract it from the total, indicating a procedural math error in percentage application.",
-    "id": "gen_c7_phy_ch01_q9",
+    "id": "gen_c7_phy_ch01_q11",
     "nodeId": "c7_physics_ch01_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -401,6 +550,69 @@ export const C7_PHY_GEN: SimDef[] = [
      "To begin investigating this, record observations of temperature, light intensity, or waste accumulation using simple tools, building on your Class 6",
      "Connect these observations to energy transfer principles or chemical changes studied previously.",
      "Finally, use the scientific method to analyze how human activities alter natural systems and how science provides the tools to measure and reduce"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence from a raindrop landing on root-filled soil to the recharging of an aquifer.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Microscopic channels raise the soil's",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Roots loosen the compacted surface soil",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Percolated water reaches and recharges",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Gravity pulls water downward through the",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats plant roots as blockers that drink up all the water shows the student misunderstands how root structures improve infiltration and reduce surface run-off.",
+    "id": "gen_c7_phy_ch01_q12",
+    "nodeId": "c7_physics_ch03_009",
+    "difficulty": "standard",
+    "workedExample": [
+     "When you pour water into a dusty patch of soil in your school courtyard during a science experiment, you notice that the water quickly disappears",
+     "This happens because water does not just sit on top; it travels downward through tiny spaces between soil particles, driven by gravity.",
+     "Building on our understanding of the water cycle from Class 6, where heat transfer drives evaporation and precipitation, we now examine what happens",
+     "Water moves through the upper soil layers into deeper rock strata, a process governed by the porosity and permeability of the ground materials."
     ]
    },
    {
@@ -414,7 +626,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science' slide -- match the key terms.",
     "misconception": "A student who thinks science ends with a final \"proof\" confuses science with rigid dogmatic belief systems.",
-    "id": "gen_c7_phy_ch01_q10",
+    "id": "gen_c7_phy_ch01_q13",
     "nodeId": "c7_physics_ch01_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -435,7 +647,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science as a process' slide -- match the key terms.",
     "misconception": "A wrong answer like 2 m/s usually stems from dividing time by distance instead of distance by time.",
-    "id": "gen_c7_phy_ch01_q11",
+    "id": "gen_c7_phy_ch01_q14",
     "nodeId": "c7_physics_ch01_001",
     "difficulty": "advanced"
    },
@@ -450,7 +662,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science as a process' slide -- match the key terms.",
     "misconception": "A poor answer lacks a controlled variable (like using different amounts of water or different containers) or fails to state how measurement is done.",
-    "id": "gen_c7_phy_ch01_q12",
+    "id": "gen_c7_phy_ch01_q15",
     "nodeId": "c7_physics_ch01_001",
     "difficulty": "advanced"
    },
@@ -465,7 +677,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science as a process' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misconception that science is only about being \"right\" rather than discovering how nature actually works.",
-    "id": "gen_c7_phy_ch01_q13",
+    "id": "gen_c7_phy_ch01_q16",
     "nodeId": "c7_physics_ch01_001",
     "difficulty": "advanced"
    },
@@ -480,7 +692,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science as a process' slide -- match the key terms.",
     "misconception": "A wrong answer indicates that the student does not understand the difference between opinion-based guessing and evidence-based scientific inquiry.",
-    "id": "gen_c7_phy_ch01_q14",
+    "id": "gen_c7_phy_ch01_q17",
     "nodeId": "c7_physics_ch01_001",
     "difficulty": "advanced"
    },
@@ -495,54 +707,9 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Science as a process' slide -- match the key terms.",
     "misconception": "A wrong answer like \"so you can make your notebook look neat\" shows a failure to grasp that data is the core evidence used to build scientific conclusions.",
-    "id": "gen_c7_phy_ch01_q15",
+    "id": "gen_c7_phy_ch01_q18",
     "nodeId": "c7_physics_ch01_001",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a short observation plan for a potted plant placed near a sunny window that demonstrates both physics and biology working together.",
-    "answer": "A good plan records light intensity and direction using physics concepts (light travel, shadow, reflection) alongside the plant's biological response (bending towards light",
-    "options": [
-     "Question: \"Does water evaporate faster in direct sunlight or in a dark cupboard?\" Method: 1. Pour equal amounts of water (e",
-     "The average time is calculated as (4.2 + 4.1 + 4.3) / 3 = 12.6 / 3 = 4.2 seconds. Scientists take multiple readings to reduce human reaction-time error and account for minor",
-     "A good plan records light intensity and direction using physics concepts (light travel, shadow, reflection) alongside the plant's biological response (bending towards light"
-    ],
-    "hint": "Straight from the 'interconnectedness of science' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A good plan records light intensity and direction using physics concepts (light travel, shadow, reflection) alongside",
-    "id": "gen_c7_phy_ch01_q16",
-    "nodeId": "c7_physics_ch01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate whether a doctor diagnosing a fever needs only biological knowledge, or if physics and chemistry are also involved.",
-    "answer": "A doctor needs all three: biology to understand the body's immune response, physics to measure temperature using thermal expansion or infrared radiation sensors",
-    "options": [
-     "Careful recording provides reliable, objective data that prevents bias and allows others to verify or build upon the findings",
-     "Asking and exploring involves gathering systematic evidence, testing variables, and linking cause-and-effect logically",
-     "A doctor needs all three: biology to understand the body's immune response, physics to measure temperature using thermal expansion or infrared radiation sensors"
-    ],
-    "hint": "Straight from the 'interconnectedness of science' slide -- match the key terms.",
-    "misconception": "If a student claims only biology is needed, they underestimate how medical tools rely on physical principles and drugs rely on chemical reactions.",
-    "id": "gen_c7_phy_ch01_q17",
-    "nodeId": "c7_physics_ch01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How do the chemical properties of fuels connect with the physical concepts of heat and motion in a thermal power plant?",
-    "answer": "Chemical energy stored in fuels is released through combustion (chemistry), which produces thermal energy to heat water (physics/heat transfer) into steam",
-    "options": [
-     "Careful recording provides reliable, objective data that prevents bias and allows others to verify or build upon the findings",
-     "Asking and exploring involves gathering systematic evidence, testing variables, and linking cause-and-effect logically",
-     "Chemical energy stored in fuels is released through combustion (chemistry), which produces thermal energy to heat water (physics/heat transfer) into steam"
-    ],
-    "hint": "Straight from the 'interconnectedness of science' slide -- match the key terms.",
-    "misconception": "If a student only mentions burning without connecting it to motion or electricity, they fail to see how chemical reactions enable physical work.",
-    "id": "gen_c7_phy_ch01_q18",
-    "nodeId": "c7_physics_ch01_002",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -557,19 +724,25 @@ export const C7_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_phy_ch06",
-  "title": "Rotation Of The Earth",
+  "title": "Early Methods Of Measuring Time Relied",
   "subtitle": "Physics · Chapter 6",
   "classLevel": 7,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Rotation Of The Earth",
+  "topic": "Early Methods Of Measuring Time Relied",
   "chapters": [
-   "Physics Ch6: Rotation Of The Earth"
+   "Physics Ch4: Early Methods Of Measuring Time Relied",
+   "Physics Ch5: Early Methods Of Measuring Time Relied",
+   "Physics Ch6: Early Methods Of Measuring Time Relied"
   ],
   "nodeIds": [
+   "c7_physics_ch04_001",
+   "c7_physics_ch05_001",
    "c7_physics_ch06_001",
    "c7_physics_ch06_002",
+   "c7_physics_ch04_003",
    "c7_physics_ch06_003",
+   "c7_physics_ch05_004",
    "c7_physics_ch06_004",
    "c7_physics_ch06_005",
    "c7_physics_ch06_006",
@@ -585,16 +758,28 @@ export const C7_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Rotation Of The Earth suddenly stops working?",
+   "question": "What happens if Early Methods Of Measuring Time suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "The rotation of the Earth is the spinning of the Earth on its imaginary axis from west to east, completing one full rotation in approximately 24"
+   "hook": "Early methods of measuring time relied on repeating natural cycles and consistent physical processes, such as the movement of shadows cast by the sun"
   },
   "teaching": [
+   {
+    "title": "Early Methods Of Measuring Time Relied",
+    "text": "Early methods of measuring time relied on repeating natural cycles and consistent physical processes, such as the movement of shadows cast by the sun (sundials) and the steady flow of water (water clocks), though they do not have a standard SI unit since they",
+    "emoji": "⚡",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Sources Of Light",
+    "text": "Sources of light are physical objects or phenomena that emit their own light or scatter light from another source, categorized into natural sources (like the Sun and stars) and artificial sources (like electric bulbs and burning candles).",
+    "emoji": "⚡",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
    {
     "title": "Rotation Of The Earth",
     "text": "The rotation of the Earth is the spinning of the Earth on its imaginary axis from west to east, completing one full rotation in approximately 24 hours, which causes the cycle of day and night.",
@@ -608,10 +793,22 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
+    "title": "Second",
+    "text": "The second is the standard International System of Units (SI) unit of time, defined scientifically based on atomic vibrations, but in daily school physics, it is measured as $\\frac{1}{86400}$ of a mean solar day.",
+    "emoji": "⚡",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
     "title": "Revolution Of The Earth",
     "text": "The revolution of the Earth is the movement of the Earth in a nearly circular or elliptical orbit around the Sun, completing one full circuit in approximately 365.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Transparent Materials Allow Light To Pass",
+    "text": "Transparent materials allow light to pass through them completely so objects can be seen clearly on the other side; translucent materials allow only a portion of light to scatter through them, making objects appear blurred; and opaque materials do not allow",
+    "emoji": "⚡",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "Changing View Of The Night Sky Due To",
@@ -658,6 +855,143 @@ export const C7_PHY_GEN: SimDef[] = [
   ],
   "challenges": [
    {
+    "type": "order",
+    "question": "Give the correct sequence of effects showing why a water clock miscalibrates in freezing winter.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Thicker water drips more slowly through",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Cold raises the viscosity of water",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The marked intervals no longer match true",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "The drip rate falls below its calibrated",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls temperature irrelevant shows the student ignores basic properties of matter and heat transfer that govern how fluids flow.",
+    "id": "gen_c7_phy_ch06_q1",
+    "nodeId": "c7_physics_ch04_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe how your shadow stretches and shifts position on the school playground as the sun moves across the sky from morning to evening.",
+     "Long ago, people noticed this predictable movement and placed a vertical stick, called a gnomon, on the ground to track time by observing the",
+     "To measure time at night or on cloudy days when the sun was hidden, they invented water clocks (clepsydras), which used the steady dripping of water",
+     "This connects directly to how light travels in straight lines and forms shadows, as well as how matter and fluids move at predictable rates."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A student uses a solar-powered LED garden light in their yard. During the day, a small solar panel absorbs sunlight and charges a battery; at night, the LED emits light. How should this device be classified in terms of its light emission source?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Trace the energy origin back to the Sun",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Examine the immediate device producing",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Identify the components of the garden light",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The correct answer",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s4",
+      "label": "Conclude that while the energy originates",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer here shows failure to trace energy transformations through a multi-step system, wrongly categorizing the entire appliance under a single absolute label.",
+    "id": "gen_c7_phy_ch06_q2",
+    "nodeId": "c7_physics_ch05_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine walking outside on a sunny afternoon in your courtyard and then coming inside a room to switch on a study lamp.",
+     "Outside, the Sun floods the area with brilliant illumination without any human help, whereas inside, your torch or ceiling tube light requires",
+     "This everyday contrast introduces us to the fundamental division of light sources into natural and artificial categories.",
+     "Building upon our understanding of simple electrical circuits from Class 6, we know how electric cells and switches bring life to a torch bulb."
+    ]
+   },
+   {
     "type": "math_input",
     "question": "A weather satellite in geostationary orbit stays above the same point on Earth while the Earth rotates. If the Earth completes one full rotation of 360 degrees in 24 hours, calculate the average angular speed of the Earth's rotation in degrees per hour.",
     "answer": "15",
@@ -667,7 +1001,7 @@ export const C7_PHY_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value in degrees.",
     "misconception": "A wrong computation like 36 degrees per hour reveals a basic division error or unfamiliarity with dividing a full circle by the hours in a day.",
-    "id": "gen_c7_phy_ch06_q1",
+    "id": "gen_c7_phy_ch06_q3",
     "nodeId": "c7_physics_ch06_001",
     "difficulty": "standard",
     "workedExample": [
@@ -686,7 +1020,7 @@ export const C7_PHY_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A student who gets an incorrect value likely divided 24 by 360 instead of total degrees by total hours, or miscalculated basic division.",
-    "id": "gen_c7_phy_ch06_q2",
+    "id": "gen_c7_phy_ch06_q4",
     "nodeId": "c7_physics_ch06_002",
     "difficulty": "standard",
     "workedExample": [
@@ -694,6 +1028,69 @@ export const C7_PHY_GEN: SimDef[] = [
      "To understand this, remember how objects appear to rush backward when you look out the window of a moving train or school bus.",
      "Similarly, as our home planet rotates eastward on its axis, our viewpoint constantly shifts, making stationary stars and the Sun appear to sweep",
      "We can track this by observing how shadows cast by a vertical stick (gnomon) change in length and direction throughout the day."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence from local timekeeping units to a single worldwide standard unit of time.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Scientists need one common unit to share",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Traditional units like the ghati differ",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Every speed and motion calculation worldwide",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "The second",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that claims traditional units serve science equally well shows the student has not understood why uniformity, consistency and unambiguous communication motivate the SI system.",
+    "id": "gen_c7_phy_ch06_q5",
+    "nodeId": "c7_physics_ch04_003",
+    "difficulty": "foundation",
+    "workedExample": [
+     "Imagine listening to the steady tick-tock of a wall clock in your classroom or the beating of your own pulse after running in the school playground.",
+     "Each distinct tick or beat represents a fraction of time, and the standard heartbeat or clock tick guides how we count duration.",
+     "In physics, to ensure scientists all over the world speak the exact same language, we use a single agreed-upon unit for time, just like we use meters",
+     "Building on our understanding of how ancient humans used sundials and pendulums to track regular intervals, modern science chose the second as the"
     ]
    },
    {
@@ -707,7 +1104,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
     "misconception": "A student who answers 24 hours is confusing Earth's rotation (day and night) with its revolution (the year).",
-    "id": "gen_c7_phy_ch06_q3",
+    "id": "gen_c7_phy_ch06_q6",
     "nodeId": "c7_physics_ch06_003",
     "difficulty": "standard",
     "workedExample": [
@@ -715,6 +1112,27 @@ export const C7_PHY_GEN: SimDef[] = [
      "In a similar way, the Earth travels along a fixed path called an orbit around the Sun.",
      "To understand this motion, we first observe how the calendar year is marked by the Sun's changing position relative to background stars over many",
      "Connecting this to our prior study of time measurement and motion, the Earth's trip is a regular, repeating journey."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "An architect wants to design a meeting room in an office in New Delhi where people inside can receive natural sunlight during the day, but people walking outside in the corridor cannot see documents kept on the conference table.",
+    "answer": "The architect should choose translucent materials (like frosted glass). Frosted glass lets light enter the room (addressing sunlight needs) but scatters the light rays so that",
+    "options": [
+     "Criteria for a good answer: Place the lamp on a table to represent the Sun, stick one label on India and one on the USA on the globe",
+     "The correct answer is C. Step 1: Identify the components of the garden light system (solar panel, battery, LED)",
+     "The architect should choose translucent materials (like frosted glass). Frosted glass lets light enter the room (addressing sunlight needs) but scatters the light rays so that"
+    ],
+    "hint": "Straight from the 'Transparent materials allow light' slide -- match the key terms.",
+    "misconception": "A student who chooses transparent glass fails to understand privacy requirements, while choosing opaque blocks sunlight completely.",
+    "id": "gen_c7_phy_ch06_q7",
+    "nodeId": "c7_physics_ch05_004",
+    "difficulty": "standard",
+    "workedExample": [
+     "Look through a glass window pane in your classroom, then look through a sheet of oiled paper, and finally look at a wooden door.",
+     "You will notice that you can see clearly through the glass, only blurry shapes through the oiled paper, and nothing at all through the door.",
+     "Building on the prior concept that light travels in straight lines, we investigate what happens when light hits different obstacles.",
+     "We observe that materials handle incoming light rays in three distinct ways: complete transmission, partial/scattered transmission, or complete"
     ]
    },
    {
@@ -726,7 +1144,7 @@ export const C7_PHY_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer usually divides by $24$ hours instead of $365$ days, confusing rotation with revolution.",
-    "id": "gen_c7_phy_ch06_q4",
+    "id": "gen_c7_phy_ch06_q8",
     "nodeId": "c7_physics_ch06_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -800,7 +1218,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who forgets to add the latitudes together will miscalculate the solar altitude and fail to see why winter temperatures drop.",
-    "id": "gen_c7_phy_ch06_q5",
+    "id": "gen_c7_phy_ch06_q9",
     "nodeId": "c7_physics_ch06_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -863,7 +1281,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer indicates improper addition of angular sizes or ignoring the orbital plane intersection criteria.",
-    "id": "gen_c7_phy_ch06_q6",
+    "id": "gen_c7_phy_ch06_q10",
     "nodeId": "c7_physics_ch06_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -879,12 +1297,12 @@ export const C7_PHY_GEN: SimDef[] = [
     "answer": "The Sun, the Moon, and the Earth must align in that specific order, with the Moon in the middle",
     "options": [
      "The Sun, Earth, and Moon must align in a straight line",
-     "The day and night cycle is primarily caused by the rotation of the Earth on its imaginary axis, taking approximately 24 hours to complete one full rotation",
+     "The physics chain runs: (1) Cold raises the viscosity of water (2) Thicker water drips more slowly through the hole (3) The drip rate falls below its calibrated rate (4) The",
      "The Sun, the Moon, and the Earth must align in that specific order, with the Moon in the middle"
     ],
     "hint": "Straight from the 'solar eclipse' slide -- match the key terms.",
     "misconception": "A wrong answer shows confusion with a lunar eclipse, where the Earth is in the middle between the Sun and the Moon.",
-    "id": "gen_c7_phy_ch06_q7",
+    "id": "gen_c7_phy_ch06_q11",
     "nodeId": "c7_physics_ch06_007",
     "difficulty": "standard",
     "workedExample": [
@@ -969,7 +1387,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who gets the math wrong often struggles with decimal placement or large-scale multiplication during unit conversions.",
-    "id": "gen_c7_phy_ch06_q8",
+    "id": "gen_c7_phy_ch06_q12",
     "nodeId": "c7_physics_ch06_008",
     "difficulty": "standard",
     "workedExample": [
@@ -984,13 +1402,13 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "Design a simple classroom model using a desk lamp and a small ball to demonstrate why we see a \"Full Moon\" versus a \"New Moon.\" Describe the positions of your eyes, the ball, and the lamp for each of these two phases.",
     "answer": "Criteria for a good answer: The student must place the lamp (Sun) fixed in one spot, hold the ball (Moon) at arm's length, and position themselves (Earth) in the middle or offset",
     "options": [
-     "The student's model should place a lamp in the center, move the globe in a circle around it",
      "A good design involves fixing a tilted globe (at 23.5°) on a track around a stationary torch",
+     "The statement is incorrect because the Moon's orbital plane is tilted at an angle of about 5 degrees relative to Earth's orbital plane (the ecliptic)",
      "Criteria for a good answer: The student must place the lamp (Sun) fixed in one spot, hold the ball (Moon) at arm's length, and position themselves (Earth) in the middle or offset"
     ],
     "hint": "Straight from the 'phases of the moon' slide -- match the key terms.",
     "misconception": "A poor answer fails to correctly place the observer relative to the light source and the reflecting object.",
-    "id": "gen_c7_phy_ch06_q9",
+    "id": "gen_c7_phy_ch06_q13",
     "nodeId": "c7_physics_ch06_009",
     "difficulty": "standard",
     "workedExample": [
@@ -1007,11 +1425,12 @@ export const C7_PHY_GEN: SimDef[] = [
     "options": [
      "The revolution of the Earth around the Sun",
      "The Sun, the Moon, and the Earth must align in that specific order, with the Moon in the middle",
+     "New Delhi axis is tilted at an angle of 23.5° from the perpendicular (or 66.5° to the orbital plane)",
      "Earth's axis is tilted at an angle of 23.5° from the perpendicular (or 66.5° to the orbital plane)"
     ],
     "hint": "Straight from the 'Earth's axis' slide -- match the key terms.",
     "misconception": "A wrong answer such as 90° or 0° reveals a failure to recall the specific geometric measurement of Earth's tilt, confusing it with a completely upright or completely flat orientation.",
-    "id": "gen_c7_phy_ch06_q10",
+    "id": "gen_c7_phy_ch06_q14",
     "nodeId": "c7_physics_ch06_010",
     "difficulty": "standard",
     "workedExample": [
@@ -1023,132 +1442,72 @@ export const C7_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student claims that during the night, the Sun travels underneath the Earth to the other side. Evaluate this statement using your knowledge of the Earth's rotation and light propagation.",
-    "answer": "The student's statement is incorrect because the Sun is stationary relative to the Earth's rotation",
+    "question": "Give the correct sequence of effects showing why a water clock miscalibrates in freezing winter.",
+    "answer": "The physics chain runs: (1) Cold raises the viscosity of water (2) Thicker water drips more slowly through the hole (3) The drip rate falls below its calibrated rate (4) The",
     "options": [
-     "A good design involves placing the torchlight (Sun) fixed on a table, holding the globe (Earth) in the center, and moving the tennis ball (Moon) around it",
-     "The student's model should place a lamp in the center, move the globe in a circle around it",
-     "The student's statement is incorrect because the Sun is stationary relative to the Earth's rotation"
+     "The correct answer is C. A firefly (or jugnu) produces its own light through a natural biological process called bioluminescence, requiring no human intervention",
+     "The day and night cycle is primarily caused by the rotation of the Earth on its imaginary axis, taking approximately 24 hours to complete one full rotation",
+     "The physics chain runs: (1) Cold raises the viscosity of water (2) Thicker water drips more slowly through the hole (3) The drip rate falls below its calibrated rate (4) The"
     ],
-    "hint": "Straight from the 'rotation of the Earth' slide -- match the key terms.",
-    "misconception": "A wrong answer agreeing with the student reveals a fundamental confusion between apparent daily motion (caused by rotation) and actual orbital mechanics.",
-    "id": "gen_c7_phy_ch06_q11",
-    "nodeId": "c7_physics_ch06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze what would happen to our day and night cycle if the Earth suddenly stopped rotating on its axis while continuing to orbit the Sun. How would life on Earth be affected?",
-    "answer": "One half of the Earth would experience perpetual daylight (scorching heat), while the other half would experience perpetual darkness and freezing cold",
-    "options": [
-     "Revolution is the Earth's movement travelling around the Sun in an external orbit taking 365.25 days, which causes the year",
-     "In January, Earth's night side points toward one sector of space (e.g., Orion), whereas in July, Earth has moved to the opposite side of the Sun",
-     "One half of the Earth would experience perpetual daylight (scorching heat), while the other half would experience perpetual darkness and freezing cold"
-    ],
-    "hint": "Straight from the 'rotation of the Earth' slide -- match the key terms.",
-    "misconception": "A wrong answer indicating that day and night would continue normally shows a failure to link the spinning motion of the planet directly to the alternating exposure to sunlight.",
-    "id": "gen_c7_phy_ch06_q12",
-    "nodeId": "c7_physics_ch06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple classroom model using a table lamp, a small globe, and a sticker to demonstrate to a younger student how time zones work between India and the USA during the rotation of the Earth.",
-    "answer": "Criteria for a good answer: Place the lamp on a table to represent the Sun, stick one label on India and one on the USA on the globe",
-    "options": [
-     "To design this model, place a stationary lamp representing the Sun in the center of a table. Hold the globe at a fixed $23",
-     "The student's model should place a lamp in the center, move the globe in a circle around it",
-     "Criteria for a good answer: Place the lamp on a table to represent the Sun, stick one label on India and one on the USA on the globe"
-    ],
-    "hint": "Straight from the 'rotation of the Earth' slide -- match the key terms.",
-    "misconception": "A poor answer fails to show the west-to-east direction of rotation or incorrectly places both countries on the same illuminated side.",
-    "id": "gen_c7_phy_ch06_q13",
-    "nodeId": "c7_physics_ch06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you are standing in India and it is currently noon (bright sunlight), what is happening on the exact opposite side of the Earth (the other hemisphere/longitude), and why?",
-    "answer": "It is currently midnight on the exact opposite side of the Earth because that region is facing directly away from the Sun, wrapped in the Earth's own shadow",
-    "options": [
-     "The statement is incorrect because the Moon's orbital plane is tilted at an angle of about 5 degrees relative to Earth's orbital plane (the ecliptic)",
-     "Criteria for a good answer: Place the lamp on a table to represent the Sun, stick one label on India and one on the USA on the globe",
-     "It is currently midnight on the exact opposite side of the Earth because that region is facing directly away from the Sun, wrapped in the Earth's own shadow"
-    ],
-    "hint": "Straight from the 'rotation of the Earth' slide -- match the key terms.",
-    "misconception": "A wrong answer stating that it is also daytime or twilight reveals a misconception that the entire Earth receives sunlight simultaneously, ignoring the spherical geometry of the planet and how an opaque sphere blocks light.",
-    "id": "gen_c7_phy_ch06_q14",
-    "nodeId": "c7_physics_ch06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary cause of the day and night cycle on Earth, and approximately how long does one complete cycle take?",
-    "answer": "The day and night cycle is primarily caused by the rotation of the Earth on its imaginary axis, taking approximately 24 hours to complete one full rotation",
-    "options": [
-     "The revolution of the Earth around the Sun",
-     "Earth's axis is tilted at an angle of $23.5^\\circ$",
-     "The day and night cycle is primarily caused by the rotation of the Earth on its imaginary axis, taking approximately 24 hours to complete one full rotation"
-    ],
-    "hint": "Straight from the 'rotation of the Earth' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"the Sun moving around the Earth\" reveals that the student is relying on ancient geocentric assumptions rather than modern heliocentric physics, confusing apparent motion with actual planetary rotation.",
+    "hint": "Straight from the 'Early methods of measuring time' slide -- match the key terms.",
+    "misconception": "A wrong answer that calls temperature irrelevant shows the student ignores basic properties of matter and heat transfer that govern how fluids flow.",
     "id": "gen_c7_phy_ch06_q15",
-    "nodeId": "c7_physics_ch06_001",
+    "nodeId": "c7_physics_ch04_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A student claims that during a total solar eclipse, the Sun temporarily stops its apparent movement across the sky. Evaluate this statement using scientific reasoning.",
-    "answer": "The statement is false. The Sun's apparent movement is caused by the continuous, steady rotation of the Earth on its axis, which does not stop or alter speed during an eclipse",
+    "question": "Trace the correct sequence from local timekeeping units to a single worldwide standard unit of time.",
+    "answer": "The standardisation chain runs: (1) Traditional units like the ghati differ from region to region (2) Scientists need one common unit to share and compare measurements (3) The",
     "options": [
-     "The student's model should place a lamp in the center, move the globe in a circle around it",
-     "Given: Total angular displacement = 360°, Total time = 24 hours. Rate = $\\frac{360^\\circ}{24\\text{ h}} = 15^\\circ\\text{/h}$",
-     "The statement is false. The Sun's apparent movement is caused by the continuous, steady rotation of the Earth on its axis, which does not stop or alter speed during an eclipse"
+     "Steps: 1. Identify total angle rotated = 360 degrees. 2. Identify total time taken = 24 hours. 3. Use formula: Angular speed = Total Angle / Total Time",
+     "Steps: 1. Identify the axial tilt: 0° (no tilt). 2. Determine the consequence of 0° tilt on sunlight: Sun rays hit any given latitude at the exact same angle every single day of",
+     "The standardisation chain runs: (1) Traditional units like the ghati differ from region to region (2) Scientists need one common unit to share and compare measurements (3) The"
     ],
-    "hint": "Straight from the 'apparent movement of the Sun' slide -- match the key terms.",
-    "misconception": "A student who agrees with the claim confuses blocking the light source with halting the motion of the observer's frame of reference.",
+    "hint": "Straight from the 'second' slide -- match the key terms.",
+    "misconception": "A wrong answer that claims traditional units serve science equally well shows the student has not understood why uniformity, consistency and unambiguous communication motivate the SI system.",
     "id": "gen_c7_phy_ch06_q16",
-    "nodeId": "c7_physics_ch06_002",
-    "difficulty": "standard"
+    "nodeId": "c7_physics_ch04_003",
+    "difficulty": "foundation"
    },
    {
     "type": "mcq",
-    "question": "Analyze how the length of a shadow cast by a vertical pole changes from 8:00 AM to 12:00 PM (noon), and explain what this tells us about the apparent position of the Sun.",
-    "answer": "The shadow is longest in the morning, gradually shortens, and reaches its shortest length at 12:00 PM when the Sun is at its highest point (zenith) in the sky",
+    "question": "A student uses a solar-powered LED garden light in their yard. During the day, a small solar panel absorbs sunlight and charges a battery; at night, the LED emits light. How should this device be classified in terms of its light emission source?",
+    "answer": "The correct answer is C. Step 1: Identify the components of the garden light system (solar panel, battery, LED)",
     "options": [
-     "Revolution is the Earth's movement travelling around the Sun in an external orbit taking 365.25 days, which causes the year",
-     "The Sun appears to move in the opposite direction of Earth's rotation because our viewpoint on Earth's surface is moving eastward",
-     "The shadow is longest in the morning, gradually shortens, and reaches its shortest length at 12:00 PM when the Sun is at its highest point (zenith) in the sky"
+     "A good answer should explain placing the torchlight at one end, the small sphere in the middle to block the light",
+     "The architect should choose translucent materials (like frosted glass). Frosted glass lets light enter the room (addressing sunlight needs) but scatters the light rays so that",
+     "The correct answer is C. Step 1: Identify the components of the garden light system (solar panel, battery, LED)"
     ],
-    "hint": "Straight from the 'apparent movement of the Sun' slide -- match the key terms.",
-    "misconception": "A student who claims shadows get longer toward noon does not understand light traveling in straight lines and changing angles.",
+    "hint": "Straight from the 'Sources of light' slide -- match the key terms.",
+    "misconception": "A wrong answer here shows failure to trace energy transformations through a multi-step system, wrongly categorizing the entire appliance under a single absolute label.",
     "id": "gen_c7_phy_ch06_q17",
-    "nodeId": "c7_physics_ch06_002",
+    "nodeId": "c7_physics_ch05_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Design a simple outdoor observation method using everyday household materials to prove that the Sun's apparent position changes continuously throughout the school day.",
-    "answer": "A student should propose placing a straight vertical stick (a gnomon) in flat ground under sunlight",
+    "question": "Analyze the statement: \"All artificial sources of light require electrical energy to function.\" Is this statement scientifically accurate? Why or why not? A) Yes, because every artificial light in modern homes uses electricity from a grid or battery.",
+    "answer": "The correct answer is B. Artificial light sources include combustion-based devices like kerosene lanterns, gas lamps, and wax candles",
     "options": [
-     "A good design involves placing the torchlight (Sun) fixed on a table, holding the globe (Earth) in the center, and moving the tennis ball (Moon) around it",
-     "Criteria for a good answer: The student must place the lamp (Sun) fixed in one spot, hold the ball (Moon) at arm's length, and position themselves (Earth) in the middle or offset",
-     "A student should propose placing a straight vertical stick (a gnomon) in flat ground under sunlight"
+     "This statement is incorrect. If the Earth were farther from the Sun, the circumference of its orbit would be larger",
+     "The statement is incorrect because an annular eclipse occurs when the Moon is farthest from Earth (apogee)",
+     "The correct answer is B. Artificial light sources include combustion-based devices like kerosene lanterns, gas lamps, and wax candles"
     ],
-    "hint": "Straight from the 'apparent movement of the Sun' slide -- match the key terms.",
-    "misconception": "A poor answer fails to include regular time intervals or a fixed reference marker, making the observation qualitative rather than scientific.",
+    "hint": "Straight from the 'Sources of light' slide -- match the key terms.",
+    "misconception": "Choosing A reveals a narrow, urban-centric view of technology, ignoring traditional or combustion-based artificial illumination tools.",
     "id": "gen_c7_phy_ch06_q18",
-    "nodeId": "c7_physics_ch06_002",
+    "nodeId": "c7_physics_ch05_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about rotation of the earth?",
+    "What surprised you about early methods of measuring time relied?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Rotation Of The Earth mastered! 🎯",
+  "successLine": "Early Methods Of Measuring mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1454,6 +1813,21 @@ export const C7_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student prepares a red rose petal extract which is initially red. When 5 mL of clear vinegar is added to 10 mL of this extract, the color shifts to a bright reddish-pink. When 5 mL of lime water is added to a fresh 10 mL sample of the same extract, the color shifts to a dull green-yellow.",
+    "answer": "Step 1: Identify the initial indicator state (red rose extract is red). Step 2: Observe the reaction with vinegar (shifts to bright reddish-pink)",
+    "options": [
+     "Steps: 1. Identify given volumes: Vinegar volume = 5 mL, lime water volume = 5 mL. 2. Calculate total volume: Total volume = 5 mL + 5 mL = 10 mL",
+     "The red rose extract will shift toward a greenish or yellowish hue because calcium carbonate exhibits basic properties",
+     "Step 1: Identify the initial indicator state (red rose extract is red). Step 2: Observe the reaction with vinegar (shifts to bright reddish-pink)"
+    ],
+    "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
+    "misconception": "A student who mixes up the color directions might incorrectly label lime water as acidic.",
+    "id": "gen_c7_phy_ch07_q10",
+    "nodeId": "c7_physics_ch07_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple kitchen experiment using turmeric powder, water, cotton cloth, lemon juice, and soap solution to create a secret message that only appears when a specific chemical is sprayed on it.",
     "answer": "Criteria for a good answer: The student should describe painting or writing on a white cloth with turmeric paste (making it yellow), drying it",
     "options": [
@@ -1463,7 +1837,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
     "misconception": "A poor answer fails to specify which substance creates the color change or confuses the roles of the acid and base.",
-    "id": "gen_c7_phy_ch07_q10",
+    "id": "gen_c7_phy_ch07_q11",
     "nodeId": "c7_physics_ch07_003",
     "difficulty": "advanced"
    },
@@ -1478,7 +1852,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
     "misconception": "A student who thinks the color will remain unaffected or turn bright pink fails to recognize that solid household surfaces can also react chemically with liquid indicators if they possess acidic or basic chemical traits.",
-    "id": "gen_c7_phy_ch07_q11",
+    "id": "gen_c7_phy_ch07_q12",
     "nodeId": "c7_physics_ch07_003",
     "difficulty": "advanced"
    },
@@ -1493,7 +1867,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'When an acidic substance and a' slide -- match the key terms.",
     "misconception": "A wrong answer shows a failure to account for all atomic components (cations and anions) participating in the neutralization reaction.",
-    "id": "gen_c7_phy_ch07_q12",
+    "id": "gen_c7_phy_ch07_q13",
     "nodeId": "c7_physics_ch07_005",
     "difficulty": "advanced"
    },
@@ -1508,7 +1882,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'pH scale' slide -- match the key terms.",
     "misconception": "If a student says Solution A is closer, they have inverted the number line understanding relative to the neutral point of 7.",
-    "id": "gen_c7_phy_ch07_q13",
+    "id": "gen_c7_phy_ch07_q14",
     "nodeId": "c7_physics_ch07_007",
     "difficulty": "advanced"
    },
@@ -1523,7 +1897,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Acids and bases play a crucial' slide -- match the key terms.",
     "misconception": "A wrong answer shows failure to apply neutralization principles to agricultural problems.",
-    "id": "gen_c7_phy_ch07_q14",
+    "id": "gen_c7_phy_ch07_q15",
     "nodeId": "c7_physics_ch07_008",
     "difficulty": "advanced"
    },
@@ -1538,7 +1912,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Acids and bases play a crucial' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misconception that medicines alter bodily organs permanently rather than providing temporary chemical neutralisation of excess acid.",
-    "id": "gen_c7_phy_ch07_q15",
+    "id": "gen_c7_phy_ch07_q16",
     "nodeId": "c7_physics_ch07_008",
     "difficulty": "advanced"
    },
@@ -1553,7 +1927,7 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Olfactory indicators' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misconception that cleaning agents amplify all pleasant smells instead of recognizing their basic chemical behavior.",
-    "id": "gen_c7_phy_ch07_q16",
+    "id": "gen_c7_phy_ch07_q17",
     "nodeId": "c7_physics_ch07_009",
     "difficulty": "advanced"
    },
@@ -1568,21 +1942,6 @@ export const C7_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Olfactory indicators' slide -- match the key terms.",
     "misconception": "A wrong calculation or observation indicates confusion between acid and base properties on olfactory indicators.",
-    "id": "gen_c7_phy_ch07_q17",
-    "nodeId": "c7_physics_ch07_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple home experiment using onion juice and common kitchen items to test whether window cleaner is acidic or basic.",
-    "answer": "Criteria for a good answer: The student should suggest soaking a cloth strip in onion juice, letting it dry, and then placing a few drops of window cleaner on it",
-    "options": [
-     "C) Slaked lime (Calcium hydroxide). Justification: Slaked lime is a base that reacts with and neutralizes excess acid in the soil, raising the pH to a level suitable for plants",
-     "The red rose extract will shift toward a greenish or yellowish hue because calcium carbonate exhibits basic properties",
-     "Criteria for a good answer: The student should suggest soaking a cloth strip in onion juice, letting it dry, and then placing a few drops of window cleaner on it"
-    ],
-    "hint": "Straight from the 'Olfactory indicators' slide -- match the key terms.",
-    "misconception": "A poor answer fails to use onion juice correctly or lacks a clear procedure for observing the change in smell.",
     "id": "gen_c7_phy_ch07_q18",
     "nodeId": "c7_physics_ch07_009",
     "difficulty": "advanced"

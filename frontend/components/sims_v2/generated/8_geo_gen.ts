@@ -608,6 +608,21 @@ export const C8_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Imagine a massive reserve of high-grade iron ore is discovered 5 kilometers deep beneath a dense forest in Central India. The cost of digging a 5-km-deep shaft and restoring the forest is estimated at ₹10,000 per ton, while the market price of iron ore is ₹4,000 per ton.",
+    "answer": "- Step 1: Identify the natural substance (iron ore) and its potential utility (making steel). - Step 2: Check technological accessibility (we can dig deep",
+    "options": [
+     "A strong plan includes: (1) Harnessing high solar radiation through solar heating and power panels",
+     "No, it should not be classified as a fully viable resource immediately. While it has high economic utility and technological accessibility",
+     "- Step 1: Identify the natural substance (iron ore) and its potential utility (making steel). - Step 2: Check technological accessibility (we can dig deep"
+    ],
+    "hint": "Straight from the 'resource' slide -- match the key terms.",
+    "misconception": "a wrong answer reveals*: If a student says \"Yes, because iron is very useful for building things,\" they fail to apply the economic feasibility criterion, showing they confuse physical availability with resource status.",
+    "id": "gen_c8_geo_ch01_q17",
+    "nodeId": "c8_geo_ch1_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Propose a 3-step framework or checklist that a local government in Ladakh should use to decide whether the hot springs (geothermal energy) in the region should be developed into a sustainable energy resource.",
     "answer": "The proposed framework should include: 1. Technological & Environmental Assessment: Check if local technology can harness the geothermal heat without damaging the fragile mountain",
     "options": [
@@ -617,21 +632,6 @@ export const C8_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'resource' slide -- match the key terms.",
     "misconception": "a wrong answer reveals*: A poor answer would focus only on \"building the plant immediately to make money,\" which shows a failure to integrate the complex criteria of sustainability, cultural acceptance, and physical geographic constraints in a sensitive region like Ladakh.",
-    "id": "gen_c8_geo_ch01_q17",
-    "nodeId": "c8_geo_ch1_1",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What are the four essential criteria that a natural substance must meet to be classified as a resource?",
-    "answer": "The four essential criteria are utility (usability), technological accessibility, economic feasibility, and cultural acceptability",
-    "options": [
-     "Fertile alluvial soil and abundant fresh river water",
-     "The rate of resource extraction must not exceed the natural rate of replenishment or regeneration",
-     "The four essential criteria are utility (usability), technological accessibility, economic feasibility, and cultural acceptability"
-    ],
-    "hint": "Straight from the 'resource' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals*: If a student only lists \"it must be useful,\" they fail to recall the multi-dimensional criteria required at the Class 8 level, showing a simplistic understanding that misses technological, economic, and social constraints.",
     "id": "gen_c8_geo_ch01_q18",
     "nodeId": "c8_geo_ch1_1",
     "difficulty": "standard"
@@ -1031,6 +1031,21 @@ export const C8_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Suppose a coastal region in Gujarat, India, experiences an average sea-level rise of 5 mm per year due to global warming. Calculate the total projected sea-level rise in centimeters over the next 4 decades (40 years) and explain how this global challenge directly threatens local coastal agriculture.",
+    "answer": "Step 1: Identify the annual rate of sea-level rise: $5\\text{ mm/year}$. Step 2: Identify the time span: $40\\text{ years}$",
+    "options": [
+     "A successful plan must include: 1. Alternative Technology: Introduce subsidized mechanical seeders (like Happy Seeders) that allow farmers to sow wheat directly into paddy straw",
+     "They will weigh slightly more at the North Pole because the polar surface is closer (~21 km closer) to Earth's center of mass than the Equatorial surface",
+     "Step 1: Identify the annual rate of sea-level rise: $5\\text{ mm/year}$. Step 2: Identify the time span: $40\\text{ years}$"
+    ],
+    "hint": "Straight from the 'Global environmental challenges' slide -- match the key terms.",
+    "misconception": "a wrong answer reveals:* A wrong calculation or a failure to link sea-level rise to soil salinity shows that the student cannot apply mathematical rates to geographical projections, or fails to connect physical ocean changes to human agricultural impacts.",
+    "id": "gen_c8_geo_ch02_q13",
+    "nodeId": "c8_geo_ch2_11",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A ship captain planning a direct transatlantic sea route and an environmental scientist comparing global rainforest loss across continents are selecting wall maps for their offices. Evaluate which projection type each person should choose and justify your decision based on map distortions.",
     "answer": "The ship captain should choose a conformal projection (like Mercator) because straight lines drawn on it represent lines of constant compass bearing (rhumb lines)",
     "options": [
@@ -1040,7 +1055,7 @@ export const C8_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Map distortion' slide -- match the key terms.",
     "misconception": "A wrong recommendation indicates the student cannot connect the trade-off properties (shape/direction vs. size/area) to real-world functional applications.",
-    "id": "gen_c8_geo_ch02_q13",
+    "id": "gen_c8_geo_ch02_q14",
     "nodeId": "c8_geo_ch2_3",
     "difficulty": "advanced"
    },
@@ -1055,7 +1070,7 @@ export const C8_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'world's oceans form a vast' slide -- match the key terms.",
     "misconception": "A response focusing only on economic benefits ignores environmental geography principles.",
-    "id": "gen_c8_geo_ch02_q14",
+    "id": "gen_c8_geo_ch02_q15",
     "nodeId": "c8_geo_ch2_7",
     "difficulty": "standard"
    }

@@ -1208,7 +1208,11 @@ const Orbital3DShapeCanvas: React.FC<{
 // ==========================================
 // MAIN COMPONENT
 // ==========================================
-export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
+export default function C11_ChemistryAufbauPauliandHundsrulesSim({
+  onComplete,
+}: {
+  onComplete?: (score: number) => void;
+}) {
   // --- STATE MANAGEMENT ---
   const [activeTab, setActiveTab] = useState<'discovery' | 'lab' | 'challenges' | 'summary'>('discovery');
   const [activeLabStep, setActiveLabStep] = useState<number>(0);
@@ -1619,8 +1623,9 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
     const totalCorrect = Object.values(challengeStatus).filter((s) => s === 'correct').length;
     if (totalCorrect >= 15) {
       recordGameScore(totalCorrect * 10, CHALLENGES.length * 10);
+      if (onComplete) onComplete(totalCorrect * 10);
     }
-  }, [challengeStatus]);
+  }, [challengeStatus, onComplete]);
 
   // Nav Handlers
   const handleNextChallenge = () => {

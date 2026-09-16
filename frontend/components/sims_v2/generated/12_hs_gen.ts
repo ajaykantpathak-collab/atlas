@@ -28,6 +28,7 @@ export const C12_HS_GEN: SimDef[] = [
    "c12_hs_cbse_01_007",
    "c12_hs_cbse_01_008",
    "c12_hs_cbse_01_009",
+   "c12_hs_cbse_01_010",
    "c12_hs_cbse_01_011",
    "c12_hs_cbse_01_012"
   ],
@@ -103,6 +104,12 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "Entrepreneurship",
+    "text": "Entrepreneurship is the process of creating, launching, and managing a new and innovative enterprise, product, or service by assembling resources and taking calculated risks to generate value, which may be economic (profit) or social (community impact).",
+    "emoji": "🏠",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
     "title": "Work Ethics",
     "text": "Work ethics refers to the set of moral principles and values that guide professional conduct, including integrity, accountability, diligence, and respect for the dignity of all labour; professionalism is the consistent demonstration of these ethics through",
     "emoji": "🏠",
@@ -121,8 +128,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "According to the NCERT textbook, which of the following is NOT a criterion for work to be considered \"meaningful work\"? A. The work is useful to society or others B. The work is done responsibly C. The work provides high financial compensation D. The work is enjoyable to the worker",
     "answer": "C. The work provides high financial compensation. Meaningful work is defined by its social utility, responsible execution, enjoyability, and opportunity for skill/creativity use",
     "options": [
-     "Total waking hours ≈ 16 hrs. Paid work = 8.5 hrs for both. Leisure: women <2 hrs, men >2 hrs (say 3 hrs avg)",
-     "Correct mapping: loom → physical capital; weaving skills → human capital; cooperative membership → social capital; savings → financial capital",
+     "The 'choice' argument ignores structural constraints: (1) unpaid care work is disproportionately assigned to women through socialisation, not innate preference",
+     "The statement is incorrect. NCERT defines meaningful work as \"useful to society... enjoyable to the worker",
      "C. The work provides high financial compensation. Meaningful work is defined by its social utility, responsible execution, enjoyability, and opportunity for skill/creativity use"
     ],
     "hint": "Straight from the 'Work' slide -- match the key terms.",
@@ -464,6 +471,58 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "Define entrepreneurship as per the NCERT Class 12 textbook. How does it differ from simply being self-employed?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The difference",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Definition",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Self-employment",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who equates entrepreneurship with any self-employment misses the required innovation and misclassifies traditional shopkeepers as entrepreneurs in case-study questions.",
+    "id": "gen_c12_hs_ch01_q10",
+    "nodeId": "c12_hs_cbse_01_010",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a Class 12 student, Priya, who loves baking and sells customised cakes to neighbours from her home kitchen.",
+     "She earns pocket money but wonders: \"Am I an entrepreneur or just a home-based worker?",
+     "Then introduce the NCERT definition: entrepreneurship requires *innovation* (new product/process), *risk-taking* (investing time/money without",
+     "Map Priya's actions to the 15 characteristics (e.g., \"willingness to work hard\" = baking late nights; \"ability to negotiate\" = setting prices)."
+    ]
+   },
+   {
+    "type": "order",
     "question": "A junior dietitian in a hospital observes that the senior dietitian consistently alters patient meal plans to use cheaper, lower-quality ingredients to cut costs, without informing patients or doctors.",
     "sortItems": [
      {
@@ -515,7 +574,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"stay silent to keep the job\") reveals the student prioritises self-preservation over professional ethics, missing that the textbook states 'being ethical at all times earns respect of colleagues'.",
-    "id": "gen_c12_hs_ch01_q10",
+    "id": "gen_c12_hs_ch01_q11",
     "nodeId": "c12_hs_cbse_01_011",
     "difficulty": "standard",
     "workedExample": [
@@ -567,7 +626,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer listing only 'dietitian', 'teacher', or 'fashion designer' reveals the student conflates traditional roles with emerging ones and cannot distinguish new market-driven specialisations from established pathways.",
-    "id": "gen_c12_hs_ch01_q11",
+    "id": "gen_c12_hs_ch01_q12",
     "nodeId": "c12_hs_cbse_01_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -619,7 +678,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Lijjat's strengths: 45,000 women, dignified income, collective ownership, flexible hours accommodating care work.",
-    "id": "gen_c12_hs_ch01_q12",
+    "id": "gen_c12_hs_ch01_q13",
     "nodeId": "c12_hs_cbse_01_008",
     "difficulty": "advanced"
    },
@@ -676,9 +735,191 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that skips the traditional craft link or ignores policy/market channels shows inability to synthesize chapter concepts (traditional occupations + entrepreneurship + government initiatives).",
-    "id": "gen_c12_hs_ch01_q13",
+    "id": "gen_c12_hs_ch01_q14",
     "nodeId": "c12_hs_cbse_01_009",
     "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Compare and contrast the role of innovation in commercial entrepreneurship vs. social entrepreneurship as per the NCERT text. Use the examples of (a) a tech startup making a new fitness tracker and (b) the Lijjat Papad cooperative.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Social innovation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The shared core",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The contrast",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Commercial innovation",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who says social entrepreneurship lacks innovation because the product is traditional misses that the innovation often lies in the business model and delivery.",
+    "id": "gen_c12_hs_ch01_q15",
+    "nodeId": "c12_hs_cbse_01_010",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "Critique the statement: \"Entrepreneurs are born, not made — you either have the 15 characteristics or you don't.\" Use the NCERT perspective on entrepreneurial competencies and the concept of \"life skills\" from the same chapter to support your evaluation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The takeaway",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "The evidence",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The life-skills link",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Verdict",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Verdict — false according to the textbook, which treats the characteristics as competencies that can be acquired",
+    "id": "gen_c12_hs_ch01_q16",
+    "nodeId": "c12_hs_cbse_01_010",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "Design a social entrepreneurship idea for your local community that addresses a Home Science-related problem (nutrition, textile waste, childcare, elder care, etc.). Write a 100-word pitch covering: (a) the underserved group, (b) the innovative solution, (c) how it creates livelihood, (d) two entrepreneurial",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The underserved group",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The livelihood link",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The dual metrics",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "The characteristics",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "The innovative solution",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer names a vague target group, copies an existing daycare, or reports only profit metrics.",
+    "id": "gen_c12_hs_ch01_q17",
+    "nodeId": "c12_hs_cbse_01_010",
+    "difficulty": "standard"
    },
    {
     "type": "order",
@@ -744,132 +985,8 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer (e.g., generic rules like \"be on time\") shows the student cannot translate abstract values into contextualised ethical practices — a key board exam skill.",
-    "id": "gen_c12_hs_ch01_q14",
-    "nodeId": "c12_hs_cbse_01_011",
-    "difficulty": "standard"
-   },
-   {
-    "type": "order",
-    "question": "A Home Science graduate wants to launch a startup producing millet-based snack bars for urban office-goers. Map each step of the product development process to the specific HEFS competency used (e.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Ingredient selection & nutritional profiling",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Sensory evaluation trials → Communication &",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Brand storytelling & digital marketing",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
-      "id": "s3",
-      "label": "Process standardisation & HACCP compliance",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s4",
-      "label": "Sustainable packaging",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s5",
-      "label": "Supply chain & costing → Family Resource",
-      "emoji": "📌",
-      "correctBin": "o5"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     },
-     {
-      "id": "o5",
-      "label": "6th",
-      "color": "#ec4899"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer that lists only 'cooking' and 'selling' reveals failure to deconstruct entrepreneurship into discipline-specific competencies taught across the HEFS curriculum.",
-    "id": "gen_c12_hs_ch01_q15",
-    "nodeId": "c12_hs_cbse_01_012",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A software engineer earns ₹50 lakh/year but finds the work monotonous, feels no connection to the product, and would quit immediately if financially secure. A potter earns ₹3 lakh/year, loves shaping clay, feels her work preserves cultural heritage, and teaches apprentices.",
-    "answer": "Software engineer: Job perspective — works primarily for income (\"source of income enabling desired outcomes\"), finds satisfaction in salary, not the work itself",
-    "options": [
-     "C. The work provides high financial compensation. Meaningful work is defined by its social utility, responsible execution, enjoyability, and opportunity for skill/creativity use",
-     "(sample five): 1. Willingness to work hard – develops app, manages operations long hours. 2. Courage to take calculated risks – invests savings despite uncertain returns",
-     "Software engineer: Job perspective — works primarily for income (\"source of income enabling desired outcomes\"), finds satisfaction in salary, not the work itself"
-    ],
-    "hint": "Straight from the 'Work' slide -- match the key terms.",
-    "misconception": "A student who classifies the engineer as \"career\" because of high pay reveals the misconception that career = high status/pay, missing that career requires \"deep desire to excel and passionate need to grow\" in the chosen field.",
-    "id": "gen_c12_hs_ch01_q16",
-    "nodeId": "c12_hs_cbse_01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare and contrast \"Quality of Work Life (QWL)\" and \"Standard of Living\" using the textbook's treatment. Why does the textbook warn: \"It is not how much you make that matters. What is important is whether or not you are able to live your life in a happy way\"?",
-    "answer": "Standard of Living = material/economic dimension (income, possessions, housing). QWL = holistic well-being: job satisfaction, work relationships, stress absence",
-    "options": [
-     "Student A shows a clearer match: empathy + biology directly align with nursing/paramedical roles (high compatibility)",
-     "Work as a job: done for income, satisfaction from pay. Work as a career: done for advancement, satisfaction from progress",
-     "Standard of Living = material/economic dimension (income, possessions, housing). QWL = holistic well-being: job satisfaction, work relationships, stress absence"
-    ],
-    "hint": "Straight from the 'Work' slide -- match the key terms.",
-    "misconception": "A student who equates QWL with salary/benefits misses that QWL explicitly includes \"satisfying employees' social and psychological needs\" as equally important to economic needs.",
-    "id": "gen_c12_hs_ch01_q17",
-    "nodeId": "c12_hs_cbse_01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this statement using textbook concepts: \"Ergonomics is just about buying expensive chairs and keyboards for office workers.\" Evaluate whether this view supports or undermines the dignity of labour principle.",
-    "answer": "The statement is reductionist and incorrect. Ergonomics is \"the study of humans at work\" to \"adapt the work environment to the worker\"",
-    "options": [
-     "The statement is a misconception because: (a) Home Science is multidisciplinary (biology, chemistry, economics, sociology, technology) and open to all genders",
-     "Interest alone is insufficient because: (1) Aptitude determines whether the student can acquire the rigorous scientific knowledge and clinical skills required",
-     "The statement is reductionist and incorrect. Ergonomics is \"the study of humans at work\" to \"adapt the work environment to the worker\""
-    ],
-    "hint": "Straight from the 'Work' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is reductionist and incorrect. Ergonomics is \"the study of humans at work\" to \"adapt the work environment",
     "id": "gen_c12_hs_ch01_q18",
-    "nodeId": "c12_hs_cbse_01_001",
+    "nodeId": "c12_hs_cbse_01_011",
     "difficulty": "standard"
    }
   ],
@@ -897,6 +1014,7 @@ export const C12_HS_GEN: SimDef[] = [
   "nodeIds": [
    "c12_hs_cbse_02_001",
    "c12_hs_cbse_02_002",
+   "c12_hs_cbse_02_005",
    "c12_hs_cbse_02_006",
    "c12_hs_cbse_02_007",
    "c12_hs_cbse_02_008",
@@ -933,6 +1051,12 @@ export const C12_HS_GEN: SimDef[] = [
     "text": "Food functions refer to the three fundamental roles food plays in human life: physiological (providing energy, building/repairing tissues, regulating metabolic processes), psychological (satisfying hunger, providing sensory pleasure, offering emotional",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Lipids",
+    "text": "Lipids are a heterogeneous group of organic compounds insoluble in water but soluble in non-polar solvents, primarily composed of carbon, hydrogen, and oxygen, classified into simple lipids (triglycerides, waxes), compound lipids (phospholipids, glycolipids),",
+    "emoji": "🏠",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "Fat-soluble Vitamins",
@@ -983,9 +1107,9 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "A food technologist develops a new high-protein snack using extrusion cooking. The product tastes good and has 20 g protein per 100 g. As a nutrition student, what TWO questions would you ask about the protein quality and bioavailability before recommending it for a school feeding programme?",
     "answer": "1) What is the Protein Digestibility Corrected Amino Acid Score (PDCAAS) or Digestible Indispensable Amino Acid Score (DIAAS) of the extruded product?",
     "options": [
-     "Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.9 + faecal (~0.1) = 2.2 L",
+     "The statement is flawed. Although UV-B converts 7-dehydrocholesterol to pre-vitamin D3 in skin, factors like melanin pigmentation, sunscreen use, clothing coverage",
      "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations",
-     "1) What is the Micro-feeder Amino Acid Score (PDCAAS) or Digestible Indispensable Amino Acid Score (DIAAS) of the extruded product?",
+     "1) What is the Hot-fill Amino Acid Score (PDCAAS) or Digestible Indispensable Amino Acid Score (DIAAS) of the extruded product?",
      "1) What is the Protein Digestibility Corrected Amino Acid Score (PDCAAS) or Digestible Indispensable Amino Acid Score (DIAAS) of the extruded product?"
     ],
     "hint": "Straight from the 'Food Science' slide -- match the key terms.",
@@ -1022,17 +1146,80 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a one-day lipid-modified menu for a 60-year-old post-MI patient with dyslipidemia (LDL 160 mg/dL, TG 220 mg/dL, HDL 35 mg/dL) using ICMR 2020 guidelines, specifying oil choices, visible fat quantity, and omega-3 sources.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Fat budget",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The day's menu",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Oil allocation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Omega-3 sources",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer prescribes generic low-fat eating without quantitative oil allocation, omega-3 specification or cooking method.",
+    "id": "gen_c12_hs_ch02_q3",
+    "nodeId": "c12_hs_cbse_02_005",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Start by asking: \"Why does ghee solidify in winter but mustard oil stays liquid — and why does your nutritionist insist on both omega-3 and omega-6?",
+     "Begin with the Class 11 biomolecules foundation: fatty acid structure (chain length, saturation, cis/trans).",
+     "Build classification stepwise: glycerol backbone → simple lipids (triglycerides for energy storage); phosphate/sugar head groups → compound lipids",
+     "Introduce essential fatty acids as \"the two the body cannot make\" — linoleic (omega-6) and alpha-linolenic (omega-3) — and trace their conversion to"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A 6-year-old child presents with night blindness, Bitot's spots, and frequent respiratory infections. The child's diet is predominantly rice and lentils with negligible oil, ghee, or vegetables.",
     "answer": "(a) Vitamin A deficiency. (b) Animal: liver, egg yolk, whole milk, butter. Plant: carrots, spinach, pumpkin, mango (β-carotene)",
     "options": [
+     "*Dal-chawal* daily: primarily physiological (energy, protein) with secondary psychological (comfort of routine)",
      "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations",
-     "Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.9 + faecal (~0.1) = 2.2 L",
      "(a) Vitamin A deficiency. (b) Animal: liver, egg yolk, whole milk, butter. Plant: carrots, spinach, pumpkin, mango (β-carotene)"
     ],
     "hint": "Straight from the 'Fat-soluble vitamins' slide -- match the key terms.",
     "misconception": "A wrong answer that cites only \"poor diet\" without the fat-absorption link misses the specific pathophysiological mechanism; confusing β-carotene with preformed vitamin A indicates lack of distinction between provitamin and active forms.",
-    "id": "gen_c12_hs_ch02_q3",
+    "id": "gen_c12_hs_ch02_q4",
     "nodeId": "c12_hs_cbse_02_006",
     "difficulty": "standard",
     "workedExample": [
@@ -1053,7 +1240,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Water-soluble vitamins' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming FAD or NAD+) reveals confusion between different B-vitamin coenzymes and their specific metabolic roles.",
-    "id": "gen_c12_hs_ch02_q4",
+    "id": "gen_c12_hs_ch02_q5",
     "nodeId": "c12_hs_cbse_02_007",
     "difficulty": "standard",
     "workedExample": [
@@ -1074,7 +1261,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Macro and micro minerals' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"goitrogens block iodine\" without distinguishing uptake vs organification inhibition, or blames only soil deficiency, misses the nuance that food processing (soaking, fermentation) reduces cyanogens — a key public health nutrition concept in CBSE and CUET.",
-    "id": "gen_c12_hs_ch02_q5",
+    "id": "gen_c12_hs_ch02_q6",
     "nodeId": "c12_hs_cbse_02_008",
     "difficulty": "standard",
     "workedExample": [
@@ -1089,13 +1276,13 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "A 60 kg sedentary woman in Mumbai (humid climate) consumes 1.8 L water from beverages and 0.6 L from food. Her urine output is 1.2 L/day, insensible losses estimated at 0.9 L/day. Is she in positive, negative, or neutral water balance? Show calculation.",
     "answer": "Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.9 + faecal (~0.1) = 2.2 L",
     "options": [
-     "The statement is flawed. Although UV-B converts 7-dehydrocholesterol to pre-vitamin D3 in skin, factors like melanin pigmentation, sunscreen use, clothing coverage",
-     "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations",
+     "(a) Vitamin A deficiency. (b) Animal: liver, egg yolk, whole milk, butter. Plant: carrots, spinach, pumpkin, mango (β-carotene)",
+     "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation",
      "Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.9 + faecal (~0.1) = 2.2 L"
     ],
     "hint": "Straight from the 'Water' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.",
-    "id": "gen_c12_hs_ch02_q6",
+    "id": "gen_c12_hs_ch02_q7",
     "nodeId": "c12_hs_cbse_02_009",
     "difficulty": "standard",
     "workedExample": [
@@ -1116,7 +1303,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Food processing' slide -- match the key terms.",
     "misconception": "A WRONG answer claiming \"fruits don't have enzymes\" reveals ignorance of enzymatic browning in cut apples/bananas — the issue is pH-dependent enzyme kinetics, not absence of enzymes.",
-    "id": "gen_c12_hs_ch02_q7",
+    "id": "gen_c12_hs_ch02_q8",
     "nodeId": "c12_hs_cbse_02_010",
     "difficulty": "standard",
     "workedExample": [
@@ -1135,7 +1322,7 @@ export const C12_HS_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer (e.g., ignoring density, comparing 600 mg/L directly to 700 mg/kg) reveals failure to handle unit mismatch (mass/mass vs mass/volume) — a common board exam trap where limits are in mg/kg but formulations use mg/L.",
-    "id": "gen_c12_hs_ch02_q8",
+    "id": "gen_c12_hs_ch02_q9",
     "nodeId": "c12_hs_cbse_02_011",
     "difficulty": "standard",
     "workedExample": [
@@ -1198,7 +1385,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that simply says \"it's a good idea\" shows the student lacks critical analysis of programmatic limitations.",
-    "id": "gen_c12_hs_ch02_q9",
+    "id": "gen_c12_hs_ch02_q10",
     "nodeId": "c12_hs_cbse_02_012",
     "difficulty": "standard",
     "workedExample": [
@@ -1219,7 +1406,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Food functions refer to the' slide -- match the key terms.",
     "misconception": "A weak answer listing only \"both involve eating together\" misses the sociological depth required for 4-mark \"analyse\" questions.",
-    "id": "gen_c12_hs_ch02_q10",
+    "id": "gen_c12_hs_ch02_q11",
     "nodeId": "c12_hs_cbse_02_002",
     "difficulty": "standard"
    },
@@ -1229,14 +1416,29 @@ export const C12_HS_GEN: SimDef[] = [
     "answer": "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations",
     "options": [
      "1) What is the Protein Digestibility Corrected Amino Acid Score (PDCAAS) or Digestible Indispensable Amino Acid Score (DIAAS) of the extruded product?",
-     "(a) Vitamin A deficiency. (b) Animal: liver, egg yolk, whole milk, butter. Plant: carrots, spinach, pumpkin, mango (β-carotene)",
+     "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation",
      "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations"
     ],
     "hint": "Straight from the 'Food functions refer to the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific",
-    "id": "gen_c12_hs_ch02_q11",
+    "id": "gen_c12_hs_ch02_q12",
     "nodeId": "c12_hs_cbse_02_002",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a one-day lipid-modified menu for a 60-year-old post-MI patient with dyslipidemia (LDL 160 mg/dL, TG 220 mg/dL, HDL 35 mg/dL) using ICMR 2020 guidelines, specifying oil choices, visible fat quantity, and omega-3 sources.",
+    "answer": "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation",
+    "options": [
+     "*Dal-chawal* daily: primarily physiological (energy, protein) with secondary psychological (comfort of routine)",
+     "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations",
+     "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation"
+    ],
+    "hint": "Straight from the 'Lipids' slide -- match the key terms.",
+    "misconception": "A poor answer prescribes generic low-fat eating without quantitative oil allocation, omega-3 specification or cooking method.",
+    "id": "gen_c12_hs_ch02_q13",
+    "nodeId": "c12_hs_cbse_02_005",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -1244,12 +1446,12 @@ export const C12_HS_GEN: SimDef[] = [
     "answer": "The statement is flawed. Although UV-B converts 7-dehydrocholesterol to pre-vitamin D3 in skin, factors like melanin pigmentation, sunscreen use, clothing coverage",
     "options": [
      "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations",
-     "Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.9 + faecal (~0.1) = 2.2 L",
+     "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation",
      "The statement is flawed. Although UV-B converts 7-dehydrocholesterol to pre-vitamin D3 in skin, factors like melanin pigmentation, sunscreen use, clothing coverage"
     ],
     "hint": "Straight from the 'Fat-soluble vitamins' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees with the statement ignores the multifactorial determinants of cutaneous synthesis and the public health reality.",
-    "id": "gen_c12_hs_ch02_q12",
+    "id": "gen_c12_hs_ch02_q14",
     "nodeId": "c12_hs_cbse_02_006",
     "difficulty": "standard"
    },
@@ -1264,7 +1466,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Water-soluble vitamins' slide -- match the key terms.",
     "misconception": "A response that conflates the two mechanisms or omits the specific enzymatic steps shows incomplete analytical understanding.",
-    "id": "gen_c12_hs_ch02_q13",
+    "id": "gen_c12_hs_ch02_q15",
     "nodeId": "c12_hs_cbse_02_007",
     "difficulty": "standard"
    },
@@ -1274,13 +1476,28 @@ export const C12_HS_GEN: SimDef[] = [
     "answer": "Option A: Hot-fill at 90°C kills vegetative microbes and creates vacuum seal; at pH 3.8, Clostridium botulinum cannot grow (needs pH > 4",
     "options": [
      "*Dal-chawal* daily: primarily physiological (energy, protein) with secondary psychological (comfort of routine)",
-     "The statement is flawed. Although UV-B converts 7-dehydrocholesterol to pre-vitamin D3 in skin, factors like melanin pigmentation, sunscreen use, clothing coverage",
+     "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation",
      "Option A: Hot-fill at 90°C kills vegetative microbes and creates vacuum seal; at pH 3.8, Clostridium botulinum cannot grow (needs pH > 4"
     ],
     "hint": "Straight from the 'Food processing' slide -- match the key terms.",
     "misconception": "A WRONG answer choosing C reveals over-reliance on water activity reduction without considering that acid foods need less severe heat treatment — \"hurdle technology\" principle.",
-    "id": "gen_c12_hs_ch02_q14",
+    "id": "gen_c12_hs_ch02_q16",
     "nodeId": "c12_hs_cbse_02_010",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A manufacturer wants to use aspartame (INS 951) in a carbonated beverage at 600 mg/L. The FSSAI limit for aspartame in carbonated water-based flavored drinks is 700 mg/kg (max). The beverage density is 1.02 g/mL. Calculate whether 600 mg/L complies with the regulation. Show unit conversion steps.",
+    "answer": "Step 1: Convert limit to mg/L: 700 mg/kg × 1.02 kg/L = 714 mg/L. Step 2: Compare: 600 mg/L < 714 mg/L → compliant",
+    "options": [
+     "The claim is correct. Emulsifiers (e.g., INS 322 lecithin) reduce interfacial tension between immiscible phases (oil-water) to form stable emulsions",
+     "INS 220 is sulfur dioxide (SO₂), which functions primarily as an antioxidant and antimicrobial agent — it prevents enzymatic browning (non-microbial) and microbial growth",
+     "Step 1: Convert limit to mg/L: 700 mg/kg × 1.02 kg/L = 714 mg/L. Step 2: Compare: 600 mg/L < 714 mg/L → compliant"
+    ],
+    "hint": "Straight from the 'Food additives' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., ignoring density, comparing 600 mg/L directly to 700 mg/kg) reveals failure to handle unit mismatch (mass/mass vs mass/volume) — a common board exam trap where limits are in mg/kg but formulations use mg/L.",
+    "id": "gen_c12_hs_ch02_q17",
+    "nodeId": "c12_hs_cbse_02_011",
     "difficulty": "standard"
    },
    {
@@ -1288,59 +1505,14 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "A student sees \"INS 220\" on a dried apricot pack and writes: \"This is a preservative added to prevent microbial spoilage.\" Is this statement fully correct? Explain what INS 220 actually is and its primary function in dried fruits.",
     "answer": "INS 220 is sulfur dioxide (SO₂), which functions primarily as an antioxidant and antimicrobial agent — it prevents enzymatic browning (non-microbial) and microbial growth",
     "options": [
-     "(a) Vitamin A deficiency. (b) Animal: liver, egg yolk, whole milk, butter. Plant: carrots, spinach, pumpkin, mango (β-carotene)",
+     "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation",
      "The claim is correct. Emulsifiers (e.g., INS 322 lecithin) reduce interfacial tension between immiscible phases (oil-water) to form stable emulsions",
      "INS 220 is sulfur dioxide (SO₂), which functions primarily as an antioxidant and antimicrobial agent — it prevents enzymatic browning (non-microbial) and microbial growth"
     ],
     "hint": "Straight from the 'Food additives' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student conflates all additives in the \"preservative\" category (INS 200–299) with only antimicrobial action, ignoring that many serve dual functions (antioxidant + antimicrobial) and that INS 220's primary technological need in dried fruits is color retention via enzyme inhibition.",
-    "id": "gen_c12_hs_ch02_q15",
-    "nodeId": "c12_hs_cbse_02_011",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the safety assessment paradigm for food additives (ADI based on NOAEL ÷ 100) with that for pesticide residues (MRL based on supervised field trials + dietary risk assessment). Identify two fundamental differences in the toxicological endpoints and exposure assumptions.",
-    "answer": "Difference 1: Additives use NOAEL from chronic animal studies (lifetime exposure) with 100× safety factor (10× interspecies × 10× intraspecies)",
-    "options": [
-     "USI succeeded because: (1) salt is universally consumed in small, consistent amounts across all socioeconomic groups, (2) iodine (as potassium iodate) is stable in salt",
-     "Similarities: (1) Both use food to build/maintain social bonds — langar fosters equality and community; business lunch builds professional rapport",
-     "Difference 1: Additives use NOAEL from chronic animal studies (lifetime exposure) with 100× safety factor (10× interspecies × 10× intraspecies)"
-    ],
-    "hint": "Straight from the 'Food additives' slide -- match the key terms.",
-    "misconception": "A wrong answer conflates \"intentional ingredient\" with \"unavoidable residue\" and misses that additive ADI protects against the additive itself, while pesticide MRL enforces good practice and checks aggregate exposure.",
-    "id": "gen_c12_hs_ch02_q16",
-    "nodeId": "c12_hs_cbse_02_011",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Two students debate: \"All emulsifiers are stabilizers, but not all stabilizers are emulsifiers.\" Evaluate this claim using FSSAI functional categories (INS 322 lecithin vs INS 412 guar gum) and explain the technological distinction between emulsification and stabilization.",
-    "answer": "The claim is correct. Emulsifiers (e.g., INS 322 lecithin) reduce interfacial tension between immiscible phases (oil-water) to form stable emulsions",
-    "options": [
-     "1) What is the Protein Digestibility Corrected Amino Acid Score (PDCAAS) or Digestible Indispensable Amino Acid Score (DIAAS) of the extruded product?",
-     "*Dal-chawal* daily: primarily physiological (energy, protein) with secondary psychological (comfort of routine)",
-     "The claim is correct. Emulsifiers (e.g., INS 322 lecithin) reduce interfacial tension between immiscible phases (oil-water) to form stable emulsions"
-    ],
-    "hint": "Straight from the 'Food additives' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals confusion between \"forming an emulsion\" (emulsifier) and \"maintaining physical stability\" (stabilizer) — distinct technological purposes.",
-    "id": "gen_c12_hs_ch02_q17",
-    "nodeId": "c12_hs_cbse_02_011",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the public health impact of India's Universal Salt Iodization (USI) program with the relatively newer Double Fortified Salt (DFS) program (iron + iodine). Why has USI achieved near-universal coverage while DFS rollout has been slower?",
-    "answer": "USI succeeded because: (1) salt is universally consumed in small, consistent amounts across all socioeconomic groups, (2) iodine (as potassium iodate) is stable in salt",
-    "options": [
-     "Similarities: (1) Both use food to build/maintain social bonds — langar fosters equality and community; business lunch builds professional rapport",
-     "B12 (as methylcobalamin) is required for methionine synthase, which regenerates tetrahydrofolate and methylates homocysteine",
-     "USI succeeded because: (1) salt is universally consumed in small, consistent amounts across all socioeconomic groups, (2) iodine (as potassium iodate) is stable in salt"
-    ],
-    "hint": "Straight from the 'Food fortification' slide -- match the key terms.",
-    "misconception": "A wrong answer that attributes DFS slowness only to \"cost\" misses the technical and sensory barriers.",
     "id": "gen_c12_hs_ch02_q18",
-    "nodeId": "c12_hs_cbse_02_012",
+    "nodeId": "c12_hs_cbse_02_011",
     "difficulty": "standard"
    }
   ],
@@ -1896,6 +2068,21 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A 14-year-old adolescent shows sudden growth spurt, develops abstract reasoning about justice, and experiences intense peer-group loyalty. Map each of these three changes to the correct developmental domain (physical, cognitive, socio-emotional) and name the stage.",
+    "answer": "Stage: Adolescence (11–18 years). Mapping: (1) Sudden growth spurt → Physical domain (pubertal changes: height/weight surge, secondary sexual characteristics)",
+    "options": [
+     "The statement overstates rigidity. While Piaget emphasized stage invariance, studies (e.g., Gelman, 1972",
+     "The child is in Stage 3: Initiative vs. Guilt (ages 3-6). The crisis is between taking initiative in planning/doing activities vs",
+     "Stage: Adolescence (11–18 years). Mapping: (1) Sudden growth spurt → Physical domain (pubertal changes: height/weight surge, secondary sexual characteristics)"
+    ],
+    "hint": "Straight from the 'Human development stages refer to' slide -- match the key terms.",
+    "misconception": "A wrong mapping (e.g., assigning abstract reasoning to socio-emotional) shows the student cannot distinguish domain-specific manifestations of the same stage.",
+    "id": "gen_c12_hs_ch03_q15",
+    "nodeId": "c12_hs_cbse_03_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate this statement: \"Late adulthood (65+) is primarily a stage of decline — physical deterioration, cognitive slowing, and social isolation.\" Use the life-span perspective (multidirectionality, plasticity, multidimensionality) to support your evaluation.",
     "answer": "The statement is incomplete and misleading. Life-span perspective shows: (1) Multidirectionality: Late adulthood involves *gains* (crystallized intelligence, emotional regulation",
     "options": [
@@ -1905,7 +2092,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Human development stages refer to' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement ignores the multidimensional, plastic nature of development — a common board exam trap where \"ageing = decline\" is oversimplified.",
-    "id": "gen_c12_hs_ch03_q15",
+    "id": "gen_c12_hs_ch03_q16",
     "nodeId": "c12_hs_cbse_03_002",
     "difficulty": "standard"
    },
@@ -1920,7 +2107,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Piaget's Cognitive Development' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Preoperational child: \"It's different now, it's flat\" — focuses on irreversible perceptual change, lacks conservation.",
-    "id": "gen_c12_hs_ch03_q16",
+    "id": "gen_c12_hs_ch03_q17",
     "nodeId": "c12_hs_cbse_03_003",
     "difficulty": "standard"
    },
@@ -1935,21 +2122,6 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Piaget's Cognitive Development' slide -- match the key terms.",
     "misconception": "A wrong answer dismissing all training effects ignores decades of neo-Piagetian research.",
-    "id": "gen_c12_hs_ch03_q17",
-    "nodeId": "c12_hs_cbse_03_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words why a 6-month-old does not search for a toy hidden under a blanket, but a 10-month-old does. Use the terms \"schema\" and \"object permanence.\"",
-    "answer": "The 6-month-old lacks the schema of object permanence — the understanding that objects exist independently of perception",
-    "options": [
-     "The statement is incomplete and misleading. Life-span perspective shows: (1) Multidirectionality: Late adulthood involves *gains* (crystallized intelligence, emotional regulation",
-     "The statement is false — it confuses *structural change* with *institutional decline*. Evidence: (1) Marriage age rising (women: 22",
-     "The 6-month-old lacks the schema of object permanence — the understanding that objects exist independently of perception"
-    ],
-    "hint": "Straight from the 'Piaget's Cognitive Development' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"memory\" misses the constructive, schema-based nature of Piaget's theory.",
     "id": "gen_c12_hs_ch03_q18",
     "nodeId": "c12_hs_cbse_03_003",
     "difficulty": "standard"
@@ -2578,6 +2750,21 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student says: \"All natural fibres are biodegradable and all synthetic fibres are non-biodegradable, so natural fibres are always better for the environment.\" Explain why this statement is an oversimplification. Use the concepts of regenerated fibres and fibre blends in your answer.",
+    "answer": "The statement is an oversimplification because: (1) Regenerated fibres (e.g., rayon, lyocell) are manufactured from natural polymers (cellulose) but involve chemical processing",
+    "options": [
+     "1. Singeing (mechanical) — remove protruding fibres for smooth surface. 2. Desizing/scouring/bleaching (wet prep) — not finishes but essential prep",
+     "Flowchart: 1. Burning test: - Burns with paper smell, grey ash → cellulosic → go to step 2a. - Melts, sweet odour, hard bead → synthetic → go to step 2b",
+     "The statement is an oversimplification because: (1) Regenerated fibres (e.g., rayon, lyocell) are manufactured from natural polymers (cellulose) but involve chemical processing"
+    ],
+    "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
+    "misconception": "A wrong answer that only mentions \"natural fibres decompose faster\" misses the nuance of regenerated fibres and blended fabrics, showing the student relies on a binary heuristic rather than systems thinking.",
+    "id": "gen_c12_hs_ch04_q14",
+    "nodeId": "c12_hs_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Analyse the following fibre property table and identify which fibre (A, B, C, or D) is most likely cotton, wool, polyester, and rayon. Justify each identification using at least two property matches.",
     "answer": "Fibre A = Cotton: High moisture regain (8.5% ≈ cotton's 7-8.5%), tenacity increases when wet (ratio >1), high thermal conductivity (cool feel)",
     "options": [
@@ -2587,7 +2774,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
     "misconception": "A wrong match (e.g., assigning rayon to Fibre A) shows the student doesn't know rayon's wet weakness or cotton's wet strength — a classic board exam trap.",
-    "id": "gen_c12_hs_ch04_q14",
+    "id": "gen_c12_hs_ch04_q15",
     "nodeId": "c12_hs_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2602,7 +2789,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
     "misconception": "A wrong answer that lists \"cotton and wool\" as the two categories reveals the student confuses sub-categories with primary categories, or thinks classification is based on chemical composition (cellulosic vs protein) rather than origin.",
-    "id": "gen_c12_hs_ch04_q15",
+    "id": "gen_c12_hs_ch04_q16",
     "nodeId": "c12_hs_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2617,7 +2804,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
     "misconception": "A wrong answer that blindly prefers the blend \"because it's modern and easy care\" ignores the physiological comfort criterion critical in tropical climates — a common error in case-based board questions.",
-    "id": "gen_c12_hs_ch04_q16",
+    "id": "gen_c12_hs_ch04_q17",
     "nodeId": "c12_hs_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2632,24 +2819,9 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
     "misconception": "A wrong answer choosing polyester because \"it dries fast\" ignores that drying speed ≠ moisture management for thermoregulation, and overlooks odour and wet-warmth — a common trap in competitive exams testing application over recall.",
-    "id": "gen_c12_hs_ch04_q17",
+    "id": "gen_c12_hs_ch04_q18",
     "nodeId": "c12_hs_cbse_04_001",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A spinning mill processes cotton with 3.8 Micronaire, 29 g/tex tenacity, and 80% maturity. They target 40s Ne carded yarn for knitting. Calculate the expected CSP (Count Strength Product) range using the empirical relation CSP ≈ 100 × (tenacity in g/tex) × (maturity ratio) / 28, and judge if this cotton meets the",
-    "answer": "Step 1: Identify given — tenacity = 29 g/tex, maturity = 80% = 0.80. Step 2: Apply formula — CSP = 100 × 29 × 0",
-    "options": [
-     "Double ikat (both warp and weft resist-dyed) — Pochampally ikat from Telangana (also accept Patan Patola from Gujarat as double ikat, but Pochampally is cotton)",
-     "100% cotton: burns quickly with yellow flame, smells like burning paper, leaves grey feathery ash. 65/35 polyester/cotton: cotton component burns similarly",
-     "Step 1: Identify given — tenacity = 29 g/tex, maturity = 80% = 0.80. Step 2: Apply formula — CSP = 100 × 29 × 0"
-    ],
-    "hint": "Straight from the 'Cotton fibre' slide -- match the key terms.",
-    "misconception": "A wrong answer using only tenacity (ignoring maturity) would overestimate CSP for immature cotton — a common error because students memorize \"high tenacity = good CSP\" but maturity modulates fibre cohesion and breakage.",
-    "id": "gen_c12_hs_ch04_q18",
-    "nodeId": "c12_hs_cbse_04_002",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -3367,6 +3539,21 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Create a \"resource map\" for a Class 12 student preparing for CUET. Include at least 3 human and 3 non-human resources. For each, specify whether it is renewable, depletable, or developable, and one management action to optimise it.",
+    "answer": "Good answer example: Human — (1) Cognitive ability: developable → management: daily practice tests",
+    "options": [
+     "Accessibility of the knowledge resource drops to near-zero because the sole holder (grandmother) is unavailable — accessibility depends on the resource being reachable when needed",
+     "The teacher's blunt \"Be specific\" violated the student's need for respect and privacy, triggering a psychological barrier (defensiveness/ego threat)",
+     "Good answer example: Human — (1) Cognitive ability: developable → management: daily practice tests"
+    ],
+    "hint": "Straight from the 'Resources' slide -- match the key terms.",
+    "misconception": "A poor answer that lists only tangible items (books, phone, desk) reveals the student still thinks resources are only physical objects — the core misconception this node targets.",
+    "id": "gen_c12_hs_ch05_q15",
+    "nodeId": "c12_hs_cbse_05_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate this statement: \"Money is the most important resource because it can buy all other resources.\" Defend or critique using the human/non-human classification.",
     "answer": "Critique. Money (non-human) can buy *some* non-human resources (goods, services, space) and *access* to human resources (hiring a tutor, paying a doctor)",
     "options": [
@@ -3376,7 +3563,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Resources' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees without qualification reveals the student equates \"access\" with \"ownership\" and misses that human resources require *personal investment* (time, effort) that money cannot substitute.",
-    "id": "gen_c12_hs_ch05_q15",
+    "id": "gen_c12_hs_ch05_q16",
     "nodeId": "c12_hs_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3391,7 +3578,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Resources' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both are non-human because they are facilities\") reveals the student thinks any shared or public resource is automatically non-human, missing the distinction between *where* the resource resides (inside a person vs outside).",
-    "id": "gen_c12_hs_ch05_q16",
+    "id": "gen_c12_hs_ch05_q17",
     "nodeId": "c12_hs_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3406,23 +3593,8 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Resources' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., classifying \"student volunteers' time\" as non-human) reveals the student confuses the *person* (human) with the *time they give* (human resource) or thinks anything \"used\" is non-human. Time and energy are human resources because they are inseparable from the person.",
-    "id": "gen_c12_hs_ch05_q17",
-    "nodeId": "c12_hs_cbse_05_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A family has ₹50,000 savings (money resource) and an elderly grandmother who knows traditional herbal remedies (knowledge resource). The grandmother falls ill and cannot share her knowledge.",
-    "answer": "Accessibility of the knowledge resource drops to near-zero because the sole holder (grandmother) is unavailable — accessibility depends on the resource being reachable when needed",
-    "options": [
-     "The statement is reductionist. Money is only one non-human resource; resource interchangeability allows time, skills, social capital",
-     "Total income = ₹80,000 + ₹25,000 = ₹1,05,000. Savings target = 20% of ₹80,000 = ₹16,000. Contingency = 5% of ₹80,000 = ₹4,000",
-     "Accessibility of the knowledge resource drops to near-zero because the sole holder (grandmother) is unavailable — accessibility depends on the resource being reachable when needed"
-    ],
-    "hint": "Straight from the 'Utility, accessibility, and' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming \"money can buy everything\" shows the student misses the nuance that interchangeability is context-dependent and not absolute.",
     "id": "gen_c12_hs_ch05_q18",
-    "nodeId": "c12_hs_cbse_05_003",
+    "nodeId": "c12_hs_cbse_05_002",
     "difficulty": "standard"
    }
   ],
@@ -4036,6 +4208,21 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Critique this Extension objective: \"To ensure 100% adoption of drip irrigation in the command area within two years through intensive campaigns and subsidy linkage.\" Identify three flaws from an Extension philosophy perspective and rewrite the objective correctly.",
+    "answer": "Three flaws: (1) \"Ensure 100% adoption\" — violates voluntary participation; adoption must be a free, informed choice, not a target",
+    "options": [
+     "Two violations: (1) \"Teach illiterate women\" assumes a deficit model — Extension philosophy views learners as repositories of indigenous knowledge and experience",
+     "The statement misinterprets the Cone in three ways: (1) The cone describes a continuum of concreteness",
+     "Three flaws: (1) \"Ensure 100% adoption\" — violates voluntary participation; adoption must be a free, informed choice, not a target"
+    ],
+    "hint": "Straight from the 'Extension Education' slide -- match the key terms.",
+    "misconception": "A wrong answer that only changes \"100%\" to \"maximum\" retains the target-driven, campaign-oriented mindset.",
+    "id": "gen_c12_hs_ch06_q14",
+    "nodeId": "c12_hs_cbse_06_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a first-contact strategy for an Extension worker entering a tribal community that practices shifting cultivation. The community is suspicious of outsiders. Apply the principles of \"start where people are\" and \"learning by doing\" to list four specific actions the worker should take in the first month, with",
     "answer": "1. Participatory resource mapping with elders — builds trust by valuing indigenous knowledge (principle: start where people are)",
     "options": [
@@ -4045,7 +4232,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Extension Education' slide -- match the key terms.",
     "misconception": "A wrong answer that begins with \"awareness camps on government schemes\" violates the principle of starting with felt needs and ignores the trust deficit.",
-    "id": "gen_c12_hs_ch06_q14",
+    "id": "gen_c12_hs_ch06_q15",
     "nodeId": "c12_hs_cbse_06_001",
     "difficulty": "standard"
    },
@@ -4060,7 +4247,22 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'SMCRE model' slide -- match the key terms.",
     "misconception": "A wrong answer blaming only \"farmer resistance\" (Receiver) or \"poor Effect measurement\" reveals source-centric bias — ignoring that Source credibility alone cannot compensate for Message-Channel-Receiver mismatch.",
-    "id": "gen_c12_hs_ch06_q15",
+    "id": "gen_c12_hs_ch06_q16",
+    "nodeId": "c12_hs_cbse_06_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare SMCRE and Berlo's SMCR models on three dimensions: (1) Treatment of Effect, (2) Role of Source-Communication skills, (3) Linearity vs. Interactivity. Which model is more suitable for evaluating a one-time extension campaign with a clear behaviour-change objective? Why?",
+    "answer": "(1) SMCRE explicitly includes Effect as the fifth element; SMCR stops at Receiver (decoding). (2) Berlo elaborates Source factors (communication skills, attitudes, knowledge",
+    "options": [
+     "| Dimension | Projected Visual Aids (slides, filmstrips, OHP, LCD) | Non-Projected Visual Aids (posters, charts, models",
+     "Intrapersonal unique barrier: Cognitive dissonance / self-deception — internal psychological conflict distorts self-talk (e",
+     "(1) SMCRE explicitly includes Effect as the fifth element; SMCR stops at Receiver (decoding). (2) Berlo elaborates Source factors (communication skills, attitudes, knowledge"
+    ],
+    "hint": "Straight from the 'SMCRE model' slide -- match the key terms.",
+    "misconception": "A wrong answer choosing SMCR \"because it's more detailed\" reveals confusion between diagnostic granularity and evaluation purpose.",
+    "id": "gen_c12_hs_ch06_q17",
     "nodeId": "c12_hs_cbse_06_003",
     "difficulty": "advanced"
    },
@@ -4075,39 +4277,9 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'SMCRE model' slide -- match the key terms.",
     "misconception": "A wrong answer using rational/fear appeals, one-sided structure, or technical Hindi reveals failure to conduct Receiver analysis before Message design.",
-    "id": "gen_c12_hs_ch06_q16",
+    "id": "gen_c12_hs_ch06_q18",
     "nodeId": "c12_hs_cbse_06_003",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a three-step extension communication strategy to promote kitchen gardening in an urban slum community. Explicitly assign one step to intrapersonal, one to interpersonal, and one to mass communication. Explain the specific psychological function each step serves.",
-    "answer": "Step 1 (Mass): Distribute colorful posters in community centers and play a 2-min audio jingle on local cable TV",
-    "options": [
-     "1. Participatory resource mapping with elders — builds trust by valuing indigenous knowledge (principle: start where people are)",
-     "The statement is invalid. The whole family principle recognizes that decisions (e.g., adopting a new crop variety, building a toilet",
-     "Step 1 (Mass): Distribute colorful posters in community centers and play a 2-min audio jingle on local cable TV"
-    ],
-    "hint": "Straight from the 'Intrapersonal communication' slide -- match the key terms.",
-    "misconception": "A poor answer assigns generic activities without linking each to its unique psychological mechanism (e.g., using mass media for skill training).",
-    "id": "gen_c12_hs_ch06_q17",
-    "nodeId": "c12_hs_cbse_06_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare \"projected visual aids\" and \"non-projected visual aids\" on FOUR dimensions: equipment requirement, portability, audience size suitability, and cost. Present as a table.",
-    "answer": "| Dimension | Projected Visual Aids (slides, filmstrips, OHP, LCD) | Non-Projected Visual Aids (posters, charts, models",
-    "options": [
-     "Intrapersonal unique barrier: Cognitive dissonance / self-deception — internal psychological conflict distorts self-talk (e",
-     "PRA = Participatory Rural Appraisal; RRA = Rapid Rural Appraisal. Fundamental difference: In RRA, knowledge is primarily extracted by outsiders for external use",
-     "| Dimension | Projected Visual Aids (slides, filmstrips, OHP, LCD) | Non-Projected Visual Aids (posters, charts, models"
-    ],
-    "hint": "Straight from the 'Audio-Visual  aids in extension' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"projected aids are always better for large groups\" misses that they require darkened rooms (often unavailable in villages) and power; a wrong answer that equates cost only with production ignores recurring costs (bulbs, electricity, technician).",
-    "id": "gen_c12_hs_ch06_q18",
-    "nodeId": "c12_hs_cbse_06_006",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -4866,15 +5038,15 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Define human development in one sentence. How does it differ from 'growth'? Give one example of growth that is NOT development.",
-    "answer": "Human development is the lifelong, multidimensional process of quantitative and qualitative changes across physical, cognitive",
+    "question": "Critique this statement: \"Since development is lifelong, early childhood interventions are overrated — we can always fix deficits later.\" Use the concepts of critical/sensitive periods, plasticity, and cumulative risk to justify your position.",
+    "answer": "Correct critique: The statement misuses plasticity. While plasticity exists lifelong, it is not unlimited",
     "options": [
-     "Disengagement theory (Cumming & Henry, 1961) proposes that mutual withdrawal between older adults and society is inevitable, universal, and functional",
-     "The two directionality principles are: (1) Cephalocaudal — development proceeds from head to tail",
-     "Human development is the lifelong, multidimensional process of quantitative and qualitative changes across physical, cognitive"
+     "The statement is partially true but increasingly outdated. Data: median age at first marriage for urban women rose from 20",
+     "(A) Day 10 = germinal stage (pre-implantation or early implantation). Teratogens at this stage typically have an \"all-or-N/A\" effect: either the embryo is severely damaged and",
+     "Correct critique: The statement misuses plasticity. While plasticity exists lifelong, it is not unlimited"
     ],
     "hint": "Straight from the 'Human development' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"growth and development are the same\" or \"development stops at adulthood\") reveals confusion between quantitative and qualitative change, or ignorance of the life-span perspective.",
+    "misconception": "A wrong answer (e.g., \"plasticity means we can fix anything anytime\" or \"early childhood is the only thing that matters\") shows either overestimation of plasticity or ignorance of cumulative processes.",
     "id": "gen_c12_hs_ch07_q18",
     "nodeId": "c12_hs_cbse_07_001",
     "difficulty": "standard"
@@ -10011,6 +10183,21 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A farmer buys a tractor for ploughing his own fields. A contractor buys an identical tractor to rent out to farmers. Classify both buyers and justify using the \"purpose test\".",
+    "answer": "Farmer → Individual Consumer (self-employment in agriculture). Contractor → Reseller/Intermediary (providing rental service is a commercial activity",
+    "options": [
+     "The strategy overlooks: (1) Economic – price sensitivity even among high-income buyers during inflation; (2) Social – absence of influencer/peer endorsement in the new category",
+     "The statement is incorrect. Conc. HCl alone does not produce a magenta colour with metanil yellow. The correct test uses concentrated HCl + a few drops of water (or simply dilute",
+     "Farmer → Individual Consumer (self-employment in agriculture). Contractor → Reseller/Intermediary (providing rental service is a commercial activity"
+    ],
+    "hint": "Straight from the 'consumer' slide -- match the key terms.",
+    "misconception": "A wrong answer classifying the contractor as a consumer misses that *renting out* is a commercial service — the tractor is not for the contractor's own consumption.",
+    "id": "gen_c12_hs_ch13_q15",
+    "nodeId": "c12_hs_cbse_13_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A person purchases a laptop for their freelance graphic design work from home. Under the Consumer Protection Act, how is this buyer classified, and why?",
     "answer": "The buyer is an Individual Consumer (self-employment category). The Act explicitly includes goods bought for \"self-employment\" to earn a livelihood as consumer purchases",
     "options": [
@@ -10020,7 +10207,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'consumer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"commercial buyer\" or \"reseller\") reveals the misconception that any income-generating use makes the purchase commercial — the law distinguishes self-employment (livelihood) from resale (profit from trading).",
-    "id": "gen_c12_hs_ch13_q15",
+    "id": "gen_c12_hs_ch13_q16",
     "nodeId": "c12_hs_cbse_13_001",
     "difficulty": "standard"
    },
@@ -10035,7 +10222,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'consumer' slide -- match the key terms.",
     "misconception": "A wrong answer labelling both as government consumers fails to apply the \"end-use in service\" criterion.",
-    "id": "gen_c12_hs_ch13_q16",
+    "id": "gen_c12_hs_ch13_q17",
     "nodeId": "c12_hs_cbse_13_001",
     "difficulty": "standard"
    },
@@ -10050,21 +10237,6 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'consumer' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. The Act protects only those purchasing for *personal, household, or self-employment use* —",
-    "id": "gen_c12_hs_ch13_q17",
-    "nodeId": "c12_hs_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a 3-question checklist that a consumer forum lawyer would use to determine if a new client qualifies as a \"consumer\" under the Act. Each question must test a different classification boundary.",
-    "answer": "Good checklist: (1) \"Was the good/service bought for your own use, your family's use, or to earn your livelihood through self-employment?",
-    "options": [
-     "Publishing test results → Product testing & information dissemination (education). Filing representative complaint with CCPA → Legal advocacy & use of statutory representative",
-     "The consumer must file in the State Commission (Delhi) because the claim exceeds ₹20 lakh but is within ₹1 crore",
-     "Good checklist: (1) \"Was the good/service bought for your own use, your family's use, or to earn your livelihood through self-employment?"
-    ],
-    "hint": "Straight from the 'consumer' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Good checklist: (1) \"Was the good/service bought for your own use, your family's use, or to earn your livelihood",
     "id": "gen_c12_hs_ch13_q18",
     "nodeId": "c12_hs_cbse_13_001",
     "difficulty": "standard"

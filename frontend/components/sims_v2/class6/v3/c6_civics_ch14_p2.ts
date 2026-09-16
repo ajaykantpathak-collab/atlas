@@ -8,7 +8,7 @@ export const c6_civics_ch14_p2: SimDef = {
     subtitle: 'Many lunchboxes, one table — how difference holds a country together',
     classLevel: 6, subject: 'civics', topic: 'Diversity in Indian Society · Part 2/2',
     chapters: ['c6_civics_ch14'],
-    nodeIds: ['c6_civics_ch14_034'],
+    nodeIds: ['c6_civics_ch14_033'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'curator of a school Diversity Fair', intro: 'Your classmates speak five languages at home and bring five different lunches — yet share one classroom and one flag. Your job: turn that variety into a fair.', goal: 'See diversity as richness to celebrate, not a problem to solve.' },

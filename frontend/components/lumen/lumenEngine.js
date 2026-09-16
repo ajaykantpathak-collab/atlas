@@ -75,7 +75,7 @@ export function initLumen({ canvas, cursorEl, clockEl, countEl, root, onLesson }
 
   function voidRadiusFor(id) {
     if (id !== 'hole') return 0
-    return Math.min(bounds.x, bounds.y) * 0.42 * 0.27
+    return Math.min(bounds.x, bounds.y) * 0.42 * 0.2
   }
 
   labels.setLesson('solar', bounds)
@@ -172,6 +172,7 @@ export function initLumen({ canvas, cursorEl, clockEl, countEl, root, onLesson }
     camera.lookAt(0, 0, 0)
 
     labels.update(camera, window.innerWidth, window.innerHeight)
+    horizon.tick(camera)
 
     cursorPos.x += (pointer.state.clientX - cursorPos.x) * 0.22
     cursorPos.y += (pointer.state.clientY - cursorPos.y) * 0.22

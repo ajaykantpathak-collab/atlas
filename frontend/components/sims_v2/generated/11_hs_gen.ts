@@ -437,6 +437,21 @@ export const C11_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student claims: \"Adolescence is a turning point only because of hormonal changes — once hormones settle, everything stabilises.\" Using the HEFS framework, explain why this statement is incomplete and identify at least three non-biological dimensions that make adolescence a turning point.",
+    "answer": "The statement is incomplete because HEFS views adolescence through an ecological lens: the human organism interacts with physical, economic, social, and psychological environments",
+    "options": [
+     "Institutional: Rename the subject on timetables/report cards to HEFS; mandate gender-neutral prerequisites (e",
+     "(1) Biological ecology assumes organisms respond instinctively to environmental pressures; human ecology recognizes humans consciously perceive, evaluate",
+     "The statement is incomplete because HEFS views adolescence through an ecological lens: the human organism interacts with physical, economic, social, and psychological environments"
+    ],
+    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
+    "misconception": "A student who only cites hormones reveals a biological determinism misconception, ignoring the person-environment interaction central to human ecology.",
+    "id": "gen_c11_hs_ch01_q14",
+    "nodeId": "c11_hs_cbse_01_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Anjali, 15, experiences a growth spurt (gained 8 cm in 6 months), argues with her mother about clothing choices, skips breakfast regularly, and spends 4 hours daily on social media.",
     "answer": "The behaviours form a synergistic system: Growth spurt → increased nutritional demand (skipping breakfast compromises bone/muscle development) → body composition changes → altered",
     "options": [
@@ -446,7 +461,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The behaviours form a synergistic system: Growth spurt → increased nutritional demand (skipping breakfast compromises",
-    "id": "gen_c11_hs_ch01_q14",
+    "id": "gen_c11_hs_ch01_q15",
     "nodeId": "c11_hs_cbse_01_006",
     "difficulty": "advanced"
    },
@@ -461,7 +476,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'historical evolution of Home' slide -- match the key terms.",
     "misconception": "A student who says \"both were just name changes\" misses the shift from *access-creation* to *stigma-removal*.",
-    "id": "gen_c11_hs_ch01_q15",
+    "id": "gen_c11_hs_ch01_q16",
     "nodeId": "c11_hs_cbse_01_007",
     "difficulty": "standard"
    },
@@ -476,36 +491,21 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gender-typing of Home Science' slide -- match the key terms.",
     "misconception": "A wrong answer accepts the principal's biological essentialism (\"boys don't like cooking\") and fails to see enrollment as a socially constructed outcome.",
-    "id": "gen_c11_hs_ch01_q16",
-    "nodeId": "c11_hs_cbse_01_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a 3-step intervention for a school where boys avoid HEFS due to lingering \"Home Science\" stereotypes. Each step must target a different level: institutional, interpersonal, and intrapersonal.",
-    "answer": "Institutional: Rename the subject on timetables/report cards to HEFS; mandate gender-neutral prerequisites (e",
-    "options": [
-     "Correct critique: Money is a *necessary but insufficient* conversion factor. Sen’s capability approach (implicit in HEFS) shows conversion depends on: Physical (market access",
-     "The response should mention: (1) Lady Irwin College (1932) was founded by eminent women (Sarojini Naidu, Rajkumari Amrit Kaur",
-     "Institutional: Rename the subject on timetables/report cards to HEFS; mandate gender-neutral prerequisites (e"
-    ],
-    "hint": "Straight from the 'Gender-typing of Home Science' slide -- match the key terms.",
-    "misconception": "A weak answer proposes only posters or assemblies (superficial); a strong answer changes structures, relationships, and self-concept simultaneously.",
     "id": "gen_c11_hs_ch01_q17",
     "nodeId": "c11_hs_cbse_01_008",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "The textbook states: \"boys were either not admitted to this area by the schools, or they themselves shied away from studying it.\" Explain the difference between these two mechanisms of exclusion and how both stem from gender-typing.",
-    "answer": "The first mechanism (not admitted) is *structural/institutional exclusion* — schools actively enforcing gender norms by denying entry",
+    "question": "Compare the impact of gender-typing on the *perception of academic rigour* versus its impact on *male participation*. How are these two consequences mutually reinforcing?",
+    "answer": "Gender-typing creates a feedback loop: (1) Association with \"women's domestic work\" lowers perceived rigour → (2) Low rigour perception discourages serious students (especially",
     "options": [
-     "Similarity: Both changes were driven by a need to align the discipline's *identity* with its *intellectual substance* — 1932 unified fragmented courses into a coherent degree",
-     "(a) Home Science: primarily girls/women; HEFS: all genders, all locations. (b) Home Science: domestic resources (food, cloth, childcare)",
-     "The first mechanism (not admitted) is *structural/institutional exclusion* — schools actively enforcing gender norms by denying entry"
+     "Factor 1: Gender-typing in school admissions—boys were excluded or self-excluded, reinforcing the domestic stereotype",
+     "The first mechanism (not admitted) is *structural/institutional exclusion* — schools actively enforcing gender norms by denying entry",
+     "Gender-typing creates a feedback loop: (1) Association with \"women's domestic work\" lowers perceived rigour → (2) Low rigour perception discourages serious students (especially"
     ],
     "hint": "Straight from the 'Gender-typing of Home Science' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats both as identical \"lack of interest\" misses the power dynamic: one is imposed, the other is internalized oppression.",
+    "misconception": "A wrong answer treats them as separate parallel effects, missing the cyclic causality where each amplifies the other.",
     "id": "gen_c11_hs_ch01_q18",
     "nodeId": "c11_hs_cbse_01_008",
     "difficulty": "standard"
@@ -530,7 +530,8 @@ export const C11_HS_GEN: SimDef[] = [
   "subject": "home science",
   "topic": "Self",
   "chapters": [
-   "Home Science Ch2: Self"
+   "Home Science Ch2: Self",
+   "Home Science Ch3: Self"
   ],
   "nodeIds": [
    "c11_hs_cbse_02_001",
@@ -538,12 +539,14 @@ export const C11_HS_GEN: SimDef[] = [
    "c11_hs_cbse_02_003",
    "c11_hs_cbse_02_004",
    "c11_hs_cbse_02_005",
+   "c11_hs_cbse_03_005",
    "c11_hs_cbse_02_006",
    "c11_hs_cbse_02_007",
    "c11_hs_cbse_02_008",
    "c11_hs_cbse_02_009",
    "c11_hs_cbse_02_010",
    "c11_hs_cbse_02_011",
+   "c11_hs_cbse_03_011",
    "c11_hs_cbse_02_012"
   ],
   "emoji": "🏠",
@@ -594,6 +597,12 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "Relationship Between Food, Nutrition,",
+    "text": "The relationship between food, nutrition, health, and fitness is a causal chain where food provides nutrients, nutrition is the science of how nutrients act in the body (ingestion, digestion, absorption, metabolism, excretion), health is the WHO-defined state",
+    "emoji": "🏠",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Adolescence",
     "text": "Adolescence is a critical period for identity development because it is the developmental stage (approximately 12–18 years) where individuals, driven by cognitive advances and socio-cultural demands, actively construct a coherent sense of self by integrating",
     "emoji": "🏠",
@@ -630,6 +639,12 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
+    "title": "Eating Disorders",
+    "text": "Eating disorders are serious mental health conditions characterized by persistent disturbances in eating behavior and body image perception that significantly impair physical health and psychosocial functioning; Anorexia Nervosa involves restrictive eating",
+    "emoji": "🏠",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
     "title": "Self-construction",
     "text": "Self-construction is the lifelong, dynamic process through which individuals actively build and continuously revise their sense of self by integrating biological maturation, cognitive advances, emotional experiences, and socio-cultural feedback into a",
     "emoji": "🏠",
@@ -642,8 +657,8 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "The NCERT textbook states: \"The personal self has those aspects which relate only to you while the social self refers to those aspects where you are involved with others.\" A student argues: \"But my personality traits like 'being friendly' only exist when I'm with others — so isn't 'friendly' a social self aspect?",
     "answer": "Correct evaluation: The student's argument confuses *context of expression* with *definitional nature*",
     "options": [
+     "The statement is incorrect because self-esteem is not a mathematical sum of positive traits",
      "\"I am ambitious\" → personal (unique trait). \"I am a Gujarati\" → social (regional/linguistic group membership)",
-     "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that",
      "Correct evaluation: The student's argument confuses *context of expression* with *definitional nature*"
     ],
     "hint": "Straight from the 'self' slide -- match the key terms.",
@@ -869,17 +884,68 @@ export const C11_HS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Compare the textbook's definition of physical fitness (\"capacity of heart, blood vessels, lungs, and muscles to function at optimal efficiency\") with the older definition (\"capacity to carry out day's activities without undue fatigue\").",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "cardiorespiratory reserve",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "muscular strength/endurance/flexibility/body",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "disease resistance and metabolic health",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer saying \"people became lazy\" misses the structural societal shift and the physiological redefinition — it's not about effort but about capacity reserve.",
+    "id": "gen_c11_hs_ch02_q6",
+    "nodeId": "c11_hs_cbse_03_005",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Start with a relatable scenario: \"Your friend skips breakfast, grabs a samosa for lunch, and feels too tired to play badminton by evening — which",
+     "Use the NCERT Figure 1 (macronutrient/micronutrient split) to show that samosa provides macronutrients but negligible iron, B-vitamins, fibre — the",
+     "The key insight: food is the INPUT, nutrition is the PROCESS, health is the OUTCOME STATE, fitness is the FUNCTIONAL CAPACITY — all four must be"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "According to Erik Erikson, what is the primary psychosocial crisis of adolescence, and what are the two possible outcomes of this crisis?",
     "answer": "The primary psychosocial crisis of adolescence is Identity vs Role Confusion. The two possible outcomes are identity achievement (a coherent",
     "options": [
-     "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that",
-     "The statement is incorrect because self-esteem is not a mathematical sum of positive traits",
+     "\"I am ambitious\" → personal (unique trait). \"I am a Gujarati\" → social (regional/linguistic group membership)",
+     "Arjun shows: (1) Physical/material descriptions (\"red cycle\"), (2) Active descriptions (\"run fast\"), (3) Absolute/non-comparative terms (\"fast\" not \"faster than\")",
      "The primary psychosocial crisis of adolescence is Identity vs Role Confusion. The two possible outcomes are identity achievement (a coherent"
     ],
     "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
     "misconception": "A wrong answer — such as naming \"trust vs mistrust\" or \"autonomy vs shame\" — reveals the student has not distinguished adolescence's specific developmental task from earlier stages.",
-    "id": "gen_c11_hs_ch02_q6",
+    "id": "gen_c11_hs_ch02_q7",
     "nodeId": "c11_hs_cbse_02_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -894,13 +960,13 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "A 15-year-old boy, Arjun, comes from a traditional weaving family in Varanasi. His father expects him to join the family business after Class 10. Arjun enjoys weaving but also watches coding tutorials on YouTube and dreams of becoming a software engineer.",
     "answer": "Arjun is in moratorium — actively exploring alternatives (coding) while not yet committed, experiencing the tension between familial foreclosure pressure (weaving) and personal",
     "options": [
-     "Correct evaluation: The student's argument confuses *context of expression* with *definitional nature*",
      "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)",
+     "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that",
      "Arjun is in moratorium — actively exploring alternatives (coding) while not yet committed, experiencing the tension between familial foreclosure pressure (weaving) and personal"
     ],
     "hint": "Straight from the 'Role confusion' slide -- match the key terms.",
     "misconception": "A wrong answer classifying him as 'identity diffusion' (no exploration, no commitment) ignores his active engagement with coding; classifying him as 'foreclosure' ignores his resistance to blind adoption of the family role.",
-    "id": "gen_c11_hs_ch02_q7",
+    "id": "gen_c11_hs_ch02_q8",
     "nodeId": "c11_hs_cbse_02_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -916,12 +982,12 @@ export const C11_HS_GEN: SimDef[] = [
     "answer": "Pubescence is the period during which physical and biological changes occur leading to the attainment of sexual maturity (puberty)",
     "options": [
      "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them",
-     "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that",
+     "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight",
      "Pubescence is the period during which physical and biological changes occur leading to the attainment of sexual maturity (puberty)"
     ],
     "hint": "Straight from the 'Puberty' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., stating pubescence starts at 14 for girls or confusing it with puberty) reveals the student cannot distinguish the *process* (pubescence) from the *event* (puberty) or lacks the specific normative data required for board exam definitions.",
-    "id": "gen_c11_hs_ch02_q8",
+    "id": "gen_c11_hs_ch02_q9",
     "nodeId": "c11_hs_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -936,13 +1002,13 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Define \"imaginary audience\" and \"personal fable\" as described by David Elkind. How do they differ in their cognitive mechanism?",
     "answer": "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them",
     "options": [
+     "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight",
      "Pubescence is the period during which physical and biological changes occur leading to the attainment of sexual maturity (puberty)",
-     "The 14-year-old operates in formal operations: she can construct hypothetical scenarios (\"They will think",
      "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them"
     ],
     "hint": "Straight from the 'Cognitive changes during' slide -- match the key terms.",
     "misconception": "A wrong answer conflating them as \"self-centeredness\" reveals failure to grasp the distinct cognitive operations: one is a failure of perspective-taking (assume others share my focus), the other is an exaggeration of self-distinctiveness (deny shared humanity).",
-    "id": "gen_c11_hs_ch02_q9",
+    "id": "gen_c11_hs_ch02_q10",
     "nodeId": "c11_hs_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -957,13 +1023,13 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "A 14-year-old girl writes in her journal: \"I'm so lazy and undisciplined. I should be waking up at 5 AM, studying 4 hours daily, and helping at home — but I sleep till 8 and waste time on my phone.",
     "answer": "Real self: \"I'm so lazy and undisciplined... I sleep till 8 and waste time on my phone.\" Ideal self: \"I should be waking up at 5 AM, studying 4 hours daily, and helping at home",
     "options": [
-     "The 14-year-old operates in formal operations: she can construct hypothetical scenarios (\"They will think",
      "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that",
+     "\"I am ambitious\" → personal (unique trait). \"I am a Gujarati\" → social (regional/linguistic group membership)",
      "Real self: \"I'm so lazy and undisciplined... I sleep till 8 and waste time on my phone.\" Ideal self: \"I should be waking up at 5 AM, studying 4 hours daily, and helping at home"
     ],
     "hint": "Straight from the 'real self' slide -- match the key terms.",
     "misconception": "A wrong answer that attributes the pain solely to \"hormones\" or \"peer pressure\" misses the cognitive-developmental mechanism.",
-    "id": "gen_c11_hs_ch02_q10",
+    "id": "gen_c11_hs_ch02_q11",
     "nodeId": "c11_hs_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -1026,7 +1092,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that treats all three as simply \"family pressure\" fails to distinguish the distinct cultural logics of kinship, peer subculture, and community tradition.",
-    "id": "gen_c11_hs_ch02_q11",
+    "id": "gen_c11_hs_ch02_q12",
     "nodeId": "c11_hs_cbse_02_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -1038,16 +1104,35 @@ export const C11_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Define Anorexia Nervosa and Bulimia Nervosa in one sentence each, highlighting the core behavioral distinction between them.",
+    "answer": "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight",
+    "options": [
+     "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them",
+     "Pubescence is the period during which physical and biological changes occur leading to the attainment of sexual maturity (puberty)",
+     "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight"
+    ],
+    "hint": "Straight from the 'Eating disorders' slide -- match the key terms.",
+    "misconception": "A wrong answer that describes both as \"not eating\" or \"eating too little\" reveals the student conflates restriction with the binge-purge cycle and misses the fundamental behavioral difference: anorexia maintains energy deficit through sustained restriction, while bulimia oscillates between excess intake and",
+    "id": "gen_c11_hs_ch02_q13",
+    "nodeId": "c11_hs_cbse_03_011",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a 16-year-old student, Priya, who skips lunch daily, counts calories obsessively, exercises for two hours after school, and insists she is",
+     "Start by asking students what they notice about Priya's relationship with food, body, and emotions; guide them to separate observable behaviors"
+    ]
+   },
+   {
+    "type": "mcq",
     "question": "Radha (3 years 8 months) says: \"I am good because I write as well.\" When asked to explain more, she falls silent. A 9-year-old says: \"I am good at making friends and finishing homework on time, but I'm not as fast at running as Kiran.",
     "answer": "Radha uses absolute, concrete, physical/behavioral self-descriptions (\"I write\") and overestimates herself (\"I am good\" without nuance)",
     "options": [
-     "Mapping: \"good at making friends\" → (a) internal psychological traits; \"school choir\" → (b) social identity; \"faster than my brother\" → (c) social comparison",
-     "Good answer: Panel 1 (Saturday morning): \"I'm principled\" (abstract). Panel 2 (Saturday afternoon): \"I'm principled but I lied to Mom about homework\" (contradiction)",
+     "\"I am ambitious\" → personal (unique trait). \"I am a Gujarati\" → social (regional/linguistic group membership)",
+     "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)",
      "Radha uses absolute, concrete, physical/behavioral self-descriptions (\"I write\") and overestimates herself (\"I am good\" without nuance)"
     ],
     "hint": "Straight from the 'Self-construction' slide -- match the key terms.",
     "misconception": "A wrong answer that treats both as \"describing skills\" misses the structural shift from absolute→comparative, concrete→abstract, physical→psychological, and overestimation→realism that defines the early-to-middle childhood transition.",
-    "id": "gen_c11_hs_ch02_q12",
+    "id": "gen_c11_hs_ch02_q14",
     "nodeId": "c11_hs_cbse_02_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -1062,13 +1147,13 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Read the following case: *Rohan, 16, describes himself: \"I am a science student. I am terrible at physics. I am the cricket captain. I am short-tempered. I am a Rajput.\"* Map each description to one of these five categories from the NCERT Activity 1 analysis: (a) Physical/bodily self, (b) Feelings/emotions, (c) Mental",
     "answer": "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)",
     "options": [
-     "The statement is incorrect because self-esteem is not a mathematical sum of positive traits",
-     "Correct evaluation: The student's argument confuses *context of expression* with *definitional nature*",
+     "First student: middle childhood (concrete, absolute, physical/behavioral descriptors). Second student: adolescence (abstract, psychological, includes contradiction)",
+     "(a) Daily prompts: Biological — \"Note one bodily change/sensation today and how you felt about it\"; Cognitive — \"Describe one hypothetical future scenario you imagined today\"",
      "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)"
     ],
     "hint": "Straight from the 'self' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If \"terrible at physics\" is mapped to (b) Emotions, the student confuses *self-evaluation of ability* with *feeling*.",
-    "id": "gen_c11_hs_ch02_q13",
+    "id": "gen_c11_hs_ch02_q15",
     "nodeId": "c11_hs_cbse_02_001",
     "difficulty": "standard"
    },
@@ -1077,13 +1162,13 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "\"Self-esteem is simply the sum of all positive self-concept statements.\" Critique this statement using the NCERT definition of self-esteem as \"judgment according to standards we have set for ourselves which are largely influenced by society.\"",
     "answer": "The statement is incorrect because self-esteem is not a mathematical sum of positive traits",
     "options": [
-     "Real self: \"I'm so lazy and undisciplined... I sleep till 8 and waste time on my phone.\" Ideal self: \"I should be waking up at 5 AM, studying 4 hours daily, and helping at home",
-     "Priya's ideal-self standards are likely aligned with her real self (she accepts \"average\" as sufficient), so the real-ideal discrepancy is small → positive self-esteem",
+     "Radha uses absolute, concrete, physical/behavioral self-descriptions (\"I write\") and overestimates herself (\"I am good\" without nuance)",
+     "The adolescent holds context-dependent self-views (shy vs. loud) simultaneously — a hallmark of abstract thinking allowing trait qualification",
      "The statement is incorrect because self-esteem is not a mathematical sum of positive traits"
     ],
     "hint": "Straight from the 'Self-concept' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees reveals the misconception that self-esteem = positive self-concept, ignoring the role of standards and the real-ideal discrepancy central to NCERT.",
-    "id": "gen_c11_hs_ch02_q14",
+    "id": "gen_c11_hs_ch02_q16",
     "nodeId": "c11_hs_cbse_02_002",
     "difficulty": "standard"
    },
@@ -1092,13 +1177,13 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "A student writes: \"I am a bad friend because I forgot my best friend's birthday.\" Identify which part of this statement reflects self-concept and which reflects self-esteem, and explain the difference in one sentence each.",
     "answer": "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that",
     "options": [
-     "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)",
-     "Real self: \"I'm so lazy and undisciplined... I sleep till 8 and waste time on my phone.\" Ideal self: \"I should be waking up at 5 AM, studying 4 hours daily, and helping at home",
+     "\"I am ambitious\" → personal (unique trait). \"I am a Gujarati\" → social (regional/linguistic group membership)",
+     "The statement is incorrect because self-esteem is not a mathematical sum of positive traits",
      "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that"
     ],
     "hint": "Straight from the 'Self-concept' slide -- match the key terms.",
     "misconception": "A wrong answer that labels both as self-concept reveals the student cannot separate factual self-descriptions from value-laden self-evaluations — a critical error because board questions ask to \"distinguish with examples.\"",
-    "id": "gen_c11_hs_ch02_q15",
+    "id": "gen_c11_hs_ch02_q17",
     "nodeId": "c11_hs_cbse_02_002",
     "difficulty": "standard"
    },
@@ -1113,36 +1198,6 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Self-concept' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"abstract thinking\" without linking to *evaluative instability* misses the core mechanism.",
-    "id": "gen_c11_hs_ch02_q16",
-    "nodeId": "c11_hs_cbse_02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"Improving self-esteem requires only changing negative self-concept statements to positive ones (e.g., 'I am stupid' → 'I am smart').\" Consider the role of internalised societal standards and the real-ideal gap.",
-    "answer": "The claim is flawed because (1) positive affirmations that contradict lived experience (\"I am smart\" when failing exams) increase cognitive dissonance",
-    "options": [
-     "In middle childhood, self-concept is concrete (\"I run faster than Kiran\") allowing clear, stable self-evaluation",
-     "\"I am honest\" reflects personal identity because honesty is a trait that varies across individuals",
-     "The claim is flawed because (1) positive affirmations that contradict lived experience (\"I am smart\" when failing exams) increase cognitive dissonance"
-    ],
-    "hint": "Straight from the 'Self-concept' slide -- match the key terms.",
-    "misconception": "A wrong answer endorsing affirmations ignores the NCERT emphasis on \"standards largely influenced by society\" and the real-ideal discrepancy mechanism.",
-    "id": "gen_c11_hs_ch02_q17",
-    "nodeId": "c11_hs_cbse_02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Priya (16) describes herself as \"average in studies, good at painting, short-tempered.\" She feels \"okay\" about herself. Rahul (16) describes himself identically but feels \"like a failure.\" Using the self-concept/self-esteem relationship, explain why their self-esteem differs despite identical self-concepts.",
-    "answer": "Priya's ideal-self standards are likely aligned with her real self (she accepts \"average\" as sufficient), so the real-ideal discrepancy is small → positive self-esteem",
-    "options": [
-     "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)",
-     "Mapping: \"good at making friends\" → (a) internal psychological traits; \"school choir\" → (b) social identity; \"faster than my brother\" → (c) social comparison",
-     "Priya's ideal-self standards are likely aligned with her real self (she accepts \"average\" as sufficient), so the real-ideal discrepancy is small → positive self-esteem"
-    ],
-    "hint": "Straight from the 'Self-concept' slide -- match the key terms.",
-    "misconception": "A wrong answer attributing the difference solely to the self-concept content shows failure to grasp that self-esteem depends on the *evaluation against standards*, not the content alone.",
     "id": "gen_c11_hs_ch02_q18",
     "nodeId": "c11_hs_cbse_02_002",
     "difficulty": "standard"
@@ -1688,6 +1743,21 @@ export const C11_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a \"Resource Interchangeability Matrix\" for a student preparing for board exams with the following constraints: 30 days left, 6 hours daily study capacity, ₹2000 budget, average energy, high motivation.",
+    "answer": "A good matrix pairs: (1) Coaching class (₹2000, saves time) ↔ Self-study with guidebooks (₹500, costs time) — Decision rule: Choose self-study if concept clarity > speed needed",
+    "options": [
+     "The statement is flawed. (a) Energy hierarchy: Conservation (behavioral changes, insulation, efficient appliances) and efficiency (5-star appliances, LED",
+     "The sewing machine became a resource the moment you decided to learn tailoring and actively used it for stitching—because only then were you \"making use of\" it to accomplish a",
+     "A good matrix pairs: (1) Coaching class (₹2000, saves time) ↔ Self-study with guidebooks (₹500, costs time) — Decision rule: Choose self-study if concept clarity > speed needed"
+    ],
+    "hint": "Straight from the 'Interchangeability' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A good matrix pairs: (1) Coaching class (₹2000, saves time) ↔ Self-study with guidebooks (₹500, costs time) — Decision",
+    "id": "gen_c11_hs_ch04_q17",
+    "nodeId": "c11_hs_cbse_04_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "You have ₹500, 2 hours, and high energy to prepare a birthday gift for a friend. List three distinct resource combinations (interchangeable sets) that could achieve this goal, and for each, explain how you would manage the resources to maximise output.",
     "answer": "Combination 1: Money (₹500) + Time (2 hrs) → Buy materials, handmake a scrapbook. Manage by pre-planning layout to minimise rework",
     "options": [
@@ -1697,24 +1767,9 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Interchangeability' slide -- match the key terms.",
     "misconception": "A poor answer lists only one combination or ignores the management aspect, showing inability to see multiple pathways and optimisation within constraints.",
-    "id": "gen_c11_hs_ch04_q17",
+    "id": "gen_c11_hs_ch04_q18",
     "nodeId": "c11_hs_cbse_04_007",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the envelope system and digital spreadsheet tracking for a family with irregular income (freelance parents). Analyze which method better handles: (a) income variability, (b) impulse control, (c) long-term pattern analysis. Justify your recommendation.",
-    "answer": "Envelope system excels at (b) impulse control — physical cash depletion creates tangible feedback",
-    "options": [
-     "In a remote village: money accessibility is lower (fewer ATMs/banks, irregular income from agriculture)",
-     "For a recurring goal, gap analysis is continuous and dynamic — the gap is re-measured weekly (e.g., monthly test scores)",
-     "Envelope system excels at (b) impulse control — physical cash depletion creates tangible feedback"
-    ],
-    "hint": "Straight from the 'Money management for families' slide -- match the key terms.",
-    "misconception": "A wrong answer choosing only one method shows inability to analyze trade-offs and synthesize context-specific solutions.",
-    "id": "gen_c11_hs_ch04_q18",
-    "nodeId": "c11_hs_cbse_04_011",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -2785,6 +2840,21 @@ export const C11_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate the claim: \"For a school in a dense urban neighbourhood, a wired Ethernet LAN is always superior to Wi-Fi for student learning activities.\" Consider pedagogical, health, and equity dimensions, not just bandwidth.",
+    "answer": "The claim is *partially valid but incomplete*. Wired LAN gives consistent high bandwidth, low latency, no RF interference — good for video editing, coding exams",
+    "options": [
+     "Bluetooth uses FHSS to minimize interference from other devices (Wi-Fi, microwaves) sharing the 2.4 GHz ISM band and to provide basic security by making eavesdropping harder",
+     "(a) Full club meeting: group communication—12 members, shared goal, structured turn-taking. (b) Sub-group discussions: group communication—each has 3-4 members collaborating on a",
+     "The claim is *partially valid but incomplete*. Wired LAN gives consistent high bandwidth, low latency, no RF interference — good for video editing, coding exams"
+    ],
+    "hint": "Straight from the 'Cable-based communication' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The claim is *partially valid but incomplete*. Wired LAN gives consistent high bandwidth, low latency, no RF",
+    "id": "gen_c11_hs_ch06_q4",
+    "nodeId": "c11_hs_cbse_06_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a low-cost digital communication kit for a Krishi Vigyan Kendra (KVK) to conduct weekly farmer training sessions in 5 nearby villages (each 3-8 km away). The kit must support: (a) live video demonstration from KVK to village, (b) farmer Q&A audio, (c) offline content distribution (PDFs, videos).",
     "answer": "Good answer includes: (a) Live video: KVK uses a laptop + webcam + 4G dongle (or broadband) -> Zoom/Google Meet -> village receives via a smartphone/tablet + 4G data + projector",
     "options": [
@@ -2794,7 +2864,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Modern Digital Communication' slide -- match the key terms.",
     "misconception": "A poor answer proposes Bluetooth for village-to-village or KVK-to-village links, ignoring the fundamental range limitation and confusing PAN with WAN.",
-    "id": "gen_c11_hs_ch06_q4",
+    "id": "gen_c11_hs_ch06_q5",
     "nodeId": "c11_hs_cbse_06_012",
     "difficulty": "standard"
    },
@@ -2809,7 +2879,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Modern Digital Communication' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"higher data speed\" or \"longer range\" as the primary reason for FHSS shows misunderstanding of spread spectrum trade-offs; FHSS actually reduces raw throughput slightly but improves reliability and coexistence.",
-    "id": "gen_c11_hs_ch06_q5",
+    "id": "gen_c11_hs_ch06_q6",
     "nodeId": "c11_hs_cbse_06_012",
     "difficulty": "standard"
    }
@@ -2838,7 +2908,9 @@ export const C11_HS_GEN: SimDef[] = [
    "c11_hs_cbse_07_001",
    "c11_hs_cbse_07_002",
    "c11_hs_cbse_07_003",
+   "c11_hs_cbse_07_006",
    "c11_hs_cbse_07_007",
+   "c11_hs_cbse_07_008",
    "c11_hs_cbse_07_009",
    "c11_hs_cbse_07_010",
    "c11_hs_cbse_07_011",
@@ -2880,8 +2952,20 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
+    "title": "Nutrition-infection Cycle",
+    "text": "The nutrition-infection cycle is a bidirectional, self-reinforcing mechanism where poor nutritional status impairs immune function and increases susceptibility to infection, while infection increases nutrient losses, raises metabolic demands, and reduces",
+    "emoji": "🏠",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Personal Hygiene",
     "text": "Personal hygiene refers to the set of practices performed by an individual to maintain bodily cleanliness, prevent disease transmission, and promote physical, mental, and social well-being through care of the skin, hair, nails, teeth, clothing, and bodily",
+    "emoji": "🏠",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Environmental Hygiene",
+    "text": "Environmental hygiene refers to the comprehensive set of practices and conditions in the external surroundings—including safe water supply, sanitary disposal of human excreta and liquid/solid wastes, vector control, housing quality, and food sanitation—that",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
    },
@@ -2937,8 +3021,8 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "A pregnant woman in a remote village receives iron-folic acid tablets and antenatal check-ups from an ANM at the Sub-Centre. At 36 weeks, she develops severe anaemia (Hb 7 g/dL) and is sent to the Community Health Centre (CHC) for IV iron therapy.",
     "answer": "Sub-Centre care = Primary (first contact, preventive/promotive antenatal care by ANM). CHC care = Secondary (referral from primary, specialised treatment",
     "options": [
-     "The two characteristics are: (1) Time is limited (fixed 24 hours/day) and (2) Time is irreversible (cannot be stored, borrowed, or recovered once passed)",
-     "Roominess is the perceived spaciousness created by proportion, furniture placement, storage integration, and color",
+     "Good answer includes: (1) Under-5 Mortality Rate – captures child survival in high-malaria, malnourished settings",
+     "The case mapping runs: (1) Tanker water stored in open buckets carries pathogens into every feed (2) Repeated infection raises nutrient needs while vomiting and diarrhoea drain",
      "Sub-Centre care = Primary (first contact, preventive/promotive antenatal care by ANM). CHC care = Secondary (referral from primary, specialised treatment"
     ],
     "hint": "Straight from the 'Health care delivery in India' slide -- match the key terms.",
@@ -2973,17 +3057,80 @@ export const C11_HS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Trace the correct sequence from the slum household's environment to the infant's weight loss and infection cycle.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Repeated infection raises nutrient needs",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Weakened immunity invites the next pneumonia",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Food refusal during illness cuts intake",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Tanker water stored in open buckets carries",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that prescribes rations alone shows the student has missed that the safe environment and health pillars must be fixed to break the cycle.",
+    "id": "gen_c11_hs_ch07_q4",
+    "nodeId": "c11_hs_cbse_07_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a 3-year-old child in a rural Indian household who has had diarrhoea four times in the last six months.",
+     "Each episode lasts 3-4 days.",
+     "The mother says \"he doesn't eat when sick\" and \"he seems to get thinner after every illness.",
+     "Begin by mapping the child's trajectory: infection → reduced intake + nutrient loss + increased needs → weight loss → weakened immunity → next"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Evaluate this school policy: \"Students must carry hand sanitiser (70% alcohol) and use it before every meal. Soap and water are optional.\" Justify your position using microbiological evidence.",
     "answer": "The policy is flawed. Alcohol-based sanitiser (70%) effectively kills enveloped viruses (influenza",
     "options": [
      "The statement is false. Evidence: (1) Kashmir embroidery is described as a commercial activity done by men (rafugars), catering to buyer demand",
-     "Failure 1: Bypassing primary care – PHC could have given aspirin, oxygen, and arranged ambulance with ECG monitoring during transfer (the \"golden hour\" principle)",
+     "Rohan's mental health is compromised: he cannot \"handle normal levels of stress\" (panic attacks), fears exams, and likely feels \"defeated or depressed for unusually long periods",
      "The policy is flawed. Alcohol-based sanitiser (70%) effectively kills enveloped viruses (influenza"
     ],
     "hint": "Straight from the 'Personal hygiene' slide -- match the key terms.",
     "misconception": "A wrong answer endorsing the policy shows the student confuses \"germ-killing\" claims with spectrum of activity and ignores the mechanical removal principle.",
-    "id": "gen_c11_hs_ch07_q4",
+    "id": "gen_c11_hs_ch07_q5",
     "nodeId": "c11_hs_cbse_07_007",
     "difficulty": "standard",
     "workedExample": [
@@ -2991,6 +3138,69 @@ export const C11_HS_GEN: SimDef[] = [
      "Most Class 11 students notice these changes but don't connect them to the biology of puberty: increased sebum production, active sweat glands, and",
      "Start by listing every \"cleanliness\" action you did yesterday from waking to sleeping, then group them by body area (mouth, hair, skin, nails,",
      "Notice which area you missed—that gap is where microbes multiply and enter your body, linking directly to the nutrition-infection cycle you studied"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence from flood contamination to outbreak, showing why environmental fixes act fastest.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Attack rate follows the level",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Restoring safe water and excreta disposal",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Floodwater mixes with excreta and spreads",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Exposure dose overwhelms even well-nourished",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that focuses on feeding alone during the outbreak shows the student has missed that extrinsic factors set the dose while intrinsic factors set severity.",
+    "id": "gen_c11_hs_ch07_q6",
+    "nodeId": "c11_hs_cbse_07_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you visit a relative's home in a peri-urban area where the municipal water supply runs only two hours daily, so families store water in open",
+     "You notice a toddler with recurrent diarrhoea.",
+     "Start by mapping each observation to the environmental hygiene components from Figure 4 in your textbook: water storage → water supply safety; open",
+     "Then trace how each gap creates a transmission pathway for pathogens (faecal-oral, vector-borne, direct contact)."
     ]
    },
    {
@@ -3004,7 +3214,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Time management' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: student views time as flexible/expandable and planning as rigid rather than adaptive.",
-    "id": "gen_c11_hs_ch07_q5",
+    "id": "gen_c11_hs_ch07_q7",
     "nodeId": "c11_hs_cbse_07_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -3067,7 +3277,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer that only lists \"add curtains\" or \"build a new room\" fails to work within the constraint of no new construction and misses the systems-level re-zoning logic.",
-    "id": "gen_c11_hs_ch07_q6",
+    "id": "gen_c11_hs_ch07_q8",
     "nodeId": "c11_hs_cbse_07_010",
     "difficulty": "standard",
     "workedExample": [
@@ -3082,13 +3292,13 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "State the NCERT definition of work simplification and name the two resources it explicitly aims to blend and manage.",
     "answer": "Work simplification is the conscious seeking of the simplest, easiest, and quickest method of doing work",
     "options": [
-     "The two characteristics are: (1) Time is limited (fixed 24 hours/day) and (2) Time is irreversible (cannot be stored, borrowed, or recovered once passed)",
-     "Rohan's mental health is compromised: he cannot \"handle normal levels of stress\" (panic attacks), fears exams, and likely feels \"defeated or depressed for unusually long periods",
+     "The tool runs: (1) Assess the child's nutritional status against the underweight threshold (2) Count infection episodes over the last three months against the burden threshold (3)",
+     "The assessment runs: (1) Note that coverage measures containment access only (2) Check whether pits and tanks are actually emptied and transported safely (3) Ask where the faecal",
      "Work simplification is the conscious seeking of the simplest, easiest, and quickest method of doing work"
     ],
     "hint": "Straight from the 'Work simplification' slide -- match the key terms.",
     "misconception": "A wrong answer that omits \"conscious seeking\" or names \"money and space\" instead of \"time and human energy\" reveals the student has memorised a generic definition without understanding the specific resource focus of this concept.",
-    "id": "gen_c11_hs_ch07_q7",
+    "id": "gen_c11_hs_ch07_q9",
     "nodeId": "c11_hs_cbse_07_011",
     "difficulty": "standard",
     "workedExample": [
@@ -3109,7 +3319,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian Textile Traditions' slide -- match the key terms.",
     "misconception": "A wrong classification as \"yarn tie-and-dye\" or \"ikat\" indicates the student cannot distinguish between tying the finished fabric versus tying the yarn before weaving – a critical technical difference that determines pattern geometry and production sequence.",
-    "id": "gen_c11_hs_ch07_q8",
+    "id": "gen_c11_hs_ch07_q10",
     "nodeId": "c11_hs_cbse_07_012",
     "difficulty": "standard",
     "workedExample": [
@@ -3118,6 +3328,177 @@ export const C11_HS_GEN: SimDef[] = [
      "Begin by listing the three fibre groups (cotton, silk, wool).",
      "For each object, identify its fibre group, then decide whether its pattern comes from weaving (brocade), resist dyeing (tie-dye/ikat), or surface"
     ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps for an ASHA worker applying the two-axis household classification tool.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Count infection episodes over the last three",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Assess the child's nutritional status",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Match the quadrant to its priority action",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Place the household in one of four quadrants",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that skips the thresholds and labels by impression shows the student has missed that the matrix classifies only on the two measured axes.",
+    "id": "gen_c11_hs_ch07_q11",
+    "nodeId": "c11_hs_cbse_07_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of points that test whether toilet coverage alone means safely managed sanitation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Check whether pits and tanks",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Ask where the faecal sludge",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Conclude that discharge into open drains",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Note that coverage measures containment",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that equates toilets built with sanitation achieved shows the student has missed that the full chain from containment to treatment must be safe.",
+    "id": "gen_c11_hs_ch07_q12",
+    "nodeId": "c11_hs_cbse_07_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of gadget assignments for a food-safety character mapping WHO keys to hygiene components.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Assign the vector drone to keeping food",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Tie each gadget to the environmental",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Check that every WHO key",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Assign the water gadget to safe water in raw",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that invents gadgets with no component link shows the student has missed that each gadget must map to one hygiene component and one food key.",
+    "id": "gen_c11_hs_ch07_q13",
+    "nodeId": "c11_hs_cbse_07_008",
+    "difficulty": "standard"
    },
    {
     "type": "order",
@@ -3183,7 +3564,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists generic indicators without context-specific justification, showing inability to match indicators to epidemiological profile.",
-    "id": "gen_c11_hs_ch07_q9",
+    "id": "gen_c11_hs_ch07_q14",
     "nodeId": "c11_hs_cbse_07_003",
     "difficulty": "advanced"
    },
@@ -3193,12 +3574,12 @@ export const C11_HS_GEN: SimDef[] = [
     "answer": "Failure 1: Bypassing primary care – PHC could have given aspirin, oxygen, and arranged ambulance with ECG monitoring during transfer (the \"golden hour\" principle)",
     "options": [
      "A strong answer selects a region (e.g., Gujarat) and sequences: 1) 5000-year-old indigo-dyed cotton fragment (Mohenjo-Daro) – \"Early mastery of cotton mordant dyeing\"",
-     "The two characteristics are: (1) Time is limited (fixed 24 hours/day) and (2) Time is irreversible (cannot be stored, borrowed, or recovered once passed)",
+     "The chain runs: (1) Floodwater mixes with excreta and spreads pathogens across the village (2) Exposure dose overwhelms even well-nourished hosts (3) Attack rate follows the level",
      "Failure 1: Bypassing primary care – PHC could have given aspirin, oxygen, and arranged ambulance with ECG monitoring during transfer (the \"golden hour\" principle)"
     ],
     "hint": "Straight from the 'Health care delivery in India' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"distance\" or \"poverty\" misses the structural failure: the system design assumes stepwise referral, but communities lack trust/awareness of primary level emergency capacity.",
-    "id": "gen_c11_hs_ch07_q10",
+    "id": "gen_c11_hs_ch07_q15",
     "nodeId": "c11_hs_cbse_07_002",
     "difficulty": "standard"
    },
@@ -3207,15 +3588,30 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Design a flowchart for a 10-year-old child in a tribal village who develops fever → rash → joint pain → suspected rheumatic heart disease. Show the referral pathway across all three levels, specifying at each level: (a) cadre of provider, (b) key diagnostic/therapeutic action, (c) referral trigger to next level.",
     "answer": "Level 1 (Primary – Sub-Centre/PHC): Provider = ANM/MPW/MO; Action = Clinical diagnosis (Jones criteria), throat swab, inj",
     "options": [
+     "A strong answer selects a region (e.g., Gujarat) and sequences: 1) 5000-year-old indigo-dyed cotton fragment (Mohenjo-Daro) – \"Early mastery of cotton mordant dyeing\"",
      "Good answer includes: (1) Under-5 Mortality Rate – captures child survival in high-malaria, malnourished settings",
-     "Sub-Centre care = Primary (first contact, preventive/promotive antenatal care by ANM). CHC care = Secondary (referral from primary, specialised treatment",
      "Level 1 (Primary – Sub-Centre/PHC): Provider = ANM/MPW/MO; Action = Clinical diagnosis (Jones criteria), throat swab, inj"
     ],
     "hint": "Straight from the 'Health care delivery in India' slide -- match the key terms.",
     "misconception": "A poor answer lists only institutions without specifying cadres, actions, or triggers – showing memorisation without clinical reasoning.",
-    "id": "gen_c11_hs_ch07_q11",
+    "id": "gen_c11_hs_ch07_q16",
     "nodeId": "c11_hs_cbse_07_002",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A Class 11 student states: \"Mortality rate and morbidity rate are the same thing – both measure how many people are sick.\" Is this statement correct? Explain why or why not using precise definitions.",
+    "answer": "The statement is incorrect. Mortality rate measures the frequency of deaths in a defined population during a specified time period (e",
+    "options": [
+     "Rohan's mental health is compromised: he cannot \"handle normal levels of stress\" (panic attacks), fears exams, and likely feels \"defeated or depressed for unusually long periods",
+     "Sub-Centre care = Primary (first contact, preventive/promotive antenatal care by ANM). CHC care = Secondary (referral from primary, specialised treatment",
+     "The statement is incorrect. Mortality rate measures the frequency of deaths in a defined population during a specified time period (e"
+    ],
+    "hint": "Straight from the 'Health indicators' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals the student conflates \"death\" with \"disease\" and does not understand that mortality is a subset of severe morbidity outcomes, not a synonym.",
+    "id": "gen_c11_hs_ch07_q17",
+    "nodeId": "c11_hs_cbse_07_003",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -3228,99 +3624,9 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Health indicators' slide -- match the key terms.",
     "misconception": "A poor answer lists generic indicators without context-specific justification, showing inability to match indicators to epidemiological profile.",
-    "id": "gen_c11_hs_ch07_q12",
+    "id": "gen_c11_hs_ch07_q18",
     "nodeId": "c11_hs_cbse_07_003",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A family complains that their living room feels cramped despite being 4 m × 5 m. They use dark brown curtains, a large sectional sofa against the long wall, and a floor-to-ceiling bookshelf on the opposite wall. Explain, using the principle of Roominess, why the room feels small and suggest two specific changes.",
-    "answer": "Roominess is the perceived spaciousness created by proportion, furniture placement, storage integration, and color",
-    "options": [
-     "Revised zoning: (1) Shift the toilet entrance from the multipurpose room to the rear exterior wall with a small lobby—restores internal privacy and separates sanitation from",
-     "Aspect modifications: (1) Add a window or skylight on the east/north-east wall to capture morning sun; (2) Install a ventilator on the opposite (east) wall for cross-breeze",
-     "Roominess is the perceived spaciousness created by proportion, furniture placement, storage integration, and color"
-    ],
-    "hint": "Straight from the 'Space management' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"buying smaller furniture\" misses the principle’s emphasis on built-in storage, proportion (rectangular rooms feel larger than square), and color psychology.",
-    "id": "gen_c11_hs_ch07_q13",
-    "nodeId": "c11_hs_cbse_07_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Apply the principles of Aspect and Prospect to evaluate this scenario: A house has its only large window on the west wall facing a busy, noisy street. The main entrance is on the same wall but hidden behind a high boundary wall with no landscaping.",
-    "answer": "Aspect modifications: (1) Add a window or skylight on the east/north-east wall to capture morning sun; (2) Install a ventilator on the opposite (east) wall for cross-breeze",
-    "options": [
-     "Level 1 (Primary – Sub-Centre/PHC): Provider = ANM/MPW/MO; Action = Clinical diagnosis (Jones criteria), throat swab, inj",
-     "Revised zoning: (1) Shift the toilet entrance from the multipurpose room to the rear exterior wall with a small lobby—restores internal privacy and separates sanitation from",
-     "Aspect modifications: (1) Add a window or skylight on the east/north-east wall to capture morning sun; (2) Install a ventilator on the opposite (east) wall for cross-breeze"
-    ],
-    "hint": "Straight from the 'Space management' slide -- match the key terms.",
-    "misconception": "A wrong answer suggesting \"paint the entrance door bright red\" addresses only superficial aesthetics, not the structural arrangement of doors/windows (Aspect) or the external impression shaped by landscaping and visibility (Prospect).",
-    "id": "gen_c11_hs_ch07_q14",
-    "nodeId": "c11_hs_cbse_07_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare and contrast \"doing all dusting, then all sweeping, then all mopping\" (like tasks together) versus \"cleaning one room completely before moving to the next\" in terms of Level 1 work simplification principles. Which better applies the principle of rhythm and sequence? Justify.",
-    "answer": "\"Doing like tasks together\" better applies the rhythm and sequence principle. It maintains a consistent body posture (standing, sweeping motion) and tool use (broom) across rooms",
-    "options": [
-     "Patola: silk fibre; both warp and weft yarns are tie-dyed before weaving (double ikat), creating a unified pattern with colours flowing without harsh outlines",
-     "Rohan's mental health is compromised: he cannot \"handle normal levels of stress\" (panic attacks), fears exams, and likely feels \"defeated or depressed for unusually long periods",
-     "\"Doing like tasks together\" better applies the rhythm and sequence principle. It maintains a consistent body posture (standing, sweeping motion) and tool use (broom) across rooms"
-    ],
-    "hint": "Straight from the 'Work simplification' slide -- match the key terms.",
-    "misconception": "A student who claims both are equal misses that rhythm refers to sustained repetitive motion patterns, not just task completion order — this is a specific Level 1 principle about motor pattern efficiency.",
-    "id": "gen_c11_hs_ch07_q15",
-    "nodeId": "c11_hs_cbse_07_011",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare and contrast the production process of a Patola double-ikat sari from Patan (Gujarat) with a Baluchar Butedar sari from Murshidabad (West Bengal). Identify the fibre, the stage at which patterning occurs, and the resulting visual characteristic for each.",
-    "answer": "Patola: silk fibre; both warp and weft yarns are tie-dyed before weaving (double ikat), creating a unified pattern with colours flowing without harsh outlines",
-    "options": [
-     "\"Doing like tasks together\" better applies the rhythm and sequence principle. It maintains a consistent body posture (standing, sweeping motion) and tool use (broom) across rooms",
-     "A strong answer selects a region (e.g., Gujarat) and sequences: 1) 5000-year-old indigo-dyed cotton fragment (Mohenjo-Daro) – \"Early mastery of cotton mordant dyeing\"",
-     "Patola: silk fibre; both warp and weft yarns are tie-dyed before weaving (double ikat), creating a unified pattern with colours flowing without harsh outlines"
-    ],
-    "hint": "Straight from the 'Indian Textile Traditions' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Patola: silk fibre; both warp and weft yarns are tie-dyed before weaving (double ikat), creating a unified pattern with",
-    "id": "gen_c11_hs_ch07_q16",
-    "nodeId": "c11_hs_cbse_07_012",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a mini-exhibition plan (3-4 objects) that demonstrates the evolution from resist dyeing to brocade weaving to embroidery in one region of your choice. For each object, specify the fibre, technique, and approximate historical period, and write a one-sentence label explaining the technological or cultural shift",
-    "answer": "A strong answer selects a region (e.g., Gujarat) and sequences: 1) 5000-year-old indigo-dyed cotton fragment (Mohenjo-Daro) – \"Early mastery of cotton mordant dyeing\"",
-    "options": [
-     "The statement is incorrect. Mortality rate measures the frequency of deaths in a defined population during a specified time period (e",
-     "Revised zoning: (1) Shift the toilet entrance from the multipurpose room to the rear exterior wall with a small lobby—restores internal privacy and separates sanitation from",
-     "A strong answer selects a region (e.g., Gujarat) and sequences: 1) 5000-year-old indigo-dyed cotton fragment (Mohenjo-Daro) – \"Early mastery of cotton mordant dyeing\""
-    ],
-    "hint": "Straight from the 'Indian Textile Traditions' slide -- match the key terms.",
-    "misconception": "A weak answer lists unrelated objects from different regions without showing a clear technical or cultural progression within one region.",
-    "id": "gen_c11_hs_ch07_q17",
-    "nodeId": "c11_hs_cbse_07_012",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Kashmiri kashida embroidery is primarily a domestic craft done by women for household use, similar to phulkari or kantha.\" Provide two pieces of evidence from the text to support your judgment.",
-    "answer": "The statement is false. Evidence: (1) Kashmir embroidery is described as a commercial activity done by men (rafugars), catering to buyer demand",
-    "options": [
-     "The policy is flawed. Alcohol-based sanitiser (70%) effectively kills enveloped viruses (influenza",
-     "Sub-Centre care = Primary (first contact, preventive/promotive antenatal care by ANM). CHC care = Secondary (referral from primary, specialised treatment",
-     "The statement is false. Evidence: (1) Kashmir embroidery is described as a commercial activity done by men (rafugars), catering to buyer demand"
-    ],
-    "hint": "Straight from the 'Indian Textile Traditions' slide -- match the key terms.",
-    "misconception": "A student who agrees likely conflates all embroidery as \"women's domestic work\" and misses the text's explicit gender and economic distinction for kashida.",
-    "id": "gen_c11_hs_ch07_q18",
-    "nodeId": "c11_hs_cbse_07_012",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -3851,6 +4157,21 @@ export const C11_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A 3-month-old exclusively breastfed infant passes frequent watery stools. The mother wants to give ORS and water between feeds. Using the physiology of breast milk composition and infant renal solute load, explain why this is unnecessary and potentially harmful.",
+    "answer": "Step 1: Recognize that breast milk is 88% water, fully meeting hydration needs even in hot climates",
+    "options": [
+     "1. Replace sugary beverages with water/milk: School policy banning carbonated drinks/sweetened juices; outcome: ≥50% reduction in added sugar intake from beverages (24-hr recall)",
+     "At 14 weeks, the infant is due for the third dose of PENTA and the third dose of OPV. The minimum interval between PENTA doses is 4 weeks (28 days)",
+     "Step 1: Recognize that breast milk is 88% water, fully meeting hydration needs even in hot climates"
+    ],
+    "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
+    "misconception": "A wrong answer suggesting water/ORS shows failure to distinguish physiological stool patterns from pathology and ignorance of the water content of breast milk.",
+    "id": "gen_c11_hs_ch08_q13",
+    "nodeId": "c11_hs_cbse_08_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the protein concentration and quality in human milk versus cow's milk, and analyse how this difference protects the infant's kidneys and supports brain development.",
     "answer": "Human milk has lower total protein (0.9-1.2 g/100ml) vs cow's milk (3.3 g/100ml), with a whey:casein ratio of 60:40 (vs 20:80 in cow's milk)",
     "options": [
@@ -3860,7 +4181,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"human milk has more protein\" or ignoring whey:casein ratio reveals a rote memorisation of \"protein for growth\" without understanding the qualitative adaptation of human milk for human infants.",
-    "id": "gen_c11_hs_ch08_q13",
+    "id": "gen_c11_hs_ch08_q14",
     "nodeId": "c11_hs_cbse_08_004",
     "difficulty": "standard"
    },
@@ -3875,7 +4196,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement shows a deficit model of breastfeeding, ignoring the biological priority of lactation and the irreplaceable non-nutritive components of human milk.",
-    "id": "gen_c11_hs_ch08_q14",
+    "id": "gen_c11_hs_ch08_q15",
     "nodeId": "c11_hs_cbse_08_004",
     "difficulty": "standard"
    },
@@ -3890,7 +4211,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"breastfeeding with water\" or \"for 4 months\") reveals confusion between exclusive and predominant breastfeeding, or outdated guidelines (pre-2001 WHO recommended 4-6 months). This misconception leads to early supplementation, reducing milk supply and increasing infection risk.",
-    "id": "gen_c11_hs_ch08_q15",
+    "id": "gen_c11_hs_ch08_q16",
     "nodeId": "c11_hs_cbse_08_004",
     "difficulty": "standard"
    },
@@ -3905,7 +4226,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
     "misconception": "A poor answer focuses only on formula as inevitable, showing lack of knowledge on expression techniques, legal rights, and the feasibility of combining breastfeeding with education/employment.",
-    "id": "gen_c11_hs_ch08_q16",
+    "id": "gen_c11_hs_ch08_q17",
     "nodeId": "c11_hs_cbse_08_004",
     "difficulty": "standard"
    },
@@ -3920,23 +4241,8 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"high protein\" or \"yellow colour\" misses the immunological mechanism. This indicates the student views colostrum merely as a nutrient source, not as a bioactive signalling fluid that programmes the infant's immune system and microbiome.",
-    "id": "gen_c11_hs_ch08_q17",
-    "nodeId": "c11_hs_cbse_08_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a 3-day complementary feeding schedule for a 9-month-old infant from a vegetarian household in Rajasthan, using only seasonal, locally available ingredients (include at least one traditional recipe like 'Poshak' or 'Balahar').",
-    "answer": "Day 1: AM - Breastfeed; Breakfast - Ragi porridge (2 tbsp ragi flour + milk + jaggery); Lunch - Khichdi (rice+moong dal+carrot+ghee); Snack - Mashed banana",
-    "options": [
-     "A strong answer includes: (1) Affirmation: \"Exclusive breastfeeding for 6 months is possible even when returning to school/work",
-     "The first adaptation is to thicken thin liquids using agents like rice flour, cornstarch, or commercial thickeners to a nectar or honey consistency",
-     "Day 1: AM - Breastfeed; Breakfast - Ragi porridge (2 tbsp ragi flour + milk + jaggery); Lunch - Khichdi (rice+moong dal+carrot+ghee); Snack - Mashed banana"
-    ],
-    "hint": "Straight from the 'Complementary feeding' slide -- match the key terms.",
-    "misconception": "A poor answer repeats same cereal, lacks texture progression (puree to mash to soft chunks), or omits iron-rich foods daily.",
     "id": "gen_c11_hs_ch08_q18",
-    "nodeId": "c11_hs_cbse_08_005",
+    "nodeId": "c11_hs_cbse_08_004",
     "difficulty": "standard"
    }
   ],
@@ -5666,6 +5972,21 @@ export const C11_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "The Sharma family has: (a) ₹2 lakh fixed deposit maturing in 3 years, (b) father's 25 years of accounting experience, (c) mother's free time 2–5 pm weekdays, (d) a community centre offering free computer classes.",
+    "answer": "Step 1: Fixed deposit (material) — keep untouched as safety net; it matures after need date so cannot fund admission directly",
+    "options": [
+     "Family B converts Money Income into assets (owned home) generating Direct Real Income (imputed rent ≈ ₹25,000/month saved)",
+     "A good template has rows for: Human — skills of each member, health status, available hours/week, learning capacity",
+     "Step 1: Fixed deposit (material) — keep untouched as safety net; it matures after need date so cannot fund admission directly"
+    ],
+    "hint": "Straight from the 'Family resources' slide -- match the key terms.",
+    "misconception": "A wrong plan that breaks the FD early loses interest and safety, showing failure to distinguish between resource *availability* and resource *timing*.",
+    "id": "gen_c11_hs_ch10_q17",
+    "nodeId": "c11_hs_cbse_10_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the claim: \"A family with zero Money Income but substantial Direct Real Income (owned land, community support, diverse household skills) can have higher Psychic Income than a high-Money-Income family with no Direct Real Income.",
     "answer": "Defensible with conditions. Psychic Income = satisfaction from Real Income utilisation. If the zero-Money-Income family's Direct Real Income (food from land, housing",
     "options": [
@@ -5675,21 +5996,6 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Family income' slide -- match the key terms.",
     "misconception": "A wrong answer absolutising either side ignores the textbook's nuanced view: Psychic Income is subjective and depends on the *match* between Real Income composition and the family's specific want-hierarchy, which varies across families and life stages.",
-    "id": "gen_c11_hs_ch10_q17",
-    "nodeId": "c11_hs_cbse_10_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Two families have identical Money Income of ₹80,000/month. Family A lives in a rented flat, buys all meals, hires domestic help, and reports high stress. Family B owns their home (mortgage-free), cooks at home, maintains a kitchen garden, does DIY repairs, and reports high life satisfaction.",
-    "answer": "Family B converts Money Income into assets (owned home) generating Direct Real Income (imputed rent ≈ ₹25,000/month saved)",
-    "options": [
-     "Tier 1 (Emergency): ₹30,000/month × 3 months → ₹90,000 in liquid fund/savings account — high liquidity, capital protection",
-     "₹50,000 salary = Money Income. Balcony herbs = Direct Real Income (goods without money exchange). Mother's stitching = Direct Real Income (service without money exchange)",
-     "Family B converts Money Income into assets (owned home) generating Direct Real Income (imputed rent ≈ ₹25,000/month saved)"
-    ],
-    "hint": "Straight from the 'Family income' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"savings\" misses that Direct Real Income *is* Real Income — not a monetary saving — and that Psychic Income derives from the *process* of self-provisioning, not just the outcome.",
     "id": "gen_c11_hs_ch10_q18",
     "nodeId": "c11_hs_cbse_10_003",
     "difficulty": "advanced"

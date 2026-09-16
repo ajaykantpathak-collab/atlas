@@ -8,7 +8,7 @@ export const c6_physics_ch11_p2: SimDef = {
     subtitle: 'This node covers the basic structure and image formation mechanics of a pinhole camera.',
     classLevel: 6, subject: 'physics', topic: 'Light: Shadows and Reflections · Part 2/2',
     chapters: ['c6_physics_ch11'],
-    nodeIds: ['c6_physics_ch11_041', 'c6_physics_ch11_042', 'c6_physics_ch11_043', 'c6_physics_ch11_044'],
+    nodeIds: ['c6_physics_ch11_035', 'c6_physics_ch11_036', 'c6_physics_ch11_037', 'c6_physics_ch11_038'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered how a tiny hole in a dark box can "capture" a picture of the world outside?', goal: 'Master every idea in this chapter.' },

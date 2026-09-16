@@ -1511,7 +1511,7 @@ export const C10_ChemistryPeriodicpropertiesatomicsizeSim: React.FC<{
 
                 {/* Slater Custom Calculator Sliders */}
                 <div className="pt-2 border-t border-slate-800 space-y-3">
-                  <h4 className="text-xs font-bold text-slate-300">Custom Slater Shielding Simulator ($Z_{{eff}} = Z - S$)</h4>
+                  <h4 className="text-xs font-bold text-slate-300">{"Custom Slater Shielding Simulator ($Z_{eff} = Z - S$)"}</h4>
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Nuclear Charge ($Z$): {customProtons}</span>

@@ -10,7 +10,7 @@ export const w_c6_historycivicshistorymeaningdefinitionsim: SimDef = {
     subtitle: 'This node covers the fundamental definition and the inherent nature of human rights.',
     classLevel: 6, subject: 'history', topic: 'What Are Human Rights?',
     chapters: [],
-    nodeIds: ['c6_civics_ch10_001', 'c6_civics_ch10_002', 'c6_civics_ch10_003', 'c6_civics_ch11_011', 'c6_civics_ch15_038', 'c6_history_ch06_016', 'c6_civics_ch10_004', 'c6_civics_ch10_005', 'c6_civics_ch15_035', 'c6_history_ch06_015', 'c6_history_ch06_019', 'c6_civics_ch11_009'],
+    nodeIds: ['c6_civics_ch10_006', 'c6_civics_ch10_002', 'c6_civics_ch10_003', 'c6_civics_ch11_011', 'c6_history_ch06_016', 'c6_civics_ch10_004', 'c6_civics_ch10_007', 'c6_history_ch06_015', 'c6_history_ch06_019', 'c6_civics_ch11_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are playing a game where the rules are not written on a paper, but are understood by everyone.', goal: 'Master History Meaning Definition.' },
     discovery: {

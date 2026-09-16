@@ -10,7 +10,7 @@ export const w_c6_physicselectricitycircuitscbsesim: SimDef = {
     subtitle: 'This node covers the basic components and the concept of an "open" vs.',
     classLevel: 6, subject: 'physics', topic: 'A Torchlight and Its Parts',
     chapters: [],
-    nodeIds: ['c6_physics_ch03_011', 'c6_physics_ch03_012', 'c6_physics_ch03_013', 'c6_physics_ch03_014', 'c6_physics_ch03_015', 'c6_physics_ch03_017', 'c6_physics_ch03_018', 'c6_physics_ch03_016'],
+    nodeIds: ['c6_physics_ch03_011', 'c6_physics_ch03_012', 'c6_physics_ch03_013', 'c6_physics_ch03_014', 'c6_physics_ch03_015', 'c6_physics_ch03_017', 'c6_physics_ch03_016'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why your torchlight doesn\'t stay on all the time, even when the battery is inside?', goal: 'Master Electricity Circuits CBSE.' },
     discovery: {

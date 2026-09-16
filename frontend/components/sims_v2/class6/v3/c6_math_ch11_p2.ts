@@ -8,7 +8,7 @@ export const c6_math_ch11_p2: SimDef = {
     subtitle: 'This node covers triangle construction using ASA and RHS criteria.',
     classLevel: 6, subject: 'mathematics', topic: 'Practical Geometry · Part 2/2',
     chapters: ['c6_math_ch11'],
-    nodeIds: ['c6_math_ch11_119', 'c6_math_ch11_120'],
+    nodeIds: ['c6_math_ch11_113', 'c6_math_ch11_114'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are a carpenter building a triangular frame and you know exactly how long one side is and what.', goal: 'Master every idea in this chapter.' },

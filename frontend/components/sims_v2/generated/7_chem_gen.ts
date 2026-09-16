@@ -891,6 +891,21 @@ export const C7_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "If you mix vinegar and baking soda in a test tube, you observe brisk effervescence (bubbling) and the test tube feels cooler. Using the concept of new substance formation, explain why this is a chemical change and identify the gas usually given off.",
+    "answer": "The bubbling indicates the formation of carbon dioxide gas, which is a new substance not present initially as a gas in either reactant",
+    "options": [
+     "Steps: 1. Identify the action: Silt and pebbles are being physically moved by flowing water. 2. Check for new substance formation: The transported rock and mineral fragments",
+     "The correct answer is B. Baking bread is a chemical change that creates a useful and nourishing food item, making it highly desirable despite being irreversible",
+     "The bubbling indicates the formation of carbon dioxide gas, which is a new substance not present initially as a gas in either reactant"
+    ],
+    "hint": "Straight from the 'chemical change' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals the misconception that boiling or gas production is always physical, confusing boiling with chemical gas evolution.",
+    "id": "gen_c7_chem_ch02_q10",
+    "nodeId": "c7_chem_ch02_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the melting of solid candle wax and the burning of candle wick thread with wax vapor. Why is burning a candle considered to involve both physical and chemical changes simultaneously?",
     "answer": "The correct answer is A. Melting involves wax changing from solid to liquid (physical), whereas combustion of the vaporized wax reacts with oxygen to form new gases like carbon",
     "options": [
@@ -900,7 +915,22 @@ export const C7_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Distinguishing physical and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The correct answer is A. Melting involves wax changing from solid to liquid (physical), whereas combustion of the",
-    "id": "gen_c7_chem_ch02_q10",
+    "id": "gen_c7_chem_ch02_q11",
+    "nodeId": "c7_chem_ch02_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple two-step household test to conclusively prove whether the fizzing reaction when lemon juice (citric acid) is added to baking soda (sodium bicarbonate) is a physical or chemical change. What specific observations would confirm your conclusion?",
+    "answer": "To prove it is a chemical change, step 1: Mix baking soda and lemon juice in a glass and observe the vigorous effervescence (bubbling) caused by the release of carbon dioxide gas",
+    "options": [
+     "The correct answer is B. The desirability of a change depends on its utility and impact on living beings, not simply whether it is classified as physical or chemical",
+     "The correct answer is B. Baking bread is a chemical change that creates a useful and nourishing food item, making it highly desirable despite being irreversible",
+     "To prove it is a chemical change, step 1: Mix baking soda and lemon juice in a glass and observe the vigorous effervescence (bubbling) caused by the release of carbon dioxide gas"
+    ],
+    "hint": "Straight from the 'Distinguishing physical and' slide -- match the key terms.",
+    "misconception": "A poor answer would state it is physical because bubbles look like boiling water, missing the creation of an entirely new gas.",
+    "id": "gen_c7_chem_ch02_q12",
     "nodeId": "c7_chem_ch02_004",
     "difficulty": "advanced"
    },
@@ -915,7 +945,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Distinguishing physical and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The correct answer is B. The black coating is a completely new chemical substance formed by a reaction between silver",
-    "id": "gen_c7_chem_ch02_q11",
+    "id": "gen_c7_chem_ch02_q13",
     "nodeId": "c7_chem_ch02_004",
     "difficulty": "advanced"
    },
@@ -930,7 +960,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Combustion' slide -- match the key terms.",
     "misconception": "A student who incorrectly states that carbon dioxide was consumed shows a misconception about the roles of gases in combustion.",
-    "id": "gen_c7_chem_ch02_q12",
+    "id": "gen_c7_chem_ch02_q14",
     "nodeId": "c7_chem_ch02_006",
     "difficulty": "advanced"
    },
@@ -945,7 +975,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Combustion' slide -- match the key terms.",
     "misconception": "A student who claims they have nothing in common fails to recognize that both are oxidation reactions differing only in speed and energy release.",
-    "id": "gen_c7_chem_ch02_q13",
+    "id": "gen_c7_chem_ch02_q15",
     "nodeId": "c7_chem_ch02_006",
     "difficulty": "advanced"
    },
@@ -960,7 +990,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Combustion' slide -- match the key terms.",
     "misconception": "A poor answer would lack safety precautions or fail to link the extinguishing of the flame to oxygen depletion.",
-    "id": "gen_c7_chem_ch02_q14",
+    "id": "gen_c7_chem_ch02_q16",
     "nodeId": "c7_chem_ch02_006",
     "difficulty": "advanced"
    },
@@ -975,7 +1005,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'desirable change' slide -- match the key terms.",
     "misconception": "A student who picks A incorrectly assumes that all permanent or irreversible changes are automatically undesirable, failing to distinguish between permanent destruction (like burning a house) and permanent creation of useful goods (like baking bread or cooking food).",
-    "id": "gen_c7_chem_ch02_q15",
+    "id": "gen_c7_chem_ch02_q17",
     "nodeId": "c7_chem_ch02_008",
     "difficulty": "advanced"
    },
@@ -990,36 +1020,6 @@ export const C7_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'desirable change' slide -- match the key terms.",
     "misconception": "A student who picks A or C fails to link chemical reactions to biological necessity or economic value.",
-    "id": "gen_c7_chem_ch02_q16",
-    "nodeId": "c7_chem_ch02_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Consider the chemical reaction of burning coal for thermal energy: $C + O_2 \\rightarrow CO_2 + Heat$. Why is this change considered both desirable and undesirable simultaneously in modern society?",
-    "answer": "The correct answer is A. Many industrial and energy-producing changes provide vital utility (desirable) while simultaneously generating harmful pollutants or environmental",
-    "options": [
-     "The correct answer is B. The desirability of a change depends on its utility and impact on living beings, not simply whether it is classified as physical or chemical",
-     "A good response describes mixing turmeric paste with water (yellow), adding a basic soap solution to turn it reddish-brown (indicating a chemical reaction between turmeric's",
-     "The correct answer is A. Many industrial and energy-producing changes provide vital utility (desirable) while simultaneously generating harmful pollutants or environmental"
-    ],
-    "hint": "Straight from the 'desirable change' slide -- match the key terms.",
-    "misconception": "A student who picks B or D demonstrates severe misconceptions about combustion products and conservation of mass, while picking C incorrectly classifies combustion as a physical change.",
-    "id": "gen_c7_chem_ch02_q17",
-    "nodeId": "c7_chem_ch02_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a real-world scenario where a change that is normally classified as \"undesirable\" (such as the decomposition of organic matter) becomes a \"desirable\" change. Explain the chemical or practical reasoning behind your scenario.",
-    "answer": "The expected answer should recognize that context dictates desirability. While random food spoilage is undesirable",
-    "options": [
-     "The correct answer is B. The desirability of a change depends on its utility and impact on living beings, not simply whether it is classified as physical or chemical",
-     "The correct answer is B. Baking bread is a chemical change that creates a useful and nourishing food item, making it highly desirable despite being irreversible",
-     "The expected answer should recognize that context dictates desirability. While random food spoilage is undesirable"
-    ],
-    "hint": "Straight from the 'desirable change' slide -- match the key terms.",
-    "misconception": "A poor answer like A relies purely on sensory perception (smell) without analyzing the broader ecological and agricultural utility of the process.",
     "id": "gen_c7_chem_ch02_q18",
     "nodeId": "c7_chem_ch02_008",
     "difficulty": "advanced"

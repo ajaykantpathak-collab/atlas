@@ -931,6 +931,21 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "You have a metal wire. You bend it into a circle. Has a new substance been formed?",
+    "answer": "No. Step 1: Identify the material (metal wire). Step 2: Observe the change (bending). Step 3: Check if the material identity changed (it is still metal)",
+    "options": [
+     "It is a chemical change because heat causes ingredients to react, creating a new substance (bread) that cannot be turned back into raw dough",
+     "Yes, it is reversible; you can recover the salt by evaporating the water",
+     "No. Step 1: Identify the material (metal wire). Step 2: Observe the change (bending). Step 3: Check if the material identity changed (it is still metal)"
+    ],
+    "hint": "Straight from the 'physical change' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks physical manipulation equals a chemical creation.",
+    "id": "gen_c6_chem_ch05_q15",
+    "nodeId": "c6_chemistry_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A baker heats sugar until it turns into a brown, sweet-smelling liquid called caramel. Can this be reversed to get the original white sugar crystals back?",
     "answer": "No, it cannot be reversed because the heat caused a chemical change, creating a new substance (caramel)",
     "options": [
@@ -940,7 +955,7 @@ export const C6_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'chemical change' slide -- match the key terms.",
     "misconception": "If the student thinks it can be reversed by cooling, they misunderstand that chemical changes are usually permanent.",
-    "id": "gen_c6_chem_ch05_q15",
+    "id": "gen_c6_chem_ch05_q16",
     "nodeId": "c6_chemistry_ch05_002",
     "difficulty": "standard"
    },
@@ -955,7 +970,7 @@ export const C6_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'chemical change' slide -- match the key terms.",
     "misconception": "Students often struggle to see that a single object can undergo both types of changes at once.",
-    "id": "gen_c6_chem_ch05_q16",
+    "id": "gen_c6_chem_ch05_q17",
     "nodeId": "c6_chemistry_ch05_002",
     "difficulty": "standard"
    },
@@ -970,21 +985,6 @@ export const C6_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'chemical change' slide -- match the key terms.",
     "misconception": "If a student answers \"no,\" they believe that chemical changes always require fire or high heat.",
-    "id": "gen_c6_chem_ch05_q17",
-    "nodeId": "c6_chemistry_ch05_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Think of a kitchen activity. Describe a process where you mix two things and a chemical change happens.",
-    "answer": "Baking a cake is a great example, as the batter (flour, eggs, sugar) changes into a solid, spongy structure through heat",
-    "options": [
-     "Yes, it is reversible; you can recover the salt by evaporating the water",
-     "It is a chemical change because the bacteria change the composition of the milk, and you cannot turn the yogurt back into liquid milk",
-     "Baking a cake is a great example, as the batter (flour, eggs, sugar) changes into a solid, spongy structure through heat"
-    ],
-    "hint": "Straight from the 'chemical change' slide -- match the key terms.",
-    "misconception": "A poor answer would be \"mixing salt and water,\" because that is just a mixture, not a chemical change.",
     "id": "gen_c6_chem_ch05_q18",
     "nodeId": "c6_chemistry_ch05_002",
     "difficulty": "standard"

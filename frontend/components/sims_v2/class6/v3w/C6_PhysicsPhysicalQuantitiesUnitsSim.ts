@@ -10,7 +10,7 @@ export const w_c6_physicsphysicalquantitiesunitssim: SimDef = {
     subtitle: 'This node covers standard time units (seconds, minutes, hours, days, years) and sub-units.',
     classLevel: 6, subject: 'physics', topic: 'Units of Time and Their Conversions',
     chapters: [],
-    nodeIds: ['c6_physics_ch08_034', 'c6_physics_ch08_029', 'c6_physics_ch08_031', 'c6_physics_ch08_032'],
+    nodeIds: ['c6_physics_ch08_027', 'c6_physics_ch08_029', 'c6_physics_ch08_031', 'c6_physics_ch08_030'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are waiting for your favorite television show to start; do you check the clock in hours or.', goal: 'Master Physical Quantities Units.' },
     discovery: {

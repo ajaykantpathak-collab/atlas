@@ -479,6 +479,21 @@ export const C11_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a 3-device storage strategy for a freelance photographer who: (a) shoots 50 GB RAW photos per wedding, (b) edits on a laptop, (c) delivers final 10 GB JPEGs to clients, (d) archives all RAWs for 10 years.",
+    "answer": "Device 1: 1 TB NVMe SSD (laptop internal) — active editing workspace (speed for random access to RAW files)",
+    "options": [
+     "Allocate OS + software (200 GB) to SSD for fast random access (boot, app launch). Allocate raw footage (1",
+     "Ubuntu → SS (OS), MS Word → AS (general purpose), Printer Driver → SS (device driver), Photoshop → AS (general purpose), Python Interpreter → PT (programming tool)",
+     "Device 1: 1 TB NVMe SSD (laptop internal) — active editing workspace (speed for random access to RAW files)"
+    ],
+    "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
+    "misconception": "A poor answer omits the upload bandwidth constraint or confuses cloud with local secondary storage.",
+    "id": "gen_c11_ip_ch01_q17",
+    "nodeId": "c11_ip_cbse_01_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "You have a 2 TB HDD (₹4,500) and a 1 TB SSD (₹5,500). A video editor needs 1.5 TB for raw footage (sequential read/write) and 200 GB for OS + editing software (random access). Allocate the storage between the two drives to optimize performance and cost. Show your calculation.",
     "answer": "Allocate OS + software (200 GB) to SSD for fast random access (boot, app launch). Allocate raw footage (1",
     "options": [
@@ -488,24 +503,9 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
     "misconception": "A wrong allocation (e.g., footage on SSD) shows inability to match access pattern (sequential vs random) to device strength.",
-    "id": "gen_c11_ip_ch01_q17",
+    "id": "gen_c11_ip_ch01_q18",
     "nodeId": "c11_ip_cbse_01_007",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Classify each of the following as System Software (SS), Application Software (AS), or Programming Tool (PT): Ubuntu, MS Word, Printer Driver, Photoshop, Python Interpreter, Disk Defragmenter, School Management System, GCC Compiler.",
-    "answer": "Ubuntu → SS (OS), MS Word → AS (general purpose), Printer Driver → SS (device driver), Photoshop → AS (general purpose), Python Interpreter → PT (programming tool)",
-    "options": [
-     "(a) Linux Ubuntu – SS (Operating System); (b) Laser Printer – H (Output Device); (c) Python Interpreter – PT (translates high-level code to machine code)",
-     "Same: (1) Process Management (running Python interpreter), (2) File Management (saving .py files to disk), (3) Memory Management (allocating RAM to the editor)",
-     "Ubuntu → SS (OS), MS Word → AS (general purpose), Printer Driver → SS (device driver), Photoshop → AS (general purpose), Python Interpreter → PT (programming tool)"
-    ],
-    "hint": "Straight from the 'System software' slide -- match the key terms.",
-    "misconception": "A wrong classification (e.g., \"Python Interpreter is system software\") reveals the student cannot distinguish the third category (programming tools) and conflates \"software that runs code\" with \"software that manages hardware.\"",
-    "id": "gen_c11_ip_ch01_q18",
-    "nodeId": "c11_ip_cbse_01_008",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -1698,6 +1698,21 @@ export const C11_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Rewrite the following pseudocode into valid Python code, paying careful attention to block structure. The logic: \"Set score to 75. If score is at least 50, print 'Pass' and set grade to 'C'. Otherwise, print 'Fail' and set grade to 'F'. Finally, print the grade.\"",
+    "answer": "score = 75 if score >= 50: print(\"Pass\") grade = 'C' else: print(\"Fail\") grade = 'F' print(grade) Steps: (1) Assign 75 to score",
+    "options": [
+     "correct_pass = \"ip123\" for attempt in range(3): # iterative flow pwd = input(\"Enter password: \") # sequential inside loop if pwd == correct_pass: # conditional flow print(\"Access",
+     "n = 5 for i in range(n): for j in range(n): if i == 0 or i == n-1 or j == 0 or j == n-1: print(\"*\", end=\" \") else: print(\" \"",
+     "score = 75 if score >= 50: print(\"Pass\") grade = 'C' else: print(\"Fail\") grade = 'F' print(grade) Steps: (1) Assign 75 to score"
+    ],
+    "hint": "Straight from the 'Control flow' slide -- match the key terms.",
+    "misconception": "A wrong answer with incorrect indentation (e.g., grade = 'C' not indented) shows the student does not understand that indentation *is* the block delimiter in Python.",
+    "id": "gen_c11_ip_ch03_q17",
+    "nodeId": "c11_ip_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What is the default control flow mechanism in a Python program when no conditional or looping statements are used?",
     "answer": "The default control flow is sequential execution: statements are executed one after another in the exact order they appear in the source code, from top to bottom",
     "options": [
@@ -1707,23 +1722,8 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Control flow' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"random order\" or \"alphabetical order\") reveals that the student has not internalized the fundamental concept that a program is a sequence of instructions executed linearly unless explicitly directed otherwise.",
-    "id": "gen_c11_ip_ch03_q17",
-    "nodeId": "c11_ip_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student writes if marks >= 33 and marks <= 100: to check valid marks. Another writes if 33 <= marks <= 100:. Which is better? Justify your evaluation.",
-    "answer": "The second (33 <= marks <= 100) is better. It uses Python's chained comparison, which is more readable",
-    "options": [
-     "The statements print(\"Greater\") and y = x * 2 belong to the same block (the if block) because they share the same indentation level (one level deeper than the if line)",
-     "score = 75 if score >= 50: print(\"Pass\") grade = 'C' else: print(\"Fail\") grade = 'F' print(grade) Steps: (1) Assign 75 to score",
-     "The second (33 <= marks <= 100) is better. It uses Python's chained comparison, which is more readable"
-    ],
-    "hint": "Straight from the 'Relational operators in Python' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both same\") reveals lack of awareness of chained comparison semantics and evaluation order nuances.",
     "id": "gen_c11_ip_ch03_q18",
-    "nodeId": "c11_ip_cbse_03_002",
+    "nodeId": "c11_ip_cbse_03_001",
     "difficulty": "standard"
    }
   ],
@@ -3498,6 +3498,21 @@ export const C11_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "In the STUDENT relation, the attribute SDateofBirth has domain \"set of all valid calendar dates\". A student proposes storing \"15th May 2003\" as a VARCHAR string \"15-May-2003\". Explain why this violates the domain concept even though the value \"looks like a date\".",
+    "answer": "A domain is a *set of values of a specific data type* (e.g., DATE), not just a semantic description",
+    "options": [
+     "The third row will fail because Author is not declared NOT NULL but the INSERT provides NULL — that is allowed",
+     "In the ATTENDANCE relation, a single student (RollNumber) appears once *per date*. Therefore RollNumber values repeat across different dates, violating uniqueness",
+     "A domain is a *set of values of a specific data type* (e.g., DATE), not just a semantic description"
+    ],
+    "hint": "Straight from the 'In the Relational Data Model, a' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student thinks domain = \"what the data means\" rather than \"the declared data type and its value set\".",
+    "id": "gen_c11_ip_ch07_q5",
+    "nodeId": "c11_ip_cbse_07_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "The ATTENDANCE relation has attributes (AttendanceDate, RollNumber, AttendanceStatus). On 2018-09-01, RollNumber 3 (Taleem Shah) is marked 'A'. On 2018-09-02, the same RollNumber 3 is again marked 'A'. Are these two tuples distinct? Justify using Property 2 of relations.",
     "answer": "Yes, they are distinct tuples. Property 2 states \"each tuple in a relation is distinct\" – uniqueness is judged across *all* attributes of the tuple",
     "options": [
@@ -3507,7 +3522,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In the Relational Data Model, a' slide -- match the key terms.",
     "misconception": "A student who says \"they are duplicates because RollNumber and Status are same\" misunderstands that tuple identity requires *all* attribute values to match, not just some – this confusion leads directly to primary key design errors in the next node.",
-    "id": "gen_c11_ip_ch07_q5",
+    "id": "gen_c11_ip_ch07_q6",
     "nodeId": "c11_ip_cbse_07_002",
     "difficulty": "standard"
    },
@@ -3522,7 +3537,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Candidate Key' slide -- match the key terms.",
     "misconception": "A poor answer omits foreign keys, uses composite keys unnecessarily, or fails to list alternate keys (e.g., LicenseNo in DRIVER). This reveals the student cannot synthesise a schema from requirements — a core board exam skill.",
-    "id": "gen_c11_ip_ch07_q6",
+    "id": "gen_c11_ip_ch07_q7",
     "nodeId": "c11_ip_cbse_07_003",
     "difficulty": "standard"
    }

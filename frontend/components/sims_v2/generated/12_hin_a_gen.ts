@@ -5351,6 +5351,21 @@ export const C12_HIN_A_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Create a 3-sentence \"background brief\" for a classmate who hasn't read the introduction, covering only the three most essential context points they need before reading \"Chakigelek.\"",
+    "answer": "A strong brief: (1) Sant Eknath (1492–1542) was a Varkari saint-poet who wrote Abhangas in simple Marathi for pilgrims walking to Pandharpur",
+    "options": [
+     "*Raat bhar screen takta raha, dil mein baithi vyakulata,* *Ek beep aayi, roshni jhalki, mit gayi sari ghabrahat",
+     "The impermanence of the body serves as a secondary theme by creating urgency for spiritual action",
+     "A strong brief: (1) Sant Eknath (1492–1542) was a Varkari saint-poet who wrote Abhangas in simple Marathi for pilgrims walking to Pandharpur"
+    ],
+    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A strong brief: (1) Sant Eknath (1492–1542) was a Varkari saint-poet who wrote Abhangas in simple Marathi for pilgrims",
+    "id": "gen_c12_hin_a_ch07_q17",
+    "nodeId": "c12_hin_a_cbse_07_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate this claim: \"Knowing the poet's biography is unnecessary for understanding a poem — the text should stand on its own.\" Argue for or against using Sant Eknath's \"Chakigelek\" as a test case.",
     "answer": "Against. While close reading is vital, Eknath's life — as a Brahmin who challenged caste norms, edited the Dnyaneshwari, and composed for marginalized pilgrims",
     "options": [
@@ -5360,21 +5375,6 @@ export const C12_HIN_A_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
     "misconception": "A student who agrees with the claim reveals a New Critical bias that ignores how Bhakti poetry functions as lived, communal practice — not just aesthetic object.",
-    "id": "gen_c12_hin_a_ch07_q17",
-    "nodeId": "c12_hin_a_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words what an \"Abhang\" is and how it differs from a classical Sanskrit poetic form like a \"Shloka.\"",
-    "answer": "An Abhang is a devotional poetic form in Marathi, characterized by simple language, folk rhythm (often in ovi or similar meters), direct address to God",
-    "options": [
-     "Critique: The poem has a clear three-act narrative structure. Act 1 (Stanza 1): Exposition — woman waits, lamp burns, she calls out",
-     "Stanza 2 introduces the first stirrings: \"चिड़िया चहकैं\" (birds chirping), \"पवन मंद सुहावन\" (gentle pleasant breeze) — a fragile, tentative awakening",
-     "An Abhang is a devotional poetic form in Marathi, characterized by simple language, folk rhythm (often in ovi or similar meters), direct address to God"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer that only says \"it's a Marathi poem\" misses the functional, performative, and structural distinctions critical for analyzing Eknath's craft.",
     "id": "gen_c12_hin_a_ch07_q18",
     "nodeId": "c12_hin_a_cbse_07_001",
     "difficulty": "standard"

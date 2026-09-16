@@ -359,6 +359,36 @@ export const C11_BS_GEN: SimDef[] = [
     "id": "gen_c11_bs_ch01_q10",
     "nodeId": "c11_bs_cbse_01_001",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "\"GreenThread\" is a startup making biodegradable packaging from agricultural waste. In its first year, it focused only on maximising output to earn quick profits, skipping quality checks and delaying vendor payments.",
+    "answer": "Neglected objectives and consequences: (1) Quality/Productivity – Skipping quality checks led to inconsistent products → client loss",
+    "options": [
+     "(a) Primary - genetic industry (breeding/reproduction of living organisms). (b) Secondary - manufacturing, specifically analytical industry (separates elements from same material)",
+     "A strong answer includes: (1) Market standing — % repeat customers; (2) Innovation — R&D spend as % of revenue; (3) Productivity — limbs produced per technician-hour",
+     "Neglected objectives and consequences: (1) Quality/Productivity – Skipping quality checks led to inconsistent products → client loss"
+    ],
+    "hint": "Straight from the 'Objectives of business' slide -- match the key terms.",
+    "misconception": "A wrong answer listing only \"profit\" or \"customer service\" misses the multi-objective interconnectivity: the student fails to see that economic objectives (productivity, market standing) and social objectives (vendor relations) are mutually reinforcing, not competing.",
+    "id": "gen_c11_bs_ch01_q11",
+    "nodeId": "c11_bs_cbse_01_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a one-page 'Objective Dashboard' for a startup making affordable prosthetic limbs. The dashboard must include all six NCERT objectives with one measurable KPI each, and show how profit enables two specific social objectives.",
+    "answer": "A strong answer includes: (1) Market standing — % repeat customers; (2) Innovation — R&D spend as % of revenue; (3) Productivity — limbs produced per technician-hour",
+    "options": [
+     "The merchant would use a Jokhmi Muddati Hundi. Reasoning: (1) It is drawn against dispatched goods — payment is linked to the shipment",
+     "(a) Core principle: Decentralised trust-based credit transfer — a network of verified merchants/agents settle obligations bilaterally without central clearing",
+     "A strong answer includes: (1) Market standing — % repeat customers; (2) Innovation — R&D spend as % of revenue; (3) Productivity — limbs produced per technician-hour"
+    ],
+    "hint": "Straight from the 'Profit in business' slide -- match the key terms.",
+    "misconception": "A poor answer lists generic KPIs or fails to link profit to specific social outcomes.",
+    "id": "gen_c11_bs_ch01_q12",
+    "nodeId": "c11_bs_cbse_01_011",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -370,6 +400,303 @@ export const C11_BS_GEN: SimDef[] = [
   "successLine": "History Of Trade And Commerce mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c11_bs_ch02",
+  "title": "Sole Proprietorship",
+  "subtitle": "Business Studies · Chapter 2",
+  "classLevel": 11,
+  "mode": "senior",
+  "subject": "business studies",
+  "topic": "Sole Proprietorship",
+  "chapters": [
+   "Business Studies Ch2: Sole Proprietorship"
+  ],
+  "nodeIds": [
+   "c11_bs_cbse_02_001",
+   "c11_bs_cbse_02_007",
+   "c11_bs_cbse_02_010"
+  ],
+  "emoji": "🏢",
+  "theme": {
+   "bg": "from-violet-100 to-purple-200",
+   "accent": "violet",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Quick guess -- where do you meet Sole Proprietorship outside the classroom?",
+   "options": [
+    "Hidden in everyday things around us",
+    "Only inside exam papers",
+    "Nowhere -- it is pure theory"
+   ],
+   "answer": "Hidden in everyday things around us",
+   "hook": "Sole proprietorship is a form of business organisation in which a single individual owns, manages, controls, and bears all risks of the enterprise"
+  },
+  "teaching": [
+   {
+    "title": "Sole Proprietorship",
+    "text": "Sole proprietorship is a form of business organisation in which a single individual owns, manages, controls, and bears all risks of the enterprise while exclusively receiving all profits, with no legal distinction between the owner and the business entity.",
+    "emoji": "🏢",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Cooperative Society",
+    "text": "A cooperative society is a voluntary association of persons who join together to protect their common economic interests through a democratically controlled enterprise, where membership is open to all, liability is limited to capital contribution, and the",
+    "emoji": "🏢",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Choice Of Form Of Business Organisation",
+    "text": "The choice of form of business organisation is the systematic evaluation of seven key factors—cost and ease of formation, liability, continuity, managerial ability, capital requirements, degree of control, and nature of business—to select the most appropriate",
+    "emoji": "🏢",
+    "bgColor": "from-indigo-400 to-blue-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Give the correct order of features a student should weigh when judging whether sole proprietorship suits Priya's home design venture.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "She keeps every rupee of profit as the",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The risk that illness stops the business",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The 20,000 rupee capital calls",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Quick decisions and client confidentiality",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that cites company-style continuity as automatic shows the student has missed that a sole proprietorship has no separate entity and no continuity beyond its owner.",
+    "id": "gen_c11_bs_ch02_q1",
+    "nodeId": "c11_bs_cbse_02_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you want to start a home-based bakery selling custom cakes — you have ₹50,000 savings, baking skills, and want full control over recipes and",
+     "Ask yourself: \"Can I start this tomorrow without lawyers?",
+     "What happens if a customer sues me?",
+     "What if I fall ill?\" This scenario mirrors Neha's pottery business in the textbook."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence of links by which government support fails to become efficient management in a cooperative society.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Management stays with honorary members who",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Government control adds audits and",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Unpaid elected committees work without",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Low taxes and subsidised loans ease",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that says support itself causes inefficiency shows the student has missed the structural limitations of honorary service and state control named in the textbook.",
+    "id": "gen_c11_bs_ch02_q2",
+    "nodeId": "c11_bs_cbse_02_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you and your neighbours in a housing colony are tired of paying high maintenance charges to a private builder who ignores your complaints.",
+     "You decide to form a group to manage the colony yourselves — each family gets one vote regardless of flat size, and surplus funds are reinvested for",
+     "This is a cooperative housing society in action.",
+     "Start by identifying the problem (high costs, no voice), then see how the cooperative principles (voluntary membership, one member one vote, limited"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of factors Rajesh should weigh when choosing a form for his ed-tech platform with savings, control needs and continuity worries.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "His desire for full control over product",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Continuity beyond his possible exit settles",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The need for specialised tech and management",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Low capital need from his savings weakens",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that weighs a single factor alone shows the student has missed that the factors must be balanced together, not maximised one at a time.",
+    "id": "gen_c11_bs_ch02_q3",
+    "nodeId": "c11_bs_cbse_02_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine Neha from the textbook case: she started as a sole proprietor selling painted pottery from home, but now wants to expand nationwide.",
+     "Ask students: \"If you were Neha's advisor, which single factor would you tell her to prioritise first?\" Most will say capital.",
+     "Then reveal: \"But if she chooses a company just for capital, she loses quick decision-making and faces complex regulations.",
+     "The real skill is balancing ALL factors simultaneously.\" Guide them to create a decision matrix scoring each form (1-5) on each factor for Neha's"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of features a student should weigh when judging whether sole proprietorship suits Priya's home design venture.",
+    "answer": "The reasoning runs: (1) The 20,000 rupee capital calls for the easiest and cheapest formation (2) Quick decisions and client confidentiality flow from single-person control (3)",
+    "options": [
+     "The analysis runs: (1) Low capital need from his savings weakens the case for share issue (2) His desire for full control over product decisions favours a proprietorship or",
+     "The chain runs: (1) Low taxes and subsidised loans ease the cooperative's financial burden (2) Management stays with honorary members who lack professional skills (3) Unpaid",
+     "The reasoning runs: (1) The 20,000 rupee capital calls for the easiest and cheapest formation (2) Quick decisions and client confidentiality flow from single-person control (3)"
+    ],
+    "hint": "Straight from the 'Sole proprietorship' slide -- match the key terms.",
+    "misconception": "A wrong answer that cites company-style continuity as automatic shows the student has missed that a sole proprietorship has no separate entity and no continuity beyond its owner.",
+    "id": "gen_c11_bs_ch02_q4",
+    "nodeId": "c11_bs_cbse_02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Trace the correct sequence of links by which government support fails to become efficient management in a cooperative society.",
+    "answer": "The chain runs: (1) Low taxes and subsidised loans ease the cooperative's financial burden (2) Management stays with honorary members who lack professional skills (3) Unpaid",
+    "options": [
+     "The analysis runs: (1) Low capital need from his savings weakens the case for share issue (2) His desire for full control over product decisions favours a proprietorship or",
+     "The reasoning runs: (1) The 20,000 rupee capital calls for the easiest and cheapest formation (2) Quick decisions and client confidentiality flow from single-person control (3)",
+     "The chain runs: (1) Low taxes and subsidised loans ease the cooperative's financial burden (2) Management stays with honorary members who lack professional skills (3) Unpaid"
+    ],
+    "hint": "Straight from the 'cooperative society' slide -- match the key terms.",
+    "misconception": "A wrong answer that says support itself causes inefficiency shows the student has missed the structural limitations of honorary service and state control named in the textbook.",
+    "id": "gen_c11_bs_ch02_q5",
+    "nodeId": "c11_bs_cbse_02_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of factors Rajesh should weigh when choosing a form for his ed-tech platform with savings, control needs and continuity worries.",
+    "answer": "The analysis runs: (1) Low capital need from his savings weakens the case for share issue (2) His desire for full control over product decisions favours a proprietorship or",
+    "options": [
+     "The reasoning runs: (1) The 20,000 rupee capital calls for the easiest and cheapest formation (2) Quick decisions and client confidentiality flow from single-person control (3)",
+     "The chain runs: (1) Low taxes and subsidised loans ease the cooperative's financial burden (2) Management stays with honorary members who lack professional skills (3) Unpaid",
+     "The analysis runs: (1) Low capital need from his savings weakens the case for share issue (2) His desire for full control over product decisions favours a proprietorship or"
+    ],
+    "hint": "Straight from the 'choice of form of business' slide -- match the key terms.",
+    "misconception": "A wrong answer that weighs a single factor alone shows the student has missed that the factors must be balanced together, not maximised one at a time.",
+    "id": "gen_c11_bs_ch02_q6",
+    "nodeId": "c11_bs_cbse_02_010",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about sole proprietorship?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Sole Proprietorship mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c11_bs_ch03",
@@ -634,6 +961,21 @@ export const C11_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a 3-step policy framework for a newly appointed Disinvestment Secretary to decide whether a PSU in the tourism hotel sector (non-strategic) should be closed, strategically sold, or minority-stake disinvested via OFS (Offer for Sale). Justify each step with a criterion from the 1991 policy.",
+    "answer": "Step 1: Viability test — assess if the PSU can be revived with reasonable investment (criterion: \"Restructure and revive potentially viable PSUs\")",
+    "options": [
+     "1. Mandate minimum 30% local sourcing within 5 years (targets: huge capital resources → vendor development)",
+     "Arguments for: (1) Cumulative disinvestment receipts exceeded ₹4 lakh crore (1991-2023), funding schemes like NHM and SSA",
+     "Step 1: Viability test — assess if the PSU can be revived with reasonable investment (criterion: \"Restructure and revive potentially viable PSUs\")"
+    ],
+    "hint": "Straight from the 'changing role of the public sector' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Viability test — assess if the PSU can be revived with reasonable investment (criterion: \"Restructure and",
+    "id": "gen_c11_bs_ch03_q9",
+    "nodeId": "c11_bs_cbse_03_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the impact of two MNC entry modes: (a) Greenfield investment (building new factory) vs (b) Acquisition of an existing Indian company. Which mode generates more net new employment and technology diffusion in the short run? Justify.",
     "answer": "Greenfield investment creates net new employment (construction + operations) and brings new technology/processes to India, expanding productive capacity",
     "options": [
@@ -643,7 +985,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Multinational Corporations' slide -- match the key terms.",
     "misconception": "A wrong answer claiming acquisition is better because \"it saves time\" confuses MNC's private efficiency with economy-wide impact; missing that acquisition can be \"brownfield\" with no new capital formation reveals misunderstanding of investment types.",
-    "id": "gen_c11_bs_ch03_q9",
+    "id": "gen_c11_bs_ch03_q10",
     "nodeId": "c11_bs_cbse_03_009",
     "difficulty": "advanced"
    },
@@ -658,7 +1000,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Multinational Corporations' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees wholly or disagrees wholly shows inability to evaluate trade-offs; missing the link between specific MNC features (capital, technology, marketing) and their dual effects reveals superficial understanding.",
-    "id": "gen_c11_bs_ch03_q10",
+    "id": "gen_c11_bs_ch03_q11",
     "nodeId": "c11_bs_cbse_03_009",
     "difficulty": "advanced"
    },
@@ -673,7 +1015,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Multinational Corporations' slide -- match the key terms.",
     "misconception": "A poor answer listing generic policies (\"give tax breaks\", \"strict regulation\") without mapping to textbook MNC features shows inability to translate conceptual features into targeted policy instruments.",
-    "id": "gen_c11_bs_ch03_q11",
+    "id": "gen_c11_bs_ch03_q12",
     "nodeId": "c11_bs_cbse_03_009",
     "difficulty": "advanced"
    }
@@ -923,6 +1265,21 @@ export const C11_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A florist in Bengaluru exports orchids to Dubai. The flowers must reach within 24 hours of harvest to maintain quality. The consignment weighs 200 kg and has high per-unit value.",
+    "answer": "Air transport is most appropriate. Factors: (1) Speed — air is fastest, meeting the 24-hour deadline; (2) Perishability — air minimizes transit time for highly perishable goods",
+    "options": [
+     "(a) Speed Post – offers time-bound express delivery with tracking to 1000+ destinations including Chennai, ensuring the fragile sample reaches urgently and safely",
+     "| Parameter | VSAT (Very Small Aperture Terminal) | DTH (Direct to Home) | | :--- | :--- | :--- | | Direction | Two-way (interactive: data, voice",
+     "Air transport is most appropriate. Factors: (1) Speed — air is fastest, meeting the 24-hour deadline; (2) Perishability — air minimizes transit time for highly perishable goods"
+    ],
+    "hint": "Straight from the 'Transportation in business' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Air transport is most appropriate. Factors: (1) Speed — air is fastest, meeting the 24-hour deadline; (2) Perishability",
+    "id": "gen_c11_bs_ch04_q8",
+    "nodeId": "c11_bs_cbse_04_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a multi-modal transport plan for exporting 20 tonnes of Alphonso mangoes from Ratnagiri (Maharashtra) to London (UK). The mangoes have a shelf life of 10 days from harvest.",
     "answer": "Leg 1: Ratnagiri to Mumbai (JNPT) — refrigerated road truck (flexibility, door-to-port, short distance)",
     "options": [
@@ -932,7 +1289,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Transportation in business' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Leg 1: Ratnagiri to Mumbai (JNPT) — refrigerated road truck (flexibility, door-to-port, short distance).",
-    "id": "gen_c11_bs_ch04_q8",
+    "id": "gen_c11_bs_ch04_q9",
     "nodeId": "c11_bs_cbse_04_009",
     "difficulty": "standard"
    }
@@ -944,7 +1301,8 @@ export const C11_BS_GEN: SimDef[] = [
    ]
   },
   "successLine": "Business Services mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_bs_ch05",
@@ -1372,6 +1730,21 @@ export const C11_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a 3-column \"Outsourcing Decision Matrix\" for a mid-sized Indian auto-component manufacturer. Columns: Activity, Core/Non-Core (with 1-line reason), Outsource? (Yes/No with primary basis: Cost/Expertise/Focus). Include at least 6 activities spanning manufacturing, R&D, and support functions.",
+    "answer": "Example rows: (1) CNC machining of engine blocks — Core (proprietary tolerances) — No; (2) Heat treatment — Non-core (standardised process) — Yes, Cost",
+    "options": [
+     "The founder confuses 'core activity' (essential for operations) with 'core competency' (source of competitive advantage)",
+     "The CEO is correct: core competency refers to activities that create unique competitive advantage in the market (software development for an IT firm)",
+     "Example rows: (1) CNC machining of engine blocks — Core (proprietary tolerances) — No; (2) Heat treatment — Non-core (standardised process) — Yes, Cost"
+    ],
+    "hint": "Straight from the 'Outsourcing' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Example rows: (1) CNC machining of engine blocks — Core (proprietary tolerances) — No; (2) Heat treatment — Non-core",
+    "id": "gen_c11_bs_ch05_q13",
+    "nodeId": "c11_bs_cbse_05_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A Mumbai-based fintech startup outsources its customer onboarding KYC verification to a specialised BPO vendor. The startup's founder argues: \"This is not BPO because KYC is a core regulatory requirement for our business — it's central to what we do.",
     "answer": "The founder confuses 'core activity' (essential for operations) with 'core competency' (source of competitive advantage)",
     "options": [
@@ -1381,7 +1754,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Business Process Outsourcing' slide -- match the key terms.",
     "misconception": "A wrong answer (\"KYC is core so it can't be outsourced\") reveals the misconception that BPO only applies to peripheral/optional tasks, ignoring that even mandatory processes can be outsourced if they don't drive competitive differentiation.",
-    "id": "gen_c11_bs_ch05_q13",
+    "id": "gen_c11_bs_ch05_q14",
     "nodeId": "c11_bs_cbse_05_007",
     "difficulty": "standard"
    },
@@ -1396,7 +1769,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Business Process Outsourcing' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"cheaper labour\" misses the vertical-specific capability building (training, certification, quality control) that makes Vendor A a true vertical BPO partner, not just low-cost labour.",
-    "id": "gen_c11_bs_ch05_q14",
+    "id": "gen_c11_bs_ch05_q15",
     "nodeId": "c11_bs_cbse_05_007",
     "difficulty": "standard"
    },
@@ -1411,7 +1784,22 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Business Process Outsourcing' slide -- match the key terms.",
     "misconception": "A wrong answer (\"captive is always better for control\") ignores that third-party vendors often have *better* controls (ISO/SOC certifications) than a fledgling captive unit.",
-    "id": "gen_c11_bs_ch05_q15",
+    "id": "gen_c11_bs_ch05_q16",
+    "nodeId": "c11_bs_cbse_05_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Critique the term \"sweat-shopping\" as applied to the BPO industry. Using the features of BPO (process standardisation, skill requirements, career progression), argue whether this label accurately describes modern Indian BPO operations like those in Bengaluru, Hyderabad, or Gurugram.",
+    "answer": "\"Sweat-shopping\" implies low-skill, repetitive, exploitative labour with no upward mobility — a mischaracterisation of modern BPO",
+    "options": [
+     "This is C2C commerce — both origin and destination are consumers with no established market mechanism for used phones",
+     "The founder confuses 'core activity' (essential for operations) with 'core competency' (source of competitive advantage)",
+     "\"Sweat-shopping\" implies low-skill, repetitive, exploitative labour with no upward mobility — a mischaracterisation of modern BPO"
+    ],
+    "hint": "Straight from the 'Business Process Outsourcing' slide -- match the key terms.",
+    "misconception": "A wrong answer accepting \"sweat-shopping\" uncritically reveals failure to distinguish early-stage commoditised voice BPO from today's multi-tiered, skill-intensive industry.",
+    "id": "gen_c11_bs_ch05_q17",
     "nodeId": "c11_bs_cbse_05_007",
     "difficulty": "standard"
    },
@@ -1426,38 +1814,8 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Business Process Outsourcing' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"horizontal means domestic, vertical means international\") reveals confusion with geographic classification rather than process classification.",
-    "id": "gen_c11_bs_ch05_q16",
-    "nodeId": "c11_bs_cbse_05_007",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "\"e-Communication/e-Promotion is just online advertising — it doesn't create real business value like e-Procurement or e-Trading.\" Evaluate this statement using two arguments from the NCERT text and one counter-argument from business practice.",
-    "answer": "NCERT lists e-Communication/e-Promotion as including email, online catalogues, banners, pop-ups, opinion polls, customer surveys, and video conferencing",
-    "options": [
-     "The CEO is correct: core competency refers to activities that create unique competitive advantage in the market (software development for an IT firm)",
-     "Benefits: (1) Global reach — can sell to customers in Delhi, Mumbai, Bangalore without physical shops there",
-     "NCERT lists e-Communication/e-Promotion as including email, online catalogues, banners, pop-ups, opinion polls, customer surveys, and video conferencing"
-    ],
-    "hint": "Straight from the 'E-business applications' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: NCERT lists e-Communication/e-Promotion as including email, online catalogues, banners, pop-ups, opinion polls,",
-    "id": "gen_c11_bs_ch05_q17",
-    "nodeId": "c11_bs_cbse_05_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the hardware and software resource requirements for an Intra-B (internal) e-business system (e.g., company ERP) versus a B2C e-commerce website. Identify two key differences in each category and explain why they arise.",
-    "answer": "Hardware differences: (1) Intra-B typically uses on-premise/LAN servers with controlled access; B2C needs public-facing web servers with high bandwidth, load balancing, and CDN",
-    "options": [
-     "(i) Traditional: hierarchical (top-down); e-business: non-hierarchical (direct vertical/horizontal/diagonal)",
-     "Captive BPO (wholly-owned subsidiary): Full control over processes, data security, IP protection, and cultural alignment",
-     "Hardware differences: (1) Intra-B typically uses on-premise/LAN servers with controlled access; B2C needs public-facing web servers with high bandwidth, load balancing, and CDN"
-    ],
-    "hint": "Straight from the 'Resources required for e-business' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Hardware differences: (1) Intra-B typically uses on-premise/LAN servers with controlled access; B2C needs public-facing",
     "id": "gen_c11_bs_ch05_q18",
-    "nodeId": "c11_bs_cbse_05_010",
+    "nodeId": "c11_bs_cbse_05_007",
     "difficulty": "standard"
    }
   ],
@@ -1473,16 +1831,18 @@ export const C11_BS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_bs_ch06",
-  "title": "Arguments For Social Responsibility",
+  "title": "Promotion Of a Company",
   "subtitle": "Business Studies · Chapter 6",
   "classLevel": 11,
   "mode": "senior",
   "subject": "business studies",
-  "topic": "Arguments For Social Responsibility",
+  "topic": "Promotion Of a Company",
   "chapters": [
-   "Business Studies Ch6: Arguments For Social Responsibility"
+   "Business Studies Ch6: Promotion Of a Company",
+   "Business Studies Ch7: Promotion Of a Company"
   ],
   "nodeIds": [
+   "c11_bs_cbse_07_001",
    "c11_bs_cbse_06_002",
    "c11_bs_cbse_06_003",
    "c11_bs_cbse_06_004",
@@ -1499,16 +1859,22 @@ export const C11_BS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Arguments For Social suddenly stops working?",
+   "question": "What happens if Promotion Of a Company suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "Arguments for social responsibility are the logical justifications explaining why business enterprises should voluntarily fulfill obligations towards"
+   "hook": "Promotion of a company is the first stage in company formation where a person or group conceives a business opportunity, analyses its technical,"
   },
   "teaching": [
+   {
+    "title": "Promotion Of a Company",
+    "text": "Promotion of a company is the first stage in company formation where a person or group conceives a business opportunity, analyses its technical, financial, and economic feasibility, assembles resources (men, materials, machinery, managerial ability, finance),",
+    "emoji": "🏢",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
    {
     "title": "Arguments For Social Responsibility",
     "text": "Arguments for social responsibility are the logical justifications explaining why business enterprises should voluntarily fulfill obligations towards society beyond legal requirements, based on the premise that long-term business survival and growth depend on",
@@ -1560,6 +1926,69 @@ export const C11_BS_GEN: SimDef[] = [
   ],
   "challenges": [
    {
+    "type": "order",
+    "question": "Give the correct order of reasoning that decides who bears liability for a promoter's contract signed before incorporation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Liability therefore falls personally",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "The promoter signs the alloy contract",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The Board's refusal to ratify leaves",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "An unincorporated company has no legal",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that holds the company liable shows the student has missed that pre-incorporation contracts cannot be ratified into existence.",
+    "id": "gen_c11_bs_ch06_q1",
+    "nodeId": "c11_bs_cbse_07_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine Avtar, the automobile engineer from your textbook, who invented a carburettor reducing petrol consumption by 40%.",
+     "He needs ₹50 crore to manufacture it—too large for a sole proprietorship or partnership.",
+     "He decides to form a company.",
+     "Where does he start?"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Critique the following statement using TWO arguments for social responsibility: \"A business that maximizes profits within the law is already fulfilling its social responsibility; any extra spending on social causes reduces competitiveness and hurts employees through lower wages.\"",
     "answer": "The statement is flawed because: 1. Argument (ii) Long-term interest of the firm counters it: Profit maximization ignoring social responsibility erodes public image",
@@ -1570,7 +1999,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Arguments for social' slide -- match the key terms.",
     "misconception": "Why wrong answers reveal misunderstanding: If a student agrees with the statement, they adopt the Friedman doctrine (Arguments Against, Node 003) and fail to apply the pro-SR arguments as analytical tools.",
-    "id": "gen_c11_bs_ch06_q1",
+    "id": "gen_c11_bs_ch06_q2",
     "nodeId": "c11_bs_cbse_06_002",
     "difficulty": "standard",
     "workedExample": [
@@ -1586,12 +2015,12 @@ export const C11_BS_GEN: SimDef[] = [
     "answer": "The 'Lack of social skills' argument claims businessmen lack the understanding and training to solve social problems, which require specialised agencies",
     "options": [
      "Legal responsibility: The factory complies with emission standards set by the Air (Prevention and Control of Pollution) Act — it operates within the law",
-     "Schedule VII explicitly lists \"contribution to the Prime Minister's National Relief Fund\" as an eligible activity (item viii)",
+     "The claim is flawed. 1. Force (iii) Impact of consumer consciousness: Indian consumers (esp. Gen Z) and B2B buyers (global supply chains) increasingly demand ethical proof",
      "The 'Lack of social skills' argument claims businessmen lack the understanding and training to solve social problems, which require specialised agencies"
     ],
     "hint": "Straight from the 'Arguments against social' slide -- match the key terms.",
     "misconception": "A wrong answer that only describes one side fails to compare. A wrong answer that says 'both agree business has money' misses the competence vs. resource distinction.",
-    "id": "gen_c11_bs_ch06_q2",
+    "id": "gen_c11_bs_ch06_q3",
     "nodeId": "c11_bs_cbse_06_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -1612,7 +2041,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social responsibility towards' slide -- match the key terms.",
     "misconception": "A wrong answer that only identifies \"consumers are hurt\" without naming the specific textbook responsibilities or the shareholder-consumer tension shows superficial application.",
-    "id": "gen_c11_bs_ch06_q3",
+    "id": "gen_c11_bs_ch06_q4",
     "nodeId": "c11_bs_cbse_06_004",
     "difficulty": "standard",
     "workedExample": [
@@ -1633,7 +2062,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Business ethics' slide -- match the key terms.",
     "misconception": "If the student says \"following law is enough,\" they hold the misconception that legality equals morality, missing the core concept that ethics addresses harms the law hasn't yet caught up to.",
-    "id": "gen_c11_bs_ch06_q4",
+    "id": "gen_c11_bs_ch06_q5",
     "nodeId": "c11_bs_cbse_06_005",
     "difficulty": "standard",
     "workedExample": [
@@ -1696,7 +2125,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer calculating only the ₹3.7 crore vs ₹50 lakh misses the *strategic* consequence: the firm may never regain \"approved vendor\" status with international brands that mandate zero-discharge supply chains.",
-    "id": "gen_c11_bs_ch06_q5",
+    "id": "gen_c11_bs_ch06_q6",
     "nodeId": "c11_bs_cbse_06_006",
     "difficulty": "standard",
     "workedExample": [
@@ -1712,13 +2141,12 @@ export const C11_BS_GEN: SimDef[] = [
     "answer": "Schedule VII explicitly lists \"contribution to the Prime Minister's National Relief Fund\" as an eligible activity (item viii)",
     "options": [
      "The claim is flawed. 1. Force (iii) Impact of consumer consciousness: Indian consumers (esp. Gen Z) and B2B buyers (global supply chains) increasingly demand ethical proof",
-     "A strong answer acknowledges the argument's historical basis (public suspicion of business motives) but refutes its current validity: modern consumers actively reward responsible",
-     "Schedule VII explicitly lists \"contribution to the Bharatiya Nyaya Sanhita Relief Fund\" as an eligible activity (item viii)",
+     "The statement is flawed because: 1. Argument (ii) Long-term interest of the firm counters it: Profit maximization ignoring social responsibility erodes public image",
      "Schedule VII explicitly lists \"contribution to the Prime Minister's National Relief Fund\" as an eligible activity (item viii)"
     ],
     "hint": "Straight from the 'Corporate Social Responsibility' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying both qualify because they help people) shows the student confuses general philanthropy with the legally defined scope of CSR and misses the \"exclusively for employees\" exclusion clause.",
-    "id": "gen_c11_bs_ch06_q6",
+    "id": "gen_c11_bs_ch06_q7",
     "nodeId": "c11_bs_cbse_06_008",
     "difficulty": "standard",
     "workedExample": [
@@ -1770,7 +2198,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer accepting the disclaimer as valid protection reveals misunderstanding that disclaimers cannot legitimise false factual claims — a critical distinction in advertising ethics.",
-    "id": "gen_c11_bs_ch06_q7",
+    "id": "gen_c11_bs_ch06_q8",
     "nodeId": "c11_bs_cbse_06_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -1791,7 +2219,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Role of Business in Environmental' slide -- match the key terms.",
     "misconception": "A wrong answer that accepts the CEO's legal compliance argument reveals the student confuses legal responsibility with social responsibility and misses the business-case rationale for voluntary pollution control.",
-    "id": "gen_c11_bs_ch06_q8",
+    "id": "gen_c11_bs_ch06_q9",
     "nodeId": "c11_bs_cbse_06_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -1812,9 +2240,24 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Arguments against social' slide -- match the key terms.",
     "misconception": "A poor answer merely repeats the argument without engaging the counter-evidence or fails to mention the shift in consumer consciousness.",
-    "id": "gen_c11_bs_ch06_q9",
+    "id": "gen_c11_bs_ch06_q10",
     "nodeId": "c11_bs_cbse_06_003",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A mid-sized textile firm in Tiruppur discharges untreated dye effluents into the Noyyal river to save ₹50 lakh/year on an Effluent Treatment Plant (ETP). The Tamil Nadu Pollution Control Board (TNPCB) issues a closure notice.",
+    "answer": "Step 1: Identify proactive compliance cost = ₹50 lakh/year (ETP operating cost). Step 2: Identify reactive costs = ₹3 crore (lost revenue) + ₹20 lakh (legal) + ₹50 lakh (ETP",
+    "options": [
+     "The statement is flawed because: 1. Argument (ii) Long-term interest of the firm counters it: Profit maximization ignoring social responsibility erodes public image",
+     "A strong answer acknowledges the argument's historical basis (public suspicion of business motives) but refutes its current validity: modern consumers actively reward responsible",
+     "Step 1: Identify proactive compliance cost = ₹50 lakh/year (ETP operating cost). Step 2: Identify reactive costs = ₹3 crore (lost revenue) + ₹20 lakh (legal) + ₹50 lakh (ETP"
+    ],
+    "hint": "Straight from the 'Importance of Business Ethics in' slide -- match the key terms.",
+    "misconception": "A wrong answer calculating only the ₹3.7 crore vs ₹50 lakh misses the *strategic* consequence: the firm may never regain \"approved vendor\" status with international brands that mandate zero-discharge supply chains.",
+    "id": "gen_c11_bs_ch06_q11",
+    "nodeId": "c11_bs_cbse_06_006",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -1827,9 +2270,24 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Importance of Business Ethics in' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the claim ignores that \"race to the bottom\" ethics destroys the very market access (EU, US) that Indian MSMEs need for scale.",
-    "id": "gen_c11_bs_ch06_q10",
+    "id": "gen_c11_bs_ch06_q12",
     "nodeId": "c11_bs_cbse_06_006",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A popular fairness cream brand claims \"Visible fairness in 7 days\" with before/after photos. The fine print says \"Results may vary.\" Identify the unfair trade practice, the consumer right violated, and why the disclaimer does not absolve the company.",
+    "answer": "(1) Unfair trade practice: Misleading advertisement — false/misleading representation of product efficacy using exaggerated claims and potentially doctored images",
+    "options": [
+     "A strong answer acknowledges the argument's historical basis (public suspicion of business motives) but refutes its current validity: modern consumers actively reward responsible",
+     "The argument is flawed because the textbook explicitly states: \"Ethical behaviour is just and fair conduct which goes beyond observing laws and government regulations",
+     "(1) Unfair trade practice: Misleading advertisement — false/misleading representation of product efficacy using exaggerated claims and potentially doctored images"
+    ],
+    "hint": "Straight from the 'Unfair trade practices refer to' slide -- match the key terms.",
+    "misconception": "A wrong answer accepting the disclaimer as valid protection reveals misunderstanding that disclaimers cannot legitimise false factual claims — a critical distinction in advertising ethics.",
+    "id": "gen_c11_bs_ch06_q13",
+    "nodeId": "c11_bs_cbse_06_009",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -1837,23 +2295,38 @@ export const C11_BS_GEN: SimDef[] = [
     "answer": "Legal responsibility: The factory complies with emission standards set by the Air (Prevention and Control of Pollution) Act — it operates within the law",
     "options": [
      "The 'Lack of social skills' argument claims businessmen lack the understanding and training to solve social problems, which require specialised agencies",
-     "The argument is flawed because the textbook explicitly states: \"Ethical behaviour is just and fair conduct which goes beyond observing laws and government regulations",
+     "The reasoning runs: (1) The promoter signs the alloy contract while the company is still unborn (2) An unincorporated company has no legal personality to be bound (3) The Board's",
      "Legal responsibility: The factory complies with emission standards set by the Air (Prevention and Control of Pollution) Act — it operates within the law"
     ],
     "hint": "Straight from the 'Role of Business in Environmental' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as identical or says ethical responsibility is \"following laws strictly\" reveals the student hasn't grasped the voluntary, beyond-compliance nature of ethical responsibility.",
-    "id": "gen_c11_bs_ch06_q11",
+    "id": "gen_c11_bs_ch06_q14",
     "nodeId": "c11_bs_cbse_06_010",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of reasoning that decides who bears liability for a promoter's contract signed before incorporation.",
+    "answer": "The reasoning runs: (1) The promoter signs the alloy contract while the company is still unborn (2) An unincorporated company has no legal personality to be bound (3) The Board's",
+    "options": [
+     "The 'Lack of social skills' argument claims businessmen lack the understanding and training to solve social problems, which require specialised agencies",
+     "A strong answer acknowledges the argument's historical basis (public suspicion of business motives) but refutes its current validity: modern consumers actively reward responsible",
+     "The reasoning runs: (1) The promoter signs the alloy contract while the company is still unborn (2) An unincorporated company has no legal personality to be bound (3) The Board's"
+    ],
+    "hint": "Straight from the 'Promotion of a company' slide -- match the key terms.",
+    "misconception": "A wrong answer that holds the company liable shows the student has missed that pre-incorporation contracts cannot be ratified into existence.",
+    "id": "gen_c11_bs_ch06_q15",
+    "nodeId": "c11_bs_cbse_07_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about arguments for social responsibility?",
+    "What surprised you about promotion of a company?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Arguments For Social mastered! 🎯",
+  "successLine": "Promotion Of a Company mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2818,7 +3291,8 @@ export const C11_BS_GEN: SimDef[] = [
   "subject": "business studies",
   "topic": "Micro, Small And Medium Enterprises",
   "chapters": [
-   "Business Studies Ch9: Micro, Small And Medium Enterprises"
+   "Business Studies Ch9: Micro, Small And Medium Enterprises",
+   "Business Studies Ch10: Micro, Small And Medium Enterprises"
   ],
   "nodeIds": [
    "c11_bs_cbse_09_001",
@@ -2829,7 +3303,9 @@ export const C11_BS_GEN: SimDef[] = [
    "c11_bs_cbse_09_006",
    "c11_bs_cbse_09_007",
    "c11_bs_cbse_09_008",
+   "c11_bs_cbse_10_008",
    "c11_bs_cbse_09_009",
+   "c11_bs_cbse_10_009",
    "c11_bs_cbse_09_010"
   ],
   "emoji": "🏢",
@@ -2898,10 +3374,22 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
+    "title": "Mail Order Houses",
+    "text": "Mail order houses are retail trading establishments that sell goods exclusively through postal or courier communication without any physical store or direct personal contact between buyer and seller, where orders are solicited via catalogues, advertisements,",
+    "emoji": "🏢",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
     "title": "Entrepreneur",
     "text": "An entrepreneur is an economic agent who identifies opportunities, mobilises factors of production (land, labour, capital), bears uncertainty, and introduces innovations (new products, processes, markets, or organisational forms) to create value, generate",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Supermarket",
+    "text": "A supermarket is a large-scale retail establishment operating on a self-service basis, offering a wide assortment of food, grocery, and non-food consumer goods at relatively low prices through bulk purchasing, low operational costs, and low profit margins,",
+    "emoji": "🏢",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Incentives For MSMEs",
@@ -3310,6 +3798,69 @@ export const C11_BS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "Give the correct order of criteria tests that decide whether handmade pottery suits mail order trading.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Year-round bulk supply fails since artisans",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Catalogue description fails because glaze",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Grading fails because each piece",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Transport fails because the fragile goods",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that relies on doorstep delivery as the answer shows the student has missed that all six suitability criteria must hold together.",
+    "id": "gen_c11_bs_ch09_q9",
+    "nodeId": "c11_bs_cbse_10_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you live in a remote village in Rajasthan where the nearest shopping mall is 200 km away.",
+     "You see an advertisement in a newspaper for a branded pressure cooker with a catalogue showing features, price, and a \"Value Payable Post\" option.",
+     "You send a postcard order, pay the postman upon delivery, and receive the cooker at your doorstep.",
+     "This is mail order trading."
+    ]
+   },
+   {
+    "type": "order",
     "question": "State the five macroeconomic roles of an entrepreneur as per the NCERT Class 11 Business Studies curriculum.",
     "sortItems": [
      {
@@ -3372,7 +3923,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer listing only 'job creation' or 'profit making' reveals the student confuses micro-level business goals with macro-level development functions. They are viewing the entrepreneur as a business owner rather than an economic agent.",
-    "id": "gen_c11_bs_ch09_q9",
+    "id": "gen_c11_bs_ch09_q10",
     "nodeId": "c11_bs_cbse_09_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -3380,6 +3931,69 @@ export const C11_BS_GEN: SimDef[] = [
      "She invests ₹50 lakh of savings, borrows ₹1 crore, hires 15 local youth, sources materials from MSMEs in three states, and within two years reduces",
      "Ask: \"Which specific economic development functions did she perform?\" Guide students to map each action to a role: mobilising savings → capital",
      "The key insight: entrepreneurship is not just 'starting a business' but a systematic process of resource mobilisation and value creation that"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of design decisions in a hybrid format that blends supermarket efficiency with kirana convenience.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Stock high-frequency low-involvement goods",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Run assisted self-service with staff who",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Take cash and UPI plus weekly credit",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Locate near residential clusters and add",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that copies the cash-only rule untouched shows the student has missed that a hybrid must soften each supermarket limitation that the kirana customarily solves.",
+    "id": "gen_c11_bs_ch09_q11",
+    "nodeId": "c11_bs_cbse_10_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you walk into a Big Bazaar or DMart on a weekend: you pick up a trolley, navigate aisles labelled \"Staples,\" \"Fresh Produce,\" \"Home Care,\"",
+     "Now contrast this with a neighbourhood kirana store where the owner knows your preferences, offers monthly credit, and delivers to your doorstep.",
+     "Why does the supermarket model work for weekly stock-up trips but not for emergency midnight purchases?",
+     "This walkthrough will help you deconstruct the supermarket's design choices—self-service, cash-only, central location, wide assortment—and connect"
     ]
    },
    {
@@ -3424,7 +4038,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that mixes categories (e.g., calling MUDRA a subsidy) or lists state-level schemes reveals the student cannot classify incentives by their economic nature (tax expenditure vs. fiscal outlay vs. credit enhancement).",
-    "id": "gen_c11_bs_ch09_q10",
+    "id": "gen_c11_bs_ch09_q12",
     "nodeId": "c11_bs_cbse_09_010",
     "difficulty": "standard",
     "workedExample": [
@@ -3476,7 +4090,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is UNFAIR and ignores structural constraints. NCERT explicitly states: \"They do not have adequate",
-    "id": "gen_c11_bs_ch09_q11",
+    "id": "gen_c11_bs_ch09_q13",
     "nodeId": "c11_bs_cbse_09_003",
     "difficulty": "advanced"
    },
@@ -3544,7 +4158,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A weak answer treats these as parallel problems rather than seeing managerial deficiency as the root cause of marketing weakness.",
-    "id": "gen_c11_bs_ch09_q12",
+    "id": "gen_c11_bs_ch09_q14",
     "nodeId": "c11_bs_cbse_09_003",
     "difficulty": "advanced"
    },
@@ -3590,7 +4204,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., listing only turnover or age) reveals the student conflates *Udyam registration* (statutory classification for all MSMEs) with *DPIIT recognition* (innovation-linked status for startups), missing the core policy distinction between \"small business\" and \"innovation-driven startup.\"",
-    "id": "gen_c11_bs_ch09_q13",
+    "id": "gen_c11_bs_ch09_q15",
     "nodeId": "c11_bs_cbse_09_004",
     "difficulty": "standard"
    },
@@ -3647,7 +4261,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer calculating subsidy on loan amount (₹30 lakh) instead of investment (₹40 lakh) shows misunderstanding of CLCSS linkage to investment, not debt. Another error: ignoring the cap — if investment were ₹1.2 crore, subsidy would be capped at ₹15 lakh.",
-    "id": "gen_c11_bs_ch09_q14",
+    "id": "gen_c11_bs_ch09_q16",
     "nodeId": "c11_bs_cbse_09_010",
     "difficulty": "standard"
    },
@@ -3662,7 +4276,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Micro, Small and Medium' slide -- match the key terms.",
     "misconception": "A student who says \"True\" conflates definitional frameworks and ignores that cottage industries explicitly lack capital investment criteria — a key distinction the textbook emphasises.",
-    "id": "gen_c11_bs_ch09_q15",
+    "id": "gen_c11_bs_ch09_q17",
     "nodeId": "c11_bs_cbse_09_001",
     "difficulty": "standard"
    },
@@ -3677,38 +4291,8 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Micro, Small and Medium' slide -- match the key terms.",
     "misconception": "A student who says \"Micro because turnover is low\" or \"Medium because investment is high\" reveals the misconception that only one criterion matters, or that the higher category applies when criteria conflict.",
-    "id": "gen_c11_bs_ch09_q16",
-    "nodeId": "c11_bs_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "State the exact investment in plant and machinery and turnover limits for a Micro Enterprise under the MSMED Act 2006.",
-    "answer": "Micro Enterprise: Investment in plant and machinery/equipment ≤ ₹1 crore AND Turnover ≤ ₹5 crore. Both conditions must be satisfied simultaneously",
-    "options": [
-     "Entrepreneurs can be classified on the basis of (1) type of business activity (industrial, trading, agricultural, service), (2) motivation (pure, induced, motivated, spontaneous)",
-     "Entrepreneurship is the process (verb) undertaken by an entrepreneur (subject/person) to create an enterprise (object/business unit)",
-     "Micro Enterprise: Investment in plant and machinery/equipment ≤ ₹1 crore AND Turnover ≤ ₹5 crore. Both conditions must be satisfied simultaneously"
-    ],
-    "hint": "Straight from the 'Micro, Small and Medium' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., stating only investment limit or only turnover limit, or using outdated limits like ₹25 lakhs/₹1 crore from pre-2020 classification) reveals the student has not updated their knowledge to the revised 2020 notification which unified manufacturing and services criteria and raised thresholds",
-    "id": "gen_c11_bs_ch09_q17",
-    "nodeId": "c11_bs_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A micro enterprise in Uttar Pradesh invests ₹80 lakh in plant and machinery and achieves a turnover of ₹4 crore. Classify this enterprise under the MSMED Act, 2006 criteria and explain how its classification enables it to contribute to balanced regional development.",
-    "answer": "Classification: Micro Enterprise (investment ≤ ₹1 crore, turnover ≤ ₹5 crore). It contributes to balanced regional development because micro enterprises can be set up anywhere",
-    "options": [
-     "The bank should use CGTMSE guarantee for the new ₹40 lakh term loan. CGTMSE covers *new* credit facilities sanctioned by member lending institutions",
-     "Rahul bears the entire loss of ₹40 lakh because he is the residual claimant and risk-bearer. Priya receives her salary regardless of the venture's outcome",
-     "Classification: Micro Enterprise (investment ≤ ₹1 crore, turnover ≤ ₹5 crore). It contributes to balanced regional development because micro enterprises can be set up anywhere"
-    ],
-    "hint": "Straight from the 'Micro, Small and Medium' slide -- match the key terms.",
-    "misconception": "A wrong classification (e.g., Small Enterprise) indicates the student hasn't memorised the threshold values; a missing explanation shows inability to link classification criteria to the developmental role.",
     "id": "gen_c11_bs_ch09_q18",
-    "nodeId": "c11_bs_cbse_09_002",
+    "nodeId": "c11_bs_cbse_09_001",
     "difficulty": "standard"
    }
   ],
@@ -4036,6 +4620,21 @@ export const C11_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "\"A firm should always prefer licensing over a wholly owned subsidiary because it involves zero investment and zero risk.\" Evaluate this statement. Identify three specific limitations of licensing that make this advice flawed.",
+    "answer": "The statement is flawed. Three limitations: (1) IP leakage risk — trade secrets/technology can be divulged by the licensee, eroding the firm's global competitive advantage",
+    "options": [
+     "Licensing is the correct choice. Reason 1: The Brazilian government mandates local production",
+     "(a) Complete manufacture — VoltMoto lacks capital for own plant; Indonesian factory can produce entire scooter per specs",
+     "The statement is flawed. Three limitations: (1) IP leakage risk — trade secrets/technology can be divulged by the licensee, eroding the firm's global competitive advantage"
+    ],
+    "hint": "Straight from the 'Licensing' slide -- match the key terms.",
+    "misconception": "A wrong evaluation focusing only on \"financial risk\" ignores strategic risks that can destroy long-term value.",
+    "id": "gen_c11_bs_ch11_q8",
+    "nodeId": "c11_bs_cbse_11_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "An Indian pharmaceutical company holds a patent for a low-cost diabetes drug. It wants to enter the Brazilian market but lacks capital for a factory. The Brazilian government mandates local production for pharma imports. Should the company choose licensing or contract manufacturing? Justify with two reasons.",
     "answer": "Licensing is the correct choice. Reason 1: The Brazilian government mandates local production",
     "options": [
@@ -4045,7 +4644,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Licensing' slide -- match the key terms.",
     "misconception": "A wrong choice of contract manufacturing ignores that the firm lacks marketing infrastructure in Brazil and needs the licensee's local market access.",
-    "id": "gen_c11_bs_ch11_q8",
+    "id": "gen_c11_bs_ch11_q9",
     "nodeId": "c11_bs_cbse_11_006",
     "difficulty": "standard"
    },
@@ -4060,7 +4659,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Licensing' slide -- match the key terms.",
     "misconception": "A wrong answer claiming franchising is riskier because of \"more outlets\" confuses market presence with competitive capability.",
-    "id": "gen_c11_bs_ch11_q9",
+    "id": "gen_c11_bs_ch11_q10",
     "nodeId": "c11_bs_cbse_11_006",
     "difficulty": "standard"
    },
@@ -4075,7 +4674,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Licensing' slide -- match the key terms.",
     "misconception": "A poor answer omits duration (making it unenforceable), geographic scope (too broad = void, too narrow = ineffective), or defines \"competing product\" vaguely. The clause must balance enforceability (reasonable time/area) with protection.",
-    "id": "gen_c11_bs_ch11_q10",
+    "id": "gen_c11_bs_ch11_q11",
     "nodeId": "c11_bs_cbse_11_006",
     "difficulty": "standard"
    },
@@ -4090,7 +4689,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Joint Venture' slide -- match the key terms.",
     "misconception": "A wrong answer choosing JV because \"Brazil has complex labour laws\" reveals misunderstanding: local partner helps navigate regulations, but WOS can hire local legal/HR experts without surrendering equity/technology — the student overweights one factor while ignoring the critical technology protection dimension.",
-    "id": "gen_c11_bs_ch11_q11",
+    "id": "gen_c11_bs_ch11_q12",
     "nodeId": "c11_bs_cbse_11_007",
     "difficulty": "advanced"
    },
@@ -4105,9 +4704,24 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Joint Venture' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"Acquisition is always faster and better\" reveals failure to recognise integration risk as a major cause of M&A failure (70-90% fail to create value per studies), treating speed as the only metric while ignoring post-acquisition integration complexity.",
-    "id": "gen_c11_bs_ch11_q12",
+    "id": "gen_c11_bs_ch11_q13",
     "nodeId": "c11_bs_cbse_11_007",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Mr. Manchanda's competitor in Thailand complains that India imposes 30% tariff on imported auto components while India's bound tariff rate at WTO for that product is 25%. Using WTO's functions, explain step-by-step what mechanism the competitor's government can use, and what makes this mechanism binding unlike under",
+    "answer": "Step 1: Thailand government requests consultations with India under WTO Dispute Settlement Understanding (DSU) - Function: dispute settlement",
+    "options": [
+     "RoDTEP benefit = 2.5% × ₹45 lakh = ₹1.125 lakh. CIF value = ₹45 + 3.5 = ₹48.5 lakh. UAE tariff = 5% × ₹48",
+     "Licensing is the correct choice. Reason 1: The Brazilian government mandates local production",
+     "Step 1: Thailand government requests consultations with India under WTO Dispute Settlement Understanding (DSU) - Function: dispute settlement"
+    ],
+    "hint": "Straight from the 'World Trade Organisation' slide -- match the key terms.",
+    "misconception": "A wrong answer missing \"automatic adoption\" or \"retaliation authorisation\" reveals misunderstanding of why WTO dispute settlement is called the \"crown jewel\" vs GATT's toothless system.",
+    "id": "gen_c11_bs_ch11_q14",
+    "nodeId": "c11_bs_cbse_11_009",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -4120,7 +4734,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's involvement in' slide -- match the key terms.",
     "misconception": "A wrong answer quoting CIF without tariff calculation shows inability to apply trade policy tools to pricing decisions.",
-    "id": "gen_c11_bs_ch11_q13",
+    "id": "gen_c11_bs_ch11_q15",
     "nodeId": "c11_bs_cbse_11_010",
     "difficulty": "advanced"
    },
@@ -4135,7 +4749,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's involvement in' slide -- match the key terms.",
     "misconception": "A wrong answer calling the deficit \"bad\" fails to distinguish between *consumption* imports (gold) and *production* imports (machinery for export sectors).",
-    "id": "gen_c11_bs_ch11_q14",
+    "id": "gen_c11_bs_ch11_q16",
     "nodeId": "c11_bs_cbse_11_010",
     "difficulty": "advanced"
    },
@@ -4150,7 +4764,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's involvement in' slide -- match the key terms.",
     "misconception": "A weak answer treats PLI as a binary import-substitution tool.",
-    "id": "gen_c11_bs_ch11_q15",
+    "id": "gen_c11_bs_ch11_q17",
     "nodeId": "c11_bs_cbse_11_010",
     "difficulty": "advanced"
    },
@@ -4165,22 +4779,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's involvement in' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong brief uses UN Comtrade data: US imports HS 3004 mainly from Ireland, Switzerland, Germany (pharma majors);",
-    "id": "gen_c11_bs_ch11_q16",
-    "nodeId": "c11_bs_cbse_11_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why India's merchandise trade deficit widened sharply in FY2022-23 despite record-high exports.",
-    "answer": "Imports grew faster than exports due to surging crude oil, coal, gold, and electronics imports (driven by post-COVID demand and global price spikes)",
-    "options": [
-     "Services exports (software, business services, travel) are skill-intensive, leveraging India's abundant English-speaking STEM graduates — a comparative advantage",
-     "The statement oversimplifies because it ignores trade-offs: JVs dilute control, risk technology leakage, and create potential for partner conflicts",
-     "Imports grew faster than exports due to surging crude oil, coal, gold, and electronics imports (driven by post-COVID demand and global price spikes)"
-    ],
-    "hint": "Straight from the 'India's involvement in' slide -- match the key terms.",
-    "misconception": "A wrong answer blaming \"lack of competitiveness\" ignores the structural import dependence on energy and critical inputs — the deficit is largely *terms-of-trade* driven, not volume-driven.",
-    "id": "gen_c11_bs_ch11_q17",
+    "id": "gen_c11_bs_ch11_q18",
     "nodeId": "c11_bs_cbse_11_010",
     "difficulty": "advanced"
    }

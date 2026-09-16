@@ -8317,7 +8317,8 @@ export const C12_HIN_AR_GEN: SimDef[] = [
    "c12_hin_ar_cbse_12_011",
    "c12_hin_ar_cbse_12_012",
    "c12_hin_ar_cbse_12_013",
-   "c12_hin_ar_cbse_12_014"
+   "c12_hin_ar_cbse_12_014",
+   "c12_hin_ar_cbse_12_015"
   ],
   "emoji": "📖",
   "theme": {
@@ -8419,6 +8420,12 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     "text": "Writing Skills based on the chapter \"dkys es?kk ikuh ns\" refers to the ability to construct structured, evidence-based answers for CBSE board exams and competitive exams that demonstrate comprehension, analysis, and critical evaluation of the story's themes",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Speaking And Listening",
+    "text": "Speaking and Listening: Discussion Points refers to the structured oral competency where students articulate analytical insights about the chapter's themes, characters, and social commentary through guided discussion, demonstrating active listening,",
+    "emoji": "📖",
+    "bgColor": "from-violet-400 to-purple-500"
    }
   ],
   "challenges": [
@@ -8845,7 +8852,7 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     "answer": "A literal question asks for facts explicitly stated or directly implied in the text (the narrator refuses because he considers the Banjaras \"vaèkfo'okl\" and fears contamination)",
     "options": [
      "In (a), water symbolizes power/caste control (upper castes hoard, lower castes beg). In (b), water becomes universal life-right",
-     "\"Dry throats\" (tactile imagery) makes the physical suffering immediate; \"water is blood\" (metaphor) elevates water to a life-sustaining essence",
+     "(1) The folk song's voice — plural imperatives demanding water and light, a community claiming resources as a right, (2) Thth's charity",
      "A literal question asks for facts explicitly stated or directly implied in the text (the narrator refuses because he considers the Banjaras \"vaèkfo'okl\" and fears contamination)"
     ],
     "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
@@ -8879,6 +8886,58 @@ export const C12_HIN_AR_GEN: SimDef[] = [
      "Support with evidence.\" Your mind goes blank — you know the story but don't know how to START.",
      "First, identify the question type: character development + evidence.",
      "Second, recall two contrasting moments: initial disgust (paragraph 3) vs final respect (paragraph 12)."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "What are the three core discussion themes explicitly listed in the textbook's vH;kl (exercise) section for \"dkys es?kk ikuh ns\"?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Systemic inequality and the narrator's",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Social hypocrisy and performative charity",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Water as a survival right vs luxury",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer listing generic themes like \"poverty\" or \"water scarcity\" without referencing the specific vH;kl questions reveals the student hasn't mapped textbook discussion prompts to oral preparation — they're preparing for written exams, not ASL.",
+    "id": "gen_c12_hin_ar_ch12_q15",
+    "nodeId": "c12_hin_ar_cbse_12_015",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you're in your ASL exam and the examiner asks: \"The story shows people wasting water while a girl begs for it — what does this reveal about",
+     "Start by recalling the three discussion pillars from the textbook's vH;kl section: (1) social hypocrisy (vaèkfo'okl), (2) water as survival vs",
+     "For each pillar, pick ONE concrete scene — like Thth refusing water to Banj Lsuk while his household wastes it — and practice the PEEL speaking",
+     "Record yourself for 2 minutes, then replay to check: Did I use textual words like \"cqokbZ\" or \"vaèkfo'okl\"?"
     ]
    },
    {
@@ -8934,7 +8993,7 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"thth was proud/ungrateful\") reveals the student reads the scene emotionally, not analytically, missing Hakkaj Hkkjrh's deliberate dismantling of upper-class charity narratives.",
-    "id": "gen_c12_hin_ar_ch12_q15",
+    "id": "gen_c12_hin_ar_ch12_q16",
     "nodeId": "c12_hin_ar_cbse_12_005",
     "difficulty": "advanced"
    },
@@ -8991,39 +9050,66 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer (e.g., generic \"I am sad, water is life\") reveals the student cannot inhabit a marginalized perspective or deploy textual evidence creatively — a skill needed for CUET/Board creative writing tasks.",
-    "id": "gen_c12_hin_ar_ch12_q16",
+    "id": "gen_c12_hin_ar_ch12_q17",
     "nodeId": "c12_hin_ar_cbse_12_005",
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Compare the narrator's perspective and \"thth's\" perspective on water distribution in the story. What does this contrast reveal about the story's central conflict? (Analyze level)",
-    "answer": "The narrator (educated, outsider/observer) initially sees water scarcity as a natural hardship",
-    "options": [
-     "\"Dry throats\" (tactile imagery) makes the physical suffering immediate; \"water is blood\" (metaphor) elevates water to a life-sustaining essence",
-     "The narrator occupies the intersection: as a younger male, he initially benefits from the gendered division (women fetch water) and generational authority (elders' rules)",
-     "The narrator (educated, outsider/observer) initially sees water scarcity as a natural hardship"
+    "type": "order",
+    "question": "Compare how the folk song's collective voice (\"dkys es?kk ikuh ns\" — plural demand) differs from Thth's individualistic charity in addressing water justice. Which approach does the story endorse, and what textual evidence supports your conclusion?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The folk song's voice",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The story's verdict",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Thth's charity",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Supporting evidence",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls it \"two opinions\" misses the epistemic hierarchy: the story validates the subaltern's analysis over the outsider's sympathy, a pattern in Joshi's work and Dalit/subaltern literature — crucial for theme questions in boards.",
-    "id": "gen_c12_hin_ar_ch12_q17",
-    "nodeId": "c12_hin_ar_cbse_12_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "In your own words, explain why water scarcity in Uttarakhand hills is described as both a geographical and a social problem in the story's background. (Understand level)",
-    "answer": "Geographically, the steep slopes cause rainwater to run off quickly, and natural springs (naulas) are the only source",
-    "options": [
-     "Passage 1: \"foKku dk viuk roZQ gS vkSj fo'okl dk viuk lkeF;ZA\" — contrast: scientific objectivity vs",
-     "Sample: \"This story isn't history — it's your future. When Bengaluru runs dry or Chennai trains water, it's the same injustice: the powerful (vaèkfo'okl) capture resources",
-     "Geographically, the steep slopes cause rainwater to run off quickly, and natural springs (naulas) are the only source"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"only less rain\" or \"only rich people take it\" misses the interplay: the geography makes water scarce, but the social structure decides who suffers. This misconception leads to treating the story as an environmental tale rather than a critique of power.",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who answers that both approaches are needed misses the satirical thrust, since the author critiques charity as a distraction from justice.",
     "id": "gen_c12_hin_ar_ch12_q18",
-    "nodeId": "c12_hin_ar_cbse_12_001",
-    "difficulty": "standard"
+    "nodeId": "c12_hin_ar_cbse_12_015",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -9053,12 +9139,14 @@ export const C12_HIN_AR_GEN: SimDef[] = [
    "c12_hin_ar_cbse_13_003",
    "c12_hin_ar_cbse_13_004",
    "c12_hin_ar_cbse_13_005",
+   "c12_hin_ar_cbse_13_006",
    "c12_hin_ar_cbse_13_007",
    "c12_hin_ar_cbse_13_008",
    "c12_hin_ar_cbse_13_009",
    "c12_hin_ar_cbse_13_010",
    "c12_hin_ar_cbse_13_011",
    "c12_hin_ar_cbse_13_012",
+   "c12_hin_ar_cbse_13_013",
    "c12_hin_ar_cbse_13_014",
    "c12_hin_ar_cbse_13_015"
   ],
@@ -9110,6 +9198,12 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "Primary Theme Of a Literary Work",
+    "text": "The primary theme of a literary work is the central, unifying idea or message that the author conveys through the narrative, characters, and events; it is the underlying insight about human experience or society that gives the story its deeper meaning beyond",
+    "emoji": "📖",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Secondary Themes",
     "text": "Secondary themes are the supporting ideas, conflicts, or motifs that run parallel to the primary theme in a literary work, enriching the narrative by exploring related social, psychological, or philosophical dimensions without overshadowing the central",
     "emoji": "📖",
@@ -9144,6 +9238,12 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text (who, what, where, when), while inferential comprehension questions demand students to deduce meaning not directly written by combining textual evidence",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Critical Thinking",
+    "text": "Critical Thinking: Analysis and Interpretation is the disciplined process of examining a literary text beyond its literal meaning to uncover layered significance, evaluate authorial choices, and construct evidence-based arguments about how narrative elements",
+    "emoji": "📖",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "Writing Skills Based On The Chapter",
@@ -9297,6 +9397,69 @@ export const C12_HIN_AR_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "APPLY: Using the PEEL structure (Point, Evidence, Explanation, Link), write a 4-sentence paragraph proving that \"the exploitation of the folk artist by successive power structures\" is the primary theme.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explanation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Link",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Point",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Evidence",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who lists events without explanation and link shows narration instead of analysis, the most common board error.",
+    "id": "gen_c12_hin_ar_ch13_q6",
+    "nodeId": "c12_hin_ar_cbse_13_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are at a village fair in Bihar and you see a folk singer (लोक गायक) performing with immense passion, but the crowd treats it as free",
+     "This is exactly the world Renu creates in \"इग्योकु की <ksyd\".",
+     "To find the primary theme, start by asking: What is the one struggle that Yashoda (यशोदा/इग्योकु) faces from childhood to old age?",
+     "Trace her journey: the exploitative king (जक्त राजा), the indifferent government officer (जक्ताधिकारी), the changing village that no longer values"
+    ]
+   },
+   {
+    "type": "order",
     "question": "Create a 100-word scene showing a modern Igyoku — a traditional puppeteer in 2024 Rajasthan — navigating the same secondary themes: changing patronage (government grants vs. corporate CSR), tradition-modernity (teaching grandson TikTok vs.",
     "sortItems": [
      {
@@ -9348,7 +9511,7 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer merely transplants names without adapting the thematic tensions to contemporary structures.",
-    "id": "gen_c12_hin_ar_ch13_q6",
+    "id": "gen_c12_hin_ar_ch13_q7",
     "nodeId": "c12_hin_ar_cbse_13_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -9369,7 +9532,7 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Imagery' slide -- match the key terms.",
     "misconception": "Wrong answer reveal: If a student lists only 'visual imagery' or gives a vague example like \"the fair was noisy\", they confuse imagery with general description.",
-    "id": "gen_c12_hin_ar_ch13_q7",
+    "id": "gen_c12_hin_ar_ch13_q8",
     "nodeId": "c12_hin_ar_cbse_13_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -9384,13 +9547,13 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     "question": "Define verbal irony and give one example from \"इग्योकु की <क्स्यद>\" where a character says something but means the opposite.",
     "answer": "Verbal irony occurs when a speaker's intended meaning contradicts their literal words. In the story",
     "options": [
+     "The exposition establishes a remote village (vekoL;k) on a festival day (tkM+s dk fnu), introducing Yagyu (yq^u) as a young",
      "The three main components are time (historical period, time of day), place (geographical location, physical environment), and social environment (cultural norms, power structures)",
-     "A secondary theme is a supporting idea that runs parallel to the primary theme, exploring related dimensions without dominating the narrative",
      "Verbal irony occurs when a speaker's intended meaning contradicts their literal words. In the story"
     ],
     "hint": "Straight from the 'Irony' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing it with sarcasm or missing the power dynamic) shows the student cannot distinguish irony from mere tone or cannot locate textual evidence.",
-    "id": "gen_c12_hin_ar_ch13_q8",
+    "id": "gen_c12_hin_ar_ch13_q9",
     "nodeId": "c12_hin_ar_cbse_13_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -9404,13 +9567,13 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     "question": "What is the primary purpose of using context clues when encountering an unfamiliar word in a literary text?",
     "answer": "The primary purpose is to infer the word's meaning from the surrounding text — such as synonyms, antonyms, examples, or the overall tone",
     "options": [
+     "(1) Definition — critical interpretation constructs an arguable claim about a text's deeper meaning by synthesising evidence from plot, character",
      "The author is हज़ारी प्रसाद द्विवेदी (Hazari Prasad Dwivedi), born in 1921 in Ballia. He is celebrated as a pioneer of experimental fiction (वकपफयडर् मइउक्ल) in Hindi",
-     "The exposition establishes a remote village (vekoL;k) on a festival day (tkM+s dk fnu), introducing Yagyu (yq^u) as a young",
      "The primary purpose is to infer the word's meaning from the surrounding text — such as synonyms, antonyms, examples, or the overall tone"
     ],
     "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to memorize the word for the exam\") reveals the student views vocabulary as rote memorization rather than an analytical reading skill.",
-    "id": "gen_c12_hin_ar_ch13_q9",
+    "id": "gen_c12_hin_ar_ch13_q10",
     "nodeId": "c12_hin_ar_cbse_13_010",
     "difficulty": "standard",
     "workedExample": [
@@ -9431,7 +9594,7 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Grammar' slide -- match the key terms.",
     "misconception": "A wrong answer like \"tatpurush samas\" or \"kriya visheshan\" reveals the student is confusing general grammar terminology with the text-specific classification used in the chapter's exercise section.",
-    "id": "gen_c12_hin_ar_ch13_q10",
+    "id": "gen_c12_hin_ar_ch13_q11",
     "nodeId": "c12_hin_ar_cbse_13_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -9446,13 +9609,13 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     "question": "पाठ में से एक शाब्दिक (literal) प्रश्न और एक निहितार्थ (inferential) प्रश्न पहचानकर लिखिए, और बताइए कि आपने उन्हें कैसे वर्गीकृत किया?",
     "answer": "उत्तर: शाब्दिक प्रश्न: \"इग्योकु का असली नाम क्या था?\" (उत्तर: पकीन लाल — पाठ में सीधे लिखा है)। निहितार्थ प्रश्न: \"इग्योकु ने अपने पुत्रों को चाक पर क्यों बिठाया?",
     "options": [
-     "A strong answer maps each stage: 1) Exposition — a street rapper in a basti whose verses reflect local life",
-     "A strong answer will include sensory details like the smell of rain on dust, the sound of vendors' cries mixing with the bell, the sight of colorful cloth and vegetables",
+     "उत्तर: (क) शाब्दिक — उत्तर पाठ में सीधे है: \"इग्योकु ने कहा: 'मेरा कोई पुत्र नहीं, यह चाक है'\"। (ख) निहितार्थ — पाठ में इग्योकु के मन का कारण नहीं लिखा",
+     "उत्तर: शाब्दिक: \"चाक थम गया, धुआँ उठना बंद हुआ, मिट्टी के अधबने बर्तन चाक पर पड़े रह गए।\" निहितार्थ: \"वह ध्वनि जो पीढ़ियों से गाँव की साँस थी, अब सन्नाटे में बदल गई",
      "उत्तर: शाब्दिक प्रश्न: \"इग्योकु का असली नाम क्या था?\" (उत्तर: पकीन लाल — पाठ में सीधे लिखा है)। निहितार्थ प्रश्न: \"इग्योकु ने अपने पुत्रों को चाक पर क्यों बिठाया?"
     ],
     "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: उत्तर: शाब्दिक प्रश्न: \"इग्योकु का असली नाम क्या था?\" (उत्तर: पकीन लाल — पाठ में सीधे लिखा है)। निहितार्थ प्रश्न:",
-    "id": "gen_c12_hin_ar_ch13_q11",
+    "id": "gen_c12_hin_ar_ch13_q12",
     "nodeId": "c12_hin_ar_cbse_13_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -9463,18 +9626,70 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Define \"critical interpretation\" in the context of Class 12 Hindi prose analysis. How does it differ from \"literal comprehension\" (node 012) and \"literary device identification\" (nodes 008-009)?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The added step",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Difference from comprehension",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Definition",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who calls interpretation personal opinion confuses subjective reaction with evidence-based argument, and one who lists devices without their thematic function stays at the identification level.",
+    "id": "gen_c12_hin_ar_ch13_q13",
+    "nodeId": "c12_hin_ar_cbse_13_013",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you're in the exam hall facing a 6-mark question: \"How does the story use the motif of the 'shadow' to critique the relationship between art",
+     "Start by asking: *What is the one specific textual moment where the shadow acts independently?",
+     "Next, ask: *What does this separation symbolize?* (Art cannot be imprisoned; the king controls the body but not the creative spirit).",
+     "Then: *How does the language of that scene reinforce this?* (The shadow sings \"pava-ekk, phan-ekk\" — the same rhythmic syllables, showing continuity"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What does the acronym PEEL stand for in the context of writing analytical answers for literature?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
      "A secondary theme is a supporting idea that runs parallel to the primary theme, exploring related dimensions without dominating the narrative",
      "The author is हज़ारी प्रसाद द्विवेदी (Hazari Prasad Dwivedi), born in 1921 in Ballia. He is celebrated as a pioneer of experimental fiction (वकपफयडर् मइउक्ल) in Hindi",
-     "PEEL stands for Point, Verbal, Explanation, Link",
+     "PEEL stands for Point, Indian, Explanation, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
     "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Plot, Event, Ending, Lesson\") reveals the student confuses narrative elements with the analytical writing framework. This misunderstanding leads to answers that retell the story instead of building an argument.",
-    "id": "gen_c12_hin_ar_ch13_q12",
+    "id": "gen_c12_hin_ar_ch13_q14",
     "nodeId": "c12_hin_ar_cbse_13_014",
     "difficulty": "advanced",
     "workedExample": [
@@ -9495,7 +9710,7 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Yagyu vs. king personal enmity\") reveals the student reads plot events but misses the symbolic conflict between लोककला and राजसत्ता — a Class 12 board expectation for thematic analysis.",
-    "id": "gen_c12_hin_ar_ch13_q13",
+    "id": "gen_c12_hin_ar_ch13_q15",
     "nodeId": "c12_hin_ar_cbse_13_015",
     "difficulty": "advanced",
     "workedExample": [
@@ -9547,69 +9762,112 @@ export const C12_HIN_AR_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that agrees or offers only य्कु-centric evidence reveals the student views supporting characters as flat devices rather than rounded figures.",
-    "id": "gen_c12_hin_ar_ch13_q14",
+    "id": "gen_c12_hin_ar_ch13_q16",
     "nodeId": "c12_hin_ar_cbse_13_005",
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Based on the context note, predict two specific conflicts you expect to see in the story. For each, name the context clue that supports your prediction.",
-    "answer": "1. Conflict: Traditional folk artist vs. modernizing state/legal system. Clue: The note mentions \"O;oLFkk osQ cnyus osQ lkFk yksd&dyk vkSj blosQ dykdkj osQ vizklafxd gks tkus dh",
-    "options": [
-     "1) Yagyu's music captivates the old king during a hunt (जंगल में शिकार के दौरान राजा का ध्यान आकर्षित करना)",
-     "A strong answer maps each stage: 1) Exposition — a street rapper in a basti whose verses reflect local life",
-     "1. Conflict: Traditional folk artist vs. modernizing state/legal system. Clue: The note mentions \"O;oLFkk osQ cnyus osQ lkFk yksd&dyk vkSj blosQ dykdkj osQ vizklafxd gks tkus dh"
+    "type": "order",
+    "question": "ANALYZE: Compare the king's (जक्त राजा) and the government officer's (जक्ताधिकारी) treatment of Yashoda. How does Renu use this comparison to deepen the primary theme? Identify one similarity and one critical difference in their exploitation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The similarity",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The deepening",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The critical difference",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer listing generic conflicts (\"rich vs poor\") without tying to specific context phrases shows the student cannot use textual evidence to form hypotheses — a key skill for board comprehension questions.",
-    "id": "gen_c12_hin_ar_ch13_q15",
-    "nodeId": "c12_hin_ar_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"The 'Before You Read' section is only for background knowledge; it does not help in answering textual questions.\" Defend your evaluation with two specific examples from this chapter's context note.",
-    "answer": "The claim is false. The context note directly enables textual answers: 1. It explains the term \"इग्योक\" (a folk singer of the Ahir community)",
-    "options": [
-     "It is ironic closure: structurally, the story returns to the opening image (flautist playing in village), but the context is inverted",
-     "Onomatopoeia creates auditory imagery that allows the reader to \"hear\" the flute's specific timbre and the character's frantic movement",
-     "The claim is false. The context note directly enables textual answers: 1. It explains the term \"इग्योक\" (a folk singer of the Ahir community)"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The claim is false. The context note directly enables textual answers: 1.",
-    "id": "gen_c12_hin_ar_ch13_q16",
-    "nodeId": "c12_hin_ar_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "The context note contrasts \"ज्क्त ल्कगच\" (king's court) with \"बफम;क\" (the new order). Analyze how this contrast sets up the story's central tension between two kinds of legitimacy.",
-    "answer": "The \"king's court\" represents traditional, personalistic legitimacy — power rooted in custom, patronage, and the ruler's whim (e",
-    "options": [
-     "It suggests the story uses a specific historical setting (feudal village) to portray universal human experiences — exploitation, resistance, the dignity of labor",
-     "\"बात\" means \"excellence/quality\" (a colloquial use common in music criticism). Tone clue: the sentence contrasts past and present with regret (\"न रही जो पहले थी\")",
-     "The \"king's court\" represents traditional, personalistic legitimacy — power rooted in custom, patronage, and the ruler's whim (e"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer treating both as just \"government\" misses the nuanced shift from *personal* to *institutional* authority, which is essential for interpreting the climax where the king tries to use the new system to settle a personal score.",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who says both were bad, or that the king was better for giving a plate, misses the structural critique that every power structure has exploited the folk artist.",
     "id": "gen_c12_hin_ar_ch13_q17",
-    "nodeId": "c12_hin_ar_cbse_13_001",
-    "difficulty": "standard"
+    "nodeId": "c12_hin_ar_cbse_13_006",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "The context note states that Dwivedi's stories make readers \"feel the conditions of the common people even in the present day.\" Explain in your own words what this suggests about the story's relevance and narrative technique.",
-    "answer": "It suggests the story uses a specific historical setting (feudal village) to portray universal human experiences — exploitation, resistance, the dignity of labor",
-    "options": [
-     "Action: Yug departs the village with his disciples after the headman's final attempt to control him",
-     "Expected answer: A dialogue showing पकीं लेग's quiet pride (\"The tanpura still sings in the courtyard\") and चकनी लेग's aching regret (\"I count the strings he never touched\")",
-     "It suggests the story uses a specific historical setting (feudal village) to portray universal human experiences — exploitation, resistance, the dignity of labor"
+    "type": "order",
+    "question": "CREATE: Write a new closing scene (4-5 sentences) for the story that *changes* the primary theme from \"exploitation of the folk artist\" to \"empowerment of the folk artist through collective action.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The sound",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The political point",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Collective action",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The symbol transformed",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"it means the story is old but still famous\") shows the student confuses \"relevance\" with \"popularity\" and fails to grasp how literature uses particularity to achieve universality — a core concept in Class 12 literary analysis.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer writes a happy ending of charity or fame, missing that the theme is structural.",
     "id": "gen_c12_hin_ar_ch13_q18",
-    "nodeId": "c12_hin_ar_cbse_13_001",
-    "difficulty": "standard"
+    "nodeId": "c12_hin_ar_cbse_13_006",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {

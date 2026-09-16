@@ -8,6 +8,303 @@ import type { SimDef } from '../engine/types';
 
 export const C10_HIST_GEN: SimDef[] = [
  {
+  "id": "gen_c10_hist_ch01",
+  "title": "Aristocracy And The Napoleonic Code",
+  "subtitle": "History · Chapter 1",
+  "classLevel": 10,
+  "mode": "senior",
+  "subject": "history",
+  "topic": "Aristocracy And The Napoleonic Code",
+  "chapters": [
+   "History Ch1: Aristocracy And The Napoleonic Code"
+  ],
+  "nodeIds": [
+   "c10_hist_cbse_01_002",
+   "c10_hist_cbse_01_005",
+   "c10_hist_cbse_01_008"
+  ],
+  "emoji": "🏛️",
+  "theme": {
+   "bg": "from-sky-100 to-cyan-200",
+   "accent": "sky",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "In one line -- what does Aristocracy And The Napoleonic actually explain?",
+   "options": [
+    "Why things around us behave the way they do",
+    "Nothing -- it is just a name",
+    "Only how to score marks"
+   ],
+   "answer": "Why things around us behave the way they do",
+   "hook": "The Aristocracy and the Napoleonic Code refers to the social structure of 19th-century Europe dominated by a land-owning noble class (aristocracy)"
+  },
+  "teaching": [
+   {
+    "title": "Aristocracy And The Napoleonic Code",
+    "text": "The Aristocracy and the Napoleonic Code refers to the social structure of 19th-century Europe dominated by a land-owning noble class (aristocracy) and the legal reforms introduced by Napoleon Bonaparte through the Civil Code of 1804 (Napoleonic Code), which",
+    "emoji": "🏛️",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Revolutionaries Were Committed Nationalist",
+    "text": "The Revolutionaries were committed nationalist activists (1815–1848) who formed secret societies like the Carbonari in Italy to overthrow the conservative monarchies restored by the Congress of Vienna, using clandestine networks, oaths of secrecy, and armed",
+    "emoji": "🏛️",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Allegories Of The Nation",
+    "text": "Allegories of the nation are symbolic female figures — Marianne for France and Germania for Germany — that personified the abstract idea of the nation-state in 19th-century Europe, using specific visual attributes (Phrygian cap, tricolour, oak leaves, sword,",
+    "emoji": "🏛️",
+    "bgColor": "from-amber-400 to-orange-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Trace the correct sequence of effects by which the Napoleonic Code in the Grand Duchy of Warsaw both advanced and limited Polish national hopes.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The Code abolishes serfdom and builds",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Ultimate sovereignty stays with Napoleon",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "A shared legal framework fosters a common",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "French courts impose the French language",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that lists only benefits, or only impositions, shows the student has missed the dual legacy in which the very laws that advanced Polish nationhood also limited it.",
+    "id": "gen_c10_hist_ch01_q1",
+    "nodeId": "c10_hist_cbse_01_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are visiting the Rashtrapati Bhavan in Delhi and notice the blend of Mughal and British architectural styles — a physical reminder of how",
+     "Similarly, ask: \"How did Napoleon's armies change the laws in places like Warsaw or Milan?",
+     "Then examine the Napoleonic Code's three pillars: civil equality, religious toleration, and property rights.",
+     "Contrast this with the aristocracy's world of inherited titles, tax exemptions, and seigneurial dues."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct sequence of legacies by which the Carbonari, though suppressed, shaped the Risorgimento after 1821.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The 1820 to 1821 uprisings force monarchs",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Repression after the Congress of Vienna",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "The Carbonari keep the tricolour",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Survivors like Mazzini convert conspiracy",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls the societies irrelevant failures shows the student has missed that they trained the generation of 1848 and kept nationalism alive when open politics was impossible.",
+    "id": "gen_c10_hist_ch01_q2",
+    "nodeId": "c10_hist_cbse_01_005",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are a student in 1820s Naples — you hear whispers of a secret group meeting in cellars, members recognising each other by a special",
+     "Start by recalling the Congress of Vienna (c10_hist_cbse_01_001) which crushed liberal hopes — this repression is the spark.",
+     "Next, trace how the Carbonari borrowed Masonic rituals but replaced universal brotherhood with national liberation.",
+     "Then, analyse their 1820–21 uprisings in Naples and Piedmont: why they briefly succeeded, why Austria crushed them."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence of design choices for building a national allegory for newly independent India in 1947.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Omit every imperial icon of British rule",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Add a tricolour sash for unity in diversity",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Give her the charkha for self-reliance",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Choose the motherland figure of the Bharat",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that copies a crown or a conquering sword from European models shows the student has missed that each attribute must carry the new nation's own meanings of fearlessness, labour and unity.",
+    "id": "gen_c10_hist_ch01_q3",
+    "nodeId": "c10_hist_cbse_01_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Think of the image of Bharat Mata — a mother figure draped in a saffron sari, holding the national flag, standing on a map of India — that you see in",
+     "That is an allegory: a human figure representing the abstract idea of the nation.",
+     "Now ask: why did 19th-century Europeans, who had no photographs or mass media, need such figures?",
+     "Start by recalling the French Revolution (node 001) which replaced the king's body with the nation as the source of sovereignty."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Trace the correct sequence of effects by which the Napoleonic Code in the Grand Duchy of Warsaw both advanced and limited Polish national hopes.",
+    "answer": "The dual legacy runs: (1) The Code abolishes serfdom and builds a merit-based bureaucracy (2) A shared legal framework fosters a common Polish civic identity (3) French courts",
+    "options": [
+     "The design sequence runs: (1) Choose the motherland figure of the Bharat Mata tradition as the base (2) Give her the charkha for self-reliance and the Ashoka Chakra for dharma and",
+     "The legacy chain runs: (1) Repression after the Congress of Vienna drives patriots into secret societies (2) The Carbonari keep the tricolour",
+     "The dual legacy runs: (1) The Code abolishes serfdom and builds a merit-based bureaucracy (2) A shared legal framework fosters a common Polish civic identity (3) French courts"
+    ],
+    "hint": "Straight from the 'Aristocracy and the Napoleonic' slide -- match the key terms.",
+    "misconception": "A wrong answer that lists only benefits, or only impositions, shows the student has missed the dual legacy in which the very laws that advanced Polish nationhood also limited it.",
+    "id": "gen_c10_hist_ch01_q4",
+    "nodeId": "c10_hist_cbse_01_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct sequence of legacies by which the Carbonari, though suppressed, shaped the Risorgimento after 1821.",
+    "answer": "The legacy chain runs: (1) Repression after the Congress of Vienna drives patriots into secret societies (2) The Carbonari keep the tricolour",
+    "options": [
+     "The design sequence runs: (1) Choose the motherland figure of the Bharat Mata tradition as the base (2) Give her the charkha for self-reliance and the Ashoka Chakra for dharma and",
+     "The dual legacy runs: (1) The Code abolishes serfdom and builds a merit-based bureaucracy (2) A shared legal framework fosters a common Polish civic identity (3) French courts",
+     "The legacy chain runs: (1) Repression after the Congress of Vienna drives patriots into secret societies (2) The Carbonari keep the tricolour"
+    ],
+    "hint": "Straight from the 'Revolutionaries were committed' slide -- match the key terms.",
+    "misconception": "A wrong answer that calls the societies irrelevant failures shows the student has missed that they trained the generation of 1848 and kept nationalism alive when open politics was impossible.",
+    "id": "gen_c10_hist_ch01_q5",
+    "nodeId": "c10_hist_cbse_01_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Trace the correct sequence of design choices for building a national allegory for newly independent India in 1947.",
+    "answer": "The design sequence runs: (1) Choose the motherland figure of the Bharat Mata tradition as the base (2) Give her the charkha for self-reliance and the Ashoka Chakra for dharma and",
+    "options": [
+     "The dual legacy runs: (1) The Code abolishes serfdom and builds a merit-based bureaucracy (2) A shared legal framework fosters a common Polish civic identity (3) French courts",
+     "The legacy chain runs: (1) Repression after the Congress of Vienna drives patriots into secret societies (2) The Carbonari keep the tricolour",
+     "The design sequence runs: (1) Choose the motherland figure of the Bharat Mata tradition as the base (2) Give her the charkha for self-reliance and the Ashoka Chakra for dharma and"
+    ],
+    "hint": "Straight from the 'Allegories of the nation' slide -- match the key terms.",
+    "misconception": "A wrong answer that copies a crown or a conquering sword from European models shows the student has missed that each attribute must carry the new nation's own meanings of fearlessness, labour and unity.",
+    "id": "gen_c10_hist_ch01_q6",
+    "nodeId": "c10_hist_cbse_01_008",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about aristocracy and the napoleonic code?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Aristocracy And The mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
   "id": "gen_c10_hist_ch03",
   "title": "Pre-Modern World",
   "subtitle": "History · Chapter 3",
@@ -377,6 +674,21 @@ export const C10_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Construct a 5-event annotated timeline (with dates) showing how a single commodity — cotton textiles — moved from production in Gujarat to consumption in Cairo (Egypt) via the pre-modern Indian Ocean network, identifying the key ports, monsoon seasons, and merchant communities involved at each stage.",
+    "answer": "Expected timeline: (1) c. 1000 CE — Cotton woven in Cambay (Gujarat) by local weavers, financed by Jain/Bohra merchants",
+    "options": [
+     "The two key developments: (1) Revolution in transport (containerisation, larger cargo ships) drastically lowering shipping costs and time",
+     "Expected timeline (sample): 1815 — End of Napoleonic Wars opens era of free trade; 1834 — British Slavery Abolition Act triggers indentured labour system",
+     "Expected timeline: (1) c. 1000 CE — Cotton woven in Cambay (Gujarat) by local weavers, financed by Jain/Bohra merchants"
+    ],
+    "hint": "Straight from the 'Pre-Modern World' slide -- match the key terms.",
+    "misconception": "A poor answer listing only \"India to Egypt\" without monsoon timing, intermediary ports, or merchant communities reveals the student views trade as direct point-to-point rather than a relay system dependent on seasonal winds and specialised trading diasporas.",
+    "id": "gen_c10_hist_ch03_q9",
+    "nodeId": "c10_hist_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Explain why Roman gold coins have been found in large numbers at Arikamedu (near Puducherry) and Muziris (Kerala) but are extremely rare in North Indian archaeological sites like Taxila or Mathura.",
     "answer": "Roman trade with India was overwhelmingly maritime — ships rode the monsoon winds directly from Red Sea ports (Berenike",
     "options": [
@@ -386,7 +698,7 @@ export const C10_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pre-Modern World' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Romans preferred sea travel\" or \"North India was not part of the Roman trade\") shows the student misses the geopolitical reality: the Parthian Empire blocked direct Roman access to the land route, forcing maritime trade that enriched South Indian ports and the Satavahana/Kushana rulers who",
-    "id": "gen_c10_hist_ch03_q9",
+    "id": "gen_c10_hist_ch03_q10",
     "nodeId": "c10_hist_cbse_03_001",
     "difficulty": "standard"
    },
@@ -401,7 +713,22 @@ export const C10_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Nineteenth Century Globalisation' slide -- match the key terms.",
     "misconception": "A poor answer lists battles or political events without economic significance, showing the student cannot identify the drivers of globalisation.",
-    "id": "gen_c10_hist_ch03_q10",
+    "id": "gen_c10_hist_ch03_q11",
+    "nodeId": "c10_hist_cbse_03_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the statement: \"Nineteenth-century globalisation benefited all regions equally by lowering food prices and increasing availability.\" Use evidence from at least two regions to support your judgment.",
+    "answer": "The statement is false. Evidence: (1) Europe/USA benefited — cheap grain and meat imports lowered living costs for industrial workers",
+    "options": [
+     "The claim is partially accurate but requires nuance: indenture shared slavery's coercive recruitment (debt bondage, deception), harsh plantation conditions",
+     "The statement is largely correct: (1) US military spending on the Vietnam War and domestic \"Great Society\" programs led to massive dollar outflows",
+     "The statement is false. Evidence: (1) Europe/USA benefited — cheap grain and meat imports lowered living costs for industrial workers"
+    ],
+    "hint": "Straight from the 'Nineteenth Century Globalisation' slide -- match the key terms.",
+    "misconception": "A wrong answer that cites only European gains shows inability to assess uneven impacts — a key board exam skill.",
+    "id": "gen_c10_hist_ch03_q12",
     "nodeId": "c10_hist_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -416,7 +743,7 @@ export const C10_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Nineteenth Century Globalisation' slide -- match the key terms.",
     "misconception": "A wrong answer like \"steamships\" shows the student confuses general steam-powered transport with the specific breakthrough that enabled perishable cargo; \"railways\" indicates they miss the oceanic dimension.",
-    "id": "gen_c10_hist_ch03_q11",
+    "id": "gen_c10_hist_ch03_q13",
     "nodeId": "c10_hist_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -431,7 +758,7 @@ export const C10_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'late nineteenth century' slide -- match the key terms.",
     "misconception": "A wrong answer focusing on \"Leopold's cruelty\" without linking it to *global rubber demand* (for bicycle/auto tires) misses the historical causation. This tests the ability to see violence as an *economic instrument*, not just moral failure.",
-    "id": "gen_c10_hist_ch03_q12",
+    "id": "gen_c10_hist_ch03_q14",
     "nodeId": "c10_hist_cbse_03_003",
     "difficulty": "advanced"
    },
@@ -446,7 +773,22 @@ export const C10_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Globalisation's impact on' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"both benefited equally\" ignores sector-specific timing and state policy.",
-    "id": "gen_c10_hist_ch03_q13",
+    "id": "gen_c10_hist_ch03_q15",
+    "nodeId": "c10_hist_cbse_03_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Construct a 4-point argument either defending or criticising the Washington Consensus as a development strategy for a hypothetical mineral-rich, low-industrialised African nation in 1990. Use historical evidence from at least two real countries.",
+    "answer": "A strong critique: (1) Zambia's rapid copper privatisation (1990s) led to tax revenue collapse; (2) Malawi's fertiliser subsidy removal caused famine (2002)",
+    "options": [
+     "Expected timeline (sample): 1815 — End of Napoleonic Wars opens era of free trade; 1834 — British Slavery Abolition Act triggers indentured labour system",
+     "Refute. The Congo Free State under Leopold II was a *private capitalist venture* disguised as a philanthropic mission",
+     "A strong critique: (1) Zambia's rapid copper privatisation (1990s) led to tax revenue collapse; (2) Malawi's fertiliser subsidy removal caused famine (2002)"
+    ],
+    "hint": "Straight from the 'Globalisation's impact on' slide -- match the key terms.",
+    "misconception": "A poor answer lists only GDP growth figures without structural analysis.",
+    "id": "gen_c10_hist_ch03_q16",
     "nodeId": "c10_hist_cbse_03_007",
     "difficulty": "advanced"
    },
@@ -461,7 +803,7 @@ export const C10_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Migration and the Shaping of the' slide -- match the key terms.",
     "misconception": "A wrong answer treating both as \"similar plantation experiences\" misses how post-contract land access determined whether Indians became a ruling majority or a marginalized minority.",
-    "id": "gen_c10_hist_ch03_q14",
+    "id": "gen_c10_hist_ch03_q17",
     "nodeId": "c10_hist_cbse_03_008",
     "difficulty": "advanced"
    },
@@ -476,7 +818,7 @@ export const C10_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Migration and the Shaping of the' slide -- match the key terms.",
     "misconception": "A wrong answer calling it \"exactly slavery\" or \"completely different\" fails the evaluative task — board exams reward \"qualified assessment with evidence\" over binary judgments.",
-    "id": "gen_c10_hist_ch03_q15",
+    "id": "gen_c10_hist_ch03_q18",
     "nodeId": "c10_hist_cbse_03_008",
     "difficulty": "advanced"
    }

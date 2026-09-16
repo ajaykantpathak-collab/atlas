@@ -10,7 +10,7 @@ export const w_c6_mathematicssymmetrysim: SimDef = {
     subtitle: 'This node covers reflectional symmetry and identifying lines of symmetry in basic.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Symmetry',
     chapters: [],
-    nodeIds: ['c6_math_ch10_105', 'c6_math_ch10_106', 'c6_math_ch10_107', 'c6_math_ch10_108', 'c6_math_ch10_109', 'c6_math_ch10_110'],
+    nodeIds: ['c6_math_ch10_105', 'c6_math_ch10_111', 'c6_math_ch10_108', 'c6_math_ch10_109'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a beautiful butterfly and noticed how the patterns on its left wing perfectly match.', goal: 'Master Symmetry.' },
     discovery: {

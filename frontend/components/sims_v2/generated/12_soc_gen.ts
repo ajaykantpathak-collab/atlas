@@ -26,6 +26,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "c12_soc_cbse_01_005",
    "c12_soc_cbse_01_006",
    "c12_soc_cbse_01_007",
+   "c12_soc_cbse_01_008",
    "c12_soc_cbse_01_009"
   ],
   "emoji": "👥",
@@ -86,6 +87,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "text": "Sociology and history are distinct but complementary disciplines: sociology examines recurrent social patterns, structures, and processes (synchronic analysis), while history investigates unique, temporally sequenced events and transformations (diachronic",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Distinctive Features Of Indian Society",
+    "text": "The distinctive features of Indian society refer to its plurality (coexistence of multiple cultural, religious, linguistic, and ethnic groups), diversity (the vast range of variations in customs, beliefs, practices, and social structures across regions and",
+    "emoji": "👥",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Debate Between Universalism And",
@@ -269,7 +276,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "answer": "\"Historical sociology\" is more accurate: they use historical archives to build *sociological generalisations* about subaltern autonomy, consciousness",
     "options": [
      "Personal trouble: Riya's individual anxiety about her marks and future. Social issue: The structural mismatch between the number of quality higher-education seats and the aspirant",
-     "First researcher: Universalist — applies a global class framework assuming its categories (manager, expert",
+     "(1) Plurality — five distinct groups coexist in the village, the priestly landowning caste, the herding caste, the leather-working caste",
      "\"Historical sociology\" is more accurate: they use historical archives to build *sociological generalisations* about subaltern autonomy, consciousness"
     ],
     "hint": "Straight from the 'Sociology and history' slide -- match the key terms.",
@@ -284,17 +291,91 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "In a hypothetical village, there are three castes: Brahmins (priests, landowners), Yadavs (cattle-herders, middle peasants), and Chamars (leather-workers, landless laborers). The village also has a Muslim community (weavers) and a Christian community (converted from Chamars).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Caste stratification",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Cross-cutting line two",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s2",
+      "label": "Cross-cutting line one",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Diversity",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "Plurality",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who lists only the caste ladder, or says Muslims and Christians sit outside caste, ignores how religion and class intersect and misses that conversion rarely erases caste status.",
+    "id": "gen_c12_soc_ch01_q8",
+    "nodeId": "c12_soc_cbse_01_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are standing in a bustling railway station in Mumbai: you hear Marathi, Hindi, Gujarati, Tamil, and Bengali; you see people dressed in",
+     "Start by asking: \"What makes this scene uniquely Indian?\" Guide students to list the visible differences (languages, dress, food, rituals) → that's",
+     "Then ask: \"Are these differences just random variety, or do they follow patterns?\" → they cluster into regional, religious, occupational groups →",
+     "Finally ask: \"Who gets the best seats, who cleans the platforms, who owns the stalls?"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A researcher studies \"middle-class formation in Bengaluru\" using Erik Olin Wright's class schema (contradictory class locations) without modification. Another studies the same topic using the concept of \"asal/nasal\" (authentic/inauthentic) cultural capital from Kannada discourse. Classify each approach and justify.",
     "answer": "First researcher: Universalist — applies a global class framework assuming its categories (manager, expert",
     "options": [
      "\"Historical sociology\" is more accurate: they use historical archives to build *sociological generalisations* about subaltern autonomy, consciousness",
-     "Particularist: \"How do Marwari merchants' traditional trust networks (sakh/hundi) shape smartphone adoption and digital payment practices in Jodhpur villages?",
+     "(1) Plurality — five distinct groups coexist in the village, the priestly landowning caste, the herding caste, the leather-working caste",
      "First researcher: Universalist — applies a global class framework assuming its categories (manager, expert"
     ],
     "hint": "Straight from the 'debate between universalism and' slide -- match the key terms.",
     "misconception": "A wrong classification (e.g., calling the second \"universalist because it studies class\") shows the student equates *topic* with *methodological stance*; the debate is about the *origin and validation* of concepts.",
-    "id": "gen_c12_soc_ch01_q8",
+    "id": "gen_c12_soc_ch01_q9",
     "nodeId": "c12_soc_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -346,7 +427,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer would propose \"studying tribal culture\" — reproducing the colonial gaze.",
-    "id": "gen_c12_soc_ch01_q9",
+    "id": "gen_c12_soc_ch01_q10",
     "nodeId": "c12_soc_cbse_01_004",
     "difficulty": "advanced"
    },
@@ -361,7 +442,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'significance of a sociology of' slide -- match the key terms.",
     "misconception": "A wrong answer that equates self-reflexivity with 'thinking about myself' misses the structural, outward-looking dimension: it is about seeing oneself as a social actor positioned in a web of power relations.",
-    "id": "gen_c12_soc_ch01_q10",
+    "id": "gen_c12_soc_ch01_q11",
     "nodeId": "c12_soc_cbse_01_001",
     "difficulty": "standard"
    },
@@ -376,22 +457,37 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Nationalism in the Indian context' slide -- match the key terms.",
     "misconception": "A wrong answer that reduces the difference to \"secular vs. communal\" misses the sociological depth of how each defines the collective \"we.\"",
-    "id": "gen_c12_soc_ch01_q11",
+    "id": "gen_c12_soc_ch01_q12",
     "nodeId": "c12_soc_cbse_01_003",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A student writes: \"Indian sociology began with G.S. Ghurye in the 1920s because he founded the first sociology department at Bombay University.\" Identify the historical inaccuracy and explain what colonial institutional development actually preceded Ghurye.",
+    "answer": "The inaccuracy: Ghurye founded the *postgraduate* department (1919), but sociology entered India earlier through (1) Census ethnography (Risley, 1901)",
+    "options": [
+     "First researcher: Universalist — applies a global class framework assuming its categories (manager, expert",
+     "The statement is false. Village studies were *commissioned* by the Planning Commission and ICSSR to inform the Community Development Programme (1952) and Panchayati Raj (1959)",
+     "The inaccuracy: Ghurye founded the *postgraduate* department (1919), but sociology entered India earlier through (1) Census ethnography (Risley, 1901)"
+    ],
+    "hint": "Straight from the 'Sociology's engagement with' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student equates \"sociology\" with \"university department\" — missing that disciplines exist before departments.",
+    "id": "gen_c12_soc_ch01_q13",
+    "nodeId": "c12_soc_cbse_01_004",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
     "question": "Critique this statement: \"The village studies of the 1950s-60s (Srinivas, Dube, Beteille) were purely academic exercises with no policy relevance.\" Use specific examples from the Community Development Programme and Panchayati Raj.",
     "answer": "The statement is false. Village studies were *commissioned* by the Planning Commission and ICSSR to inform the Community Development Programme (1952) and Panchayati Raj (1959)",
     "options": [
-     "Example: \"How do Gond adivasis in Chhattisgarh's Hasdeo Arand forest reinterpret the colonial category 'Scheduled Tribe' when resisting coal mining",
+     "The inaccuracy: Ghurye founded the *postgraduate* department (1919), but sociology entered India earlier through (1) Census ethnography (Risley, 1901)",
      "\"Historical sociology\" is more accurate: they use historical archives to build *sociological generalisations* about subaltern autonomy, consciousness",
      "The statement is false. Village studies were *commissioned* by the Planning Commission and ICSSR to inform the Community Development Programme (1952) and Panchayati Raj (1959)"
     ],
     "hint": "Straight from the 'Sociology's engagement with' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student doesn't grasp the state-sociology nexus in early post-colonial India.",
-    "id": "gen_c12_soc_ch01_q12",
+    "id": "gen_c12_soc_ch01_q14",
     "nodeId": "c12_soc_cbse_01_004",
     "difficulty": "advanced"
    },
@@ -400,13 +496,13 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Design a research question for a contemporary sociological study that consciously addresses the colonial legacy in Indian sociology's categories (e.g., \"tribe,\" \"caste,\" \"village\"). Explain how your question operationalises \"decolonial reflexivity.\"",
     "answer": "Example: \"How do Gond adivasis in Chhattisgarh's Hasdeo Arand forest reinterpret the colonial category 'Scheduled Tribe' when resisting coal mining",
     "options": [
+     "The inaccuracy: Ghurye founded the *postgraduate* department (1919), but sociology entered India earlier through (1) Census ethnography (Risley, 1901)",
      "The statement is false. Village studies were *commissioned* by the Planning Commission and ICSSR to inform the Community Development Programme (1952) and Panchayati Raj (1959)",
-     "Personal trouble: Riya's individual anxiety about her marks and future. Social issue: The structural mismatch between the number of quality higher-education seats and the aspirant",
      "Example: \"How do Gond adivasis in Chhattisgarh's Hasdeo Arand forest reinterpret the colonial category 'Scheduled Tribe' when resisting coal mining"
     ],
     "hint": "Straight from the 'Sociology's engagement with' slide -- match the key terms.",
     "misconception": "A poor answer would propose \"studying tribal culture\" — reproducing the colonial gaze.",
-    "id": "gen_c12_soc_ch01_q13",
+    "id": "gen_c12_soc_ch01_q15",
     "nodeId": "c12_soc_cbse_01_004",
     "difficulty": "advanced"
    },
@@ -421,7 +517,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'intellectual context of Indian' slide -- match the key terms.",
     "misconception": "A wrong answer that merely lists their books shows the student cannot analyze methodological trade-offs — a skill needed for evaluating competing theories in competitive exams.",
-    "id": "gen_c12_soc_ch01_q14",
+    "id": "gen_c12_soc_ch01_q16",
     "nodeId": "c12_soc_cbse_01_005",
     "difficulty": "advanced"
    },
@@ -430,13 +526,13 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Explain how Edward Said's concept of \"Orientalism\" applies to the colonial construction of the Indian village as a \"self-sufficient, unchanging republic.\"",
     "answer": "Said's Orientalism argues that Western scholarship produced a systematic discourse representing the \"Orient\" as timeless, passive",
     "options": [
-     "Indology relies on textual analysis of classical scriptures (Vedas, Smritis, Dharmashastras) to reconstruct an idealized, pan-Indian civilizational structure",
+     "The statement is false. Village studies were *commissioned* by the Planning Commission and ICSSR to inform the Community Development Programme (1952) and Panchayati Raj (1959)",
      "The \"village republic\" thesis portrays the Indian village as a self-governing, economically self-sufficient, politically autonomous little republic",
      "Said's Orientalism argues that Western scholarship produced a systematic discourse representing the \"Orient\" as timeless, passive"
     ],
     "hint": "Straight from the 'intellectual context of Indian' slide -- match the key terms.",
     "misconception": "A wrong answer that merely defines Orientalism as \"Western study of the East\" misses the power/knowledge nexus — the student fails to see that concepts like \"village republic\" were not neutral descriptions but political tools, a confusion that undermines critical analysis of colonial archives in later nodes.",
-    "id": "gen_c12_soc_ch01_q15",
+    "id": "gen_c12_soc_ch01_q17",
     "nodeId": "c12_soc_cbse_01_005",
     "difficulty": "advanced"
    },
@@ -451,38 +547,8 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"problem of the village\"' slide -- match the key terms.",
     "misconception": "A wrong answer that conflates them as \"both disliked village studies\" misses how their theoretical commitments (hierarchy vs. distributive inequality) produce different alternative units.",
-    "id": "gen_c12_soc_ch01_q16",
-    "nodeId": "c12_soc_cbse_01_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare Louis Dumont's \"Homo Hierarchicus\" (universalist structuralism) and McKim Marriott's \"ethnosociology\" (particularist). How does each treat the relationship between Indian cultural concepts (e.g., purity/pollution) and social structure?",
-    "answer": "Dumont treats purity/pollution as the *universal cognitive structure* generating caste hierarchy — a single principle explaining all of India, comparable to Western individualism",
-    "options": [
-     "Dumont (structuralist) argued the village is not the relevant structural unit — caste (varna/jati) is",
-     "Introspection in psychology examines internal mental states; sociological self-reflexivity examines one's social location (class, caste, gender, religion",
-     "Dumont treats purity/pollution as the *universal cognitive structure* generating caste hierarchy — a single principle explaining all of India, comparable to Western individualism"
-    ],
-    "hint": "Straight from the 'debate between universalism and' slide -- match the key terms.",
-    "misconception": "A weak answer merely says \"Dumont is structuralist, Marriott is ethnosociologist\" without explaining how each links *cultural meaning* to *social structure* — the core of the universalism/particularism divide.",
-    "id": "gen_c12_soc_ch01_q17",
-    "nodeId": "c12_soc_cbse_01_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a research question on \"digital inequality in rural Rajasthan\" that deliberately adopts a particularist stance. Then rewrite it from a universalist stance. Explain the epistemological difference in one sentence.",
-    "answer": "Particularist: \"How do Marwari merchants' traditional trust networks (sakh/hundi) shape smartphone adoption and digital payment practices in Jodhpur villages?",
-    "options": [
-     "The statement is false. Village studies were *commissioned* by the Planning Commission and ICSSR to inform the Community Development Programme (1952) and Panchayati Raj (1959)",
-     "\"Historical sociology\" is more accurate: they use historical archives to build *sociological generalisations* about subaltern autonomy, consciousness",
-     "Particularist: \"How do Marwari merchants' traditional trust networks (sakh/hundi) shape smartphone adoption and digital payment practices in Jodhpur villages?"
-    ],
-    "hint": "Straight from the 'debate between universalism and' slide -- match the key terms.",
-    "misconception": "A weak answer gives two questions that differ only in wording, not in the *source of analytical categories*.",
     "id": "gen_c12_soc_ch01_q18",
-    "nodeId": "c12_soc_cbse_01_009",
+    "nodeId": "c12_soc_cbse_01_006",
     "difficulty": "advanced"
    }
   ],
@@ -1909,8 +1975,10 @@ export const C12_SOC_GEN: SimDef[] = [
   ],
   "nodeIds": [
    "c12_soc_cbse_05_002",
+   "c12_soc_cbse_05_003",
    "c12_soc_cbse_05_005",
    "c12_soc_cbse_05_006",
+   "c12_soc_cbse_05_007",
    "c12_soc_cbse_05_008",
    "c12_soc_cbse_05_009",
    "c12_soc_cbse_05_010"
@@ -1939,6 +2007,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
+    "title": "Social Exclusion",
+    "text": "Social exclusion is a systematic process by which individuals or groups are denied full access to rights, opportunities, resources, and participation in the normal activities of society — not due to individual failings but because of structural barriers",
+    "emoji": "👥",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Scheduled Castes And Scheduled Tribes Act,",
     "text": "The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989 is a comprehensive legislation that defines specific offences of atrocities against SC/ST communities, establishes Special Courts for speedy trial, mandates relief and",
     "emoji": "👥",
@@ -1949,6 +2023,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "text": "Adivasis (literally 'original inhabitants') are indigenous tribal communities in India constitutionally recognized as Scheduled Tribes, characterized by distinct cultural identities, languages, and a historical symbiotic relationship with forests and land,",
     "emoji": "👥",
     "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Marginalisation Of Tribes",
+    "text": "The marginalisation of tribes refers to the systematic historical and ongoing process by which Adivasi communities are dispossessed of their traditional forest rights, displaced by state-led and corporate development projects (dams, mines, industries), and",
+    "emoji": "👥",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Aged As a Marginalised Group",
@@ -1992,6 +2072,80 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Consider a Musahar (Dalit) family in rural Bihar: landless, illiterate, working as agricultural labourers for three generations. The youngest daughter, age 10, is malnourished, attends school irregularly, and has no access to a functioning PHC.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Third generation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Conversion point one",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "First generation",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Second generation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "Conversion point two",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A weak answer lists hardships without the causal chain between the forms of capital.",
+    "id": "gen_c12_soc_ch05_q2",
+    "nodeId": "c12_soc_cbse_05_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine two 14-year-olds in the same village: Rohan, son of a contractor, and Meena, daughter of a manual scavenger.",
+     "Both wake up at 5 AM.",
+     "Rohan cycles to a private school; Meena walks 3 km to a government school with no toilets.",
+     "At lunch, Rohan eats a packed meal; Meena drinks water to curb hunger."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Critically evaluate: \"The 2015 Amendment to the Atrocities Act, which added new offences and established Exclusive Special Courts, has significantly reduced atrocities against Dalits.\" Use NCRB data trends and sociological reasoning.",
     "answer": "Evaluation: The claim is not fully supported. NCRB data (2015-2022) shows reported atrocities *increased* post-2015 (e",
@@ -2002,7 +2156,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Scheduled Castes and Scheduled' slide -- match the key terms.",
     "misconception": "A wrong answer citing only raw case increase without distinguishing reporting effect from incidence, or ignoring structural factors, shows lack of critical data literacy.",
-    "id": "gen_c12_soc_ch05_q2",
+    "id": "gen_c12_soc_ch05_q3",
     "nodeId": "c12_soc_cbse_05_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -2065,7 +2219,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer offering only cash, housing plots, and job promises repeats the failed 'package' approach that treats displacement as a one-time transaction rather than ongoing alienation.",
-    "id": "gen_c12_soc_ch05_q3",
+    "id": "gen_c12_soc_ch05_q4",
     "nodeId": "c12_soc_cbse_05_006",
     "difficulty": "standard",
     "workedExample": [
@@ -2076,17 +2230,80 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "An APPLY level question: A Gram Sabha in a Schedule V area claims Community Forest Resource (CFR) rights under the Forest Rights Act (FRA) 2006 over a patch of forest that the Forest Department has proposed for a compensatory afforestation plantation to offset diversion for a mining project in another district.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The procedure",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "The protection",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The precedent",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The right",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer claiming reserved forests are exempt, or that only individual claims matter, ignores the Act's inclusion of all forest categories.",
+    "id": "gen_c12_soc_ch05_q5",
+    "nodeId": "c12_soc_cbse_05_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Begin with a real-world scenario: \"Imagine a Gond family in Bastar whose great-grandparents practiced shifting cultivation in forests now declared a",
+     "Guide them to map each moment to a legal instrument (colonial forest Act, Land Acquisition Act 1894, Wildlife Protection Act 1972 / Forest",
+     "Then introduce the concept of \"internal colonialism\" — how the post-colonial state replicated the extractive logic of the British.",
+     "End with the key insight: Adivasi marginalisation is not a relic of the past but an active, legally sanctioned process where forest laws, development"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Critique the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 from a social exclusion perspective. Does it address the structural causes of elder marginalisation?",
     "answer": "The Act provides legal recourse for elders to claim maintenance from children/relatives and mandates old-age homes in every district",
     "options": [
      "The social model argues that the child's blindness is an impairment, but the *disability* (exclusion from education) arises because the school lacks Braille materials and trained",
-     "The statement is flawed. The Act's enforcement architecture *itself* has gaps: (1) Chief Commissioner/State Commissioners (Sections 74-77) are recommendatory",
+     "(1) The right — the Forest Rights Act recognises community forest resource rights over customary common forest land within traditional village boundaries",
      "The Act provides legal recourse for elders to claim maintenance from children/relatives and mandates old-age homes in every district"
     ],
     "hint": "Straight from the 'aged as a marginalised group' slide -- match the key terms.",
     "misconception": "A wrong answer that praises the Act as 'comprehensive' misses its familialist bias and failure to address the political economy of care labor.",
-    "id": "gen_c12_soc_ch05_q4",
+    "id": "gen_c12_soc_ch05_q6",
     "nodeId": "c12_soc_cbse_05_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -2107,7 +2324,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'medical model of disability views' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"disability is caused by society's barriers\") shows confusion with the social model and inability to recall the model's core individualistic assumption.",
-    "id": "gen_c12_soc_ch05_q5",
+    "id": "gen_c12_soc_ch05_q7",
     "nodeId": "c12_soc_cbse_05_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -2181,7 +2398,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that accepts the university's claim without probing the \"essential requirements\" test shows the student does not understand that the Act shifts the burden of proof to the institution — a frequent board-exam trap.",
-    "id": "gen_c12_soc_ch05_q6",
+    "id": "gen_c12_soc_ch05_q8",
     "nodeId": "c12_soc_cbse_05_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -2190,6 +2407,131 @@ export const C12_SOC_GEN: SimDef[] = [
      "Next, walk through the Act's definition of \"discrimination\" (Section 3) and \"reasonable accommodation\" (Section 2(y)) to show that the Act demands",
      "Then map the student's barriers to specific sections: ramp gradient → Section 44 (accessibility standards), tactile signage → Section 40 (universal"
     ]
+   },
+   {
+    "type": "order",
+    "question": "Design a 4-indicator 'Social Exclusion Index' for a village study that captures cumulative deprivation across economic, cultural, social, and political dimensions. For each indicator, specify: (a) what it measures, (b) why it reflects cumulative (not just current) deprivation, and (c) one data source.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Cultural",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Political",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Social",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Economic",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Economic — households with no land and no regularly salaried member across two generations, from land records and",
+    "id": "gen_c12_soc_ch05_q9",
+    "nodeId": "c12_soc_cbse_05_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "An ANALYZE level question: Compare the displacement caused by the Sardar Sarovar Dam (Narmada) and the Polavaram Dam (Godavari) in terms of (a) the proportion of Adivasis among the displaced, (b) the adequacy of rehabilitation as per the prevailing policy at the time, and (c) the role of judicial intervention.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Judicial role",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Rehabilitation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Rehabilitation now",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The evolution",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s4",
+      "label": "The displaced",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) The displaced — Adivasis formed a large majority among those displaced by Sardar Sarovar and an even larger share",
+    "id": "gen_c12_soc_ch05_q10",
+    "nodeId": "c12_soc_cbse_05_007",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -2244,7 +2586,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who agrees with the statement misses the critical sociological insight: law reflects power relations; the Act is a *site of struggle*, not a finished victory.",
-    "id": "gen_c12_soc_ch05_q7",
+    "id": "gen_c12_soc_ch05_q11",
     "nodeId": "c12_soc_cbse_05_010",
     "difficulty": "advanced"
    },
@@ -2253,13 +2595,13 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "A teacher assumes a student from a particular region is \"naturally good at mathematics\" and gives them extra attention. Identify whether this is prejudice, stereotype, or discrimination — or a combination — and justify using NCERT definitions.",
     "answer": "This is primarily a positive stereotype (fixed belief about a group's trait) leading to positive prejudice (favourable pre-judgement) and discriminatory behaviour (unequal",
     "options": [
-     "The social model argues that the child's blindness is an impairment, but the *disability* (exclusion from education) arises because the school lacks Braille materials and trained",
+     "A robust framework would include: (1) Land-for-land in the same ecological zone with community title (not individual pattas), ensuring livelihood continuity",
      "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic",
      "This is primarily a positive stereotype (fixed belief about a group's trait) leading to positive prejudice (favourable pre-judgement) and discriminatory behaviour (unequal"
     ],
     "hint": "Straight from the 'Prejudice' slide -- match the key terms.",
     "misconception": "A wrong answer calling it \"just a compliment\" shows failure to grasp that stereotypes fix groups into homogenous categories (NCERT: \"They treat an entire community as though it were a single person\").",
-    "id": "gen_c12_soc_ch05_q8",
+    "id": "gen_c12_soc_ch05_q12",
     "nodeId": "c12_soc_cbse_05_002",
     "difficulty": "standard"
    },
@@ -2269,12 +2611,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "answer": "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic",
     "options": [
      "The owner holds a stereotype (all bachelors are noisy/destructive), a prejudice (negative pre-judgement applied to the applicant without knowing him)",
-     "The social model argues that the child's blindness is an impairment, but the *disability* (exclusion from education) arises because the school lacks Braille materials and trained",
+     "(1) First generation — landlessness forces the grandparents into bonded labour, keeping them out of school and unaware of their rights, (2) Second generation",
      "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic"
     ],
     "hint": "Straight from the 'Prejudice' slide -- match the key terms.",
     "misconception": "A poor answer shows only one mechanism or reverses the order, indicating the student hasn't internalised the sequence: cognitive shortcut → affective judgement → behavioural exclusion.",
-    "id": "gen_c12_soc_ch05_q9",
+    "id": "gen_c12_soc_ch05_q13",
     "nodeId": "c12_soc_cbse_05_002",
     "difficulty": "standard"
    },
@@ -2289,8 +2631,53 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Prejudice' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the owner's justification reveals the student thinks prejudice requires conscious malice, missing that it operates through seemingly \"rational\" stereotypes.",
-    "id": "gen_c12_soc_ch05_q10",
+    "id": "gen_c12_soc_ch05_q14",
     "nodeId": "c12_soc_cbse_05_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Consider a Musahar (Dalit) family in rural Bihar: landless, illiterate, working as agricultural labourers for three generations. The youngest daughter, age 10, is malnourished, attends school irregularly, and has no access to a functioning PHC.",
+    "answer": "(1) First generation — landlessness forces the grandparents into bonded labour, keeping them out of school and unaware of their rights, (2) Second generation",
+    "options": [
+     "The statement is flawed. The Act's enforcement architecture *itself* has gaps: (1) Chief Commissioner/State Commissioners (Sections 74-77) are recommendatory",
+     "(1) Economic — households with no land and no regularly salaried member across two generations, from land records and job-card history, (2) Cultural",
+     "(1) First generation — landlessness forces the grandparents into bonded labour, keeping them out of school and unaware of their rights, (2) Second generation"
+    ],
+    "hint": "Straight from the 'Social exclusion' slide -- match the key terms.",
+    "misconception": "A weak answer lists hardships without the causal chain between the forms of capital.",
+    "id": "gen_c12_soc_ch05_q15",
+    "nodeId": "c12_soc_cbse_05_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a 4-indicator 'Social Exclusion Index' for a village study that captures cumulative deprivation across economic, cultural, social, and political dimensions. For each indicator, specify: (a) what it measures, (b) why it reflects cumulative (not just current) deprivation, and (c) one data source.",
+    "answer": "(1) Economic — households with no land and no regularly salaried member across two generations, from land records and job-card history, (2) Cultural",
+    "options": [
+     "Evaluation: The claim is not fully supported. NCRB data (2015-2022) shows reported atrocities *increased* post-2015 (e",
+     "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic",
+     "(1) Economic — households with no land and no regularly salaried member across two generations, from land records and job-card history, (2) Cultural"
+    ],
+    "hint": "Straight from the 'Social exclusion' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Economic — households with no land and no regularly salaried member across two generations, from land records and",
+    "id": "gen_c12_soc_ch05_q16",
+    "nodeId": "c12_soc_cbse_05_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a rehabilitation framework for Adivasis displaced by a hydroelectric project that addresses both material and cultural dimensions of alienation. Specify at least three concrete provisions beyond monetary compensation.",
+    "answer": "A robust framework would include: (1) Land-for-land in the same ecological zone with community title (not individual pattas), ensuring livelihood continuity",
+    "options": [
+     "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic",
+     "(1) First generation — landlessness forces the grandparents into bonded labour, keeping them out of school and unaware of their rights, (2) Second generation",
+     "A robust framework would include: (1) Land-for-land in the same ecological zone with community title (not individual pattas), ensuring livelihood continuity"
+    ],
+    "hint": "Straight from the 'Adivasis' slide -- match the key terms.",
+    "misconception": "A poor answer offering only cash, housing plots, and job promises repeats the failed 'package' approach that treats displacement as a one-time transaction rather than ongoing alienation.",
+    "id": "gen_c12_soc_ch05_q17",
+    "nodeId": "c12_soc_cbse_05_006",
     "difficulty": "standard"
    },
    {
@@ -2299,104 +2686,14 @@ export const C12_SOC_GEN: SimDef[] = [
     "answer": "This argument reflects a majoritarian utilitarian logic that treats Adivasi lives as 'sacrifice zones'",
     "options": [
      "Accessibility is *general, anticipatory, and universal* — e.g., installing a ramp, providing Braille signage, ensuring website WCAG compliance",
-     "The social model argues that the child's blindness is an impairment, but the *disability* (exclusion from education) arises because the school lacks Braille materials and trained",
+     "(1) The displaced — Adivasis formed a large majority among those displaced by Sardar Sarovar and an even larger share by Polavaram, where hill tribes predominated",
      "This argument reflects a majoritarian utilitarian logic that treats Adivasi lives as 'sacrifice zones'"
     ],
     "hint": "Straight from the 'Adivasis' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the 'national interest' framing uncritically ignores how 'national development' is socially constructed to serve dominant class/regional interests.",
-    "id": "gen_c12_soc_ch05_q11",
+    "id": "gen_c12_soc_ch05_q18",
     "nodeId": "c12_soc_cbse_05_006",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A teacher says, \"We cannot admit a blind child because our school has no Braille books and our teachers aren't trained.\" Using the social model, explain why this statement reflects a societal failure, not the child's limitation.",
-    "answer": "The social model argues that the child's blindness is an impairment, but the *disability* (exclusion from education) arises because the school lacks Braille materials and trained",
-    "options": [
-     "The owner holds a stereotype (all bachelors are noisy/destructive), a prejudice (negative pre-judgement applied to the applicant without knowing him)",
-     "Evaluation: The claim is not fully supported. NCRB data (2015-2022) shows reported atrocities *increased* post-2015 (e",
-     "The social model argues that the child's blindness is an impairment, but the *disability* (exclusion from education) arises because the school lacks Braille materials and trained"
-    ],
-    "hint": "Straight from the 'medical model of disability views' slide -- match the key terms.",
-    "misconception": "A wrong answer that focuses on the child's blindness as the cause of exclusion reveals a medical-model mindset that naturalizes barriers as inevitable consequences of impairment.",
-    "id": "gen_c12_soc_ch05_q12",
-    "nodeId": "c12_soc_cbse_05_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Apply both models to this situation: A company refuses to hire a qualified deaf candidate, saying \"communication will be too difficult.\" List two specific barriers from the social-model perspective and two \"justifications\" the medical model would offer.",
-    "answer": "Social model barriers: (1) absence of sign-language interpreters or assistive tech in interviews/meetings, (2) workplace culture that equates spoken communication with competence",
-    "options": [
-     "Evaluation: The claim is not fully supported. NCRB data (2015-2022) shows reported atrocities *increased* post-2015 (e",
-     "A robust framework would include: (1) Land-for-land in the same ecological zone with community title (not individual pattas), ensuring livelihood continuity",
-     "Social model barriers: (1) absence of sign-language interpreters or assistive tech in interviews/meetings, (2) workplace culture that equates spoken communication with competence"
-    ],
-    "hint": "Straight from the 'medical model of disability views' slide -- match the key terms.",
-    "misconception": "A wrong answer that merges the two (e.g., \"the company is right because deafness causes communication problems\") fails to separate impairment from socially created barriers.",
-    "id": "gen_c12_soc_ch05_q13",
-    "nodeId": "c12_soc_cbse_05_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a 3-panel comic-strip concept (describe each panel in words) that teaches a Class 8 student the difference between the medical and social models using an Indian school setting. Panel 1: the problem; Panel 2: medical-model \"solution\"; Panel 3: social-model solution.",
-    "answer": "Panel 1: A girl with crutches stares at a staircase to her classroom; caption: \"Priya cannot reach her class",
-    "options": [
-     "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic",
-     "Social model barriers: (1) absence of sign-language interpreters or assistive tech in interviews/meetings, (2) workplace culture that equates spoken communication with competence",
-     "Panel 1: A girl with crutches stares at a staircase to her classroom; caption: \"Priya cannot reach her class"
-    ],
-    "hint": "Straight from the 'medical model of disability views' slide -- match the key terms.",
-    "misconception": "A poor answer shows only medical interventions (surgery, therapy) in all panels, revealing inability to conceptualize environmental modification as the social-model response.",
-    "id": "gen_c12_soc_ch05_q14",
-    "nodeId": "c12_soc_cbse_05_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the statement: \"The RPwD Act 2016 has made India fully accessible; the problem now is only implementation.\" Use evidence from the Act's enforcement architecture (Chapters X-XIII) and the NCERT's discussion of \"politics of accessibility.\"",
-    "answer": "The statement is flawed. The Act's enforcement architecture *itself* has gaps: (1) Chief Commissioner/State Commissioners (Sections 74-77) are recommendatory",
-    "options": [
-     "A robust framework would include: (1) Land-for-land in the same ecological zone with community title (not individual pattas), ensuring livelihood continuity",
-     "Evaluation: The claim is not fully supported. NCRB data (2015-2022) shows reported atrocities *increased* post-2015 (e",
-     "The statement is flawed. The Act's enforcement architecture *itself* has gaps: (1) Chief Commissioner/State Commissioners (Sections 74-77) are recommendatory"
-    ],
-    "hint": "Straight from the 'Rights of Persons with' slide -- match the key terms.",
-    "misconception": "A student who agrees with the statement misses the critical sociological insight: law reflects power relations; the Act is a *site of struggle*, not a finished victory.",
-    "id": "gen_c12_soc_ch05_q15",
-    "nodeId": "c12_soc_cbse_05_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words why \"reasonable accommodation\" (Section 2(y)) is not the same as \"accessibility\" (Section 2(b)), using a classroom example.",
-    "answer": "Accessibility is *general, anticipatory, and universal* — e.g., installing a ramp, providing Braille signage, ensuring website WCAG compliance",
-    "options": [
-     "This argument reflects a majoritarian utilitarian logic that treats Adivasi lives as 'sacrifice zones'",
-     "This is primarily a positive stereotype (fixed belief about a group's trait) leading to positive prejudice (favourable pre-judgement) and discriminatory behaviour (unequal",
-     "Accessibility is *general, anticipatory, and universal* — e.g., installing a ramp, providing Braille signage, ensuring website WCAG compliance"
-    ],
-    "hint": "Straight from the 'Rights of Persons with' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats them as synonyms (e.g., \"both mean making things accessible\") shows the student misses the legal distinction: accessibility is a *duty to the group* (non-derogable), while reasonable accommodation is a *duty to the individual* (subject to \"undue hardship\" defence).",
-    "id": "gen_c12_soc_ch05_q16",
-    "nodeId": "c12_soc_cbse_05_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "State the number of disability conditions recognised under the RPwD Act 2016 and name any four conditions that were *added* compared to the 1995 Act.",
-    "answer": "The RPwD Act 2016 recognises 21 disability conditions (Section 2(zc) read with the Schedule). Four conditions added beyond the 1995 Act's seven are: autism spectrum disorder",
-    "options": [
-     "The medical model defines disability as a biological/medical impairment within the individual that needs cure or rehabilitation; the problem is located in the person's body/mind",
-     "Prejudice is a pre-judgement or attitude (positive/negative) toward a group without evidence",
-     "The RPwD Act 2016 recognises 21 disability conditions (Section 2(zc) read with the Schedule). Four conditions added beyond the 1995 Act's seven are: autism spectrum disorder"
-    ],
-    "hint": "Straight from the 'Rights of Persons with' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"7 conditions\" or listing only the original seven) reveals the student is still operating with the outdated 1995 framework and has not grasped the Act's expanded scope — a critical error because many competitive-exam questions hinge on the expanded definition determining eligibility for",
-    "id": "gen_c12_soc_ch05_q17",
-    "nodeId": "c12_soc_cbse_05_010",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -4183,6 +4480,21 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student argues: \"The British built railways, so they modernised India. Colonialism had positive effects too.\" Using the NCERT's concept of 'capitalist colonialism', analyse this claim by identifying *whose* profit the railways served and *how* they restructured the Indian economy.",
+    "answer": "The railways were built to serve British capitalism: they linked interior raw-material zones (cotton, jute, coal) to ports (Bombay, Calcutta, Madras) for cheap export to Britain",
+    "options": [
+     "| Policy | Dhaka Muslin (Luxury) | Surat Shipbuilding (Strategic) | |---|---|---| | Tariff | British goods entered duty-free",
+     "The claim is misleading. Under Mahalwari, the village body (often dominated by dominant castes) was jointly liable for the total revenue demand",
+     "The railways were built to serve British capitalism: they linked interior raw-material zones (cotton, jute, coal) to ports (Bombay, Calcutta, Madras) for cheap export to Britain"
+    ],
+    "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
+    "misconception": "A wrong answer focusing only on \"railways helped travel/trade\" misses the sociological analysis of *unequal exchange* and *dependent development*.",
+    "id": "gen_c12_soc_ch08_q12",
+    "nodeId": "c12_soc_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "According to the NCERT, what is the vital difference between empire-building in pre-capitalist times and capitalist times regarding the economic base of the conquered territory?",
     "answer": "Pre-capitalist conquerors extracted tribute from the traditionally produced economic surplus without interfering with the economic base (land relations, crops, manufacturing)",
     "options": [
@@ -4192,7 +4504,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both took tribute\") reveals the student misses the core sociological distinction: colonialism as a *structural transformation* driven by capital accumulation, not just political domination.",
-    "id": "gen_c12_soc_ch08_q12",
+    "id": "gen_c12_soc_ch08_q13",
     "nodeId": "c12_soc_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4207,7 +4519,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
     "misconception": "A weak answer merely lists migrations without analysing the *capitalist coercion* and *legal framework* (penal laws) behind them.",
-    "id": "gen_c12_soc_ch08_q13",
+    "id": "gen_c12_soc_ch08_q14",
     "nodeId": "c12_soc_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4222,7 +4534,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
     "misconception": "A weak answer gives a vague cultural example (e.g., \"we speak English\") without structural analysis.",
-    "id": "gen_c12_soc_ch08_q14",
+    "id": "gen_c12_soc_ch08_q15",
     "nodeId": "c12_soc_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4237,7 +4549,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is partially true but sociologically incomplete. The British *did* introduce the nation-state form",
-    "id": "gen_c12_soc_ch08_q15",
+    "id": "gen_c12_soc_ch08_q16",
     "nodeId": "c12_soc_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4252,7 +4564,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
     "misconception": "A wrong answer that only says \"education created nationalists\" without explaining the *contradiction* (colonial practice vs. nationalist principle) shows superficial comprehension.",
-    "id": "gen_c12_soc_ch08_q16",
+    "id": "gen_c12_soc_ch08_q17",
     "nodeId": "c12_soc_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4267,21 +4579,6 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Colonial capitalism' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"British were hypocritical\" misses the structural point: the *legal architecture* of colonialism *required* differentiated citizenship to sustain profit flows.",
-    "id": "gen_c12_soc_ch08_q17",
-    "nodeId": "c12_soc_cbse_08_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Apply the concept of \"colonial city as a link between core and periphery\" to explain why Bombay, Calcutta, and Madras grew while Surat, Masulipatnam, Thanjavur, Dhaka, and Murshidabad declined. Your answer must identify the specific economic function each colonial city performed for British capitalism.",
-    "answer": "Bombay, Calcutta, and Madras were *port cities* designed for export of primary commodities (cotton, jute, coffee/indigo) and import of manufactured goods",
-    "options": [
-     "The railways were built to serve British capitalism: they linked interior raw-material zones (cotton, jute, coal) to ports (Bombay, Calcutta, Madras) for cheap export to Britain",
-     "| Policy | Dhaka Muslin (Luxury) | Surat Shipbuilding (Strategic) | |---|---|---| | Tariff | British goods entered duty-free",
-     "Bombay, Calcutta, and Madras were *port cities* designed for export of primary commodities (cotton, jute, coffee/indigo) and import of manufactured goods"
-    ],
-    "hint": "Straight from the 'Colonial capitalism' slide -- match the key terms.",
-    "misconception": "A wrong answer listing \"trade\" generically fails to distinguish *colonial port-enclave function* from *pre-colonial commercial function* — the former was structured by British capital's needs, the latter by indigenous merchant networks.",
     "id": "gen_c12_soc_ch08_q18",
     "nodeId": "c12_soc_cbse_08_002",
     "difficulty": "advanced"
@@ -4846,6 +5143,21 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Critique the statement: \"Modernisation inevitably leads to secularisation and the decline of religion.\" Use Indian evidence from the NCERT text to evaluate this classical modernisation theory claim.",
+    "answer": "The statement reflects classical modernisation theory (Weber, Parsons) but is empirically false in India",
+    "options": [
+     "Partial modernisation. Occupationally: achieved identity (UPSC merit), universalistic recruitment, bureaucratic role — all modern",
+     "The Thiyyas (not upper caste) consciously Westernised by appropriating British culture to critique caste hierarchy and pursue cosmopolitan modernity",
+     "The statement reflects classical modernisation theory (Weber, Parsons) but is empirically false in India"
+    ],
+    "hint": "Straight from the 'Modernisation' slide -- match the key terms.",
+    "misconception": "A wrong answer agreeing with the statement ignores the Indian specificity of \"multiple modernities\" and the co-existence thesis — a conceptual error that loses marks in both board long-answers and CUET assertion-reason questions.",
+    "id": "gen_c12_soc_ch09_q14",
+    "nodeId": "c12_soc_cbse_09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Define modernisation in sociological terms using any three features from Rudolph and Rudolph's conceptualisation.",
     "answer": "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science",
     "options": [
@@ -4855,7 +5167,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Modernisation' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"wearing jeans, using smartphones, speaking English\" reveals confusion between modernisation (deep structural/value change) and westernisation (external cultural adoption) — a classic board exam error where students conflate cultural forms with sociological processes.",
-    "id": "gen_c12_soc_ch09_q14",
+    "id": "gen_c12_soc_ch09_q15",
     "nodeId": "c12_soc_cbse_09_001",
     "difficulty": "standard"
    },
@@ -4870,7 +5182,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Sanskritisation' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a \"checklist\" understanding rather than a processual one.",
-    "id": "gen_c12_soc_ch09_q15",
+    "id": "gen_c12_soc_ch09_q16",
     "nodeId": "c12_soc_cbse_09_002",
     "difficulty": "standard"
    },
@@ -4885,36 +5197,21 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Sanskritisation' slide -- match the key terms.",
     "misconception": "A wrong answer conflates the two or treats Westernisation as \"modernisation\".",
-    "id": "gen_c12_soc_ch09_q16",
-    "nodeId": "c12_soc_cbse_09_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critically evaluate the statement: \"Sanskritisation empowers lower castes by allowing them to rise in the hierarchy.\" Use the Kumud Pawade example and the critique of \"positional vs structural change\".",
-    "answer": "The statement is partially true but sociologically misleading. Sanskritisation enables *positional* mobility for individuals/groups (Kumud Pawade becomes a Sanskrit teacher)",
-    "options": [
-     "The statement reflects classical modernisation theory (Weber, Parsons) but is empirically false in India",
-     "Technological adoption (tractors, DJ, LED) and institutional change (elected sarpanch) are necessary but not sufficient for modernisation",
-     "The statement is partially true but sociologically misleading. Sanskritisation enables *positional* mobility for individuals/groups (Kumud Pawade becomes a Sanskrit teacher)"
-    ],
-    "hint": "Straight from the 'Sanskritisation' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls it \"empowerment\" without the structural critique misses the core sociological insight.",
     "id": "gen_c12_soc_ch09_q17",
     "nodeId": "c12_soc_cbse_09_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Define Sanskritisation in M.N. Srinivas's own words, specifying the reference group and the typical direction of cultural emulation.",
-    "answer": "Sanskritisation is the process by which a low caste or tribe takes over the customs, rituals, beliefs, ideology and style of life of a high",
+    "question": "Construct a hypothetical case study of a tribal community in Central India that undergoes Sanskritisation. Specify: (1) the reference model, (2) three specific cultural changes they adopt, (3) the economic/political precondition, and (4) one likely gendered consequence for women in that community.",
+    "answer": "Example: The Gond tribe in Madhya Pradesh adopts the lifestyle of the locally dominant Rajput (Kshatriya) caste",
     "options": [
-     "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science",
-     "Westernisation is \"the changes brought about in Indian society and culture as a result of over 150 years of British rule, the term subsuming changes occurring at different levels",
-     "Sanskritisation is the process by which a low caste or tribe takes over the customs, rituals, beliefs, ideology and style of life of a high"
+     "Correct evaluation: The claim is largely valid. The Backward Classes Movement shifted focus to *secular* factors (education, political power, land rights)",
+     "The description reduces Sanskritisation to superficial symbols (language, dress) and misses (1) the *structural precondition*: an improvement in economic or political position (or",
+     "Example: The Gond tribe in Madhya Pradesh adopts the lifestyle of the locally dominant Rajput (Kshatriya) caste"
     ],
     "hint": "Straight from the 'Sanskritisation' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"any lower group copies any higher group\" misses the crucial specification of the *twice-born* (Brahmin, Kshatriya, Vaishya) as the normative reference model and ignores the Hindu-specific ritual hierarchy that Srinivas emphasised.",
+    "misconception": "A poor answer lists generic changes without linking to a specific reference model or precondition.",
     "id": "gen_c12_soc_ch09_q18",
     "nodeId": "c12_soc_cbse_09_002",
     "difficulty": "standard"
@@ -5678,15 +5975,15 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the \"procedure established by law\" (Article 21) with \"due process of law\" (US Constitution) and analyze how the Supreme Court expanded Article 21 to include substantive due process through the Basic Structure lens.",
-    "answer": "\"Procedure established by law\" originally meant any legislated procedure (A.K. Gopalan, 1950). In Maneka Gandhi (1978), the Court read \"procedure\" as \"fair, just",
+    "question": "A hypothetical Constitutional Amendment Bill seeks to replace the parliamentary system with a presidential system. Apply the Basic Structure Doctrine to decide if this amendment would be valid. Justify step-by-step.",
+    "answer": "Step 1: Identify the core feature at stake—parliamentary democracy (executive responsible to legislature)",
     "options": [
-     "Pre-1992, women's representation was negligible and voluntary. The Amendment mandates 33% reservation (including SC/ST women within that quota) and rotation of reserved seats",
-     "Panchayat Samiti (block level) coordinates Gram Panchayats, implements state schemes, and supervises development works",
-     "\"Procedure established by law\" originally meant any legislated procedure (A.K. Gopalan, 1950). In Maneka Gandhi (1978), the Court read \"procedure\" as \"fair, just"
+     "The statement is partially valid but sociologically incomplete. Coalition era (1989–2014): 9 governments in 25 years, frequent collapses (e",
+     "This is *not* judicial overreach but a faithful execution of the constitutional mandate. Article 37 says Directive Principles \"shall not be enforceable by any court\" but \"are",
+     "Step 1: Identify the core feature at stake—parliamentary democracy (executive responsible to legislature)"
     ],
     "hint": "Straight from the 'Indian Constitution' slide -- match the key terms.",
-    "misconception": "A wrong answer that claims Article 21 always had due process or that the basic structure doctrine played no role misses the interpretive leap and its doctrinal anchoring.",
+    "misconception": "A wrong answer that says \"Parliament can amend anything under Article 368\" ignores the judicial limitation established in 1973.",
     "id": "gen_c12_soc_ch10_q18",
     "nodeId": "c12_soc_cbse_10_002",
     "difficulty": "advanced"
@@ -6238,6 +6535,21 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A cultivator in a zamindari village in Bihar produces 1,200 kg of paddy. The zamindar demands 60% as rent. The zamindar must pay 90% of the collected rent to the state as land revenue. Calculate: (a) how much paddy the cultivator retains, (b) how much the zamindar keeps as net income, (c) how much goes to the state.",
+    "answer": "Steps: (1) Total produce = 1,200 kg. (2) Rent to zamindar = 60% of 1,200 = 720 kg. (3) Cultivator retains = 1,200 - 720 = 480 kg",
+    "options": [
+     "Individualisation means the farmer alone decides what to grow, buys inputs from private dealers (who replace state extension), and bears all losses",
+     "A strong answer would propose: (1) Green Box-compliant income support: Direct per-hectare payments (decoupled from production) to replace input subsidies",
+     "Steps: (1) Total produce = 1,200 kg. (2) Rent to zamindar = 60% of 1,200 = 720 kg. (3) Cultivator retains = 1,200 - 720 = 480 kg"
+    ],
+    "hint": "Straight from the 'The colonial agrarian structure in' slide -- match the key terms.",
+    "misconception": "A wrong answer that calculates state share as 90% of total produce (1,080 kg) shows misunderstanding of the two-stage extraction: the state's claim is on the rent collected by the zamindar, not on the total produce. This error ignores the intermediary role of the zamindar.",
+    "id": "gen_c12_soc_ch11_q12",
+    "nodeId": "c12_soc_cbse_11_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the condition of a tenant in a zamindari area (e.g., Bengal) with a tenant in a raiyatwari area (e.g., Madras) in the late 19th century. Identify two similarities and two differences in their economic vulnerability.",
     "answer": "Similarities: (1) Both paid high rents (50-75% of produce) and faced eviction risk. (2) Both were often from lower castes and lacked political power",
     "options": [
@@ -6247,7 +6559,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The colonial agrarian structure in' slide -- match the key terms.",
     "misconception": "A wrong answer that claims raiyatwari tenants were \"owners\" and zamindari tenants were \"slaves\" shows binary thinking — both systems produced exploitation, but through different mechanisms.",
-    "id": "gen_c12_soc_ch11_q12",
+    "id": "gen_c12_soc_ch11_q13",
     "nodeId": "c12_soc_cbse_11_001",
     "difficulty": "standard"
    },
@@ -6262,7 +6574,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The colonial agrarian structure in' slide -- match the key terms.",
     "misconception": "A poor answer that draws a single line \"Farmer → State\" for both systems shows inability to represent the layered extraction and the emergence of intermediary classes in raiyatwari areas.",
-    "id": "gen_c12_soc_ch11_q13",
+    "id": "gen_c12_soc_ch11_q14",
     "nodeId": "c12_soc_cbse_11_001",
     "difficulty": "standard"
    },
@@ -6277,7 +6589,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The colonial agrarian structure in' slide -- match the key terms.",
     "misconception": "A wrong answer that simply agrees or disagrees without nuance fails to see that both systems ultimately concentrated land control in the hands of a few (zamindars or rich ryots/moneylenders) and marginalised the actual tillers.",
-    "id": "gen_c12_soc_ch11_q14",
+    "id": "gen_c12_soc_ch11_q15",
     "nodeId": "c12_soc_cbse_11_001",
     "difficulty": "standard"
    },
@@ -6292,7 +6604,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Land reforms after independence' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"high limits\" ignores that evasion occurred even where limits were low, proving the problem was enforcement architecture, not numerical thresholds.",
-    "id": "gen_c12_soc_ch11_q15",
+    "id": "gen_c12_soc_ch11_q16",
     "nodeId": "c12_soc_cbse_11_002",
     "difficulty": "advanced"
    },
@@ -6307,38 +6619,23 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'White Revolution  was' slide -- match the key terms.",
     "misconception": "A wrong answer assuming \"landless families would control it because they are more numerous\" ignores how social capital and resource control translate into cooperative leadership.",
-    "id": "gen_c12_soc_ch11_q16",
+    "id": "gen_c12_soc_ch11_q17",
     "nodeId": "c12_soc_cbse_11_005",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Critically evaluate the statement: 'The circulation of migrant labour from Bihar to Punjab represents a win-win: Punjab farmers get cheap seasonal workers, and Bihar workers earn higher wages than at home.",
-    "answer": "The statement ignores structural coercion: migrants are 'footloose' not by choice but because home regions offer no viable livelihood (agrarian distress, landlessness)",
+    "question": "Design a dairy cooperative model for a tribal region in Jharkhand where: (i) households own 1-2 goats not cows/buffaloes, (ii) no all-weather roads, (iii) women do all animal care but men handle cash, (iv) nearest town is 40km.",
+    "answer": "Good answer: (1) Membership per animal (not per household) so women goat-keepers join directly. (2) Cluster-based collection: women's self-help groups collect at hamlet level",
     "options": [
-     "Upper-caste medium farmers would likely dominate because they have higher milk surplus (more marketable surplus), greater literacy, existing social networks",
-     "PMFBY provides crop insurance but has critical gaps: high actuarial premiums, delayed/denied claims, exclusion of tenant/sharecropper farmers (who are most vulnerable)",
-     "The statement ignores structural coercion: migrants are 'footloose' not by choice but because home regions offer no viable livelihood (agrarian distress, landlessness)"
+     "The statement is partially true but incomplete. Ceilings were indeed higher for dry/unproductive land (e",
+     "1) Women become primary cultivators and agricultural labourers, performing tasks previously done by men (ploughing, irrigation management, marketing)",
+     "Good answer: (1) Membership per animal (not per household) so women goat-keepers join directly. (2) Cluster-based collection: women's self-help groups collect at hamlet level"
     ],
-    "hint": "Straight from the 'Capitalist farming in rural India' slide -- match the key terms.",
-    "misconception": "A wrong answer that accepts the 'win-win' narrative fails to see how 'freedom' to migrate masks unfreedom in the labour contract.",
-    "id": "gen_c12_soc_ch11_q17",
-    "nodeId": "c12_soc_cbse_11_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the migration pattern of sugarcane harvesters in Maharashtra with that of brick-kiln workers in Uttar Pradesh. Identify one similarity and one difference in their recruitment and working conditions.",
-    "answer": "Similarity: Both are recruited through mukadams (labour contractors) who advance loans, creating debt-bondage-like dependence",
-    "options": [
-     "Similarities: (1) Both paid high rents (50-75% of produce) and faced eviction risk. (2) Both were often from lower castes and lacked political power",
-     "Supporting arguments: (1) Direct settlement gave cultivators proprietary rights and incentive to improve land",
-     "Similarity: Both are recruited through mukadams (labour contractors) who advance loans, creating debt-bondage-like dependence"
-    ],
-    "hint": "Straight from the 'Migration from rural areas' slide -- match the key terms.",
-    "misconception": "A wrong answer treating all migrant labour as homogeneous misses the crop-specific and industry-specific organisation of labour circulation.",
+    "hint": "Straight from the 'White Revolution  was' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Good answer: (1) Membership per animal (not per household) so women goat-keepers join directly.",
     "id": "gen_c12_soc_ch11_q18",
-    "nodeId": "c12_soc_cbse_11_007",
+    "nodeId": "c12_soc_cbse_11_005",
     "difficulty": "standard"
    }
   ],
@@ -6369,6 +6666,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "c12_soc_cbse_12_003",
    "c12_soc_cbse_12_004",
    "c12_soc_cbse_12_005",
+   "c12_soc_cbse_12_006",
    "c12_soc_cbse_12_007",
    "c12_soc_cbse_12_008",
    "c12_soc_cbse_12_009",
@@ -6421,6 +6719,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "text": "Informalisation of the workforce refers to the structural shift where an increasing proportion of workers are employed in the unorganised/informal sector — characterised by lack of job security, absence of social security benefits (provident fund, gratuity,",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Trade Unions In India",
+    "text": "Trade unions in India are formal organisations of workers formed to protect and promote their collective interests — primarily wages, working conditions, job security, and social security — through collective bargaining, legal advocacy, and, when necessary,",
+    "emoji": "👥",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "Industrial Labour In India Encompasses",
@@ -6592,6 +6896,69 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "Compare the political orientation of AITUC, INTUC, and CITU. How does each federation's party affiliation shape its strategy toward the state — collaboration, confrontation, or conditional cooperation? Give one historical example per federation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "CITU",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "INTUC",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "AITUC",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The strategic map",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who lumps all three together as left-wing unions misses this strategic divergence.",
+    "id": "gen_c12_soc_ch12_q6",
+    "nodeId": "c12_soc_cbse_12_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are a textile worker in Mumbai's Girangaon in 1982 — you earn ₹300/month, work 12-hour shifts with no safety gear, and your contractor",
+     "Datta Samant urging workers to strike for a union of their own choosing, not the management-approved one.",
+     "Why did 2.5 lakh workers risk starvation for nearly two years?",
+     "Start by mapping the timeline: 1920 AITUC forms under colonial labour unrest → 1947 INTUC splits as Congress seeks control → 1970 CITU emerges from"
+    ]
+   },
+   {
+    "type": "order",
     "question": "REMEMBER: List the three categories of vulnerable industrial labour discussed in this topic and name the primary legislation addressing each (one per category).",
     "sortItems": [
      {
@@ -6632,7 +6999,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Why wrong answers reveal misunderstanding: If a student names the Factories Act or Minimum Wages Act for all three, they confuse general labour laws with targeted legislation.",
-    "id": "gen_c12_soc_ch12_q6",
+    "id": "gen_c12_soc_ch12_q7",
     "nodeId": "c12_soc_cbse_12_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -6684,7 +7051,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that cites only IT growth ignores the *quality* and *security* dimensions NCERT emphasises — the central sociological critique.",
-    "id": "gen_c12_soc_ch12_q7",
+    "id": "gen_c12_soc_ch12_q8",
     "nodeId": "c12_soc_cbse_12_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -6736,7 +7103,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answer: 'BPO jobs are secure because they're office work' — ignores NCERT's evidence that 'more and more companies are reducing permanent employees and outsourcing'.",
-    "id": "gen_c12_soc_ch12_q8",
+    "id": "gen_c12_soc_ch12_q9",
     "nodeId": "c12_soc_cbse_12_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -6757,7 +7124,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Women in the industrial workforce' slide -- match the key terms.",
     "misconception": "A wrong answer attributing low wages only to 'low skill' or 'lack of education' reveals the student ignores the gendered power dynamic and employer strategy that exploits gender stereotypes to suppress labour costs.",
-    "id": "gen_c12_soc_ch12_q9",
+    "id": "gen_c12_soc_ch12_q10",
     "nodeId": "c12_soc_cbse_12_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -6809,7 +7176,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer listing only \"he might be evicted\" fails to connect the *economic logic* (cheap labour needs cheap housing near work) with the *political logic* (slums as vote banks).",
-    "id": "gen_c12_soc_ch12_q10",
+    "id": "gen_c12_soc_ch12_q11",
     "nodeId": "c12_soc_cbse_12_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -6818,6 +7185,74 @@ export const C12_SOC_GEN: SimDef[] = [
      "Begin by asking: \"Why did the city that grew *because* of these workers push them out?",
      "The key insight is that slums are not \"problems of the poor\" but structural outcomes of how industrial capitalism organises space and labour — the"
     ]
+   },
+   {
+    "type": "order",
+    "question": "Design a union organising strategy for home-based women bidi rollers in Nipani (Karnataka) described in the NCERT. Your strategy must address: (a) the piece-rate payment system, (b) the contractor's control over raw materials and product collection, (c) the workers' domestic responsibilities, and (d) the lack of a",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The form",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The meeting space",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The scale",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "The tangible benefit",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "The legal lever",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer proposes registering a union, which is legally impossible without an employer.",
+    "id": "gen_c12_soc_ch12_q12",
+    "nodeId": "c12_soc_cbse_12_006",
+    "difficulty": "standard"
    },
    {
     "type": "order",
@@ -6861,7 +7296,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Why wrong answers reveal misunderstanding: Students who say “the Act is good but not implemented” miss the design flaws (thresholds, no portability).",
-    "id": "gen_c12_soc_ch12_q11",
+    "id": "gen_c12_soc_ch12_q13",
     "nodeId": "c12_soc_cbse_12_007",
     "difficulty": "advanced"
    },
@@ -6918,7 +7353,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer accepting \"market forces\" ignores the *state's active role* in changing land-use rules to favour capital — a classic case of policy capture, not invisible hand.",
-    "id": "gen_c12_soc_ch12_q12",
+    "id": "gen_c12_soc_ch12_q14",
     "nodeId": "c12_soc_cbse_12_011",
     "difficulty": "advanced"
    },
@@ -6928,12 +7363,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "answer": "The claim is partially correct: industrialization led to greater equality in public spheres like transport (caste distinctions don't matter on trains/buses) and cyber cafes",
     "options": [
      "Just-in-time creates a double discipline: (1) Maruti's permanent workers must \"run to keep up\" when delayed parts arrive, intensifying labour pace without wage increase",
-     "(1) Migrant labour → Inter-State Migrant Workmen (Regulation of Employment and Conditions of Service) Act, 1979",
+     "(1) The form — a worker-producer cooperative rather than a union, since no single employer exists, and it bargains over piece rates while cutting out the contractor's margin",
      "The claim is partially correct: industrialization led to greater equality in public spheres like transport (caste distinctions don't matter on trains/buses) and cyber cafes"
     ],
     "hint": "Straight from the 'Industrial Revolution in Europe' slide -- match the key terms.",
     "misconception": "A wrong answer that says 'industrialization brought complete equality' ignores the NCERT's explicit statement that economic inequality is growing and social inequalities overlap with income inequality.",
-    "id": "gen_c12_soc_ch12_q13",
+    "id": "gen_c12_soc_ch12_q15",
     "nodeId": "c12_soc_cbse_12_002",
     "difficulty": "standard"
    },
@@ -6948,7 +7383,22 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Industrial Revolution in Europe' slide -- match the key terms.",
     "misconception": "A wrong answer that outright accepts or rejects the thesis without nuance fails to engage with the sociological debate on structure vs. agency.",
-    "id": "gen_c12_soc_ch12_q14",
+    "id": "gen_c12_soc_ch12_q16",
+    "nodeId": "c12_soc_cbse_12_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a brief research plan (2-3 steps) to investigate whether the 'convergence thesis' holds true for the IT sector in contemporary India, specifying what data you would collect and how you would analyze it.",
+    "answer": "A strong plan might: (1) Select IT firms in Bengaluru and comparable firms in the USA/China",
+    "options": [
+     "Self-employment in India is predominantly \"own-account work\" in the informal sector — home-based bidi rollers, street vendors, petty artisans",
+     "Kerr's thesis emphasizes technological determinism: industrial logic (division of labour, bureaucracy, urbanization) produces similar social structures across cultures",
+     "A strong plan might: (1) Select IT firms in Bengaluru and comparable firms in the USA/China"
+    ],
+    "hint": "Straight from the 'Industrial Revolution in Europe' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A strong plan might: (1) Select IT firms in Bengaluru and comparable firms in the USA/China; (2) Collect data on work",
+    "id": "gen_c12_soc_ch12_q17",
     "nodeId": "c12_soc_cbse_12_002",
     "difficulty": "standard"
    },
@@ -6963,53 +7413,8 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Industrialisation in India' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the 'traditional skill' narrative fails to see how employers exploit social identities to fragment the working class.",
-    "id": "gen_c12_soc_ch12_q15",
-    "nodeId": "c12_soc_cbse_12_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the labour process in a 1940s Kanpur cotton mill (as described by Ramcharan) with that in a 1990s Maruti Udyog assembly line. Identify two continuities and one critical difference in how 'machine pace' governs the worker's body and time.",
-    "answer": "Continuities: (1) Workers' movements are synchronised to the machine cycle (loom/assembly line), leaving no autonomy",
-    "options": [
-     "(a) Maruti worker: pace set by assembly line (2 cars/min), zero autonomy; bidi roller: self-paced but piece-rate pressure creates internalised speed-up",
-     "Similarities: (1) Both face intensified work rhythms — textile workers \"extensions of the machine,\" IT workers \"time slavery\" with 10-12 hour days and night-outs",
-     "Continuities: (1) Workers' movements are synchronised to the machine cycle (loom/assembly line), leaving no autonomy"
-    ],
-    "hint": "Straight from the 'Industrialisation in India' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on 'both are tiring' misses the shift from personalistic to structural coercion.",
-    "id": "gen_c12_soc_ch12_q16",
-    "nodeId": "c12_soc_cbse_12_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the working conditions of a permanent worker in a large coal mine (covered by Mines Act 1952) with a sub-contracted worker in a small quarry. Identify three specific legal protections the permanent worker has that the sub-contracted worker typically lacks, and explain why sub-contracting allows employers to",
-    "answer": "1) Permanent worker: guaranteed maximum weekly hours, overtime pay, safety regulations enforcement",
-    "options": [
-     "Continuities: (1) Intermediary contractor controls hiring, discipline, and wage advances; (2) Workers from same region/community, enabling social pressure",
-     "Continuities: (1) Workers' movements are synchronised to the machine cycle (loom/assembly line), leaving no autonomy",
-     "1) Permanent worker: guaranteed maximum weekly hours, overtime pay, safety regulations enforcement"
-    ],
-    "hint": "Straight from the 'growth of the working class' slide -- match the key terms.",
-    "misconception": "A wrong answer listing only \"low wages\" misses the legal-structural mechanism: sub-contracting fragments the employment relationship to bypass labour law.",
-    "id": "gen_c12_soc_ch12_q17",
-    "nodeId": "c12_soc_cbse_12_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a fictional but realistic profile of a home-based agarbatti roller in Tamil Nadu. Include: caste, gender, age, wage calculation (piece-rate), daily hours, health hazard, and one way her condition differs from a factory-based roller. Write it as a sociological vignette (4–5 sentences).",
-    "answer": "A good vignette: \"Lakshmi, 38, Dalit, rolls 1,200 agarbattis/day at ₹0.50 per 100 sticks, earning ₹6/day",
-    "options": [
-     "Self-employment in India is predominantly \"own-account work\" in the informal sector — home-based bidi rollers, street vendors, petty artisans",
-     "Correct critique: Convergence thesis fails because *structure differs* — developed nations have <10% in agriculture, India has 43%",
-     "A good vignette: \"Lakshmi, 38, Dalit, rolls 1,200 agarbattis/day at ₹0.50 per 100 sticks, earning ₹6/day"
-    ],
-    "hint": "Straight from the 'growth of the working class' slide -- match the key terms.",
-    "misconception": "A poor answer omits caste/gender, uses vague wages, or fails to contrast with factory conditions — showing inability to apply the composition/wages/conditions framework.",
     "id": "gen_c12_soc_ch12_q18",
-    "nodeId": "c12_soc_cbse_12_004",
+    "nodeId": "c12_soc_cbse_12_003",
     "difficulty": "advanced"
    }
   ],
@@ -8770,15 +9175,15 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "The NCERT states: \"Mass media functions through very large organisations with major investments and large body of employees.\" Explain why this organisational feature means mass media cannot be purely a neutral reflector of society.",
-    "answer": "Because large organisations have hierarchical decision-making, profit or state mandates, and gatekeeping routines, they inevitably select, frame, and prioritise content",
+    "question": "Design a 5-minute audio segment for a community FM station that illustrates the dialectical relationship between media and society: show how the programme both reflects local culture and actively shapes listeners' attitudes toward a social issue (e.",
+    "answer": "A strong answer will structure the segment as: (1) opening with a local folk song reflecting culture",
     "options": [
-     "Disintermediation removes the need for a dedicated broadcaster as intermediary. Two functions shifting to WhatsApp: (1) hyperlocal alerts (missing children",
-     "During Emergency, the Press Council was abolished (1975) and censorship imposed via executive order — showing state power can override any statutory body",
-     "Because large organisations have hierarchical decision-making, profit or state mandates, and gatekeeping routines, they inevitably select, frame, and prioritise content"
+     "It qualifies as mass media because it uses technology to reach a large, anonymous audience (thousands of villagers) simultaneously through a one-to-many flow",
+     "The claim is flawed. While *circulation* grew (2006–2016 CAGR 4.87%), *advertising revenue share* shifted to digital",
+     "A strong answer will structure the segment as: (1) opening with a local folk song reflecting culture"
     ],
     "hint": "Straight from the 'Mass media' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"organisations just deliver what people want\" misses the structural power of gatekeepers (editors, owners, regulators) to shape the agenda.",
+    "misconception": "A poor answer produces a one-way lecture without showing the two-way influence.",
     "id": "gen_c12_soc_ch14_q18",
     "nodeId": "c12_soc_cbse_14_001",
     "difficulty": "standard"
@@ -8809,11 +9214,13 @@ export const C12_SOC_GEN: SimDef[] = [
    "c12_soc_cbse_15_001",
    "c12_soc_cbse_15_002",
    "c12_soc_cbse_15_003",
+   "c12_soc_cbse_15_004",
    "c12_soc_cbse_15_005",
    "c12_soc_cbse_15_006",
    "c12_soc_cbse_15_007",
    "c12_soc_cbse_15_008",
    "c12_soc_cbse_15_009",
+   "c12_soc_cbse_15_010",
    "c12_soc_cbse_15_011"
   ],
   "emoji": "👥",
@@ -8852,6 +9259,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Peasant Movements In India Refer",
+    "text": "The peasant movements in India refer to collective agrarian struggles by cultivators against exploitative land tenure systems, revenue demands, and feudal oppression.",
+    "emoji": "👥",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
     "title": "Tribal Movement In India",
     "text": "The Tribal Movement in India refers to sustained collective action by Adivasi communities against colonial and post-colonial exploitation, characterised by resistance to land alienation, forest rights denial, cultural suppression, and economic",
     "emoji": "👥",
@@ -8878,6 +9291,12 @@ export const C12_SOC_GEN: SimDef[] = [
    {
     "title": "Environmental Movement In India",
     "text": "The Environmental Movement in India refers to collective actions by communities, activists, and NGOs to protect natural resources and ecosystems from destructive development projects, exemplified by the Chipko Movement (1973) where villagers hugged trees to",
+    "emoji": "👥",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Workers' Movement In India",
+    "text": "The Workers' Movement in India refers to the organized collective struggles of industrial labour — beginning with spontaneous protests in colonial factories, evolving into structured trade unionism (AITUC, INTUC, and later political-party-affiliated unions),",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
    },
@@ -8915,8 +9334,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "REMEMBER: List the five types of social movements in the NCERT typology and give one Indian example for each.",
     "answer": "1) Reformist – Right to Information campaign; 2) Revolutionary – Naxalite movement; 3) Redemptive – Narayana Guru’s Ezhava movement; 4) Resistance – Chipko movement",
     "options": [
+     "The claim is partially correct but reductionist. Both emerged in Maharashtra and asserted Dalit identity",
      "A good answer produces a 3x3 grid: - Pre-Ambedkar: Reformative → Phule's schools for untouchables; Redemptive → Satnami rejection of Brahmin rituals",
-     "This violates two Indra Sawhney principles: (1) the 50% ceiling on total reservation (68% > 50%)",
      "1) Reformist – Right to Information campaign; 2) Revolutionary – Naxalite movement; 3) Redemptive – Narayana Guru’s Ezhava movement; 4) Resistance – Chipko movement"
     ],
     "hint": "Straight from the 'Social movements' slide -- match the key terms.",
@@ -8938,7 +9357,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "options": [
      "The Mandal Commission used 11 indicators grouped into three categories: Social (3 indicators: castes considered low by others, dependence on manual labour, early marriage)",
      "The immediate trigger was the government’s auction of the Reni forest to commercial contractors in 1973",
-     "Namdeo Dhasal posits that social movements arise when a group feels a discrepancy between their value expectations and value capabilities",
+     "Redemptive posits that social movements arise when a group feels a discrepancy between their value expectations and value capabilities",
      "Relative Deprivation Theory posits that social movements arise when a group feels a discrepancy between their value expectations and value capabilities"
     ],
     "hint": "Straight from the 'Theories of social movements' slide -- match the key terms.",
@@ -8951,6 +9370,69 @@ export const C12_SOC_GEN: SimDef[] = [
      "Why did the movement attract urban environmentalists?",
      "Start by asking: what triggers collective action?",
      "Introduce Relative Deprivation as the \"psychological spark\" — perceived injustice."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Design a 4-row comparison table with columns: Movement, Region & Period, Primary Participants, Key Demand, Leadership & Method. Fill it for Tebhaga, Telangana, and New Farmers' Movements (treat as one row).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "New farmers' movements",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Tebhaga",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Telangana",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The inferred 2020s movement",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer copies the new-farmers row without the legal-MSP demand and newer repertoires.",
+    "id": "gen_c12_soc_ch15_q4",
+    "nodeId": "c12_soc_cbse_15_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Start with a relatable scenario: \"Imagine you are a sharecropper in 1946 Bengal — you till the land, sow the seeds, and harvest the crop, but the",
+     "You hear neighbors whispering about a movement demanding two-thirds share.",
+     "What risks would you face?\" This hooks students into the lived reality behind abstract categories.",
+     "Then guide them to identify the three movements on a timeline (colonial Bengal, princely Hyderabad, post-Green Revolution Punjab/TN)."
     ]
    },
    {
@@ -9006,7 +9488,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that says \"Yes, it was ecological\" or \"No, it was political\" fails to grasp the *intersectionality* that makes Indian tribal movements distinct from Western \"new social movements.\"",
-    "id": "gen_c12_soc_ch15_q4",
+    "id": "gen_c12_soc_ch15_q5",
     "nodeId": "c12_soc_cbse_15_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -9027,7 +9509,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dalit Movement' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Dalit means Scheduled Caste\" or \"Dalit refers to economic poverty only\") reveals the student misses the political and epistemic rupture the term performs — it rejects the religious legitimation of untouchability.",
-    "id": "gen_c12_soc_ch15_q5",
+    "id": "gen_c12_soc_ch15_q6",
     "nodeId": "c12_soc_cbse_15_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -9046,7 +9528,7 @@ export const C12_SOC_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer (e.g., \"only caste names\" or \"income alone\") reveals the student thinks identification was purely ritual or economic, missing the Commission's multi-dimensional approach to capture *structural* backwardness.",
-    "id": "gen_c12_soc_ch15_q6",
+    "id": "gen_c12_soc_ch15_q7",
     "nodeId": "c12_soc_cbse_15_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -9097,7 +9579,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that frames it simply as 'Hindu vs Muslim' or 'court vs parliament' misses the triadic constitutional tension central to Class 12 Political Science (c11_ps_cbse_08_009) and Sociology's analysis of social movements engaging the state.",
-    "id": "gen_c12_soc_ch15_q7",
+    "id": "gen_c12_soc_ch15_q8",
     "nodeId": "c12_soc_cbse_15_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -9149,7 +9631,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that sees NBA as only a “dam opposition” without the rights/legal dimension misses its evolution of the ecological justice framework.",
-    "id": "gen_c12_soc_ch15_q8",
+    "id": "gen_c12_soc_ch15_q9",
     "nodeId": "c12_soc_cbse_15_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -9157,6 +9639,69 @@ export const C12_SOC_GEN: SimDef[] = [
      "Would you hug the trees?",
      "This real dilemma faced by Chipko villagers reveals how environmental struggles are never just about trees; they are about survival, identity, and",
      "Begin by listing the three dimensions Chipko activists raised: subsistence economy vs."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Create a conceptual map showing how the Bombay Textile Strike (1981-82) connects to THREE contemporary 'new labour struggles' in India. For each connection, name the struggle, the structural cause linking them, and the new form of organisation (if any).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Gig workers' protests",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The connecting thread",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Scheme workers' movements",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The Maruti Manesar struggle",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer lists random strikes without identifying the structural continuity or the organisational innovation.",
+    "id": "gen_c12_soc_ch15_q10",
+    "nodeId": "c12_soc_cbse_15_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are a textile mill worker in Bombay in 1982: you haven't been paid for months, your union leaders are negotiating behind closed doors,",
+     "Why did the longest industrial strike in Indian history end in defeat?",
+     "Start by mapping the three phases: colonial spontaneity (pre-1920), institutionalized unionism (1920-1980), and the crisis of traditional unions",
+     "Connect each phase to the political economy: colonial export-oriented industrialization, nationalist mobilization, post-Independence state-led"
     ]
    },
    {
@@ -9212,7 +9757,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer listing only 'environment' or only 'livelihood' misses the NCERT's core argument that Indian movements are hybrid — the 'red' (class) and 'green' (ecology) issues are interlinked for participants.",
-    "id": "gen_c12_soc_ch15_q9",
+    "id": "gen_c12_soc_ch15_q11",
     "nodeId": "c12_soc_cbse_15_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -9275,7 +9820,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists only dates without showing the *causal chain*: literacy → historical consciousness → organisational capacity → political representation → statehood.",
-    "id": "gen_c12_soc_ch15_q10",
+    "id": "gen_c12_soc_ch15_q12",
     "nodeId": "c12_soc_cbse_15_005",
     "difficulty": "advanced"
    },
@@ -9290,7 +9835,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social movements' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student agrees, they treat typology as mutually exclusive boxes rather than analytical lenses. The NCERT explicitly states: “most movements have a mix… orientation may shift over time.”",
-    "id": "gen_c12_soc_ch15_q11",
+    "id": "gen_c12_soc_ch15_q13",
     "nodeId": "c12_soc_cbse_15_002",
     "difficulty": "advanced"
    },
@@ -9299,14 +9844,29 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Critique: \"Relative Deprivation Theory cannot explain why the Dalit movement in Maharashtra turned to religious conversion (Buddhism) in 1956.\" Evaluate this statement.",
     "answer": "The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice) but not the specific cultural-religious strategy",
     "options": [
-     "This violates two Indra Sawhney principles: (1) the 50% ceiling on total reservation (68% > 50%)",
+     "A good answer produces a 3x3 grid: - Pre-Ambedkar: Reformative → Phule's schools for untouchables; Redemptive → Satnami rejection of Brahmin rituals",
      "The claim is partially correct but reductionist. Both emerged in Maharashtra and asserted Dalit identity",
      "The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice) but not the specific cultural-religious strategy"
     ],
     "hint": "Straight from the 'Theories of social movements' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice)",
-    "id": "gen_c12_soc_ch15_q12",
+    "id": "gen_c12_soc_ch15_q14",
     "nodeId": "c12_soc_cbse_15_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a 4-row comparison table with columns: Movement, Region & Period, Primary Participants, Key Demand, Leadership & Method. Fill it for Tebhaga, Telangana, and New Farmers' Movements (treat as one row).",
+    "answer": "(1) Tebhaga — Bengal, mid-forties, sharecroppers demanding two-thirds of the produce, led by the Kisan Sabha through mass non-violent mobilisation, (2) Telangana",
+    "options": [
+     "Dikus are migrant traders and moneylenders who settled in the Chota Nagpur region during colonial rule, grabbed Adivasi land through debt traps and legal manipulation",
+     "The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice) but not the specific cultural-religious strategy",
+     "(1) Tebhaga — Bengal, mid-forties, sharecroppers demanding two-thirds of the produce, led by the Kisan Sabha through mass non-violent mobilisation, (2) Telangana"
+    ],
+    "hint": "Straight from the 'peasant movements in India refer' slide -- match the key terms.",
+    "misconception": "A poor answer copies the new-farmers row without the legal-MSP demand and newer repertoires.",
+    "id": "gen_c12_soc_ch15_q15",
+    "nodeId": "c12_soc_cbse_15_004",
     "difficulty": "advanced"
    },
    {
@@ -9315,12 +9875,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "answer": "Dikus are migrant traders and moneylenders who settled in the Chota Nagpur region during colonial rule, grabbed Adivasi land through debt traps and legal manipulation",
     "options": [
      "The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice) but not the specific cultural-religious strategy",
-     "The claim is partially correct but reductionist. Both emerged in Maharashtra and asserted Dalit identity",
+     "(1) Tebhaga — Bengal, mid-forties, sharecroppers demanding two-thirds of the produce, led by the Kisan Sabha through mass non-violent mobilisation, (2) Telangana",
      "Dikus are migrant traders and moneylenders who settled in the Chota Nagpur region during colonial rule, grabbed Adivasi land through debt traps and legal manipulation"
     ],
     "hint": "Straight from the 'Tribal Movement in India' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"the British left so exploitation ended\" reveals a failure to understand the continuity of class/ethnic exploitation beyond formal colonialism.",
-    "id": "gen_c12_soc_ch15_q13",
+    "id": "gen_c12_soc_ch15_q16",
     "nodeId": "c12_soc_cbse_15_005",
     "difficulty": "advanced"
    },
@@ -9329,74 +9889,29 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Create a timeline diagram (describe it in words) that shows how *literacy* and *print culture* transformed the Jharkhand Movement from Birsa Munda's death (1900) to statehood (2000). Include at least four specific milestones.",
     "answer": "A strong answer describes a timeline with these milestones: (1) 1900–1920s: Christian missionaries spread literacy; Adivasi converts write down oral histories/myths",
     "options": [
-     "This argument is flawed because SC/ST backwardness originates in *untouchability* and *isolation* — disabilities that persist regardless of income (e",
+     "This violates two Indra Sawhney principles: (1) the 50% ceiling on total reservation (68% > 50%)",
      "1) Reformist – Right to Information campaign; 2) Revolutionary – Naxalite movement; 3) Redemptive – Narayana Guru’s Ezhava movement; 4) Resistance – Chipko movement",
      "A strong answer describes a timeline with these milestones: (1) 1900–1920s: Christian missionaries spread literacy; Adivasi converts write down oral histories/myths"
     ],
     "hint": "Straight from the 'Tribal Movement in India' slide -- match the key terms.",
     "misconception": "A poor answer lists only dates without showing the *causal chain*: literacy → historical consciousness → organisational capacity → political representation → statehood.",
-    "id": "gen_c12_soc_ch15_q14",
+    "id": "gen_c12_soc_ch15_q17",
     "nodeId": "c12_soc_cbse_15_005",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "A student argues: \"The Dalit Panthers were just a violent offshoot of the Mahar Movement; both wanted the same things but the Panthers used force.\" Apply the NCERT distinction between the two movements to evaluate this claim.",
-    "answer": "The claim is partially correct but reductionist. Both emerged in Maharashtra and asserted Dalit identity",
+    "question": "Evaluate the claim: \"The Jharkhand Movement was primarily an ecological movement because it opposed mining and deforestation.\" Use evidence from the NCERT to support or refute.",
+    "answer": "The claim is *partially true but reductionist*. The NCERT lists four issues: (1) land acquisition for irrigation/firing ranges, (2) survey/settlement operations",
     "options": [
-     "1) Reformist – Right to Information campaign; 2) Revolutionary – Naxalite movement; 3) Redemptive – Narayana Guru’s Ezhava movement; 4) Resistance – Chipko movement",
-     "The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice) but not the specific cultural-religious strategy",
-     "The claim is partially correct but reductionist. Both emerged in Maharashtra and asserted Dalit identity"
-    ],
-    "hint": "Straight from the 'Dalit Movement' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates them misses the Panthers' explicit rejection of \"parliamentary democracy\" as captured by elites (Rajni Kothari's thesis) and their focus on cultural production as resistance.",
-    "id": "gen_c12_soc_ch15_q15",
-    "nodeId": "c12_soc_cbse_15_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze how the Dalit Movement blurs the distinction between \"old\" and \"new\" social movements as discussed in NCERT section 8.3.",
-    "answer": "Old social movements were class-based, party-linked, and focused on power redistribution (e.g., workers' movements)",
-    "options": [
+     "The 27% figure was calculated to stay within the 50% ceiling (22.5% + 27% = 49.5%) while proportionally representing OBCs' estimated 52% population share",
      "Guha argues that villagers depended on the forest for subsistence (firewood, fodder) — a “red” issue of livelihood inequality against commercial logging for profit",
-     "The Mahar Movement under Ambedkar sought legal reforms (temple entry, water access, political representation) — reformative",
-     "Old social movements were class-based, party-linked, and focused on power redistribution (e.g., workers' movements)"
+     "The claim is *partially true but reductionist*. The NCERT lists four issues: (1) land acquisition for irrigation/firing ranges, (2) survey/settlement operations"
     ],
-    "hint": "Straight from the 'Dalit Movement' slide -- match the key terms.",
-    "misconception": "A wrong answer that places it neatly in one category ignores the text's emphasis on Indian movements combining \"questions of social inequality... alongside other, equally important, issues.\"",
-    "id": "gen_c12_soc_ch15_q16",
-    "nodeId": "c12_soc_cbse_15_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a conceptual diagram showing the three strands (reformative, redemptive, revolutionary) in the Dalit Movement across three phases: Pre-Ambedkar (Jotiba Phule, Satnami), Ambedkar-era (Mahar Movement, 1920s-1956), Post-Ambedkar (Dalit Panthers, 1970s; BSP, 1980s).",
-    "answer": "A good answer produces a 3x3 grid: - Pre-Ambedkar: Reformative → Phule's schools for untouchables; Redemptive → Satnami rejection of Brahmin rituals",
-    "options": [
-     "The claim is partially correct but reductionist. Both emerged in Maharashtra and asserted Dalit identity",
-     "The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice) but not the specific cultural-religious strategy",
-     "A good answer produces a 3x3 grid: - Pre-Ambedkar: Reformative → Phule's schools for untouchables; Redemptive → Satnami rejection of Brahmin rituals"
-    ],
-    "hint": "Straight from the 'Dalit Movement' slide -- match the key terms.",
-    "misconception": "A poor answer lists only one strand per phase or repeats the same action, showing inability to see the simultaneous coexistence NCERT emphasizes.",
-    "id": "gen_c12_soc_ch15_q17",
-    "nodeId": "c12_soc_cbse_15_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"The Dalit Movement has failed to transform society sufficiently to raise the general mass from excruciating poverty\" (NCERT Box 8.7). Use evidence from the Mahar Movement and post-Ambedkar developments to support your judgment.",
-    "answer": "The statement is a critical sociological assessment (from Ghanshyam Shah), not a dismissal. Evidence for: landlessness persists, atrocities continue (Khairlanji, Hathras)",
-    "options": [
-     "The statement is largely refuted by both movements: Chipko villagers protected forests despite poverty because their subsistence depended on intact ecosystems",
-     "The statement is false. The anti‑caste movement *simultaneously* contained reformist (petitioning for school entry, temple entry), redemptive (conversion to Buddhism",
-     "The statement is a critical sociological assessment (from Ghanshyam Shah), not a dismissal. Evidence for: landlessness persists, atrocities continue (Khairlanji, Hathras)"
-    ],
-    "hint": "Straight from the 'Dalit Movement' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls it a total success or total failure misses the nuanced \"reformist movement\" characterization in Box 8.7 — it mobilized along caste lines but made \"half-hearted efforts to destroy caste.\"",
+    "hint": "Straight from the 'Tribal Movement in India' slide -- match the key terms.",
+    "misconception": "A wrong answer that says \"Yes, it was ecological\" or \"No, it was political\" fails to grasp the *intersectionality* that makes Indian tribal movements distinct from Western \"new social movements.\"",
     "id": "gen_c12_soc_ch15_q18",
-    "nodeId": "c12_soc_cbse_15_006",
+    "nodeId": "c12_soc_cbse_15_005",
     "difficulty": "advanced"
    }
   ],

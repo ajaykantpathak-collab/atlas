@@ -16,11 +16,13 @@ export const C8_CIV_GEN: SimDef[] = [
   "subject": "civics",
   "topic": "Universal Adult Franchise",
   "chapters": [
-   "Civics Ch1: Universal Adult Franchise"
+   "Civics Ch1: Universal Adult Franchise",
+   "Civics Ch2: Universal Adult Franchise"
   ],
   "nodeIds": [
    "c8_civ_ch1_1",
    "c8_civ_ch1_2",
+   "c8_civ_ch2_2",
    "c8_civ_ch1_3",
    "c8_civ_ch1_4",
    "c8_civ_ch1_5",
@@ -29,6 +31,7 @@ export const C8_CIV_GEN: SimDef[] = [
    "c8_civ_ch1_8",
    "c8_civ_ch1_9",
    "c8_civ_ch1_10",
+   "c8_civ_ch2_10",
    "c8_civ_ch1_11"
   ],
   "emoji": "⚖️",
@@ -59,6 +62,12 @@ export const C8_CIV_GEN: SimDef[] = [
     "text": "The right to vote is a fundamental democratic principle ensuring that every adult citizen, regardless of wealth, gender, caste, religion, or education, possesses one vote of equal value during elections.",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Constitution Of India",
+    "text": "The Constitution of India is the supreme legal and political document that establishes the framework for governance, defines the powers and functions of government organs, and guarantees fundamental rights to citizens.",
+    "emoji": "⚖️",
+    "bgColor": "from-sky-400 to-cyan-500"
    },
    {
     "title": "Article 326 Of The Indian Constitution",
@@ -107,6 +116,12 @@ export const C8_CIV_GEN: SimDef[] = [
     "text": "Free and fair elections form the bedrock of India's democratic process, ensuring that every citizen's vote is cast without coercion, bribery, or fear, and is counted accurately to reflect the true will of the people.",
     "emoji": "⚖️",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "State Legislature",
+    "text": "The State Legislature is the lawmaking body for an individual state in India, structured either as a bicameral system (consisting of two houses: the Vidhan Sabha and the Vidhan Parishad) or a unicameral system (consisting of only the Vidhan Sabha), as",
+    "emoji": "⚖️",
+    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Scale Of Indian Elections",
@@ -160,17 +175,38 @@ export const C8_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Why does a democratic country require a written constitution rather than relying on unwritten traditions or oral agreements?",
+    "answer": "A written constitution provides certainty, clarity, and protection against arbitrary changes by temporary majorities",
+    "options": [
+     "The correct answer is that the Election Commission (a neutral constitutional body) deploys independent government officials and security forces to manage polling booths rather",
+     "They each have one vote because democracy is built on the premise of political equality, where wealth or social status does not grant extra political power or additional votes",
+     "A written constitution provides certainty, clarity, and protection against arbitrary changes by temporary majorities"
+    ],
+    "hint": "Straight from the 'Constitution of India' slide -- match the key terms.",
+    "misconception": "A wrong answer—such as believing unwritten rules are better because they are flexible—shows a misunderstanding of how written documents protect minority rights and prevent abuses of power by those currently holding political office.",
+    "id": "gen_c8_civ_ch01_q3",
+    "nodeId": "c8_civ_ch2_2",
+    "difficulty": "advanced",
+    "workedExample": [
+     "When you switch on a television set, you expect the remote control buttons to perform specific functions—pressing power turns it on, and volume",
+     "Similarly, in a democratic country like India, the Constitution acts as the ultimate rulebook that tells the government what it can and cannot do,",
+     "We begin by examining how a nation transitions from arbitrary rule to a constitutional democracy based on written rules.",
+     "Recall from Class 7 that a constitution provides the foundational rules that all citizens and leaders must obey."
+    ]
+   },
+   {
+    "type": "mcq",
     "question": "What specific article of the Indian Constitution guarantees universal adult suffrage for elections to the Lok Sabha and State Legislative Assemblies?",
     "answer": "Article 326 of the Indian Constitution",
     "options": [
      "The Election Commission of India (ECI) is the primary independent constitutional body responsible for conducting and overseeing free and fair elections",
      "The 61st Constitutional Amendment Act of 1988 lowered the voting age",
-     "State Assembly 326 of the Indian Constitution",
+     "The Right 326 of the Indian Constitution",
      "Article 326 of the Indian Constitution"
     ],
     "hint": "Straight from the 'Article 326 of the Indian' slide -- match the key terms.",
     "misconception": "A wrong answer reveals that the student is confusing constitutional articles related to fundamental rights (such as Article 14 or 21) with provisions governing the electoral system.",
-    "id": "gen_c8_civ_ch01_q3",
+    "id": "gen_c8_civ_ch01_q4",
     "nodeId": "c8_civ_ch1_3",
     "difficulty": "standard",
     "workedExample": [
@@ -191,7 +227,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'lowering of the minimum voting' slide -- match the key terms.",
     "misconception": "A student who answers incorrectly or confuses it with another amendment likely lacks recall of this specific historical fact, which is foundational to understanding the expansion of voter rights in India.",
-    "id": "gen_c8_civ_ch01_q4",
+    "id": "gen_c8_civ_ch01_q5",
     "nodeId": "c8_civ_ch1_4",
     "difficulty": "advanced",
     "workedExample": [
@@ -208,12 +244,11 @@ export const C8_CIV_GEN: SimDef[] = [
     "options": [
      "The 61st Constitutional Amendment Act of 1988 lowered the voting age",
      "The correct answer is the Lok Sabha election",
-     "The winner is determined by the Model Code (FPTP) system, where the candidate who secures the highest number of votes in a particular constituency wins",
      "The winner is determined by the First-Past-The-Post (FPTP) system, where the candidate who secures the highest number of votes in a particular constituency wins"
     ],
     "hint": "Straight from the 'electoral system' slide -- match the key terms.",
     "misconception": "A wrong answer shows confusion between proportional representation systems used in other countries and India's plurality system, indicating the student needs to review constituency-based voting mechanics.",
-    "id": "gen_c8_civ_ch01_q5",
+    "id": "gen_c8_civ_ch01_q6",
     "nodeId": "c8_civ_ch1_5",
     "difficulty": "advanced",
     "workedExample": [
@@ -234,7 +269,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian electoral system operates' slide -- match the key terms.",
     "misconception": "A wrong answer—such as choosing State Assembly or Local Body elections—reveals a confusion between the national level of government (Parliament) and state or grassroots levels, failing to recognize that national laws are made by Members of Parliament (MPs) elected to the Lok Sabha.",
-    "id": "gen_c8_civ_ch01_q6",
+    "id": "gen_c8_civ_ch01_q7",
     "nodeId": "c8_civ_ch1_6",
     "difficulty": "advanced",
     "workedExample": [
@@ -251,12 +286,12 @@ export const C8_CIV_GEN: SimDef[] = [
     "options": [
      "The Election Commission of India (ECI) is the primary independent constitutional body responsible for conducting and overseeing free and fair elections",
      "The correct answer is the Lok Sabha election",
-     "Separate 324 of the Indian Constitution establishes the Election Commission",
+     "Denying 324 of the Indian Constitution establishes the Election Commission",
      "Article 324 of the Indian Constitution establishes the Election Commission"
     ],
     "hint": "Straight from the 'Election Commission of India' slide -- match the key terms.",
     "misconception": "A student who answers with Article 326 or Article 356 likely confuses the article on adult suffrage or emergency provisions with election administration, showing a need to review constitutional structural articles.",
-    "id": "gen_c8_civ_ch01_q7",
+    "id": "gen_c8_civ_ch01_q8",
     "nodeId": "c8_civ_ch1_7",
     "difficulty": "advanced",
     "workedExample": [
@@ -308,7 +343,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists vague ideas like \"tell people to vote\" without addressing the specific mechanics of electoral registration.",
-    "id": "gen_c8_civ_ch01_q8",
+    "id": "gen_c8_civ_ch01_q9",
     "nodeId": "c8_civ_ch1_8",
     "difficulty": "advanced",
     "workedExample": [
@@ -329,7 +364,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'election process in India' slide -- match the key terms.",
     "misconception": "A wrong answer like \"starting a rally\" or \"buying votes\" reveals a misunderstanding that elections are unregulated free-for-alls rather than strictly legal procedures governed by constitutional rules.",
-    "id": "gen_c8_civ_ch01_q9",
+    "id": "gen_c8_civ_ch01_q10",
     "nodeId": "c8_civ_ch1_9",
     "difficulty": "advanced",
     "workedExample": [
@@ -381,7 +416,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer would suggest ignoring the issue or simply asking political parties to behave nicely, which fails to recognize the state's duty to protect fundamental democratic rights.",
-    "id": "gen_c8_civ_ch01_q10",
+    "id": "gen_c8_civ_ch01_q11",
     "nodeId": "c8_civ_ch1_10",
     "difficulty": "advanced",
     "workedExample": [
@@ -389,6 +424,27 @@ export const C8_CIV_GEN: SimDef[] = [
      "In a democracy, elections are like the ultimate national match, and the rules must be so strict that no single party, no matter how powerful, can rig",
      "To understand how India achieves this, we begin by recalling how universal adult franchise empowers every citizen equally.",
      "We then explore the constitutional rules, such as the Model Code of Conduct, that prevent ruling parties from misusing government resources."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate whether a unicameral state legislature is less democratic than a bicameral state legislature because it has only one house.",
+    "answer": "A unicameral legislature is not less democratic because ultimate democratic legitimacy comes from direct election by the people, which the Vidhan Sabha provides",
+    "options": [
+     "Universal adult franchise grants every citizen one equal vote, but without an independent Election Commission to enforce neutrality, verify electoral rolls",
+     "They each have one vote because democracy is built on the premise of political equality, where wealth or social status does not grant extra political power or additional votes",
+     "A unicameral legislature is not less democratic because ultimate democratic legitimacy comes from direct election by the people, which the Vidhan Sabha provides"
+    ],
+    "hint": "Straight from the 'State Legislature' slide -- match the key terms.",
+    "misconception": "A wrong answer shows a bias that more layers of government automatically mean a better or more democratic system.",
+    "id": "gen_c8_civ_ch01_q12",
+    "nodeId": "c8_civ_ch2_10",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine watching a news broadcast about a new state educational policy being debated by elected representatives in your state capital.",
+     "To understand how that policy text moves from a proposal into a law, you must look at the state lawmaking body—the State Legislature.",
+     "Building on your prior knowledge of national laws made in Parliament (c8_civ_ch2_3), you will now examine how state-level laws are crafted by",
+     "The key civic principle here is federal distribution: while Parliament makes laws for the entire country, the State Legislature focuses exclusively"
     ]
    },
    {
@@ -400,7 +456,7 @@ export const C8_CIV_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A student who answers with a much smaller number (such as a few millions) or confuses the voter count with the total population of India (over 1.4 billion) fails to distinguish between total citizens and those legally registered on the electoral roll.",
-    "id": "gen_c8_civ_ch01_q11",
+    "id": "gen_c8_civ_ch01_q13",
     "nodeId": "c8_civ_ch1_11",
     "difficulty": "advanced",
     "workedExample": [
@@ -421,7 +477,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
     "misconception": "A wrong answer shows confusion between local tax administration and fundamental democratic political rights.",
-    "id": "gen_c8_civ_ch01_q12",
+    "id": "gen_c8_civ_ch01_q14",
     "nodeId": "c8_civ_ch1_1",
     "difficulty": "standard"
    },
@@ -430,14 +486,14 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Compare the concept of Universal Adult Franchise with the voting systems used in colonial India or early Western democracies where women and property-less men could not vote. What is the fundamental difference in how political legitimacy is established?",
     "answer": "Universal Adult Franchise establishes political legitimacy through the consent of all citizens equally",
     "options": [
-     "Separate elections exist because India is a federal democracy with multiple levels of government",
-     "The age limit (18 years) is not a violation of equality but a legal criterion for political maturity and competence",
-     "Model Code establishes political legitimacy through the consent of all citizens equally",
+     "No, the citizen cannot vote in Chennai unless their name is registered in the electoral roll of their new local constituency in Chennai",
+     "A good answer will propose a mechanism where political posts are blocked by platforms automatically during the silence period",
+     "State Assembly establishes political legitimacy through the consent of all citizens equally",
      "Universal Adult Franchise establishes political legitimacy through the consent of all citizens equally"
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a failure to analyze how expanding the voter base transforms a government from an oligarchy into a true democracy.",
-    "id": "gen_c8_civ_ch01_q13",
+    "id": "gen_c8_civ_ch01_q15",
     "nodeId": "c8_civ_ch1_1",
     "difficulty": "standard"
    },
@@ -452,7 +508,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
     "misconception": "A wrong answer shows a lack of appreciation for the inclusive nature of Indian democracy and the historical struggles against elitist political exclusion.",
-    "id": "gen_c8_civ_ch01_q14",
+    "id": "gen_c8_civ_ch01_q16",
     "nodeId": "c8_civ_ch1_1",
     "difficulty": "standard"
    },
@@ -467,7 +523,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
     "misconception": "A poor answer would suggest filtering voters based on teacher recommendations or exam scores, revealing a misunderstanding of inclusive suffrage.",
-    "id": "gen_c8_civ_ch01_q15",
+    "id": "gen_c8_civ_ch01_q17",
     "nodeId": "c8_civ_ch1_1",
     "difficulty": "standard"
    },
@@ -482,39 +538,9 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
     "misconception": "A wrong answer indicates a misunderstanding of democratic principles, often assuming that wealthier or more educated citizens should have a greater say in government decisions.",
-    "id": "gen_c8_civ_ch01_q16",
+    "id": "gen_c8_civ_ch01_q18",
     "nodeId": "c8_civ_ch1_1",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze the relationship between the independence of the Election Commission (guaranteed by the Constitution) and the concept of universal adult franchise. Why would universal adult franchise be meaningless without an independent electoral body?",
-    "answer": "Universal adult franchise grants every citizen one equal vote, but without an independent Election Commission to enforce neutrality, verify electoral rolls",
-    "options": [
-     "Granting the ECI arbitrary power to disqualify candidates without judicial conviction could weaken democracy",
-     "Article 326 operationalizes political equality by ensuring that every adult citizen holds equal voting power (\"one person, one vote\")",
-     "Universal adult franchise grants every citizen one equal vote, but without an independent Election Commission to enforce neutrality, verify electoral rolls"
-    ],
-    "hint": "Straight from the 'Free and fair elections form' slide -- match the key terms.",
-    "misconception": "A student who views voting rights in isolation from the ECI misses that a right on paper requires a powerful, neutral referee to make it effective in practice.",
-    "id": "gen_c8_civ_ch01_q17",
-    "nodeId": "c8_civ_ch1_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "During an election campaign in a rural constituency, a local candidate distributes free cooking gas cylinders and cash envelopes to voters the night before polling. Which core democratic principle of India's electoral system is being violated, and what agency must intervene?",
-    "answer": "This action violates the principle of free and fair elections by committing electoral malpractice, specifically bribery and undue influence",
-    "options": [
-     "A strong answer should include transporting secure EVMs via foot or local transport with armed security, deploying neutral polling officers",
-     "A good response outlines three distinct elections: 1) A Municipal Corporation election (Local Body) to choose ward councillors for garbage collection and local water supply",
-     "This action violates the principle of free and fair elections by committing electoral malpractice, specifically bribery and undue influence"
-    ],
-    "hint": "Straight from the 'Free and fair elections form' slide -- match the key terms.",
-    "misconception": "A student who thinks this is normal campaign strategy fails to understand that buying votes destroys political equality and violates statutory laws against corrupt practices.",
-    "id": "gen_c8_civ_ch01_q18",
-    "nodeId": "c8_civ_ch1_10",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -1515,6 +1541,21 @@ export const C8_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A good answer must state that a democratic state needs defined borders of membership so that political power flows from a recognizable community, ensuring accountability, protection of rights, and the fair distribution of public resources.",
+    "answer": "Three ways a person can acquire Indian citizenship: (1) By birth - born in India to Indian parents",
+    "options": [
+     "The response should explain that the Bangladeshi Buddhist refugee needs only 5 years of residency due to the CAA 2019 provisions",
+     "This violates Cultural and Educational Rights (specifically Article 30), which grants all minorities, whether based on religion or language",
+     "Three ways a person can acquire Indian citizenship: (1) By birth - born in India to Indian parents"
+    ],
+    "hint": "Straight from the 'citizen' slide -- match the key terms.",
+    "misconception": "A wrong answer that only lists \"by birth\" reveals the student does not know the full range of citizenship acquisition methods.",
+    "id": "gen_c8_civ_ch04_q13",
+    "nodeId": "c8_civ_ch4_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A person born in New Delhi to foreign diplomats temporarily posted in India claims they are automatically an Indian citizen by birth. Based on constitutional principles, how do you evaluate this claim?",
     "answer": "The claim is incorrect because diplomatic immunity and special status exempt foreign diplomats and their children from automatic local citizenship rules in most constitutional",
     "options": [
@@ -1524,7 +1565,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'citizen' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misconception that any person physically born within national boundaries automatically acquires citizenship without legal exceptions.",
-    "id": "gen_c8_civ_ch04_q13",
+    "id": "gen_c8_civ_ch04_q14",
     "nodeId": "c8_civ_ch4_1",
     "difficulty": "standard"
    },
@@ -1539,7 +1580,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'citizen' slide -- match the key terms.",
     "misconception": "A wrong answer suggests students confuse transitional constitutional provisions with permanent everyday administrative rules.",
-    "id": "gen_c8_civ_ch04_q14",
+    "id": "gen_c8_civ_ch04_q15",
     "nodeId": "c8_civ_ch4_1",
     "difficulty": "standard"
    },
@@ -1554,7 +1595,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'citizen' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"citizens and residents are the same\" reveals the student does not understand the legal distinction between living in a place and having legal membership in a country.",
-    "id": "gen_c8_civ_ch04_q15",
+    "id": "gen_c8_civ_ch04_q16",
     "nodeId": "c8_civ_ch4_1",
     "difficulty": "standard"
    },
@@ -1569,7 +1610,7 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'citizen' slide -- match the key terms.",
     "misconception": "A wrong answer often shows confusion between physical presence in a country and formal legal membership.",
-    "id": "gen_c8_civ_ch04_q16",
+    "id": "gen_c8_civ_ch04_q17",
     "nodeId": "c8_civ_ch4_1",
     "difficulty": "standard"
    },
@@ -1584,24 +1625,9 @@ export const C8_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'citizen' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student thinks residency and citizenship are legally identical terms.",
-    "id": "gen_c8_civ_ch04_q17",
+    "id": "gen_c8_civ_ch04_q18",
     "nodeId": "c8_civ_ch4_1",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A local restaurant refuses to serve customers who speak a particular regional language, claiming it disturbs other patrons. How does this scenario violate constitutional principles?",
-    "answer": "This scenario violates the Right to Equality and anti-discrimination norms because access to public places and services cannot be denied based on linguistic or cultural identity",
-    "options": [
-     "The claim is incorrect because diplomatic immunity and special status exempt foreign diplomats and their children from automatic local citizenship rules in most constitutional",
-     "Blocking such content does not violate freedom of speech because inciting communal violence falls directly under the \"public order\" and \"sovereignty and integrity of India\"",
-     "This scenario violates the Right to Equality and anti-discrimination norms because access to public places and services cannot be denied based on linguistic or cultural identity"
-    ],
-    "hint": "Straight from the 'Discrimination' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student thinks private businesses have the absolute right to exclude anyone for any reason, misunderstanding how constitutional protections extend to public accommodations and everyday commercial life.",
-    "id": "gen_c8_civ_ch04_q18",
-    "nodeId": "c8_civ_ch4_10",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {

@@ -8,7 +8,7 @@ export const c6_civics_ch10_p2: SimDef = {
     subtitle: 'Who gave you your rights — and who is allowed to take them?',
     classLevel: 6, subject: 'civics', topic: 'Fundamental Rights and Duties · Part 2/2',
     chapters: ['c6_civics_ch10'],
-    nodeIds: ['c6_civics_ch10_007', 'c6_civics_ch10_008'],
+    nodeIds: ['c6_civics_ch10_007', 'c6_civics_ch10_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a junior judge reviewing a school\'s unfair rulebook', intro: 'A new rulebook has landed: some children may speak, others may not. Your job is to test each rule — not against the law, but against what every human deserves.', goal: 'Tell the difference between a privilege someone grants and a right you were born with.' },

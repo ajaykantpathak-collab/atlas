@@ -20,5 +20,6 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "components/simulations", "components/sim-primitives", "lib/sim-engine", "lib/game-engine", "app/_archive", "scripts"]
+  "exclude": ["node_modules", "components/simulations", "components/sim-primitives", "lib/sim-engine", "lib/game-engine", "app/_archive", "scripts",
+    "components/sims_v2/generated", "components/sims_v2/class*/v3", "components/sims_v2/class*/v3w", "components/sims_v2/class*/*.ts"]
 }

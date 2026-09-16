@@ -10,7 +10,7 @@ export const w_c6_sciencematerialsaroundussim: SimDef = {
     subtitle: 'This node covers the rectilinear propagation of light (light travels in straight lines).',
     classLevel: 6, subject: 'science', topic: 'Light Travels in Straight Lines',
     chapters: [],
-    nodeIds: ['c6_physics_ch11_036', 'c6_physics_ch11_044', 'c6_physics_ch12_045', 'c6_physics_ch12_046', 'c6_physics_ch12_047', 'c6_physics_ch11_037', 'c6_physics_ch01_001'],
+    nodeIds: ['c6_physics_ch11_036', 'c6_physics_ch11_035', 'c6_physics_ch12_045', 'c6_physics_ch12_046', 'c6_physics_ch12_047', 'c6_physics_ch11_037', 'c6_physics_ch01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever tried to look at a light bulb through a garden hose?', goal: 'Master Materials Around Us.' },
     discovery: {

@@ -2064,15 +2064,15 @@ export const C11_ENG_S_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Create a modern-day scenario (set in an Indian metropolitan city in the 2020s) that parallels the central conflict of \"Mother's Day\", keeping the one-act play structure in mind.",
-    "answer": "A strong answer would depict a middle-class Mumbai apartment, a working mother expected to manage all household duties, a husband who socializes at a club",
+    "question": "Apply your knowledge of the one-act play genre to predict three structural features you would expect to find in \"Mother's Day\" before reading it.",
+    "answer": "Expected features: (1) a single setting (the living-room), (2) a continuous action in real time (one afternoon), (3) a small cast (five characters)",
     "options": [
-     "Expected features: (1) a single setting (the living-room), (2) a continuous action in real time (one afternoon), (3) a small cast (five characters)",
-     "A strong response invents a symbol (e.g., the mother's apron hanging untouched on a hook while the family orders takeaway) and an ironic twist (the family praises the \"new\" Mrs",
-     "A strong answer would depict a middle-class Mumbai apartment, a working mother expected to manage all household duties, a husband who socializes at a club"
+     "Intern: \"I've finished the report, sir. Shall I present it?\" Boss: \"Present it? You? Don't be absurd",
+     "It is a partial resolution: satisfactory because it establishes reciprocity (children cook, father engages) and the mother asserts leisure time (rummy)",
+     "Expected features: (1) a single setting (the living-room), (2) a continuous action in real time (one afternoon), (3) a small cast (five characters)"
     ],
     "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A weak answer would change the setting to a village, add multiple subplots, or resolve with the mother leaving permanently—breaking the genre constraints.",
+    "misconception": "A wrong answer listing features of a full-length play (multiple acts, subplots, many settings) indicates the student cannot transfer genre knowledge to a new text.",
     "id": "gen_c11_eng_s_ch03_q18",
     "nodeId": "c11_eng_s_cbse_03_001",
     "difficulty": "standard"

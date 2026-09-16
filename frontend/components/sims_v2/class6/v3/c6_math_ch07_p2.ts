@@ -8,7 +8,7 @@ export const c6_math_ch07_p2: SimDef = {
     subtitle: 'This node covers the identification and basic properties of radii, diameters, chords, and.',
     classLevel: 6, subject: 'mathematics', topic: 'Geometry · Part 2/3',
     chapters: ['c6_math_ch07'],
-    nodeIds: ['c6_math_ch07_076', 'c6_math_ch07_077', 'c6_math_ch07_078', 'c6_math_ch07_079', 'c6_math_ch07_080', 'c6_math_ch07_081'],
+    nodeIds: ['c6_math_ch07_070', 'c6_math_ch07_077', 'c6_math_ch07_078', 'c6_math_ch07_079', 'c6_math_ch07_080', 'c6_math_ch07_081'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a bicycle wheel or a round dinner plate and wondered how we describe its parts?', goal: 'Master every idea in this chapter.' },

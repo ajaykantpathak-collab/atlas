@@ -1800,5 +1800,3 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
     </div>
   );
 }
-
-export default C10_ChemistryElectrolysisofspecificcompoundsSim;

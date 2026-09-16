@@ -8,6 +8,260 @@ import type { SimDef } from '../engine/types';
 
 export const C11_MATH_GEN: SimDef[] = [
  {
+  "id": "gen_c11_math_ch01",
+  "title": "Set A",
+  "subtitle": "Mathematics · Chapter 1",
+  "classLevel": 11,
+  "mode": "senior",
+  "subject": "maths",
+  "topic": "Set A",
+  "chapters": [
+   "Mathematics Ch1: Set A"
+  ],
+  "nodeIds": [
+   "c11_math_cbse_01_004",
+   "c11_math_cbse_01_012",
+   "c11_math_cbse_01_014"
+  ],
+  "emoji": "🔢",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Is Set A more about facts, or about reasoning?",
+   "options": [
+    "Mostly reasoning from a few core ideas",
+    "Pure memorisation of facts",
+    "Random guessing"
+   ],
+   "answer": "Mostly reasoning from a few core ideas",
+   "hook": "Database engineer: every query that filters or joins records is a set operation in disguise."
+  },
+  "teaching": [
+   {
+    "title": "Set A",
+    "text": "A set A is a subset of set B, denoted A ⊂ B, if and only if every element of A is also an element of B; formally, A ⊂ B ⇔ (∀x)(x ∈ A ⇒ x ∈ B). If A ⊂ B and A ≠ B (i.",
+    "emoji": "🔢",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Complement Of a Set \\ With Respect To a",
+    "text": "The complement of a set \\(A\\) with respect to a universal set \\(U\\) is the set of all elements of \\(U\\) that are not in \\(A\\), denoted by \\(A'\\) or \\(A^c\\).",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Word Problems On Set Operations Involve",
+    "text": "Word problems on set operations involve translating real-world scenarios involving collections of objects (people, items, outcomes) into mathematical statements using set notation (union, intersection, difference, complement) and solving for unknown",
+    "emoji": "🔢",
+    "bgColor": "from-emerald-400 to-teal-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Give the correct order of checks that decide whether A subset B and B subset C can deliver A subset C in the example A = {1}, B = {1, 2}, C = {1, 3}.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Verify A subset B by testing each element",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Note that A subset C still holds here",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Test B subset C and find element 2 in B but",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Conclude the premise of transitivity fails",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls this a contradiction of transitivity shows the student has missed that the law needs both premises, and a false second premise ends the argument.",
+    "id": "gen_c11_math_ch01_q1",
+    "nodeId": "c11_math_cbse_01_004",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine your school has a \"Science Club\" (set S) and a \"Robotics Team\" (set R).",
+     "Every member of the Robotics Team is also in the Science Club, but the Science Club has additional members who only do biology projects.",
+     "Ask: \"Is the Robotics Team a subset of the Science Club?\" Write down the defining condition: check each robotics member — are they in Science Club?",
+     "If yes for all, then R ⊂ S."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps to check a student's claim that the complement of a union equals the union of complements.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Compare the two results and correct",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Compute each set's complement separately",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Complement that union by listing what",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Compute the union of the two sets inside",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that keeps the union on the right shows the student has swapped the two De Morgan identities from memory.",
+    "id": "gen_c11_math_ch01_q2",
+    "nodeId": "c11_math_cbse_01_012",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a Class XI teacher taking attendance: the universal set \\(U\\) is the list of all 40 students in the class.",
+     "The set \\(A\\) is the list of students present today.",
+     "The complement \\(A'\\) instantly gives the absent students — exactly those in \\(U\\) but not in \\(A\\).",
+     "To begin any complement problem, first write down the universal set \\(U\\) explicitly (or describe it clearly)."
+    ]
+   },
+   {
+    "type": "math_input",
+    "question": "In a society of 150 families, 80 take paper A, 70 take B, 60 take C, while 30 take A and B, 25 take B and C, 20 take A and C, and 10 take all three. Calculate how many families take exactly two papers.",
+    "answer": "45",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer of 75 shows the student added the pairwise overlaps without removing the triple-intersection families counted three times.",
+    "id": "gen_c11_math_ch01_q3",
+    "nodeId": "c11_math_cbse_01_014",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a survey of 200 Class 11 students in a Delhi school: 120 study Mathematics, 90 study Physics, 70 study Chemistry, 40 study Math and Physics,",
+     "To find how many study none, start by drawing a three-circle Venn diagram.",
+     "Fill the innermost region (all three) with 15.",
+     "Then work outward: Math∩Physics only = 40-15=25, Physics∩Chemistry only = 30-15=15, Math∩Chemistry only = 25-15=10."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of checks that decide whether A subset B and B subset C can deliver A subset C in the example A = {1}, B = {1, 2}, C = {1, 3}.",
+    "answer": "The checks run: (1) Verify A subset B by testing each element of A (2) Test B subset C and find element 2 in B but not in C (3) Conclude the premise of transitivity fails since B",
+    "options": [
+     "The check runs: (1) Compute the union of the two sets inside the universal set (2) Complement that union by listing what the union misses (3) Compute each set's complement",
+     "Exactly two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families",
+     "The checks run: (1) Verify A subset B by testing each element of A (2) Test B subset C and find element 2 in B but not in C (3) Conclude the premise of transitivity fails since B"
+    ],
+    "hint": "Straight from the 'set A' slide -- match the key terms.",
+    "misconception": "A wrong answer that calls this a contradiction of transitivity shows the student has missed that the law needs both premises, and a false second premise ends the argument.",
+    "id": "gen_c11_math_ch01_q4",
+    "nodeId": "c11_math_cbse_01_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps to check a student's claim that the complement of a union equals the union of complements.",
+    "answer": "The check runs: (1) Compute the union of the two sets inside the universal set (2) Complement that union by listing what the union misses (3) Compute each set's complement",
+    "options": [
+     "The checks run: (1) Verify A subset B by testing each element of A (2) Test B subset C and find element 2 in B but not in C (3) Conclude the premise of transitivity fails since B",
+     "Exactly two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families",
+     "The check runs: (1) Compute the union of the two sets inside the universal set (2) Complement that union by listing what the union misses (3) Compute each set's complement"
+    ],
+    "hint": "Straight from the 'complement of a set \\ with' slide -- match the key terms.",
+    "misconception": "A wrong answer that keeps the union on the right shows the student has swapped the two De Morgan identities from memory.",
+    "id": "gen_c11_math_ch01_q5",
+    "nodeId": "c11_math_cbse_01_012",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "In a society of 150 families, 80 take paper A, 70 take B, 60 take C, while 30 take A and B, 25 take B and C, 20 take A and C, and 10 take all three. Calculate how many families take exactly two papers.",
+    "answer": "Exactly two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families",
+    "options": [
+     "The check runs: (1) Compute the union of the two sets inside the universal set (2) Complement that union by listing what the union misses (3) Compute each set's complement",
+     "The checks run: (1) Verify A subset B by testing each element of A (2) Test B subset C and find element 2 in B but not in C (3) Conclude the premise of transitivity fails since B",
+     "De Morgan's two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families",
+     "Exactly two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families"
+    ],
+    "hint": "Straight from the 'Word problems on set operations' slide -- match the key terms.",
+    "misconception": "A wrong answer of 75 shows the student added the pairwise overlaps without removing the triple-intersection families counted three times.",
+    "id": "gen_c11_math_ch01_q6",
+    "nodeId": "c11_math_cbse_01_014",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about set a?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Set A mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
   "id": "gen_c11_math_ch02",
   "title": "Relation R From a Non-empty Set A To a",
   "subtitle": "Mathematics · Chapter 2",
@@ -173,7 +427,8 @@ export const C11_MATH_GEN: SimDef[] = [
   "subject": "maths",
   "topic": "Mathematical Induction",
   "chapters": [
-   "Mathematics Ch4: Mathematical Induction"
+   "Mathematics Ch4: Mathematical Induction",
+   "Mathematics Ch6: Mathematical Induction"
   ],
   "nodeIds": [
    "c11_math_cbse_04_001",
@@ -183,7 +438,9 @@ export const C11_MATH_GEN: SimDef[] = [
    "c11_math_cbse_04_005",
    "c11_math_cbse_04_006",
    "c11_math_cbse_04_007",
-   "c11_math_cbse_04_008"
+   "c11_math_cbse_06_007",
+   "c11_math_cbse_04_008",
+   "c11_math_cbse_06_008"
   ],
   "emoji": "🔢",
   "theme": {
@@ -245,10 +502,22 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
+    "title": "Word Problems Involving Linear Inequalities",
+    "text": "Word problems involving linear inequalities require translating real-life constraints into one or more linear inequalities in one or two variables, solving them algebraically or graphically, and interpreting the solution set in the context of the problem.",
+    "emoji": "🔢",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
     "title": "Mathematical Induction",
     "text": "Mathematical induction is a deductive proof technique used to establish that a statement P(n) holds for all natural numbers n. It consists of two steps: (1) Base Case – verify P(1) is true; (2) Inductive Step – assume P(k) is true for an arbitrary natural",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Quadratic Inequality In One Variable",
+    "text": "A quadratic inequality in one variable is an inequality of the form \\(ax^2 + bx + c > 0\\), \\(ax^2 + bx + c < 0\\), \\(ax^2 + bx + c \\geq 0\\), or \\(ax^2 + bx + c \\leq 0\\), where \\(a, b, c \\in \\mathbb{R}\\), \\(a \\neq 0\\), and \\(x\\) is the variable.",
+    "emoji": "🔢",
+    "bgColor": "from-sky-400 to-cyan-500"
    }
   ],
   "challenges": [
@@ -462,6 +731,27 @@ export const C11_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "mcq",
+    "question": "Ravi has ₹200 to spend on pens (₹15 each) and pencils (₹5 each). He wants at least 4 pens and at least 6 pencils. Write the system of inequalities and find one possible combination of pens and pencils he can buy.",
+    "answer": "Let x = number of pens, y = number of pencils. Inequalities: 15x + 5y ≤ 200, x ≥ 4, y ≥ 6, x,y ≥ 0 integers",
+    "options": [
+     "The flaw is in the transition from k=1 to k=2. The two subsets of k horses (after removing different horses) have no overlap when k=1",
+     "The statement specifies n ≥ 5, so base case is n = 5 (not n=1). LHS = 2⁵ = 32. RHS = 5² = 25. Since 32 > 25, P(5) is true",
+     "Let x = number of pens, y = number of pencils. Inequalities: 15x + 5y ≤ 200, x ≥ 4, y ≥ 6, x,y ≥ 0 integers"
+    ],
+    "hint": "Straight from the 'Word problems involving linear' slide -- match the key terms.",
+    "misconception": "A wrong answer might forget non-negativity, or miswrite the cost inequality (e.g., 15x+5y ≥ 200), revealing misunderstanding of \"has ₹200 to spend\" as a maximum budget.",
+    "id": "gen_c11_math_ch04_q8",
+    "nodeId": "c11_math_cbse_06_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Start with a relatable scenario: \"A student has ₹500 to buy notebooks (₹40 each) and pens (₹10 each).",
+     "He needs at least 5 notebooks and at least 3 pens.",
+     "How many of each can he buy?\" Guide the student to define variables (x = notebooks, y = pens), write inequalities (40x + 10y ≤ 500, x ≥ 5, y ≥ 3, x,y",
+     "Connect to prior nodes: forming inequalities (c11_math_cbse_06_001), solving systems (c11_math_cbse_06_005), and graphical method"
+    ]
+   },
+   {
     "type": "order",
     "question": "State the Principle of Mathematical Induction in your own words, clearly distinguishing between the base case and the inductive step. What is the inductive hypothesis?",
     "sortItems": [
@@ -503,7 +793,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer reveals the student confuses the inductive hypothesis with the conclusion, or thinks we assume P(n) for all n, or omits the base case entirely.",
-    "id": "gen_c11_math_ch04_q8",
+    "id": "gen_c11_math_ch04_q9",
     "nodeId": "c11_math_cbse_04_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -511,6 +801,27 @@ export const C11_MATH_GEN: SimDef[] = [
      "You want a formula for the total after n days without adding each day manually.",
      "This is exactly the sum of first n natural numbers problem.",
      "Start by writing the statement P(n): 1 + 2 + 3 + ... + n = n(n+1)/2."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "State the general form of a quadratic inequality in one variable and write the condition on the leading coefficient for the parabola to open upward.",
+    "answer": "The general form is \\(ax^2 + bx + c > 0\\) (or \\(<, \\geq, \\leq\\)) with \\(a, b, c \\in \\mathbb{R}, a \\neq 0\\). The parabola opens upward when \\(a > 0\\)",
+    "options": [
+     "The two conditions are: (1) Base case: \\( P(1) \\) is true, i.e., \\( f(1) \\) is divisible by \\( m \\)",
+     "The three steps are: (1) Base Case: Verify P(n₀) is true for the smallest integer n₀. (2) Inductive Hypothesis: Assume P(k) is true for an arbitrary but fixed integer k ≥ n₀, i",
+     "The general form is \\(ax^2 + bx + c > 0\\) (or \\(<, \\geq, \\leq\\)) with \\(a, b, c \\in \\mathbb{R}, a \\neq 0\\). The parabola opens upward when \\(a > 0\\)"
+    ],
+    "hint": "Straight from the 'quadratic inequality in one' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., saying \\(a < 0\\) for upward opening) reveals confusion between the sign of \\(a\\) and the direction of the parabola, which is critical for determining the sign of the quadratic expression outside the roots.",
+    "id": "gen_c11_math_ch04_q10",
+    "nodeId": "c11_math_cbse_06_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a small business sells handmade candles.",
+     "The profit (in ₹) from selling \\(x\\) candles is given by \\(P(x) = -2x^2 + 40x - 150\\).",
+     "The owner wants to know how many candles to sell to make a profit of at least ₹50.",
+     "This translates to \\(-2x^2 + 40x - 150 \\geq 50\\), a quadratic inequality."
     ]
    },
    {
@@ -524,7 +835,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
     "misconception": "A wrong answer pointing to \"base case is wrong\" or \"inductive hypothesis is false\" shows the student cannot analyse the structural dependency between base case and inductive step — a classic senior-secondary error in evaluating induction validity.",
-    "id": "gen_c11_math_ch04_q9",
+    "id": "gen_c11_math_ch04_q11",
     "nodeId": "c11_math_cbse_04_001",
     "difficulty": "standard"
    },
@@ -539,7 +850,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
     "misconception": "A wrong answer like \"it's sufficient because the pattern is obvious\" reveals the student hasn't internalised that mathematics requires proof beyond pattern recognition — a critical shift from Class 10 empirical approaches to Class 11 rigour.",
-    "id": "gen_c11_math_ch04_q10",
+    "id": "gen_c11_math_ch04_q12",
     "nodeId": "c11_math_cbse_04_001",
     "difficulty": "standard"
    },
@@ -554,7 +865,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"both are the same\" or \"induction discovers the formula\" reveals the student doesn't distinguish between proof of a known statement and derivation of an unknown one — a nuance critical for board exam \"prove by induction\" vs \"find and prove\" questions.",
-    "id": "gen_c11_math_ch04_q11",
+    "id": "gen_c11_math_ch04_q13",
     "nodeId": "c11_math_cbse_04_001",
     "difficulty": "standard"
    },
@@ -569,7 +880,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
     "misconception": "A wrong answer writing P(k) as \"for all k\" instead of \"for some arbitrary k\" shows confusion between universal statement and inductive assumption. Another error: trying to prove P(k) rather than assuming it, indicating they don't understand the hypothetical nature of the inductive hypothesis.",
-    "id": "gen_c11_math_ch04_q12",
+    "id": "gen_c11_math_ch04_q14",
     "nodeId": "c11_math_cbse_04_001",
     "difficulty": "standard"
    },
@@ -584,7 +895,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
     "misconception": "A poor answer giving a statement false at n=1 or n=2 shows the student doesn't understand the requirement that base case must hold for the counterexample to illustrate the limitation of finite checking.",
-    "id": "gen_c11_math_ch04_q13",
+    "id": "gen_c11_math_ch04_q15",
     "nodeId": "c11_math_cbse_04_001",
     "difficulty": "standard"
    },
@@ -599,7 +910,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The working is mathematically correct but incomplete for board exams.",
-    "id": "gen_c11_math_ch04_q14",
+    "id": "gen_c11_math_ch04_q16",
     "nodeId": "c11_math_cbse_04_002",
     "difficulty": "standard"
    },
@@ -610,12 +921,12 @@ export const C11_MATH_GEN: SimDef[] = [
     "options": [
      "Base case (n=1): \\( 5^{3} + 3^{2} \\cdot 2^{0} = 125 + 9 = 134 = 19 \\times 7 \\). True. Inductive hypothesis: Assume for \\( n=k \\)",
      "Statement: \\( 4^n + 15n - 1 \\) is divisible by 9 for all \\( n \\in \\mathbb{N} \\). (Not exactly \\( a^n + b^n \\) but a valid divisibility induction problem",
-     "Example: P(n): Σ_{k=1}^{n} (k - 1) = n(n-1)/2. For n=1: Without = Σ_{k=1}^{1} (k-1) = 1-1 = 0. RHS = 1(0)/2 = 0",
+     "Example: P(n): Σ_{k=1}^{n} (k - 1) = n(n-1)/2. For n=1: However = Σ_{k=1}^{1} (k-1) = 1-1 = 0. RHS = 1(0)/2 = 0",
      "Example: P(n): Σ_{k=1}^{n} (k - 1) = n(n-1)/2. For n=1: LHS = Σ_{k=1}^{1} (k-1) = 1-1 = 0. RHS = 1(0)/2 = 0"
     ],
     "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
     "misconception": "A poor answer would create a statement where n=1 is not in the domain (e.g., \"for n≥2\") or where the series notation is ambiguous. This tests understanding of summation notation from c9_math_ch8_1 and the concept that 0=0 is a true equality.",
-    "id": "gen_c11_math_ch04_q15",
+    "id": "gen_c11_math_ch04_q17",
     "nodeId": "c11_math_cbse_04_002",
     "difficulty": "standard"
    },
@@ -630,36 +941,6 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The computation is correct but the reasoning is incomplete. \"6/6 = 1\" shows the quotient is integer, but the student",
-    "id": "gen_c11_math_ch04_q16",
-    "nodeId": "c11_math_cbse_04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why verifying P(1) for the statement \"n³ - n is divisible by 3\" requires computing 1³ - 1, and what the result 0 tells us about divisibility.",
-    "answer": "For n=1, 1³ - 1 = 0. Since 0 = 3 × 0, zero is divisible by any non-zero integer (0 = 3k where k=0 ∈ ℤ). Thus P(1) is true",
-    "options": [
-     "The base case anchors the induction; without it, the inductive step only shows that if the statement is true for some k, then it's true for k+1",
-     "We are not proving P(k); we are proving the implication P(k) ⇒ P(k+1). In logic, to prove \"if A then B\", we temporarily assume A and deduce B",
-     "For n=1, 1³ - 1 = 0. Since 0 = 3 × 0, zero is divisible by any non-zero integer (0 = 3k where k=0 ∈ ℤ). Thus P(1) is true"
-    ],
-    "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
-    "misconception": "This misconception stems from Class 6 divisibility rules (c6_math_ch01_014) where they only saw positive dividends. They must understand: a|b means ∃ integer k such that b = ak; here 3|0 because 0 = 3×0.",
-    "id": "gen_c11_math_ch04_q17",
-    "nodeId": "c11_math_cbse_04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Verify the base case for P(n): 2ⁿ > n² for all n ≥ 5. Show complete working.",
-    "answer": "The statement specifies n ≥ 5, so base case is n = 5 (not n=1). LHS = 2⁵ = 32. RHS = 5² = 25. Since 32 > 25, P(5) is true",
-    "options": [
-     "Base case (n=4): 4! = 24, 2⁴ = 16. 24 > 16 ✓ Inductive hypothesis: Assume k! > 2ᵏ for some k ≥ 4. Inductive step: Prove (k+1)!",
-     "Base Case (n=1): 3^(2×1) - 1 = 9 - 1 = 8, which is divisible by 8. ✓ Inductive Hypothesis: Assume for n=k: 3^(2k) - 1 = 8m for some integer m",
-     "The statement specifies n ≥ 5, so base case is n = 5 (not n=1). LHS = 2⁵ = 32. RHS = 5² = 25. Since 32 > 25, P(5) is true"
-    ],
-    "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
-    "misconception": "A student who tests n=1 gets 2 > 1 (true) but misses the domain restriction. A student who tests n=2 gets 4 > 4 (false) and incorrectly concludes the statement is false.",
     "id": "gen_c11_math_ch04_q18",
     "nodeId": "c11_math_cbse_04_002",
     "difficulty": "standard"
@@ -677,16 +958,20 @@ export const C11_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_math_ch11",
-  "title": "General Equation Of a Circle",
+  "title": "Distance Between Two Points \\\\) And \\\\) In The",
   "subtitle": "Mathematics · Chapter 11",
   "classLevel": 11,
   "mode": "senior",
   "subject": "maths",
-  "topic": "General Equation Of a Circle",
+  "topic": "Distance Between Two Points \\\\) And \\\\) In The Carte",
   "chapters": [
-   "Mathematics Ch11: General Equation Of a Circle"
+   "Mathematics Ch9: Distance Between Two Points \\\\) And \\\\) In The Carte",
+   "Mathematics Ch10: Distance Between Two Points \\\\) And \\\\) In The Carte",
+   "Mathematics Ch11: Distance Between Two Points \\\\) And \\\\) In The Carte"
   ],
   "nodeIds": [
+   "c11_math_cbse_10_002",
+   "c11_math_cbse_09_003",
    "c11_math_cbse_11_003",
    "c11_math_cbse_11_005",
    "c11_math_cbse_11_006",
@@ -699,7 +984,7 @@ export const C11_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if General Equation Of a Circle suddenly stops working?",
+   "question": "What happens if Distance Between Two Points \\\\) suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -709,6 +994,19 @@ export const C11_MATH_GEN: SimDef[] = [
    "hook": "Satellite-dish designer: a parabola focuses signals, which is this chapter cast in metal."
   },
   "teaching": [
+   {
+    "title": "Distance Between Two Points \\\\) And \\\\) In",
+    "text": "The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian plane is the length of the straight line segment joining them, given by \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\).",
+    "emoji": "🔢",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "The Sum Of The First",
+    "text": "The sum of the first n terms of an Arithmetic Progression (AP) with first term a and common difference d is given by S_n = n/2 [2a + (n-1)d]. Equivalently, if the last term (nth term) is denoted by l, then S_n = n/2 (a + l).",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500",
+    "katex": "S_n = n/2 [2a + (n-1)d]"
+   },
    {
     "title": "General Equation Of a Circle",
     "text": "The general equation of a circle is a second-degree equation in two variables of the form \\(x^2 + y^2 + 2gx + 2fy + c = 0\\), where \\(g\\), \\(f\\), and \\(c\\) are real constants.",
@@ -736,17 +1034,99 @@ export const C11_MATH_GEN: SimDef[] = [
   ],
   "challenges": [
    {
+    "type": "order",
+    "question": "Give the correct order of steps that show the straight-line distance between P(0, 0) and Q(3, 4) differs from the along-the-grid distance.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Conclude the two measures differ because",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Add the legs directly to get",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Apply Pythagoras to get the straight-line",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Form the right triangle with legs 3 and 4",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats the two distances as equal shows the student has confused the Pythagorean theorem with simple addition of leg lengths.",
+    "id": "gen_c11_math_ch11_q1",
+    "nodeId": "c11_math_cbse_10_002",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are standing at your school gate (point A) and your friend is at the bus stop (point B).",
+     "If you map your locations on a grid where each unit is 10 metres, and your coordinates are (2, 3) and (5, 7) respectively, how far apart are you in a",
+     "Start by plotting the points on graph paper.",
+     "Draw horizontal and vertical lines to form a right triangle with the segment AB as the hypotenuse."
+    ]
+   },
+   {
+    "type": "math_input",
+    "question": "For the AP 3, 7, 11, 15, 19, use the pairing idea of the sum formula and calculate the sum of all five terms.",
+    "answer": "55",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer of 45 shows the student paired only the outer terms and forgot the middle term counts half a pair.",
+    "id": "gen_c11_math_ch11_q2",
+    "nodeId": "c11_math_cbse_09_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are saving money every month for a school trip: you save ₹500 in the first month and increase your savings by ₹50 each subsequent month.",
+     "After 12 months, how much will you have saved in total?",
+     "This is exactly an AP sum problem where a = 500, d = 50, n = 12.",
+     "To begin, always write down what is given: identify a, d, and n from the problem statement."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Create a real-world problem (Indian context) that requires finding the general equation of a circle given three non-collinear points. Provide the three points and ask for the equation. Ensure the numbers are chosen so that the resulting coefficients are integers.",
     "answer": "Problem: A circular water tank is to be built in a village such that its boundary passes through three landmarks: a well at \\((2, 3)\\), a temple at \\((4, 5)\\)",
     "options": [
-     "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)",
      "Example problem: \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart",
+     "Pairing first with last gives 3 + 19 = 22, and the middle term contributes the same: sum = 5/2 x 22 = 55",
      "Problem: A circular water tank is to be built in a village such that its boundary passes through three landmarks: a well at \\((2, 3)\\), a temple at \\((4, 5)\\)"
     ],
     "hint": "Straight from the 'general equation of a circle' slide -- match the key terms.",
     "misconception": "A poor answer would use collinear points (no unique circle) or points leading to non-integer coefficients without simplifying, showing lack of understanding of the condition for a unique circle and algebraic manipulation.",
-    "id": "gen_c11_math_ch11_q1",
+    "id": "gen_c11_math_ch11_q3",
     "nodeId": "c11_math_cbse_11_003",
     "difficulty": "standard",
     "workedExample": [
@@ -761,13 +1141,13 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "Create a real-world problem (Indian context) where you need to find the focus of a parabola to design a solar cooker. Specify the parabola's equation and ask for the focus coordinates. Explain why the focus is the ideal place to put the cooking pot.",
     "answer": "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)",
     "options": [
-     "Example problem: \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart",
+     "Pairing first with last gives 3 + 19 = 22, and the middle term contributes the same: sum = 5/2 x 22 = 55",
      "Problem: A circular water tank is to be built in a village such that its boundary passes through three landmarks: a well at \\((2, 3)\\), a temple at \\((4, 5)\\)",
      "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)"
     ],
     "hint": "Straight from the 'parabola' slide -- match the key terms.",
     "misconception": "A poor answer would give an equation not in standard form or misplace the focus, showing lack of understanding of the reflective property.",
-    "id": "gen_c11_math_ch11_q2",
+    "id": "gen_c11_math_ch11_q4",
     "nodeId": "c11_math_cbse_11_005",
     "difficulty": "standard",
     "workedExample": [
@@ -782,13 +1162,13 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "Construct a real-world problem (with numerical values) that requires finding the standard equation of an ellipse given its geometric description. The problem must involve an Indian context (e.g., a whispering gallery in a historical monument, a planetary orbit, or a sports stadium design).",
     "answer": "Example problem: \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart",
     "options": [
-     "Problem: A circular water tank is to be built in a village such that its boundary passes through three landmarks: a well at \\((2, 3)\\), a temple at \\((4, 5)\\)",
+     "Pairing first with last gives 3 + 19 = 22, and the middle term contributes the same: sum = 5/2 x 22 = 55",
      "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)",
      "Example problem: \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart"
     ],
     "hint": "Straight from the 'ellipse' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., using \\(a=10, c=26\\) or giving a circle equation) reveals the student cannot translate the verbal description into the parameters \\(a, b, c\\) and their geometric meanings.",
-    "id": "gen_c11_math_ch11_q3",
+    "id": "gen_c11_math_ch11_q5",
     "nodeId": "c11_math_cbse_11_006",
     "difficulty": "standard",
     "workedExample": [
@@ -803,13 +1183,13 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "Compare the reflective properties of a parabola and an ellipse. A whispering gallery uses an elliptical ceiling. If two people stand at the foci, why can they hear each other clearly? How is this different from a parabolic reflector?",
     "answer": "Ellipse: Ray from one focus reflects to the other focus. Parabola: Ray parallel to axis reflects to focus (or vice versa)",
     "options": [
-     "Problem: A circular water tank is to be built in a village such that its boundary passes through three landmarks: a well at \\((2, 3)\\), a temple at \\((4, 5)\\)",
-     "Example problem: \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart",
+     "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)",
+     "The contrast runs: (1) Form the right triangle with legs 3 and 4 between the points (2) Apply Pythagoras to get the straight-line distance of 5 units (3) Add the legs directly to",
      "Ellipse: Ray from one focus reflects to the other focus. Parabola: Ray parallel to axis reflects to focus (or vice versa)"
     ],
     "hint": "Straight from the 'Applications of conic sections' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Ellipse: Ray from one focus reflects to the other focus. Parabola: Ray parallel to axis reflects to focus (or vice",
-    "id": "gen_c11_math_ch11_q4",
+    "id": "gen_c11_math_ch11_q6",
     "nodeId": "c11_math_cbse_11_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -818,15 +1198,45 @@ export const C11_MATH_GEN: SimDef[] = [
      "Which curve has the property that all lines parallel to its axis reflect to a single focus?",
      "Start by drawing the coordinate axes with the vertex at the dish's deepest point."
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "For the AP 3, 7, 11, 15, 19, use the pairing idea of the sum formula and calculate the sum of all five terms.",
+    "answer": "Pairing first with last gives 3 + 19 = 22, and the middle term contributes the same: sum = 5/2 x 22 = 55",
+    "options": [
+     "Problem: A circular water tank is to be built in a village such that its boundary passes through three landmarks: a well at \\((2, 3)\\), a temple at \\((4, 5)\\)",
+     "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)",
+     "Pairing first with last gives 3 + 19 = 22, and the middle term contributes the same: sum = 5/2 x 22 = 55"
+    ],
+    "hint": "Straight from the 'The sum of the first' slide -- match the key terms.",
+    "misconception": "A wrong answer of 45 shows the student paired only the outer terms and forgot the middle term counts half a pair.",
+    "id": "gen_c11_math_ch11_q7",
+    "nodeId": "c11_math_cbse_09_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps that show the straight-line distance between P(0, 0) and Q(3, 4) differs from the along-the-grid distance.",
+    "answer": "The contrast runs: (1) Form the right triangle with legs 3 and 4 between the points (2) Apply Pythagoras to get the straight-line distance of 5 units (3) Add the legs directly to",
+    "options": [
+     "Example problem: \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart",
+     "Ellipse: Ray from one focus reflects to the other focus. Parabola: Ray parallel to axis reflects to focus (or vice versa)",
+     "The contrast runs: (1) Form the right triangle with legs 3 and 4 between the points (2) Apply Pythagoras to get the straight-line distance of 5 units (3) Add the legs directly to"
+    ],
+    "hint": "Straight from the 'distance between two points \\\\)' slide -- match the key terms.",
+    "misconception": "A wrong answer that treats the two distances as equal shows the student has confused the Pythagorean theorem with simple addition of leg lengths.",
+    "id": "gen_c11_math_ch11_q8",
+    "nodeId": "c11_math_cbse_10_002",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about general equation of a circle?",
+    "What surprised you about distance between two points \\\\) and \\\\) in the carte?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "General Equation Of a Circle mastered! 🎯",
+  "successLine": "Distance Between Two Points mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {

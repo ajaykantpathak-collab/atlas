@@ -598,6 +598,21 @@ export const C8_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A local pottery maker uses 5 kilograms of clay, worth ₹150, and spends 2 hours of labor valued at ₹100 to make 2 finished clay pots that sell for ₹200 each. Calculate the total value of inputs and the total value of outputs.",
+    "answer": "Step 1: Identify material input cost = ₹150. Step 2: Identify labor input cost = ₹100. Step 3: Calculate total input value = ₹150 + ₹100 = ₹250",
+    "options": [
+     "A successful plan must categorize and coordinate the inputs as follows: 1. Land: Securing a small, unused corner of the school craft room (space) to set up operations",
+     "A complete answer must list: Land (the physical canteen stall space), Labour (the person frying samosas and serving), Capital (the frying pan, stove, and refrigerator)",
+     "Step 1: Identify material input cost = ₹150. Step 2: Identify labor input cost = ₹100. Step 3: Calculate total input value = ₹150 + ₹100 = ₹250"
+    ],
+    "hint": "Straight from the 'production process' slide -- match the key terms.",
+    "misconception": "A student who calculates only the material cost and forgets labor is missing the complete definition of production input costs.",
+    "id": "gen_c8_eco_ch01_q14",
+    "nodeId": "c8_eco_ch1_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple production process for making fresh lemonade at a school stall, clearly identifying at least two inputs and one output.",
     "answer": "A complete answer must list specific inputs (e.g., lemons, sugar, water, ice, plastic cups, knife, squeezer",
     "options": [
@@ -607,7 +622,7 @@ export const C8_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production process' slide -- match the key terms.",
     "misconception": "A poor answer lists random items without showing how they are transformed into a final consumable product.",
-    "id": "gen_c8_eco_ch01_q14",
+    "id": "gen_c8_eco_ch01_q15",
     "nodeId": "c8_eco_ch1_1",
     "difficulty": "standard"
    },
@@ -622,7 +637,7 @@ export const C8_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production process' slide -- match the key terms.",
     "misconception": "A student who claims only physical objects can be outputs has a narrow view of production that ignores the modern service economy.",
-    "id": "gen_c8_eco_ch01_q15",
+    "id": "gen_c8_eco_ch01_q16",
     "nodeId": "c8_eco_ch1_1",
     "difficulty": "standard"
    },
@@ -637,7 +652,7 @@ export const C8_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production process' slide -- match the key terms.",
     "misconception": "A student who argues that cotton and uniforms are identical ignores how processing adds value and utility to materials.",
-    "id": "gen_c8_eco_ch01_q16",
+    "id": "gen_c8_eco_ch01_q17",
     "nodeId": "c8_eco_ch1_1",
     "difficulty": "standard"
    },
@@ -652,21 +667,6 @@ export const C8_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production process' slide -- match the key terms.",
     "misconception": "A student who answers incorrectly by naming only money or factories is confusing the general definition of production with specific types of capital or financial resources.",
-    "id": "gen_c8_eco_ch01_q17",
-    "nodeId": "c8_eco_ch1_1",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is a wooden chair considered an output rather than an input when a carpenter finishes making it in a workshop?",
-    "answer": "A wooden chair is an output because it is the final product created after transforming raw materials, whereas inputs are the resources like wood, nails, and tools used to make it",
-    "options": [
-     "This statement is incorrect because while nature provides land for free, using land involves economic costs such as rent, maintenance, and opportunity cost",
-     "Without an enterprise, these factors of production remain disconnected, idle, and uncooperative. The enterprise provides the active planning, decision-making",
-     "A wooden chair is an output because it is the final product created after transforming raw materials, whereas inputs are the resources like wood, nails, and tools used to make it"
-    ],
-    "hint": "Straight from the 'production process' slide -- match the key terms.",
-    "misconception": "A student who thinks the chair is an input fails to understand that outputs are the final goods or services resulting from a production process.",
     "id": "gen_c8_eco_ch01_q18",
     "nodeId": "c8_eco_ch1_1",
     "difficulty": "standard"
@@ -1320,6 +1320,7 @@ export const C8_ECO_GEN: SimDef[] = [
    "c8_eco_ch3_7",
    "c8_eco_ch3_8",
    "c8_eco_ch3_9",
+   "c8_eco_ch3_10",
    "c8_eco_ch3_11",
    "c8_eco_ch3_12"
   ],
@@ -1393,6 +1394,12 @@ export const C8_ECO_GEN: SimDef[] = [
     "text": "A slum or informal settlement is a densely populated urban residential area characterized by sub-standard, self-built housing, lack of legal land tenure, and severe deficits in basic physical and social infrastructure such as piped water, public sanitation,",
     "emoji": "📈",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Smart City",
+    "text": "A Smart City is an urban area that uses digital technology, information and communication networks (ICT), and data sensor systems to optimize resource allocation, reduce operational costs, and improve the quality of life and environmental sustainability for",
+    "emoji": "📈",
+    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Urban Local Bodies",
@@ -1731,6 +1738,69 @@ export const C8_ECO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Trace the correct sequence by which smart LED streetlights with daylight sensors cut a municipality's operating costs.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The municipal operating budget shrinks",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Streetlights automatically dim or switch off",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Wasted electricity from broken manual timers",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Light sensors detect natural daylight levels",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that says the city must simply build more power plants shows the student has missed the economic shift from capital-intensive physical expansion to data-driven efficiency improvement of existing assets.",
+    "id": "gen_c8_eco_ch03_q10",
+    "nodeId": "c8_eco_ch3_10",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine walking down an urban street in India in the middle of a hot afternoon.",
+     "You look up and notice all the heavy sodium streetlights are glowing brightly, wasting electricity because the manual timer is broken.",
+     "This represents a waste of municipal taxpayers' money that could have been spent on schools or clinics.",
+     "To solve this, a Smart City does not just build *more* power plants; instead, it installs smart light-emitting diode (LED) streetlights with light"
+    ]
+   },
+   {
     "type": "math_input",
     "question": "A Municipal Council has an annual operating budget. It collects ₹50 Lakhs in property taxes, ₹20 Lakhs in user fees, and receives ₹40 Lakhs in state government grants. If its expenditure on sanitation is ₹60 Lakhs, street lighting is ₹30 Lakhs, and administrative salaries are ₹35 Lakhs, calculate the municipal budget",
     "answer": "15",
@@ -1739,7 +1809,7 @@ export const C8_ECO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Total Revenue = Property Taxes (₹50L) + User Fees (₹20L) + Grants (₹40L) = ₹110 Lakhs.",
-    "id": "gen_c8_eco_ch03_q10",
+    "id": "gen_c8_eco_ch03_q11",
     "nodeId": "c8_eco_ch3_11",
     "difficulty": "standard",
     "workedExample": [
@@ -1802,7 +1872,7 @@ export const C8_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that says migration is beneficial reveals the student did not account for the probability of unemployment and urban living costs.",
-    "id": "gen_c8_eco_ch03_q11",
+    "id": "gen_c8_eco_ch03_q12",
     "nodeId": "c8_eco_ch3_12",
     "difficulty": "advanced",
     "workedExample": [
@@ -1811,6 +1881,91 @@ export const C8_ECO_GEN: SimDef[] = [
      "Meanwhile, his cousin Suresh works as a delivery executive in Patna, earning a steady ₹12,000 per month and accessing better healthcare",
      "To analyze whether Ramesh will actually migrate, we cannot look at the nominal urban wage alone; we must compare his current rural income against the"
     ]
+   },
+   {
+    "type": "math_input",
+    "question": "A city fleet burns fuel worth 15,00,000 rupees a year; smart routing cuts distance travelled by 20 percent. How many rupees of fuel does the city save per year?",
+    "answer": "300000",
+    "mathInput": {
+     "tolerance": 0,
+     "placeholder": "rupees"
+    },
+    "hint": "Work it step by step, then enter the final value in rupees.",
+    "misconception": "A wrong answer that books the one-time 50,00,000 sensor installation as the yearly saving confuses capital expenditure with recurring operational savings.",
+    "id": "gen_c8_eco_ch03_q13",
+    "nodeId": "c8_eco_ch3_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "math_input",
+    "question": "A city fleet burns fuel worth 15,00,000 rupees a year; smart routing cuts distance travelled by 20 percent. How many rupees of fuel does the city save per year?",
+    "answer": "300000",
+    "mathInput": {
+     "tolerance": 0,
+     "placeholder": "rupees"
+    },
+    "hint": "Work it step by step, then enter the final value in rupees.",
+    "misconception": "A wrong answer that books the one-time 50,00,000 sensor installation as the yearly saving confuses capital expenditure with recurring operational savings.",
+    "id": "gen_c8_eco_ch03_q14",
+    "nodeId": "c8_eco_ch3_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Trace the correct sequence by which smart LED streetlights with daylight sensors cut a municipality's operating costs.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The municipal operating budget shrinks",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Streetlights automatically dim or switch off",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Wasted electricity from broken manual timers",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Light sensors detect natural daylight levels",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that says the city must simply build more power plants shows the student has missed the economic shift from capital-intensive physical expansion to data-driven efficiency improvement of existing assets.",
+    "id": "gen_c8_eco_ch03_q15",
+    "nodeId": "c8_eco_ch3_10",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -1865,7 +2020,7 @@ export const C8_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Identify given data: Population = 6,000; Area = 20 sq km; Non-agricultural workforce = 80%.",
-    "id": "gen_c8_eco_ch03_q12",
+    "id": "gen_c8_eco_ch03_q16",
     "nodeId": "c8_eco_ch3_1",
     "difficulty": "standard"
    },
@@ -1911,7 +2066,7 @@ export const C8_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A successful plan must propose: (1) Upgrading transport infrastructure from dirt roads to paved, multi-lane roads to",
-    "id": "gen_c8_eco_ch03_q13",
+    "id": "gen_c8_eco_ch03_q17",
     "nodeId": "c8_eco_ch3_1",
     "difficulty": "standard"
    },
@@ -1920,72 +2075,12 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "A state government decides to build a massive multi-specialty hospital and a college in a rural block. Evaluate how this social infrastructure project might trigger the transition of this rural block into an urban area over the next ten years.",
     "answer": "The project will directly create non-agricultural jobs in healthcare, education, administration, and maintenance",
     "options": [
-     "1. Marketable agricultural surplus = Total grain production - Rural consumption = 500 tonnes - 200 tonnes = 300 tonnes",
-     "A good response must include three clear pillars: (1) In-situ infrastructure development—laying underground sewers, shared community water taps",
+     "1. Initial population density = $\\frac{450,000\\text{ residents}}{30\\text{ sq km}} = 15,000\\text{ persons/sq km}$",
+     "To become a Census Town, the village must undergo the following structural transitions: 1. Population expansion: Ensure the population remains above 5,000 (already met at 12,000)",
      "The project will directly create non-agricultural jobs in healthcare, education, administration, and maintenance"
     ],
     "hint": "Straight from the 'urban area' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The project will directly create non-agricultural jobs in healthcare, education, administration, and maintenance.",
-    "id": "gen_c8_eco_ch03_q14",
-    "nodeId": "c8_eco_ch3_1",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze how the difference in \"market velocity\" (the speed and frequency of transactions) between rural and urban areas is linked to their infrastructure networks.",
-    "answer": "Urban markets experience high market velocity because dense transport networks (highways, metros) and digital/financial infrastructure (banks",
-    "options": [
-     "They cluster to benefit from \"agglomeration economies,\" including access to specialized high-speed communication infrastructure, a dense pool of skilled professionals",
-     "Reclassification occurs when a rural area grows in density and shifts its livelihood away from agriculture",
-     "Urban markets experience high market velocity because dense transport networks (highways, metros) and digital/financial infrastructure (banks"
-    ],
-    "hint": "Straight from the 'urban area' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Urban markets experience high market velocity because dense transport networks (highways, metros) and digital/financial",
-    "id": "gen_c8_eco_ch03_q15",
-    "nodeId": "c8_eco_ch3_1",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why a highly populated village with 10,000 residents, where 80% of the workforce is engaged in wheat and paddy cultivation, is still classified as a rural area under Indian economic standards.",
-    "answer": "Even though the village meets the population threshold (>5,000), its structural economic base is entirely agrarian, with 80% of the workforce in the primary sector",
-    "options": [
-     "Granting legal tenure eliminates the risk of sudden eviction, which encourages slum residents to invest their personal savings into upgrading their homes (using brick, concrete",
-     "Colonial presidency towns were developed as coastal ports designed to channel raw materials out of India and import manufactured goods, creating an export-oriented trade economy",
-     "Even though the village meets the population threshold (>5,000), its structural economic base is entirely agrarian, with 80% of the workforce in the primary sector"
-    ],
-    "hint": "Straight from the 'urban area' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Even though the village meets the population threshold (>5,000), its structural economic base is entirely agrarian,",
-    "id": "gen_c8_eco_ch03_q16",
-    "nodeId": "c8_eco_ch3_1",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Settlement 'Z' has a total population of 6,000 people living in an area of 20 square kilometres. If 80% of its working population is employed in local factories and services, does it qualify as a Census Town? Show your calculations.",
-    "answer": "Step 1: Identify given data: Population = 6,000; Area = 20 sq km; Non-agricultural workforce = 80%",
-    "options": [
-     "1. Initial population density = $\\frac{450,000\\text{ residents}}{30\\text{ sq km}} = 15,000\\text{ persons/sq km}$",
-     "1. Family A's monthly water expense = ₹120/day × 30 days = ₹3,600 per month. Total volume consumed = 80 liters/day × 30 days = 2,400 liters per month",
-     "Step 1: Identify given data: Population = 6,000; Area = 20 sq km; Non-agricultural workforce = 80%"
-    ],
-    "hint": "Straight from the 'urban area' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Identify given data: Population = 6,000; Area = 20 sq km; Non-agricultural workforce = 80%.",
-    "id": "gen_c8_eco_ch03_q17",
-    "nodeId": "c8_eco_ch3_1",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Suppose you are an urban planner. Propose a plan showing how a small rural market town can upgrade its physical and utility infrastructure to support a transition into a formal urban municipality. Focus on three distinct urban utility requirements.",
-    "answer": "A successful plan must propose: (1) Upgrading transport infrastructure from dirt roads to paved, multi-lane roads to handle higher traffic density",
-    "options": [
-     "A strong action plan must include: 1. Setting up a systematic database of all local commercial and residential properties to start levying a basic property tax",
-     "The municipal corporation can develop a polycentric city model by creating satellite commercial centers on the urban periphery equipped with efficient mass transit connections (e",
-     "A successful plan must propose: (1) Upgrading transport infrastructure from dirt roads to paved, multi-lane roads to handle higher traffic density"
-    ],
-    "hint": "Straight from the 'urban area' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A successful plan must propose: (1) Upgrading transport infrastructure from dirt roads to paved, multi-lane roads to",
     "id": "gen_c8_eco_ch03_q18",
     "nodeId": "c8_eco_ch3_1",
     "difficulty": "standard"

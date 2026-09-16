@@ -21,7 +21,9 @@ export const C11_SOC_GEN: SimDef[] = [
   "nodeIds": [
    "c11_soc_cbse_01_001",
    "c11_soc_cbse_01_002",
+   "c11_soc_cbse_01_003",
    "c11_soc_cbse_01_004",
+   "c11_soc_cbse_01_005",
    "c11_soc_cbse_01_006",
    "c11_soc_cbse_01_010"
   ],
@@ -55,10 +57,22 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "Sociology",
+    "text": "Sociology is the systematic and scientific study of human society, social relationships, and social institutions that employs empirical investigation and theoretical analysis to discover patterned regularities in social life, following scientific canons of",
+    "emoji": "👥",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
     "title": "Sociological Knowledge",
     "text": "Sociological knowledge is a systematically derived understanding of social phenomena based on empirical investigation, theoretical frameworks, and methodological rules that allow verification by others, whereas common sense knowledge consists of unreflective,",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Enlightenment (late 17th–18th Century",
+    "text": "The Enlightenment (late 17th–18th century European intellectual movement emphasizing reason, individualism, and scientific method), the Industrial Revolution (late 18th–19th century shift to factory-based capitalist production), and the French Revolution",
+    "emoji": "👥",
+    "bgColor": "from-sky-400 to-cyan-500"
    },
    {
     "title": "Capitalism",
@@ -148,17 +162,80 @@ export const C11_SOC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of steps in the sociological explanation of a delivery rider's accident that goes beyond blaming the rider.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Treat the guarantee as a piece-rate",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Conclude that the accident expresses",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Link the incentive to chronic road risk",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Note the platform's algorithm sets a ten",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that stops at rider carelessness shows the student has missed that sociological explanation uncovers structural connections behind individual acts.",
+    "id": "gen_c11_soc_ch01_q3",
+    "nodeId": "c11_soc_cbse_01_003",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are asked why sociology is called a \"science\" when it studies people who have feelings, choices, and free will—unlike atoms or cells.",
+     "Begin by listing what you think makes something \"scientific\": systematic observation, testable claims, evidence others can check.",
+     "Now apply this to the statement \"poor people are lazy\"—a common sense claim.",
+     "A sociologist would not accept this; they would design a study measuring employment structures, wage levels, inheritance patterns, and health access"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A newspaper article claims \"Rising divorce rates are due to declining moral values.\" Rewrite this as a sociological explanation using structural factors.",
     "answer": "Sociological explanation: Rising divorce rates reflect changing gender roles, women's economic independence, legal reforms easing divorce",
     "options": [
+     "The statement is partially correct but incomplete. Marx did view British rule as a \"unconscious tool of history\" that would destroy the \"idiocy of rural life\" and lay the material",
      "(a) \"How does algorithmic management in platform work reproduce or challenge the gendered division of labour for women delivery partners and home-service providers in Jaipur?",
-     "Example: A state government reserves 50% seats in government colleges for girls to promote gender equity",
      "Sociological explanation: Rising divorce rates reflect changing gender roles, women's economic independence, legal reforms easing divorce"
     ],
     "hint": "Straight from the 'Sociological knowledge' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists \"reasons\" without contrasting *methodology* shows the student hasn't grasped the epistemological difference.",
-    "id": "gen_c11_soc_ch01_q3",
+    "id": "gen_c11_soc_ch01_q4",
     "nodeId": "c11_soc_cbse_01_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -169,17 +246,80 @@ export const C11_SOC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Trace the correct sequence of links by which the oppressive factory simultaneously bred workers' collective strength.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The factory concentrates workers under one",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Shared exploitation gives workers common",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Mechanical routine and regimented labour",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Concentration enables communication",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that sees only oppression or only liberation shows the student has missed the dialectical claim Marx made about factory life.",
+    "id": "gen_c11_soc_ch01_q5",
+    "nodeId": "c11_soc_cbse_01_005",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are a student in 1820 Manchester, watching children your age work 14-hour shifts in cotton mills while the factory owner's children",
+     "You wonder: \"Why is this considered normal?",
+     "Why does no one question this arrangement?\" This puzzle — the gap between what society claims to value (liberty, equality from the French Revolution)",
+     "The Enlightenment gave us tools to question tradition using reason; the Industrial Revolution created new social problems (slums, class conflict,"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Critically evaluate the statement: \"Karl Marx's analysis of British rule in India (1853) was Eurocentric because he saw colonialism as a necessary destructive force that would ultimately modernise India.",
     "answer": "The statement is partially correct but incomplete. Marx did view British rule as a \"unconscious tool of history\" that would destroy the \"idiocy of rural life\" and lay the material",
     "options": [
+     "The dialectic runs: (1) The factory concentrates workers under one roof and one clock (2) Mechanical routine and regimented labour destroy craft autonomy and degrade skill (3)",
      "(a) \"How does algorithmic management in platform work reproduce or challenge the gendered division of labour for women delivery partners and home-service providers in Jaipur?",
-     "Example: A state government reserves 50% seats in government colleges for girls to promote gender equity",
      "The statement is partially correct but incomplete. Marx did view British rule as a \"unconscious tool of history\" that would destroy the \"idiocy of rural life\" and lay the material"
     ],
     "hint": "Straight from the 'Capitalism' slide -- match the key terms.",
     "misconception": "A wrong answer (either \"Marx was totally wrong\" or \"Marx was totally right\") reveals an inability to hold dialectical tension: Marx's stagism was Eurocentric, but his political economy of colonialism was analytically sharp and empirically grounded.",
-    "id": "gen_c11_soc_ch01_q4",
+    "id": "gen_c11_soc_ch01_q6",
     "nodeId": "c11_soc_cbse_01_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -253,7 +393,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer focusing only on gender misses how power operates through *multiple, simultaneous axes*.",
-    "id": "gen_c11_soc_ch01_q5",
+    "id": "gen_c11_soc_ch01_q7",
     "nodeId": "c11_soc_cbse_01_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -265,16 +405,31 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Apply the concept of 'relevant society' to this situation: A Dalit student in a metropolitan city applies for a corporate job. Identify at least three different 'societies' she belongs to simultaneously and explain how each might evaluate her 'merit' differently.",
+    "answer": "Three relevant societies: (1) Corporate professional society — evaluates merit by degrees, skills, English fluency, interview performance",
+    "options": [
+     "The scheme addresses a *symptom* (houselessness) but not necessarily the *structural causes* Mills highlights: rural-urban migration driven by agrarian distress",
+     "Sociological explanation: Rising divorce rates reflect changing gender roles, women's economic independence, legal reforms easing divorce",
+     "Three relevant societies: (1) Corporate professional society — evaluates merit by degrees, skills, English fluency, interview performance"
+    ],
+    "hint": "Straight from the 'dialectical relationship between' slide -- match the key terms.",
+    "misconception": "A wrong answer listing only one society (e.g., 'Indian society') misses the NCERT's key point: in modern times we belong to multiple, overlapping societies with conflicting norms, and inequality operates differently in each.",
+    "id": "gen_c11_soc_ch01_q8",
+    "nodeId": "c11_soc_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Create a new example (not from the textbook) showing an 'unintended consequence' of a well-intentioned social policy, similar to the Kargil compensation case. Explain the structural mechanism that produced the unintended outcome.",
     "answer": "Example: A state government reserves 50% seats in government colleges for girls to promote gender equity",
     "options": [
-     "Step 1: Identify BBBP's focus — sex-selective abortion and girls' education. Step 2: Recognize intersectionality — Dalit girls face caste *and* gender discrimination",
+     "Three relevant societies: (1) Corporate professional society — evaluates merit by degrees, skills, English fluency, interview performance",
      "The scheme addresses a *symptom* (houselessness) but not necessarily the *structural causes* Mills highlights: rural-urban migration driven by agrarian distress",
      "Example: A state government reserves 50% seats in government colleges for girls to promote gender equity"
     ],
     "hint": "Straight from the 'dialectical relationship between' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example: A state government reserves 50% seats in government colleges for girls to promote gender equity.",
-    "id": "gen_c11_soc_ch01_q6",
+    "id": "gen_c11_soc_ch01_q9",
     "nodeId": "c11_soc_cbse_01_001",
     "difficulty": "standard"
    },
@@ -289,22 +444,67 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'dialectical relationship between' slide -- match the key terms.",
     "misconception": "A wrong answer equating the two reveals confusion between 'having opinions about society' and 'doing sociology' — a core NCERT distinction.",
-    "id": "gen_c11_soc_ch01_q7",
+    "id": "gen_c11_soc_ch01_q10",
     "nodeId": "c11_soc_cbse_01_001",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps in the sociological explanation of a delivery rider's accident that goes beyond blaming the rider.",
+    "answer": "The explanation runs: (1) Note the platform's algorithm sets a ten minute delivery guarantee (2) Treat the guarantee as a piece-rate structure where each minute of delay costs the",
+    "options": [
+     "Sociological explanation: Rising divorce rates reflect changing gender roles, women's economic independence, legal reforms easing divorce",
+     "The statement conflates *social reform* with *sociological theory*. Reformers challenged specific practices (sati, widow remarriage",
+     "The explanation runs: (1) Note the platform's algorithm sets a ten minute delivery guarantee (2) Treat the guarantee as a piece-rate structure where each minute of delay costs the"
+    ],
+    "hint": "Straight from the 'Sociology' slide -- match the key terms.",
+    "misconception": "A wrong answer that stops at rider carelessness shows the student has missed that sociological explanation uncovers structural connections behind individual acts.",
+    "id": "gen_c11_soc_ch01_q11",
+    "nodeId": "c11_soc_cbse_01_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Trace the correct sequence of links by which the oppressive factory simultaneously bred workers' collective strength.",
+    "answer": "The dialectic runs: (1) The factory concentrates workers under one roof and one clock (2) Mechanical routine and regimented labour destroy craft autonomy and degrade skill (3)",
+    "options": [
+     "Three relevant societies: (1) Corporate professional society — evaluates merit by degrees, skills, English fluency, interview performance",
+     "The scheme addresses a *symptom* (houselessness) but not necessarily the *structural causes* Mills highlights: rural-urban migration driven by agrarian distress",
+     "The dialectic runs: (1) The factory concentrates workers under one roof and one clock (2) Mechanical routine and regimented labour destroy craft autonomy and degrade skill (3)"
+    ],
+    "hint": "Straight from the 'Enlightenment (late 17th–18th' slide -- match the key terms.",
+    "misconception": "A wrong answer that sees only oppression or only liberation shows the student has missed the dialectical claim Marx made about factory life.",
+    "id": "gen_c11_soc_ch01_q12",
+    "nodeId": "c11_soc_cbse_01_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Apply an intersectional feminist lens to analyze why the Beti Bachao Beti Padhao (BBBP) scheme, despite good intentions, may fail to improve outcomes for Dalit girls in rural Haryana.",
+    "answer": "Step 1: Identify BBBP's focus — sex-selective abortion and girls' education. Step 2: Recognize intersectionality — Dalit girls face caste *and* gender discrimination",
+    "options": [
+     "The scheme addresses a *symptom* (houselessness) but not necessarily the *structural causes* Mills highlights: rural-urban migration driven by agrarian distress",
+     "The statement is partially correct but incomplete. Marx did view British rule as a \"unconscious tool of history\" that would destroy the \"idiocy of rural life\" and lay the material",
+     "Step 1: Identify BBBP's focus — sex-selective abortion and girls' education. Step 2: Recognize intersectionality — Dalit girls face caste *and* gender discrimination"
+    ],
+    "hint": "Straight from the 'Feminist interventions in' slide -- match the key terms.",
+    "misconception": "A wrong answer focusing only on gender misses how power operates through *multiple, simultaneous axes*.",
+    "id": "gen_c11_soc_ch01_q13",
+    "nodeId": "c11_soc_cbse_01_010",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
     "question": "Compare and contrast how a functionalist sociologist (e.g., Parsons) and a feminist sociologist (e.g., Ann Oakley) would explain the sexual division of labour in the modern Indian family.",
     "answer": "Parsons: Instrumental (male) vs. expressive (female) roles are *functional* for social stability; specialization ensures efficient family functioning",
     "options": [
+     "The dialectic runs: (1) The factory concentrates workers under one roof and one clock (2) Mechanical routine and regimented labour destroy craft autonomy and degrade skill (3)",
      "Three relevant societies: (1) Corporate professional society — evaluates merit by degrees, skills, English fluency, interview performance",
-     "The statement is false. Common sense is unreflective — it doesn't question its own origins (\"Why do I think poor people are lazy?",
      "Parsons: Instrumental (male) vs. expressive (female) roles are *functional* for social stability; specialization ensures efficient family functioning"
     ],
     "hint": "Straight from the 'Feminist interventions in' slide -- match the key terms.",
     "misconception": "A wrong answer (\"both agree division exists but disagree on origin\") misses the *political stakes*: functionalism legitimizes inequality; feminism exposes it as power.",
-    "id": "gen_c11_soc_ch01_q8",
+    "id": "gen_c11_soc_ch01_q14",
     "nodeId": "c11_soc_cbse_01_010",
     "difficulty": "advanced"
    },
@@ -313,13 +513,13 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Design a mini-research project using feminist methodology to study the impact of the gig economy (e.g., Zomato, Swiggy, Urban Company) on gendered labor in a Tier-2 Indian city. Specify: (a) research question, (b) why feminist standpoint epistemology matters here, (c) one ethical dilemma you would anticipate.",
     "answer": "(a) \"How does algorithmic management in platform work reproduce or challenge the gendered division of labour for women delivery partners and home-service providers in Jaipur?",
     "options": [
+     "The dialectic runs: (1) The factory concentrates workers under one roof and one clock (2) Mechanical routine and regimented labour destroy craft autonomy and degrade skill (3)",
      "Three relevant societies: (1) Corporate professional society — evaluates merit by degrees, skills, English fluency, interview performance",
-     "Sociological explanation: Rising divorce rates reflect changing gender roles, women's economic independence, legal reforms easing divorce",
      "(a) \"How does algorithmic management in platform work reproduce or challenge the gendered division of labour for women delivery partners and home-service providers in Jaipur?"
     ],
     "hint": "Straight from the 'Feminist interventions in' slide -- match the key terms.",
     "misconception": "A poor answer uses standard questionnaire without reflexivity on researcher's positionality or algorithmic opacity.",
-    "id": "gen_c11_soc_ch01_q9",
+    "id": "gen_c11_soc_ch01_q15",
     "nodeId": "c11_soc_cbse_01_010",
     "difficulty": "advanced"
    },
@@ -334,7 +534,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Feminist interventions in' slide -- match the key terms.",
     "misconception": "A wrong answer (\"Indian tradition already had feminism\") commits presentism — it ignores how colonial modernity reshaped gender and how feminist theory enables *critical self-reflection* on sociology's own androcentrism.",
-    "id": "gen_c11_soc_ch01_q10",
+    "id": "gen_c11_soc_ch01_q16",
     "nodeId": "c11_soc_cbse_01_010",
     "difficulty": "advanced"
    }
@@ -1353,6 +1553,21 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Apply the functionalist perspective to the institution of *education* in contemporary India. Identify: (i) the specific societal need it claims to satisfy, (ii) two norms and two roles it prescribes, and (iii) one sanction for norm violation.",
+    "answer": "(i) Need: transmitting shared culture and allocating human capital (Durkheim + Parsons). (ii) Norms: punctuality, merit-based evaluation",
+    "options": [
+     "- Parents: C, family of orientation. - Sister: C, family of orientation. - Wife: A, family of procreation",
+     "Functionalist view: caste endogamy maintains occupational specialization and cultural transmission",
+     "(i) Need: transmitting shared culture and allocating human capital (Durkheim + Parsons). (ii) Norms: punctuality, merit-based evaluation"
+    ],
+    "hint": "Straight from the 'social institution' slide -- match the key terms.",
+    "misconception": "A wrong answer listing \"getting a job\" as the *societal* need (rather than individual motive) commits the Individualistic Reduction error — confusing latent functions with manifest needs.",
+    "id": "gen_c11_soc_ch03_q14",
+    "nodeId": "c11_soc_cbse_03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the claim: \"The functionalist perspective is inherently conservative because it justifies existing institutions as necessary, while the conflict perspective is inherently radical because it seeks to overthrow them.",
     "answer": "The claim is *partially valid but sociologically naive*. Functionalism *can* be conservative (e.g",
     "options": [
@@ -1362,7 +1577,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'social institution' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is *partially valid but sociologically naive*. Functionalism *can* be conservative (e.",
-    "id": "gen_c11_soc_ch03_q14",
+    "id": "gen_c11_soc_ch03_q15",
     "nodeId": "c11_soc_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -1377,7 +1592,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'social institution' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement conflates *formalisation* with *origination* and misses the evolutionary, bottom-up character of informal institutions — a Teleological Fallacy common in Class 11.",
-    "id": "gen_c11_soc_ch03_q15",
+    "id": "gen_c11_soc_ch03_q16",
     "nodeId": "c11_soc_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -1392,7 +1607,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'social institution' slide -- match the key terms.",
     "misconception": "A wrong answer that omits \"continuous operation\" or treats institutions as mere organisations (like a specific school building) reveals the student confuses the abstract institutional pattern with its concrete organisational instantiation — a classic Category Error at this level.",
-    "id": "gen_c11_soc_ch03_q16",
+    "id": "gen_c11_soc_ch03_q17",
     "nodeId": "c11_soc_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -1407,21 +1622,6 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Family' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"gender unjust\" misses the empirical falsification; a wrong answer citing \"modern families are different\" misses the structural argument about role specialization.",
-    "id": "gen_c11_soc_ch03_q17",
-    "nodeId": "c11_soc_cbse_03_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the Kolam female-headed household (accepted norm) with the migrant female-headed household (husband stops sending remittances). Analyze how the same structural form (female-headed) emerges from different causal mechanisms — one cultural, one economic — and what this implies for the \"patriarchy is universal\"",
-    "answer": "Kolam: Female headship is a culturally institutionalized norm (matrilineal/matrilocal context) where women's authority is legitimate and permanent",
-    "options": [
-     "Functionalist: The gender-differentiated ritual reinforces social solidarity by affirming shared values and complementary roles",
-     "Craft: worker controls entire process, uses holistic skill, decides pace, identifies with final product",
-     "Kolam: Female headship is a culturally institutionalized norm (matrilineal/matrilocal context) where women's authority is legitimate and permanent"
-    ],
-    "hint": "Straight from the 'Family' slide -- match the key terms.",
-    "misconception": "A wrong answer treating both as \"women forced to take charge\" erases the cultural legitimacy in Kolam society and misreads structural diversity as uniform oppression.",
     "id": "gen_c11_soc_ch03_q18",
     "nodeId": "c11_soc_cbse_03_002",
     "difficulty": "advanced"
@@ -1878,6 +2078,21 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Apply Geertz's \"webs of significance\" concept to the Bangalore auto-driver interaction (NCERT p.64). Identify the specific 'web' (shared meaning system) that allows the commuter to understand the driver's eyebrow arch as a question and the head jerk as 'yes' — without a single word spoken.",
+    "answer": "The 'web' is the *Bangalore auto-rickshaw hiring ritual*: a shared, tacit code where (1) destination-name + eyebrow arch = \"Will you go to X?",
+    "options": [
+     "Step 1 (Dimensions): Conduct 3 visits at different times; record field notes on: Cognitive — shared vocabulary/jokes; Normative — unwritten rules (seating order, turn-taking)",
+     "Practice: “Oxygen Toast” — before each communal meal, colonists share a breath from a portable oxygen canister while stating one personal goal",
+     "The 'web' is the *Bangalore auto-rickshaw hiring ritual*: a shared, tacit code where (1) destination-name + eyebrow arch = \"Will you go to X?"
+    ],
+    "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
+    "misconception": "A wrong answer describing it as 'body language' or 'gesture' misses Geertz's point: the meaning is not in the gesture itself but in the *culturally constructed interpretation* shared by the group — an outsider (e.g., a tourist) would not decode it.",
+    "id": "gen_c11_soc_ch04_q10",
+    "nodeId": "c11_soc_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the Kroeber & Kluckhohn definition (h) \"a mechanism for the normative regulation of behaviour\" with Malinowski's definition. Which dimension of culture (cognitive, normative, material) does each prioritise, and why does this difference matter for studying a society like the Andaman Islanders (NCERT tsunami",
     "answer": "Definition (h) prioritises the *normative* dimension (rules, sanctions); Malinowski prioritises the *material-functional* dimension (artifacts, technical processes meeting needs)",
     "options": [
@@ -1887,7 +2102,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A wrong answer saying both are 'normative' fails to see that Malinowski's 'values' are embedded in survival practices, not abstract rules.",
-    "id": "gen_c11_soc_ch04_q10",
+    "id": "gen_c11_soc_ch04_q11",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -1902,7 +2117,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A poor answer merely concatenates the three definitions without synthesis.",
-    "id": "gen_c11_soc_ch04_q11",
+    "id": "gen_c11_soc_ch04_q12",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -1917,7 +2132,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is false. Geertz *complements* rather than replaces: Tylor inventories the *contents* of culture (knowledge,",
-    "id": "gen_c11_soc_ch04_q12",
+    "id": "gen_c11_soc_ch04_q13",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -1932,7 +2147,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on 'adding artifacts' misses the functional interdependence: for Malinowski, a canoe is not just an object but a technical process embedded with knowledge and social values.",
-    "id": "gen_c11_soc_ch04_q13",
+    "id": "gen_c11_soc_ch04_q14",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -1947,8 +2162,23 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A wrong answer that includes 'art' as non-material reveals confusion between tangible artifacts (paintings) and the abstract aesthetic system; Tylor treats art as a capability/habit, not the physical object.",
-    "id": "gen_c11_soc_ch04_q14",
+    "id": "gen_c11_soc_ch04_q15",
     "nodeId": "c11_soc_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A village community traditionally uses a solar calendar for agricultural rituals. The government introduces a digital weather-forecast app that predicts rainfall more accurately. Using the three dimensions, analyse what happens when younger farmers start relying on the app instead of the calendar.",
+    "answer": "Step 1: Identify the material change — smartphone and app replace the physical calendar. Step 2: Cognitive shift",
+    "options": [
+     "The hidden curriculum transmits the norm that domestic/cleaning work is \"women's work\" and heavy/physical tasks are \"men's work\" — reinforcing the sexual division of labour",
+     "1) Gender segregation → reinforces normative separation of sexes in public space. 2) Boys in front → reinforces male precedence/hierarchy",
+     "Step 1: Identify the material change — smartphone and app replace the physical calendar. Step 2: Cognitive shift"
+    ],
+    "hint": "Straight from the 'Culture consists of three' slide -- match the key terms.",
+    "misconception": "A wrong answer that only mentions “technology replaces tradition” fails to break down the three dimensions and their interplay.",
+    "id": "gen_c11_soc_ch04_q16",
+    "nodeId": "c11_soc_cbse_04_002",
     "difficulty": "standard"
    },
    {
@@ -1962,7 +2192,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture consists of three' slide -- match the key terms.",
     "misconception": "A weak answer lists only surface behaviours (“they shake hands vs bow”) without linking each to its dimension. The analytical requirement is to show how each dimension operates differently in the two settings.",
-    "id": "gen_c11_soc_ch04_q15",
+    "id": "gen_c11_soc_ch04_q17",
     "nodeId": "c11_soc_cbse_04_002",
     "difficulty": "standard"
    },
@@ -1977,39 +2207,9 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture consists of three' slide -- match the key terms.",
     "misconception": "A poor answer invents a practice but fails to label each dimension or shows elements that don’t cohere (e.g., a norm without a material basis). The task tests synthesis across dimensions.",
-    "id": "gen_c11_soc_ch04_q16",
-    "nodeId": "c11_soc_cbse_04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: “Material culture changes faster than non-material culture, so culture lag is inevitable in modern societies.”",
-    "answer": "The statement is partially valid but oversimplified. Material innovations (e.g., smartphones) do diffuse rapidly, while normative adjustments (e",
-    "options": [
-     "Cognitive: The collective redefines \"poetry\" as performative, political, and meme-aware (vs. academic/textual)",
-     "The claim is false. Geertz *complements* rather than replaces: Tylor inventories the *contents* of culture (knowledge, belief, art)",
-     "The statement is partially valid but oversimplified. Material innovations (e.g., smartphones) do diffuse rapidly, while normative adjustments (e"
-    ],
-    "hint": "Straight from the 'Culture consists of three' slide -- match the key terms.",
-    "misconception": "A wrong answer treats culture lag as a one-way mechanical law.",
-    "id": "gen_c11_soc_ch04_q17",
-    "nodeId": "c11_soc_cbse_04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A school requires all students to stand silently in gender-segregated lines during morning assembly, with boys in front rows. Identify three hidden curriculum lessons being transmitted and the social norm each reinforces.",
-    "answer": "1) Gender segregation → reinforces normative separation of sexes in public space. 2) Boys in front → reinforces male precedence/hierarchy",
-    "options": [
-     "The 'web' is the *Bangalore auto-rickshaw hiring ritual*: a shared, tacit code where (1) destination-name + eyebrow arch = \"Will you go to X?",
-     "Practice: “Oxygen Toast” — before each communal meal, colonists share a breath from a portable oxygen canister while stating one personal goal",
-     "1) Gender segregation → reinforces normative separation of sexes in public space. 2) Boys in front → reinforces male precedence/hierarchy"
-    ],
-    "hint": "Straight from the 'Hidden curriculum' slide -- match the key terms.",
-    "misconception": "A wrong answer listing \"discipline\" or \"patriotism\" without gender analysis misses the critical dimension; a wrong answer calling it \"formal rule\" fails to see it as hidden because no textbook mandates it.",
     "id": "gen_c11_soc_ch04_q18",
-    "nodeId": "c11_soc_cbse_04_005",
-    "difficulty": "advanced"
+    "nodeId": "c11_soc_cbse_04_002",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -2037,6 +2237,7 @@ export const C11_SOC_GEN: SimDef[] = [
    "c11_soc_cbse_05_002",
    "c11_soc_cbse_05_004",
    "c11_soc_cbse_05_005",
+   "c11_soc_cbse_05_006",
    "c11_soc_cbse_05_007"
   ],
   "emoji": "👥",
@@ -2075,6 +2276,12 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Participant Observation",
+    "text": "Participant observation is a qualitative research method where the sociologist immerses themselves in a community for an extended period (typically a year or more), participating in daily life while systematically observing and recording social interactions,",
+    "emoji": "👥",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
     "title": "Bronislaw Malinowski Was a Polish-British",
     "text": "Bronislaw Malinowski (1884–1942) was a Polish-British anthropologist who transformed social anthropology by establishing intensive, long-term participant observation — or 'fieldwork' — as the discipline's defining methodological requirement, replacing the",
     "emoji": "👥",
@@ -2087,7 +2294,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Compare and contrast the 'old notion of objectivity' (as an achieved, disinterested stance) with the 'modern sociological view' (objectivity as a continuous process). Why is the old notion now considered misleading?",
     "answer": "The old notion treats objectivity as a binary state — either the researcher is objective or not — assuming a 'view from nowhere' is attainable",
     "options": [
-     "Alignments: (1) vernacular language use without interpreters; (2) residential immersion and daily field notes",
+     "Malinowski argued that only direct, unmediated interaction in the vernacular allows the anthropologist to access 'implicit knowledge'",
      "This claim commits the relativist fallacy. The impossibility of perfect objectivity does not entail the impossibility of better or worse research",
      "The old notion treats objectivity as a binary state — either the researcher is objective or not — assuming a 'view from nowhere' is attainable"
     ],
@@ -2146,17 +2353,80 @@ export const C11_SOC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of stages in a participant observation study of gig workers at a metro waiting area.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Enter the setting daily during peak hours",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Reveal the researcher's identity gradually",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Adopt a participant-as-observer role helping",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Weigh the limits of the setting",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that begins with interviews alone shows the student has missed that participant observation trades surveys for sustained immersion in daily life.",
+    "id": "gen_c11_soc_ch05_q4",
+    "nodeId": "c11_soc_cbse_05_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you want to understand why students in your school's canteen form the same friendship groups every day — not just who sits with whom, but",
+     "A survey would give you categories; an interview would give you rehearsed answers.",
+     "But if you spent three months eating lunch with them daily, learning their slang, noticing who gets teased and who mediates conflicts, you'd grasp",
+     "That is participant observation: trading breadth for depth, distance for immersion."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What specific historical circumstance forced Malinowski to conduct his fieldwork in the Trobriand Islands rather than return to Europe at the outbreak of World War I?",
     "answer": "Malinowski was a Polish national visiting British-controlled Australia when WWI began; Poland had been annexed by Germany",
     "options": [
+     "The study runs: (1) Enter the setting daily during peak hours as an ordinary customer (2) Reveal the researcher's identity gradually to a few workers after trust forms (3) Adopt a",
      "(a) Quantitative indicator: Average number of order rejections per worker per week before account deactivation warning (measurable, countable)",
-     "Alignments: (1) vernacular language use without interpreters; (2) residential immersion and daily field notes",
      "Malinowski was a Polish national visiting British-controlled Australia when WWI began; Poland had been annexed by Germany"
     ],
     "hint": "Straight from the 'Bronislaw Malinowski  was a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 'he chose the Trobriands for their cultural uniqueness') reveals the student confuses methodological intention with historical contingency — missing how structural constraints (colonial law, war) shaped anthropology's canonical field site.",
-    "id": "gen_c11_soc_ch05_q4",
+    "id": "gen_c11_soc_ch05_q5",
     "nodeId": "c11_soc_cbse_05_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -2177,8 +2447,23 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Objectivity in social research' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the claim reveals a failure to distinguish between 'absolute certainty' and 'warranted assertibility' — the core of scientific epistemology.",
-    "id": "gen_c11_soc_ch05_q5",
+    "id": "gen_c11_soc_ch05_q6",
     "nodeId": "c11_soc_cbse_05_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of stages in a participant observation study of gig workers at a metro waiting area.",
+    "answer": "The study runs: (1) Enter the setting daily during peak hours as an ordinary customer (2) Reveal the researcher's identity gradually to a few workers after trust forms (3) Adopt a",
+    "options": [
+     "Malinowski was a Polish national visiting British-controlled Australia when WWI began; Poland had been annexed by Germany",
+     "Malinowski argued that only direct, unmediated interaction in the vernacular allows the anthropologist to access 'implicit knowledge'",
+     "The study runs: (1) Enter the setting daily during peak hours as an ordinary customer (2) Reveal the researcher's identity gradually to a few workers after trust forms (3) Adopt a"
+    ],
+    "hint": "Straight from the 'Participant observation' slide -- match the key terms.",
+    "misconception": "A wrong answer that begins with interviews alone shows the student has missed that participant observation trades surveys for sustained immersion in daily life.",
+    "id": "gen_c11_soc_ch05_q7",
+    "nodeId": "c11_soc_cbse_05_006",
     "difficulty": "advanced"
    },
    {
@@ -2192,7 +2477,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bronislaw Malinowski  was a' slide -- match the key terms.",
     "misconception": "A wrong answer treating duration as merely 'more time = better' misses Malinowski's specific theoretical rationale: only long-term presence reveals the *systemic interconnections* between kinship, economy, and ritual that short visits fragment.",
-    "id": "gen_c11_soc_ch05_q6",
+    "id": "gen_c11_soc_ch05_q8",
     "nodeId": "c11_soc_cbse_05_007",
     "difficulty": "advanced"
    },
@@ -2207,7 +2492,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bronislaw Malinowski  was a' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on 'accuracy' or 'respect' misses the epistemological claim: language fluency enables the shift from *etic* (outsider) categories to *emic* (insider) meanings, which Malinowski treated as the sine qua non of scientific anthropology.",
-    "id": "gen_c11_soc_ch05_q7",
+    "id": "gen_c11_soc_ch05_q9",
     "nodeId": "c11_soc_cbse_05_007",
     "difficulty": "advanced"
    }
@@ -2219,7 +2504,8 @@ export const C11_SOC_GEN: SimDef[] = [
    ]
   },
   "successLine": "Objectivity In Social Research mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_soc_ch06",
@@ -2989,15 +3275,15 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Explain why Durkheim compares social structure to the walls of a room, and why Marx would argue this metaphor is incomplete without the concept of human agency.",
-    "answer": "Durkheim uses the room metaphor to illustrate externality and constraint: just as walls define possible movements without our consent, social structure (norms, roles",
+    "question": "Evaluate the claim: \"Competition is a natural human instinct; socialism failed because it went against human nature.\" Use sociological evidence from the textbook to critique this naturalistic fallacy.",
+    "answer": "The claim commits the naturalistic fallacy sociology explicitly rejects. Textbook evidence: (1) African children in the anecdote rejected competitive games as distressing",
     "options": [
-     "Refute. Alienation describes the *loss of control* over labour process and product under *wage labour*, not the extinction of agency",
-     "Durkheim posits that society exercises a moderating moral influence (solidarity) that tempers brute self-interest",
-     "Durkheim uses the room metaphor to illustrate externality and constraint: just as walls define possible movements without our consent, social structure (norms, roles"
+     "Correct: The claim is largely justified because: (1) Conflict perspective exposes how \"cooperative\" gender norms (e",
+     "Competition ensures efficient role allocation (best students get best jobs), motivates innovation, and channels conflict into regulated channels (exams",
+     "The claim commits the naturalistic fallacy sociology explicitly rejects. Textbook evidence: (1) African children in the anecdote rejected competitive games as distressing"
     ],
     "hint": "Straight from the 'Social structure' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats the metaphor as perfect reveals uncritical acceptance of structural determinism. One that ignores Durkheim's \"social facts\" concept misses the empirical reality of constraint. One that sees Marx as only about revolution misses his emphasis on structural conditions shaping agency.",
+    "misconception": "A wrong answer that agrees with the claim accepts common sense over sociological analysis. One that simply says \"it's not natural\" without historical evidence fails the evaluation standard. The critique must show competition as a historically specific social process, not a biological given.",
     "id": "gen_c11_soc_ch06_q18",
     "nodeId": "c11_soc_cbse_06_001",
     "difficulty": "advanced"
@@ -4782,8 +5068,10 @@ export const C11_SOC_GEN: SimDef[] = [
    "c11_soc_cbse_09_002",
    "c11_soc_cbse_09_004",
    "c11_soc_cbse_09_005",
+   "c11_soc_cbse_09_006",
    "c11_soc_cbse_09_008",
-   "c11_soc_cbse_09_009"
+   "c11_soc_cbse_09_009",
+   "c11_soc_cbse_09_011"
   ],
   "emoji": "👥",
   "theme": {
@@ -4821,6 +5109,12 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
+    "title": "Social Facts",
+    "text": "Social facts are patterns of behaviour, beliefs, and institutions that exist externally to individuals, exert coercive constraint on individual actions, and emerge from collective association rather than individual psychology; they are the proper subject",
+    "emoji": "👥",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
     "title": "Max Weber's Interpretive Sociology",
     "text": "Max Weber's interpretive sociology (Verstehende Soziologie) is the systematic study of social action through empathetic understanding (Verstehen) of the subjective meanings actors attach to their behavior, requiring the sociologist to achieve value neutrality",
     "emoji": "👥",
@@ -4831,6 +5125,12 @@ export const C11_SOC_GEN: SimDef[] = [
     "text": "Weber's ideal type is a heuristic methodological tool — a logically constructed, abstract model that accentuates the most analytically significant traits of a social phenomenon (e.",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Bureaucracy, In Weber's Formulation",
+    "text": "Bureaucracy, in Weber's formulation, is the institutional embodiment of rational-legal authority where legitimate domination rests on a belief in the legality of enacted rules and the right of those elevated to authority under such rules to issue commands; it",
+    "emoji": "👥",
+    "bgColor": "from-emerald-400 to-teal-500"
    }
   ],
   "challenges": [
@@ -4839,8 +5139,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Explain why Marx's move from Berlin to Paris in 1843 was a theoretical turning point, not merely a geographical relocation.",
     "answer": "In Berlin, Marx operated within the Young Hegelian circle, critiquing religion and the Prussian state at an abstract philosophical level",
     "options": [
-     "Steps: (1) Alienation from product: the service interaction is standardised and owned by the company; the worker cannot claim it as their own creation",
-     "Agreement: Both see the division of labour as increasing interdependence and complexity in modern society",
+     "(a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning, voting, teacher oversight, etc",
+     "Durkheim was appointed to the Chair of Education (later renamed Education and Sociology) at the University of Paris in 1902; the Chair was renamed Education and Sociology in 1913",
      "In Berlin, Marx operated within the Young Hegelian circle, critiquing religion and the Prussian state at an abstract philosophical level"
     ],
     "hint": "Straight from the 'Karl Marx's intellectual formation' slide -- match the key terms.",
@@ -4923,8 +5223,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "State the exact year Durkheim was appointed to the first Chair of Sociology at the University of Paris and the name of the journal he founded in 1897.",
     "answer": "Durkheim was appointed to the Chair of Education (later renamed Education and Sociology) at the University of Paris in 1902; the Chair was renamed Education and Sociology in 1913",
     "options": [
-     "In Berlin, Marx operated within the Young Hegelian circle, critiquing religion and the Prussian state at an abstract philosophical level",
-     "Steps: (1) Alienation from product: the service interaction is standardised and owned by the company; the worker cannot claim it as their own creation",
+     "The critique runs: (1) Separate the social fact of a national rate from any individual case (2) Apply integration and regulation theory to ask which groups inside the country",
+     "The procedure runs: (1) The clerk with fixed jurisdiction accepts only the specified documents (2) The file moves up the graded hierarchy from superintendent to the collector's",
      "Durkheim was appointed to the Chair of Education (later renamed Education and Sociology) at the University of Paris in 1902; the Chair was renamed Education and Sociology in 1913"
     ],
     "hint": "Straight from the 'Emile Durkheim  was a French' slide -- match the key terms.",
@@ -4936,6 +5236,68 @@ export const C11_SOC_GEN: SimDef[] = [
      "Imagine you are a university administrator in 1910 deciding whether to create a new department called \"Sociology.",
      "Start by asking: \"How did a son of rabbis from a small French town convince the Sorbonne that society could be studied like physics?",
      "The key insight is that Durkheim made sociology scientific by showing that collective patterns (e."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of points in the Durkheimian critique of calling a whole culture inherently suicidal.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Separate the social fact of a national rate",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Demand comparative analysis of structural",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Apply integration and regulation theory",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Refuse the ecological fallacy of reading",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats the rate as proof of national character shows the student has missed Durkheim's rule that social facts must be explained by other social facts.",
+    "id": "gen_c11_soc_ch09_q4",
+    "nodeId": "c11_soc_cbse_09_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a Class 11 student reads a news report about a farmer's suicide in Vidarbha and thinks, \"This is a personal tragedy caused by debt and",
+     "Begin by asking: \"If suicide is the most personal act imaginable, how can it reveal society's structure?",
+     "The key insight: when individual cases are aggregated, the 'noise' of personal circumstance cancels out, revealing the 'signal' of social forces —"
     ]
    },
    {
@@ -4991,7 +5353,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: This is value-rational action (wertrational). Step 1: Identify the subjective meaning — the woman acts from a conscious",
-    "id": "gen_c11_soc_ch09_q4",
+    "id": "gen_c11_soc_ch09_q5",
     "nodeId": "c11_soc_cbse_09_008",
     "difficulty": "standard",
     "workedExample": [
@@ -5054,7 +5416,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning,",
-    "id": "gen_c11_soc_ch09_q5",
+    "id": "gen_c11_soc_ch09_q6",
     "nodeId": "c11_soc_cbse_09_009",
     "difficulty": "standard",
     "workedExample": [
@@ -5065,19 +5427,157 @@ export const C11_SOC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of stations a domicile certificate application passes through in an ideal-typical collectorate.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The clerk with fixed jurisdiction accepts",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The file moves up the graded hierarchy",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Every action",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Trained staff applying conduct rules hand",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that lets personal contacts replace any station shows the student has missed that each Weberian feature is designed to make authority calculable rather than arbitrary.",
+    "id": "gen_c11_soc_ch09_q7",
+    "nodeId": "c11_soc_cbse_09_011",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you visit a government office to get a caste certificate: you take a token, wait for your number, submit documents to a clerk who checks them",
+     "Ask yourself: why does this process feel impersonal, rule-bound, and slow?",
+     "This is Weber's bureaucracy in action — the very features that frustrate you (written rules, hierarchy, document-dependence, separation of office",
+     "To begin, list the five features from the textbook, then match each to a step in your certificate journey."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A call-centre employee in Bengaluru follows a strict script, is monitored for \"average handling time,\" and cannot deviate from the protocol even when a customer needs genuine help. Using Marx's framework, identify which dimensions of alienation are present and explain how each manifests in this scenario.",
+    "answer": "Steps: (1) Alienation from product: the service interaction is standardised and owned by the company; the worker cannot claim it as their own creation",
+    "options": [
+     "This is value-rational action (wertrational). Step 1: Identify the subjective meaning — the woman acts from a conscious belief in a religious duty",
+     "(a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning, voting, teacher oversight, etc",
+     "Steps: (1) Alienation from product: the service interaction is standardised and owned by the company; the worker cannot claim it as their own creation"
+    ],
+    "hint": "Straight from the 'Marx's concept of alienation' slide -- match the key terms.",
+    "misconception": "A wrong answer that only mentions \"stress\" or \"unhappiness\" fails to structurally map the experience to the four dimensions.",
+    "id": "gen_c11_soc_ch09_q8",
+    "nodeId": "c11_soc_cbse_09_004",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Compare Durkheim's and Marx's views on the division of labour as presented in the NCERT text. Identify one fundamental agreement and one fundamental disagreement, and explain how each thinker's biography (Durkheim's republican France vs. Marx's exile in London) might have shaped that difference.",
     "answer": "Agreement: Both see the division of labour as increasing interdependence and complexity in modern society",
     "options": [
-     "Steps: (1) Alienation from product: the service interaction is standardised and owned by the company; the worker cannot claim it as their own creation",
-     "(a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning, voting, teacher oversight, etc",
+     "In Berlin, Marx operated within the Young Hegelian circle, critiquing religion and the Prussian state at an abstract philosophical level",
+     "This is value-rational action (wertrational). Step 1: Identify the subjective meaning — the woman acts from a conscious belief in a religious duty",
      "Agreement: Both see the division of labour as increasing interdependence and complexity in modern society"
     ],
     "hint": "Straight from the 'Emile Durkheim  was a French' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists \"Durkheim = solidarity, Marx = conflict\" without linking to their institutional positions shows the student cannot contextualise theory production — a key senior-secondary skill.",
-    "id": "gen_c11_soc_ch09_q6",
+    "id": "gen_c11_soc_ch09_q9",
     "nodeId": "c11_soc_cbse_09_005",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of points in the Durkheimian critique of calling a whole culture inherently suicidal.",
+    "answer": "The critique runs: (1) Separate the social fact of a national rate from any individual case (2) Apply integration and regulation theory to ask which groups inside the country",
+    "options": [
+     "Durkheim was appointed to the Chair of Education (later renamed Education and Sociology) at the University of Paris in 1902; the Chair was renamed Education and Sociology in 1913",
+     "The procedure runs: (1) The clerk with fixed jurisdiction accepts only the specified documents (2) The file moves up the graded hierarchy from superintendent to the collector's",
+     "The critique runs: (1) Separate the social fact of a national rate from any individual case (2) Apply integration and regulation theory to ask which groups inside the country"
+    ],
+    "hint": "Straight from the 'Social facts' slide -- match the key terms.",
+    "misconception": "A wrong answer that treats the rate as proof of national character shows the student has missed Durkheim's rule that social facts must be explained by other social facts.",
+    "id": "gen_c11_soc_ch09_q10",
+    "nodeId": "c11_soc_cbse_09_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Classify the following action into Weber's four types of social action with justification: \"A devout Hindu woman fasts every Tuesday for Lord Hanuman, believing it will bring her family prosperity.\"",
+    "answer": "This is value-rational action (wertrational). Step 1: Identify the subjective meaning — the woman acts from a conscious belief in a religious duty",
+    "options": [
+     "(a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning, voting, teacher oversight, etc",
+     "Steps: (1) Alienation from product: the service interaction is standardised and owned by the company; the worker cannot claim it as their own creation",
+     "This is value-rational action (wertrational). Step 1: Identify the subjective meaning — the woman acts from a conscious belief in a religious duty"
+    ],
+    "hint": "Straight from the 'Max Weber's interpretive sociology' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: This is value-rational action (wertrational). Step 1: Identify the subjective meaning — the woman acts from a conscious",
+    "id": "gen_c11_soc_ch09_q11",
+    "nodeId": "c11_soc_cbse_09_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a research exercise for Class 11 students to practice both ideal type construction and value neutrality. Specify: (a) a social phenomenon to study, (b) steps to build the ideal type, (c) a biased statement to neutralise, and (d) the neutralised version.",
+    "answer": "(a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning, voting, teacher oversight, etc",
+    "options": [
+     "This is value-rational action (wertrational). Step 1: Identify the subjective meaning — the woman acts from a conscious belief in a religious duty",
+     "Steps: (1) Alienation from product: the service interaction is standardised and owned by the company; the worker cannot claim it as their own creation",
+     "(a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning, voting, teacher oversight, etc"
+    ],
+    "hint": "Straight from the 'Weber's ideal type' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning,",
+    "id": "gen_c11_soc_ch09_q12",
+    "nodeId": "c11_soc_cbse_09_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of stations a domicile certificate application passes through in an ideal-typical collectorate.",
+    "answer": "The procedure runs: (1) The clerk with fixed jurisdiction accepts only the specified documents (2) The file moves up the graded hierarchy from superintendent to the collector's",
+    "options": [
+     "The critique runs: (1) Separate the social fact of a national rate from any individual case (2) Apply integration and regulation theory to ask which groups inside the country",
+     "Durkheim was appointed to the Chair of Education (later renamed Education and Sociology) at the University of Paris in 1902; the Chair was renamed Education and Sociology in 1913",
+     "The procedure runs: (1) The clerk with fixed jurisdiction accepts only the specified documents (2) The file moves up the graded hierarchy from superintendent to the collector's"
+    ],
+    "hint": "Straight from the 'Bureaucracy, in Weber's' slide -- match the key terms.",
+    "misconception": "A wrong answer that lets personal contacts replace any station shows the student has missed that each Weberian feature is designed to make authority calculable rather than arbitrary.",
+    "id": "gen_c11_soc_ch09_q13",
+    "nodeId": "c11_soc_cbse_09_011",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -5087,7 +5587,8 @@ export const C11_SOC_GEN: SimDef[] = [
    ]
   },
   "successLine": "Karl Marx's Intellectual mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_soc_ch10",
@@ -5777,6 +6278,21 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Apply the concept of 'colonial specificity' to analyse the following statement: \"G.S. Ghurye's classification of tribes as 'backward Hindus' was a nationalist response to British anthropological categories.\" Identify two ways this statement reflects the colonial context shaping Indian sociology.",
+    "answer": "Step 1: Recognise that British administrator-anthropologists (like Elwin) categorised tribes as distinct, isolated 'primitive' groups needing protection from Hindu assimilation",
+    "options": [
+     "Ghurye meant that tribes were not isolated primitive communities but had participated in continuous, long-term interaction with Hindu society — sharing deities (e",
+     "The label is partially accurate but obscures two structural factors: (1) The colonial state's systematic demand for ethnographic data across princely states and tribal areas",
+     "Step 1: Recognise that British administrator-anthropologists (like Elwin) categorised tribes as distinct, isolated 'primitive' groups needing protection from Hindu assimilation"
+    ],
+    "hint": "Straight from the 'colonial context of Indian' slide -- match the key terms.",
+    "misconception": "A wrong answer that only describes Ghurye's view without linking it to the colonial structure of knowledge/power misses the 'specificity' — it treats his view as mere opinion rather than a structurally positioned intervention.",
+    "id": "gen_c11_soc_ch10_q17",
+    "nodeId": "c11_soc_cbse_10_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare D.P. Mukerji's concept of 'living tradition' with the Western sociological view of tradition vs. modernity as a binary. What does this comparison reveal about the specificity of Indian social change?",
     "answer": "Western sociology (e.g., Parsons, Weber) typically treats tradition and modernity as opposing types: tradition = static, collective, ascriptive",
     "options": [
@@ -5786,21 +6302,6 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'colonial context of Indian' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"Mukerji liked tradition\" misses the theoretical sophistication: he is offering an *alternative theory of social change* rooted in Indian specificity, not a preference.",
-    "id": "gen_c11_soc_ch10_q17",
-    "nodeId": "c11_soc_cbse_10_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "The NCERT text identifies three questions the colonial context raised for Indian sociology. Explain the second question in your own words and why it was a dilemma for Indian anthropologists.",
-    "answer": "The second question asks: if Western social anthropology arose from European curiosity about 'primitive' cultures elsewhere, what should its role be in India",
-    "options": [
-     "Steps: (1) Learn the community's language/dialect directly rather than relying solely on intermediaries",
-     "A strong proposal would: (1) Identify a specific legal arena (e.g., Forest Rights Act 2006 claims, PESA implementation, or mining consent hearings)",
-     "The second question asks: if Western social anthropology arose from European curiosity about 'primitive' cultures elsewhere, what should its role be in India"
-    ],
-    "hint": "Straight from the 'colonial context of Indian' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"India had tribes so anthropology was needed\" misses the critical reflexive problem: the *category* 'tribe' was a colonial construct that Indian scholars had to either accept, reject, or redefine — they couldn't just borrow the Western disciplinary logic.",
     "id": "gen_c11_soc_ch10_q18",
     "nodeId": "c11_soc_cbse_10_002",
     "difficulty": "standard"

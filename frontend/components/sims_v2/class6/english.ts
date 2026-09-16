@@ -10,7 +10,7 @@ export const c6EngRiver: SimDef = {
     id: 'c6_eng_river', title: 'The Day the River Spoke', subtitle: 'Plot, character & theme',
     classLevel: 6, subject: 'english', topic: 'Prose: River Spoke',
     chapters: ['English U1: The Day the River Spoke'],
-    nodeIds: ['c6_english_u1_001','c6_english_u1_002','c6_english_u1_003','c6_english_u1_004','c6_english_u1_005','c6_english_u1_006','c6_english_u1_007','c6_english_u1_008','c6_english_u1_009','c6_english_u1_010'],
+    nodeIds: ['c6_english_u1_001','c6_english_u1_002','c6_english_u1_003','c6_english_u1_004','c6_english_u1_005','c6_english_u1_009'],
     emoji: '🌊', theme: { bg: 'from-sky-900 to-blue-800', accent: 'sky', scene: 'river' },
     scenario: { role: "a literary detective", intro: "A river speaks to a girl named Jahnavi — but what does the story really mean?", goal: "Uncover the plot, character, and theme." },
     discovery: {
@@ -83,7 +83,7 @@ export const c6EngDolittle: SimDef = {
     id: 'c6_eng_dolittle', title: 'Dr. Dolittle', subtitle: 'Humour & character',
     classLevel: 6, subject: 'english', topic: 'Prose: Dr. Dolittle',
     chapters: ['English U2: Animals, Birds, and Dr. Dolittle'],
-    nodeIds: ['c6_english_u2_011','c6_english_u2_012','c6_english_u2_013','c6_english_u2_014','c6_english_u2_015','c6_english_u2_016','c6_english_u2_017','c6_english_u2_018','c6_english_u2_019','c6_english_u2_020'],
+    nodeIds: ['c6_english_u2_011','c6_english_u2_012','c6_english_u2_014','c6_english_u2_015','c6_english_u2_016','c6_english_u2_017','c6_english_u2_019'],
     emoji: '🦜', theme: { bg: 'from-emerald-900 to-teal-800', accent: 'emerald', scene: 'animals' },
     scenario: { role: "a humour-critic", intro: "A doctor who talks to animals — why is this story funny?", goal: "Analyze the humour and Dolittle's character." },
     discovery: {
@@ -145,7 +145,7 @@ export const c6EngInvention: SimDef = {
     id: 'c6_eng_invention', title: "My Brother's Great Invention", subtitle: 'Curiosity & sequence',
     classLevel: 6, subject: 'english', topic: 'Prose: Great Invention',
     chapters: ['English U3: My Brother\'s Great Invention'],
-    nodeIds: ['c6_english_u3_021','c6_english_u3_022','c6_english_u3_023','c6_english_u3_024','c6_english_u3_025','c6_english_u3_026','c6_english_u3_027','c6_english_u3_028','c6_english_u3_029','c6_english_u3_030'],
+    nodeIds: ['c6_english_u3_021','c6_english_u3_022','c6_english_u3_023','c6_english_u3_024','c6_english_u3_025','c6_english_u3_027','c6_english_u3_029'],
     emoji: '🔧', theme: { bg: 'from-amber-900 to-orange-800', accent: 'amber', scene: 'invention' },
     scenario: { role: "an invention-analyst", intro: "Anand builds a wild invention — what does the story say about curiosity?", goal: "Analyze Anand's character and the theme of innovation." },
     discovery: {
@@ -207,7 +207,7 @@ export const c6EngTunnel: SimDef = {
     id: 'c6_eng_tunnel', title: 'The Tunnel', subtitle: 'Courage & adventure',
     classLevel: 6, subject: 'english', topic: 'Prose: The Tunnel',
     chapters: ['English U4: The Tunnel'],
-    nodeIds: ['c6_english_u4_031','c6_english_u4_032','c6_english_u4_033','c6_english_u4_034','c6_english_u4_035','c6_english_u4_036','c6_english_u4_037','c6_english_u4_038','c6_english_u4_039','c6_english_u4_040'],
+    nodeIds: ['c6_english_u4_031','c6_english_u4_032','c6_english_u4_033','c6_english_u4_035','c6_english_u4_037'],
     emoji: '🚇', theme: { bg: 'from-slate-900 to-gray-800', accent: 'slate', scene: 'tunnel' },
     scenario: { role: "an adventure-analyst", intro: "Suraj enters a dark tunnel — what does this adventure teach about courage?", goal: "Analyze Suraj's courage and the adventure theme." },
     discovery: {
@@ -269,7 +269,7 @@ export const c6EngSoldiers: SimDef = {
     id: 'c6_eng_soldiers', title: 'A Homage to Our Brave Soldiers', subtitle: 'Patriotism & letter format',
     classLevel: 6, subject: 'english', topic: 'Prose: Brave Soldiers',
     chapters: ['English U5: A Homage to Our Brave Soldiers'],
-    nodeIds: ['c6_english_u5_041','c6_english_u5_042','c6_english_u5_043','c6_english_u5_044','c6_english_u5_045','c6_english_u5_046','c6_english_u5_047','c6_english_u5_048','c6_english_u5_049','c6_english_u5_050'],
+    nodeIds: ['c6_english_u5_041','c6_english_u5_042','c6_english_u5_043','c6_english_u5_044','c6_english_u5_047','c6_english_u5_049'],
     emoji: '🎖️', theme: { bg: 'from-rose-900 to-red-800', accent: 'rose', scene: 'memorial' },
     scenario: { role: "a tribute-writer", intro: "A letter honors soldiers who sacrificed everything — how do you write such a tribute?", goal: "Understand the letter format and the theme of patriotism." },
     discovery: {

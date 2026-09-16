@@ -8,7 +8,7 @@ export const c6_math_ch08_p2: SimDef = {
     subtitle: 'This node covers the volume of cubes and cuboids based on length, width, and height.',
     classLevel: 6, subject: 'mathematics', topic: 'Mensuration · Part 2/2',
     chapters: ['c6_math_ch08'],
-    nodeIds: ['c6_math_ch08_091', 'c6_math_ch08_092', 'c6_math_ch08_093', 'c6_math_ch08_094'],
+    nodeIds: ['c6_math_ch08_085', 'c6_math_ch08_092', 'c6_math_ch08_086', 'c6_math_ch08_087'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you have a cardboard box and you want to fill it with small, solid wooden blocks that are each 1.', goal: 'Master every idea in this chapter.' },

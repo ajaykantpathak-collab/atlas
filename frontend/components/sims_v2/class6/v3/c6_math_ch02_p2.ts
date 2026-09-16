@@ -8,7 +8,7 @@ export const c6_math_ch02_p2: SimDef = {
     subtitle: 'This node covers the multiplication of integers including zero and negative numbers.',
     classLevel: 6, subject: 'mathematics', topic: 'Integers · Part 2/3',
     chapters: ['c6_math_ch02'],
-    nodeIds: ['c6_math_ch02_022', 'c6_math_ch02_023', 'c6_math_ch02_024', 'c6_math_ch02_025', 'c6_math_ch02_026', 'c6_math_ch02_027'],
+    nodeIds: ['c6_math_ch02_022', 'c6_math_ch02_023', 'c6_math_ch02_024', 'c6_math_ch02_016', 'c6_math_ch02_017', 'c6_math_ch02_027'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are at the "Building of Fun" and the lift button presses represent integers.', goal: 'Master every idea in this chapter.' },

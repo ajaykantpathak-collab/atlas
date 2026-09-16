@@ -8,7 +8,7 @@ export const c6_economics_ch08: SimDef = {
     subtitle: 'How does a \'community piggy bank\' build bakeries?',
     classLevel: 6, subject: 'economics', topic: 'Banks and the Magic of Finance',
     chapters: ['c6_economics_ch08'],
-    nodeIds: ['c6_economics_ch08_001', 'c6_economics_ch08_002', 'c6_economics_ch08_003', 'c6_economics_ch08_004', 'c6_economics_ch08_005', 'c6_economics_ch08_006'],
+    nodeIds: ['c6_economics_ch08_001', 'c6_economics_ch08_002', 'c6_economics_ch08_003', 'c6_economics_ch08_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'village bank manager deciding who gets the next loan', intro: 'Farmers deposit their surplus; a baker needs a loan; a student wants her first account. Every rupee you take in can walk back out as someone\'s new beginning.', goal: 'See the bank as a bridge between savers and borrowers — not just a safe.' },

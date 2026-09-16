@@ -441,6 +441,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Create a 4-line diary entry from Lencho's perspective the night before he writes the first letter, showing his faith, his worry for his family, and his certainty about God.",
+    "answer": "A strong entry: \"The hail took everything — corn, beans, hope. But God sees my empty barn and my hungry children",
+    "options": [
+     "Postmaster: \"Lencho, God has no hands but ours — we collected that money.\" Lencho: \"Impossible! God sent it",
+     "Sample: \"Sir, I helped Lencho because humanity demands we answer suffering even when it's addressed to God",
+     "A strong entry: \"The hail took everything — corn, beans, hope. But God sees my empty barn and my hungry children"
+    ],
+    "hint": "Straight from the 'Lencho's faith in God' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A strong entry: \"The hail took everything — corn, beans, hope. But God sees my empty barn and my hungry children.",
+    "id": "gen_c10_eng_ch01_q11",
+    "nodeId": "c10_engl_cbse_01_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate this statement: \"Lencho's faith is admirable but dangerous because it makes him blind to human kindness.\" Defend your position with evidence from the story.",
     "answer": "The statement is partially true. Admirable: his faith gives him resilience — he doesn't despair, he acts",
     "options": [
@@ -450,7 +465,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lencho's faith in God' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"faith is always good\" or \"faith is foolish\" fails to evaluate both sides with textual balance.",
-    "id": "gen_c10_eng_ch01_q11",
+    "id": "gen_c10_eng_ch01_q12",
     "nodeId": "c10_engl_cbse_01_001",
     "difficulty": "advanced"
    },
@@ -465,7 +480,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lencho's faith in God' slide -- match the key terms.",
     "misconception": "A wrong answer like \"he was religious\" or \"he had no other choice\" shows superficial understanding; it misses that Lencho actively rejects human help because of his specific belief in God's direct accessibility and integrity.",
-    "id": "gen_c10_eng_ch01_q12",
+    "id": "gen_c10_eng_ch01_q13",
     "nodeId": "c10_engl_cbse_01_001",
     "difficulty": "advanced"
    },
@@ -480,7 +495,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Lencho's faith in God' slide -- match the key terms.",
     "misconception": "A wrong answer like \"farmer\" or \"strong man\" shows the student cannot recall the specific metaphor the author uses, missing how the text builds character through precise imagery.",
-    "id": "gen_c10_eng_ch01_q13",
+    "id": "gen_c10_eng_ch01_q14",
     "nodeId": "c10_engl_cbse_01_001",
     "difficulty": "advanced"
    },
@@ -495,7 +510,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'hailstorm in \"A Letter to God\"' slide -- match the key terms.",
     "misconception": "A wrong answer treats both images as merely descriptive, missing the symbolic progression from allure to ruin — a key point for 3-mark \"author's craft\" questions.",
-    "id": "gen_c10_eng_ch01_q14",
+    "id": "gen_c10_eng_ch01_q15",
     "nodeId": "c10_engl_cbse_01_002",
     "difficulty": "advanced"
    },
@@ -510,7 +525,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'hailstorm in \"A Letter to God\"' slide -- match the key terms.",
     "misconception": "A wrong answer agrees simplistically, treating nature as a character with intent — a category error that loses marks in \"evaluation\" questions requiring nuanced literary judgment.",
-    "id": "gen_c10_eng_ch01_q15",
+    "id": "gen_c10_eng_ch01_q16",
     "nodeId": "c10_engl_cbse_01_002",
     "difficulty": "advanced"
    },
@@ -525,7 +540,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'hailstorm in \"A Letter to God\"' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on weather mechanics (\"it's a meteorological transition\") misses the narrative purpose: the language tracks Lencho's emotional arc from hope to despair, which is essential for character-analysis questions.",
-    "id": "gen_c10_eng_ch01_q16",
+    "id": "gen_c10_eng_ch01_q17",
     "nodeId": "c10_engl_cbse_01_002",
     "difficulty": "advanced"
    },
@@ -540,21 +555,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'hailstorm in \"A Letter to God\"' slide -- match the key terms.",
     "misconception": "A weak answer lists events without analysing the time contrast, losing marks for \"analysis\" in the marking scheme.",
-    "id": "gen_c10_eng_ch01_q17",
-    "nodeId": "c10_engl_cbse_01_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Write a 50-word diary entry from Lencho's perspective the night after the hailstorm, using at least two sensory details from the text and showing his internal conflict between despair and faith.",
-    "answer": "A strong entry includes: the sound of hail \"rattling on the roof,\" the sight of \"corn totally destroyed,\" the smell of wet earth, and the thought \"God sees everything",
-    "options": [
-     "Lencho asks for 100 pesos because his corn crop was completely destroyed by the hailstorm, and he calculates that this amount is needed to buy seeds for replanting and to feed his",
-     "If 100 pesos were sent, Lencho would have no reason to write a second letter accusing the post office employees of stealing 30 pesos, so the dramatic irony",
-     "A strong entry includes: the sound of hail \"rattling on the roof,\" the sight of \"corn totally destroyed,\" the smell of wet earth, and the thought \"God sees everything"
-    ],
-    "hint": "Straight from the 'hailstorm in \"A Letter to God\"' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A strong entry includes: the sound of hail \"rattling on the roof,\" the sight of \"corn totally destroyed,\" the smell of",
     "id": "gen_c10_eng_ch01_q18",
     "nodeId": "c10_engl_cbse_01_002",
     "difficulty": "advanced"
@@ -3171,6 +3171,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Create a 4-line diary entry from the *pader*'s perspective on a festival morning, incorporating the sounds, smells, and his awareness of his role in the village.",
+    "answer": "A strong entry includes: (1) sensory detail (smell of *bol*, sound of bamboo), (2) reference to a specific festival bread, (3) sense of duty/pride, (4) first-person voice",
+    "options": [
+     "\"December 24: Furnace roared since dawn. Kneaded bol dough till wrists ached — every household needs three dozen for Christmas",
+     "The sense is smell (olfactory). \"Heavy\" suggests the scent is intense, pervasive, and almost tangible",
+     "A strong entry includes: (1) sensory detail (smell of *bol*, sound of bamboo), (2) reference to a specific festival bread, (3) sense of duty/pride, (4) first-person voice"
+    ],
+    "hint": "Straight from the 'This node introduces the first' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A strong entry includes: (1) sensory detail (smell of *bol*, sound of bamboo), (2) reference to a specific festival",
+    "id": "gen_c10_eng_ch05_q11",
+    "nodeId": "c10_engl_cbse_05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate this statement: \"The author romanticizes the *pader*; the baker was just a businessman selling a product.\" Defend or challenge using two pieces of textual evidence.",
     "answer": "Challenge. Evidence 1: \"The baker was not just a vendor... he was a friend, companion, and guide\" — shows emotional bond beyond transaction",
     "options": [
@@ -3180,7 +3195,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node introduces the first' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement ignores the text's explicit portrayal of relationship and ritual.",
-    "id": "gen_c10_eng_ch05_q11",
+    "id": "gen_c10_eng_ch05_q12",
     "nodeId": "c10_engl_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3195,7 +3210,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node introduces the first' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on economics misses the socio-cultural embedding the text emphasizes.",
-    "id": "gen_c10_eng_ch05_q12",
+    "id": "gen_c10_eng_ch05_q13",
     "nodeId": "c10_engl_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3210,7 +3225,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node introduces the first' slide -- match the key terms.",
     "misconception": "A wrong answer that only identifies \"sound device\" without linking to time/routine/perspective shows surface-level device-spotting without comprehension.",
-    "id": "gen_c10_eng_ch05_q13",
+    "id": "gen_c10_eng_ch05_q14",
     "nodeId": "c10_engl_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3225,7 +3240,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node introduces the first' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"baker\" or \"British\") reveals the student has not retained the specific cultural vocabulary or the colonial history central to the passage.",
-    "id": "gen_c10_eng_ch05_q14",
+    "id": "gen_c10_eng_ch05_q15",
     "nodeId": "c10_engl_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3240,7 +3255,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'baker  in Goan society' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"sells more bread\" fails to analyze the shift from commercial transaction to cultural obligation, missing the text's emphasis on festival-specific breads (bol for Christmas, sandwiches for engagements).",
-    "id": "gen_c10_eng_ch05_q15",
+    "id": "gen_c10_eng_ch05_q16",
     "nodeId": "c10_engl_cbse_05_002",
     "difficulty": "advanced"
    },
@@ -3255,7 +3270,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'baker  in Goan society' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"bread for eating\" misses the ritualistic and ceremonial role, showing the student sees the baker as merely a food vendor, not a cultural pillar.",
-    "id": "gen_c10_eng_ch05_q16",
+    "id": "gen_c10_eng_ch05_q17",
     "nodeId": "c10_engl_cbse_05_002",
     "difficulty": "advanced"
    },
@@ -3270,21 +3285,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'baker  in Goan society' slide -- match the key terms.",
     "misconception": "A wrong answer like \"he is poor\" or \"he likes loose clothes\" ignores the cultural symbolism explicitly tied to the Portuguese legacy in the previous node.",
-    "id": "gen_c10_eng_ch05_q17",
-    "nodeId": "c10_engl_cbse_05_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "The author states: \"Baking was indeed a profitable profession in the old days.\" Evaluate whether this profitability is presented as purely economic or also cultural. Support with two pieces of evidence.",
-    "answer": "It is both economic and cultural. Economic evidence: \"The baker and his family never starved... plump physique",
-    "options": [
-     "The kabai (frock) reveals: (1) Tradition preservation — it is the traditional Portuguese baker's dress, showing the profession retains its heritage uniform",
-     "1. Specific cultural detail (headscarves ≈ *kuppia*) — both use clothing to signal identity. 2. Activity-coupled tradition (singing while working ≈ wedding guests firing guns)",
-     "It is both economic and cultural. Economic evidence: \"The baker and his family never starved... plump physique"
-    ],
-    "hint": "Straight from the 'baker  in Goan society' slide -- match the key terms.",
-    "misconception": "A wrong answer citing only the \"plump physique\" or \"monthly accounts\" treats profitability as merely financial, ignoring how economic viability enables cultural continuity — a key board exam trap.",
     "id": "gen_c10_eng_ch05_q18",
     "nodeId": "c10_engl_cbse_05_002",
     "difficulty": "advanced"
@@ -3317,6 +3317,7 @@ export const C10_ENG_GEN: SimDef[] = [
    "c10_engl_cbse_06_003",
    "c10_engl_cbse_06_004",
    "c10_engl_cbse_06_005",
+   "c10_engl_cbse_06_006",
    "c10_engl_cbse_06_007",
    "c10_engl_cbse_06_008"
   ],
@@ -3368,6 +3369,12 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Theme Of Human-Animal Bond, Companionship",
+    "text": "The theme of Human-Animal Bond, Companionship and Responsibility in *Mijbil the Otter* explores the deep emotional connection that develops between Gavin Maxwell and his otter Mijbil, characterized by mutual trust, playful companionship, and the profound duty",
+    "emoji": "📚",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Character Analysis Of Maxwell In \"Mijbil",
     "text": "Character analysis of Maxwell in \"Mijbil the Otter\" involves examining how the narrator's actions, observations, and reflections reveal his patience and attentiveness as a pet owner, using textual evidence to support inferences about his personality and the",
     "emoji": "📚",
@@ -3386,7 +3393,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "question": "What specific event triggers Gavin Maxwell's decision to get an otter instead of another dog?",
     "answer": "The death of his dog Jonnie triggers Maxwell's decision",
     "options": [
-     "A reciprocal bond means both human and animal actively contribute to the relationship — the human provides care, safety, and adaptation",
+     "The pattern of exchanges runs: (1) The bathroom tap game turns water into shared play (2) The airplane box incident shows responsibility under pressure as Maxwell holds the box on",
      "The two main traits are patience and observation, from the chapter \"Mijbil the Otter\" by Gavin Maxwell",
      "The death of his dog Jonnie triggers Maxwell's decision"
     ],
@@ -3408,7 +3415,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "answer": "Mijbil first explores the bathroom and the bed. The bathroom (with its water) triggers his species-specific aquatic instinct, while the bed offers a secure",
     "options": [
      "Mijbil juggles marbles on his back and learns to turn on the water tap to play in the running water",
-     "Maxwell flies from Basra to Paris, then Paris to London, because British airlines would not carry an animal directly from Basra",
+     "Maxwell watches the flooding with fascination instead of anger, and later builds a concrete pool in the garden so Mijbil can play with running water safely",
      "Mijbil first explores the bathroom and the bed. The bathroom (with its water) triggers his species-specific aquatic instinct, while the bed offers a secure"
     ],
     "hint": "Straight from the 'This topic covers the initial' slide -- match the key terms.",
@@ -3481,7 +3488,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "answer": "Maxwell flies from Basra to Paris, then Paris to London, because British airlines would not carry an animal directly from Basra",
     "options": [
      "The box lid gives way because Mijbil has torn the lining to shreds, creating a gap he squeezes through",
-     "The death of his dog Jonnie triggers Maxwell's decision",
+     "Maxwell watches the flooding with fascination instead of anger, and later builds a concrete pool in the garden so Mijbil can play with running water safely",
      "Maxwell flies from Basra to Paris, then Paris to London, because British airlines would not carry an animal directly from Basra"
     ],
     "hint": "Straight from the 'This topic examines the' slide -- match the key terms.",
@@ -3501,7 +3508,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "question": "What is the immediate cause of Mijbil escaping from the box on the plane?",
     "answer": "The box lid gives way because Mijbil has torn the lining to shreds, creating a gap he squeezes through",
     "options": [
-     "A reciprocal bond means both human and animal actively contribute to the relationship — the human provides care, safety, and adaptation",
+     "The pattern of exchanges runs: (1) The bathroom tap game turns water into shared play (2) The airplane box incident shows responsibility under pressure as Maxwell holds the box on",
      "The two main traits are patience and observation, from the chapter \"Mijbil the Otter\" by Gavin Maxwell",
      "The box lid gives way because Mijbil has torn the lining to shreds, creating a gap he squeezes through"
     ],
@@ -3518,17 +3525,80 @@ export const C10_ENG_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of the three moments through which Maxwell's bond with Mijbil develops as the lesson presents it.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The bathroom tap game turns water into",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The airplane box incident shows",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The London walks on a lead show long-term",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "The garden pool with running water completes",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that lists only Maxwell's actions shows the student has missed the reciprocal pattern in which Mijbil's trust and playfulness answer Maxwell's care.",
+    "id": "gen_c10_eng_ch06_q6",
+    "nodeId": "c10_engl_cbse_06_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you have a pet dog or cat that greets you at the door, invents a game with a crumpled paper ball, and panics when you pack a suitcase — you",
+     "Now, open *Mijbil the Otter* and ask: \"Which three moments show Maxwell *choosing* Mijbil's well-being over his own convenience?",
+     "For each moment, note: (a) What Maxwell does, (b) What Mijbil does in response, (c) What this reveals about their bond.",
+     "The key insight: Responsibility is not a burden here — it is the language of their love."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What are the two main character traits of Maxwell emphasized in this node, and which chapter do they come from?",
     "answer": "The two main traits are patience and observation, from the chapter \"Mijbil the Otter\" by Gavin Maxwell",
     "options": [
-     "A reciprocal bond means both human and animal actively contribute to the relationship — the human provides care, safety, and adaptation",
+     "The pattern of exchanges runs: (1) The bathroom tap game turns water into shared play (2) The airplane box incident shows responsibility under pressure as Maxwell holds the box on",
      "The death of his dog Jonnie triggers Maxwell's decision",
      "The two main traits are patience and observation, from the chapter \"Mijbil the Otter\" by Gavin Maxwell"
     ],
     "hint": "Straight from the 'Character analysis of Maxwell in' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Mijbil's traits like playfulness or curiosity) reveals the student is confusing the owner's traits with the pet's traits — a common error when students don't distinguish narrator from subject.",
-    "id": "gen_c10_eng_ch06_q6",
+    "id": "gen_c10_eng_ch06_q7",
     "nodeId": "c10_engl_cbse_06_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -3543,13 +3613,13 @@ export const C10_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of using sensory details (sight, sound, touch, smell) in a descriptive paragraph about Mijbil's habits?",
     "answer": "The primary purpose is to create a vivid mental image for the reader by appealing to the senses, making the description immersive and evidence-based from the text",
     "options": [
-     "The death of his dog Jonnie triggers Maxwell's decision",
-     "Maxwell flies from Basra to Paris, then Paris to London, because British airlines would not carry an animal directly from Basra",
+     "Maxwell watches the flooding with fascination instead of anger, and later builds a concrete pool in the garden so Mijbil can play with running water safely",
+     "The two main traits are patience and observation, from the chapter \"Mijbil the Otter\" by Gavin Maxwell",
      "The primary purpose is to create a vivid mental image for the reader by appealing to the senses, making the description immersive and evidence-based from the text"
     ],
     "hint": "Straight from the 'Descriptive writing in this' slide -- match the key terms.",
     "misconception": "A wrong answer like 'to make the paragraph longer' reveals the student thinks description is about quantity of words rather than quality of sensory precision.",
-    "id": "gen_c10_eng_ch06_q7",
+    "id": "gen_c10_eng_ch06_q8",
     "nodeId": "c10_engl_cbse_06_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -3558,6 +3628,63 @@ export const C10_ENG_GEN: SimDef[] = [
      "Next, identify the sensory details in the text: the 'slosh and splash', the 'clatter' of the ball, the 'wet and slippery' floor.",
      "Then, organize these details either chronologically (morning routine) or spatially (bathroom → corridor → bedroom)."
     ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of the three moments through which Maxwell's bond with Mijbil develops as the lesson presents it.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The bathroom tap game turns water into",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The London walks on a lead show long-term",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The airplane box incident shows",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The garden pool with running water completes",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that lists only Maxwell's actions shows the student has missed the reciprocal pattern in which Mijbil's trust and playfulness answer Maxwell's care.",
+    "id": "gen_c10_eng_ch06_q9",
+    "nodeId": "c10_engl_cbse_06_006",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -3601,7 +3728,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer uses human language (\"I felt happy\") without otter-specific behaviours, showing inability to inhabit the character through textual evidence.",
-    "id": "gen_c10_eng_ch06_q8",
+    "id": "gen_c10_eng_ch06_q10",
     "nodeId": "c10_engl_cbse_06_003",
     "difficulty": "advanced"
    },
@@ -3616,7 +3743,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This topic examines Gavin' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"he is an animal lover\" is too generic; it fails to contrast his specific, thoughtful deviation from the norm, missing the character insight the question demands.",
-    "id": "gen_c10_eng_ch06_q9",
+    "id": "gen_c10_eng_ch06_q11",
     "nodeId": "c10_engl_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3625,13 +3752,13 @@ export const C10_ENG_GEN: SimDef[] = [
     "question": "Evaluate whether Maxwell's decision to bring an otter from Iraq to Scotland is responsible or reckless. Support your judgment with two textual reasons.",
     "answer": "The decision leans toward responsible because: (1) Maxwell researches otter needs and confirms Camusfearna's water-rich environment suits the species, showing preparation",
     "options": [
+     "Mijbil bites in fear from the trauma of the confined box and unfamiliar noises, yet he returns to Maxwell's knee for comfort",
      "The airline requires animals to be in a box no larger than 18 inches square, so Maxwell builds a custom box to fit Mijbil while meeting the size limit",
-     "It heightens tension: (1) the ticking clock forces Maxwell to make split-second decisions, and (2) the chaotic traffic mirrors Mijbil's uncontrollable energy",
      "The decision leans toward responsible because: (1) Maxwell researches otter needs and confirms Camusfearna's water-rich environment suits the species, showing preparation"
     ],
     "hint": "Straight from the 'This topic examines Gavin' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The decision leans toward responsible because: (1) Maxwell researches otter needs and confirms Camusfearna's water-rich",
-    "id": "gen_c10_eng_ch06_q10",
+    "id": "gen_c10_eng_ch06_q12",
     "nodeId": "c10_engl_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3640,13 +3767,13 @@ export const C10_ENG_GEN: SimDef[] = [
     "question": "Explain in your own words why Maxwell feels an otter would be more suitable for his life at Camusfearna than another dog.",
     "answer": "Maxwell lives in a remote cottage surrounded by water — a \"ring of bright water\" — which is a natural habitat for otters",
     "options": [
-     "The tap incident shows companionship because Mijbil treats the running water as a shared toy — he plays *with* the flow, splashing Maxwell, inviting interaction",
+     "Chronological order mirrors the natural flow of Mijbil's day as observed by Maxwell, helping the reader visualize the routine and build a coherent picture",
      "The decision leans toward responsible because: (1) Maxwell researches otter needs and confirms Camusfearna's water-rich environment suits the species, showing preparation",
      "Maxwell lives in a remote cottage surrounded by water — a \"ring of bright water\" — which is a natural habitat for otters"
     ],
     "hint": "Straight from the 'This topic examines Gavin' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"he liked otters as a child\" misses the practical, environment-based reasoning Maxwell explicitly outlines, showing the student cannot distinguish between emotional motivation and logical justification.",
-    "id": "gen_c10_eng_ch06_q11",
+    "id": "gen_c10_eng_ch06_q13",
     "nodeId": "c10_engl_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3661,7 +3788,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This topic examines Gavin' slide -- match the key terms.",
     "misconception": "A weak answer that only quotes the memory without explaining its psychological role reveals the student cannot analyze cause-effect in character motivation.",
-    "id": "gen_c10_eng_ch06_q12",
+    "id": "gen_c10_eng_ch06_q14",
     "nodeId": "c10_engl_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3676,7 +3803,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This topic examines Gavin' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Sample: \"Jonnie's empty bed aches. Another dog feels like betrayal.",
-    "id": "gen_c10_eng_ch06_q13",
+    "id": "gen_c10_eng_ch06_q15",
     "nodeId": "c10_engl_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3691,7 +3818,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This topic covers the initial' slide -- match the key terms.",
     "misconception": "A wrong answer conflates both as \"play,\" missing that the tap behavior is rigid/instinctual while ball play is creative/adaptive — a crucial distinction for analyzing his psychological transition.",
-    "id": "gen_c10_eng_ch06_q14",
+    "id": "gen_c10_eng_ch06_q16",
     "nodeId": "c10_engl_cbse_06_002",
     "difficulty": "advanced"
    },
@@ -3700,13 +3827,13 @@ export const C10_ENG_GEN: SimDef[] = [
     "question": "Evaluate this claim: \"Mijbil's adaptation is complete once he starts eating regularly.\" Use textual evidence to support or refute.",
     "answer": "Refuted. Regular eating only marks *physical* survival. Textual evidence: he still sleeps curled in a corner (fear), startles at sudden noises, and only *later* initiates play",
     "options": [
-     "The airline requires animals to be in a box no larger than 18 inches square, so Maxwell builds a custom box to fit Mijbil while meeting the size limit",
-     "It heightens tension: (1) the ticking clock forces Maxwell to make split-second decisions, and (2) the chaotic traffic mirrors Mijbil's uncontrollable energy",
+     "The tap incident shows companionship because Mijbil treats the running water as a shared toy — he plays *with* the flow, splashing Maxwell, inviting interaction",
+     "She sees Mijbil is terrified and recognizes the bond between them; her empathy overrides airline rules",
      "Refuted. Regular eating only marks *physical* survival. Textual evidence: he still sleeps curled in a corner (fear), startles at sudden noises, and only *later* initiates play"
     ],
     "hint": "Straight from the 'This topic covers the initial' slide -- match the key terms.",
     "misconception": "A wrong answer accepts the claim, revealing a surface-level reading that equates basic functioning with full integration.",
-    "id": "gen_c10_eng_ch06_q15",
+    "id": "gen_c10_eng_ch06_q17",
     "nodeId": "c10_engl_cbse_06_002",
     "difficulty": "advanced"
    },
@@ -3721,36 +3848,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This topic covers the initial' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Maxwell guessed he liked fish\") ignores the systematic observation Maxwell describes, failing to connect the narrator's profession to his narrative technique.",
-    "id": "gen_c10_eng_ch06_q16",
-    "nodeId": "c10_engl_cbse_06_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Maxwell writes: \"He spent most of his time in the bathroom... playing with the water for hours.\" Why does the author emphasize *duration* (\"hours\") and *repetition* (\"most of his time\") rather than just stating \"Mijbil liked water\"?",
-    "answer": "The emphasis on duration and repetition demonstrates *compulsive* engagement — it's not mere preference but an innate behavioral need",
-    "options": [
-     "\"Today a wet otter raced down the aisle — passengers screamed, but when I saw the man's face, terrified for his pet, not himself, I knew: rules bend for kindness",
-     "It reveals Maxwell's keen observation (he notices Mijbil's unique behavior) and his openness to wonder rather than annoyance at the mess",
-     "The emphasis on duration and repetition demonstrates *compulsive* engagement — it's not mere preference but an innate behavioral need"
-    ],
-    "hint": "Straight from the 'This topic covers the initial' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"to show he was happy\") reduces complex instinctual behavior to a human emotion, missing the biological depth Maxwell conveys through behavioral observation.",
-    "id": "gen_c10_eng_ch06_q17",
-    "nodeId": "c10_engl_cbse_06_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Write a 4-sentence diary entry from Mijbil's perspective on his third night, using *only* sensory details (smell, sound, touch, taste) — no emotion words like \"scared\" or \"happy.\"",
-    "answer": "Example: \"The white porcelain basin smells of chlorine and metal. Water rushes loud as a marsh stream when I push the lever",
-    "options": [
-     "\"Today a wet otter raced down the aisle — passengers screamed, but when I saw the man's face, terrified for his pet, not himself, I knew: rules bend for kindness",
-     "A strong entry includes: (1) sensory detail of water (\"cold rush on paws\"), (2) the marbles game (\"click-clack rhythm I invented\"), (3) the suitcase (\"smells like him",
-     "Example: \"The white porcelain basin smells of chlorine and metal. Water rushes loud as a marsh stream when I push the lever"
-    ],
-    "hint": "Straight from the 'This topic covers the initial' slide -- match the key terms.",
-    "misconception": "A poor answer uses emotion labels (\"I felt lonely\") or human reasoning (\"I missed my home\"), showing the student cannot adopt the animal's sensory POV — a key skill for analyzing Maxwell's descriptive technique.",
     "id": "gen_c10_eng_ch06_q18",
     "nodeId": "c10_engl_cbse_06_002",
     "difficulty": "advanced"
@@ -4141,6 +4238,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Write a 50-word diary entry from Valli's perspective on a day she watched the bus but learned a new detail (e.g., the conductor's name, a new stop). Use first person and show her curiosity at work.",
+    "answer": "A strong entry includes: (1) sensory detail (sound of bus, dust), (2) a specific new fact learned, (3) internal calculation or planning, (4) emotional tone of anticipation",
+    "options": [
+     "A good entry will use first‑person voice, mention calling her ‘madam’, offering a drink, and a light‑hearted remark like “You’re a bold passenger, madam",
+     "\"Today a tiny madam boarded my bus — firm as a ticket collector, sharp as a conductor's punch. She paid her fare, sat straight, and taught me that age doesn't measure dignity",
+     "A strong entry includes: (1) sensory detail (sound of bus, dust), (2) a specific new fact learned, (3) internal calculation or planning, (4) emotional tone of anticipation"
+    ],
+    "hint": "Straight from the 'This node introduces Valli, an' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A strong entry includes: (1) sensory detail (sound of bus, dust), (2) a specific new fact learned, (3) internal",
+    "id": "gen_c10_eng_ch07_q14",
+    "nodeId": "c10_engl_cbse_07_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare Valli's information-gathering method with that of a typical adult planning a first bus trip in the same era. What does the comparison reveal about Valli's maturity?",
     "answer": "An adult might consult a timetable, ask the bus depot clerk, or rely on prior experience. Valli, lacking those resources, uses passive listening and strategic questioning",
     "options": [
@@ -4150,7 +4262,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Valli's planning' slide -- match the key terms.",
     "misconception": "A wrong answer that claims \"both do the same thing\" or \"Valli is just lucky\" fails to analyze the adaptive nature of her approach.",
-    "id": "gen_c10_eng_ch07_q14",
+    "id": "gen_c10_eng_ch07_q15",
     "nodeId": "c10_engl_cbse_07_002",
     "difficulty": "advanced"
    },
@@ -4165,7 +4277,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Valli's planning' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees with the statement or offers only one reason indicates the student cannot evaluate character actions against outcomes or recognize transferable competencies.",
-    "id": "gen_c10_eng_ch07_q15",
+    "id": "gen_c10_eng_ch07_q16",
     "nodeId": "c10_engl_cbse_07_002",
     "difficulty": "advanced"
    },
@@ -4180,7 +4292,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Valli's planning' slide -- match the key terms.",
     "misconception": "A wrong answer that says she \"asked the conductor directly\" or \"read a timetable\" shows the student misses the nuance of her observational strategy and the cleverness of an eight-year-old navigating an adult world.",
-    "id": "gen_c10_eng_ch07_q16",
+    "id": "gen_c10_eng_ch07_q17",
     "nodeId": "c10_engl_cbse_07_002",
     "difficulty": "advanced"
    },
@@ -4195,21 +4307,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Valli's planning' slide -- match the key terms.",
     "misconception": "A wrong answer suggesting she might spend 5 paise and find the rest later reveals a misunderstanding of her single-minded discipline and the story's emphasis on delayed gratification.",
-    "id": "gen_c10_eng_ch07_q17",
-    "nodeId": "c10_engl_cbse_07_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Write a diary entry (80-100 words) from Valli's perspective on the day she finally collects the full 60 paise, capturing her emotions and the specific sacrifices she made.",
-    "answer": "A strong entry will mention the exact amount saved (60 paise), name at least two sacrificed temptations (e",
-    "options": [
-     "Defend. Evidence 1: She \"calculated and recalculated\" the fare (thirty paise) and journey time (forty-five minutes) — showing mathematical reasoning",
-     "A strong entry includes: (1) sensory detail (sound of bus, dust), (2) a specific new fact learned, (3) internal calculation or planning, (4) emotional tone of anticipation",
-     "A strong entry will mention the exact amount saved (60 paise), name at least two sacrificed temptations (e"
-    ],
-    "hint": "Straight from the 'Valli's planning' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A strong entry will mention the exact amount saved (60 paise), name at least two sacrificed temptations (e.",
     "id": "gen_c10_eng_ch07_q18",
     "nodeId": "c10_engl_cbse_07_002",
     "difficulty": "advanced"
@@ -4689,6 +4786,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Name the Four Sights that Prince Siddhartha encountered during his chariot rides outside Kapilavastu, and state the specific realization each sight triggered in him.",
+    "answer": "The Four Sights are: (1) an old man — realization that youth and beauty are impermanent; (2) a diseased person — realization that health is fragile",
+    "options": [
+     "The Buddha asks Kisa Gotami to bring a handful of mustard seeds from a house where no one has ever died",
+     "The core message is that death is universal and inevitable for every living being, and that grief is futile because it cannot bring back the dead or prevent future deaths",
+     "The Four Sights are: (1) an old man — realization that youth and beauty are impermanent; (2) a diseased person — realization that health is fragile"
+    ],
+    "hint": "Straight from the 'life journey of Prince Siddhartha' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., listing \"poverty\" or \"war\" as a sight, or confusing the Four Sights with the Four Noble Truths) reveals the student is memorising isolated facts without understanding the causal chain: each sight progressively dismantles the prince's illusion of a secure, pleasure-filled life.",
+    "id": "gen_c10_eng_ch08_q15",
+    "nodeId": "c10_engl_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "The textbook states Siddhartha practiced extreme asceticism for six years, reducing himself to \"a living skeleton.\" Apply the concept of the Middle Path to explain why he ultimately rejected this path, and what specific incident (involving Sujata) marked the turning point.",
     "answer": "Step 1: Recall that asceticism (tapasya) was believed to burn off karma through bodily mortification",
     "options": [
@@ -4698,7 +4810,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'life journey of Prince Siddhartha' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"he got tired\" or \"he was hungry\" misses the philosophical pivot: the Buddha discovered that the body is a vehicle for liberation, not an obstacle to be destroyed.",
-    "id": "gen_c10_eng_ch08_q15",
+    "id": "gen_c10_eng_ch08_q16",
     "nodeId": "c10_engl_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4713,7 +4825,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Kisa Gotami's grief' slide -- match the key terms.",
     "misconception": "A wrong answer describes the setting literally (\"she walks through the village\") without the metaphorical link — showing inability to analyse setting as psychological reflection, a key literary analysis skill.",
-    "id": "gen_c10_eng_ch08_q16",
+    "id": "gen_c10_eng_ch08_q17",
     "nodeId": "c10_engl_cbse_08_002",
     "difficulty": "standard"
    },
@@ -4728,21 +4840,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Kisa Gotami's grief' slide -- match the key terms.",
     "misconception": "A weak answer quotes generic sadness (\"she wept\") without linking to the CAUSE (exclusive love). This tests if students can connect character detail to emotional consequence — a core board exam skill.",
-    "id": "gen_c10_eng_ch08_q17",
-    "nodeId": "c10_engl_cbse_08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a 3-line diary entry Kisa Gotami might write THAT NIGHT before meeting Buddha, using first-person voice and showing her mental state without using the word \"sad\".",
-    "answer": "Example: \"I knocked on every door. No one had the medicine. My arms ache from carrying him, but I cannot put him down — if I do, he is truly gone",
-    "options": [
-     "Buddha does not call grief morally wrong; he calls it futile — \"weeping and grieving bring no gain\" and only increase pain",
-     "The task forces Kisa Gotami to *experience* the truth through her own investigation, making the realization internal and transformative rather than an external command",
-     "Example: \"I knocked on every door. No one had the medicine. My arms ache from carrying him, but I cannot put him down — if I do, he is truly gone"
-    ],
-    "hint": "Straight from the 'Kisa Gotami's grief' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Example: \"I knocked on every door. No one had the medicine. My arms ache from carrying him, but I cannot put him down —",
     "id": "gen_c10_eng_ch08_q18",
     "nodeId": "c10_engl_cbse_08_002",
     "difficulty": "standard"
@@ -7085,6 +7182,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "List three specific physical or behavioural details from the text that make Ausable unlike a traditional fictional spy.",
+    "answer": "(1) He is described as \"fat\" and \"sloppy\" / \"very fat.\" (2) He speaks French and German with a strong, unmistakable American accent despite living in Paris for 20 years",
+    "options": [
+     "Moment 1: When Ausable mentions the balcony, Fowler looks out the window expectantly — showing he believes in dramatic escape routes",
+     "Ausable claims he complained that the balcony was a \"nuisance\" because people could climb into his room from it, and that the management had promised to block it off",
+     "(1) He is described as \"fat\" and \"sloppy\" / \"very fat.\" (2) He speaks French and German with a strong, unmistakable American accent despite living in Paris for 20 years"
+    ],
+    "hint": "Straight from the 'Ausable' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"He is lazy\" or \"He carries a gun\") reveals the student is importing movie stereotypes instead of reading the actual textual evidence. This misreading leads to answers that describe what the student *expects* a spy to be, not what the text *says* Ausable is.",
+    "id": "gen_c10_eng_ch12_q16",
+    "nodeId": "c10_engl_cbse_12_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Write a 50-word \"dating profile\" or \"LinkedIn bio\" for Ausable that *honestly* lists his unconventional traits but frames them as professional assets for a secret agent. Use textual evidence.",
     "answer": "Expected answer: \"Senior Intelligence Operative | 20 yrs Paris exp. | Specialty: Deep cover via radical ordinariness",
     "options": [
@@ -7094,7 +7206,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ausable' slide -- match the key terms.",
     "misconception": "A poor answer that jokes about his weight without linking to spycraft shows the student hasn't grasped the *functional* purpose of his unconventionality.",
-    "id": "gen_c10_eng_ch12_q16",
+    "id": "gen_c10_eng_ch12_q17",
     "nodeId": "c10_engl_cbse_12_001",
     "difficulty": "standard"
    },
@@ -7109,21 +7221,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Fowler' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists differences (e.g., \"one is fat, one is thin\") fails to analyze the *literary function* of the foil: the contrast must serve to highlight the protagonist's key trait (presence of mind).",
-    "id": "gen_c10_eng_ch12_q17",
-    "nodeId": "c10_engl_cbse_12_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate whether Fowler changes by the end of the story. Support your judgment with evidence.",
-    "answer": "Fowler does not fundamentally change; he remains a writer observing, not participating. His final thought — \"This is the stuff for a story\"",
-    "options": [
-     "Max believes the balcony story because Ausable delivers it with calm authority, embeds it in a plausible complaint about management",
-     "Correct judgment: The statement is false. Max is a professional agent who plans a break-in and carries a gun — he is not stupid",
-     "Fowler does not fundamentally change; he remains a writer observing, not participating. His final thought — \"This is the stuff for a story\""
-    ],
-    "hint": "Straight from the 'Fowler' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming \"Fowler becomes brave\" or \"Fowler learns spies are smart\" misreads the ending: he is still the audience, not the agent.",
     "id": "gen_c10_eng_ch12_q18",
     "nodeId": "c10_engl_cbse_12_002",
     "difficulty": "advanced"
@@ -7503,6 +7600,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Find two pieces of textual evidence that show Horace Danby plans his burglaries with professional precision, and explain how each evidence reflects his locksmith skills.",
+    "answer": "Evidence 1: \"He studied the house... for two weeks\" — reflects a locksmith's habit of examining mechanisms before working",
+    "options": [
+     "Horace expects to successfully steal the jewels and maintain his self-image as an honourable thief",
+     "Yes. Evidence 1: She obtains the jewels without leaving a single fingerprint (Horace's prints are all over the safe)",
+     "Evidence 1: \"He studied the house... for two weeks\" — reflects a locksmith's habit of examining mechanisms before working"
+    ],
+    "hint": "Straight from the 'Horace Danby' slide -- match the key terms.",
+    "misconception": "A wrong answer that quotes generic planning (\"he planned carefully\") without linking to locksmith-specific skills shows the student cannot connect character profession to criminal method — a common board exam requirement for character analysis.",
+    "id": "gen_c10_eng_ch13_q12",
+    "nodeId": "c10_engl_cbse_13_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What are the two contrasting sides of Horace Danby's character introduced in the opening paragraphs of the story?",
     "answer": "Horace Danby is introduced as a respectable, successful locksmith who is \"good and respectable\" in society's eyes",
     "options": [
@@ -7513,7 +7625,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Horace Danby' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"He is a thief who pretends to be a locksmith\") reveals the student has reversed the emphasis — the story establishes his respectable identity first, then reveals the theft as a hidden exception.",
-    "id": "gen_c10_eng_ch13_q12",
+    "id": "gen_c10_eng_ch13_q13",
     "nodeId": "c10_engl_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7528,7 +7640,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Horace Danby' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"He steals once a year because he is afraid of getting caught\") shows the student misses the *motive-specific* nature of his crime. The text says \"He stole only enough to last for twelve months\" — linking the frequency directly to the book budget, not fear.",
-    "id": "gen_c10_eng_ch13_q13",
+    "id": "gen_c10_eng_ch13_q14",
     "nodeId": "c10_engl_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7543,7 +7655,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Horace Danby' slide -- match the key terms.",
     "misconception": "A poor answer that lists traits without PEEL structure or misses the \"honourable thief\" self-concept shows the student cannot structure board-style character answers.",
-    "id": "gen_c10_eng_ch13_q14",
+    "id": "gen_c10_eng_ch13_q15",
     "nodeId": "c10_engl_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7558,7 +7670,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Horace Danby's motive for stealing' slide -- match the key terms.",
     "misconception": "A wrong answer that claims \"no difference\" or \"he is still a criminal\" shows the student cannot analyze how motive shapes character perception and narrative tone.",
-    "id": "gen_c10_eng_ch13_q15",
+    "id": "gen_c10_eng_ch13_q16",
     "nodeId": "c10_engl_cbse_13_002",
     "difficulty": "advanced"
    },
@@ -7573,7 +7685,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Horace Danby's motive for stealing' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong entry will mention the specific book he aims to buy, the calculation of the required sum, his guilt about",
-    "id": "gen_c10_eng_ch13_q16",
+    "id": "gen_c10_eng_ch13_q17",
     "nodeId": "c10_engl_cbse_13_002",
     "difficulty": "advanced"
    },
@@ -7588,21 +7700,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Horace Danby's motive for stealing' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, the motive does not justify the crime — the story presents his theft as a deliberate, planned illegal act, and the",
-    "id": "gen_c10_eng_ch13_q17",
-    "nodeId": "c10_engl_cbse_13_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words why Horace chooses to steal rather than save money from his locksmith business to buy the books.",
-    "answer": "Horace's locksmith income covers his living expenses and modest comforts, but rare books cost far more than he can save",
-    "options": [
-     "No, the motive does not justify the crime — the story presents his theft as a deliberate, planned illegal act",
-     "Disagree. Evidence 1: Horace *chooses* to steal annually — \"He made locks... but once a year he robbed a safe\" — it is a deliberate, planned act, not circumstance",
-     "Horace's locksmith income covers his living expenses and modest comforts, but rare books cost far more than he can save"
-    ],
-    "hint": "Straight from the 'Horace Danby's motive for stealing' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"he is lazy\" or \"he enjoys stealing\") shows the student misses the rational calculation and the specific financial gap highlighted in the story.",
     "id": "gen_c10_eng_ch13_q18",
     "nodeId": "c10_engl_cbse_13_002",
     "difficulty": "advanced"
@@ -8025,6 +8122,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "If Griffin's drugs had made his body's refractive index equal to that of water (1.33) instead of air (1.0), what would happen when he stood in a room? Explain using the concept of refractive index.",
+    "answer": "He would remain visible in air because light would refract at the air-body boundary (air = 1.0, body = 1",
+    "options": [
+     "A good entry will include: the stranger's bandaged face and odd demands, the snapping of the vicarage burglary news, her own frustration at his rudeness",
+     "Action: \"set fire to the house\" | Motivation: \"revenge\" / \"to get rid of the evidence\" | Consequence: \"wandering, invisible",
+     "He would remain visible in air because light would refract at the air-body boundary (air = 1.0, body = 1"
+    ],
+    "hint": "Straight from the 'Griffin's discovery of' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"he'd be half-invisible\") reveals the student thinks invisibility is an absolute property of the object, not a relational one.",
+    "id": "gen_c10_eng_ch14_q12",
+    "nodeId": "c10_engl_cbse_14_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What is the scientific principle that Griffin exploits to achieve invisibility?",
     "answer": "Griffin exploits the principle of refractive index matching: he uses drugs to make the refractive index of his body equal to that of air",
     "options": [
@@ -8034,7 +8146,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Griffin's discovery of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"magic potion\" or \"he became transparent like glass\") reveals the student has confused the pseudo-scientific explanation with fantasy or misunderstood the optics — glass is visible precisely because its refractive index differs from air.",
-    "id": "gen_c10_eng_ch14_q12",
+    "id": "gen_c10_eng_ch14_q13",
     "nodeId": "c10_engl_cbse_14_001",
     "difficulty": "standard"
    },
@@ -8049,7 +8161,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Griffin's discovery of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he was forced\" or \"it was an accident\") shows the student misses his deliberate, arrogant agency — a key trait that drives the plot.",
-    "id": "gen_c10_eng_ch14_q13",
+    "id": "gen_c10_eng_ch14_q14",
     "nodeId": "c10_engl_cbse_14_001",
     "difficulty": "standard"
    },
@@ -8064,7 +8176,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Griffin's discovery of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong entry: \"Midnight. The drugs worked. My hand vanished before my eyes — refractive index matched to air.",
-    "id": "gen_c10_eng_ch14_q14",
+    "id": "gen_c10_eng_ch14_q15",
     "nodeId": "c10_engl_cbse_14_001",
     "difficulty": "standard"
    },
@@ -8079,7 +8191,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Griffin's act of setting fire to' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps motivation and consequence shows the student cannot trace cause-effect in narrative sequence.",
-    "id": "gen_c10_eng_ch14_q15",
+    "id": "gen_c10_eng_ch14_q16",
     "nodeId": "c10_engl_cbse_14_002",
     "difficulty": "advanced"
    },
@@ -8094,7 +8206,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Griffin's act of setting fire to' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists differences without linking to the theme shows inability to connect character action to thematic statement.",
-    "id": "gen_c10_eng_ch14_q16",
+    "id": "gen_c10_eng_ch14_q17",
     "nodeId": "c10_engl_cbse_14_002",
     "difficulty": "advanced"
    },
@@ -8109,21 +8221,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Griffin's act of setting fire to' slide -- match the key terms.",
     "misconception": "A poor answer uses modern slang (\"ghosted\", \"weird\") or omits the landlord's perspective, showing failure to adopt historical voice and textual perspective.",
-    "id": "gen_c10_eng_ch14_q17",
-    "nodeId": "c10_engl_cbse_14_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this statement: \"Griffin's invisibility forces him to become a criminal; he has no other choice.\" Defend your judgment with two pieces of textual evidence.",
-    "answer": "The statement is false. Evidence 1: Griffin chooses \"revenge\" — the text says \"to get his revenge he set fire to the house,\" indicating agency",
-    "options": [
-     "(defend): \"The statement is accurate. Evidence 1: After the fire (Node 002), Griffin *could* have surrendered and revealed his formula",
-     "Refute. Invisibility created *challenges* (cold, hunger, visibility in mud), but Griffin *chose* criminal solutions at every turn",
-     "The statement is false. Evidence 1: Griffin chooses \"revenge\" — the text says \"to get his revenge he set fire to the house,\" indicating agency"
-    ],
-    "hint": "Straight from the 'Griffin's act of setting fire to' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees with the statement reveals a deterministic misconception that absolves Griffin of moral responsibility.",
     "id": "gen_c10_eng_ch14_q18",
     "nodeId": "c10_engl_cbse_14_002",
     "difficulty": "advanced"
@@ -8549,6 +8646,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Apply the concept of \"active encouragement\" to a new context: A Class 10 student wants to pursue robotics but has no lab access. Based on Ebright's mother's methods, list three *specific actions* a parent could take that go beyond buying a kit.",
+    "answer": "(1) Learn basic coding alongside the student to debug together (intellectual partnership); (2) Drive them to weekend maker-space meetups (logistical enablement)",
+    "options": [
+     "Ebright: \"Mom, the current model doesn't explain *how* the hormone triggers metamorphosis — I need to track the molecule's path cell by cell",
+     "Expected answer criteria: Dialogue must show mother asking probing questions (\"How will you record the tag numbers?",
+     "(1) Learn basic coding alongside the student to debug together (intellectual partnership); (2) Drive them to weekend maker-space meetups (logistical enablement)"
+    ],
+    "hint": "Straight from the 'This topic examines how Ebright's' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"buy more kits\" or \"encourage them verbally\" shows inability to transfer the *specific behaviors* (co-learning, logistical support, process documentation) from text to new context — a common competency-based question trap.",
+    "id": "gen_c10_eng_ch15_q15",
+    "nodeId": "c10_engl_cbse_15_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Create a 4-line dialogue between Ebright and his mother that shows her *intellectual partnership* (not just buying things) during his butterfly tagging phase. Use textual details.",
     "answer": "Expected answer criteria: Dialogue must show mother asking probing questions (\"How will you record the tag numbers?",
     "options": [
@@ -8558,7 +8670,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This topic examines how Ebright's' slide -- match the key terms.",
     "misconception": "A poor answer has her only saying \"Good job!\" or \"Here's money for tags\" — revealing the student still sees her as a wallet, not a co-researcher. This misconception loses marks in character-analysis questions.",
-    "id": "gen_c10_eng_ch15_q15",
+    "id": "gen_c10_eng_ch15_q16",
     "nodeId": "c10_engl_cbse_15_002",
     "difficulty": "advanced"
    },
@@ -8573,7 +8685,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This topic examines how Ebright's' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"yes, she did everything\" ignores textual evidence of other influencers — a board exam error of over-attribution.",
-    "id": "gen_c10_eng_ch15_q16",
+    "id": "gen_c10_eng_ch15_q17",
     "nodeId": "c10_engl_cbse_15_002",
     "difficulty": "advanced"
    },
@@ -8588,21 +8700,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This topic examines how Ebright's' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"she spent time with him\" misses the *intellectual partnership* aspect — the board expects analysis of *how* companionship translates to scientific mentoring.",
-    "id": "gen_c10_eng_ch15_q17",
-    "nodeId": "c10_engl_cbse_15_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "List two pieces of equipment Ebright's mother bought for him and the specific experiment or project each was used for.",
-    "answer": "(1) Microscope — used to observe monarch butterfly wings and gold spots on pupae; (2) Camera — used to photograph butterfly wing scales for his science fair project on mimicry",
-    "options": [
-     "Curiosity in Ebright is the *active pursuit of answers* to self-generated questions (e.g., \"What causes the gold spots?",
-     "Ebright's theory proposed that cells read their DNA blueprint by copying it into RNA, which then directs the building of proteins",
-     "(1) Microscope — used to observe monarch butterfly wings and gold spots on pupae; (2) Camera — used to photograph butterfly wing scales for his science fair project on mimicry"
-    ],
-    "hint": "Straight from the 'This topic examines how Ebright's' slide -- match the key terms.",
-    "misconception": "A wrong answer that lists only \"microscope and telescope\" without linking to specific projects shows the student recalls objects but cannot connect equipment to *purpose* — a critical board exam skill where evidence must be tied to outcome.",
     "id": "gen_c10_eng_ch15_q18",
     "nodeId": "c10_engl_cbse_15_002",
     "difficulty": "advanced"
@@ -10545,6 +10642,21 @@ export const C10_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Identify two stage directions in the opening scene that signal the science-fiction genre and explain what each reveals about the 25th-century world.",
+    "answer": "Step 1: Locate the stage directions at the start of the play (e.g., \"A museum of the 25th century,\" \"Ancient History Department,\" \"Historian sits at a desk with a video screen\")",
+    "options": [
+     "The Historian's monologue establishes the time (25th century), place (Museum of Ancient History), and the central event (the 2040 Martian invasion that was thwarted by a book)",
+     "Stage directions instruct actors and directors on physical actions, movements, facial expressions, tone of voice, lighting, sound, and setting details that are not spoken aloud",
+     "Step 1: Locate the stage directions at the start of the play (e.g., \"A museum of the 25th century,\" \"Ancient History Department,\" \"Historian sits at a desk with a video screen\")"
+    ],
+    "hint": "Straight from the 'opening scene of a play' slide -- match the key terms.",
+    "misconception": "A wrong answer (listing only \"museum\" or \"Historian\") misses the specific sci-fi markers and their world-building function.",
+    "id": "gen_c10_eng_ch18_q14",
+    "nodeId": "c10_engl_cbse_18_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What is the primary purpose of the Historian's opening monologue in the Museum of Ancient History scene?",
     "answer": "The Historian's monologue establishes the time (25th century), place (Museum of Ancient History), and the central event (the 2040 Martian invasion that was thwarted by a book)",
     "options": [
@@ -10554,7 +10666,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'opening scene of a play' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"It introduces Think-Tank\") reveals the student confuses the frame narrator with the main antagonist and misses the structural function of the opening scene.",
-    "id": "gen_c10_eng_ch18_q14",
+    "id": "gen_c10_eng_ch18_q15",
     "nodeId": "c10_engl_cbse_18_001",
     "difficulty": "standard"
    },
@@ -10569,7 +10681,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'opening scene of a play' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"To show future technology\") shows the student focuses on surface details instead of the structural and ironic purpose of the frame.",
-    "id": "gen_c10_eng_ch18_q15",
+    "id": "gen_c10_eng_ch18_q16",
     "nodeId": "c10_engl_cbse_18_001",
     "difficulty": "standard"
    },
@@ -10584,7 +10696,7 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'opening scene of a play' slide -- match the key terms.",
     "misconception": "A poor answer writes a story instead of a label, omits the date, or uses informal language, showing the student cannot switch to the formal register of a museum caption.",
-    "id": "gen_c10_eng_ch18_q16",
+    "id": "gen_c10_eng_ch18_q17",
     "nodeId": "c10_engl_cbse_18_001",
     "difficulty": "standard"
    },
@@ -10599,21 +10711,6 @@ export const C10_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Think-Tank' slide -- match the key terms.",
     "misconception": "A wrong answer that merely lists the rhyme without contrasting the two perspectives misses the *irony* — a key literary device tested in CBSE competency questions.",
-    "id": "gen_c10_eng_ch18_q17",
-    "nodeId": "c10_engl_cbse_18_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a 4-line monologue Think-Tank might deliver *after* fleeing to Alpha Centauri, revealing whether he has learned humility or rationalized his retreat as a strategic victory.",
-    "answer": "Criteria for a strong answer: Must use Think-Tank's voice (grand titles, third-person self-reference), reference the nursery rhymes, and show *no* growth — e",
-    "options": [
-     "The direction visually demonstrates Think‑Tank's ignorance and arrogance: he misinterprets a simple book because he cannot read it, yet he confidently examines it the wrong way",
-     "Think-Tank would likely interpret \"crown\" as a royal crown (symbol of leadership) rather than a skull",
-     "Criteria for a strong answer: Must use Think-Tank's voice (grand titles, third-person self-reference), reference the nursery rhymes, and show *no* growth — e"
-    ],
-    "hint": "Straight from the 'Think-Tank' slide -- match the key terms.",
-    "misconception": "A poor answer makes him humble (\"I was wrong\") — violating character consistency, which the play establishes as his defining static trait.",
     "id": "gen_c10_eng_ch18_q18",
     "nodeId": "c10_engl_cbse_18_002",
     "difficulty": "advanced"

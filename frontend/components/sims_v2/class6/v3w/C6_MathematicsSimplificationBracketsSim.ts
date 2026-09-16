@@ -10,7 +10,7 @@ export const w_c6_mathematicssimplificationbracketssim: SimDef = {
     subtitle: 'This node covers the definition of ratios, representation (colon, fraction, words), and.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Ratio',
     chapters: [],
-    nodeIds: ['c6_math_ch06_062', 'c6_math_ch03_041'],
+    nodeIds: ['c6_math_ch06_062', 'c6_math_ch03_029'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are making lemonade and you need to mix 2 cups of sugar for every 6 cups of water.', goal: 'Master Simplification Brackets.' },
     // discovery omitted — no cleanly extractable hook

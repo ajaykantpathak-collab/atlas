@@ -10,7 +10,7 @@ export const c6MathIntegers: SimDef = {
     id: 'c6_math_integers', title: 'The Other Side of Zero', subtitle: 'Integers!',
     classLevel: 6, subject: 'maths', topic: 'Integers',
     chapters: ['Math Ch2: Integers'],
-    nodeIds: ['c6_math_ch02_016','c6_math_ch02_017','c6_math_ch02_018','c6_math_ch02_019','c6_math_ch02_020','c6_math_ch02_021','c6_math_ch02_022','c6_math_ch02_023','c6_math_ch02_024','c6_math_ch02_025','c6_math_ch02_026','c6_math_ch02_027','c6_math_ch02_028'],
+    nodeIds: ['c6_math_ch02_016','c6_math_ch02_017','c6_math_ch02_018','c6_math_ch02_019','c6_math_ch02_020','c6_math_ch02_021','c6_math_ch02_022','c6_math_ch02_023','c6_math_ch02_024','c6_math_ch02_027'],
     emoji: '➖', theme: { bg: 'from-indigo-100 to-blue-200', accent: 'indigo', scene: 'integers' },
     scenario: { role: "a number-line explorer", intro: "Below zero there's a whole world — negative numbers, debts, temperatures below freezing.", goal: "Master integers on both sides of zero." },
     discovery: {
@@ -85,7 +85,7 @@ export const c6MathFractions: SimDef = {
     id: 'c6_math_fractions', title: 'Fractions', subtitle: 'Parts of a whole',
     classLevel: 6, subject: 'maths', topic: 'Fractions',
     chapters: ['Math Ch3: Fractions'],
-    nodeIds: ['c6_math_ch03_029','c6_math_ch03_030','c6_math_ch03_031','c6_math_ch03_032','c6_math_ch03_033','c6_math_ch03_034','c6_math_ch03_035','c6_math_ch03_036','c6_math_ch03_037','c6_math_ch03_038','c6_math_ch03_039','c6_math_ch03_040','c6_math_ch03_041'],
+    nodeIds: ['c6_math_ch03_029','c6_math_ch03_030','c6_math_ch03_031','c6_math_ch03_032','c6_math_ch03_033','c6_math_ch03_034','c6_math_ch03_035','c6_math_ch03_036','c6_math_ch03_037','c6_math_ch03_038','c6_math_ch03_040'],
     emoji: '🍕', theme: { bg: 'from-orange-100 to-amber-200', accent: 'orange', scene: 'fractions' },
     scenario: { role: "a fraction-chef", intro: "Fractions are parts of a whole — halves, thirds, quarters — and you can add, multiply, divide them.", goal: "Master fraction operations." },
     discovery: {
@@ -146,7 +146,7 @@ export const c6MathAlgebra: SimDef = {
     id: 'c6_math_algebra', title: 'Algebra', subtitle: 'The unknown x',
     classLevel: 6, subject: 'maths', topic: 'Algebra',
     chapters: ['Math Ch5: Algebra'],
-    nodeIds: ['c6_math_ch05_052','c6_math_ch05_053','c6_math_ch05_054','c6_math_ch05_055','c6_math_ch05_056','c6_math_ch05_057','c6_math_ch05_058','c6_math_ch05_059','c6_math_ch05_060','c6_math_ch05_061'],
+    nodeIds: ['c6_math_ch05_052','c6_math_ch05_053','c6_math_ch05_054','c6_math_ch05_055','c6_math_ch05_056','c6_math_ch05_057','c6_math_ch05_058','c6_math_ch05_059','c6_math_ch05_060'],
     emoji: '𝑥', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'algebra' },
     scenario: { role: "an equation-solver", intro: "Algebra uses letters for unknowns — x is a number you don't know yet. Solve to find it!", goal: "Solve equations to find the unknown." },
     discovery: {
@@ -207,7 +207,7 @@ export const c6MathRatio: SimDef = {
     id: 'c6_math_ratio', title: 'Ratio & Proportion', subtitle: 'Comparing quantities',
     classLevel: 6, subject: 'maths', topic: 'Ratio and Proportion',
     chapters: ['Math Ch6: Ratio and Proportion'],
-    nodeIds: ['c6_math_ch06_062','c6_math_ch06_063','c6_math_ch06_064','c6_math_ch06_065','c6_math_ch06_066','c6_math_ch06_067','c6_math_ch06_068','c6_math_ch06_069'],
+    nodeIds: ['c6_math_ch06_062','c6_math_ch06_063','c6_math_ch06_064','c6_math_ch06_065','c6_math_ch06_066','c6_math_ch06_067','c6_math_ch06_068'],
     emoji: '⚖️', theme: { bg: 'from-teal-100 to-cyan-200', accent: 'teal', scene: 'ratio' },
     scenario: { role: "a recipe-scaler", intro: "Ratios compare quantities — 2 cups flour to 1 cup sugar. Scale recipes and compare!", goal: "Master ratio and proportion." },
     discovery: {
@@ -266,7 +266,7 @@ export const c6MathDecimals: SimDef = {
     id: 'c6_math_decimals', title: 'Decimals', subtitle: 'Point power',
     classLevel: 6, subject: 'maths', topic: 'Decimals',
     chapters: ['Math Ch4: Decimals'],
-    nodeIds: ['c6_math_ch04_042','c6_math_ch04_043','c6_math_ch04_044','c6_math_ch04_045','c6_math_ch04_046','c6_math_ch04_047','c6_math_ch04_048','c6_math_ch04_049','c6_math_ch04_050','c6_math_ch04_051'],
+    nodeIds: ['c6_math_ch04_042','c6_math_ch04_043','c6_math_ch04_044','c6_math_ch04_045','c6_math_ch04_046','c6_math_ch04_047','c6_math_ch04_048','c6_math_ch04_049','c6_math_ch04_050'],
     emoji: '🔟', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'decimals' },
     scenario: { role: "a decimal-diver", intro: "Decimals go beyond whole numbers — tenths, hundredths, thousandths — precise measurement.", goal: "Master decimal place value and operations." },
     discovery: {
@@ -327,7 +327,7 @@ export const c6MathGeometry: SimDef = {
     id: 'c6_math_geometry', title: 'Geometry Basics', subtitle: 'Lines, angles, shapes',
     classLevel: 6, subject: 'maths', topic: 'Geometry',
     chapters: ['Math Ch7: Geometry'],
-    nodeIds: ['c6_math_ch07_070','c6_math_ch07_071','c6_math_ch07_072','c6_math_ch07_073','c6_math_ch07_074','c6_math_ch07_075','c6_math_ch07_076','c6_math_ch07_077','c6_math_ch07_078','c6_math_ch07_079','c6_math_ch07_080','c6_math_ch07_081','c6_math_ch07_082','c6_math_ch07_083','c6_math_ch07_084'],
+    nodeIds: ['c6_math_ch07_070','c6_math_ch07_071','c6_math_ch07_072','c6_math_ch07_073','c6_math_ch07_074','c6_math_ch07_075','c6_math_ch07_077','c6_math_ch07_078','c6_math_ch07_079','c6_math_ch07_080','c6_math_ch07_081','c6_math_ch07_082','c6_math_ch07_083'],
     emoji: '📐', theme: { bg: 'from-emerald-100 to-green-200', accent: 'emerald', scene: 'geometry' },
     scenario: { role: "a shape-surveyor", intro: "Geometry is the math of shapes — lines, angles, triangles, circles — the world is made of them.", goal: "Know lines, angles, and shapes." },
     discovery: {
@@ -389,7 +389,7 @@ export const c6MathData: SimDef = {
     id: 'c6_math_data', title: 'Data Handling', subtitle: 'Graphs and averages',
     classLevel: 6, subject: 'maths', topic: 'Data Handling',
     chapters: ['Math Ch9: Data Handling'],
-    nodeIds: ['c6_math_ch09_095','c6_math_ch09_096','c6_math_ch09_097','c6_math_ch09_098','c6_math_ch09_099','c6_math_ch09_100','c6_math_ch09_101','c6_math_ch09_102','c6_math_ch09_103','c6_math_ch09_104'],
+    nodeIds: ['c6_math_ch09_095','c6_math_ch09_096','c6_math_ch09_097','c6_math_ch09_098','c6_math_ch09_099','c6_math_ch09_100','c6_math_ch09_101','c6_math_ch09_102'],
     emoji: '📊', theme: { bg: 'from-cyan-100 to-sky-200', accent: 'cyan', scene: 'data' },
     scenario: { role: "a data-analyst", intro: "Data tells stories — graphs show patterns, averages summarize numbers.", goal: "Read graphs and find averages." },
     discovery: {
@@ -449,7 +449,7 @@ export const c6MathNumbers: SimDef = {
     id: 'c6_math_numbers', title: 'Big Numbers', subtitle: 'Place value & operations',
     classLevel: 6, subject: 'maths', topic: 'Number System',
     chapters: ['Math Ch1: Numbers'],
-    nodeIds: ['c6_math_ch01_001','c6_math_ch01_002','c6_math_ch01_003','c6_math_ch01_004','c6_math_ch01_005','c6_math_ch01_006','c6_math_ch01_007','c6_math_ch01_008','c6_math_ch01_009','c6_math_ch01_010','c6_math_ch01_011','c6_math_ch01_012','c6_math_ch01_013','c6_math_ch01_014','c6_math_ch01_015'],
+    nodeIds: ['c6_math_ch01_001','c6_math_ch01_002','c6_math_ch01_003','c6_math_ch01_004','c6_math_ch01_005','c6_math_ch01_006','c6_math_ch01_007','c6_math_ch01_008','c6_math_ch01_009','c6_math_ch01_010','c6_math_ch01_011','c6_math_ch01_013','c6_math_ch01_014','c6_math_ch01_015'],
     emoji: '🔢', theme: { bg: 'from-blue-100 to-cyan-200', accent: 'blue', scene: 'numbers' },
     scenario: { role: "a number-navigator", intro: "Numbers go up to crores — place value tells you what each digit is worth.", goal: "Master big numbers and their operations." },
     discovery: {
@@ -512,7 +512,7 @@ export const c6MathMensuration: SimDef = {
     id: 'c6_math_mensuration', title: 'Perimeter & Area', subtitle: 'Measuring shapes',
     classLevel: 6, subject: 'maths', topic: 'Mensuration',
     chapters: ['Math Ch8: Mensuration'],
-    nodeIds: ['c6_math_ch08_085','c6_math_ch08_086','c6_math_ch08_087','c6_math_ch08_088','c6_math_ch08_089','c6_math_ch08_090','c6_math_ch08_091','c6_math_ch08_092','c6_math_ch08_093','c6_math_ch08_094'],
+    nodeIds: ['c6_math_ch08_085','c6_math_ch08_086','c6_math_ch08_087','c6_math_ch08_088','c6_math_ch08_090','c6_math_ch08_092'],
     emoji: '📐', theme: { bg: 'from-emerald-100 to-teal-200', accent: 'emerald', scene: 'mensuration' },
     scenario: { role: "a land-surveyor", intro: "Perimeter is the distance around; area is the space inside. Measure fields, rooms, shapes!", goal: "Calculate perimeter and area." },
     discovery: {
@@ -574,7 +574,7 @@ export const c6MathSymmetry: SimDef = {
     id: 'c6_math_symmetry', title: 'Symmetry', subtitle: 'Mirror lines & patterns',
     classLevel: 6, subject: 'maths', topic: 'Symmetry',
     chapters: ['Math Ch10: Symmetry'],
-    nodeIds: ['c6_math_ch10_105','c6_math_ch10_106','c6_math_ch10_107','c6_math_ch10_108','c6_math_ch10_109','c6_math_ch10_110','c6_math_ch10_111','c6_math_ch10_112'],
+    nodeIds: ['c6_math_ch10_105','c6_math_ch10_108','c6_math_ch10_109','c6_math_ch10_111'],
     emoji: '🦋', theme: { bg: 'from-pink-100 to-rose-200', accent: 'pink', scene: 'symmetry' },
     scenario: { role: "a pattern-finder", intro: "Symmetry means balance — a butterfly's wings mirror each other, shapes fold onto themselves.", goal: "Find lines of symmetry." },
     discovery: {
@@ -629,7 +629,7 @@ export const c6MathConstructions: SimDef = {
     id: 'c6_math_constructions', title: 'Constructions', subtitle: 'Compass & ruler',
     classLevel: 6, subject: 'maths', topic: 'Geometric Constructions',
     chapters: ['Math Ch11: Constructions'],
-    nodeIds: ['c6_math_ch11_113','c6_math_ch11_114','c6_math_ch11_115','c6_math_ch11_116','c6_math_ch11_117','c6_math_ch11_118','c6_math_ch11_119','c6_math_ch11_120'],
+    nodeIds: ['c6_math_ch11_113','c6_math_ch11_114','c6_math_ch11_115','c6_math_ch11_116','c6_math_ch11_117','c6_math_ch11_118'],
     emoji: '📏', theme: { bg: 'from-amber-100 to-yellow-200', accent: 'amber', scene: 'constructions' },
     scenario: { role: "a geometry-builder", intro: "With just a compass and ruler you can build perfect shapes — bisect lines, copy angles, construct triangles.", goal: "Learn geometric constructions." },
     discovery: {
@@ -684,7 +684,7 @@ export const c6MathPatterns: SimDef = {
     id: 'c6_math_patterns', title: 'Patterns', subtitle: 'Number & shape sequences',
     classLevel: 6, subject: 'maths', topic: 'Patterns',
     chapters: ['Math Ch12: Patterns'],
-    nodeIds: ['c6_math_ch12_121','c6_math_ch12_122','c6_math_ch12_123'],
+    nodeIds: ['c6_math_ch12_121','c6_math_ch12_122'],
     emoji: '🔁', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'patterns' },
     scenario: { role: "a pattern-decoder", intro: "Patterns repeat and grow — numbers, shapes, and nature all follow hidden rules.", goal: "Spot and extend patterns." },
     discovery: {

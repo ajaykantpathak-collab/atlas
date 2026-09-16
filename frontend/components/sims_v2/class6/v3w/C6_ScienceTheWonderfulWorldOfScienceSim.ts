@@ -10,7 +10,7 @@ export const w_c6_sciencethewonderfulworldofsciencesim: SimDef = {
     subtitle: 'This node covers the definition of science and the basic scientific method (observation,.',
     classLevel: 6, subject: 'science', topic: 'What is Science and Why It Matters',
     chapters: [],
-    nodeIds: ['c6_physics_ch01_001', 'c6_physics_ch01_002', 'c6_physics_ch01_003', 'c6_physics_ch01_005', 'c6_chemistry_ch04_001', 'c6_physics_ch02_006', 'c6_physics_ch02_009'],
+    nodeIds: ['c6_physics_ch01_001', 'c6_physics_ch01_002', 'c6_physics_ch01_003', 'c6_physics_ch01_004', 'c6_chemistry_ch04_001', 'c6_physics_ch02_006', 'c6_physics_ch02_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine your favorite flashlight suddenly stops working; what is the first thing you do?', goal: 'Master The Wonderful World Of Science.' },
     discovery: {

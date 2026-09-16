@@ -12,7 +12,7 @@
 import { useMemo, useRef, useState, useCallback, useEffect } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { OrbitControls, Stars, Text, Line, Billboard } from '@react-three/drei'
-import { EffectComposer, Bloom } from '@react-three/postprocessing'
+import { EffectComposer, Bloom, Noise, Vignette } from '@react-three/postprocessing'
 import * as THREE from 'three'
 import { useRouter } from 'next/navigation'
 import GALAXY from './GALAXY.json'
@@ -32,6 +32,25 @@ const SUBJ_COLORS: [RegExp, string][] = [
     [/cs|ip|comp|ca/i, '#22d3ee'], [/soc|psy|hs/i, '#fb923c'],
 ]
 const subjColor = (s: string) => SUBJ_COLORS.find(([re]) => re.test(s))?.[1] ?? '#94a3b8'
+
+/* ═══ Lumen-style soft glow sprite — shared by stars and nebula dust ═══ */
+let _glowTex: THREE.Texture | null = null
+function glowTexture(): THREE.Texture {
+    if (!_glowTex) {
+        const c = document.createElement('canvas')
+        c.width = c.height = 64
+        const g = c.getContext('2d')!
+        const grad = g.createRadialGradient(32, 32, 0, 32, 32, 32)
+        grad.addColorStop(0, 'rgba(255,255,255,1)')
+        grad.addColorStop(0.25, 'rgba(255,255,255,0.55)')
+        grad.addColorStop(0.6, 'rgba(255,255,255,0.12)')
+        grad.addColorStop(1, 'rgba(255,255,255,0)')
+        g.fillStyle = grad
+        g.fillRect(0, 0, 64, 64)
+        _glowTex = new THREE.CanvasTexture(c)
+    }
+    return _glowTex
+}
 
 /* adjacency: node index → its connected node indices */
 const ADJ = (() => {
@@ -66,7 +85,7 @@ function NodeField({ mastery, classLevel, onHover }: {
             pos.set(n.pos, i * 3)
             const m = mastery[n.id] ?? 0
             const mine = !classLevel || n.cls === classLevel
-            const lit = mine ? 0.2 + (m / 100) * 1.7 : 0.06      // other classes = faint dust
+            const lit = mine ? 0.3 + (m / 100) * 2.2 : 0.09      // other classes = faint dust
             c.set(subjColor(n.subj)).multiplyScalar(lit)
             colors.set([c.r, c.g, c.b], i * 3)
         })
@@ -113,7 +132,9 @@ function NodeField({ mastery, classLevel, onHover }: {
                 <meshBasicMaterial toneMapped={false} />
             </instancedMesh>
             <points ref={points} geometry={pGeo}>
-                <pointsMaterial size={1.6} vertexColors sizeAttenuation transparent opacity={0.9} />
+                <pointsMaterial map={glowTexture()} size={10} vertexColors sizeAttenuation
+                    transparent opacity={1} depthWrite={false} blending={THREE.AdditiveBlending}
+                    toneMapped={false} />
             </points>
         </group>
     )
@@ -139,6 +160,24 @@ function HoverEdges({ node }: { node: GNode | null }) {
         <lineSegments geometry={geo}>
             <lineBasicMaterial color="#fbbf24" transparent opacity={0.7} />
         </lineSegments>
+    )
+}
+
+/* ═══ nebula dust — big soft colour washes behind each subject sector ═══ */
+function NebulaDust() {
+    return (
+        <group>
+            {SECTORS.map((s) => {
+                const d = 55 + Math.sqrt(s.n) * 9
+                return (
+                    <sprite key={s.subj} position={[s.pos[0], s.pos[1] - 10, s.pos[2]]} scale={[d, d * 0.7, 1]}>
+                        <spriteMaterial map={glowTexture()} color={subjColor(s.subj)} transparent
+                            opacity={0.032} blending={THREE.AdditiveBlending} depthWrite={false}
+                            toneMapped={false} />
+                    </sprite>
+                )
+            })}
+        </group>
     )
 }
 
@@ -257,7 +296,8 @@ export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
     const centroid = useMemo(() => {
         if (!mine.length) return [0, 140, 260] as [number, number, number]
         const c = mine.reduce((a, n) => [a[0] + n.pos[0], a[1] + n.pos[1], a[2] + n.pos[2]], [0, 0, 0])
-        return [c[0] / mine.length, c[1] / mine.length + 60, c[2] / mine.length + 120] as [number, number, number]
+        // pull back far enough that the whole disc reads as one galaxy
+        return [c[0] / mine.length, c[1] / mine.length + 180, c[2] / mine.length + 560] as [number, number, number]
     }, [mine])
 
     const classes = Array.from(new Set(NODES.map(n => n.cls))).sort((a, b) => a - b)
@@ -269,6 +309,7 @@ export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
                 <ambientLight intensity={0.4} />
                 <Stars radius={400} depth={60} count={3000} factor={4} fade speed={0.5} />
                 <Regions />
+                <NebulaDust />
                 <NodeField mastery={mastery} classLevel={cls} onHover={setHover} />
                 <HoverEdges node={hover} />
                 {nextNode && <Beacon node={nextNode} />}
@@ -276,7 +317,11 @@ export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
                 <OrbitControls enablePan enableZoom enableRotate minDistance={20} maxDistance={620}
                     autoRotate autoRotateSpeed={0.35} />
                 <ClickToSim onGo={(id) => { audioManager.play('success'); router.push(`/sims-v2/${id}`) }} />
-                <EffectComposer><Bloom intensity={0.8} luminanceThreshold={0.18} luminanceSmoothing={0.7} /></EffectComposer>
+                <EffectComposer>
+                    <Bloom intensity={1.1} luminanceThreshold={0.08} luminanceSmoothing={0.78} mipmapBlur />
+                    <Noise premultiply opacity={0.07} />
+                    <Vignette offset={0.22} darkness={0.72} />
+                </EffectComposer>
             </Canvas>
 
             {/* class scope chips */}

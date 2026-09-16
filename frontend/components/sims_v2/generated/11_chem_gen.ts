@@ -16,14 +16,16 @@ export const C11_CHEM_GEN: SimDef[] = [
   "subject": "chemistry",
   "topic": "Chemistry",
   "chapters": [
-   "Chemistry Ch1: Chemistry"
+   "Chemistry Ch1: Chemistry",
+   "Chemistry Ch2: Chemistry"
   ],
   "nodeIds": [
    "c11_chem_cbse_01_001",
    "c11_chem_cbse_01_002",
    "c11_chem_cbse_01_009",
    "c11_chem_cbse_01_011",
-   "c11_chem_cbse_01_012"
+   "c11_chem_cbse_01_012",
+   "c11_chem_cbse_02_017"
   ],
   "emoji": "🧪",
   "theme": {
@@ -71,6 +73,12 @@ export const C11_CHEM_GEN: SimDef[] = [
     "text": "The limiting reagent is the reactant that is completely consumed first in a chemical reaction, thereby determining the maximum amount of product that can be formed.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Hund's Rule Of Maximum Multiplicity States",
+    "text": "Hund's Rule of Maximum Multiplicity states that when electrons occupy degenerate orbitals (orbitals of equal energy within the same subshell), they occupy separate orbitals singly with parallel spins before any pairing occurs.",
+    "emoji": "🧪",
+    "bgColor": "from-emerald-400 to-teal-500"
    }
   ],
   "challenges": [
@@ -177,6 +185,84 @@ export const C11_CHEM_GEN: SimDef[] = [
      "In the lab, we see this when 50 kg N₂ reacts with 10 kg H₂ to make ammonia; the H₂ runs out first even though its mass is smaller.",
      "Start by writing the balanced equation, convert all quantities to moles, then divide each reactant's moles by its stoichiometric coefficient — the"
     ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps for the magnet experiment that reveals unpaired d-electrons in three salt solutions.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain Fe2+ with d6 as four unpaired",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Hang each from a strong magnet in turn",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Fill identical tubes with FeSO4",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Confirm Zn2+ with d10 has no unpaired",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that expects zinc to be magnetic shows the student has misapplied Hund's rule, which fills d orbitals singly first and pairs only after each orbital has one electron.",
+    "id": "gen_c11_chem_ch01_q6",
+    "nodeId": "c11_chem_cbse_02_017",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a magnetic stirrer in the chemistry lab: the stir bar (iron) is strongly attracted to the rotating magnet beneath the beaker, while a ceramic",
+     "This macroscopic magnetism originates from unpaired electron spins in the iron atoms.",
+     "Now consider the electron configuration of gaseous oxygen atoms (1s²2s²2p⁴).",
+     "How do four electrons arrange in three degenerate 2p orbitals?"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps for the magnet experiment that reveals unpaired d-electrons in three salt solutions.",
+    "answer": "The procedure runs: (1) Fill identical tubes with FeSO4, CuSO4 and ZnSO4 solutions (2) Hang each from a strong magnet in turn and note attraction or not (3) Explain Fe2+ with d6",
+    "options": [
+     "Procedure: Take 3 identical bottles. Add 10 g NaHCO₃ to each. Add 10 mL, 20 mL, 30 mL vinegar (5% acetic acid) respectively",
+     "DAP is (NH₄)₂HPO₄. The principle is ionic dissociation in aqueous soil solution: (NH₄)₂HPO₄(s) → 2NH₄⁺(aq) + HPO₄²⁻(aq)",
+     "The procedure runs: (1) Fill identical tubes with FeSO4, CuSO4 and ZnSO4 solutions (2) Hang each from a strong magnet in turn and note attraction or not (3) Explain Fe2+ with d6"
+    ],
+    "hint": "Straight from the 'Hund's Rule of Maximum' slide -- match the key terms.",
+    "misconception": "A wrong answer that expects zinc to be magnetic shows the student has misapplied Hund's rule, which fills d orbitals singly first and pairs only after each orbital has one electron.",
+    "id": "gen_c11_chem_ch01_q7",
+    "nodeId": "c11_chem_cbse_02_017",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -197,7 +283,8 @@ export const C11_CHEM_GEN: SimDef[] = [
   "subject": "chemistry",
   "topic": "Mendeleev's Periodic Table Arranges The Known",
   "chapters": [
-   "Chemistry Ch3: Mendeleev's Periodic Table Arranges The Known"
+   "Chemistry Ch3: Mendeleev's Periodic Table Arranges The Known",
+   "Chemistry Ch4: Mendeleev's Periodic Table Arranges The Known"
   ],
   "nodeIds": [
    "c11_chem_cbse_03_001",
@@ -208,7 +295,8 @@ export const C11_CHEM_GEN: SimDef[] = [
    "c11_chem_cbse_03_007",
    "c11_chem_cbse_03_008",
    "c11_chem_cbse_03_009",
-   "c11_chem_cbse_03_011"
+   "c11_chem_cbse_03_011",
+   "c11_chem_cbse_04_012"
   ],
   "emoji": "🧪",
   "theme": {
@@ -281,6 +369,13 @@ export const C11_CHEM_GEN: SimDef[] = [
     "text": "Valency is the combining capacity of an element, numerically equal to the number of electrons in the outermost shell (valence electrons) that an atom can lose, gain, or share to achieve a stable noble gas configuration; for representative elements, it equals",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Dipole Moment Of a Polar Covalent Bond",
+    "text": "The dipole moment (μ) of a polar covalent bond is the product of the magnitude of the partial charge (δ) on either atom and the distance (r) between the centres of positive and negative charge: μ = δ × r.",
+    "emoji": "🧪",
+    "bgColor": "from-rose-400 to-pink-500",
+    "katex": "D = 3"
    }
   ],
   "challenges": [
@@ -447,8 +542,8 @@ export const C11_CHEM_GEN: SimDef[] = [
     "question": "Define ionic radius and state how it differs from atomic radius in terms of measurement method and the species involved.",
     "answer": "Ionic radius is half the internuclear distance between adjacent cation and anion in an ionic crystal lattice",
     "options": [
+     "The demonstration runs: (1) Charge a plastic ruler by rubbing it with wool (2) Run a thin stream of water past the charged ruler and watch it bend (3) Repeat the stream with",
      "First electron gain enthalpy (ΔegH) is the enthalpy change when one mole of electrons is added to one mole of gaseous atoms in their ground state to form one mole of gaseous",
-     "Mendeleev used atomic mass but prioritized chemical properties; he placed Te in Group 16 and I in Group 17 because their properties matched those groups",
      "Ionic radius is half the internuclear distance between adjacent cation and anion in an ionic crystal lattice"
     ],
     "hint": "Straight from the 'Ionic radius' slide -- match the key terms.",
@@ -489,8 +584,8 @@ export const C11_CHEM_GEN: SimDef[] = [
     "question": "State the precise IUPAC definition of first electron gain enthalpy, including the physical states of all species and the standard conditions. Write the thermochemical equation for chlorine.",
     "answer": "First electron gain enthalpy (ΔegH) is the enthalpy change when one mole of electrons is added to one mole of gaseous atoms in their ground state to form one mole of gaseous",
     "options": [
+     "The demonstration runs: (1) Charge a plastic ruler by rubbing it with wool (2) Run a thin stream of water past the charged ruler and watch it bend (3) Repeat the stream with",
      "Ionic radius is half the internuclear distance between adjacent cation and anion in an ionic crystal lattice",
-     "Example scheme: Write n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements. n=5: 5s (2) → 4d (10) → 5p (6) = 18",
      "First electron gain enthalpy (ΔegH) is the enthalpy change when one mole of electrons is added to one mole of gaseous atoms in their ground state to form one mole of gaseous"
     ],
     "hint": "Straight from the 'Electron Gain Enthalpy' slide -- match the key terms.",
@@ -524,6 +619,69 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Now consider magnesium chloride (MgCl₂): magnesium (Group 2) loses two electrons, so it needs two chlorine atoms.",
      "This pattern — Group 1 forms MX, Group 2 forms MX₂, Group 13 forms MX₃ — reveals that valency follows group number for metals.",
      "For non-metals, valency = 8 – group number: oxygen (Group 16) needs 2 electrons → valency 2, nitrogen (Group 15) needs 3 → valency 3."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps for the charged-ruler experiment that distinguishes a polar liquid from a non-polar one.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Run a thin stream of water past the charged",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Charge a plastic ruler by rubbing it with",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Read the bending as alignment of water's net",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Repeat the stream with carbon tetrachloride",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that expects both liquids to bend shows the student has missed that only molecules with a net dipole moment respond to the external field.",
+    "id": "gen_c11_chem_ch03_q10",
+    "nodeId": "c11_chem_cbse_04_012",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe how a stream of water from a tap bends towards a charged plastic comb rubbed through dry hair — the water molecule acts like a tiny magnet",
+     "This happens because oxygen pulls the shared electrons more strongly than hydrogen, creating a charge separation.",
+     "Recall from Class 9 (c9_chem_ch3_4) that covalent bonds involve electron sharing, but here the sharing is unequal.",
+     "Start by identifying the more electronegative atom in a bond (using periodic trends from Class 10, c10_chem_cbse_05_010)."
     ]
    },
    {
@@ -579,7 +737,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Each card: element symbol, atomic weight (as known in 1869), formulae of oxide and chloride, physical state,",
-    "id": "gen_c11_chem_ch03_q10",
+    "id": "gen_c11_chem_ch03_q11",
     "nodeId": "c11_chem_cbse_03_001",
     "difficulty": "standard"
    },
@@ -594,7 +752,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mendeleev's Periodic Table' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Mendeleev used atomic number\") confuses the historical sequence; an answer that only says \"Mendeleev's table was longer\" misses the conceptual superiority of property-based grouping over rigid numerical patterns.",
-    "id": "gen_c11_chem_ch03_q11",
+    "id": "gen_c11_chem_ch03_q12",
     "nodeId": "c11_chem_cbse_03_001",
     "difficulty": "standard"
    },
@@ -609,7 +767,22 @@ export const C11_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mendeleev's Periodic Table' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Each card: element symbol, atomic weight (as known in 1869), formulae of oxide and chloride, physical state,",
-    "id": "gen_c11_chem_ch03_q12",
+    "id": "gen_c11_chem_ch03_q13",
+    "nodeId": "c11_chem_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Given the following data for four elements A, B, C, D, arrange them in a Mendeleev-style group and predict the formula of the chloride of the missing element between B and C. | Element | Atomic Weight | Oxide Formula | Chloride Formula | |---------|---------------|---------------|------------------| | A | 27 | A₂O₃ |",
+    "answer": "Step 1: All elements form M₂O₃ and MCl₃, indicating valency 3 → same group. Step 2: Order by atomic weight: A (27), B (70), [gap], C (180), D (207)",
+    "options": [
+     "In H₂, bond distance = 2 × r_cov(H) → r_cov(H) = 74/2 = 37 pm. In HF, bond distance = r_cov(H) + r_cov(F) = 92 pm",
+     "Measure internuclear distances: d(LiF), d(NaCl), d(KBr). Assume r(Li⁺) + r(F⁻) = d(LiF), etc. To separate individual radii",
+     "Step 1: All elements form M₂O₃ and MCl₃, indicating valency 3 → same group. Step 2: Order by atomic weight: A (27), B (70), [gap], C (180), D (207)"
+    ],
+    "hint": "Straight from the 'Mendeleev's Periodic Table' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., XCl₂ or XCl₄) reveals the student cannot infer valency from given compound formulae; a wrong ordering (e.g., placing C before B) shows inability to use atomic weight as the primary sequencing parameter.",
+    "id": "gen_c11_chem_ch03_q14",
     "nodeId": "c11_chem_cbse_03_001",
     "difficulty": "standard"
    },
@@ -624,7 +797,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The Modern Periodic Law states' slide -- match the key terms.",
     "misconception": "A wrong answer that says Mendeleev strictly followed atomic mass shows misunderstanding of his methodology.",
-    "id": "gen_c11_chem_ch03_q13",
+    "id": "gen_c11_chem_ch03_q15",
     "nodeId": "c11_chem_cbse_03_002",
     "difficulty": "standard"
    },
@@ -639,7 +812,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The Modern Periodic Law states' slide -- match the key terms.",
     "misconception": "A poor answer might mix up roots (e.g., using 'sept' for 7 but 'oct' for 8 incorrectly) indicating lack of memorization.",
-    "id": "gen_c11_chem_ch03_q14",
+    "id": "gen_c11_chem_ch03_q16",
     "nodeId": "c11_chem_cbse_03_002",
     "difficulty": "standard"
    },
@@ -650,12 +823,11 @@ export const C11_CHEM_GEN: SimDef[] = [
     "options": [
      "Reason 1: Mendeleev used a broader range of physical and chemical properties (especially compound formulae like oxides and chlorides) to group elements",
      "Mendeleev used atomic mass but prioritized chemical properties; he placed Te in Group 16 and I in Group 17 because their properties matched those groups",
-     "Hex Sept Oct (4f series, n=6) and actinoids (5f series, n=7) are inner transition elements where the differentiating electron enters (n-2)f orbitals",
      "Lanthanoids (4f series, n=6) and actinoids (5f series, n=7) are inner transition elements where the differentiating electron enters (n-2)f orbitals"
     ],
     "hint": "Straight from the 'In the Modern Periodic Table,' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student says \"they are placed at the bottom because they are radioactive\" (only actinoids) or \"because they are metals,\" they miss the structural/periodic classification reason.",
-    "id": "gen_c11_chem_ch03_q15",
+    "id": "gen_c11_chem_ch03_q17",
     "nodeId": "c11_chem_cbse_03_003",
     "difficulty": "standard"
    },
@@ -666,44 +838,14 @@ export const C11_CHEM_GEN: SimDef[] = [
     "options": [
      "Each card: element symbol, atomic weight (as known in 1869), formulae of oxide and chloride, physical state, metal/non-metal character",
      "In H₂, bond distance = 2 × r_cov(H) → r_cov(H) = 74/2 = 37 pm. In HF, bond distance = r_cov(H) + r_cov(F) = 92 pm",
-     "Example scheme: Ac n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements. n=5: 5s (2) → 4d (10) → 5p (6) = 18",
+     "Example scheme: Determine n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements. n=5: 5s (2) → 4d (10) → 5p (6) = 18",
      "Example scheme: Write n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements. n=5: 5s (2) → 4d (10) → 5p (6) = 18"
     ],
     "hint": "Straight from the 'Elements' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example scheme: Write n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements.",
-    "id": "gen_c11_chem_ch03_q16",
+    "id": "gen_c11_chem_ch03_q18",
     "nodeId": "c11_chem_cbse_03_005",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the ionic radii of K⁺ (138 pm) and Cl⁻ (181 pm). Both are isoelectronic with Ar (18 electrons). Which factor — nuclear charge or principal quantum number — dominates the size difference, and why?",
-    "answer": "Nuclear charge dominates: K⁺ (Z=19) has a much higher nuclear charge than Cl⁻ (Z=17) for the same electron count (18), so its electrons are held more tightly",
-    "options": [
-     "Lanthanoids (4f series, n=6) and actinoids (5f series, n=7) are inner transition elements where the differentiating electron enters (n-2)f orbitals",
-     "Reason 1: Mendeleev used a broader range of physical and chemical properties (especially compound formulae like oxides and chlorides) to group elements",
-     "Nuclear charge dominates: K⁺ (Z=19) has a much higher nuclear charge than Cl⁻ (Z=17) for the same electron count (18), so its electrons are held more tightly"
-    ],
-    "hint": "Straight from the 'Ionic radius' slide -- match the key terms.",
-    "misconception": "A wrong answer citing \"K⁺ is larger because potassium is below sodium in Group 1\" reveals the student incorrectly applies group trends (which apply to neutral atoms) instead of isoelectronic principles.",
-    "id": "gen_c11_chem_ch03_q17",
-    "nodeId": "c11_chem_cbse_03_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a thought experiment using X-ray diffraction data of three alkali halides (LiF, NaCl, KBr) to estimate the ionic radii of Li⁺, Na⁺, K⁺, F⁻, Cl⁻, Br⁻, assuming the sum of cation and anion radii equals the measured internuclear distance. What additional assumption is needed to separate the individual radii?",
-    "answer": "Measure internuclear distances: d(LiF), d(NaCl), d(KBr). Assume r(Li⁺) + r(F⁻) = d(LiF), etc. To separate individual radii",
-    "options": [
-     "Example mnemonic: \"Nil Un Bi Tri Quad Pent Hex Sept Oct Enn\" -> \"Nil Uncle Bill Tripped Quadrillion Pentagons Hexing Seven Octopuses Entering November\"",
-     "In the Born-Haber cycle for NaCl: ΔHf = ΔHsub(Na) + ΔiH(Na) + ½ΔHdiss(Cl₂) + ΔegH(Cl) + U(lattice)",
-     "Measure internuclear distances: d(LiF), d(NaCl), d(KBr). Assume r(Li⁺) + r(F⁻) = d(LiF), etc. To separate individual radii"
-    ],
-    "hint": "Straight from the 'Ionic radius' slide -- match the key terms.",
-    "misconception": "A poor answer (e.g., \"just divide by 2\") reveals the student does not understand that internuclear distance is a sum of two unknowns requiring an external reference.",
-    "id": "gen_c11_chem_ch03_q18",
-    "nodeId": "c11_chem_cbse_03_007",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -1371,15 +1513,15 @@ export const C11_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Design a simple experiment using syringes and pressure sensors to verify Dalton's law for a mixture of air and carbon dioxide. Outline the procedure, measurements needed, and how you would analyze the data.",
-    "answer": "Procedure: (1) Fill syringe A with known volume of air, measure its pressure P_air. (2) Fill syringe B with same volume of CO₂, measure P_CO₂",
+    "question": "A gas is collected over water at 298 K. The total pressure in the gas jar is 760 mm Hg. The vapour pressure of water at 298 K is 23.8 mm Hg. Calculate the pressure of the dry gas collected. Show all steps.",
+    "answer": "Step 1: Identify that collected gas is mixture of dry gas + water vapour. Step 2: Apply Dalton's law: P_total = P_dry_gas + P_water_vapour",
     "options": [
-     "The \\(P\\) vs \\(1/V\\) plot confirms Boyle's Law directly because it yields a straight line (\\(P = k \\times 1/V\\)), making verification of proportionality immediate",
+     "Final total pressure = 2.5 atm, which is less than initial sum (5 atm). Reason: When valve opens, each gas expands to fill 2V",
      "Procedure: (1) Fill rigid container of known volume V with N₂ gas. (2) Measure pressure P at temperature T using gauge and thermometer",
-     "Procedure: (1) Fill syringe A with known volume of air, measure its pressure P_air. (2) Fill syringe B with same volume of CO₂, measure P_CO₂"
+     "Step 1: Identify that collected gas is mixture of dry gas + water vapour. Step 2: Apply Dalton's law: P_total = P_dry_gas + P_water_vapour"
     ],
     "hint": "Straight from the 'Dalton's Law of Partial Pressures' slide -- match the key terms.",
-    "misconception": "A poor answer (e.g., just mixing without accounting for volume change) reveals lack of understanding that partial pressures are defined for the same final volume and temperature.",
+    "misconception": "A wrong answer (e.g., 760 mm Hg or 783.8 mm Hg) reveals failure to account for aqueous vapour pressure or incorrect addition instead of subtraction.",
     "id": "gen_c11_chem_ch05_q18",
     "nodeId": "c11_chem_cbse_05_007",
     "difficulty": "advanced"
@@ -1562,6 +1704,259 @@ export const C11_CHEM_GEN: SimDef[] = [
    ]
   },
   "successLine": "In Thermodynamics, a System mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
+  "id": "gen_c11_chem_ch07",
+  "title": "Equilibrium In Physical Processes",
+  "subtitle": "Chemistry · Chapter 7",
+  "classLevel": 11,
+  "mode": "senior",
+  "subject": "chemistry",
+  "topic": "Equilibrium In Physical Processes",
+  "chapters": [
+   "Chemistry Ch7: Equilibrium In Physical Processes"
+  ],
+  "nodeIds": [
+   "c11_chem_cbse_07_001",
+   "c11_chem_cbse_07_002",
+   "c11_chem_cbse_07_011"
+  ],
+  "emoji": "🧪",
+  "theme": {
+   "bg": "from-rose-100 to-pink-200",
+   "accent": "rose",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Is Equilibrium In Physical Processes more about facts, or about reasoning?",
+   "options": [
+    "Mostly reasoning from a few core ideas",
+    "Pure memorisation of facts",
+    "Random guessing"
+   ],
+   "answer": "Mostly reasoning from a few core ideas",
+   "hook": "Chemical plant operator: shifts equilibrium conditions to squeeze more product out of a reactor."
+  },
+  "teaching": [
+   {
+    "title": "Equilibrium In Physical Processes",
+    "text": "Equilibrium in physical processes is a dynamic state in a closed system where opposing physical changes (such as melting/freezing, evaporation/condensation, or sublimation/deposition) occur at equal rates, resulting in no net change in the macroscopic",
+    "emoji": "🧪",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Dynamic Equilibrium In a Chemical Process",
+    "text": "Dynamic equilibrium in a chemical process is a state in a reversible reaction where the rate of the forward reaction equals the rate of the reverse reaction, resulting in no net change in the concentrations of reactants and products over time, though",
+    "emoji": "🧪",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Ionisation Constant Of a Weak Acid",
+    "text": "The ionisation constant of a weak acid (Ka) is the equilibrium constant for its partial dissociation in aqueous solution: HA(aq) ⇌ H⁺(aq) + A⁻(aq), where Ka = [H⁺][A⁻]/[HA].",
+    "emoji": "🧪",
+    "bgColor": "from-emerald-400 to-teal-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "math_input",
+    "question": "Solid iodine in a sealed flask at 25 degree Celsius develops a vapour density of 0.012 g per litre. Calculate its vapour pressure in atm.",
+    "answer": "0.00116",
+    "mathInput": {
+     "tolerance": 1.2e-05,
+     "placeholder": "atm"
+    },
+    "hint": "Work it step by step, then enter the final value in atm.",
+    "misconception": "A wrong answer that uses 127 g per mol for atomic iodine shows the student has confused the molecule with the atom.",
+    "id": "gen_c11_chem_ch07_q1",
+    "nodeId": "c11_chem_cbse_07_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a sealed bottle of carbonated drink (like Thums Up or Limca) at room temperature — you see no bubbles rising, yet when you open it, CO₂",
+     "This demonstrates gas-liquid equilibrium: inside the sealed bottle, CO₂ dissolves in the liquid at the same rate it escapes, maintaining constant",
+     "Now place an ice cube in a insulated flask at 0°C — it neither melts completely nor grows; solid and liquid water coexist at constant temperature.",
+     "These everyday Indian kitchen observations reveal that physical equilibrium requires a closed system, a constant temperature, and opposing processes"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps in the thiocyanate experiment that proves chemical equilibrium is dynamic.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Split the equilibrium mixture into separate",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Mix iron three plus with thiocyanate ions",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Watch both tubes deepen in colour",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Add extra iron three plus to one tube",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that predicts no change on addition shows the student has missed that the constant colour at equilibrium hides continuous forward and reverse reactions that any disturbance exposes.",
+    "id": "gen_c11_chem_ch07_q2",
+    "nodeId": "c11_chem_cbse_07_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a saturated sugar solution in a glass with undissolved crystals at the bottom — the amount of dissolved sugar appears constant, yet if you",
+     "This mirrors Class 9 learning on saturated solutions (c9_chem_ch1_3) but now we generalize: in a closed vessel, N₂(g) + 3H₂(g) ⇌ 2NH₃(g) reaches a",
+     "Start by identifying a reversible reaction (⇌), then track concentration vs time graphs until they plateau — that plateau is dynamic equilibrium."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps for the baking-soda test that separates a weak acid from a strong one.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Add a spoon of baking soda to each and watch",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Note the vigorous carbon dioxide rush",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Confirm with pH paper that the toilet",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Measure equal volumes of vinegar and diluted",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that expects identical fizzing shows the student has missed that a weak acid ionises only partially, so its free hydrogen ion concentration stays low.",
+    "id": "gen_c11_chem_ch07_q3",
+    "nodeId": "c11_chem_cbse_07_011",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe a bottle of vinegar (5% acetic acid) and a bottle of ammonia solution (used for cleaning) in your kitchen.",
+     "Both taste/smell sharp but neither conducts electricity as well as hydrochloric acid or sodium hydroxide solutions of the same concentration.",
+     "This tells you they are partially ionised — they exist in equilibrium between molecules and ions.",
+     "Start by writing the equilibrium for acetic acid: CH₃COOH ⇌ H⁺ + CH₃COO⁻."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Solid iodine in a sealed flask at 25 degree Celsius develops a vapour density of 0.012 g per litre. Calculate its vapour pressure in atm.",
+    "answer": "Using P = (density / M) x R x T with molar mass 254 g per mol: P = (0.012 / 254) x 0.0821 x 298 = 0.00116 atm",
+    "options": [
+     "The comparison runs: (1) Measure equal volumes of vinegar and diluted toilet cleaner (2) Add a spoon of baking soda to each and watch the fizzing (3) Note the vigorous carbon",
+     "The demonstration runs: (1) Mix iron three plus with thiocyanate ions to form the deep red complex (2) Split the equilibrium mixture into separate tubes (3) Add extra iron three",
+     "Using P = (density / M) x R x T with molar mass 254 g per mol: P = (0.012 / 254) x 0.0821 x 298 = 0.00116 atm"
+    ],
+    "hint": "Straight from the 'Equilibrium in physical processes' slide -- match the key terms.",
+    "misconception": "A wrong answer that uses 127 g per mol for atomic iodine shows the student has confused the molecule with the atom.",
+    "id": "gen_c11_chem_ch07_q4",
+    "nodeId": "c11_chem_cbse_07_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps in the thiocyanate experiment that proves chemical equilibrium is dynamic.",
+    "answer": "The demonstration runs: (1) Mix iron three plus with thiocyanate ions to form the deep red complex (2) Split the equilibrium mixture into separate tubes (3) Add extra iron three",
+    "options": [
+     "The comparison runs: (1) Measure equal volumes of vinegar and diluted toilet cleaner (2) Add a spoon of baking soda to each and watch the fizzing (3) Note the vigorous carbon",
+     "Using P = (density / M) x R x T with molar mass 254 g per mol: P = (0.012 / 254) x 0.0821 x 298 = 0.00116 atm",
+     "The demonstration runs: (1) Mix iron three plus with thiocyanate ions to form the deep red complex (2) Split the equilibrium mixture into separate tubes (3) Add extra iron three"
+    ],
+    "hint": "Straight from the 'Dynamic equilibrium in a chemical' slide -- match the key terms.",
+    "misconception": "A wrong answer that predicts no change on addition shows the student has missed that the constant colour at equilibrium hides continuous forward and reverse reactions that any disturbance exposes.",
+    "id": "gen_c11_chem_ch07_q5",
+    "nodeId": "c11_chem_cbse_07_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps for the baking-soda test that separates a weak acid from a strong one.",
+    "answer": "The comparison runs: (1) Measure equal volumes of vinegar and diluted toilet cleaner (2) Add a spoon of baking soda to each and watch the fizzing (3) Note the vigorous carbon",
+    "options": [
+     "The demonstration runs: (1) Mix iron three plus with thiocyanate ions to form the deep red complex (2) Split the equilibrium mixture into separate tubes (3) Add extra iron three",
+     "Using P = (density / M) x R x T with molar mass 254 g per mol: P = (0.012 / 254) x 0.0821 x 298 = 0.00116 atm",
+     "The comparison runs: (1) Measure equal volumes of vinegar and diluted toilet cleaner (2) Add a spoon of baking soda to each and watch the fizzing (3) Note the vigorous carbon"
+    ],
+    "hint": "Straight from the 'ionisation constant of a weak acid' slide -- match the key terms.",
+    "misconception": "A wrong answer that expects identical fizzing shows the student has missed that a weak acid ionises only partially, so its free hydrogen ion concentration stays low.",
+    "id": "gen_c11_chem_ch07_q6",
+    "nodeId": "c11_chem_cbse_07_011",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about equilibrium in physical processes?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Equilibrium In Physical mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -1768,6 +2163,21 @@ export const C11_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Calculate the volume of 0.02 M K₂Cr₂O₇ required to oxidise 25.0 mL of 0.1 M FeSO₄ in acidic medium. (Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O; Fe²⁺ → Fe³⁺ + e⁻)",
+    "answer": "Step 1: n-factor of K₂Cr₂O₇ = 6 (6 e⁻ gained per Cr₂O₇²⁻). Step 2: Equivalents of Fe²⁺ = M × V × n-factor = 0",
+    "options": [
+     "Reagents: Standard 0.1 M KMnO₄, dilute H₂SO₄, distilled water. Procedure: (1) Pipette 10.0 mL of H₂O₂ solution into a conical flask",
+     "Two errors: (1) Oxalic acid titration with KMnO₄ requires heating to 60-70°C because the reaction is slow at room temperature (Mn²⁺ autocatalysis not initiated)",
+     "Step 1: n-factor of K₂Cr₂O₇ = 6 (6 e⁻ gained per Cr₂O₇²⁻). Step 2: Equivalents of Fe²⁺ = M × V × n-factor = 0"
+    ],
+    "hint": "Straight from the 'Applications of redox reactions' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., 125 mL using mole ratio 1:6 without n-factor) reveals confusion between mole stoichiometry and equivalent stoichiometry.",
+    "id": "gen_c11_chem_ch08_q7",
+    "nodeId": "c11_chem_cbse_08_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the thermodynamic feasibility of extracting iron from Fe₂O₃ using carbon (coke) versus aluminium (thermite process) at high temperatures, using Ellingham diagram principles.",
     "answer": "Carbon reduction: Fe₂O₃ + 3C → 2Fe + 3CO; ΔG becomes negative above ~700°C because CO formation has a steep negative slope on Ellingham diagram",
     "options": [
@@ -1777,7 +2187,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Applications of redox reactions' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Al is more reactive so it always works better\") ignores the temperature dependence of ΔG for carbon reduction.",
-    "id": "gen_c11_chem_ch08_q7",
+    "id": "gen_c11_chem_ch08_q8",
     "nodeId": "c11_chem_cbse_08_008",
     "difficulty": "advanced"
    },
@@ -1792,7 +2202,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Applications of redox reactions' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"titrate with KMnO₄ and compare colour\") shows inability to translate redox stoichiometry into a quantitative analytical protocol.",
-    "id": "gen_c11_chem_ch08_q8",
+    "id": "gen_c11_chem_ch08_q9",
     "nodeId": "c11_chem_cbse_08_008",
     "difficulty": "advanced"
    }
@@ -1804,7 +2214,8 @@ export const C11_CHEM_GEN: SimDef[] = [
    ]
   },
   "successLine": "Redox Titration mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_chem_ch09",

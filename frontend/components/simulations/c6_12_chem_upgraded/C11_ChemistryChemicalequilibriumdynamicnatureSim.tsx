@@ -670,7 +670,11 @@ const DiagramHaberProcessApparatus: React.FC = () => (
 );
 
 // --- MAIN COMPONENT ---
-export default function C11_ChemistryChemicalequilibriumdynamicnatureSim() {
+export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
+  onComplete,
+}: {
+  onComplete?: (score: number) => void;
+}) {
   // Tab State
   const [activeTab, setActiveTab] = useState<'discovery' | 'lab' | 'challenges' | 'summary'>('discovery');
 
@@ -1044,6 +1048,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim() {
       audioManager.play('celebration');
       speechManager.speak('Congratulations! You have completed all chemical equilibrium challenges!');
       recordGameScore(ALL_NODE_IDS, score + 10);
+      if (onComplete) onComplete(score + 10);
     }
   };
 

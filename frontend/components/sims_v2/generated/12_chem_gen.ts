@@ -8,6 +8,303 @@ import type { SimDef } from '../engine/types';
 
 export const C12_CHEM_GEN: SimDef[] = [
  {
+  "id": "gen_c12_chem_ch01",
+  "title": "Solution",
+  "subtitle": "Chemistry · Chapter 1",
+  "classLevel": 12,
+  "mode": "senior",
+  "subject": "chemistry",
+  "topic": "Solution",
+  "chapters": [
+   "Chemistry Ch1: Solution"
+  ],
+  "nodeIds": [
+   "c12_chem_cbse_01_001",
+   "c12_chem_cbse_01_002",
+   "c12_chem_cbse_01_010"
+  ],
+  "emoji": "🧪",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Is Solution more about facts, or about reasoning?",
+   "options": [
+    "Mostly reasoning from a few core ideas",
+    "Pure memorisation of facts",
+    "Random guessing"
+   ],
+   "answer": "Mostly reasoning from a few core ideas",
+   "hook": "Formulation scientist: sets IV-drip concentration so its osmotic pressure doesn't burst a patient's blood cells."
+  },
+  "teaching": [
+   {
+    "title": "Solution",
+    "text": "A solution is a homogeneous mixture of two or more chemically non-reacting substances whose composition can be varied within certain limits. Based on the physical states of solute and solvent, binary solutions are classified into nine types: gaseous solutions",
+    "emoji": "🧪",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Solubility",
+    "text": "Solubility is the maximum amount of solute (in grams or moles) that can dissolve in a specified amount of solvent (typically 100 g or 1 kg) at a given temperature and pressure to form a saturated solution under dynamic equilibrium between dissolution and",
+    "emoji": "🧪",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Osmotic Pressure",
+    "text": "Osmotic pressure (Π) is the minimum excess pressure that must be applied to a solution to prevent the net flow of solvent molecules through a semipermeable membrane from the pure solvent (or dilute solution) into the solution.",
+    "emoji": "🧪",
+    "bgColor": "from-emerald-400 to-teal-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Design a simple home experiment to demonstrate that air is a gaseous solution (gas in gas). List materials, procedure, and how you would prove homogeneity.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Procedure",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Homogeneity proof",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Observation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Materials",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer such as mixing two gases in a jar lacks a practical demonstration of homogeneity and does not use observable diffusion.",
+    "id": "gen_c12_chem_ch01_q1",
+    "nodeId": "c12_chem_cbse_01_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Look around your kitchen: air (gas in gas), soda water (gas in liquid), brass utensil (solid in solid), dental amalgam (liquid in solid).",
+     "All are solutions but in different physical states.",
+     "Recall from Class 9 (c9_chem_ch1_1) that mixtures can be homogeneous (solutions) or heterogeneous.",
+     "Now we categorise homogeneous mixtures by the states of solute and solvent."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "The dissolution of ammonium nitrate (NH4NO3) in water is endothermic (ΔsolH > 0). A saturated solution of NH4NO3 at 30°C is heated to 50°C. Will the solution become unsaturated, remain saturated, or become supersaturated? Justify using Le Chatelier's principle.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Contrast",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Le Chatelier reasoning",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Consequence",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Result",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is",
+    "id": "gen_c12_chem_ch01_q2",
+    "nodeId": "c12_chem_cbse_01_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Begin with a kitchen observation: sugar dissolves rapidly in hot tea but barely in ice-cold water, while a soda bottle fizzes violently when opened",
+     "Ask students why temperature helps solids but hurts gases.",
+     "Connect to Class 9 (c9_chem_ch1_3) where they learned \"like dissolves like\" — now deepen it: polar solutes (NaCl) need polar solvents (water) for",
+     "Introduce dynamic equilibrium: dissolution ⇌ crystallisation."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Design a simple experiment using household materials to demonstrate osmosis and estimate the osmotic pressure of a sugar solution qualitatively. List materials, procedure, observation, and how you would relate the observation to Π.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Materials",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Estimating osmotic pressure",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Procedure",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Observation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer uses dialysis tubing, which is not a household material, or a thistle-funnel column, while the potato method shows the core principle that water moves toward the higher solute concentration.",
+    "id": "gen_c12_chem_ch01_q3",
+    "nodeId": "c12_chem_cbse_01_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine placing a raw mango in concentrated brine (salt water) — it shrivels as water leaves its cells.",
+     "Now place wilted lettuce in fresh water — it becomes crisp as water enters.",
+     "Both phenomena are osmosis: solvent (water) moves through semipermeable cell membranes from lower solute concentration to higher solute concentration.",
+     "In Class 11 (c11_chem_cbse_05_006), you learned PV = nRT for gases."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple home experiment to demonstrate that air is a gaseous solution (gas in gas). List materials, procedure, and how you would prove homogeneity.",
+    "answer": "(1) Materials — an incense stick, a matchbox and a room with still air, (2) Procedure — light the incense stick in one corner and let the fragrance spread through the room",
+    "options": [
+     "(1) Materials — a potato, a knife, two bowls, water, sugar and a scale, (2) Procedure — cut four identical potato cylinders, weigh them",
+     "(1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is endothermic",
+     "(1) Materials — an incense stick, a matchbox and a room with still air, (2) Procedure — light the incense stick in one corner and let the fragrance spread through the room"
+    ],
+    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "misconception": "A poor answer such as mixing two gases in a jar lacks a practical demonstration of homogeneity and does not use observable diffusion.",
+    "id": "gen_c12_chem_ch01_q4",
+    "nodeId": "c12_chem_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "The dissolution of ammonium nitrate (NH4NO3) in water is endothermic (ΔsolH > 0). A saturated solution of NH4NO3 at 30°C is heated to 50°C. Will the solution become unsaturated, remain saturated, or become supersaturated? Justify using Le Chatelier's principle.",
+    "answer": "(1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is endothermic",
+    "options": [
+     "(1) Materials — a potato, a knife, two bowls, water, sugar and a scale, (2) Procedure — cut four identical potato cylinders, weigh them",
+     "(1) Materials — an incense stick, a matchbox and a room with still air, (2) Procedure — light the incense stick in one corner and let the fragrance spread through the room",
+     "(1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is endothermic"
+    ],
+    "hint": "Straight from the 'Solubility' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is",
+    "id": "gen_c12_chem_ch01_q5",
+    "nodeId": "c12_chem_cbse_01_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment using household materials to demonstrate osmosis and estimate the osmotic pressure of a sugar solution qualitatively. List materials, procedure, observation, and how you would relate the observation to Π.",
+    "answer": "(1) Materials — a potato, a knife, two bowls, water, sugar and a scale, (2) Procedure — cut four identical potato cylinders, weigh them",
+    "options": [
+     "(1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is endothermic",
+     "(1) Materials — an incense stick, a matchbox and a room with still air, (2) Procedure — light the incense stick in one corner and let the fragrance spread through the room",
+     "(1) Materials — a potato, a knife, two bowls, water, sugar and a scale, (2) Procedure — cut four identical potato cylinders, weigh them"
+    ],
+    "hint": "Straight from the 'Osmotic pressure' slide -- match the key terms.",
+    "misconception": "A poor answer uses dialysis tubing, which is not a household material, or a thistle-funnel column, while the potato method shows the core principle that water moves toward the higher solute concentration.",
+    "id": "gen_c12_chem_ch01_q6",
+    "nodeId": "c12_chem_cbse_01_010",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about solution?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Solution mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
   "id": "gen_c12_chem_ch03",
   "title": "Rate Of a Chemical Reaction",
   "subtitle": "Chemistry · Chapter 3",
@@ -438,6 +735,21 @@ export const C12_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple experiment to compare the average rate of reaction between magnesium ribbon and dilute HCl at two different temperatures (room temp and 40°C). State what you would measure, how you would calculate rate, and what trend you expect.",
+    "answer": "Measure volume of H₂ gas collected every 10 s using a gas syringe. Convert volume to moles (using molar volume at that T, or use pressure sensor)",
+    "options": [
+     "Measure the initial rate of O₂ evolution from H₂O₂ decomposition at 3–4 different temperatures (e.g",
+     "Procedure: (1) Prepare fixed concentrations of Na₂S₂O₃ and HCl. (2) At 5 different temperatures (e",
+     "Measure volume of H₂ gas collected every 10 s using a gas syringe. Convert volume to moles (using molar volume at that T, or use pressure sensor)"
+    ],
+    "hint": "Straight from the 'rate of a chemical reaction' slide -- match the key terms.",
+    "misconception": "A poor answer would measure time for ribbon to disappear (qualitative) or forget to convert volume to moles, or not mention the stoichiometric factor (1 mole H₂ per mole Mg).",
+    "id": "gen_c12_chem_ch03_q12",
+    "nodeId": "c12_chem_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "For a gaseous reaction 2SO₂(g) + O₂(g) → 2SO₃(g), the rate is expressed in terms of partial pressures. If the partial pressure of SO₂ drops by 0.04 atm in 10 s, what is the rate of reaction in atm s⁻¹? How would the numerical value change if rate were expressed in mol L⁻¹ s⁻¹ at constant temperature?",
     "answer": "Rate = –(1/2) Δp(SO₂)/Δt = –(1/2) × (–0.04/10) = 0.002 atm s⁻¹. At constant T, p = CRT, so Δp ∝ ΔC. The numerical value in mol L⁻¹ s⁻¹ would be (0.002 atm s⁻¹)/(RT)",
     "options": [
@@ -447,7 +759,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'rate of a chemical reaction' slide -- match the key terms.",
     "misconception": "If the student ignores the 1/2 factor, they get 0.004 atm s⁻¹.",
-    "id": "gen_c12_chem_ch03_q12",
+    "id": "gen_c12_chem_ch03_q13",
     "nodeId": "c12_chem_cbse_03_001",
     "difficulty": "standard"
    },
@@ -462,8 +774,23 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'rate of a chemical reaction' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Rate of reaction = –Δ[H₂]/Δt = 3.0 × 10⁻⁴ mol L⁻¹ s⁻¹. Rate of appearance of HI = 2 × rate of reaction = 6.",
-    "id": "gen_c12_chem_ch03_q13",
+    "id": "gen_c12_chem_ch03_q14",
     "nodeId": "c12_chem_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment using the initial-rates method to determine the rate law for the reaction between sodium thiosulfate (\\(\\text{Na}_2\\text{S}_2\\text{O}_3\\)) and hydrochloric acid (\\(\\text{HCl}\\)) which produces a sulfur precipitate. Outline the steps, what you would measure, and how you would analyze the data.",
+    "answer": "Steps: (1) Prepare several reaction mixtures with varying initial \\([\\text{Na}_2\\text{S}_2\\text{O}_3]\\) while keeping \\([\\text{HCl}]\\) constant, and vice versa",
+    "options": [
+     "Procedure: Prepare fixed [I⁻] and varying initial [H₂O₂]. Measure absorbance (proportional to [H₂O₂]) at regular time intervals",
+     "Measure the initial rate of O₂ evolution from H₂O₂ decomposition at 3–4 different temperatures (e.g",
+     "Steps: (1) Prepare several reaction mixtures with varying initial \\([\\text{Na}_2\\text{S}_2\\text{O}_3]\\) while keeping \\([\\text{HCl}]\\) constant, and vice versa"
+    ],
+    "hint": "Straight from the 'rate law' slide -- match the key terms.",
+    "misconception": "A poor answer omits controlling one reactant's concentration or uses only one trial per condition.",
+    "id": "gen_c12_chem_ch03_q15",
+    "nodeId": "c12_chem_cbse_03_002",
     "difficulty": "standard"
    },
    {
@@ -477,7 +804,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'rate law' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying order is 2 because the stoichiometric coefficient is 2) reveals the misconception that rate law exponents come from the balanced equation rather than experiment.",
-    "id": "gen_c12_chem_ch03_q14",
+    "id": "gen_c12_chem_ch03_q16",
     "nodeId": "c12_chem_cbse_03_002",
     "difficulty": "standard"
    },
@@ -492,7 +819,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'rate law' slide -- match the key terms.",
     "misconception": "A student who says \"it should be 1 because the coefficient is 1\" does not understand that rate law is experimentally determined and reflects mechanism, not stoichiometry.",
-    "id": "gen_c12_chem_ch03_q15",
+    "id": "gen_c12_chem_ch03_q17",
     "nodeId": "c12_chem_cbse_03_002",
     "difficulty": "standard"
    },
@@ -507,38 +834,8 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'zero-order reaction' slide -- match the key terms.",
     "misconception": "A poor answer that says \"measure time for complete decomposition\" fails because a single time point cannot distinguish rate laws — the student hasn't grasped that order determination requires concentration-time profiles (node c12_chem_cbse_03_005).",
-    "id": "gen_c12_chem_ch03_q16",
-    "nodeId": "c12_chem_cbse_03_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "In an enzyme-catalysed reaction, the rate is constant at high substrate concentration but becomes first-order at low substrate concentration. Identify the order in each regime and explain the transition using the concept of active-site saturation.",
-    "answer": "High [S]: zero-order (Rate = k, active sites saturated, rate limited by catalyst turnover). Low [S]: first-order (Rate = k'[S], free active sites available",
-    "options": [
-     "Rate of reaction = –Δ[H₂]/Δt = 3.0 × 10⁻⁴ mol L⁻¹ s⁻¹. Rate of appearance of HI = 2 × rate of reaction = 6",
-     "The order with respect to \\(\\text{N}_2\\text{O}_5\\) is 1 (first order) and the overall order is 1",
-     "High [S]: zero-order (Rate = k, active sites saturated, rate limited by catalyst turnover). Low [S]: first-order (Rate = k'[S], free active sites available"
-    ],
-    "hint": "Straight from the 'zero-order reaction' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"always first-order because enzymes are catalysts\" misses the saturation concept — the student hasn't linked chemical kinetics to the biological mechanism (cross-subject link to biology).",
-    "id": "gen_c12_chem_ch03_q17",
-    "nodeId": "c12_chem_cbse_03_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment using only a stopwatch and a colorimeter to confirm that the decomposition of H₂O₂ (colorless) catalyzed by I⁻ is first order with respect to H₂O₂. Outline the procedure and the graph you would plot.",
-    "answer": "Procedure: Prepare fixed [I⁻] and varying initial [H₂O₂]. Measure absorbance (proportional to [H₂O₂]) at regular time intervals",
-    "options": [
-     "The order with respect to \\(\\text{N}_2\\text{O}_5\\) is 1 (first order) and the overall order is 1",
-     "Plot \\([N_2O_5]\\) vs \\(t\\). If the reaction were zero order, the plot would be linear. Since N₂O₅ decomposition is first order, the plot will be a curve (exponential decay)",
-     "Procedure: Prepare fixed [I⁻] and varying initial [H₂O₂]. Measure absorbance (proportional to [H₂O₂]) at regular time intervals"
-    ],
-    "hint": "Straight from the 'first order reaction' slide -- match the key terms.",
-    "misconception": "A poor answer (e.g., \"measure time for complete decomposition\") shows lack of understanding of integrated rate law graphical verification. The colorimeter tracks concentration; the ln plot is the standard test for first order.",
     "id": "gen_c12_chem_ch03_q18",
-    "nodeId": "c12_chem_cbse_03_004",
+    "nodeId": "c12_chem_cbse_03_003",
     "difficulty": "standard"
    }
   ],
@@ -554,19 +851,22 @@ export const C12_CHEM_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_chem_ch04",
-  "title": "Ionisation Enthalpy Of a Transition Element",
+  "title": "IUPAC Nomenclature Of Coordination Compounds",
   "subtitle": "Chemistry · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Ionisation Enthalpy Of a Transition Element",
+  "topic": "IUPAC Nomenclature Of Coordination Compounds Provide",
   "chapters": [
-   "Chemistry Ch4: Ionisation Enthalpy Of a Transition Element"
+   "Chemistry Ch4: IUPAC Nomenclature Of Coordination Compounds Provide",
+   "Chemistry Ch5: IUPAC Nomenclature Of Coordination Compounds Provide"
   ],
   "nodeIds": [
+   "c12_chem_cbse_05_002",
    "c12_chem_cbse_04_004",
    "c12_chem_cbse_04_006",
-   "c12_chem_cbse_04_007"
+   "c12_chem_cbse_04_007",
+   "c12_chem_cbse_05_009"
   ],
   "emoji": "🧪",
   "theme": {
@@ -575,7 +875,7 @@ export const C12_CHEM_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Ionisation Enthalpy Of a outside the classroom?",
+   "question": "Quick guess -- where do you meet IUPAC Nomenclature Of outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -585,6 +885,12 @@ export const C12_CHEM_GEN: SimDef[] = [
    "hook": "Catalyst manufacturer: variable oxidation states are why vanadium and iron show up inside industrial reactors."
   },
   "teaching": [
+   {
+    "title": "IUPAC Nomenclature Of Coordination",
+    "text": "IUPAC nomenclature of coordination compounds provides a systematic set of rules to name mononuclear coordination entities by identifying the central metal, its oxidation state (Roman numeral), the ligands (listed alphabetically with appropriate prefixes), and",
+    "emoji": "🧪",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
    {
     "title": "Ionisation Enthalpy Of a Transition Element",
     "text": "Ionisation enthalpy of a transition element is the energy required to remove the most loosely bound electron from a gaseous atom or ion in its ground state; for d-block elements, successive ionisation enthalpies (ΔH₁, ΔH₂, ΔH₃) show smaller increases across a",
@@ -602,21 +908,90 @@ export const C12_CHEM_GEN: SimDef[] = [
     "text": "Transition elements (d-block) and inner transition elements (f-block) are crucial for modern civilization due to their unique properties like variable oxidation states, catalytic activity, alloy formation, and magnetic behaviour.",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Coordination Compounds",
+    "text": "Coordination compounds are complex entities where a central metal atom/ion is bonded to surrounding ligands via coordinate bonds, exhibiting unique properties (color, magnetism, stability) that enable their critical roles in biological systems (oxygen",
+    "emoji": "🧪",
+    "bgColor": "from-indigo-400 to-blue-500"
    }
   ],
   "challenges": [
+   {
+    "type": "order",
+    "question": "A student writes the name of K₂[PdCl₄] as *potassium tetrachloridopalladium(II)*. Evaluate this name and correct it if wrong.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The rule",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The trap",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Correct name",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Verdict",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who writes palladium(II) for the anionic complex has not applied the anion -ate rule.",
+    "id": "gen_c12_chem_ch04_q1",
+    "nodeId": "c12_chem_cbse_05_002",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe a blister pack of the anticancer drug cisplatin — its generic name is *cis-diamminedichloridoplatinum(II)*, yet the trans isomer",
+     "This real-world consequence of precise naming motivates the need for rules.",
+     "Begin by identifying the coordination sphere (inside square brackets) and counter ions (outside).",
+     "List ligands alphabetically ignoring prefixes (di, bis), assign oxidation state to the metal using ligand charges, then assemble: cation name first"
+    ]
+   },
    {
     "type": "mcq",
     "question": "The standard electrode potential E°(Cu²⁺/Cu) is +0.34 V (positive), while all other 3d M²⁺/M couples have negative E° values. Using thermochemical data (ΔHₐ, ΔH₁, ΔH₂, ΔHₕyd), explain why copper is the only 3d metal with a positive E°(M²⁺/M). Is copper a strong reducing agent?",
     "answer": "E°(M²⁺/M) depends on the overall energy change for M(s) → M²⁺(aq): ΔHₐ + ΔH₁ + ΔH₂ + ΔHₕyd. For Cu, ΔHₐ (339 kJ mol⁻¹) and ΔH₂ (1958 kJ mol⁻¹) are high",
     "options": [
-     "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third",
+     "Step 1: Moles of Ca²⁺ = 0.01 mol/L × 0.050 L = 5.0×10⁻⁴ mol. Step 2: Moles of Mg²⁺ = same = 5.0×10⁻⁴ mol",
      "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature)",
      "E°(M²⁺/M) depends on the overall energy change for M(s) → M²⁺(aq): ΔHₐ + ΔH₁ + ΔH₂ + ΔHₕyd. For Cu, ΔHₐ (339 kJ mol⁻¹) and ΔH₂ (1958 kJ mol⁻¹) are high"
     ],
     "hint": "Straight from the 'Ionisation enthalpy of a' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"Cu has low ionisation energy\" or \"Cu is a good reducing agent\" confuses the sign convention and thermodynamic cycle.",
-    "id": "gen_c12_chem_ch04_q1",
+    "id": "gen_c12_chem_ch04_q2",
     "nodeId": "c12_chem_cbse_04_004",
     "difficulty": "standard",
     "workedExample": [
@@ -631,13 +1006,13 @@ export const C12_CHEM_GEN: SimDef[] = [
     "question": "Design a simple laboratory experiment to demonstrate the catalytic effect of Cu²⁺ ions on the reaction between sodium thiosulphate and iodine (I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻). Specify what you would measure, the control, and how you would confirm catalysis.",
     "answer": "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature)",
     "options": [
-     "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third",
+     "Step 1: Moles of Ca²⁺ = 0.01 mol/L × 0.050 L = 5.0×10⁻⁴ mol. Step 2: Moles of Mg²⁺ = same = 5.0×10⁻⁴ mol",
      "E°(M²⁺/M) depends on the overall energy change for M(s) → M²⁺(aq): ΔHₐ + ΔH₁ + ΔH₂ + ΔHₕyd. For Cu, ΔHₐ (339 kJ mol⁻¹) and ΔH₂ (1958 kJ mol⁻¹) are high",
      "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature)"
     ],
     "hint": "Straight from the 'Catalytic activity of transition' slide -- match the key terms.",
     "misconception": "A poor answer that only says \"observe faster decolorization\" without a control or regeneration check shows lack of experimental design understanding.",
-    "id": "gen_c12_chem_ch04_q2",
+    "id": "gen_c12_chem_ch04_q3",
     "nodeId": "c12_chem_cbse_04_006",
     "difficulty": "standard",
     "workedExample": [
@@ -652,13 +1027,13 @@ export const C12_CHEM_GEN: SimDef[] = [
     "question": "Evaluate the statement: \"Silver and gold are still widely used as coinage metals in modern currency.\" Provide evidence from current Indian coinage to support or refute.",
     "answer": "The statement is partially incorrect. While Group 11 elements (Cu, Ag, Au) are historically coinage metals, modern Indian coins do not use Ag/Au for circulation",
     "options": [
-     "E°(M²⁺/M) depends on the overall energy change for M(s) → M²⁺(aq): ΔHₐ + ΔH₁ + ΔH₂ + ΔHₕyd. For Cu, ΔHₐ (339 kJ mol⁻¹) and ΔH₂ (1958 kJ mol⁻¹) are high",
      "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature)",
+     "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third",
      "The statement is partially incorrect. While Group 11 elements (Cu, Ag, Au) are historically coinage metals, modern Indian coins do not use Ag/Au for circulation"
     ],
     "hint": "Straight from the 'Transition elements  and inner' slide -- match the key terms.",
     "misconception": "A student who says \"True, because they are coinage metals\" ignores the economic/practical shift to base metal alloys, showing lack of awareness of real-world currency composition.",
-    "id": "gen_c12_chem_ch04_q3",
+    "id": "gen_c12_chem_ch04_q4",
     "nodeId": "c12_chem_cbse_04_007",
     "difficulty": "standard",
     "workedExample": [
@@ -669,28 +1044,133 @@ export const C12_CHEM_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A water sample contains 0.01 M Ca²⁺ and 0.01 M Mg²⁺. You titrate with 0.01 M EDTA at pH 10 using Eriochrome Black T indicator. Calculate the volume of EDTA needed to reach the first endpoint (Ca²⁺ only) and the second endpoint (Ca²⁺ + Mg²⁺) for 50.0 mL of the sample. Given: log Kf(Ca-EDTA)=10.7, log Kf(Mg-EDTA)=8.7.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "After Ca²⁺",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "At pH 10",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Moles of Mg²⁺",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Moles of Ca²⁺",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s4",
+      "label": "Total volume for both",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who adds volumes directly (100 mL for first endpoint) ignores the stepwise nature due to Kf difference — a common JEE/NEET trap.",
+    "id": "gen_c12_chem_ch04_q5",
+    "nodeId": "c12_chem_cbse_05_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Start with a real-world observation: When you get a blood test, the red color comes from hemoglobin — an iron coordination complex that carries O₂.",
+     "In the lab, you've seen the pink precipitate with DMG confirming Ni²⁺, or the violet color with EDTA indicating endpoint in water hardness titration.",
+     "These are not isolated facts; they are applications of the same principles: metal-ligand bonding, stability constants (Kf), geometry, and redox",
+     "Connect to prior nodes: The stability of [Ni(DMG)₂] (node 008: magnetic properties → square planar diamagnetic) explains its selective precipitation."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Design a simple experiment to demonstrate that transition metal ions (e.g., Cu²⁺, Fe³⁺) can catalyze the decomposition of hydrogen peroxide, while a non-transition metal ion (e.g., Zn²⁺) cannot. List the observations you would record.",
     "answer": "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third",
     "options": [
-     "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature)",
+     "Step 1: Moles of Ca²⁺ = 0.01 mol/L × 0.050 L = 5.0×10⁻⁴ mol. Step 2: Moles of Mg²⁺ = same = 5.0×10⁻⁴ mol",
      "E°(M²⁺/M) depends on the overall energy change for M(s) → M²⁺(aq): ΔHₐ + ΔH₁ + ΔH₂ + ΔHₕyd. For Cu, ΔHₐ (339 kJ mol⁻¹) and ΔH₂ (1958 kJ mol⁻¹) are high",
      "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third"
     ],
     "hint": "Straight from the 'Transition elements  and inner' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to",
-    "id": "gen_c12_chem_ch04_q4",
+    "id": "gen_c12_chem_ch04_q6",
     "nodeId": "c12_chem_cbse_04_007",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A student writes the name of K₂[PdCl₄] as *potassium tetrachloridopalladium(II)*. Evaluate this name and correct it if wrong.",
+    "answer": "(1) Verdict — the student's name is incorrect, (2) The rule — when the coordination sphere is an anion, the metal name must take the -ate suffix, (3) Correct name",
+    "options": [
+     "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature)",
+     "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third",
+     "(1) Verdict — the student's name is incorrect, (2) The rule — when the coordination sphere is an anion, the metal name must take the -ate suffix, (3) Correct name"
+    ],
+    "hint": "Straight from the 'IUPAC nomenclature of' slide -- match the key terms.",
+    "misconception": "A student who writes palladium(II) for the anionic complex has not applied the anion -ate rule.",
+    "id": "gen_c12_chem_ch04_q7",
+    "nodeId": "c12_chem_cbse_05_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A water sample contains 0.01 M Ca²⁺ and 0.01 M Mg²⁺. You titrate with 0.01 M EDTA at pH 10 using Eriochrome Black T indicator. Calculate the volume of EDTA needed to reach the first endpoint (Ca²⁺ only) and the second endpoint (Ca²⁺ + Mg²⁺) for 50.0 mL of the sample. Given: log Kf(Ca-EDTA)=10.7, log Kf(Mg-EDTA)=8.7.",
+    "answer": "Step 1: Moles of Ca²⁺ = 0.01 mol/L × 0.050 L = 5.0×10⁻⁴ mol. Step 2: Moles of Mg²⁺ = same = 5.0×10⁻⁴ mol",
+    "options": [
+     "E°(M²⁺/M) depends on the overall energy change for M(s) → M²⁺(aq): ΔHₐ + ΔH₁ + ΔH₂ + ΔHₕyd. For Cu, ΔHₐ (339 kJ mol⁻¹) and ΔH₂ (1958 kJ mol⁻¹) are high",
+     "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature)",
+     "Cu-Ni 1: Moles of Ca²⁺ = 0.01 mol/L × 0.050 L = 5.0×10⁻⁴ mol. Step 2: Moles of Mg²⁺ = same = 5.0×10⁻⁴ mol",
+     "Step 1: Moles of Ca²⁺ = 0.01 mol/L × 0.050 L = 5.0×10⁻⁴ mol. Step 2: Moles of Mg²⁺ = same = 5.0×10⁻⁴ mol"
+    ],
+    "hint": "Straight from the 'Coordination compounds' slide -- match the key terms.",
+    "misconception": "A student who adds volumes directly (100 mL for first endpoint) ignores the stepwise nature due to Kf difference — a common JEE/NEET trap.",
+    "id": "gen_c12_chem_ch04_q8",
+    "nodeId": "c12_chem_cbse_05_009",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about ionisation enthalpy of a transition element?",
+    "What surprised you about iupac nomenclature of coordination compounds provide?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Ionisation Enthalpy Of a mastered! 🎯",
+  "successLine": "IUPAC Nomenclature Of mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -1113,7 +1593,8 @@ export const C12_CHEM_GEN: SimDef[] = [
   "subject": "chemistry",
   "topic": "Aldehydes",
   "chapters": [
-   "Chemistry Ch8: Aldehydes"
+   "Chemistry Ch8: Aldehydes",
+   "Chemistry Ch9: Aldehydes"
   ],
   "nodeIds": [
    "c12_chem_cbse_08_001",
@@ -1121,6 +1602,7 @@ export const C12_CHEM_GEN: SimDef[] = [
    "c12_chem_cbse_08_003",
    "c12_chem_cbse_08_004",
    "c12_chem_cbse_08_005",
+   "c12_chem_cbse_09_006",
    "c12_chem_cbse_08_008",
    "c12_chem_cbse_08_010"
   ],
@@ -1170,6 +1652,12 @@ export const C12_CHEM_GEN: SimDef[] = [
     "text": "Nucleophilic addition reaction is the characteristic reaction of aldehydes and ketones where a nucleophile (Nu⁻) attacks the electrophilic carbonyl carbon (C=O), breaking the π-bond and forming a tetrahedral alkoxide intermediate that is subsequently",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Physical Properties Of Amines Refer To",
+    "text": "Physical properties of amines refer to the observable characteristics (state, odor, boiling point, solubility) arising from their molecular structure — specifically the pyramidal geometry around sp³-hybridised nitrogen, the presence of N–H bonds (in primary",
+    "emoji": "🧪",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Carboxylic Acids",
@@ -1232,7 +1720,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "question": "Predict the ketone product when butanenitrile (CH₃CH₂CH₂CN) reacts with phenylmagnesium bromide (PhMgBr) followed by dilute H₃O⁺. Write the stepwise equations.",
     "answer": "Step 1: CH₃CH₂CH₂CN + PhMgBr → CH₃CH₂CH₂C(=NMgBr)Ph (imine salt). Step 2: Hydrolysis: CH₃CH₂CH₂C(=NMgBr)Ph + H₂O/H⁺ → CH₃CH₂CH₂COPh (1-phenylpentan-1-one) + NH₄⁺ + MgBr(OH)",
     "options": [
-     "Increasing order: n-butane < ethoxyethane < butanal < butan-1-ol. Reasoning: n-butane has only weak van der Waals forces",
+     "Products: hexanal (CH₃(CH₂)₄CHO) and hexan-1-ol (CH₃(CH₂)₄CH₂OH). Separation: Add Tollens' reagent — hexanal gives Ag mirror (oxidation to carboxylate), hexan-1-ol does not react",
      "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis",
      "Step 1: CH₃CH₂CH₂CN + PhMgBr → CH₃CH₂CH₂C(=NMgBr)Ph (imine salt). Step 2: Hydrolysis: CH₃CH₂CH₂C(=NMgBr)Ph + H₂O/H⁺ → CH₃CH₂CH₂COPh (1-phenylpentan-1-one) + NH₄⁺ + MgBr(OH)"
     ],
@@ -1253,7 +1741,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "question": "Arrange the following in increasing order of boiling points: n-butane (C4H10), ethoxyethane (C2H5OC2H5), butanal (CH3CH2CH2CHO), butan-1-ol (CH3CH2CH2CH2OH). All have molecular masses in the range 72-74 g/mol. Justify your ordering.",
     "answer": "Increasing order: n-butane < ethoxyethane < butanal < butan-1-ol. Reasoning: n-butane has only weak van der Waals forces",
     "options": [
-     "Product: methyl benzoate (C₆H₅COOCH₃). Reflux allows prolonged heating at constant temperature (boiling point of mixture) without loss of volatile methanol",
+     "Take 1 mL of each liquid in separate test tubes, add 5 mL of water, shake vigorously. Butanal (C4) will form a homogeneous solution (miscible)",
      "Products: hexanal (CH₃(CH₂)₄CHO) and hexan-1-ol (CH₃(CH₂)₄CH₂OH). Separation: Add Tollens' reagent — hexanal gives Ag mirror (oxidation to carboxylate), hexan-1-ol does not react",
      "Increasing order: n-butane < ethoxyethane < butanal < butan-1-ol. Reasoning: n-butane has only weak van der Waals forces"
     ],
@@ -1274,8 +1762,8 @@ export const C12_CHEM_GEN: SimDef[] = [
     "question": "Predict the major product and write the balanced chemical equation when butan-2-one (CH₃COCH₂CH₃) reacts with phenylmagnesium bromide (C₆H₅MgBr) followed by hydrolysis with dilute H₃O⁺.",
     "answer": "Step 1: Grignard reagent (C₆H₅⁻ equivalent) attacks carbonyl carbon of butan-2-one → tetrahedral alkoxide: CH₃–C(OMgBr)(C₆H₅)–CH₂CH₃",
     "options": [
+     "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis",
      "CH₃CH₂OH + 2[O] → CH₃COOH + H₂O (with K₂Cr₂O₇/H₂SO₄, orange Cr₂O₇²⁻ → green Cr³⁺)",
-     "Increasing order: n-butane < ethoxyethane < butanal < butan-1-ol. Reasoning: n-butane has only weak van der Waals forces",
      "Step 1: Grignard reagent (C₆H₅⁻ equivalent) attacks carbonyl carbon of butan-2-one → tetrahedral alkoxide: CH₃–C(OMgBr)(C₆H₅)–CH₂CH₃"
     ],
     "hint": "Straight from the 'Nucleophilic addition reaction' slide -- match the key terms.",
@@ -1291,6 +1779,69 @@ export const C12_CHEM_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Arrange the following in increasing order of boiling point: (CH₃)₃N, CH₃CH₂CH₂NH₂, (CH₃)₂NH, CH₃CH₂CH₂CH₃. All have molar mass ~73 g/mol. Show your reasoning step by step.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Within H-bonding",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Verify with NCERT Table 9.2 values",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Identify functional groups and H-bonding",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Rank intermolecular forces",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong order (e.g., putting tertiary above secondary) reveals confusion between inductive effect (which increases electron density on N) and H-bonding capacity (which requires N–H bonds).",
+    "id": "gen_c12_chem_ch08_q6",
+    "nodeId": "c12_chem_cbse_09_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a bottle of methylamine (gas, fishy smell) versus aniline (liquid, darkens on standing) in the lab — the difference hits you immediately.",
+     "Start by recalling Class 11 hydrogen bonding (c11_chem_cbse_05_003) and the electronegativity values of N (3.0) and O (3.5).",
+     "Ask: \"Why does butan-1-ol (b.p.",
+     "390 K) boil higher than butan-1-amine (b.p."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Write the balanced chemical equation for the oxidation of ethanol to ethanoic acid using acidified potassium dichromate. Include the colour change observed.",
     "answer": "CH₃CH₂OH + 2[O] → CH₃COOH + H₂O (with K₂Cr₂O₇/H₂SO₄, orange Cr₂O₇²⁻ → green Cr³⁺)",
@@ -1301,7 +1852,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Carboxylic acids' slide -- match the key terms.",
     "misconception": "A wrong answer like CH₃CH₂OH + [O] → CH₃CHO shows the student thinks oxidation stops at aldehyde with strong oxidants, confusing it with PCC. The correct equation must show 2 oxygen atoms added (or 4 H removed) and the dichromate reduction half-reaction balanced.",
-    "id": "gen_c12_chem_ch08_q6",
+    "id": "gen_c12_chem_ch08_q7",
     "nodeId": "c12_chem_cbse_08_008",
     "difficulty": "standard",
     "workedExample": [
@@ -1364,7 +1915,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer ignoring side reactions or separation costs shows rote application without critical evaluation.",
-    "id": "gen_c12_chem_ch08_q7",
+    "id": "gen_c12_chem_ch08_q8",
     "nodeId": "c12_chem_cbse_08_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -1385,7 +1936,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Aldehydes' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Oxidation of secondary alcohol to ketone. Reagent: K₂Cr₂O₇/H₂SO₄ (heat) or Cu/573 K (dehydrogenation).",
-    "id": "gen_c12_chem_ch08_q8",
+    "id": "gen_c12_chem_ch08_q9",
     "nodeId": "c12_chem_cbse_08_001",
     "difficulty": "advanced"
    },
@@ -1395,12 +1946,12 @@ export const C12_CHEM_GEN: SimDef[] = [
     "answer": "CH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O Full ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O Oxidation state of α-carbon: in alcohol = –1",
     "options": [
      "Products: hexanal (CH₃(CH₂)₄CHO) and hexan-1-ol (CH₃(CH₂)₄CH₂OH). Separation: Add Tollens' reagent — hexanal gives Ag mirror (oxidation to carboxylate), hexan-1-ol does not react",
-     "Persistent purple means no oxidation occurred. Primary alcohols decolourise KMnO₄ rapidly. If the alcohol were tertiary, it would also not react (no α-H)",
+     "CH₃CH₂CH₂CH₃ (butane, alkane, only van der Waals) < (CH₃)₃N (trimethylamine, 3° amine, no N–H, only dipole-dipole + vdW) < (CH₃)₂NH (dimethylamine, 2° amine, one N–H",
      "CH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O Full ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O Oxidation state of α-carbon: in alcohol = –1"
     ],
     "hint": "Straight from the 'Aldehydes' slide -- match the key terms.",
     "misconception": "Why wrong answers reveal misunderstanding: Students often forget to balance the redox half-reactions, writing only the organic transformation.",
-    "id": "gen_c12_chem_ch08_q9",
+    "id": "gen_c12_chem_ch08_q10",
     "nodeId": "c12_chem_cbse_08_001",
     "difficulty": "advanced"
    },
@@ -1409,13 +1960,13 @@ export const C12_CHEM_GEN: SimDef[] = [
     "question": "A student attempts to prepare 2-phenylpropan-1-one (PhCOCH₂CH₃) by reacting propanoyl chloride (CH₃CH₂COCl) with phenylmagnesium bromide. Evaluate this plan and suggest the correct reagent.",
     "answer": "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis",
     "options": [
+     "CH₃CH₂OH + 2[O] → CH₃COOH + H₂O (with K₂Cr₂O₇/H₂SO₄, orange Cr₂O₇²⁻ → green Cr³⁺)",
      "CH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O Full ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O Oxidation state of α-carbon: in alcohol = –1",
-     "Increasing order: n-butane < ethoxyethane < butanal < butan-1-ol. Reasoning: n-butane has only weak van der Waals forces",
      "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis"
     ],
     "hint": "Straight from the 'Ketones' slide -- match the key terms.",
     "misconception": "A student who says \"it will work\" or suggests using only 1 equivalent of Grignard shows they do not grasp that ketone intermediates are more reactive than acyl chlorides toward Grignard reagents, making stoichiometric control impossible.",
-    "id": "gen_c12_chem_ch08_q10",
+    "id": "gen_c12_chem_ch08_q11",
     "nodeId": "c12_chem_cbse_08_003",
     "difficulty": "standard"
    },
@@ -1430,7 +1981,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physical properties of aldehydes' slide -- match the key terms.",
     "misconception": "A poor answer would suggest using Tollens' test (which tests chemical reactivity, not physical property) or smell test (subjective and unsafe).",
-    "id": "gen_c12_chem_ch08_q11",
+    "id": "gen_c12_chem_ch08_q12",
     "nodeId": "c12_chem_cbse_08_004",
     "difficulty": "standard"
    },
@@ -1445,7 +1996,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Carboxylic acids' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"primary alcohol doesn't react with KMnO₄\" shows a fundamental misconception about oxidisability.",
-    "id": "gen_c12_chem_ch08_q12",
+    "id": "gen_c12_chem_ch08_q13",
     "nodeId": "c12_chem_cbse_08_008",
     "difficulty": "standard"
    },
@@ -1460,7 +2011,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Carboxylic acids' slide -- match the key terms.",
     "misconception": "A wrong answer claiming nitrile hydrolysis loses a carbon (confusing with Hofmann rearrangement or decarboxylation) reveals confusion with other nitrogen reactions.",
-    "id": "gen_c12_chem_ch08_q13",
+    "id": "gen_c12_chem_ch08_q14",
     "nodeId": "c12_chem_cbse_08_008",
     "difficulty": "standard"
    },
@@ -1475,7 +2026,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Carboxylic acids' slide -- match the key terms.",
     "misconception": "A wrong answer using Grignard + CO₂ (also valid but not \"nitrile intermediate\") or using NaCN/H₂O directly without isolation shows inability to plan a specific nitrile-route synthesis.",
-    "id": "gen_c12_chem_ch08_q14",
+    "id": "gen_c12_chem_ch08_q15",
     "nodeId": "c12_chem_cbse_08_008",
     "difficulty": "standard"
    },
@@ -1490,7 +2041,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Esterification' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"reflux to evaporate water\" or \"distil immediately\") reveals misunderstanding of equilibrium control vs product isolation — a classic board exam trap.",
-    "id": "gen_c12_chem_ch08_q15",
+    "id": "gen_c12_chem_ch08_q16",
     "nodeId": "c12_chem_cbse_08_010",
     "difficulty": "advanced"
    },
@@ -1505,7 +2056,22 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Esterification' slide -- match the key terms.",
     "misconception": "A poor answer proposes irrelevant steps (e.g., esterification then reduction) showing inability to identify the most direct transformation.",
-    "id": "gen_c12_chem_ch08_q16",
+    "id": "gen_c12_chem_ch08_q17",
+    "nodeId": "c12_chem_cbse_08_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the following statement: \"In Fischer esterification, using excess alcohol always increases the yield of ester, so we should always use a large excess of the cheaper reagent.\" Is this always correct? Justify with Le Chatelier's principle and practical limitations.",
+    "answer": "Not always correct. Le Chatelier: excess alcohol shifts equilibrium forward, increasing yield. BUT practical limits: (i) if alcohol is expensive/toxic, excess is wasteful",
+    "options": [
+     "CH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O Full ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O Oxidation state of α-carbon: in alcohol = –1",
+     "Persistent purple means no oxidation occurred. Primary alcohols decolourise KMnO₄ rapidly. If the alcohol were tertiary, it would also not react (no α-H)",
+     "Not always correct. Le Chatelier: excess alcohol shifts equilibrium forward, increasing yield. BUT practical limits: (i) if alcohol is expensive/toxic, excess is wasteful"
+    ],
+    "hint": "Straight from the 'Esterification' slide -- match the key terms.",
+    "misconception": "A wrong answer ignoring side reactions or separation costs shows rote application without critical evaluation.",
+    "id": "gen_c12_chem_ch08_q18",
     "nodeId": "c12_chem_cbse_08_010",
     "difficulty": "advanced"
    }
@@ -1842,6 +2408,21 @@ export const C12_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Write the balanced chemical equation for the formation of the dipeptide Ala-Gly (alanyl-glycine) from alanine and glycine. Identify the N-terminal and C-terminal residues, and calculate the molecular formula of the dipeptide given: Ala = C₃H₇NO₂, Gly = C₂H₅NO₂.",
+    "answer": "C₃H₇NO₂ (Ala) + C₂H₅NO₂ (Gly) → C₅H₁₀N₂O₃ (Ala-Gly) + H₂O. N-terminal = alanine (free –NH₂), C-terminal = glycine (free –COOH)",
+    "options": [
+     "Procedure: 1) Add 2 drops of iodine solution to 2 mL of each solution. 2) Observe color: starch gives blue-black; cellulose gives no color (brown iodine remains)",
+     "In an α-helix, the carbonyl oxygen of residue *i* H-bonds to the amide hydrogen of residue *i+4*. For Thr at position 5, *i+4* = 5 → *i* = 1",
+     "C₃H₇NO₂ (Ala) + C₂H₅NO₂ (Gly) → C₅H₁₀N₂O₃ (Ala-Gly) + H₂O. N-terminal = alanine (free –NH₂), C-terminal = glycine (free –COOH)"
+    ],
+    "hint": "Straight from the 'Proteins' slide -- match the key terms.",
+    "misconception": "A wrong formula (e.g., forgetting water loss, wrong atom count) indicates failure to apply condensation stoichiometry.",
+    "id": "gen_c12_chem_ch10_q10",
+    "nodeId": "c12_chem_cbse_10_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Haemoglobin has a quaternary structure consisting of two α-subunits and two β-subunits. A mutation replaces a single glutamic acid (hydrophilic) with valine (hydrophobic) on the surface of the β-subunit.",
     "answer": "(a) Tertiary structure may be locally perturbed because a surface hydrophilic residue is replaced by a hydrophobic one",
     "options": [
@@ -1851,7 +2432,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Protein structure' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"no effect because it's only one amino acid\" fails to recognize that a single surface mutation can alter subunit interactions and cause disease.",
-    "id": "gen_c12_chem_ch10_q10",
+    "id": "gen_c12_chem_ch10_q11",
     "nodeId": "c12_chem_cbse_10_006",
     "difficulty": "standard"
    },
@@ -1866,7 +2447,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Denaturation of proteins' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"pH breaks peptide bonds\") confuses protonation with hydrolysis.",
-    "id": "gen_c12_chem_ch10_q11",
+    "id": "gen_c12_chem_ch10_q12",
     "nodeId": "c12_chem_cbse_10_007",
     "difficulty": "standard"
    },
@@ -1881,7 +2462,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Denaturation of proteins' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"just boil both\") shows inability to design controlled comparison and misunderstanding of reversibility.",
-    "id": "gen_c12_chem_ch10_q12",
+    "id": "gen_c12_chem_ch10_q13",
     "nodeId": "c12_chem_cbse_10_007",
     "difficulty": "standard"
    },
@@ -1896,7 +2477,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
     "misconception": "A student who agrees with the assertion confuses \"can be synthesized sometimes\" with \"can be synthesized in adequate amounts under all conditions\" — a nuance tested in competitive exams to check depth of understanding definitions.",
-    "id": "gen_c12_chem_ch10_q13",
+    "id": "gen_c12_chem_ch10_q14",
     "nodeId": "c12_chem_cbse_10_009",
     "difficulty": "standard"
    },
@@ -1911,7 +2492,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
     "misconception": "A wrong answer naming Vitamin K (bleeding due to clotting defect) confuses the mechanism: Vitamin K deficiency causes prolonged clotting time (coagulation factor synthesis impaired), not spontaneous capillary fragility and gum bleeding.",
-    "id": "gen_c12_chem_ch10_q14",
+    "id": "gen_c12_chem_ch10_q15",
     "nodeId": "c12_chem_cbse_10_009",
     "difficulty": "standard"
    },
@@ -1926,7 +2507,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
     "misconception": "A student who says \"no storage at all\" has missed the explicit exception in the textbook; this reveals a pattern of overlooking qualifying phrases (\"except...\") in scientific statements, a common error in board exams where precise wording matters.",
-    "id": "gen_c12_chem_ch10_q15",
+    "id": "gen_c12_chem_ch10_q16",
     "nodeId": "c12_chem_cbse_10_009",
     "difficulty": "standard"
    },
@@ -1941,7 +2522,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
     "misconception": "A student who says \"both are equally toxic\" or \"water-soluble vitamins are never toxic\" fails to apply the solubility-storage-excretion principle; this is a classic NEET trap question testing conceptual application beyond rote memorization.",
-    "id": "gen_c12_chem_ch10_q16",
+    "id": "gen_c12_chem_ch10_q17",
     "nodeId": "c12_chem_cbse_10_009",
     "difficulty": "standard"
    },
@@ -1956,23 +2537,8 @@ export const C12_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
     "misconception": "A poor answer that writes no equation or says \"iodine reacts with acid\" misses the redox nature — Vitamin C acts as electron donor (reducing agent), a key biochemical function (antioxidant). This tests ability to connect chemical property (reducing power) to biological role.",
-    "id": "gen_c12_chem_ch10_q17",
-    "nodeId": "c12_chem_cbse_10_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare and contrast the signal transduction pathways of epinephrine (via β-adrenergic receptor) and insulin (via RTK) in a hepatocyte. Create a table with columns: Receptor Type, G-protein Involved, Second Messenger, Key Kinase Activated, Metabolic Effect on Glycogen.",
-    "answer": "| Feature | Epinephrine (β-AR) | Insulin (RTK) | |---|---|---| | Receptor Type | GPCR (7TM) | Receptor Tyrosine Kinase (RTK) | | G-protein | Gₛ (stimulatory) | N/A (direct",
-    "options": [
-     "At pH 2.0, carboxyl groups (Asp, Glu) are protonated (neutral) and amino groups (Lys, Arg) are fully protonated (+1)",
-     "Vitamin A (retinol) accumulates in liver stellate cells because it is absorbed via chylomicrons, transported in lymph, and stored in adipose/liver",
-     "| Feature | Epinephrine (β-AR) | Insulin (RTK) | |---|---|---| | Receptor Type | GPCR (7TM) | Receptor Tyrosine Kinase (RTK) | | G-protein | Gₛ (stimulatory) | N/A (direct"
-    ],
-    "hint": "Straight from the 'Hormones' slide -- match the key terms.",
-    "misconception": "WRONG ANSWER REVEALS: Student accepts the false premise and invents a mechanism where insulin also raises glucose.",
     "id": "gen_c12_chem_ch10_q18",
-    "nodeId": "c12_chem_cbse_10_010",
+    "nodeId": "c12_chem_cbse_10_009",
     "difficulty": "standard"
    }
   ],

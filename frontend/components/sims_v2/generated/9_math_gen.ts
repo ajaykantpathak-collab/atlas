@@ -16,12 +16,14 @@ export const C9_MATH_GEN: SimDef[] = [
   "subject": "maths",
   "topic": "Cartesian Coordinate System",
   "chapters": [
-   "Mathematics Ch1: Cartesian Coordinate System"
+   "Mathematics Ch1: Cartesian Coordinate System",
+   "Mathematics Ch2: Cartesian Coordinate System"
   ],
   "nodeIds": [
    "c9_math_ch1_1",
    "c9_math_ch1_2",
    "c9_math_ch1_3",
+   "c9_math_ch2_3",
    "c9_math_ch1_4",
    "c9_math_ch1_5",
    "c9_math_ch1_6",
@@ -29,6 +31,7 @@ export const C9_MATH_GEN: SimDef[] = [
    "c9_math_ch1_8",
    "c9_math_ch1_9",
    "c9_math_ch1_10",
+   "c9_math_ch2_10",
    "c9_math_ch1_11"
   ],
   "emoji": "🔢",
@@ -65,6 +68,12 @@ export const C9_MATH_GEN: SimDef[] = [
     "text": "The Cartesian plane is divided into four quadrants by the x-axis and y-axis. The signs of the coordinates (x, y) in each quadrant are: Quadrant I (+, +), Quadrant II (−, +), Quadrant III (−, −), Quadrant IV (+, −).",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Linear Patterns In Real-life Situations",
+    "text": "Linear patterns in real-life situations are relationships where one quantity changes at a constant rate with respect to another, expressible in the form y = mx + c (where m is the constant rate of change and c is the initial value), observed in contexts like",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Distance Between Two Points \\\\) And \\\\) In",
@@ -110,6 +119,12 @@ export const C9_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
+    "title": "Word Problem Using Linear Equations",
+    "text": "A word problem using linear equations is a real-world situation described in words that can be translated into one or more linear equations in one or two variables, where the unknown quantities satisfy a constant rate of change relationship.",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
     "title": "The Area Of a Triangle",
     "text": "The area of a triangle with vertices at coordinates \\(A(x_1, y_1)\\), \\(B(x_2, y_2)\\), and \\(C(x_3, y_3)\\) is given by the absolute value of half the determinant formed by the coordinates: \\(\\text{Area} = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) +",
     "emoji": "🔢",
@@ -122,8 +137,8 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "A student says, \"The point (3, 5) is the same as (5, 3) because both have the numbers 3 and 5.\" Explain why this is incorrect using the concept of axes.",
     "answer": "The ordered pair (3, 5) means 3 units from the y-axis (horizontal) and 5 units from the x-axis (vertical)",
     "options": [
-     "The final answer 10 is correct, but the working is incomplete. The student wrote \"8 - (-2) = 10\" which correctly computes the difference",
-     "The solution is correct. The coordinates (2,3) and (4,6) are indeed the trisection points. The student correctly applied the section formula with ratios 1:2 and 2:1",
+     "Let the ratio be k:1 (or m:n). Using x-coordinate: 1 = (k×5 + 1×(–3))/(k+1) → 1(k+1) = 5k – 3 → k+1 = 5k–3 → 4k = 4 → k = 1",
+     "The statement is incorrect. (−3, −4) has both coordinates negative, so it lies in Quadrant III, not IV",
      "The ordered pair (3, 5) means 3 units from the y-axis (horizontal) and 5 units from the x-axis (vertical)"
     ],
     "hint": "Straight from the 'Cartesian coordinate system' slide -- match the key terms.",
@@ -164,9 +179,9 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "A student claims: \"The point (−3, −4) is in Quadrant IV because both numbers are negative and 4 > 3.\" Evaluate this statement and correct the error.",
     "answer": "The statement is incorrect. (−3, −4) has both coordinates negative, so it lies in Quadrant III, not IV",
     "options": [
-     "Yes, the conclusion is correct. The distances satisfy PQ + QR = 5 + 5 = 10 = PR, which means Q lies between P and R on a straight line",
-     "The student is incorrect. The correct midpoint is (2, 2) because (-4 + 8)/2 = 4/2 = 2 and (6 + (-2))/2 = 4/2 = 2",
-     "The statement is incorrect. (−3, −4) has both coordinates negative, so it lies in Solution, not IV",
+     "The reasoning is essentially the slope method (equal Δy/Δx), not the distance formula method. While the conclusion is correct (the points are collinear)",
+     "The student incorrectly added the horizontal and vertical differences (Manhattan distance) instead of using the Pythagorean theorem",
+     "The statement is incorrect. (−3, −4) has both coordinates negative, so it lies in AB, not IV",
      "The statement is incorrect. (−3, −4) has both coordinates negative, so it lies in Quadrant III, not IV"
     ],
     "hint": "Straight from the 'Cartesian plane' slide -- match the key terms.",
@@ -182,17 +197,37 @@ export const C9_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "math_input",
+    "question": "A car rental charges Rs 1500 per day plus Rs 8 per km. A customer is charged Rs 3860 for one day. How many km did they drive? Show the linear equation and solve.",
+    "answer": "295",
+    "mathInput": {
+     "tolerance": 0,
+     "placeholder": "km"
+    },
+    "hint": "Work it step by step, then enter the final value in km.",
+    "misconception": "A wrong answer (e.g., d = 3860/8 = 482.5) ignores the fixed daily charge of Rs 1500.",
+    "id": "gen_c9_math_ch01_q4",
+    "nodeId": "c9_math_ch2_3",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you take a taxi.",
+     "The driver says: \"Rs 30 base fare, plus Rs 12 per kilometer.\" After 1 km, you pay 30 + 12 = Rs 42.",
+     "After 2 km, 30 + 24 = Rs 54.",
+     "After 5 km, 30 + 60 = Rs 90."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Points P(1, 2), Q(4, 6), and R(4, 2) form a right triangle. Verify that the distance PQ equals the hypotenuse computed from legs PR and RQ using Pythagoras theorem, and explain how this validates the distance formula.",
     "answer": "PR = horizontal distance = \\(|4-1| = 3\\). RQ = vertical distance = \\(|6-2| = 4\\). By Pythagoras, \\(PQ^2 = 3^2 + 4^2 = 25 \\Rightarrow PQ = 5\\)",
     "options": [
-     "Problem: \"Rohan's house is at \\(H(1, 2)\\) and his school is at \\(S(4, 6)\\). He cycles to a tuition centre \\(T\\) on the y-axis such that the distance from his house to the tuition",
-     "Yes, the calculation is correct. The triangle is right-angled with legs 4 and 3, so area = \\(\\frac{1}{2} \\times 4 \\times 3 = 6\\)",
+     "The reasoning is essentially the slope method (equal Δy/Δx), not the distance formula method. While the conclusion is correct (the points are collinear)",
+     "The student incorrectly added the horizontal and vertical differences (Manhattan distance) instead of using the Pythagorean theorem",
      "PR = horizontal distance = \\(|4-1| = 3\\). RQ = vertical distance = \\(|6-2| = 4\\). By Pythagoras, \\(PQ^2 = 3^2 + 4^2 = 25 \\Rightarrow PQ = 5\\)"
     ],
     "hint": "Straight from the 'distance between two points \\\\)' slide -- match the key terms.",
     "misconception": "A student who computes PR = 3, RQ = 4, but then says PQ = 7 (adding legs) does not understand the hypotenuse is the straight-line distance, not the sum of legs.",
-    "id": "gen_c9_math_ch01_q4",
+    "id": "gen_c9_math_ch01_q5",
     "nodeId": "c9_math_ch1_4",
     "difficulty": "standard",
     "workedExample": [
@@ -213,7 +248,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'distance between two points on a' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"the y-coordinates cancel out\" without showing the substitution reveals a procedural memory without conceptual understanding. A student who says \"we just ignore the y-part\" misses the mathematical justification that the vertical leg of the right triangle has zero length.",
-    "id": "gen_c9_math_ch01_q5",
+    "id": "gen_c9_math_ch01_q6",
     "nodeId": "c9_math_ch1_5",
     "difficulty": "advanced",
     "workedExample": [
@@ -230,12 +265,12 @@ export const C9_MATH_GEN: SimDef[] = [
     "options": [
      "The condition is that the sum of the lengths of any two segments equals the length of the third segment",
      "The two points of trisection divide the segment in the ratios 1:2 and 2:1",
-     "The distance formula is \\(False = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). Here, \\((x_1, y_1)\\) are the coordinates of point \\(P\\) and \\((x_2",
+     "The distance formula is \\(School = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). Here, \\((x_1, y_1)\\) are the coordinates of point \\(P\\) and \\((x_2",
      "The distance formula is \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). Here, \\((x_1, y_1)\\) are the coordinates of point \\(P\\) and \\((x_2"
     ],
     "hint": "Straight from the 'distance formula calculates the' slide -- match the key terms.",
     "misconception": "If a student writes \\(\\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}\\), it is mathematically equivalent because of squaring, but if they write \\(\\sqrt{(x_2 - x_1) + (y_2 - y_1)}\\) or forget the squares, they have not internalized the Pythagorean derivation.",
-    "id": "gen_c9_math_ch01_q6",
+    "id": "gen_c9_math_ch01_q7",
     "nodeId": "c9_math_ch1_6",
     "difficulty": "advanced",
     "workedExample": [
@@ -287,7 +322,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer like (–0.8, 2.6) comes from swapping m and n: x = (3×(–2)+2×4)/5 = (–6+8)/5 = 2/5, y = (3×5+2×(–3))/5 = (15–6)/5 = 9/5. This shows the student multiplies the first point by m instead of n.",
-    "id": "gen_c9_math_ch01_q7",
+    "id": "gen_c9_math_ch01_q8",
     "nodeId": "c9_math_ch1_7",
     "difficulty": "advanced",
     "workedExample": [
@@ -350,7 +385,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer like (2, 2) for the first part indicates sign errors with negative coordinates. For the second part, setting (1 + x)/2 = 2 (using the wrong coordinate) shows inability to equate coordinates correctly.",
-    "id": "gen_c9_math_ch01_q8",
+    "id": "gen_c9_math_ch01_q9",
     "nodeId": "c9_math_ch1_8",
     "difficulty": "standard",
     "workedExample": [
@@ -413,7 +448,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer like P(4,3) and Q(3,0) shows the student swapped the ratios.",
-    "id": "gen_c9_math_ch01_q9",
+    "id": "gen_c9_math_ch01_q10",
     "nodeId": "c9_math_ch1_9",
     "difficulty": "advanced",
     "workedExample": [
@@ -434,7 +469,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
     "misconception": "A wrong answer like \"AB = BC = AC\" reveals the student confuses collinearity with equidistant points or an equilateral triangle. A response \"AB² + BC² = AC²\" shows confusion with the Pythagorean theorem for right triangles.",
-    "id": "gen_c9_math_ch01_q10",
+    "id": "gen_c9_math_ch01_q11",
     "nodeId": "c9_math_ch1_10",
     "difficulty": "advanced",
     "workedExample": [
@@ -442,6 +477,27 @@ export const C9_MATH_GEN: SimDef[] = [
      "Three flags are placed at coordinates A(2, 3), B(5, 7), and C(8, 11) on the grid map.",
      "The teacher asks: \"Are these three flags in a perfect straight line?\" You recall that if they are collinear, the distance from the first flag to the",
      "First, write down the coordinates of all three points."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Ravi is 3 times as old as his son. After 10 years, Ravi will be twice as old as his son. Find their present ages.",
+    "answer": "Let son's age = x, Ravi's age = 3x. After 10 years: son = x+10, Ravi = 3x+10. Condition: 3x+10 = 2(x+10) → 3x+10 = 2x+20 → x = 10. Son = 10 years, Ravi = 30 years",
+    "options": [
+     "The final answer 10 is correct, but the working is incomplete. The student wrote \"8 - (-2) = 10\" which correctly computes the difference",
+     "The student incorrectly added the horizontal and vertical differences (Manhattan distance) instead of using the Pythagorean theorem",
+     "Let son's age = x, Ravi's age = 3x. After 10 years: son = x+10, Ravi = 3x+10. Condition: 3x+10 = 2(x+10) → 3x+10 = 2x+20 → x = 10. Son = 10 years, Ravi = 30 years"
+    ],
+    "hint": "Straight from the 'word problem using linear' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., x=5 or 3x=2(x+10) without +10) reveals the student either misassigns variables, forgets to add 10 to both ages, or incorrectly sets up the future relationship — showing weak translation of \"after 10 years\" into algebraic expressions.",
+    "id": "gen_c9_math_ch01_q12",
+    "nodeId": "c9_math_ch2_10",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are helping your family plan a trip from Delhi to Jaipur.",
+     "You know the total distance is 280 km, and you travel partly by car at 60 km/h and partly by bus at 40 km/h.",
+     "The total journey takes 5 hours.",
+     "How far did you travel by car?"
     ]
    },
    {
@@ -453,7 +509,7 @@ export const C9_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer like 6 or -12 indicates the student forgot the factor \\(\\frac{1}{2}\\) or the absolute value, or made a sign error in the differences.",
-    "id": "gen_c9_math_ch01_q11",
+    "id": "gen_c9_math_ch01_q13",
     "nodeId": "c9_math_ch1_11",
     "difficulty": "advanced",
     "workedExample": [
@@ -505,7 +561,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that says (1,2) is closer to B reveals the student does not understand which ratio corresponds to which endpoint.",
-    "id": "gen_c9_math_ch01_q12",
+    "id": "gen_c9_math_ch01_q14",
     "nodeId": "c9_math_ch1_9",
     "difficulty": "advanced"
    },
@@ -514,13 +570,13 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "Create a real-life situation (Indian context) where using a Cartesian coordinate system with two perpendicular reference lines is necessary, and explain why a single number line would be insufficient.",
     "answer": "Example: Locating a house in a city grid like Chandigarh where roads run North-South and East-West",
     "options": [
-     "PR = horizontal distance = \\(|4-1| = 3\\). RQ = vertical distance = \\(|6-2| = 4\\). By Pythagoras, \\(PQ^2 = 3^2 + 4^2 = 25 \\Rightarrow PQ = 5\\)",
-     "AB is vertical: |5 - (-1)| = 6. BC is horizontal: |2 - (-4)| = 6. CD is vertical: |5 - (-1)| = 6. DA is horizontal: |2 - (-4)| = 6. Perimeter = 6+6+6+6 = 24 units",
+     "The statement is incorrect. (−3, −4) has both coordinates negative, so it lies in Quadrant III, not IV",
+     "B = 1.50n + 200. For 100 minutes: B = 1.50(100) + 200 = 150 + 200 = Rs 350. Here m = 1.50 (rate per minute) and c = 200 (fixed rental)",
      "Example: Locating a house in a city grid like Chandigarh where roads run North-South and East-West"
     ],
     "hint": "Straight from the 'Cartesian coordinate system' slide -- match the key terms.",
     "misconception": "A poor answer gives a one-dimensional example (e.g., temperature over time) or fails to explain why two independent measurements are needed.",
-    "id": "gen_c9_math_ch01_q13",
+    "id": "gen_c9_math_ch01_q15",
     "nodeId": "c9_math_ch1_1",
     "difficulty": "standard"
    },
@@ -529,13 +585,13 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "A student claims that points D(1, 1), E(4, 5), and F(7, 9) are collinear because the differences in x-coordinates are equal (3 each) and differences in y-coordinates are equal (4 each). Evaluate this reasoning. Is it a valid proof of collinearity using the distance formula? If not, what is missing?",
     "answer": "The reasoning is essentially the slope method (equal Δy/Δx), not the distance formula method. While the conclusion is correct (the points are collinear)",
     "options": [
-     "The student incorrectly added the horizontal and vertical differences (Manhattan distance) instead of using the Pythagorean theorem",
-     "The solution is correct. The coordinates (2,3) and (4,6) are indeed the trisection points. The student correctly applied the section formula with ratios 1:2 and 2:1",
+     "The student is incorrect. The correct midpoint is (2, 2) because (-4 + 8)/2 = 4/2 = 2 and (6 + (-2))/2 = 4/2 = 2",
+     "Problem: Village A is at coordinates (10, 20) km and Village B is at (30, 40) km on a district map",
      "The reasoning is essentially the slope method (equal Δy/Δx), not the distance formula method. While the conclusion is correct (the points are collinear)"
     ],
     "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The reasoning is essentially the slope method (equal Δy/Δx), not the distance formula method.",
-    "id": "gen_c9_math_ch01_q14",
+    "id": "gen_c9_math_ch01_q16",
     "nodeId": "c9_math_ch1_10",
     "difficulty": "advanced"
    },
@@ -544,13 +600,13 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "Compare the distance formula method and the area of triangle method for checking collinearity. When would the distance formula method be computationally simpler? When would the area method be simpler? Give one example of coordinates for each case.",
     "answer": "The distance formula method is simpler when coordinates are small integers and the distances work out to perfect squares (e",
     "options": [
-     "When points lie on a line parallel to the x-axis, their y-coordinates are equal, so y₂ - y₁ = 0. Substituting into the formula: √[(x₂ - x₁)² + 0²] = √[(x₂ - x₁)²] = |x₂ - x₁|",
-     "The point one-third from A divides AB in the ratio 1:2 (AP:PB = 1:2). By section formula, x = (1·x₂ + 2·x₁)/(1+2) = (x₂ + 2x₁)/3?",
+     "The formula is x = (mx₂ + nx₁)/(m + n) and y = (my₂ + ny₁)/(m + n)",
+     "Problem: Village A is at coordinates (10, 20) km and Village B is at (30, 40) km on a district map",
      "The distance formula method is simpler when coordinates are small integers and the distances work out to perfect squares (e"
     ],
     "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
     "misconception": "A student who says \"distance formula is always easier\" fails to recognize that square roots of non-perfect squares create approximation errors, while the area method gives an exact zero test.",
-    "id": "gen_c9_math_ch01_q15",
+    "id": "gen_c9_math_ch01_q17",
     "nodeId": "c9_math_ch1_10",
     "difficulty": "advanced"
    },
@@ -559,43 +615,12 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "Create a real-world problem (Indian context) where a surveyor must check if three boundary stones are in a straight line using their GPS coordinates. Provide coordinates for the three stones such that they are NOT collinear, but the distances are close enough that a rounding error could mislead someone.",
     "answer": "Problem: A surveyor records three boundary stones at A(100, 200), B(103, 204), C(106, 209) (in metres)",
     "options": [
+     "The student incorrectly added the horizontal and vertical differences (Manhattan distance) instead of using the Pythagorean theorem",
      "Example problem: \"A straight pipeline is to be laid from a water tank at (10, 20) to a village at (40, 50) (coordinates in metres)",
-     "Yes, the conclusion is correct. The distances satisfy PQ + QR = 5 + 5 = 10 = PR, which means Q lies between P and R on a straight line",
      "Problem: A surveyor records three boundary stones at A(100, 200), B(103, 204), C(106, 209) (in metres)"
     ],
     "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
     "misconception": "A poor answer gives collinear points or ignores the rounding issue.",
-    "id": "gen_c9_math_ch01_q16",
-    "nodeId": "c9_math_ch1_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Points A(–2, 1), B(2, 3), and C(6, 5) are plotted. Calculate AB, BC, and AC using the distance formula. Determine if A, B, C are collinear. Show all steps.",
-    "answer": "AB = √[(2−(−2))² + (3−1)²] = √[4² + 2²] = √(16+4) = √20 = 2√5 ≈ 4.472. BC = √[(6−2)² + (5−3)²] = √[4² + 2²] = √20 = 2√5 ≈ 4",
-    "options": [
-     "The formula is \\(\\text{Area} = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \\right|\\)",
-     "Substitute into formula: \\(\\text{Area} = \\frac{1}{2} |1(6-2) + 4(2-2) + 7(2-6)| = \\frac{1}{2} |1(4) + 4(0) + 7(-4)| = \\frac{1}{2} |4 + 0 - 28| = \\frac{1}{2} |-24| = 12\\) square",
-     "AB = √[(2−(−2))² + (3−1)²] = √[4² + 2²] = √(16+4) = √20 = 2√5 ≈ 4.472. Sector = √[(6−2)² + (5−3)²] = √[4² + 2²] = √20 = 2√5 ≈ 4",
-     "AB = √[(2−(−2))² + (3−1)²] = √[4² + 2²] = √(16+4) = √20 = 2√5 ≈ 4.472. BC = √[(6−2)² + (5−3)²] = √[4² + 2²] = √20 = 2√5 ≈ 4"
-    ],
-    "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
-    "misconception": "A wrong answer like AB = √20, BC = √20, AC = √80 but then saying \"not collinear because AB ≠ BC\" reveals the student thinks collinearity requires equal distances. A computational error like AC = √(8²+4²) = √(64+16) = √70 shows incorrect addition under the radical.",
-    "id": "gen_c9_math_ch01_q17",
-    "nodeId": "c9_math_ch1_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Three points P(1, 2), Q(4, 6), and R(7, 10) are given. A student calculates PQ = 5, QR = 5, and PR = 10, then says \"PQ + QR = PR, so the points are collinear.\" Is the student's conclusion correct? Explain why or why not, referring to the distance formula.",
-    "answer": "Yes, the conclusion is correct. The distances satisfy PQ + QR = 5 + 5 = 10 = PR, which means Q lies between P and R on a straight line",
-    "options": [
-     "PR = horizontal distance = \\(|4-1| = 3\\). RQ = vertical distance = \\(|6-2| = 4\\). By Pythagoras, \\(PQ^2 = 3^2 + 4^2 = 25 \\Rightarrow PQ = 5\\)",
-     "The student is incorrect. The correct midpoint is (2, 2) because (-4 + 8)/2 = 4/2 = 2 and (6 + (-2))/2 = 4/2 = 2",
-     "Yes, the conclusion is correct. The distances satisfy PQ + QR = 5 + 5 = 10 = PR, which means Q lies between P and R on a straight line"
-    ],
-    "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
-    "misconception": "A student who says \"No, because PQ = QR so it's an isosceles triangle\" misunderstands that equal distances do not prevent collinearity; they only indicate Q is the midpoint of PR. A student who says \"We need to check slopes\" is using a different method, not the distance formula condition asked for.",
     "id": "gen_c9_math_ch01_q18",
     "nodeId": "c9_math_ch1_10",
     "difficulty": "advanced"
@@ -613,19 +638,22 @@ export const C9_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_math_ch04",
-  "title": "Identities \\^2 = A^2 + 2ab + B^2\\) And \\^2 =",
+  "title": "Natural Numbers",
   "subtitle": "Mathematics · Chapter 4",
   "classLevel": 9,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Identities \\^2 = A^2 + 2ab + B^2\\) And \\^2 = A^2 - 2",
+  "topic": "Natural Numbers",
   "chapters": [
-   "Mathematics Ch4: Identities \\^2 = A^2 + 2ab + B^2\\) And \\^2 = A^2 - 2"
+   "Mathematics Ch3: Natural Numbers",
+   "Mathematics Ch4: Natural Numbers"
   ],
   "nodeIds": [
+   "c9_math_ch3_1",
    "c9_math_ch4_1",
    "c9_math_ch4_2",
-   "c9_math_ch4_10"
+   "c9_math_ch4_10",
+   "c9_math_ch3_11"
   ],
   "emoji": "🔢",
   "theme": {
@@ -634,7 +662,7 @@ export const C9_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Identities \\^2 = A^2 + 2ab + outside the classroom?",
+   "question": "Quick guess -- where do you meet Natural Numbers outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -644,6 +672,13 @@ export const C9_MATH_GEN: SimDef[] = [
    "hook": "Sheet-metal fabricator: laying out a box's flat net is algebraic expansion without the symbols."
   },
   "teaching": [
+   {
+    "title": "Natural Numbers",
+    "text": "Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for ordering and quantifying discrete objects. Whole numbers (denoted by W) extend natural numbers by including zero: W = {0, 1, 2, 3, .",
+    "emoji": "🔢",
+    "bgColor": "from-violet-400 to-purple-500",
+    "katex": "W = {0, 1, 2, 3,"
+   },
    {
     "title": "Identities \\^2 = A^2 + 2ab + B^2\\) And \\^2",
     "text": "The identities \\((a+b)^2 = a^2 + 2ab + b^2\\) and \\((a-b)^2 = a^2 - 2ab + b^2\\) are algebraic statements that hold true for all real values of \\(a\\) and \\(b\\).",
@@ -661,9 +696,78 @@ export const C9_MATH_GEN: SimDef[] = [
     "text": "Rational expressions are fractions where both the numerator and denominator are polynomials, and simplification means reducing the fraction to its lowest terms by factorising both numerator and denominator and cancelling common factors — analogous to",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Representing Square Roots On The Number Line",
+    "text": "Representing square roots on the number line is a geometric construction method that uses the Pythagorean theorem to locate the exact position of irrational numbers of the form √n (where n is a positive integer) on the real number line.",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500"
    }
   ],
   "challenges": [
+   {
+    "type": "order",
+    "question": "Give the correct order of steps to find the money Rohan keeps when he buys 0 kg of apples at 50 rupees per kg and receives 0 rupees as a gift, starting with 200 rupees.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Multiplying 0 by 50 gives 0",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Adding the zero costs changes nothing",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The gift of 0 rupees adds nothing again",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Subtracting 0 from 200 leaves 200 rupees",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats the zero quantities as real spending shows the student cannot apply a x 0 = 0 and a + 0 = a together, which is exactly the dual role of zero in the whole number system.",
+    "id": "gen_c9_math_ch04_q1",
+    "nodeId": "c9_math_ch3_1",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine a Class 9 teacher asks: \"If you have ₹50 and spend exactly ₹50, how much money do you have left?",
+     "Ancient Indians asked this too.",
+     "Start by writing the set ℕ = {1, 2, 3, ...} and W = {0, 1, 2, 3, ...}.",
+     "Notice that 0 ∉ ℕ but 0 ∈ W."
+    ]
+   },
    {
     "type": "mcq",
     "question": "A student simplified \\((2p - 3q)^2\\) as \\(4p^2 - 9q^2\\). Identify the error and write the correct expansion. Why is this a common mistake?",
@@ -675,7 +779,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'identities \\^2 = a^2 + 2ab +' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The error is omitting the middle term \\(-12pq\\). Correct expansion: \\(4p^2 - 12pq + 9q^2\\).",
-    "id": "gen_c9_math_ch04_q1",
+    "id": "gen_c9_math_ch04_q2",
     "nodeId": "c9_math_ch4_1",
     "difficulty": "advanced",
     "workedExample": [
@@ -696,7 +800,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'algebraic identity a² - b²' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"cannot be simplified\") misses that the numerator can be factorised using the difference of squares identity.",
-    "id": "gen_c9_math_ch04_q2",
+    "id": "gen_c9_math_ch04_q3",
     "nodeId": "c9_math_ch4_2",
     "difficulty": "advanced",
     "workedExample": [
@@ -713,11 +817,12 @@ export const C9_MATH_GEN: SimDef[] = [
     "options": [
      "The error is omitting the middle term \\(-12pq\\). Correct expansion: \\(4p^2 - 12pq + 9q^2\\). The student likely confused \\((a-b)^2\\) with \\(a^2 - b^2\\) (difference of squares) or",
      "(x² - 9) / (x + 3) = (x+3)(x-3) / (x+3) = x - 3 (for x ≠ -3). The identity factorises the numerator, and the (x+3) terms cancel",
+     "Subtracting numerator: x² - 16 = (x+4)(x-4). Rewrite: (x+4)(x-4)/(x-4). Cancel (x-4): result = x + 4, for x ≠ 4",
      "Factorise numerator: x² - 16 = (x+4)(x-4). Rewrite: (x+4)(x-4)/(x-4). Cancel (x-4): result = x + 4, for x ≠ 4"
     ],
     "hint": "Straight from the 'Rational expressions' slide -- match the key terms.",
     "misconception": "A wrong answer that omits the restriction misses a critical part of the simplification.",
-    "id": "gen_c9_math_ch04_q3",
+    "id": "gen_c9_math_ch04_q4",
     "nodeId": "c9_math_ch4_10",
     "difficulty": "advanced",
     "workedExample": [
@@ -728,18 +833,111 @@ export const C9_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct sequence of steps to construct √13 on the number line using the direct triplet method with legs 2 and 3.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Erect a perpendicular of 3 units at the",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Ensure length 2",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Recall that 2 squared plus 3 squared equals",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Join its end to zero and swing the arc",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that walks the whole square root spiral, or claims the triplet method fails, shows the student has missed that any integers a and b with a squared plus b squared equal to n give a direct construction.",
+    "id": "gen_c9_math_ch04_q5",
+    "nodeId": "c9_math_ch3_11",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you have a 1-metre ruler and need to mark exactly √2 metres without a calculator.",
+     "You know √2 ≈ 1.414, but how do you locate it precisely?",
+     "Start by drawing a number line with 0 and 1 marked.",
+     "At point 1, construct a perpendicular line of length 1 unit using your compass."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps to find the money Rohan keeps when he buys 0 kg of apples at 50 rupees per kg and receives 0 rupees as a gift, starting with 200 rupees.",
+    "answer": "The evaluation runs: (1) Multiplying 0 by 50 gives 0 by the annihilation property (2) Adding the zero costs changes nothing by the additive identity (3) The gift of 0 rupees adds",
+    "options": [
+     "The construction runs: (1) Recall that 2 squared plus 3 squared equals 13 (2) Ensure length 2 is already constructed on the number line (3) Erect a perpendicular of 3 units at the",
+     "Factorise numerator: x² - 16 = (x+4)(x-4). Rewrite: (x+4)(x-4)/(x-4). Cancel (x-4): result = x + 4, for x ≠ 4",
+     "The evaluation runs: (1) Multiplying 0 by 50 gives 0 by the annihilation property (2) Adding the zero costs changes nothing by the additive identity (3) The gift of 0 rupees adds"
+    ],
+    "hint": "Straight from the 'Natural numbers' slide -- match the key terms.",
+    "misconception": "A wrong answer that treats the zero quantities as real spending shows the student cannot apply a x 0 = 0 and a + 0 = a together, which is exactly the dual role of zero in the whole number system.",
+    "id": "gen_c9_math_ch04_q6",
+    "nodeId": "c9_math_ch3_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct sequence of steps to construct √13 on the number line using the direct triplet method with legs 2 and 3.",
+    "answer": "The construction runs: (1) Recall that 2 squared plus 3 squared equals 13 (2) Ensure length 2 is already constructed on the number line (3) Erect a perpendicular of 3 units at the",
+    "options": [
+     "The evaluation runs: (1) Multiplying 0 by 50 gives 0 by the annihilation property (2) Adding the zero costs changes nothing by the additive identity (3) The gift of 0 rupees adds",
+     "Factorise numerator: x² + 5x + 6 = (x+2)(x+3). Rewrite: (x+2)(x+3)/(x+2). Cancel (x+2): result = x + 3, for x ≠ -2",
+     "The construction runs: (1) Recall that 2 squared plus 3 squared equals 13 (2) Ensure length 2 is already constructed on the number line (3) Erect a perpendicular of 3 units at the"
+    ],
+    "hint": "Straight from the 'Representing square roots on the' slide -- match the key terms.",
+    "misconception": "A wrong answer that walks the whole square root spiral, or claims the triplet method fails, shows the student has missed that any integers a and b with a squared plus b squared equal to n give a direct construction.",
+    "id": "gen_c9_math_ch04_q7",
+    "nodeId": "c9_math_ch3_11",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Simplify: (2x² + 4x)/(2x). State the restriction.",
     "answer": "Factorise numerator: 2x² + 4x = 2x(x + 2). Rewrite: 2x(x+2)/2x. Cancel 2x: result = x + 2, for x ≠ 0",
     "options": [
      "(x² - 9) / (x + 3) = (x+3)(x-3) / (x+3) = x - 3 (for x ≠ -3). The identity factorises the numerator, and the (x+3) terms cancel",
      "The error is omitting the middle term \\(-12pq\\). Correct expansion: \\(4p^2 - 12pq + 9q^2\\). The student likely confused \\((a-b)^2\\) with \\(a^2 - b^2\\) (difference of squares) or",
-     "Factorise numerator: 2x² + 4x = 2x(x + 2). Correct: 2x(x+2)/2x. Cancel 2x: result = x + 2, for x ≠ 0",
+     "Factorise numerator: 2x² + 4x = 2x(x + 2). Adding: 2x(x+2)/2x. Cancel 2x: result = x + 2, for x ≠ 0",
      "Factorise numerator: 2x² + 4x = 2x(x + 2). Rewrite: 2x(x+2)/2x. Cancel 2x: result = x + 2, for x ≠ 0"
     ],
     "hint": "Straight from the 'Rational expressions' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"x + 2, no restriction\") misses that x = 0 makes the denominator zero.",
-    "id": "gen_c9_math_ch04_q4",
+    "id": "gen_c9_math_ch04_q8",
     "nodeId": "c9_math_ch4_10",
     "difficulty": "advanced"
    },
@@ -754,19 +952,20 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Rational expressions' slide -- match the key terms.",
     "misconception": "A wrong answer that fails to factorise the numerator (e.g., \"cannot be simplified\") misses that x² + 5x + 6 factors as (x+2)(x+3).",
-    "id": "gen_c9_math_ch04_q5",
+    "id": "gen_c9_math_ch04_q9",
     "nodeId": "c9_math_ch4_10",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about identities \\^2 = a^2 + 2ab + b^2\\) and \\^2 = a^2 - 2?",
+    "What surprised you about natural numbers?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Identities \\^2 = A^2 + 2ab + mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "successLine": "Natural Numbers mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c9_math_ch05",
@@ -1337,6 +1536,21 @@ export const C9_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "In a circle with centre O and radius 7 cm, points A, B, C lie on the circumference such that AB passes through O and AC does not. Name the following: (i) the diameter, (ii) a radius, (iii) a chord that is not a diameter, (iv) the arc between A and C that does not contain B.",
+    "answer": "(i) AB (passes through O, length 14 cm). (ii) OA or OB or OC (each 7 cm). (iii) AC (joins two points on circle but does not pass through O)",
+    "options": [
+     "By reflection symmetry across line OM (which passes through O), the circle maps onto itself. Since A and B are intersection points of the circle with a line perpendicular to OM",
+     "The longer chord (16 cm) is closer to the centre (distance 3 cm) than the shorter chord (12 cm at distance 5 cm)",
+     "(i) AB (passes through O, length 14 cm). (ii) OA or OB or OC (each 7 cm). (iii) AC (joins two points on circle but does not pass through O)"
+    ],
+    "hint": "Straight from the 'circle' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., naming OC as diameter or calling AC a diameter) reveals confusion about the \"passes through centre\" criterion for diameter versus chord.",
+    "id": "gen_c9_math_ch05_q16",
+    "nodeId": "c9_math_ch5_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A student draws a circle, a chord AB, and a line from centre O to the midpoint M of AB. He claims OM is perpendicular to AB because \"the perpendicular from the centre bisects the chord\". Evaluate his reasoning.",
     "answer": "The reasoning is flawed. The theorem states: if OM ⟂ AB then AM = MB. The student uses the converse: if AM = MB then OM ⟂ AB",
     "options": [
@@ -1346,7 +1560,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In a circle, the perpendicular' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., saying the student is correct because it's the same theorem) reveals confusion between a statement and its converse.",
-    "id": "gen_c9_math_ch05_q16",
+    "id": "gen_c9_math_ch05_q17",
     "nodeId": "c9_math_ch5_10",
     "difficulty": "standard"
    },
@@ -1361,21 +1575,6 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In a circle, the perpendicular' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., problem not using the theorem, or missing the bisecting step) shows inability to translate the geometric property into a practical scenario.",
-    "id": "gen_c9_math_ch05_q17",
-    "nodeId": "c9_math_ch5_10",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the two triangles formed by joining the centre to the endpoints of the chord are congruent. Which congruence criterion is used and why?",
-    "answer": "Triangles OMA and OMB are right-angled at M (OM ⟂ AB). OA = OB (radii), OM is common. By RHS (Right angle-Hypotenuse-Side) congruence, ΔOMA ≅ ΔOMB. Hence AM = MB",
-    "options": [
-     "A chord is any segment joining two points on the circle. A diameter is a chord that passes through the centre",
-     "Equal chords have equal lengths. The radii to their endpoints are equal (all radii of a circle are equal)",
-     "Triangles OMA and OMB are right-angled at M (OM ⟂ AB). OA = OB (radii), OM is common. By RHS (Right angle-Hypotenuse-Side) congruence, ΔOMA ≅ ΔOMB. Hence AM = MB"
-    ],
-    "hint": "Straight from the 'In a circle, the perpendicular' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., using SAS or SSS without the right angle, or saying OA = OB and AM = MB already) shows the student does not recognize the right angle or the need for the hypotenuse-leg condition in right triangles.",
     "id": "gen_c9_math_ch05_q18",
     "nodeId": "c9_math_ch5_10",
     "difficulty": "standard"
@@ -1390,6 +1589,260 @@ export const C9_MATH_GEN: SimDef[] = [
   "successLine": "Circle mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c9_math_ch06",
+  "title": "Perimeter Of a Plane Figure",
+  "subtitle": "Mathematics · Chapter 6",
+  "classLevel": 9,
+  "mode": "senior",
+  "subject": "maths",
+  "topic": "Perimeter Of a Plane Figure",
+  "chapters": [
+   "Mathematics Ch6: Perimeter Of a Plane Figure"
+  ],
+  "nodeIds": [
+   "c9_math_ch6_1",
+   "c9_math_ch6_6",
+   "c9_math_ch6_11"
+  ],
+  "emoji": "🔢",
+  "theme": {
+   "bg": "from-sky-100 to-cyan-200",
+   "accent": "sky",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Who uses Perimeter Of a Plane Figure in real working life?",
+   "options": [
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
+   ],
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "Property assessor: a plot's value is priced straight off the area formulas taught here."
+  },
+  "teaching": [
+   {
+    "title": "Perimeter Of a Plane Figure",
+    "text": "The perimeter of a plane figure is the total length of its boundary, calculated as the sum of the lengths of all its sides. For a rectangle with length $l$ and breadth $b$, perimeter $P = 2(l + b)$; for a square with side $a$, $P = 4a$; for a triangle with",
+    "emoji": "🔢",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Heron's Formula Calculates The Area",
+    "text": "Heron's Formula calculates the area of a triangle when the lengths of all three sides (a, b, c) are known, without requiring the height. The formula is Area = √[s(s-a)(s-b)(s-c)], where s = (a+b+c)/2 is the semi-perimeter (half the perimeter) of the triangle.",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Composite Plane Figure",
+    "text": "A composite plane figure is a shape formed by combining two or more basic plane figures (rectangles, triangles, circles, sectors, segments) such that they share boundaries but do not overlap.",
+    "emoji": "🔢",
+    "bgColor": "from-emerald-400 to-teal-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "math_input",
+    "question": "A farmer has 200 m of fencing, and the length must be 10 m more than twice the breadth. Calculate the breadth of the pen in metres.",
+    "answer": "30",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer that forgets to double the breadth term, or drops the 2 from the perimeter formula, shows the student cannot translate the words twice the breadth into algebra before solving.",
+    "id": "gen_c9_math_ch06_q1",
+    "nodeId": "c9_math_ch6_1",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are helping your family fence a rectangular garden that is 12 metres long and 8 metres wide.",
+     "The fencing wire costs ₹45 per metre.",
+     "How much wire do you need and what will it cost?",
+     "Start by drawing the rectangle and labelling the sides."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of checks to apply before trusting a Heron's Formula area for sides 5 cm, 6 cm, and 12 cm.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Conclude the sides form no triangle at all",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Test the triangle inequality on the three",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Observe that 5 plus 6 equals 11",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Reject the area before computing any square",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that trusts the algebra and reports an imaginary area shows the student has missed that the triangle inequality must be checked first, before any formula is applied.",
+    "id": "gen_c9_math_ch06_q2",
+    "nodeId": "c9_math_ch6_6",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a farmer in Punjab has a triangular field with sides measuring 50 m, 60 m, and 70 m.",
+     "He needs to buy fertilizer but doesn't know the field's area because he cannot measure the height easily.",
+     "We already know Area = ½ × base × height, but that requires the height which is hard to measure in a large field.",
+     "Heron, an ancient Greek mathematician, discovered we can find the area using only the three side lengths."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Give the correct order of steps to verify that a composite garden bed of three basic shapes really totals 150 square metres.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Decompose the sketch into its basic shapes",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Check that the combined total equals 150",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Compute each part area separately",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Add the joined regions and subtract",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that adds every region including cut-outs, or never checks the target total, shows the student has missed that composite areas are algebraic sums where removed material is subtracted.",
+    "id": "gen_c9_math_ch06_q3",
+    "nodeId": "c9_math_ch6_11",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a school is designing a new badge: a rectangular strip 10 cm by 3 cm with a semicircular top of diameter 3 cm, and a triangular cut-out at",
+     "\"How much metal is needed?\" This real-world fabrication question forces decomposition.",
+     "First, sketch the figure and label all given dimensions.",
+     "Second, identify each distinct region: rectangle, semicircle (addition), triangle (subtraction)."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A farmer has 200 m of fencing, and the length must be 10 m more than twice the breadth. Calculate the breadth of the pen in metres.",
+    "answer": "Let the breadth be b, so the length is 2b + 10: Perimeter = 2(b + 2b + 10) = 6b + 20 = 200, giving b = 30 m",
+    "options": [
+     "The checks run: (1) Test the triangle inequality on the three sides (2) Observe that 5 plus 6 equals 11",
+     "Verification proceeds: (1) Decompose the sketch into its basic shapes with labelled dimensions (2) Compute each part area separately",
+     "Let the breadth be b, so the length is 2b + 10: Observe = 2(b + 2b + 10) = 6b + 20 = 200, giving b = 30 m",
+     "Let the breadth be b, so the length is 2b + 10: Perimeter = 2(b + 2b + 10) = 6b + 20 = 200, giving b = 30 m"
+    ],
+    "hint": "Straight from the 'perimeter of a plane figure' slide -- match the key terms.",
+    "misconception": "A wrong answer that forgets to double the breadth term, or drops the 2 from the perimeter formula, shows the student cannot translate the words twice the breadth into algebra before solving.",
+    "id": "gen_c9_math_ch06_q4",
+    "nodeId": "c9_math_ch6_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of steps to verify that a composite garden bed of three basic shapes really totals 150 square metres.",
+    "answer": "Verification proceeds: (1) Decompose the sketch into its basic shapes with labelled dimensions (2) Compute each part area separately",
+    "options": [
+     "The checks run: (1) Test the triangle inequality on the three sides (2) Observe that 5 plus 6 equals 11",
+     "Let the breadth be b, so the length is 2b + 10: Perimeter = 2(b + 2b + 10) = 6b + 20 = 200, giving b = 30 m",
+     "Verification proceeds: (1) Decompose the sketch into its basic shapes with labelled dimensions (2) Compute each part area separately"
+    ],
+    "hint": "Straight from the 'composite plane figure' slide -- match the key terms.",
+    "misconception": "A wrong answer that adds every region including cut-outs, or never checks the target total, shows the student has missed that composite areas are algebraic sums where removed material is subtracted.",
+    "id": "gen_c9_math_ch06_q5",
+    "nodeId": "c9_math_ch6_11",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Give the correct order of checks to apply before trusting a Heron's Formula area for sides 5 cm, 6 cm, and 12 cm.",
+    "answer": "The checks run: (1) Test the triangle inequality on the three sides (2) Observe that 5 plus 6 equals 11",
+    "options": [
+     "Verification proceeds: (1) Decompose the sketch into its basic shapes with labelled dimensions (2) Compute each part area separately",
+     "Let the breadth be b, so the length is 2b + 10: Perimeter = 2(b + 2b + 10) = 6b + 20 = 200, giving b = 30 m",
+     "The checks run: (1) Test the triangle inequality on the three sides (2) Observe that 5 plus 6 equals 11"
+    ],
+    "hint": "Straight from the 'Heron's Formula calculates the' slide -- match the key terms.",
+    "misconception": "A wrong answer that trusts the algebra and reports an imaginary area shows the student has missed that the triangle inequality must be checked first, before any formula is applied.",
+    "id": "gen_c9_math_ch06_q6",
+    "nodeId": "c9_math_ch6_6",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about perimeter of a plane figure?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Perimeter Of a Plane Figure mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c9_math_ch07",
@@ -1710,6 +2163,21 @@ export const C9_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student claims: \"Fractals are just complicated geometric shapes.\" Evaluate this statement and explain what makes fractals mathematically distinct from ordinary shapes.",
+    "answer": "The statement is incorrect. Fractals are not just \"complicated shapes\" — they are mathematically distinct because of self-similarity: a small part of a fractal contains a copy of",
+    "options": [
+     "Example scenario: A child builds a square pattern with matchsticks where the nth figure has side length n cm and uses matchsticks for the perimeter plus one diagonal",
+     "The claim is incorrect. For n=1, 5(1)+4 = 9, but the first term is 4. The correct rule is aₙ = 5n - 1 (or 4 + (n-1)×5)",
+     "The statement is incorrect. Fractals are not just \"complicated shapes\" — they are mathematically distinct because of self-similarity: a small part of a fractal contains a copy of"
+    ],
+    "hint": "Straight from the 'Fractals as recursive geometric' slide -- match the key terms.",
+    "misconception": "A wrong evaluation (agreeing with the statement) misses the mathematical properties that distinguish fractals from ordinary shapes.",
+    "id": "gen_c9_math_ch08_q4",
+    "nodeId": "c9_math_ch8_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Define a fractal and explain the concept of self-similarity.",
     "answer": "A fractal is a shape that exhibits self-similarity — it looks the same (or similar) at every scale, meaning a small part of the fractal contains a copy of the whole",
     "options": [
@@ -1719,7 +2187,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Fractals as recursive geometric' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a fractal is a complicated shape\") describes appearance without the defining property of self-similarity.",
-    "id": "gen_c9_math_ch08_q4",
+    "id": "gen_c9_math_ch08_q5",
     "nodeId": "c9_math_ch8_10",
     "difficulty": "advanced"
    },
@@ -1734,7 +2202,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Fractals as recursive geometric' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"trees are fractals because they have branches\") is too vague — it must explain the self-similarity (each branch branches again, like the whole tree).",
-    "id": "gen_c9_math_ch08_q5",
+    "id": "gen_c9_math_ch08_q6",
     "nodeId": "c9_math_ch8_10",
     "difficulty": "advanced"
    },
@@ -1749,7 +2217,7 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'explicit rule for a sequence' slide -- match the key terms.",
     "misconception": "A poor answer gives an arithmetic scenario (linear) or cannot derive the rule, showing they cannot distinguish quadratic growth situations from linear ones.",
-    "id": "gen_c9_math_ch08_q6",
+    "id": "gen_c9_math_ch08_q7",
     "nodeId": "c9_math_ch8_2",
     "difficulty": "standard"
    }

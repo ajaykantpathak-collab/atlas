@@ -455,6 +455,21 @@ export const C7_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Compare the magnitude of 1 lakh with 1 thousand. How many thousands are equal to one lakh, and what algebraic equation represents this relationship?",
+    "answer": "One lakh is equal to 100 thousands because $1,00,000 \\div 1,000 = 100$, represented algebraically as $1,000 \\times x = 1,00,000$, where $x = 100$",
+    "options": [
+     "City B has a greater population density. City A density = $2,00,00,000 \\div 10,000 = 2,000$ people per sq km",
+     "The student's final answer will be too high. When borrowing, if you add $10$ to a digit but fail to decrease the neighboring digit you borrowed from by $1$",
+     "One lakh is equal to 100 thousands because $1,00,000 \\div 1,000 = 100$, represented algebraically as $1,000 \\times x = 1,00,000$, where $x = 100$"
+    ],
+    "hint": "Straight from the 'lakh' slide -- match the key terms.",
+    "misconception": "A student who states that 1,000 thousands make a lakh is confusing the number of zeros between a thousand ($1,000$) and a lakh ($1,00,000$), failing to account for the two extra zeros.",
+    "id": "gen_c7_math_ch01_q14",
+    "nodeId": "c7_math_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A student claims that the number 8,05,040 can be written without the zeros because zeros have no value. Evaluate this claim and correct any error.",
     "answer": "The claim is incorrect; while the \"face value\" of zero is zero and it adds nothing to the sum, zero acts as a critical placeholder in the place value system",
     "options": [
@@ -464,7 +479,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'place value system extends to' slide -- match the key terms.",
     "misconception": "A student who agrees with the claim does not understand place-holding zeros.",
-    "id": "gen_c7_math_ch01_q14",
+    "id": "gen_c7_math_ch01_q15",
     "nodeId": "c7_math_ch01_002",
     "difficulty": "advanced"
    },
@@ -480,7 +495,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'place value system extends to' slide -- match the key terms.",
     "misconception": "A student who writes 6,48,52 or misses the zero placeholder for the thousands place likely drops missing positional units when converting from expanded form to standard form.",
-    "id": "gen_c7_math_ch01_q15",
+    "id": "gen_c7_math_ch01_q16",
     "nodeId": "c7_math_ch01_002",
     "difficulty": "advanced"
    },
@@ -495,7 +510,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Comparing and ordering large' slide -- match the key terms.",
     "misconception": "A student who thinks the comparison rules change based on comma placement does not understand that commas are merely visual aids for reading, not mathematical operators.",
-    "id": "gen_c7_math_ch01_q16",
+    "id": "gen_c7_math_ch01_q17",
     "nodeId": "c7_math_ch01_005",
     "difficulty": "advanced"
    },
@@ -510,21 +525,6 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Comparing and ordering large' slide -- match the key terms.",
     "misconception": "A student who gets this wrong often misinterprets place value alignment, confusing tens of thousands with thousands.",
-    "id": "gen_c7_math_ch01_q17",
-    "nodeId": "c7_math_ch01_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a set of three 8-digit numbers using the digits 4, 5, 6, 7, 8, 9, 0, 1 (using each digit at least once per number or repetition allowed as long as length is 8 digits) and arrange them in descending order, explaining your rule.",
-    "answer": "An acceptable student response will provide three distinct 8-digit numbers (e.g., 8,76,54,109; 7,86,54,109",
-    "options": [
-     "Ascending order: 3,45,12,670; 3,45,67,120; 3,45,67,890. Steps: 1. All numbers have the same digits up to the lakh place (3, 45)",
-     "An 8-digit number cannot have a digit in the \"ten-crores\" place because a ten-crores number has 9 digits, not 8",
-     "An acceptable student response will provide three distinct 8-digit numbers (e.g., 8,76,54,109; 7,86,54,109"
-    ],
-    "hint": "Straight from the 'Comparing and ordering large' slide -- match the key terms.",
-    "misconception": "A poor answer lists arbitrary numbers without checking digit counts or fails to order them correctly, showing no grasp of place value hierarchy.",
     "id": "gen_c7_math_ch01_q18",
     "nodeId": "c7_math_ch01_005",
     "difficulty": "advanced"
@@ -1047,6 +1047,7 @@ export const C7_MATH_GEN: SimDef[] = [
    "c7_math_ch03_004",
    "c7_math_ch03_005",
    "c7_math_ch03_006",
+   "c7_math_ch03_007",
    "c7_math_ch03_008",
    "c7_math_ch03_009",
    "c7_math_ch03_010",
@@ -1104,6 +1105,12 @@ export const C7_MATH_GEN: SimDef[] = [
     "text": "Locating decimals on the number line involves identifying the precise position of a decimal number between two integers by dividing the unit distance into ten equal tenths segments and further into hundredths segments.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Comparing And Ordering Decimals Involves",
+    "text": "Comparing and ordering decimals involves determining the relative magnitude of two or more decimal numbers by examining their place values sequentially from left to right, and arranging them in ascending or descending order.",
+    "emoji": "🔢",
+    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Addition Of Decimal Numbers",
@@ -1178,7 +1185,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What fraction and decimal represent 7 shaded parts out of a total of 100 equal parts of a square?",
     "answer": "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$",
     "options": [
-     "The correct answer is to align the decimal points vertically and pad the shorter decimal with a placeholder zero to make it $15.40 - 3.25$",
+     "The comparison follows: (1) Write the decimals with points aligned (2) Add placeholder zeros to equalise decimal places (3) Compare digits from left to right through tenths (4)",
      "The correct answer is 0.45",
      "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$"
     ],
@@ -1256,6 +1263,69 @@ export const C7_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "State the correct sequence of steps for comparing two decimals such as 3.45 and 3.485.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Add placeholder zeros to equalise decimal",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Compare digits from left to right through",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Decide at the first place where digits",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Write the decimals with points aligned",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that declares 3.45 larger because 45 looks bigger after the point shows the student is comparing the decimal part as a whole number instead of by place value.",
+    "id": "gen_c7_math_ch03_q7",
+    "nodeId": "c7_math_ch03_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are at a local stationery shop in India buying notebooks, and you see two gel pens priced at ₹12.45 and ₹12.48.",
+     "Which one costs more, and how do you decide without guessing?",
+     "To begin, we write both numbers vertically, aligning their decimal points and whole number parts.",
+     "We learned in earlier grades how to compare whole numbers digit by digit from left to right."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Calculate the exact sum of $14.8$, $3.25$, and $0.076$.",
     "answer": "The correct sum is $18.126$. Steps: 1. Write vertically with aligned decimal points: $14.800$ $+ 3",
@@ -1266,7 +1336,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'addition of decimal numbers' slide -- match the key terms.",
     "misconception": "If a student gets $181.26$ or $4.736$, it reveals a failure to align the decimal points correctly or improper handling of carry-over values across place-value boundaries.",
-    "id": "gen_c7_math_ch03_q7",
+    "id": "gen_c7_math_ch03_q8",
     "nodeId": "c7_math_ch03_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -1281,13 +1351,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the first essential step when setting up the subtraction problem $15.4 - 3.25$ on paper?",
     "answer": "The correct answer is to align the decimal points vertically and pad the shorter decimal with a placeholder zero to make it $15.40 - 3.25$",
     "options": [
-     "The interval must be divided into $10$ equal subdivisions because the first decimal place represents tenths ($\\frac{1}{10}$)",
      "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$",
+     "The comparison follows: (1) Write the decimals with points aligned (2) Add placeholder zeros to equalise decimal places (3) Compare digits from left to right through tenths (4)",
      "The correct answer is to align the decimal points vertically and pad the shorter decimal with a placeholder zero to make it $15.40 - 3.25$"
     ],
     "hint": "Straight from the 'Subtraction of decimal numbers' slide -- match the key terms.",
     "misconception": "A wrong answer like just aligning the numbers on the right (writing $15.4$ minus $3.25$ as $15.4 - 3.25$ with the 5 under the 4) reveals that the student is treating decimals like whole numbers and ignoring place value.",
-    "id": "gen_c7_math_ch03_q8",
+    "id": "gen_c7_math_ch03_q9",
     "nodeId": "c7_math_ch03_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -1302,13 +1372,14 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the decimal representation of the fraction $\\frac{45}{100}$?",
     "answer": "The correct answer is 0.45",
     "options": [
+     "The comparison follows: (1) Write the decimals with points aligned (2) Add placeholder zeros to equalise decimal places (3) Compare digits from left to right through tenths (4)",
      "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$",
-     "The interval must be divided into $10$ equal subdivisions because the first decimal place represents tenths ($\\frac{1}{10}$)",
+     "Verify correct answer is 0.45",
      "The correct answer is 0.45"
     ],
     "hint": "Straight from the 'Representing decimals as' slide -- match the key terms.",
     "misconception": "If a student answers 4.5 or 0.045, it reveals a fundamental confusion about how the number of zeros in the denominator of a fraction corresponds to the number of decimal places after the point.",
-    "id": "gen_c7_math_ch03_q9",
+    "id": "gen_c7_math_ch03_q10",
     "nodeId": "c7_math_ch03_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -1328,7 +1399,7 @@ export const C7_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value in times.",
     "misconception": "A wrong answer reveals confusion about the directional distance across the decimal point.",
-    "id": "gen_c7_math_ch03_q10",
+    "id": "gen_c7_math_ch03_q11",
     "nodeId": "c7_math_ch03_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -1349,7 +1420,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
     "misconception": "A student who answers $\\frac{4}{10}$ has ignored the 3 whole units, while a student who answers 7 has incorrectly added parts and wholes together as if they were identical units.",
-    "id": "gen_c7_math_ch03_q11",
+    "id": "gen_c7_math_ch03_q12",
     "nodeId": "c7_math_ch03_001",
     "difficulty": "standard"
    },
@@ -1364,7 +1435,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is incorrect. While 4 represents 4 whole one-rupee coins, the .",
-    "id": "gen_c7_math_ch03_q12",
+    "id": "gen_c7_math_ch03_q13",
     "nodeId": "c7_math_ch03_001",
     "difficulty": "standard"
    },
@@ -1379,7 +1450,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
     "misconception": "A student who thinks $\\frac{1}{100}$ is larger because 100 is bigger than 10 confuses whole number magnitude with fraction size.",
-    "id": "gen_c7_math_ch03_q13",
+    "id": "gen_c7_math_ch03_q14",
     "nodeId": "c7_math_ch03_001",
     "difficulty": "standard"
    },
@@ -1394,7 +1465,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
     "misconception": "A poor answer gives a scenario where whole numbers are already sufficient (like counting students in a class), failing to demonstrate the need for smaller measurement units.",
-    "id": "gen_c7_math_ch03_q14",
+    "id": "gen_c7_math_ch03_q15",
     "nodeId": "c7_math_ch03_001",
     "difficulty": "standard"
    },
@@ -1409,7 +1480,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
     "misconception": "A student who agrees with Rahul does not understand that whole numbers leave gaps in continuous real-world measurements.",
-    "id": "gen_c7_math_ch03_q15",
+    "id": "gen_c7_math_ch03_q16",
     "nodeId": "c7_math_ch03_001",
     "difficulty": "standard"
    },
@@ -1424,7 +1495,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'tenth part represents one of' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement is confusing the tenths place ($0.1$ or $\\frac{1}{10}$) with the hundredths place or direct unit conversion units like centimetres ($\\frac{1}{100}$ of a metre).",
-    "id": "gen_c7_math_ch03_q16",
+    "id": "gen_c7_math_ch03_q17",
     "nodeId": "c7_math_ch03_002",
     "difficulty": "standard"
    },
@@ -1439,24 +1510,9 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'tenth part represents one of' slide -- match the key terms.",
     "misconception": "A poor answer fails to connect the denominator of 10 to a physical grouping of 10 equal items in real life.",
-    "id": "gen_c7_math_ch03_q17",
+    "id": "gen_c7_math_ch03_q18",
     "nodeId": "c7_math_ch03_002",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student writes the fraction $\\frac{5}{100}$ as $0.5$. Identify the error in their reasoning and correct it.",
-    "answer": "The student's error is writing $\\frac{5}{100}$ as $0.5$, which actually represents $\\frac{5}{10}$ or 5 tenths",
-    "options": [
-     "The correct answer is $0.7$ metres. Steps: 1. Identify total equal parts: 10 parts make 1 whole metre",
-     "An acceptable answer is $0.55$ (or $\\frac{55}{100} = \\frac{11}{20}$), because $\\frac{1}{2} = 0.50$ and $\\frac{3}{5} = \\frac{6}{10} = 0",
-     "The student's error is writing $\\frac{5}{100}$ as $0.5$, which actually represents $\\frac{5}{10}$ or 5 tenths"
-    ],
-    "hint": "Straight from the 'hundredth part' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student's error is writing $\\frac{5}{100}$ as $0.5$, which actually represents $\\frac{5}{10}$ or 5 tenths.",
-    "id": "gen_c7_math_ch03_q18",
-    "nodeId": "c7_math_ch03_003",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -1478,15 +1534,18 @@ export const C7_MATH_GEN: SimDef[] = [
   "subject": "maths",
   "topic": "Variable",
   "chapters": [
-   "Mathematics Ch4: Variable"
+   "Mathematics Ch4: Variable",
+   "Mathematics Ch5: Variable"
   ],
   "nodeIds": [
    "c7_math_ch04_001",
    "c7_math_ch04_002",
    "c7_math_ch04_003",
    "c7_math_ch04_004",
+   "c7_math_ch05_004",
    "c7_math_ch04_005",
    "c7_math_ch04_006",
+   "c7_math_ch05_006",
    "c7_math_ch04_007",
    "c7_math_ch04_008",
    "c7_math_ch04_009",
@@ -1534,6 +1593,12 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
+    "title": "Parallel Lines",
+    "text": "Parallel lines are two or more lines in a single plane that never intersect or meet, no matter how far they are extended in either direction, and they always maintain a constant perpendicular distance from each other.",
+    "emoji": "🔢",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
     "title": "Matchstick Patterns And Generalising With",
     "text": "Matchstick patterns and generalising with variables is the process of building geometric shapes with a constant number of matchsticks, observing how the total count changes as the number of shapes grows, and writing an algebraic expression using a variable",
     "emoji": "🔢",
@@ -1544,6 +1609,12 @@ export const C7_MATH_GEN: SimDef[] = [
     "text": "Simplification of algebraic expressions involving like terms is the process of combining terms that contain the exact same variables raised to the exact same powers into a single term by adding or subtracting their numerical coefficients.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Transversal",
+    "text": "A transversal is a line that intersects two or more lines at distinct, separate points. When this third line crosses the others, it creates a rich geometric framework of eight distinct angles that allow us to study the relationship between lines.",
+    "emoji": "🔢",
+    "bgColor": "from-sky-400 to-cyan-500"
    },
    {
     "title": "Combining Like Terms",
@@ -1576,8 +1647,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "A school canteen sells samosas for ₹15 each. Rahul writes the total cost as $15y$, where $y$ is the number of samosas bought. Priya says $y$ must always be equal to 5. Who is correct and why?",
     "answer": "Rahul is correct. The letter $y$ is a variable, meaning Rahul can buy 1 samosa, 2 samosas, 5 samosas, or any number of samosas; $y$ is not locked to a single fixed value",
     "options": [
-     "The correct answer is B. Priya is correct because when triangles are connected in a chain, the first triangle takes 3 matchsticks",
-     "The correct expression is $4m + 12$ because $4$ boxes each contain $m$ mangoes, giving $4m$ mangoes in total, to which we add the $12$ loose ones",
+     "The correct simplified expression is $8a + 2b - 4$. Steps: 1. Identify like terms: The $a$ terms are $6a$ and $2a$; the $b$ terms are $-3b$ and $5b$; the constant is $-4$",
+     "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15",
      "Rahul is correct. The letter $y$ is a variable, meaning Rahul can buy 1 samosa, 2 samosas, 5 samosas, or any number of samosas; $y$ is not locked to a single fixed value"
     ],
     "hint": "Straight from the 'variable' slide -- match the key terms.",
@@ -1681,9 +1752,9 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "If Rahul has $x$ marbles and Priya has 5 more marbles than Rahul, write the algebraic expression for Priya's number of marbles.",
     "answer": "The correct expression is $x + 5$",
     "options": [
-     "An example acceptable answer is the expression $2p - 3q$ with $p = 3$ and $q = 7$. Substituting gives $2(3) - 3(7) = 6 - 21 = -15$",
-     "Rahul's claim is incorrect. He made the error of treating the algebraic expression as $n + 3$ instead of evaluating the multiplication $n \\times (n + 3)$ when $n = 4$",
-     "Conclude correct expression is $x + 5$",
+     "To find the number of dots in Step 15, substitute $n = 15$ into the expression $\\frac{n(n + 1)}{2}$",
+     "The correct expression is $12k + 50$. Steps: 1. Identify the variable: Let $k$ be the number of kilometres",
+     "Compare correct expression is $x + 5$",
      "The correct expression is $x + 5$"
     ],
     "hint": "Straight from the 'Writing algebraic expressions' slide -- match the key terms.",
@@ -1700,16 +1771,37 @@ export const C7_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A carpenter is fixing two wooden planks for a shelf in a Mumbai apartment. Plank A is represented by equation-like coordinates where it passes through points $(0, 2)$ and $(4, 2)$, and Plank B passes through points $(0, 5)$ and $(4, 5)$.",
+    "answer": "The correct answer is 3 units (or metres). Steps: 1. Identify the y-coordinates of Plank A, which are both at $y = 2$",
+    "options": [
+     "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15",
+     "A valid student response should provide an unsimplified expression like $2x + 5y - 2 + 2x - 2y - 3$",
+     "The correct answer is 3 units (or metres). Steps: 1. Identify the y-coordinates of Plank A, which are both at $y = 2$"
+    ],
+    "hint": "Straight from the 'Parallel lines' slide -- match the key terms.",
+    "misconception": "A wrong answer, such as adding the coordinates or miscalculating the difference as 7, indicates the student is confusing coordinate addition with finding the vertical interval between horizontal lines.",
+    "id": "gen_c7_math_ch04_q5",
+    "nodeId": "c7_math_ch05_004",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are walking down a long railway track in your town where the two steel rails run side by side, never touching each other even as they",
+     "How do engineers ensure that trains do not derail?",
+     "They ensure that the perpendicular distance between the rails remains exactly the same everywhere.",
+     "Previously in Class 6, you learned to identify parallel lines visually among various intersecting shapes."
+    ]
+   },
+   {
+    "type": "mcq",
     "question": "Rahul says that to make $n$ connected triangles where each triangle uses 3 matchsticks, the total number of matchsticks is always $3n$. Priya says that for connected triangles sharing sides, the rule is $2n + 1$.",
     "answer": "The correct answer is B. Priya is correct because when triangles are connected in a chain, the first triangle takes 3 matchsticks",
     "options": [
-     "The student is incorrect. When no number is explicitly written in front of a variable, the coefficient is understood to be $1$ (since $x = 1x$)",
-     "The correct expression is $4m + 12$ because $4$ boxes each contain $m$ mangoes, giving $4m$ mangoes in total, to which we add the $12$ loose ones",
+     "The correct expression is $12k + 50$. Steps: 1. Identify the variable: Let $k$ be the number of kilometres",
+     "The correct answer is that $3n$ gives 3, 6, 9, 12 for $n = 1, 2, 3, 4$, which misses every term by exactly 1; the complete rule must be $3n + 1$",
      "The correct answer is B. Priya is correct because when triangles are connected in a chain, the first triangle takes 3 matchsticks"
     ],
     "hint": "Straight from the 'Matchstick patterns and' slide -- match the key terms.",
     "misconception": "A student who chooses A has failed to account for shared sides between adjacent geometric shapes, mistakenly assuming independent shapes. A student who chooses C demonstrates a lack of basic numerical testing, as $3n$ and $2n+1$ yield different values for $n > 1$.",
-    "id": "gen_c7_math_ch04_q5",
+    "id": "gen_c7_math_ch04_q6",
     "nodeId": "c7_math_ch04_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -1794,7 +1886,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer usually stems from integer sign errors when combining $-5b$ and $+8b$, or mistakenly combining the constant $-4$ with the variable terms.",
-    "id": "gen_c7_math_ch04_q6",
+    "id": "gen_c7_math_ch04_q7",
     "nodeId": "c7_math_ch04_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -1802,6 +1894,27 @@ export const C7_MATH_GEN: SimDef[] = [
      "To know how many items of each kind you have, you group the red water bottles together and the notebooks together, saying you have $3 + 2 = 5$ red",
      "In algebra, we do the exact same thing when we encounter expressions with letters representing items, measurements, or unknowns.",
      "We begin by scanning the expression from left to right, identifying terms that share the exact same variable parts (like terms)."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Draw a rough sketch or describe a layout where a straight water pipe acts as a transversal across three fencing wires in a garden. How many intersection points and how many total angles are created?",
+    "answer": "The expected answer describes a straight pipe crossing 3 fencing wires, resulting in 3 distinct points of intersection and $3 \\times 4 = 12$ total angles formed",
+    "options": [
+     "The expected answer should describe two lane-marking lines for a 100-metre running track. To test if they are parallel",
+     "An acceptable answer should describe a scenario with a fixed rate and a variable quantity, such as: \"An auto-rickshaw charges a base meter reading plus ₹12 per kilometre",
+     "The expected answer describes a straight pipe crossing 3 fencing wires, resulting in 3 distinct points of intersection and $3 \\times 4 = 12$ total angles formed"
+    ],
+    "hint": "Straight from the 'transversal' slide -- match the key terms.",
+    "misconception": "A poor answer fails to connect the physical scenario to the geometric definitions of intersection points and angle counts per vertex.",
+    "id": "gen_c7_math_ch04_q8",
+    "nodeId": "c7_math_ch05_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are walking across a railway track where multiple parallel tracks run side by side, and a footpath crosses them diagonally at an angle.",
+     "The footpath is a line cutting across two or more other lines, creating a specific intersection pattern.",
+     "To begin studying this, we draw two lines on a paper and then draw a third line that crosses both of them.",
+     "We label the points where the third line meets the first two lines as our points of intersection."
     ]
    },
    {
@@ -1815,7 +1928,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Combining like terms' slide -- match the key terms.",
     "misconception": "A student who chooses A believes any terms with the same coefficient are alike, while a student who chooses B or D fails to notice that different exponents or missing variables prevent terms from being combined.",
-    "id": "gen_c7_math_ch04_q7",
+    "id": "gen_c7_math_ch04_q9",
     "nodeId": "c7_math_ch04_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -1830,13 +1943,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "A student looks at the pattern 4, 7, 10, 13 and says the rule is just $3n$ because it increases by 3 each time. Why is this explanation incomplete for finding the 4th term?",
     "answer": "The correct answer is that $3n$ gives 3, 6, 9, 12 for $n = 1, 2, 3, 4$, which misses every term by exactly 1; the complete rule must be $3n + 1$",
     "options": [
-     "The expected expression is $3n + 2$. Explanation: A single regular pentagon has 5 sides. When $n$ pentagons are joined in a line",
-     "The expected answer is $4y + 250 - 20$, which simplifies to $4y + 230$. A poor answer might incorrectly place the discount inside the variable term (like $(4-20)y$) or omit the",
+     "The correct simplified expression is $5x + 2$. The student's answer of $7x$ is incorrect because they mistakenly combined a variable term ($3x$) with a constant term ($2$)",
+     "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15",
      "The correct answer is that $3n$ gives 3, 6, 9, 12 for $n = 1, 2, 3, 4$, which misses every term by exactly 1; the complete rule must be $3n + 1$"
     ],
     "hint": "Straight from the 'process of observing numerical or' slide -- match the key terms.",
     "misconception": "A wrong answer claiming $3n$ is completely correct reveals that the student forgot to test their rule against the initial term in the sequence.",
-    "id": "gen_c7_math_ch04_q8",
+    "id": "gen_c7_math_ch04_q10",
     "nodeId": "c7_math_ch04_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -1857,7 +1970,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Substituting values into an' slide -- match the key terms.",
     "misconception": "A wrong answer usually reveals that the student confuses substitution with solving an equation or thinks the variable should be eliminated without multiplying by its coefficient.",
-    "id": "gen_c7_math_ch04_q9",
+    "id": "gen_c7_math_ch04_q11",
     "nodeId": "c7_math_ch04_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -1876,7 +1989,7 @@ export const C7_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer usually stems from calculation errors during multiplication or division, or failing to evaluate the numerator completely before dividing by 2.",
-    "id": "gen_c7_math_ch04_q10",
+    "id": "gen_c7_math_ch04_q12",
     "nodeId": "c7_math_ch04_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -1891,13 +2004,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Create a real-world scenario from your daily life in India (involving auto-rickshaw fares, buying fruits, or school items) that can be represented using a variable $k$, and write the corresponding algebraic expression.",
     "answer": "An acceptable answer should describe a scenario with a fixed rate and a variable quantity, such as: \"An auto-rickshaw charges a base meter reading plus ₹12 per kilometre",
     "options": [
-     "The evaluation is completely correct. The result of zero signifies that $x = 2$ is a root or zero of the algebraic expression $4x - 8$",
-     "The correct simplified expression is $5x + 2$. The student's answer of $7x$ is incorrect because they mistakenly combined a variable term ($3x$) with a constant term ($2$)",
+     "The correct expression is $x + 5$",
+     "An acceptable response is any expression that expands out or rearranges to $5x - 2y + 6$, such as $3x - y + 2x - y + 6$",
      "An acceptable answer should describe a scenario with a fixed rate and a variable quantity, such as: \"An auto-rickshaw charges a base meter reading plus ₹12 per kilometre"
     ],
     "hint": "Straight from the 'variable' slide -- match the key terms.",
     "misconception": "A poor answer fails to define what $k$ represents or creates a purely arithmetic sentence with no variable (e.g., \"I bought 3 apples for ₹30\").",
-    "id": "gen_c7_math_ch04_q11",
+    "id": "gen_c7_math_ch04_q13",
     "nodeId": "c7_math_ch04_001",
     "difficulty": "standard"
    },
@@ -1906,13 +2019,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "If Anita has $p$ stamps and she gives 12 stamps to her brother, write an algebraic expression for the number of stamps she has left. If $p = 45$, evaluate the expression.",
     "answer": "Steps: 1. Identify the initial quantity of stamps as $p$. 2. Identify the operation for giving away stamps as subtraction ($-\\;12$)",
     "options": [
-     "The correct expression is $12k + 50$. Steps: 1. Identify the variable: Let $k$ be the number of kilometres",
-     "The evaluation is completely correct. The result of zero signifies that $x = 2$ is a root or zero of the algebraic expression $4x - 8$",
+     "A valid student response should provide an unsimplified expression like $2x + 5y - 2 + 2x - 2y - 3$",
+     "An example acceptable answer is the expression $2p - 3q$ with $p = 3$ and $q = 7$. Substituting gives $2(3) - 3(7) = 6 - 21 = -15$",
      "Steps: 1. Identify the initial quantity of stamps as $p$. 2. Identify the operation for giving away stamps as subtraction ($-\\;12$)"
     ],
     "hint": "Straight from the 'variable' slide -- match the key terms.",
     "misconception": "A wrong answer like $12 - p$ or $45 + 12$ reveals that the student either reverses the direction of subtraction or confuses addition with subtraction when dealing with quantities being removed.",
-    "id": "gen_c7_math_ch04_q12",
+    "id": "gen_c7_math_ch04_q14",
     "nodeId": "c7_math_ch04_001",
     "difficulty": "standard"
    },
@@ -1921,13 +2034,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Teacher gives a statement: \"The sum of a number $n$ and 8 is 15.\" Student A writes $n + 8 = 15$. Student B writes $n = 15 + 8$. Evaluate both answers and explain any errors.",
     "answer": "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15",
     "options": [
-     "The correct answer is B. Step 1: Check the student's expression for $n = 1$: $3(1) - 1 = 2$. Step 2: Compare with the given problem where 1 triangle takes 3 matchsticks ($2(1)+1 =",
-     "The correct simplified expression is $5x + 2$. The student's answer of $7x$ is incorrect because they mistakenly combined a variable term ($3x$) with a constant term ($2$)",
+     "A valid student response should provide an unsimplified expression like $2x + 5y - 2 + 2x - 2y - 3$",
+     "To find the number of dots in Step 15, substitute $n = 15$ into the expression $\\frac{n(n + 1)}{2}$",
      "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15"
     ],
     "hint": "Straight from the 'variable' slide -- match the key terms.",
     "misconception": "A wrong answer siding with Student B shows the student struggles with translating verbal statements into correct mathematical equations and misinterprets the word \"is\" as an operation instruction rather than an equals sign.",
-    "id": "gen_c7_math_ch04_q13",
+    "id": "gen_c7_math_ch04_q15",
     "nodeId": "c7_math_ch04_001",
     "difficulty": "standard"
    },
@@ -1936,13 +2049,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "A student claims that in the algebraic expression $x - y + 4$, the coefficient of $x$ is $0$ because no number is written in front of it. Is this student correct? Evaluate and correct their reasoning.",
     "answer": "The student is incorrect. When no number is explicitly written in front of a variable, the coefficient is understood to be $1$ (since $x = 1x$)",
     "options": [
+     "The correct answer is B. Step 1: Check the student's expression for $n = 1$: $3(1) - 1 = 2$. Step 2: Compare with the given problem where 1 triangle takes 3 matchsticks ($2(1)+1 =",
      "The correct simplified expression is $5x + 2$. The student's answer of $7x$ is incorrect because they mistakenly combined a variable term ($3x$) with a constant term ($2$)",
-     "A valid student response should provide an unsimplified expression like $2x + 5y - 2 + 2x - 2y - 3$",
      "The student is incorrect. When no number is explicitly written in front of a variable, the coefficient is understood to be $1$ (since $x = 1x$)"
     ],
     "hint": "Straight from the 'algebraic expression' slide -- match the key terms.",
     "misconception": "A wrong answer agrees with the student, showing a misconception that an absent visible number means a value of zero instead of the multiplicative identity one.",
-    "id": "gen_c7_math_ch04_q14",
+    "id": "gen_c7_math_ch04_q16",
     "nodeId": "c7_math_ch04_002",
     "difficulty": "standard"
    },
@@ -1957,7 +2070,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Revisiting arithmetic expressions' slide -- match the key terms.",
     "misconception": "A wrong answer stating they are equivalent reveals a failure to apply the distributive property to all terms inside the parentheses.",
-    "id": "gen_c7_math_ch04_q15",
+    "id": "gen_c7_math_ch04_q17",
     "nodeId": "c7_math_ch04_003",
     "difficulty": "advanced"
    },
@@ -1966,43 +2079,12 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Create an arithmetic expression with a variable $y$ representing the total cost of buying 4 notebooks priced at ₹$y$ each and a school bag priced at ₹250, after receiving a ₹20 discount on the total.",
     "answer": "The expected answer is $4y + 250 - 20$, which simplifies to $4y + 230$. A poor answer might incorrectly place the discount inside the variable term (like $(4-20)y$) or omit the",
     "options": [
-     "The expected expression is $2p - 15$. Explanation: \"Amit scored $p$ runs\" establishes our variable $p$",
-     "The correct expression is $4m + 12$ because $4$ boxes each contain $m$ mangoes, giving $4m$ mangoes in total, to which we add the $12$ loose ones",
+     "The correct expression is $x + 5$",
+     "An acceptable response is any expression that expands out or rearranges to $5x - 2y + 6$, such as $3x - y + 2x - y + 6$",
      "The expected answer is $4y + 250 - 20$, which simplifies to $4y + 230$. A poor answer might incorrectly place the discount inside the variable term (like $(4-20)y$) or omit the"
     ],
     "hint": "Straight from the 'Revisiting arithmetic expressions' slide -- match the key terms.",
     "misconception": "A poor answer might incorrectly place the discount inside the variable term (like $(4-20)y$) or omit the constant subtraction, showing confusion between quantities of items and monetary discounts.",
-    "id": "gen_c7_math_ch04_q16",
-    "nodeId": "c7_math_ch04_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the student's work: A student simplifies $15 - 3(x - 2)$ as $12(x - 2) = 12x - 24$. Identify the error and provide the correct simplification.",
-    "answer": "The student's error is subtracting $15 - 3$ first, which violates the order of operations (BODMAS/PEMDAS) because multiplication must be performed before subtraction",
-    "options": [
-     "The correct answer requires explaining the distributive property of multiplication over addition",
-     "Yes, Expression 1 and Expression 2 are entirely equivalent. Analysis: For Expression 1, grouping like terms gives $(6x - 2x) + (9 + 4)$",
-     "The student's error is subtracting $15 - 3$ first, which violates the order of operations (BODMAS/PEMDAS) because multiplication must be performed before subtraction"
-    ],
-    "hint": "Straight from the 'Revisiting arithmetic expressions' slide -- match the key terms.",
-    "misconception": "A wrong evaluation accepting the student's work shows a lack of understanding regarding the priority of operations and distribution of negative signs.",
-    "id": "gen_c7_math_ch04_q17",
-    "nodeId": "c7_math_ch04_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the coefficient of $y$ in the arithmetic expression $7 - 3y + 12$?",
-    "answer": "The correct answer is $-3$",
-    "options": [
-     "A term is a single mathematical expression or a part of an algebraic expression separated by plus (+) or minus (-) signs",
-     "The first student is correct because exponents apply only to the variable $x$ unless parentheses explicitly group the coefficient and variable together",
-     "Compute correct answer is $-3$",
-     "The correct answer is $-3$"
-    ],
-    "hint": "Straight from the 'Revisiting arithmetic expressions' slide -- match the key terms.",
-    "misconception": "A wrong answer like $3$ or $7$ reveals that the student is ignoring the negative sign attached to the term or confusing the constant term with the coefficient of the variable.",
     "id": "gen_c7_math_ch04_q18",
     "nodeId": "c7_math_ch04_003",
     "difficulty": "advanced"
@@ -2027,12 +2109,15 @@ export const C7_MATH_GEN: SimDef[] = [
   "subject": "maths",
   "topic": "Interpreting Number Sequences Involves Analyzing a",
   "chapters": [
-   "Mathematics Ch6: Interpreting Number Sequences Involves Analyzing a"
+   "Mathematics Ch6: Interpreting Number Sequences Involves Analyzing a",
+   "Mathematics Ch7: Interpreting Number Sequences Involves Analyzing a"
   ],
   "nodeIds": [
    "c7_math_ch06_001",
    "c7_math_ch06_002",
+   "c7_math_ch07_002",
    "c7_math_ch06_003",
+   "c7_math_ch07_003",
    "c7_math_ch06_004",
    "c7_math_ch06_005",
    "c7_math_ch06_006",
@@ -2070,10 +2155,22 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Equilateral Triangle",
+    "text": "An equilateral triangle is a special three-sided polygon in which all three sides are equal in length and all three interior angles are equal, measuring exactly 60° each.",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
     "title": "The Sum And Difference Rules",
     "text": "The sum and difference rules for even and odd numbers describe predictable patterns in parity (whether a number is even or odd) when performing addition, such as the fact that the sum of two even numbers is always even, while the sum of an even and an odd",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Constructing Triangles Using a Ruler And",
+    "text": "Constructing triangles using a ruler and compass involves accurately drawing a triangle when specific dimensions (such as side lengths or angle measures) are provided, ensuring that the geometric properties of triangles are strictly satisfied.",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Explorations In Grids And Arrays Involves",
@@ -2207,6 +2304,25 @@ export const C7_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "math_input",
+    "question": "Design a word problem involving a school garden shaped like an equilateral triangle where students need to calculate the cost of fencing. Provide the side length and the cost per metre.",
+    "answer": "50",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Expected response: A problem stating \"A school flower bed is in the shape of an equilateral triangle with each side",
+    "id": "gen_c7_math_ch06_q3",
+    "nodeId": "c7_math_ch07_002",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are an architect designing a stained-glass window for a school auditorium in Delhi, and you need to cut three glass panels that are",
+     "To begin, you must recall that triangles have three sides and three angles, but an equilateral triangle is unique because its symmetry means all",
+     "We start by drawing a base line segment using a ruler, just like measuring cloth with a metre tape.",
+     "Then, we use a compass opened to the exact length of that base to swing intersecting arcs from both endpoints."
+    ]
+   },
+   {
     "type": "order",
     "question": "A school library has 147 fiction books (an odd number) and receives a donation of 234 new non-fiction books (an even number). Without calculating the exact total, determine whether the total number of library books is even or odd, and verify your prediction with the actual sum.",
     "sortItems": [
@@ -2270,7 +2386,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer usually stems from misidentifying the initial parity of 147 or adding the digits incorrectly, showing a breakdown in connecting real-world quantities to parity rules.",
-    "id": "gen_c7_math_ch06_q3",
+    "id": "gen_c7_math_ch06_q4",
     "nodeId": "c7_math_ch06_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -2278,6 +2394,69 @@ export const C7_MATH_GEN: SimDef[] = [
      "To answer this without counting every single person, we need to understand how the parities of numbers combine when we add them together.",
      "We begin by recalling what we learned about picking parity in Class 6, where even numbers are multiples of 2 and odd numbers leave a remainder of 1.",
      "By representing any even number as $2p$ and any odd number as $2q + 1$ using our algebraic tools, we can add them together and factor out a 2 to see"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Why is marking the third vertex of a triangle by ruler-guessing unreliable compared to using two compass arcs?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The needle at one endpoint holds an exact",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The arc",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "The second arc from the other endpoint",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Only their intersection satisfies both side",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls the ruler method acceptable shows the student believes construction is merely sketching rather than the precise geometric mapping of exact side-length constraints.",
+    "id": "gen_c7_math_ch06_q5",
+    "nodeId": "c7_math_ch07_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are a builder designing a triangular roof truss for a community center in your village, and the blueprint specifies exact side lengths in",
+     "How do you translate these measurements from paper to actual building materials with absolute precision?",
+     "We begin by drawing a clean baseline using a straightedge ruler to represent one of the known sides of the triangle.",
+     "Next, we recall our prior knowledge of circles and arcs from geometry: every point on a compass arc is at an exact fixed distance from the center."
     ]
    },
    {
@@ -2289,7 +2468,7 @@ export const C7_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer often shows the student added the rows and columns ($5 + 5 = 10$) instead of multiplying them to find the area of the 2D array, confusing linear addition with grid multiplication.",
-    "id": "gen_c7_math_ch06_q4",
+    "id": "gen_c7_math_ch06_q6",
     "nodeId": "c7_math_ch06_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -2306,12 +2485,12 @@ export const C7_MATH_GEN: SimDef[] = [
     "options": [
      "The correct term is an invariant",
      "A number sequence is an ordered set of numbers arranged according to a specific rule",
-     "Therefore correct sequence is $1, 1, 2, 3, 5$",
+     "We correct sequence is $1, 1, 2, 3, 5$",
      "The correct sequence is $1, 1, 2, 3, 5$"
     ],
     "hint": "Straight from the 'Virahanka-Fibonacci sequence' slide -- match the key terms.",
     "misconception": "A student who answers $1, 2, 3, 4, 5$ is confusing this sequence with natural counting numbers because they are using arithmetic addition of $1$ rather than adding the two previous terms together ($1+1=2$, $1+2=3$, $2+3=5$).",
-    "id": "gen_c7_math_ch06_q5",
+    "id": "gen_c7_math_ch06_q7",
     "nodeId": "c7_math_ch06_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -2385,7 +2564,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who gets $78$ likely added without considering that identical letters in the same number represent identical digits ($AA$ means $33$, not $3 \\times A$).",
-    "id": "gen_c7_math_ch06_q6",
+    "id": "gen_c7_math_ch06_q8",
     "nodeId": "c7_math_ch06_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -2400,13 +2579,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "If you start with an even number and add an odd number 5 times in succession, will the final result be even or odd? Explain why using basic number properties.",
     "answer": "The final result will be odd. Adding an odd number changes the parity of the sum (even + odd = odd, odd + odd = even)",
     "options": [
-     "The total number of books is odd. Step 1: Identify the parity of each quantity: 147 is odd, and 234 is even",
      "Bulb number 12 will be toggled a number of times equal to the number of its positive factors that are multiples of 3",
+     "An example puzzle: Let the four consecutive integers start with an odd number $2k + 1$. The four numbers are $(2k + 1)$, $(2k + 2)$, $(2k + 3)$, and $(2k + 4)$",
      "The final result will be odd. Adding an odd number changes the parity of the sum (even + odd = odd, odd + odd = even)"
     ],
     "hint": "Straight from the 'parity argument' slide -- match the key terms.",
     "misconception": "A wrong answer usually shows confusion over repeated addition of odd numbers, assuming the sum remains even or ignoring the cumulative effect of parity changes.",
-    "id": "gen_c7_math_ch06_q7",
+    "id": "gen_c7_math_ch06_q9",
     "nodeId": "c7_math_ch06_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -2425,7 +2604,7 @@ export const C7_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "If a student gives numbers like $28$ or $31$, they miscalculated the constant difference or used an incorrect operation.",
-    "id": "gen_c7_math_ch06_q8",
+    "id": "gen_c7_math_ch06_q10",
     "nodeId": "c7_math_ch06_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -2510,7 +2689,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who gets an answer containing $n$ made an error during the division step, failing to divide both terms in the numerator ($3n$ and $12$) by 3.",
-    "id": "gen_c7_math_ch06_q9",
+    "id": "gen_c7_math_ch06_q11",
     "nodeId": "c7_math_ch06_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -2525,13 +2704,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "A student looks at the sequence 2, 5, 10, 17, 26 and claims the rule is \"add 3, then add 3, then add 3...\" Is this student correct? Verify by checking the differences.",
     "answer": "The student is incorrect. Let us check the differences between consecutive terms: $5 - 2 = 3$, $10 - 5 = 5$, $17 - 10 = 7$, $26 - 17 = 9$",
     "options": [
-     "The expected sequence is: $3, 5, 9, 17, 33$. Working criteria: Term 1 is 3. Term 2: $(3 \\times 2) - 1 = 5$",
-     "The final result is always 4. Step 1: Start with $n$. Step 2: Multiply by 3 to get $3n$. Step 3: Add 12 to get $3n + 12$",
+     "An acceptable game design: 1. Think of a number $x$. 2. Multiply it by 4 (gives $4x$). 3. Add 10 (gives $4x + 10$)",
+     "The correct answer is $29$ and $35$. Working steps: 1) Find the difference between the second and first term: $11 - 5 = 6$",
      "The student is incorrect. Let us check the differences between consecutive terms: $5 - 2 = 3$, $10 - 5 = 5$, $17 - 10 = 7$, $26 - 17 = 9$"
     ],
     "hint": "Straight from the 'Interpreting number sequences' slide -- match the key terms.",
     "misconception": "A student who says \"add 3\" failed to check every step and only looked at the very first jump.",
-    "id": "gen_c7_math_ch06_q10",
+    "id": "gen_c7_math_ch06_q12",
     "nodeId": "c7_math_ch06_001",
     "difficulty": "advanced"
    },
@@ -2546,7 +2725,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Interpreting number sequences' slide -- match the key terms.",
     "misconception": "A student who claims both grow by the same rule is confusing addition with multiplication.",
-    "id": "gen_c7_math_ch06_q11",
+    "id": "gen_c7_math_ch06_q13",
     "nodeId": "c7_math_ch06_001",
     "difficulty": "advanced"
    },
@@ -2555,13 +2734,28 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Create a number sequence of 5 terms where each term after the first is found by multiplying the previous term by 2 and then subtracting 1, starting with the number 3.",
     "answer": "The expected sequence is 3, 5, 9, 17, 33 (since $3 \\times 2 - 1 = 5$; $5 \\times 2 - 1 = 9$; $9 \\times 2 - 1 = 17$; $17 \\times 2 - 1 = 33$)",
     "options": [
-     "Steps: 1. Examine the given terms: 4, 9, 14, 19. 2. Find the difference between consecutive terms: $9 - 4 = 5$, $14 - 9 = 5$, $19 - 14 = 5$",
-     "Using place value representation, any 3-digit number can be written as $100a + 10b + c$, and its reverse is $100c + 10b + a$",
+     "The total number of tiles is $5 \\times 5 = 25$",
+     "The expression evaluates to an even number. Step 1: Substitute $x = 2n + 1$ into the expression. Step 2: $3(2n + 1) + 5 = 6n + 3 + 5$",
      "The expected sequence is 3, 5, 9, 17, 33 (since $3 \\times 2 - 1 = 5$; $5 \\times 2 - 1 = 9$; $9 \\times 2 - 1 = 17$; $17 \\times 2 - 1 = 33$)"
     ],
     "hint": "Straight from the 'Interpreting number sequences' slide -- match the key terms.",
     "misconception": "A poor answer shows arithmetic addition instead of multiplication or incorrect order of operations (e.g., subtracting first then multiplying).",
-    "id": "gen_c7_math_ch06_q12",
+    "id": "gen_c7_math_ch06_q14",
+    "nodeId": "c7_math_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Find the next two terms in the sequence: 4, 9, 14, 19, ..., ...",
+    "answer": "Steps: 1. Examine the given terms: 4, 9, 14, 19. 2. Find the difference between consecutive terms: $9 - 4 = 5$, $14 - 9 = 5$, $19 - 14 = 5$",
+    "options": [
+     "The claim is false. Let the three consecutive integers be $n, n+1, n+2$. Their sum is $3n + 3 = 3(n+1)$",
+     "The expected sequence is: Term 1 = $2$, Term 2 = $3$, Term 3 = $2 + 3 = 5$, Term 4 = $3 + 5 = 8$, Term 5 = $5 + 8 = 13$, Term 6 = $8 + 13 = 21$",
+     "Steps: 1. Examine the given terms: 4, 9, 14, 19. 2. Find the difference between consecutive terms: $9 - 4 = 5$, $14 - 9 = 5$, $19 - 14 = 5$"
+    ],
+    "hint": "Straight from the 'Interpreting number sequences' slide -- match the key terms.",
+    "misconception": "A student who subtracts instead of adds or gets 23 likely miscalculated the difference between 19 and 14.",
+    "id": "gen_c7_math_ch06_q15",
     "nodeId": "c7_math_ch06_001",
     "difficulty": "advanced"
    },
@@ -2570,13 +2764,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "In the sequence 3, 6, 9, 12, ..., a student says the rule is \"add 3 each time.\" Why is identifying this rule helpful for finding the 10th term without writing out all 10 terms?",
     "answer": "Identifying the rule allows us to use multiplication or a direct formula rather than tedious repeated addition",
     "options": [
-     "The student is incorrect. Let us check the differences between consecutive terms: $5 - 2 = 3$, $10 - 5 = 5$, $17 - 10 = 7$, $26 - 17 = 9$",
-     "The expected sequence is 3, 5, 9, 17, 33 (since $3 \\times 2 - 1 = 5$; $5 \\times 2 - 1 = 9$; $9 \\times 2 - 1 = 17$; $17 \\times 2 - 1 = 33$)",
+     "The claim is evaluated by testing the given terms: the outer terms are $2$ and $5$, giving a product of $2 \\times 5 = 10$",
+     "The correct answer is $29$ and $35$. Working steps: 1) Find the difference between the second and first term: $11 - 5 = 6$",
      "Identifying the rule allows us to use multiplication or a direct formula rather than tedious repeated addition"
     ],
     "hint": "Straight from the 'Interpreting number sequences' slide -- match the key terms.",
     "misconception": "A student who believes you must write out every single number misses the power of mathematical rules for generalization.",
-    "id": "gen_c7_math_ch06_q13",
+    "id": "gen_c7_math_ch06_q16",
     "nodeId": "c7_math_ch06_001",
     "difficulty": "advanced"
    },
@@ -2591,7 +2785,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Interpreting number sequences' slide -- match the key terms.",
     "misconception": "A student who thinks it is just any random group of numbers selected without order fails to understand that position and rule govern sequences.",
-    "id": "gen_c7_math_ch06_q14",
+    "id": "gen_c7_math_ch06_q17",
     "nodeId": "c7_math_ch06_001",
     "difficulty": "advanced"
    },
@@ -2600,57 +2794,12 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "A student claims that \"the sum of three consecutive integers is always divisible by $6$.\" Evaluate this claim using parity properties.",
     "answer": "The claim is false. Let the three consecutive integers be $n, n+1, n+2$. Their sum is $3n + 3 = 3(n+1)$",
     "options": [
-     "The claim is false. Justification: 1) Let the 4x4 grid contain counters. The sum of counters in all 4 rows must equal the sum of counters in all 4 columns",
      "The center number in a standard $3 \\times 3$ magic square with sum 15 is always 5, regardless of the top-left corner $x$",
+     "An example is $2x^2 + 4x + 7$. Explanation: $2x^2 + 4x = 2(x^2 + 2x)$, which is always even because it is a multiple of $2$",
      "The claim is false. Let the three consecutive integers be $n, n+1, n+2$. Their sum is $3n + 3 = 3(n+1)$"
     ],
     "hint": "Straight from the 'Even numbers' slide -- match the key terms.",
     "misconception": "A student who judges the claim as true likely checked only one example and confused divisibility by $3$ with divisibility by $6$.",
-    "id": "gen_c7_math_ch06_q15",
-    "nodeId": "c7_math_ch06_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the parity of $product = (2n)(2m)$ versus $product = (2n+1)(2m+1)$ for any integers $n$ and $m$. What pattern do you observe about the product of two even numbers versus two odd numbers?",
-    "answer": "The product of two even numbers is $4nm = 2(2nm)$, which is always even. The product of two odd numbers is $(2n+1)(2m+1) = 4nm + 2n + 2m + 1 = 2(2nm + n + m) + 1$",
-    "options": [
-     "In a multiplication puzzle like $AB \\times C = DEE$, you must analyze the units column first ($B \\times C$ ends in $E$) to narrow down the possible single-digit multiples",
-     "Sequence A grows by adding a constant amount (+2 each time, arithmetic growth), whereas Sequence B grows by multiplying by a constant amount ($\\times 2$ each time",
-     "The product of two even numbers is $4nm = 2(2nm)$, which is always even. The product of two odd numbers is $(2n+1)(2m+1) = 4nm + 2n + 2m + 1 = 2(2nm + n + m) + 1$"
-    ],
-    "hint": "Straight from the 'Even numbers' slide -- match the key terms.",
-    "misconception": "A student who struggles here fails to expand algebraic brackets correctly or mixes up addition rules with multiplication rules for parity.",
-    "id": "gen_c7_math_ch06_q16",
-    "nodeId": "c7_math_ch06_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Construct a linear algebraic expression in variable $x$ whose value is guaranteed to be odd for any integer value of $x$. Explain why your expression works.",
-    "answer": "An example is $2x^2 + 4x + 7$. Explanation: $2x^2 + 4x = 2(x^2 + 2x)$, which is always even because it is a multiple of $2$",
-    "options": [
-     "Steps: 1. Identify the first 7 terms: $1, 1, 2, 3, 5, 8, 13$. 2. Write out the addition expression: Sum = $1 + 1 + 2 + 3 + 5 + 8 + 13$",
-     "Using place value representation, any 3-digit number can be written as $100a + 10b + c$, and its reverse is $100c + 10b + a$",
-     "An example is $2x^2 + 4x + 7$. Explanation: $2x^2 + 4x = 2(x^2 + 2x)$, which is always even because it is a multiple of $2$"
-    ],
-    "hint": "Straight from the 'Even numbers' slide -- match the key terms.",
-    "misconception": "A weak answer provides a simple number like \"13\" or uses an expression like $x + 1$ without accounting for all integer types or fails to prove it algebraically.",
-    "id": "gen_c7_math_ch06_q17",
-    "nodeId": "c7_math_ch06_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the sum of any two odd numbers is always an even number using algebraic expressions.",
-    "answer": "Let the two odd numbers be $2a + 1$ and $2b + 1$. Their sum is $(2a + 1) + (2b + 1) = 2a + 2b + 2 = 2(a + b + 1)$, which has a factor of $2$ and is therefore even",
-    "options": [
-     "The sum of any two odd numbers is even (since $(2a+1) + (2b+1) = 2a + 2b + 2 = 2(a+b+1)$), and adding a third odd number to that even sum results in an odd number (since even +",
-     "The statement is true. The sum of any number of even numbers is always even. The sum of four odd numbers (an even count of odds) will yield an even sum",
-     "Let the two odd numbers be $2a + 1$ and $2b + 1$. Their sum is $(2a + 1) + (2b + 1) = 2a + 2b + 2 = 2(a + b + 1)$, which has a factor of $2$ and is therefore even"
-    ],
-    "hint": "Straight from the 'Even numbers' slide -- match the key terms.",
-    "misconception": "A student who answers incorrectly often tries to test only a single pair of numbers like $3 + 5 = 8$ without realizing that algebraic proof guarantees the rule for all possible integers.",
     "id": "gen_c7_math_ch06_q18",
     "nodeId": "c7_math_ch06_002",
     "difficulty": "advanced"
@@ -2668,22 +2817,25 @@ export const C7_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_math_ch11",
-  "title": "Common Factors Of Two Numbers",
+  "title": "Integers",
   "subtitle": "Mathematics · Chapter 11",
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Common Factors Of Two Numbers",
+  "topic": "Integers",
   "chapters": [
-   "Mathematics Ch11: Common Factors Of Two Numbers"
+   "Mathematics Ch10: Integers",
+   "Mathematics Ch11: Integers"
   ],
   "nodeIds": [
+   "c7_math_ch10_001",
    "c7_math_ch11_001",
    "c7_math_ch11_002",
    "c7_math_ch11_003",
    "c7_math_ch11_004",
    "c7_math_ch11_005",
    "c7_math_ch11_006",
+   "c7_math_ch10_007",
    "c7_math_ch11_008",
    "c7_math_ch11_009",
    "c7_math_ch11_010",
@@ -2696,16 +2848,22 @@ export const C7_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Common Factors Of Two Numbers in real working life?",
+   "question": "Who uses Integers in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Common factors of two numbers are the whole numbers that divide both given numbers exactly without leaving any remainder."
+   "hook": "Integers are a set of numbers that include all whole numbers and their negative counterparts, represented as $\\{."
   },
   "teaching": [
+   {
+    "title": "Integers",
+    "text": "Integers are a set of numbers that include all whole numbers and their negative counterparts, represented as $\\{..., -3, -2, -1, 0, 1, 2, 3, ..",
+    "emoji": "🔢",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
    {
     "title": "Common Factors Of Two Numbers",
     "text": "Common factors of two numbers are the whole numbers that divide both given numbers exactly without leaving any remainder. In other words, they are the intersection of the factor sets of both numbers.",
@@ -2743,6 +2901,12 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
+    "title": "Commutative Property Of Integer",
+    "text": "The commutative property of integer multiplication states that changing the order of two integers being multiplied does not change their product; mathematically expressed as $a \\times b = b \\times a$ for any integers $a$ and $b$.",
+    "emoji": "🔢",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
     "title": "Finding The Least Common Multiple",
     "text": "Finding the Least Common Multiple (LCM) by prime factorisation involves expressing each given number as a product of its prime factors, and then taking the highest power of every prime factor present in any of the factorisations to find their product.",
     "emoji": "🔢",
@@ -2769,6 +2933,69 @@ export const C7_MATH_GEN: SimDef[] = [
   ],
   "challenges": [
    {
+    "type": "order",
+    "question": "Shimla records -4 degree Celsius and Srinagar records -7 degree Celsius. Which place is colder, and by what number-line reasoning?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Conclude that Srinagar at -7",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Observe that -7 lies to the left of -4",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Recall that values decrease as you move left",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Locate both readings on the number line",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that picks Shimla because 4 is less than 7 shows the student is comparing the digits while ignoring the negative signs, which reverse the order of magnitude on the number line.",
+    "id": "gen_c7_math_ch11_q1",
+    "nodeId": "c7_math_ch10_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are standing at ground level in a multi-story parking building in Delhi.",
+     "Ground level is marked as 0.",
+     "If you go up 3 floors to park your car, we call that $+3$ (positive 3).",
+     "If you take the elevator down 2 floors to the basement to check the electricity meter, we call that $-2$ (negative 2)."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "What is the definition of a common factor of two numbers?",
     "answer": "A common factor is a number that divides both given numbers completely without leaving a remainder",
@@ -2779,7 +3006,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Common factors of two numbers' slide -- match the key terms.",
     "misconception": "A wrong answer like \"a number that is added to both\" shows confusion between factors and addition, or confusing factors with multiples.",
-    "id": "gen_c7_math_ch11_q1",
+    "id": "gen_c7_math_ch11_q2",
     "nodeId": "c7_math_ch11_001",
     "difficulty": "standard",
     "workedExample": [
@@ -2800,7 +3027,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Highest Common Factor  of two or' slide -- match the key terms.",
     "misconception": "A student who says yes is confusing HCF with LCM (Least Common Multiple), which is always greater than or equal to the given numbers.",
-    "id": "gen_c7_math_ch11_q2",
+    "id": "gen_c7_math_ch11_q3",
     "nodeId": "c7_math_ch11_002",
     "difficulty": "standard",
     "workedExample": [
@@ -2821,7 +3048,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Finding the Highest Common Factor' slide -- match the key terms.",
     "misconception": "A wrong answer or missing factor indicates that the student does not check factor pairs systematically or forgets to test numbers using division or divisibility rules.",
-    "id": "gen_c7_math_ch11_q3",
+    "id": "gen_c7_math_ch11_q4",
     "nodeId": "c7_math_ch11_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -2842,7 +3069,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Prime Factorisation Method for' slide -- match the key terms.",
     "misconception": "A student who answers $2^2 \\times 3^3$ has confused the exponents of the prime bases 2 and 3, likely by miscounting how many times 2 and 3 divide into 72 during repeated division.",
-    "id": "gen_c7_math_ch11_q4",
+    "id": "gen_c7_math_ch11_q5",
     "nodeId": "c7_math_ch11_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -2905,7 +3132,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who stops at 90 has confused the divisor with the remainder.",
-    "id": "gen_c7_math_ch11_q5",
+    "id": "gen_c7_math_ch11_q6",
     "nodeId": "c7_math_ch11_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -2922,12 +3149,11 @@ export const C7_MATH_GEN: SimDef[] = [
     "options": [
      "The student's solution is incorrect because 240 is actually the *LCM* (Lowest Common Multiple), not the HCF",
      "To find when they ring together, we calculate the LCM of 10, 15, and 20. Step 1: Prime factorisation of 10 = 2 × 5",
-     "Priya's is incorrect. While 24 is *a* common multiple of 4 and 6, it is not the *least* common multiple",
      "Rahul is incorrect. While 24 is *a* common multiple of 4 and 6, it is not the *least* common multiple"
     ],
     "hint": "Straight from the 'Least Common Multiple  of two or' slide -- match the key terms.",
     "misconception": "A student who agrees with Rahul is demonstrating the misconception that the LCM is always found by simply multiplying the two numbers together.",
-    "id": "gen_c7_math_ch11_q6",
+    "id": "gen_c7_math_ch11_q7",
     "nodeId": "c7_math_ch11_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -2935,6 +3161,69 @@ export const C7_MATH_GEN: SimDef[] = [
      "Amit completes one round every 4 minutes, and Priya completes one round every 6 minutes.",
      "If they start running together at the exact same moment from the starting line, when will they both cross the starting line together again?",
      "To solve this, we can list the minutes at which Amit passes (4, 8, 12, 16, 20...) and the minutes at which Priya passes (6, 12, 18, 24...)."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Both A = [(-2) x 7] x (-5) and B = (-2) x [7 x (-5)] equal +70. Give the correct sequence of reasoning that turns A into B.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Both expressions still evaluate to +70",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Sign rules give each grouped product its",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Commutativity only swaps the order of",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Associativity moves the brackets without",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that calls the bracket move itself commutative shows the student confuses the property that changes grouping with the property that changes the position of factors.",
+    "id": "gen_c7_math_ch11_q8",
+    "nodeId": "c7_math_ch10_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are at a school sports event in Delhi, arranging chairs for the annual function.",
+     "You have 5 rows of chairs, and each row has (-3) extra chairs allocated or removed due to spacing adjustments, giving you a quick calculation of $5",
+     "Alternatively, if you calculate (-3) rows of 5 units each, how does the product compare?",
+     "To begin, write down both expressions side by side: $5 \\times (-3)$ and $(-3) \\times 5$."
     ]
    },
    {
@@ -2948,7 +3237,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Finding the Least Common Multiple' slide -- match the key terms.",
     "misconception": "A wrong answer like $2 \\times 3^3$ reveals that the student has confused the counts of prime factors or made a multiplication error when dividing by prime numbers (e.g., $36 \\div 2 = 18$, $18 \\div 2 = 9$, $9 \\div 3 = 3$, $3 \\div 3 = 1$).",
-    "id": "gen_c7_math_ch11_q7",
+    "id": "gen_c7_math_ch11_q9",
     "nodeId": "c7_math_ch11_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -2969,7 +3258,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The product of the Highest' slide -- match the key terms.",
     "misconception": "A wrong judgment here shows a misunderstanding of universal mathematical properties versus specific test cases.",
-    "id": "gen_c7_math_ch11_q8",
+    "id": "gen_c7_math_ch11_q10",
     "nodeId": "c7_math_ch11_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -3054,7 +3343,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who gets 5 minutes added the numbers (10+15+20=45) or confused HCF with LCM, showing they do not understand that recurring future events require multiples.",
-    "id": "gen_c7_math_ch11_q9",
+    "id": "gen_c7_math_ch11_q11",
     "nodeId": "c7_math_ch11_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -3075,7 +3364,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Common multiples' slide -- match the key terms.",
     "misconception": "If a student says \"it is a number that divides both 3 and 4,\" they are confusing multiples with factors.",
-    "id": "gen_c7_math_ch11_q10",
+    "id": "gen_c7_math_ch11_q12",
     "nodeId": "c7_math_ch11_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -3084,6 +3373,36 @@ export const C7_MATH_GEN: SimDef[] = [
      "Both of you start running together from the starting line at minute 0.",
      "When will both of you cross the starting line together again?"
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "Shimla records -4 degree Celsius and Srinagar records -7 degree Celsius. Which place is colder, and by what number-line reasoning?",
+    "answer": "The number-line reasoning runs: (1) Locate both readings on the number line (2) Observe that -7 lies to the left of -4 (3) Recall that values decrease as you move left (4)",
+    "options": [
+     "Rahul is incorrect. The HCF (Highest Common Factor) can never be greater than the numbers themselves because a factor must divide the number completely",
+     "$C$ must be less than or equal to both $A$ and $B$ (except when $A$ or $B$ is negative, but in whole numbers, $C \\le A$ and $C \\le B$)",
+     "The number-line reasoning runs: (1) Locate both readings on the number line (2) Observe that -7 lies to the left of -4 (3) Recall that values decrease as you move left (4)"
+    ],
+    "hint": "Straight from the 'Integers' slide -- match the key terms.",
+    "misconception": "A wrong answer that picks Shimla because 4 is less than 7 shows the student is comparing the digits while ignoring the negative signs, which reverse the order of magnitude on the number line.",
+    "id": "gen_c7_math_ch11_q13",
+    "nodeId": "c7_math_ch10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Both A = [(-2) x 7] x (-5) and B = (-2) x [7 x (-5)] equal +70. Give the correct sequence of reasoning that turns A into B.",
+    "answer": "Converting A to B takes two distinct properties in order: (1) Associativity moves the brackets without changing any factor (2) Commutativity only swaps the order of factors (3)",
+    "options": [
+     "$C$ must be less than or equal to both $A$ and $B$ (except when $A$ or $B$ is negative, but in whole numbers, $C \\le A$ and $C \\le B$)",
+     "The correct answer is 45. Working: Step 1: Divide 225 by 135. $225 = 135 \\times 1 + 90$ (Remainder = 90)",
+     "Converting A to B takes two distinct properties in order: (1) Associativity moves the brackets without changing any factor (2) Commutativity only swaps the order of factors (3)"
+    ],
+    "hint": "Straight from the 'commutative property of integer' slide -- match the key terms.",
+    "misconception": "A wrong answer that calls the bracket move itself commutative shows the student confuses the property that changes grouping with the property that changes the position of factors.",
+    "id": "gen_c7_math_ch11_q14",
+    "nodeId": "c7_math_ch10_007",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -3096,7 +3415,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Common factors of two numbers' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the student shows a failure to verify divisibility across both numbers.",
-    "id": "gen_c7_math_ch11_q11",
+    "id": "gen_c7_math_ch11_q15",
     "nodeId": "c7_math_ch11_001",
     "difficulty": "standard"
    },
@@ -3111,7 +3430,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Common factors of two numbers' slide -- match the key terms.",
     "misconception": "A wrong answer suggesting $C$ can be larger than $A$ or $B$ confuses factors with multiples.",
-    "id": "gen_c7_math_ch11_q12",
+    "id": "gen_c7_math_ch11_q16",
     "nodeId": "c7_math_ch11_001",
     "difficulty": "standard"
    },
@@ -3126,7 +3445,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Common factors of two numbers' slide -- match the key terms.",
     "misconception": "A wrong answer stating that 1 is only a factor of odd numbers reveals a fundamental misunderstanding of divisibility rules for 1.",
-    "id": "gen_c7_math_ch11_q13",
+    "id": "gen_c7_math_ch11_q17",
     "nodeId": "c7_math_ch11_001",
     "difficulty": "standard"
    },
@@ -3141,78 +3460,18 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Highest Common Factor  of two or' slide -- match the key terms.",
     "misconception": "A student who disagrees likely made a counting or division error when listing the factors.",
-    "id": "gen_c7_math_ch11_q14",
+    "id": "gen_c7_math_ch11_q18",
     "nodeId": "c7_math_ch11_002",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student calculated the HCF of 48 and 60 as follows: $48 = 2^4 \\times 3^1$ and $60 = 2^2 \\times 3^1 \\times 5^1$. The student then stated that the HCF is $2^4 \\times 3^1 \\times 5^1 = 240$. Evaluate this solution and identify the exact error made.",
-    "answer": "The student's solution is incorrect because 240 is actually the *LCM* (Lowest Common Multiple), not the HCF",
-    "options": [
-     "The correct answer is 45. Working: Step 1: Divide 225 by 135. $225 = 135 \\times 1 + 90$ (Remainder = 90)",
-     "Rahul is incorrect. The HCF (Highest Common Factor) can never be greater than the numbers themselves because a factor must divide the number completely",
-     "The student's solution is incorrect because 240 is actually the *LCM* (Lowest Common Multiple), not the HCF"
-    ],
-    "hint": "Straight from the 'Prime Factorisation Method for' slide -- match the key terms.",
-    "misconception": "A student who agrees with the student's work does not understand the fundamental difference between the purpose of HCF (divisors) and LCM (multiples).",
-    "id": "gen_c7_math_ch11_q15",
-    "nodeId": "c7_math_ch11_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A student performs the Euclidean division method for 84 and 36 as follows: $84 \\div 36 = 2$ with a remainder of 12. Next, they divide 36 by 12 and get $36 \\div 12 = 3$ with a remainder of 0. They conclude the HCF is 3. Is their conclusion correct, and if not, what is the error?",
-    "answer": "The conclusion is incorrect. The student mistook the last quotient (3) for the HCF instead of identifying the last non-zero remainder (12)",
-    "options": [
-     "The student's conclusion is incorrect. The student correctly calculated both examples ($2 \\times 12 = 24$ and $4 \\times 6 = 24$)",
-     "The student's solution is incorrect because 240 is actually the *LCM* (Lowest Common Multiple), not the HCF",
-     "The conclusion is incorrect. The student mistook the last quotient (3) for the HCF instead of identifying the last non-zero remainder (12)"
-    ],
-    "hint": "Straight from the 'Euclidean Division Method for' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The conclusion is incorrect. The student mistook the last quotient (3) for the HCF instead of identifying the last",
-    "id": "gen_c7_math_ch11_q16",
-    "nodeId": "c7_math_ch11_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the Prime Factorisation Method (c7_math_ch11_004) and the Euclidean Division Method for finding the HCF of 1050 and 1470. Why is Euclidean division often preferred for very large numbers?",
-    "answer": "The correct answer is that Euclidean division relies on quick, short divisions rather than finding all prime numbers up to the square root of the given integers",
-    "options": [
-     "Problem A asks us to divide existing quantities into smaller equal groups, making HCF appropriate because factors divide into a number",
-     "HCF stands for Highest Common Factor, meaning it is a factor of both 48 and 60 that divides both numbers without leaving a remainder",
-     "The correct answer is that Euclidean division relies on quick, short divisions rather than finding all prime numbers up to the square root of the given integers"
-    ],
-    "hint": "Straight from the 'Euclidean Division Method for' slide -- match the key terms.",
-    "misconception": "A student who claims prime factorisation is always faster does not understand how difficult it is to find prime factors of large numbers without a calculator.",
-    "id": "gen_c7_math_ch11_q17",
-    "nodeId": "c7_math_ch11_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a pair of numbers greater than 100 where the Euclidean Division Method terminates in exactly two division steps. Explain your construction process.",
-    "answer": "An acceptable response provides two numbers, such as 210 and 150. Construction: Work backwards by choosing a target HCF like 30, multiplying it to form a divisor and quotient",
-    "options": [
-     "Priya's working is completely correct. She accurately listed all factors for both numbers, correctly identified the intersection of those lists (common factors)",
-     "Problem: A merchant has two types of rice bag batches whose product of quantities is 2400. If their HCF is 20, find their LCM to determine the grouping size",
-     "An acceptable response provides two numbers, such as 210 and 150. Construction: Work backwards by choosing a target HCF like 30, multiplying it to form a divisor and quotient"
-    ],
-    "hint": "Straight from the 'Euclidean Division Method for' slide -- match the key terms.",
-    "misconception": "A poor answer lists random numbers without checking the exact number of steps required.",
-    "id": "gen_c7_math_ch11_q18",
-    "nodeId": "c7_math_ch11_005",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about common factors of two numbers?",
+    "What surprised you about integers?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Common Factors Of Two Numbers mastered! 🎯",
+  "successLine": "Integers mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -4604,7 +4863,8 @@ export const C7_MATH_GEN: SimDef[] = [
    "c7_math_ch15_006",
    "c7_math_ch15_007",
    "c7_math_ch15_008",
-   "c7_math_ch15_009"
+   "c7_math_ch15_009",
+   "c7_math_ch15_010"
   ],
   "emoji": "🔢",
   "theme": {
@@ -4676,6 +4936,12 @@ export const C7_MATH_GEN: SimDef[] = [
     "text": "Matchstick patterns and generalisation involve observing visual geometric arrangements made of matchsticks, counting the items in each step to discover a numerical pattern, and expressing that relationship using an algebraic expression with a variable.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Applications Of Equations In Real-life",
+    "text": "Applications of equations in real-life situations involve translating everyday word problems into algebraic equations and solving them to find an unknown quantity.",
+    "emoji": "🔢",
+    "bgColor": "from-rose-400 to-pink-500"
    }
   ],
   "challenges": [
@@ -4726,8 +4992,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the primary goal when using the systematic method to solve a linear equation like $3x - 5 = 10$?",
     "answer": "The goal is to isolate the variable ($x$) on one side of the equation",
     "options": [
+     "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x",
      "The term must become a positive term ($+5x$)",
-     "The student misunderstood the definition of an equality and the substitution process",
      "The goal is to isolate the variable ($x$) on one side of the equation"
     ],
     "hint": "Straight from the 'Solving a linear equation using' slide -- match the key terms.",
@@ -4768,8 +5034,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What does it mean for an equation to have \"variables on both sides\"? Give an example of such an equation.",
     "answer": "An equation with variables on both sides has the unknown letter (like $x$) appearing in expressions on both the left-hand side and the right-hand side of the equals sign",
     "options": [
-     "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$)",
-     "The goal is to isolate the variable ($x$) on one side of the equation",
+     "The term must become a positive term ($+5x$)",
+     "The student misunderstood the definition of an equality and the substitution process",
      "An equation with variables on both sides has the unknown letter (like $x$) appearing in expressions on both the left-hand side and the right-hand side of the equals sign"
     ],
     "hint": "Straight from the 'Equations with variables on both' slide -- match the key terms.",
@@ -4808,9 +5074,9 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "If a number $x$ is increased by 12 and the result is 45, which of the following statements represents this situation as an equation? A) $12x = 45$ B) $x - 12 = 45$ C) $x + 12 = 45$ D) $45 + x = 12$",
     "answer": "The correct answer is C) $x + 12 = 45$",
     "options": [
-     "The student's solution is incorrect because they incorrectly used subtraction to undo a multiplication",
-     "The student made an error in Step 1 by adding 5 instead of subtracting it when moving it across or applying the inverse operation",
-     "Priya's correct answer is C) $x + 12 = 45$",
+     "Arjun's equation ($x + (x+1) + (x+2) = 48$) is correct. Priya's equation ($3x = 48$) represents three identical numbers added together, not *consecutive* integers",
+     "An acceptable answer should propose an equation like $2x + 1 = 11$. The verification shows LHS = $2(5) + 1 = 11$ and RHS = $11$, proving LHS = RHS",
+     "RHS correct answer is C) $x + 12 = 45$",
      "The correct answer is C) $x + 12 = 45$"
     ],
     "hint": "Straight from the 'Setting up equations from word' slide -- match the key terms.",
@@ -4831,7 +5097,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "answer": "The student misunderstood the definition of an equality and the substitution process",
     "options": [
      "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$)",
-     "The term must become a positive term ($+5x$)",
+     "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x",
      "The student misunderstood the definition of an equality and the substitution process"
     ],
     "hint": "Straight from the 'Verifying solutions of equations' slide -- match the key terms.",
@@ -4851,8 +5117,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "If making 1 square requires 4 matchsticks, 2 connected squares require 7 matchsticks, and 3 connected squares require 10 matchsticks, what is the exact algebraic expression for the number of matchsticks needed to make $n$ connected squares in a row?",
     "answer": "The correct expression is $3n + 1$. Each new square added after the first one requires 3 additional matchsticks, and the very first square starts with 4 (or $3(1) + 1$)",
     "options": [
-     "The expected expression is $5n + 2$. Verification: for $n = 1$, $5(1) + 2 = 7$; for $n = 2$, $5(2) + 2 = 12$; for $n = 3$, $5(3) + 2 = 17$",
-     "Rahul's expression is incorrect. While the common difference between terms is 5 (8 - 3 = 5, and 13 - 8 = 5), testing $n = 1$ gives $5(1) - 2 = 3$",
+     "Rahul is incorrect. The correct algebraic expression is $3y - 5$",
+     "To find the total matchsticks for 25 hexagons, substitute $n = 25$ into the simplified expression $5n + 1$",
      "The correct expression is $3n + 1$. Each new square added after the first one requires 3 additional matchsticks, and the very first square starts with 4 (or $3(1) + 1$)"
     ],
     "hint": "Straight from the 'Matchstick patterns and' slide -- match the key terms.",
@@ -4868,17 +5134,137 @@ export const C7_MATH_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "State the correct sequence of steps to solve the stationery-shop word problem that leads to the equation 50 + 3x = 200.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Undo the multiplication to isolate x",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Translate the situation into an equation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Undo the addition on both sides",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Identify the unknown and name it x",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that adds before subtracting, or divides only the total by the quantity, shows the student has not understood that inverse operations must undo the equation in reverse order while keeping both sides balanced.",
+    "id": "gen_c7_math_ch15_q10",
+    "nodeId": "c7_math_ch15_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you go to a stationery shop with ₹200.",
+     "You buy a notebook for ₹50, and spend the rest of your money buying 3 identical pens.",
+     "How much does each pen cost?",
+     "To solve this puzzle without guessing, we can use algebra—a tool you started learning in Class 6 through simple expressions."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "State the correct sequence of steps to solve the stationery-shop word problem that leads to the equation 50 + 3x = 200.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Undo the addition on both sides",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Translate the situation into an equation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Identify the unknown and name it x",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Undo the multiplication to isolate x",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that adds before subtracting, or divides only the total by the quantity, shows the student has not understood that inverse operations must undo the equation in reverse order while keeping both sides balanced.",
+    "id": "gen_c7_math_ch15_q11",
+    "nodeId": "c7_math_ch15_010",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A student claims that $x = 6$ is the solution to the equation $2(x - 3) = 12$. Evaluate this claim by testing the solution and identifying any error in the student's reasoning.",
     "answer": "The student's claim is incorrect. Let us substitute $x = 6$ into the LHS: $2(6 - 3) = 2(3) = 6$. The RHS is $12$",
     "options": [
-     "Rahul's expression is incorrect. While the common difference between terms is 5 (8 - 3 = 5, and 13 - 8 = 5), testing $n = 1$ gives $5(1) - 2 = 3$",
-     "An acceptable answer should propose an equation like $2x + 1 = 11$. The verification shows LHS = $2(5) + 1 = 11$ and RHS = $11$, proving LHS = RHS",
+     "The student added $4$ instead of subtracting $4$ when moving it across the equals sign",
+     "Correct — $-x = 7$ means $(-1) \\times x = 7$, so $x = -7$; writing $x = 7$ shows the student treated isolating $-x$ as if it were isolating $+x$",
      "The student's claim is incorrect. Let us substitute $x = 6$ into the LHS: $2(6 - 3) = 2(3) = 6$. The RHS is $12$"
     ],
     "hint": "Straight from the 'equation' slide -- match the key terms.",
     "misconception": "A wrong answer that accepts the student's claim indicates a failure to properly evaluate brackets using order of operations (BODMAS).",
-    "id": "gen_c7_math_ch15_q10",
+    "id": "gen_c7_math_ch15_q12",
     "nodeId": "c7_math_ch15_001",
     "difficulty": "standard"
    },
@@ -4887,13 +5273,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Construct a real-world word problem about buying notebooks and pens at a local stationery shop in rupees that can be represented by the equation $15x + 50 = 200$.",
     "answer": "A good response describes a scenario such as: \"Rahul buys $x$ notebooks costing ₹15 each, and he also pays a fixed delivery charge of ₹50",
     "options": [
-     "The student made an error in Step 1 by adding 5 instead of subtracting it when moving it across or applying the inverse operation",
-     "Rahul's solution is completely correct! He successfully added $2x$ to both sides to eliminate the negative variable term, then added $9$ to isolate the variable",
+     "The remaining money is 200 - 50 = 150 rupees, so the balance statement is 50 + 3x = 200 with each pen costing 50 rupees",
+     "An acceptable answer should propose an equation like $2x + 1 = 11$. The verification shows LHS = $2(5) + 1 = 11$ and RHS = $11$, proving LHS = RHS",
      "A good response describes a scenario such as: \"Rahul buys $x$ notebooks costing ₹15 each, and he also pays a fixed delivery charge of ₹50"
     ],
     "hint": "Straight from the 'equation' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good response describes a scenario such as: \"Rahul buys $x$ notebooks costing ₹15 each, and he also pays a fixed",
-    "id": "gen_c7_math_ch15_q11",
+    "id": "gen_c7_math_ch15_q13",
     "nodeId": "c7_math_ch15_001",
     "difficulty": "standard"
    },
@@ -4908,7 +5294,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Finding the unknown by balancing' slide -- match the key terms.",
     "misconception": "A student who thinks this method is correct does not understand that inverse operations must match the operation currently connecting the coefficient to the variable.",
-    "id": "gen_c7_math_ch15_q12",
+    "id": "gen_c7_math_ch15_q14",
     "nodeId": "c7_math_ch15_002",
     "difficulty": "advanced"
    },
@@ -4917,13 +5303,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "A student solves $3x + 5 = 20$ by writing the following steps: Step 1: $3x = 20 + 5$ Step 2: $3x = 25$ Step 3: $x = \\frac{25}{3}$ Identify the error in the student's work and state the correct solution.",
     "answer": "The student made an error in Step 1 by adding 5 instead of subtracting it when moving it across or applying the inverse operation",
     "options": [
-     "The student's solution is incorrect because they incorrectly used subtraction to undo a multiplication",
-     "Rahul's solution is completely correct! He successfully added $2x$ to both sides to eliminate the negative variable term, then added $9$ to isolate the variable",
+     "Rahul is incorrect. The correct algebraic expression is $3y - 5$",
+     "The error is in Step 1. When distributing $-3$, the student forgot to multiply $-3$ by $+2$, writing $+2$ instead of $-6$",
      "The student made an error in Step 1 by adding 5 instead of subtracting it when moving it across or applying the inverse operation"
     ],
     "hint": "Straight from the 'Solving linear equations using' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student does not check the sign change required when applying inverse operations across the equals sign.",
-    "id": "gen_c7_math_ch15_q13",
+    "id": "gen_c7_math_ch15_q15",
     "nodeId": "c7_math_ch15_004",
     "difficulty": "advanced"
    },
@@ -4938,7 +5324,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Equations with variables on both' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misunderstanding of what happens to variable terms when they have identical coefficients on both sides.",
-    "id": "gen_c7_math_ch15_q14",
+    "id": "gen_c7_math_ch15_q16",
     "nodeId": "c7_math_ch15_005",
     "difficulty": "advanced"
    },
@@ -4947,13 +5333,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Rahul tried to solve $6 - 2x = 3x - 9$. His steps were: 1) $6 = 5x - 9$ (by adding $2x$ to both sides) 2) $15 = 5x$ (by adding $9$ to both sides) 3) $x = 3$ (by dividing by $5$) Evaluate Rahul's solution. Is it correct, and if not, where did he make his error?",
     "answer": "Rahul's solution is completely correct! He successfully added $2x$ to both sides to eliminate the negative variable term, then added $9$ to isolate the variable",
     "options": [
-     "Rahul is incorrect. The correct algebraic expression is $3y - 5$",
-     "The correct answer is width $w = 6$ metres. Working steps: 1. Let the width be $w$. Then the length is $2w + 3$",
+     "The error is in Step 1. When distributing $-3$, the student forgot to multiply $-3$ by $+2$, writing $+2$ instead of $-6$",
+     "Correct — $-x = 7$ means $(-1) \\times x = 7$, so $x = -7$; writing $x = 7$ shows the student treated isolating $-x$ as if it were isolating $+x$",
      "Rahul's solution is completely correct! He successfully added $2x$ to both sides to eliminate the negative variable term, then added $9$ to isolate the variable"
     ],
     "hint": "Straight from the 'Equations with variables on both' slide -- match the key terms.",
     "misconception": "A wrong evaluation usually stems from students panicking when they see a negative coefficient for the variable, falsely believing that variables must always be moved to the left-hand side.",
-    "id": "gen_c7_math_ch15_q15",
+    "id": "gen_c7_math_ch15_q17",
     "nodeId": "c7_math_ch15_005",
     "difficulty": "advanced"
    },
@@ -4963,43 +5349,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "answer": "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$)",
     "options": [
      "The student misunderstood the definition of an equality and the substitution process",
-     "The goal is to isolate the variable ($x$) on one side of the equation",
+     "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x",
      "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$)"
     ],
     "hint": "Straight from the 'Equations with variables on both' slide -- match the key terms.",
     "misconception": "If a student adds $16$ first, they end up with $7x + 16 = 3x + 32$, which still leaves variables on both sides and makes the expression more complicated instead of isolating the unknown.",
-    "id": "gen_c7_math_ch15_q16",
-    "nodeId": "c7_math_ch15_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A student solves $2x + 4 = 10$ and writes $2x = 10 + 4$. Explain why this step violates the balance model of equations.",
-    "answer": "The student added $4$ instead of subtracting $4$ when moving it across the equals sign",
-    "options": [
-     "The student's solution is incorrect because they incorrectly used subtraction to undo a multiplication",
-     "The equals sign indicates that when the correct value for $x$ is substituted, the numerical value computed for the left-hand expression ($5x + 3$) is exactly equal in value to the",
-     "The student added $4$ instead of subtracting $4$ when moving it across the equals sign"
-    ],
-    "hint": "Straight from the 'This node focuses on identifying,' slide -- match the key terms.",
-    "misconception": "A wrong answer shows confusion between the operation being performed on a term and its inverse operation used for transposition.",
-    "id": "gen_c7_math_ch15_q17",
-    "nodeId": "c7_math_ch15_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare these two methods for solving $\\frac{x}{2} + 3 = 7$: Method A clears the denominator first by multiplying the entire equation by $2$. Method B subtracts $3$ first. Which method is mathematically valid, and which one is more prone to calculation errors?",
-    "answer": "Both methods are mathematically valid, but Method B (subtracting $3$ first to get $\\frac{x}{2} = 4$",
-    "options": [
-     "For the first phrase, Aman's money is an expression: $2p + 5$. For the second phrase, the sentence forms a complete comparison equation: $2p = A + 5$ (where $A$ is Aman's money)",
-     "In Equation A, if we subtract $4x$ from both sides, we get $3 = 7$, which is a false statement, meaning Equation A has no solution",
-     "Both methods are mathematically valid, but Method B (subtracting $3$ first to get $\\frac{x}{2} = 4$"
-    ],
-    "hint": "Straight from the 'This node focuses on identifying,' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Both methods are mathematically valid, but Method B (subtracting $3$ first to get $\\frac{x}{2} = 4$, then multiplying",
     "id": "gen_c7_math_ch15_q18",
-    "nodeId": "c7_math_ch15_006",
+    "nodeId": "c7_math_ch15_005",
     "difficulty": "advanced"
    }
   ],

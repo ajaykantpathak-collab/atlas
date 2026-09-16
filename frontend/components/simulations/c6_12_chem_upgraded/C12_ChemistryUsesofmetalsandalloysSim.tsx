@@ -1257,7 +1257,11 @@ const DislocationMovementCanvas: React.FC<{ soluteDensity: number; forceApplied:
 // ============================================================================
 // MAIN COMPONENT
 // ============================================================================
-export default function C12_ChemistryUsesofmetalsandalloysSim() {
+export default function C12_ChemistryUsesofmetalsandalloysSim({
+  onComplete,
+}: {
+  onComplete?: (score: number) => void;
+}) {
   // Navigation State
   const [activeTab, setActiveTab] = useState<'discovery' | 'lab' | 'challenges' | 'summary'>('discovery');
   const [selectedNode, setSelectedNode] = useState<NodeId>('c12_chem_041');
@@ -1415,6 +1419,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim() {
       setShowConfetti(true);
       setShowSuccessBanner(true);
       recordGameScore('c12_chem_041', challengeScore);
+      if (onComplete) onComplete(challengeScore);
       speakText('Congratulations! You have completed the Metallurgy and Alloys Master Diagnostic.');
     }
   };

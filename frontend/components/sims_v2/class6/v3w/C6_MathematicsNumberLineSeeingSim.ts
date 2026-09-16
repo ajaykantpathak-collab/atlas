@@ -10,7 +10,7 @@ export const w_c6_mathematicsnumberlineseeingsim: SimDef = {
     subtitle: 'This node covers identification, naming, and classification of polygons (3 to 10 sides).',
     classLevel: 6, subject: 'mathematics', topic: 'Polygons: Regular and Irregular',
     chapters: [],
-    nodeIds: ['c6_math_ch07_075', 'c6_math_ch01_001', 'c6_math_ch02_016', 'c6_math_ch02_017', 'c6_math_ch02_018', 'c6_math_ch02_019', 'c6_math_ch02_020', 'c6_math_ch02_025'],
+    nodeIds: ['c6_math_ch07_075', 'c6_math_ch01_001', 'c6_math_ch02_016', 'c6_math_ch02_017', 'c6_math_ch02_018', 'c6_math_ch02_019', 'c6_math_ch02_020', 'c6_math_ch02_021'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed the shape of a street sign or the tiles on your floor?', goal: 'Master Number Line Seeing.' },
     discovery: {

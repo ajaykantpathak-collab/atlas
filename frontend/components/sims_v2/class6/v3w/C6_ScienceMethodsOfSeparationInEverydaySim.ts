@@ -10,7 +10,7 @@ export const w_c6_sciencemethodsofseparationineverydaysim: SimDef = {
     subtitle: 'This node covers everyday examples of heat movement like cooking, clothing, and.',
     classLevel: 6, subject: 'science', topic: 'Applications of Heat Transfer in Daily Life',
     chapters: [],
-    nodeIds: ['c6_physics_ch07_026'],
+    nodeIds: ['c6_physics_ch07_019'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why the handle of your frying pan is often made of wood or plastic instead of metal?', goal: 'Master Methods Of Separation In Everyday.' },
     discovery: {

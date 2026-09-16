@@ -10,7 +10,7 @@ export const w_c6_sciencefoodwheredoesitcomesim: SimDef = {
     subtitle: 'This node covers the definition, requirements (fuel, oxygen, heat), and products of.',
     classLevel: 6, subject: 'science', topic: 'Combustion: Burning and Its Characteristics',
     chapters: [],
-    nodeIds: ['c6_chemistry_ch05_004', 'c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch09_005', 'c6_biology_ch09_006', 'c6_biology_ch09_007', 'c6_chemistry_ch05_010', 'c6_chemistry_ch05_001', 'c6_chemistry_ch05_003'],
+    nodeIds: ['c6_chemistry_ch05_004', 'c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch09_005', 'c6_biology_ch09_006', 'c6_biology_ch09_007', 'c6_chemistry_ch05_002', 'c6_chemistry_ch05_001', 'c6_chemistry_ch05_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a candle flame glows or why a wood fire keeps us warm on a winter night?', goal: 'Master Food Where Does It Come.' },
     discovery: {

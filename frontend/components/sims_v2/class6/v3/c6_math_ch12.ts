@@ -8,7 +8,7 @@ export const c6_math_ch12: SimDef = {
     subtitle: 'This node covers identifying and extending arithmetic, square, cube, and triangular.',
     classLevel: 6, subject: 'mathematics', topic: 'Patterns',
     chapters: ['c6_math_ch12'],
-    nodeIds: ['c6_math_ch12_121', 'c6_math_ch12_122', 'c6_math_ch12_123'],
+    nodeIds: ['c6_math_ch12_121', 'c6_math_ch12_122'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are tiling a bathroom floor and placing tiles in a growing square pattern: first 1, then 4, then.', goal: 'Master every idea in this chapter.' },

@@ -677,15 +677,68 @@ function useLanguage() {
   return { t, lang, setLang }
 }
 
+function getStudentId(): string | null {
+  if (typeof window === 'undefined') return null
+  try {
+    const raw = localStorage.getItem('student-storage')
+    return raw ? JSON.parse(raw)?.state?.profile?.id || null : null
+  } catch {
+    return null
+  }
+}
+
+const SUBJECT_MAP: Record<string, Assignment['subject']> = {
+  mathematics: 'maths', maths: 'maths', math: 'maths',
+  physics: 'physics', chemistry: 'chemistry',
+  biology: 'biology', english: 'english', history: 'history',
+}
+
+function toAssignment(detail: any): Assignment {
+  const subject = SUBJECT_MAP[(detail.subject || '').toLowerCase()] || 'maths'
+  const questions: Question[] = (detail.questions || []).map((q: any) => ({
+    id: q.id,
+    type: q.question_type === 'mcq' ? 'mcq' : 'text',
+    text: q.question_text,
+    options: q.options || undefined,
+    correctAnswer: '', // server-graded; never exposed to the client
+    points: q.marks ?? 1,
+  }))
+  const status: Assignment['status'] =
+    detail.status === 'submitted' ? 'completed'
+    : detail.status === 'overdue' ? 'overdue'
+    : 'pending'
+  return {
+    id: detail.id,
+    subject,
+    topic: detail.title,
+    dueDate: detail.due_date,
+    status,
+    priority: status === 'overdue' ? 'high' : 'medium',
+    questionCount: questions.length,
+    questions,
+    description: detail.description || detail.teacher_instructions || undefined,
+    totalPoints: detail.total_marks ?? questions.reduce((s, q) => s + q.points, 0),
+  }
+}
+
 function useAssignments() {
   const { t } = useLanguage()
   return useQuery({
     queryKey: ['homework', 'assignments'],
     queryFn: async (): Promise<Assignment[]> => {
-      // In production: apiFetch('/api/student/homework')
-      // Simulated async fetch
-      await new Promise((r) => setTimeout(r, 600))
-      return mockAssignments
+      const sid = getStudentId()
+      if (!sid) return mockAssignments // logged-out / demo mode
+      // List summaries, then hydrate each with its questions
+      const list: any = await apiFetch<any[]>(`/api/homework/student/${sid}`).catch(() => null)
+      if (!Array.isArray(list)) return mockAssignments
+      if (!list.length) return []
+      const details = await Promise.all(
+        list.map((h: any) =>
+          apiFetch(`/api/homework/${h.id}?student_id=${sid}`).catch(() => null)
+        )
+      )
+      const out = details.filter(Boolean).map(toAssignment)
+      return out.length ? out : mockAssignments
     },
     staleTime: 5 * 60 * 1000,
     gcTime: 10 * 60 * 1000,
@@ -704,12 +757,41 @@ function useSubmitMutation() {
       assignmentId: string
       answers: Record<string, string>
     }): Promise<SubmissionResult> => {
-      // Simulated API — in production:
-      // return apiFetch('/api/student/homework/submit', {
-      //   method: 'POST',
-      //   body: JSON.stringify(payload),
-      // })
+      const sid = getStudentId()
+      const isReal = sid && !mockAssignments.some(a => a.id === payload.assignmentId)
 
+      // Real path: server-side grading (MCQ exact-match + LLM for text)
+      if (isReal) {
+        const body = {
+          answers: Object.entries(payload.answers).map(([qid, ans]) => ({
+            question_id: qid,
+            answer: ans,
+          })),
+        }
+        const r: any = await apiFetch(
+          `/api/homework/${payload.assignmentId}/submit?student_id=${sid}`,
+          { method: 'POST', body: JSON.stringify(body) }
+        )
+        const pct = r.percentage ?? 0
+        return {
+          score: r.total_score ?? 0,
+          totalPoints: r.max_score ?? 0,
+          percentage: Math.round(pct),
+          mastery: Math.round(pct),
+          results: (r.graded_answers || []).map((g: any) => ({
+            questionId: g.question_id,
+            isCorrect: !!g.is_correct,
+            userAnswer: g.student_answer || '(not answered)',
+            correctAnswer: g.correct_answer || '',
+            pointsEarned: g.marks_awarded ?? 0,
+            explanation: g.feedback,
+          })),
+          feedbackKey:
+            pct >= 90 ? 'perfect' : pct >= 70 ? 'great' : pct >= 50 ? 'good' : 'needsWork',
+        }
+      }
+
+      // Demo/offline path — local grading against mock data
       await new Promise((r) => setTimeout(r, 1500))
 
       const assignment = mockAssignments.find(a => a.id === payload.assignmentId)

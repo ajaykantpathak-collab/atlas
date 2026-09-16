@@ -10,7 +10,7 @@ export const w_c6_socialsciencerurallivelihoodssim: SimDef = {
     subtitle: 'This node covers the fundamental concept of local self-governance and the role of.',
     classLevel: 6, subject: 'science', topic: 'What is Grassroots Democracy?',
     chapters: [],
-    nodeIds: ['c6_civics_ch12_015', 'c6_civics_ch12_016', 'c6_civics_ch12_018', 'c6_civics_ch12_019', 'c6_history_ch09_038'],
+    nodeIds: ['c6_civics_ch12_015', 'c6_civics_ch12_020', 'c6_civics_ch12_018', 'c6_civics_ch12_019', 'c6_history_ch09_038'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine your school playground has a broken fence that makes it unsafe for students to play.', goal: 'Master Social Science Rural Livelihoods.' },
     discovery: {

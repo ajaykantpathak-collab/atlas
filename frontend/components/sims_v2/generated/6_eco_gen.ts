@@ -675,6 +675,22 @@ export const C6_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "If you have 2,000 rupees and the bank offers 5% interest per year, how much interest will you have after one year?",
+    "answer": "You will have 100 rupees. (Calculation: 2,000 × 0.05 = 100)",
+    "options": [
+     "The bank provides the capital (loan) so the student can gain skills, which will eventually allow them to do productive work and contribute to the economy",
+     "Your father should choose a Fixed Deposit (FD) account because it offers a higher interest rate in exchange for locking the money away for a set period",
+     "You will have 100 rupees. (Approach: 2,000 × 0.05 = 100)",
+     "You will have 100 rupees. (Calculation: 2,000 × 0.05 = 100)"
+    ],
+    "hint": "Straight from the 'Interest' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates trouble with basic percentage multiplication.",
+    "id": "gen_c6_eco_ch08_q12",
+    "nodeId": "c6_economics_ch08_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Imagine you want to buy a bicycle that costs 5,000 rupees. You have 2,000 rupees. If you borrow the rest, what factors should you consider before agreeing to the interest rate?",
     "answer": "The student should mention the ability to repay the monthly amount and the total cost of the interest over time",
     "options": [
@@ -684,7 +700,7 @@ export const C6_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Interest' slide -- match the key terms.",
     "misconception": "A poor answer ignores the long-term impact of the debt on their personal budget.",
-    "id": "gen_c6_eco_ch08_q12",
+    "id": "gen_c6_eco_ch08_q13",
     "nodeId": "c6_economics_ch08_003",
     "difficulty": "standard"
    },
@@ -699,7 +715,7 @@ export const C6_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Interest' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks interest rates are fixed and random rather than based on risk factors.",
-    "id": "gen_c6_eco_ch08_q13",
+    "id": "gen_c6_eco_ch08_q14",
     "nodeId": "c6_economics_ch08_003",
     "difficulty": "standard"
    },
@@ -714,7 +730,7 @@ export const C6_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bank accounts' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a fundamental misunderstanding of the \"liquidity-premium\" relationship, specifically the misconception that interest is simply a gift from the bank rather than a financial reward for sacrificing the immediate access to one's own money.",
-    "id": "gen_c6_eco_ch08_q14",
+    "id": "gen_c6_eco_ch08_q15",
     "nodeId": "c6_economics_ch08_004",
     "difficulty": "standard"
    },
@@ -729,7 +745,7 @@ export const C6_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bank accounts' slide -- match the key terms.",
     "misconception": "A wrong answer reveals: A student’s lack of understanding regarding the distinction between \"liquidity\" (immediate access to cash) and \"capital growth\" (saving for the future), often indicating they view money as a single pool to be spent until it is gone rather than a tool to be managed for different time horizons.",
-    "id": "gen_c6_eco_ch08_q15",
+    "id": "gen_c6_eco_ch08_q16",
     "nodeId": "c6_economics_ch08_004",
     "difficulty": "standard"
    },
@@ -744,7 +760,7 @@ export const C6_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bank accounts' slide -- match the key terms.",
     "misconception": "Wrong Answer: A wrong answer, such as choosing a Savings Account, reveals the student’s confusion between the need for liquidity (having money available for daily emergencies) and the purpose of investment (sacrificing access to money in exchange for higher returns).",
-    "id": "gen_c6_eco_ch08_q16",
+    "id": "gen_c6_eco_ch08_q17",
     "nodeId": "c6_economics_ch08_004",
     "difficulty": "standard"
    },
@@ -759,21 +775,6 @@ export const C6_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Bank accounts' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misconception that the primary goal of all savings is to maximize profit (interest), failing to understand that the purpose of an emergency fund is risk management and liquidity rather than wealth accumulation.",
-    "id": "gen_c6_eco_ch08_q17",
-    "nodeId": "c6_economics_ch08_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why would a business owner prefer a current account over a savings account? Answer: A current account allows for unlimited transactions, which is necessary for a business, whereas savings accounts often have limits.",
-    "answer": "[Correct answer] A business owner prefers a current account because it offers unlimited transactions and convenient payment features like overdrafts",
-    "options": [
-     "The bank perceives a higher risk of not being paid back, so they charge more to cover that risk",
-     "ATMs are available 24/7, allowing users to withdraw cash or check balances even when the bank building is closed",
-     "[Correct answer] A business owner prefers a current account because it offers unlimited transactions and convenient payment features like overdrafts"
-    ],
-    "hint": "Straight from the 'Bank accounts' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the student’s misconception that the primary goal of a business account is to earn interest, failing to understand that liquidity and transaction volume are the actual priorities for a business owner.",
     "id": "gen_c6_eco_ch08_q18",
     "nodeId": "c6_economics_ch08_004",
     "difficulty": "standard"

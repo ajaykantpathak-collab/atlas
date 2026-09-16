@@ -442,6 +442,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Suppose a character wants to disagree with King Krishnadeva Raya on a serious state matter. Based on the cultural setting of a 16th-century royal court, how must the character convey this message differently than a friend talking to another friend in a modern school setting?",
+    "answer": "Step 1: Identify setting context—16th-century royal court with absolute monarchical authority and strict protocols",
+    "options": [
+     "*Expected high-quality response:* \"With luminous wit, he cleared the shadow of the crown, And chased away with golden words the royal frown",
+     "The description uses details like \"towering carved granite pillars\" and \"hushed silence\" to create a grand, formal, and highly serious atmosphere",
+     "Step 1: Identify setting context—16th-century royal court with absolute monarchical authority and strict protocols"
+    ],
+    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "misconception": "If a student suggests shouting or arguing directly, they fail to apply historical setting constraints on character speech and social hierarchy.",
+    "id": "gen_c8_eng_ch01_p1_q13",
+    "nodeId": "c8_engl_ch1_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "What are the three main components that make up the setting of a literary story set in a historical kingdom like Vijayanagara?",
     "answer": "The three main components are physical place (the geography, palace, courtrooms), time period (the historical era, such as the 16th century during Krishnadeva Raya's rule)",
     "options": [
@@ -451,7 +466,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Setting' slide -- match the key terms.",
     "misconception": "If a student only mentions \"a palace in India,\" it reveals they confuse setting purely with physical location, ignoring time and socio-cultural context.",
-    "id": "gen_c8_eng_ch01_p1_q13",
+    "id": "gen_c8_eng_ch01_p1_q14",
     "nodeId": "c8_engl_ch1_1",
     "difficulty": "advanced"
    },
@@ -466,7 +481,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Setting' slide -- match the key terms.",
     "misconception": "A weak answer will lack specific sensory details (e.g., \"The king was sitting in his palace. It was night time. People were happy.\") showing a failure to actively construct a rich literary setting.",
-    "id": "gen_c8_eng_ch01_p1_q14",
+    "id": "gen_c8_eng_ch01_p1_q15",
     "nodeId": "c8_engl_ch1_1",
     "difficulty": "advanced"
    },
@@ -481,7 +496,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Character analysis of Tenali' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student suggests force is better because it is direct, it shows an inability to analyze how character approach influences narrative outcomes in interpersonal conflicts.",
-    "id": "gen_c8_eng_ch01_p1_q15",
+    "id": "gen_c8_eng_ch01_p1_q16",
     "nodeId": "c8_engl_ch1_2",
     "difficulty": "advanced"
    },
@@ -496,7 +511,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Character analysis of Tenali' slide -- match the key terms.",
     "misconception": "a poor answer reveals:* If the student writes a direct insult (\"No, you are stupid\") or an unfunny response, it shows they have not mastered creating tone and dialogue that reflect Tenali's characteristic subtle, double-edged wit.",
-    "id": "gen_c8_eng_ch01_p1_q16",
+    "id": "gen_c8_eng_ch01_p1_q17",
     "nodeId": "c8_engl_ch1_2",
     "difficulty": "advanced"
    },
@@ -511,21 +526,6 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Character analysis of Tenali' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student disagrees by claiming humor is useless in politics, it demonstrates a failure to evaluate how tone and delivery affect communication dynamics in courtly literature.",
-    "id": "gen_c8_eng_ch01_p1_q17",
-    "nodeId": "c8_engl_ch1_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary difference between a simple comedian and a witty court advisor like Tenali Ramakrishna?",
-    "answer": "A simple comedian tells jokes solely to make people laugh, whereas a witty court advisor uses humor strategically to solve problems, resolve delicate disputes",
-    "options": [
-     "A simile compares two things using comparison words such as \"like\" or \"as\" (e.g., \"The king is as brave as a lion\")",
-     "Both disrupt the status quo and launch the plot. The river speaking is supernatural/external — a magical intervention that gives Jahnavi agency",
-     "A simple comedian tells jokes solely to make people laugh, whereas a witty court advisor uses humor strategically to solve problems, resolve delicate disputes"
-    ],
-    "hint": "Straight from the 'Character analysis of Tenali' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals:* If a student answers that both are the same, it reveals they view wit purely as silly entertainment rather than a purposeful tool for problem-solving and diplomacy.",
     "id": "gen_c8_eng_ch01_p1_q18",
     "nodeId": "c8_engl_ch1_2",
     "difficulty": "advanced"
@@ -931,6 +931,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A ruler orders his subjects to stop arguing under threat of imprisonment. A court minister instead stages a clever play showing two neighbors foolishly ruining their own crops by fighting, causing the subjects to laugh and make peace. Which tool did the minister use, and why was it effective?",
+    "answer": "The minister used wit. *Step 1:* Identify the action—staging a humorous, reflective play rather than issuing orders",
+    "options": [
+     "A strong answer shows the King teasing the Queen about her attachment to a childhood toy/book, her retaliating by mocking his obsession with a new chess strategy",
+     "\"Thus, Tenali's successful reunion of the royal couple demonstrates that tactful wit and humor are far more effective in overcoming stubborn pride than direct force or argument",
+     "The minister used wit. *Step 1:* Identify the action—staging a humorous, reflective play rather than issuing orders"
+    ],
+    "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
+    "misconception": "a wrong answer reveals:* If the student states that the ruler's method was better because it was direct, they fail to apply the principle that self-realization through wit creates superior diplomatic outcomes compared to coercive commands.",
+    "id": "gen_c8_eng_ch01_p2_q15",
+    "nodeId": "c8_engl_ch1_11",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Analyze how King Krishnadeva Raya's anger (force) and Tenali Ramakrishna's clever strategy (wit) affected the emotional state of the court differently in *The Wit that Won Hearts*.",
     "answer": "When King Krishnadeva Raya acted with force and anger, it created tension, fear, and emotional distance between the King, Queen, and court members",
     "options": [
@@ -940,7 +955,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If the student simply summarizes the story's plot without contrasting the *emotional and diplomatic effects* of the two approaches, they struggle with textual analysis and comparative breakdown.",
-    "id": "gen_c8_eng_ch01_p2_q15",
+    "id": "gen_c8_eng_ch01_p2_q16",
     "nodeId": "c8_engl_ch1_11",
     "difficulty": "advanced"
    },
@@ -955,7 +970,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
     "misconception": "a poor answer reveals:* If the student suggests threatening economic blockades, sending armies, or simply ordering one nation to surrender the water, they have reverted to force/coercion rather than creative diplomatic wit.",
-    "id": "gen_c8_eng_ch01_p2_q16",
+    "id": "gen_c8_eng_ch01_p2_q17",
     "nodeId": "c8_engl_ch1_11",
     "difficulty": "advanced"
    },
@@ -970,21 +985,6 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student defines wit simply as \"telling jokes\" or force as \"only fighting in wars,\" they lack a broad conceptual understanding of these terms as diplomatic tools in human relationships and conflict resolution.",
-    "id": "gen_c8_eng_ch01_p2_q17",
-    "nodeId": "c8_engl_ch1_11",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does a resolution achieved through royal authority or force often prove less successful over time than one achieved through Tenali Ramakrishna's wit?",
-    "answer": "Royal authority or force forces people to obey out of fear or duty without changing their internal feelings, leaving anger and resentment unresolved beneath the surface",
-    "options": [
-     "Even though Tenali was a jester who made people laugh, his wit was used to solve major national crises, protect the innocent, and guide the King",
-     "Agreed. Tenali's humor acts as a protective shield because kings rarely punish someone while laughing",
-     "Royal authority or force forces people to obey out of fear or duty without changing their internal feelings, leaving anger and resentment unresolved beneath the surface"
-    ],
-    "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals:* If the student claims force is better because it is faster or that wit is ineffective because it doesn't punish people, they are confusing quick obedience with lasting conflict resolution.",
     "id": "gen_c8_eng_ch01_p2_q18",
     "nodeId": "c8_engl_ch1_11",
     "difficulty": "advanced"
@@ -2520,6 +2520,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "In the chapter, Encyclopedia Brown notices Tim Nolan claims he was at the jewellery store at 3:00 PM, but the store clock was stopped at 2:45 PM. How does this detail help him solve the case? Apply the character analysis skill.",
+    "answer": "STEP 1: Identify the given detail (Tim's alibi vs. stopped clock) and what's asked (how it aids solving)",
+    "options": [
+     "Example clue: “A smudge of lens‑cleaner fluid was found on the library window.” Explanation: Lens‑cleaner fluid is used to clean glasses",
+     "Example line: \"I don't know what I'd do without you, son.\" This reveals a relationship built on mutual trust and affection",
+     "STEP 1: Identify the given detail (Tim's alibi vs. stopped clock) and what's asked (how it aids solving)"
+    ],
+    "hint": "Straight from the 'Character analysis involves' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"He saw the clock was broken\" stops at recall without explaining how this action reveals his character trait or connects to theme, showing failure to move from evidence to analytical insight.",
+    "id": "gen_c8_eng_ch03_p1_q14",
+    "nodeId": "c8_engl_ch3_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "What is the primary purpose of character analysis in a story like Encyclopedia Brown?",
     "answer": "The primary purpose is to understand how a character's traits, actions, and motivations contribute to the story's themes and plot development",
     "options": [
@@ -2529,7 +2544,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Character analysis involves' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to describe what the character looks like\" reveals the student misunderstands character analysis as merely physical description, missing the deeper need to connect traits to narrative meaning and theme— a common error from earlier grades where focus was more on surface-level identification.",
-    "id": "gen_c8_eng_ch03_p1_q14",
+    "id": "gen_c8_eng_ch03_p1_q15",
     "nodeId": "c8_engl_ch3_1",
     "difficulty": "advanced"
    },
@@ -2544,7 +2559,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Setting in detective fiction' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"it would be harder\" without specifying the shift from social to forensic detection shows incomplete application.",
-    "id": "gen_c8_eng_ch03_p1_q15",
+    "id": "gen_c8_eng_ch03_p1_q16",
     "nodeId": "c8_engl_ch3_2",
     "difficulty": "advanced"
    },
@@ -2559,7 +2574,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Setting in detective fiction' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists physical differences (table vs. cave) misses the analytical point: setting as an epistemic filter that determines the *mode* of discovery (social/conversational vs. sensory/solitary).",
-    "id": "gen_c8_eng_ch03_p1_q16",
+    "id": "gen_c8_eng_ch03_p1_q17",
     "nodeId": "c8_engl_ch3_2",
     "difficulty": "advanced"
    },
@@ -2574,21 +2589,6 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Setting in detective fiction' slide -- match the key terms.",
     "misconception": "A weak answer merely moves the dining table conversation to a park bench without changing how the case arrives or how clues operate.",
-    "id": "gen_c8_eng_ch03_p1_q17",
-    "nodeId": "c8_engl_ch3_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this claim: \"The Brown dining table is just a convenient meeting spot; the real setting that matters is Idaville.\" Defend or refute using evidence from how the mystery unfolds.",
-    "answer": "Refute. The dining table is where the *structure* of the solution happens: Chief Brown states the puzzle, Encyclopedia asks clarifying questions",
-    "options": [
-     "Statement B demonstrates sound critical thinking because it acknowledges the observed evidence (Dev's nervousness) without making an unjustified assumption about his guilt",
-     "Refute: Luck implies random chance, but Brown consistently succeeds by methodically observing details others ignore (e",
-     "Refute. The dining table is where the *structure* of the solution happens: Chief Brown states the puzzle, Encyclopedia asks clarifying questions"
-    ],
-    "hint": "Straight from the 'Setting in detective fiction' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees reveals the student treats setting as scenery rather than as an active participant in the detective's cognitive process.",
     "id": "gen_c8_eng_ch03_p1_q18",
     "nodeId": "c8_engl_ch3_2",
     "difficulty": "advanced"

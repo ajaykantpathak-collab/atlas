@@ -10,7 +10,7 @@ export const w_c6_mathematicstheothersideofzerosim: SimDef = {
     subtitle: 'This node covers the definition of integers, their representation on a number line, and.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Integers',
     chapters: [],
-    nodeIds: ['c6_math_ch02_016', 'c6_math_ch07_073', 'c6_math_ch07_078', 'c6_math_ch07_083', 'c6_math_ch11_119', 'c6_math_ch10_106', 'c6_math_ch02_017', 'c6_math_ch02_018', 'c6_math_ch02_019', 'c6_math_ch02_020', 'c6_math_ch02_021', 'c6_math_ch02_022', 'c6_math_ch02_023', 'c6_math_ch02_025', 'c6_math_ch02_026'],
+    nodeIds: ['c6_math_ch02_016', 'c6_math_ch07_073', 'c6_math_ch07_078', 'c6_math_ch07_083', 'c6_math_ch11_113', 'c6_math_ch10_105', 'c6_math_ch02_017', 'c6_math_ch02_018', 'c6_math_ch02_019', 'c6_math_ch02_020', 'c6_math_ch02_021', 'c6_math_ch02_022', 'c6_math_ch02_023', 'c6_math_ch02_024', 'c6_math_ch02_027'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are in an elevator of a building with a basement. When you press the \'0\' button, you are at the.', goal: 'Master The Other Side Of Zero.' },
     discovery: {

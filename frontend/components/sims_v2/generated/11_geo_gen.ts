@@ -275,6 +275,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "APPLY: Using the hypsometric formula ΔP/Δz = -ρg and the dry adiabatic lapse rate (DALR = 9.8°C/km), calculate the temperature at the summit of Doddabetta (2,637 m, Nilgiris) if the temperature at Coimbatore (400 m) is 32°C. Then explain why the actual temperature is usually higher than your calculation.",
+    "answer": "Correct working: Step 1: Elevation difference = 2,637 - 400 = 2,237 m = 2.237 km. Step 2: Temperature drop (DALR) = 9",
+    "options": [
+     "(a) Urban Geography and Economic Geography. (b) Urban Geography: 'distance decay' / 'central place hierarchy' — how Metro alters accessibility and reshapes urban centers",
+     "Map A (Historical): Three phases with arrows. Phase 1: Surat/Ahmedabad — factors: local cotton, port access, merchant capital",
+     "Correct working: Step 1: Elevation difference = 2,637 - 400 = 2,237 m = 2.237 km. Step 2: Temperature drop (DALR) = 9"
+    ],
+    "hint": "Straight from the 'Geography's relation with natural' slide -- match the key terms.",
+    "misconception": "A wrong calculation (using 6.5°C/km directly, or ignoring elevation difference) reveals inability to distinguish between dry adiabatic process (parcel theory) and actual atmospheric profile, and confusion between physics-derived constants and observed geographical averages.",
+    "id": "gen_c11_geo_ch01_q6",
+    "nodeId": "c11_geo_cbse_01_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Explain why the Coriolis effect deflects winds to the right in the Northern Hemisphere, and why this deflection is zero at the equator but maximum at the poles — linking the physics of rotating reference frames to the geographical pattern of pressure belts and wind systems.",
     "answer": "Coriolis acceleration = 2Ωv sin φ, where Ω = Earth's angular velocity (7.292×10⁻⁵ rad/s), v = wind speed, φ = latitude",
     "options": [
@@ -284,7 +299,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geography's relation with natural' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"centrifugal force\" or \"magnetic field\") reveals confusion between fictitious forces in rotating frames and real forces, and inability to connect the mathematical sine-latitude dependence to the observed global circulation cells.",
-    "id": "gen_c11_geo_ch01_q6",
+    "id": "gen_c11_geo_ch01_q7",
     "nodeId": "c11_geo_cbse_01_007",
     "difficulty": "advanced"
    },
@@ -299,7 +314,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geography's relationship with' slide -- match the key terms.",
     "misconception": "Wrong answer conflates the two, missing the shift from Malthusian to Senian famine causation.",
-    "id": "gen_c11_geo_ch01_q7",
+    "id": "gen_c11_geo_ch01_q8",
     "nodeId": "c11_geo_cbse_01_008",
     "difficulty": "standard"
    },
@@ -314,7 +329,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geography's relationship with' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Map A (Historical): Three phases with arrows. Phase 1: Surat/Ahmedabad — factors: local cotton, port access, merchant",
-    "id": "gen_c11_geo_ch01_q8",
+    "id": "gen_c11_geo_ch01_q9",
     "nodeId": "c11_geo_cbse_01_008",
     "difficulty": "standard"
    },
@@ -329,7 +344,22 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geography's relationship with' slide -- match the key terms.",
     "misconception": "Wrong answer (e.g., \"both study dates\") reveals confusion between temporal sequencing and spatial patterning — a fundamental disciplinary boundary error.",
-    "id": "gen_c11_geo_ch01_q9",
+    "id": "gen_c11_geo_ch01_q10",
+    "nodeId": "c11_geo_cbse_01_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Using the concept of 'comparative advantage', explain why the British established jute mills in Bengal (Hooghly) rather than in Punjab where jute was also grown experimentally.",
+    "answer": "Step 1: Identify inputs — raw jute, coal, water, labour, port access. Step 2: Map endowments",
+    "options": [
+     "Map A (Historical): Three phases with arrows. Phase 1: Surat/Ahmedabad — factors: local cotton, port access, merchant capital",
+     "(a) Urban Geography and Economic Geography. (b) Urban Geography: 'distance decay' / 'central place hierarchy' — how Metro alters accessibility and reshapes urban centers",
+     "Step 1: Identify inputs — raw jute, coal, water, labour, port access. Step 2: Map endowments"
+    ],
+    "hint": "Straight from the 'Geography's relationship with' slide -- match the key terms.",
+    "misconception": "Wrong answer (e.g., \"British preference\") ignores the geographic cost calculus that made Bengal the economically rational choice.",
+    "id": "gen_c11_geo_ch01_q11",
     "nodeId": "c11_geo_cbse_01_008",
     "difficulty": "standard"
    }
@@ -353,7 +383,8 @@ export const C11_GEO_GEN: SimDef[] = [
   "subject": "geography",
   "topic": "Nebular Hypothesis",
   "chapters": [
-   "Geography Ch2: Nebular Hypothesis"
+   "Geography Ch2: Nebular Hypothesis",
+   "Geography Ch3: Nebular Hypothesis"
   ],
   "nodeIds": [
    "c11_geo_cbse_02_001",
@@ -364,7 +395,9 @@ export const C11_GEO_GEN: SimDef[] = [
    "c11_geo_cbse_02_006",
    "c11_geo_cbse_02_007",
    "c11_geo_cbse_02_008",
-   "c11_geo_cbse_02_009"
+   "c11_geo_cbse_03_008",
+   "c11_geo_cbse_02_009",
+   "c11_geo_cbse_03_009"
   ],
   "emoji": "🌍",
   "theme": {
@@ -432,10 +465,22 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
+    "title": "Geothermal Gradient",
+    "text": "The geothermal gradient is the rate of increase in temperature with depth in the Earth's interior, typically expressed in °C/km; it represents the conductive heat flow from the core through the mantle and crust, varying from 15–30°C/km in stable continental",
+    "emoji": "🌍",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
     "title": "Geological Time Scale",
     "text": "The Geological Time Scale is a chronological framework that divides Earth's 4.6-billion-year history into hierarchical units (Eons, Eras, Periods, Epochs) based on significant changes in the rock record, such as major fossil assemblages, extinction events,",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Volcanism",
+    "text": "Volcanism is the process by which molten rock (magma), gases, and solid fragments from Earth's mantle and crust are erupted onto the surface, providing direct physical samples of deep interior material that reveal the chemical composition, mineralogy,",
+    "emoji": "🌍",
+    "bgColor": "from-emerald-400 to-teal-500"
    }
   ],
   "challenges": [
@@ -801,18 +846,81 @@ export const C11_GEO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Evaluate the statement: \"High geothermal gradient always indicates good potential for geothermal energy exploitation.\" Consider technical, economic, and geological factors.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Economic viability needs sustained flow",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Enhanced Geothermal Systems",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Permeability and fluid presence",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Some high-gradient areas",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. High gradient alone is insufficient: (1) Permeability and fluid presence are needed for",
+    "id": "gen_c11_geo_ch02_q9",
+    "nodeId": "c11_geo_cbse_03_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine standing at the bottom of the Kolar Gold Fields mine in Karnataka, one of India's deepest mines at over 3 km depth — miners there experience",
+     "Notice how the rock walls feel warmer the deeper you go, a direct sensation of Earth's internal heat escaping upward.",
+     "Connect this to your Class 9 knowledge of Earth's layers (c9_geo_ch1_1): the core is ~5000°C, the crust is ~20°C at surface, so heat must flow",
+     "The key geographical principle is that temperature increases with depth at a measurable rate — the geothermal gradient — which varies by location and"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Name the four Eons of the Geological Time Scale in correct chronological order from oldest to youngest.",
     "answer": "Hadean → Archean → Proterozoic → Phanerozoic",
     "options": [
      "The two primary sources are volcanic degassing from Earth's interior (releasing water vapor trapped in minerals) and extraterrestrial delivery via cometary and carbonaceous",
      "The three initial conditions: (1) a vast, cold, rotating cloud of gas and dust (nebula), (2) composed mostly of hydrogen and helium with trace heavier elements, (3) in slow",
-     "Hadean → Archean → Mass → Phanerozoic",
+     "Hadean → Archean → CO → Phanerozoic",
      "Hadean → Archean → Proterozoic → Phanerozoic"
     ],
     "hint": "Straight from the 'Geological Time Scale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., placing Archean before Hadean or omitting Hadean) reveals the student lacks the fundamental scaffold of deep time. They likely confuse \"Archean\" (ancient) with \"oldest\" due to the word root, not realizing Hadean represents the \"hellish\" pre-rock-record phase before 4.0 Ga.",
-    "id": "gen_c11_geo_ch02_q9",
+    "id": "gen_c11_geo_ch02_q10",
     "nodeId": "c11_geo_cbse_02_009",
     "difficulty": "standard",
     "workedExample": [
@@ -820,6 +928,58 @@ export const C11_GEO_GEN: SimDef[] = [
      "The bottom layers are oldest, the top youngest – this is the Law of Superposition.",
      "Now, geologists realized that specific fossils appear only in specific layers globally (e.g., trilobites in Cambrian, dinosaurs in Mesozoic).",
      "They used these \"index fossils\" and major events (like the Cambrian Explosion or the K-Pg asteroid impact) to draw lines in the rock record, creating"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Design a field investigation plan to determine whether a newly discovered volcanic rock suite in the Andaman Islands represents a subduction-related arc magma or a hotspot-related melt. Specify three key geochemical criteria and the tectonic reasoning for each.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Radiogenic isotopes",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "K₂O vs. SiO₂ plot",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Trace element spider diagram",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A strong plan includes: (1) K₂O vs. SiO₂ plot — arc magmas define medium-K to high-K calc-alkaline trends; hotspot",
+    "id": "gen_c11_geo_ch02_q11",
+    "nodeId": "c11_geo_cbse_03_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine holding a piece of black, vesicular rock from the Deccan Traps near Pune — this basalt solidified from magma that originated 100+ km below",
+     "Start by recalling Class 9 knowledge: volcanoes occur at plate boundaries and hotspots.",
+     "Now ask: how does this rock tell us what the mantle is made of?",
+     "Observe that mid-ocean ridge basalts (MORB) worldwide have remarkably similar composition, suggesting a uniform upper mantle source."
     ]
    },
    {
@@ -864,7 +1024,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"only radioactive decay was higher\") misses the unique, non-steady-state energy sources that defined Hadean lithosphere dynamics.",
-    "id": "gen_c11_geo_ch02_q10",
+    "id": "gen_c11_geo_ch02_q12",
     "nodeId": "c11_geo_cbse_02_005",
     "difficulty": "standard"
    },
@@ -921,7 +1081,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good model includes: (1) High volcanic CO₂ → greenhouse warming → liquid oceans.",
-    "id": "gen_c11_geo_ch02_q11",
+    "id": "gen_c11_geo_ch02_q13",
     "nodeId": "c11_geo_cbse_02_006",
     "difficulty": "advanced"
    },
@@ -967,7 +1127,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A robust model links: (1) Volcanic CO₂ → greenhouse warming → liquid oceans → silicate weathering (once continents",
-    "id": "gen_c11_geo_ch02_q12",
+    "id": "gen_c11_geo_ch02_q14",
     "nodeId": "c11_geo_cbse_02_007",
     "difficulty": "standard"
    },
@@ -1024,8 +1184,23 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists only \"look for fossils\" without linking rock type, geochemistry, or time scale — showing inability to integrate field geography with lab science.",
-    "id": "gen_c11_geo_ch02_q13",
+    "id": "gen_c11_geo_ch02_q15",
     "nodeId": "c11_geo_cbse_02_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "State the three initial conditions Kant and Laplace assumed for the primordial nebula, and explain why \"cold\" is a critical assumption distinguishing it from later hot-nebula models.",
+    "answer": "The three initial conditions: (1) a vast, cold, rotating cloud of gas and dust (nebula), (2) composed mostly of hydrogen and helium with trace heavier elements, (3) in slow",
+    "options": [
+     "The universe is approximately 13.8 billion years old. The Planck satellite (2009–2013) provided the most precise measurement: 13.787 ± 0.020 billion years",
+     "The two primary elements were hydrogen (~75% by mass) and helium (~25% by mass), produced during Big Bang nucleosynthesis",
+     "The three initial conditions: (1) a vast, cold, rotating cloud of gas and dust (nebula), (2) composed mostly of hydrogen and helium with trace heavier elements, (3) in slow"
+    ],
+    "hint": "Straight from the 'Nebular Hypothesis' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"hot nebula\") reveals confusion with the later \"hot accretion\" models or the Big Bang's initial hot state.",
+    "id": "gen_c11_geo_ch02_q16",
+    "nodeId": "c11_geo_cbse_02_001",
     "difficulty": "standard"
    },
    {
@@ -1033,72 +1208,27 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "The Nebular Hypothesis struggled to explain the Sun's low angular momentum (0.5% of system total) vs. planets' high angular momentum (99.5%). Evaluate whether the \"magnetic braking\" mechanism (solar wind coupling to magnetic field) resolves this within the original Kant-Laplace framework, or requires a modern",
     "answer": "Magnetic braking is a *modern* modification (1940s onward, Alfvén, Weizsäcker). The original Kant-Laplace hypothesis had no mechanism to transfer angular momentum outward",
     "options": [
+     "A good model includes: (1) High volcanic CO₂ → greenhouse warming → liquid oceans. (2) Warm, wet climate → enhanced silicate weathering (CaSiO₃ + CO₂ → CaCO₃ + SiO₂)",
      "Misconception 1: \"Explosion in space\" — Correction: Big Bang was expansion OF space itself, not into pre-existing space",
-     "A strong map shows: Planck Era (t < 10⁻⁴³ s, quantum gravity) → Inflation (10⁻³⁶ s, exponential expansion) → Quark/Hadron/Lepton Eras → Nucleosynthesis (3–20 min",
      "Magnetic braking is a *modern* modification (1940s onward, Alfvén, Weizsäcker). The original Kant-Laplace hypothesis had no mechanism to transfer angular momentum outward"
     ],
     "hint": "Straight from the 'Nebular Hypothesis' slide -- match the key terms.",
     "misconception": "A wrong answer claiming Kant/Laplace \"solved it with rings\" reveals confusion between historical theory and modern astrophysics.",
-    "id": "gen_c11_geo_ch02_q14",
+    "id": "gen_c11_geo_ch02_q17",
     "nodeId": "c11_geo_cbse_02_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare the timeline of nucleosynthesis in the Big Bang (first 20 minutes) with stellar nucleosynthesis. Why does Big Bang Nucleosynthesis (BBN) produce only light elements (H, He, Li) while heavier elements require stars?",
-    "answer": "BBN occurred when universe was 3–20 minutes old, temperature ~10⁹ K, density dropping rapidly. Only light nuclei formed because: (1) no stable mass-5 or mass-8 nuclei exist",
+    "question": "A galaxy cluster has a redshift z = 0.05. Using Hubble's Law (v = H₀ × d) with H₀ = 70 km/s/Mpc, calculate its distance in megaparsecs and light-years. (1 pc = 3.26 ly; c = 3 × 10⁵ km/s)",
+    "answer": "Step 1: Recession velocity v = z × c = 0.05 × 3 × 10⁵ = 15,000 km/s. Step 2: Distance d = v / H₀ = 15,000 / 70 ≈ 214",
     "options": [
-     "Steps: 1. Identify *Glossopteris* as a Permian (late Paleozoic) index fossil (~299–252 Ma). 2. Identify *Ammonites* as Mesozoic index fossils",
-     "Spiral galaxies have abundant cold gas in rotating disks, enabling ongoing star formation (1-3 M☉/yr in Milky Way)",
-     "BBN occurred when universe was 3–20 minutes old, temperature ~10⁹ K, density dropping rapidly. Only light nuclei formed because: (1) no stable mass-5 or mass-8 nuclei exist"
+     "A good model includes: (1) High volcanic CO₂ → greenhouse warming → liquid oceans. (2) Warm, wet climate → enhanced silicate weathering (CaSiO₃ + CO₂ → CaCO₃ + SiO₂)",
+     "A robust model links: (1) Volcanic CO₂ → greenhouse warming → liquid oceans → silicate weathering (once continents emerge) → CO₂ drawdown → cooling (negative feedback)",
+     "Step 1: Recession velocity v = z × c = 0.05 × 3 × 10⁵ = 15,000 km/s. Step 2: Distance d = v / H₀ = 15,000 / 70 ≈ 214"
     ],
     "hint": "Straight from the 'Big Bang Theory' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming \"BBN made all elements\" ignores the mass-5/8 instability gap — a specific nuclear physics constraint.",
-    "id": "gen_c11_geo_ch02_q15",
-    "nodeId": "c11_geo_cbse_02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this statement: \"The Big Bang was an explosion in space that threw matter outward from a central point.\" Identify three specific misconceptions and correct each using cosmological principles.",
-    "answer": "Misconception 1: \"Explosion in space\" — Correction: Big Bang was expansion OF space itself, not into pre-existing space",
-    "options": [
-     "The critique: Retrograde rotations are explained within the nebular hypothesis by late-stage giant impacts (stochastic accretion), not by the initial disk dynamics",
-     "Magnetic braking is a *modern* modification (1940s onward, Alfvén, Weizsäcker). The original Kant-Laplace hypothesis had no mechanism to transfer angular momentum outward",
-     "Misconception 1: \"Explosion in space\" — Correction: Big Bang was expansion OF space itself, not into pre-existing space"
-    ],
-    "hint": "Straight from the 'Big Bang Theory' slide -- match the key terms.",
-    "misconception": "A wrong critique focusing only on \"explosion\" misses the geometric nature of metric expansion — a fundamental GR concept.",
-    "id": "gen_c11_geo_ch02_q16",
-    "nodeId": "c11_geo_cbse_02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a concept map linking the following: Planck Era, Inflation, Recombination, CMBR, Dark Ages, Reionization, First Stars, Galaxy Formation, Present Universe. Annotate each transition with the dominant physical process and approximate time/redshift.",
-    "answer": "A strong map shows: Planck Era (t < 10⁻⁴³ s, quantum gravity) → Inflation (10⁻³⁶ s, exponential expansion) → Quark/Hadron/Lepton Eras → Nucleosynthesis (3–20 min",
-    "options": [
-     "Magnetic braking is a *modern* modification (1940s onward, Alfvén, Weizsäcker). The original Kant-Laplace hypothesis had no mechanism to transfer angular momentum outward",
-     "Observe 21-cm HI line emission: spirals show strong, broad HI lines (rotating gas disk); ellipticals show weak/no HI",
-     "A strong map shows: Planck Era (t < 10⁻⁴³ s, quantum gravity) → Inflation (10⁻³⁶ s, exponential expansion) → Quark/Hadron/Lepton Eras → Nucleosynthesis (3–20 min"
-    ],
-    "hint": "Straight from the 'Big Bang Theory' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A strong map shows: Planck Era (t < 10⁻⁴³ s, quantum gravity) → Inflation (10⁻³⁶ s, exponential expansion) →",
-    "id": "gen_c11_geo_ch02_q17",
-    "nodeId": "c11_geo_cbse_02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the Cosmic Microwave Background Radiation (CMBR) is considered the \"afterglow\" of the Big Bang, and why its near-perfect blackbody spectrum at 2.725 K supports the hot dense origin model over the Steady State Theory.",
-    "answer": "CMBR is relic radiation from the recombination epoch (~380,000 years after Big Bang) when the universe cooled enough for electrons and protons to form neutral hydrogen",
-    "options": [
-     "The hypothesis is NOT fully supported. TTG suites (tonalite-trondhjemite-granodiorite) forming Archean cratons (e",
-     "Hydrogen (2 g/mol) and helium (4 g/mol) have low molecular masses; at Earth's early high exospheric temperatures",
-     "CMBR is relic radiation from the recombination epoch (~380,000 years after Big Bang) when the universe cooled enough for electrons and protons to form neutral hydrogen"
-    ],
-    "hint": "Straight from the 'Big Bang Theory' slide -- match the key terms.",
-    "misconception": "A wrong answer citing \"background noise from stars\" reveals failure to distinguish between integrated starlight (non-thermal) and primordial blackbody radiation.",
+    "misconception": "A wrong answer using v = z × c without Hubble's Law reveals misunderstanding that redshift directly gives distance — it gives velocity; distance requires the Hubble constant. Confusing Mpc with pc yields answers off by 10⁶.",
     "id": "gen_c11_geo_ch02_q18",
     "nodeId": "c11_geo_cbse_02_002",
     "difficulty": "standard"
@@ -1113,6 +1243,268 @@ export const C11_GEO_GEN: SimDef[] = [
   "successLine": "Nebular Hypothesis mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c11_geo_ch04",
+  "title": "Pangaea Was The Late Paleozoic–early Mesozoic",
+  "subtitle": "Geography · Chapter 4",
+  "classLevel": 11,
+  "mode": "senior",
+  "subject": "geography",
+  "topic": "Pangaea Was The Late Paleozoic–early Mesozoic",
+  "chapters": [
+   "Geography Ch4: Pangaea Was The Late Paleozoic–early Mesozoic"
+  ],
+  "nodeIds": [
+   "c11_geo_cbse_04_002",
+   "c11_geo_cbse_04_010",
+   "c11_geo_cbse_04_011"
+  ],
+  "emoji": "🌍",
+  "theme": {
+   "bg": "from-emerald-100 to-teal-200",
+   "accent": "emerald",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Can you see Pangaea Was The Late directly with your eyes?",
+   "options": [
+    "Often only through its effects",
+    "Always directly visible",
+    "It is invisible by definition"
+   ],
+   "answer": "Often only through its effects",
+   "hook": "Pangaea was the late Paleozoic–early Mesozoic supercontinent (c."
+  },
+  "teaching": [
+   {
+    "title": "Pangaea Was The Late Paleozoic–early",
+    "text": "Pangaea was the late Paleozoic–early Mesozoic supercontinent (c. 335–175 Ma) that amalgamated nearly all of Earth's continental crust into a single, roughly C-shaped landmass centred on the equator, while Panthalassa was the vast, continuous superocean that",
+    "emoji": "🌍",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Distribution Of Earthquakes And Volcanoes",
+    "text": "The distribution of earthquakes and volcanoes refers to the non-random, zonal concentration of seismic epicenters and volcanic vents along lithospheric plate boundaries and, to a lesser extent, within plates at hotspots, forming distinct global belts such as",
+    "emoji": "🌍",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Wilson Cycle",
+    "text": "The Wilson Cycle is a geodynamic model describing the cyclic opening and closing of ocean basins driven by plate tectonics, encompassing stages from continental rifting (embryonic) through seafloor spreading (juvenile/mature) to subduction and continental",
+    "emoji": "🌍",
+    "bgColor": "from-violet-400 to-purple-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Design a simple classroom demonstration (using household materials) to show how the shape of Panthalassa influenced the direction of the paleo-equatorial current and thus the distribution of Permian reef complexes. List materials, steps, and the expected observation.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Fill with water",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Blow fan from east to west",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Add dye at equatorial “gap”",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Fix clay Pangaea in tray",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Materials: Rectangular tray (Panthalassa), blue water, a C-shaped clay barrier (Pangaea) placed centrally, red food dye",
+    "id": "gen_c11_geo_ch04_q1",
+    "nodeId": "c11_geo_cbse_04_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Begin by asking the student to look at a modern political world map and trace the Atlantic coastlines of South America and Africa with a finger –",
+     "Now ask: “If these two continents once fitted together, what did the rest of the world look like at that same moment?",
+     "Connect this to the previous node (Wegener’s hypothesis) by recalling that Wegener *named* this supercontinent Pangaea (“all Earth”) and the",
+     "Emphasise that Pangaea was not static – it assembled by ~335 Ma (Carboniferous), reached maximum unity in the Permian–Triassic, and began fragmenting"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a three-layer seismic zonation map for the Indian subcontinent (scale 1:10 million) that integrates: (i) historical seismicity (IMD catalog), (ii) active fault maps (GSI), and (iii) plate boundary proximity.",
+    "answer": "Expected answer: Zone V — Himalayan frontal thrusts (MFT, MBT), Andaman-Nicobar subduction zone, Kutch rift (1819, 2001 events) — criteria: Mmax ≥ 8",
+    "options": [
+     "Materials: Rectangular tray (Panthalassa), blue water, a C-shaped clay barrier (Pangaea) placed centrally, red food dye (warm equatorial current), small fan (trade winds)",
+     "Correct order: (1) Embryonic — continental rifting begins, (2) Juvenile — narrow ocean basin forms with active spreading ridge, (3) Mature",
+     "Expected answer: Zone V — Himalayan frontal thrusts (MFT, MBT), Andaman-Nicobar subduction zone, Kutch rift (1819, 2001 events) — criteria: Mmax ≥ 8"
+    ],
+    "hint": "Straight from the 'distribution of earthquakes and' slide -- match the key terms.",
+    "misconception": "a wrong answer placing it in Zone II ignores site amplification and basin effects, a fatal oversight in seismic microzonation.",
+    "id": "gen_c11_geo_ch04_q2",
+    "nodeId": "c11_geo_cbse_04_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Open any recent newspaper and you will find reports of an earthquake in Turkey, a volcanic eruption in Iceland, or tremors in the Himalayan foothills",
+     "In Class 9 you learned that plates move apart, collide, or slide past each other; now ask: where does the crust actually break and melt?",
+     "Begin by overlaying a map of global earthquake epicenters (from USGS or IMD data) on a plate boundary map — notice how the dots cluster like beads on",
+     "Next, plot active volcanoes (Smithsonian Global Volcanism Program data) on the same map — the overlap is striking but not perfect."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Name the six stages of the Wilson Cycle in correct chronological order from embryonic to terminal.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Terminal",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s1",
+      "label": "Suturing",
+      "emoji": "📌",
+      "correctBin": "o5"
+     },
+     {
+      "id": "s2",
+      "label": "Mature",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Juvenile",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "Embryonic",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s5",
+      "label": "Declining",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     },
+     {
+      "id": "o5",
+      "label": "6th",
+      "color": "#ec4899"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer (e.g., placing subduction before mature stage) reveals the student confuses the sequence of ridge formation versus trench formation, not understanding that subduction requires pre-existing oceanic lithosphere to subduct.",
+    "id": "gen_c11_geo_ch04_q3",
+    "nodeId": "c11_geo_cbse_04_011",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe the Himalayas from a satellite image — they are still rising today because India continues pushing northward at ~5 cm/year.",
+     "Now trace backward: before collision, the Tethys Ocean existed between India and Eurasia; before that, India rifted from Gondwana.",
+     "This entire sequence — rift → ocean opening → seafloor spreading → subduction initiation → ocean closing → continental collision — is one Wilson",
+     "Start by identifying the six stages on a cross-section diagram, then map each stage to India's geological history using the plate reconstruction"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple classroom demonstration (using household materials) to show how the shape of Panthalassa influenced the direction of the paleo-equatorial current and thus the distribution of Permian reef complexes. List materials, steps, and the expected observation.",
+    "answer": "Materials: Rectangular tray (Panthalassa), blue water, a C-shaped clay barrier (Pangaea) placed centrally, red food dye (warm equatorial current), small fan (trade winds)",
+    "options": [
+     "Expected answer: Zone V — Himalayan frontal thrusts (MFT, MBT), Andaman-Nicobar subduction zone, Kutch rift (1819, 2001 events) — criteria: Mmax ≥ 8",
+     "Correct order: (1) Embryonic — continental rifting begins, (2) Juvenile — narrow ocean basin forms with active spreading ridge, (3) Mature",
+     "Materials: Rectangular tray (Panthalassa), blue water, a C-shaped clay barrier (Pangaea) placed centrally, red food dye (warm equatorial current), small fan (trade winds)"
+    ],
+    "hint": "Straight from the 'Pangaea was the late' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Materials: Rectangular tray (Panthalassa), blue water, a C-shaped clay barrier (Pangaea) placed centrally, red food dye",
+    "id": "gen_c11_geo_ch04_q4",
+    "nodeId": "c11_geo_cbse_04_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Name the six stages of the Wilson Cycle in correct chronological order from embryonic to terminal.",
+    "answer": "Correct order: (1) Embryonic — continental rifting begins, (2) Juvenile — narrow ocean basin forms with active spreading ridge, (3) Mature",
+    "options": [
+     "Materials: Rectangular tray (Panthalassa), blue water, a C-shaped clay barrier (Pangaea) placed centrally, red food dye (warm equatorial current), small fan (trade winds)",
+     "Expected answer: Zone V — Himalayan frontal thrusts (MFT, MBT), Andaman-Nicobar subduction zone, Kutch rift (1819, 2001 events) — criteria: Mmax ≥ 8",
+     "Correct order: (1) Embryonic — continental rifting begins, (2) Juvenile — narrow ocean basin forms with active spreading ridge, (3) Mature"
+    ],
+    "hint": "Straight from the 'Wilson Cycle' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., placing subduction before mature stage) reveals the student confuses the sequence of ridge formation versus trench formation, not understanding that subduction requires pre-existing oceanic lithosphere to subduct.",
+    "id": "gen_c11_geo_ch04_q5",
+    "nodeId": "c11_geo_cbse_04_011",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about pangaea was the late paleozoic–early mesozoic?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Pangaea Was The Late mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c11_geo_ch05",
@@ -1989,16 +2381,18 @@ export const C11_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_geo_ch06",
-  "title": "Chemical Weathering",
+  "title": "Delta",
   "subtitle": "Geography · Chapter 6",
   "classLevel": 11,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Chemical Weathering",
+  "topic": "Delta",
   "chapters": [
-   "Geography Ch6: Chemical Weathering"
+   "Geography Ch6: Delta",
+   "Geography Ch7: Delta"
   ],
   "nodeIds": [
+   "c11_geo_cbse_07_004",
    "c11_geo_cbse_06_006",
    "c11_geo_cbse_06_007",
    "c11_geo_cbse_06_008",
@@ -2011,16 +2405,22 @@ export const C11_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Chemical Weathering suddenly stops working?",
+   "question": "What happens if Delta suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "Chemical weathering is the decomposition and alteration of rocks and minerals through chemical reactions involving water, oxygen, carbon dioxide, and"
+   "hook": "A delta is a depositional landform formed at a river's mouth where sediment-laden water enters a standing water body (sea/lake), loses velocity, and"
   },
   "teaching": [
+   {
+    "title": "Delta",
+    "text": "A delta is a depositional landform formed at a river's mouth where sediment-laden water enters a standing water body (sea/lake), loses velocity, and drops its load, creating a branching distributary network; an estuary is a funnel-shaped, tidal river mouth",
+    "emoji": "🌍",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
    {
     "title": "Chemical Weathering",
     "text": "Chemical weathering is the decomposition and alteration of rocks and minerals through chemical reactions involving water, oxygen, carbon dioxide, and organic acids, resulting in new mineral assemblages stable under surface conditions.",
@@ -2047,6 +2447,69 @@ export const C11_GEO_GEN: SimDef[] = [
    }
   ],
   "challenges": [
+   {
+    "type": "order",
+    "question": "Evaluate the statement: \"Dams on the Krishna River have benefited agriculture but destroyed the delta.\" Use sediment budget, salinity intrusion, and subsidence concepts.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Verdict",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Sediment collapse",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Countervailing gains",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Delta damage",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and",
+    "id": "gen_c11_geo_ch06_q1",
+    "nodeId": "c11_geo_cbse_07_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Stand at the Sundarbans ferry ghat in West Bengal: the water is brown with silt, the channel splits into three, mangroves fringe mudbanks — you are",
+     "Now travel 1,600 km west to Bharuch, Gujarat: the Narmada flows as a single wide channel, tide rushes 40 km inland, no branching — you are at an",
+     "Both rivers carry Himalayan/Deccan sediment, yet one builds land, the other stays open.",
+     "The difference lies in what the river brings (sediment volume), what the sea does (tidal range, wave energy), and the coastal geometry (shelf slope)."
+    ]
+   },
    {
     "type": "order",
     "question": "Design a field investigation to distinguish whether solution or carbonation dominates weathering of marble monuments at the Taj Mahal. Specify measurements, locations, and expected diagnostic evidence.",
@@ -2089,7 +2552,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Measure: (1) pH and conductivity of runoff water from horizontal vs.",
-    "id": "gen_c11_geo_ch06_q1",
+    "id": "gen_c11_geo_ch06_q2",
     "nodeId": "c11_geo_cbse_06_006",
     "difficulty": "standard",
     "workedExample": [
@@ -2152,7 +2615,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lacks controlled comparison or measurable variables.",
-    "id": "gen_c11_geo_ch06_q2",
+    "id": "gen_c11_geo_ch06_q3",
     "nodeId": "c11_geo_cbse_06_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -2226,7 +2689,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant",
-    "id": "gen_c11_geo_ch06_q3",
+    "id": "gen_c11_geo_ch06_q4",
     "nodeId": "c11_geo_cbse_06_008",
     "difficulty": "standard",
     "workedExample": [
@@ -2241,13 +2704,13 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Explain why a river with a discharge of 500 m³/s can transport boulders during a flood but only silt during base flow, using the concepts of stream competence and capacity.",
     "answer": "Stream competence (maximum particle size transportable) varies with velocity (∝ V⁶ for bed load), so flood velocities (e",
     "options": [
+     "(1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and Srisailam dams came up, an 85 percent cut, (2) Delta damage",
      "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow",
-     "A good answer would include: (1) Select granitic outcrops with and without lichen cover. (2) Measure surface recession rates using micro-erosion meters over a year",
      "Stream competence (maximum particle size transportable) varies with velocity (∝ V⁶ for bed load), so flood velocities (e"
     ],
     "hint": "Straight from the 'Erosion' slide -- match the key terms.",
     "misconception": "A wrong answer confusing competence (size) with capacity (quantity) reveals the student cannot distinguish between the *maximum size* a river can move versus the *total volume* it can carry — a fundamental error in fluvial geomorphology.",
-    "id": "gen_c11_geo_ch06_q4",
+    "id": "gen_c11_geo_ch06_q5",
     "nodeId": "c11_geo_cbse_06_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -2256,16 +2719,77 @@ export const C11_GEO_GEN: SimDef[] = [
      "The answer lies in the balance between the agent's kinetic energy (velocity, discharge, density) and the particle's resistance (size, density, shape).",
      "Connect this to the weathering nodes (c11_geo_cbse_06_004-007) which produce the sediment, and mass movement (c11_geo_cbse_06_008) which delivers it"
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a field investigation to distinguish whether solution or carbonation dominates weathering of marble monuments at the Taj Mahal. Specify measurements, locations, and expected diagnostic evidence.",
+    "answer": "Measure: (1) pH and conductivity of runoff water from horizontal vs. vertical surfaces, (2) Ca2+ and HCO3- concentrations in runoff",
+    "options": [
+     "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow",
+     "A good answer would include: (1) Select granitic outcrops with and without lichen cover. (2) Measure surface recession rates using micro-erosion meters over a year",
+     "Measure: (1) pH and conductivity of runoff water from horizontal vs. vertical surfaces, (2) Ca2+ and HCO3- concentrations in runoff"
+    ],
+    "hint": "Straight from the 'Chemical weathering' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Measure: (1) pH and conductivity of runoff water from horizontal vs.",
+    "id": "gen_c11_geo_ch06_q6",
+    "nodeId": "c11_geo_cbse_06_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a field study to investigate the role of lichens in weathering of granitic rocks in the Bangalore region. Outline the steps, variables to measure, and expected outcomes.",
+    "answer": "A good answer would include: (1) Select granitic outcrops with and without lichen cover. (2) Measure surface recession rates using micro-erosion meters over a year",
+    "options": [
+     "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow",
+     "Measure: (1) pH and conductivity of runoff water from horizontal vs. vertical surfaces, (2) Ca2+ and HCO3- concentrations in runoff",
+     "A good answer would include: (1) Select granitic outcrops with and without lichen cover. (2) Measure surface recession rates using micro-erosion meters over a year"
+    ],
+    "hint": "Straight from the 'Biological weathering' slide -- match the key terms.",
+    "misconception": "A poor answer lacks controlled comparison or measurable variables.",
+    "id": "gen_c11_geo_ch06_q7",
+    "nodeId": "c11_geo_cbse_06_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a field observation checklist for a student team visiting a slopes in the Nilgiris to distinguish between active creep, dormant earthflow, and recent landslide scars. Include at least five observable features with the process each indicates.",
+    "answer": "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow",
+    "options": [
+     "Measure: (1) pH and conductivity of runoff water from horizontal vs. vertical surfaces, (2) Ca2+ and HCO3- concentrations in runoff",
+     "A good answer would include: (1) Select granitic outcrops with and without lichen cover. (2) Measure surface recession rates using micro-erosion meters over a year",
+     "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow"
+    ],
+    "hint": "Straight from the 'Mass movement' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant",
+    "id": "gen_c11_geo_ch06_q8",
+    "nodeId": "c11_geo_cbse_06_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the statement: \"Dams on the Krishna River have benefited agriculture but destroyed the delta.\" Use sediment budget, salinity intrusion, and subsidence concepts.",
+    "answer": "(1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and Srisailam dams came up, an 85 percent cut, (2) Delta damage",
+    "options": [
+     "Stream competence (maximum particle size transportable) varies with velocity (∝ V⁶ for bed load), so flood velocities (e",
+     "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow",
+     "(1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and Srisailam dams came up, an 85 percent cut, (2) Delta damage"
+    ],
+    "hint": "Straight from the 'delta' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and",
+    "id": "gen_c11_geo_ch06_q9",
+    "nodeId": "c11_geo_cbse_07_004",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about chemical weathering?",
+    "What surprised you about delta?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Chemical Weathering mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "successLine": "Delta mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_geo_ch08",
@@ -2811,6 +3335,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Calculate the local time difference between Dwarka (69°05'E, Gujarat) and Itanagar (93°36'E, Arunachal Pradesh) using the 1° longitude = 4 minutes rule. Show steps.",
+    "answer": "Step 1: Longitudinal difference = 93°36'E - 69°05'E = 24°31'. Step 2: Convert to decimal: 24 + 31/60 = 24",
+    "options": [
+     "The Siliguri Corridor (≈22 km wide) connects the Northeast to mainland India; its narrowness between Nepal and Bangladesh creates a choke point for road/rail links",
+     "Rajasthan (~342,239 km²) is about 92 times larger than Goa (~3,702 km²). The disparity arises because Rajasthan covers a vast arid plateau and desert region (Thar Desert) with low",
+     "Step 1: Longitudinal difference = 93°36'E - 69°05'E = 24°31'. Step 2: Convert to decimal: 24 + 31/60 = 24"
+    ],
+    "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
+    "misconception": "A wrong answer using 30° × 4 = 120 min (2 hours) reveals the student approximates extent instead of using precise coordinates — a common error in board numerical questions.",
+    "id": "gen_c11_geo_ch08_q11",
+    "nodeId": "c11_geo_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the latitudinal spread of India (8°4'N–37°6'N) with that of Brazil (5°16'N–33°45'S) and explain why India experiences greater seasonal temperature contrast despite smaller latitudinal range.",
     "answer": "India's range = 29°2' entirely in Northern Hemisphere; Brazil's = 39°1' straddling equator. India's north lies in mid-latitudes (37°N) where seasonal solar altitude variation is",
     "options": [
@@ -2820,7 +3359,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"India is farther from equator\" without explaining solar geometry and hemisphere confinement shows inability to analyze latitudinal climate mechanisms.",
-    "id": "gen_c11_geo_ch08_q11",
+    "id": "gen_c11_geo_ch08_q12",
     "nodeId": "c11_geo_cbse_08_001",
     "difficulty": "standard"
    },
@@ -2835,7 +3374,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Activity: Provide outline map with latitude lines. Step 1: Plot 23°30'N line; mark states intersected (Gujarat,",
-    "id": "gen_c11_geo_ch08_q12",
+    "id": "gen_c11_geo_ch08_q13",
     "nodeId": "c11_geo_cbse_08_001",
     "difficulty": "standard"
    },
@@ -2850,7 +3389,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
     "misconception": "A wrong answer endorsing two zones without addressing India's unitary federal structure, strategic communication needs, or the negligible energy savings from shifting clocks shows failure to evaluate geographical decisions in socio-political context.",
-    "id": "gen_c11_geo_ch08_q13",
+    "id": "gen_c11_geo_ch08_q14",
     "nodeId": "c11_geo_cbse_08_001",
     "difficulty": "standard"
    },
@@ -2865,7 +3404,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"hot/cold\" without linking latitude to solar incidence angle and seasonal variation shows superficial understanding of latitudinal climate control.",
-    "id": "gen_c11_geo_ch08_q14",
+    "id": "gen_c11_geo_ch08_q15",
     "nodeId": "c11_geo_cbse_08_001",
     "difficulty": "standard"
    },
@@ -2880,7 +3419,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing Kanyakumari 8°4'N as southernmost) reveals the student confuses mainland extent with union territory extent — a critical board exam distinction.",
-    "id": "gen_c11_geo_ch08_q15",
+    "id": "gen_c11_geo_ch08_q16",
     "nodeId": "c11_geo_cbse_08_001",
     "difficulty": "standard"
    },
@@ -2895,7 +3434,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India shares its land boundary of' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"border disputes\" or \"altitude\" misses the geomorphological concept of \"choke points\" taught in Class 9 \"Landforms\" and Class 10 \"Transport Geography\".",
-    "id": "gen_c11_geo_ch08_q16",
+    "id": "gen_c11_geo_ch08_q17",
     "nodeId": "c11_geo_cbse_08_002",
     "difficulty": "advanced"
    },
@@ -2910,21 +3449,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India shares its land boundary of' slide -- match the key terms.",
     "misconception": "A wrong answer that calls the agreements \"fully successful\" ignores the ongoing humanitarian and livelihood dimension—a gap between legal delimitation and resource-use reality studied in Class 10 \"International Trade\" and Class 11 \"India's Coastline\".",
-    "id": "gen_c11_geo_ch08_q17",
-    "nodeId": "c11_geo_cbse_08_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the India–Bangladesh boundary is described as \"riverine and highly indented\" whereas the India–Pakistan boundary in the Rann of Kachchh is described as \"arid and featureless.\"",
-    "answer": "The India–Bangladesh boundary follows numerous distributaries of the Ganga–Brahmaputra delta (e.g., Ichamati, Raimangal, Hariabhanga) creating a complex, shifting",
-    "options": [
-     "The statement is not fully correct. Evidence 1: The agreements delimited the International Maritime Boundary Line (IMBL) using the equidistance/median line principle and placed",
-     "The statement is geographically valid (30° ≈ 2 hours) but administratively impractical. India's east-west population density is skewed (Gangetic plains vs sparse northeast)",
-     "The India–Bangladesh boundary follows numerous distributaries of the Ganga–Brahmaputra delta (e.g., Ichamati, Raimangal, Hariabhanga) creating a complex, shifting"
-    ],
-    "hint": "Straight from the 'India shares its land boundary of' slide -- match the key terms.",
-    "misconception": "A wrong answer that attributes the Bangladesh boundary's complexity to \"mountains\" or the Rann boundary to \"river disputes\" shows the student cannot link boundary morphology to the underlying physiography studied in Class 6 (Northern Plains vs. Desert Region).",
     "id": "gen_c11_geo_ch08_q18",
     "nodeId": "c11_geo_cbse_08_002",
     "difficulty": "advanced"
@@ -3538,17 +4062,17 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the drainage characteristics of the Indus, Ganga, and Brahmaputra rivers where they exit the Himalayas. Classify each as antecedent or consequent and justify using the concept of syntaxial bends.",
-    "answer": "Indus at 76°E (Nanga Parbat syntaxial bend): Antecedent — the river maintained its course while the syntaxial bend uplifted rapidly",
+    "question": "Using the concept of isostatic compensation, explain why the Himalayan Mountains (mean elevation ~6,000 m) and the Peninsular Plateau (mean elevation ~600 m) can both be in gravitational equilibrium despite their vastly different surface elevations. Assume crustal density = 2.8 g/cm³ and mantle density = 3.3 g/cm³.",
+    "answer": "Step 1: Recall Airy's isostasy: mountains have deep roots. Root depth *r* = (ρ_crust / (ρ_mantle - ρ_crust)) × surface height *h*",
     "options": [
-     "Western Thar: high wind velocity, abundant sand supply, sparse vegetation → large, mobile longitudinal (seif) dunes aligned parallel to prevailing SW winds",
-     "| Division | Basement Rock Age | Sediment Thickness | Tectonic Setting | |----------|-------------------|-------------------|------------------| | Himalayas | Proterozoic to",
-     "Indus at 76°E (Nanga Parbat syntaxial bend): Antecedent — the river maintained its course while the syntaxial bend uplifted rapidly"
+     "The Narmada-Son lineament is a Precambrian crustal fracture reactivated as a graben (rift valley) during Himalayan collision, providing a structural low for west-flowing rivers",
+     "Error 1: The Brahmaputra Plain does not extend to the Purvanchal hills; it is bounded by the Patkai-Bum hills to the east and the Shillong Plateau to the south",
+     "Step 1: Recall Airy's isostasy: mountains have deep roots. Root depth *r* = (ρ_crust / (ρ_mantle - ρ_crust)) × surface height *h*"
     ],
-    "hint": "Straight from the 'Himalayan Mountains' slide -- match the key terms.",
-    "misconception": "A wrong answer classifying all three as antecedent fails to distinguish between trunk rivers controlled by foreland basin geometry (consequent) and those that cut across rising syntaxes (antecedent).",
+    "hint": "Straight from the 'Physiographic divisions of India' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"Peninsula is denser\") shows confusion between *crustal thickness* and *surface elevation*, ignoring the buoyancy principle.",
     "id": "gen_c11_geo_ch09_q18",
-    "nodeId": "c11_geo_cbse_09_002",
+    "nodeId": "c11_geo_cbse_09_001",
     "difficulty": "advanced"
    }
   ],
@@ -4175,6 +4699,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a conceptual model (flowchart or annotated diagram description) showing the sequence of events from April heating to monsoon onset over Kerala, incorporating: Tibetan heating, ITCZ migration, STWJ withdrawal, Mascarene High intensification, Somali Jet formation, and TEJ establishment.",
+    "answer": "Expected model: (1) April: Intense insolation on Tibetan Plateau → surface heating → thermal low deepens",
+    "options": [
+     "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: Deviations squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) =",
+     "A good answer maps: Summer (Mar-May) → land preparation, Kharif sowing with onset of SW Monsoon (Jun)",
+     "Expected model: (1) April: Intense insolation on Tibetan Plateau → surface heating → thermal low deepens"
+    ],
+    "hint": "Straight from the 'Indian monsoon' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Expected model: (1) April: Intense insolation on Tibetan Plateau → surface heating → thermal low deepens.",
+    "id": "gen_c11_geo_ch10_q11",
+    "nodeId": "c11_geo_cbse_10_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Explain why the Coromandel Coast (Tamil Nadu) receives most of its rainfall during October–December, while the Malabar Coast (Kerala) receives its peak rainfall during June–September, despite both being coastal regions.",
     "answer": "The Malabar Coast lies on the windward side of the Western Ghats facing the Arabian Sea branch of the Southwest Monsoon (June–September)",
     "options": [
@@ -4184,7 +4723,23 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Distribution of rainfall in India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both get rain from the same monsoon\") reveals the student conflates the two monsoon seasons and ignores the rain-shadow effect of the Western Ghats on the eastern peninsula.",
-    "id": "gen_c11_geo_ch10_q11",
+    "id": "gen_c11_geo_ch10_q12",
+    "nodeId": "c11_geo_cbse_10_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Given the following annual rainfall data (in mm) for Station X over 10 years: 820, 760, 910, 680, 850, 720, 890, 650, 940, 780. Calculate the coefficient of variation (CV) and interpret what this implies for cropping risk.",
+    "answer": "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: Deviations squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) =",
+    "options": [
+     "Kharif: Short-duration (100-110 days) pearl millet hybrid (HHB 299) + pigeonpea (ICPL 88039, 160 days) intercropped 2:1 ratio—millet escapes terminal drought",
+     "LGP = 123 days (June 15 to October 15 inclusive). However, Vertisols have high water holding capacity (200-250 mm/m) but very low infiltration rate when dry and swell-shrink",
+     "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: TEJ squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) =",
+     "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: Deviations squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) ="
+    ],
+    "hint": "Straight from the 'Distribution of rainfall in India' slide -- match the key terms.",
+    "misconception": "A wrong CV (e.g., using n-1 denominator or miscalculating mean) reveals computational error; misinterpreting CV < 10% as \"safe\" reveals ignorance of the threshold for rainfed agriculture.",
+    "id": "gen_c11_geo_ch10_q13",
     "nodeId": "c11_geo_cbse_10_004",
     "difficulty": "advanced"
    },
@@ -4199,8 +4754,23 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Distribution of rainfall in India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., attributing Jaisalmer's aridity to latitude or distance from sea alone) reveals the student misses the critical role of wind-mountain geometry — the Aravallis run SW-NE, parallel to the Arabian Sea branch, so they do not force uplift.",
-    "id": "gen_c11_geo_ch10_q12",
+    "id": "gen_c11_geo_ch10_q14",
     "nodeId": "c11_geo_cbse_10_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Given the climatic data for Station P (lat. 34°N, alt. 1600 m): Jan temp = -1.2°C, Jul temp = 18.5°C, annual precip = 980 mm, driest month (Nov) = 22 mm. Classify this station fully (three-letter code) showing each decision step.",
+    "answer": "Step 1: Coldest month (Jan) = -1.2°C → between -3°C and 18°C → First letter = D (cold/snow climate, not C)",
+    "options": [
+     "Kharif: Short-duration (100-110 days) pearl millet hybrid (HHB 299) + pigeonpea (ICPL 88039, 160 days) intercropped 2:1 ratio—millet escapes terminal drought",
+     "LGP = 123 days (June 15 to October 15 inclusive). However, Vertisols have high water holding capacity (200-250 mm/m) but very low infiltration rate when dry and swell-shrink",
+     "Step 1: Coldest month (Jan) = -1.2°C → between -3°C and 18°C → First letter = D (cold/snow climate, not C)"
+    ],
+    "hint": "Straight from the 'Köppen Climate Classification' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Coldest month (Jan) = -1.2°C → between -3°C and 18°C → First letter = D (cold/snow climate, not C).",
+    "id": "gen_c11_geo_ch10_q15",
+    "nodeId": "c11_geo_cbse_10_005",
     "difficulty": "advanced"
    },
    {
@@ -4214,7 +4784,22 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural vegetation' slide -- match the key terms.",
     "misconception": "A wrong answer listing species without explaining the physiological mechanism (leaf phenology, root architecture, bark thickness as adaptations to water stress duration) shows superficial memorisation without ecological reasoning.",
-    "id": "gen_c11_geo_ch10_q13",
+    "id": "gen_c11_geo_ch10_q16",
+    "nodeId": "c11_geo_cbse_10_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the statement: \"Mangrove forests in the Sundarbans are primarily determined by high rainfall (180 cm) rather than tidal salinity.\" Use evidence from species adaptations (e.g., pneumatophores, vivipary, salt excretion) and the ecology of the Ganga-Brahmaputra delta to support your judgment.",
+    "answer": "The statement is incorrect. While the Sundarbans receive ~180 cm rainfall, mangroves occupy the intertidal zone where daily tidal inundation brings saline water (15-35 ppt)",
+    "options": [
+     "PMFBY has limited effectiveness in Marathwada due to: (i) IMD weather station density ~1 per 500 km² vs",
+     "The Malabar Coast lies on the windward side of the Western Ghats facing the Arabian Sea branch of the Southwest Monsoon (June–September)",
+     "The statement is incorrect. While the Sundarbans receive ~180 cm rainfall, mangroves occupy the intertidal zone where daily tidal inundation brings saline water (15-35 ppt)"
+    ],
+    "hint": "Straight from the 'Natural vegetation' slide -- match the key terms.",
+    "misconception": "A wrong answer accepting the statement reveals confusion between climatic vegetation (rainfall-driven) and azonal vegetation (edaphic/hydrologic-driven), a critical distinction in vegetation geography.",
+    "id": "gen_c11_geo_ch10_q17",
     "nodeId": "c11_geo_cbse_10_006",
     "difficulty": "advanced"
    },
@@ -4229,68 +4814,8 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Wildlife of India' slide -- match the key terms.",
     "misconception": "A wrong calculation (e.g., using total PA area 850 km² for density) reveals the student does not distinguish between Core (inviolate) and Buffer (multiple-use) zones in Tiger Reserve design — a critical policy distinction under the Wildlife Protection Act Amendment 2006.",
-    "id": "gen_c11_geo_ch10_q14",
-    "nodeId": "c11_geo_cbse_10_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Name the bio-geographic zone that houses the only wild population of the Asiatic Lion (Panthera leo persica) and state the specific forest type (Champion & Seth classification) that dominates its habitat.",
-    "answer": "The Asiatic Lion is restricted to the Gujarat-Rajputana bio-geographic zone (specifically the Kathiawar peninsula)",
-    "options": [
-     "Mawsynram receives ~2,500–2,600 mm (world's highest average), while Jaisalmer receives ~100–150 mm",
-     "The Malabar Coast lies on the windward side of the Western Ghats facing the Arabian Sea branch of the Southwest Monsoon (June–September)",
-     "The Asiatic Lion is restricted to the Gujarat-Rajputana bio-geographic zone (specifically the Kathiawar peninsula)"
-    ],
-    "hint": "Straight from the 'Wildlife of India' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Western Ghats zone\" or \"Tropical Evergreen forest\") reveals the student is confusing the lion's historic range with its current relict population and does not understand that the lion's ecology in India is adapted to dry, open deciduous/scrub habitats, not wet evergreen forests.",
-    "id": "gen_c11_geo_ch10_q15",
-    "nodeId": "c11_geo_cbse_10_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a climate-resilient cropping system for a 2-hectare rainfed farm in Bundelkhand (Uttar Pradesh) with: annual rainfall 850 mm (CV 30%), Vertisol soil, groundwater depth 40 m (unviable for irrigation), and household requirement of 15 qtl foodgrain/year.",
-    "answer": "Kharif: Short-duration (100-110 days) pearl millet hybrid (HHB 299) + pigeonpea (ICPL 88039, 160 days) intercropped 2:1 ratio—millet escapes terminal drought",
-    "options": [
-     "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: Deviations squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) =",
-     "LGP = 123 days (June 15 to October 15 inclusive). However, Vertisols have high water holding capacity (200-250 mm/m) but very low infiltration rate when dry and swell-shrink",
-     "Kharif: Short-duration (100-110 days) pearl millet hybrid (HHB 299) + pigeonpea (ICPL 88039, 160 days) intercropped 2:1 ratio—millet escapes terminal drought"
-    ],
-    "hint": "Straight from the 'impact of climate on Indian' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Kharif: Short-duration (100-110 days) pearl millet hybrid (HHB 299) + pigeonpea (ICPL 88039, 160 days) intercropped 2:1",
-    "id": "gen_c11_geo_ch10_q16",
-    "nodeId": "c11_geo_cbse_10_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the effectiveness of the Pradhan Mantri Fasal Bima Yojana (PMFBY) as a climate risk management tool for smallholders in Marathwada, considering: (i) basis risk from weather station density, (ii) actuarial premium vs.",
-    "answer": "PMFBY has limited effectiveness in Marathwada due to: (i) IMD weather station density ~1 per 500 km² vs",
-    "options": [
-     "Rice (especially transplanted paddy) has a narrow optimal sowing/transplanting window (mid-June to early July) because it requires standing water during early vegetative growth",
-     "The Malabar Coast lies on the windward side of the Western Ghats facing the Arabian Sea branch of the Southwest Monsoon (June–September)",
-     "PMFBY has limited effectiveness in Marathwada due to: (i) IMD weather station density ~1 per 500 km² vs"
-    ],
-    "hint": "Straight from the 'impact of climate on Indian' slide -- match the key terms.",
-    "misconception": "Wrong answer citing \"scheme exists therefore works\" ignores implementation geography.",
-    "id": "gen_c11_geo_ch10_q17",
-    "nodeId": "c11_geo_cbse_10_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why a delay in monsoon onset by 10-15 days over the core rice-growing belt (Eastern Uttar Pradesh, Bihar, West Bengal) disproportionately reduces rice yields compared to a similar delay over the cotton belt (Maharashtra, Gujarat).",
-    "answer": "Rice (especially transplanted paddy) has a narrow optimal sowing/transplanting window (mid-June to early July) because it requires standing water during early vegetative growth",
-    "options": [
-     "The Malabar Coast lies on the windward side of the Western Ghats facing the Arabian Sea branch of the Southwest Monsoon (June–September)",
-     "The statement is incorrect. While the Sundarbans receive ~180 cm rainfall, mangroves occupy the intertidal zone where daily tidal inundation brings saline water (15-35 ppt)",
-     "Rice (especially transplanted paddy) has a narrow optimal sowing/transplanting window (mid-June to early July) because it requires standing water during early vegetative growth"
-    ],
-    "hint": "Straight from the 'impact of climate on Indian' slide -- match the key terms.",
-    "misconception": "A wrong answer attributing it only to \"water requirement differences\" misses the critical phenology-temperature interaction: rice yield is thermo-sensitive during panicle initiation, while cotton's indeterminate growth buffers timing shifts.",
     "id": "gen_c11_geo_ch10_q18",
-    "nodeId": "c11_geo_cbse_10_008",
+    "nodeId": "c11_geo_cbse_10_007",
     "difficulty": "advanced"
    }
   ],
@@ -5105,6 +5630,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Evaluate the claim: \"Classifying hazards into geophysical, hydrological, meteorological, climatological, and biological is merely academic; for disaster management, all that matters is the emergency response.\" Argue for or against with three distinct reasons grounded in the geography of risk.",
+    "answer": "Against. (1) Classification dictates *primary* agency and monitoring technology: geophysical → IMD/seismological networks; meteorological → IMD/INCOIS",
+    "options": [
+     "The statement is partially correct but incomplete. The Andaman-Sumatra subduction zone (India plate subducting under Burma microplate) is the primary driver",
+     "Inaccuracies: (1) \"Natural disaster\" implies the disaster itself is natural; correctly, the *cloudburst* was the natural hazard, the *flood* was the resulting disaster",
+     "Against. (1) Classification dictates *primary* agency and monitoring technology: geophysical → IMD/seismological networks; meteorological → IMD/INCOIS"
+    ],
+    "hint": "Straight from the 'natural hazard' slide -- match the key terms.",
+    "misconception": "A student who agrees reveals a response-centric mindset ignoring the prevention-mitigation-preparedness continuum.",
+    "id": "gen_c11_geo_ch11_q15",
+    "nodeId": "c11_geo_cbse_11_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Given the following data for two hypothetical regions hit by identical cyclones (wind speed 180 km/h, rainfall 300 mm/24h): Region A: Population density 1,200/km², 80% kutcha houses, no early warning, no evacuation plan.",
     "answer": "Region A: Very high vulnerability (weak housing), high exposure (dense population), near-zero capacity → Risk ≈ Very High → Disaster certain",
     "options": [
@@ -5114,7 +5654,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'natural hazard' slide -- match the key terms.",
     "misconception": "A student who calculates numerically or ignores capacity reveals a mechanistic misunderstanding; the formula is conceptual, not arithmetic.",
-    "id": "gen_c11_geo_ch11_q15",
+    "id": "gen_c11_geo_ch11_q16",
     "nodeId": "c11_geo_cbse_11_001",
     "difficulty": "standard"
    },
@@ -5129,36 +5669,21 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'natural hazard' slide -- match the key terms.",
     "misconception": "A wrong answer that classifies both as \"geophysical\" or attributes the difference solely to wave height misses the vulnerability-exposure framework.",
-    "id": "gen_c11_geo_ch11_q16",
+    "id": "gen_c11_geo_ch11_q17",
     "nodeId": "c11_geo_cbse_11_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Define the term 'seismic zone' as used in the Indian context (IS 1893) and state the number of seismic zones into which India is divided.",
-    "answer": "A seismic zone in India (per IS 1893) is a geographical region classified based on the maximum expected earthquake intensity on the Modified Mercalli Scale",
+    "question": "Analyse the seismic zone map of India and explain why the Indo-Gangetic Plain (Punjab to Assam) falls in Zone IV despite being on thick alluvium far from the Himalayan thrust front.",
+    "answer": "The Indo-Gangetic Plain is Zone IV due to: (1) Proximity to Himalayan thrusts (Main Frontal Thrust) — seismic energy radiates into the foreland basin",
     "options": [
-     "Mitigation refers to measures taken to reduce or eliminate the long-term risk to life and property from hazards",
-     "A natural hazard is a potentially damaging physical event (e.g., earthquake, cyclone); a natural disaster is the severe societal disruption caused when that hazard strikes a",
-     "A seismic zone in India (per IS 1893) is a geographical region classified based on the maximum expected earthquake intensity on the Modified Mercalli Scale"
+     "Kutch lies in Zone V due to intraplate seismicity along the Kutch Rift Basin, a failed Mesozoic rift reactivated by northward compressional stress from the India-Eurasia collision",
+     "Inaccuracies: (1) \"Natural disaster\" implies the disaster itself is natural; correctly, the *cloudburst* was the natural hazard, the *flood* was the resulting disaster",
+     "The Indo-Gangetic Plain is Zone IV due to: (1) Proximity to Himalayan thrusts (Main Frontal Thrust) — seismic energy radiates into the foreland basin"
     ],
     "hint": "Straight from the 'earthquake' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"five zones\" or \"zones based only on past earthquakes\") reveals confusion with older classifications or misunderstanding that zonation integrates geological structure, not just historical records.",
-    "id": "gen_c11_geo_ch11_q17",
-    "nodeId": "c11_geo_cbse_11_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a seismic risk awareness poster for a school in Delhi (Zone IV) that explains: (a) Why Delhi is in Zone IV despite no major historical earthquake, (b) Two geological features increasing its vulnerability, and (c) One preparedness action specific to its alluvial setting.",
-    "answer": "Good answer includes: (a) Delhi lies on the Delhi-Haridwar Ridge (Aravalli-Delhi fold belt) with active faults (Mahendragarh-Dehradun Fault",
-    "options": [
-     "Template filled for Kendrapara, Odisha: (a) Cyclone & storm surge — Meteorological & Hydrological; (b) 7 severe cyclones 1999-2021",
-     "A strong plan must include: (1) Natural warning recognition: strong ground shaking (>20 sec), sudden sea recession, unusual roaring sound",
-     "Good answer includes: (a) Delhi lies on the Delhi-Haridwar Ridge (Aravalli-Delhi fold belt) with active faults (Mahendragarh-Dehradun Fault"
-    ],
-    "hint": "Straight from the 'earthquake' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Good answer includes: (a) Delhi lies on the Delhi-Haridwar Ridge (Aravalli-Delhi fold belt) with active faults",
+    "misconception": "A wrong answer citing \"soil type only\" or \"distance from mountains\" misses the combined tectonic proximity, basin amplification, and hidden fault hazards.",
     "id": "gen_c11_geo_ch11_q18",
     "nodeId": "c11_geo_cbse_11_002",
     "difficulty": "advanced"
@@ -6121,15 +6646,15 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the role of time in soil formation on a stable plateau surface versus an active floodplain. How does the concept of \"soil age\" differ from \"chronological age\"?",
-    "answer": "On a stable plateau (e.g., Chotanagpur), time allows deep weathering, horizon development, and nutrient depletion — soils are \"old\" (highly weathered, kaolinitic)",
+    "question": "A soil profile shows a thick, dark A horizon rich in organic matter, underlain by a B horizon with clay accumulation (illuviation) and iron oxides. The parent material is granite.",
+    "answer": "Dominant processes: (1) Weathering of granite releases quartz, feldspar, mica; (2) Humification in wet season creates dark A horizon",
     "options": [
-     "Punjab-Haryana Bangar: Coarse texture, kankar layer impedes drainage, low organic matter → requires canal irrigation (Bhakra Nangal), heavy fertiliser (N, P)",
-     "Black Soil: high Ca²⁺, Mg²⁺, K⁺ (from basalt), low N, P, organic matter; alkaline pH (7.5-8.5) fixes P as calcium phosphate",
-     "On a stable plateau (e.g., Chotanagpur), time allows deep weathering, horizon development, and nutrient depletion — soils are \"old\" (highly weathered, kaolinitic)"
+     "Steps: (1) Note high rainfall (>2000 mm), warm temperature → intense chemical weathering + leaching",
+     "Investigation design: Dig 2 m pit, describe horizons at 10 cm intervals. Measure: (1) Particle size distribution (PSD) — abrupt textural change (e",
+     "Dominant processes: (1) Weathering of granite releases quartz, feldspar, mica; (2) Humification in wet season creates dark A horizon"
     ],
     "hint": "Straight from the 'Soil' slide -- match the key terms.",
-    "misconception": "A wrong answer equating soil age with calendar years reveals a misunderstanding of time as a factor of intensity/duration of processes, not just duration.",
+    "misconception": "A wrong answer missing eluviation/illuviation indicates the student does not grasp vertical material movement as a core pedogenic mechanism.",
     "id": "gen_c11_geo_ch12_q18",
     "nodeId": "c11_geo_cbse_12_001",
     "difficulty": "standard"
@@ -6816,17 +7341,17 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the sediment load characteristics of the Brahmaputra and the Kaveri rivers and explain how their respective basin geology and gradient produce these differences.",
-    "answer": "The Brahmaputra carries one of the world's highest sediment loads (≈400-800 million tonnes/yr) due to its steep Himalayan gradient, active tectonics",
+    "question": "Using the concept of \"utilisable surface water potential\" (690 km³) and \"total surface water potential\" (1,869 km³), calculate the percentage of surface water that is actually utilisable. Then explain why this percentage is low, citing three specific geographical constraints.",
+    "answer": "Step 1: Identify total potential = 1,869 km³, utilisable = 690 km³. Step 2: Calculate (690/1,869) × 100 = 36",
     "options": [
-     "Bhakra-Nangal (gravity dam, 1963) altered Sutlej’s flow regime, reducing downstream sediment and affecting Punjab’s aquifer recharge; located in moderate seismic zone (Zone IV)",
-     "In the Godavari (peninsular), surface water flow is highly seasonal — negligible in dry months, flashy floods in monsoon",
-     "The Brahmaputra carries one of the world's highest sediment loads (≈400-800 million tonnes/yr) due to its steep Himalayan gradient, active tectonics"
+     "Steps: 1. Sinuosity Index = Actual Channel Length / Straight-Line Distance = 280 km / 150 km = 1.87",
+     "Canal water reaches only 30% of Thar; tail-end villages get saline water (EC > 4 dS/m) unfit for irrigation",
+     "Step 1: Identify total potential = 1,869 km³, utilisable = 690 km³. Step 2: Calculate (690/1,869) × 100 = 36"
     ],
-    "hint": "Straight from the 'drainage basin' slide -- match the key terms.",
-    "misconception": "A wrong comparison (e.g., attributing Kaveri's low load solely to dams) misses the fundamental control of *basement geology and tectonic setting* on sediment yield.",
+    "hint": "Straight from the 'Surface water in India comprises' slide -- match the key terms.",
+    "misconception": "A wrong calculation or listing only \"lack of dams\" reveals inability to quantify the gap and misunderstanding of physical vs. socio-legal constraints.",
     "id": "gen_c11_geo_ch13_q18",
-    "nodeId": "c11_geo_cbse_13_002",
+    "nodeId": "c11_geo_cbse_13_001",
     "difficulty": "standard"
    }
   ],
@@ -12101,16 +12626,17 @@ export const C11_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_geo_ch20",
-  "title": "Agro-based Industries",
+  "title": "Manufacturing",
   "subtitle": "Geography · Chapter 20",
   "classLevel": 11,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Agro-based Industries",
+  "topic": "Manufacturing",
   "chapters": [
-   "Geography Ch20: Agro-based Industries"
+   "Geography Ch20: Manufacturing"
   ],
   "nodeIds": [
+   "c11_geo_cbse_20_001",
    "c11_geo_cbse_20_002",
    "c11_geo_cbse_20_003",
    "c11_geo_cbse_20_004",
@@ -12126,16 +12652,22 @@ export const C11_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Agro-based Industries suddenly stops working?",
+   "question": "What happens if Manufacturing suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "Agro-based industries are manufacturing units that use agricultural raw materials (cotton, jute, sugarcane) as primary inputs, where the"
+   "hook": "Manufacturing is the large-scale transformation of raw materials into finished goods through the application of machinery, labor, capital, and"
   },
   "teaching": [
+   {
+    "title": "Manufacturing",
+    "text": "Manufacturing is the large-scale transformation of raw materials into finished goods through the application of machinery, labor, capital, and technology, adding value at each stage.",
+    "emoji": "🌍",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
    {
     "title": "Agro-based Industries",
     "text": "Agro-based industries are manufacturing units that use agricultural raw materials (cotton, jute, sugarcane) as primary inputs, where the weight-losing nature of raw materials dictates location near production zones, and where processing involves distinct",
@@ -12182,6 +12714,69 @@ export const C11_GEO_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "order",
+    "question": "A proposed aluminium smelter requires 15,000 kWh of electricity per tonne of aluminium. The raw material (bauxite) is available in Region A (Odisha), while cheap hydroelectric power is available in Region B (Himachal Pradesh).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Refining stage",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Conclusion",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Smelting stage",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Cost comparison",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer placing the smelter beside the bauxite ignores that multi-stage shift.",
+    "id": "gen_c11_geo_ch20_q1",
+    "nodeId": "c11_geo_cbse_20_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe the industrial landscape around your city — perhaps a textile mill in Surat, an automobile plant in Pune, or an IT park in Bengaluru.",
+     "Ask: \"Why is this factory HERE and not 50 km away?\" Connect this to your Class 10 learning about resource distribution (c10_geo_cbse_05_009) and",
+     "Begin by listing all inputs a factory needs: raw material, energy, water, workers, buyers, roads/rail, capital, and rules.",
+     "Then classify each as geographical (nature-given) or human-made."
+    ]
+   },
+   {
+    "type": "order",
     "question": "Name the three distinct processing stages of cotton textile industry where weight loss occurs, and state the approximate percentage weight loss at each stage.",
     "sortItems": [
      {
@@ -12222,7 +12817,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"spinning loses most weight\") reveals the student confuses fibre separation (primary weight loss) with subsequent value-addition stages. This misconception leads to incorrect locational predictions — they might place spinning mills at raw material source when actually ginning is the only stage",
-    "id": "gen_c11_geo_ch20_q1",
+    "id": "gen_c11_geo_ch20_q2",
     "nodeId": "c11_geo_cbse_20_002",
     "difficulty": "advanced",
     "workedExample": [
@@ -12241,7 +12836,7 @@ export const C11_GEO_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong calculation (e.g., forgetting the yield factor or using 1:1 ratio) reveals the student cannot apply the weight-loss principle quantitatively.",
-    "id": "gen_c11_geo_ch20_q2",
+    "id": "gen_c11_geo_ch20_q3",
     "nodeId": "c11_geo_cbse_20_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -12293,7 +12888,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Unsustainable in current form: (1) Coal-based captive power plants emit ~12-14 t CO₂/tonne Al vs ~4 t for hydro; (2)",
-    "id": "gen_c11_geo_ch20_q3",
+    "id": "gen_c11_geo_ch20_q4",
     "nodeId": "c11_geo_cbse_20_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -12314,7 +12909,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Industrial regions' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., missing Kollam or confusing Chotanagpur with Durgapur only) reveals the student memorises a list without linking each region to its *primary* resource base.",
-    "id": "gen_c11_geo_ch20_q4",
+    "id": "gen_c11_geo_ch20_q5",
     "nodeId": "c11_geo_cbse_20_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -12388,7 +12983,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., calculating only one parameter, or using wrong formula) shows inability to apply *mass-balance thinking* to regulatory compliance — a core skill for environmental engineers and geographers.",
-    "id": "gen_c11_geo_ch20_q5",
+    "id": "gen_c11_geo_ch20_q6",
     "nodeId": "c11_geo_cbse_20_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -12462,7 +13057,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing only \"government policy failure\" or \"lack of raw materials\" reveals misunderstanding of agglomeration economies — SSI clusters form around existing industrial ecosystems, not in isolation; incentives alone cannot overcome missing infrastructure and market linkages.",
-    "id": "gen_c11_geo_ch20_q6",
+    "id": "gen_c11_geo_ch20_q7",
     "nodeId": "c11_geo_cbse_20_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -12483,7 +13078,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Industrial Policy and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing coal, iron & steel, or telecommunications) reveals confusion between the 1991 reforms and later disinvestment waves, or misunderstanding that the 1956 resolution's Schedule A was the statutory basis for public sector monopoly, not the Constitution's Seventh Schedule.",
-    "id": "gen_c11_geo_ch20_q7",
+    "id": "gen_c11_geo_ch20_q8",
     "nodeId": "c11_geo_cbse_20_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -12492,6 +13087,142 @@ export const C11_GEO_GEN: SimDef[] = [
      "Connect this to your Class 10 learning on industrial location factors (c10_geo_cbse_06_007) — how did removing licensing change where industries",
      "The key geographical principle: liberalisation shifted industrial location from \"policy-driven\" (near administrative centres, raw materials allocated"
     ]
+   },
+   {
+    "type": "order",
+    "question": "Design a locational decision framework for a new lithium-ion battery gigafactory in India. Your framework must integrate at least five geographical factors, two non-geographical factors, and one sustainability constraint. Present as a weighted checklist with justification for each weight.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Water stress index",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Renewable energy availability",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "EV demand cluster proximity",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "State industrial policy incentives",
+      "emoji": "📌",
+      "correctBin": "o5"
+     },
+     {
+      "id": "s4",
+      "label": "Import-port proximity for lithium",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s5",
+      "label": "Skilled technical labour pool",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     },
+     {
+      "id": "o5",
+      "label": "6th",
+      "color": "#ec4899"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer lists factors without weights, ignores import dependence of critical minerals, or treats sustainability as optional.",
+    "id": "gen_c11_geo_ch20_q9",
+    "nodeId": "c11_geo_cbse_20_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "Evaluate the statement: \"Government policy is the most decisive factor for industrial location in post-1991 India.\" Use the examples of the Tata Nano plant (Sanand, Gujarat) and the POSCO steel project (Odisha, stalled) to support your judgment.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Supporting case",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Judgement",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Conclusion",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Limiting case",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Judgement — government policy is necessary but not sufficient, it can override geographical disadvantages yet",
+    "id": "gen_c11_geo_ch20_q10",
+    "nodeId": "c11_geo_cbse_20_001",
+    "difficulty": "standard"
    },
    {
     "type": "order",
@@ -12557,7 +13288,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Maharashtra: 5,000 × 0.11 × 150 = 82,500 tonnes sugar/year. Uttar Pradesh: 4,000 × 0.",
-    "id": "gen_c11_geo_ch20_q8",
+    "id": "gen_c11_geo_ch20_q11",
     "nodeId": "c11_geo_cbse_20_002",
     "difficulty": "advanced"
    },
@@ -12614,7 +13345,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer picks a site without port/rail access or ignores coking coal import logistics, showing inability to synthesize multi-factor location analysis.",
-    "id": "gen_c11_geo_ch20_q9",
+    "id": "gen_c11_geo_ch20_q12",
     "nodeId": "c11_geo_cbse_20_003",
     "difficulty": "advanced"
    },
@@ -12660,7 +13391,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer focusing only on \"raw materials\" without specifying coking coal vs. thermal coal, or ignoring water and transport, shows incomplete understanding of multi-factor location theory.",
-    "id": "gen_c11_geo_ch20_q10",
+    "id": "gen_c11_geo_ch20_q13",
     "nodeId": "c11_geo_cbse_20_003",
     "difficulty": "advanced"
    },
@@ -12728,7 +13459,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Calculate daily gas volume: Plant A = 500,000 × 24 = 12,000,000 Nm³/day; Plant B = 350,000 × 24 = 8,400,000",
-    "id": "gen_c11_geo_ch20_q11",
+    "id": "gen_c11_geo_ch20_q14",
     "nodeId": "c11_geo_cbse_20_006",
     "difficulty": "advanced"
    },
@@ -12774,7 +13505,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is *scientifically and legally false*. Step 1: Green belts mitigate *air* pollution (dry deposition of",
-    "id": "gen_c11_geo_ch20_q12",
+    "id": "gen_c11_geo_ch20_q15",
     "nodeId": "c11_geo_cbse_20_006",
     "difficulty": "advanced"
    },
@@ -12831,7 +13562,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists generic \"training and loans\" without cluster-specific assets (GI tag, shared kiln, SPV structure) — revealing failure to understand that cluster development requires collective infrastructure and brand identity, not individual firm support.",
-    "id": "gen_c11_geo_ch20_q13",
+    "id": "gen_c11_geo_ch20_q16",
     "nodeId": "c11_geo_cbse_20_007",
     "difficulty": "advanced"
    },
@@ -12888,79 +13619,33 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer claiming \"CGTMSE solved credit access\" ignores that risk-sharing doesn't eliminate information asymmetry — it shifts but doesn't remove the screening cost that excludes the smallest, most informal units.",
-    "id": "gen_c11_geo_ch20_q14",
+    "id": "gen_c11_geo_ch20_q17",
     "nodeId": "c11_geo_cbse_20_007",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "A sugar mill in Maharashtra crushes 5,000 tonnes of cane per day (TCD) at 11% recovery. Another in Uttar Pradesh crushes 4,000 TCD at 10.5% recovery. Calculate annual sugar production for each assuming 150 crushing days.",
-    "answer": "Maharashtra: 5,000 × 0.11 × 150 = 82,500 tonnes sugar/year. Uttar Pradesh: 4,000 × 0.105 × 150 = 63,000 tonnes sugar/year",
+    "question": "A proposed aluminium smelter requires 15,000 kWh of electricity per tonne of aluminium. The raw material (bauxite) is available in Region A (Odisha), while cheap hydroelectric power is available in Region B (Himachal Pradesh).",
+    "answer": "(1) Refining stage — bauxite loses half its weight per tonne of alumina, so the material index is 2 and this stage sits near the bauxite in Region A, (2) Smelting stage",
     "options": [
-     "Bangalore-Tamil Nadu benefited from *urbanisation economies*: a large skilled labour pool (engineering colleges), pleasant climate attracting talent, early public investment (HAL",
-     "A strong answer assigns weights reflecting *battery industry specifics*: 1) Port access for imported lithium/cobalt (25%) — Gujarat wins (multiple deep-draft ports)",
-     "Maharashtra: 5,000 × 0.11 × 150 = 82,500 tonnes sugar/year. Relocation: 4,000 × 0.105 × 150 = 63,000 tonnes sugar/year",
-     "Maharashtra: 5,000 × 0.11 × 150 = 82,500 tonnes sugar/year. Uttar Pradesh: 4,000 × 0.105 × 150 = 63,000 tonnes sugar/year"
+     "Annual power consumption = 300,000 × 14,500 = 4.35 × 10⁹ kWh. Current cost = 4.35 × 10⁹ × 6.50 = ₹28,275 crore",
+     "Maharashtra: 5,000 × 0.11 × 150 = 82,500 tonnes sugar/year. Uttar Pradesh: 4,000 × 0.105 × 150 = 63,000 tonnes sugar/year",
+     "(1) Refining stage — bauxite loses half its weight per tonne of alumina, so the material index is 2 and this stage sits near the bauxite in Region A, (2) Smelting stage"
     ],
-    "hint": "Straight from the 'Agro-based industries' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Maharashtra: 5,000 × 0.11 × 150 = 82,500 tonnes sugar/year. Uttar Pradesh: 4,000 × 0.",
-    "id": "gen_c11_geo_ch20_q15",
-    "nodeId": "c11_geo_cbse_20_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the 'weight-losing' character of raw materials in cotton, jute, and sugar industries. Rank them by degree of weight loss and explain how this ranking correlates with the distance each industry locates from its raw material source.",
-    "answer": "Rank (highest to lowest weight loss): Sugar (sugarcane: 90-92% weight loss — only 10-12% becomes sugar, rest bagasse, molasses",
-    "options": [
-     "Gujarat's multiple ports (Kandla, Mundra, Pipavav, Dahej) serve a *vast, resource-rich hinterland* (cotton, salt, limestone, oil/gas",
-     "Urea synthesis: CH₄ (natural gas) + N₂ → NH₃ → CO(NH₂)₂. Natural gas is both feedstock (70-80% of cost) and fuel",
-     "Rank (highest to lowest weight loss): Sugar (sugarcane: 90-92% weight loss — only 10-12% becomes sugar, rest bagasse, molasses"
-    ],
-    "hint": "Straight from the 'Agro-based industries' slide -- match the key terms.",
-    "misconception": "A wrong ranking (e.g., cotton > sugar) reveals confusion between fibre content percentage and total biomass conversion efficiency.",
-    "id": "gen_c11_geo_ch20_q16",
-    "nodeId": "c11_geo_cbse_20_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the jute industry remains concentrated in the Hooghly basin (West Bengal) despite the partition of 1947 placing 75% of jute-growing areas in East Pakistan (now Bangladesh), while the cotton textile industry decentralised widely across India.",
-    "answer": "Jute requires: (a) abundant fresh water for retting (microbiological fibre separation) — Hooghly provides perennial flow",
-    "options": [
-     "The Chotanagpur plateau (Jharkhand, Odisha, West Bengal) hosts TISCO-Jamshedpur, IISCO-Burnpur, Bhilai, Rourkela, Durgapur",
-     "Cement is a weight-losing industry: ~1.5 tonnes limestone + 0.4 tonnes coal/gypsum → 1 tonne cement",
-     "Jute requires: (a) abundant fresh water for retting (microbiological fibre separation) — Hooghly provides perennial flow"
-    ],
-    "hint": "Straight from the 'Agro-based industries' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"raw material availability\" misses the critical role of process-specific site requirements (water quality, humidity) that create industrial inertia.",
-    "id": "gen_c11_geo_ch20_q17",
-    "nodeId": "c11_geo_cbse_20_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the locational logic of Bhilai (Chhattisgarh) and Visakhapatnam (Andhra Pradesh) steel plants. Why does Visakhapatnam violate the typical raw-material-orientation pattern?",
-    "answer": "Bhilai follows classic raw-material orientation: located near Dalli-Rajhara iron ore and Korba coal, on the Kolkata-Mumbai rail route, with water from the Shivnath river",
-    "options": [
-     "Large PSU plants create growth poles with strong backward linkages (demand for coal, iron ore, machinery) and forward linkages (steel for construction, auto)",
-     "Rank (highest to lowest weight loss): Sugar (sugarcane: 90-92% weight loss — only 10-12% becomes sugar, rest bagasse, molasses",
-     "Bhilai follows classic raw-material orientation: located near Dalli-Rajhara iron ore and Korba coal, on the Kolkata-Mumbai rail route, with water from the Shivnath river"
-    ],
-    "hint": "Straight from the 'iron and steel industry' slide -- match the key terms.",
-    "misconception": "A student who says \"Visakhapatnam has local coal/iron ore\" shows a factual misconception; one who cannot explain the pipeline/port economics misses the technology-policy shift.",
+    "hint": "Straight from the 'Manufacturing' slide -- match the key terms.",
+    "misconception": "A wrong answer placing the smelter beside the bauxite ignores that multi-stage shift.",
     "id": "gen_c11_geo_ch20_q18",
-    "nodeId": "c11_geo_cbse_20_003",
-    "difficulty": "advanced"
+    "nodeId": "c11_geo_cbse_20_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about agro-based industries?",
+    "What surprised you about manufacturing?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Agro-based Industries mastered! 🎯",
+  "successLine": "Manufacturing mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -13653,6 +14338,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Define 'transport' in the context of geographical systems and list the five primary modes of transport in India with one key commodity each predominantly carries.",
+    "answer": "Transport is the spatial movement of people, goods, and information across a network of nodes and links",
+    "options": [
+     "The three gauge systems are: Broad Gauge (1676 mm), Meter Gauge (1000 mm), and Narrow Gauge (762 mm and 610 mm)",
+     "The two main categories are domestic airports (handling flights within India) and international airports (handling flights to/from other countries). Some airports function as both",
+     "Transport is the spatial movement of people, goods, and information across a network of nodes and links"
+    ],
+    "hint": "Straight from the 'Transport' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., listing 'internet' as a mode or assigning coal to airways) reveals confusion between transport and communication, or ignorance of modal characteristics (cost/ton-km vs. speed).",
+    "id": "gen_c11_geo_ch21_q15",
+    "nodeId": "c11_geo_cbse_21_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a multimodal transport corridor for transporting iron ore from Bellary (Karnataka) to a steel plant in Jamshedpur (Jharkhand). Specify the modes, transfer points, and justify each choice using cost, geography, and infrastructure constraints.",
     "answer": "A good answer: (1) Road from mine to railhead (Bellary-Hospet, 20 km) – flexible for dispersed mines",
     "options": [
@@ -13662,7 +14362,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Transport' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer: (1) Road from mine to railhead (Bellary-Hospet, 20 km) – flexible for dispersed mines.",
-    "id": "gen_c11_geo_ch21_q15",
+    "id": "gen_c11_geo_ch21_q16",
     "nodeId": "c11_geo_cbse_21_001",
     "difficulty": "standard"
    },
@@ -13677,7 +14377,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Transport' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is partially true for last-mile connectivity but flawed as a national priority.",
-    "id": "gen_c11_geo_ch21_q16",
+    "id": "gen_c11_geo_ch21_q17",
     "nodeId": "c11_geo_cbse_21_001",
     "difficulty": "standard"
    },
@@ -13692,21 +14392,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Transport' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on 'population' or 'money' misses the physical geography constraints (slope, drainage, geology) that make surface transport prohibitively expensive in mountains.",
-    "id": "gen_c11_geo_ch21_q17",
-    "nodeId": "c11_geo_cbse_21_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Given: Road transport carries 65% of freight and 80% of passenger traffic in India, but railways carry 35% of freight and 15% of passengers. Calculate the freight modal share ratio (Road:Rail) and passenger modal share ratio (Road:Rail).",
-    "answer": "Step 1: Freight share Road = 65%, Rail = 35%. Ratio = 65:35 = 13:7 ≈ 1.86:1. Step 2: Passenger share Road = 80%, Rail = 15%",
-    "options": [
-     "Good answer: Chennai plant → (rail/road 30km) → Kamarajar Port (Ennore) → (coastal shipping 1200km) → JNPT (Nhava Sheva) → (mother vessel via Suez Canal) → Rotterdam (Netherlands)",
-     "A good answer: (1) Road from mine to railhead (Bellary-Hospet, 20 km) – flexible for dispersed mines",
-     "Step 1: Freight share Road = 65%, Rail = 35%. Ratio = 65:35 = 13:7 ≈ 1.86:1. Step 2: Passenger share Road = 80%, Rail = 15%"
-    ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
-    "misconception": "A wrong calculation (e.g., using absolute numbers instead of percentages) or missing the energy implication shows inability to link statistics to policy.",
     "id": "gen_c11_geo_ch21_q18",
     "nodeId": "c11_geo_cbse_21_001",
     "difficulty": "standard"
@@ -14136,6 +14821,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Given a map with a Representative Fraction (RF) of 1:50,000, calculate the ground distance in kilometres represented by 3.5 cm on the map.",
+    "answer": "Step 1: RF 1:50,000 means 1 cm on map = 50,000 cm on ground. Step 2: 3.5 cm on map = 3.5 × 50,000 = 175,000 cm on ground",
+    "options": [
+     "Calculation: 2 cm × 50,000 = 100,000 cm = 1 km ground distance. Reasoning: Red is the category colour for public administration / services",
+     "Procedure: 1. Draw line XY on the map; mark every contour crossing and spot height along it. 2. Measure horizontal map distance between X and Y (say 12 cm)",
+     "Step 1: RF 1:50,000 means 1 cm on map = 50,000 cm on ground. Step 2: 3.5 cm on map = 3.5 × 50,000 = 175,000 cm on ground"
+    ],
+    "hint": "Straight from the 'map' slide -- match the key terms.",
+    "misconception": "If a student forgets to convert cm to km, they reveal a gap in metric system conversion, a prerequisite skill from earlier classes.",
+    "id": "gen_c11_geo_ch22_q11",
+    "nodeId": "c11_geo_cbse_22_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What is the fundamental difference between a map and a sketch, according to the definition of scale in cartography?",
     "answer": "A map has a defined scale that establishes a consistent ratio between map distance and ground distance, whereas a sketch lacks a scale and only shows rough relative positions",
     "options": [
@@ -14145,7 +14845,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'map' slide -- match the key terms.",
     "misconception": "If a student says a sketch is just \"less detailed,\" they miss the critical cartographic distinction: without a scale, distances cannot be measured reliably, making it a sketch, not a map.",
-    "id": "gen_c11_geo_ch22_q11",
+    "id": "gen_c11_geo_ch22_q12",
     "nodeId": "c11_geo_cbse_22_001",
     "difficulty": "standard"
    },
@@ -14160,7 +14860,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'history of map making traces' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"area distortion is bad\" fails to grasp that *conformality* solved the life-or-death problem of course-keeping.",
-    "id": "gen_c11_geo_ch22_q12",
+    "id": "gen_c11_geo_ch22_q13",
     "nodeId": "c11_geo_cbse_22_002",
     "difficulty": "standard"
    },
@@ -14175,7 +14875,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'history of map making traces' slide -- match the key terms.",
     "misconception": "A wrong answer conflating \"both used coordinates\" misses the shift from *literary synthesis* to *field measurement*.",
-    "id": "gen_c11_geo_ch22_q13",
+    "id": "gen_c11_geo_ch22_q14",
     "nodeId": "c11_geo_cbse_22_002",
     "difficulty": "standard"
    },
@@ -14190,7 +14890,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'history of map making traces' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer includes a structured table: | Revolution | Core Innovation | Primary Users | Living Legacy |",
-    "id": "gen_c11_geo_ch22_q14",
+    "id": "gen_c11_geo_ch22_q15",
     "nodeId": "c11_geo_cbse_22_002",
     "difficulty": "standard"
    },
@@ -14205,7 +14905,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'history of map making traces' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"GIS solves distortion\" confuses *data management* with *geometric representation*.",
-    "id": "gen_c11_geo_ch22_q15",
+    "id": "gen_c11_geo_ch22_q16",
     "nodeId": "c11_geo_cbse_22_002",
     "difficulty": "standard"
    },
@@ -14220,7 +14920,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'history of map making traces' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"lack of latitude knowledge\" misses that Ptolemaic coordinates existed but were impractical for daily coastal piloting — the charts *chose* utility over mathematical rigour.",
-    "id": "gen_c11_geo_ch22_q16",
+    "id": "gen_c11_geo_ch22_q17",
     "nodeId": "c11_geo_cbse_22_002",
     "difficulty": "standard"
    },
@@ -14235,21 +14935,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Map scale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"all three become wrong\" or \"only R.F. survives\") reveals the student doesn't understand that graphical scale is a visual ratio that scales with the map, while verbal/numeric scales are fixed declarations that don't auto-adjust.",
-    "id": "gen_c11_geo_ch22_q17",
-    "nodeId": "c11_geo_cbse_22_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the three scale methods for a map that will be: (a) printed in a textbook and never resized, (b) used as a base map for GIS digitization where users zoom in/out digitally, (c) distributed as a field map for hikers who may photocopy it. Which method is optimal for each case and why?",
-    "answer": "(a) Textbook: Statement of Scale is sufficient — simple to read, no resizing occurs. (b) GIS digitization: R",
-    "options": [
-     "The dashed line indicates seasonal accessibility – unmetalled roads become impassable in monsoon, isolating the village for 3–4 months",
-     "A V-shaped valley (fluvial) shows contour lines forming sharp V's pointing uphill (towards higher elevation) with relatively uniform spacing, indicating steady slope",
-     "(a) Textbook: Statement of Scale is sufficient — simple to read, no resizing occurs. (b) GIS digitization: R"
-    ],
-    "hint": "Straight from the 'Map scale' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., recommending Statement for field maps) reveals the student hasn't internalized the practical implications of scale invariance under reproduction.",
     "id": "gen_c11_geo_ch22_q18",
     "nodeId": "c11_geo_cbse_22_003",
     "difficulty": "advanced"
@@ -14284,7 +14969,8 @@ export const C11_GEO_GEN: SimDef[] = [
    "c11_geo_cbse_23_005",
    "c11_geo_cbse_23_006",
    "c11_geo_cbse_23_007",
-   "c11_geo_cbse_23_008"
+   "c11_geo_cbse_23_008",
+   "c11_geo_cbse_23_009"
   ],
   "emoji": "🌍",
   "theme": {
@@ -14349,6 +15035,12 @@ export const C11_GEO_GEN: SimDef[] = [
    {
     "title": "Zenithal Projections",
     "text": "Zenithal (Azimuthal) projections are a class of map projections where the spherical surface of the Earth is projected onto a plane tangent to the globe at a single point (usually a pole or the equator), preserving true directions (azimuths) from the centre",
+    "emoji": "🌍",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Equidistance, Equivalence, And Conformality",
+    "text": "Equidistance, equivalence, and conformality are the three fundamental metric properties preserved by map projections: equidistance maintains true scale along specific lines (meridians, parallels, or great circles) from one or two points; equivalence",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -14555,7 +15247,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "answer": "A conical projection projects the globe onto a cone tangent along one standard parallel (or secant along two), which is then unfolded",
     "options": [
      "(1) Cylindrical – tangent along a great circle (usually equator) or secant along two small circles",
-     "Standard convention: \"1 unit on map = X units on ground\" — map distance is always stated first (e.g., \"1 cm = 1 km\" means 1 cm on map represents 1 km on ground)",
+     "(1) Equidistance — the scale factor equals 1 along specified lines only, h = 1 along chosen meridians or k = 1 along standard parallels, never everywhere at once",
      "A conical projection projects the globe onto a cone tangent along one standard parallel (or secant along two), which is then unfolded"
     ],
     "hint": "Straight from the 'conical projection' slide -- match the key terms.",
@@ -14646,6 +15338,58 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "Define the three metric properties of map projections — equidistance, equivalence, and conformality — using the terms \"scale factor along meridian (h)\", \"scale factor along parallel (k)\", and \"maximum angular deformation (ω)\". State the precise mathematical condition for each property.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Equidistance",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Conformality",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Equivalence",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer claiming equidistant means distances are true everywhere, or conformal means shapes are perfect at finite size, confuses local scale preservation with global truth, because only infinitesimal shapes are preserved.",
+    "id": "gen_c11_geo_ch23_q9",
+    "nodeId": "c11_geo_cbse_23_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Open a world map on your phone — notice how Greenland appears larger than India despite India being bigger in reality.",
+     "This visual shock is your entry point: every flat map lies about something.",
+     "Begin by asking \"What *must* this map get right for my purpose?\" — a navigator needs constant bearing lines (conformal), a demographer needs correct",
+     "Connect this to the developable surface classifications you studied in nodes 005-008: cylindrical projections like Mercator are conformal but"
+    ]
+   },
+   {
+    "type": "order",
     "question": "Design a step-by-step procedure for a surveyor to determine the RF of an old map that has no scale printed, using only a known ground distance between two identifiable points.",
     "sortItems": [
      {
@@ -14708,7 +15452,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer that skips unit conversion or doesn't simplify to 1:X shows the student treats RF as a mere fraction without standardizing numerator to 1.",
-    "id": "gen_c11_geo_ch23_q9",
+    "id": "gen_c11_geo_ch23_q10",
     "nodeId": "c11_geo_cbse_23_002",
     "difficulty": "standard"
    },
@@ -14765,7 +15509,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Usable paper: 19 cm × 27.7 cm. Longest campus dimension: 600 m = 60,000 cm.",
-    "id": "gen_c11_geo_ch23_q10",
+    "id": "gen_c11_geo_ch23_q11",
     "nodeId": "c11_geo_cbse_23_001",
     "difficulty": "standard"
    },
@@ -14822,7 +15566,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer (e.g., arbitrary lengths) shows inability to work backwards from physical constraints to scale design — a key cartographic skill.",
-    "id": "gen_c11_geo_ch23_q11",
+    "id": "gen_c11_geo_ch23_q12",
     "nodeId": "c11_geo_cbse_23_003",
     "difficulty": "advanced"
    },
@@ -14868,99 +15612,305 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"conical secant\") reveals the student cannot distinguish the graticule geometry of zenithal vs conical projections: conical also has straight radiating meridians and concentric circular parallels, but the convergence point is the apex of the cone (not the pole) and the pole appears as an arc, not",
-    "id": "gen_c11_geo_ch23_q12",
+    "id": "gen_c11_geo_ch23_q13",
     "nodeId": "c11_geo_cbse_23_005",
     "difficulty": "standard"
    },
    {
-    "type": "mcq",
-    "question": "A hiker uses a map with statement scale \"1 inch = 1 mile\" to plan a trek. They measure 2.5 inches between campsites and calculate 2.5 miles. The actual trail distance is 3.8 miles. Evaluate whether the map scale is inaccurate.",
-    "answer": "The map scale is not necessarily inaccurate. Statement scale measures straight-line (air) distance",
-    "options": [
-     "Statement Scale: \"1 cm represents 0.25 km\" (or \"1 cm represents 250 m\"). The RF denominator (25,000) is in centimeters because RF is unitless but implies same units for map and",
-     "Statement Scale → RF Checklist: 1. Write statement as \"X cm represents Y [unit]\". 2. Convert Y to cm (if km: ×100,000; if m: ×100)",
-     "The map scale is not necessarily inaccurate. Statement scale measures straight-line (air) distance"
+    "type": "order",
+    "question": "Compare the distortion patterns of these three projections for mapping India (8°N–37°N, 68°E–98°E): (i) Mercator (cylindrical conformal), (ii) Lambert Conformal Conic with standard parallels at 18°N and 30°N, (iii) Sinusoidal (pseudocylindrical equivalent).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Mercator",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Sinusoidal",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Lambert Conformal Conic",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Statement  Scale expresses the' slide -- match the key terms.",
-    "misconception": "A wrong answer (claiming the map is wrong) reveals the student conflates map-measured Euclidean distance with actual travel distance — a fundamental confusion between geometric representation and physical reality.",
-    "id": "gen_c11_geo_ch23_q13",
-    "nodeId": "c11_geo_cbse_23_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare statement scales \"1 cm = 200 m\" (Map A) and \"1 cm = 5 km\" (Map B). Which map shows more detail? If Map A covers a municipal ward and Map B covers a district, explain why the scale choice matches the purpose.",
-    "answer": "Map A (1 cm = 200 m) shows more detail — it is a larger scale (1:20,000 vs 1:500,000). Municipal wards need fine detail (individual roads",
-    "options": [
-     "At 60°N: The stereographic projection is conformal — it preserves local shapes (angles) but exaggerates area and radial distance",
-     "At 200% enlargement, the graphical scale doubles in length — its divisions now correctly represent ground distances on the enlarged map",
-     "Map A (1 cm = 200 m) shows more detail — it is a larger scale (1:20,000 vs 1:500,000). Municipal wards need fine detail (individual roads"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
     ],
-    "hint": "Straight from the 'Statement  Scale expresses the' slide -- match the key terms.",
-    "misconception": "A wrong answer (claiming Map B shows more detail because \"5 km > 200 m\") reveals confusion between scale denominator size and detail level — they think larger ground distance per cm means \"more ground shown\" equals \"more detail.\"",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Mercator — conformal, with area scaling as sec squared of latitude from about 1.",
     "id": "gen_c11_geo_ch23_q14",
-    "nodeId": "c11_geo_cbse_23_001",
-    "difficulty": "standard"
+    "nodeId": "c11_geo_cbse_23_009",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Design a statement scale for a map of your school campus (approx. 600 m × 400 m) to fit on A4 paper (21 cm × 29.7 cm) with 1 cm margins. Justify your scale choice with calculations.",
-    "answer": "Usable paper: 19 cm × 27.7 cm. Longest campus dimension: 600 m = 60,000 cm. Required scale factor: 60,000 cm / 19 cm ≈ 3158",
-    "options": [
-     "Statement Scale → RF Checklist: 1. Write statement as \"X cm represents Y [unit]\". 2. Convert Y to cm (if km: ×100,000; if m: ×100)",
-     "The map scale is not necessarily inaccurate. Statement scale measures straight-line (air) distance",
-     "Usable paper: 19 cm × 27.7 cm. Longest campus dimension: 600 m = 60,000 cm. Required scale factor: 60,000 cm / 19 cm ≈ 3158"
+    "type": "order",
+    "question": "Design a projection selection framework for a GIS analyst who must choose a projection for three different mapping tasks over the same region (India: 8°N–37°N, 68°E–98°E). Task A: Navigation app showing rhumb lines as straight lines.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Parameters",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Task B",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Task C",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Task",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Statement  Scale expresses the' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Usable paper: 19 cm × 27.7 cm. Longest campus dimension: 600 m = 60,000 cm.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer picks Mercator for the distance task, not realising equidistance is radial rather than global.",
     "id": "gen_c11_geo_ch23_q15",
-    "nodeId": "c11_geo_cbse_23_001",
-    "difficulty": "standard"
+    "nodeId": "c11_geo_cbse_23_009",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "What is the standard convention for writing a statement scale, and which distance (map or ground) is always stated first?",
-    "answer": "Standard convention: \"1 unit on map = X units on ground\" — map distance is always stated first (e.g., \"1 cm = 1 km\" means 1 cm on map represents 1 km on ground)",
-    "options": [
-     "A cylindrical projection projects the Earth's graticule onto a cylinder tangent to or secant with the globe, which is then unrolled into a flat map",
-     "A conical projection projects the globe onto a cone tangent along one standard parallel (or secant along two), which is then unfolded",
-     "Standard convention: \"1 unit on map = X units on ground\" — map distance is always stated first (e.g., \"1 cm = 1 km\" means 1 cm on map represents 1 km on ground)"
+    "type": "order",
+    "question": "Evaluate this statement for a Class 11 board exam answer: \"The Survey of India uses the Lambert Conformal Conic projection for all topographical maps because it preserves both shape and area accurately over the Indian subcontinent.\" Identify all errors and rewrite the statement correctly with justification.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Error two",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Error three",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Corrected statement",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Error one",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Statement  Scale expresses the' slide -- match the key terms.",
-    "misconception": "A wrong answer (reversing the order) reveals the student confuses the direction of representation — they think the scale describes how ground distance shrinks to map size rather than how map distance expands to ground reality.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who corrects only the projection name but keeps shape-plus-area accuracy has missed the mutual-exclusivity theorem.",
     "id": "gen_c11_geo_ch23_q16",
-    "nodeId": "c11_geo_cbse_23_001",
-    "difficulty": "standard"
+    "nodeId": "c11_geo_cbse_23_009",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Why does a statement scale \"1 cm = 500 m\" printed on a map become incorrect if the map is photocopied at 80% linear reduction?",
-    "answer": "Photocopying reduces the physical map distance (1 cm becomes 0.8 cm) but the printed text \"1 cm = 500 m\" remains unchanged, creating a false equivalence",
-    "options": [
-     "The statement is FALSE. Convert '1 cm represents 1 km' to RF: 1 km = 100,000 cm → RF 1:100,000. For district-level roads (large-scale detail)",
-     "The statement is false. Asia spans ~10°N to 77°N (including Arctic islands) – a 67° latitudinal range",
-     "Photocopying reduces the physical map distance (1 cm becomes 0.8 cm) but the printed text \"1 cm = 500 m\" remains unchanged, creating a false equivalence"
+    "type": "order",
+    "question": "Explain why a single map projection cannot simultaneously be both conformal and equivalent. Use the relationship between scale factors (h, k) and the Gaussian curvature of the sphere vs. plane to justify your answer.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The impossibility",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Requirement of conformality",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Requirement of equivalence",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Combining the two",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s4",
+      "label": "Conclusion",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
     ],
-    "hint": "Straight from the 'Statement  Scale expresses the' slide -- match the key terms.",
-    "misconception": "A wrong answer (claiming the scale remains valid) reveals the student treats scale as an intrinsic property of the geographic area rather than a property of the specific map document.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that cites Mercator and Gall-Peters offers examples rather than the proof, and saying the sphere cannot be flattened states the symptom without the curvature cause.",
     "id": "gen_c11_geo_ch23_q17",
-    "nodeId": "c11_geo_cbse_23_001",
-    "difficulty": "standard"
+    "nodeId": "c11_geo_cbse_23_009",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Design a step-by-step procedure for a surveyor to determine the RF of an old map that has no scale printed, using only a known ground distance between two identifiable points.",
-    "answer": "Procedure: (1) Identify two points on map with known ground distance (e.g., from GPS or revenue records)",
-    "options": [
-     "The map scale is not necessarily inaccurate. Statement scale measures straight-line (air) distance",
-     "Statement Scale: \"1 cm represents 0.25 km\" (or \"1 cm represents 250 m\"). The RF denominator (25,000) is in centimeters because RF is unitless but implies same units for map and",
-     "Procedure: (1) Identify two points on map with known ground distance (e.g., from GPS or revenue records)"
+    "type": "order",
+    "question": "Given the following scale factor data for a hypothetical projection at 30°N latitude: h = 1.15, k = 0.87. Determine: (a) Is this projection conformal at this latitude? (b) Is it equivalent at this latitude?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Equidistant check",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Equivalent check",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Angular deformation",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "Area scale factor",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "Conformal check",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Representative Fraction' slide -- match the key terms.",
-    "misconception": "A poor answer that skips unit conversion or doesn't simplify to 1:X shows the student treats RF as a mere fraction without standardizing numerator to 1.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: (1) Conformal check — the condition h equals k fails, since h is 1.",
     "id": "gen_c11_geo_ch23_q18",
-    "nodeId": "c11_geo_cbse_23_002",
-    "difficulty": "standard"
+    "nodeId": "c11_geo_cbse_23_009",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -15632,6 +16582,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A toposheet is numbered 56H/3. Calculate its latitudinal and longitudinal extent at 1:50,000 scale, and name the 1:1M sheet and 1:250K sheet it belongs to.",
+    "answer": "Step 1: Decode 56H/3 → 1:1M sheet = 56, 1:250K sheet = H, 1:50K quadrant = 3. Step 2: 1:1M sheets cover 4°×4°",
+    "options": [
+     "A good answer: Terraces appear as closely spaced contour lines at the risers (steep slope) and widely spaced or absent contours on the flat treads (since elevation change is",
+     "Horizontal equivalent = 2 mm × 50,000 = 100,000 mm = 100 m. Vertical interval = 20 m. tan θ = 20/100 = 0.2 → θ ≈ 11.3°. Since gradient < 15°, it is a gentle slope",
+     "Step 1: Decode 56H/3 → 1:1M sheet = 56, 1:250K sheet = H, 1:50K quadrant = 3. Step 2: 1:1M sheets cover 4°×4°"
+    ],
+    "hint": "Straight from the 'topographical map' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"1°×1°\") confuses 1:50K with 1:250K scale, revealing scale-hierarchy misunderstanding.",
+    "id": "gen_c11_geo_ch24_q12",
+    "nodeId": "c11_geo_cbse_24_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the SOI numbering system with the International Map of the World (IMW) numbering. What structural advantage does SOI's three-tier hierarchy offer for Indian topographical mapping that a single global system cannot?",
     "answer": "IMW uses a two-tier system: 1:1M sheets (4°×4°) identified by number-letter (e.g., NB-43), subdivided into 1:250K (1°×1°) with letters A-P",
     "options": [
@@ -15641,7 +16606,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"more detail\" misses the computational geometry aspect — the hierarchy enables recursive spatial queries (parent/child/neighbor) essential for digital map indexing.",
-    "id": "gen_c11_geo_ch24_q12",
+    "id": "gen_c11_geo_ch24_q13",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -15656,7 +16621,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "A poor answer omits the latitude-dependent longitudinal distance calculation or assumes a fixed km² per sheet, revealing ignorance of map projection distortions covered in the sibling chapter (c11_geo_cbse_24_008).",
-    "id": "gen_c11_geo_ch24_q13",
+    "id": "gen_c11_geo_ch24_q14",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -15671,7 +16636,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: True for the numbering convention (1=NW, 2=NE, 3=SW, 4=SE), but the *geographic shape* of each quadrant changes with",
-    "id": "gen_c11_geo_ch24_q14",
+    "id": "gen_c11_geo_ch24_q15",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -15686,7 +16651,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"topographical maps only show mountains\") reveals confusion between \"topography\" (study of surface features) and \"relief\" (elevation only), and ignorance of the standardized symbol system for cultural features.",
-    "id": "gen_c11_geo_ch24_q15",
+    "id": "gen_c11_geo_ch24_q16",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -15701,7 +16666,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it's just a naming convention\") shows the student misses the GIS-ready spatial indexing logic — each character narrows the location by a factor of 4 or 16, enabling automated sheet adjacency queries.",
-    "id": "gen_c11_geo_ch24_q16",
+    "id": "gen_c11_geo_ch24_q17",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -15716,21 +16681,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'contour' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., \"false because slope depends on CI only\" or \"true always without exception\") shows inability to link map measurement to ground gradient or to recognise cartographic limitations.",
-    "id": "gen_c11_geo_ch24_q17",
-    "nodeId": "c11_geo_cbse_24_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the contour pattern of a conical hill and a conical depression (like a volcanic crater). How can you distinguish them on a map if both show closed concentric contours?",
-    "answer": "Both show closed concentric contours, but on a hill the elevation increases toward the centre (inner contours have higher values)",
-    "options": [
-     "IMW uses a two-tier system: 1:1M sheets (4°×4°) identified by number-letter (e.g., NB-43), subdivided into 1:250K (1°×1°) with letters A-P",
-     "A topographical map shows both natural (relief via contours, drainage, vegetation) and cultural features at large scale (1:50,000 or 1:250,000) for precise local analysis",
-     "Both show closed concentric contours, but on a hill the elevation increases toward the centre (inner contours have higher values)"
-    ],
-    "hint": "Straight from the 'contour' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"depressions have wider spacing\" or \"hills have V-shapes\") reveals confusion between plan form and elevation trend, or missing the hachure convention.",
     "id": "gen_c11_geo_ch24_q18",
     "nodeId": "c11_geo_cbse_24_002",
     "difficulty": "standard"
@@ -16546,6 +17496,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A Survey of India aircraft flies at 3000 m above mean sea level (AMSL) with a 152 mm focal length camera. Calculate the photo scale at a hilltop (elevation 800 m AMSL) and in a valley (elevation 200 m AMSL). Express both as representative fractions (RF).",
+    "answer": "Step 1: Identify formula: Scale (RF) = f / (H – h), where f = focal length, H = flying height AMSL, h = ground elevation AMSL",
+    "options": [
+     "Correct ground distance = photo distance × denominator of RF = 4.5 cm × 10,000 = 45,000 cm = 450 m = 0",
+     "Expected answer criteria: (1) Aerial: 152mm lens, flying height 3000m above MSL → scale 1:19,700 (enlarge to 1:10,000), 60% forward / 30% lateral overlap",
+     "Step 1: Identify formula: Scale (RF) = f / (H – h), where f = focal length, H = flying height AMSL, h = ground elevation AMSL"
+    ],
+    "hint": "Straight from the 'Aerial photography' slide -- match the key terms.",
+    "misconception": "A wrong answer using H only (ignoring h) yields 1:19,737 for both — this reveals the student treats aerial photos like maps with uniform scale, missing the core concept of relief-dependent scale variation.",
+    "id": "gen_c11_geo_ch25_q15",
+    "nodeId": "c11_geo_cbse_25_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare a low oblique and a high oblique aerial photograph in terms of: (a) horizon visibility, (b) scale variation pattern, (c) suitability for mapping hilly terrain like the Himalayas.",
     "answer": "(a) Low oblique: horizon not visible (camera tilted < 30° from vertical). High oblique: horizon visible (tilt 30°–60°)",
     "options": [
@@ -16555,7 +17520,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Aerial photography' slide -- match the key terms.",
     "misconception": "A student who says \"high oblique shows more area\" confuses angular coverage with usable mapping area — they miss that the far-edge scale in high obliques becomes too small for reliable interpretation.",
-    "id": "gen_c11_geo_ch25_q15",
+    "id": "gen_c11_geo_ch25_q16",
     "nodeId": "c11_geo_cbse_25_001",
     "difficulty": "standard"
    },
@@ -16570,7 +17535,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Aerial photography' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"parallel projection\" or \"orthographic projection\") reveals the student confuses aerial photographs with satellite scanner imagery or map projections — they have not grasped that every aerial photograph is a perspective view with scale variation due to relief and tilt.",
-    "id": "gen_c11_geo_ch25_q16",
+    "id": "gen_c11_geo_ch25_q17",
     "nodeId": "c11_geo_cbse_25_001",
     "difficulty": "standard"
    },
@@ -16585,21 +17550,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Aerial photography' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement overlooks operational constraints — they know specifications but not field realities of Indian geography.",
-    "id": "gen_c11_geo_ch25_q17",
-    "nodeId": "c11_geo_cbse_25_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does a vertical aerial photograph show scale variation across the image even when the camera is perfectly level, whereas a topographical map maintains constant scale?",
-    "answer": "A vertical aerial photograph is a central projection — scale at any point = focal length / (flying height – ground elevation)",
-    "options": [
-     "On a vertical photo pair with parallel optical axes, parallax depends only on the elevation of the point and the air base (B) and focal length (f)",
-     "The statement is false. Orthorectification removes relief displacement and tilt displacement using a DEM and sensor model, producing an orthophoto with uniform scale",
-     "A vertical aerial photograph is a central projection — scale at any point = focal length / (flying height – ground elevation)"
-    ],
-    "hint": "Straight from the 'Aerial photography' slide -- match the key terms.",
-    "misconception": "A student who answers \"because the photo is distorted\" without mentioning relief displacement and the focal length / (H–h) relationship shows they memorise the symptom but not the geometric cause.",
     "id": "gen_c11_geo_ch25_q18",
     "nodeId": "c11_geo_cbse_25_001",
     "difficulty": "standard"
@@ -17199,6 +18149,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a multi-platform remote sensing strategy to map and monitor the seasonal water spread area of Chilika Lake (Odisha) over one year, integrating ground, airborne, and spaceborne data. Specify the platform, sensor, frequency, and role of each in the workflow.",
+    "answer": "A good answer: (1) Spaceborne: Sentinel-2 (10 m, 5-day) for monthly water extent mapping; Landsat-8 (30 m, 16-day) for 30-year trend baseline",
+    "options": [
+     "A strong answer specifies: Spatial ≤ 60 m (to resolve intra-urban land cover: built-up vs parks vs water)",
+     "The statement is flawed. LISS-IV's 5.8 m resolution with 70 km swath would require ~200 scenes to cover India's forest area vs ~25 scenes for LISS-III (141 km swath)",
+     "A good answer: (1) Spaceborne: Sentinel-2 (10 m, 5-day) for monthly water extent mapping; Landsat-8 (30 m, 16-day) for 30-year trend baseline"
+    ],
+    "hint": "Straight from the 'Remote sensing platforms' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A good answer: (1) Spaceborne: Sentinel-2 (10 m, 5-day) for monthly water extent mapping; Landsat-8 (30 m, 16-day) for",
+    "id": "gen_c11_geo_ch26_q17",
+    "nodeId": "c11_geo_cbse_26_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the statement: \"For landslide early warning in the Himalayas, a network of ground-based GPS stations is more effective than satellite InSAR (Interferometric Synthetic Aperture Radar) because GPS gives real-time point measurements while satellites revisit only every 12 days.",
     "answer": "The statement is partially valid but incomplete. Ground GPS provides millimetric, real-time point data at ~₹5–10 lakh/station but sparse spatial coverage (tens of km spacing)",
     "options": [
@@ -17208,21 +18173,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Remote sensing platforms' slide -- match the key terms.",
     "misconception": "A student who fully agrees ignores InSAR's spatial advantage; one who fully disagrees ignores GPS's temporal advantage.",
-    "id": "gen_c11_geo_ch26_q17",
-    "nodeId": "c11_geo_cbse_26_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does a drone (UAV) flying at 120 m altitude typically achieve higher spatial resolution (e.g., 5 cm) than a satellite like Cartosat-3 at 500 km altitude (25 cm PAN), even though Cartosat-3 has more advanced optics?",
-    "answer": "Spatial resolution (GSD) is directly proportional to platform altitude for a given sensor IFOV: GSD = Altitude × IFOV (in radians)",
-    "options": [
-     "Sun-synchronous orbit at 900 km provides: (1) fine spatial resolution (72.5 m and 36.25 m for LISS-I/II) because lower altitude reduces the instantaneous field of view (IFOV)",
-     "The statement is partially valid but incomplete. Ground GPS provides millimetric, real-time point data at ~₹5–10 lakh/station but sparse spatial coverage (tens of km spacing)",
-     "Spatial resolution (GSD) is directly proportional to platform altitude for a given sensor IFOV: GSD = Altitude × IFOV (in radians)"
-    ],
-    "hint": "Straight from the 'Remote sensing platforms' slide -- match the key terms.",
-    "misconception": "This misconception ignores the fundamental physics of scale in remote sensing.",
     "id": "gen_c11_geo_ch26_q18",
     "nodeId": "c11_geo_cbse_26_002",
     "difficulty": "standard"

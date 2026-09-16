@@ -10,7 +10,7 @@ export const w_c6_sciencethelivingorganismscharacteristicsandsim: SimDef = {
     subtitle: 'This node covers the biological necessity of oxygen for respiration and carbon for.',
     classLevel: 6, subject: 'science', topic: 'Are Non-metals Essential for Life?',
     chapters: [],
-    nodeIds: ['c6_chemistry_ch04_006'],
+    nodeIds: ['c6_chemistry_ch04_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why we can build a house out of iron, but our own bodies are made of something.', goal: 'Master The Living Organisms Characteristics And.' },
     discovery: {

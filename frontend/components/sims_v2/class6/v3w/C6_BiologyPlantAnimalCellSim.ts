@@ -10,7 +10,7 @@ export const w_c6_biologyplantanimalcellsim: SimDef = {
     subtitle: 'This node covers the fundamental concept that plants perform gas exchange for.',
     classLevel: 6, subject: 'biology', topic: 'Do Plants Respire? Gas Exchange in Plants',
     chapters: [],
-    nodeIds: ['c6_biology_ch10_004', 'c6_biology_ch10_007', 'c6_biology_ch09_001', 'c6_biology_ch09_002', 'c6_biology_ch09_005', 'c6_biology_ch09_008'],
+    nodeIds: ['c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch09_001', 'c6_biology_ch09_002', 'c6_biology_ch09_005', 'c6_biology_ch09_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered if a tree "breathes" while you are sleeping at night?', goal: 'Master Plant Animal Cell.' },
     discovery: {

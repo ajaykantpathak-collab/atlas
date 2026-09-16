@@ -296,6 +296,22 @@ export const C12_CA_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A mid-sized firm processes 15,000 transactions/month. Under manual accounting, 4 clerks take 12 days to close monthly books at ₹18,000/month labour cost. After implementing CAS, 1 operator closes books in 2 days at ₹12,000/month (including software AMC).",
+    "answer": "Steps: (1) Manual cost = ₹18,000. (2) CAS cost = ₹12,000. (3) Monthly economy = ₹18,000 − ₹12,000 = ₹6,000",
+    "options": [
+     "The claim violates two core AIS principles: (1) *Integration* — budgets must be compared with actuals *continuously* (monthly/quarterly) for variance analysis and corrective",
+     "Expected answer: Digit allocation — Division (1 digit: 1/2/3), Zone (1 digit: 1–4), Category (1 digit: 1–5), Item (2 digits: 01–99)",
+     "Steps: (1) Expected cost = ₹18,000. (2) CAS cost = ₹12,000. (3) Monthly economy = ₹18,000 − ₹12,000 = ₹6,000",
+     "Steps: (1) Manual cost = ₹18,000. (2) CAS cost = ₹12,000. (3) Monthly economy = ₹18,000 − ₹12,000 = ₹6,000"
+    ],
+    "hint": "Straight from the 'Advantages of Computerised' slide -- match the key terms.",
+    "misconception": "A wrong answer calculating only time saved (10 days) without monetary quantification misses the NCERT phrasing “economy … of accounting *data*” which implies cost-per-transaction reduction, not just speed. Board exams often ask “How does CAS lead to economy?” — expecting the cost comparison, not just “faster”.",
+    "id": "gen_c12_ca_ch01_q10",
+    "nodeId": "c12_ca_cbse_01_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "“CAS eliminates all accounting errors.” Evaluate this statement using NCERT advantages and limitations. Provide a reasoned judgment with two specific counter-examples.",
     "answer": "Judgment: False. NCERT Advantage #3 (“effective control”) reduces *unauthorised* changes and arithmetic errors",
     "options": [
@@ -305,7 +321,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Advantages of Computerised' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Judgment: False. NCERT Advantage #3 (“effective control”) reduces *unauthorised* changes and arithmetic errors, but",
-    "id": "gen_c12_ca_ch01_q10",
+    "id": "gen_c12_ca_ch01_q11",
     "nodeId": "c12_ca_cbse_01_006",
     "difficulty": "standard"
    },
@@ -320,7 +336,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Accounting Information System' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim violates two core AIS principles: (1) *Integration* — budgets must be compared with actuals *continuously*",
-    "id": "gen_c12_ca_ch01_q11",
+    "id": "gen_c12_ca_ch01_q12",
     "nodeId": "c12_ca_cbse_01_008",
     "difficulty": "standard"
    },
@@ -335,7 +351,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Accounting Information System' slide -- match the key terms.",
     "misconception": "A poor answer includes all 12 sub-systems indiscriminately, showing inability to tailor AIS to entity type.",
-    "id": "gen_c12_ca_ch01_q12",
+    "id": "gen_c12_ca_ch01_q13",
     "nodeId": "c12_ca_cbse_01_008",
     "difficulty": "standard"
    }
@@ -349,6 +365,314 @@ export const C12_CA_GEN: SimDef[] = [
   "successLine": "Computerised Accounting System mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c12_ca_ch02",
+  "title": "Spreadsheet",
+  "subtitle": "Computer Applications · Chapter 2",
+  "classLevel": 12,
+  "mode": "senior",
+  "subject": "computer applications",
+  "topic": "Spreadsheet",
+  "chapters": [
+   "Computer Applications Ch2: Spreadsheet"
+  ],
+  "nodeIds": [
+   "c12_ca_cbse_02_001",
+   "c12_ca_cbse_02_004",
+   "c12_ca_cbse_02_005"
+  ],
+  "emoji": "🖥️",
+  "theme": {
+   "bg": "from-lime-100 to-green-200",
+   "accent": "green",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "What happens if Spreadsheet suddenly stops working?",
+   "options": [
+    "Things around us change in noticeable ways",
+    "Absolutely nothing changes",
+    "Only textbooks would change"
+   ],
+   "answer": "Things around us change in noticeable ways",
+   "hook": "A spreadsheet is a computer application that organizes data in a grid of rows and columns forming cells, where each cell can hold a value (numeric,"
+  },
+  "teaching": [
+   {
+    "title": "Spreadsheet",
+    "text": "A spreadsheet is a computer application that organizes data in a grid of rows and columns forming cells, where each cell can hold a value (numeric, text, date), a formula (arithmetic expression starting with =), or a function (predefined calculation like SUM,",
+    "emoji": "🖥️",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Output Reports In a Spreadsheet Refer",
+    "text": "Output Reports in a spreadsheet refer to the process of configuring, previewing, and printing worksheet data in a structured, formatted layout suitable for professional presentation, including defining print areas, setting headers/footers, adjusting page",
+    "emoji": "🖥️",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Pivot Table",
+    "text": "A Pivot Table is an interactive data summarization tool that dynamically reorganizes and aggregates large datasets from a source list (database) into cross-tabulated reports by dragging fields into Row Labels, Column Labels, Values, and Report Filter areas,",
+    "emoji": "🖥️",
+    "bgColor": "from-amber-400 to-orange-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "Design a mini-spreadsheet (describe layout, not build) to calculate EMI for a ₹10 lakh home loan at 8.5% p.a. for 20 years, using the PMT function. Specify: (a) which cells hold inputs (rate, nper, pv), (b) the exact PMT formula with correct sign convention, (c) how to make it a what-if model so changing rate in one",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The input cells",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The what-if design",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The formula",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The sign convention",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer hard-codes the numbers inside PMT, which is not a what-if model, or forgets the periodicity conversion and gets a wildly wrong EMI.",
+    "id": "gen_c12_ca_ch02_q1",
+    "nodeId": "c12_ca_cbse_02_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are the accountant for a small Delhi-based wholesale kirana store.",
+     "The owner hands you a notebook with 200 daily sales entries — item name, quantity, unit price, date — and asks: \"What was our total revenue last",
+     "Which items sold above ₹5,000?",
+     "How much GST did we collect at 18%?\" Doing this manually with a calculator takes hours and risks errors."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Design a print setup for a 12-month cash flow statement (columns A:M, rows 1:50) that must: (a) fit on one A4 page, (b) repeat row 1 (headers) on every page if it spills, (c) show \"Confidential - Page X of Y\" in footer. List the exact steps in order.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Verify",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s1",
+      "label": "Stamp the footer",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Fit the page",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Repeat the header",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s4",
+      "label": "Set the print area",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer misses the repeat-rows setting or types literal numbers instead of dynamic page codes, showing incomplete mastery of multi-page report setup.",
+    "id": "gen_c12_ca_ch02_q2",
+    "nodeId": "c12_ca_cbse_02_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are an accounts intern at a Delhi-based firm.",
+     "Your manager asks you to print a \"Monthly Sales Summary\" for the last quarter — but only the region-wise totals, not the 500-row raw data.",
+     "You open the workbook, see the summary table in range B2:F10 on Sheet2, and realize printing the whole sheet would waste paper and hide the key",
+     "You need to define a print area, set landscape orientation so columns fit, add a header with the company name and page numbers, and preview before"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A Pivot Table shows 'Sum of Quantity' by 'Product' (Rows) and 'Month' (Columns). The user wants to see '% of Column Total' for each product within each month to analyze monthly product mix.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The verification",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "The principle",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "The likely cause",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "The first fix",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer such as switching to percent of row total, or merely refreshing without cleaning the source, shows the student did not trace the calculation logic to the data.",
+    "id": "gen_c12_ca_ch02_q3",
+    "nodeId": "c12_ca_cbse_02_005",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are the sales manager of \"M/s Home Maker Ltd.\" with 500 rows of daily sales data across 7 products, 4 cities, and 3 salespersons for",
+     "The owner asks: \"Show me total sales by product for each city, but only for Salesperson A.",
+     "Instead, you insert a Pivot Table: drag 'Product' to Rows, 'City' to Columns, 'Sales Amount' to Values (set to Sum), and 'Salesperson' to Filters",
+     "Instantly, you get a cross-tabulated matrix."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a mini-spreadsheet (describe layout, not build) to calculate EMI for a ₹10 lakh home loan at 8.5% p.a. for 20 years, using the PMT function. Specify: (a) which cells hold inputs (rate, nper, pv), (b) the exact PMT formula with correct sign convention, (c) how to make it a what-if model so changing rate in one",
+    "answer": "(1) The input cells — B2 holds the annual rate, B3 the number of years and B4 the loan amount, (2) The formula",
+    "options": [
+     "(1) Set the print area — Page Layout, then Print Area, then Set Print Area over the whole statement, (2) Fit the page",
+     "(1) The likely cause — the source Quantity column carries blank or text entries in some records, which the Sum ignores while the percentage base still spans the whole column",
+     "(1) The input cells — B2 holds the annual rate, B3 the number of years and B4 the loan amount, (2) The formula"
+    ],
+    "hint": "Straight from the 'spreadsheet' slide -- match the key terms.",
+    "misconception": "A poor answer hard-codes the numbers inside PMT, which is not a what-if model, or forgets the periodicity conversion and gets a wildly wrong EMI.",
+    "id": "gen_c12_ca_ch02_q4",
+    "nodeId": "c12_ca_cbse_02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a print setup for a 12-month cash flow statement (columns A:M, rows 1:50) that must: (a) fit on one A4 page, (b) repeat row 1 (headers) on every page if it spills, (c) show \"Confidential - Page X of Y\" in footer. List the exact steps in order.",
+    "answer": "(1) Set the print area — Page Layout, then Print Area, then Set Print Area over the whole statement, (2) Fit the page",
+    "options": [
+     "(1) The input cells — B2 holds the annual rate, B3 the number of years and B4 the loan amount, (2) The formula",
+     "(1) The likely cause — the source Quantity column carries blank or text entries in some records, which the Sum ignores while the percentage base still spans the whole column",
+     "(1) Set the print area — Page Layout, then Print Area, then Set Print Area over the whole statement, (2) Fit the page"
+    ],
+    "hint": "Straight from the 'Output Reports in a spreadsheet' slide -- match the key terms.",
+    "misconception": "A poor answer misses the repeat-rows setting or types literal numbers instead of dynamic page codes, showing incomplete mastery of multi-page report setup.",
+    "id": "gen_c12_ca_ch02_q5",
+    "nodeId": "c12_ca_cbse_02_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A Pivot Table shows 'Sum of Quantity' by 'Product' (Rows) and 'Month' (Columns). The user wants to see '% of Column Total' for each product within each month to analyze monthly product mix.",
+    "answer": "(1) The likely cause — the source Quantity column carries blank or text entries in some records, which the Sum ignores while the percentage base still spans the whole column",
+    "options": [
+     "(1) Set the print area — Page Layout, then Print Area, then Set Print Area over the whole statement, (2) Fit the page",
+     "(1) The input cells — B2 holds the annual rate, B3 the number of years and B4 the loan amount, (2) The formula",
+     "(1) The likely cause — the source Quantity column carries blank or text entries in some records, which the Sum ignores while the percentage base still spans the whole column"
+    ],
+    "hint": "Straight from the 'Pivot Table' slide -- match the key terms.",
+    "misconception": "A wrong answer such as switching to percent of row total, or merely refreshing without cleaning the source, shows the student did not trace the calculation logic to the data.",
+    "id": "gen_c12_ca_ch02_q6",
+    "nodeId": "c12_ca_cbse_02_005",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about spreadsheet?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Spreadsheet mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c12_ca_ch03",
@@ -508,6 +832,21 @@ export const C12_CA_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "An employee has Basic Pay ₹25,000, NODM = 30, LWP = 2 days, Unauthorised Absence = 1 day. DA rate = 35%, HRA rate = 30% (non-supervisory), TRA = ₹500, PF rate = 12%, TDS = ₹1,500, Loan = ₹2,000. Calculate Net Salary step by step.",
+    "answer": "Step 1: NOEDP = 30 - 2 - 1 = 27. Step 2: BPE = 25000 × 27/30 = ₹22,500. Step 3: DA = 22500 × 35% = ₹7,875",
+    "options": [
+     "Closing Gross Block = 50,00,000 + 12,00,000 - 3,00,000 = ₹59,00,000. Closing Accumulated Depreciation = 18,00,000 + 6,50,000 - 1,20,000 = ₹23,30,000",
+     "Changing PF base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9",
+     "Step 1: NOEDP = 30 - 2 - 1 = 27. Step 2: BPE = 25000 × 27/30 = ₹22,500. Step 3: DA = 22500 × 35% = ₹7,875"
+    ],
+    "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
+    "misconception": "A wrong answer often comes from using full BP (₹25,000) instead of BPE for DA/HRA/PF, or forgetting to subtract both LWP and unauthorised absence.",
+    "id": "gen_c12_ca_ch03_q4",
+    "nodeId": "c12_ca_cbse_03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the HRA calculation for a Supervisory employee (HRA = 40% of BPE) and a Non-supervisory employee (HRA = 30% of BPE) in the nested IF formula: =IF(C12=\"Sup\", G12*$G$5, IF(C12=\"Nsup\", G12*$G$6, 0)). What happens if an employee type is entered as \"sup\" (lowercase) instead of \"Sup\"?",
     "answer": "The formula returns 0 because Excel's IF is case-sensitive by default for text comparison. \"sup\" ≠ \"Sup\", so the first condition fails, the second checks for \"Nsup\" (also fails)",
     "options": [
@@ -517,7 +856,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The formula returns 0 because Excel's IF is case-sensitive by default for text comparison.",
-    "id": "gen_c12_ca_ch03_q4",
+    "id": "gen_c12_ca_ch03_q5",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -532,7 +871,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "A poor answer uses separate IFs without nesting, or forgets absolute references, or hardcodes percentages instead of using parameter cells — showing inability to design scalable, maintainable templates.",
-    "id": "gen_c12_ca_ch03_q5",
+    "id": "gen_c12_ca_ch03_q6",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -547,7 +886,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "A student who misses this confuses relative vs absolute addressing — a classic board exam trap.",
-    "id": "gen_c12_ca_ch03_q6",
+    "id": "gen_c12_ca_ch03_q7",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -563,7 +902,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Changing PF base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9.",
-    "id": "gen_c12_ca_ch03_q7",
+    "id": "gen_c12_ca_ch03_q8",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -579,7 +918,23 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A student who enters it manually breaks the audit trail; board practical marking deducts marks for missing 'linkage' between computation sheet and schedule.",
-    "id": "gen_c12_ca_ch03_q8",
+    "id": "gen_c12_ca_ch03_q9",
+    "nodeId": "c12_ca_cbse_03_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A machine was purchased on 15-Oct-2022 for ₹8,00,000 with ₹50,000 installation. Salvage value is ₹50,000, useful life 8 years. Using SLM, compute the depreciation for FY 2022-23 (ending 31-Mar-2023) assuming the company follows the 'half-year convention' for assets installed after 30-Sep.",
+    "answer": "Step 1: Acquisition Cost = 8,00,000 + 50,000 = ₹8,50,000. Step 2: Depreciable Amount = 8,50,000 - 50,000 = ₹8,00,000",
+    "options": [
+     "=PMT(B1/12, C1*12, -A1, 0, 0) — Rate is monthly (annual/12), Nper is total months (years×12), Pv is negative loan amount, Fv=0, Type=0 for end-of-month payment",
+     "$G$4 is an absolute reference that locks both column and row so when the formula is copied down to rows 13, 14, etc",
+     "Step 1: Pv = 8,00,000 + 50,000 = ₹8,50,000. Step 2: Depreciable Amount = 8,50,000 - 50,000 = ₹8,00,000",
+     "Step 1: Acquisition Cost = 8,00,000 + 50,000 = ₹8,50,000. Step 2: Depreciable Amount = 8,50,000 - 50,000 = ₹8,00,000"
+    ],
+    "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
+    "misconception": "A wrong answer (₹1,00,000) shows the student ignored the installation date and pro-rata rule — a frequent board exam trap where 'date of installation' in column C triggers the IF(MONTH>3) logic in the WDV period column.",
+    "id": "gen_c12_ca_ch03_q10",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -595,7 +950,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A student who says 'SLM front-loads' confuses the methods; one who cannot explain 'why' lacks conceptual link to time value of money (cross-subject: finance).",
-    "id": "gen_c12_ca_ch03_q9",
+    "id": "gen_c12_ca_ch03_q11",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -610,7 +965,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A poor answer misses pro-rata logic or validation — showing inability to translate regulatory rules into spreadsheet controls.",
-    "id": "gen_c12_ca_ch03_q10",
+    "id": "gen_c12_ca_ch03_q12",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -625,7 +980,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A student who uses relative for salvage will get wrong depreciation for rows 2+ as the formula pulls empty/incorrect cells — this is the #1 spreadsheet error in board practical exams.",
-    "id": "gen_c12_ca_ch03_q11",
+    "id": "gen_c12_ca_ch03_q13",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -640,7 +995,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., omitting installation or pre-operative costs) reveals the student treats 'cost' as only the invoice price, ignoring AS-10/Ind AS 16 principle that all costs necessary to bring the asset to working condition must be capitalised.",
-    "id": "gen_c12_ca_ch03_q12",
+    "id": "gen_c12_ca_ch03_q14",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -655,7 +1010,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between future value of an investment (which grows) and future value of a loan (which declines to zero).",
-    "id": "gen_c12_ca_ch03_q13",
+    "id": "gen_c12_ca_ch03_q15",
     "nodeId": "c12_ca_cbse_03_003",
     "difficulty": "advanced"
    },
@@ -670,7 +1025,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., using annual rate with monthly periods, or forgetting the negative sign) shows inability to adapt the function to different compounding/payment frequencies.",
-    "id": "gen_c12_ca_ch03_q14",
+    "id": "gen_c12_ca_ch03_q16",
     "nodeId": "c12_ca_cbse_03_003",
     "difficulty": "advanced"
    },
@@ -685,7 +1040,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student does not grasp the time-value-of-money effect of payment timing on interest accumulation.",
-    "id": "gen_c12_ca_ch03_q15",
+    "id": "gen_c12_ca_ch03_q17",
     "nodeId": "c12_ca_cbse_03_003",
     "difficulty": "advanced"
    },
@@ -700,22 +1055,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
     "misconception": "A poor answer lacks validation logic or misplaces the negative sign.",
-    "id": "gen_c12_ca_ch03_q16",
-    "nodeId": "c12_ca_cbse_03_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "In the NCERT textbook example, the yearly instalment is calculated using =PMT(D6, C6, -A6, 0, 1) where D6 is the annual interest rate (10%) and C6 is the loan period in years (2).",
-    "answer": "The textbook method assumes simple division of the annual payment by 12, which ignores monthly compounding of interest",
-    "options": [
-     "=PMT(B1/12, C1*12, -A1, 0, 0) — Rate is monthly (annual/12), Nper is total months (years×12), Pv is negative loan amount, Fv=0, Type=0 for end-of-month payment",
-     "Layout: Input cells for Amount (A2), Annual Rate (B2), Years (C2). Output cells: Monthly Rate = B2/12, Months = C2*12",
-     "The textbook method assumes simple division of the annual payment by 12, which ignores monthly compounding of interest"
-    ],
-    "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student does not understand the difference between nominal annual rate and effective periodic rate, or the concept of compounding frequency.",
-    "id": "gen_c12_ca_ch03_q17",
+    "id": "gen_c12_ca_ch03_q18",
     "nodeId": "c12_ca_cbse_03_003",
     "difficulty": "advanced"
    }

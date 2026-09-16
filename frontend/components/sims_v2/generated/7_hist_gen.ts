@@ -2377,12 +2377,14 @@ export const C7_HIST_GEN: SimDef[] = [
   "subject": "history",
   "topic": "Post-Gupta Period",
   "chapters": [
-   "History Ch6: Post-Gupta Period"
+   "History Ch6: Post-Gupta Period",
+   "History Ch7: Post-Gupta Period"
   ],
   "nodeIds": [
    "c7_hist_ch06_001",
    "c7_hist_ch06_002",
    "c7_hist_ch06_003",
+   "c7_hist_ch07_003",
    "c7_hist_ch06_004",
    "c7_hist_ch06_005",
    "c7_hist_ch06_007",
@@ -2424,6 +2426,12 @@ export const C7_HIST_GEN: SimDef[] = [
     "text": "The Chalukya Dynasty was a prominent imperial power that ruled large parts of the Deccan and southern India from their capital at Badami (Vatapi) between the 6th and 8th centuries CE, famous for patronizing rock-cut and structural temple architecture.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "This Topic Explores The Rise, Political",
+    "text": "This topic explores the rise, political organization, military resistance, and governance structures of various Rajput clans (such as the Chauhans, Paramaras, and Chandellas) across Northern and Western India during the 11th and 12th centuries as they faced",
+    "emoji": "🏛️",
+    "bgColor": "from-sky-400 to-cyan-500"
    },
    {
     "title": "Pallava Dynasty Was a Powerful",
@@ -2468,8 +2476,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Why did the decline of long-distance trade and a shift toward a rural, land-grant economy contribute significantly to political fragmentation after the Gupta period?",
     "answer": "The correct answer is that as coinage became scarce and trade declined, kings and rulers began paying officials and religious institutions through land grants with administrative",
     "options": [
+     "The paradox unfolds in stages: (1) Clan pride inspires fort architecture (2) Warrior culture and battlefield tales flourish (3) Long-term political alliances fail to form (4)",
      "The coastal location symbolized the Pallavas' dominant maritime power and active overseas trade networks with Southeast Asia",
-     "Harsha relied heavily on local feudal lords (samantas) who provided military support, similar to the late Gupta system",
      "The correct answer is that as coinage became scarce and trade declined, kings and rulers began paying officials and religious institutions through land grants with administrative"
     ],
     "hint": "Straight from the 'post-Gupta period' slide -- match the key terms.",
@@ -2512,7 +2520,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "options": [
      "The correct answer is the shikhara",
      "Narasimhavarman II (also known as Rajasimha)",
-     "Harsha's was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward",
+     "Dhamma was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward",
      "Pulakeshin II was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward"
     ],
     "hint": "Straight from the 'Chalukya Dynasty was a prominent' slide -- match the key terms.",
@@ -2528,6 +2536,69 @@ export const C7_HIST_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Explain the correct sequence of effects by which Rajput clan rivalry first strengthened and then weakened their kingdoms.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Long-term political alliances fail to form",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Disunited kingdoms fall to external conquest",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Clan pride inspires fort architecture",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Warrior culture and battlefield tales",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that treats the Rajput defeat as simple cowardice shows the student has not grasped the analysis that the very clan pride which produced cultural vitality and strong local defence also prevented the unified front needed against coordinated Turkic invasion.",
+    "id": "gen_c7_hist_ch06_q4",
+    "nodeId": "c7_hist_ch07_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine visiting a massive, imposing hill fort in Rajasthan, like Chittorgarh or Mehrangarh, and wondering how these grand stone structures were",
+     "To understand this, we must look back to the 11th and 12th centuries when various warrior clans, known collectively as Rajputs, established powerful",
+     "We begin by examining how these kingdoms were organized internally through clan loyalties (samantas and lineages) and land-grant systems.",
+     "Connecting back to how regional kingdoms emerged in the medieval period, we see that political power became heavily decentralized among proud martial"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Why did the Pallavas and the Chalukyas of Vatapi engage in constant warfare despite being separated by geographical distance?",
     "answer": "They fought constantly because both dynasties sought control over the fertile delta lands of the Krishna-Tungabhadra doab and lucrative international trade routes",
@@ -2538,7 +2609,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pallava dynasty was a powerful' slide -- match the key terms.",
     "misconception": "A wrong answer stating they fought purely over religious differences shows a misunderstanding of early medieval statecraft, where political territory and economic resources were the primary drivers of war.",
-    "id": "gen_c7_hist_ch06_q4",
+    "id": "gen_c7_hist_ch06_q5",
     "nodeId": "c7_hist_ch06_004",
     "difficulty": "advanced",
     "workedExample": [
@@ -2559,7 +2630,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node examines the early' slide -- match the key terms.",
     "misconception": "If a student claims the primary motivation was the immediate mass conversion of the entire subcontinent, it reveals a misunderstanding of early Arab aims, which were focused on maritime security, trade control, and political retribution rather than immediate imperial expansion across India.",
-    "id": "gen_c7_hist_ch06_q5",
+    "id": "gen_c7_hist_ch06_q6",
     "nodeId": "c7_hist_ch06_005",
     "difficulty": "advanced",
     "workedExample": [
@@ -2580,7 +2651,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'in-depth study of the two' slide -- match the key terms.",
     "misconception": "A student who answers \"vimana\" or \"gopuram\" is confusing North Indian Nagara architectural terms with South Indian Dravida terms, revealing a need to clearly separate regional vocabularies.",
-    "id": "gen_c7_hist_ch06_q6",
+    "id": "gen_c7_hist_ch06_q7",
     "nodeId": "c7_hist_ch06_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -2601,7 +2672,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'evolution of trade networks,' slide -- match the key terms.",
     "misconception": "A student who thinks foreign trade increased because regional kings conquered more ports misunderstands how external global economic shocks impacted internal Indian urbanisation and coinage circulation.",
-    "id": "gen_c7_hist_ch06_q7",
+    "id": "gen_c7_hist_ch06_q8",
     "nodeId": "c7_hist_ch06_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -2622,7 +2693,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node explores the' slide -- match the key terms.",
     "misconception": "A student who assumes these institutions operated independently of state support fails to recognize the interdependent relationship between monastic wealth and imperial authority.",
-    "id": "gen_c7_hist_ch06_q8",
+    "id": "gen_c7_hist_ch06_q9",
     "nodeId": "c7_hist_ch06_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -2639,12 +2710,12 @@ export const C7_HIST_GEN: SimDef[] = [
     "options": [
      "The correct answer is the shikhara",
      "Pulakeshin II was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward",
-     "Hiuen Tsang (also known as Rajasimha)",
+     "Qasim's (also known as Rajasimha)",
      "Narasimhavarman II (also known as Rajasimha)"
     ],
     "hint": "Straight from the 'Shore Temple at Mamallapuram' slide -- match the key terms.",
     "misconception": "If a student names Mahendravarman I or Narasimhavarman I (Mamalla), it reveals a chronological confusion between early rock-cut cave temples and monolithic rathas versus later structural masonry temples built with quarried blocks.",
-    "id": "gen_c7_hist_ch06_q9",
+    "id": "gen_c7_hist_ch06_q10",
     "nodeId": "c7_hist_ch06_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -2659,13 +2730,13 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "How did the rise of multiple regional kingdoms in the post-Gupta period alter the nature of warfare and military organization compared to the centralized Mauryan or Gupta empires?",
     "answer": "The correct answer is that warfare became decentralized, relying heavily on regional armies contributed by various *samantas* rather than a single standing imperial army paid",
     "options": [
-     "They fought constantly because both dynasties sought control over the fertile delta lands of the Krishna-Tungabhadra doab and lucrative international trade routes",
+     "The paradox unfolds in stages: (1) Clan pride inspires fort architecture (2) Warrior culture and battlefield tales flourish (3) Long-term political alliances fail to form (4)",
      "Political fragmentation meant that regional kingdoms operated independently without a centralized imperial authority to coordinate a collective defense",
      "The correct answer is that warfare became decentralized, relying heavily on regional armies contributed by various *samantas* rather than a single standing imperial army paid"
     ],
     "hint": "Straight from the 'post-Gupta period' slide -- match the key terms.",
     "misconception": "If a student assumes that military technology suddenly went backward or that standing armies vanished entirely, they fail to see how feudal military obligations replaced centralized state recruitment.",
-    "id": "gen_c7_hist_ch06_q10",
+    "id": "gen_c7_hist_ch06_q11",
     "nodeId": "c7_hist_ch06_001",
     "difficulty": "advanced"
    },
@@ -2680,7 +2751,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'rule of Harshavardhana in the' slide -- match the key terms.",
     "misconception": "A wrong answer claiming Harsha established a centralized bureaucratic salary system like the later Mughals misses the early medieval rise of regional feudatories.",
-    "id": "gen_c7_hist_ch06_q11",
+    "id": "gen_c7_hist_ch06_q12",
     "nodeId": "c7_hist_ch06_002",
     "difficulty": "advanced"
    },
@@ -2695,7 +2766,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'rule of Harshavardhana in the' slide -- match the key terms.",
     "misconception": "A wrong answer citing Ashoka's edicts shows a chronological confusion between the Maurya Empire and the 7th-century CE.",
-    "id": "gen_c7_hist_ch06_q12",
+    "id": "gen_c7_hist_ch06_q13",
     "nodeId": "c7_hist_ch06_002",
     "difficulty": "advanced"
    },
@@ -2710,7 +2781,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Chalukya Dynasty was a prominent' slide -- match the key terms.",
     "misconception": "A student who claims Harshavardhana was defeated due to a lack of soldiers misunderstands how geography and strategic positioning dictate military outcomes in regional conflicts.",
-    "id": "gen_c7_hist_ch06_q13",
+    "id": "gen_c7_hist_ch06_q14",
     "nodeId": "c7_hist_ch06_003",
     "difficulty": "advanced"
    },
@@ -2725,7 +2796,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Chalukya Dynasty was a prominent' slide -- match the key terms.",
     "misconception": "A student who assumes trade routes bypassed the Deccan entirely misses how geography dictated the economic prosperity and military ambitions of southern peninsular kingdoms.",
-    "id": "gen_c7_hist_ch06_q14",
+    "id": "gen_c7_hist_ch06_q15",
     "nodeId": "c7_hist_ch06_003",
     "difficulty": "advanced"
    },
@@ -2735,12 +2806,12 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "The shift shows an evolution from excavating solid rock faces (monolithic rathas and caves) to quarrying and assembling independent structural stone blocks",
     "options": [
      "The Narmada River acted as a formidable natural geographic barrier, and Pulakeshin II utilized the rough terrain and well-prepared Deccan cavalry to ambush and halt northern",
-     "The correct answer is that as coinage became scarce and trade declined, kings and rulers began paying officials and religious institutions through land grants with administrative",
+     "The paradox unfolds in stages: (1) Clan pride inspires fort architecture (2) Warrior culture and battlefield tales flourish (3) Long-term political alliances fail to form (4)",
      "The shift shows an evolution from excavating solid rock faces (monolithic rathas and caves) to quarrying and assembling independent structural stone blocks"
     ],
     "hint": "Straight from the 'Pallava dynasty was a powerful' slide -- match the key terms.",
     "misconception": "A wrong answer claiming that structural temples were built before cave temples reverses historical and technological progression, failing to see how masonry skills advanced over generations.",
-    "id": "gen_c7_hist_ch06_q15",
+    "id": "gen_c7_hist_ch06_q16",
     "nodeId": "c7_hist_ch06_004",
     "difficulty": "advanced"
    },
@@ -2755,7 +2826,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Pallava dynasty was a powerful' slide -- match the key terms.",
     "misconception": "A weak answer merely lists battles without connecting military exhaustion to long-term political decline.",
-    "id": "gen_c7_hist_ch06_q16",
+    "id": "gen_c7_hist_ch06_q17",
     "nodeId": "c7_hist_ch06_004",
     "difficulty": "advanced"
    },
@@ -2770,21 +2841,6 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'This node examines the early' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Inaccurate: Muhammad bin Qasim's early-8th-century conquest remained confined to Sindh and parts of southern Punjab,",
-    "id": "gen_c7_hist_ch06_q17",
-    "nodeId": "c7_hist_ch06_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "How did the political fragmentation of North and West India during the post-Gupta period influence the defense against the Arab incursions into Sindh?",
-    "answer": "Political fragmentation meant that regional kingdoms operated independently without a centralized imperial authority to coordinate a collective defense",
-    "options": [
-     "The correct answer is that warfare became decentralized, relying heavily on regional armies contributed by various *samantas* rather than a single standing imperial army paid",
-     "The expedition was primarily authorized to retaliate against pirates off the coast of Sindh who had plundered Arab merchant ships carrying gifts from the ruler of Sri Lanka",
-     "Political fragmentation meant that regional kingdoms operated independently without a centralized imperial authority to coordinate a collective defense"
-    ],
-    "hint": "Straight from the 'This node examines the early' slide -- match the key terms.",
-    "misconception": "If a student believes that all Indian kingdoms united under a single emperor to repel the expedition, it indicates a failure to understand the fractured political landscape of the 7th and 8th centuries.",
     "id": "gen_c7_hist_ch06_q18",
     "nodeId": "c7_hist_ch06_005",
     "difficulty": "advanced"

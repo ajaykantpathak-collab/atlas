@@ -8,7 +8,7 @@ export const c6_biology_ch06_p2: SimDef = {
     subtitle: 'Why do classmates your age look so different from each other?',
     classLevel: 6, subject: 'biology', topic: 'Adolescence -- A Stage of Growth · Part 2/2',
     chapters: ['c6_biology_ch06'],
-    nodeIds: ['c6_biology_ch06_007', 'c6_biology_ch06_008'],
+    nodeIds: ['c6_biology_ch06_001', 'c6_biology_ch06_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a growth detective puzzling over a class photo', intro: 'Three friends, all 12, look like they belong in three different grades. Somewhere between birthday candles and shoe sizes, adolescence is running on personal clocks.', goal: 'Explain why growth spurts hit different people at different times — and stop worrying that your body is \'late\'.' },

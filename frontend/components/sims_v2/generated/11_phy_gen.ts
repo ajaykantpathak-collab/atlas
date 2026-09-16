@@ -268,6 +268,21 @@ export const C11_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A vernier calipers has zero error of +0.03 cm. The main scale reading for a rod is 2.4 cm and the 8th vernier division coincides with a main scale division. If 10 vernier divisions match 9 main scale divisions (1 MSD = 0.1 cm), what is the corrected length of the rod?",
+    "answer": "Step 1: LC = 1 MSD - 1 VSD = 0.1 cm - 0.09 cm = 0.01 cm. Step 2: Vernier scale reading = 8 × LC = 8 × 0",
+    "options": [
+     "The statement is physically impossible. A tape measure to the Moon (3.84×10⁸ m) would have enormous mass, would collapse under its own weight, and cannot be deployed in vacuum",
+     "Student A's measurement (12.3 cm) has 3 significant figures, implying uncertainty in the tenths place (±0",
+     "Step 1: LC = 1 MSD - 1 VSD = 0.1 cm - 0.09 cm = 0.01 cm. Step 2: Vernier scale reading = 8 × LC = 8 × 0"
+    ],
+    "hint": "Straight from the 'Measurement of length' slide -- match the key terms.",
+    "misconception": "A wrong answer of 2.51 cm reveals the student adds zero error instead of subtracting positive zero error.",
+    "id": "gen_c11_phy_ch01_q8",
+    "nodeId": "c11_phy_cbse_01_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why does a vernier calipers with 20 divisions on the vernier scale matching 19 divisions on the main scale (1 MSD = 1 mm) have a smaller least count than one with 10 divisions matching 9 main scale divisions?",
     "answer": "For 20 VSD = 19 MSD: 1 VSD = 0.95 mm, LC = 1 - 0.95 = 0.05 mm. For 10 VSD = 9 MSD: 1 VSD = 0.9 mm, LC = 1 - 0",
     "options": [
@@ -277,7 +292,7 @@ export const C11_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Measurement of length' slide -- match the key terms.",
     "misconception": "A wrong answer stating both have same LC reveals the student memorises the formula LC = 1 MSD / N without understanding the vernier principle of (N-1) MSD = N VSD.",
-    "id": "gen_c11_phy_ch01_q8",
+    "id": "gen_c11_phy_ch01_q9",
     "nodeId": "c11_phy_cbse_01_010",
     "difficulty": "advanced"
    },
@@ -292,7 +307,7 @@ export const C11_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'parallax method measures large' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student does not understand the relationship between baseline length, distance, and measurable angle.",
-    "id": "gen_c11_phy_ch01_q9",
+    "id": "gen_c11_phy_ch01_q10",
     "nodeId": "c11_phy_cbse_01_011",
     "difficulty": "advanced"
    }
@@ -309,20 +324,25 @@ export const C11_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_phy_ch02",
-  "title": "Acceleration",
+  "title": "Aristotle's Fallacy",
   "subtitle": "Physics · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Acceleration",
+  "topic": "Aristotle's Fallacy",
   "chapters": [
-   "Physics Ch2: Acceleration"
+   "Physics Ch2: Aristotle's Fallacy",
+   "Physics Ch3: Aristotle's Fallacy",
+   "Physics Ch4: Aristotle's Fallacy"
   ],
   "nodeIds": [
+   "c11_phy_cbse_04_001",
    "c11_phy_cbse_02_004",
+   "c11_phy_cbse_04_006",
    "c11_phy_cbse_02_007",
    "c11_phy_cbse_02_008",
-   "c11_phy_cbse_02_010"
+   "c11_phy_cbse_02_010",
+   "c11_phy_cbse_03_012"
   ],
   "emoji": "⚡",
   "theme": {
@@ -331,7 +351,7 @@ export const C11_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Acceleration in real working life?",
+   "question": "Who uses Aristotle's Fallacy in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -342,10 +362,22 @@ export const C11_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
+    "title": "Aristotle's Fallacy",
+    "text": "Aristotle's fallacy is the incorrect assertion that a continuous external force is required to maintain a body in uniform motion; Galileo's experiments with inclined planes demonstrated that in the absence of friction, a body in uniform motion continues",
+    "emoji": "⚡",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
     "title": "Acceleration",
     "text": "Acceleration is the rate of change of velocity with respect to time. Average acceleration over a time interval Δt is defined as the change in velocity Δv divided by Δt.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Law Of Conservation Of Momentum",
+    "text": "The law of conservation of momentum states that for an isolated system (no net external force), the total vector momentum remains constant in time: \\(\\sum \\vec{p}_{\\text{initial}} = \\sum \\vec{p}_{\\text{final}}\\).",
+    "emoji": "⚡",
+    "bgColor": "from-sky-400 to-cyan-500"
    },
    {
     "title": "Relative Velocity",
@@ -365,9 +397,67 @@ export const C11_PHY_GEN: SimDef[] = [
     "text": "Reaction time is the time interval between a stimulus (e.g., seeing an obstacle) and the initiation of a physical response (e.g., applying brakes), during which the vehicle continues moving at constant initial velocity.",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Equation Of Trajectory Of a Projectile",
+    "text": "The equation of trajectory of a projectile is the mathematical relationship between the vertical displacement (y) and horizontal displacement (x) of an object projected with initial velocity \\(v_0\\) at an angle \\(\\theta_0\\) to the horizontal, under constant",
+    "emoji": "⚡",
+    "bgColor": "from-violet-400 to-purple-500"
    }
   ],
   "challenges": [
+   {
+    "type": "order",
+    "question": "Design a simple classroom demonstration using low-cost materials (e.g., a wooden plank, a marble, a towel, a book) that illustrates Galileo's insight: reducing friction makes an object move farther with the same initial push. Describe the setup, the variable you change, and what students should observe.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "wood with a smooth plastic sheet",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "bare wood",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "wood covered with a towel",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer (e.g., \"use a fan to blow the marble\") misses the point of varying friction while keeping initial energy the same.",
+    "id": "gen_c11_phy_ch02_q1",
+    "nodeId": "c11_phy_cbse_04_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a marble rolling on a smooth floor versus a rough carpet—on the smooth floor it travels farther before stopping.",
+     "Now imagine a perfectly frictionless horizontal surface (like an air hockey table with the air on): the marble would never stop.",
+     "This thought experiment mirrors Galileo's insight: he asked what happens to a ball rolling down one smooth incline and up another; as the second",
+     "Start by identifying the hidden force (friction) in everyday experience, then trace Galileo's logical extrapolation to the idealised frictionless"
+    ]
+   },
    {
     "type": "order",
     "question": "Design a simple experiment using a smartphone and a ruler to measure the instantaneous acceleration of a toy car rolling down an inclined plane at a specific point. Describe the procedure, what data to collect, and how to calculate instantaneous acceleration from that data.",
@@ -432,7 +522,7 @@ export const C11_PHY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer would only measure average acceleration over the whole ramp or confuse speed with acceleration. The key is understanding that instantaneous acceleration requires the limit process or derivative.",
-    "id": "gen_c11_phy_ch02_q1",
+    "id": "gen_c11_phy_ch02_q2",
     "nodeId": "c11_phy_cbse_02_004",
     "difficulty": "standard",
     "workedExample": [
@@ -440,6 +530,69 @@ export const C11_PHY_GEN: SimDef[] = [
      "The change in velocity during each phase is acceleration.",
      "Start by measuring velocity at two close time instants using a speedometer or video analysis — this gives average acceleration.",
      "Then shrink the time interval mentally: the instantaneous acceleration is what the speedometer would show at that exact moment if it displayed"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A student solves a recoil problem: \"A 100 kg gun fires a 10 g bullet at 800 m/s. Find recoil speed.\" They write: \\(0 = 0.01 \\times 800 + 100 \\times v \\Rightarrow v = -0.08\\ \\text{m/s}\\). Is this correct? If not, identify the error and give the correct answer.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The negative sign only shows the gun recoils",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "The total momentum",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "The momentum sum",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The mass conversion",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong evaluation claiming a sign error or a mass-conversion error shows the student has not carefully checked units and the sign convention.",
+    "id": "gen_c11_phy_ch02_q3",
+    "nodeId": "c11_phy_cbse_04_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Watch a cricket bowler deliver a ball: the ball gains forward momentum while the bowler experiences a tiny backward recoil.",
+     "Now imagine the same interaction on a frictionless icy lake — the total momentum of bowler+ball system before release (zero) equals total momentum",
+     "Begin by identifying the system boundaries: are external forces (friction, gravity component along motion) negligible during the brief interaction?",
+     "If yes, apply \\(\\sum \\vec{p}_i = \\sum \\vec{p}_f\\) as a vector equation."
     ]
    },
    {
@@ -452,7 +605,7 @@ export const C11_PHY_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value in km.",
     "misconception": "Wrong answer reveals: If t = 1/5 = 12 min, student used resultant speed instead of perpendicular component.",
-    "id": "gen_c11_phy_ch02_q2",
+    "id": "gen_c11_phy_ch02_q4",
     "nodeId": "c11_phy_cbse_02_007",
     "difficulty": "standard",
     "workedExample": [
@@ -468,12 +621,12 @@ export const C11_PHY_GEN: SimDef[] = [
     "answer": "Procedure: Use the smartphone's slow-motion video (e.g., 240 fps) to record the nut falling from a known height \\( h \\) (measured with ruler)",
     "options": [
      "(a) 5 km/h at 36.9° downstream (tan⁻¹(3/4)), (b) 15 min, (c) 0.75 km. Steps: 1. v_m/w = 4 km/h ⊥ to bank (ŷ)",
-     "The claim is false. Time to cross = width / (component of boat velocity perpendicular to banks). This component is 5 cos θ where θ is angle with perpendicular",
+     "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps)",
      "Procedure: Use the smartphone's slow-motion video (e.g., 240 fps) to record the nut falling from a known height \\( h \\) (measured with ruler)"
     ],
     "hint": "Straight from the 'Free fall' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"use stopwatch by hand\") reveals inability to design a precise measurement using available tools and ignorance of human reaction time error (~0.2 s).",
-    "id": "gen_c11_phy_ch02_q3",
+    "id": "gen_c11_phy_ch02_q5",
     "nodeId": "c11_phy_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -489,12 +642,12 @@ export const C11_PHY_GEN: SimDef[] = [
     "answer": "The ruler starts from rest (u = 0) and accelerates uniformly at g, so displacement d = ½gtᵣ². Using tᵣ = d/v would assume constant velocity, which is false",
     "options": [
      "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps)",
-     "Damage depends on the kinetic energy transferred during impact, which is determined by the relative speed at collision",
+     "Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel",
      "The ruler starts from rest (u = 0) and accelerates uniformly at g, so displacement d = ½gtᵣ². Using tᵣ = d/v would assume constant velocity, which is false"
     ],
     "hint": "Straight from the 'Reaction time' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The ruler starts from rest (u = 0) and accelerates uniformly at g, so displacement d = ½gtᵣ².",
-    "id": "gen_c11_phy_ch02_q4",
+    "id": "gen_c11_phy_ch02_q6",
     "nodeId": "c11_phy_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -505,17 +658,122 @@ export const C11_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a simple experiment using a smartphone camera and a ball thrown in a darkened room with a strobe light (or video analysis) to verify that the trajectory is parabolic. What measurements would you take, and how would you plot the data to confirm the quadratic relationship?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Calibrate pixels to metres using the grid",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Check that the fitted coefficient b",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Accept that air resistance causes slight",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "Record a video of a ball thrown at a fixed",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s4",
+      "label": "Plot y against x and fit a quadratic",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer plots y against t, which is also quadratic but does not test the trajectory equation, or skips the pixel-to-metre calibration.",
+    "id": "gen_c11_phy_ch02_q7",
+    "nodeId": "c11_phy_cbse_03_012",
+    "difficulty": "standard",
+    "workedExample": [
+     "Watch a cricket ball hit for a six — it follows a curved path.",
+     "That curve is not circular; it is a parabola.",
+     "We already know the horizontal motion is uniform (\\(x = v_0 \\cos\\theta_0 \\, t\\)) and vertical motion is uniformly accelerated (\\(y = v_0 \\sin\\theta_0",
+     "To find the *shape* of the path, we need a direct relation between \\(y\\) and \\(x\\) without time."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment using a smartphone and a ruler to measure the instantaneous acceleration of a toy car rolling down an inclined plane at a specific point. Describe the procedure, what data to collect, and how to calculate instantaneous acceleration from that data.",
+    "answer": "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps)",
+    "options": [
+     "(1) Record a video of a ball thrown at a fixed angle against a grid background, keeping the camera perpendicular to the plane of motion",
+     "Procedure: Mark a \"stimulus line\" and a \"brake line\" 5 m apart. Rider approaches at constant known speed v₀ (measured via phone GPS)",
+     "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps)"
+    ],
+    "hint": "Straight from the 'Acceleration' slide -- match the key terms.",
+    "misconception": "A poor answer would only measure average acceleration over the whole ramp or confuse speed with acceleration. The key is understanding that instantaneous acceleration requires the limit process or derivative.",
+    "id": "gen_c11_phy_ch02_q8",
+    "nodeId": "c11_phy_cbse_02_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A man swims at 4 km/h in still water. He crosses a 1 km wide river flowing at 3 km/h. He aims perpendicular to the banks. Calculate: (a) his velocity relative to ground, (b) time to cross, (c) downstream drift.",
+    "answer": "(a) 5 km/h at 36.9° downstream (tan⁻¹(3/4)), (b) 15 min, (c) 0.75 km. Steps: 1. v_m/w = 4 km/h ⊥ to bank (ŷ)",
+    "options": [
+     "The claim is false. Time to cross = width / (component of boat velocity perpendicular to banks). This component is 5 cos θ where θ is angle with perpendicular",
+     "Damage depends on the kinetic energy transferred during impact, which is determined by the relative speed at collision",
+     "(a) 5 km/h at 36.9° downstream (tan⁻¹(3/4)), (b) 15 min, (c) 0.75 km. Record: 1. v_m/w = 4 km/h ⊥ to bank (ŷ)",
+     "(a) 5 km/h at 36.9° downstream (tan⁻¹(3/4)), (b) 15 min, (c) 0.75 km. Steps: 1. v_m/w = 4 km/h ⊥ to bank (ŷ)"
+    ],
+    "hint": "Straight from the 'Relative velocity' slide -- match the key terms.",
+    "misconception": "Wrong answer reveals: If t = 1/5 = 12 min, student used resultant speed instead of perpendicular component.",
+    "id": "gen_c11_phy_ch02_q9",
+    "nodeId": "c11_phy_cbse_02_007",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A police van moving at 30 km/h fires a bullet at a thief's car speeding away at 192 km/h in the same direction. Muzzle speed of bullet is 150 m/s. Explain why the speed relevant for damaging the thief's car is the relative speed of the bullet with respect to the thief's car, not the muzzle speed.",
     "answer": "Damage depends on the kinetic energy transferred during impact, which is determined by the relative speed at collision",
     "options": [
-     "(a) 5 km/h at 36.9° downstream (tan⁻¹(3/4)), (b) 15 min, (c) 0.75 km. Steps: 1. v_m/w = 4 km/h ⊥ to bank (ŷ)",
-     "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps)",
+     "Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel",
+     "(1) The mass conversion is right — 10 g equals 0.01 kg, (2) The momentum sum is right — 0.01 times 800 gives 8 kg m/s and 100 times minus 0",
      "Damage depends on the kinetic energy transferred during impact, which is determined by the relative speed at collision"
     ],
     "hint": "Straight from the 'Relative velocity' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student uses 150 m/s or 158.3 m/s directly, they ignore the motion of the target.",
-    "id": "gen_c11_phy_ch02_q5",
+    "id": "gen_c11_phy_ch02_q10",
     "nodeId": "c11_phy_cbse_02_007",
     "difficulty": "standard"
    },
@@ -524,13 +782,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "A student solves a river-crossing problem: \"Boat speed 5 km/h, river 3 km/h, width 2 km. Time to cross = 2/5 = 0.4 h.\" The student claims this is correct regardless of the angle the boat heads. Evaluate this claim.",
     "answer": "The claim is false. Time to cross = width / (component of boat velocity perpendicular to banks). This component is 5 cos θ where θ is angle with perpendicular",
     "options": [
-     "(a) 5 km/h at 36.9° downstream (tan⁻¹(3/4)), (b) 15 min, (c) 0.75 km. Steps: 1. v_m/w = 4 km/h ⊥ to bank (ŷ)",
      "Damage depends on the kinetic energy transferred during impact, which is determined by the relative speed at collision",
+     "(1) Record a video of a ball thrown at a fixed angle against a grid background, keeping the camera perpendicular to the plane of motion",
      "The claim is false. Time to cross = width / (component of boat velocity perpendicular to banks). This component is 5 cos θ where θ is angle with perpendicular"
     ],
     "hint": "Straight from the 'Relative velocity' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: The student treats boat speed as a scalar that always acts across the river, ignoring vector resolution.",
-    "id": "gen_c11_phy_ch02_q6",
+    "id": "gen_c11_phy_ch02_q11",
     "nodeId": "c11_phy_cbse_02_007",
     "difficulty": "standard"
    },
@@ -539,25 +797,71 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "Design a real-world experiment to measure a two-wheeler rider's reaction time without a ruler, using only a smartphone and a marked straight road. Describe the procedure and the formula you would use.",
     "answer": "Procedure: Mark a \"stimulus line\" and a \"brake line\" 5 m apart. Rider approaches at constant known speed v₀ (measured via phone GPS)",
     "options": [
+     "Damage depends on the kinetic energy transferred during impact, which is determined by the relative speed at collision",
      "Procedure: Use the smartphone's slow-motion video (e.g., 240 fps) to record the nut falling from a known height \\( h \\) (measured with ruler)",
-     "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps)",
      "Procedure: Mark a \"stimulus line\" and a \"brake line\" 5 m apart. Rider approaches at constant known speed v₀ (measured via phone GPS)"
     ],
     "hint": "Straight from the 'Reaction time' slide -- match the key terms.",
     "misconception": "A poor answer uses speedometer reading without verifying constancy or ignores video-frame synchronization error.",
-    "id": "gen_c11_phy_ch02_q7",
+    "id": "gen_c11_phy_ch02_q12",
     "nodeId": "c11_phy_cbse_02_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment using a smartphone camera and a ball thrown in a darkened room with a strobe light (or video analysis) to verify that the trajectory is parabolic. What measurements would you take, and how would you plot the data to confirm the quadratic relationship?",
+    "answer": "(1) Record a video of a ball thrown at a fixed angle against a grid background, keeping the camera perpendicular to the plane of motion",
+    "options": [
+     "Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel",
+     "(1) The mass conversion is right — 10 g equals 0.01 kg, (2) The momentum sum is right — 0.01 times 800 gives 8 kg m/s and 100 times minus 0",
+     "(1) Record a video of a ball thrown at a fixed angle against a grid background, keeping the camera perpendicular to the plane of motion"
+    ],
+    "hint": "Straight from the 'equation of trajectory of a' slide -- match the key terms.",
+    "misconception": "A poor answer plots y against t, which is also quadratic but does not test the trajectory equation, or skips the pixel-to-metre calibration.",
+    "id": "gen_c11_phy_ch02_q13",
+    "nodeId": "c11_phy_cbse_03_012",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple classroom demonstration using low-cost materials (e.g., a wooden plank, a marble, a towel, a book) that illustrates Galileo's insight: reducing friction makes an object move farther with the same initial push. Describe the setup, the variable you change, and what students should observe.",
+    "answer": "Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel",
+    "options": [
+     "Damage depends on the kinetic energy transferred during impact, which is determined by the relative speed at collision",
+     "(a) 5 km/h at 36.9° downstream (tan⁻¹(3/4)), (b) 15 min, (c) 0.75 km. Steps: 1. v_m/w = 4 km/h ⊥ to bank (ŷ)",
+     "Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel"
+    ],
+    "hint": "Straight from the 'Aristotle's fallacy' slide -- match the key terms.",
+    "misconception": "A poor answer (e.g., \"use a fan to blow the marble\") misses the point of varying friction while keeping initial energy the same.",
+    "id": "gen_c11_phy_ch02_q14",
+    "nodeId": "c11_phy_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A student solves a recoil problem: \"A 100 kg gun fires a 10 g bullet at 800 m/s. Find recoil speed.\" They write: \\(0 = 0.01 \\times 800 + 100 \\times v \\Rightarrow v = -0.08\\ \\text{m/s}\\). Is this correct? If not, identify the error and give the correct answer.",
+    "answer": "(1) The mass conversion is right — 10 g equals 0.01 kg, (2) The momentum sum is right — 0.01 times 800 gives 8 kg m/s and 100 times minus 0",
+    "options": [
+     "Procedure: Mark a \"stimulus line\" and a \"brake line\" 5 m apart. Rider approaches at constant known speed v₀ (measured via phone GPS)",
+     "Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel",
+     "(1) The mass conversion is right — 10 g equals 0.01 kg, (2) The momentum sum is right — 0.01 times 800 gives 8 kg m/s and 100 times minus 0"
+    ],
+    "hint": "Straight from the 'law of conservation of momentum' slide -- match the key terms.",
+    "misconception": "A wrong evaluation claiming a sign error or a mass-conversion error shows the student has not carefully checked units and the sign convention.",
+    "id": "gen_c11_phy_ch02_q15",
+    "nodeId": "c11_phy_cbse_04_006",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about acceleration?",
+    "What surprised you about aristotle's fallacy?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Acceleration mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "successLine": "Aristotle's Fallacy mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_phy_ch06",
@@ -568,10 +872,12 @@ export const C11_PHY_GEN: SimDef[] = [
   "subject": "physics",
   "topic": "Motion Of The Centre Of Mass Of a System Of Particle",
   "chapters": [
+   "Physics Ch5: Motion Of The Centre Of Mass Of a System Of Particle",
    "Physics Ch6: Motion Of The Centre Of Mass Of a System Of Particle"
   ],
   "nodeIds": [
    "c11_phy_cbse_06_002",
+   "c11_phy_cbse_05_004",
    "c11_phy_cbse_06_006",
    "c11_phy_cbse_06_007",
    "c11_phy_cbse_06_013",
@@ -599,6 +905,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "text": "The motion of the centre of mass of a system of particles is governed by the equation \\( M \\vec{A}_{cm} = \\vec{F}_{ext} \\), where \\( M \\) is the total mass of the system, \\( \\vec{A}_{cm} \\) is the acceleration of the centre of mass, and \\( \\vec{F}_{ext} \\) is",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Kinetic Energy",
+    "text": "Kinetic energy is the energy possessed by a body due to its motion, defined as the work needed to accelerate a body of mass \\( m \\) from rest to velocity \\( \\vec{v} \\).",
+    "emoji": "⚡",
+    "bgColor": "from-violet-400 to-purple-500",
+    "katex": "K = \\frac{1}{2} m v^2 \\)"
    },
    {
     "title": "Rigid Body",
@@ -648,6 +961,80 @@ export const C11_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a simple experiment using a school laboratory setup (trolley, light gate, masses, runway) to verify that kinetic energy is proportional to the square of velocity. Outline the procedure, measurements, and how you would analyze the data.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Compute K as half m v squared for each run",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Place the trolley on a friction-compensated",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Read the slope as half the mass",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s3",
+      "label": "Use a light gate to time the card and get",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "Plot K against v",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer measures speed and energy directly with no graph analysis, revealing weak experimental design for testing a quadratic relationship.",
+    "id": "gen_c11_phy_ch06_q2",
+    "nodeId": "c11_phy_cbse_05_004",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a cricket ball and a tennis ball thrown at the same speed — the cricket ball hurts more because it has more mass.",
+     "Now imagine the same cricket ball thrown at different speeds — the faster one does more damage.",
+     "This shows kinetic energy depends on both mass and speed.",
+     "In Class 9 you learned \\( v^2 - u^2 = 2as \\) and multiplied by \\( m/2 \\) to get \\( \\frac{1}{2}mv^2 - \\frac{1}{2}mu^2 = mas = Fs = W \\)."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A uniform beam of mass 20 kg and length 4 m is hinged to a wall at one end and held horizontal by a cable attached to the other end, making 30° with the beam. A 50 kg mass hangs from the beam at 1 m from the hinge. Find the tension in the cable. (g = 9.8 m/s²)",
     "answer": "Tension T = 1470 N (or 1.47 × 10³ N). Steps: (1) Forces: beam weight W_b = 196 N at 2 m from hinge, load weight W_L = 490 N at 1 m, tension T at 4 m at 30°",
@@ -658,7 +1045,7 @@ export const C11_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'rigid body' slide -- match the key terms.",
     "misconception": "A wrong answer of 882 N reveals the student used T × 4 instead of T × 4 sin 30° (forgetting the perpendicular component). A wrong answer of 220.5 N reveals the student used sin 30° = 0.5 but divided by 4 instead of 2.",
-    "id": "gen_c11_phy_ch06_q2",
+    "id": "gen_c11_phy_ch06_q3",
     "nodeId": "c11_phy_cbse_06_006",
     "difficulty": "advanced",
     "workedExample": [
@@ -673,13 +1060,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "A crowbar of length 1.5 m is used to lift a heavy stone. The fulcrum is placed 0.2 m from the stone. If a person applies a downward force of 150 N at the other end, what is the maximum weight of the stone that can be lifted? Explain why the mechanical advantage is greater than 1.",
     "answer": "Maximum weight of stone = 975 N (approx 99.5 kg). Effort arm = 1.5 - 0.2 = 1.3 m, Load arm = 0.2 m",
     "options": [
-     "Use two cylindrical cans: one solid (full of sand, sealed) and one hollow (empty). Same mass (add weights to hollow can), same radius",
+     "Measure: axle radius r, hanging mass m, time t for mass to fall distance h. Compute linear acceleration a = 2h/t²",
      "The claim is incorrect. Mechanical Advantage = Load/Effort = 200/50 = 4 (or Effort arm/Load arm = 0",
      "Maximum weight of stone = 975 N (approx 99.5 kg). Effort arm = 1.5 - 0.2 = 1.3 m, Load arm = 0.2 m"
     ],
     "hint": "Straight from the 'Principle of Moments states that' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student either swapped effort and load arms, or forgot to subtract the fulcrum distance from total length to get the effort arm.",
-    "id": "gen_c11_phy_ch06_q3",
+    "id": "gen_c11_phy_ch06_q4",
     "nodeId": "c11_phy_cbse_06_007",
     "difficulty": "advanced",
     "workedExample": [
@@ -694,13 +1081,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "Design a simple school-lab experiment to verify τ = Iα using a rotating platform (like a lazy Susan), a hanging mass on a string wound around the axle, and a stopwatch. List the measurements needed and how you would compute I experimentally.",
     "answer": "Measure: axle radius r, hanging mass m, time t for mass to fall distance h. Compute linear acceleration a = 2h/t²",
     "options": [
+     "Tension T = 1470 N (or 1.47 × 10³ N). Steps: (1) Forces: beam weight W_b = 196 N at 2 m from hinge, load weight W_L = 490 N at 1 m, tension T at 4 m at 30°",
      "Setup: Clamp a metre scale horizontally on a stand with a pivot at the 50 cm mark. Attach two spring balances to the scale at 20 cm and 80 cm marks, pulling at angles (e",
-     "Maximum weight of stone = 975 N (approx 99.5 kg). Effort arm = 1.5 - 0.2 = 1.3 m, Load arm = 0.2 m",
      "Measure: axle radius r, hanging mass m, time t for mass to fall distance h. Compute linear acceleration a = 2h/t²"
     ],
     "hint": "Straight from the 'dynamics of rotational motion' slide -- match the key terms.",
     "misconception": "A poor answer that ignores the tension in the string (using τ = mgr exactly) or doesn't convert linear to angular quantities reveals incomplete understanding of the torque-acceleration relationship.",
-    "id": "gen_c11_phy_ch06_q4",
+    "id": "gen_c11_phy_ch06_q5",
     "nodeId": "c11_phy_cbse_06_013",
     "difficulty": "advanced",
     "workedExample": [
@@ -715,13 +1102,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "Design a simple experiment using household items to demonstrate that a solid cylinder reaches the bottom of an incline before a hollow cylinder of same mass and radius when both roll without slipping. List measurements needed and how you would verify the theoretical prediction v = √[2gh/(1+β)].",
     "answer": "Use two cylindrical cans: one solid (full of sand, sealed) and one hollow (empty). Same mass (add weights to hollow can), same radius",
     "options": [
+     "(1) Place the trolley on a friction-compensated runway and attach a card of known length, (2) Use a light gate to time the card and get the velocity v as length over t for several",
      "Tension T = 1470 N (or 1.47 × 10³ N). Steps: (1) Forces: beam weight W_b = 196 N at 2 m from hinge, load weight W_L = 490 N at 1 m, tension T at 4 m at 30°",
-     "Setup: Clamp a metre scale horizontally on a stand with a pivot at the 50 cm mark. Attach two spring balances to the scale at 20 cm and 80 cm marks, pulling at angles (e",
      "Use two cylindrical cans: one solid (full of sand, sealed) and one hollow (empty). Same mass (add weights to hollow can), same radius"
     ],
     "hint": "Straight from the 'Rolling motion' slide -- match the key terms.",
     "misconception": "A poor answer uses different masses/radii, ignores timing errors, or claims \"heavier rolls faster\" showing misunderstanding of mass independence.",
-    "id": "gen_c11_phy_ch06_q5",
+    "id": "gen_c11_phy_ch06_q6",
     "nodeId": "c11_phy_cbse_06_014",
     "difficulty": "advanced",
     "workedExample": [
@@ -733,16 +1120,31 @@ export const C11_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple experiment using a school laboratory setup (trolley, light gate, masses, runway) to verify that kinetic energy is proportional to the square of velocity. Outline the procedure, measurements, and how you would analyze the data.",
+    "answer": "(1) Place the trolley on a friction-compensated runway and attach a card of known length, (2) Use a light gate to time the card and get the velocity v as length over t for several",
+    "options": [
+     "At highest point, projectile velocity is purely horizontal: \\( v_x = 100 \\cos 60° = 50 \\) m/s. Initial momentum: \\( \\vec{p}_i = 5 \\times 50 \\hat{i} = 250 \\hat{i} \\) kg·m/s",
+     "Setup: Clamp a metre scale horizontally on a stand with a pivot at the 50 cm mark. Attach two spring balances to the scale at 20 cm and 80 cm marks, pulling at angles (e",
+     "(1) Place the trolley on a friction-compensated runway and attach a card of known length, (2) Use a light gate to time the card and get the velocity v as length over t for several"
+    ],
+    "hint": "Straight from the 'Kinetic energy' slide -- match the key terms.",
+    "misconception": "A poor answer measures speed and energy directly with no graph analysis, revealing weak experimental design for testing a quadratic relationship.",
+    "id": "gen_c11_phy_ch06_q7",
+    "nodeId": "c11_phy_cbse_05_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple experiment using a metre scale, two spring balances, and a set of known weights to verify the principle of moments for a lever with non-perpendicular forces. Describe the setup, measurements, and how you would check if Στ = 0 holds.",
     "answer": "Setup: Clamp a metre scale horizontally on a stand with a pivot at the 50 cm mark. Attach two spring balances to the scale at 20 cm and 80 cm marks, pulling at angles (e",
     "options": [
      "Tension T = 1470 N (or 1.47 × 10³ N). Steps: (1) Forces: beam weight W_b = 196 N at 2 m from hinge, load weight W_L = 490 N at 1 m, tension T at 4 m at 30°",
-     "At highest point, projectile velocity is purely horizontal: \\( v_x = 100 \\cos 60° = 50 \\) m/s. Initial momentum: \\( \\vec{p}_i = 5 \\times 50 \\hat{i} = 250 \\hat{i} \\) kg·m/s",
+     "(1) Place the trolley on a friction-compensated runway and attach a card of known length, (2) Use a light gate to time the card and get the velocity v as length over t for several",
      "Setup: Clamp a metre scale horizontally on a stand with a pivot at the 50 cm mark. Attach two spring balances to the scale at 20 cm and 80 cm marks, pulling at angles (e"
     ],
     "hint": "Straight from the 'rigid body' slide -- match the key terms.",
     "misconception": "A poor answer would use only vertical forces or ignore the sin θ factor for angled forces, revealing the student doesn't understand that only the perpendicular component of force contributes to torque.",
-    "id": "gen_c11_phy_ch06_q6",
+    "id": "gen_c11_phy_ch06_q8",
     "nodeId": "c11_phy_cbse_06_006",
     "difficulty": "advanced"
    },
@@ -751,13 +1153,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "A student solves a lever problem: \"A force of 50 N applied at 0.4 m from the fulcrum balances a load at 0.1 m. The load is 50 × 0.4 / 0.1 = 200 N.\" The student claims the mechanical advantage is 0.25. Evaluate this claim and correct the error.",
     "answer": "The claim is incorrect. Mechanical Advantage = Load/Effort = 200/50 = 4 (or Effort arm/Load arm = 0",
     "options": [
+     "(1) Place the trolley on a friction-compensated runway and attach a card of known length, (2) Use a light gate to time the card and get the velocity v as length over t for several",
      "Measure: axle radius r, hanging mass m, time t for mass to fall distance h. Compute linear acceleration a = 2h/t²",
-     "Use two cylindrical cans: one solid (full of sand, sealed) and one hollow (empty). Same mass (add weights to hollow can), same radius",
      "The claim is incorrect. Mechanical Advantage = Load/Effort = 200/50 = 4 (or Effort arm/Load arm = 0"
     ],
     "hint": "Straight from the 'Principle of Moments states that' slide -- match the key terms.",
     "misconception": "A wrong evaluation reveals the student confuses Mechanical Advantage (force multiplication factor) with Velocity Ratio (distance ratio), a common error in simple machines.",
-    "id": "gen_c11_phy_ch06_q7",
+    "id": "gen_c11_phy_ch06_q9",
     "nodeId": "c11_phy_cbse_06_007",
     "difficulty": "advanced"
    }
@@ -769,7 +1171,8 @@ export const C11_PHY_GEN: SimDef[] = [
    ]
   },
   "successLine": "Motion Of The Centre Of Mass mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_phy_ch07",
@@ -783,6 +1186,7 @@ export const C11_PHY_GEN: SimDef[] = [
    "Physics Ch7: The Acceleration Due To Gravity"
   ],
   "nodeIds": [
+   "c11_phy_cbse_07_001",
    "c11_phy_cbse_07_003",
    "c11_phy_cbse_07_004",
    "c11_phy_cbse_07_005",
@@ -806,6 +1210,13 @@ export const C11_PHY_GEN: SimDef[] = [
    "hook": "ISRO mission designer: orbital periods and escape velocity are the arithmetic of every launch."
   },
   "teaching": [
+   {
+    "title": "Kepler's Laws Of Planetary Motion",
+    "text": "Kepler's laws of planetary motion are three empirical principles describing the motion of planets around the Sun: (1) Law of Orbits – Every planet moves in an elliptical orbit with the Sun at one focus; (2) Law of Areas – The radius vector from the Sun to a",
+    "emoji": "⚡",
+    "bgColor": "from-amber-400 to-orange-500",
+    "katex": "G = 6"
+   },
    {
     "title": "Gravitational Constant \\",
     "text": "The gravitational constant \\( G \\) is the universal proportionality constant in Newton's law of universal gravitation that quantifies the strength of the gravitational force between two point masses.",
@@ -840,17 +1251,80 @@ export const C11_PHY_GEN: SimDef[] = [
   ],
   "challenges": [
    {
+    "type": "order",
+    "question": "Design a simple tabletop experiment using a ball on a string (or a puck on an air table) to demonstrate the principle behind Kepler's second law (equal areas in equal times). Describe the setup, what you would measure, and how you would verify the law.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Verify",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Key condition",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Setup",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Measure",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer uses a vertical circle where gravity adds a non-central component, or measures speed at different radii without measuring areas, which tests a consequence rather than the law itself.",
+    "id": "gen_c11_phy_ch07_q1",
+    "nodeId": "c11_phy_cbse_07_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Begin by asking students to observe the night sky over several weeks (or use a free planetarium app like Stellarium) and note that planets like Mars",
+     "This historical puzzle – which troubled astronomers for millennia – was resolved by Tycho Brahe's precise naked-eye data and Kepler's analysis.",
+     "Connect to their prior knowledge of uniform circular motion (Class 9, node c9_physics_ch2_10) and central forces (Class 9, node c9_physics_ch3_4):",
+     "Then introduce the ellipse using the string-and-pins construction (NCERT Fig."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A student claims: \"The Cavendish experiment measures the gravitational force directly by measuring the twist angle, so we don't need to know the torsion constant \\( \\tau \\) if we calibrate the wire by hanging a known mass from the bar.\" Evaluate this claim. Is it correct? Why or why not?",
     "answer": "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))",
     "options": [
-     "Take a seconds pendulum (period \\(T = 2\\) s at surface) down a vertical mine shaft. At each depth \\(d\\), measure the period \\(T(d)\\) using a precise stopwatch or electronic timer",
-     "On the ISS, the torsion wire would not hang vertically under gravity; the bar would float. The apparatus must be mounted on a rigid support with the wire under tension (e",
+     "(1) Setup — tie a small mass on a string passing through a hole in a frictionless horizontal air table so the string tension is a purely central force, (2) Measure",
+     "At midpoint: distance to each mass = d/2. V_mid = 2 × (-GM/(d/2)) = -4GM/d. At point on perpendicular bisector at distance d/2 from midpoint: distance to each mass = √((d/2)² +",
      "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))"
     ],
     "hint": "Straight from the 'gravitational constant \\' slide -- match the key terms.",
     "misconception": "A wrong evaluation reveals confusion between measuring a quantity and needing its value in the formula.",
-    "id": "gen_c11_phy_ch07_q1",
+    "id": "gen_c11_phy_ch07_q2",
     "nodeId": "c11_phy_cbse_07_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -865,13 +1339,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "Design a simple experiment to measure g in a school lab using a simple pendulum. List the measurements needed, the formula to use, and one major source of error.",
     "answer": "Measure length L of pendulum and time period T for small oscillations. Use T = 2π√(L/g) → g = 4π²L/T²",
     "options": [
-     "Take a seconds pendulum (period \\(T = 2\\) s at surface) down a vertical mine shaft. At each depth \\(d\\), measure the period \\(T(d)\\) using a precise stopwatch or electronic timer",
      "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))",
+     "On the ISS, the torsion wire would not hang vertically under gravity; the bar would float. The apparatus must be mounted on a rigid support with the wire under tension (e",
      "Measure length L of pendulum and time period T for small oscillations. Use T = 2π√(L/g) → g = 4π²L/T²"
     ],
     "hint": "Straight from the 'acceleration due to gravity  at' slide -- match the key terms.",
     "misconception": "A poor answer uses free fall with a stopwatch (human reaction time too large) or forgets to square T.",
-    "id": "gen_c11_phy_ch07_q2",
+    "id": "gen_c11_phy_ch07_q3",
     "nodeId": "c11_phy_cbse_07_004",
     "difficulty": "standard",
     "workedExample": [
@@ -886,13 +1360,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "Design a thought experiment to measure the variation of \\(g\\) with altitude using a simple pendulum and a stopwatch. Describe how you would isolate the effect of altitude from other factors (e.",
     "answer": "Use \\(T = 2\\pi\\sqrt{L/g}\\) → \\(g = 4\\pi^2 L / T^2\\). Measure period at two altitudes. To isolate altitude: use same pendulum, same location (latitude), same temperature",
     "options": [
-     "At midpoint: distance to each mass = d/2. V_mid = 2 × (-GM/(d/2)) = -4GM/d. At point on perpendicular bisector at distance d/2 from midpoint: distance to each mass = √((d/2)² +",
-     "Take a seconds pendulum (period \\(T = 2\\) s at surface) down a vertical mine shaft. At each depth \\(d\\), measure the period \\(T(d)\\) using a precise stopwatch or electronic timer",
+     "(1) Setup — tie a small mass on a string passing through a hole in a frictionless horizontal air table so the string tension is a purely central force, (2) Measure",
+     "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))",
      "Use \\(T = 2\\pi\\sqrt{L/g}\\) → \\(g = 4\\pi^2 L / T^2\\). Measure period at two altitudes. To isolate altitude: use same pendulum, same location (latitude), same temperature"
     ],
     "hint": "Straight from the 'The acceleration due to gravity' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"measure at sea level and mountain top\" without controlling variables) reveals lack of experimental design skills and misunderstanding of error sources.",
-    "id": "gen_c11_phy_ch07_q3",
+    "id": "gen_c11_phy_ch07_q4",
     "nodeId": "c11_phy_cbse_07_005",
     "difficulty": "standard",
     "workedExample": [
@@ -944,7 +1418,7 @@ export const C11_PHY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer (e.g., \"just measure time\" without addressing confounding factors) shows lack of experimental design awareness.",
-    "id": "gen_c11_phy_ch07_q4",
+    "id": "gen_c11_phy_ch07_q5",
     "nodeId": "c11_phy_cbse_07_006",
     "difficulty": "standard",
     "workedExample": [
@@ -959,13 +1433,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "Two identical point masses M are placed at a distance d apart. Compare the gravitational potential at the midpoint between them with the potential at a point on the perpendicular bisector at distance d/2 from the midpoint. Which is more negative and why?",
     "answer": "At midpoint: distance to each mass = d/2. V_mid = 2 × (-GM/(d/2)) = -4GM/d. At point on perpendicular bisector at distance d/2 from midpoint: distance to each mass = √((d/2)² +",
     "options": [
+     "Measure length L of pendulum and time period T for small oscillations. Use T = 2π√(L/g) → g = 4π²L/T²",
      "Take a seconds pendulum (period \\(T = 2\\) s at surface) down a vertical mine shaft. At each depth \\(d\\), measure the period \\(T(d)\\) using a precise stopwatch or electronic timer",
-     "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))",
      "At midpoint: distance to each mass = d/2. V_mid = 2 × (-GM/(d/2)) = -4GM/d. At point on perpendicular bisector at distance d/2 from midpoint: distance to each mass = √((d/2)² +"
     ],
     "hint": "Straight from the 'Gravitational potential at a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying they are equal, or perpendicular point is more negative) reveals misunderstanding of superposition for scalars vs vectors, or not calculating distances correctly.",
-    "id": "gen_c11_phy_ch07_q5",
+    "id": "gen_c11_phy_ch07_q6",
     "nodeId": "c11_phy_cbse_07_009",
     "difficulty": "standard",
     "workedExample": [
@@ -974,6 +1448,21 @@ export const C11_PHY_GEN: SimDef[] = [
      "Start by recalling from Class 9 (c9_physics_ch4_6) that potential energy near Earth's surface is mgh.",
      "Now ask: \"What happens when we go far from Earth where g is not constant?\" This leads to the integral definition W = ∫ F·dr from infinity to r,"
     ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple tabletop experiment using a ball on a string (or a puck on an air table) to demonstrate the principle behind Kepler's second law (equal areas in equal times). Describe the setup, what you would measure, and how you would verify the law.",
+    "answer": "(1) Setup — tie a small mass on a string passing through a hole in a frictionless horizontal air table so the string tension is a purely central force, (2) Measure",
+    "options": [
+     "Use \\(T = 2\\pi\\sqrt{L/g}\\) → \\(g = 4\\pi^2 L / T^2\\). Measure period at two altitudes. To isolate altitude: use same pendulum, same location (latitude), same temperature",
+     "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))",
+     "(1) Setup — tie a small mass on a string passing through a hole in a frictionless horizontal air table so the string tension is a purely central force, (2) Measure"
+    ],
+    "hint": "Straight from the 'Kepler's laws of planetary motion' slide -- match the key terms.",
+    "misconception": "A poor answer uses a vertical circle where gravity adds a non-central component, or measures speed at different radii without measuring areas, which tests a consequence rather than the law itself.",
+    "id": "gen_c11_phy_ch07_q7",
+    "nodeId": "c11_phy_cbse_07_001",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -986,9 +1475,24 @@ export const C11_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'gravitational constant \\' slide -- match the key terms.",
     "misconception": "A poor answer suggesting \\( G \\) changes in space reveals a deep misconception: confusing the *measurement conditions* (weightlessness) with the *fundamental constant* being measured.",
-    "id": "gen_c11_phy_ch07_q6",
+    "id": "gen_c11_phy_ch07_q8",
     "nodeId": "c11_phy_cbse_07_003",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a thought experiment to measure the variation of \\(g\\) with depth using a simple pendulum. What would you measure, and how would you isolate the effect of depth from other factors like temperature or air buoyancy?",
+    "answer": "Take a seconds pendulum (period \\(T = 2\\) s at surface) down a vertical mine shaft. At each depth \\(d\\), measure the period \\(T(d)\\) using a precise stopwatch or electronic timer",
+    "options": [
+     "(1) Setup — tie a small mass on a string passing through a hole in a frictionless horizontal air table so the string tension is a purely central force, (2) Measure",
+     "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))",
+     "Take a seconds pendulum (period \\(T = 2\\) s at surface) down a vertical mine shaft. At each depth \\(d\\), measure the period \\(T(d)\\) using a precise stopwatch or electronic timer"
+    ],
+    "hint": "Straight from the 'The acceleration due to gravity' slide -- match the key terms.",
+    "misconception": "A poor answer (e.g., \"just measure time\" without addressing confounding factors) shows lack of experimental design awareness.",
+    "id": "gen_c11_phy_ch07_q9",
+    "nodeId": "c11_phy_cbse_07_006",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -998,7 +1502,8 @@ export const C11_PHY_GEN: SimDef[] = [
    ]
   },
   "successLine": "The Acceleration Due To mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_phy_ch10",
@@ -1009,13 +1514,19 @@ export const C11_PHY_GEN: SimDef[] = [
   "subject": "physics",
   "topic": "Temperature",
   "chapters": [
-   "Physics Ch10: Temperature"
+   "Physics Ch10: Temperature",
+   "Physics Ch11: Temperature",
+   "Physics Ch12: Temperature"
   ],
   "nodeIds": [
    "c11_phy_cbse_10_002",
+   "c11_phy_cbse_11_004",
    "c11_phy_cbse_10_006",
+   "c11_phy_cbse_12_007",
    "c11_phy_cbse_10_008",
    "c11_phy_cbse_10_009",
+   "c11_phy_cbse_12_009",
+   "c11_phy_cbse_11_010",
    "c11_phy_cbse_10_013"
   ],
   "emoji": "⚡",
@@ -1043,8 +1554,20 @@ export const C11_PHY_GEN: SimDef[] = [
     "katex": "C = T/K – 273"
    },
    {
+    "title": "Work Done In An Isothermal Process",
+    "text": "Work done in an isothermal process is the energy transferred by an ideal gas as work when it expands or compresses at constant temperature, calculated by integrating pressure with respect to volume under the condition that the product of pressure and volume",
+    "emoji": "⚡",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
     "title": "Specific Heat Capacity",
     "text": "Specific heat capacity is the amount of heat energy required to raise the temperature of one kilogram of a substance by one kelvin (or one degree Celsius) without any change of state.",
+    "emoji": "⚡",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Mean Free Path",
+    "text": "Mean free path is the average distance traveled by a gas molecule between two successive collisions with other molecules. It is a statistical quantity representing the mean of the free paths of all molecules in a gas at equilibrium.",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
    },
@@ -1059,6 +1582,18 @@ export const C11_PHY_GEN: SimDef[] = [
     "text": "Change of state is a physical process where matter transitions between solid, liquid, and gas phases due to heat exchange at constant temperature and pressure.",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Maxwell's Speed Distribution Law",
+    "text": "Maxwell's Speed Distribution Law describes the statistical distribution of molecular speeds in an ideal gas at thermal equilibrium, giving the fraction of molecules having speeds between v and v+dv as f(v)dv = 4π (m/2πk_BT)^{3/2} v^2 e^{-mv^2/2k_BT} dv, where",
+    "emoji": "⚡",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Thermodynamic Process",
+    "text": "A thermodynamic process is reversible if it can be reversed such that both the system and the surroundings return to their original states with no net change anywhere else in the universe; it is irreversible if it cannot be reversed without leaving a net",
+    "emoji": "⚡",
+    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "Convection",
@@ -1143,17 +1678,102 @@ export const C11_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a simple experiment using a syringe, a water bath, and a pressure sensor to verify the work done formula for an isothermal process. Describe the procedure, measurements needed, and how you would calculate work from the data.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Trap a known amount of air",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Slowly push/pull plunger to change volume",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Immerse syringe in a large water bath",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Calculate work by numerical integration of P",
+      "emoji": "📌",
+      "correctBin": "o5"
+     },
+     {
+      "id": "s4",
+      "label": "Connect pressure sensor to syringe",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s5",
+      "label": "Plot P vs V",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     },
+     {
+      "id": "o5",
+      "label": "6th",
+      "color": "#ec4899"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer (e.g., not immersing in water bath, or moving plunger quickly) reveals misunderstanding of the need for thermal equilibrium with a reservoir to maintain constant temperature and the quasi-static requirement for the formula to apply.",
+    "id": "gen_c11_phy_ch10_q2",
+    "nodeId": "c11_phy_cbse_11_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a bicycle pump with its nozzle blocked, placed in a bucket of water at room temperature.",
+     "If you push the piston slowly, the air inside compresses but its temperature stays constant because heat flows into the water.",
+     "This is a quasi-static isothermal compression.",
+     "To analyze it, first recall that for an ideal gas at constant temperature, pressure varies inversely with volume (Boyle's law: PV = constant)."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "The specific heat capacity of water is 4186 J kg⁻¹ K⁻¹ while that of sand is ~800 J kg⁻¹ K⁻¹. Using this, explain why coastal cities like Mumbai have milder summers than inland cities like Delhi, even at similar latitudes.",
     "answer": "Water's high specific heat means it absorbs large heat with small temperature rise. During daytime, the sea absorbs solar energy but warms slowly, while land (low s) heats rapidly",
     "options": [
-     "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water",
+     "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from",
      "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100",
      "Water's high specific heat means it absorbs large heat with small temperature rise. During daytime, the sea absorbs solar energy but warms slowly, while land (low s) heats rapidly"
     ],
     "hint": "Straight from the 'Specific heat capacity' slide -- match the key terms.",
     "misconception": "A student who only states \"water has high specific heat\" without linking to heat absorption/release rates and convection currents shows incomplete understanding of the thermal inertia mechanism.",
-    "id": "gen_c11_phy_ch10_q2",
+    "id": "gen_c11_phy_ch10_q3",
     "nodeId": "c11_phy_cbse_10_006",
     "difficulty": "standard",
     "workedExample": [
@@ -1164,17 +1784,80 @@ export const C11_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a thought experiment to estimate the diameter of an air molecule using only macroscopic measurements of mean free path (e.g., by measuring viscosity or diffusion). Outline the steps and the formula you would use.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Measure the viscosity of air at a known",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Use the kinetic-theory relation eta equals",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Calculate n as P over k T",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Solve lambda equals one over root-two pi d",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer omits the connection between viscosity and mean free path, or fails to identify all the measurable quantities needed.",
+    "id": "gen_c11_phy_ch10_q4",
+    "nodeId": "c11_phy_cbse_12_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe that when a gas cylinder leaks in a kitchen, the smell takes minutes to reach the other corner even though molecules move at ~500 m/s.",
+     "This is because molecules collide frequently, deflecting their paths.",
+     "Imagine a single molecule moving through a crowd of stationary molecules: it sweeps a cylindrical volume \\(\\pi d^2 \\langle v \\rangle \\Delta t\\) in",
+     "Any molecule whose centre lies in this cylinder will collide."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A student claims: \"In a calorimeter experiment, the heat lost by the hot metal block is exactly equal to the heat gained by the water alone.\" Explain why this statement is incomplete and what additional component must be included for accurate results.",
     "answer": "The statement ignores the calorimeter cup (and stirrer) which also absorbs heat. The correct heat balance is: Heat lost by metal = Heat gained by water + Heat gained by",
     "options": [
-     "Pressure from the wire lowers the melting point of ice directly below it (water contracts on melting, so increased pressure favours liquid phase)",
      "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water",
+     "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from",
      "The statement ignores the calorimeter cup (and stirrer) which also absorbs heat. The correct heat balance is: Heat lost by metal = Heat gained by water + Heat gained by"
     ],
     "hint": "Straight from the 'Calorimetry' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement ignores the calorimeter cup (and stirrer) which also absorbs heat.",
-    "id": "gen_c11_phy_ch10_q3",
+    "id": "gen_c11_phy_ch10_q5",
     "nodeId": "c11_phy_cbse_10_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -1195,7 +1878,7 @@ export const C11_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Change of state' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"wire is hot\" or \"ice evaporates\") shows ignorance of the Clausius-Clapeyron relation and water's anomalous expansion.",
-    "id": "gen_c11_phy_ch10_q4",
+    "id": "gen_c11_phy_ch10_q6",
     "nodeId": "c11_phy_cbse_10_009",
     "difficulty": "standard",
     "workedExample": [
@@ -1206,17 +1889,143 @@ export const C11_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a thought experiment using a velocity selector (rotating slotted disks) to experimentally verify the Maxwell-Boltzmann distribution for argon gas at 400 K. Specify the key measurements and how you would extract f(v).",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Apparatus",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Selection",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Measurement",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Analysis",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer omits the v-cubed factor or assumes the selector transmits all speeds equally.",
+    "id": "gen_c11_phy_ch10_q7",
+    "nodeId": "c11_phy_cbse_12_009",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine releasing a drop of perfume in one corner of a classroom – the scent doesn't reach everyone at once because air molecules move at vastly",
+     "In Class 9 you learned that gas pressure arises from molecular collisions, but we treated all molecules as having the same rms speed.",
+     "Now we ask: what is the actual spread of speeds?",
+     "Start by plotting a histogram of molecular speeds from a simulation – you'll see a skewed bell curve."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Design a thought experiment to test whether the condensation of steam on a cold mirror is reversible or irreversible. Specify the system, surroundings, and the criterion you would use to decide.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Observation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Reversal test",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "System",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Criterion",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer claiming it is reversible because you can boil the water again misses that boiling requires a hotter source and alters the surroundings.",
+    "id": "gen_c11_phy_ch10_q8",
+    "nodeId": "c11_phy_cbse_11_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe a gas leaking from a punctured LPG cylinder in a kitchen – the gas spreads irreversibly throughout the room and never spontaneously returns",
+     "Ask: \"What would need to happen for this to reverse?\" Guide students to see that reversal would require external work (a compressor) and would heat",
+     "Contrast with an idealised frictionless piston compressing gas infinitely slowly: at each step, an infinitesimal pressure difference drives the",
+     "Connect to prior nodes: thermal equilibrium (c11_phy_cbse_11_002) defines the quasi-static condition; First Law (c11_phy_cbse_11_003) shows energy"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Compare the convection pattern in a cylindrical beaker of water heated by a Bunsen burner at the center of the base versus one heated at the side near the bottom. Sketch the expected flow lines for both cases.",
     "answer": "Center heating: Symmetric toroidal roll. Hot water rises in a central plume, spreads radially at the surface, cools, and sinks along the cylindrical walls",
     "options": [
+     "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100",
      "The statement ignores the calorimeter cup (and stirrer) which also absorbs heat. The correct heat balance is: Heat lost by metal = Heat gained by water + Heat gained by",
-     "Pressure from the wire lowers the melting point of ice directly below it (water contracts on melting, so increased pressure favours liquid phase)",
      "Center heating: Symmetric toroidal roll. Hot water rises in a central plume, spreads radially at the surface, cools, and sinks along the cylindrical walls"
     ],
     "hint": "Straight from the 'Convection' slide -- match the key terms.",
     "misconception": "A wrong answer showing sinking at the center for center-heating reveals a failure to visualize the continuity of mass flow (what goes up must come down somewhere).",
-    "id": "gen_c11_phy_ch10_q5",
+    "id": "gen_c11_phy_ch10_q9",
     "nodeId": "c11_phy_cbse_10_013",
     "difficulty": "standard",
     "workedExample": [
@@ -1228,18 +2037,93 @@ export const C11_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a simple experiment using only a mercury-in-glass thermometer, ice, water, and a burner to verify the linear relationship between the Celsius and Fahrenheit scales. Describe the procedure, the data to collect, and how you would analyse it.",
+    "answer": "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100",
+    "options": [
+     "Procedure: (1) Trap a known amount of air (μ moles) in a syringe at room temperature. (2) Immerse syringe in a large water bath at constant temperature T",
+     "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water",
+     "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100"
+    ],
+    "hint": "Straight from the 'Temperature' slide -- match the key terms.",
+    "misconception": "A poor answer would just say \"measure at two points\" — that assumes linearity rather than verifying it.",
+    "id": "gen_c11_phy_ch10_q10",
+    "nodeId": "c11_phy_cbse_10_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple calorimetry experiment using only household items (no lab calorimeter) to estimate the specific heat capacity of a common metal like a steel spoon. List the materials, procedure, measurements needed, and the formula you would use. Identify two major sources of error.",
     "answer": "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water",
     "options": [
-     "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100",
-     "Water's high specific heat means it absorbs large heat with small temperature rise. During daytime, the sea absorbs solar energy but warms slowly, while land (low s) heats rapidly",
+     "Procedure: (1) Trap a known amount of air (μ moles) in a syringe at room temperature. (2) Immerse syringe in a large water bath at constant temperature T",
+     "(1) Apparatus — two coaxial disks with narrow radial slots offset by a fixed angle and separated by a known distance L, (2) Selection",
      "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water"
     ],
     "hint": "Straight from the 'Calorimetry' slide -- match the key terms.",
     "misconception": "A poor answer uses a non-insulated cup or ignores the spoon's initial temperature.",
-    "id": "gen_c11_phy_ch10_q6",
+    "id": "gen_c11_phy_ch10_q11",
     "nodeId": "c11_phy_cbse_10_008",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment using a syringe, a water bath, and a pressure sensor to verify the work done formula for an isothermal process. Describe the procedure, measurements needed, and how you would calculate work from the data.",
+    "answer": "Procedure: (1) Trap a known amount of air (μ moles) in a syringe at room temperature. (2) Immerse syringe in a large water bath at constant temperature T",
+    "options": [
+     "Water's high specific heat means it absorbs large heat with small temperature rise. During daytime, the sea absorbs solar energy but warms slowly, while land (low s) heats rapidly",
+     "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from",
+     "Procedure: (1) Trap a known amount of air (μ moles) in a syringe at room temperature. (2) Immerse syringe in a large water bath at constant temperature T"
+    ],
+    "hint": "Straight from the 'Work done in an isothermal process' slide -- match the key terms.",
+    "misconception": "A poor answer (e.g., not immersing in water bath, or moving plunger quickly) reveals misunderstanding of the need for thermal equilibrium with a reservoir to maintain constant temperature and the quasi-static requirement for the formula to apply.",
+    "id": "gen_c11_phy_ch10_q12",
+    "nodeId": "c11_phy_cbse_11_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a thought experiment to test whether the condensation of steam on a cold mirror is reversible or irreversible. Specify the system, surroundings, and the criterion you would use to decide.",
+    "answer": "(1) System — the steam and the mirror; surroundings — the room air at room temperature, (2) Criterion",
+    "options": [
+     "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from",
+     "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100",
+     "(1) System — the steam and the mirror; surroundings — the room air at room temperature, (2) Criterion"
+    ],
+    "hint": "Straight from the 'thermodynamic process' slide -- match the key terms.",
+    "misconception": "A poor answer claiming it is reversible because you can boil the water again misses that boiling requires a hotter source and alters the surroundings.",
+    "id": "gen_c11_phy_ch10_q13",
+    "nodeId": "c11_phy_cbse_11_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a thought experiment to estimate the diameter of an air molecule using only macroscopic measurements of mean free path (e.g., by measuring viscosity or diffusion). Outline the steps and the formula you would use.",
+    "answer": "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from",
+    "options": [
+     "Water's high specific heat means it absorbs large heat with small temperature rise. During daytime, the sea absorbs solar energy but warms slowly, while land (low s) heats rapidly",
+     "The statement ignores the calorimeter cup (and stirrer) which also absorbs heat. The correct heat balance is: Heat lost by metal = Heat gained by water + Heat gained by",
+     "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from"
+    ],
+    "hint": "Straight from the 'Mean free path' slide -- match the key terms.",
+    "misconception": "A poor answer omits the connection between viscosity and mean free path, or fails to identify all the measurable quantities needed.",
+    "id": "gen_c11_phy_ch10_q14",
+    "nodeId": "c11_phy_cbse_12_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a thought experiment using a velocity selector (rotating slotted disks) to experimentally verify the Maxwell-Boltzmann distribution for argon gas at 400 K. Specify the key measurements and how you would extract f(v).",
+    "answer": "(1) Apparatus — two coaxial disks with narrow radial slots offset by a fixed angle and separated by a known distance L, (2) Selection",
+    "options": [
+     "Water's high specific heat means it absorbs large heat with small temperature rise. During daytime, the sea absorbs solar energy but warms slowly, while land (low s) heats rapidly",
+     "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from",
+     "(1) Apparatus — two coaxial disks with narrow radial slots offset by a fixed angle and separated by a known distance L, (2) Selection"
+    ],
+    "hint": "Straight from the 'Maxwell's Speed Distribution Law' slide -- match the key terms.",
+    "misconception": "A poor answer omits the v-cubed factor or assumes the selector transmits all speeds equally.",
+    "id": "gen_c11_phy_ch10_q15",
+    "nodeId": "c11_phy_cbse_12_009",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -1249,23 +2133,27 @@ export const C11_PHY_GEN: SimDef[] = [
    ]
   },
   "successLine": "Temperature mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c11_phy_ch14",
-  "title": "Mechanical Wave",
+  "title": "Periodic Motion",
   "subtitle": "Physics · Chapter 14",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Mechanical Wave",
+  "topic": "Periodic Motion",
   "chapters": [
-   "Physics Ch14: Mechanical Wave"
+   "Physics Ch13: Periodic Motion",
+   "Physics Ch14: Periodic Motion"
   ],
   "nodeIds": [
+   "c11_phy_cbse_13_001",
    "c11_phy_cbse_14_001",
    "c11_phy_cbse_14_003",
    "c11_phy_cbse_14_004",
+   "c11_phy_cbse_13_008",
    "c11_phy_cbse_14_009",
    "c11_phy_cbse_14_012"
   ],
@@ -1276,7 +2164,7 @@ export const C11_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Mechanical Wave directly with your eyes?",
+   "question": "Can you see Periodic Motion directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -1286,6 +2174,12 @@ export const C11_PHY_GEN: SimDef[] = [
    "hook": "Acoustics engineer: designs concert halls and noise barriers using wave behaviour."
   },
   "teaching": [
+   {
+    "title": "Periodic Motion",
+    "text": "Periodic motion is a motion that repeats itself identically after a fixed interval of time called the period (T). Oscillatory motion is a special type of periodic motion where a particle moves to and fro about a stable equilibrium position under the action of",
+    "emoji": "⚡",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
    {
     "title": "Mechanical Wave",
     "text": "A mechanical wave is classified as transverse if the particles of the medium oscillate perpendicular to the direction of wave propagation, and longitudinal if the particles oscillate parallel to the direction of wave propagation.",
@@ -1305,6 +2199,12 @@ export const C11_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
+    "title": "Forced Oscillations Occur When An External",
+    "text": "Forced oscillations occur when an external periodic force drives a damped oscillator at a frequency different from its natural frequency; resonance is the phenomenon where the driving frequency matches the natural frequency of the system, causing the",
+    "emoji": "⚡",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
     "title": "Beats",
     "text": "Beats are the periodic waxing and waning of sound intensity that occurs when two harmonic sound waves of slightly different frequencies (ν₁ and ν₂, with |ν₁ - ν₂| ≈ 5-10 Hz) and comparable amplitudes superpose at a point; the beat frequency ν_beat = |ν₁ - ν₂|",
     "emoji": "⚡",
@@ -1319,17 +2219,80 @@ export const C11_PHY_GEN: SimDef[] = [
   ],
   "challenges": [
    {
+    "type": "order",
+    "question": "Figure shows four x-t graphs. Graph A: straight line with positive slope. Graph B: parabola opening upward. Graph C: repeating sinusoidal curve. Graph D: repeating sawtooth pattern (sharp peaks). Which graphs represent periodic motion? For the periodic ones, which represent oscillatory motion? Explain your reasoning.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Graph",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Graph B",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Graph C",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Graph D",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer shows inability to distinguish oscillatory from non-oscillatory periodic motion using symmetry and physical plausibility.",
+    "id": "gen_c11_phy_ch14_q1",
+    "nodeId": "c11_phy_cbse_13_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Observe a ceiling fan rotating at constant speed — its motion repeats but the blade does not move to and fro about a fixed point; it is periodic but",
+     "Now observe a swing in a playground: the child moves back and forth about the lowest point (equilibrium).",
+     "Use a stopwatch to measure the time for 10 complete to-and-fro motions of the swing; divide by 10 to get the period T.",
+     "Recall from Class 7 (c7_physics_ch04_002) that the pendulum's period depends on length."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A seismic P-wave (primary) travels through the Earth's crust at 6 km/s. An S-wave (secondary) travels at 3.5 km/s in the same rock. (a) Identify which is transverse and which is longitudinal.",
     "answer": "(a) P-wave = longitudinal (faster, compressional); S-wave = transverse (slower, shear). (b) Given: vₛ = 3500 m/s, ρ = 2700 kg/m³ → G = ρ vₛ² = 2700 × (3500)² = 3",
     "options": [
-     "Use two smartphones: one emits a sharp clap (or tone), the other records. Measure time delay \\( \\Delta t \\) over known distance \\( d \\)",
      "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e",
+     "(1) Graph A, a straight line with positive slope, is not periodic, (2) Graph B, an upward-opening parabola, is not periodic, (3) Graph C, a repeating sinusoidal curve",
      "(a) P-wave = longitudinal (faster, compressional); S-wave = transverse (slower, shear). (b) Given: vₛ = 3500 m/s, ρ = 2700 kg/m³ → G = ρ vₛ² = 2700 × (3500)² = 3"
     ],
     "hint": "Straight from the 'mechanical wave' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., swapping P/S, or using v = √(B/ρ) for both) reveals confusion between the elastic moduli governing different wave types and inability to apply the correct speed formula for each.",
-    "id": "gen_c11_phy_ch14_q1",
+    "id": "gen_c11_phy_ch14_q2",
     "nodeId": "c11_phy_cbse_14_001",
     "difficulty": "standard",
     "workedExample": [
@@ -1344,13 +2307,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "A student claims: \"Since v = √(γP/ρ) and for an ideal gas P/ρ = RT/M, the speed of sound is independent of pressure but depends on temperature.\" Analyze this statement. Is it fully correct? Under what conditions might it fail?",
     "answer": "The statement is correct for an ideal gas where γ, R, M are constant. v = √(γRT/M) shows v ∝ √T and no P dependence because P/ρ = RT/M eliminates P",
     "options": [
-     "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e",
-     "Setup: Stretch a rubber tube horizontally. Fix one end rigidly to a hook (rigid boundary). For free boundary, attach the other end to a light ring on a smooth vertical rod",
+     "Use two smartphones: one emits a sharp clap (or tone), the other records. Measure time delay \\( \\Delta t \\) over known distance \\( d \\)",
+     "(1) Marching frequency — 120 steps per minute equals 2 Hz, (2) Natural frequency of the bridge — 0",
      "The statement is correct for an ideal gas where γ, R, M are constant. v = √(γRT/M) shows v ∝ √T and no P dependence because P/ρ = RT/M eliminates P"
     ],
     "hint": "Straight from the 'speed of sound in air' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"v depends on pressure because P is in the formula\" shows failure to substitute the ideal gas law.",
-    "id": "gen_c11_phy_ch14_q2",
+    "id": "gen_c11_phy_ch14_q3",
     "nodeId": "c11_phy_cbse_14_003",
     "difficulty": "advanced",
     "workedExample": [
@@ -1366,12 +2329,12 @@ export const C11_PHY_GEN: SimDef[] = [
     "answer": "Use two smartphones: one emits a sharp clap (or tone), the other records. Measure time delay \\( \\Delta t \\) over known distance \\( d \\)",
     "options": [
      "Use a frequency generator app (fixed f = 1 kHz) and a microphone app to detect resonance lengths in a tube closed at one end (water column)",
-     "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e",
+     "(1) Marching frequency — 120 steps per minute equals 2 Hz, (2) Natural frequency of the bridge — 0",
      "Use two smartphones: one emits a sharp clap (or tone), the other records. Measure time delay \\( \\Delta t \\) over known distance \\( d \\)"
     ],
     "hint": "Straight from the 'speed of sound in a medium' slide -- match the key terms.",
     "misconception": "A poor answer would ignore temperature measurement, use insufficient distance (< 50 m), or not account for reaction time in manual clapping.",
-    "id": "gen_c11_phy_ch14_q3",
+    "id": "gen_c11_phy_ch14_q4",
     "nodeId": "c11_phy_cbse_14_004",
     "difficulty": "standard",
     "workedExample": [
@@ -1382,17 +2345,80 @@ export const C11_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "A bridge has a natural frequency of 0.5 Hz. Soldiers marching in step at 120 steps/minute cross it. Will resonance occur? If the commander orders \"break step,\" explain why this prevents resonance using the concept of driving frequency spectrum.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Verdict",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Natural frequency of the bridge",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Marching frequency",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Break step",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer claiming resonance occurs confuses a frequency with its harmonics, and saying break step works only by reducing the force magnitude misses the spectral argument.",
+    "id": "gen_c11_phy_ch14_q5",
+    "nodeId": "c11_phy_cbse_13_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Watch a swing in a playground: if you push it at random times, it barely moves, but if you push exactly when it starts moving forward each time, the",
+     "In the lab, attach a mass-spring system to a vibration generator and vary the driving frequency while measuring amplitude; you will see a sharp peak",
+     "Connect this to the damped SHM you studied: the external force adds energy each cycle, while damping removes it.",
+     "The balance between energy input and dissipation determines the steady-state amplitude."
+    ]
+   },
+   {
     "type": "mcq",
     "question": "A student solves a beat problem: \"Two flutes produce 5 beats/s. One flute is 262 Hz. The other flute's frequency is 267 Hz.\" The student writes: ν₂ = ν₁ ± ν_beat = 262 ± 5 = 267 or 257 Hz.",
     "answer": "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e",
     "options": [
-     "(a) P-wave = longitudinal (faster, compressional); S-wave = transverse (slower, shear). (b) Given: vₛ = 3500 m/s, ρ = 2700 kg/m³ → G = ρ vₛ² = 2700 × (3500)² = 3",
-     "The statement is correct for an ideal gas where γ, R, M are constant. v = √(γRT/M) shows v ∝ √T and no P dependence because P/ρ = RT/M eliminates P",
+     "Use a frequency generator app (fixed f = 1 kHz) and a microphone app to detect resonance lengths in a tube closed at one end (water column)",
+     "Setup: Stretch a rubber tube horizontally. Fix one end rigidly to a hook (rigid boundary). For free boundary, attach the other end to a light ring on a smooth vertical rod",
      "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e"
     ],
     "hint": "Straight from the 'Beats' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation",
-    "id": "gen_c11_phy_ch14_q4",
+    "id": "gen_c11_phy_ch14_q6",
     "nodeId": "c11_phy_cbse_14_009",
     "difficulty": "standard",
     "workedExample": [
@@ -1407,13 +2433,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "question": "Design a simple experiment using a rubber tube and a water surface to demonstrate the difference in phase change between reflection at a rigid boundary and a free boundary. Describe the setup, what you would observe, and how it proves the phase change rule.",
     "answer": "Setup: Stretch a rubber tube horizontally. Fix one end rigidly to a hook (rigid boundary). For free boundary, attach the other end to a light ring on a smooth vertical rod",
     "options": [
-     "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e",
      "Use a frequency generator app (fixed f = 1 kHz) and a microphone app to detect resonance lengths in a tube closed at one end (water column)",
+     "(1) Graph A, a straight line with positive slope, is not periodic, (2) Graph B, an upward-opening parabola, is not periodic, (3) Graph C, a repeating sinusoidal curve",
      "Setup: Stretch a rubber tube horizontally. Fix one end rigidly to a hook (rigid boundary). For free boundary, attach the other end to a light ring on a smooth vertical rod"
     ],
     "hint": "Straight from the 'When a travelling wave encounters' slide -- match the key terms.",
     "misconception": "A poor answer might use a water surface (which is a free boundary for transverse waves on water? Actually water surface is a free boundary for transverse waves on a string? No, a string on water is complicated).",
-    "id": "gen_c11_phy_ch14_q5",
+    "id": "gen_c11_phy_ch14_q7",
     "nodeId": "c11_phy_cbse_14_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -1425,27 +2451,58 @@ export const C11_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Figure shows four x-t graphs. Graph A: straight line with positive slope. Graph B: parabola opening upward. Graph C: repeating sinusoidal curve. Graph D: repeating sawtooth pattern (sharp peaks). Which graphs represent periodic motion? For the periodic ones, which represent oscillatory motion? Explain your reasoning.",
+    "answer": "(1) Graph A, a straight line with positive slope, is not periodic, (2) Graph B, an upward-opening parabola, is not periodic, (3) Graph C, a repeating sinusoidal curve",
+    "options": [
+     "(1) Marching frequency — 120 steps per minute equals 2 Hz, (2) Natural frequency of the bridge — 0",
+     "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e",
+     "(1) Graph A, a straight line with positive slope, is not periodic, (2) Graph B, an upward-opening parabola, is not periodic, (3) Graph C, a repeating sinusoidal curve"
+    ],
+    "hint": "Straight from the 'Periodic motion' slide -- match the key terms.",
+    "misconception": "A wrong answer shows inability to distinguish oscillatory from non-oscillatory periodic motion using symmetry and physical plausibility.",
+    "id": "gen_c11_phy_ch14_q8",
+    "nodeId": "c11_phy_cbse_13_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A bridge has a natural frequency of 0.5 Hz. Soldiers marching in step at 120 steps/minute cross it. Will resonance occur? If the commander orders \"break step,\" explain why this prevents resonance using the concept of driving frequency spectrum.",
+    "answer": "(1) Marching frequency — 120 steps per minute equals 2 Hz, (2) Natural frequency of the bridge — 0",
+    "options": [
+     "(1) Graph A, a straight line with positive slope, is not periodic, (2) Graph B, an upward-opening parabola, is not periodic, (3) Graph C, a repeating sinusoidal curve",
+     "(a) P-wave = longitudinal (faster, compressional); S-wave = transverse (slower, shear). (b) Given: vₛ = 3500 m/s, ρ = 2700 kg/m³ → G = ρ vₛ² = 2700 × (3500)² = 3",
+     "(1) Marching frequency — 120 steps per minute equals 2 Hz, (2) Natural frequency of the bridge — 0"
+    ],
+    "hint": "Straight from the 'Forced oscillations occur when an' slide -- match the key terms.",
+    "misconception": "A wrong answer claiming resonance occurs confuses a frequency with its harmonics, and saying break step works only by reducing the force magnitude misses the spectral argument.",
+    "id": "gen_c11_phy_ch14_q9",
+    "nodeId": "c11_phy_cbse_13_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple experiment using a smartphone and a cardboard tube to verify the temperature dependence of the speed of sound in air. Specify the measurements, the graph to plot, and how to extract γ from the slope.",
     "answer": "Use a frequency generator app (fixed f = 1 kHz) and a microphone app to detect resonance lengths in a tube closed at one end (water column)",
     "options": [
-     "Setup: Stretch a rubber tube horizontally. Fix one end rigidly to a hook (rigid boundary). For free boundary, attach the other end to a light ring on a smooth vertical rod",
-     "(a) P-wave = longitudinal (faster, compressional); S-wave = transverse (slower, shear). (b) Given: vₛ = 3500 m/s, ρ = 2700 kg/m³ → G = ρ vₛ² = 2700 × (3500)² = 3",
+     "(1) Graph A, a straight line with positive slope, is not periodic, (2) Graph B, an upward-opening parabola, is not periodic, (3) Graph C, a repeating sinusoidal curve",
+     "The statement is correct for an ideal gas where γ, R, M are constant. v = √(γRT/M) shows v ∝ √T and no P dependence because P/ρ = RT/M eliminates P",
      "Use a frequency generator app (fixed f = 1 kHz) and a microphone app to detect resonance lengths in a tube closed at one end (water column)"
     ],
     "hint": "Straight from the 'speed of sound in air' slide -- match the key terms.",
     "misconception": "A poor answer uses only one temperature, ignores end correction, or plots v vs T instead of v² vs T, showing lack of understanding of the quadratic relationship.",
-    "id": "gen_c11_phy_ch14_q6",
+    "id": "gen_c11_phy_ch14_q10",
     "nodeId": "c11_phy_cbse_14_003",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about mechanical wave?",
+    "What surprised you about periodic motion?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Mechanical Wave mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "successLine": "Periodic Motion mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  }
 ];

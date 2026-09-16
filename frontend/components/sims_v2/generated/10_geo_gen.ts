@@ -16,7 +16,9 @@ export const C10_GEO_GEN: SimDef[] = [
   "subject": "geography",
   "topic": "Rainwater Harvesting",
   "chapters": [
-   "Geography Ch3: Rainwater Harvesting"
+   "Geography Ch1: Rainwater Harvesting",
+   "Geography Ch3: Rainwater Harvesting",
+   "Geography Ch4: Rainwater Harvesting"
   ],
   "nodeIds": [
    "c10_geo_cbse_03_001",
@@ -26,7 +28,10 @@ export const C10_GEO_GEN: SimDef[] = [
    "c10_geo_cbse_03_005",
    "c10_geo_cbse_03_006",
    "c10_geo_cbse_03_007",
-   "c10_geo_cbse_03_008"
+   "c10_geo_cbse_01_008",
+   "c10_geo_cbse_03_008",
+   "c10_geo_cbse_04_009",
+   "c10_geo_cbse_04_010"
   ],
   "emoji": "🌍",
   "theme": {
@@ -88,10 +93,28 @@ export const C10_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
+    "title": "Soil Erosion",
+    "text": "Soil erosion is the removal of the topsoil layer by natural agents like water (sheet, rill, gully erosion) and wind, accelerated by human activities such as deforestation, overgrazing, and faulty farming methods.",
+    "emoji": "🌍",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
     "title": "Drip Irrigation",
     "text": "Drip irrigation is a micro-irrigation system that delivers water directly to the root zone of plants through a network of valves, pipes, tubing, and emitters, minimizing evaporation and runoff.",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Food Security In India",
+    "text": "Food security in India is ensured through a dual mechanism: the Buffer Stock — a reserve of foodgrains (wheat and rice) procured by the Food Corporation of India (FCI) at Minimum Support Price (MSP) to stabilize prices and meet emergencies — and the Public",
+    "emoji": "🌍",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Contribution Of Agriculture To The National",
+    "text": "Contribution of agriculture to the national economy refers to the sector's share in India's Gross Domestic Product (GDP), its role in generating employment for nearly half the workforce, its supply of raw materials to agro-based industries, and its",
+    "emoji": "🌍",
+    "bgColor": "from-sky-400 to-cyan-500"
    }
   ],
   "challenges": [
@@ -297,8 +320,8 @@ export const C10_GEO_GEN: SimDef[] = [
     "question": "Name any two major inter-state water disputes in India and the rivers involved.",
     "answer": "Cauvery dispute (Cauvery river) between Karnataka and Tamil Nadu; Krishna dispute (Krishna river) among Maharashtra, Karnataka, Andhra Pradesh/Telangana",
     "options": [
+     "The reform pillars run: (1) Aadhaar-seeded ration cards with ePoS devices at every fair price shop delete ghost cards (2) One Nation One Ration Card portability lets migrants draw",
      "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level)",
-     "Good answer criteria: (a) Identify and allocate equivalent cultivable land near the reservoir with irrigation access before submergence",
      "Cauvery dispute (Cauvery river) between Karnataka and Tamil Nadu; Krishna dispute (Krishna river) among Maharashtra, Karnataka, Andhra Pradesh/Telangana"
     ],
     "hint": "Straight from the 'Inter-state water disputes arise' slide -- match the key terms.",
@@ -314,6 +337,69 @@ export const C10_GEO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Design a soil conservation plan for a 5-hectare farm in the Bundelkhand region (Uttar Pradesh) with undulating topography, sandy loam soil, and 800 mm erratic rainfall. Specify which methods to use on which parts of the farm and why.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Upper gentle slopes",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Drainage lines",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Steeper slopes",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Field boundaries and windward side",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Good answer: (1) Upper gentle slopes (3-8%): contour ploughing + strip cropping (alternating cereals and legumes) to",
+    "id": "gen_c10_geo_ch03_q8",
+    "nodeId": "c10_geo_cbse_01_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine standing on a farm in the Shiwalik hills after a heavy monsoon downpour: you see brown, muddy water rushing down the slope, carrying away the",
+     "Now recall Class 9 (c9_geo_ch1_8) where rivers erode and deposit; here the same hydraulic action works on a micro-scale on farm slopes.",
+     "Begin by identifying the agent (water on slopes, wind in arid zones) and the human trigger (bare soil exposure).",
+     "Then match the conservation method to the slope gradient and erosion agent: contour ploughing for gentle slopes (<10%) against water, terracing for"
+    ]
+   },
+   {
     "type": "mcq",
     "question": "Compare the suitability of drip and sprinkler irrigation for: (a) closely spaced crops like wheat in the Indo-Gangetic plains, (b) widely spaced orchard crops like mango in the Deccan plateau. Justify with two reasons each.",
     "answer": "(a) Sprinkler is more suitable for wheat because: (i) wheat is closely spaced, so drip's individual emitters per plant are impractical",
@@ -324,7 +410,7 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Drip irrigation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., recommending drip for wheat) shows the student cannot match irrigation method to crop geometry and topography.",
-    "id": "gen_c10_geo_ch03_q8",
+    "id": "gen_c10_geo_ch03_q9",
     "nodeId": "c10_geo_cbse_03_008",
     "difficulty": "standard",
     "workedExample": [
@@ -335,17 +421,159 @@ export const C10_GEO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "Give the correct order of pillars in a reform plan that uses technology, accountability and community monitoring to cut PDS leakage.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Aadhaar-seeded ration cards with ePoS",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "One Nation One Ration Card portability lets",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Vigilance Committees under the NFSA fix",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Social audits open the stock registers",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer that relies on a single pillar shows the student has missed that leakage needs authentication, accountability and vigilance working together.",
+    "id": "gen_c10_geo_ch03_q10",
+    "nodeId": "c10_geo_cbse_04_009",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you see a Fair Price Shop (ration shop) in your neighbourhood with a board displaying \"Wheat: ₹2/kg, Rice: ₹3/kg\" — this is the visible",
+     "Begin by asking: *Where does this grain come from?* Trace it back to the farmer in Punjab or Haryana selling wheat to FCI at MSP (₹2,275/quintal for",
+     "Then follow the grain to FCI godowns where it becomes part of the buffer stock — held against norms like 411 lakh tonnes (April 1) for wheat.",
+     "Finally, see how the Centre allocates this stock to states, which then distribute it through 5.3 lakh fair price shops to ration cardholders."
+    ]
+   },
+   {
+    "type": "math_input",
+    "question": "With agriculture at 18 percent of GDP employing 42 percent of workers, and non-agriculture at 82 percent of GDP employing 58 percent, calculate the approximate ratio of non-farm output per worker to farm output per worker.",
+    "answer": "3.3",
+    "mathInput": {
+     "tolerance": 0.033
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer that compares the GDP shares directly, or calls agriculture more productive because it employs more people, shows the student has missed that output per worker in agriculture is roughly one-fourth of the non-agricultural level.",
+    "id": "gen_c10_geo_ch03_q11",
+    "nodeId": "c10_geo_cbse_04_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe a news headline: \"Agriculture GDP share falls to 18% but still employs 42% of workers\" — this apparent contradiction is the entry point.",
+     "Students first recall from Class 9 Economics that GDP share measures value added, while employment share counts people.",
+     "They connect to prior nodes on cropping patterns (c10_geo_cbse_04_003) and major crops (c10_geo_cbse_04_004-006) to see which crops drive value vs.",
+     "They then examine how Green Revolution (c10_geo_cbse_04_008) boosted GDP share temporarily but not employment elasticity."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a soil conservation plan for a 5-hectare farm in the Bundelkhand region (Uttar Pradesh) with undulating topography, sandy loam soil, and 800 mm erratic rainfall. Specify which methods to use on which parts of the farm and why.",
+    "answer": "Good answer: (1) Upper gentle slopes (3-8%): contour ploughing + strip cropping (alternating cereals and legumes) to reduce sheet erosion",
+    "options": [
+     "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level)",
+     "Good answer criteria: (a) Identify and allocate equivalent cultivable land near the reservoir with irrigation access before submergence",
+     "Good answer: (1) Upper gentle slopes (3-8%): contour ploughing + strip cropping (alternating cereals and legumes) to reduce sheet erosion"
+    ],
+    "hint": "Straight from the 'Soil erosion' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Good answer: (1) Upper gentle slopes (3-8%): contour ploughing + strip cropping (alternating cereals and legumes) to",
+    "id": "gen_c10_geo_ch03_q12",
+    "nodeId": "c10_geo_cbse_01_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a one-page poster for a school campaign titled \"Why Every Drop Counts in Our City\" that explains the causes of water scarcity in your city/town and proposes three student-led conservation actions. Use geographical terms correctly.",
+    "answer": "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level)",
+    "options": [
+     "Expected answer: Principles: equitable and reasonable utilization, no significant harm, prior notification, ecological flow maintenance, seasonal allocation formulas",
+     "Good answer: (1) Upper gentle slopes (3-8%): contour ploughing + strip cropping (alternating cereals and legumes) to reduce sheet erosion",
+     "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level)"
+    ],
+    "hint": "Straight from the 'Water scarcity' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall,",
+    "id": "gen_c10_geo_ch03_q13",
+    "nodeId": "c10_geo_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "The Bhakra Nangal Project irrigates 1.5 million hectares. If the cropping intensity increases from 100% to 150% due to assured water supply, calculate the additional cropped area (in hectares) brought under cultivation. Show your steps.",
+    "answer": "Step 1: Identify given data — Command area = 1.5 million ha = 15,00,000 ha. Initial cropping intensity = 100%, new intensity = 150%",
+    "options": [
+     "Original shower use: 12 min × 8 L/min = 96 L/day total → 24 lpcd. New shower use: 5 min × 8 L/min = 40 L/day total → 10 lpcd",
+     "Good answer criteria: (i) Interventions: a) Dual-flush retrofits (15 toilets × 50 uses/day × 6 L saved = 4,500 L/day)",
+     "Step 1: Identify given data — Command area = 1.5 million ha = 15,00,000 ha. Initial cropping intensity = 100%, new intensity = 150%"
+    ],
+    "hint": "Straight from the 'multipurpose river project' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., 1.5 million ha) reveals the student does not understand cropping intensity or cannot apply the formula.",
+    "id": "gen_c10_geo_ch03_q14",
+    "nodeId": "c10_geo_cbse_03_002",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A household of four in Bengaluru receives 135 lpcd (litres per capita per day) from Cauvery supply but supplements with a borewell. If they reduce shower time from 12 to 5 minutes (flow rate 8 L/min), fix one leaking tap (drip rate 1 drop/sec = 4 L/hr), and reuse 30 L/day of RO reject water for mopping, what is their",
     "answer": "Original shower use: 12 min × 8 L/min = 96 L/day total → 24 lpcd. New shower use: 5 min × 8 L/min = 40 L/day total → 10 lpcd",
     "options": [
+     "Expected answer: Principles: equitable and reasonable utilization, no significant harm, prior notification, ecological flow maintenance, seasonal allocation formulas",
      "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level)",
-     "Good answer criteria: (a) Identify and allocate equivalent cultivable land near the reservoir with irrigation access before submergence",
      "Original shower use: 12 min × 8 L/min = 96 L/day total → 24 lpcd. New shower use: 5 min × 8 L/min = 40 L/day total → 10 lpcd"
     ],
     "hint": "Straight from the 'Water conservation in daily life' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., only calculating shower saving) reveals the student cannot aggregate multiple conservation actions or convert total household savings to per-capita terms — a common error in CBSE case-study questions where partial credit is given for each correct step.",
-    "id": "gen_c10_geo_ch03_q9",
+    "id": "gen_c10_geo_ch03_q15",
+    "nodeId": "c10_geo_cbse_03_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a water conservation action plan for your school (1,200 students, 50 staff) that achieves at least 30% reduction in municipal water demand within one year. Include: (i) three measurable interventions with estimated savings, (ii) a monitoring mechanism, (iii) a student-led awareness component.",
+    "answer": "Good answer criteria: (i) Interventions: a) Dual-flush retrofits (15 toilets × 50 uses/day × 6 L saved = 4,500 L/day)",
+    "options": [
+     "Good answer criteria: (a) Identify and allocate equivalent cultivable land near the reservoir with irrigation access before submergence",
+     "Strengths: provides legal framework, establishes tribunals for adjudication. Limitations: lengthy process (decades), enforcement challenges, lack of compliance mechanisms",
+     "Good answer criteria: (i) Interventions: a) Dual-flush retrofits (15 toilets × 50 uses/day × 6 L saved = 4,500 L/day)"
+    ],
+    "hint": "Straight from the 'Water conservation in daily life' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Good answer criteria: (i) Interventions: a) Dual-flush retrofits (15 toilets × 50 uses/day × 6 L saved = 4,500 L/day),",
+    "id": "gen_c10_geo_ch03_q16",
     "nodeId": "c10_geo_cbse_03_006",
     "difficulty": "advanced"
    },
@@ -360,7 +588,7 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Water conservation in daily life' slide -- match the key terms.",
     "misconception": "A weak answer focusing only on \"drip saves water\" misses the systems perspective CBSE expects in 5-mark \"analyse and evaluate\" questions linking agriculture (c6_geography_ch04_025) with water resources.",
-    "id": "gen_c10_geo_ch03_q10",
+    "id": "gen_c10_geo_ch03_q17",
     "nodeId": "c10_geo_cbse_03_006",
     "difficulty": "advanced"
    },
@@ -375,53 +603,8 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Water conservation in daily life' slide -- match the key terms.",
     "misconception": "A wrong answer (claiming tap saves more) reveals the student underestimates high-volume intermittent uses versus low-volume continuous losses — a conceptual error CBSE tests via \"compare and justify\" questions in the 3-mark category.",
-    "id": "gen_c10_geo_ch03_q11",
+    "id": "gen_c10_geo_ch03_q18",
     "nodeId": "c10_geo_cbse_03_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Assess the effectiveness of the Inter-State River Water Disputes Act, 1956 in resolving water conflicts. Provide two strengths and two limitations.",
-    "answer": "Strengths: provides legal framework, establishes tribunals for adjudication. Limitations: lengthy process (decades), enforcement challenges, lack of compliance mechanisms",
-    "options": [
-     "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level)",
-     "Good answer criteria: (a) Identify and allocate equivalent cultivable land near the reservoir with irrigation access before submergence",
-     "Strengths: provides legal framework, establishes tribunals for adjudication. Limitations: lengthy process (decades), enforcement challenges, lack of compliance mechanisms"
-    ],
-    "hint": "Straight from the 'Inter-state water disputes arise' slide -- match the key terms.",
-    "misconception": "A wrong answer that says it is fully effective ignores ongoing disputes like Cauvery.",
-    "id": "gen_c10_geo_ch03_q12",
-    "nodeId": "c10_geo_cbse_03_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a water sharing agreement framework for a hypothetical river basin shared by three states (upstream, midstream, downstream) that addresses seasonal variability, ecological flow, and dispute resolution. Outline key principles.",
-    "answer": "Expected answer: Principles: equitable and reasonable utilization, no significant harm, prior notification, ecological flow maintenance, seasonal allocation formulas",
-    "options": [
-     "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level)",
-     "Good answer criteria: (a) Identify and allocate equivalent cultivable land near the reservoir with irrigation access before submergence",
-     "Expected answer: Principles: equitable and reasonable utilization, no significant harm, prior notification, ecological flow maintenance, seasonal allocation formulas"
-    ],
-    "hint": "Straight from the 'Inter-state water disputes arise' slide -- match the key terms.",
-    "misconception": "A poor answer that ignores ecological flow or seasonal variability shows lack of holistic understanding.",
-    "id": "gen_c10_geo_ch03_q13",
-    "nodeId": "c10_geo_cbse_03_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why do inter-state water disputes often escalate during drought years? Explain with reference to the Cauvery basin.",
-    "answer": "During drought, water availability decreases while demand remains high, intensifying competition. In Cauvery, Karnataka (upper riparian) may withhold water to meet its own needs",
-    "options": [
-     "The statement is valid. Rice requires ~1,500-2,500 mm water vs horticulture (300-600 mm). MSP guarantees procurement, incentivizing rice in semi-arid zones (virtual water export)",
-     "Johads are crescent-shaped earthen bunds that need a gentle slope to slow down runoff without causing erosion",
-     "During drought, water availability decreases while demand remains high, intensifying competition. In Cauvery, Karnataka (upper riparian) may withhold water to meet its own needs"
-    ],
-    "hint": "Straight from the 'Inter-state water disputes arise' slide -- match the key terms.",
-    "misconception": "A wrong answer that blames only one state reveals a misunderstanding of the structural nature of the dispute.",
-    "id": "gen_c10_geo_ch03_q14",
-    "nodeId": "c10_geo_cbse_03_007",
     "difficulty": "advanced"
    }
   ],
@@ -725,6 +908,21 @@ export const C10_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a three-tier road improvement plan for a hypothetical backward district in Odisha with high tribal population, dense forests, and frequent flooding. Specify which road tier (NH, SH, MDR, Rural) gets what intervention and justify each using geographical reasoning.",
+    "answer": "A good answer: (1) Upgrade the existing NH passing through the district to 4-lane with elevated flood-proof sections (NH tier: ensures national corridor resilience)",
+    "options": [
+     "The statement is false. Evidence 1: Urban teledensity exceeds 130% while rural teledensity is around 60% (TRAI data), showing a persistent digital divide",
+     "Additional cost = 4,500 tonnes × ₹150/tonne = ₹6,75,000. Additional time = 6 hours transshipment + 2-3 hours for shunting/weighing = ~8-9 hours total delay",
+     "A good answer: (1) Upgrade the existing NH passing through the district to 4-lane with elevated flood-proof sections (NH tier: ensures national corridor resilience)"
+    ],
+    "hint": "Straight from the 'Road classification in India' slide -- match the key terms.",
+    "misconception": "A poor answer proposes uniform upgrades without tier-specific justification or ignores physical constraints.",
+    "id": "gen_c10_geo_ch07_q8",
+    "nodeId": "c10_geo_cbse_07_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Evaluate the statement: \"The Pradhan Mantri Gram Sadak Yojana (PMGSY) has eliminated the problem of rural connectivity in India.\" Provide two geographical reasons to support your evaluation.",
     "answer": "The statement is an over-evaluation. While PMGSY has significantly increased all-weather road access to eligible habitations (population >500 in plains, >250 in hills)",
     "options": [
@@ -734,8 +932,23 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Road classification in India' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is an over-evaluation. While PMGSY has significantly increased all-weather road access to eligible",
-    "id": "gen_c10_geo_ch07_q8",
+    "id": "gen_c10_geo_ch07_q9",
     "nodeId": "c10_geo_cbse_07_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A freight train loads 4,500 tonnes of coal at Jharsuguda (Odisha) on broad gauge and must reach a power plant in Tamil Nadu. If the route includes a meter gauge section requiring transshipment, calculate the additional time and cost if transshipment takes 6 hours and costs ₹150 per tonne.",
+    "answer": "Additional cost = 4,500 tonnes × ₹150/tonne = ₹6,75,000. Additional time = 6 hours transshipment + 2-3 hours for shunting/weighing = ~8-9 hours total delay",
+    "options": [
+     "Step 1: Panipat lies directly on the Delhi-Sonipat segment of the existing pipeline — tying in requires only a short spur line (low capital cost)",
+     "A good answer: (1) Upgrade the existing NH passing through the district to 4-lane with elevated flood-proof sections (NH tier: ensures national corridor resilience)",
+     "Additional cost = 4,500 tonnes × ₹150/tonne = ₹6,75,000. Additional time = 6 hours transshipment + 2-3 hours for shunting/weighing = ~8-9 hours total delay"
+    ],
+    "hint": "Straight from the 'Indian Railways' slide -- match the key terms.",
+    "misconception": "A wrong answer that only calculates cost but ignores time, or vice versa, fails the \"analyze\" requirement. Board case-study questions test both quantitative and qualitative impacts.",
+    "id": "gen_c10_geo_ch07_q10",
+    "nodeId": "c10_geo_cbse_07_003",
     "difficulty": "standard"
    },
    {
@@ -749,7 +962,7 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian Railways' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the corridors or lists generic \"goods\" without naming specific commodities/regions shows inability to map infrastructure to economic geography — a common board exam trap in case-based questions.",
-    "id": "gen_c10_geo_ch07_q9",
+    "id": "gen_c10_geo_ch07_q11",
     "nodeId": "c10_geo_cbse_07_003",
     "difficulty": "standard"
    },
@@ -764,7 +977,7 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian Railways' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer: Map shows Northern Railway (Delhi), Western Railway (Mumbai), South Central Railway (Secunderabad);",
-    "id": "gen_c10_geo_ch07_q10",
+    "id": "gen_c10_geo_ch07_q12",
     "nodeId": "c10_geo_cbse_07_003",
     "difficulty": "standard"
    },
@@ -779,7 +992,7 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian Railways' slide -- match the key terms.",
     "misconception": "A wrong answer citing only \"population\" or only \"terrain\" shows incomplete understanding — board questions require linking physical geography (relief, drainage, geology) to human geography (network density, economic viability).",
-    "id": "gen_c10_geo_ch07_q11",
+    "id": "gen_c10_geo_ch07_q13",
     "nodeId": "c10_geo_cbse_07_003",
     "difficulty": "standard"
    },
@@ -794,8 +1007,23 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Communication' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists benefits without critical evaluation shows lack of balanced geographical judgment.",
-    "id": "gen_c10_geo_ch07_q12",
+    "id": "gen_c10_geo_ch07_q14",
     "nodeId": "c10_geo_cbse_07_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the statement: \"India's persistent merchandise trade deficit is harmful and the government should impose high tariffs on all imports to achieve a trade surplus.\" Use concepts of comparative advantage, import elasticity, and impact on export competitiveness.",
+    "answer": "The statement is flawed. Judgment: Blanket high tariffs would (1) raise input costs for export-oriented industries (gems, pharma",
+    "options": [
+     "The statement is an over-evaluation. While PMGSY has significantly increased all-weather road access to eligible habitations (population >500 in plains, >250 in hills)",
+     "The Himalayas offer high-altitude terrain for trekking/mountaineering AND serene river-valley settings (Ganga in Rishikesh) for spiritual wellness",
+     "The statement is flawed. Judgment: Blanket high tariffs would (1) raise input costs for export-oriented industries (gems, pharma"
+    ],
+    "hint": "Straight from the 'International trade' slide -- match the key terms.",
+    "misconception": "A wrong answer supporting protectionism reveals misunderstanding of global value chains and the Lerner symmetry theorem (tariffs on imports implicitly tax exports).",
+    "id": "gen_c10_geo_ch07_q15",
+    "nodeId": "c10_geo_cbse_07_008",
     "difficulty": "standard"
    },
    {
@@ -809,7 +1037,7 @@ export const C10_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Tourism as a trade' slide -- match the key terms.",
     "misconception": "A poor answer lists random sites without geographical sequencing logic.",
-    "id": "gen_c10_geo_ch07_q13",
+    "id": "gen_c10_geo_ch07_q16",
     "nodeId": "c10_geo_cbse_07_009",
     "difficulty": "standard"
    }
