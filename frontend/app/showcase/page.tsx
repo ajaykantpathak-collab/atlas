@@ -204,7 +204,7 @@ export default function ShowcasePage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { icon: Brain, title: 'AI Socratic Tutor', desc: 'Prism AI asks questions, never gives answers. Discover knowledge yourself.', color: 'from-brand-500 to-brand-700', glow: 'rgba(99,102,241,0.3)' },
+                { icon: Brain, title: 'AI Socratic Tutor', desc: 'Atlas AI asks questions, never gives answers. Discover knowledge yourself.', color: 'from-brand-500 to-brand-700', glow: 'rgba(99,102,241,0.3)' },
                 { icon: PenTool, title: 'Answer Sheet Grading', desc: 'Upload handwritten answers. AI grades against CBSE/CISCE rubrics.', color: 'from-accent-500 to-accent-700', glow: 'rgba(217,70,239,0.3)' },
                 { icon: LineChart, title: 'Adaptive Learning Path', desc: 'BKT-powered mastery tracking with prerequisite chain traversal.', color: 'from-mint-500 to-mint-700', glow: 'rgba(52,211,153,0.3)' },
                 { icon: WifiOff, title: 'Offline-First PWA', desc: 'Download lessons, study anywhere. Syncs when connectivity returns.', color: 'from-gold-500 to-gold-700', glow: 'rgba(251,191,36,0.3)' },
@@ -301,12 +301,12 @@ export default function ShowcasePage() {
           </div>
         </section>
 
-        {/* Prism AI mascot showcase */}
+        {/* Atlas AI mascot showcase */}
         <section className="py-20 section-padding">
           <div className="max-w-4xl mx-auto">
             <ScrollReveal direction="scale">
               <div className="glass-card rounded-3xl p-12 text-center">
-                <h2 className="font-display text-3xl font-bold text-white mb-8">Prism AI Mascot</h2>
+                <h2 className="font-display text-3xl font-bold text-white mb-8">Atlas AI Mascot</h2>
                 <div className="flex flex-wrap items-end justify-center gap-8">
                   {[
                     { mood: 'idle' as const, label: 'Idle' },
@@ -354,7 +354,7 @@ export default function ShowcasePage() {
                 <Sparkles className="w-4 h-4 text-white" />
               </div>
               <span className="font-display text-lg font-bold text-white">
-                Prism
+                Atlas
               </span>
             </div>
             <p className="text-xs text-surface-600">Premium EdTech Shell — AI Learning for Bharat</p>

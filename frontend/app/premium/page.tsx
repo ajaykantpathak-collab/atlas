@@ -46,7 +46,7 @@ function HeroQuiz() {
           <div className="w-8 h-8 rounded-lg bg-brand-gradient flex items-center justify-center">
             <Brain className="w-4 h-4 text-white" />
           </div>
-          <span className="text-sm text-surface-600">Prism AI:</span>
+          <span className="text-sm text-surface-600">Atlas AI:</span>
           <span className="badge-brand ml-auto">Live Quiz</span>
         </div>
         <p className="text-white font-medium mb-6 text-sm leading-relaxed">{question.text}</p>
@@ -78,7 +78,7 @@ function HeroQuiz() {
                   <div className="w-10 h-10 rounded-xl bg-brand-gradient flex items-center justify-center shadow-glow"><Brain className="w-5 h-5 text-white" /></div>
                 </div>
                 <p className="text-xs text-surface-600 leading-relaxed pt-1">
-                  <span className="text-brand-300 font-medium">Prism AI: </span>{question.explanation}
+                  <span className="text-brand-300 font-medium">Atlas AI: </span>{question.explanation}
                 </p>
               </div>
               <button onClick={() => { setSelected(null); setShowResult(false) }} className="btn-ghost mt-3 text-xs">Try again →</button>
@@ -227,7 +227,7 @@ function LeaderboardPreview() {
 }
 
 const features: { icon: LucideIcon; title: string; desc: string; gradient: string; glow: string }[] = [
-  { icon: Brain, title: 'AI Tutor Prism AI', desc: 'Prism AI never gives direct answers — it asks questions that help you discover answers yourself. Like a smart friend who actually cares.', gradient: 'from-brand-500 to-brand-700', glow: 'rgba(99,102,241,0.3)' },
+  { icon: Brain, title: 'AI Tutor Atlas AI', desc: 'Atlas AI never gives direct answers — it asks questions that help you discover answers yourself. Like a smart friend who actually cares.', gradient: 'from-brand-500 to-brand-700', glow: 'rgba(99,102,241,0.3)' },
   { icon: PenTool, title: 'Answer Sheet Grading', desc: 'Upload your handwritten answers. AI reads them, grades against CBSE/CISCE rubrics, and tells you exactly where you lost marks.', gradient: 'from-accent-500 to-accent-700', glow: 'rgba(217,70,239,0.3)' },
   { icon: LineChart, title: 'Smart Learning Path', desc: 'AI knows what you have mastered and what is next. No wasting time on stuff you already know — focus on what matters.', gradient: 'from-brand-500 to-brand-700', glow: 'rgba(99,102,241,0.3)' },
   { icon: WifiOff, title: 'Offline Mode', desc: 'No internet? No problem. Download lessons, study anywhere — bus, train, village. Syncs automatically when you are back online.', gradient: 'from-mint-500 to-mint-700', glow: 'rgba(52,211,153,0.3)' },
@@ -237,12 +237,12 @@ const features: { icon: LucideIcon; title: string; desc: string; gradient: strin
 
 const steps = [
   { step: '01', title: 'Take a Quick Quiz', desc: 'A 10-minute quiz finds exactly what you know and what you do not. Not a boring test — more like a game that scans your brain.', icon: Target },
-  { step: '02', title: 'Get Your Path', desc: 'Prism AI builds a custom learning path just for you. It knows your weak spots, your strong spots, and what is coming in your board exam.', icon: Brain },
+  { step: '02', title: 'Get Your Path', desc: 'Atlas AI builds a custom learning path just for you. It knows your weak spots, your strong spots, and what is coming in your board exam.', icon: Brain },
   { step: '03', title: 'Level Up & Win', desc: 'Learn with interactive lessons, earn XP, keep your streak alive, and watch your mastery grow. Before you know it, you are ready to ace that exam.', icon: Trophy },
 ]
 
 const testimonials = [
-  { name: 'Aarav', class: 'Class 10, CBSE', text: 'Pehle mujhe English bilkul pasand nahi tha. Prism AI ne aise questions pooche ki mujhe khud answer dhoondhna pada. Ab mujhe poems samajh aate hain!', avatar: '' },
+  { name: 'Aarav', class: 'Class 10, CBSE', text: 'Pehle mujhe English bilkul pasand nahi tha. Atlas AI ne aise questions pooche ki mujhe khud answer dhoondhna pada. Ab mujhe poems samajh aate hain!', avatar: '' },
   { name: 'Priya', class: 'Class 9, CISCE', text: 'The streak system is addictive. I have not missed a single day in 47 days. My mom is shocked that I actually want to study.', avatar: '' },
   { name: 'Kabir', class: 'Class 8, CBSE', text: 'I live in a village with slow internet. The offline mode is a lifesaver. I download lessons at school and study at home.', avatar: '' },
   { name: 'Ananya', class: 'Class 10, CBSE', text: 'Answer sheet grading is magic. I uploaded my practice paper and got detailed feedback in seconds. Better than my tuition teacher.', avatar: '' },
@@ -269,7 +269,7 @@ export default function LandingPage() {
               <Sparkles className="w-5 h-5 text-white" />
             </motion.div>
             <span className="font-display text-lg font-bold text-white tracking-tight">
-              Prism
+              Atlas
             </span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -638,7 +638,7 @@ export default function LandingPage() {
                 <Sparkles className="w-4 h-4 text-white" />
               </div>
               <span className="font-display text-lg font-bold text-white">
-                Prism
+                Atlas
               </span>
             </div>
             <p className="text-xs text-surface-600">

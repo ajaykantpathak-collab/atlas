@@ -640,7 +640,7 @@ export default function ParentDashboard() {
             </div>
             <div>
               <h1 className="text-base sm:text-lg font-bold text-gray-800 leading-tight">{t.parentDashboard}</h1>
-              <p className="text-[10px] sm:text-xs text-gray-500 font-medium">Vidyaprep · Smart Learning</p>
+              <p className="text-[10px] sm:text-xs text-gray-500 font-medium">Atlas · Smart Learning</p>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }}>
@@ -871,7 +871,7 @@ export default function ParentDashboard() {
               {/* ── Footer ──────────────────────── */}
               <motion.div variants={itemVariants} className="text-center py-4 sm:py-6">
                 <p className="text-[10px] sm:text-xs text-gray-400">
-                  Vidyaprep · Empowering every child to learn smarter
+                  Atlas · Empowering every child to learn smarter
                 </p>
               </motion.div>
             </motion.div>

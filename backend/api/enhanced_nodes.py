@@ -96,7 +96,8 @@ async def get_node(node_id: str = Query(..., min_length=1,
     node = idx.get(node_id)
     if node is None:
         raise HTTPException(404, f"unknown node_id: {node_id!r}")
-    return node
+    from backend.services.enhanced_nodes import _derive_title
+    return {**node, "title": _derive_title(node)}
 
 
 @router.get("/by-class-subject")
@@ -121,6 +122,19 @@ async def by_class_subject(
         "offset": offset,
         "nodes": window,
     }
+
+
+@router.get("/graph")
+async def graph(
+    cls: Optional[int] = Query(None, alias="class", ge=1, le=14),
+    class_level: Optional[int] = Query(None, ge=1, le=14),
+    subject: Optional[str] = Query(None),
+    limit: int = Query(300, ge=1, le=1000),
+):
+    """Nodes + prereq links for the knowledge-graph explorer."""
+    idx = get_index()
+    effective_cls = cls if cls is not None else class_level
+    return idx.graph(cls=effective_cls, subject=subject, limit=limit)
 
 
 @router.get("/search")

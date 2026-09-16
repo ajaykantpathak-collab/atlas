@@ -275,7 +275,7 @@ export default function PremiumSettingsPage() {
                         <h2 className="font-display text-lg font-bold text-white mb-4">About</h2>
                         <div className="space-y-2">
                           {[
-                            { label: 'App Name', value: 'Prism' },
+                            { label: 'App Name', value: 'Atlas' },
                             { label: 'Version', value: '2.0.0 Premium' },
                             { label: 'Build', value: '2025.07.30' },
                             { label: 'Board Support', value: 'CBSE + CISCE' },

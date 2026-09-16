@@ -57,11 +57,12 @@ export const api = {
   delete: <T>(path: string) =>
     fetchAPI<T>(path, { method: "DELETE" }),
 
-  // Nodes
+  // Nodes — backed by the file-served teaching corpus (/api/nodes)
   getNodes: (subject?: string) =>
-    fetchAPI<any[]>(`/nodes/${subject ? `?subject=${subject}` : ""}`),
+    fetchAPI<{ nodes: any[] }>(`/api/nodes/by-class-subject?class=10&subject=${subject || "phy"}&limit=500`)
+      .then((d) => d.nodes),
   getNode: (nodeId: string) =>
-    fetchAPI<any>(`/nodes/${nodeId}`),
+    fetchAPI<any>(`/api/nodes/node?node_id=${encodeURIComponent(nodeId)}`),
 
   // Questions
   getQuestions: (nodeId: string, tier: string = "novice", count: number = 1) =>
@@ -72,9 +73,9 @@ export const api = {
       body: JSON.stringify({ answer, expected }),
     }),
 
-  // Content
+  // Content — full teaching node (definition, walkthrough, diagnostics)
   getContent: (nodeId: string) =>
-    fetchAPI<any>(`/content/${nodeId}`),
+    fetchAPI<any>(`/api/nodes/node?node_id=${encodeURIComponent(nodeId)}`),
 
   // Mastery
   getMastery: (userId: number, nodeId: string) =>

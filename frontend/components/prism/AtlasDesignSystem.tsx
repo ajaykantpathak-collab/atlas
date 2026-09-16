@@ -227,8 +227,8 @@ export const AtlasLogo: React.FC<AtlasLogoProps> = ({
     );
     return (
       <svg
-        width={isWordmark ? svgSize * 2.9 : svgSize} height={svgSize}
-        viewBox={isWordmark ? '0 0 290 100' : '0 0 100 100'} fill="none"
+        width={isWordmark ? svgSize * 3.4 : svgSize} height={svgSize}
+        viewBox={isWordmark ? '0 0 340 100' : '0 0 100 100'} fill="none"
         xmlns="http://www.w3.org/2000/svg" className={className}
         role="img" aria-label="ATLAS"
       >

@@ -8,6 +8,7 @@ import {
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
+import { AtlasMark } from '@/components/atlas/AtlasMark'
 
 // Links must be real URL paths — route groups like (teacher) never appear
 // in the URL, so '/(teacher)/x' hrefs would 404.
@@ -28,10 +29,8 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
       }`}>
         <div className="p-5 border-b border-surface-300/20">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-brand-gradient flex items-center justify-center shadow-glow">
-              <Sparkles className="w-4 h-4 text-white" />
-            </div>
-            <span className="font-display text-sm font-bold text-white">Prism</span>
+            <AtlasMark size={32} />
+            <span className="font-display text-sm font-bold text-white">Atlas</span>
           </Link>
           <div className="mt-3 px-3 py-2 rounded-lg bg-accent-500/10 border border-accent-500/20">
             <p className="text-[10px] text-accent-300 font-medium">Teacher Portal</p>

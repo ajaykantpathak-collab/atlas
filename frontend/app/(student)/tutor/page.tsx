@@ -414,7 +414,8 @@ export default function TutorPage({
   const effectiveUserId = userId ?? studentId;
   const effectiveLang = storeLang ?? language;
   const effectiveSubject = subjectProp ?? storeSubject ?? 'Mathematics';
-  const effectiveClassLevel = classLevelProp ?? storeClassLevel ?? 11;
+  const effectiveClassLevel =
+    classLevelProp ?? (storeClassLevel && storeClassLevel > 0 ? storeClassLevel : 11);
 
   // ─── Derived ─────────────────────────────────────────────
 
@@ -888,7 +889,7 @@ export default function TutorPage({
 
   // ─── Render helpers ──────────────────────────────────────
 
-  const displayName = studentName ?? 'Student';
+  const displayName = (studentName ?? '').trim() || 'Scholar';
   const hour = new Date().getHours();
   const greetingKey =
     hour < 12
@@ -954,7 +955,7 @@ export default function TutorPage({
             {isOnline ? (
               <>
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                {t(lang, greetingKey)}, {displayName}!
+                <span suppressHydrationWarning>{t(lang, greetingKey)}, {displayName}!</span>
               </>
             ) : (
               <>
@@ -965,10 +966,10 @@ export default function TutorPage({
           </p>
           {/* Subject · Class · Mastery bar */}
           <div className="flex items-center gap-2 mt-1">
-            <span className="text-[10px] font-medium text-amber-600 dark:text-amber-400">
+            <span className="text-[10px] font-medium text-amber-600 dark:text-amber-400" suppressHydrationWarning>
               {subjectName(effectiveSubject)} · Class {effectiveClassLevel}
             </span>
-            <span className="text-[10px] text-gray-400 dark:text-gray-500">
+            <span className="text-[10px] text-gray-400 dark:text-gray-500" suppressHydrationWarning>
               · {t(lang, 'mastery')}: {Math.round(mastery * 100)}%
             </span>
             <div
@@ -1104,12 +1105,12 @@ export default function TutorPage({
               </svg>
             </div>
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-              {t(lang, 'welcomeTitle')} {displayName}! 👋
+              <span suppressHydrationWarning>{t(lang, 'welcomeTitle')} {displayName}! 👋</span>
             </h2>
             <p className="text-sm text-gray-500 dark:text-gray-400 max-w-xs leading-relaxed">
               {t(lang, 'welcomeSubtitle')}
             </p>
-            <p className="text-xs text-gray-400 dark:text-gray-500 mt-3">
+            <p className="text-xs text-gray-400 dark:text-gray-500 mt-3" suppressHydrationWarning>
               {subjectName(effectiveSubject)} · Class {effectiveClassLevel}
               {nodeId && (
                 <>{' '}· {t(lang, 'topic')}: {friendlyNodeTitle(nodeId)}</>

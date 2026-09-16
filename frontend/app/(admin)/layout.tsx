@@ -30,7 +30,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <div className="w-8 h-8 rounded-lg bg-brand-gradient flex items-center justify-center shadow-glow">
               <Sparkles className="w-4 h-4 text-white" />
             </div>
-            <span className="font-display text-sm font-bold text-white">Prism</span>
+            <span className="font-display text-sm font-bold text-white">Atlas</span>
           </Link>
           <div className="mt-3 px-3 py-2 rounded-lg bg-red-500/10 border border-red-500/20">
             <p className="text-[10px] text-red-300 font-medium">Admin Console</p>

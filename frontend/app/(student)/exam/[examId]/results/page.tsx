@@ -394,7 +394,7 @@ export default function ExamResultsPage() {
           </Link>
           <Link href="/tutor" className="btn-primary flex-1 text-xs justify-center">
             <Brain className="w-3.5 h-3.5" />
-            Ask Prism AI for Help
+            Ask Atlas AI for Help
           </Link>
         </motion.div>
       </div>

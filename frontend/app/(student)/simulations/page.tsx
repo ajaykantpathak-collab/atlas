@@ -25,22 +25,35 @@ const SUBJECT_META: Record<string, { name: string; icon: any; color: string; bg:
   geography: { name: 'Geography', icon: Globe, color: 'text-blue-300', bg: 'bg-blue-500/10', border: 'border-blue-500/20' },
   history: { name: 'History', icon: BookOpen, color: 'text-amber-300', bg: 'bg-amber-500/10', border: 'border-amber-500/20' },
   cs: { name: 'Computer Science', icon: Cpu, color: 'text-purple-300', bg: 'bg-purple-500/10', border: 'border-purple-500/20' },
+  english: { name: 'English', icon: BookOpen, color: 'text-rose-300', bg: 'bg-rose-500/10', border: 'border-rose-500/20' },
+  hindi: { name: 'Hindi', icon: BookOpen, color: 'text-orange-300', bg: 'bg-orange-500/10', border: 'border-orange-500/20' },
+  economics: { name: 'Economics', icon: Calculator, color: 'text-yellow-300', bg: 'bg-yellow-500/10', border: 'border-yellow-500/20' },
   general: { name: 'General', icon: Sparkles, color: 'text-pink-300', bg: 'bg-pink-500/10', border: 'border-pink-500/20' },
 }
 
 function getSubjectMeta(subject: string) {
-  const key = subject.toLowerCase().trim()
-  // Normalize common variations
-  if (key.includes('phys')) return SUBJECT_META.physics
-  if (key.includes('chem')) return SUBJECT_META.chemistry
-  if (key.includes('bio')) return SUBJECT_META.biology
-  if (key.includes('math')) return SUBJECT_META.maths
-  if (key.includes('sci')) return SUBJECT_META.science
-  if (key.includes('evs')) return SUBJECT_META.evs
-  if (key.includes('geo')) return SUBJECT_META.geography
-  if (key.includes('hist')) return SUBJECT_META.history
-  if (key.includes('comp') || key.includes('cs')) return SUBJECT_META.cs
-  return SUBJECT_META.general
+  // canonical keys hit the map directly; raw strings fall through to the
+  // same bucketing as subjectKey
+  return SUBJECT_META[subject.toLowerCase().trim()] ?? SUBJECT_META[subjectKey(subject)]
+}
+
+// Bucket raw sim subjects ("Biology — Cell Structure", "Physics IX") into
+// canonical filter keys so the subject bar has ~10 chips, not 200.
+function subjectKey(subject: string): string {
+  const k = (subject || '').toLowerCase().trim()
+  if (k.includes('phys')) return 'physics'
+  if (k.includes('chem')) return 'chemistry'
+  if (k.includes('bio')) return 'biology'
+  if (k.includes('math')) return 'maths'
+  if (k.includes('comp') || k.includes('cs')) return 'cs'
+  if (k.includes('geo')) return 'geography'
+  if (k.includes('hist')) return 'history'
+  if (k.includes('eng') || k.includes('gram') || k.includes('lang')) return 'english'
+  if (k.includes('hin')) return 'hindi'
+  if (k.includes('evs')) return 'evs'
+  if (k.includes('eco')) return 'economics'
+  if (k.includes('sci')) return 'science'
+  return 'general'
 }
 
 export default function SimulationsPage() {
@@ -61,9 +74,9 @@ export default function SimulationsPage() {
     return () => clearTimeout(t)
   }, [])
 
-  // Get available subjects from games
+  // Get available subjects from games (canonical buckets, deduplicated)
   const availableSubjects = useMemo(() => {
-    const subjects = new Set(allGames.map(g => g.subject))
+    const subjects = new Set(allGames.map(g => subjectKey(g.subject)))
     return Array.from(subjects).sort()
   }, [allGames])
 
@@ -76,7 +89,7 @@ export default function SimulationsPage() {
   // Filter games
   const filteredGames = useMemo(() => {
     return allGames.filter((game) => {
-      if (selectedSubject !== 'all' && game.subject !== selectedSubject) return false
+      if (selectedSubject !== 'all' && subjectKey(game.subject) !== selectedSubject) return false
       if (selectedClass !== 'all' && game.classLevel !== selectedClass) return false
       if (searchQuery) {
         const q = searchQuery.toLowerCase()
@@ -94,8 +107,9 @@ export default function SimulationsPage() {
   const gamesBySubject = useMemo(() => {
     const grouped: Record<string, GameMeta[]> = {}
     filteredGames.forEach((game) => {
-      if (!grouped[game.subject]) grouped[game.subject] = []
-      grouped[game.subject].push(game)
+      const key = subjectKey(game.subject)
+      if (!grouped[key]) grouped[key] = []
+      grouped[key].push(game)
     })
     return grouped
   }, [filteredGames])

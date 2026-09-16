@@ -41,6 +41,7 @@ content/enhanced_nodes_md/
 content/index/
 content/nodes/
 frontend/public/**/*.png
+!frontend/public/icons/*.png
 frontend/public/**/*.jpg
 frontend/public/**/*.webp
 frontend/public/**/*.mp3

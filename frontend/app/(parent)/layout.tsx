@@ -2,18 +2,15 @@
 
 import { motion } from 'framer-motion'
 import {
-  LayoutDashboard, TrendingUp, Brain, Lightbulb,
-  Sparkles, Bell, ChevronDown,
+  LayoutDashboard, Bell, ChevronDown,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
+import { AtlasMark } from '@/components/atlas/AtlasMark'
 
 const navItems = [
-  { href: '/(parent)/dashboard', label: 'Overview', icon: LayoutDashboard },
-  { href: '/(parent)/child-progress', label: 'Progress', icon: TrendingUp },
-  { href: '/(parent)/ai-coach', label: 'AI Coach', icon: Brain },
-  { href: '/(parent)/guidance', label: 'Guidance', icon: Lightbulb },
+  { href: '/parent-overview', label: 'Overview', icon: LayoutDashboard },
 ]
 
 export default function ParentLayout({ children }: { children: React.ReactNode }) {
@@ -27,10 +24,8 @@ export default function ParentLayout({ children }: { children: React.ReactNode }
       }`}>
         <div className="p-5 border-b border-surface-300/20">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-brand-gradient flex items-center justify-center shadow-glow">
-              <Sparkles className="w-4 h-4 text-white" />
-            </div>
-            <span className="font-display text-sm font-bold text-white">Prism</span>
+            <AtlasMark size={32} />
+            <span className="font-display text-sm font-bold text-white">Atlas</span>
           </Link>
           <div className="mt-3 px-3 py-2 rounded-lg bg-mint-500/10 border border-mint-500/20">
             <p className="text-[10px] text-mint-300 font-medium">Parent Portal</p>

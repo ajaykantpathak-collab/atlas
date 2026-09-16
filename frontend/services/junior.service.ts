@@ -12,7 +12,7 @@ const toast = {
 // Shared infrastructure
 // ---------------------------------------------------------------------------
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? '/api';
+const API_BASE = (process.env.NEXT_PUBLIC_API_URL ?? '').replace(/\/+$/, '') + '/api';
 
 async function apiFetch<T>(
   path: string,

@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Prism Premium — AI Learning Companion',
+  title: 'Atlas Premium — AI Learning Companion',
   description: 'Premium AI-powered personalized learning for CBSE & CISCE students with 3D graphics, WebGL shaders, and adaptive intelligence.',
 }
 

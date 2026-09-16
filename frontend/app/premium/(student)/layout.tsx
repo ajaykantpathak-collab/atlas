@@ -43,7 +43,7 @@ export default function PremiumStudentLayout({ children }: { children: ReactNode
               <Sparkles className="w-4 h-4 text-white" />
             </div>
             <span className="font-display text-sm font-bold text-white">
-              Prism
+              Atlas
             </span>
           </Link>
           <div className="mt-3 flex items-center justify-between gap-2">
@@ -110,7 +110,7 @@ export default function PremiumStudentLayout({ children }: { children: ReactNode
             >
               <LayoutDashboard className="w-4 h-4" aria-hidden="true" />
             </button>
-            <span className="font-display text-sm font-bold text-white">Prism</span>
+            <span className="font-display text-sm font-bold text-white">Atlas</span>
             <div className="w-8 h-8 rounded-full bg-brand-gradient flex items-center justify-center text-xs shadow-glow">
               A
             </div>

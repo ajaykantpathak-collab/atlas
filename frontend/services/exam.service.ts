@@ -360,7 +360,7 @@ import axios from 'axios';
  * We re-declare here so this file is self-contained.
  */
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL ?? '/api',
+  baseURL: (process.env.NEXT_PUBLIC_API_URL ?? '').replace(/\/+$/, '') + '/api',
   timeout: 30_000,
   headers: {
     'Content-Type': 'application/json',

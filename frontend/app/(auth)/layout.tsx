@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { Brain, GraduationCap, Trophy, Compass } from 'lucide-react'
 import { PrismLogo, PrismCardGraph } from '@/components/prism/PrismLogo'
-import { GoldenGalaxy } from '@/components/prism/GoldenGalaxy'
+import { AtlasGalaxy } from '@/components/atlas/AtlasGalaxy'
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -12,7 +12,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
       <div className="hidden lg:flex w-1/2 relative border-r border-white/10 flex-col justify-between p-12 overflow-hidden">
         {/* Ambient backdrop — the Atlas golden galaxy, dimmed */}
         <div className="absolute inset-0 pointer-events-none" aria-hidden>
-          <GoldenGalaxy className="absolute inset-0 w-full h-full opacity-40" />
+          <AtlasGalaxy className="absolute inset-0 w-full h-full opacity-40" />
           {/* Radial vignette */}
           <div
             className="absolute inset-0"

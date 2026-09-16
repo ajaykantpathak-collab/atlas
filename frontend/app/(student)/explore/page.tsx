@@ -60,10 +60,10 @@ const SUBJECTS: {
 ];
 
 const SUBJECT_COLORS: Record<string, string> = {
-  physics: '#6366f1',
-  chem: '#d946ef',
-  bio: '#10b981',
-  maths: '#fbbf24',
+  physics: '#6366f1', phy: '#6366f1',
+  chem: '#d946ef', chemistry: '#d946ef',
+  bio: '#10b981', biology: '#10b981',
+  maths: '#fbbf24', math: '#fbbf24',
 };
 
 const COLOR_BY_SUBJECT = (subject?: string): string => {
@@ -89,6 +89,8 @@ export default function KnowledgeGraphExplorerPage() {
   const [loading, setLoading] = useState<boolean>(true);
   const [hoveredNode, setHoveredNode] = useState<GraphNode | null>(null);
   const [draggingNode, setDraggingNode] = useState<GraphNode | null>(null);
+  // forces re-render as the physics ticks — refs alone never repaint
+  const [, setSimTick] = useState(0);
 
   const router = useRouter();
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -103,6 +105,7 @@ export default function KnowledgeGraphExplorerPage() {
   });
   const dragOffsetRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
   const dragMovedRef = useRef<boolean>(false);
+  const degreeRef = useRef<Map<string | number, number>>(new Map());
 
   /* -------------------------------------------------------------- */
   /* Fetch graph data                                               */
@@ -110,7 +113,7 @@ export default function KnowledgeGraphExplorerPage() {
 
   useEffect(() => {
     const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001';
-    let url = `${apiUrl}/api/content/enrichment-graph?class_level=${classLevel}&limit=200`;
+    let url = `${apiUrl}/api/nodes/graph?class_level=${classLevel}&limit=300`;
     if (activeSubject) {
       url += `&subject=${activeSubject}`;
     }
@@ -182,6 +185,15 @@ export default function KnowledgeGraphExplorerPage() {
 
     nodesRef.current = nodes;
     linksRef.current = links;
+    // hub labels: nodes with >=4 links keep permanent labels, the rest
+    // reveal on hover — keeps the canvas readable at 300+ nodes
+    const deg = new Map<string | number, number>();
+    links.forEach((l) => {
+      const s = l.source as GraphNode, t = l.target as GraphNode;
+      deg.set(s.id, (deg.get(s.id) ?? 0) + 1);
+      deg.set(t.id, (deg.get(t.id) ?? 0) + 1);
+    });
+    degreeRef.current = deg;
     iterationRef.current = 0;
 
     // Start animation loop
@@ -262,6 +274,7 @@ export default function KnowledgeGraphExplorerPage() {
       }
 
       iterationRef.current = iter + 1;
+      setSimTick(iter); // repaint with the new positions
 
       // Stop early if stable
       if (maxVelocity < 0.05 && iter > 50) {
@@ -644,7 +657,7 @@ export default function KnowledgeGraphExplorerPage() {
                         strokeWidth={1}
                         style={{ transition: 'stroke-opacity 0.2s' }}
                       />
-                      {label && (
+                      {label && (isHovered || highlighted || (degreeRef.current.get(node.id) ?? 0) >= 4) && (
                         <text
                           y={radius + 14}
                           textAnchor="middle"

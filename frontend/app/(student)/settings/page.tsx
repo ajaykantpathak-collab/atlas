@@ -350,7 +350,7 @@ export default function SettingsPage() {
                         <p className="text-xs font-medium text-brand-300">Accessibility Score</p>
                       </div>
                       <p className="text-xs text-surface-600">
-                        Prism is committed to WCAG 2.1 AA compliance. Current score: 92/100
+                        Atlas is committed to WCAG 2.1 AA compliance. Current score: 92/100
                       </p>
                     </div>
                   </div>
@@ -365,7 +365,7 @@ export default function SettingsPage() {
                         <span className="text-white font-bold text-xl">D</span>
                       </div>
                       <div>
-                        <p className="font-display text-base font-bold text-white">Prism</p>
+                        <p className="font-display text-base font-bold text-white">Atlas</p>
                         <p className="text-xs text-surface-600">Version 1.0.0 (Build 2025.07.30)</p>
                       </div>
                     </div>
@@ -373,7 +373,7 @@ export default function SettingsPage() {
                     <SettingRow label="Privacy Policy" actionLabel="View" />
                     <SettingRow label="Open Source Licenses" actionLabel="View" />
                     <SettingRow label="Help & Support" actionLabel="Contact" />
-                    <SettingRow label="Rate Prism" actionLabel="Rate" />
+                    <SettingRow label="Rate Atlas" actionLabel="Rate" />
                     <div className="pt-4 border-t border-surface-300/20 text-center">
                       <p className="text-[10px] text-surface-600">
                         Made with ❤️ for Indian students · CBSE & CISCE · Class 1-12

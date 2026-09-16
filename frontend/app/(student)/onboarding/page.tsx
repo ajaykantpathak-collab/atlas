@@ -11,7 +11,7 @@ type T = Record<string, Record<Language, string>>;
 
 const translations: T = {
   // Welcome
-  welcome_title: { en: "Welcome to LearnSphere", hinglish: "LearnSphere mein aapka swagat hai", hindi: "लर्नस्फेयर में आपका स्वागत है" },
+  welcome_title: { en: "Welcome to Atlas", hinglish: "Atlas mein aapka swagat hai", hindi: "एटलस में आपका स्वागत है" },
   welcome_subtitle: { en: "Your personal learning companion for school success", hinglish: "School success ke liye aapka personal learning companion", hindi: "स्कूल सफलता के लिए आपका व्यक्तिगत शिक्षा साथी" },
   welcome_cta: { en: "Let's Get Started", hinglish: "Chalo shuru karte hain", hindi: "चलो शुरू करते हैं" },
   welcome_skip: { en: "Skip for now", hinglish: "Abhi skip karo", hindi: "अभी छोड़ें" },
@@ -891,7 +891,7 @@ export default function OnboardingPage() {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-400 to-pink-400 flex items-center justify-center">
               <BookOpen size={16} className="text-white" />
             </div>
-            <span className="text-sm font-bold text-white/80">LearnSphere</span>
+            <span className="text-sm font-bold text-white/80">Atlas</span>
           </div>
 
           {/* Language quick-switch */}

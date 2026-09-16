@@ -11,7 +11,7 @@ import {
   ChevronDown, HelpCircle, Check,
 } from 'lucide-react'
 import { AtlasLandscape, type Region } from '@/components/prism/AtlasLandscape'
-import { GoldenGalaxy } from '@/components/prism/GoldenGalaxy'
+import { AtlasGalaxy } from '@/components/atlas/AtlasGalaxy'
 import AskBox from '@/components/discovery/AskBox'
 import AnswerCard, { type AtlasAnswer } from '@/components/discovery/AnswerCard'
 import SubjectStrip from '@/components/discovery/SubjectStrip'
@@ -935,7 +935,7 @@ export default function AtlasLanding() {
                 </div>
                 {/* Mock map canvas — the knowledge constellation, always in motion */}
                 <div className="relative h-48 rounded-lg overflow-hidden border border-white/10">
-                  <GoldenGalaxy compact className="absolute inset-0 w-full h-full" />
+                  <AtlasGalaxy compact className="absolute inset-0 w-full h-full" />
                 </div>
                 {/* Mock mastery bar */}
                 <div className="space-y-2">
@@ -1005,7 +1005,7 @@ export default function AtlasLanding() {
                   })}
                 </div>
                 <div className="relative h-32 rounded-lg overflow-hidden border border-white/10">
-                  <GoldenGalaxy compact className="absolute inset-0 w-full h-full" />
+                  <AtlasGalaxy compact className="absolute inset-0 w-full h-full" />
                 </div>
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-surface-500">Mastery <span className="text-surface-700">· sample</span></span>
@@ -1183,7 +1183,7 @@ export default function AtlasLanding() {
                       monochrome cosmos, black and gold, in continuous
                       motion like the Lumen front door. */}
                   <div className="absolute inset-0">
-                    <GoldenGalaxy className="absolute inset-0 w-full h-full" />
+                    <AtlasGalaxy className="absolute inset-0 w-full h-full" />
                     {/* Lumen-style vignette */}
                     <div
                       className="pointer-events-none absolute inset-0"

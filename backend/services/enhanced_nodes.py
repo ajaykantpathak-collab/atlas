@@ -457,9 +457,35 @@ def parse_companion_file(path: str) -> Tuple[Optional[Dict], Optional[str]]:
 # --------------------------------------------------------------------------
 
 
+def _derive_title(node: Dict) -> str:
+    """Best-effort topic title.
+
+    The corpus has no title field — the definition's first clause is the
+    defined concept ("Electric current is the rate of flow…" -> "Electric
+    current").  Falls back to a prettified node_id.
+    """
+    definition = (node.get("definition") or "").strip()
+    if definition:
+        head = definition.split("\n")[0].strip()
+        for sep in (" is defined as", " is the ", " are the ", " refers to ",
+                    " means ", " is a ", " is an ", " is ", " are ", " – ", " — ", " - ", ": ", "."):
+            if sep in head:
+                cand = head.split(sep, 1)[0].strip()
+                if 3 <= len(cand) <= 60 and len(cand.split()) <= 10:
+                    return cand[0].upper() + cand[1:]
+        # whole first sentence if short enough
+        if len(head) <= 60:
+            return head[0].upper() + head[1:]
+        return head[:57].rstrip() + "…"
+    nid = node.get("node_id", "")
+    parts = nid.split("_")
+    return " ".join(p.capitalize() for p in parts if p and not p.isdigit()) or nid
+
+
 def _summary(node: Dict, snippet_chars: int = 220) -> Dict:
     return {
         "node_id": node["node_id"],
+        "title": _derive_title(node),
         "class": node["class"],
         "subject": node["subject"],
         "chapter": node["chapter"],
@@ -481,8 +507,13 @@ def _subject_matches(node_subject: str, wanted: str) -> bool:
     ws = (wanted or "").strip().lower()
     if not ws or ns == ws:
         return True
-    # exact token match or alias expansion (bio -> biology, ...)
-    return _SUBJECT_ALIASES.get(ws) == ns
+    # bidirectional alias match — "bio" expands to biology, and the
+    # long form "physics" must also find nodes coded "phy"
+    if _SUBJECT_ALIASES.get(ws) == ns or _SUBJECT_ALIASES.get(ns) == ws:
+        return True
+    # prefix fallback for related spellings (math/maths, eng/english…)
+    return bool(ns and ws and (ns.startswith(ws) or ws.startswith(ns))
+                and len(ns) >= 3 and len(ws) >= 3)
 
 
 class EnhancedNodesIndex:
@@ -599,6 +630,42 @@ class EnhancedNodesIndex:
             s["score"] = score
             out.append(s)
         return out
+
+    # -- graph view ---------------------------------------------------------
+
+    def graph(self, cls: Optional[int] = None,
+              subject: Optional[str] = None,
+              limit: int = 300) -> Dict:
+        """Return {nodes, links} for the knowledge-graph UI.
+
+        Links are prereq edges (node -> its prerequisite) where both ends
+        survive the class/subject filter.
+        """
+        picked: List[str] = []
+        for nid, node in self.nodes.items():
+            if cls is not None and node["class"] != int(cls):
+                continue
+            if subject and not _subject_matches(node["subject"], subject):
+                continue
+            picked.append(nid)
+        picked.sort()
+        picked = picked[:max(1, int(limit))]
+        picked_set = set(picked)
+        nodes = [
+            {
+                "id": nid,
+                **_summary(self.nodes[nid], snippet_chars=140),
+                "group": self.nodes[nid]["subject"],
+            }
+            for nid in picked
+        ]
+        links = []
+        for nid in picked:
+            for pre in self.nodes[nid].get("prereq_ids") or []:
+                if pre in picked_set:
+                    links.append({"source": pre, "target": nid})
+        return {"nodes": nodes, "links": links,
+                "total_nodes": len(nodes), "total_links": len(links)}
 
     # -- serialisation (cache) ----------------------------------------------
 

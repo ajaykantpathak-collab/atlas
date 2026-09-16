@@ -13,7 +13,7 @@ import { useAuthStore } from '@/stores/authStore'
 
 interface ContentItem {
   id: string
-  target_class: number
+  target_class: number[]
   target_subject: string
   content_type: string
   title: string
@@ -25,6 +25,28 @@ interface ContentItem {
 interface ContentResponse {
   items: ContentItem[]
   total: number
+}
+
+// Seeded rows carry raw filenames ("acc_blueprint") — humanize for display.
+const SUBJECT_NAMES: Record<string, string> = {
+  acc: 'Accountancy', bio: 'Biology', bs: 'Business Studies', chem: 'Chemistry',
+  comm: 'Commerce', commapp: 'Commercial Applications', commstud: 'Commercial Studies',
+  econ: 'Economics', econapp: 'Economic Applications', eng: 'English',
+  geo: 'Geography', hist: 'History', histciv: 'History & Civics', home: 'Home Science',
+  legal: 'Legal Studies', massmedia: 'Mass Media', maths: 'Mathematics',
+  phy: 'Physics', physics: 'Physics', pol: 'Political Science', psy: 'Psychology',
+  soc: 'Sociology', hin: 'Hindi', cs: 'Computer Science',
+}
+
+function prettyTitle(raw: string): string {
+  const s = (raw || '').replace(/\.(marker|md|txt)$/i, '').replace(/_/g, ' ').trim()
+  return s.replace(/\b\w/g, (c) => c.toUpperCase())
+    .replace(/\bAcc\b/i, 'Accountancy').replace(/\bBs\b/, 'Business Studies')
+    .replace(/\bHistciv\b/i, 'History & Civics').replace(/\bPp\b/, 'Past Paper')
+}
+
+function subjectName(code: string): string {
+  return SUBJECT_NAMES[(code || '').toLowerCase()] ?? prettyTitle(code)
 }
 
 const CONTENT_TYPES = [
@@ -220,12 +242,12 @@ export default function ExamPrepHubPage() {
                     <activeType.icon className={`w-5 h-5 ${activeType.color} flex-shrink-0 mt-0.5`} />
                     <div className="flex-1 min-w-0">
                       <h3 className="text-sm font-semibold text-white group-hover:text-brand-300 transition-colors">
-                        {item.title}
+                        {prettyTitle(item.title)}
                       </h3>
                       <div className="flex items-center gap-2 mt-1 flex-wrap">
                         {item.target_subject && (
                           <span className="text-[10px] px-1.5 py-0.5 rounded bg-surface-700/50 text-surface-600">
-                            {item.target_subject}
+                            {subjectName(item.target_subject)}
                           </span>
                         )}
                         {item.board && (
@@ -233,9 +255,9 @@ export default function ExamPrepHubPage() {
                             {item.board}
                           </span>
                         )}
-                        {item.source_file && (
-                          <span className="text-[10px] text-surface-600 truncate max-w-[200px]">
-                            {item.source_file}
+                        {item.target_class?.length > 0 && (
+                          <span className="text-[10px] text-surface-600">
+                            Class {Math.min(...item.target_class)}–{Math.max(...item.target_class)}
                           </span>
                         )}
                       </div>

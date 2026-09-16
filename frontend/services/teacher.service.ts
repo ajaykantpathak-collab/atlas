@@ -224,8 +224,10 @@ async function apiFetch<T>(
   endpoint: string,
   options: RequestInit = {},
 ): Promise<T> {
-  const baseUrl = process.env.NEXT_PUBLIC_API_URL ?? "/api";
-  const url = `${baseUrl}${endpoint}`;
+  // NEXT_PUBLIC_API_URL is the API origin (e.g. http://localhost) — endpoints
+  // still need the /api prefix to reach the backend through nginx.
+  const baseUrl = (process.env.NEXT_PUBLIC_API_URL ?? "").replace(/\/$/, "");
+  const url = `${baseUrl}/api${endpoint}`;
 
   const token =
     typeof window !== "undefined"
@@ -251,8 +253,8 @@ async function apiFetch<T>(
         message: response.statusText,
       };
     }
-    const err = new Error(errorBody.message) as Error & { code: string; details?: Record<string, string[]> };
-    err.code = errorBody.code;
+    const err = new Error(errorBody.message ?? response.statusText) as Error & { code: string; details?: Record<string, string[]> };
+    err.code = errorBody.code || `HTTP_${response.status}`;
     err.details = errorBody.details;
     throw err;
   }
@@ -379,7 +381,7 @@ const RETRY_CONFIG = {
     // Don't retry on 4xx (client errors)
     if (error instanceof Error && "code" in error) {
       const code = (error as Error & { code: string }).code;
-      if (code.startsWith("4")) return false;
+      if (code.startsWith("4") || code.startsWith("HTTP_4")) return false;
     }
     // Exponential back-off up to 3 retries
     return failureCount < 3;

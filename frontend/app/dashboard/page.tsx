@@ -19,7 +19,7 @@ import { motion } from "framer-motion";
 import { Compass, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import { PrismLogo } from "@/components/prism/PrismLogo";
-import { GoldenGalaxy } from "@/components/prism/GoldenGalaxy";
+import { AtlasGalaxy } from "@/components/atlas/AtlasGalaxy";
 import { useDashboardData } from "@/components/dashboard/useDashboardData";
 import HeroStats from "@/components/dashboard/HeroStats";
 import MasteryOverview, {
@@ -64,7 +64,7 @@ export default function DashboardPage() {
     <div className="min-h-screen mesh-bg-animated">
       {/* Ambient backdrop — dimmed golden galaxy behind the header */}
       <div className="absolute inset-x-0 top-0 h-80 overflow-hidden pointer-events-none" aria-hidden>
-        <GoldenGalaxy className="absolute inset-0 w-full h-full opacity-40" compact />
+        <AtlasGalaxy className="absolute inset-0 w-full h-full opacity-40" compact />
         <div
           className="absolute inset-0"
           style={{ background: "radial-gradient(120% 100% at 50% 0%, transparent 40%, #0a0a0f 100%)" }}

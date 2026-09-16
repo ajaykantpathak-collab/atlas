@@ -720,9 +720,10 @@ function ReadyScreen({ topic, subject, onStart }: {
 }) {
   const streak = usePracticeStore(s => s.streakDays);
   const mastery = usePracticeStore(s => s.masteryPercent);
-  const [isOnline, setIsOnline] = useState(navigator.onLine);
+  const [isOnline, setIsOnline] = useState(true); // SSR-safe; corrected by effect below
 
   useEffect(() => {
+    setIsOnline(navigator.onLine);
     const onOn = () => setIsOnline(true);
     const onOff = () => setIsOnline(false);
     window.addEventListener('online', onOn);
@@ -1559,6 +1560,7 @@ export default function PracticePage() {
   } = store;
 
   const initialized = useRef(false);
+  const [isOffline, setIsOffline] = useState(false); // SSR-safe; corrected by effect
   const handleAdvanceRef = useRef(advanceToNext);
   const handleCompleteRef = useRef(completeSession);
 
@@ -1573,15 +1575,23 @@ export default function PracticePage() {
     }
   }, [store]);
 
-  // Network listener for offline sync
+  // Network listener for offline sync + offline banner
   useEffect(() => {
+    const sync = () => setIsOffline(!navigator.onLine);
+    sync();
+    window.addEventListener('online', sync);
+    window.addEventListener('offline', sync);
     const handleOnline = async () => {
       if (navigator.onLine) {
         try { await syncQueuedAnswers(); } catch { /* non-critical */ }
       }
     };
     window.addEventListener('online', handleOnline);
-    return () => window.removeEventListener('online', handleOnline);
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('online', sync);
+      window.removeEventListener('offline', sync);
+    };
   }, []);
 
   // Handle answer from question screen
@@ -1642,7 +1652,7 @@ export default function PracticePage() {
       )}
 
       {/* Offline banner */}
-      {screen === 'active' && !navigator.onLine && (
+      {screen === 'active' && isOffline && (
         <motion.div
           initial={{ height: 0, opacity: 0 }}
           animate={{ height: 'auto', opacity: 1 }}

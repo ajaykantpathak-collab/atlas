@@ -92,7 +92,7 @@ export default function PremiumDashboard() {
               <div className="w-8 h-8 rounded-lg bg-brand-gradient flex items-center justify-center shadow-glow">
                 <Sparkles className="w-4 h-4 text-white" />
               </div>
-              <span className="font-display text-sm font-bold text-white">Prism</span>
+              <span className="font-display text-sm font-bold text-white">Atlas</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg glass">
