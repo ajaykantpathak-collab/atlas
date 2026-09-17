@@ -16,6 +16,7 @@ skipped with a count.
 
 Usage:  python backend/tools/load_graph_neo4j.py [--wipe]
 """
+import glob
 import json
 import os
 import sys
@@ -30,7 +31,8 @@ _MD_CANDIDATES = [
                  "..", "..", "content", "md_cache"),
     r"C:/Users/Alesha4285/Desktop/enhanced_nodes/md_cache",
 ]
-MD_DIR = next((p for p in _MD_CANDIDATES if os.path.isdir(p)), _MD_CANDIDATES[0])
+MD_DIR = os.environ.get("GRAPH_MD_DIR") or next(
+    (p for p in _MD_CANDIDATES if os.path.isdir(p)), _MD_CANDIDATES[0])
 MD_INDEX = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                         "..", "_cache", "enhanced_nodes_index.json")
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",
@@ -41,12 +43,15 @@ AUDIT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
 ENV = {}
 env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                         "..", "..", ".env")
-for line in open(env_path, encoding="utf-8", errors="ignore"):
-    if "=" in line and not line.strip().startswith("#"):
-        k, v = line.split("=", 1)
-        ENV[k.strip()] = v.strip()
-URI = ENV.get("NEO4J_URI", "bolt://localhost:7687")
-AUTH = ("neo4j", ENV.get("NEO4J_PASSWORD", ""))
+if os.path.exists(env_path):
+    for line in open(env_path, encoding="utf-8", errors="ignore"):
+        if "=" in line and not line.strip().startswith("#"):
+            k, v = line.split("=", 1)
+            ENV[k.strip()] = v.strip()
+URI = (os.environ.get("NEO4J_URI") or ENV.get("NEO4J_URI")
+       or "bolt://localhost:7687")
+AUTH = ("neo4j",
+        os.environ.get("NEO4J_PASSWORD") or ENV.get("NEO4J_PASSWORD", ""))
 
 SECTION_MAP = {
     "PREREQUISITE_NODE_IDS": "PREREQUISITE_OF",
@@ -163,7 +168,53 @@ def main(wipe: bool = False) -> None:
         if os.path.exists(map_path) else []
     if isinstance(map_entries, dict):
         map_entries = map_entries.get("entries") or []
-    print(f"sims: {len(sims)} v2/legacy + {len(map_entries)} c6-12 entries")
+
+    # Primary inventory — SIM_INDEX.json (3k+ sims, authoritative node map).
+    sim_index_path = os.path.join(ROOT, "sims_v2", "SIM_INDEX.json")
+    if os.path.exists(sim_index_path):
+        si = json.load(open(sim_index_path, encoding="utf-8"))
+        for sid, e in si.items():
+            sid = str(sid)
+            sims[sid] = {
+                "sim_id": sid,
+                "title": str(e.get("t") or sid)[:120],
+                "class": e.get("c"),
+                "subject": e.get("s"),
+                "source": "index",
+            }
+            map_entries.append({"simId": sid, "nodeIds": e.get("n") or []})
+
+    # Hand-authored English grammar/composition sims (dream_sims project).
+    ds_dir = os.environ.get("DREAM_SIMS_DIR",
+                            r"C:/Users/Alesha4285/Desktop/dream_sims")
+    ds_count = 0
+    if os.path.isdir(ds_dir):
+        import re as _re
+        for ts in glob.glob(os.path.join(ds_dir, "class*/v3w/*.ts")):
+            text = open(ts, encoding="utf-8", errors="ignore").read()
+            sid = _re.search(r"id:\s*'([^']+)'", text)
+            if not sid:
+                continue
+            sid = sid.group(1)
+            def _m(p):
+                m = _re.search(p, text)
+                return m.group(1) if m else None
+            lvl = _m(r"classLevel:\s*(\d+)")
+            nids = _re.search(r"nodeIds:\s*\[([^\]]*)\]", text)
+            sims[sid] = {
+                "sim_id": sid,
+                "title": str(_m(r"title:\s*'([^']+)'") or sid)[:120],
+                "class": int(lvl) if lvl else None,
+                "subject": _m(r"subject:\s*'([^']+)'"),
+                "source": "dream_sims",
+            }
+            map_entries.append({
+                "simId": sid,
+                "nodeIds": _re.findall(r"'([^']+)'", nids.group(1)) if nids else [],
+            })
+            ds_count += 1
+    print(f"sims: {len(sims)} total ({ds_count} dream_sims) "
+          f"+ {len(map_entries)} cover entries")
 
     drv = GraphDatabase.driver(URI, auth=AUTH)
     with drv.session(database="neo4j") as s:
@@ -208,7 +259,7 @@ def main(wipe: bool = False) -> None:
         sim_rows = list(sims.values())
         for e in map_entries:
             sid = e.get("simId") or e.get("file")
-            if sid:
+            if sid and str(sid) not in sims:
                 sim_rows.append({"sim_id": str(sid),
                                  "title": str(e.get("title") or sid)[:120],
                                  "class": e.get("class"),
