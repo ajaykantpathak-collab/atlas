@@ -1968,7 +1968,13 @@ function EmptyState({ t }: { t: typeof translations.en }) {
         <FiBarChart2 className="w-10 h-10 text-indigo-300" />
       </div>
       <p className="text-lg font-semibold text-slate-700 mb-1">{t.noAssignments}</p>
-      <p className="text-sm text-slate-400">Check back later for new assignments</p>
+      <p className="text-sm text-slate-400 mb-5">Check back later for new assignments</p>
+      <a
+        href="/practice"
+        className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-700"
+      >
+        Practice in the meantime
+      </a>
     </motion.div>
   )
 }

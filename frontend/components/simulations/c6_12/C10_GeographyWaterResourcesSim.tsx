@@ -130,7 +130,7 @@ export function C10_GeographyWaterResourcesSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 text-xs text-slate-300 leading-relaxed space-y-3">
             <div>
               <p className="font-bold text-sky-300 mb-1">Why conserve? (hydrological logic)</p>
-              <p className="text-slate-400 text-[11px]">Only ~3% of all water is freshwater; most is locked in ice. Hydrological cycle: evaporation -> condensation -> precipitation -> runoff/infiltration. India: monsoon-dependent -- 4 months bring most rain, so storage (surface + groundwater) decides survival.</p>
+              <p className="text-slate-400 text-[11px]">Only ~3% of all water is freshwater; most is locked in ice. Hydrological cycle: evaporation -&gt; condensation -&gt; precipitation -&gt; runoff/infiltration. India: monsoon-dependent -- 4 months bring most rain, so storage (surface + groundwater) decides survival.</p>
             </div>
             <div>
               <p className="font-bold text-sky-300 mb-1">Multipurpose projects: the debate</p>

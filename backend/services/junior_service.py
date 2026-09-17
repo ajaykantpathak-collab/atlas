@@ -394,6 +394,7 @@ class ActivityBuilder:
         prompt_hi = tpl["template"].format(
             animal=animal,
             fruit=fruit,
+            flower=random.choice(bank.FLOWERS),
             n1=mp["n1"],
             n2=mp["n2"],
         )
@@ -762,6 +763,9 @@ class _SessionStore:
 #  Junior Learning Service
 # ──────────────────────────────────────────────
 
+_JUNIOR_TABLES_READY = False
+
+
 class JuniorService:
     """
     Voice-first, game-based learning service for Class 1-5 students.
@@ -919,6 +923,10 @@ class JuniorService:
         """
         session = self._store.get(session_id)
         if not session:
+            # Multi-worker deployments: nginx may route the next answer to a
+            # different backend — restore the session from the DB.
+            session = await self._restore_session(session_id)
+        if not session:
             raise ValueError(f"Session not found: {session_id}")
 
         if session["status"] != LessonStatus.ACTIVE:
@@ -959,6 +967,10 @@ class JuniorService:
             asyncio.get_running_loop().create_task(
                 self._sync_mastery(student_id=session["student_id"],
                                    skill=skill_key, delta=delta)
+            )
+            asyncio.get_running_loop().create_task(
+                self._persist_stars(session["student_id"],
+                                    session["subject"].value, activity.points)
             )
 
         elif result == AnswerResult.PARTIAL:
@@ -1031,6 +1043,8 @@ class JuniorService:
             session_id, result.value, consecutive, session["stars_earned"],
         )
 
+        asyncio.get_running_loop().create_task(self._persist_session(session))
+
         return VoiceAnswerOut(
             session_id       = session_id,
             result           = result,
@@ -1095,10 +1109,6 @@ class JuniorService:
 
         # Recent activities
         recent = mastery_data.get("recent_activities", [])
-        if not recent:
-            recent = [
-                {"date": date.today().isoformat(), "subject": "mathematics", "stars": 5},
-            ]
 
         # Recommend next topic
         weakest_subject = min(subject_progress, key=subject_progress.get) \
@@ -1147,8 +1157,9 @@ class JuniorService:
             tpl = random.choice(bank.STORY_TEMPLATES)
             animal = random.choice(bank.ANIMALS)
             fruit  = random.choice(bank.FRUITS)
+            flower = random.choice(bank.FLOWERS)
 
-            story_hi = tpl["template"].format(animal=animal, fruit=fruit, n1=mp["n1"], n2=mp["n2"])
+            story_hi = tpl["template"].format(animal=animal, fruit=fruit, flower=flower, n1=mp["n1"], n2=mp["n2"])
             question_hi = f"Total kitne {fruit} chahiye? Batao!"
             hint_hi = tpl["hint_template"].format(n1=mp["n1"], n2=mp["n2"])
 
@@ -1237,20 +1248,67 @@ class JuniorService:
             return topics.get(subject, f"Basics of {subject}")
         return f"Advanced {subject} — new challenge!"
 
+    async def _restore_session(self, session_id: str) -> Optional[dict[str, Any]]:
+        """Rebuild an in-memory session from its persisted DB row (multi-worker)."""
+        try:
+            from sqlalchemy import text
+            import json as _json
+            async with async_session_maker() as db:
+                row = (await db.execute(text(
+                    "SELECT * FROM junior_lesson_sessions WHERE session_id = :sid"
+                ), {"sid": session_id})).mappings().first()
+            if not row or row["status"] != LessonStatus.ACTIVE.value:
+                return None
+            raw = row["activities"]
+            if not isinstance(raw, list):
+                raw = _json.loads(raw or "[]")
+            session = {
+                "session_id":    row["session_id"],
+                "student_id":    row["student_id"],
+                "subject":       Subject(row["subject"]),
+                "topic":         row["topic"] or "",
+                "difficulty":    Difficulty(row["difficulty"] or "medium"),
+                "character":     {"name": row["character_name"] or "Moti", "emoji": "", "personality": ""},
+                "activities":    [ActivityOut(**a) for a in raw],
+                "current_index": row["current_index"] or 0,
+                "stars_earned":  row["stars_earned"] or 0,
+                "points_earned": row["points_earned"] or 0,
+                "consecutive_correct": row["consecutive_correct"] or 0,
+                "hint_count":    row["hint_count"] or 0,
+                "status":        LessonStatus.ACTIVE,
+                "created_at":    row["created_at"].isoformat() if row["created_at"] else datetime.utcnow().isoformat(),
+                "mastery_delta": {},
+            }
+            _SessionStore._sessions[session["session_id"]] = session
+            return session
+        except Exception as exc:
+            logger.debug("Session restore failed: %s", exc)
+            return None
+
     async def _persist_session(self, session: dict[str, Any]) -> None:
         """Background DB write — non-blocking."""
         try:
             async with async_session_maker() as db:
                 # Insert junior_lesson_sessions record (table assumed)
+                import json
                 from sqlalchemy import text
                 await db.execute(text("""
                     INSERT INTO junior_lesson_sessions
                         (session_id, student_id, subject, topic, difficulty,
-                         character_name, activities, status, created_at)
+                         character_name, activities, status, created_at,
+                         current_index, consecutive_correct, hint_count,
+                         stars_earned, points_earned)
                     VALUES
                         (:sid, :sid2, :subj, :topic, :diff,
-                         :char, :acts, :status, :created)
-                    ON CONFLICT (session_id) DO UPDATE SET status = EXCLUDED.status
+                         :char, :acts, :status, :created,
+                         :cidx, :consec, :hints, :stars, :points)
+                    ON CONFLICT (session_id) DO UPDATE SET
+                        status = EXCLUDED.status,
+                        current_index = EXCLUDED.current_index,
+                        consecutive_correct = EXCLUDED.consecutive_correct,
+                        hint_count = EXCLUDED.hint_count,
+                        stars_earned = EXCLUDED.stars_earned,
+                        points_earned = EXCLUDED.points_earned
                 """), {
                     "sid":    session["session_id"],
                     "sid2":   session["student_id"],
@@ -1258,9 +1316,18 @@ class JuniorService:
                     "topic":  session["topic"],
                     "diff":   session["difficulty"].value,
                     "char":   session["character"]["name"],
-                    "acts":   [a.model_dump() for a in session["activities"]],
+                    "acts":   json.dumps([a.model_dump() for a in session["activities"]]),
                     "status": session["status"].value,
-                    "created": session["created_at"],
+                    "created": (
+                        datetime.fromisoformat(session["created_at"])
+                        if isinstance(session["created_at"], str)
+                        else session["created_at"]
+                    ),
+                    "cidx":   session.get("current_index", 0),
+                    "consec": session.get("consecutive_correct", 0),
+                    "hints":  session.get("hint_count", 0),
+                    "stars":  session.get("stars_earned", 0),
+                    "points": session.get("points_earned", 0),
                 })
                 await db.commit()
         except Exception as exc:
@@ -1272,18 +1339,137 @@ class JuniorService:
         except Exception as exc:
             logger.debug("Mastery sync skipped: %s", exc)
 
+    async def _ensure_junior_tables(self) -> None:
+        """Create the persistence tables this service reads/writes (idempotent)."""
+        global _JUNIOR_TABLES_READY
+        if _JUNIOR_TABLES_READY:
+            return
+        async with async_session_maker() as db:
+            from sqlalchemy import text
+            await db.execute(text("""
+                CREATE TABLE IF NOT EXISTS student_mastery (
+                    id BIGSERIAL PRIMARY KEY,
+                    student_id TEXT NOT NULL UNIQUE,
+                    subject TEXT NOT NULL DEFAULT 'mathematics',
+                    mastery_score REAL NOT NULL DEFAULT 0,
+                    total_stars INTEGER NOT NULL DEFAULT 0,
+                    total_points INTEGER NOT NULL DEFAULT 0,
+                    current_streak INTEGER NOT NULL DEFAULT 0,
+                    earned_badges TEXT NOT NULL DEFAULT '[]',
+                    weekly_stars TEXT NOT NULL DEFAULT '[0,0,0,0,0,0,0]',
+                    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+                )
+            """))
+            await db.execute(text("""
+                CREATE TABLE IF NOT EXISTS junior_lesson_sessions (
+                    session_id TEXT PRIMARY KEY,
+                    student_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    topic TEXT,
+                    difficulty TEXT,
+                    character_name TEXT,
+                    activities JSONB NOT NULL DEFAULT '[]'::jsonb,
+                    status TEXT NOT NULL DEFAULT 'active',
+                    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+                )
+            """))
+            for _ddl in (
+                "ALTER TABLE junior_lesson_sessions ADD COLUMN IF NOT EXISTS current_index INT NOT NULL DEFAULT 0",
+                "ALTER TABLE junior_lesson_sessions ADD COLUMN IF NOT EXISTS consecutive_correct INT NOT NULL DEFAULT 0",
+                "ALTER TABLE junior_lesson_sessions ADD COLUMN IF NOT EXISTS hint_count INT NOT NULL DEFAULT 0",
+                "ALTER TABLE junior_lesson_sessions ADD COLUMN IF NOT EXISTS stars_earned INT NOT NULL DEFAULT 0",
+                "ALTER TABLE junior_lesson_sessions ADD COLUMN IF NOT EXISTS points_earned INT NOT NULL DEFAULT 0",
+            ):
+                await db.execute(text(_ddl))
+            await db.execute(text(
+                """
+                CREATE TABLE IF NOT EXISTS student_badges (
+                    id BIGSERIAL PRIMARY KEY,
+                    student_id TEXT NOT NULL,
+                    badge_id TEXT NOT NULL,
+                    earned_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+                    UNIQUE (student_id, badge_id)
+                )
+            """))
+            await db.commit()
+        _JUNIOR_TABLES_READY = True
+
     async def _award_badge(self, student_id: str, badge_id: str) -> None:
         try:
+            from sqlalchemy import text
+            await self._ensure_junior_tables()
             async with async_session_maker() as db:
-                from sqlalchemy import text
                 await db.execute(text("""
                     INSERT INTO student_badges (student_id, badge_id, earned_at)
                     VALUES (:sid, :bid, NOW())
                     ON CONFLICT (student_id, badge_id) DO NOTHING
                 """), {"sid": student_id, "bid": badge_id})
+                row = (await db.execute(text(
+                    "SELECT earned_badges FROM student_mastery WHERE student_id = :sid"
+                ), {"sid": student_id})).mappings().first()
+                if row:
+                    import json
+                    earned = json.loads(row["earned_badges"] or "[]")
+                    if badge_id not in earned:
+                        earned.append(badge_id)
+                        await db.execute(text(
+                            "UPDATE student_mastery SET earned_badges = :eb WHERE student_id = :sid"
+                        ), {"eb": json.dumps(earned), "sid": student_id})
+                else:
+                    import json
+                    await db.execute(text("""
+                        INSERT INTO student_mastery (student_id, earned_badges)
+                        VALUES (:sid, :eb)
+                        ON CONFLICT (student_id) DO NOTHING
+                    """), {"sid": student_id, "eb": json.dumps([badge_id])})
                 await db.commit()
         except Exception as exc:
             logger.debug("Badge award skipped: %s", exc)
+
+    async def _persist_stars(self, student_id: str, subject: str, stars: int) -> None:
+        """Persist earned stars/points and the daily streak to student_mastery."""
+        if stars <= 0:
+            return
+        try:
+            from sqlalchemy import text
+            await self._ensure_junior_tables()
+            async with async_session_maker() as db:
+                row = (await db.execute(text(
+                    "SELECT total_stars, current_streak, weekly_stars, updated_at"
+                    " FROM student_mastery WHERE student_id = :sid"
+                ), {"sid": student_id})).mappings().first()
+                import json
+                if row:
+                    today = date.today()
+                    last = row["updated_at"].date() if row["updated_at"] else None
+                    if last == today:
+                        streak = max(row["current_streak"] or 1, 1)
+                    elif last == today - timedelta(days=1):
+                        streak = (row["current_streak"] or 0) + 1
+                    else:
+                        streak = 1
+                    # atomic in SQL — concurrent fire-and-forget tasks must not lose updates
+                    await db.execute(text(
+                        "UPDATE student_mastery SET subject = :subj,"
+                        " mastery_score = LEAST(mastery_score + 0.05, 1.0),"
+                        " total_stars = total_stars + :stars,"
+                        " total_points = total_points + :stars,"
+                        " current_streak = :streak,"
+                        " weekly_stars = jsonb_set(weekly_stars::jsonb, '{6}',"
+                        "   to_jsonb(COALESCE(weekly_stars::jsonb->>6, '0')::int + :stars))::text,"
+                        " updated_at = NOW()"
+                        " WHERE student_id = :sid"
+                    ), {"subj": subject, "stars": stars, "streak": streak, "sid": student_id})
+                else:
+                    await db.execute(text(
+                        "INSERT INTO student_mastery (student_id, subject, mastery_score,"
+                        " total_stars, total_points, current_streak, weekly_stars)"
+                        " VALUES (:sid, :subj, 0.05, :stars, :stars, 1, :weekly)"
+                    ), {"sid": student_id, "subj": subject, "stars": stars,
+                        "weekly": json.dumps([0, 0, 0, 0, 0, 0, stars])})
+                await db.commit()
+        except Exception as exc:
+            logger.debug("Junior star persistence skipped: %s", exc)
 
     async def _fetch_mastery(self, student_id: str) -> dict[str, Any]:
         try:
@@ -1299,11 +1485,16 @@ class JuniorService:
                 row = result.mappings().first()
                 if row:
                     import json
+                    earned = set(json.loads(row["earned_badges"] or "[]"))
+                    badge_rows = await db.execute(text(
+                        "SELECT badge_id FROM student_badges WHERE student_id = :sid"
+                    ), {"sid": student_id})
+                    earned |= {r[0] for r in badge_rows}
                     return {
                         "total_stars":    row["total_stars"] or 0,
                         "total_points":   row["total_points"] or 0,
                         "current_streak": row["current_streak"] or 0,
-                        "earned_badges":  json.loads(row["earned_badges"] or "[]"),
+                        "earned_badges":  sorted(earned),
                         "weekly_stars":   json.loads(row["weekly_stars"] or "[0,0,0,0,0,0,0]"),
                         "subject_progress": {row["subject"]: row["mastery_score"]},
                     }

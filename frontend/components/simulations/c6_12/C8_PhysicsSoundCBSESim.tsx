@@ -1583,4 +1583,3 @@ export default function C8_PhysicsSoundCBSESim() {
 }
 
 // Default export statement
-export default C8_PhysicsSoundCBSESim;

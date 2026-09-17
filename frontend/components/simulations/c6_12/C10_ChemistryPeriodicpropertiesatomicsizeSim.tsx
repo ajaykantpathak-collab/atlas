@@ -1406,4 +1406,4 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
 }
 
 // Default export statement required
-export default C10_ChemistryPeriodicpropertiesatomicsizeSim;
+// [dup-export removed] export default C10_ChemistryPeriodicpropertiesatomicsizeSim;

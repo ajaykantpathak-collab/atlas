@@ -199,8 +199,20 @@ export default function LearnPage() {
         )}
 
         {!loading && filtered.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-sm text-surface-600">No topics found. Try a different search or subject.</p>
+          <div className="glass-card p-12 text-center">
+            <div className="w-16 h-16 rounded-full bg-surface-200/20 flex items-center justify-center mx-auto mb-4">
+              <Search className="w-8 h-8 text-surface-600" />
+            </div>
+            <p className="text-sm font-medium text-white mb-1">No topics found</p>
+            <p className="text-xs text-surface-600 mb-5">
+              Nothing matches your search in this subject — try clearing the filters.
+            </p>
+            <button
+              onClick={() => { setSearch('') }}
+              className="btn-primary text-xs"
+            >
+              Clear search
+            </button>
           </div>
         )}
       </main>

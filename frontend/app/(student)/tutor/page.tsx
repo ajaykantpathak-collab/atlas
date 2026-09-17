@@ -13,6 +13,7 @@ import Link from 'next/link';
 import katex from 'katex';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useStudentStore } from '@/stores/studentStore';
+import { useAuthStore } from '@/stores/authStore';
 import { offlineCache } from '@/lib/offlineCache';
 import { friendlyNodeTitle, subjectName } from '@/lib/nodeTitle';
 
@@ -121,7 +122,10 @@ interface TutorApiResponse {
 // ─── Constants ────────────────────────────────────────────
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8001';
-const TUTOR_WS_URL = process.env.NEXT_PUBLIC_TUTOR_WS_URL ?? 'ws://localhost:8001';
+// Ride the same origin as the API (nginx :80 in prod). A hardcoded 8001
+// bypasses the reverse proxy and breaks outside the dev machine.
+const TUTOR_WS_URL =
+  process.env.NEXT_PUBLIC_TUTOR_WS_URL ?? API_URL.replace(/^http/, 'ws');
 const EXCHANGES_BEFORE_ESCALATION = 3;
 
 type Language = 'en' | 'hinglish' | 'hi';
@@ -304,6 +308,9 @@ const SUGGESTION_KEYS: Record<string, string[]> = {
 // ─── Helper: render inline math ────────────────────────────
 
 function renderMath(text: string): string {
+  // Guard: WS error frames / malformed replies can hand us undefined —
+  // render empty instead of crashing on .split().
+  if (!text || typeof text !== 'string') return '';
   const parts = text.split(/(\$[^$]+\$|\\\[[^\]]+\\\])/g);
   return parts
     .map((part) => {
@@ -406,12 +413,18 @@ export default function TutorPage({
   // ─── Stores ─────────────────────────────────────────────
 
   const queryClient = useQueryClient();
+  const authUserId = useAuthStore((s) => s.user?.id);
   const studentId = useStudentStore((s) => s.profile.id);
   const studentName = useStudentStore((s) => s.profile.name);
   const storeLang = useStudentStore((s) => s.profile.languagePref) as Language | undefined;
   const storeSubject = useStudentStore((s) => s.profile.subjects?.[0]);
   const storeClassLevel = useStudentStore((s) => s.profile.class);
-  const effectiveUserId = userId ?? studentId;
+  // Real authenticated UUID first; the local onboarding profile id is a
+  // guest-only fallback and must never reach the server as "undefined".
+  const effectiveUserId = userId ?? authUserId ?? studentId;
+  // Never serialize undefined into wire payloads — anonymous visitors get a
+  // stable guest id so WS params and message bodies stay well-formed.
+  const wireUserId = effectiveUserId ?? 'guest';
   const effectiveLang = storeLang ?? language;
   const effectiveSubject = subjectProp ?? storeSubject ?? 'Mathematics';
   const effectiveClassLevel =
@@ -495,7 +508,7 @@ export default function TutorPage({
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    const wsUrl = `${TUTOR_WS_URL}/api/tutor/its/ws?user_id=${encodeURIComponent(effectiveUserId)}`;
+    const wsUrl = `${TUTOR_WS_URL}/api/tutor/its/ws?user_id=${encodeURIComponent(wireUserId)}`;
     let ws: WebSocket | null = null;
     let reconnectTimer: ReturnType<typeof setTimeout>;
 
@@ -511,7 +524,16 @@ export default function TutorPage({
             .then((pending) => {
               pending.forEach((m) => {
                 if (ws?.readyState === WebSocket.OPEN) {
-                  ws.send(JSON.stringify(m.payload));
+                  // Normalize legacy HTTP-shaped queued payloads to the WS
+                  // contract before flushing.
+                  const p = (m.payload ?? {}) as Record<string, unknown>;
+                  ws.send(
+                    JSON.stringify({
+                      ...p,
+                      type: 'ask',
+                      query: p.query ?? p.user_query ?? '',
+                    }),
+                  );
                   removePendingMessage(m.id).catch(() => {});
                 }
               });
@@ -521,11 +543,25 @@ export default function TutorPage({
 
         ws.onmessage = (event: MessageEvent) => {
           try {
-            const data: TutorApiResponse = JSON.parse(event.data);
+            const data: TutorApiResponse & { type?: string; message?: string } =
+              JSON.parse(event.data);
+            // Backend error frame (e.g. contract mismatch) — surface once,
+            // never append it as a tutor message.
+            if (data.type === 'error') {
+              console.warn('Tutor WS error frame:', data.message);
+              setError(`${t(lang, 'errorTitle')} — ${t(lang, 'errorDetail')}`);
+              setIsLoading(false);
+              return;
+            }
+            const content = typeof data.text === 'string' ? data.text : '';
+            if (!content) {
+              setIsLoading(false);
+              return;
+            }
             const tutorMessage: Message = {
               id: `tutor-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
               role: 'tutor',
-              content: data.text,
+              content,
               timestamp: Date.now(),
               hasHint: !!data.hint,
               hintLevel: data.hint_level,
@@ -629,7 +665,7 @@ export default function TutorPage({
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            user_id: effectiveUserId,
+            user_id: wireUserId,
             node_id: nodeId,
             context: lastTutor.content,
             hint_level: (lastTutor.hintLevel ?? 0) + 1,
@@ -682,7 +718,7 @@ export default function TutorPage({
         step_formula: '',
         step_explanation: lastTutor.feedback ?? '',
         student_level: effectiveClassLevel,
-        user_id: effectiveUserId,
+        user_id: wireUserId,
         language_pref: lang,
         subject: effectiveSubject,
       };
@@ -745,7 +781,7 @@ export default function TutorPage({
 
     const payload = {
       user_query: text,
-      user_id: effectiveUserId,
+      user_id: wireUserId,
       node_id: nodeId,
       mastery,
       subject: effectiveSubject,
@@ -756,7 +792,18 @@ export default function TutorPage({
     // Try WebSocket first (real-time, 3G-friendly)
     if (wsRef.current?.readyState === WebSocket.OPEN) {
       try {
-        wsRef.current.send(JSON.stringify(payload));
+        // WS contract (backend/api/tutor.py tutor_websocket): the message
+        // must carry type:"ask" and the text in `query` — the HTTP-shaped
+        // {user_query} payload without `type` is answered with an error frame.
+        wsRef.current.send(
+          JSON.stringify({
+            type: 'ask',
+            query: text,
+            user_id: wireUserId,
+            node_id: nodeId,
+            mastery,
+          }),
+        );
         return; // onmessage will handle the response
       } catch {
         // Fall through to HTTP

@@ -584,11 +584,15 @@ def _teach_lane(question: str) -> Optional[dict]:
         hits = index.search(" ".join(terms), limit=3) if terms else []
     except Exception:
         return None
-    if hits and float(hits[0].get("score") or 0.0) >= 4.0:
+    if hits and float(hits[0].get("score") or 0.0) >= 6.0:
         node = index.get(hits[0]["node_id"])
         definition = str((node or {}).get("definition") or "").strip()
         if node is not None and definition:
-            if not any(t in definition.lower() for t in terms):
+            # the question's longest distinctive term must appear in the
+            # matched node — topical anchoring, not generic-word noise
+            # ('photosynthesis' must be IN the matched node's own text)
+            longest = max(terms, key=len) if terms else ''
+            if len(longest) < 6 or longest not in definition.lower():
                 return None
             walkthrough = str(node.get("walkthrough") or "").strip()
             if len(walkthrough) > 900:

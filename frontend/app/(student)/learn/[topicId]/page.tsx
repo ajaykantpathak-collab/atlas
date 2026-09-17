@@ -307,12 +307,6 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                 {topic.chapter || subject} · {subject} · Class {topic.class_level}
               </p>
               <div className="flex flex-wrap items-center gap-2 mt-3">
-                {topic.chapter && (
-                  <span className="badge-brand">
-                    <BookMarked className="w-3 h-3" />
-                    Chapter {topic.chapter}
-                  </span>
-                )}
                 {topic.difficulty && (
                   <span className="badge-accent">
                     <TrendingUp className="w-3 h-3" />
@@ -971,7 +965,7 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
               className="glass-card p-5"
             >
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-xl bg-brand-gradient flex items-center justify-center shadow-glow"><Brain className="w-5 h-5 text-white" /></div>
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-gold-300 to-gold-600 flex items-center justify-center shadow-glow"><Brain className="w-5 h-5 text-[#1a1408]" /></div>
                 <div>
                   <p className="text-sm font-semibold text-white">Ask Atlas AI</p>
                   <p className="text-xs text-surface-600">Confused about this topic?</p>

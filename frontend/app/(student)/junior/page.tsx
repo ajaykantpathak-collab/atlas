@@ -6,6 +6,7 @@
 // ──────────────────────────────────────────────
 
 import { useState, useEffect, useRef, useCallback } from 'react'
+import { getAuthToken } from '@/lib/api'
 import { motion, AnimatePresence } from 'framer-motion'
 
 // ═══════════════════════════════════════════════
@@ -132,6 +133,45 @@ const generateQuestion = () => {
     default:  a = Math.floor(Math.random() * 9) + 1; b = Math.floor(Math.random() * 9) + 1; ans = a * b; break
   }
   return { a, b, op, ans, label: `${a} ${op} ${b} = ?` }
+}
+
+// ═══════════════════════════════════════════════
+//  BACKEND ACTIVITIES (real generated, local fallback)
+// ═══════════════════════════════════════════════
+const JR_SUBJECT: Record<string, string> = { maths: 'mathematics', english: 'english', science: 'science', gk: 'gk' }
+const JR_API = '/api/v1/junior'
+
+const jrHeaders = (): Record<string, string> => {
+  const h: Record<string, string> = { 'Content-Type': 'application/json' }
+  const token = getAuthToken()
+  if (token) h.Authorization = `Bearer ${token}`
+  return h
+}
+
+const jrStartLesson = async (subjectKey: string): Promise<{ sessionId: string; label: string } | null> => {
+  try {
+    const res = await fetch(`${JR_API}/lessons/start`, {
+      method: 'POST', headers: jrHeaders(),
+      body: JSON.stringify({ grade: 3, subject: JR_SUBJECT[subjectKey] ?? 'mathematics', preferredLanguage: 'en-hi' }),
+      signal: AbortSignal.timeout(8000),
+    })
+    if (!res.ok) return null
+    const d = await res.json()
+    const t = d.currentStep?.text ?? {}
+    return { sessionId: d.sessionId, label: t['en-hi'] || t.en || t.hi || '' }
+  } catch { return null }
+}
+
+const jrAnswer = async (sessionId: string, stepNumber: number, transcript: string): Promise<any | null> => {
+  try {
+    const res = await fetch(`${JR_API}/lessons/voice-answer`, {
+      method: 'POST', headers: jrHeaders(),
+      body: JSON.stringify({ sessionId, stepNumber, transcript, durationMs: 1000, language: 'en-hi' }),
+      signal: AbortSignal.timeout(8000),
+    })
+    if (!res.ok) return null
+    return await res.json()
+  } catch { return null }
 }
 
 // ═══════════════════════════════════════════════
@@ -431,6 +471,8 @@ const QuizScreen = ({ subject, lang, onBack, onCorrect }: { subject: string; lan
   const [msg, setMsg] = useState('')
   const [isListening, setIsListening] = useState(false)
   const recRef = useRef<any>(null)
+  const srvRef = useRef<{ sessionId: string; stepNumber: number } | null>(null)
+  const pendingNextRef = useRef<string | null>(null)
 
   const gajjuSpeak = useCallback((text: string, after?: () => void) => {
     setGajjuState('speak')
@@ -446,12 +488,50 @@ const QuizScreen = ({ subject, lang, onBack, onCorrect }: { subject: string; lan
     })
   }, [])
 
+  // Real generated activity from the backend (falls back to the local generator)
+  useEffect(() => {
+    let cancelled = false
+    jrStartLesson(subject).then(s => {
+      if (!cancelled && s && s.label && srvRef.current === null) {
+        srvRef.current = { sessionId: s.sessionId, stepNumber: 1 }
+        setQ({ a: 0, b: 0, op: '+', ans: NaN, label: s.label })
+      }
+    })
+    return () => { cancelled = true }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   const flashMsg = useCallback((m: string, dur = 2000) => { setMsg(m); setTimeout(() => setMsg(''), dur) }, [])
 
   const handleAnswer = useCallback((ans: string) => {
     if (fb !== 'idle') return
     const num = parseInt(ans.replace(/[^0-9−-]/g, '').replace('−', '-'))
     if (isNaN(num)) { flashMsg(t('wrong', lang)[0], 2000); return }
+
+    if (srvRef.current) {
+      setFb('thinking')
+      const cur = srvRef.current
+      jrAnswer(cur.sessionId, cur.stepNumber, String(num)).then(resp => {
+        if (!resp) { setFb('idle'); setGajjuState('idle'); return }
+        if (resp.isCorrect) {
+          pendingNextRef.current = resp.nextStep ? (resp.nextStep.text?.['en-hi'] || resp.nextStep.text?.en || '') : null
+          if (pendingNextRef.current) srvRef.current = { sessionId: cur.sessionId, stepNumber: cur.stepNumber + 1 }
+          setFb('correct'); setGajjuState('win'); setShowConfetti(true); setShowWin(true); cheer()
+          const praise = resp.feedbackText?.['en-hi'] || resp.feedbackText?.en || ''
+          const badgeTxt = resp.newBadges?.length ? `  \u{1F949} ${resp.newBadges.map((b: any) => b.name).join(', ')}` : ''
+          const doneTxt = resp.isLessonComplete ? `  \u2B50 ${resp.totalScore}` : ''
+          flashMsg(`${praise}${badgeTxt}${doneTxt}`)
+          gajjuSpeak(praise || 'Shabash!')
+          onCorrect()
+          if (resp.isLessonComplete) { srvRef.current = null; setTimeout(onBack, 2600) }
+        } else {
+          const tip = resp.feedbackText?.['en-hi'] || resp.feedbackText?.hi || t('wrong', lang)[0]
+          setFb('wrong'); setGajjuState('enc'); wrongTone(); flashMsg(tip, 2500); gajjuSpeak(tip)
+          setTimeout(() => { setFb('idle'); setGajjuState('idle') }, 2500)
+        }
+      })
+      return
+    }
 
     if (num === q.ans) {
       setFb('correct')
@@ -501,7 +581,14 @@ const QuizScreen = ({ subject, lang, onBack, onCorrect }: { subject: string; lan
   }, [fb, lang, handleAnswer])
 
   const nextQ = useCallback(() => {
-    setQ(generateQuestion())
+    const nxt = pendingNextRef.current
+    pendingNextRef.current = null
+    if (nxt && srvRef.current) {
+      setQ({ a: 0, b: 0, op: '+', ans: NaN, label: nxt })
+    } else {
+      srvRef.current = null
+      setQ(generateQuestion())
+    }
     setFb('idle')
     setShowConfetti(false)
     setShowWin(false)

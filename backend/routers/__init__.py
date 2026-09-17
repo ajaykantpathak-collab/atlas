@@ -18,6 +18,10 @@ from backend.api.dashboard import router as dashboard_router
 from backend.api.analytics import router as analytics_router
 from backend.api.accessibility import router as accessibility_router
 from backend.api.student_sync import router as student_sync_router
+from backend.api.diagnostics import router as diagnostics_router
+from backend.api.junior import router as junior_router
+from backend.api.exams_adapter import router as exams_adapter_router
+from backend.api.teacher import router as teacher_router
 from backend.services.id_remapping import router as id_remapping_router
 
 __all__ = [
@@ -39,6 +43,10 @@ __all__ = [
     "analytics_router",
     "accessibility_router",
     "student_sync_router",
+    "diagnostics_router",
+    "junior_router",
+    "exams_adapter_router",
+    "teacher_router",
     "id_remapping_router",
     "homework_router",
     "dashboard_router",

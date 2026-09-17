@@ -30,6 +30,8 @@ async def create_tables():
     # teacher_classes, guest_sessions, exam_*, solver_templates)
     import backend.services.auth_service  # noqa: F401
     import backend.services.exam_service  # noqa: F401
+    import backend.services.diagnostic_service  # noqa: F401  (diagnostic_sessions)
+    import backend.api.diagnostics  # noqa: F401  (diagnostic_plans)
 
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)

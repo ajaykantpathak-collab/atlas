@@ -4,9 +4,19 @@ import { progressService } from '@/services/progress.service'
 import { assessmentService } from '@/services/assessment.service'
 import { achievementService } from '@/services/achievement.service'
 import { tutorService } from '@/services/tutor.service'
+import { useAuthStore } from '@/stores/authStore'
 import type { TutorSessionRequest, TutorReplyRequest } from '@/services/tutor.service'
 import type { QuizAnswerRequest } from '@/services/assessment.service'
 import type { ReviewAnswerRequest } from '@/services/progress.service'
+
+// Phase 5.2: every hook below that calls an AUTHED backend route
+// (get_current_user: /api/progress/*, /api/achievements/*, /api/tutor/sessions*,
+// /api/assessment/*, /api/content/recommended) must gate its query on
+// authentication so anonymous visits render honest empty states instead of
+// spraying 401s into the console.
+function useIsAuthenticated() {
+  return useAuthStore((s) => s.isAuthenticated)
+}
 
 // ============ CONTENT HOOKS ============
 
@@ -41,9 +51,12 @@ export function useNodeContent(nodeId: string | null) {
 }
 
 export function useRecommendedLessons() {
+  // /api/content/recommended requires auth (get_current_user) — Phase 5.2.
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['recommended-lessons'],
     queryFn: () => contentService.getRecommendedLessons(),
+    enabled: isAuthenticated,
   })
 }
 
@@ -63,62 +76,80 @@ export function useNodesBySubject(subject: string, classLevel?: number) {
 }
 
 // ============ PROGRESS HOOKS ============
+// All /api/progress/* routes require auth (get_current_user) — gate each on
+// authentication so anonymous visits don't log 401s (Phase 5.2).
 
 export function useDashboard() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['dashboard'],
     queryFn: () => progressService.getDashboard(),
+    enabled: isAuthenticated,
   })
 }
 
 export function useProgressOverview(timeRange?: 'week' | 'month' | 'all') {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['progress-overview', timeRange],
     queryFn: () => progressService.getProgressOverview(timeRange),
+    enabled: isAuthenticated,
   })
 }
 
 export function useSubjectMastery() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['subject-mastery'],
     queryFn: () => progressService.getSubjectMastery(),
+    enabled: isAuthenticated,
   })
 }
 
 export function useRecentActivity(limit?: number) {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['recent-activity', limit],
     queryFn: () => progressService.getRecentActivity(limit),
+    enabled: isAuthenticated,
   })
 }
 
 export function useWeeklyActivity() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['weekly-activity'],
     queryFn: () => progressService.getWeeklyActivity(),
+    enabled: isAuthenticated,
   })
 }
 
 export function useMilestones() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['milestones'],
     queryFn: () => progressService.getMilestones(),
+    enabled: isAuthenticated,
   })
 }
 
 export function useStudyHeatmap() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['study-heatmap'],
     queryFn: () => progressService.getStudyHeatmap(),
+    enabled: isAuthenticated,
   })
 }
 
 // ============ SPACED REPETITION HOOKS ============
 
 export function useReviewQueue() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['review-queue'],
     queryFn: () => progressService.getReviewQueue(),
+    enabled: isAuthenticated,
   })
 }
 
@@ -135,18 +166,22 @@ export function useSubmitReview() {
 }
 
 export function useReviewStats() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['review-stats'],
     queryFn: () => progressService.getRetentionRate(),
+    enabled: isAuthenticated,
   })
 }
 
 // ============ OFFLINE CONTENT HOOKS ============
 
 export function useOfflineContent() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['offline-content'],
     queryFn: () => progressService.getOfflineContent(),
+    enabled: isAuthenticated,
   })
 }
 
@@ -173,10 +208,11 @@ export function useRemoveOfflineContent() {
 // ============ ASSESSMENT HOOKS ============
 
 export function useQuizQuestions(nodeId: string | null, count?: number) {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['quiz-questions', nodeId, count],
     queryFn: () => assessmentService.getQuizQuestions(nodeId!, count),
-    enabled: !!nodeId,
+    enabled: !!nodeId && isAuthenticated,
   })
 }
 
@@ -192,17 +228,23 @@ export function useSubmitQuizAnswer() {
 }
 
 export function useExams(board?: string, classLevel?: number) {
+  // /api/assessment/exams requires auth (backend get_current_user) — do not
+  // fire it for anonymous visitors (Phase 5.2: kills the 401 console noise
+  // on every exam-list load; pages already render their signed-out state).
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['exams', board, classLevel],
     queryFn: () => assessmentService.getExams(board, classLevel),
+    enabled: isAuthenticated,
   })
 }
 
 export function useExam(examId: string | null) {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['exam', examId],
     queryFn: () => assessmentService.getExam(examId!),
-    enabled: !!examId,
+    enabled: !!examId && isAuthenticated,
   })
 }
 
@@ -221,16 +263,20 @@ export function useSubmitExam() {
 // ============ ACHIEVEMENT HOOKS ============
 
 export function useAchievements(filter?: 'all' | 'unlocked' | 'locked') {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['achievements', filter],
     queryFn: () => achievementService.getAchievements(filter),
+    enabled: isAuthenticated,
   })
 }
 
 export function useAchievementStats() {
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['achievement-stats'],
     queryFn: () => achievementService.getStats(),
+    enabled: isAuthenticated,
   })
 }
 
@@ -261,9 +307,12 @@ export function useTutorSession(sessionId: string | null) {
 }
 
 export function useTutorSessions() {
+  // GET /api/tutor/sessions requires auth (get_current_user) — Phase 5.2.
+  const isAuthenticated = useIsAuthenticated()
   return useQuery({
     queryKey: ['tutor-sessions'],
     queryFn: () => tutorService.getSessions(),
+    enabled: isAuthenticated,
   })
 }
 

@@ -410,42 +410,99 @@ def _build_recommendations(mastery_by_topic: list[dict[str, Any]]) -> list[Recom
 
 
 async def _get_service_progress(db: AsyncSession, student_id: str) -> dict[str, Any]:
-    """Safely call ProgressServiceV2 and return a default dict on failure."""
+    """Mastery by topic, computed directly from mastery_records ⋈ knowledge_nodes.
+
+    (ProgressServiceV2 exposes a different call surface and StreakService takes a
+    session factory — the old service calls here always failed to defaults, so
+    every dashboard read zeros. Query the real tables instead.)
+    """
     default: dict[str, Any] = {"overall": 0.0, "by_topic": []}
-    if not _HAS_PROGRESS_SVC:
-        return default
     try:
-        svc = ProgressServiceV2(db)
-        return await svc.get_mastery(student_id)
+        from backend.models.progress import MasteryRecord
+        from backend.models.content import KnowledgeNodeModel
+
+        rows = (
+            await db.execute(
+                select(MasteryRecord, KnowledgeNodeModel)
+                .join(KnowledgeNodeModel, KnowledgeNodeModel.node_id == MasteryRecord.node_id)
+                .where(MasteryRecord.user_id == student_id)
+                .order_by(MasteryRecord.updated_at.desc())
+            )
+        ).all()
+        if not rows:
+            return default
+        by_topic: list[dict[str, Any]] = []
+        for rec, node in rows:
+            by_topic.append(
+                {
+                    "topic_id": node.node_id,
+                    "topic_name": node.label,
+                    "subject_id": (node.subject or "unknown").lower(),
+                    "subject_name": node.subject or "Unknown",
+                    "mastery_score": round(float(rec.mastery_probability or 0.0) * 100, 1),
+                    "attempts": int(rec.attempts or 0),
+                    "last_practiced": rec.last_attempt_at.isoformat() if rec.last_attempt_at else None,
+                }
+            )
+        overall = round(
+            sum(t["mastery_score"] for t in by_topic) / len(by_topic), 1
+        )
+        return {"overall": overall, "by_topic": by_topic}
     except Exception as exc:
-        logger.warning("ProgressServiceV2 error for %s: %s", student_id, exc)
+        logger.warning("mastery query error for %s: %s", student_id, exc)
         return default
 
 
 async def _get_service_xp(db: AsyncSession, student_id: str) -> dict[str, Any]:
-    """Safely call ProgressServiceV2 for XP summary."""
-    default: dict[str, Any] = {"total_xp": 0, "level": 1, "current_level_xp": 0, "xp_to_next_level": 100}
-    if not _HAS_PROGRESS_SVC:
-        return default
+    """XP/level summary straight from the users row (real seeded values)."""
     try:
-        svc = ProgressServiceV2(db)
-        return await svc.get_xp_summary(student_id)
+        from backend.models.user import User as _User
+
+        row = (
+            await db.execute(
+                select(_User.total_xp, _User.current_level).where(_User.id == student_id)
+            )
+        ).first()
+        if row is None:
+            return {"total_xp": 0, "level": 1, "current_level_xp": 0, "xp_to_next_level": 100}
+        total_xp = int(row[0] or 0)
+        level = max(1, int(row[1] or 1))
+        # mirror the 100-XP-per-level ladder the default assumes
+        current_level_xp = total_xp % 100
+        return {
+            "total_xp": total_xp,
+            "level": level,
+            "current_level_xp": current_level_xp,
+            "xp_to_next_level": 100 - current_level_xp,
+        }
     except Exception as exc:
-        logger.warning("ProgressServiceV2 XP error for %s: %s", student_id, exc)
-        return default
+        logger.warning("xp query error for %s: %s", student_id, exc)
+        return {"total_xp": 0, "level": 1, "current_level_xp": 0, "xp_to_next_level": 100}
 
 
 async def _get_service_streak(db: AsyncSession, student_id: str) -> dict[str, Any]:
-    """Safely call StreakService."""
-    default: dict[str, Any] = {"current_streak": 0, "longest_streak": 0, "last_active_date": None, "streak_freeze_available": False}
-    if not _HAS_STREAK_SVC:
-        return default
+    """Streak summary from the users row (streak_days / last_activity_date)."""
     try:
-        svc = StreakService(db)
-        return await svc.get_streak(student_id)
+        from backend.models.user import User as _User
+
+        row = (
+            await db.execute(
+                select(_User.streak_days, _User.last_activity_date).where(_User.id == student_id)
+            )
+        ).first()
+        if row is None:
+            return {"current_streak": 0, "longest_streak": 0, "last_active_date": None, "streak_freeze_available": False}
+        streak_days = int(row[0] or 0)
+        last_active = row[1]
+        return {
+            "current_streak": streak_days,
+            "longest_streak": streak_days,
+            "last_active_date": last_active.isoformat() if last_active else None,
+            "streak_freeze_available": False,
+        }
     except Exception as exc:
-        logger.warning("StreakService error for %s: %s", student_id, exc)
-        return default
+        logger.warning("streak query error for %s: %s", student_id, exc)
+        return {"current_streak": 0, "longest_streak": 0, "last_active_date": None, "streak_freeze_available": False}
 
 
 # ---------------------------------------------------------------------------
@@ -575,10 +632,25 @@ async def get_parent_dashboard(
             detail=f"Parent '{parent_id}' not found",
         )
     if getattr(parent, "role", None) != "parent":
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="User is not a parent account",
-        )
+        # Student-login fallback: resolve the parent linked to this student
+        # (parent_student_links) so a demo student login can view their own
+        # child dashboard via /parent-overview. Keeps the 403 for unrelated ids.
+        linked_parent_id = (
+            await db.execute(
+                select(ParentStudentLinkModel.parent_id)
+                .where(ParentStudentLinkModel.student_id == parent_id)
+                .limit(1)
+            )
+        ).scalar_one_or_none()
+        if linked_parent_id is None:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="User is not a parent account",
+            )
+        parent_id = str(linked_parent_id)
+        parent = (
+            await db.execute(select(UserModel).where(UserModel.id == parent_id))
+        ).scalar_one()
 
     # Linked children via parent_student_links (parent_id → student users.id)
     enroll_rows = (await db.execute(
@@ -610,7 +682,7 @@ async def get_parent_dashboard(
         current_streak = int(streak_info.get("current_streak", 0))
 
         children.append(ChildProgressSummary(
-            student_id=child_row.id,
+            student_id=str(child_row.id),
             student_name=child_row.name,
             grade=str(child_row.class_level) if child_row.class_level else "",
             overall_mastery=overall_mastery,
@@ -618,7 +690,11 @@ async def get_parent_dashboard(
             current_level=current_level,
             current_streak=current_streak,
             weekly_practice_minutes=0,
-            subjects_practiced=[],
+            subjects_practiced=sorted({
+                str(t.get("subject_name", ""))
+                for t in (mastery_data.get("by_topic") or [])
+                if t.get("subject_name")
+            }),
         ))
 
     # ---- Insights ----
@@ -674,7 +750,7 @@ async def get_parent_dashboard(
     alerts.sort(key=lambda a: severity_order.get(a.severity, 3))
 
     return ParentDashboardResponse(
-        parent_id=parent.id,
+        parent_id=str(parent.id),
         parent_name=parent.name,
         children=children,
         insights=insights,

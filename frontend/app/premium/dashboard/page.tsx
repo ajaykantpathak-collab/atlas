@@ -360,7 +360,7 @@ export default function PremiumDashboard() {
                 {[
                   { icon: Brain, label: 'AI Tutor', href: '/tutor', color: 'from-brand-500 to-brand-700', glow: 'rgba(99,102,241,0.2)' },
                   { icon: Target, label: 'Practice', href: '/practice', color: 'from-accent-500 to-accent-700', glow: 'rgba(217,70,239,0.2)' },
-                  { icon: Trophy, label: 'Exam Sim', href: '/exam-simulator', color: 'from-gold-500 to-gold-700', glow: 'rgba(251,191,36,0.2)' },
+                  { icon: Trophy, label: 'Exam', href: '/exam', color: 'from-gold-500 to-gold-700', glow: 'rgba(251,191,36,0.2)' },
                   { icon: BookOpen, label: 'Learn', href: '/learn', color: 'from-mint-500 to-mint-700', glow: 'rgba(52,211,153,0.2)' },
                 ].map((action, i) => (
                   <MagneticButton key={i} strength={0.2}>

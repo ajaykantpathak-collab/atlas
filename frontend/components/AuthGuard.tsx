@@ -37,7 +37,7 @@ export default function AuthGuard({
     if (allowedRoles && user && !allowedRoles.includes(user.role)) {
       // Redirect to user's appropriate dashboard
       const roleRedirects: Record<UserRole, string> = {
-        student: '/socratic-tutor',
+        student: '/tutor',
         teacher: '/teacher-portal',
         parent: '/parent-portal',
         admin: '/admin-dashboard',

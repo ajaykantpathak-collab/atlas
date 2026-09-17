@@ -371,7 +371,7 @@ class TimeAnalysisDetail(BaseModel):
 class ExamStrategyResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
-    student_id: int
+    student_id: Any  # int or UUID — student ids migrated to GUID
     subject: str
     generated_at: str
     overall_grade: str
@@ -390,7 +390,7 @@ class ExamResultResponse(BaseModel):
 
     session_id: int
     session_code: str
-    student_id: int
+    student_id: Any  # int or UUID — student ids migrated to GUID
     subject: str
     exam_type: str
     submitted_at: str
@@ -1383,15 +1383,16 @@ class ExamService:
             "If stuck on a question for >5 minutes, move on. Come back if time permits.",
         ]
 
+        overall_percentage = round(
+            sum(s.obtained_marks for s in section_marks) /
+            max(sum(s.total_marks for s in section_marks), 1) * 100, 2
+        ) if section_marks else 0.0
         return ExamStrategyResponse(
             student_id=student_id,
             subject=subject,
             generated_at=datetime.now(timezone.utc).isoformat(),
-            overall_grade=section_marks[0].percentage if section_marks else 0.0,
-            overall_percentage=round(
-                sum(s.obtained_marks for s in section_marks) /
-                max(sum(s.total_marks for s in section_marks), 1) * 100, 2
-            ),
+            overall_grade=self._isc_grade(overall_percentage),
+            overall_percentage=overall_percentage,
             section_priorities=sec_pri,
             topic_recommendations=topic_recs,
             time_management_tips=time_tips,

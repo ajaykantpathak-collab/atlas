@@ -99,7 +99,24 @@ export default function VideosPage() {
         </motion.div>
 
         {/* Video grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {filtered.length === 0 ? (
+          <div className="glass-card p-12 text-center">
+            <div className="w-16 h-16 rounded-full bg-surface-200/20 flex items-center justify-center mx-auto mb-4">
+              <Search className="w-8 h-8 text-surface-600" />
+            </div>
+            <p className="text-sm font-medium text-white mb-1">No videos match your search</p>
+            <p className="text-xs text-surface-600 mb-5">
+              {search ? `Nothing for "${search}" in ${activeFilter}.` : `Nothing in ${activeFilter} yet.`}
+            </p>
+            <button
+              onClick={() => { setSearch(''); setActiveFilter('All') }}
+              className="btn-primary text-xs"
+            >
+              Clear filters
+            </button>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filtered.map((video, i) => (
             <motion.div
               key={video.id}
@@ -140,7 +157,8 @@ export default function VideosPage() {
               </div>
             </motion.div>
           ))}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   )

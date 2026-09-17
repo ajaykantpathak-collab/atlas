@@ -28,9 +28,9 @@ class GraphService:
         user: Optional[str] = None,
         password: Optional[str] = None,
     ):
-        self._uri = uri or os.getenv("NEO4J_URI", "bolt://localhost:7687")
-        self._user = user or os.getenv("NEO4J_USER", "neo4j")
-        self._password = password or os.getenv("NEO4J_PASSWORD", "dream_neo4j_2024")
+        self._uri = uri or os.getenv("PLATFORM_NEO4J_URI") or os.getenv("NEO4J_URI", "bolt://localhost:7687")
+        self._user = user or os.getenv("PLATFORM_NEO4J_USER") or os.getenv("NEO4J_USER", "neo4j")
+        self._password = password or os.getenv("PLATFORM_NEO4J_PASSWORD") or os.getenv("NEO4J_PASSWORD", "dream_neo4j_2024")
         self._driver = None
 
     async def check_connection(self) -> bool:

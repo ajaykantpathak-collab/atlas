@@ -8,9 +8,9 @@ import enMessages from "@/messages/en.json";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "CBSE AI Tutor — Every answer verified, never guessed | Classes 1–12",
+  title: "Atlas — Every answer verified, never guessed | CBSE · ICSE · ISC",
   description:
-    "India's honest AI tutor for CBSE. Interactive simulations for Classes 1–12, verified step-by-step solutions and per-concept mastery for Classes 6–12 — 945+ sims, 6,400+ concepts, 16,500+ practice questions, 26,000+ board questions.",
+    "Atlas maps your entire syllabus as a living galaxy — interactive simulations, verified step-by-step solutions, per-concept mastery and board-pattern exams for Classes 1–12 across CBSE, ICSE & ISC.",
   manifest: "/manifest.json",
 };
 

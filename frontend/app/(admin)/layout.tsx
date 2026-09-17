@@ -2,18 +2,18 @@
 
 import { motion } from 'framer-motion'
 import {
-  LayoutDashboard, Users, Database, Settings as SettingsIcon,
+  LayoutDashboard,
   Sparkles, Bell, ChevronDown, Search,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
+// Links must be real URL paths — route groups like (admin) never appear in
+// the URL, so '/(admin)/x' hrefs would 404 (same bug class as the parent nav).
+// Only /admin-dashboard exists today; add entries when real pages land.
 const navItems = [
-  { href: '/(admin)/dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/(admin)/users', label: 'Users', icon: Users },
-  { href: '/(admin)/content', label: 'Content', icon: Database },
-  { href: '/(admin)/system', label: 'System', icon: SettingsIcon },
+  { href: '/admin-dashboard', label: 'Dashboard', icon: LayoutDashboard },
 ]
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

@@ -2,25 +2,44 @@
 # Full stack: databases + backend (x2) + frontend + nginx load balancer
 #
 # Usage:
-#   docker compose -f docker-compose.prod.yml up -d
+#   cp .env.production.example .env.production   # fill in secrets
+#   docker compose -f docker-compose.prod.yml --env-file .env.production up -d --build
 #
-# Environment variables (set in .env or .env.production):
-#   POSTGRES_PASSWORD, NEO4J_PASSWORD, CLICKHOUSE_PASSWORD
-#   UVICORN_WORKERS (default: 4)
-#   SENTRY_DSN (optional)
-#   LOG_FORMAT=json (optional, for structured logging)
+# NOTE on env naming: backend config (backend/config.py) uses pydantic
+# env_prefix="PLATFORM_" — service env vars below must carry that prefix.
+# Unprefixed names (NEO4J_URI etc.) are silently ignored → localhost defaults.
 
 services:
-  # ── Databases (reuse from base docker-compose) ──────────────
+  # ── Databases ────────────────────────────────────────────────
   postgres:
     extends:
       file: docker-compose.yml
       service: postgres
 
+  # Defined fully (not `extends`) — extends merges port lists, so the
+  # inherited 7474/7687 bindings would still collide with a local
+  # neo4j-atlas instance. Internal traffic uses bolt://neo4j:7687.
   neo4j:
-    extends:
-      file: docker-compose.yml
-      service: neo4j
+    image: neo4j:5.20-community
+    container_name: dream-neo4j
+    restart: unless-stopped
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-dream_neo4j_2024}
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_memory_heap_max__size: 1G
+    ports:
+      - "7475:7474"
+      - "7688:7687"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "wget -O /dev/null -q http://localhost:7474 || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    networks:
+      - dream-net
 
   redis:
     extends:
@@ -32,6 +51,50 @@ services:
       file: docker-compose.yml
       service: qdrant
 
+  # ── One-shot DB init (creates tables + seeds) ────────────────
+  db-init:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: dream-db-init
+    environment: &backend-env
+      PLATFORM_ENV: production
+      PLATFORM_JWT_SECRET: ${PLATFORM_JWT_SECRET:?PLATFORM_JWT_SECRET must be set}
+      PLATFORM_DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
+      DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
+      PLATFORM_NEO4J_URI: bolt://neo4j:7687
+      PLATFORM_NEO4J_USER: neo4j
+      PLATFORM_NEO4J_PASSWORD: ${NEO4J_PASSWORD:-dream_neo4j_2024}
+      PLATFORM_REDIS_URL: redis://redis:6379/0
+      PLATFORM_QDRANT_URL: http://qdrant:6333
+      PLATFORM_CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost}
+      INTERACTIONS_PATH: /app/cbse_data/interactions.json
+      ORGANIZED_CONTENT_DIR: /app/organized
+      ENRICHMENT_JSONL: /app/parsed_output/enrichment.jsonl
+      # CISCE content library + STEM knowledge graph (host corpora, read-only)
+      CISCE_CONTENT_ROOT: /app/cisce
+      CISCE_GRAPH_DIR: /app/cisce_stem
+      # Non-prefixed duplicates for services that read bare env names
+      # (graph_service reads NEO4J_URI, llm clients read FREELLM_*).
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-dream_neo4j_2024}
+      REDIS_URL: redis://redis:6379/0
+      # LLM client → Gemini's OpenAI-compatible endpoint (tutor fallback
+      # layer + hint generation). FREELLM_API_KEY falls back to GEMINI_API_KEY.
+      FREELLM_API_URL: ${FREELLM_API_URL:-https://generativelanguage.googleapis.com/v1beta/openai}
+      FREELLM_API_KEY: ${FREELLM_API_KEY:-${GEMINI_API_KEY:-}}
+      FREELLM_MODEL: ${FREELLM_MODEL:-gemini-2.5-flash}
+    volumes:
+      - D:/cisce:/app/cisce:ro
+      - D:/_KEEP/atomic_graph/cisce_stem:/app/cisce_stem:ro
+    command: python -m backend.init_db
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - dream-net
+
   # ── Backend instance 1 ──────────────────────────────────────
   backend-1:
     build:
@@ -39,13 +102,13 @@ services:
       dockerfile: Dockerfile.backend
     container_name: dream-backend-1
     restart: unless-stopped
+    volumes:
+      - ./organized:/app/organized:ro
+      - ./parsed_output/enrichment.jsonl:/app/parsed_output/enrichment.jsonl:ro
+      - ./content:/app/content:ro
+      - cbse_data:/app/cbse_data
     environment:
-      DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
-      NEO4J_URI: bolt://neo4j:7687
-      NEO4J_USER: neo4j
-      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-dream_neo4j_2024}
-      REDIS_URL: redis://redis:6379/0
-      QDRANT_URL: http://qdrant:6333
+      <<: *backend-env
       UVICORN_WORKERS: ${UVICORN_WORKERS:-4}
       SENTRY_DSN: ${SENTRY_DSN:-}
       LOG_FORMAT: ${LOG_FORMAT:-text}
@@ -53,6 +116,8 @@ services:
       SOLVER_TIMEOUT_S: ${SOLVER_TIMEOUT_S:-12}
       FREE_TEXT_TIMEOUT_S: ${FREE_TEXT_TIMEOUT_S:-10}
       IDENTIFY_TIMEOUT_S: ${IDENTIFY_TIMEOUT_S:-15}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
     depends_on:
       postgres:
         condition: service_healthy
@@ -60,6 +125,8 @@ services:
         condition: service_healthy
       neo4j:
         condition: service_healthy
+      db-init:
+        condition: service_completed_successfully
     ports:
       - "8001:8000"
     networks:
@@ -72,13 +139,13 @@ services:
       dockerfile: Dockerfile.backend
     container_name: dream-backend-2
     restart: unless-stopped
+    volumes:
+      - ./organized:/app/organized:ro
+      - ./parsed_output/enrichment.jsonl:/app/parsed_output/enrichment.jsonl:ro
+      - ./content:/app/content:ro
+      - cbse_data:/app/cbse_data
     environment:
-      DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
-      NEO4J_URI: bolt://neo4j:7687
-      NEO4J_USER: neo4j
-      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-dream_neo4j_2024}
-      REDIS_URL: redis://redis:6379/0
-      QDRANT_URL: http://qdrant:6333
+      <<: *backend-env
       UVICORN_WORKERS: ${UVICORN_WORKERS:-4}
       SENTRY_DSN: ${SENTRY_DSN:-}
       LOG_FORMAT: ${LOG_FORMAT:-text}
@@ -86,6 +153,8 @@ services:
       SOLVER_TIMEOUT_S: ${SOLVER_TIMEOUT_S:-12}
       FREE_TEXT_TIMEOUT_S: ${FREE_TEXT_TIMEOUT_S:-10}
       IDENTIFY_TIMEOUT_S: ${IDENTIFY_TIMEOUT_S:-15}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
     depends_on:
       postgres:
         condition: service_healthy
@@ -93,6 +162,8 @@ services:
         condition: service_healthy
       neo4j:
         condition: service_healthy
+      db-init:
+        condition: service_completed_successfully
     ports:
       - "8002:8000"
     networks:
@@ -103,16 +174,24 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.frontend
+      args:
+        # browser-visible API origin — the public URL nginx listens on
+        NEXT_PUBLIC_API_URL: ${PUBLIC_API_URL:-http://localhost}
     container_name: dream-frontend
     restart: unless-stopped
     environment:
-      NEXT_PUBLIC_API_URL: http://localhost:8000
+      # server-side /api/* rewrites target the backend pool, not localhost
+      INTERNAL_API_URL: http://backend-1:8000
       NODE_ENV: production
+    volumes:
+      # 4.8GB of doodle-card art — mounted at runtime, not baked into the image
+      - ./frontend/public/doodle_cards:/app/public/doodle_cards:ro
     depends_on:
       backend-1:
         condition: service_healthy
     ports:
-      - "3000:3000"
+      # Host 3001 — a local next-dev server commonly holds 3000.
+      - "3001:3000"
     networks:
       - dream-net
 
@@ -145,3 +224,4 @@ volumes:
   neo4j_logs:
   redis_data:
   qdrant_data:
+  cbse_data:

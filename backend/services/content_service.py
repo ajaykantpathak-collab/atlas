@@ -508,10 +508,25 @@ class ContentService:
 
     @staticmethod
     async def get_recommended_lessons(db, user_id: str) -> list[dict[str, Any]]:
-        """Recommend up to 20 nodes from the student's class level."""
+        """Recommend up to 20 OFFICIAL enhanced-nodes corpus nodes.
+
+        Zero-wrong guarantee: every returned node_id comes from the
+        official enhanced-nodes corpus index (the same corpus that backs
+        /learn/{id} enrichment), so dashboard "Continue Learning" cards
+        can never link a legacy/unknown id that 404s.
+
+        Uses id_remapping.OfficialIndex, which STREAMS the corpus index
+        (low, bounded memory) instead of enhanced_nodes.load_index()'s
+        full in-memory parse — safe to call inside a request.
+        Selection prefers the student's class, excludes already-mastered
+        nodes, and takes syllabus-earliest (chapter, node_num) nodes
+        first, round-robined across subjects.
+        """
         from sqlalchemy import select
-        from backend.models.content import KnowledgeNodeModel
+        from backend.models.progress import MasteryRecord
         from backend.models.user import User
+        from backend.services.enhanced_nodes import _derive_title
+        from backend.services.id_remapping import get_index as get_official_index
 
         class_level: Optional[int] = None
         try:
@@ -523,25 +538,75 @@ class ContentService:
         except Exception:
             pass
 
-        query = select(KnowledgeNodeModel)
-        if class_level is not None:
-            query = query.where(KnowledgeNodeModel.class_level == class_level)
-        query = query.order_by(KnowledgeNodeModel.subject, KnowledgeNodeModel.node_id).limit(20)
-        nodes = (await db.execute(query)).scalars().all()
+        try:
+            index = get_official_index()
+        except Exception as exc:
+            logger.warning("official corpus index unavailable: %s", exc)
+            return []
+        if not index.nodes:
+            return []
 
-        return [
-            {
-                "node_id": n.node_id,
-                "subject": n.subject,
-                "topic": n.label,
-                "chapter": n.chapter or "",
-                "progress": int((n.mastery_probability or 0.0) * 100),
-                "difficulty": n.difficulty or "medium",
-                "estimated_time": n.estimated_time or 30,
-                "icon": "book",
-            }
-            for n in nodes
-        ]
+        # Nodes the student has already mastered are excluded.
+        mastered: set[str] = set()
+        try:
+            rows = (await db.execute(
+                select(MasteryRecord.node_id).where(
+                    MasteryRecord.user_id == user_id,
+                    MasteryRecord.mastery_probability >= 0.8,
+                )
+            )).all()
+            mastered = {r[0] for r in rows}
+        except Exception:
+            pass  # mastery table unavailable -> treat everything as unmastered
+
+        # Student's class if the corpus covers it, else the corpus' top class.
+        classes = sorted(index.by_class)
+        if class_level in classes:
+            cls = class_level
+        elif classes:
+            cls = classes[-1]
+        else:
+            return []
+
+        # Per-subject queues ordered by syllabus position: front-of-syllabus
+        # unmastered nodes are the highest-priority recommendations.
+        queues: dict[str, list[dict]] = {}
+        for node in index.by_class.get(cls, []):
+            if node["node_id"] in mastered:
+                continue
+            queues.setdefault(str(node["subject"]), []).append(node)
+        for queue in queues.values():
+            queue.sort(key=lambda n: (n["chapter"], n["node_num"], n["node_id"]))
+
+        picked: list[dict[str, Any]] = []
+        subject_names = sorted(queues)
+        cursors = {s: 0 for s in subject_names}
+        while len(picked) < 20:
+            added = False
+            for subj in subject_names:
+                queue = queues[subj]
+                if cursors[subj] >= len(queue):
+                    continue
+                node = queue[cursors[subj]]
+                cursors[subj] += 1
+                picked.append(
+                    {
+                        "node_id": node["node_id"],
+                        "subject": node["subject"],
+                        "topic": _derive_title(node),
+                        "chapter": f"Chapter {node['chapter']}",
+                        "progress": 0,
+                        "difficulty": "medium",
+                        "estimated_time": 30,
+                        "icon": "book",
+                    }
+                )
+                added = True
+                if len(picked) >= 20:
+                    break
+            if not added:
+                break
+        return picked
 
     @staticmethod
     async def search_nodes(db, q: str, limit: int = 50) -> list[Any]:

@@ -40,7 +40,15 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from database import Student, Attempt, Mastery, PracticeSession
 from services.practice_service import PracticeService
 from services.streak_service import StreakService
-from services.mastery_sync import MasterySync
+try:
+    from services.mastery_sync import MasterySync
+except ImportError:
+    # MasterySync no longer exists; the module's sync service class is
+    # IRTSyncService. Only used as an optional ctor type hint below.
+    try:
+        from services.mastery_sync import IRTSyncService as MasterySync  # type: ignore
+    except ImportError:  # fully offline fallback — hint only
+        MasterySync = None  # type: ignore
 
 logger = logging.getLogger(__name__)
 

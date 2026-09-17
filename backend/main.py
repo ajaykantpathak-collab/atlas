@@ -29,6 +29,10 @@ from backend.routers import (
     id_remapping_router,
     homework_router,
     dashboard_router,
+    diagnostics_router,
+    teacher_router,
+    junior_router,
+    exams_adapter_router,
 )
 
 settings = get_settings()
@@ -104,6 +108,10 @@ app.include_router(student_sync_router)
 app.include_router(id_remapping_router)
 app.include_router(homework_router)
 app.include_router(dashboard_router)
+app.include_router(diagnostics_router)
+app.include_router(junior_router)
+app.include_router(exams_adapter_router)
+app.include_router(teacher_router)
 
 
 @app.get("/health")

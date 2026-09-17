@@ -11,6 +11,8 @@ pedagogically structured. The LLM is only used for routing ambiguity and
 as a last-resort fallback, never for generating the core teaching content.
 """
 
+import json
+import logging
 import random
 import re
 from datetime import datetime, timezone
@@ -49,6 +51,44 @@ from backend.ai.socratic_engine import (
 
 # In-memory session metadata store
 _SESSION_METADATA: dict[str, dict[str, Any]] = {}
+
+# Tutor session meta is also mirrored to Redis (key tutor:meta:{sid}) so a
+# request landing on ANY worker/replica can hydrate state — the local dict
+# alone is per-process and breaks under gunicorn's 4 workers.
+_META_TTL_S = 60 * 60 * 24  # 24h
+_META_KEY = "tutor:meta:"
+
+
+async def _meta_get(session_id: str) -> Optional[dict]:
+    """Local dict → Redis hydrate → None. Keeps in-memory speed when the
+    same worker serves consecutive messages."""
+    meta = _SESSION_METADATA.get(session_id)
+    if meta is not None:
+        return meta
+    try:
+        from backend.services.redis_service import get_redis
+        r = await get_redis()
+        if r:
+            raw = await r.get(_META_KEY + session_id)
+            if raw:
+                meta = json.loads(raw)
+                _SESSION_METADATA[session_id] = meta
+                return meta
+    except Exception:
+        pass
+    return None
+
+
+async def _meta_put(session_id: str, meta: dict) -> None:
+    """Write-through: local dict + Redis (best-effort)."""
+    _SESSION_METADATA[session_id] = meta
+    try:
+        from backend.services.redis_service import get_redis
+        r = await get_redis()
+        if r:
+            await r.set(_META_KEY + session_id, json.dumps(meta, default=str), ex=_META_TTL_S)
+    except Exception:
+        pass
 
 
 # Multi-step detection keywords — questions with these likely need decomposition
@@ -418,7 +458,7 @@ class TutorService:
         await db.refresh(session)
 
         session_id = str(session.id)
-        _SESSION_METADATA[session_id] = meta
+        await _meta_put(session_id, meta)
 
         return {
             "session_id": session_id,
@@ -442,7 +482,7 @@ class TutorService:
         4. Keyword/TF-IDF routing across all nodes
         5. LLM fallback (constrained to enrichment content)
         """
-        meta = _SESSION_METADATA.get(session_id)
+        meta = await _meta_get(session_id)
         if meta is None:
             raise ValueError(f"Tutor session '{session_id}' not found")
 
@@ -1479,7 +1519,26 @@ class TutorService:
                 if glossary_result:
                     content = notes_service._clean_internal_ids(glossary_result)
                     return await TutorService._build_reply(session_id, meta, content, "vocabulary", db)
-                # Fall back to enrichment definition
+                # Term isn't in this node's glossary. If the term is also
+                # unrelated to the node (no lexical overlap with title/
+                # definition), dumping the node definition would be wrong —
+                # e.g. "what is the capital of France" must NOT answer with
+                # the chromosome section. Try the LLM; it answers from
+                # enrichment context or honestly declines off-topic asks.
+                if not TutorService._term_in_node(term, enrichment):
+                    llm_reply = await TutorService._try_llm_reply(
+                        session_id, meta, enrichment, term, db
+                    )
+                    if llm_reply:
+                        return llm_reply
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        f"I couldn't find '{term}' in this topic's glossary. "
+                        f"Try asking about **{enrichment.title}** or say "
+                        "'explain' / 'test me'.",
+                        "vocabulary", db,
+                    )
+                # Related term, glossary miss → serve the node definition.
                 content = enrichment.definition or f"I could not find '{term}' in the glossary."
                 return await TutorService._build_reply(session_id, meta, content, "vocabulary", db)
             # Handle notes-based triggers — fetch from dedicated note files
@@ -1646,27 +1705,13 @@ class TutorService:
         except Exception:
             pass  # Fall through to LLM
 
-        # Layer 5: LLM fallback — DISABLED for now
-        # The app works entirely on pre-written enrichment content.
-        # LLM can be re-enabled later by uncommenting the block below.
-        # if enrichment:
-        #     llm = get_llm_client()
-        #     context_parts = []
-        #     if enrichment.definition:
-        #         context_parts.append(f"Definition: {enrichment.definition}")
-        #     if enrichment.text_walkthrough:
-        #         context_parts.append(f"Walkthrough: {enrichment.text_walkthrough}")
-        #     if enrichment.eli5:
-        #         context_parts.append(f"Simple explanation: {enrichment.eli5}")
-        #     context = "\n\n".join(context_parts)
-        #     llm_reply = await llm.answer_with_context(
-        #         question=message,
-        #         enrichment_content=context,
-        #         scope_boundary=enrichment.scope_boundary or "",
-        #     )
-        #     return await TutorService._build_reply(
-        #         session_id, meta, llm_reply, "llm_fallback", db
-        #     )
+        # Layer 5: LLM fallback — answers the student's actual question
+        # using only the node's enrichment content as grounding.
+        llm_reply = await TutorService._try_llm_reply(
+            session_id, meta, enrichment, message, db
+        )
+        if llm_reply:
+            return llm_reply
 
         # Absolute fallback
         reply_content = (
@@ -1677,6 +1722,61 @@ class TutorService:
         return await TutorService._build_reply(
             session_id, meta, reply_content, "fallback", db
         )
+
+    # ------------------------------------------------------------------ #
+    # LLM helpers
+    # ------------------------------------------------------------------ #
+    @staticmethod
+    async def _try_llm_reply(
+        session_id: str, meta: dict,
+        enrichment: Optional[EnrichmentContent],
+        message: str, db: AsyncSession,
+    ) -> Optional[dict]:
+        """Layer-5 LLM reply grounded in the node's enrichment content.
+
+        Returns a built reply dict on success, None when the LLM is
+        unavailable or returns an error marker — caller falls back."""
+        if not enrichment:
+            return None
+        try:
+            llm = get_llm_client()
+            context_parts = []
+            if enrichment.definition:
+                context_parts.append(f"Definition: {enrichment.definition}")
+            if enrichment.text_walkthrough:
+                context_parts.append(f"Walkthrough: {enrichment.text_walkthrough}")
+            if enrichment.eli5:
+                context_parts.append(f"Simple explanation: {enrichment.eli5}")
+            context = "\n\n".join(context_parts)
+            llm_reply = await llm.answer_with_context(
+                question=message,
+                enrichment_content=context,
+                scope_boundary=enrichment.scope_boundary or "",
+            )
+            if llm_reply and not llm_reply.startswith("[LLM"):
+                return await TutorService._build_reply(
+                    session_id, meta, llm_reply, "llm_fallback", db
+                )
+        except Exception as exc:
+            logging.getLogger(__name__).warning("LLM tutor fallback failed: %s", exc)
+        return None
+
+    @staticmethod
+    def _term_in_node(term: str, enrichment: EnrichmentContent) -> bool:
+        """True when any content word of `term` appears in the node's
+        title/definition — guards 'what is X' from serving this node's
+        definition for an unrelated X."""
+        stop = {"the", "a", "an", "of", "is", "in", "on", "for", "to",
+                "and", "or", "do", "does", "what", "why", "how"}
+        words = [w for w in re.sub(r"[^a-z0-9 ]", " ", term.lower()).split()
+                 if w not in stop and len(w) > 2]
+        if not words:
+            return True  # nothing to match on — don't punish
+        haystack = " ".join([
+            enrichment.title or "",
+            enrichment.definition or "",
+        ]).lower()
+        return any(w in haystack for w in words)
 
     # ------------------------------------------------------------------ #
     # Quick question — no session required
@@ -3585,6 +3685,10 @@ class TutorService:
                 "drill_total": 0,
             }
 
+        # Persist mutated meta so other workers/replicas can continue
+        # this session (messages, phase, diagnostic/drill state).
+        await _meta_put(session_id, meta)
+
         return {
             "session_id": session_id,
             "reply": {
@@ -3604,7 +3708,7 @@ class TutorService:
     @staticmethod
     async def get_session(db: AsyncSession, session_id: str, user_id: str = "") -> dict:
         """Return the full session state including message history."""
-        meta = _SESSION_METADATA.get(session_id)
+        meta = await _meta_get(session_id)
         if meta is None:
             raise ValueError(f"Tutor session '{session_id}' not found")
 
@@ -3641,7 +3745,7 @@ class TutorService:
         out = []
         for session in sessions:
             sid = str(session.id)
-            meta = _SESSION_METADATA.get(sid, {})
+            meta = await _meta_get(sid) or {}
             out.append({
                 "session_id": sid,
                 "node_id": meta.get("node_id"),
@@ -3657,7 +3761,7 @@ class TutorService:
     @staticmethod
     async def end_session(db: AsyncSession, session_id: str, user_id: str = "") -> dict:
         """End a tutor session."""
-        meta = _SESSION_METADATA.get(session_id)
+        meta = await _meta_get(session_id)
         if meta is None:
             raise ValueError(f"Tutor session '{session_id}' not found")
 
@@ -3691,7 +3795,7 @@ class TutorService:
     @staticmethod
     async def get_hint(db: AsyncSession, session_id: str, user_id: str = "") -> dict:
         """Generate a hint for the current session."""
-        meta = _SESSION_METADATA.get(session_id)
+        meta = await _meta_get(session_id)
         if meta is None:
             raise ValueError(f"Tutor session '{session_id}' not found")
 
@@ -3719,5 +3823,6 @@ class TutorService:
             "type": "hint",
             "timestamp": datetime.now(timezone.utc).isoformat(),
         })
+        await _meta_put(session_id, meta)
 
         return {"session_id": session_id, "hint": hint}

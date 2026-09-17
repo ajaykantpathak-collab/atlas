@@ -343,8 +343,20 @@ function ToolView({
           <p className="text-white/80">{error}</p>
         </div>
       ) : items.length === 0 ? (
-        <div className="glass-card rounded-2xl p-8 text-center">
-          <p className="text-white/60">No items found for this filter.</p>
+        <div className="glass-card rounded-2xl p-10 text-center">
+          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-white/5 border border-white/10">
+            <Search className="h-6 w-6 text-white/40" />
+          </div>
+          <h3 className="font-display text-base font-semibold text-white mb-2">
+            No {meta.name.toLowerCase()} for this class yet
+          </h3>
+          <p className="mx-auto max-w-sm text-sm text-white/60 mb-5">
+            Try another class or subject — or sharpen with practice while the library grows.
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <a href="/practice" className="btn-primary text-sm">Practice instead</a>
+            <a href="/learn" className="btn-secondary text-sm">Browse lessons</a>
+          </div>
         </div>
       ) : (
         <ToolContent kind={meta.id} items={items} />

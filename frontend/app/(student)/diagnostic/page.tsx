@@ -1502,7 +1502,11 @@ export default function DiagnosticPage() {
   const startDiagnostic = useStartDiagnostic();
   const submitDiagnostic = useSubmitDiagnostic(sessionId);
   const { data: fetchedResult } = useDiagnosticResult(sessionId, { enabled: !!sessionId && phase === "results" });
-  const { data: fetchedRemediation } = useRemediationPath(sessionId, { enabled: !!sessionId && phase === "remediation" });
+  // Fetch the remediation path as soon as results are shown (not only when
+  // the remediation phase starts) so the API-backed plan is ready by the
+  // time the user clicks "Start Remediation" — otherwise the local template
+  // always wins the race and the server path is never displayed.
+  const { data: fetchedRemediation } = useRemediationPath(sessionId, { enabled: !!sessionId && (phase === "remediation" || phase === "results") });
 
   // Use fetched result when available
   useEffect(() => {

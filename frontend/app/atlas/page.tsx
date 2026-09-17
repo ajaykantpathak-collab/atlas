@@ -783,7 +783,7 @@ export default function AtlasLanding() {
             <span className="font-display text-xl font-bold tracking-tight">Atlas</span>
           </div>
           <div className="flex items-center gap-6">
-            <Link href="/login" className="text-sm text-surface-400 hover:text-white transition-colors hidden sm:block premium-link">
+            <Link href="/login" className="text-sm text-surface-200 hover:text-gold-300 transition-colors hidden sm:block premium-link">
               Log in
             </Link>
             <Link
@@ -828,7 +828,7 @@ export default function AtlasLanding() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, ease, delay: 0.5 }}
-                className="mt-5 text-lg text-surface-400 max-w-md leading-relaxed"
+                className="mt-5 text-lg text-surface-300 max-w-md leading-relaxed"
               >
                 Atlas maps your entire syllabus, finds your gaps in 3 minutes,
                 and tells you exactly what to learn next.
@@ -852,7 +852,7 @@ export default function AtlasLanding() {
                 />
                 <MagneticButton
                   type="submit"
-                  className="group flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-brand-500 text-white font-display font-semibold text-sm shadow-lg shadow-gold-500/20 hover:shadow-gold-500/40 transition-all duration-200 whitespace-nowrap cursor-pointer"
+                  className="group flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-gold-300 via-gold-400 to-gold-600 text-[#1a1408] font-display font-semibold text-sm shadow-lg shadow-gold-500/30 hover:shadow-gold-500/40 transition-all duration-200 whitespace-nowrap cursor-pointer"
                   strength={0.2}
                 >
                   Get early access

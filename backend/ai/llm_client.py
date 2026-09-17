@@ -16,6 +16,7 @@ It is NEVER used for math computation — SymPy handles all math.
 """
 
 import logging
+import os
 import re
 from typing import Optional
 
@@ -25,6 +26,11 @@ from backend.config import get_settings
 
 logger = logging.getLogger(__name__)
 settings = get_settings()
+
+# Process-wide round-robin counter shared by all LLMClient instances so
+# comma-listed FREELLM_MODEL pools rotate evenly app-wide.
+import itertools as _itertools
+_MODEL_RR = _itertools.count()
 
 
 def _strip_thinking(text: str) -> str:
@@ -39,10 +45,15 @@ def _strip_thinking(text: str) -> str:
     if not text:
         return text
 
-    # Pattern 1: <think>...</think> tags
-    think_match = re.search(r'</think>\s*(.*)', text, re.DOTALL)
+    # Pattern 1: <think>/<thought> tags (Qwen3, GPT-OSS, Gemma-4 all emit
+    # reasoning under one of these tags)
+    think_match = re.search(r'</(?:think|thought)>\s*(.*)', text, re.DOTALL)
     if think_match:
         return think_match.group(1).strip()
+    # Unclosed <thought> block at the top (model rambled past max_tokens)
+    # — the reply would be pure reasoning; drop it entirely.
+    if re.match(r'^\s*<(?:think|thought)>', text):
+        return ""
 
     # Pattern 2: "Thinking Process:" or "Here's a thinking process:" header
     # The actual answer usually comes after the thinking section
@@ -104,10 +115,33 @@ class LLMClient:
     just needs one endpoint and one key.
     """
 
-    def __init__(self, timeout: float = 60.0):
-        self.base_url = settings.FREELLM_API_URL or "http://localhost:3001/v1"
-        self.api_key = settings.FREELLM_API_KEY or "sk-free"
-        self.model = settings.FREELLM_MODEL or "llama-3.3-70b-versatile"
+    def __init__(self, timeout: float = 40.0):
+        # Settings uses env_prefix="PLATFORM_" and has no FREELLM_* fields —
+        # the settings properties return "" unconditionally. Read the real
+        # env vars directly; settings kept only as a legacy fallback.
+        self.base_url = (
+            os.environ.get("FREELLM_API_URL")
+            or os.environ.get("LLM_API_URL")
+            or settings.FREELLM_API_URL
+            or "http://localhost:3001/v1"
+        )
+        self.api_key = (
+            os.environ.get("FREELLM_API_KEY")
+            or os.environ.get("LLM_API_KEY")
+            or settings.FREELLM_API_KEY
+            or "sk-free"
+        )
+        self.model = (
+            os.environ.get("FREELLM_MODEL")
+            or os.environ.get("LLM_MODEL")
+            or settings.FREELLM_MODEL
+            or "llama-3.3-70b-versatile"
+        )
+        # Round-robin model pool: FREELLM_MODEL may be a comma list
+        # (e.g. "gemma-4-31b-it,gemma-4-26b-a4b-it"). The shared process-wide
+        # counter rotates picks across ALL client instances so load spreads
+        # evenly instead of every instance starting at index 0.
+        self._models = [m.strip() for m in self.model.split(",") if m.strip()] or ["llama-3.3-70b-versatile"]
         self.timeout = timeout
 
     async def chat(
@@ -128,14 +162,22 @@ class LLMClient:
             "Content-Type": "application/json",
         }
         payload = {
-            "model": self.model,
+            "model": "",
             "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens,
         }
 
-        max_retries = 3
-        for attempt in range(max_retries):
+        # Round-robin + failover: on any per-model failure, advance to the
+        # next model in the pool so one degraded model never breaks the app.
+        # 429s get bounded exponential backoff before moving on.
+        pool = len(self._models)
+        tries_left = max(pool, 3)
+        attempt = 0
+        while tries_left > 0:
+            model = self._models[next(_MODEL_RR) % pool]
+            payload["model"] = model
+            tries_left -= 1
             async with httpx.AsyncClient(timeout=self.timeout) as client:
                 try:
                     response = await client.post(
@@ -144,34 +186,38 @@ class LLMClient:
                         json=payload,
                     )
 
-                    # Retry on 429 (rate limited) with exponential backoff
-                    if response.status_code == 429 and attempt < max_retries - 1:
-                        wait = 2 ** attempt  # 1s, 2s, 4s
-                        logger.info(f"LLM rate-limited (429), retrying in {wait}s (attempt {attempt+1}/{max_retries})")
+                    # Retry same model on 429 (rate limited) with backoff
+                    if response.status_code == 429 and attempt < 2:
+                        attempt += 1
+                        tries_left += 1  # don't burn a model switch on rate limit
+                        wait = 2 ** attempt
+                        logger.info(f"LLM {model} rate-limited (429), retrying in {wait}s")
                         await asyncio.sleep(wait)
                         continue
 
                     response.raise_for_status()
                     data = response.json()
                     content = data["choices"][0]["message"]["content"].strip()
-                    return _strip_thinking(content)
+                    answer = _strip_thinking(content)
+                    if answer:
+                        return answer
+                    # Thinking consumed the whole budget — nothing usable
+                    logger.warning(f"LLM {model} returned only reasoning text")
+                    continue
                 except httpx.TimeoutException:
-                    logger.warning("LLM timeout — falling back to pre-written content")
-                    return "[LLM timeout — falling back to pre-written content]"
+                    logger.warning(f"LLM {model} timeout — trying next model")
+                    continue
                 except httpx.HTTPStatusError as e:
-                    if e.response.status_code == 429:
-                        logger.warning(f"LLM rate-limited after {max_retries} retries")
-                        return "[LLM rate-limited — falling back to pre-written content]"
-                    logger.warning(f"LLM HTTP error: {e}")
-                    return "[LLM error — falling back to pre-written content]"
+                    logger.warning(f"LLM {model} HTTP {e.response.status_code} — trying next model")
+                    continue
                 except httpx.HTTPError as e:
-                    logger.warning(f"LLM HTTP error: {e}")
-                    return "[LLM error — falling back to pre-written content]"
+                    logger.warning(f"LLM {model} HTTP error: {e} — trying next model")
+                    continue
                 except Exception as e:
-                    logger.warning(f"LLM unavailable: {e}")
-                    return "[LLM unavailable — using pre-written content]"
+                    logger.warning(f"LLM {model} unavailable: {e} — trying next model")
+                    continue
 
-        return "[LLM rate-limited — falling back to pre-written content]"
+        return "[LLM unavailable — using pre-written content]"
 
     async def route_question(
         self,
@@ -239,7 +285,7 @@ class LLMClient:
             },
         ]
 
-        return await self.chat(messages, temperature=0.0, max_tokens=400)
+        return await self.chat(messages, temperature=0.0, max_tokens=1200)
 
     async def answer_conceptual(
         self,

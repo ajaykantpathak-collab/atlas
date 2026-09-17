@@ -132,7 +132,7 @@ function NodeField({ mastery, classLevel, onHover }: {
                 <meshBasicMaterial toneMapped={false} />
             </instancedMesh>
             <points ref={points} geometry={pGeo}>
-                <pointsMaterial map={glowTexture()} size={10} vertexColors sizeAttenuation
+                <pointsMaterial map={glowTexture()} size={11.5} vertexColors sizeAttenuation
                     transparent opacity={1} depthWrite={false} blending={THREE.AdditiveBlending}
                     toneMapped={false} />
             </points>
@@ -170,11 +170,18 @@ function NebulaDust() {
             {SECTORS.map((s) => {
                 const d = 55 + Math.sqrt(s.n) * 9
                 return (
-                    <sprite key={s.subj} position={[s.pos[0], s.pos[1] - 10, s.pos[2]]} scale={[d, d * 0.7, 1]}>
-                        <spriteMaterial map={glowTexture()} color={subjColor(s.subj)} transparent
-                            opacity={0.032} blending={THREE.AdditiveBlending} depthWrite={false}
-                            toneMapped={false} />
-                    </sprite>
+                    <group key={s.subj} position={[s.pos[0], s.pos[1] - 10, s.pos[2]]}>
+                        <sprite scale={[d * 1.5, d * 1.05, 1]}>
+                            <spriteMaterial map={glowTexture()} color='#2a1e5c' transparent
+                                opacity={0.05} blending={THREE.AdditiveBlending} depthWrite={false}
+                                toneMapped={false} />
+                        </sprite>
+                        <sprite scale={[d * 0.85, d * 0.6, 1]}>
+                            <spriteMaterial map={glowTexture()} color={subjColor(s.subj)} transparent
+                                opacity={0.05} blending={THREE.AdditiveBlending} depthWrite={false}
+                                toneMapped={false} />
+                        </sprite>
+                    </group>
                 )
             })}
         </group>
@@ -307,7 +314,7 @@ export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
             <Canvas camera={{ position: centroid, fov: 55 }} dpr={[1, 1.5]}>
                 <color attach="background" args={['#020617']} />
                 <ambientLight intensity={0.4} />
-                <Stars radius={400} depth={60} count={3000} factor={4} fade speed={0.5} />
+                <Stars radius={400} depth={60} count={5200} factor={4.5} fade speed={0.35} />
                 <Regions />
                 <NebulaDust />
                 <NodeField mastery={mastery} classLevel={cls} onHover={setHover} />
@@ -318,7 +325,7 @@ export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
                     autoRotate autoRotateSpeed={0.35} />
                 <ClickToSim onGo={(id) => { audioManager.play('success'); router.push(`/sims-v2/${id}`) }} />
                 <EffectComposer>
-                    <Bloom intensity={1.1} luminanceThreshold={0.08} luminanceSmoothing={0.78} mipmapBlur />
+                    <Bloom intensity={1.35} luminanceThreshold={0.055} luminanceSmoothing={0.82} mipmapBlur />
                     <Noise premultiply opacity={0.07} />
                     <Vignette offset={0.22} darkness={0.72} />
                 </EffectComposer>

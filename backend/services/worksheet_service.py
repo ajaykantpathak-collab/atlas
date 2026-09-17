@@ -48,7 +48,7 @@ from typing import Any, Callable, Literal
 
 
 
-from sqlalchemy import Column, DateTime, Float, ForeignKey, Index, Integer, String, Text, UUID
+from sqlalchemy import JSON, Column, DateTime, Float, ForeignKey, Index, Integer, String, Text, UUID
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -75,6 +75,8 @@ from services.whatsapp_service import WhatsAppService
 
 
 class Worksheet(Base):
+
+    __allow_unmapped__ = True
 
     """A worksheet created by a teacher for a class."""
 
@@ -144,6 +146,8 @@ class Worksheet(Base):
 
 class WorksheetDistribution(Base):
 
+    __allow_unmapped__ = True
+
     """Tracks per-student delivery of a worksheet."""
 
     __tablename__ = "worksheet_distributions"
@@ -181,6 +185,8 @@ class WorksheetDistribution(Base):
 
 
 class WorksheetSubmission(Base):
+
+    __allow_unmapped__ = True
 
     """Tracks student answers and score for a worksheet."""
 
@@ -490,6 +496,97 @@ class ClassPerformanceResponse(BaseModel):
 
 # ═══════════════════════════════════════════════════════════════════════
 
+# PRINTABLE RENDER HELPERS (module-level; referenced by _build_printable_html)
+
+# ═══════════════════════════════════════════════════════════════════════
+
+
+def _render_questions_section(questions: list, title: str, color: str = "var(--standard-color)") -> str:
+
+    """Render one printable section of questions (student copy)."""
+
+    if not questions:
+
+        return ""
+
+    parts: list[str] = [f'<div class="section-title" style="color: {color};">{title}</div>']
+
+    for q in questions:
+
+        opts = ""
+
+        if q.options:
+
+            opts = '<div class="options">' + "".join(
+
+                f"<div>({chr(65 + i)}) {o}</div>" for i, o in enumerate(q.options)
+
+            ) + "</div>"
+
+        parts.append(
+
+            f'<div class="question"><div class="q-header">'
+
+            f'<span class="q-num">Q{q.index + 1}</span>'
+
+            f'<span class="q-marks">[{q.marks} marks]</span></div>'
+
+            f'<div class="q-text">{q.text}</div>{opts}</div>'
+
+        )
+
+    return "".join(parts)
+
+
+def _render_solutions_section(questions: list, title: str, color: str = "var(--standard-color)") -> str:
+
+    """Render one printable section of step-by-step solutions (answer key)."""
+
+    if not questions:
+
+        return ""
+
+    parts: list[str] = [f'<div class="section-title" style="color: {color};">{title}</div>']
+
+    for q in questions:
+
+        steps = ""
+
+        if q.solution_steps:
+
+            steps = '<ol class="solution-steps">' + "".join(
+
+                f"<li>{getattr(s, 'description', '')}"
+
+                + (f" <code>{s.expression}</code>" if getattr(s, "expression", None) else "")
+
+                + "</li>"
+
+                for s in q.solution_steps
+
+            ) + "</ol>"
+
+        ans = ""
+
+        if q.answer is not None:
+
+            ans = f'<div class="final-answer"><strong>Answer:</strong> {q.answer}</div>'
+
+        parts.append(
+
+            f'<div class="solution"><div class="q-header">'
+
+            f'<span class="q-num">Q{q.index + 1}</span></div>'
+
+            f'<div class="q-text">{q.text}</div>{steps}{ans}</div>'
+
+        )
+
+    return "".join(parts)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+
 # WORKSHEET SERVICE
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -571,6 +668,14 @@ class WorksheetService:
     #  PUBLIC API
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    @staticmethod
+
+    def _round_to_int(value: float) -> int:
+
+        """Round to nearest int (used for competency question counts)."""
+
+        return max(0, int(round(value)))
 
 
 

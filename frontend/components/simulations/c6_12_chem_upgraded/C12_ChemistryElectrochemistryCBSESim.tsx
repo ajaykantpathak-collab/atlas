@@ -1357,7 +1357,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
     const eCathode = stdPotentials[cathodeMetal] || +0.34;
     const eCell = eCathode - eAnode;
 
-    if (eCell <= 0) return { eCell, eCell: 0, deltaG: 0, equilibriumK: 0 };
+    if (eCell <= 0) return { eCell, deltaG: 0, equilibriumK: 0 };
 
     const n = 2; // assuming 2-electron transfer for simplicity
     const R = 8.314;
@@ -1365,11 +1365,11 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
     const Q = cAnode / cCathode;
 
     const nernstCorrection = ((R * temperature) / (n * F)) * Math.log(Q);
-    const eCell = eCell - nernstCorrection;
-    const deltaG = -n * F * eCell / 1000; // in kJ
-    const equilibriumK = Math.exp((n * F * eCell) / (R * 298.15));
+    const eCellCorrected = Math.max(0, eCell - nernstCorrection);
+    const deltaG = -n * F * eCellCorrected / 1000; // in kJ
+    const equilibriumK = Math.exp((n * F * eCellCorrected) / (R * 298.15));
 
-    return { eCell, eCell: Math.max(0, eCell), deltaG, equilibriumK };
+    return { eCell: eCellCorrected, deltaG, equilibriumK };
   }, [anodeMetal, cathodeMetal, cAnode, cCathode, temperature]);
 
   // Lab 2 State: Conductance & Kohlrausch

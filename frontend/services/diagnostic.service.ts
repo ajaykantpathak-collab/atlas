@@ -231,9 +231,11 @@ async function getDB(): Promise<IDBPDatabase<K12PlatformDB>> {
           db.createObjectStore(name, { keyPath: "sessionId" });
         }
       }
-      // pendingMutations uses a different key
-      const pendingStore = db.transaction("pendingMutations", "readwrite").store;
-      // keyPath is "id" for pendingMutations
+      // NOTE: no transactions may run inside the upgrade callback — a
+      // versionchange transaction is already active, and calling
+      // db.transaction() here throws InvalidStateError on every fresh
+      // open, which made getDB() reject forever and broke the whole
+      // offline cache (API results never reached the UI).
     },
   });
 

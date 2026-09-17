@@ -23,6 +23,7 @@ Configuration via environment variables:
 """
 
 import hashlib
+import itertools
 import json
 import logging
 import os
@@ -32,6 +33,9 @@ from typing import Optional
 import httpx
 
 logger = logging.getLogger(__name__)
+
+# Process-wide round-robin counter shared by all client instances.
+_MODEL_RR = itertools.count()
 
 # ── load .env if python-dotenv is available ──────────────────────────────────
 try:
@@ -142,6 +146,9 @@ class LLMClient:
             or os.environ.get("LLM_MODEL")
             or "llama-3.1-8b-instruct-fast"  # fast, reliable, free
         )
+        # Comma-list model pool → process-wide round robin (e.g.
+        # "gemma-4-31b-it,gemma-4-26b-a4b-it").
+        self._models = [m.strip() for m in self.model.split(",") if m.strip()] or ["llama-3.1-8b-instruct-fast"]
         self.timeout = timeout or float(os.environ.get("LLM_TIMEOUT", "60"))
         self._cache: dict[str, str] = {}  # simple in-memory prompt-hash cache
 
@@ -175,7 +182,7 @@ class LLMClient:
             "Content-Type": "application/json",
         }
         payload = {
-            "model": self.model,
+            "model": self._models[next(_MODEL_RR) % len(self._models)],
             "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens,

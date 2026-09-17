@@ -753,6 +753,26 @@ def build_index(md_dir: str) -> EnhancedNodesIndex:
         "cache_hit": False,
         "build_seconds": round(time.time() - t0, 3),
     }
+
+    # ── spiral-curriculum prerequisite derivation ────────────────────────
+    # Nodes whose source never authored PREREQUISITE_NODE_IDS (class-6
+    # generator + a few senior electives) get their prerequisite chain
+    # derived in code: same-subject topics from earlier chapters, nearest
+    # first. Durable by construction — survives any file revert, because
+    # the derivation lives in the index build itself.
+    by_cs: dict = {}
+    for n in nodes:
+        by_cs.setdefault((n.get("class"), n.get("subject")), []).append(
+            (n.get("chapter") or 0, n.get("node_num") or 0, n["node_id"]))
+    for n in nodes:
+        if n.get("prereq_ids"):
+            continue
+        pool = sorted([(c, num, nid) for c, num, nid
+                       in by_cs.get((n.get("class"), n.get("subject")), [])
+                       if nid != n["node_id"] and c < (n.get("chapter") or 0)])
+        if pool:
+            n["prereq_ids"] = [nid for _, _, nid in pool[-6:]]
+
     return EnhancedNodesIndex(nodes, stats, companions)
 
 

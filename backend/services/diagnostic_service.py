@@ -45,7 +45,7 @@ from services.worked_examples import WorkedExamplesService           # fading ex
 # in database.py
 # ──────────────────────────────────────────────
 try:
-    from database import Base          # type: ignore
+    from backend.database import Base   # type: ignore
     _HAS_BASE = True
 except ImportError:
     _HAS_BASE = False
@@ -269,6 +269,34 @@ class DiagnosticResult(BaseModel):
     remediation_path: Optional["RemediationPath"] = None
     status: str  # in_progress | completed
 
+    # ── Derived areas (consumed by generate_remediation_path) ──────────────
+    # Computed from subskill_performance so they survive final_result
+    # round-trips without schema changes. Only attempted subskills count —
+    # untouched subskills carry mastery 0.0 and must not flood remediation.
+
+    @property
+    def weak_areas(self) -> List[str]:
+        return sorted(
+            (s for s, p in self.subskill_performance.items()
+             if p.total > 0 and p.mastery < 0.5),
+            key=lambda s: self.subskill_performance[s].mastery,
+        )
+
+    @property
+    def strong_areas(self) -> List[str]:
+        return [s for s, p in self.subskill_performance.items()
+                if p.total > 0 and p.mastery >= 0.65]
+
+    @property
+    def missing_prerequisites(self) -> List[str]:
+        prereqs = ("limit_concept", "function_composition")
+        return [
+            p for p in prereqs
+            if p in self.subskill_performance
+            and self.subskill_performance[p].total > 0
+            and self.subskill_performance[p].mastery < 0.4
+        ]
+
 
 class SubskillPerformance(BaseModel):
     subskill: str
@@ -431,11 +459,21 @@ if _HAS_BASE:
         total_time_ms: Optional[int] = Column(Integer, nullable=True)
 
         __table_args__ = (
-            # Unique active session per (student, chapter)
-            __import__("sqlalchemy").UniqueConstraint(
-                "student_id", "chapter_id", "status",
-                name="uq_active_diagnostic",
+            # Unique ACTIVE session per (student, chapter).  A partial index
+            # (in_progress only) — a full (student, chapter, status) unique
+            # constraint also forbids a second COMPLETED session, which made
+            # every retake of a diagnostic fail with UniqueViolationError.
+            __import__("sqlalchemy").Index(
+                "uq_active_diagnostic",
+                "student_id", "chapter_id",
+                unique=True,
+                postgresql_where=(status == "in_progress"),
             ),
+            # Dual import paths (backend.services.* and services.*) both
+            # execute this body on the shared Base — extend instead of raise.
+            # MUST live in this tuple: a second __table_args__ assignment
+            # above silently discards it.
+            {"extend_existing": True},
         )
 
         @property
@@ -975,8 +1013,12 @@ class DiagnosticService:
                 DiagnosticSession.chapter_id == chapter_id,
                 DiagnosticSession.status == status_filter,
             )
+            # Multiple COMPLETED sessions per (student, chapter) are legal
+            # (retakes) — take the most recent instead of exploding with
+            # MultipleResultsFound.
+            .order_by(DiagnosticSession.started_at.desc()).limit(1)
         )
-        return result.scalar_one_or_none()
+        return result.scalars().first()
 
     async def _get_or_create_session(
         self, student_id: str, subject: str, chapter_id: str

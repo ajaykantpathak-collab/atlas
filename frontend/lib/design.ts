@@ -1,6 +1,7 @@
 /**
  * Platform design tokens — single source of truth for the visual language of
- * the polished competency-tutor page (app/(student)/competency-tutor/page.tsx).
+ * the polished student pages (originally extracted from the competency-tutor
+ * page, now consolidated into /tutor).
  *
  * Look: slate-950 canvas, glass cards (slate-900/70 + backdrop-blur),
  * indigo→violet accent gradient with indigo glow shadows, rounded-2xl / 3xl

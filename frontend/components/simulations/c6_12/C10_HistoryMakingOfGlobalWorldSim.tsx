@@ -89,7 +89,7 @@ export function C10_HistoryMakingOfGlobalWorldSim() {
             {era === 'depression' && (
               <div className="mt-3 text-xs text-slate-300 leading-relaxed">
                 <p className="font-bold text-amber-300 mb-1">Great Depression (1929-1935)</p>
-                <p className="text-slate-400">US farm overproduction + falling prices -> crash of 1929 -> collapse of world prices and incomes. Agricultural regions suffered MOST (prices fell harder than industrial goods): Latin America, and INDIA -- peasant debts and forced gold sales; rural India returned to gold standard early (1931) but its farmers bore the pain. Unemployment: 1 in 3 in Britain, millions in the USA. The depression deepened the anti-colonial feeling: fixed revenue against collapsing prices = misery.</p>
+                <p className="text-slate-400">US farm overproduction + falling prices -&gt; crash of 1929 -&gt; collapse of world prices and incomes. Agricultural regions suffered MOST (prices fell harder than industrial goods): Latin America, and INDIA -- peasant debts and forced gold sales; rural India returned to gold standard early (1931) but its farmers bore the pain. Unemployment: 1 in 3 in Britain, millions in the USA. The depression deepened the anti-colonial feeling: fixed revenue against collapsing prices = misery.</p>
               </div>
             )}
             {era === 'bretton' && (

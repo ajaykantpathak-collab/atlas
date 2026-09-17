@@ -22,6 +22,7 @@ import { create } from 'zustand';
 
 import offlineCache from '@/lib/offlineCache';
 import { getAuthToken } from "@/lib/api";
+import { useAuthStore } from '@/stores/authStore';
 import { friendlyNodeTitle, subjectName } from '@/lib/nodeTitle';
 
 // ─── Constants ───────────────────────────────────────────────────────────────
@@ -195,9 +196,12 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     } catch { /* ignore */ }
 
     const loadReal = async () => {
+      // Phase 5.2: /api/progress/* is authenticated (backend get_current_user).
+      // An anonymous visit must keep the honest local zeros instead of firing
+      // two 401s into the console on every page load.
       const token = getAuthToken();
-      const headers: Record<string, string> = {};
-      if (token) headers['Authorization'] = `Bearer ${token}`;
+      if (!token) return;
+      const headers: Record<string, string> = { Authorization: `Bearer ${token}` };
       try {
         const res = await fetch(`${API_BASE}/api/progress/dashboard`, {
           headers,
@@ -233,6 +237,11 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
       const headers: Record<string, string> = { 'Content-Type': 'application/json' };
       if (token) headers['Authorization'] = `Bearer ${token}`;
 
+      // The authenticated user's real UUID. Omitting it made the backend
+      // fall back to student_id='demo' (pydantic default), which broke
+      // attempt persistence into the uuid-typed students column.
+      const authUserId = useAuthStore.getState().user?.id;
+
       // Try the proper /api/practice/start endpoint first
       let questions: Question[] = [];
       let sessionId = `sess_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
@@ -244,6 +253,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
             method: 'POST',
             headers,
             body: JSON.stringify({
+              student_id: authUserId,
               subject,
               topic,
               num_questions: TOTAL_QUESTIONS,
@@ -455,28 +465,32 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     ];
 
     // Pull the REAL post-session streak/mastery from /api/progress
-    try {
-      const token = getAuthToken();
-      const headers: Record<string, string> = {};
-      if (token) headers['Authorization'] = `Bearer ${token}`;
-      const dash = await fetch(`${API_BASE}/api/progress/dashboard`, {
-        headers,
-        signal: AbortSignal.timeout(5000),
-      });
-      if (dash.ok) {
-        const d = await dash.json();
-        newStreak = Number(d.streak ?? streakDays) || 0;
-      }
-      const ov = await fetch(`${API_BASE}/api/progress/overview`, {
-        headers,
-        signal: AbortSignal.timeout(5000),
-      });
-      if (ov.ok) {
-        const o = await ov.json();
-        const avg = Number(o.avgMastery ?? masteryPercent) || 0;
-        newMastery = Math.max(0, Math.min(100, Math.round(avg)));
-      }
-    } catch { /* keep the pre-session server values — never fabricate */ }
+    // Phase 5.2: these endpoints are authenticated — when signed out, skip
+    // entirely and keep the pre-session local values (never fabricate, never
+    // log anonymous 401s).
+    const progressToken = getAuthToken();
+    if (progressToken) {
+      try {
+        const headers: Record<string, string> = { Authorization: `Bearer ${progressToken}` };
+        const dash = await fetch(`${API_BASE}/api/progress/dashboard`, {
+          headers,
+          signal: AbortSignal.timeout(5000),
+        });
+        if (dash.ok) {
+          const d = await dash.json();
+          newStreak = Number(d.streak ?? streakDays) || 0;
+        }
+        const ov = await fetch(`${API_BASE}/api/progress/overview`, {
+          headers,
+          signal: AbortSignal.timeout(5000),
+        });
+        if (ov.ok) {
+          const o = await ov.json();
+          const avg = Number(o.avgMastery ?? masteryPercent) || 0;
+          newMastery = Math.max(0, Math.min(100, Math.round(avg)));
+        }
+      } catch { /* keep the pre-session server values — never fabricate */ }
+    }
 
     const summary: SessionSummary = {
       totalQuestions: TOTAL_QUESTIONS,
@@ -504,37 +518,45 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     } catch { /* ignore */ }
 
     // Try syncing session to server — prefer the proper session-fetch endpoint
-    try {
-      const token = getAuthToken();
-      const headers: Record<string, string> = { 'Content-Type': 'application/json' };
-      if (token) headers['Authorization'] = `Bearer ${token}`;
-      const sid = get().sessionId;
-      // Try fetching the authoritative session summary from the backend
-      await fetch(`${API_BASE}/api/practice/${sid}`, {
-        headers,
-        signal: AbortSignal.timeout(5000),
-      })
-        .then(async (r) => {
-          if (r.ok) {
-            const data = await r.json();
-            // If the backend returned a richer summary, merge it
-            if (data && data.summary) {
-              const s = data.summary;
-              summary.accuracy = s.accuracy_percent ?? summary.accuracy;
-              summary.timeSpentSeconds = s.time_spent_seconds ?? summary.timeSpentSeconds;
-              summary.encouragingMessage = s.recommendations?.[0] ?? summary.encouragingMessage;
-            }
-          }
+    // Phase 5.2: server sync is only meaningful when signed out users have a
+    // session to sync to; gate on the auth token so anonymous play (cached
+    // questions) doesn't spray 401s into the console.
+    const syncToken = getAuthToken();
+    if (syncToken) {
+      try {
+        const headers: Record<string, string> = {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${syncToken}`,
+        };
+        const sid = get().sessionId;
+        // Try fetching the authoritative session summary from the backend
+        await fetch(`${API_BASE}/api/practice/${sid}`, {
+          headers,
+          signal: AbortSignal.timeout(5000),
         })
-        .catch(() => {});
-      // Also fire-and-forget the legacy session POST so existing backend code stays compatible
-      await fetch(`${API_BASE}/api/practice/session`, {
-        method: 'POST',
-        headers,
-        body: JSON.stringify({ sessionId: sid, summary, answers: feedbacks }),
-        signal: AbortSignal.timeout(5000),
-      }).catch(() => {});
-    } catch { /* non-critical */ }
+          .then(async (r) => {
+            if (r.ok) {
+              const data = await r.json();
+              // If the backend returned a richer summary, merge it
+              if (data && data.summary) {
+                const s = data.summary;
+                summary.accuracy = s.accuracy_percent ?? summary.accuracy;
+                summary.timeSpentSeconds = s.time_spent_seconds ?? summary.timeSpentSeconds;
+                summary.encouragingMessage = s.recommendations?.[0] ?? summary.encouragingMessage;
+              }
+            }
+          })
+          .catch(() => {});
+        // Close the session server-side so it persists as completed.
+        // (The old fire-and-forget POST /api/practice/session hit a route
+        // the backend never implemented → 405.)
+        await fetch(`${API_BASE}/api/practice/${encodeURIComponent(sid)}/end`, {
+          method: 'POST',
+          headers,
+          signal: AbortSignal.timeout(5000),
+        }).catch(() => {});
+      } catch { /* non-critical */ }
+    }
 
     set({
       screen: 'summary',

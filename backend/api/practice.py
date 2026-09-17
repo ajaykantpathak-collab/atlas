@@ -30,7 +30,7 @@ from sqlalchemy import select, func
 from database import get_db, Student, PracticeSession, Attempt, Mastery
 from services.practice_service import PracticeService
 from services.question_selector import QuestionSelector
-from services.mastery_sync import BKTModel as MasterySyncService
+from services.mastery_sync import MasterySyncService
 from services.analytics_service import AnalyticsService
 
 
@@ -49,8 +49,13 @@ def _meta_get(session: PracticeSession, key: str, default: Any = None) -> Any:
     return meta.get(key, default)
 
 def _meta_set(session: PracticeSession, key: str, value: Any) -> None:
-    """Write a key to session_meta JSONB (mutates in place)."""
-    meta = session.session_meta or {}
+    """Write a key to session_meta JSONB.
+
+    Assigns a fresh dict: mutating the existing mapping in place (or
+    re-assigning the same object) is invisible to SQLAlchemy's change
+    detection, so the UPDATE would be skipped and every post-create
+    meta write (issued questions, answers, status) silently lost."""
+    meta = dict(session.session_meta or {})
     meta[key] = value
     session.session_meta = meta
 
@@ -75,7 +80,9 @@ def _meta_inc(session: PracticeSession, key: str, by: int = 1) -> int:
 
 _MEM_SESSIONS: dict[str, dict] = {}
 
-_DEMO_STUDENT_EMAIL = "practice-demo@local"
+# Sentinel name for the shared demo student row. The `students` table
+# has no email column — lookups must key on name + student_class.
+_DEMO_STUDENT_NAME = "Practice Demo (shared)"
 
 
 def _q_attr(question: Any, name: str, default: Any = None) -> Any:
@@ -114,16 +121,20 @@ async def _resolve_student_async(db: AsyncSession, requested: str) -> Optional[s
                 return str(row.id)
             except Exception:
                 pass
-    # non-UUID or missing student -> shared demo student (find or create)
+    # non-UUID or missing student -> shared demo student (find or create).
+    # students has no email column — key on the sentinel name + class tag.
     try:
         res = await db.execute(
-            select(Student).where(Student.email == _DEMO_STUDENT_EMAIL))
+            select(Student).where(
+                Student.name == _DEMO_STUDENT_NAME,
+                Student.student_class == "demo",
+            ))
         demo = res.scalar_one_or_none()
         if demo is not None:
             return str(demo.id)
         demo = Student(
-            name=str(requested or "demo")[:200] or "demo",
-            email=_DEMO_STUDENT_EMAIL,
+            name=_DEMO_STUDENT_NAME,
+            student_class="demo",
         )
         db.add(demo)
         await db.flush()
@@ -545,7 +556,9 @@ async def start_session(
             # persist the issued question on the session: /submit and
             # GET /{id} resolve it from here (no questions table)
             stored = _q_as_store_dict(first_q)
-            _meta_get(session, "questions")[str(qid)] = stored
+            _q_store = dict(_meta_get(session, "questions") or {})
+            _q_store[str(qid)] = stored
+            _meta_set(session, "questions", _q_store)
             await db.commit()
             await db.refresh(session)
 
@@ -676,12 +689,11 @@ async def submit_answer(
     try:
         sync = MasterySyncService()
         result = await sync.update_on_attempt(
-            student_id=session.student_id,
-            question_id=qid_requested,
+            student_id=str(session.student_id),
+            topic_id=_q_attr(question, "topic", "") or qid_requested,
             correct=is_correct,
             time_ms=time_ms,
-            topic=_q_attr(question, "topic", ""),
-            db=db,
+            subject=_meta_get(session, "subject", "general"),
         )
         mastery_delta = result if isinstance(result, dict) else {"mastery_before": 0.0, "mastery_after": 0.0}
     except Exception as exc:
@@ -689,20 +701,30 @@ async def submit_answer(
         mastery_delta = {"error": str(exc), "mastery_before": 0.0, "mastery_after": 0.0}
 
     # ── Record attempt ──
+    # Skip persistence entirely when the session's student_id isn't a UUID
+    # (in-memory demo session): attempts.student_id is a UUID FK and a bad
+    # cast at flush poisons the whole transaction (PendingRollbackError 500).
+    _sid_ok = True
     try:
-        attempt = Attempt(
-            session_id=session.id,
-            question_seed=qid_requested,
-            student_id=session.student_id,
-            answer={"value": str(answer), "question_id": qid_requested},
-            correct=is_correct,
-            marks_awarded=marks,
-            time_ms=time_ms,
-            created_at=datetime.now(timezone.utc),
-        )
-        db.add(attempt)
-    except Exception as exc:
-        logger.warning("Attempt persistence failed: %s", exc)
+        uuid.UUID(str(session.student_id))
+        uuid.UUID(str(session.id))
+    except (ValueError, AttributeError, TypeError):
+        _sid_ok = False
+    if _sid_ok:
+        try:
+            attempt = Attempt(
+                session_id=session.id,
+                question_seed=qid_requested,
+                student_id=session.student_id,
+                answer={"value": str(answer), "question_id": qid_requested},
+                correct=is_correct,
+                marks_awarded=marks,
+                time_ms=time_ms,
+                created_at=datetime.now(timezone.utc),
+            )
+            db.add(attempt)
+        except Exception as exc:
+            logger.warning("Attempt persistence failed: %s", exc)
 
     # ── Emit analytics event to ClickHouse ──
     try:
@@ -775,7 +797,9 @@ async def submit_answer(
                 qid = (_q_attr(nxt, "question_id", None)
                        or _q_attr(nxt, "id", None))
                 _meta_set(session, "current_question_id", str(qid) if qid is not None else None)
-                _meta_get(session, "questions")[str(qid)] = _q_as_store_dict(nxt)
+                _q_store = dict(_meta_get(session, "questions") or {})
+                _q_store[str(qid)] = _q_as_store_dict(nxt)
+                _meta_set(session, "questions", _q_store)
             else:
                 is_complete = True  # exhausted question bank
         except Exception as exc:
@@ -964,7 +988,9 @@ async def skip_question(
                 qid = (_q_attr(nxt, "question_id", None)
                        or _q_attr(nxt, "id", None))
                 _meta_set(session, "current_question_id", str(qid) if qid is not None else None)
-                _meta_get(session, "questions")[str(qid)] = _q_as_store_dict(nxt)
+                _q_store = dict(_meta_get(session, "questions") or {})
+                _q_store[str(qid)] = _q_as_store_dict(nxt)
+                _meta_set(session, "questions", _q_store)
         except Exception as exc:
             logger.warning("Skip → question selection failed: %s", exc)
 
