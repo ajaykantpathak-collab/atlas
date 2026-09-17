@@ -197,11 +197,34 @@ async def create_clickhouse_schema():
         print("aiohttp not installed. Install with: pip install aiohttp")
         return False
 
+    # The runtime AnalyticsService writes to `learning_events` (its own
+    # schema), NOT `student_interactions`. The IRT feedback loop reads
+    # `question_difficulty_ext` — bridge the real source to the name the
+    # loop expects with this view.
+    DDL_DIFFICULTY_EXT_VIEW = f"""
+CREATE OR REPLACE VIEW {CLICKHOUSE_DB}.question_difficulty_ext AS
+SELECT
+    question_id,
+    if(count() >= 30 AND sum(is_correct)/count() > 0.05
+                         AND sum(is_correct)/count() < 0.95,
+       -ln((sum(is_correct)/count()) / (1 - sum(is_correct)/count())),
+       if(sum(is_correct)/count() >= 0.95, -2.0,
+          if(sum(is_correct)/count() <= 0.05, 2.0, 0))) AS empirical_difficulty_b,
+    if(count() >= 30, sqrt(varPop(student_theta_before)), 0) AS theta_variance,
+    count() AS sample_size,
+    if(count() > 0, sum(is_correct) / count(), 0) AS pass_rate,
+    if(count() > 0, sum(time_spent_seconds) / count(), 0) AS avg_time_seconds
+FROM {CLICKHOUSE_DB}.learning_events
+WHERE event_type = 'question_answered' AND question_id != ''
+GROUP BY question_id
+"""
+
     statements = [
         ("Create database", DDL_CREATE_DATABASE),
         ("Create student_interactions table", DDL_STUDENT_INTERACTIONS),
         ("Create question_difficulty_stats MV", DDL_QUESTION_DIFFICULTY_STATS),
         ("Create difficulty_stats_current view", DDL_DIFFICULTY_STATS_VIEW),
+        ("Create question_difficulty_ext view", DDL_DIFFICULTY_EXT_VIEW),
     ]
 
     async with aiohttp.ClientSession() as session:

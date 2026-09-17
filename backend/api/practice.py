@@ -30,7 +30,7 @@ from sqlalchemy import select, func
 from database import get_db, Student, PracticeSession, Attempt, Mastery
 from services.practice_service import PracticeService
 from services.question_selector import QuestionSelector
-from services.mastery_sync import MasterySyncService
+from services.mastery_sync import MasterySyncService, get_shared_service
 from services.analytics_service import AnalyticsService
 
 
@@ -504,13 +504,19 @@ async def start_session(
         # check: _resolve_student_async maps them onto a demo student
         # row so the session still persists
 
+    # Resolve the student FIRST so the selector's mastery/attempt lookups
+    # get a real UUID — a raw 'demo' string makes those queries throw.
+    resolved_sid: Optional[str] = None
+    if db_available and db is not None:
+        resolved_sid = await _resolve_student_async(db, req.student_id)
+
     # ── Select first question (do this before DB write so it works without DB) ──
     first_q = None
     try:
         selector = QuestionSelector(db if db_available else None)
         first_q = await selector.select_next(
             session_id="demo",
-            student_id=str(req.student_id),
+            student_id=resolved_sid or "demo",
             subject=req.subject or "general",
         )
     except Exception as exc:
@@ -526,7 +532,6 @@ async def start_session(
     db_session_id: Optional[str] = None
     if db_available and db is not None:
         try:
-            resolved_sid = await _resolve_student_async(db, req.student_id)
             if resolved_sid is None:
                 raise RuntimeError("student resolution failed")
             session = PracticeSession(
@@ -687,7 +692,7 @@ async def submit_answer(
     # ── Update mastery via BKT/IRT model ──
     mastery_delta: dict[str, Any] = {}
     try:
-        sync = MasterySyncService()
+        sync = await get_shared_service()
         result = await sync.update_on_attempt(
             student_id=str(session.student_id),
             topic_id=_q_attr(question, "topic", "") or qid_requested,
@@ -1043,7 +1048,7 @@ async def get_due_reviews(
     # Prefer the mastery_sync service if it exposes get_due_reviews
     reviews: list[ReviewItem] = []
     try:
-        sync = MasterySyncService()
+        sync = await get_shared_service()
         if hasattr(sync, "get_due_reviews"):
             reviews = await sync.get_due_reviews(
                 student_id=student_id,
@@ -1363,8 +1368,22 @@ async def _compute_reviews(
     now = datetime.now(timezone.utc)
 
     try:
-        sync = MasterySyncService()
-        mastery_data = await sync.get_mastery(student_id, db)
+        sync = await get_shared_service()
+        topics = await sync.get_mastery_by_subject(student_id, subject or "")
+        mastery_data = {}
+        for t in topics:
+            last = t.get("last_review")
+            if isinstance(last, str):
+                try:
+                    last = datetime.fromisoformat(last)
+                except ValueError:
+                    last = None
+            mastery_data[t["topic_id"]] = {
+                "mastery": float(t.get("bkt_p_know") or 0.0),
+                "last_attempted": last,
+            }
+        if not mastery_data:
+            raise ValueError("no mastery rows")
     except (AttributeError, Exception):
         # Direct DB query fallback
         res = await db.execute(select(Mastery).where(Mastery.student_id == student_id))

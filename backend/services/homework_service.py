@@ -28,7 +28,7 @@ from database import (
     async_session_maker,
 )
 from services.llm_client import LLMClient, Message
-from services.mastery_sync import MasterySyncService
+from services.mastery_sync import MasterySyncService, get_shared_service
 from services.notification_service import NotificationService
 from services.practice_service import PracticeService
 from services.streak_service import StreakService
@@ -568,13 +568,14 @@ class HomeworkService:
             pass
 
         try:
+            mastery = await get_shared_service()
             for tid in hw.topic_ids:
-                await self.mastery_sync.update_on_attempt(
+                await mastery.update_on_attempt(
                     student_id=student_id,
                     topic_id=tid,
-                    is_correct=pct >= 60,
-                    score=pct,
-                    metadata={"homework_id": homework_id},
+                    correct=pct >= 60,
+                    time_ms=0,
+                    subject=getattr(hw, "subject", None) or "general",
                 )
         except Exception:
             pass

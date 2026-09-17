@@ -173,19 +173,20 @@ def replay_into_state(days: int = 30) -> dict:
 
             for row in rows:
                 try:
+                    # Handlers expect a full event dict: {"payload": {...}}
                     if row.interaction_type == "question_attempt":
-                        state.on_student_answer({
+                        state.on_student_answer({"payload": {
                             "problem_type_id": row.concept,
                             "student_id": row.student_id,
                             "correct": bool(row.is_correct),
-                        })
+                        }})
                     elif row.interaction_type == "hint_request":
-                        state.on_hint({
+                        state.on_hint({"payload": {
                             "problem_type_id": row.concept,
                             "student_id": row.student_id,
                             "rung": row.hints_used or 1,
                             "misconception": "",
-                        })
+                        }})
                     replayed += 1
                 except Exception:
                     errors += 1

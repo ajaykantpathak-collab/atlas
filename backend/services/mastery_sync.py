@@ -406,8 +406,13 @@ class MasterySyncService:
 
         if self._pool is not None:
             async with self._pool.acquire() as conn:
-                await conn.execute(self.CREATE_TABLE)
-                await conn.execute(self.CREATE_QUEUE)
+                # asyncpg execute() runs ONE statement — split the DDL
+                # strings on ';' so each CREATE runs separately.
+                for ddl in (self.CREATE_TABLE, self.CREATE_QUEUE):
+                    for stmt in ddl.split(";"):
+                        stmt = stmt.strip()
+                        if stmt:
+                            await conn.execute(stmt)
 
         if self._offline:
             logger.info("MasterySync running in OFFLINE mode")
@@ -618,7 +623,14 @@ class MasterySyncService:
         SM2Scheduler.update(state, correct, time_ms)
 
         if persist and self._pool is not None:
-            await self._persist(state)
+            try:
+                await self._persist(state)
+            except Exception as exc:
+                logger.warning("mastery persist failed for %s/%s: %s",
+                               student_id, topic_id, exc)
+        elif persist:
+            logger.info("mastery persist skipped — no pool for %s/%s",
+                        student_id, topic_id)
 
         return state
 
@@ -983,6 +995,54 @@ def _get_default_service():
     if _default_service is None:
         _default_service = MasterySyncService()
     return _default_service
+
+
+async def get_shared_service() -> "MasterySyncService":
+    """Shared service wired to a real asyncpg pool + Redis cache.
+
+    Lazily builds the pool from DATABASE_URL and calls start(), which
+    self-provisions the mastery_state / mastery_offline_queue tables and
+    launches the background sync. Falls back to in-memory mode when the
+    pool can't be created — callers never break.
+    """
+    global _default_service
+    if _default_service is None:
+        svc = MasterySyncService(
+            redis_url=(os.environ.get("PLATFORM_REDIS_URL")
+                       or os.environ.get("REDIS_URL")
+                       or "redis://localhost:6379/0"))
+        _default_service = svc
+    svc = _default_service
+    if svc._pool is None:
+        # Self-heal: retry pool creation on every call until it succeeds —
+        # a worker that lost the race at startup isn't stuck in-memory
+        # forever.
+        try:
+            import asyncpg
+            from backend.config import get_settings
+            url = get_settings().database_url.replace(
+                "postgresql+asyncpg://", "postgresql://")
+            svc._pool = await asyncpg.create_pool(
+                url, min_size=1, max_size=4, command_timeout=10)
+        except Exception as exc:
+            logger.warning("mastery asyncpg pool unavailable — in-memory mode: %s", exc)
+        if svc._pool is not None and not getattr(svc, "_tables_created", False):
+            try:
+                async with svc._pool.acquire() as conn:
+                    for ddl in (svc.CREATE_TABLE, svc.CREATE_QUEUE):
+                        for stmt in ddl.split(";"):
+                            stmt = stmt.strip()
+                            if stmt:
+                                await conn.execute(stmt)
+                svc._tables_created = True
+            except Exception as exc:
+                logger.warning("mastery table provisioning failed: %s", exc)
+    if not svc._running:
+        try:
+            await svc.start()
+        except Exception as exc:
+            logger.warning("mastery start failed — in-memory mode: %s", exc)
+    return svc
 
 async def update_on_attempt(student_id, subject, topic_id, problem_type,
                             correct, time_ms=0, competency=False, difficulty=0.5):
