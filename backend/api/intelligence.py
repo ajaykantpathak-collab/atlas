@@ -690,6 +690,24 @@ async def generate_problems(req: GenerateRequest):
         raise HTTPException(status_code=500, detail=f"Generate error: {str(e)[:200]}")
 
 
+@router.post("/evolve")
+async def evolve_intelligence():
+    """Run the self-evolving loop on live data (was an orphaned script).
+
+    Reads interaction_outcome via the DB fallback when the synthetic
+    interactions file isn't present, computes strategy effectiveness,
+    misconception discovery, content gaps, profile updates, and writes
+    a timestamped + latest snapshot under INTEL_OUT_DIR.
+    """
+    import asyncio
+    from backend.services.self_evolving_loop import run_evolution_loop
+    try:
+        return await asyncio.to_thread(run_evolution_loop)
+    except Exception as e:
+        logger.exception("Evolve error")
+        raise HTTPException(status_code=500, detail=f"Evolve error: {str(e)[:200]}")
+
+
 @router.post("/warmup")
 async def intelligence_warmup():
     """Eagerly initialize all intelligence components."""

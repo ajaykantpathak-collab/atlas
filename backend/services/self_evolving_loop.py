@@ -19,11 +19,17 @@ from datetime import datetime, timezone
 from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass, field
 
-OUT_DIR = r"D:\platform\cbse_data\intelligence_updates"
+_CBSE_DATA = os.environ.get("CBSE_DATA_DIR", r"D:\platform\cbse_data")
+OUT_DIR = os.environ.get(
+    "INTEL_OUT_DIR", os.path.join(_CBSE_DATA, "intelligence_updates"))
 os.makedirs(OUT_DIR, exist_ok=True)
 
-INTERACTIONS_PATH = r"D:\platform\cbse_data\synthetic_students\interactions.json"
-STUDENTS_PATH = r"D:\platform\cbse_data\synthetic_students\students.json"
+INTERACTIONS_PATH = os.environ.get(
+    "INTEL_INTERACTIONS_PATH",
+    os.path.join(_CBSE_DATA, "synthetic_students", "interactions.json"))
+STUDENTS_PATH = os.environ.get(
+    "INTEL_STUDENTS_PATH",
+    os.path.join(_CBSE_DATA, "synthetic_students", "students.json"))
 
 
 @dataclass
@@ -79,13 +85,62 @@ class ProfileUpdate:
 
 
 def load_interactions() -> List[Dict]:
-    """Load interaction data from the synthetic students output."""
-    if not os.path.exists(INTERACTIONS_PATH):
-        print(f"No interactions file at {INTERACTIONS_PATH}")
+    """Load interaction data — synthetic file if present, else the live DB.
+
+    The synthetic pipeline's interactions.json is a dev artifact; in the
+    container it doesn't exist, so we fall back to interaction_outcome —
+    the real table every student answer writes to via the intelligence bus.
+    """
+    if os.path.exists(INTERACTIONS_PATH):
+        with open(INTERACTIONS_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("interactions", [])
+    return _load_interactions_from_db()
+
+
+def _load_interactions_from_db(days: int = 90, limit: int = 100_000) -> List[Dict]:
+    """Adapt interaction_outcome rows to the synthetic interaction schema."""
+    try:
+        from backend.database import get_sync_engine
+        from backend.services.intelligence_schema import InteractionOutcome
+        from sqlalchemy import select
+        from sqlalchemy.orm import Session
+        from datetime import timedelta
+    except Exception:
         return []
-    with open(INTERACTIONS_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data.get("interactions", [])
+
+    try:
+        cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+        with Session(get_sync_engine()) as session:
+            rows = session.execute(
+                select(InteractionOutcome)
+                .where(InteractionOutcome.created_at >= cutoff)
+                .order_by(InteractionOutcome.created_at).limit(limit)
+            ).scalars().all()
+    except Exception as e:
+        print(f"DB interactions load failed: {e}")
+        return []
+
+    out = []
+    for r in rows:
+        subject = r.subject or ""
+        if not subject:
+            # concept ids look like c10_bio_001 — second token is the subject
+            parts = (r.concept or "").split("_")
+            subject = parts[1] if len(parts) > 1 else "unknown"
+        out.append({
+            "student_id": r.student_id or "",
+            "subject": subject,
+            "concept": r.concept or "",
+            "is_correct": bool(r.is_correct),
+            "hints_used": r.hints_used or 0,
+            "engagement_score": float(r.engagement_score or 0.5),
+            "mastery_delta": float(r.partial_score or 0.0),
+            "difficulty": 0.5,
+            "misconception": (r.misconceptions_detected or [None])[0],
+            "time_ms": r.time_to_respond_ms or 0,
+        })
+    return out
 
 
 def load_students() -> List[Dict]:
@@ -331,7 +386,7 @@ def run_evolution_loop():
 
     if not interactions:
         print("No interaction data found. Run synthetic_student.py first.")
-        return
+        return {"status": "empty", "reason": "no interaction data"}
 
     # 1. Strategy effectiveness
     print("\n1. Computing strategy effectiveness...")
@@ -389,6 +444,7 @@ def run_evolution_loop():
     print(f"  Content gaps: {len(gaps)}")
     print(f"  Profile updates: {len(profile_updates)}")
     print("=" * 60)
+    return output
 
 
 def asdict_safe(obj):

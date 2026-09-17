@@ -133,9 +133,12 @@ services:
     ports:
       - "8001:8000"
     networks:
-      - dream-net
+      dream-net:
+        aliases:
+          - backends
 
-  # ── Backend instance 2 (horizontal scaling) ─────────────────
+  # ── Backend instance 2 (replica — nginx round-robins via the
+  #    shared 'backends' DNS alias on dream-net) ────────────────
   backend-2:
     build:
       context: .
@@ -167,10 +170,10 @@ services:
         condition: service_healthy
       db-init:
         condition: service_completed_successfully
-    ports:
-      - "8002:8000"
     networks:
-      - dream-net
+      dream-net:
+        aliases:
+          - backends
 
   # ── Frontend ────────────────────────────────────────────────
   frontend:
@@ -184,7 +187,7 @@ services:
     restart: unless-stopped
     environment:
       # server-side /api/* rewrites target the backend pool, not localhost
-      INTERNAL_API_URL: http://backend-1:8000
+      INTERNAL_API_URL: http://backends:8000
       NODE_ENV: production
     volumes:
       # 4.8GB of doodle-card art — mounted at runtime, not baked into the image
@@ -209,8 +212,6 @@ services:
       - "80:80"
     depends_on:
       backend-1:
-        condition: service_healthy
-      backend-2:
         condition: service_healthy
       frontend:
         condition: service_healthy

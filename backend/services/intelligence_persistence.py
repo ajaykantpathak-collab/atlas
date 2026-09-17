@@ -23,7 +23,11 @@ DESIGN:
 
 from __future__ import annotations
 
+import json
+import os
+import threading
 import time
+import uuid
 from typing import Optional
 
 from backend.contracts import SolutionResult
@@ -246,5 +250,81 @@ def wire_persistence() -> bool:
     stats = replay_into_state()
     print(f"[intelligence] persistence wired | replay: {stats}")
 
+    start_redis_bridge()
+
     _wired_persistence = True
+    return True
+
+
+# ═══════════════════════════════════════════════════════════════════
+# Redis pub/sub bridge — live cross-worker state sync
+# ═══════════════════════════════════════════════════════════════════
+# Without this, an event emitted on worker A only updates worker A's hot
+# cache (the DB write is durable but other workers don't see it until a
+# restart replays it). The bridge republishes every event to Redis; each
+# worker applies foreign events to its local state. Foreign events are
+# applied DIRECTLY to state handlers — not re-emitted — so they neither
+# loop nor double-persist.
+
+_INTEL_CHANNEL = "intel:events"
+_WORKER_ID = uuid.uuid4().hex[:8]
+_redis_bridge_started = False
+
+
+def start_redis_bridge() -> bool:
+    """Start the cross-worker bridge. Best-effort: no Redis → in-memory only."""
+    global _redis_bridge_started
+    if _redis_bridge_started:
+        return True
+    try:
+        import redis as _redis_lib
+        url = (os.environ.get("PLATFORM_REDIS_URL")
+               or os.environ.get("REDIS_URL")
+               or "redis://localhost:6379/0")
+        client = _redis_lib.Redis.from_url(
+            url, socket_timeout=2, socket_connect_timeout=2)
+        client.ping()
+    except Exception:
+        return False
+
+    from backend.services.intelligence_bus import get_intelligence
+    bus, state = get_intelligence()
+
+    def _republish(event):
+        try:
+            msg = {"origin": _WORKER_ID, "type": event["type"],
+                   "payload": event["payload"]}
+            client.publish(_INTEL_CHANNEL, json.dumps(msg))
+        except Exception:
+            pass
+
+    bus.subscribe("*", _republish)
+
+    _handlers = {
+        "student_answer": state.on_student_answer,
+        "hint_request": state.on_hint,
+        "solve_success": state.on_solve,
+        "solve_attempt": state.on_solve,
+    }
+
+    def _listen() -> None:
+        try:
+            pubsub = client.pubsub(ignore_subscribe_messages=True)
+            pubsub.subscribe(_INTEL_CHANNEL)
+            for msg in pubsub.listen():
+                try:
+                    data = json.loads(msg.get("data") or "{}")
+                    if data.get("origin") == _WORKER_ID:
+                        continue  # own event — already applied
+                    handler = _handlers.get(data.get("type", ""))
+                    if handler:
+                        handler({"payload": data.get("payload") or {}})
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+    threading.Thread(
+        target=_listen, daemon=True, name="intel-redis-bridge").start()
+    _redis_bridge_started = True
     return True
