@@ -13,22 +13,16 @@ import { SUBJECT_CONFIG } from '../../../lib/topicGraph';
 
 export interface NodeMasteryData {
   pKnown: number;
-  pLearn: number;
-  pGuess: number;
-  pSlip: number;
+  pLearn?: number;
+  pGuess?: number;
+  pSlip?: number;
 }
 
 export interface BKTMap {
   [nodeId: string]: NodeMasteryData;
 }
 
-export interface SRSItem {
-  id: string;
-  interval: number;
-  repetition: number;
-  easeFactor: number;
-  dueDate: string;
-}
+export type SRSItem = import('../../../lib/srs').ReviewItem;
 
 export interface Challenge {
   id: string;
@@ -1994,7 +1988,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                       <span className="font-mono text-cyan-400 font-bold">{nodeId}</span>
                       <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
                         level === 'mastered' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
-                        level === 'Practiced' ? 'bg-amber-950 text-amber-400 border border-amber-800' :
+                        level === 'developing' ? 'bg-amber-950 text-amber-400 border border-amber-800' :
                         'bg-slate-800 text-slate-400'
                       }`}>
                         {level} ({Math.round(pKnown * 100)}%)

@@ -1250,7 +1250,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                   onClick={() => {
                     audioManager.play('tap');
                     setActiveLabIndex(idx);
-                    setCurrentNodeId(lab.nodeId);
+                    setCurrentNodeId(lab.nodeId as NodeId);
                     speechManager.speak(`Switched to ${lab.title}`);
                   }}
                   className={`py-2 px-4 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${

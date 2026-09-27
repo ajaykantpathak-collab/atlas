@@ -530,7 +530,7 @@ const CHALLENGES: Challenge[] = [
     nodeId: 'c10_geo_cbse_04_003',
     type: 'classify',
     difficulty: 'advanced',
-    competencyLevel: 'Design (creativity)',
+    competencyLevel: 'creativity',
     question: 'Design (i) a three-crop cropping calendar for a Krishna-Godavari delta farm, (ii) a soyabean-mustard rotation for 90 cm-rainfall Madhya Pradesh, and (iii) a cropping pattern for 5 ha in 80 cm-rainfall Bundelkhand.',
     options: [
       'KG delta (irrigated, humid): kharif rice -> rabi pulses/blackgram on residual moisture -> summer green manure or fish-rice; MP rotation: kharif soyabean (legume fixes nitrogen) -> rabi mustard on conserved moisture -- legume-cereal/oilseed rotation restores fertility free; Bundelkhand (low rain): kharif bajra/pulses on light soils, rabi mustard/gram on conserved moisture, agroforestry border strips -- water-budget first, crops second',
@@ -552,7 +552,7 @@ const CHALLENGES: Challenge[] = [
     nodeId: 'c10_geo_cbse_04_007',
     type: 'distinguish',
     difficulty: 'advanced',
-    competencyLevel: 'Evaluate (evaluation)',
+    competencyLevel: 'evaluation',
     question: 'A Punjab farmer with 4 ha adopts drip irrigation and a Kisan Credit Card loan. Evaluate: "PMFBY has successfully ELIMINATED crop-failure risk for Indian farmers."',
     options: [
       'False as stated -- PMFBY (Pradhan Mantri Fasal Bima Yojana, 2016) TRANSFERS and softens risk (premium 1.5-2% for food crops, tech-based assessments) but does not eliminate it: claim delays, state-level implementation gaps and coverage exclusions persist. The farmer\'s own stack is smarter: drip raises efficiency AND KCC gives timely cheap credit -- risk managed in layers, not erased',
@@ -574,7 +574,7 @@ const CHALLENGES: Challenge[] = [
     nodeId: 'c10_geo_cbse_04_009',
     type: 'classify',
     difficulty: 'advanced',
-    competencyLevel: 'Analyse + evaluate',
+    competencyLevel: 'evaluation',
     question: 'Why did the Green Revolution concentrate in Punjab, Haryana and western UP (1966-85)? Define MSP and its announcing agency, why buffer stocks exist, and compare TPDS (1997) with NFSA (2013).',
     options: [
       'Concentration: assured IRRIGATION (canals/tubewells) + HYV seeds that demanded water and fertiliser + electrified tubewell belts -- the package worked only where water was guaranteed. MSP: government\'s announced procurement PRICE for wheat/rice set on CACP recommendation (agency: FCI procures; Cabinet/CCEA approves). Buffer stock: price stabilisation + food security in lean years (and PDS supply), not immediate distribution. TPDS targeted subsidies to above/below-poverty lines; NFSA 2013 made food a LEGAL RIGHT: 67% population coverage, 5 kg/person/month, plus maternity and mid-day-meal entitlements',
@@ -596,7 +596,7 @@ const CHALLENGES: Challenge[] = [
     nodeId: 'c10_geo_cbse_04_002',
     type: 'construct',
     difficulty: 'advanced',
-    competencyLevel: 'Design (creativity)',
+    competencyLevel: 'creativity',
     question: 'Design a land-use plan for a district with (a) forested hills with tribal population in the north, (b) fertile alluvial plains in the centre, (c) saline coastal strip in the south. Assign uses and justify each against land capability.',
     availableParts: ['North hills: protected forest + community forest rights', 'Centre plains: food-grain and vegetable farming', 'South coast: brackish aquaculture + salt-tolerant coconut', 'Buffer ecotone: agroforestry', 'Full-slope mining everywhere'],
     targetState: 'North hills: protected forest + community forest rights Centre plains: food-grain and vegetable farming South coast: brackish aquaculture + salt-tolerant coconut Buffer ecotone: agroforestry',
@@ -1135,7 +1135,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
     } else if (currentChallengeObj.type === 'drag-sort') {
       isCorrect = JSON.stringify(userResponse) === JSON.stringify(currentChallengeObj.correctOrder);
     } else if (currentChallengeObj.type === 'numeric') {
-      const numVal = typeof userResponse === 'string' ? parseFloat(userResponse) : userResponse;
+      const numVal = typeof userResponse === 'string' ? parseFloat(userResponse) : Number(userResponse);
       isCorrect = Math.abs(numVal - (currentChallengeObj.correctAnswer || 0)) <= (currentChallengeObj.tolerance || 0.1);
     } else if (currentChallengeObj.type === 'construct') {
       isCorrect = userResponse === currentChallengeObj.targetState;

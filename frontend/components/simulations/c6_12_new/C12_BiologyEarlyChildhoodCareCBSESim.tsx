@@ -178,7 +178,7 @@ const PREDICTION_QUESTIONS: PredictionQuestion[] = [
 const OBSERVATION_QUESTIONS: ObservationQuestion[] = [
   {
     question: 'What do you notice about fine motor control when moving from infancy (6 months) to late preschool age (60 months)?',
-    options: [
+    observableOptions: [
       'Motor control develops from distal fingers first to proximal shoulder joints later',
       'Development follows a Cephalocaudal and Proximodistal pattern, shifting from crude palmar grasp to refined pincer grasp and pencil control',
       'Fine motor skills deteriorate as language acquisition accelerates',
@@ -189,7 +189,7 @@ const OBSERVATION_QUESTIONS: ObservationQuestion[] = [
   },
   {
     question: 'What happens when supplementary nutrition and health checkups are integrated alongside ECCE preschool activities in Anganwadi centers?',
-    options: [
+    observableOptions: [
       'Nutritional levels increase but cognitive development drops due to overburdening',
       'Holistic child development improves significantly, reducing stunting, malnutrition, and school dropouts',
       'Preschool attendance plummets because mothers prefer isolated home care',

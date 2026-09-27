@@ -353,7 +353,7 @@ interface Misconception {
   id: string;
   misconception: string;
   correction: string;
-  explanation: 'string;',
+  explanation: string;
 }
 
 const MISCONCEPTIONS: Misconception[] = [
@@ -408,7 +408,7 @@ interface Challenge {
   options?: string[];
   correctIndex?: number;
   correctAnswer?: string | number;
-  explanation: 'string;',
+  explanation: string;
   hints: string[];
   misconceptionIndex?: number;
 }
@@ -733,7 +733,7 @@ interface DiagnosticQuestion {
   question: string;
   options: string[];
   correctIndex: number;
-  explanation: 'string;',
+  explanation: string;
   nodeId: NodeId;
 }
 

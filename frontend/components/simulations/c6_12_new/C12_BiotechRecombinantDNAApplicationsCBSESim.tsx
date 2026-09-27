@@ -158,7 +158,7 @@ const PREDICTION_QUESTIONS = [
   },
 ];
 
-const OBSERVATION_QUESTIONS = [
+const OBSERVATION_QUESTIONS: { question: string; options: string[]; observableOptions?: string[]; correctIndex: number; nodeId: string }[] = [
   {
     question: 'Observation: In gel electrophoresis of restriction fragment length polymorphisms (RFLP), why do smaller DNA fragments migrate closer to the positive anode (+)?',
     options: [
@@ -248,6 +248,7 @@ interface DiagnosticQuestion {
   options: string[];
   correctIndex: number;
   nodeId: string;
+  observableOptions?: string[];
   explanation: string;
 }
 

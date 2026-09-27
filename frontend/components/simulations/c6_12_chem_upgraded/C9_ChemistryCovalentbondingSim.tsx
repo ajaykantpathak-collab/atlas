@@ -1660,7 +1660,7 @@ export default function C9_ChemistryCovalentbondingSim() {
       speechManager.speak(`Tier completed! Recording overall performance score.`);
       const totalScore = score + 50;
       setScore(totalScore);
-      recordGameScore(totalScore);
+      recordGameScore([NODE_SINGLE, NODE_DOUBLE, NODE_TRIPLE, NODE_LEWIS], totalScore);
     }
   };
 

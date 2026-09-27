@@ -1166,7 +1166,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
   const overallMastery = useMemo(() => {
     const totalMastery = ALL_NODE_IDS.reduce((acc, id) => {
       const st = bktStates[id];
-      return acc + (st ? getMasteryLevel(st) : 0);
+      return acc + (st ? masteryProb(st) : 0);
     }, 0);
     return Math.round((totalMastery / ALL_NODE_IDS.length) * 100);
   }, [bktStates]);

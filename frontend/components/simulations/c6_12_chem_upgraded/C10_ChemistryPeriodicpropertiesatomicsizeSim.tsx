@@ -25,9 +25,9 @@ export type NodeId =
 
 export interface BKTState {
   pKnown: number;
-  pLearn: number;
-  pSlip: number;
-  pGuess: number;
+  pLearn?: number;
+  pSlip?: number;
+  pGuess?: number;
 }
 
 export interface ElementData {

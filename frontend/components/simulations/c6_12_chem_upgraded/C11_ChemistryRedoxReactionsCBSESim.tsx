@@ -143,7 +143,7 @@ const PREDICTION_QUESTIONS = [
 // ==========================================
 // SECTION 5: OBSERVATION QUESTIONS (MANDATORY)
 // ==========================================
-const OBSERVATION_QUESTIONS = [
+const OBSERVATION_QUESTIONS: { question: string; options: string[]; observableOptions?: string[]; correctIndex: number; nodeId: string }[] = [
   {
     question: 'What do you observe about the color of the titration solution at the exact equivalence point when titrated with potassium permanganate (KMnO₄)?',
     options: [
@@ -1663,7 +1663,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                 <div key={oIdx} className="bg-slate-950/60 border border-slate-800 rounded-xl p-5 space-y-3">
                   <h4 className="text-sm font-semibold text-emerald-300">{obs.question}</h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    {obs.observableOptions.map((opt, optIdx) => {
+                    {(obs.observableOptions ?? obs.options).map((opt, optIdx) => {
                       const isSelected = observationAnswers[oIdx] === optIdx;
                       return (
                         <button

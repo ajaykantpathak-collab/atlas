@@ -1072,7 +1072,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
               <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider">Curriculum Nodes Included:</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs">
                 {ALL_NODE_IDS.map(nodeId => {
-                  const nodeTitle = SUBJECT_CONFIG[nodeId]?.title || nodeId;
+                  const nodeTitle = SUBJECT_CONFIG[nodeId]?.name || nodeId;
                   const bkt = bktStates[nodeId];
                   const mastery = bkt ? Math.round(masteryProb(bkt) * 100) : 0;
                   return (

@@ -1481,7 +1481,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
     setSrsItems((prev) => ({ ...prev, [challenge.id]: updatedSRS }));
 
     if (isCorrect) {
-      audioManager.play('correct-drop');
+      audioManager.play('drop-correct');
       audioManager.play('chime');
       speechManager.speak('Correct answer! Fantastic understanding of hydrogen laboratory chemistry.');
       setChallengeScore((prev) => prev + 1);
@@ -1526,7 +1526,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
     let totalMastery = 0;
     ALL_NODE_IDS.forEach((id) => {
       const bkt = bktStates[id];
-      totalMastery += bkt ? getMasteryLevel(bkt) : 0;
+      totalMastery += bkt ? masteryProb(bkt) : 0;
     });
     return Math.round((totalMastery / ALL_NODE_IDS.length) * 100);
   }, [bktStates]);

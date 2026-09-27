@@ -1693,13 +1693,12 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                 {ALL_NODE_IDS.map((nodeId) => {
                   const bkt = bktStates[nodeId];
                   const mastery = masteryProb(bkt);
-                  const nodeConfig = SUBJECT_CONFIG.chemistry.nodes[nodeId as keyof typeof SUBJECT_CONFIG.chemistry.nodes];
                   return (
                     <div key={nodeId} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between space-y-2">
                       <div>
                         <div className="text-[10px] font-mono text-cyan-400 uppercase">{nodeId}</div>
                         <div className="text-xs font-bold text-slate-200 line-clamp-2 mt-1">
-                          {nodeConfig?.title || 'Alkane Concept'}
+                          {nodeId}
                         </div>
                       </div>
                       <div>

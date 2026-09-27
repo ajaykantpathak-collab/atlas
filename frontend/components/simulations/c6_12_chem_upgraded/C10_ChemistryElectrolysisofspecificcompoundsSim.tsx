@@ -1163,9 +1163,9 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
     const updatedBKT = bktUpdate(currentBKT, isCorrect);
     setBktStates((prev) => ({ ...prev, [activeChallenge.nodeId]: updatedBKT }));
 
-    const revItem = reviewItems.find((it) => it.id === activeChallenge.nodeId) || createReviewItem(activeChallenge.nodeId);
+    const revItem = reviewItems.find((it) => it.nodeId === activeChallenge.nodeId) || createReviewItem(activeChallenge.nodeId);
     const updatedSM2 = sm2Update(revItem, isCorrect ? 5 : 1);
-    setReviewItems((prev) => prev.map((it) => (it.id === activeChallenge.nodeId ? updatedSM2 : it)));
+    setReviewItems((prev) => prev.map((it) => (it.nodeId === activeChallenge.nodeId ? updatedSM2 : it)));
 
     if (isCorrect) {
       audioManager.play('drop-correct');

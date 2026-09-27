@@ -216,8 +216,8 @@ const MISCONCEPTIONS = [
 
 export interface ChallengeOption {
   text: string;
-  isCorrect: boolean;
-  explanation: string;
+  isCorrect?: boolean;
+  explanation?: string;
 }
 
 export interface Challenge {

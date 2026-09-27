@@ -1793,7 +1793,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                 {ALL_NODE_IDS.map((nodeId) => {
                   const bkt = bktStates[nodeId] || createBKTState();
                   const mastery = Math.round(masteryProb(bkt) * 100);
-                  const nodeTitle = SUBJECT_CONFIG[nodeId]?.title || nodeId;
+                  const nodeTitle = SUBJECT_CONFIG[nodeId]?.name || nodeId;
 
                   return (
                     <div key={nodeId} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">

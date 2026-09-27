@@ -2113,7 +2113,7 @@ export const C10_ChemistrySulphuricacidContactprocessSim: React.FC<ComponentProp
                   <div key={nodeId} className="bg-slate-950 border border-slate-800 p-3 rounded-xl text-center">
                     <div className="text-[10px] font-mono text-slate-400 mb-1">{nodeId}</div>
                     <div className="text-xs font-bold text-slate-200 mb-2 truncate">
-                      {SUBJECT_CONFIG.chemistry?.nodeTitles?.[nodeId] || nodeId}
+                      {(SUBJECT_CONFIG.chemistry as { nodeTitles?: Record<string, string> })?.nodeTitles?.[nodeId] || nodeId}
                     </div>
                     <div className={`text-xs font-extrabold uppercase px-2 py-0.5 rounded ${
                       level === 'mastered'

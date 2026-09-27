@@ -114,7 +114,7 @@ const PREDICTION_QUESTIONS = [
 // ==========================================
 // OBSERVATION QUESTIONS (MANDATORY)
 // ==========================================
-const OBSERVATION_QUESTIONS = [
+const OBSERVATION_QUESTIONS: { question: string; options: string[]; observableOptions?: string[]; correctIndex: number; nodeId: string }[] = [
   {
     question: 'What do you notice about the oxygen-oxygen bond lengths in the resonance hybrid of Ozone (O₃)?',
     options: [
@@ -1763,7 +1763,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                   <div key={oqIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <p className="font-semibold text-slate-200 text-sm mb-3">{oq.question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                      {oq.observableOptions.map((opt, oIdx) => {
+                      {(oq.observableOptions ?? oq.options).map((opt, oIdx) => {
                         const isSelected = observationAnswers[oqIdx] === oIdx;
                         const isCorrect = oIdx === oq.correctIndex;
                         const answered = observationAnswers[oqIdx] !== undefined;

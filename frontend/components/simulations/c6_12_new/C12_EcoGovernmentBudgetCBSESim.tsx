@@ -111,18 +111,12 @@ interface Misconception {
 
 interface BKTState {
   pKnown: number;
-  pLearn: number;
-  pSlip: number;
-  pGuess: number;
+  pLearn?: number;
+  pSlip?: number;
+  pGuess?: number;
 }
 
-interface SRSItem {
-  id: string;
-  interval: number;
-  repetition: number;
-  easeFactor: number;
-  dueDate: Date;
-}
+type SRSItem = import('../../../lib/srs').ReviewItem;
 
 // -----------------------------------------------------------------------------
 // MANDATORY CONTENT SECTIONS

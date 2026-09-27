@@ -1552,7 +1552,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
     let totalP = 0;
     ALL_NODE_IDS.forEach((id) => {
       const state = bktStates[id];
-      totalP += state ? state.p : 0.1;
+      totalP += state ? state.pKnown : 0.1;
     });
     return Math.round((totalP / ALL_NODE_IDS.length) * 100);
   }, [bktStates]);
@@ -2331,7 +2331,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                 {ALL_NODE_IDS.map((nodeId) => {
                   const meta = NODE_METADATA[nodeId];
                   const state = bktStates[nodeId];
-                  const masterPercent = Math.round((state ? state.p : 0.1) * 100);
+                  const masterPercent = Math.round((state ? state.pKnown : 0.1) * 100);
 
                   return (
                     <div key={nodeId} className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">

@@ -2149,7 +2149,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                     <div key={nodeId} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 flex items-center justify-between">
                       <div>
                         <div className="text-xs font-bold text-slate-200 truncate max-w-[170px]">
-                          {config.label || nodeId}
+                          {('label' in config ? config.label : config.name) || nodeId}
                         </div>
                         <div className="text-[10px] text-slate-500 font-mono">{nodeId}</div>
                       </div>

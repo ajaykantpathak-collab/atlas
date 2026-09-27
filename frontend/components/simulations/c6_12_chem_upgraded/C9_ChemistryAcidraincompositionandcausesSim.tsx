@@ -892,7 +892,7 @@ const ReactionMechanismDiagram: React.FC<{ activeTab: 'sulfur' | 'nitrogen' }> =
             <g transform="translate(40, 40)">
               <rect width="210" height="140" rx="8" fill="#1e293b" stroke="#3b82f6" strokeWidth="1.5" />
               <text x="105" y="24" fill="#93c5fd" fontSize="12" fontWeight="bold" textAnchor="middle">1. Fuel Combustion</text>
-              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFontFamily="monospace" fontWeight="bold" textAnchor="middle">S + O₂ → SO₂</text>
+              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFamily="monospace" fontWeight="bold" textAnchor="middle">S + O₂ → SO₂</text>
               <text x="105" y="85" fill="#94a3b8" fontSize="10" textAnchor="middle">Elemental sulfur impurity</text>
               <text x="105" y="100" fill="#94a3b8" fontSize="10" textAnchor="middle">burns in air releasing SO₂ gas</text>
               <circle cx="105" cy="122" r="8" fill="#eab308" />
@@ -906,7 +906,7 @@ const ReactionMechanismDiagram: React.FC<{ activeTab: 'sulfur' | 'nitrogen' }> =
             <g transform="translate(295, 40)">
               <rect width="210" height="140" rx="8" fill="#1e293b" stroke="#818cf8" strokeWidth="1.5" />
               <text x="105" y="24" fill="#c7d2fe" fontSize="12" fontWeight="bold" textAnchor="middle">2. Catalytic Oxidation</text>
-              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFontFamily="monospace" fontWeight="bold" textAnchor="middle">2SO₂ + O₂ → 2SO₃</text>
+              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFamily="monospace" fontWeight="bold" textAnchor="middle">2SO₂ + O₂ → 2SO₃</text>
               <text x="105" y="85" fill="#94a3b8" fontSize="10" textAnchor="middle">Catalyzed by soot particulates</text>
               <text x="105" y="100" fill="#94a3b8" fontSize="10" textAnchor="middle">& metallic dust in clouds</text>
               <rect x="70" y="112" width="70" height="16" rx="3" fill="#312e81" />
@@ -920,7 +920,7 @@ const ReactionMechanismDiagram: React.FC<{ activeTab: 'sulfur' | 'nitrogen' }> =
             <g transform="translate(550, 40)">
               <rect width="210" height="140" rx="8" fill="#1e293b" stroke="#ef4444" strokeWidth="1.5" />
               <text x="105" y="24" fill="#fca5a5" fontSize="12" fontWeight="bold" textAnchor="middle">3. Cloud Dissolution</text>
-              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFontFamily="monospace" fontWeight="bold" textAnchor="middle">SO₃ + H₂O → H₂SO₄</text>
+              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFamily="monospace" fontWeight="bold" textAnchor="middle">SO₃ + H₂O → H₂SO₄</text>
               <text x="105" y="85" fill="#94a3b8" fontSize="10" textAnchor="middle">Rapid hydrolysis yielding</text>
               <text x="105" y="100" fill="#94a3b8" fontSize="10" textAnchor="middle">strong sulfuric acid in rain</text>
               <text x="105" y="124" fill="#ef4444" fontSize="11" fontWeight="bold" textAnchor="middle">H⁺ + HSO₄⁻ Ions</text>
@@ -932,7 +932,7 @@ const ReactionMechanismDiagram: React.FC<{ activeTab: 'sulfur' | 'nitrogen' }> =
             <g transform="translate(40, 40)">
               <rect width="210" height="140" rx="8" fill="#1e293b" stroke="#3b82f6" strokeWidth="1.5" />
               <text x="105" y="24" fill="#93c5fd" fontSize="12" fontWeight="bold" textAnchor="middle">1. Thermal Fixation</text>
-              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFontFamily="monospace" fontWeight="bold" textAnchor="middle">N₂ + O₂ → 2NO</text>
+              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFamily="monospace" fontWeight="bold" textAnchor="middle">N₂ + O₂ → 2NO</text>
               <text x="105" y="85" fill="#94a3b8" fontSize="10" textAnchor="middle">Occurs at &gt;1500°C in engines</text>
               <text x="105" y="100" fill="#94a3b8" fontSize="10" textAnchor="middle">or during lightning bolts</text>
               <path d="M 95 112 L 115 112 L 100 128 L 115 128 L 95 135" fill="none" stroke="#eab308" strokeWidth="2" />
@@ -945,7 +945,7 @@ const ReactionMechanismDiagram: React.FC<{ activeTab: 'sulfur' | 'nitrogen' }> =
             <g transform="translate(295, 40)">
               <rect width="210" height="140" rx="8" fill="#1e293b" stroke="#818cf8" strokeWidth="1.5" />
               <text x="105" y="24" fill="#c7d2fe" fontSize="12" fontWeight="bold" textAnchor="middle">2. Air Oxidation</text>
-              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFontFamily="monospace" fontWeight="bold" textAnchor="middle">2NO + O₂ → 2NO₂</text>
+              <text x="105" y="55" fill="#f8fafc" fontSize="14" fontFamily="monospace" fontWeight="bold" textAnchor="middle">2NO + O₂ → 2NO₂</text>
               <text x="105" y="85" fill="#94a3b8" fontSize="10" textAnchor="middle">Nitric oxide oxidizes to form</text>
               <text x="105" y="100" fill="#94a3b8" fontSize="10" textAnchor="middle">choking reddish-brown NO₂</text>
               <rect x="75" y="112" width="60" height="16" rx="3" fill="#b45309" />
@@ -959,8 +959,8 @@ const ReactionMechanismDiagram: React.FC<{ activeTab: 'sulfur' | 'nitrogen' }> =
             <g transform="translate(550, 40)">
               <rect width="210" height="140" rx="8" fill="#1e293b" stroke="#ef4444" strokeWidth="1.5" />
               <text x="105" y="24" fill="#fca5a5" fontSize="12" fontWeight="bold" textAnchor="middle">3. Aqueous Synthesis</text>
-              <text x="105" y="50" fill="#f8fafc" fontSize="12" fontFontFamily="monospace" fontWeight="bold" textAnchor="middle">4NO₂ + 2H₂O + O₂</text>
-              <text x="105" y="68" fill="#f8fafc" fontSize="12" fontFontFamily="monospace" fontWeight="bold" textAnchor="middle">→ 4HNO₃</text>
+              <text x="105" y="50" fill="#f8fafc" fontSize="12" fontFamily="monospace" fontWeight="bold" textAnchor="middle">4NO₂ + 2H₂O + O₂</text>
+              <text x="105" y="68" fill="#f8fafc" fontSize="12" fontFamily="monospace" fontWeight="bold" textAnchor="middle">→ 4HNO₃</text>
               <text x="105" y="92" fill="#94a3b8" fontSize="10" textAnchor="middle">Dissolves in cloud drops</text>
               <text x="105" y="106" fill="#94a3b8" fontSize="10" textAnchor="middle">forming strong nitric acid</text>
               <text x="105" y="126" fill="#ef4444" fontSize="11" fontWeight="bold" textAnchor="middle">H⁺ + NO₃⁻ Ions</text>

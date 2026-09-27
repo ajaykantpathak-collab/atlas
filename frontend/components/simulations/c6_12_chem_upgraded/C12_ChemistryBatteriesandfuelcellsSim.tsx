@@ -836,7 +836,7 @@ const DryCellMercuryDiagramSVG: React.FC<{ activeType: 'dry' | 'mercury' }> = ({
             <text x="145" y="25" textAnchor="middle" fill="#38bdf8" fontSize="13" fontWeight="bold">Electrochemistry Equations</text>
             
             <text x="15" y="55" fill="#f43f5e" fontSize="11" fontWeight="bold">ANODE (Oxidation):</text>
-            <text x="25" y="75" fill="#fca5a5" fontSize="11" fontMonospace="true">Zn(s) → Zn²⁺(aq) + 2e⁻</text>
+            <text x="25" y="75" fill="#fca5a5" fontSize="11" fontFamily="monospace">Zn(s) → Zn²⁺(aq) + 2e⁻</text>
             
             <text x="15" y="105" fill="#10b981" fontSize="11" fontWeight="bold">CATHODE (Reduction):</text>
             <text x="25" y="125" fill="#6ee7b7" fontSize="10">2MnO₂ + 2NH₄⁺ + 2e⁻ →</text>
@@ -1128,7 +1128,7 @@ const HydrogenOxygenFuelCellSVG: React.FC<{
           <line x1="0" y1="70" x2="250" y2="70" stroke="#334155" strokeWidth="1" />
 
           <text x="0" y="90" fill="#fbbf24" fontSize="11" fontWeight="bold">Theoretical Efficiency Formula:</text>
-          <text x="20" y="110" fill="#fde68a" fontSize="11" fontMonospace="true">η = (ΔG° / ΔH°) × 100</text>
+          <text x="20" y="110" fill="#fde68a" fontSize="11" fontFamily="monospace">η = (ΔG° / ΔH°) × 100</text>
           <text x="20" y="130" fill="#4ade80" fontSize="13" fontWeight="bold">η_max = {theoreticalEff.toFixed(1)} %</text>
 
           <rect x="0" y="145" width="250" height="40" rx="6" fill="#1e293b" stroke="#334155" />
@@ -2083,7 +2083,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                           {mastery}
                         </span>
                         <div className="text-xs text-slate-500 font-mono mt-1">
-                          P(L): {(bkt.pL * 100).toFixed(0)}%
+                          P(L): {(bkt.pKnown * 100).toFixed(0)}%
                         </div>
                       </div>
                     </div>

@@ -2069,7 +2069,7 @@ export default function C10_ChemistryClassificationofbasesSim({
 
                   <button
                     onClick={() => {
-                      audioManager.play('flame');
+                      audioManager.play('whoosh');
                       setIsHeating(!isHeating);
                     }}
                     className={`px-4 py-2 text-xs font-bold rounded-lg shadow transition flex items-center gap-1.5 ${
@@ -2390,7 +2390,7 @@ export default function C10_ChemistryClassificationofbasesSim({
             <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
               {ALL_NODE_IDS.map((nodeId) => {
                 const bkt = bktStateMap[nodeId] as { pMastery?: number } | undefined;
-                const pMastery = bkt?.pKnown ?? 0.1;
+                const pMastery = bkt?.pMastery ?? 0.1;
                 const percent = Math.round(pMastery * 100);
 
                 return (

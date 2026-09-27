@@ -168,7 +168,7 @@ const PREDICTION_QUESTIONS = [
 // -----------------------------------------------------------------------------
 // SECTION 5: OBSERVATION_QUESTIONS
 // -----------------------------------------------------------------------------
-const OBSERVATION_QUESTIONS = [
+const OBSERVATION_QUESTIONS: { question: string; options: string[]; observableOptions?: string[]; correctIndex: number; nodeId: string }[] = [
   {
     question: 'What do you notice about the total number of MOLECULES before and after balancing N₂ + 3H₂ → 2NH₃?',
     options: [
@@ -1950,7 +1950,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                       <div className="text-xs font-bold text-emerald-400 mb-2">OBSERVATION #{idx + 1}</div>
                       <p className="text-sm font-semibold text-slate-200 mb-3">{oq.question}</p>
                       <div className="space-y-2 mb-4">
-                        {oq.observableOptions.map((opt, oIdx) => (
+                        {(oq.observableOptions ?? oq.options).map((opt, oIdx) => (
                           <button
                             key={oIdx}
                             onClick={() => {

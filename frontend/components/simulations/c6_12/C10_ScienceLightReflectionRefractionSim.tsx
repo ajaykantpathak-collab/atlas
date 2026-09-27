@@ -858,7 +858,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
                 </div>
                 {!done && (
                   <div className="mt-2">
-                    <button onClick={() => showHint(ch.id, ch.hints)} className="min-h-9 px-3 rounded-lg bg-amber-950/60 border border-amber-800 text-[11px] font-bold text-amber-300">
+                    <button onClick={() => showHint(ch.id, ch.hints as [string, string, string])} className="min-h-9 px-3 rounded-lg bg-amber-950/60 border border-amber-800 text-[11px] font-bold text-amber-300">
                       hint {Math.min(lvl + 1, ch.hints.length)}/3
                     </button>
                     {lvl > 0 && (

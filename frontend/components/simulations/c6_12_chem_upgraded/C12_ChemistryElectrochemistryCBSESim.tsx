@@ -35,8 +35,8 @@ import {
 } from 'lucide-react';
 import { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine';
 import type { SoundEffect } from '../../../lib/sim-engine/types';
-import { createReviewItem, sm2Update } from '../../../lib/srs';
-import { createBKTState, bktUpdate, getMasteryLevel, masteryProb } from '../../../lib/bkt';
+import { createReviewItem, sm2Update, type ReviewItem } from '../../../lib/srs';
+import { createBKTState, bktUpdate, getMasteryLevel, masteryProb, type BKTState } from '../../../lib/bkt';
 import { recordGameScore, getNodeMastery } from '../../../lib/masteryStore';
 import { SUBJECT_CONFIG } from '../../../lib/topicGraph';
 
@@ -294,7 +294,7 @@ const PREDICTION_QUESTIONS = [
   }
 ];
 
-const OBSERVATION_QUESTIONS = [
+const OBSERVATION_QUESTIONS: { question: string; options: string[]; observableOptions?: string[]; correctIndex: number; nodeId: string }[] = [
   {
     question: 'When plotting Molar Conductivity (Λm) versus square root of concentration (√C), why does CH3COOH show a steep exponential curve near zero concentration?',
     options: [
@@ -1485,16 +1485,16 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
   }, [currentChallengeIndex, resetHintTimer]);
 
   // BKT State & SM2 SRS State Tracking
-  const [bktStates, setBktStates] = useState<Record<string, unknown>>(() => {
-    const initial: Record<string, unknown> = {};
+  const [bktStates, setBktStates] = useState<Record<string, BKTState>>(() => {
+    const initial: Record<string, BKTState> = {};
     ALL_NODE_IDS.forEach(nodeId => {
       initial[nodeId] = createBKTState();
     });
     return initial;
   });
 
-  const [srsItems, setSrsItems] = useState<Record<string, unknown>>(() => {
-    const initial: Record<string, unknown> = {};
+  const [srsItems, setSrsItems] = useState<Record<string, ReviewItem>>(() => {
+    const initial: Record<string, ReviewItem> = {};
     ALL_NODE_IDS.forEach(nodeId => {
       initial[nodeId] = createReviewItem(nodeId);
     });
@@ -2152,7 +2152,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <p className="text-xs font-semibold text-slate-200">{oq.question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                      {oq.observableOptions.map((opt, oIdx) => (
+                      {(oq.observableOptions ?? oq.options).map((opt, oIdx) => (
                         <div
                           key={oIdx}
                           className={`p-2.5 text-xs rounded-lg border ${

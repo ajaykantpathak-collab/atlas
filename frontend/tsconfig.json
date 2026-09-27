@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es2020",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -13,13 +17,39 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [{ "name": "next" }],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "paths": {
-      "@/*": ["./*"],
-      "katex/contrib/auto-render": ["./types/katex-auto-render.d.ts"]
+      "@/*": [
+        "./*"
+      ],
+      "katex/contrib/auto-render": [
+        "./types/katex-auto-render.d.ts"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "components/simulations", "components/sim-primitives", "lib/sim-engine", "lib/game-engine", "app/_archive", "scripts",
-    "components/sims_v2/generated", "components/sims_v2/class*/v3", "components/sims_v2/class*/v3w", "components/sims_v2/class*/*.ts"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "components/simulations",
+    "components/sim-primitives",
+    "lib/sim-engine",
+    "lib/game-engine",
+    "app/_archive",
+    "scripts",
+    "components/sims_v2/generated",
+    "components/sims_v2/class*/v3",
+    "components/sims_v2/class*/v3w",
+    "components/sims_v2/class*/*.ts",
+      ".next-mobile",
+      ".next-mobile-dev"
+  ]
 }

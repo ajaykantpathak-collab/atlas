@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine';
 import { createReviewItem, sm2Update, SRSItem } from '../../../lib/srs';
-import { createBKTState, bktUpdate, getMasteryLevel, BKTState } from '../../../lib/bkt';
+import { createBKTState, bktUpdate, getMasteryLevel, masteryProb, BKTState } from '../../../lib/bkt';
 import { recordGameScore, getNodeMastery } from '../../../lib/masteryStore';
 import { SUBJECT_CONFIG } from '../../../lib/topicGraph';
 
@@ -1598,7 +1598,7 @@ const ChallengesTab: React.FC<ChallengesTabProps> = ({ challenges, onAnswerChall
   const currentChallenge = challenges[currentIdx];
   const currentNodeInfo = NODES_DATA[currentChallenge.nodeId];
   const nodeBKT = bktState[currentChallenge.nodeId];
-  const nodeMastery = nodeBKT ? getMasteryLevel(nodeBKT) : 0;
+  const nodeMastery = nodeBKT ? masteryProb(nodeBKT) : 0;
 
   // Auto hint timer (10s inactivity)
   useEffect(() => {
@@ -1845,7 +1845,7 @@ const SummaryTab: React.FC<SummaryTabProps> = ({ bktState, gameScore }) => {
           {ALL_NODE_IDS.map((nodeId) => {
             const info = NODES_DATA[nodeId];
             const bkt = bktState[nodeId];
-            const mastery = bkt ? getMasteryLevel(bkt) : 0;
+            const mastery = bkt ? masteryProb(bkt) : 0;
             const pct = Math.round(mastery * 100);
 
             return (

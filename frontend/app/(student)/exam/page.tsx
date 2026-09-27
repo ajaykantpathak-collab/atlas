@@ -5,13 +5,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
 import { getAuthToken } from "@/lib/api";
+import PremiumGate from "@/components/premium/PremiumGate";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 type Language = 'en' | 'hinglish' | 'hindi';
 type ExamPhase = 'select' | 'ready' | 'exam' | 'review' | 'results';
 type TimerWarning = 'normal' | 'yellow' | 'red' | 'flashing';
-type Section = 'A' | 'B';
+type Section = 'A' | 'B' | 'C';
 type QType = 'mcq' | 'short' | 'long' | 'verylong';
 
 interface Question {
@@ -616,6 +617,11 @@ const i18n: Record<string, Record<Language, string>> = {
   writeYourAnswer: { en: 'Write your answer here...', hinglish: 'अपना उत्तर यहां लिखें...', hindi: 'अपना उत्तर यहां लिखें...' },
   selectOption: { en: 'Select your answer', hinglish: 'अपना उत्तर चुनें', hindi: 'अपना उत्तर चुनें' },
   yourSelection: { en: 'Your Selection', hinglish: 'आपका चयन', hindi: 'आपका चयन' },
+  // Missing keys crashed QuestionView on exam start: i18n.subTopic[lang] threw
+  // "Cannot read properties of undefined (reading 'en')" because these were
+  // never defined in this dict.
+  subTopic: { en: 'Sub-topic', hinglish: 'उप-विषय', hindi: 'उप-विषय' },
+  topic: { en: 'Topic', hinglish: 'विषय', hindi: 'विषय' },
 };
 
 // ─── Strategy Tips ────────────────────────────────────────────────────────────
@@ -635,7 +641,7 @@ const tipsData: Tip[] = [
     icon: '📝',
     title: { en: 'Write Step-by-Step', hinglish: 'चरण-दर-चरण लिखें', hindi: 'चरण-दर-चरण लिखें' },
     description: {
-      en: 'ISC marking gives step marks. Show all working even if the final answer is wrong.',
+      en: 'Board marking gives step marks. Show all working even if the final answer is wrong.',
       hinglish: 'ISC मार्किंग चरण अंक देती है। अंतिम उत्तर गलत हो पर भी सारा काम दिखाएं।',
       hindi: 'ISC मार्किंग चरण अंक देती है। अंतिम उत्तर गलत हो पर भी सारा काम दिखाएं।',
     },
@@ -791,9 +797,13 @@ const GlassCard: React.FC<{
 function SubjectSelect({
   onSelect,
   lang,
+  apiSubjects = [],
+  board = 'CBSE',
 }: {
   onSelect: (id: string) => void;
   lang: Language;
+  apiSubjects?: SubjectConfig[];
+  board?: string;
 }) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 sm:p-6">
@@ -809,10 +819,10 @@ function SubjectSelect({
         </h1>
         <p className="text-white/50 text-sm sm:text-base">
           {lang === 'hinglish'
-            ? 'ISC बोर्ड परीक्षा के लिए रियल-टाइम सिमुलेटर'
+            ? `${board} बोर्ड परीक्षा के लिए रियल-टाइम सिमुलेटर`
             : lang === 'hindi'
-            ? 'ISC बोर्ड परीक्षा के लिए रियल-टाइम सिमुलेटर'
-            : 'Real-time simulator for ISC Board Exams'}
+            ? `${board} बोर्ड परीक्षा के लिए रियल-टाइम सिमुलेटर`
+            : `Real-time simulator for ${board} Board Exams`}
         </p>
       </motion.div>
 
@@ -849,7 +859,37 @@ function SubjectSelect({
         ))}
       </motion.div>
 
-      {/* Subject Grid */}
+      {/* Real exams for this student's class+board (CBSE/CISCE pre-boards) */}
+      {apiSubjects.length > 0 && (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 w-full max-w-3xl mb-6">
+          {apiSubjects.map((subj) => (
+            <GlassCard
+              key={subj.id}
+              className="p-6 sm:p-8 text-center border-2 border-amber-400/40"
+              onClick={() => onSelect(subj.id)}
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  onSelect(subj.id);
+                }
+              }}
+              role="button"
+              aria-label={`${subj.name[lang]} - ${subj.totalMarks} marks`}
+            >
+              <div className="text-3xl mb-2">{subj.icon}</div>
+              <h3 className="text-white font-bold text-base mb-1">{subj.name[lang]}</h3>
+              <p className="text-amber-300/80 text-[10px] font-bold uppercase tracking-widest mb-2">Your Class · Graded by Server</p>
+              <p className="text-white/40 text-xs">{subj.totalMarks} {i18n.marks[lang]} · {subj.durationMinutes} {i18n.minutes[lang]}</p>
+            </GlassCard>
+          ))}
+        </div>
+      )}
+
+      {/* Subject Grid — ISC simulator set */}
+      <p className="text-white/30 text-[10px] uppercase tracking-[0.25em] font-bold mb-3">
+        {apiSubjects.length > 0 ? 'Sample Simulator Papers (extra practice)' : ''}
+      </p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 w-full max-w-3xl">
         {subjects.map((subj, i) => (
           <GlassCard
@@ -903,10 +943,10 @@ function SubjectSelect({
         className="mt-8 text-white/20 text-xs text-center"
       >
         {lang === 'hindi'
-          ? 'ISC बोर्ड परीक्षा मोडेल प्रश्नों पर आधारित'
+          ? `${board} बोर्ड परीक्षा मोडेल प्रश्नों पर आधारित`
           : lang === 'hinglish'
-          ? 'ISC Board exam model paper ke questions par aadhaarit'
-          : 'Based on ISC Board exam model paper pattern'}
+          ? `${board} Board exam model paper ke questions par aadhaarit`
+          : `Based on ${board} Board exam model paper pattern`}
       </motion.p>
     </div>
   );
@@ -1569,18 +1609,20 @@ function ResultsScreen({
   answers,
   lang,
   onRetake,
+  serverResult,
 }: {
   subject: SubjectConfig;
   answers: Map<string, AnswerState>;
   lang: Language;
   onRetake: () => void;
+  serverResult?: any;
 }) {
   // Calculate results
   const results = useMemo((): ExamResult => {
     const totalQuestions = subject.sections.flatMap(s => s.questions);
     let totalEarned = 0;
     let correctCount = 0;
-    const sectionBreakdown: Record<Section, { earned: number; total: number }> = { A: { earned: 0, total: 0 }, B: { earned: 0, total: 0 } };
+    const sectionBreakdown: Record<Section, { earned: number; total: number }> = { A: { earned: 0, total: 0 }, B: { earned: 0, total: 0 }, C: { earned: 0, total: 0 } };
     const topicMap = new Map<string, { earned: number; total: number; correct: number; time: number; suggested: number; questions: number }>();
     const totalTimeSpent = 0;
 
@@ -1654,7 +1696,7 @@ function ResultsScreen({
       timeAnalysis: {
         totalTime: subject.durationMinutes * 60,
         avgTimePerMark: Math.round((subject.durationMinutes * 60) / subject.totalMarks),
-        sectionTime: { A: 0, B: 0 },
+        sectionTime: { A: 0, B: 0, C: 0 },
         topicTime: {},
         fastestQuestion: null,
         slowestQuestion: null,
@@ -1666,6 +1708,27 @@ function ResultsScreen({
       passed: totalEarned >= subject.passMarks,
     };
   }, [answers, subject]);
+
+  // Backend exams are graded server-side — the API's scorecard overrides
+  // the local estimate (client never sees the answer key).
+  const display = useMemo((): ExamResult => {
+    if (!serverResult || serverResult.totalScore == null) return results;
+    const pct = Number(serverResult.percentage ?? 0);
+    const sbd: Record<Section, { earned: number; total: number }> =
+      { ...results.sectionBreakdown };
+    for (const s of serverResult.sectionScores ?? []) {
+      const key = (/a/i.test(s.sectionId ?? '') ? 'A' : /b/i.test(s.sectionId ?? '') ? 'B' : 'C') as Section;
+      sbd[key] = { earned: Number(s.score ?? 0), total: Number(s.max ?? 0) };
+    }
+    return {
+      ...results,
+      totalEarned: Number(serverResult.totalScore ?? 0),
+      percentage: pct,
+      sectionBreakdown: sbd,
+      grade: serverResult.grade ?? results.grade,
+      passed: pct >= (subject.passMarks / subject.totalMarks) * 100,
+    };
+  }, [results, serverResult, subject]);
 
   return (
     <div className="min-h-screen py-6 sm:py-10 px-3 sm:px-6 pb-20" lang={lang === 'hindi' ? 'hi' : 'en'}>
@@ -1691,22 +1754,22 @@ function ResultsScreen({
                 <motion.circle
                   cx="100" cy="100" r="88"
                   fill="none"
-                  stroke={results.passed ? '#10b981' : '#ef4444'}
+                  stroke={display.passed ? '#10b981' : '#ef4444'}
                   strokeWidth="10"
                   strokeLinecap="round"
                   strokeDasharray={`${2 * Math.PI * 88}`}
                   initial={{ strokeDashoffset: `${2 * Math.PI * 88}` }}
-                  animate={{ strokeDashoffset: `${2 * Math.PI * 88 * (1 - results.percentage / 100)}` }}
+                  animate={{ strokeDashoffset: `${2 * Math.PI * 88 * (1 - display.percentage / 100)}` }}
                   transition={{ duration: 1.5, delay: 0.3, ease: 'easeOut' }}
                   className="drop-shadow-[0_0_12px_rgba(16,185,129,0.3)]"
                 />
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <span className="text-4xl sm:text-5xl font-black text-white">
-                  {results.percentage}%
+                  {display.percentage}%
                 </span>
                 <span className="text-white/40 text-sm mt-1">
-                  {results.totalEarned}/{results.totalMarks} {i18n.marks[lang]}
+                  {display.totalEarned}/{display.totalMarks} {i18n.marks[lang]}
                 </span>
               </div>
             </div>
@@ -1714,27 +1777,27 @@ function ResultsScreen({
             {/* Grade & Status */}
             <div className="flex items-center justify-center gap-4">
               <span className="px-4 py-1.5 rounded-full bg-white/15 text-white text-lg font-bold">
-                {results.grade}
+                {display.grade}
               </span>
               <span className={`
                 px-4 py-1.5 rounded-full text-sm font-semibold
-                ${results.passed
+                ${display.passed
                   ? 'bg-emerald-500/20 text-emerald-300'
                   : 'bg-red-500/20 text-red-300'
                 }
               `}>
-                {results.passed ? '✓ ' + i18n.passed[lang] : '⚠ ' + i18n.failed[lang]}
+                {display.passed ? '✓ ' + i18n.passed[lang] : '⚠ ' + i18n.failed[lang]}
               </span>
             </div>
 
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-4 mt-8 pt-6 border-t border-white/[0.08]">
               <div>
-                <p className="text-2xl font-bold text-white">{results.correctCount}</p>
-                <p className="text-white/40 text-xs">{i18n.correctQuestions[lang]} {i18n.outOf[lang]} {results.totalQuestions}</p>
+                <p className="text-2xl font-bold text-white">{display.correctCount}</p>
+                <p className="text-white/40 text-xs">{i18n.correctQuestions[lang]} {i18n.outOf[lang]} {display.totalQuestions}</p>
               </div>
               <div>
-                <p className="text-2xl font-bold text-white">{results.percentage}%</p>
+                <p className="text-2xl font-bold text-white">{display.percentage}%</p>
                 <p className="text-white/40 text-xs">{i18n.totalScore[lang]}</p>
               </div>
               <div>
@@ -1757,7 +1820,7 @@ function ResultsScreen({
             </h3>
             <div className="space-y-4">
               {subject.sections.map(section => {
-                const bd = results.sectionBreakdown[section.id];
+                const bd = display.sectionBreakdown[section.id];
                 const pct = bd.total > 0 ? (bd.earned / bd.total) * 100 : 0;
                 return (
                   <div key={section.id} className="space-y-2">
@@ -1802,7 +1865,7 @@ function ResultsScreen({
               🎯 {i18n.topicMastery[lang]}
             </h3>
             <div className="space-y-3">
-              {results.topicMastery.map((topic) => (
+              {display.topicMastery.map((topic) => (
                 <div key={topic.topic} className="flex items-center gap-3 p-3 rounded-xl bg-white/[0.03] border border-white/[0.05]">
                   <div className="flex-1 min-w-0">
                     <p className="text-white text-sm font-medium truncate">{topic.topic}</p>
@@ -1831,6 +1894,41 @@ function ResultsScreen({
           </GlassCard>
         </motion.div>
 
+        {/* EXAM→LEARN loop: the weak topics from topicMastery become
+            study links — a missed section is a plan, not a dead end. */}
+        {display.topicMastery.some(t => t.efficiency === 'needs-work' || (t.earnedMarks / (t.totalMarks || 1)) < 0.5) && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.33 }}
+          >
+            <GlassCard className="p-5 sm:p-6">
+              <h3 className="text-white font-bold text-lg mb-1 flex items-center gap-2">
+                📚 {lang === 'hindi' || lang === 'hinglish' ? 'कमज़ोर टॉपिक पढ़ो' : 'Study your weak topics'}
+              </h3>
+              <p className="text-white/40 text-xs mb-4">
+                {lang === 'hindi' || lang === 'hinglish'
+                  ? 'ये टॉपिक सबसे ज़्यादा मार्क्स गँवाए — अभी Learn में खोलो।'
+                  : 'These lost you the most marks — open them in Learn now.'}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {display.topicMastery
+                  .filter(t => t.efficiency === 'needs-work' || (t.earnedMarks / (t.totalMarks || 1)) < 0.5)
+                  .slice(0, 4)
+                  .map(t => (
+                    <a
+                      key={t.topic}
+                      href={`/learn?search=${encodeURIComponent(t.topic)}`}
+                      className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-brand-500/15 border border-brand-500/30 text-brand-300 text-xs font-semibold hover:bg-brand-500/25 transition-colors"
+                    >
+                      {t.topic} →
+                    </a>
+                  ))}
+              </div>
+            </GlassCard>
+          </motion.div>
+        )}
+
         {/* Time Analysis */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -1847,13 +1945,13 @@ function ResultsScreen({
                 <p className="text-white/30 text-xs">{i18n.duration[lang]}</p>
               </div>
               <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.05] text-center">
-                <p className="text-xl font-bold text-white">{results.timeAnalysis.avgTimePerMark}s</p>
+                <p className="text-xl font-bold text-white">{display.timeAnalysis.avgTimePerMark}s</p>
                 <p className="text-white/30 text-xs">{i18n.averageTimePerMark[lang]}</p>
               </div>
             </div>
             <div className="mt-4 p-4 rounded-xl bg-white/[0.03] border border-white/[0.05]">
               <p className="text-white/50 text-xs leading-relaxed">
-                {results.percentage >= 70
+                {display.percentage >= 70
                   ? (lang === 'hinglish'
                     ? 'बहुत अच्छा समय प्रबंधन! आपने अपना समय अच्छी तरह से वितरित किया है।'
                     : lang === 'hindi'
@@ -1880,7 +1978,7 @@ function ResultsScreen({
               💡 {i18n.strategyTips[lang]}
             </h3>
             <div className="space-y-3">
-              {results.strategyTips.map((tip, i) => (
+              {display.strategyTips.map((tip, i) => (
                 <motion.div
                   key={i}
                   initial={{ opacity: 0, x: -10 }}
@@ -1937,17 +2035,100 @@ function ResultsScreen({
 // ─── Main Exam Page Component ────────────────────────────────────────────────
 
 export default function ExamPage() {
+  // Exam Simulator is premium-gated per the landing pricing.
+  return (
+    <PremiumGate feature="exam">
+      <ExamInner />
+    </PremiumGate>
+  );
+}
+
+function ExamInner() {
   const [store, actions] = useExamStore();
   const { language, selectedSubject, phase, examAnswers, backendExamId } = store;
+  const [apiSubjects, setApiSubjects] = useState<SubjectConfig[]>([]);
+  const [serverResult, setServerResult] = useState<any>(null);
+  // The signed-in student's board — branding must never advertise the
+  // wrong board to a child (C10 audit: a CBSE class-10 account saw
+  // "ISC Board Exams" here).
+  const [myBoard, setMyBoard] = useState('CBSE');
+
+  // Load REAL exams for this student's class+board — the hardcoded ISC
+  // class-12 set below is a simulator fallback, not the audience default.
+  useEffect(() => {
+    const apiBase = process.env.NEXT_PUBLIC_API_URL ?? '';
+    const token = typeof window !== 'undefined' ? getAuthToken() : null;
+    const headers: Record<string, string> = token
+      ? { Authorization: `Bearer ${token}` }
+      : {};
+    (async () => {
+      try {
+        const meRes = await fetch(`${apiBase}/api/auth/me`, { headers });
+        const me = meRes.ok ? await meRes.json() : null;
+        const myClass = Number(me?.class_level) || 0;
+        setMyBoard(me?.board === 'CISCE' ? 'CISCE' : 'CBSE');
+        const listRes = await fetch(`${apiBase}/api/assessment/exams`, { headers });
+        if (!listRes.ok) return;
+        const exams = await listRes.json();
+        const built: SubjectConfig[] = [];
+        for (const ex of Array.isArray(exams) ? exams : (exams.exams ?? exams.items ?? [])) {
+          if (myClass && ex.classLevel && Number(ex.classLevel) !== myClass) continue;
+          const det = await fetch(
+            `${apiBase}/api/assessment/exams/${ex.examId ?? ex.exam_id}`,
+            { headers });
+          if (!det.ok) continue;
+          const d = await det.json();
+          const secId = (s: string): Section =>
+            (/a/i.test(s) ? 'A' : /b/i.test(s) ? 'B' : 'C');
+          const sections: SectionConfig[] = (d.sections ?? []).map((s: any) => ({
+            id: secId(String(s.sectionId ?? s.section_id ?? 'a')),
+            label: { en: s.title ?? 'Section', hinglish: s.title ?? 'Section', hindi: s.title ?? 'Section' },
+            description: { en: s.instructions ?? '', hinglish: s.instructions ?? '', hindi: s.instructions ?? '' },
+            isCompulsory: true,
+            questions: (s.questions ?? []).map((q: any, i: number) => ({
+              id: String(q.id),
+              number: i + 1,
+              section: secId(String(s.sectionId ?? s.section_id ?? 'a')),
+              type: (q.options?.length ? 'mcq' : 'long') as QType,
+              marks: q.marks ?? 1,
+              topic: s.title ?? '',
+              subTopic: '',
+              text: q.question ?? '',
+              options: q.options?.length ? q.options : undefined,
+              correctAnswer: '',   // graded server-side on submit
+              explanation: '',
+              difficulty: 'medium' as const,
+              tags: [],
+              maxTimeSuggestion: 180,
+            })),
+          }));
+          built.push({
+            id: String(ex.examId ?? ex.exam_id),
+            name: { en: d.title ?? ex.title, hinglish: d.title ?? ex.title, hindi: d.title ?? ex.title },
+            icon: '📝',
+            totalMarks: d.totalMarks ?? d.total_marks ?? 80,
+            durationMinutes: d.durationMinutes ?? d.duration_minutes ?? 120,
+            sections,
+            passMarks: Math.round((d.totalMarks ?? 80) * 0.33),
+          });
+        }
+        setApiSubjects(built);
+      } catch { /* API exams unavailable — simulator set remains */ }
+    })();
+  }, []);
 
   const handleSubjectSelect = useCallback((id: string) => {
     if (id.startsWith('lang:')) {
       actions.setLanguage(id.replace('lang:', '') as Language);
       return;
     }
+    if (apiSubjects.some(s => s.id === id)) {
+      actions.setBackendExamId(id);   // server grades this exam
+    }
+    setServerResult(null);
     actions.setSelectedSubject(id);
     actions.setPhase('ready');
-  }, [actions]);
+  }, [actions, apiSubjects]);
 
   const handleStart = useCallback(() => {
     actions.setPhase('exam');
@@ -1962,7 +2143,7 @@ export default function ExamPage() {
       const token = typeof window !== 'undefined' ? getAuthToken() : null;
       const headers: Record<string, string> = { 'Content-Type': 'application/json' };
       if (token) headers['Authorization'] = `Bearer ${token}`;
-      const apiBase = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8001';
+      const apiBase = process.env.NEXT_PUBLIC_API_URL ?? '';
       // Build the answers payload
       const answersPayload = Array.from(answers.entries()).map(([qid, a]) => ({
         questionId: qid,
@@ -1976,7 +2157,9 @@ export default function ExamPage() {
         headers,
         body: JSON.stringify({ examId, answers: answersPayload }),
         signal: AbortSignal.timeout(8000),
-      }).catch(() => { /* non-critical; results screen uses local grading */ });
+      }).then(r => r.ok ? r.json() : null)
+        .then(res => { if (res?.totalScore != null) setServerResult(res); })
+        .catch(() => { /* non-critical; results screen uses local grading */ });
     } catch { /* non-critical */ }
 
     actions.setPhase('results');
@@ -1990,15 +2173,20 @@ export default function ExamPage() {
   }, [actions]);
 
   const selectedSubjectData = useMemo(
-    () => subjects.find(s => s.id === selectedSubject),
-    [selectedSubject]
+    () => apiSubjects.find(s => s.id === selectedSubject)
+          ?? subjects.find(s => s.id === selectedSubject),
+    [selectedSubject, apiSubjects]
   );
 
   const t = (key: string) => i18n[key]?.[language] || key;
 
+  // Stable empty fallback for the results phase — created unconditionally so
+  // no hook is ever called inside a conditional branch (rules of hooks).
+  const emptyAnswers = useMemo(() => new Map<string, AnswerState>(), []);
+
   // ─── Phase: Subject Select ──────────────────────────────────────────────────
   if (phase === 'select') {
-    return <SubjectSelect onSelect={handleSubjectSelect} lang={language} />;
+    return <SubjectSelect onSelect={handleSubjectSelect} lang={language} apiSubjects={apiSubjects} board={myBoard} />;
   }
 
   // ─── Phase: Ready (Pre-exam info) ──────────────────────────────────────────
@@ -2015,9 +2203,10 @@ export default function ExamPage() {
             <div className="text-center mb-8">
               <div className="text-5xl sm:text-6xl mb-4">{selectedSubjectData.icon}</div>
               <h1 className="text-2xl sm:text-3xl font-bold text-white mb-2">
-                ISC {selectedSubjectData.name[language]} {i18n.examSimulator[language]}
+                {selectedSubjectData.name[language]} {i18n.examSimulator[language]}
               </h1>
               <p className="text-indigo-300/70 text-sm font-medium">
+                {apiSubjects.some(s => s.id === selectedSubjectData.id) ? `${myBoard} · ` : 'Sample paper · '}
                 {selectedSubjectData.totalMarks} {i18n.marks[language]}, {selectedSubjectData.durationMinutes / 60} {language === 'en' ? 'hours' : 'घंटे'}
                 . {i18n.ready[language]}
               </p>
@@ -2104,7 +2293,10 @@ export default function ExamPage() {
     // Use the real answers collected during the exam attempt.
     // If none were stored (e.g., user navigated directly), fall back to an empty map
     // so the results screen shows zeros rather than fabricated data.
-    const realAnswers = examAnswers ?? useMemo(() => new Map<string, AnswerState>(), [examAnswers]);
+    // NOTE: the fallback Map is created unconditionally at the top of the
+    // component — calling useMemo inside this conditional branch violated the
+    // rules of hooks and could crash on phase transitions.
+    const realAnswers = examAnswers ?? emptyAnswers;
 
     return (
       <ResultsScreen
@@ -2112,6 +2304,7 @@ export default function ExamPage() {
         answers={realAnswers}
         lang={language}
         onRetake={handleRetake}
+        serverResult={serverResult}
       />
     );
   }

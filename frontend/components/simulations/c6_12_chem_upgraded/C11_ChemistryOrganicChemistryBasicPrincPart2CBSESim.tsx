@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine';
-import { createReviewItem, sm2Update } from '../../../lib/srs';
-import { createBKTState, bktUpdate, getMasteryLevel } from '../../../lib/bkt';
+import { createReviewItem, sm2Update, type ReviewItem } from '../../../lib/srs';
+import { createBKTState, bktUpdate, getMasteryLevel, type BKTState } from '../../../lib/bkt';
 import { recordGameScore, getNodeMastery } from '../../../lib/masteryStore';
 import { SUBJECT_CONFIG } from '../../../lib/topicGraph';
 
@@ -1212,16 +1212,16 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
   const [observationAnswers, setObservationAnswers] = useState<(number | null)[]>([null, null]);
 
   // BKT & SRS Tracking State
-  const [bktStates, setBktStates] = useState<Record<string, unknown>>(() => {
-    const initial: Record<string, unknown> = {};
+  const [bktStates, setBktStates] = useState<Record<string, BKTState>>(() => {
+    const initial: Record<string, BKTState> = {};
     ALL_NODE_IDS.forEach((id) => {
       initial[id] = createBKTState();
     });
     return initial;
   });
 
-  const [srsItems, setSrsItems] = useState<Record<string, unknown>>(() => {
-    const initial: Record<string, unknown> = {};
+  const [srsItems, setSrsItems] = useState<Record<string, ReviewItem>>(() => {
+    const initial: Record<string, ReviewItem> = {};
     ALL_NODE_IDS.forEach((id) => {
       initial[id] = createReviewItem(id);
     });

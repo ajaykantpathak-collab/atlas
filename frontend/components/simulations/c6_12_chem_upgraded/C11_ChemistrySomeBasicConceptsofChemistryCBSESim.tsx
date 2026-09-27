@@ -713,7 +713,7 @@ const MassSpecVisualizer: React.FC<{ cl35: number; cl37: number }> = ({ cl35, cl
 
         {/* Weighted average marker */}
         {(() => {
-          const xPos = 155 + ((avgMass - 34.969) / (36.966 - 34.969)) * 190;
+          const xPos = 155 + ((Number(avgMass) - 34.969) / (36.966 - 34.969)) * 190;
           return (
             <g>
               <line x1={xPos} y1="30" x2={xPos} y2="170" stroke="#f59e0b" strokeWidth="2" strokeDasharray="4 4" />

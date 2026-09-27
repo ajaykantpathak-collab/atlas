@@ -132,6 +132,7 @@ const EXPLORATION_STEPS = [
     instruction: 'Perform an automated EDTA micro-titration with Eriochrome Black T (EBT) indicator at pH 10 buffer. Determine total hardness in parts per million (ppm) of equivalent CaCO₃.',
     interactionType: 'edta-titration',
     nodeId: NODE_030,
+    type: 'numeric',
   },
 ];
 
@@ -575,7 +576,8 @@ const CHALLENGES: Challenge[] = [
   {
     id: 'c-15',
     nodeId: NODE_030,
-    tier: 'numeric',
+    type: 'numeric',
+    tier: 'standard',
     question: 'A water sample contains 16.2 mg of Ca(HCO₃)₂ per Liter of water. Calculate its temporary hardness expressed in ppm (parts per million) of equivalent CaCO₃. (Molar mass of Ca(HCO₃)₂ = 162 g/mol, CaCO₃ = 100 g/mol)',
     correctAnswer: 10,
     tolerance: 0.5,

@@ -1711,12 +1711,12 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div className="font-bold text-slate-200 mb-1">Friedel-Crafts Alkylation (c11_chem_091)</div>
                   <div className="text-slate-400">Next Review Interval: {srsItems[NODE_FC_ALKYLATION].interval} days</div>
-                  <div className="text-slate-400">Ease Factor: {srsItems[NODE_FC_ALKYLATION].easeFactor.toFixed(2)}</div>
+                  <div className="text-slate-400">Ease Factor: {srsItems[NODE_FC_ALKYLATION].easinessFactor?.toFixed(2)}</div>
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div className="font-bold text-slate-200 mb-1">Friedel-Crafts Acylation (c11_chem_092)</div>
                   <div className="text-slate-400">Next Review Interval: {srsItems[NODE_FC_ACYLATION].interval} days</div>
-                  <div className="text-slate-400">Ease Factor: {srsItems[NODE_FC_ACYLATION].easeFactor.toFixed(2)}</div>
+                  <div className="text-slate-400">Ease Factor: {srsItems[NODE_FC_ACYLATION].easinessFactor?.toFixed(2)}</div>
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine';
 import { createReviewItem, sm2Update, SRSItem } from '../../../lib/srs';
-import { createBKTState, bktUpdate, getMasteryLevel, BKTState } from '../../../lib/bkt';
+import { createBKTState, bktUpdate, getMasteryLevel, masteryProb, BKTState } from '../../../lib/bkt';
 import { recordGameScore, getNodeMastery } from '../../../lib/masteryStore';
 import { SUBJECT_CONFIG } from '../../../lib/topicGraph';
 
@@ -1053,7 +1053,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
   };
 
   const currentMastery = useMemo(() => {
-    return getMasteryLevel(bktStates[currentChallenge.nodeId] || createBKTState());
+    return masteryProb(bktStates[currentChallenge.nodeId] || createBKTState());
   }, [bktStates, currentChallenge]);
 
   return (
@@ -1688,7 +1688,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
               <span>Spaced Repetition Engine (SM-2) Tracking</span>
               <span>
                 Item Review Interval: {(srsItems[currentChallenge.id]?.interval || 1).toFixed(1)} days | EF:{' '}
-                {(srsItems[currentChallenge.id]?.easeFactor || 2.5).toFixed(2)}
+                {(srsItems[currentChallenge.id]?.easinessFactor || 2.5).toFixed(2)}
               </span>
             </div>
           </div>

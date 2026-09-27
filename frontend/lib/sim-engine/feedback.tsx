@@ -67,6 +67,7 @@ function generateConfetti(count: number = 30): ConfettiParticle[] {
 // ─── Sparkle Burst Component ──────────────────────────────────
 
 type LegacyFeedbackProps = {
+  onClose?: () => void;
   /** masters pass text/show/active/x/y — honor them, don't reject */
   message?: string; text?: string;
   show?: boolean; active?: boolean;

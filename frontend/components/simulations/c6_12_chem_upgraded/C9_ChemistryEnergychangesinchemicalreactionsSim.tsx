@@ -2117,7 +2117,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                     <div key={nodeId} className="p-3 bg-slate-950 border border-slate-800 rounded-xl flex items-center justify-between text-xs">
                       <div>
                         <p className="font-bold text-cyan-300">{nodeId}</p>
-                        <p className="text-slate-400">pKnow: {(bkt.pKnow * 100).toFixed(0)}%</p>
+                        <p className="text-slate-400">pKnow: {(bkt.pKnown * 100).toFixed(0)}%</p>
                       </div>
                       <span className={`px-2.5 py-1 rounded-md font-bold text-xs ${
                         mastery === 'mastered' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' : 'bg-slate-900 text-slate-400'

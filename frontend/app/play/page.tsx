@@ -9,8 +9,35 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import { useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { loadManifest, loadGame } from '@/lib/game-loader';
+import { api } from '@/lib/api';
+
+// OFF-01: offline write queue — game results that can't reach the server
+// are parked in localStorage and flushed on next load (no silent loss).
+const OUTBOX_KEY = 'atlas_game_outbox';
+function queueGameResult(gameFile: string, score: number) {
+  try {
+    const q = JSON.parse(localStorage.getItem(OUTBOX_KEY) || '[]');
+    q.push({ gameFile, score, at: Date.now() });
+    localStorage.setItem(OUTBOX_KEY, JSON.stringify(q.slice(-50)));
+  } catch {}
+}
+async function flushGameOutbox() {
+  try {
+    const q = JSON.parse(localStorage.getItem(OUTBOX_KEY) || '[]');
+    if (!q.length) return;
+    const left: typeof q = [];
+    for (const item of q) {
+      try {
+        await api.post('/api/progress/game-result', { gameFile: item.gameFile, score: item.score });
+      } catch { left.push(item); }
+    }
+    localStorage.setItem(OUTBOX_KEY, JSON.stringify(left));
+  } catch {}
+}
+import { MasteryStore, type MasteryRecord } from '@/lib/game-engine/MasteryStore';
 import { LazyGameRenderer } from '@/components/simulations/GameRenderer';
 import type { GameData } from '@/lib/game-engine/types';
 import { LearningAnalytics } from '@/lib/game-engine/analytics/LearningAnalytics';
@@ -42,11 +69,104 @@ const SUBJECT_META: Record<string, { emoji: string; name: string }> = {
   evs: { emoji: '🌍', name: 'EVS' },
   english: { emoji: '📖', name: 'English' },
   social: { emoji: '🗺️', name: 'Social Studies' },
+  hindi: { emoji: '🅰️', name: 'Hindi' },
   computer: { emoji: '💻', name: 'Computer' },
 };
 
+// ─── Entry placement check — 8 adaptive questions recommend a starting class ─
+// Runs once (localStorage 'atlas_placement'), child can retake anytime.
+interface PlacementQ { level: number; q: string; options: string[]; answer: string; }
+const PLACEMENT_QS: PlacementQ[] = [
+  { level: 1, q: 'How many fingers on 2 hands?', options: ['5', '10', '20'], answer: '10' },
+  { level: 1, q: 'Which is a vowel letter?', options: ['B', 'A', 'T'], answer: 'A' },
+  { level: 2, q: '15 + 7 = ?', options: ['21', '22', '12'], answer: '22' },
+  { level: 2, q: 'Which sentence is correct?', options: ['she go school', 'She goes to school.', 'school go she'], answer: 'She goes to school.' },
+  { level: 3, q: '24 ÷ 6 = ?', options: ['3', '4', '6'], answer: '4' },
+  { level: 3, q: '"Quick" means the same as:', options: ['slow', 'fast', 'lazy'], answer: 'fast' },
+  { level: 4, q: 'Half of 36 + 4 = ?', options: ['22', '18', '40'], answer: '22' },
+  { level: 4, q: 'Opposite of "ancient" is:', options: ['old', 'modern', 'historic'], answer: 'modern' },
+  { level: 5, q: '0.5 as a fraction is:', options: ['1/5', '1/2', '5/1'], answer: '1/2' },
+  { level: 5, q: 'Which connects two sentences?', options: ['noun', 'because', 'slowly'], answer: 'because' },
+];
+const PLACE_KEY = 'atlas_placement';
+
+function PlacementCheck({ onDone }: { onDone: (level: number) => void }) {
+  const [i, setI] = useState(0);
+  const [right, setRight] = useState(0);
+  const [picked, setPicked] = useState<string | null>(null);
+  const [level, setLevel] = useState(2); // running estimate
+  const q = PLACEMENT_QS[i];
+  const last = i === PLACEMENT_QS.length - 1;
+
+  const pick = (opt: string) => {
+    if (picked) return;
+    setPicked(opt);
+    const ok = opt === q.answer;
+    if (ok) { setRight(r => r + 1); setLevel(l => Math.min(5, Math.max(l, q.level + 1))); }
+    else setLevel(l => Math.min(l, q.level));
+    setTimeout(() => { setPicked(null); setI(n => n + 1); }, 700);
+  };
+
+  if (i >= PLACEMENT_QS.length) {
+    const rec = Math.max(1, Math.min(5, level));
+    return (
+      <div className="text-center">
+        <div className="text-5xl mb-3">🎯</div>
+        <h2 className="text-2xl font-black mb-2" style={{ fontFamily: DISPLAY_FONT, color: GOLD_PALE }}>
+          You got {right}/{PLACEMENT_QS.length}!
+        </h2>
+        <p className="text-sm mb-5" style={{ color: TEXT_SECONDARY }}>
+          Best starting point: <b style={{ color: GOLD_PALE }}>Class {rec}</b> games.
+          {rec >= 4 ? ' You\'re strong — games will unlock fast!' : ' Build up with the earlier games first!'}
+        </p>
+        <button onClick={() => onDone(rec)}
+          className="px-8 py-3 rounded-2xl font-black text-sm"
+          style={{ background: `linear-gradient(135deg, ${GOLD}, ${GOLD_CORE})`, color: '#1a1a1f' }}>
+          Start at Class {rec} →
+        </button>
+      </div>
+    );
+  }
+  return (
+    <div>
+      <div className="flex justify-center gap-1.5 mb-4">
+        {PLACEMENT_QS.map((_, j) => (
+          <div key={j} className="w-2 h-2 rounded-full" style={{ background: j < i ? MINT : j === i ? GOLD : 'rgba(255,255,255,0.15)' }} />
+        ))}
+      </div>
+      <p className="text-center text-[11px] font-black uppercase tracking-widest mb-3" style={{ color: TEXT_MUTED }}>
+        Placement check {i + 1}/{PLACEMENT_QS.length}
+      </p>
+      <p className="text-center text-lg font-bold mb-5" style={{ color: TEXT_PRIMARY }}>{q.q}</p>
+      <div className="flex flex-col gap-2">
+        {q.options.map(opt => (
+          <button key={opt} onClick={() => pick(opt)} disabled={!!picked}
+            className="px-4 py-3 rounded-2xl font-bold text-sm border-2 transition-all text-left"
+            style={{
+              background: picked === opt ? (opt === q.answer ? 'rgba(52,211,153,0.2)' : 'rgba(244,63,94,0.2)') : 'rgba(255,255,255,0.05)',
+              borderColor: picked === opt ? (opt === q.answer ? MINT : '#f43f5e') : 'rgba(255,255,255,0.1)',
+              color: TEXT_PRIMARY,
+            }}>
+            {opt}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function getSubjectKey(gameFile: string): string {
   const f = gameFile.toLowerCase();
+  // English strand (junior English games are prefixed "Eng"). startsWith, not
+  // includes: 'eng' as a substring would catch "MapsLengthGame" (l-ENG-th).
+  if (f.startsWith('eng') || f.includes('english') || f.includes('phonics') ||
+      f.includes('grammar')) return 'english';
+  // Hindi strand — Hin-prefixed games (varnamala, matras, words).
+  if (f.startsWith('hin') || f.includes('hindi') || f.includes('varnamala') ||
+      f.includes('matra')) return 'hindi';
+  // Social studies (geography family: globe/continents/landforms).
+  if (f.includes('globe') || f.includes('continent') || f.includes('landform') ||
+      f.includes('monument') || f.includes('festival')) return 'social';
   if (f.includes('add') || f.includes('sub') || f.includes('mul') || f.includes('div') ||
       f.includes('count') || f.includes('number') || f.includes('pattern') || f.includes('shape') ||
       f.includes('fraction') || f.includes('decimal') || f.includes('percent') ||
@@ -71,8 +191,39 @@ function getSubjectKey(gameFile: string): string {
   return 'evs';
 }
 
+/** Kid-friendly titles for games whose camel-split reads poorly ("Eng Syn Ant").
+ *  Keyed by `c{class}_{gameFile}` (EngTensesGame/EngReadingGame exist in two
+ *  classes with different content), falling back to the bare gameFile. */
+const FRIENDLY_TITLES: Record<string, string> = {
+  EngAlphabetGame: 'Alphabet Adventure',
+  'c1_EngAbcMatchGame': 'Big & Small Letters',
+  EngPhonicsGame: 'First Sounds',
+  EngRhymeGame: 'Rhyme Time',
+  EngBlendsGame: 'Sound Blends',
+  EngSightWordsGame: 'Sight Word Stars',
+  EngSentencesGame: 'Sentence Magic',
+  EngNounsGame: 'Naming Words',
+  EngVowelsGame: 'Vowel Power',
+  'c3_EngReadingGame': 'Little Readers',
+  EngVerbsGame: 'Action Words',
+  EngOppositesGame: 'Opposite Day',
+  'c4_EngTensesGame': 'Tense Time Machine',
+  'c5_EngTensesGame': 'Tense Treasures',
+  EngSynAntGame: 'Synonyms & Antonyms',
+  EngPunctuationGame: 'Punctuation Police',
+  EngComprehensionGame: 'Story Detective',
+  EngGrammarGame: 'Grammar Gym',
+  'c5_EngReadingGame': 'Passage Champions',
+  EngSentenceGame: 'Sentence Builders',
+};
+
 /** "ShapeSortGame" → "Shape Sort Game" — friendly, no raw file slugs. */
-function friendlyGameTitle(gameFile: string): string {
+function friendlyGameTitle(gameFile: string, classLevel?: number): string {
+  // AdditionGame deliberately mixes addition AND subtraction challenges —
+  // the plain "Addition" title misled students about what they'd practice.
+  if (gameFile === 'AdditionGame') return 'Add & Subtract';
+  const keyed = classLevel ? FRIENDLY_TITLES[`c${classLevel}_${gameFile}`] : undefined;
+  if (keyed || FRIENDLY_TITLES[gameFile]) return keyed || FRIENDLY_TITLES[gameFile];
   return gameFile
     .replace(/Game$/, '')
     .replace(/([a-z])([A-Z])/g, '$1 $2')
@@ -90,7 +241,10 @@ export default function PlayPage() {
   const [loadError, setLoadError] = useState<{ gameTitle: string } | null>(null);
   const [score, setScore] = useState<number | null>(null);
   const [masteredTopics, setMasteredTopics] = useState<Set<string>>(new Set());
+  const [mastery, setMastery] = useState<Record<string, MasteryRecord>>({});
+  const [simMap, setSimMap] = useState<Record<string, string>>({});
   const [retryToken, setRetryToken] = useState(0);
+  const [placing, setPlacing] = useState(false);
 
   useEffect(() => {
     let savedClass = 1;
@@ -102,6 +256,8 @@ export default function PlayPage() {
           savedClass = n;
           setSelectedClass(n);
         }
+      } else if (!localStorage.getItem(PLACE_KEY)) {
+        setPlacing(true);   // first visit — run the placement check
       }
     }
 
@@ -110,7 +266,7 @@ export default function PlayPage() {
         gameFile: g.gameFile,
         classLevel: g.classLevel,
         subject: getSubjectKey(g.gameFile),
-        title: friendlyGameTitle(g.gameFile),
+        title: friendlyGameTitle(g.gameFile, g.classLevel),
       }));
       setAllGames(games);
       setManifestLoaded(true);
@@ -126,6 +282,17 @@ export default function PlayPage() {
       keys.add(`${m.subject}/${m.topic}`);
     });
     setMasteredTopics(keys);
+    setMastery(MasteryStore.getAll());
+    fetch('/data/games/_sim_map.json').then(r => r.ok ? r.json() : {}).then(setSimMap).catch(() => {});
+    flushGameOutbox();  // OFF-01: push any parked game results on reconnect
+    // NAV-01 sync-down: seed local mastery from the backend record —
+    // a fresh device or cleared browser gets its progress back.
+    api.get<Array<{ gameFile: string; bestScore: number; attempts: number; mastered: boolean }>>(
+      '/api/progress/game-mastery'
+    ).then(rows => {
+      const merged = MasteryStore.mergeFromBackend(rows || []);
+      setMastery(merged);
+    }).catch(() => {});
   }, []);
 
   const gamesForClass = allGames.filter(g => g.classLevel === selectedClass);
@@ -134,6 +301,30 @@ export default function PlayPage() {
     ? gamesForClass.filter(g => g.subject === selectedSubject)
     : [];
 
+  // ── Today's mission — the weakest subject's next unmastered game.
+  // Not decoration: weakest-area-first is the highest-yield next step. ──
+  const todayMission = useMemo(() => {
+    if (!gamesForClass.length || selectedSubject) return null;
+    const subjScore = subjectsAvailable.map(s => {
+      const games = gamesForClass.filter(g => g.subject === s);
+      const done = games.filter(g => mastery[g.gameFile]?.mastered).length;
+      return { s, ratio: games.length ? done / games.length : 1, done, total: games.length };
+    }).filter(x => x.total > 0).sort((a, b) => a.ratio - b.ratio);
+    const weakest = subjScore.find(x => x.done < x.total);
+    if (!weakest) return { allDone: true } as const;
+    const target = gamesForClass.find(g => g.subject === weakest.s && !mastery[g.gameFile]?.mastered)
+      ?? gamesForClass.find(g => g.subject === weakest.s);
+    if (!target) return null;
+    return {
+      subject: weakest.s,
+      game: target,
+      simId: simMap[target.gameFile],
+      done: weakest.done,
+      total: weakest.total,
+      allDone: false as const,
+    };
+  }, [gamesForClass, subjectsAvailable, selectedSubject, mastery, simMap]);
+
   const handleSelectGame = useCallback(async (classLevel: number, gameFile: string) => {
     setLoading(true);
     setScore(null);
@@ -141,13 +332,14 @@ export default function PlayPage() {
     setLoadError(null);
     try {
       const data = await loadGame(classLevel, gameFile);
+      if (simMap[gameFile]) data.simId = simMap[gameFile];
       setSelectedGame(data);
     } catch (err) {
       console.error('Failed to load game:', err);
-      setLoadError({ gameTitle: friendlyGameTitle(gameFile) });
+      setLoadError({ gameTitle: friendlyGameTitle(gameFile, classLevel) });
     }
     setLoading(false);
-  }, []);
+  }, [simMap]);
 
   const retryLastGame = useCallback(() => {
     setRetryToken(t => t + 1);
@@ -161,6 +353,22 @@ export default function PlayPage() {
     if (last) handleSelectGame(last.classLevel, last.gameFile);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [retryToken]);
+
+  if (placing) {
+    return (
+      <div className="min-h-screen flex items-center justify-center p-6"
+        style={{ background: 'radial-gradient(ellipse at top, rgba(251,191,36,0.08) 0%, #0a0a0f 45%, #060609 100%)', fontFamily: BODY_FONT }}>
+        <div className="w-full max-w-md rounded-3xl p-6" style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(251,191,36,0.2)' }}>
+          <PlacementCheck onDone={(level) => {
+            localStorage.setItem(PLACE_KEY, String(level));
+            localStorage.setItem('atlas_student_class', String(level));
+            setSelectedClass(level);
+            setPlacing(false);
+          }} />
+        </div>
+      </div>
+    );
+  }
 
   if (selectedGame) {
     return (
@@ -186,7 +394,7 @@ export default function PlayPage() {
             ← Back to Games
           </button>
           <span className="text-sm font-semibold truncate" style={{ fontFamily: DISPLAY_FONT, color: GOLD_PALE }}>
-            {friendlyGameTitle(selectedGame.gameFile)}
+            {friendlyGameTitle(selectedGame.gameFile, selectedGame.classLevel)}
           </span>
           {score !== null && (
             <div
@@ -204,7 +412,24 @@ export default function PlayPage() {
         </div>
         <LazyGameRenderer
           gameData={selectedGame}
-          onComplete={(s) => setScore(s)}
+          onComplete={(s) => {
+            setScore(s);
+            const rec = MasteryStore.record(`${selectedGame.gameFile}`, s);
+            setMastery(m => ({ ...m, [rec.gameFile]: rec }));
+            // NAV-01: also persist to the backend — streaks, daily goals,
+            // and parent dashboards all read activity_log; localStorage
+            // alone left junior play invisible. Fire-and-forget; a dropped
+            // log never blocks the child.
+            api.post('/api/progress/game-result', {
+              gameFile: selectedGame.gameFile,
+              score: s,
+              mastered: rec.mastered,
+              subject: selectedGame.subject,
+              classLevel: selectedGame.classLevel,
+              title: (selectedGame as { title?: string }).title,
+              simId: selectedGame.simId,
+            }).catch(() => queueGameResult(selectedGame.gameFile, s));
+          }}
         />
       </div>
     );
@@ -260,6 +485,50 @@ export default function PlayPage() {
             </button>
           ))}
         </div>
+
+        {/* ── Today's mission — weakest subject's next unmastered game ── */}
+        {!selectedSubject && todayMission && (
+          <div className="mb-6">
+            {!todayMission.allDone && todayMission.game ? (
+              <button
+                onClick={() => handleSelectGame(todayMission.game!.classLevel, todayMission.game!.gameFile)}
+                className="w-full text-left rounded-3xl p-5 transition-all hover:scale-[1.01] active:scale-[0.99]"
+                style={{
+                  background: 'linear-gradient(135deg, rgba(251,191,36,0.12), rgba(52,211,153,0.08))',
+                  border: '1px solid rgba(251,191,36,0.3)',
+                }}
+              >
+                <div className="flex items-center gap-4">
+                  <span className="text-4xl">🎯</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-[10px] font-black uppercase tracking-widest" style={{ color: GOLD }}>
+                      Today's mission — {SUBJECT_META[todayMission.subject]?.name ?? todayMission.subject} needs you ({todayMission.done}/{todayMission.total} done)
+                    </p>
+                    <p className="text-base font-black truncate mt-0.5" style={{ fontFamily: DISPLAY_FONT, color: TEXT_PRIMARY }}>
+                      {todayMission.game.title}
+                    </p>
+                  </div>
+                  {todayMission.simId && (
+                    <Link href={`/sims-v2/${todayMission.simId}`} onClick={e => e.stopPropagation()}
+                      className="shrink-0 px-3 py-2 rounded-xl text-xs font-black"
+                      style={{ background: 'rgba(52,211,153,0.15)', color: MINT, border: '1px solid rgba(52,211,153,0.3)' }}>
+                      🧪 Sim
+                    </Link>
+                  )}
+                </div>
+              </button>
+            ) : (
+              <div className="rounded-3xl p-5 text-center"
+                style={{ background: 'rgba(52,211,153,0.08)', border: '1px solid rgba(52,211,153,0.25)' }}>
+                <p className="text-sm font-black" style={{ color: MINT }}>🌟 Every game in Class {selectedClass} is mastered — try a harder class!</p>
+              </div>
+            )}
+
+            {/* FLUENCY-HISTORY: recent reading pace (wpm) from the
+                FluencyMeter log — NIPUN fluency tracked over time. */}
+            <FluencyTrend />
+          </div>
+        )}
 
         <AnimatePresence mode="wait">
           {!selectedSubject && (
@@ -325,33 +594,48 @@ export default function PlayPage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {gamesForSubject.map((g, i) => {
+                  const seq = gamesForSubject.map(x => x.gameFile);
                   const isMastered =
+                    mastery[g.gameFile]?.mastered ||
                     masteredTopics.has(g.gameFile) ||
                     masteredTopics.has(`${g.subject}:${g.gameFile}`) ||
                     masteredTopics.has(`${g.subject}/${g.gameFile}`);
+                  const locked = !MasteryStore.isUnlocked(g.gameFile, i, seq);
+                  const prevTitle = i > 0 ? gamesForSubject[i - 1]?.title ?? '' : '';
                   return (
                     <motion.button
                       key={g.gameFile}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: i * 0.05 }}
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
-                      onClick={() => handleSelectGame(g.classLevel, g.gameFile)}
+                      whileHover={locked ? {} : { scale: 1.02 }}
+                      whileTap={locked ? {} : { scale: 0.98 }}
+                      onClick={() => { if (!locked) handleSelectGame(g.classLevel, g.gameFile); }}
+                      disabled={locked}
                       className="glass-card flex items-center justify-between p-4 rounded-2xl transition-all text-left"
+                      style={locked ? { opacity: 0.5, cursor: 'not-allowed' } : {}}
                     >
                       <div className="flex items-center gap-3">
                         <div
                           className="w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm"
                           style={{
                             fontFamily: DISPLAY_FONT,
-                            background: 'linear-gradient(135deg, #fbbf24, #f59e0b)',
-                            color: '#131118',
+                            background: locked
+                              ? 'rgba(255,255,255,0.08)'
+                              : 'linear-gradient(135deg, #fbbf24, #f59e0b)',
+                            color: locked ? '#9ca3af' : '#131118',
                           }}
                         >
-                          {i + 1}
+                          {locked ? '🔒' : i + 1}
                         </div>
-                        <span className="font-bold" style={{ color: TEXT_BODY }}>{g.title}</span>
+                        <div>
+                          <span className="font-bold block" style={{ color: TEXT_BODY }}>{g.title}</span>
+                          {locked && (
+                            <span className="text-xs" style={{ color: TEXT_SECONDARY }}>
+                              {MasteryStore.lockHint(prevTitle)}
+                            </span>
+                          )}
+                        </div>
                       </div>
                       {isMastered && (
                         <span className="text-xl" style={{ color: GOLD_LIGHT }} aria-label="Mastered">⭐</span>
@@ -505,6 +789,44 @@ export default function PlayPage() {
           </Link>
         </div>
       </div>
+    </div>
+  );
+}
+
+/** FluencyTrend — reading-pace history from the FluencyMeter log.
+ *  Shows the last few wpm readings so a child (and parent) can see
+ *  speed going up over days, not just a single score. */
+function FluencyTrend() {
+  const [reads, setReads] = useState<{ wpm: number }[]>([]);
+  useEffect(() => {
+    try {
+      const log = JSON.parse(localStorage.getItem('atlas_fluency_log') || '[]');
+      setReads(log.slice(-6));
+    } catch { setReads([]); }
+  }, []);
+  if (!reads.length) return null;
+  const last = reads[reads.length - 1]?.wpm ?? 0;
+  const first = reads[0]?.wpm ?? last;
+  const delta = last - first;
+  return (
+    <div className="mt-4 rounded-2xl p-4"
+      style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.07)' }}>
+      <p className="text-xs font-bold text-white/70 mb-2">📖 Reading pace</p>
+      <div className="flex items-end gap-2 h-14">
+        {reads.map((r, i) => (
+          <div key={i} className="flex-1 flex flex-col items-center gap-1">
+            <div className="w-full rounded-t-md transition-all"
+              style={{
+                height: `${Math.max(8, (r.wpm / Math.max(...reads.map(x => x.wpm), 1)) * 40)}px`,
+                background: r.wpm >= 90 ? '#34d399' : r.wpm >= 60 ? '#fbbf24' : '#f87171',
+              }} />
+            <span className="text-[9px] text-white/40">{r.wpm}</span>
+          </div>
+        ))}
+      </div>
+      <p className="text-[10px] text-white/50 mt-2">
+        {last} words/min{reads.length > 1 ? ` (${delta >= 0 ? '+' : ''}${delta} since first read)` : ''}
+      </p>
     </div>
   );
 }

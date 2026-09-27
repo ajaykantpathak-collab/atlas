@@ -1622,7 +1622,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
   useEffect(() => {
     const totalCorrect = Object.values(challengeStatus).filter((s) => s === 'correct').length;
     if (totalCorrect >= 15) {
-      recordGameScore(totalCorrect * 10, CHALLENGES.length * 10);
+      recordGameScore([], totalCorrect * 10, CHALLENGES.length * 10);
       if (onComplete) onComplete(totalCorrect * 10);
     }
   }, [challengeStatus, onComplete]);
@@ -2503,7 +2503,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                         className={`text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border ${
                           level === 'mastered'
                             ? 'bg-emerald-950 text-emerald-400 border-emerald-500/30'
-                            : level === 'Proficient'
+                            : level === 'proficient'
                             ? 'bg-blue-950 text-blue-400 border-blue-500/30'
                             : 'bg-amber-950 text-amber-400 border-amber-500/30'
                         }`}
