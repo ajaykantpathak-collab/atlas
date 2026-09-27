@@ -201,7 +201,7 @@ async function idbDelete(storeName: string, key: string | number): Promise<void>
 const BASE_URL =
   typeof process !== "undefined" && process.env?.NEXT_PUBLIC_API_URL
     ? process.env.NEXT_PUBLIC_API_URL
-    : "http://localhost:8001";
+    : "";
 
 async function apiFetch<T>(path: string, options: RequestInit = {}): Promise<T> {
   const token = getAuthToken();

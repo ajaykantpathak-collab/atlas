@@ -8,7 +8,7 @@ export const c6_economics_ch11: SimDef = {
     subtitle: 'Three villagers, three wants — and not a single trade',
     classLevel: 6, subject: 'economics', topic: 'From Barter to Money',
     chapters: ['c6_economics_ch11'],
-    nodeIds: ['c6_economics_ch11_001', 'c6_economics_ch11_002', 'c6_economics_ch11_003', 'c6_economics_ch11_004'],
+    nodeIds: ['c6_economics_ch11_001', 'c6_economics_ch11_002', 'c6_economics_ch11_003', 'c6_economics_ch11_004', 'c6_economics_ch11_005', 'c6_economics_ch11_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a trade negotiator in a village without money', intro: 'The cobbler wants bread, the farmer wants cloth, the weaver wants shoes — and nobody is offering the right swap. Welcome to the world\'s oldest trading puzzle.', goal: 'Feel why the double coincidence of wants made barter exhausting — and why money changed everything.' },

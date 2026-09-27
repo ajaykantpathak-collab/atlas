@@ -11,6 +11,7 @@ const SUBJECT_NAMES: Record<string, string> = {
   bio: 'Biology', biology: 'Biology',
   chem: 'Chemistry', chemistry: 'Chemistry',
   phy: 'Physics', phys: 'Physics', physics: 'Physics',
+  sci: 'Science', science: 'Science',
   maths: 'Mathematics', math: 'Mathematics', mathsc: 'Mathematics',
   appmath: 'Applied Mathematics', acc: 'Accounts', accountancy: 'Accounts',
   eco: 'Economics', economics: 'Economics',
@@ -27,23 +28,43 @@ const SUBJECT_NAMES: Record<string, string> = {
   evs: 'EVS', massmedia: 'Mass Media', hs: 'Home Science',
   legal: 'Legal Studies', entrepreneurship: 'Entrepreneurship',
   physical: 'Physical Education',
+  // corpus subject slugs seen in node ids beyond the two-letter forms
+  engl: 'English', gram: 'Grammar',
+  // senior-corpus codes surfaced by the class-aware mastery map
+  biotech: 'Biotechnology', stat: 'Statistics',
+  ca: 'Computerised Accounting', ps: 'Physical Education',
 };
 
 export function subjectName(subj: string): string {
-  return SUBJECT_NAMES[subj.toLowerCase()] ?? subj.replace(/_/g, ' ');
+  const s = subj.toLowerCase();
+  if (SUBJECT_NAMES[s]) return SUBJECT_NAMES[s];
+  // multi-segment slugs ("hin_al") — try the leading language code
+  const head = s.split('_')[0];
+  if (SUBJECT_NAMES[head]) return SUBJECT_NAMES[head];
+  return subj.replace(/_/g, ' ');
 }
 
 export function friendlyNodeTitle(nodeId: string): string {
   if (!nodeId) return '';
-  // shapes: c{cls}_{subj}[_cbse]_ch{NN}_{NNN} | c{cls}_{subj}_{NN}_{NNN}
-  const m = nodeId.match(
+  // shape A: c{cls}_{subj}_ch{NN}_{NNN} | c{cls}_{subj}_{NN}_{NNN}
+  const a = nodeId.match(
     /^c(\d{1,2})_([a-z]+?)(?:_cbse)?_ch(\d{1,2})(?:_(\d{1,3}))?$/i,
   );
-  if (m) {
-    const [, cls, subj, ch, nn] = m;
+  if (a) {
+    const [, cls, subj, ch, nn] = a;
     const bits = [`Class ${Number(cls)}`, subjectName(subj), `Chapter ${Number(ch)}`];
     if (nn) bits.push(`Topic ${Number(nn)}`);
     return bits.join(' · ');
+  }
+  // shape B (galaxy/corpus ids): c{cls}_{subj}[_cbse]_{ch}_{topic},
+  // subject may itself carry segments ("hin_al") — e.g.
+  // c10_bio_cbse_01_001 → "Class 10 · Biology · Chapter 1 · Topic 1"
+  const b = nodeId.match(
+    /^c(\d{1,2})_([a-z]+(?:_[a-z]+)*?)(?:_cbse)?_(\d{1,3})_(\d{1,3})$/i,
+  );
+  if (b) {
+    const [, cls, subj, ch, nn] = b;
+    return [`Class ${Number(cls)}`, subjectName(subj), `Chapter ${Number(ch)}`, `Topic ${Number(nn)}`].join(' · ');
   }
   // fallback: humanize underscores
   const cleaned = nodeId.replace(/_/g, ' ').trim();

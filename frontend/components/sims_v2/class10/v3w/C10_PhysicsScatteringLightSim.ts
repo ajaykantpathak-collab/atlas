@@ -141,11 +141,11 @@ export const w_c10_physicsscatteringlightsim: SimDef = {
           hint: 'If stuck, review c7_physics_ch05_006 (Laws of Reflection) for angle measurement from.',
           misconception: 'Students believe that the angle of refraction is measured between the refracted ray and the surface of the interface.',
           parts: [
-                { id: 'a', prompt: 'A ray of light travels from air (n=1) into water (n=4/3) at an angle of incidence of 30°.', answer: 'Correct answer: The angle of refraction will be less than 30°',
+                { id: 'a', prompt: 'A ray of light travels from air (n=1) into water (n=4/3) at an angle of incidence of 30°.', answer: 'The angle of refraction will be less than 30°',
                   options: ['Correct answer: The angle of refraction will be less than 30°', 'r > 30° because water is denser so it bends more', 'denser'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that the angle of refraction is measured between the refracted ray and the surface of the interface (like angle of.' },
-                { id: 'b', prompt: 'A student performs an experiment to trace the path of a ray through a rectangular glass slab for three different angles of incidence: 20°, 40°, and 60°.', answer: 'Correct answer: Yes, the results are consistent',
+                { id: 'b', prompt: 'A student performs an experiment to trace the path of a ray through a rectangular glass slab for three different angles of incidence: 20°, 40°, and 60°.', answer: 'Yes, the results are consistent',
                   options: ['Correct answer: Yes, the results are consistent', 'No, because values are not exactly equal', 'The average is the absolute refractive index of air'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that the angle of refraction is measured between the refracted ray and the surface of the interface (like angle of.' }
@@ -156,7 +156,7 @@ export const w_c10_physicsscatteringlightsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe that the angle of refraction is measured between the refracted ray and the surface of the interface.',
           parts: [
-                { id: 'a', prompt: 'A ray of light passes from medium A (n=1.6) to medium B (n=1.2). The angle of incidence in A is 30°.', answer: 'Correct answer: The answer is NOT physically possible',
+                { id: 'a', prompt: 'A ray of light passes from medium A (n=1.6) to medium B (n=1.2). The angle of incidence in A is 30°.', answer: 'The answer is NOT physically possible',
                   options: ['Correct answer: The answer is NOT physically possible', 'Not possible because sin r > 1', 'Should bend towards normal'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that the angle of refraction is measured between the refracted ray and the surface of the interface (like angle of.' },
@@ -164,7 +164,7 @@ export const w_c10_physicsscatteringlightsim: SimDef = {
                   options: ['Expected answer: (1) Fix white paper on board, place glass slab, mark outline', 'measure angles only', 'use a laser pointer without pins'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that the angle of refraction is measured between the refracted ray and the surface of the interface (like angle of.' },
-                { id: 'c', prompt: 'A student performs an experiment to trace the path of a ray through a rectangular glass slab for three different angles of incidence: 20°, 40°, and 60°.', answer: 'Correct answer: Yes, the results are consistent',
+                { id: 'c', prompt: 'A student performs an experiment to trace the path of a ray through a rectangular glass slab for three different angles of incidence: 20°, 40°, and 60°.', answer: 'Yes, the results are consistent',
                   options: ['Correct answer: Yes, the results are consistent', 'No, because values are not exactly equal', 'The average is the absolute refractive index of air'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that the angle of refraction is measured between the refracted ray and the surface of the interface (like angle of.' }

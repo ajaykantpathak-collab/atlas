@@ -8,7 +8,7 @@ export const c8_eco_ch01_p1: SimDef = {
     subtitle: 'Turn raw stuff into real value',
     classLevel: 8, subject: 'economics', topic: 'Factors of Production · Part 1/2',
     chapters: ['c8_eco_ch01'],
-    nodeIds: ['c8_eco_ch1_1', 'c8_eco_ch1_10', 'c8_eco_ch1_4', 'c8_eco_ch1_12', 'c8_eco_ch1_2', 'c8_eco_ch1_3'],
+    nodeIds: ['c8_eco_ch1_1', 'c8_eco_ch1_10', 'c8_eco_ch1_11', 'c8_eco_ch1_12', 'c8_eco_ch1_2', 'c8_eco_ch1_3'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a junior production analyst', intro: 'Flour becomes bread, clay becomes pots, code becomes software. Your job: trace what goes in, what comes out, and figure out where the extra value was created.', goal: 'Understand production as an input–transformation–output process that adds economic value, and recognise it in services and intangibles, not just factories.' },

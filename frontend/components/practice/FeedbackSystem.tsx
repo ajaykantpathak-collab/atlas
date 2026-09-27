@@ -14,8 +14,10 @@ import {
   TrendingDown,
   Minus,
 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
+import { sanitizeHtml } from '@/lib/sanitize';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -55,38 +57,20 @@ interface FeedbackMessage {
   icon?: string;
 }
 
-const CORRECT_MESSAGES: FeedbackMessage[] = [
-  { headline: 'Correct!', sub: 'You nailed it! Brilliant work — keep this momentum going.', icon: '🎉' },
-  { headline: 'Correct!', sub: 'Amazing! Your practice is really paying off.', icon: '🌟' },
-  { headline: 'Spot on!', sub: 'You really know your stuff. Impressive!', icon: '💪' },
-  { headline: 'Correct!', sub: "That was smooth. You're getting stronger with every question.", icon: '🔥' },
-  { headline: 'Correct!', sub: "You're on fire! This is exactly what we like to see.", icon: '✨' },
-];
+// Chrome copy lives in messages/{en,hi}.json (namespace "feedback") so the
+// EN/हिंदी toggle translates it; the authored question/explanation content
+// is NOT part of this map and stays in its authored language.
+interface FeedbackBankRef {
+  key: 'correct' | 'partial' | 'incorrect';
+  i: number;
+}
 
-const INCORRECT_MESSAGES: FeedbackMessage[] = [
-  {
-    headline: 'Not quite right',
-    sub: "That's okay — mistakes are how we learn. Let's figure this out together.",
-  },
-  {
-    headline: 'Close, but not this time',
-    sub: "Don't worry! Every wrong answer teaches you something new.",
-  },
-  {
-    headline: 'Almost, but not quite',
-    sub: 'This one was tricky! Review the solution below and try the next one.',
-  },
-  {
-    headline: 'Not this time',
-    sub: 'Learning happens here. Check out the correct approach — it might click!',
-  },
-];
-
-const PARTIAL_MESSAGES: FeedbackMessage[] = [
-  { headline: 'Almost!', sub: "You're so close! Just a small adjustment and you've got it.", icon: '🤏' },
-  { headline: 'Almost there!', sub: "You're on the right track — just one more piece of the puzzle.", icon: '🧩' },
-  { headline: 'So close!', sub: 'Great thinking! You got part of it — review and nail it next time.', icon: '💡' },
-];
+function bankFor(key: 'correct' | 'partial' | 'incorrect', n: number): FeedbackBankRef[] {
+  return Array.from({ length: n }, (_, i) => ({ key, i }));
+}
+const CORRECT_MESSAGES: FeedbackBankRef[] = bankFor('correct', 5);
+const INCORRECT_MESSAGES: FeedbackBankRef[] = bankFor('incorrect', 4);
+const PARTIAL_MESSAGES: FeedbackBankRef[] = bankFor('partial', 3);
 
 // ─── Animation Variants ──────────────────────────────────────────────────────
 
@@ -133,12 +117,14 @@ function clamp(val: number, min = 0, max = 100): number {
 
 function renderLatex(expression: string, block = false): string {
   try {
-    return katex.renderToString(expression, {
+    // trust:true lets authored expressions use \html* — output is sanitized
+    // before innerHTML so those commands can't carry event handlers/URIs.
+    return sanitizeHtml(katex.renderToString(expression, {
       displayMode: block,
       throwOnError: false,
       strict: false,
       trust: true,
-    });
+    }));
   } catch {
     return expression;
   }
@@ -147,8 +133,9 @@ function renderLatex(expression: string, block = false): string {
 // ─── StepDisplay Sub-component ───────────────────────────────────────────────
 
 function StepDisplay({ steps }: { steps: Step[] }) {
+  const t = useTranslations('feedback');
   return (
-    <div className="space-y-3" role="list" aria-label="Solution steps">
+    <div className="space-y-3" role="list" aria-label={t('stepsAria')}>
       {steps.map((step, idx) => (
         <motion.div
           key={idx}
@@ -192,6 +179,7 @@ function StepDisplay({ steps }: { steps: Step[] }) {
 // ─── Mastery Bar Sub-component ───────────────────────────────────────────────
 
 function MasteryBar({ before, after, direction }: { before: number; after: number; direction: 'up' | 'down' | 'same' }) {
+  const t = useTranslations('feedback');
   const [displayed, setDisplayed] = useState(before);
   const afterClamped = clamp(after);
 
@@ -210,7 +198,7 @@ function MasteryBar({ before, after, direction }: { before: number; after: numbe
     <div className="space-y-2">
       <div className="flex items-center justify-between">
         <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-          Mastery
+          {t('masteryLabel')}
         </span>
         <div className="flex items-center gap-1.5" aria-live="polite" aria-atomic="true">
           <ArrowIcon className={`w-4 h-4 ${arrowColor}`} aria-hidden="true" />
@@ -297,6 +285,7 @@ export default function FeedbackSystem({
   const [hasInteracted, setHasInteracted] = useState(false);
 
   const isCorrect = result.correct;
+  const t = useTranslations('feedback');
   const isPartial = result.partial;
   const direction: 'up' | 'down' | 'same' = isCorrect
     ? 'up'
@@ -304,15 +293,17 @@ export default function FeedbackSystem({
       ? 'up'
       : 'down';
 
-  const message = useMemo(
-    () =>
-      isCorrect
-        ? pickRandom(CORRECT_MESSAGES)
-        : isPartial
-          ? pickRandom(PARTIAL_MESSAGES)
-          : pickRandom(INCORRECT_MESSAGES),
-    [isCorrect, isPartial]
-  );
+  const message = useMemo(() => {
+    const pick = isCorrect
+      ? pickRandom(CORRECT_MESSAGES)
+      : isPartial
+        ? pickRandom(PARTIAL_MESSAGES)
+        : pickRandom(INCORRECT_MESSAGES);
+    const msgs = (t.raw(pick.key) ?? []) as FeedbackMessage[];
+    return msgs[pick.i] ?? { headline: '', sub: '' };
+    // banks only re-created when t changes identity per locale switch
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isCorrect, isPartial, t]);
 
   const handleNext = useCallback(() => {
     setHasInteracted(true);
@@ -345,10 +336,10 @@ export default function FeedbackSystem({
     if (isCorrect) return '';
     const sentences = result.explanation.split(/[.!?]+/).filter(Boolean);
     if (sentences.length > 0) {
-      return '💡 Hint: ' + sentences[0].trim() + '...';
+      return t('hintPrefix') + sentences[0].trim() + '...';
     }
-    return '💡 Hint: ' + result.explanation.slice(0, 120) + '...';
-  }, [result.explanation, isCorrect]);
+    return t('hintPrefix') + result.explanation.slice(0, 120) + '...';
+  }, [result.explanation, isCorrect, t]);
 
   // ─── Config ──────────────────────────────────────────────────────────────
   const statusConfig = {
@@ -358,7 +349,7 @@ export default function FeedbackSystem({
       bgTint: 'bg-mint/10',
       borderTint: 'border-mint/20',
       barGradient: 'from-mint to-emerald-400',
-      label: 'Correct',
+      label: t('badgeCorrect'),
     },
     partial: {
       icon: AlertCircle,
@@ -366,7 +357,7 @@ export default function FeedbackSystem({
       bgTint: 'bg-amber-400/10',
       borderTint: 'border-amber-400/20',
       barGradient: 'from-amber-400 to-yellow-300',
-      label: 'Almost',
+      label: t('badgeAlmost'),
     },
     incorrect: {
       icon: XCircle,
@@ -374,7 +365,7 @@ export default function FeedbackSystem({
       bgTint: 'bg-red-500/10',
       borderTint: 'border-red-500/20',
       barGradient: 'from-red-500 to-rose-400',
-      label: 'Incorrect',
+      label: t('badgeIncorrect'),
     },
   };
 
@@ -476,7 +467,7 @@ export default function FeedbackSystem({
                 'p-4 rounded-xl border bg-white/5 border-white/10'
               }>
                 <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider block mb-1.5">
-                  Correct Answer
+                  {t('correctAnswer')}
                 </span>
                 <div
                   className="text-base text-white font-medium"
@@ -489,7 +480,7 @@ export default function FeedbackSystem({
                 'p-4 rounded-xl border bg-white/5 border-white/10'
               }>
                 <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider block mb-1.5">
-                  Explanation
+                  {t('explanation')}
                 </span>
                 <p className="text-sm text-gray-300 leading-relaxed">
                   {result.explanation}
@@ -502,7 +493,7 @@ export default function FeedbackSystem({
                   'p-4 rounded-xl border bg-white/5 border-white/10'
                 }>
                   <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider block mb-3">
-                    Solution Walkthrough
+                    {t('solutionWalkthrough')}
                   </span>
                   <StepDisplay steps={result.steps} />
                 </motion.div>
@@ -523,7 +514,7 @@ export default function FeedbackSystem({
                     aria-controls="hint-panel"
                   >
                     <Lightbulb className="w-4 h-4" aria-hidden="true" />
-                    {showHint ? 'Hide Hint' : 'Want a hint?'}
+                    {showHint ? t('hideHint') : t('wantHint')}
                   </button>
                   <AnimatePresence>
                     {showHint && (
@@ -535,7 +526,7 @@ export default function FeedbackSystem({
                         transition={{ duration: 0.3, ease: 'easeInOut' }}
                         className="mt-3 p-3 rounded-lg bg-brand-500/5 border border-brand-500/15"
                         role="region"
-                        aria-label="Hint"
+                        aria-label={t('hintAria')}
                       >
                         <p className="text-sm text-brand-200/90 leading-relaxed">{hintText}</p>
                       </motion.div>
@@ -559,10 +550,10 @@ export default function FeedbackSystem({
                 + 'hover:bg-white/10 hover:text-white transition-colors '
                 + 'focus:outline-none focus:ring-2 focus:ring-white/20 focus:ring-offset-2 focus:ring-offset-surface-800'
               }
-              aria-label="Ask teacher for help with this question"
+              aria-label={t('askTeacherAria')}
             >
               <MessageCircle className="w-4 h-4" aria-hidden="true" />
-              Ask Teacher
+              {t('askTeacher')}
             </button>
           )}
 
@@ -576,9 +567,9 @@ export default function FeedbackSystem({
                 ? 'bg-mint text-surface-900 hover:bg-mint/90 focus:ring-mint/40'
                 : 'bg-white/10 text-white hover:bg-white/15 focus:ring-white/20')
             }
-            aria-label="Next question"
+            aria-label={t('nextAria')}
           >
-            Next Question
+            {t('nextQuestion')}
             <ChevronRight className="w-4 h-4" aria-hidden="true" />
           </button>
 

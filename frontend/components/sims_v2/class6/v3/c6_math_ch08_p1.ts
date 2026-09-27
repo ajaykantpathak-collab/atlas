@@ -8,7 +8,7 @@ export const c6_math_ch08_p1: SimDef = {
     subtitle: 'This node covers the perimeter of rectangles, squares, triangles, and simple polygons.',
     classLevel: 6, subject: 'mathematics', topic: 'Mensuration · Part 1/2',
     chapters: ['c6_math_ch08'],
-    nodeIds: ['c6_math_ch08_085', 'c6_math_ch08_086', 'c6_math_ch08_087', 'c6_math_ch08_088', 'c6_math_ch08_092', 'c6_math_ch08_090'],
+    nodeIds: ['c6_math_ch08_085', 'c6_math_ch08_086', 'c6_math_ch08_087', 'c6_math_ch08_088', 'c6_math_ch08_089', 'c6_math_ch08_090'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are asked to put a decorative lace around your rectangular notebook cover.', goal: 'Master every idea in this chapter.' },

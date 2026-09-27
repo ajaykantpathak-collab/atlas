@@ -10,10 +10,27 @@ interface AuthGuardProps {
   redirectTo?: string
 }
 
+/** True when localStorage holds a persisted auth blob with a token. */
+function storedAuthHasToken(): boolean {
+  if (typeof window === 'undefined') return false
+  try {
+    const raw = localStorage.getItem('dream-auth')
+    return Boolean(raw && JSON.parse(raw)?.state?.token)
+  } catch {
+    return false
+  }
+}
+
 /**
  * Auth guard component.
  * Redirects to login if not authenticated.
  * If allowedRoles is provided, redirects if user role doesn't match.
+ *
+ * The zustand persist store can still be empty on the first render even
+ * though `dream-auth` is already in localStorage (late rehydration during
+ * Next.js client hydration). Deciding on the bare store state bounced
+ * signed-in users to /login right after mount. So the unauthenticated
+ * verdict also requires that no persisted auth blob exists.
  */
 export default function AuthGuard({
   children,
@@ -25,15 +42,20 @@ export default function AuthGuard({
   const [checked, setChecked] = useState(false)
 
   useEffect(() => {
-    // Check if authenticated (from store or localStorage token)
-    const hasToken = token || (typeof window !== 'undefined' && localStorage.getItem('token'))
-    
-    if (!hasToken && !isAuthenticated) {
+    // Check if authenticated (from store or persisted/localStorage token)
+    const hasToken =
+      Boolean(token) ||
+      isAuthenticated ||
+      Boolean(typeof window !== 'undefined' && localStorage.getItem('token')) ||
+      storedAuthHasToken()
+
+    if (!hasToken) {
       router.push(redirectTo)
       return
     }
 
-    // Check role if allowedRoles is specified
+    // Check role if allowedRoles is specified (only when the profile has
+    // rehydrated; a mid-hydration user is not a role mismatch).
     if (allowedRoles && user && !allowedRoles.includes(user.role)) {
       // Redirect to user's appropriate dashboard
       const roleRedirects: Record<UserRole, string> = {

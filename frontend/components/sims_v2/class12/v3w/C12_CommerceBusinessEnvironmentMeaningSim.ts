@@ -143,11 +143,11 @@ export const w_c12_commercebusinessenvironmentmeaningsim: SimDef = {
           hint: 'If unable to recall the seven features or six importance points, revisit node.',
           misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent.',
           parts: [
-                { id: 'a', prompt: 'A small furniture manufacturer in Jodhpur reads that the RBI has reduced the repo rate by 75 bps.', answer: 'Correct answer: Dimension = Economic Environment (interest rate change)',
+                { id: 'a', prompt: 'A small furniture manufacturer in Jodhpur reads that the RBI has reduced the repo rate by 75 bps.', answer: 'Dimension = Economic Environment (interest rate change)',
                   options: ['Correct answer: Dimension = Economic Environment (interest rate change)', 'it will increase profits directly'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent checklists.' },
-                { id: 'b', prompt: 'Compare the "Political Environment" and "Legal Environment" dimensions.', answer: 'Correct answer: Political environment refers to the broader political',
+                { id: 'b', prompt: 'Compare the "Political Environment" and "Legal Environment" dimensions.', answer: 'Political environment refers to the broader political',
                   options: ['Correct answer: Political environment refers to the broader political', 'government policy'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent checklists.' }
@@ -158,7 +158,7 @@ export const w_c12_commercebusinessenvironmentmeaningsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent.',
           parts: [
-                { id: 'a', prompt: 'Compare the "Political Environment" and "Legal Environment" dimensions.', answer: 'Correct answer: Political environment refers to the broader political',
+                { id: 'a', prompt: 'Compare the "Political Environment" and "Legal Environment" dimensions.', answer: 'Political environment refers to the broader political',
                   options: ['Correct answer: Political environment refers to the broader political', 'government policy'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent checklists.' }

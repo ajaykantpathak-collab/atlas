@@ -182,15 +182,15 @@ export const w_c10_mathematicscoordinategeometrysim: SimDef = {
           hint: 'If stuck, revisit Class 6 Ratio and Proportion (c6_math_ch06_063) for proportion basics.',
           misconception: 'Students often confuse SAS similarity with SAS congruence: they think the sides must be equal, not proportional.',
           parts: [
-                { id: 'a', prompt: 'In ΔPQR and ΔXYZ, ∠Q = ∠Y = 50°. The sides are PQ = 6 cm, QR = 8 cm, XY = 9 cm, YZ = 12 cm.', answer: 'Correct answer: The student is INCORRECT',
+                { id: 'a', prompt: 'In ΔPQR and ΔXYZ, ∠Q = ∠Y = 50°. The sides are PQ = 6 cm, QR = 8 cm, XY = 9 cm, YZ = 12 cm.', answer: 'The student is INCORRECT',
                   options: ['Correct answer: The student is INCORRECT', 'including', 'the sides must be equal, not proportional'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse SAS similarity with SAS congruence: they think the sides must be equal, not proportional.' },
-                { id: 'b', prompt: 'ΔABC has AB = 4 cm, AC = 6 cm, and ∠A = 40°. ΔDEF has DE = 6 cm, DF = 9 cm, and ∠D = 40°. Are the triangles similar? If yes, find BC if EF = 7.5 cm.', answer: 'Correct answer: Yes, ΔABC ~ ΔDEF by SAS',
+                { id: 'b', prompt: 'ΔABC has AB = 4 cm, AC = 6 cm, and ∠A = 40°. ΔDEF has DE = 6 cm, DF = 9 cm, and ∠D = 40°. Are the triangles similar? If yes, find BC if EF = 7.5 cm.', answer: 'Yes, ΔABC ~ ΔDEF by SAS',
                   options: ['Correct answer: Yes, ΔABC ~ ΔDEF by SAS', 'the sides must be equal, not proportional'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse SAS similarity with SAS congruence: they think the sides must be equal, not proportional.' },
-                { id: 'c', prompt: 'Two triangles have two pairs of sides proportional: AB/DE = AC/DF = 3/4. The angles given are ∠B = ∠E = 50°. Can you conclude the triangles are similar by SAS?', answer: 'Correct answer: No, you cannot conclude similarity by SAS',
+                { id: 'c', prompt: 'Two triangles have two pairs of sides proportional: AB/DE = AC/DF = 3/4. The angles given are ∠B = ∠E = 50°. Can you conclude the triangles are similar by SAS?', answer: 'No, you cannot conclude similarity by SAS',
                   options: ['Correct answer: No, you cannot conclude similarity by SAS', 'included angle', 'the sides must be equal, not proportional'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse SAS similarity with SAS congruence: they think the sides must be equal, not proportional.' }
@@ -201,7 +201,7 @@ export const w_c10_mathematicscoordinategeometrysim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often confuse SAS similarity with SAS congruence: they think the sides must be equal, not proportional.',
           parts: [
-                { id: 'a', prompt: 'A student solves this problem: "In ΔABC and ΔPQR, AB/PQ = AC/PR = 2/5 and ∠A = ∠P = 30°. If BC = 6 cm, find QR." The student writes: QR = (5/2) × 6 = 15 cm.', answer: 'Correct answer: The student\'s solution is CORRECT',
+                { id: 'a', prompt: 'A student solves this problem: "In ΔABC and ΔPQR, AB/PQ = AC/PR = 2/5 and ∠A = ∠P = 30°. If BC = 6 cm, find QR." The student writes: QR = (5/2) × 6 = 15 cm.', answer: 'The student\'s solution is CORRECT',
                   options: ['Correct answer: The student\'s solution is CORRECT', 'the sides must be equal, not proportional'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse SAS similarity with SAS congruence: they think the sides must be equal, not proportional.' }

@@ -29,8 +29,13 @@ export default function PremiumStudentLayout({ children }: { children: ReactNode
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
-    <div className="min-h-screen bg-surface-0 mesh-bg flex">
+    <div className="min-h-screen bg-surface-0 mesh-bg flex relative overflow-x-clip">
       <CustomCursor />
+      {/* GradientOrb is decorative 400px blur — without a clipping ancestor its
+          bleed expanded the mobile layout viewport (~470px on a 390px screen),
+          widening every viewport-anchored surface and adding horizontal
+          scroll. overflow-x-clip clips it WITHOUT breaking the lg:sticky
+          sidebar (unlike overflow-hidden). */}
       <GradientOrb className="top-0 right-0 opacity-50" size={400} speed={20} />
 
       {/* Sidebar */}

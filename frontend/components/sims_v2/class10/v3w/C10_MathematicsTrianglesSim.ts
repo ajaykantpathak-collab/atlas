@@ -183,7 +183,7 @@ export const w_c10_mathematicstrianglessim: SimDef = {
           hint: 'Revisit c7_math_ch07_007 (angle sum property) and c10_math_cbse_06_002 (similarity.',
           misconception: 'Students write "ΔABC ~ ΔDEF" without ensuring vertex correspondence matches equal angles.',
           parts: [
-                { id: 'a', prompt: 'In ΔXYZ and ΔLMN, ∠X = 40°, ∠Y = 80°, ∠L = 40°, ∠M = 80°. State the similarity criterion used and write the correct similarity statement with vertex.', answer: 'Correct answer: By AA criterion, ΔXYZ ~ ΔLMN (with X↔L, Y↔M, Z↔N)',
+                { id: 'a', prompt: 'In ΔXYZ and ΔLMN, ∠X = 40°, ∠Y = 80°, ∠L = 40°, ∠M = 80°. State the similarity criterion used and write the correct similarity statement with vertex.', answer: 'By AA criterion, ΔXYZ ~ ΔLMN (with X↔L, Y↔M, Z↔N)',
                   options: ['Correct answer: By AA criterion, ΔXYZ ~ ΔLMN (with X↔L, Y↔M, Z↔N)', 'ΔXYZ ~ ΔLNM'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students write "ΔABC ~ ΔDEF" without ensuring vertex correspondence matches equal angles.' },

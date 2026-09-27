@@ -8,7 +8,7 @@ export const c6_physics_ch12_p2: SimDef = {
     subtitle: 'This node covers the causes and names of the lunar phases within the Class 6 curriculum.',
     classLevel: 6, subject: 'physics', topic: 'Earth, Moon, and Eclipses · Part 2/2',
     chapters: ['c6_physics_ch12'],
-    nodeIds: ['c6_physics_ch12_051', 'c6_physics_ch12_045'],
+    nodeIds: ['c6_physics_ch12_051', 'c6_physics_ch12_052'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed how the Moon sometimes looks like a thin silver slice, a half-circle, or a bright.', goal: 'Master every idea in this chapter.' },

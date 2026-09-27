@@ -8,7 +8,7 @@ export const c6_english_ch04_p1: SimDef = {
     subtitle: 'This node covers the identification of plot structure and setting within the story "The.',
     classLevel: 6, subject: 'english', topic: 'The Tunnel · Part 1/2',
     chapters: ['c6_english_ch04'],
-    nodeIds: ['c6_english_u4_031', 'c6_english_u4_032', 'c6_english_u4_033', 'c6_english_u4_037', 'c6_english_u4_035'],
+    nodeIds: ['c6_english_u4_031', 'c6_english_u4_032', 'c6_english_u4_033', 'c6_english_u4_034', 'c6_english_u4_035', 'c6_english_u4_036'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are waiting at a busy railway station in India. If you told your friend about your day, would you.', goal: 'Master every idea in this chapter.' },

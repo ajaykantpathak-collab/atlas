@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c7_gram_ch82 The Logic Words (determiners, subordinators, modifiers).
  * Nodes: c7_gram_cbse_82_001, 82_002, 82_003. */
 export const c7_gram_ch82: SimDef = {
-    id: 'v3_c7_gram_ch82',
+    id: 'v3w_c7_gram_ch82',
     title: 'The Logic Words',
     subtitle: 'this-or-that, some-or-any, because-or-although — and the modifiers that must describe the right word',
     classLevel: 7, subject: 'english-grammar', topic: 'Determiners, subordinating conjunctions, adjectives and adverbs',

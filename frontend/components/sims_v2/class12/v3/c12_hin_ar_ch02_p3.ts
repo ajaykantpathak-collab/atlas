@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch02_p3: SimDef = {
     id: 'v3_c12_hin_ar_ch02_p3',
-    title: 'd¡qoj ukjk;.k · Part 3/3',
+    title: 'पतंग · Part 3/3',
     subtitle: 'A poem that mourns without ever complaining',
-    classLevel: 12, subject: 'hin_ar', topic: 'd¡qoj ukjk;.k · Part 3/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'पतंग · Part 3/3',
     chapters: ['c12_hin_ar_ch02'],
     nodeIds: ['c12_hin_ar_cbse_02_013', 'c12_hin_ar_cbse_02_014', 'c12_hin_ar_cbse_02_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,35 +19,15 @@ export const c12_hin_ar_ch02_p3: SimDef = {
         hook: '\'No tone of complaint\' doesn\'t mean no criticism — the poet is also a science communicator, so the poem works like field notes: concrete, sensory, exact. It\'s one movement of a single book-length poem, an architecture of memory against erasure.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the ability to examine a literary text beyond its literal meaning by breaking down its components (imagery, structure, tone, symbolism), evaluating.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पतंग — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण किसी पद्यांश/गद्यांश के शब्दार्थ से आगे जाकर उसके अंतर्निहित भाव, प्रसंग, प्रतीकात्मकता और कवि-लेखक के अभिप्राय को तार्किक क्रम में प्रस्तुत करने की विश्लेषणात्मक प्रक्रिया है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_02_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Read the long poem as preservation work: follow childhood idyll into encroaching modernity, weigh what the three-part textbook split gains and costs, and hear critique inside pure description.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_02_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you see a group of children playing barefoot on a hot Delhi street at sunset — they are laughing, but their clothes are torn and they should be.',
-            decisions: [{ prompt: 'What is the primary difference between *literal comprehension* (understanding what the text says) and *critical interpretation* (analyzing.', options: [
-                { text: 'Literal comprehension identifies explicit details: "The poem describes children playing', outcome: 'Literal comprehension identifies explicit details: "The poem describes children playing in the.' },
-                { text: 'The poem describes children playing in the street at sunset', outcome: 'Not quite — Students believe "critical analysis" means *criticizing* the poem (finding faults) or *summarizing*.', reveals: 'critical-analysis-means-criticizing-the' },
-                { text: 'critical analysis', outcome: 'Not quite — Students believe "critical analysis" means *criticizing* the poem (finding faults) or *summarizing*.', reveals: 'critical-analysis-means-criticizing-the' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_02_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall facing a 5-mark question: "How does the poet depict the joy of children playing in the rain?" Many students freeze and.',
-            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing structured answers for literature questions?', options: [
-                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
-                { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe that writing a paragraph summarizing the poem stanza-by-stanza constitutes.', reveals: 'writing-a-paragraph-summarizing-the' },
-                { text: 'critical appreciation', outcome: 'Not quite — Students believe that writing a paragraph summarizing the poem stanza-by-stanza constitutes.', reveals: 'writing-a-paragraph-summarizing-the' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a Class 12 literature circle and the teacher says, "Discuss why the poet calls childhood \'the most beautiful fragrance\' — you have 10.',
-            decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a literature classroom, as distinct from a comprehension question?', options: [
-                { text: 'A discussion point invites multiple valid interpretations supported by textual evidence', outcome: 'A discussion point invites multiple valid interpretations supported by textual evidence and.' },
-                { text: 'to test if we read the poem', outcome: 'Not quite — Students believe a literary discussion is a \'share your feelings\' circle where any personal.', reveals: 'a-literary-discussion-is-a' }
-            ] }] } },
+        labels: ['पतंग — आशय-स्पष्टीकरण और', 'पतंग — परीक्षा-उत्तर लेखन', 'पतंग — वाचन-पाठ और'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_02_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Curating a farewell exhibit, a teammate dismisses a photo essay of childhood monsoons — paper boats, wet gullies — as \'cute nostalgia with no real content.\' You think it\'s the strongest piece submitted.',
             decisions: [{ prompt: 'How does Kunwar Narain\'s poem structure defend the piece?', options: [
@@ -62,66 +42,43 @@ export const c12_hin_ar_ch02_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_02_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the ability to examine.',
-          hint: 'If stuck, return to node c12_hin_ar_cbse_02_008 (Imagery and Metaphor) and.',
-          misconception: 'Students believe "critical analysis" means *criticizing* the poem (finding faults) or *summarizing* it with fancy.',
+          question: 'आशय-स्पष्टीकरण किसी पद्यांश/गद्यांश के शब्दार्थ से आगे जाकर उसके अंतर्निहित.',
+          hint: 'अगर फँस जाएँ तो c12_hin_ar_cbse_02_007 (प्रतीक और बिंब) दोहराएँ — \'डोर=बंधन, हवा=मुक्ति.',
+          misconception: 'छात्र समझते हैं कि आशय-स्पष्टीकरण = \'पंक्तियों का हिंदी अनुवाद\'। वे लिखते हैं: "कवि कहता है पतंग उड़ती है डोर के सहारे.',
           parts: [
-                { id: 'a', prompt: 'In the poem, the line "lcls rs\'k ckSNkjsa x;ha Hkknks x;k / losjk gqvk" (The smallest lanes lost their way / darkness fell) appears.', answer: 'The student only translates the literal event (nightfall)',
-                  options: ['The student only translates the literal event (nightfall)', 'critical analysis'],
-                  hint: 'If stuck, return to node c12_hin_ar_cbse_02_008 (Imagery and Metaphor) and c12_hin_ar_cbse_02_009.',
-                  misconception: 'Students believe "critical analysis" means *criticizing* the poem (finding faults) or *summarizing* it with fancy words.' },
-                { id: 'b', prompt: 'Apply the concept of *irony* to the stanza where the poet describes the children\'s play: "irax mM+kus okys cPpksa osQ >qaM dks / pedhys b\'kkjksa ls cqykrs.', answer: 'The irony lies in the juxtaposition of "irax mM+kus" (raising the sun/dawn)',
-                  options: ['The irony lies in the juxtaposition of "irax mM+kus" (raising the sun/dawn)', 'critical analysis'],
-                  hint: 'If stuck, return to node c12_hin_ar_cbse_02_008 (Imagery and Metaphor) and c12_hin_ar_cbse_02_009.',
-                  misconception: 'Students believe "critical analysis" means *criticizing* the poem (finding faults) or *summarizing* it with fancy words.' },
-                { id: 'c', prompt: 'Analyze how the poet uses *sensory imagery* (visual, auditory, tactile) in the first two stanzas to build the atmosphere of the street.', answer: 'Visual: "yky losjk" (blood-red sunset)',
-                  options: ['Visual: "yky losjk" (blood-red sunset)', 'critical analysis'],
-                  hint: 'If stuck, return to node c12_hin_ar_cbse_02_008 (Imagery and Metaphor) and c12_hin_ar_cbse_02_009.',
-                  misconception: 'Students believe "critical analysis" means *criticizing* the poem (finding faults) or *summarizing* it with fancy words.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण किसी पद्यांश/गद्यांश के शब्दार्थ से आगे जाकर उसके अंतर्निहित भाव, प्रसंग,',
+                  options: ['आशय-स्पष्टीकरण किसी पद्यांश/गद्यांश के शब्दार्थ से आगे जाकर उसके अंतर्निहित भाव, प्रसंग,', '\'पतंग\' अलोक धन्वा की एक प्रतीकात्मक कविता है जिसमें पतंग के माध्यम से **युवा पीढ़ी की', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद (स्टैंज़ा) के शाब्दिक अर्थ,', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाहरी ढांचे (स्टैंज़ा विभाजन,'],
+                  hint: 'अगर फँस जाएँ तो c12_hin_ar_cbse_02_007 (प्रतीक और बिंब) दोहराएँ — \'डोर=बंधन, हवा=मुक्ति, आकाश=असीम.',
+                  misconception: 'छात्र समझते हैं कि आशय-स्पष्टीकरण = \'पंक्तियों का हिंदी अनुवाद\'। वे लिखते हैं: "कवि कहता है पतंग उड़ती है डोर के सहारे आकाश में" — यह.' }
           ],
-            remediations: { 'critical-analysis-means-criticizing-the': { steps: ['Have the student re-read only the *third stanza* (starting "vH;kl") and annotate every verb: "mM+rh", "ykrs".', 'Ask: "Which verbs show *agency* (children acting) vs *passivity* (things happening to them)?" 3.', 'Guide them to see the shift: children *choose* to play (agency) but *are forced* to work (passivity).', 'Assign: Write one PEEL paragraph using only verbs from that stanza as evidence to prove "The poem shows childhood.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_02_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "critical analysis" means *criticizing* the poem (finding faults) or *summarizing* it with fancy.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The poem \'इराक्ष\' romanticizes poverty by making the children\'s suffering look poetic and beautiful." Defend or refute using specific.', answer: 'Refute',
-                  options: ['Refute', 'vkdk\'k', 'D;k vki Hkh muosQ lkFk gSa\\', 'critical analysis'],
-                  hint: 'If stuck, return to node c12_hin_ar_cbse_02_008 (Imagery and Metaphor) and c12_hin_ar_cbse_02_009.',
-                  misconception: 'Students believe "critical analysis" means *criticizing* the poem (finding faults) or *summarizing* it with fancy words.' }
-          ],
-            remediations: { 'critical-analysis-means-criticizing-the': { steps: ['Have the student re-read only the *third stanza* (starting "vH;kl") and annotate every verb: "mM+rh", "ykrs".', 'Ask: "Which verbs show *agency* (children acting) vs *passivity* (things happening to them)?" 3.', 'Guide them to see the shift: children *choose* to play (agency) but *are forced* to work (passivity).', 'Assign: Write one PEEL paragraph using only verbs from that stanza as evidence to prove "The poem shows childhood.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से कहो: "पहले c12_hin_ar_cbse_02_002 (पद्यांश-वार भावार्थ) दोहराओ — हर पंक्ति का शाब्दिक अर्थ लिखो।" 2.', 'फिर c12_hin_ar_cbse_02_007 (प्रतीक और बिंब) देखो — प्रत्येक बिंब का प्रतीकात्मक अर्थ नोट करो। 3.', 'अब c12_hin_ar_cbse_02_004 (केंद्रीय भाव) पढ़ो — कविता का मुख्य संदेश एक वाक्य में लिखो। 4.', 'अंत में इस नोड के WORKED_EXAMPLE_1 को देखकर 4-चरणीय ढाँचा (प्रसंग → शब्दार्थ → प्रतीक → केंद्रीय भाव) अपनाकर पुनः.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_02_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refer to the ability to compose structured.',
-          hint: 'If stuck, revisit the identification of imagery and symbolism in nodes 008 and 009, and.',
-          misconception: 'Students believe that writing a paragraph summarizing the poem stanza-by-stanza constitutes a "critical appreciation".',
+          question: 'परीक्षा-उत्तर लेखन कौशल, CBSE बोर्ड परीक्षा के मानकों (मार्किंग स्कीम, शब्द.',
+          hint: 'यदि PEEL संरचना भूल गए हों तो कक्षा 11 के नोड c11_hin_ar_cbse_13_014 (जाग तुझको दूर जाना.',
+          misconception: 'सबसे घातक भ्रांति: "अच्छा उत्तर = अधिक ज्ञान/लंबाई"। छात्र सोचते हैं कि कविता की पूरी कहानी, कवि का जीवन परिचय, सभी.',
           parts: [
-                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing structured answers for literature questions?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
-                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explanation, Line', 'critical appreciation', 'analysis'],
-                  hint: 'If stuck, revisit the identification of imagery and symbolism in nodes 008 and 009, and practice.',
-                  misconception: 'Students believe that writing a paragraph summarizing the poem stanza-by-stanza constitutes a "critical appreciation" or "analysis" answer.' },
-                { id: 'b', prompt: 'Why is it insufficient to only summarize the poem when answering a question like "Analyze the use of imagery in \'irax\'"?', answer: 'Summarizing only retells what happens',
-                  options: ['Summarizing only retells what happens', 'critical appreciation', 'analysis'],
-                  hint: 'If stuck, revisit the identification of imagery and symbolism in nodes 008 and 009, and practice.',
-                  misconception: 'Students believe that writing a paragraph summarizing the poem stanza-by-stanza constitutes a "critical appreciation" or "analysis" answer.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल, CBSE बोर्ड परीक्षा के मानकों (मार्किंग स्कीम, शब्द सीमा, समय',
+                  options: ['परीक्षा-उत्तर लेखन कौशल, CBSE बोर्ड परीक्षा के मानकों (मार्किंग स्कीम, शब्द सीमा, समय', '\'पतंग\' अलोक धन्वा की एक प्रतीकात्मक कविता है जिसमें पतंग के माध्यम से **युवा पीढ़ी की', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद (स्टैंज़ा) के शाब्दिक अर्थ,', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाहरी ढांचे (स्टैंज़ा विभाजन,'],
+                  hint: 'यदि PEEL संरचना भूल गए हों तो कक्षा 11 के नोड c11_hin_ar_cbse_13_014 (जाग तुझको दूर जाना.',
+                  misconception: 'सबसे घातक भ्रांति: "अच्छा उत्तर = अधिक ज्ञान/लंबाई"। छात्र सोचते हैं कि कविता की पूरी कहानी, कवि का जीवन परिचय, सभी अलंकार गिनाने से पूरे.' }
           ],
-            remediations: { 'writing-a-paragraph-summarizing-the': { steps: ['Have the student list all poetic devices identified in nodes 008 and 009 for this poem.', 'Practice converting each device into a PEEL paragraph: Point = device name, Evidence = line reference, Explanation.', 'Give a 3-mark question and ask the student to write only the Point and Evidence for two different devices.', 'Gradually build to full PEEL paragraphs, then full 5-mark answers.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को 3 पुराने बोर्ड प्रश्नपत्र (2022, 2023, 2024) दें और केवल \'पतंग\' कविता के प्रश्न छाँटने को कहें। 2.', 'प्रत्येक प्रश्न के लिए मार्किंग स्कीम (CBSE वेबसाइट से) खोलें और मिलान करें: कितने वैल्यू पॉइंट्स थे?', 'छात्र से कहें: "अब तुम परीक्षक हो — इस कमज़ोर उत्तर को मार्किंग स्कीम से जाँचो और बताओ कहाँ-कहाँ अंक कटेंगे।" 4.', 'फिर छात्र स्वयं वही प्रश्न PEEL संरचना में दोबारा लिखे। 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points are structured conversational prompts.',
-          hint: 'If unable to structure a spoken PEEL response, revisit node 014 (Writing Skills) and.',
-          misconception: 'Students believe a literary discussion is a \'share your feelings\' circle where any personal anecdote counts.',
+          question: '\'वाचन-पाठ\' का अर्थ है कविता का शुद्ध उच्चारण, उचित विराम, लय-गति और भावानुकूल.',
+          hint: 'यदि छंद-लय न पकड़ में आए तो c12_hin_ar_cbse_02_005 के \'मात्रिक छंद पहचान\' अभ्यास दुहराएँ.',
+          misconception: 'छात्र समझते हैं कि \'वाचन-पाठ\' = \'तेज़-तेज़ पढ़ देना\' और \'चर्चा\' = \'सबकी राय सुन लेना\'। वास्तव में: (1) वाचन.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points are structured conversational prompts that',
-                  options: ['Speaking and Listening: Discussion Points are structured conversational prompts that', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot and narrative structure in a poem refer to the sequence of events, images, or', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
-                  hint: 'If unable to structure a spoken PEEL response, revisit node 014 (Writing Skills) and convert.',
-                  misconception: 'Students believe a literary discussion is a \'share your feelings\' circle where any personal anecdote counts.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वाचन-पाठ\' का अर्थ है कविता का शुद्ध उच्चारण, उचित विराम, लय-गति और भावानुकूल',
+                  options: ['\'वाचन-पाठ\' का अर्थ है कविता का शुद्ध उच्चारण, उचित विराम, लय-गति और भावानुकूल', '\'पतंग\' अलोक धन्वा की एक प्रतीकात्मक कविता है जिसमें पतंग के माध्यम से **युवा पीढ़ी की', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद (स्टैंज़ा) के शाब्दिक अर्थ,', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाहरी ढांचे (स्टैंज़ा विभाजन,'],
+                  hint: 'यदि छंद-लय न पकड़ में आए तो c12_hin_ar_cbse_02_005 के \'मात्रिक छंद पहचान\' अभ्यास दुहराएँ; यदि.',
+                  misconception: 'छात्र समझते हैं कि \'वाचन-पाठ\' = \'तेज़-तेज़ पढ़ देना\' और \'चर्चा\' = \'सबकी राय सुन लेना\'। वास्तव में: (1) वाचन **छंद-लय-अर्थ की त्रिवेणी** है.' }
           ],
-            remediations: { 'a-literary-discussion-is-a': { steps: ['**Re-anchor**: Have the student re-read *only* the two NCERT discussion questions they find hardest (e.g., Q2.', '**Model**: Teacher demonstrates a 60-second PEEL response to that question, explicitly saying "My point is...', 'This connects to the theme of..." 3.', '**Practice**: Student delivers the *same* PEEL response to a peer, who checks off each component on a checklist.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { '1-vs-2': { steps: ['**चरण 1:** छात्र से कहें — "कविता की पहली चार पंक्तियाँ **ताली बजाते हुए** पढ़ो" — इससे छंद-लय (मात्रिक छंद) देह में.', '\'डोर\' से क्या भेद है?"* — छात्र को पंक्ति दिखाकर उत्तर देने को कहें। **चरण 4:** यदि फिर कठिनाई हो तो पूर्व नोड.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

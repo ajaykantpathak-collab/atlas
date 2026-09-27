@@ -14,7 +14,7 @@ export const c12_math_ch09_p1: SimDef = {
     scenario: { role: 'Equation classifier', intro: 'Any law that says \'rate depends on the quantity\' becomes a differential equation — first learn to read its skeleton.', goal: 'Identify differential equations and their order — highest derivative rules, exponents don\'t.' },
     discovery: {
         question: '\'d²y/dx² cubed, plus (dy/dx) to the fourth\' — a student calls this order 4 because of the exponent. What\'s the actual order?',
-        options: ['2 — order is the highest derivative present, not the power it\'s raised to; exponents belong to degree, a different question entirely', '4', '3', '1'],
+        options: ['2 — order is the highest derivative present, not the power it\'s raised to; exponents belong to degree, a different question entirely', '4 — the highest power anywhere in the equation sets its order', '3 — order counts the number of derivative terms present', '1 — only the first derivative determines a differential equation\'s order'],
         answer: '2 — order is the highest derivative present, not the power it\'s raised to; exponents belong to degree, a different question entirely',
         hook: 'A differential equation needs a derivative to be one — \'x² − 5x + 6 = 0\' is just algebra. Cooling chai wrote the first one you\'ll meet: dT/dt = −k(T − T_room), order 1, because the rate of cooling depends on the temperature itself.',
     },

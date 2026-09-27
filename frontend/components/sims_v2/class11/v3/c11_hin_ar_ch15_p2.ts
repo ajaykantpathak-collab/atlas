@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch15_p2: SimDef = {
     id: 'v3_c11_hin_ar_ch15_p2',
-    title: 'eerk dkfy;k · Part 2/3',
+    title: 'पाठ 15 · Part 2/3',
     subtitle: 'Watch a poem dismantle your definitions before it offers its own.',
-    classLevel: 11, subject: 'hin_ar', topic: 'eerk dkfy;k · Part 2/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 15 · Part 2/3',
     chapters: ['c11_hin_ar_ch15'],
     nodeIds: ['c11_hin_ar_cbse_15_007', 'c11_hin_ar_cbse_15_008', 'c11_hin_ar_cbse_15_009', 'c11_hin_ar_cbse_15_010', 'c11_hin_ar_cbse_15_011', 'c11_hin_ar_cbse_15_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,42 +19,20 @@ export const c11_hin_ar_ch15_p2: SimDef = {
         hook: 'The refrain flips at the fourth stanza — \'not this\' becomes \'this is the most dangerous\' — and the imagery turns from home\'s warmth to a worker\'s weary feet.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, supporting ideas in a literary work that complement and enrich the primary theme by exploring specific dimensions of human experience, social reality,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 15 — गौण विषय', text: 'गौण विषय (Sub-theme) वह कथात्मक धारा है जो मुख्य विषय के समानांतर चलती हुई कथानक को विस्तार, पात्रों को गहराई और सामाजिक यथार्थ को विश्वसनीयता प्रदान करती है, बिना मुख्य कथानक का अंग बने।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_15_007', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Find the stanza where negation flips to assertion, then weigh the title\'s provocation — \'the smallest is not the smallest\' — against 1980s hill migration.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are trying to describe the feeling of \'exhaustion\' to someone who has never felt it.',
-            decisions: [{ prompt: 'Define \'metaphor\' precisely using the terms \'tenor\' and \'vehicle\'.', options: [
-                { text: 'A metaphor asserts an identity between two distinct things: the **tenor** (the subject', outcome: 'A metaphor asserts an identity between two distinct things: the **tenor** (the subject being.' },
-                { text: 'comparison using like/as', outcome: 'Not quite — Students often treat metaphors in this poem as **isolated decorative comparisons** (e.g.', reveals: 'students-often-treat-metaphors-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine a friend fails an exam and you say, "Wow, you really nailed it!" — that\'s verbal irony, but the poem uses a deeper, structural irony: it builds a list.',
-            decisions: [{ prompt: 'In the poem "lcls [krjukd", the phrase "lcls [krjukd ugha gksrk" (is not the most cruel) is repeated multiple times.', options: [
-                { text: 'The repetition creates structural irony by establishing a pattern of negation: each time', outcome: 'The repetition creates structural irony by establishing a pattern of negation: each time the poet.' },
-                { text: 'it emphasizes the point', outcome: 'Not quite — Students often confuse the poem\'s irony with simple contrast ("the poet says war is not cruel").', reveals: 'students-often-confuse-the-poem' },
-                { text: 'the poet says war is not cruel', outcome: 'Not quite — Students often confuse the poem\'s irony with simple contrast ("the poet says war is not cruel").', reveals: 'students-often-confuse-the-poem' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading a WhatsApp forward that says "Life\'s hardest thing isn\'t climbing Everest, it\'s watching your mother age." You instantly grasp that.',
-            decisions: [{ prompt: 'Define "contextual meaning" of a word in a poem and give one example from "सबसे कठिन" where the contextual meaning sharply diverges from.', options: [
-                { text: 'Contextual meaning is the specific semantic and emotional value a word acquires from its', outcome: 'Contextual meaning is the specific semantic and emotional value a word acquires from its.' },
-                { text: 'रम्य means beautiful', outcome: 'Not quite — Students believe "vocabulary in context" means "guessing the meaning of hard words from surrounding.', reveals: 'vocabulary-in-context-means-guessing' },
-                { text: 'vocabulary in context', outcome: 'Not quite — Students believe "vocabulary in context" means "guessing the meaning of hard words from surrounding.', reveals: 'vocabulary-in-context-means-guessing' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall staring at a question: "dfo us fdl vk\'k; ls esgur dh ywV dks lcls [krjukd ugha ekuk?" Your heart races because the answer isn\'t.',
-            decisions: [{ prompt: 'What is the definition of a literal comprehension question in the context of Hindi poetry analysis?', options: [
-                { text: 'A literal comprehension question asks for information explicitly stated in the poem\'s', outcome: 'A literal comprehension question asks for information explicitly stated in the poem\'s text.' },
-                { text: 'It\'s about understanding the deep meaning', outcome: 'Not quite — Students believe "inferential" means "guessing based on personal opinion." They write answers like.', reveals: 'inferential-means-guessing-based-on' },
-                { text: 'inferential', outcome: 'Not quite — Students believe "inferential" means "guessing based on personal opinion." They write answers like.', reveals: 'inferential-means-guessing-based-on' }
-            ] }] } },
+        labels: ['पाठ 15 — गौण', 'पाठ 15 — साहित्यिक', 'पाठ 15 — पदावली', 'पाठ 15 — व्याकरण', 'पाठ 15 — बोध-प्रश्न'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_15_008', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 15 · Part 2/3', spots: [
+            { id: 's1', label: '15 -', prompt: 'Which idea is this? — पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के विषय, पात्र, परिवेश और भाव-भंगिमा के.', answer: '15 -', options: ['15 -', '15 - -'] },
+            { id: 's2', label: '15 - -', prompt: 'Which idea is this? — वस्तुनिष्ठ प्रश्न वे हैं जिनका उत्तर पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं, नामों या क्रम.', answer: '15 - -', options: ['15 - -', '15 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_15_007', title: 'Use it in the wild',
           caseStudy: { intro: 'At a kavi sammelan themed on migration, someone offers \'Laguta Sabse Chhoti Nahin Hoti\' but introduces it as \'a gentle poem about how small people also matter — mothers\' love, fathers\' laps, childhood warmth.\'',
             decisions: [{ prompt: 'What is the poem actually arguing, and how is it built?', options: [
@@ -64,104 +42,81 @@ export const c11_hin_ar_ch15_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_15_012', title: 'The bigger picture',
           caseStudy: { intro: 'Written by a journalist who watched Tehri\'s villages empty to Delhi\'s construction sites — \'small\' was never about size; it\'s about what we\'re trained not to see.',
-            decisions: [{ prompt: 'What comes next? eerk dkfy;k · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — eerk dkfy;k · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 15 · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 15 · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, supporting ideas in a literary work that.',
-          hint: 'Review the primary theme analysis (node 006) focusing on how the poet defines "smallest".',
-          misconception: 'Students commonly believe secondary themes are simply "less important themes" or "sub-themes" that can be listed like.',
+          question: 'गौण विषय (Sub-theme) वह कथात्मक धारा है जो मुख्य विषय के समानांतर चलती हुई.',
+          hint: 'यदि फँसें तो \'कथानक और आख्यान-संरचना\' (नोड 002) में \'उपकथानक\' (sub-plot) की अवधारणा.',
+          misconception: 'छात्र समझते हैं कि \'गौण विषय = कम महत्वपूर्ण विषय\'। वे शब्द \'गौण\' (secondary) को \'गैर-जरूरी\' (unimportant) समझ लेते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the underlying, supporting ideas in a literary work that complement',
-                  options: ['Secondary themes are the underlying, supporting ideas in a literary work that complement', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and narrative structure in a poem refers to the deliberate organization of images,', 'Setting and Atmosphere in poetry refer to the temporal, spatial, and emotional backdrop'],
-                  hint: 'Review the primary theme analysis (node 006) focusing on how the poet defines "smallest" through.',
-                  misconception: 'Students commonly believe secondary themes are simply "less important themes" or "sub-themes" that can be listed like topics (loneliness.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह कथात्मक धारा है जो मुख्य विषय के समानांतर चलती हुई कथानक को',
+                  options: ['गौण विषय (Sub-theme) वह कथात्मक धारा है जो मुख्य विषय के समानांतर चलती हुई कथानक को', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि फँसें तो \'कथानक और आख्यान-संरचना\' (नोड 002) में \'उपकथानक\' (sub-plot) की अवधारणा दोहराएँ — गौण.',
+                  misconception: 'छात्र समझते हैं कि \'गौण विषय = कम महत्वपूर्ण विषय\'। वे शब्द \'गौण\' (secondary) को \'गैर-जरूरी\' (unimportant) समझ लेते हैं। उदाहरण: पाठ 15 में.' }
           ],
-            remediations: { 'students-commonly-believe-secondary-themes': { steps: ['If a student cannot move beyond labeling, guide them through this sequence: (1) Pick ONE image from the poem (e.g., the.', '(2) Ask: "What does this window SEE?', 'What does it FAIL to hold?" (3) Connect each answer to a specific line.', '(4) Ask: "So what argument about urban life is the window making?" (5) Generalize: "This is how the theme of alienation.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_007', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students commonly believe secondary themes are simply "less important themes" or "sub-themes" that can be listed like.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The secondary theme of mortality in \'lcls [krjukd\' is not about death as an event but about death as a daily condition." Support your.', answer: 'The claim is accurate',
-                  options: ['The claim is accurate', 'lcls [krjukd og xhr gksrk gS / vkiosQ dkuksa rd igq¡pus osQ fy'],
-                  hint: 'Review the primary theme analysis (node 006) focusing on how the poet defines "smallest" through.',
-                  misconception: 'Students commonly believe secondary themes are simply "less important themes" or "sub-themes" that can be listed like topics (loneliness.' }
-          ],
-            remediations: { 'students-commonly-believe-secondary-themes': { steps: ['If a student cannot move beyond labeling, guide them through this sequence: (1) Pick ONE image from the poem (e.g., the.', '(2) Ask: "What does this window SEE?', 'What does it FAIL to hold?" (3) Connect each answer to a specific line.', '(4) Ask: "So what argument about urban life is the window making?" (5) Generalize: "This is how the theme of alienation.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'secondary-unimportant-15': { steps: ['छात्र से कहें: "पाठ के 5 प्रमुख प्रसंग लिखो जो तुम्हें लगे मुख्य कहानी से अलग हैं।" 2.', 'प्रत्येक प्रसंग के लिए पूछें: "इस प्रसंग का अपना कौन-सा संघर्ष है?', 'इसका आरंभ-मध्य-अंत क्या है?" 3.', 'फिर पूछें: "अगर यह प्रसंग हटा दें, तो मुख्य पात्र/कहानी पर क्या फर्क पड़ेगा?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
-          hint: 'Review the definitions of tenor/vehicle and the sensory imagery chart from Class 10.',
-          misconception: 'Students often treat metaphors in this poem as **isolated decorative comparisons** (e.g., "helplessness is like.',
+          question: '**बिंब (Imagery):** काव्य/गद्य में प्रयुक्त वह शब्द-योजना जो पाठक के मन में.',
+          hint: 'यदि अटके: **उपमा और रूपक के १०-१० उदाहरण** लिखकर उनके **विधानिक अंतर** (जैसे/सा की.',
+          misconception: '**विशिष्ट भ्रम:** छात्र **हर अंतर्निहित तुलना को रूपक मान लेते हैं** — जैसे "वह शेर दिल का है" (यह रूपक है), लेकिन "वह.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery is the use of vivid, sensory language that appeals to the five senses (sight,',
-                  options: ['Imagery is the use of vivid, sensory language that appeals to the five senses (sight,', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and narrative structure in a poem refers to the deliberate organization of images,', 'Setting and Atmosphere in poetry refer to the temporal, spatial, and emotional backdrop'],
-                  hint: 'Review the definitions of tenor/vehicle and the sensory imagery chart from Class 10 Poetics.',
-                  misconception: 'Students often treat metaphors in this poem as **isolated decorative comparisons** (e.g., "helplessness is like stiffness") and identify.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery):** काव्य/गद्य में प्रयुक्त वह शब्द-योजना जो पाठक के मन में इंद्रियगत',
+                  options: ['**बिंब (Imagery):** काव्य/गद्य में प्रयुक्त वह शब्द-योजना जो पाठक के मन में इंद्रियगत', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि अटके: **उपमा और रूपक के १०-१० उदाहरण** लिखकर उनके **विधानिक अंतर** (जैसे/सा की.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र **हर अंतर्निहित तुलना को रूपक मान लेते हैं** — जैसे "वह शेर दिल का है" (यह रूपक है), लेकिन "वह शेर *जैसा* बहादुर.' }
           ],
-            remediations: { 'students-often-treat-metaphors-in': { steps: ['**Re-read stanza by stanza with a highlighter:** Mark every noun that follows "Sabse karkh..." (kadak, ankh, patta.', 'These are the **vehicles**.', '**Create a two-column table:** Column A = Vehicle (image), Column B = Tenor (aspect of \'difficulty\' it explains).', 'Fill using the lines *around* the metaphor (e.g., for \'ankh\': tenor = the witnessing consciousness that sees suffering.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण १:** छात्र को ५ वाक्य दें — २ उपमा, २ रूपक, १ केवल बिंब। कहें: "हर वाक्य में \'जैसे/सा/सम\' ढूँढ़ो। जहाँ न हो, वहाँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_009', difficulty: 'standard',
-          question: 'Irony in this poem is the sustained contrast between the speaker\'s repeated.',
-          hint: 'Review the "Symbol vs. Metaphor" table in node 008 and re-read the poem marking only the.',
-          misconception: 'Students often confuse the poem\'s irony with simple contrast ("the poet says war is not cruel") or treat the symbols.',
+          question: '**विरोधाभास (Paradox)** एक ऐसा साहित्यिक युक्ति है जिसमें कोई कथन या स्थिति.',
+          hint: 'यदि अटके तो **c11_hin_ar_cbse_15_008 (बिंब और रूपक)** के \'रूपक के दो घटक: उपमान/उपमेय\' और.',
+          misconception: '**विशिष्ट भ्रम:** छात्र अक्सर **\'विरोधाभास\' को \'विरोधाभासी स्थिति\' (Situational Irony) या साधारण \'विरोध\' (Contrast) समझ.',
           parts: [
-                { id: 'a', prompt: 'The poem lists "esgur dh ywV" (beauty of youth), "iqfyl dh ekj" (mother\'s love), and "xíkjh&yksHk dh eq_h" (soldier\'s sacrifice) as things that are NOT the.', answer: 'By including cherished values',
-                  options: ['By including cherished values', 'the poet is saying these good things are also cruel', 'the poet says war is not cruel', 'thorn = pain'],
-                  hint: 'Review the "Symbol vs. Metaphor" table in node 008 and re-read the poem marking only the refrain.',
-                  misconception: 'Students often confuse the poem\'s irony with simple contrast ("the poet says war is not cruel") or treat the symbols as static metaphors.' },
-                { id: 'b', prompt: 'Compare the symbolic progression from "?kM+h" (thorn) → "pk¡n" (wound) → "xhr" (poison) → "jkr" (burning) → "fn\'kk" (darkness).', answer: 'The sequence maps the internalization of oppression: a thorn pricks from outside',
-                  options: ['The sequence maps the internalization of oppression: a thorn pricks from outside', 'the poet says war is not cruel', 'thorn = pain'],
-                  hint: 'Review the "Symbol vs. Metaphor" table in node 008 and re-read the poem marking only the refrain.',
-                  misconception: 'Students often confuse the poem\'s irony with simple contrast ("the poet says war is not cruel") or treat the symbols as static metaphors.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox)** एक ऐसा साहित्यिक युक्ति है जिसमें कोई कथन या स्थिति प्रथम',
+                  options: ['**विरोधाभास (Paradox)** एक ऐसा साहित्यिक युक्ति है जिसमें कोई कथन या स्थिति प्रथम', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि अटके तो **c11_hin_ar_cbse_15_008 (बिंब और रूपक)** के \'रूपक के दो घटक: उपमान/उपमेय\' और \'बिंब के.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र अक्सर **\'विरोधाभास\' को \'विरोधाभासी स्थिति\' (Situational Irony) या साधारण \'विरोध\' (Contrast) समझ लेते हैं।** उदाहरण.' }
           ],
-            remediations: { 'students-often-confuse-the-poem': { steps: ['Have the student physically number the stanzas 1–5 and mark every occurrence of "lcls [krjukd ugha gksrk" with.', 'Ask: "What changes between the first time you see this phrase and the last time?" Guide them to see that the *meaning*.', 'Draw the symbolic chain on paper: thorn → wound → poison → fire → darkness.', 'Ask: "If you remove \'poison\', does \'fire\' still make sense?" This forces recognition of causal linkage.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'situational-irony-contrast': { steps: ['**पुनर्पाठ (Re-read):** छात्र से कहें — पाठ का वह अंश दुबारा पढ़ें जहाँ विरोधाभास/प्रतीक लगा है; **पेंसिल से रेखांकित.', '**तर्क-परीक्षण (Logic Test):** पूछें — "अगर यह कथन शाब्दिक रूप से सच मान लें, तो क्या असंभव होगा?', 'और अगर झूठ मान लें, तो क्या सत्य बचेगा?" — विरोधाभास में **दोनों स्थितियों में एक सत्य बचता है**। 3.', '**प्रतीक-मानचित्र (Symbol Map):** एक तालिका बनवाएँ: कॉलम 1 — वस्तु/चरित्र (पाठगत), कॉलम 2 — भौतिक गुण, कॉलम 3 — संभावित.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
-          hint: 'Review "tenor-vehicle-ground" framework for metaphor analysis from c11_hin_ar_cbse_15_008.',
-          misconception: 'Students believe "vocabulary in context" means "guessing the meaning of hard words from surrounding sentences." They.',
+          question: 'पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द या पद हैं जो पाठ के केंद्रीय.',
+          hint: 'यदि अटके: \'मुख्य विषय और संदेश\' (c11_hin_ar_cbse_15_006) नोड पर लौटें और विषय को एक वाक्य.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'मुख्य शब्द\' वे ही हैं जो पाठ में **सबसे अधिक बार आए हों** (word frequency) या.',
           parts: [
-                { id: 'a', prompt: 'The poem repeats "सबसे कठिन नहीं" (not the most difficult) four times before revealing what *is* most difficult.', answer: 'The anaphoric repetition creates a semantic funnel: each negation strips away a',
-                  options: ['The anaphoric repetition creates a semantic funnel: each negation strips away a', 'no longer denotes', 'impossible to endure without fragmentation of self', 'it emphasizes the word'],
-                  hint: 'Review "tenor-vehicle-ground" framework for metaphor analysis from c11_hin_ar_cbse_15_008 and.',
-                  misconception: 'Students believe "vocabulary in context" means "guessing the meaning of hard words from surrounding sentences." They treat context as.' },
-                { id: 'b', prompt: 'Compare the contextual meanings of "ओझल" (vanishing) in "ओझल होती आँखें" (vanishing eyes) and "व्योम" (sky) in "व्योम तक पहुँचती पुकार" (call reaching the.', answer: '"ओझल" literally means "disappearing from sight"',
-                  options: ['"ओझल" literally means "disappearing from sight"', 'vocabulary in context', 'guessing the meaning of hard words from surrounding sentences'],
-                  hint: 'Review "tenor-vehicle-ground" framework for metaphor analysis from c11_hin_ar_cbse_15_008 and.',
-                  misconception: 'Students believe "vocabulary in context" means "guessing the meaning of hard words from surrounding sentences." They treat context as.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द या पद हैं जो पाठ के केंद्रीय विषय,',
+                  options: ['पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द या पद हैं जो पाठ के केंद्रीय विषय,', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि अटके: \'मुख्य विषय और संदेश\' (c11_hin_ar_cbse_15_006) नोड पर लौटें और विषय को एक वाक्य में.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'मुख्य शब्द\' वे ही हैं जो पाठ में **सबसे अधिक बार आए हों** (word frequency) या जो **सबसे.' }
           ],
-            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['Take ONE word from the poem (e.g., "पछताना" – to regret).', 'Write its dictionary definition.', 'Find its exact line in the poem.', 'List 3 contextual forces acting on it: (a) the verb tense (infinitive as noun), (b) the preceding image ("घर से दूर.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'word-frequency-15': { steps: ['**पुनर्परिभाषित करें:** छात्र से कहें — "भूल जाओ कि शब्द कठिन है या सरल; बताओ: अगर इस शब्द को पाठ से हटा दूं, तो क्या.', 'यदि हाँ, तो यह मुख्य शब्द है।" 2.', '**वाक्य-प्रयोग करवाएं:** छात्र से प्रत्येक संभावित मुख्य शब्द का प्रयोग करते हुए **एक वाक्य** लिखने को कहें जो पाठ का.', '**श्रेणीकरण अभ्यास:** पहचाने गए शब्दों को तीन स्तंभों में बाँटें: (क) विषय-निर्माता (Theme-builders), (ख) तर्क-साधक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis.',
-          hint: 'Review Class 9 Hindi Grammar Chapter "Vakya Vichar" and "Samasa" — specifically.',
-          misconception: 'Students treat the poem\'s grammar as "incorrect" or "broken" Hindi because it omits explicit subjects (e.g., "lcls.',
+          question: 'पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के विषय, पात्र, परिवेश और.',
+          hint: 'अगर अटके तो कक्षा 9-10 के \'शब्द-भेद\' और \'वाच्य-परिवर्तन\' के अभ्यास पुनः देखें, विशेषकर.',
+          misconception: 'छात्र समझते हैं कि \'भाषा-प्रयोग\' का अर्थ है पाठ में आए **कठिन शब्दों के अर्थ लिखना** या **संधि-समास-विग्रह करना**। वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Grammar: Language Usage in the Text refers to the systematic analysis of syntactic',
-                  options: ['Grammar: Language Usage in the Text refers to the systematic analysis of syntactic', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and narrative structure in a poem refers to the deliberate organization of images,', 'Setting and Atmosphere in poetry refer to the temporal, spatial, and emotional backdrop'],
-                  hint: 'Review Class 9 Hindi Grammar Chapter "Vakya Vichar" and "Samasa" — specifically *karmadharaya*.',
-                  misconception: 'Students treat the poem\'s grammar as "incorrect" or "broken" Hindi because it omits explicit subjects (e.g., "lcls [krjukd ugha gksrh" has.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के विषय, पात्र, परिवेश और भाव-भंगिमा के',
+                  options: ['पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के विषय, पात्र, परिवेश और भाव-भंगिमा के', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'अगर अटके तो कक्षा 9-10 के \'शब्द-भेद\' और \'वाच्य-परिवर्तन\' के अभ्यास पुनः देखें, विशेषकर तत्सम-तद्भव.',
+                  misconception: 'छात्र समझते हैं कि \'भाषा-प्रयोग\' का अर्थ है पाठ में आए **कठिन शब्दों के अर्थ लिखना** या **संधि-समास-विग्रह करना**। वे यह नहीं देख पाते कि.' }
           ],
-            remediations: { 'students-treat-the-poem-s': { steps: ['Give the student two versions of a simple sentence: prose "Ye chhota hai" vs.', 'poetic "Chhota ye hai, bada nahin." Ask: "Which sounds like a poem?', 'Have them physically cut up the poem\'s lines into clauses (negation, genitive phrase, relative clause) and reassemble.', 'Use color-coding: red for *pratishedh* (negation), blue for *karak* markers, green for *kriya* (verb).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को पाठ के **एक ही भाव** (जैसे \'क्रोध\') के लिए प्रयुक्त **3-4 अलग शब्द** (जैसे: क्रोध, रोष, कोप, गुस्सा, खून.', 'हर शब्द के लिए पूछो: "यह शब्द यहाँ ही क्यों?', '\'गुस्सा\' यहाँ क्यों नहीं चला?" 3.', 'छात्र से कहो कि वह **अपनी भाषा में** उस शब्द की \'ध्वनि\', \'लंबाई\', \'संस्कृति\' और \'भाव-तीव्रता\' का वर्णन करे — शब्दकोश.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
-          hint: 'If stuck, review c11_hin_ar_cbse_15_010 (Vocabulary) for "xaqMs, ejfl;, ftLe, nqgjko" and.',
-          misconception: 'Students believe "inferential" means "guessing based on personal opinion." They write answers like "I think the.',
+          question: 'वस्तुनिष्ठ प्रश्न वे हैं जिनका उत्तर पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं.',
+          hint: 'यदि छात्र अटका हो तो **पाठ 15 के मुख्य विषय (नोड 006) और साहित्यिक युक्तियाँ (नोड 008.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'आशय-सूचक प्रश्न का उत्तर लंबा होना चाहिए\'** और **\'वस्तुनिष्ठ प्रश्न का उत्तर.',
           parts: [
-                { id: 'a', prompt: 'In the poem, the line "lcls [krjukd gksrk gS eqnkZ \'kkafr ls Hkj tkuk" appears.', answer: 'This is an inferential question',
-                  options: ['This is an inferential question', 'literal', 'demands reasoning beyond textual retrieval', 'They write answers like'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_15_010 (Vocabulary) for "xaqMs, ejfl;, ftLe, nqgjko" and.',
-                  misconception: 'Students believe "inferential" means "guessing based on personal opinion." They write answers like "I think the smallest thing is sadness.' },
-                { id: 'b', prompt: 'Compare the literal imagery of "cSBs&fcBk, idM+s tkuk" (Stanza 1) with the inferential imagery of "lcls [krjukd og pk¡n gksrk gS tks gj gR;kdkaM osQ ckn...', answer: 'The literal negation ("cSBs&fcBk, idM+s tkuk") defines "smallest" by exclusion',
-                  options: ['The literal negation ("cSBs&fcBk, idM+s tkuk") defines "smallest" by exclusion', 'inferential', 'guessing based on personal opinion', 'I think the smallest thing is sadness'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_15_010 (Vocabulary) for "xaqMs, ejfl;, ftLe, nqgjko" and.',
-                  misconception: 'Students believe "inferential" means "guessing based on personal opinion." They write answers like "I think the smallest thing is sadness.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न वे हैं जिनका उत्तर पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं, नामों या क्रम',
+                  options: ['वस्तुनिष्ठ प्रश्न वे हैं जिनका उत्तर पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं, नामों या क्रम', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि छात्र अटका हो तो **पाठ 15 के मुख्य विषय (नोड 006) और साहित्यिक युक्तियाँ (नोड 008, 009)** की.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'आशय-सूचक प्रश्न का उत्तर लंबा होना चाहिए\'** और **\'वस्तुनिष्ठ प्रश्न का उत्तर एक शब्द/वाक्य में.' }
           ],
-            remediations: { 'inferential-means-guessing-based-on': { steps: ['Have the student re-read the poet\'s bio note: "1988 esa [kkfyLrfu;ksa osQ gkFkksa ekjs x, vkSj ns\'k dh vkoke osQ.', 'Ask them to circle every word in the poem related to death/violence (ejfl;, xaqMs, ph"kk, mritak, nqgjko).', 'Model one inference aloud: "The word \'xaqMs\' (executioner) in Stanza 4 is not metaphorical – it literally names the.', 'Therefore, the bird \'trembling in alleys\' infers the targeted community hiding in Delhi\'s gullies." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'paraphrasing': { steps: ['**पहचान अभ्यास:** छात्र को 10 मिश्रित प्रश्न दें (पाठ 15 के)। उसे केवल **लेबल** करना है: V (वस्तुनिष्ठ) / A (आशय-सूचक)।.', '**साक्ष्य-उद्धरण अभ्यास:** 3 आशय-सूचक प्रश्न दें। छात्र को **उत्तर नहीं लिखना**, केवल **पाठ की वे 2-3 पंक्तियाँ/शब्द.', '**PEEL ढाँचा सिखाएँ:** हर आशय-सूचक उत्तर के लिए: **P**oint (सीधा उत्तर), **E**vidence (पाठ-संदर्भ/उद्धरण).', '**आदर्श उत्तर तुलना:** बोर्ड के मॉडल उत्तर (मार्किंग स्कीम) और छात्र का उत्तर साथ रखें। छात्र से पूछें: "आपके उत्तर में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

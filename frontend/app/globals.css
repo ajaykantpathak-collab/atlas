@@ -60,13 +60,14 @@ body {
 }
 .skip-link:focus {
   top: 0;
-  outline: 2px solid #6366f1;
+  outline: 2px solid #f59e0b;
   outline-offset: 2px;
 }
 
-/* Focus-visible styles for keyboard navigation */
+/* Focus-visible styles for keyboard navigation — Atlas gold ring
+   (was #6366f1 indigo: off-system on the near-black + gold design) */
 *:focus-visible {
-  outline: 2px solid #6366f1;
+  outline: 2px solid #f59e0b;
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -290,3 +291,24 @@ button[class*="btn"]:not([class*="btn-xs"]):not([class*="h-6"]):not([class*="h-8
   transition: width 0.3s ease;
 }
 .premium-link:hover::after { width: 100%; }
+
+/* ── PWA safe areas (mobile, viewport-fit=cover — see app/layout.tsx) ──── */
+/* The page paints edge-to-edge on notched phones (installed PWA and mobile
+   Safari). Unlayered rules here override the Tailwind utilities of the same
+   name. Desktop / non-notched devices: env() = 0 → pixel-identical. */
+html {
+  background-color: #0a0a0f;
+}
+.safe-top { padding-top: env(safe-area-inset-top, 0px); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom, 0px); }
+
+/* All sticky headers use `sticky top-0`. Drop them below the status-bar
+   inset and let their own glass background extend into it. h-16 → auto with
+   the same 4rem floor so the header grows instead of squeezing its content;
+   inner rows keep their own h-16. */
+.sticky.top-0 {
+  top: env(safe-area-inset-top, 0px);
+  padding-top: env(safe-area-inset-top, 0px);
+  height: auto;
+  min-height: 4rem;
+}

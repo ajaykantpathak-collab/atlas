@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_v_ch02_p3: SimDef = {
     id: 'v3_c11_hin_v_ch02_p3',
-    title: 'ikB\'kkyk tkus osQ fy, · Part 3/3',
+    title: 'पाठ 2 · Part 3/3',
     subtitle: 'See a pond as a village\'s constitution, not its engineering.',
-    classLevel: 11, subject: 'hin_v', topic: 'ikB\'kkyk tkus osQ fy, · Part 3/3',
+    classLevel: 11, subject: 'hin_v', topic: 'पाठ 2 · Part 3/3',
     chapters: ['c11_hin_v_ch02'],
     nodeIds: ['c11_hin_v_cbse_02_013', 'c11_hin_v_cbse_02_014', 'c11_hin_v_cbse_02_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,28 +19,20 @@ export const c11_hin_v_ch02_p3: SimDef = {
         hook: 'The pond is the easy part — historically the dominant castes controlled the water; revival worked only when women\'s jal sabhas rewrote the sharing rules.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the higher-order cognitive process of deconstructing a literary text to examine its underlying structures, evaluating the author\'s choices (language.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 2 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें पाठ के **स्पष्ट अर्थ** के साथ-साथ उसके **अंतर्निहित निहितार्थ, भाषाई संरचना, साहित्यिक युक्तियों, सांस्कृतिक-सामाजिक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_02_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Compute a catchment-to-command ratio for a village, then follow the chapter\'s escalation from grain-share to cash wage to piece-rate labour.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['पाठ 2 — आलोचनात्मक', 'पाठ 2 — लेखन', 'पाठ 2 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_02_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit in the exam hall and the question reads: "Explain how the *khadin* system reflects the Thar community\'s deep understanding of soil moisture.".',
-            decisions: [{ prompt: 'Define the PEEL structure for writing a literature-based answer in CBSE Class 11 Hindi Core.', options: [
-                { text: 'PEEL stands for Point (main claim in one sentence), Evidence (specific textual detail or', outcome: 'PEEL stands for Point (main claim in one sentence), Evidence (specific textual detail or quote).' },
-                { text: 'PEEL means writing a summary', outcome: 'Not quite — Students believe "writing skills" means learning *formats* (report, article, speech) by heart.', reveals: 'writing-skills-means-learning-formats' },
-                { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means learning *formats* (report, article, speech) by heart.', reveals: 'writing-skills-means-learning-formats' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are at a community meeting in a Rajasthan desert village deciding where to build the next house.',
-            decisions: [{ prompt: 'What are the three types of sand (इक्यिकुह, इक्रिकुह, ज्स्त्क.खिकुह) described in the chapter, and which one is considered best for.', options: [
-                { text: 'The three types are: इक्यिकुह (coarse sand from riverbeds), इक्रिकुह (fine sand from', outcome: 'The three types are: इक्यिकुह (coarse sand from riverbeds), इक्रिकुह (fine sand from dunes), and.' },
-                { text: 'misidentifies the composition of ज्स्त्क', outcome: 'Not quite — Students treat discussion as opinion-sharing without textual anchoring.', reveals: 'students-treat-discussion-as-opinion' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_v_cbse_02_014', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 2 · Part 3/3', spots: [
+            { id: 's1', label: '2 -', prompt: 'Which idea is this? — लेखन कौशल: पाठ-आधारित (Text-based Writing Skill) वह संरचित प्रक्रिया है जिसमें विद्यार्थी.', answer: '2 -', options: ['2 -', '2 - -'] },
+            { id: 's2', label: '2 - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु एक **संरचित संवाद कौशल** है जिसमें शिक्षार्थी किसी पाठ को पढ़ने.', answer: '2 - -', options: ['2 - -', '2 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_02_013', title: 'Use it in the wild',
           caseStudy: { intro: 'For a project on water scarcity, a student presents Anupam Mishra\'s johad chapter as \'a DIY guide to building check-dams — shapes, sizes, materials.\' A classmate asks why the chapter spends so long on village meetings and voluntary labour.',
             decisions: [{ prompt: 'What is the chapter really about?', options: [
@@ -60,49 +52,38 @@ export const c11_hin_v_ch02_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the higher-order cognitive.',
-          hint: 'If stuck, return to node 006 (Primary Theme) and node 009 (Irony/Symbolism)—these two.',
-          misconception: 'Students equate "critical thinking" with "finding faults" or "giving opinions," leading them to write subjective.',
+          question: 'आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें.',
+          hint: 'यदि फँस जाएं तो **c11_hin_v_cbse_02_008 (बिंब/रूपक) और c11_hin_v_cbse_02_009.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'आलोचनात्मक चिंतन\' = \'पाठ में कमियाँ निकालना\' (fault-finding)** या **\'अपनी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation is the higher-order cognitive process of',
-                  options: ['Critical Thinking: Analysis and Interpretation is the higher-order cognitive process of', 'Before You Read: Context and Background is a pre-reading strategy that equips students', 'Plot and Narrative Structure in non-fiction expository texts refers to the logical', 'Setting refers to the physical, temporal, and social environment in'],
-                  hint: 'If stuck, return to node 006 (Primary Theme) and node 009 (Irony/Symbolism)—these two nodes provide.',
-                  misconception: 'Students equate "critical thinking" with "finding faults" or "giving opinions," leading them to write subjective reactions ("I feel the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें पाठ के',
+                  options: ['आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें पाठ के', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ'],
+                  hint: 'यदि फँस जाएं तो **c11_hin_v_cbse_02_008 (बिंब/रूपक) और c11_hin_v_cbse_02_009 (विरोधाभास/प्रतीक)**.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'आलोचनात्मक चिंतन\' = \'पाठ में कमियाँ निकालना\' (fault-finding)** या **\'अपनी निजी राय देना\'.' }
           ],
-            remediations: { 'students-equate-critical-thinking-with': { steps: ['Show the student two paragraphs on the same topic: one opinion-based ("The author seems sad about pots dying"), one.', 'Ask them to label each sentence as "claim," "evidence," or "warrant." 3.', 'Have them rewrite the opinion paragraph by inserting textual evidence after every claim.', 'Practice this template on three chapter passages until the structure becomes automatic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'fault-finding-personal-opinion-critical': { steps: ['**शब्दावली सुधार:** छात्र से कहें — "आलोचनात्मक (critical) का अर्थ यहाँ **\'निर्णायक/विवेचनात्मक\'.', '**अभ्यास:** एक छोटा अंश दें (4-5 पंक्तियाँ)। पूछें: "यहाँ लेखक ने **क्या किया है** (technique)?" — न कि "तुम्हें कैसा.', '**PEEL ढांचा लागू करवाएं:** हर बिंदु के लिए **Point → Evidence (पाठ पंक्ति/शब्द) → Explanation (कैसे/क्यों) → Link (थीम.', '**फीडबैक लूप:** छात्र के उत्तर में **\'निजी राय\' वाले वाक्य** लाल पेन से घेरें, पूछें: "यह पाठ से कहाँ सिद्ध होता है?".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_014', difficulty: 'standard',
-          question: 'Writing skills based on Chapter 2 ("जक्तLFkku dh jtr cw¡nas") refer to the.',
-          hint: 'Review c11_hin_v_cbse_02_010 (Vocabulary) and c11_hin_v_cbse_02_006 (Primary Theme).',
-          misconception: 'Students believe "writing skills" means learning *formats* (report, article, speech) by heart.',
+          question: 'लेखन कौशल: पाठ-आधारित (Text-based Writing Skill) वह संरचित प्रक्रिया है जिसमें.',
+          hint: 'यदि अटके: पहले c11_hin_v_cbse_02_012 (बोध प्रश्न) के \'आशय-सूचक\' प्रश्नों का अभ्यास करें.',
+          misconception: '**विशिष्ट भ्रांति:** "उद्धरण (Evidence) जितना लंबा होगा, उत्तर उतना मजबूत होगा।" **गलत तर्क:** छात्र सोचते हैं कि पूरा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills based on Chapter 2 ("जक्तLFkku dh jtr cw¡nas") refer to the ability to',
-                  options: ['Writing skills based on Chapter 2 ("जक्तLFkku dh jtr cw¡nas") refer to the ability to', 'Before You Read: Context and Background is a pre-reading strategy that equips students', 'Plot and Narrative Structure in non-fiction expository texts refers to the logical', 'Setting refers to the physical, temporal, and social environment in'],
-                  hint: 'Review c11_hin_v_cbse_02_010 (Vocabulary) and c11_hin_v_cbse_02_006 (Primary Theme).',
-                  misconception: 'Students believe "writing skills" means learning *formats* (report, article, speech) by heart.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ-आधारित (Text-based Writing Skill) वह संरचित प्रक्रिया है जिसमें विद्यार्थी',
+                  options: ['लेखन कौशल: पाठ-आधारित (Text-based Writing Skill) वह संरचित प्रक्रिया है जिसमें विद्यार्थी', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ'],
+                  hint: 'यदि अटके: पहले c11_hin_v_cbse_02_012 (बोध प्रश्न) के \'आशय-सूचक\' प्रश्नों का अभ्यास करें — वे.',
+                  misconception: '**विशिष्ट भ्रांति:** "उद्धरण (Evidence) जितना लंबा होगा, उत्तर उतना मजबूत होगा।" **गलत तर्क:** छात्र सोचते हैं कि पूरा पैराग्राफ कॉपी कर.' }
           ],
-            remediations: { 'writing-skills-means-learning-formats': { steps: ['Give the student a 5-mark question and a 2/5 sample answer (summary-only). Ask: "What textual proof is missing?"', 'Co-construct a PEEL paragraph on the board using *only* three chapter terms.', 'Assign a "terminology hunt"—list 10 chapter-specific words, define each in one sentence, then use each in a PEEL.', 'Practice timed 5-mark answers where the rubric awards 1 mark each for Point, Evidence, Explanation, Link.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_014', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "writing skills" means learning *formats* (report, article, speech) by heart.',
-          parts: [
-                { id: 'a', prompt: 'Critique this claim using textual evidence: "The author romanticizes the *khadin* system; modern canals are objectively more efficient for Rajasthan\'s water.', answer: 'The text never claims *khadins* yield more water per hectare',
-                  options: ['The text never claims *khadins* yield more water per hectare', 'writing skills', '"writing skills" means learning *formats* (report, article, speech) by heart'],
-                  hint: 'Review c11_hin_v_cbse_02_010 (Vocabulary) and c11_hin_v_cbse_02_006 (Primary Theme).',
-                  misconception: 'Students believe "writing skills" means learning *formats* (report, article, speech) by heart.' }
-          ],
-            remediations: { 'writing-skills-means-learning-formats': { steps: ['Give the student a 5-mark question and a 2/5 sample answer (summary-only). Ask: "What textual proof is missing?"', 'Co-construct a PEEL paragraph on the board using *only* three chapter terms.', 'Assign a "terminology hunt"—list 10 chapter-specific words, define each in one sentence, then use each in a PEEL.', 'Practice timed 5-mark answers where the rubric awards 1 mark each for Point, Evidence, Explanation, Link.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'evidence': { steps: ['**चरण 1:** छात्र को 5 अंक का एक प्रश्न दें और कहें: "केवल 20 शब्दों का उद्धरण चुनो, बाकी 80 शब्द Explanation के लिए.', '**चरण 2:** उसके लिखे उत्तर में पीले हाइलाइटर से Evidence, हरे से Explanation मार्क करवाएं — यदि हरा कम दिखे, तो समझाएं.', '**चरण 3:** एक ही प्रमाण से 3 अलग-अलग Explanation लिखने का अभ्यास करवाएं (शाब्दिक, प्रतीकात्मक, सामाजिक) — इससे \'कैसे.', '**चरण 4:** पिछले वर्ष के बोर्ड उत्तर (टॉपर vs औसत) साथ रखकर तुलना करवाएं — अंतर स्वयं दिखेगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
-          hint: 'Review the sand classification (pages 13-14) and the building description (pages 15-16).',
-          misconception: 'Students treat discussion as opinion-sharing without textual anchoring.',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु एक **संरचित संवाद कौशल** है जिसमें शिक्षार्थी किसी पाठ.',
+          hint: 'यदि अटके तो **c11_hin_v_cbse_02_012 (बोध-प्रश्न)** और **c11_hin_v_cbse_02_013 (आलोचनात्मक.',
+          misconception: 'छात्र समझते हैं कि **चर्चा-बिंदु = पाठ का सारांश + व्यक्तिगत राय**। वे पाठ के किसी प्रसंग को दोहराते हैं और कहते हैं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to structured oral activities where',
-                  options: ['Speaking and Listening: Discussion Points refers to structured oral activities where', 'Before You Read: Context and Background is a pre-reading strategy that equips students', 'Plot and Narrative Structure in non-fiction expository texts refers to the logical', 'Setting refers to the physical, temporal, and social environment in'],
-                  hint: 'Review the sand classification (pages 13-14) and the building description (pages 15-16) with focus.',
-                  misconception: 'Students treat discussion as opinion-sharing without textual anchoring.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक **संरचित संवाद कौशल** है जिसमें शिक्षार्थी किसी पाठ को पढ़ने',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक **संरचित संवाद कौशल** है जिसमें शिक्षार्थी किसी पाठ को पढ़ने', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ'],
+                  hint: 'यदि अटके तो **c11_hin_v_cbse_02_012 (बोध-प्रश्न)** और **c11_hin_v_cbse_02_013 (आलोचनात्मक चिंतन)**.',
+                  misconception: 'छात्र समझते हैं कि **चर्चा-बिंदु = पाठ का सारांश + व्यक्तिगत राय**। वे पाठ के किसी प्रसंग को दोहराते हैं और कहते हैं "मुझे अच्छा लगा/बुरा.' }
           ],
-            remediations: { 'students-treat-discussion-as-opinion': { steps: ['Have the student re-read the sand classification (pages 13-14) and building process (pages 15-16) with a highlighter.', 'Pair them with a peer for "Evidence Tennis": Speaker A makes a claim; Speaker B asks "Which page?" then adds a related.', 'Use a two-column graphic organizer: left column = discussion point, right column = page/line reference.', 'Role-play a village meeting (पंचायत) where every proposal must cite the chapter – e.g., "We should use ज्स्त्क.खिकुह.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को **एक छोटा प्रसंग (5-6 पंक्तियाँ)** दें और कहें: "यहाँ **कोई एक दावा** लिखो जो इस प्रसंग से सिद्ध होता हो, और.', 'फिर पूछें: "क्या कोई **दूसरा दावा** भी इसी प्रसंग से निकल सकता है?', 'उसका साक्ष्य क्या होगा?" 3.', 'फिर कहें: "अब अपने दावे को **एक वाक्य में** इस तरह लिखो कि उसमें **साहित्यिक पदावली** (बिंब, प्रतीक, विरोधाभास.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

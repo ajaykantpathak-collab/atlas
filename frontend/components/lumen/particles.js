@@ -9,18 +9,21 @@ import {
 } from 'three'
 import { particlesVertexShader } from './shaders/particles.vert.js'
 import { particlesFragmentShader } from './shaders/particles.frag.js'
-import { PARTICLE_COUNT, TEXTURE_SIZE } from './simulation.js'
+import { TEXTURE_SIZE } from './simulation.js'
 import { LESSONS } from './lessons.js'
 
-export function createParticlePoints() {
+// textureSize matches createSimulation's optional size — the landing cosmos
+// passes the same reduced size so references stay inside the compute texture.
+export function createParticlePoints(textureSize = TEXTURE_SIZE) {
+  const count = textureSize * textureSize
   const geometry = new BufferGeometry()
-  const positions = new Float32Array(PARTICLE_COUNT * 3)
-  const references = new Float32Array(PARTICLE_COUNT * 2)
-  const sizes = new Float32Array(PARTICLE_COUNT)
+  const positions = new Float32Array(count * 3)
+  const references = new Float32Array(count * 2)
+  const sizes = new Float32Array(count)
 
-  for (let i = 0; i < PARTICLE_COUNT; i += 1) {
-    const x = (i % TEXTURE_SIZE) / TEXTURE_SIZE
-    const y = Math.floor(i / TEXTURE_SIZE) / TEXTURE_SIZE
+  for (let i = 0; i < count; i += 1) {
+    const x = (i % textureSize) / textureSize
+    const y = Math.floor(i / textureSize) / textureSize
     references[i * 2] = x
     references[i * 2 + 1] = y
     sizes[i] = 0.28 + Math.pow(Math.random(), 2.4) * 1.7

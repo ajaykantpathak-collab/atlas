@@ -112,7 +112,7 @@ export const assessmentService = {
     ),
 
   gradeAnswerSheet: (formData: FormData) =>
-    fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'}/api/assessment/grade`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || ''}/api/assessment/grade`, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${typeof window !== 'undefined' ? localStorage.getItem('token') : ''}`,

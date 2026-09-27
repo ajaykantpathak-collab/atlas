@@ -14,7 +14,7 @@ export const c12_math_ch08: SimDef = {
     scenario: { role: 'Area integrator', intro: 'A curved garden bed needs soil — and the integral that measures it is just a limit of thin strips.', goal: 'Set up area-under-curve integrals with the right strip direction and the right sign handling.' },
     discovery: {
         question: '∫₀^2π sin x dx = 0 — so the area under one full sine wave is zero? What did the computation actually measure?',
-        options: ['Net signed area — the positive hump cancelled the negative; true geometric area needs absolute values over each interval: 2 + 2 = 4', 'Zero — correct', 'π', '2π'],
+        options: ['Net signed area — the positive hump cancelled the negative; true geometric area needs absolute values over each interval: 2 + 2 = 4', 'Zero is correct — the integral really does measure geometric area', 'π — the two half-wave areas are π each and cancel out', '2π — over a full period the integral should equal the interval length'],
         answer: 'Net signed area — the positive hump cancelled the negative; true geometric area needs absolute values over each interval: 2 + 2 = 4',
         hook: 'The integral is a limit of thin strips — each f(xᵢ)·Δx is a rectangle\'s area, and shrinking width to zero turns approximation into exactness. And the strip\'s direction follows the function: x = g(y) wants horizontal strips, not a forced re-solve.',
     },

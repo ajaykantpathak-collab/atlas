@@ -167,11 +167,11 @@ export const w_c12_computersciencefinalrevisioncompletesim: SimDef = {
           hint: 'If stuck, revisit c12_cs_cbse_10_002 (open modes) and c12_cs_cbse_10_003/004 (read/write.',
           misconception: 'Students believe `with open(...) as f:` is just a shorthand for `f = open(...); try: ...',
           parts: [
-                { id: 'a', prompt: 'What is the exact syntax to open a file named "data.txt" in read mode using the `with` statement, and what happens to the file object when the indented block.', answer: 'Correct answer: `with open("data.txt", "r") as f:`',
+                { id: 'a', prompt: 'What is the exact syntax to open a file named "data.txt" in read mode using the `with` statement, and what happens to the file object when the indented block.', answer: '`with open("data.txt", "r") as f:`',
                   options: ['Correct answer: `with open("data.txt", "r") as f:`', 'data.txt', 'but may not understand explicit mode specification'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe `with open(...) as f:` is just a shorthand for `f = open(...); try: ...' },
-                { id: 'b', prompt: 'Rewrite this legacy code to use `with` statement. The code reads a config file, processes each line, and must ensure the file closes even if `process_line()`.', answer: 'Correct answer: ```python with open("config.ini", "r") as f: for line in f:',
+                { id: 'b', prompt: 'Rewrite this legacy code to use `with` statement. The code reads a config file, processes each line, and must ensure the file closes even if `process_line()`.', answer: '```python with open("config.ini", "r") as f: for line in f:',
                   options: ['Correct answer: ```python with open("config.ini", "r") as f: for line in f:', '`with open('],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe `with open(...) as f:` is just a shorthand for `f = open(...); try: ...' }

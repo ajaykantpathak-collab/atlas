@@ -7,6 +7,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { getAuthToken } from '@/lib/api'
+import { useAuthStore } from '@/stores/authStore'
 import { motion, AnimatePresence } from 'framer-motion'
 
 // ═══════════════════════════════════════════════
@@ -148,11 +149,11 @@ const jrHeaders = (): Record<string, string> => {
   return h
 }
 
-const jrStartLesson = async (subjectKey: string): Promise<{ sessionId: string; label: string } | null> => {
+const jrStartLesson = async (subjectKey: string, grade = 3): Promise<{ sessionId: string; label: string } | null> => {
   try {
     const res = await fetch(`${JR_API}/lessons/start`, {
       method: 'POST', headers: jrHeaders(),
-      body: JSON.stringify({ grade: 3, subject: JR_SUBJECT[subjectKey] ?? 'mathematics', preferredLanguage: 'en-hi' }),
+      body: JSON.stringify({ grade, subject: JR_SUBJECT[subjectKey] ?? 'mathematics', preferredLanguage: 'en-hi' }),
       signal: AbortSignal.timeout(8000),
     })
     if (!res.ok) return null
@@ -266,20 +267,13 @@ const Gajju = ({ state = 'idle' }: { state?: string }) => {
         <motion.path
           d="M 100 105 Q 100 130, 94 145 Q 88 160, 100 160 Q 112 160, 106 145 Q 100 130, 100 105 Z"
           fill={c.accent}
+          style={{ transformOrigin: '100px 132px' }}
           animate={
             state === 'speak'
-              ? { d: [
-                  'M 100 105 Q 100 130, 94 145 Q 88 160, 100 160 Q 112 160, 106 145 Q 100 130, 100 105 Z',
-                  'M 100 105 Q 98 130, 94 143 Q 90 155, 100 156 Q 110 155, 106 143 Q 102 130, 100 105 Z',
-                  'M 100 105 Q 100 130, 94 145 Q 88 160, 100 160 Q 112 160, 106 145 Q 100 130, 100 105 Z',
-                ] }
+              ? { scaleY: [1, 1.06, 1] }
               : state === 'win'
-              ? { d: [
-                  'M 100 105 Q 100 130, 94 145 Q 88 160, 100 160 Q 112 160, 106 145 Q 100 130, 100 105 Z',
-                  'M 100 105 Q 95 128, 92 143 Q 85 157, 100 157 Q 115 157, 108 143 Q 105 128, 100 105 Z',
-                  'M 100 105 Q 100 130, 94 145 Q 88 160, 100 160 Q 112 160, 106 145 Q 100 130, 100 105 Z',
-                ] }
-              : {}
+              ? { scaleY: [1, 0.94, 1] }
+              : { scaleY: [1, 1.02, 1] }
           }
           transition={{ duration: state === 'speak' ? 0.32 : 0.55, repeat: Infinity, ease: 'easeInOut' }}
         />
@@ -464,6 +458,8 @@ const SubjectCard = ({ subj, onTap, lang, idx }: { subj: typeof subjects[number]
 // ═══════════════════════════════════════════════
 const QuizScreen = ({ subject, lang, onBack, onCorrect }: { subject: string; lang: Lang; onBack: () => void; onCorrect: () => void }) => {
   const [q, setQ] = useState(generateQuestion())
+  const { user } = useAuthStore()
+  const grade = Math.min(Math.max(user?.class_level ?? 3, 1), 5)
   const [fb, setFb] = useState<'idle' | 'correct' | 'wrong' | 'thinking'>('idle')
   const [showConfetti, setShowConfetti] = useState(false)
   const [showWin, setShowWin] = useState(false)
@@ -491,7 +487,7 @@ const QuizScreen = ({ subject, lang, onBack, onCorrect }: { subject: string; lan
   // Real generated activity from the backend (falls back to the local generator)
   useEffect(() => {
     let cancelled = false
-    jrStartLesson(subject).then(s => {
+    jrStartLesson(subject, grade).then(s => {
       if (!cancelled && s && s.label && srvRef.current === null) {
         srvRef.current = { sessionId: s.sessionId, stepNumber: 1 }
         setQ({ a: 0, b: 0, op: '+', ans: NaN, label: s.label })

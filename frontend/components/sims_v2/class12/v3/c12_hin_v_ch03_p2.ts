@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_v_ch03_p2: SimDef = {
     id: 'v3_c12_hin_v_ch03_p2',
-    title: 'vHkh Hkh eqvutks&nM+ks1 vkSj gM+Iik2 izkphu · Part 2/3',
+    title: 'अतीत में दबे पाँव · Part 2/3',
     subtitle: 'Fifteen years of glory, five centuries of silence',
-    classLevel: 12, subject: 'hin_v', topic: 'vHkh Hkh eqvutks&nM+ks1 vkSj gM+Iik2 izkphu · Part 2/3',
+    classLevel: 12, subject: 'hin_v', topic: 'अतीत में दबे पाँव · Part 2/3',
     chapters: ['c12_hin_v_ch03'],
     nodeIds: ['c12_hin_v_cbse_03_007', 'c12_hin_v_cbse_03_008', 'c12_hin_v_cbse_03_009', 'c12_hin_v_cbse_03_010', 'c12_hin_v_cbse_03_011', 'c12_hin_v_cbse_03_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,48 +19,15 @@ export const c12_hin_v_ch03_p2: SimDef = {
         hook: 'Don\'t mistake it for a romantic travelogue — the writer records workers\' quarters, graded housing and cheap labour inside the glory. \'Prachin\' signals reconstruction: read the architecture as evidence for a lost urban order, caste-free craft zoning and planned water — not just ornament.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the subordinate ideas or motifs in a literary work that support, contrast with, or enrich the primary theme.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'अतीत में दबे पाँव — गौण विषय', text: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य या प्रसंग है जो पाठ के मुख्य विषय के समानांतर चलता हुआ, उसे स्पष्ट, समृद्ध या विस्तारित करता है, परंतु स्वतंत्र रूप से पाठ का केंद्रीय संदेश नहीं होता।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_v_cbse_03_007', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Walk the ghost capital like an archaeologist: cluster the proper nouns into rulers, monuments and events, weigh the planned-city claim against the labour it cost, and measure ruins against the boast.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_03_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are walking through Old Delhi today: you see a Mughal-era haveli with a metro pillar right next to it. That clash — the planned past vs.',
-            decisions: [{ prompt: 'Define "secondary theme" in the context of a prose chapter like "वखत खि अगवत्स-नमकस और गालिब की पूर्व".', options: [
-                { text: 'A secondary theme is a recurring idea that supports or contrasts with the primary theme', outcome: 'A secondary theme is a recurring idea that supports or contrasts with the primary theme but is not.' },
-                { text: 'Ghalib\'s house', outcome: 'Not quite — Students think "secondary theme" means "less important theme" and therefore treat it as optional.', reveals: 'secondary-theme-means-less-important' },
-                { text: 'secondary theme', outcome: 'Not quite — Students think "secondary theme" means "less important theme" and therefore treat it as optional.', reveals: 'secondary-theme-means-less-important' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_03_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are standing amid the dusty mounds of Harappa today — what do you *actually* see? Broken bricks, shards of pottery, a dry riverbed.',
-            decisions: [{ prompt: 'What is the difference between a simile and a metaphor, and which one does the author use when describing the Great Bath as "flaèkq ?kkVh.', options: [
-                { text: 'A simile compares two things using "like" or "as" (e.g., "the ruins *are like* a book")', outcome: 'A simile compares two things using "like" or "as" (e.g., "the ruins *are like* a book"); a metaphor.' },
-                { text: '*any* descriptive detail is imagery', outcome: 'Not quite — Students consistently confuse **imagery** with **description** — they think *any* descriptive.', reveals: 'students-consistently-confuse-imagery-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_03_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are an archaeologist reading a 2,000-year-old site report written in a language where half the technical terms have no modern equivalent — that.',
-            decisions: [{ prompt: 'Identify the semantic field (category of meaning) to which the word "लरवि" belongs in the context of this chapter, and quote the specific.', options: [
-                { text: 'Correct answer: "लरवि" belongs to the architectural/urban planning semantic field', outcome: 'Correct answer: "लरवि" belongs to the architectural/urban planning semantic field.' },
-                { text: 'historical period', outcome: 'Not quite — Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write.', reveals: 'students-treat-vocabulary-in-context' },
-                { text: 'cultural practice', outcome: 'Not quite — Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write.', reveals: 'students-treat-vocabulary-in-context' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_03_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re an archaeologist reading a site report — you notice the writer uses "किया गया" (was done) instead of "किया" (did) when describing excavations.',
-            decisions: [{ prompt: 'Identify the predominant verb voice used in the descriptive passages of the chapter (e.g., "खुदाई की गई", "अवशेष मिले") and state its.', options: [
-                { text: 'The predominant voice is कर्मण्य प्रयोग (passive voice), formed with past participle +', outcome: 'The predominant voice is कर्मण्य प्रयोग (passive voice), formed with past participle + auxiliary.' },
-                { text: 'कर्तृ प्रयोग', outcome: 'Not quite — Students treat "language usage" as merely identifying word meanings or spotting figures of speech.', reveals: 'students-treat-language-usage-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_03_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re an archaeologist examining a shard of pottery from Mohenjo-daro: the shard\'s color and material are literal facts you can see, but its trade.',
-            decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
-                { text: 'A literal question asks for information explicitly stated in the text (e.g., "What is the', outcome: 'A literal question asks for information explicitly stated in the text (e.g., "What is the length.' },
-                { text: 'inferential', outcome: 'Not quite — Students believe "inferential" means "guessing based on personal opinion." They write answers like.', reveals: 'inferential-means-guessing-based-on' },
-                { text: 'guessing based on personal opinion', outcome: 'Not quite — Students believe "inferential" means "guessing based on personal opinion." They write answers like.', reveals: 'inferential-means-guessing-based-on' }
-            ] }] } },
+        labels: ['अतीत में दबे पाँव'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_v_cbse_03_007', title: 'Use it in the wild',
           caseStudy: { intro: 'At a smart-city meeting in your town, a planner pitches clearing an old quarter for a parking complex: \'It\'s just decayed walls — real progress is glass and concrete, not ruins.\'',
             decisions: [{ prompt: 'How does the Rajgir chapter answer that pitch?', options: [
@@ -70,104 +37,81 @@ export const c12_hin_v_ch03_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_v_cbse_03_012', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read a travelogue as urban history — where a dead city\'s plan still argues what a city could be.',
-            decisions: [{ prompt: 'What comes next? vHkh Hkh eqvutks&nM+ks1 vkSj gM+Iik2 izkphu · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — vHkh Hkh eqvutks&nM+ks1 vkSj gM+Iik2 izkphu · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? अतीत में दबे पाँव · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — अतीत में दबे पाँव · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_007', difficulty: 'standard',
-          question: 'Secondary themes are the subordinate ideas or motifs in a literary work that.',
-          hint: 'If stuck, review the "Contrast Table" from node 003 (Setting) where you listed ancient.',
-          misconception: 'Students think "secondary theme" means "less important theme" and therefore treat it as optional for exams.',
+          question: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य या प्रसंग है जो पाठ के मुख्य विषय के.',
+          hint: 'यदि अटका हुआ महसूस हो, तो **c12_hin_v_cbse_03_006 (मुख्य विषय और संदेश)** पर लौटें.',
+          misconception: '**विशिष्ट भ्रांति:** "गौण विषय = कम अंक वाला विषय / वैकल्पिक विषय / केवल प्रसंगों की सूची।" **वास्तविकता:** CBSE बोर्ड.',
           parts: [
-                { id: 'a', prompt: 'The chapter describes the ancient city\'s layout ("उज्जैन के समान योजनाबद्ध", "चौक-चौराहे", "नालियों की व्यवस्था") and then contrasts it with modern Agra\'s.', answer: 'The contrast develops the secondary theme of **"planned civilization vs',
-                  options: ['The contrast develops the secondary theme of **"planned civilization vs', 'the author likes old cities', 'secondary theme', 'less important theme'],
-                  hint: 'If stuck, review the "Contrast Table" from node 003 (Setting) where you listed ancient vs.',
-                  misconception: 'Students think "secondary theme" means "less important theme" and therefore treat it as optional for exams.' },
-                { id: 'b', prompt: 'Apply the concept of "secondary theme" to a new context: In the passage where the narrator says "यहाँ की हवा में आज भी गालिब की ग़ज़लों की खुशबू बसी है".', answer: 'The secondary theme is **"memory/nostalgia as a living presence"**',
-                  options: ['The secondary theme is **"memory/nostalgia as a living presence"**', 'architectural grandeur', 'literary memory', 'secondary theme'],
-                  hint: 'If stuck, review the "Contrast Table" from node 003 (Setting) where you listed ancient vs.',
-                  misconception: 'Students think "secondary theme" means "less important theme" and therefore treat it as optional for exams.' },
-                { id: 'c', prompt: 'Analyze how the chapter uses the **Yamuna river** as a secondary theme.', answer: 'The Yamuna functions as the **"silent witness / constant amid change"** theme',
-                  options: ['The Yamuna functions as the **"silent witness / constant amid change"** theme', 'secondary theme', 'less important theme'],
-                  hint: 'If stuck, review the "Contrast Table" from node 003 (Setting) where you listed ancient vs.',
-                  misconception: 'Students think "secondary theme" means "less important theme" and therefore treat it as optional for exams.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य या प्रसंग है जो पाठ के मुख्य विषय के समानांतर चलता',
+                  options: ['गौण विषय (Sub-theme) वह द्वितीयक कथ्य या प्रसंग है जो पाठ के मुख्य विषय के समानांतर चलता', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
+                  hint: 'यदि अटका हुआ महसूस हो, तो **c12_hin_v_cbse_03_006 (मुख्य विषय और संदेश)** पर लौटें — मुख्य विषय को.',
+                  misconception: '**विशिष्ट भ्रांति:** "गौण विषय = कम अंक वाला विषय / वैकल्पिक विषय / केवल प्रसंगों की सूची।" **वास्तविकता:** CBSE बोर्ड में गौण विषय पर.' }
           ],
-            remediations: { 'secondary-theme-means-less-important': { steps: ['If a student cannot identify secondary themes: (1) Give them a **theme-tracking table** with columns: "Passage (para.', '(2) Assign: "Find 5 paragraphs where the author contrasts old vs.', 'Fill the table." (3) Then ask: "Group rows with the same Abstract Idea.', 'Each group = a secondary theme." (4) Re-diagnostic: Ask them to write one paragraph explaining the "river as witness".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_007', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students think "secondary theme" means "less important theme" and therefore treat it as optional for exams.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this student claim: "The secondary theme of \'communal harmony\' (हिंदू-मुस्लिम एकता) is weakly developed because the chapter only mentions it once when.', answer: 'Refute',
-                  options: ['Refute', 'secondary theme', 'less important theme'],
-                  hint: 'If stuck, review the "Contrast Table" from node 003 (Setting) where you listed ancient vs.',
-                  misconception: 'Students think "secondary theme" means "less important theme" and therefore treat it as optional for exams.' },
-                { id: 'b', prompt: 'Create a 4-line poem (in Hindi or English) that captures ONE secondary theme of this chapter without naming any proper noun (Agra, Ghalib, Yamuna, Taj).', answer: '*Example for "planned past vs',
-                  options: ['*Example for "planned past vs', 'secondary theme', 'less important theme'],
-                  hint: 'If stuck, review the "Contrast Table" from node 003 (Setting) where you listed ancient vs.',
-                  misconception: 'Students think "secondary theme" means "less important theme" and therefore treat it as optional for exams.' }
-          ],
-            remediations: { 'secondary-theme-means-less-important': { steps: ['If a student cannot identify secondary themes: (1) Give them a **theme-tracking table** with columns: "Passage (para.', '(2) Assign: "Find 5 paragraphs where the author contrasts old vs.', 'Fill the table." (3) Then ask: "Group rows with the same Abstract Idea.', 'Each group = a secondary theme." (4) Re-diagnostic: Ask them to write one paragraph explaining the "river as witness".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'cbse-4-6': { steps: ['**पुनः पठन (Re-read):** पाठ के वे 3-4 प्रसंग चिह्नित करें जो मुख्य कथानक (लेखक की स्मृति-यात्रा) से सीधे नहीं जुड़े.', '**तालिका बनाएं:** तीन कॉलम — (क) गौण विषय का नाम, (ख) पाठ्य-साक्ष्य (पंक्ति/प्रसंग), (ग) मुख्य विषय से संबंध.', '**PEEL अभ्यास:** प्रत्येक गौण विषय के लिए एक PEEL अनुच्छेद लिखें। 4.', '**पुनः निदान (Re-diagnostic):** DIAGNOSTIC_QUESTION_2 और 4 को दोबारा हल करें — यदि अब उत्तर में \'कार्यात्मक विश्लेषण\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
-          hint: 'If stuck, return to Class 11 Aroh Chapter 3 (c11_hin_ar_cbse_03_008) and re-do the.',
-          misconception: 'Students consistently confuse **imagery** with **description** — they think *any* descriptive detail is imagery.',
+          question: 'बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की.',
+          hint: 'यदि अटका हुआ लगे तो कक्षा 11 का नोड **c11_hin_v_cbse_03_008** (बिंब और रूपक) दोबारा.',
+          misconception: 'छात्र समझते हैं कि **बिंब = केवल दृश्य वर्णन (visual description)** और **रूपक = सजावटी भाषा (ornamental language)**।.',
           parts: [
-                { id: 'a', prompt: 'The author writes: "ekSle tkM+s dk Fkk ij nqigj dh èkwi cgqr dM+h FkhA lkjs vkye dks tSls ,d iQhosQ jax esa jaxus dh dksf\'k\'k djrh gqbZ" (The evening sun.', answer: '**Visual imagery** dominates',
-                  options: ['**Visual imagery** dominates', 'tactile', 'auditory', 'explain the effect'],
-                  hint: 'If stuck, return to Class 11 Aroh Chapter 3 (c11_hin_ar_cbse_03_008) and re-do the "sense-mapping".',
-                  misconception: 'Students consistently confuse **imagery** with **description** — they think *any* descriptive detail is imagery.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की इंद्रियों',
+                  options: ['बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की इंद्रियों', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
+                  hint: 'यदि अटका हुआ लगे तो कक्षा 11 का नोड **c11_hin_v_cbse_03_008** (बिंब और रूपक) दोबारा पढ़ें, विशेषकर.',
+                  misconception: 'छात्र समझते हैं कि **बिंब = केवल दृश्य वर्णन (visual description)** और **रूपक = सजावटी भाषा (ornamental language)**। **वास्तविकता:** बिंब.' }
           ],
-            remediations: { 'students-consistently-confuse-imagery-with': { steps: ['**Re-teach the sense-test**: Give the student 5 sentences from the text (e.g., "nwljh eaf"ky ij f[kM+fd;k¡" — visual.', 'Ask: *Which sense organ receives this?* If they cannot name the organ, it\'s not imagery.', '**Metaphor surgery**: Take a simile from the text ("tSls lqcg yksx" — like naked people) and convert it to metaphor.', 'Ask: *What changed in meaning?* The shift from comparison to identity is the lesson.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'visual-description-ornamental-language': { steps: ['छात्र से कहें: "आँख बंद करो। मैं \'बारिश\' कहूँगा — तुम्हें क्या **सूँघाई** देता है?', 'त्वचा पर क्या **महसूस** होता है?" — पाँचों इंद्रियों के बिंब अलग-अलग लिखवाएँ। 2.', 'रूपक के लिए: दो असंबद्ध वस्तुएँ दें (जैसे: \'समय\' और \'नदी\') — छात्र से कहें **"समय नदी है" लिखकर 3 समानताएँ निकालो**.', 'पुनः निदान: Diagnostic Q2 और Q5 दोहराएँ — अब छात्र उपमान/उपमेय क्रम और रूपक/उपमा भेद सही कर पाएगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_009', difficulty: 'standard',
-          question: 'Irony in this chapter is the deliberate contrast between what appears on the.',
-          hint: 'If stuck, re-read the "Before You Read" context (node c12_hin_v_cbse_03_001) and the.',
-          misconception: 'Students often confuse irony with mere coincidence or sadness.',
+          question: 'विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी लगने.',
+          hint: 'यदि अटके तो Class 11 वितान पाठ-3 के नोड **c11_hin_v_cbse_03_009** के कार्य-उदाहरण (Worked.',
+          misconception: 'विद्यार्थी प्रायः **विरोधाभास को \'विरोधाभासी कथन\' (Contradictory statement) मान लेते हैं** — जैसे \'वह रोता हुआ हँस रहा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony in this chapter is the deliberate contrast between what appears on the surface and',
-                  options: ['Irony in this chapter is the deliberate contrast between what appears on the surface and', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'यह शिक्षण-नोड c12_hin_v_cbse_03_002', 'Setting refers to the time, place, and social-historical context in'],
-                  hint: 'If stuck, re-read the "Before You Read" context (node c12_hin_v_cbse_03_001) and the "Setting and.',
-                  misconception: 'Students often confuse irony with mere coincidence or sadness.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी लगने वाले कथन या',
+                  options: ['विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी लगने वाले कथन या', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
+                  hint: 'यदि अटके तो Class 11 वितान पाठ-3 के नोड **c11_hin_v_cbse_03_009** के कार्य-उदाहरण (Worked Examples).',
+                  misconception: 'विद्यार्थी प्रायः **विरोधाभास को \'विरोधाभासी कथन\' (Contradictory statement) मान लेते हैं** — जैसे \'वह रोता हुआ हँस रहा था\' — और समझते हैं.' }
           ],
-            remediations: { 'students-often-confuse-irony-with': { steps: ['Re-read the opening and closing paragraphs of the chapter aloud; mark every phrase that contrasts past and present.', 'For each marked phrase, ask: "Is there a contradiction between expectation (from the name, original purpose, or past.', 'List every physical object described in detail (stupa, pillars, lion capital, museum, pathways).', 'For each, write one abstract noun it could represent (e.g., stupa → continuity; broken pillar → fragility of empire).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'contradictory-statement': { steps: ['विद्यार्थी को पाठ के **तीन विशिष्ट अंश** दें जहाँ विरोधाभास स्पष्ट हो (जैसे: घर का आकार, नीम का पेड़, चाबी-ताला) और.', 'तीसरी कौन-सी बात उभरती है जो दोनों से बड़ी है?" 2.', 'प्रतीक के लिए: एक **प्रतीक-मानचित्र** (Symbol Map) बनवाएँ — केंद्र में वस्तु (नीम), चार दिशाओं में: भौतिक गुण.', 'पुनः निदान: DIAGNOSTIC_QUESTION_3 और 4 फिर से करवाएँ; यदि अब भी \'सतही अर्थ\' पर अटका है, तो Class 11 के नोड.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
-          hint: 'If stuck on a word, apply the "Modifier Hunt" technique: locate the word in the text.',
-          misconception: 'Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write single-word synonyms.',
+          question: 'पदावली (Vocabulary/Glossary) refers to the set of key domain-specific words.',
+          hint: 'यदि अटका हुआ महसूस हो तो: कक्षा 11 वितान के "पदावली: मुख्य शब्द" नोड.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि पदावली प्रश्नों में "शब्दार्थ" (dictionary meaning) लिख देना पर्याप्त है — वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context refers to the skill of determining the precise meaning,',
-                  options: ['Vocabulary in Context refers to the skill of determining the precise meaning,', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'यह शिक्षण-नोड c12_hin_v_cbse_03_002', 'Setting refers to the time, place, and social-historical context in'],
-                  hint: 'If stuck on a word, apply the "Modifier Hunt" technique: locate the word in the text, copy the full.',
-                  misconception: 'Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write single-word synonyms (e.g., लरवि = किला).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (Vocabulary/Glossary) refers to the set of key domain-specific words, technical',
+                  options: ['पदावली (Vocabulary/Glossary) refers to the set of key domain-specific words, technical', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: कक्षा 11 वितान के "पदावली: मुख्य शब्द" नोड (c11_hin_v_cbse_03_010) के.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि पदावली प्रश्नों में "शब्दार्थ" (dictionary meaning) लिख देना पर्याप्त है — वे *संदर्भगत प्रकार्य*.' }
           ],
-            remediations: { 'students-treat-vocabulary-in-context': { steps: ['Have the student re-read the "लरवि" paragraph (page 39) and physically underline every adjective, verb, and.', 'Ask them to sort these modifiers into "physical description" vs. "functional significance" columns.', 'Model the inference: "Because the text says \'लरवि के दोनों ओर द्वार हैं...', 'Assign the same exercise for "ओककक" and "खखखख" as homework; require a 3-sentence justification per word citing specific.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'dictionary-meaning-contextual-function': { steps: ['**पुनः पाठ-पठन (Re-reading):** छात्र को पाठ के वे 5-6 पैराग्राफ पढ़ने को कहें जहाँ प्रमुख पदावली प्रयुक्त हुई हैं.', '**तुलनात्मक सारणी (Comparative Table):** एक सारणी बनाएँ: स्तंभ 1 = पद, स्तंभ 2 = शब्दकोश अर्थ, स्तंभ 3 = पाठ में.', '**लघु-लेखन (Micro-writing):** प्रत्येक पद के लिए 2-3 वाक्यों में लिखें: "लेखक ने ______ शब्द क्यों चुना?', '______ जैसे सरल शब्द से क्या भिन्न प्रभाव पड़ता?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of grammatical.',
-          hint: 'If stuck on participle identification, review Class 11 Vitan grammar nodes.',
-          misconception: 'Students treat "language usage" as merely identifying word meanings or spotting figures of speech.',
+          question: 'पाठ में भाषा-प्रयोग का अर्थ है रचनाकार द्वारा अपने विचारों, भावों और परिवेश को.',
+          hint: 'यदि पद-परिचय या वाक्य-भेद पहचानने में अटकें, तो कक्षा 10/11 की हिंदी व्याकरण पुस्तक के.',
+          misconception: 'छात्र प्रायः मानते हैं कि \'भाषा-प्रयोग\' का अर्थ केवल \'कठिन/तत्सम शब्दों की पहचान\' या \'अलंकारों की सूची बनाना\' है। वे.',
           parts: [
-                { id: 'a', prompt: 'Explain why the author uses तत्सम (Sanskrit-derived) compounds like "पुरातात्त्विक", "ऐतिहासिक", "सांस्कृतिक" instead of their तद्भव or देशज equivalents in the.', answer: 'These तत्सम words establish an academic, authoritative register appropriate for',
-                  options: ['These तत्सम words establish an academic, authoritative register appropriate for', 'they sound more difficult', 'the author wanted to show off vocabulary'],
-                  hint: 'If stuck on participle identification, review Class 11 Vitan grammar nodes (c11_hin_v_cbse_01_011.',
-                  misconception: 'Students treat "language usage" as merely identifying word meanings or spotting figures of speech.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है रचनाकार द्वारा अपने विचारों, भावों और परिवेश को व्यक्त',
+                  options: ['पाठ में भाषा-प्रयोग का अर्थ है रचनाकार द्वारा अपने विचारों, भावों और परिवेश को व्यक्त', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
+                  hint: 'यदि पद-परिचय या वाक्य-भेद पहचानने में अटकें, तो कक्षा 10/11 की हिंदी व्याकरण पुस्तक के \'पद-परिचय\'.',
+                  misconception: 'छात्र प्रायः मानते हैं कि \'भाषा-प्रयोग\' का अर्थ केवल \'कठिन/तत्सम शब्दों की पहचान\' या \'अलंकारों की सूची बनाना\' है। वे \'दबे पाँव\' को मुहावरा.' }
           ],
-            remediations: { 'students-treat-language-usage-as': { steps: ['Have the student highlight every verb in two paragraphs — color-code: red for passive, blue for active, green for.', 'Ask: "Who does the action in red verbs?', 'Read a colloquial version of the same paragraph aloud — have them list *exact* grammatical differences (tense, voice.', 'Revisit c11_hin_v_cbse_01_011 (Class 11 Grammar node) for participle identification drill.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से पाठ के पहले दो अनुच्छेद जोर से पढ़वाएँ और पूछें: \'कौन-से शब्द तुम्हारे कानों को अलग लगे?', 'क्यों?\' — इससे ध्वनि-बोध जगेगा। चरण 2: शीर्षक \'अतीत में दबे पाँव\' को बोर्ड पर लिखें; \'दबे\' और \'पाँव\' को अलग-अलग रंग से.', 'यदि "पाँव" हट जाए तो?\' — इससे पदबंध-कार्य स्पष्ट होगा। चरण 3: एक वाक्य लें: \'इतिहास दबे पाँव आता है।\' इसे कर्मणी वाच्य.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_012', difficulty: 'standard',
-          question: 'Literal comprehension involves retrieving information directly stated in the.',
-          hint: 'If stuck, re-read the chapter with a highlighter: mark every factual statement (dates.',
-          misconception: 'Students believe "inferential" means "guessing based on personal opinion." They write answers like "I think the people.',
+          question: 'बोध-प्रश्न पाठ की समझ जांचने के दो प्रकार के प्रश्न होते हैं: **वस्तुनिष्ठ.',
+          hint: 'यदि छात्र आशय-सूचक प्रश्नों में \'क्या\' (What) और \'क्यों\' (Why) का अंतर नहीं कर पा रहा, तो.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'आशय-सूचक प्रश्नों का उत्तर पाठ की पंक्तियों को ज्यों-का-त्यों उद्धृत (Quote).',
           parts: [
-                { id: 'a', prompt: 'The text states: "The streets were straight and crossed at right angles." An exam question asks: "What does the street layout suggest about the city\'s.', answer: 'Point: The grid layout suggests a strong, centralized administrative authority',
-                  options: ['Point: The grid layout suggests a strong, centralized administrative authority', 'streets were straight', 'inferential', 'guessing based on personal opinion'],
-                  hint: 'If stuck, re-read the chapter with a highlighter: mark every factual statement (dates.',
-                  misconception: 'Students believe "inferential" means "guessing based on personal opinion." They write answers like "I think the people were happy because.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बोध-प्रश्न पाठ की समझ जांचने के दो प्रकार के प्रश्न होते हैं: **वस्तुनिष्ठ प्रश्न**',
+                  options: ['बोध-प्रश्न पाठ की समझ जांचने के दो प्रकार के प्रश्न होते हैं: **वस्तुनिष्ठ प्रश्न**', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
+                  hint: 'यदि छात्र आशय-सूचक प्रश्नों में \'क्या\' (What) और \'क्यों\' (Why) का अंतर नहीं कर पा रहा, तो तुरंत.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'आशय-सूचक प्रश्नों का उत्तर पाठ की पंक्तियों को ज्यों-का-त्यों उद्धृत (Quote) करके या उनका हिंदी.' }
           ],
-            remediations: { 'inferential-means-guessing-based-on': { steps: ['If a student cannot distinguish literal vs.', 'inferential or produces unsupported inferences: (1) Give them a 5-sentence paragraph from the chapter; ask them.', '(2) For each green highlight, require them to write the yellow facts that support it.', '(3) Practice converting 5 literal questions into inferential ones by adding "What does this suggest about...?" (4).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'quote-inferential-evidence': { steps: ['**चरणबद्ध उपचार (Remediation Path):** 1.', '**निदान (Diagnose):** छात्र से एक आशय-सूचक प्रश्न पूछें और उसका उत्तर लिखवाएँ। यदि वह पंक्तियाँ कॉपी करता है या केवल.', '**स्पष्टीकरण (Clarify):** उसे समझाएँ — "पाठ = कच्चा माल (Raw Material), तुम्हारा दिमाग = फैक्ट्री, उत्तर = तैयार माल.', '**अभ्यास (Guided Practice):** पाठ के 3-4 छोटे अंश दें। प्रत्येक के लिए कहें: (क) एक वस्तुनिष्ठ प्रश्न बनाओ, (ख) एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -79,7 +79,7 @@ export const w_c9_economicsbasiceconomictermssim: SimDef = {
           hint: 'Revisit c9_eco_ch1_1 (Scarcity) and c8_eco_ch1_2 (Factors of Production) to see how.',
           misconception: 'Students believe opportunity cost is the sum of all alternatives forgone, or only the monetary expense of the chosen.',
           parts: [
-                { id: 'a', prompt: 'Compare two students: Priya spends 3 hours daily on tuition earning ₹500/hour as a tutor; Rohan spends 3 hours daily studying for exams, expecting a.', answer: 'Correct answer: Priya\'s opportunity cost is the study time forgone',
+                { id: 'a', prompt: 'Compare two students: Priya spends 3 hours daily on tuition earning ₹500/hour as a tutor; Rohan spends 3 hours daily studying for exams, expecting a.', answer: 'Priya\'s opportunity cost is the study time forgone',
                   options: ['Correct answer: Priya\'s opportunity cost is the study time forgone', 'Priya\'s opportunity cost is higher'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe opportunity cost is the sum of all alternatives forgone, or only the monetary expense of the chosen option.' }
@@ -90,7 +90,7 @@ export const w_c9_economicsbasiceconomictermssim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe opportunity cost is the sum of all alternatives forgone, or only the monetary expense of the chosen.',
           parts: [
-                { id: 'a', prompt: 'Compare two students: Priya spends 3 hours daily on tuition earning ₹500/hour as a tutor; Rohan spends 3 hours daily studying for exams, expecting a.', answer: 'Correct answer: Priya\'s opportunity cost is the study time forgone',
+                { id: 'a', prompt: 'Compare two students: Priya spends 3 hours daily on tuition earning ₹500/hour as a tutor; Rohan spends 3 hours daily studying for exams, expecting a.', answer: 'Priya\'s opportunity cost is the study time forgone',
                   options: ['Correct answer: Priya\'s opportunity cost is the study time forgone', 'Priya\'s opportunity cost is higher'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe opportunity cost is the sum of all alternatives forgone, or only the monetary expense of the chosen option.' }

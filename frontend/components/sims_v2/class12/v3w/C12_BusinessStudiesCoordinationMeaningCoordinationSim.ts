@@ -202,7 +202,7 @@ export const w_c12_businessstudiescoordinationmeaningcoordinationsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students write "Decentralisation means no central control" or "Decentralisation and delegation are the same thing." The.',
           parts: [
-                { id: 'a', prompt: '"Decentralisation always leads to better control because each division becomes a profit centre." Evaluate this statement.', answer: 'Correct answer: Partially true',
+                { id: 'a', prompt: '"Decentralisation always leads to better control because each division becomes a profit centre." Evaluate this statement.', answer: 'Partially true',
                   options: ['Correct answer: Partially true', 'fully true'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students write "Decentralisation means no central control" or "Decentralisation and delegation are the same thing." The error stems from.' }

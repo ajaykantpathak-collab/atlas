@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_v_ch05_p3: SimDef = {
     id: 'v3_c11_hin_v_ch05_p3',
-    title: 'jktLFkku dh jtr cw¡nas · Part 3/3',
+    title: 'पाठ 5 · Part 3/3',
     subtitle: 'Read Rajasthani folk tales as a people\'s archive of honour codes.',
-    classLevel: 11, subject: 'hin_v', topic: 'jktLFkku dh jtr cw¡nas · Part 3/3',
+    classLevel: 11, subject: 'hin_v', topic: 'पाठ 5 · Part 3/3',
     chapters: ['c11_hin_v_ch05'],
     nodeIds: ['c11_hin_v_cbse_05_013', 'c11_hin_v_cbse_05_014', 'c11_hin_v_cbse_05_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,35 +19,21 @@ export const c11_hin_v_ch05_p3: SimDef = {
         hook: 'Vishnu Prabhakar worked the Rajasthan State Archives for decades — these aren\'t fairy tales but itihaas, history as the people witnessed it.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis refers to the ability to examine a text beyond its literal meaning, evaluating the author\'s choices (such as structure, language, symbolism, and perspective).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 5 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के घटकों (भाषा, संरचना, युक्तियाँ) को अलग-अलग करके उनकी परस्पर क्रिया समझना (विश्लेषण) और फिर पाठ के गहन अभिप्राय, लेखकीय उद्देश्य व सामाजिक-सांस्कृतिक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_05_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Match archival motifs (jauhar, sakha, bhamashah) to the folk narratives, then weigh why the story\'s trauma stays unresolved at the end.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_05_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a journalist investigating why a once-green kingdom has turned barren.',
-            decisions: [{ prompt: 'What is the primary allegorical meaning of the "white hair" (jtr cw¡nsa) in the story "jktLFkku dh jtr cw¡nas"?', options: [
-                { text: 'The white hair allegorically represents the loss of forest cover/greenery due to', outcome: 'The white hair allegorically represents the loss of forest cover/greenery due to environmental.' },
-                { text: 'the king\'s aging', outcome: 'Not quite — Students often treat "critical thinking" as merely finding faults in the story or expressing.', reveals: 'students-often-treat-critical-thinking' },
-                { text: 'wisdom', outcome: 'Not quite — Students often treat "critical thinking" as merely finding faults in the story or expressing.', reveals: 'students-often-treat-critical-thinking' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_05_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit in the exam hall and see a question: "How does the author use the protagonist\'s silence to critique the feudal system?',
-            decisions: [{ prompt: 'What is the full form of the PEEL structure used for writing analytical answers in Hindi literature, and what does each letter stand for.', options: [
-                { text: 'PEEL stands for **P**oint (मुख्य बात/दावा), **E**vidence (पाठ्य साक्ष्य/घटना),', outcome: 'PEEL stands for **P**oint (मुख्य बात/दावा), **E**vidence (पाठ्य साक्ष्य/घटना), **E**xplanation.' },
-                { text: 'difficult', outcome: 'Not quite — Students believe that writing a good Hindi answer means using "difficult" or "Sanskritized".', reveals: 'writing-a-good-hindi-answer' },
-                { text: 'Sanskritized', outcome: 'Not quite — Students believe that writing a good Hindi answer means using "difficult" or "Sanskritized".', reveals: 'writing-a-good-hindi-answer' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_05_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a Class 11 literature circle discussing why the author describes the palace windows as "जर्जर" (dilapidated) yet "स्मृतियों का भंडार".',
-            decisions: [{ prompt: 'Define "evidence-based discussion point" in the context of analyzing "जक्तल्फक्कु ध झत्र च्वनस" and give one example from the chapter\'s.', options: [
-                { text: 'An evidence-based discussion point is an analytical claim about the text supported by a', outcome: 'An evidence-based discussion point is an analytical claim about the text supported by a specific.' },
-                { text: 'A wrong answer (e.g', outcome: 'Not quite — Students believe "discussion points" are personal opinions or emotional reactions ("मुझे लगा कि...".', reveals: 'discussion-points-are-personal-opinions' },
-                { text: 'discussion points', outcome: 'Not quite — Students believe "discussion points" are personal opinions or emotional reactions ("मुझे लगा कि...".', reveals: 'discussion-points-are-personal-opinions' }
+        labels: ['पाठ 5 — आलोचनात्मक', 'पाठ 5 — लेखन', 'पाठ 5 — वाचन-श्रवण'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_05_014', title: 'पाठ 5 — लेखन कौशल: पाठ-आधारित',
+          caseStudy: { intro: 'कल्पना करें आपने परीक्षा में एक प्रश्न पढ़ा: *"पाठ में नायक की आंतरिक द्वंद्व को स्पष्ट कीजिए।"* आप तुरंत लिखना शुरू कर देते हैं — नायक का बचपन, फिर घटनाएँ.',
+            decisions: [{ prompt: 'PEEL संरचना के \'E\' (Evidence) चरण में क्या अनिवार्य रूप से शामिल होना चाहिए? एक वाक्य में उत्तर दीजिए।', options: [
+                { text: '**उत्तर:** \'E\' चरण में पाठ से लिया गया **सटीक उद्धरण (Exact Quote)** या **विशिष्ट प्रसंग', outcome: '**उत्तर:** \'E\' चरण में पाठ से लिया गया **सटीक उद्धरण (Exact Quote)** या **विशिष्ट प्रसंग संदर्भ.' },
+                { text: '* — छात्र मानते हैं कि *', outcome: 'Not quite — **विशिष्ट भ्रांति:** *"बड़े/जटिल शब्द (Sophisticated Vocabulary) और लंबे वाक्य लिखने से अंक अधिक.', reveals: 'sophisticated-vocabulary-cbse-clarity' },
+                { text: '* लिखना *', outcome: 'Not quite — **विशिष्ट भ्रांति:** *"बड़े/जटिल शब्द (Sophisticated Vocabulary) और लंबे वाक्य लिखने से अंक अधिक.', reveals: 'sophisticated-vocabulary-cbse-clarity' }
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_05_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your history club presents Vishnu Prabhakar\'s \'Rajasthan ki Jatir Kahaniyan\'. A member dismisses the folk narratives: \'Oral tales aren\'t real history — no dates, no documents, just bards embellishing. And the story jumps around in time, so it\'s badly organised.\'',
@@ -63,66 +49,47 @@ export const c11_hin_v_ch05_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis refers to the ability to examine a text.',
-          hint: 'If stuck, review the symbolism and irony nodes (c11_hin_v_cbse_05_008.',
-          misconception: 'Students often treat "critical thinking" as merely finding faults in the story or expressing personal dislike.',
+          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के घटकों (भाषा, संरचना, युक्तियाँ) को.',
+          hint: 'यदि फँसें: **c11_hin_v_cbse_05_008 व 009** (बिंब/रूपक/विरोधाभास/प्रतीक) पर लौटें — एक-एक.',
+          misconception: 'छात्र समझते हैं कि **\'आलोचनात्मक चिंतन\' = \'अपनी राय देना\' या \'पाठ की बुराई करना\'**। वास्तव में: (1) यह **व्यक्तिगत.',
           parts: [
-                { id: 'a', prompt: 'What is the primary allegorical meaning of the "white hair" (jtr cw¡nsa) in the story "jktLFkku dh jtr cw¡nas"?', answer: 'The white hair allegorically represents the loss of forest cover/greenery due to',
-                  options: ['The white hair allegorically represents the loss of forest cover/greenery due to', 'the king\'s aging', 'wisdom', 'I think the king was foolish'],
-                  hint: 'If stuck, review the symbolism and irony nodes (c11_hin_v_cbse_05_008, c11_hin_v_cbse_05_009) and.',
-                  misconception: 'Students often treat "critical thinking" as merely finding faults in the story or expressing personal dislike.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के घटकों (भाषा, संरचना, युक्तियाँ) को अलग-अलग',
+                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के घटकों (भाषा, संरचना, युक्तियाँ) को अलग-अलग', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
+                  hint: 'यदि फँसें: **c11_hin_v_cbse_05_008 व 009** (बिंब/रूपक/विरोधाभास/प्रतीक) पर लौटें — एक-एक युक्ति को.',
+                  misconception: 'छात्र समझते हैं कि **\'आलोचनात्मक चिंतन\' = \'अपनी राय देना\' या \'पाठ की बुराई करना\'**। वास्तव में: (1) यह **व्यक्तिगत पसंद/नापसंद** नहीं.' }
           ],
-            remediations: { 'students-often-treat-critical-thinking': { steps: ['Ask the student to highlight every adjective used for the king and every description of the land in two different.', 'Have them list what the king *says* vs.', 'what the land *shows* in a two-column table.', 'Guide them to write one sentence connecting a specific irony (e.g., "crown of white hair" vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { '1': { steps: ['**चरण 1 — भेद स्पष्ट करें:** छात्र से कहें — "पाठ की कोई एक पंक्ति लो। पहले बताओ: **क्या लिखा है?** (वर्णन) फिर: **कैसे.', '**चरण 2 — PEEL का अभ्यास:** एक कमजोर उत्तर दें (केवल वर्णन) और छात्र से कहें: "इसे PEEL में ढालो — Point जोड़ो.', '**चरण 3 — युक्ति-संवाद कराएँ:** दो युक्तियाँ (जैसे: बिंब + विरोधाभास) दें और पूछें: "ये दोनों *मिलकर* क्या कर रहे हैं.', '**चरण 4 — बोर्ड-उत्तर तुलना:** NCERT मार्किंग स्कीम के दो नमूना उत्तर (एक 2/5, एक 5/5) दिखाएँ और अंतर चिह्नित कराएँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to construct.',
-          hint: 'If stuck, review **c11_hin_v_cbse_05_013 (Critical Thinking)** — specifically the.',
-          misconception: 'Students believe that writing a good Hindi answer means using "difficult" or "Sanskritized" vocabulary (e.g., "शोषण".',
+          question: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें दिए गए.',
+          hint: 'यदि फँस जाएँ तो **c11_hin_v_cbse_05_013 (आलोचनात्मक चिंतन)** और.',
+          misconception: '**विशिष्ट भ्रांति:** *"बड़े/जटिल शब्द (Sophisticated Vocabulary) और लंबे वाक्य लिखने से अंक अधिक मिलते हैं।"* — छात्र.',
           parts: [
-                { id: 'a', prompt: 'What is the full form of the PEEL structure used for writing analytical answers in Hindi literature, and what does each letter stand for in the context of.', answer: 'PEEL stands for **P**oint (मुख्य बात/दावा), **E**vidence (पाठ्य साक्ष्य/घटना),',
-                  options: ['PEEL stands for **P**oint (मुख्य बात/दावा), **E**vidence (पाठ्य साक्ष्य/घटना),', 'difficult', 'Sanskritized', 'प्रतिरोध'],
-                  hint: 'If stuck, review **c11_hin_v_cbse_05_013 (Critical Thinking)** — specifically the distinction.',
-                  misconception: 'Students believe that writing a good Hindi answer means using "difficult" or "Sanskritized" vocabulary (e.g., "शोषण" instead of "जुल्म".' },
-                { id: 'b', prompt: 'Compare two ways of embedding textual evidence in a Hindi answer: (A) Direct quote: "उसने कहा, \'मैं झूठ नहीं बोलूंगा\'।" (B) Paraphrase: "जब उससे झूठे कागज़ पर.', answer: 'For **character analysis**, direct quotes (A) are superior',
-                  options: ['For **character analysis**, direct quotes (A) are superior', 'difficult', 'Sanskritized', 'प्रतिरोध'],
-                  hint: 'If stuck, review **c11_hin_v_cbse_05_013 (Critical Thinking)** — specifically the distinction.',
-                  misconception: 'Students believe that writing a good Hindi answer means using "difficult" or "Sanskritized" vocabulary (e.g., "शोषण" instead of "जुल्म".' }
+                { id: 'a', prompt: 'प्रश्न: *"पाठ में \'विरोधाभास\' (Paradox) युक्ति कैसे प्रयुक्त हुई है?"* — इसके लिए PEEL रूपरेखा (Outline) बनाइए जिसमें Point, Evidence (उद्धरण सहित).', answer: '**चरण-दर-चरण उत्तर:** 1',
+                  options: ['**चरण-दर-चरण उत्तर:** 1', '* — छात्र मानते हैं कि *', '* लिखना *', 'पात्र-चित्रण की बहुआयामी जटिलताएँ पाठ की विषयवस्तु को प्रतिबिंबित करती हैं'],
+                  hint: 'यदि फँस जाएँ तो **c11_hin_v_cbse_05_013 (आलोचनात्मक चिंतन)** और **c11_hin_v_cbse_05_008/009.',
+                  misconception: '**विशिष्ट भ्रांति:** *"बड़े/जटिल शब्द (Sophisticated Vocabulary) और लंबे वाक्य लिखने से अंक अधिक मिलते हैं।"* — छात्र मानते हैं कि *"नायक.' },
+                { id: 'b', prompt: 'दो उत्तर अंश दिए गए हैं — पहचानिए कौन-सा **विश्लेषणात्मक (Analytical)** है और कौन-सा **वर्णनात्मक (Descriptive)**, तथा कारण बताइए: अ) *"नायक बाज़ार जाता है.', answer: '**उत्तर:** अ **वर्णनात्मक (Descriptive)**',
+                  options: ['**उत्तर:** अ **वर्णनात्मक (Descriptive)**', '* — छात्र मानते हैं कि *', '* लिखना *', 'पात्र-चित्रण की बहुआयामी जटिलताएँ पाठ की विषयवस्तु को प्रतिबिंबित करती हैं'],
+                  hint: 'यदि फँस जाएँ तो **c11_hin_v_cbse_05_013 (आलोचनात्मक चिंतन)** और **c11_hin_v_cbse_05_008/009.',
+                  misconception: '**विशिष्ट भ्रांति:** *"बड़े/जटिल शब्द (Sophisticated Vocabulary) और लंबे वाक्य लिखने से अंक अधिक मिलते हैं।"* — छात्र मानते हैं कि *"नायक.' }
           ],
-            remediations: { 'writing-a-good-hindi-answer': { steps: ['If a student submits a flowery, evidence-free answer: 1.', '**Highlight** every sentence in their answer with three colors: Yellow = Point/Claim, Green = Textual Evidence, Blue.', 'If a color is missing, that PEEL component is absent.', '**Rewrite one paragraph together** using only Class 9-level Hindi vocabulary but strict PEEL structure — prove that.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_014', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe that writing a good Hindi answer means using "difficult" or "Sanskritized" vocabulary (e.g., "शोषण".',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this student\'s claim: "Since the chapter is a translation from another language, we should not focus on specific Hindi words or phrases used by the.', answer: '**Refute.** Board exams (CBSE Hindi Core/Elective) assess *close reading of the',
-                  options: ['**Refute.** Board exams (CBSE Hindi Core/Elective) assess *close reading of the', 'difficult', 'Sanskritized', 'प्रतिरोध'],
-                  hint: 'If stuck, review **c11_hin_v_cbse_05_013 (Critical Thinking)** — specifically the distinction.',
-                  misconception: 'Students believe that writing a good Hindi answer means using "difficult" or "Sanskritized" vocabulary (e.g., "शोषण" instead of "जुल्म".' }
-          ],
-            remediations: { 'writing-a-good-hindi-answer': { steps: ['If a student submits a flowery, evidence-free answer: 1.', '**Highlight** every sentence in their answer with three colors: Yellow = Point/Claim, Green = Textual Evidence, Blue.', 'If a color is missing, that PEEL component is absent.', '**Rewrite one paragraph together** using only Class 9-level Hindi vocabulary but strict PEEL structure — prove that.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'sophisticated-vocabulary-cbse-clarity': { steps: ['**\'शब्द-जाल\' तोड़ो:** छात्र से कहें — *"अगले 3 उत्तर केवल **सरल, छोटे वाक्यों** में लिखो (अधिकतम 12 शब्द/वाक्य)।.', '**PEEL रंग-कोडिंग:** छात्र के लिखे उत्तर में 4 रंगों से हाइलाइट करवाएँ: **नीला = Point, हरा = Evidence, पीला.', '**\'क्यों?\' खेल:** छात्र के हर दावे पर आप बार-बार पूछें *"पाठ में कहाँ लिखा है?', 'वह वाक्य कैसे तुम्हारी बात सिद्ध करता है?"* — जब तक वह स्वयं Evidence→Explanation जोड़ना न सीख जाए। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck, review c11_hin_v_cbse_05_013 (Critical Thinking) for argument generation and.',
-          misconception: 'Students believe "discussion points" are personal opinions or emotional reactions ("मुझे लगा कि..." / "यह दुखद है").',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु (Reading-Listening: Discussion Points) refers to the.',
+          hint: 'यदि अटके: c11_hin_v_cbse_05_013 (आलोचनात्मक चिंतन) के \'साक्ष्य-चयन\' चरण को दोहराएँ.',
+          misconception: 'छात्र अक्सर मानते हैं कि \'चर्चा-बिंदु\' का अर्थ है **शिक्षक द्वारा दिए गए प्रश्नों के \'सही उत्तर\' खोजना** — जैसे यह एक.',
           parts: [
-                { id: 'a', prompt: 'Explain why simply stating "the author uses irony in describing the palace" is an incomplete discussion point, and show how to complete it using a specific.', answer: 'The statement is incomplete',
-                  options: ['The statement is incomplete', 'A wrong answer (e.g', 'discussion points', 'मुझे लगा कि'],
-                  hint: 'If stuck, review c11_hin_v_cbse_05_013 (Critical Thinking) for argument generation and.',
-                  misconception: 'Students believe "discussion points" are personal opinions or emotional reactions ("मुझे लगा कि..." / "यह दुखद है") rather than textual.' },
-                { id: 'b', prompt: 'During a discussion on the theme of "folk memory vs. official history," a peer claims: "The folk songs in the chapter are just decorative." Using two specific.', answer: 'Response: "I hear you',
-                  options: ['Response: "I hear you', 'A wrong answer (e.g', ') reveals inability to cite evidence or engage dialogically', 'are personal opinions or emotional reactions ('],
-                  hint: 'If stuck, review c11_hin_v_cbse_05_013 (Critical Thinking) for argument generation and.',
-                  misconception: 'Students believe "discussion points" are personal opinions or emotional reactions ("मुझे लगा कि..." / "यह दुखद है") rather than textual.' },
-                { id: 'c', prompt: 'Compare how two different discussion points — one focusing on the protagonist\'s displacement (csch gkynkj\'s migration) and another on the palace\'s.', answer: 'Point 1 (displacement): Requires evidence of csch gkynkj\'s forced migration',
-                  options: ['Point 1 (displacement): Requires evidence of csch gkynkj\'s forced migration', 'sadness', 'discussion points', 'मुझे लगा कि'],
-                  hint: 'If stuck, review c11_hin_v_cbse_05_013 (Critical Thinking) for argument generation and.',
-                  misconception: 'Students believe "discussion points" are personal opinions or emotional reactions ("मुझे लगा कि..." / "यह दुखद है") rather than textual.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु (Reading-Listening: Discussion Points) refers to the pedagogical',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु (Reading-Listening: Discussion Points) refers to the pedagogical', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
+                  hint: 'यदि अटके: c11_hin_v_cbse_05_013 (आलोचनात्मक चिंतन) के \'साक्ष्य-चयन\' चरण को दोहराएँ — विशेष रूप से.',
+                  misconception: 'छात्र अक्सर मानते हैं कि \'चर्चा-बिंदु\' का अर्थ है **शिक्षक द्वारा दिए गए प्रश्नों के \'सही उत्तर\' खोजना** — जैसे यह एक मौखिक परीक्षा हो।.' }
           ],
-            remediations: { 'discussion-points-are-personal-opinions': { steps: ['Give the student a 2-column template: Column A = "My Claim" (one sentence), Column B = "Textual Evidence" (page/line.', 'Have them convert three past "opinions" into evidence-based points using the chapter.', 'Pair them with a peer who models "building on" language ("आपके बिंदु को आगे बढ़ाते हुए..." / "इसके विपरीत पाठ में...").', 'Record a 2-minute practice discussion; replay and highlight every unsupported claim with a red flag.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**पुनर्निर्देशन (Redirect):** अगली चर्चा से पहले, छात्र को एक छोटा अनुच्छेद (5-6 पंक्तियाँ) दें और कहें: "इसमें तीन.', '**मॉडलिंग (Modeling):** शिक्षक स्वयं एक \'गलत\' व्याख्या प्रस्तुत करें (जानबूझकर कमजोर साक्ष्य के साथ) और छात्रों से.', '**मेटाकॉग्निटिव संकेत (Metacognitive cue):** चर्चा के अंत में 2 मिनट दें: "लिखो — आज मेरी समझ कैसे बदली?', 'कौन-सा साक्ष्य सबसे आश्चर्यजनक था?" यह \'उत्पाद\' (उत्तर) से \'प्रक्रिया\' (चिंतन) पर ध्यान ले जाता है।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -1626,7 +1626,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
 
                     <div>
                       <div className="flex justify-between mb-1">
-                        <span className="text-slate-300">Policy Price Level ($P_{ctrl}$): ₹{priceControlVal}</span>
+                        <span className="text-slate-300">Policy Price Level (P_ctrl): ₹{priceControlVal}</span>
                       </div>
                       <input
                         type="range"

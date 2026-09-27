@@ -1,0 +1,286 @@
+{
+  "gameFile": "EngPunctuationGame",
+  "classLevel": 4,
+  "cisceNodes": [],
+  "mascot": "Officer Mark — a friendly traffic officer with a magnifying glass and a big badge shaped like a full stop.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Little Marks, Big Job! ✍️",
+      "text": "Punctuation marks are little signs that help readers! They show when to stop, when to ask, and when to shout!",
+      "emoji": "✍️",
+      "bgColor": "from-sky-400 to-blue-500",
+      "spoken": "Punctuation marks show when to stop, ask or shout!"
+    },
+    {
+      "title": "The Full Stop (.) 🔴",
+      "text": "The full stop ends a telling sentence. \"The sun is hot.\" When you read and see a full stop — stop and take a breath!",
+      "emoji": "🔴",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "The full stop ends a telling sentence. Stop and take a breath!"
+    },
+    {
+      "title": "The Question Mark (?) ❓",
+      "text": "The question mark ends an asking sentence. \"Where is my bag?\" When you see it, your voice goes up!",
+      "emoji": "❓",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "The question mark ends an asking sentence!"
+    },
+    {
+      "title": "The Exclamation Mark (!) 🎉",
+      "text": "The exclamation mark shows big feelings! \"What a lovely day!\" \"Watch out!\" It means wow, hurray or careful!",
+      "emoji": "🎉",
+      "bgColor": "from-rose-400 to-pink-500",
+      "spoken": "The exclamation mark shows big feelings: wow, hurray, careful!"
+    },
+    {
+      "title": "Capital Letters and the Comma (,) 📝",
+      "text": "Sentences need capital letters at the start, and names like Ravi get one too! The comma (,) makes a tiny pause in lists: apples, mangoes and bananas.",
+      "emoji": "📝",
+      "bgColor": "from-purple-400 to-fuchsia-500",
+      "spoken": "Capitals start sentences and names. The comma makes a tiny pause!"
+    }
+  ],
+  "challenges": [
+    {
+      "type": "punct_question",
+      "question": "Which mark ends a question?",
+      "answer": "?",
+      "options": [
+        "?",
+        ".",
+        "!"
+      ],
+      "hint": "When we ask something, the little hook mark goes at the end!",
+      "misconception": "A question ends with a question mark (?) — 'Where is my bag?'",
+      "easierVariant": {
+        "options": [
+          "?",
+          "."
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "punct_exclaim",
+      "question": "Which mark ends a strong happy sentence like 'What a lovely day'?",
+      "answer": "!",
+      "options": [
+        "!",
+        ".",
+        ","
+      ],
+      "hint": "For big wow feelings, we need the excited mark!",
+      "misconception": "Big feelings get an exclamation mark (!) — 'What a lovely day!'",
+      "easierVariant": {
+        "options": [
+          "!",
+          "."
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "punct_capitals",
+      "question": "Which sentence uses capital letters correctly?",
+      "answer": "My name is Ravi.",
+      "options": [
+        "my name is ravi.",
+        "My name is Ravi.",
+        "my Name is RAVI."
+      ],
+      "hint": "The sentence starts with a capital AND the name needs one too!",
+      "misconception": "'My name is Ravi.' is correct: a capital at the start and a capital R for the name Ravi!",
+      "easierVariant": {
+        "options": [
+          "My name is Ravi.",
+          "my name is ravi."
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "punct_pick",
+      "question": "Which mark finishes this question: 'Where is my school bag'?",
+      "answer": "?",
+      "options": [
+        "?",
+        ".",
+        "!"
+      ],
+      "hint": "This sentence asks for something — which mark does a question need?",
+      "misconception": "'Where is my school bag?' is a question, so it needs a question mark!",
+      "easierVariant": {
+        "options": [
+          "?",
+          "."
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "punct_capital_i",
+      "question": "In 'i love mangoes.', which word needs a capital letter?",
+      "answer": "i",
+      "options": [
+        "i",
+        "love",
+        "mangoes"
+      ],
+      "hint": "One tiny word must ALWAYS be a capital, every single time!",
+      "misconception": "The word 'i' must always be capital: 'I love mangoes.' — the letter I stands tall!",
+      "easierVariant": {
+        "options": [
+          "i",
+          "love"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_tell_ask",
+      "question": "Drag each sentence! Does it need a question mark or a full stop?",
+      "answer": "sort",
+      "options": [],
+      "hint": "'Where is my cap' asks. 'The cap is red' tells!",
+      "misconception": "Asking sentences like 'Where is my cap' need a question mark. Telling sentences like 'The cap is red' need a full stop!",
+      "sortItems": [
+        {
+          "id": "s-cap",
+          "label": "Where is my cap",
+          "icon": "🧢",
+          "emoji": "🧢",
+          "correctBin": "q"
+        },
+        {
+          "id": "s-red",
+          "label": "The cap is red",
+          "icon": "🔴",
+          "emoji": "🔴",
+          "correctBin": "p"
+        },
+        {
+          "id": "s-door",
+          "label": "Who is at the door",
+          "icon": "🚪",
+          "emoji": "🚪",
+          "correctBin": "q"
+        },
+        {
+          "id": "s-see",
+          "label": "I can see the door",
+          "icon": "👀",
+          "emoji": "👀",
+          "correctBin": "p"
+        }
+      ],
+      "bins": [
+        {
+          "id": "q",
+          "label": "Needs ?",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "p",
+          "label": "Needs .",
+          "color": "#10B981"
+        }
+      ],
+      "storyBeat": "rising"
+    },
+    {
+      "type": "punct_complete",
+      "question": "Which sentence is complete and correct?",
+      "answer": "The sun rises in the east.",
+      "options": [
+        "the sun rises in the east",
+        "The sun rises in the east",
+        "The sun rises in the east."
+      ],
+      "hint": "It needs a capital at the start AND a full stop at the end!",
+      "misconception": "'The sun rises in the east.' is complete: capital T and a full stop at the end!",
+      "easierVariant": {
+        "options": [
+          "The sun rises in the east.",
+          "The sun rises in the east"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "punct_comma",
+      "question": "Which mark makes a tiny pause inside a list, like 'apples, mangoes and bananas'?",
+      "answer": "Comma (,)",
+      "options": [
+        "Comma (,)",
+        "Full stop (.)",
+        "Question mark (?)"
+      ],
+      "hint": "The tiniest mark of all makes a tiny pause between list items!",
+      "misconception": "The comma (,) makes the tiny pause in lists: apples, mangoes and bananas.",
+      "easierVariant": {
+        "options": [
+          "Comma (,)",
+          "Full stop (.)"
+        ]
+      },
+      "storyBeat": "resolution"
+    }
+  ],
+  "subject": "english",
+  "theme": "city",
+  "storyArc": {
+    "theme": "An English explorer masters new words, one story at a time",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let us explore English together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A playful challenge appears that needs the new skill",
+        "mascotDialogue": "Here comes a challenge — can you work it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The tasks grow trickier as understanding deepens",
+        "mascotDialogue": "You are getting stronger! Try these!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest test of the new skill",
+        "mascotDialogue": "This is the big one! Show me what you learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "Mastery shown and celebrated",
+        "mascotDialogue": "Amazing! You have mastered this!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Punctuation Tower",
+    "totalPieces": 8
+  }
+}

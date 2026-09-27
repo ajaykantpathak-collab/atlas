@@ -181,7 +181,7 @@ export const w_c12_mathematicstypesvectorsequalsim: SimDef = {
                   options: ['Given \\(r = 13\\) and \\(l = \\frac{3}{13}, m = \\frac{-4}{13}, n = \\frac{12}{13}\\)', 'position vector', 'unit vector'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students confuse **direction ratios** with **direction cosines**.' },
-                { id: 'b', prompt: 'Two vectors \\(\\vec{a}\\) and \\(\\vec{b}\\) have direction cosines \\((l_1, m_1, n_1)\\) and \\((l_2, m_2, n_2)\\) respectively.', answer: 'Correct answer: (A)',
+                { id: 'b', prompt: 'Two vectors \\(\\vec{a}\\) and \\(\\vec{b}\\) have direction cosines \\((l_1, m_1, n_1)\\) and \\((l_2, m_2, n_2)\\) respectively.', answer: '(A)',
                   options: ['Correct answer: (A)', 'position vector of P', 'unit vector along OP'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students confuse **direction ratios** with **direction cosines**.' }
@@ -200,7 +200,7 @@ export const w_c12_mathematicstypesvectorsequalsim: SimDef = {
                   options: ['Example: P(2, 3, 6)', 'position vector of P', 'unit vector along OP'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students confuse **direction ratios** with **direction cosines**.' },
-                { id: 'c', prompt: 'Two vectors \\(\\vec{a}\\) and \\(\\vec{b}\\) have direction cosines \\((l_1, m_1, n_1)\\) and \\((l_2, m_2, n_2)\\) respectively.', answer: 'Correct answer: (A)',
+                { id: 'c', prompt: 'Two vectors \\(\\vec{a}\\) and \\(\\vec{b}\\) have direction cosines \\((l_1, m_1, n_1)\\) and \\((l_2, m_2, n_2)\\) respectively.', answer: '(A)',
                   options: ['Correct answer: (A)', 'position vector of P', 'unit vector along OP'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students confuse **direction ratios** with **direction cosines**.' }

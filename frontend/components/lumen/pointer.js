@@ -22,25 +22,26 @@ export function createPointer() {
 
   const isUi = (event) => event.target.closest('button, .dock, .lesson-card')
 
-  window.addEventListener('pointermove', readPointer, { passive: true })
-  window.addEventListener('pointerdown', (event) => {
+  const onPointerMove = (event) => readPointer(event)
+  const onPointerDown = (event) => {
     if (isUi(event)) return
     attractTarget = 1
-  })
-  window.addEventListener('pointerup', () => {
+  }
+  const onPointerUp = () => {
     attractTarget = 0
-  })
-  window.addEventListener('pointercancel', () => {
+  }
+  const onPointerCancel = () => {
     attractTarget = 0
-  })
+  }
+  const onWheel = (event) => {
+    scrollImpulse += event.deltaY * 0.0035
+  }
 
-  window.addEventListener(
-    'wheel',
-    (event) => {
-      scrollImpulse += event.deltaY * 0.0035
-    },
-    { passive: true }
-  )
+  window.addEventListener('pointermove', onPointerMove, { passive: true })
+  window.addEventListener('pointerdown', onPointerDown)
+  window.addEventListener('pointerup', onPointerUp)
+  window.addEventListener('pointercancel', onPointerCancel)
+  window.addEventListener('wheel', onWheel, { passive: true })
 
   return {
     state,
@@ -50,6 +51,15 @@ export function createPointer() {
       state.attract += (attractTarget - state.attract) * 0.12
       scrollImpulse *= 0.88
       state.scroll = scrollImpulse
+    },
+    // lets embeds (landing cosmos) fully unbind; the Lumen Lab never unmounts
+    // its pointer mid-session so it simply never calls this
+    destroy() {
+      window.removeEventListener('pointermove', onPointerMove)
+      window.removeEventListener('pointerdown', onPointerDown)
+      window.removeEventListener('pointerup', onPointerUp)
+      window.removeEventListener('pointercancel', onPointerCancel)
+      window.removeEventListener('wheel', onWheel)
     }
   }
 }

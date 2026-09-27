@@ -9,11 +9,31 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 import { PrismLogo } from '@/components/prism/PrismLogo'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useAuthStore } from '@/stores/authStore'
 import { useRouter } from 'next/navigation'
 
 type SettingSection = 'account' | 'notifications' | 'appearance' | 'language' | 'privacy' | 'accessibility' | 'about'
+
+const DEFAULT_SETTINGS = {
+  pushNotifications: true,
+  emailNotifications: true,
+  achievementAlerts: true,
+  streakReminders: true,
+  examReminders: true,
+  soundEffects: true,
+  hapticFeedback: true,
+  darkMode: true,
+  reducedMotion: false,
+  highContrast: false,
+  largeText: false,
+  screenReader: false,
+  autoDownload: false,
+  dataSaver: true,
+  language: 'English',
+  region: 'India',
+  board: 'CBSE',
+}
 
 const sections: { id: SettingSection; label: string; icon: typeof User; color: string }[] = [
   { id: 'account', label: 'Account', icon: User, color: 'text-brand-300' },
@@ -29,25 +49,23 @@ export default function SettingsPage() {
   const router = useRouter()
   const { user, logout } = useAuthStore()
   const [active, setActive] = useState<SettingSection>('account')
-  const [settings, setSettings] = useState({
-    pushNotifications: true,
-    emailNotifications: true,
-    achievementAlerts: true,
-    streakReminders: true,
-    examReminders: true,
-    soundEffects: true,
-    hapticFeedback: true,
-    darkMode: true,
-    reducedMotion: false,
-    highContrast: false,
-    largeText: false,
-    screenReader: false,
-    autoDownload: false,
-    dataSaver: true,
-    language: 'English',
-    region: 'India',
-    board: 'CBSE',
+  const [settings, setSettings] = useState(() => {
+    // Restore locally-saved preferences (device only — no backend surface exists)
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = window.localStorage.getItem('dream-settings')
+        if (saved) return { ...DEFAULT_SETTINGS, ...JSON.parse(saved) }
+      } catch { /* corrupted save — fall back to defaults */ }
+    }
+    return { ...DEFAULT_SETTINGS }
   })
+
+  // Persist on every change so toggles survive reloads
+  useEffect(() => {
+    try {
+      window.localStorage.setItem('dream-settings', JSON.stringify(settings))
+    } catch { /* storage unavailable (private mode) — settings stay session-only */ }
+  }, [settings])
 
   const toggleSetting = (key: keyof typeof settings) => {
     setSettings((prev) => ({ ...prev, [key]: !prev[key as keyof typeof prev] }))
@@ -55,7 +73,7 @@ export default function SettingsPage() {
 
   const handleLogout = () => {
     logout()
-    router.push('/')
+    router.push('/login')
   }
 
   return (
@@ -117,16 +135,16 @@ export default function SettingsPage() {
                         <User className="w-8 h-8 text-white" />
                       </div>
                       <div>
-                        <p className="text-sm font-semibold text-white">{user?.name || 'Aarav Sharma'}</p>
-                        <p className="text-xs text-surface-600">{user?.email || 'aarav@example.com'}</p>
+                        <p className="text-sm font-semibold text-white">{user?.name || 'Student'}</p>
+                        <p className="text-xs text-surface-600">{user?.email || ''}</p>
                         <div className="flex items-center gap-2 mt-1">
                           <span className="badge-brand text-[10px]">{settings.board} Class 10</span>
                           <span className="badge text-[10px]">Student</span>
                         </div>
                       </div>
                     </div>
-                    <SettingRow label="Full Name" value={user?.name || 'Aarav Sharma'} />
-                    <SettingRow label="Email Address" value={user?.email || 'aarav@example.com'} />
+                    <SettingRow label="Full Name" value={user?.name || 'Student'} />
+                    <SettingRow label="Email Address" value={user?.email || ''} />
                     <SettingRow label="Board" value={settings.board} />
                     <SettingRow label="Class Level" value="Class 10" />
                     <SettingRow label="School" value="Delhi Public School" />
@@ -296,17 +314,21 @@ export default function SettingsPage() {
                 {active === 'privacy' && (
                   <div className="space-y-6">
                     <h2 className="font-display text-lg font-semibold text-white">Privacy & Security</h2>
-                    <SettingRow label="Change Password" value="Last changed 30 days ago" actionLabel="Change" />
-                    <SettingRow label="Two-Factor Authentication" value="Not enabled" actionLabel="Enable" />
-                    <SettingRow label="Data Sharing" value="Analytics data sharing is enabled" actionLabel="Manage" />
-                    <SettingRow label="Connected Devices" value="2 devices active" actionLabel="View" />
+                    <SettingRow label="Change Password" value="Not available yet" />
+                    <SettingRow label="Two-Factor Authentication" value="Not available yet" />
+                    <SettingRow label="Data Sharing" value="Not configurable yet" />
+                    <SettingRow label="Connected Devices" value="Not available yet" />
                     <div className="pt-4 border-t border-surface-300/20">
-                      <button className="flex items-center gap-3 text-sm text-red-300 hover:text-red-200 transition-colors">
+                      <button
+                        disabled
+                        className="flex items-center gap-3 text-sm text-red-300/40 cursor-not-allowed"
+                        title="Account deletion is not available yet"
+                      >
                         <Trash2 className="w-4 h-4" />
                         Delete Account
                       </button>
                       <p className="text-[10px] text-surface-600 mt-2">
-                        This will permanently delete your account and all associated data. This action cannot be undone.
+                        Account deletion is not available yet. This space will be used for it when the backend supports it.
                       </p>
                     </div>
                   </div>
@@ -344,15 +366,9 @@ export default function SettingsPage() {
                       value={settings.reducedMotion}
                       onChange={() => toggleSetting('reducedMotion')}
                     />
-                    <div className="p-4 rounded-xl bg-brand-500/10 border border-brand-500/20">
-                      <div className="flex items-center gap-2 mb-2">
-                        <Accessibility className="w-4 h-4 text-brand-300" />
-                        <p className="text-xs font-medium text-brand-300">Accessibility Score</p>
-                      </div>
-                      <p className="text-xs text-surface-600">
-                        Atlas is committed to WCAG 2.1 AA compliance. Current score: 92/100
-                      </p>
-                    </div>
+                    <p className="text-[10px] text-surface-600">
+                      Preferences are saved on this device. Atlas targets WCAG 2.1 AA compliance.
+                    </p>
                   </div>
                 )}
 

@@ -172,7 +172,7 @@ export const w_c8_mathematicscomparingquantitiessim: SimDef = {
           hint: 'Revisit decimal multiplication (c7_math_ch12_002) and metric conversion ladder.',
           misconception: 'Students treat the RF denominator as if it already contains the target unit (e.g., "1 : 50,000 means 1 cm = 50,000.',
           parts: [
-                { id: 'a', prompt: 'Two maps show the same region. Map A has RF 1 : 100,000. Map B has RF 1 : 200,000. On Map A, a road measures 5 cm. On Map B, the same road measures 2.5 cm.', answer: 'Correct answer: The product of map distance and RF denominator is invariant',
+                { id: 'a', prompt: 'Two maps show the same region. Map A has RF 1 : 100,000. Map B has RF 1 : 200,000. On Map A, a road measures 5 cm. On Map B, the same road measures 2.5 cm.', answer: 'The product of map distance and RF denominator is invariant',
                   options: ['Correct answer: The product of map distance and RF denominator is invariant', 'because the scales are different', 'because 5 cm is double 2.5 cm'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students treat the RF denominator as if it already contains the target unit (e.g., "1 : 50,000 means 1 cm = 50,000 km").' }
@@ -187,7 +187,7 @@ export const w_c8_mathematicscomparingquantitiessim: SimDef = {
                   options: ['Correct evaluation: Yes, the method and answer are correct', 'incorrect because you should divide by 1000'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students treat the RF denominator as if it already contains the target unit (e.g., "1 : 50,000 means 1 cm = 50,000 km").' },
-                { id: 'b', prompt: 'Two maps show the same region. Map A has RF 1 : 100,000. Map B has RF 1 : 200,000. On Map A, a road measures 5 cm. On Map B, the same road measures 2.5 cm.', answer: 'Correct answer: The product of map distance and RF denominator is invariant',
+                { id: 'b', prompt: 'Two maps show the same region. Map A has RF 1 : 100,000. Map B has RF 1 : 200,000. On Map A, a road measures 5 cm. On Map B, the same road measures 2.5 cm.', answer: 'The product of map distance and RF denominator is invariant',
                   options: ['Correct answer: The product of map distance and RF denominator is invariant', 'because the scales are different', 'because 5 cm is double 2.5 cm'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students treat the RF denominator as if it already contains the target unit (e.g., "1 : 50,000 means 1 cm = 50,000 km").' }

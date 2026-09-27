@@ -982,13 +982,13 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                       <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800 text-center">
                         <div className="font-bold text-cyan-300 mb-1">Isotopes (Same Z)</div>
                         <div className="text-slate-200 font-mono">
-                          $_1^1\text{H}$ (Protium) | $_1^2\text{H}$ (Deuterium) | $_1^3\text{H}$ (Tritium)
+                          ¹H (Protium) | ²H (Deuterium) | ³H (Tritium)
                         </div>
                       </div>
                       <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800 text-center">
                         <div className="font-bold text-purple-300 mb-1">Isobars (Same A)</div>
                         <div className="text-slate-200 font-mono">
-                          $_{18}^{40}\text{Ar}$ and $_{20}^{40}\text{Ca}$
+                          ⁴⁰₁₈Ar and ⁴⁰₂₀Ca
                         </div>
                       </div>
                     </div>
@@ -1123,7 +1123,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
               </div>
 
               <p className="text-[11px] text-slate-400 mt-3 leading-relaxed italic">
-                Observe how alpha particles closest to the nucleus experience massive force $F \propto \frac{Z}{r^2}$ and bend backward!
+                Observe how alpha particles closest to the nucleus experience massive force F ∝ Z/r² and bend backward!
               </p>
             </div>
 
@@ -1245,7 +1245,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                 <span>Fractional Average Atomic Mass Calculator</span>
               </h3>
               <p className="text-xs text-slate-300 mb-4 leading-relaxed">
-                Most chemical elements exist as isotopic mixtures. Calculate how weighted natural abundance percentages produce fractional atomic masses like Chlorine ($35.5\text{ u}$).
+                Most chemical elements exist as isotopic mixtures. Calculate how weighted natural abundance percentages produce fractional atomic masses like Chlorine (35.5 u).
               </p>
 
               {/* Chlorine Abundance Calculator Sandbox */}
@@ -1254,7 +1254,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                   <h4 className="text-xs font-bold text-slate-200 uppercase tracking-wider">Isotope Distribution</h4>
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
-                      <span>$^{35}_{17}\text{Cl}$ Abundance:</span>
+                      <span>³⁵₁₇Cl Abundance:</span>
                       <span className="font-mono text-cyan-300 font-bold">75%</span>
                     </div>
                     <div className="w-full h-3 bg-slate-800 rounded-full overflow-hidden flex">
@@ -1280,7 +1280,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                     <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 flex items-center space-x-3">
                       <span className="text-lg">⚛️</span>
                       <div>
-                        <div className="font-bold text-amber-300">Uranium-235 ($^{235}\text{U}$)</div>
+                        <div className="font-bold text-amber-300">Uranium-235 (²³⁵U)</div>
                         <div className="text-[11px] text-slate-400">Nuclear reactor fuel & energy production</div>
                       </div>
                     </div>
@@ -1288,7 +1288,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                     <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 flex items-center space-x-3">
                       <span className="text-lg">🩺</span>
                       <div>
-                        <div className="font-bold text-cyan-300">Cobalt-60 ($^{60}\text{Co}$)</div>
+                        <div className="font-bold text-cyan-300">Cobalt-60 (⁶⁰Co)</div>
                         <div className="text-[11px] text-slate-400">Gamma radiotherapy for cancer treatment</div>
                       </div>
                     </div>
@@ -1296,7 +1296,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                     <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 flex items-center space-x-3">
                       <span className="text-lg">💊</span>
                       <div>
-                        <div className="font-bold text-emerald-300">Iodine-131 ($^{131}\text{I}$)</div>
+                        <div className="font-bold text-emerald-300">Iodine-131 (¹³¹I)</div>
                         <div className="text-[11px] text-slate-400">Medical diagnostic and treatment of Goitre</div>
                       </div>
                     </div>

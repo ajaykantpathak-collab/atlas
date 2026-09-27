@@ -129,15 +129,15 @@ export const w_c11_politicalsciencecitizenshipsim: SimDef = {
           hint: 'If stuck, revisit Class 10 Civics Chapter 1 (Power Sharing) and Chapter 5 (Outcomes of.',
           misconception: 'Students often think "liberal citizenship = selfish individualism with no duties." They confuse *rights-based* (the.',
           parts: [
-                { id: 'a', prompt: 'State the three categories of rights in T.H. Marshall\'s liberal citizenship framework and give one concrete example of a right in each category that a citizen.', answer: 'Correct answer: Civil rights',
+                { id: 'a', prompt: 'State the three categories of rights in T.H. Marshall\'s liberal citizenship framework and give one concrete example of a right in each category that a citizen.', answer: 'Civil rights',
                   options: ['Correct answer: Civil rights', 'fundamental duties', 'directive principles'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "liberal citizenship = selfish individualism with no duties." They confuse *rights-based* (the state must justify.' },
-                { id: 'b', prompt: 'A state government passes a law reserving 80% of private-sector jobs for "domiciled residents." Migrant workers from other states challenge it under Article.', answer: 'Correct answer: Step 1',
+                { id: 'b', prompt: 'A state government passes a law reserving 80% of private-sector jobs for "domiciled residents." Migrant workers from other states challenge it under Article.', answer: 'Step 1',
                   options: ['Correct answer: Step 1', 'states have the right to protect their own people', 'liberal citizenship = selfish individualism with no duties'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "liberal citizenship = selfish individualism with no duties." They confuse *rights-based* (the state must justify.' },
-                { id: 'c', prompt: 'Compare how a liberal citizenship framework versus a communitarian framework would evaluate the following policy: "All citizens must perform one year of.', answer: 'Correct answer: Divergence 1',
+                { id: 'c', prompt: 'Compare how a liberal citizenship framework versus a communitarian framework would evaluate the following policy: "All citizens must perform one year of.', answer: 'Divergence 1',
                   options: ['Correct answer: Divergence 1', 'liberal citizenship = selfish individualism with no duties', '"liberal citizenship = selfish individualism with no duties'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "liberal citizenship = selfish individualism with no duties." They confuse *rights-based* (the state must justify.' }
@@ -148,7 +148,7 @@ export const w_c11_politicalsciencecitizenshipsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think "liberal citizenship = selfish individualism with no duties." They confuse *rights-based* (the.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The liberal view of citizenship, by focusing exclusively on individual rights, cannot adequately address historical group-based injustices.', answer: 'Correct answer: The claim is partially valid but incomplete',
+                { id: 'a', prompt: 'Evaluate the claim: "The liberal view of citizenship, by focusing exclusively on individual rights, cannot adequately address historical group-based injustices.', answer: 'The claim is partially valid but incomplete',
                   options: ['Correct answer: The claim is partially valid but incomplete', 'liberalism opposes all reservations', 'liberal citizenship = selfish individualism with no duties', '"liberal citizenship = selfish individualism with no duties'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "liberal citizenship = selfish individualism with no duties." They confuse *rights-based* (the state must justify.' }

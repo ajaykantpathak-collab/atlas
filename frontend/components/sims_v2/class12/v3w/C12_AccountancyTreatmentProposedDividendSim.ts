@@ -187,11 +187,11 @@ export const w_c12_accountancytreatmentproposeddividendsim: SimDef = {
           hint: 'If stuck on ledger account reconstruction, revisit **c11_acc_cbse_03_010** (Posting from.',
           misconception: 'Students often believe that "investing activities" include *any* purchase of assets, including inventory or short-term.',
           parts: [
-                { id: 'a', prompt: 'According to AS-3, which of the following is classified as a cash outflow from investing activities for a non-financial enterprise?', answer: 'Correct answer: B) Purchase of machinery for production',
+                { id: 'a', prompt: 'According to AS-3, which of the following is classified as a cash outflow from investing activities for a non-financial enterprise?', answer: 'B) Purchase of machinery for production',
                   options: ['Correct answer: B) Purchase of machinery for production', 'investing activities', 'asset purchase'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that "investing activities" include *any* purchase of assets, including inventory or short-term investments.' },
-                { id: 'b', prompt: 'From the following data, calculate the cash paid for purchase of machinery during the year: - Machinery (at cost) on 1.4.2022: ₹10,00,000 - Machinery (at cost).', answer: 'Correct answer: ₹6,00,000',
+                { id: 'b', prompt: 'From the following data, calculate the cash paid for purchase of machinery during the year: - Machinery (at cost) on 1.4.2022: ₹10,00,000 - Machinery (at cost).', answer: '₹6,00,000',
                   options: ['Correct answer: ₹6,00,000', 'investing activities', 'asset purchase'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that "investing activities" include *any* purchase of assets, including inventory or short-term investments.' }

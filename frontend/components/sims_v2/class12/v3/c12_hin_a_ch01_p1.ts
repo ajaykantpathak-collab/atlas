@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch01_p1: SimDef = {
     id: 'v3_c12_hin_a_ch01_p1',
-    title: 'lw;Zdkar f=kikBh ^fujkyk · Part 1/3',
+    title: 'देवसेना का गीत, कार्नेलयिा का गीत · Part 1/3',
     subtitle: 'Same god, different century — context is the lens',
-    classLevel: 12, subject: 'hin_a', topic: 'lw;Zdkar f=kikBh ^fujkyk · Part 1/3',
+    classLevel: 12, subject: 'hin_a', topic: 'देवसेना का गीत, कार्नेलयिा का गीत · Part 1/3',
     chapters: ['c12_hin_a_ch01'],
     nodeIds: ['c12_hin_a_cbse_01_001', 'c12_hin_a_cbse_01_002', 'c12_hin_a_cbse_01_003', 'c12_hin_a_cbse_01_004', 'c12_hin_a_cbse_01_005', 'c12_hin_a_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,42 +19,17 @@ export const c12_hin_a_ch01_p1: SimDef = {
         hook: '\'Before You Read\' isn\'t optional décor — without it, Tulsidas\'s Rama reads as just mythology instead of a personal god open to every caste. Three questions unlock any poem: whose life, which movement, what tongue.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" refers to the preparatory step of understanding the author\'s life, historical period, social milieu, literary movement, and key themes before engaging with.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'देवसेना का गीत, कार्नेलयिा का गीत — कवि परिचय और पृष्ठभूमि', text: 'कवि परिचय और पृष्ठभूमि का अर्थ है — रचनाकार (कवि) का संक्षिप्त जीवन-परिचय, उनकी साहित्यिक यात्रा, प्रमुख रचनाएँ, रचनाधर्मिता की विशेषताएँ, तथा उस विशिष्ट ऐतिहासिक-सांस्कृतिक पृष्ठभूमि का विवेचन जिससे.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_01_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Build the lens before the poem: reconstruct Tulsidas\'s Bhakti world — Mughal era, Awadhi, devotion for all — and test how context changes what a single word can mean.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a historical movie without knowing the era, the key figures, or the events depicted. You would miss crucial nuances.',
-            decisions: [{ prompt: 'What is the primary purpose of the "Before You Read" section in a literature textbook?', options: [
-                { text: 'The primary purpose is to provide the reader with essential background information about', outcome: 'The primary purpose is to provide the reader with essential background information about the.' },
-                { text: 'to summarize the story', outcome: 'Not quite — Students often treat "Before You Read" as a passive reading of the author\'s birth/death dates and.', reveals: 'students-often-treat-before-you' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_01_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are listening to a friend describe a vivid dream — they don’t tell it chronologically but in fragments of feeling and image.',
-            decisions: [{ prompt: 'What is the primary difference between a narrative poem with a conventional plot (like a ballad) and the lyrical narrative structure found.', options: [
-                { text: 'A conventional narrative poem follows a sequence of external events (exposition, rising', outcome: 'A conventional narrative poem follows a sequence of external events (exposition, rising action.' },
-                { text: 'both have a beginning, middle, and end', outcome: 'Not quite — Students often think “plot” only means “what happens next” in a story.', reveals: 'plot-only-means-what-happens' },
-                { text: 'what happens next', outcome: 'Not quite — Students often think “plot” only means “what happens next” in a story.', reveals: 'plot-only-means-what-happens' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_01_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re standing in a parched village field during a brutal drought — the cracked earth, the silent huts, the desperate eyes.',
-            decisions: [{ prompt: 'In the excerpt "nsolsuk dk xhr" from *LoaQnxqIr*, which specific physical details establish the setting as a village suffering from severe.', options: [
-                { text: 'Correct details include: (1) "gw.kksa osQ vkØe.k ls vk;kZorZ ladV esa gSA" (village', outcome: 'Correct details include: (1) "gw.kksa osQ vkØe.k ls vk;kZorZ ladV esa gSA" (village isolated due.' },
-                { text: 'village', outcome: 'Not quite — Students treat "setting" and "atmosphere" as synonyms or sequential (first setting, then.', reveals: 'students-treat-setting-and-atmosphere' },
-                { text: 'drought', outcome: 'Not quite — Students treat "setting" and "atmosphere" as synonyms or sequential (first setting, then.', reveals: 'students-treat-setting-and-atmosphere' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_01_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are reading a poem where the speaker pours out their heart about lost love or love for the motherland.',
-            decisions: [{ prompt: 'What is the primary difference between analyzing a protagonist in a short story versus analyzing the poetic speaker in a lyric poem?', options: [
-                { text: 'In a short story, the protagonist is a constructed character with external actions,', outcome: 'In a short story, the protagonist is a constructed character with external actions, dialogue, and.' },
-                { text: 'actions', outcome: 'Not quite — Students often treat the poetic speaker as the poet themselves (Tulsidas, 1889–1937) and write.', reveals: 'students-often-treat-the-poetic' },
-                { text: 'utterances', outcome: 'Not quite — Students often treat the poetic speaker as the poet themselves (Tulsidas, 1889–1937) and write.', reveals: 'students-often-treat-the-poetic' }
-            ] }] } },
+        labels: ['देवसेना का गीत, कार्नेलयिा'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'build', nodeId: 'c12_hin_a_cbse_01_004', title: 'Put the steps in order',
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['अनुभाव (बाह्य अभिव्यक्ति) पहचानें — \'तलवार चलाना\', \'खड़ा.', 'विभाव (आलम्बन/उद्दीपन) ढूँढें — आलम्बन: **वीर श्रोता/पाठक**.', 'स्थायी भाव पहचानें — यहाँ **उत्साह** (वीर रस का स्थायी भाव).', 'संचारी भाव पहचानें — \'संकल्प\' (धृति), \'नया इतिहास लिखने\' की.', 'रस-निष्पत्ति का निष्कर्ष — विभाव+अनुभाव+संचारी के संयोग से.'], answer: 'स्थायी भाव पहचानें — यहाँ **उत्साह** (वीर रस का स्थायी भाव). विभाव (आलम्बन/उद्दीपन) ढूँढें — आलम्बन: **वीर श्रोता/पाठक**. अनुभाव (बाह्य अभिव्यक्ति) पहचानें — \'तलवार चलाना\', \'खड़ा. संचारी भाव पहचानें — \'संकल्प\' (धृति), \'नया इतिहास लिखने\' की. रस-निष्पत्ति का निष्कर्ष — विभाव+अनुभाव+संचारी के संयोग से.' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_01_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your batch wants a song for the annual day honouring the school\'s retiring matron. The lyricist drafts a literal timeline — joined in this year, served in that year — and it reads like a résumé set to music.',
             decisions: [{ prompt: 'How does Nirala\'s structuring of \'देवसेना का गीत\' and \'कानेसरिया का गीत\' suggest fixing it?', options: [
@@ -64,96 +39,81 @@ export const c12_hin_a_ch01_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_01_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now approach any Hindi text with the reader\'s toolkit — biography, movement and milieu as the keys that turn \'old verse\' into argument.',
-            decisions: [{ prompt: 'What comes next? lw;Zdkar f=kikBh ^fujkyk · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — lw;Zdkar f=kikBh ^fujkyk · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? देवसेना का गीत, कार्नेलयिा का गीत · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — देवसेना का गीत, कार्नेलयिा का गीत · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" refers to the preparatory step.',
-          hint: 'If stuck, review the "Before You Read" section of any Class 11 Aroh chapter (e.g.',
-          misconception: 'Students often treat "Before You Read" as a passive reading of the author\'s birth/death dates and a list of works.',
+          question: 'कवि परिचय और पृष्ठभूमि का अर्थ है — रचनाकार (कवि) का संक्षिप्त जीवन-परिचय, उनकी.',
+          hint: 'अगर अटके तो c11_hin_a_cbse_13_001 और c11_hin_a_cbse_15_001 के \'कवि परिचय\' खंड दोहराएँ.',
+          misconception: 'छात्र समझते हैं कि \'कवि परिचय\' का अर्थ केवल जन्म-मृत्यु तिथि, प्रसिद्ध रचनाओं की सूची और साहित्यिक धारा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" refers to the preparatory step of understanding',
-                  options: ['"Before You Read: Context and Background" refers to the preparatory step of understanding', 'Plot and Narrative Structure in poetry refers to the organized sequence of emotions,', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist in poetry involves examining the speaker\'s'],
-                  hint: 'If stuck, review the "Before You Read" section of any Class 11 Aroh chapter (e.g.',
-                  misconception: 'Students often treat "Before You Read" as a passive reading of the author\'s birth/death dates and a list of works, memorizing them for.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवि परिचय और पृष्ठभूमि का अर्थ है',
+                  options: ['कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित', 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता'],
+                  hint: 'अगर अटके तो c11_hin_a_cbse_13_001 और c11_hin_a_cbse_15_001 के \'कवि परिचय\' खंड दोहराएँ — वहाँ.',
+                  misconception: 'छात्र समझते हैं कि \'कवि परिचय\' का अर्थ केवल जन्म-मृत्यु तिथि, प्रसिद्ध रचनाओं की सूची और साहित्यिक धारा (छायावाद/द्विवेदी युग) लिख देना है।.' }
           ],
-            remediations: { 'students-often-treat-before-you': { steps: ['If a student cannot connect context to text, guide them through a three-step exercise: (1) Pick one fact from the.', '(2) Find one line in the poem that shows Sanskrit influence (e.g., a tatsama word or complex compound).', '(3) Write one sentence explaining the link.', 'Repeat with two more facts.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: दोनों कवियों की समय-रेखा (timeline) बनाइए — प्रमुख जीवन-घटनाएँ एक कॉलम में, प्रमुख रचनाएँ दूसरे में, ऐतिहासिक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in poetry refers to the organized sequence.',
-          hint: 'Review Class 11 Antra Chapter 1 poem analysis (c11_hin_ar_cbse_01_002) — specifically the.',
-          misconception: 'Students often think “plot” only means “what happens next” in a story.',
+          question: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ.',
+          hint: 'यदि अटके तो **कक्षा 11 के नोड c11_hin_a_cbse_13_002 (जाग तुझको दूर जाना — पद्यांश-वार.',
+          misconception: '**विशिष्ट भ्रम:** छात्र "पद्यांश-वार भावार्थ" को **"पूरी कविता का सारांश"** समझते हैं और परीक्षा में 5-6 पद्यांशों को.',
           parts: [
-                { id: 'a', prompt: 'Apply the concept of ‘emotional plot points’ to the first stanza of "dkusZfy;k dk xhr".', answer: 'Beat 1: Pride and ownership (“vjQ.k ;g eèkqe; ns\'k gekjk!”)',
-                  options: ['Beat 1: Pride and ownership (“vjQ.k ;g eèkqe; ns\'k gekjk!”)', 'what happens next', '“plot” only means “what happens next” in a story'],
-                  hint: 'Review Class 11 Antra Chapter 1 poem analysis (c11_hin_ar_cbse_01_002) — specifically the worked.',
-                  misconception: 'Students often think “plot” only means “what happens next” in a story.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट',
+                  options: ['पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित', 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता'],
+                  hint: 'यदि अटके तो **कक्षा 11 के नोड c11_hin_a_cbse_13_002 (जाग तुझको दूर जाना — पद्यांश-वार भावार्थ)** पर.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र "पद्यांश-वार भावार्थ" को **"पूरी कविता का सारांश"** समझते हैं और परीक्षा में 5-6 पद्यांशों को मिलाकर एक लंबा पैरा.' }
           ],
-            remediations: { 'plot-only-means-what-happens': { steps: ['Have the student reread "nsolsuk dk xhr" and highlight every line where the speaker uses “I” (eSaus, esjh, eq>ls).', 'Ask them to label the emotion in each highlighted line (grief, pride, anger, resolve, plea).', 'Draw arrows between the labels to visualize the emotional sequence.', 'Repeat for "dkusZfy;k dk xhr" using “we/our” (gekjk, esjs, losjs) to trace the collective voice.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often think “plot” only means “what happens next” in a story.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this claim: “The narrative structure of these poems is weak because they lack clear events.” Defend or refute using evidence from both poems.', answer: 'Refute',
-                  options: ['Refute', 'what happens next', '“plot” only means “what happens next” in a story'],
-                  hint: 'Review Class 11 Antra Chapter 1 poem analysis (c11_hin_ar_cbse_01_002) — specifically the worked.',
-                  misconception: 'Students often think “plot” only means “what happens next” in a story.' }
-          ],
-            remediations: { 'plot-only-means-what-happens': { steps: ['Have the student reread "nsolsuk dk xhr" and highlight every line where the speaker uses “I” (eSaus, esjh, eq>ls).', 'Ask them to label the emotion in each highlighted line (grief, pride, anger, resolve, plea).', 'Draw arrows between the labels to visualize the emotional sequence.', 'Repeat for "dkusZfy;k dk xhr" using “we/our” (gekjk, esjs, losjs) to trace the collective voice.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { '5-6-cbse-2-4': { steps: ['**चरण 1:** छात्र को एक **एकल पद्यांश** (दोनों गीतों में से कोई एक) दें और कहें: "केवल इस पद्यांश के 3 वाक्यों में.', '**चरण 2:** उसके उत्तर में **कठिन शब्द, बिंब, अलंकार, केंद्रीय भाव से संबंध** — इन 4 तत्वों को अलग-अलग रंग से रेखांकित.', '**चरण 3:** यदि कोई तत्व छूटा हो, तो उसी पद्यांश पर दोबारा लिखने को कहें — इस बार **चेकलिस्ट** साथ रखकर। 4.', '**पुनः निदान:** अगले सप्ताह वही पद्यांश देकर समय-सीमा (5 मिनट) में लिखवाएँ — यदि 4/4 तत्व आए, तो अगले पद्यांश पर बढ़ें।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a narrative.',
-          hint: 'If stuck, revisit c11_hin_ar_cbse_01_003 "Text: Setting and Atmosphere" worked examples.',
-          misconception: 'Students treat "setting" and "atmosphere" as synonyms or sequential (first setting, then atmosphere).',
+          question: 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को.',
+          hint: 'यदि stanza पहचान में कठिनाई हो, तो c12_hin_a_cbse_01_002 (पद्यांश-वार भावार्थ) की दोबारा.',
+          misconception: 'छात्र अक्सर मानते हैं कि यदि दो कविताओं में同じ छंद है, तो उनका पद्य-विन्यास完全的に同じ है, जैसे देवसेना का गीत और कार्नेलयिा.',
           parts: [
-                { id: 'a', prompt: 'Apply the PEEL structure to write a 4-sentence answer analyzing how the line "eSaus Hkzeo\'k thou lafpr] eèkqdfj;ksa dh Hkh[k yqVkbZ" from "nsolsuk dk xhr" uses.', answer: 'PEEL response: Point',
-                  options: ['PEEL response: Point', 'It shows he is sad', 'paraphrases without the PEEL structure (e'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_01_003 "Text: Setting and Atmosphere" worked examples — practice.',
-                  misconception: 'Students treat "setting" and "atmosphere" as synonyms or sequential (first setting, then atmosphere).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित',
+                  options: ['काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता'],
+                  hint: 'यदि stanza पहचान में कठिनाई हो, तो c12_hin_a_cbse_01_002 (पद्यांश-वार भावार्थ) की दोबारा समीक्षा.',
+                  misconception: 'छात्र अक्सर मानते हैं कि यदि दो कविताओं में同じ छंद है, तो उनका पद्य-विन्यास完全的に同じ है, जैसे देवसेना का गीत और कार्नेलयिा का गीत में साम्यिका.' }
           ],
-            remediations: { 'students-treat-setting-and-atmosphere': { steps: ['If a student cannot integrate setting and atmosphere, assign this 3-step remediation: (1) Re-read.', '(2) Take the first excerpt ("nsolsuk dk xhr") and create a two-column table: Column A = every setting detail (quote).', '(3) Write three PEEL paragraphs using only this table.', 'Re-diagnose with Diagnostic Question 3 — if PEEL structure holds with textual evidence, the misconception is resolved.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दोनों गीतों की एक पंक्तियों में लय चिह्नित करने के लिए कहिए (उदाहरण: तालियों से beats गिनिए)। फिर stanza-wise.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in poetry involves examining the.',
-          hint: 'Review Class 11 node c11_hin_ar_cbse_01_004 (Character Analysis: Protagonist) for the.',
-          misconception: 'Students often treat the poetic speaker as the poet themselves (Tulsidas, 1889–1937) and write biographical details.',
+          question: 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित.',
+          hint: 'If stuck, revisit Class 11 node c11_hin_a_cbse_13_004 (जाग तुझको दूर जाना — केंद्रीय भाव.',
+          misconception: '**विशिष्ट भ्रम:** छात्र अक्सर समझते हैं कि "केंद्रीय भाव" और "प्रधान रस" एक ही चीज़ के दो नाम हैं — जैसे "देवसेना का.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist in poetry involves examining the speaker\'s',
-                  options: ['Character analysis of the protagonist in poetry involves examining the speaker\'s', '"Before You Read: Context and Background" refers to the preparatory step of understanding', 'Plot and Narrative Structure in poetry refers to the organized sequence of emotions,', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'Review Class 11 node c11_hin_ar_cbse_01_004 (Character Analysis: Protagonist) for the PEEL.',
-                  misconception: 'Students often treat the poetic speaker as the poet themselves (Tulsidas, 1889–1937) and write biographical details instead of analyzing.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता',
+                  options: ['केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                  hint: 'If stuck, revisit Class 11 node c11_hin_a_cbse_13_004 (जाग तुझको दूर जाना — केंद्रीय भाव और रस) and.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र अक्सर समझते हैं कि "केंद्रीय भाव" और "प्रधान रस" एक ही चीज़ के दो नाम हैं — जैसे "देवसेना का गीत = वीर रस" और.' }
           ],
-            remediations: { 'students-often-treat-the-poetic': { steps: ['If a student conflates poet and speaker, have them: (1) Re-read the biographical note and underline facts about the.', '(2) Re-read the poem and underline every "I/my/me" statement.', '(3) Make a two-column table: "Poet\'s Life" vs.', '(4) Identify three details in the poem that have no basis in the bio (e.g., the speaker in poem 2 says "I stand on the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दोनों कविताएँ **मौन वाचन** कराएँ, फिर **स्वर वाचन** — ध्वनि और लय पर ध्यान दें। 2.', 'पूछें: "कौन-सी पंक्ति पढ़कर तुम्हारी भुजाएँ फड़कीं?', '(वीर रस) कौन-सी पंक्ति पढ़कर आँखें नम हुईं?', '(करुण रस)" — इससे रस की **अनुभूति** पकड़ में आएगी। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_005', difficulty: 'standard',
-          question: 'Supporting character analysis examines how secondary figures in a narrative.',
-          hint: 'If confused, review c11_hin_ar_cbse_01_005 (Class 11 Antra Ch1 supporting characters).',
-          misconception: 'Students treat nsolsuk and dkusZfy;k as "examples of themes" rather than *characters with distinct consciousness*.',
+          question: 'छंद काव्य की वह निश्चित संरचना है जिसमें पदों के वर्णों या मात्राओं का क्रमबद्ध.',
+          hint: 'यदि अटके तो Class 11 के छंद नोड्स (c11_hin_a_cbse_13_005 आदि) के \'मात्रा-गणना अभ्यास\'.',
+          misconception: 'छात्र समझते हैं कि \'छंद पहचानना\' केवल पदों के नाम याद रखना है (जैसे \'यह दोहा है\', \'यह चौपाई है\')। वास्तव में.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why nsolsuk addresses her poem to "vk\'kk" (pain/suffering) as "ckoyh" (deceptive/betrayer) in the line "esjh vk\'kk vkg! ckoyh".', answer: 'nsolsuk calls suffering "ckoyh"',
-                  options: ['nsolsuk calls suffering "ckoyh"', 'as merely'],
-                  hint: 'If confused, review c11_hin_ar_cbse_01_005 (Class 11 Antra Ch1 supporting characters) — it models.',
-                  misconception: 'Students treat nsolsuk and dkusZfy;k as "examples of themes" rather than *characters with distinct consciousness*.' },
-                { id: 'b', prompt: 'Compare the central metaphor in nsolsuk\'s "nqcZy in cy ij gkjh gksM+ yxkbZ" with dkusZfy;k\'s "mM+rs [kx ftl vksj eq¡g fd,".', answer: 'nsolsuk\'s metaphor (thorns on a tender stem) conveys *vulnerability violated*',
-                  options: ['nsolsuk\'s metaphor (thorns on a tender stem) conveys *vulnerability violated*', 'nature imagery'],
-                  hint: 'If confused, review c11_hin_ar_cbse_01_005 (Class 11 Antra Ch1 supporting characters) — it models.',
-                  misconception: 'Students treat nsolsuk and dkusZfy;k as "examples of themes" rather than *characters with distinct consciousness*.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद काव्य की वह निश्चित संरचना है जिसमें पदों के वर्णों या मात्राओं का क्रमबद्ध विधान',
+                  options: ['छंद काव्य की वह निश्चित संरचना है जिसमें पदों के वर्णों या मात्राओं का क्रमबद्ध विधान', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                  hint: 'यदि अटके तो Class 11 के छंद नोड्स (c11_hin_a_cbse_13_005 आदि) के \'मात्रा-गणना अभ्यास\' दोहराएँ.',
+                  misconception: 'छात्र समझते हैं कि \'छंद पहचानना\' केवल पदों के नाम याद रखना है (जैसे \'यह दोहा है\', \'यह चौपाई है\')। वास्तव में बोर्ड/कुशलता परीक्षा में पूछा.' }
           ],
-            remediations: { 'students-treat-nsolsuk-and-dkuszfy': { steps: ['If a student writes thematic labels instead of character analysis: (1) Have them re-read nsolsuk\'s xhr and underline.', 'Ask: "Whose pain is this?" (2) Have them re-read dkusZfy;k\'s xhr and circle every collective pronoun ("gekjk".', 'Ask: "Whose vision is this?" (3) Assign a 3-sentence rewrite: "nsolsuk is not \'suffering.\' She is a young woman who.', 'dkusZfy;k is not \'patriotism.\' He is a learned elder who ______." (4) Re-diagnose using DIAGNOSTIC_QUESTION_4 — if they.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: Class 11 के छंद नोड (c11_hin_a_cbse_13_005, c11_hin_a_cbse_14_005, c11_hin_a_cbse_15_005, c11_hin_a_cbse_16_005).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_006', difficulty: 'standard',
-          question: 'The primary theme is the central, unifying idea or insight about human.',
-          hint: 'If stuck, re-read the "Before You Read" (node 001) and "Character Analysis" (nodes.',
-          misconception: '**Misconception:** "The theme of a poem is the moral lesson at the end, like \'child marriage is bad\' or \'love your.',
+          question: 'अलंकार (Figure of Speech) काव्य-भाषा की वह विशेष रचनात्मक युक्ति है जिसमें.',
+          hint: 'यदि अलंकार पहचानने में अटकें: **c11_hin_a_cbse_13_006** (जाग तुझको दूर जाना — अलंकार).',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **अलंकार पहचानना = नाम बता देना** (यह अनुप्रास है, यह रूपक है)। वे **उद्धरण.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme is the central, unifying idea or insight about human experience that a',
-                  options: ['The primary theme is the central, unifying idea or insight about human experience that a', '"Before You Read: Context and Background" refers to the preparatory step of understanding', 'Plot and Narrative Structure in poetry refers to the organized sequence of emotions,', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, re-read the "Before You Read" (node 001) and "Character Analysis" (nodes 004–005).',
-                  misconception: '**Misconception:** "The theme of a poem is the moral lesson at the end, like \'child marriage is bad\' or \'love your country\'." **Why it\'s.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार (Figure of Speech) काव्य-भाषा की वह विशेष रचनात्मक युक्ति है जिसमें शब्दों के',
+                  options: ['अलंकार (Figure of Speech) काव्य-भाषा की वह विशेष रचनात्मक युक्ति है जिसमें शब्दों के', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                  hint: 'यदि अलंकार पहचानने में अटकें: **c11_hin_a_cbse_13_006** (जाग तुझको दूर जाना — अलंकार) दोबारा करें.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **अलंकार पहचानना = नाम बता देना** (यह अनुप्रास है, यह रूपक है)। वे **उद्धरण नहीं देते**.' }
           ],
-            remediations: { 'misconception-the-theme-of-a': { steps: ['**Revisit prerequisite:** Go to `c12_hin_a_cbse_01_004` (Character Analysis: Protagonist) and `c12_hin_a_cbse_01_005`.', '**Re-diagnostic:** Take Diagnostic Question 2 again, but this time write a full thematic statement using the template.', '**Scaffolded practice:** Use the PEEL worksheet (available in node 014) to analyze *one* image from each poem, forcing.', '**Peer check:** Exchange answers with a partner; each must identify whether the other\'s theme statement is a *topic*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**पुनः पढ़ें:** c12_hin_a_cbse_01_002 (पद्यांश-वार भावार्थ) — जिन पदों में अलंकार हैं, उनका **संदर्भ** समझें। 2.', '**तालिका बनाएं:** 4 कॉलम — **पद | अलंकार नाम | उद्धरण | भाव-प्रभाव**। दोनों कविताओं के 5-5 प्रमुख अलंकार भरें। 3.', '**मौखिक अभ्यास:** प्रत्येक पद के लिए बोलें: *"कवि ने [अलंकार] इसलिए प्रयुक्त किया क्योंकि वह [भाव] को [कैसे] दिखाना.', '**पुनः निदान:** DIAGNOSTIC_QUESTION_2 और _4 दोबारा हल करें — अब **कारण** और **संयुक्त प्रभाव** लिख पाने चाहिए।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

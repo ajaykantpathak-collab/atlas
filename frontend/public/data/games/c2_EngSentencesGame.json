@@ -1,0 +1,316 @@
+{
+  "gameFile": "EngSentencesGame",
+  "classLevel": 2,
+  "cisceNodes": [],
+  "mascot": "Penny the Penguin — a neat little penguin who lines up words like snowballs to build perfect sentences.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "What Is a Sentence? 💭",
+      "text": "A sentence is a group of words that tells a complete thought! 'The dog is big' is a sentence — we understand it fully!",
+      "emoji": "💭",
+      "bgColor": "from-sky-400 to-blue-500",
+      "spoken": "A sentence tells a complete thought, like 'The dog is big!'"
+    },
+    {
+      "title": "Start with a Capital 👆",
+      "text": "Every sentence starts with a CAPITAL letter. \"The cat runs.\" — see that big T at the start?",
+      "emoji": "👆",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Every sentence starts with a capital letter!"
+    },
+    {
+      "title": "End with a Mark 🔚",
+      "text": "Every sentence needs an ending mark! A full stop (.) for telling, a question mark (?) for asking, an exclamation mark (!) for wow!",
+      "emoji": "🔚",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Sentences end with a mark: a dot, a question mark or an exclamation!"
+    },
+    {
+      "title": "Words in Order 🧩",
+      "text": "Words must be in the right order: 'I like mangoes' makes sense. 'Mangoes like I' is silly! Order matters!",
+      "emoji": "🧩",
+      "bgColor": "from-rose-400 to-pink-500",
+      "spoken": "Words go in the right order: I like mangoes — not mangoes like I!"
+    },
+    {
+      "title": "Telling or Asking? 🤔",
+      "text": "A telling sentence tells us something: 'The sun is hot.' An asking sentence asks: 'Where is my ball?' Can you tell them apart?",
+      "emoji": "🤔",
+      "bgColor": "from-purple-400 to-fuchsia-500",
+      "spoken": "Telling sentences tell. Asking sentences ask. Can you tell them apart?"
+    }
+  ],
+  "challenges": [
+    {
+      "type": "sentence_start",
+      "question": "Every sentence starts with a ___",
+      "answer": "Capital letter",
+      "options": [
+        "Capital letter",
+        "Number",
+        "Smiley face"
+      ],
+      "hint": "Look at any book — what is the very first letter of a sentence?",
+      "misconception": "Every sentence starts with a CAPITAL letter!",
+      "easierVariant": {
+        "options": [
+          "Capital letter",
+          "Number"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sentence_end",
+      "question": "A telling sentence ends with a ___",
+      "answer": "Full stop (.)",
+      "options": [
+        "Full stop (.)",
+        "Star",
+        "Question mark (?)"
+      ],
+      "hint": "When we tell something and stop, what little mark ends the line?",
+      "misconception": "A telling sentence ends with a full stop (.) — like 'The sun is hot.'",
+      "easierVariant": {
+        "options": [
+          "Full stop (.)",
+          "Star"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sentence_correct",
+      "question": "Which sentence is written correctly?",
+      "answer": "The dog is big.",
+      "options": [
+        "the dog is big",
+        "The dog is big.",
+        "The dog is big"
+      ],
+      "hint": "It needs a capital at the start AND a full stop at the end!",
+      "misconception": "'The dog is big.' is correct: capital T at the start and a full stop at the end!",
+      "easierVariant": {
+        "options": [
+          "The dog is big.",
+          "the dog is big"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_word_order",
+      "question": "Drag the words to build the sentence: 'I like mangoes.'",
+      "answer": "sort",
+      "options": [],
+      "hint": "First comes I, then like, then mangoes!",
+      "misconception": "The sentence is 'I like mangoes.' — I first, like second, mangoes last!",
+      "sortItems": [
+        {
+          "id": "w-I",
+          "label": "I",
+          "icon": "🙋",
+          "emoji": "🙋",
+          "correctBin": "w1"
+        },
+        {
+          "id": "w-like",
+          "label": "like",
+          "icon": "💗",
+          "emoji": "💗",
+          "correctBin": "w2"
+        },
+        {
+          "id": "w-mangoes",
+          "label": "mangoes",
+          "icon": "🥭",
+          "emoji": "🥭",
+          "correctBin": "w3"
+        }
+      ],
+      "bins": [
+        {
+          "id": "w1",
+          "label": "1st word",
+          "color": "#EF4444"
+        },
+        {
+          "id": "w2",
+          "label": "2nd word",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "w3",
+          "label": "3rd word",
+          "color": "#3B82F6"
+        }
+      ],
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sentence_asking",
+      "question": "Which sentence asks something?",
+      "answer": "Where is my ball?",
+      "options": [
+        "Where is my ball?",
+        "My ball is red.",
+        "I have a ball."
+      ],
+      "hint": "One of these sentences wants an answer back!",
+      "misconception": "'Where is my ball?' asks something — it needs an answer!",
+      "easierVariant": {
+        "options": [
+          "Where is my ball?",
+          "My ball is red."
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sentence_qmark",
+      "question": "A sentence that asks something ends with a ___",
+      "answer": "Question mark (?)",
+      "options": [
+        "Question mark (?)",
+        "Full stop (.)",
+        "Comma (,)"
+      ],
+      "hint": "When we ask a question, which mark goes at the end?",
+      "misconception": "An asking sentence ends with a question mark (?) — 'Where is my ball?'",
+      "easierVariant": {
+        "options": [
+          "Question mark (?)",
+          "Full stop (.)"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sentence_complete",
+      "question": "Which one is a complete sentence?",
+      "answer": "The cat sleeps.",
+      "options": [
+        "The cat sleeps.",
+        "In the box.",
+        "Big and brown"
+      ],
+      "hint": "A complete sentence tells a whole thought: who and what they do!",
+      "misconception": "'The cat sleeps.' is complete — we know who (the cat) and what (sleeps). 'In the box' and 'big and brown' are only fragments!",
+      "easierVariant": {
+        "options": [
+          "The cat sleeps.",
+          "In the box."
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort_sentence",
+      "question": "Drag each one! Is it a real sentence or not?",
+      "answer": "sort",
+      "options": [],
+      "hint": "'The sun is hot.' and 'I love my school.' are full thoughts. 'Under the tree' and 'is jumping' are not!",
+      "misconception": "A sentence needs a complete thought. 'The sun is hot.' and 'I love my school.' are sentences; 'under the tree' and 'is jumping' are not!",
+      "sortItems": [
+        {
+          "id": "w-sun",
+          "label": "The sun is hot.",
+          "icon": "☀️",
+          "emoji": "☀️",
+          "correctBin": "yes"
+        },
+        {
+          "id": "w-school",
+          "label": "I love my school.",
+          "icon": "🏫",
+          "emoji": "🏫",
+          "correctBin": "yes"
+        },
+        {
+          "id": "w-under",
+          "label": "under the tree",
+          "icon": "🌳",
+          "emoji": "🌳",
+          "correctBin": "no"
+        },
+        {
+          "id": "w-jumping",
+          "label": "is jumping",
+          "icon": "🤸",
+          "emoji": "🤸",
+          "correctBin": "no"
+        }
+      ],
+      "bins": [
+        {
+          "id": "yes",
+          "label": "A Sentence",
+          "color": "#10B981"
+        },
+        {
+          "id": "no",
+          "label": "Not a Sentence",
+          "color": "#EF4444"
+        }
+      ],
+      "storyBeat": "resolution"
+    }
+  ],
+  "subject": "english",
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "An English explorer masters new words, one story at a time",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let us explore English together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A playful challenge appears that needs the new skill",
+        "mascotDialogue": "Here comes a challenge — can you work it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The tasks grow trickier as understanding deepens",
+        "mascotDialogue": "You are getting stronger! Try these!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest test of the new skill",
+        "mascotDialogue": "This is the big one! Show me what you learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "Mastery shown and celebrated",
+        "mascotDialogue": "Amazing! You have mastered this!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Sentence Bridge",
+    "totalPieces": 8
+  }
+}

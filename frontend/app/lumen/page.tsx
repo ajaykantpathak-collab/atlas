@@ -129,7 +129,7 @@ export default function LumenPage() {
       <nav className="dock-links" aria-label="Explore">
         <Link href="/atlas">atlas</Link>
         <span className="dl-sep" />
-        <Link href="/simulations">945 sims</Link>
+        <Link href="/simulations">3,919 sims</Link>
         <span className="dl-sep" />
         <Link href="/practice">practice</Link>
         <span className="dl-sep" />

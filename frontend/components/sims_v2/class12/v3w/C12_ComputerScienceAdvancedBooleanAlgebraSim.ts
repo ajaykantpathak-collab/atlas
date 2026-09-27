@@ -136,7 +136,7 @@ export const w_c12_computerscienceadvancedbooleanalgebrasim: SimDef = {
           hint: 'If stuck, go back to node c12_cs_cbse_07_004 (Truth Tables) and practice building truth.',
           misconception: 'Students often believe the distributive law in Boolean algebra works exactly like ordinary algebra: they write A(B + C).',
           parts: [
-                { id: 'a', prompt: 'State the commutative law for Boolean OR and Boolean AND using variables A and B.', answer: 'Correct answer: A + B = B + A (OR) and A · B = B · A (AND)',
+                { id: 'a', prompt: 'State the commutative law for Boolean OR and Boolean AND using variables A and B.', answer: 'A + B = B + A (OR) and A · B = B · A (AND)',
                   options: ['Correct answer: A + B = B + A (OR) and A · B = B · A (AND)', 'A + BC = (A+B)(A+C) is false'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe the distributive law in Boolean algebra works exactly like ordinary algebra: they write A(B + C) = AB + AC (correct).' },

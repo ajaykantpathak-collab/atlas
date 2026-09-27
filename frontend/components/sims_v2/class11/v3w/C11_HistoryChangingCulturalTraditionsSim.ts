@@ -16,7 +16,7 @@ export const w_c11_historychangingculturaltraditionssim: SimDef = {
     discovery: {
         question: 'Why did humanist educators like Vittorino da Feltre and Juan Luis Vives advocate Latin education for noble girls but explicitly forbid them from studying.',
         options: ['Correct answer: Humanists viewed female education as ornamental', 'women were considered intellectually inferior', 'liberated'],
-        answer: 'Correct answer: Humanists viewed female education as ornamental',
+        answer: 'Humanists viewed female education as ornamental',
         hook: 'Students believe the Renaissance "liberated" women because a few elite women (Isabella d\'Este, Laura Cereta, Cassandra.',
     },
     teaching: [
@@ -97,11 +97,11 @@ export const w_c11_historychangingculturaltraditionssim: SimDef = {
           hint: 'If stuck, revisit c11_hist_cbse_07_002 (Humanism) and identify every passage where the.',
           misconception: 'Students believe the Renaissance "liberated" women because a few elite women (Isabella d\'Este, Laura Cereta, Cassandra.',
           parts: [
-                { id: 'a', prompt: 'In which Italian city-state did the 1427 *catasto* (tax census) reveal that dowry amounts had risen so sharply that families with multiple daughters faced.', answer: 'Correct answer: Florence',
+                { id: 'a', prompt: 'In which Italian city-state did the 1427 *catasto* (tax census) reveal that dowry amounts had risen so sharply that families with multiple daughters faced.', answer: 'Florence',
                   options: ['Correct answer: Florence', 'liberated'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe the Renaissance "liberated" women because a few elite women (Isabella d\'Este, Laura Cereta, Cassandra Fedele) gained fame.' },
-                { id: 'b', prompt: 'Why did humanist educators like Vittorino da Feltre and Juan Luis Vives advocate Latin education for noble girls but explicitly forbid them from studying.', answer: 'Correct answer: Humanists viewed female education as ornamental',
+                { id: 'b', prompt: 'Why did humanist educators like Vittorino da Feltre and Juan Luis Vives advocate Latin education for noble girls but explicitly forbid them from studying.', answer: 'Humanists viewed female education as ornamental',
                   options: ['Correct answer: Humanists viewed female education as ornamental', 'women were considered intellectually inferior', 'liberated'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe the Renaissance "liberated" women because a few elite women (Isabella d\'Este, Laura Cereta, Cassandra Fedele) gained fame.' }
@@ -112,7 +112,7 @@ export const w_c11_historychangingculturaltraditionssim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe the Renaissance "liberated" women because a few elite women (Isabella d\'Este, Laura Cereta, Cassandra.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The *Querelle des Femmes* (c. 1400–1600) proves Renaissance intellectuals seriously debated women\'s equality." Use Christine de Pizan\'s.', answer: 'Correct answer: The claim overstates the debate\'s radicalism',
+                { id: 'a', prompt: 'Evaluate the claim: "The *Querelle des Femmes* (c. 1400–1600) proves Renaissance intellectuals seriously debated women\'s equality." Use Christine de Pizan\'s.', answer: 'The claim overstates the debate\'s radicalism',
                   options: ['Correct answer: The claim overstates the debate\'s radicalism', 'yes, it was early feminism', 'women are different but equal in dignity', 'liberated'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe the Renaissance "liberated" women because a few elite women (Isabella d\'Este, Laura Cereta, Cassandra Fedele) gained fame.' },

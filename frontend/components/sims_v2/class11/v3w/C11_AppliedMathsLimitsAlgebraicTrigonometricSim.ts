@@ -95,7 +95,7 @@ export const w_c11_appliedmathslimitsalgebraictrigonometricsim: SimDef = {
           hint: 'If stuck, revisit Class 10 factorisation of polynomials (c10_math_cbse_02_008,.',
           misconception: 'Students believe that if direct substitution gives 0/0, the limit is 0, or that the limit equals the function value at.',
           parts: [
-                { id: 'a', prompt: 'What is the value of lim_{x→3} (x² - 9)/(x - 3)? Choose the correct statement: (A) The limit is 0 because the numerator is 0 at x=3.', answer: 'Correct answer: (B) The limit is 6',
+                { id: 'a', prompt: 'What is the value of lim_{x→3} (x² - 9)/(x - 3)? Choose the correct statement: (A) The limit is 0 because the numerator is 0 at x=3.', answer: '(B) The limit is 6',
                   options: ['Correct answer: (B) The limit is 6', 'The limit doesn\'t exist'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that if direct substitution gives 0/0, the limit is 0, or that the limit equals the function value at the point.' },

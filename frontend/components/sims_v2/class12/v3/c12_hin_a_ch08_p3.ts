@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch08_p3: SimDef = {
     id: 'v3_c12_hin_a_ch08_p3',
-    title: 'iQ.kh\'ojukFk ^js.kq · Part 3/3',
+    title: 'वद्यिापति · Part 3/3',
     subtitle: 'A weaver taught God to speak the market\'s language',
-    classLevel: 12, subject: 'hin_a', topic: 'iQ.kh\'ojukFk ^js.kq · Part 3/3',
+    classLevel: 12, subject: 'hin_a', topic: 'वद्यिापति · Part 3/3',
     chapters: ['c12_hin_a_ch08'],
     nodeIds: ['c12_hin_a_cbse_08_013', 'c12_hin_a_cbse_08_014', 'c12_hin_a_cbse_08_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,29 +19,15 @@ export const c12_hin_a_ch08_p3: SimDef = {
         hook: 'Don\'t confuse simple words with simple thought — his loom, his market, his courtyard are dense metaphysics in a worker\'s vocabulary. Life is cloth on the loom of time; see the weaving before it\'s finished. The weaver\'s craft is the epistemology.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis refers to the disciplined process of examining a text beyond its surface meaning — identifying underlying themes, evaluating the effectiveness of literary.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'वद्यिापति — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें कोई पद्यांश या गद्यांश पढ़कर उसके शब्दशः अर्थ के साथ-साथ अंतर्निहित भाव, संदेश, लेखक के दृष्टिकोण और पाठ के व्यापक संदर्भ को समझकर स्पष्ट रूप से व्यक्त किया जाता.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_08_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Sit at Kabir\'s loom: trace how a julaha\'s tools became metaphysical vocabulary, weigh Nirgun devotion against both orthodoxies, and hear a marketplace tongue carry the sublime.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_08_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 5-mark question: "Explain the pain of separation in Phir Koi Khushboo\'s second poem." You recall the poem but your.',
-            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', options: [
-                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
-                { text: 'Paragraph, Example, Explanation, Language', outcome: 'Not quite — Students believe "writing skills" means using flowery vocabulary and long sentences.', reveals: 'writing-skills-means-using-flowery' },
-                { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means using flowery vocabulary and long sentences.', reveals: 'writing-skills-means-using-flowery' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_08_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a classroom circle and the teacher says, "Let’s discuss why Phoolchand compares the rain clouds to a restless traveler in the second poem.".',
-            decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a literature speaking‑listening activity?', options: [
-                { text: 'A discussion point is a focused, evidence‑based observation or question about the text', outcome: 'A discussion point is a focused, evidence‑based observation or question about the text that invites.' },
-                { text: 'It is a summary of the poem', outcome: 'Not quite — Students believe a discussion point is just "saying what you feel about the poem." They therefore.', reveals: 'a-discussion-point-is-just' },
-                { text: 'saying what you feel about the poem', outcome: 'Not quite — Students believe a discussion point is just "saying what you feel about the poem." They therefore.', reveals: 'a-discussion-point-is-just' }
-            ] }] } },
+        labels: ['वद्यिापति — आशय-स्पष्टीकरण और', 'वद्यिापति — परीक्षा-उत्तर लेखन', 'वद्यिापति — वाचन-पाठ और'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_08_013', title: 'Use it in the wild',
           caseStudy: { intro: 'A friend\'s mother has been sinking into helpless waiting since her husband\'s posting abroad — she watches the gate all day and does nothing else. In the chapter\'s three-stanza poem, the separated woman ends by turning to the lamp and commanding it to stay lit so he can find his way home.',
             decisions: [{ prompt: 'What does that final stanza suggest your friend could offer her?', options: [
@@ -56,66 +42,43 @@ export const c12_hin_a_ch08_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis refers to the disciplined process.',
-          hint: 'If stuck, review **node 012 (Comprehension)** for poem-level understanding and **nodes.',
-          misconception: 'Students treat critical analysis as **line-by-line translation** or **summary**.',
+          question: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें कोई पद्यांश या गद्यांश पढ़कर उसके शब्दशः.',
+          hint: 'यदि छात्र कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_08_002 (पद्यांश-वार भावार्थ) और.',
+          misconception: 'छात्र अक्सर आशय-स्पष्टीकरण को शब्दशः अनुवाद या पाठ का सारांश मान लेते हैं, जैसे कि "कवि ने कहा कि नदी बह रही है" को.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis refers to the disciplined process of examining a',
-                  options: ['Critical thinking in literary analysis refers to the disciplined process of examining a', 'Context and Background refers to the historical, social, cultural, and biographical', 'Plot and Narrative Structure in poetry refers to the organization of events, emotions,', 'Setting and Atmosphere in literature refers to the time, place, season, and social'],
-                  hint: 'If stuck, review **node 012 (Comprehension)** for poem-level understanding and **nodes 008/009.',
-                  misconception: 'Students treat critical analysis as **line-by-line translation** or **summary**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें कोई पद्यांश या गद्यांश पढ़कर उसके शब्दशः अर्थ के',
+                  options: ['आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें कोई पद्यांश या गद्यांश पढ़कर उसके शब्दशः अर्थ के', 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण'],
+                  hint: 'यदि छात्र कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_08_002 (पद्यांश-वार भावार्थ) और.',
+                  misconception: 'छात्र अक्सर आशय-स्पष्टीकरण को शब्दशः अनुवाद या पाठ का सारांश मान लेते हैं, जैसे कि "कवि ने कहा कि नदी बह रही है" को पर्याप्त उत्तर मान लेते.' }
           ],
-            remediations: { 'students-treat-critical-analysis-as': { steps: ['**Revisit node 012 (Comprehension):** Re-read each poem with the *word-meaning list* (node 010) open.', 'Write literal translation of **every line** in your notebook.', '**Revisit nodes 008 & 009 (Literary Devices):** For each poem, make a 3-column table: *Device | Line/Word | Effect*.', 'Example: *Metaphor | "eèkqj cksy" (dark clouds) | Represents worldly illusions that block divine vision.* 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को एक सरल वाक्य दें: "वह रो रहा था।" पहले पूछें: "इसका शब्दशः अर्थ क्या है?" फिर पूछें: "इससे क्या भाव प्रकट हो.', 'इस स्थिति में कौन सी मानवीय दशा दिख सकती है?" इस प्रकार शब्दशः अर्थ से भाव और संदर्भ की ओर ले जाकर, उन्हें दिखाएँ कि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Phir Koi Khushboo" refer to the ability.',
-          hint: 'If stuck on Evidence step, return to Comprehension node (c12_hin_a_cbse_08_012) and re-do.',
-          misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.',
+          question: 'परीक्षा-उत्तर लेखन कौशल वह प्रक्रिया है जिसमें छात्र प्रश्न की मांग को समझते.',
+          hint: 'यदि छात्र उत्तर में विश्लेषण नहीं जोड़ पा रहा है, तो उसे c12_hin_a_cbse_08_004 (केंद्रीय.',
+          misconception: 'छात्र अक्सर मानते हैं कि परीक्षा में लंबा उत्तर लिखने से अधिक अंक मिलते हैं, इसलिए वे कविता की extraneous पंक्तियों को.',
           parts: [
-                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
-                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explanation, Language', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
-                  hint: 'If stuck on Evidence step, return to Comprehension node (c12_hin_a_cbse_08_012) and re-do the.',
-                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' },
-                { id: 'b', prompt: 'A student writes: "In the first poem, the gopis are very sad because Krishna left.', answer: 'Weakness 1: No textual evidence',
-                  options: ['Weakness 1: No textual evidence', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
-                  hint: 'If stuck on Evidence step, return to Comprehension node (c12_hin_a_cbse_08_012) and re-do the.',
-                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' },
-                { id: 'c', prompt: 'Compare the effectiveness of two sample opening sentences for a critical appreciation of the second poem: (A) "This poem is about the gopis missing Krishna.".', answer: '(B) is stronger',
-                  options: ['(B) is stronger', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
-                  hint: 'If stuck on Evidence step, return to Comprehension node (c12_hin_a_cbse_08_012) and re-do the.',
-                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल वह प्रक्रिया है जिसमें छात्र प्रश्न की मांग को समझते हैं, पाठ्य',
+                  options: ['परीक्षा-उत्तर लेखन कौशल वह प्रक्रिया है जिसमें छात्र प्रश्न की मांग को समझते हैं, पाठ्य', 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण'],
+                  hint: 'यदि छात्र उत्तर में विश्लेषण नहीं जोड़ पा रहा है, तो उसे c12_hin_a_cbse_08_004 (केंद्रीय भाव और रस).',
+                  misconception: 'छात्र अक्सर मानते हैं कि परीक्षा में लंबा उत्तर लिखने से अधिक अंक मिलते हैं, इसलिए वे कविता की extraneous पंक्तियों को भर देते हैं या.' }
           ],
-            remediations: { 'writing-skills-means-using-flowery': { steps: ['Have the student pick one 3-mark question from the chapter\'s exercise.', 'Ask them to highlight every adjective in their draft — if >30% of words are adjectives, they are describing, not.', 'Force-replace each adjective cluster with a PEEL cycle: delete the adjectives, insert a quoted phrase, name the device.', 'Re-mark using the CBSE 3-mark rubric (1 mark point, 1 mark evidence, 1 mark explanation).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_014', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this claim: "In Phir Koi Khushboo\'s poems, the Braj/Awadhi dialect is merely a decorative choice; the same themes could be expressed in standard Hindi.', answer: 'Refute',
-                  options: ['Refute', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
-                  hint: 'If stuck on Evidence step, return to Comprehension node (c12_hin_a_cbse_08_012) and re-do the.',
-                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' },
-                { id: 'b', prompt: 'Create a 4-sentence PEEL paragraph answering: "Explain the significance of the \'unlit lamp\' image in the first poem." Invent a plausible textual detail.', answer: 'Point: The unlit lamp symbolises the gopis\' extinguished hope of union',
-                  options: ['Point: The unlit lamp symbolises the gopis\' extinguished hope of union', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
-                  hint: 'If stuck on Evidence step, return to Comprehension node (c12_hin_a_cbse_08_012) and re-do the.',
-                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' }
-          ],
-            remediations: { 'writing-skills-means-using-flowery': { steps: ['Have the student pick one 3-mark question from the chapter\'s exercise.', 'Ask them to highlight every adjective in their draft — if >30% of words are adjectives, they are describing, not.', 'Force-replace each adjective cluster with a PEEL cycle: delete the adjectives, insert a quoted phrase, name the device.', 'Re-mark using the CBSE 3-mark rubric (1 mark point, 1 mark evidence, 1 mark explanation).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाएँ कि एक लंबा लेकिन असंबंधित उत्तर और एक छोटा लेकिन PEEL-आधारित उत्तर में क्या अंतर है। पहले, एक सामान्य.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck, review c12_hin_a_cbse_08_012 (Comprehension) for evidence‑location drills and.',
-          misconception: 'Students believe a discussion point is just "saying what you feel about the poem." They therefore offer vague.',
+          question: 'वाचन-पाठ का अर्थ है कविता की पंक्तियों को उचित लय, ताल, विराम और भाव-भंगिमा के.',
+          hint: 'यदि छात्र वाचन में जोर और ताल पहचानने में फंस जाए, तो वे c12_hin_a_cbse_08_003 (छंद और.',
+          misconception: 'छात्र अक्सर सोचते हैं कि वाचन में केवल तेज़ या धीमी गति से पढ़ना महत्वपूर्ण है, जबकि वे लय (ताल), शब्द-जोर (बल), और.',
           parts: [
-                { id: 'a', prompt: 'You are preparing a discussion point on the third poem. The line "त्यौं त्यौं निस दिन देखत रहत" appears.', answer: 'Step 1: Translate/understand the line',
-                  options: ['Step 1: Translate/understand the line', 'saying what you feel about the poem', 'a discussion point is just "saying what you feel about the poem'],
-                  hint: 'If stuck, review c12_hin_a_cbse_08_012 (Comprehension) for evidence‑location drills and.',
-                  misconception: 'Students believe a discussion point is just "saying what you feel about the poem." They therefore offer vague likes/dislikes or plot.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ का अर्थ है कविता की पंक्तियों को उचित लय, ताल, विराम और भाव-भंगिमा के साथ पढ़ना,',
+                  options: ['वाचन-पाठ का अर्थ है कविता की पंक्तियों को उचित लय, ताल, विराम और भाव-भंगिमा के साथ पढ़ना,', 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण'],
+                  hint: 'यदि छात्र वाचन में जोर और ताल पहचानने में फंस जाए, तो वे c12_hin_a_cbse_08_003 (छंद और लय-विधान).',
+                  misconception: 'छात्र अक्सर सोचते हैं कि वाचन में केवल तेज़ या धीमी गति से पढ़ना महत्वपूर्ण है, जबकि वे लय (ताल), शब्द-जोर (बल), और विराम-sthan की अनदेखी.' }
           ],
-            remediations: { 'a-discussion-point-is-just': { steps: ['Revisit c12_hin_a_cbse_08_012 (Comprehension) to practise locating exact lines for a given theme.', 'Use c12_hin_a_cbse_08_013 (Critical Thinking) to convert each located line into an analytical statement using the.', 'Pair up and do a 5‑minute micro‑discussion on one poem, each turn must quote a line.', 'Record the discussion and self‑assess: Did I cite evidence?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को पहले कविता की एक पंक्ति (जैसे "मैं तो होइ महालिया") को तीन बार पढ़वाइए: पहली बार सामान्य गति से, दूसरी बार.', 'इससे उन्हें समझ आएगा कि जोर और लय, मात्र गति से अधिक महत्वपूर्ण हैं। फिर विराम का अभ्यास करवाइए — पंक्ति के बाद एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

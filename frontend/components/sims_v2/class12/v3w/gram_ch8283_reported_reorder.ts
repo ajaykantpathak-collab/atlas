@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c12_gram_ch82+83 The Archive & The Chain (reported adv. + reordering).
  * Nodes: c12_gram_cbse_82_001, 83_001. */
 export const c12_gram_ch8283: SimDef = {
-    id: 'v3_c12_gram_ch8283',
+    id: 'v3w_c12_gram_ch8283',
     title: 'The Archive & The Chain',
     subtitle: 'Exclamations flatten, embedded questions keep statement order — and paragraphs reassemble through reference-chains, not vibes',
     classLevel: 12, subject: 'english-grammar', topic: 'Advanced reported speech and sentence reordering',

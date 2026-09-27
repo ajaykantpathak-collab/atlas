@@ -8,6 +8,7 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useMemo, useState } from 'react'
+import ReactMarkdown from 'react-markdown'
 import { useAuthStore } from '@/stores/authStore'
 
 interface ContentItem {
@@ -34,10 +35,41 @@ type ToolId =
   | 'real_world_applications'
   | 'worked_examples'
 
+
+/* Corpus rows ship raw markdown with parser headers (SUBJECT:/CHAPTER:/
+   Target subject:/Target class:) that must not reach the student. */
+function cleanCorpus(raw: string): string {
+  return (raw || '')
+    .split('\n')
+    .filter((line) => {
+      const t = line.trim()
+      return !/^(TARGET|SUBJECT|CHAPTER|CLASS|BOARD|SOURCE|NODE_ID)\s*:/i.test(t)
+    })
+    .join('\n')
+    .replace(/```[\s\S]*?```/g, (m) => m.replace(/```\w*/g, '').replace(/```/g, ''))
+    .trim()
+}
+
+function CorpusText({ raw, className }: { raw: string; className?: string }) {
+  return (
+    <div className={className}>
+      <ReactMarkdown
+        components={{
+          h1: (p) => <p className="font-bold text-white" {...p} />,
+          h2: (p) => <p className="font-bold text-white" {...p} />,
+          h3: (p) => <p className="font-semibold text-white/90" {...p} />,
+          code: (p) => <code className="rounded bg-white/10 px-1 text-xs" {...p} />,
+        }}
+      >
+        {cleanCorpus(raw)}
+      </ReactMarkdown>
+    </div>
+  )
+}
+
 interface ToolMeta {
   id: ToolId
   name: string
-  count: number
   description: string
   icon: typeof Layers
   accent: string
@@ -47,7 +79,6 @@ const TOOLS: ToolMeta[] = [
   {
     id: 'quick_revision_cards',
     name: 'Flashcards',
-    count: 52,
     description: 'Flip through quick revision cards to reinforce key concepts.',
     icon: Layers,
     accent: 'from-indigo-500 to-purple-500',
@@ -55,7 +86,6 @@ const TOOLS: ToolMeta[] = [
   {
     id: 'formula_bank',
     name: 'Formula Bank',
-    count: 16,
     description: 'Searchable library of every formula you need to memorise.',
     icon: Sigma,
     accent: 'from-sky-500 to-cyan-500',
@@ -63,7 +93,6 @@ const TOOLS: ToolMeta[] = [
   {
     id: 'glossary',
     name: 'Glossary',
-    count: 47,
     description: 'Alphabetical glossary of important terms and definitions.',
     icon: Book,
     accent: 'from-emerald-500 to-teal-500',
@@ -71,7 +100,6 @@ const TOOLS: ToolMeta[] = [
   {
     id: 'misconceptions',
     name: 'Mistakes to Avoid',
-    count: 251,
     description: 'Common mistakes and the corrections that fix them.',
     icon: AlertTriangle,
     accent: 'from-rose-500 to-red-500',
@@ -79,7 +107,6 @@ const TOOLS: ToolMeta[] = [
   {
     id: 'real_world_applications',
     name: 'Real-World Applications',
-    count: 51,
     description: 'See how classroom concepts power the real world.',
     icon: Globe,
     accent: 'from-amber-500 to-orange-500',
@@ -87,7 +114,6 @@ const TOOLS: ToolMeta[] = [
   {
     id: 'worked_examples',
     name: 'Worked Examples',
-    count: 51,
     description: 'Step-by-step solutions you can expand and follow along.',
     icon: PenTool,
     accent: 'from-fuchsia-500 to-pink-500',
@@ -102,7 +128,7 @@ const SUBJECTS = [
   { id: 'Maths', label: 'Maths', icon: Calculator },
 ]
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || ''
 
 export default function StudyToolsPage() {
   const { user } = useAuthStore()
@@ -113,6 +139,37 @@ export default function StudyToolsPage() {
   const [items, setItems] = useState<ContentItem[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  // Live per-tool item totals for this student's class — replaces the old
+  // hardcoded card counts that advertised items the backend doesn't have.
+  const [liveCounts, setLiveCounts] = useState<Partial<Record<ToolId, number>>>({})
+
+  useEffect(() => {
+    let cancelled = false
+    async function loadCounts() {
+      const entries = await Promise.all(
+        TOOLS.map(async (t) => {
+          try {
+            const params = new URLSearchParams({
+              content_type: t.id,
+              class_level: String(classLevel),
+              limit: '1',
+            })
+            const res = await fetch(`${API_BASE}/api/content/class-content?${params.toString()}`)
+            if (!res.ok) throw new Error(String(res.status))
+            const data: ApiResponse = await res.json()
+            return [t.id, data.total ?? data.items?.length ?? 0] as const
+          } catch {
+            return [t.id, 0] as const
+          }
+        })
+      )
+      if (!cancelled) setLiveCounts(Object.fromEntries(entries))
+    }
+    loadCounts()
+    return () => {
+      cancelled = true
+    }
+  }, [classLevel])
 
   useEffect(() => {
     if (!activeTool) return
@@ -198,7 +255,7 @@ export default function StudyToolsPage() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
-              <ToolGrid onSelect={setActiveTool} />
+              <ToolGrid onSelect={setActiveTool} counts={liveCounts} />
             </motion.div>
           ) : (
             <motion.div
@@ -229,7 +286,13 @@ export default function StudyToolsPage() {
 /* Tool grid                                                           */
 /* ------------------------------------------------------------------ */
 
-function ToolGrid({ onSelect }: { onSelect: (id: ToolId) => void }) {
+function ToolGrid({
+  onSelect,
+  counts,
+}: {
+  onSelect: (id: ToolId) => void
+  counts: Partial<Record<ToolId, number>>
+}) {
   return (
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {TOOLS.map((tool, i) => (
@@ -253,7 +316,7 @@ function ToolGrid({ onSelect }: { onSelect: (id: ToolId) => void }) {
           </div>
           <h3 className="mb-1 text-xl font-semibold text-white">{tool.name}</h3>
           <div className="mb-2 inline-flex items-center gap-1 rounded-full bg-white/10 px-2.5 py-0.5 text-xs font-medium text-white/70">
-            {tool.count} items
+            {counts[tool.id] ?? 0} items
           </div>
           <p className="text-sm leading-relaxed text-white/60">
             {tool.description}
@@ -471,7 +534,7 @@ function Flashcards({ items }: { items: ContentItem[] }) {
               Answer
             </p>
             <p className="mt-3 max-h-full overflow-auto text-base leading-relaxed text-white/90">
-              {card.content}
+              <CorpusText raw={card.content} />
             </p>
           </div>
         </motion.div>
@@ -562,7 +625,7 @@ function FormulaBank({ items }: { items: ContentItem[] }) {
               <h3 className="font-semibold text-white">{it.title}</h3>
             </div>
             <p className="whitespace-pre-wrap text-sm leading-relaxed text-white/70">
-              {it.content}
+              <CorpusText raw={it.content} />
             </p>
           </motion.div>
         ))}
@@ -603,7 +666,7 @@ function Glossary({ items }: { items: ContentItem[] }) {
               <h3 className="font-semibold text-white">{it.title}</h3>
             </div>
             <p className="text-sm leading-relaxed text-white/70">
-              {it.content}
+              <CorpusText raw={it.content} />
             </p>
           </motion.div>
         ))}
@@ -647,7 +710,7 @@ function Misconceptions({ items }: { items: ContentItem[] }) {
               <h3 className="font-semibold text-rose-100">{it.title}</h3>
             </div>
             <p className="text-sm leading-relaxed text-white/80">
-              {it.content}
+              <CorpusText raw={it.content} />
             </p>
           </motion.div>
         ))}
@@ -675,7 +738,7 @@ function RealWorld({ items }: { items: ContentItem[] }) {
             <Globe className="h-5 w-5 text-white" />
           </div>
           <h3 className="mb-2 text-lg font-semibold text-white">{it.title}</h3>
-          <p className="text-sm leading-relaxed text-white/70">{it.content}</p>
+          <p className="text-sm leading-relaxed text-white/70"><CorpusText raw={it.content} /></p>
         </motion.div>
       ))}
     </div>
@@ -726,7 +789,7 @@ function WorkedExamples({ items }: { items: ContentItem[] }) {
                   >
                     <div className="border-t border-white/10 p-4">
                       <p className="whitespace-pre-wrap text-sm leading-relaxed text-white/80">
-                        {it.content}
+                        <CorpusText raw={it.content} />
                       </p>
                     </div>
                   </motion.div>

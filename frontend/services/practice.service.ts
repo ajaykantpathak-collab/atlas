@@ -342,8 +342,8 @@ export class ApiError extends Error {
 
 const API_BASE =
   typeof process !== "undefined"
-    ? process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001"
-    : "http://localhost:8001";
+    ? process.env.NEXT_PUBLIC_API_URL || ""
+    : "";
 
 function buildUrl(path: string): string {
   return `${API_BASE}${path}`;

@@ -204,7 +204,7 @@ export const w_c10_mathematicsconstructiontangentscirclesim: SimDef = {
           hint: 'If stuck, revisit c9_math_ch5_4 (perpendicular from centre to chord) and c7_math_ch09_008.',
           misconception: 'Students believe the tangent is perpendicular to the diameter through the point of contact, not the radius.',
           parts: [
-                { id: 'a', prompt: 'State the theorem: "The tangent at any point of a circle is perpendicular to the ______ through the point of contact." Fill in the blank and draw a labelled.', answer: 'Correct answer: "radius"',
+                { id: 'a', prompt: 'State the theorem: "The tangent at any point of a circle is perpendicular to the ______ through the point of contact." Fill in the blank and draw a labelled.', answer: '"radius"',
                   options: ['Correct answer: "radius"', 'diameter'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe the tangent is perpendicular to the diameter through the point of contact, not the radius.' }

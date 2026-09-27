@@ -132,7 +132,7 @@ export const w_c12_geohumandevelopmentcbsesim: SimDef = {
           hint: 'If unclear on determinism vs. possibilism, revisit **c12_geo_cbse_01_004** (Benda\'s story.',
           misconception: 'Students confuse **neo-determinism\'s "stop-and-go" with a simple "balance" or "compromise"** and write:.',
           parts: [
-                { id: 'a', prompt: 'Why did Griffith Taylor propose neo-determinism as a "middle path" (Madhyam Marg) between environmental determinism and possibilism?', answer: 'Correct answer: Determinism (Ratzel, Semple) saw technology as negligible',
+                { id: 'a', prompt: 'Why did Griffith Taylor propose neo-determinism as a "middle path" (Madhyam Marg) between environmental determinism and possibilism?', answer: 'Determinism (Ratzel, Semple) saw technology as negligible',
                   options: ['Correct answer: Determinism (Ratzel, Semple) saw technology as negligible', 'Taylor just compromised', 'stop-and-go'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students confuse **neo-determinism\'s "stop-and-go" with a simple "balance" or "compromise"** and write: "Neo-determinism means we should.' },
@@ -162,7 +162,7 @@ export const w_c12_geohumandevelopmentcbsesim: SimDef = {
           hint: 'Revisit c11_geo_cbse_16_003 (Population Composition) — specifically the definitions of.',
           misconception: 'Students equate "human development" with "human development index (HDI)" — they think the *concept* is the *measure*.',
           parts: [
-                { id: 'a', prompt: 'A city\'s GDP per capita doubles over ten years, but its infant mortality rate remains unchanged and female literacy drops.', answer: 'Correct answer: GDP doubling is quantitative growth (value-neutral)',
+                { id: 'a', prompt: 'A city\'s GDP per capita doubles over ten years, but its infant mortality rate remains unchanged and female literacy drops.', answer: 'GDP doubling is quantitative growth (value-neutral)',
                   options: ['Correct answer: GDP doubling is quantitative growth (value-neutral)', 'GDP isn\'t everything', 'not development'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students equate "human development" with "human development index (HDI)" — they think the *concept* is the *measure*.' }

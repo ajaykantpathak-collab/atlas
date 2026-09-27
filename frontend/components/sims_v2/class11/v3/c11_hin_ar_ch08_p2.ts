@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch08_p2: SimDef = {
     id: 'v3_c11_hin_ar_ch08_p2',
-    title: 'fQjkd xksj[kiqjh · Part 2/3',
+    title: 'पाठ 8 · Part 2/3',
     subtitle: 'Read a prisoner\'s India — episodic, argumentative, and allergic to uniformity.',
-    classLevel: 11, subject: 'hin_ar', topic: 'fQjkd xksj[kiqjh · Part 2/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 8 · Part 2/3',
     chapters: ['c11_hin_ar_ch08'],
     nodeIds: ['c11_hin_ar_cbse_08_007', 'c11_hin_ar_cbse_08_008', 'c11_hin_ar_cbse_08_009', 'c11_hin_ar_cbse_08_010', 'c11_hin_ar_cbse_08_011', 'c11_hin_ar_cbse_08_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,35 +19,20 @@ export const c11_hin_ar_ch08_p2: SimDef = {
         hook: 'Written in a 1942-46 prison cell, \'Bharat Mata\' argues that India\'s unity lives in shared labour and suffering — not in cultural sameness.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, supporting ideas in a text that complement and enrich the primary theme by exploring specific dimensions of human experience, society, or philosophy through.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 8 — गौण विषय', text: 'गौण विषय (Sub-theme) वह सहायक कथ्य-तत्व है जो मुख्य विषय (Central Theme) के समानांतर चलकर उसे विस्तार, गहराई, विरोधाभास या सामाजिक-सांस्कृतिक संदर्भ प्रदान करता है; यह स्वतंत्र रूप से पूर्ण नहीं.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_08_007', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Separate the journey\'s episodes from its reflective digressions, then defend whether diversity can ground unity without uniformity.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to your grandmother tell stories about your family\'s history – she doesn\'t just say "we\'re a family," she tells you about the recipes.',
-            decisions: [{ prompt: 'What is the difference between a primary theme and a secondary theme in a prose text like "Hkkjr ekrk"?', options: [
-                { text: 'A primary theme is the central, overarching message (here: national unity through the', outcome: 'A primary theme is the central, overarching message (here: national unity through the concept.' },
-                { text: 'patriotism', outcome: 'Not quite — Students often treat secondary themes as just "other topics mentioned in the text" (like listing.', reveals: 'students-often-treat-secondary-themes' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are sitting in a train watching India rush past your window — the snow-capped Himalayas, the green paddy fields of Bengal, the arid deserts.',
-            decisions: [{ prompt: 'Define "imagery" (प्रतिबिंब) and "metaphor" (रूपक) in your own words, giving one example of each from everyday language (not from the.', options: [
-                { text: 'Imagery is descriptive language that appeals to the senses (e.g., "The air smelled of wet', outcome: 'Imagery is descriptive language that appeals to the senses (e.g., "The air smelled of wet earth and.' },
-                { text: 'Time is *like* a thief', outcome: 'Not quite — Students consistently confuse **imagery** with **metaphor** in this chapter because both create.', reveals: 'students-consistently-confuse-imagery-with' },
-                { text: 'The sunset was red', outcome: 'Not quite — Students consistently confuse **imagery** with **metaphor** in this chapter because both create.', reveals: 'students-consistently-confuse-imagery-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'When you read a powerful speech like Nehru\'s \'Bharat Mata\', have you noticed how certain words carry more weight than their dictionary definitions?',
-            decisions: [{ prompt: 'What is the meaning of \'fo\'ks"k.k :i\' in Hindi grammar, and give one example from the textbook exercise list (vk”kknh, ped, fganqLrku.', options: [
-                { text: 'fo\'ks"k.k :i is the characteristic abstract noun form derived from a concrete or base', outcome: 'fo\'ks"k.k :i is the characteristic abstract noun form derived from a concrete or base noun.' },
-                { text: 'k.k\' (characteristic) with \'fo\'ks', outcome: 'Not quite — Students often think \'fo\'ks"k.k :i\' means simply writing the plural (vचन) or a synonym (parayvachi).', reveals: 'fo-ks-k' },
-                { text: 'it asks for a \'special form\' like honorific or plural', outcome: 'Not quite — Students often think \'fo\'ks"k.k :i\' means simply writing the plural (vचन) or a synonym (parayvachi).', reveals: 'fo-ks-k' }
-            ] }] } },
+        labels: ['पाठ 8 — गौण', 'पाठ 8 — साहित्यिक', 'पाठ 8 — पदावली', 'पाठ 8 — व्याकरण', 'पाठ 8 — बोध-प्रश्न'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_08_008', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 8 · Part 2/3', spots: [
+            { id: 's1', label: '8 -', prompt: 'Which idea is this? — पाठ में भाषा-प्रयोग (Language Use in Text) refers to the deliberate linguistic choices.', answer: '8 -', options: ['8 -', '8 - -'] },
+            { id: 's2', label: '8 - -', prompt: 'Which idea is this? — वस्तुनिष्ठ प्रश्न वे हैं जिनके उत्तर पाठ में **स्पष्ट रूप से लिखे** होते हैं और जिनका एक.', answer: '8 - -', options: ['8 - -', '8 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_08_007', title: 'Use it in the wild',
           caseStudy: { intro: 'For Independence Day, a student proposes a poster quoting Nehru\'s \'Bharat Mata\' essay beside a calendar image of the goddess Bharat Mata with a flag. Another teammate says the essay \'has no structure — it just rambles from mountains to peasants to philosophy.\'',
             decisions: [{ prompt: 'What do both get wrong about the text?', options: [
@@ -57,100 +42,81 @@ export const c11_hin_ar_ch08_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_08_012', title: 'The bigger picture',
           caseStudy: { intro: 'The journey ends but the argument doesn\'t — the \'Bharat Mata\' Nehru finds is the people themselves, not a goddess on a map.',
-            decisions: [{ prompt: 'What comes next? fQjkd xksj[kiqjh · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — fQjkd xksj[kiqjh · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 8 · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 8 · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, supporting ideas in a text that complement.',
-          hint: 'If stuck, review the primary theme analysis (node 006) and re-read the text marking every.',
-          misconception: 'Students often treat secondary themes as just "other topics mentioned in the text" (like listing "travel," "peasants,".',
+          question: 'गौण विषय (Sub-theme) वह सहायक कथ्य-तत्व है जो मुख्य विषय (Central Theme) के.',
+          hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो नोड 006 (मुख्य विषय और संदेश) के \'वॉकथ्रू\' और.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि गौण विषय = \'पक्ष-कथाएँ\' (sub-plots) या \'छोटी घटनाएँ\'। **गलत तर्क:** वे पाठ में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the underlying, supporting ideas in a text that complement and',
-                  options: ['Secondary themes are the underlying, supporting ideas in a text that complement and', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the deliberate arrangement of events, reflections,', 'Setting refers to the physical, temporal, and socio-cultural backdrop against'],
-                  hint: 'If stuck, review the primary theme analysis (node 006) and re-read the text marking every passage.',
-                  misconception: 'Students often treat secondary themes as just "other topics mentioned in the text" (like listing "travel," "peasants," "mountains".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह सहायक कथ्य-तत्व है जो मुख्य विषय (Central Theme) के समानांतर चलकर',
+                  options: ['गौण विषय (Sub-theme) वह सहायक कथ्य-तत्व है जो मुख्य विषय (Central Theme) के समानांतर चलकर', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो नोड 006 (मुख्य विषय और संदेश) के \'वॉकथ्रू\' और \'कार्य-उदाहरण 1\' को.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि गौण विषय = \'पक्ष-कथाएँ\' (sub-plots) या \'छोटी घटनाएँ\'। **गलत तर्क:** वे पाठ में घटित **घटनाओं** को.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['Give the student two columns – "Subject/Topic" and "Thematic Statement."', 'Have them list five concrete things Nehru describes (e.g., Himalayas, peasant\'s question, freedom struggle, common.', 'For each, ask "What is Nehru *saying about* this?" and write a complete sentence (e.g., "The Himalayas represent the.', 'Show how each thematic statement answers "How does this support the idea of Bharat Mata?" This converts listing into.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'sub-plots': { steps: ['**भेद स्पष्ट करें:** छात्र से कहें — "पाठ की 5 घटनाएँ लिखो। अब प्रत्येक के आगे लिखो: यह घटना *किस बड़े विचार* की ओर.', '**मैपिंग अभ्यास:** एक तालिका बनाएँ — स्तंभ 1: घटना/संवाद, स्तंभ 2: संभावित गौण विषय, स्तंभ 3: मुख्य विषय से संबंध। 3-4.', '**परीक्षा-उन्मुख अभ्यास:** पिछले वर्ष के 2-3 प्रश्न दें जो गौण विषय पर हों (उदाहरण: "पाठ में \'मौन\' की भूमिका समझाइए").', '**फीडबैक लूप:** उसके उत्तर में लाल पेन से केवल \'मुख्य विषय से लिंक\' चिह्नित करें — जहाँ लिंक गायब हो, वहाँ लिखें: "यहाँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_008', difficulty: 'standard',
-          question: 'Imagery (प्रतिबिंब/चित्रण) refers to the use of vivid, sensory language that.',
-          hint: 'Review "figures of speech" basics from Class 9-10 Hindi grammar (अलंकार) — specifically.',
-          misconception: 'Students consistently confuse **imagery** with **metaphor** in this chapter because both create "pictures." They label.',
+          question: '**बिंब (Imagery)** शब्दों के माध्यम से पाठक के मन में इंद्रिय-अनुभव (दृश्य.',
+          hint: 'यदि अटके तो कक्षा 10 की हिंदी पाठ्यपुस्तक (क्षितिज/कृतिका) के \'अलंकार\' अध्याय से.',
+          misconception: '**भ्रांति:** *"हर तुलना रूपक है; बिंब और रूपक एक ही चीज के दो नाम हैं।"* **वास्तविक त्रुटि:** छात्र **"तुलना".',
           parts: [
-                { id: 'a', prompt: 'Apply the concept of "tenor" (subject) and "vehicle" (image used for comparison) to this metaphor from the text: "Hkkjr ekrk njvly ;gh djksM+ksa yksx gSa".', answer: 'Tenor: "Hkkjr ekrk" (Mother India',
-                  options: ['Tenor: "Hkkjr ekrk" (Mother India', 'pictures', 'snowy peaks', 'roaring rivers'],
-                  hint: 'Review "figures of speech" basics from Class 9-10 Hindi grammar (अलंकार) — specifically the.',
-                  misconception: 'Students consistently confuse **imagery** with **metaphor** in this chapter because both create "pictures." They label *any* vivid.' },
-                { id: 'b', prompt: 'Analyze how the *extended metaphor* of "journey" (tylk/सफ़र) operates across the chapter.', answer: 'Stage 1: Physical journey',
-                  options: ['Stage 1: Physical journey', 'pictures', 'snowy peaks', 'roaring rivers'],
-                  hint: 'Review "figures of speech" basics from Class 9-10 Hindi grammar (अलंकार) — specifically the.',
-                  misconception: 'Students consistently confuse **imagery** with **metaphor** in this chapter because both create "pictures." They label *any* vivid.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** शब्दों के माध्यम से पाठक के मन में इंद्रिय-अनुभव (दृश्य, श्रव्य,',
+                  options: ['**बिंब (Imagery)** शब्दों के माध्यम से पाठक के मन में इंद्रिय-अनुभव (दृश्य, श्रव्य,', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि अटके तो कक्षा 10 की हिंदी पाठ्यपुस्तक (क्षितिज/कृतिका) के \'अलंकार\' अध्याय से उपमा/रूपक के.',
+                  misconception: '**भ्रांति:** *"हर तुलना रूपक है; बिंब और रूपक एक ही चीज के दो नाम हैं।"* **वास्तविक त्रुटि:** छात्र **"तुलना" (Comparison)** को **रूपक**.' }
           ],
-            remediations: { 'students-consistently-confuse-imagery-with': { steps: ['Give the student two side-by-side sentences from the text — one pure imagery ("dM+s yxku" — thick snow), one pure.', 'Ask: "Which one makes you *feel cold*? Which one makes you *rethink what a nation is*?"', 'Explicitly name the mechanism: "Imagery = sensory trigger. Metaphor = conceptual transfer."', 'Have them re-read the chapter and color-code: yellow for imagery (label the sense), blue for metaphor (label.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_008', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students consistently confuse **imagery** with **metaphor** in this chapter because both create "pictures." They label.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the effectiveness of the metaphor "fons\'k rjDdh" (foreign rule/colonialism as a "demon/ogre") used implicitly when the author describes "vejhdk.', answer: 'The metaphor *clarifies emotionally but obscures analytically*',
-                  options: ['The metaphor *clarifies emotionally but obscures analytically*', 'pictures', 'snowy peaks', 'roaring rivers'],
-                  hint: 'Review "figures of speech" basics from Class 9-10 Hindi grammar (अलंकार) — specifically the.',
-                  misconception: 'Students consistently confuse **imagery** with **metaphor** in this chapter because both create "pictures." They label *any* vivid.' },
-                { id: 'b', prompt: 'Create your own metaphor for "India" (not "Mother India") using a *concrete, everyday object* from an Indian kitchen or street.', answer: 'Example: "India is a *thali*',
-                  options: ['Example: "India is a *thali*', 'pictures', 'snowy peaks', 'roaring rivers'],
-                  hint: 'Review "figures of speech" basics from Class 9-10 Hindi grammar (अलंकार) — specifically the.',
-                  misconception: 'Students consistently confuse **imagery** with **metaphor** in this chapter because both create "pictures." They label *any* vivid.' }
-          ],
-            remediations: { 'students-consistently-confuse-imagery-with': { steps: ['Give the student two side-by-side sentences from the text — one pure imagery ("dM+s yxku" — thick snow), one pure.', 'Ask: "Which one makes you *feel cold*? Which one makes you *rethink what a nation is*?"', 'Explicitly name the mechanism: "Imagery = sensory trigger. Metaphor = conceptual transfer."', 'Have them re-read the chapter and color-code: yellow for imagery (label the sense), blue for metaphor (label.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1 — भेद स्पष्ट करें:** छात्र को तीन वाक्य दें: (अ) "चाँद फूल जैसा है" (उपमा), (ब) "चाँद फूल है" (रूपक), (स) "चाँद.', '**चरण 2 — इंद्रिय-मानचित्रण:** पाठ के किसी अंश से 5 वाक्य निकालें, छात्र से कहें प्रत्येक के आगे इंद्रिय का चिह्न.', '**चरण 3 — रूपक का \'समान धर्म\' खोज:** रूपक वाले वाक्य में पूछें: "उपमेय और उपमान में **क्या समान है जो दिखता नहीं?**".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or situations.',
-          hint: 'If stuck, review the "vehicle/tenor" framework from c11_hin_ar_cbse_08_008 using the.',
-          misconception: 'Students often treat every unexpected event as "irony" and every noun as a "symbol." For example, they label Nehru\'s.',
+          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध.',
+          hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_08_008 (बिंब और रूपक)** के \'कार्यप्रणाली\' भाग.',
+          misconception: '**विशिष्ट भ्रम:** छात्र **\'विरोधाभास\' (Paradox)** को **\'विरोधाभासी स्थिति\' (Oxymoron)** मान लेते हैं क्योंकि दोनों में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words or situations contrasts',
-                  options: ['Irony is a literary device where the intended meaning of words or situations contrasts', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the deliberate arrangement of events, reflections,', 'Setting refers to the physical, temporal, and socio-cultural backdrop against'],
-                  hint: 'If stuck, review the "vehicle/tenor" framework from c11_hin_ar_cbse_08_008 using the example "Hkkjr.',
-                  misconception: 'Students often treat every unexpected event as "irony" and every noun as a "symbol." For example, they label Nehru\'s travel from village.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध, असंगत या',
+                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध, असंगत या', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_08_008 (बिंब और रूपक)** के \'कार्यप्रणाली\' भाग को दोहराएं.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र **\'विरोधाभास\' (Paradox)** को **\'विरोधाभासी स्थिति\' (Oxymoron)** मान लेते हैं क्योंकि दोनों में \'विरोध\' शब्द आता है.' }
           ],
-            remediations: { 'students-often-treat-every-unexpected': { steps: ['Give the student two side-by-side sentences — one ironic, one not — and ask "Which expectation is broken?" (e.g., "The.', 'For symbolism, hand them a three-column table: Column A = object in text, Column B = abstract idea, Column C = textual.', 'Ask them to rewrite a non-ironic sentence from the chapter into verbal irony, then explain why the new version works.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'paradox-oxymoron': { steps: ['**दृष्टांत-आधारित भेद स्पष्टीकरण:** छात्र को तीन जोड़े दें: (क) "मधुर कड़वाहट" vs "कड़वाहट में मिठास छिपी है" (ख).', 'कौन-सा पूरा वाक्य/विचार है?" 2.', '**संरचनात्मक आरेख बनवाएं:** बोर्ड पर दो कॉलम बनवाएं — **पद-स्तर (Lexical)** और **वाक्य/स्थिति-स्तर.', '**पाठ-खोज अभ्यास:** पाठ से एक-एक उदाहरण ढूंढने को कहें — "ऑक्सीमोरॉन ढूंढो" फिर "पैराडॉक्स ढूंढो" — न मिलने पर चर्चा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
-          hint: 'If stuck, re-read the \'Before You Read\' section (c11_hin_ar_cbse_08_001) focusing.',
-          misconception: 'Students believe \'vocabulary in context\' means *finding the Hindi synonym* given in the textbook\'s \'शब्द-अर्थ\' list.',
+          question: 'पदावली: मुख्य शब्द, किसी पाठ में प्रयुक्त उन **महत्वपूर्ण शब्दों का समूह** है.',
+          hint: 'यदि अटके तो **\'शब्द-शक्ति निरूपण\' (हिंदी व्याकरण/साहित्य सिद्धांत, Class 10-11 NCERT)**.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'मुख्य शब्द\' = \'कठिन/बड़े/तत्सम शब्द\'** होते हैं। वे सरल/तद्भव/देशज शब्दों.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context refers to the skill of determining the precise meaning,',
-                  options: ['Vocabulary in Context refers to the skill of determining the precise meaning,', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the deliberate arrangement of events, reflections,', 'Setting refers to the physical, temporal, and socio-cultural backdrop against'],
-                  hint: 'If stuck, re-read the \'Before You Read\' section (c11_hin_ar_cbse_08_001) focusing on Nehru\'s quote.',
-                  misconception: 'Students believe \'vocabulary in context\' means *finding the Hindi synonym* given in the textbook\'s \'शब्द-अर्थ\' list (e.g., \'लपकना = झपटना\').' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली: मुख्य शब्द, किसी पाठ में प्रयुक्त उन **महत्वपूर्ण शब्दों का समूह** है जिनके',
+                  options: ['पदावली: मुख्य शब्द, किसी पाठ में प्रयुक्त उन **महत्वपूर्ण शब्दों का समूह** है जिनके', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि अटके तो **\'शब्द-शक्ति निरूपण\' (हिंदी व्याकरण/साहित्य सिद्धांत, Class 10-11 NCERT)** के उस.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'मुख्य शब्द\' = \'कठिन/बड़े/तत्सम शब्द\'** होते हैं। वे सरल/तद्भव/देशज शब्दों (जैसे: \'बात\', \'काम\'.' }
           ],
-            remediations: { 'vocabulary-in-context-means-finding': { steps: ['**Diagnose the gap:** Ask the student to pick any 3 words from the \'शब्द-अर्थ\' box and *use each in a new sentence that.', 'If they write dictionary sentences ("अनास्था बुरी चीज़ है"), they are stuck in recall mode.', '**Model the shift:** Take \'निरपेक्ष\'.', 'Show: Dictionary = \'neutral\'.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**पाठ से 10 \'सरल शब्द\' छाँटें** (जैसे: आना, जाना, देखना, मन, बात, रास्ता, समय, हाथ, आँख, नींद) — इन्हें \'मुख्य शब्द\'.', '**प्रत्येक शब्द के लिए 3 कॉलम बनाएं:** (क) शब्दकोशीय अर्थ, (ख) पाठ में प्रयुक्त वाक्य/प्रसंग, (ग) प्रासंगिक अर्थ.', '**शिक्षक/सहपाठी के साथ \'क्यों?\' खेलें:** "लेखक ने यहाँ \'देखा\' क्यों लिखा, \'निहारा\' या \'ताका\' क्यों नहीं?" — इससे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the study of how words, phrases.',
-          hint: 'Review Class 9-10 Hindi grammar on \'laKk\' (noun) types and \'fo\'ks"k.k :i\' derivation.',
-          misconception: 'Students often think \'fo\'ks"k.k :i\' means simply writing the plural (vचन) or a synonym (parayvachi) of the noun.',
+          question: 'पाठ में भाषा-प्रयोग (Language Use in Text) refers to the deliberate linguistic.',
+          hint: 'If stuck, review **\'पदावली: मुख्य शब्द\' (Node 010)** and practice the **\'Substitution.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'भाषा-प्रयोग\' का विश्लेषण करने का अर्थ है **अलंकार (Alankar) पहचानना** (जैसे.',
           parts: [
-                { id: 'a', prompt: 'Given the noun \'iqjk.k\' (tradition) from the exercise list, derive its fo\'ks"k.k :i and use it in a sentence that reflects the chapter\'s idea of living.', answer: 'Step 1: Identify base noun \'iqjk.k\' (tradition)',
-                  options: ['Step 1: Identify base noun \'iqjk.k\' (tradition)', 'k.k\' (characteristic) with \'fo\'ks', 'it asks for a \'special form\' like honorific or plural', '\'fo\'ks"k'],
-                  hint: 'Review Class 9-10 Hindi grammar on \'laKk\' (noun) types and \'fo\'ks"k.k :i\' derivation rules from the.',
-                  misconception: 'Students often think \'fo\'ks"k.k :i\' means simply writing the plural (vचन) or a synonym (parayvachi) of the noun.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग (Language Use in Text) refers to the deliberate linguistic choices an',
+                  options: ['पाठ में भाषा-प्रयोग (Language Use in Text) refers to the deliberate linguistic choices an', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'If stuck, review **\'पदावली: मुख्य शब्द\' (Node 010)** and practice the **\'Substitution Test\'**.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'भाषा-प्रयोग\' का विश्लेषण करने का अर्थ है **अलंकार (Alankar) पहचानना** (जैसे: यहाँ अनुप्रास है.' }
           ],
-            remediations: { 'fo-ks-k': { steps: ['Re-teach the definition of fo\'ks"k.k :i using a simple concrete noun like \'lq[k\' (boy) -> \'lq[kpan\' (boyhood).', 'Show the suffix chart: -pan, -ta, -ai, -av, -hat.', 'Have the student practice with 5 concrete nouns from daily life (ghar -> gharpan, pani -> paniyat).', 'Then return to the textbook list and classify each noun as concrete or abstract before deriving.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'alankar': { steps: ['**चरण 1 - अलंकार सूची बंद करें:** छात्र से कहें: "अलंकार का नाम मत लिखो। केवल यह बताओ कि **यह शब्द/वाक्य पात्र के बारे.', '**चरण 2 - \'प्रतिस्थापन परीक्षण\' (Substitution Test) करवाएँ:** उस वाक्यांश को साधारण भाषा में बदलवाएँ (जैसे: "मुझे जवानी.', '**चरण 3 - संदर्भ जोड़ें:** पूछें: "यह पात्र ग्रामीण है/स्त्री है/शोषित है — क्या इस पृष्ठभूमि में \'आग\' शब्द का कोई.', '**चरण 4 - PEEL पैराग्राफ लिखवाएँ:** Point (भाषा चुनाव), Evidence (उद्धरण), Explanation (कार्य), Link (विषय/पात्र से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
-          hint: 'If stuck, review c11_hin_ar_cbse_08_002 (Plot) for event sequence and.',
-          misconception: 'छात्र समझते हैं कि \'inferential\' का अर्थ \'अनुमान लगाना\' या \'मन से उत्तर लिखना\' है, जबकि वरिष्ठ माध्यमिक स्तर पर.',
+          question: 'वस्तुनिष्ठ प्रश्न वे हैं जिनके उत्तर पाठ में **स्पष्ट रूप से लिखे** होते हैं और.',
+          hint: 'यदि फँसें तो **पाठ 8 का कथानक-सार (नोड 002) और मुख्य विषय (नोड 006)** दोबारा पढ़ें.',
+          misconception: 'छात्र समझते हैं कि **\'क्या\' से शुरू हर प्रश्न वस्तुनिष्ठ** होता है और **\'क्यों\' से शुरू हर प्रश्न आशय-सूचक** — जबकि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Literal comprehension questions require students to retrieve explicitly stated',
-                  options: ['Literal comprehension questions require students to retrieve explicitly stated', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the deliberate arrangement of events, reflections,', 'Setting refers to the physical, temporal, and socio-cultural backdrop against'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_08_002 (Plot) for event sequence and c11_hin_ar_cbse_08_010.',
-                  misconception: 'छात्र समझते हैं कि \'inferential\' का अर्थ \'अनुमान लगाना\' या \'मन से उत्तर लिखना\' है, जबकि वरिष्ठ माध्यमिक स्तर पर inferential का अर्थ है.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न वे हैं जिनके उत्तर पाठ में **स्पष्ट रूप से लिखे** होते हैं और जिनका एक',
+                  options: ['वस्तुनिष्ठ प्रश्न वे हैं जिनके उत्तर पाठ में **स्पष्ट रूप से लिखे** होते हैं और जिनका एक', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि फँसें तो **पाठ 8 का कथानक-सार (नोड 002) और मुख्य विषय (नोड 006)** दोबारा पढ़ें — आशय-सूचक के.',
+                  misconception: 'छात्र समझते हैं कि **\'क्या\' से शुरू हर प्रश्न वस्तुनिष्ठ** होता है और **\'क्यों\' से शुरू हर प्रश्न आशय-सूचक** — जबकि वास्तविक भेद **उत्तर की.' }
           ],
-            remediations: { 'inferential': { steps: ['छात्र को पाठ के 5 वाक्य दें और कहें: "हर वाक्य के आगे L (literal) या I (inferential) लिखो कि यह वाक्य सीधा तथ्य दे रहा.', 'फिर पूछें: "I वाले वाक्यों में कौन-से शब्द/पद निष्कर्ष की ओर संकेत करते हैं?" (जैसे: \'इसका अर्थ है\', \'स्पष्ट होता है\'.', 'अब एक inferential प्रश्न दें और कहें: "उत्तर लिखने से पहले 3 साक्ष्य पाठ से छांटकर लाओ।" 4.', 'अंत में PEEL ढांचे में उत्तर लिखवाएं — हर चरण के बाद पूछें: "यह साक्ष्य है या व्याख्या?" यह चरणबद्ध अभ्यास 2-3 बार करने.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**पहचान अभ्यास:** पाठ 8 के 5-5 वस्तुनिष्ठ/आशय-सूचक प्रश्नों की सूची बनाओ; प्रत्येक के आगे **\'पाठ में स्पष्ट है\' / \'पाठ.', '**कीवर्ड से आगे बढ़ो:** 3 प्रश्न लो जिनमें \'क्या/कौन/कब\' हो लेकिन उत्तर **पाठ में न हो** (निष्कर्ष चाहिए) — उन्हें.', '**साक्ष्य-मानचित्रण:** एक आशय-सूचक प्रश्न लो; पाठ के **कम-से-कम 3 अलग-अलग वाक्यों/विवरणों** को तीर से जोड़कर दिखाओ कि.', '**PEEL पुनर्लेखन:** अपने पुराने आशय-सूचक उत्तरों को PEEL में दोबारा लिखो; जांचो कि **Evidence एक से अधिक वाक्यों से**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

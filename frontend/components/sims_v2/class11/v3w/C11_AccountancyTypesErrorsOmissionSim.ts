@@ -180,7 +180,7 @@ export const w_c11_accountancytypeserrorsomissionsim: SimDef = {
           hint: 'If stuck, revisit c11_acc_cbse_05_002 to c11_acc_cbse_05_006 and create a comparison.',
           misconception: 'Students believe that "all errors in the cash book require a rectification journal entry before preparing BRS." This is.',
           parts: [
-                { id: 'a', prompt: 'A cheque of ₹5,000 issued to a supplier was recorded in the cash book as ₹500. The bank correctly debited ₹5,000.', answer: 'Correct answer: Add ₹4,500 to the cash book balance',
+                { id: 'a', prompt: 'A cheque of ₹5,000 issued to a supplier was recorded in the cash book as ₹500. The bank correctly debited ₹5,000.', answer: 'Add ₹4,500 to the cash book balance',
                   options: ['Correct answer: Add ₹4,500 to the cash book balance', 'error means subtract'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that "all errors in the cash book require a rectification journal entry before preparing BRS." This is wrong because: (1).' }

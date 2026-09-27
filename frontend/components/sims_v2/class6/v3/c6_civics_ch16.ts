@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
-/** v3 generated — c6_civics_ch16 (3 nodes). Deterministic build
+/** v3 generated — c6_civics_ch16 (4 nodes). Deterministic build
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c6_civics_ch16: SimDef = {
     id: 'v3_c6_civics_ch16',
-    title: 'Economic Life and Rights',
+    title: 'The informal sector refers to economic work.',
     subtitle: 'Same work, same sweat — so why is only one \'economic\'?',
-    classLevel: 6, subject: 'civics', topic: 'Economic Life and Rights',
+    classLevel: 6, subject: 'civics', topic: 'The informal sector refers to economic work.',
     chapters: ['c6_civics_ch16'],
-    nodeIds: [],
+    nodeIds: ['c6_civics_ch16_004', 'c6_civics_ch16_039', 'c6_civics_ch16_040', 'c6_civics_ch16_041'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a neighbourhood survey-taker sorting everyone\'s daily work', intro: 'A shopkeeper opens shutters, a parent packs tiffins, a volunteer plants trees. Which of today\'s activities earn money — and which earn something else?', goal: 'Draw the line between economic and non-economic activity — the transaction test.' },
@@ -19,15 +19,21 @@ export const c6_civics_ch16: SimDef = {
         hook: 'Busy does not mean economic. The line isn\'t effort — it\'s exchange. Cook for family out of love: non-economic. Cook the same meal for pay: economic.',
     },
     teaching: [
-        { title: 'Understanding Economic Activities', text: 'Economic activities are actions performed by individuals to earn money or acquire goods and services of monetary value, such as working for a salary or selling produce.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The informal sector refers to economic.', text: 'The informal sector refers to economic work that is unregistered and unprotected — street vending, daily-wage labour, home-based piecework, small unregistered shops — where workers lack employment.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
-        { type: 'mission', nodeId: 'c6_civics_ch16_039', title: 'Your mission',
+        { type: 'mission', nodeId: 'c6_civics_ch16_004', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Sort a whole neighbourhood\'s day — shopkeepers, parents, volunteers, delivery riders — into paid work and unpaid care, then defend every borderline call.',
         labels: ['Understanding Economic Activities', 'Rights of Workers', 'Government\'s Role in'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c6_civics_ch16_004', title: 'The informal sector refers to economic.',
+          caseStudy: { intro: '1. Compare two workers: a bank clerk (appointment letter, fixed salary, leave, pension) and a vegetable vendor (no contract, income that stops when she stops).',
+            decisions: [{ prompt: 'Distinguish the formal from the informal sector.', options: [
+                { text: 'Formal work is registered and protected', outcome: 'Formal work is registered and protected — contract, fixed salary, security, benefits.' },
+                { text: '\'informal\' means \'illegal\'', outcome: 'Not quite — Students think \'informal\' means \'illegal\' — the vegetable vendor is doing something wrong.', reveals: 'informal-means-illegal-the-vegetable' }
+            ] }] } },
         { type: 'case', nodeId: 'c6_civics_ch16_039', title: 'Understanding Economic Activities',
           caseStudy: { intro: 'Think about your morning: did you see a shopkeeper opening their store or a parent cooking breakfast for the family?',
             decisions: [{ prompt: 'What is the primary difference between an economic activity and a non-economic activity?', options: [
@@ -48,7 +54,7 @@ export const c6_civics_ch16: SimDef = {
                 { text: 'Roads and public hospitals', outcome: 'Roads and public hospitals. A wrong answer suggests the student confuses private businesses (like.' },
                 { text: 'the economy', outcome: 'Not quite — Students often think "the economy" only refers to large banks or stock markets and ignore their own.', reveals: 'the-economy-only-refers-to' }
             ] }] } },
-        { type: 'case', nodeId: 'c6_civics_ch16_039', title: 'Use it in the wild',
+        { type: 'case', nodeId: 'c6_civics_ch16_004', title: 'Use it in the wild',
           caseStudy: { intro: 'A student spends a weekend building a bookshelf for his own room. The next weekend he builds an identical one for a neighbour, who pays him for the work. He asks, \'Same effort both times — so both were economic activity, right?\'',
             decisions: [{ prompt: 'Which of the two weekends counts as an economic activity?', options: [
                 { text: 'Only the paid one — economic activity is work done for payment or income. The identical labour becomes \'economic\' the moment money changes hands; building his own shelf stays a non-economic activity, though it is still real, valuable work — just like volunteering, which society values even without a price tag.', outcome: 'The dividing line is payment, not effort — the same hands doing the same work cross from non-economic to economic depending on whether it earns.' },
@@ -66,6 +72,32 @@ export const c6_civics_ch16: SimDef = {
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
+        { type: 'subpart', nodeId: 'c6_civics_ch16_004', difficulty: 'standard',
+          question: 'The informal sector refers to economic work that is unregistered and.',
+          hint: 'Work step by step.',
+          misconception: 'Students think \'informal\' means \'illegal\' — the vegetable vendor is doing something wrong.',
+          parts: [
+                { id: 'a', prompt: 'Distinguish the formal from the informal sector.', answer: 'Formal work is registered and protected',
+                  options: ['Formal work is registered and protected', '\'informal\' means \'illegal\''],
+                  hint: 'Think about the key idea.',
+                  misconception: 'Students think \'informal\' means \'illegal\' — the vegetable vendor is doing something wrong.' },
+                { id: 'b', prompt: 'A street vendor and a factory clerk both earn daily — who is economically safer and why?', answer: 'The clerk — fixed salary, contract, leave, pension',
+                  options: ['The clerk — fixed salary, contract, leave, pension', '\'informal\' means \'illegal\''],
+                  hint: 'Think about the key idea.',
+                  misconception: 'Students think \'informal\' means \'illegal\' — the vegetable vendor is doing something wrong.' }
+          ],
+            remediations: { 'informal-means-illegal-the-vegetable': { steps: ['Run the protection checklist on each worker: contract?', 'All yes = formal; all no = informal.', 'The sector label is about protection, not the work itself.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c6_civics_ch16_004', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students think \'informal\' means \'illegal\' — the vegetable vendor is doing something wrong.',
+          parts: [
+                { id: 'a', prompt: 'Give three examples of informal-sector work.', answer: 'Street vending, daily-wage construction labour, home-based piecework',
+                  options: ['Street vending, daily-wage construction labour, home-based piecework', '\'informal\' means \'illegal\''],
+                  hint: 'Think about the key idea.',
+                  misconception: 'Students think \'informal\' means \'illegal\' — the vegetable vendor is doing something wrong.' }
+          ],
+            remediations: { 'informal-means-illegal-the-vegetable': { steps: ['Run the protection checklist on each worker: contract?', 'All yes = formal; all no = informal.', 'The sector label is about protection, not the work itself.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_civics_ch16_039', difficulty: 'standard',
           question: 'Economic activities are actions performed by individuals to earn money.',
           hint: 'Review the "Anu and Kabir" story in the textbook to see examples of varied roles.',
@@ -92,17 +124,6 @@ export const c6_civics_ch16: SimDef = {
                   misconception: 'Students often confuse "rights" with "charity." They might think fair wages are a "gift" from a kind boss.' },
                 { id: 'b', prompt: 'Compare the position of a lone worker trying to ask for a raise versus a group of workers forming a trade union to bargain for better conditions.', answer: 'The union is stronger',
                   options: ['The union is stronger', 'rights', 'charity', 'fair wages are a "gift" from a kind boss'],
-                  hint: 'Review the definitions of economic activities in the textbook (Chapter 13).',
-                  misconception: 'Students often confuse "rights" with "charity." They might think fair wages are a "gift" from a kind boss.' }
-          ],
-            remediations: { 'students-often-confuse-rights-with': { steps: ['If a student thinks rights are optional, ask them: "If you played a game of cricket, would it be fair if the umpire let.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c6_civics_ch16_040', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often confuse "rights" with "charity." They might think fair wages are a "gift" from a kind boss.',
-          parts: [
-                { id: 'a', prompt: 'Should a shopkeeper be allowed to sell a product without showing the price or expiration date? Why or why not?', answer: 'No, because consumers have the right to be informed',
-                  options: ['No, because consumers have the right to be informed', 'rights', 'charity', 'fair wages are a "gift" from a kind boss'],
                   hint: 'Review the definitions of economic activities in the textbook (Chapter 13).',
                   misconception: 'Students often confuse "rights" with "charity." They might think fair wages are a "gift" from a kind boss.' }
           ],

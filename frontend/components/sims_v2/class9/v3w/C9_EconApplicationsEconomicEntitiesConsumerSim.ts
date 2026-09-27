@@ -6,7 +6,7 @@ import C9_EconApplicationsEconomicEntitiesConsumerSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_econapplicationseconomicentitiesconsumersim: SimDef = {
     id: 'v3w_c9_econapplicationseconomicentitiesconsumersim',
-    title: 'n Applications Economic Entities Consumer',
+    title: 'Economic Entities: The Consumer',
     subtitle: 'Covers the "What to Produce" central problem, the role of the Production Possibility.',
     classLevel: 9, subject: 'economics', topic: 'What to Produce: Economic Decision Making',
     chapters: [],
@@ -42,7 +42,7 @@ export const w_c9_econapplicationseconomicentitiesconsumersim: SimDef = {
             { text: 'Explain the increase: Income effect — at ₹30, Riya\'s pocket money buys more notebooks (real income rises).', faded: true, blankAnswer: '(a) Downward-sloping curve through the five plotted points..' }
             ] } },
         { type: 'dissect', nodeId: 'c9_eco_ch2_3', title: 'Identify each idea',
-          dissect: { specimen: 'n Applications Economic Entities Consumer', spots: [
+          dissect: { specimen: 'Economic Entities: The Consumer', spots: [
             { id: 's1', label: 'The What to Produce problem', prompt: 'Which idea is this? — The "What to Produce" problem refers to the fundamental economic decision of allocating.', answer: 'The What to Produce problem', options: ['The What to Produce problem', 'The demand curve is a'] },
             { id: 's2', label: 'The demand curve is a', prompt: 'Which idea is this? — The demand curve is a graphical representation of the law of demand, showing the inverse.', answer: 'The demand curve is a', options: ['The demand curve is a', 'The What to Produce problem'] }
           ] } }

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch11_p2: SimDef = {
     id: 'v3_c11_hin_ar_ch11_p2',
-    title: 'èkeZohj Hkkjrh · Part 2/3',
+    title: 'पाठ 11 · Part 2/3',
     subtitle: 'Walk through a remembered home that slowly relocates inside the speaker.',
-    classLevel: 11, subject: 'hin_ar', topic: 'èkeZohj Hkkjrh · Part 2/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 11 · Part 2/3',
     chapters: ['c11_hin_ar_ch11'],
     nodeIds: ['c11_hin_ar_cbse_11_007', 'c11_hin_ar_cbse_11_008', 'c11_hin_ar_cbse_11_009', 'c11_hin_ar_cbse_11_010', 'c11_hin_ar_cbse_11_011', 'c11_hin_ar_cbse_11_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,48 +19,20 @@ export const c11_hin_ar_ch11_p2: SimDef = {
         hook: 'The poem moves house → people → self: first walls and courtyards, then a father\'s voice and a mother\'s cooking, then the realization the home now lives inside the speaker.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas, motifs, or messages that run parallel to the primary theme in a literary work, enriching the text by adding layers of meaning, exploring related human.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 11 — गौण विषय', text: 'गौण विषय (Sub-theme) कथा-साहित्य में वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता हुआ, उसे पुष्ट करता हुआ, विस्तार देता हुआ या उसके विरोधाभास को उजागर करता हुआ, कृति के अर्थ-क्षेत्र को.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_11_007', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Split the poem into its three phases — physical house, human presence, internal landscape — and test what the circular ending gains.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
+        labels: ['पाठ 11 — गौण', 'पाठ 11 — साहित्यिक', 'पाठ 11 — पदावली', 'पाठ 11 — व्याकरण', 'पाठ 11 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_11_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are sitting in a hostel room far from home, and a sudden smell of rain on dry earth (mitti ki khushboo) transports you back to your childhood.',
-            decisions: [{ prompt: 'What is the difference between imagery and metaphor? Give one example of each from the poem "Ghar ki Yaad" (you may describe the example.', options: [
-                { text: 'Imagery refers to descriptive language that appeals to the five senses (e.g., the visual', outcome: 'Imagery refers to descriptive language that appeals to the five senses (e.g., the visual image.' },
-                { text: 'confuses the two (e', outcome: 'Not quite — Students often think that any descriptive phrase is imagery, and any comparison is a metaphor.', reveals: 'any-descriptive-phrase-is-imagery' },
-                { text: 'any descriptive phrase is imagery, and any comparison is a metaphor', outcome: 'Not quite — Students often think that any descriptive phrase is imagery, and any comparison is a metaphor.', reveals: 'any-descriptive-phrase-is-imagery' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_11_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are sitting in a new city, far from your childhood home, and you see a house that looks exactly like yours but feels completely unfamiliar.',
-            decisions: [{ prompt: 'Define irony and symbolism in your own words, giving one example of each from everyday life (not from the poem).', options: [
-                { text: 'Irony: A situation where the opposite of what is expected happens (e.g., a fire station', outcome: 'Irony: A situation where the opposite of what is expected happens (e.g., a fire station burning.' },
-                { text: 'not home', outcome: 'Not quite — Students often think irony in this poem is only about the physical distance from home, missing the.', reveals: 'irony-in-this-poem-is' },
-                { text: 'symbolism is just decoration, not representation', outcome: 'Not quite — Students often think irony in this poem is only about the physical distance from home, missing the.', reveals: 'irony-in-this-poem-is' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_11_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading a WhatsApp message from a friend: "Ghar aaj bahut yaad aa raha hai." You instantly know "ghar" here doesn\'t just mean a building with.',
-            decisions: [{ prompt: 'Define the term \'uouhr\' (ऊउहर) as used in the line "cfgu vkbZ cki osQ ?kj" and explain why the poet chooses this specific Tadbhav word over.', options: [
-                { text: '\'uouhr\' is a Tadbhav (तद्भव) word derived from Sanskrit \'anath\', meaning \'orphan\' or', outcome: '\'uouhr\' is a Tadbhav (तद्भव) word derived from Sanskrit \'anath\', meaning \'orphan\' or \'helpless\'.' },
-                { text: 'it just means orphan', outcome: 'Not quite — Students treat \'Vocabulary in Context\' as "find the synonym from the options given." They memorize.', reveals: 'students-treat-vocabulary-in-context' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_11_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine a friend telling you about a childhood home: "I *lived* there. I *played* in that courtyard.',
-            decisions: [{ prompt: 'Explain in your own words how a poet\'s choice of tense (past, present, future) shapes the reader\'s experience of a poem about memory.', options: [
-                { text: 'Past tense creates distance', outcome: 'Past tense creates distance — the event is over, the speaker is separated from it by time, and the.' },
-                { text: 'when the action happens', outcome: 'Not quite — Students treat grammar as a *separate layer* from meaning — they analyze "what the poem says".', reveals: 'students-treat-grammar-as-a' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_11_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you receive a text from a friend: "Reached station. Train late." Literal: friend is at station, train is delayed.',
-            decisions: [{ prompt: 'Identify the type of question: "कविता में \'पिता\' शब्द कितनी बार आया है?" (How many times does the word \'father\' appear in the poem?)', options: [
-                { text: 'This is a **literal** question', outcome: 'This is a **literal** question because the answer can be found by directly counting the occurrences.' },
-                { text: 'counting/retrieving', outcome: 'Not quite — Students believe "inferential" means "write your feelings about the poem." They write: "I feel sad.', reveals: 'inferential-means-write-your-feelings' },
-                { text: 'interpreting', outcome: 'Not quite — Students believe "inferential" means "write your feelings about the poem." They write: "I feel sad.', reveals: 'inferential-means-write-your-feelings' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_11_008', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 11 · Part 2/3', spots: [
+            { id: 's1', label: '11 -', prompt: 'Which idea is this? — भाषा-प्रयोग (Language Use) refers to the conscious selection and arrangement.', answer: '11 -', options: ['11 -', '11 - -'] },
+            { id: 's2', label: '11 - -', prompt: 'Which idea is this? — **वस्तुनिष्ठ प्रश्न** वे हैं जिनका उत्तर निश्चित, संक्षिप्त और एकरेखीय होता है (तथ्यात्मक.', answer: '11 - -', options: ['11 - -', '11 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_11_007', title: 'Use it in the wild',
           caseStudy: { intro: 'At a poetry recital rehearsal, a classmate prepares Bachchan\'s \'Ghar ki Yaad\' and announces: \'It\'s a descriptive poem — the poet lists the walls, rooms and courtyard of his old house. I\'ll read it flat, like an estate agent\'s inventory.\'',
             decisions: [{ prompt: 'What should the performance convey instead?', options: [
@@ -70,8 +42,8 @@ export const c11_hin_ar_ch11_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_11_012', title: 'The bigger picture',
           caseStudy: { intro: 'The house that \'stood silent\' in stanza one ends \'living in me\' — the same line, transformed by twelve stanzas of remembering.',
-            decisions: [{ prompt: 'What comes next? èkeZohj Hkkjrh · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — èkeZohj Hkkjrh · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 11 · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 11 · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -80,90 +52,71 @@ export const c11_hin_ar_ch11_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_11_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas, motifs, or messages that run.',
-          hint: 'If stuck, review the distinction between "topic" (e.g., mother) and "theme" (e.g.',
-          misconception: 'Students often confuse **secondary themes with mere topics or motifs**.',
+          question: 'गौण विषय (Sub-theme) कथा-साहित्य में वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के.',
+          hint: 'यदि अटके तो नोड 006 (मुख्य विषय) पर लौटें: मुख्य विषय को 3-4 कीवर्ड में लिखें, फिर पाठ.',
+          misconception: '**विशिष्ट भ्रम**: छात्र अक्सर **\'गौण पात्र\' (minor character)** और **\'गौण विषय\' (sub-theme)** को मिला देते हैं। वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the underlying ideas, motifs, or messages that run parallel to the',
-                  options: ['Secondary themes are the underlying ideas, motifs, or messages that run parallel to the', '"Before You Read: Context and Background" is a preparatory stage where students gather', 'Narrative structure in poetry refers to the organized sequence of stanzas, images, and', 'Setting refers to the physical, temporal, and social backdrop against which the poem\'s'],
-                  hint: 'If stuck, review the distinction between "topic" (e.g., mother) and "theme" (e.g., maternal.',
-                  misconception: 'Students often confuse **secondary themes with mere topics or motifs**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) कथा-साहित्य में वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर',
+                  options: ['गौण विषय (Sub-theme) कथा-साहित्य में वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर', '**पृष्ठभूमि** किसी रचना के सृजन के पीछे कार्यरत ऐतिहासिक, सामाजिक, सांस्कृतिक एवं', '**कथानक (Plot)** is the causal and logical sequence of events that constitute the story\'s', 'पाठ्य-परिवेश और वातावरण (Setting and Atmosphere) किसी रचना में वर्णित वह समग्र पृष्ठभूमि'],
+                  hint: 'यदि अटके तो नोड 006 (मुख्य विषय) पर लौटें: मुख्य विषय को 3-4 कीवर्ड में लिखें, फिर पाठ दुबारा पढ़ते.',
+                  misconception: '**विशिष्ट भ्रम**: छात्र अक्सर **\'गौण पात्र\' (minor character)** और **\'गौण विषय\' (sub-theme)** को मिला देते हैं। वे सोचते हैं: "मित्र एक गौण.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['** Give the student a list of 5 nouns from the poem (mother, father, house, children, stove).', '** Provide two model thematic statements (one primary, one secondary) and ask the student to label them and justify.', '** Have the student re-read stanzas 4-6 (mother\'s description) and 7-9 (father\'s absence) and write one thematic.', '** If still stuck, use the "So what?" ladder: "The poem mentions the stove." -> "So what?" -> "The mother works at the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'minor-character-sub-theme': { steps: ['**पृथक्करण अभ्यास**: छात्र से कहो—पाठ के 5 पात्रों के नाम लिखो (स्तंभ अ) और 5 विचार/संघर्ष लिखो जो पाठ में उठते हैं.', '**प्रसंग-निष्कर्षण**: एक गौण विषय (जैसे \'भाषा का संकट\') दो। छात्र से कहो—पाठ से **तीन** भिन्न प्रसंग (अलग पात्र/स्थिति).', '**मुख्य-विषय से संवाद**: प्रत्येक प्रसंग के लिए छात्र से एक वाक्य में लिखवाओ: "यह प्रसंग मुख्य विषय \'X\' को कैसे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_11_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid and descriptive language that appeals to the senses.',
-          hint: 'If stuck, review the poem\'s narrative structure (c11_hin_ar_cbse_11_002) and the.',
-          misconception: 'Students often think that any descriptive phrase is imagery, and any comparison is a metaphor.',
+          question: '**बिंब (Imagery)** शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण.',
+          hint: 'यदि अटके तो **नोड 006 (मुख्य विषय और संदेश)** दोबारा पढ़ें — विषय स्पष्ट होते ही.',
+          misconception: '**सबसे घातक भ्रम**: छात्र **बिंब (Imagery)** को **अलंकार (Figure of Speech)** का पर्याय मान लेते हैं — जैसे "बिंब एक.',
           parts: [
-                { id: 'a', prompt: 'Identify a metaphor in the poem where the house is compared to something else.', answer: 'One metaphor is \'ghar mandir hai\' (home is a temple)',
-                  options: ['One metaphor is \'ghar mandir hai\' (home is a temple)', 'any descriptive phrase is imagery, and any comparison is a metaphor'],
-                  hint: 'If stuck, review the poem\'s narrative structure (c11_hin_ar_cbse_11_002) and the character of the.',
-                  misconception: 'Students often think that any descriptive phrase is imagery, and any comparison is a metaphor.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण, स्पर्श, गंध,',
+                  options: ['**बिंब (Imagery)** शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण, स्पर्श, गंध,', '**पृष्ठभूमि** किसी रचना के सृजन के पीछे कार्यरत ऐतिहासिक, सामाजिक, सांस्कृतिक एवं', '**कथानक (Plot)** is the causal and logical sequence of events that constitute the story\'s', 'पाठ्य-परिवेश और वातावरण (Setting and Atmosphere) किसी रचना में वर्णित वह समग्र पृष्ठभूमि'],
+                  hint: 'यदि अटके तो **नोड 006 (मुख्य विषय और संदेश)** दोबारा पढ़ें — विषय स्पष्ट होते ही युक्तियाँ \'क्यों\'.',
+                  misconception: '**सबसे घातक भ्रम**: छात्र **बिंब (Imagery)** को **अलंकार (Figure of Speech)** का पर्याय मान लेते हैं — जैसे "बिंब एक अलंकार है" लिख देना।.' }
           ],
-            remediations: { 'any-descriptive-phrase-is-imagery': { steps: ['If a student cannot distinguish imagery from metaphor, do this: (1) Give them three short sentences: one factual, one.', 'Ask them to label each and justify.', '(2) Have them close their eyes and describe a childhood memory using only senses – then ask which words created the.', '(3) Show the line \'ghar mandir hai\' and ask: \'Does the poet say the house is *like* a temple, or *is* a temple?\' (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_11_008', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often think that any descriptive phrase is imagery, and any comparison is a metaphor.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the effectiveness of the metaphor \'the house is a temple of memories\' versus a possible simile \'the house is like a temple of memories\'.', answer: 'The metaphor is more effective',
-                  options: ['The metaphor is more effective', 'any descriptive phrase is imagery, and any comparison is a metaphor'],
-                  hint: 'If stuck, review the poem\'s narrative structure (c11_hin_ar_cbse_11_002) and the character of the.',
-                  misconception: 'Students often think that any descriptive phrase is imagery, and any comparison is a metaphor.' }
-          ],
-            remediations: { 'any-descriptive-phrase-is-imagery': { steps: ['If a student cannot distinguish imagery from metaphor, do this: (1) Give them three short sentences: one factual, one.', 'Ask them to label each and justify.', '(2) Have them close their eyes and describe a childhood memory using only senses – then ask which words created the.', '(3) Show the line \'ghar mandir hai\' and ask: \'Does the poet say the house is *like* a temple, or *is* a temple?\' (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'imagery-figure-of-speech': { steps: ['**चरण 1**: छात्र से कहो — "आँख बंद करो और \'आम का अचार\' सोचो। क्या तुम्हें **खट्टापन** (स्वाद बिंब), **गंध** (घ्राण.', 'यह **बिंब** है — कोई अलंकार नहीं, केवल **इंद्रिय-जागरण**।" **चरण 2**: अब कहो — "अब बोलो: \'यादें आम के अचार जैसी खट्टी.', 'रूपक में \'जैसे\' नहीं, **सीधा आरोप**।" **चरण 3**: अभ्यास कराओ — पाठ से 5 पंक्तियाँ चुनवाओ, प्रत्येक में बिंब-प्रकार और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_11_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words is opposite.',
-          hint: 'Review the concept of metaphor and connotation from node c11_hin_ar_cbse_11_008 (Literary.',
-          misconception: 'Students often think irony in this poem is only about the physical distance from home, missing the deeper existential.',
+          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में आत्म-विरोधी.',
+          hint: 'यदि फँसें तो **नोड c11_hin_ar_cbse_11_008** के "बिंब बनाम रूपक" खंड को दोबारा पढ़ें और.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र प्रायः **विरोधाभास (Paradox)** को **विरोधाभासी स्थिति (Oxymoron)** समझ लेते हैं और दोनों को.',
           parts: [
-                { id: 'a', prompt: 'Compare the use of irony in the first stanza (where the poet says the house is far away) with the irony in the last stanza (where he says he is right but this.', answer: 'In the first stanza, irony is spatial: the house is physically distant',
-                  options: ['In the first stanza, irony is spatial: the house is physically distant', 'not home'],
-                  hint: 'Review the concept of metaphor and connotation from node c11_hin_ar_cbse_11_008 (Literary Devices.',
-                  misconception: 'Students often think irony in this poem is only about the physical distance from home, missing the deeper existential irony: the poet.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में आत्म-विरोधी',
+                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में आत्म-विरोधी', '**पृष्ठभूमि** किसी रचना के सृजन के पीछे कार्यरत ऐतिहासिक, सामाजिक, सांस्कृतिक एवं', '**कथानक (Plot)** is the causal and logical sequence of events that constitute the story\'s', 'पाठ्य-परिवेश और वातावरण (Setting and Atmosphere) किसी रचना में वर्णित वह समग्र पृष्ठभूमि'],
+                  hint: 'यदि फँसें तो **नोड c11_hin_ar_cbse_11_008** के "बिंब बनाम रूपक" खंड को दोबारा पढ़ें और 3-4 उदाहरणों.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र प्रायः **विरोधाभास (Paradox)** को **विरोधाभासी स्थिति (Oxymoron)** समझ लेते हैं और दोनों को समानार्थी मानते हैं।.' }
           ],
-            remediations: { 'irony-in-this-poem-is': { steps: ['Reread the poem focusing only on the word "घर" in each stanza; note how its meaning shifts from a physical place to.', 'List every concrete object mentioned (threshold, lap, voice, letters) and write what abstract feeling each evokes.', 'Practice writing one PEEL paragraph for one symbol, using the template: "The [object] symbolizes [abstract idea].', 'Discuss with a peer: "If the poet had said \'I miss my house\' directly, what would be lost?" to grasp the function.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'paradox-oxymoron-oxymoron': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**अंतर स्पष्टीकरण (15 मिनट):** दो कॉलम बनाएँ — बाएँ **Oxymoron** (पदबंध स्तर, दो शब्द), दाएँ **Paradox** (वाक्य/स्थिति.', '**प्रतीक बनाम रूपक/बिंब (15 मिनट):** त्रिकोण आरेख (Venn Diagram) खींचें — तीनों के **साझे गुण** (तुलनात्मक/चित्रात्मक).', '**अभ्यास (10 मिनट):** पाठ 11 के किसी अंश से 3-4 वाक्य दें; छात्र चिह्नित करे: यह Oxymoron है, Paradox है, Symbol है.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_11_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
-          hint: 'If stuck, review the "Imagery and Metaphor" node (c11_hin_ar_cbse_11_008) to refresh the.',
-          misconception: 'Students treat \'Vocabulary in Context\' as "find the synonym from the options given." They memorize the NCERT \'kCn&Nfo\'.',
+          question: 'पदावली: मुख्य शब्द वे **महत्वपूर्ण पद/शब्द** हैं जो पाठ के केंद्रीय भाव.',
+          hint: 'यदि अटके तो **\'पाठ का केंद्रीय विषय\' (नोड 11_006)** और **\'बिंब-रूपक\' (नोड 11_008)**.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'मुख्य शब्द\' = \'कठिन/क्लिष्ट/संस्कृतनिष्ठ शब्द\'**। वे सरल, बोलचाल के शब्दों.',
           parts: [
-                { id: 'a', prompt: 'Analyze the semantic shift of the word \'ifjrki\' (अफजर्की) from its standard meaning \'helpless/dependent\' to its contextual meaning in "gk; js ifjrki osQ ?kj!".', answer: 'Standard meaning: \'ifjrki\' = one who lacks support (nirashrit)',
-                  options: ['Standard meaning: \'ifjrki\' = one who lacks support (nirashrit)', 'poor/helpless'],
-                  hint: 'If stuck, review the "Imagery and Metaphor" node (c11_hin_ar_cbse_11_008) to refresh the poem\'s.',
-                  misconception: 'Students treat \'Vocabulary in Context\' as "find the synonym from the options given." They memorize the NCERT \'kCn&Nfo\' glossary (e.g., gsVs.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली: मुख्य शब्द वे **महत्वपूर्ण पद/शब्द** हैं जो पाठ के केंद्रीय भाव, विषय-वस्तु,',
+                  options: ['पदावली: मुख्य शब्द वे **महत्वपूर्ण पद/शब्द** हैं जो पाठ के केंद्रीय भाव, विषय-वस्तु,', '**पृष्ठभूमि** किसी रचना के सृजन के पीछे कार्यरत ऐतिहासिक, सामाजिक, सांस्कृतिक एवं', '**कथानक (Plot)** is the causal and logical sequence of events that constitute the story\'s', 'पाठ्य-परिवेश और वातावरण (Setting and Atmosphere) किसी रचना में वर्णित वह समग्र पृष्ठभूमि'],
+                  hint: 'यदि अटके तो **\'पाठ का केंद्रीय विषय\' (नोड 11_006)** और **\'बिंब-रूपक\' (नोड 11_008)** दोहराएँ — मुख्य.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'मुख्य शब्द\' = \'कठिन/क्लिष्ट/संस्कृतनिष्ठ शब्द\'**। वे सरल, बोलचाल के शब्दों (जैसे \'रोटी\', \'आँसू\'.' }
           ],
-            remediations: { 'students-treat-vocabulary-in-context': { steps: ['**Ban the Glossary:** Physically cover the \'kCn&Nfo\' box at the end of the poem.', '**Sound-First Drill:** Have the student read the target stanza *only aloud* 3 times, marking where the voice naturally.', '**Synonym Substitution Test:** Ask them to replace the target word with 3 synonyms (e.g., for \'gsVs\': bhay, dar, trasa).', 'They must articulate *what is lost* in sound, rhythm, and image with each swap.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1 (तत्काल सुधार):** छात्र को पाठ से **5 सबसे सरल शब्द** चुनने को कहें (जिन्हें वह \'मामूली\' समझता हो)। **चरण 2.', 'यदि अलग, तो कैसे?" **चरण 4 (सिद्धांत स्थापन):** स्वयं खोजने दें कि सरल शब्द ही **सबसे अधिक \'बहु-अर्थी\' (Polysemous)**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_11_011', difficulty: 'standard',
-          question: 'Grammar in the context of literary analysis refers to the study of how.',
-          hint: 'If the student cannot connect grammar to emotion, return to node 006 (Theme) and.',
-          misconception: 'Students treat grammar as a *separate layer* from meaning — they analyze "what the poem says" (content) and "what.',
+          question: 'भाषा-प्रयोग (Language Use) refers to the conscious selection and arrangement.',
+          hint: 'If stuck, review \'वाक्य भेद\' (sentence types), \'सर्वनाम विशेषकर पुरुषवाचक सर्वनाम के भेद\'.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'भाषा-प्रयोग विश्लेषण\' का अर्थ है — पाठ में आए *कठिन/तत्सम शब्दों की सूची.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words how a poet\'s choice of tense (past, present, future) shapes the reader\'s experience of a poem about memory.', answer: 'Past tense creates distance',
-                  options: ['Past tense creates distance', 'when the action happens'],
-                  hint: 'If the student cannot connect grammar to emotion, return to node 006 (Theme) and re-establish the.',
-                  misconception: 'Students treat grammar as a *separate layer* from meaning — they analyze "what the poem says" (content) and "what devices it uses".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'भाषा-प्रयोग (Language Use) refers to the conscious selection and arrangement of',
+                  options: ['भाषा-प्रयोग (Language Use) refers to the conscious selection and arrangement of', '**पृष्ठभूमि** किसी रचना के सृजन के पीछे कार्यरत ऐतिहासिक, सामाजिक, सांस्कृतिक एवं', '**कथानक (Plot)** is the causal and logical sequence of events that constitute the story\'s', 'पाठ्य-परिवेश और वातावरण (Setting and Atmosphere) किसी रचना में वर्णित वह समग्र पृष्ठभूमि'],
+                  hint: 'If stuck, review \'वाक्य भेद\' (sentence types), \'सर्वनाम विशेषकर पुरुषवाचक सर्वनाम के भेद\' (pronoun.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'भाषा-प्रयोग विश्लेषण\' का अर्थ है — पाठ में आए *कठिन/तत्सम शब्दों की सूची बनाना* या *व्याकरणिक.' }
           ],
-            remediations: { 'students-treat-grammar-as-a': { steps: ['Select a key stanza from the poem. Have the student identify every verb and label its tense (past, present, future).', 'Have the student mark every repeated word or phrase in the stanza. Ask: "Is the repetition exact or varied?', 'Have the student identify the sentence boundaries — where does each sentence start and end? Are there fragments?', 'Have the student rewrite the stanza in a single tense, without repetition, in complete sentences.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**पहला कदम:** छात्र से कहें — "पाठ का कोई एक संवाद जोर से पढ़ो, जैसे तुम वही पात्र हो। फिर वही बात \'स्कूल के.', 'लिखो।" इससे वे \'रजिस्टर परिवर्तन\' (register shift) को शरीरानुभव करेंगे। 2.', '**दूसरा कदम:** पाठ से दो वाक्य दें — एक आंचलिक संवाद, एक साहित्यिक वर्णन। पूछें: "अगर लेखक यहाँ भी वही शब्द इस्तेमाल.', '**तीसरा कदम:** एक तालिका बनवाएँ: स्तंभ — पात्र / शब्द चयन / सर्वनाम / वाक्य प्रकार / प्रभाव। छात्र स्वयं भरें। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_11_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information explicitly.',
-          hint: 'If stuck, review the annotated summary of stanzas 2, 5, and 8 from node 002 (Plot) and.',
-          misconception: 'Students believe "inferential" means "write your feelings about the poem." They write: "I feel sad because the house.',
+          question: '**वस्तुनिष्ठ प्रश्न** वे हैं जिनका उत्तर निश्चित, संक्षिप्त और एकरेखीय होता है.',
+          hint: 'यदि फंसे हों तो **नोड 006 (मुख्य विषय और संदेश)** और **नोड 009 (विरोधाभास और प्रतीक)** को.',
+          misconception: '**विशिष्ट भ्रम**: छात्र समझते हैं कि **\'आशय-सूचक\' का अर्थ \'अपनी राय/कल्पना लिखना\' है**। वे उत्तर में पाठ-आधारित प्रमाण.',
           parts: [
-                { id: 'a', prompt: 'Identify the type of question: "कविता में \'पिता\' शब्द कितनी बार आया है?" (How many times does the word \'father\' appear in the poem?)', answer: 'This is a **literal** question',
-                  options: ['This is a **literal** question', 'counting/retrieving', 'interpreting', 'inferential'],
-                  hint: 'If stuck, review the annotated summary of stanzas 2, 5, and 8 from node 002 (Plot) and the imagery.',
-                  misconception: 'Students believe "inferential" means "write your feelings about the poem." They write: "I feel sad because the house is gone" instead.' },
-                { id: 'b', prompt: 'Explain in your own words why the poet describes the house as "यादों का घर" (house of memories) rather than just "मेरा घर" (my house).', answer: 'This is an **inferential** question',
-                  options: ['This is an **inferential** question', 'because the poet likes memories', 'inferential', 'write your feelings about the poem'],
-                  hint: 'If stuck, review the annotated summary of stanzas 2, 5, and 8 from node 002 (Plot) and the imagery.',
-                  misconception: 'Students believe "inferential" means "write your feelings about the poem." They write: "I feel sad because the house is gone" instead.' },
-                { id: 'c', prompt: 'Compare the literal meaning of "नक्शा" (map) in the line "नक्शा बना लिया था" with its inferred symbolic meaning in the context of the poem\'s theme.', answer: '**Literal:** A physical architectural plan drawn by the father',
-                  options: ['**Literal:** A physical architectural plan drawn by the father', 'map means plan', 'inferential', 'write your feelings about the poem'],
-                  hint: 'If stuck, review the annotated summary of stanzas 2, 5, and 8 from node 002 (Plot) and the imagery.',
-                  misconception: 'Students believe "inferential" means "write your feelings about the poem." They write: "I feel sad because the house is gone" instead.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वस्तुनिष्ठ प्रश्न** वे हैं जिनका उत्तर निश्चित, संक्षिप्त और एकरेखीय होता है (तथ्यात्मक',
+                  options: ['**वस्तुनिष्ठ प्रश्न** वे हैं जिनका उत्तर निश्चित, संक्षिप्त और एकरेखीय होता है (तथ्यात्मक', '**पृष्ठभूमि** किसी रचना के सृजन के पीछे कार्यरत ऐतिहासिक, सामाजिक, सांस्कृतिक एवं', '**कथानक (Plot)** is the causal and logical sequence of events that constitute the story\'s', 'पाठ्य-परिवेश और वातावरण (Setting and Atmosphere) किसी रचना में वर्णित वह समग्र पृष्ठभूमि'],
+                  hint: 'यदि फंसे हों तो **नोड 006 (मुख्य विषय और संदेश)** और **नोड 009 (विरोधाभास और प्रतीक)** को दोहराएं.',
+                  misconception: '**विशिष्ट भ्रम**: छात्र समझते हैं कि **\'आशय-सूचक\' का अर्थ \'अपनी राय/कल्पना लिखना\' है**। वे उत्तर में पाठ-आधारित प्रमाण (Textual Evidence).' }
           ],
-            remediations: { 'inferential-means-write-your-feelings': { steps: ['**Re-anchor:** Give the student 3 explicit lines from the poem.', 'Ask: "What does this line *say*?" (Literal).', '**Bridge:** Ask: "What does this line *suggest* about the father/poet/time?" Force them to use the stem: "The line \'X\'.', '**Categorize:** Present 5 mixed questions.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'textual-evidence': { steps: ['**चरण 1**: छात्र को एक ही विषय पर दो प्रश्न दें — एक वस्तुनिष्ठ ("होरी की मृत्यु कैसे हुई?"), एक आशय-सूचक ("होरी की.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

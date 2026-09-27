@@ -16,7 +16,7 @@ export const w_c12_chemistrysolutionscbsesim: SimDef = {
     discovery: {
         question: 'Name the type of solution formed when oxygen gas dissolves in water. Identify the solute and solvent.',
         options: ['Correct answer: Liquid solution', 'gas in gas', 'solid in liquid'],
-        answer: 'Correct answer: Liquid solution',
+        answer: 'Liquid solution',
         hook: 'Students often think the solute\'s physical state decides the solution type.',
     },
     teaching: [
@@ -97,15 +97,15 @@ export const w_c12_chemistrysolutionscbsesim: SimDef = {
           hint: 'If stuck, review Class 9 "Solutions: Solute, Solvent and Concentration" (c9_chem_ch1_2).',
           misconception: 'Students often think the solute\'s physical state decides the solution type.',
           parts: [
-                { id: 'a', prompt: 'Name the type of solution formed when oxygen gas dissolves in water. Identify the solute and solvent.', answer: 'Correct answer: Liquid solution',
+                { id: 'a', prompt: 'Name the type of solution formed when oxygen gas dissolves in water. Identify the solute and solvent.', answer: 'Liquid solution',
                   options: ['Correct answer: Liquid solution', 'gas in gas', 'solid in liquid'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think the solute\'s physical state decides the solution type.' },
-                { id: 'b', prompt: 'A dentist uses an amalgam of mercury (liquid) and silver (solid) for fillings.', answer: 'Correct answer: Solid solution',
+                { id: 'b', prompt: 'A dentist uses an amalgam of mercury (liquid) and silver (solid) for fillings.', answer: 'Solid solution',
                   options: ['Correct answer: Solid solution', 'solid in liquid', 'liquid in solid'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think the solute\'s physical state decides the solution type.' },
-                { id: 'c', prompt: 'Compare the three gaseous solutions in Table 1.1 (gas in gas, liquid in gas, solid in gas).', answer: 'Correct answer: In all three, the solvent is a gas',
+                { id: 'c', prompt: 'Compare the three gaseous solutions in Table 1.1 (gas in gas, liquid in gas, solid in gas).', answer: 'In all three, the solvent is a gas',
                   options: ['Correct answer: In all three, the solvent is a gas', 'all are gases', 'solid in liquid'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think the solute\'s physical state decides the solution type.' }

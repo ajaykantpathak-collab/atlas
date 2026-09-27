@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo, Suspense } from 'react';
 import dynamic from 'next/dynamic';
+import { sanitizeHtml } from '@/lib/sanitize';
 
 // CSS is imported once at module level (Next.js deduplicates)
 import 'katex/dist/katex.min.css';
@@ -64,7 +65,7 @@ function KatexRenderer({
   return (
     <span
       className={className}
-      dangerouslySetInnerHTML={{ __html: html }}
+      dangerouslySetInnerHTML={{ __html: sanitizeHtml(html) }}
     />
   );
 }

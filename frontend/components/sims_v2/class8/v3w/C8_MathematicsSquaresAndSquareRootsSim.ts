@@ -105,7 +105,7 @@ export const w_c8_mathematicssquaresandsquarerootssim: SimDef = {
           hint: 'Revisit prime factorization (c6_math_ch01_015) and practice writing numbers as products.',
           misconception: 'Students often believe that if a number passes the units digit test (ends in 0,1,4,5,6,9) and has an even number of.',
           parts: [
-                { id: 'a', prompt: 'Which of the following numbers is **guaranteed** to be a perfect square based only on its units digit? A) 324 B) 156 C) 289 D) 432', answer: 'Correct answer: A) 324 and C) 289 (both end in 4 or 9',
+                { id: 'a', prompt: 'Which of the following numbers is **guaranteed** to be a perfect square based only on its units digit? A) 324 B) 156 C) 289 D) 432', answer: 'A) 324 and C) 289 (both end in 4 or 9',
                   options: ['Correct answer: A) 324 and C) 289 (both end in 4 or 9', '**any** number ending in 0,1,4,5,6,9 is a perfect square (e'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that if a number passes the units digit test (ends in 0,1,4,5,6,9) and has an even number of trailing zeros, it.' },

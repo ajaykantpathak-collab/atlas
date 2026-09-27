@@ -54,7 +54,7 @@ export const w_c12_computersciencejavaprojectbankingsim: SimDef = {
         { type: 'case', nodeId: 'c12_cs_cbse_13_001', title: 'Technology refers to the application of.',
           caseStudy: { intro: 'Imagine you are handed a smartphone in 2010 and another in 2024 — both are "technology", yet the 2024 device has reshaped how a farmer in Maharashtra checks.',
             decisions: [{ prompt: 'Define "technology" in the context of societal impact analysis.', options: [
-                { text: 'Correct answer: Technology is the *application* of scientific knowledge through', outcome: 'Correct answer: Technology is the *application* of scientific knowledge through engineered.' },
+                { text: 'Technology is the *application* of scientific knowledge through', outcome: 'Technology is the *application* of scientific knowledge through engineered.' },
                 { text: 'gadgets', outcome: 'Not quite — Students conflate "technology impact" with "listing features of a gadget".', reveals: 'students-conflate-technology-impact-with' },
                 { text: 'computers', outcome: 'Not quite — Students conflate "technology impact" with "listing features of a gadget".', reveals: 'students-conflate-technology-impact-with' }
             ] }] } }
@@ -129,7 +129,7 @@ export const w_c12_computersciencejavaprojectbankingsim: SimDef = {
           hint: 'Revisit `c11_stat_cbse_02_007` (sampling methods) and `c11_stat_cbse_07_010` (correlation.',
           misconception: 'Students conflate "technology impact" with "listing features of a gadget".',
           parts: [
-                { id: 'a', prompt: 'Define "technology" in the context of societal impact analysis. Your definition must distinguish it from "science" and "engineering" in one sentence.', answer: 'Correct answer: Technology is the *application* of scientific knowledge through',
+                { id: 'a', prompt: 'Define "technology" in the context of societal impact analysis. Your definition must distinguish it from "science" and "engineering" in one sentence.', answer: 'Technology is the *application* of scientific knowledge through',
                   options: ['Correct answer: Technology is the *application* of scientific knowledge through', 'gadgets', 'computers'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students conflate "technology impact" with "listing features of a gadget".' },

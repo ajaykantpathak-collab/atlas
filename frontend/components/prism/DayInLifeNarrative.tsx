@@ -30,7 +30,7 @@ const TIMES = [
     story: (s: typeof STUDENTS[0]) => `On the bus to school, ${s.name} flips through 5 flashcards from yesterday's ${s.subject} session. Two were due today — Prism's spaced repetition knows exactly when to bring them back.`,
   },
   { time: '4:00 PM', icon: BookOpen, title: 'After School Session', color: '#38BDF8',
-    story: (s: typeof STUDENTS[0]) => `Back from school. ${s.name} opens the ${s.topic} lesson. Prism AI doesn't just give answers — it asks questions. "What do you think happens when..." ${s.name} types their guess. Prism guides them to the right answer.`,
+    story: (s: typeof STUDENTS[0]) => `Back from school. ${s.name} opens the ${s.topic} lesson. Atlas AI doesn't just give answers — it asks questions. "What do you think happens when..." ${s.name} types their guess. Prism guides them to the right answer.`,
   },
   { time: '7:30 PM', icon: Brain, title: 'Practice & XP', color: '#A78BFA',
     story: (s: typeof STUDENTS[0]) => `Dinner done. ${s.name} tackles 5 practice questions on ${s.topic}. Gets 4 right. Earns 40 XP. Streak: 12 days. Level 7. The leaderboard shows they passed their friend this week.`,
@@ -57,7 +57,7 @@ export function DayInLifeNarrative() {
         viewport={{ once: true }} transition={{ duration: 0.6 }}
         className="text-center mb-16"
       >
-        <div className="badge-brand mb-6">A Day With Prism</div>
+        <div className="badge-brand mb-6">A Day With Atlas</div>
         <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-4">
           Meet <span className="spectrum-text">{student.name}.</span>
         </h2>
@@ -65,7 +65,7 @@ export function DayInLifeNarrative() {
           {student.class} · {student.board} · {student.city}
         </p>
         <p className="text-surface-600 text-sm mt-2 max-w-xl mx-auto">
-          A typical day with Prism AI — from morning scan to bedtime plan.
+          A typical day with Atlas AI — from morning scan to bedtime plan.
         </p>
       </motion.div>
 

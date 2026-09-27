@@ -125,11 +125,11 @@ export const w_c11_accountancyaccountingstandardsmeaningsim: SimDef = {
           hint: 'Revisit Class 6 Economics nodes on barter system (c6_economics_ch11_001) and evolution of.',
           misconception: 'Students often believe accounting history is a linear progression of "better" techniques where each civilisation.',
           parts: [
-                { id: 'a', prompt: 'A 14th century Italian merchant records a credit sale of 500 florins to a buyer in his daybook as "Sold goods to Giovanni, 500 florins." Using Pacioli\'s.', answer: 'Correct answer: Debit Giovanni (Debtor/Asset) 500 florins',
+                { id: 'a', prompt: 'A 14th century Italian merchant records a credit sale of 500 florins to a buyer in his daybook as "Sold goods to Giovanni, 500 florins." Using Pacioli\'s.', answer: 'Debit Giovanni (Debtor/Asset) 500 florins',
                   options: ['Correct answer: Debit Giovanni (Debtor/Asset) 500 florins', 'Giovanni owes 500', 'owed to proprietor'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe accounting history is a linear progression of "better" techniques where each civilisation improved on the previous.' },
-                { id: 'b', prompt: 'Compare Kautilya\'s Arthashastra prescriptions for government accounting (23 centuries ago) with the Egyptian treasury system described in your textbook.', answer: 'Correct answer: Similarities',
+                { id: 'b', prompt: 'Compare Kautilya\'s Arthashastra prescriptions for government accounting (23 centuries ago) with the Egyptian treasury system described in your textbook.', answer: 'Similarities',
                   options: ['Correct answer: Similarities', 'better'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe accounting history is a linear progression of "better" techniques where each civilisation improved on the previous.' }
@@ -140,7 +140,7 @@ export const w_c11_accountancyaccountingstandardsmeaningsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often believe accounting history is a linear progression of "better" techniques where each civilisation.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "Luca Pacioli invented double-entry bookkeeping in 1494." Defend your position using evidence from the textbook about Pacioli\'s own.', answer: 'Correct answer: The claim is false',
+                { id: 'a', prompt: 'Evaluate the claim: "Luca Pacioli invented double-entry bookkeeping in 1494." Defend your position using evidence from the textbook about Pacioli\'s own.', answer: 'The claim is false',
                   options: ['Correct answer: The claim is false', 'if you make one creditor, you must make some debtor', 'better'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe accounting history is a linear progression of "better" techniques where each civilisation improved on the previous.' },
@@ -148,7 +148,7 @@ export const w_c11_accountancyaccountingstandardsmeaningsim: SimDef = {
                   options: ['Expected answer: 1) 4000 B.C', 'better'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe accounting history is a linear progression of "better" techniques where each civilisation improved on the previous.' },
-                { id: 'c', prompt: 'Compare Kautilya\'s Arthashastra prescriptions for government accounting (23 centuries ago) with the Egyptian treasury system described in your textbook.', answer: 'Correct answer: Similarities',
+                { id: 'c', prompt: 'Compare Kautilya\'s Arthashastra prescriptions for government accounting (23 centuries ago) with the Egyptian treasury system described in your textbook.', answer: 'Similarities',
                   options: ['Correct answer: Similarities', 'better'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe accounting history is a linear progression of "better" techniques where each civilisation improved on the previous.' }

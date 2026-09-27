@@ -8,7 +8,7 @@ export const c6_math_ch05_p2: SimDef = {
     subtitle: 'Letters that stand for numbers — the first time maths learns to talk about the unknown.',
     classLevel: 6, subject: 'mathematics', topic: 'Algebra · Part 2/2',
     chapters: ['c6_math_ch05'],
-    nodeIds: ['c6_math_ch05_058', 'c6_math_ch05_059', 'c6_math_ch05_060', 'c6_math_ch05_052'],
+    nodeIds: ['c6_math_ch05_058', 'c6_math_ch05_059', 'c6_math_ch05_060', 'c6_math_ch05_061'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a codebreaker finding a hidden number', intro: 'A puzzle says: \'I think of a number, double it, add 6, get 20.\' Your job: find the number without guessing.', goal: 'Turn word puzzles into equations and solve for the unknown — forwards and backwards.' },

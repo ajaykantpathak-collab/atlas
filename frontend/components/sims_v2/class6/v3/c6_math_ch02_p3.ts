@@ -8,7 +8,7 @@ export const c6_math_ch02_p3: SimDef = {
     subtitle: 'This node covers single-step or simple multi-step integer movements in real-world.',
     classLevel: 6, subject: 'mathematics', topic: 'Integers · Part 3/3',
     chapters: ['c6_math_ch02'],
-    nodeIds: ['c6_math_ch02_016'],
+    nodeIds: ['c6_math_ch02_028'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are in an elevator in a building that has floors below ground level.', goal: 'Master every idea in this chapter.' },

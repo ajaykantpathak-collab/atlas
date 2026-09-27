@@ -208,15 +208,15 @@ export const w_c12_historyaugustoffer1940sim: SimDef = {
           hint: 'If stuck, revisit c9_hist_ch3_1 (Early vs Later Vedic) and c9_hist_ch3_9 (Varna-Jati) —.',
           misconception: '**Students think the Vedic sacrificial tradition was a static, unchanging "Hinduism" from 1500 BCE onwards, and that.',
           parts: [
-                { id: 'a', prompt: 'In the early Vedic period (c. 1500–1000 BCE), yajnas were primarily performed for which of the following purposes?', answer: 'Correct answer: **B**',
+                { id: 'a', prompt: 'In the early Vedic period (c. 1500–1000 BCE), yajnas were primarily performed for which of the following purposes?', answer: '**B**',
                   options: ['Correct answer: **B**', 'Hinduism', 'rejected Hinduism'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: '**Students think the Vedic sacrificial tradition was a static, unchanging "Hinduism" from 1500 BCE onwards, and that the Buddha/Mahavira.' },
-                { id: 'b', prompt: 'Why did the ashvamedha (horse sacrifice) and rajasuya (royal consecration) become politically significant in the later Vedic period (c. 1000–500 BCE)?', answer: 'Correct answer: **B**',
+                { id: 'b', prompt: 'Why did the ashvamedha (horse sacrifice) and rajasuya (royal consecration) become politically significant in the later Vedic period (c. 1000–500 BCE)?', answer: '**B**',
                   options: ['Correct answer: **B**', 'replaced', 'Hinduism'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: '**Students think the Vedic sacrificial tradition was a static, unchanging "Hinduism" from 1500 BCE onwards, and that the Buddha/Mahavira.' },
-                { id: 'c', prompt: 'A historian finds a later Vedic inscription describing a king who performed the ashvamedha, distributed 10,000 cows as dakshina, and claimed the title.', answer: 'Correct answer: **B**',
+                { id: 'c', prompt: 'A historian finds a later Vedic inscription describing a king who performed the ashvamedha, distributed 10,000 cows as dakshina, and claimed the title.', answer: '**B**',
                   options: ['Correct answer: **B**', 'chiefs and kings who depended on Brahmana priests', 'Hinduism'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: '**Students think the Vedic sacrificial tradition was a static, unchanging "Hinduism" from 1500 BCE onwards, and that the Buddha/Mahavira.' }

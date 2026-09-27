@@ -6,27 +6,34 @@ import {
   ArrowLeft, BookOpen, Brain, Lightbulb, AlertTriangle, FileText,
   PlayCircle, PenSquare, Circle, ChevronRight,
   Sparkles, TrendingUp, Target, Zap, BookMarked, Award,
-  FlaskConical, GraduationCap, WifiOff, Eye, EyeOff,
+  FlaskConical, GraduationCap, WifiOff, Eye, EyeOff, Trophy, Volume2,
 } from 'lucide-react'
+import { speechManager } from '@/lib/sim-engine'
 import Link from 'next/link'
 import { PrismLogo } from '@/components/prism/PrismLogo'
 import { api } from '@/lib/api'
 import { subjectName } from '@/lib/nodeTitle'
 import DoodleCardImage from '@/components/doodle/DoodleCardImage'
 import QuickQuiz from '@/components/learn/QuickQuiz'
+import ChapterPath, { markNodeDone, type ChapterNode } from '@/components/learn/ChapterPath'
 import PrereqFixList from '@/components/learn/PrereqFixList'
 import AuthoredText from '@/components/learn/AuthoredText'
+import { WorkedExampleFading } from '@/components/learn/WorkedExample'
+import { InlineSim } from '@/components/learn/InlineSim'
 import {
   fetchNodeRemediation,
   nodeRefLabel,
   type NodeRemediation,
 } from '@/components/learn/remediation'
+import StudySession from '@/components/study/StudySession'
+import { fetchBoardTrace, isNodeId, type BoardTrace } from '@/lib/examReady'
 
 interface SimRef { id: string; title: string; classLevel: number; generated: boolean }
 
 interface EnrichmentData {
   node_id: string
   title: string
+  slug?: string | null
   subject: string
   class_level: number
   chapter: string | null
@@ -74,11 +81,85 @@ interface TeachData {
 type GraphPanelState = 'loading' | 'ready' | 'unavailable'
 
 /** Human label for a graph node — a raw node id must never reach the screen.
- *  Prefer the backend's topic label; fall back to the sanctioned helper. */
+ *  Prefer the backend's topic label; fall back to the sanctioned helper.
+ *  CHILD-LENS (fix 11): graph rows sometimes carry truncated sentences
+ *  ("Comparing numbers is the process of d…") as names — anything longer
+ *  than a topic title falls back to the clean friendly label. */
 function graphNodeLabel(node: GraphNodeRef): string {
   const name = (node.name || '').trim()
-  if (name && name !== node.node_id && !/^[a-z0-9_-]+$/i.test(name)) return name
+  const looksLikeTopic =
+    !!name &&
+    name !== node.node_id &&
+    !/^[a-z0-9_-]+$/i.test(name) &&
+    name.split(/\s+/).length <= 8
+  if (looksLikeTopic) return name
   return nodeRefLabel(node.node_id)
+}
+
+/** §1 LessonBrief — an advance organizer above the fold. Three honest lines:
+ *  what the child will be able to do (authored mastery_criteria), what they
+ *  can safely skip worrying about (the scope_boundary's DO NOT TEACH clause),
+ *  and where the topic appears in board papers (a real bank trace, hidden
+ *  when the node traces to nothing). Goals before instruction — the audit's
+ *  first gap. */
+function LessonBrief({ topic, nodeId }: { topic: EnrichmentData; nodeId: string }) {
+  const [trace, setTrace] = useState<BoardTrace | null>(null)
+
+  useEffect(() => {
+    let live = true
+    if (isNodeId(nodeId)) {
+      fetchBoardTrace(nodeId).then((t) => { if (live) setTrace(t) })
+    }
+    return () => { live = false }
+  }, [nodeId])
+
+  // mastery_criteria is authored "student can …" lines — split into beats.
+  const canDos = (topic.mastery_criteria || '')
+    .split(/\n|;/)
+    .map((s) => s.replace(/^[-*•\s]+|student can\s*/gi, '').trim())
+    .filter(Boolean)
+    .slice(0, 3)
+
+  // scope_boundary carries "DO NOT TEACH: …" — for the child it becomes
+  // "you don't need to worry about this yet".
+  const scope = topic.scope_boundary || ''
+  const notNeeded = (() => {
+    const m = scope.match(/DO NOT TEACH[:\s]+([\s\S]+?)(?:ALREADY COVERED|$)/i)
+    const s = (m?.[1] || '').trim()
+    return s.length > 4 ? s.replace(/\.$/, '') : ''
+  })()
+
+  if (!canDos.length && !notNeeded && !trace) return null
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="glass-card p-4 mb-6 border-l-2 border-l-mint-400/60"
+      data-testid="lesson-brief"
+    >
+      <p className="text-[11px] font-semibold uppercase tracking-wider text-mint-300 mb-2">
+        Before you start
+      </p>
+      {canDos.length > 0 && (
+        <p className="text-sm text-surface-700 leading-relaxed mb-1">
+          <span className="text-white font-medium">By the end you can: </span>
+          {canDos.join(' · ')}
+        </p>
+      )}
+      {notNeeded && (
+        <p className="text-sm text-surface-600 leading-relaxed mb-1">
+          <span className="text-surface-500 font-medium">Don&apos;t worry about: </span>
+          {notNeeded}
+        </p>
+      )}
+      {trace && (
+        <p className="text-xs text-indigo-300/90 mt-1.5">
+          This shows up in board exams{trace.marks ? ` — worth ${trace.marks} mark${trace.marks === 1 ? '' : 's'}` : trace.maxMarks > 1 ? ` — up to ${trace.maxMarks} marks` : ''}.
+        </p>
+      )}
+    </motion.div>
+  )
 }
 
 function Skeleton({ className = '' }: { className?: string }) {
@@ -95,12 +176,24 @@ function PanelSkeleton({ rows = 3 }: { rows?: number }) {
   )
 }
 
+/** Internal corpus ids look like c10_bio_cbse_01_001; anything else is a slug. */
+const NODE_ID_RE = /^c\d{1,2}_/i
+
 export default function TopicDetailPage({ params }: { params: { topicId: string } }) {
   const { topicId } = params
+  // topicId may be a slug — resolve it to the internal node id before fetching.
+  const [nodeId, setNodeId] = useState<string | null>(
+    NODE_ID_RE.test(topicId) ? topicId : null
+  )
+  // node_id -> slug map for related-node links (prereqs, unlocks, review ids)
+  const [slugById, setSlugById] = useState<Record<string, string>>({})
   const [activeTab, setActiveTab] = useState<'overview' | 'exam' | 'faq' | 'glossary'>('overview')
   const [topic, setTopic] = useState<EnrichmentData | null>(null)
   const [nodeSims, setNodeSims] = useState<SimRef[]>([])
   const [loading, setLoading] = useState(true)
+  // 'session' = the staged StudySession engine (default student path);
+  // 'library' = the classic all-sections view, one click away.
+  const [mode, setMode] = useState<'session' | 'library'>('session')
   const [error, setError] = useState<string | null>(null)
 
   // Prerequisite / unlock chains (knowledge graph)
@@ -118,13 +211,31 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
   const [quizOpen, setQuizOpen] = useState(false)
   // Diagnostic to re-serve first (retry CTA from the Remediation tab)
   const [focusDiagnostic, setFocusDiagnostic] = useState<number | null>(null)
+  // Chapter path siblings — set by the ChapterPath rail (next-node CTA)
+  const [chapterNodes, setChapterNodes] = useState<ChapterNode[]>([])
+  const [chapterDone, setChapterDone] = useState<Set<string>>(new Set())
 
   // Closed-world remediation recipe (misconception + diagnostics + prereqs)
   const [remediation, setRemediation] = useState<NodeRemediation | null>(null)
   const [remediationState, setRemediationState] = useState<'loading' | 'ready'>('loading')
   const [openDiag, setOpenDiag] = useState<Set<number>>(new Set())
 
+  // Resolve slug -> internal node id (raw ids pass through unchanged).
   useEffect(() => {
+    if (NODE_ID_RE.test(topicId)) { setNodeId(topicId); return }
+    let cancelled = false
+    api.get<{ node_id: string; slug: string; title: string }>(
+      `/api/content/resolve/${encodeURIComponent(topicId)}`
+    )
+      .then((d) => { if (!cancelled) setNodeId(d.node_id) })
+      .catch(() => {
+        if (!cancelled) { setError('Topic not found'); setLoading(false) }
+      })
+    return () => { cancelled = true }
+  }, [topicId])
+
+  useEffect(() => {
+    if (!nodeId) return
     setLoading(true)
     setError(null)
     setTopic(null)
@@ -134,26 +245,32 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
     setOpenDiag(new Set())
     setRemediation(null)
     setRemediationState('loading')
-    api.get<EnrichmentData>(`/api/content/nodes/${topicId}/enrichment`)
-      .then((data) => setTopic(data))
+    api.get<EnrichmentData>(`/api/content/nodes/${nodeId}/enrichment`)
+      .then((data) => {
+        setTopic(data)
+        // Canonicalize raw-id URLs to the human slug URL (no refetch).
+        if (data?.slug && NODE_ID_RE.test(topicId)) {
+          try { window.history.replaceState(null, '', `/learn/${data.slug}`) } catch {}
+        }
+      })
       .catch((e) => setError(e.message || 'Failed to load topic'))
       .finally(() => setLoading(false))
     // sims teaching this node — served by the backend from SIM_INDEX
     // (the /api/* rewrite shadows Next-side dynamic handlers, so the
     // lookup lives on the backend like every other endpoint)
-    api.get<SimRef[]>(`/api/nodes/${encodeURIComponent(topicId)}/sims`)
+    api.get<SimRef[]>(`/api/nodes/${encodeURIComponent(nodeId)}/sims`)
       .then((sims) => setNodeSims(Array.isArray(sims) ? sims : []))
       .catch(() => setNodeSims([]))
     // remediation recipe: authored misconception + servable diagnostics
     // + prereq chain (all from the enhanced-nodes corpus, all optional —
     // the tab degrades per field)
-    fetchNodeRemediation(topicId)
+    fetchNodeRemediation(nodeId)
       .then((r) => {
         setRemediation(r)
         setRemediationState('ready')
       })
       .catch(() => setRemediationState('ready'))
-  }, [topicId])
+  }, [nodeId, topicId])
 
   // Knowledge-graph chains + tutor teach card (independent sections)
   useEffect(() => {
@@ -161,25 +278,53 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
     setUnlocksState('loading')
     setTeachState('loading')
     setTeach(null)
-    api.get<{ prerequisites: GraphNodeRef[] }>(`/api/graph/prerequisites/${encodeURIComponent(topicId)}`)
+    if (!nodeId) return
+    api.get<{ prerequisites: GraphNodeRef[] }>(`/api/graph/prerequisites/${encodeURIComponent(nodeId)}`)
       .then((d) => {
         setPrereqs(Array.isArray(d?.prerequisites) ? d.prerequisites : [])
         setPrereqsState('ready')
       })
       .catch(() => setPrereqsState('unavailable'))
-    api.get<{ unlocks: GraphNodeRef[] }>(`/api/graph/unlocks/${encodeURIComponent(topicId)}`)
+    api.get<{ unlocks: GraphNodeRef[] }>(`/api/graph/unlocks/${encodeURIComponent(nodeId)}`)
       .then((d) => {
         setUnlocks(Array.isArray(d?.unlocks) ? d.unlocks : [])
         setUnlocksState('ready')
       })
       .catch(() => setUnlocksState('unavailable'))
-    api.get<TeachData>(`/api/tutor-graph/teach?node_id=${encodeURIComponent(topicId)}`)
+    api.get<TeachData>(`/api/tutor-graph/teach?node_id=${encodeURIComponent(nodeId)}`)
       .then((d) => {
         setTeach(d)
         setTeachState('ready')
       })
       .catch(() => setTeachState('unavailable'))
-  }, [topicId])
+  }, [nodeId])
+
+  // Slug map for every related-node link on the page — keeps internal ids
+  // out of the address bar while preserving back-compat fallbacks.
+  useEffect(() => {
+    const ids = [
+      ...prereqs.map((n) => n.node_id),
+      ...unlocks.map((n) => n.node_id),
+      ...(Array.isArray(remediation?.onFailure)
+        ? remediation.onFailure
+        : []).flatMap((f) => f.review_node_ids || []),
+      ...(remediation?.prereqIds || []),
+      ...(topic?.forward_node_ids || []),
+      ...(topic?.prereq_ids || []),
+    ].filter(Boolean)
+    if (!ids.length) return
+    // Array.from, not spread-of-Set: the tree compiles under es5 target
+    // (tsconfig), where spread iteration needs downlevelIteration.
+    api.get<Record<string, { slug?: string | null }>>(
+      `/api/content/slugmap?ids=${encodeURIComponent(Array.from(new Set(ids)).join(','))}`
+    )
+      .then((m) => {
+        const out: Record<string, string> = {}
+        for (const [k, v] of Object.entries(m || {})) if (v?.slug) out[k] = v.slug
+        setSlugById(out)
+      })
+      .catch(() => {})
+  }, [prereqs, unlocks, remediation, topic])
 
   if (loading && !topic) {
     return (
@@ -253,6 +398,29 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
     (dq: any) => dq && String(dq.question || '').trim(),
   )
 
+  // CHILD-LENS (fix 11): several corpus rows ship an ELI5 that is the
+  // definition copy-pasted — showing the same text twice under two
+  // headings tells the child the app is talking to itself. When they
+  // match, the redundant card is hidden, never re-worded.
+  const normalize = (s: string) => s.replace(/\s+/g, ' ').trim().toLowerCase()
+  const eli5DuplicatesDefinition =
+    !!topic.eli5 && !!topic.definition &&
+    normalize(topic.eli5) === normalize(topic.definition)
+
+  if (mode === 'session' && nodeId) {
+    return (
+      <>
+        <StudySession nodeId={nodeId} />
+        <button
+          onClick={() => setMode('library')}
+          className="fixed top-[72px] right-4 z-30 px-3 py-1.5 rounded-full glass text-xs text-surface-400 hover:text-surface-200 border border-white/10"
+        >
+          All resources ↗
+        </button>
+      </>
+    )
+  }
+
   return (
     <div className="min-h-screen mesh-bg">
       {/* Top bar */}
@@ -273,24 +441,23 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
               <span className="text-white">{topic.title}</span>
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            {topic.difficulty && (
-              <span className="badge-brand">
-                <Zap className="w-3 h-3" />
-                {topic.difficulty}
-              </span>
-            )}
-            {topic.cognitive_level && (
-              <span className="badge">
-                <Brain className="w-3 h-3" />
-                {topic.cognitive_level}
-              </span>
-            )}
-          </div>
+          {/* CHILD-LENS (fix 11): raw teacher-training tags ("medium",
+              "understand") removed from the child's header chrome. */}
+          <button
+            onClick={() => setMode('session')}
+            className="px-3 py-1.5 rounded-full bg-indigo-500/15 border border-indigo-500/30 text-indigo-300 text-xs font-medium hover:bg-indigo-500/25 transition-colors"
+          >
+            ← Study mode
+          </button>
         </div>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* §1 LessonBrief — advance organizer above the fold: what you'll be
+            able to do, what you DON'T need yet, and where this shows up in
+            boards. Every line is authored content (mastery_criteria /
+            scope_boundary) or a real bank trace — nothing invented. */}
+        <LessonBrief topic={topic} nodeId={nodeId || topicId} />
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -306,14 +473,12 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
               <p className="text-sm text-surface-600">
                 {topic.chapter || subject} · {subject} · Class {topic.class_level}
               </p>
-              <div className="flex flex-wrap items-center gap-2 mt-3">
-                {topic.difficulty && (
-                  <span className="badge-accent">
-                    <TrendingUp className="w-3 h-3" />
-                    {topic.difficulty}
-                  </span>
-                )}
-              </div>
+              {/* CHILD-LENS (fix 10): one honest "why it matters" line in
+                  child words — this topic is in the child's own school year. */}
+              <p className="flex items-center gap-1.5 text-xs text-mint-300 mt-2">
+                <BookMarked className="w-3.5 h-3.5 shrink-0" />
+                This is in your {topic.board || 'CBSE'} Class {topic.class_level} syllabus — part of your school year.
+              </p>
             </div>
           </div>
         </motion.div>
@@ -321,14 +486,20 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
         <div className="grid lg:grid-cols-3 gap-6">
           {/* Main content */}
           <div className="lg:col-span-2 space-y-6">
-            {/* Action buttons */}
+            {/* Action buttons — CHILD-LENS (fix 5): "Start Learning" must
+                open the lesson's own Story content, never the tutor chat.
+                The tutor keeps its own clearly-labelled "Ask your Guide"
+                card in the sidebar. */}
             <motion.div
               initial={{ opacity: 0, y: 14 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.05 }}
               className="grid grid-cols-2 gap-3"
             >
-              <Link href="/tutor" className="btn-primary group">
+              <Link
+                href={`/learn/${encodeURIComponent(nodeId || topicId)}/story`}
+                className="btn-primary group"
+              >
                 <PlayCircle className="w-5 h-5" />
                 Start Learning
               </Link>
@@ -340,6 +511,39 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                 <PenSquare className="w-5 h-5" />
                 {quizOpen ? 'Hide Quick Quiz' : 'Take Quiz'}
               </button>
+            </motion.div>
+
+            {/* Chapter path — this node as one step in the chapter journey */}
+            <ChapterPath
+              nodeId={topic.node_id || topicId}
+              subject={topic.subject}
+              classLevel={topic.class_level}
+              chapter={topic.chapter}
+              onNodes={(list, done) => {
+                setChapterNodes(list)
+                setChapterDone(done)
+              }}
+            />
+
+            {/* Story Mode — cinematic retelling of the authored enrichment */}
+            <motion.div
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+            >
+              <Link
+                href={`/learn/${nodeId || topicId}/story`}
+                className="group flex items-center gap-3 glass-card rounded-xl px-4 py-3 hover:border-gold-500/40 transition-colors"
+              >
+                <span className="w-9 h-9 rounded-lg bg-gold-500/15 border border-gold-500/25 flex items-center justify-center text-lg shrink-0" aria-hidden="true">
+                  ✨
+                </span>
+                <span className="flex-1 min-w-0">
+                  <span className="block text-sm font-semibold text-white font-display">Story Mode</span>
+                  <span className="block text-xs text-surface-600">Story time — watch out for the twist!</span>
+                </span>
+                <svg className="w-4 h-4 text-gold-400 shrink-0 group-hover:translate-x-0.5 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 18l6-6-6-6" /></svg>
+              </Link>
             </motion.div>
 
             {/* In-page quick quiz — authored diagnostics + remediation loop
@@ -357,6 +561,12 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                   <QuickQuiz
                     subject={topic.subject}
                     nodeId={topicId}
+                    onAllDone={() => {
+                      if (nodeId) {
+                        markNodeDone(nodeId)
+                        setChapterDone((prev) => new Set(prev).add(nodeId))
+                      }
+                    }}
                     startDiagnostic={focusDiagnostic}
                     onClose={() => {
                       setQuizOpen(false)
@@ -433,6 +643,13 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
               </motion.div>
             )}
 
+            {/* See it happen — the node's sim embedded inside the teach
+                step, not a different page (first sim inline; the launcher
+                card below lists the rest) */}
+            {nodeSims.length > 0 && (
+              <InlineSim simId={nodeSims[0].id} title={nodeSims[0].title} />
+            )}
+
             {/* Simulation launcher — only when a sim teaches this node */}
             {nodeSims.length > 0 && (
               <motion.div
@@ -468,13 +685,13 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
             {/* Hand-drawn recap card (renders only when exported) */}
             <DoodleCardImage nodeId={topic.node_id || topicId} classLevel={topic.class_level} />
 
-            {/* Tabs */}
+            {/* Tabs — CHILD-LENS (fix 11): child words, no pipeline nouns */}
             <div className="flex gap-1 p-1 glass rounded-xl overflow-x-auto">
               {([
-                { id: 'overview' as const, label: 'Overview', icon: BookOpen },
-                { id: 'exam' as const, label: 'Diagnostics', icon: FileText },
-                { id: 'faq' as const, label: 'Remediation', icon: Lightbulb },
-                { id: 'glossary' as const, label: 'Scope', icon: BookMarked },
+                { id: 'overview' as const, label: 'Learn', icon: BookOpen },
+                { id: 'exam' as const, label: 'Check-up', icon: FileText },
+                { id: 'faq' as const, label: 'Fix-it', icon: Lightbulb },
+                { id: 'glossary' as const, label: "What's inside", icon: BookMarked },
               ]).map((tab) => (
                 <button
                   key={tab.id}
@@ -500,28 +717,41 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                   exit={{ opacity: 0, y: -10 }}
                   className="space-y-6"
                 >
-                  {/* Definition */}
-                  {topic.definition && (
+                  {/* ELI5 FIRST — a struggling reader meets the simple version
+                      before the formal one (cognitive-load: easy tier first).
+                      CHILD-LENS (fix 11): hidden entirely when the corpus
+                      copy-pasted the definition (identical derive_eli5). */}
+                  {topic.eli5 && !eli5DuplicatesDefinition && (
                     <div className="glass-card p-6">
                       <div className="flex items-center gap-2 mb-4">
-                        <Sparkles className="w-5 h-5 text-brand-300" />
-                        <h3 className="font-display text-lg font-semibold text-white">Definition</h3>
+                        <Lightbulb className="w-5 h-5 text-gold-300" />
+                        <h3 className="font-display text-lg font-semibold text-white flex-1">In simple words</h3>
+                        <button onClick={() => speechManager.speak(topic.eli5!.replace(/[*_`#|]/g, ''))}
+                          className="p-1.5 rounded-lg text-surface-500 hover:text-gold-300 hover:bg-gold-500/10 transition-colors"
+                          aria-label="Listen to the simple explanation" title="Listen">
+                          <Volume2 className="w-4 h-4" />
+                        </button>
                       </div>
                       <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
-                        <AuthoredText text={topic.definition} />
+                        <AuthoredText text={topic.eli5} />
                       </p>
                     </div>
                   )}
 
-                  {/* ELI5 */}
-                  {topic.eli5 && (
+                  {/* Definition — the textbook version, second */}
+                  {topic.definition && (
                     <div className="glass-card p-6">
                       <div className="flex items-center gap-2 mb-4">
-                        <Lightbulb className="w-5 h-5 text-gold-300" />
-                        <h3 className="font-display text-lg font-semibold text-white">Simple Explanation (ELI5)</h3>
+                        <Sparkles className="w-5 h-5 text-brand-300" />
+                        <h3 className="font-display text-lg font-semibold text-white flex-1">The textbook version</h3>
+                        <button onClick={() => speechManager.speak(topic.definition!.replace(/[*_`#|]/g, ''))}
+                          className="p-1.5 rounded-lg text-surface-500 hover:text-brand-300 hover:bg-brand-500/10 transition-colors"
+                          aria-label="Listen to the definition" title="Listen">
+                          <Volume2 className="w-4 h-4" />
+                        </button>
                       </div>
                       <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
-                        <AuthoredText text={topic.eli5} />
+                        <AuthoredText text={topic.definition} />
                       </p>
                     </div>
                   )}
@@ -552,17 +782,23 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                     </div>
                   )}
 
-                  {/* Examples */}
+                  {/* Worked examples — interactive fading (guided → faded
+                      → bare). Falls back to raw authored text when the
+                      node's examples don't parse into the 3-block shape. */}
                   {topic.examples && (
-                    <div className="glass-card p-6">
-                      <div className="flex items-center gap-2 mb-4">
-                        <Award className="w-5 h-5 text-gold-300" />
-                        <h3 className="font-display text-lg font-semibold text-white">Examples</h3>
+                    nodeId ? (
+                      <WorkedExampleFading nodeId={nodeId} rawText={topic.examples} />
+                    ) : (
+                      <div className="glass-card p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                          <Award className="w-5 h-5 text-gold-300" />
+                          <h3 className="font-display text-lg font-semibold text-white">Examples</h3>
+                        </div>
+                        <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
+                          <AuthoredText text={topic.examples} />
+                        </p>
                       </div>
-                      <p className="text-surface-800 leading-relaxed whitespace-pre-wrap">
-                        <AuthoredText text={topic.examples} />
-                      </p>
-                    </div>
+                    )
                   )}
                 </motion.div>
               )}
@@ -671,7 +907,7 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                                     {of.review_node_ids.map((nid, j) => (
                                       <Link
                                         key={j}
-                                        href={`/learn/${encodeURIComponent(nid)}`}
+                                        href={`/learn/${encodeURIComponent(slugById[nid] || nid)}`}
                                         className="badge-brand text-xs hover:scale-105 transition-transform"
                                       >
                                         <ChevronRight className="w-3 h-3" />
@@ -889,7 +1125,7 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.04 * i }}
                     >
-                      <Link href={`/learn/${n.node_id}`} className="flex items-center gap-3 group">
+                      <Link href={`/learn/${slugById[n.node_id] || n.node_id}`} className="flex items-center gap-3 group">
                         <Circle className="w-4 h-4 text-gold-300 flex-shrink-0" />
                         <div className="min-w-0">
                           <p className="text-sm text-white group-hover:text-brand-300 transition-colors truncate">
@@ -933,7 +1169,7 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                 </p>
               ) : unlocks.length > 0 ? (
                 <div className="space-y-2">
-                  {unlocks.map((n, i) => (
+                  {unlocks.slice(0, 12).map((n, i) => (
                     <motion.div
                       key={n.node_id}
                       initial={{ opacity: 0, x: 10 }}
@@ -941,7 +1177,7 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                       transition={{ delay: 0.04 * i }}
                     >
                       <Link
-                        href={`/learn/${n.node_id}`}
+                        href={`/learn/${slugById[n.node_id] || n.node_id}`}
                         className="flex items-center gap-2 text-sm text-surface-600 hover:text-white transition-colors group"
                       >
                         <ChevronRight className="w-4 h-4 text-surface-600 group-hover:text-brand-300 transition-colors flex-shrink-0" />
@@ -949,6 +1185,11 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                       </Link>
                     </motion.div>
                   ))}
+                  {unlocks.length > 12 && (
+                    <p className="text-xs text-surface-600 pl-6">
+                      and {unlocks.length - 12} more topics build on this
+                    </p>
+                  )}
                 </div>
               ) : (
                 <p className="text-xs text-surface-600">
@@ -957,7 +1198,9 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
               )}
             </motion.div>
 
-            {/* Prism AI assistant */}
+            {/* Ask your Guide — CHILD-LENS (fix 5): the tutor gets its own
+                clearly-labelled card so "Start Learning" and "ask for help"
+                are never confused. */}
             <motion.div
               initial={{ opacity: 0, y: 14 }}
               animate={{ opacity: 1, y: 0 }}
@@ -967,18 +1210,70 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-gold-300 to-gold-600 flex items-center justify-center shadow-glow"><Brain className="w-5 h-5 text-[#1a1408]" /></div>
                 <div>
-                  <p className="text-sm font-semibold text-white">Ask Atlas AI</p>
-                  <p className="text-xs text-surface-600">Confused about this topic?</p>
+                  <p className="text-sm font-semibold text-white">Ask your Guide</p>
+                  <p className="text-xs text-surface-600">I ask questions so YOU find the answer</p>
                 </div>
               </div>
-              <Link href="/tutor" className="btn-secondary w-full text-xs">
+              <Link href={`/tutor?node=${encodeURIComponent(nodeId)}`} className="btn-secondary w-full text-xs">
                 <Sparkles className="w-3 h-3" />
-                Start AI Tutor Session
+                Ask your Guide
               </Link>
             </motion.div>
           </div>
         </div>
       </div>
+
+      {/* Sticky next-action bar — always tells the student what to tap */}
+      {nodeId && (() => {
+        const idx = chapterNodes.findIndex((n) => n.node_id === nodeId)
+        const thisDone = chapterDone.has(nodeId)
+        const next = idx >= 0 && idx < chapterNodes.length - 1 ? chapterNodes[idx + 1] : null
+        const allDone = chapterNodes.length > 0 &&
+          chapterNodes.every((n) => chapterDone.has(n.node_id))
+        if (!chapterNodes.length) return null
+        return (
+          <div className="sticky bottom-0 z-40 glass-strong border-t border-surface-300/30">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-3">
+              <p className="text-xs text-surface-600 truncate">
+                {allDone
+                  ? 'Chapter complete — test unlocked'
+                  : thisDone
+                    ? 'Step done — keep going'
+                    : 'Finish the quick check to complete this step'}
+              </p>
+              {allDone ? (
+                <Link
+                  href={`/chapter-test?subject=${encodeURIComponent(topic.subject)}&class_level=${topic.class_level}&chapter=${encodeURIComponent(topic.chapter || '')}`}
+                  className="btn-primary shrink-0 text-sm"
+                >
+                  <Trophy className="w-4 h-4" />
+                  Chapter test
+                </Link>
+              ) : thisDone && next ? (
+                <Link
+                  href={`/learn/${encodeURIComponent(next.slug || next.node_id)}`}
+                  className="btn-primary shrink-0 text-sm"
+                >
+                  Next: {(next.title.split('—').pop() || next.title).trim().slice(0, 28)}
+                  <ChevronRight className="w-4 h-4" />
+                </Link>
+              ) : (
+                <button
+                  onClick={() => {
+                    setQuizOpen(true)
+                    document.getElementById('quick-quiz-anchor')
+                      ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                  }}
+                  className="btn-primary shrink-0 text-sm"
+                >
+                  <PenSquare className="w-4 h-4" />
+                  Take the check
+                </button>
+              )}
+            </div>
+          </div>
+        )
+      })()}
     </div>
   )
 }

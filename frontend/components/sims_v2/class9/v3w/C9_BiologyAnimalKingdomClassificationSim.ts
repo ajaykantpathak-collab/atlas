@@ -16,7 +16,7 @@ export const w_c9_biologyanimalkingdomclassificationsim: SimDef = {
     discovery: {
         question: 'A farmer in Punjab discovers an unknown insect damaging wheat crops.',
         options: ['Correct answer: Classification groups organisms with shared characteristics', 'the scientist knew the name', 'naming things'],
-        answer: 'Correct answer: Classification groups organisms with shared characteristics',
+        answer: 'Classification groups organisms with shared characteristics',
         hook: 'Students often believe classification is primarily about "naming things" or "putting labels on organisms" — a static.',
     },
     teaching: [
@@ -96,7 +96,7 @@ export const w_c9_biologyanimalkingdomclassificationsim: SimDef = {
           hint: 'Revisit c9_bio_ch4_1 (Biodiversity: Definition and Importance) and c8_bio_ch1_9.',
           misconception: 'Students often believe classification is primarily about "naming things" or "putting labels on organisms" — a static.',
           parts: [
-                { id: 'a', prompt: 'A farmer in Punjab discovers an unknown insect damaging wheat crops.', answer: 'Correct answer: Classification groups organisms with shared characteristics',
+                { id: 'a', prompt: 'A farmer in Punjab discovers an unknown insect damaging wheat crops.', answer: 'Classification groups organisms with shared characteristics',
                   options: ['Correct answer: Classification groups organisms with shared characteristics', 'the scientist knew the name', 'naming things'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe classification is primarily about "naming things" or "putting labels on organisms" — a static filing system.' }

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch05_p2: SimDef = {
     id: 'v3_c12_hin_ar_ch05_p2',
-    title: 'lw;Zdkar f=ikBh ^fujkyk · Part 2/3',
+    title: 'उषा · Part 2/3',
     subtitle: 'The poem is the plough — and inequality is the field',
-    classLevel: 12, subject: 'hin_ar', topic: 'lw;Zdkar f=ikBh ^fujkyk · Part 2/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'उषा · Part 2/3',
     chapters: ['c12_hin_ar_ch05'],
     nodeIds: ['c12_hin_ar_cbse_05_007', 'c12_hin_ar_cbse_05_008', 'c12_hin_ar_cbse_05_009', 'c12_hin_ar_cbse_05_010', 'c12_hin_ar_cbse_05_011', 'c12_hin_ar_cbse_05_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,55 +19,15 @@ export const c12_hin_ar_ch05_p2: SimDef = {
         hook: 'After 1943 his images stopped describing and started symbolising — the maize field is a rural world, the dark night its weight, the plough the poet\'s intervention. \'Makka\' grows from a folk tale: read the field as a symbolic landscape, not a sketch.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas, motifs, or underlying concerns that run parallel to the primary theme in a literary work, enriching its texture and offering multiple layers of meaning;.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'उषा — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '**बिंब (Image):** काव्य में प्रयुक्त वह शब्द या पद जो इंद्रियों (दृश्य, श्रवण, स्पर्श, घ्राण, स्वाद) को सीधे संबोधित कर एक ठोस, संवेदनात्मक चित्र उपस्थित करता है। **प्रतीक (Symbol):** वह वस्तु.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_05_007', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Work the symbolic field: trace folk-tale roots into the poem\'s images, decode what maize, night and plough each stand for, and judge a poet who ploughs inequality rather than just watching it.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are standing in a vast cornfield at harvest time — the dry stalks rustling, the wind carrying the scent of earth, the farmer\'s sickle flashing.',
-            decisions: [{ prompt: 'What is the defining characteristic that distinguishes a secondary theme from the primary theme in a poem?', options: [
-                { text: 'A secondary theme supports, complicates, or runs parallel to the primary theme without', outcome: 'A secondary theme supports, complicates, or runs parallel to the primary theme without being the.' },
-                { text: 'minor topics', outcome: 'Not quite — Students often treat secondary themes as "sub-topics" that can be listed like items (e.g., "1.', reveals: 'students-often-treat-secondary-themes' },
-                { text: 'less important ideas', outcome: 'Not quite — Students often treat secondary themes as "sub-topics" that can be listed like items (e.g., "1.', reveals: 'students-often-treat-secondary-themes' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you wake up on a December morning in Delhi: the air bites your fingers (touch), the world is a white blur (sight), a caw breaks the silence (sound).',
-            decisions: [{ prompt: 'Define imagery and metaphor in your own words. Give one example of each from daily life (not from the poem).', options: [
-                { text: '**Correct answer**: Imagery = language appealing to senses (e.g., "The sizzling *pakora*', outcome: '**Correct answer**: Imagery = language appealing to senses (e.g., "The sizzling *pakora* batter hit.' },
-                { text: 'exam is *like* a mountain', outcome: 'Not quite — **"Imagery = only visual description."** Students underline "jk[k", "fly", "jax" and stop.', reveals: 'imagery-only-visual-description' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are standing on a Delhi terrace at 7 a.m. in January: the fog is so thick you can\'t see the next building, your breath freezes, and the sun is just.',
-            decisions: [{ prompt: 'Define \'irony\' (व्यंग्य/विडंबना) and \'symbolism\' (प्रतीकवाद) in your own words, giving one example from daily life (not from the poem) for.', options: [
-                { text: '**Correct answer:** Irony', outcome: '**Correct answer:** Irony — a situation where the outcome is opposite to what was expected (e.g.,.' },
-                { text: 'it rained on my wedding day', outcome: 'Not quite — **Misconception:** "Irony and symbolism are just fancy names for \'metaphor\' — if I find a metaphor.', reveals: 'misconception-irony-and-symbolism-are' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you hear a street vendor in Varanasi calling out "मक्का भून रहा हूँ, भुट्टा ले लो!" — the word "मक्का" instantly conjures smell, sound, winter.',
-            decisions: [{ prompt: 'What is the primary difference between the denotative meaning of "मक्का" (corn/maize) and its function in the opening line of Kedarnath.', options: [
-                { text: 'The denotative meaning refers to the grain crop (maize), but in the poem\'s opening, "क\'अ"', outcome: 'The denotative meaning refers to the grain crop (maize), but in the poem\'s opening, "क\'अ" (ka-a).' },
-                { text: 'only as', outcome: 'Not quite — Students believe "vocabulary in context" means "find the dictionary meaning of difficult words.', reveals: 'vocabulary-in-context-means-find' },
-                { text: 'vocabulary in context', outcome: 'Not quite — Students believe "vocabulary in context" means "find the dictionary meaning of difficult words.', reveals: 'vocabulary-in-context-means-find' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading the poem "m"kk" aloud and you stumble over the line "jk[k ls yhik gqvk pkSdk" — the word order feels unusual, almost like a painting.',
-            decisions: [{ prompt: 'In the opening stanza of "m"kk", the poet writes "jk[k ls yhik gqvk pkSdk (vHkh xhyk iM+k gS)".', options: [
-                { text: '**Correct Answer:** The verb phrase "yhik gqvk" is in **past perfect passive** (bhutakal', outcome: '**Correct Answer:** The verb phrase "yhik gqvk" is in **past perfect passive** (bhutakal.' },
-                { text: 'simple past', outcome: 'Not quite — **Misconception:** "Grammar in poetry is just about identifying parts of speech (kriya, sarvanam.', reveals: 'misconception-grammar-in-poetry-is' },
-                { text: 'present perfect', outcome: 'Not quite — **Misconception:** "Grammar in poetry is just about identifying parts of speech (kriya, sarvanam.', reveals: 'misconception-grammar-in-poetry-is' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see Question 1: "कवि ने साँझ को दुल्हन क्यों कहा है?" and Question 2: "साँझ के समय आसमान का रंग कैसा है?" The.',
-            decisions: [{ prompt: 'Define the difference between a literal comprehension question and an inferential comprehension question in one sentence each.', options: [
-                { text: 'A literal question asks for information directly stated in the text (e.g., "What color is', outcome: 'A literal question asks for information directly stated in the text (e.g., "What color is the.' },
-                { text: 'Inferential questions have no right answer', outcome: 'Not quite — **Misconception:** "Inferential questions have no right answer — you can write whatever you feel.".', reveals: 'misconception-inferential-questions-have-no' },
-                { text: 'swaps the definitions reveals the student cannot distinguish explicit vs', outcome: 'Not quite — **Misconception:** "Inferential questions have no right answer — you can write whatever you feel.".', reveals: 'misconception-inferential-questions-have-no' }
-            ] }] } },
+        labels: ['उषा — साहित्यिक युक्तियाँ', 'उषा — मुख्य भाव', 'उषा — गौण भाव', 'उषा — पदावली: कठिन', 'उषा — व्याकरण: पद्य', 'उषा — बोध-प्रश्न: वस्तुनिष्ठ'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_05_007', title: 'Use it in the wild',
           caseStudy: { intro: 'For a photo-story assignment, your partner wants to scrap shots of a foggy winter field — \'nothing happens in them; we need drama.\' You suspect the quiet frames are the story.',
             decisions: [{ prompt: 'How does Nirala\'s \'मक्क\' settle the argument?', options: [
@@ -77,120 +37,81 @@ export const c12_hin_ar_ch05_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_05_012', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read a poem\'s images as instruments of change — symbolism that works the soil instead of framing it.',
-            decisions: [{ prompt: 'What comes next? lw;Zdkar f=ikBh ^fujkyk · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — lw;Zdkar f=ikBh ^fujkyk · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? उषा · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — उषा · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas, motifs, or underlying concerns that.',
-          hint: 'If stuck, revisit c12_hin_ar_cbse_05_006 (Primary Theme) and create a stanza-map: for.',
-          misconception: 'Students often treat secondary themes as "sub-topics" that can be listed like items (e.g., "1. Nature 2. Labor 3.',
+          question: '**बिंब (Image):** काव्य में प्रयुक्त वह शब्द या पद जो इंद्रियों (दृश्य, श्रवण.',
+          hint: 'यदि फँसें तो c11_hin_a_cbse_13_007 (जाग तुझको दूर जाना — प्रतीक और बिंब) के कार्यित.',
+          misconception: '**विशिष्ट भ्रम:** छात्र प्रायः हर **सुंदर वर्णन** को "प्रतीक" मान लेते हैं — जैसे "उषा की लाली" को प्रतीक बता देते हैं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the supporting ideas, motifs, or underlying concerns that run',
-                  options: ['Secondary themes are the supporting ideas, motifs, or underlying concerns that run', 'This node covers the "Before You Read" section', 'In poetry, narrative structure refers to the deliberate organization of images, ideas,', 'Setting refers to the time, place, and physical environment in'],
-                  hint: 'If stuck, revisit c12_hin_ar_cbse_05_006 (Primary Theme) and create a stanza-map: for each stanza.',
-                  misconception: 'Students often treat secondary themes as "sub-topics" that can be listed like items (e.g., "1. Nature 2. Labor 3.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Image):** काव्य में प्रयुक्त वह शब्द या पद जो इंद्रियों (दृश्य, श्रवण, स्पर्श,',
+                  options: ['**बिंब (Image):** काव्य में प्रयुक्त वह शब्द या पद जो इंद्रियों (दृश्य, श्रवण, स्पर्श,', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि फँसें तो c11_hin_a_cbse_13_007 (जाग तुझको दूर जाना — प्रतीक और बिंब) के कार्यित उदाहरण दोबारा.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र प्रायः हर **सुंदर वर्णन** को "प्रतीक" मान लेते हैं — जैसे "उषा की लाली" को प्रतीक बता देते हैं, जबकि वह केवल.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student lists topics instead of analyzing thematic function: Step 1 — Have them re-read the poem and underline.', 'Step 2 — Ask: "What does this motif *do* each time it appears?', 'Does it connect two things?" Step 3 — Guide them to write a "theme statement" in the format: "[Motif] functions.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को **c11_hin_a_cbse_13_007** (जाग तुझको दूर जाना — प्रतीक और बिंब) या **c11_hin_ar_cbse_16_007** (आओ, मलिकर बचाएँ.', 'एक साधारण वाक्य दें: "दीपक जल रहा है" — पूछें: "यहाँ दीपक बिंब है या प्रतीक?', 'क्यों?" फिर बदलें: "दीपक अज्ञान के अंधकार में ज्ञान का प्रतीक है" — अब अंतर स्पष्ट करें। 3.', 'पुनः "उषा" कविता के दो पद चुनकर **हाइलाइटर से बिंब (पीला) और प्रतीक (नीला)** अलग-अलग रंग से मार्क करवाएँ। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
-          hint: 'If the student cannot distinguish tenor from vehicle, or misses non-visual imagery.',
-          misconception: '**"Imagery = only visual description."** Students underline "jk[k", "fly", "jax" and stop.',
+          question: '"उषा" में मुख्य भाव **\'तमसो मा ज्योतिर्गमय\' (अंधकार से प्रकाश की ओर)** की.',
+          hint: 'यदि अटके, तो **c12_hin_ar_cbse_05_007** के \'प्रतीक-निर्माण की 3-चरणीय विधि\' (Object →.',
+          misconception: '**विशिष्ट भ्रम:** छात्र अक्सर लिखते हैं — *"उषा कविता का मुख्य भाव है: \'अंधेरे के बाद उजाला आता है\' / \'निराशा के बाद.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery is the use of vivid, sensory language that appeals to the five senses (sight,',
-                  options: ['Imagery is the use of vivid, sensory language that appeals to the five senses (sight,', 'This node covers the "Before You Read" section', 'In poetry, narrative structure refers to the deliberate organization of images, ideas,', 'Setting refers to the time, place, and physical environment in'],
-                  hint: 'If the student cannot distinguish tenor from vehicle, or misses non-visual imagery, immediately.',
-                  misconception: '**"Imagery = only visual description."** Students underline "jk[k", "fly", "jax" and stop.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"उषा" में मुख्य भाव **\'तमसो मा ज्योतिर्गमय\' (अंधकार से प्रकाश की ओर)** की उपनिषद्‌ीय',
+                  options: ['"उषा" में मुख्य भाव **\'तमसो मा ज्योतिर्गमय\' (अंधकार से प्रकाश की ओर)** की उपनिषद्‌ीय', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि अटके, तो **c12_hin_ar_cbse_05_007** के \'प्रतीक-निर्माण की 3-चरणीय विधि\' (Object → Association →.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र अक्सर लिखते हैं — *"उषा कविता का मुख्य भाव है: \'अंधेरे के बाद उजाला आता है\' / \'निराशा के बाद आशा आती है\'।"* **यह.' }
           ],
-            remediations: { 'imagery-only-visual-description': { steps: ['**Revisit definitions**: Use node c11_hin_ar_cbse_05_008 (Class 11 Imagery & Metaphor) — re-read the "Types of Imagery".', '**Sensory walk**: Take the student outside (or to a window) for 3 minutes.', 'Ask them to write one sentence per sense: what they see, hear, smell, touch, feel inside (heartbeat, hunger).', '**Metaphor surgery**: Give three similes ("The classroom is *like* a furnace").'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'natural-law-human-imperative': { steps: ['**पहला कदम:** छात्र से कहें — *"कविता की पहली और अंतिम पंक्ति साथ रखो। पूछो: \'पहली में कवि क्या देख रहा है?', 'अंतिम में क्या करने को कह रहा है?\'"* 2.', '**दूसरा कदम:** **क्रिया-श्रृंखला (Verb Chain)** बनवाएँ: सोना → उठना → जागना → चलना → गढ़ना → जलाना। पूछें: *"कौन-सी.', '**तीसरा कदम:** **पुनः निदान (Re-diagnostic):** DIAGNOSTIC_QUESTION_2 फिर से दें — अब प्रतीकों की \'मानसिक अवस्था\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_009', difficulty: 'standard',
-          question: 'Irony (व्यंग्य/विडंबना) is a literary device where the intended meaning.',
-          hint: 'If stuck, review the "Metaphor vs. Symbol" table in c12_hin_ar_cbse_05_008.',
-          misconception: '**Misconception:** "Irony and symbolism are just fancy names for \'metaphor\' — if I find a metaphor, I\'ve found both.".',
+          question: 'गौण भाव (Subsidiary Theme) कविता का वह सहायक भाव पक्ष है जो मुख्य भाव को पुष्ट.',
+          hint: 'यदि अटके तो c11_hin_a_cbse_13_009 (जाग तुझको दूर जाना — गौण भाव और विषयांतर) दोबारा पढ़ें.',
+          misconception: 'सबसे आम भ्रम: छात्र \'गौण भाव\' को \'अनावश्यक प्रसंग\' और \'विषयांतर\' को \'गलती/भटकाव\' समझते हैं। वे हर वर्णनात्मक पद को गौण.',
           parts: [
-                { id: 'a', prompt: 'Define \'irony\' (व्यंग्य/विडंबना) and \'symbolism\' (प्रतीकवाद) in your own words, giving one example from daily life (not from the poem) for each.', answer: '**Correct answer:** Irony',
-                  options: ['**Correct answer:** Irony', 'it rained on my wedding day'],
-                  hint: 'If stuck, review the "Metaphor vs. Symbol" table in c12_hin_ar_cbse_05_008 WORKED_EXAMPLE_2 and.',
-                  misconception: '**Misconception:** "Irony and symbolism are just fancy names for \'metaphor\' — if I find a metaphor, I\'ve found both." **Why it\'s wrong:**.' },
-                { id: 'b', prompt: 'In "मेघ", the sun is called "लाल गेंद" (red ball) in stanza 2. Explain why this description is **both** symbolic **and** ironic.', answer: '**Correct answer:** Symbolic',
-                  options: ['**Correct answer:** Symbolic', 'it represents hope'],
-                  hint: 'If stuck, review the "Metaphor vs. Symbol" table in c12_hin_ar_cbse_05_008 WORKED_EXAMPLE_2 and.',
-                  misconception: '**Misconception:** "Irony and symbolism are just fancy names for \'metaphor\' — if I find a metaphor, I\'ve found both." **Why it\'s wrong:**.' },
-                { id: 'c', prompt: 'Apply the concept: In the line "धुंध की चादर / जैसे किसी ने खींच ली हो" (the fog-sheet as if someone pulled it away), identify the symbol and explain the irony.', answer: '**Correct answer:** Symbol',
-                  options: ['**Correct answer:** Symbol', 'like a sheet'],
-                  hint: 'If stuck, review the "Metaphor vs. Symbol" table in c12_hin_ar_cbse_05_008 WORKED_EXAMPLE_2 and.',
-                  misconception: '**Misconception:** "Irony and symbolism are just fancy names for \'metaphor\' — if I find a metaphor, I\'ve found both." **Why it\'s wrong:**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण भाव (Subsidiary Theme) कविता का वह सहायक भाव पक्ष है जो मुख्य भाव को पुष्ट, विस्तृत',
+                  options: ['गौण भाव (Subsidiary Theme) कविता का वह सहायक भाव पक्ष है जो मुख्य भाव को पुष्ट, विस्तृत', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि अटके तो c11_hin_a_cbse_13_009 (जाग तुझको दूर जाना — गौण भाव और विषयांतर) दोबारा पढ़ें — वहाँ.',
+                  misconception: 'सबसे आम भ्रम: छात्र \'गौण भाव\' को \'अनावश्यक प्रसंग\' और \'विषयांतर\' को \'गलती/भटकाव\' समझते हैं। वे हर वर्णनात्मक पद को गौण भाव और हर लंबे पद को.' }
           ],
-            remediations: { 'misconception-irony-and-symbolism-are': { steps: ['**Revisit node c11_hin_ar_cbse_05_009** (Class 11 Irony & Symbolism) — re-read the definitions and the worked example.', '**Do a micro-drill:** Take any newspaper headline (e.g., "Traffic Police Chief Fined for Speeding").', 'Identify: (a) the expectation, (b) the reality, (c) the irony.', 'Then pick an object in the room (e.g., a cracked cup) and write one sentence making it a symbol of "resilience".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — उषा कविता के 3 पद चुनें और प्रत्येक के लिए लिखें: (क) यह मुख्य भाव को आगे बढ़ाता है / सहारा देता.', '(ख) अपने निर्णय का एक प्रमाण (पंक्ति/शब्द) दें। चरण 2: यदि वह \'विचलित करता है\' लिखे लेकिन प्रमाण वर्णनात्मक हो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
-          hint: 'If stuck on phonesthemes: review the "sound symbolism" exercise in c11_hin_ar_cbse_08_010.',
-          misconception: 'Students believe "vocabulary in context" means "find the dictionary meaning of difficult words in the poem." In these.',
+          question: 'पदावली (शब्दावली) किसी रचना में प्रयुक्त विशिष्ट शब्दों, मुहावरों और.',
+          hint: 'अगर किसी शब्द का प्रसंगानुसार अर्थ न पकड़ में आए, तो c12_hin_ar_cbse_05_007 (प्रतीक और.',
+          misconception: 'छात्र समझते हैं कि "कठिन शब्द" का अर्थ केवल शब्दकोश खोलकर लिख देना है। वे नहीं देखते कि "तम" कविता में केवल \'अंधकार\'.',
           parts: [
-                { id: 'a', prompt: 'In the line "पसई लिस्व पड आँखिन ल्यस पडक डकफेक उन्य त्य", the word "लिस्व" (lisva) is a dialect form.', answer: '"लिस्व" carries the tactile, oral texture of Awadhi/Bhojpuri speech',
-                  options: ['"लिस्व" carries the tactile, oral texture of Awadhi/Bhojpuri speech', 'vocabulary in context', 'find the dictionary meaning of difficult words in the poem'],
-                  hint: 'If stuck on phonesthemes: review the "sound symbolism" exercise in c11_hin_ar_cbse_08_010 (Nirala\'s.',
-                  misconception: 'Students believe "vocabulary in context" means "find the dictionary meaning of difficult words in the poem." In these poems, the *most.' },
-                { id: 'b', prompt: 'The poem "हक्का बक्सा" uses the invented compound "हक्का-बक्सा" (Hakka-Baksa).', answer: '"हक्का-बक्सा" leans toward *chaos* with an undercurrent of absurd laughter',
-                  options: ['"हक्का-बक्सा" leans toward *chaos* with an undercurrent of absurd laughter', 'it sounds like laughing', 'vocabulary in context', 'find the dictionary meaning of difficult words in the poem'],
-                  hint: 'If stuck on phonesthemes: review the "sound symbolism" exercise in c11_hin_ar_cbse_08_010 (Nirala\'s.',
-                  misconception: 'Students believe "vocabulary in context" means "find the dictionary meaning of difficult words in the poem." In these poems, the *most.' },
-                { id: 'c', prompt: 'Compare how "फगुन" (Phalgun) in "मक्का" and "चरह" (charah) in "हक्का बक्सा" function as temporal markers.', answer: '"फगुन" in "मक्का" *expands* the moment',
-                  options: ['"फगुन" in "मक्का" *expands* the moment', 'time words', 'vocabulary in context', 'find the dictionary meaning of difficult words in the poem'],
-                  hint: 'If stuck on phonesthemes: review the "sound symbolism" exercise in c11_hin_ar_cbse_08_010 (Nirala\'s.',
-                  misconception: 'Students believe "vocabulary in context" means "find the dictionary meaning of difficult words in the poem." In these poems, the *most.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (शब्दावली) किसी रचना में प्रयुक्त विशिष्ट शब्दों, मुहावरों और लोकोक्तियों का वह',
+                  options: ['पदावली (शब्दावली) किसी रचना में प्रयुक्त विशिष्ट शब्दों, मुहावरों और लोकोक्तियों का वह', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'अगर किसी शब्द का प्रसंगानुसार अर्थ न पकड़ में आए, तो c12_hin_ar_cbse_05_007 (प्रतीक और बिंब) के उस.',
+                  misconception: 'छात्र समझते हैं कि "कठिन शब्द" का अर्थ केवल शब्दकोश खोलकर लिख देना है। वे नहीं देखते कि "तम" कविता में केवल \'अंधकार\' नहीं, \'अज्ञान-अवस्था\'.' }
           ],
-            remediations: { 'vocabulary-in-context-means-find': { steps: ['**Re-read both poems aloud** — slowly, exaggerating every consonant cluster (क्क्, फ्क्, ड्फ़).', 'Listen for which sounds feel "oily", "crackling", "choking", "expansive".', '**Revisit node c11_hin_ar_cbse_05_010** (Class 11 Vocabulary in Context) — specifically the section on *sound symbolism.', 'Re-do the "phonestheme mapping" exercise there with 5 words from "मक्का".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_010', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "vocabulary in context" means "find the dictionary meaning of difficult words in the poem." In these.',
-          parts: [
-                { id: 'a', prompt: 'A student claims: "The words in \'हक्का बक्सा\' are meaningless nonsense — they don\'t have definitions, so vocabulary analysis is impossible." Evaluate this.', answer: 'The claim is false',
-                  options: ['The claim is false', 'vocabulary', 'dictionary entries', 'vocabulary in context'],
-                  hint: 'If stuck on phonesthemes: review the "sound symbolism" exercise in c11_hin_ar_cbse_08_010 (Nirala\'s.',
-                  misconception: 'Students believe "vocabulary in context" means "find the dictionary meaning of difficult words in the poem." In these poems, the *most.' },
-                { id: 'b', prompt: 'Create a 4-line "sound-poem" using only 5 words from "मक्का" (repeated, fragmented, reordered) that evokes the *smell of roasting corn* without naming it.', answer: '**Poem:** उह्यक क\'अ क\'अ',
-                  options: ['**Poem:** उह्यक क\'अ क\'अ', 'vocabulary in context', 'find the dictionary meaning of difficult words in the poem'],
-                  hint: 'If stuck on phonesthemes: review the "sound symbolism" exercise in c11_hin_ar_cbse_08_010 (Nirala\'s.',
-                  misconception: 'Students believe "vocabulary in context" means "find the dictionary meaning of difficult words in the poem." In these poems, the *most.' }
-          ],
-            remediations: { 'vocabulary-in-context-means-find': { steps: ['**Re-read both poems aloud** — slowly, exaggerating every consonant cluster (क्क्, फ्क्, ड्फ़).', 'Listen for which sounds feel "oily", "crackling", "choking", "expansive".', '**Revisit node c11_hin_ar_cbse_05_010** (Class 11 Vocabulary in Context) — specifically the section on *sound symbolism.', 'Re-do the "phonestheme mapping" exercise there with 5 words from "मक्का".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: कविता का कोई एक पद्यांश लें (जैसे पहला पद)। चरण 2: 5 कठिन शब्द छाँटें। चरण 3: प्रत्येक के लिए — (क) शब्दकोशीय.', '— तीनों लिखें। चरण 4: c12_hin_ar_cbse_05_007 (प्रतीक और बिंब) दोबारा पढ़ें और देखें कि ये शब्द वहाँ चर्चित प्रतीकों से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_011', difficulty: 'standard',
-          question: 'Language usage in the text refers to the deliberate grammatical structures.',
-          hint: 'If stuck, revisit **c11_hin_ar_cbse_05_011** (Class 11 Grammar node) and practice.',
-          misconception: '**Misconception:** "Grammar in poetry is just about identifying parts of speech (kriya, sarvanam, visheshan) — if I can.',
+          question: 'पद्य में भाषा-प्रयोग का अर्थ है कवि द्वारा छंद, लय और भाव के अनुरूप शब्दों का.',
+          hint: 'यदि अटका हुआ लगे: **c11_hin_a_cbse_13_011 (जाग तुझको दूर जाना — व्याकरण: पद्य में.',
+          misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि \'कविता में भाषा-प्रयोग\' का अर्थ है **कठिन/तत्सम शब्दों का प्रयोग** (जैसे \'प्रभात\'.',
           parts: [
-                { id: 'a', prompt: '**ANALYZE:** Compare the use of the present participle (vartaman kriya visheshan) in these two lines from the referenced poems: (a) "tknw VwVrk gS bl m"kk.', answer: '**Correct Answer:** In (a) "gks jgk gS" (is becoming)',
-                  options: ['**Correct Answer:** In (a) "gks jgk gS" (is becoming)', 'vartaman kal'],
-                  hint: 'If stuck, revisit **c11_hin_ar_cbse_05_011** (Class 11 Grammar node) and practice identifying.',
-                  misconception: '**Misconception:** "Grammar in poetry is just about identifying parts of speech (kriya, sarvanam, visheshan) — if I can label them, I\'ve.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्य में भाषा-प्रयोग का अर्थ है कवि द्वारा छंद, लय और भाव के अनुरूप शब्दों का चयन, उनके',
+                  options: ['पद्य में भाषा-प्रयोग का अर्थ है कवि द्वारा छंद, लय और भाव के अनुरूप शब्दों का चयन, उनके', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि अटका हुआ लगे: **c11_hin_a_cbse_13_011 (जाग तुझको दूर जाना — व्याकरण: पद्य में भाषा-प्रयोग)** पर.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि \'कविता में भाषा-प्रयोग\' का अर्थ है **कठिन/तत्सम शब्दों का प्रयोग** (जैसे \'प्रभात\' के बदले \'अरुणोदय\'.' }
           ],
-            remediations: { 'misconception-grammar-in-poetry-is': { steps: ['** Give them a single line (e.g., "jk[k ls yhik gqvk pkSdk"). Ask: "Draw what you see *before* the verb, *during* the.', '** Have them rewrite the line in 3 ways: (a) standard prose, (b) future tense, (c) active voice.', '** Assign a **micro-writing task**: "Describe your classroom at this moment using ONLY present participles and no main.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**पुनर्पाठ (Re-read):** छात्र से कहें — कविता की केवल पहली दो पंक्तियाँ **तीन बार ज़ोर से पढ़ें**, हर बार अलग भाव से.', '**शब्द-चयन तालिका (Word-choice table):** एक शीट बनाएँ — बाएँ कॉलम में कवि के शब्द, दाएँ में उनके 3 सरल पर्याय। छात्र से.', '**वाक्य-क्रम परिवर्तन (Syntax swap):** मूल पंक्ति लें, उसका सीधा क्रम (SVO) लिखवाएँ, फिर दोनों पढ़कर **बल/भाव का अंतर**.', '**पुनर्निदान (Re-diagnostic):** DIAGNOSTIC_QUESTION_2 फिर से दें — अब छात्र \'बल/भाव\' शब्दों का प्रयोग करके उत्तर दे सके.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information explicitly.',
-          hint: 'If stuck on classification, return to Imagery node (c12_hin_ar_cbse_05_008) and list.',
-          misconception: '**Misconception:** "Inferential questions have no right answer — you can write whatever you feel." **Why it happens:**.',
+          question: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर **एकदम निश्चित.',
+          hint: 'यदि **कीवर्ड पहचान** में अटके → **c12_hin_ar_cbse_05_002 (भावार्थ)** दोबारा पढ़ें; यदि.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **आशय-सूचक प्रश्न का उत्तर "अपनी राय" (opinion) होता है** — इसलिए वे लिख देते हैं.',
           parts: [
-                { id: 'a', prompt: 'Read this line from the poem: "लाल-लाल बादल / अग्नि-सी दमकते". A student frames a question: "बादल किस रंग के हैं?" Is this literal or inferential?', answer: 'It is a **literal** question',
-                  options: ['It is a **literal** question', 'अग्नि-सी', 'Inferential questions have no right answer'],
-                  hint: 'If stuck on classification, return to Imagery node (c12_hin_ar_cbse_05_008) and list every concrete.',
-                  misconception: '**Misconception:** "Inferential questions have no right answer — you can write whatever you feel." **Why it happens:** Students confuse.' },
-                { id: 'b', prompt: 'Answer this literal question from the poem using the 3-step protocol (Classify → Evidence-hunt → Structure): "कवि ने साँझ का वर्णन करते हुए किन दो रंगों का.', answer: '**Step 1 Classify:** Literal',
-                  options: ['**Step 1 Classify:** Literal', 'लाल और पीला', 'reading too fast', 'Inferential questions have no right answer'],
-                  hint: 'If stuck on classification, return to Imagery node (c12_hin_ar_cbse_05_008) and list every concrete.',
-                  misconception: '**Misconception:** "Inferential questions have no right answer — you can write whatever you feel." **Why it happens:** Students confuse.' },
-                { id: 'c', prompt: 'Analyze the following inferential question: "‘मक्क’ कविता में साँझ को दुल्हन के रूप में प्रस्तुत करने का क्या अभिप्राय है?" Break down the inference chain.', answer: '**Evidence 1:** "लाल-लाल बादल" → bride\'s red bridal veil/lehenga',
-                  options: ['**Evidence 1:** "लाल-लाल बादल" → bride\'s red bridal veil/lehenga', 'because it looks beautiful', 'चिता की लकड़ी', 'Inferential questions have no right answer'],
-                  hint: 'If stuck on classification, return to Imagery node (c12_hin_ar_cbse_05_008) and list every concrete.',
-                  misconception: '**Misconception:** "Inferential questions have no right answer — you can write whatever you feel." **Why it happens:** Students confuse.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर **एकदम निश्चित, तथ्य-आधारित और',
+                  options: ['वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर **एकदम निश्चित, तथ्य-आधारित और', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि **कीवर्ड पहचान** में अटके → **c12_hin_ar_cbse_05_002 (भावार्थ)** दोबारा पढ़ें; यदि **PEEL.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **आशय-सूचक प्रश्न का उत्तर "अपनी राय" (opinion) होता है** — इसलिए वे लिख देते हैं: "मुझे लगता है कवि.' }
           ],
-            remediations: { 'misconception-inferential-questions-have-no': { steps: ['**Revisit evidence-hunting:** Take the poem\'s vH;kl (exercise) questions 1–3.', 'Highlight every word/phrase that *directly answers* Q1 (literal) vs.', 'the *clues* you must combine for Q2 (inferential).', '**Build inference chains:** For each inferential question, draw a 3-column table: **Textual Clue** |.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'opinion-cbse-text-based-reasoning': { steps: ['**पुनरावृत्ति (Remediation Step 1):** छात्र को **c12_hin_ar_cbse_05_002 (पद्यांश-वार भावार्थ)** और.', '**अभ्यास (Step 2):** एक छोटा पद्यांश (4-5 पंक्तियाँ) दें — **पहले 3 वस्तुनिष्ठ प्रश्न बनवायें** (तथ्य-आधारित), फिर **2.', '**पुनः निदान (Re-diagnostic):** उसी पद्यांश पर **नया आशय-सूचक प्रश्न** दें — देखें कि क्या उत्तर में **PEEL.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

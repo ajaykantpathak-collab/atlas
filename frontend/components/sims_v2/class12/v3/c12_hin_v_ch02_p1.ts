@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_v_ch02_p1: SimDef = {
     id: 'v3_c12_hin_v_ch02_p1',
-    title: 'ikB\'kkyk tkus osQ fy, eu rM+irk Fkk · Part 1/3',
+    title: 'जूझ · Part 1/3',
     subtitle: 'She stitched quilts on credit — so the goats could be someone else\'s',
-    classLevel: 12, subject: 'hin_v', topic: 'ikB\'kkyk tkus osQ fy, eu rM+irk Fkk · Part 1/3',
+    classLevel: 12, subject: 'hin_v', topic: 'जूझ · Part 1/3',
     chapters: ['c12_hin_v_ch02'],
     nodeIds: ['c12_hin_v_cbse_02_001', 'c12_hin_v_cbse_02_002', 'c12_hin_v_cbse_02_003', 'c12_hin_v_cbse_02_004', 'c12_hin_v_cbse_02_005', 'c12_hin_v_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,48 +19,15 @@ export const c12_hin_v_ch02_p1: SimDef = {
         hook: 'Read it as calculation, not just sentiment — and notice what the classroom reveals: the fluent classmate\'s ease is cultural capital, not talent. Even the teacher\'s method is real pedagogy — rhythm, repetition and emotion make poems survive decades in a student\'s memory.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" prepares students to engage deeply with the autobiographical narrative *ikB\'kkyk tkus osQ fy, eu rM+irk Fkk* by V.K. Anand (वी.के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'जूझ — पृष्ठभूमि और रचनाकार परिचय', text: '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक संदर्भ** तथा **रचनाकार के जीवन-दर्शन, लेखन-शैली एवं प्रमुख कृतियों** का संक्षिप्त परिचय है जो पाठ के गहन अध्ययन के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_v_cbse_02_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Follow a goat-herd into a classroom: weigh a mother\'s economic logic, decode what separates the ready student from the late one, and ask what made one teacher\'s verse unforgettable.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['जूझ — पृष्ठभूमि और', 'जूझ — कथानक और', 'जूझ — पाठ्य-परिवेश और', 'जूझ — पात्र-चित्रण: नायक/प्रमुख', 'जूझ — पात्र-चित्रण: सहायक', 'जूझ — मुख्य विषय'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_02_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a film set in 1930s village India — a boy watches other children walk to school while he tends goats, his mother stitches late.',
-            decisions: [{ prompt: 'Who is the author of *ikB\'kkyk tkus osQ fy, eu rM+irk Fkk* and what is his primary literary identity?', options: [
-                { text: 'The author is V.K', outcome: 'The author is V.K. Anand (वी.के. आनंद), a noted Hindi writer and poet associated with the *Nayi.' },
-                { text: 'Premchand or Harivansh Rai Bachchan', outcome: 'Not quite — Students treat "context" as a static list of facts (author birth/death, publication year) rather.', reveals: 'students-treat-context-as-a' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_02_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re telling a friend about a movie you watched — you don\'t just list scenes randomly; you shape the telling: "It started with..., then the problem.',
-            decisions: [{ prompt: 'What is the difference between \'plot\' (कथानक) and \'narrative structure\' (आख्यान संरचना) in literary analysis?', options: [
-                { text: 'Plot is the logical, chronological sequence of cause-and-effect events in the story (what', outcome: 'Plot is the logical, chronological sequence of cause-and-effect events in the story (what.' },
-                { text: 'narrative structure', outcome: 'Not quite — Students believe "narrative structure" means only "beginning, middle, end" and that identifying the.', reveals: 'narrative-structure-means-only-beginning' },
-                { text: 'beginning, middle, end', outcome: 'Not quite — Students believe "narrative structure" means only "beginning, middle, end" and that identifying the.', reveals: 'narrative-structure-means-only-beginning' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_02_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are standing in a dimly lit village hut where a mother stitches late into the night, worried about her son\'s future — this is the opening.',
-            decisions: [{ prompt: 'What are the three primary physical settings described in the chapter "ikB\'kkyk tkus osQ fy, eu rM+irk Fkk"?', options: [
-                { text: 'The three primary physical settings are: (1) the narrator\'s impoverished village home', outcome: 'The three primary physical settings are: (1) the narrator\'s impoverished village home with his.' },
-                { text: 'home and school', outcome: 'Not quite — Students often treat setting as a static list of locations ("home, school, teacher\'s house") and.', reveals: 'students-often-treat-setting-as' },
-                { text: 'examination hall', outcome: 'Not quite — Students often treat setting as a static list of locations ("home, school, teacher\'s house") and.', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_02_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are asked in the board exam: "Sketch the character of the narrator in \'ikB\'kkyk tkus osQ fy, eu rM+irk Fkk\'." Begin by recalling the narrator\'s own.',
-            decisions: [{ prompt: 'What is the primary narrative perspective used in "ikB\'kkyk tkus osQ fy, eu rM+irk Fkk" and who is the protagonist?', options: [
-                { text: 'The story is told in first‑person ("eSa") and the narrator himself is the protagonist', outcome: 'The story is told in first‑person ("eSa") and the narrator himself is the protagonist.' },
-                { text: 'third person', outcome: 'Not quite — Students often treat character analysis as a **list of adjectives** ("he is hardworking, poor.', reveals: 'students-often-treat-character-analysis' },
-                { text: 'the teacher', outcome: 'Not quite — Students often treat character analysis as a **list of adjectives** ("he is hardworking, poor.', reveals: 'students-often-treat-character-analysis' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_02_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re asked: "How does the father\'s resistance to education actually prove the story\'s central argument about literacy?" Start by listing every scene.',
-            decisions: [{ prompt: 'Identify the two supporting characters who directly enable the protagonist\'s school enrollment and name the specific action each takes.', options: [
-                { text: 'Correct answer: Mother (ek¡)', outcome: 'Correct answer: Mother (ek¡) — she persuades Father and accompanies the narrator to Shri.' },
-                { text: 'names only Mother misses the institutional gatekeeping role of the teacher', outcome: 'Not quite — Students treat supporting characters as "background information" rather than active thematic.', reveals: 'students-treat-supporting-characters-as' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_v_cbse_02_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Profiling a self-made poet for the alumni magazine, you compress his schooling into one line — \'attended village school\' — and spend the word count on his awards. Your subject objects: \'the whole story is in the teacher who stayed after class.\'',
             decisions: [{ prompt: 'What does the pacing of \'पाठशाला जाने के लिए मन तड़पता था\' confirm?', options: [
@@ -70,8 +37,8 @@ export const c12_hin_v_ch02_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_v_cbse_02_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read a school memoir as a class document — where literacy is the one inheritance poverty cannot confiscate.',
-            decisions: [{ prompt: 'What comes next? ikB\'kkyk tkus osQ fy, eu rM+irk Fkk · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — ikB\'kkyk tkus osQ fy, eu rM+irk Fkk · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? जूझ · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — जूझ · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -80,90 +47,71 @@ export const c12_hin_v_ch02_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" prepares students to engage deeply.',
-          hint: 'If stuck, revisit **c11_hin_v_cbse_02_001** (Lalu\'s context) and practice the "3-column.',
-          misconception: 'Students treat "context" as a static list of facts (author birth/death, publication year) rather than a dynamic lens.',
+          question: '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक.',
+          hint: 'यदि फँस जाएँ तो **कक्षा 11 वितान के पाठ 1 (c11_hin_v_cbse_01_001)** का "रचनाकार-परिचय →.',
+          misconception: '**विशिष्ट भ्रांति:** *"पृष्ठभूमि और रचनाकार परिचय = रटने योग्य तथ्य (नाम, तारीख, कृतियों की सूची)।"* **वास्तविकता:**.',
           parts: [
-                { id: 'a', prompt: 'Who is the author of *ikB\'kkyk tkus osQ fy, eu rM+irk Fkk* and what is his primary literary identity?', answer: 'The author is V.K',
-                  options: ['The author is V.K', 'Premchand or Harivansh Rai Bachchan'],
-                  hint: 'If stuck, revisit **c11_hin_v_cbse_02_001** (Lalu\'s context) and practice the "3-column table".',
-                  misconception: 'Students treat "context" as a static list of facts (author birth/death, publication year) rather than a dynamic lens.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक',
+                  options: ['"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख'],
+                  hint: 'यदि फँस जाएँ तो **कक्षा 11 वितान के पाठ 1 (c11_hin_v_cbse_01_001)** का "रचनाकार-परिचय →.',
+                  misconception: '**विशिष्ट भ्रांति:** *"पृष्ठभूमि और रचनाकार परिचय = रटने योग्य तथ्य (नाम, तारीख, कृतियों की सूची)।"* **वास्तविकता:** बोर्ड परीक्षा (CBSE).' }
           ],
-            remediations: { 'students-treat-context-as-a': { steps: ['Re-read the Class 11 node **c11_hin_v_cbse_01_001** (Before You Read: Context and Background for Vitan Ch.1) — note how.', 'Create a 3-column table: *Historical Event → Textual Trace → Thematic Payoff* for Anand\'s life (e.g., Colonial.', 'Re-attempt Diagnostic Q2 and Q4 using the table.', 'If still stuck, watch the 12-min NCERT "Author Introduction" video for Vitan Ch.2 (DIKSHA portal) and pause to note.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**पुनः पढ़ें (Re-read):** NCERT पाठ्यपुस्तक के **पहले 2 पृष्ठ** (रचनाकार परिचय + पृष्ठभूमि) **पेंसिल लेकर** पढ़ें — हर.', '**तालिका बनाएँ (Make a table):** दो कॉलम — **कॉलम A: लेखक/पृष्ठभूमि का तथ्य** (जैसे: अनामिका मैथिली भाषी हैं, 1990 में.', '**लिखित अभ्यास (Written drill):** उपरोक्त तालिका के किन्हीं **3 बिंदुओं** पर 60-80 शब्दों के **संक्षिप्त उत्तर** लिखें.', '**पुनः-जाँच (Re-diagnostic):** उपरोक्त **DIAGNOSTIC_QUESTION_2** और **DIAGNOSTIC_QUESTION_3** का उत्तर बिना देखे लिखें।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refers to the organized sequence of events in.',
-          hint: 'If unable to separate chronological from narrative order, practice with a simple fairy.',
-          misconception: 'Students believe "narrative structure" means only "beginning, middle, end" and that identifying the climax.',
+          question: '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम.',
+          hint: 'यदि अटका हुआ महसूस हो तो कक्षा 11 वितान पाठ 1 या आरोह पाठ 1 के \'कथानक और आख्यान-संरचना\'.',
+          misconception: 'छात्र प्रायः \'कथानक\' (Plot) और \'कहानी\' (Story) को समानार्थी मान लेते हैं: फॉरस्टर के शब्दों में, \'कहानी\' केवल.',
           parts: [
-                { id: 'a', prompt: 'Map the following events from the story in CHRONOLOGICAL order (as they happened in the character\'s life): (A) Narrator fails his exam and repeats a year, (B).', answer: 'Correct chronological order: B → E → D → A → C',
-                  options: ['Correct chronological order: B → E → D → A → C', 'narrative structure', 'beginning, middle, end'],
-                  hint: 'If unable to separate chronological from narrative order, practice with a simple fairy tale (e.g.',
-                  misconception: 'Students believe "narrative structure" means only "beginning, middle, end" and that identifying the climax is sufficient analysis.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि',
+                  options: ['\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख'],
+                  hint: 'यदि अटका हुआ महसूस हो तो कक्षा 11 वितान पाठ 1 या आरोह पाठ 1 के \'कथानक और आख्यान-संरचना\' नोड.',
+                  misconception: 'छात्र प्रायः \'कथानक\' (Plot) और \'कहानी\' (Story) को समानार्थी मान लेते हैं: फॉरस्टर के शब्दों में, \'कहानी\' केवल कालक्रमानुसार घटनाओं का योग.' }
           ],
-            remediations: { 'narrative-structure-means-only-beginning': { steps: ['Have the student draw two parallel timelines — one labeled "Character\'s Life (Chronological)" and one labeled "Story.', 'Ask them to circle every point where the two timelines diverge (flashbacks, compressions, expansions, frame intrusions).', 'For each divergence, write one sentence: "The author places X before Y in the text, though Y happened first,.', 'Re-attempt Diagnostic Question 4. If still stuck, revisit c11_hin_v_cbse_01_002 (Class 11 Plot and Narrative Structure).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "narrative structure" means only "beginning, middle, end" and that identifying the climax.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this claim: "The non-linear structure of the story weakens the emotional impact because the reader already knows the narrator becomes a poet." Defend.', answer: 'Refute',
-                  options: ['Refute', 'knowing the ending', 'knowing the journey', 'narrative structure'],
-                  hint: 'If unable to separate chronological from narrative order, practice with a simple fairy tale (e.g.',
-                  misconception: 'Students believe "narrative structure" means only "beginning, middle, end" and that identifying the climax is sufficient analysis.' }
-          ],
-            remediations: { 'narrative-structure-means-only-beginning': { steps: ['Have the student draw two parallel timelines — one labeled "Character\'s Life (Chronological)" and one labeled "Story.', 'Ask them to circle every point where the two timelines diverge (flashbacks, compressions, expansions, frame intrusions).', 'For each divergence, write one sentence: "The author places X before Y in the text, though Y happened first,.', 'Re-attempt Diagnostic Question 4. If still stuck, revisit c11_hin_v_cbse_01_002 (Class 11 Plot and Narrative Structure).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-story': { steps: ['छात्र को फॉरस्टर का \'कहानी बनाम कथानक\' उदाहरण पुनः पढ़ाएँ (c11_hin_v_cbse_01_002 या c11_hin_a_cbse_01_002 देखें)। 2.', '\'जूझ\' की 5-6 प्रमुख घटनाएँ कार्ड पर लिखवाएँ और उन्हें कालक्रम (Story) और कारण-कार्य क्रम (Plot) में अलग-अलग जमाने को.', 'फ्लैशबैक वाले अंश (जैसे पिता की मृत्यु का प्रसंग) चिह्नित करवाएँ और पूछें: "यह अतीत की घटना वर्तमान संघर्ष को कैसे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_003', difficulty: 'standard',
-          question: 'Setting and atmosphere refer to the time, place, physical environment, and.',
-          hint: 'If unable to separate description from narration, practice with c11_hin_v_cbse_02_003.',
-          misconception: 'Students often treat setting as a static list of locations ("home, school, teacher\'s house") and atmosphere as a single.',
+          question: 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक.',
+          hint: 'यदि परिवेश के तत्वों की पहचान में अटकें, तो कक्षा 11 वितान पाठ 2 के परिवेश-विश्लेषण नोड.',
+          misconception: 'छात्र अक्सर मानते हैं कि \'परिवेश\' केवल कहानी का \'बैकड्रॉप\' (पृष्ठभूमि) है जो स्थिर रहता है, जबकि वास्तव में "जूझ" में.',
           parts: [
-                { id: 'a', prompt: 'Apply the concept of "temporal setting" to trace how the school atmosphere changes from the narrator\'s primary school days to his higher-class experience.', answer: 'Shift 1: Primary school',
-                  options: ['Shift 1: Primary school', 'teachers were nicer later'],
-                  hint: 'If unable to separate description from narration, practice with c11_hin_v_cbse_02_003 exercises.',
-                  misconception: 'Students often treat setting as a static list of locations ("home, school, teacher\'s house") and atmosphere as a single adjective per.' },
-                { id: 'b', prompt: 'Analyze how the "teacher\'s house" setting functions differently from both the home and school settings.', answer: 'The teacher\'s house is a liminal space',
-                  options: ['The teacher\'s house is a liminal space', 'just another school scene'],
-                  hint: 'If unable to separate description from narration, practice with c11_hin_v_cbse_02_003 exercises.',
-                  misconception: 'Students often treat setting as a static list of locations ("home, school, teacher\'s house") and atmosphere as a single adjective per.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,',
+                  options: ['पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख'],
+                  hint: 'यदि परिवेश के तत्वों की पहचान में अटकें, तो कक्षा 11 वितान पाठ 2 के परिवेश-विश्लेषण नोड.',
+                  misconception: 'छात्र अक्सर मानते हैं कि \'परिवेश\' केवल कहानी का \'बैकड्रॉप\' (पृष्ठभूमि) है जो स्थिर रहता है, जबकि वास्तव में "जूझ" में परिवेश गतिशील.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student re-read ONLY the descriptive passages (skip dialogue/action) for three settings: opening home scene.', 'Create a three-column table: Column A = sensory details quoted (sound/sight/smell/touch), Column B = emotional effect.', 'Compare Column B across settings — student must articulate the shift from passive suffering to active engagement.', 'Re-attempt Diagnostic Question 4 using this table. If still stuck, revisit c11_hin_v_cbse_02_003 (Class 11 Setting and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें कि वह कहानी के 5 प्रमुख प्रसंग चुने और प्रत्येक में स्थान, समय, सामाजिक नियम, आर्थिक स्थिति, और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves systematically examining the.',
-          hint: 'If stuck, re‑watch the Class 11 "Character Analysis: Protagonist" video for Chapter 1.',
-          misconception: 'Students often treat character analysis as a **list of adjectives** ("he is hardworking, poor, emotional") without.',
+          question: 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के.',
+          hint: 'यदि अटक जाएं, तो **\'साक्ष्य-आधारित तर्क\' (Evidence-Based Argument)** की मूल अवधारणा (Node.',
+          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि चरित्र-चित्रण में नायक के **\'गुणों की सूची\' (List of Traits)** बनाना पर्याप्त.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves systematically examining the central',
-                  options: ['Character analysis of the protagonist involves systematically examining the central', '"Before You Read: Context and Background" prepares students to engage deeply with the', 'Plot and narrative structure refers to the organized sequence of events in a story (plot)', 'Setting and atmosphere refer to the time, place, physical environment, and emotional mood'],
-                  hint: 'If stuck, re‑watch the Class 11 "Character Analysis: Protagonist" video for Chapter 1 (Vitan) and.',
-                  misconception: 'Students often treat character analysis as a **list of adjectives** ("he is hardworking, poor, emotional") without anchoring each trait.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख',
+                  options: ['पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि अटक जाएं, तो **\'साक्ष्य-आधारित तर्क\' (Evidence-Based Argument)** की मूल अवधारणा (Node.',
+                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि चरित्र-चित्रण में नायक के **\'गुणों की सूची\' (List of Traits)** बनाना पर्याप्त है — जैसे "वह ईमानदार.' }
           ],
-            remediations: { 'students-often-treat-character-analysis': { steps: ['Re‑read the chapter marking every "eSa" (I) statement with a pencil.', 'Group those markings into 4 clusters: *family interactions*, *school scenes*, *teacher moments*, *inner thoughts*.', 'For each cluster, write one PEEL paragraph on a separate slip.', 'Exchange slips with a peer; check if each paragraph has a quoted/paraphrased evidence and a link to theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'list-of-traits': { steps: ['**पुनः पाठ पढ़ें (Re-read)** — Node **c12_hin_v_cbse_02_002** (कथानक) से नायक के **तीन प्रमुख मोड़ (Turning Points)**.', '**साक्ष्य तालिका बनाएं (Evidence Table)** — एक कागज पर तीन कॉलम बनाएं: **प्रसंग | पाठगत साक्ष्य (उद्धरण/सार) | प्रकट.', '**\'क्यों\' पूछने का अभ्यास (Why Drill)** — प्रत्येक गुण के लिए 3 बार "क्यों?" पूछें। उत्तर पाठ से ही आएगा। 4.', '**पुनः निदान (Re-diagnostic)**: Diagnostic Question 3 को दोबारा हल करें — इस बार दो प्रसंगों की तुलना में **\'परिवर्तन.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_005', difficulty: 'standard',
-          question: 'Supporting character analysis examines how secondary figures (mother, father.',
-          hint: 'Review the FOIL framework from c11_hin_v_cbse_01_005 — specifically the "Function" and.',
-          misconception: 'Students treat supporting characters as "background information" rather than active thematic arguments.',
+          question: 'सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक के संघर्ष को संभव.',
+          hint: 'यदि फँस जाएँ: **c11_hin_v_cbse_01_005** (कक्षा 11 वितान पाठ 1 सहायक पात्र) दोबारा पढ़ें.',
+          misconception: '**विशिष्ट भ्रम:** छात्र सहायक पात्रों को **"नायक की सहायता करने वाले साधन (tools/helpers)"** मानते हैं — जैसे वे नायक.',
           parts: [
-                { id: 'a', prompt: 'Identify the two supporting characters who directly enable the protagonist\'s school enrollment and name the specific action each takes.', answer: 'Correct answer: Mother (ek¡)',
-                  options: ['Correct answer: Mother (ek¡)', 'names only Mother misses the institutional gatekeeping role of the teacher'],
-                  hint: 'Review the FOIL framework from c11_hin_v_cbse_01_005 — specifically the "Function" and "Opposition".',
-                  misconception: 'Students treat supporting characters as "background information" rather than active thematic arguments.' },
-                { id: 'b', prompt: 'Explain in your own words why Father (nknk) initially opposes the narrator\'s education, using one piece of textual evidence.', answer: 'Correct answer: Father opposes education',
-                  options: ['Correct answer: Father opposes education', 'Father hates education', 'Father is cruel'],
-                  hint: 'Review the FOIL framework from c11_hin_v_cbse_01_005 — specifically the "Function" and "Opposition".',
-                  misconception: 'Students treat supporting characters as "background information" rather than active thematic arguments.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक के संघर्ष को संभव बनाते हैं,',
+                  options: ['सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक के संघर्ष को संभव बनाते हैं,', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि फँस जाएँ: **c11_hin_v_cbse_01_005** (कक्षा 11 वितान पाठ 1 सहायक पात्र) दोबारा पढ़ें — वहाँ.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र सहायक पात्रों को **"नायक की सहायता करने वाले साधन (tools/helpers)"** मानते हैं — जैसे वे नायक की \'सेवा\' के लिए ही.' }
           ],
-            remediations: { 'students-treat-supporting-characters-as': { steps: ['If a student cannot move beyond trait-listing: Step 1 — Have them reread only the Mother-Father dialogue on pages.', 'Step 2 — Ask: "What does each verb achieve for the narrator\'s schooling?" Step 3 — Co-write one PEEL paragraph.', 'le>k losaQxsA"), Explanation (she translates teacher\'s authority into domestic permission), Link (this mediates the.', 'Step 4 — Assign independent analysis of Pandit ji using the same frame.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'tools-helpers': { steps: ['**चरण 1:** छात्र से कहें: "पाठ खोलें और **केवल उन पन्नों को पढ़ें जहाँ छोटे ठाकुर बोल नहीं रहा — जहाँ कोई और बोल रहा है.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
-          hint: 'If stuck on thematic statement: go to c12_hin_v_cbse_02_004 Step 3 (protagonist\'s.',
-          misconception: 'Students write: "The theme is the struggle for education" — this is a TOPIC, not a theme.',
+          question: '\'मुख्य विषय\' (Central Theme) वह केंद्रीय विचार या संदेश है जिसे रचनाकार पूरी.',
+          hint: 'यदि फँसें तो: c12_hin_v_cbse_02_005 (माँ का चरित्र-चित्रण) के \'चरित्र-परिवर्तन\' खंड को.',
+          misconception: '**विषय = कथानक का सारांश** — यह सबसे घातक भ्रम है। छात्र लिखते हैं: "जूझ भुवन नामक लड़के की कहानी है जो पढ़ना चाहता था.',
           parts: [
-                { id: 'a', prompt: 'The narrator\'s father says: "टका भिज माझी शेजारी आला नाही" (Money hasn\'t reached my neighbor yet) when asked about school fees.', answer: 'This moment crystallizes the theme of *systemic economic barrier*',
-                  options: ['This moment crystallizes the theme of *systemic economic barrier*', 'father doesn\'t care'],
-                  hint: 'If stuck on thematic statement: go to c12_hin_v_cbse_02_004 Step 3 (protagonist\'s internal.',
-                  misconception: 'Students write: "The theme is the struggle for education" — this is a TOPIC, not a theme.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मुख्य विषय\' (Central Theme) वह केंद्रीय विचार या संदेश है जिसे रचनाकार पूरी रचना के',
+                  options: ['\'मुख्य विषय\' (Central Theme) वह केंद्रीय विचार या संदेश है जिसे रचनाकार पूरी रचना के', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि फँसें तो: c12_hin_v_cbse_02_005 (माँ का चरित्र-चित्रण) के \'चरित्र-परिवर्तन\' खंड को दोबारा पढ़ें.',
+                  misconception: '**विषय = कथानक का सारांश** — यह सबसे घातक भ्रम है। छात्र लिखते हैं: "जूझ भुवन नामक लड़के की कहानी है जो पढ़ना चाहता था पर महाजन ने नहीं.' }
           ],
-            remediations: { 'students-write-the-theme-is': { steps: ['Revisit c12_hin_v_cbse_02_004 (Protagonist Analysis) — list 5 things the narrator *wants* and 5 *obstacles*.', 'Revisit c12_hin_v_cbse_02_005 (Supporting Characters) — map how each character (mother, father, Pandit Sanyal.', 'For each obstacle, write one sentence: "This shows that education in this world requires ______."', 'The repeated blank-filler IS your theme. Do this exercise before re-attempting diagnostic Q3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'moral-lesson': { steps: ['छात्र को कहानी के **अंतिम तीन पृष्ठ** फिर से पढ़वाएँ — विशेषकर भुवन-माँ संवाद। 2.', 'पूछें: "लेखक ने अंत यहीं क्यों रोका?', 'अगर माँ चुप रह जाती तो क्या बदलता?" 3.', 'साथ में **c12_hin_v_cbse_02_004** (नायक पात्र-चित्रण) और **c12_hin_v_cbse_02_005** (सहायक पात्र) दोबारा देखें — विषय.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

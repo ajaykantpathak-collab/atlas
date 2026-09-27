@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch10_p3: SimDef = {
     id: 'v3_c12_hin_a_ch10_p3',
-    title: 'vlxj otkgr · Part 3/3',
+    title: 'प्रेमघन की छाया-स्मृति · Part 3/3',
     subtitle: 'The dictionary was also a freedom struggle',
-    classLevel: 12, subject: 'hin_a', topic: 'vlxj otkgr · Part 3/3',
+    classLevel: 12, subject: 'hin_a', topic: 'प्रेमघन की छाया-स्मृति · Part 3/3',
     chapters: ['c12_hin_a_ch10'],
     nodeIds: ['c12_hin_a_cbse_10_013', 'c12_hin_a_cbse_10_014', 'c12_hin_a_cbse_10_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,29 +19,20 @@ export const c12_hin_a_ch10_p3: SimDef = {
         hook: 'Prasad\'s story grows from lived ground — his father\'s salon hosted Bharatendu-era greats, but the new circle is journalists, editors and lexicographers earning livelihoods in Hindi: literature shifting from patronage to profession. Chhayavad\'s \'new form\' was engineered through the dictionary as much as through verse.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the ability to examine a literary text beyond its surface meaning by evaluating the author\'s choices (structure, language, perspective), interpreting.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'प्रेमघन की छाया-स्मृति — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन पाठ का गहरा विश्लेषण करना है जिसमें विषय, पात्र-चित्रण, साहित्यिक युक्तियाँ, और लेखक के उद्देश्य की जाँच शामिल है, ताकि सतही अर्थ से आगे जाकर गहरे निहितार्थ समझे जा सकें।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_10_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Enter the Prayagraj circle of the 1920s: weigh dictionary-making as nationalism, watch literary culture move from royal patrons to professional writers, and trace a life into a story.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_10_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you open the board exam paper and see a 6-mark question: "जयशंकर प्रसाद के व्यक्तित्व की किन विशेषताओं ने उन्हें हिन्दी साहित्य का निर्माता बनाया?',
-            decisions: [{ prompt: 'What is the PRIMARY purpose of the \'Point\' sentence in a PEEL paragraph when writing a character sketch of Jaishankar Prasad based on this.', options: [
-                { text: 'The \'Point\' sentence states the specific personality trait or literary contribution being', outcome: 'The \'Point\' sentence states the specific personality trait or literary contribution being argued.' },
-                { text: 'It summarizes the whole chapter', outcome: 'Not quite — Students believe "writing skills" means memorizing 2-3 model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-2' },
-                { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means memorizing 2-3 model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-2' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_10_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a book club meeting about "जयशंकर प्रसाद" — the facilitator asks, "What struck you most about Shukla\'s portrayal of his father\'s influence?".',
-            decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a Class 12 Hindi speaking-listening activity based on a prose chapter?', options: [
-                { text: 'A discussion point is a focused, text-grounded observation or question that invites peers', outcome: 'A discussion point is a focused, text-grounded observation or question that invites peers.' },
-                { text: 'sharing personal feelings about the story', outcome: 'Not quite — Students believe a discussion point is "any thought that comes to mind while reading." They equate.', reveals: 'a-discussion-point-is-any' },
-                { text: 'any thought that comes to mind while reading', outcome: 'Not quite — Students believe a discussion point is "any thought that comes to mind while reading." They equate.', reveals: 'a-discussion-point-is-any' }
-            ] }] } },
+        labels: ['प्रेमघन की छाया-स्मृति —'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c12_hin_a_cbse_10_014', title: 'Identify each idea',
+          dissect: { specimen: 'प्रेमघन की छाया-स्मृति · Part 3/3', spots: [
+            { id: 's1', label: '- -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें पाठ पढ़ने, उसके विश्लेषण करने, मुख्य बिंदुओं.', answer: '- -', options: ['- -', '- - -'] },
+            { id: 's2', label: '- - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें पाठ को भावनात्मक स्वर, विराम, जोर और लय के साथ.', answer: '- - -', options: ['- - -', '- -'] }
+          ] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_10_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your college-application mentor tells you to write your \'how I became a writer\' essay as a clean chronology: class 8, class 9, class 10. Your actual formation is messier — a grandfather\'s bookshelf, one teacher, a literary evening that changed everything.',
             decisions: [{ prompt: 'What would the narrative architecture of Kaka Kalelkar\'s memoir chapter say?', options: [
@@ -56,66 +47,43 @@ export const c12_hin_a_ch10_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_10_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the ability to examine.',
-          hint: 'If stuck, revisit the concept of \'unreliable narrator\' from Class 11.',
-          misconception: 'Students often treat autobiographical texts as transparent windows into the author\'s life, assuming \'what happened\'.',
+          question: 'आलोचनात्मक चिंतन पाठ का गहरा विश्लेषण करना है जिसमें विषय, पात्र-चित्रण.',
+          hint: 'यदि फंसे हुए महसूस हों, तो c12_hin_a_cbse_10_006 पर मुख्य विषय और संदेश की पहचान करने की.',
+          misconception: 'छात्र अक्सर मानते हैं कि आलोचनात्मक चिंतन का अर्थ है पाठ में जो कुछ भी नकारात्मक या आलोचनीय लगता है उस पर टिप्पणी करना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation is the ability to examine a literary text',
-                  options: ['Critical Thinking: Analysis and Interpretation is the ability to examine a literary text', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'Plot and Narrative Structure refers to the sequence of events (plot) and the technique', 'Setting and Atmosphere in literature refers to the time, place, and social environment in'],
-                  hint: 'If stuck, revisit the concept of \'unreliable narrator\' from Class 11 (c11_hin_ar_cbse_01_013) and.',
-                  misconception: 'Students often treat autobiographical texts as transparent windows into the author\'s life, assuming \'what happened\' equals \'what the text.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन पाठ का गहरा विश्लेषण करना है जिसमें विषय, पात्र-चित्रण, साहित्यिक',
+                  options: ['आलोचनात्मक चिंतन पाठ का गहरा विश्लेषण करना है जिसमें विषय, पात्र-चित्रण, साहित्यिक', 'प्रेमघन की छाया-स्मृति में पृष्ठभूमि और रचनाकार परिचय का अर्थ है प्रेमचंद के व्यक्तिगत', '**कथानक (Plot):** कहानी में घटित घटनाओं का तार्किक और कालानुक्रमिक क्रम जो कारण-कार्य', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, ऐतिहासिक और आर्थिक पृष्ठभूमि है जिसमें कोई साहित्यिक'],
+                  hint: 'यदि फंसे हुए महसूस हों, तो c12_hin_a_cbse_10_006 पर मुख्य विषय और संदेश की पहचान करने की अवधारणा को.',
+                  misconception: 'छात्र अक्सर मानते हैं कि आलोचनात्मक चिंतन का अर्थ है पाठ में जो कुछ भी नकारात्मक या आलोचनीय लगता है उस पर टिप्पणी करना, जैसे पात्र की.' }
           ],
-            remediations: { 'students-often-treat-autobiographical-texts': { steps: ['If a student cannot move beyond plot summary, guide them through this 3-step remediation: (1) **Re-read with.', '(2) **Create a two-column table**: Column A = \'Event described\', Column B = \'Possible reason for including it\'.', '(3) **Write a 3-sentence thesis**: "Shukla selects memories that ___ to argue that ___." Then verify each sentence.', 'Re-diagnose using Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को बताइए कि आलोचनात्मक चिंतन में "आलोचनात्मक" का अर्थ है विस्तृत जाँच, न कि निंदा। फिर एक परिचित उदाहरण दीजिए: जब.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_10_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
-          hint: 'If stuck, revisit Class 11 Aroh Chapter 1 Writing Skills (c11_hin_ar_cbse_01_014) PEEL.',
-          misconception: 'Students believe "writing skills" means memorizing 2-3 model answers for predicted questions.',
+          question: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें पाठ पढ़ने, उसके विश्लेषण करने.',
+          hint: 'यदि छात्र फंस जाए तो पहले c12_hin_a_cbse_10_013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या).',
+          misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबे-चौड़े वाक्य और कठिन शब्दों का उपयोग करने से अंक बढ़ेंगे, जबकि वास्तव.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing Skills based on the chapter refers to the ability to compose structured,',
-                  options: ['Writing Skills based on the chapter refers to the ability to compose structured,', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'Plot and Narrative Structure refers to the sequence of events (plot) and the technique', 'Setting and Atmosphere in literature refers to the time, place, and social environment in'],
-                  hint: 'If stuck, revisit Class 11 Aroh Chapter 1 Writing Skills (c11_hin_ar_cbse_01_014) PEEL template.',
-                  misconception: 'Students believe "writing skills" means memorizing 2-3 model answers for predicted questions.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें पाठ पढ़ने, उसके विश्लेषण करने, मुख्य बिंदुओं',
+                  options: ['पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें पाठ पढ़ने, उसके विश्लेषण करने, मुख्य बिंदुओं', 'प्रेमघन की छाया-स्मृति में पृष्ठभूमि और रचनाकार परिचय का अर्थ है प्रेमचंद के व्यक्तिगत', '**कथानक (Plot):** कहानी में घटित घटनाओं का तार्किक और कालानुक्रमिक क्रम जो कारण-कार्य', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, ऐतिहासिक और आर्थिक पृष्ठभूमि है जिसमें कोई साहित्यिक'],
+                  hint: 'यदि छात्र फंस जाए तो पहले c12_hin_a_cbse_10_013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या) पर फिर से.',
+                  misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबे-चौड़े वाक्य और कठिन शब्दों का उपयोग करने से अंक बढ़ेंगे, जबकि वास्तव में बोर्ड परीक्षक.' }
           ],
-            remediations: { 'writing-skills-means-memorizing-2': { steps: ['If a student cannot produce a coherent PEEL paragraph in the worked examples: (1) Have them orally explain ONE incident.', 'Mastery check: they can verbally defend why each highlight belongs to its category.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_10_014', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "writing skills" means memorizing 2-3 model answers for predicted questions.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this claim: "For a 6-mark question on Prasad\'s contribution to Hindi prose, quoting Shukla\'s phrase \'हिन्दी गद्य की नई शैली के प्रवर्तक\' is SUFFICIENT.', answer: '**Refute.** The phrase is Shukla\'s JUDGMENT, not evidence',
-                  options: ['**Refute.** The phrase is Shukla\'s JUDGMENT, not evidence', 'writing skills', '"writing skills" means memorizing 2-3 model answers for predicted questions'],
-                  hint: 'If stuck, revisit Class 11 Aroh Chapter 1 Writing Skills (c11_hin_ar_cbse_01_014) PEEL template.',
-                  misconception: 'Students believe "writing skills" means memorizing 2-3 model answers for predicted questions.' },
-                { id: 'b', prompt: 'Create a 3-point thesis outline (opening sentence + 3 PEEL paragraph topics) for this question: "आचार्य रामचन्द्र शुक्ल के अनुसार जयशंकर प्रसाद ने हिन्दी.', answer: '**Thesis:** Shukla presents Prasad as a three-fold enricher of Hindi: linguistic',
-                  options: ['**Thesis:** Shukla presents Prasad as a three-fold enricher of Hindi: linguistic', 'writing skills', '"writing skills" means memorizing 2-3 model answers for predicted questions'],
-                  hint: 'If stuck, revisit Class 11 Aroh Chapter 1 Writing Skills (c11_hin_ar_cbse_01_014) PEEL template.',
-                  misconception: 'Students believe "writing skills" means memorizing 2-3 model answers for predicted questions.' }
-          ],
-            remediations: { 'writing-skills-means-memorizing-2': { steps: ['If a student cannot produce a coherent PEEL paragraph in the worked examples: (1) Have them orally explain ONE incident.', 'Mastery check: they can verbally defend why each highlight belongs to its category.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले एक सरल प्रश्न दें जैसे "नायक का मन क्या कर रहा है?" और उसे केवल पाठ से शब्द चुनकर उत्तर बनाने के लिए.', 'फिर उन शब्दों को एक वाक्य में बाँधें और पूछें कि यह क्या दर्शाता है। इससे उन्हें समझ आएगा कि सटीक भाषा और पाठ-आधारितता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_10_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points is a structured oral activity where.',
-          hint: 'If stuck, revisit the Critical Thinking node\'s worked examples on theme analysis and.',
-          misconception: 'Students believe a discussion point is "any thought that comes to mind while reading." They equate discussion with.',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें पाठ को भावनात्मक स्वर, विराम, जोर और.',
+          hint: 'यदि फँसें तो कक्षा 11 के वाचन-श्रवण नोड (c11_hin_a_cbse_10_015) में दिए गए मूल अभ्यासों.',
+          misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण में \'सही\' पढ़ना केवल उच्चारण की शुद्धता है — जैसे शब्दों को साफ-साफ बोलना — और वे.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why simply retelling the plot of "जयशंकर प्रसाद" does not constitute a valid discussion point for this activity.', answer: 'Retelling plot only summarizes events',
-                  options: ['Retelling plot only summarizes events', 'any thought that comes to mind while reading', 'I liked the part about Kashi', 'a discussion point is "any thought that comes to mind while reading'],
-                  hint: 'If stuck, revisit the Critical Thinking node\'s worked examples on theme analysis and practice.',
-                  misconception: 'Students believe a discussion point is "any thought that comes to mind while reading." They equate discussion with casual conversation,.' },
-                { id: 'b', prompt: 'Given the excerpt: "पिताजी को हिन्दी कवियों की कविताएँ पढ़कर सुनाने में बड़ा आनन्द आता था" (p.', answer: 'Point: The father\'s enjoyment of reading Hindi poetry aloud reveals his role in',
-                  options: ['Point: The father\'s enjoyment of reading Hindi poetry aloud reveals his role in', 'any thought that comes to mind while reading', 'I liked the part about Kashi', 'a discussion point is "any thought that comes to mind while reading'],
-                  hint: 'If stuck, revisit the Critical Thinking node\'s worked examples on theme analysis and practice.',
-                  misconception: 'Students believe a discussion point is "any thought that comes to mind while reading." They equate discussion with casual conversation,.' },
-                { id: 'c', prompt: 'Compare two discussion points: (A) "Shukla\'s father was strict." (B) "Shukla\'s father\'s strictness about language (\'उर्दू न लिखकर हिन्दी लिखो\') reflects the.', answer: 'Point B is stronger',
-                  options: ['Point B is stronger', 'any thought that comes to mind while reading', 'I liked the part about Kashi', 'a discussion point is "any thought that comes to mind while reading'],
-                  hint: 'If stuck, revisit the Critical Thinking node\'s worked examples on theme analysis and practice.',
-                  misconception: 'Students believe a discussion point is "any thought that comes to mind while reading." They equate discussion with casual conversation,.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें पाठ को भावनात्मक स्वर, विराम, जोर और लय के साथ',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें पाठ को भावनात्मक स्वर, विराम, जोर और लय के साथ', 'प्रेमघन की छाया-स्मृति में पृष्ठभूमि और रचनाकार परिचय का अर्थ है प्रेमचंद के व्यक्तिगत', '**कथानक (Plot):** कहानी में घटित घटनाओं का तार्किक और कालानुक्रमिक क्रम जो कारण-कार्य', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, ऐतिहासिक और आर्थिक पृष्ठभूमि है जिसमें कोई साहित्यिक'],
+                  hint: 'यदि फँसें तो कक्षा 11 के वाचन-श्रवण नोड (c11_hin_a_cbse_10_015) में दिए गए मूल अभ्यासों को दोहराएँ.',
+                  misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण में \'सही\' पढ़ना केवल उच्चारण की शुद्धता है — जैसे शब्दों को साफ-साफ बोलना — और वे भाव, विराम या जोर को.' }
           ],
-            remediations: { 'a-discussion-point-is-any': { steps: ['Have the student re-read the \'Critical Thinking\' node (c12_hin_a_cbse_10_013) and highlight three analytical claims.', 'For each claim, practice turning it into a PEEL-structured oral point: say the Point aloud, quote the Evidence, explain.', 'Record a 2-minute mock discussion with a peer; replay and check: Does every utterance have a textual reference?', 'If not, return to Comprehension node (c12_hin_a_cbse_10_012) and convert two literal questions into discussion points.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र कोまず एक छोटा अंश (जैसे श्यामा के जाने का वर्णन) चुनिए और उसे तीन बार पढ़वाइए: पहली बार सामान्य गति से, दूसरी बार.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

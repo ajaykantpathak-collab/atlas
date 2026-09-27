@@ -20,6 +20,7 @@ import { SceneRenderer } from './scenes/SceneRenderer';
 import { MascotRenderer } from './mascots/MascotRenderer';
 import { DiagramRenderer } from './diagrams/DiagramRenderer';
 import { ParticleSystem } from './particles';
+import { isCanvasInteractive } from './canvasInteractive';
 import { ChallengeRenderer } from './challenges/ChallengeRenderer';
 import { VisualChallengeRenderer } from './challenges/VisualChallengeRenderer';
 import { AssetLoader } from './AssetLoader';
@@ -245,8 +246,12 @@ export class Renderer {
       false,
     );
 
-    // Render interactive objects (UPGRADE 2)
-    if (challenge.interactiveObjects) {
+    // Render interactive objects (UPGRADE 2) — only when the DOM option buttons
+    // are hidden, otherwise the same answers would be painted twice on screen.
+    const domButtonsShown = Array.isArray(challenge.options) && challenge.options.length > 0 &&
+      !challenge.type.startsWith('sort') &&
+      !isCanvasInteractive(challenge.question, this.gameData.subject || '');
+    if (challenge.interactiveObjects && !domButtonsShown) {
       this.challengeRenderer.renderInteractiveObjects(
         challenge.interactiveObjects,
         (objectId: string) => this.handleObjectTap(objectId),

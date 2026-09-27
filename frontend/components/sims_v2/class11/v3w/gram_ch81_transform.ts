@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c11_gram_ch81 The Repackager (transformation + synthesis).
  * Nodes: c11_gram_cbse_81_001, 81_002. */
 export const c11_gram_ch81: SimDef = {
-    id: 'v3_c11_gram_ch81',
+    id: 'v3w_c11_gram_ch81',
     title: 'The Repackager',
     subtitle: 'One truth, three containers — too…to becomes so…that, clauses shrink to phrases, and sentences merge without losing an idea',
     classLevel: 11, subject: 'english-grammar', topic: 'Sentence transformation and synthesis',

@@ -1,0 +1,613 @@
+{
+ "gameFile": "FractionsGame",
+ "classLevel": 3,
+ "cisceNodes": [
+  "c3_math_010"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "What is a Half? 🍕",
+   "text": "Cut a pizza into 2 EQUAL pieces — each is one half (½)! Both pieces must be the same size!",
+   "emoji": "🍕",
+   "bgColor": "from-red-400 to-orange-500",
+   "spoken": ""
+  },
+  {
+   "title": "What is a Quarter? 🍰",
+   "text": "Cut a cake into 4 EQUAL pieces — each is one quarter (¼)! Four equal parts!",
+   "emoji": "🍰",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "The Bottom Number Counts 🔢",
+   "text": "½ = 1 out of 2 equal parts. ¼ = 1 out of 4. The bottom number says how many equal pieces!",
+   "emoji": "🔢",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Half of a Number ➗",
+   "text": "Half of 8 is 4 — split 8 things into 2 equal groups! Half of 10 is 5!",
+   "emoji": "➗",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "Equal Parts Only! ⚖️",
+   "text": "A pizza cut into a big piece + small piece is NOT halves — halves must be EQUAL!",
+   "emoji": "⚖️",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "A pizza is cut into 2 equal pieces. Each piece is—",
+   "answer": "one half",
+   "options": [
+    "one half",
+    "one quarter",
+    "one whole"
+   ],
+   "hint": "2 equal parts → each is a 'half'!",
+   "misconception": "Half means 2 equal parts — 'quarter' needs 4 parts!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "one half",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "one quarter",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "one whole",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "one half",
+     "one quarter"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "What does ¼ mean?",
+   "answer": "1 out of 4 equal parts",
+   "options": [
+    "1 out of 4 equal parts",
+    "4 equal parts",
+    "1 out of 2 parts"
+   ],
+   "hint": "The bottom number is the total parts!",
+   "misconception": "¼ = one piece of four equal parts — the 4 on the bottom is the count!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "1 out of 4 equal parts",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "4 equal parts",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "1 out of 2 parts",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "1 out of 4 equal parts",
+     "4 equal parts"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Half of 10 is—",
+   "answer": "5",
+   "options": [
+    "5",
+    "2",
+    "10"
+   ],
+   "hint": "Split 10 into 2 equal groups!",
+   "misconception": "Half of 10 = 5 — divide by 2!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "5",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "2",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "10",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "5",
+     "2"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "A cake cut into a big piece + small piece — are they halves?",
+   "answer": "No — not equal",
+   "options": [
+    "No — not equal",
+    "Yes — 2 pieces",
+    "Yes — it's a cake"
+   ],
+   "hint": "Halves must be EQUAL size!",
+   "misconception": "Two UNEQUAL pieces are not halves — equal size is the definition!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "No — not equal",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "Yes — 2 pieces",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "Yes — it's a cake",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "No — not equal",
+     "Yes — 2 pieces"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match the fraction to its meaning!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Bottom = total equal parts, top = how many you have!",
+   "misconception": "Fraction = top/bottom = have/total — ⅔ is two of three!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "½",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "¼",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "⅓",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "⅔",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "½",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "¼",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "⅓",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "⅔",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "1 of 2 parts",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "1 of 4 parts",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "1 of 3 parts",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "2 of 3 parts",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "½",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "¼",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which is bigger: ½ or ¼?",
+   "answer": "½",
+   "options": [
+    "½",
+    "¼",
+    "equal"
+   ],
+   "hint": "Would you rather have half a pizza or a quarter of it?",
+   "misconception": "½ is bigger — fewer parts means each part is bigger! ½ > ¼!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "½",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "¼",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "equal",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "½",
+     "¼"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "A quarter of 8 = ?",
+   "answer": "2",
+   "options": [
+    "2",
+    "4",
+    "32"
+   ],
+   "hint": "Split 8 into 4 equal groups!",
+   "misconception": "8 ÷ 4 = 2 — a quarter of 8 is 2!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "2",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "4",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "32",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "2",
+     "4"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "How many quarters make one whole?",
+   "answer": "4",
+   "options": [
+    "4",
+    "2",
+    "8"
+   ],
+   "hint": "¼ + ¼ + ¼ + ¼ = ?",
+   "misconception": "Four quarters make one whole — 4 × ¼ = 1!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "4",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "2",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "8",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "4",
+     "2"
+    ]
+   }
+  }
+ ],
+ "theme": "pizza-kitchen",
+ "storyArc": {
+  "theme": "Piku shares pizzas and learns halves and quarters",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Fraction Chef Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c3_math_010",
+  "region": "Mathland",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🍕",
+  "prerequisites": []
+ },
+ "subject": "maths"
+}

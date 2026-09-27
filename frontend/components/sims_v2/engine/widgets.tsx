@@ -10,13 +10,15 @@
  * Widgets stay pure visual + state. Scoring lives in SimPlayer.
  */
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
 import type { ComponentType } from 'react';
 
 export interface WidgetProps {
     onChange?: (state: Record<string, number>) => void;
     /** freeze interaction during challenge review */
     locked?: boolean;
+    /** node/chapter-specific labels — [0] is the writing prompt topic for writer */
+    labels?: string[];
 }
 
 // ─── ClockFace ───────────────────────────────────────────────
@@ -229,8 +231,296 @@ export function Bundles({ onChange, locked }: WidgetProps) {
     );
 }
 
+// ─── WriterStudio — a writing lab for English/Hindi composition sims.
+// The student types; a live rubric checklist ticks format elements as
+// they appear (date, greeting, subject, body depth, closing) + word
+// count + a marks estimate — "write → see what the examiner sees".
+// Reports {score, words, checks} so validate 'writer:score>3' works.
+const RUBRIC: Array<{ key: string; label: string; re: RegExp }> = [
+    { key: 'date', label: 'Date / place line', re: /\b(\d{1,2}[-/ ](jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}|[\u0900-\u097F]+,?\s*\d{1,2}\s*[–-]?\s*\d{4})/i },
+    { key: 'greet', label: 'Salutation / greeting', re: /(dear|respected|to\s|सेवा\s*में|महोदय|प्रिय|आदरणीय)/i },
+    { key: 'subj', label: 'Subject / heading', re: /(subject\s*:|sub\s*:|विषय\s*:|re\s*:)/i },
+    { key: 'body', label: 'Body — 2+ paragraphs', re: /\n\s*\n|\n.*\n.*\n/ },
+    { key: 'close', label: 'Closing / sign-off', re: /(yours\s+(sincerely|faithfully|truly)|regards|thank|धन्यवाद|सादर|आपका|आपकी)/i },
+];
+export function WriterStudio({ onChange, locked, labels }: WidgetProps) {
+    const [text, setText] = useState('');
+    const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+    const checks = RUBRIC.map(r => ({ ...r, ok: r.re.test(text) }));
+    const score = checks.filter(c => c.ok).length + (words >= 80 ? 1 : 0);
+    useEffect(() => { onChange?.({ score, words }); }, [score, words]);
+    return (
+        <div className="w-full flex flex-col gap-2">
+            {labels?.[0] && (
+                <div className="rounded-xl bg-indigo-50 border border-indigo-200 px-3 py-2 text-xs font-bold text-indigo-700">
+                    ✍️ {labels[0]}
+                </div>
+            )}
+        <div className="w-full flex gap-3">
+            <textarea value={text} disabled={locked}
+                onChange={e => setText(e.target.value)}
+                placeholder="Write here — the rubric ticks as you hit each element…"
+                className="flex-1 h-44 rounded-2xl border-2 border-indigo-200 bg-white p-3 text-sm text-slate-800 placeholder:text-slate-400 focus:border-indigo-400 focus:outline-none resize-none shadow-inner" />
+            <div className="w-40 shrink-0 flex flex-col gap-1.5">
+                <div className="text-[10px] font-black tracking-widest text-slate-400 uppercase">examiner rubric</div>
+                {checks.map(c => (
+                    <div key={c.key} className={`flex items-center gap-1.5 rounded-lg px-2 py-1 text-[11px] font-bold transition-all ${c.ok ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-100 text-slate-400'}`}>
+                        <span>{c.ok ? '✓' : '○'}</span><span>{c.label}</span>
+                    </div>
+                ))}
+                <div className={`mt-1 rounded-xl px-2 py-1.5 text-center text-xs font-black ${words >= 80 ? 'bg-indigo-100 text-indigo-700' : 'bg-slate-100 text-slate-500'}`}>
+                    {words} words {words >= 80 ? '✓' : '/ 80'}
+                </div>
+                <div className="rounded-xl bg-gradient-to-r from-indigo-500 to-violet-500 text-white text-center text-xs font-black px-2 py-1.5 shadow">
+                    est. marks {Math.min(5, score)}/5
+                </div>
+            </div>
+        </div>
+        </div>
+    );
+}
+
+// ─── MatchPairs — tap a left card then its right partner. labels come in
+// pairs: [term, meaning, term, meaning, ...]. Right column shuffled once.
+// Reports {matched, correct} so validate 'match:correct=3' works.
+export function MatchPairs({ onChange, locked, labels }: WidgetProps) {
+    const pairs: Array<{ t: string; m: string }> = [];
+    for (let i = 0; i + 1 < (labels?.length ?? 0); i += 2)
+        pairs.push({ t: labels![i], m: labels![i + 1] });
+    const [order] = useState<number[]>(() => {
+        const idx = pairs.map((_, i) => i);
+        for (let i = idx.length - 1; i > 0; i--) { const j = (i * 2654435761 + 7) % (i + 1); [idx[i], idx[j]] = [idx[j], idx[i]]; }
+        return idx;
+    });
+    const [selL, setSelL] = useState(-1);
+    const [done, setDone] = useState<Set<number>>(new Set());
+    const [miss, setMiss] = useState<Set<number>>(new Set());
+    const correct = done.size;
+    useEffect(() => { onChange?.({ matched: correct, correct, total: pairs.length }); }, [correct]);
+    if (!pairs.length) return null;
+    const pick = (side: 'L' | 'R', i: number) => {
+        if (locked || done.has(i)) return;
+        if (side === 'L') { setSelL(selL === i ? -1 : i); return; }
+        if (selL < 0) return;
+        if (order[i] === selL) { setDone(d => new Set(d).add(i)); }
+        else { setMiss(m => new Set(m).add(i)); setTimeout(() => setMiss(m => { const n = new Set(m); n.delete(i); return n; }), 700); }
+        setSelL(-1);
+    };
+    return (
+        <div className="w-full flex gap-3">
+            <div className="flex-1 flex flex-col gap-2">
+                {pairs.map((p, i) => (
+                    <button key={i} disabled={done.has(i)} onClick={() => pick('L', i)}
+                        className={`rounded-xl px-3 py-2 text-left text-xs font-bold border-2 transition-all ${done.has(i) ? 'bg-emerald-100 border-emerald-300 text-emerald-700' : selL === i ? 'bg-indigo-500 border-indigo-600 text-white' : 'bg-white border-indigo-200 text-slate-700'}`}>
+                        {p.t}
+                    </button>
+                ))}
+            </div>
+            <div className="flex-1 flex flex-col gap-2">
+                {order.map((pi, i) => (
+                    <button key={i} disabled={done.has(i)} onClick={() => pick('R', i)}
+                        className={`rounded-xl px-3 py-2 text-left text-[11px] font-semibold border-2 transition-all ${done.has(i) ? 'bg-emerald-100 border-emerald-300 text-emerald-700' : miss.has(i) ? 'bg-rose-100 border-rose-300' : 'bg-white border-amber-200 text-slate-600'}`}>
+                        {pairs[pi].m}
+                    </button>
+                ))}
+            </div>
+        </div>
+    );
+}
+
+// ─── OrderSteps — tap the cards in sequence. labels = correct order.
+// Renders shuffled; each tap checks prefix position. Reports {correct}.
+export function OrderSteps({ onChange, locked, labels }: WidgetProps) {
+    const items = labels ?? [];
+    const [order] = useState<number[]>(() => {
+        const idx = items.map((_, i) => i);
+        for (let i = idx.length - 1; i > 0; i--) { const j = (i * 2654435761 + 7) % (i + 1); [idx[i], idx[j]] = [idx[j], idx[i]]; }
+        if (idx.every((v, i) => v === i) && idx.length > 1) [idx[0], idx[1]] = [idx[1], idx[0]];
+        return idx;
+    });
+    const [placed, setPlaced] = useState<number[]>([]);
+    const [flash, setFlash] = useState(-1);
+    useEffect(() => { onChange?.({ correct: placed.length, total: items.length }); }, [placed]);
+    if (!items.length) return null;
+    const tap = (i: number) => {
+        if (locked || placed.includes(i)) return;
+        if (order[i] === placed.length) setPlaced(p => [...p, i]);
+        else { setFlash(i); setTimeout(() => setFlash(-1), 600); }
+    };
+    return (
+        <div className="w-full flex flex-col gap-2">
+            {order.map((orig, i) => {
+                const isPlaced = placed.includes(i);
+                const num = isPlaced ? placed.indexOf(i) + 1 : null;
+                return (
+                    <button key={i} disabled={isPlaced} onClick={() => tap(i)}
+                        className={`w-full rounded-xl px-3 py-2.5 text-left text-xs font-bold border-2 flex items-center gap-2 transition-all ${isPlaced ? 'bg-emerald-100 border-emerald-300 text-emerald-700' : flash === i ? 'bg-rose-100 border-rose-300' : 'bg-white border-indigo-200 text-slate-700'}`}>
+                        <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${isPlaced ? 'bg-emerald-500 text-white' : 'bg-slate-200 text-slate-500'}`}>{num ?? '?'}</span>
+                        {items[orig]}
+                    </button>
+                );
+            })}
+        </div>
+    );
+}
+
+// ─── TracePad — letter/akshara formation. The letter is painted faintly as a
+// guide; the child traces it with finger/pointer. Score = stroke coverage of
+// the guide cells hit. Reports { covered, total, score, strokes } so
+// 'trace:score>60' validation works. labels[0] = the letter/akshara to trace.
+export function TracePad({ onChange, locked, labels }: WidgetProps) {
+    const letter = labels?.[0] ?? 'A';
+    const ref = useRef<HTMLCanvasElement>(null);
+    const guide = useRef<HTMLCanvasElement>(null);
+    const hit = useRef<Set<number>>(new Set());
+    const strokes = useRef(0);
+    const drawing = useRef(false);
+    const pos = useRef<{ x: number; y: number } | null>(null);
+    const [score, setScore] = useState(0);
+    const [cells, setCells] = useState(1);
+
+    // paint the faint guide letter + build the coverage grid once
+    useEffect(() => {
+        const g = guide.current; if (!g) return;
+        const ctx = g.getContext('2d'); if (!ctx) return;
+        ctx.clearRect(0, 0, g.width, g.height);
+        ctx.font = '900 190px system-ui, sans-serif';
+        ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+        ctx.fillStyle = 'rgba(99,102,241,0.18)';
+        ctx.fillText(letter, g.width / 2, g.height / 2 + 8);
+        ctx.setLineDash([6, 6]);
+        ctx.strokeStyle = 'rgba(99,102,241,0.5)'; ctx.lineWidth = 3;
+        ctx.strokeText(letter, g.width / 2, g.height / 2 + 8);
+        // coverage grid — 16x24 cells that the letter's ink touches
+        const data = ctx.getImageData(0, 0, g.width, g.height).data;
+        const GX = 16, GY = 24; let n = 0;
+        for (let y = 0; y < GY; y++) for (let x = 0; x < GX; x++) {
+            const cx = Math.floor((x + 0.5) * g.width / GX), cy = Math.floor((y + 0.5) * g.height / GY);
+            if (data[(cy * g.width + cx) * 4 + 3] > 40) n++;
+        }
+        setCells(Math.max(n, 1));
+    }, [letter]);
+
+    const report = useCallback(() => {
+        const s = Math.round((hit.current.size / cells) * 100);
+        setScore(s);
+        onChange?.({ covered: hit.current.size, total: cells, score: s, strokes: strokes.current });
+    }, [cells, onChange]);
+
+    const point = (e: React.PointerEvent) => {
+        const c = ref.current!; const r = c.getBoundingClientRect();
+        return { x: (e.clientX - r.left) * (c.width / r.width), y: (e.clientY - r.top) * (c.height / r.height) };
+    };
+    const mark = (x: number, y: number) => {
+        const c = ref.current!; const g = guide.current!;
+        const gx = Math.floor(x * 16 / c.width), gy = Math.floor(y * 24 / c.height);
+        const ci = Math.floor((gy + 0.5) * g.height / 24), cx = Math.floor((gx + 0.5) * g.width / 16);
+        const gctx = g.getContext('2d');
+        if (gctx && gctx.getImageData(cx, ci, 1, 1).data[3] > 40) hit.current.add(gy * 16 + gx);
+    };
+    const down = (e: React.PointerEvent) => { if (locked) return; drawing.current = true; strokes.current++; pos.current = point(e); };
+    const move = (e: React.PointerEvent) => {
+        if (!drawing.current || locked) return;
+        const p = point(e); const ctx = ref.current!.getContext('2d')!;
+        ctx.strokeStyle = '#f59e0b'; ctx.lineWidth = 10; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+        ctx.beginPath(); ctx.moveTo(pos.current!.x, pos.current!.y); ctx.lineTo(p.x, p.y); ctx.stroke();
+        mark(p.x, p.y); pos.current = p;
+    };
+    const up = () => { if (drawing.current) { drawing.current = false; report(); } };
+    const clear = () => { ref.current?.getContext('2d')!.clearRect(0, 0, ref.current!.width, ref.current!.height); hit.current.clear(); setScore(0); onChange?.({ covered: 0, total: cells, score: 0, strokes: strokes.current }); };
+
+    // STROKE-ORDER: find the topmost-leftmost glyph cell to mark the
+    // correct "start here" point — children start letters top-down.
+    const startDot = useMemo(() => {
+        const g = guide.current; if (!g) return null;
+        const ctx = g.getContext('2d'); if (!ctx) return null;
+        const data = ctx.getImageData(0, 0, g.width, g.height).data;
+        for (let y = 0; y < g.height; y += 4) for (let x = 0; x < g.width; x += 4) {
+            if (data[(y * g.width + x) * 4 + 3] > 40) return { x, y };
+        }
+        return null;
+    }, [letter]);
+
+    return (
+        <div className="w-full flex flex-col items-center gap-2">
+            <div className="relative">
+                <canvas ref={guide} width={240} height={300} className="absolute inset-0 rounded-2xl bg-white border-4 border-indigo-200" />
+                <canvas ref={ref} width={240} height={300}
+                    onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerLeave={up}
+                    className="relative rounded-2xl touch-none cursor-crosshair" />
+                {/* STROKE-ORDER guide — a pulsing "start here" dot at the
+                    topmost point of the glyph */}
+                {startDot && score === 0 && (
+                    <div className="absolute pointer-events-none animate-ping"
+                        style={{ left: startDot.x - 6, top: startDot.y - 6, width: 12, height: 12 }}>
+                        <div className="w-full h-full rounded-full bg-emerald-400" />
+                    </div>
+                )}
+            </div>
+            <div className="flex items-center gap-3">
+                <div className={`rounded-xl px-3 py-1.5 text-xs font-black ${score >= 60 ? 'bg-emerald-100 text-emerald-700' : 'bg-amber-100 text-amber-700'}`}>
+                    trace coverage {score}%
+                </div>
+                <button onClick={clear} className="rounded-xl bg-slate-200 px-3 py-1.5 text-xs font-black text-slate-600 hover:bg-slate-300">↺ again</button>
+            </div>
+            {score === 0 && <p className="text-[10px] text-indigo-500 font-semibold">Start at the green dot — top to bottom ↓</p>}
+        </div>
+    );
+}
+
+// ─── FluencyMeter — timed reading → words-per-minute. The child reads the
+// passage aloud (or silently for c4-5), taps Done; wpm = words / seconds.
+// Self-check comprehension chip after. Reports { wpm, secs, words, level }
+// where level: 0=slow 1=approaching 2=fluent (vs 60/90 wpm bands).
+export function FluencyMeter({ onChange, locked, labels }: WidgetProps) {
+    const passage = labels?.join(' ') ?? 'The cat sat on the mat and looked at the sun.';
+    const words = passage.split(/\s+/).filter(Boolean).length;
+    const [reading, setReading] = useState(false);
+    const [t0, setT0] = useState(0);
+    const [wpm, setWpm] = useState(0);
+    const [secs, setSecs] = useState(0);
+    const stop = () => {
+        const s = Math.max(1, Math.round((Date.now() - t0) / 1000));
+        const w = Math.round(words / s * 60);
+        const level = w >= 90 ? 2 : w >= 60 ? 1 : 0;
+        setSecs(s); setWpm(w); setReading(false);
+        // FLUENCY-HISTORY: log every reading so /play can show the
+        // words-per-minute trend (NIPUN fluency strand measured over time).
+        try {
+            const log = JSON.parse(localStorage.getItem('atlas_fluency_log') || '[]');
+            log.push({ wpm: w, words, secs: s, at: Date.now() });
+            localStorage.setItem('atlas_fluency_log', JSON.stringify(log.slice(-50)));
+        } catch {}
+        onChange?.({ wpm: w, secs: s, words, level });
+    };
+    return (
+        <div className="w-full flex flex-col items-center gap-3">
+            <div className="rounded-2xl bg-white border-2 border-sky-200 p-4 w-full">
+                <p className="text-center text-base font-bold text-slate-700 leading-relaxed">{passage}</p>
+            </div>
+            {!reading && wpm === 0 && (
+                <button onClick={() => { setT0(Date.now()); setReading(true); }} disabled={locked}
+                    className="rounded-2xl bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-3 text-sm font-black text-white shadow-lg">
+                    ▶ Start reading aloud!
+                </button>
+            )}
+            {reading && (
+                <button onClick={stop} className="rounded-2xl bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-3 text-sm font-black text-white shadow-lg animate-pulse">
+                    ⏹ Done reading!
+                </button>
+            )}
+            {wpm > 0 && (
+                <div className={`rounded-2xl px-4 py-2 text-sm font-black ${wpm >= 90 ? 'bg-emerald-100 text-emerald-700' : wpm >= 60 ? 'bg-amber-100 text-amber-700' : 'bg-rose-100 text-rose-700'}`}>
+                    {wpm} words/min ({secs}s) {wpm >= 90 ? '🚀 fluent!' : wpm >= 60 ? '👍 approaching fluency' : '💪 keep practicing'}
+                </div>
+            )}
+        </div>
+    );
+}
+
 // ─── registry — components, not elements, so props flow ─────
 export const WIDGETS: Record<string, ComponentType<WidgetProps>> = {
+    writer: WriterStudio,
     clock: ClockFace,
     tray: CountingTray,
     'tray-star': (p: WidgetProps) => <CountingTray {...p} emoji="⭐" />,
@@ -238,22 +528,31 @@ export const WIDGETS: Record<string, ComponentType<WidgetProps>> = {
     balance: BalanceScale,
     purse: CoinPurse,
     bundles: Bundles,
+    match: MatchPairs,
+    order: OrderSteps,
+    trace: TracePad,
+    fluency: FluencyMeter,
 };
 
 // ─── validate helpers ────────────────────────────────────────
-/** Parse 'clock:hour=9,mins=0' or 'balance:right>left' and check widget state. */
+/** Parse 'clock:hour=9,mins=0' or 'balance:right>left' and check widget state.
+ * Batch-1 hardening: MISSING keys fail closed (return false). A widget that
+ * never reported must not pass by treating undefined as 0. */
 export function validateGoal(validate: string, state: Record<string, number>): boolean {
     const rules = validate.split(':')[1] ?? '';
     return rules.split(',').every(rule => {
         if (rule.includes('>')) {
             const [a, b] = rule.split('>');
+            if (!(a in state) || !(b in state)) return false;
             return (state[a] ?? 0) > (state[b] ?? 0);
         }
         if (rule.includes('<')) {
             const [a, b] = rule.split('<');
+            if (!(a in state) || !(b in state)) return false;
             return (state[a] ?? 0) < (state[b] ?? 0);
         }
         const [k, v] = rule.split('=');
+        if (!(k in state)) return false;
         return state[k] === Number(v);
     });
 }

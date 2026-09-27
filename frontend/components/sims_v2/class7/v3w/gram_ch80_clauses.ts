@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c7_gram_ch80 The Clause Test (phrase/clause, compound/complex, S-V-O-C).
  * Nodes: c7_gram_cbse_80_001, 80_002, 80_003. */
 export const c7_gram_ch80: SimDef = {
-    id: 'v3_c7_gram_ch80',
+    id: 'v3w_c7_gram_ch80',
     title: 'The Clause Test',
     subtitle: 'Subject-verb pairs, leaning words, and the joiner that decides compound vs complex',
     classLevel: 7, subject: 'english-grammar', topic: 'Phrases, clauses and sentence structures',

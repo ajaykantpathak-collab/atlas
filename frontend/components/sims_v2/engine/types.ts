@@ -85,7 +85,7 @@ export interface Remediation {
     steps: string[];
     /** optional hands-on correction task on a widget or lab — student must
      * physically produce the right state, validated, before retrying */
-    labTask?: { instruction: string; widget: string; validate: string };
+    labTask?: { instruction: string; widget: string; validate: string; labels?: string[] };
 }
 
 // ─── v3: TeachBeat — teaching is instrumented activity ───────
@@ -166,6 +166,7 @@ export interface Challenge {
         instruction: string;
         widget: string;           // widget key used for this challenge
         validate: string;         // e.g. 'clock:hour=9,mins=0' | 'tray:count=12'
+        labels?: string[];        // pair/sequence labels for match|order|writer widgets
     };
     mathInput?: {                 // math_input
         placeholder?: string;
@@ -229,6 +230,9 @@ export interface SimDef {
         component?: React.ComponentType;
         /** JSON-emitted form of `component` — resolved via engine/sim_components.gen */
         componentId?: string;
+        /** label pairs for label-driven widgets: 'match' uses [term, meaning,...],
+         * 'order' uses the correct sequence, 'writer' uses word bank. */
+        labels?: string[];
         prompt: string;
     };
     /** "What did you notice?" after explore — kid reports a discovery. */
@@ -244,6 +248,7 @@ export interface SimDef {
         answer: string;
         verifyWidget: string;    // widget key used to verify the prediction
         verifyPrompt: string;    // "try it — were you right?"
+        verifyLabels?: string[]; // labels for match|order|writer verify widgets
     };
     /** Metacognition card before results — what surprised you? */
     reflect?: {

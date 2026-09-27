@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect, type ReactNode } from 'react'
+import Link from 'next/link'
 import { motion, useScroll, useSpring, AnimatePresence } from 'framer-motion'
 import {
   Flame, Zap, Target, Trophy, ArrowRight, BookOpen, WifiOff,
@@ -590,11 +591,16 @@ export default function LandingPage() {
                     ))}
                   </ul>
                   <MagneticButton strength={0.4}>
-                    <RippleButton className="btn-primary w-full">
-                      Go Premium
-                      <ArrowRight className="w-4 h-4" />
-                    </RippleButton>
+                    <Link href="/premium/signup?plan=premium" className="block">
+                      <RippleButton className="btn-primary w-full">
+                        Go Premium
+                        <ArrowRight className="w-4 h-4" />
+                      </RippleButton>
+                    </Link>
                   </MagneticButton>
+                  {/* Checkout hook-up point: once a payment provider is
+                      connected, /premium/signup?plan=premium should open
+                      the checkout; today it captures intent + account. */}
                 </BorderBeam>
               </TiltCard>
             </div>

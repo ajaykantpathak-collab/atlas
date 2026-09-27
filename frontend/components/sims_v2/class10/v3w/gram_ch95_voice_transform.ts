@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c10_gram_ch95 Sentence Surgery (voice + transformation).
  * Nodes: c10_gram_cbse_95_001 (voice), 95_002 (degrees), 95_003 (structures). */
 export const c10_gram_ch95: SimDef = {
-    id: 'v3_c10_gram_ch95',
+    id: 'v3w_c10_gram_ch95',
     title: 'Sentence Surgery',
     subtitle: 'Same meaning, new structure — voice flips, degree swaps, and the simple-compound-complex containers',
     classLevel: 10, subject: 'english-grammar', topic: 'Voice and sentence transformation',

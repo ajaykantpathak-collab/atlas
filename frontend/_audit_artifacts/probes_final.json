@@ -1,0 +1,34 @@
+{
+ "generatedAt": "2026-09-16T16:22:09.010Z",
+ "probes": [
+  {
+   "probe": "diagnostic_persistence",
+   "startedButton": true,
+   "afterText": "Skip to content | L | LearnPath | EN | हिं | हि | Question 1 of 5 | ✕ | ⏱️ | 1:55 | Subskill: Linear Equations | Which equation has slope 2 and y-intercept 3? | A | $y = 2x + 3$ | B | $y = 3x + 2$ | C | $y = 2x - 3$ | D | $y = 3x - 2$ | Submit",
+   "apiCalls": [
+    "200 POST /api/diagnostics/start"
+   ],
+   "allApi": [
+    "200 POST /api/diagnostics/start"
+   ],
+   "result": "ok"
+  },
+  {
+   "probe": "junior_api_check",
+   "afterText": "Skip to content | ⭐ | 0 | 🌐 | Hing | Aaj hum kya seekhenge? | MATHS | ← Wapas | Question suno | 26 − 15 = ? | 🎤 | 🎤 Apna answer bolo... | 🔒",
+   "apiCalls": [],
+   "allApi": [],
+   "result": "ok"
+  },
+  {
+   "probe": "exam_open_check",
+   "finalUrl": "/exam-simulator/cbse10_sci_preboard1",
+   "afterText": "Skip to content | No questions available | This exam does not have any questions yet. | Back to Exams",
+   "apiCalls": [
+    "200 GET /api/assessment/exams",
+    "200 GET /api/assessment/exams/cbse10_sci_preboard1"
+   ],
+   "result": "ok"
+  }
+ ]
+}

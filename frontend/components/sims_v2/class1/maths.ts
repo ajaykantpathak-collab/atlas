@@ -50,6 +50,11 @@ export const c1Shapes: SimDef = {
         { type: 'mcq', question: 'The ball is UNDER the chair. Where is the ball?', answer: 'Below the chair', options: ['Below the chair', 'On the chair', 'Next to the wall'],
           hint: 'UNDER means below!', misconception: 'UNDER means below something — like hiding beneath a blanket!',
           workedExample: ['Read the position word: UNDER.', 'UNDER = below.', 'The ball is below the chair.'] },
+        { type: 'interact', question: "Look around! Make a star-world.", options: [],
+          interactGoal: { instruction: 'Add exactly 7 stars to the sky', widget: 'tray', validate: 'tray:count=7' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'Shape master! ⭐', tryAgainLine: 'Look at the shape closely!',
@@ -105,6 +110,11 @@ export const c1Counting: SimDef = {
         { type: 'mcq', question: 'What is the biggest number from 1 to 20?', answer: '20', options: ['19', '10', '20'],
           hint: 'Count all the way to the end!', misconception: '20 is two tens — the biggest number in our counting set!',
           workedExample: ['Count to the end: ...18, 19, 20.', '20 is the last and biggest.'] },
+        { type: 'interact', question: "Build a group of EXACTLY 12!", options: [],
+          interactGoal: { instruction: 'Use + and - to make the tray show 12', widget: 'tray', validate: 'tray:count=12' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
         generate: { kind: 'add', count: 6, level: 1 },
     sampleChallenges: 9,
@@ -157,6 +167,11 @@ export const c1AddSub: SimDef = {
         { type: 'count', question: 'A frog hops from 4 forward 3 hops. Where does it land?', answer: '7', options: ['6', '7', '1'],
           hint: 'From 4: hop to 5, 6, 7!', misconception: 'Hopping forward = adding. 4 + 3 = 7. Going back would give 1, but we hop FORWARD!',
           workedExample: ['Start at 4.', 'Hop forward 3 times: 5, 6, 7.', 'Lands on 7.'] },
+        { type: 'interact', question: "Start with some, add more - land on 15!", options: [],
+          interactGoal: { instruction: 'Make the tray show 15 objects', widget: 'tray', validate: 'tray:count=15' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
         generate: { kind: 'add,sub', count: 6, level: 1 },
     sampleChallenges: 9,
@@ -276,6 +291,11 @@ export const c1Measure: SimDef = {
         { type: 'mcq', question: 'A jug holds MORE water than a cup. Which has greater CAPACITY?', answer: 'Jug', options: ['Cup', 'Jug', 'Both same'],
           hint: 'Which container can hold more?', misconception: 'Capacity = how much a container can hold. A jug holds more than a cup, so it has greater capacity!',
           workedExample: ['Capacity = how much it can hold.', 'Jug holds many cups of water.', 'Jug has greater capacity.'] },
+        { type: 'interact', question: "Balance the scale!", options: [],
+          interactGoal: { instruction: 'Put equal weight on both sides', widget: 'balance', validate: 'balance:left=5,right=5' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'Measuring master! ⭐', tryAgainLine: 'Compare them side by side!',
@@ -296,7 +316,8 @@ export const c1BigNumbers: SimDef = {
         { title: 'All the Way to 100 💯', text: 'After 99 comes 100 — ten full bundles of ten! 100 is the biggest number we learn in Class 1!', emoji: '💯', bgColor: 'from-rose-400 to-red-500' },
     ],
     explore: { widget: 'tray', prompt: 'Count out objects — can you make a group bigger than 20?' },
-    challenges: [
+        generate: { kind: 'place', count: 3, level: 1 },
+challenges: [
         { type: 'mcq', question: 'What does 34 mean?', answer: '3 tens and 4 ones', options: ['34 tens', '3 tens and 4 ones', '4 tens and 3 ones'],
           hint: 'The first digit is the tens!', misconception: '34 = 3 tens + 4 ones. The LEFT digit is tens, the RIGHT digit is ones!',
           workedExample: ['Split 34: 3 and 4.', 'Left digit = tens: 3 tens = 30.', 'Right digit = ones: 4. So 34 = 3 tens + 4 ones.'] },
@@ -324,6 +345,11 @@ export const c1BigNumbers: SimDef = {
         { type: 'mcq', question: 'What comes just after 99?', answer: '100', options: ['90', '100', '910'],
           hint: 'Ten bundles of ten make...', misconception: 'After 99 comes 100 — the first number with THREE digits!',
           workedExample: ['99 is the biggest 2-digit number.', 'One more = 10 tens.', '10 tens = 100.'] },
+        { type: 'interact', question: "Count the tens! Make 20 objects.", options: [],
+          interactGoal: { instruction: 'Tray must show 20', widget: 'tray', validate: 'tray:count=20' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'Number champion! ⭐', tryAgainLine: 'Count the tens first!',
@@ -344,7 +370,8 @@ export const c1Data: SimDef = {
         { title: 'Pictures Tell Data 🖼️', text: 'A picture chart can show data — one smiley for each student who likes mangoes. Count the smileys to know how many!', emoji: '🖼️', bgColor: 'from-rose-400 to-pink-500' },
     ],
     explore: { widget: 'tray-star', prompt: 'Add stars — then count how many you made!' },
-    challenges: [
+        generate: { kind: 'data', count: 3, level: 1 },
+challenges: [
         { type: 'sort', question: 'Sort the fruits into their baskets!', options: [],
           sortItems: [
             { id: 'd1', label: 'Mango', emoji: '🥭', correctBin: 'mango' },
@@ -371,6 +398,11 @@ export const c1Data: SimDef = {
         { type: 'mcq', question: 'Red cars: 6. Blue cars: 3. How many MORE red cars than blue?', answer: '3', options: ['3', '6', '9'],
           hint: 'Take away the blue count from the red count!', misconception: 'How many MORE = subtraction. 6 − 3 = 3 more red cars!',
           workedExample: ['Red = 6, blue = 3.', 'More = difference: 6 − 3.', '3 more red cars.'] },
+        { type: 'interact', question: "Collect 8 stars for the chart!", options: [],
+          interactGoal: { instruction: 'Add exactly 8 stars', widget: 'tray', validate: 'tray:count=8' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'Data detective! ⭐', tryAgainLine: 'Count each group carefully!',
@@ -391,7 +423,8 @@ export const c1Patterns: SimDef = {
         { title: 'Patterns in Nature 🌸', text: 'Rangoli designs, zebra stripes, petals on a flower — nature loves patterns!', emoji: '🌸', bgColor: 'from-violet-400 to-purple-500' },
     ],
     explore: { widget: 'tray-star', prompt: 'Make your own pattern with the stars!' },
-    challenges: [
+        generate: { kind: 'pattern', count: 3, level: 1 },
+challenges: [
         { type: 'mcq', question: '🔺⭕🔺⭕🔺 — what comes next?', answer: '⭕', options: ['🔺', '⭕', '🟪'],
           hint: 'The pattern is triangle, circle, triangle, circle...', misconception: 'The rule is triangle-then-circle repeating — after a triangle comes a circle!',
           workedExample: ['Read the pattern: 🔺⭕🔺⭕🔺', 'Rule: triangle, circle, repeat.', 'After 🔺 comes ⭕.'] },
@@ -410,6 +443,11 @@ export const c1Patterns: SimDef = {
         { type: 'mcq', question: 'Which is a GROWING pattern?', answer: '1, 2, 4, 8...', options: ['1, 1, 1, 1...', '1, 2, 4, 8...', '5, 5, 5, 5...'],
           hint: 'A growing pattern gets BIGGER!', misconception: 'Growing patterns increase: 1, 2, 4, 8 doubles each time — it grows!',
           workedExample: ['Check each list.', 'Same numbers = not growing.', '1→2→4→8 grows each step.'] },
+        { type: 'interact', question: "Make a pattern of 6 stars!", options: [],
+          interactGoal: { instruction: 'Tray must show 6 stars', widget: 'tray', validate: 'tray:count=6' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'Pattern pro! ⭐', tryAgainLine: 'Find the repeating rule!',
@@ -456,6 +494,11 @@ export const c1Money: SimDef = {
         { type: 'mcq', question: 'A toffee costs ₹2. You have a ₹1 coin and a ₹2 coin. Which coin buys the toffee exactly?', answer: 'The ₹2 coin', options: ['The ₹1 coin', 'The ₹2 coin', 'Both together'],
           hint: 'The price is ₹2 — which coin matches?', misconception: 'The ₹2 coin matches the price exactly — the ₹1 coin is too little!',
           workedExample: ['Price = ₹2.', '₹1 < ₹2 (not enough).', '₹2 = ₹2 (exact match!).'] },
+        { type: 'interact', question: "Make exactly Rs.10!", options: [],
+          interactGoal: { instruction: 'Tap coins until the purse shows 10', widget: 'purse', validate: 'purse:total=10' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
         generate: { kind: 'money', count: 6, level: 1 },
     sampleChallenges: 9,
@@ -496,6 +539,11 @@ export const c1HowMany: SimDef = {
         { type: 'mcq', question: 'Two hands have 5 fingers each. How many fingers in all?', answer: '10', options: ['5', '10', '15'],
           hint: 'Count in groups: 5 and 5!', misconception: '5 + 5 = 10 — counting in groups of 5 makes it fast!',
           workedExample: ['One hand: 5.', 'Two hands: 5 + 5.', 'Total: 10 fingers.'] },
+        { type: 'interact', question: "How many hops to reach 8?", options: [],
+          interactGoal: { instruction: 'Hop the frog to position 8', widget: 'jump', validate: 'jump:pos=8' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
         generate: { kind: 'add', count: 6, level: 1 },
     sampleChallenges: 9,

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch12_p1: SimDef = {
     id: 'v3_c12_hin_a_ch12_p1',
-    title: 'iQ.kh\'ojukFk ^js.kq · Part 1/3',
+    title: 'संवदयिा · Part 1/3',
     subtitle: 'A union leader wrote the village in the village\'s own voice',
-    classLevel: 12, subject: 'hin_a', topic: 'iQ.kh\'ojukFk ^js.kq · Part 1/3',
+    classLevel: 12, subject: 'hin_a', topic: 'संवदयिा · Part 1/3',
     chapters: ['c12_hin_a_ch12'],
     nodeIds: ['c12_hin_a_cbse_12_001', 'c12_hin_a_cbse_12_002', 'c12_hin_a_cbse_12_003', 'c12_hin_a_cbse_12_004', 'c12_hin_a_cbse_12_005', 'c12_hin_a_cbse_12_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,42 +19,15 @@ export const c12_hin_a_ch12_p1: SimDef = {
         hook: '\'Simple\' isn\'t \'artless\' — colloquial, descriptive, expressive prose immerses you in village life so hardship and tenderness land as lived, not reported. A socialist lens sees both the poverty AND the feeling; the story outlives its decade because the rural-urban divide still argues today.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a pre-reading section that provides essential information about the author\'s life, the historical and social setting of the story, and key thematic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'संवदयिा — पृष्ठभूमि और रचनाकार परिचय', text: 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक स्थिति, रचनात्मक यात्रा, और उसके युग के ऐतिहासिक संदर्भ को समझा जाता है ताकि पाठ के गहरे अर्थ और लेखन के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_12_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Enter the village through its own speech: weigh a freedom fighter\'s lens on rural suffering, test why colloquiality is craft, and ask what a 1950s story still teaches a 2025 reader.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['संवदयिा — पृष्ठभूमि और', 'संवदयिा — कथानक और', 'संवदयिा — पाठ्य-परिवेश और', 'संवदयिा — पात्र-चित्रण: नायक/प्रमुख', 'संवदयिा — पात्र-चित्रण: सहायक', 'संवदयिा — मुख्य विषय'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_12_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are telling a friend about a movie you watched: you wouldn\'t just list events randomly; you\'d start with the setting, introduce characters, build.',
-            decisions: [{ prompt: 'What are the five traditional stages of a plot, and which stage in "js.kq" corresponds to the narrator\'s arrival at the village?', options: [
-                { text: 'The five stages are exposition, rising action, climax, falling action, and resolution', outcome: 'The five stages are exposition, rising action, climax, falling action, and resolution.' },
-                { text: 'it\'s the climax', outcome: 'Not quite — Students often think "plot" is just a summary of events. They write a chronological summary and.', reveals: 'plot-is-just-a-summary' },
-                { text: '"plot" is just a summary of events', outcome: 'Not quite — Students often think "plot" is just a summary of events. They write a chronological summary and.', reveals: 'plot-is-just-a-summary' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_12_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re standing in a narrow village lane at dusk — the smell of cow dung cakes burning, the sound of a lone storyteller\'s voice carrying through mud.',
-            decisions: [{ prompt: 'What are the three main components of \'setting\' in literary analysis, and which component is most emphasized in the opening pages.', options: [
-                { text: 'The three components are physical setting (time, place, geography), social setting', outcome: 'The three components are physical setting (time, place, geography), social setting (culture, class.' },
-                { text: 'time and place', outcome: 'Not quite — Students consistently treat setting as a static container — "the story takes place in a village".', reveals: 'students-consistently-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_12_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine watching a village play where the lead actor speaks most lines, but the old auntie sitting on the cot, the chatty neighbor, and the silent mother shape.',
-            decisions: [{ prompt: 'Name three supporting characters in "laofn;k" and give one defining trait for each based on the text.', options: [
-                { text: 'Correct answer: (1) Badi Gosyani', outcome: 'Correct answer: (1) Badi Gosyani — talkative, manipulative, acts as the host who summons the.' },
-                { text: 'old women', outcome: 'Not quite — Students often treat supporting characters as a list of names with adjectives ("Badi Gosyani.', reveals: 'students-often-treat-supporting-characters' },
-                { text: 'villagers', outcome: 'Not quite — Students often treat supporting characters as a list of names with adjectives ("Badi Gosyani.', reveals: 'students-often-treat-supporting-characters' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_12_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re sitting in your village courtyard at dusk, and an old storyteller begins a tale — but this time, the story is about the storyteller himself.',
-            decisions: [{ prompt: 'What is the literal meaning of "laofn;k" as used in the story\'s title and how does the text define this role through the villagers\'.', options: [
-                { text: '"Laofn;k" means "one who narrates/tells stories" (lans\'kokgd)', outcome: '"Laofn;k" means "one who narrates/tells stories" (lans\'kokgd).' },
-                { text: 'laofn;k means writer', outcome: 'Not quite — Students confuse "primary theme" with "plot summary" or "moral lesson." They write: "The theme.', reveals: 'students-confuse-primary-theme-with' },
-                { text: 'any old person', outcome: 'Not quite — Students confuse "primary theme" with "plot summary" or "moral lesson." They write: "The theme.', reveals: 'students-confuse-primary-theme-with' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_12_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your family wants to shift the ageing grandmother — who has nursed half the village\'s children — into your city flat \'for her own good.\' She refuses flatly, and everyone calls it stubbornness.',
             decisions: [{ prompt: 'How does the climax of \'रेणु\' read her refusal?', options: [
@@ -64,8 +37,8 @@ export const c12_hin_a_ch12_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_12_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read voice as worldview — where the choice of dialect is itself a statement about whose reality counts.',
-            decisions: [{ prompt: 'What comes next? iQ.kh\'ojukFk ^js.kq · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — iQ.kh\'ojukFk ^js.kq · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? संवदयिा · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — संवदयिा · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -74,90 +47,71 @@ export const c12_hin_a_ch12_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a pre-reading section that.',
-          hint: 'If stuck, review the \'Before You Read\' section of any Class 11 Antra chapter (e.g.',
-          misconception: 'Students often treat the \'Before You Read\' section as optional background reading, skipping it to jump to the story.',
+          question: 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल.',
+          hint: 'यदि फंसे हुए महसूस हो रहे हैं, तो Class 11 में पढ़े गए किसी भी पाठ के लेखक परिचय (जैसे.',
+          misconception: 'छात्र अक्सर लेखक के परिचय को केवल एक तथ्यात्मक पूर्वावलोकन मानते हैं जिसे याद लेकर भूल दिया जाता है, और वे यह नहीं समझ.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" is a pre-reading section that provides',
-                  options: ['"Before You Read: Context and Background" is a pre-reading section that provides', 'Plot and narrative structure refer to the sequence of events in a story and the technique', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves examining the main character\'s traits,'],
-                  hint: 'If stuck, review the \'Before You Read\' section of any Class 11 Antra chapter (e.g.',
-                  misconception: 'Students often treat the \'Before You Read\' section as optional background reading, skipping it to jump to the story.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक',
+                  options: ['संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई', 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,'],
+                  hint: 'यदि फंसे हुए महसूस हो रहे हैं, तो Class 11 में पढ़े गए किसी भी पाठ के लेखक परिचय (जैसे.',
+                  misconception: 'छात्र अक्सर लेखक के परिचय को केवल एक तथ्यात्मक पूर्वावलोकन मानते हैं जिसे याद लेकर भूल दिया जाता है, और वे यह नहीं समझ पाते कि लेखक के जीवन.' }
           ],
-            remediations: { 'students-often-treat-the-before': { steps: ['If a student cannot answer the diagnostic questions, do not re-read the story.', 'Instead: (1) Re-read the \'Before You Read\' box in the textbook slowly, underlining three facts about the author and.', '(2) Write a 3-sentence summary connecting the author\'s life to the story\'s likely themes (e.g., "Because he was a trade.', '(3) Attempt Diagnostic Question 2 again.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि कैसे कोई specific घटना (जैसे लेखक के जीवन में किसी विशेष त्योहार का अनुभव या किसी सामाजिक आंदोलन में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refer to the sequence of events in a story and the.',
-          hint: 'Review the plot diagram (Freytag\'s pyramid) and practice labeling stages in a short story.',
-          misconception: 'Students often think "plot" is just a summary of events. They write a chronological summary and call it plot analysis.',
+          question: 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय.',
+          hint: 'यदि छात्र घटनाओं के क्रम को कथानक मान रहा हो, तो उसे c11_hin_a_cbse_02_002 पर फिर से जाना.',
+          misconception: 'छात्र अक्सर मानते हैं कि कथानक बस कहानी में हुई घटनाओं का क्रम है, और इसलिए वे परीक्षा में केवल घटनाओं को लिस्ट करके.',
           parts: [
-                { id: 'a', prompt: 'Compare the narrative structure of "js.kq" with a linear story (without flashbacks).', answer: 'In a linear story, we would see the nanny\'s past first, then the present',
-                  options: ['In a linear story, we would see the nanny\'s past first, then the present', 'it makes the story confusing', '"plot" is just a summary of events'],
-                  hint: 'Review the plot diagram (Freytag\'s pyramid) and practice labeling stages in a short story from.',
-                  misconception: 'Students often think "plot" is just a summary of events. They write a chronological summary and call it plot analysis.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,',
+                  options: ['कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई', 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,'],
+                  hint: 'यदि छात्र घटनाओं के क्रम को कथानक मान रहा हो, तो उसे c11_hin_a_cbse_02_002 पर फिर से जाना चाहिए.',
+                  misconception: 'छात्र अक्सर मानते हैं कि कथानक बस कहानी में हुई घटनाओं का क्रम है, और इसलिए वे परीक्षा में केवल घटनाओं को लिस्ट करके जवाब देते हैं, जैसे.' }
           ],
-            remediations: { 'plot-is-just-a-summary': { steps: ['If a student cannot distinguish plot from story, have them: (1) List all events in the story in chronological order.', '(2) List events in the order they appear in the text (plot).', '(3) Compare the two lists and note differences (flashbacks, starting in media res).', '(4) Write one sentence explaining why the author chose this plot order.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often think "plot" is just a summary of events. They write a chronological summary and call it plot analysis.',
-          parts: [
-                { id: 'a', prompt: 'Write a brief alternate ending for "js.kq" where the nanny agrees to go to the city. How would this change the story\'s theme and narrative structure?', answer: 'An alternate ending: The nanny agrees, and they leave together',
-                  options: ['An alternate ending: The nanny agrees, and they leave together', '"plot" is just a summary of events'],
-                  hint: 'Review the plot diagram (Freytag\'s pyramid) and practice labeling stages in a short story from.',
-                  misconception: 'Students often think "plot" is just a summary of events. They write a chronological summary and call it plot analysis.' }
-          ],
-            remediations: { 'plot-is-just-a-summary': { steps: ['If a student cannot distinguish plot from story, have them: (1) List all events in the story in chronological order.', '(2) List events in the order they appear in the text (plot).', '(3) Compare the two lists and note differences (flashbacks, starting in media res).', '(4) Write one sentence explaining why the author chose this plot order.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['इस भूल को दूर करने के लिए, छात्र को एक familiar कहानी (जैसे शेर और चूहा) लेनी चाहिए और पूछना चाहिए: "यदि हम घटनाओं को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a narrative.',
-          hint: 'If stuck, review Class 11 "Text: Setting and Atmosphere" (c11_hin_ar_cbse_03_003) for the.',
-          misconception: 'Students consistently treat setting as a static container — "the story takes place in a village" — and atmosphere as.',
+          question: 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है.',
+          hint: 'यदि फँसें, तो Class 11 के नोड c11_hin_a_cbse_03_003 में पाठ्य-परिवेश की परिभाषा और सरल.',
+          misconception: 'छात्र अक्सर मानते हैं कि पाठ्य-परिवेश केवल कहानी के \'पृष्ठभूमि विवरण\' (जैसे साल या शहर का नाम) है, जो plot या.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the time, place, and social environment in',
-                  options: ['Setting refers to the time, place, and social environment in', '"Before You Read: Context and Background" is a pre-reading section that provides', 'Plot and narrative structure refer to the sequence of events in a story and the technique', 'Character analysis of the protagonist involves examining the main character\'s traits,'],
-                  hint: 'If stuck, review Class 11 "Text: Setting and Atmosphere" (c11_hin_ar_cbse_03_003) for the.',
-                  misconception: 'Students consistently treat setting as a static container — "the story takes place in a village" — and atmosphere as a synonym for "mood.".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई',
+                  options: ['पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,'],
+                  hint: 'यदि फँसें, तो Class 11 के नोड c11_hin_a_cbse_03_003 में पाठ्य-परिवेश की परिभाषा और सरल पहचान के.',
+                  misconception: 'छात्र अक्सर मानते हैं कि पाठ्य-परिवेश केवल कहानी के \'पृष्ठभूमि विवरण\' (जैसे साल या शहर का नाम) है, जो plot या characters से स्वतंत्र रूप से.' }
           ],
-            remediations: { 'students-consistently-treat-setting-as': { steps: ['If the student cannot distinguish setting from atmosphere, do this 3-step remediation: (1) Have them reread the first.', '(2) Ask them to draw three arrows: physical → social (e.g., narrow lanes force people into shared spaces), social →.', '(3) Assign a 50-word micro-analysis: "How does the description of the cot (xkM+h) on page 84 function as both physical.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से पूछिए: "यदि यही कहानी एक शहरी अपार्टमेंट में रात 2 बजे होती, तो क्या मुख्य पात्र अभी भी वैसा ही महसूस करता?".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the main character\'s.',
-          hint: 'If stuck, review the difference between flat and round characters using Class 11 notes.',
-          misconception: 'Students often confuse gjxksfcu\'s role as a laofn;k with that of a mere \'gossip-monger\' or \'entertainer\'.',
+          question: 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक.',
+          hint: 'यदि छात्र केवल बाहरी विवरणों पर फंसा हुआ है, तो उसे c11_hin_a_cbse_04_004 (कक्षा 11 में.',
+          misconception: 'छात्र अक्सर नायक के चरित्र को केवल उसके बाहरी लक्षणों — जैसे कि उसका वेशभूषा, चेहरे का रंग, या शारीरिक ताकत — के आधार.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves examining the main character\'s traits,',
-                  options: ['Character analysis of the protagonist involves examining the main character\'s traits,', '"Before You Read: Context and Background" is a pre-reading section that provides', 'Plot and narrative structure refer to the sequence of events in a story and the technique', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, review the difference between flat and round characters using Class 11 notes.',
-                  misconception: 'Students often confuse gjxksfcu\'s role as a laofn;k with that of a mere \'gossip-monger\' or \'entertainer\'.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,',
+                  options: ['नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'यदि छात्र केवल बाहरी विवरणों पर फंसा हुआ है, तो उसे c11_hin_a_cbse_04_004 (कक्षा 11 में नायक के.',
+                  misconception: 'छात्र अक्सर नायक के चरित्र को केवल उसके बाहरी लक्षणों — जैसे कि उसका वेशभूषा, चेहरे का रंग, या शारीरिक ताकत — के आधार पर आंकते हैं, जबकि.' }
           ],
-            remediations: { 'students-often-confuse-gjxksfcu-s': { steps: ['Re-read the scenes where gjxksfcu interacts with cM+h cgqfj;k (pages 78-83) and mark every instance he shows hesitation.', 'List three verbs the author uses for his speech (e.g., \'cksyk\', \'dgk\', \'lquk\') and analyze the tone.', 'Write one paragraph explaining why he chooses to stay with cM+h cgqfj;k despite her rejection.', 'Re-attempt Diagnostic Question 4 with this evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['इस गलती को सुधारने के लिए, छात्र को पाठ में कम से कम तीन ऐसे क्षणों की पहचान करनी होगी जहां नायक के आंतरिक गुण उसके.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_005', difficulty: 'standard',
-          question: 'Supporting character analysis examines how secondary characters in a narrative.',
-          hint: 'If stuck, revisit the "Character Trait Evidence Table" method taught.',
-          misconception: 'Students often treat supporting characters as a list of names with adjectives ("Badi Gosyani is talkative") and stop.',
+          question: 'सहायक पात्र वे कल्पित व्यक्ति होते हैं जो मुख्य पात्र के साथ बातचीत करके कथानक.',
+          hint: 'यदि छात्र सहायक पात्र के चरित्र के गहरे विश्लेषण में फंस जाए, तो उसे पिछले नोड.',
+          misconception: 'छात्र अक्सर सहायक पात्र को केवल \'मुख्य पात्र की मदद करने वाले\' या \'बस वहाँ मौजूद वाले\' के रूप में देखते हैं, जबकि उनकी.',
           parts: [
-                { id: 'a', prompt: 'Name three supporting characters in "laofn;k" and give one defining trait for each based on the text.', answer: 'Correct answer: (1) Badi Gosyani',
-                  options: ['Correct answer: (1) Badi Gosyani', 'old women', 'villagers'],
-                  hint: 'If stuck, revisit the "Character Trait Evidence Table" method taught in c12_hin_a_cbse_12_004 and.',
-                  misconception: 'Students often treat supporting characters as a list of names with adjectives ("Badi Gosyani is talkative") and stop there.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे कल्पित व्यक्ति होते हैं जो मुख्य पात्र के साथ बातचीत करके कथानक को आगे',
+                  options: ['सहायक पात्र वे कल्पित व्यक्ति होते हैं जो मुख्य पात्र के साथ बातचीत करके कथानक को आगे', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'यदि छात्र सहायक पात्र के चरित्र के गहरे विश्लेषण में फंस जाए, तो उसे पिछले नोड.',
+                  misconception: 'छात्र अक्सर सहायक पात्र को केवल \'मुख्य पात्र की मदद करने वाले\' या \'बस वहाँ मौजूद वाले\' के रूप में देखते हैं, जबकि उनकी भूमिका बहुत अधिक.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['Re-read the story marking every speech by a non-protagonist character with a coloured pencil.', 'Make a three-column table: Character | Exact Words/Action | What This Reveals About Village Life.', 'For each character, write one sentence answering: "If this character were removed, what would the story lose?" 4.', 'Discuss your table with a peer or teacher, focusing on the thematic triad (commodification, tradition, pragmatism).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से पूछिए कि वह एक ऐसा दृश्य याद करे जहाँ मुख्य पात्र बहुत संघर्ष में दिख रहा हो—फिर उससे पूछिए: "उस दृश्य में कौन.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
-          hint: 'If stuck on theme vs. plot: Revisit c11_hin_ar_cbse_01_006 worked example on "Namak.',
-          misconception: 'Students confuse "primary theme" with "plot summary" or "moral lesson." They write: "The theme is that we should.',
+          question: 'मुख्य विषय वह केंद्रीय विचार है जो पूरी कहानी को जोड़ता है, जबकि संदेश वह.',
+          hint: 'पात्र-चित्रण और कथानक-संरचना की समीक्षा करें — विशेष रूप से c12_hin_a_cbse_12_004 और.',
+          misconception: 'छात्र अक्सर मुख्य विषय को कहानी के सारांश या निष्कर्ष के साथ भ्रमित कर लेते हैं, जैसे कि "राजा ने राज्य जीता" को मुख्य.',
           parts: [
-                { id: 'a', prompt: 'What is the literal meaning of "laofn;k" as used in the story\'s title and how does the text define this role through the villagers\' reaction to Gajanan\'s.', answer: '"Laofn;k" means "one who narrates/tells stories" (lans\'kokgd)',
-                  options: ['"Laofn;k" means "one who narrates/tells stories" (lans\'kokgd)', 'laofn;k means writer', 'any old person', 'primary theme'],
-                  hint: 'If stuck on theme vs. plot: Revisit c11_hin_ar_cbse_01_006 worked example on "Namak ka Daroga".',
-                  misconception: 'Students confuse "primary theme" with "plot summary" or "moral lesson." They write: "The theme is that we should respect storytellers".' },
-                { id: 'b', prompt: 'Explain in your own words why Chhoti Chhoti (cM+h cgqfj;k) insists on hearing the storyteller\'s tale even when she is physically exhausted and emotionally.', answer: 'Chhoti Chhoti craves the storyteller\'s tale',
-                  options: ['Chhoti Chhoti craves the storyteller\'s tale', 'entertainment', 'curiosity', 'primary theme'],
-                  hint: 'If stuck on theme vs. plot: Revisit c11_hin_ar_cbse_01_006 worked example on "Namak ka Daroga".',
-                  misconception: 'Students confuse "primary theme" with "plot summary" or "moral lesson." They write: "The theme is that we should respect storytellers".' },
-                { id: 'c', prompt: 'Apply the concept of "primary theme" to this passage: Gajanan refuses to tell a story initially ("eSa rqEgkjk laokn ugha dg ldkA"), but later narrates his own.', answer: 'Step 1: Identify the shift',
-                  options: ['Step 1: Identify the shift', 'primary theme', 'plot summary', 'moral lesson'],
-                  hint: 'If stuck on theme vs. plot: Revisit c11_hin_ar_cbse_01_006 worked example on "Namak ka Daroga".',
-                  misconception: 'Students confuse "primary theme" with "plot summary" or "moral lesson." They write: "The theme is that we should respect storytellers".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय वह केंद्रीय विचार है जो पूरी कहानी को जोड़ता है, जबकि संदेश वह उपयोगी सीख है',
+                  options: ['मुख्य विषय वह केंद्रीय विचार है जो पूरी कहानी को जोड़ता है, जबकि संदेश वह उपयोगी सीख है', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'पात्र-चित्रण और कथानक-संरचना की समीक्षा करें — विशेष रूप से c12_hin_a_cbse_12_004 और.',
+                  misconception: 'छात्र अक्सर मुख्य विषय को कहानी के सारांश या निष्कर्ष के साथ भ्रमित कर लेते हैं, जैसे कि "राजा ने राज्य जीता" को मुख्य विषय मान लेते हैं.' }
           ],
-            remediations: { 'students-confuse-primary-theme-with': { steps: ['If the student conflates theme with moral/plot: Step 1 — Give them two columns: "What happens" (plot) vs.', '"What it means about human experience" (theme).', 'Fill plot column together from the text.', 'Step 2 — Ask: "If this story were set in a city slum today with a rapper instead of a laofn;k, what would STAY THE.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को कहानी के तीन महत्वपूर्ण क्षण चुनने को कहिए जहां पात्र का निर्णय या घटना का परिणाम दिखा रहा हो। फिर पूछिए.', 'यदि वे अभी भी भ्रमित हैं, तो बताइए कि मुख्य विषय हमेशा एक मूल्य या मानवीय स्थिति पर आधारित होता है जैसे डर, लालच.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

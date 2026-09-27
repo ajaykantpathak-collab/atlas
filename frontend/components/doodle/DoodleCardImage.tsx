@@ -29,6 +29,26 @@ export default function DoodleCardImage({
 
   const src = `/doodle_cards/class${band}/${nodeId}.png`;
 
+  /* CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 11): until the card proves it
+     exists, the whole section stays invisible — no "checking for card…"
+     pipeline chatter, no empty "Doodle Card" shell, and no "No doodle card
+     exported for this node yet" reaching the child. */
+  if (state !== 'shown') {
+    return (
+      <div style={{ lineHeight: 0 }} aria-hidden="true">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={src}
+          alt=""
+          aria-hidden
+          className="hidden"
+          onLoad={() => setState('shown')}
+          onError={() => setState('missing')}
+        />
+      </div>
+    );
+  }
+
   return (
     <div className="glass-card p-5">
       <div className="flex items-center gap-2 mb-3">
@@ -38,38 +58,17 @@ export default function DoodleCardImage({
           notebook-style recap
         </span>
       </div>
-      {state === 'shown' ? (
-        <a href={src} target="_blank" rel="noopener noreferrer" className="block group">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={src}
-            alt={`Hand-drawn recap card for ${nodeId}`}
-            width={1080}
-            height={1350}
-            loading="lazy"
-            className="w-full h-auto rounded-xl border border-surface-300/30 shadow-lg transition-transform duration-200 group-hover:scale-[1.01]"
-          />
-        </a>
-      ) : (
-        /* probe row: keeps layout honest — card appears only when it exists */
-        <div style={{ lineHeight: 0 }}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={src}
-            alt=""
-            aria-hidden
-            className="hidden"
-            onLoad={() => setState('shown')}
-            onError={() => setState('missing')}
-          />
-          {state === 'loading' && (
-            <p className="text-xs text-surface-600">checking for card…</p>
-          )}
-          {state === 'missing' && (
-            <p className="text-xs text-surface-600">No doodle card exported for this node yet.</p>
-          )}
-        </div>
-      )}
+      <a href={src} target="_blank" rel="noopener noreferrer" className="block group">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={src}
+          alt={`Hand-drawn recap card for ${nodeId}`}
+          width={1080}
+          height={1350}
+          loading="lazy"
+          className="w-full h-auto rounded-xl border border-surface-300/30 shadow-lg transition-transform duration-200 group-hover:scale-[1.01]"
+        />
+      </a>
     </div>
   );
 }

@@ -1,0 +1,672 @@
+{
+ "gameFile": "EngOppositesGame",
+ "classLevel": 3,
+ "cisceNodes": [
+  "c3_eng_004"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Opposites are Pairs 🔄",
+   "text": "Every word has an opposite — hot/cold, big/small, day/night. Opposites show the two ends!",
+   "emoji": "🔄",
+   "bgColor": "from-orange-400 to-red-500",
+   "spoken": ""
+  },
+  {
+   "title": "Size Opposites 📏",
+   "text": "Big ↔ small, tall ↔ short, long ↔ short, fat ↔ thin — measurement words flip!",
+   "emoji": "📏",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Feeling Opposites 😊",
+   "text": "Happy ↔ sad, brave ↔ scared, kind ↔ cruel — feelings have partners too!",
+   "emoji": "😊",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Action Opposites 🚶",
+   "text": "Come ↔ go, open ↔ close, start ↔ finish, give ↔ take — even actions flip!",
+   "emoji": "🚶",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "Opposites in Sentences ✍️",
+   "text": "'The day was hot' ↔ 'The night was cold.' Opposites make sentences compare and contrast!",
+   "emoji": "✍️",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "The opposite of 'hot' is—",
+   "answer": "cold",
+   "options": [
+    "cold",
+    "warm",
+    "cool"
+   ],
+   "hint": "The extreme other end — not 'warm'!",
+   "misconception": "'cold' is the true opposite; 'warm' and 'cool' are middle shades!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flip",
+     "label": "cold",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flip",
+     "label": "warm",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flip",
+     "label": "cool",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "cold",
+     "warm"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'Big' pairs with—",
+   "answer": "small",
+   "options": [
+    "small",
+    "huge",
+    "large"
+   ],
+   "hint": "Opposite, not same!",
+   "misconception": "'small' — 'huge' and 'large' are synonyms of 'big', not opposites!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flip",
+     "label": "small",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flip",
+     "label": "huge",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flip",
+     "label": "large",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "small",
+     "huge"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "The opposite of 'day' is—",
+   "answer": "night",
+   "options": [
+    "night",
+    "evening",
+    "morning"
+   ],
+   "hint": "The dark time!",
+   "misconception": "'night' — evening and morning are transitions, not the opposite!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flip",
+     "label": "night",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flip",
+     "label": "evening",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flip",
+     "label": "morning",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "night",
+     "evening"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match each word to its opposite!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Each word has its flip partner!",
+   "misconception": "open↔close, give↔take, start↔finish, brave↔scared!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "open",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "give",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "start",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "brave",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "open",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "give",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "start",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "brave",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "close",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "take",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "finish",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "scared",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "open",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "give",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "The opposite of 'happy' is—",
+   "answer": "sad",
+   "options": [
+    "sad",
+    "angry",
+    "tired"
+   ],
+   "hint": "The feeling at the other end!",
+   "misconception": "'sad' — 'angry' and 'tired' are different feelings, not the flip of happy!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flip",
+     "label": "sad",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flip",
+     "label": "angry",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flip",
+     "label": "tired",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "sad",
+     "angry"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'The box is full' — the opposite sentence is—",
+   "answer": "The box is empty.",
+   "options": [
+    "The box is empty.",
+    "The box is heavy.",
+    "The box is closed."
+   ],
+   "hint": "'Full' flips to 'empty'!",
+   "misconception": "'empty' is the opposite of 'full' — 'heavy' and 'closed' are different ideas!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flip",
+     "label": "The box is empty.",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flip",
+     "label": "The box is heavy.",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flip",
+     "label": "The box is closed.",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "The box is empty.",
+     "The box is heavy."
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which pair is NOT opposites?",
+   "answer": "fast - quick",
+   "options": [
+    "fast - quick",
+    "up - down",
+    "black - white"
+   ],
+   "hint": "One pair means the SAME!",
+   "misconception": "'fast/quick' are synonyms (same meaning); 'up/down' and 'black/white' are opposites!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flip",
+     "label": "fast - quick",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flip",
+     "label": "up - down",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flip",
+     "label": "black - white",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "fast - quick",
+     "up - down"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort: opposite pairs or same-meaning pairs?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Same meaning or flip meaning?",
+   "misconception": "happy/joyful and big/huge are synonyms; happy/sad and big/tiny are opposites!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "happy - joyful",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "happy - sad",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "big - huge",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "big - tiny",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "happy - joyful",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "happy - sad",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "big - huge",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "label": "big - tiny",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "same meaning",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "opposites",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "happy - joyful",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "happy - sad",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "opposite-carnival",
+ "storyArc": {
+  "theme": "Piku visits Opposite Day where everything flips",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Opposite Crown Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c3_eng_004",
+  "region": "Wordville",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🔄",
+  "prerequisites": []
+ },
+ "subject": "english"
+}

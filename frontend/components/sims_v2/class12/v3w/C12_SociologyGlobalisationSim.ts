@@ -16,7 +16,7 @@ export const w_c12_sociologyglobalisationsim: SimDef = {
     discovery: {
         question: 'Read this scenario: *"Ramesh, a silk weaver in Varanasi, loses orders because Chinese power-loom silk floods the market.',
         options: ['Correct answer: Ramesh', 'economic', 'Globalisation means McDonald\'s and Hollywood taking over Indian culture'],
-        answer: 'Correct answer: Ramesh',
+        answer: 'Ramesh',
         hook: '**Misconception:** "Globalisation = Westernisation / Americanisation / only economic liberalisation." **Why students.',
     },
     teaching: [
@@ -82,7 +82,7 @@ export const w_c12_sociologyglobalisationsim: SimDef = {
           hint: 'If stuck, re-do the "personal trouble ↔ public issue" exercise from c11_soc_cbse_01_002.',
           misconception: '**Misconception:** "Globalisation = Westernisation / Americanisation / only economic liberalisation." **Why students.',
           parts: [
-                { id: 'a', prompt: 'Read this scenario: *"Ramesh, a silk weaver in Varanasi, loses orders because Chinese power-loom silk floods the market.', answer: 'Correct answer: Ramesh',
+                { id: 'a', prompt: 'Read this scenario: *"Ramesh, a silk weaver in Varanasi, loses orders because Chinese power-loom silk floods the market.', answer: 'Ramesh',
                   options: ['Correct answer: Ramesh', 'economic', 'Globalisation means McDonald\'s and Hollywood taking over Indian culture'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: '**Misconception:** "Globalisation = Westernisation / Americanisation / only economic liberalisation." **Why students make this error:**.' }
@@ -93,7 +93,7 @@ export const w_c12_sociologyglobalisationsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: '**Misconception:** "Globalisation = Westernisation / Americanisation / only economic liberalisation." **Why students.',
           parts: [
-                { id: 'a', prompt: 'Evaluate this claim: *"Globalisation benefits everyone — it brings cheaper goods, new jobs, and modern culture to India."* Use the NCERT concept of **uneven.', answer: 'Correct answer: The claim is false',
+                { id: 'a', prompt: 'Evaluate this claim: *"Globalisation benefits everyone — it brings cheaper goods, new jobs, and modern culture to India."* Use the NCERT concept of **uneven.', answer: 'The claim is false',
                   options: ['Correct answer: The claim is false', 'Globalisation means McDonald\'s and Hollywood taking over Indian culture'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: '**Misconception:** "Globalisation = Westernisation / Americanisation / only economic liberalisation." **Why students make this error:**.' }
@@ -115,7 +115,7 @@ export const w_c12_sociologyglobalisationsim: SimDef = {
           hint: 'If stuck, revisit Class 11 Node c11_soc_cbse_07_001 (Social Change definition) and.',
           misconception: 'Students often equate \'liberalisation\', \'privatisation\', and \'globalisation\' as synonyms or a single undifferentiated.',
           parts: [
-                { id: 'a', prompt: 'What were the three specific policy components of the LPG reforms launched in India in July 1991, and what is one concrete policy measure for each?', answer: 'Correct answer: (1) Liberalisation',
+                { id: 'a', prompt: 'What were the three specific policy components of the LPG reforms launched in India in July 1991, and what is one concrete policy measure for each?', answer: '(1) Liberalisation',
                   options: ['Correct answer: (1) Liberalisation', 'selling PSUs is liberalisation'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often equate \'liberalisation\', \'privatisation\', and \'globalisation\' as synonyms or a single undifferentiated process called \'LPG\'.' }

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch15_p2: SimDef = {
     id: 'v3_c12_hin_ar_ch15_p2',
-    title: 'Hkkjrh; f\'k{kk · Part 2/3',
+    title: 'श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज · Part 2/3',
     subtitle: 'He couldn\'t touch the tank — so he rewrote the nation\'s contract',
-    classLevel: 12, subject: 'hin_ar', topic: 'Hkkjrh; f\'k{kk · Part 2/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज · Part 2/3',
     chapters: ['c12_hin_ar_ch15'],
     nodeIds: ['c12_hin_ar_cbse_15_007', 'c12_hin_ar_cbse_15_008', 'c12_hin_ar_cbse_15_009', 'c12_hin_ar_cbse_15_010', 'c12_hin_ar_cbse_15_011', 'c12_hin_ar_cbse_15_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,48 +19,20 @@ export const c12_hin_ar_ch15_p2: SimDef = {
         hook: 'His argument is structural, not just moral: liberty, equality, fraternity are non-negotiables, and \'dignity of labour\' means choosing work without caste prejudice. The essay\'s fire is autobiography turned into constitutional philosophy — lived reality forged into law.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas, motifs, and arguments that run alongside the primary theme in a text, enriching its meaning by exploring related dimensions of the central concern;.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज — गौण विषय', text: 'गौण विषय (Sub-theme) वह सहायक विचार या प्रसंग है जो मुख्य विषय को स्पष्ट, समृद्ध, और विस्तार देता है; यह कथानक में समानांतर चलता हुआ मुख्य भाव को गहराई प्रदान करता है और पात्रों/स्थितियों के नए आयाम.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_15_007', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Argue alongside Ambedkar: link each childhood wound to its constitutional answer, test whether legal bans end discrimination, and apply \'dignity of labour\' to today\'s interview rooms.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
+        labels: ['श्रम वभिाजन और जाति-प्रथा'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_15_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to a debate about reservation policies — someone says "Ambedkar only wanted caste abolished," but you\'ve read this chapter and know.',
-            decisions: [{ prompt: 'What is the definitional difference between a primary theme and a secondary theme in a non-fiction argumentative text like Ambedkar\'s.', options: [
-                { text: 'A primary theme is the central argument or thesis that organizes the entire text (here:', outcome: 'A primary theme is the central argument or thesis that organizes the entire text (here: caste.' },
-                { text: 'caste discrimination', outcome: 'Not quite — Students conflate "sub-topics of the primary argument" with "secondary themes." For example, they.', reveals: 'students-conflate-sub-topics-of' },
-                { text: 'untouchability', outcome: 'Not quite — Students conflate "sub-topics of the primary argument" with "secondary themes." For example, they.', reveals: 'students-conflate-sub-topics-of' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_15_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are reading Ambedkar\'s fiery speech where he describes caste not as a division of labour but as a "division of labourers" — that striking phrase.',
-            decisions: [{ prompt: 'Define \'imagery\' (बिंब) and \'metaphor\' (रूपक) in your own words, giving one original example of each from everyday Hindi usage (not from.', options: [
-                { text: '**Correct Answer:** Imagery (बिंब) = sensory language creating a mental picture (e.g.,', outcome: '**Correct Answer:** Imagery (बिंब) = sensory language creating a mental picture (e.g., "बारिश की.' },
-                { text: 'समय धन *की तरह* है', outcome: 'Not quite — Students treat imagery and metaphor as *decorative ornaments* ("सजावट") rather than *analytical.', reveals: 'students-treat-imagery-and-metaphor' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_15_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are debating a friend who says, "Caste is just tradition, it doesn\'t hurt anyone." You want to prove how deeply contradictory that statement is.',
-            decisions: [{ prompt: 'Define verbal irony and situational irony. Give one example of each from everyday life (not from the chapter).', options: [
-                { text: 'Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying', outcome: 'Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying "Great job!".' },
-                { text: 'representations', outcome: 'Not quite — Students often confuse **irony** with **sarcasm** or **coincidence**, and treat **symbols** as mere.', reveals: 'students-often-confuse-irony-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_15_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading Ambedkar\'s speech and encounter the word *Lora=krk* (equality).',
-            decisions: [{ prompt: 'Define *tkfr&izFkk* (caste system) as Ambedkar uses it in this speech.', options: [
-                { text: 'Ambedkar defines *tkfr&izFkk* not merely as a social hierarchy but as a *graded', outcome: 'Ambedkar defines *tkfr&izFkk* not merely as a social hierarchy but as a *graded inequality*.' },
-                { text: 'caste is hierarchy', outcome: 'Not quite — Students treat key terms in Ambedkar\'s speech as fixed labels with dictionary meanings (e.g.', reveals: 'students-treat-key-terms-in' },
-                { text: 'caste is division of labor', outcome: 'Not quite — Students treat key terms in Ambedkar\'s speech as fixed labels with dictionary meanings (e.g.', reveals: 'students-treat-key-terms-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_15_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the board exam and see a 5-mark question: "वकस्मज के अनुसार जाति प्रथा श्रम विभाजन नहीं, श्रमिकों का विभाजन है – इस कथन का आशय.',
-            decisions: [{ prompt: 'पाठ में दिए गए कथन "जाति प्रथा श्रम विभाजन नहीं, श्रमिकों का विभाजन है" का शाब्दिक अर्थ क्या है? (केवल पाठ में लिखे शब्दों का प्रयोग करें)', options: [
-                { text: '**Correct answer:** The text explicitly states: "जाति प्रथा', outcome: '**Correct answer:** The text explicitly states: "जाति प्रथा... श्रमिकों का विभाजन है" (para 2).' },
-                { text: 'जाति प्रथा श्रमिकों को बांटती है, काम को नहीं।', outcome: 'Not quite — **"Inferential means \'my opinion\'."** Students believe inferential questions invite personal views.', reveals: 'inferential-means-my-opinion' },
-                { text: 'जाति प्रथा समाज को बांटती है', outcome: 'Not quite — **"Inferential means \'my opinion\'."** Students believe inferential questions invite personal views.', reveals: 'inferential-means-my-opinion' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c12_hin_ar_cbse_15_008', title: 'Identify each idea',
+          dissect: { specimen: 'श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज · Part 2/3', spots: [
+            { id: 's1', label: '- -', prompt: 'Which idea is this? — \'पाठ में भाषा-प्रयोग\' का अर्थ है किसी रचना में प्रयुक्त शब्द-चयन (शब्दावली), वाक्य-संरचना.', answer: '- -', options: ['- -', '- - -'] },
+            { id: 's2', label: '- - -', prompt: 'Which idea is this? — **वस्तुनिष्ठ प्रश्न** (Objective Questions) वे हैं जिनका उत्तर पाठ्यांश में स्पष्ट रूप से.', answer: '- - -', options: ['- - -', '- -'] }
+          ] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_15_007', title: 'Use it in the wild',
           caseStudy: { intro: 'In a debate, the opposing side argues: \'Caste is irrelevant now — admission should be purely on merit.\' Your turn to respond.',
             decisions: [{ prompt: 'How would Ambedkar\'s essay structure the rebuttal?', options: [
@@ -70,8 +42,8 @@ export const c12_hin_ar_ch15_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_15_012', title: 'The bigger picture',
           caseStudy: { intro: 'You can now argue caste as a structural theft of liberty — and see how one man\'s humiliations became a nation\'s founding promises.',
-            decisions: [{ prompt: 'What comes next? Hkkjrh; f\'k{kk · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — Hkkjrh; f\'k{kk · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -80,106 +52,71 @@ export const c12_hin_ar_ch15_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas, motifs, and arguments that run.',
-          hint: 'If stuck, return to the definition of "primary theme" in node 006 and practice on.',
-          misconception: 'Students conflate "sub-topics of the primary argument" with "secondary themes." For example, they list "critique.',
+          question: 'गौण विषय (Sub-theme) वह सहायक विचार या प्रसंग है जो मुख्य विषय को स्पष्ट.',
+          hint: 'यदि मुख्य विषय ही स्पष्ट नहीं है, तो पहले c12_hin_ar_cbse_15_006 (मुख्य विषय और संदेश) पर.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि गौण विषय = "लेखक द्वारा दी गई अतिरिक्त जानकारी/उदाहरण/प्रसंग"। **वास्तविकता:** गौण.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the supporting ideas, motifs, and arguments that run alongside the',
-                  options: ['Secondary themes are the supporting ideas, motifs, and arguments that run alongside the', 'This node provides the essential historical, biographical, and ideological context', 'Plot and narrative structure in non-fiction prose refers to the logical architecture of', 'In non-fiction prose like Ambedkar\'s "Je foHkktu vkSj tkfr&izFkk", **setting** refers to'],
-                  hint: 'If stuck, return to the definition of "primary theme" in node 006 and practice on a simpler text.',
-                  misconception: 'Students conflate "sub-topics of the primary argument" with "secondary themes." For example, they list "critique of hereditary occupation,".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह सहायक विचार या प्रसंग है जो मुख्य विषय को स्पष्ट, समृद्ध, और',
+                  options: ['गौण विषय (Sub-theme) वह सहायक विचार या प्रसंग है जो मुख्य विषय को स्पष्ट, समृद्ध, और', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
+                  hint: 'यदि मुख्य विषय ही स्पष्ट नहीं है, तो पहले c12_hin_ar_cbse_15_006 (मुख्य विषय और संदेश) पर जाएँ.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि गौण विषय = "लेखक द्वारा दी गई अतिरिक्त जानकारी/उदाहरण/प्रसंग"। **वास्तविकता:** गौण विषय एक **तार्किक.' }
           ],
-            remediations: { 'students-conflate-sub-topics-of': { steps: ['If the student cannot distinguish primary from secondary themes: (1) Have them re-read node c12_hin_ar_cbse_15_006.', '(2) Give them three colored highlighters: one for "critique of caste" (primary), one for "positive alternative.', '(3) Ask them to highlight paragraphs 4-7 (pages 123-125) — they\'ll see the text shifts from critique to construction.', '(4) Re-attempt Diagnostic Question 2 with the highlighted text.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को पाठ 15 के 3-4 पैराग्राफ दें और कहें: "मुख्य विषय (जाति-प्रथा श्रमिकों का विभाजन है) को लाल पेन से, और उससे.', 'फिर पूछें: "नीले वाले विचार मुख्य विषय के कौन-से पहलू को खोलते हैं — कारण, परिणाम, समाधान, या विरोधाभास?" 3.', 'यदि अटकें, तो कक्षा 11 के नोड **c11_hin_ar_cbse_15_007** (गौण विषय) को दोहराएँ, विशेषकर \'गौण विषय vs साक्ष्य.', 'पुनः निदान के लिए DIAGNOSTIC_QUESTION_3 दोहराएँ — अब छात्र \'श्रमिक एकता\' को गौण विषय के रूप में पहचान पाएंगे।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_008', difficulty: 'standard',
-          question: 'Imagery (बिंब) is the use of vivid, sensory language that appeals to the five.',
-          hint: 'If tenor/vehicle or sense-identification feels shaky, re-do the "Device Hunt" exercise.',
-          misconception: 'Students treat imagery and metaphor as *decorative ornaments* ("सजावट") rather than *analytical instruments*.',
+          question: '**बिंब (Imagery)** साहित्यिक युक्ति है जिसमें कवि/लेखक शब्दों के माध्यम से पाठक.',
+          hint: 'यदि **उपमेय/उपमान पहचानने** में अटकें → **c11_hin_ar_cbse_15_008** के \'रूपक पहचान अभ्यास\'.',
+          misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि **बिंब = केवल दृश्य वर्णन (visual description)** और **रूपक = सजावटी भाषा.',
           parts: [
-                { id: 'a', prompt: 'In the chapter, Ambedkar writes (paraphrased): "Caste is a monster that devours the individual\'s dignity." Identify the metaphor, name its tenor and vehicle.', answer: '**Correct Answer:** Metaphor: "Caste is a monster"',
-                  options: ['**Correct Answer:** Metaphor: "Caste is a monster"', 'monster', 'scary image'],
-                  hint: 'If tenor/vehicle or sense-identification feels shaky, re-do the "Device Hunt" exercise.',
-                  misconception: 'Students treat imagery and metaphor as *decorative ornaments* ("सजावट") rather than *analytical instruments*.' },
-                { id: 'b', prompt: 'Locate one visual image and one auditory image in the chapter (quote the exact phrase).', answer: '**Correct Answer (example based on typical Ambedkar text):** 1',
-                  options: ['**Correct Answer (example based on typical Ambedkar text):** 1', 'caste is a monster'],
-                  hint: 'If tenor/vehicle or sense-identification feels shaky, re-do the "Device Hunt" exercise.',
-                  misconception: 'Students treat imagery and metaphor as *decorative ornaments* ("सजावट") rather than *analytical instruments*.' },
-                { id: 'c', prompt: 'Compare the extended metaphor of "caste as a multi-storeyed building without a staircase" (from Ambedkar\'s *Annihilation of Caste*) with the chapter\'s metaphor.', answer: '**Correct Answer:** The "building" metaphor emphasizes *structural immobility*',
-                  options: ['**Correct Answer:** The "building" metaphor emphasizes *structural immobility*', 'showing caste is bad', 'extended metaphor', 'multiple metaphors'],
-                  hint: 'If tenor/vehicle or sense-identification feels shaky, re-do the "Device Hunt" exercise.',
-                  misconception: 'Students treat imagery and metaphor as *decorative ornaments* ("सजावट") rather than *analytical instruments*.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** साहित्यिक युक्ति है जिसमें कवि/लेखक शब्दों के माध्यम से पाठक की पाँचों',
+                  options: ['**बिंब (Imagery)** साहित्यिक युक्ति है जिसमें कवि/लेखक शब्दों के माध्यम से पाठक की पाँचों', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
+                  hint: 'यदि **उपमेय/उपमान पहचानने** में अटकें → **c11_hin_ar_cbse_15_008** के \'रूपक पहचान अभ्यास\' दोहराएँ।.',
+                  misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि **बिंब = केवल दृश्य वर्णन (visual description)** और **रूपक = सजावटी भाषा (decorative language)**।.' }
           ],
-            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['**Revisit Class 11 node c11_hin_ar_cbse_15_008** (Literary Devices: Imagery and Metaphor) — re-do its Worked Example 2.', '**Create a two-column chart** for the current chapter: Column A = quoted device, Column B = *argumentative work.', '**Practice the "So what?" drill**: After naming a device, force yourself to answer "So what does this *prove*.', '**Re-attempt Diagnostic Questions 4 & 5** after 48 hours; if still unable to articulate the *structural vs agency*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_008', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students treat imagery and metaphor as *decorative ornaments* ("सजावट") rather than *analytical instruments*.',
-          parts: [
-                { id: 'a', prompt: 'Critique the following student claim: "Ambedkar uses too many metaphors; they make his writing emotional rather than logical, weakening his rational argument.', answer: '**Correct Answer:** Refute',
-                  options: ['**Correct Answer:** Refute', 'evaluate the writer\'s craft', 'fetch full marks in Section C of the board paper'],
-                  hint: 'If tenor/vehicle or sense-identification feels shaky, re-do the "Device Hunt" exercise.',
-                  misconception: 'Students treat imagery and metaphor as *decorative ornaments* ("सजावट") rather than *analytical instruments*.' }
-          ],
-            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['**Revisit Class 11 node c11_hin_ar_cbse_15_008** (Literary Devices: Imagery and Metaphor) — re-do its Worked Example 2.', '**Create a two-column chart** for the current chapter: Column A = quoted device, Column B = *argumentative work.', '**Practice the "So what?" drill**: After naming a device, force yourself to answer "So what does this *prove*.', '**Re-attempt Diagnostic Questions 4 & 5** after 48 hours; if still unable to articulate the *structural vs agency*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'visual-description-decorative-language-1': { steps: ['**चरण 1 (10 मिनट):** छात्र से कहें — "आँखें बंद करो। मैं \'बारिश\' कहूँगा। तुम्हें क्या दिखा/सुना/महसूस हुआ?', 'बोलो।" → उनके उत्तर लिखें (बूँदों की आवाज़, मिट्टी की गंध, ठंडक)। समझाएँ: **यही बिंब-निर्माण है।** 2.', '**चरण 2 (15 मिनट):** पाठ के 5 वाक्य दें जिनमें रूपक हो। छात्र से **उपमेय/उपमान अलग करने** को कहें, फिर पूछें: *"लेखक ने.', '\'दीवार\' की जगह \'पहाड़\' होता तो अर्थ कैसे बदलता?"* → यह **चयन-तर्क (selection rationale)** सिखाता है। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
-          hint: 'If stuck on irony types, review the "Claim vs. Reality" table method from ON_FAILURE.',
-          misconception: 'Students often confuse **irony** with **sarcasm** or **coincidence**, and treat **symbols** as mere "representations".',
+          question: 'विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी प्रतीत.',
+          hint: 'यदि आधारभूत पहचान में कठिनाई हो, तो कक्षा 11 के नोड `c11_hin_ar_cbse_15_009` के.',
+          misconception: 'छात्र प्रायः \'विरोधाभास\' (Paradox) और \'विरोधाभासी कथन\' (Contradiction) को समान समझ लेते हैं। विरोधाभास साहित्यिक युक्ति.',
           parts: [
-                { id: 'a', prompt: 'In the chapter, Ambedkar states that caste defenders claim the system is based on "merit" (gun) and "division of labor," but he argues it is actually based.', answer: 'This is **situational irony**',
-                  options: ['This is **situational irony**', 'verbal irony', 'hypocrisy', 'representations'],
-                  hint: 'If stuck on irony types, review the "Claim vs. Reality" table method from ON_FAILURE.',
-                  misconception: 'Students often confuse **irony** with **sarcasm** or **coincidence**, and treat **symbols** as mere "representations" rather than.' },
-                { id: 'b', prompt: 'Ambedkar writes: "The Constitution is not merely a legal document; it is a vehicle of life, and its spirit is the spirit of the age." Identify the symbol here.', answer: 'The **Constitution** is a symbol representing **social democracy**',
-                  options: ['The **Constitution** is a symbol representing **social democracy**', 'it symbolizes law', 'it symbolizes government', 'representations'],
-                  hint: 'If stuck on irony types, review the "Claim vs. Reality" table method from ON_FAILURE.',
-                  misconception: 'Students often confuse **irony** with **sarcasm** or **coincidence**, and treat **symbols** as mere "representations" rather than.' },
-                { id: 'c', prompt: 'Compare the symbolic function of **Manusmriti** and **Buddhism** in Ambedkar\'s argument. How do they operate as opposing symbols?', answer: '**Manusmriti** symbolizes **caste-sanctioned oppression**',
-                  options: ['**Manusmriti** symbolizes **caste-sanctioned oppression**', 'representations'],
-                  hint: 'If stuck on irony types, review the "Claim vs. Reality" table method from ON_FAILURE.',
-                  misconception: 'Students often confuse **irony** with **sarcasm** or **coincidence**, and treat **symbols** as mere "representations" rather than.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी प्रतीत होने वाले',
+                  options: ['विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी प्रतीत होने वाले', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
+                  hint: 'यदि आधारभूत पहचान में कठिनाई हो, तो कक्षा 11 के नोड `c11_hin_ar_cbse_15_009` के WORKED_EXAMPLE_1 और.',
+                  misconception: 'छात्र प्रायः \'विरोधाभास\' (Paradox) और \'विरोधाभासी कथन\' (Contradiction) को समान समझ लेते हैं। विरोधाभास साहित्यिक युक्ति है जो सतही विरोध के.' }
           ],
-            remediations: { 'students-often-confuse-irony-with': { steps: ['If the student cannot distinguish irony types or reads symbols literally: 1.', '**Revisit node c11_hin_ar_cbse_15_009** (Class 11 Irony and Symbolism) — re-do the diagnostic questions there, focusing.', 'Reality" table**: For 5 caste justifications in the chapter (divine, merit, stability, etc.), write the claim in Column.', '**Symbol mapping exercise**: List 5 objects/institutions in the chapter (Constitution, Manusmriti, Buddhism.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'paradox-contradiction': { steps: ['चरण 1: छात्र से कहो — \'पाठ से एक वाक्य चुनो जहाँ दो विपरीत बातें एक साथ कही गई हों। उसे लिखो।\' चरण 2: पूछो — \'पहली नज़र.', 'उस गहरे सत्य को एक पंक्ति में लिखो।\' चरण 3: अब प्रतीक के लिए — \'पाठ से एक ठोस वस्तु/शब्द चुनो (जैसे: भवन, सीढ़ी, दीवार.', 'तीन अमूर्त अर्थ लिखो।\' चरण 4: दोनों को जोड़ो — \'विरोधाभास ने कौन-सी समस्या दिखाई?', 'प्रतीक ने कौन-सा समाधान सुझाया?\' यदि अभी भी अटका हो, तो कक्षा 11 के नोड `c11_hin_ar_cbse_15_009` (पाठ 15 — साहित्यिक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
-          hint: 'If stuck, review c11_hin_ar_cbse_15_010 (Class 11 Vocabulary in Context) for the 3-step.',
-          misconception: 'Students treat key terms in Ambedkar\'s speech as fixed labels with dictionary meanings (e.g., *Lora=krk* = "equality.',
+          question: 'पदावली (शब्दावली) किसी पाठ में प्रयुक्त प्रमुख, कठिन, तत्सम, तद्भव, देशज या.',
+          hint: 'यदि व्युत्पत्ति में अटके: कक्षा 9-10 की हिंदी व्याकरण पुस्तक के \'शब्द-रचना/व्युत्पत्ति\'.',
+          misconception: 'छात्र समझते हैं कि \'पदावली\' का अर्थ है **कठिन शब्दों के शब्दकोशीय अर्थ रट लेना**। वास्तव में, बोर्ड और CUET में पूछा.',
           parts: [
-                { id: 'a', prompt: 'Define *tkfr&izFkk* (caste system) as Ambedkar uses it in this speech.', answer: 'Ambedkar defines *tkfr&izFkk* not merely as a social hierarchy but as a *graded',
-                  options: ['Ambedkar defines *tkfr&izFkk* not merely as a social hierarchy but as a *graded', 'caste is hierarchy', 'caste is division of labor'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_15_010 (Class 11 Vocabulary in Context) for the 3-step.',
-                  misconception: 'Students treat key terms in Ambedkar\'s speech as fixed labels with dictionary meanings (e.g., *Lora=krk* = "equality before law," *lerk*.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (शब्दावली) किसी पाठ में प्रयुक्त प्रमुख, कठिन, तत्सम, तद्भव, देशज या विदेशी मूल के',
+                  options: ['पदावली (शब्दावली) किसी पाठ में प्रयुक्त प्रमुख, कठिन, तत्सम, तद्भव, देशज या विदेशी मूल के', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
+                  hint: 'यदि व्युत्पत्ति में अटके: कक्षा 9-10 की हिंदी व्याकरण पुस्तक के \'शब्द-रचना/व्युत्पत्ति\' अध्याय को.',
+                  misconception: 'छात्र समझते हैं कि \'पदावली\' का अर्थ है **कठिन शब्दों के शब्दकोशीय अर्थ रट लेना**। वास्तव में, बोर्ड और CUET में पूछा जाता है: **"लेखक ने इस.' }
           ],
-            remediations: { 'students-treat-key-terms-in': { steps: ['If a student cannot distinguish dictionary vs.', 'contextual meaning: (1) Have them re-read the *Lora=krk* passage (para starting "blh izdkj Lora=krk ij Hkh...") and.', '(2) Ask them to write two definitions side-by-side: "Dictionary: ___" vs.', '"Ambedkar: ___" for *Lora=krk, lerk, nklrk*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**पुनरावृत्ति:** कक्षा 11 के पदावली नोड्स (जैसे `c11_hin_ar_cbse_15_010`) से \'व्युत्पत्ति निकालने की विधि\'.', '**अभ्यास:** पाठ से 5 प्रमुख शब्द चुनें। प्रत्येक के लिए: (क) व्युत्पत्ति, (ख) शब्दकोशीय अर्थ, (ग) प्रसंगगत अर्थ, (घ).', '**पुनर्निदान:** उपरोक्त DIAGNOSTIC_QUESTION_2 और 4 को फिर से हल करें बिना नोट्स देखे। यदि फिर गलती हो, तो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis of how.',
-          hint: 'If stuck, review the chapter summary and the Class 11 grammar node.',
-          misconception: 'छात्र अक्सर मानते हैं कि "भाषा उपयोग" विश्लेषण का अर्थ केवल शब्दों के अर्थ समझना या शब्द-भेद पहचानना है। वे यह नहीं देख.',
+          question: '\'पाठ में भाषा-प्रयोग\' का अर्थ है किसी रचना में प्रयुक्त शब्द-चयन (शब्दावली).',
+          hint: 'यदि छात्र **वाच्य पहचानने में अटके** → कक्षा १०/११ व्याकरण पुस्तक के \'वाच्य\' अध्याय के.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'भाषा-प्रयोग\' प्रश्न का उत्तर देने के लिए **अलंकारों के नाम याद करना** (अनुप्रास.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Grammar: Language Usage in the Text refers to the systematic analysis of how grammatical',
-                  options: ['Grammar: Language Usage in the Text refers to the systematic analysis of how grammatical', 'This node provides the essential historical, biographical, and ideological context', 'Plot and narrative structure in non-fiction prose refers to the logical architecture of', 'In non-fiction prose like Ambedkar\'s "Je foHkktu vkSj tkfr&izFkk", **setting** refers to'],
-                  hint: 'If stuck, review the chapter summary and the Class 11 grammar node (c11_hin_ar_cbse_15_011) for.',
-                  misconception: 'छात्र अक्सर मानते हैं कि "भाषा उपयोग" विश्लेषण का अर्थ केवल शब्दों के अर्थ समझना या शब्द-भेद पहचानना है। वे यह नहीं देख पाते कि व्याकरणिक.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पाठ में भाषा-प्रयोग\' का अर्थ है किसी रचना में प्रयुक्त शब्द-चयन (शब्दावली), वाक्य-संरचना',
+                  options: ['\'पाठ में भाषा-प्रयोग\' का अर्थ है किसी रचना में प्रयुक्त शब्द-चयन (शब्दावली), वाक्य-संरचना', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
+                  hint: 'यदि छात्र **वाच्य पहचानने में अटके** → कक्षा १०/११ व्याकरण पुस्तक के \'वाच्य\' अध्याय के **रूपांतरण.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'भाषा-प्रयोग\' प्रश्न का उत्तर देने के लिए **अलंकारों के नाम याद करना** (अनुप्रास, रूपक, उपमा) पर्याप्त.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को पाठ के दो छोटे अंश (50-60 शब्द प्रत्येक) दें: एक जहां कर्मवाच्य प्रबल हो, दूसरा जहां कर्तृवाच्य। 2.', 'उनसे दोनों में कर्ता/कर्म पहचानने और फिर पूछें: "किस अंश में व्यवस्था अधिक शक्तिशाली लगती है?', 'फिर संज्ञाकरण पर ध्यान केंद्रित करें: "असमानता", "शोषण", "मुक्ति" जैसे शब्दों को मूल क्रिया/विशेषण ("असमान", "शोषित".', 'अंत में, छात्र से एक पैराग्राफ पुनर्लेखन करवाएं जहां वह सक्रिय रूप से कर्मवाच्य और संज्ञाकरण का प्रयोग करके व्यवस्थागत.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण १:** छात्र से कहें — **"पाठ का कोई एक वाक्य चुनो जिसमें तुम्हें \'भारीपन\' या \'तीव्रता\' महसूस हो।"** **चरण २:** उस.', 'यदि तत्सम के स्थान पर तद्भव होता तो क्या बदलता?"* — **लिखित तुलना** करवाएँ। **चरण ४:** इस **\'हस्तक्षेप-तुलना\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
-          hint: 'If stuck on "where is the evidence?", return to Node c12_hin_ar_cbse_15_002.',
-          misconception: '**"Inferential means \'my opinion\'."** Students believe inferential questions invite personal views ("मुझे लगता है जाति.',
+          question: '**वस्तुनिष्ठ प्रश्न** (Objective Questions) वे हैं जिनका उत्तर पाठ्यांश में.',
+          hint: 'यदि फँस जाएँ: **c11_hin_ar_cbse_15_012** के अपठित गद्यांशों पर PEEL लेखन का पुनः अभ्यास.',
+          misconception: '**सबसे घातक गलतफहमी:** छात्र समझते हैं कि **आशय-सूचक प्रश्न का उत्तर "अपनी राय" देना होता है**। वे लिखते हैं: "मुझे.',
           parts: [
-                { id: 'a', prompt: 'पाठ में दिए गए कथन "जाति प्रथा श्रम विभाजन नहीं, श्रमिकों का विभाजन है" का शाब्दिक अर्थ क्या है? (केवल पाठ में लिखे शब्दों का प्रयोग करें)', answer: '**Correct answer:** The text explicitly states: "जाति प्रथा',
-                  options: ['**Correct answer:** The text explicitly states: "जाति प्रथा', 'जाति प्रथा श्रमिकों को बांटती है, काम को नहीं।', 'जाति प्रथा समाज को बांटती है', 'यह असमानता फैलाती है'],
-                  hint: 'If stuck on "where is the evidence?", return to Node c12_hin_ar_cbse_15_002 (Plot/Narrative.',
-                  misconception: '**"Inferential means \'my opinion\'."** Students believe inferential questions invite personal views ("मुझे लगता है जाति प्रथा गलत है.' },
-                { id: 'b', prompt: 'वकस्मज जाति प्रथा को "गुलामी" क्यों कहते हैं? पाठ के किन्हीं दो वाक्यों को जोड़कर समझाइए।', answer: '**Correct answer:** Stitch two explicit statements: (1) "जाति प्रथा',
-                  options: ['**Correct answer:** Stitch two explicit statements: (1) "जाति प्रथा', 'क्योंकि यह बुरी है', 'क्योंकि इसमें छुआछूत है', 'Inferential means \'my opinion\''],
-                  hint: 'If stuck on "where is the evidence?", return to Node c12_hin_ar_cbse_15_002 (Plot/Narrative.',
-                  misconception: '**"Inferential means \'my opinion\'."** Students believe inferential questions invite personal views ("मुझे लगता है जाति प्रथा गलत है.' },
-                { id: 'c', prompt: 'नीचे दिए गए अंश को पढ़कर बताइए कि यह शाब्दिक प्रश्न है या अनुमानात्मक: "वकस्मज के अनुसार सामाजिक लोकतंत्र के तीन आधार क्या हैं?"', answer: '**Correct answer:** शाब्दिक (Literal)',
-                  options: ['**Correct answer:** शाब्दिक (Literal)', 'अनुमानात्मक', 'Inferential means \'my opinion\'', 'मुझे लगता है जाति प्रथा गलत है क्योंकि'],
-                  hint: 'If stuck on "where is the evidence?", return to Node c12_hin_ar_cbse_15_002 (Plot/Narrative.',
-                  misconception: '**"Inferential means \'my opinion\'."** Students believe inferential questions invite personal views ("मुझे लगता है जाति प्रथा गलत है.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वस्तुनिष्ठ प्रश्न** (Objective Questions) वे हैं जिनका उत्तर पाठ्यांश में स्पष्ट रूप से',
+                  options: ['**वस्तुनिष्ठ प्रश्न** (Objective Questions) वे हैं जिनका उत्तर पाठ्यांश में स्पष्ट रूप से', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
+                  hint: 'यदि फँस जाएँ: **c11_hin_ar_cbse_15_012** के अपठित गद्यांशों पर PEEL लेखन का पुनः अभ्यास करें.',
+                  misconception: '**सबसे घातक गलतफहमी:** छात्र समझते हैं कि **आशय-सूचक प्रश्न का उत्तर "अपनी राय" देना होता है**। वे लिखते हैं: "मुझे लगता है लेखक ऐसा इसलिए.' }
           ],
-            remediations: { 'inferential-means-my-opinion': { steps: ['**Revisit Node c11_hin_ar_cbse_15_012 (Class 11 Comprehension):** Re-do the literal/inferential classification exercise.', 'Identify 5 literal and 5 inferential questions from that chapter; write one-sentence answers citing para numbers.', '**Micro-drill:** Take any editorial from *The Hindu* (Hindi version) or *Dainik Bhaskar*.', 'Highlight 3 explicit facts (literal) and write 2 inferences with textual stitching (e.g., "Para 2 says X; Para 4 says.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**चरण 1 — निदान:** छात्र से कहें: "पाठ का कोई एक वाक्य चुनो और बताओ कि इसका **सीधा अर्थ** क्या है और **लेखक का आशय**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

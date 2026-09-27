@@ -12,7 +12,7 @@
  *   GET /api/progress/heatmap        (used by the progress report)
  *   GET /api/progress/review/queue   (used by the progress report)
  *   GET /api/progress/review/stats   (used by the progress report)
- *   GET /api/achievements/?filter=all
+ *   GET /api/achievements?filter=all
  *
  * No numbers are ever invented: each endpoint carries its own
  * loading / ready / error / unauthorized status so widgets can render
@@ -114,7 +114,7 @@ export function useDashboardData(): DashboardDataBundle {
   const overview = useEndpoint<ProgressOverview>("/api/progress/overview?range=all", enabled);
   const activity = useEndpoint<ActivityItem[]>("/api/progress/activity?limit=8", enabled);
   const weekly = useEndpoint<WeeklyActivityDay[]>("/api/progress/weekly-activity", enabled);
-  const achievements = useEndpoint<AchievementListResponse>("/api/achievements/?filter=all", enabled);
+  const achievements = useEndpoint<AchievementListResponse>("/api/achievements?filter=all", enabled);
   // These three can stall server-side on a cold/locked DB — short timeout,
   // graceful offline card instead of an endless spinner.
   const heatmap = useEndpoint<HeatmapDay[]>("/api/progress/heatmap", enabled, 8000);

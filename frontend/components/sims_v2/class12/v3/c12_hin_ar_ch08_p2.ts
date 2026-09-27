@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch08_p2: SimDef = {
     id: 'v3_c12_hin_ar_ch08_p2',
-    title: 'mek\'kadj tks\'kh · Part 2/3',
+    title: 'रुबाइयाँ · Part 2/3',
     subtitle: 'The village finally spoke — in its own voice',
-    classLevel: 12, subject: 'hin_ar', topic: 'mek\'kadj tks\'kh · Part 2/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'रुबाइयाँ · Part 2/3',
     chapters: ['c12_hin_ar_ch08'],
     nodeIds: ['c12_hin_ar_cbse_08_007', 'c12_hin_ar_cbse_08_008', 'c12_hin_ar_cbse_08_009', 'c12_hin_ar_cbse_08_010', 'c12_hin_ar_cbse_08_011', 'c12_hin_ar_cbse_08_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,48 +19,15 @@ export const c12_hin_ar_ch08_p2: SimDef = {
         hook: 'Renu\'s philosophy erased the body-mind split — mud on knees IS knowing the world. A Quit India prisoner writing children\'s free play isn\'t just nostalgic: that village is the autonomous world he fought for, reclaimed in folk speech.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, supporting ideas in a literary work that complement and enrich the primary theme, often revealing deeper social, emotional, or philosophical layers through.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'रुबाइयाँ — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द/पद/चित्र जो अपने स्थूल अर्थ के अतिरिक्त किसी अमूर्त भाव, विचार या मूल्य को संकेतित करता है। **बिंब (Imagery):** काव्य-भाषा द्वारा निर्मित वह संवेदी.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_08_007', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Hear a poem in lok-bhasha: weigh dialect as political choice, read bodily play as a way of knowing, and connect a freedom fighter\'s childhood to the freedom he couldn\'t finish.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
+        labels: ['रुबाइयाँ — साहित्यिक युक्तियाँ', 'रुबाइयाँ — मुख्य भाव', 'रुबाइयाँ — गौण भाव', 'रुबाइयाँ — पदावली: कठिन', 'रुबाइयाँ — व्याकरण: पद्य', 'रुबाइयाँ — बोध-प्रश्न: वस्तुनिष्ठ'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to your grandmother sing a lullaby — you hear the surface melody (primary theme: mother\'s love), but underneath you notice references.',
-            decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme?', options: [
-                { text: 'A secondary theme is a supporting idea that runs parallel to the primary theme, adding', outcome: 'A secondary theme is a supporting idea that runs parallel to the primary theme, adding depth and.' },
-                { text: 'sub-plots', outcome: 'Not quite — Students often confuse "secondary theme" with "minor detail" — they list isolated images (chulha.', reveals: 'students-often-confuse-secondary-theme' },
-                { text: 'minor characters', outcome: 'Not quite — Students often confuse "secondary theme" with "minor detail" — they list isolated images (chulha.', reveals: 'students-often-confuse-secondary-theme' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are sitting in a Class 12 exam hall, the same wooden desk, the same ticking clock, the same knot in your stomach before the paper begins.',
-            decisions: [{ prompt: '**REMEMBER**: Define "imagery" (बिंब) and "metaphor" (रूपक) in your own words, and give one example of each from the poem *without quoting.', options: [
-                { text: '**Correct answer**: Imagery = sensory language creating mental pictures (e.g., visual:', outcome: '**Correct answer**: Imagery = sensory language creating mental pictures (e.g., visual: "pk¡n.' },
-                { text: 'like a tree', outcome: 'Not quite — **Misconception**: "Imagery is just \'description of nature\' and metaphor is just \'a fancy.', reveals: 'misconception-imagery-is-just-description' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are watching children flying kites on a terrace — their laughter rings free, but you notice the terrace has no railing and the string cuts their.',
-            decisions: [{ prompt: 'Define verbal irony and situational irony in your own words, giving one example from everyday life for each.', options: [
-                { text: 'Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying', outcome: 'Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying "Great job!".' },
-                { text: 'situational irony', outcome: 'Not quite — Students routinely confuse *symbolism* with *imagery* — they think any vivid description (e.g.', reveals: 'students-routinely-confuse-symbolism-with' },
-                { text: 'the kite flew high', outcome: 'Not quite — Students routinely confuse *symbolism* with *imagery* — they think any vivid description (e.g.', reveals: 'students-routinely-confuse-symbolism-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the poem and stumble upon "यकसू" or "फगुनाहट" – words not in your everyday vocabulary.',
-            decisions: [{ prompt: 'What is the primary strategy for determining the meaning of an unfamiliar word in a poem when a dictionary is not available?', options: [
-                { text: 'The primary strategy is to analyze the context: the surrounding lines, the imagery, the', outcome: 'The primary strategy is to analyze the context: the surrounding lines, the imagery, the tone, and.' },
-                { text: 'guess randomly', outcome: 'Not quite — Students often think that vocabulary in context means memorizing dictionary definitions.', reveals: 'vocabulary-in-context-means-memorizing' },
-                { text: 'skip the word', outcome: 'Not quite — Students often think that vocabulary in context means memorizing dictionary definitions.', reveals: 'vocabulary-in-context-means-memorizing' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a poem where the poet seamlessly blends Hindi, Urdu, and village dialect to paint a vivid picture of rural life.',
-            decisions: [{ prompt: 'What is meant by \'feys&tqys iz;ksx\' (mixed usage) of Hindi, Urdu, and folk language in the context of this poem?', options: [
-                { text: 'Mixed usage refers to the deliberate blending of words and grammatical forms from Hindi', outcome: 'Mixed usage refers to the deliberate blending of words and grammatical forms from Hindi.' },
-                { text: '\'language usage\' only means identifying difficult words', outcome: 'Not quite — Students often think that \'language usage\' only means identifying difficult words.', reveals: 'language-usage-only-means-identifying' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_08_007', title: 'Use it in the wild',
           caseStudy: { intro: 'A friend selected for a national poetry fest wants to strip the dialect words from her village poems — \'real Hindi shouldn\'t smell of fields.\' The poems\' best lines are built from exactly those folk words and her grandmother\'s sayings.',
             decisions: [{ prompt: 'What does Renu\'s poem with the vine refrain say to her plan?', options: [
@@ -70,8 +37,8 @@ export const c12_hin_ar_ch08_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_08_012', title: 'The bigger picture',
           caseStudy: { intro: 'You can now hear regional speech as literature\'s politics — and read a child\'s muddy play as reclaimed freedom.',
-            decisions: [{ prompt: 'What comes next? mek\'kadj tks\'kh · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — mek\'kadj tks\'kh · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? रुबाइयाँ · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — रुबाइयाँ · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -80,86 +47,71 @@ export const c12_hin_ar_ch08_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, supporting ideas in a literary work that.',
-          hint: 'If stuck, revisit Class 11 "Theme: Secondary Themes" nodes (especially.',
-          misconception: 'Students often confuse "secondary theme" with "minor detail" — they list isolated images (chulha, roti, folk songs).',
+          question: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द/पद/चित्र जो अपने स्थूल अर्थ के.',
+          hint: 'यदि अटके तो: कक्षा 11 आरोह नोड `c11_hin_ar_cbse_16_007` (आओ, मलिकर बचाएँ — प्रतीक और.',
+          misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि **"हर रूपक प्रतीक है" और "हर बिंब अलंकार है"।** - **वास्तविकता:** रूपक में.',
           parts: [
-                { id: 'a', prompt: 'In Phani Kumar\'s poem, the primary theme is maternal love and childhood innocence.', answer: 'The secondary theme is the invisibility of women\'s domestic labor',
-                  options: ['The secondary theme is the invisibility of women\'s domestic labor', 'mother\'s hard work', 'secondary theme', 'minor detail'],
-                  hint: 'If stuck, revisit Class 11 "Theme: Secondary Themes" nodes (especially c11_hin_ar_cbse_01_007 and.',
-                  misconception: 'Students often confuse "secondary theme" with "minor detail" — they list isolated images (chulha, roti, folk songs) as separate themes.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द/पद/चित्र जो अपने स्थूल अर्थ के अतिरिक्त',
+                  options: ['**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द/पद/चित्र जो अपने स्थूल अर्थ के अतिरिक्त', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'यदि अटके तो: कक्षा 11 आरोह नोड `c11_hin_ar_cbse_16_007` (आओ, मलिकर बचाएँ — प्रतीक और बिंब) का "बिंब.',
+                  misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि **"हर रूपक प्रतीक है" और "हर बिंब अलंकार है"।** - **वास्तविकता:** रूपक में **स्पष्ट तुलना** होती है.' }
           ],
-            remediations: { 'students-often-confuse-secondary-theme': { steps: ['If a student cannot distinguish secondary themes from details: (1) Give them a 3-column table: Column A = textual.', '(2) Have them group Column C entries into 2-3 clusters — each cluster is a secondary theme.', '(3) Re-read the poem asking: "Which stanzas develop which cluster?" This moves them from listing to pattern-recognition.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_007', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often confuse "secondary theme" with "minor detail" — they list isolated images (chulha, roti, folk songs).',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this student claim: "The secondary theme of poverty in the poem is shown only through the description of \'gbZ pk¡n\' (dry roti) and \'ueZ ned\' (salty.', answer: 'The claim is insufficient',
-                  options: ['The claim is insufficient', 'secondary theme', 'minor detail'],
-                  hint: 'If stuck, revisit Class 11 "Theme: Secondary Themes" nodes (especially c11_hin_ar_cbse_01_007 and.',
-                  misconception: 'Students often confuse "secondary theme" with "minor detail" — they list isolated images (chulha, roti, folk songs) as separate themes.' }
-          ],
-            remediations: { 'students-often-confuse-secondary-theme': { steps: ['If a student cannot distinguish secondary themes from details: (1) Give them a 3-column table: Column A = textual.', '(2) Have them group Column C entries into 2-3 clusters — each cluster is a secondary theme.', '(3) Re-read the poem asking: "Which stanzas develop which cluster?" This moves them from listing to pattern-recognition.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1:** कक्षा 11 के नोड `c11_hin_a_cbse_13_007` (जाग तुझको दूर जाना — प्रतीक और बिंब) या `c11_hin_ar_cbse_16_007`.', '**चरण 2:** रुबाइयों के **पद 1 और पद 5** साथ रखो। पद 1 में "सुबह/बहार/चिड़ियाँ" के **बिंब** छाँटो; पद 5 में "शाम/उजड़ा.', '**चरण 3:** एक शीट पर दो कॉलम बनाओ: **बिंब (संवेदी प्रकार + पंक्ति)** | **प्रतीक (स्थूल अर्थ → गूढ़ार्थ + थीम लिंक)**।.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_3 और 4 फिर से हल करो — अब अंतर स्पष्ट होगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_008', difficulty: 'standard',
-          question: 'Imagery (बिंब/प्रतिबिंब) is the use of vivid, sensory language that appeals.',
-          hint: 'If stuck on tenor/vehicle/ground, review **c11_hin_ar_cbse_08_008** Worked Example 2 (the.',
-          misconception: '**Misconception**: "Imagery is just \'description of nature\' and metaphor is just \'a fancy comparison.\'" **Why students.',
+          question: 'रुबाइयाँ उमर खय्याम द्वारा रचित फारसी चतुष्पदियों का हिंदी अनुवाद है, जिनका.',
+          hint: 'यदि मुख्य भाव नहीं पकड़ में आए: c12_hin_ar_cbse_08_007 की प्रतीक-सारणी दोहराएँ — प्रत्येक.',
+          misconception: '**सबसे आम गलती:** छात्र रुबाइयों को **\'शराब-प्रशंसा की कविताएँ\'** मान लेते हैं क्योंकि \'मधुशाला\', \'प्याला\', \'साकी\'.',
           parts: [
-                { id: 'a', prompt: '**UNDERSTAND**: The poem uses the metaphor "HkkbZ osQ ck¡èkrh pedrh jk[kh" (withered tree of fear in heart\'s courtyard).', answer: '**Correct answer**: A courtyard tree is (a) **rooted**',
-                  options: ['**Correct answer**: A courtyard tree is (a) **rooted**', 'trees are scary', 'trees are big'],
-                  hint: 'If stuck on tenor/vehicle/ground, review **c11_hin_ar_cbse_08_008** Worked Example 2 (the.',
-                  misconception: '**Misconception**: "Imagery is just \'description of nature\' and metaphor is just \'a fancy comparison.\'" **Why students make this error**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रुबाइयाँ उमर खय्याम द्वारा रचित फारसी चतुष्पदियों का हिंदी अनुवाद है, जिनका **मुख्य भाव**',
+                  options: ['रुबाइयाँ उमर खय्याम द्वारा रचित फारसी चतुष्पदियों का हिंदी अनुवाद है, जिनका **मुख्य भाव**', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'यदि मुख्य भाव नहीं पकड़ में आए: c12_hin_ar_cbse_08_007 की प्रतीक-सारणी दोहराएँ — प्रत्येक प्रतीक के.',
+                  misconception: '**सबसे आम गलती:** छात्र रुबाइयों को **\'शराब-प्रशंसा की कविताएँ\'** मान लेते हैं क्योंकि \'मधुशाला\', \'प्याला\', \'साकी\', \'मय\' शब्द आते हैं। वे.' }
           ],
-            remediations: { 'misconception-imagery-is-just-description': { steps: ['**Revisit Class 11 node c11_hin_ar_cbse_08_008** (Literary Devices: Imagery and Metaphor) — specifically the section.', '**Do a "sense-hunt"**: Take the poem photocopy.', 'Use 5 highlighters (one per sense).', 'If visual > 70%, you are missing tactile/olfactory/auditory — that\'s the gap.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**तुरंत पुनरावृत्ति:** c12_hin_ar_cbse_08_007 (प्रतीक और बिंब) पढ़ें — विशेषकर \'मधुशाला\', \'प्याला\', \'साकी\', \'खाक\' के.', '**सूफी काव्य परंपरा** का 5 मिनट का वीडियो देखें (यूट्यूब: "सूफी काव्य में मधुशाला प्रतीक")। 3.', '**पुनः-निदान:** उपरोक्त DIAGNOSTIC_QUESTION_2 और 4 फिर से हल करें — अब प्रतीकार्थ सही आने चाहिए। 4.', 'यदि फिर भी अटके: c11_hin_a_cbse_13_008 (जाग तुझको दूर जाना — मुख्य भाव) देखें — वहाँ भी \'पथ\', \'दीपक\' प्रतीकों से यही.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or situations.',
-          hint: 'If stuck, revisit c12_hin_ar_cbse_08_008 (Imagery and Metaphor) for image identification.',
-          misconception: 'Students routinely confuse *symbolism* with *imagery* — they think any vivid description (e.g., "the kite flew high").',
+          question: 'गौण भाव (Secondary Themes) वे सहायक विचार या प्रसंग हैं जो कविता के केंद्रीय.',
+          hint: 'अगर अटके तो c12_hin_ar_cbse_08_004 (केंद्रीय भाव) और c12_hin_ar_cbse_08_007 (प्रतीक और.',
+          misconception: 'छात्र अक्सर गौण भाव और विषयांतर को \'मुख्य विषय से भटकाव\' या \'सजावटी बातें\' मानकर नजरअंदाज कर देते हैं। विशेषकर वे.',
           parts: [
-                { id: 'a', prompt: 'The kite (पतंग) appears repeatedly in the poem. Identify whether it functions as a conventional symbol or a contextual symbol here, and explain what abstract.', answer: 'The kite is a *contextual symbol*',
-                  options: ['The kite is a *contextual symbol*', 'conventional symbol of freedom', 'the kite flew high', 'any vivid description (e'],
-                  hint: 'If stuck, revisit c12_hin_ar_cbse_08_008 (Imagery and Metaphor) for image identification practice.',
-                  misconception: 'Students routinely confuse *symbolism* with *imagery* — they think any vivid description (e.g., "the kite flew high") is a symbol.' },
-                { id: 'b', prompt: 'Compare the irony in the depiction of "बच्चों का खेल" (children\'s play) with the symbolism of "चमगादड़" (bats).', answer: 'The irony lies in calling the children\'s hazardous activities "खेल" (play)',
-                  options: ['The irony lies in calling the children\'s hazardous activities "खेल" (play)', 'the kite flew high', 'any vivid description (e'],
-                  hint: 'If stuck, revisit c12_hin_ar_cbse_08_008 (Imagery and Metaphor) for image identification practice.',
-                  misconception: 'Students routinely confuse *symbolism* with *imagery* — they think any vivid description (e.g., "the kite flew high") is a symbol.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण भाव (Secondary Themes) वे सहायक विचार या प्रसंग हैं जो कविता के केंद्रीय भाव को',
+                  options: ['गौण भाव (Secondary Themes) वे सहायक विचार या प्रसंग हैं जो कविता के केंद्रीय भाव को', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'अगर अटके तो c12_hin_ar_cbse_08_004 (केंद्रीय भाव) और c12_hin_ar_cbse_08_007 (प्रतीक और बिंब) दोबारा.',
+                  misconception: 'छात्र अक्सर गौण भाव और विषयांतर को \'मुख्य विषय से भटकाव\' या \'सजावटी बातें\' मानकर नजरअंदाज कर देते हैं। विशेषकर वे \'क़ज़ा\', \'साकी\', \'गुलाब\'.' }
           ],
-            remediations: { 'students-routinely-confuse-symbolism-with': { steps: ['If a student cannot distinguish imagery from symbolism: (1) Have them list 5 concrete images from the poem (kite.', '(2) For each, ask: "Does the poem *explicitly* or *implicitly* assign this object a meaning beyond itself?', 'Quote the line." (3) If no such line exists, it is imagery only.', 'For irony confusion: (1) Give them the template: "Expectation: ___ | Reality: ___ | Device: ___".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें कि वह रुबाई 1-3 पढ़े और हर पंक्ति के आगे लिखे: \'यह मुख्य भाव है / गौण भाव है / विषयांतर है\'। चरण.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the meaning.',
-          hint: 'If stuck, review the "Context Clues" strategy from Class 11 (c11_hin_ar_cbse_08_010) and.',
-          misconception: 'Students often think that vocabulary in context means memorizing dictionary definitions of difficult words listed.',
+          question: 'पदावली (Vocabulary) का अर्थ है कविता में प्रयुक्त विशिष्ट शब्दों (कठिन शब्दों).',
+          hint: 'यदि अटके तो **c12_hin_ar_cbse_08_007** (प्रतीक और बिंब) के \'सूफी प्रतीकों की सूची\' को.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'कठिन शब्दों के अर्थ रट लेना\' ही पदावली की तैयारी है। वे \'शाब्दिक अर्थ\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context refers to the skill of determining the meaning of unfamiliar words',
-                  options: ['Vocabulary in Context refers to the skill of determining the meaning of unfamiliar words', '"Before You Read: Context and Background" for Chapter 8 provides the essential', 'Plot and Narrative Structure in a narrative poem refers to the sequence of events,', 'Setting and Atmosphere refers to the time, place, physical environment, and'],
-                  hint: 'If stuck, review the "Context Clues" strategy from Class 11 (c11_hin_ar_cbse_08_010) and practice.',
-                  misconception: 'Students often think that vocabulary in context means memorizing dictionary definitions of difficult words listed at the end of the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (Vocabulary) का अर्थ है कविता में प्रयुक्त विशिष्ट शब्दों (कठिन शब्दों) तथा',
+                  options: ['पदावली (Vocabulary) का अर्थ है कविता में प्रयुक्त विशिष्ट शब्दों (कठिन शब्दों) तथा', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'यदि अटके तो **c12_hin_ar_cbse_08_007** (प्रतीक और बिंब) के \'सूफी प्रतीकों की सूची\' को दोबारा पढ़ें.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'कठिन शब्दों के अर्थ रट लेना\' ही पदावली की तैयारी है। वे \'शाब्दिक अर्थ\' (dictionary meaning) और.' }
           ],
-            remediations: { 'vocabulary-in-context-means-memorizing': { steps: ['If a student cannot move beyond dictionary definitions, guide them through a "context clue hunt": (1) Select a puzzling.', '(2) Have them read the entire stanza aloud.', '(3) Ask: "What is happening in this scene?', 'What nouns and verbs surround the word?" (4) Have them list all clues (e.g., for "यकसू": children, lane, laughter.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'dictionary-meaning-contextual-connotative-meanin': { steps: ['चरण 1: छात्र से कहें — "रुबाई की कोई एक पंक्ति चुनो जिसमें कठिन शब्द/मुहावरा हो। पहले उसका शाब्दिक अर्थ लिखो, फिर आँख.', 'वह चित्र ही प्रतीकात्मक अर्थ है।" चरण 2: पूर्ववर्ती नोड **c12_hin_ar_cbse_08_007** (प्रतीक और बिंब) को दोबारा पढ़ें.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the study of how grammatical.',
-          hint: 'Review Class 11 Hindi grammar node c11_hin_ar_cbse_08_011 for samasa and verb forms, and.',
-          misconception: 'Students often think that \'language usage\' only means identifying difficult words.',
+          question: 'पद्य में भाषा-प्रयोग का अर्थ है काव्य-रचना में शब्द-चयन (डिक्शन), वाक्य-विन्यास.',
+          hint: 'यदि क्रिया-रूप पहचानने में अटकें तो कक्षा 10 हिंदी व्याकरण \'क्रिया\' पाठ (काल, पक्ष, मूड).',
+          misconception: 'छात्र समझते हैं कि \'पद्य में भाषा-प्रयोग\' का अर्थ है **कठिन शब्दों के अर्थ लिखना** या **अलंकार पहचानना**। वे यह नहीं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Grammar: Language Usage in the Text refers to the study of how grammatical structures,',
-                  options: ['Grammar: Language Usage in the Text refers to the study of how grammatical structures,', '"Before You Read: Context and Background" for Chapter 8 provides the essential', 'Plot and Narrative Structure in a narrative poem refers to the sequence of events,', 'Setting and Atmosphere refers to the time, place, physical environment, and'],
-                  hint: 'Review Class 11 Hindi grammar node c11_hin_ar_cbse_08_011 for samasa and verb forms, and the.',
-                  misconception: 'Students often think that \'language usage\' only means identifying difficult words.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्य में भाषा-प्रयोग का अर्थ है काव्य-रचना में शब्द-चयन (डिक्शन), वाक्य-विन्यास',
+                  options: ['पद्य में भाषा-प्रयोग का अर्थ है काव्य-रचना में शब्द-चयन (डिक्शन), वाक्य-विन्यास', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'यदि क्रिया-रूप पहचानने में अटकें तो कक्षा 10 हिंदी व्याकरण \'क्रिया\' पाठ (काल, पक्ष, मूड) दोहराएँ.',
+                  misconception: 'छात्र समझते हैं कि \'पद्य में भाषा-प्रयोग\' का अर्थ है **कठिन शब्दों के अर्थ लिखना** या **अलंकार पहचानना**। वे यह नहीं देखते कि फ़िराक़.' }
           ],
-            remediations: { 'language-usage-only-means-identifying': { steps: ['If a student cannot distinguish language layers, have them take three highlighters and mark every word in one stanza.', 'Then discuss why the poet chose each.', 'Next, have them rewrite the stanza in pure standard Hindi and compare the effect.', 'Finally, ask them to find one compound word and break it down using the samasa rules from Class 11.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को रुबाइयों के 2-3 पद्यांश दें और कहें: "हर क्रिया को घेरे में लें, उसका काल/पक्ष/मूड लिखें, फिर पूछें — कवि ने.', 'सर्वनामों (\'मैं\', \'हम\', \'तुम\', \'यह\', \'वह\') को अलग रंग से चिह्नित करवाएँ और प्रत्येक परिवर्तन पर लिखवाएँ: "कौन बोल रहा.', 'एक पंक्ति लें, उसके 3 संस्करण बनवाएँ: (क) मूल, (ख) विराम-चिह्न डालकर, (ग) शब्द-क्रम बदलकर — फिर तीनों पढ़वाएँ और अंतर.', 'पुनः निदान: उपरोक्त DIAGNOSTIC_QUESTION_3 और 4 दोहराएँ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
-          hint: 'If stuck, revisit c12_hin_ar_cbse_08_008 (Imagery) and c12_hin_ar_cbse_08_009 (Symbolism).',
-          misconception: 'छात्र अक्सर समझते हैं कि "निष्कर्षात्मक प्रश्न" का उत्तर अपनी कल्पना से देना होता है, जबकि सही यह है कि निष्कर्ष *पाठ.',
+          question: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर एक शब्द, एक वाक्य या.',
+          hint: 'यदि फँस जाएँ: पहले c12_hin_ar_cbse_08_002 (भावार्थ) से प्रसंग दोहराएँ, फिर.',
+          misconception: 'छात्र समझते हैं कि **आशय-सूचक प्रश्न का उत्तर \'अपनी राय\' देना है** — "मुझे लगता है कवि ऐसा कह रहे हैं क्योंकि..."।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Literal comprehension questions require answers directly stated in the text (explicit',
-                  options: ['Literal comprehension questions require answers directly stated in the text (explicit', '"Before You Read: Context and Background" for Chapter 8 provides the essential', 'Plot and Narrative Structure in a narrative poem refers to the sequence of events,', 'Setting and Atmosphere refers to the time, place, physical environment, and'],
-                  hint: 'If stuck, revisit c12_hin_ar_cbse_08_008 (Imagery) and c12_hin_ar_cbse_08_009 (Symbolism).',
-                  misconception: 'छात्र अक्सर समझते हैं कि "निष्कर्षात्मक प्रश्न" का उत्तर अपनी कल्पना से देना होता है, जबकि सही यह है कि निष्कर्ष *पाठ के साक्ष्यों से ही*.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर एक शब्द, एक वाक्य या विकल्प',
+                  options: ['वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर एक शब्द, एक वाक्य या विकल्प', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'यदि फँस जाएँ: पहले c12_hin_ar_cbse_08_002 (भावार्थ) से प्रसंग दोहराएँ, फिर c12_hin_ar_cbse_08_007.',
+                  misconception: 'छात्र समझते हैं कि **आशय-सूचक प्रश्न का उत्तर \'अपनी राय\' देना है** — "मुझे लगता है कवि ऐसा कह रहे हैं क्योंकि..."। वास्तविकता: आशय-सूचक.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को कविता के किसी एक स्टैंज़ा को तीन बार पढ़ने को कहें: पहली बार केवल शाब्दिक अर्थ के लिए, दूसरी बार बिंबों.', 'फिर उसे एक T-चार्ट बनाने को कहें: बाएँ कॉलम में "पाठ में लिखा है" (साक्ष्य), दाएँ में "इसका निहित अर्थ" (निष्कर्ष)। हर.', 'अभ्यास के लिए c11_hin_ar_cbse_08_012 (कक्षा 11 का समान नोड) से 5 प्रश्न लें और इसी T-चार्ट विधि से हल करवाएँ। 4.', 'पुनः निदान: वही 6 डायग्नोस्टिक प्रश्न दोहराएँ; यदि अब भी 4/6 से कम सही हों, तो c12_hin_ar_cbse_08_008 (इमेजरी) और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**निदान**: छात्र से कहो — "पहले केवल वस्तुनिष्ठ प्रश्नों के 10 अभ्यास करो (c12_hin_ar_cbse_08_012 के अभ्यास खंड से).', '**पुनर्परीक्षण**: यदि वस्तुनिष्ठ में कीवर्ड छूटते हैं → c12_hin_ar_cbse_08_010 (पदावली) दोहराओ। यदि आशय-सूचक में प्रमाण.', '**पुनः निदान**: 3 दिन बाद मिश्रित प्रश्न-पत्र (5 वस्तुनिष्ठ + 2 आशय-सूचक) देकर जाँचो — क्या अब PEEL स्वतः आ रहा है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

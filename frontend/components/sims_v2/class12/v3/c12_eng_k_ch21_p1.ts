@@ -14,7 +14,7 @@ export const c12_eng_k_ch21_p1: SimDef = {
     scenario: { role: 'Indian drama critic', intro: 'A writer sits for an interview and gets interrogated by her own televised image. Karnad turns language politics into theatre.', goal: 'Read Broken Images through bilingual identity, media\'s mirror and the English-vs-mother-tongue debate.' },
     discovery: {
         question: 'A Kannada writer\'s English novel wins global fame — and her own televised image walks off the screen to accuse her of betrayal. What is the Image really prosecuting?',
-        options: ['Her fractured self — the split between the mother tongue that made her and the English that markets her; the interview becomes an interrogation by her own image', 'Plagiarism', 'The TV channel\'s bias', 'Stage fright'],
+        options: ['Her fractured self — the split between the mother tongue that made her and the English that markets her; the interview becomes an interrogation by her own image', 'Plagiarism — the Image combs the English novel for passages lifted from Kannada', 'The channel\'s editing bias — the accusation is manufactured by producers\' framing', 'Stage fright dramatised — the walking image is only her nerves before broadcast'],
         answer: 'Her fractured self — the split between the mother tongue that made her and the English that markets her; the interview becomes an interrogation by her own image',
         hook: 'Karnad lived both tongues — Jnanpith laureate in Kannada and English — so the play\'s real debate is deeper than language: money, envy and who owns \'authentic Indian-ness.\' The studio\'s plasma screens aren\'t décor; the mediated self is the stage. Eliot\'s \'heap of broken images\' is the thesis.',
     },

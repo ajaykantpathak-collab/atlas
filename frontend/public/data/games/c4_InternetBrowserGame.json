@@ -337,10 +337,10 @@
     },
     {
       "type": "sort",
-      "question": "Drag each step of searching on the Internet in correct order!",
+      "question": "Drag each action into the right bin — is it part of searching on the Internet or not?",
       "answer": "sort",
       "options": [],
-      "hint": "Start by opening the browser, then type keywords, press Enter, check results, and click!",
+      "hint": "Think about what you really do when you search: open browser, type keywords, press Enter, read results!",
       "misconception": "The correct search flow: 1. Open browser -> 2. Go to search engine -> 3. Type keywords -> 4. Press Enter -> 5. Review results -> 6. Click relevant link!",
       "storyBeat": "inciting",
       "easierVariant": {
@@ -386,29 +386,58 @@
       ],
       "sortItems": [
         {
-          "id": "step-1",
-          "label": "1. Open browser",
-          "emoji": "",
-          "correctBin": "bin-order"
+          "id": "s1",
+          "label": "Open the browser",
+          "icon": "BROWSER",
+          "emoji": "🌐",
+          "correctBin": "bin-step"
         },
         {
-          "id": "step-2",
-          "label": "2. Type keywords",
-          "emoji": "",
-          "correctBin": "bin-order"
+          "id": "s2",
+          "label": "Type keywords in the search box",
+          "icon": "TYPE",
+          "emoji": "⌨️",
+          "correctBin": "bin-step"
         },
         {
-          "id": "step-3",
-          "label": "3. Press Enter",
-          "emoji": "",
-          "correctBin": "bin-order"
+          "id": "s3",
+          "label": "Press Enter to search",
+          "icon": "ENTER",
+          "emoji": "↩️",
+          "correctBin": "bin-step"
+        },
+        {
+          "id": "s4",
+          "label": "Look through the results",
+          "icon": "READ",
+          "emoji": "👀",
+          "correctBin": "bin-step"
+        },
+        {
+          "id": "x1",
+          "label": "Unplug the computer",
+          "icon": "X",
+          "emoji": "🚫",
+          "correctBin": "bin-no"
+        },
+        {
+          "id": "x2",
+          "label": "Delete the browser app",
+          "icon": "X",
+          "emoji": "🚫",
+          "correctBin": "bin-no"
         }
       ],
       "bins": [
         {
-          "id": "bin-order",
-          "label": "Search Steps 🔍",
+          "id": "bin-step",
+          "label": "Search step ✅",
           "color": "#0EA5E9"
+        },
+        {
+          "id": "bin-no",
+          "label": "Not a step ❌",
+          "color": "#EF4444"
         }
       ]
     },

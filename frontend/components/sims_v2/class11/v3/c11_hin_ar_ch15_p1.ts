@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch15_p1: SimDef = {
     id: 'v3_c11_hin_ar_ch15_p1',
-    title: 'eerk dkfy;k · Part 1/3',
+    title: 'पाठ 15 · Part 1/3',
     subtitle: 'Watch a poem dismantle your definitions before it offers its own.',
-    classLevel: 11, subject: 'hin_ar', topic: 'eerk dkfy;k · Part 1/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 15 · Part 1/3',
     chapters: ['c11_hin_ar_ch15'],
     nodeIds: ['c11_hin_ar_cbse_15_001', 'c11_hin_ar_cbse_15_002', 'c11_hin_ar_cbse_15_003', 'c11_hin_ar_cbse_15_004', 'c11_hin_ar_cbse_15_005', 'c11_hin_ar_cbse_15_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,40 +19,20 @@ export const c11_hin_ar_ch15_p1: SimDef = {
         hook: 'The refrain flips at the fourth stanza — \'not this\' becomes \'this is the most dangerous\' — and the imagery turns from home\'s warmth to a worker\'s weary feet.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a pre-reading strategy that equips students with the poet\'s biographical details, socio-historical milieu, literary movement affiliations, and thematic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 15 — पृष्ठभूमि और रचनाकार परिचय', text: '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें रचना की संरचना हुई, तथा \'रचनाकार परिचय\' लेखक के जीवन-वृत्त, साहित्यिक यात्रा, प्रमुख कृतियों एवं रचनाधर्मिता.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_15_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Find the stanza where negation flips to assertion, then weigh the title\'s provocation — \'the smallest is not the smallest\' — against 1980s hill migration.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are handed a poem titled "The Smallest is Not the Smallest" without any context—you might guess it\'s about physical size or a child\'s perspective.',
-            decisions: [{ prompt: 'Who is Viren Dangwal, and which literary movement is he associated with in Hindi literature?', options: [
-                { text: 'Viren Dangwal (1950–1988) was a Hindi poet and journalist from Tehri Garhwal,', outcome: 'Viren Dangwal (1950–1988) was a Hindi poet and journalist from Tehri Garhwal, Uttarakhand.' },
-                { text: 'him a Chhayavaadi or Nayi Kavita poet', outcome: 'Not quite — Students treat "Before You Read" as optional trivia—memorizing the poet\'s birth/death years and.', reveals: 'students-treat-before-you-read' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are asked to explain this poem to a friend who has never read it.',
-            decisions: [{ prompt: 'What is the basic structural pattern of the poem "lcls [krjukd" in terms of how the stanzas are organized?', options: [
-                { text: 'The poem opens with three stanzas that repeatedly deny common assumptions about cruelty', outcome: 'The poem opens with three stanzas that repeatedly deny common assumptions about cruelty (mother\'s.' },
-                { text: 'it\'s just a list of sad things', outcome: 'Not quite — Students often believe "plot" and "narrative structure" apply only to stories with characters and.', reveals: 'plot-and-narrative-structure-apply' },
-                { text: 'narrative structure', outcome: 'Not quite — Students often believe "plot" and "narrative structure" apply only to stories with characters and.', reveals: 'plot-and-narrative-structure-apply' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are listening to a friend describe the hardest thing they\'ve ever done — you instinctively judge their character by what they choose to share and.',
-            decisions: [{ prompt: 'In the poem "lcls [krjukd", who is the \'protagonist\' being analyzed when we do a character analysis?', options: [
-                { text: 'The protagonist is the poetic speaker (the \'I\' voice of the poem), a constructed persona', outcome: 'The protagonist is the poetic speaker (the \'I\' voice of the poem), a constructed persona distinct.' },
-                { text: 'the poet himself or a fictional character from a story', outcome: 'Not quite — Students conflate the *poet* (Vinod Kumar Shukla, a specific historical person with a biography).', reveals: 'students-conflate-the-poet-vinod' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re holding a tiny splinter in your finger - it\'s physically small but the pain it causes feels huge.',
-            decisions: [{ prompt: 'What is the literal meaning of the phrase "लाल सबसे छोटा" in the poem\'s title, and how does the poet subvert this literal meaning in the.', options: [
-                { text: 'The literal meaning is "Red is the smallest" or "The smallest is the red one," but the', outcome: 'The literal meaning is "Red is the smallest" or "The smallest is the red one," but the poet.' },
-                { text: 'लाल सबसे छोटा', outcome: 'Not quite — Students often think the poem is literally about the color red or physical smallness because of the.', reveals: 'the-poem-is-literally-about' }
-            ] }] } },
+        labels: ['पाठ 15 — पृष्ठभूमि', 'पाठ 15 — कथानक', 'पाठ 15 — पाठ्य-परिवेश', 'पाठ 15 — पात्र-चित्रण', 'पाठ 15 — मुख्य'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_15_002', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 15 · Part 1/3', spots: [
+            { id: 's1', label: '15 -', prompt: 'Which idea is this? — कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि.', answer: '15 -', options: ['15 -', '15 -'] },
+            { id: 's2', label: '15 -', prompt: 'Which idea is this? — पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें.', answer: '15 -', options: ['15 -', '15 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_15_001', title: 'Use it in the wild',
           caseStudy: { intro: 'At a kavi sammelan themed on migration, someone offers \'Laguta Sabse Chhoti Nahin Hoti\' but introduces it as \'a gentle poem about how small people also matter — mothers\' love, fathers\' laps, childhood warmth.\'',
             decisions: [{ prompt: 'What is the poem actually arguing, and how is it built?', options: [
@@ -62,100 +42,81 @@ export const c11_hin_ar_ch15_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_15_006', title: 'The bigger picture',
           caseStudy: { intro: 'Written by a journalist who watched Tehri\'s villages empty to Delhi\'s construction sites — \'small\' was never about size; it\'s about what we\'re trained not to see.',
-            decisions: [{ prompt: 'What comes next? eerk dkfy;k · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — eerk dkfy;k · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 15 · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 15 · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a pre-reading strategy that equips.',
-          hint: 'Review Class 10 Hindi literary history chart (साहित्यिक आंदोलन और उनकी विशेषताएं).',
-          misconception: 'Students treat "Before You Read" as optional trivia—memorizing the poet\'s birth/death years and major works for.',
+          question: '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से.',
+          hint: 'यदि फंसें तो कक्षा 10 की पाठ्यपुस्तक \'आरोह/क्षितिज\' के किसी एक पाठ का \'लेखक परिचय\' और.',
+          misconception: 'छात्र समझते हैं कि \'पृष्ठभूमि\' का अर्थ केवल \'इतिहास की तारीखें और घटनाएं\' रटना है, और \'रचनाकार परिचय\' का अर्थ.',
           parts: [
-                { id: 'a', prompt: 'Who is Viren Dangwal, and which literary movement is he associated with in Hindi literature?', answer: 'Viren Dangwal (1950–1988) was a Hindi poet and journalist from Tehri Garhwal,',
-                  options: ['Viren Dangwal (1950–1988) was a Hindi poet and journalist from Tehri Garhwal,', 'him a Chhayavaadi or Nayi Kavita poet'],
-                  hint: 'Review Class 10 Hindi literary history chart (साहित्यिक आंदोलन और उनकी विशेषताएं) focusing.',
-                  misconception: 'Students treat "Before You Read" as optional trivia—memorizing the poet\'s birth/death years and major works for a 1-mark factual question.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें',
+                  options: ['\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'यदि फंसें तो कक्षा 10 की पाठ्यपुस्तक \'आरोह/क्षितिज\' के किसी एक पाठ का \'लेखक परिचय\' और \'पाठ की.',
+                  misconception: 'छात्र समझते हैं कि \'पृष्ठभूमि\' का अर्थ केवल \'इतिहास की तारीखें और घटनाएं\' रटना है, और \'रचनाकार परिचय\' का अर्थ \'जन्म-मृत्यु तिथि, प्रमुख.' }
           ],
-            remediations: { 'students-treat-before-you-read': { steps: ['If a student cannot articulate the poet-context-theme link: Step 1—Have them re-read the textbook\'s introductory note.', 'Step 2—Ask them to convert each adjective into a "prediction question" for the poem (e.g., "जनपक्षधर → Will the poem.', 'Step 3—Have them verify predictions against the poem\'s first stanza when they reach node c11_hin_ar_cbse_15_002.', 'This transforms passive reading into active hypothesis-testing.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_001', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students treat "Before You Read" as optional trivia—memorizing the poet\'s birth/death years and major works for.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this claim: "Knowing the poet\'s biography before reading a poem limits a student\'s independent interpretation because it imposes a fixed lens." Defend.', answer: 'Challenge',
-                  options: ['Challenge', 'simple', 'deliberately accessible as political strategy'],
-                  hint: 'Review Class 10 Hindi literary history chart (साहित्यिक आंदोलन और उनकी विशेषताएं) focusing.',
-                  misconception: 'Students treat "Before You Read" as optional trivia—memorizing the poet\'s birth/death years and major works for a 1-mark factual question.' }
-          ],
-            remediations: { 'students-treat-before-you-read': { steps: ['If a student cannot articulate the poet-context-theme link: Step 1—Have them re-read the textbook\'s introductory note.', 'Step 2—Ask them to convert each adjective into a "prediction question" for the poem (e.g., "जनपक्षधर → Will the poem.', 'Step 3—Have them verify predictions against the poem\'s first stanza when they reach node c11_hin_ar_cbse_15_002.', 'This transforms passive reading into active hypothesis-testing.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "रचनाकार की जीवनी के 3 पन्ने पढ़ें और उनमें से 3 ऐसी घटनाएं छांटें जो आपको पाठ के किसी.', 'क्यों?" चरण 3: बोर्ड के गत 5 वर्षों के प्रश्नपत्र दिखाएं जहां \'पृष्ठभूमि/रचनाकार\' आधारित प्रश्न आए हैं (प्रसंग.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in a poem refers to the deliberate organization.',
-          hint: 'Review "stanza and refrain identification" from Class 10 poetry chapter.',
-          misconception: 'Students often believe "plot" and "narrative structure" apply only to stories with characters and events, so they look.',
+          question: 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम.',
+          hint: 'यदि अटका हुआ महसूस हो, तो **\'घटना-मानचित्रण\' (Event Mapping)** का अभ्यास करें: किसी.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि "कथानक = कहानी का सारांश" और "आख्यान-संरचना = अध्यायों में विभाजन"। वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and narrative structure in a poem refers to the deliberate organization of images,',
-                  options: ['Plot and narrative structure in a poem refers to the deliberate organization of images,', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Setting and Atmosphere in poetry refer to the temporal, spatial, and emotional backdrop', 'Character analysis of the protagonist in a poem involves examining the poetic persona'],
-                  hint: 'Review "stanza and refrain identification" from Class 10 poetry chapter.',
-                  misconception: 'Students often believe "plot" and "narrative structure" apply only to stories with characters and events, so they look for a storyline.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि',
+                  options: ['कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'यदि अटका हुआ महसूस हो, तो **\'घटना-मानचित्रण\' (Event Mapping)** का अभ्यास करें: किसी परिचित कहानी.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि "कथानक = कहानी का सारांश" और "आख्यान-संरचना = अध्यायों में विभाजन"। वे **फ्रायटैग पिरामिड.' }
           ],
-            remediations: { 'plot-and-narrative-structure-apply': { steps: ['Have the student read the poem aloud twice, marking every occurrence of "lcls [krjukd" with a highlighter.', 'Ask them to draw a simple two‑column table: left column = "What cruelty is NOT (stanzas 1‑3)", right column = "What.', 'Guide them to notice the refrain changes from "ugha gksrh" to "gksrk gS" exactly at the column break.', 'Finally, have them write one sentence explaining why the poet needed the left column before writing the right column.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1 — दृश्यीकरण:** छात्र से कहें: "किसी फिल्म/सीरियल का ऐसा दृश्य याद करो जो \'अंत से शुरू होता है\' (जैसे *ब्रेकिंग.', '**चरण 2 — अंतराल चिह्नित करो:** जहाँ दोनों कॉलम मेल न खाएँ, वहाँ लाल पेन से तीर खींचो और लिखो: "लेखक ने यहाँ समय को.', '**चरण 3 — प्रभाव लिखो:** प्रत्येक तीर के सामने एक पंक्ति में लिखो: "इससे पाठक को ______ महसूस हुआ / ______ जानने की.', '**चरण 4 — सामान्यीकरण:** अंत में छात्र से पूछो: "तो संरचना केवल क्रम नहीं, बल्कि ______ का औजार है?" (उत्तर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_003', difficulty: 'standard',
-          question: 'Setting and Atmosphere in poetry refer to the temporal, spatial, and emotional.',
-          hint: 'Review the distinction between \'setting as backdrop\' and \'setting as active force\' using.',
-          misconception: 'Students often treat \'setting\' as a static label (\'rural India\', \'1980s\') and \'atmosphere\' as a single adjective.',
+          question: 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है.',
+          hint: 'यदि अटके हों तो **कक्षा 10 हिंदी की \'पृष्ठभूमि/परिवेश\' संबंधी परिभाषाएँ और उदाहरण**.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र \'वातावरण\' (Atmosphere/Mood) और \'परिवेश\' (Setting) को पर्यायवाची मान लेते हैं। वे लिखते हैं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting and Atmosphere in poetry refer to the temporal, spatial, and emotional backdrop',
-                  options: ['Setting and Atmosphere in poetry refer to the temporal, spatial, and emotional backdrop', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and narrative structure in a poem refers to the deliberate organization of images,', 'Character analysis of the protagonist in a poem involves examining the poetic persona'],
-                  hint: 'Review the distinction between \'setting as backdrop\' and \'setting as active force\' using a familiar.',
-                  misconception: 'Students often treat \'setting\' as a static label (\'rural India\', \'1980s\') and \'atmosphere\' as a single adjective (\'sad\', \'gloomy\'), missing.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें',
+                  options: ['पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'यदि अटके हों तो **कक्षा 10 हिंदी की \'पृष्ठभूमि/परिवेश\' संबंधी परिभाषाएँ और उदाहरण** दोहराएँ, फिर इस.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र \'वातावरण\' (Atmosphere/Mood) और \'परिवेश\' (Setting) को पर्यायवाची मान लेते हैं। वे लिखते हैं: "कहानी का वातावरण.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Re-read the poem *only* for place/time words (घर, खेत, पगडंडी, सांझ, रात, दिन) and mark them in one colour; re-read for.', 'Draw a two-column timeline: left column = physical movement (leaving, walking, returning); right column = atmospheric.', 'Write one sentence per stanza: \'In this stanza the setting is ___ and the atmosphere is ___ because ___.\' 4.', 'Compare your sentences with a peer — if your atmosphere words are all synonyms of \'sad\', go back and find the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'atmosphere-mood-setting': { steps: ['**पुनः अवधारणा स्पष्ट करें:** छात्र से कहें — "अपनी कक्षा का परिवेश बताओ (बेंच, ब्लैकबोर्ड, पंखा, समय-सारणी) फिर.', '**पाठ से छँटाई करवाएँ:** पाठ 15 के किसी पृष्ठ पर नीले पेन से **तथ्यात्मक विवरण** (परिवेश) और लाल पेन से **भावनात्मक.', '**मिनी-लेखन:** एक ही दृश्य पर दो पैराग्राफ लिखवाएँ — पहला केवल परिवेश (तथ्य), दूसरा केवल वातावरण (अनुभूति)। फिर दोनों.', '**बोर्ड पैटर्न अभ्यास:** गत वर्ष के 3 अंकों के प्रश्न "परिवेश का चित्रण कीजिए" और "वातावरण का वर्णन कीजिए" के मॉडल.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a poem involves examining the poetic.',
-          hint: 'Review "Author vs. Speaker" distinction using a simple example: In a horror movie, the.',
-          misconception: 'Students conflate the *poet* (Vinod Kumar Shukla, a specific historical person with a biography) with the *speaker* (a.',
+          question: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें.',
+          hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_15_002 (कथानक और आख्यान-संरचना)** के.',
+          misconception: '**विशिष्ट भ्रम**: छात्र समझते हैं कि पात्र-चित्रण = **गुणों की सूची (list of traits)** जैसे "ईमानदार, बहादुर, भावुक"।.',
           parts: [
-                { id: 'a', prompt: 'The speaker lists several things that are *not* the most difficult (esgur dh ywV, iqfyl dh ekj, xíkjh&yksHk dh eq_h).', answer: 'It reveals a speaker who is intellectually rigorous and emotionally honest',
-                  options: ['It reveals a speaker who is intellectually rigorous and emotionally honest', 'it shows the speaker is confused', 'it\'s just a poetic device'],
-                  hint: 'Review "Author vs. Speaker" distinction using a simple example: In a horror movie, the director.',
-                  misconception: 'Students conflate the *poet* (Vinod Kumar Shukla, a specific historical person with a biography) with the *speaker* (a literary construct.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के',
+                  options: ['पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_15_002 (कथानक और आख्यान-संरचना)** के "कथानक-चरण पहचान".',
+                  misconception: '**विशिष्ट भ्रम**: छात्र समझते हैं कि पात्र-चित्रण = **गुणों की सूची (list of traits)** जैसे "ईमानदार, बहादुर, भावुक"। वे **पात्र को स्थिर.' }
           ],
-            remediations: { 'students-conflate-the-poet-vinod': { steps: ['Have the student underline every occurrence of "I/me/my" (eqgCcr, eqnkZ, gekjs) and "you/your" (vkidh, vkiosQ) in the.', 'Ask: "Does the *poet* know *your* (the student\'s) trembling shadow or bowed walk?', 'So who is speaking *to you*?" 3.', 'Co-create a \'Speaker Profile Card\': Name: The Witness.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'list-of-traits': { steps: ['**चरण 1**: छात्र को एक **परिचित कहानी** (जैसे: \'उपन्यास सम्राट प्रेमचंद की \'बूढ़ी काकी\' या पाठ्यपुस्तक की कोई कहानी).', 'यदि हाँ, तो **क्या बदला** और **क्या स्थिर रहा**?" **चरण 3**: अब **PEEL शीट** दें: Point (गुण), Evidence (उद्धरण).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters in poetry involves identifying and.',
-          hint: 'If stuck, review c11_hin_ar_cbse_15_002 (Plot and Narrative Structure) to map the poem\'s.',
-          misconception: 'Students often treat the poem\'s figures as literal characters in a story (e.g., "the woman," "the mother," "the hungry.',
+          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के.',
+          hint: 'यदि अटके, तो नोड 004 (नायक चित्रण) के \'आंतरिक द्वंद्व पहचान\' चरण को दोहराएँ और नायक के.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "सहायक पात्र = नायक का मित्र/परिवार वाला" और उसका विश्लेषण **संबंध-लेबल**.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why the poet rejects "a woman\'s shadow" and "a mother\'s love" as examples of the "smallest" thing, even though both are traditionally.', answer: 'The poet rejects them',
-                  options: ['The poet rejects them', 'because women and mothers are important'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_15_002 (Plot and Narrative Structure) to map the poem\'s movement.',
-                  misconception: 'Students often treat the poem\'s figures as literal characters in a story (e.g., "the woman," "the mother," "the hungry man") and analyze.' },
-                { id: 'b', prompt: 'Compare the figure of "the hungry person returning home" (eqnkZ \'kkafr ls Hkj tkuk) with "the one whose dreams die" (gekjs liuksa dk ej tkuk).', answer: 'The hungry returnee represents material deprivation',
-                  options: ['The hungry returnee represents material deprivation', 'types of poor people'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_15_002 (Plot and Narrative Structure) to map the poem\'s movement.',
-                  misconception: 'Students often treat the poem\'s figures as literal characters in a story (e.g., "the woman," "the mother," "the hungry man") and analyze.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ कथानक',
+                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ कथानक', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि अटके, तो नोड 004 (नायक चित्रण) के \'आंतरिक द्वंद्व पहचान\' चरण को दोहराएँ और नायक के तीन प्रमुख.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "सहायक पात्र = नायक का मित्र/परिवार वाला" और उसका विश्लेषण **संबंध-लेबल** (पत्नी, भाई, दोस्त) तक.' }
           ],
-            remediations: { 'students-often-treat-the-poem': { steps: ['If a student writes a "character sketch" of the hungry man describing his personality, take these steps: (1) Show them.', '(2) Ask: "Does the poem tell us this man\'s name, caste, village, or thoughts?', 'It only tells us what the system does TO him." (3) Have them rewrite the analysis replacing "the hungry man" with "the.', '(4) Practice with the "frog-eyed watcher": identify the structural position (surveillance subject) and the bodily.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें: "पात्र का नाम मत बताओ, उसका **काम** बताओ — वह कहानी में **क्या कर रहा है** जो कोई और नहीं कर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_006', difficulty: 'standard',
-          question: 'Primary theme is the central idea or underlying message that the poet conveys.',
-          hint: 'Review the irony and symbolism node (c11_hin_ar_cbse_15_009) focusing on how poets.',
-          misconception: 'Students often think the poem is literally about the color red or physical smallness because of the title "लाल सबसे.',
+          question: 'मुख्य विषय (Central Theme) वह केंद्रीय विचार या सार्वभौमिक सत्य है जिसे रचनाकार.',
+          hint: 'यदि अटके तो c11_hin_ar_cbse_15_002 (कथानक संरचना) और c11_hin_ar_cbse_15_004 (नायक चित्रण).',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'मुख्य विषय\' = \'लेखक का संदेश\' = \'कहानी का नैतिक उपदेश\' (Moral of the.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why the poet says "आंसू की गति" (tear\'s speed) and "याद की मां" (memory\'s mother) are NOT the smallest things, and what this suggests.', answer: 'The poet rejects conventional smallness (physical/minute)',
-                  options: ['The poet rejects conventional smallness (physical/minute)', 'लाल सबसे छोटा'],
-                  hint: 'Review the irony and symbolism node (c11_hin_ar_cbse_15_009) focusing on how poets subvert literal.',
-                  misconception: 'Students often think the poem is literally about the color red or physical smallness because of the title "लाल सबसे छोटा".' },
-                { id: 'b', prompt: 'Analyze how the three images in the final stanzas (the pinch on the painting, the fan in hot sand, the knife on wounds) work together to build the poem\'s.', answer: 'The pinch represents personal conscience pricked by injustice',
-                  options: ['The pinch represents personal conscience pricked by injustice', 'लाल सबसे छोटा'],
-                  hint: 'Review the irony and symbolism node (c11_hin_ar_cbse_15_009) focusing on how poets subvert literal.',
-                  misconception: 'Students often think the poem is literally about the color red or physical smallness because of the title "लाल सबसे छोटा".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय (Central Theme) वह केंद्रीय विचार या सार्वभौमिक सत्य है जिसे रचनाकार कथानक,',
+                  options: ['मुख्य विषय (Central Theme) वह केंद्रीय विचार या सार्वभौमिक सत्य है जिसे रचनाकार कथानक,', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि अटके तो c11_hin_ar_cbse_15_002 (कथानक संरचना) और c11_hin_ar_cbse_15_004 (नायक चित्रण) दोबारा.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'मुख्य विषय\' = \'लेखक का संदेश\' = \'कहानी का नैतिक उपदेश\' (Moral of the story)** — तीनों एक ही हैं।.' }
           ],
-            remediations: { 'the-poem-is-literally-about': { steps: ['Ask the student to re-read the first stanza and circle every "नहीं" (not) to see the negation pattern.', 'Have them list the three final images (pinch, fan, knife) and write one sentence for each: what it literally is vs what.', 'Guide them to connect: the pinch = conscience, fan = endurance, knife = action.', 'Finally, ask: "If the knife is the smallest, why does it uproot the biggest thing (exploitation)?" to reveal the irony.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'moral-of-the-story-theme': { steps: ['**अंतर स्पष्ट करें:** छात्र से कहें — "तीन वाक्य लिखो: (क) कहानी क्या कहती है?', '(ख) प्रेमचंद क्या कहना चाहते हैं?', '(ग) तुम्हें क्या सीख मिली?" — तीनों की तुलना करवाएँ। 2.', '**पाठ-आधारित प्रमाण मांगें:** "वंशीधर के किस संवाद/कृत्य से तुम्हें लगा कि विषय \'ईमानदारी की कीमत\' है?" — जब तक वह 2-3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

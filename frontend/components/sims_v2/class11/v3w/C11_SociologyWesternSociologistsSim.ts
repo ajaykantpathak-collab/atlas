@@ -141,7 +141,7 @@ export const w_c11_sociologywesternsociologistssim: SimDef = {
           hint: 'If the Western definitions feel arbitrary, re-read the section "The Intellectual Ideas.',
           misconception: 'Students often believe that "sociology = urban/modern/quantitative" and "anthropology = rural/tribal/qualitative" is a.',
           parts: [
-                { id: 'a', prompt: 'Compare the Western and Indian trajectories of sociology and social anthropology using the following axes: (a) subject matter, (b) typical method, (c).', answer: 'Correct answer: | Axis | Western Trajectory | Indian Trajectory |',
+                { id: 'a', prompt: 'Compare the Western and Indian trajectories of sociology and social anthropology using the following axes: (a) subject matter, (b) typical method, (c).', answer: '| Axis | Western Trajectory | Indian Trajectory |',
                   options: ['Correct answer: | Axis | Western Trajectory | Indian Trajectory |', 'Department of Sociology and Social Anthropology', 'India followed the Western model initially but later merged'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that "sociology = urban/modern/quantitative" and "anthropology = rural/tribal/qualitative" is a *theoretical* truth.' }
@@ -160,7 +160,7 @@ export const w_c11_sociologywesternsociologistssim: SimDef = {
                   options: ['Expected answer: Research question: "How does algorithmic management in gig work', 'sociology = urban/modern/quantitative', 'anthropology = rural/tribal/qualitative'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that "sociology = urban/modern/quantitative" and "anthropology = rural/tribal/qualitative" is a *theoretical* truth.' },
-                { id: 'c', prompt: 'Compare the Western and Indian trajectories of sociology and social anthropology using the following axes: (a) subject matter, (b) typical method, (c).', answer: 'Correct answer: | Axis | Western Trajectory | Indian Trajectory |',
+                { id: 'c', prompt: 'Compare the Western and Indian trajectories of sociology and social anthropology using the following axes: (a) subject matter, (b) typical method, (c).', answer: '| Axis | Western Trajectory | Indian Trajectory |',
                   options: ['Correct answer: | Axis | Western Trajectory | Indian Trajectory |', 'Department of Sociology and Social Anthropology', 'India followed the Western model initially but later merged', 'native'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that "sociology = urban/modern/quantitative" and "anthropology = rural/tribal/qualitative" is a *theoretical* truth.' }
@@ -193,7 +193,7 @@ export const w_c11_sociologywesternsociologistssim: SimDef = {
           hint: 'If stuck, revisit Class 8 Civics Chapter 4 (c8_civ_ch4_5) on Fundamental Rights.',
           misconception: 'Students often equate "citizenship rights" solely with Fundamental Rights (civil-political) and treat Directive.',
           parts: [
-                { id: 'a', prompt: 'A tribal woman in Jharkhand has a voter ID card and votes regularly, but cannot access the Public Distribution System (PDS) because her village lacks a.', answer: 'Correct answer: Political rights (voting) are fulfilled',
+                { id: 'a', prompt: 'A tribal woman in Jharkhand has a voter ID card and votes regularly, but cannot access the Public Distribution System (PDS) because her village lacks a.', answer: 'Political rights (voting) are fulfilled',
                   options: ['Correct answer: Political rights (voting) are fulfilled', 'all rights are fulfilled'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often equate "citizenship rights" solely with Fundamental Rights (civil-political) and treat Directive Principles as mere moral.' }

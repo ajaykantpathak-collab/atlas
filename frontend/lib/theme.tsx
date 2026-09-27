@@ -1074,9 +1074,10 @@ export function resolveInitialTheme(): {
     };
   }
 
-  // No persisted config — use system preferences
+  // No persisted config — Atlas default is dark (the app's visual identity);
+  // students can still switch to light in Settings.
   return {
-    theme: getSystemPrefersDark() ? "dark" : "light",
+    theme: "dark",
     highContrast: getSystemPrefersHighContrast() ? "on" : "off",
     palette: "default",
   };

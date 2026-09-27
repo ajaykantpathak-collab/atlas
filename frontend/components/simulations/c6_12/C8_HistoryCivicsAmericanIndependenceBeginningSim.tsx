@@ -41,6 +41,19 @@ const SCENARIO = {
   context: 'As a comparative historian and constitutional archivist, your task is to analyse the strategic, economic, and institutional forces that built modern nations, broke empires, and altered global balance of power.',
 };
 
+// ─── REAL-WORLD ACTIVITY ───
+const REAL_WORLD_ACTIVITY = {
+  title: 'Primary Source Detective: Reading the Revolution',
+  description:
+    'Work like a real historian: pull up the US Declaration of Independence (1776) and the Gettysburg Address (1863) online or in a library, and compare their promises against the events you just explored.',
+  steps: [
+    'List three grievances the Declaration levels at King George III and match each to an event from the timeline (taxation, quartering, blocked trade).',
+    'In the Gettysburg Address, find the phrase redefining the war’s purpose and write one sentence on how it connects back to 1776.',
+    'On a map of India circa 1760, shade the regions where Mughal authority had collapsed and mark where the East India Company moved in first.',
+    'Write a 4-line comparison: what did the colonies gain from revolution that the Indian subcontinent lost during the same century?',
+  ],
+};
+
 // ─── DISCOVERY QUESTION (HOOK) ───
 const DISCOVERY_QUESTION = {
   question: 'In 1775-1776, American colonists fired "the shot heard round the world" and declared independence. Did the Declaration of Independence happen at the immediate outbreak of the war?',

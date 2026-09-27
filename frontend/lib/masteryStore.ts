@@ -62,7 +62,7 @@ async function postSimResult(r: PendingResult): Promise<boolean> {
     const { getAuthToken } = await import('./api')
     const token = getAuthToken()
     if (!token) return false
-    const base = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'
+    const base = process.env.NEXT_PUBLIC_API_URL || ''
     const res = await fetch(`${base}/api/progress/sim-result`, {
       method: 'POST',
       headers: {

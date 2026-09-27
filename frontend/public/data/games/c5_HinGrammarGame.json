@@ -1,0 +1,672 @@
+{
+ "gameFile": "HinGrammarGame",
+ "classLevel": 5,
+ "cisceNodes": [
+  "c5_hin_002"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "लिंग — Gender 📚",
+   "text": "Hindi nouns have gender! 'लड़का' is masculine (पुल्लिंग), 'लड़की' is feminine (स्त्रीलिंग) — even for objects!",
+   "emoji": "📚",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Adjective Changes Shape 🎨",
+   "text": "'अच्छा लड़का' but 'अच्छी लड़की' — the adjective matches the noun's gender!",
+   "emoji": "🎨",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "Verb Agrees Too 🔄",
+   "text": "'राम खेलता है' but 'सीता खेलती है' — ता vs ती shows who the verb serves!",
+   "emoji": "🔄",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Common Patterns 🧩",
+   "text": "Nouns ending in ा (लड़का, घोड़ा) are usually masculine; ending in ी (लड़की, रानी) usually feminine — a helpful rule!",
+   "emoji": "🧩",
+   "bgColor": "from-orange-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "Read for Agreement ✅",
+   "text": "'बड़ी किताब पड़ी है' — बड़ी (fem adj) + किताब (fem noun) + पड़ी (fem verb) — everything agrees!",
+   "emoji": "✅",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "'लड़की' is which gender?",
+   "answer": "स्त्रीलिंग (feminine)",
+   "options": [
+    "स्त्रीलिंग (feminine)",
+    "पुल्लिंग (masculine)",
+    "neither"
+   ],
+   "hint": "'girl' — feminine!",
+   "misconception": "'लड़की' is स्त्रीलिंग — feminine (the ी ending often signals it)!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "स्त्रीलिंग (feminine)",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "पुल्लिंग (masculine)",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "neither",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "स्त्रीलिंग (feminine)",
+     "पुल्लिंग (masculine)"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'अच्छा ___' — which noun fits?",
+   "answer": "लड़का",
+   "options": [
+    "लड़का",
+    "लड़की",
+    "किताब"
+   ],
+   "hint": "'अच्छा' is masculine — the noun must match!",
+   "misconception": "'अच्छा' (masc adj) pairs with 'लड़का' (masc noun); लड़की needs 'अच्छी'!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "लड़का",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "लड़की",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "किताब",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "लड़का",
+     "लड़की"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'सीता ___ है' — masculine or feminine verb?",
+   "answer": "खेलती",
+   "options": [
+    "खेलती",
+    "खेलता",
+    "खेलते"
+   ],
+   "hint": "Sita is feminine — the verb form must match!",
+   "misconception": "'खेलती' — the ी ending agrees with सीता (feminine)!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "खेलती",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "खेलता",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "खेलते",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "खेलती",
+     "खेलता"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort by gender: पुल्लिंग or स्त्रीलिंग?",
+   "answer": "sort",
+   "options": [],
+   "hint": "ा-ending often masc, ी-ending often fem!",
+   "misconception": "घोड़ा/नर are masculine; घोड़ी/चिड़िया are feminine!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "घोड़ा",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "घोड़ी",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "चिड़िया",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "नर",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "घोड़ा",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "घोड़ी",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "चिड़िया",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-3",
+     "label": "नर",
+     "emoji": "",
+     "correctBin": "bin-0"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "पुल्लिंग",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "स्त्रीलिंग",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "घोड़ा",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "घोड़ी",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which sentence has correct agreement?",
+   "answer": "बड़ी किताब पड़ी है",
+   "options": [
+    "बड़ी किताब पड़ी है",
+    "बड़ा किताब पड़ा है",
+    "बड़ी किताब पड़ा है"
+   ],
+   "hint": "किताब is feminine — both adj and verb must be feminine!",
+   "misconception": "'बड़ी' (fem) + 'किताब' (fem) + 'पड़ी' (fem) — full agreement!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "बड़ी किताब पड़ी है",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "बड़ा किताब पड़ा है",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "बड़ी किताब पड़ा है",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "बड़ी किताब पड़ी है",
+     "बड़ा किताब पड़ा है"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'वह लड़का ___ है' — correct verb?",
+   "answer": "पढ़ता",
+   "options": [
+    "पढ़ता",
+    "पढ़ती",
+    "पढ़ते"
+   ],
+   "hint": "'वह' + 'लड़का' — masculine singular!",
+   "misconception": "'पढ़ता' — masculine singular; 'पढ़ती' is feminine, 'पढ़ते' is plural!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "पढ़ता",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "पढ़ती",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "पढ़ते",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "पढ़ता",
+     "पढ़ती"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'छोटी ___' — feminine adjective, so the noun must be—",
+   "answer": "बिल्ली",
+   "options": [
+    "बिल्ली",
+    "कुत्ता",
+    "घर"
+   ],
+   "hint": "'छोटी' is feminine — match it!",
+   "misconception": "'छोटी बिल्ली' — feminine adj + feminine noun; कुत्ता and घर are masculine!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "बिल्ली",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "कुत्ता",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "घर",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "बिल्ली",
+     "कुत्ता"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match noun to correct adjective!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Adjective gender must match noun gender!",
+   "misconception": "लड़का(m)+छोटा, लड़की(f)+छोटी, घर(m)+बड़ा, कुर्सी(f)+बड़ी!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "लड़का",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "लड़की",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "घर",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "कुर्सी",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "लड़का",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "लड़की",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "घर",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "कुर्सी",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "छोटा",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "छोटी",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "बड़ा",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "बड़ी",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "लड़का",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "लड़की",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "grammar-forge",
+ "storyArc": {
+  "theme": "Piku masters gender and agreement in Hindi",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Grammar Agreement Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c5_hin_002",
+  "region": "Aksharlok",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "📚",
+  "prerequisites": []
+ },
+ "subject": "hindi"
+}

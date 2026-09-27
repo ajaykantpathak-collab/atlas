@@ -1,0 +1,682 @@
+{
+ "gameFile": "EngReadingGame",
+ "classLevel": 2,
+ "cisceNodes": [
+  "c2_eng_003"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Read Slowly 📖",
+   "text": "'The sun is big. The sun is hot.' — read each word, don't rush. Slow reading = true reading!",
+   "emoji": "📖",
+   "bgColor": "from-yellow-400 to-orange-500",
+   "spoken": ""
+  },
+  {
+   "title": "Picture the Words 🖼️",
+   "text": "When you read 'red ball', picture a red ball in your head — reading makes movies in your mind!",
+   "emoji": "🖼️",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  },
+  {
+   "title": "One Sentence at a Time ⏸️",
+   "text": "'The cat sat.' Stop. Who sat? The cat. Where? On the mat — read the next sentence to know!",
+   "emoji": "⏸️",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Ask Questions ❓",
+   "text": "After reading, ask yourself: who? what? where? — the answers are inside the text!",
+   "emoji": "❓",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Read to Learn 🌟",
+   "text": "Every sentence tells you something new — reading is how stories come alive!",
+   "emoji": "🌟",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "Read: 'The dog is brown.' — What color is the dog?",
+   "answer": "brown",
+   "options": [
+    "brown",
+    "black",
+    "white"
+   ],
+   "hint": "The sentence says the color!",
+   "misconception": "'brown' — the answer lives inside the sentence!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "brown",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "black",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "white",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "brown",
+     "black"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'Ram has a red kite.' — What does Ram have?",
+   "answer": "a red kite",
+   "options": [
+    "a red kite",
+    "a blue kite",
+    "a ball"
+   ],
+   "hint": "'has a ___' — fill it from the text!",
+   "misconception": "A 'red kite' — read the exact words!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "a red kite",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "a blue kite",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "a ball",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "a red kite",
+     "a blue kite"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'The fish swims in water.' — Where does the fish swim?",
+   "answer": "in water",
+   "options": [
+    "in water",
+    "on land",
+    "in air"
+   ],
+   "hint": "Look at the last words of the sentence!",
+   "misconception": "'in water' — the place is at the end of the sentence!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "in water",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "on land",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "in air",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "in water",
+     "on land"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Put the sentence words in order to read it!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Start with 'The'!",
+   "misconception": "'The sun is big' — subject + is + describing word!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "The",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "sun",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "is",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "big",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "The",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "sun",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "is",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "big",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "1st",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "2nd",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "3rd",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "4th",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "The",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "sun",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'Meena saw a bird on the tree.' — What did Meena see?",
+   "answer": "a bird",
+   "options": [
+    "a bird",
+    "a tree",
+    "a cat"
+   ],
+   "hint": "What was ON the tree?",
+   "misconception": "'a bird' — the tree is where the bird sat, not what she saw!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "a bird",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "a tree",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "a cat",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "a bird",
+     "a tree"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Sentence: 'We eat mangoes in summer.' — When do we eat mangoes?",
+   "answer": "in summer",
+   "options": [
+    "in summer",
+    "in winter",
+    "in rain"
+   ],
+   "hint": "The time word is at the end!",
+   "misconception": "'in summer' — the season word tells when!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "in summer",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "in winter",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "in rain",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "in summer",
+     "in winter"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "To answer a question about a story, you should—",
+   "answer": "find the answer in the text",
+   "options": [
+    "find the answer in the text",
+    "guess from memory",
+    "skip the story"
+   ],
+   "hint": "The story holds the answer!",
+   "misconception": "The text always has the answer — read it, don't guess!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "find the answer in the text",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "guess from memory",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "skip the story",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "find the answer in the text",
+     "guess from memory"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match sentence halves to read them!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Who does what? Match the doer to its action!",
+   "misconception": "Bird→sings, dog→runs, sun→gives light, fish→swims — each pair makes a full sentence!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "The bird",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "The dog",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "The sun",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "The fish",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "The bird",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "The dog",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "The sun",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "The fish",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "sings sweetly",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "runs fast",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "gives light",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "swims in water",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "The bird",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "The dog",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "story-book",
+ "storyArc": {
+  "theme": "Piku reads her first real story and answers questions",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Reading Star Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c2_eng_003",
+  "region": "Wordville",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "📖",
+  "prerequisites": []
+ },
+ "subject": "english"
+}

@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
 /** HAND-AUTHORED — c12_comp_ch86 The Public Voice (letter to editor + board report + article).
- * Nodes: c12_comp_cbse_86_001, 86_002, 86_003. */
+ * Nodes: c12_engl_cbse_86_001, 86_002, 86_003. */
 export const c12_comp_ch86: SimDef = {
-    id: 'v3_c12_comp_ch86',
+    id: 'v3w_c12_comp_ch86',
     title: 'The Public Voice',
     subtitle: 'A letter that speaks through the paper, a report that compresses 4W into one breath, an article that argues with a controlled voice',
     classLevel: 12, subject: 'english-composition', topic: 'Letter to editor, report and article at board standard',
     chapters: ['c12_comp_ch86'],
-    nodeIds: ['c12_comp_cbse_86_001', 'c12_comp_cbse_86_002', 'c12_comp_cbse_86_003'],
+    nodeIds: ['c12_engl_cbse_86_001', 'c12_engl_cbse_86_002', 'c12_engl_cbse_86_003'],
     emoji: '📰', theme: { bg: 'from-slate-900 to-stone-950', accent: 'stone', scene: 'senior' },
 
     scenario: {
@@ -33,7 +33,7 @@ export const c12_comp_ch86: SimDef = {
     ],
 
     beats: [
-        { type: 'scaffold', nodeId: 'c12_comp_cbse_86_001', title: 'Fact over adjective',
+        { type: 'scaffold', nodeId: 'c12_engl_cbse_86_001', title: 'Fact over adjective',
           scaffold: {
             problem: 'Convert the rant: "The traffic is very bad and everyone is angry. Something must be done!!!"',
             steps: [
@@ -43,14 +43,14 @@ export const c12_comp_ch86: SimDef = {
                 { text: 'You: convert "the water supply is terrible" → ', blankAnswer: 'a fact — e.g., "the colony has received no supply for four consecutive days"' },
             ],
           } },
-        { type: 'dissect', nodeId: 'c12_comp_cbse_86_002', title: 'The board-grade lead',
+        { type: 'dissect', nodeId: 'c12_engl_cbse_86_002', title: 'The board-grade lead',
           dissect: { specimen: 'two leads, one correct',
           spots: [
             { id: 's1', label: 'compressed', prompt: '"On 5 August, the school hosted its annual blood donation camp in the auditorium, where 120 donors participated." — why does this score?', answer: '4W compressed into ~25 words — a reader could leave informed after one sentence', options: ['4W compressed into ~25 words — a reader could leave informed after one sentence', 'it is short', 'it names the school', 'it uses "hosted"'] },
             { id: 's2', label: 'narrative', prompt: '"It was a proud day when we all gathered for a noble cause." — the fault?', answer: 'narrative opening — performs pride instead of reporting facts; no What/When/Where/Who', options: ['narrative opening — performs pride instead of reporting facts; no What/When/Where/Who', 'needs more emotion', 'proud should be capital', 'nothing wrong'] },
             { id: 's3', label: 'passive', prompt: '"We organized a great event and everyone loved it." — the register fix?', answer: '"The event drew participation from 12 schools" — passivized, quantified, no "we"', options: ['"The event drew participation from 12 schools" — passivized, quantified, no "we"', '"We organized an excellent event"', '"The event was organized by us"', 'keep it — honest reporting'] },
           ] } },
-        { type: 'case', nodeId: 'c12_comp_cbse_86_003', title: 'Angle-map',
+        { type: 'case', nodeId: 'c12_engl_cbse_86_003', title: 'Angle-map',
           caseStudy: {
             intro: 'An article develops by distinct angles — causes, effects, solutions — each paragraph owning one.',
             decisions: [
@@ -64,7 +64,7 @@ export const c12_comp_ch86: SimDef = {
                 ] },
             ],
           } },
-        { type: 'build', nodeId: 'c12_comp_cbse_86_002', title: 'Stack the report',
+        { type: 'build', nodeId: 'c12_engl_cbse_86_002', title: 'Stack the report',
           build: {
             prompt: 'Order the report elements:',
             blocks: ['attributed quote + details', 'headline', 'lead (4W compressed)', 'byline + dateline', 'outcome close'],
@@ -73,7 +73,7 @@ export const c12_comp_ch86: SimDef = {
     ],
 
     challenges: [
-        { type: 'mcq', nodeId: 'c12_comp_cbse_86_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c12_engl_cbse_86_001', difficulty: 'standard',
           question: 'Which close pairs correctly with "To the Editor"?',
           options: [
               { text: 'Yours sincerely — the editor is a named-role recipient' },
@@ -87,7 +87,7 @@ export const c12_comp_ch86: SimDef = {
           },
           hint: 'Is the recipient unnamed or named-by-role?',
           misconception: 'students treat the sign-off as universal — it is relationship-indexed' },
-        { type: 'mcq', nodeId: 'c12_comp_cbse_86_002', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c12_engl_cbse_86_002', difficulty: 'standard',
           question: 'Fix for report register: "We organized a great event and everyone loved it."',
           options: [
               { text: '"The event drew participation from 12 schools" — passivized, quantified, no "we"' },
@@ -101,7 +101,7 @@ export const c12_comp_ch86: SimDef = {
           },
           hint: 'The reporter must vanish — even from the by-phrase.',
           misconception: 'students passivize the verb but keep the "by us" — institutional stance vs personal stance confused' },
-        { type: 'mcq', nodeId: 'c12_comp_cbse_86_003', difficulty: 'advanced',
+        { type: 'mcq', nodeId: 'c12_engl_cbse_86_003', difficulty: 'advanced',
           question: 'Which opener is article-grade?',
           options: [
               { text: '"Every night, a million students stare at glowing screens until 2 am — and call it studying"' },
@@ -115,7 +115,7 @@ export const c12_comp_ch86: SimDef = {
           },
           hint: 'Which opener puts you inside the subject instead of talking about it?',
           misconception: 'students announce the article instead of beginning it — essay-habit bleeding into article format' },
-        { type: 'sort', nodeId: 'c12_comp_cbse_86_001', difficulty: 'foundation',
+        { type: 'sort', nodeId: 'c12_engl_cbse_86_001', difficulty: 'foundation',
           question: 'Editor-letter body beat or filler?',
           sortItems: [
               { id: 'a', label: 'issue stated with facts/figures', emoji: '📊', correctBin: 'beat' },
@@ -130,7 +130,7 @@ export const c12_comp_ch86: SimDef = {
           ],
           hint: 'Facts, impact, suggestion — the three beats. Emotion without facts is filler.',
           misconception: 'students write rants with no content-beats — the three-beat body is the scored structure' },
-        { type: 'subpart', nodeId: 'c12_comp_cbse_86_002', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c12_engl_cbse_86_002', difficulty: 'advanced',
           question: 'Write the lead: blood donation camp, 12 March, school hall, 120 donors.',
           hint: 'One breath, ~25 words, all four Ws.',
           misconception: 'leads written as narrative openings instead of compressed fact',

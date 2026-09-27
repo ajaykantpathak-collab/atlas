@@ -16,17 +16,21 @@ import { seedFromTargets } from './textField.js'
 export const TEXTURE_SIZE = 512
 export const PARTICLE_COUNT = TEXTURE_SIZE * TEXTURE_SIZE
 
-export function createSimulation(renderer, bounds, lessonId = 'solar') {
-  const gpu = new GPUComputationRenderer(TEXTURE_SIZE, TEXTURE_SIZE, renderer)
+// textureSize is optional so lighter embeds (the landing cosmos runs 320x320
+// = 102,400 light-points) can share this exact pipeline; the full Lumen Lab
+// keeps the default 512x512 = 262,144.
+export function createSimulation(renderer, bounds, lessonId = 'solar', textureSize = TEXTURE_SIZE) {
+  const size = textureSize
+  const gpu = new GPUComputationRenderer(size, size, renderer)
 
   const positionTexture = gpu.createTexture()
   const velocityTexture = gpu.createTexture()
-  const targetTexture = createTargetTexture()
+  const targetTexture = createTargetTexture(size)
 
   let currentId = lessonId
-  writeLesson(targetTexture, currentId, bounds)
-  seedFromTargets(positionTexture.image.data, targetTexture.image.data, PARTICLE_COUNT, 2.4)
-  seedVelocities(velocityTexture.image.data)
+  writeLesson(targetTexture, currentId, bounds, size)
+  seedFromTargets(positionTexture.image.data, targetTexture.image.data, size * size, 2.4)
+  seedVelocities(velocityTexture.image.data, size * size)
 
   const positionVar = gpu.addVariable('texturePosition', positionFragmentShader, positionTexture)
   const velocityVar = gpu.addVariable('textureVelocity', velocityFragmentShader, velocityTexture)
@@ -132,11 +136,11 @@ export function createSimulation(renderer, bounds, lessonId = 'solar') {
     },
     setLesson(id, worldBounds) {
       applyLesson(id)
-      writeLesson(targetTexture, id, worldBounds)
+      writeLesson(targetTexture, id, worldBounds, size)
       burst = 1
     },
     rebuildTargets(worldBounds) {
-      writeLesson(targetTexture, currentId, worldBounds)
+      writeLesson(targetTexture, currentId, worldBounds, size)
     },
     burst(strength = 1.5) {
       burst = strength
@@ -144,15 +148,15 @@ export function createSimulation(renderer, bounds, lessonId = 'solar') {
   }
 }
 
-function writeLesson(texture, id, bounds) {
+function writeLesson(texture, id, bounds, size = TEXTURE_SIZE) {
   const cloud = generateCloud(id, bounds)
-  fillFromCloud(texture.image.data, TEXTURE_SIZE, cloud)
+  fillFromCloud(texture.image.data, size, cloud)
   texture.needsUpdate = true
 }
 
-function createTargetTexture() {
-  const data = new Float32Array(TEXTURE_SIZE * TEXTURE_SIZE * 4)
-  const texture = new DataTexture(data, TEXTURE_SIZE, TEXTURE_SIZE, RGBAFormat, FloatType)
+function createTargetTexture(size = TEXTURE_SIZE) {
+  const data = new Float32Array(size * size * 4)
+  const texture = new DataTexture(data, size, size, RGBAFormat, FloatType)
   texture.magFilter = NearestFilter
   texture.minFilter = NearestFilter
   texture.wrapS = ClampToEdgeWrapping
@@ -161,8 +165,8 @@ function createTargetTexture() {
   return texture
 }
 
-function seedVelocities(data) {
-  for (let i = 0; i < PARTICLE_COUNT; i += 1) {
+function seedVelocities(data, count = PARTICLE_COUNT) {
+  for (let i = 0; i < count; i += 1) {
     const stride = i * 4
     data[stride] = (Math.random() * 2 - 1) * 0.08
     data[stride + 1] = (Math.random() * 2 - 1) * 0.08

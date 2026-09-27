@@ -1,0 +1,318 @@
+{
+  "gameFile": "EngNounsGame",
+  "classLevel": 2,
+  "cisceNodes": [],
+  "mascot": "Nomu the Elephant — a kind, gentle elephant who points his trunk at naming words: people, places, animals, and things.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Naming Words! 🏷️",
+      "text": "Naming words are words that NAME something! Your name is a naming word. Ball, school, mummy — all naming words!",
+      "emoji": "🏷️",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Naming words name things: ball, school, mummy!"
+    },
+    {
+      "title": "Names of People 👩‍🏫",
+      "text": "Naming words can name people: mother, father, teacher, doctor, Ravi, Meena!",
+      "emoji": "👩‍🏫",
+      "bgColor": "from-rose-400 to-pink-500",
+      "spoken": "Mother, teacher, doctor — naming words can name people!"
+    },
+    {
+      "title": "Names of Places 🏫",
+      "text": "Naming words can name places: school, park, market, hospital, Delhi, beach!",
+      "emoji": "🏫",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "School, park, market — naming words can name places!"
+    },
+    {
+      "title": "Names of Animals 🐘",
+      "text": "Naming words can name animals: elephant, tiger, parrot, cow, fish, ant!",
+      "emoji": "🐘",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Elephant, tiger, parrot — naming words can name animals!"
+    },
+    {
+      "title": "Names of Things 🎒",
+      "text": "Naming words can name things: book, pencil, ball, chair, water, cake! Look around — how many naming words can you see?",
+      "emoji": "🎒",
+      "bgColor": "from-purple-400 to-fuchsia-500",
+      "spoken": "Book, pencil, ball — naming words can name things!"
+    }
+  ],
+  "challenges": [
+    {
+      "type": "noun_pick",
+      "question": "Which word is a naming word (a noun)?",
+      "answer": "Ball",
+      "options": [
+        "Run",
+        "Ball",
+        "Blue"
+      ],
+      "hint": "One of these names a thing you can touch!",
+      "misconception": "Ball is a naming word — it names a thing! 'Run' shows action and 'blue' describes colour.",
+      "easierVariant": {
+        "options": [
+          "Ball",
+          "Run"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "noun_person",
+      "question": "Which naming word names a PERSON?",
+      "answer": "Teacher",
+      "options": [
+        "Teacher",
+        "Pencil",
+        "Park"
+      ],
+      "hint": "Who is someone you meet at school?",
+      "misconception": "Teacher names a person! Pencil is a thing and park is a place.",
+      "easierVariant": {
+        "options": [
+          "Teacher",
+          "Pencil"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "noun_place",
+      "question": "Which naming word names a PLACE?",
+      "answer": "School",
+      "options": [
+        "School",
+        "Dog",
+        "Spoon"
+      ],
+      "hint": "Where do children go to study?",
+      "misconception": "School names a place! Dog is an animal and spoon is a thing.",
+      "easierVariant": {
+        "options": [
+          "School",
+          "Dog"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "noun_animal",
+      "question": "Which naming word names an ANIMAL?",
+      "answer": "Tiger",
+      "options": [
+        "Tiger",
+        "Chair",
+        "River"
+      ],
+      "hint": "Which one roars and has stripes?",
+      "misconception": "Tiger names an animal! Chair is a thing and river is a place.",
+      "easierVariant": {
+        "options": [
+          "Tiger",
+          "Chair"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_person_place",
+      "question": "Drag each naming word! Is it a person or a place?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Doctor and mother are people. Market and garden are places!",
+      "misconception": "Doctor and Mother name people; Market and Garden name places!",
+      "sortItems": [
+        {
+          "id": "w-doctor",
+          "label": "Doctor",
+          "icon": "🧑‍⚕️",
+          "emoji": "🧑‍⚕️",
+          "correctBin": "person"
+        },
+        {
+          "id": "w-market",
+          "label": "Market",
+          "icon": "🏪",
+          "emoji": "🏪",
+          "correctBin": "place"
+        },
+        {
+          "id": "w-mother",
+          "label": "Mother",
+          "icon": "👩",
+          "emoji": "👩",
+          "correctBin": "person"
+        },
+        {
+          "id": "w-garden",
+          "label": "Garden",
+          "icon": "🌻",
+          "emoji": "🌻",
+          "correctBin": "place"
+        }
+      ],
+      "bins": [
+        {
+          "id": "person",
+          "label": "A Person",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "place",
+          "label": "A Place",
+          "color": "#10B981"
+        }
+      ],
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_animal_thing",
+      "question": "Drag each naming word! Is it an animal or a thing?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Cow and lion are animals. Table and chair are things!",
+      "misconception": "Cow and Lion name animals; Table and Chair name things!",
+      "sortItems": [
+        {
+          "id": "w-cow",
+          "label": "Cow",
+          "icon": "🐄",
+          "emoji": "🐄",
+          "correctBin": "animal"
+        },
+        {
+          "id": "w-table",
+          "label": "Table",
+          "icon": "🪵",
+          "emoji": "🪵",
+          "correctBin": "thing"
+        },
+        {
+          "id": "w-lion",
+          "label": "Lion",
+          "icon": "🦁",
+          "emoji": "🦁",
+          "correctBin": "animal"
+        },
+        {
+          "id": "w-chair",
+          "label": "Chair",
+          "icon": "🪑",
+          "emoji": "🪑",
+          "correctBin": "thing"
+        }
+      ],
+      "bins": [
+        {
+          "id": "animal",
+          "label": "An Animal",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "thing",
+          "label": "A Thing",
+          "color": "#3B82F6"
+        }
+      ],
+      "storyBeat": "rising"
+    },
+    {
+      "type": "noun_in_sentence",
+      "question": "Find the naming word in this sentence: 'The bird sings.'",
+      "answer": "bird",
+      "options": [
+        "bird",
+        "sings",
+        "the"
+      ],
+      "hint": "Which word names a living creature?",
+      "misconception": "Bird is the naming word — it names an animal! 'Sings' shows action.",
+      "easierVariant": {
+        "options": [
+          "bird",
+          "sings"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "noun_not",
+      "question": "Which word is NOT a naming word?",
+      "answer": "Sing",
+      "options": [
+        "King",
+        "Ring",
+        "Sing"
+      ],
+      "hint": "King and ring name things. One of these words shows an action instead!",
+      "misconception": "Sing shows an action, so it is NOT a naming word! King and ring name things.",
+      "easierVariant": {
+        "options": [
+          "Sing",
+          "King"
+        ]
+      },
+      "storyBeat": "resolution"
+    }
+  ],
+  "subject": "english",
+  "theme": "zoo",
+  "storyArc": {
+    "theme": "An English explorer masters new words, one story at a time",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let us explore English together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A playful challenge appears that needs the new skill",
+        "mascotDialogue": "Here comes a challenge — can you work it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The tasks grow trickier as understanding deepens",
+        "mascotDialogue": "You are getting stronger! Try these!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest test of the new skill",
+        "mascotDialogue": "This is the big one! Show me what you learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "Mastery shown and celebrated",
+        "mascotDialogue": "Amazing! You have mastered this!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Naming Word Shelf",
+    "totalPieces": 8
+  }
+}

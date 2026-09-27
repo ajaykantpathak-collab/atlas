@@ -11,6 +11,7 @@
  */
 
 import { useQuery, useMutation, useQueryClient, MutationFunction, QueryFunction, QueryKey } from "@tanstack/react-query";
+import { getAuthToken } from "@/lib/api";
 
 /* =========================================================================
    1. DOMAIN TYPES
@@ -134,6 +135,20 @@ export interface ClassPerformance {
   }>;
 }
 
+/** Real per-student mastery/practice numbers behind a class. */
+export interface StudentProgress {
+  studentId: string;
+  name: string;
+  /** Average mastery % from the student's real mastery records; null = no data yet. */
+  mastery: number | null;
+  /** Recorded practice answers (all time). */
+  practiceAttempts: number;
+  /** Recorded correct practice answers. */
+  practiceCorrect: number;
+  /** ISO timestamp of the last recorded practice activity; null = none. */
+  lastActivityAt: string | null;
+}
+
 /** Aggregate class progress over time. */
 export interface ClassProgress {
   classId: string;
@@ -142,10 +157,22 @@ export interface ClassProgress {
   totalWorksheetsCompleted: number;
   overallCompletionRate: number;
   averageScore: number;
+  /** False = the class has no recorded engagement yet (honest empty state). */
+  hasData: boolean;
+  /** Class-wide average mastery % from real mastery records; null = none recorded. */
+  averageMastery: number | null;
+  /** Total recorded practice answers across the class. */
+  practiceAttempts: number;
+  /** Total recorded correct practice answers across the class. */
+  practiceCorrect: number;
+  /** Real per-student mastery/practice numbers. */
+  students: StudentProgress[];
+  /** Weekly buckets built ONLY from real practice events (empty = no data). */
   trend: Array<{
     date: string;
-    completionRate: number;
-    averageScore: number;
+    attempts: number;
+    /** % correct across that week's real practice attempts. */
+    accuracy: number;
   }>;
   subjectBreakdown: Array<{
     subject: string;
@@ -229,11 +256,12 @@ async function apiFetch<T>(
   const baseUrl = (process.env.NEXT_PUBLIC_API_URL ?? "").replace(/\/$/, "");
   const url = `${baseUrl}/api${endpoint}`;
 
-  const token =
-    typeof window !== "undefined"
-      ? localStorage.getItem("token") ||
-        localStorage.getItem("auth_token")
-      : null;
+  // getAuthToken tolerates every auth key the app writes (studentStore's
+  // 'token', legacy 'auth_token', AND the authStore's zustand 'dream-auth'
+  // store that the /login form writes). Without the dream-auth fallback a
+  // teacher who logged in through the UI sent NO bearer header and every
+  // staff-guarded /api/teacher/* call 401'd.
+  const token = getAuthToken();
 
   const headers: HeadersInit = {
     "Content-Type": "application/json",

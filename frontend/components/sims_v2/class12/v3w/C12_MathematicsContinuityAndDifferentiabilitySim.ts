@@ -16,7 +16,7 @@ export const w_c12_mathematicscontinuityanddifferentiabilitysim: SimDef = {
     discovery: {
         question: 'Compare the continuity of \\(f(x) = |x|\\) and \\(g(x) = \\frac{1}{|x|}\\) at \\(x=0\\). Why does the algebra of continuous functions give different conclusions?',
         options: ['Correct answer: \\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)', '\\(1/|x|\\) is discontinuous at 0', 'not continuous'],
-        answer: 'Correct answer: \\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)',
+        answer: '\\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)',
         hook: 'Students often believe that if \\(f\\) and \\(g\\) are continuous, then \\(\\frac{f}{g}\\) is continuous **everywhere** \\(f\\).',
     },
     teaching: [
@@ -114,7 +114,7 @@ export const w_c12_mathematicscontinuityanddifferentiabilitysim: SimDef = {
           hint: 'If stuck, revisit Class 11 Limits: Algebraic Methods of Evaluation (c11_math_cbse_13_002).',
           misconception: 'Students often compute LHL and RHL correctly but forget to evaluate \\( f(c) \\) from the *correct piece* of the.',
           parts: [
-                { id: 'a', prompt: 'State the precise mathematical condition for a function \\( f \\) to be continuous at \\( x = c \\) using left-hand limit, right-hand limit, and function value.', answer: 'Correct answer: \\( \\lim_{x \\to c^-} f(x) = \\lim_{x \\to c^+} f(x) = f(c) \\)',
+                { id: 'a', prompt: 'State the precise mathematical condition for a function \\( f \\) to be continuous at \\( x = c \\) using left-hand limit, right-hand limit, and function value.', answer: '\\( \\lim_{x \\to c^-} f(x) = \\lim_{x \\to c^+} f(x) = f(c) \\)',
                   options: ['Correct answer: \\( \\lim_{x \\to c^-} f(x) = \\lim_{x \\to c^+} f(x) = f(c) \\)', 'LHL = RHL'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often compute LHL and RHL correctly but forget to evaluate \\( f(c) \\) from the *correct piece* of the definition.' }
@@ -125,15 +125,15 @@ export const w_c12_mathematicscontinuityanddifferentiabilitysim: SimDef = {
           hint: 'Revisit c11_math_cbse_13_002 (algebra of limits) and c12_math_cbse_05_001 (continuity.',
           misconception: 'Students often believe that if \\(f\\) and \\(g\\) are continuous, then \\(\\frac{f}{g}\\) is continuous **everywhere** \\(f\\).',
           parts: [
-                { id: 'a', prompt: 'Explain why the function \\(h(x) = \\sin(x^2)\\) is continuous for all real \\(x\\) using the composition theorem.', answer: 'Correct answer: Let \\(g(x)=x^2\\) (inner) and \\(f(u)=\\sin u\\) (outer)',
+                { id: 'a', prompt: 'Explain why the function \\(h(x) = \\sin(x^2)\\) is continuous for all real \\(x\\) using the composition theorem.', answer: 'Let \\(g(x)=x^2\\) (inner) and \\(f(u)=\\sin u\\) (outer)',
                   options: ['Correct answer: Let \\(g(x)=x^2\\) (inner) and \\(f(u)=\\sin u\\) (outer)', 'both are continuous'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that if \\(f\\) and \\(g\\) are continuous, then \\(\\frac{f}{g}\\) is continuous **everywhere** \\(f\\) and \\(g\\) are.' },
-                { id: 'b', prompt: 'Determine whether the function \\(F(x) = \\frac{x^2 - 4}{x - 2}\\) is continuous at \\(x = 2\\). If not, can you redefine \\(F(2)\\) to make it continuous?', answer: 'Correct answer: \\(F(x) = \\frac{(x-2)(x+2)}{x-2} = x+2\\) for \\(x \\neq 2\\)',
+                { id: 'b', prompt: 'Determine whether the function \\(F(x) = \\frac{x^2 - 4}{x - 2}\\) is continuous at \\(x = 2\\). If not, can you redefine \\(F(2)\\) to make it continuous?', answer: '\\(F(x) = \\frac{(x-2)(x+2)}{x-2} = x+2\\) for \\(x \\neq 2\\)',
                   options: ['Correct answer: \\(F(x) = \\frac{(x-2)(x+2)}{x-2} = x+2\\) for \\(x \\neq 2\\)', '\\(F\\) is continuous'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that if \\(f\\) and \\(g\\) are continuous, then \\(\\frac{f}{g}\\) is continuous **everywhere** \\(f\\) and \\(g\\) are.' },
-                { id: 'c', prompt: 'Compare the continuity of \\(f(x) = |x|\\) and \\(g(x) = \\frac{1}{|x|}\\) at \\(x=0\\). Why does the algebra of continuous functions give different conclusions?', answer: 'Correct answer: \\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)',
+                { id: 'c', prompt: 'Compare the continuity of \\(f(x) = |x|\\) and \\(g(x) = \\frac{1}{|x|}\\) at \\(x=0\\). Why does the algebra of continuous functions give different conclusions?', answer: '\\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)',
                   options: ['Correct answer: \\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)', '\\(1/|x|\\) is discontinuous at 0', 'not continuous'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that if \\(f\\) and \\(g\\) are continuous, then \\(\\frac{f}{g}\\) is continuous **everywhere** \\(f\\) and \\(g\\) are.' }

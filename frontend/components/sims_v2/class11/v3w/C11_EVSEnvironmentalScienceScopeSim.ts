@@ -163,7 +163,7 @@ export const w_c11_evsenvironmentalsciencescopesim: SimDef = {
                   options: ['Correct answer with steps: 1', 'dam height', 'power generation'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "integration" means geography *borrows* facts from other sciences (e.g., "geography uses geology for rocks, economics.' },
-                { id: 'b', prompt: 'Compare the 2015 Chennai floods and the 2022 Bengaluru floods.', answer: 'Correct answer: Chennai\'s flat coastal plain with natural backwater channels',
+                { id: 'b', prompt: 'Compare the 2015 Chennai floods and the 2022 Bengaluru floods.', answer: 'Chennai\'s flat coastal plain with natural backwater channels',
                   options: ['Correct answer: Chennai\'s flat coastal plain with natural backwater channels', 'climate change', 'poor drainage'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "integration" means geography *borrows* facts from other sciences (e.g., "geography uses geology for rocks, economics.' }
@@ -178,7 +178,7 @@ export const w_c11_evsenvironmentalsciencescopesim: SimDef = {
                   options: ['Correct answer with justification: The statement is partially true regarding', 'integration', 'geography uses geology for rocks, economics for trade', '"integration" means geography *borrows* facts from other sciences (e'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "integration" means geography *borrows* facts from other sciences (e.g., "geography uses geology for rocks, economics.' },
-                { id: 'b', prompt: 'Compare the 2015 Chennai floods and the 2022 Bengaluru floods.', answer: 'Correct answer: Chennai\'s flat coastal plain with natural backwater channels',
+                { id: 'b', prompt: 'Compare the 2015 Chennai floods and the 2022 Bengaluru floods.', answer: 'Chennai\'s flat coastal plain with natural backwater channels',
                   options: ['Correct answer: Chennai\'s flat coastal plain with natural backwater channels', 'climate change', 'poor drainage', 'integration'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "integration" means geography *borrows* facts from other sciences (e.g., "geography uses geology for rocks, economics.' }

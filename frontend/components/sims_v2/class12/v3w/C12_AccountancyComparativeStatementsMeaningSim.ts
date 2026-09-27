@@ -151,7 +151,7 @@ export const w_c12_accountancycomparativestatementsmeaningsim: SimDef = {
           hint: 'If stuck, revisit Class 11 nodes c11_acc_cbse_02_003 (Money Measurement Concept) and.',
           misconception: 'Students often think "limitations of financial statement analysis" means "limitations of ratio formulas" (e.g., current.',
           parts: [
-                { id: 'a', prompt: 'Compare and contrast the limitations "Ignores Price-level Changes" and "Variations in Accounting Practices" in terms of their impact on (a) intra-firm.', answer: 'Correct answer: (a) Price-level changes primarily distort intra-firm analysis',
+                { id: 'a', prompt: 'Compare and contrast the limitations "Ignores Price-level Changes" and "Variations in Accounting Practices" in terms of their impact on (a) intra-firm.', answer: '(a) Price-level changes primarily distort intra-firm analysis',
                   options: ['Correct answer: (a) Price-level changes primarily distort intra-firm analysis', 'limitations of financial statement analysis', 'limitations of ratio formulas'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "limitations of financial statement analysis" means "limitations of ratio formulas" (e.g., current ratio doesn\'t.' }
@@ -162,11 +162,11 @@ export const w_c12_accountancycomparativestatementsmeaningsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think "limitations of financial statement analysis" means "limitations of ratio formulas" (e.g., current.',
           parts: [
-                { id: 'a', prompt: 'Critique the statement: "Since ratio analysis has so many limitations, management should stop using ratios and rely only on qualitative judgment for.', answer: 'Correct answer: The statement is flawed',
+                { id: 'a', prompt: 'Critique the statement: "Since ratio analysis has so many limitations, management should stop using ratios and rely only on qualitative judgment for.', answer: 'The statement is flawed',
                   options: ['Correct answer: The statement is flawed', 'limitations of financial statement analysis', 'limitations of ratio formulas'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "limitations of financial statement analysis" means "limitations of ratio formulas" (e.g., current ratio doesn\'t.' },
-                { id: 'b', prompt: 'Compare and contrast the limitations "Ignores Price-level Changes" and "Variations in Accounting Practices" in terms of their impact on (a) intra-firm.', answer: 'Correct answer: (a) Price-level changes primarily distort intra-firm analysis',
+                { id: 'b', prompt: 'Compare and contrast the limitations "Ignores Price-level Changes" and "Variations in Accounting Practices" in terms of their impact on (a) intra-firm.', answer: '(a) Price-level changes primarily distort intra-firm analysis',
                   options: ['Correct answer: (a) Price-level changes primarily distort intra-firm analysis', 'limitations of financial statement analysis', 'limitations of ratio formulas'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "limitations of financial statement analysis" means "limitations of ratio formulas" (e.g., current ratio doesn\'t.' }

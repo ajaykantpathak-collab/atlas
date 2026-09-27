@@ -14,7 +14,7 @@ export const c12_cs_ch11_p2: SimDef = {
     scenario: { role: 'Python developer', intro: 'Lists, tuples, sets, dicts — Python\'s containers each keep order, safety or speed. Learn which does what.', goal: 'Master Python\'s built-in data structures: indexing, slicing, mutability and the operations that trip up beginners.' },
     discovery: {
         question: 'A student writes total = scores * 3 expecting 759 from [85, 90, 78]. Python happily returns something — but not a number. What did it build?',
-        options: ['[85, 90, 78, 85, 90, 78, 85, 90, 78] — * on a list repeats the sequence, it doesn\'t multiply the values', '759 anyway', '[255, 270, 234] — it multiplies each element', 'An error — you can\'t multiply a list'],
+        options: ['[85, 90, 78, 85, 90, 78, 85, 90, 78] — * on a list repeats the sequence, it doesn\'t multiply the values', '759 anyway — Python applies * to any sequence like plain multiplication', '[255, 270, 234] — * distributes element-wise the way a NumPy array would', 'TypeError — multiplying a list by an integer is illegal syntax'],
         answer: '[85, 90, 78, 85, 90, 78, 85, 90, 78] — * on a list repeats the sequence, it doesn\'t multiply the values',
         hook: 'Lists obey sequence algebra, not arithmetic: + concatenates into a new list while extend() mutates in place, and * repeats. Add mutable vs immutable — my_list[1]=99 works but my_str[1]=\'x\' raises TypeError — and you have the chapter\'s three classic traps.',
     },

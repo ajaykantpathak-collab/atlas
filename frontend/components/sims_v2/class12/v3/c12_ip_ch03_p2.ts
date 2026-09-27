@@ -14,7 +14,7 @@ export const c12_ip_ch03_p2: SimDef = {
     scenario: { role: 'Network planner', intro: 'Fifty computers, one printer, one internet line — the network is the agreement that lets them share.', goal: 'Define a network by function — nodes, links, protocols, and resource sharing over mere connection.' },
     discovery: {
         question: 'Two laptops joined by one Ethernet cable — is that a network? Not until something invisible agrees to the conversation. What\'s missing?',
-        options: ['Protocols and configuration — addressing, TCP/IP, sharing services; the cable is only the medium, the rules make it a network', 'A bigger cable', 'Internet', 'A password'],
+        options: ['Protocols and configuration — addressing, TCP/IP, sharing services; the cable is only the medium, the rules make it a network', 'A faster cable — two nodes need real bandwidth before they can exchange data', 'Internet access — a link is not a network until it can reach the web', 'A shared password — security credentials are what authorise the connection'],
         answer: 'Protocols and configuration — addressing, TCP/IP, sharing services; the cable is only the medium, the rules make it a network',
         hook: 'A network is defined by function, not wires — one printer serving thirty PCs is the purpose made visible. And \'network\' vs \'distributed system\' is the transparency line: in a network you know there are many machines; a distributed system hides them behind one face.',
     },

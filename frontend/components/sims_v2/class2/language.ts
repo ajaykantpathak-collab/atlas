@@ -27,7 +27,8 @@ export const c2EngDescribing: SimDef = {
         { title: 'Before the Name 🏷️', text: 'Describing words come BEFORE the naming word: "a TALL tree" — tall describes the tree!', emoji: '🏷️', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Compare! ⚖️', text: 'Some words compare: big, bigger, biggest! Tall, taller, tallest!', emoji: '⚖️', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match the describing word!', labels: ['big', 'elephant', 'small', 'ant', 'sweet', 'mango'] },
+challenges: [
         { type: 'mcq', question: 'Which is a DESCRIBING word in "The red ball"?', answer: 'red', options: ['the', 'red', 'ball'],
           hint: 'Which word tells HOW the ball is?', misconception: '"Red" describes the ball\'s colour — it is the describing word!',
           workedExample: ['Find the word that describes.', '"Red" tells the colour.', 'Describing word: red.'] },
@@ -73,7 +74,8 @@ export const c2EngPronoun: SimDef = {
         { title: 'It for Things 📦', text: 'It = a thing or animal (when we do not say he/she). "The ball is round. IT is round."', emoji: '📦', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'They for Many 👥', text: 'They = more than one. "The children play. THEY play."', emoji: '👥', bgColor: 'from-amber-400 to-orange-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match to the right pronoun!', labels: ['a girl', 'she', 'a boy', 'he', 'a dog', 'it'] },
+challenges: [
         { type: 'mcq', question: '"Sita is my friend. ___ is kind." Which word fills the blank?', answer: 'She', options: ['He', 'She', 'It'],
           hint: 'Sita is a girl!', misconception: 'Sita is a girl — "she" replaces her name!',
           workedExample: ['Sita = girl.', 'Girl → she.', '"She is kind."'] },
@@ -121,7 +123,8 @@ export const c2EngPunct: SimDef = {
         { title: 'Question Mark ? ', text: 'A question ends with a QUESTION MARK (?) — "What is your name?" The hook shape asks a question!', emoji: '❓', bgColor: 'from-sky-400 to-blue-500' },
         { title: 'The Comma , ', text: 'A comma is a small pause — like a yellow light: "I like apples, bananas, and mangoes."', emoji: '🟡', bgColor: 'from-emerald-400 to-teal-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match the mark to its job!', labels: ['full stop .', 'ends a sentence', 'question ?', 'asks a question', 'capital A', 'starts a sentence'] },
+challenges: [
         { type: 'mcq', question: 'Which sentence is written correctly?', answer: 'The cat is fat.', options: ['the cat is fat', 'The cat is fat.', 'the cat is fat.'],
           hint: 'Start with a capital, end with a full stop!', misconception: 'Sentences need a capital at the start AND a full stop at the end!',
           workedExample: ['Check the start — capital T?', 'Check the end — full stop?', 'Both needed!'] },
@@ -159,7 +162,8 @@ export const c2EngSentence: SimDef = {
         { title: 'Who + Does What 🏃', text: 'Every sentence tells WHO + WHAT THEY DO: "The bird sings." Who? The bird. Does what? Sings!', emoji: '🏃', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Order Matters! 🔢', text: '"The cat chased the mouse" and "The mouse chased the cat" — same words, different order, different meaning!', emoji: '🔢', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'order', prompt: 'Order the words into a sentence!', labels: ['The', 'sun', 'shines', 'bright'] },
+challenges: [
         { type: 'order', question: 'Put the words in order to make a sentence!', options: [],
           sortItems: [
             { id: 'w1', label: 'The dog', emoji: '🐕', correctBin: 's1' },
@@ -205,7 +209,8 @@ export const c2HinMatra: SimDef = {
         { title: 'Matras Make Words 🧱', text: 'न + ा = ना, म + ा = मा. Matras turn letters into real words!', emoji: '🧱', bgColor: 'from-sky-400 to-blue-500' },
         { title: 'Where Do They Sit? 📍', text: 'Some matras go after (ा, ी), some before (ि), some below (ु, ू). Each has its own place!', emoji: '📍', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'trace', prompt: 'Trace it!', labels: ['का'] },
+challenges: [
         { type: 'mcq', question: 'क + ा = ?', answer: 'का', options: ['कि', 'का', 'कु'],
           hint: 'ा makes the "aa" sound!', misconception: 'ा is the "aa" matra — क + ा = का!',
           workedExample: ['Find the matra: ा.', 'ा = aa sound.', 'का.'] },
@@ -221,6 +226,11 @@ export const c2HinMatra: SimDef = {
         { type: 'mcq', question: 'सीता has which matra?', answer: 'ी', options: ['ि', 'ी', 'ु'],
           hint: 'See-taa — long ee!', misconception: 'सीता has ी (long ee) and ा (aa)!',
           workedExample: ['Read सीता.', 'Long ee = ी.', 'Answer: ी.'] },
+        { type: 'interact', question: "का लिखो!", options: [],
+          interactGoal: { instruction: 'का लिखो!', widget: 'trace', validate: 'trace:score>60', labels: ['का'] },
+          hint: 'Take your time!', misconception: 'Practice makes the shape stick!',
+          workedExample: ['Watch the guide.', 'Trace carefully.', 'Try again if needed.'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'मात्रा स्टार! ⭐', tryAgainLine: 'मात्रा को धीरे बोलो!',
@@ -243,7 +253,8 @@ export const c2HinWords: SimDef = {
         { title: 'Simple Words First 🌱', text: 'Start with small words: घर (home), फल (fruit), दाल (dal). Small words first — then longer ones like मछली (fish)!', emoji: '🌱', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Word Families 👨‍👩‍👧', text: 'Words that rhyme are family: बात, रात, जात — all end in "आत"!', emoji: '👨‍👩‍👧', bgColor: 'from-sky-400 to-blue-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'शब्द मिलाओ!', labels: ['माँ', 'mother', 'घर', 'home', 'फल', 'fruit'] },
+challenges: [
         { type: 'mcq', question: 'रात, बात, जात — these words are a family because they...', answer: 'All end in "आत"', options: ['All start with र', 'All end in "आत"', 'All are 4 letters'],
           hint: 'Listen to the ending sound!', misconception: 'They all end in "आत" — same ending = word family!',
           workedExample: ['Say each word.', 'Ending sound: आत.', 'Same ending = family.'] },

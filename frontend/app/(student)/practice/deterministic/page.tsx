@@ -13,7 +13,7 @@ import { motion } from 'framer-motion';
 import { subjectName } from '@/lib/nodeTitle';
 
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001';
+  process.env.NEXT_PUBLIC_API_URL || '';
 
 // ─── Atlas palette (matches /practice) ───────────────────────────
 

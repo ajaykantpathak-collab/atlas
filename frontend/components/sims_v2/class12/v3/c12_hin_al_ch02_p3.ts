@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_al_ch02_p3: SimDef = {
     id: 'v3_c12_hin_al_ch02_p3',
-    title: 'fcLdksgj dh ekVh · Part 3/3',
+    title: 'बस्किोहर की माटी · Part 3/3',
     subtitle: 'One clay bowl holding a whole childhood',
-    classLevel: 12, subject: 'hin_al', topic: 'fcLdksgj dh ekVh · Part 3/3',
+    classLevel: 12, subject: 'hin_al', topic: 'बस्किोहर की माटी · Part 3/3',
     chapters: ['c12_hin_al_ch02'],
     nodeIds: ['c12_hin_al_cbse_02_013', 'c12_hin_al_cbse_02_014', 'c12_hin_al_cbse_02_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,29 +19,15 @@ export const c12_hin_al_ch02_p3: SimDef = {
         hook: 'Don\'t read it as a diary — it\'s craft: the potter\'s wheel, the mother\'s hands, the smell of wet earth chosen to carry loss and a vanishing craft. Genre is the message; biography alone is just a record.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the disciplined process of examining a literary text beyond its literal meaning to uncover underlying themes, evaluate authorial choices, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बस्किोहर की माटी — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह प्रक्रिया है जिसमें पाठ के तत्वों (पात्र, विषय, साहित्यिक युक्तियाँ, संरचना) को व्यवस्थित रूप से तोड़कर उनके बीच के संबंधों की पहचान की जाती है और उनके आधार.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_al_cbse_02_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Step into the potter\'s village at first light: weigh how genre shapes memory, trace the mother-child bond through small acts, and read the wheel as a disappearing world.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['बस्किोहर की माटी —'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_al_cbse_02_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit in the exam hall and see: "Analyze how the author uses sensory imagery to recreate the village atmosphere in \'fcLdksgj dh ekVh\'." Your mind.',
-            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing structured answers for literature?', options: [
-                { text: 'PEEL stands for **Point, Evidence, Explanation, Link**', outcome: 'PEEL stands for **Point, Evidence, Explanation, Link**. A wrong answer (e.g., "Paragraph, Example.' },
-                { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — **"Good writing means using difficult Hindi words (tatsam/shuddh) and long sentences."** Students.', reveals: 'good-writing-means-using-difficult' },
-                { text: 'formal register', outcome: 'Not quite — **"Good writing means using difficult Hindi words (tatsam/shuddh) and long sentences."** Students.', reveals: 'good-writing-means-using-difficult' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_al_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a literature circle where your group must discuss: "How does the author\'s portrayal of his mother reflect the changing role of women.',
-            decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a Class 12 Hindi speaking and listening assessment?', options: [
-                { text: 'A discussion point is an open-ended, text-anchored prompt designed to initiate analytical', outcome: 'A discussion point is an open-ended, text-anchored prompt designed to initiate analytical dialogue.' },
-                { text: 'to test if students remember the plot', outcome: 'Not quite — Students believe "discussion" means taking turns stating opinions ("I feel the mother was strong").', reveals: 'discussion-means-taking-turns-stating' },
-                { text: 'discussion', outcome: 'Not quite — Students believe "discussion" means taking turns stating opinions ("I feel the mother was strong").', reveals: 'discussion-means-taking-turns-stating' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_al_cbse_02_013', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re editing a college-magazine memoir about the writer\'s grandmother in a potters\' village. The draft is a flat factual list — born here, made pots, died there — and the writer insists \'it\'s autobiographical, so it must record everything exactly.\'',
             decisions: [{ prompt: 'What does the रेखाचित्र (sketch) genre of Ashk\'s \'फुलचंद की एकवह\' teach the edit?', options: [
@@ -61,57 +47,38 @@ export const c12_hin_al_ch02_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_02_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the disciplined process.',
-          hint: 'If stuck, re-read the opening paragraph of the NCERT text ("ikB ifjp;") which explicitly.',
-          misconception: 'Students treat "fcLdksgj dh ekVh" as a straightforward nostalgic memoir where the author *recovers* her past.',
+          question: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह प्रक्रिया है जिसमें पाठ के तत्वों.',
+          hint: 'यदि छात्र प्रतीकों के बदलते अर्थ को समझने में कठिनाई महसूस कर रहा है, तो उसे.',
+          misconception: 'बस्किोहर की माटी के आलोचनात्मक विश्लेषण में छात्र अक्सर यह मान लेते हैं कि यदि एक प्रतीक (जैसे माटी या दरवाज़ा) एक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation is the disciplined process of examining a',
-                  options: ['Critical Thinking: Analysis and Interpretation is the disciplined process of examining a', '"Before You Read: Context and Background" for Chapter 2 (फुलचंद की एकवह) prepares', 'Plot refers to the sequence of events that make up a story, while narrative structure is', 'Setting refers to the time, place, and physical environment in'],
-                  hint: 'If stuck, re-read the opening paragraph of the NCERT text ("ikB ifjp;") which explicitly states.',
-                  misconception: 'Students treat "fcLdksgj dh ekVh" as a straightforward nostalgic memoir where the author *recovers* her past.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह प्रक्रिया है जिसमें पाठ के तत्वों (पात्र, विषय,',
+                  options: ['आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह प्रक्रिया है जिसमें पाठ के तत्वों (पात्र, विषय,', 'बस्किोहर की माटी के पृष्ठभूमि और रचनाकार परिचय में लेखक रामधारी सिंह दिनकर के व्यक्तिगत,', 'कथानक (Plot) किसी कहानी की मुख्य घटनाओं का अनुक्रमिक विकास है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण से तात्पर्य उस भौगोलिक, सामाजिक, सांस्कृतिक एवं प्राकृतिक'],
+                  hint: 'यदि छात्र प्रतीकों के बदलते अर्थ को समझने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_al_cbse_02_008.',
+                  misconception: 'बस्किोहर की माटी के आलोचनात्मक विश्लेषण में छात्र अक्सर यह मान लेते हैं कि यदि एक प्रतीक (जैसे माटी या दरवाज़ा) एक स्थान पर स्पष्ट अर्थ.' }
           ],
-            remediations: { 'students-treat-fcldksgj-dh-ekvh': { steps: ['If a student cannot distinguish the narrator\'s construction from the character\'s reality: Step 1 — Have them highlight.', 'Step 2 — Ask: "Who knows Phuluk\'s mother\'s grief — the child or the adult?" (Answer: The adult imposes the.', 'Step 3 — Assign a micro-writing task: Rewrite the turmeric-mark episode *only* from the child\'s limited perspective (no.', 'Step 4 — Compare both versions.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['इस misconception को ठीक करने के लिए, छात्र को कहानी के तीन अलग-अलग क्षणों (शुरू, मध्य, अंत) में उसी प्रतीक (जैसे माटी).', 'उसके आसपास की सामाजिक स्थिति क्या है?" फिर इन तीन अर्थों की तुलना करके दिखाइए कि कैसे एक ही वस्तु अलग-अलग संदर्भों में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_02_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to construct.',
-          hint: 'If stuck on Evidence: Revisit **c12_hin_al_cbse_02_012 (Comprehension)** and.',
-          misconception: '**"Good writing means using difficult Hindi words (tatsam/shuddh) and long sentences."** Students believe board.',
+          question: 'लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें छात्र दिए गए गद्य या poesía पाठ का.',
+          hint: 'यदि छात्र साक्ष्य का चयन करने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_al_cbse_02_002.',
+          misconception: 'छात्र अक्सर मानते हैं कि पाठ आधारित उत्तर लिखने में लंबा लिखना ही गुणवत्ता का मापदंड है — वे अनावश्यक विवरण, दोहराव या.',
           parts: [
-                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing structured answers for literature?', answer: 'PEEL stands for **Point, Evidence, Explanation, Link**',
-                  options: ['PEEL stands for **Point, Evidence, Explanation, Link**', 'Paragraph, Example, Explain, Line', 'formal register', 'Sanskritized vocabulary'],
-                  hint: 'If stuck on Evidence: Revisit **c12_hin_al_cbse_02_012 (Comprehension)** and.',
-                  misconception: '**"Good writing means using difficult Hindi words (tatsam/shuddh) and long sentences."** Students believe board examiners reward ornamental.' },
-                { id: 'b', prompt: 'A student writes: "The author describes many smells in the village like curd and cow dung.', answer: 'The **Explanation** step is missing (and Link is weak)',
-                  options: ['The **Explanation** step is missing (and Link is weak)', 'retelling', 'analyzing', 'formal register'],
-                  hint: 'If stuck on Evidence: Revisit **c12_hin_al_cbse_02_012 (Comprehension)** and.',
-                  misconception: '**"Good writing means using difficult Hindi words (tatsam/shuddh) and long sentences."** Students believe board examiners reward ornamental.' },
-                { id: 'c', prompt: 'Compare two answer openings for the question "Discuss the significance of the *iwQy* (sounds) in the chapter." Opening A: "There are many sounds in the chapter.', answer: 'Opening B demonstrates **analysis** (Bloom\'s level 4) by identifying a *pattern*',
-                  options: ['Opening B demonstrates **analysis** (Bloom\'s level 4) by identifying a *pattern*', 'formal register', 'Sanskritized vocabulary', 'board examiners reward ornamental vocabulary'],
-                  hint: 'If stuck on Evidence: Revisit **c12_hin_al_cbse_02_012 (Comprehension)** and.',
-                  misconception: '**"Good writing means using difficult Hindi words (tatsam/shuddh) and long sentences."** Students believe board examiners reward ornamental.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें छात्र दिए गए गद्य या poesía पाठ का विश्लेषण',
+                  options: ['लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें छात्र दिए गए गद्य या poesía पाठ का विश्लेषण', 'बस्किोहर की माटी के पृष्ठभूमि और रचनाकार परिचय में लेखक रामधारी सिंह दिनकर के व्यक्तिगत,', 'कथानक (Plot) किसी कहानी की मुख्य घटनाओं का अनुक्रमिक विकास है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण से तात्पर्य उस भौगोलिक, सामाजिक, सांस्कृतिक एवं प्राकृतिक'],
+                  hint: 'यदि छात्र साक्ष्य का चयन करने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_al_cbse_02_002 (कथानक और.',
+                  misconception: 'छात्र अक्सर मानते हैं कि पाठ आधारित उत्तर लिखने में लंबा लिखना ही गुणवत्ता का मापदंड है — वे अनावश्यक विवरण, दोहराव या सामान्य ज्ञान की.' }
           ],
-            remediations: { 'good-writing-means-using-difficult': { steps: ['**Identify the gap:** Ask the student to write a 50-word answer to "Describe the narrator\'s mother." Time them (5 mins).', '**Diagnose:** If the answer is a list of adjectives ("kind, loving, hardworking") → they lack **Evidence/Explanation**.', 'If it\'s a story summary → they lack **Point/Link**.', '**Remediate:** Give a model PEEL paragraph for the same question.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_al_cbse_02_014', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: '**"Good writing means using difficult Hindi words (tatsam/shuddh) and long sentences."** Students believe board.',
-          parts: [
-                { id: 'a', prompt: 'Create a 50-word diary entry dated the night *fclukFk* dies, written from the narrator\'s perspective as an adult looking back.', answer: '*Night, 19XX',
-                  options: ['*Night, 19XX', 'formal register', 'Sanskritized vocabulary', 'board examiners reward ornamental vocabulary'],
-                  hint: 'If stuck on Evidence: Revisit **c12_hin_al_cbse_02_012 (Comprehension)** and.',
-                  misconception: '**"Good writing means using difficult Hindi words (tatsam/shuddh) and long sentences."** Students believe board examiners reward ornamental.' }
-          ],
-            remediations: { 'good-writing-means-using-difficult': { steps: ['**Identify the gap:** Ask the student to write a 50-word answer to "Describe the narrator\'s mother." Time them (5 mins).', '**Diagnose:** If the answer is a list of adjectives ("kind, loving, hardworking") → they lack **Evidence/Explanation**.', 'If it\'s a story summary → they lack **Point/Link**.', '**Remediate:** Give a model PEEL paragraph for the same question.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र लंबाई को गुणवत्ता से जोड़ने की गलती कर रहा है, तो उसे इस प्रकार सुधारें: पहले उसे दो उत्तर दिखाएँ — एक लंबा.', 'संबंध?) के आधार पर काटे-छांटे और केवल आवश्यक तत्व रखे। इस प्रक्रिया को दोहराने से वह सीखेगा कि क्या रखना है और क्या.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points are structured conversation prompts.',
-          hint: 'If stuck, revisit c12_hin_al_cbse_02_013 (Critical Thinking) for analytical frameworks.',
-          misconception: 'Students believe "discussion" means taking turns stating opinions ("I feel the mother was strong") without textual.',
+          question: '**वाचन-श्रवण: चर्चा-बिंदु** एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें छात्र.',
+          hint: 'यदि पाठ का भाव स्पष्ट न हो, तो `c12_hin_al_cbse_02_002` (कथानक) और.',
+          misconception: '**विशिष्ट भ्रांति:** *"वाचन-श्रवण गतिविधि में \'चर्चा-बिंदु\' का मतलब है — शिक्षक प्रश्न पूछे, छात्र एक-लाइन उत्तर दे.',
           parts: [
-                { id: 'a', prompt: 'Compare the discussion potential of these two prompts: (A) "List the festivals mentioned in the chapter." (B) "How do the festivals of Holi and Diwali function.', answer: 'Prompt B is superior',
-                  options: ['Prompt B is superior', 'discussion', 'I feel the mother was strong'],
-                  hint: 'If stuck, revisit c12_hin_al_cbse_02_013 (Critical Thinking) for analytical frameworks and.',
-                  misconception: 'Students believe "discussion" means taking turns stating opinions ("I feel the mother was strong") without textual evidence or responding.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वाचन-श्रवण: चर्चा-बिंदु** एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें छात्र पाठ को',
+                  options: ['**वाचन-श्रवण: चर्चा-बिंदु** एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें छात्र पाठ को', 'बस्किोहर की माटी के पृष्ठभूमि और रचनाकार परिचय में लेखक रामधारी सिंह दिनकर के व्यक्तिगत,', 'कथानक (Plot) किसी कहानी की मुख्य घटनाओं का अनुक्रमिक विकास है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण से तात्पर्य उस भौगोलिक, सामाजिक, सांस्कृतिक एवं प्राकृतिक'],
+                  hint: 'यदि पाठ का भाव स्पष्ट न हो, तो `c12_hin_al_cbse_02_002` (कथानक) और `c12_hin_al_cbse_02_006` (मुख्य.',
+                  misconception: '**विशिष्ट भ्रांति:** *"वाचन-श्रवण गतिविधि में \'चर्चा-बिंदु\' का मतलब है — शिक्षक प्रश्न पूछे, छात्र एक-लाइन उत्तर दे दे।"* **क्यों गलत है:**.' }
           ],
-            remediations: { 'discussion-means-taking-turns-stating': { steps: ['If a student cannot move beyond opinion-sharing: (1) Give them a 2-column template: "Textual Evidence (quote/para ref)".', '(2) Practice with a 3-minute "Evidence-Only" rule: every speaker must open with "On page X, the author writes...".', '(3) Model active listening: after a peer speaks, the next student *must* start with "Adding to [Name]\'s point about...".', 'Re-assess using a peer-feedback checklist focused on these two behaviors.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**लक्षित उपचार (3-चरणीय):** 1.', '**मॉडल वाचन सुनो:** शिक्षक/रिकॉर्डिंग से पाठ का 1 मिनट का अंश सुनो — **उच्चारण, बल, विराम, भाव** पर ध्यान दो। फिर स्वयं.', '**सक्रिय श्रवण अभ्यास:** साथी को पढ़ते सुनते समय **किनारे पर 3 प्रश्न लिखो** (क्या?', 'कैसे?) — फिर उससे पूछो। इससे श्रवण \'सक्रिय\' बनेगा। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

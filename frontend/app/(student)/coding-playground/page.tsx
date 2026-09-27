@@ -119,32 +119,53 @@ export default function CodingPlaygroundPage() {
     setShowHint(false)
   }
 
+  const [solvedIds, setSolvedIds] = useState<Set<string>>(new Set())
+
+  // Static verification — no interpreter exists in the app, so "Run Code"
+  // honestly checks that the submission contains the constructs the
+  // solution requires (signature + core logic tokens), not Math.random().
+  const requiredTokens = (solution: string): string[] => {
+    const tokens = new Set<string>()
+    for (const line of solution.split('\n')) {
+      const t = line.trim()
+      const fn = t.match(/def\s+([a-zA-Z_]\w*)/)
+      if (fn) tokens.add(`def ${fn[1]}`)
+      for (const m of t.matchAll(/(return|print|for|while|if|elif|else|len|range|%|==|\[::?-?\d*\])/g))
+        if (m[1].startsWith('[')) tokens.add('[::-1]')
+        else if (m[1] === '%') tokens.add('%')
+        else if (m[1] === '==') tokens.add('==')
+        else tokens.add(m[1])
+    }
+    // keep only meaningful constructs
+    return [...tokens].filter((t) => t.length > 1)
+  }
+
   const runCode = () => {
     setRunning(true)
     setOutput('')
     setTestResults([])
 
     setTimeout(() => {
-      // Mock execution
-      const results = selectedChallenge.testCases.map((tc) => {
-        const passed = Math.random() > 0.3 || code.includes(selectedChallenge.solution.split('\n')[0])
-        return {
-          passed,
-          message: passed
-            ? `Test case passed: input(${tc.input}) → output(${tc.expected})`
-            : `Test case failed: expected "${tc.expected}"`,
-        }
-      })
+      const normalized = code.replace(/\s+/g, ' ')
+      const required = requiredTokens(selectedChallenge.solution)
+      const missing = required.filter((t) => !normalized.includes(t))
 
+      const passed = missing.length === 0
+      const results = selectedChallenge.testCases.map((tc) => ({
+        passed,
+        message: passed
+          ? `Verified: input(${tc.input}) → expected(${tc.expected})`
+          : `Missing constructs: ${missing.slice(0, 4).join(', ')}`,
+      }))
       setTestResults(results)
-      const mockOutput = selectedChallenge.id === 'ch1' ? 'Hello, World!' :
-        selectedChallenge.id === 'ch2' ? '8' :
-        selectedChallenge.id === 'ch3' ? '1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n...' :
-        selectedChallenge.id === 'ch4' ? 'olleh' :
-        selectedChallenge.id === 'ch5' ? 'True' : '2'
-      setOutput(mockOutput)
+      setOutput(
+        passed
+          ? `Static check passed — your solution contains all required constructs.\nExpected output for test cases: ${selectedChallenge.testCases.map((t) => t.expected).join(', ')}`
+          : `Static check failed — add the missing constructs listed above.`
+      )
+      if (passed) setSolvedIds((prev) => new Set(prev).add(selectedChallenge.id))
       setRunning(false)
-    }, 1500)
+    }, 400)
   }
 
   const resetCode = () => {
@@ -167,10 +188,10 @@ export default function CodingPlaygroundPage() {
         </div>
         <div className="flex items-center gap-2">
           <span className="text-[10px] text-surface-600 flex items-center gap-1">
-            <Zap className="w-3 h-3 text-gold-300" /> 45 XP earned
+            <Zap className="w-3 h-3 text-gold-300" /> {challenges.filter((c) => solvedIds.has(c.id)).reduce((s, c) => s + c.xp, 0)} XP earned
           </span>
           <span className="text-[10px] text-surface-600 flex items-center gap-1">
-            <CheckCircle2 className="w-3 h-3 text-mint-300" /> 2/6 solved
+            <CheckCircle2 className="w-3 h-3 text-mint-300" /> {solvedIds.size}/{challenges.length} solved
           </span>
         </div>
       </div>
@@ -307,7 +328,7 @@ export default function CodingPlaygroundPage() {
                     </>
                   ) : (
                     <>
-                      <Play className="w-3 h-3" /> Run Code
+                      <Play className="w-3 h-3" /> Check Solution
                     </>
                   )}
                 </button>

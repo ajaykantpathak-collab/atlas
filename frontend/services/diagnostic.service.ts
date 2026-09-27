@@ -11,7 +11,7 @@ import {
 
 // ─── IndexedDB ─────────────────────────────────────────────────────────────
 import { openDB, type IDBPDatabase } from "idb";
-import { getAuthToken } from "@/lib/api";
+import { getAuthToken, refreshOn401 } from "@/lib/api";
 
 // ══════════════════════════════════════════════════════════════════════════════
 //  SECTION 1 — TYPES
@@ -47,6 +47,9 @@ export interface DiagnosticQuestion {
   explanation: string;
   explanationHi?: string;
   explanationEnHi?: string;
+  // Backing corpus node id — fetch param for the "I don't get it" hint;
+  // internal, never rendered as text.
+  nodeId?: string | null;
 }
 
 export type Subject =
@@ -58,7 +61,11 @@ export type Subject =
   | "EVS"
   | "Physics"
   | "Chemistry"
-  | "Biology";
+  | "Biology"
+  | "History"
+  | "Geography"
+  | "Economics"
+  | "Computer Science";
 
 export interface DiagnosticConfig {
   subjects: Subject[];
@@ -332,16 +339,30 @@ async function apiRequest<T>(
   options: RequestInit = {}
 ): Promise<T> {
   const url = `${API_BASE}${endpoint}`;
-  const token = typeof window !== "undefined" ? getAuthToken() : null;
 
-  const response = await fetch(url, {
-    ...options,
-    headers: {
-      "Content-Type": "application/json",
-      ...(token ? { Authorization: `Bearer ${token}` } : {}),
-      ...options.headers,
-    },
-  });
+  const doFetch = () => {
+    const token = typeof window !== "undefined" ? getAuthToken() : null;
+    return fetch(url, {
+      ...options,
+      headers: {
+        "Content-Type": "application/json",
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        ...options.headers,
+      },
+    });
+  };
+
+  let response = await doFetch();
+
+  // PLUMB (C8 audit [STUDENT-C8][P2 AUTH-UX]): the 30-minute access token
+  // used to expire mid-diagnostic — answers 1-7 recorded, then every call
+  // 401'd and the session was dead. On a 401, silently exchange the
+  // stored refresh token for a fresh pair (single-flight in lib/api) and
+  // retry the original request once before surfacing the failure.
+  if (response.status === 401) {
+    const refreshed = await refreshOn401();
+    if (refreshed) response = await doFetch();
+  }
 
   if (!response.ok) {
     const errorBody = await response.json().catch(() => ({}));

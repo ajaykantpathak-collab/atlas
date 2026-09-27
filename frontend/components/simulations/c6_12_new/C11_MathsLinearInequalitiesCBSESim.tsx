@@ -2200,8 +2200,8 @@ export function C11_MathsLinearInequalitiesCBSESim({
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <span className="font-bold text-cyan-400 block mb-1">Strict vs Slack Lines (2D)</span>
-                  Strict (&lt;, &gt;) ⟹ Dashed boundary line.
-                  Slack (&le;, &ge;) ⟹ Solid boundary line.
+                  Strict (&lt; &gt;) ⟹ Dashed boundary line.
+                  Slack (&le; &ge;) ⟹ Solid boundary line.
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <span className="font-bold text-cyan-400 block mb-1">Interval Notation</span>

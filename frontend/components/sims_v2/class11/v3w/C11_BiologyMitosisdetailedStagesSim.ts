@@ -158,15 +158,15 @@ export const w_c11_biologymitosisdetailedstagessim: SimDef = {
           hint: 'Revisit c11_bio_cbse_10_004 (anaphase-telophase) to confirm sister chromatid separation.',
           misconception: 'Students believe mitosis occurs in all living cells of an organism throughout life.',
           parts: [
-                { id: 'a', prompt: 'State the chromosome number and DNA content in daughter cells immediately after mitosis if the parent cell was diploid (2n) with 2C DNA content at G1.', answer: 'Correct answer: Daughter cells are diploid (2n) with 2C DNA content',
+                { id: 'a', prompt: 'State the chromosome number and DNA content in daughter cells immediately after mitosis if the parent cell was diploid (2n) with 2C DNA content at G1.', answer: 'Daughter cells are diploid (2n) with 2C DNA content',
                   options: ['Correct answer: Daughter cells are diploid (2n) with 2C DNA content', 'mitosis occurs in all living cells of an organism throughout life'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe mitosis occurs in all living cells of an organism throughout life.' },
-                { id: 'b', prompt: 'A farmer notices that the sugarcane crop in his field regrows after harvesting the upper stalks.', answer: 'Correct answer: Intercalary meristem at the nodes',
+                { id: 'b', prompt: 'A farmer notices that the sugarcane crop in his field regrows after harvesting the upper stalks.', answer: 'Intercalary meristem at the nodes',
                   options: ['Correct answer: Intercalary meristem at the nodes', 'mitosis occurs in all living cells of an organism throughout life'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe mitosis occurs in all living cells of an organism throughout life.' },
-                { id: 'c', prompt: 'Compare the role of mitosis in human skin epithelium versus honeybee drone (male) development. What fundamental difference in ploidy exists?', answer: 'Correct answer: Human skin mitosis occurs in diploid somatic cells (2n → 2n)',
+                { id: 'c', prompt: 'Compare the role of mitosis in human skin epithelium versus honeybee drone (male) development. What fundamental difference in ploidy exists?', answer: 'Human skin mitosis occurs in diploid somatic cells (2n → 2n)',
                   options: ['Correct answer: Human skin mitosis occurs in diploid somatic cells (2n → 2n)', 'mitosis occurs in all living cells of an organism throughout life'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe mitosis occurs in all living cells of an organism throughout life.' }
@@ -177,7 +177,7 @@ export const w_c11_biologymitosisdetailedstagessim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe mitosis occurs in all living cells of an organism throughout life.',
           parts: [
-                { id: 'a', prompt: 'Evaluate this statement: "Mitosis alone is sufficient for the long-term survival of a multicellular species." Justify your answer.', answer: 'Correct answer: False',
+                { id: 'a', prompt: 'Evaluate this statement: "Mitosis alone is sufficient for the long-term survival of a multicellular species." Justify your answer.', answer: 'False',
                   options: ['Correct answer: False', 'mitosis occurs in all living cells of an organism throughout life'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe mitosis occurs in all living cells of an organism throughout life.' }

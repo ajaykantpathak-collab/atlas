@@ -1,0 +1,672 @@
+{
+ "gameFile": "EngVerbsGame",
+ "classLevel": 3,
+ "cisceNodes": [
+  "c3_eng_003"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "What is a Verb? 🏃",
+   "text": "A verb is an ACTION word — run, eat, jump, sleep! It tells what someone or something DOES!",
+   "emoji": "🏃",
+   "bgColor": "from-red-400 to-orange-500",
+   "spoken": ""
+  },
+  {
+   "title": "Action You See 👀",
+   "text": "'The bird flies.' 'The baby cries.' — the action word is the verb. Ask: what is happening?",
+   "emoji": "👀",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Being Verbs 🤫",
+   "text": "'is', 'am', 'are' are quiet verbs — no action, but they link words: 'She is happy'!",
+   "emoji": "🤫",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Past & Present Verbs ⏳",
+   "text": "'I play' (now) → 'I played' (before). Verbs change with time — the -ed ending marks done!",
+   "emoji": "⏳",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "Verb in Every Sentence ⚙️",
+   "text": "Every sentence needs a verb — it is the engine! 'The boy ran' — 'ran' powers the sentence!",
+   "emoji": "⚙️",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "Which word is a verb?",
+   "answer": "jump",
+   "options": [
+    "jump",
+    "table",
+    "red"
+   ],
+   "hint": "An action — something you can DO!",
+   "misconception": "'jump' is an action (verb); 'table' names a thing (noun), 'red' describes!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "action",
+     "label": "jump",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "action",
+     "label": "table",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "action",
+     "label": "red",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "jump",
+     "table"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'The bird sings a song' — the verb is?",
+   "answer": "sings",
+   "options": [
+    "sings",
+    "bird",
+    "song"
+   ],
+   "hint": "What does the bird DO?",
+   "misconception": "'sings' is the action — 'bird' and 'song' are nouns!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "action",
+     "label": "sings",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "action",
+     "label": "bird",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "action",
+     "label": "song",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "sings",
+     "bird"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which sentence has a 'being' verb?",
+   "answer": "She is tall.",
+   "options": [
+    "She is tall.",
+    "She runs fast.",
+    "She ate rice."
+   ],
+   "hint": "'is' — no action, just being!",
+   "misconception": "'is' is a being verb — links 'she' to 'tall'; 'runs'/'ate' are action verbs!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "action",
+     "label": "She is tall.",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "action",
+     "label": "She runs fast.",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "action",
+     "label": "She ate rice.",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "She is tall.",
+     "She runs fast."
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort the verbs: action or being?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Can you physically DO it? Then it's action!",
+   "misconception": "run/eat = actions; is/are = being words!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "run",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "is",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "eat",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "are",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "run",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "is",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "eat",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "label": "are",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "action",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "being",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "run",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "is",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Change to past: 'I walk to school.'",
+   "answer": "I walked to school.",
+   "options": [
+    "I walked to school.",
+    "I am walking.",
+    "I will walk."
+   ],
+   "hint": "Add -ed for 'done already'!",
+   "misconception": "'walked' — past tense of regular verbs adds -ed!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "action",
+     "label": "I walked to school.",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "action",
+     "label": "I am walking.",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "action",
+     "label": "I will walk.",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "I walked to school.",
+     "I am walking."
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'The baby ___ loudly.' — which verb fits?",
+   "answer": "cries",
+   "options": [
+    "cries",
+    "happy",
+    "slowly"
+   ],
+   "hint": "You need an action word!",
+   "misconception": "'cries' is the verb — 'happy' describes, 'slowly' tells how!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "action",
+     "label": "cries",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "action",
+     "label": "happy",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "action",
+     "label": "slowly",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "cries",
+     "happy"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Every sentence needs a verb because—",
+   "answer": "it tells what happens",
+   "options": [
+    "it tells what happens",
+    "it names things",
+    "it describes"
+   ],
+   "hint": "The verb is the engine — nothing moves without it!",
+   "misconception": "Verbs power the sentence — without one, you just have a list of names!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "action",
+     "label": "it tells what happens",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "action",
+     "label": "it names things",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "action",
+     "label": "it describes",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "it tells what happens",
+     "it names things"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match the verb to who/what does it!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Who does the action?",
+   "misconception": "Dogs bark, flowers bloom, teachers teach, birds fly!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "barks",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "blooms",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "teaches",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "flies",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "barks",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "blooms",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "teaches",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "flies",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "dog",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "flower",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "teacher",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "bird",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "barks",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "blooms",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "action-park",
+ "storyArc": {
+  "theme": "Piku races through the action park finding verbs",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Action Star Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c3_eng_003",
+  "region": "Wordville",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🏃",
+  "prerequisites": []
+ },
+ "subject": "english"
+}

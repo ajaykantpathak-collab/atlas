@@ -136,6 +136,7 @@ export default function QuickQuiz({
   nodeId,
   onClose,
   startDiagnostic,
+  onAllDone,
 }: {
   subject: string
   /** Learn-page node — enables the authored-diagnostics remediation loop. */
@@ -143,6 +144,8 @@ export default function QuickQuiz({
   onClose?: () => void
   /** Diagnostic index to re-serve first (retry CTA from the Remediation tab). */
   startDiagnostic?: number | null
+  /** Fires once when the authored-diagnostic queue is fully worked through. */
+  onAllDone?: () => void
 }) {
   const [mode, setMode] = useState<'loading' | 'diagnostics' | 'practice'>(
     nodeId ? 'loading' : 'practice',
@@ -257,6 +260,15 @@ export default function QuickQuiz({
     if (mode === 'practice') boot()
   }, [mode, boot])
 
+  // CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 6): "Picking a verified
+  // question…" used to have no floor — a slow/hung request left the child
+  // staring at the loader forever. A watchdog degrades to the retry state.
+  useEffect(() => {
+    if (mode !== 'practice' || !booting || failed) return
+    const t = setTimeout(() => setFailed('network'), 20000)
+    return () => clearTimeout(t)
+  }, [mode, booting, failed, item])
+
   const submit = () => {
     if (!item || grading || !answer.trim()) return
     setGrading(true)
@@ -287,6 +299,7 @@ export default function QuickQuiz({
     if (qPos + 1 >= queue.length) {
       setPhase('answering') // sentinel: qPos beyond queue → done state
       setQPos(queue.length)
+      onAllDone?.()
       return
     }
     setQPos(qPos + 1)

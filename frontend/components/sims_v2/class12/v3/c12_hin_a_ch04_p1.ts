@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch04_p1: SimDef = {
     id: 'v3_c12_hin_a_ch04_p1',
-    title: 'j?kqohj lgk; · Part 1/3',
+    title: 'बनारस, दशिा · Part 1/3',
     subtitle: 'Not the ghats — the lane where the city actually lives',
-    classLevel: 12, subject: 'hin_a', topic: 'j?kqohj lgk; · Part 1/3',
+    classLevel: 12, subject: 'hin_a', topic: 'बनारस, दशिा · Part 1/3',
     chapters: ['c12_hin_a_ch04'],
     nodeIds: ['c12_hin_a_cbse_04_001', 'c12_hin_a_cbse_04_002', 'c12_hin_a_cbse_04_003', 'c12_hin_a_cbse_04_004', 'c12_hin_a_cbse_04_005', 'c12_hin_a_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,48 +19,15 @@ export const c12_hin_a_ch04_p1: SimDef = {
         hook: 'A poet born in 1934 writes under Nayi Kavita\'s contract already broken — no fixed metre, image over statement, ambiguity as value. Where Bhakti verse transmits truth, this poetry enacts the search for it; context isn\'t a crutch, it\'s the knowledge the poem presupposes.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is the preparatory step where students systematically gather information about the poet, the literary movement, the historical era, and the significance.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बनारस, दशिा — कवि परिचय और पृष्ठभूमि', text: 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि कौन है, उसने कहाँ पढ़ाई की, उसके जीवन की कौन-सी घटनाएँ इस कविता को प्रभावित करती हैं, और उसका.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_04_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Walk the cul-de-sac of modernist verse: predict imagery from title and era, weigh ambiguity as method, and feel how the poem speaks from beneath the flyover, not from its span.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_04_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you open your Hindi textbook to Chapter 4 and see the poem "cukjl" by osQnkjukFk ¯lg.',
-            decisions: [{ prompt: 'Who is the poet of "cukjl" and which literary tendency in modern Hindi poetry is he most associated with?', options: [
-                { text: 'The poet is Ashok Vajpeyi (अशोक वाजपेयी), a central figure of *Prayogvaad*', outcome: 'The poet is Ashok Vajpeyi (अशोक वाजपेयी), a central figure of *Prayogvaad* (Experimentalism) and.' },
-                { text: 'a *Chhayavaad* poet like Nirala or a *Pragativad* poet like Nagarjun', outcome: 'Not quite — Students treat the "Before You Read" box as a *biographical fact file* to memorize for 1-mark.', reveals: 'students-treat-the-before-you' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_04_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a short film with no dialogue — only visuals and background music. How do you know what\'s happening?',
-            decisions: [{ prompt: 'Define "narrative arc" in the context of a narrative poem. List its five standard stages in order.', options: [
-                { text: 'A narrative arc is the structural framework of a story comprising five stages: (1)', outcome: 'A narrative arc is the structural framework of a story comprising five stages: (1) Exposition.' },
-                { text: 'beginning, middle, end', outcome: 'Not quite — Students believe narrative poems *must* have named characters, dialogue, and linear chronology.', reveals: 'narrative-poems-must-have-named' },
-                { text: 'beginning, middle, end" or confusing with thematic progression', outcome: 'Not quite — Students believe narrative poems *must* have named characters, dialogue, and linear chronology.', reveals: 'narrative-poems-must-have-named' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_04_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are describing your ancestral village to a friend who has never visited.',
-            decisions: [{ prompt: 'What are the three core components of setting in a literary text?', options: [
-                { text: 'The three core components are physical setting (geography, weather, objects), temporal', outcome: 'The three core components are physical setting (geography, weather, objects), temporal setting.' },
-                { text: 'place and time', outcome: 'Not quite — Students often treat setting as a static backdrop — listing physical details like "there is.', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_04_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are asked: "Is the street just a background in this poem, or does it have a personality?" Start by reading the poem aloud — notice how the street.',
-            decisions: [{ prompt: 'In the poem "cukjl", which entity is the central figure around whom the imagery and action revolve?', options: [
-                { text: 'The street (cukjl) itself is the protagonist', outcome: 'The street (cukjl) itself is the protagonist. A wrong answer (e.g., "the child" or "the poet").' },
-                { text: 'the child', outcome: 'Not quite — Students treat "character analysis" as listing physical traits (dark, narrow, crowded) because.', reveals: 'students-treat-character-analysis-as' },
-                { text: 'the poet', outcome: 'Not quite — Students treat "character analysis" as listing physical traits (dark, narrow, crowded) because.', reveals: 'students-treat-character-analysis-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_04_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are reading "जूही की कली" and you pause at the lines where a child speaks: "फिरंगी फूल है क्या?" — why does the poet suddenly introduce a child’s.',
-            decisions: [{ prompt: 'Identify the three distinct supporting figures explicitly mentioned or strongly implied in the poem "जूही की कली" (excluding the.', options: [
-                { text: 'The three supporting figures are: (1) the child (बच्चा/सीपी) who asks "फिरंगी फूल है', outcome: 'The three supporting figures are: (1) the child (बच्चा/सीपी) who asks "फिरंगी फूल है क्या?", (2).' },
-                { text: 'supporting characters', outcome: 'Not quite — Students often believe "supporting characters" in a poem are only explicitly named humans (like the.', reveals: 'supporting-characters-in-a-poem' },
-                { text: 'lists only human characters (e', outcome: 'Not quite — Students often believe "supporting characters" in a poem are only explicitly named humans (like the.', reveals: 'supporting-characters-in-a-poem' }
-            ] }] } },
+        labels: ['बनारस, दशिा — कवि', 'बनारस, दशिा — पद्यांश-वार', 'बनारस, दशिा — काव्य-संरचना', 'बनारस, दशिा — केंद्रीय', 'बनारस, दशिा — छंद', 'बनारस, दशिा — साहित्यिक'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_04_001', title: 'Use it in the wild',
           caseStudy: { intro: 'A short-film jury member rejects your submission about a child calling \'Papa — Papa\' toward a father who never comes, saying \'nothing happens — no climax, no arrival, no story.\'',
             decisions: [{ prompt: 'How does the structure of \'फ्नेक\' answer that verdict?', options: [
@@ -70,108 +37,81 @@ export const c12_hin_a_ch04_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_04_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now decode a title before the first line — and read Nayi Kavita\'s broken forms as the broken world\'s true shape.',
-            decisions: [{ prompt: 'What comes next? j?kqohj lgk; · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — j?kqohj lgk; · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? बनारस, दशिा · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — बनारस, दशिा · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is the preparatory step where.',
-          hint: 'If stuck, review Class 11 "Before You Read" nodes (e.g., c11_hin_ar_cbse_01_001) and.',
-          misconception: 'Students treat the "Before You Read" box as a *biographical fact file* to memorize for 1-mark questions ("कवि का जन्म.',
+          question: 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते.',
+          hint: 'यदि फँसें तो कक्षा 11 के किसी भी पाठ के "कवि परिचय और पृष्ठभूमि" नोड (जैसे.',
+          misconception: 'छात्र अक्सर इस गलती में पड़ते हैं कि वे बनारस, दशिा कविता को केवल एक भक्ति या यात्रा वर्णन मान लेते हैं और कवि के.',
           parts: [
-                { id: 'a', prompt: 'Who is the poet of "cukjl" and which literary tendency in modern Hindi poetry is he most associated with?', answer: 'The poet is Ashok Vajpeyi (अशोक वाजपेयी), a central figure of *Prayogvaad*',
-                  options: ['The poet is Ashok Vajpeyi (अशोक वाजपेयी), a central figure of *Prayogvaad*', 'a *Chhayavaad* poet like Nirala or a *Pragativad* poet like Nagarjun'],
-                  hint: 'If stuck, review Class 11 "Before You Read" nodes (e.g., c11_hin_ar_cbse_01_001) and practice: take.',
-                  misconception: 'Students treat the "Before You Read" box as a *biographical fact file* to memorize for 1-mark questions ("कवि का जन्म कब हुआ?").' },
-                { id: 'b', prompt: 'Explain in your own words why knowing the poet\'s birth year (1934) and the phrase "आधुनिक हिंदी कविता में प्रयोग" matters for reading "cukjl".', answer: '1934 places the poet\'s formative years in the 1950s–60s',
-                  options: ['1934 places the poet\'s formative years in the 1950s–60s', 'it helps understand the poet\'s life'],
-                  hint: 'If stuck, review Class 11 "Before You Read" nodes (e.g., c11_hin_ar_cbse_01_001) and practice: take.',
-                  misconception: 'Students treat the "Before You Read" box as a *biographical fact file* to memorize for 1-mark questions ("कवि का जन्म कब हुआ?").' },
-                { id: 'c', prompt: 'You are given an unseen poem titled "फ्लाईओवर के नीचे" by a poet born in 1965, described in the textbook as "समकालीन कविता के प्रमुख हस्ताक्षर, नगरीय यथार्थ के.', answer: 'Step 1: Identify period',
-                  options: ['Step 1: Identify period', 'beautiful description of nature', 'rhyming couplets'],
-                  hint: 'If stuck, review Class 11 "Before You Read" nodes (e.g., c11_hin_ar_cbse_01_001) and practice: take.',
-                  misconception: 'Students treat the "Before You Read" box as a *biographical fact file* to memorize for 1-mark questions ("कवि का जन्म कब हुआ?").' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि',
+                  options: ['बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s', 'केंद्रीय भाव (Central Theme) कविता का वह **मूल सार** है जो समस्त बिंबों, प्रतीकों और'],
+                  hint: 'यदि फँसें तो कक्षा 11 के किसी भी पाठ के "कवि परिचय और पृष्ठभूमि" नोड (जैसे c11_hin_a_cbse_01_001).',
+                  misconception: 'छात्र अक्सर इस गलती में पड़ते हैं कि वे बनारस, दशिा कविता को केवल एक भक्ति या यात्रा वर्णन मान लेते हैं और कवि के सामाजिक-राजनीतिक.' }
           ],
-            remediations: { 'students-treat-the-before-you': { steps: ['If a student cannot convert the poet\'s intro into reading predictions: (1) Have them re-read *only* the NCERT intro for.', '(2) For each adjective, write one question they will ask the poem (e.g., "चित्रात्मक" → "Which three images are most.', '(3) Read the poem *only* to answer those questions.', '(4) Debrief: "Which prediction held?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र इस गलती को दोहरा रहा है, तो पहले उसे कविता की दो पंक्तियों पर ध्यान केंद्रित करवाएँ जो स्पष्ट रूप से सामाजिक.', 'क्या केवल धार्मिक वर्णन में इन दोनों का उल्लेख आएगा?" इस चर्चा के माध्यम से उसे समझाएँ कि कवि विपरीत चित्रों को रखकर एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_002', difficulty: 'standard',
-          question: 'Narrative structure in poetry refers to the organized sequence of events.',
-          hint: 'If stuck on mapping stanzas to stages, review "narrative arc in poetry" from.',
-          misconception: 'Students believe narrative poems *must* have named characters, dialogue, and linear chronology to have a "plot." They.',
+          question: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति.',
+          hint: 'यदि कवि के परिचय याद नहीं आ रहा है, तो c12_hin_a_cbse_04_001 नोड को दोबारा देखिए जहाँ.',
+          misconception: 'छात्र अक्सर पद्यांश-वार भावार्थ निकालते समय प्रत्येक पद्यांश को अलग-अलग व्याख्या करते हैं और उनमें आने वाले भावात्मक.',
           parts: [
-                { id: 'a', prompt: 'Given this 4-line excerpt from an unseen narrative poem: "पहले आया सन्नाटा, फिर पदचाप / फिर दरवाज़ा खुला, फिर कोई न आया / फिर धूप झुकी दीवार पर, फिर छाया / फिर.', answer: 'Line 1: Exposition (establishes silence/emptiness)',
-                  options: ['Line 1: Exposition (establishes silence/emptiness)', 'climax', 'label line 2 as "climax" confuse surprise with structural peak'],
-                  hint: 'If stuck on mapping stanzas to stages, review "narrative arc in poetry" from c11_hin_ar_cbse_01_002.',
-                  misconception: 'Students believe narrative poems *must* have named characters, dialogue, and linear chronology to have a "plot." They read चुकजल as.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका',
+                  options: ['पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s', 'केंद्रीय भाव (Central Theme) कविता का वह **मूल सार** है जो समस्त बिंबों, प्रतीकों और'],
+                  hint: 'यदि कवि के परिचय याद नहीं आ रहा है, तो c12_hin_a_cbse_04_001 नोड को दोबारा देखिए जहाँ कविव के जीवन.',
+                  misconception: 'छात्र अक्सर पद्यांश-वार भावार्थ निकालते समय प्रत्येक पद्यांश को अलग-अलग व्याख्या करते हैं और उनमें आने वाले भावात्मक परिवर्तन या प्रगति को.' }
           ],
-            remediations: { 'narrative-poems-must-have-named': { steps: ['Have the student watch a 2-minute silent short film (e.g., "The Red Balloon" clip) and draw a 5-box storyboard labeling.', 'Map the same 5 boxes onto चुकजל\'s stanzas — well activity = rising action, reflection = climax, stillness = resolution.', 'Repeat for फ्नेक using the child\'s *changing understanding* as the "character."', 'Re-attempt Diagnostic Questions 2 and 4. If confusion persists, revisit c11_hin_ar_cbse_01_002 (Class 11 Plot and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र पद्यांशों के बीच संबंध नहीं देख पा रहा है, तो उसे कविता को पढ़ते समय प्रत्येक पद्यांश के अंत में एक शब्द.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a literary.',
-          hint: 'If stuck, review "annotating poetry for sensory verbs" from c11_hin_ar_cbse_01_003 and.',
-          misconception: 'Students often treat setting as a static backdrop — listing physical details like "there is a banyan tree, a pond.',
+          question: 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of.',
+          hint: 'यदि एनजैम्बमेंट/केशिया स्पष्ट नहीं, तो c11_hin_a_cbse_13_003 (जाग तुझको दूर जाना.',
+          misconception: '**विशिष्ट भ्रम:** विद्यार्थी समझते हैं कि "काव्य-संरचना" = "पदों की गिनती + पंक्तियों की गिनती"। वे एनजैम्बमेंट को केवल.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the time, place, and social environment in',
-                  options: ['Setting refers to the time, place, and social environment in', '"Before You Read: Context and Background" is the preparatory step where students', 'Narrative structure in poetry refers to the organized sequence of events, images, and', 'Character analysis of a protagonist in poetry involves identifying the central figure'],
-                  hint: 'If stuck, review "annotating poetry for sensory verbs" from c11_hin_ar_cbse_01_003 and practice.',
-                  misconception: 'Students often treat setting as a static backdrop — listing physical details like "there is a banyan tree, a pond, fields" — and atmosphere.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s',
+                  options: ['काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s', 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'केंद्रीय भाव (Central Theme) कविता का वह **मूल सार** है जो समस्त बिंबों, प्रतीकों और'],
+                  hint: 'यदि एनजैम्बमेंट/केशिया स्पष्ट नहीं, तो c11_hin_a_cbse_13_003 (जाग तुझको दूर जाना — काव्य-संरचना) के.',
+                  misconception: '**विशिष्ट भ्रम:** विद्यार्थी समझते हैं कि "काव्य-संरचना" = "पदों की गिनती + पंक्तियों की गिनती"। वे एनजैम्बमेंट को केवल \'पंक्ति बिना विराम.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student reread the poem and underline every verb that shows action or change (e.g., vkrk, mBrk, mM+rh, pyrs.', 'Ask: "Which of these verbs describe nature?', 'Which describe time itself?" 3.', 'Then, have them write one sentence for each verb explaining what it adds to the village\'s *feel*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**पुनः पढ़ें — केवल सुनें नहीं:** कविता को जोर से पढ़ें, हर पंक्ति-अंत पर 2 सेकंड रुकें, फिर बिना रुके पढ़ें — अंतर.', '**पेंसिल से चिह्नित करें:** हर एनजैम्बमेंट (→), हर केशिया (|), हर पद-रिक्ति (//) को मार्क करें। 3.', '**एक पद को \'हटाकर\' देखें:** पद 4 हटा दें — कविता का भाव कैसे बदलता है?', '**पुनः-निदान:** DIAGNOSTIC_QUESTION_4 को दोबारा हल करें — अब चरणों में \'कार्य\' (function) लिखें, केवल \'विषय\' नहीं।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_004', difficulty: 'standard',
-          question: 'Character analysis of a protagonist in poetry involves identifying the central.',
-          hint: 'If stuck, revisit Class 11 Antra Chapter 1 "Utsaah" where the cloud is protagonist.',
-          misconception: 'Students treat "character analysis" as listing physical traits (dark, narrow, crowded) because they\'re used to story.',
+          question: 'केंद्रीय भाव (Central Theme) कविता का वह **मूल सार** है जो समस्त बिंबों.',
+          hint: 'अगर अटके: **c11_hin_a_cbse_13_004 (जाग तुझको दूर जाना — केंद्रीय भाव और रस)** पर लौटें.',
+          misconception: '**सबसे आम भ्रम**: छात्र समझते हैं कि **\'करुण रस\' = केवल दुःख/रोना**। वे लिखते हैं: "कवि रो रहा है इसलिए करुण रस है।".',
           parts: [
-                { id: 'a', prompt: 'In the poem "cukjl", which entity is the central figure around whom the imagery and action revolve?', answer: 'The street (cukjl) itself is the protagonist',
-                  options: ['The street (cukjl) itself is the protagonist', 'the child', 'the poet'],
-                  hint: 'If stuck, revisit Class 11 Antra Chapter 1 "Utsaah" where the cloud is protagonist — analyze its.',
-                  misconception: 'Students treat "character analysis" as listing physical traits (dark, narrow, crowded) because they\'re used to story characters.' },
-                { id: 'b', prompt: 'Apply the concept of "character through action" to the line: "[kkyh dVksjksa esa olar dk mrjuk!" What does this action reveal about the street\'s character?', answer: 'The street "swallows the breath in broken lanes"',
-                  options: ['The street "swallows the breath in broken lanes"', 'pollution'],
-                  hint: 'If stuck, revisit Class 11 Antra Chapter 1 "Utsaah" where the cloud is protagonist — analyze its.',
-                  misconception: 'Students treat "character analysis" as listing physical traits (dark, narrow, crowded) because they\'re used to story characters.' },
-                { id: 'c', prompt: 'Compare the protagonist of "cukjl" (the street) with the protagonist of "fn\'kk" (the child). What shared trait emerges from how both are portrayed?', answer: 'Both exhibit quiet endurance without complaint',
-                  options: ['Both exhibit quiet endurance without complaint', 'both are poor'],
-                  hint: 'If stuck, revisit Class 11 Antra Chapter 1 "Utsaah" where the cloud is protagonist — analyze its.',
-                  misconception: 'Students treat "character analysis" as listing physical traits (dark, narrow, crowded) because they\'re used to story characters.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव (Central Theme) कविता का वह **मूल सार** है जो समस्त बिंबों, प्रतीकों और',
+                  options: ['केंद्रीय भाव (Central Theme) कविता का वह **मूल सार** है जो समस्त बिंबों, प्रतीकों और', 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s'],
+                  hint: 'अगर अटके: **c11_hin_a_cbse_13_004 (जाग तुझको दूर जाना — केंद्रीय भाव और रस)** पर लौटें — वहाँ.',
+                  misconception: '**सबसे आम भ्रम**: छात्र समझते हैं कि **\'करुण रस\' = केवल दुःख/रोना**। वे लिखते हैं: "कवि रो रहा है इसलिए करुण रस है।" **क्यों गलत है**: करुण.' }
           ],
-            remediations: { 'students-treat-character-analysis-as': { steps: ['Re-read stanza 1-2 aloud, circling every verb whose subject is the street.', 'Classify each verb: biological (breathes, swallows), mechanical (fills, breaks), emotional (reaches).', 'Write one sentence: "The street is a character because it ______." 4.', 'Re-attempt Diagnostic Question 3 with this verb-list.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1**: छात्र से कहो — कविता की **कोई 5 पंक्तियाँ** चुनो जहाँ कवि \'पहले\' और \'अब\' की तुलना करता हो। उन्हें कागज पर.', '**चरण 2**: प्रत्येक पंक्ति के लिए पूछो — "यहाँ कवि को क्या **महसूस** हो रहा है?', '(अनुभाव) उसके मन में कौन-से **भाव** आ-जा रहे हैं?', '**चरण 3**: अब **रस-निष्पत्ति का चार्ट** बनवाओ: आलम्बन → उद्दीपन → अनुभाव → संचारी → स्थायी भाव → **रस**। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters in a poem involves identifying the.',
-          hint: 'If stuck, review "Personification as Characterization" in Class 11 poetry nodes.',
-          misconception: 'Students often believe "supporting characters" in a poem are only explicitly named humans (like the child).',
+          question: 'छंद काव्य-पंक्तियों का वह निश्चित मापदंड है जो मात्राओं/अक्षरों की संख्या, क्रम.',
+          hint: 'यदि मात्रा-गणना में अटके तो c11_hin_a_cbse_13_005 के \'मात्रा-गणना चेकलिस्ट\' और \'गुरु-लघु.',
+          misconception: 'छात्र समझते हैं कि \'छंद पहचानना\' = \'तुक ढूँढना\' (अंत्य-अक्षर मिलान)। असल में हिंदी के मात्रिक छंदों में तुक अनिवार्य.',
           parts: [
-                { id: 'a', prompt: 'Apply the "character function" framework to the gardener (माली): using two pieces of textual evidence, show how the gardener’s implied presence establishes the.', answer: 'Step 1: Locate the line "माली ने कहा"',
-                  options: ['Step 1: Locate the line "माली ने कहा"', 'supporting characters'],
-                  hint: 'If stuck, review "Personification as Characterization" in Class 11 poetry nodes.',
-                  misconception: 'Students often believe "supporting characters" in a poem are only explicitly named humans (like the child).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद काव्य-पंक्तियों का वह निश्चित मापदंड है जो मात्राओं/अक्षरों की संख्या, क्रम और',
+                  options: ['छंद काव्य-पंक्तियों का वह निश्चित मापदंड है जो मात्राओं/अक्षरों की संख्या, क्रम और', 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s'],
+                  hint: 'यदि मात्रा-गणना में अटके तो c11_hin_a_cbse_13_005 के \'मात्रा-गणना चेकलिस्ट\' और \'गुरु-लघु अभ्यास.',
+                  misconception: 'छात्र समझते हैं कि \'छंद पहचानना\' = \'तुक ढूँढना\' (अंत्य-अक्षर मिलान)। असल में हिंदी के मात्रिक छंदों में तुक अनिवार्य नहीं; गुरु-लघु क्रम और.' }
           ],
-            remediations: { 'supporting-characters-in-a-poem': { steps: ['Re-read the poem aloud, circling every noun that acts or is addressed (बच्चा, माली, रात, प्रभात, ओस).', 'For each, write one line of evidence and one inference about its attitude toward the bud.', 'Compare your list with the worked examples below.', 'Re-attempt Diagnostic Questions 3 and 4, focusing on non-human figures.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_005', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often believe "supporting characters" in a poem are only explicitly named humans (like the child).',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The poet-speaker is the most important supporting character because he mediates all other figures." Defend or refute using evidence from.', answer: 'Refute: the poet-speaker is the observer, not a supporting character',
-                  options: ['Refute: the poet-speaker is the observer, not a supporting character', 'supporting characters'],
-                  hint: 'If stuck, review "Personification as Characterization" in Class 11 poetry nodes.',
-                  misconception: 'Students often believe "supporting characters" in a poem are only explicitly named humans (like the child).' }
-          ],
-            remediations: { 'supporting-characters-in-a-poem': { steps: ['Re-read the poem aloud, circling every noun that acts or is addressed (बच्चा, माली, रात, प्रभात, ओस).', 'For each, write one line of evidence and one inference about its attitude toward the bud.', 'Compare your list with the worked examples below.', 'Re-attempt Diagnostic Questions 3 and 4, focusing on non-human figures.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को c11_hin_a_cbse_13_005 (जाग तुझको दूर जाना — छंद और लय-विधान) और c11_hin_a_cbse_14_005 (बादल को घरिते देखा है.', 'उससे 5 सरल पंक्तियों की मात्रा-गणना करवाएँ (अनुस्वार/दीर्घ/ह्रस्व नियम चेकलिस्ट के साथ)। 3.', 'फिर \'बनारस, दशिा\' की पहली दो पंक्तियों पर वही प्रक्रिया दुहराएँ। 4.', 'अंत में यति-स्थल बोलकर पढ़कर चिह्नित करने का अभ्यास कराएँ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea — the.',
-          hint: 'Review Class 11 Antra Chapter 1 (c11_hin_ar_cbse_01_006) worked example on thematic.',
-          misconception: 'Students consistently write: \'The theme of the poem is the drying pond\' or \'The message is that water is precious.\'.',
+          question: 'अलंकार वे भाषाई युक्तियाँ हैं जिनमें शब्दों के सामान्य अर्थ से हटकर नए.',
+          hint: 'यदि छात्र अलंकार की पहचान में फँस रहा है, तो उसे सामान्य भाषा के वाक्य (जैसे "सूर्य उग.',
+          misconception: 'छात्र अक्सर अलंकार को केवल "कविता को सुंदर बनाने वाले कठिन शब्द" मानते हैं, और इसलिए वे किसी भी अभिव्यक्तिपूर्ण शब्द.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of a literary work is its central, unifying idea',
-                  options: ['The primary theme of a literary work is its central, unifying idea', '"Before You Read: Context and Background" is the preparatory step where students', 'Narrative structure in poetry refers to the organized sequence of events, images, and', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'Review Class 11 Antra Chapter 1 (c11_hin_ar_cbse_01_006) worked example on thematic statement.',
-                  misconception: 'Students consistently write: \'The theme of the poem is the drying pond\' or \'The message is that water is precious.\' This error arises.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार वे भाषाई युक्तियाँ हैं जिनमें शब्दों के सामान्य अर्थ से हटकर नए, प्रभावशाली अर्थ',
+                  options: ['अलंकार वे भाषाई युक्तियाँ हैं जिनमें शब्दों के सामान्य अर्थ से हटकर नए, प्रभावशाली अर्थ', 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s'],
+                  hint: 'यदि छात्र अलंकार की पहचान में फँस रहा है, तो उसे सामान्य भाषा के वाक्य (जैसे "सूर्य उग रहा था") और.',
+                  misconception: 'छात्र अक्सर अलंकार को केवल "कविता को सुंदर बनाने वाले कठिन शब्द" मानते हैं, और इसलिए वे किसी भी अभिव्यक्तिपूर्ण शब्द (जैसे "चमकता".' }
           ],
-            remediations: { 'students-consistently-write-the-theme': { steps: ['If a student cannot distinguish subject from theme: (1) Give them three familiar texts (e.g., \'The Road Not Taken\'.', '(2) Use the formula: Subject = What happens (noun phrase); Theme = What it means about [life/humanity/time] (complete.', '(3) Have them re-read stanza 3 of \'cukjl\' and complete: \'The pond is not just a pond; the pond is a ______ of ______.\'.', '(4) Re-diagnose with DIAGNOSTIC_QUESTION_1.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को दो वाक्य दिए जाएँ: (1) "गंगा की लहरें चमक रही थीं" और (2) "गंगा की लहरें चांदनी की तरह चमक रही थीं"। पहला.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

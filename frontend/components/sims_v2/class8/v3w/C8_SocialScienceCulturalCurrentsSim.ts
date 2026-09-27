@@ -146,11 +146,11 @@ export const w_c8_socialscienceculturalcurrentssim: SimDef = {
           hint: 'Review the Mauryan polished pillars (monolithic technology) and the Gupta-era Dashavatara.',
           misconception: 'Students often believe that "Indian architecture" is a single, unchanging style called "Hindu architecture" until.',
           parts: [
-                { id: 'a', prompt: 'Name two distinct historical periods before the 12th century CE when Indian architecture made significant technological advances in stone construction, and.', answer: 'Correct answer: Mauryan period (3rd century BCE)',
+                { id: 'a', prompt: 'Name two distinct historical periods before the 12th century CE when Indian architecture made significant technological advances in stone construction, and.', answer: 'Mauryan period (3rd century BCE)',
                   options: ['Correct answer: Mauryan period (3rd century BCE)', 'technology', 'Indian architecture'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that "Indian architecture" is a single, unchanging style called "Hindu architecture" until Muslims brought "new.' },
-                { id: 'b', prompt: 'Why did Indian builders continue using the post-and-lintel (trabeate) system for temples long after the arch and dome were known from the 12th century onwards?', answer: 'Correct answer: The trabeate system was deeply tied to Hindu temple symbolism',
+                { id: 'b', prompt: 'Why did Indian builders continue using the post-and-lintel (trabeate) system for temples long after the arch and dome were known from the 12th century onwards?', answer: 'The trabeate system was deeply tied to Hindu temple symbolism',
                   options: ['Correct answer: The trabeate system was deeply tied to Hindu temple symbolism', 'they didn\'t know how to build arches', 'Indian architecture'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that "Indian architecture" is a single, unchanging style called "Hindu architecture" until Muslims brought "new.' },

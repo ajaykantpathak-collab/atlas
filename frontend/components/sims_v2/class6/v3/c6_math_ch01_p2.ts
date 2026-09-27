@@ -8,7 +8,7 @@ export const c6_math_ch01_p2: SimDef = {
     subtitle: 'This node covers basic Roman numeral symbols and the rules for combining them.',
     classLevel: 6, subject: 'mathematics', topic: 'Number System · Part 2/3',
     chapters: ['c6_math_ch01'],
-    nodeIds: ['c6_math_ch01_007', 'c6_math_ch01_008', 'c6_math_ch01_009', 'c6_math_ch01_010', 'c6_math_ch01_011', 'c6_math_ch01_001'],
+    nodeIds: ['c6_math_ch01_007', 'c6_math_ch01_008', 'c6_math_ch01_009', 'c6_math_ch01_010', 'c6_math_ch01_011', 'c6_math_ch01_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are looking at the face of an old clock or the copyright date on a book, and you see "MCMXCV.".', goal: 'Master every idea in this chapter.' },

@@ -23,7 +23,8 @@ export const c4EngPreposition: SimDef = {
         { title: 'In, On, Under 📦', text: 'IN = inside. ON = touching the top. UNDER = below. Each shows a different position!', emoji: '📦', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Behind, Between, Beside ↔️', text: 'BEHIND = at the back. BETWEEN = in the middle of two. BESIDE = next to!', emoji: '↔️', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match the position word!', labels: ['the cat is ___ the box', 'in', 'the ball is ___ the table', 'under', 'the picture is ___ the wall', 'on'] },
+challenges: [
         { type: 'mcq', question: '"The cat is ___ the box." (inside it)', answer: 'in', options: ['on', 'in', 'under'],
           hint: 'Inside the box!', misconception: '"In" means inside — the cat is inside the box!',
           workedExample: ['Inside = in.', '"The cat is in the box."'] },
@@ -58,7 +59,8 @@ export const c4EngConj: SimDef = {
         { title: 'And = Add ➕', text: 'AND adds ideas: "She sings and dances." BUT shows contrast: "Small but strong."', emoji: '➕', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Or = Choice, Because = Reason 🔀', text: 'OR gives a choice: "Tea or milk?" BECAUSE gives a reason: "I stayed home because it rained."', emoji: '🔀', bgColor: 'from-amber-400 to-orange-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match the joining word to its job!', labels: ['and', 'adds same idea', 'but', 'shows opposite', 'because', 'gives reason'] },
+challenges: [
         { type: 'mcq', question: '"I like tea ___ coffee." (both)', answer: 'and', options: ['but', 'and', 'or'],
           hint: 'Likes both!', misconception: '"And" adds things together — she likes both!',
           workedExample: ['Both liked.', '"and" joins them.'] },
@@ -101,7 +103,8 @@ export const c4HinVilom: SimDef = {
             { a: 'लंबा', b: 'छोटा' }, { a: 'आगे', b: 'पीछे' }, { a: 'अंदर', b: 'बाहर' },
         ] } },
     },
-    challenges: [
+        explore: { widget: 'match', prompt: 'विलोम जोड़े मिलाओ!', labels: ['दिन', 'रात', 'गर्म', 'ठंडा', 'बड़ा', 'छोटा'] },
+challenges: [
         { type: 'mcq', question: 'बड़ा का विलोम (opposite) क्या है?', answer: 'छोटा', options: ['लंबा', 'छोटा', 'मोटा'],
           hint: 'Big ↔ ?', misconception: 'बड़ा (big) का विलोम छोटा (small)!',
           workedExample: ['बड़ा = big.', 'Opposite = छोटा.'] },
@@ -129,7 +132,8 @@ export const c4HinVisheshan: SimDef = {
         { title: 'विशेषण = बताने वाले 🏷️', text: 'Visheshan describes a noun: "लाल फूल" (red flower), "बड़ा घर" (big house)!', emoji: '🏷️', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'Kinds of Visheshan 🎨', text: 'Colour (लाल), size (बड़ा), number (तीन), quality (अच्छा) — all describe the noun!', emoji: '🎨', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'विशेषण मिलाओ!', labels: ['लाल', 'गुलाब', 'बड़ा', 'घर', 'मीठा', 'आम'] },
+challenges: [
         { type: 'mcq', question: '"लाल फूल" में विशेषण (describing word) कौन है?', answer: 'लाल', options: ['फूल', 'लाल', 'दोनों'],
           hint: 'Which word describes the flower?', misconception: 'लाल describes the फूल — it is the विशेषण!',
           workedExample: ['फूल = noun.', 'लाल describes it.', 'विशेषण = लाल.'] },
@@ -161,7 +165,8 @@ export const c4EngParagraph: SimDef = {
         { title: 'Main Idea First 💡', text: 'Start with the main idea: "My dog is my best friend." Then add details about WHY!', emoji: '💡', bgColor: 'from-sky-400 to-blue-500' },
         { title: 'Details Support 🔍', text: 'Details explain the main idea: "He plays with me. He waits for me. He is loyal."', emoji: '🔍', bgColor: 'from-amber-400 to-orange-500' },
     ],
-    challenges: [
+        explore: { widget: 'order', prompt: 'Order the sentences into a paragraph!', labels: ['Morning is the best time to study', 'The mind is fresh', 'We can learn fast', 'So I study early every day'] },
+challenges: [
         { type: 'order', question: 'Order the sentences to make a paragraph about a dog!', options: [],
           sortItems: [
             { id: 'p1', label: 'He plays fetch with me.', emoji: '🎾', correctBin: 's2' },

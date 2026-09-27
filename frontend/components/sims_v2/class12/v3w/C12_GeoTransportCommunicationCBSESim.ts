@@ -16,7 +16,7 @@ export const w_c12_geotransportcommunicationcbsesim: SimDef = {
     discovery: {
         question: 'A farmer in western Uttar Pradesh grows sugarcane. The nearest sugar mill is 40 km away by road, but the road is unpaved and becomes unusable in monsoon.',
         options: ['Correct answer: Implicit transport cost = ₹340 – ₹280 = ₹60/quintal', 'loss due to middlemen', 'transport importance = connectivity'],
-        answer: 'Correct answer: Implicit transport cost = ₹340 – ₹280 = ₹60/quintal',
+        answer: 'Implicit transport cost = ₹340 – ₹280 = ₹60/quintal',
         hook: 'Students think "transport importance = connectivity" and write vague statements like "it connects places." The precise.',
     },
     teaching: [
@@ -85,11 +85,11 @@ export const w_c12_geotransportcommunicationcbsesim: SimDef = {
           hint: 'If stuck on "why transport matters economically," revisit Class 11 node.',
           misconception: 'Students think "transport importance = connectivity" and write vague statements like "it connects places." The precise.',
           parts: [
-                { id: 'a', prompt: 'A farmer in western Uttar Pradesh grows sugarcane. The nearest sugar mill is 40 km away by road, but the road is unpaved and becomes unusable in monsoon.', answer: 'Correct answer: Implicit transport cost = ₹340 – ₹280 = ₹60/quintal',
+                { id: 'a', prompt: 'A farmer in western Uttar Pradesh grows sugarcane. The nearest sugar mill is 40 km away by road, but the road is unpaved and becomes unusable in monsoon.', answer: 'Implicit transport cost = ₹340 – ₹280 = ₹60/quintal',
                   options: ['Correct answer: Implicit transport cost = ₹340 – ₹280 = ₹60/quintal', 'loss due to middlemen', 'transport importance = connectivity'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "transport importance = connectivity" and write vague statements like "it connects places." The precise geographical error:.' },
-                { id: 'b', prompt: 'Compare the economic role of the Golden Quadrilateral (NHAI highway network) with the Dedicated Freight Corridor (DFC) railway.', answer: 'Correct answer: The DFC contributes more to manufacturing competitiveness',
+                { id: 'b', prompt: 'Compare the economic role of the Golden Quadrilateral (NHAI highway network) with the Dedicated Freight Corridor (DFC) railway.', answer: 'The DFC contributes more to manufacturing competitiveness',
                   options: ['Correct answer: The DFC contributes more to manufacturing competitiveness', 'highways are better', 'transport importance = connectivity'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "transport importance = connectivity" and write vague statements like "it connects places." The precise geographical error:.' }
@@ -104,7 +104,7 @@ export const w_c12_geotransportcommunicationcbsesim: SimDef = {
                   options: ['Correct evaluation: The statement is flawed', 'transport importance = connectivity', 'it connects places'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "transport importance = connectivity" and write vague statements like "it connects places." The precise geographical error:.' },
-                { id: 'b', prompt: 'Compare the economic role of the Golden Quadrilateral (NHAI highway network) with the Dedicated Freight Corridor (DFC) railway.', answer: 'Correct answer: The DFC contributes more to manufacturing competitiveness',
+                { id: 'b', prompt: 'Compare the economic role of the Golden Quadrilateral (NHAI highway network) with the Dedicated Freight Corridor (DFC) railway.', answer: 'The DFC contributes more to manufacturing competitiveness',
                   options: ['Correct answer: The DFC contributes more to manufacturing competitiveness', 'highways are better', 'transport importance = connectivity', 'it connects places'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "transport importance = connectivity" and write vague statements like "it connects places." The precise geographical error:.' }

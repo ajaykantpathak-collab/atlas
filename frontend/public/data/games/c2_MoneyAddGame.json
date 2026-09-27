@@ -1,0 +1,510 @@
+{
+ "gameFile": "MoneyAddGame",
+ "classLevel": 2,
+ "cisceNodes": [],
+ "mascot": "Shopkeeper Shyam — a friendly kirana-store shopkeeper with an orange apron, a big jar of coins and a warm smile",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Coins AND Notes 🪙💵",
+   "text": "We use coins AND notes! Coins are ₹1, ₹2, ₹5 and ₹10. Notes are ₹10, ₹20, ₹50 and ₹100. Both are rupees — add them together to know how much money you have!",
+   "emoji": "🪙",
+   "bgColor": "from-amber-400 to-orange-500",
+   "spoken": "Coins and notes are both rupees. We can add them together.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Our money",
+    "data": {
+     "steps": [
+      "Coins: ₹1 ₹2 ₹5",
+      "Notes: ₹10 ₹20 ₹50 ₹100",
+      "Add them all!"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Notes Carry Bigger Values 💵",
+   "text": "One ₹50 note is worth the SAME as fifty ₹1 coins — but it is much easier to carry! That is why we use notes for bigger amounts.",
+   "emoji": "💵",
+   "bgColor": "from-emerald-400 to-teal-500",
+   "spoken": "A fifty-rupee note equals fifty one-rupee coins.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Same value!",
+    "data": {
+     "steps": [
+      "₹50 note",
+      "=",
+      "50 one-rupee coins"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Add Coins to Find the Total 🧮",
+   "text": "Add each coin as you count! ₹5 and ₹5 and ₹2: five plus five is ten, ten plus two is twelve. The total is ₹12!",
+   "emoji": "🧮",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": "Add coin after coin to find the total money.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Adding coins",
+    "data": {
+     "steps": [
+      "₹5 + ₹5 = ₹10",
+      "₹10 + ₹2",
+      "= ₹12"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Add a Note and a Coin 🧾",
+   "text": "Notes and coins add together too! A ₹20 note and a ₹5 coin: 20 plus 5 makes 25. You have ₹25. Always add the note first, then add each coin.",
+   "emoji": "🧾",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": "Add the note first, then add the coins.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Note plus coin",
+    "data": {
+     "steps": [
+      "₹20 note",
+      "+ ₹5 coin",
+      "= ₹25"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Many Ways to Make an Amount 💡",
+   "text": "The same amount can be made in different ways! ₹20 can be ONE ₹20 note, or TWO ₹10 notes, or even ₹10 + ₹5 + ₹5. Different coins and notes, same total!",
+   "emoji": "💡",
+   "bgColor": "from-rose-400 to-red-500",
+   "spoken": "The same amount of money can be made in many ways.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Make ₹20",
+    "data": {
+     "steps": [
+      "One ₹20 note",
+      "Two ₹10 notes",
+      "All make ₹20!"
+     ]
+    }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "add_money",
+   "question": "Add the money: ₹5 + ₹5 = ?",
+   "answer": "₹10",
+   "options": [
+    "₹8",
+    "₹10",
+    "₹12"
+   ],
+   "hint": "Two fives: 5... 10!",
+   "misconception": "5 + 5 = 10, so two ₹5 coins make ₹10.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹8",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹10",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹12",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "add_money",
+   "question": "Add the notes: ₹10 + ₹10 = ?",
+   "answer": "₹20",
+   "options": [
+    "₹12",
+    "₹20",
+    "₹22"
+   ],
+   "hint": "Two tens make twenty!",
+   "misconception": "10 + 10 = 20, so two ₹10 notes make ₹20.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹12",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹20",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹22",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "add_money",
+   "question": "A ₹20 note and a ₹5 coin make how much?",
+   "answer": "₹25",
+   "options": [
+    "₹25",
+    "₹30",
+    "₹35"
+   ],
+   "hint": "Start at 20 and count on 5: 21, 22, 23, 24, 25!",
+   "misconception": "20 + 5 = 25.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹25",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹30",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹35",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "add_money",
+   "question": "A ₹50 note and a ₹10 note make how much?",
+   "answer": "₹60",
+   "options": [
+    "₹51",
+    "₹60",
+    "₹70"
+   ],
+   "hint": "50 plus 10 — count on from 50: 51... 60!",
+   "misconception": "50 + 10 = 60.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹51",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹60",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹70",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "Which set of money makes EXACTLY ₹15?",
+   "answer": "A ₹10 note and a ₹5 coin",
+   "options": [
+    "A ₹10 note and a ₹2 coin",
+    "A ₹10 note and a ₹5 coin",
+    "Two ₹5 coins"
+   ],
+   "hint": "Add each set: which one totals 15?",
+   "misconception": "10 + 5 = 15. The other sets make ₹12 and ₹10.",
+   "storyBeat": "rising"
+  },
+  {
+   "type": "sort_coin_note",
+   "question": "Sort each money into the right box!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Metal and round = coin. Paper = note.",
+   "misconception": "₹1 and ₹2 are coins. ₹50 and ₹100 come as notes.",
+   "sortItems": [
+    {
+     "id": "s1",
+     "label": "₹2",
+     "emoji": "🪙",
+     "correctBin": "coins"
+    },
+    {
+     "id": "s2",
+     "label": "₹50",
+     "emoji": "💵",
+     "correctBin": "notes"
+    },
+    {
+     "id": "s3",
+     "label": "₹100",
+     "emoji": "💵",
+     "correctBin": "notes"
+    },
+    {
+     "id": "s4",
+     "label": "₹1",
+     "emoji": "🪙",
+     "correctBin": "coins"
+    }
+   ],
+   "bins": [
+    {
+     "id": "coins",
+     "label": "Coins 🪙",
+     "color": "#FFD700"
+    },
+    {
+     "id": "notes",
+     "label": "Notes 💵",
+     "color": "#10B981"
+    }
+   ],
+   "storyBeat": "rising"
+  },
+  {
+   "type": "add_money",
+   "question": "Meena has one ₹20 note and one ₹10 note. How much money does she have?",
+   "answer": "₹30",
+   "options": [
+    "₹20",
+    "₹30",
+    "₹40"
+   ],
+   "hint": "Add the notes: 20 plus 10.",
+   "misconception": "20 + 10 = 30, so Meena has ₹30.",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹20",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹30",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹40",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "Which is MORE money?",
+   "answer": "₹50 note",
+   "options": [
+    "₹20 note",
+    "₹50 note",
+    "Same"
+   ],
+   "hint": "50 is a bigger number than 20!",
+   "misconception": "50 is more than 20, so the ₹50 note is more money.",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "rectangle",
+     "label": "₹20 note",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "rectangle",
+     "label": "₹50 note",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "rectangle",
+     "label": "Same",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  }
+ ],
+ "subject": "maths",
+ "theme": "market",
+ "storyArc": {
+  "theme": "Shyam's kirana shop gets a big delivery",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "Shyam shows the coins and notes in his shop",
+    "mascotDialogue": "Welcome! Let's look at my money together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A customer wants to add her money",
+    "mascotDialogue": "Let's add it up, step by step!"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "Bigger notes arrive in the till",
+    "mascotDialogue": "Bigger notes now — you can do it!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The exact-₹15 challenge",
+    "mascotDialogue": "Which set makes EXACTLY fifteen rupees?"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The shop closes with happy counting",
+    "mascotDialogue": "Wonderful! You added like a real shopkeeper!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-shelves",
+  "title": "Shyam's Shop Shelf",
+  "totalPieces": 8
+ }
+}

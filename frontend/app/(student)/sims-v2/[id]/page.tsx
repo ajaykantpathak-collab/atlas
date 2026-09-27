@@ -108,11 +108,18 @@ export default function SimV2Page() {
                             {subj.label}
                         </span>
                         {chapterLabel && <span className="text-white/45">{chapterLabel}</span>}
-                        {topics > 0 && (
-                            <span className="flex items-center gap-1 text-white/45">
-                                <BookOpen size={10} /> Teaches {topics} topic{topics === 1 ? '' : 's'}
-                            </span>
+                        {topics > 0 && meta?.n?.[0] && (
+                            // SIM→LEARN backlink: the sim is anchored to its
+                            // node so the student can open the lesson it teaches.
+                            <Link
+                                href={`/learn/${encodeURIComponent(meta.n[0])}`}
+                                className="flex items-center gap-1 rounded-md px-1.5 py-0.5 text-white/45 transition hover:text-amber-300"
+                                title="Open the lesson this sim teaches"
+                            >
+                                <BookOpen size={10} /> {chapterLabel || 'Open lesson'} · {topics} topic{topics === 1 ? '' : 's'} →
+                            </Link>
                         )}
+                        {topics === 0 && null}
                         {neighbors.total > 0 && (
                             <span className="ml-auto hidden text-white/35 sm:block">
                                 {neighbors.pos} / {neighbors.total} in class

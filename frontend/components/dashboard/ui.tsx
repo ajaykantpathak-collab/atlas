@@ -66,10 +66,13 @@ export function SkeletonBlock({ className = "" }: { className?: string }) {
 
 export function StatCardSkeleton() {
   return (
-    <div className="glass-card rounded-2xl p-6">
-      <SkeletonBlock className="h-3 w-24 mb-4" />
-      <SkeletonBlock className="h-9 w-20 mb-3" />
-      <SkeletonBlock className="h-2.5 w-32" />
+    // min-w-0 + max-w-full: in a 3-col grid on a 390px phone each card is
+    // ~108px wide — fixed-width skeleton bars (w-24/w-32) would force the
+    // grid wider and cause device horizontal scroll.
+    <div className="glass-card rounded-2xl p-6 min-w-0">
+      <SkeletonBlock className="h-3 w-24 max-w-full mb-4" />
+      <SkeletonBlock className="h-9 w-20 max-w-full mb-3" />
+      <SkeletonBlock className="h-2.5 w-32 max-w-full" />
     </div>
   );
 }

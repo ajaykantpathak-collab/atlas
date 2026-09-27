@@ -1,0 +1,548 @@
+{
+ "gameFile": "MoneyOperationsGame",
+ "classLevel": 4,
+ "cisceNodes": [
+  "c4_math_010",
+  "c4_math_015"
+ ],
+ "mascot": "Cashier Chitra — a friendly bank cashier with a neat blue saree, a counting tray and quick, careful fingers",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "The Shopping Bill 🧾",
+   "text": "A bill lists what you bought and each price. To check a bill, ADD all the prices. Rice ₹45, dal ₹30, oil ₹25: 45 + 30 = 75, and 75 + 25 = 100. The bill is ₹100!",
+   "emoji": "🧾",
+   "bgColor": "from-amber-400 to-orange-500",
+   "spoken": "Add all the prices on a bill to find the total.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Adding a bill",
+    "data": {
+     "steps": [
+      "₹45 + ₹30 = ₹75",
+      "₹75 + ₹25",
+      "= ₹100"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Adding Money by Place Value 🧮",
+   "text": "Add money like numbers! ₹25 + ₹35: ones first, 5 + 5 = 10, carry the ten; tens next, 2 + 3 = 5, plus the carried ten makes 6. Total ₹60!",
+   "emoji": "🧮",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": "Add rupees just like numbers, ones first then tens.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Column addition",
+    "data": {
+     "steps": [
+      "Ones: 5 + 5 = 10",
+      "Carry the ten",
+      "Tens: 2 + 3 + 1 = 6 → ₹60"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Change = Paid − Price 🔁",
+   "text": "Change is what you get back. Change = money paid − price. A dress costs ₹180 and you pay ₹200: 200 − 180 = 20, so the change is ₹20.",
+   "emoji": "🔁",
+   "bgColor": "from-emerald-400 to-teal-500",
+   "spoken": "Subtract the price from the money paid to get the change.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Finding change",
+    "data": {
+     "steps": [
+      "Paid ₹200",
+      "− Price ₹180",
+      "Change ₹20"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Two-Step Shopping 🛍️",
+   "text": "Some problems need TWO steps! First add what you bought, then subtract from what you paid. Shoes ₹250 + socks ₹40 = ₹290. Paid ₹500: 500 − 290 = ₹210 change!",
+   "emoji": "🛍️",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": "First add the items, then subtract from the money paid.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Two steps",
+    "data": {
+     "steps": [
+      "₹250 + ₹40 = ₹290",
+      "₹500 − ₹290",
+      "= ₹210 change"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Check the Bill! ✅",
+   "text": "Smart shoppers ALWAYS check: add the items again — does it match the total? ₹65 + ₹45: 5 + 5 = 10, 6 + 4 = 10, carry... ₹110. If the bill says ₹120, say 'please check!'",
+   "emoji": "✅",
+   "bgColor": "from-rose-400 to-red-500",
+   "spoken": "Add the prices again to check the bill's total.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Checking",
+    "data": {
+     "steps": [
+      "₹65 + ₹45",
+      "Ones 10, tens 10+1",
+      "= ₹110 ✅"
+     ]
+    }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "add_money",
+   "question": "Add the money: ₹25 + ₹35 = ?",
+   "answer": "₹60",
+   "options": [
+    "₹50",
+    "₹60",
+    "₹70"
+   ],
+   "hint": "Ones: 5 + 5 = 10, carry. Tens: 2 + 3 + 1 = 6.",
+   "misconception": "25 + 35 = 60.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹50",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹60",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹70",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "add_money",
+   "question": "Add: ₹120 + ₹80 = ?",
+   "answer": "₹200",
+   "options": [
+    "₹190",
+    "₹200",
+    "₹210"
+   ],
+   "hint": "120 + 80: think 12 + 8 = 20 tens.",
+   "misconception": "120 + 80 = 200.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹190",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹200",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹210",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "add_money",
+   "question": "Bill: rice ₹45, dal ₹30, oil ₹25. What is the total?",
+   "answer": "₹100",
+   "options": [
+    "₹90",
+    "₹100",
+    "₹110"
+   ],
+   "hint": "45 + 30 = 75 first, then add 25.",
+   "misconception": "45 + 30 + 25 = 100, so the bill is ₹100.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹90",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹100",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹110",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "money_change",
+   "question": "A dress costs ₹180. Sana pays ₹200. How much change?",
+   "answer": "₹20",
+   "options": [
+    "₹10",
+    "₹20",
+    "₹30"
+   ],
+   "hint": "Change = 200 − 180. Count up from 180 to 200!",
+   "misconception": "200 − 180 = 20, so the change is ₹20.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹10",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹20",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹30",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "money_change",
+   "question": "Rahul buys shoes for ₹250 and socks for ₹40. He pays ₹500. How much change does he get?",
+   "answer": "₹210",
+   "options": [
+    "₹190",
+    "₹210",
+    "₹260"
+   ],
+   "hint": "Step 1: add 250 and 40. Step 2: subtract that from 500.",
+   "misconception": "250 + 40 = 290, and 500 − 290 = 210. Rahul gets ₹210.",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹190",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹210",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹260",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "sort_can_buy",
+   "question": "You have a ₹100 note. Sort each thing: can you buy it, or does it need more money?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Prices up to ₹100 can be paid with a ₹100 note.",
+   "misconception": "₹60 and ₹90 cost less than ₹100. ₹350 and ₹180 cost more.",
+   "sortItems": [
+    {
+     "id": "s1",
+     "label": "Crayons ₹60",
+     "emoji": "🖍️",
+     "correctBin": "enough"
+    },
+    {
+     "id": "s2",
+     "label": "School bag ₹350",
+     "emoji": "🎒",
+     "correctBin": "needs_more"
+    },
+    {
+     "id": "s3",
+     "label": "Water bottle ₹90",
+     "emoji": "🍶",
+     "correctBin": "enough"
+    },
+    {
+     "id": "s4",
+     "label": "Dictionary ₹180",
+     "emoji": "📚",
+     "correctBin": "needs_more"
+    }
+   ],
+   "bins": [
+    {
+     "id": "enough",
+     "label": "₹100 is enough ✅",
+     "color": "#10B981"
+    },
+    {
+     "id": "needs_more",
+     "label": "Needs more than ₹100 ❌",
+     "color": "#EF4444"
+    }
+   ],
+   "storyBeat": "rising"
+  },
+  {
+   "type": "add_money",
+   "question": "Which is the correct total: ₹65 + ₹45 = ?",
+   "answer": "₹110",
+   "options": [
+    "₹100",
+    "₹110",
+    "₹120"
+   ],
+   "hint": "Ones: 5 + 5 = 10. Tens: 6 + 4 = 10. Put them together with the carry.",
+   "misconception": "65 + 45 = 110.",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹100",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹110",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹120",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "money_change",
+   "question": "Anita has ₹500. She buys a game for ₹150. How much money is left?",
+   "answer": "₹350",
+   "options": [
+    "₹250",
+    "₹350",
+    "₹450"
+   ],
+   "hint": "Subtract: 500 − 150. Count up from 150 to 500!",
+   "misconception": "500 − 150 = 350, so ₹350 is left.",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹250",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹350",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹450",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  }
+ ],
+ "subject": "maths",
+ "theme": "market",
+ "storyArc": {
+  "theme": "Cashier Chitra checks the day's biggest bills",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "Chitra opens the counter and sorts the notes",
+    "mascotDialogue": "Welcome to my counter! Let's add the bills!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A long bill with three items arrives",
+    "mascotDialogue": "Add every price, line by line!"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "Customers pay with big notes",
+    "mascotDialogue": "Now find the change — subtract carefully!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The two-step ₹500 bill",
+    "mascotDialogue": "The big one: add first, then find the change!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The counter closes with every bill checked",
+    "mascotDialogue": "Every bill correct! You are a money master!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Chitra's Day Ledger",
+  "totalPieces": 8
+ }
+}

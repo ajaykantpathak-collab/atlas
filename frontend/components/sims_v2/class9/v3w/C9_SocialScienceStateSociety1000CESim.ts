@@ -16,7 +16,7 @@ export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
     discovery: {
         question: 'Why did Alauddin Khalji\'s market control regulations (fixing grain prices, regulating merchants) provoke resistance not only from traders but also from rural.',
         options: ['Correct answer: Price ceilings forced peasants to sell at below-market rates to', 'trader greed', 'governance affects society'],
-        answer: 'Correct answer: Price ceilings forced peasants to sell at below-market rates to',
+        answer: 'Price ceilings forced peasants to sell at below-market rates to',
         hook: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.',
     },
     teaching: [
@@ -96,11 +96,11 @@ export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
           hint: 'If stuck, revisit Class 7 node c7_hist_ch02_008 (Mauryan Administration) for the.',
           misconception: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.',
           parts: [
-                { id: 'a', prompt: 'Why did Alauddin Khalji\'s market control regulations (fixing grain prices, regulating merchants) provoke resistance not only from traders but also from rural.', answer: 'Correct answer: Price ceilings forced peasants to sell at below-market rates to',
+                { id: 'a', prompt: 'Why did Alauddin Khalji\'s market control regulations (fixing grain prices, regulating merchants) provoke resistance not only from traders but also from rural.', answer: 'Price ceilings forced peasants to sell at below-market rates to',
                   options: ['Correct answer: Price ceilings forced peasants to sell at below-market rates to', 'trader greed', 'governance affects society'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.' },
-                { id: 'b', prompt: 'Analyse how the Bhakti and Sufi movements (studied in Classes 6–7) simultaneously challenged and accommodated existing political authority.', answer: 'Correct answer: Challenge',
+                { id: 'b', prompt: 'Analyse how the Bhakti and Sufi movements (studied in Classes 6–7) simultaneously challenged and accommodated existing political authority.', answer: 'Challenge',
                   options: ['Correct answer: Challenge', 'religious reform', 'governance affects society'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.' }
@@ -111,7 +111,7 @@ export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the historian\'s claim: "The 1857 Revolt was primarily a political uprising of displaced elites, not a social revolution of the peasantry." Use.', answer: 'Correct answer: The claim is partially valid but incomplete',
+                { id: 'a', prompt: 'Evaluate the historian\'s claim: "The 1857 Revolt was primarily a political uprising of displaced elites, not a social revolution of the peasantry." Use.', answer: 'The claim is partially valid but incomplete',
                   options: ['Correct answer: The claim is partially valid but incomplete', 'governance affects society'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.' },
@@ -119,7 +119,7 @@ export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
                   options: ['Expected answer: *Chauth/sardeshmukhi* were negotiable, often shared with local', 'governance affects society'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.' },
-                { id: 'c', prompt: 'Analyse how the Bhakti and Sufi movements (studied in Classes 6–7) simultaneously challenged and accommodated existing political authority.', answer: 'Correct answer: Challenge',
+                { id: 'c', prompt: 'Analyse how the Bhakti and Sufi movements (studied in Classes 6–7) simultaneously challenged and accommodated existing political authority.', answer: 'Challenge',
                   options: ['Correct answer: Challenge', 'religious reform', 'governance affects society'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.' }

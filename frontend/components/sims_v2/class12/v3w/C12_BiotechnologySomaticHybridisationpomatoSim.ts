@@ -16,7 +16,7 @@ export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
     discovery: {
         question: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).',
         options: ['Correct answer: (1) Dedifferentiation', 'mitosis causes callus', 'auxin alone causes shoots'],
-        answer: 'Correct answer: (1) Dedifferentiation',
+        answer: '(1) Dedifferentiation',
         hook: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical.',
     },
     teaching: [
@@ -96,7 +96,7 @@ export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
           hint: 'If stuck, revisit c11_biotech_cbse_02_009 (nucleus/chromatin) and c11_bio_cbse_13_003/004.',
           misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical.',
           parts: [
-                { id: 'a', prompt: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).', answer: 'Correct answer: (1) Dedifferentiation',
+                { id: 'a', prompt: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).', answer: '(1) Dedifferentiation',
                   options: ['Correct answer: (1) Dedifferentiation', 'mitosis causes callus', 'auxin alone causes shoots'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical constraints: (1).' },
@@ -152,11 +152,11 @@ export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
           hint: 'If stuck, revisit c12_biotech_cbse_06_001 (totipotency basis) and c11_biotech_cbse_12_011.',
           misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all.',
           parts: [
-                { id: 'a', prompt: 'A REMEMBER level question: List the four most common chemical disinfectants used for plant explant surface sterilization and state the typical concentration.', answer: 'Correct answer: (1) Sodium hypochlorite (NaOCl)',
+                { id: 'a', prompt: 'A REMEMBER level question: List the four most common chemical disinfectants used for plant explant surface sterilization and state the typical concentration.', answer: '(1) Sodium hypochlorite (NaOCl)',
                   options: ['Correct answer: (1) Sodium hypochlorite (NaOCl)', '5% NaOCl for 30 min', 'stronger sterilization = cleaner culture'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all explants.' },
-                { id: 'b', prompt: 'An UNDERSTAND level question: Explain why meristem-tip culture (0.1–0.5 mm) is the preferred explant for virus elimination in crops like potato and banana,.', answer: 'Correct answer: Meristems lack vascular tissue and often have no virus particles',
+                { id: 'b', prompt: 'An UNDERSTAND level question: Explain why meristem-tip culture (0.1–0.5 mm) is the preferred explant for virus elimination in crops like potato and banana,.', answer: 'Meristems lack vascular tissue and often have no virus particles',
                   options: ['Correct answer: Meristems lack vascular tissue and often have no virus particles', 'meristems are more totipotent', 'leaf discs are too differentiated'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all explants.' },

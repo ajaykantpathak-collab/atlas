@@ -8,7 +8,7 @@ export const c6_english_ch01_p2: SimDef = {
     subtitle: 'This node covers the strategy of using context clues to derive word meaning.',
     classLevel: 6, subject: 'english', topic: 'Learning Together · Part 2/2',
     chapters: ['c6_english_ch01'],
-    nodeIds: ['c6_english_u1_001', 'c6_english_u1_002', 'c6_english_u1_009', 'c6_english_u1_003'],
+    nodeIds: ['c6_english_u1_007', 'c6_english_u1_008', 'c6_english_u1_009', 'c6_english_u1_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever been reading a story and bumped into a word you didn’t recognize, like \'tended\' or \'muttered\'?', goal: 'Master every idea in this chapter.' },

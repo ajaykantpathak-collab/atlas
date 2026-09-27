@@ -142,7 +142,7 @@ export function BoardSelector() {
           </div>
 
           <div className="text-xs text-surface-600 mb-3 p-3 rounded-xl bg-surface-200/20 border border-surface-300/20">
-            <span className="text-brand-300 font-medium">Prism AI</span> will personalize your learning path, diagnostic scans, and practice questions for {board} {className}. Every topic mapped to your syllabus.
+            <span className="text-brand-300 font-medium">Atlas AI</span> will personalize your learning path, diagnostic scans, and practice questions for {board} {className}. Every topic mapped to your syllabus.
           </div>
 
           <a

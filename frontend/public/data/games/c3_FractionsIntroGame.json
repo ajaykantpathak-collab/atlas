@@ -1,0 +1,498 @@
+{
+ "gameFile": "FractionsIntroGame",
+ "classLevel": 3,
+ "cisceNodes": [],
+ "mascot": "Fraction Farah — a friendly baker with a round chapati, a rolling pin and a famous fair-share smile",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "One Whole Roti 🫓",
+   "text": "This is ONE WHOLE roti — nothing broken, nothing missing! When we cut a whole into equal pieces, each piece gets a special name. Fractions begin here!",
+   "emoji": "🫓",
+   "bgColor": "from-amber-400 to-orange-500",
+   "spoken": "One whole means nothing is cut away yet.",
+   "diagram": {
+    "type": "fraction-pizza",
+    "animate": true,
+    "title": "1 whole roti",
+    "data": {
+     "slices": 1,
+     "filled": 1
+    }
+   }
+  },
+  {
+   "title": "The HALF (1/2) 🍕",
+   "text": "Cut the roti into 2 EQUAL parts — each part is called a HALF! Two halves put together make 1 whole. We write half as 1/2.",
+   "emoji": "🍕",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": "Two equal parts: each one is a half.",
+   "diagram": {
+    "type": "fraction-pizza",
+    "animate": true,
+    "title": "1 of 2 equal parts = half",
+    "data": {
+     "slices": 2,
+     "filled": 1
+    }
+   }
+  },
+  {
+   "title": "Equal Parts Matter! ⚖️",
+   "text": "Careful! A half must be an EQUAL part. If you cut one big bit and one small bit, neither is a true half! Both parts must be exactly the same size.",
+   "emoji": "⚖️",
+   "bgColor": "from-emerald-400 to-teal-500",
+   "spoken": "Only equal parts can be called halves.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Equal or not",
+    "data": {
+     "steps": [
+      "Cut in 2 equal parts",
+      "✅ true halves",
+      "Big + small = NOT halves"
+     ]
+    }
+   }
+  },
+  {
+   "title": "The QUARTER (1/4) 🍰",
+   "text": "Cut the roti into 4 EQUAL parts — each part is a QUARTER! Four quarters make 1 whole. We write quarter as 1/4.",
+   "emoji": "🍰",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": "Four equal parts: each one is a quarter.",
+   "diagram": {
+    "type": "fraction-pizza",
+    "animate": true,
+    "title": "1 of 4 equal parts = quarter",
+    "data": {
+     "slices": 4,
+     "filled": 1
+    }
+   }
+  },
+  {
+   "title": "2 Quarters = 1 Half! 💡",
+   "text": "Here is a secret: two quarters make one half! Take 2 of the 4 equal parts — that is exactly half the roti. Half of 4 pieces is 2 pieces!",
+   "emoji": "💡",
+   "bgColor": "from-rose-400 to-red-500",
+   "spoken": "Two quarters joined together equal one half.",
+   "diagram": {
+    "type": "fraction-pizza",
+    "animate": true,
+    "title": "2 of 4 equal parts = half",
+    "data": {
+     "slices": 4,
+     "filled": 2
+    }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "choose_calc",
+   "question": "Amma cuts a roti into 2 EQUAL parts. What is each part called?",
+   "answer": "A half",
+   "options": [
+    "A whole",
+    "A half",
+    "A quarter"
+   ],
+   "hint": "Two equal parts — each one has a special name!",
+   "misconception": "Two equal parts mean each part is a half.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "A whole",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "A half",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "A quarter",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "How many halves make 1 whole?",
+   "answer": "2",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "hint": "Put two half-rotis together — what do you get?",
+   "misconception": "Two halves join to make one whole.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "2",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "3",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "4",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "A chapati is cut into 4 EQUAL parts. One part is called?",
+   "answer": "A quarter",
+   "options": [
+    "A half",
+    "A quarter",
+    "A whole"
+   ],
+   "hint": "Count the parts: 1, 2, 3, 4 equal pieces!",
+   "misconception": "One part out of 4 equal parts is a quarter.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "A half",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "A quarter",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "A whole",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "How many quarters make 1 whole?",
+   "answer": "4",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "hint": "All 4 equal pieces together make the whole roti!",
+   "misconception": "Four quarters join to make one whole.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "pizza",
+     "label": "2",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "pizza",
+     "label": "3",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "pizza",
+     "label": "4",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": true,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "Which roti shows EQUAL parts?",
+   "answer": "Cut into 2 equal parts",
+   "options": [
+    "One big part and one small part",
+    "Cut into 2 equal parts",
+    "Three parts of different sizes"
+   ],
+   "hint": "Fractions need parts that are exactly the same size!",
+   "misconception": "Only equal parts can be called halves or quarters.",
+   "storyBeat": "rising"
+  },
+  {
+   "type": "sort_half_quarter",
+   "question": "Sort each sharing by how much of the SAME roti it is!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Half means 1 of 2 equal shares. Quarter means 1 of 4 equal shares.",
+   "misconception": "4 of 8 and 5 of 10 are halves. 2 of 8 and 3 of 12 are quarters.",
+   "sortItems": [
+    {
+     "id": "s1",
+     "label": "Half of 8 mangoes = 4 mangoes",
+     "emoji": "🥭",
+     "correctBin": "half"
+    },
+    {
+     "id": "s2",
+     "label": "Quarter of 8 mangoes = 2 mangoes",
+     "emoji": "🥭",
+     "correctBin": "quarter"
+    },
+    {
+     "id": "s3",
+     "label": "Half of 10 laddoos = 5 laddoos",
+     "emoji": "🍡",
+     "correctBin": "half"
+    },
+    {
+     "id": "s4",
+     "label": "Quarter of 12 barfis = 3 barfis",
+     "emoji": "🍮",
+     "correctBin": "quarter"
+    }
+   ],
+   "bins": [
+    {
+     "id": "half",
+     "label": "Half (1/2) 🍕",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "quarter",
+     "label": "Quarter (1/4) 🍰",
+     "color": "#8B5CF6"
+    }
+   ],
+   "storyBeat": "rising"
+  },
+  {
+   "type": "choose_calc",
+   "question": "Diya cuts an apple into 2 equal parts and eats 1 part. How much apple is LEFT?",
+   "answer": "A half",
+   "options": [
+    "A quarter",
+    "A half",
+    "Nothing"
+   ],
+   "hint": "The apple had 2 equal parts. One part is gone. One is left!",
+   "misconception": "One of the two halves remains, so half the apple is left.",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "apple",
+     "label": "A quarter",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "apple",
+     "label": "A half",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "apple",
+     "label": "Nothing",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "Which is MORE: half of the SAME laddoo, or a quarter of it?",
+   "answer": "Half",
+   "options": [
+    "Half",
+    "Quarter",
+    "Same"
+   ],
+   "hint": "More pieces means smaller pieces: 2 parts or 4 parts?",
+   "misconception": "A half is 1 of 2 big equal parts; a quarter is 1 of 4 smaller parts. Half is more.",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "ball",
+     "label": "Half",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "ball",
+     "label": "Quarter",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "ball",
+     "label": "Same",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#FFD700",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  }
+ ],
+ "subject": "maths",
+ "theme": "kitchen",
+ "storyArc": {
+  "theme": "Farah the baker shares rotis fairly",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "Farah holds up one whole roti",
+    "mascotDialogue": "Welcome to my kitchen! Let's share rotis fairly!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "Two friends want equal shares",
+    "mascotDialogue": "Cut it in two EQUAL parts!"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "Four friends arrive — uh oh!",
+    "mascotDialogue": "Now we need quarters!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The fair-sharing puzzle",
+    "mascotDialogue": "The big one: how do 2 quarters compare to a half?"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "Everyone got a fair share",
+    "mascotDialogue": "Perfect sharing! You are a fraction friend!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "completing-puzzle",
+  "title": "Farah's Fair Roti",
+  "totalPieces": 8
+ }
+}

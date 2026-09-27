@@ -105,7 +105,7 @@ export const w_c11_accountancyfromextractbothsim: SimDef = {
           hint: 'Revisit c11_acc_cbse_02_001 (GAAP) to see how concepts fit into the hierarchy, and.',
           misconception: 'Students often think Conservatism means "always choose the lowest value" and Materiality means "anything under ₹5,000.',
           parts: [
-                { id: 'a', prompt: 'Compare and contrast Conservatism and Materiality: can they ever conflict? Give a concrete situation where applying one concept might seem to violate the other.', answer: 'Correct answer: They can appear to conflict',
+                { id: 'a', prompt: 'Compare and contrast Conservatism and Materiality: can they ever conflict? Give a concrete situation where applying one concept might seem to violate the other.', answer: 'They can appear to conflict',
                   options: ['Correct answer: They can appear to conflict', 'they never conflict', 'always choose the lowest value'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think Conservatism means "always choose the lowest value" and Materiality means "anything under ₹5,000 can be ignored".' }
@@ -116,7 +116,7 @@ export const w_c11_accountancyfromextractbothsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think Conservatism means "always choose the lowest value" and Materiality means "anything under ₹5,000.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the following statement: "Conservatism ensures that financial statements show the worst-case scenario, so they are always reliable for creditors.".', answer: 'Correct answer: Refute',
+                { id: 'a', prompt: 'Evaluate the following statement: "Conservatism ensures that financial statements show the worst-case scenario, so they are always reliable for creditors.".', answer: 'Refute',
                   options: ['Correct answer: Refute', 'agree, worst-case is safest', 'deliberate attempt to underestimate', 'always choose the lowest value'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think Conservatism means "always choose the lowest value" and Materiality means "anything under ₹5,000 can be ignored".' },
@@ -124,7 +124,7 @@ export const w_c11_accountancyfromextractbothsim: SimDef = {
                   options: ['Good answer: Firm buys 1,000 units of raw material at ₹100/unit', 'always choose the lowest value', 'anything under ₹5,000 can be ignored'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think Conservatism means "always choose the lowest value" and Materiality means "anything under ₹5,000 can be ignored".' },
-                { id: 'c', prompt: 'Compare and contrast Conservatism and Materiality: can they ever conflict? Give a concrete situation where applying one concept might seem to violate the other.', answer: 'Correct answer: They can appear to conflict',
+                { id: 'c', prompt: 'Compare and contrast Conservatism and Materiality: can they ever conflict? Give a concrete situation where applying one concept might seem to violate the other.', answer: 'They can appear to conflict',
                   options: ['Correct answer: They can appear to conflict', 'they never conflict', 'always choose the lowest value', 'anything under ₹5,000 can be ignored'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think Conservatism means "always choose the lowest value" and Materiality means "anything under ₹5,000 can be ignored".' }

@@ -14,7 +14,7 @@ export const c12_math_ch02_p2: SimDef = {
     scenario: { role: 'Function restrictor', intro: 'Every trig ratio hides infinitely many angles; the principal branch is the rule that chooses exactly one.', goal: 'Master principal value branches — why restriction creates inverses and where each function\'s answer must live.' },
     discovery: {
         question: '\'The angle whose tangent is 1/12\' has infinitely many answers — yet the ramp engineer needs exactly one. How do we force uniqueness?',
-        options: ['Restrict the domain — chop sine, cosine, tangent to intervals where they\'re one-to-one, so each ratio maps to a single principal-value angle', 'Round the answer', 'Use degrees', 'Pick the smallest'],
+        options: ['Restrict the domain — chop sine, cosine, tangent to intervals where they\'re one-to-one, so each ratio maps to a single principal-value angle', 'Round the answer — take whichever decimal fits the drawing', 'Convert to degrees — one fixed unit system removes the ambiguity', 'Take the smallest positive angle — the principal value is just convention'],
         answer: 'Restrict the domain — chop sine, cosine, tangent to intervals where they\'re one-to-one, so each ratio maps to a single principal-value angle',
         hook: 'The inverse\'s domain is the original\'s range and vice versa — that\'s why sec⁻¹ refuses |x|<1: sec never lands there. And tan⁻¹(−√3) is −π/3, not 2π/3: the answer must live inside the branch, not just satisfy the equation.',
     },

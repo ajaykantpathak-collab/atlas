@@ -14,7 +14,7 @@ export const c12_hs_ch13_p2: SimDef = {
     scenario: { role: 'Consumer-law analyst', intro: 'Three shoppers buy the same notebooks — mother, principal, kirana owner. Only two are consumers.', goal: 'Classify consumers by purpose of purchase — and why resellers fall outside the Act\'s protection.' },
     discovery: {
         question: 'A hospital buys an MRI; a distributor buys the same MRI to resell. Two organisations, one machine — only one is a \'consumer\' under the law. Which, and why?',
-        options: ['The hospital — consumer status follows end-use, not buyer type; the distributor purchases for resale, which the Act excludes', 'The distributor', 'Both are consumers', 'Neither is'],
+        options: ['The hospital — consumer status follows end-use, not buyer type; the distributor purchases for resale, which the Act excludes', 'The distributor — whoever pays for goods counts as a consumer', 'Both — the Act protects every purchase of goods or services equally', 'Neither — consumer status applies only to individuals, never organisations'],
         answer: 'The hospital — consumer status follows end-use, not buyer type; the distributor purchases for resale, which the Act excludes',
         hook: '\'Anyone who pays is a consumer\' is wrong — the law protects personal, household and self-employment purchases only. A freelancer\'s laptop is a consumer purchase; a factory\'s raw cotton is not. Purpose, not payment, is the test.',
     },

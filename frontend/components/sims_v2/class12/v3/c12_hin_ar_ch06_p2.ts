@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch06_p2: SimDef = {
     id: 'v3_c12_hin_ar_ch06_p2',
-    title: 'xksLokeh rqylhnkl · Part 2/3',
+    title: 'बादल राग · Part 2/3',
     subtitle: 'Why Nirala chose the moment even Rama knelt',
-    classLevel: 12, subject: 'hin_ar', topic: 'xksLokeh rqylhnkl · Part 2/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'बादल राग · Part 2/3',
     chapters: ['c12_hin_ar_ch06'],
     nodeIds: ['c12_hin_ar_cbse_06_007', 'c12_hin_ar_cbse_06_008', 'c12_hin_ar_cbse_06_009', 'c12_hin_ar_cbse_06_010', 'c12_hin_ar_cbse_06_011', 'c12_hin_ar_cbse_06_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,54 +19,15 @@ export const c12_hin_ar_ch06_p2: SimDef = {
         hook: 'Not a retelling — a re-visioning: an eleven-canto blank-verse epic that claims classical lineage for modern Hindi while encoding a freedom struggle and private grief inside Rama\'s helplessness. Chhayavad\'s interiority scaled to epic architecture.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the subordinate yet significant ideas, motifs, or concerns that run parallel to the primary theme in a literary work, enriching its texture by adding layers of meaning, providing.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बादल राग — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '**प्रतीक (Symbol):** एक वस्तु, व्यक्ति, या स्थिति जो अपने शाब्दिक अर्थ के साथ-साथ एक गहरा, अमूर्त अर्थ (जैसे विचार, भावना, या आदर्श) भी धारण करती है। **बिंब (Image/Imagery):** कवि द्वारा शब्दों के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_06_007', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Stand beside Rama before Lanka: weigh why Shakti Puja was the chosen moment, compare epic structure with lyric intensity, and hunt the allegory running beneath the myth.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_06_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a documentary about a butterfly — the primary focus is its metamorphosis, but the camera keeps lingering on the monsoon clouds.',
-            decisions: [{ prompt: 'Identify the secondary theme suggested by the repeated use of color imagery (नील, पीत, रक्त, श्याम) in the poem "चकनी जक्ख".', options: [
-                { text: 'The secondary theme is **the vitality of sensory experience as a defiance against', outcome: 'The secondary theme is **the vitality of sensory experience as a defiance against existential.' },
-                { text: 'the poem describes a beautiful butterfly', outcome: 'Not quite — Students conflate **recurring images** with **secondary themes**.', reveals: 'students-conflate-recurring-images-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_06_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are standing in a completely dark room — you cannot see, but you hear a low hum, feel cold damp walls, smell wet earth.',
-            decisions: [{ prompt: 'Define "rkfydk" (imagery) and "rqylhnkl" (metaphor) in your own words, giving one example from "ckny jkx" for each.', options: [
-                { text: 'Correct answer: Imagery is language that appeals to senses (e.g., "nq[k dh Nk;k"', outcome: 'Correct answer: Imagery is language that appeals to senses (e.g., "nq[k dh Nk;k" — visual/tactile.' },
-                { text: 'ckny jaisa jkx', outcome: 'Not quite — Students treat "ckny" (black) in the poem as a *symbol* (standing for something else) rather than.', reveals: 'students-treat-ckny-black-in' },
-                { text: 'pictures in mind', outcome: 'Not quite — Students treat "ckny" (black) in the poem as a *symbol* (standing for something else) rather than.', reveals: 'students-treat-ckny-black-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_06_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re standing in a field watching dark clouds gather — you expect a storm, but instead a gentle drizzle begins that revives the parched earth.',
-            decisions: [{ prompt: 'Define verbal irony and give one example from the poem where the speaker\'s words suggest the opposite of what is literally stated.', options: [
-                { text: 'Verbal irony occurs when a speaker says one thing but means the opposite, often to', outcome: 'Verbal irony occurs when a speaker says one thing but means the opposite, often to highlight.' },
-                { text: 'symbol for X', outcome: 'Not quite — Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g.', reveals: 'students-often-confuse-symbolism-with' },
-                { text: 'cloud = sadness', outcome: 'Not quite — Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g.', reveals: 'students-often-confuse-symbolism-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_06_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading "ckny jkx" and you hit the phrase "v\'kfu&ikr ls \'kkfir mÂr \'kr&\'kr ohj" — you know each word separately, but why does Nirala stack them.',
-            decisions: [{ prompt: 'Define "contextual meaning" of a word in poetry and explain how it differs from dictionary meaning, using one example from "ckny jkx".', options: [
-                { text: 'Contextual meaning is the specific sense a word acquires from its syntactic position,', outcome: 'Contextual meaning is the specific sense a word acquires from its syntactic position, imagery, and.' },
-                { text: 'vocabulary in context', outcome: 'Not quite — Students believe "vocabulary in context" means memorizing the NCERT glossary (jQ¼) definitions.', reveals: 'vocabulary-in-context-means-memorizing' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_06_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re reading a poem where the words feel familiar yet strangely arranged — verbs end in "gS" instead of "hE", compounds like "lehj&lkxj" pack entire.',
-            decisions: [{ prompt: 'Identify the grammatical category of the word "lehj&lkxj" in the line "frjrh gS lehj&lkxj ij" and name the specific समास (compound) type.', options: [
-                { text: '"lehj&lkxj" is a संयुक्त पद (compound word) representing the तत्पुरुष समास (specifically,', outcome: '"lehj&lkxj" is a संयुक्त पद (compound word) representing the तत्पुरुष समास (specifically, द्वितीया.' },
-                { text: 'कर्मधारय समास', outcome: 'Not quite — Students treat Braj Bhasha forms in the poem as "errors" or "old-fashioned words" rather than.', reveals: 'students-treat-braj-bhasha-forms' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_06_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE exam hall and see Question 3: "foIyo&jo ls NksVs gh gSa \'kksHkk ikrs — foIyo&jo ls D;k rkRi;Z gS\\ NksVs gh gSa \'kksHkk ikrs.',
-            decisions: [{ prompt: 'Classify each of the four vH;kl questions from the chapter as Literal (L) or Inferential (I): 1.', options: [
-                { text: 'Correct classification: 1=L, 2=I, 3=I, 4=I', outcome: 'Correct classification: 1=L, 2=I, 3=I, 4=I. Question 1 asks for a direct detail from stanza 1 (nq[k.' },
-                { text: 'inferential', outcome: 'Not quite — Students believe "inferential" means "guessing" — they write personal opinions ("I think clouds are.', reveals: 'inferential-means-guessing-they-write' },
-                { text: 'guessing', outcome: 'Not quite — Students believe "inferential" means "guessing" — they write personal opinions ("I think clouds are.', reveals: 'inferential-means-guessing-they-write' }
-            ] }] } },
+        labels: ['बादल राग — साहित्यिक', 'बादल राग — मुख्य', 'बादल राग — गौण', 'बादल राग — पदावली', 'बादल राग — व्याकरण', 'बादल राग — बोध-प्रश्न'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_06_007', title: 'Use it in the wild',
           caseStudy: { intro: 'A junior is spiralling after a brutal internship rejection: \'This is who I am now — the guy who fails.\' You remember the Firaq poem where a tree loses its leaves to the season yet the final stanza returns to the same rooted presence.',
             decisions: [{ prompt: 'How do you use the poem\'s structure with him?', options: [
@@ -76,120 +37,81 @@ export const c12_hin_ar_ch06_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_06_012', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read an epic as both myth and mirror — where a god\'s prayer for strength speaks for a poet, and a people, beseeching power.',
-            decisions: [{ prompt: 'What comes next? xksLokeh rqylhnkl · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — xksLokeh rqylhnkl · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? बादल राग · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — बादल राग · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_06_007', difficulty: 'standard',
-          question: 'Secondary themes are the subordinate yet significant ideas, motifs, or concerns.',
-          hint: 'If stuck, revisit Class 11 Chapter 6 (कबीर) node c11_hin_ar_cbse_06_007 and re-do the.',
-          misconception: 'Students conflate **recurring images** with **secondary themes**.',
+          question: '**प्रतीक (Symbol):** एक वस्तु, व्यक्ति, या स्थिति जो अपने शाब्दिक अर्थ के.',
+          hint: 'यदि फँस जाएँ: **c11_hin_ar_cbse_01_009** (विरोधाभास और प्रतीक) के \'प्रतीक की द्विअर्थिता\'.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र प्रायः मानते हैं कि **हर बिंब एक प्रतीक होता है** (Every image is a symbol)। उदाहरण: कविता.',
           parts: [
-                { id: 'a', prompt: 'Compare the secondary theme of "nature as witness" in "चकनी जक्ख" (where clouds, sun, wind observe the butterfly) with "silence as witness" in "वक्जस्ग" (where.', answer: 'In "चकनी जक्ख", nature as witness is **indifferent yet recording**',
-                  options: ['In "चकनी जक्ख", nature as witness is **indifferent yet recording**', 'both show nature is watching'],
-                  hint: 'If stuck, revisit Class 11 Chapter 6 (कबीर) node c11_hin_ar_cbse_06_007 and re-do the exercise.',
-                  misconception: 'Students conflate **recurring images** with **secondary themes**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**प्रतीक (Symbol):** एक वस्तु, व्यक्ति, या स्थिति जो अपने शाब्दिक अर्थ के साथ-साथ एक',
+                  options: ['**प्रतीक (Symbol):** एक वस्तु, व्यक्ति, या स्थिति जो अपने शाब्दिक अर्थ के साथ-साथ एक', 'सूर्यकांत त्रिपाठी \'निराला\' (1897–1961) हिंदी साहित्य के छायावाद युग के चार स्तंभों में', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का **संदर्भ सहित', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के **पदों (stanzas) का क्रम, उनकी लंबाई,'],
+                  hint: 'यदि फँस जाएँ: **c11_hin_ar_cbse_01_009** (विरोधाभास और प्रतीक) के \'प्रतीक की द्विअर्थिता\' खंड को.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र प्रायः मानते हैं कि **हर बिंब एक प्रतीक होता है** (Every image is a symbol)। उदाहरण: कविता में "बादल गरजता है".' }
           ],
-            remediations: { 'students-conflate-recurring-images-with': { steps: ['If a student cannot convert a motif into a thematic statement: (1) Have them complete the sentence frame: "The poem.', '(2) Direct them to re-read the vH;kl (exercise) question 3 in NCERT which asks: "कविता में रंगों का प्रतीकात्मक प्रयोग.', '(3) Assign a micro-task: annotate stanza 2 of "चकनी जक्ख" with three "This shows that..." comments.', '(4) Re-diagnose using Diagnostic Question 3 (apply level) after 48 hours.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'every-image-is-a-symbol': { steps: ['**चरण 1:** छात्र से कहें: "कविता से कोई एक बिंब चुनो (जैसे \'बिजली की चमक\') और बताओ — यह किस इंद्रिय को छूता है?', 'अब बताओ — यह किस बड़े विचार की ओर इशारा करता है?" यदि वह दूसरा भाग न बता पाए, तो **बिंब→प्रतीक मैपिंग** टूटी है। 2.', '**चरण 2:** नोड **c11_hin_ar_cbse_01_009** (विरोधाभास और प्रतीक) और **c11_hin_ar_cbse_01_008** (बिंब और रूपक) को दोबारा.', '**चरण 3:** अभ्यास: दैनिक जीवन की 5 वस्तुएँ (जैसे: दीया, नदी, बीज, दीवार, रास्ता) लें और प्रत्येक के लिए लिखें — (अ).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_06_008', difficulty: 'standard',
-          question: 'Imagery (rkfydk) is the use of vivid, sensory language that appeals to the five.',
-          hint: 'If stuck on tenor/vehicle/ground, revisit Class 11 Literary Devices node.',
-          misconception: 'Students treat "ckny" (black) in the poem as a *symbol* (standing for something else) rather than a *metaphor* (being.',
+          question: 'बादल राग का मुख्य भाव कवि सूर्यकांत त्रिपाठी \'निराला\' की **मुक्तिकामी चेतना**.',
+          hint: 'अगर अटके तो c12_hin_ar_cbse_06_007 के \'प्रतीक विश्लेषण\' खंड को दोहराएँ — विशेषकर \'बादल.',
+          misconception: 'छात्र अक्सर \'बादल राग\' को **छायावादी प्रकृति-काव्य** मानकर केवल सौंदर्य-बोध (बादल की सुंदरता, वर्षा का वर्णन.',
           parts: [
-                { id: 'a', prompt: 'Define "rkfydk" (imagery) and "rqylhnkl" (metaphor) in your own words, giving one example from "ckny jkx" for each.', answer: 'Correct answer: Imagery is language that appeals to senses (e.g., "nq[k dh Nk;k"',
-                  options: ['Correct answer: Imagery is language that appeals to senses (e.g., "nq[k dh Nk;k"', 'ckny jaisa jkx', 'pictures in mind', 'gives a simile ("ckny jaisa jkx") reveals confusion between metaphor and simile'],
-                  hint: 'If stuck on tenor/vehicle/ground, revisit Class 11 Literary Devices node (c11_hin_ar_cbse_06_008).',
-                  misconception: 'Students treat "ckny" (black) in the poem as a *symbol* (standing for something else) rather than a *metaphor* (being the thing itself).' },
-                { id: 'b', prompt: 'Identify ONE auditory image and ONE kinesthetic (movement/touch) image from the poem.', answer: 'Correct answer example: Auditory',
-                  options: ['Correct answer example: Auditory', 'they are crying', 'picks "ckny" as auditory shows confusion between color word and sound'],
-                  hint: 'If stuck on tenor/vehicle/ground, revisit Class 11 Literary Devices node (c11_hin_ar_cbse_06_008).',
-                  misconception: 'Students treat "ckny" (black) in the poem as a *symbol* (standing for something else) rather than a *metaphor* (being the thing itself).' },
-                { id: 'c', prompt: 'The poem clusters images of "ty" (water), "foIyo" (horizon/limit), "Iykou" (direction/destination), and "lnk" (loom).', answer: 'Correct answer: The cluster shifts "ckny jkx" from a fixed state to a flowing,',
-                  options: ['Correct answer: The cluster shifts "ckny jkx" from a fixed state to a flowing,', 'water means life', 'treats each image in isolation misses the *interaction* that creates dynamism', 'says "water means life" is a cliché, not analysis'],
-                  hint: 'If stuck on tenor/vehicle/ground, revisit Class 11 Literary Devices node (c11_hin_ar_cbse_06_008).',
-                  misconception: 'Students treat "ckny" (black) in the poem as a *symbol* (standing for something else) rather than a *metaphor* (being the thing itself).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बादल राग का मुख्य भाव कवि सूर्यकांत त्रिपाठी \'निराला\' की **मुक्तिकामी चेतना** और',
+                  options: ['बादल राग का मुख्य भाव कवि सूर्यकांत त्रिपाठी \'निराला\' की **मुक्तिकामी चेतना** और', 'सूर्यकांत त्रिपाठी \'निराला\' (1897–1961) हिंदी साहित्य के छायावाद युग के चार स्तंभों में', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का **संदर्भ सहित', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के **पदों (stanzas) का क्रम, उनकी लंबाई,'],
+                  hint: 'अगर अटके तो c12_hin_ar_cbse_06_007 के \'प्रतीक विश्लेषण\' खंड को दोहराएँ — विशेषकर \'बादल = मुक्त.',
+                  misconception: 'छात्र अक्सर \'बादल राग\' को **छायावादी प्रकृति-काव्य** मानकर केवल सौंदर्य-बोध (बादल की सुंदरता, वर्षा का वर्णन, ऋतु-चित्रण) तक सीमित कर देते.' }
           ],
-            remediations: { 'students-treat-ckny-black-in': { steps: ['Re-read the poet\'s prose commentary in the chapter (the paragraph starting "ckny jkx dfork vukfedk esa...").', 'List every sentence where the poet speaks *as* "ckny" (I am black) vs *about* "ckny" (black means...).', 'In the poem, underline every first-person plural verb ("gSa", "jgrs", "ikrs", "fn[kkbZ nsrs") — notice the speaker *is*.', 'Rewrite your definition of the central metaphor using "is" not "stands for".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "कविता में \'बादल\' शब्द जहाँ-जहाँ आया है, वहाँ-वहाँ उसके आगे के क्रिया/विशेषण को घेरे में डालो (जैसे.', 'फिर पूछें: "ये क्रियाएँ बादल पर लागू होती हैं या किसी मनुष्य पर?', 'क्या बादल सच में \'विश्व-विजयी\' होता है?" 3.', 'अब समझाएँ: "कवि बादल के माध्यम से **मनुष्य की बात** कर रहा है — यह **प्रतीकात्मक काव्य** है, वर्णनात्मक नहीं।" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_06_009', difficulty: 'standard',
-          question: 'Irony (व्यंग्य/विडंबना) is a literary device where the intended meaning.',
-          hint: 'If unable to separate metaphor from symbol, review c12_hin_ar_cbse_06_008 Worked Example.',
-          misconception: 'Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g., "cloud = sadness").',
+          question: '**गौण भाव** काव्य में मुख्य भाव के समानांतर चलने वाले वे प्रसंग, चित्र या.',
+          hint: 'यदि मुख्य भाव अस्पष्ट है, तो c12_hin_ar_cbse_06_004 (केंद्रीय भाव और रस) दोबारा पढ़ें.',
+          misconception: '**सटीक भ्रम:** छात्र समझते हैं कि \'गौण भाव\' = \'कम महत्व का भाव\' और \'विषयांतर\' = \'लेखक का भटकना/गलती\'। **वास्तविकता:**.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words how the "कजरारे मेघ" (kohl-laden clouds) function as a symbol in the poem.', answer: 'The "कजरारे मेघ" symbolize fertile potential and transformative power',
-                  options: ['The "कजरारे मेघ" symbolize fertile potential and transformative power', 'symbol for X', 'cloud = sadness'],
-                  hint: 'If unable to separate metaphor from symbol, review c12_hin_ar_cbse_06_008 Worked Example 2 where.',
-                  misconception: 'Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g., "cloud = sadness").' },
-                { id: 'b', prompt: 'Apply the concept of situational irony to the poem\'s depiction of the farmer\'s anticipation.', answer: 'Step 1: Identify the expectation',
-                  options: ['Step 1: Identify the expectation', 'symbol for X', 'cloud = sadness'],
-                  hint: 'If unable to separate metaphor from symbol, review c12_hin_ar_cbse_06_008 Worked Example 2 where.',
-                  misconception: 'Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g., "cloud = sadness").' },
-                { id: 'c', prompt: 'Analyze how the symbol of "गकम+एएक" (sticky mud) interacts with the irony of the clouds\' "non-thunderous" arrival to convey the poem\'s view of struggle and.', answer: 'The "गकम+एएक" mud symbolizes the messy, clinging difficulty of growth',
-                  options: ['The "गकम+एएक" mud symbolizes the messy, clinging difficulty of growth', 'symbol for X', 'cloud = sadness'],
-                  hint: 'If unable to separate metaphor from symbol, review c12_hin_ar_cbse_06_008 Worked Example 2 where.',
-                  misconception: 'Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g., "cloud = sadness").' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**गौण भाव** काव्य में मुख्य भाव के समानांतर चलने वाले वे प्रसंग, चित्र या संवेदनाएँ हैं',
+                  options: ['**गौण भाव** काव्य में मुख्य भाव के समानांतर चलने वाले वे प्रसंग, चित्र या संवेदनाएँ हैं', 'सूर्यकांत त्रिपाठी \'निराला\' (1897–1961) हिंदी साहित्य के छायावाद युग के चार स्तंभों में', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का **संदर्भ सहित', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के **पदों (stanzas) का क्रम, उनकी लंबाई,'],
+                  hint: 'यदि मुख्य भाव अस्पष्ट है, तो c12_hin_ar_cbse_06_004 (केंद्रीय भाव और रस) दोबारा पढ़ें — विशेषकर.',
+                  misconception: '**सटीक भ्रम:** छात्र समझते हैं कि \'गौण भाव\' = \'कम महत्व का भाव\' और \'विषयांतर\' = \'लेखक का भटकना/गलती\'। **वास्तविकता:** गौण भाव कविता का.' }
           ],
-            remediations: { 'students-often-confuse-symbolism-with': { steps: ['Revisit c11_hin_ar_cbse_06_009 (Class 11 Irony and Symbolism) to review the three irony types and symbol vs metaphor.', 'Re-read the poem "चकनी जक़्स" with a three-column table: Column A = Literal Image, Column B = Device (Irony Type.', 'Re-attempt Diagnostic Questions 2 and 3 using the table.', 'If still stuck, ask teacher to model think-aloud on Stanza 2 ("विफ्य्दक उघा गस...") showing how to tag each phrase.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_06_009', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g., "cloud = sadness").',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The poem uses irony primarily to mock human anxiety, while symbolism elevates nature to a divine status." Defend or refute using textual.', answer: 'Refute',
-                  options: ['Refute', 'symbol for X', 'cloud = sadness'],
-                  hint: 'If unable to separate metaphor from symbol, review c12_hin_ar_cbse_06_008 Worked Example 2 where.',
-                  misconception: 'Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g., "cloud = sadness").' },
-                { id: 'b', prompt: 'Create a four-line stanza in Hindi that uses both verbal irony and a symbol from the poem (e.g., cloud, mud, seedling) to express a personal experience.', answer: 'Example: "सोचा था आँधी उजाड़ देगी सब, आई फुहार, बोली',
-                  options: ['Example: "सोचा था आँधी उजाड़ देगी सब, आई फुहार, बोली', 'symbol for X', 'cloud = sadness'],
-                  hint: 'If unable to separate metaphor from symbol, review c12_hin_ar_cbse_06_008 Worked Example 2 where.',
-                  misconception: 'Students often confuse symbolism with metaphor, treating every image as a "symbol for X" (e.g., "cloud = sadness").' }
-          ],
-            remediations: { 'students-often-confuse-symbolism-with': { steps: ['Revisit c11_hin_ar_cbse_06_009 (Class 11 Irony and Symbolism) to review the three irony types and symbol vs metaphor.', 'Re-read the poem "चकनी जक़्स" with a three-column table: Column A = Literal Image, Column B = Device (Irony Type.', 'Re-attempt Diagnostic Questions 2 and 3 using the table.', 'If still stuck, ask teacher to model think-aloud on Stanza 2 ("विफ्य्दक उघा गस...") showing how to tag each phrase.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'broadening': { steps: ['छात्र को **कविता के तीन पद** जोर से पढ़वाओ; पूछो — \'प्रत्येक पद में बादल के अलावा क्या हो रहा है?\' (गौण भाव सूचीबद्ध.', 'फिर पूछो — \'कवि अचानक अपने बचपन में क्यों चला गया?', 'क्या बादल छोड़ दिया?\' (विषयांतर की **सचेतनता** स्पष्ट करो)। 3.', '**तुलना करवाओ:** \'केवल बादल का वर्णन\' vs \'बादल + किसान + बचपन\' — कौन-सी कविता अधिक \'जीवंत\' लगी?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_06_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
-          hint: 'Review Class 11 Hindi Vyakaran "Samasa" chapter and Class 11 Aroh vocabulary nodes for.',
-          misconception: 'Students believe "vocabulary in context" means memorizing the NCERT glossary (jQ¼) definitions verbatim.',
+          question: 'पदावली (Vocabulary) in poetry refers to the **curated set of difficult words.',
+          hint: 'यदि अटके: **c12_hin_ar_cbse_06_002 (पद्यांश-वार भावार्थ)** पर लौटें — पहले **पंक्ति का.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **"कठिन शब्द = तत्सम शब्द"** और **"मुहावरा = कोई भी वाक्यांश जिसका अर्थ शब्दों.',
           parts: [
-                { id: 'a', prompt: 'The NCERT glosses "foIyo" as "Økafr] ck<+". In stanza 2, the line reads "foIyo&jo ls NksVs gh gSa \'kksHkk ikrs".', answer: '"foIyo" (tatsama, from vi + ava + ya',
-                  options: ['"foIyo" (tatsama, from vi + ava + ya', 'misses the poem\'s historical allegory: colonial rule as an unnatural', 'masquerading as natural order'],
-                  hint: 'Review Class 11 Hindi Vyakaran "Samasa" chapter and Class 11 Aroh vocabulary nodes for.',
-                  misconception: 'Students believe "vocabulary in context" means memorizing the NCERT glossary (jQ¼) definitions verbatim.' },
-                { id: 'b', prompt: 'Compare the words "jQ¼" (stanza 1) and "jksx" (stanza 4). Both relate to sound/voice.', answer: '"jQ¼" (gloss: "jQdk gqvk"',
-                  options: ['"jQ¼" (gloss: "jQdk gqvk"', 'sound words', 'vocabulary in context'],
-                  hint: 'Review Class 11 Hindi Vyakaran "Samasa" chapter and Class 11 Aroh vocabulary nodes for.',
-                  misconception: 'Students believe "vocabulary in context" means memorizing the NCERT glossary (jQ¼) definitions verbatim.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (Vocabulary) in poetry refers to the **curated set of difficult words (कठिन शब्द)',
+                  options: ['पदावली (Vocabulary) in poetry refers to the **curated set of difficult words (कठिन शब्द)', 'सूर्यकांत त्रिपाठी \'निराला\' (1897–1961) हिंदी साहित्य के छायावाद युग के चार स्तंभों में', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का **संदर्भ सहित', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के **पदों (stanzas) का क्रम, उनकी लंबाई,'],
+                  hint: 'यदि अटके: **c12_hin_ar_cbse_06_002 (पद्यांश-वार भावार्थ)** पर लौटें — पहले **पंक्ति का भाव**.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **"कठिन शब्द = तत्सम शब्द"** और **"मुहावरा = कोई भी वाक्यांश जिसका अर्थ शब्दों के योग से अलग हो"**।.' }
           ],
-            remediations: { 'vocabulary-in-context-means-memorizing': { steps: ['Have the student pick ONE word from the glossary (e.g., "{kr&fo{kr").', 'Ask them to write the dictionary meaning, then the NCERT gloss, then find the exact line in the poem.', 'Together, break the compound morphologically ({kr + fo{kr), identify samasa (dvandva/tatpurusha?), and list 3 Hindi.', 'Ask: "Why did Nirala choose THIS compound, not those synonyms?"'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { '1': { steps: ['**पुनः पठन (Re-read):** छात्र से कहें — "कविता की **केवल पहली दो पंक्तियाँ** मौन पढ़ो, फिर **जोर से पढ़ो**। बताओ.', 'क्यों?" → **ध्वनि-बोध (phonoaesthetic awareness)** जागृत करें। 2.', '**शब्द-शल्यक्रिया (Word dissection):** एक कठिन शब्द लें (जैसे \'घनघोर\') — बोर्ड पर लिखें: **घन + घोर = घनघोर**। पूछें.', '**मुहावरा-मानचित्र (Idiom mapping):** \'बादल फटना\' लें — तीन स्तंभ बनाएँ: **शाब्दिक अर्थ / काव्यात्मक अर्थ / सांस्कृतिक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_06_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis of how.',
-          hint: 'If stuck on समास identification, review the "समास के प्रकार" table from Class 10 Hindi.',
-          misconception: 'Students treat Braj Bhasha forms in the poem as "errors" or "old-fashioned words" rather than a coherent grammatical.',
+          question: 'पद्य में भाषा-प्रयोग refers to the deliberate and artistic manipulation.',
+          hint: 'If stuck, revisit c11_hin_a_cbse_13_011 (जाग तुझको दूर जाना — व्याकरण: पद्य में.',
+          misconception: '**विशिष्ट भ्रांति:** "पद्य में व्याकरण की गलतियाँ होती हैं" या "कवि व्याकरण नहीं जानते, इसलिए ऐसा लिखते हैं।" **यह.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Grammar: Language Usage in the Text refers to the systematic analysis of how grammatical',
-                  options: ['Grammar: Language Usage in the Text refers to the systematic analysis of how grammatical', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and narrative structure in a poem refers to the sequence of ideas, images, or events', 'Setting refers to the time, place, and physical environment in'],
-                  hint: 'If stuck on समास identification, review the "समास के प्रकार" table from Class 10 Hindi grammar.',
-                  misconception: 'Students treat Braj Bhasha forms in the poem as "errors" or "old-fashioned words" rather than a coherent grammatical system with its own.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्य में भाषा-प्रयोग refers to the deliberate and artistic manipulation of grammatical',
+                  options: ['पद्य में भाषा-प्रयोग refers to the deliberate and artistic manipulation of grammatical', 'सूर्यकांत त्रिपाठी \'निराला\' (1897–1961) हिंदी साहित्य के छायावाद युग के चार स्तंभों में', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का **संदर्भ सहित', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के **पदों (stanzas) का क्रम, उनकी लंबाई,'],
+                  hint: 'If stuck, revisit c11_hin_a_cbse_13_011 (जाग तुझको दूर जाना — व्याकरण: पद्य में भाषा-प्रयोग) where.',
+                  misconception: '**विशिष्ट भ्रांति:** "पद्य में व्याकरण की गलतियाँ होती हैं" या "कवि व्याकरण नहीं जानते, इसलिए ऐसा लिखते हैं।" **यह क्यों होती है:**.' }
           ],
-            remediations: { 'students-treat-braj-bhasha-forms': { steps: ['Revisit c11_hin_ar_cbse_06_011 (Class 11 Grammar: Language Usage) — specifically the section on Braj Bhasha verb.', 'Take the first stanza of "ckny jkx" and perform a full morphological breakdown: label every word\'s part of speech.', 'Compare each Braj form with its Khari Boli equivalent in a two-column table.', 'Re-attempt Diagnostic Q3 and Q4. If still stuck, request teacher-led walkthrough of समास analysis for "ty&foIyo&Iykou".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**पुनः पढ़ें:** \'बादल राग\' की किन्हीं 5 पंक्तियाँ चुनें। प्रत्येक को जोर से पढ़ें — पहले मूल रूप में, फिर मानक गद्य में.', '**टेबल बनाएं:** दो कॉलम — \'पद्य रूप\' और \'गद्य रूप\'। तीसरा कॉलम: \'क्या बदला?\' (लोप/क्रम/शब्द)। चौथा कॉलम: \'क्या प्रभाव.', '**शिक्षक/सहपाठी से पूछें:** "यहाँ \'में\' क्यों नहीं है?', 'अगर डाल दें तो कविता कैसी लगेगी?" — उत्तर सुनकर स्वयं निष्कर्ष निकालें। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_06_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
-          hint: 'If stuck on metaphor decoding, revisit c12_hin_ar_cbse_06_008 (Imagery and Metaphor) and.',
-          misconception: 'Students believe "inferential" means "guessing" — they write personal opinions ("I think clouds are sad") instead.',
+          question: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर पाठ्य-सामग्री से.',
+          hint: 'यदि प्रश्न-प्रकार पहचान में भ्रम हो तो c11_hin_a_cbse_01_012 (कक्षा 11 गद्य बोध-प्रश्न).',
+          misconception: 'छात्रों की सबसे घातक भ्रांति: "वस्तुनिष्ठ प्रश्न में \'सही विकल्प चुनना\' है और आशय-सूचक में \'भावार्थ लिख देना\' है।".',
           parts: [
-                { id: 'a', prompt: 'Classify each of the four vH;kl questions from the chapter as Literal (L) or Inferential (I): 1.', answer: 'Correct classification: 1=L, 2=I, 3=I, 4=I',
-                  options: ['Correct classification: 1=L, 2=I, 3=I, 4=I', 'inferential', 'guessing', 'I think clouds are sad'],
-                  hint: 'If stuck on metaphor decoding, revisit c12_hin_ar_cbse_06_008 (Imagery and Metaphor) and.',
-                  misconception: 'Students believe "inferential" means "guessing" — they write personal opinions ("I think clouds are sad") instead of text-anchored.' },
-                { id: 'b', prompt: 'Compare Question 4 ("cknyksa osQ vkxeu ls izo`Qfr esa gksus okys ifjorZuksa") with Question 1.', answer: 'Three transformations: 1',
-                  options: ['Three transformations: 1', 'inferential', 'guessing', 'I think clouds are sad'],
-                  hint: 'If stuck on metaphor decoding, revisit c12_hin_ar_cbse_06_008 (Imagery and Metaphor) and.',
-                  misconception: 'Students believe "inferential" means "guessing" — they write personal opinions ("I think clouds are sad") instead of text-anchored.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर पाठ्य-सामग्री से सीधे,',
+                  options: ['वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर पाठ्य-सामग्री से सीधे,', 'सूर्यकांत त्रिपाठी \'निराला\' (1897–1961) हिंदी साहित्य के छायावाद युग के चार स्तंभों में', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का **संदर्भ सहित', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के **पदों (stanzas) का क्रम, उनकी लंबाई,'],
+                  hint: 'यदि प्रश्न-प्रकार पहचान में भ्रम हो तो c11_hin_a_cbse_01_012 (कक्षा 11 गद्य बोध-प्रश्न) के.',
+                  misconception: 'छात्रों की सबसे घातक भ्रांति: "वस्तुनिष्ठ प्रश्न में \'सही विकल्प चुनना\' है और आशय-सूचक में \'भावार्थ लिख देना\' है।" वास्तविकता: वस्तुनिष्ठ.' }
           ],
-            remediations: { 'inferential-means-guessing-they-write': { steps: ['If a student cannot distinguish literal vs inferential after this node: 1.', 'Have them re-read the vH;kl questions and highlight question words: "fdls", "D;ksa" (literal) vs "D;k rkRi;Z", ",slk.', 'Assign node c11_hin_ar_cbse_06_012 (Class 11 Comprehension) — it has simpler poems with the same question.', 'Re-diagnostic: Give them 5 new questions from an unseen poem (e.g., Class 12 Aroh Chapter 1 "vukfedk") and ask them.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'distractors': { steps: ['चरण 1: छात्र से कहें — "पिछले 3 वर्षों के CBSE हिंदी कोर प्रश्नपत्र (खंड ख - काव्य) निकालो और केवल \'बादल राग\' या समान.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

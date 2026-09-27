@@ -9,7 +9,7 @@
  * - Performant: instanced spheres near, Points LOD far
  * - Alive: soft chime on hover, ambient nebula glow
  */
-import { useMemo, useRef, useState, useCallback, useEffect } from 'react'
+import { useMemo, useRef, useState, useCallback, useEffect, type MutableRefObject } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { OrbitControls, Stars, Text, Line, Billboard } from '@react-three/drei'
 import { EffectComposer, Bloom, Noise, Vignette } from '@react-three/postprocessing'
@@ -23,6 +23,11 @@ import SIM_INDEX from '../sims_v2/SIM_INDEX.json'
 
 type GNode = { id: string; cls: number; subj: string; chap: number; pos: [number, number, number]; sim: string | null }
 const NODES = GALAXY.nodes as GNode[]
+
+/* A star counts as "lit" from the server-side BKT mastery probability
+   (×100) at this threshold — the same bar /api/progress/overview uses
+   for its mastered count, so the HUD and dashboard always agree. */
+export const GALAXY_LIT_THRESHOLD = 80
 
 const SUBJ_COLORS: [RegExp, string][] = [
     [/phys/i, '#38bdf8'], [/chem/i, '#a78bfa'], [/bio|life|sci/i, '#34d399'],
@@ -68,12 +73,20 @@ const SECTORS = (GALAXY.sectors as { subj: string; pos: [number, number, number]
     .filter(s => s.n >= 100);
 
 /* ═══ node field — instanced spheres (near) + Points (far LOD) ═══ */
-function NodeField({ mastery, classLevel, onHover }: {
+function NodeField({ mastery, classLevel, onHover, onSelect }: {
     mastery: Record<string, number>; classLevel: number | null; onHover: (n: GNode | null) => void;
+    onSelect?: (n: GNode | null) => void;
 }) {
     const spheres = useRef<THREE.InstancedMesh>(null!)
     const points = useRef<THREE.Points>(null!)
     const { camera } = useThree()
+    /* drag guard — a rotate that starts on a star must not read as a tap */
+    const downAt = useRef<{ x: number; y: number } | null>(null)
+    useEffect(() => {
+        const down = (e: PointerEvent) => { downAt.current = { x: e.clientX, y: e.clientY } }
+        window.addEventListener('pointerdown', down, { passive: true })
+        return () => window.removeEventListener('pointerdown', down)
+    }, [])
 
     const { geo, pGeo, colors } = useMemo(() => {
         const geo = new THREE.SphereGeometry(0.55, 10, 10)
@@ -85,8 +98,13 @@ function NodeField({ mastery, classLevel, onHover }: {
             pos.set(n.pos, i * 3)
             const m = mastery[n.id] ?? 0
             const mine = !classLevel || n.cls === classLevel
-            const lit = mine ? 0.3 + (m / 100) * 2.2 : 0.09      // other classes = faint dust
-            c.set(subjColor(n.subj)).multiplyScalar(lit)
+            if (m >= GALAXY_LIT_THRESHOLD) {
+                // mastered — a lit gold star, bright far beyond its subject hue
+                c.set('#fbbf24').multiplyScalar(mine ? 2.6 : 0.6)
+            } else {
+                const lit = mine ? 0.3 + (m / 100) * 2.2 : 0.09      // other classes = faint dust
+                c.set(subjColor(n.subj)).multiplyScalar(lit)
+            }
             colors.set([c.r, c.g, c.b], i * 3)
         })
         pGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3))
@@ -124,11 +142,23 @@ function NodeField({ mastery, classLevel, onHover }: {
         if (id != null) audioManager.play('tap')
     }, [onHover])
 
+    /* tap = select a star (Galaxy Home). A rotate drag (>6px travel) is
+       NOT a tap. Desktop and touch share the same pointer pipeline. */
+    const onTap = useCallback((e: any) => {
+        if (!onSelect) return
+        e.stopPropagation()
+        const d = downAt.current
+        if (d && e.clientX != null && Math.hypot(e.clientX - d.x, e.clientY - d.y) > 6) return
+        const id = e.instanceId as number | undefined
+        onSelect(id != null ? NODES[id] : null)
+    }, [onSelect])
+
     return (
         <group>
             <instancedMesh ref={spheres} args={[geo, undefined, NODES.length]}
                 onPointerMove={onMove}
-                onPointerOut={() => { onHover(null); document.body.style.cursor = 'default' }}>
+                onPointerOut={() => { onHover(null); document.body.style.cursor = 'default' }}
+                onPointerUp={onTap}>
                 <meshBasicMaterial toneMapped={false} />
             </instancedMesh>
             <points ref={points} geometry={pGeo}>
@@ -140,7 +170,7 @@ function NodeField({ mastery, classLevel, onHover }: {
     )
 }
 
-/* ═══ context edges — only for the hovered node ═══ */
+/* ═══ context edges — only for the hovered (or selected) node ═══ */
 function HoverEdges({ node }: { node: GNode | null }) {
     const geo = useMemo(() => {
         if (!node) return null
@@ -161,6 +191,99 @@ function HoverEdges({ node }: { node: GNode | null }) {
             <lineBasicMaterial color="#fbbf24" transparent opacity={0.7} />
         </lineSegments>
     )
+}
+
+/* ═══ mastered pulse — one halo cloud over the LIT stars ═══
+   Built once per mastery load (static geometry); the only per-frame
+   work is two material uniforms on a SINGLE shared material, so the
+   60fps budget is untouched even with thousands of lit stars. */
+function MasteredGlow({ mastery }: { mastery: Record<string, number> }) {
+    const mat = useRef<THREE.PointsMaterial>(null!)
+    const geo = useMemo(() => {
+        const lit = NODES.filter(n => (mastery[n.id] ?? 0) >= GALAXY_LIT_THRESHOLD)
+        if (!lit.length) return null
+        const pos = new Float32Array(lit.length * 3)
+        lit.forEach((n, i) => pos.set(n.pos, i * 3))
+        const g = new THREE.BufferGeometry()
+        g.setAttribute('position', new THREE.BufferAttribute(pos, 3))
+        return g
+    }, [mastery])
+    useFrame(({ clock }) => {
+        if (!mat.current) return
+        const p = 0.5 + Math.sin(clock.elapsedTime * 1.7) * 0.5
+        mat.current.size = 13 + p * 5
+        mat.current.opacity = 0.5 + p * 0.35
+    })
+    if (!geo) return null
+    return (
+        <points geometry={geo}>
+            <pointsMaterial ref={mat} map={glowTexture()} color="#fcd34d" size={16}
+                sizeAttenuation transparent depthWrite={false}
+                blending={THREE.AdditiveBlending} toneMapped={false} />
+        </points>
+    )
+}
+
+/* ═══ selection ring — marks the star the topic panel is open for ═══ */
+function SelectionRing({ node }: { node: GNode }) {
+    const ring = useRef<THREE.Mesh>(null!)
+    useFrame(({ clock }) => {
+        if (!ring.current) return
+        const p = 1 + Math.sin(clock.elapsedTime * 2.4) * 0.12
+        ring.current.scale.set(p, p, p)
+    })
+    return (
+        <Billboard position={node.pos}>
+            <mesh ref={ring}>
+                <ringGeometry args={[3.4, 4.1, 40]} />
+                <meshBasicMaterial color="#fbbf24" transparent opacity={0.9}
+                    side={THREE.DoubleSide} depthWrite={false} toneMapped={false} />
+            </mesh>
+        </Billboard>
+    )
+}
+
+/* ═══ camera glide — eases the camera to a selected star ═══
+   Keeps the current viewing direction, closes to a readable distance,
+   cancels the moment the user grabs the controls. */
+function CameraGlide({ target, controls }: { target: GNode | null; controls: MutableRefObject<any> }) {
+    const { camera } = useThree()
+    const anim = useRef<{ fromPos: THREE.Vector3; toPos: THREE.Vector3; fromTgt: THREE.Vector3; toTgt: THREE.Vector3; t0: number } | null>(null)
+
+    useEffect(() => {
+        const c = controls.current
+        if (!target || !c) return
+        const tgt = new THREE.Vector3(...target.pos)
+        const dir = camera.position.clone().sub(c.target).normalize()
+        if (!dir.lengthSq()) dir.set(0, 0.35, 1).normalize()
+        const toPos = tgt.clone().add(dir.multiplyScalar(95))
+        anim.current = {
+            fromPos: camera.position.clone(), toPos,
+            fromTgt: c.target.clone(), toTgt: tgt,
+            t0: performance.now(),
+        }
+    }, [target, controls, camera])
+
+    useEffect(() => {
+        const c = controls.current
+        if (!c) return
+        const cancel = () => { anim.current = null }
+        c.addEventListener('start', cancel)
+        return () => c.removeEventListener('start', cancel)
+    }, [controls])
+
+    useFrame(() => {
+        const a = anim.current
+        const c = controls.current
+        if (!a || !c) return
+        const k = Math.min(1, (performance.now() - a.t0) / 950)
+        const e = 1 - Math.pow(1 - k, 3)
+        camera.position.lerpVectors(a.fromPos, a.toPos, e)
+        c.target.lerpVectors(a.fromTgt, a.toTgt, e)
+        c.update()
+        if (k >= 1) anim.current = null
+    })
+    return null
 }
 
 /* ═══ nebula dust — big soft colour washes behind each subject sector ═══ */
@@ -254,32 +377,54 @@ function ClickToSim({ onGo }: { onGo: (id: string) => void }) {
     return null
 }
 
-export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
-    const [mastery, setMastery] = useState<Record<string, number>>({})
+export function WorldMap3D({ classLevel, serverMastery, onSelect, selectedId, showHud = true }: {
+    classLevel?: number | null
+    /* Server truth (GET /api/progress/mastery/all → nodeId → 0-100).
+       When PROVIDED it replaces the localStorage store entirely; when
+       OMITTED the legacy local-mastery behaviour is preserved. `null`
+       (fetch failed / signed out) renders the honest all-dim sky. */
+    serverMastery?: Record<string, number> | null
+    /* Star tap → Galaxy Home topic panel. Replaces the click-to-sim jump. */
+    onSelect?: (n: GNode | null) => void
+    selectedId?: string | null
+    /* Galaxy Home renders its own richer HUD, so the built-in mini HUD
+       can be switched off. */
+    showHud?: boolean
+}) {
+    const [localMastery, setLocalMastery] = useState<Record<string, number>>({})
     const [hover, setHover] = useState<GNode | null>(null)
     const [cls, setCls] = useState<number | null>(classLevel ?? null)
+    const controls = useRef<any>(null)
     const router = useRouter()
+
+    const mastery = serverMastery !== undefined ? (serverMastery ?? {}) : localMastery
 
     const [newlyLit, setNewlyLit] = useState(0)
 
     useEffect(() => {
+        if (serverMastery !== undefined) return  // server truth owns the sky
         // flush any sim results queued while offline — fire-and-forget
         void syncPendingResults()
 
         const m = getNodesMastery(NODES.map(n => n.id))
         const out: Record<string, number> = {}
         NODES.forEach(n => { out[n.id] = m[n.id]?.bestScore ?? 0 })
-        setMastery(out)
+        setLocalMastery(out)
 
         // how many stars were lit since the galaxy was last open? —
         // the welcome-back payoff moment when returning from a sim.
         try {
             const seen = Number(localStorage.getItem('atlas_galaxy_seen_stars') ?? '0')
-            const nowLit = Object.values(out).filter(v => v >= 70).length
+            const nowLit = Object.values(out).filter(v => v >= GALAXY_LIT_THRESHOLD).length
             if (nowLit > seen) setNewlyLit(nowLit - seen)
             localStorage.setItem('atlas_galaxy_seen_stars', String(nowLit))
         } catch { }
-    }, [])
+    }, [serverMastery])
+
+    /* the star the topic panel is open for — also the camera-glide target */
+    const selectedNode = useMemo(
+        () => (selectedId ? NODES.find(n => n.id === selectedId) ?? null : null),
+        [selectedId])
 
     /* recommended next = lowest-mastery in-progress node of their class,
        else first unexplored node of their class */
@@ -317,13 +462,16 @@ export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
                 <Stars radius={400} depth={60} count={5200} factor={4.5} fade speed={0.35} />
                 <Regions />
                 <NebulaDust />
-                <NodeField mastery={mastery} classLevel={cls} onHover={setHover} />
-                <HoverEdges node={hover} />
+                <NodeField mastery={mastery} classLevel={cls} onHover={setHover} onSelect={onSelect} />
+                <MasteredGlow mastery={mastery} />
+                <HoverEdges node={selectedNode ?? hover} />
+                {selectedNode && <SelectionRing node={selectedNode} />}
                 {nextNode && <Beacon node={nextNode} />}
                 <Drift />
-                <OrbitControls enablePan enableZoom enableRotate minDistance={20} maxDistance={620}
-                    autoRotate autoRotateSpeed={0.35} />
-                <ClickToSim onGo={(id) => { audioManager.play('success'); router.push(`/sims-v2/${id}`) }} />
+                <CameraGlide target={selectedNode} controls={controls} />
+                <OrbitControls ref={controls} enablePan enableZoom enableRotate minDistance={20} maxDistance={620}
+                    autoRotate={!selectedNode} autoRotateSpeed={0.35} />
+                {!onSelect && <ClickToSim onGo={(id) => { audioManager.play('success'); router.push(`/sims-v2/${id}`) }} />}
                 <EffectComposer>
                     <Bloom intensity={1.35} luminanceThreshold={0.055} luminanceSmoothing={0.82} mipmapBlur />
                     <Noise premultiply opacity={0.07} />
@@ -358,24 +506,26 @@ export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
                                 : 'Chapter node'}
                         </p>
                         <p className="text-[10px] text-slate-400 mt-1">
-                            {(mastery[hover.id] ?? 0) >= 70 ? '✨ mastered' : (mastery[hover.id] ?? 0) > 0 ? '🌱 in progress' : '🌑 unexplored'}
-                            {hover.sim ? ' — click to enter' : ''}
+                            {(mastery[hover.id] ?? 0) >= GALAXY_LIT_THRESHOLD ? '✨ mastered' : (mastery[hover.id] ?? 0) > 0 ? '🌱 in progress' : '🌑 unexplored'}
+                            {hover.sim && !onSelect ? ' — click to enter' : onSelect ? ' — tap to open' : ''}
                         </p>
                     </div>
                 </div>
             )}
 
-            {/* HUD */}
-            <div className="absolute top-5 left-5 bg-slate-900/80 border border-slate-700 rounded-2xl px-4 py-3 backdrop-blur">
-                <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{cls ? `class ${cls} universe` : 'your universe'}</p>
-                <p className="text-xl font-black text-white">{mastered.toLocaleString()} <span className="text-sm text-slate-400 font-bold">/ {mine.length.toLocaleString()} stars lit</span></p>
-                {dueForReview > 0 && (
-                    <p className="text-[11px] font-bold text-amber-300 mt-1">🔁 {dueForReview} need a review pass — mastered fades without it</p>
-                )}
-                {newlyLit > 0 && (
-                    <p className="text-[11px] font-black text-emerald-300 mt-1 animate-pulse">✨ +{newlyLit} star{newlyLit > 1 ? 's' : ''} lit since you were last here!</p>
-                )}
-            </div>
+            {/* HUD — legacy pages; Galaxy Home renders its own richer one */}
+            {showHud && (
+                <div className="absolute top-5 left-5 bg-slate-900/80 border border-slate-700 rounded-2xl px-4 py-3 backdrop-blur">
+                    <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{cls ? `class ${cls} universe` : 'your universe'}</p>
+                    <p className="text-xl font-black text-white">{mastered.toLocaleString()} <span className="text-sm text-slate-400 font-bold">/ {mine.length.toLocaleString()} stars lit</span></p>
+                    {dueForReview > 0 && (
+                        <p className="text-[11px] font-bold text-amber-300 mt-1">🔁 {dueForReview} need a review pass — mastered fades without it</p>
+                    )}
+                    {newlyLit > 0 && (
+                        <p className="text-[11px] font-black text-emerald-300 mt-1 animate-pulse">✨ +{newlyLit} star{newlyLit > 1 ? 's' : ''} lit since you were last here!</p>
+                    )}
+                </div>
+            )}
         </div>
     )
 }

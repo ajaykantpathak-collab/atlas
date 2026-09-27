@@ -385,7 +385,7 @@ const CHALLENGES: Challenge[] = [
     type: 'numeric',
     difficulty: 'standard',
     competencyLevel: 'Applying',
-    question: 'In arithmetic growth, a plant root has an initial length ($L_0$) of 5 cm. If the growth rate ($r$) is 2 cm per day, calculate the root length ($L_t$) in cm after 7 days using $L_t = L_0 + rt$.',
+    question: 'In arithmetic growth, a plant root has an initial length ($L_0$) of 5 cm. If the growth rate (r) is 2 cm per day, calculate the root length ($L_t$) in cm after 7 days using $L_t = L_0 + rt$.',
     correctAnswer: 19,
     explanation: 'Using $L_t = L_0 + rt$: $L_t = 5 + (2 \\times 7) = 5 + 14 = 19$ cm.',
     hints: ['Formula: $L_t = L_0 + rt$', '$L_0 = 5$, $r = 2$, $t = 7$', '$5 + (2 \\times 7) = 19$']
@@ -797,9 +797,9 @@ const SigmoidCurveSVG: React.FC<{ timeVal: number; growthType: 'arithmetic' | 'g
       {/* Legend */}
       <rect x="360" y="180" width="180" height="70" fill="#0f172a" opacity="0.85" rx="6" stroke="#334155" />
       <line x1="370" y1="195" x2="390" y2="195" stroke="#38bdf8" strokeWidth="3" />
-      <text x="398" y="198" fill="#f8fafc" fontSize="10">Arithmetic: $L_t = L_0 + rt$</text>
+      <text x="398" y="198" fill="#f8fafc" fontSize="10">Arithmetic: Lₜ = L₀ + rt</text>
       <line x1="370" y1="215" x2="390" y2="215" stroke="#a855f7" strokeWidth="3" />
-      <text x="398" y="218" fill="#f8fafc" fontSize="10">Geometric: $W_1 = W_0 e^{rt}$</text>
+      <text x="398" y="218" fill="#f8fafc" fontSize="10">Geometric: W₁ = W₀·e^(rt)</text>
       <line x1="370" y1="235" x2="390" y2="235" stroke="#10b981" strokeWidth="3" />
       <text x="398" y="238" fill="#f8fafc" fontSize="10">Sigmoid (S-Curve)</text>
     </svg>
@@ -1450,9 +1450,9 @@ export default function C11_BiologyPlantGrowthCBSESim() {
 
                 <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs space-y-1">
                   <div className="font-bold text-amber-400">Growth Rate Equations:</div>
-                  <div>Arithmetic: $L_t = L_0 + rt$</div>
-                  <div>Geometric: $W_1 = W_0 e^{rt}$</div>
-                  <div>Relative Growth Rate ($r$): Efficiency Index</div>
+                  <div>Arithmetic: Lₜ = L₀ + rt</div>
+                  <div>Geometric: W₁ = W₀·e^(rt)</div>
+                  <div>Relative Growth Rate (r): Efficiency Index</div>
                 </div>
               </div>
             </div>

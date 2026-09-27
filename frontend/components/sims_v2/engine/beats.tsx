@@ -13,6 +13,7 @@ import { validateGoal } from './widgets';
 import { WIDGETS } from './widgets';
 import { generateChallenges } from './generators';
 import { optionText } from './types';
+import { audioManager } from '../../../lib/sim-engine/audio';
 import { themeFor } from './theme';
 
 /** ?autotest=1 — CI playthrough mode: lab missions and typed blanks
@@ -99,10 +100,10 @@ function MissionBeat({ beat, signal, onPass, junior }: B) {
         <div className="w-full flex flex-col items-center gap-3">
             {m.context && <p className="text-xs font-semibold text-slate-500 text-center italic">{m.context}</p>}
             <p className="text-sm font-bold text-gray-700 text-center">{m.instruction}</p>
-            {W ? <W onChange={setSt} /> : lab ? <CanvasLab spec={lab} onChange={setSt} labels={m.labels} /> : null}
+            {W ? <W onChange={setSt} labels={m.labels} /> : lab ? <CanvasLab spec={lab} onChange={setSt} labels={m.labels} /> : null}
             {!done ? (
                 <motion.button whileTap={{ scale: 0.94 }}
-                    onClick={() => { const ok = validateGoal(m.validate, st); signal({ correct: ok }); ok ? setDone(true) : (setFailed(true), setTries(t => t + 1)); }}
+                    onClick={() => { const ok = validateGoal(m.validate, st); signal({ correct: ok }); audioManager.play(ok ? 'success' : 'drop-wrong'); ok ? setDone(true) : (setFailed(true), setTries(t => t + 1)); }}
                     className="px-6 py-2.5 rounded-2xl bg-emerald-500 text-white font-black shadow">Check ✅</motion.button>
             ) : (
                 <div className="flex flex-col items-center gap-2">

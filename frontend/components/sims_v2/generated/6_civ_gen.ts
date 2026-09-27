@@ -8,466 +8,6 @@ import type { SimDef } from '../engine/types';
 
 export const C6_CIV_GEN: SimDef[] = [
  {
-  "id": "gen_c6_civ_ch10",
-  "title": "Human Rights",
-  "subtitle": "Civics · Chapter 10",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "civics",
-  "topic": "Human Rights",
-  "chapters": [
-   "Civics Ch10: Human Rights"
-  ],
-  "nodeIds": [
-   "c6_civics_ch10_001",
-   "c6_civics_ch10_002",
-   "c6_civics_ch10_003",
-   "c6_civics_ch10_004",
-   "c6_civics_ch10_005",
-   "c6_civics_ch10_006",
-   "c6_civics_ch10_007",
-   "c6_civics_ch10_008"
-  ],
-  "emoji": "⚖️",
-  "theme": {
-   "bg": "from-sky-100 to-cyan-200",
-   "accent": "sky",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "Who uses Human Rights in real working life?",
-   "options": [
-    "Scientists, engineers and professionals use it daily",
-    "Nobody actually uses it",
-    "Only teachers use it"
-   ],
-   "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Human rights are the essential freedoms and protections that every person possesses simply by being human, regardless of their nationality, status,"
-  },
-  "teaching": [
-   {
-    "title": "Human Rights",
-    "text": "Human rights are the essential freedoms and protections that every person possesses simply by being human, regardless of their nationality, status, or background.",
-    "emoji": "⚖️",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Fundamental Rights",
-    "text": "Fundamental Rights are a set of basic guarantees provided by the Indian Constitution to every citizen to ensure dignity, equality, and freedom.",
-    "emoji": "⚖️",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Right To Equality",
-    "text": "Right to Equality is a Fundamental Right ensuring that all citizens are treated equally by the law, regardless of their background. It means no person is above the law and no one can be discriminated against based on religion, race, caste, sex, or birth.",
-    "emoji": "⚖️",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
-    "title": "Right To Freedom Of Speech And Expression",
-    "text": "The Right to Freedom of Speech and Expression is a fundamental right that allows citizens to share their thoughts, ideas, and opinions openly without fear of punishment.",
-    "emoji": "⚖️",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Right Against Exploitation",
-    "text": "The Right against Exploitation is a constitutional guarantee that protects vulnerable people from being mistreated or forced into unfair work by others.",
-    "emoji": "⚖️",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Fundamental Duties",
-    "text": "Fundamental Duties are the moral and legal responsibilities that every citizen must fulfill to protect the nation's values, unity, and progress.",
-    "emoji": "⚖️",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Fundamental Rights And Duties",
-    "text": "Fundamental rights and duties are a pair of responsibilities and benefits that exist together, where every freedom you enjoy is balanced by a specific task you must perform to keep the community healthy.",
-    "emoji": "⚖️",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Right To Constitutional Remedies",
-    "text": "The Right to Constitutional Remedies is a Fundamental Right that allows citizens to go to court to protect their other rights if they are ignored or violated by anyone, including the government.",
-    "emoji": "⚖️",
-    "bgColor": "from-amber-400 to-orange-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "What does it mean to say that human rights are \"inherent\"?",
-    "answer": "It means these rights exist naturally from birth and are not given by any government",
-    "options": [
-     "The Right to Constitutional Remedies is called the heart and soul. It is named this because it gives citizens the power to go to court if their rights are violated",
-     "The two forms are human trafficking (buying/selling/transporting people) and forced labour (forcing someone to work without payment)",
-     "It means these rights exist naturally from birth and are not given by any government"
-    ],
-    "hint": "Straight from the 'Human rights' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the government \"gives\" these rights, which ignores the concept that they are unchangeable and belong to us by nature, not by permission.",
-    "id": "gen_c6_civ_ch10_q1",
-    "nodeId": "c6_civics_ch10_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are playing a game where the rules are not written on a paper, but are understood by everyone just because they are playing.",
-     "If someone takes your turn away for no reason, you feel it is unfair—not because a rulebook says so, but because you deserve to play.",
-     "Human rights are like those \"rules of being human.\" Start by thinking about what you need to live safely, like food, education, and the freedom to",
-     "Realize that because you are a human, these aren't \"gifts\" from a leader; they are yours by birth."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Why are Fundamental Rights called \"enforceable by law\" compared to other rules in school or home?",
-    "answer": "They are enforceable because you can take the matter to court if they are violated, whereas school rules are enforced by teachers/principals",
-    "options": [
-     "It is important because it allows citizens to make smart decisions, understand government policies, and debate issues properly",
-     "Helping in a family is based on love, care, and voluntary cooperation. Exploitation involves force, lack of payment, and the inability of the victim to say \"no",
-     "They are enforceable because you can take the matter to court if they are violated, whereas school rules are enforced by teachers/principals"
-    ],
-    "hint": "Straight from the 'Fundamental Rights' slide -- match the key terms.",
-    "misconception": "A wrong answer fails to distinguish between the authority of the judiciary and the authority of a private institution.",
-    "id": "gen_c6_civ_ch10_q2",
-    "nodeId": "c6_civics_ch10_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are at school and the teacher tells you that only students wearing blue shoes can sit on the chairs, while everyone else must sit on the",
-     "Does that feel fair?",
-     "In India, the Constitution prevents this kind of unfair treatment by giving us \"Fundamental Rights.",
-     "We start by grouping them into six main buckets, like \"Right to Equality\" or \"Right to Freedom,\" which act as shields for our daily lives."
-    ]
-   },
-   {
-    "type": "order",
-    "question": "A movie theater manager decides to charge people different ticket prices based on their religion. Is this allowed under the Right to Equality?",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Conclude that religion",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s1",
-      "label": "Check against the Right to Equality",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Identify the action",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s3",
-      "label": "No",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer shows the student might confuse \"fairness\" with \"business choice.\"",
-    "id": "gen_c6_civ_ch10_q3",
-    "nodeId": "c6_civics_ch10_003",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered why the rules in a game of cricket apply to everyone on the field, no matter who they are?",
-     "Start by imagining a shopkeeper who refuses to sell bread to someone just because they belong to a different religion; this feels unfair because the",
-     "To begin, think of the law as a giant umbrella that covers every single person in India equally.",
-     "If one person is \"above\" the law, the umbrella breaks for everyone else."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What does the Right to Freedom of Speech and Expression allow a citizen to do?",
-    "answer": "It allows citizens to express their opinions, beliefs, and ideas without fear of punishment",
-    "options": [
-     "The right to education is a human right because it is essential for human development and dignity, whereas owning a luxury car is a personal choice or privilege",
-     "The Right to Constitutional Remedies is called the heart and soul. It is named this because it gives citizens the power to go to court if their rights are violated",
-     "It allows citizens to express their opinions, beliefs, and ideas without fear of punishment"
-    ],
-    "hint": "Straight from the 'Right to Freedom of Speech and' slide -- match the key terms.",
-    "misconception": "A wrong answer—such as thinking it allows someone to say anything they want regardless of harm—shows a misunderstanding that this right is absolute and lacks the responsibility needed for a democracy to function.",
-    "id": "gen_c6_civ_ch10_q4",
-    "nodeId": "c6_civics_ch10_004",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wanted to tell your teacher that a school rule seems unfair or suggest a new idea for the playground?",
-     "That urge to share your opinion is protected by your Right to Freedom of Speech and Expression.",
-     "Start by thinking about your classroom: if you were afraid to ask questions, how much would you learn?",
-     "We begin by recognizing that this right allows us to speak up, share information, and debate ideas—the same way citizens talk about government"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What are the two main forms of exploitation prohibited by this right as discussed in the text?",
-    "answer": "The two forms are human trafficking (buying/selling/transporting people) and forced labour (forcing someone to work without payment)",
-    "options": [
-     "The right to education is a human right because it is essential for human development and dignity, whereas owning a luxury car is a personal choice or privilege",
-     "The Right to Constitutional Remedies is called the heart and soul. It is named this because it gives citizens the power to go to court if their rights are violated",
-     "The two forms are human trafficking (buying/selling/transporting people) and forced labour (forcing someone to work without payment)"
-    ],
-    "hint": "Straight from the 'Right against Exploitation' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student hasn't linked the term \"exploitation\" to these specific prohibited actions.",
-    "id": "gen_c6_civ_ch10_q5",
-    "nodeId": "c6_civics_ch10_005",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever seen someone being forced to do work they didn't want to do, or heard about people being tricked into dangerous jobs?",
-     "To understand this right, start by thinking about \"fairness\" in your own home or school—if you do a task, you expect to be treated with respect.",
-     "Next, apply this to the whole country: the law says that no person is an object to be sold, and no one can be forced to work without payment.",
-     "Look at the word \"exploitation\"—it means taking unfair advantage of someone."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What are the Fundamental Duties, and where can we find them?",
-    "answer": "Fundamental Duties are the responsibilities that citizens of India must perform to show respect for their country and its values. They are listed in the Constitution of India",
-    "options": [
-     "It means these rights exist naturally from birth and are not given by any government",
-     "The right to education is a human right because it is essential for human development and dignity, whereas owning a luxury car is a personal choice or privilege",
-     "Fundamental Duties are the responsibilities that citizens of India must perform to show respect for their country and its values. They are listed in the Constitution of India"
-    ],
-    "hint": "Straight from the 'Fundamental Duties' slide -- match the key terms.",
-    "misconception": "A wrong answer here shows the student confuses \"duties\" with \"rules of school,\" failing to link them to the nation's supreme law.",
-    "id": "gen_c6_civ_ch10_q6",
-    "nodeId": "c6_civics_ch10_006",
-    "difficulty": "standard",
-    "workedExample": [
-     "Think about your home: you have the right to be fed and cared for by your parents, but don't you also have a duty to help with chores or respect your",
-     "Just like a family needs both love (rights) and cooperation (duties) to stay happy, our country needs citizens to exercise their rights while also",
-     "Start by imagining the National Flag; respecting it isn't just a rule, it is how we show pride in our identity.",
-     "Recognize that every duty listed in the Constitution, such as protecting our environment or our unity, is a way to \"give back\" to the nation that"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What does it mean to say rights and duties are \"two sides of the same coin\"?",
-    "answer": "It means they are inseparable parts of a whole; you get a benefit (right) only when you accept a responsibility (duty)",
-    "options": [
-     "The right to education is a human right because it is essential for human development and dignity, whereas owning a luxury car is a personal choice or privilege",
-     "The five grounds are religion, race, caste, sex, and place of birth",
-     "It means they are inseparable parts of a whole; you get a benefit (right) only when you accept a responsibility (duty)"
-    ],
-    "hint": "Straight from the 'Fundamental rights and duties' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks rights are free gifts or duties are punishments, missing the idea of balance.",
-    "id": "gen_c6_civ_ch10_q7",
-    "nodeId": "c6_civics_ch10_007",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine you are at a school playground.",
-     "You have the right to play with the swings, but does that mean you can stay on them forever while others wait?",
-     "To keep the \"right\" of playtime fun for everyone, you have the \"duty\" to take turns and not hog the equipment.",
-     "We start by listing things we enjoy (rights) and then ask, \"What must I do to make sure everyone else can also enjoy this?"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the \"heart and soul\" of the Indian Constitution, and why is it given this name?",
-    "answer": "The Right to Constitutional Remedies is called the heart and soul. It is named this because it gives citizens the power to go to court if their rights are violated",
-    "options": [
-     "Fundamental Duties are the responsibilities that citizens of India must perform to show respect for their country and its values. They are listed in the Constitution of India",
-     "The right to education is a human right because it is essential for human development and dignity, whereas owning a luxury car is a personal choice or privilege",
-     "The Right to Constitutional Remedies is called the heart and soul. It is named this because it gives citizens the power to go to court if their rights are violated"
-    ],
-    "hint": "Straight from the 'Right to Constitutional Remedies' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks the Constitution is just a list of suggestions rather than a binding legal document.",
-    "id": "gen_c6_civ_ch10_q8",
-    "nodeId": "c6_civics_ch10_008",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are playing a game where the rules are written down, but someone keeps pushing you out of bounds and saying \"the rules don't matter.",
-     "The Constitution is like a rulebook for our country, but for those rules to work, we need a referee—the courts—to step in when someone breaks them.",
-     "To begin, think of your rights as tools that keep you free and safe.",
-     "If someone takes your tool away or stops you from using it, you can ask the court to give it back."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Create a short scenario where someone’s right to \"equality\" is being challenged and explain how they might defend it.",
-    "answer": "A good answer would involve a situation like someone being denied a seat in school because of their background",
-    "options": [
-     "No, because the Right to Equality dictates that no one is above or below the law",
-     "No, the right still exists as a human right, but the person is being prevented from exercising it",
-     "A good answer would involve a situation like someone being denied a seat in school because of their background"
-    ],
-    "hint": "Straight from the 'Human rights' slide -- match the key terms.",
-    "misconception": "A poor answer fails to identify the conflict or relies on \"asking for permission\" rather than asserting a right.",
-    "id": "gen_c6_civ_ch10_q9",
-    "nodeId": "c6_civics_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a government decides to take away a person's right to express their opinion, have they successfully removed that person's \"human right\"?",
-    "answer": "No, the right still exists as a human right, but the person is being prevented from exercising it",
-    "options": [
-     "They are ignoring the duty to abide by the Constitution and respect the National Flag and National Anthem",
-     "It violates the right because the school is using a prohibited ground (caste) to determine access to an opportunity",
-     "No, the right still exists as a human right, but the person is being prevented from exercising it"
-    ],
-    "hint": "Straight from the 'Human rights' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests that rights only exist when the government allows them, failing to distinguish between having a right and being restricted by authority.",
-    "id": "gen_c6_civ_ch10_q10",
-    "nodeId": "c6_civics_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Should a person living in a remote village have the same human rights as someone living in a big city? Defend your answer.",
-    "answer": "Yes, because human rights are universal and belong to every person simply because they are human, not because of where they live",
-    "options": [
-     "A good answer would involve someone being denied a job because they moved from a different state. The student should explain that \"place of birth\" is not a valid reason to deny",
-     "Your duty is to not litter and to pick up your own trash",
-     "Yes, because human rights are universal and belong to every person simply because they are human, not because of where they live"
-    ],
-    "hint": "Straight from the 'Human rights' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates a misunderstanding of the \"universal\" nature of human rights.",
-    "id": "gen_c6_civ_ch10_q11",
-    "nodeId": "c6_civics_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Which of these is a human right: the right to own a luxury car or the right to education? Why?",
-    "answer": "The right to education is a human right because it is essential for human development and dignity, whereas owning a luxury car is a personal choice or privilege",
-    "options": [
-     "Fundamental Duties are the responsibilities that citizens of India must perform to show respect for their country and its values. They are listed in the Constitution of India",
-     "It means they are inseparable parts of a whole; you get a benefit (right) only when you accept a responsibility (duty)",
-     "The right to education is a human right because it is essential for human development and dignity, whereas owning a luxury car is a personal choice or privilege"
-    ],
-    "hint": "Straight from the 'Human rights' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a confusion between basic human needs/freedoms and material wants or personal possessions.",
-    "id": "gen_c6_civ_ch10_q12",
-    "nodeId": "c6_civics_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did the concept of human rights develop over time instead of appearing all at once?",
-    "answer": "It developed because people had to fight against historical injustices like slavery and oppression to get those rights recognized",
-    "options": [
-     "It means we should value the freedom won by our ancestors by being honest, fighting against injustice, and working for equality",
-     "The law protects them because forcing someone to work without pay removes their freedom and treats them like property rather than a human being",
-     "It developed because people had to fight against historical injustices like slavery and oppression to get those rights recognized"
-    ],
-    "hint": "Straight from the 'Human rights' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests these rights were always perfectly respected, ignoring the historical struggle for equality.",
-    "id": "gen_c6_civ_ch10_q13",
-    "nodeId": "c6_civics_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a scenario where someone is using their Right to Freedom of Speech and Expression.",
-    "answer": "The student should describe a situation like writing a letter to a local leader about a broken road",
-    "options": [
-     "Steps: 1. Identify the right (freedom of speech). 2. Identify the duty (active listening and respectful response)",
-     "It violates the right because the school is using a prohibited ground (caste) to determine access to an opportunity",
-     "The student should describe a situation like writing a letter to a local leader about a broken road"
-    ],
-    "hint": "Straight from the 'Fundamental Rights' slide -- match the key terms.",
-    "misconception": "A poor answer would be describing something that is not related to speech (like voting or owning property), showing a lack of grasp on the specific definition of \"Freedom of Speech.\"",
-    "id": "gen_c6_civ_ch10_q14",
-    "nodeId": "c6_civics_ch10_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A movie theater manager decides to charge people different ticket prices based on their religion. Is this allowed under the Right to Equality?",
-    "answer": "No, it is not allowed. Step 1: Identify the action (different prices based on religion). Step 2: Check against the Right to Equality",
-    "options": [
-     "It violates the right because the school is using a prohibited ground (caste) to determine access to an opportunity",
-     "No, because the Right to Equality dictates that no one is above or below the law",
-     "No, it is not allowed. Step 1: Identify the action (different prices based on religion). Step 2: Check against the Right to Equality"
-    ],
-    "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student might confuse \"fairness\" with \"business choice.\"",
-    "id": "gen_c6_civ_ch10_q15",
-    "nodeId": "c6_civics_ch10_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a scenario where a person is being discriminated against based on \"place of birth.\" How would you use the Right to Equality to defend them?",
-    "answer": "A good answer would involve someone being denied a job because they moved from a different state. The student should explain that \"place of birth\" is not a valid reason to deny",
-    "options": [
-     "No, it is not allowed. Step 1: Identify the action (different prices based on religion). Step 2: Check against the Right to Equality",
-     "No, the right still exists as a human right, but the person is being prevented from exercising it",
-     "A good answer would involve someone being denied a job because they moved from a different state. The student should explain that \"place of birth\" is not a valid reason to deny"
-    ],
-    "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A good answer would involve someone being denied a job because they moved from a different state.",
-    "id": "gen_c6_civ_ch10_q16",
-    "nodeId": "c6_civics_ch10_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a school denies a student admission specifically because of their caste, why is this a violation of the Right to Equality?",
-    "answer": "It violates the right because the school is using a prohibited ground (caste) to determine access to an opportunity",
-    "options": [
-     "You can approach the court. First, identify that this is discrimination, then recognize that the court is the authority that enforces your right to equality",
-     "No, it is not allowed. Step 1: Identify the action (different prices based on religion). Step 2: Check against the Right to Equality",
-     "It violates the right because the school is using a prohibited ground (caste) to determine access to an opportunity"
-    ],
-    "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
-    "misconception": "A wrong answer often indicates the student thinks \"equality\" only applies to government offices, not private institutions like schools.",
-    "id": "gen_c6_civ_ch10_q17",
-    "nodeId": "c6_civics_ch10_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Should a judge be allowed to give a lighter punishment to a wealthy person than to a poor person for the same crime? Why or why not?",
-    "answer": "No, because the Right to Equality dictates that no one is above or below the law",
-    "options": [
-     "No, this is not allowed. The steps to analyze: 1. Identify the action (forced work without pay). 2",
-     "No, it is not allowed. Step 1: Identify the action (different prices based on religion). Step 2: Check against the Right to Equality",
-     "No, because the Right to Steps dictates that no one is above or below the law",
-     "No, because the Right to Equality dictates that no one is above or below the law"
-    ],
-    "hint": "Straight from the 'Right to Equality' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student believes status or money creates a different level of \"human value,\" which contradicts the core principle of the Right.",
-    "id": "gen_c6_civ_ch10_q18",
-    "nodeId": "c6_civics_ch10_003",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about human rights?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Human Rights mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
-  "sampleChallenges": 8
- },
- {
   "id": "gen_c6_civ_ch11",
   "title": "Government",
   "subtitle": "Civics · Chapter 11",
@@ -476,9 +16,12 @@ export const C6_CIV_GEN: SimDef[] = [
   "subject": "civics",
   "topic": "Government",
   "chapters": [
+   "Civics Ch9: Government",
    "Civics Ch11: Government"
   ],
   "nodeIds": [
+   "c6_civics_ch09_001",
+   "c6_civics_ch09_002",
    "c6_civics_ch11_009",
    "c6_civics_ch11_010",
    "c6_civics_ch11_011",
@@ -500,9 +43,21 @@ export const C6_CIV_GEN: SimDef[] = [
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "A government is the organized group of people and the system of rules that manages a community or country."
+   "hook": "A family is a group of people related by birth, marriage, or adoption who live together and share responsibilities — it may be a nuclear family"
   },
   "teaching": [
+   {
+    "title": "Family",
+    "text": "A family is a group of people related by birth, marriage, or adoption who live together and share responsibilities — it may be a nuclear family (parents and children) or a joint family (with grandparents, uncles, aunts, and cousins).",
+    "emoji": "⚖️",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Work",
+    "text": "Work is any activity done with effort for a purpose — it can be economic (paid, earning income) or non-economic (unpaid, done out of care or duty, like household work or volunteering).",
+    "emoji": "⚖️",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
    {
     "title": "Government",
     "text": "A government is the organized group of people and the system of rules that manages a community or country. Its primary job is to create laws, ensure they are followed, and provide essential services like hospitals, schools, and roads for its citizens.",
@@ -543,16 +98,58 @@ export const C6_CIV_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "If a village has no government, why would it be difficult for people to keep their businesses running?",
-    "answer": "Without government, there would be no courts to settle disputes, no police to protect property, and no roads to transport goods",
+    "question": "What is a family? Name its two main types.",
+    "answer": "A family is a group of people related by birth, marriage, or adoption who live together and share responsibilities",
     "options": [
-     "Yes, because in a democracy, the government exists to serve the people, and feedback helps them refine or explain laws",
-     "The national (central) government, because highways connecting states fall under matters of national importance",
-     "Without government, there would be no courts to settle disputes, no police to protect property, and no roads to transport goods"
+     "A family teaches basic living skills like speaking, sharing, and behaving, and it passes on values, customs, and a sense of right and wrong — it is the child's first school",
+     "Dignity of work means every honest work deserves equal respect — no job is inferior or superior — because every worker contributes to the community's well-being",
+     "A family is a group of people related by birth, marriage, or adoption who live together and share responsibilities"
+    ],
+    "hint": "Straight from the 'family' slide -- match the key terms.",
+    "misconception": "A wrong answer defines family only as \"people in a house\" — the sharing and relation matter.",
+    "id": "gen_c6_civ_ch11_q1",
+    "nodeId": "c6_civics_ch09_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Draw a circle around the people you live with — that is your family.",
+     "It might be a small nuclear family — just you and your parents — or a big joint family where grandparents, uncles, aunts, and cousins all share one",
+     "The family is your first team: it feeds and protects you, teaches you to speak and share and behave, and hands down the festivals, food habits, and",
+     "Now step outside your front door and the circle widens into the community — the neighbours, the classmates, the shopkeepers, the people who worship"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the difference between economic and non-economic work?",
+    "answer": "Economic work is done for payment — it earns income, like a farmer selling crops. Non-economic work is done without payment",
+    "options": [
+     "Local government focuses on immediate community needs like street cleaning and local parks, while the national government handles major issues like foreign affairs and currency",
+     "Both are active, but meetings allow for real-time dialogue and questioning of officials, whereas letters provide a formal, written record of concerns",
+     "Economic work is done for payment — it earns income, like a farmer selling crops. Non-economic work is done without payment"
+    ],
+    "hint": "Straight from the 'Work' slide -- match the key terms.",
+    "misconception": "A wrong answer treats all work as paid — missing the unpaid work that fills every home.",
+    "id": "gen_c6_civ_ch11_q2",
+    "nodeId": "c6_civics_ch09_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "List the people your morning depends on: the milk seller, the bus driver, the teacher, the farmer who grew your breakfast — all working so your day",
+     "Now split that list into two columns.",
+     "Some work earns money — economic work: the carpenter paid for a table, the teacher paid a salary, the farmer selling crops.",
+     "Other work earns no money but still matters — non-economic work: a parent cooking dinner, a student helping a classmate, a volunteer cleaning a pond."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "\"Government is only needed to punish people who do bad things.\" Do you agree with this statement? Why or why not?",
+    "answer": "I disagree. While the government does punish wrongdoers, its most important work is providing services like healthcare, education, and infrastructure that everyone needs to thrive",
+    "options": [
+     "No, it is not truly democratic because the representative is meant to act on behalf of the people. While they are legally in power",
+     "The three-tier system is more effective because local representatives know local problems best, while the central government can focus on grand strategy",
+     "I disagree. While the government does punish wrongdoers, its most important work is providing services like healthcare, education, and infrastructure that everyone needs to thrive"
     ],
     "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks government is only for \"punishment\" rather than for supporting the daily activities that keep a society productive.",
-    "id": "gen_c6_civ_ch11_q1",
+    "misconception": "A wrong answer shows the student views government as a \"police force\" only, ignoring the \"service provider\" aspect.",
+    "id": "gen_c6_civ_ch11_q3",
     "nodeId": "c6_civics_ch11_009",
     "difficulty": "standard",
     "workedExample": [
@@ -567,13 +164,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "How does a leader usually come to power in a monarchy?",
     "answer": "Power is usually inherited through birth, meaning it stays within the royal family",
     "options": [
-     "India is too vast and diverse for one group to manage every local detail; three levels allow for better focus on specific needs like local infrastructure versus national defense",
-     "Voting happens only once every few years, but government decisions affect our daily lives constantly",
+     "India is a representative democracy because the population is too large for everyone to participate in daily law-making",
+     "It is physically and logistically impossible for 970 million people to debate and vote on every law daily",
      "Power is usually inherited through birth, meaning it stays within the royal family"
     ],
     "hint": "Straight from the 'government' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student confuses monarchy with democracy (voting) or dictatorship (force).",
-    "id": "gen_c6_civ_ch11_q2",
+    "id": "gen_c6_civ_ch11_q4",
     "nodeId": "c6_civics_ch11_010",
     "difficulty": "standard",
     "workedExample": [
@@ -588,13 +185,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "What does the term 'democracy' mean, and which two Greek words does it come from?",
     "answer": "Democracy means 'people's power' or 'rule by the people.' It comes from the Greek words 'demos' (people) and 'kratos' (power/rule)",
     "options": [
-     "Citizens can attend public meetings or write letters to their representatives",
-     "It means every citizen who is 18 years or older has the right to vote, regardless of their wealth, caste, or religion",
+     "A community celebrates festivals and ceremonies together and helps members in need — during weddings, illness, or emergencies — giving everyone support and belonging",
+     "Define family and community, distinguish a nuclear family from a joint family with an example, and name two roles of a family and two ways a community helps its members",
      "Democracy means 'people's power' or 'rule by the people.' It comes from the Greek words 'demos' (people) and 'kratos' (power/rule)"
     ],
     "hint": "Straight from the 'Democracy' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student hasn't memorized the etymology, which is the foundational building block of the concept.",
-    "id": "gen_c6_civ_ch11_q3",
+    "id": "gen_c6_civ_ch11_q5",
     "nodeId": "c6_civics_ch11_011",
     "difficulty": "standard",
     "workedExample": [
@@ -609,13 +206,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "What does it mean when we say India has a system of \"universal adult franchise\"?",
     "answer": "It means every citizen who is 18 years or older has the right to vote, regardless of their wealth, caste, or religion",
     "options": [
-     "Citizens can attend public meetings or write letters to their representatives",
-     "Democracy means 'people's power' or 'rule by the people.' It comes from the Greek words 'demos' (people) and 'kratos' (power/rule)",
+     "A community is a larger group of people who live in the same area or share common interests, customs, or beliefs, and who cooperate and support one another",
+     "A family teaches basic living skills like speaking, sharing, and behaving, and it passes on values, customs, and a sense of right and wrong — it is the child's first school",
      "It means every citizen who is 18 years or older has the right to vote, regardless of their wealth, caste, or religion"
     ],
     "hint": "Straight from the 'Elections' slide -- match the key terms.",
     "misconception": "Answering incorrectly suggests the student thinks voting is reserved for certain groups or based on qualifications other than age, missing the core democratic value of equality.",
-    "id": "gen_c6_civ_ch11_q4",
+    "id": "gen_c6_civ_ch11_q6",
     "nodeId": "c6_civics_ch11_012",
     "difficulty": "standard",
     "workedExample": [
@@ -627,16 +224,16 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why does a country like India need three different levels of government instead of just one?",
-    "answer": "India is too vast and diverse for one group to manage every local detail; three levels allow for better focus on specific needs like local infrastructure versus national defense",
+    "question": "Compare the responsibilities of the local government with the national government. How do their scopes differ?",
+    "answer": "Local government focuses on immediate community needs like street cleaning and local parks, while the national government handles major issues like foreign affairs and currency",
     "options": [
-     "It is physically and logistically impossible for 970 million people to debate and vote on every law daily",
-     "India is a representative democracy because the population is too large for everyone to participate in daily law-making",
-     "India is too vast and diverse for one group to manage every local detail; three levels allow for better focus on specific needs like local infrastructure versus national defense"
+     "Both are active, but meetings allow for real-time dialogue and questioning of officials, whereas letters provide a formal, written record of concerns",
+     "Economic work is done for payment — it earns income, like a farmer selling crops. Non-economic work is done without payment",
+     "Local government focuses on immediate community needs like street cleaning and local parks, while the national government handles major issues like foreign affairs and currency"
     ],
     "hint": "Straight from the 'government in India operates at' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student views government as a single monolithic block rather than a functional, divided system.",
-    "id": "gen_c6_civ_ch11_q5",
+    "misconception": "Recheck the lesson slide -- the key claim is: Local government focuses on immediate community needs like street cleaning and local parks, while the national",
+    "id": "gen_c6_civ_ch11_q7",
     "nodeId": "c6_civics_ch11_013",
     "difficulty": "standard",
     "workedExample": [
@@ -651,13 +248,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Name two ways a citizen can participate in a democracy besides voting during an election.",
     "answer": "Citizens can attend public meetings or write letters to their representatives",
     "options": [
-     "Democracy means 'people's power' or 'rule by the people.' It comes from the Greek words 'demos' (people) and 'kratos' (power/rule)",
-     "It means every citizen who is 18 years or older has the right to vote, regardless of their wealth, caste, or religion",
+     "Define family and community, distinguish a nuclear family from a joint family with an example, and name two roles of a family and two ways a community helps its members",
+     "The student must be able to identify and provide at least three distinct methods of citizen participation (other than voting) and explain why each method helps improve governance",
      "Citizens can attend public meetings or write letters to their representatives"
     ],
     "hint": "Straight from the 'Citizen participation' slide -- match the key terms.",
     "misconception": "A wrong answer (like \"joining a political party\") reveals the student has not yet distinguished between individual civic engagement and organized political party activity, which is outside our current scope.",
-    "id": "gen_c6_civ_ch11_q6",
+    "id": "gen_c6_civ_ch11_q8",
     "nodeId": "c6_civics_ch11_014",
     "difficulty": "standard",
     "workedExample": [
@@ -669,182 +266,152 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "\"Government is only needed to punish people who do bad things.\" Do you agree with this statement? Why or why not?",
-    "answer": "I disagree. While the government does punish wrongdoers, its most important work is providing services like healthcare, education, and infrastructure that everyone needs to thrive",
+    "question": "How is a joint family different from a nuclear family?",
+    "answer": "A nuclear family is just parents and their children; a joint family adds grandparents, uncles, aunts, and cousins",
     "options": [
-     "Yes, because in a democracy, the government exists to serve the people, and feedback helps them refine or explain laws",
-     "The national (central) government, because highways connecting states fall under matters of national importance",
-     "I disagree. While the government does punish wrongdoers, its most important work is providing services like healthcare, education, and infrastructure that everyone needs to thrive"
-    ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student views government as a \"police force\" only, ignoring the \"service provider\" aspect.",
-    "id": "gen_c6_civ_ch11_q7",
-    "nodeId": "c6_civics_ch11_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A new shopping mall is being built in your city. How does the government's role ensure the building is safe for people to visit?",
-    "answer": "Steps: 1. Identify the need for safety standards. 2. Recognize the government's power to make building laws",
-    "options": [
-     "The local government (municipality/panchayat), because it is a community-level issue. A poor answer (e",
-     "No, it is not truly democratic because the representative is meant to act on behalf of the people. While they are legally in power",
-     "Steps: 1. Identify the need for safety standards. 2. Recognize the government's power to make building laws"
-    ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "A wrong answer usually implies the student thinks the government only deals with \"big\" national issues, not everyday safety.",
-    "id": "gen_c6_civ_ch11_q8",
-    "nodeId": "c6_civics_ch11_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare a society with a government to a game of football without a referee. What is the most important similarity?",
-    "answer": "Both require a set of rules and an authority to ensure those rules are followed to prevent total chaos",
-    "options": [
-     "Both are active, but meetings allow for real-time dialogue and questioning of officials, whereas letters provide a formal, written record of concerns",
-     "Local government focuses on immediate community needs like street cleaning and local parks, while the national government handles major issues like foreign affairs and currency",
-     "Both require a set of rules and an authority to ensure those rules are followed to prevent total chaos"
-    ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "If a student says the similarity is \"scoring goals,\" they are focusing on the activity rather than the structure that allows the activity to happen fairly.",
-    "id": "gen_c6_civ_ch11_q9",
-    "nodeId": "c6_civics_ch11_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine you are the leader of a new island community. List three rules you would create to help people live together peacefully.",
-    "answer": "A good answer includes rules that solve common problems: e.g., a rule for sharing water, a rule for how to settle arguments, and a rule for keeping public spaces clean",
-    "options": [
-     "The local government (municipality/panchayat), because it is a community-level issue. A poor answer (e",
-     "The community would contact their local representative (MLA or municipal representative) to debate the need for the park in the assembly",
-     "A good answer includes rules that solve common problems: e.g., a rule for sharing water, a rule for how to settle arguments, and a rule for keeping public spaces clean"
-    ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A good answer includes rules that solve common problems: e.g., a rule for sharing water, a rule for how to settle",
-    "id": "gen_c6_civ_ch11_q10",
-    "nodeId": "c6_civics_ch11_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare a democracy and a monarchy: what is the main difference in how the leader changes?",
-    "answer": "In a democracy, the leader changes through elections; in a monarchy, the leader changes through family succession",
-    "options": [
-     "Both require a set of rules and an authority to ensure those rules are followed to prevent total chaos",
-     "Local government focuses on immediate community needs like street cleaning and local parks, while the national government handles major issues like foreign affairs and currency",
-     "In a democracy, the leader changes through elections; in a monarchy, the leader changes through family succession"
-    ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a failure to differentiate between \"public choice\" and \"birthright.\"",
-    "id": "gen_c6_civ_ch11_q11",
-    "nodeId": "c6_civics_ch11_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a person forces their way into power and refuses to listen to the citizens, what type of government is this?",
-    "answer": "This is a dictatorship. Steps: 1. Identify the lack of public choice. 2. Identify the use of force or absolute control. 3. Match these traits to the definition of a dictatorship",
-    "options": [
-     "Without government, there would be no courts to settle disputes, no police to protect property, and no roads to transport goods",
-     "Yes, because in a democracy, the government exists to serve the people, and feedback helps them refine or explain laws",
-     "This is a dictatorship. Steps: 1. Identify the lack of public choice. 2. Identify the use of force or absolute control. 3. Match these traits to the definition of a dictatorship"
-    ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates an inability to distinguish between \"forceful control\" and \"elected authority.\"",
-    "id": "gen_c6_civ_ch11_q12",
-    "nodeId": "c6_civics_ch11_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were to design a new government for a school club, which type would you choose and why?",
-    "answer": "A good answer chooses a system and justifies it using the concept of power (e.g., \"I choose democracy so everyone has a voice\")",
-    "options": [
-     "The national (central) government, because highways connecting states fall under matters of national importance",
-     "The local government (municipality/panchayat), because it is a community-level issue. A poor answer (e",
-     "A good answer chooses a system and justifies it using the concept of power (e.g., \"I choose democracy so everyone has a voice\")"
-    ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "A poor answer fails to connect the choice to the source of power.",
-    "id": "gen_c6_civ_ch11_q13",
-    "nodeId": "c6_civics_ch11_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it possible for a country to be both a democracy and a monarchy?",
-    "answer": "Yes, some countries have a monarch as a symbolic head, but the actual power to make laws rests with elected representatives (a constitutional monarchy)",
-    "options": [
-     "Steps: 1. Identify the need for safety standards. 2. Recognize the government's power to make building laws",
-     "I disagree. While the government does punish wrongdoers, its most important work is providing services like healthcare, education, and infrastructure that everyone needs to thrive",
-     "Yes, some countries have a monarch as a symbolic head, but the actual power to make laws rests with elected representatives (a constitutional monarchy)"
-    ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests a rigid, overly simplistic view that doesn't account for modern political systems.",
-    "id": "gen_c6_civ_ch11_q14",
-    "nodeId": "c6_civics_ch11_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a scenario where your class acts as a 'mini-democracy' to solve a problem regarding cafeteria food.",
-    "answer": "The class should discuss options, elect a representative to talk to the canteen manager, and vote on the final choice",
-    "options": [
-     "A good answer includes rules that solve common problems: e.g., a rule for sharing water, a rule for how to settle arguments, and a rule for keeping public spaces clean",
-     "No, because democracy is based on equality; every adult gets one vote, no matter their wealth",
-     "The class should discuss options, elect a representative to talk to the canteen manager, and vote on the final choice"
-    ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
-    "misconception": "A poor answer ignores the 'representative' aspect and suggests everyone tries to speak at once, showing a misunderstanding of how we manage scale in a democracy.",
-    "id": "gen_c6_civ_ch11_q15",
-    "nodeId": "c6_civics_ch11_011",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does the act of electing a representative differ from a system where a ruler is chosen by birth (like a King)?",
-    "answer": "In a democracy, the people choose their leaders through voting, whereas, in a monarchy, power is inherited",
-    "options": [
-     "It is physically and logistically impossible for 970 million people to debate and vote on every law daily",
      "Voting happens only once every few years, but government decisions affect our daily lives constantly",
-     "In a democracy, the people choose their leaders through voting, whereas, in a monarchy, power is inherited"
+     "Power is usually inherited through birth, meaning it stays within the royal family",
+     "A nuclear family is just parents and their children; a joint family adds grandparents, uncles, aunts, and cousins"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student does not understand that 'people's power' implies choice and consent, which is absent in non-democratic systems.",
+    "hint": "Straight from the 'family' slide -- match the key terms.",
+    "misconception": "A wrong answer swaps the two definitions.",
+    "id": "gen_c6_civ_ch11_q9",
+    "nodeId": "c6_civics_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Name two things a family teaches a child.",
+    "answer": "A family teaches basic living skills like speaking, sharing, and behaving, and it passes on values, customs, and a sense of right and wrong — it is the child's first school",
+    "options": [
+     "Dignity of work means every honest work deserves equal respect — no job is inferior or superior — because every worker contributes to the community's well-being",
+     "Any three: farming, teaching, healthcare, cleaning, construction, transport, cooking, policing — each keeps the community running",
+     "A family teaches basic living skills like speaking, sharing, and behaving, and it passes on values, customs, and a sense of right and wrong — it is the child's first school"
+    ],
+    "hint": "Straight from the 'family' slide -- match the key terms.",
+    "misconception": "A wrong answer names only physical care — the family teaches, it does not just feed.",
+    "id": "gen_c6_civ_ch11_q10",
+    "nodeId": "c6_civics_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Name two ways a community helps its members.",
+    "answer": "A community celebrates festivals and ceremonies together and helps members in need — during weddings, illness, or emergencies — giving everyone support and belonging",
+    "options": [
+     "Any three: farming, teaching, healthcare, cleaning, construction, transport, cooking, policing — each keeps the community running",
+     "Distinguish economic from non-economic work with an example of each, explain dignity of work in one sentence, and name three kinds of work — paid or unpaid",
+     "A community celebrates festivals and ceremonies together and helps members in need — during weddings, illness, or emergencies — giving everyone support and belonging"
+    ],
+    "hint": "Straight from the 'family' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"it gives nothing\" — communities are how people get through life together.",
+    "id": "gen_c6_civ_ch11_q11",
+    "nodeId": "c6_civics_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is a community?",
+    "answer": "A community is a larger group of people who live in the same area or share common interests, customs, or beliefs, and who cooperate and support one another",
+    "options": [
+     "A community celebrates festivals and ceremonies together and helps members in need — during weddings, illness, or emergencies — giving everyone support and belonging",
+     "Caring for an elderly grandparent at home, volunteering during a flood, or helping a sibling study — valuable work done without payment",
+     "A community is a larger group of people who live in the same area or share common interests, customs, or beliefs, and who cooperate and support one another"
+    ],
+    "hint": "Straight from the 'family' slide -- match the key terms.",
+    "misconception": "A wrong answer restricts it to \"next-door neighbours\" — it can be any group that shares a place or way of life.",
+    "id": "gen_c6_civ_ch11_q12",
+    "nodeId": "c6_civics_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Define family and community, distinguish a nuclear family from a joint family with an example, and name two roles of a family and two ways a community helps its members",
+    "options": [
+     "Any three: farming, teaching, healthcare, cleaning, construction, transport, cooking, policing — each keeps the community running",
+     "Caring for an elderly grandparent at home, volunteering during a flood, or helping a sibling study — valuable work done without payment",
+     "Define family and community, distinguish a nuclear family from a joint family with an example, and name two roles of a family and two ways a community helps its members"
+    ],
+    "hint": "Straight from the 'family' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Define family and community, distinguish a nuclear family from a joint family with an example, and name two roles of a",
+    "id": "gen_c6_civ_ch11_q13",
+    "nodeId": "c6_civics_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why are both family and community important for a child?",
+    "answer": "The family gives close care, protection, and first lessons in values; the community widens that into cooperation, shared culture, and help from many people",
+    "options": [
+     "The sweeper's work keeps streets clean and prevents disease — it is essential to the community's health, so it deserves the same respect as any other honest work",
+     "India is a representative democracy because the population is too large for everyone to participate in daily law-making",
+     "The family gives close care, protection, and first lessons in values; the community widens that into cooperation, shared culture, and help from many people"
+    ],
+    "hint": "Straight from the 'family' slide -- match the key terms.",
+    "misconception": "A wrong answer picks only one — the child needs both the close circle and the wider ring.",
+    "id": "gen_c6_civ_ch11_q14",
+    "nodeId": "c6_civics_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A mother cooks meals at home without pay. Is this work? Explain.",
+    "answer": "Yes — it is non-economic work: it takes effort and produces value for the family (food, health, care) even though no money is exchanged",
+    "options": [
+     "1. Identify the concept of a \"secret ballot.\" 2. Explain that the booth is designed for privacy. 3. Conclude that the system ensures no one knows your choice",
+     "I disagree. While the government does punish wrongdoers, its most important work is providing services like healthcare, education, and infrastructure that everyone needs to thrive",
+     "Yes — it is non-economic work: it takes effort and produces value for the family (food, health, care) even though no money is exchanged"
+    ],
+    "hint": "Straight from the 'Work' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"not work because unpaid\" — work is measured by effort and contribution, not only by payment.",
+    "id": "gen_c6_civ_ch11_q15",
+    "nodeId": "c6_civics_ch09_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Give one example of valuable work that is unpaid.",
+    "answer": "Caring for an elderly grandparent at home, volunteering during a flood, or helping a sibling study — valuable work done without payment",
+    "options": [
+     "Dignity of work means every honest work deserves equal respect — no job is inferior or superior — because every worker contributes to the community's well-being",
+     "A family is a group of people related by birth, marriage, or adoption who live together and share responsibilities",
+     "Caring for an elderly grandparent at home, volunteering during a flood, or helping a sibling study — valuable work done without payment"
+    ],
+    "hint": "Straight from the 'Work' slide -- match the key terms.",
+    "misconception": "A wrong answer can only name paid jobs — the point is that unpaid work still counts.",
     "id": "gen_c6_civ_ch11_q16",
-    "nodeId": "c6_civics_ch11_011",
+    "nodeId": "c6_civics_ch09_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If your local neighborhood wants a new park but the government says there is no budget, how does the democratic process help your community express its view?",
-    "answer": "The community would contact their local representative (MLA or municipal representative) to debate the need for the park in the assembly",
+    "question": "Name three kinds of work a community depends on.",
+    "answer": "Any three: farming, teaching, healthcare, cleaning, construction, transport, cooking, policing — each keeps the community running",
     "options": [
-     "The national (central) government, because highways connecting states fall under matters of national importance",
-     "No, it is not truly democratic because the representative is meant to act on behalf of the people. While they are legally in power",
-     "The community would contact their local representative (MLA or municipal representative) to debate the need for the park in the assembly"
+     "A community celebrates festivals and ceremonies together and helps members in need — during weddings, illness, or emergencies — giving everyone support and belonging",
+     "Distinguish economic from non-economic work with an example of each, explain dignity of work in one sentence, and name three kinds of work — paid or unpaid",
+     "Any three: farming, teaching, healthcare, cleaning, construction, transport, cooking, policing — each keeps the community running"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks they have no role in government outside of voting, missing the point that democracy is an ongoing dialogue.",
+    "hint": "Straight from the 'Work' slide -- match the key terms.",
+    "misconception": "A wrong answer lists only \"high-status\" jobs like doctor and misses the sweeper and farmer the community equally needs.",
     "id": "gen_c6_civ_ch11_q17",
-    "nodeId": "c6_civics_ch11_011",
+    "nodeId": "c6_civics_ch09_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Is it democratic for an elected representative to ignore the needs of the people who voted for them? Justify your answer.",
-    "answer": "No, it is not truly democratic because the representative is meant to act on behalf of the people. While they are legally in power",
+    "question": "What does \"dignity of work\" mean?",
+    "answer": "Dignity of work means every honest work deserves equal respect — no job is inferior or superior — because every worker contributes to the community's well-being",
     "options": [
-     "The local government (municipality/panchayat), because it is a community-level issue. A poor answer (e",
-     "The community would contact their local representative (MLA or municipal representative) to debate the need for the park in the assembly",
-     "No, it is not truly democratic because the representative is meant to act on behalf of the people. While they are legally in power"
+     "A family teaches basic living skills like speaking, sharing, and behaving, and it passes on values, customs, and a sense of right and wrong — it is the child's first school",
+     "A community celebrates festivals and ceremonies together and helps members in need — during weddings, illness, or emergencies — giving everyone support and belonging",
+     "Dignity of work means every honest work deserves equal respect — no job is inferior or superior — because every worker contributes to the community's well-being"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student thinks democracy is only about the *act* of voting, not the *responsiveness* of the government.",
+    "hint": "Straight from the 'Work' slide -- match the key terms.",
+    "misconception": "A wrong answer ties dignity to salary — dignity comes from contribution, not pay.",
     "id": "gen_c6_civ_ch11_q18",
-    "nodeId": "c6_civics_ch11_011",
+    "nodeId": "c6_civics_ch09_002",
     "difficulty": "standard"
    }
   ],
@@ -952,7 +519,7 @@ export const C6_CIV_GEN: SimDef[] = [
     "answer": "You would raise the issue in the Gram Sabha, where the community can discuss the need and the Gram Panchayat can then plan to build or request the facility",
     "options": [
      "The poster should focus on local needs like sanitation, water, or education. A poor answer focuses on national issues (like defense or foreign policy) that fall outside the scope",
-     "Yes, because local representatives know the daily traffic patterns and safety needs of their specific streets better than a distant state government",
+     "A good answer would include specific rules like \"mandatory garbage segregation,\" \"fines for littering,\" or \"scheduled street cleaning",
      "You would raise the issue in the Gram Sabha, where the community can discuss the need and the Gram Panchayat can then plan to build or request the facility"
     ],
     "hint": "Straight from the 'Grassroots democracy' slide -- match the key terms.",
@@ -972,8 +539,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "What are the three tiers of the Panchayati Raj system in India?",
     "answer": "The three tiers are the Gram Panchayat (village level), the Panchayat Samiti (block level), and the Zila Parishad (district level)",
     "options": [
-     "The Parliament consists of the President, the Lok Sabha, and the Rajya Sabha",
-     "A primary school or a primary health centre is an example",
+     "The student can identify the three branches of state government and correctly match each branch to its primary function and key representative (e",
+     "The student must be able to identify at least three examples of government services in their immediate environment and explain why these services are considered the responsibility",
      "The three tiers are the Gram Panchayat (village level), the Panchayat Samiti (block level), and the Zila Parishad (district level)"
     ],
     "hint": "Straight from the 'Panchayati Raj' slide -- match the key terms.",
@@ -993,8 +560,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Why do you think cities need a different type of government than villages?",
     "answer": "Cities have higher population density and more complex infrastructure like large sewage systems and many shops, which require specialized management",
     "options": [
-     "The Gram Sabha consists of all adult voters who elect the Panchayat members and discuss the village's needs, acting as the \"boss\" that guides the Panchayat",
-     "It allows local problems to be solved by people who actually live there and understand the context",
+     "Regulation ensures that these services are safe, follow rules, and are available to everyone fairly",
+     "They help people travel to work, reach hospitals, and attend schools, connecting rural areas to the rest of the world",
      "Cities have higher population density and more complex infrastructure like large sewage systems and many shops, which require specialized management"
     ],
     "hint": "Straight from the 'Municipalities' slide -- match the key terms.",
@@ -1014,9 +581,9 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "What is one primary function of a Gram Panchayat regarding village infrastructure? (Recall)",
     "answer": "The Gram Panchayat maintains village roads and drains",
     "options": [
-     "The Parliament consists of the President, the Lok Sabha, and the Rajya Sabha",
+     "The student must be able to distinguish between a Municipal Corporation and a Municipal Council and correctly identify at least four core services managed by urban local bodies",
      "The three tiers are the Gram Panchayat (village level), the Panchayat Samiti (block level), and the Zila Parishad (district level)",
-     "Zila Parishad maintains village roads and drains",
+     "Chief Minister maintains village roads and drains",
      "The Gram Panchayat maintains village roads and drains"
     ],
     "hint": "Straight from the 'functions of local government' slide -- match the key terms.",
@@ -1036,8 +603,9 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "What are the three branches of the state government?",
     "answer": "The three branches are the Legislature, the Executive, and the Judiciary",
     "options": [
-     "The Gram Panchayat maintains village roads and drains",
-     "The Parliament consists of the President, the Lok Sabha, and the Rajya Sabha",
+     "The student must be able to identify at least three examples of government services in their immediate environment and explain why these services are considered the responsibility",
+     "The three tiers are the Gram Panchayat (village level), the Panchayat Samiti (block level), and the Zila Parishad (district level)",
+     "The three branches are the Lok Sabha, the Executive, and the Judiciary",
      "The three branches are the Legislature, the Executive, and the Judiciary"
     ],
     "hint": "Straight from the 'state government' slide -- match the key terms.",
@@ -1054,16 +622,15 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What are the three main components that make up the Parliament of India?",
-    "answer": "The Parliament consists of the President, the Lok Sabha, and the Rajya Sabha",
+    "question": "Why is it important for the National Government to have both a Lok Sabha and a Rajya Sabha instead of just one house?",
+    "answer": "It allows for a system of checks and balances where different perspectives—those of the general public (Lok Sabha) and those of the states (Rajya Sabha)—are considered",
     "options": [
-     "The Gram Panchayat maintains village roads and drains",
-     "The Judiciary (the High Court) is responsible for interpreting laws",
-     "The Parliament consists of the President, the Lok Sabha, and the Regulation",
-     "The Parliament consists of the President, the Lok Sabha, and the Rajya Sabha"
+     "Regulation ensures that these services are safe, follow rules, and are available to everyone fairly",
+     "They help people travel to work, reach hospitals, and attend schools, connecting rural areas to the rest of the world",
+     "It allows for a system of checks and balances where different perspectives—those of the general public (Lok Sabha) and those of the states (Rajya Sabha)—are considered"
     ],
     "hint": "Straight from the 'National Government' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student is confusing the three branches of government (Legislature, Executive, Judiciary) with the specific parts of the legislature.",
+    "misconception": "A wrong answer shows a lack of understanding regarding the need for diverse representation in a large democracy.",
     "id": "gen_c6_civ_ch12_q6",
     "nodeId": "c6_civics_ch12_020",
     "difficulty": "standard",
@@ -1076,15 +643,15 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is one example of social infrastructure that a Gram Panchayat might manage in a village?",
-    "answer": "A primary school or a primary health centre is an example",
+    "question": "Why does the local government focus on maintaining schools and clinics instead of leaving it entirely to the central government?",
+    "answer": "Because the local government is closer to the people and knows exactly what the village needs",
     "options": [
-     "The Gram Panchayat maintains village roads and drains",
-     "The three tiers are the Gram Panchayat (village level), the Panchayat Samiti (block level), and the Zila Parishad (district level)",
-     "A primary school or a primary health centre is an example"
+     "They help people travel to work, reach hospitals, and attend schools, connecting rural areas to the rest of the world",
+     "The Gram Sabha consists of all adult voters who elect the Panchayat members and discuss the village's needs, acting as the \"boss\" that guides the Panchayat",
+     "Because the local government is closer to the people and knows exactly what the village needs"
     ],
     "hint": "Straight from the 'Local self-government' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"building a factory\") shows the student confuses social infrastructure (which develops human capabilities) with industrial or commercial infrastructure.",
+    "misconception": "A wrong answer suggests that the central government is \"too lazy,\" missing the point that local self-government is about community participation and specific local knowledge.",
     "id": "gen_c6_civ_ch12_q7",
     "nodeId": "c6_civics_ch12_021",
     "difficulty": "standard",
@@ -1100,8 +667,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Why is it important for the local government to regulate services like schools and hospitals?",
     "answer": "Regulation ensures that these services are safe, follow rules, and are available to everyone fairly",
     "options": [
-     "The Panchayat operates at the village/local level, while the state government covers the entire state, including many towns, districts, and villages",
-     "They help people travel to work, reach hospitals, and attend schools, connecting rural areas to the rest of the world",
+     "The Gram Sabha consists of all adult voters who elect the Panchayat members and discuss the village's needs, acting as the \"boss\" that guides the Panchayat",
+     "Separating the branches prevents any single person or group from having too much power, ensuring a system of checks and balances",
      "Regulation ensures that these services are safe, follow rules, and are available to everyone fairly"
     ],
     "hint": "Straight from the 'Government services' slide -- match the key terms.",
@@ -1121,8 +688,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "How does the Gram Sabha act as the foundation for the Gram Panchayat?",
     "answer": "The Gram Sabha consists of all adult voters who elect the Panchayat members and discuss the village's needs, acting as the \"boss\" that guides the Panchayat",
     "options": [
-     "Lok Sabha members are directly elected by the citizens of India, while Rajya Sabha members are elected by members of the state legislatures",
-     "The Panchayat operates at the village/local level, while the state government covers the entire state, including many towns, districts, and villages",
+     "Cities have higher population density and more complex infrastructure like large sewage systems and many shops, which require specialized management",
+     "Separating the branches prevents any single person or group from having too much power, ensuring a system of checks and balances",
      "The Gram Sabha consists of all adult voters who elect the Panchayat members and discuss the village's needs, acting as the \"boss\" that guides the Panchayat"
     ],
     "hint": "Straight from the 'Grassroots democracy' slide -- match the key terms.",
@@ -1136,8 +703,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "If you were a villager, what is one issue you would bring to the next Gram Sabha meeting and why?",
     "answer": "An ideal answer identifies a concrete local issue (e.g., water quality, school safety, or street lights) and explains how it impacts daily life",
     "options": [
-     "You would raise the issue in the Gram Sabha, where the community can discuss the need and the Gram Panchayat can then plan to build or request the facility",
-     "The Gram Panchayat handles this. The steps include: 1) Identifying the need, 2) Raising it in a Gram Sabha meeting, 3) The Gram Panchayat deciding on the project",
+     "Yes, because the Sarpanch is elected by the people to represent them, and the Gram Sabha provides a space for direct participation and oversight",
+     "The Gram Panchayat is responsible",
      "An ideal answer identifies a concrete local issue (e.g., water quality, school safety, or street lights) and explains how it impacts daily life"
     ],
     "hint": "Straight from the 'Grassroots democracy' slide -- match the key terms.",
@@ -1151,8 +718,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Is it democratic for a village to have a leader (Sarpanch) if the people also gather to discuss issues? Why?",
     "answer": "Yes, because the Sarpanch is elected by the people to represent them, and the Gram Sabha provides a space for direct participation and oversight",
     "options": [
-     "The poster should focus on local needs like sanitation, water, or education. A poor answer focuses on national issues (like defense or foreign policy) that fall outside the scope",
-     "The Gram Panchayat handles this. The steps include: 1) Identifying the need, 2) Raising it in a Gram Sabha meeting, 3) The Gram Panchayat deciding on the project",
+     "Yes, because the government's role is to ensure all citizens have access to basic infrastructure, regardless of how many people use it",
+     "A good answer focuses on the right to education, the future of village children, and how it helps the village grow",
      "Yes, because the Sarpanch is elected by the people to represent them, and the Gram Sabha provides a space for direct participation and oversight"
     ],
     "hint": "Straight from the 'Grassroots democracy' slide -- match the key terms.",
@@ -1166,8 +733,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Design a simple campaign poster for a candidate running for Sarpanch. What are the two most important issues you would include?",
     "answer": "The poster should focus on local needs like sanitation, water, or education. A poor answer focuses on national issues (like defense or foreign policy) that fall outside the scope",
     "options": [
+     "The list should include items like safe drinking water, boundary walls, and a library. The answer must describe how the council uses its power or resources to build these",
      "A health clinic is more important because it directly improves human capabilities and health",
-     "The Gram Panchayat handles this. The steps include: 1) Identifying the need, 2) Raising it in a Gram Sabha meeting, 3) The Gram Panchayat deciding on the project",
      "The poster should focus on local needs like sanitation, water, or education. A poor answer focuses on national issues (like defense or foreign policy) that fall outside the scope"
     ],
     "hint": "Straight from the 'Panchayati Raj' slide -- match the key terms.",
@@ -1178,31 +745,16 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "How does the \"bottom-up\" structure of the Panchayati Raj help in governing a large country like India?",
-    "answer": "It allows local problems to be solved by people who actually live there and understand the context",
-    "options": [
-     "Both perform similar roles: they maintain public services like health and education to support the community",
-     "They help people travel to work, reach hospitals, and attend schools, connecting rural areas to the rest of the world",
-     "It allows local problems to be solved by people who actually live there and understand the context"
-    ],
-    "hint": "Straight from the 'Panchayati Raj' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student does not grasp why local participation is more efficient than centralized control.",
-    "id": "gen_c6_civ_ch12_q13",
-    "nodeId": "c6_civics_ch12_016",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "If a village needs a new handpump for water, which level of the Panchayati Raj system would likely handle the initial request?",
     "answer": "The Gram Panchayat handles this. The steps include: 1) Identifying the need, 2) Raising it in a Gram Sabha meeting, 3) The Gram Panchayat deciding on the project",
     "options": [
-     "Yes, because local representatives know the daily traffic patterns and safety needs of their specific streets better than a distant state government",
-     "An ideal answer identifies a concrete local issue (e.g., water quality, school safety, or street lights) and explains how it impacts daily life",
+     "Yes, because the Sarpanch is elected by the people to represent them, and the Gram Sabha provides a space for direct participation and oversight",
+     "The poster should focus on local needs like sanitation, water, or education. A poor answer focuses on national issues (like defense or foreign policy) that fall outside the scope",
      "The Gram Panchayat handles this. The steps include: 1) Identifying the need, 2) Raising it in a Gram Sabha meeting, 3) The Gram Panchayat deciding on the project"
     ],
     "hint": "Straight from the 'Panchayati Raj' slide -- match the key terms.",
     "misconception": "An incorrect answer suggests the student thinks all decisions are made by distant authorities.",
-    "id": "gen_c6_civ_ch12_q14",
+    "id": "gen_c6_civ_ch12_q13",
     "nodeId": "c6_civics_ch12_016",
     "difficulty": "standard"
    },
@@ -1211,12 +763,27 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Is it better to have a single leader decide everything in a village, or to have a Gram Sabha discuss and decide?",
     "answer": "A Gram Sabha is better because it represents the voice of the community, ensuring fairness and collective agreement",
     "options": [
+     "The Gram Panchayat handles this. The steps include: 1) Identifying the need, 2) Raising it in a Gram Sabha meeting, 3) The Gram Panchayat deciding on the project",
      "Yes, because the Sarpanch is elected by the people to represent them, and the Gram Sabha provides a space for direct participation and oversight",
-     "The Gram Panchayat is responsible",
      "A Gram Sabha is better because it represents the voice of the community, ensuring fairness and collective agreement"
     ],
     "hint": "Straight from the 'Panchayati Raj' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A Gram Sabha is better because it represents the voice of the community, ensuring fairness and collective agreement.",
+    "id": "gen_c6_civ_ch12_q14",
+    "nodeId": "c6_civics_ch12_016",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify the three tiers of the system, name the elected head of the Gram Panchayat",
+    "options": [
+     "The student must be able to identify the three branches of the national government and explain that the Parliament is the law-making body consisting of the President, Lok Sabha",
+     "The Gram Panchayat maintains village roads and drains",
+     "The student must be able to identify the three tiers of the system, name the elected head of the Gram Panchayat"
+    ],
+    "hint": "Straight from the 'Panchayati Raj' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the three tiers of the system, name the elected head of the Gram Panchayat, and",
     "id": "gen_c6_civ_ch12_q15",
     "nodeId": "c6_civics_ch12_016",
     "difficulty": "standard"
@@ -1226,9 +793,9 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Who is the head of the Gram Panchayat, and how is this person chosen?",
     "answer": "The head is called the Sarpanch or Pradhan, and they are elected by the members of the Gram Sabha",
     "options": [
-     "The three branches are the Legislature, the Executive, and the Judiciary",
-     "The Judiciary (the High Court) is responsible for interpreting laws",
-     "The head is called the Sarpanch or Pradhan, and they are elected by the members of the Legislature",
+     "The three tiers are the Gram Panchayat (village level), the Panchayat Samiti (block level), and the Zila Parishad (district level)",
+     "The student must be able to categorize at least three specific tasks of a Gram Panchayat and explain why these tasks are necessary for the village community",
+     "The head is called the Sarpanch or Pradhan, and they are elected by the members of the Judiciary",
      "The head is called the Sarpanch or Pradhan, and they are elected by the members of the Gram Sabha"
     ],
     "hint": "Straight from the 'Panchayati Raj' slide -- match the key terms.",
@@ -1242,8 +809,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Compare the roles of a Sarpanch and a Mayor. How are they similar in their purpose?",
     "answer": "Both act as the elected head of their respective local governments and are responsible for public welfare",
     "options": [
-     "An ideal answer identifies a concrete local issue (e.g., water quality, school safety, or street lights) and explains how it impacts daily life",
-     "The three tiers are the Gram Panchayat (village level), the Panchayat Samiti (block level), and the Zila Parishad (district level)",
+     "A Gram Sabha is better because it represents the voice of the community, ensuring fairness and collective agreement",
+     "The poster should focus on local needs like sanitation, water, or education. A poor answer focuses on national issues (like defense or foreign policy) that fall outside the scope",
      "Both act as the elected head of their respective local governments and are responsible for public welfare"
     ],
     "hint": "Straight from the 'Municipalities' slide -- match the key terms.",
@@ -1257,8 +824,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Design a list of three rules your local municipality could implement to keep the city cleaner.",
     "answer": "A good answer would include specific rules like \"mandatory garbage segregation,\" \"fines for littering,\" or \"scheduled street cleaning",
     "options": [
-     "You would raise the issue in the Gram Sabha, where the community can discuss the need and the Gram Panchayat can then plan to build or request the facility",
-     "You would look to the local (municipal) government for help, as they are responsible for maintaining public utilities like water supply and sewage infrastructure in your community",
+     "An ideal answer identifies a concrete local issue (e.g., water quality, school safety, or street lights) and explains how it impacts daily life",
+     "The list should include items like safe drinking water, boundary walls, and a library. The answer must describe how the council uses its power or resources to build these",
      "A good answer would include specific rules like \"mandatory garbage segregation,\" \"fines for littering,\" or \"scheduled street cleaning"
     ],
     "hint": "Straight from the 'Municipalities' slide -- match the key terms.",
@@ -1275,385 +842,6 @@ export const C6_CIV_GEN: SimDef[] = [
    ]
   },
   "successLine": "Grassroots Democracy mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
-  "sampleChallenges": 8
- },
- {
-  "id": "gen_c6_civ_ch13",
-  "title": "Government Budget",
-  "subtitle": "Civics · Chapter 13",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "civics",
-  "topic": "Government Budget",
-  "chapters": [
-   "Civics Ch13: Government Budget"
-  ],
-  "nodeIds": [
-   "c6_civics_ch13_023",
-   "c6_civics_ch13_024",
-   "c6_civics_ch13_025",
-   "c6_civics_ch13_026",
-   "c6_civics_ch13_027"
-  ],
-  "emoji": "⚖️",
-  "theme": {
-   "bg": "from-emerald-100 to-teal-200",
-   "accent": "emerald",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "In one line -- what does Government Budget actually explain?",
-   "options": [
-    "Why things around us behave the way they do",
-    "Nothing -- it is just a name",
-    "Only how to score marks"
-   ],
-   "answer": "Why things around us behave the way they do",
-   "hook": "A government budget is a written financial plan that shows how much money the government expects to receive (income) and how it intends to spend that"
-  },
-  "teaching": [
-   {
-    "title": "Government Budget",
-    "text": "A government budget is a written financial plan that shows how much money the government expects to receive (income) and how it intends to spend that money on public services over the course of one year.",
-    "emoji": "⚖️",
-    "bgColor": "from-violet-400 to-purple-500"
-   },
-   {
-    "title": "Government Income",
-    "text": "Government income refers to the money the state collects to pay for public services like roads, schools, and hospitals. Taxes are the primary way governments gather these funds by requiring citizens and businesses to contribute a portion of their earnings or",
-    "emoji": "⚖️",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Government Expenditure",
-    "text": "Government expenditure is the process by which the government spends the money it collects from taxes and other sources to provide public services and facilities to its citizens.",
-    "emoji": "⚖️",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Government Budget",
-    "text": "A government budget is a financial plan that shows the relationship between money earned (income) and money spent (expenditure). It is categorized as balanced, surplus, or deficit based on whether the income equals, exceeds, or falls short of the spending.",
-    "emoji": "⚖️",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Government Budget",
-    "text": "The government budget is a formal plan that lists how the government expects to collect money through taxes and how it plans to spend that money on public services over the coming year.",
-    "emoji": "⚖️",
-    "bgColor": "from-amber-400 to-orange-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "Why do you think a government cannot just spend money whenever it wants without a budget?",
-    "answer": "A budget is necessary to prioritize needs and ensure resources aren't wasted",
-    "options": [
-     "Education spending is specifically for schools, teachers, and curriculum, while social welfare targets direct support programs like food distribution for the needy",
-     "It is called \"direct\" because the person earning the money pays the tax directly to the government themselves",
-     "A budget is necessary to prioritize needs and ensure resources aren't wasted"
-    ],
-    "hint": "Straight from the 'government budget' slide -- match the key terms.",
-    "misconception": "A wrong answer—such as \"because the government has infinite money\"—shows a misunderstanding of resource scarcity, which is the foundational reason for any budget.",
-    "id": "gen_c6_civ_ch13_q1",
-    "nodeId": "c6_civics_ch13_023",
-    "difficulty": "standard",
-    "workedExample": [
-     "Think about your own pocket money or your family’s monthly expenses: how do you decide if you can afford a new cricket bat or a trip to the cinema?",
-     "You look at how much money you have and how much you need for important things like notebooks or bus fare.",
-     "A government does the exact same thing on a much larger scale for the whole country.",
-     "It begins by listing its \"income,\" which comes from things like taxes, and then creates a \"plan\" to spend that money on things that help everyone,"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Why is an income tax called a \"direct\" tax?",
-    "answer": "It is called \"direct\" because the person earning the money pays the tax directly to the government themselves",
-    "options": [
-     "The Minister presents the budget to Parliament for discussion and approval",
-     "Education spending is specifically for schools, teachers, and curriculum, while social welfare targets direct support programs like food distribution for the needy",
-     "It is called \"direct\" because the person earning the money pays the tax directly to the government themselves"
-    ],
-    "hint": "Straight from the 'Government income' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates confusion between paying a tax directly versus paying it hidden inside the price of a product.",
-    "id": "gen_c6_civ_ch13_q2",
-    "nodeId": "c6_civics_ch13_024",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine your school needs to buy new library books but doesn't have the money.",
-     "If every student contributes five rupees, the school can afford the books; this is similar to how a government functions.",
-     "Start by asking students what they think pays for the streetlights in their neighborhood or the garbage truck that visits their home.",
-     "Explain that because the government provides these services for everyone, it needs a steady flow of money from the people."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "If the government builds a new highway, which category of expenditure does this fall under?",
-    "answer": "This falls under infrastructure spending. A student saying \"education\" or \"defence\" fails to recognize that physical structures for transportation belong to the infrastructure",
-    "options": [
-     "Not necessarily; if the government borrows to build essential infrastructure, it might be necessary, though it implies the need for future repayment",
-     "This is an indirect tax because you aren't sending the money to the government yourself; the shopkeeper includes it in the price and sends it later",
-     "This falls under infrastructure spending. A student saying \"education\" or \"defence\" fails to recognize that physical structures for transportation belong to the infrastructure"
-    ],
-    "hint": "Straight from the 'Government expenditure' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: This falls under infrastructure spending. A student saying \"education\" or \"defence\" fails to recognize that physical",
-    "id": "gen_c6_civ_ch13_q3",
-    "nodeId": "c6_civics_ch13_025",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine your family has a monthly income and needs to decide how much to spend on food, rent, school fees, and savings—this is exactly what a",
-     "Start by looking at the facilities you use every day, like your school building or the local hospital; these aren't free, they are paid for by the",
-     "To begin, think of the government as a giant household manager that must balance its money to keep the \"house\" (the country) running.",
-     "We will categorize these spending areas into buckets like Defence, Health, and Infrastructure."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "If a Municipal Corporation earns ₹50 lakhs in taxes but spends ₹60 lakhs on garbage collection and road repairs, what type of budget is this?",
-    "answer": "This is a deficit budget",
-    "options": [
-     "It is more than a list; it is a strategic plan that reflects the government's priorities for the year",
-     "A good answer identifies a public good (like better library books or sports equipment) and explains *why* it is a priority",
-     "Confusing is a deficit budget",
-     "This is a deficit budget"
-    ],
-    "hint": "Straight from the 'government budget' slide -- match the key terms.",
-    "misconception": "A student who says \"surplus\" is likely ignoring the fact that spending is higher than income, perhaps confusing the terms \"deficit\" and \"surplus.\"",
-    "id": "gen_c6_civ_ch13_q4",
-    "nodeId": "c6_civics_ch13_026",
-    "difficulty": "standard",
-    "workedExample": [
-     "Think about your monthly pocket money: if you spend exactly what you receive, your budget is balanced.",
-     "Now, imagine you receive ₹100 but spend ₹120; you are in a \"deficit\" and must borrow ₹20 from a friend to cover the cost.",
-     "Conversely, if you receive ₹100 but spend only ₹80, you have a \"surplus\" of ₹20, which you can save for later.",
-     "Governments do the exact same thing when planning for services like building roads or paying teachers."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Who is responsible for collecting the requirements from different government departments?",
-    "answer": "The Ministry of Finance collects these requirements",
-    "options": [
-     "In a deficit, the government must borrow money to cover the gap; in a surplus, the government has extra money to save",
-     "Not necessarily; if the government borrows to build essential infrastructure, it might be necessary, though it implies the need for future repayment",
-     "The Ministry of Finance collects these requirements"
-    ],
-    "hint": "Straight from the 'government budget' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks one single leader or the President does everything, missing the role of the Finance Ministry as the \"manager\" of government money.",
-    "id": "gen_c6_civ_ch13_q5",
-    "nodeId": "c6_civics_ch13_027",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine your family is planning a big trip and needs to decide how much money to spend on travel, food, and hotels.",
-     "Would you let just one person decide everything, or would you ask everyone what they need first?",
-     "The government does the same thing on a massive scale.",
-     "First, every department (like Education or Health) says what they need for the year."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Compare a family’s monthly budget to a government’s yearly budget. What is one similarity?",
-    "answer": "Both must balance what comes in with what goes out to avoid running out of money",
-    "options": [
-     "Corporate tax is direct (the company pays it on its own profits) and the biscuit tax is indirect (the consumer pays it as part of the price)",
-     "In a deficit, the government must borrow money to cover the gap; in a surplus, the government has extra money to save",
-     "Both must balance what comes in with what goes out to avoid running out of money"
-    ],
-    "hint": "Straight from the 'government budget' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student hasn't grasped that both entities are \"managers\" of limited resources, regardless of the scale.",
-    "id": "gen_c6_civ_ch13_q6",
-    "nodeId": "c6_civics_ch13_023",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were in charge of your school's budget, what is one item you would definitely include in your \"planned expenditure\" and why?",
-    "answer": "A good answer identifies a public good (like better library books or sports equipment) and explains *why* it is a priority",
-    "options": [
-     "A good answer would be: Income = ₹1000, Expenditure = ₹800. The surplus is ₹200, which is placed in a \"reserve fund",
-     "This is an indirect tax because you aren't sending the money to the government yourself; the shopkeeper includes it in the price and sends it later",
-     "A good answer identifies a public good (like better library books or sports equipment) and explains *why* it is a priority"
-    ],
-    "hint": "Straight from the 'government budget' slide -- match the key terms.",
-    "misconception": "A poor answer fails to explain how the spending benefits the larger group (the students).",
-    "id": "gen_c6_civ_ch13_q7",
-    "nodeId": "c6_civics_ch13_023",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is a budget just a list of expenses, or is it something more? Justify your answer.",
-    "answer": "It is more than a list; it is a strategic plan that reflects the government's priorities for the year",
-    "options": [
-     "The student should answer that they would ask teachers and students what they need (requests) and check how much money the school has (income)",
-     "This is a deficit budget",
-     "It is more than a list; it is a strategic plan that reflects the government's priorities for the year"
-    ],
-    "hint": "Straight from the 'government budget' slide -- match the key terms.",
-    "misconception": "If a student says it's \"just a list,\" they miss the *purpose* of the document, which is setting goals for development.",
-    "id": "gen_c6_civ_ch13_q8",
-    "nodeId": "c6_civics_ch13_023",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "The citizens would have beautiful places to play but would face safety issues at night. The student must analyze the trade-off, showing they understand that a budget forces choices between different public needs.",
-    "answer": "Prioritizing parks over streetlights would likely improve the town’s recreational space but decrease public safety and increase the risk of accidents or crime at night",
-    "options": [
-     "They can save the money for future projects or use it to pay off existing debts",
-     "No, because a country needs a balance; neglecting health or education while only building roads would lead to an unhealthy and uneducated population",
-     "Prioritizing parks over streetlights would likely improve the town’s recreational space but decrease public safety and increase the risk of accidents or crime at night"
-    ],
-    "hint": "Straight from the 'government budget' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals that the student struggles to apply the concept of trade-offs in resource management, perhaps failing to recognize that a budget decision in one area (parks) inevitably results in a negative consequence in another area (infrastructure/safety).",
-    "id": "gen_c6_civ_ch13_q9",
-    "nodeId": "c6_civics_ch13_023",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare a corporate tax (on company profits) with the tax paid on a packet of biscuits. Which one is direct and which is indirect?",
-    "answer": "Corporate tax is direct (the company pays it on its own profits) and the biscuit tax is indirect (the consumer pays it as part of the price)",
-    "options": [
-     "In a deficit, the government must borrow money to cover the gap; in a surplus, the government has extra money to save",
-     "Both must balance what comes in with what goes out to avoid running out of money",
-     "Corporate tax is direct (the company pays it on its own profits) and the biscuit tax is indirect (the consumer pays it as part of the price)"
-    ],
-    "hint": "Straight from the 'Government income' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a failure to analyze the source and method of payment for these different entities.",
-    "id": "gen_c6_civ_ch13_q10",
-    "nodeId": "c6_civics_ch13_024",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you buy a notebook and pay tax as part of the price, is this a direct or indirect tax? Explain why.",
-    "answer": "This is an indirect tax because you aren't sending the money to the government yourself; the shopkeeper includes it in the price and sends it later",
-    "options": [
-     "This falls under infrastructure spending. A student saying \"education\" or \"defence\" fails to recognize that physical structures for transportation belong to the infrastructure",
-     "They can save the money for future projects or use it to pay off existing debts",
-     "This is an indirect tax because you aren't sending the money to the government yourself; the shopkeeper includes it in the price and sends it later"
-    ],
-    "hint": "Straight from the 'Government income' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student is not yet able to apply the \"direct vs. indirect\" distinction to real-life shopping scenarios.",
-    "id": "gen_c6_civ_ch13_q11",
-    "nodeId": "c6_civics_ch13_024",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine your town wants to build a new park. How would you explain to a classmate why the town needs to collect money from local businesses and residents to build it?",
-    "answer": "A good answer explains that the park is a \"public good\" that everyone uses, so everyone must contribute a small amount so the government has the budget to build and maintain it",
-    "options": [
-     "Not necessarily; if the government borrows to build essential infrastructure, it might be necessary, though it implies the need for future repayment",
-     "The student should answer that they would ask teachers and students what they need (requests) and check how much money the school has (income)",
-     "A good answer explains that the park is a \"public good\" that everyone uses, so everyone must contribute a small amount so the government has the budget to build and maintain it"
-    ],
-    "hint": "Straight from the 'Government income' slide -- match the key terms.",
-    "misconception": "A poor answer fails to connect the cost of infrastructure to the need for public funding.",
-    "id": "gen_c6_civ_ch13_q12",
-    "nodeId": "c6_civics_ch13_024",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Should a government rely only on taxes, or are there other ways to earn money? Is it fair for the government to take money from citizens?",
-    "answer": "Governments use taxes because it is the most reliable way to fund public needs, though they also earn from fines and service charges",
-    "options": [
-     "Not necessarily; if the government borrows to build essential infrastructure, it might be necessary, though it implies the need for future repayment",
-     "The student should answer that they would ask teachers and students what they need (requests) and check how much money the school has (income)",
-     "Governments use taxes because it is the most reliable way to fund public needs, though they also earn from fines and service charges"
-    ],
-    "hint": "Straight from the 'Government income' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of understanding of the \"participatory\" nature of democracy.",
-    "id": "gen_c6_civ_ch13_q13",
-    "nodeId": "c6_civics_ch13_024",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a hypothetical scenario where the government decides to increase spending on public health clinics. What impact would this have on the citizens?",
-    "answer": "The answer should explain that more clinics mean better access to medicine, faster treatment, and a healthier population",
-    "options": [
-     "No, because a country needs a balance; neglecting health or education while only building roads would lead to an unhealthy and uneducated population",
-     "A good answer explains that the park is a \"public good\" that everyone uses, so everyone must contribute a small amount so the government has the budget to build and maintain it",
-     "The answer should explain that more clinics mean better access to medicine, faster treatment, and a healthier population"
-    ],
-    "hint": "Straight from the 'Government expenditure' slide -- match the key terms.",
-    "misconception": "A poor answer is vague or fails to link the increase in spending to the resulting positive change in public health outcomes.",
-    "id": "gen_c6_civ_ch13_q14",
-    "nodeId": "c6_civics_ch13_025",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does spending on education differ from spending on social welfare?",
-    "answer": "Education spending is specifically for schools, teachers, and curriculum, while social welfare targets direct support programs like food distribution for the needy",
-    "options": [
-     "It is called \"direct\" because the person earning the money pays the tax directly to the government themselves",
-     "It starts early because the government must gather requests from all departments and review them carefully",
-     "Education spending is specifically for schools, teachers, and curriculum, while social welfare targets direct support programs like food distribution for the needy"
-    ],
-    "hint": "Straight from the 'Government expenditure' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Education spending is specifically for schools, teachers, and curriculum, while social welfare targets direct support",
-    "id": "gen_c6_civ_ch13_q15",
-    "nodeId": "c6_civics_ch13_025",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Should a government spend all its money on one sector, like only building roads? Why or why not?",
-    "answer": "No, because a country needs a balance; neglecting health or education while only building roads would lead to an unhealthy and uneducated population",
-    "options": [
-     "It is more than a list; it is a strategic plan that reflects the government's priorities for the year",
-     "They can save the money for future projects or use it to pay off existing debts",
-     "No, because a country needs a balance; neglecting health or education while only building roads would lead to an unhealthy and uneducated population"
-    ],
-    "hint": "Straight from the 'Government expenditure' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, because a country needs a balance; neglecting health or education while only building roads would lead to an",
-    "id": "gen_c6_civ_ch13_q16",
-    "nodeId": "c6_civics_ch13_025",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does the government spend money on the armed forces (Defence)?",
-    "answer": "To provide national security, protect borders, and purchase necessary military equipment",
-    "options": [
-     "Education spending is specifically for schools, teachers, and curriculum, while social welfare targets direct support programs like food distribution for the needy",
-     "It is called \"direct\" because the person earning the money pays the tax directly to the government themselves",
-     "To provide national security, protect borders, and purchase necessary military equipment"
-    ],
-    "hint": "Straight from the 'Government expenditure' slide -- match the key terms.",
-    "misconception": "A wrong answer here reflects a failure to connect national safety with the need for funded protection.",
-    "id": "gen_c6_civ_ch13_q17",
-    "nodeId": "c6_civics_ch13_025",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A local council has a surplus budget. What can they do with the extra money?",
-    "answer": "They can save the money for future projects or use it to pay off existing debts",
-    "options": [
-     "This is a deficit budget",
-     "A good answer explains that the park is a \"public good\" that everyone uses, so everyone must contribute a small amount so the government has the budget to build and maintain it",
-     "They can save the money for future projects or use it to pay off existing debts"
-    ],
-    "hint": "Straight from the 'government budget' slide -- match the key terms.",
-    "misconception": "If a student suggests they must borrow, they have missed the core meaning of \"surplus\" (having extra).",
-    "id": "gen_c6_civ_ch13_q18",
-    "nodeId": "c6_civics_ch13_026",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about government budget?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Government Budget mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1740,15 +928,15 @@ export const C6_CIV_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What are two examples of diversity found in Indian society?",
-    "answer": "Two examples are the different languages spoken (like Hindi, Tamil, or Bengali) and the variety of traditional clothing (like saris, dhotis, or kurtas)",
+    "question": "Think of a festival celebrated in your area. How could you explain its importance to someone who has never heard of it?",
+    "answer": "The student should describe the festival's name, the food eaten, and why it is special to their community",
     "options": [
-     "Hinduism, Islam, and Christianity are three examples",
-     "Rice and wheat (or millets like jowar/bajra)",
-     "Two examples are the different languages spoken (like Hindi, Tamil, or Bengali) and the variety of traditional clothing (like saris, dhotis, or kurtas)"
+     "A good answer would suggest a display showing multiple symbols or a collage of different festivals like Guru Nanak Jayanti and Mahavir Jayanti",
+     "Even if you only speak your mother tongue, your language use would change because you would likely adopt new loanwords, regional slang",
+     "The student should describe the festival's name, the food eaten, and why it is special to their community"
     ],
     "hint": "Straight from the 'Diversity' slide -- match the key terms.",
-    "misconception": "A student who lists only one or mentions something irrelevant (like \"cars\") shows they do not grasp the meaning of human/cultural variety.",
+    "misconception": "A poor answer gives no details, showing the student hasn't connected their personal life to the concept of cultural variety.",
     "id": "gen_c6_civ_ch14_q1",
     "nodeId": "c6_civics_ch14_028",
     "difficulty": "standard",
@@ -1764,8 +952,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "If India has thousands of languages, why do people in different states not find it impossible to communicate?",
     "answer": "Because most Indians are multilingual; they often know their mother tongue, a regional language, and frequently English or Hindi as a bridge",
     "options": [
-     "It shows that India's diversity is not just in books but in our daily social interactions",
-     "Diversity is an enrichment because it allows for different cultural expressions and perspectives to exist together",
+     "A good answer would include a specific regional food stall, a traditional dance performance, and a display of different regional textiles",
+     "A good answer would suggest a display showing multiple symbols or a collage of different festivals like Guru Nanak Jayanti and Mahavir Jayanti",
      "Because most Indians are multilingual; they often know their mother tongue, a regional language, and frequently English or Hindi as a bridge"
     ],
     "hint": "Straight from the 'Linguistic diversity' slide -- match the key terms.",
@@ -1785,9 +973,9 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Name three major religions that have been part of Indian society for centuries.",
     "answer": "Hinduism, Islam, and Christianity are three examples",
     "options": [
-     "Schools can celebrate festivals of different faiths and teach multiple languages",
-     "Example: Biryani (Hyderabad), Dhokla (Gujarat), and Rosgulla (Bengal)",
-     "Mahavir Jayanti, Islam, and Christianity are three examples",
+     "The student must be able to identify at least two examples of diversity (e.g., food or festivals) and explain how they share a common thread of unity within the Indian context",
+     "The student must be able to identify that India has both a set of recognized official languages and thousands of spoken mother tongues",
+     "Census, Islam, and Christianity are three examples",
      "Hinduism, Islam, and Christianity are three examples"
     ],
     "hint": "Straight from the 'Religious diversity' slide -- match the key terms.",
@@ -1807,8 +995,8 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Name three different traditional Indian dishes from three different states mentioned in the chapter.",
     "answer": "Example: Biryani (Hyderabad), Dhokla (Gujarat), and Rosgulla (Bengal)",
     "options": [
-     "Schools can celebrate festivals of different faiths and teach multiple languages",
-     "Rice and wheat (or millets like jowar/bajra)",
+     "The student must be able to identify at least three markers of inequality and explain why discrimination persists even when laws exist to prevent it",
+     "The student must be able to identify at least two examples of diversity (e.g., food or festivals) and explain how they share a common thread of unity within the Indian context",
      "Example: Biryani (Hyderabad), Dhokla (Gujarat), and Rosgulla (Bengal)"
     ],
     "hint": "Straight from the 'Cultural diversity' slide -- match the key terms.",
@@ -1828,9 +1016,9 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "What are two examples of \"staple grains\" that are commonly eaten in most parts of India?",
     "answer": "Rice and wheat (or millets like jowar/bajra)",
     "options": [
-     "Schools can celebrate festivals of different faiths and teach multiple languages",
-     "Example: Biryani (Hyderabad), Dhokla (Gujarat), and Rosgulla (Bengal)",
-     "Buddhism and wheat (or millets like jowar/bajra)",
+     "The student must be able to describe two specific ways schools or communities can foster respect for different backgrounds and provide a real-world example of how unity is found",
+     "The student must be able to identify at least three markers of inequality and explain why discrimination persists even when laws exist to prevent it",
+     "Hyderabad and wheat (or millets like jowar/bajra)",
      "Rice and wheat (or millets like jowar/bajra)"
     ],
     "hint": "Straight from the '\"Unity in Diversity\"' slide -- match the key terms.",
@@ -1847,15 +1035,15 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the difference between diversity and inequality?",
-    "answer": "Diversity refers to the variety of cultures, languages, and traditions, whereas inequality is the unfair gap in wealth and opportunities between groups",
+    "question": "Why does discrimination still happen in India even though there are laws against it?",
+    "answer": "Laws can stop official actions, but discrimination often hides in social habits, prejudices, and old ways of thinking that change very slowly",
     "options": [
-     "It is the \"Many\" because it has different names (Pongal, Lohri, Bihu) and customs, but the \"One\" because it celebrates the same harvest season at the same time of year",
-     "While the festival has different names (Pongal, Bihu, Lohri) and specific local customs, it is celebrated at the same time and marks the harvest season",
-     "Diversity refers to the variety of cultures, languages, and traditions, whereas inequality is the unfair gap in wealth and opportunities between groups"
+     "It helps break down stereotypes and builds trust between people",
+     "Historically, India has been a meeting place for many religions like Buddhism, Sikhism, Judaism, and Zoroastrianism, not just one",
+     "Laws can stop official actions, but discrimination often hides in social habits, prejudices, and old ways of thinking that change very slowly"
     ],
     "hint": "Straight from the 'Inequality' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student confuses \"being different\" with \"being treated unfairly.\"",
+    "misconception": "A wrong answer implies the student believes laws automatically change human behavior instantly.",
     "id": "gen_c6_civ_ch14_q6",
     "nodeId": "c6_civics_ch14_033",
     "difficulty": "advanced",
@@ -1872,15 +1060,15 @@ export const C6_CIV_GEN: SimDef[] = [
     "sortItems": [
      {
       "id": "s0",
-      "label": "Avoid making judgments about their",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
       "label": "Listen to their description of the festival",
       "emoji": "📌",
       "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Avoid making judgments about their",
+      "emoji": "📌",
+      "correctBin": "o2"
      },
      {
       "id": "s2",
@@ -1920,91 +1108,31 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Explain in your own words what \"Unity in Diversity\" means.",
-    "answer": "It means that even though Indians are very different from one another in their customs and beliefs, they are still connected by a shared national identity",
-    "options": [
-     "Historically, India has been a meeting place for many religions like Buddhism, Sikhism, Judaism, and Zoroastrianism, not just one",
-     "Laws can stop official actions, but discrimination often hides in social habits, prejudices, and old ways of thinking that change very slowly",
-     "It means that even though Indians are very different from one another in their customs and beliefs, they are still connected by a shared national identity"
-    ],
-    "hint": "Straight from the 'Diversity' slide -- match the key terms.",
-    "misconception": "A wrong answer, like \"everyone is the same,\" reveals the student ignores the \"diversity\" part and mistakenly thinks equality means being identical.",
-    "id": "gen_c6_civ_ch14_q8",
-    "nodeId": "c6_civics_ch14_028",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a new student joins your class from a different state, how can you show that you value diversity?",
-    "answer": "Steps: 1. Greet them warmly. 2. Ask about their favorite local food or festival. 3. Share a bit about your own traditions",
-    "options": [
-     "Steps: 1. Identify the student's original culture (e.g., eating makke di roti). 2. Identify the new environment's culture (e",
-     "It shows that India's diversity is not just in books but in our daily social interactions",
-     "Steps: 1. Greet them warmly. 2. Ask about their favorite local food or festival. 3. Share a bit about your own traditions"
-    ],
-    "hint": "Straight from the 'Diversity' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests excluding or mocking the student, showing a lack of empathy for different backgrounds.",
-    "id": "gen_c6_civ_ch14_q9",
-    "nodeId": "c6_civics_ch14_028",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Think of a festival celebrated in your area. How could you explain its importance to someone who has never heard of it?",
-    "answer": "The student should describe the festival's name, the food eaten, and why it is special to their community",
-    "options": [
-     "It shows that India is a land of religious diversity where different faiths coexist",
-     "Steps: 1. Greet them warmly. 2. Ask about their favorite local food or festival. 3. Share a bit about your own traditions",
-     "The student should describe the festival's name, the food eaten, and why it is special to their community"
-    ],
-    "hint": "Straight from the 'Diversity' slide -- match the key terms.",
-    "misconception": "A poor answer gives no details, showing the student hasn't connected their personal life to the concept of cultural variety.",
-    "id": "gen_c6_civ_ch14_q10",
-    "nodeId": "c6_civics_ch14_028",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why might a historian find it difficult to write a single story about India?",
-    "answer": "Because the \"bewildering\" variety of cultures, languages, and regional histories makes it hard to summarize everything into one simple narrative",
-    "options": [
-     "It creates a challenge because it makes certain groups feel excluded or undervalued, which weakens the bond of unity",
-     "It helps break down stereotypes and builds trust between people",
-     "Because the \"bewildering\" variety of cultures, languages, and regional histories makes it hard to summarize everything into one simple narrative"
-    ],
-    "hint": "Straight from the 'Diversity' slide -- match the key terms.",
-    "misconception": "A student who says \"it's easy because everyone is the same\" fails to analyze the complexity of the subject.",
-    "id": "gen_c6_civ_ch14_q11",
-    "nodeId": "c6_civics_ch14_028",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Imagine a school where students come from 10 different states. How would you design a \"Language Exchange Day\"?",
     "answer": "A good answer would include activities like \"phrase swapping,\" where students teach each other greeting words in their mother tongues, or a multilingual poem recitation",
     "options": [
-     "The plan should include activities like a cultural showcase, sharing stories from regional literature, or a language exchange",
      "Even if you only speak your mother tongue, your language use would change because you would likely adopt new loanwords, regional slang",
+     "A good answer would include a specific regional food stall, a traditional dance performance, and a display of different regional textiles",
      "A good answer would include activities like \"phrase swapping,\" where students teach each other greeting words in their mother tongues, or a multilingual poem recitation"
     ],
     "hint": "Straight from the 'Linguistic diversity' slide -- match the key terms.",
     "misconception": "A poor answer would ignore the variety and just pick one language for everyone to use.",
-    "id": "gen_c6_civ_ch14_q12",
+    "id": "gen_c6_civ_ch14_q8",
     "nodeId": "c6_civics_ch14_029",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Is it better for a country to have one single language or many? Defend your position.",
-    "answer": "Diversity is an enrichment because it allows for different cultural expressions and perspectives to exist together",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify that India has both a set of recognized official languages and thousands of spoken mother tongues",
     "options": [
-     "The plan should include activities like a cultural showcase, sharing stories from regional literature, or a language exchange",
-     "Steps: 1. Greet them warmly. 2. Ask about their favorite local food or festival. 3. Share a bit about your own traditions",
-     "Diversity is an enrichment because it allows for different cultural expressions and perspectives to exist together"
+     "The student must be able to identify at least three markers of inequality and explain why discrimination persists even when laws exist to prevent it",
+     "The student must be able to identify three different religions practiced in India and describe one way in which religious diversity is visible in their own neighborhood or",
+     "The student must be able to identify that India has both a set of recognized official languages and thousands of spoken mother tongues"
     ],
     "hint": "Straight from the 'Linguistic diversity' slide -- match the key terms.",
-    "misconception": "A wrong answer would be claiming that \"one language makes a country stronger,\" which ignores the cultural depth and heritage provided by linguistic variety.",
-    "id": "gen_c6_civ_ch14_q13",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify that India has both a set of recognized official languages and thousands of spoken",
+    "id": "gen_c6_civ_ch14_q9",
     "nodeId": "c6_civics_ch14_029",
     "difficulty": "standard"
    },
@@ -2013,13 +1141,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Why is the number of \"mother tongues\" recorded by the Census (19,500+) so much larger than the \"official languages\" (22)?",
     "answer": "The official list represents languages used for formal administrative purposes, while the Census records every distinct dialect and local way of speaking as a mother tongue",
     "options": [
+     "Laws can stop official actions, but discrimination often hides in social habits, prejudices, and old ways of thinking that change very slowly",
      "Historically, India has been a meeting place for many religions like Buddhism, Sikhism, Judaism, and Zoroastrianism, not just one",
-     "It creates a challenge because it makes certain groups feel excluded or undervalued, which weakens the bond of unity",
      "The official list represents languages used for formal administrative purposes, while the Census records every distinct dialect and local way of speaking as a mother tongue"
     ],
     "hint": "Straight from the 'Linguistic diversity' slide -- match the key terms.",
     "misconception": "A wrong answer shows confusion between political recognition and the reality of cultural variety.",
-    "id": "gen_c6_civ_ch14_q14",
+    "id": "gen_c6_civ_ch14_q10",
     "nodeId": "c6_civics_ch14_029",
     "difficulty": "standard"
    },
@@ -2028,13 +1156,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "You would likely start by using English or Hindi to communicate with locals, then learn basic phrases of the regional language (Punjabi) over time. This shows you are applying the concept of multilingualism to adapt to a new environment.",
     "answer": "Even if you only speak your mother tongue, your language use would change because you would likely adopt new loanwords, regional slang",
     "options": [
-     "Steps: 1. Identify the student's original culture (e.g., eating makke di roti). 2. Identify the new environment's culture (e",
-     "The plan should include activities like a cultural showcase, sharing stories from regional literature, or a language exchange",
+     "A good answer would include a specific regional food stall, a traditional dance performance, and a display of different regional textiles",
+     "Because most Indians are multilingual; they often know their mother tongue, a regional language, and frequently English or Hindi as a bridge",
      "Even if you only speak your mother tongue, your language use would change because you would likely adopt new loanwords, regional slang"
     ],
     "hint": "Straight from the 'Linguistic diversity' slide -- match the key terms.",
     "misconception": "a Wrong Answer: A wrong answer—such as claiming that language use remains identical because the mother tongue hasn't changed—reveals the misconception that language is a static, rigid system rather than a dynamic social tool.",
-    "id": "gen_c6_civ_ch14_q15",
+    "id": "gen_c6_civ_ch14_q11",
     "nodeId": "c6_civics_ch14_029",
     "difficulty": "standard"
    },
@@ -2043,28 +1171,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "If a new student in your class celebrates a festival you have never heard of, how does this relate to the concept of religious diversity?",
     "answer": "It shows that India's diversity is not just in books but in our daily social interactions",
     "options": [
-     "Steps: 1. Identify the student's original culture (e.g., eating makke di roti). 2. Identify the new environment's culture (e",
-     "Steps: 1. Greet them warmly. 2. Ask about their favorite local food or festival. 3. Share a bit about your own traditions",
+     "Because most Indians are multilingual; they often know their mother tongue, a regional language, and frequently English or Hindi as a bridge",
+     "Even if you only speak your mother tongue, your language use would change because you would likely adopt new loanwords, regional slang",
      "It shows that India's diversity is not just in books but in our daily social interactions"
     ],
     "hint": "Straight from the 'Religious diversity' slide -- match the key terms.",
     "misconception": "A wrong answer would be to view the new festival as \"strange\" or \"wrong\" instead of recognizing it as another thread in the tapestry of India.",
-    "id": "gen_c6_civ_ch14_q16",
-    "nodeId": "c6_civics_ch14_030",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you see a temple and a mosque on the same street, what does this tell you about Indian society?",
-    "answer": "It shows that India is a land of religious diversity where different faiths coexist",
-    "options": [
-     "No, it is a sign of a rich, complex society where many traditions contribute to the whole",
-     "Yes, because diversity is about differences in culture, while inequality is about how people are treated; a society can celebrate differences while treating everyone as equals",
-     "It shows that India is a land of religious diversity where different faiths coexist"
-    ],
-    "hint": "Straight from the 'Religious diversity' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"people should only have one religion\") reveals a misunderstanding that diversity is a problem rather than a defining feature of our country.",
-    "id": "gen_c6_civ_ch14_q17",
+    "id": "gen_c6_civ_ch14_q12",
     "nodeId": "c6_civics_ch14_030",
     "difficulty": "standard"
    },
@@ -2073,15 +1186,90 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Imagine you are planning a school assembly about India. How could you represent religious diversity without focusing on just one group?",
     "answer": "A good answer would suggest a display showing multiple symbols or a collage of different festivals like Guru Nanak Jayanti and Mahavir Jayanti",
     "options": [
-     "Diversity is an enrichment because it allows for different cultural expressions and perspectives to exist together",
-     "No, it is a strength because it enriches the country with different perspectives, arts, and traditions, creating a \"Many in the One\" structure",
+     "The student should describe the festival's name, the food eaten, and why it is special to their community",
+     "Because most Indians are multilingual; they often know their mother tongue, a regional language, and frequently English or Hindi as a bridge",
      "A good answer would suggest a display showing multiple symbols or a collage of different festivals like Guru Nanak Jayanti and Mahavir Jayanti"
     ],
     "hint": "Straight from the 'Religious diversity' slide -- match the key terms.",
     "misconception": "A poor answer would only focus on one religion, failing to represent the \"many faiths\" aspect of the chapter.",
-    "id": "gen_c6_civ_ch14_q18",
+    "id": "gen_c6_civ_ch14_q13",
     "nodeId": "c6_civics_ch14_030",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is religious diversity a sign that a country is divided? Explain your view.",
+    "answer": "No, it is a sign of a rich, complex society where many traditions contribute to the whole",
+    "options": [
+     "It shows that India's diversity is not just in books but in our daily social interactions",
+     "Even if you only speak your mother tongue, your language use would change because you would likely adopt new loanwords, regional slang",
+     "No, it is a sign of a rich, complex society where many traditions contribute to the whole"
+    ],
+    "hint": "Straight from the 'Religious diversity' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates the student equates \"difference\" with \"conflict,\" failing to grasp the concept of unity in diversity.",
+    "id": "gen_c6_civ_ch14_q14",
+    "nodeId": "c6_civics_ch14_030",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify three different religions practiced in India and describe one way in which religious diversity is visible in their own neighborhood or",
+    "options": [
+     "Hinduism, Islam, and Christianity are three examples",
+     "The student must be able to identify that India has both a set of recognized official languages and thousands of spoken mother tongues",
+     "The student must be able to identify three different religions practiced in India and describe one way in which religious diversity is visible in their own neighborhood or"
+    ],
+    "hint": "Straight from the 'Religious diversity' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify three different religions practiced in India and describe one way in which",
+    "id": "gen_c6_civ_ch14_q15",
+    "nodeId": "c6_civics_ch14_030",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is it accurate to say that India is home to many faiths rather than just one?",
+    "answer": "Historically, India has been a meeting place for many religions like Buddhism, Sikhism, Judaism, and Zoroastrianism, not just one",
+    "options": [
+     "It helps break down stereotypes and builds trust between people",
+     "The official list represents languages used for formal administrative purposes, while the Census records every distinct dialect and local way of speaking as a mother tongue",
+     "Historically, India has been a meeting place for many religions like Buddhism, Sikhism, Judaism, and Zoroastrianism, not just one"
+    ],
+    "hint": "Straight from the 'Religious diversity' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks India is religiously uniform, ignoring historical evidence.",
+    "id": "gen_c6_civ_ch14_q16",
+    "nodeId": "c6_civics_ch14_030",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare how festivals like Makara Sankranti are celebrated differently across India, yet represent the same underlying event.",
+    "answer": "While the festival has different names (Pongal, Bihu, Lohri) and specific local customs, it is celebrated at the same time and marks the harvest season",
+    "options": [
+     "It is the \"Many\" because it has different names (Pongal, Lohri, Bihu) and customs, but the \"One\" because it celebrates the same harvest season at the same time of year",
+     "A good answer would suggest celebrating something shared, like \"Harvest\" or \"Friendship,\" but allowing each region to perform their own local dance or prepare their local food",
+     "While the festival has different names (Pongal, Bihu, Lohri) and specific local customs, it is celebrated at the same time and marks the harvest season"
+    ],
+    "hint": "Straight from the 'Cultural diversity' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals the student is focusing only on the labels rather than the shared purpose or timing of the event.",
+    "id": "gen_c6_civ_ch14_q17",
+    "nodeId": "c6_civics_ch14_031",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a hypothetical \"Unity Festival\" for your school that includes at least three different cultural elements from different parts of India.",
+    "answer": "A good answer would include a specific regional food stall, a traditional dance performance, and a display of different regional textiles",
+    "options": [
+     "The student should describe the festival's name, the food eaten, and why it is special to their community",
+     "It shows that India's diversity is not just in books but in our daily social interactions",
+     "A good answer would include a specific regional food stall, a traditional dance performance, and a display of different regional textiles"
+    ],
+    "hint": "Straight from the 'Cultural diversity' slide -- match the key terms.",
+    "misconception": "A poor answer is generic or fails to link the activities to specific Indian regions, showing a lack of research into cultural variety.",
+    "id": "gen_c6_civ_ch14_q18",
+    "nodeId": "c6_civics_ch14_031",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -2095,384 +1283,18 @@ export const C6_CIV_GEN: SimDef[] = [
   "sampleChallenges": 8
  },
  {
-  "id": "gen_c6_civ_ch15",
-  "title": "Media",
-  "subtitle": "Civics · Chapter 15",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "civics",
-  "topic": "Media",
-  "chapters": [
-   "Civics Ch15: Media"
-  ],
-  "nodeIds": [
-   "c6_civics_ch15_035",
-   "c6_civics_ch15_036",
-   "c6_civics_ch15_037",
-   "c6_civics_ch15_038"
-  ],
-  "emoji": "⚖️",
-  "theme": {
-   "bg": "from-orange-100 to-red-200",
-   "accent": "orange",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "In one line -- what does Media actually explain?",
-   "options": [
-    "Why things around us behave the way they do",
-    "Nothing -- it is just a name",
-    "Only how to score marks"
-   ],
-   "answer": "Why things around us behave the way they do",
-   "hook": "Media refers to all the tools and channels—such as newspapers, television, radio, and the internet—that we use to share information with large groups"
-  },
-  "teaching": [
-   {
-    "title": "Media",
-    "text": "Media refers to all the tools and channels—such as newspapers, television, radio, and the internet—that we use to share information with large groups of people.",
-    "emoji": "⚖️",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Media",
-    "text": "Media refers to the various channels or tools used to communicate information to a large number of people, categorized into print, electronic, and digital formats.",
-    "emoji": "⚖️",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Media Ethics",
-    "text": "Media ethics are the set of moral rules that guide journalists to report the truth accurately, fairly, and independently. It acts as a code of conduct to ensure the media serves the public interest in a democracy rather than personal or political agendas.",
-    "emoji": "⚖️",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Being a Critical Media Consumer",
-    "text": "Being a critical media consumer means that instead of believing everything we see on news or social media instantly, we investigate the source, the purpose, and the evidence behind the message.",
-    "emoji": "⚖️",
-    "bgColor": "from-rose-400 to-pink-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "Name three different forms of mass communication that are considered \"media.\"",
-    "answer": "Newspapers, television, and the internet",
-    "options": [
-     "Accuracy means reporting facts correctly and verifying information with reliable sources before publishing it",
-     "The first step is to identify who created or reported the information",
-     "Accuracy, television, and the internet",
-     "Newspapers, television, and the internet"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"my teacher\" or \"a phone call\") shows the student is confusing personal communication with \"mass\" communication intended for the whole public.",
-    "id": "gen_c6_civ_ch15_q1",
-    "nodeId": "c6_civics_ch15_035",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered how you know about a new law passed in Delhi or a flood happening in another state?",
-     "You likely hear it from the news on TV, a newspaper, or a social media update.",
-     "Think of the media as a giant \"messenger\" that connects what the government is doing to what the people need to know.",
-     "Just as you need to know the rules of a game before you play, citizens need to know government policies to vote wisely."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Why is print media still considered important in rural India even though we have smartphones?",
-    "answer": "Print media remains important because it does not rely on electricity or high-speed internet access to function",
-    "options": [
-     "If you know someone is trying to sell a product or win an argument, you can guess why they might exaggerate the truth",
-     "It violates the principle of \"privacy,\" which mandates that the media must protect the dignity and safety of individuals, especially victims",
-     "Print media remains important because it does not rely on electricity or high-speed internet access to function"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "A student who says \"it's faster\" is incorrect, as print media is actually slower to distribute than digital media.",
-    "id": "gen_c6_civ_ch15_q2",
-    "nodeId": "c6_civics_ch15_036",
-    "difficulty": "standard",
-    "workedExample": [
-     "Think about how you learned about the weather this morning or the latest cricket score.",
-     "Did you look at a physical newspaper, watch it on TV, or check a notification on a smartphone?",
-     "Media is simply the \"messenger\" that brings this information to you.",
-     "To begin, we look at the physical format (paper), the broadcast format (waves/signals), and the internet format (data)."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What does \"accuracy\" mean in the context of media ethics?",
-    "answer": "Accuracy means reporting facts correctly and verifying information with reliable sources before publishing it",
-    "options": [
-     "Newspapers, television, and the internet",
-     "The first step is to identify who created or reported the information",
-     "Accuracy means reporting facts correctly and verifying information with reliable sources before publishing it"
-    ],
-    "hint": "Straight from the 'Media ethics' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student confuses \"accuracy\" with \"speed\" or \"popularity,\" missing the core requirement of truth-telling.",
-    "id": "gen_c6_civ_ch15_q3",
-    "nodeId": "c6_civics_ch15_037",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever seen two people tell the same story differently?",
-     "Imagine a fight happens in the school playground; if you only ask one student what happened, you might get a biased story.",
-     "To get the truth, you must ask both sides, check if they are telling facts or just rumors, and make sure you aren't favoring a friend.",
-     "Journalism works the same way."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the first step you should take when you see a shocking piece of news online?",
-    "answer": "The first step is to identify who created or reported the information",
-    "options": [
-     "Newspapers, television, and the internet",
-     "Accuracy means reporting facts correctly and verifying information with reliable sources before publishing it",
-     "The first step is to identify who created or reported the information"
-    ],
-    "hint": "Straight from the 'Being a critical media consumer' slide -- match the key terms.",
-    "misconception": "A wrong answer, such as \"immediately sharing it with friends,\" shows the student does not understand that information must be verified before it is spread.",
-    "id": "gen_c6_civ_ch15_q4",
-    "nodeId": "c6_civics_ch15_038",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine you see a viral video on your phone claiming that \"Schools in your city will be closed for a whole month starting tomorrow.",
-     "Is it the official government education department or a random account?",
-     "Look for evidence, like a link to an official order or a quote from a known authority.",
-     "If the post doesn't mention where they got the news, it is likely just a rumor."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the role of the judiciary with the role of the media in a democracy.",
-    "answer": "The judiciary makes legal decisions and punishes those who break laws, while the media acts as an information bridge that tells people what the government is doing",
-    "options": [
-     "Electronic media (TV/Radio) is faster because it transmits news in real-time or near real-time, whereas print media requires a printing and physical delivery process",
-     "It is called the fourth pillar because, like the legislature, executive, and judiciary, it is essential for a democracy to function by keeping citizens informed",
-     "The judiciary makes legal decisions and punishes those who break laws, while the media acts as an information bridge that tells people what the government is doing"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks the media has the power to punish criminals, which is a misunderstanding of the separate \"pillars.\"",
-    "id": "gen_c6_civ_ch15_q5",
-    "nodeId": "c6_civics_ch15_035",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a citizen never watched the news or read a newspaper, how would it affect their ability to vote?",
-    "answer": "Steps: 1. Identify the lack of information. 2. Recognize that voting requires knowing the candidates' promises",
-    "options": [
-     "The most effective would be print media (newspapers/leaflets) or electronic media (radio). A poor answer would suggest an app or website",
-     "They have violated \"fairness\" and \"objectivity.\" To fix this, they should include the perspectives of both teams",
-     "Steps: 1. Identify the lack of information. 2. Recognize that voting requires knowing the candidates' promises"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student doesn't see the link between information and choice.",
-    "id": "gen_c6_civ_ch15_q6",
-    "nodeId": "c6_civics_ch15_035",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine a new law is passed that affects school uniforms. How can the media help students and parents understand it?",
-    "answer": "The media can interview officials to explain the law, write articles detailing the changes, or host debates about whether the law is fair",
-    "options": [
-     "The checklist should include: 1) Are these facts verified? 2) Have I heard from both sides? 3) Am I being pressured by anyone?",
-     "You are using digital media",
-     "The media can interview officials to explain the law, write articles detailing the changes, or host debates about whether the law is fair"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "A poor answer is just \"they can tell people,\" which lacks the detail of *how* they analyze or distribute that information.",
-    "id": "gen_c6_civ_ch15_q7",
-    "nodeId": "c6_civics_ch15_035",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Should the government try to hide information from the media? Justify your answer.",
-    "answer": "No, because in a democracy, citizens have a right to know how their government is working to make informed choices",
-    "options": [
-     "Steps: 1. Identify the lack of information. 2. Recognize that voting requires knowing the candidates' promises",
-     "The most effective would be print media (newspapers/leaflets) or electronic media (radio). A poor answer would suggest an app or website",
-     "No, because in a democracy, citizens have a right to know how their government is working to make informed choices"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of understanding of transparency in democracy.",
-    "id": "gen_c6_civ_ch15_q8",
-    "nodeId": "c6_civics_ch15_035",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is the media often called the \"fourth pillar\" of democracy?",
-    "answer": "It is called the fourth pillar because, like the legislature, executive, and judiciary, it is essential for a democracy to function by keeping citizens informed",
-    "options": [
-     "Facts can be proven true with evidence, while opinions are just someone's personal belief",
-     "If you know someone is trying to sell a product or win an argument, you can guess why they might exaggerate the truth",
-     "It is called the fourth pillar because, like the legislature, executive, and judiciary, it is essential for a democracy to function by keeping citizens informed"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "If a student says \"because it is the most powerful,\" they miss the point that its power comes from *informing* the people, not from making laws itself.",
-    "id": "gen_c6_civ_ch15_q9",
-    "nodeId": "c6_civics_ch15_035",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the speed of news delivery between print media and electronic media. Which is faster?",
-    "answer": "Electronic media (TV/Radio) is faster because it transmits news in real-time or near real-time, whereas print media requires a printing and physical delivery process",
-    "options": [
-     "The judiciary makes legal decisions and punishes those who break laws, while the media acts as an information bridge that tells people what the government is doing",
-     "Independence ensures that news is not influenced by advertisers, politicians, or powerful people who might want to hide the truth",
-     "Electronic media (TV/Radio) is faster because it transmits news in real-time or near real-time, whereas print media requires a printing and physical delivery process"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "A student who struggles here may not understand the logistical difference between broadcasting and physical printing.",
-    "id": "gen_c6_civ_ch15_q10",
-    "nodeId": "c6_civics_ch15_036",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a plan for a small town that has no internet access to receive information about a new government rule. Which media type would be most effective?",
-    "answer": "The most effective would be print media (newspapers/leaflets) or electronic media (radio). A poor answer would suggest an app or website",
-    "options": [
-     "The student should ask: 1) Who told you this? 2) Is there a government notice or news report confirming this?",
-     "Steps: 1. Identify the lack of information. 2. Recognize that voting requires knowing the candidates' promises",
-     "The most effective would be print media (newspapers/leaflets) or electronic media (radio). A poor answer would suggest an app or website"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "A poor answer would suggest an app or website, ignoring the lack of internet connectivity mentioned in the prompt.",
-    "id": "gen_c6_civ_ch15_q11",
-    "nodeId": "c6_civics_ch15_036",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you are reading a news story on a website using your laptop, which category of media are you using?",
-    "answer": "You are using digital media",
-    "options": [
-     "You should look for other sources to see if they report the same event from a different perspective",
-     "Multiple sources are more reliable because they allow you to cross-check information",
-     "Radio are using digital media",
-     "You are using digital media"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "If the student answers \"electronic,\" they are confusing devices (like a laptop) with the method of transmission (internet/data), suggesting they need to distinguish between the hardware and the network.",
-    "id": "gen_c6_civ_ch15_q12",
-    "nodeId": "c6_civics_ch15_036",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is a magazine considered digital media? Why or why not?",
-    "answer": "No, a traditional magazine is print media because it is physically printed on paper",
-    "options": [
-     "No, because in a democracy, citizens have a right to know how their government is working to make informed choices",
-     "They have violated \"fairness\" and \"objectivity.\" To fix this, they should include the perspectives of both teams",
-     "No, a traditional magazine is print media because it is physically printed on paper"
-    ],
-    "hint": "Straight from the 'Media' slide -- match the key terms.",
-    "misconception": "If a student says \"yes,\" they are likely confusing \"magazines\" with \"online blogs\" or \"e-magazines,\" showing a need for clarification on the medium of delivery.",
-    "id": "gen_c6_civ_ch15_q13",
-    "nodeId": "c6_civics_ch15_036",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a checklist a reporter should use before posting a news story on social media.",
-    "answer": "The checklist should include: 1) Are these facts verified? 2) Have I heard from both sides? 3) Am I being pressured by anyone?",
-    "options": [
-     "No, a traditional magazine is print media because it is physically printed on paper",
-     "The student should ask: 1) Who told you this? 2) Is there a government notice or news report confirming this?",
-     "The checklist should include: 1) Are these facts verified? 2) Have I heard from both sides? 3) Am I being pressured by anyone?"
-    ],
-    "hint": "Straight from the 'Media ethics' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The checklist should include: 1) Are these facts verified? 2) Have I heard from both sides?",
-    "id": "gen_c6_civ_ch15_q14",
-    "nodeId": "c6_civics_ch15_037",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a newspaper only interviews the winning team of a match and ignores the losing team, which ethical principle have they violated?",
-    "answer": "They have violated \"fairness\" and \"objectivity.\" To fix this, they should include the perspectives of both teams",
-    "options": [
-     "No, because in a democracy, citizens have a right to know how their government is working to make informed choices",
-     "The checklist should include: 1) Are these facts verified? 2) Have I heard from both sides? 3) Am I being pressured by anyone?",
-     "They have violated \"fairness\" and \"objectivity.\" To fix this, they should include the perspectives of both teams"
-    ],
-    "hint": "Straight from the 'Media ethics' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student doesn't understand that ethical journalism requires presenting multiple sides of a story.",
-    "id": "gen_c6_civ_ch15_q15",
-    "nodeId": "c6_civics_ch15_037",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Should a newspaper accept money from a political party to write only good things about them? Why or why not?",
-    "answer": "No, because it violates \"independence.\" Taking money creates a conflict of interest, making the reporting biased rather than objective",
-    "options": [
-     "Steps: 1. Identify the lack of information. 2. Recognize that voting requires knowing the candidates' promises",
-     "No, because in a democracy, citizens have a right to know how their government is working to make informed choices",
-     "No, because it violates \"independence.\" Taking money creates a conflict of interest, making the reporting biased rather than objective"
-    ],
-    "hint": "Straight from the 'Media ethics' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks journalism is a business first rather than a public service.",
-    "id": "gen_c6_civ_ch15_q16",
-    "nodeId": "c6_civics_ch15_037",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is \"independence\" an important ethical principle for the media?",
-    "answer": "Independence ensures that news is not influenced by advertisers, politicians, or powerful people who might want to hide the truth",
-    "options": [
-     "Print media remains important because it does not rely on electricity or high-speed internet access to function",
-     "It is called the fourth pillar because, like the legislature, executive, and judiciary, it is essential for a democracy to function by keeping citizens informed",
-     "Independence ensures that news is not influenced by advertisers, politicians, or powerful people who might want to hide the truth"
-    ],
-    "hint": "Straight from the 'Media ethics' slide -- match the key terms.",
-    "misconception": "If a student thinks independence means \"the media can say anything,\" they misunderstand that it actually means \"the media cannot be bought or controlled.\"",
-    "id": "gen_c6_civ_ch15_q17",
-    "nodeId": "c6_civics_ch15_037",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is it ethically wrong for a reporter to share the private home address of a crime victim?",
-    "answer": "It violates the principle of \"privacy,\" which mandates that the media must protect the dignity and safety of individuals, especially victims",
-    "options": [
-     "Facts can be proven true with evidence, while opinions are just someone's personal belief",
-     "If you know someone is trying to sell a product or win an argument, you can guess why they might exaggerate the truth",
-     "It violates the principle of \"privacy,\" which mandates that the media must protect the dignity and safety of individuals, especially victims"
-    ],
-    "hint": "Straight from the 'Media ethics' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: It violates the principle of \"privacy,\" which mandates that the media must protect the dignity and safety of",
-    "id": "gen_c6_civ_ch15_q18",
-    "nodeId": "c6_civics_ch15_037",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about media?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Media mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
-  "sampleChallenges": 8
- },
- {
   "id": "gen_c6_civ_ch16",
-  "title": "Economic Activities",
+  "title": "Informal Sector",
   "subtitle": "Civics · Chapter 16",
   "classLevel": 6,
   "mode": "senior",
   "subject": "civics",
-  "topic": "Economic Activities",
+  "topic": "Informal Sector",
   "chapters": [
-   "Civics Ch16: Economic Activities"
+   "Civics Ch16: Informal Sector"
   ],
   "nodeIds": [
+   "c6_civics_ch16_004",
    "c6_civics_ch16_039",
    "c6_civics_ch16_040",
    "c6_civics_ch16_041"
@@ -2484,16 +1306,22 @@ export const C6_CIV_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Economic Activities suddenly stops working?",
+   "question": "What happens if Informal Sector suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "Economic activities are actions performed by individuals to earn money or acquire goods and services of monetary value, such as working for a salary"
+   "hook": "The informal sector refers to economic work that is unregistered and unprotected — street vending, daily-wage labour, home-based piecework, small"
   },
   "teaching": [
+   {
+    "title": "Informal Sector",
+    "text": "The informal sector refers to economic work that is unregistered and unprotected — street vending, daily-wage labour, home-based piecework, small unregistered shops — where workers lack employment contracts, fixed salaries, job security, paid leave, and",
+    "emoji": "⚖️",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
    {
     "title": "Economic Activities",
     "text": "Economic activities are actions performed by individuals to earn money or acquire goods and services of monetary value, such as working for a salary or selling produce.",
@@ -2516,16 +1344,37 @@ export const C6_CIV_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What is the primary difference between an economic activity and a non-economic activity?",
-    "answer": "Economic activities are done for money or monetary value, while non-economic activities are done for personal care, love, or social service",
+    "question": "Distinguish the formal from the informal sector.",
+    "answer": "Formal work is registered and protected — contract, fixed salary, security, benefits. Informal work is unregistered and unprotected — no contract, no fixed pay, no safety net",
     "options": [
-     "The first is an economic activity (earning a fee), while the second is non-economic (service to society)",
      "The union is stronger because it allows for collective bargaining, meaning the employer cannot easily replace or ignore the entire group",
-     "Economic activities are done for money or monetary value, while non-economic activities are done for personal care, love, or social service"
+     "A student teaching their sibling math for free (non-economic) decides to start a tuition center and charges a monthly fee (economic)",
+     "Formal work is registered and protected — contract, fixed salary, security, benefits. Informal work is unregistered and unprotected — no contract, no fixed pay, no safety net"
+    ],
+    "hint": "Straight from the 'informal sector' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Formal work is registered and protected — contract, fixed salary, security, benefits.",
+    "id": "gen_c6_civ_ch16_q1",
+    "nodeId": "c6_civics_ch16_004",
+    "difficulty": "standard",
+    "workedExample": [
+     "Compare two workers: a bank clerk (appointment letter, fixed salary, leave, pension) and a vegetable vendor (no contract, income that stops when she",
+     "List what the formal sector guarantees: contract, fixed pay, job security, paid leave, benefits like provident fund and medical cover.",
+     "List what the informal worker lacks: all of the above — work can vanish overnight, there is no safety net.",
+     "Scale: most Indian workers are informal — farmers, construction workers, vendors, domestic help."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "\"Economic activities are more important than non-economic activities because they generate wealth.\" Do you agree? Justify your answer.",
+    "answer": "I disagree; while economic activities provide money for survival, non-economic activities (like parenting or volunteering) provide social and emotional support that is essential",
+    "options": [
+     "First, build roads (public good); second, enforce consumer laws (regulation). A poor answer fails to connect specific government roles to specific community problems",
+     "The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her",
+     "I disagree; while economic activities provide money for survival, non-economic activities (like parenting or volunteering) provide social and emotional support that is essential"
     ],
     "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student is confusing \"work\" (effort) with \"earning\" (reward).",
-    "id": "gen_c6_civ_ch16_q1",
+    "misconception": "A wrong answer shows a lack of appreciation for the \"value of work\" beyond money.",
+    "id": "gen_c6_civ_ch16_q2",
     "nodeId": "c6_civics_ch16_039",
     "difficulty": "standard",
     "workedExample": [
@@ -2540,13 +1389,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Name two rights that a worker has to ensure they are not treated unfairly at their workplace.",
     "answer": "Workers have the right to safe working conditions and the right to fair wages",
     "options": [
-     "Roads and public hospitals",
-     "No, it is a non-economic activity because it is performed out of friendship/care and no money or payment was exchanged",
+     "Street vending, daily-wage construction labour, home-based piecework — any unregistered, unprotected work",
+     "Minimum wages, labour protections, and social-security schemes (insurance, pensions) that cover unorganised workers",
      "Workers have the right to safe working conditions and the right to fair wages"
     ],
     "hint": "Straight from the 'Workers' rights' slide -- match the key terms.",
     "misconception": "If a student only names one, they have partial recall; if they mention things like \"getting holidays,\" they are confusing personal benefits with fundamental rights.",
-    "id": "gen_c6_civ_ch16_q2",
+    "id": "gen_c6_civ_ch16_q3",
     "nodeId": "c6_civics_ch16_040",
     "difficulty": "standard",
     "workedExample": [
@@ -2558,17 +1407,16 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Name two examples of \"public goods\" that the government provides because the private market might not provide them adequately.",
-    "answer": "Roads and public hospitals",
+    "question": "If a company creates a \"monopoly\" (where it is the only one selling a product), why might the government intervene?",
+    "answer": "To stop the company from charging unfair prices or crushing competition",
     "options": [
-     "Workers have the right to safe working conditions and the right to fair wages",
-     "The government must be involved to ensure public safety, fair rules, and support for the poor",
-     "First and public hospitals",
-     "Roads and public hospitals"
+     "The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her",
+     "I disagree; while economic activities provide money for survival, non-economic activities (like parenting or volunteering) provide social and emotional support that is essential",
+     "To stop the company from charging unfair prices or crushing competition"
     ],
     "hint": "Straight from the 'government’s role in the economy' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student confuses private businesses (like a toy shop) with public infrastructure that benefits the entire community.",
-    "id": "gen_c6_civ_ch16_q3",
+    "misconception": "A wrong answer suggests the student believes the government should never interfere with business, failing to understand the need for fair competition.",
+    "id": "gen_c6_civ_ch16_q4",
     "nodeId": "c6_civics_ch16_041",
     "difficulty": "standard",
     "workedExample": [
@@ -2580,47 +1428,92 @@ export const C6_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "\"Economic activities are more important than non-economic activities because they generate wealth.\" Do you agree? Justify your answer.",
-    "answer": "I disagree; while economic activities provide money for survival, non-economic activities (like parenting or volunteering) provide social and emotional support that is essential",
+    "question": "A street vendor and a factory clerk both earn daily — who is economically safer and why?",
+    "answer": "The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her",
     "options": [
-     "The company is violating the workers' right to a safe and healthy working environment. By exposing employees to electrical hazards without protective gear",
-     "No, it is a non-economic activity because it is performed out of friendship/care and no money or payment was exchanged",
-     "I disagree; while economic activities provide money for survival, non-economic activities (like parenting or volunteering) provide social and emotional support that is essential"
-    ],
-    "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of appreciation for the \"value of work\" beyond money.",
-    "id": "gen_c6_civ_ch16_q4",
-    "nodeId": "c6_civics_ch16_039",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A tailor stitches a school uniform and charges ₹200 for it. Identify the type of activity and explain the \"value\" involved.",
-    "answer": "This is an economic activity. The value involves the exchange of service (stitching) for money (₹200)",
-    "options": [
-     "The company is violating the workers' right to a safe and healthy working environment. By exposing employees to electrical hazards without protective gear",
      "No, because consumers have the right to be informed, which protects them from being overcharged or sold unsafe goods",
-     "This is an economic activity. The value involves the exchange of service (stitching) for money (₹200)"
+     "A good answer would describe a shopkeeper refusing to exchange a defective electronic toy. The student should suggest checking the warranty or complaining to the store manager",
+     "The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her"
     ],
-    "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates difficulty linking \"service\" to \"monetary compensation.\"",
+    "hint": "Straight from the 'informal sector' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her.",
     "id": "gen_c6_civ_ch16_q5",
-    "nodeId": "c6_civics_ch16_039",
+    "nodeId": "c6_civics_ch16_004",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare a doctor treating a patient in a private clinic versus a doctor volunteering at a free health camp. How do these compare in terms of economic classification?",
-    "answer": "The first is an economic activity (earning a fee), while the second is non-economic (service to society)",
+    "question": "Give three examples of informal-sector work.",
+    "answer": "Street vending, daily-wage construction labour, home-based piecework — any unregistered, unprotected work",
     "options": [
-     "Economic activities are done for money or monetary value, while non-economic activities are done for personal care, love, or social service",
-     "The union is stronger because it allows for collective bargaining, meaning the employer cannot easily replace or ignore the entire group",
-     "The first is an economic activity (earning a fee), while the second is non-economic (service to society)"
+     "An employment contract, a fixed salary, and job security plus benefits like paid leave and pension",
+     "Distinguish the two sectors by their protections and explain why informal work is economically vulnerable",
+     "Street vending, daily-wage construction labour, home-based piecework — any unregistered, unprotected work"
     ],
-    "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals an inability to see that the same profession can perform different types of activities based on payment status.",
+    "hint": "Straight from the 'informal sector' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Street vending, daily-wage construction labour, home-based piecework — any unregistered, unprotected work.",
     "id": "gen_c6_civ_ch16_q6",
-    "nodeId": "c6_civics_ch16_039",
+    "nodeId": "c6_civics_ch16_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Name three protections a formal-sector worker carries that an informal worker lacks.",
+    "answer": "An employment contract, a fixed salary, and job security plus benefits like paid leave and pension",
+    "options": [
+     "Distinguish the two sectors by their protections and explain why informal work is economically vulnerable",
+     "The student must be able to identify at least three government actions (provision of public goods, regulation",
+     "An employment contract, a fixed salary, and job security plus benefits like paid leave and pension"
+    ],
+    "hint": "Straight from the 'informal sector' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: An employment contract, a fixed salary, and job security plus benefits like paid leave and pension.",
+    "id": "gen_c6_civ_ch16_q7",
+    "nodeId": "c6_civics_ch16_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What can government do to reduce the informal worker's vulnerability?",
+    "answer": "Minimum wages, labour protections, and social-security schemes (insurance, pensions) that cover unorganised workers",
+    "options": [
+     "An employment contract, a fixed salary, and job security plus benefits like paid leave and pension",
+     "Distinguish the two sectors by their protections and explain why informal work is economically vulnerable",
+     "Minimum wages, labour protections, and social-security schemes (insurance, pensions) that cover unorganised workers"
+    ],
+    "hint": "Straight from the 'informal sector' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Minimum wages, labour protections, and social-security schemes (insurance, pensions) that cover unorganised workers.",
+    "id": "gen_c6_civ_ch16_q8",
+    "nodeId": "c6_civics_ch16_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Distinguish the two sectors by their protections and explain why informal work is economically vulnerable",
+    "options": [
+     "An employment contract, a fixed salary, and job security plus benefits like paid leave and pension",
+     "Street vending, daily-wage construction labour, home-based piecework — any unregistered, unprotected work",
+     "Distinguish the two sectors by their protections and explain why informal work is economically vulnerable"
+    ],
+    "hint": "Straight from the 'informal sector' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Distinguish the two sectors by their protections and explain why informal work is economically vulnerable.",
+    "id": "gen_c6_civ_ch16_q9",
+    "nodeId": "c6_civics_ch16_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why are informal workers called 'vulnerable'?",
+    "answer": "No contract means work can disappear anytime, no benefits cover illness or injury, and income is unpredictable",
+    "options": [
+     "By collecting more money from the wealthy, the government can fund services for those who have less",
+     "It is important because it prevents workers from being forced to work until they are exhausted, allowing them time for rest and family",
+     "No contract means work can disappear anytime, no benefits cover illness or injury, and income is unpredictable"
+    ],
+    "hint": "Straight from the 'informal sector' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No contract means work can disappear anytime, no benefits cover illness or injury, and income is unpredictable.",
+    "id": "gen_c6_civ_ch16_q10",
+    "nodeId": "c6_civics_ch16_004",
     "difficulty": "standard"
    },
    {
@@ -2628,28 +1521,28 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Create a scenario where an activity changes from non-economic to economic.",
     "answer": "A student teaching their sibling math for free (non-economic) decides to start a tuition center and charges a monthly fee (economic)",
     "options": [
+     "The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her",
      "The company is violating the workers' right to a safe and healthy working environment. By exposing employees to electrical hazards without protective gear",
-     "No, because consumers have the right to be informed, which protects them from being overcharged or sold unsafe goods",
      "A student teaching their sibling math for free (non-economic) decides to start a tuition center and charges a monthly fee (economic)"
     ],
     "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
     "misconception": "A poor answer fails to show the shift from \"care\" to \"formal exchange of money.\"",
-    "id": "gen_c6_civ_ch16_q7",
+    "id": "gen_c6_civ_ch16_q11",
     "nodeId": "c6_civics_ch16_039",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If your neighbor spends their weekend painting your house for free because they are your friend, is this an economic activity? Why or why not?",
-    "answer": "No, it is a non-economic activity because it is performed out of friendship/care and no money or payment was exchanged",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to categorize a list of daily activities into \"economic\" or \"non-economic\" and explain why they belong to that category based on the presence or absence",
     "options": [
-     "No, because consumers have the right to be informed, which protects them from being overcharged or sold unsafe goods",
-     "A good answer would describe a shopkeeper refusing to exchange a defective electronic toy. The student should suggest checking the warranty or complaining to the store manager",
-     "No, it is a non-economic activity because it is performed out of friendship/care and no money or payment was exchanged"
+     "An employment contract, a fixed salary, and job security plus benefits like paid leave and pension",
+     "Street vending, daily-wage construction labour, home-based piecework — any unregistered, unprotected work",
+     "The student must be able to categorize a list of daily activities into \"economic\" or \"non-economic\" and explain why they belong to that category based on the presence or absence"
     ],
     "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student thinks any \"productive work\" is an economic activity regardless of payment.",
-    "id": "gen_c6_civ_ch16_q8",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to categorize a list of daily activities into \"economic\" or \"non-economic\" and explain why",
+    "id": "gen_c6_civ_ch16_q12",
     "nodeId": "c6_civics_ch16_039",
     "difficulty": "standard"
    },
@@ -2658,13 +1551,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Compare the position of a lone worker trying to ask for a raise versus a group of workers forming a trade union to bargain for better conditions. Why is the union stronger?",
     "answer": "The union is stronger because it allows for collective bargaining, meaning the employer cannot easily replace or ignore the entire group",
     "options": [
-     "Economic activities are done for money or monetary value, while non-economic activities are done for personal care, love, or social service",
-     "The first is an economic activity (earning a fee), while the second is non-economic (service to society)",
+     "Formal work is registered and protected — contract, fixed salary, security, benefits. Informal work is unregistered and unprotected — no contract, no fixed pay, no safety net",
+     "It is important because it prevents workers from being forced to work until they are exhausted, allowing them time for rest and family",
      "The union is stronger because it allows for collective bargaining, meaning the employer cannot easily replace or ignore the entire group"
     ],
     "hint": "Straight from the 'Workers' rights' slide -- match the key terms.",
     "misconception": "A student who misses this fails to understand the power dynamics inherent in labor relationships.",
-    "id": "gen_c6_civ_ch16_q9",
+    "id": "gen_c6_civ_ch16_q13",
     "nodeId": "c6_civics_ch16_040",
     "difficulty": "standard"
    },
@@ -2673,13 +1566,13 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Create a scenario where a consumer’s rights are being ignored and suggest one way they could protect themselves.",
     "answer": "A good answer would describe a shopkeeper refusing to exchange a defective electronic toy. The student should suggest checking the warranty or complaining to the store manager",
     "options": [
-     "No, it is a non-economic activity because it is performed out of friendship/care and no money or payment was exchanged",
-     "This is an economic activity. The value involves the exchange of service (stitching) for money (₹200)",
+     "The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her",
+     "I disagree; while economic activities provide money for survival, non-economic activities (like parenting or volunteering) provide social and emotional support that is essential",
      "A good answer would describe a shopkeeper refusing to exchange a defective electronic toy. The student should suggest checking the warranty or complaining to the store manager"
     ],
     "hint": "Straight from the 'Workers' rights' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer would describe a shopkeeper refusing to exchange a defective electronic toy.",
-    "id": "gen_c6_civ_ch16_q10",
+    "id": "gen_c6_civ_ch16_q14",
     "nodeId": "c6_civics_ch16_040",
     "difficulty": "standard"
    },
@@ -2689,12 +1582,12 @@ export const C6_CIV_GEN: SimDef[] = [
     "answer": "No, because consumers have the right to be informed, which protects them from being overcharged or sold unsafe goods",
     "options": [
      "A good answer would describe a shopkeeper refusing to exchange a defective electronic toy. The student should suggest checking the warranty or complaining to the store manager",
-     "No, it is a non-economic activity because it is performed out of friendship/care and no money or payment was exchanged",
+     "The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her",
      "No, because consumers have the right to be informed, which protects them from being overcharged or sold unsafe goods"
     ],
     "hint": "Straight from the 'Workers' rights' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, because consumers have the right to be informed, which protects them from being overcharged or sold unsafe goods.",
-    "id": "gen_c6_civ_ch16_q11",
+    "id": "gen_c6_civ_ch16_q15",
     "nodeId": "c6_civics_ch16_040",
     "difficulty": "standard"
    },
@@ -2703,13 +1596,28 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "The right to safe working conditions. To solve this, identify the hazard (exposed wires), realize the employer is responsible for safety, and match it to the right. A wrong answer suggests the student doesn't understand the physical duty of an employer toward an employee.",
     "answer": "The company is violating the workers' right to a safe and healthy working environment. By exposing employees to electrical hazards without protective gear",
     "options": [
-     "A student teaching their sibling math for free (non-economic) decides to start a tuition center and charges a monthly fee (economic)",
      "First, build roads (public good); second, enforce consumer laws (regulation). A poor answer fails to connect specific government roles to specific community problems",
+     "The clerk — fixed salary, contract, leave, pension; the vendor's income stops when she stops and nothing protects her",
      "The company is violating the workers' right to a safe and healthy working environment. By exposing employees to electrical hazards without protective gear"
     ],
     "hint": "Straight from the 'Workers' rights' slide -- match the key terms.",
     "misconception": "A wrong answer reveals that the student may be confusing legal rights with workplace benefits (such as fair pay or vacation time), or they may not yet understand that safety is a fundamental human right in labor laws rather than just a company policy.",
-    "id": "gen_c6_civ_ch16_q12",
+    "id": "gen_c6_civ_ch16_q16",
+    "nodeId": "c6_civics_ch16_040",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to list at least three specific rights for workers and explain why a consumer needs protection from unfair market practices in simple, real-life terms",
+    "options": [
+     "Street vending, daily-wage construction labour, home-based piecework — any unregistered, unprotected work",
+     "Distinguish the two sectors by their protections and explain why informal work is economically vulnerable",
+     "The student must be able to list at least three specific rights for workers and explain why a consumer needs protection from unfair market practices in simple, real-life terms"
+    ],
+    "hint": "Straight from the 'Workers' rights' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to list at least three specific rights for workers and explain why a consumer needs protection",
+    "id": "gen_c6_civ_ch16_q17",
     "nodeId": "c6_civics_ch16_040",
     "difficulty": "standard"
    },
@@ -2718,99 +1626,24 @@ export const C6_CIV_GEN: SimDef[] = [
     "question": "Why is the right to \"reasonable working hours\" important for a worker?",
     "answer": "It is important because it prevents workers from being forced to work until they are exhausted, allowing them time for rest and family",
     "options": [
-     "To prevent exploitation and ensure fairness",
+     "No contract means work can disappear anytime, no benefits cover illness or injury, and income is unpredictable",
      "By collecting more money from the wealthy, the government can fund services for those who have less",
      "It is important because it prevents workers from being forced to work until they are exhausted, allowing them time for rest and family"
     ],
     "hint": "Straight from the 'Workers' rights' slide -- match the key terms.",
     "misconception": "A wrong answer—like saying \"so they can earn more money\"—shows the student is confusing rights with personal greed rather than well-being.",
-    "id": "gen_c6_civ_ch16_q13",
-    "nodeId": "c6_civics_ch16_040",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does \"progressive taxation\" help the government reduce inequality in society?",
-    "answer": "By collecting more money from the wealthy, the government can fund services for those who have less",
-    "options": [
-     "To prevent exploitation and ensure fairness",
-     "It is important because it prevents workers from being forced to work until they are exhausted, allowing them time for rest and family",
-     "By collecting more money from the wealthy, the government can fund services for those who have less"
-    ],
-    "hint": "Straight from the 'government’s role in the economy' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a misunderstanding of redistribution, perhaps assuming taxes are only meant for the government's own use.",
-    "id": "gen_c6_civ_ch16_q14",
-    "nodeId": "c6_civics_ch16_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a company creates a \"monopoly\" (where it is the only one selling a product), why might the government intervene?",
-    "answer": "To stop the company from charging unfair prices or crushing competition",
-    "options": [
-     "No, it is a non-economic activity because it is performed out of friendship/care and no money or payment was exchanged",
-     "This is an economic activity. The value involves the exchange of service (stitching) for money (₹200)",
-     "To stop the company from charging unfair prices or crushing competition"
-    ],
-    "hint": "Straight from the 'government’s role in the economy' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student believes the government should never interfere with business, failing to understand the need for fair competition.",
-    "id": "gen_c6_civ_ch16_q15",
-    "nodeId": "c6_civics_ch16_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine a new village where there are no roads and the local shopkeeper is cheating customers. What two steps should the government take first?",
-    "answer": "First, build roads (public good); second, enforce consumer laws (regulation). A poor answer fails to connect specific government roles to specific community problems",
-    "options": [
-     "A student teaching their sibling math for free (non-economic) decides to start a tuition center and charges a monthly fee (economic)",
-     "The government must be involved to ensure public safety, fair rules, and support for the poor",
-     "First, build roads (public good); second, enforce consumer laws (regulation). A poor answer fails to connect specific government roles to specific community problems"
-    ],
-    "hint": "Straight from the 'government’s role in the economy' slide -- match the key terms.",
-    "misconception": "A poor answer fails to connect specific government roles to specific community problems.",
-    "id": "gen_c6_civ_ch16_q16",
-    "nodeId": "c6_civics_ch16_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Should the government be involved in the economy at all, or should it leave everything to private sellers?",
-    "answer": "The government must be involved to ensure public safety, fair rules, and support for the poor",
-    "options": [
-     "No, it is a non-economic activity because it is performed out of friendship/care and no money or payment was exchanged",
-     "This is an economic activity. The value involves the exchange of service (stitching) for money (₹200)",
-     "The government must be involved to ensure public safety, fair rules, and support for the poor"
-    ],
-    "hint": "Straight from the 'government’s role in the economy' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests a lack of understanding that pure market systems can leave vulnerable people without basic needs like education or healthcare.",
-    "id": "gen_c6_civ_ch16_q17",
-    "nodeId": "c6_civics_ch16_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does the government pass \"labour laws\" and \"consumer protection laws\"?",
-    "answer": "To prevent exploitation and ensure fairness",
-    "options": [
-     "It is important because it prevents workers from being forced to work until they are exhausted, allowing them time for rest and family",
-     "By collecting more money from the wealthy, the government can fund services for those who have less",
-     "To prevent exploitation and ensure fairness"
-    ],
-    "hint": "Straight from the 'government’s role in the economy' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student thinks these laws exist only to collect taxes, missing the core purpose of protecting people from unfair treatment.",
     "id": "gen_c6_civ_ch16_q18",
-    "nodeId": "c6_civics_ch16_041",
+    "nodeId": "c6_civics_ch16_040",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about economic activities?",
+    "What surprised you about informal sector?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Economic Activities mastered! 🎯",
+  "successLine": "Informal Sector mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

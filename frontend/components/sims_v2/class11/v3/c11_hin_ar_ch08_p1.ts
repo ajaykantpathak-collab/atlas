@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch08_p1: SimDef = {
     id: 'v3_c11_hin_ar_ch08_p1',
-    title: 'fQjkd xksj[kiqjh · Part 1/3',
+    title: 'पाठ 8 · Part 1/3',
     subtitle: 'Read a prisoner\'s India — episodic, argumentative, and allergic to uniformity.',
-    classLevel: 11, subject: 'hin_ar', topic: 'fQjkd xksj[kiqjh · Part 1/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 8 · Part 1/3',
     chapters: ['c11_hin_ar_ch08'],
     nodeIds: ['c11_hin_ar_cbse_08_001', 'c11_hin_ar_cbse_08_002', 'c11_hin_ar_cbse_08_003', 'c11_hin_ar_cbse_08_004', 'c11_hin_ar_cbse_08_005', 'c11_hin_ar_cbse_08_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,55 +19,20 @@ export const c11_hin_ar_ch08_p1: SimDef = {
         hook: 'Written in a 1942-46 prison cell, \'Bharat Mata\' argues that India\'s unity lives in shared labour and suffering — not in cultural sameness.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory literary skill that equips students to situate a text within its historical period, author\'s biography, socio-political milieu, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 8 — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें किसी रचना की रचना हुई हो, तथा रचनाकार परिचय से तात्पर्य लेखक के जीवन-वृत्त, साहित्यिक अवदान, प्रमुख कृतियाँ.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_08_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Separate the journey\'s episodes from its reflective digressions, then defend whether diversity can ground unity without uniformity.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re visiting a friend\'s ancestral home for the first time—you\'d want to know their family history, the house\'s age, and what events shaped it before.',
-            decisions: [{ prompt: 'Who is the author of "Bharat Mata" and what significant historical position did he hold in independent India?', options: [
-                { text: 'The author is Jawaharlal Nehru (1889–1964), who served as India\'s first Prime Minister', outcome: 'The author is Jawaharlal Nehru (1889–1964), who served as India\'s first Prime Minister from 1947.' },
-                { text: 'another freedom fighter or misidentifying his role', outcome: 'Not quite — Students often treat "Bharat Mata" as a religious or mythological concept (equating it with Bharat.', reveals: 'students-often-treat-bharat-mata' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are asked to summarize this chapter in one paragraph but find yourself jumping from the Himalayas to the plains, from a dialogue with a peasant.',
-            decisions: [{ prompt: 'What is the primary narrative frame that structures the entire chapter "Hkkjr ekrk"?', options: [
-                { text: 'The primary narrative frame is Jawaharlal Nehru\'s first-person travelogue across India', outcome: 'The primary narrative frame is Jawaharlal Nehru\'s first-person travelogue across India (tyl) during.' },
-                { text: 'the freedom struggle', outcome: 'Not quite — Students believe "plot" only applies to fiction and means a chronological sequence.', reveals: 'plot-only-applies-to-fiction' },
-                { text: 'Nehru\'s autobiography', outcome: 'Not quite — Students believe "plot" only applies to fiction and means a chronological sequence.', reveals: 'plot-only-applies-to-fiction' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are standing at a train window watching India\'s landscape change from the Himalayan foothills to the Deccan plateau — that shifting view is exactly.',
-            decisions: [{ prompt: 'In Nehru\'s essay, which geographical regions does he explicitly mention while describing his travels across India to establish the physical.', options: [
-                { text: 'Nehru mentions the Himalayan region ("pahadon se lekar maidon tak"), the plains from', outcome: 'Nehru mentions the Himalayan region ("pahadon se lekar maidon tak"), the plains from Punjab.' },
-                { text: 'villages and cities', outcome: 'Not quite — Students often treat setting as mere "where and when" backdrop and atmosphere as a single static.', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are sitting with your grandfather who tells you about his journey across India in the 1930s—he describes meeting a farmer in a dusty village who.',
-            decisions: [{ prompt: 'Who is the protagonist of the chapter "Bharat Mata" and what is his primary role in the narrative?', options: [
-                { text: 'The protagonist is Jawaharlal Nehru, who serves as the first-person narrator traveling', outcome: 'The protagonist is Jawaharlal Nehru, who serves as the first-person narrator traveling across.' },
-                { text: 'Bharat Mata', outcome: 'Not quite — Students conflate "Bharat Mata" (the symbol) with the protagonist, treating the chapter as.', reveals: 'students-conflate-bharat-mata-the' },
-                { text: 'Bharat Mata is the protagonist', outcome: 'Not quite — Students conflate "Bharat Mata" (the symbol) with the protagonist, treating the chapter as.', reveals: 'students-conflate-bharat-mata-the' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re sitting in a village chaupal listening to Nehru ask farmers "What does Bharat Mata mean to you?" - their answers aren\'t just opinions, they\'re.',
-            decisions: [{ prompt: 'Identify the supporting character in "Hkkjr ekrk" who responds to Nehru\'s question about Bharat Mata by saying the slogan comes from the.', options: [
-                { text: 'The supporting character is the farmer described as "g^s&d^s tkV" (an old weather-beaten', outcome: 'The supporting character is the farmer described as "g^s&d^s tkV" (an old weather-beaten peasant).' },
-                { text: 'villager', outcome: 'Not quite — Students treat supporting characters in this non-fiction essay as if they were fictional characters.', reveals: 'students-treat-supporting-characters-in' },
-                { text: 'Nehru himself or a generic "villager', outcome: 'Not quite — Students treat supporting characters in this non-fiction essay as if they were fictional characters.', reveals: 'students-treat-supporting-characters-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_08_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re at a family gathering where everyone argues about what "real India" means — some say it\'s the temples, others the Constitution, others the.',
-            decisions: [{ prompt: 'What is the difference between a "topic" and a "theme" in literary analysis? Give an example from "Bharat Mata" to illustrate.', options: [
-                { text: 'A topic is a subject or noun phrase (e.g., "India," "freedom struggle," "geography")', outcome: 'A topic is a subject or noun phrase (e.g., "India," "freedom struggle," "geography").' },
-                { text: 'Bharat Mata', outcome: 'Not quite — Students often confuse the *refrain* "Bharat Mata ki Jai" (a slogan) with the *theme* (an argued.', reveals: 'students-often-confuse-the-refrain' },
-                { text: 'Bharat Mata is the millions of people who constitute the nation', outcome: 'Not quite — Students often confuse the *refrain* "Bharat Mata ki Jai" (a slogan) with the *theme* (an argued.', reveals: 'students-often-confuse-the-refrain' }
-            ] }] } },
+        labels: ['पाठ 8 — पृष्ठभूमि', 'पाठ 8 — कथानक', 'पाठ 8 — पाठ्य-परिवेश', 'पाठ 8 — पात्र-चित्रण', 'पाठ 8 — मुख्य'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_08_002', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 8 · Part 1/3', spots: [
+            { id: 's1', label: '8 -', prompt: 'Which idea is this? — कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से.', answer: '8 -', options: ['8 -', '8 -'] },
+            { id: 's2', label: '8 -', prompt: 'Which idea is this? — पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक.', answer: '8 -', options: ['8 -', '8 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_08_001', title: 'Use it in the wild',
           caseStudy: { intro: 'For Independence Day, a student proposes a poster quoting Nehru\'s \'Bharat Mata\' essay beside a calendar image of the goddess Bharat Mata with a flag. Another teammate says the essay \'has no structure — it just rambles from mountains to peasants to philosophy.\'',
             decisions: [{ prompt: 'What do both get wrong about the text?', options: [
@@ -77,96 +42,81 @@ export const c11_hin_ar_ch08_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_08_006', title: 'The bigger picture',
           caseStudy: { intro: 'The journey ends but the argument doesn\'t — the \'Bharat Mata\' Nehru finds is the people themselves, not a goddess on a map.',
-            decisions: [{ prompt: 'What comes next? fQjkd xksj[kiqjh · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — fQjkd xksj[kiqjh · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 8 · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 8 · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory literary skill that.',
-          hint: 'Review "authorial intent vs. reader response" from Class 10 prose chapters (e.g., "The.',
-          misconception: 'Students often treat "Bharat Mata" as a religious or mythological concept (equating it with Bharat Mata iconography.',
+          question: 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से.',
+          hint: 'यदि अटका हुआ महसूस करें तो **\'आंचलिकता बनाम क्षेत्रीयता\'** का अंतर स्पष्ट करने वाले किसी.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है — **लेखक की जन्मतिथि, मृत्युतिथि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" is a preparatory literary skill that equips',
-                  options: ['"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the deliberate arrangement of events, reflections,', 'Setting refers to the physical, temporal, and socio-cultural backdrop against', 'Character analysis of the protagonist involves examining the narrator\'s personality,'],
-                  hint: 'Review "authorial intent vs. reader response" from Class 10 prose chapters (e.g., "The Letter".',
-                  misconception: 'Students often treat "Bharat Mata" as a religious or mythological concept (equating it with Bharat Mata iconography in temples.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें',
+                  options: ['पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें किसी कथानक के प्रमुख'],
+                  hint: 'यदि अटका हुआ महसूस करें तो **\'आंचलिकता बनाम क्षेत्रीयता\'** का अंतर स्पष्ट करने वाले किसी भी मानक.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है — **लेखक की जन्मतिथि, मृत्युतिथि, शिक्षा, नौकरी और पुस्तकों.' }
           ],
-            remediations: { 'students-often-treat-bharat-mata': { steps: ['Show the student the exact passage where Nehru says: "Bharat Mata...', 'is essentially these millions of people" and contrast it with a calendar art image of Bharat Mata as a goddess.', 'Ask: "Whose voice speaks in each?', 'What is the political purpose of each representation?" 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1 (पृथक्करण):** छात्र से कहें — "लेखक की जीवनी की 5 घटनाएँ बाईं ओर लिखो और दाईं ओर पाठ के 5 प्रसंग/पंक्तियाँ.', '**चरण 2 (सामाजिक मानचित्रण):** एक चार्ट बनवाएँ: **स्तंभ 1:** पाठ में उल्लिखित समस्या (जैसे बाढ़), **स्तंभ 2:** उस समय.', '**चरण 3 (अभ्यास):** छात्र से एक पैराग्राफ लिखवाएँ: *"रेणु के जीवन की घटना X ने पाठ के प्रसंग Y को कैसे आकार दिया?"*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure refers to the deliberate arrangement of events.',
-          hint: 'Review the "Before You Read" node (c11_hin_ar_cbse_08_001) for Nehru\'s biography and the.',
-          misconception: 'Students believe "plot" only applies to fiction and means a chronological sequence of cause-and-effect events leading.',
+          question: 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध.',
+          hint: 'यदि उलझन हो तो E.M. फॉर्स्टर का उदाहरण ("राजा मरा, फिर रानी मरी" बनाम "राजा मरा, शोक से.',
+          misconception: '**विशिष्ट भ्रम:** छात्र **\'घटना-क्रम\' (Sequence of Events)** को ही \'कथानक\' (Plot) मान लेते हैं और **\'फ्लैशबैक\'.',
           parts: [
-                { id: 'a', prompt: 'Compare the narrative structure of this chapter with a conventional short story (exposition-rising action-climax-fall-resolution).', answer: 'A conventional story uses linear causality to resolve a conflict',
-                  options: ['A conventional story uses linear causality to resolve a conflict', 'the climax is the Quit India Movement', 'forces the chapter into a story arc (e'],
-                  hint: 'Review the "Before You Read" node (c11_hin_ar_cbse_08_001) for Nehru\'s biography and the historical.',
-                  misconception: 'Students believe "plot" only applies to fiction and means a chronological sequence of cause-and-effect events leading to a climax.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से',
+                  options: ['कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें किसी कथानक के प्रमुख'],
+                  hint: 'यदि उलझन हो तो E.M. फॉर्स्टर का उदाहरण ("राजा मरा, फिर रानी मरी" बनाम "राजा मरा, शोक से रानी मरी").',
+                  misconception: '**विशिष्ट भ्रम:** छात्र **\'घटना-क्रम\' (Sequence of Events)** को ही \'कथानक\' (Plot) मान लेते हैं और **\'फ्लैशबैक\' (Flashback)** को केवल \'अतीत.' }
           ],
-            remediations: { 'plot-only-applies-to-fiction': { steps: ['Ask the student to list five distinct "stops" in Nehru\'s journey (places/people) without interpreting them.', 'For each stop, ask: "What idea does Nehru connect to this encounter?" — this separates episode from reflection.', 'Have them draw a two-column table: Column A = Physical Encounter (Episode), Column B = Idea Triggered (Reflection).', 'Show how the chapter alternates A→B→A→B, and how the final pages merge all Column B ideas.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "plot" only applies to fiction and means a chronological sequence of cause-and-effect events leading.',
-          parts: [
-                { id: 'a', prompt: 'Critique the view that the chapter\'s lack of chronological order (jumping between 1930s travels, ancient history, and 1947 independence) is a weakness.', answer: 'The non-chronological order is a strength',
-                  options: ['The non-chronological order is a strength', 'confusing', 'poor editing'],
-                  hint: 'Review the "Before You Read" node (c11_hin_ar_cbse_08_001) for Nehru\'s biography and the historical.',
-                  misconception: 'Students believe "plot" only applies to fiction and means a chronological sequence of cause-and-effect events leading to a climax.' }
-          ],
-            remediations: { 'plot-only-applies-to-fiction': { steps: ['Ask the student to list five distinct "stops" in Nehru\'s journey (places/people) without interpreting them.', 'For each stop, ask: "What idea does Nehru connect to this encounter?" — this separates episode from reflection.', 'Have them draw a two-column table: Column A = Physical Encounter (Episode), Column B = Idea Triggered (Reflection).', 'Show how the chapter alternates A→B→A→B, and how the final pages merge all Column B ideas.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'sequence-of-events-plot-flashback': { steps: ['**चरण 1:** छात्र से कहें—"पाठ की ५ प्रमुख घटनाएँ **कालानुक्रम में** लिखो।" (यह \'कहानी\' बनेगी)। **चरण 2:** फिर कहें—"अब.', 'जहाँ क्रम टूटा है, वहाँ निशान लगाओ।" (यह \'कथानक/संरचना\' दिखाएगा)। **चरण 3:** हर टूटे क्रम पर पूछो—"लेखक ने यहाँ क्रम.', 'पाठक को क्या महसूस कराना चाहता था?" (यह **संरचनात्मक कार्य** सिखाएगा)। **चरण 4:** एक छोटा पैराग्राफ लिखवाएँ: "इस पाठ की.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_003', difficulty: 'standard',
-          question: 'Setting refers to the physical, temporal, and socio-cultural backdrop against.',
-          hint: 'Review the "travelogue structure" explanation in c11_hin_ar_cbse_08_002 — specifically.',
-          misconception: 'Students often treat setting as mere "where and when" backdrop and atmosphere as a single static mood (e.g.',
+          question: 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक.',
+          hint: 'यदि अटके तो c11_hin_ar_cbse_08_002 (कथानक) के \'मुख्य मोड़\' खंड को दोहराएँ और.',
+          misconception: 'विद्यार्थी प्रायः \'परिवेश\' को कहानी का \'जहाँ-कब\' (स्थान+समय) मात्र मान लेते हैं और \'क्यों-कैसे\'.',
           parts: [
-                { id: 'a', prompt: 'Explain how the temporal setting (historical period) influences the atmosphere in the passage where Nehru describes the economic depression after 1929.', answer: 'The 1930s depression setting creates an atmosphere of despair and helplessness',
-                  options: ['The 1930s depression setting creates an atmosphere of despair and helplessness', 'it makes the story sad'],
-                  hint: 'Review the "travelogue structure" explanation in c11_hin_ar_cbse_08_002 — specifically how each leg.',
-                  misconception: 'Students often treat setting as mere "where and when" backdrop and atmosphere as a single static mood (e.g., "patriotic").' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,',
+                  options: ['पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें किसी कथानक के प्रमुख'],
+                  hint: 'यदि अटके तो c11_hin_ar_cbse_08_002 (कथानक) के \'मुख्य मोड़\' खंड को दोहराएँ और c11_hin_ar_cbse_08_001.',
+                  misconception: 'विद्यार्थी प्रायः \'परिवेश\' को कहानी का \'जहाँ-कब\' (स्थान+समय) मात्र मान लेते हैं और \'क्यों-कैसे\' (सामाजिक-आर्थिक-मनोवैज्ञानिक प्रेरणा) की.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['If a student cannot distinguish setting from atmosphere: (1) Have them list 5 physical details from the text (rivers.', '(2) Have them name the feeling each detail evokes (awe, pity, solidarity) — these are atmosphere.', '(3) Ask: "Does the feeling change when Nehru moves from describing a famine-stricken village to a Congress rally?".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { '8': { steps: ['विद्यार्थी से कहें: \'पाठ के पहले पृष्ठ पर लौटें और केवल संज्ञा शब्द (नाउन) घेरें जो स्थान, व्यक्ति-समूह, वस्तु.', 'फिर पूछें: \'इनमें से प्रत्येक स्तंभ का कोई एक शब्द चुनकर बताएँ कि यदि वह शब्द हटा दिया जाए तो नायक का कौन-सा निर्णय.', 'अंत में: \'अब लिखें कि परिवेश पात्र को "धक्का" देता है या "रास्ता" देता है — दोनों के उदाहरण दें।\' यह अभ्यास परिवेश को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the narrator\'s.',
-          hint: 'Review "first-person narrative voice" (कथावाचक की दृष्टि) from Class 10.',
-          misconception: 'Students conflate "Bharat Mata" (the symbol) with the protagonist, treating the chapter as a description of a goddess.',
+          question: 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें किसी कथानक.',
+          hint: 'यदि फँस जाएँ तो: **c11_hin_ar_cbse_08_002 (कथानक संरचना)** के \'टर्निंग पॉइंट्स\' और.',
+          misconception: '**सबसे गहरी गलतफहमी:** छात्र समझते हैं कि पात्र-चित्रण = "नायक के गुणों की सूची + अंत में एक वाक्य में उसका महत्व"। वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves examining the narrator\'s personality,',
-                  options: ['Character analysis of the protagonist involves examining the narrator\'s personality,', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the deliberate arrangement of events, reflections,', 'Setting refers to the physical, temporal, and socio-cultural backdrop against'],
-                  hint: 'Review "first-person narrative voice" (कथावाचक की दृष्टि) from Class 10 Hindi—specifically how.',
-                  misconception: 'Students conflate "Bharat Mata" (the symbol) with the protagonist, treating the chapter as a description of a goddess rather than.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें किसी कथानक के प्रमुख',
+                  options: ['पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें किसी कथानक के प्रमुख', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि फँस जाएँ तो: **c11_hin_ar_cbse_08_002 (कथानक संरचना)** के \'टर्निंग पॉइंट्स\' और.',
+                  misconception: '**सबसे गहरी गलतफहमी:** छात्र समझते हैं कि पात्र-चित्रण = "नायक के गुणों की सूची + अंत में एक वाक्य में उसका महत्व"। वे **\'क्या\' (what)** को.' }
           ],
-            remediations: { 'students-conflate-bharat-mata-the': { steps: ['Have the student highlight every sentence beginning with "मैं" (I) in the chapter—there are 15+.', 'Ask: "Who is doing the seeing, asking, traveling, understanding in each?"', 'Create a two-column table: Column A = Nehru\'s action/statement; Column B = What it reveals about him.', 'Guide them to see the pattern: the "I" is the constant consciousness; Bharat Mata is the variable he\'s solving for.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'what': { steps: ['**चरण 1 — ठोस साक्ष्य खोजने का अभ्यास:** छात्र से कहें: "पाठ खोलो, नायक से जुड़े **सिर्फ 5 संवाद/घटनाएँ** ढूँढो जहाँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining how secondary.',
-          hint: 'Review the protagonist analysis (node 004) focusing on Nehru\'s method: he doesn\'t lecture.',
-          misconception: 'Students treat supporting characters in this non-fiction essay as if they were fictional characters in a story.',
+          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो कथा के प्रमुख पात्र.',
+          hint: 'यदि अटका हुआ महसूस हो, तो **\'नायक का चरित्र-चाप\' (Protagonist\'s Character Arc)**.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "सहायक पात्र का विश्लेषण करने का अर्थ है उसका अलग से चरित्र-चित्रण लिख देना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of supporting characters involves examining how secondary figures in a',
-                  options: ['Character analysis of supporting characters involves examining how secondary figures in a', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the deliberate arrangement of events, reflections,', 'Setting refers to the physical, temporal, and socio-cultural backdrop against'],
-                  hint: 'Review the protagonist analysis (node 004) focusing on Nehru\'s method: he doesn\'t lecture -.',
-                  misconception: 'Students treat supporting characters in this non-fiction essay as if they were fictional characters in a story - expecting names.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो कथा के प्रमुख पात्र',
+                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो कथा के प्रमुख पात्र', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि अटका हुआ महसूस हो, तो **\'नायक का चरित्र-चाप\' (Protagonist\'s Character Arc)** — विशेषकर नायक के.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "सहायक पात्र का विश्लेषण करने का अर्थ है उसका अलग से चरित्र-चित्रण लिख देना — उसका स्वभाव, रूप-रंग.' }
           ],
-            remediations: { 'students-treat-supporting-characters-in': { steps: ['Show the student the exact text where the farmer is introduced ("vkf[kj ,d g^s&d^s tkV us...") - note the descriptive.', 'Have them highlight every instance where Nehru uses plural pronouns ("bu yksx", "mUgsa", "os") when referring to people.', 'Ask: "If these were fictional characters, why would the author deny them names and individuality?"', 'Guide them to see that the TEXT\'S PURPOSE (defining a nation) requires collective voices, not individual portraits.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**पृथक्करण अभ्यास (Isolation Drill):** छात्र को पाठ से 5 सहायक पात्रों की सूची बनाने को कहें। फिर प्रत्येक के लिए.', '**संबंध-मानचित्रण (Relationship Mapping):** एक तीर-आरेख (arrow diagram) बनवाएं: नायक → (क्या देता है/लेता है) → सहायक.', '**PEEL पुनर्लेखन (PEEL Rewriting):** छात्र के कमजोर उत्तर ("रामू अच्छा नौकर था") को लेकर, शिक्षक मिलकर PEEL में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_08_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea that the.',
-          hint: 'If stuck, review "Plot and Narrative Structure" (node 002) to map the journey\'s episodes.',
-          misconception: 'Students often confuse the *refrain* "Bharat Mata ki Jai" (a slogan) with the *theme* (an argued concept).',
+          question: 'मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय, सार्वभौमिक और गहन विचार या.',
+          hint: 'यदि अटके तो \'पात्र-चित्रण: नायक\' (c11_hin_ar_cbse_08_004) के \'अंतर्द्वंद्व विश्लेषण\' भाग.',
+          misconception: '**विषय = नैतिक शिक्षा (Moral Lesson)** — छात्र अक्सर लिखते हैं: "पाठ का विषय है: हमें ईमानदार रहना चाहिए।" यह गलत है.',
           parts: [
-                { id: 'a', prompt: 'Nehru writes that when he asked people "Who is Bharat Mata?", a farmer replied "The earth, the fields." Why does Nehru reject this answer as incomplete, and.', answer: 'Nehru rejects the farmer\'s answer',
-                  options: ['Nehru rejects the farmer\'s answer', 'Nehru liked the farmer\'s answer', 'Nehru wanted a more poetic answer', 'Bharat Mata ki Jai'],
-                  hint: 'If stuck, review "Plot and Narrative Structure" (node 002) to map the journey\'s episodes, then.',
-                  misconception: 'Students often confuse the *refrain* "Bharat Mata ki Jai" (a slogan) with the *theme* (an argued concept).' },
-                { id: 'b', prompt: 'Apply the "theme tracing" method: Find three distinct passages in the text where Nehru moves from describing physical India to describing human India.', answer: 'Passage 1: "From the snow-capped Himalayas to Cape Comorin" (physical geography)',
-                  options: ['Passage 1: "From the snow-capped Himalayas to Cape Comorin" (physical geography)', 'Bharat Mata ki Jai'],
-                  hint: 'If stuck, review "Plot and Narrative Structure" (node 002) to map the journey\'s episodes, then.',
-                  misconception: 'Students often confuse the *refrain* "Bharat Mata ki Jai" (a slogan) with the *theme* (an argued concept).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय, सार्वभौमिक और गहन विचार या',
+                  options: ['मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय, सार्वभौमिक और गहन विचार या', 'पृष्ठभूमि से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक परिवेश से है जिसमें', 'कथानक (Plot) घटनाओं का वह तार्किक और कलात्मक क्रम है जो कारण-कार्य संबंध (Causality) से', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि अटके तो \'पात्र-चित्रण: नायक\' (c11_hin_ar_cbse_08_004) के \'अंतर्द्वंद्व विश्लेषण\' भाग को दोहराएं.',
+                  misconception: '**विषय = नैतिक शिक्षा (Moral Lesson)** — छात्र अक्सर लिखते हैं: "पाठ का विषय है: हमें ईमानदार रहना चाहिए।" यह गलत है क्योंकि: (1) विषय.' }
           ],
-            remediations: { 'students-often-confuse-the-refrain': { steps: ['If a student gives the slogan-based answer: (1) Ask them to find the exact paragraph where Nehru says "I would tell.', '(2) Have them underline every group of people Nehru lists (peasants, workers, city-dwellers, etc.).', '(3) Ask: "If Bharat Mata is just the land, why does Nehru spend 80% of the essay describing *people*?" (4) Guide them.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'moral-lesson-1-sermon': { steps: ['**पुनर्पाठ (Re-read) कराएं**: छात्र से कहें — "पाठ के 3 सबसे तनावपूर्ण प्रसंग छाँटो जहाँ नायक को चुनाव करना पड़ा।.', '**तुलना तालिका (Comparison Table) बनवाएं**: दो कॉलम — "कथानक की घटना" vs "उससे उभरता विचार"। जब तक 3 पंक्तियों में एक.', '**सार्वभौमिकता जांच (Universality Test)**: छात्र से पूछें — "यह विषय किसी भी देश, काल, पेशे पर लागू होता है?" यदि हाँ.', '**PEEL पैराग्राफ लिखवाएं**: Point (विषय कथन), Evidence (प्रसंग/संवाद), Explanation (विश्लेषण), Link (संदेश से संबंध).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

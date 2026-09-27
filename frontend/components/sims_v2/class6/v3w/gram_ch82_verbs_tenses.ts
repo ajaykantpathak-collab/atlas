@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c6_gram_ch82 The Time Gears (verbs + simple/continuous).
  * Nodes: c6_gram_cbse_82_001, 82_002, 82_003. */
 export const c6_gram_ch82: SimDef = {
-    id: 'v3_c6_gram_ch82',
+    id: 'v3w_c6_gram_ch82',
     title: 'The Time Gears',
     subtitle: 'Every sentence has an engine word — and it changes shape for yesterday, today, and tomorrow',
     classLevel: 6, subject: 'english-grammar', topic: 'Verbs and simple tenses',

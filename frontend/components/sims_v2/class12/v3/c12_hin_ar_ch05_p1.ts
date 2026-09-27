@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch05_p1: SimDef = {
     id: 'v3_c12_hin_ar_ch05_p1',
-    title: 'lw;Zdkar f=ikBh ^fujkyk · Part 1/3',
+    title: 'उषा · Part 1/3',
     subtitle: 'The poem is the plough — and inequality is the field',
-    classLevel: 12, subject: 'hin_ar', topic: 'lw;Zdkar f=ikBh ^fujkyk · Part 1/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'उषा · Part 1/3',
     chapters: ['c12_hin_ar_ch05'],
     nodeIds: ['c12_hin_ar_cbse_05_001', 'c12_hin_ar_cbse_05_002', 'c12_hin_ar_cbse_05_003', 'c12_hin_ar_cbse_05_004', 'c12_hin_ar_cbse_05_005', 'c12_hin_ar_cbse_05_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,47 +19,21 @@ export const c12_hin_ar_ch05_p1: SimDef = {
         hook: 'After 1943 his images stopped describing and started symbolising — the maize field is a rural world, the dark night its weight, the plough the poet\'s intervention. \'Makka\' grows from a folk tale: read the field as a symbolic landscape, not a sketch.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'This node covers the "Before You Read" section which provides essential context about the poet (Kedarnath Singh), his literary style, the background of the poem \'Makka\' (based on a folk tale), and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'उषा — कवि परिचय और पृष्ठभूमि', text: 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक परिदृश्य, ऐतिहासिक संदर्भ और उनकी रचनात्मक यात्रा के प्रारंभिक चरणों से है, जो उनकी कविता के विषय, शैली और भाव को.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_05_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Work the symbolic field: trace folk-tale roots into the poem\'s images, decode what maize, night and plough each stand for, and judge a poet who ploughs inequality rather than just watching it.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a movie but you don\'t know the director, the genre, or the backstory — you might miss the deeper layers.',
-            decisions: [{ prompt: 'Who is the poet of the poem \'Makka\' and what is his significance in Hindi literature?', options: [
-                { text: 'The poet is Kedarnath Singh (1911–1993), a major modern Hindi poet known for his symbolic', outcome: 'The poet is Kedarnath Singh (1911–1993), a major modern Hindi poet known for his symbolic and.' },
-                { text: 'another poet like Nirala or Muktibodh', outcome: 'Not quite — Students often treat the \'Before You Read\' section as optional background to skip, thinking the.', reveals: 'students-often-treat-the-before' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are watching a potter at the wheel: the clay seems shapeless at first, then gradually rises into a curve, and finally the potter cuts it off — each.',
-            decisions: [{ prompt: 'How many stanzas does the poem "मक्क" have, and what is the primary focus of its opening stanza?', options: [
-                { text: 'The poem "मक्क" consists of two stanzas', outcome: 'The poem "मक्क" consists of two stanzas. The opening stanza focuses on a static, visual description.' },
-                { text: 'three stanzas', outcome: 'Not quite — Students often treat "plot" and "narrative structure" as synonyms borrowed from fiction, expecting.', reveals: 'students-often-treat-plot-and' },
-                { text: 'the opening stanza talks about the poet\'s childhood', outcome: 'Not quite — Students often treat "plot" and "narrative structure" as synonyms borrowed from fiction, expecting.', reveals: 'students-often-treat-plot-and' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re describing a winter morning in your village to a friend who has never experienced one — you\'d mention the biting cold that makes your fingers.',
-            decisions: [{ prompt: 'What are the three core components of \'setting\' in a literary text, and which component is most prominently established in the opening.', options: [
-                { text: 'The three core components are time (temporal), place (spatial), and physical environment', outcome: 'The three core components are time (temporal), place (spatial), and physical environment.' },
-                { text: 'time and place', outcome: 'Not quite — Students often treat setting as a static label ("village, winter, morning") and atmosphere as.', reveals: 'students-often-treat-setting-as' },
-                { text: 'characters', outcome: 'Not quite — Students often treat setting as a static label ("village, winter, morning") and atmosphere as.', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are standing before an old mud house in a village.',
-            decisions: [{ prompt: 'List all the supporting characters/elements explicitly present in the poem "मकक" as described in the NCERT text.', options: [
-                { text: 'The supporting characters are: the tree (हकसज), the bird (जकक), the bird\'s nest, the', outcome: 'The supporting characters are: the tree (हकसज), the bird (जकक), the bird\'s nest, the children.' },
-                { text: 'includes the mud house itself confuses protagonist with supporting cast', outcome: 'Not quite — Students often treat supporting characters in a poem as static background images—"the tree is there.', reveals: 'students-often-treat-supporting-characters' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are standing at a bus stop on a December morning in Delhi at 6:30 AM — the air bites your fingers, your breath makes clouds, and the streetlights.',
-            decisions: [{ prompt: 'What is the difference between a \'topic\' (subject) and a \'theme\' in poetry? Give a one-sentence answer using "mkk" as an example.', options: [
-                { text: 'A topic is the literal subject (e.g., \'a frosty morning\')', outcome: 'A topic is the literal subject (e.g., \'a frosty morning\'); a theme is the universal insight about.' },
-                { text: 'izLrqr dfork m\'kk lw;ksZn', outcome: 'Not quite — Students consistently write: "The theme of \'mkk\' is the beauty of winter" or "The message is that.', reveals: 'students-consistently-write-the-theme' },
-                { text: 'yhik gqvk pkSdk', outcome: 'Not quite — Students consistently write: "The theme of \'mkk\' is the beauty of winter" or "The message is that.', reveals: 'students-consistently-write-the-theme' }
+        labels: ['उषा — कवि परिचय', 'उषा — पद्यांश-वार भावार्थ', 'उषा — काव्य-संरचना और', 'उषा — केंद्रीय भाव', 'उषा — छंद और', 'उषा — साहित्यिक युक्तियाँ'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_004', title: 'उषा — केंद्रीय भाव और रस',
+          caseStudy: { intro: 'You\'ve read "उषा" and underlined words like "जागरण," "प्रकाश," "अंधकार," "नवजीवन" — but when the exam asks "केंद्रीय भाव क्या है?" or "प्रमुख रस कौन-सा है?".',
+            decisions: [{ prompt: '"उषा" कविता का केंद्रीय भाव एक वाक्य में लिखिए। (केवल याददाश्त से — पाठ न देखें)', options: [
+                { text: '**Correct answer:** "उषा" का केंद्रीय भाव है', outcome: '**Correct answer:** "उषा" का केंद्रीय भाव है — अंधकार और जड़ता पर चेतना और प्रकाश की अनिवार्य विजय.' },
+                { text: 'उषा कविता सूर्योदय का वर्णन करती है', outcome: 'Not quite — **Students treat "केंद्रीय भाव" and "रस" as interchangeable labels** — e.g., writing "केंद्रीय भाव.', reveals: 'students-treat-and-as-interchangeable' },
+                { text: 'आशा का संदेश देती है', outcome: 'Not quite — **Students treat "केंद्रीय भाव" and "रस" as interchangeable labels** — e.g., writing "केंद्रीय भाव.', reveals: 'students-treat-and-as-interchangeable' }
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_05_001', title: 'Use it in the wild',
           caseStudy: { intro: 'For a photo-story assignment, your partner wants to scrap shots of a foggy winter field — \'nothing happens in them; we need drama.\' You suspect the quiet frames are the story.',
@@ -70,100 +44,85 @@ export const c12_hin_ar_ch05_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_05_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read a poem\'s images as instruments of change — symbolism that works the soil instead of framing it.',
-            decisions: [{ prompt: 'What comes next? lw;Zdkar f=ikBh ^fujkyk · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — lw;Zdkar f=ikBh ^fujkyk · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? उषा · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — उषा · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_001', difficulty: 'standard',
-          question: 'This node covers the "Before You Read" section which provides essential context.',
-          hint: 'If stuck, review Class 11 node c11_hin_ar_cbse_08_001 (Imagery and Metaphor) and.',
-          misconception: 'Students often treat the \'Before You Read\' section as optional background to skip, thinking the poem speaks for itself.',
+          question: 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन.',
+          hint: 'यदि फंसे हुए महसूस हो तो कक्षा 11 के हिन्दी पाठ 1 के नोड c11_hin_a_cbse_01_001 को दोबारा.',
+          misconception: 'छात्र अक्सर उषा के पिता के प्रभाव को उनकी कविता की शैली की 직접 नकल मानते हैं, सोचते हैं कि यदि पिता छायावादी थे तो उषा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'This node covers the "Before You Read" section',
-                  options: ['This node covers the "Before You Read" section', 'In poetry, narrative structure refers to the deliberate organization of images, ideas,', 'Setting refers to the time, place, and physical environment in', 'In a poem, the protagonist is the central figure'],
-                  hint: 'If stuck, review Class 11 node c11_hin_ar_cbse_08_001 (Imagery and Metaphor) and.',
-                  misconception: 'Students often treat the \'Before You Read\' section as optional background to skip, thinking the poem speaks for itself.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक',
+                  options: ['उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है', '**केंद्रीय भाव (Central Idea/Theme)** is the core philosophical or emotional truth the'],
+                  hint: 'यदि फंसे हुए महसूस हो तो कक्षा 11 के हिन्दी पाठ 1 के नोड c11_hin_a_cbse_01_001 को दोबारा देखिए.',
+                  misconception: 'छात्र अक्सर उषा के पिता के प्रभाव को उनकी कविता की शैली की 직접 नकल मानते हैं, सोचते हैं कि यदि पिता छायावादी थे तो उषा भी उसी शैली में लिखी.' }
           ],
-            remediations: { 'students-often-treat-the-before': { steps: ['If a student cannot articulate the poet\'s symbolic method or the folk tale connection, do NOT have them re-read the.', 'Instead: (1) Give them a 2-minute oral summary: \'Kedarnath Singh = symbolic poet; "Makka" = folk tale turned symbolic.', '(3) Re-diagnose with Diagnostic Question 4 — if they can now explain the metaphor, they\'ve grasped the core.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को पिता के नाम (किरण चन्द्र खान) और उनकी पहचान (छायावादी कवि) लिखने के लिए कहिए, फिर पूछिए: "यदि आप अपने पिता के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_002', difficulty: 'standard',
-          question: 'In poetry, narrative structure refers to the deliberate organization of images.',
-          hint: 'Review Class 11 node **c11_hin_ar_cbse_01_002** (Plot and Narrative Structure).',
-          misconception: 'Students often treat "plot" and "narrative structure" as synonyms borrowed from fiction, expecting a poem to have.',
+          question: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र.',
+          hint: 'अगर अटकें तो \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_002) के पहले दो पद्यांशों का भावार्थ.',
+          misconception: 'छात्र समझते हैं कि \'पद्यांश-वार भावार्थ\' का अर्थ है प्रत्येक पद्यांश का शब्दार्थ (word-meaning) लिख देना। वास्तव में.',
           parts: [
-                { id: 'a', prompt: 'How many stanzas does the poem "मक्क" have, and what is the primary focus of its opening stanza?', answer: 'The poem "मक्क" consists of two stanzas',
-                  options: ['The poem "मक्क" consists of two stanzas', 'three stanzas', 'the opening stanza talks about the poet\'s childhood'],
-                  hint: 'Review Class 11 node **c11_hin_ar_cbse_01_002** (Plot and Narrative Structure) — specifically the.',
-                  misconception: 'Students often treat "plot" and "narrative structure" as synonyms borrowed from fiction, expecting a poem to have characters, conflict, and.' },
-                { id: 'b', prompt: 'In your own words, explain how the poem "मक्क" moves from a concrete scene to an abstract idea. What is the turning point?', answer: 'The poem begins with sensory details',
-                  options: ['The poem begins with sensory details', 'it describes fog then sun', 'merely lists images without naming the shift (e'],
-                  hint: 'Review Class 11 node **c11_hin_ar_cbse_01_002** (Plot and Narrative Structure) — specifically the.',
-                  misconception: 'Students often treat "plot" and "narrative structure" as synonyms borrowed from fiction, expecting a poem to have characters, conflict, and.' },
-                { id: 'c', prompt: 'Divide the poem "हककज वगसज्ह" into three structural segments based on the shift in focus. Label each segment with a one-phrase descriptor.', answer: 'Segment 1 (Lines 1–8): **सूर्योदय का दृश्य-चित्रण**',
-                  options: ['Segment 1 (Lines 1–8): **सूर्योदय का दृश्य-चित्रण**', 'it\'s all about the morning'],
-                  hint: 'Review Class 11 node **c11_hin_ar_cbse_01_002** (Plot and Narrative Structure) — specifically the.',
-                  misconception: 'Students often treat "plot" and "narrative structure" as synonyms borrowed from fiction, expecting a poem to have characters, conflict, and.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ',
+                  options: ['पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है', '**केंद्रीय भाव (Central Idea/Theme)** is the core philosophical or emotional truth the'],
+                  hint: 'अगर अटकें तो \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_002) के पहले दो पद्यांशों का भावार्थ फिर से.',
+                  misconception: 'छात्र समझते हैं कि \'पद्यांश-वार भावार्थ\' का अर्थ है प्रत्येक पद्यांश का शब्दार्थ (word-meaning) लिख देना। वास्तव में भावार्थ में: (1).' }
           ],
-            remediations: { 'students-often-treat-plot-and': { steps: ['Have the student re-read both poems *aloud* with a pencil, marking every stanza break and circling the first and last.', 'Ask: "What is the *difference* between what the first stanza shows and what the last stanza says?" Write the answer.', 'Provide a 3-column table: Stanza | Dominant Image | Shift in Focus.', 'Student fills it for both poems.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat "plot" and "narrative structure" as synonyms borrowed from fiction, expecting a poem to have.',
-          parts: [
-                { id: 'a', prompt: 'A student claims: "The structure of \'मक्क\' is weak because it just describes a morning and then suddenly jumps to a big idea." Evaluate this claim using.', answer: 'The claim is **invalid**',
-                  options: ['The claim is **invalid**', 'yes, it\'s abrupt'],
-                  hint: 'Review Class 11 node **c11_hin_ar_cbse_01_002** (Plot and Narrative Structure) — specifically the.',
-                  misconception: 'Students often treat "plot" and "narrative structure" as synonyms borrowed from fiction, expecting a poem to have characters, conflict, and.' }
-          ],
-            remediations: { 'students-often-treat-plot-and': { steps: ['Have the student re-read both poems *aloud* with a pencil, marking every stanza break and circling the first and last.', 'Ask: "What is the *difference* between what the first stanza shows and what the last stanza says?" Write the answer.', 'Provide a 3-column table: Stanza | Dominant Image | Shift in Focus.', 'Student fills it for both poems.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'word-meaning-1': { steps: ['चरण 1: छात्र से कहें — "पहले पद्यांश को पढ़कर आँख बंद करें और बताएँ क्या दृश्य उभरता है?" (दृश्यकरण/visualization)। चरण.', 'प्रतीक्षा?" (भावानुभूति/affective response)। चरण 3: फिर कहें — "अब कवि के शब्दों में कौन-सा शब्द इस भाव को ले जाता है?', '\'टुकड़ा\' क्यों लिखा, \'भाग\' क्यों नहीं?" (शब्द-चयन विश्लेषण/word choice analysis)। चरण 4: अंत में — "दूसरे पद्यांश में.', 'वह बदलाव पहले पद्यांश के किस शब्द से जुड़ा है?" (संक्रमण विश्लेषण/transition analysis)। इस 4-चरणीय प्रक्रिया को 2-3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment in which a literary.',
-          hint: 'If stuck, review "इमेजरी के प्रकार" (types of imagery) in c11_hin_ar_cbse_05_008 and.',
-          misconception: 'Students often treat setting as a static label ("village, winter, morning") and atmosphere as a single adjective.',
+          question: 'काव्य-संरचना और पद्य-विन्यास का अर्थ है — कविता के पदों का क्रमबद्ध विन्यास.',
+          hint: 'अगर पद-क्रम का भाव-तर्क न दिखे, तो c11_hin_ar_cbse_16_003 (आओ, मलिकर बचाएँ.',
+          misconception: 'छात्र समझते हैं कि \'काव्य-संरचना\' = पदों की गिनती + छंद का नाम। वास्तव में, उषा में **पद-क्रम भाव-तर्क से बंधा है**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the time, place, and physical environment in',
-                  options: ['Setting refers to the time, place, and physical environment in', 'This node covers the "Before You Read" section', 'In poetry, narrative structure refers to the deliberate organization of images, ideas,', 'In a poem, the protagonist is the central figure'],
-                  hint: 'If stuck, review "इमेजरी के प्रकार" (types of imagery) in c11_hin_ar_cbse_05_008 and practice.',
-                  misconception: 'Students often treat setting as a static label ("village, winter, morning") and atmosphere as a single adjective ("cold", "peaceful").' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना और पद्य-विन्यास का अर्थ है',
+                  options: ['काव्य-संरचना और पद्य-विन्यास का अर्थ है', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', '**केंद्रीय भाव (Central Idea/Theme)** is the core philosophical or emotional truth the'],
+                  hint: 'अगर पद-क्रम का भाव-तर्क न दिखे, तो c11_hin_ar_cbse_16_003 (आओ, मलिकर बचाएँ — काव्य-संरचना) के.',
+                  misconception: 'छात्र समझते हैं कि \'काव्य-संरचना\' = पदों की गिनती + छंद का नाम। वास्तव में, उषा में **पद-क्रम भाव-तर्क से बंधा है**: प्रत्येक पद पिछले पद.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Re-read the poem aloud, marking every sensory word (visual, tactile, auditory, olfactory) with a coloured pencil.', 'Group these by stanza and ask: "What does this cluster make me *feel*?" — write one mood word per stanza.', 'final stanza mood; articulate the shift in one sentence.', 'Revisit c11_hin_ar_cbse_05_003 (Class 11 Setting and Atmosphere) and redo its Worked Example 2 on atmospheric.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: उषा कविता को **स्वर में पढ़कर** रिकॉर्ड करो, फिर सुनो — कहाँ साँस स्वाभाविक रुकती है?', 'वही पद-संधि है। चरण 2: हर पद के लिए लिखो: "यह पद पिछले पद का **कौन-सा प्रश्न हल करता है** और **कौन-सा नया प्रश्न खड़ा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_004', difficulty: 'standard',
-          question: 'In a poem, the protagonist is the central figure — whether a personified.',
-          hint: 'If stuck on "who is protagonist?", return to c12_hin_ar_cbse_05_003 and list every image.',
-          misconception: '**Misconception:** "The protagonist of a poem is always the speaker (\'I\')." **Why it\'s wrong:** In \'मिट्टी\', there.',
+          question: '**केंद्रीय भाव (Central Idea/Theme)** is the core philosophical or emotional.',
+          hint: 'If stuck, revisit **c11_hin_a_cbse_13_004** (जाग तुझको दूर जाना — केंद्रीय भाव और रस) and.',
+          misconception: '**Students treat "केंद्रीय भाव" and "रस" as interchangeable labels** — e.g., writing "केंद्रीय भाव: वीर रस" or "रस.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words *how* the poet establishes मिट्टी as a living protagonist rather than just a setting. Use two specific poetic devices from the poem.', answer: 'The poet uses **personification** ("मिट्टी क उहक',
-                  options: ['The poet uses **personification** ("मिट्टी क उहक', 'imagery'],
-                  hint: 'If stuck on "who is protagonist?", return to c12_hin_ar_cbse_05_003 and list every image — then.',
-                  misconception: '**Misconception:** "The protagonist of a poem is always the speaker (\'I\')." **Why it\'s wrong:** In \'मिट्टी\', there is **no "I" in the.' }
+                { id: 'a', prompt: '"उषा" कविता का केंद्रीय भाव एक वाक्य में लिखिए। (केवल याददाश्त से — पाठ न देखें)', answer: '**Correct answer:** "उषा" का केंद्रीय भाव है',
+                  options: ['**Correct answer:** "उषा" का केंद्रीय भाव है', 'उषा कविता सूर्योदय का वर्णन करती है', 'आशा का संदेश देती है'],
+                  hint: 'If stuck, revisit **c11_hin_a_cbse_13_004** (जाग तुझको दूर जाना — केंद्रीय भाव और रस) and re-do the.',
+                  misconception: '**Students treat "केंद्रीय भाव" and "रस" as interchangeable labels** — e.g., writing "केंद्रीय भाव: वीर रस" or "रस: आशा" — because both are.' },
+                { id: 'b', prompt: '"उषा" कविता में **वीर रस** की निष्पत्ति (manifestation) कैसे होती है? विभाव, अनुभाव, और संचारी भाव — तीनों की दृष्टि से एक-एक उदाहरण देकर समझाइए।', answer: '**Correct answer with steps:** 1',
+                  options: ['**Correct answer with steps:** 1', 'नवजीवन का संचार', 'उषा का आना'],
+                  hint: 'If stuck, revisit **c11_hin_a_cbse_13_004** (जाग तुझको दूर जाना — केंद्रीय भाव और रस) and re-do the.',
+                  misconception: '**Students treat "केंद्रीय भाव" and "रस" as interchangeable labels** — e.g., writing "केंद्रीय भाव: वीर रस" or "रस: आशा" — because both are.' }
           ],
-            remediations: { 'misconception-the-protagonist-of-a': { steps: ['**Re-read the poem aloud** — mark every noun/pronoun referring to मिट्टी (उहक, मिट्टी, वक, लव;कसण;).', '**Revisit node c12_hin_ar_cbse_05_003 (Setting and Atmosphere)** — identify which "setting details" are actually.', '**Do a 5-minute write:** "If मिट्टी could speak, what would she say to the farmer?" — forces personification.', '**Re-attempt Diagnostic Q3** with the PEEL template, this time using only poem lines as Evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'students-treat-and-as-interchangeable': { steps: ['** Give them two columns — left: "कथन/विचार" (proposition), right: "आस्वाद/भावना" (relishable feeling).', '** Show the **rasa formula**: स्थायी भाव + विभाव + अनुभाव + संचारी भाव = रस.', '** Assign a micro-task: "Pick any *other* poem (e.g., \'बादल को घिरते देखा है\') and write its केंद्रीय भाव in one.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_005', difficulty: 'standard',
-          question: 'Supporting characters in a poem are the secondary figures—human, natural,.',
-          hint: 'If stuck, return to c12_hin_ar_cbse_05_004 and re-do the "Protagonist Profile" exercise.',
-          misconception: 'Students often treat supporting characters in a poem as static background images—"the tree is there for shade," "the.',
+          question: '*छंद* is the systematic metrical structure of a Hindi poem defined by the count.',
+          hint: 'यदि मात्रा-निर्धारण में अटके: **संयुक्त व्यंजन नियम** (जैसे \'किरण\' = कि+रण → गुरु+गुरु).',
+          misconception: '**"छंद = तुकांत (Rhyme)"** — यह सबसे घातक भ्रम है। छात्र सोचते हैं कि यदि पंक्तियों के अंत में तुक (राइम) है, तो छंद.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in a poem are the secondary figures—human, natural, or',
-                  options: ['Supporting characters in a poem are the secondary figures—human, natural, or', 'This node covers the "Before You Read" section', 'In poetry, narrative structure refers to the deliberate organization of images, ideas,', 'Setting refers to the time, place, and physical environment in'],
-                  hint: 'If stuck, return to c12_hin_ar_cbse_05_004 and re-do the "Protagonist Profile" exercise; then.',
-                  misconception: 'Students often treat supporting characters in a poem as static background images—"the tree is there for shade," "the children are there for.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '*छंद* is the systematic metrical structure of a Hindi poem defined by the count and',
+                  options: ['*छंद* is the systematic metrical structure of a Hindi poem defined by the count and', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि मात्रा-निर्धारण में अटके: **संयुक्त व्यंजन नियम** (जैसे \'किरण\' = कि+रण → गुरु+गुरु) और.',
+                  misconception: '**"छंद = तुकांत (Rhyme)"** — यह सबसे घातक भ्रम है। छात्र सोचते हैं कि यदि पंक्तियों के अंत में तुक (राइम) है, तो छंद है; और यदि तुक नहीं.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student cannot move beyond listing supporting characters, do this 3-step remediation: (1) Have them re-read the.', '(2) For each underlined noun, ask: "What is this thing *doing* in the poem?', 'What verb would you give it?" (e.g., the plaster *erodes*, the children *nest/play*, the tree *shades/witnesses*).', '(3) Then ask: "How does that action change your understanding of the mud house?" Guide them to write one sentence per.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'rhyme': { steps: ['**पुनः अभ्यास:** Class 11 के **\'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_005)** और **\'घर में वापसी\'.', '**मात्रा-तालिका बनाएँ:** देवनागरी वर्णमाला के प्रत्येक वर्ण की मात्रा (लघु/गुरु) लिखकर दीवार पर चिपकाएँ — संयुक्त.', '**पुनः-निदान (Re-diagnostic):** अगले 3 दिन रोज एक पंक्ति (किसी भी कविता की) लें, मात्रा चिह्नित करें, गण बनाएँ, यति.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
-          hint: 'If unable to write a theme statement, revisit the \'theme statement template\'.',
-          misconception: 'Students consistently write: "The theme of \'mkk\' is the beauty of winter" or "The message is that we should enjoy.',
+          question: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो शब्दों के सामान्य अर्थ को विशिष्ट.',
+          hint: 'यदि अटके तो **c11_hin_ar_cbse_16_006** (आओ, मलिकर बचाएँ — अलंकार) के.',
+          misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि \'जैसे/सी/समान\' शब्द आने पर **सदैव उपमा** ही होती है — जबकि \'उषा\' में "चाँद-सी.',
           parts: [
-                { id: 'a', prompt: 'What is the difference between a \'topic\' (subject) and a \'theme\' in poetry? Give a one-sentence answer using "mkk" as an example.', answer: 'A topic is the literal subject (e.g., \'a frosty morning\')',
-                  options: ['A topic is the literal subject (e.g., \'a frosty morning\')', 'izLrqr dfork m\'kk lw;ksZn', 'yhik gqvk pkSdk'],
-                  hint: 'If unable to write a theme statement, revisit the \'theme statement template\'.',
-                  misconception: 'Students consistently write: "The theme of \'mkk\' is the beauty of winter" or "The message is that we should enjoy nature." This is a Class.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो शब्दों के सामान्य अर्थ को विशिष्ट, सौंदर्यपूर्ण और',
+                  options: ['अलंकार वे साहित्यिक युक्तियाँ हैं जो शब्दों के सामान्य अर्थ को विशिष्ट, सौंदर्यपूर्ण और', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि अटके तो **c11_hin_ar_cbse_16_006** (आओ, मलिकर बचाएँ — अलंकार) के \'उपमा-रूपक-उत्प्रेक्षा तुलना.',
+                  misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि \'जैसे/सी/समान\' शब्द आने पर **सदैव उपमा** ही होती है — जबकि \'उषा\' में "चाँद-सी शीतल" उपमा है, लेकिन.' }
           ],
-            remediations: { 'students-consistently-write-the-theme': { steps: ['If a student cannot move beyond \'winter is beautiful\', do this 3-step remediation: 1.', 'Re-read node c12_hin_ar_cbse_05_003 (Setting and Atmosphere) and list 5 words the poet uses for \'cold\' and 5 for.', 'Re-read node c12_hin_ar_cbse_05_004 (Protagonist — here, the observing \'I\') and answer: "What does the speaker DO.', 'What does the speaker FEEL at the start vs the end?" 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**चरण 1:** Class 11 के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_006) और \'आओ, मलिकर बचाएँ\' (c11_hin_ar_cbse_16_006) के.', '**चरण 2:** \'उषा\' कविता के 5 पदों में से प्रत्येक से **एक-एक अलंकार** निकालकर उसकी **पहचान → भेद → उपमान/उपमेय/सूचक →.', '**चरण 3:** किसी सहपाठी को समझाएँ — यदि आप समझा सके तो मास्टरी है, नहीं तो चरण 1 पर लौटें। 4.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_2 और 4 को फिर से हल करें — अब सही होने चाहिए।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

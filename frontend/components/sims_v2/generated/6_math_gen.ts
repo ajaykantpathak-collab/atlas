@@ -24,7 +24,6 @@ export const C6_MATH_GEN: SimDef[] = [
    "c6_math_ch01_003",
    "c6_math_ch01_004",
    "c6_math_ch01_005",
-   "c6_math_ch01_006",
    "c6_math_ch01_007",
    "c6_math_ch01_008",
    "c6_math_ch01_009",
@@ -81,12 +80,6 @@ export const C6_MATH_GEN: SimDef[] = [
     "text": "The Indian number system is a method of grouping and naming large numbers using specific units like Lakhs (1,00,000) and Crores (1,00,00,000), characterized by a unique placement of commas after the hundreds place.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
-   },
-   {
-    "title": "Rounding Numbers",
-    "text": "Rounding numbers is the process of replacing an exact number with a nearby, simpler value to make calculations or communication easier. It is used when exact precision is not required, such as estimating the number of people in a crowd or the total cost of",
-    "emoji": "🔢",
-    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Roman Numerals",
@@ -146,15 +139,15 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What is one way we use numbers in a classroom setting besides counting students?",
-    "answer": "We use numbers to measure time (like the duration of a period) or to identify the date",
+    "question": "It means the student is standing between two people who are both taller than them. A wrong answer shows the student is confusing the number with the student's actual height or position instead of the *relationship* between neighbors.",
+    "answer": "In this context, being number '2' means the student is standing in a position where exactly two people taller than them are standing directly beside them—one to their left and one",
     "options": [
-     "Because the '2' in 23 represents 20, not 2; the zero acts as a placeholder to shift the value to the tens place",
-     "The components are dividend (a), divisor (b), quotient (q), and remainder (r)",
-     "We use numbers to measure time (like the duration of a period) or to identify the date"
+     "The answer is XLIX. To solve: 40 is XL (50-10) and 9 is IX (10-1)",
+     "No, because the number 1 has no predecessor in the set of natural numbers",
+     "In this context, being number '2' means the student is standing in a position where exactly two people taller than them are standing directly beside them—one to their left and one"
     ],
     "hint": "Straight from the 'Numbers in our everyday life' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"numbers are only for math\" reveals that the student views numbers as abstract school concepts rather than tools for organizing daily life.",
+    "misconception": "A wrong answer reveals a misunderstanding of relative versus absolute positioning. Specifically, the student may be confusing the label \"number 2\" with their ordinal rank in the line (e.g., the second person from the front) rather than interpreting the number as a descriptor of their specific local environment.",
     "id": "gen_c6_math_ch01_q1",
     "nodeId": "c6_math_ch01_001",
     "difficulty": "standard",
@@ -167,15 +160,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Is the number 0 a natural number? Why or why not?",
-    "answer": "No, 0 is not a natural number. Natural numbers are defined as \"counting numbers,\" and we always start counting objects from 1, not 0",
+    "question": "If I have a set of natural numbers, can I always find a predecessor for every number in that set? Explain.",
+    "answer": "No, because the number 1 has no predecessor in the set of natural numbers",
     "options": [
-     "No, because the number 1 has no predecessor in the set of natural numbers",
-     "Any number like 6,544, 6,545, or 6,549 works",
-     "No, 0 is not a natural number. Natural numbers are defined as \"counting numbers,\" and we always start counting objects from 1, not 0"
+     "The successor of 999 is 1,000 (999 + 1), and the predecessor of 1,000 is 999 (1,000 - 1)",
+     "The student should produce a number like 45,67,890 and write \"forty-five lakh sixty-seven thousand eight hundred ninety",
+     "No, because the number 1 has no predecessor in the set of natural numbers"
     ],
     "hint": "Straight from the 'Natural numbers' slide -- match the key terms.",
-    "misconception": "A student who says \"yes\" often confuses the set of whole numbers with the set of natural numbers.",
+    "misconception": "Students who say \"yes\" are failing to identify the boundary of the set at 1, forgetting that there is no natural number before 1.",
     "id": "gen_c6_math_ch01_q2",
     "nodeId": "c6_math_ch01_002",
     "difficulty": "standard",
@@ -188,15 +181,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "In the number 5,555, why does the digit 5 represent different amounts even though it is the same digit?",
-    "answer": "Because each 5 occupies a different position (ones, tens, hundreds, thousands), which multiplies its face value by a different power of ten",
+    "question": "If you swap the thousands digit and the tens digit in 6,241, how does the place value of the digit '6' change?",
+    "answer": "The '6' moves from the thousands place (value 6,000) to the tens place (value 60)",
     "options": [
-     "A 3-digit palindrome is 121. I know this is a palindrome because the digits read the same forwards and backwards, with the first and last digits being identical",
-     "Counting the number of mangoes in a basket that is completely empty requires the number 0. A natural number (starting at 1) would be insufficient to describe the empty basket",
-     "Because each 5 occupies a different position (ones, tens, hundreds, thousands), which multiplies its face value by a different power of ten"
+     "The first comma is placed after the third digit from the right (the hundreds place)",
+     "[Correct answer] Yes, it is possible for the difference between two 5-digit numbers to be a 3-digit number, provided the numbers are very close in value",
+     "The '6' moves from the thousands place (value 6,000) to the tens place (value 60)"
     ],
     "hint": "Straight from the 'face value of a digit' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming the 5s are all equal suggests the student doesn't understand that position determines value in our number system.",
+    "misconception": "An incorrect answer shows the student is confusing the movement of the digit with the actual mathematical change in its place value.",
     "id": "gen_c6_math_ch01_q3",
     "nodeId": "c6_math_ch01_003",
     "difficulty": "standard",
@@ -209,15 +202,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you have two numbers, 8,999 and 10,001, which one is larger without needing to look at individual digits?",
-    "answer": "10,001 is larger because it has 5 digits, while 8,999 only has 4",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to order a set of four-digit to five-digit numbers from least to greatest and justify their choice by explaining the place-value comparison",
     "options": [
-     "You can add one more group of 15 to the result (150 + 15 = 165). This demonstrates that multiplication is about groups",
-     "Examples include 10 and 15, or 5 and 20. A good answer identifies that both numbers must have 5 as a prime factor",
-     "10,001 is larger because it has 5 digits, while 8,999 only has 4"
+     "The student must be able to correctly identify whether a number is a natural or whole number and explain the presence or absence of zero in each set",
+     "The student must be able to multiply a three-digit number by a two-digit number correctly using the standard algorithm, showing all partial products",
+     "The student must be able to order a set of four-digit to five-digit numbers from least to greatest and justify their choice by explaining the place-value comparison"
     ],
     "hint": "Straight from the 'Comparing numbers' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is ignoring the total count of digits and only looking at the starting digit, which leads to thinking 8 is larger than 1.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to order a set of four-digit to five-digit numbers from least to greatest and justify their",
     "id": "gen_c6_math_ch01_q4",
     "nodeId": "c6_math_ch01_004",
     "difficulty": "advanced",
@@ -230,15 +223,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Create a 7-digit number and write it in words using the Indian system.",
-    "answer": "The student should produce a number like 45,67,890 and write \"forty-five lakh sixty-seven thousand eight hundred ninety",
+    "question": "In the Indian number system, where do you place the first comma when writing a number?",
+    "answer": "The first comma is placed after the third digit from the right (the hundreds place)",
     "options": [
-     "A possible answer is 333 (sum is 9, so divisible by 3; last digit is odd, so not divisible by 2 or 5)",
-     "Yes, the number 0 is a whole number but not a natural number. This is the only element that differentiates the two sets",
-     "The student should produce a number like 45,67,890 and write \"forty-five lakh sixty-seven thousand eight hundred ninety"
+     "The answer is CCCLXXXIV. I constructed it by splitting 384 into 300 (CCC), 80 (LXXX), and 4 (IV). A poor answer shows a failure to group the number by its place-value components",
+     "The '6' moves from the thousands place (value 6,000) to the tens place (value 60)",
+     "The first comma is placed after the third digit from the right (the hundreds place)"
     ],
     "hint": "Straight from the 'Indian number system' slide -- match the key terms.",
-    "misconception": "A poor answer lacks the correct place-value names or fails to group digits into the correct lakhs/thousands periods.",
+    "misconception": "A wrong answer here suggests the student is trying to force international grouping (every three digits) onto the Indian system.",
     "id": "gen_c6_math_ch01_q5",
     "nodeId": "c6_math_ch01_005",
     "difficulty": "standard",
@@ -251,37 +244,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "When rounding 167 to the nearest ten, why do we focus on the number 7?",
-    "answer": "We focus on 7 because it is in the ones place, which determines whether the tens digit (6) stays at 6 or increases to 7",
-    "options": [
-     "We use numbers to measure time (like the duration of a period) or to identify the date",
-     "The first step is to write the numbers in columns, ensuring that the ones, tens, hundreds, thousands, and ten-thousands places are perfectly aligned",
-     "We focus on 7 because it is in the ones place, which determines whether the tens digit (6) stays at 6 or increases to 7"
-    ],
-    "hint": "Straight from the 'Rounding numbers' slide -- match the key terms.",
-    "misconception": "Choosing the wrong digit reveals a misunderstanding of place value positions relative to the target place.",
-    "id": "gen_c6_math_ch01_q6",
-    "nodeId": "c6_math_ch01_006",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine you are at a local market with ₹48 in your pocket.",
-     "If a friend asks how much money you have, you might say \"about ₹50\" because it’s easier to say and remember.",
-     "To round 48, look at the digit to the right of the tens place: the ones digit (8).",
-     "Since 8 is 5 or greater, we \"round up\" the tens digit (4 becomes 5) and turn the ones digit to 0, giving us 50."
-    ]
-   },
-   {
-    "type": "mcq",
     "question": "Convert the Hindu-Arabic number 49 into Roman Numerals.",
     "answer": "The answer is XLIX. To solve: 40 is XL (50-10) and 9 is IX (10-1)",
     "options": [
+     "The answer is CCCLXXXIV. I constructed it by splitting 384 into 300 (CCC), 80 (LXXX), and 4 (IV). A poor answer shows a failure to group the number by its place-value components",
      "No, because the number 1 has no predecessor in the set of natural numbers",
-     "855 is closer to 900 than to 800 on the number line, and the rule for rounding 5 is to round up",
      "The answer is XLIX. To solve: 40 is XL (50-10) and 9 is IX (10-1)"
     ],
     "hint": "Straight from the 'Roman Numerals' slide -- match the key terms.",
     "misconception": "A student who answers \"IL\" fails to realize that Roman numerals must be broken down by place value (tens and ones separately).",
-    "id": "gen_c6_math_ch01_q7",
+    "id": "gen_c6_math_ch01_q6",
     "nodeId": "c6_math_ch01_007",
     "difficulty": "standard",
     "workedExample": [
@@ -293,16 +265,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the very first step when adding two large numbers like 78,945 and 12,367?",
-    "answer": "The first step is to write the numbers in columns, ensuring that the ones, tens, hundreds, thousands, and ten-thousands places are perfectly aligned",
+    "question": "Is it easier to add from left to right (starting from ten-thousands) or right to left (starting from ones)? Explain.",
+    "answer": "It is easier to add from right to left because it allows you to handle \"carries\" properly. If you start from the left",
     "options": [
-     "The components are dividend (a), divisor (b), quotient (q), and remainder (r)",
-     "We use numbers to measure time (like the duration of a period) or to identify the date",
-     "The first step is to write the numbers in columns, ensuring that the ones, tens, hundreds, thousands, and ten-thousands places are perfectly aligned"
+     "Yes, because the commas are placed after the hundreds, thousands, and lakhs periods, which is unique to the Indian system",
+     "Counting the number of mangoes in a basket that is completely empty requires the number 0. A natural number (starting at 1) would be insufficient to describe the empty basket",
+     "It is easier to add from right to left because it allows you to handle \"carries\" properly. If you start from the left"
     ],
     "hint": "Straight from the 'Addition of large numbers' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student treats numbers as simple strings of digits rather than placeholders of value, which leads to misalignment errors.",
-    "id": "gen_c6_math_ch01_q8",
+    "misconception": "Recheck the lesson slide -- the key claim is: It is easier to add from right to left because it allows you to handle \"carries\" properly.",
+    "id": "gen_c6_math_ch01_q7",
     "nodeId": "c6_math_ch01_008",
     "difficulty": "advanced",
     "workedExample": [
@@ -314,16 +286,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you are subtracting 5 from 2 in the ones column, why do we \"borrow\" from the tens column?",
-    "answer": "We borrow because the ones column alone is insufficient to perform the subtraction without resulting in a negative value",
+    "question": "Calculate: 40,000 - 12,345.",
+    "answer": "The answer is 27,655. To solve, you must borrow repeatedly across the zeros in the thousands, hundreds, and tens places",
     "options": [
-     "It is more efficient to estimate because counting thousands of people individually is time-consuming and prone to human error due to the constant movement of the crowd",
-     "[Correct answer] Yes, it is possible for the difference between two 5-digit numbers to be a 3-digit number, provided the numbers are very close in value",
-     "We borrow because the ones column alone is insufficient to perform the subtraction without resulting in a negative value"
+     "A 3-digit palindrome is 121. I know this is a palindrome because the digits read the same forwards and backwards, with the first and last digits being identical",
+     "No, because the number 1 has no predecessor in the set of natural numbers",
+     "The answer is 27,655. To solve, you must borrow repeatedly across the zeros in the thousands, hundreds, and tens places"
     ],
     "hint": "Straight from the 'Subtraction of large numbers' slide -- match the key terms.",
-    "misconception": "A student who says \"just flip the numbers to do 5 - 2\" has failed to understand that subtraction is not commutative; they have missed the fundamental concept of magnitude.",
-    "id": "gen_c6_math_ch01_q9",
+    "misconception": "A student who gets 38,765 likely forgot to reduce the zeros correctly, revealing a weakness in handling \"borrowing from zero.\"",
+    "id": "gen_c6_math_ch01_q8",
     "nodeId": "c6_math_ch01_009",
     "difficulty": "advanced",
     "workedExample": [
@@ -342,7 +314,7 @@ export const C6_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "An incorrect result often shows a failure to carry numbers during addition or a mistake in the place-value shift of the second partial product.",
-    "id": "gen_c6_math_ch01_q10",
+    "id": "gen_c6_math_ch01_q9",
     "nodeId": "c6_math_ch01_010",
     "difficulty": "advanced",
     "workedExample": [
@@ -357,13 +329,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "What are the four components of a division problem: a / b = q remainder r?",
     "answer": "The components are dividend (a), divisor (b), quotient (q), and remainder (r)",
     "options": [
-     "The first step is to write the numbers in columns, ensuring that the ones, tens, hundreds, thousands, and ten-thousands places are perfectly aligned",
-     "Multiplication is repeated addition of the same number",
+     "The student must be able to subtract two multi-digit numbers (up to 5 digits), accurately managing borrowing across multiple columns to reach the correct difference",
+     "The student must be able to multiply a three-digit number by a two-digit number correctly using the standard algorithm, showing all partial products",
      "The components are dividend (a), divisor (b), quotient (q), and remainder (r)"
     ],
     "hint": "Straight from the 'Division' slide -- match the key terms.",
     "misconception": "A wrong answer here suggests the student lacks the vocabulary to follow step-by-step instructions.",
-    "id": "gen_c6_math_ch01_q11",
+    "id": "gen_c6_math_ch01_q10",
     "nodeId": "c6_math_ch01_011",
     "difficulty": "advanced",
     "workedExample": [
@@ -375,16 +347,17 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why do we estimate a sum instead of just calculating the exact answer every time?",
-    "answer": "Estimation saves time and helps verify if an exact answer is logical (reasonable)",
+    "question": "Estimate the sum of 4,321 and 2,789 by rounding to the nearest thousand.",
+    "answer": "Round 4,321 to 4,000 and 2,789 to 3,000. 4,000 + 3,000 = 7,000. Errors here usually stem from rounding 2,789 to 2,000 instead of 3,000",
     "options": [
-     "False. The rules of Roman numerals state that symbols V, L, and D cannot be repeated; only I, X, C, and M can be repeated (and usually only up to three times)",
-     "10 does not divide 15 perfectly (15 ÷ 10 = 1.5). A student answering 10 likely checked only one number (20) instead of both numbers",
-     "Estimation saves time and helps verify if an exact answer is logical (reasonable)"
+     "The student should produce a number like 45,67,890 and write \"forty-five lakh sixty-seven thousand eight hundred ninety",
+     "\"I have ₹1000. If I buy a shirt for ₹420 and pants for ₹580, do I have enough?\" Answering with a problem like \"Estimate 123 + 456\" is technically correct but lacks the requested",
+     "Round 4,321 to 4,000 and 2,789 to 3,000. 4,000 + 3,000 = 7,000. True here usually stem from rounding 2,789 to 2,000 instead of 3,000",
+     "Round 4,321 to 4,000 and 2,789 to 3,000. 4,000 + 3,000 = 7,000. Errors here usually stem from rounding 2,789 to 2,000 instead of 3,000"
     ],
     "hint": "Straight from the 'Estimation' slide -- match the key terms.",
-    "misconception": "Answering that \"it's just a guess\" misses the point that estimation is a strategic tool for checking work.",
-    "id": "gen_c6_math_ch01_q12",
+    "misconception": "Recheck the lesson slide -- the key claim is: Round 4,321 to 4,000 and 2,789 to 3,000. 4,000 + 3,000 = 7,000. Errors here usually stem from rounding 2,789 to 2,000",
+    "id": "gen_c6_math_ch01_q11",
     "nodeId": "c6_math_ch01_012",
     "difficulty": "advanced",
     "workedExample": [
@@ -396,17 +369,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Is 7 a factor of 21? Why or why not?",
-    "answer": "Yes, 7 is a factor of 21 because 21 ÷ 7 = 3 with no remainder",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to list all factors of a given number up to 50 and generate the first five multiples of any single-digit number without error",
     "options": [
-     "No, because the number 1 has no predecessor in the set of natural numbers",
-     "The successor of 999 is 1,000 (999 + 1), and the predecessor of 1,000 is 999 (1,000 - 1)",
-     "Analysis, 7 is a factor of 21 because 21 ÷ 7 = 3 with no remainder",
-     "Yes, 7 is a factor of 21 because 21 ÷ 7 = 3 with no remainder"
+     "The student must be able to multiply a three-digit number by a two-digit number correctly using the standard algorithm, showing all partial products",
+     "The student must be able to order a set of four-digit to five-digit numbers from least to greatest and justify their choice by explaining the place-value comparison",
+     "The student must be able to list all factors of a given number up to 50 and generate the first five multiples of any single-digit number without error"
     ],
     "hint": "Straight from the 'factor' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is confused between factors (divisors) and multiples (products).",
-    "id": "gen_c6_math_ch01_q13",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to list all factors of a given number up to 50 and generate the first five multiples of any",
+    "id": "gen_c6_math_ch01_q12",
     "nodeId": "c6_math_ch01_013",
     "difficulty": "standard",
     "workedExample": [
@@ -418,17 +390,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you add the digits of 471 and get 12, is 471 divisible by 3? Why?",
-    "answer": "Yes, 471 is divisible by 3 because the sum of its digits (12) is divisible by 3",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify if a given number is divisible by 2, 3, or 5 by applying the rules correctly and explaining why the result is true",
     "options": [
-     "In this context, being number '2' means the student is standing in a position where exactly two people taller than them are standing directly beside them—one to their left and one",
-     "It is more efficient to estimate because counting thousands of people individually is time-consuming and prone to human error due to the constant movement of the crowd",
-     "True, 471 is divisible by 3 because the sum of its digits (12) is divisible by 3",
-     "Yes, 471 is divisible by 3 because the sum of its digits (12) is divisible by 3"
+     "The student must be able to correctly identify whether a number is a natural or whole number and explain the presence or absence of zero in each set",
+     "The student must be able to multiply a three-digit number by a two-digit number correctly using the standard algorithm, showing all partial products",
+     "The student must be able to identify if a given number is divisible by 2, 3, or 5 by applying the rules correctly and explaining why the result is true"
     ],
     "hint": "Straight from the 'Divisibility rules' slide -- match the key terms.",
-    "misconception": "If a student says \"no,\" they likely forgot the rule for 3 or are incorrectly looking at the last digit instead of the sum.",
-    "id": "gen_c6_math_ch01_q14",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify if a given number is divisible by 2, 3, or 5 by applying the rules correctly and",
+    "id": "gen_c6_math_ch01_q13",
     "nodeId": "c6_math_ch01_014",
     "difficulty": "advanced",
     "workedExample": [
@@ -443,13 +414,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Why can't the HCF of 15 and 20 be 10?",
     "answer": "10 does not divide 15 perfectly (15 ÷ 10 = 1.5). A student answering 10 likely checked only one number (20) instead of both numbers",
     "options": [
-     "Adding left to right (10+100+1) gives 111, which is incorrect because the \"XC\" is a subtractive pair (100-10 = 90)",
      "False. The rules of Roman numerals state that symbols V, L, and D cannot be repeated; only I, X, C, and M can be repeated (and usually only up to three times)",
+     "Adding left to right (10+100+1) gives 111, which is incorrect because the \"XC\" is a subtractive pair (100-10 = 90)",
      "10 does not divide 15 perfectly (15 ÷ 10 = 1.5). A student answering 10 likely checked only one number (20) instead of both numbers"
     ],
     "hint": "Straight from the 'Prime factorisation' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: 10 does not divide 15 perfectly (15 ÷ 10 = 1.5). A student answering 10 likely checked only one number (20) instead of",
-    "id": "gen_c6_math_ch01_q15",
+    "id": "gen_c6_math_ch01_q14",
     "nodeId": "c6_math_ch01_015",
     "difficulty": "advanced",
     "workedExample": [
@@ -464,44 +435,59 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "An example is 121. It is a palindrome because it reads the same forward and backward (1-2-1). A poor answer fails to provide the definition of reading the same in both directions.",
     "answer": "A 3-digit palindrome is 121. I know this is a palindrome because the digits read the same forwards and backwards, with the first and last digits being identical",
     "options": [
-     "No, because the number 1 has no predecessor in the set of natural numbers",
-     "The successor of 999 is 1,000 (999 + 1), and the predecessor of 1,000 is 999 (1,000 - 1)",
+     "The answer is CCCLXXXIV. I constructed it by splitting 384 into 300 (CCC), 80 (LXXX), and 4 (IV). A poor answer shows a failure to group the number by its place-value components",
+     "The answer is XLIX. To solve: 40 is XL (50-10) and 9 is IX (10-1)",
      "A 3-digit palindrome is 121. I know this is a palindrome because the digits read the same forwards and backwards, with the first and last digits being identical"
     ],
     "hint": "Straight from the 'Numbers in our everyday life' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student likely confuses the definition of a palindrome with other number properties, such as being an even number, a multiple of a certain digit, or simply not understanding that the symmetry must occur across the center digit.",
+    "id": "gen_c6_math_ch01_q15",
+    "nodeId": "c6_math_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Yes, for example, 50,500 - 50,100 = 400. A wrong answer suggests the student believes subtraction always keeps the number of digits the same, ignoring the effect of the leading digits canceling out.",
+    "answer": "[Correct answer] Yes, it is possible for the difference between two 5-digit numbers to be a 3-digit number, provided the numbers are very close in value",
+    "options": [
+     "Yes, the number 0 is a whole number but not a natural number. This is the only element that differentiates the two sets",
+     "The student should produce a number like 45,67,890 and write \"forty-five lakh sixty-seven thousand eight hundred ninety",
+     "[Correct answer] Yes, it is possible for the difference between two 5-digit numbers to be a 3-digit number, provided the numbers are very close in value"
+    ],
+    "hint": "Straight from the 'Numbers in our everyday life' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals that the student likely believes subtraction always results in a number with the same number of digits as the minuend, or they may lack a conceptual understanding of how place value and \"regrouping\" work when subtracting numbers that are close in magnitude.",
     "id": "gen_c6_math_ch01_q16",
     "nodeId": "c6_math_ch01_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Counting one by one is slow and prone to error, while estimation gives us a useful \"about\" value that is sufficient for planning. A wrong answer indicates the student thinks \"estimate\" means \"guessing randomly\" rather than using a logical grouping method.",
-    "answer": "It is more efficient to estimate because counting thousands of people individually is time-consuming and prone to human error due to the constant movement of the crowd",
+    "question": "Can a whole number ever NOT be a natural number? Defend your answer.",
+    "answer": "Yes, the number 0 is a whole number but not a natural number. This is the only element that differentiates the two sets",
     "options": [
-     "Any number like 9,123 works. A poor answer (like 1,923) shows the student does not understand that 'thousands' corresponds to the first position from the left in a 4-digit number",
-     "The answer is CCCLXXXIV. I constructed it by splitting 384 into 300 (CCC), 80 (LXXX), and 4 (IV). A poor answer shows a failure to group the number by its place-value components",
-     "It is more efficient to estimate because counting thousands of people individually is time-consuming and prone to human error due to the constant movement of the crowd"
+     "No, because the number 1 has no predecessor in the set of natural numbers",
+     "Counting the number of mangoes in a basket that is completely empty requires the number 0. A natural number (starting at 1) would be insufficient to describe the empty basket",
+     "Yes, the number 0 is a whole number but not a natural number. This is the only element that differentiates the two sets"
     ],
-    "hint": "Straight from the 'Numbers in our everyday life' slide -- match the key terms.",
-    "misconception": "a Wrong Answer: A wrong answer—such as claiming that \"estimating is always more accurate than counting\"—reveals a fundamental misconception regarding the relationship between precision and approximation.",
+    "hint": "Straight from the 'Natural numbers' slide -- match the key terms.",
+    "misconception": "If a student says \"no,\" they do not understand that whole numbers are a broader category.",
     "id": "gen_c6_math_ch01_q17",
-    "nodeId": "c6_math_ch01_001",
+    "nodeId": "c6_math_ch01_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If the order is 200, 800, 500, then 800 is the supercell because it is larger than both 200 and 500. A wrong answer suggests the student doesn't understand the comparison of magnitude between adjacent items.",
-    "answer": "If you arrange the numbers in a line, the \"supercell\" (the largest compared to its neighbors) is 800, provided it is placed in the middle of the sequence (e",
+    "question": "Create a scenario where you would need a \"Whole Number\" but a \"Natural Number\" would not be enough.",
+    "answer": "Counting the number of mangoes in a basket that is completely empty requires the number 0. A natural number (starting at 1) would be insufficient to describe the empty basket",
     "options": [
-     "No, the remainder must always be smaller than the divisor because if it were equal or larger, you could have formed at least one more group",
+     "The answer is 27,655. To solve, you must borrow repeatedly across the zeros in the thousands, hundreds, and tens places",
      "[Correct answer] Yes, it is possible for the difference between two 5-digit numbers to be a 3-digit number, provided the numbers are very close in value",
-     "If you arrange the numbers in a line, the \"supercell\" (the largest compared to its neighbors) is 800, provided it is placed in the middle of the sequence (e"
+     "Counting the number of mangoes in a basket that is completely empty requires the number 0. A natural number (starting at 1) would be insufficient to describe the empty basket"
     ],
-    "hint": "Straight from the 'Numbers in our everyday life' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a misconception regarding comparative magnitude or place value, specifically the student's inability to identify that 800 has the greatest value in the hundreds column.",
+    "hint": "Straight from the 'Natural numbers' slide -- match the key terms.",
+    "misconception": "A poor answer would just provide a random number without explaining the concept of \"emptiness.\"",
     "id": "gen_c6_math_ch01_q18",
-    "nodeId": "c6_math_ch01_001",
+    "nodeId": "c6_math_ch01_002",
     "difficulty": "standard"
    }
   ],
@@ -528,8 +514,6 @@ export const C6_MATH_GEN: SimDef[] = [
   ],
   "nodeIds": [
    "c6_math_ch02_016",
-   "c6_math_ch02_017",
-   "c6_math_ch02_018",
    "c6_math_ch02_019",
    "c6_math_ch02_020",
    "c6_math_ch02_021",
@@ -563,18 +547,6 @@ export const C6_MATH_GEN: SimDef[] = [
     "text": "Integers are a set of numbers that include all positive counting numbers (1, 2, 3...), their negative counterparts (-1, -2, -3...), and zero. They represent values on either side of zero, used to describe quantities like amounts below ground level or",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Number Line",
-    "text": "A number line is a straight line that represents integers as points at equal distances from a center point called zero; numbers to the right are positive, and numbers to the left are negative.",
-    "emoji": "🔢",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Comparing And Ordering Integers Involves",
-    "text": "Comparing and ordering integers involves determining the relative size of whole numbers and their negative counterparts by their position on the number line, where numbers to the right are always greater than those to the left.",
-    "emoji": "🔢",
-    "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "Adding Integers",
@@ -640,15 +612,15 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "A bank account has a balance of 0. If you withdraw 500 rupees, how would you represent your new balance using an integer?",
-    "answer": "The balance is -500 rupees. The steps involve identifying 0 as the start and \"withdrawal\" as a decrease, requiring a negative sign",
+    "question": "Create a real-life scenario where you would need to use a negative number, and explain what zero would represent in that specific scenario.",
+    "answer": "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level",
     "options": [
-     "A valid example would be 2 x (3 + (-1)) = (2 x 3) + (2 x -1) = 4, where both sides equal 4. A poor answer would show a failure to correctly balance both sides of the equation or a",
-     "It means the account holder owes the bank 200 rupees",
-     "The balance is -500 rupees. The steps involve identifying 0 as the start and \"withdrawal\" as a decrease, requiring a negative sign"
+     "If the temperature is 5°C and it drops by 5 degrees, we reach 0°C. An answer failing to use the \"drop\" or \"increase\" concept shows the student isn't connecting the inverse",
+     "Yes, when the numbers are additive inverses, such as (+4) + (-4) = 0",
+     "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level"
     ],
     "hint": "Straight from the 'Integers' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a misunderstanding of how negative signs represent \"below zero\" or debt.",
+    "misconception": "A poor answer would be one that describes a quantity that cannot be negative, such as \"number of people in a room,\" showing a lack of understanding of what negative numbers represent (opposite directions/states).",
     "id": "gen_c6_math_ch02_q1",
     "nodeId": "c6_math_ch02_016",
     "difficulty": "standard",
@@ -661,58 +633,17 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the name of the central point on a number line that separates positive and negative numbers?",
-    "answer": "The central point is called zero (0)",
-    "options": [
-     "The absolute value is 12",
-     "The additive inverse is +15",
-     "The central point is called zero (0)"
-    ],
-    "hint": "Straight from the 'number line' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student has not yet internalized the reference point of the number system.",
-    "id": "gen_c6_math_ch02_q2",
-    "nodeId": "c6_math_ch02_017",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are standing in an elevator in a building with underground parking.",
-     "If you are at the ground floor (0) and go up to the first floor, you are at +1; if you go down to the basement, you are at -1.",
-     "To understand the number line, draw a horizontal line and place 0 in the center.",
-     "Mark equal gaps moving right for positive numbers (1, 2, 3...) and moving left for negative numbers (-1, -2, -3...)."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why 0 is greater than -5 using the building floor analogy.",
-    "answer": "0 is the ground floor, while -5 is five floors below ground; since being at ground level is higher than being in the basement, 0 is greater",
-    "options": [
-     "No, 10 - 7 = 3, while 5 + 2 = 7. The subtraction operation is not associative, and a wrong answer reveals the misconception that all operations possess the same properties as",
-     "A good answer involves temperature or altitude, like \"The temperature rose from -10°C to -2°C.\" A poor answer uses only positive numbers",
-     "0 is the ground floor, while -5 is five floors below ground; since being at ground level is higher than being in the basement, 0 is greater"
-    ],
-    "hint": "Straight from the 'Comparing and ordering integers' slide -- match the key terms.",
-    "misconception": "If a student says -5 is greater, they likely misunderstand that negative numbers represent positions below a reference point.",
-    "id": "gen_c6_math_ch02_q3",
-    "nodeId": "c6_math_ch02_018",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are in an elevator in a building with a basement.",
-     "If you are standing at the \"Welcome Hall\" (Ground Floor or 0), and you go down two floors, you reach -2.",
-     "If your friend goes down five floors, they reach -5.",
-     "Which one of you is standing on a \"higher\" floor relative to the other?"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "If you are at Floor +2 and you press the \"-3\" button in the lift, explain why you end up at Floor -1.",
-    "answer": "Starting at +2, moving down 3 floors takes you past 0 (the ground) to -1",
+    "question": "Is it possible for the sum of a positive integer and a negative integer to be zero? Provide an example.",
+    "answer": "Yes, when the numbers are additive inverses, such as (+4) + (-4) = 0",
     "options": [
      "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level",
-     "The account with -₹50 has more money because -50 is closer to zero (higher) than -100",
-     "Starting at +2, moving down 3 floors takes you past 0 (the ground) to -1"
+     "Either both are positive or both are negative. An answer stating \"both are positive\" is incomplete because it ignores the possibility that two negatives also produce a positive",
+     "Target, when the numbers are additive inverses, such as (+4) + (-4) = 0",
+     "Yes, when the numbers are additive inverses, such as (+4) + (-4) = 0"
     ],
     "hint": "Straight from the 'Adding integers' slide -- match the key terms.",
-    "misconception": "A student who says the answer is +1 or -5 has not grasped that negative movement from a positive starting point crosses the zero barrier.",
-    "id": "gen_c6_math_ch02_q4",
+    "misconception": "Students who say \"no\" do not yet understand that positive and negative quantities can perfectly cancel each other out.",
+    "id": "gen_c6_math_ch02_q2",
     "nodeId": "c6_math_ch02_019",
     "difficulty": "standard",
     "workedExample": [
@@ -727,13 +658,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If you are at Floor +4 and you want to reach Floor -2, what movement is needed?",
     "answer": "You need to move -6. You calculate this by Target - Start, which is (-2) - (+4) = -6",
     "options": [
-     "You must credit ₹50. The steps are: (Balance) + (Credit) = 0; (-50) + (+50) = 0. Failing to answer this indicates the student cannot translate the \"debt\" context into an integer",
-     "If the temperature is 5°C and it drops by 5 degrees, we reach 0°C. An answer failing to use the \"drop\" or \"increase\" concept shows the student isn't connecting the inverse",
+     "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level",
+     "Yes, when the numbers are additive inverses, such as (+4) + (-4) = 0",
      "You need to move -6. You calculate this by Target - Start, which is (-2) - (+4) = -6"
     ],
     "hint": "Straight from the 'Subtraction of integers' slide -- match the key terms.",
     "misconception": "A student who answers +6 is confusing the direction of movement or the order of subtraction.",
-    "id": "gen_c6_math_ch02_q5",
+    "id": "gen_c6_math_ch02_q3",
     "nodeId": "c6_math_ch02_020",
     "difficulty": "advanced",
     "workedExample": [
@@ -745,17 +676,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the additive inverse of -15?",
-    "answer": "The additive inverse is +15",
+    "question": "Create a scenario using a thermometer where a temperature change results in an additive inverse outcome.",
+    "answer": "If the temperature is 5°C and it drops by 5 degrees, we reach 0°C. An answer failing to use the \"drop\" or \"increase\" concept shows the student isn't connecting the inverse",
     "options": [
-     "The central point is called zero (0)",
-     "The commutative property states that a + b = b + a",
-     "Either additive inverse is +15",
-     "The additive inverse is +15"
+     "A valid problem would be: \"I owed a shopkeeper ₹10 (represented as -10), but then I earned ₹15 and paid him back (represented as +15)",
+     "You need to move -6. You calculate this by Target - Start, which is (-2) - (+4) = -6",
+     "If the temperature is 5°C and it drops by 5 degrees, we reach 0°C. An answer failing to use the \"drop\" or \"increase\" concept shows the student isn't connecting the inverse"
     ],
     "hint": "Straight from the 'additive inverse of an integer' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"-15\" or \"0\" reveals that the student confuses \"inverse\" with \"the number itself\" or \"the identity,\" failing to realize the goal is to make the sum zero.",
-    "id": "gen_c6_math_ch02_q6",
+    "misconception": "Recheck the lesson slide -- the key claim is: If the temperature is 5°C and it drops by 5 degrees, we reach 0°C.",
+    "id": "gen_c6_math_ch02_q4",
     "nodeId": "c6_math_ch02_021",
     "difficulty": "standard",
     "workedExample": [
@@ -770,13 +700,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If the product of two integers is positive, what can you conclude about the signs of the two integers?",
     "answer": "Either both are positive or both are negative. An answer stating \"both are positive\" is incomplete because it ignores the possibility that two negatives also produce a positive",
     "options": [
-     "You would represent it as -50m. A student answering +50m ignores the \"depth\" or \"below\" aspect",
-     "Examples: $(-3) \\times 8$ or $6 \\times (-4)$. The criteria for a good answer is that one factor must be negative and the other positive",
+     "Yes, when the numbers are additive inverses, such as (+4) + (-4) = 0",
+     "A valid problem would be: \"I owed a shopkeeper ₹10 (represented as -10), but then I earned ₹15 and paid him back (represented as +15)",
      "Either both are positive or both are negative. An answer stating \"both are positive\" is incomplete because it ignores the possibility that two negatives also produce a positive"
     ],
     "hint": "Straight from the 'Multiplication of integers' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Either both are positive or both are negative. An answer stating \"both are positive\" is incomplete because it ignores",
-    "id": "gen_c6_math_ch02_q7",
+    "id": "gen_c6_math_ch02_q5",
     "nodeId": "c6_math_ch02_022",
     "difficulty": "advanced",
     "workedExample": [
@@ -788,17 +718,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you divide 0 by -5, what is the result, and why is it possible to do this, unlike dividing -5 by 0?",
-    "answer": "The result is 0 because 0 multiplied by -5 is 0",
+    "question": "A submarine is at sea level (0 meters) and descends to -120 meters in 6 equal stages. What integer represents the change in depth for each stage?",
+    "answer": "-120 / 6 = -20. The change is -20 meters per stage",
     "options": [
-     "You would represent it as -50m. A student answering +50m ignores the \"depth\" or \"below\" aspect",
-     "You must credit ₹50. The steps are: (Balance) + (Credit) = 0; (-50) + (+50) = 0. Failing to answer this indicates the student cannot translate the \"debt\" context into an integer",
-     "Credit result is 0 because 0 multiplied by -5 is 0",
-     "The result is 0 because 0 multiplied by -5 is 0"
+     "You need to move -6. You calculate this by Target - Start, which is (-2) - (+4) = -6",
+     "If the temperature is 5°C and it drops by 5 degrees, we reach 0°C. An answer failing to use the \"drop\" or \"increase\" concept shows the student isn't connecting the inverse",
+     "-120 / 6 = -20. The change is -20 meters per stage"
     ],
     "hint": "Straight from the 'division of integers' slide -- match the key terms.",
-    "misconception": "A student who says \"undefined\" for 0 / -5 is confusing the dividend (0) with the divisor (0); division by zero is only undefined when zero is the divisor.",
-    "id": "gen_c6_math_ch02_q8",
+    "misconception": "A student who answers +20 has ignored the negative sign representing descent.",
+    "id": "gen_c6_math_ch02_q6",
     "nodeId": "c6_math_ch02_023",
     "difficulty": "standard",
     "workedExample": [
@@ -813,13 +742,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "What does the commutative property state about the addition of two integers, 'a' and 'b'?",
     "answer": "The commutative property states that a + b = b + a",
     "options": [
-     "The central point is called zero (0)",
-     "The additive inverse is +15",
+     "The student must be able to convert any subtraction expression into an addition expression using the rule \"a - b = a + (-b)\" and solve it accurately using a number line or token",
+     "The student must be able to identify, name, and apply the commutative, associative, and distributive properties to solve integer expressions correctly and explain why a given",
      "The commutative property states that a + b = b + a"
     ],
     "hint": "Straight from the 'properties of integer operations' slide -- match the key terms.",
     "misconception": "A wrong answer usually indicates the student confuses the property with the associative property or fails to realize that the order of addition is interchangeable.",
-    "id": "gen_c6_math_ch02_q9",
+    "id": "gen_c6_math_ch02_q7",
     "nodeId": "c6_math_ch02_024",
     "difficulty": "standard",
     "workedExample": [
@@ -831,17 +760,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the absolute value of -12?",
-    "answer": "The absolute value is 12",
+    "question": "Create a scenario involving money (credits and debits) where two different amounts result in the same absolute value.",
+    "answer": "A credit of ₹50 (+50) and a debit of ₹50 (-50) both have an absolute value of 50. A poor answer would use numbers with different values",
     "options": [
-     "The commutative property states that a + b = b + a",
-     "The central point is called zero (0)",
-     "Starting absolute value is 12",
-     "The absolute value is 12"
+     "You need to move -6. You calculate this by Target - Start, which is (-2) - (+4) = -6",
+     "If the temperature is 5°C and it drops by 5 degrees, we reach 0°C. An answer failing to use the \"drop\" or \"increase\" concept shows the student isn't connecting the inverse",
+     "A credit of ₹50 (+50) and a debit of ₹50 (-50) both have an absolute value of 50. A poor answer would use numbers with different values"
     ],
     "hint": "Straight from the 'absolute value of an integer' slide -- match the key terms.",
-    "misconception": "A student who answers -12 likely forgets that absolute value measures distance, which cannot be negative, and is simply stripping the bars without changing the value.",
-    "id": "gen_c6_math_ch02_q10",
+    "misconception": "A poor answer would use numbers with different values, showing a failure to grasp that absolute value focuses on the magnitude of the change, not the direction (credit vs debit).",
+    "id": "gen_c6_math_ch02_q8",
     "nodeId": "c6_math_ch02_025",
     "difficulty": "standard",
     "workedExample": [
@@ -853,16 +781,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you are at sea level (0m) and dive to a depth of 50m, how would you represent your position as an integer?",
-    "answer": "You would represent it as -50m. A student answering +50m ignores the \"depth\" or \"below\" aspect",
+    "question": "If a bank account has a balance of -200 rupees, what does that mean in real terms?",
+    "answer": "It means the account holder owes the bank 200 rupees",
     "options": [
-     "A good response would be: \"The temperature started at -4 degrees and rose by 4 degrees.\" A poor response would involve non-integer values or fail to demonstrate the \"inverse\"",
-     "The balance is -500 rupees. The steps involve identifying 0 as the start and \"withdrawal\" as a decrease, requiring a negative sign",
-     "You would represent it as -50m. A student answering +50m ignores the \"depth\" or \"below\" aspect"
+     "A valid example would be 2 x (3 + (-1)) = (2 x 3) + (2 x -1) = 4, where both sides equal 4. A poor answer would show a failure to correctly balance both sides of the equation or a",
+     "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level",
+     "It means the account holder owes the bank 200 rupees"
     ],
     "hint": "Straight from the 'Integers' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: You would represent it as -50m. A student answering +50m ignores the \"depth\" or \"below\" aspect, showing they haven't",
-    "id": "gen_c6_math_ch02_q11",
+    "misconception": "A student who says \"they have 200 rupees\" fails to understand that negative signs in finance represent debits or debt.",
+    "id": "gen_c6_math_ch02_q9",
     "nodeId": "c6_math_ch02_026",
     "difficulty": "standard",
     "workedExample": [
@@ -877,13 +805,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Compare the sequence \"5, 10, 15, 20\" with \"-5, -10, -15, -20\". How do the rules differ?",
     "answer": "The first sequence adds +5, while the second adds -5",
     "options": [
-     "Yes, they will result in the same value because of the associative property of multiplication, which states that the grouping of factors does not change the product",
-     "(-30) / (-5) = 6, while (-30) / 5 = -6. Since 6 is greater than -6, the first result is larger. An error here shows a failure to apply sign rules correctly to the final comparison",
+     "The student must be able to convert any subtraction expression into an addition expression using the rule \"a - b = a + (-b)\" and solve it accurately using a number line or token",
+     "The student must be able to identify the rule governing an integer sequence (such as a common difference or ratio) and use that rule to correctly determine the next three terms in",
      "The first sequence adds +5, while the second adds -5"
     ],
     "hint": "Straight from the 'Patterns with integers' slide -- match the key terms.",
     "misconception": "A student who thinks they are the same ignores the direction of the change, failing to distinguish between positive and negative growth.",
-    "id": "gen_c6_math_ch02_q12",
+    "id": "gen_c6_math_ch02_q10",
     "nodeId": "c6_math_ch02_027",
     "difficulty": "advanced",
     "workedExample": [
@@ -898,14 +826,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If a submarine is at -50 metres and it descends another 20 metres, what is the expression to find its new depth?",
     "answer": "The expression is (-50) + (-20)",
     "options": [
-     "Yes, I agree because on the number line, all negative numbers are to the left of zero, and all positive numbers are to the right of zero",
-     "The diver is at |-8| = 8 metres, and the bird is at |8| = 8 metres",
-     "Either expression is (-50) + (-20)",
+     "A valid problem would be: \"I owed a shopkeeper ₹10 (represented as -10), but then I earned ₹15 and paid him back (represented as +15)",
+     "You need to move -6. You calculate this by Target - Start, which is (-2) - (+4) = -6",
      "The expression is (-50) + (-20)"
     ],
     "hint": "Straight from the 'Problem solving with integers' slide -- match the key terms.",
     "misconception": "A student who answers (-50) + (+20) likely confuses \"descending\" (a negative change) with the distance value itself, failing to assign the correct sign to the movement.",
-    "id": "gen_c6_math_ch02_q13",
+    "id": "gen_c6_math_ch02_q11",
     "nodeId": "c6_math_ch02_028",
     "difficulty": "advanced",
     "workedExample": [
@@ -917,78 +844,94 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Create a real-life scenario where you would need to use a negative number, and explain what zero would represent in that specific scenario.",
-    "answer": "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level",
-    "options": [
-     "You would be moving toward a larger number. An answer of \"smaller\" shows the student is misled by the digit size (6 vs 1) rather than the actual position on the line",
-     "The account with -₹50 has more money because -50 is closer to zero (higher) than -100",
-     "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level"
-    ],
-    "hint": "Straight from the 'Integers' slide -- match the key terms.",
-    "misconception": "A poor answer would be one that describes a quantity that cannot be negative, such as \"number of people in a room,\" showing a lack of understanding of what negative numbers represent (opposite directions/states).",
-    "id": "gen_c6_math_ch02_q14",
-    "nodeId": "c6_math_ch02_016",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Draw a number line and show where -6 and -1 are. If you were a person walking from -6 toward -1, would you be moving toward a larger or smaller number?",
-    "answer": "You would be moving toward a larger number. An answer of \"smaller\" shows the student is misled by the digit size (6 vs 1) rather than the actual position on the line",
-    "options": [
-     "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level",
-     "The account with -₹50 has more money because -50 is closer to zero (higher) than -100",
-     "You would be moving toward a larger number. An answer of \"smaller\" shows the student is misled by the digit size (6 vs 1) rather than the actual position on the line"
-    ],
-    "hint": "Straight from the 'number line' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: You would be moving toward a larger number. An answer of \"smaller\" shows the student is misled by the digit size (6 vs",
-    "id": "gen_c6_math_ch02_q15",
-    "nodeId": "c6_math_ch02_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student claims that any negative number is always smaller than any positive number. Do you agree? Justify.",
-    "answer": "Yes, I agree because on the number line, all negative numbers are to the left of zero, and all positive numbers are to the right of zero",
-    "options": [
-     "Either both are positive or both are negative. An answer stating \"both are positive\" is incomplete because it ignores the possibility that two negatives also produce a positive",
-     "You must credit ₹50. The steps are: (Balance) + (Credit) = 0; (-50) + (+50) = 0. Failing to answer this indicates the student cannot translate the \"debt\" context into an integer",
-     "Yes, I agree because on the number line, all negative numbers are to the left of zero, and all positive numbers are to the right of zero"
-    ],
-    "hint": "Straight from the 'Comparing and ordering integers' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Yes, I agree because on the number line, all negative numbers are to the left of zero, and all positive numbers are to",
-    "id": "gen_c6_math_ch02_q16",
-    "nodeId": "c6_math_ch02_018",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a bank account has a balance of -₹100 and another has -₹50, which account has more money? Why?",
-    "answer": "The account with -₹50 has more money because -50 is closer to zero (higher) than -100",
-    "options": [
-     "(-50) - (-20) = -30. The student must recognize that \"paying off\" a debt is a subtraction of a negative amount, which improves the balance",
-     "The balance is -500 rupees. The steps involve identifying 0 as the start and \"withdrawal\" as a decrease, requiring a negative sign",
-     "The account with -₹50 has more money because -50 is closer to zero (higher) than -100"
-    ],
-    "hint": "Straight from the 'Comparing and ordering integers' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student is incorrectly comparing the magnitude of the digits (100 vs 50) without considering the negative sign.",
-    "id": "gen_c6_math_ch02_q17",
-    "nodeId": "c6_math_ch02_018",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Create a real-world word problem that results in the expression (-10) + (+15).",
     "answer": "A valid problem would be: \"I owed a shopkeeper ₹10 (represented as -10), but then I earned ₹15 and paid him back (represented as +15)",
     "options": [
-     "The balance is -500 rupees. The steps involve identifying 0 as the start and \"withdrawal\" as a decrease, requiring a negative sign",
+     "The expression is (-50) + (-20)",
      "An example is measuring altitude: a mountain peak is +500m, while a valley is -100m; zero represents the sea level",
      "A valid problem would be: \"I owed a shopkeeper ₹10 (represented as -10), but then I earned ₹15 and paid him back (represented as +15)"
     ],
     "hint": "Straight from the 'Adding integers' slide -- match the key terms.",
     "misconception": "A poor answer would be a problem that doesn't involve a starting debt or negative state.",
-    "id": "gen_c6_math_ch02_q18",
+    "id": "gen_c6_math_ch02_q12",
     "nodeId": "c6_math_ch02_019",
     "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to convert any subtraction expression into an addition expression using the rule \"a - b = a + (-b)\" and solve it accurately using a number line or token",
+    "options": [
+     "The student must be able to identify, name, and apply the commutative, associative, and distributive properties to solve integer expressions correctly and explain why a given",
+     "The student must be able to identify the rule governing an integer sequence (such as a common difference or ratio) and use that rule to correctly determine the next three terms in",
+     "The student must be able to convert any subtraction expression into an addition expression using the rule \"a - b = a + (-b)\" and solve it accurately using a number line or token"
+    ],
+    "hint": "Straight from the 'Subtraction of integers' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to convert any subtraction expression into an addition expression using the rule \"a - b = a +",
+    "id": "gen_c6_math_ch02_q13",
+    "nodeId": "c6_math_ch02_020",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a numerical example using three different integers that demonstrates the distributive property.",
+    "answer": "A valid example would be 2 x (3 + (-1)) = (2 x 3) + (2 x -1) = 4, where both sides equal 4. A poor answer would show a failure to correctly balance both sides of the equation or a",
+    "options": [
+     "Yes, when the numbers are additive inverses, such as (+4) + (-4) = 0",
+     "A valid problem would be: \"I owed a shopkeeper ₹10 (represented as -10), but then I earned ₹15 and paid him back (represented as +15)",
+     "A valid example would be 2 x (3 + (-1)) = (2 x 3) + (2 x -1) = 4, where both sides equal 4. A poor answer would show a failure to correctly balance both sides of the equation or a"
+    ],
+    "hint": "Straight from the 'properties of integer operations' slide -- match the key terms.",
+    "misconception": "A poor answer would show a failure to correctly balance both sides of the equation or a misunderstanding of how the multiplier distributes.",
+    "id": "gen_c6_math_ch02_q14",
+    "nodeId": "c6_math_ch02_024",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you have the expression (2 + 3) + 4, how can you rewrite it using the associative property?",
+    "answer": "It can be rewritten as 2 + (3 + 4)",
+    "options": [
+     "You need to move -6. You calculate this by Target - Start, which is (-2) - (+4) = -6",
+     "A credit of ₹50 (+50) and a debit of ₹50 (-50) both have an absolute value of 50. A poor answer would use numbers with different values",
+     "Start can be rewritten as 2 + (3 + 4)",
+     "It can be rewritten as 2 + (3 + 4)"
+    ],
+    "hint": "Straight from the 'properties of integer operations' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student does not understand that associativity allows for changing the grouping of terms without changing the total sum.",
+    "id": "gen_c6_math_ch02_q15",
+    "nodeId": "c6_math_ch02_024",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify, name, and apply the commutative, associative, and distributive properties to solve integer expressions correctly and explain why a given",
+    "options": [
+     "The commutative property states that a + b = b + a",
+     "The student must be able to convert any subtraction expression into an addition expression using the rule \"a - b = a + (-b)\" and solve it accurately using a number line or token",
+     "The student must be able to identify, name, and apply the commutative, associative, and distributive properties to solve integer expressions correctly and explain why a given"
+    ],
+    "hint": "Straight from the 'properties of integer operations' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify, name, and apply the commutative, associative, and distributive properties to",
+    "id": "gen_c6_math_ch02_q16",
+    "nodeId": "c6_math_ch02_024",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify the rule governing an integer sequence (such as a common difference or ratio) and use that rule to correctly determine the next three terms in",
+    "options": [
+     "The commutative property states that a + b = b + a",
+     "The student must be able to convert any subtraction expression into an addition expression using the rule \"a - b = a + (-b)\" and solve it accurately using a number line or token",
+     "The student must be able to identify the rule governing an integer sequence (such as a common difference or ratio) and use that rule to correctly determine the next three terms in"
+    ],
+    "hint": "Straight from the 'Patterns with integers' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the rule governing an integer sequence (such as a common difference or ratio) and",
+    "id": "gen_c6_math_ch02_q17",
+    "nodeId": "c6_math_ch02_027",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -1017,13 +960,9 @@ export const C6_MATH_GEN: SimDef[] = [
    "c6_math_ch03_030",
    "c6_math_ch03_031",
    "c6_math_ch03_032",
-   "c6_math_ch03_033",
    "c6_math_ch03_034",
-   "c6_math_ch03_035",
    "c6_math_ch03_036",
-   "c6_math_ch03_037",
    "c6_math_ch03_038",
-   "c6_math_ch03_039",
    "c6_math_ch03_040",
    "c6_math_ch03_041"
   ],
@@ -1069,20 +1008,8 @@ export const C6_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Addition Of Fractions",
-    "text": "Addition of fractions is the process of combining two or more fractional parts of the same whole into a single total, provided they are expressed using the same fractional unit (denominator).",
-    "emoji": "🔢",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
     "title": "Subtraction Of Fractions",
     "text": "Subtraction of fractions is the process of finding the difference between two fractional parts, which requires them to be expressed in the same \"fractional unit\" (denominator) before the numerators can be subtracted.",
-    "emoji": "🔢",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Multiplying Fractions",
-    "text": "Multiplying fractions is the process of finding a part of a part; it involves multiplying the numerators to form the new numerator and multiplying the denominators to form the new denominator.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
    },
@@ -1093,22 +1020,10 @@ export const C6_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Fractions On The Number Line Represent",
-    "text": "Fractions on the number line represent a specific length or position between whole numbers, where the distance between two consecutive integers (like 0 and 1) is divided into equal segments based on the denominator.",
-    "emoji": "🔢",
-    "bgColor": "from-violet-400 to-purple-500"
-   },
-   {
     "title": "Problem Solving With Fractions",
     "text": "Problem solving with fractions is the application of fraction operations—like identifying parts of a whole, comparing sizes, or calculating quantities—to find solutions for real-world situations.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Fraction Represents a Part Of a Whole,",
-    "text": "A fraction represents a part of a whole, where a \"whole\" is divided into equal segments. It is expressed as two numbers: the denominator (bottom), representing the total number of equal parts in a whole, and the numerator (top), representing how many of those",
-    "emoji": "🔢",
-    "bgColor": "from-amber-400 to-orange-500"
    },
    {
     "title": "Fraction Represents a Division Operation",
@@ -1126,15 +1041,15 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "If you divide a chocolate bar into 5 parts, but they are all different sizes, can you say one piece is 1/5 of the bar? Why or why not?",
-    "answer": "No, because fractions require equal parts. If the pieces are different sizes, they are not \"equal shares,\" and therefore we cannot use a single fraction to describe a part of that",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify, write, and draw fractions given a real-world sharing scenario, and correctly label the numerator and denominator",
     "options": [
-     "No, the denominator cannot be zero because you cannot divide a whole into zero parts. Division by zero is undefined",
-     "No, the reasoning is incorrect. 1/5 is larger than 1/10 because if you split a cake into only 5 pieces, each piece is much larger than if you split it into 10 pieces",
-     "No, because fractions require equal parts. If the pieces are different sizes, they are not \"equal shares,\" and therefore we cannot use a single fraction to describe a part of that"
+     "The student must be able to classify any given fraction as proper, improper, or mixed, and convert between improper fractions and mixed numbers with 100% accuracy",
+     "The student must be able to translate a word problem into a correct mathematical expression involving fractions and compute the result accurately",
+     "The student must be able to identify, write, and draw fractions given a real-world sharing scenario, and correctly label the numerator and denominator"
     ],
     "hint": "Straight from the 'A fraction represents a part' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, because fractions require equal parts. If the pieces are different sizes, they are not \"equal shares,\" and",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify, write, and draw fractions given a real-world sharing scenario, and correctly",
     "id": "gen_c6_math_ch03_q1",
     "nodeId": "c6_math_ch03_029",
     "difficulty": "standard",
@@ -1147,15 +1062,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Convert 7/3 into a mixed number.",
-    "answer": "The answer is 2 1/3. Steps: Divide 7 by 3 to get 2 with a remainder of 1. The quotient 2 becomes the whole number, the remainder 1 becomes the numerator",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to classify any given fraction as proper, improper, or mixed, and convert between improper fractions and mixed numbers with 100% accuracy",
     "options": [
-     "No, because fractions require equal parts. If the pieces are different sizes, they are not \"equal shares,\" and therefore we cannot use a single fraction to describe a part of that",
-     "The friend with 1/3 has a larger piece. Because 1/3 means the cake is cut into only 3 big pieces, while 1/6 means it is cut into 6 smaller pieces",
-     "The answer is 2 1/3. Steps: Divide 7 by 3 to get 2 with a remainder of 1. The quotient 2 becomes the whole number, the remainder 1 becomes the numerator"
+     "The student must be able to correctly identify the order of operations for a given multi-step fraction problem and perform the calculation",
+     "The student must be able to identify, write, and draw fractions given a real-world sharing scenario, and correctly label the numerator and denominator",
+     "The student must be able to classify any given fraction as proper, improper, or mixed, and convert between improper fractions and mixed numbers with 100% accuracy"
     ],
     "hint": "Straight from the 'fraction represents a part of' slide -- match the key terms.",
-    "misconception": "Answering 3 1/2 shows the student tried to flip the numbers randomly rather than performing division.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to classify any given fraction as proper, improper, or mixed, and convert between improper",
     "id": "gen_c6_math_ch03_q2",
     "nodeId": "c6_math_ch03_030",
     "difficulty": "standard",
@@ -1171,8 +1086,8 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Is it possible to find an equivalent fraction for 7/11 by multiplying the numerator by 2 and the denominator by 3? Why or why not?",
     "answer": "No, it is not possible. You must perform the same operation on both to keep the value the same. If you change them differently, you create a new, unrelated fraction",
     "options": [
-     "Division: $2 \\div 7$; Fraction: $2/7$",
-     "1. Find LCM of 4 and 5, which is 20. 2. Convert 3/4 to 15/20 and 1/5 to 4/20. 3. Subtract numerators: 15 - 4 = 11. 4. Result is 11/20",
+     "Only if the numerators are the same. For example, 1/10 < 1/2, but 9/10 > 1/2",
+     "No, she is not correct because the denominators are already the same. Changing them to 16 is unnecessary work that makes the calculation more prone to error",
      "No, it is not possible. You must perform the same operation on both to keep the value the same. If you change them differently, you create a new, unrelated fraction"
     ],
     "hint": "Straight from the 'Equivalent fractions' slide -- match the key terms.",
@@ -1189,15 +1104,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is 1/5 larger than 1/9? Explain using the idea of sharing a single item.",
-    "answer": "1/5 is larger because when you divide one item into 5 parts, each part is bigger than when you divide the same item into 9 parts",
+    "question": "Is it always true that a fraction with a bigger denominator is smaller? Give an example to support your judgment.",
+    "answer": "Only if the numerators are the same. For example, 1/10 < 1/2, but 9/10 > 1/2",
     "options": [
-     "Adding 2/5 + 1/5 is easier because the fractional units (fifths) are identical; we simply count the number of fifths",
-     "The first works because the unit is the same (thirds). The second fails because 2/3 and 1/2 represent different sized pieces",
-     "1/5 is larger because when you divide one item into 5 parts, each part is bigger than when you divide the same item into 9 parts"
+     "No, it is not possible. You must perform the same operation on both to keep the value the same. If you change them differently, you create a new, unrelated fraction",
+     "No, she is not correct because the denominators are already the same. Changing them to 16 is unnecessary work that makes the calculation more prone to error",
+     "Convert if the numerators are the same. For example, 1/10 < 1/2, but 9/10 > 1/2",
+     "Only if the numerators are the same. For example, 1/10 < 1/2, but 9/10 > 1/2"
     ],
     "hint": "Straight from the 'Comparing fractions' slide -- match the key terms.",
-    "misconception": "An incorrect answer indicates the student is looking only at the numbers 5 and 9 rather than the size of the pieces created by those numbers.",
+    "misconception": "A wrong answer shows the student has over-generalized the rule for unit fractions and isn't considering the numerator's effect.",
     "id": "gen_c6_math_ch03_q4",
     "nodeId": "c6_math_ch03_032",
     "difficulty": "standard",
@@ -1210,35 +1126,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you have 2/7 of a cake and add 3/7 of a cake, why do you not add the 7s to get 2/14? [2-3 sentences]",
-    "answer": "The denominator 7 tells us the \"size\" of the slice (it is a seventh-part). Adding 7+7 would change the slice size to a fourteenth-part, which is a different piece entirely",
+    "question": "Jaya says that to subtract 5/8 from 7/8, she must change the denominator to 16. Is she correct?",
+    "answer": "No, she is not correct because the denominators are already the same. Changing them to 16 is unnecessary work that makes the calculation more prone to error",
     "options": [
-     "A good answer would be: \"I have 16 sweets and I give 3/4 of them to my friends. How many sweets did I give away?",
-     "No, the reasoning is incorrect. 1/5 is larger than 1/10 because if you split a cake into only 5 pieces, each piece is much larger than if you split it into 10 pieces",
-     "The denominator 7 tells us the \"size\" of the slice (it is a seventh-part). Adding 7+7 would change the slice size to a fourteenth-part, which is a different piece entirely"
+     "Only if the numerators are the same. For example, 1/10 < 1/2, but 9/10 > 1/2",
+     "No, it is not possible, because 1/5 of 30 is 6, so 2/5 is 12 girls",
+     "No, she is not correct because the denominators are already the same. Changing them to 16 is unnecessary work that makes the calculation more prone to error"
     ],
-    "hint": "Straight from the 'Addition of fractions' slide -- match the key terms.",
-    "misconception": "A wrong answer here shows the student confuses the \"name\" of the unit with a quantity to be summed.",
+    "hint": "Straight from the 'Subtraction of fractions' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, she is not correct because the denominators are already the same.",
     "id": "gen_c6_math_ch03_q5",
-    "nodeId": "c6_math_ch03_033",
-    "difficulty": "advanced",
-    "workedExample": [
-     "If your friend gives you 1/4 of a roti and your sibling gives you 1/2 of a roti, how much do you have in total?",
-     "You cannot simply add 1 + 1 to get 2/6, because the pieces are different sizes.",
-     "You must first \"cut\" the 1/2 piece into two 1/4-sized pieces so that all pieces are the same \"fractional unit\" (1/4).",
-     "Once every piece is the same size, you just count how many of those pieces you have: one from your friend plus two from your sibling makes three"
-    ]
-   },
-   {
-    "type": "math_input",
-    "question": "Solve: 3/4 - 1/5.",
-    "answer": "11",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A student who gets 2/1 (or similar) is subtracting denominators, which is a major error.",
-    "id": "gen_c6_math_ch03_q6",
     "nodeId": "c6_math_ch03_034",
     "difficulty": "advanced",
     "workedExample": [
@@ -1250,35 +1147,14 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "math_input",
-    "question": "If a recipe requires 2/3 of a cup of milk, and you decide to make only 1/2 of the recipe, how much milk do you need? Justify your calculation.",
-    "answer": "2",
+    "question": "Solve: 3/5 ÷ 2/7.",
+    "answer": "4",
     "mathInput": {
      "tolerance": 0
     },
     "hint": "Work it step by step, then enter the final value.",
-    "misconception": "Answering 2/3 shows a failure to recognize the need for multiplication in a \"part of a part\" scenario.",
-    "id": "gen_c6_math_ch03_q7",
-    "nodeId": "c6_math_ch03_035",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine you have half a bar of chikki and you want to give one-third of that half to your friend.",
-     "How much of the whole chikki does your friend get?",
-     "To solve this, you don't need a common denominator; you simply multiply the numerators together and the denominators together.",
-     "Think of it as \"of\" — one-third \"of\" one-half."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-world story problem that requires calculating 3 ÷ 1/2.",
-    "answer": "A student should describe having 3 whole items (like 3 rotis) and dividing them into pieces of 1/2 size, resulting in 6 pieces",
-    "options": [
-     "5/7 is larger because both have 5 pieces, but in 5/7, each piece is a 'seventh', which is larger than a 'ninth'",
-     "Only if the numerators are the same. For example, 1/10 < 1/2, but 9/10 > 1/2",
-     "A student should describe having 3 whole items (like 3 rotis) and dividing them into pieces of 1/2 size, resulting in 6 pieces"
-    ],
-    "hint": "Straight from the 'Dividing by a fraction' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A student should describe having 3 whole items (like 3 rotis) and dividing them into pieces of 1/2 size, resulting in 6",
-    "id": "gen_c6_math_ch03_q8",
+    "misconception": "A student who gets 6/35 multiplied the numerators and denominators without flipping the divisor.",
+    "id": "gen_c6_math_ch03_q6",
     "nodeId": "c6_math_ch03_036",
     "difficulty": "advanced",
     "workedExample": [
@@ -1289,78 +1165,18 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "order",
-    "question": "Mark the fraction 3/4 on a number line that starts at 0 and ends at 1.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Count 3 segments starting from 0",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "Divide the line into 4 equal segments",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "Draw a line from 0 to 1",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "Place a dot at the third mark",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
+    "type": "mcq",
+    "question": "Your teacher says 2/5 of the class are girls. If there are 30 students, is it possible to have 20 girls? Why or why not?",
+    "answer": "No, it is not possible, because 1/5 of 30 is 6, so 2/5 is 12 girls",
+    "options": [
+     "No, it is not possible. You must perform the same operation on both to keep the value the same. If you change them differently, you create a new, unrelated fraction",
+     "Only if the numerators are the same. For example, 1/10 < 1/2, but 9/10 > 1/2",
+     "You, it is not possible, because 1/5 of 30 is 6, so 2/5 is 12 girls",
+     "No, it is not possible, because 1/5 of 30 is 6, so 2/5 is 12 girls"
     ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A student who marks it at the first or fourth spot fails to understand the \"counting\" aspect of the numerator.",
-    "id": "gen_c6_math_ch03_q9",
-    "nodeId": "c6_math_ch03_037",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine you are walking along a straight path where the distance from your house to the grocery store is exactly 1 kilometre.",
-     "If you want to stop to rest after walking exactly half of that distance, where exactly on that path should you stand?",
-     "To answer this, we treat the path from 0 to 1 as a single unit, then fold or divide that space into equal parts based on the fraction's denominator.",
-     "If the denominator is 4, you slice the distance between 0 and 1 into 4 equal segments, and counting 3 segments from 0 lands you at the point"
-    ]
-   },
-   {
-    "type": "math_input",
-    "question": "If a tank holds 20 litres and is 3/4 full, how much water is in the tank? Compare this to a tank of 20 litres that is 1/4 full.",
-    "answer": "15",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A student who struggles here may not realize that the numerator (3 vs 1) indicates how many of those equal 'shares' are present, not just the size of the share.",
-    "id": "gen_c6_math_ch03_q10",
+    "hint": "Straight from the 'Problem solving with fractions' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student is guessing or not performing the division/multiplication correctly to find the value of the fractional unit.",
+    "id": "gen_c6_math_ch03_q7",
     "nodeId": "c6_math_ch03_038",
     "difficulty": "advanced",
     "workedExample": [
@@ -1371,36 +1187,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "math_input",
-    "question": "If a pizza is cut into 8 equal slices and you eat 2, what fraction of the pizza did you eat? If you then cut those 8 slices into 16 smaller slices, how many of those new smaller slices would represent the same amount of pizza?",
-    "answer": "4",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A wrong answer suggests the student struggles to see that different fractions can represent the same physical amount (equivalent parts).",
-    "id": "gen_c6_math_ch03_q11",
-    "nodeId": "c6_math_ch03_039",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you have one round roti and you want to share it equally with a friend.",
-     "If you cut it into two equal parts, you each get one \"half.\" How do we write that?",
-     "We write it as 1/2.",
-     "To begin, always look at the whole object first—count how many equal pieces it is cut into; this is your denominator."
-    ]
-   },
-   {
     "type": "mcq",
-    "question": "What does the fraction $5/8$ represent in terms of division?",
-    "answer": "It represents 5 divided by 8 ($5 \\div 8$)",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to convert a division word problem into a fractional expression and visualize that expression as an equal distribution of items among a group",
     "options": [
-     "The student should divide the square into 4 equal parts and shade 3. For a different shape (like a circle), they must still ensure 4 equal parts are created",
-     "The answer is 2 1/3. Steps: Divide 7 by 3 to get 2 with a remainder of 1. The quotient 2 becomes the whole number, the remainder 1 becomes the numerator",
-     "It represents 5 divided by 8 ($5 \\div 8$)"
+     "The student must be able to classify any given fraction as proper, improper, or mixed, and convert between improper fractions and mixed numbers with 100% accuracy",
+     "The student must be able to translate a word problem into a correct mathematical expression involving fractions and compute the result accurately",
+     "The student must be able to convert a division word problem into a fractional expression and visualize that expression as an equal distribution of items among a group"
     ],
     "hint": "Straight from the 'fraction represents a division' slide -- match the key terms.",
-    "misconception": "A student who answers \"8 divided by 5\" is confusing the numerator and denominator, failing to recognize that the top number is the amount being shared (the dividend).",
-    "id": "gen_c6_math_ch03_q12",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to convert a division word problem into a fractional expression and visualize that expression",
+    "id": "gen_c6_math_ch03_q8",
     "nodeId": "c6_math_ch03_040",
     "difficulty": "standard",
     "workedExample": [
@@ -1412,16 +1209,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Create a multi-step problem using the fractions 1/5 and 2/3 that results in an answer greater than 1.",
-    "answer": "An example would be (2/3 × 2) + 1/5. A poor answer indicates an inability to combine operations to reach a specific goal, showing a lack of fluency with fractional values",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to correctly identify the order of operations for a given multi-step fraction problem and perform the calculation",
     "options": [
-     "Yes, if $a$ is a multiple of $b$. For example, $8/4 = 2$, because sharing 8 rotis among 4 people results in each person getting 2 whole rotis",
-     "The mixed number is 2 1/3. The improper fraction is 7/3. A poor answer fails to realize that 2 wholes contain 6/3, leading to the total of 7/3",
-     "An example would be (2/3 × 2) + 1/5. A poor answer indicates an inability to combine operations to reach a specific goal, showing a lack of fluency with fractional values"
+     "The student must be able to classify any given fraction as proper, improper, or mixed, and convert between improper fractions and mixed numbers with 100% accuracy",
+     "The student must be able to translate a word problem into a correct mathematical expression involving fractions and compute the result accurately",
+     "The student must be able to correctly identify the order of operations for a given multi-step fraction problem and perform the calculation"
     ],
     "hint": "Straight from the 'Simplifying complex fraction' slide -- match the key terms.",
-    "misconception": "A poor answer indicates an inability to combine operations to reach a specific goal, showing a lack of fluency with fractional values.",
-    "id": "gen_c6_math_ch03_q13",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to correctly identify the order of operations for a given multi-step fraction problem and",
+    "id": "gen_c6_math_ch03_q9",
     "nodeId": "c6_math_ch03_041",
     "difficulty": "advanced",
     "workedExample": [
@@ -1433,78 +1230,33 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Draw a square. Show how you would shade 3/4 of it. If you had to create a different shape representing 3/4, how would you change your approach?",
-    "answer": "The student should divide the square into 4 equal parts and shade 3. For a different shape (like a circle), they must still ensure 4 equal parts are created",
+    "question": "Solve: 3/5 ÷ 2/7.",
+    "answer": "Step 1: Keep 3/5. Step 2: Flip 2/7 to 7/2. Step 3: Multiply 3/5 × 7/2 = 21/10. Step 4: Convert to mixed fraction 2 1/10",
     "options": [
-     "You ate 2/8 (or 1/4). You would need to eat 4 of the new smaller slices (4/16)",
-     "No, the reasoning is incorrect. 1/5 is larger than 1/10 because if you split a cake into only 5 pieces, each piece is much larger than if you split it into 10 pieces",
-     "The student should divide the square into 4 equal parts and shade 3. For a different shape (like a circle), they must still ensure 4 equal parts are created"
+     "Only if the numerators are the same. For example, 1/10 < 1/2, but 9/10 > 1/2",
+     "No, she is not correct because the denominators are already the same. Changing them to 16 is unnecessary work that makes the calculation more prone to error",
+     "Step 1: Keep 3/5. Step 2: Flip 2/7 to 7/2. Step 3: Multiply 3/5 × 7/2 = 21/10. Step 4: Convert to mixed fraction 2 1/10"
     ],
-    "hint": "Straight from the 'A fraction represents a part' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student should divide the square into 4 equal parts and shade 3.",
-    "id": "gen_c6_math_ch03_q14",
-    "nodeId": "c6_math_ch03_029",
-    "difficulty": "standard"
+    "hint": "Straight from the 'Dividing by a fraction' slide -- match the key terms.",
+    "misconception": "A student who gets 6/35 multiplied the numerators and denominators without flipping the divisor.",
+    "id": "gen_c6_math_ch03_q10",
+    "nodeId": "c6_math_ch03_036",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "If you have 1/6 of a cake and your friend has 1/3 of the same cake, who has a larger piece? Explain why.",
-    "answer": "The friend with 1/3 has a larger piece. Because 1/3 means the cake is cut into only 3 big pieces, while 1/6 means it is cut into 6 smaller pieces",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to translate a word problem into a correct mathematical expression involving fractions and compute the result accurately",
     "options": [
-     "Yes, you can subtract them directly because they already have the same denominator (the same fractional unit)",
-     "A good answer would involve a physical quantity: \"If you have 3/4 of a litre of juice and drink half of it, how much juice did you drink?",
-     "The friend with 1/3 has a larger piece. Because 1/3 means the cake is cut into only 3 big pieces, while 1/6 means it is cut into 6 smaller pieces"
+     "The student must be able to correctly identify the order of operations for a given multi-step fraction problem and perform the calculation",
+     "The student must be able to identify, write, and draw fractions given a real-world sharing scenario, and correctly label the numerator and denominator",
+     "The student must be able to translate a word problem into a correct mathematical expression involving fractions and compute the result accurately"
     ],
-    "hint": "Straight from the 'A fraction represents a part' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The friend with 1/3 has a larger piece. Because 1/3 means the cake is cut into only 3 big pieces, while 1/6 means it is",
-    "id": "gen_c6_math_ch03_q15",
-    "nodeId": "c6_math_ch03_029",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it possible to have a fraction like 5/0? Why or why not?",
-    "answer": "No, the denominator cannot be zero because you cannot divide a whole into zero parts. Division by zero is undefined",
-    "options": [
-     "A good answer would be: \"I have 16 sweets and I give 3/4 of them to my friends. How many sweets did I give away?",
-     "1. Identify dividend: 5 kg. 2. Identify divisor: 4 bags. 3. Form division: $5 \\div 4$. 4. Form fraction: $5/4$ kg (or $1 \\frac{1}{4}$ kg)",
-     "No, the denominator cannot be zero because you cannot divide a whole into zero parts. Division by zero is undefined"
-    ],
-    "hint": "Straight from the 'A fraction represents a part' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, the denominator cannot be zero because you cannot divide a whole into zero parts.",
-    "id": "gen_c6_math_ch03_q16",
-    "nodeId": "c6_math_ch03_029",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a scenario involving 2 whole chikkis and 1/3 of another chikki. How would you write this as both an improper fraction and a mixed number?",
-    "answer": "The mixed number is 2 1/3. The improper fraction is 7/3. A poor answer fails to realize that 2 wholes contain 6/3, leading to the total of 7/3",
-    "options": [
-     "1. Identify dividend: 5 kg. 2. Identify divisor: 4 bags. 3. Form division: $5 \\div 4$. 4. Form fraction: $5/4$ kg (or $1 \\frac{1}{4}$ kg)",
-     "Yes, if $a$ is a multiple of $b$. For example, $8/4 = 2$, because sharing 8 rotis among 4 people results in each person getting 2 whole rotis",
-     "The mixed number is 2 1/3. The improper fraction is 7/3. A poor answer fails to realize that 2 wholes contain 6/3, leading to the total of 7/3"
-    ],
-    "hint": "Straight from the 'fraction represents a part of' slide -- match the key terms.",
-    "misconception": "A poor answer fails to realize that 2 wholes contain 6/3, leading to the total of 7/3.",
-    "id": "gen_c6_math_ch03_q17",
-    "nodeId": "c6_math_ch03_030",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create two different equivalent fractions for 2/5 and explain how you made them.",
-    "answer": "Acceptable answers include 4/10 (multiplied by 2) and 6/15 (multiplied by 3). A poor answer would be random numbers that don't maintain the ratio",
-    "options": [
-     "No, it is not possible. You must perform the same operation on both to keep the value the same. If you change them differently, you create a new, unrelated fraction",
-     "Examples include 1/3 and 2/5. A student might use the denominator rule (since 3 > 2, 1/3 < 1/2) or equivalent fractions (2/5 = 4/10 < 5/10)",
-     "Acceptable answers include 4/10 (multiplied by 2) and 6/15 (multiplied by 3). A poor answer would be random numbers that don't maintain the ratio"
-    ],
-    "hint": "Straight from the 'Equivalent fractions' slide -- match the key terms.",
-    "misconception": "A poor answer would be random numbers that don't maintain the ratio, showing they haven't grasped the \"same operation\" rule.",
-    "id": "gen_c6_math_ch03_q18",
-    "nodeId": "c6_math_ch03_031",
-    "difficulty": "standard"
+    "hint": "Straight from the 'Problem solving with fractions' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to translate a word problem into a correct mathematical expression involving fractions and",
+    "id": "gen_c6_math_ch03_q11",
+    "nodeId": "c6_math_ch03_038",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -1519,23 +1271,21 @@ export const C6_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_math_ch04",
-  "title": "Decimals",
+  "title": "Place Value In Decimals",
   "subtitle": "Mathematics · Chapter 4",
   "classLevel": 6,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Decimals",
+  "topic": "Place Value In Decimals",
   "chapters": [
-   "Mathematics Ch4: Decimals"
+   "Mathematics Ch4: Place Value In Decimals"
   ],
   "nodeIds": [
-   "c6_math_ch04_042",
    "c6_math_ch04_043",
    "c6_math_ch04_044",
    "c6_math_ch04_045",
    "c6_math_ch04_046",
    "c6_math_ch04_047",
-   "c6_math_ch04_048",
    "c6_math_ch04_049",
    "c6_math_ch04_050",
    "c6_math_ch04_051"
@@ -1547,22 +1297,16 @@ export const C6_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Decimals directly with your eyes?",
+   "question": "Can you see Place Value In Decimals directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
     "It is invisible by definition"
    ],
    "answer": "Often only through its effects",
-   "hook": "Decimals are a way of writing fractions that have denominators of 10, 100, 1000, and so on, using a decimal point to separate the whole number from"
+   "hook": "Place value in decimals is an extension of the whole number system, where digits to the right of the decimal point represent fractions of a whole,"
   },
   "teaching": [
-   {
-    "title": "Decimals",
-    "text": "Decimals are a way of writing fractions that have denominators of 10, 100, 1000, and so on, using a decimal point to separate the whole number from the fractional part.",
-    "emoji": "🔢",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
    {
     "title": "Place Value In Decimals",
     "text": "Place value in decimals is an extension of the whole number system, where digits to the right of the decimal point represent fractions of a whole, specifically tenths (1/10), hundredths (1/100), and thousandths (1/1000).",
@@ -1594,12 +1338,6 @@ export const C6_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Division Of Decimals",
-    "text": "Division of decimals is the process of splitting a decimal number into equal parts, performed by adjusting the divisor into a whole number before dividing. It is essentially scaling both the dividend and divisor by powers of ten to simplify the operation.",
-    "emoji": "🔢",
-    "bgColor": "from-violet-400 to-purple-500"
-   },
-   {
     "title": "Decimals In Real Life",
     "text": "Decimals in real life are a way of expressing parts of a whole unit, such as money (where 1 rupee = 100 paise) or measurements (where 1 metre = 100 centimetres), using a decimal point to separate the whole number from the fractional part.",
     "emoji": "🔢",
@@ -1621,37 +1359,16 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Convert the fraction 24/100 into a decimal.",
-    "answer": "The answer is 0.24. This is found by moving the decimal point two places to the left for a denominator of 100",
+    "question": "If you move a digit one place to the right in a decimal number, how does its value change?",
+    "answer": "Its value becomes 1/10th of its previous value",
     "options": [
-     "Its value becomes 1/10th of its previous value",
-     "A correct answer is 70.004 or 72.404 (as long as 4 is in the thousandths place and 7 is in the tens place)",
-     "The answer is 0.24. This is found by moving the decimal point two places to the left for a denominator of 100"
-    ],
-    "hint": "Straight from the 'Decimals' slide -- match the key terms.",
-    "misconception": "If a student writes 2.4, they are likely miscounting the number of decimal places needed.",
-    "id": "gen_c6_math_ch04_q1",
-    "nodeId": "c6_math_ch04_042",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever looked at a ruler and seen the small lines between the centimetres?",
-     "If you have 3 full centimetres and 4 of those tiny millimetre marks, how do you write that down?",
-     "Instead of writing \"3 and 4 tenths of a centimetre,\" we use a decimal point: 3.4 cm.",
-     "The decimal point acts like a \"divider\" that separates the whole number from the parts that are smaller than one."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Why is the digit 3 in 0.03 worth less than the digit 3 in 0.3?",
-    "answer": "The digit 3 in 0.3 is in the tenths place (3/10), while the 3 in 0.03 is in the hundredths place (3/100)",
-    "options": [
-     "We align them to ensure we are adding paise to paise (hundredths) and rupees to rupees (ones). Writing it otherwise mixes up place values",
-     "Any number like 0.11, 0.15, or 0.19 is correct",
-     "The digit 3 in 0.3 is in the tenths place (3/10), while the 3 in 0.03 is in the hundredths place (3/100)"
+     "A good problem would be: \"If 5 liters of milk cost 275.50 rupees, how much does 1 liter cost?\" A poor answer (like asking to add decimals instead) reveals the student does not",
+     "The fraction is 2/10, which simplifies to 1/5",
+     "Its value becomes 1/10th of its previous value"
     ],
     "hint": "Straight from the 'Place value in decimals' slide -- match the key terms.",
-    "misconception": "A student who says \"because it is on the right\" is missing the specific fractional value of each position.",
-    "id": "gen_c6_math_ch04_q2",
+    "misconception": "Answering \"it gets smaller\" is too vague; the student must understand the specific power-of-ten relationship between adjacent decimal places.",
+    "id": "gen_c6_math_ch04_q1",
     "nodeId": "c6_math_ch04_043",
     "difficulty": "standard",
     "workedExample": [
@@ -1666,13 +1383,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Possible answers include 0.31, 0.35, or 0.39. A poor answer (like 0.25 or 0.45) shows the student does not understand where these numbers fall on the number line relative to the tenths boundary.",
     "answer": "Two correct decimals between 0.3 and 0.4 are 0.32 and 0.35. These numbers fall in the range because they have a 3 in the tenths place and a value greater than zero but less than",
     "options": [
-     "Any problem following the pattern (8 × x) ÷ x = 8 works, such as 1.6 ÷ 0.2. A poor answer would be a problem that does not result in 8",
-     "Any number like 0.11, 0.15, or 0.19 is correct",
+     "A good problem would be: \"If 5 liters of milk cost 275.50 rupees, how much does 1 liter cost?\" A poor answer (like asking to add decimals instead) reveals the student does not",
+     "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column",
      "Two correct decimals between 0.3 and 0.4 are 0.32 and 0.35. These numbers fall in the range because they have a 3 in the tenths place and a value greater than zero but less than"
     ],
     "hint": "Straight from the 'Comparing and ordering decimals' slide -- match the key terms.",
     "misconception": "A wrong answer like 0.5 or 0.345 (if the student thinks 0.4 is 0.400) reveals that the student is struggling with place value magnitude, likely viewing decimals as whole numbers (thinking 34 is bigger than 3) or failing to recognize that 0.3 is equivalent to 0.30 and 0.4 is equivalent to 0.40.",
-    "id": "gen_c6_math_ch04_q3",
+    "id": "gen_c6_math_ch04_q2",
     "nodeId": "c6_math_ch04_044",
     "difficulty": "advanced",
     "workedExample": [
@@ -1684,16 +1401,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the standard method for converting a fraction like 5/8 into a decimal?",
-    "answer": "The method is to divide the numerator (5) by the denominator (8)",
+    "question": "Is it easier to represent 1/3 as a decimal? Why or why not?",
+    "answer": "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends",
     "options": [
-     "The decimal points must be aligned vertically",
-     "If the digit to the right of the target place is 5, 6, 7, 8, or 9, you increase the target digit by one",
-     "The method is to divide the numerator (5) by the denominator (8)"
+     "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column",
+     "Any pair like 0.2 x 0.3 or 0.6 x 0.1 works",
+     "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends"
     ],
     "hint": "Straight from the 'Fractions and decimals' slide -- match the key terms.",
-    "misconception": "If a student answers \"you just add a decimal point,\" they likely do not understand the relationship between the fraction bar and the division operation.",
-    "id": "gen_c6_math_ch04_q4",
+    "misconception": "A student who says \"it's easy because it's just 0.3\" misses the fact that 0.3 is only an approximation, not the exact value of 1/3.",
+    "id": "gen_c6_math_ch04_q3",
     "nodeId": "c6_math_ch04_045",
     "difficulty": "advanced",
     "workedExample": [
@@ -1705,16 +1422,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the most important rule to follow when setting up a problem to add 2.45 and 12.3?",
-    "answer": "The decimal points must be aligned vertically",
+    "question": "Create a problem where you need to subtract 1.25 from 3.0. Show how you would write it down to solve it.",
+    "answer": "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column",
     "options": [
-     "The method is to divide the numerator (5) by the denominator (8)",
-     "If the digit to the right of the target place is 5, 6, 7, 8, or 9, you increase the target digit by one",
-     "The decimal points must be aligned vertically"
+     "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends",
+     "The fraction is 2/10, which simplifies to 1/5",
+     "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column"
     ],
     "hint": "Straight from the 'Addition and subtraction of' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"adding the last digits first\" reveals the student is treating decimals like whole numbers and ignoring place value.",
-    "id": "gen_c6_math_ch04_q5",
+    "misconception": "A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column.",
+    "id": "gen_c6_math_ch04_q4",
     "nodeId": "c6_math_ch04_046",
     "difficulty": "advanced",
     "workedExample": [
@@ -1729,13 +1446,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Create a multiplication problem using two decimals that results in a product of 0.06.",
     "answer": "Any pair like 0.2 x 0.3 or 0.6 x 0.1 works",
     "options": [
-     "Any problem following the pattern (8 × x) ÷ x = 8 works, such as 1.6 ÷ 0.2. A poor answer would be a problem that does not result in 8",
-     "The answer is 0.24. This is found by moving the decimal point two places to the left for a denominator of 100",
+     "Its value becomes 1/10th of its previous value",
+     "A correct answer is 70.004 or 72.404 (as long as 4 is in the thousandths place and 7 is in the tens place)",
      "Any pair like 0.2 x 0.3 or 0.6 x 0.1 works"
     ],
     "hint": "Straight from the 'Multiplying decimals' slide -- match the key terms.",
     "misconception": "If a student provides 6 x 0.01, they understand the product but missed the instruction to use two decimals; if they provide 0.6 x 0.6, they show a misunderstanding of place value.",
-    "id": "gen_c6_math_ch04_q6",
+    "id": "gen_c6_math_ch04_q5",
     "nodeId": "c6_math_ch04_047",
     "difficulty": "advanced",
     "workedExample": [
@@ -1747,35 +1464,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "8.4 ÷ 2 = 4.2, while 8.4 ÷ 0.2 = 42. The second quotient is larger because you are dividing by a smaller fraction, which means the number \"fits\" into the dividend more times. Students who think the second answer should be smaller than 4.2 are confusing division with multiplication.",
-    "answer": "Dividing 8.4 by 2 gives a quotient of 4.2, while dividing 8.4 by 0.2 gives a quotient of 42. The quotients are different because when you divide by a number less than 1",
+    "question": "If you have 75 paise, how do you write this amount in rupees using a decimal point?",
+    "answer": "The correct answer is ₹0.75",
     "options": [
+     "Yes, the calculation is correct because (10 x 42.50) gives the total selling price (425 rupees), and subtracting the cost price (400) gives the profit (25 rupees)",
      "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column",
-     "The fraction is 2/10, which simplifies to 1/5",
-     "Dividing 8.4 by 2 gives a quotient of 4.2, while dividing 8.4 by 0.2 gives a quotient of 42. The quotients are different because when you divide by a number less than 1"
+     "The correct answer is ₹0.75"
     ],
-    "hint": "Straight from the 'Division of decimals' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a misunderstanding of the relationship between the divisor and the quotient, specifically the misconception that division always results in a smaller number.",
-    "id": "gen_c6_math_ch04_q7",
-    "nodeId": "c6_math_ch04_048",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine you have 4.5 metres of ribbon and you want to cut it into small pieces that are each 0.5 metres long.",
-     "How many pieces can you get?",
-     "To solve this, it is hard to divide by a decimal, so we \"get rid\" of the point.",
-     "By multiplying both 4.5 and 0.5 by 10, we turn the problem into 45 ÷ 5, which is much easier to solve!"
-    ]
-   },
-   {
-    "type": "math_input",
-    "question": "Rohan buys a notebook for ₹25.50 and a pen for ₹12.25. How much money does he spend in total?",
-    "answer": "37.75",
-    "mathInput": {
-     "tolerance": 0.3775
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A wrong answer suggests the student added the numbers as whole integers (2550 + 1225) without respecting the decimal position.",
-    "id": "gen_c6_math_ch04_q8",
+    "hint": "Straight from the 'Decimals in real life' slide -- match the key terms.",
+    "misconception": "A student who writes \"7.5\" or \"0.750\" reveals they do not understand that 100 paise make 1 rupee, or they are struggling with the place value of the hundredths column.",
+    "id": "gen_c6_math_ch04_q6",
     "nodeId": "c6_math_ch04_049",
     "difficulty": "advanced",
     "workedExample": [
@@ -1786,48 +1484,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "order",
-    "question": "Round 7.84 to the nearest tenth. Show your steps.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Identify the tenths place",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Since 4",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Look at the hundredths place",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
+    "type": "mcq",
+    "question": "What is the rule for rounding up a decimal digit?",
+    "answer": "If the digit to the right of the target place is 5, 6, 7, 8, or 9, you increase the target digit by one",
+    "options": [
+     "The student must be able to correctly align decimal points, pad with placeholder zeros where necessary, and perform the arithmetic operations to reach the correct result",
+     "The student must be able to correctly order a set of three or more decimal numbers and justify which is larger by comparing corresponding place values (tenths, hundredths, etc.)",
+     "If the digit to the right of the target place is 5, 6, 7, 8, or 9, you increase the target digit by one"
     ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer suggests the student is rounding based on the magnitude of the whole number rather than the specific decimal place.",
-    "id": "gen_c6_math_ch04_q9",
+    "hint": "Straight from the 'Rounding decimals' slide -- match the key terms.",
+    "misconception": "A wrong answer here suggests the student has not memorized the threshold for rounding, confusing it with simple truncation.",
+    "id": "gen_c6_math_ch04_q7",
     "nodeId": "c6_math_ch04_050",
     "difficulty": "advanced",
     "workedExample": [
@@ -1838,59 +1505,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "order",
-    "question": "A ribbon is 12.4 meters long. If you cut it into 4 equal pieces, how long is each piece? Show your steps.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Divide 4 by 4 to get 1",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "Bring down the 4 after the decimal point",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "Divide 12 by 4 to get 3",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "Place the decimal point after 3",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
+    "type": "mcq",
+    "question": "A shopkeeper sells 10 kg of sugar at 42.50 rupees/kg. If the cost price was 400 rupees total, is the profit calculation (10 x 42.50) - 400 correct?",
+    "answer": "Yes, the calculation is correct because (10 x 42.50) gives the total selling price (425 rupees), and subtracting the cost price (400) gives the profit (25 rupees)",
+    "options": [
+     "Its value becomes 1/10th of its previous value",
+     "The correct answer is ₹0.75",
+     "Yes, the calculation is correct because (10 x 42.50) gives the total selling price (425 rupees), and subtracting the cost price (400) gives the profit (25 rupees)"
     ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer (like 31 or 0.31) shows the student has difficulty maintaining the decimal position during division.",
-    "id": "gen_c6_math_ch04_q10",
+    "hint": "Straight from the 'Problem solving with decimals' slide -- match the key terms.",
+    "misconception": "An incorrect judgment shows the student cannot sequence operations correctly in a multi-step word problem.",
+    "id": "gen_c6_math_ch04_q8",
     "nodeId": "c6_math_ch04_051",
     "difficulty": "advanced",
     "workedExample": [
@@ -1902,77 +1527,32 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Write your own decimal number that is greater than 0.1 but less than 0.2.",
-    "answer": "Any number like 0.11, 0.15, or 0.19 is correct",
-    "options": [
-     "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends",
-     "Yes, because the hundredths digit (9) is 5 or greater, which forces the tenths digit (4) to round up to 5",
-     "Any number like 0.11, 0.15, or 0.19 is correct"
-    ],
-    "hint": "Straight from the 'Decimals' slide -- match the key terms.",
-    "misconception": "A student who struggles to provide an answer does not understand that there are many values between tenths.",
-    "id": "gen_c6_math_ch04_q11",
-    "nodeId": "c6_math_ch04_042",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Create a decimal number where the digit 4 has a value of 0.004 and the digit 7 has a value of 70.",
     "answer": "A correct answer is 70.004 or 72.404 (as long as 4 is in the thousandths place and 7 is in the tens place)",
     "options": [
-     "12.4 ÷ 4 = 3.1 meters. Step 1: Divide 12 by 4 to get 3. Step 2: Bring down the 4 after the decimal point. Step 3: Divide 4 by 4 to get 1. Step 4: Place the decimal point after 3",
-     "The answer is 0.24. This is found by moving the decimal point two places to the left for a denominator of 100",
+     "The fraction is 2/10, which simplifies to 1/5",
+     "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column",
      "A correct answer is 70.004 or 72.404 (as long as 4 is in the thousandths place and 7 is in the tens place)"
     ],
     "hint": "Straight from the 'Place value in decimals' slide -- match the key terms.",
     "misconception": "An incorrect answer reveals the student cannot correctly map the digit to its required fractional or whole-number position.",
-    "id": "gen_c6_math_ch04_q12",
+    "id": "gen_c6_math_ch04_q9",
     "nodeId": "c6_math_ch04_043",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If you move a digit one place to the right in a decimal number, how does its value change?",
-    "answer": "Its value becomes 1/10th of its previous value",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to correctly order a set of three or more decimal numbers and justify which is larger by comparing corresponding place values (tenths, hundredths, etc.)",
     "options": [
-     "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends",
-     "The value of the digit 8 in the number 24.582 is 8/100. This is because the 8 is in the hundredths place, meaning it represents eight parts out of one hundred",
-     "Its value becomes 1/10th of its previous value"
+     "The student must be able to translate a word problem into a mathematical expression using decimal operations and correctly calculate the result",
+     "The student must be able to correctly align decimal points, pad with placeholder zeros where necessary, and perform the arithmetic operations to reach the correct result",
+     "The student must be able to correctly order a set of three or more decimal numbers and justify which is larger by comparing corresponding place values (tenths, hundredths, etc.)"
     ],
-    "hint": "Straight from the 'Place value in decimals' slide -- match the key terms.",
-    "misconception": "Answering \"it gets smaller\" is too vague; the student must understand the specific power-of-ten relationship between adjacent decimal places.",
-    "id": "gen_c6_math_ch04_q13",
-    "nodeId": "c6_math_ch04_043",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "The value is 8/100. A student who writes 8/10 or 8/1000 has failed to count the positions correctly from the decimal point (tenths, hundredths, thousandths).",
-    "answer": "The value of the digit 8 in the number 24.582 is 8/100. This is because the 8 is in the hundredths place, meaning it represents eight parts out of one hundred",
-    "options": [
-     "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column",
-     "Two correct decimals between 0.3 and 0.4 are 0.32 and 0.35. These numbers fall in the range because they have a 3 in the tenths place and a value greater than zero but less than",
-     "The value of the digit 8 in the number 24.582 is 8/100. This is because the 8 is in the hundredths place, meaning it represents eight parts out of one hundred"
-    ],
-    "hint": "Straight from the 'Place value in decimals' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals that the student likely confuses the place value positions of decimals, such as misidentifying the hundredths place as the tenths (8/10) or the thousandths (8/1000) place.",
-    "id": "gen_c6_math_ch04_q14",
-    "nodeId": "c6_math_ch04_043",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Convert 3/5 into a decimal. Show your steps.",
-    "answer": "Step 1: Divide 3 by 5. Step 2: 3 is smaller than 5, so write it as 3.0. Step 3: 5 goes into 30 six times, so the result is 0.6",
-    "options": [
-     "The answer is 0.24. This is found by moving the decimal point two places to the left for a denominator of 100",
-     "Any number like 0.11, 0.15, or 0.19 is correct",
-     "Step 1: Divide 3 by 5. Step 2: 3 is smaller than 5, so write it as 3.0. Step 3: 5 goes into 30 six times, so the result is 0.6"
-    ],
-    "hint": "Straight from the 'Fractions and decimals' slide -- match the key terms.",
-    "misconception": "A wrong answer usually occurs if the student tries to divide the denominator by the numerator instead.",
-    "id": "gen_c6_math_ch04_q15",
-    "nodeId": "c6_math_ch04_045",
+    "hint": "Straight from the 'Comparing and ordering decimals' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to correctly order a set of three or more decimal numbers and justify which is larger by",
+    "id": "gen_c6_math_ch04_q10",
+    "nodeId": "c6_math_ch04_044",
     "difficulty": "advanced"
    },
    {
@@ -1980,71 +1560,130 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Create a fraction that, when converted to a decimal, results in exactly 0.2.",
     "answer": "The fraction is 2/10, which simplifies to 1/5",
     "options": [
-     "The answer is 0.24. This is found by moving the decimal point two places to the left for a denominator of 100",
-     "Any number like 0.11, 0.15, or 0.19 is correct",
-     "Look fraction is 2/10, which simplifies to 1/5",
+     "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column",
+     "Any pair like 0.2 x 0.3 or 0.6 x 0.1 works",
      "The fraction is 2/10, which simplifies to 1/5"
     ],
     "hint": "Straight from the 'Fractions and decimals' slide -- match the key terms.",
     "misconception": "If the student provides a different fraction that equals 0.2 (like 20/100), it is also correct; if they provide something like 2/100, they misunderstand place value.",
-    "id": "gen_c6_math_ch04_q16",
+    "id": "gen_c6_math_ch04_q11",
     "nodeId": "c6_math_ch04_045",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Is it easier to represent 1/3 as a decimal? Why or why not?",
-    "answer": "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to correctly align decimal points, pad with placeholder zeros where necessary, and perform the arithmetic operations to reach the correct result",
     "options": [
-     "Two correct decimals between 0.3 and 0.4 are 0.32 and 0.35. These numbers fall in the range because they have a 3 in the tenths place and a value greater than zero but less than",
-     "12.4 ÷ 4 = 3.1 meters. Step 1: Divide 12 by 4 to get 3. Step 2: Bring down the 4 after the decimal point. Step 3: Divide 4 by 4 to get 1. Step 4: Place the decimal point after 3",
-     "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends"
-    ],
-    "hint": "Straight from the 'Fractions and decimals' slide -- match the key terms.",
-    "misconception": "A student who says \"it's easy because it's just 0.3\" misses the fact that 0.3 is only an approximation, not the exact value of 1/3.",
-    "id": "gen_c6_math_ch04_q17",
-    "nodeId": "c6_math_ch04_045",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a problem where you need to subtract 1.25 from 3.0. Show how you would write it down to solve it.",
-    "answer": "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column",
-    "options": [
-     "A good problem would be: \"If 5 liters of milk cost 275.50 rupees, how much does 1 liter cost?\" A poor answer (like asking to add decimals instead) reveals the student does not",
-     "The answer is 0.24. This is found by moving the decimal point two places to the left for a denominator of 100",
-     "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column"
+     "The student must be able to identify the target place value, check the \"deciding\" digit to the right",
+     "The student must be able to translate a word problem into a mathematical expression using decimal operations and correctly calculate the result",
+     "The student must be able to correctly align decimal points, pad with placeholder zeros where necessary, and perform the arithmetic operations to reach the correct result"
     ],
     "hint": "Straight from the 'Addition and subtraction of' slide -- match the key terms.",
-    "misconception": "A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column.",
-    "id": "gen_c6_math_ch04_q18",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to correctly align decimal points, pad with placeholder zeros where necessary, and perform the",
+    "id": "gen_c6_math_ch04_q12",
     "nodeId": "c6_math_ch04_046",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a scenario where you would use subtraction with decimals in a grocery store.",
+    "answer": "A good answer involves having a specific amount of money (e.g., ₹100) and calculating the change after buying items costing, for example, ₹65",
+    "options": [
+     "Its value becomes 1/10th of its previous value",
+     "A correct answer is 70.004 or 72.404 (as long as 4 is in the thousandths place and 7 is in the tens place)",
+     "A good answer involves having a specific amount of money (e.g., ₹100) and calculating the change after buying items costing, for example, ₹65"
+    ],
+    "hint": "Straight from the 'Decimals in real life' slide -- match the key terms.",
+    "misconception": "A poor answer fails to include a total budget or forgets to use a decimal amount, showing a failure to connect the math to the real-world utility of currency.",
+    "id": "gen_c6_math_ch04_q13",
+    "nodeId": "c6_math_ch04_049",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a decimal that, when rounded to the nearest tenth, becomes 5.5, but is not 5.5 itself.",
+    "answer": "Examples like 5.46, 5.47, 5.54, or 5.52 are correct",
+    "options": [
+     "Its value becomes 1/10th of its previous value",
+     "It is difficult because 1/3 results in a repeating decimal (0.333...), which never ends",
+     "The like 5.46, 5.47, 5.54, or 5.52 are correct",
+     "Examples like 5.46, 5.47, 5.54, or 5.52 are correct"
+    ],
+    "hint": "Straight from the 'Rounding decimals' slide -- match the key terms.",
+    "misconception": "An incorrect answer (like 5.6) shows a failure to understand the range of numbers that round to a specific value.",
+    "id": "gen_c6_math_ch04_q14",
+    "nodeId": "c6_math_ch04_050",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify the target place value, check the \"deciding\" digit to the right",
+    "options": [
+     "The student must be able to translate a word problem into a mathematical expression using decimal operations and correctly calculate the result",
+     "The student must be able to correctly align decimal points, pad with placeholder zeros where necessary, and perform the arithmetic operations to reach the correct result",
+     "The student must be able to identify the target place value, check the \"deciding\" digit to the right"
+    ],
+    "hint": "Straight from the 'Rounding decimals' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the target place value, check the \"deciding\" digit to the right, and correctly",
+    "id": "gen_c6_math_ch04_q15",
+    "nodeId": "c6_math_ch04_050",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a simple word problem that requires the division of a decimal by a whole number.",
+    "answer": "A good problem would be: \"If 5 liters of milk cost 275.50 rupees, how much does 1 liter cost?\" A poor answer (like asking to add decimals instead) reveals the student does not",
+    "options": [
+     "Two correct decimals between 0.3 and 0.4 are 0.32 and 0.35. These numbers fall in the range because they have a 3 in the tenths place and a value greater than zero but less than",
+     "The fraction is 2/10, which simplifies to 1/5",
+     "A good problem would be: \"If 5 liters of milk cost 275.50 rupees, how much does 1 liter cost?\" A poor answer (like asking to add decimals instead) reveals the student does not"
+    ],
+    "hint": "Straight from the 'Problem solving with decimals' slide -- match the key terms.",
+    "misconception": "A poor answer (like asking to add decimals instead) reveals the student does not recognize the \"unit rate\" structure of division problems.",
+    "id": "gen_c6_math_ch04_q16",
+    "nodeId": "c6_math_ch04_051",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to translate a word problem into a mathematical expression using decimal operations and correctly calculate the result",
+    "options": [
+     "If the digit to the right of the target place is 5, 6, 7, 8, or 9, you increase the target digit by one",
+     "The student must be able to identify the target place value, check the \"deciding\" digit to the right",
+     "The student must be able to translate a word problem into a mathematical expression using decimal operations and correctly calculate the result"
+    ],
+    "hint": "Straight from the 'Problem solving with decimals' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to translate a word problem into a mathematical expression using decimal operations and",
+    "id": "gen_c6_math_ch04_q17",
+    "nodeId": "c6_math_ch04_051",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about decimals?",
+    "What surprised you about place value in decimals?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Decimals mastered! 🎯",
+  "successLine": "Place Value In Decimals mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c6_math_ch05",
-  "title": "Variable",
+  "title": "Algebraic Expression",
   "subtitle": "Mathematics · Chapter 5",
   "classLevel": 6,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Variable",
+  "topic": "Algebraic Expression",
   "chapters": [
-   "Mathematics Ch5: Variable"
+   "Mathematics Ch5: Algebraic Expression"
   ],
   "nodeIds": [
-   "c6_math_ch05_052",
    "c6_math_ch05_053",
    "c6_math_ch05_054",
    "c6_math_ch05_055",
@@ -2061,22 +1700,16 @@ export const C6_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Variable directly with your eyes?",
+   "question": "Can you see Algebraic Expression directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
     "It is invisible by definition"
    ],
    "answer": "Often only through its effects",
-   "hook": "A variable is a letter or symbol used to represent a number that can change or is currently unknown, while a constant is a fixed numerical value that"
+   "hook": "An algebraic expression is a mathematical phrase containing variables (letters representing unknown numbers), constants (fixed numbers), and"
   },
   "teaching": [
-   {
-    "title": "Variable",
-    "text": "A variable is a letter or symbol used to represent a number that can change or is currently unknown, while a constant is a fixed numerical value that does not change.",
-    "emoji": "🔢",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
    {
     "title": "Algebraic Expression",
     "text": "An algebraic expression is a mathematical phrase containing variables (letters representing unknown numbers), constants (fixed numbers), and operations (like addition or subtraction).",
@@ -2129,37 +1762,16 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "A rickshaw driver charges ₹20 for the ride plus ₹5 for every kilometer traveled. The total cost is 20 + 5k. If the distance 'k' changes, which part of the expression changes?",
-    "answer": "The part 5k changes as 'k' changes. Steps: 1. Identify k as the variable. 2. Recognize that multiplying 5 by a changing 'k' makes the result change",
-    "options": [
-     "An example would be: \"I have 2 identical bags of apples and 5 loose apples. In total, I have 15 apples",
-     "The expression is $p - 5$. A good answer identifies the variable $p$ and the discount operation (subtraction)",
-     "The part 5k changes as 'k' changes. Steps: 1. Identify k as the variable. 2. Recognize that multiplying 5 by a changing 'k' makes the result change"
-    ],
-    "hint": "Straight from the 'variable' slide -- match the key terms.",
-    "misconception": "If the student identifies 20 as changing, they misunderstand the nature of a constant.",
-    "id": "gen_c6_math_ch05_q1",
-    "nodeId": "c6_math_ch05_052",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are at a fruit shop where the price of one apple is fixed at ₹10, but the total bill depends on how many apples you buy.",
-     "If you buy 1 apple, you pay 10; for 2 apples, 20; for 3, 30.",
-     "We can write this as 10 × n, where 'n' stands for the number of apples.",
-     "Here, 10 is a constant because the price per apple never changes, while 'n' is a variable because it changes based on how many apples you pick."
-    ]
-   },
-   {
-    "type": "mcq",
     "question": "Analyze the expression 6x - 2y + 8. How does the negative sign affect the term containing 'y'?",
     "answer": "The negative sign belongs to the term, making it -2y",
     "options": [
-     "It is simplest because one term has a variable ($x$) and the other is a constant ($5$), which are \"unlike\" terms",
-     "Distribute the $2$ to get $2x + 8$, then add $3x$ to get $5x + 8$",
+     "Letters allow us to solve for any situation at once, whereas trial-and-error is slow and only works for one specific case",
+     "The student must be able to decompose a given expression into its individual terms, identify the coefficient and variable part for each term",
      "The negative sign belongs to the term, making it -2y"
     ],
     "hint": "Straight from the 'algebraic expression' slide -- match the key terms.",
     "misconception": "A wrong answer (identifying the term as 2y) ignores that the sign preceding a term is part of that term's identity.",
-    "id": "gen_c6_math_ch05_q2",
+    "id": "gen_c6_math_ch05_q1",
     "nodeId": "c6_math_ch05_053",
     "difficulty": "standard",
     "workedExample": [
@@ -2171,16 +1783,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If a notebook costs $n$ rupees, how would you write the cost of 5 such notebooks?",
-    "answer": "The correct answer is $5n$. An answer of $n+5$ reveals the student confuses multiplication (repeated addition of items) with addition (increasing the value by a constant amount)",
+    "question": "A farmer has $y$ mangoes and divides them equally into 6 baskets. Write the expression. If he has 30 mangoes, is your expression valid? Justify.",
+    "answer": "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket",
     "options": [
      "No, it cannot be simplified because $x$ and $y$ are different variables",
-     "First, group the 'a' terms ($7a + 3a = 10a$) and the 'b' terms ($-2b + 5b = 3b$). The result is $10a + 3b$",
-     "The correct answer is $5n$. An answer of $n+5$ reveals the student confuses multiplication (repeated addition of items) with addition (increasing the value by a constant amount)"
+     "An example is $5m + 3 + 2m$. The simplification is $7m + 3$. A poor answer would be $5m + 3 + 2n$, which contains no like terms",
+     "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket"
     ],
     "hint": "Straight from the 'Forming algebraic expressions' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The correct answer is $5n$. An answer of $n+5$ reveals the student confuses multiplication (repeated addition of items)",
-    "id": "gen_c6_math_ch05_q3",
+    "misconception": "A student who writes $6/y$ has failed to identify the dividend (total) and the divisor (number of groups).",
+    "id": "gen_c6_math_ch05_q2",
     "nodeId": "c6_math_ch05_054",
     "difficulty": "advanced",
     "workedExample": [
@@ -2195,13 +1807,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Can we simplify $4x + 3y$ into $7xy$? Why or why not?",
     "answer": "No, it cannot be simplified because $x$ and $y$ are different variables",
     "options": [
-     "The correct answer is $5n$. An answer of $n+5$ reveals the student confuses multiplication (repeated addition of items) with addition (increasing the value by a constant amount)",
-     "The number of apples is x + 4. Substituting 12 for x, we get 12 + 4 = 16 apples",
+     "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable)",
+     "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket",
      "No, it cannot be simplified because $x$ and $y$ are different variables"
     ],
     "hint": "Straight from the 'Simplifying an algebraic' slide -- match the key terms.",
     "misconception": "A student who adds them to get $7xy$ or $7$ has failed to understand that variables act as labels that cannot be combined unless they match.",
-    "id": "gen_c6_math_ch05_q4",
+    "id": "gen_c6_math_ch05_q3",
     "nodeId": "c6_math_ch05_055",
     "difficulty": "advanced",
     "workedExample": [
@@ -2216,13 +1828,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Your friend says that for 4x - 6 = 10, the first step should be to divide by 4. Is this the most efficient way? Explain.",
     "answer": "It is not the most efficient; while mathematically possible, it leads to fractions (x - 1.5 = 2.5). Adding 6 first is better",
     "options": [
-     "The correct answer is $5n$. An answer of $n+5$ reveals the student confuses multiplication (repeated addition of items) with addition (increasing the value by a constant amount)",
-     "First, group the 'a' terms ($7a + 3a = 10a$) and the 'b' terms ($-2b + 5b = 3b$). The result is $10a + 3b$",
+     "We move all $x$ terms to one side to combine them into a single term, making it easier to solve for $x$",
+     "[Correct answer] We divide by 3 because division is the inverse operation of multiplication, which allows us to isolate the variable $x$ by turning the coefficient into 1",
      "It is not the most efficient; while mathematically possible, it leads to fractions (x - 1.5 = 2.5). Adding 6 first is better"
     ],
     "hint": "Straight from the 'linear equation in one variable' slide -- match the key terms.",
     "misconception": "A student who says \"it's wrong\" lacks the flexibility to see multiple paths to a solution.",
-    "id": "gen_c6_math_ch05_q5",
+    "id": "gen_c6_math_ch05_q4",
     "nodeId": "c6_math_ch05_056",
     "difficulty": "advanced",
     "workedExample": [
@@ -2237,13 +1849,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Dividing by 3 cancels out the multiplication, leaving $x$ by itself because $3/3 = 1$. A wrong answer (like subtracting 3) shows the student confuses additive inverse with multiplicative inverse.",
     "answer": "[Correct answer] We divide by 3 because division is the inverse operation of multiplication, which allows us to isolate the variable $x$ by turning the coefficient into 1",
     "options": [
+     "It is not the most efficient; while mathematically possible, it leads to fractions (x - 1.5 = 2.5). Adding 6 first is better",
      "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable)",
-     "An example is $5m + 3 + 2m$. The simplification is $7m + 3$. A poor answer would be $5m + 3 + 2n$, which contains no like terms",
      "[Correct answer] We divide by 3 because division is the inverse operation of multiplication, which allows us to isolate the variable $x$ by turning the coefficient into 1"
     ],
     "hint": "Straight from the 'linear equation' slide -- match the key terms.",
     "misconception": "A wrong answer reveals that the student likely views algebra as a series of memorized \"magic tricks\" or rules rather than understanding the concept of maintaining balance in an equation.",
-    "id": "gen_c6_math_ch05_q6",
+    "id": "gen_c6_math_ch05_q5",
     "nodeId": "c6_math_ch05_057",
     "difficulty": "advanced",
     "workedExample": [
@@ -2258,13 +1870,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If a pen costs 'x' rupees and a notebook costs 'x + 10' rupees, what does the expression 'x + (x + 10)' represent?",
     "answer": "It represents the total cost of one pen and one notebook combined",
     "options": [
-     "The part 5k changes as 'k' changes. Steps: 1. Identify k as the variable. 2. Recognize that multiplying 5 by a changing 'k' makes the result change",
-     "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable)",
+     "An example is $5m + 3 + 2m$. The simplification is $7m + 3$. A poor answer would be $5m + 3 + 2n$, which contains no like terms",
+     "It is not the most efficient; while mathematically possible, it leads to fractions (x - 1.5 = 2.5). Adding 6 first is better",
      "It represents the total cost of one pen and one notebook combined"
     ],
     "hint": "Straight from the 'Word problems leading to equations' slide -- match the key terms.",
     "misconception": "If a student says it represents the cost of one item, they are failing to recognize how the grouping of terms works in an equation.",
-    "id": "gen_c6_math_ch05_q7",
+    "id": "gen_c6_math_ch05_q6",
     "nodeId": "c6_math_ch05_058",
     "difficulty": "advanced",
     "workedExample": [
@@ -2276,16 +1888,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "For the pattern 4, 7, 10, 13, ..., if the rule is $3n + 1$, what does the letter 'n' represent?",
-    "answer": "'n' represents the position of the term (1st, 2nd, 3rd, etc.)",
+    "question": "Given the pattern 2, 5, 8, 11, ..., why is it incorrect to say the rule is simply $3n$?",
+    "answer": "$3n$ would give 3, 6, 9... for $n=1, 2, 3$. Because the sequence starts at 2, $3n$ is always 1 too high",
     "options": [
-     "The expression is 2 + 0.25b. A good answer includes the variable for the unknown number of notebooks and constants for the fixed weight",
+     "No, it is incorrect. For $n=1$, $n+10$ gives 11, not 10. The correct rule is $10n$",
      "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable)",
-     "'n' represents the position of the term (1st, 2nd, 3rd, etc.)"
+     "$3n$ would give 3, 6, 9... for $n=1, 2, 3$. Because the sequence starts at 2, $3n$ is always 1 too high"
     ],
     "hint": "Straight from the 'Algebra' slide -- match the key terms.",
-    "misconception": "If a student says 'n' is just any number, they miss the concept that 'n' links the position to the value.",
-    "id": "gen_c6_math_ch05_q8",
+    "misconception": "A student who thinks $3n$ is correct ignores the starting value.",
+    "id": "gen_c6_math_ch05_q7",
     "nodeId": "c6_math_ch05_060",
     "difficulty": "standard",
     "workedExample": [
@@ -2297,16 +1909,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "In the equation $4x = 60$, what does the letter $x$ represent, and what is its value?",
-    "answer": "$x$ represents the unknown number, and its value is 15",
+    "question": "Why do we use letters like $x$ or $y$ instead of just guessing numbers? Compare this to the trial-and-error method.",
+    "answer": "Letters allow us to solve for any situation at once, whereas trial-and-error is slow and only works for one specific case",
     "options": [
-     "The part 5k changes as 'k' changes. Steps: 1. Identify k as the variable. 2. Recognize that multiplying 5 by a changing 'k' makes the result change",
-     "The expression is 2 + 0.25b. A good answer includes the variable for the unknown number of notebooks and constants for the fixed weight",
-     "$x$ represents the unknown number, and its value is 15"
+     "The negative sign belongs to the term, making it -2y",
+     "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable)",
+     "Letters allow us to solve for any situation at once, whereas trial-and-error is slow and only works for one specific case"
     ],
     "hint": "Straight from the 'Algebra uses letters (like $x, y' slide -- match the key terms.",
-    "misconception": "If a student answers \"60,\" they likely confuse the result of the equation with the value of the variable itself, failing to see $x$ as a specific quantity that must be isolated.",
-    "id": "gen_c6_math_ch05_q9",
+    "misconception": "If a student says \"it's just a rule to make math harder,\" they have not yet grasped that algebra is a tool for efficiency and generalization.",
+    "id": "gen_c6_math_ch05_q8",
     "nodeId": "c6_math_ch05_061",
     "difficulty": "advanced",
     "workedExample": [
@@ -2318,76 +1930,46 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare 7x and 7. How does the presence of 'x' change the meaning of 7?",
-    "answer": "In '7', the value is fixed at seven. In '7x', the value depends on 'x' and can be 7, 14, 21, etc",
-    "options": [
-     "First, group the 'a' terms ($7a + 3a = 10a$) and the 'b' terms ($-2b + 5b = 3b$). The result is $10a + 3b$",
-     "It is simplest because one term has a variable ($x$) and the other is a constant ($5$), which are \"unlike\" terms",
-     "In '7', the value is fixed at seven. In '7x', the value depends on 'x' and can be 7, 14, 21, etc"
-    ],
-    "hint": "Straight from the 'variable' slide -- match the key terms.",
-    "misconception": "A wrong answer shows failure to see that variables scale or define the scope of a constant.",
-    "id": "gen_c6_math_ch05_q10",
-    "nodeId": "c6_math_ch05_052",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create an algebraic expression to represent the total weight of a school bag containing 2 kg of books and 'b' number of notebooks, each weighing 250 grams (0.25 kg).",
-    "answer": "The expression is 2 + 0.25b. A good answer includes the variable for the unknown number of notebooks and constants for the fixed weight",
-    "options": [
-     "The expression is $20 + 12(x-1)$ or $12x + 8$",
-     "$x$ represents the unknown number, and its value is 15",
-     "The expression is 2 + 0.25b. A good answer includes the variable for the unknown number of notebooks and constants for the fixed weight"
-    ],
-    "hint": "Straight from the 'variable' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The expression is 2 + 0.25b. A good answer includes the variable for the unknown number of notebooks and constants for",
-    "id": "gen_c6_math_ch05_q11",
-    "nodeId": "c6_math_ch05_052",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Create an expression that has three terms, including one constant term, one term with a coefficient of 5, and one term with a coefficient of -2.",
     "answer": "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable)",
     "options": [
-     "The expression is $20 + 12(x-1)$ or $12x + 8$",
-     "First, group the 'a' terms ($7a + 3a = 10a$) and the 'b' terms ($-2b + 5b = 3b$). The result is $10a + 3b$",
+     "We move all $x$ terms to one side to combine them into a single term, making it easier to solve for $x$",
+     "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket",
      "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable)"
     ],
     "hint": "Straight from the 'algebraic expression' slide -- match the key terms.",
     "misconception": "A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable).",
-    "id": "gen_c6_math_ch05_q12",
+    "id": "gen_c6_math_ch05_q9",
     "nodeId": "c6_math_ch05_053",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A farmer has $y$ mangoes and divides them equally into 6 baskets. Write the expression. If he has 30 mangoes, is your expression valid? Justify.",
-    "answer": "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to decompose a given expression into its individual terms, identify the coefficient and variable part for each term",
     "options": [
-     "We move all $x$ terms to one side to combine them into a single term, making it easier to solve for $x$",
-     "The part 5k changes as 'k' changes. Steps: 1. Identify k as the variable. 2. Recognize that multiplying 5 by a changing 'k' makes the result change",
-     "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket"
+     "The student must be able to translate a written sentence describing a relationship between quantities into a correct algebraic expression and identify the variable and the",
+     "The student must be able to identify variable terms vs. constants and successfully combine all coefficients of like variables into a single expression",
+     "The student must be able to decompose a given expression into its individual terms, identify the coefficient and variable part for each term"
     ],
-    "hint": "Straight from the 'Forming algebraic expressions' slide -- match the key terms.",
-    "misconception": "A student who writes $6/y$ has failed to identify the dividend (total) and the divisor (number of groups).",
-    "id": "gen_c6_math_ch05_q13",
-    "nodeId": "c6_math_ch05_054",
-    "difficulty": "advanced"
+    "hint": "Straight from the 'algebraic expression' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to decompose a given expression into its individual terms, identify the coefficient and",
+    "id": "gen_c6_math_ch05_q10",
+    "nodeId": "c6_math_ch05_053",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Create an expression for a situation where a shopkeeper gives a discount of 5 rupees on any item costing $p$ rupees.",
-    "answer": "The expression is $p - 5$. A good answer identifies the variable $p$ and the discount operation (subtraction)",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to translate a written sentence describing a relationship between quantities into a correct algebraic expression and identify the variable and the",
     "options": [
-     "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket",
-     "A good answer would be: \"If 5 kg of rice costs 500 rupees, what is the price of 1 kg?\" A poor answer",
-     "The expression is $p - 5$. A good answer identifies the variable $p$ and the discount operation (subtraction)"
+     "They ignore the fact that the '2' does not have an 'x' attached, treating the constant as if it belongs to the variable family",
+     "They must demonstrate this by predicting the value of the 10th or 20th term correctly",
+     "The student must be able to translate a written sentence describing a relationship between quantities into a correct algebraic expression and identify the variable and the"
     ],
     "hint": "Straight from the 'Forming algebraic expressions' slide -- match the key terms.",
-    "misconception": "A poor answer like $5 - p$ shows the student does not understand that the discount is taken away from the original price.",
-    "id": "gen_c6_math_ch05_q14",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to translate a written sentence describing a relationship between quantities into a correct",
+    "id": "gen_c6_math_ch05_q11",
     "nodeId": "c6_math_ch05_054",
     "difficulty": "advanced"
    },
@@ -2397,92 +1979,134 @@ export const C6_MATH_GEN: SimDef[] = [
     "answer": "An example is $5m + 3 + 2m$. The simplification is $7m + 3$. A poor answer would be $5m + 3 + 2n$, which contains no like terms",
     "options": [
      "It represents the total cost of one pen and one notebook combined",
-     "The expression is $p - 5$. A good answer identifies the variable $p$ and the discount operation (subtraction)",
+     "It is not the most efficient; while mathematically possible, it leads to fractions (x - 1.5 = 2.5). Adding 6 first is better",
      "An example is $5m + 3 + 2m$. The simplification is $7m + 3$. A poor answer would be $5m + 3 + 2n$, which contains no like terms"
     ],
     "hint": "Straight from the 'Simplifying an algebraic' slide -- match the key terms.",
     "misconception": "A poor answer would be $5m + 3 + 2n$, which contains no like terms, showing the student doesn't grasp how to construct a solvable expression.",
+    "id": "gen_c6_math_ch05_q12",
+    "nodeId": "c6_math_ch05_055",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What common mix-up does this lesson flag about Simplifying an algebraic expression?",
+    "answer": "They ignore the fact that the '2' does not have an 'x' attached, treating the constant as if it belongs to the variable family",
+    "options": [
+     "The student must be able to identify variable terms vs. constants and successfully combine all coefficients of like variables into a single expression",
+     "They must demonstrate this by predicting the value of the 10th or 20th term correctly",
+     "They ignore the fact that the '2' does not have an 'x' attached, treating the constant as if it belongs to the variable family"
+    ],
+    "hint": "Straight from the 'Simplifying an algebraic' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: They ignore the fact that the '2' does not have an 'x' attached, treating the constant as if it belongs to the variable",
+    "id": "gen_c6_math_ch05_q13",
+    "nodeId": "c6_math_ch05_055",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify variable terms vs. constants and successfully combine all coefficients of like variables into a single expression",
+    "options": [
+     "They must demonstrate this by predicting the value of the 10th or 20th term correctly",
+     "They ignore the fact that the '2' does not have an 'x' attached, treating the constant as if it belongs to the variable family",
+     "The student must be able to identify variable terms vs. constants and successfully combine all coefficients of like variables into a single expression"
+    ],
+    "hint": "Straight from the 'Simplifying an algebraic' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify variable terms vs. constants and successfully combine all coefficients of like",
+    "id": "gen_c6_math_ch05_q14",
+    "nodeId": "c6_math_ch05_055",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create your own \"mystery bag\" word problem that results in the equation 2x + 5 = 15.",
+    "answer": "An example would be: \"I have 2 identical bags of apples and 5 loose apples. In total, I have 15 apples",
+    "options": [
+     "No, it cannot be simplified because $x$ and $y$ are different variables",
+     "An example is $5m + 3 + 2m$. The simplification is $7m + 3$. A poor answer would be $5m + 3 + 2n$, which contains no like terms",
+     "An example would be: \"I have 2 identical bags of apples and 5 loose apples. In total, I have 15 apples"
+    ],
+    "hint": "Straight from the 'linear equation in one variable' slide -- match the key terms.",
+    "misconception": "A poor answer would just be a list of numbers without a real-world scenario.",
     "id": "gen_c6_math_ch05_q15",
-    "nodeId": "c6_math_ch05_055",
+    "nodeId": "c6_math_ch05_056",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Evaluate the following: $2(x + 4) + 3x$.",
-    "answer": "Distribute the $2$ to get $2x + 8$, then add $3x$ to get $5x + 8$",
+    "question": "In the equation $5x + 2 = 2x + 11$, why do we move all $x$ terms to one side? 2-3 sentences.",
+    "answer": "We move all $x$ terms to one side to combine them into a single term, making it easier to solve for $x$",
     "options": [
-     "Letters allow us to solve for any situation at once, whereas trial-and-error is slow and only works for one specific case",
-     "It is simplest because one term has a variable ($x$) and the other is a constant ($5$), which are \"unlike\" terms",
-     "Correct the $2$ to get $2x + 8$, then add $3x$ to get $5x + 8$",
-     "Distribute the $2$ to get $2x + 8$, then add $3x$ to get $5x + 8$"
+     "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket",
+     "The number of apples is x + 4. Substituting 12 for x, we get 12 + 4 = 16 apples",
+     "We move all $x$ terms to one side to combine them into a single term, making it easier to solve for $x$"
     ],
-    "hint": "Straight from the 'Simplifying an algebraic' slide -- match the key terms.",
-    "misconception": "If a student gets $2x + 4 + 3x = 5x + 4$, they have forgotten to multiply the second term inside the parentheses by the coefficient outside.",
+    "hint": "Straight from the 'linear equation' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student doesn't understand that you cannot combine terms with $x$ and constants directly.",
     "id": "gen_c6_math_ch05_q16",
-    "nodeId": "c6_math_ch05_055",
+    "nodeId": "c6_math_ch05_057",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Simplify the expression: $7a - 2b + 3a + 5b$.",
-    "answer": "First, group the 'a' terms ($7a + 3a = 10a$) and the 'b' terms ($-2b + 5b = 3b$). The result is $10a + 3b$",
+    "question": "A basket has apples and oranges. There are 4 more apples than oranges. If there are 12 oranges, how do you express the number of apples using 'x' if 'x' is the number of oranges?",
+    "answer": "The number of apples is x + 4. Substituting 12 for x, we get 12 + 4 = 16 apples",
     "options": [
-     "The expression is 2 + 0.25b. A good answer includes the variable for the unknown number of notebooks and constants for the fixed weight",
-     "The part 5k changes as 'k' changes. Steps: 1. Identify k as the variable. 2. Recognize that multiplying 5 by a changing 'k' makes the result change",
-     "First, group the 'a' terms ($7a + 3a = 10a$) and the 'b' terms ($-2b + 5b = 3b$). The result is $10a + 3b$"
+     "It is not the most efficient; while mathematically possible, it leads to fractions (x - 1.5 = 2.5). Adding 6 first is better",
+     "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket",
+     "The number of apples is x + 4. Substituting 12 for x, we get 12 + 4 = 16 apples"
     ],
-    "hint": "Straight from the 'Simplifying an algebraic' slide -- match the key terms.",
-    "misconception": "A student who calculates $13ab$ or $10a - 3b$ has missed the sign of the constant or attempted to multiply the variables instead of adding the coefficients.",
+    "hint": "Straight from the 'Word problems leading to equations' slide -- match the key terms.",
+    "misconception": "If a student answers \"x - 4\", they are confusing \"more than\" with \"less than.\"",
     "id": "gen_c6_math_ch05_q17",
-    "nodeId": "c6_math_ch05_055",
+    "nodeId": "c6_math_ch05_058",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Why is $3x + 5$ already in its simplest form?",
-    "answer": "It is simplest because one term has a variable ($x$) and the other is a constant ($5$), which are \"unlike\" terms",
+    "question": "Create a simple word problem that results in the equation 2x + 10 = 30.",
+    "answer": "Example: \"A box has 30 marbles. There are two identical bags of marbles and 10 loose marbles. How many marbles are in one bag?",
     "options": [
-     "Letters allow us to solve for any situation at once, whereas trial-and-error is slow and only works for one specific case",
-     "Distribute the $2$ to get $2x + 8$, then add $3x$ to get $5x + 8$",
-     "It is simplest because one term has a variable ($x$) and the other is a constant ($5$), which are \"unlike\" terms"
+     "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable)",
+     "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket",
+     "Example: \"A box has 30 marbles. There are two identical bags of marbles and 10 loose marbles. How many marbles are in one bag?"
     ],
-    "hint": "Straight from the 'Simplifying an algebraic' slide -- match the key terms.",
-    "misconception": "A student who says \"it equals $8x$\" ignores the difference between a variable term and a standalone constant.",
+    "hint": "Straight from the 'Word problems leading to equations' slide -- match the key terms.",
+    "misconception": "A poor answer would be a random sentence that doesn't logically connect to the numbers provided.",
     "id": "gen_c6_math_ch05_q18",
-    "nodeId": "c6_math_ch05_055",
+    "nodeId": "c6_math_ch05_058",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about variable?",
+    "What surprised you about algebraic expression?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Variable mastered! 🎯",
+  "successLine": "Algebraic Expression mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c6_math_ch06",
-  "title": "Ratio",
+  "title": "Equivalent Ratios",
   "subtitle": "Mathematics · Chapter 6",
   "classLevel": 6,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Ratio",
+  "topic": "Equivalent Ratios",
   "chapters": [
-   "Mathematics Ch6: Ratio"
+   "Mathematics Ch6: Equivalent Ratios"
   ],
   "nodeIds": [
-   "c6_math_ch06_062",
    "c6_math_ch06_063",
    "c6_math_ch06_064",
    "c6_math_ch06_065",
    "c6_math_ch06_066",
    "c6_math_ch06_067",
-   "c6_math_ch06_068",
-   "c6_math_ch06_069"
+   "c6_math_ch06_068"
   ],
   "emoji": "🔢",
   "theme": {
@@ -2491,22 +2115,16 @@ export const C6_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Ratio suddenly stops working?",
+   "question": "What happens if Equivalent Ratios suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "A ratio is a way to compare two quantities of the same kind by showing how many times one quantity contains the other, usually written as a fraction"
+   "hook": "Equivalent ratios are two or more ratios that represent the same relative value, like simplifying a fraction, while a proportion is an equation"
   },
   "teaching": [
-   {
-    "title": "Ratio",
-    "text": "A ratio is a way to compare two quantities of the same kind by showing how many times one quantity contains the other, usually written as a fraction or with a colon. It tells us the relative size of two or more values.",
-    "emoji": "🔢",
-    "bgColor": "from-violet-400 to-purple-500"
-   },
    {
     "title": "Equivalent Ratios",
     "text": "Equivalent ratios are two or more ratios that represent the same relative value, like simplifying a fraction, while a proportion is an equation stating that two ratios are equal.",
@@ -2542,48 +2160,21 @@ export const C6_MATH_GEN: SimDef[] = [
     "text": "Ratio is a mathematical way of comparing two quantities of the same kind by division, showing how many times one quantity contains the other. A proportion is an equality between two ratios, indicating that two relationships are equivalent.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Ratio",
-    "text": "Ratio is a mathematical way to compare two quantities of the same kind by division, showing how many times one quantity contains the other. Proportion is a statement that two ratios are equal, indicating that the relationship between the quantities remains",
-    "emoji": "🔢",
-    "bgColor": "from-emerald-400 to-teal-500"
    }
   ],
   "challenges": [
    {
     "type": "mcq",
-    "question": "The ratio must follow the order stated; since red is mentioned first, it must be 10:15. A wrong answer suggests the student does not understand that order matters in ratios, unlike simple addition.",
-    "answer": "The ratio must follow the order specified in the question, which asks for red to blue; therefore, the number of red balls (10) must come before the number of blue balls (15)",
-    "options": [
-     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
-     "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers",
-     "The ratio must follow the order specified in the question, which asks for red to blue; therefore, the number of red balls (10) must come before the number of blue balls (15)"
-    ],
-    "hint": "Straight from the 'ratio' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals: A wrong answer reveals that the student does not understand that a ratio is an ordered pair, meaning they have failed to grasp that the sequence of numbers must correspond directly to the sequence of items mentioned in the problem statement.",
-    "id": "gen_c6_math_ch06_q1",
-    "nodeId": "c6_math_ch06_062",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are making lemonade and you need to mix 2 cups of sugar for every 6 cups of water.",
-     "To start, ask yourself: how many cups of sugar are there for every cup of water?",
-     "We write this comparison as 2:6.",
-     "Just like simplifying fractions, we can divide both numbers by 2 to get 1:3, which means for every 1 cup of sugar, you must use 3 cups of water."
-    ]
-   },
-   {
-    "type": "mcq",
     "question": "If $a:b = c:d$, why must $a \\times d$ equal $b \\times c$?",
     "answer": "Because $a/b = c/d$ is equivalent to $a \\times d = b \\times c$ when you clear the denominators",
     "options": [
-     "Since 10 is more than 5, the cost will be more",
-     "No. Using the cross-product rule: $2 \\times 7 = 14$ and $3 \\times 4 = 12$. Since $14 \\neq 12$, they are not equivalent",
+     "A good answer involves recipes, fuel consumption, or salary/wage calculations where increasing one part requires increasing the other proportionately",
+     "Yes, it is possible because the unitary method is a process used specifically to *find* the price of one unit first",
      "Because $a/b = c/d$ is equivalent to $a \\times d = b \\times c$ when you clear the denominators"
     ],
     "hint": "Straight from the 'Equivalent ratios' slide -- match the key terms.",
     "misconception": "A student who struggles here lacks the algebraic understanding of how equations work.",
-    "id": "gen_c6_math_ch06_q2",
+    "id": "gen_c6_math_ch06_q1",
     "nodeId": "c6_math_ch06_063",
     "difficulty": "standard",
     "workedExample": [
@@ -2594,16 +2185,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "math_input",
-    "question": "If 3 kilograms of sugar cost 135 rupees, how much will 7 kilograms cost?",
-    "answer": "315",
-    "mathInput": {
-     "tolerance": 0,
-     "placeholder": "rupees"
-    },
-    "hint": "Work it step by step, then enter the final value in rupees.",
-    "misconception": "If a student adds or subtracts, it shows they are failing to see the proportional relationship between quantity and price.",
-    "id": "gen_c6_math_ch06_q3",
+    "type": "mcq",
+    "question": "No, the method relies entirely on finding that \"one unit\" value first. If a student tries to guess without finding the unit value, they are abandoning the mathematical logic of the method.",
+    "answer": "Yes, it is possible because the unitary method is a process used specifically to *find* the price of one unit first",
+    "options": [
+     "The ratio is 4:20, which simplifies to 1:5",
+     "You will travel 20 km. This is because the time doubled, so the distance must also double to maintain the same speed (ratio)",
+     "Yes, it is possible because the unitary method is a process used specifically to *find* the price of one unit first"
+    ],
+    "hint": "Straight from the 'unitary method' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals that the student misunderstands the purpose of the unitary method, likely viewing it as a static formula rather than a two-step problem-solving strategy.",
+    "id": "gen_c6_math_ch06_q2",
     "nodeId": "c6_math_ch06_064",
     "difficulty": "advanced",
     "workedExample": [
@@ -2615,16 +2207,17 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Create a real-world scenario where two things are in direct proportion and explain your reasoning.",
-    "answer": "Example: \"The number of pages I read vs. the time taken.\" Reasoning: The more time I spend reading, the more pages I finish, and the rate (pages/minute) stays roughly constant",
+    "question": "If 4 pens cost 20 rupees, what is the ratio of pens to cost?",
+    "answer": "The ratio is 4:20, which simplifies to 1:5",
     "options": [
+     "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers",
      "No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas here",
-     "No, it does not. This is a part-to-part ratio; it only tells us the relationship between the two groups, not the actual total number of students, which could be 5, 10, or 50",
-     "Example: \"The number of pages I read vs. the time taken.\" Reasoning: The more time I spend reading, the more pages I finish, and the rate (pages/minute) stays roughly constant"
+     "You ratio is 4:20, which simplifies to 1:5",
+     "The ratio is 4:20, which simplifies to 1:5"
     ],
     "hint": "Straight from the 'Two quantities' slide -- match the key terms.",
-    "misconception": "A poor answer would describe something where one does not affect the other or they change inversely.",
-    "id": "gen_c6_math_ch06_q4",
+    "misconception": "A wrong answer (like 5:1) shows the student confused the order of quantities, putting cost before quantity.",
+    "id": "gen_c6_math_ch06_q3",
     "nodeId": "c6_math_ch06_065",
     "difficulty": "advanced",
     "workedExample": [
@@ -2676,7 +2269,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who guesses \"12 hours\" is incorrectly applying direct proportion (thinking more speed means more time).",
-    "id": "gen_c6_math_ch06_q5",
+    "id": "gen_c6_math_ch06_q4",
     "nodeId": "c6_math_ch06_066",
     "difficulty": "standard",
     "workedExample": [
@@ -2688,16 +2281,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "In a class, the ratio of boys to girls is 2:3. Does this ratio tell you the total number of students in the class? Why or why not?",
-    "answer": "No, it does not. This is a part-to-part ratio; it only tells us the relationship between the two groups, not the actual total number of students, which could be 5, 10, or 50",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify whether a ratio relationship describes a \"part versus part\" or \"part versus total\" scenario and correctly calculate both types given a set of",
     "options": [
-     "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the",
-     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
-     "No, it does not. This is a part-to-part ratio; it only tells us the relationship between the two groups, not the actual total number of students, which could be 5, 10, or 50"
+     "They do this because they are used to solving ratios and forget that in inverse proportion, the *product* stays the same, not the ratio",
+     "The student must be able to identify if two ratios form a proportion using the cross-product rule and generate equivalent ratios by multiplying or dividing both terms by the same",
+     "The student must be able to identify whether a ratio relationship describes a \"part versus part\" or \"part versus total\" scenario and correctly calculate both types given a set of"
     ],
     "hint": "Straight from the 'part-to-part ratio compares two' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, it does not. This is a part-to-part ratio; it only tells us the relationship between the two groups, not the actual",
-    "id": "gen_c6_math_ch06_q6",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify whether a ratio relationship describes a \"part versus part\" or \"part versus total\"",
+    "id": "gen_c6_math_ch06_q5",
     "nodeId": "c6_math_ch06_067",
     "difficulty": "standard",
     "workedExample": [
@@ -2712,13 +2305,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Create a real-world scenario where the ratio of two items must remain constant.",
     "answer": "A good answer involves recipes, fuel consumption, or salary/wage calculations where increasing one part requires increasing the other proportionately",
     "options": [
-     "No, it does not. This is a part-to-part ratio; it only tells us the relationship between the two groups, not the actual total number of students, which could be 5, 10, or 50",
-     "The ratio is 2:10, which simplifies to 1:5",
+     "The ratio is 4:20, which simplifies to 1:5",
+     "You will travel 20 km. This is because the time doubled, so the distance must also double to maintain the same speed (ratio)",
      "A good answer involves recipes, fuel consumption, or salary/wage calculations where increasing one part requires increasing the other proportionately"
     ],
     "hint": "Straight from the 'Ratio' slide -- match the key terms.",
     "misconception": "A poor answer gives an example where variables change independently, like a child's age versus their height.",
-    "id": "gen_c6_math_ch06_q7",
+    "id": "gen_c6_math_ch06_q6",
     "nodeId": "c6_math_ch06_068",
     "difficulty": "advanced",
     "workedExample": [
@@ -2730,83 +2323,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you have a map with a scale of 1:500, what does that \"1\" represent compared to the \"500\"?",
-    "answer": "The \"1\" represents a unit on the map (like 1 cm), while the \"500\" represents 500 of that same unit on the ground",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify if two ratios form a proportion using the cross-product rule and generate equivalent ratios by multiplying or dividing both terms by the same",
     "options": [
-     "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the",
-     "Because $a/b = c/d$ is equivalent to $a \\times d = b \\times c$ when you clear the denominators",
-     "The \"1\" represents a unit on the map (like 1 cm), while the \"500\" represents 500 of that same unit on the ground"
-    ],
-    "hint": "Straight from the 'Ratio' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The \"1\" represents a unit on the map (like 1 cm), while the \"500\" represents 500 of that same unit on the ground.",
-    "id": "gen_c6_math_ch06_q8",
-    "nodeId": "c6_math_ch06_069",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine you are baking a cake for your family of 4, and the recipe calls for 2 cups of sugar.",
-     "If 8 friends come over and you now need to feed 12 people in total, how much sugar do you need?",
-     "To solve this, first find the ratio of people (4:12), which simplifies to 1:3.",
-     "Because you have 3 times as many people, you must apply that same \"3 times\" multiplier to your sugar (2 cups × 3 = 6 cups)."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-world scenario where a ratio of 3:2 describes the situation.",
-    "answer": "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the",
-    "options": [
-     "No, it does not. This is a part-to-part ratio; it only tells us the relationship between the two groups, not the actual total number of students, which could be 5, 10, or 50",
-     "The ratio must follow the order specified in the question, which asks for red to blue; therefore, the number of red balls (10) must come before the number of blue balls (15)",
-     "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the"
-    ],
-    "hint": "Straight from the 'ratio' slide -- match the key terms.",
-    "misconception": "A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the ratio.",
-    "id": "gen_c6_math_ch06_q9",
-    "nodeId": "c6_math_ch06_062",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Simplify the ratio 12:18 to its lowest terms.",
-    "answer": "Divide both by 6 to get 2:3",
-    "options": [
-     "The ratio is 2:10, which simplifies to 1:5",
-     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
-     "New both by 6 to get 2:3",
-     "Divide both by 6 to get 2:3"
-    ],
-    "hint": "Straight from the 'ratio' slide -- match the key terms.",
-    "misconception": "If a student gets 6:9, they failed to find the greatest common divisor and did not fully simplify the ratio.",
-    "id": "gen_c6_math_ch06_q10",
-    "nodeId": "c6_math_ch06_062",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You have 2 meters of ribbon and 50 centimeters of lace. Can you write a ratio of 2:50? Why or why not?",
-    "answer": "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
-    "options": [
-     "Because $a/b = c/d$ is equivalent to $a \\times d = b \\times c$ when you clear the denominators",
-     "No, it does not. This is a part-to-part ratio; it only tells us the relationship between the two groups, not the actual total number of students, which could be 5, 10, or 50",
-     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1"
-    ],
-    "hint": "Straight from the 'ratio' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student ignores the rule that units must be the same.",
-    "id": "gen_c6_math_ch06_q11",
-    "nodeId": "c6_math_ch06_062",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is 2:3 equivalent to 4:7? Defend your answer.",
-    "answer": "No. Using the cross-product rule: $2 \\times 7 = 14$ and $3 \\times 4 = 12$. Since $14 \\neq 12$, they are not equivalent",
-    "options": [
-     "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the",
-     "The ratio must follow the order specified in the question, which asks for red to blue; therefore, the number of red balls (10) must come before the number of blue balls (15)",
-     "No. Using the cross-product rule: $2 \\times 7 = 14$ and $3 \\times 4 = 12$. Since $14 \\neq 12$, they are not equivalent"
+     "They do this because they are used to solving ratios and forget that in inverse proportion, the *product* stays the same, not the ratio",
+     "The student must be able to identify whether a ratio relationship describes a \"part versus part\" or \"part versus total\" scenario and correctly calculate both types given a set of",
+     "The student must be able to identify if two ratios form a proportion using the cross-product rule and generate equivalent ratios by multiplying or dividing both terms by the same"
     ],
     "hint": "Straight from the 'Equivalent ratios' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No. Using the cross-product rule: $2 \\times 7 = 14$ and $3 \\times 4 = 12$.",
-    "id": "gen_c6_math_ch06_q12",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify if two ratios form a proportion using the cross-product rule and generate",
+    "id": "gen_c6_math_ch06_q7",
     "nodeId": "c6_math_ch06_063",
     "difficulty": "standard"
    },
@@ -2815,75 +2341,44 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Create a real-world problem that can be solved using the unitary method and provide the first step of the solution.",
     "answer": "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers",
     "options": [
-     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
-     "No. Using the cross-product rule: $2 \\times 7 = 14$ and $3 \\times 4 = 12$. Since $14 \\neq 12$, they are not equivalent",
+     "The ratio is 4:20, which simplifies to 1:5",
+     "You will travel 20 km. This is because the time doubled, so the distance must also double to maintain the same speed (ratio)",
      "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers"
     ],
     "hint": "Straight from the 'unitary method' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?",
-    "id": "gen_c6_math_ch06_q13",
+    "id": "gen_c6_math_ch06_q8",
     "nodeId": "c6_math_ch06_064",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "If 3 kilograms of sugar cost 135 rupees, how much will 7 kilograms cost?",
-    "answer": "Step 1: Cost of 1 kg = 135 ÷ 3 = 45 rupees. Step 2: Cost of 7 kg = 7 × 45 = 315 rupees",
+    "question": "Create a real-world scenario where two things are in direct proportion and explain your reasoning.",
+    "answer": "Example: \"The number of pages I read vs. the time taken.\" Reasoning: The more time I spend reading, the more pages I finish, and the rate (pages/minute) stays roughly constant",
     "options": [
-     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
-     "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the",
-     "Step 1: Cost of 1 kg = 135 ÷ 3 = 45 rupees. Step 2: Cost of 7 kg = 7 × 45 = 315 rupees"
-    ],
-    "hint": "Straight from the 'unitary method' slide -- match the key terms.",
-    "misconception": "If a student adds or subtracts, it shows they are failing to see the proportional relationship between quantity and price.",
-    "id": "gen_c6_math_ch06_q14",
-    "nodeId": "c6_math_ch06_064",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "If 5 notebooks cost 100 rupees, how can you determine if 10 notebooks will cost more or less than 100 rupees?",
-    "answer": "Since 10 is more than 5, the cost will be more",
-    "options": [
-     "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1",
-     "The ratio must follow the order specified in the question, which asks for red to blue; therefore, the number of red balls (10) must come before the number of blue balls (15)",
-     "Because 10 is more than 5, the cost will be more",
-     "Since 10 is more than 5, the cost will be more"
-    ],
-    "hint": "Straight from the 'unitary method' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is not logically evaluating the relationship between quantity and total cost before calculating.",
-    "id": "gen_c6_math_ch06_q15",
-    "nodeId": "c6_math_ch06_064",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "No, the method relies entirely on finding that \"one unit\" value first. If a student tries to guess without finding the unit value, they are abandoning the mathematical logic of the method.",
-    "answer": "Yes, it is possible because the unitary method is a process used specifically to *find* the price of one unit first",
-    "options": [
-     "No. Using the cross-product rule: $2 \\times 7 = 14$ and $3 \\times 4 = 12$. Since $14 \\neq 12$, they are not equivalent",
      "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers",
-     "Yes, it is possible because the unitary method is a process used specifically to *find* the price of one unit first"
+     "A good answer involves recipes, fuel consumption, or salary/wage calculations where increasing one part requires increasing the other proportionately",
+     "Example: \"The number of pages I read vs. the time taken.\" Reasoning: The more time I spend reading, the more pages I finish, and the rate (pages/minute) stays roughly constant"
     ],
-    "hint": "Straight from the 'unitary method' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals that the student misunderstands the purpose of the unitary method, likely viewing it as a static formula rather than a two-step problem-solving strategy.",
-    "id": "gen_c6_math_ch06_q16",
-    "nodeId": "c6_math_ch06_064",
+    "hint": "Straight from the 'Two quantities' slide -- match the key terms.",
+    "misconception": "A poor answer would describe something where one does not affect the other or they change inversely.",
+    "id": "gen_c6_math_ch06_q9",
+    "nodeId": "c6_math_ch06_065",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Why do we divide the total cost by the number of items at the start?",
-    "answer": "We divide to find the \"unit price,\" which acts as a standard building block",
+    "question": "If you travel 10 km in 2 hours, how far will you travel in 4 hours? Explain why.",
+    "answer": "You will travel 20 km. This is because the time doubled, so the distance must also double to maintain the same speed (ratio)",
     "options": [
-     "Because the total amount of work is fixed; adding more hands to the job means each person does a smaller share of the work, finishing the project faster",
-     "The student must identify that 3 is the part and 10 is the total, meaning the other part must be 7",
-     "We divide to find the \"unit price,\" which acts as a standard building block"
+     "A good answer involves recipes, fuel consumption, or salary/wage calculations where increasing one part requires increasing the other proportionately",
+     "The ratio is 4:20, which simplifies to 1:5",
+     "You will travel 20 km. This is because the time doubled, so the distance must also double to maintain the same speed (ratio)"
     ],
-    "hint": "Straight from the 'unitary method' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks division is just a random rule rather than a tool to isolate the value of a single item.",
-    "id": "gen_c6_math_ch06_q17",
-    "nodeId": "c6_math_ch06_064",
+    "hint": "Straight from the 'Two quantities' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student doesn't see the multiplicative relationship between the two quantities.",
+    "id": "gen_c6_math_ch06_q10",
+    "nodeId": "c6_math_ch06_065",
     "difficulty": "advanced"
    },
    {
@@ -2891,24 +2386,84 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "A car travels at 40 km/h and reaches a destination in 6 hours. If the speed is increased to 80 km/h, how long will the journey take?",
     "answer": "Step 1: Product = 40 × 6 = 240. Step 2: New speed = 80. Step 3: Time = 240 / 80 = 3 hours",
     "options": [
-     "Because $a/b = c/d$ is equivalent to $a \\times d = b \\times c$ when you clear the denominators",
-     "Since 10 is more than 5, the cost will be more",
+     "A good answer involves recipes, fuel consumption, or salary/wage calculations where increasing one part requires increasing the other proportionately",
+     "You will travel 20 km. This is because the time doubled, so the distance must also double to maintain the same speed (ratio)",
      "Step 1: Product = 40 × 6 = 240. Step 2: New speed = 80. Step 3: Time = 240 / 80 = 3 hours"
     ],
     "hint": "Straight from the 'Inverse proportion' slide -- match the key terms.",
     "misconception": "A student who guesses \"12 hours\" is incorrectly applying direct proportion (thinking more speed means more time).",
-    "id": "gen_c6_math_ch06_q18",
+    "id": "gen_c6_math_ch06_q11",
+    "nodeId": "c6_math_ch06_066",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a real-world scenario involving inverse proportion that is NOT about workers or time.",
+    "answer": "Example: \"A fixed amount of money (₹100) is used to buy pens. If the price per pen increases, the number of pens you can buy decreases",
+    "options": [
+     "The ratio is 4:20, which simplifies to 1:5",
+     "No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas here",
+     "Example: \"A fixed amount of money (₹100) is used to buy pens. If the price per pen increases, the number of pens you can buy decreases"
+    ],
+    "hint": "Straight from the 'Inverse proportion' slide -- match the key terms.",
+    "misconception": "A poor answer would be \"Buying more apples costs more money,\" which is direct, not inverse, proportion.",
+    "id": "gen_c6_math_ch06_q12",
+    "nodeId": "c6_math_ch06_066",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a machine produces 100 items in 2 hours, and a faster machine produces 200 items in the same 2 hours, is this an inverse proportion? Why?",
+    "answer": "No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas here",
+    "options": [
+     "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers",
+     "The ratio is 4:20, which simplifies to 1:5",
+     "No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas here"
+    ],
+    "hint": "Straight from the 'Inverse proportion' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas",
+    "id": "gen_c6_math_ch06_q13",
+    "nodeId": "c6_math_ch06_066",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What common mix-up does this lesson flag about Inverse proportion?",
+    "answer": "They do this because they are used to solving ratios and forget that in inverse proportion, the *product* stays the same, not the ratio",
+    "options": [
+     "The student must be able to identify whether a ratio relationship describes a \"part versus part\" or \"part versus total\" scenario and correctly calculate both types given a set of",
+     "The student must be able to identify if two ratios form a proportion using the cross-product rule and generate equivalent ratios by multiplying or dividing both terms by the same",
+     "They do this because they are used to solving ratios and forget that in inverse proportion, the *product* stays the same, not the ratio"
+    ],
+    "hint": "Straight from the 'Inverse proportion' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: They do this because they are used to solving ratios and forget that in inverse proportion, the *product* stays the",
+    "id": "gen_c6_math_ch06_q14",
+    "nodeId": "c6_math_ch06_066",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why does the time taken to complete a task decrease when more workers are added?",
+    "answer": "Because the total amount of work is fixed; adding more hands to the job means each person does a smaller share of the work, finishing the project faster",
+    "options": [
+     "Yes, it is possible because the unitary method is a process used specifically to *find* the price of one unit first",
+     "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers",
+     "Because the total amount of work is fixed; adding more hands to the job means each person does a smaller share of the work, finishing the project faster"
+    ],
+    "hint": "Straight from the 'Inverse proportion' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Because the total amount of work is fixed; adding more hands to the job means each person does a smaller share of the",
+    "id": "gen_c6_math_ch06_q15",
     "nodeId": "c6_math_ch06_066",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about ratio?",
+    "What surprised you about equivalent ratios?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Ratio mastered! 🎯",
+  "successLine": "Equivalent Ratios mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2924,12 +2479,10 @@ export const C6_MATH_GEN: SimDef[] = [
    "Mathematics Ch7: Triangle"
   ],
   "nodeIds": [
-   "c6_math_ch07_070",
    "c6_math_ch07_071",
    "c6_math_ch07_072",
    "c6_math_ch07_073",
    "c6_math_ch07_074",
-   "c6_math_ch07_075",
    "c6_math_ch07_076",
    "c6_math_ch07_077",
    "c6_math_ch07_078",
@@ -2954,15 +2507,9 @@ export const C6_MATH_GEN: SimDef[] = [
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "A point is a precise location in space represented by a dot, a line segment is the shortest path between two fixed endpoints, and a line is a"
+   "hook": "Lines are classified by their mutual position: parallel lines never intersect despite infinite extension, intersecting lines share exactly one common"
   },
   "teaching": [
-   {
-    "title": "Point",
-    "text": "A point is a precise location in space represented by a dot, a line segment is the shortest path between two fixed endpoints, and a line is a collection of points that extends infinitely in two opposite directions.",
-    "emoji": "🔢",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
    {
     "title": "Lines",
     "text": "Lines are classified by their mutual position: parallel lines never intersect despite infinite extension, intersecting lines share exactly one common point, and perpendicular lines are a special case of intersecting lines that meet at a 90-degree angle.",
@@ -2984,12 +2531,6 @@ export const C6_MATH_GEN: SimDef[] = [
    {
     "title": "Quadrilateral",
     "text": "A quadrilateral is a closed two-dimensional shape formed by four straight line segments (sides) and four interior angles, where the sum of these interior angles is always 360 degrees.",
-    "emoji": "🔢",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Polygon",
-    "text": "A polygon is a simple, closed, two-dimensional figure formed by three or more straight line segments. A polygon is \"regular\" if all its sides are equal in length and all its interior angles are equal; otherwise, it is \"irregular.\"",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
    },
@@ -3051,37 +2592,16 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What are the two defining features of a line segment that make it different from a line?",
-    "answer": "A line segment has two fixed endpoints and a definite length",
-    "options": [
-     "Common answers include rectangles (windows/doors), circles (clocks/plates), and squares (floor tiles)",
-     "It is an imaginary line that divides a shape into two identical mirror-image halves",
-     "A line segment has two fixed endpoints and a definite length"
-    ],
-    "hint": "Straight from the 'point' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"it is a line\" shows the student hasn't grasped that a line segment is finite while a line is infinite.",
-    "id": "gen_c6_math_ch07_q1",
-    "nodeId": "c6_math_ch07_070",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever looked at a map and seen cities marked as tiny dots?",
-     "Start by drawing a dot on your paper—that is your \"Point.\" Now, take a pencil and draw the shortest path between two dots using a ruler; that is your",
-     "Finally, imagine that path doesn't stop and goes off the edge of your paper on both sides forever; that is a \"Line."
-    ]
-   },
-   {
-    "type": "mcq",
     "question": "If two lines are perpendicular, what must be true about the angle they make?",
     "answer": "They must meet at a right angle (90 degrees)",
     "options": [
-     "The lines are not parallel. A student answering \"they are still parallel\" is missing the core logic that the properties of angles only hold true when the lines are parallel",
-     "The two vertical bars are parallel to each other, and the horizontal bar is perpendicular to both vertical bars",
-     "Counting must meet at a right angle (90 degrees)",
+     "First, construct the perpendicular bisector to split the 12cm segment into two 6cm parts. Then, construct the perpendicular bisectors of those two new segments",
+     "The triangle must have two equal sides and one angle greater than 90 degrees. A poor answer ignores the \"isosceles\" requirement (two sides equal) or draws an acute triangle",
      "They must meet at a right angle (90 degrees)"
     ],
     "hint": "Straight from the 'Lines' slide -- match the key terms.",
     "misconception": "Answering \"they just touch\" ignores the specific requirement of the 90-degree turn, showing the student hasn't distinguished perpendicular lines from general intersecting ones.",
-    "id": "gen_c6_math_ch07_q2",
+    "id": "gen_c6_math_ch07_q1",
     "nodeId": "c6_math_ch07_071",
     "difficulty": "standard",
     "workedExample": [
@@ -3096,13 +2616,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Why do we have two sets of numbers (scales) on a standard protractor?",
     "answer": "To measure angles opening in either direction (left or right)",
     "options": [
-     "The diameter is a chord because it connects two points on the circle, but it is special because it is the longest possible chord as it passes through the center",
      "A good answer would describe a cereal box (cuboid) with 6 rectangular faces, 12 edges, and 8 vertices",
+     "The letter \"A\" has one vertical line of symmetry down its center, while the letter \"B\" has one horizontal line of symmetry through its middle",
      "To measure angles opening in either direction (left or right)"
     ],
     "hint": "Straight from the 'angle' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student doesn't understand how to align the protractor with the base ray.",
-    "id": "gen_c6_math_ch07_q3",
+    "id": "gen_c6_math_ch07_q2",
     "nodeId": "c6_math_ch07_072",
     "difficulty": "standard",
     "workedExample": [
@@ -3123,7 +2643,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'triangle' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, it cannot. A right-angled triangle must have one 90-degree angle; if it already has a 95-degree angle, the sum",
-    "id": "gen_c6_math_ch07_q4",
+    "id": "gen_c6_math_ch07_q3",
     "nodeId": "c6_math_ch07_073",
     "difficulty": "standard",
     "workedExample": [
@@ -3135,16 +2655,17 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Can a quadrilateral be a rectangle if it does not have four right angles? Why or why not?",
-    "answer": "No, a rectangle must have all four angles equal to 90 degrees by definition",
+    "question": "A quadrilateral has three angles measuring 80°, 100°, and 80°. What is the measure of the fourth angle?",
+    "answer": "The fourth angle is 100° (360 - 260 = 100)",
     "options": [
-     "No, because the properties of a square (four 90-degree angles and four equal sides) do not match the properties of a triangle (three sides and three internal angles)",
+     "The fourth angle is 80°. Calculation: 100 + 110 + 70 = 280; 360 - 280 = 80. Errors here usually stem from forgetting the \"360\" total or simple addition mistakes",
      "No, it cannot. A right-angled triangle must have one 90-degree angle; if it already has a 95-degree angle, the sum would exceed 180 degrees",
-     "No, a rectangle must have all four angles equal to 90 degrees by definition"
+     "You fourth angle is 100° (360 - 260 = 100)",
+     "The fourth angle is 100° (360 - 260 = 100)"
     ],
     "hint": "Straight from the 'quadrilateral' slide -- match the key terms.",
-    "misconception": "Answering \"yes\" indicates the student does not understand that properties define the name of the shape.",
-    "id": "gen_c6_math_ch07_q5",
+    "misconception": "If a student gets this wrong, they likely failed to subtract correctly from 360 or forgot the total sum rule.",
+    "id": "gen_c6_math_ch07_q4",
     "nodeId": "c6_math_ch07_074",
     "difficulty": "standard",
     "workedExample": [
@@ -3156,37 +2677,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If a quadrilateral has all sides equal but its corners are not the same size, is it a regular polygon? Why or why not?",
-    "answer": "No, it is not regular. To be regular, both sides AND angles must be equal; a student who says \"yes\" assumes that equal sides alone define a regular polygon",
-    "options": [
-     "Yes, because the SSS (Side-Side-Side) rule states that if three sides of one triangle are equal to the three sides of another, the triangles are congruent",
-     "No, because the properties of a square (four 90-degree angles and four equal sides) do not match the properties of a triangle (three sides and three internal angles)",
-     "No, it is not regular. To be regular, both sides AND angles must be equal; a student who says \"yes\" assumes that equal sides alone define a regular polygon"
-    ],
-    "hint": "Straight from the 'polygon' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, it is not regular. To be regular, both sides AND angles must be equal; a student who says \"yes\" assumes that equal",
-    "id": "gen_c6_math_ch07_q6",
-    "nodeId": "c6_math_ch07_075",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever noticed the shape of a street sign or the tiles on your floor?",
-     "To start, imagine drawing any shape on paper using only straight lines without lifting your pencil, finishing exactly where you started.",
-     "That closed shape is a polygon.",
-     "If you find that every side you drew is the exact same length and every corner \"bend\" is the same width, you have drawn a regular polygon."
-    ]
-   },
-   {
-    "type": "mcq",
     "question": "If a circle has a radius of 5 cm, why is it incorrect to say the diameter is 5 cm as well?",
     "answer": "It is incorrect because the diameter must stretch from one side to the other, covering two radii; thus, it is 10 cm",
     "options": [
+     "No, it cannot. A right-angled triangle must have one 90-degree angle; if it already has a 95-degree angle, the sum would exceed 180 degrees",
      "Yes, because a square satisfies all properties of a rectangle (opposite sides parallel, all angles 90°), plus it has the extra property of equal sides",
-     "Yes. Step 1: Measure all sides (all 5 cm). Step 2: Measure all angles (all 90 degrees). Step 3: Attempt to superimpose one over the other. Step 4: Confirm they match exactly",
      "It is incorrect because the diameter must stretch from one side to the other, covering two radii; thus, it is 10 cm"
     ],
     "hint": "Straight from the 'circle' slide -- match the key terms.",
     "misconception": "A student who says it remains 5 cm fails to understand that the diameter represents the full width, not just the distance from the center.",
-    "id": "gen_c6_math_ch07_q7",
+    "id": "gen_c6_math_ch07_q5",
     "nodeId": "c6_math_ch07_076",
     "difficulty": "standard",
     "workedExample": [
@@ -3205,7 +2705,7 @@ export const C6_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "an incorrect answer suggests the student is miscounting or missing hidden edges.",
-    "id": "gen_c6_math_ch07_q8",
+    "id": "gen_c6_math_ch07_q6",
     "nodeId": "c6_math_ch07_077",
     "difficulty": "standard",
     "workedExample": [
@@ -3216,15 +2716,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "math_input",
-    "question": "If you draw a rectangle that is not a square, how many lines of symmetry can you find?",
-    "answer": "1",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "If a student answers \"four,\" they are incorrectly assuming all four-sided shapes (quadrilaterals) have the same symmetry as a square.",
-    "id": "gen_c6_math_ch07_q9",
+    "type": "mcq",
+    "question": "Analyze the letter \"A\" and the letter \"B.\" Which one has a line of symmetry? Where is it located?",
+    "answer": "The letter \"A\" has one vertical line of symmetry down its center, while the letter \"B\" has one horizontal line of symmetry through its middle",
+    "options": [
+     "To measure angles opening in either direction (left or right)",
+     "A square must have 90-degree angles, whereas a rhombus does not require its angles to be 90 degrees",
+     "The letter \"A\" has one vertical line of symmetry down its center, while the letter \"B\" has one horizontal line of symmetry through its middle"
+    ],
+    "hint": "Straight from the 'Symmetry exists when a shape can' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The letter \"A\" has one vertical line of symmetry down its center, while the letter \"B\" has one horizontal line of",
+    "id": "gen_c6_math_ch07_q7",
     "nodeId": "c6_math_ch07_078",
     "difficulty": "standard",
     "workedExample": [
@@ -3236,16 +2738,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you have a triangle and a quadrilateral, which one has a larger sum of interior angles and why?",
-    "answer": "The quadrilateral has a larger sum (360°) because it has four sides instead of three, requiring more total rotation to close the shape",
+    "question": "In a quadrilateral, three angles are 100°, 110°, and 70°. Find the fourth angle.",
+    "answer": "The fourth angle is 80°. Calculation: 100 + 110 + 70 = 280; 360 - 280 = 80. Errors here usually stem from forgetting the \"360\" total or simple addition mistakes",
     "options": [
-     "You must ensure it has exactly eight straight sides and that the figure is closed",
-     "A rectangle has exactly two lines of symmetry: one horizontal and one vertical",
-     "The quadrilateral has a larger sum (360°) because it has four sides instead of three, requiring more total rotation to close the shape"
+     "No, it cannot. A right-angled triangle must have one 90-degree angle; if it already has a 95-degree angle, the sum would exceed 180 degrees",
+     "The fourth angle is 100° (360 - 260 = 100)",
+     "The fourth angle is 80°. Calculation: 100 + 110 + 70 = 280; 360 - 280 = 80. Errors here usually stem from forgetting the \"360\" total or simple addition mistakes"
     ],
     "hint": "Straight from the 'triangle' slide -- match the key terms.",
-    "misconception": "An incorrect answer suggests the student hasn't internalized the relationship between the number of sides and the total angle sum.",
-    "id": "gen_c6_math_ch07_q10",
+    "misconception": "Recheck the lesson slide -- the key claim is: The fourth angle is 80°. Calculation: 100 + 110 + 70 = 280; 360 - 280 = 80.",
+    "id": "gen_c6_math_ch07_q8",
     "nodeId": "c6_math_ch07_079",
     "difficulty": "advanced",
     "workedExample": [
@@ -3260,13 +2762,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "What are the three types of measurements required to construct a triangle according to our chapter syllabus?",
     "answer": "The required measurements are three sides (SSS), two sides and the included angle (SAS), or two angles and the included side (ASA)",
     "options": [
-     "Two shapes are congruent if they have the same shape and the same size",
-     "Common answers include rectangles (windows/doors), circles (clocks/plates), and squares (floor tiles)",
+     "The student must be able to correctly identify 3D shapes in real-world objects and name their components (faces, edges, and vertices) for cubes, cuboids, cylinders, cones",
+     "The student must be able to identify corresponding, alternate, and co-interior angle pairs when a transversal cuts two lines and correctly calculate missing angle measures given",
      "The required measurements are three sides (SSS), two sides and the included angle (SAS), or two angles and the included side (ASA)"
     ],
     "hint": "Straight from the 'Constructing triangles' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student has not yet memorized the basic criteria for triangle construction.",
-    "id": "gen_c6_math_ch07_q11",
+    "id": "gen_c6_math_ch07_q9",
     "nodeId": "c6_math_ch07_080",
     "difficulty": "advanced",
     "workedExample": [
@@ -3278,16 +2780,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the measure of the angle formed by two perpendicular lines?",
-    "answer": "The angle is exactly 90 degrees",
+    "question": "If you are asked to construct a perpendicular to a line from a point ON the line, why is it necessary to first mark two equidistant points on the line?",
+    "answer": "Those two points act as the new centers for the final arcs, ensuring the resulting line is perfectly vertical (perpendicular) to the original line at that specific point",
     "options": [
-     "The three dimensions are length, width, and depth (or height)",
-     "Common answers include rectangles (windows/doors), circles (clocks/plates), and squares (floor tiles)",
-     "The angle is exactly 90 degrees"
+     "First, construct the perpendicular bisector to split the 12cm segment into two 6cm parts. Then, construct the perpendicular bisectors of those two new segments",
+     "The two vertical bars are parallel to each other, and the horizontal bar is perpendicular to both vertical bars",
+     "Those two points act as the new centers for the final arcs, ensuring the resulting line is perfectly vertical (perpendicular) to the original line at that specific point"
     ],
     "hint": "Straight from the 'perpendicular line' slide -- match the key terms.",
-    "misconception": "If a student answers \"180 degrees\" or \"any angle,\" they likely confuse perpendicular lines with parallel lines or general intersecting lines.",
-    "id": "gen_c6_math_ch07_q12",
+    "misconception": "An incorrect answer indicates the student thinks the construction is arbitrary rather than based on symmetry.",
+    "id": "gen_c6_math_ch07_q10",
     "nodeId": "c6_math_ch07_081",
     "difficulty": "advanced",
     "workedExample": [
@@ -3302,13 +2804,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If a transversal cuts two parallel lines, how do we describe angles that are on the same side of the transversal and in the same relative position at each intersection?",
     "answer": "These are called corresponding angles",
     "options": [
-     "The two vertical bars are parallel to each other, and the horizontal bar is perpendicular to both vertical bars",
-     "A rectangle has exactly two lines of symmetry: one horizontal and one vertical",
+     "The student should draw or describe objects like two identical 10-rupee notes (congruent) versus a 10-rupee note and a 20-rupee note (not congruent)",
+     "Yes, because a square satisfies all properties of a rectangle (opposite sides parallel, all angles 90°), plus it has the extra property of equal sides",
      "These are called corresponding angles"
     ],
     "hint": "Straight from the 'transversal' slide -- match the key terms.",
     "misconception": "A wrong answer (like \"alternate\") suggests the student is mixing up the visual pattern; they likely need to re-draw the intersections and color-code the \"top-left\" or \"bottom-right\" positions to see the match.",
-    "id": "gen_c6_math_ch07_q13",
+    "id": "gen_c6_math_ch07_q11",
     "nodeId": "c6_math_ch07_082",
     "difficulty": "advanced",
     "workedExample": [
@@ -3319,70 +2821,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "order",
-    "question": "If two squares have a side length of 5 cm each, are they congruent? Explain the steps to verify.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Yes",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Attempt to superimpose one over the other",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s2",
-      "label": "Measure all sides",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s3",
-      "label": "Measure all angles",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s4",
-      "label": "Confirm they match exactly",
-      "emoji": "📌",
-      "correctBin": "o4"
-     }
+    "type": "mcq",
+    "question": "What is the primary condition for two shapes to be called congruent?",
+    "answer": "Two shapes are congruent if they have the same shape and the same size",
+    "options": [
+     "The student must be able to classify any given triangle based on its side lengths (equilateral, isosceles, scalene) or its interior angles (acute, right",
+     "The student must be able to draw, label, and distinguish between a radius, diameter, chord, and arc on a given circle and calculate the diameter when the radius is provided",
+     "Two shapes are congruent if they have the same shape and the same size"
     ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer shows confusion between \"equal area\" and \"congruence.\"",
-    "id": "gen_c6_math_ch07_q14",
+    "hint": "Straight from the 'Two geometric shapes' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student confuses congruence with similarity (same shape but different size).",
+    "id": "gen_c6_math_ch07_q12",
     "nodeId": "c6_math_ch07_083",
     "difficulty": "standard",
     "workedExample": [
@@ -3394,16 +2843,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Name three common geometric shapes found in the architecture of your house and identify where they appear.",
-    "answer": "Common answers include rectangles (windows/doors), circles (clocks/plates), and squares (floor tiles)",
+    "question": "If you look at an open door, how does the angle between the door and the wall change as you push it further open?",
+    "answer": "The angle becomes larger (the amount of rotation increases)",
     "options": [
-     "It is an imaginary line that divides a shape into two identical mirror-image halves",
-     "The angle is exactly 90 degrees",
-     "Common answers include rectangles (windows/doors), circles (clocks/plates), and squares (floor tiles)"
+     "The fourth angle is 80°. Calculation: 100 + 110 + 70 = 280; 360 - 280 = 80. Errors here usually stem from forgetting the \"360\" total or simple addition mistakes",
+     "No, it cannot. A right-angled triangle must have one 90-degree angle; if it already has a 95-degree angle, the sum would exceed 180 degrees",
+     "The angle becomes larger (the amount of rotation increases)"
     ],
     "hint": "Straight from the 'Geometry in real life' slide -- match the key terms.",
-    "misconception": "If a student names non-geometric objects (like \"a table\" without specifying a shape), it reveals they are not yet looking for the mathematical properties of the object.",
-    "id": "gen_c6_math_ch07_q15",
+    "misconception": "A wrong answer suggests the student confuses the length of the door (which stays the same) with the angle of opening (which increases), highlighting a misunderstanding of rotation.",
+    "id": "gen_c6_math_ch07_q13",
     "nodeId": "c6_math_ch07_084",
     "difficulty": "standard",
     "workedExample": [
@@ -3415,48 +2864,77 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Can a line be named using only one point? Justify your answer.",
-    "answer": "No, a line requires two points to be uniquely defined, or a single letter like $l$. A student saying \"yes\" hasn't understood that one point is not enough to show the direction or",
+    "question": "Draw a shape using only parallel and perpendicular lines. Explain your choice.",
+    "answer": "A rectangle or a square is the best example. A poor answer (like a triangle) reveals the student doesn't understand that parallel/perpendicular lines require specific orientations",
     "options": [
-     "Those two points act as the new centers for the final arcs, ensuring the resulting line is perfectly vertical (perpendicular) to the original line at that specific point",
-     "The answer should describe that since a right angle is 90°, and 45° is 90° divided by 2, they represent the same \"turn",
-     "No, a line requires two points to be uniquely defined, or a single letter like $l$. A student saying \"yes\" hasn't understood that one point is not enough to show the direction or"
+     "The two vertical bars are parallel to each other, and the horizontal bar is perpendicular to both vertical bars",
+     "First, construct the perpendicular bisector to split the 12cm segment into two 6cm parts. Then, construct the perpendicular bisectors of those two new segments",
+     "A rectangle or a square is the best example. A poor answer (like a triangle) reveals the student doesn't understand that parallel/perpendicular lines require specific orientations"
     ],
-    "hint": "Straight from the 'point' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, a line requires two points to be uniquely defined, or a single letter like $l$.",
-    "id": "gen_c6_math_ch07_q16",
-    "nodeId": "c6_math_ch07_070",
+    "hint": "Straight from the 'Lines' slide -- match the key terms.",
+    "misconception": "A poor answer (like a triangle) reveals the student doesn't understand that parallel/perpendicular lines require specific orientations that triangles don't consistently provide.",
+    "id": "gen_c6_math_ch07_q14",
+    "nodeId": "c6_math_ch07_071",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Create a drawing with three points (A, B, and C) that are not on the same line, and connect them to form three different line segments.",
-    "answer": "The student should draw a triangle-like shape with segments AB, BC, and CA",
+    "question": "If I extend two parallel lines for 1 kilometre, will they eventually meet? Why?",
+    "answer": "No, they will never meet because they maintain a constant distance from each other",
     "options": [
-     "No, because the properties of a square (four 90-degree angles and four equal sides) do not match the properties of a triangle (three sides and three internal angles)",
-     "The quadrilateral has a larger sum (360°) because it has four sides instead of three, requiring more total rotation to close the shape",
-     "The student should draw a triangle-like shape with segments AB, BC, and CA"
-    ],
-    "hint": "Straight from the 'point' slide -- match the key terms.",
-    "misconception": "An incorrect drawing shows a failure to connect specific points to form segments.",
-    "id": "gen_c6_math_ch07_q17",
-    "nodeId": "c6_math_ch07_070",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Draw a line segment AB and then extend it in both directions. What is the new name for your figure?",
-    "answer": "It is now called Line AB or line $l$",
-    "options": [
-     "No, a line requires two points to be uniquely defined, or a single letter like $l$. A student saying \"yes\" hasn't understood that one point is not enough to show the direction or",
+     "The student should draw or describe objects like two identical 10-rupee notes (congruent) versus a 10-rupee note and a 20-rupee note (not congruent)",
      "They must meet at a right angle (90 degrees)",
-     "It is now called Students or line $l$",
-     "It is now called Line AB or line $l$"
+     "No, they will never meet because they maintain a constant distance from each other"
     ],
-    "hint": "Straight from the 'point' slide -- match the key terms.",
-    "misconception": "If a student just labels it AB, they miss the concept that the name changes once it extends infinitely.",
+    "hint": "Straight from the 'Lines' slide -- match the key terms.",
+    "misconception": "Answering \"yes\" suggests the student thinks parallel lines are just \"lines that haven't met yet\" rather than lines that are physically incapable of meeting.",
+    "id": "gen_c6_math_ch07_q15",
+    "nodeId": "c6_math_ch07_071",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Look at the letter 'H'. Identify the relationship between the two vertical bars and the horizontal bar.",
+    "answer": "The two vertical bars are parallel to each other, and the horizontal bar is perpendicular to both vertical bars",
+    "options": [
+     "The student should draw or describe objects like two identical 10-rupee notes (congruent) versus a 10-rupee note and a 20-rupee note (not congruent)",
+     "The triangle must have two equal sides and one angle greater than 90 degrees. A poor answer ignores the \"isosceles\" requirement (two sides equal) or draws an acute triangle",
+     "The two vertical bars are parallel to each other, and the horizontal bar is perpendicular to both vertical bars"
+    ],
+    "hint": "Straight from the 'Lines' slide -- match the key terms.",
+    "misconception": "A student who misses the parallel relationship is not observing the relative positions of all parts of the shape.",
+    "id": "gen_c6_math_ch07_q16",
+    "nodeId": "c6_math_ch07_071",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Can a reflex angle be measured using a standard semi-circle protractor? If so, how?",
+    "answer": "Yes, by measuring the interior angle and subtracting it from 360°, or by measuring the \"gap\" and adding 180°",
+    "options": [
+     "The fourth angle is 80°. Calculation: 100 + 110 + 70 = 280; 360 - 280 = 80. Errors here usually stem from forgetting the \"360\" total or simple addition mistakes",
+     "No, it cannot. A right-angled triangle must have one 90-degree angle; if it already has a 95-degree angle, the sum would exceed 180 degrees",
+     "Yes, by measuring the interior angle and subtracting it from 360°, or by measuring the \"gap\" and adding 180°"
+    ],
+    "hint": "Straight from the 'angle' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates difficulty in visualizing the full 360° rotation.",
+    "id": "gen_c6_math_ch07_q17",
+    "nodeId": "c6_math_ch07_072",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare an equilateral triangle and a scalene triangle. What is the main difference in their side properties?",
+    "answer": "An equilateral triangle has all three sides equal, while a scalene triangle has all three sides of different lengths",
+    "options": [
+     "A box has flat surfaces (faces) and sharp corners (vertices) that allow it to remain stationary on a flat surface, while a sphere has a curved surface and no vertices",
+     "A cylinder has two flat circular faces and a curved surface, whereas a cone has only one circular face that tapers into a single point (vertex)",
+     "An equilateral triangle has all three sides equal, while a scalene triangle has all three sides of different lengths"
+    ],
+    "hint": "Straight from the 'triangle' slide -- match the key terms.",
+    "misconception": "Students often confuse \"equilateral\" with \"isosceles,\" requiring a review of the prefixes \"equi-\" (equal) and \"iso-\" (two).",
     "id": "gen_c6_math_ch07_q18",
-    "nodeId": "c6_math_ch07_070",
+    "nodeId": "c6_math_ch07_073",
     "difficulty": "standard"
    }
   ],
@@ -3472,19 +2950,18 @@ export const C6_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_math_ch08",
-  "title": "Area",
+  "title": "Perimeter",
   "subtitle": "Mathematics · Chapter 8",
   "classLevel": 6,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Area",
+  "topic": "Perimeter",
   "chapters": [
-   "Mathematics Ch8: Area"
+   "Mathematics Ch8: Perimeter"
   ],
   "nodeIds": [
    "c6_math_ch08_085",
    "c6_math_ch08_086",
-   "c6_math_ch08_087",
    "c6_math_ch08_088",
    "c6_math_ch08_089",
    "c6_math_ch08_090",
@@ -3500,7 +2977,7 @@ export const C6_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Area directly with your eyes?",
+   "question": "Can you see Perimeter directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -3521,12 +2998,6 @@ export const C6_MATH_GEN: SimDef[] = [
     "text": "Area is the total measure of the flat surface or region enclosed inside the boundary of a closed geometric figure. It represents the \"amount of space\" inside a shape, measured in square units.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Area",
-    "text": "Area is the measure of the total surface region covered by a closed two-dimensional shape. It represents how many unit squares (like 1 cm × 1 cm) can fit inside the boundary of the figure.",
-    "emoji": "🔢",
-    "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "Area Of a Parallelogram",
@@ -3574,15 +3045,15 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "If a triangle has a perimeter of 20 cm and two sides are 6 cm and 7 cm, how long is the third side?",
-    "answer": "The third side is 20 - (6 + 7) = 7 cm. A student failing this likely does not understand that the perimeter is the sum of all three sides and cannot perform inverse operations to",
+    "question": "Create a problem where a farmer needs to fence a field. Include at least three sides of different lengths.",
+    "answer": "A good problem would be: \"A triangular field has sides of 20 m, 30 m, and 40 m. How much wire is needed for one round of fencing?",
     "options": [
-     "A good problem would be: \"A triangular field has sides of 20 m, 30 m, and 40 m. How much wire is needed for one round of fencing?",
-     "Yes. You can rearrange the same pieces (like two rectangles) into a long thin shape or a compact square-like shape; the area stays the same, but the outer boundary length changes",
-     "The third side is 20 - (6 + 7) = 7 cm. A student failing this likely does not understand that the perimeter is the sum of all three sides and cannot perform inverse operations to"
+     "The area doubles. A student saying it stays the same or triples is not visualizing the relationship between the dimensions (Area = l × w)",
+     "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this",
+     "A good problem would be: \"A triangular field has sides of 20 m, 30 m, and 40 m. How much wire is needed for one round of fencing?"
     ],
     "hint": "Straight from the 'Perimeter' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The third side is 20 - (6 + 7) = 7 cm. A student failing this likely does not understand that the perimeter is the sum",
+    "misconception": "A poor answer would lack the \"closed figure\" aspect or fail to provide enough information to calculate a sum.",
     "id": "gen_c6_math_ch08_q1",
     "nodeId": "c6_math_ch08_085",
     "difficulty": "standard",
@@ -3598,7 +3069,7 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If you double the length of a rectangle while keeping the width the same, what happens to the area?",
     "answer": "The area doubles. A student saying it stays the same or triples is not visualizing the relationship between the dimensions (Area = l × w)",
     "options": [
-     "No, it is not double; it is four times larger",
+     "A possible answer is length=4, width=3, height=2. Calculation: 2(12+8+6) = 2(26) = 52. A poor answer uses random numbers without checking the formula",
      "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original",
      "The area doubles. A student saying it stays the same or triples is not visualizing the relationship between the dimensions (Area = l × w)"
     ],
@@ -3615,36 +3086,15 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Design a rectangle that has an area of 20 cm². What are the possible dimensions?",
-    "answer": "Possible answers include 4 cm × 5 cm, 2 cm × 10 cm, or 1 cm × 20 cm. An answer that doesn't multiply to 20 shows a failure to grasp the relationship between dimensions and total",
-    "options": [
-     "Because every cuboid has three pairs of identical opposite faces",
-     "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this",
-     "Possible answers include 4 cm × 5 cm, 2 cm × 10 cm, or 1 cm × 20 cm. An answer that doesn't multiply to 20 shows a failure to grasp the relationship between dimensions and total"
-    ],
-    "hint": "Straight from the 'Area' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Possible answers include 4 cm × 5 cm, 2 cm × 10 cm, or 1 cm × 20 cm.",
-    "id": "gen_c6_math_ch08_q3",
-    "nodeId": "c6_math_ch08_087",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are asked to cover the floor of your bedroom with square tiles.",
-     "How would you know how many tiles to buy?",
-     "You would start by measuring how long and wide the floor is.",
-     "If you place a grid of 1 cm squares over a shape, you are counting how much \"flat space\" it takes up."
-    ]
-   },
-   {
     "type": "math_input",
-    "question": "What is the formula to calculate the area of a triangle if you know its base ($b$) and its perpendicular height ($h$)?",
-    "answer": "1",
+    "question": "Compare the area of a parallelogram and a triangle that both have a base of 12 cm and a height of 4 cm. Which is larger and by how much?",
+    "answer": "48",
     "mathInput": {
      "tolerance": 0
     },
     "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A wrong answer like $A = b \\times h$ indicates the student is confusing the triangle formula with the parallelogram/rectangle formula, forgetting that a triangle is half of a parallelogram.",
-    "id": "gen_c6_math_ch08_q4",
+    "misconception": "A wrong answer shows a lack of understanding that the triangle formula is exactly half the area of the parallelogram formula.",
+    "id": "gen_c6_math_ch08_q3",
     "nodeId": "c6_math_ch08_088",
     "difficulty": "advanced",
     "workedExample": [
@@ -3655,15 +3105,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "math_input",
-    "question": "Calculate the area of a circular garden with a radius of 7 meters (use π = 22/7).",
-    "answer": "154",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "If a student gets 44, they likely calculated 2 × π × r (circumference) instead of the area.",
-    "id": "gen_c6_math_ch08_q5",
+    "type": "mcq",
+    "question": "Is it better to use π = 3.14 or π = 22/7 when the radius is a multiple of 7? Why?",
+    "answer": "It is better to use 22/7 because it allows for easy cancellation of the denominator when the radius is 7 or 14, making the calculation simpler and more accurate",
+    "options": [
+     "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
+     "A good problem would be: \"A triangular field has sides of 20 m, 30 m, and 40 m. How much wire is needed for one round of fencing?",
+     "It is better to use 22/7 because it allows for easy cancellation of the denominator when the radius is 7 or 14, making the calculation simpler and more accurate"
+    ],
+    "hint": "Straight from the 'area of a circle' slide -- match the key terms.",
+    "misconception": "A student who insists on 3.14 may struggle with long multiplication decimals unnecessarily.",
+    "id": "gen_c6_math_ch08_q4",
     "nodeId": "c6_math_ch08_089",
     "difficulty": "advanced",
     "workedExample": [
@@ -3675,16 +3127,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you split an L-shaped figure into two rectangles, does the sum of their perimeters equal the perimeter of the L-shape? Why or why not?",
-    "answer": "No, it does not, because the inner sides where the shapes are joined are no longer part of the outer boundary",
+    "question": "Is it possible for two different composite shapes to have the same area but different perimeters? Give a reason.",
+    "answer": "Yes. You can rearrange the same pieces (like two rectangles) into a long thin shape or a compact square-like shape; the area stays the same, but the outer boundary length changes",
     "options": [
-     "Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their perimeters are 16 and 14 units respectively",
-     "Yes, because different combinations of length, width, and height can result in the same total sum of face areas",
-     "No, it does not, because the inner sides where the shapes are joined are no longer part of the outer boundary"
+     "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original",
+     "The area doubles. A student saying it stays the same or triples is not visualizing the relationship between the dimensions (Area = l × w)",
+     "Yes. You can rearrange the same pieces (like two rectangles) into a long thin shape or a compact square-like shape; the area stays the same, but the outer boundary length changes"
     ],
     "hint": "Straight from the 'composite shape' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student does not realize that \"perimeter\" only counts the outside edges, not the internal lines used for measurement.",
-    "id": "gen_c6_math_ch08_q6",
+    "misconception": "A wrong answer reveals a lack of understanding of how shape configuration affects boundary length.",
+    "id": "gen_c6_math_ch08_q5",
     "nodeId": "c6_math_ch08_090",
     "difficulty": "advanced",
     "workedExample": [
@@ -3695,15 +3147,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "math_input",
-    "question": "A shipping box is 5 m long, 2 m wide, and 3 m high. Calculate its volume.",
-    "answer": "30",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A student who gets a different answer likely added the numbers (10) or missed one dimension, showing a struggle with the multiplication rule for 3D space.",
-    "id": "gen_c6_math_ch08_q7",
+    "type": "mcq",
+    "question": "What is the standard unit used to measure the volume of a box that has dimensions in centimetres?",
+    "answer": "The unit is cubic centimetres (cm³)",
+    "options": [
+     "The student must be able to distinguish between perimeter and area problems by reading keywords, select the correct formula, perform the calculation",
+     "The three components are the area of the top circle, the area of the bottom circle, and the area of the curved side",
+     "The unit is cubic centimetres (cm³)"
+    ],
+    "hint": "Straight from the 'Volume' slide -- match the key terms.",
+    "misconception": "If a student says \"cm\" or \"sq cm,\" they are confusing volume with length or area, indicating they have not yet distinguished between 1D, 2D, and 3D measurements.",
+    "id": "gen_c6_math_ch08_q6",
     "nodeId": "c6_math_ch08_091",
     "difficulty": "standard",
     "workedExample": [
@@ -3715,16 +3169,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What does \"surface area\" mean in the context of a 3D box?",
-    "answer": "It is the total area of all the outer faces of the object",
+    "question": "Design a box (cuboid) that has a surface area of 52 cm².",
+    "answer": "A possible answer is length=4, width=3, height=2. Calculation: 2(12+8+6) = 2(26) = 52. A poor answer uses random numbers without checking the formula",
     "options": [
-     "The formula is $A = \\frac{1}{2} \\times b \\times h$",
-     "The unit is cubic centimetres (cm³)",
-     "It is the total area of all the outer faces of the object"
+     "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
+     "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this",
+     "A possible answer is length=4, width=3, height=2. Calculation: 2(12+8+6) = 2(26) = 52. A poor answer uses random numbers without checking the formula"
     ],
     "hint": "Straight from the 'surface area of a 3D object' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"the space inside the box\" reveals a confusion between surface area and volume.",
-    "id": "gen_c6_math_ch08_q8",
+    "misconception": "A poor answer uses random numbers without checking the formula; this reveals a lack of understanding that the dimensions must satisfy the equation.",
+    "id": "gen_c6_math_ch08_q7",
     "nodeId": "c6_math_ch08_092",
     "difficulty": "standard",
     "workedExample": [
@@ -3740,12 +3194,12 @@ export const C6_MATH_GEN: SimDef[] = [
     "answer": "The three components are the area of the top circle, the area of the bottom circle, and the area of the curved side",
     "options": [
      "The unit is cubic centimetres (cm³)",
-     "It is the total area of all the outer faces of the object",
+     "The student must be able to distinguish between perimeter and area problems by reading keywords, select the correct formula, perform the calculation",
      "The three components are the area of the top circle, the area of the bottom circle, and the area of the curved side"
     ],
     "hint": "Straight from the 'cylinder' slide -- match the key terms.",
     "misconception": "Answering only \"the volume\" or just \"the circumference\" shows the student is confusing area with volume or linear measurement.",
-    "id": "gen_c6_math_ch08_q9",
+    "id": "gen_c6_math_ch08_q8",
     "nodeId": "c6_math_ch08_093",
     "difficulty": "standard",
     "workedExample": [
@@ -3757,16 +3211,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you have a wire of length 20 cm, why does bending it into different rectangular shapes change the area but keep the perimeter the same?",
-    "answer": "The perimeter remains constant because the total length of the wire (the boundary) does not change",
+    "question": "Is it possible for two different rectangles to have the same area but different perimeters? Explain.",
+    "answer": "Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their perimeters are 16 and 14 units respectively",
     "options": [
-     "Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their perimeters are 16 and 14 units respectively",
-     "Yes, because different combinations of length, width, and height can result in the same total sum of face areas",
-     "The perimeter remains constant because the total length of the wire (the boundary) does not change"
+     "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original",
+     "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
+     "Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their perimeters are 16 and 14 units respectively"
     ],
     "hint": "Straight from the 'Problem-solving in mensuration' slide -- match the key terms.",
-    "misconception": "An incorrect answer suggests the student thinks area and perimeter are always linked proportionally.",
-    "id": "gen_c6_math_ch08_q10",
+    "misconception": "Recheck the lesson slide -- the key claim is: Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their",
+    "id": "gen_c6_math_ch08_q9",
     "nodeId": "c6_math_ch08_094",
     "difficulty": "advanced",
     "workedExample": [
@@ -3775,34 +3229,6 @@ export const C6_MATH_GEN: SimDef[] = [
      "If you are covering the flat surface, it is an area problem—multiply the dimensions like $\\text{length} \\times \\text{breadth}$.",
      "Always label your answer clearly: cm or m for perimeter, and sq cm or sq m for area."
     ]
-   },
-   {
-    "type": "math_input",
-    "question": "Compare the area of a parallelogram and a triangle that both have a base of 12 cm and a height of 4 cm. Which is larger and by how much?",
-    "answer": "48",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A wrong answer shows a lack of understanding that the triangle formula is exactly half the area of the parallelogram formula.",
-    "id": "gen_c6_math_ch08_q11",
-    "nodeId": "c6_math_ch08_088",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a problem where a farmer needs to fence a field. Include at least three sides of different lengths.",
-    "answer": "A good problem would be: \"A triangular field has sides of 20 m, 30 m, and 40 m. How much wire is needed for one round of fencing?",
-    "options": [
-     "Possible answers include 4 cm × 5 cm, 2 cm × 10 cm, or 1 cm × 20 cm. An answer that doesn't multiply to 20 shows a failure to grasp the relationship between dimensions and total",
-     "The area doubles. A student saying it stays the same or triples is not visualizing the relationship between the dimensions (Area = l × w)",
-     "A good problem would be: \"A triangular field has sides of 20 m, 30 m, and 40 m. How much wire is needed for one round of fencing?"
-    ],
-    "hint": "Straight from the 'Perimeter' slide -- match the key terms.",
-    "misconception": "A poor answer would lack the \"closed figure\" aspect or fail to provide enough information to calculate a sum.",
-    "id": "gen_c6_math_ch08_q12",
-    "nodeId": "c6_math_ch08_085",
-    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -3815,7 +3241,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Area' slide -- match the key terms.",
     "misconception": "a poor answer ignores the need for both sets of dimensions.",
-    "id": "gen_c6_math_ch08_q13",
+    "id": "gen_c6_math_ch08_q10",
     "nodeId": "c6_math_ch08_086",
     "difficulty": "standard"
    },
@@ -3824,13 +3250,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Is it possible for two different rectangles to have the same area but different perimeters? Give an example.",
     "answer": "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this",
     "options": [
-     "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
-     "Yes. You can rearrange the same pieces (like two rectangles) into a long thin shape or a compact square-like shape; the area stays the same, but the outer boundary length changes",
+     "Yes. A cuboid of 4 × 3 × 2 cm (volume 24 cm³) and a cuboid of 6 × 2 × 2 cm (volume 24 cm³) have the same volume",
+     "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original",
      "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this"
     ],
     "hint": "Straight from the 'Area' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this.",
-    "id": "gen_c6_math_ch08_q14",
+    "id": "gen_c6_math_ch08_q11",
     "nodeId": "c6_math_ch08_086",
     "difficulty": "standard"
    },
@@ -3839,13 +3265,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Compare the area of a parallelogram and a triangle that both have a base of 12 cm and a height of 4 cm. Which is larger and by how much?",
     "answer": "The parallelogram ($48 \\text{ cm}^2$) is larger than the triangle ($24 \\text{ cm}^2$) by $24 \\text{ cm}^2$",
     "options": [
-     "Yes. A cuboid of 4 × 3 × 2 cm (volume 24 cm³) and a cuboid of 6 × 2 × 2 cm (volume 24 cm³) have the same volume",
-     "Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their perimeters are 16 and 14 units respectively",
+     "The unit is cubic centimetres (cm³)",
+     "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this",
      "The parallelogram ($48 \\text{ cm}^2$) is larger than the triangle ($24 \\text{ cm}^2$) by $24 \\text{ cm}^2$"
     ],
     "hint": "Straight from the 'area of a parallelogram' slide -- match the key terms.",
     "misconception": "A wrong answer shows a lack of understanding that the triangle formula is exactly half the area of the parallelogram formula.",
-    "id": "gen_c6_math_ch08_q15",
+    "id": "gen_c6_math_ch08_q12",
     "nodeId": "c6_math_ch08_088",
     "difficulty": "advanced"
    },
@@ -3854,13 +3280,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Create a scenario where a parallelogram and a triangle have the exact same area, even though their base and height are different.",
     "answer": "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
     "options": [
-     "Yes. A cuboid of 4 × 3 × 2 cm (volume 24 cm³) and a cuboid of 6 × 2 × 2 cm (volume 24 cm³) have the same volume",
-     "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original",
+     "A good problem involves calculating the total floor area, calculating the rug area, and subtracting the rug area from the floor area",
+     "Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their perimeters are 16 and 14 units respectively",
      "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)"
     ],
     "hint": "Straight from the 'area of a parallelogram' slide -- match the key terms.",
     "misconception": "A poor answer fails to use the formulas correctly to balance the values of $b$ and $h$.",
-    "id": "gen_c6_math_ch08_q16",
+    "id": "gen_c6_math_ch08_q13",
     "nodeId": "c6_math_ch08_088",
     "difficulty": "advanced"
    },
@@ -3869,39 +3295,84 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If you double the height of a triangle while keeping the base the same, what happens to the total area? Justify your answer.",
     "answer": "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original",
     "options": [
-     "A possible answer is length=4, width=3, height=2. Calculation: 2(12+8+6) = 2(26) = 52. A poor answer uses random numbers without checking the formula",
-     "No, it increases by four times. A student answering \"yes\" is ignoring the squared relationship in the formula (6s²), where doubling the base causes the area to quadruple",
+     "Yes. A 4x6 rectangle (Area 24, Perimeter 20) and a 3x8 rectangle (Area 24, Perimeter 22) prove this",
+     "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
      "The area also doubles. Because $A = \\frac{1}{2} \\times b \\times (2h) = 2 \\times (\\frac{1}{2} \\times b \\times h)$, the area becomes twice the original"
     ],
     "hint": "Straight from the 'area of a parallelogram' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student does not understand the proportional relationship between height and area.",
-    "id": "gen_c6_math_ch08_q17",
+    "id": "gen_c6_math_ch08_q14",
     "nodeId": "c6_math_ch08_088",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "What is the formula to calculate the area of a triangle if you know its base ($b$) and its perpendicular height ($h$)?",
-    "answer": "The formula is $A = \\frac{1}{2} \\times b \\times h$",
+    "question": "Create a real-world scenario where knowing the area of a circle is more important than knowing its circumference.",
+    "answer": "A good answer would involve buying paint for a circular tabletop or choosing the size of a circular rug to cover a floor",
     "options": [
-     "The three components are the area of the top circle, the area of the bottom circle, and the area of the curved side",
-     "The unit is cubic centimetres (cm³)",
-     "The formula is $A = \\frac{1}{2} \\times b \\times h$"
+     "The area doubles. A student saying it stays the same or triples is not visualizing the relationship between the dimensions (Area = l × w)",
+     "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
+     "A good answer would involve buying paint for a circular tabletop or choosing the size of a circular rug to cover a floor"
     ],
-    "hint": "Straight from the 'area of a parallelogram' slide -- match the key terms.",
-    "misconception": "A wrong answer like $A = b \\times h$ indicates the student is confusing the triangle formula with the parallelogram/rectangle formula, forgetting that a triangle is half of a parallelogram.",
-    "id": "gen_c6_math_ch08_q18",
-    "nodeId": "c6_math_ch08_088",
+    "hint": "Straight from the 'area of a circle' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A good answer would involve buying paint for a circular tabletop or choosing the size of a circular rug to cover a",
+    "id": "gen_c6_math_ch08_q15",
+    "nodeId": "c6_math_ch08_089",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Draw an L-shape and explain how you would calculate its area.",
+    "answer": "The student should describe splitting it into two rectangles, measuring the length and breadth of each, finding both areas, and adding them",
+    "options": [
+     "The area doubles. A student saying it stays the same or triples is not visualizing the relationship between the dimensions (Area = l × w)",
+     "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
+     "The student should describe splitting it into two rectangles, measuring the length and breadth of each, finding both areas, and adding them"
+    ],
+    "hint": "Straight from the 'composite shape' slide -- match the key terms.",
+    "misconception": "A poor answer fails to mention the \"split\" strategy or tries to use a single formula for the whole irregular shape.",
+    "id": "gen_c6_math_ch08_q16",
+    "nodeId": "c6_math_ch08_090",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a box that has a volume of 36 cm³. What could be its possible dimensions?",
+    "answer": "Any three numbers that multiply to 36 (e.g., 6 × 3 × 2, or 9 × 2 × 2, or 4 × 3 × 3). A poor answer would be a single number (like 36) or an incorrect set of factors",
+    "options": [
+     "Yes. A cuboid of 4 × 3 × 2 cm (volume 24 cm³) and a cuboid of 6 × 2 × 2 cm (volume 24 cm³) have the same volume",
+     "The student should set up 1540 = (22/7) × 7 × 7 × h, simplify to 1540 = 154 × h, and find h = 10 cm",
+     "Any three numbers that multiply to 36 (e.g., 6 × 3 × 2, or 9 × 2 × 2, or 4 × 3 × 3). A poor answer would be a single number (like 36) or an incorrect set of factors"
+    ],
+    "hint": "Straight from the 'Volume' slide -- match the key terms.",
+    "misconception": "A poor answer would be a single number (like 36) or an incorrect set of factors, indicating a lack of understanding of the volume formula.",
+    "id": "gen_c6_math_ch08_q17",
+    "nodeId": "c6_math_ch08_091",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it possible for two different-looking cuboids to have the same volume? Provide an example.",
+    "answer": "Yes. A cuboid of 4 × 3 × 2 cm (volume 24 cm³) and a cuboid of 6 × 2 × 2 cm (volume 24 cm³) have the same volume",
+    "options": [
+     "Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their perimeters are 16 and 14 units respectively",
+     "If a parallelogram has base 4 and height 3 ($Area=12$), a triangle could have base 6 and height 4 ($Area=\\frac{1}{2} \\times 6 \\times 4 = 12$)",
+     "Yes. A cuboid of 4 × 3 × 2 cm (volume 24 cm³) and a cuboid of 6 × 2 × 2 cm (volume 24 cm³) have the same volume"
+    ],
+    "hint": "Straight from the 'Volume' slide -- match the key terms.",
+    "misconception": "If a student says no, they believe volume is tied to the shape's specific \"look\" rather than the total capacity.",
+    "id": "gen_c6_math_ch08_q18",
+    "nodeId": "c6_math_ch08_091",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about area?",
+    "What surprised you about perimeter?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Area mastered! 🎯",
+  "successLine": "Perimeter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -4009,15 +3480,15 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "If you have a list of colours chosen by classmates (Red, Blue, Red, Green, Red), why do we organize them into a table instead of leaving them in a list?",
-    "answer": "A table allows us to compare and identify patterns (like the most popular colour) at a glance, whereas a raw list requires manual counting every single time",
+    "question": "Is it possible for data to be non-numeric (like names or colours) and still be \"data\"? Explain.",
+    "answer": "Yes, data is any collection of information, including qualitative descriptions like colours or preferences",
     "options": [
-     "Yes, a scale of 1 symbol = 6 units would work (2, 3, and 4 symbols respectively)",
-     "Using 1 unit = 5 makes the graph smaller and easier to draw on a single page, whereas 1 unit = 1 would require a paper 50 units tall",
-     "A table allows us to compare and identify patterns (like the most popular colour) at a glance, whereas a raw list requires manual counting every single time"
+     "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school",
+     "No, if frequencies are equal, they are tied for the most popular",
+     "Yes, data is any collection of information, including qualitative descriptions like colours or preferences"
     ],
     "hint": "Straight from the 'Data' slide -- match the key terms.",
-    "misconception": "A student who says \"it just looks neater\" misses the mathematical purpose: efficiency in data interpretation.",
+    "misconception": "A student who says \"no, data must be numbers\" has a limited view that ignores the descriptive nature of real-world information.",
     "id": "gen_c6_math_ch09_q1",
     "nodeId": "c6_math_ch09_095",
     "difficulty": "standard",
@@ -4029,15 +3500,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is a frequency table, and why do we use tally marks when creating one?",
-    "answer": "A frequency table is a way to organize data by listing categories and the number of times they occur",
+    "question": "If two different categories in your table have the same frequency, can you still decide which one is \"most popular\"?",
+    "answer": "No, if frequencies are equal, they are tied for the most popular",
     "options": [
-     "The mode is the value that occurs with the highest frequency in a data set",
-     "The main purpose is to compare two related sets of data side-by-side",
-     "A frequency table is a way to organize data by listing categories and the number of times they occur"
+     "Yes, because in a standard bar graph, the height of the bar is directly proportional to the frequency",
+     "No, the mode is the most frequent number, not the biggest one. For example, in 2, 2, 2, 9, 9, the mode is 2, even though 9 is the largest number",
+     "No, if frequencies are equal, they are tied for the most popular"
     ],
     "hint": "Straight from the 'Data handling' slide -- match the key terms.",
-    "misconception": "A wrong answer here shows the student thinks tally marks are just random decorations rather than a counting tool.",
+    "misconception": "A wrong answer suggests the student believes there must always be a single winner, ignoring the possibility of a tie.",
     "id": "gen_c6_math_ch09_q2",
     "nodeId": "c6_math_ch09_096",
     "difficulty": "standard",
@@ -4069,15 +3540,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you have data ranging from 0 to 50, why might you choose a scale where 1 unit equals 5 instead of 1 unit equals 1?",
-    "answer": "Using 1 unit = 5 makes the graph smaller and easier to draw on a single page, whereas 1 unit = 1 would require a paper 50 units tall",
+    "question": "If a bar graph's vertical axis starts at 0 and goes up by intervals of 10, but the highest value is 45, where should the top of the bar for 45 stop?",
+    "answer": "It should stop exactly halfway between the marks for 40 and 50. A student failing this likely struggles with understanding how to represent values that fall between marked",
     "options": [
-     "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school",
-     "A table allows us to compare and identify patterns (like the most popular colour) at a glance, whereas a raw list requires manual counting every single time",
-     "Using 1 unit = 5 makes the graph smaller and easier to draw on a single page, whereas 1 unit = 1 would require a paper 50 units tall"
+     "A bar graph is better when the data values are very large (e.g., population of cities) or very precise (e",
+     "The essential parts are: labels on the horizontal axis (categories), labels on the vertical axis (frequency/scale), and a clear title",
+     "It should stop exactly halfway between the marks for 40 and 50. A student failing this likely struggles with understanding how to represent values that fall between marked"
     ],
     "hint": "Straight from the 'bar graph' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student does not understand that the scale is a tool for fitting data into a manageable space.",
+    "misconception": "Recheck the lesson slide -- the key claim is: It should stop exactly halfway between the marks for 40 and 50. A student failing this likely struggles with",
     "id": "gen_c6_math_ch09_q4",
     "nodeId": "c6_math_ch09_098",
     "difficulty": "advanced",
@@ -4090,15 +3561,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the main purpose of using a double bar graph instead of two separate single bar graphs?",
-    "answer": "The main purpose is to compare two related sets of data side-by-side",
+    "question": "If a double bar graph has bars for 'Rainfall in 2023' and 'Rainfall in 2024' for different months, why is it important to use a key or legend?",
+    "answer": "The key identifies which color represents 2023 and which represents 2024",
     "options": [
-     "A frequency table is a way to organize data by listing categories and the number of times they occur",
-     "The mean is the sum of all values divided by the number of values",
-     "The main purpose is to compare two related sets of data side-by-side"
+     "It does not change the numerical data, but it makes the graph confusing and unprofessional",
+     "Yes, data is any collection of information, including qualitative descriptions like colours or preferences",
+     "The key identifies which color represents 2023 and which represents 2024"
     ],
     "hint": "Straight from the 'double bar graph' slide -- match the key terms.",
-    "misconception": "A student who says \"to show more numbers\" misses the core concept of comparison; they need to understand that the proximity of the two bars is what makes the analysis easier.",
+    "misconception": "A wrong answer like \"it looks pretty\" shows they don't grasp that the key is a functional tool for data identification.",
     "id": "gen_c6_math_ch09_q5",
     "nodeId": "c6_math_ch09_099",
     "difficulty": "standard",
@@ -4111,15 +3582,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the formula for calculating the mean of a set of numbers?",
-    "answer": "The mean is the sum of all values divided by the number of values",
+    "question": "A cricket player scores 0, 50, and 100 runs in three matches. Calculate the mean score.",
+    "answer": "(0 + 50 + 100) = 150. Then 150 / 3 = 50 runs",
     "options": [
-     "The mode is the value that occurs with the highest frequency in a data set",
-     "A frequency table is a way to organize data by listing categories and the number of times they occur",
-     "The mean is the sum of all values divided by the number of values"
+     "No, if frequencies are equal, they are tied for the most popular",
+     "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school",
+     "(0 + 50 + 100) = 150. Tally 150 / 3 = 50 runs",
+     "(0 + 50 + 100) = 150. Then 150 / 3 = 50 runs"
     ],
     "hint": "Straight from the 'mean' slide -- match the key terms.",
-    "misconception": "A wrong answer here usually implies the student is confusing \"mean\" with \"total,\" which indicates they missed the division step.",
+    "misconception": "A wrong answer might happen if the student ignores the '0' as a value, which is a common error in data handling.",
     "id": "gen_c6_math_ch09_q6",
     "nodeId": "c6_math_ch09_100",
     "difficulty": "standard",
@@ -4135,8 +3607,8 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If a student claims the median of {100, 10, 1} is 100 because it is the biggest, how would you evaluate their reasoning?",
     "answer": "The reasoning is incorrect because the median is the middle value, not the largest value. The correct median is 10 (after sorting: 1, 10, 100)",
     "options": [
-     "No, the mode is the most frequent number, not the biggest one. For example, in 2, 2, 2, 9, 9, the mode is 2, even though 9 is the largest number",
-     "You draw 3 full triangles ($3 \\times 2 = 6$) and one half-triangle to represent the remaining 1",
+     "No, if frequencies are equal, they are tied for the most popular",
+     "The row represents 40 books",
      "The reasoning is incorrect because the median is the middle value, not the largest value. The correct median is 10 (after sorting: 1, 10, 100)"
     ],
     "hint": "Straight from the 'median' slide -- match the key terms.",
@@ -4153,15 +3625,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the definition of the mode in a data set?",
-    "answer": "The mode is the value that occurs with the highest frequency in a data set",
+    "question": "Is the mode always the largest number in a data set? Explain.",
+    "answer": "No, the mode is the most frequent number, not the biggest one. For example, in 2, 2, 2, 9, 9, the mode is 2, even though 9 is the largest number",
     "options": [
-     "A frequency table is a way to organize data by listing categories and the number of times they occur",
-     "The mean is the sum of all values divided by the number of values",
-     "The mode is the value that occurs with the highest frequency in a data set"
+     "The reasoning is incorrect because the median is the middle value, not the largest value. The correct median is 10 (after sorting: 1, 10, 100)",
+     "A bar graph is better when the data values are very large (e.g., population of cities) or very precise (e",
+     "No, the mode is the most frequent number, not the biggest one. For example, in 2, 2, 2, 9, 9, the mode is 2, even though 9 is the largest number"
     ],
     "hint": "Straight from the 'mode' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"the average\" shows the student is confusing mode with mean, which requires calculation rather than simple counting.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, the mode is the most frequent number, not the biggest one. For example, in 2, 2, 2, 9, 9, the mode is 2, even",
     "id": "gen_c6_math_ch09_q8",
     "nodeId": "c6_math_ch09_102",
     "difficulty": "advanced",
@@ -4178,8 +3650,7 @@ export const C6_MATH_GEN: SimDef[] = [
     "answer": "The probability is 1/2 or 0.5",
     "options": [
      "Yes, data is any collection of information, including qualitative descriptions like colours or preferences",
-     "1) Determine the categories of vehicles (e.g., cars, bikes, buses). 2) Create a table with two columns: \"Vehicle Type\" and \"Tally Marks",
-     "We probability is 1/2 or 0.5",
+     "No, if frequencies are equal, they are tied for the most popular",
      "The probability is 1/2 or 0.5"
     ],
     "hint": "Straight from the 'Probability' slide -- match the key terms.",
@@ -4199,8 +3670,8 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "What is the purpose of using \"tally marks\" when counting a long list of items?",
     "answer": "Tally marks help in keeping an accurate count of items as you process a list one by one without losing track",
     "options": [
-     "A frequency table is a way to organize data by listing categories and the number of times they occur",
-     "The mean is the sum of all values divided by the number of values",
+     "The student can calculate the probability of simple events (like coin tosses or die rolls) and classify them as impossible, possible, or certain",
+     "It should stop exactly halfway between the marks for 40 and 50. A student failing this likely struggles with understanding how to represent values that fall between marked",
      "Tally marks help in keeping an accurate count of items as you process a list one by one without losing track"
     ],
     "hint": "Straight from the 'Data handling' slide -- match the key terms.",
@@ -4217,123 +3688,122 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Design a plan to collect data on the number of vehicles passing your school gate between 8:00 AM and 9:00 AM. What are your first three steps?",
-    "answer": "1) Determine the categories of vehicles (e.g., cars, bikes, buses). 2) Create a table with two columns: \"Vehicle Type\" and \"Tally Marks",
-    "options": [
-     "A bar graph is better when the data values are very large (e.g., population of cities) or very precise (e",
-     "Yes, data is any collection of information, including qualitative descriptions like colours or preferences",
-     "1) Determine the categories of vehicles (e.g., cars, bikes, buses). 2) Create a table with two columns: \"Vehicle Type\" and \"Tally Marks"
-    ],
-    "hint": "Straight from the 'Data' slide -- match the key terms.",
-    "misconception": "A poor answer would lack a structured table or clear categories.",
-    "id": "gen_c6_math_ch09_q11",
-    "nodeId": "c6_math_ch09_095",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it possible for data to be non-numeric (like names or colours) and still be \"data\"? Explain.",
-    "answer": "Yes, data is any collection of information, including qualitative descriptions like colours or preferences",
-    "options": [
-     "No, if frequencies are equal, they are tied for the most popular",
-     "The row represents 40 books",
-     "Yes, data is any collection of information, including qualitative descriptions like colours or preferences"
-    ],
-    "hint": "Straight from the 'Data' slide -- match the key terms.",
-    "misconception": "A student who says \"no, data must be numbers\" has a limited view that ignores the descriptive nature of real-world information.",
-    "id": "gen_c6_math_ch09_q12",
-    "nodeId": "c6_math_ch09_095",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is it important to use a consistent scale when organizing data?",
-    "answer": "A consistent scale ensures that comparisons between different categories are fair and accurate",
-    "options": [
-     "To ensure the comparison is fair; if one bar is wider, it might visually mislead the viewer into thinking that category is \"larger\" or \"more important",
-     "A list of names requires reading every single entry to find a pattern, whereas a tally system groups them, allowing for an instant visual comparison of totals",
-     "A consistent scale ensures that comparisons between different categories are fair and accurate"
-    ],
-    "hint": "Straight from the 'Data' slide -- match the key terms.",
-    "misconception": "If a student says \"it makes the table look pretty,\" they have failed to grasp that scale is about mathematical accuracy, not artistic design.",
-    "id": "gen_c6_math_ch09_q13",
-    "nodeId": "c6_math_ch09_095",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You survey 10 friends about their favourite sport. Four say Cricket, three say Hockey, and three say Football. How would you represent \"Four\" using tally marks?",
-    "answer": "Four is represented as ||||",
-    "options": [
-     "The row represents 40 books",
-     "Yes, a scale of 1 symbol = 6 units would work (2, 3, and 4 symbols respectively)",
-     "Equal is represented as ||||",
-     "Four is represented as ||||"
-    ],
-    "hint": "Straight from the 'Data' slide -- match the key terms.",
-    "misconception": "A student who writes ||||| (five marks) is likely miscounting or failing to distinguish between the count of 4 and the standard way to group 5 (a diagonal line across four marks).",
-    "id": "gen_c6_math_ch09_q14",
-    "nodeId": "c6_math_ch09_095",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If two different categories in your table have the same frequency, can you still decide which one is \"most popular\"?",
-    "answer": "No, if frequencies are equal, they are tied for the most popular",
-    "options": [
-     "1) Determine the categories of vehicles (e.g., cars, bikes, buses). 2) Create a table with two columns: \"Vehicle Type\" and \"Tally Marks",
-     "You draw 3 full triangles ($3 \\times 2 = 6$) and one half-triangle to represent the remaining 1",
-     "No, if frequencies are equal, they are tied for the most popular"
-    ],
-    "hint": "Straight from the 'Data handling' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student believes there must always be a single winner, ignoring the possibility of a tie.",
-    "id": "gen_c6_math_ch09_q15",
-    "nodeId": "c6_math_ch09_096",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "If you were asked to record the eye color of every student in your school, how would you design a data collection sheet to make organizing it later easier?",
     "answer": "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school",
     "options": [
      "A bar graph is better when the data values are very large (e.g., population of cities) or very precise (e",
-     "You draw 3 full triangles ($3 \\times 2 = 6$) and one half-triangle to represent the remaining 1",
+     "It should stop exactly halfway between the marks for 40 and 50. A student failing this likely struggles with understanding how to represent values that fall between marked",
      "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school"
     ],
     "hint": "Straight from the 'Data handling' slide -- match the key terms.",
     "misconception": "A poor answer (like just \"I would write them in a notebook\") fails to recognize that pre-organizing the labels makes the actual data collection much faster and less error-prone.",
-    "id": "gen_c6_math_ch09_q16",
+    "id": "gen_c6_math_ch09_q11",
     "nodeId": "c6_math_ch09_096",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Why is it better to represent 25 students using a tally system rather than just writing a long list of their names in a row?",
-    "answer": "A list of names requires reading every single entry to find a pattern, whereas a tally system groups them, allowing for an instant visual comparison of totals",
+    "question": "If a pictograph uses one star symbol to represent 10 books, how many books does a row with 4 stars represent?",
+    "answer": "The row represents 40 books",
     "options": [
-     "Probability must be between 0 and 1 because you cannot have more favourable outcomes than there are total outcomes",
-     "Equal gaps ensure that the bars are visually independent and distinct, making it easy to compare the height of one category against another",
-     "A list of names requires reading every single entry to find a pattern, whereas a tally system groups them, allowing for an instant visual comparison of totals"
-    ],
-    "hint": "Straight from the 'Data handling' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student doesn't see the benefit of summarization in data handling.",
-    "id": "gen_c6_math_ch09_q17",
-    "nodeId": "c6_math_ch09_096",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A canteen sells samosas. If the key says one triangle = 2 samosas, and you need to show that 7 samosas were sold, how do you represent the last one?",
-    "answer": "You draw 3 full triangles ($3 \\times 2 = 6$) and one half-triangle to represent the remaining 1",
-    "options": [
-     "No, if frequencies are equal, they are tied for the most popular",
+     "It should stop exactly halfway between the marks for 40 and 50. A student failing this likely struggles with understanding how to represent values that fall between marked",
      "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school",
-     "You draw 3 full triangles ($3 \\times 2 = 6$) and one half-triangle to represent the remaining 1"
+     "The row represents 40 books"
     ],
     "hint": "Straight from the 'pictograph' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student does not understand how to represent \"parts\" of the scale value.",
-    "id": "gen_c6_math_ch09_q18",
+    "misconception": "A wrong answer (like 4) suggests the student is counting the symbols rather than multiplying by the scale, ignoring the \"key\" entirely.",
+    "id": "gen_c6_math_ch09_q12",
     "nodeId": "c6_math_ch09_097",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it possible to use a pictograph to represent data where the counts are 12, 18, and 24? Suggest a suitable scale.",
+    "answer": "Yes, a scale of 1 symbol = 6 units would work (2, 3, and 4 symbols respectively)",
+    "options": [
+     "It does not change the numerical data, but it makes the graph confusing and unprofessional",
+     "A bar graph is better when the data values are very large (e.g., population of cities) or very precise (e",
+     "Yes, a scale of 1 symbol = 6 units would work (2, 3, and 4 symbols respectively)"
+    ],
+    "hint": "Straight from the 'pictograph' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student hasn't grasped that the scale must be a common factor of the data values for an exact representation.",
+    "id": "gen_c6_math_ch09_q13",
+    "nodeId": "c6_math_ch09_097",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a plan for a bar graph showing the number of students who walk, cycle, or take a bus to school. What are the three essential parts you must include?",
+    "answer": "The essential parts are: labels on the horizontal axis (categories), labels on the vertical axis (frequency/scale), and a clear title",
+    "options": [
+     "It does not change the numerical data, but it makes the graph confusing and unprofessional",
+     "No, the mode is the most frequent number, not the biggest one. For example, in 2, 2, 2, 9, 9, the mode is 2, even though 9 is the largest number",
+     "The essential parts are: labels on the horizontal axis (categories), labels on the vertical axis (frequency/scale), and a clear title"
+    ],
+    "hint": "Straight from the 'bar graph' slide -- match the key terms.",
+    "misconception": "A poor answer that omits labels indicates the student does not understand that a graph is a communication tool, not just a set of bars.",
+    "id": "gen_c6_math_ch09_q14",
+    "nodeId": "c6_math_ch09_098",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a scenario where a double bar graph would be more useful than a pictograph.",
+    "answer": "A good answer would be \"comparing the population of two states over 10 years,\" because the numbers are too large for pictures",
+    "options": [
+     "Yes, data is any collection of information, including qualitative descriptions like colours or preferences",
+     "No, if frequencies are equal, they are tied for the most popular",
+     "A good answer would be \"comparing the population of two states over 10 years,\" because the numbers are too large for pictures"
+    ],
+    "hint": "Straight from the 'double bar graph' slide -- match the key terms.",
+    "misconception": "A poor answer would be \"counting toys,\" as that is better suited for a simple list or pictograph.",
+    "id": "gen_c6_math_ch09_q15",
+    "nodeId": "c6_math_ch09_099",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If the gap between the two bars of a pair is inconsistent (e.g., one pair is touching, another pair has a wide gap), does it affect the accuracy of the data?",
+    "answer": "It does not change the numerical data, but it makes the graph confusing and unprofessional",
+    "options": [
+     "Yes, data is any collection of information, including qualitative descriptions like colours or preferences",
+     "A good answer would be \"comparing the population of two states over 10 years,\" because the numbers are too large for pictures",
+     "It does not change the numerical data, but it makes the graph confusing and unprofessional"
+    ],
+    "hint": "Straight from the 'double bar graph' slide -- match the key terms.",
+    "misconception": "A student who says \"it's fine\" fails to see that graphs are communication tools that require consistency for clarity.",
+    "id": "gen_c6_math_ch09_q16",
+    "nodeId": "c6_math_ch09_099",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Does adding a very large value (an outlier) to a data set always change the mean? Why?",
+    "answer": "Yes, it increases the sum significantly, which raises the mean",
+    "options": [
+     "A bar graph is better when the data values are very large (e.g., population of cities) or very precise (e",
+     "The reasoning is incorrect because the median is the middle value, not the largest value. The correct median is 10 (after sorting: 1, 10, 100)",
+     "Yes, it increases the sum significantly, which raises the mean"
+    ],
+    "hint": "Straight from the 'mean' slide -- match the key terms.",
+    "misconception": "If a student says \"no,\" they don't yet understand that the mean is sensitive to extreme values.",
+    "id": "gen_c6_math_ch09_q17",
+    "nodeId": "c6_math_ch09_100",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a scenario where the probability of an event is 1.",
+    "answer": "An example is: \"What is the probability that the sun will rise tomorrow?\" or \"If a bag contains only red balls, what is the probability of picking a red ball?",
+    "options": [
+     "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school",
+     "The probability is 1/2 or 0.5",
+     "An example is: \"What is the probability that the sun will rise tomorrow?\" or \"If a bag contains only red balls, what is the probability of picking a red ball?"
+    ],
+    "hint": "Straight from the 'Probability' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: An example is: \"What is the probability that the sun will rise tomorrow?",
+    "id": "gen_c6_math_ch09_q18",
+    "nodeId": "c6_math_ch09_103",
     "difficulty": "standard"
    }
   ],
@@ -4436,14 +3906,16 @@ export const C6_MATH_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "math_input",
-    "question": "Draw a rectangle on a piece of paper. How many lines of symmetry can you find by folding it?",
-    "answer": "1",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "If a student says \"four,\" they are confusing a rectangle with a square; if they say \"one,\" they likely missed the second axis of reflection.",
+    "type": "mcq",
+    "question": "Can a triangle have more than one line of symmetry? Explain your reasoning.",
+    "answer": "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal",
+    "options": [
+     "This is false; buildings can have one line (like many houses), four lines (like a square-based structure), or even none if the architecture is asymmetrical",
+     "Yes, a line of symmetry is a property of the shape's own structure, regardless of its orientation in space",
+     "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal"
+    ],
+    "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal.",
     "id": "gen_c6_math_ch10_q1",
     "nodeId": "c6_math_ch10_105",
     "difficulty": "standard",
@@ -4475,15 +3947,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Does the number '3' have a line of symmetry? If so, is it horizontal or vertical?",
-    "answer": "The number '3' has a horizontal line of symmetry (if drawn with a flat top and bottom)",
+    "question": "Compare the symmetry of the letter 'M' and the letter 'O'. Why is one more symmetrical than the other?",
+    "answer": "'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry. A student struggling here might only see \"balance\" rather than specific",
     "options": [
-     "Yes, a line of symmetry is a property of the shape's own structure, regardless of its orientation in space",
-     "No, a line of symmetry must divide a figure into two identical halves that overlap perfectly when folded",
-     "The number '3' has a horizontal line of symmetry (if drawn with a flat top and bottom)"
+     "The hexagon has an order of 6, while the square has an order of 4; therefore, the hexagon is higher",
+     "A butterfly has a definite, repeating pattern (reflectional), whereas a cloud has no fixed, repeating structure",
+     "'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry. A student struggling here might only see \"balance\" rather than specific"
     ],
     "hint": "Straight from the 'letter or number has a' slide -- match the key terms.",
-    "misconception": "A student who says \"vertical\" or \"no\" may not have visualized the \"fold\" along the middle of the digit.",
+    "misconception": "Recheck the lesson slide -- the key claim is: 'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry.",
     "id": "gen_c6_math_ch10_q3",
     "nodeId": "c6_math_ch10_107",
     "difficulty": "standard",
@@ -4534,15 +4006,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you look at the front of a rectangular building with a door exactly in the center, why do we say it is symmetric?",
-    "answer": "It is symmetric because the vertical line passing through the center of the door creates two sides that are mirror reflections of each other",
+    "question": "If a square-shaped courtyard has a pattern that looks the same after a 90-degree turn, does it have rotational symmetry?",
+    "answer": "Yes, because it returns to its original appearance after a partial rotation",
     "options": [
-     "When you cut a shape from a folded piece of paper, you are cutting through two layers of paper at once",
-     "It will look identical 5 times (including the final 360-degree position). A student might incorrectly guess 4 or 6",
-     "It is symmetric because the vertical line passing through the center of the door creates two sides that are mirror reflections of each other"
+     "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal",
+     "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal)",
+     "Yes, because it returns to its original appearance after a partial rotation"
     ],
     "hint": "Straight from the 'Symmetry in art and architecture' slide -- match the key terms.",
-    "misconception": "A student who says \"because it's a rectangle\" misses the point; a rectangle is symmetric, but the architecture's symmetry depends on the placement of features like the door and windows relative to that central line.",
+    "misconception": "A wrong answer suggests the student confuses rotational symmetry with line symmetry; they are testing for \"look-alike\" positions after turning, not folding.",
     "id": "gen_c6_math_ch10_q6",
     "nodeId": "c6_math_ch10_110",
     "difficulty": "standard",
@@ -4576,15 +4048,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is a \"line of symmetry\" in a paper-cutting activity? [Recall]",
-    "answer": "It is the specific line along which you fold the paper so that the two sides overlap perfectly",
+    "question": "The fold acts as a line of symmetry, reflecting the cut to the other half of the paper. A wrong answer (like \"because the paper is thick\") shows they are focusing on the physical material rather than the geometric property of reflection.",
+    "answer": "When you cut a shape from a folded piece of paper, you are cutting through two layers of paper at once",
     "options": [
-     "It is called the line of symmetry",
-     "No, a line of symmetry must divide a figure into two identical halves that overlap perfectly when folded",
-     "It is the specific line along which you fold the paper so that the two sides overlap perfectly"
+     "A rectangle (that is not a square) is a classic example. A third line (like a diagonal) would result in parts that do not overlap",
+     "Yes, an example is a pinwheel-like flower or a spiral shell. A student might argue \"no\" because they are stuck on the idea that symmetry must be a \"mirror fold,\" failing to",
+     "When you cut a shape from a folded piece of paper, you are cutting through two layers of paper at once"
     ],
     "hint": "Straight from the 'Creating symmetric shapes' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks it is just any line drawn on a paper; this reveals they haven't grasped the concept of \"overlapping\" or \"mirroring.\"",
+    "misconception": "a Wrong Answer: A wrong answer (such as claiming the hole \"magically doubles\" or happens because the paper is \"strong\") reveals a lack of understanding regarding symmetry and spatial reasoning.",
     "id": "gen_c6_math_ch10_q8",
     "nodeId": "c6_math_ch10_112",
     "difficulty": "advanced",
@@ -4597,76 +4069,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Can a triangle have more than one line of symmetry? Explain your reasoning.",
-    "answer": "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal",
-    "options": [
-     "The number '3' has a horizontal line of symmetry (if drawn with a flat top and bottom)",
-     "'H' has two lines of symmetry: one vertical (down the center) and one horizontal (across the middle)",
-     "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal"
-    ],
-    "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal.",
-    "id": "gen_c6_math_ch10_q9",
-    "nodeId": "c6_math_ch10_105",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Design a simple shape that has at least two lines of symmetry and draw it on a grid.",
     "answer": "The student should draw a shape like a cross or a rectangle. A poor answer would be an irregular, lopsided shape",
     "options": [
-     "No, only lines passing through the midpoints of opposite sides are lines of symmetry; diagonals in a non-square rectangle do not create identical halves",
-     "A rectangle has two lines of symmetry: one horizontal and one vertical",
+     "Yes, it possesses rotational symmetry because it repeats its appearance before a full 360-degree turn",
+     "The student should describe a cross-like or oval-like shape where you can fold it vertically and horizontally",
      "The student should draw a shape like a cross or a rectangle. A poor answer would be an irregular, lopsided shape"
     ],
     "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
     "misconception": "A poor answer would be an irregular, lopsided shape, showing the student doesn't grasp that symmetry requires balanced, mirrored construction.",
-    "id": "gen_c6_math_ch10_q10",
-    "nodeId": "c6_math_ch10_105",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Draw a rectangle on a piece of paper. How many lines of symmetry can you find by folding it?",
-    "answer": "A rectangle has two lines of symmetry: one horizontal and one vertical",
-    "options": [
-     "The number '3' has a horizontal line of symmetry (if drawn with a flat top and bottom)",
-     "The student should describe a cross-like or oval-like shape where you can fold it vertically and horizontally",
-     "A rectangle has two lines of symmetry: one horizontal and one vertical"
-    ],
-    "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
-    "misconception": "If a student says \"four,\" they are confusing a rectangle with a square; if they say \"one,\" they likely missed the second axis of reflection.",
-    "id": "gen_c6_math_ch10_q11",
-    "nodeId": "c6_math_ch10_105",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Look at the English letter 'A'. Does it have a line of symmetry? If so, where is it?",
-    "answer": "Yes, it has one vertical line of symmetry passing through the top point down to the base. A student saying it has no symmetry fails to see that the left and right sides are mirror",
-    "options": [
-     "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal",
-     "Yes, a line of symmetry is a property of the shape's own structure, regardless of its orientation in space",
-     "Yes, it has one vertical line of symmetry passing through the top point down to the base. A student saying it has no symmetry fails to see that the left and right sides are mirror"
-    ],
-    "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Yes, it has one vertical line of symmetry passing through the top point down to the base.",
-    "id": "gen_c6_math_ch10_q12",
-    "nodeId": "c6_math_ch10_105",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What do we call the line that divides a shape into two identical mirror-image halves?",
-    "answer": "It is called the line of symmetry",
-    "options": [
-     "It is the specific line along which you fold the paper so that the two sides overlap perfectly",
-     "Yes, any triangle can tessellate. You can prove it by placing two identical triangles together to form a parallelogram, which is a shape known to tile easily",
-     "It is called the line of symmetry"
-    ],
-    "hint": "Straight from the 'Symmetry' slide -- match the key terms.",
-    "misconception": "If a student answers \"middle line\" or \"bisector,\" they lack the specific geometric vocabulary, which is essential for identifying that the parts must be mirror images, not just equal in area.",
-    "id": "gen_c6_math_ch10_q13",
+    "id": "gen_c6_math_ch10_q9",
     "nodeId": "c6_math_ch10_105",
     "difficulty": "standard"
    },
@@ -4675,13 +4087,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Can a shape have a line of symmetry if it is \"tilted\" or rotated?",
     "answer": "Yes, a line of symmetry is a property of the shape's own structure, regardless of its orientation in space",
     "options": [
-     "Yes, it has one vertical line of symmetry passing through the top point down to the base. A student saying it has no symmetry fails to see that the left and right sides are mirror",
-     "A rectangle has two lines of symmetry: one horizontal and one vertical",
+     "The student should describe a cross-like or oval-like shape where you can fold it vertically and horizontally",
+     "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal)",
      "Yes, a line of symmetry is a property of the shape's own structure, regardless of its orientation in space"
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student relies on visual orientation rather than the geometric properties of the shape.",
-    "id": "gen_c6_math_ch10_q14",
+    "id": "gen_c6_math_ch10_q10",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
    },
@@ -4690,13 +4102,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Compare the lines of symmetry in an equilateral triangle and an isosceles triangle.",
     "answer": "An equilateral triangle has 3 lines of symmetry (one from each vertex), whereas an isosceles triangle has only 1 (from the vertex between the equal sides)",
     "options": [
-     "'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry. A student struggling here might only see \"balance\" rather than specific",
-     "The hexagon has an order of 6, while the square has an order of 4; therefore, the hexagon is higher",
+     "A butterfly has a definite, repeating pattern (reflectional), whereas a cloud has no fixed, repeating structure",
+     "A circle has an infinite number of lines of symmetry (every diameter), whereas a triangle (depending on its type) has a fixed, small number (0, 1, or 3)",
      "An equilateral triangle has 3 lines of symmetry (one from each vertex), whereas an isosceles triangle has only 1 (from the vertex between the equal sides)"
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: An equilateral triangle has 3 lines of symmetry (one from each vertex), whereas an isosceles triangle has only 1 (from",
-    "id": "gen_c6_math_ch10_q15",
+    "id": "gen_c6_math_ch10_q11",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
    },
@@ -4705,13 +4117,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Draw a shape that has exactly two lines of symmetry, and explain why a third line cannot exist for your shape.",
     "answer": "A rectangle (that is not a square) is a classic example. A third line (like a diagonal) would result in parts that do not overlap",
     "options": [
-     "Yes, it has one vertical line of symmetry passing through the top point down to the base. A student saying it has no symmetry fails to see that the left and right sides are mirror",
+     "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal",
      "The student should draw a shape like a cross or a rectangle. A poor answer would be an irregular, lopsided shape",
      "A rectangle (that is not a square) is a classic example. A third line (like a diagonal) would result in parts that do not overlap"
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A rectangle (that is not a square) is a classic example. A third line (like a diagonal) would result in parts that do",
-    "id": "gen_c6_math_ch10_q16",
+    "id": "gen_c6_math_ch10_q12",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
    },
@@ -4721,29 +4133,89 @@ export const C6_MATH_GEN: SimDef[] = [
     "answer": "A scalene triangle has 0 lines of symmetry",
     "options": [
      "A circle has an infinite number of lines of symmetry (every diameter), whereas a triangle (depending on its type) has a fixed, small number (0, 1, or 3)",
-     "A rectangle has two lines of symmetry: one horizontal and one vertical",
+     "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal)",
      "A scalene triangle has 0 lines of symmetry"
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
     "misconception": "A wrong answer (like saying 1 or 3) reveals the student does not understand that \"scalene\" means all sides are of different lengths, preventing any perfect fold.",
-    "id": "gen_c6_math_ch10_q17",
+    "id": "gen_c6_math_ch10_q13",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "If you draw a line through a rectangle that is not a square, does it always create a line of symmetry?",
-    "answer": "No, only lines passing through the midpoints of opposite sides are lines of symmetry; diagonals in a non-square rectangle do not create identical halves",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify, draw, and count the lines of symmetry for various polygons and simple 2D shapes by mentally or physically visualizing a fold",
     "options": [
-     "No, a line of symmetry must divide a figure into two identical halves that overlap perfectly when folded",
-     "A rectangle (that is not a square) is a classic example. A third line (like a diagonal) would result in parts that do not overlap",
-     "No, only lines passing through the midpoints of opposite sides are lines of symmetry; diagonals in a non-square rectangle do not create identical halves"
+     "The student must be able to identify whether a given shape can tessellate by physically arranging cut-outs or drawing them",
+     "The student must be able to visually identify lines of symmetry in real-world structures and predict how a shape appears after reflection or rotation",
+     "The student must be able to identify, draw, and count the lines of symmetry for various polygons and simple 2D shapes by mentally or physically visualizing a fold"
     ],
     "hint": "Straight from the 'line of symmetry' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, only lines passing through the midpoints of opposite sides are lines of symmetry; diagonals in a non-square",
-    "id": "gen_c6_math_ch10_q18",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify, draw, and count the lines of symmetry for various polygons and simple 2D shapes",
+    "id": "gen_c6_math_ch10_q14",
     "nodeId": "c6_math_ch10_106",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a list of three numbers that have absolutely no line of symmetry and explain why.",
+    "answer": "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal)",
+    "options": [
+     "This is false; buildings can have one line (like many houses), four lines (like a square-based structure), or even none if the architecture is asymmetrical",
+     "Yes, it possesses rotational symmetry because it repeats its appearance before a full 360-degree turn",
+     "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal)"
+    ],
+    "hint": "Straight from the 'letter or number has a' slide -- match the key terms.",
+    "misconception": "An incorrect answer (e.g., including '8') shows a failure to test for both horizontal and vertical axes.",
+    "id": "gen_c6_math_ch10_q15",
+    "nodeId": "c6_math_ch10_107",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you fold a paper with the letter 'N' vertically, do the halves match? Why or why not?",
+    "answer": "No, they do not match because the diagonal bar of the 'N' runs in the opposite direction on the reflected half",
+    "options": [
+     "Yes, an example is a pinwheel-like flower or a spiral shell. A student might argue \"no\" because they are stuck on the idea that symmetry must be a \"mirror fold,\" failing to",
+     "The student should describe a cross-like or oval-like shape where you can fold it vertically and horizontally",
+     "No, they do not match because the diagonal bar of the 'N' runs in the opposite direction on the reflected half"
+    ],
+    "hint": "Straight from the 'letter or number has a' slide -- match the key terms.",
+    "misconception": "Students who think it is symmetric are likely focusing on the two vertical pillars rather than the internal structure.",
+    "id": "gen_c6_math_ch10_q16",
+    "nodeId": "c6_math_ch10_107",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify, sketch, and count the lines of symmetry for any given letter or digit by mentally or physically \"folding\" it",
+    "options": [
+     "The student must be able to visually identify if a shape has rotational symmetry and correctly calculate its order by observing how many times it repeats its appearance during a",
+     "The student must be able to identify lines of symmetry in natural objects and determine if an object possesses rotational symmetry by visualizing its repetition around a center",
+     "The student must be able to identify, sketch, and count the lines of symmetry for any given letter or digit by mentally or physically \"folding\" it"
+    ],
+    "hint": "Straight from the 'letter or number has a' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify, sketch, and count the lines of symmetry for any given letter or digit by mentally",
+    "id": "gen_c6_math_ch10_q17",
+    "nodeId": "c6_math_ch10_107",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare a square and a regular hexagon. Which one has a higher order of rotational symmetry, and why?",
+    "answer": "The hexagon has an order of 6, while the square has an order of 4; therefore, the hexagon is higher",
+    "options": [
+     "An equilateral triangle has 3 lines of symmetry (one from each vertex), whereas an isosceles triangle has only 1 (from the vertex between the equal sides)",
+     "'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry. A student struggling here might only see \"balance\" rather than specific",
+     "The hexagon has an order of 6, while the square has an order of 4; therefore, the hexagon is higher"
+    ],
+    "hint": "Straight from the 'Rotational symmetry occurs when a' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student is counting lines of symmetry instead of rotational positions.",
+    "id": "gen_c6_math_ch10_q18",
+    "nodeId": "c6_math_ch10_108",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -4772,10 +4244,8 @@ export const C6_MATH_GEN: SimDef[] = [
    "c6_math_ch11_114",
    "c6_math_ch11_115",
    "c6_math_ch11_116",
-   "c6_math_ch11_117",
    "c6_math_ch11_118",
-   "c6_math_ch11_119",
-   "c6_math_ch11_120"
+   "c6_math_ch11_119"
   ],
   "emoji": "🔢",
   "theme": {
@@ -4819,12 +4289,6 @@ export const C6_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Angle Bisector",
-    "text": "An angle bisector is a ray that starts at the vertex of an angle and divides it into two smaller angles of exactly equal measure.",
-    "emoji": "🔢",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
     "title": "Constructing Triangles Using SSS And",
     "text": "Constructing triangles using SSS (Side-Side-Side) and SAS (Side-Angle-Side) criteria involves using a ruler, a compass, and a protractor to draw a unique triangle when specific measurements are provided.",
     "emoji": "🔢",
@@ -4835,26 +4299,20 @@ export const C6_MATH_GEN: SimDef[] = [
     "text": "Constructing triangles using ASA (Angle-Side-Angle) and RHS (Right-angle-Hypotenuse-Side) criteria allows us to draw a unique triangle by precisely replicating two angles and the included side, or a right angle, the hypotenuse, and one other side.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Practical Applications Of Geometric",
-    "text": "Practical applications of geometric construction involve using basic tools like rulers, compasses, and protractors to accurately represent, measure, or build real-world structures by applying the principles of points, lines, rays, and angles.",
-    "emoji": "🔢",
-    "bgColor": "from-rose-400 to-pink-500"
    }
   ],
   "challenges": [
    {
     "type": "mcq",
-    "question": "What is the primary difference between a freehand drawing and a geometric construction?",
-    "answer": "Geometric construction requires the use of specific tools to follow precise, logical steps, whereas freehand drawing relies on visual estimation",
+    "question": "If you are asked to draw an angle and you only have a ruler, can you construct it accurately? Why or why not?",
+    "answer": "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle",
     "options": [
-     "A) It is used in both (for the 60°/45° angles in ASA and the 90° angle in RHS)",
-     "You should place the second point at the '7' mark",
-     "Geometric construction requires the use of specific tools to follow precise, logical steps, whereas freehand drawing relies on visual estimation"
+     "B) No, you must find the third angle (180° - 110° = 70°) so you can identify the side included between a known angle and the new 70° angle",
+     "You must look at the scale that begins at 0° on the ray you are using",
+     "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle"
     ],
     "hint": "Straight from the 'Geometric construction' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks construction is just \"drawing neatly,\" missing the requirement for tools and standard procedures.",
+    "misconception": "A wrong answer shows a lack of understanding regarding the specific function of each geometric tool.",
     "id": "gen_c6_math_ch11_q1",
     "nodeId": "c6_math_ch11_113",
     "difficulty": "standard",
@@ -4867,15 +4325,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What are the two essential components that define a line segment?",
-    "answer": "A line segment has two fixed endpoints and a specific, measurable length",
+    "question": "You have a line segment AB drawn on your page. How do you use a compass to draw another segment equal to it?",
+    "answer": "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line",
     "options": [
-     "An angle is defined by a common starting point (the vertex) and two rays (the arms)",
-     "B) The side lying between the two given angles",
-     "A line segment has two fixed endpoints and a specific, measurable length"
+     "The measurements are impossible; the sum of the two shorter sides is likely less than or equal to the longest side",
+     "The statement is incomplete; a line crossing at 90 degrees is a perpendicular line, but unless it also passes through the exact midpoint, it is not a \"bisector",
+     "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line"
     ],
     "hint": "Straight from the 'line segment' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"it goes on forever\") reveals the student is confusing a line segment with a line or ray.",
+    "misconception": "A wrong answer suggests the student is trying to measure by eye, which lacks geometric precision.",
     "id": "gen_c6_math_ch11_q2",
     "nodeId": "c6_math_ch11_114",
     "difficulty": "advanced",
@@ -4888,15 +4346,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What are the two essential components that define an angle when you are drawing it on paper?",
-    "answer": "An angle is defined by a common starting point (the vertex) and two rays (the arms)",
+    "question": "If you align your protractor and see your ray passing through both 0° and 180°, which scale should you look at to mark an angle of 40°?",
+    "answer": "You must look at the scale that begins at 0° on the ray you are using",
     "options": [
-     "A line segment has two fixed endpoints and a specific, measurable length",
-     "You should choose the compass because it is designed to keep a fixed distance from a center point while drawing an arc",
-     "An angle is defined by a common starting point (the vertex) and two rays (the arms)"
+     "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle",
+     "The plan should start with drawing the 8 cm base, followed by placing the protractor at one endpoint for 40° and the other for 50°, then drawing the rays",
+     "You must look at the scale that begins at 0° on the ray you are using"
     ],
     "hint": "Straight from the 'Constructing an angle' slide -- match the key terms.",
-    "misconception": "A wrong answer (like saying \"two lines\") suggests the student confuses a line segment intersection with a formal angle construction.",
+    "misconception": "A wrong answer shows the student does not understand that the protractor has two scales for different ray orientations and is just picking a random number.",
     "id": "gen_c6_math_ch11_q3",
     "nodeId": "c6_math_ch11_115",
     "difficulty": "advanced",
@@ -4909,15 +4367,15 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student draws a line segment AB of 8 cm. They set their compass to 3 cm and draw arcs from A and B. Why will they fail to construct the bisector?",
-    "answer": "Because 3 cm is less than half of 8 cm (which is 4 cm), the arcs will not reach each other to create the necessary intersection points",
+    "question": "What is the primary characteristic of a perpendicular bisector in relation to the line segment it crosses?",
+    "answer": "It divides the segment into two equal parts and forms a 90-degree angle",
     "options": [
-     "Draw the longest side (6cm) as the base line. This makes the subsequent arcs from the ends (5cm and 4cm) easier to manage and keeps the drawing organized",
-     "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line",
-     "Because 3 cm is less than half of 8 cm (which is 4 cm), the arcs will not reach each other to create the necessary intersection points"
+     "The student must be able to draw a ray, correctly position a protractor’s centre and base line, accurately mark a degree measure",
+     "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle",
+     "It divides the segment into two equal parts and forms a 90-degree angle"
     ],
     "hint": "Straight from the 'perpendicular bisector of a line' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Because 3 cm is less than half of 8 cm (which is 4 cm), the arcs will not reach each other to create the necessary",
+    "misconception": "A wrong answer like \"it just cuts the line in half\" misses the \"perpendicular\" requirement, while \"it just crosses at 90 degrees\" misses the \"bisector\" requirement.",
     "id": "gen_c6_math_ch11_q4",
     "nodeId": "c6_math_ch11_116",
     "difficulty": "advanced",
@@ -4930,37 +4388,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If a student constructs a bisector but the two resulting angles are 25° and 35° (instead of 30° each), what is the most likely error in their construction?",
-    "answer": "They likely changed the width (radius) of the compass while drawing the two intersecting arcs. The radius must remain constant to ensure the point of intersection is perfectly",
-    "options": [
-     "First, construct the perpendicular bisector of the whole ribbon to get two equal halves. Then, repeat the construction on each of the two new halves to find their midpoints",
-     "Because the two sides could be hinged at different angles, creating triangles of many different shapes and sizes",
-     "They likely changed the width (radius) of the compass while drawing the two intersecting arcs. The radius must remain constant to ensure the point of intersection is perfectly"
-    ],
-    "hint": "Straight from the 'angle bisector' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: They likely changed the width (radius) of the compass while drawing the two intersecting arcs.",
-    "id": "gen_c6_math_ch11_q5",
-    "nodeId": "c6_math_ch11_117",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine you have a piece of paper shaped like a slice of pizza and you want to share it perfectly with a friend; how would you find the exact middle",
-     "To start, place your compass point on the corner (vertex) of the angle and draw an arc that crosses both sides of the angle.",
-     "Now, place the compass point on each of those two spots where the arc crossed the sides and draw two more arcs that overlap in the empty space",
-     "If you draw a line from the corner through that point where the two arcs cross, you have created the bisector."
-    ]
-   },
-   {
-    "type": "mcq",
     "question": "If you are given two sides of 5cm and 6cm, why can you not construct a unique triangle without knowing the angle between them?",
     "answer": "Because the two sides could be hinged at different angles, creating triangles of many different shapes and sizes",
     "options": [
-     "You should place the second point at the '7' mark",
-     "The angle must be between the two given sides so it acts as a \"hinge\" that fixes the distance between the two endpoints",
+     "B) No, you must find the third angle (180° - 110° = 70°) so you can identify the side included between a known angle and the new 70° angle",
+     "The measurements are impossible; the sum of the two shorter sides is likely less than or equal to the longest side",
      "Because the two sides could be hinged at different angles, creating triangles of many different shapes and sizes"
     ],
     "hint": "Straight from the 'Constructing triangles using SSS' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Because the two sides could be hinged at different angles, creating triangles of many different shapes and sizes.",
-    "id": "gen_c6_math_ch11_q6",
+    "id": "gen_c6_math_ch11_q5",
     "nodeId": "c6_math_ch11_118",
     "difficulty": "advanced",
     "workedExample": [
@@ -4979,7 +4416,7 @@ export const C6_MATH_GEN: SimDef[] = [
     },
     "hint": "Work it step by step, then enter the final value.",
     "misconception": "A wrong answer reveals a failure to recognize the strict requirement of the \"included\" side in ASA.",
-    "id": "gen_c6_math_ch11_q7",
+    "id": "gen_c6_math_ch11_q6",
     "nodeId": "c6_math_ch11_119",
     "difficulty": "advanced",
     "workedExample": [
@@ -4991,98 +4428,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "You are asked to draw a path for a toy car that makes a 45° turn. How would you start this using a ruler and protractor?",
-    "answer": "First, draw a straight line (the base ray) using the ruler. Place the protractor center on the start point, align the zero mark with the line, mark 45° on the paper",
-    "options": [
-     "You must look at the scale that begins at 0° on the ray you are using",
-     "The plan should start with drawing the 8 cm base, followed by placing the protractor at one endpoint for 40° and the other for 50°, then drawing the rays",
-     "First, draw a straight line (the base ray) using the ruler. Place the protractor center on the start point, align the zero mark with the line, mark 45° on the paper"
-    ],
-    "hint": "Straight from the 'Practical applications of' slide -- match the key terms.",
-    "misconception": "Wrong answers often involve skipping the alignment step, revealing a misunderstanding of how to \"zero\" the tool.",
-    "id": "gen_c6_math_ch11_q8",
-    "nodeId": "c6_math_ch11_120",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Have you ever wondered how a carpenter makes sure a chair leg is perfectly straight, or how an architect draws a room so the walls meet at a perfect",
-     "To start, we look at the object—like a table corner—and recognize it is an angle.",
-     "We then use our \"geometry kit\" to replicate this: we use a ruler to draw straight lines (the edges) and a protractor to measure the \"turn\" or",
-     "By connecting the abstract idea of a \"line segment\" or \"angle\" to physical objects, we move from just drawing shapes to actually designing them."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "A student is asked to draw a line segment 5 cm long. They place the ruler on the paper and draw a line from the 1 cm mark to the 6 cm mark. Is this correct? Explain your reasoning.",
-    "answer": "Yes, this is correct because the distance between 1 cm and 6 cm is exactly 5 cm (6 - 1 = 5)",
-    "options": [
-     "The student should draw two intersecting line segments and place the protractor center at the intersection point to mark the degree of the opening",
-     "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line",
-     "You, this is correct because the distance between 1 cm and 6 cm is exactly 5 cm (6 - 1 = 5)",
-     "Yes, this is correct because the distance between 1 cm and 6 cm is exactly 5 cm (6 - 1 = 5)"
-    ],
-    "hint": "Straight from the 'Geometric construction' slide -- match the key terms.",
-    "misconception": "If the student says it is wrong, they likely believe you must always start at the 0 mark, ignoring that measuring is about the difference between two points.",
-    "id": "gen_c6_math_ch11_q9",
-    "nodeId": "c6_math_ch11_113",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Describe the steps you would take to check if two different line segments drawn by your friends are actually the same length.",
     "answer": "The student should suggest using a ruler to measure both and compare the values, or using a compass to mark the length of one and comparing it to the other",
     "options": [
-     "The vertex is the point where the two rays (arms) of the angle meet; if the protractor is shifted, the arms will not align with the degree markings",
-     "A sharp pencil creates a tiny, precise dot, ensuring the measurement starts and ends at the exact location",
+     "1. Draw a thin starting mark at 0. 2. Mark the 4 cm and 5 tiny notches (the 0.5 mark) for 4.5 cm. 3",
+     "The centre mark is the vertex of the protractor's scale; if you use the edge, your starting point for the turn is shifted, leading to an inaccurate measurement",
      "The student should suggest using a ruler to measure both and compare the values, or using a compass to mark the length of one and comparing it to the other"
     ],
     "hint": "Straight from the 'Geometric construction' slide -- match the key terms.",
     "misconception": "A poor answer would suggest \"looking at them to see if they match,\" which ignores the need for standard measurement tools.",
-    "id": "gen_c6_math_ch11_q10",
-    "nodeId": "c6_math_ch11_113",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you are asked to draw an angle and you only have a ruler, can you construct it accurately? Why or why not?",
-    "answer": "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle",
-    "options": [
-     "You should place the second point at the '7' mark",
-     "You must look at the scale that begins at 0° on the ray you are using",
-     "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle"
-    ],
-    "hint": "Straight from the 'Geometric construction' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of understanding regarding the specific function of each geometric tool.",
-    "id": "gen_c6_math_ch11_q11",
-    "nodeId": "c6_math_ch11_113",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you need to draw a circle with a specific radius, which tool from your geometry box should you choose and why?",
-    "answer": "You should choose the compass because it is designed to keep a fixed distance from a center point while drawing an arc",
-    "options": [
-     "No, it is not correct because a 90° angle is a specific \"right angle\" required for square structures; 85° is an acute angle, which would leave the window frame skewed",
-     "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line",
-     "You should choose the compass because it is designed to keep a fixed distance from a center point while drawing an arc"
-    ],
-    "hint": "Straight from the 'Geometric construction' slide -- match the key terms.",
-    "misconception": "If a student chooses a ruler, they fail to understand that a ruler is for straight lines, not for tracing the constant curve of a circle.",
-    "id": "gen_c6_math_ch11_q12",
-    "nodeId": "c6_math_ch11_113",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is it important to place the center of the protractor exactly on the vertex of an angle when measuring?",
-    "answer": "The vertex is the point where the two rays (arms) of the angle meet; if the protractor is shifted, the arms will not align with the degree markings",
-    "options": [
-     "The student should suggest using a ruler to measure both and compare the values, or using a compass to mark the length of one and comparing it to the other",
-     "The centre mark is the vertex of the protractor's scale; if you use the edge, your starting point for the turn is shifted, leading to an inaccurate measurement",
-     "The vertex is the point where the two rays (arms) of the angle meet; if the protractor is shifted, the arms will not align with the degree markings"
-    ],
-    "hint": "Straight from the 'Geometric construction' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student views the protractor as a \"stamp\" rather than a precision measuring device.",
-    "id": "gen_c6_math_ch11_q13",
+    "id": "gen_c6_math_ch11_q7",
     "nodeId": "c6_math_ch11_113",
     "difficulty": "standard"
    },
@@ -5097,7 +4452,7 @@ export const C6_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'line segment' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: 1. Draw a thin starting mark at 0. 2. Mark the 4 cm and 5 tiny notches (the 0.",
-    "id": "gen_c6_math_ch11_q14",
+    "id": "gen_c6_math_ch11_q8",
     "nodeId": "c6_math_ch11_114",
     "difficulty": "advanced"
    },
@@ -5106,29 +4461,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "If a student claims that a line segment \"starts\" at 0 and \"ends\" at 5, but the drawing is 5.2 cm long, what is the most likely error?",
     "answer": "The student likely didn't align the ruler correctly with the paper or moved the ruler while drawing. This tests the ability to troubleshoot construction errors",
     "options": [
-     "You should choose the compass because it is designed to keep a fixed distance from a center point while drawing an arc",
-     "Draw the longest side (6cm) as the base line. This makes the subsequent arcs from the ends (5cm and 4cm) easier to manage and keeps the drawing organized",
+     "The plan should start with drawing the 8 cm base, followed by placing the protractor at one endpoint for 40° and the other for 50°, then drawing the rays",
+     "A good answer mentions that 130° is obtuse, so it must be wider than a square corner (90°) but narrower than a straight line (180°)",
      "The student likely didn't align the ruler correctly with the paper or moved the ruler while drawing. This tests the ability to troubleshoot construction errors"
     ],
     "hint": "Straight from the 'line segment' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student likely didn't align the ruler correctly with the paper or moved the ruler while drawing.",
-    "id": "gen_c6_math_ch11_q15",
-    "nodeId": "c6_math_ch11_114",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "If you are asked to draw a 6 cm line segment but you start measuring from the '1' mark on your ruler instead of the '0' mark, where should you place your second point to get the correct length?",
-    "answer": "You should place the second point at the '7' mark",
-    "options": [
-     "First, draw a straight line (the base ray) using the ruler. Place the protractor center on the start point, align the zero mark with the line, mark 45° on the paper",
-     "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line",
-     "Poor should place the second point at the '7' mark",
-     "You should place the second point at the '7' mark"
-    ],
-    "hint": "Straight from the 'line segment' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., placing it at '6') shows the student fails to realize that the length is the *difference* between the two markings, not just the final number.",
-    "id": "gen_c6_math_ch11_q16",
+    "id": "gen_c6_math_ch11_q9",
     "nodeId": "c6_math_ch11_114",
     "difficulty": "advanced"
    },
@@ -5137,29 +4476,134 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Why is it important to use a sharp pencil when marking points for a line segment?",
     "answer": "A sharp pencil creates a tiny, precise dot, ensuring the measurement starts and ends at the exact location",
     "options": [
+     "The centre mark is the vertex of the protractor's scale; if you use the edge, your starting point for the turn is shifted, leading to an inaccurate measurement",
      "The student should suggest using a ruler to measure both and compare the values, or using a compass to mark the length of one and comparing it to the other",
-     "1. Draw a thin starting mark at 0. 2. Mark the 4 cm and 5 tiny notches (the 0.5 mark) for 4.5 cm. 3",
      "A sharp pencil creates a tiny, precise dot, ensuring the measurement starts and ends at the exact location"
     ],
     "hint": "Straight from the 'line segment' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A sharp pencil creates a tiny, precise dot, ensuring the measurement starts and ends at the exact location; a blunt",
-    "id": "gen_c6_math_ch11_q17",
+    "id": "gen_c6_math_ch11_q10",
     "nodeId": "c6_math_ch11_114",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "You have a line segment AB drawn on your page. How do you use a compass to draw another segment equal to it?",
-    "answer": "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line",
+    "question": "Design a quick \"check\" to tell if your classmate's 130° angle is likely correct without using a protractor.",
+    "answer": "A good answer mentions that 130° is obtuse, so it must be wider than a square corner (90°) but narrower than a straight line (180°)",
     "options": [
-     "Draw the longest side (6cm) as the base line. This makes the subsequent arcs from the ends (5cm and 4cm) easier to manage and keeps the drawing organized",
-     "First, draw a straight line (the base ray) using the ruler. Place the protractor center on the start point, align the zero mark with the line, mark 45° on the paper",
-     "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line"
+     "The scales on a protractor are complementary (they add up to 180°). Reading the wrong scale results in an angle of 70° (180-110) instead of 110°",
+     "You must look at the scale that begins at 0° on the ray you are using",
+     "A good answer mentions that 130° is obtuse, so it must be wider than a square corner (90°) but narrower than a straight line (180°)"
     ],
-    "hint": "Straight from the 'line segment' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is trying to measure by eye, which lacks geometric precision.",
+    "hint": "Straight from the 'Constructing an angle' slide -- match the key terms.",
+    "misconception": "A poor answer suggests \"it looks big,\" which is too vague and lacks geometric reasoning.",
+    "id": "gen_c6_math_ch11_q11",
+    "nodeId": "c6_math_ch11_115",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "If a student marks 110° on the inner scale but uses the outer scale to read the position, why will the resulting angle be incorrect?",
+    "answer": "The scales on a protractor are complementary (they add up to 180°). Reading the wrong scale results in an angle of 70° (180-110) instead of 110°",
+    "options": [
+     "Every point on the perpendicular bisector is at an equal distance from point X and point Y",
+     "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle",
+     "The scales on a protractor are complementary (they add up to 180°). Reading the wrong scale results in an angle of 70° (180-110) instead of 110°"
+    ],
+    "hint": "Straight from the 'Constructing an angle' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The scales on a protractor are complementary (they add up to 180°).",
+    "id": "gen_c6_math_ch11_q12",
+    "nodeId": "c6_math_ch11_115",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to draw a ray, correctly position a protractor’s centre and base line, accurately mark a degree measure",
+    "options": [
+     "It divides the segment into two equal parts and forms a 90-degree angle",
+     "The centre mark is the vertex of the protractor's scale; if you use the edge, your starting point for the turn is shifted, leading to an inaccurate measurement",
+     "The student must be able to draw a ray, correctly position a protractor’s centre and base line, accurately mark a degree measure"
+    ],
+    "hint": "Straight from the 'Constructing an angle' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to draw a ray, correctly position a protractor’s centre and base line, accurately mark a",
+    "id": "gen_c6_math_ch11_q13",
+    "nodeId": "c6_math_ch11_115",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is it incorrect to place the edge of the protractor on the ray instead of the centre mark (the origin) when measuring or drawing an angle?",
+    "answer": "The centre mark is the vertex of the protractor's scale; if you use the edge, your starting point for the turn is shifted, leading to an inaccurate measurement",
+    "options": [
+     "A sharp pencil creates a tiny, precise dot, ensuring the measurement starts and ends at the exact location",
+     "1. Draw a thin starting mark at 0. 2. Mark the 4 cm and 5 tiny notches (the 0.5 mark) for 4.5 cm. 3",
+     "The centre mark is the vertex of the protractor's scale; if you use the edge, your starting point for the turn is shifted, leading to an inaccurate measurement"
+    ],
+    "hint": "Straight from the 'Constructing an angle' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The centre mark is the vertex of the protractor's scale; if you use the edge, your starting point for the turn is",
+    "id": "gen_c6_math_ch11_q14",
+    "nodeId": "c6_math_ch11_115",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A friend claims that a perpendicular bisector is the same as any line that crosses a segment at 90 degrees. How would you critique this statement?",
+    "answer": "The statement is incomplete; a line crossing at 90 degrees is a perpendicular line, but unless it also passes through the exact midpoint, it is not a \"bisector",
+    "options": [
+     "Every point on the perpendicular bisector is at an equal distance from point X and point Y",
+     "First, construct the perpendicular bisector of the whole ribbon to get two equal halves. Then, repeat the construction on each of the two new halves to find their midpoints",
+     "The statement is incomplete; a line crossing at 90 degrees is a perpendicular line, but unless it also passes through the exact midpoint, it is not a \"bisector"
+    ],
+    "hint": "Straight from the 'perpendicular bisector of a line' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The statement is incomplete; a line crossing at 90 degrees is a perpendicular line, but unless it also passes through",
+    "id": "gen_c6_math_ch11_q15",
+    "nodeId": "c6_math_ch11_116",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a challenge: How would you use a perpendicular bisector construction to divide a piece of ribbon into four equal parts?",
+    "answer": "First, construct the perpendicular bisector of the whole ribbon to get two equal halves. Then, repeat the construction on each of the two new halves to find their midpoints",
+    "options": [
+     "Every point on the perpendicular bisector is at an equal distance from point X and point Y",
+     "The statement is incomplete; a line crossing at 90 degrees is a perpendicular line, but unless it also passes through the exact midpoint, it is not a \"bisector",
+     "First, construct the perpendicular bisector of the whole ribbon to get two equal halves. Then, repeat the construction on each of the two new halves to find their midpoints"
+    ],
+    "hint": "Straight from the 'perpendicular bisector of a line' slide -- match the key terms.",
+    "misconception": "A poor answer would suggest measuring with a ruler, missing the geometric construction requirement.",
+    "id": "gen_c6_math_ch11_q16",
+    "nodeId": "c6_math_ch11_116",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "If you have already constructed a perpendicular bisector for line segment XY, what can you say about any point lying on that bisector line?",
+    "answer": "Every point on the perpendicular bisector is at an equal distance from point X and point Y",
+    "options": [
+     "First, construct the perpendicular bisector of the whole ribbon to get two equal halves. Then, repeat the construction on each of the two new halves to find their midpoints",
+     "B) The side lying between the two given angles",
+     "Every point on the perpendicular bisector is at an equal distance from point X and point Y"
+    ],
+    "hint": "Straight from the 'perpendicular bisector of a line' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student views the bisector only as a line, rather than a geometric locus of points balanced between the segment's endpoints.",
+    "id": "gen_c6_math_ch11_q17",
+    "nodeId": "c6_math_ch11_116",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "If a student constructs a triangle using SSS but the arcs do not intersect, what does this tell you about the measurements given?",
+    "answer": "The measurements are impossible; the sum of the two shorter sides is likely less than or equal to the longest side",
+    "options": [
+     "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle",
+     "You must look at the scale that begins at 0° on the ray you are using",
+     "The measurements are impossible; the sum of the two shorter sides is likely less than or equal to the longest side"
+    ],
+    "hint": "Straight from the 'Constructing triangles using SSS' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The measurements are impossible; the sum of the two shorter sides is likely less than or equal to the longest side.",
     "id": "gen_c6_math_ch11_q18",
-    "nodeId": "c6_math_ch11_114",
+    "nodeId": "c6_math_ch11_118",
     "difficulty": "advanced"
    }
   ],
@@ -5175,16 +4619,17 @@ export const C6_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_math_ch12",
-  "title": "Number Pattern",
+  "title": "Expressing a Pattern Algebraically",
   "subtitle": "Mathematics · Chapter 12",
   "classLevel": 6,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Number Pattern",
+  "topic": "Expressing a Pattern Algebraically",
   "chapters": [
-   "Mathematics Ch12: Number Pattern"
+   "Mathematics Ch12: Expressing a Pattern Algebraically"
   ],
   "nodeIds": [
+   "c6_math_ch12_004",
    "c6_math_ch12_121",
    "c6_math_ch12_122",
    "c6_math_ch12_123"
@@ -5196,16 +4641,22 @@ export const C6_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Number Pattern suddenly stops working?",
+   "question": "What happens if Expressing a Pattern Algebraically suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "A number pattern is a sequence of numbers arranged according to a specific, repeatable rule."
+   "hook": "Expressing a pattern algebraically means replacing the repeating rule with a formula using a position variable (n): in the sequence 2, 4, 6, 8…, the"
   },
   "teaching": [
+   {
+    "title": "Expressing a Pattern Algebraically",
+    "text": "Expressing a pattern algebraically means replacing the repeating rule with a formula using a position variable (n): in the sequence 2, 4, 6, 8…, the nth term is 2n, so the 50th term is found by substitution (2 × 50 = 100) rather than by writing out fifty",
+    "emoji": "🔢",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
    {
     "title": "Number Pattern",
     "text": "A number pattern is a sequence of numbers arranged according to a specific, repeatable rule. It allows us to predict the next terms in the sequence by identifying the relationship between consecutive numbers.",
@@ -5228,16 +4679,37 @@ export const C6_MATH_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "A shopkeeper sells decorative candles in packs: 1, 3, 6, 10, 15... If he wants to create the next pack size, how many candles will he need?",
-    "answer": "He will need 21 candles. The gaps are +2, +3, +4, +5; therefore, the next gap must be +6. Adding 6 to 15 gives 21",
+    "question": "The sequence is 5, 10, 15, 20… — write the rule for the nth term.",
+    "answer": "The nth term is 5n — each term is 5 times its position",
     "options": [
-     "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule",
-     "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$",
-     "He will need 21 candles. The gaps are +2, +3, +4, +5; therefore, the next gap must be +6. Adding 6 to 15 gives 21"
+     "3 × 25 = 75 — one substitution instead of listing 24 terms",
+     "The student should provide a drawing (e.g., 1 circle, 3 circles in a triangle, 6 circles in a triangle) and a clear rule (e",
+     "The nth term is 5n — each term is 5 times its position"
+    ],
+    "hint": "Straight from the 'Expressing a pattern algebraically' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The nth term is 5n — each term is 5 times its position.",
+    "id": "gen_c6_math_ch12_q1",
+    "nodeId": "c6_math_ch12_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Take the sequence 3, 6, 9, 12… The rule 'add 3 each time' works but is slow — to find the 40th term you'd add 3 forty times.",
+     "Spot the direct rule: term = 3 × position → the nth term is 3n.",
+     "Now the 40th term is one step: 3 × 40 = 120.",
+     "Check it: n=1 → 3, n=2 → 6, n=3 → 9 — the formula reproduces the list."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Is it possible for a number to be both a square number and a triangular number? Explain your reasoning.",
+    "answer": "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots",
+    "options": [
+     "3 × 25 = 75 — one substitution instead of listing 24 terms",
+     "5, 9, 13 — substitute n = 1, 2, 3 into 4n + 1",
+     "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots"
     ],
     "hint": "Straight from the 'number pattern' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student hasn't identified the \"growing\" nature of the gaps.",
-    "id": "gen_c6_math_ch12_q1",
+    "misconception": "A wrong answer suggests the student views these patterns as isolated lists rather than geometric arrangements that can overlap.",
+    "id": "gen_c6_math_ch12_q2",
     "nodeId": "c6_math_ch12_121",
     "difficulty": "advanced",
     "workedExample": [
@@ -5249,16 +4721,16 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why do we call the numbers 1, 3, 6, 10 \"triangular numbers\"?",
-    "answer": "Because dots representing these numbers can be arranged to form an equilateral triangle",
+    "question": "Create your own geometric pattern using circles. Draw the first three steps and explain your rule.",
+    "answer": "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule",
     "options": [
-     "The student should provide a drawing (e.g., 1 circle, 3 circles in a triangle, 6 circles in a triangle) and a clear rule (e",
-     "11 sides. The pattern adds 2 sides for each new triangle added to the chain (3, 5, 7, 9, 11)",
-     "Because dots representing these numbers can be arranged to form an equilateral triangle"
+     "The nth term is 5n — each term is 5 times its position",
+     "3 × 25 = 75 — one substitution instead of listing 24 terms",
+     "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule"
     ],
     "hint": "Straight from the 'Geometric patterns' slide -- match the key terms.",
-    "misconception": "An incorrect answer suggests the student is ignoring the visual representation and only looking at the number sequence itself.",
-    "id": "gen_c6_math_ch12_q2",
+    "misconception": "A poor answer shows random shapes with no consistent growth rule.",
+    "id": "gen_c6_math_ch12_q3",
     "nodeId": "c6_math_ch12_122",
     "difficulty": "advanced",
     "workedExample": [
@@ -5269,15 +4741,17 @@ export const C6_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "math_input",
-    "question": "If you have a square grid of 16 dots, and you want to form the next square, how many *additional* dots do you need to add to the existing 16?",
-    "answer": "9",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A wrong answer indicates the student is not visualizing the transition from one square size to the next.",
-    "id": "gen_c6_math_ch12_q3",
+    "type": "mcq",
+    "question": "Is it always true that if you add two consecutive triangular numbers, you get a square number? Give an example to support your answer.",
+    "answer": "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$",
+    "options": [
+     "The nth term is 5n — each term is 5 times its position",
+     "3 × 25 = 75 — one substitution instead of listing 24 terms",
+     "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$"
+    ],
+    "hint": "Straight from the 'pattern' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student has not tested the hypothesis across different parts of the sequence.",
+    "id": "gen_c6_math_ch12_q4",
     "nodeId": "c6_math_ch12_123",
     "difficulty": "advanced",
     "workedExample": [
@@ -5289,62 +4763,106 @@ export const C6_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Is it possible for a number to be both a square number and a triangular number? Explain your reasoning.",
-    "answer": "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots",
+    "question": "How do you check your formula is right?",
+    "answer": "Substitute small n — n=1, 2, 3 must reproduce the actual first terms of the sequence",
     "options": [
-     "11 sides. The pattern adds 2 sides for each new triangle added to the chain (3, 5, 7, 9, 11)",
-     "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule",
-     "Adding, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots",
-     "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots"
+     "The formula computes any term in one step; adding requires every step before it",
+     "The student must be able to draw the next two shapes in a given sequence and describe the rule (e.g., \"add one more row of dots\") in plain language",
+     "Substitute small n — n=1, 2, 3 must reproduce the actual first terms of the sequence"
     ],
-    "hint": "Straight from the 'number pattern' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student views these patterns as isolated lists rather than geometric arrangements that can overlap.",
-    "id": "gen_c6_math_ch12_q4",
-    "nodeId": "c6_math_ch12_121",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A pattern starts with 1 triangle (3 sides), then 2 triangles joined (5 sides), then 3 triangles joined (7 sides). How many sides will 5 triangles have?",
-    "answer": "11 sides. The pattern adds 2 sides for each new triangle added to the chain (3, 5, 7, 9, 11)",
-    "options": [
-     "He will need 21 candles. The gaps are +2, +3, +4, +5; therefore, the next gap must be +6. Adding 6 to 15 gives 21",
-     "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule",
-     "11 sides. The pattern adds 2 sides for each new triangle added to the chain (3, 5, 7, 9, 11)"
-    ],
-    "hint": "Straight from the 'Geometric patterns' slide -- match the key terms.",
-    "misconception": "If a student says 15, they are ignoring the shared side and simply multiplying 5 triangles by 3 sides.",
+    "hint": "Straight from the 'Expressing a pattern algebraically' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Substitute small n — n=1, 2, 3 must reproduce the actual first terms of the sequence.",
     "id": "gen_c6_math_ch12_q5",
-    "nodeId": "c6_math_ch12_122",
+    "nodeId": "c6_math_ch12_004",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Create your own geometric pattern using circles. Draw the first three steps and explain your rule.",
-    "answer": "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule",
+    "question": "The pattern 7, 14, 21, 28… — what is the nth term?",
+    "answer": "7n — each term is 7 times its position number",
     "options": [
      "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots",
-     "You need 9 dots. The current square is $4 \\times 4$ (16 dots); the next square is $5 \\times 5$ (25 dots). Subtracting the two ($25 - 16 = 9$) shows the growth",
-     "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule"
+     "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule",
+     "7n — each term is 7 times its position number"
     ],
-    "hint": "Straight from the 'Geometric patterns' slide -- match the key terms.",
-    "misconception": "A poor answer shows random shapes with no consistent growth rule.",
+    "hint": "Straight from the 'Expressing a pattern algebraically' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: 7n — each term is 7 times its position number.",
     "id": "gen_c6_math_ch12_q6",
-    "nodeId": "c6_math_ch12_122",
+    "nodeId": "c6_math_ch12_004",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "If you are told that 36 is both a triangular number and a square number, does this mean the shapes are identical? Justify your answer.",
-    "answer": "No, it means the *quantity* of dots is the same, but the *arrangement* is different—one forms a triangle and one forms a square",
+    "question": "The rule is nth term = 4n + 1. What are the first three terms?",
+    "answer": "5, 9, 13 — substitute n = 1, 2, 3 into 4n + 1",
     "options": [
-     "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots",
-     "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$",
-     "No, it means the *quantity* of dots is the same, but the *arrangement* is different—one forms a triangle and one forms a square"
+     "The nth term is 5n — each term is 5 times its position",
+     "7n — each term is 7 times its position number",
+     "5, 9, 13 — substitute n = 1, 2, 3 into 4n + 1"
+    ],
+    "hint": "Straight from the 'Expressing a pattern algebraically' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: 5, 9, 13 — substitute n = 1, 2, 3 into 4n + 1.",
+    "id": "gen_c6_math_ch12_q7",
+    "nodeId": "c6_math_ch12_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Using 'nth term = 3n', what is the 25th term?",
+    "answer": "3 × 25 = 75 — one substitution instead of listing 24 terms",
+    "options": [
+     "The nth term is 5n — each term is 5 times its position",
+     "7n — each term is 7 times its position number",
+     "3 × 25 = 75 — one substitution instead of listing 24 terms"
+    ],
+    "hint": "Straight from the 'Expressing a pattern algebraically' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: 3 × 25 = 75 — one substitution instead of listing 24 terms.",
+    "id": "gen_c6_math_ch12_q8",
+    "nodeId": "c6_math_ch12_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Convert a pattern's rule into a formula in n and use substitution to find any term directly",
+    "options": [
+     "The student must be able to draw the next two shapes in a given sequence and describe the rule (e.g., \"add one more row of dots\") in plain language",
+     "The student must be able to identify the rule governing a sequence, calculate the next three terms, and represent the sequence pictorially",
+     "Convert a pattern's rule into a formula in n and use substitution to find any term directly"
+    ],
+    "hint": "Straight from the 'Expressing a pattern algebraically' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Convert a pattern's rule into a formula in n and use substitution to find any term directly.",
+    "id": "gen_c6_math_ch12_q9",
+    "nodeId": "c6_math_ch12_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is a formula better than 'keep adding' for finding the 100th term?",
+    "answer": "The formula computes any term in one step; adding requires every step before it",
+    "options": [
+     "Substitute small n — n=1, 2, 3 must reproduce the actual first terms of the sequence",
+     "7n — each term is 7 times its position number",
+     "The formula computes any term in one step; adding requires every step before it"
+    ],
+    "hint": "Straight from the 'Expressing a pattern algebraically' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The formula computes any term in one step; adding requires every step before it.",
+    "id": "gen_c6_math_ch12_q10",
+    "nodeId": "c6_math_ch12_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to draw the next two shapes in a given sequence and describe the rule (e.g., \"add one more row of dots\") in plain language",
+    "options": [
+     "The student must be able to identify the rule governing a sequence, calculate the next three terms, and represent the sequence pictorially",
+     "Convert a pattern's rule into a formula in n and use substitution to find any term directly",
+     "The student must be able to draw the next two shapes in a given sequence and describe the rule (e.g., \"add one more row of dots\") in plain language"
     ],
     "hint": "Straight from the 'Geometric patterns' slide -- match the key terms.",
-    "misconception": "A student who says \"yes\" does not understand that geometry is about the relationship between shape and number, not just the number itself.",
-    "id": "gen_c6_math_ch12_q7",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to draw the next two shapes in a given sequence and describe the rule (e.",
+    "id": "gen_c6_math_ch12_q11",
     "nodeId": "c6_math_ch12_122",
     "difficulty": "advanced"
    },
@@ -5353,54 +4871,39 @@ export const C6_MATH_GEN: SimDef[] = [
     "question": "Create a new shape sequence using circles instead of dots and describe the rule for how it grows.",
     "answer": "The student should provide a drawing (e.g., 1 circle, 3 circles in a triangle, 6 circles in a triangle) and a clear rule (e",
     "options": [
-     "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule",
      "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots",
+     "The nth term is 5n — each term is 5 times its position",
      "The student should provide a drawing (e.g., 1 circle, 3 circles in a triangle, 6 circles in a triangle) and a clear rule (e"
     ],
     "hint": "Straight from the 'pattern' slide -- match the key terms.",
     "misconception": "A poor answer fails to define a consistent \"rule of growth.\"",
-    "id": "gen_c6_math_ch12_q8",
+    "id": "gen_c6_math_ch12_q12",
     "nodeId": "c6_math_ch12_123",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "If you have a square grid of 16 dots, and you want to form the next square, how many *additional* dots do you need to add to the existing 16?",
-    "answer": "You need 9 dots. The current square is $4 \\times 4$ (16 dots); the next square is $5 \\times 5$ (25 dots). Subtracting the two ($25 - 16 = 9$) shows the growth",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify the rule governing a sequence, calculate the next three terms, and represent the sequence pictorially",
     "options": [
-     "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$",
-     "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots",
-     "You need 9 dots. The current square is $4 \\times 4$ (16 dots); the next square is $5 \\times 5$ (25 dots). Subtracting the two ($25 - 16 = 9$) shows the growth"
+     "Convert a pattern's rule into a formula in n and use substitution to find any term directly",
+     "The student must be able to draw the next two shapes in a given sequence and describe the rule (e.g., \"add one more row of dots\") in plain language",
+     "The student must be able to identify the rule governing a sequence, calculate the next three terms, and represent the sequence pictorially"
     ],
     "hint": "Straight from the 'pattern' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student is not visualizing the transition from one square size to the next.",
-    "id": "gen_c6_math_ch12_q9",
-    "nodeId": "c6_math_ch12_123",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it always true that if you add two consecutive triangular numbers, you get a square number? Give an example to support your answer.",
-    "answer": "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$",
-    "options": [
-     "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule",
-     "He will need 21 candles. The gaps are +2, +3, +4, +5; therefore, the next gap must be +6. Adding 6 to 15 gives 21",
-     "Yes, it is true. For example, the 2nd and 3rd triangular numbers are 3 and 6. $3 + 6 = 9$, which is $3^2$"
-    ],
-    "hint": "Straight from the 'pattern' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student has not tested the hypothesis across different parts of the sequence.",
-    "id": "gen_c6_math_ch12_q10",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the rule governing a sequence, calculate the next three terms, and represent the",
+    "id": "gen_c6_math_ch12_q13",
     "nodeId": "c6_math_ch12_123",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about number pattern?",
+    "What surprised you about expressing a pattern algebraically?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Number Pattern mastered! 🎯",
+  "successLine": "Expressing a Pattern mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

@@ -177,7 +177,7 @@ export default function PremiumExamSimulatorPage() {
                         )}
 
                         <MagneticButton strength={0.2}>
-                          <Link href={`/premium/exam/${exam.examId}`}>
+                          <Link href={`/exam/${exam.examId}`}>
                             <button className={`w-full ${exam.attempts > 0 ? 'btn-secondary' : 'btn-primary'} text-xs`}>
                               {exam.attempts > 0 ? (
                                 <>

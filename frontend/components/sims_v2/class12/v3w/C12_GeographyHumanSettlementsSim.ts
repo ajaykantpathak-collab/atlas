@@ -177,7 +177,7 @@ export const w_c12_geographyhumansettlementssim: SimDef = {
           hint: 'If stuck on settlement patterns → revisit c11_geo_cbse_17_002 (Rural Settlement Types).',
           misconception: 'Students think "rural problems are the same everywhere in India — just lack of money." They write generic answers like.',
           parts: [
-                { id: 'a', prompt: 'Name any three physical infrastructure deficits commonly found in rural settlements of the Himalayan region (e.g., Uttarakhand, Himachal Pradesh) and state the.', answer: 'Correct answer: (1) All-weather road connectivity',
+                { id: 'a', prompt: 'Name any three physical infrastructure deficits commonly found in rural settlements of the Himalayan region (e.g., Uttarakhand, Himachal Pradesh) and state the.', answer: '(1) All-weather road connectivity',
                   options: ['Correct answer: (1) All-weather road connectivity', 'lack of hospitals', 'lack of funds'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "rural problems are the same everywhere in India — just lack of money." They write generic answers like "villages lack.' },

@@ -203,7 +203,7 @@ export const w_c12_economicsmarketmechanismequilibriumsim: SimDef = {
           hint: 'If stuck, revisit c12_eco_cbse_05_001 for equilibrium mechanics and c9_eco_ch2_4 to.',
           misconception: 'Students often say: "When demand increases, price goes up, so quantity demanded should go down (law of demand),.',
           parts: [
-                { id: 'a', prompt: 'State the exact effect on equilibrium price and equilibrium quantity when the demand curve shifts rightward (increase in demand) while the supply curve remains.', answer: 'Correct answer: Equilibrium price rises and equilibrium quantity rises',
+                { id: 'a', prompt: 'State the exact effect on equilibrium price and equilibrium quantity when the demand curve shifts rightward (increase in demand) while the supply curve remains.', answer: 'Equilibrium price rises and equilibrium quantity rises',
                   options: ['Correct answer: Equilibrium price rises and equilibrium quantity rises', 'price rises but quantity falls', 'price unchanged'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often say: "When demand increases, price goes up, so quantity demanded should go down (law of demand), therefore equilibrium.' }
@@ -214,7 +214,7 @@ export const w_c12_economicsmarketmechanismequilibriumsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often say: "When demand increases, price goes up, so quantity demanded should go down (law of demand),.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the statement: "An increase in consumer income will always increase the equilibrium price of a normal good." Is this true, false, or uncertain?', answer: 'Correct answer: **Uncertain / False in a specific case**',
+                { id: 'a', prompt: 'Evaluate the statement: "An increase in consumer income will always increase the equilibrium price of a normal good." Is this true, false, or uncertain?', answer: '**Uncertain / False in a specific case**',
                   options: ['Correct answer: **Uncertain / False in a specific case**', 'every demand shift must change price'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often say: "When demand increases, price goes up, so quantity demanded should go down (law of demand), therefore equilibrium.' }

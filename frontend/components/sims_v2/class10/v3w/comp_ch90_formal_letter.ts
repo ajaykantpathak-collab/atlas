@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
 /** HAND-AUTHORED — c10_comp_ch90 The Complaint Desk (formal letter).
- * Nodes: c10_comp_cbse_90_001 (skeleton), 90_002 (register). */
+ * Nodes: c10_engl_cbse_90_001 (skeleton), 90_002 (register). */
 export const c10_comp_ch90: SimDef = {
-    id: 'v3_c10_comp_ch90',
+    id: 'v3w_c10_comp_ch90',
     title: 'The Complaint Desk',
     subtitle: 'Eight blocks in legal order, one register — the formal letter is a checklist wearing a stamp',
     classLevel: 10, subject: 'english-composition', topic: 'Formal letter — skeleton and register',
     chapters: ['c10_comp_ch90'],
-    nodeIds: ['c10_comp_cbse_90_001', 'c10_comp_cbse_90_002'],
+    nodeIds: ['c10_engl_cbse_90_001', 'c10_engl_cbse_90_002'],
     emoji: '📮', theme: { bg: 'from-slate-900 to-cyan-950', accent: 'cyan', scene: 'senior' },
 
     scenario: {
@@ -33,20 +33,20 @@ export const c10_comp_ch90: SimDef = {
     ],
 
     beats: [
-        { type: 'build', nodeId: 'c10_comp_cbse_90_001', title: 'Assemble the skeleton',
+        { type: 'build', nodeId: 'c10_engl_cbse_90_001', title: 'Assemble the skeleton',
           build: {
             prompt: 'Order the blocks into a legal formal letter header:',
             blocks: ['salutation', 'subject', "receiver's address", "sender's address", 'date'],
             answer: "sender's address, date, receiver's address, subject, salutation",
           } },
-        { type: 'dissect', nodeId: 'c10_comp_cbse_90_001', title: 'Audit this letter',
+        { type: 'dissect', nodeId: 'c10_engl_cbse_90_001', title: 'Audit this letter',
           dissect: { specimen: 'a complaint letter with format wounds',
           spots: [
             { id: 's1', label: 'header', prompt: 'The letter jumps from sender\'s address straight to "Dear Sir". What two elements were skipped?', answer: 'date and receiver\'s address — both carry format marks', options: ['date and receiver\'s address — both carry format marks', 'only the subject', 'nothing was skipped', 'the envelope line'] },
             { id: 's2', label: 'subject', prompt: 'Why does the subject line matter so much?', answer: 'it is a one-line headline stating the issue — and the most commonly lost format mark', options: ['it is a one-line headline stating the issue — and the most commonly lost format mark', 'it decorates the letter', 'it repeats the address', 'it replaces the salutation'] },
             { id: 's3', label: 'sign-off', prompt: '"Dear Mr Sharma" should end with…?', answer: 'Yours sincerely — named recipient pairs with sincerely', options: ['Yours sincerely — named recipient pairs with sincerely', 'Yours faithfully — formal letters always use faithfully', 'Yours lovingly — all letters use lovingly', 'With regards — safest option'] },
           ] } },
-        { type: 'case', nodeId: 'c10_comp_cbse_90_002', title: 'The register filter',
+        { type: 'case', nodeId: 'c10_engl_cbse_90_002', title: 'The register filter',
           caseStudy: {
             intro: 'Every informal marker in a formal letter is a mark leaking out. Hunt them.',
             decisions: [
@@ -61,7 +61,7 @@ export const c10_comp_ch90: SimDef = {
                 ] },
             ],
           } },
-        { type: 'scaffold', nodeId: 'c10_comp_cbse_90_002', title: 'The courteous command',
+        { type: 'scaffold', nodeId: 'c10_engl_cbse_90_002', title: 'The courteous command',
           scaffold: {
             problem: 'Write the request line closing a complaint letter about garbage collection.',
             steps: [
@@ -74,7 +74,7 @@ export const c10_comp_ch90: SimDef = {
     ],
 
     challenges: [
-        { type: 'mcq', nodeId: 'c10_comp_cbse_90_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_90_001', difficulty: 'standard',
           question: 'Order the header blocks: salutation, subject, receiver\'s address, sender\'s address, date.',
           options: [
               { text: "sender's address → date → receiver's address → subject → salutation" },
@@ -87,7 +87,7 @@ export const c10_comp_ch90: SimDef = {
           },
           hint: 'Who → when → to whom → about what → hello.',
           misconception: 'students know the pieces but not the legal order — format marks are positional' },
-        { type: 'mcq', nodeId: 'c10_comp_cbse_90_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_90_001', difficulty: 'standard',
           question: 'Write the subject line for: complaint to MCD about garbage not collected for two weeks.',
           options: [
               { text: 'Non-collection of garbage in Ward 12 for two weeks' },
@@ -101,7 +101,7 @@ export const c10_comp_ch90: SimDef = {
           },
           hint: 'Headline, not sentence — noun phrase, one line.',
           misconception: 'students write full sentences as subjects — the subject is a headline' },
-        { type: 'mcq', nodeId: 'c10_comp_cbse_90_002', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_90_002', difficulty: 'standard',
           question: 'Which closing line earns the request mark?',
           options: [
               { text: 'I would be grateful if you could look into this matter at the earliest.' },
@@ -115,7 +115,7 @@ export const c10_comp_ch90: SimDef = {
           },
           hint: 'Formal requests are courteous and indirect — that IS the power move.',
           misconception: 'students think formality means assertiveness — it means courtesy that commands' },
-        { type: 'sort', nodeId: 'c10_comp_cbse_90_002', difficulty: 'foundation',
+        { type: 'sort', nodeId: 'c10_engl_cbse_90_002', difficulty: 'foundation',
           question: 'Sort the phrases — formal or informal register?',
           sortItems: [
               { id: 'a', label: 'I would be grateful if…', emoji: '🎩', correctBin: 'formal' },
@@ -132,7 +132,7 @@ export const c10_comp_ch90: SimDef = {
           ],
           hint: 'Formal = courteous fixed phrases. Dated phrases like "do the needful" get marked down too.',
           misconception: 'students think formal = fancy words; the real rules are deletions plus a fixed phrase-bank' },
-        { type: 'subpart', nodeId: 'c10_comp_cbse_90_001', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c10_engl_cbse_90_001', difficulty: 'advanced',
           question: 'Audit: a letter with sender\'s address, "Dear Sir", body, "Yours sincerely", name — but no date, no receiver\'s address, no subject.',
           hint: 'Run the 8-block checklist top-down, then check the pairing.',
           misconception: 'counts missing blocks but misses the wrong pairing',

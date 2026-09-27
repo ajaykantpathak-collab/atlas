@@ -802,7 +802,7 @@ export function C6_ScienceGettingToKnowPlantsSim() {
                 <li>• The 8-plant dataset uses real typical heights and the real root/vein packages — the law panel never finds a violation because nature never offers one.</li>
                 <li>• The transpiration numbers are a relative teaching model (mL/h on one plant); the ORDERING with sun, wind, dryness and area is the real physics of evaporation.</li>
                 <li>• Stomata closure at night/low light is modelled as the openFactor collapse — you can see loss crash when light hits 0.</li>
-                <li>• Banana&#39;s pseudostem is drawn soft-green on purpose: the picture argues with the word &quot;tree&quot;, exactly like the exam trap intends.</li>
+                <li>• Banana&#39;s pseudostem is drawn soft-green on purpose: the picture argues with the word &quot;tree&quot; exactly like the exam trap intends.</li>
               </ul>
             </div>
           </div>

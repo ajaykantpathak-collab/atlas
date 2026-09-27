@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c7_gram_ch81 Film vs Snapshot (continuous + perfect tenses).
  * Nodes: c7_gram_cbse_81_001, 81_002, 81_003. */
 export const c7_gram_ch81: SimDef = {
-    id: 'v3_c7_gram_ch81',
+    id: 'v3w_c7_gram_ch81',
     title: 'Film vs Snapshot',
     subtitle: 'Continuous is the movie playing, perfect is the bridge to now, and "had" is the flashback',
     classLevel: 7, subject: 'english-grammar', topic: 'Continuous and perfect tenses',

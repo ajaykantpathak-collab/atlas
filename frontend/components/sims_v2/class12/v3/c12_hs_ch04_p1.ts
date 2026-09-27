@@ -14,7 +14,7 @@ export const c12_hs_ch04_p1: SimDef = {
     scenario: { role: 'Textile selection engineer', intro: 'Every garment is a bet on fibre properties — absorbency, wet strength, warmth. Learn to place the bet correctly.', goal: 'Classify fibres and select them for apparel using property-based reasoning, not the natural/synthetic binary.' },
     discovery: {
         question: 'For a mountaineering base layer that must stay warm when wet and resist odour, engineers still reach for old-fashioned wool over polyester. Why?',
-        options: ['Fibre physics — wool\'s crimp traps air even damp, its scales wick moisture, and natural antimicrobial properties fight odour; polyester loses warmth wet and holds smell', 'Wool is natural, so better', 'Polyester is too light', 'Tradition'],
+        options: ['Fibre physics — wool\'s crimp traps air even damp, its scales wick moisture, and natural antimicrobial properties fight odour; polyester loses warmth wet and holds smell', 'Wool is natural — synthetics always perform worse against skin', 'Polyester is too light — a base layer needs fibre mass to hold heat', 'Tradition — mountaineering kit has simply not been redesigned since the 1950s'],
         answer: 'Fibre physics — wool\'s crimp traps air even damp, its scales wick moisture, and natural antimicrobial properties fight odour; polyester loses warmth wet and holds smell',
         hook: '\'Natural good, synthetic bad\' collapses fast — regenerated fibres like rayon are natural polymers processed with chemicals, and blends make the question moot. Classification isn\'t a label to memorise; it\'s a decision framework from molecule to garment performance.',
     },

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch10_p1: SimDef = {
     id: 'v3_c11_hin_ar_ch10_p1',
-    title: 'tSusanz dekj · Part 1/3',
+    title: 'पाठ 10 · Part 1/3',
     subtitle: 'Read a devotional poem as a plot of the soul, not a description of love.',
-    classLevel: 11, subject: 'hin_ar', topic: 'tSusanz dekj · Part 1/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 10 · Part 1/3',
     chapters: ['c11_hin_ar_ch10'],
     nodeIds: ['c11_hin_ar_cbse_10_001', 'c11_hin_ar_cbse_10_002', 'c11_hin_ar_cbse_10_003', 'c11_hin_ar_cbse_10_004', 'c11_hin_ar_cbse_10_005', 'c11_hin_ar_cbse_10_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,40 +19,20 @@ export const c11_hin_ar_ch10_p1: SimDef = {
         hook: 'Bhakti verse plots the soul\'s trajectory, not the body\'s — \'discarding jewellery\' is the poem\'s rising action, abandonment is its climax.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Context and background refer to the historical, social, cultural, and biographical circumstances surrounding a literary work and its creator.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 10 — पृष्ठभूमि और रचनाकार परिचय', text: '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश (पृष्ठभूमि)** तथा **लेखक के जीवन-दर्शन, लेखन-शैली एवं साहित्यिक योगदान (रचनाकार परिचय)** का वह आधारभूत.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_10_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Trace Meera\'s stanzas from a mind fixed on Giridhar to the shedding of every social marker, and defend the poem\'s narrative arc against \'nothing happens.\'',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['पाठ 10 — पृष्ठभूमि', 'पाठ 10 — कथानक', 'पाठ 10 — पाठ्य-परिवेश', 'पाठ 10 — पात्र-चित्रण', 'पाठ 10 — मुख्य'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine meeting a new classmate who speaks in metaphors about "weaving" and "threads" – you\'d understand them better if you knew they came from a family.',
-            decisions: [{ prompt: 'Who was Kabir, and what was his primary profession according to the textbook introduction?', options: [
-                { text: 'Kabir (c', outcome: 'Kabir (c. 1498–1546) was a prominent saint-poet of the Nirguna Bhakti tradition whose primary.' },
-                { text: 'he was a king', outcome: 'Not quite — Students treat "Context and Background" as a list of static facts (dates, birthplace, book names).', reveals: 'students-treat-context-and-background' },
-                { text: 'he wrote in Sanskrit', outcome: 'Not quite — Students treat "Context and Background" as a list of static facts (dates, birthplace, book names).', reveals: 'students-treat-context-and-background' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are telling a friend about a movie you watched, but you only have 30 seconds — you wouldn\'t list every scene; you\'d give the turning points: "First.',
-            decisions: [{ prompt: 'What is the primary difference between analyzing plot in a short story and analyzing narrative structure in a lyric poem like Meera\'s pad?', options: [
-                { text: 'In a short story, plot follows external events with clear cause-effect chains (exposition', outcome: 'In a short story, plot follows external events with clear cause-effect chains (exposition → rising.' },
-                { text: 'poems don\'t have plots', outcome: 'Not quite — Students often believe a poem must tell a chronological story with characters and events (like.', reveals: 'a-poem-must-tell-a' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are sitting in a quiet temple courtyard at dusk, hearing a bhajan that makes your heart ache with a sweet pain — that ache is the atmosphere the.',
-            decisions: [{ prompt: 'What is the primary setting of Meera Bai\'s poem "Mere to Giridhar Gopal" — a physical location or an internal state? Answer in one sentence.', options: [
-                { text: 'The primary setting is the speaker\'s internal spiritual consciousness centred on Krishna,', outcome: 'The primary setting is the speaker\'s internal spiritual consciousness centred on Krishna, not.' },
-                { text: 'The setting is Chittor fort where Meera lived', outcome: 'Not quite — Students often treat "setting" in poetry as only the physical backdrop (Vrindavan, palace, forest).', reveals: 'students-often-treat-setting-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are watching a play where the main actor (Kabir) stands alone on stage—but every time a friend, enemy, or student enters, the spotlight shifts and.',
-            decisions: [{ prompt: 'Name three supporting characters mentioned in the biographical introduction of the Kabir chapter and state one factual detail about each.', options: [
-                { text: 'Correct answer: (1) Guru Ramanand – Kabir\'s guru who initiated him into Bhakti', outcome: 'Correct answer: (1) Guru Ramanand – Kabir\'s guru who initiated him into Bhakti; (2) Sultan Sikandar.' },
-                { text: 'supporting character analysis', outcome: 'Not quite — Students often think "supporting character analysis" means writing a mini-biography of each person.', reveals: 'supporting-character-analysis-means-writing' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_10_002', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 10 · Part 1/3', spots: [
+            { id: 's1', label: '10 -', prompt: 'Which idea is this? — कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि.', answer: '10 -', options: ['10 -', '10 -'] },
+            { id: 's2', label: '10 -', prompt: 'Which idea is this? — पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and.', answer: '10 -', options: ['10 -', '10 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_10_001', title: 'Use it in the wild',
           caseStudy: { intro: 'In a poetry-analysis session, a student presents Meera\'s bhajan and concludes: \'Nothing happens — Meera just describes her feelings. No events, no plot, so there\'s no structure to analyse.\'',
             decisions: [{ prompt: 'How do you show the poem\'s narrative architecture?', options: [
@@ -62,8 +42,8 @@ export const c11_hin_ar_ch10_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_10_006', title: 'The bigger picture',
           caseStudy: { intro: 'The stanza that wastes the body and drops the ornaments *is* the plot — renunciation told as a sequence of irreversible acts.',
-            decisions: [{ prompt: 'What comes next? tSusanz dekj · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — tSusanz dekj · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 10 · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 10 · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -72,82 +52,71 @@ export const c11_hin_ar_ch10_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_001', difficulty: 'standard',
-          question: 'Context and background refer to the historical, social, cultural, and.',
-          hint: 'If stuck on "Nirguna vs Saguna" or "Bhakti vs Sufi," review Class 10 History Chapter.',
-          misconception: 'Students treat "Context and Background" as a list of static facts (dates, birthplace, book names) to memorize for.',
+          question: '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक.',
+          hint: 'यदि अटका हुआ महसूस हो: **NCERT पाठ्यपुस्तक के \'रचनाकार परिचय\' बॉक्स** को दोबारा पढ़ें.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'पृष्ठभूमि\' का अर्थ केवल **\'इतिहास की तारीखें/घटनाएँ रटना\'** है और \'रचनाकार परिचय\'.',
           parts: [
-                { id: 'a', prompt: 'Who was Kabir, and what was his primary profession according to the textbook introduction?', answer: 'Kabir (c',
-                  options: ['Kabir (c', 'he was a king', 'he wrote in Sanskrit'],
-                  hint: 'If stuck on "Nirguna vs Saguna" or "Bhakti vs Sufi," review Class 10 History Chapter "Bhakti-Sufi.',
-                  misconception: 'Students treat "Context and Background" as a list of static facts (dates, birthplace, book names) to memorize for 1-mark questions.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक',
+                  options: ['\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and', 'पात्र-चित्रण (Characterization) वह साहित्यिक प्रक्रिया है जिसके द्वारा लेखक किसी पात्र के'],
+                  hint: 'यदि अटका हुआ महसूस हो: **NCERT पाठ्यपुस्तक के \'रचनाकार परिचय\' बॉक्स** को दोबारा पढ़ें, फिर.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'पृष्ठभूमि\' का अर्थ केवल **\'इतिहास की तारीखें/घटनाएँ रटना\'** है और \'रचनाकार परिचय\' का अर्थ.' }
           ],
-            remediations: { 'students-treat-context-and-background': { steps: ['**Re-read the introduction as a "user manual" for the poem:** Annotate every biographical detail with a marginal.', '**Build a "Context-to-Text" prediction table:** Column A: Context Fact (e.g., "rejected Vedas/Quran authority").', 'Column B: Predicted Poetic Evidence (e.g., "verses mocking pandit/mullah").', '**Verify predictions while reading the poem (Node 002):** Tick off predictions that appear.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**\'क्यों\' का खेल खेलें:** छात्र से पूछें — "लेखक ने *यह* शब्द *यहाँ* क्यों चुना?', '*यह* प्रसंग *यही* क्यों लिखा?" हर उत्तर के बाद पूछें: "यह लेखक की *कौन-सी* विशेषता दिखाता है?" → इससे **तथ्य →.', '**\'तुलना-तालिका\' बनवाएँ:** दो कॉलम — **\'सामान्य परिचय\'** (जन्म, पुस्तकें) vs **\'कार्यात्मक परिचय\'** (इस पाठ में दिखी.', '**\'एक वाक्य चुनौती\':** "पाठ 10 की पृष्ठभूमि और रचनाकार को मिलाकर **एक वाक्य में** बताओ कि पाठ का केंद्रीय द्वंद्व क्या.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in poetry refers to the organized sequence.',
-          hint: 'Review c11_hin_ar_cbse_10_001\'s "Before You Read" section on Meera\'s life and the bhakti.',
-          misconception: 'Students often believe a poem must tell a chronological story with characters and events (like a mini-novel) to have.',
+          question: 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम.',
+          hint: 'यदि अटके: **Freytag\'s Pyramid का हिंदी आरेख** बनाकर दीवार पर लगाएँ; प्रत्येक सोपान के लिए.',
+          misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि **"कथानक का विश्लेषण = घटनाओं को क्रम से लिखना"** और **"आख्यान-संरचना का विश्लेषण.',
           parts: [
-                { id: 'a', prompt: 'Apply the concept of "rising action" to Meera\'s poem: identify the specific images in the middle stanza that escalate the speaker\'s renunciation of worldly.', answer: 'The middle stanza progresses from internal state to external markers: "valqou ty',
-                  options: ['The middle stanza progresses from internal state to external markers: "valqou ty', 'she looks sick and removes jewelry', 'lists images without showing *progression* (e'],
-                  hint: 'Review c11_hin_ar_cbse_10_001\'s "Before You Read" section on Meera\'s life and the bhakti movement\'s.',
-                  misconception: 'Students often believe a poem must tell a chronological story with characters and events (like a mini-novel) to have a "plot." They miss.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि',
+                  options: ['कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and', 'पात्र-चित्रण (Characterization) वह साहित्यिक प्रक्रिया है जिसके द्वारा लेखक किसी पात्र के'],
+                  hint: 'यदि अटके: **Freytag\'s Pyramid का हिंदी आरेख** बनाकर दीवार पर लगाएँ; प्रत्येक सोपान के लिए एक.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि **"कथानक का विश्लेषण = घटनाओं को क्रम से लिखना"** और **"आख्यान-संरचना का विश्लेषण = फ्लैशबैक.' }
           ],
-            remediations: { 'a-poem-must-tell-a': { steps: ['Have the student read the poem aloud *three times*: first for sound, second to mark every concrete image (body.', 'Draw a 4-box storyboard: Box 1 = Speaker + Addressee; Box 2 = Internal State; Box 3 = Physical Proof; Box 4 = Final.', 'Fill each with one Hindi phrase from the poem.', 'Ask: "If this were a film scene, what would the camera show in each box?" This forces visualization of narrative beats.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often believe a poem must tell a chronological story with characters and events (like a mini-novel) to have.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this student claim: "Meera\'s poem has no real narrative because nothing happens — she just says she loves Krishna." Is this a valid critique of the.', answer: 'Invalid critique',
-                  options: ['Invalid critique', 'external plot events', 'narrative structure of consciousness'],
-                  hint: 'Review c11_hin_ar_cbse_10_001\'s "Before You Read" section on Meera\'s life and the bhakti movement\'s.',
-                  misconception: 'Students often believe a poem must tell a chronological story with characters and events (like a mini-novel) to have a "plot." They miss.' }
-          ],
-            remediations: { 'a-poem-must-tell-a': { steps: ['Have the student read the poem aloud *three times*: first for sound, second to mark every concrete image (body.', 'Draw a 4-box storyboard: Box 1 = Speaker + Addressee; Box 2 = Internal State; Box 3 = Physical Proof; Box 4 = Final.', 'Fill each with one Hindi phrase from the poem.', 'Ask: "If this were a film scene, what would the camera show in each box?" This forces visualization of narrative beats.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { '10': { steps: ['**माइक्रो-टास्क:** एक परिचित लघुकथा (जैसे \'बूढ़ी काकी\' या \'ईदगाह\') लें; छात्र से कहें: *"केवल 5 वाक्यों में कथानक लिखो.', 'क्या फ्लैशबैक से शुरू कर सकता था?', 'तब क्या प्रभाव बदलता?"* 2.', '**दृश्यीकरण:** Freytag\'s Pyramid का खाली आरेख दें; छात्र स्वयं घटनाएँ रखें — फिर चर्चा करें कि **चरमोत्कर्ष कहाँ है और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the spatial, temporal, and emotional backdrop.',
-          hint: 'If stuck, review the distinction between *narrative setting* (where/when a story happens).',
-          misconception: 'Students often treat "setting" in poetry as only the physical backdrop (Vrindavan, palace, forest) because prose.',
+          question: 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social.',
+          hint: 'यदि अटके: **node 002 (कथानक संरचना)** के \'चरम बिंदु (climax)\' अनुभाग को दोहराएँ — पूछें.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "परिवेश वर्णन लेखक का **सौंदर्यबोध (aesthetic indulgence)** मात्र है — कहानी.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words how the line "valqou ty lhafp&lhafp, izse&csfy cks;h" (tears flow continuously, night passes in separation) contributes to the poem\'s.', answer: 'The line establishes an atmosphere of relentless, physicalised longing',
-                  options: ['The line establishes an atmosphere of relentless, physicalised longing', 'The setting is Chittor fort where Meera lived'],
-                  hint: 'If stuck, review the distinction between *narrative setting* (where/when a story happens) and.',
-                  misconception: 'Students often treat "setting" in poetry as only the physical backdrop (Vrindavan, palace, forest) because prose fiction trains them.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and',
+                  options: ['पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पात्र-चित्रण (Characterization) वह साहित्यिक प्रक्रिया है जिसके द्वारा लेखक किसी पात्र के'],
+                  hint: 'यदि अटके: **node 002 (कथानक संरचना)** के \'चरम बिंदु (climax)\' अनुभाग को दोहराएँ — पूछें: "इस चरम.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "परिवेश वर्णन लेखक का **सौंदर्यबोध (aesthetic indulgence)** मात्र है — कहानी आगे बढ़ाने के लिए.' }
           ],
-            remediations: { 'students-often-treat-setting-in': { steps: ['Ask the student to close their eyes and recall a moment of intense prayer or longing — "Where were *you* in that moment?', 'In the room or inside the feeling?" 2.', 'Have them underline every spatial word in the poem (xksiky, nwljks, laru, valqou, izse, nwèk) and classify each.', 'Guide them to rewrite the first stanza replacing all metaphorical spatial markers with physical ones — the absurdity.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'aesthetic-indulgence-10': { steps: ['**चरण 1 (दृश्यमान बनाएँ):** छात्र से कहें: "पाठ के 3 वर्णनात्मक पैराग्राफ चुनें। प्रत्येक में **लाल पेन से संज्ञाएँ**.', '**चरण 2 (कारण-कार्य जोड़ें):** प्रत्येक हरे विशेषण के आगे पूछें: "यह नायक को **क्या करने को मजबूर/प्रेरित** करता है?".', '**चरण 3 (प्रतिस्थापन परीक्षण):** "यदि यह विशेषण हटा दें, तो नायक का निर्णय बदलेगा?" — हाँ = वातावरण सक्रिय; नहीं.', '**चरण 4 (लेखन अभ्यास):** उपरोक्त विश्लेषण को एक PEEL अनुच्छेद में बदलें: **P**oint (वातावरण का दावा), **E**vidence (3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the poet\'s persona.',
-          hint: 'If stuck, review "Tone and Mood in Poetry" (c11_hin_ar_cbse_10_003) and practice.',
-          misconception: 'Students often treat Kabir\'s "I" in the poem as a generic devotee rather than the historical Kabir—missing that his.',
+          question: 'पात्र-चित्रण (Characterization) वह साहित्यिक प्रक्रिया है जिसके द्वारा लेखक.',
+          hint: 'यदि अटके तो c11_hin_ar_cbse_10_002 (कथानक संरचना) के \'मोड़ पहचानना\' (Identifying Turning.',
+          misconception: 'छात्र अक्सर नायक के \'चरित्र-चित्रण\' (Character Sketch) को एक स्थैतिक सूची (Static List: नाम, उम्र, गुण, दोष) मानकर.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves examining the poet\'s persona as revealed',
-                  options: ['Character analysis of the protagonist involves examining the poet\'s persona as revealed', 'Context and background refer to the historical, social, cultural, and biographical', 'Plot and narrative structure in poetry refers to the organized sequence of events,', 'Setting in poetry refers to the spatial, temporal, and emotional backdrop against'],
-                  hint: 'If stuck, review "Tone and Mood in Poetry" (c11_hin_ar_cbse_10_003) and practice identifying.',
-                  misconception: 'Students often treat Kabir\'s "I" in the poem as a generic devotee rather than the historical Kabir—missing that his low-caste weaver.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Characterization) वह साहित्यिक प्रक्रिया है जिसके द्वारा लेखक किसी पात्र के',
+                  options: ['पात्र-चित्रण (Characterization) वह साहित्यिक प्रक्रिया है जिसके द्वारा लेखक किसी पात्र के', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटके तो c11_hin_ar_cbse_10_002 (कथानक संरचना) के \'मोड़ पहचानना\' (Identifying Turning Points).',
+                  misconception: 'छात्र अक्सर नायक के \'चरित्र-चित्रण\' (Character Sketch) को एक स्थैतिक सूची (Static List: नाम, उम्र, गुण, दोष) मानकर लिखते हैं, जबकि वरिष्ठ.' }
           ],
-            remediations: { 'students-often-treat-kabir-s': { steps: ['Have the student re-read the biographical note and underline every word describing Kabir\'s social position (julaha.', 'In the poem, circle every first-person pronoun ("esjs", "esjks", "nkfl ehjka") and ask: "Who is speaking?', 'Guide them to write one sentence linking the two: "Because Kabir was a weaver considered low-caste, his claim \'my Lord.', 'Assign a fresh PEEL paragraph using this link.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'character-sketch-static-list': { steps: ['चरण 1: छात्र से कहें: "नायक के तीन विशेषण लिखो जो पाठ से सीधे न आए हों (लेखक ने न लिखे हों)।" — यह \'अनुमान\' (Inference).', 'यदि नहीं बदला, तो क्यों?" — यह \'चरित्र चाप\' (Character Arc) की अवधारणा जोड़ता है। चरण 4: अंत में, एक पैराग्राफ लिखने को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining how secondary.',
-          hint: 'Review the "Character Analysis: Protagonist" node (c11_hin_ar_cbse_10_004) and re-read.',
-          misconception: 'Students often think "supporting character analysis" means writing a mini-biography of each person (birth, death.',
+          question: 'सहायक पात्र (Supporting Characters) वे गौण पात्र होते हैं जो नायक/प्रमुख पात्र.',
+          hint: 'यदि अटका हुआ महसूस हो, तो **c11_hin_ar_cbse_10_004** के \'चरित्र-परिवर्तन (character arc).',
+          misconception: '**विशिष्ट भ्रम:** छात्र सहायक पात्रों को **\'कथानक के गवाह\' (witnesses to plot)** मान लेते हैं — अर्थात वे मानते हैं कि.',
           parts: [
-                { id: 'a', prompt: 'Name three supporting characters mentioned in the biographical introduction of the Kabir chapter and state one factual detail about each from the text.', answer: 'Correct answer: (1) Guru Ramanand – Kabir\'s guru who initiated him into Bhakti',
-                  options: ['Correct answer: (1) Guru Ramanand – Kabir\'s guru who initiated him into Bhakti', 'supporting character analysis'],
-                  hint: 'Review the "Character Analysis: Protagonist" node (c11_hin_ar_cbse_10_004) and re-read the.',
-                  misconception: 'Students often think "supporting character analysis" means writing a mini-biography of each person (birth, death, achievements).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे गौण पात्र होते हैं जो नायक/प्रमुख पात्र के साथ',
+                  options: ['सहायक पात्र (Supporting Characters) वे गौण पात्र होते हैं जो नायक/प्रमुख पात्र के साथ', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटका हुआ महसूस हो, तो **c11_hin_ar_cbse_10_004** के \'चरित्र-परिवर्तन (character arc) के 3 चरण.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र सहायक पात्रों को **\'कथानक के गवाह\' (witnesses to plot)** मान लेते हैं — अर्थात वे मानते हैं कि सहायक पात्र केवल.' }
           ],
-            remediations: { 'supporting-character-analysis-means-writing': { steps: ['If a student writes biographical summaries, stop them and say: "Close the book.', 'Look at the question: \'How does this character reveal Kabir?\' Now, find ONE interaction between them in the text.', 'Write that interaction down.', 'Now complete this sentence: \'This shows that Kabir is _____ because _____.\' Repeat for two more characters.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'witnesses-to-plot-emotional-support': { steps: ['**चरण 1 — \'कौन\' से \'क्या करता है\' पर शिफ्ट करें:** छात्र से कहें — "पात्र का नाम न लिखें, उसका *काम* (function) लिखें.', 'क्या *दिखाता* है?" — इसे \'फंक्शन ऑडिट\' (function audit) कहें। **चरण 2 — \'हटाओ और देखो\' टेस्ट (Removal Test):** प्रत्येक.', 'नायक का अंतिम निर्णय वही रहता या बदलता?" — यदि "वही रहता", तो पात्र सजावटी है; यदि "बदलता", तो कथात्मक है। **चरण 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_006', difficulty: 'standard',
-          question: 'The primary theme is the central, unifying idea that the author explores.',
-          hint: 'Review the \'Character Analysis: Protagonist\' node (c11_hin_ar_cbse_10_004) focusing.',
-          misconception: 'Students conflate \'theme\' with \'moral lesson\' or \'social issue.\' They write: "The theme is caste discrimination".',
+          question: '**मुख्य विषय (Central Theme)** किसी रचना का वह केंद्रीय विचार या भाव है जो पूरी.',
+          hint: 'यदि अटके तो **c11_hin_ar_cbse_10_004 (नायक पात्र-चित्रण)** और **c11_hin_ar_cbse_10_005.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **मुख्य विषय को "एक शब्द" (जैसे "संघर्ष", "गरिमा", "गरीबी") में लिखकर समझ लेते हैं कि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme is the central, unifying idea that the author explores throughout the',
-                  options: ['The primary theme is the central, unifying idea that the author explores throughout the', 'Context and background refer to the historical, social, cultural, and biographical', 'Plot and narrative structure in poetry refers to the organized sequence of events,', 'Setting in poetry refers to the spatial, temporal, and emotional backdrop against'],
-                  hint: 'Review the \'Character Analysis: Protagonist\' node (c11_hin_ar_cbse_10_004) focusing on the \'Kabir\'s.',
-                  misconception: 'Students conflate \'theme\' with \'moral lesson\' or \'social issue.\' They write: "The theme is caste discrimination" or "The message is.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**मुख्य विषय (Central Theme)** किसी रचना का वह केंद्रीय विचार या भाव है जो पूरी रचना को',
+                  options: ['**मुख्य विषय (Central Theme)** किसी रचना का वह केंद्रीय विचार या भाव है जो पूरी रचना को', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटके तो **c11_hin_ar_cbse_10_004 (नायक पात्र-चित्रण)** और **c11_hin_ar_cbse_10_005 (सहायक.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **मुख्य विषय को "एक शब्द" (जैसे "संघर्ष", "गरिमा", "गरीबी") में लिखकर समझ लेते हैं कि विषय पूरा हो गया**.' }
           ],
-            remediations: { 'students-conflate-theme-with-moral': { steps: ['**Re-anchor**: Ask student to complete this sentence frame: "Kabir argues that because ______ (theological claim: God.', '**Color-code**: Give the prose intro and poem; use two highlighters: Yellow for \'Social Reality words\' (julaha, pandit.', '**Synthesize**: Student writes one paragraph: "The Green words *resolve* the tension created by the Yellow words by...".', '**Terminology Drill**: Practice writing "Nirguna Bhakti" and "Prem-marg" in three sentences until fluent.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र से कहो: "पाठ के **अंतिम तीन पैराग्राफ** पढ़ो और प्रत्येक के बाद पूछो — \'लेखक यहाँ क्या *कहना* चाह रहा है, न कि.', 'उन उत्तरों को एक कागज़ पर **बुलेट पॉइंट** में लिखवाओ। 3.', 'अब कहो: "इन बिंदुओं को जोड़कर **एक ऐसा वाक्य बनाओ जिसमें \'क्योंकि\', \'इसलिए\', \'भले ही\' जैसे संबंध-सूचक शब्द हों।" 4.', 'वही वाक्य **मुख्य विषय (thematic statement)** होगा — इसे "एक शब्द" से तुलना कराकर भेद स्पष्ट करो।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

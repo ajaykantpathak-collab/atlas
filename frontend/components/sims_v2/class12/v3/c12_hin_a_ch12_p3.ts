@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch12_p3: SimDef = {
     id: 'v3_c12_hin_a_ch12_p3',
-    title: 'iQ.kh\'ojukFk ^js.kq · Part 3/3',
+    title: 'संवदयिा · Part 3/3',
     subtitle: 'A union leader wrote the village in the village\'s own voice',
-    classLevel: 12, subject: 'hin_a', topic: 'iQ.kh\'ojukFk ^js.kq · Part 3/3',
+    classLevel: 12, subject: 'hin_a', topic: 'संवदयिा · Part 3/3',
     chapters: ['c12_hin_a_ch12'],
     nodeIds: ['c12_hin_a_cbse_12_013', 'c12_hin_a_cbse_12_014', 'c12_hin_a_cbse_12_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,28 +19,15 @@ export const c12_hin_a_ch12_p3: SimDef = {
         hook: '\'Simple\' isn\'t \'artless\' — colloquial, descriptive, expressive prose immerses you in village life so hardship and tenderness land as lived, not reported. A socialist lens sees both the poverty AND the feeling; the story outlives its decade because the rural-urban divide still argues today.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the ability to move beyond literal comprehension of a literary text to examine its underlying assumptions, evaluate the effectiveness of narrative.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'संवदयिा — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन पाठ के तत्वों (विषय, पात्र, भाषा, संरचना) को तोड़कर उनके बीच के संबंधों की जाँच करना और उनके अर्थ एवं प्रभाव का मूल्यांकन करना है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_12_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Enter the village through its own speech: weigh a freedom fighter\'s lens on rural suffering, test why colloquiality is craft, and ask what a 1950s story still teaches a 2025 reader.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['संवदयिा — आलोचनात्मक चिंतन', 'संवदयिा — लेखन कौशल', 'संवदयिा — वाचन-श्रवण: चर्चा-बिंदु'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_12_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a journalist visiting a village where the last traditional storyteller has just died.',
-            decisions: [{ prompt: 'What is the literal meaning of the term "laofn;k" as established in the opening paragraph of the story, and what social function does the.', options: [
-                { text: '"laofn;k" literally means "one who tells/recites stories" (lans\'kokgd)', outcome: '"laofn;k" literally means "one who tells/recites stories" (lans\'kokgd).' },
-                { text: 'respected elder', outcome: 'Not quite — Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h".', reveals: 'students-often-treat-critical-analysis' },
-                { text: 'priest', outcome: 'Not quite — Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h".', reveals: 'students-often-treat-critical-analysis' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_12_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a college seminar where everyone has read "laofn;k" but no two people agree on whether the storyteller (laofn;k) is a preserver of culture.',
-            decisions: [{ prompt: 'What is the primary function of the "laofn;k" (storyteller) in the village community as depicted in the opening pages of the story?', options: [
-                { text: 'The laofn;k serves as the village\'s oral historian and cultural glue', outcome: 'The laofn;k serves as the village\'s oral historian and cultural glue — his nightly storytelling.' },
-                { text: 'he\'s just an old man who tells stories for fun', outcome: 'Not quite — Students treat "discussion points" as a list of topics to recite ("theme: tradition vs modernity.', reveals: 'students-treat-discussion-points-as' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_12_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your family wants to shift the ageing grandmother — who has nursed half the village\'s children — into your city flat \'for her own good.\' She refuses flatly, and everyone calls it stubbornness.',
             decisions: [{ prompt: 'How does the climax of \'रेणु\' read her refusal?', options: [
@@ -60,53 +47,38 @@ export const c12_hin_a_ch12_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the ability to move beyond.',
-          hint: 'If stuck, re-read the "iz\'u&vH;kl" (exercise questions) at the end of the NCERT chapter.',
-          misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents*.',
+          question: 'आलोचनात्मक चिंतन पाठ के तत्वों (विषय, पात्र, भाषा, संरचना) को तोड़कर उनके बीच.',
+          hint: 'यदि विश्लेषण में कठिनाई हो, तो पहले पात्र-चित्रण (c12_hin_a_cbse_12_004/005) या विषय.',
+          misconception: 'छात्र अक्सर मानते हैं कि आलोचनात्मक चिंतन का अर्थ है पाठ की निंदा करना या उसके दोष निकालना—जैसे कहना कि "लेखक का भाषा.',
           parts: [
-                { id: 'a', prompt: 'What is the literal meaning of the term "laofn;k" as established in the opening paragraph of the story, and what social function does the narrator say.', answer: '"laofn;k" literally means "one who tells/recites stories" (lans\'kokgd)',
-                  options: ['"laofn;k" literally means "one who tells/recites stories" (lans\'kokgd)', 'respected elder', 'priest'],
-                  hint: 'If stuck, re-read the "iz\'u&vH;kl" (exercise questions) at the end of the NCERT chapter — Questions.',
-                  misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents* the caste system.' },
-                { id: 'b', prompt: 'Analyze the significance of the repeated song "gekjks laokn ys tkgq js laofn;k&;k&;k" at three key moments: (a) when gjxksfcu first arrives, (b) when he leaves.', answer: 'when gjxksfcu first arrives, (',
-                  options: ['when gjxksfcu first arrives, (', 'background music'],
-                  hint: 'If stuck, re-read the "iz\'u&vH;kl" (exercise questions) at the end of the NCERT chapter — Questions.',
-                  misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents* the caste system.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन पाठ के तत्वों (विषय, पात्र, भाषा, संरचना) को तोड़कर उनके बीच के संबंधों',
+                  options: ['आलोचनात्मक चिंतन पाठ के तत्वों (विषय, पात्र, भाषा, संरचना) को तोड़कर उनके बीच के संबंधों', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'यदि विश्लेषण में कठिनाई हो, तो पहले पात्र-चित्रण (c12_hin_a_cbse_12_004/005) या विषय.',
+                  misconception: 'छात्र अक्सर मानते हैं कि आलोचनात्मक चिंतन का अर्थ है पाठ की निंदा करना या उसके दोष निकालना—जैसे कहना कि "लेखक का भाषा उपयोग कमजोर है" या.' }
           ],
-            remediations: { 'students-often-treat-critical-analysis': { steps: ['If the student cannot distinguish analysis from speculation: (1) Have them list 5 physical details about the cot from.', '(2) Ask: "Which of these details does the author *choose* to include, and what does that choice *do* to the reader\'s.', '(4) Re-attempt Diagnostic Question 4 with the song, using only words the author wrote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents*.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "gjxksfcu is the villain of the story." Defend your position using at least three specific textual moments.', answer: 'The claim is reductive',
-                  options: ['The claim is reductive', 'simply condemns or excuses him fails to engage the story\'s moral complexity'],
-                  hint: 'If stuck, re-read the "iz\'u&vH;kl" (exercise questions) at the end of the NCERT chapter — Questions.',
-                  misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents* the caste system.' }
-          ],
-            remediations: { 'students-often-treat-critical-analysis': { steps: ['If the student cannot distinguish analysis from speculation: (1) Have them list 5 physical details about the cot from.', '(2) Ask: "Which of these details does the author *choose* to include, and what does that choice *do* to the reader\'s.', '(4) Re-attempt Diagnostic Question 4 with the song, using only words the author wrote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'boring': { steps: ['छात्र से पूछिए कि वे अपने पसंदीदा फिल्म या गाने के बारे में क्या पसंद करते हैं—क्या यह सिर्फ इसलिए है क्योंकि यह.', 'फिर बताइए कि साहित्य में भी यही होता है: हम शब्दों, संरचना, चित्रों को नहीं इसलिए देखते हैं क्योंकि वे \'गलत\' हैं, बल्कि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_014', difficulty: 'standard',
-          question: 'Writing skills based on a literary chapter refer to the ability to compose.',
-          hint: 'यदि PEEL संरचना स्पष्ट नहीं है, तो कक्षा 11 के लेखन कौशल नोड (c11_hin_ar_cbse_01_014) का.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पाठ्य साक्ष्य\' (textual evidence) का अर्थ है **कहानी के लंबे अंश उद्धृत करना.',
+          question: 'लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए गद्य या पद्य पाठ पर आधारित.',
+          hint: 'यदि छात्र उत्तर में प्रमाण देने या स्पष्टीकरण करने में फंस जाए, तो उसे.',
+          misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबा लिखना ही अधिक अंक लाता है, इसलिए वे अनावश्यक दोहराव या सामान्य कथानक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills based on a literary chapter refer to the ability to compose structured,',
-                  options: ['Writing skills based on a literary chapter refer to the ability to compose structured,', '"Before You Read: Context and Background" is a pre-reading section that provides', 'Plot and narrative structure refer to the sequence of events in a story and the technique', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'यदि PEEL संरचना स्पष्ट नहीं है, तो कक्षा 11 के लेखन कौशल नोड (c11_hin_ar_cbse_01_014) का \'उत्तर.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पाठ्य साक्ष्य\' (textual evidence) का अर्थ है **कहानी के लंबे अंश उद्धृत करना (quoting long.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए गद्य या पद्य पाठ पर आधारित प्रश्नों के उत्तर',
+                  options: ['लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए गद्य या पद्य पाठ पर आधारित प्रश्नों के उत्तर', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'यदि छात्र उत्तर में प्रमाण देने या स्पष्टीकरण करने में फंस जाए, तो उसे c12_hin_a_cbse_12_011 (पाठ.',
+                  misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबा लिखना ही अधिक अंक लाता है, इसलिए वे अनावश्यक दोहराव या सामान्य कथानक का सारांश भर देते.' }
           ],
-            remediations: { 'textual-evidence-quoting-long-passages': { steps: ['**चरण 1 — निदान:** छात्र से कहें: "अपना अंतिम लिखा उत्तर निकालो। उसमें पीले हाइलाइटर से Point, गुलाबी से Evidence, नीले.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमजोर उत्तर (जैसे "नायक अच्छा था") कैसे PEEL में बदलता है — पहले बिंदु सुधारिए ("नायक का त्याग.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck on evidence location: review c12_hin_a_cbse_12_012 (Comprehension) for literal.',
-          misconception: 'Students treat "discussion points" as a list of topics to recite ("theme: tradition vs modernity; character: gjxksfcu.',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ है किसी विषय पर चर्चा करते समय attentively.',
+          hint: 'यदि चर्चा में बोलते समय संरचना बनाने में कठिनाई हो, तो पहले कागज़ पर PEEL प्रारूप में.',
+          misconception: 'छात्र अक्सर मानते हैं कि \'वाचन-श्रवण: चर्चा-बिंदु\' में केवल बोलने का कौशल महत्वपूर्ण है — वे सोचते हैं कि जितना अधिक और.',
           parts: [
-                { id: 'a', prompt: 'What is the primary function of the "laofn;k" (storyteller) in the village community as depicted in the opening pages of the story?', answer: 'The laofn;k serves as the village\'s oral historian and cultural glue',
-                  options: ['The laofn;k serves as the village\'s oral historian and cultural glue', 'he\'s just an old man who tells stories for fun'],
-                  hint: 'If stuck on evidence location: review c12_hin_a_cbse_12_012 (Comprehension) for literal retrieval.',
-                  misconception: 'Students treat "discussion points" as a list of topics to recite ("theme: tradition vs modernity; character: gjxksfcu is conflicted").' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ है किसी विषय पर चर्चा करते समय attentively सुनना',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु का अर्थ है किसी विषय पर चर्चा करते समय attentively सुनना', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'यदि चर्चा में बोलते समय संरचना बनाने में कठिनाई हो, तो पहले कागज़ पर PEEL प्रारूप में नोट्स बनाइए.',
+                  misconception: 'छात्र अक्सर मानते हैं कि \'वाचन-श्रवण: चर्चा-बिंदु\' में केवल बोलने का कौशल महत्वपूर्ण है — वे सोचते हैं कि जितना अधिक और जितना ज़ोर से.' }
           ],
-            remediations: { 'students-treat-discussion-points-as': { steps: ['If a student defaults to monologue: (1) Pause the discussion.', '(2) Model the "paraphrase-then-pivot" move: "Before you respond, tell me in your own words what Arjun just said about.', '(4) Debrief: "What did you hear that you missed when planning your own point?" (5) Re-enter with a sentence stem.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र इस भ्रम में फंसे हैं, तो पहले उन्हें एक जोड़ी में बैठाइए और 2 मिनट का टाइमर लगाइए — एक व्यक्ति 60 सेकंड तक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

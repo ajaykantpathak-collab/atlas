@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { Check, ChevronRight, Sparkles, BookOpen, GraduationCap, Target, Globe, ArrowRight, Star, Trophy, Zap } from "lucide-react";
+import { useAuthStore } from "@/stores/authStore";
 import { useOnboardingStore, type StepId, type Language, type BoardType, type ClassLevel, type Subject, type GoalType } from "./store";
 
 // ─── Translations ─────────────────────────────────────────────────────────────
@@ -61,10 +62,14 @@ const translations: T = {
   goal_submit: { en: "I'm Ready!", hinglish: "Main ready hoon!", hindi: "मैं तैयार हूँ!" },
 
   // Ready
-  ready_title: { en: "You're all set! 🎉", hinglish: "Sab set ho gaya! 🎉", hindi: "सब सेट हो गया! 🎉" },
+  ready_title: { en: "You're all set! 🎉", hinglish: "Sab set ho gaya! 🎉", hindi: "सब सेट हो गए! 🎉" },
   ready_subtitle: { en: "Your personalized learning journey starts now", hinglish: "Aapka personalized learning journey ab shuru hota hai", hindi: "आपकी व्यक्तिगत शिक्षा यात्रा अब शुरू होती है" },
   ready_cta: { en: "Go to Dashboard", hinglish: "Dashboard par jao", hindi: "डैशबोर्ड पर जाओ" },
   ready_summary: { en: "Summary", hinglish: "Summary", hindi: "सारांश" },
+  // CHILD-LENS (fix 3): onboarding ends INSIDE the child's first Story
+  // lesson — one tap from "all set" to actually learning something.
+  ready_lesson_cta: { en: "Start my first lesson", hinglish: "Mera pehla lesson shuru karo", hindi: "मेरा पहला पाठ शुरू करें" },
+  ready_lesson_loading: { en: "Finding your first lesson…", hinglish: "Pehla lesson dhoond rahe hain…", hindi: "आपका पहला पाठ खोज रहे हैं…" },
 
   // Progress
   step: { en: "Step", hinglish: "Step", hindi: "चरण" },
@@ -253,9 +258,13 @@ function WelcomeStep({ onNext, onSkip, lang }: { onNext: () => void; onSkip: () 
 function ClassStep({ onNext, lang }: { onNext: () => void; lang: Language }) {
   const dt = useDisplayText(lang);
   const { classLevel, board } = useOnboardingStore();
-  const boards: BoardType[] = ["CBSE", "ICSE", "State Board"];
+  const boards: BoardType[] = ["CBSE"];
 
   const canProceed = classLevel !== null && board !== null;
+
+  // CHILD-LENS (fix 3): the whole corpus is class 1-12, so the class grid
+  // is too — a Class 6 child must see their own class here, not only 11-12.
+  const classLabel = (n: number) => (lang === "hindi" ? `कक्षा ${n}` : `Class ${n}`);
 
   return (
     <motion.div
@@ -271,13 +280,13 @@ function ClassStep({ onNext, lang }: { onNext: () => void; lang: Language }) {
         {dt("class_subtitle")}
       </motion.p>
 
-      {/* Class cards */}
-      <motion.div className="grid grid-cols-2 gap-4 mb-8" variants={staggerItem}>
-        {([11, 12] as ClassLevel[]).map((level) => (
+      {/* Class cards — all 12 classes */}
+      <motion.div className="grid grid-cols-3 sm:grid-cols-4 gap-3 mb-8" variants={staggerItem}>
+        {(Array.from({ length: 12 }, (_, i) => i + 1) as ClassLevel[]).map((level) => (
           <motion.button
             key={level}
             onClick={() => useOnboardingStore.getState().setClassLevel(level)}
-            className={`relative p-5 rounded-2xl border-2 text-center transition-all duration-300 ${
+            className={`relative p-4 rounded-2xl border-2 text-center transition-all duration-300 ${
               classLevel === level
                 ? "bg-white/15 border-indigo-300 shadow-lg shadow-indigo-500/20"
                 : "bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20"
@@ -286,11 +295,11 @@ function ClassStep({ onNext, lang }: { onNext: () => void; lang: Language }) {
             whileHover={{ y: -2 }}
           >
             <GraduationCap
-              size={32}
+              size={26}
               className={`mx-auto mb-2 ${classLevel === level ? "text-indigo-200" : "text-white/40"}`}
             />
-            <span className={`text-lg font-bold block ${classLevel === level ? "text-white" : "text-white/60"}`}>
-              {dt(`class_${level}`)}
+            <span className={`text-sm font-bold block ${classLevel === level ? "text-white" : "text-white/60"}`}>
+              {classLabel(level)}
             </span>
             {classLevel === level && (
               <motion.div
@@ -615,12 +624,74 @@ function GoalStep({ onNext, onBack, lang }: { onNext: () => void; onBack: () => 
 }
 
 // ─── Step 5: Ready / Celebration ──────────────────────────────────────────────
+// CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 3): onboarding ends INSIDE the
+// first Story lesson of the child's own class — the "one next step" rule.
+// Dashboard stays as the honest fallback when no lesson can be resolved.
+
+/** Onboarding subject ids → corpus enrichment subject keys. */
+const SUBJECT_TO_CORPUS: Record<Subject, string> = {
+  maths: "maths",
+  physics: "physics",
+  chemistry: "chem",
+  biology: "bio",
+  english: "english",
+  history: "history",
+  geography: "geo",
+  political_science: "civics",
+  economics: "eco",
+  informatics: "cs",
+};
+
+/** GET /api/content/enrichment row (subset). */
+interface FirstLessonNode {
+  node_id: string;
+  slug?: string | null;
+  has_definition?: boolean;
+  has_eli5?: boolean;
+  has_walkthrough?: boolean;
+}
+
+async function resolveFirstStoryLesson(
+  classLevel: number,
+  subjects: Subject[],
+): Promise<string | null> {
+  const tried = new Set<string>();
+  const prefs = [
+    ...subjects.map((s) => SUBJECT_TO_CORPUS[s]),
+    "maths", // honest default when no subject survives the lookup
+  ];
+  for (const key of prefs) {
+    if (!key || tried.has(key)) continue;
+    tried.add(key);
+    try {
+      const res = await fetch(
+        `/api/content/enrichment?subject=${encodeURIComponent(key)}&class_level=${classLevel}&limit=500`,
+      );
+      if (!res.ok) continue;
+      const data = (await res.json()) as { nodes?: FirstLessonNode[] };
+      const servable = (data.nodes ?? []).filter(
+        (n) => n?.node_id && (n.has_definition || n.has_eli5 || n.has_walkthrough),
+      );
+      if (servable.length > 0) {
+        const node = servable[0];
+        return `/learn/${encodeURIComponent(node.slug || node.node_id)}/story`;
+      }
+    } catch {
+      /* try the next subject — never invent a lesson */
+    }
+  }
+  return null;
+}
+
 function ReadyStep({ lang }: { lang: Language }) {
   const dt = useDisplayText(lang);
   const { classLevel, board, subjects, goal, reset } = useOnboardingStore();
   const router = useRouter();
+  const [lessonLoading, setLessonLoading] = useState(false);
+  const setUser = useAuthStore((s) => s.setUser);
+  const authUser = useAuthStore((s) => s.user);
 
-  const goToDashboard = async () => {
+  const persistOnboarding = async () => {
     // Persist onboarding state to backend
     try {
       await fetch("/api/student/onboarding", {
@@ -638,6 +709,23 @@ function ReadyStep({ lang }: { lang: Language }) {
     } catch {
       // offline — state already in localStorage
     }
+    // Keep the signed-in account's class in sync locally so every
+    // class-aware surface (learn, explore, briefing) is correct at once,
+    // even if the profile write is still in flight.
+    if (authUser && classLevel) {
+      setUser({ ...authUser, class_level: classLevel, classLevel });
+    }
+  };
+
+  const startFirstLesson = async () => {
+    setLessonLoading(true);
+    await persistOnboarding();
+    const href = classLevel ? await resolveFirstStoryLesson(classLevel, subjects) : null;
+    router.push(href ?? "/dashboard");
+  };
+
+  const goToDashboard = async () => {
+    await persistOnboarding();
     router.push("/dashboard");
   };
 
@@ -710,14 +798,22 @@ function ReadyStep({ lang }: { lang: Language }) {
 
       <motion.div className="w-full max-w-sm space-y-3" variants={staggerItem}>
         <motion.button
-          onClick={goToDashboard}
+          onClick={startFirstLesson}
+          disabled={lessonLoading}
           className="w-full py-4 px-6 rounded-2xl bg-white text-indigo-600 font-bold text-base
-                     shadow-lg shadow-black/20 flex items-center justify-center gap-2"
+                     shadow-lg shadow-black/20 flex items-center justify-center gap-2 disabled:opacity-70"
           whileTap={{ scale: 0.97 }}
           whileHover={{ y: -2 }}
         >
-          {dt("ready_cta")} <ArrowRight size={18} />
+          {lessonLoading ? dt("ready_lesson_loading") : dt("ready_lesson_cta")}
+          {!lessonLoading && <ArrowRight size={18} />}
         </motion.button>
+        <button
+          onClick={goToDashboard}
+          className="w-full py-2 text-sm text-white/60 hover:text-white/90 transition-colors underline underline-offset-4"
+        >
+          {dt("ready_cta")}
+        </button>
         <button
           onClick={reset}
           className="text-xs text-white/30 hover:text-white/50 transition-colors"

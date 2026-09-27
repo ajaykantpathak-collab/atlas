@@ -1,0 +1,672 @@
+{
+ "gameFile": "HinVarnamalaGame",
+ "classLevel": 1,
+ "cisceNodes": [
+  "c1_hin_001"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "वर्णमाला क्या है? 🅰️",
+   "text": "Hindi has letters called 'akshar'! Each akshar has a sound — like 'क' says 'ka'. Together they make the varnamala!",
+   "emoji": "🅰️",
+   "bgColor": "from-orange-400 to-red-500",
+   "spoken": ""
+  },
+  {
+   "title": "स्वर — The Vowels ⭐",
+   "text": "अ आ इ ई उ ऊ — these are swar (vowels)! They sing on their own and every word needs them!",
+   "emoji": "⭐",
+   "bgColor": "from-yellow-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "व्यंजन — The Consonants 🪁",
+   "text": "क ख ग घ ङ — these are vyanjan! They need a swar to make a full sound, like क + अ = क!",
+   "emoji": "🪁",
+   "bgColor": "from-green-400 to-teal-500",
+   "spoken": ""
+  },
+  {
+   "title": "Same-Sound Families 👨‍👩‍👧",
+   "text": "क-ख-ग-घ are neighbours in the varnamala — they are cousins in the same family!",
+   "emoji": "👨‍👩‍👧",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Akshar to Word 📖",
+   "text": "क + म + ल = कमल (kamal = lotus)! Put akshars together and magic happens — WORDS!",
+   "emoji": "📖",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "Which akshar says 'ka'?",
+   "answer": "क",
+   "options": [
+    "क",
+    "ख",
+    "ग"
+   ],
+   "hint": "'ka' is the first vyanjan — क!",
+   "misconception": "'क' is 'ka', 'ख' is 'kha', 'ग' is 'ga' — similar shapes, different sounds!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "क",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "ख",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "ग",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "क",
+     "ख"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which of these is a SWAR (vowel)?",
+   "answer": "आ",
+   "options": [
+    "आ",
+    "म",
+    "स"
+   ],
+   "hint": "Swar stand alone — आ is one!",
+   "misconception": "आ is a swar; म and स are vyanjan — they need a swar to sound complete!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "आ",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "म",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "स",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "आ",
+     "म"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "What comes right after 'क' in the varnamala?",
+   "answer": "ख",
+   "options": [
+    "ख",
+    "ग",
+    "घ"
+   ],
+   "hint": "The order is क, ख, ग, घ, ङ!",
+   "misconception": "'ख' follows 'क' — the varnamala order is fixed!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "ख",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "ग",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "घ",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ख",
+     "ग"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Put these vyanjans in varnamala order!",
+   "answer": "sort",
+   "options": [],
+   "hint": "क ख ग घ — like a little song!",
+   "misconception": "Varnamala order: क → ख → ग → घ — the ka-family!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "क",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "ख",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "ग",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "घ",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "क",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "ख",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "ग",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "घ",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "1st",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "2nd",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "3rd",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "4th",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "क",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "ख",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "क + म + ल makes which word?",
+   "answer": "कमल",
+   "options": [
+    "कमल",
+    "कलम",
+    "मकल"
+   ],
+   "hint": "Sound it out: ka + ma + la!",
+   "misconception": "ka-ma-la = कमल (lotus)! 'कलम' (pen) is ka-la-ma — order matters!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "कमल",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "कलम",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "मकल",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "कमल",
+     "कलम"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which akshar starts the word 'नानी'?",
+   "answer": "न",
+   "options": [
+    "न",
+    "म",
+    "ब"
+   ],
+   "hint": "Naa-nee — the first sound is 'na'!",
+   "misconception": "'नानी' starts with 'न' (na) — listen for the first sound!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "न",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "म",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "ब",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "न",
+     "म"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which swar sounds like 'ee'?",
+   "answer": "ई",
+   "options": [
+    "ई",
+    "इ",
+    "उ"
+   ],
+   "hint": "Long 'eee' — ई is the long form!",
+   "misconception": "'ई' is long 'ee', 'इ' is short 'i' — similar but different lengths!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "ई",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "इ",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "उ",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ई",
+     "इ"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort these akshars: SWAR (vowel) or VYANJAN (consonant)?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Swar stand alone (अ, उ); vyanjan need a swar to sound (क, म)!",
+   "misconception": "अ and उ are swar; क and म are vyanjan — test by saying them alone!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "अ",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "क",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "उ",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "म",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "अ",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "क",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "उ",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "label": "म",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "swar",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "vyanjan",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "अ",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "क",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "varnamala-path",
+ "storyArc": {
+  "theme": "Piku walks the varnamala path with her Dadi",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Varnamala Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c1_hin_001",
+  "region": "Aksharlok",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🅰️",
+  "prerequisites": []
+ },
+ "subject": "hindi"
+}

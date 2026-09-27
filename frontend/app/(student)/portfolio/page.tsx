@@ -182,7 +182,7 @@ export default function PortfolioPage() {
                   </h2>
                   <div className="flex flex-wrap items-center gap-2 mt-2">
                     {classLine && <span className="badge-brand">{classLine}</span>}
-                    <span className="badge">Tracked across 9,010 syllabus nodes</span>
+                    <span className="badge">Tracked across 9,099 syllabus nodes</span>
                   </div>
                 </div>
                 <div className="text-center">

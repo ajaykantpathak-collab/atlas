@@ -8,7 +8,7 @@ export const c6_biology_ch10_p1: SimDef = {
     subtitle: 'What does a sleeping seed need before it dares to grow?',
     classLevel: 6, subject: 'biology', topic: 'Life Processes -- Plant Growth and Transport · Part 1/2',
     chapters: ['c6_biology_ch10'],
-    nodeIds: ['c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch10_003'],
+    nodeIds: ['c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch10_003', 'c6_biology_ch10_004', 'c6_biology_ch10_005', 'c6_biology_ch10_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a gardener with two bean seeds and one wet paper towel', intro: 'Two identical seeds, two bowls — one dry, one damp. In three days only one has sprouted. What secret did the water whisper?', goal: 'Discover what germination really needs, and bust the myth that baby plants eat soil.' },

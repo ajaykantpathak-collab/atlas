@@ -1,0 +1,672 @@
+{
+ "gameFile": "HinWordsGame",
+ "classLevel": 3,
+ "cisceNodes": [
+  "c3_hin_003"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "शब्द = अर्थ 🌼",
+   "text": "Every word carries a meaning! 'सूर्य' = sun. 'नदी' = river. Words are meaning capsules!",
+   "emoji": "🌼",
+   "bgColor": "from-yellow-400 to-orange-500",
+   "spoken": ""
+  },
+  {
+   "title": "विलोम — Opposites 🔄",
+   "text": "दिन↔रात, गर्म↔ठंडा, ऊपर↔नीचे — vilom words are mirror pairs!",
+   "emoji": "🔄",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "पर्यायवाची — Same-Meaning 🌈",
+   "text": "सूरज=सूर्य=भानु (all mean sun)! पर्यायवाची are different words, same meaning!",
+   "emoji": "🌈",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "शब्द-परिवार 👨‍👩‍👧",
+   "text": "'पढ़' family: पढ़ना, पढ़ाई, विद्यालय, पाठक — related words grow from one root!",
+   "emoji": "👨‍👩‍👧",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "Collect Words Like Gems 💎",
+   "text": "Every new word is a gem for your Hindi — collect पर्याय, विलोम, and families!",
+   "emoji": "💎",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "'सूर्य' means—",
+   "answer": "sun",
+   "options": [
+    "sun",
+    "moon",
+    "star"
+   ],
+   "hint": "It lights the day!",
+   "misconception": "'सूर्य' = sun; 'चंद्रमा' = moon!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "sun",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "moon",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "star",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "sun",
+     "moon"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "The विलोम of 'दिन' is—",
+   "answer": "रात",
+   "options": [
+    "रात",
+    "सुबह",
+    "शाम"
+   ],
+   "hint": "The complete opposite!",
+   "misconception": "'रात' (night) — दिन↔रात are mirror opposites!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "रात",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "सुबह",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "शाम",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "रात",
+     "सुबह"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "पर्यायवाची of 'सूर्य'—",
+   "answer": "सूरज",
+   "options": [
+    "सूरज",
+    "चांद",
+    "पानी"
+   ],
+   "hint": "Another word meaning the same thing!",
+   "misconception": "'सूरज' and 'सूर्य' both mean sun — पर्यायवाची!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "सूरज",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "चांद",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "पानी",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "सूरज",
+     "चांद"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match word to its विलोम!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Each word has its mirror flip!",
+   "misconception": "ऊपर↔नीचे, दिन↔रात, गर्म↔ठंडा, हँसना↔रोना!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "ऊपर",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "दिन",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "गर्म",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "हँसना",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "ऊपर",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "दिन",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "गर्म",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "हँसना",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "नीचे",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "रात",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "ठंडा",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "रोना",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "ऊपर",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "दिन",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'पढ़ाई' belongs to which word-family?",
+   "answer": "पढ़ (read)",
+   "options": [
+    "पढ़ (read)",
+    "लिख (write)",
+    "खेल (play)"
+   ],
+   "hint": "'पढ़' is the root inside it!",
+   "misconception": "'पढ़ाई' grows from 'पढ़' — the reading family!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "पढ़ (read)",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "लिख (write)",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "खेल (play)",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "पढ़ (read)",
+     "लिख (write)"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "पर्यायवाची of 'नदी'—",
+   "answer": "सरिता",
+   "options": [
+    "सरिता",
+    "पहाड़",
+    "मैदान"
+   ],
+   "hint": "A river by another name!",
+   "misconception": "'सरिता' = river — नदी and सरिता are पर्यायवाची!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "सरिता",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "पहाड़",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "मैदान",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "सरिता",
+     "पहाड़"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "विलोम of 'दूरी' (far)?",
+   "answer": "पास",
+   "options": [
+    "पास",
+    "दूर",
+    "ऊँचा"
+   ],
+   "hint": "Near vs far!",
+   "misconception": "'पास' (near) — दूरी↔पास are opposites!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "पास",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "दूर",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "ऊँचा",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "पास",
+     "दूर"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort: विलोम pairs or पर्यायवाची pairs?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Opposite = विलोम; same-meaning = पर्यायवाची!",
+   "misconception": "Opposites flip meaning; पर्यायवाची share it!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "दिन-रात",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "सूर्य-सूरज",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "गर्म-ठंडा",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "नदी-सरिता",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "दिन-रात",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "सूर्य-सूरज",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "गर्म-ठंडा",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "label": "नदी-सरिता",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "विलोम",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "पर्यायवाची",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "दिन-रात",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "सूर्य-सूरज",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "word-festival",
+ "storyArc": {
+  "theme": "Piku celebrates the word festival: meanings, opposites, families",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Word Collector Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c3_hin_003",
+  "region": "Aksharlok",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🌼",
+  "prerequisites": []
+ },
+ "subject": "hindi"
+}

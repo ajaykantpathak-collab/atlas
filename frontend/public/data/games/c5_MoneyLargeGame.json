@@ -1,0 +1,548 @@
+{
+ "gameFile": "MoneyLargeGame",
+ "classLevel": 5,
+ "cisceNodes": [
+  "c5_math_053",
+  "c5_math_015"
+ ],
+ "mascot": "Budget Bhavana — a friendly fish-market trader with a ledger book, a pencil behind her ear and a sharp eye for good deals",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Money in Real Life 🐟",
+   "text": "Money problems are everywhere! A fish seller like in 'The Fish Tale' counts her catch, prices it, and earns money for her family. First she ESTIMATES — about how much? — then calculates.",
+   "emoji": "🐟",
+   "bgColor": "from-amber-400 to-orange-500",
+   "spoken": "In real life we estimate money first, then calculate exactly.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "The fish tale",
+    "data": {
+     "steps": [
+      "Catch 5 kg fish",
+      "Price ₹60 a kg",
+      "About ₹300!"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Reading a Price List 📋",
+   "text": "A price list shows the cost of many things. To buy several of one thing, MULTIPLY: 5 kg at ₹40 per kg = 5 × 40 = ₹200. To buy different things, add each amount.",
+   "emoji": "📋",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": "Multiply price per unit by how many, then add up different items.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Price list maths",
+    "data": {
+     "steps": [
+      "1 kg = ₹40",
+      "5 kg = 5 × 40",
+      "= ₹200"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Word Problems: Earn and Spend 💼",
+   "text": "Money word problems tell a small story. A seller earns ₹250 on Monday and ₹350 on Tuesday. Together: 250 + 350 = ₹600. Read carefully — is it add or subtract?",
+   "emoji": "💼",
+   "bgColor": "from-emerald-400 to-teal-500",
+   "spoken": "Earning and adding amounts together means addition; spending means subtraction.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Adding earnings",
+    "data": {
+     "steps": [
+      "Earn ₹250",
+      "Earn ₹350",
+      "Total ₹600"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Budgeting: Plan Your Money 📊",
+   "text": "A BUDGET is a plan for money. Write what you NEED first — food, travel, school — and keep a little SAVED for later. A family with ₹2,000 plans: food ₹1,200, travel ₹500, savings ₹300!",
+   "emoji": "📊",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": "A budget plans money for needs first, then saves the rest.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "A simple budget",
+    "data": {
+     "steps": [
+      "Budget ₹2,000",
+      "Needs ₹1,700",
+      "Save ₹300"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Estimate to Check 💡",
+   "text": "Round prices to check your maths! ₹198 is about ₹200, ₹121 is about ₹120. So ₹198 + ₹121 is about ₹320. If your exact answer is far from the estimate, check again!",
+   "emoji": "💡",
+   "bgColor": "from-rose-400 to-red-500",
+   "spoken": "Round each amount to estimate the answer before calculating exactly.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Estimating money",
+    "data": {
+     "steps": [
+      "₹198 ≈ ₹200",
+      "₹121 ≈ ₹120",
+      "About ₹320"
+     ]
+    }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "add_money",
+   "question": "Fish costs ₹60 for 1 kg. How much do 5 kg cost?",
+   "answer": "₹300",
+   "options": [
+    "₹250",
+    "₹300",
+    "₹360"
+   ],
+   "hint": "5 × 60. Think: 5 sixes make 30, so 5 × 60 = 300.",
+   "misconception": "5 × 60 = 300, so 5 kg cost ₹300.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹250",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹300",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹360",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "add_money",
+   "question": "A seller earns ₹250 on Monday and ₹350 on Tuesday. How much in all?",
+   "answer": "₹600",
+   "options": [
+    "₹500",
+    "₹600",
+    "₹700"
+   ],
+   "hint": "Add the two earnings: 250 + 350.",
+   "misconception": "250 + 350 = 600.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹500",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹600",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹700",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "add_money",
+   "question": "A boat net costs ₹1,200 and repairs cost ₹800. What is the total spent?",
+   "answer": "₹2,000",
+   "options": [
+    "₹1,900",
+    "₹2,000",
+    "₹2,100"
+   ],
+   "hint": "1,200 + 800. Think 12 + 8 = 20 hundreds.",
+   "misconception": "1,200 + 800 = 2,000.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹1,900",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹2,000",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹2,100",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "money_change",
+   "question": "You pay ₹500 for a bill of ₹435. How much change do you get?",
+   "answer": "₹65",
+   "options": [
+    "₹65",
+    "₹75",
+    "₹165"
+   ],
+   "hint": "Change = 500 − 435. Count up: 435 to 500 is 65.",
+   "misconception": "500 − 435 = 65, so the change is ₹65.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹65",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹75",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹165",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "Estimate ₹198 + ₹121 by rounding to the nearest ten: about how much?",
+   "answer": "About ₹320",
+   "options": [
+    "About ₹310",
+    "About ₹320",
+    "About ₹330"
+   ],
+   "hint": "198 ≈ 200 and 121 ≈ 120. Add the rounded numbers.",
+   "misconception": "200 + 120 = 320, so the answer is about ₹320.",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "About ₹310",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "About ₹320",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "About ₹330",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "sort_need_wish",
+   "question": "Bhavana plans her budget. Sort each thing: is it a NEED (must have) or a WISH (nice to have)?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Needs are things we must have every day.",
+   "misconception": "Uniform and food are needs. A bat and a video game are wishes we can save for.",
+   "sortItems": [
+    {
+     "id": "s1",
+     "label": "School uniform",
+     "emoji": "👕",
+     "correctBin": "need"
+    },
+    {
+     "id": "s2",
+     "label": "Cricket bat",
+     "emoji": "🏏",
+     "correctBin": "wish"
+    },
+    {
+     "id": "s3",
+     "label": "Food grains",
+     "emoji": "🌾",
+     "correctBin": "need"
+    },
+    {
+     "id": "s4",
+     "label": "Video game",
+     "emoji": "🎮",
+     "correctBin": "wish"
+    }
+   ],
+   "bins": [
+    {
+     "id": "need",
+     "label": "Needs — plan first 🍞",
+     "color": "#10B981"
+    },
+    {
+     "id": "wish",
+     "label": "Wishes — save up for 🌟",
+     "color": "#8B5CF6"
+    }
+   ],
+   "storyBeat": "rising"
+  },
+  {
+   "type": "money_change",
+   "question": "Puja earns ₹900 in a day and spends ₹650 on diesel. How much is left?",
+   "answer": "₹250",
+   "options": [
+    "₹150",
+    "₹250",
+    "₹350"
+   ],
+   "hint": "Subtract: 900 − 650.",
+   "misconception": "900 − 650 = 250, so ₹250 is left.",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹150",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹250",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹350",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "money_change",
+   "question": "A family budgets ₹2,000 for the week: ₹1,200 for food and ₹500 for travel. How much remains for savings?",
+   "answer": "₹300",
+   "options": [
+    "₹200",
+    "₹300",
+    "₹700"
+   ],
+   "hint": "First add 1,200 + 500, then subtract from 2,000.",
+   "misconception": "1,200 + 500 = 1,700, and 2,000 − 1,700 = 300.",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹200",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹300",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹700",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  }
+ ],
+ "subject": "maths",
+ "theme": "market",
+ "storyArc": {
+  "theme": "Bhavana the fish trader runs her market day",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "Bhavana prices her fresh catch",
+    "mascotDialogue": "Welcome to my market stall! Let's price the fish!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "Customers order by the kilo",
+    "mascotDialogue": "Multiply the price — how many kilos?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The till fills with bigger notes",
+    "mascotDialogue": "Now earnings, bills and change!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The family budget for the week",
+    "mascotDialogue": "The big one: plan needs first, then save!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The day ends with a neat profit book",
+    "mascotDialogue": "A perfect market day — you budgeted like a pro!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Bhavana's Ledger",
+  "totalPieces": 8
+ }
+}

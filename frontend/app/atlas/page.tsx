@@ -163,45 +163,6 @@ function findTopic(query: string) {
   return null
 }
 
-// ─── Knowledge graph data (Obsidian-style LivingGraph) ─────────────────────
-// Subject hubs + topic nodes, edges from real prerequisite chains in
-// TOPIC_DB. Mastery values are deterministic demo states until the live
-// solver feeds real mastery.
-
-const GRAPH_SUBJECT_COLORS: Record<string, string> = {
-  Physics: '#38BDF8',
-  Chemistry: '#FBBF24',
-  Maths: '#A78BFA',
-  Biology: '#FB7185',
-}
-
-function buildKnowledgeGraph() {
-  const nodes: { id: string; subject: string; mastery: number; label?: string }[] = []
-  const edges: { source: string; target: string }[] = []
-  const subjects = Array.from(new Set(TOPIC_DB.map(t => t.subject)))
-
-  for (const s of subjects) {
-    nodes.push({ id: `hub:${s}`, subject: s, mastery: 0.85, label: s })
-  }
-
-  TOPIC_DB.forEach((t, i) => {
-    const id = `topic:${t.topic}`
-    nodes.push({ id, subject: t.subject, mastery: 0.25 + ((i * 29) % 70) / 100, label: t.topic })
-    edges.push({ source: `hub:${t.subject}`, target: id })
-  })
-
-  const byName = new Map(TOPIC_DB.map(t => [t.topic.toLowerCase(), `topic:${t.topic}`]))
-  for (const t of TOPIC_DB) {
-    for (const pre of t.prerequisites) {
-      const target = byName.get(pre.toLowerCase())
-      if (target) edges.push({ source: target, target: `topic:${t.topic}` })
-    }
-  }
-  return { nodes, edges }
-}
-
-const KNOWLEDGE_GRAPH = buildKnowledgeGraph()
-
 const SUBJECT_DOTS: Record<string, string> = {
   Physics: '#38BDF8', Chemistry: '#FBBF24', Maths: '#A78BFA', Biology: '#FB7185',
   EVS: '#34D399', English: '#F87171', Hindi: '#FB923C', Aptitude: '#Facc15', Botany: '#4ADE80',
@@ -267,8 +228,8 @@ const BOARDS = ['CISCE', 'CBSE', 'ICSE', 'ISC']
 
 const STATS = [
   // live-wired: teaching_nodes from /api/tutor-graph/stats (official
-  // graph = 9,010; the 21k-era datasets are the old syllabus — never shown)
-  { countUp: true, dynamic: true, value: 9010, suffix: '', label: 'Topics in the Atlas graph' },
+  // graph = 9,099; the 21k-era datasets are the old syllabus — never shown)
+  { countUp: true, dynamic: true, value: 9099, suffix: '', label: 'Topics in the Atlas graph' },
   { countUp: false, dynamic: false, value: 'Class 1–12', label: 'Every class, every subject' },
   { countUp: false, dynamic: false, value: '3 min', label: 'To find your gaps' },
 ]
@@ -602,8 +563,8 @@ export default function AtlasLanding() {
   const [activeSubject, setActiveSubject] = useState<string | null>(null)
   const [email, setEmail] = useState('')
   const [emailSubmitted, setEmailSubmitted] = useState(false)
-  // official node count — live from the graph, honest 9,010 fallback
-  const [liveNodes, setLiveNodes] = useState(9010)
+  // official node count — live from the graph, honest 9,099 fallback
+  const [liveNodes, setLiveNodes] = useState(9099)
   // per-subject counts from the same stats call — drives the subject strip
   const [statsSubjects, setStatsSubjects] = useState<Record<string, number> | null>(null)
   // guards against a slow node-resolution landing after a newer ask
@@ -689,19 +650,35 @@ export default function AtlasLanding() {
       })
       .catch(() => null)
     // the REAL deterministic engine (WHY-lane -> solver), same one the
-    // tutor uses — the local TOPIC_DB is only an offline fallback now
+    // tutor uses — the local TOPIC_DB is only an offline fallback now.
+    // class_level (GRADE-MAP fix): scope the teach lane to the selected
+    // class so answers come from that grade's own corpus.
+    const atlasClass = Number(selectedClass)
     fetch('/api/tutor-graph/ask', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ student_id: 'atlas-guest', question: q }),
+      body: JSON.stringify({
+        student_id: 'atlas-guest',
+        question: q,
+        class_level: atlasClass >= 1 && atlasClass <= 12 ? atlasClass : null,
+      }),
     })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
       .then((d) => {
-        const steps: string[] = Array.isArray(d.steps) ? d.steps : []
-        const text = String(d.answer || '')
+        const steps: string[] = (Array.isArray(d.steps) ? d.steps : [])
+          .filter((s: unknown): s is string => typeof s === 'string')
+        // [object Object] guard: only genuine strings render — a
+        // structured object must never become "[object Object]" on screen
+        const text = typeof d.answer === 'string' ? d.answer : ''
         const topic = d.topic || (d.teach ? 'Teaching answer' : d.verified ? 'Verified solution' : 'Guided next step')
         const directId = typeof d.node_id === 'string' && d.node_id ? d.node_id : null
-        setAnswer({ topic, answer: text, steps, source: 'live', nodeId: directId, prerequisites: [] })
+        // Doubt→Story bridge: only the backend-attached story_url (the
+        // subject-anchored teach lane resolved a corpus node) may deep-link
+        // into Story Mode — the parallel search resolution never fabricates one
+        const storyUrl = typeof d.story_url === 'string' && d.story_url.startsWith('/learn/')
+          ? d.story_url
+          : null
+        setAnswer({ topic, answer: text, steps, source: 'live', nodeId: directId, storyUrl, prerequisites: [] })
         setActiveSubject(null)
         setSelectedRegion(null)
         // patch the gold deep-link once the parallel resolution lands

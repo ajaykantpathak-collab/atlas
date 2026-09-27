@@ -1,0 +1,672 @@
+{
+ "gameFile": "HinMatraGame",
+ "classLevel": 3,
+ "cisceNodes": [
+  "c3_hin_002"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Beyond the Basics 🪔",
+   "text": "You know ा ि ी ु ू — now meet े ै ो ौ ं! Five more matras to master!",
+   "emoji": "🪔",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "े and ै — The 'e' Sounds",
+   "text": "े makes 'e' (के = ke), ै makes 'ai' (कै = kai) — the double-stroke is deeper!",
+   "emoji": "े",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "ो and ौ — The 'o' Sounds",
+   "text": "ो makes 'o' (को = ko), ौ makes 'au' (कौ = kau) — single vs double stroke again!",
+   "emoji": "ो",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "ं — The Nasal Dot",
+   "text": "ं adds a nasal 'n' sound: अंब, दंत, गंगा — the little dot hums!",
+   "emoji": "ं",
+   "bgColor": "from-orange-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "All Together Now 🎵",
+   "text": "के कै को कौ कं — same letter क, five different sounds! Matras are the vowel toolbox!",
+   "emoji": "🎵",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "क + े = ?",
+   "answer": "के",
+   "options": [
+    "के",
+    "कै",
+    "की"
+   ],
+   "hint": "The single top-stroke = 'e'!",
+   "misconception": "'के' — े is the 'e' matra; ै (double) is 'ai'!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "के",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "कै",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "की",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "के",
+     "कै"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which word has the 'ai' matra (ै)?",
+   "answer": "कैसे",
+   "options": [
+    "कैसे",
+    "केला",
+    "कोई"
+   ],
+   "hint": "'kai-se' — the ai sound!",
+   "misconception": "'कैसे' has ै; 'केला' has े (e), 'कोई' has ो (o)!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "कैसे",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "केला",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "कोई",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "कैसे",
+     "केला"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'को' uses which matra?",
+   "answer": "ो (o)",
+   "options": [
+    "ो (o)",
+    "ौ (au)",
+    "े (e)"
+   ],
+   "hint": "'ko' — single stroke on top!",
+   "misconception": "'को' = क + ो — the single-stroke 'o' matra!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "ो (o)",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "ौ (au)",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "े (e)",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ो (o)",
+     "ौ (au)"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort by vowel sound: 'e' or 'ai'?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Say it: ke vs kai, ne vs nai!",
+   "misconception": "े = 'e' (shorter); ै = 'ai' (longer double-stroke)!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "के",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "कै",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "ने",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "नै",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "के",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "कै",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "ने",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "label": "नै",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "e matra",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "ai matra",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "के",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "कै",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'अंब' (mango) has which extra mark?",
+   "answer": "ं (nasal dot)",
+   "options": [
+    "ं (nasal dot)",
+    "ः (colon)",
+    "ँ (chandrabindu)"
+   ],
+   "hint": "The dot above adds 'n'!",
+   "misconception": "'अंब' = अ + ं + ब — the ं adds the nasal 'n' before the consonant!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "ं (nasal dot)",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "ः (colon)",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "ँ (chandrabindu)",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ं (nasal dot)",
+     "ः (colon)"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "काौ or कौ? — correct spelling of 'kau' (who)?",
+   "answer": "कौ",
+   "options": [
+    "कौ",
+    "काौ",
+    "को"
+   ],
+   "hint": "One matra only — the double-stroke ौ!",
+   "misconception": "'कौ' — the ौ is ONE matra (double-stroke); two matras is impossible!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "कौ",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "काौ",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "को",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "कौ",
+     "काौ"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which sentence uses matras correctly?",
+   "answer": "मेरा नाम मोहन है।",
+   "options": [
+    "मेरा नाम मोहन है।",
+    "मैरा नाम मोहन है।",
+    "मेर नाम मोहन है।"
+   ],
+   "hint": "'meraa naam' — check each matra!",
+   "misconception": "'मेरा' = म + े + र + ा — both matras correct; 'मैरा' has wrong ै!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "मेरा नाम मोहन है।",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "मैरा नाम मोहन है।",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "मेर नाम मोहन है।",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "मेरा नाम मोहन है।",
+     "मैरा नाम मोहन है।"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match word to matra-type!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Sound each word — which matra is inside?",
+   "misconception": "कोयला has ो, मैदान has ै, केला has े, दंत has ं!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "कोयला",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "मैदान",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "केला",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "दंत",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "कोयला",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "मैदान",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "केला",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "दंत",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "o matra",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "ai matra",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "e matra",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "nasal dot",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "कोयला",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "मैदान",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "matra-depths",
+ "storyArc": {
+  "theme": "Piku dives deeper into the matra ocean",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Matra Deep-Dive Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c3_hin_002",
+  "region": "Aksharlok",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🪔",
+  "prerequisites": []
+ },
+ "subject": "hindi"
+}

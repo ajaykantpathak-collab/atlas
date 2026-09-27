@@ -16,7 +16,7 @@ export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
     discovery: {
         question: 'Compare the factor sensitivity of **direct organogenesis** (node 008) vs. **somatic embryogenesis** (node 009).',
         options: ['Correct answer: (a) Somatic embryogenesis is far more sensitive to explant age', 'optimizing one factor (e.g., BAP concentration) will fix a failed protocol', '"optimizing one factor (e'],
-        answer: 'Correct answer: (a) Somatic embryogenesis is far more sensitive to explant age',
+        answer: '(a) Somatic embryogenesis is far more sensitive to explant age',
         hook: 'Students believe "optimizing one factor (e.g., BAP concentration) will fix a failed protocol." In reality, factors.',
     },
     teaching: [
@@ -95,7 +95,7 @@ export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
           hint: 'If stuck, revisit the Skoog-Miller auxin:cytokinin ratio experiment (node.',
           misconception: 'Students believe "optimizing one factor (e.g., BAP concentration) will fix a failed protocol." In reality, factors.',
           parts: [
-                { id: 'a', prompt: 'Compare the factor sensitivity of **direct organogenesis** (node 008) vs. **somatic embryogenesis** (node 009).', answer: 'Correct answer: (a) Somatic embryogenesis is far more sensitive to explant age',
+                { id: 'a', prompt: 'Compare the factor sensitivity of **direct organogenesis** (node 008) vs. **somatic embryogenesis** (node 009).', answer: '(a) Somatic embryogenesis is far more sensitive to explant age',
                   options: ['Correct answer: (a) Somatic embryogenesis is far more sensitive to explant age', 'optimizing one factor (e.g., BAP concentration) will fix a failed protocol', '"optimizing one factor (e'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "optimizing one factor (e.g., BAP concentration) will fix a failed protocol." In reality, factors interact non-linearly:.' }
@@ -114,7 +114,7 @@ export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
                   options: ['hypothesis, (', 'optimizing one factor (e.g., BAP concentration) will fix a failed protocol', '"optimizing one factor (e'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "optimizing one factor (e.g., BAP concentration) will fix a failed protocol." In reality, factors interact non-linearly:.' },
-                { id: 'c', prompt: 'Compare the factor sensitivity of **direct organogenesis** (node 008) vs. **somatic embryogenesis** (node 009).', answer: 'Correct answer: (a) Somatic embryogenesis is far more sensitive to explant age',
+                { id: 'c', prompt: 'Compare the factor sensitivity of **direct organogenesis** (node 008) vs. **somatic embryogenesis** (node 009).', answer: '(a) Somatic embryogenesis is far more sensitive to explant age',
                   options: ['Correct answer: (a) Somatic embryogenesis is far more sensitive to explant age', 'optimizing one factor (e.g., BAP concentration) will fix a failed protocol', '"optimizing one factor (e'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "optimizing one factor (e.g., BAP concentration) will fix a failed protocol." In reality, factors interact non-linearly:.' }
@@ -147,7 +147,7 @@ export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
           hint: 'If stuck, revisit c11_biotech_cbse_02_009 (nucleus/chromatin) and c11_bio_cbse_13_003/004.',
           misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical.',
           parts: [
-                { id: 'a', prompt: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).', answer: 'Correct answer: (1) Dedifferentiation',
+                { id: 'a', prompt: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).', answer: '(1) Dedifferentiation',
                   options: ['Correct answer: (1) Dedifferentiation', 'mitosis causes callus', 'auxin alone causes shoots'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical constraints: (1).' },

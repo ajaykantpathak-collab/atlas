@@ -8,7 +8,7 @@ export const c6_physics_ch08_p2: SimDef = {
     subtitle: 'This node covers the basic definition of a pendulum, its role in time measurement, and.',
     classLevel: 6, subject: 'physics', topic: 'Measurement of Time and Motion · Part 2/2',
     chapters: ['c6_physics_ch08'],
-    nodeIds: ['c6_physics_ch08_033', 'c6_physics_ch08_027'],
+    nodeIds: ['c6_physics_ch08_033', 'c6_physics_ch08_034'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed how a swing in a park moves forward and backward repeatedly?', goal: 'Master every idea in this chapter.' },

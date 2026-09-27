@@ -30,7 +30,8 @@ export const c1Air: SimDef = {
         { title: 'We Need Air to Live ❤️', text: 'People, animals, and plants all need air to breathe. Clean air keeps us healthy!', emoji: '❤️', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'Keep Air Clean 🌱', text: 'Smoke and dust make air dirty. Planting trees and not burning waste keeps our air clean!', emoji: '🌱', bgColor: 'from-green-400 to-emerald-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match what air does!', labels: ['windmill', 'spins', 'balloon', 'fills', 'flag', 'waves'] },
+challenges: [
         { type: 'mcq', question: 'Can we SEE air with our eyes?', answer: 'No, but we can feel it', options: ['Yes, clearly', 'No, but we can feel it', 'Only at night'],
           hint: 'Try to spot air — you cannot, but blow on your hand!', misconception: 'Air is invisible — we feel it as wind and breath, but we cannot see it!',
           workedExample: ['Try to see air — you cannot.', 'Feel air when you blow on your hand.', 'Air is felt, not seen.'] },
@@ -103,6 +104,11 @@ export const c1Water: SimDef = {
         { type: 'mcq', question: 'Water used to wash vegetables can be used to...', answer: 'Water plants', options: ['Throw away', 'Water plants', 'Drink it'],
           hint: 'Reuse water smartly!', misconception: 'Reusing water saves it — vegetable-wash water is perfect for plants!',
           workedExample: ['The water is not dirty enough to throw.', 'Plants can use it.', 'Reuse = water plants.'] },
+        { type: 'interact', question: "Make it rain!", options: [],
+          interactGoal: { instruction: 'Heat the sun past 60 and let time run past 80', widget: 'cycle', validate: 'cycle:heat=70,time=85' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'Water saver! ⭐', tryAgainLine: 'Think about every drop!',
@@ -127,7 +133,8 @@ export const c1Food: SimDef = {
         { title: 'Protective Foods 🍎', text: 'Fruits and vegetables keep us from falling sick — they protect our body!', emoji: '🍎', bgColor: 'from-rose-400 to-red-500' },
         { title: 'Healthy vs Junk 🍫', text: 'Fruits, nuts, and home food keep us strong. Too many chips, candies, and cold drinks make us weak!', emoji: '🍫', bgColor: 'from-emerald-400 to-teal-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match food to where it comes from!', labels: ['milk', 'cow', 'mango', 'tree', 'honey', 'bee'] },
+challenges: [
         { type: 'sort', question: 'Sort: ENERGY foods vs BODY-BUILDING foods vs PROTECTIVE foods!', options: [],
           sortItems: [
             { id: 'f1', label: 'Rice', emoji: '🍚', correctBin: 'energy' },
@@ -200,6 +207,11 @@ export const c1Plants: SimDef = {
         { type: 'mcq', question: 'What do plants need to make food?', answer: 'Sunlight, water and air', options: ['Only soil', 'Sunlight, water and air', 'Only darkness'],
           hint: 'Plants use three things!', misconception: 'Plants need sunlight + water + air to make food — soil alone or darkness alone is not enough!',
           workedExample: ['Leaves catch sunlight.', 'Roots bring water.', 'Air gives carbon dioxide. All three needed.'] },
+        { type: 'interact', question: "Grow a big plant!", options: [],
+          interactGoal: { instruction: 'Give sun=80 and water=80', widget: 'grow', validate: 'grow:sun=80,water=80' },
+          hint: 'Do it on the widget!', misconception: 'Make the widget match the goal exactly!',
+          workedExample: ['Read the goal.', 'Adjust the widget.', 'Check it!'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'Plant pal! ⭐', tryAgainLine: 'Think of plant parts!',
@@ -224,7 +236,8 @@ export const c1Animals: SimDef = {
         { title: 'Wild Animals 🦁', text: 'Lions, tigers, and elephants live free in forests. They are not pets — they belong in the wild!', emoji: '🦁', bgColor: 'from-orange-400 to-red-500' },
         { title: 'Be Kind to Animals ❤️', text: 'Never hurt animals. Give street animals water and be gentle — they feel pain just like us!', emoji: '❤️', bgColor: 'from-rose-400 to-pink-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match animal to its home!', labels: ['bird', 'nest', 'fish', 'water', 'lion', 'den'] },
+challenges: [
         { type: 'sort', question: 'Sort the animals: PET, FARM, or WILD?', options: [],
           sortItems: [
             { id: 'an1', label: 'Dog', emoji: '🐕', correctBin: 'pet' },
@@ -272,7 +285,8 @@ export const c1Body: SimDef = {
         { title: 'Nose Smells, Tongue Tastes 👃👅', text: 'The nose smells flowers and food. The tongue tastes sweet, salty, sour, and bitter!', emoji: '👃', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Skin Feels ✋', text: 'Skin is our biggest sense organ — it feels hot, cold, soft, hard, rough, and smooth!', emoji: '✋', bgColor: 'from-emerald-400 to-teal-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match the sense to the body part!', labels: ['see', 'eyes', 'hear', 'ears', 'smell', 'nose'] },
+challenges: [
         { type: 'sort', question: 'Match each SENSE to its ORGAN!', options: [],
           sortItems: [
             { id: 'b1', label: 'Seeing', emoji: '🌈', correctBin: 'eyes' },
@@ -318,7 +332,8 @@ export const c1Cleanliness: SimDef = {
         { title: 'Bathe and Wear Clean Clothes 🚿', text: 'Bathing every day removes dirt and germs. Clean clothes keep skin healthy!', emoji: '🚿', bgColor: 'from-cyan-400 to-teal-500' },
         { title: 'Keep Surroundings Clean 🗑️', text: 'Put garbage in the dustbin. A clean home and clean school keep everyone healthy!', emoji: '🗑️', bgColor: 'from-emerald-400 to-green-500' },
     ],
-    challenges: [
+        explore: { widget: 'order', prompt: 'Put the clean routine in order!', labels: ['Wake up', 'Brush teeth', 'Take a bath', 'Put on clean clothes'] },
+challenges: [
         { type: 'mcq', question: 'When should we wash hands with soap?', answer: 'Before eating and after playing', options: ['Only on Sundays', 'Before eating and after playing', 'Never'],
           hint: 'Germs hide on dirty hands!', misconception: 'Hands carry germs from playing — wash before eating and after toilet or play, always with soap!',
           workedExample: ['Hands touch dirty things.', 'Germs on hands → food → tummy.', 'Wash before eating, after playing.'] },
@@ -364,7 +379,8 @@ export const c1Safety: SimDef = {
         { title: 'Road Safety 🚦', text: 'Cross roads at the zebra crossing, hold an adult\'s hand, and look both ways. Red means stop, green means go!', emoji: '🚦', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'When You Get Hurt 🩹', text: 'Tell an adult immediately. Small cuts need cleaning and a bandage — never hide an injury!', emoji: '🩹', bgColor: 'from-sky-400 to-blue-500' },
     ],
-    challenges: [
+        explore: { widget: 'order', prompt: 'Order: crossing the road safely!', labels: ['Stop at the edge', 'Look right', 'Look left', 'Cross when clear'] },
+challenges: [
         { type: 'sort', question: 'Sort: SAFE or DANGEROUS?', options: [],
           sortItems: [
             { id: 's1', label: 'Playing with fire', emoji: '🔥', correctBin: 'danger' },
@@ -410,7 +426,8 @@ export const c1Transport: SimDef = {
         { title: 'Air Transport ✈️', text: 'Aeroplanes and helicopters fly through the sky — the fastest way to go far!', emoji: '✈️', bgColor: 'from-violet-400 to-purple-500' },
         { title: 'Special Vehicles 🚑', text: 'Ambulances take sick people to hospital, fire trucks fight fires, police cars keep us safe!', emoji: '🚑', bgColor: 'from-rose-400 to-pink-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match transport to where it goes!', labels: ['bus', 'road', 'boat', 'water', 'aeroplane', 'sky'] },
+challenges: [
         { type: 'sort', question: 'Sort the vehicles: LAND, WATER, or AIR?', options: [],
           sortItems: [
             { id: 'v1', label: 'Bus', emoji: '🚌', correctBin: 'land' },
@@ -457,7 +474,8 @@ export const c1Neighbourhood: SimDef = {
         { title: 'People Who Help Us 👮', text: 'Teachers, doctors, police officers, and shopkeepers all help our neighbourhood work!', emoji: '👮', bgColor: 'from-indigo-400 to-violet-500' },
         { title: 'Markets and Shops 🛒', text: 'We buy vegetables at the market, medicines at the chemist, and toys at the toy shop!', emoji: '🛒', bgColor: 'from-amber-400 to-orange-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match the helper to the place!', labels: ['doctor', 'hospital', 'teacher', 'school', 'postman', 'post office'] },
+challenges: [
         { type: 'sort', question: 'Match the place to what we do there!', options: [],
           sortItems: [
             { id: 'n1', label: 'Learn', emoji: '📚', correctBin: 'school' },
@@ -504,7 +522,8 @@ export const c1Sky: SimDef = {
         { title: 'What is Weather? 🌦️', text: 'Weather is what the sky is doing — sunny, rainy, cloudy, windy. It changes every day!', emoji: '🌦️', bgColor: 'from-cyan-400 to-sky-500' },
         { title: 'Dress for the Weather! 🧢☔', text: 'Sunny day? Hat and water. Rainy day? Umbrella and raincoat. Cold day? Warm sweater!', emoji: '☔', bgColor: 'from-blue-400 to-indigo-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match to day or night!', labels: ['sun', 'day', 'moon', 'night', 'stars', 'night'] },
+challenges: [
         { type: 'mcq', question: 'What gives us light and heat during the day?', answer: 'The sun', options: ['The moon', 'The sun', 'The stars'],
           hint: 'The biggest thing in our daytime sky!', misconception: 'The sun is our daytime star — it gives all our light and warmth!',
           workedExample: ['Daytime = sun is up.', 'Sun gives light and heat.', 'Answer: the sun.'] },

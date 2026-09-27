@@ -245,7 +245,7 @@ export const w_c11_psythinkingcbsesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students equate "creative thinking" with "artistic talent" or "unconstrained wild ideas." They believe originality.',
           parts: [
-                { id: 'a', prompt: 'Critique the claim: "Creative people are born with high divergent thinking ability; training can only marginally improve creativity." Use evidence from.', answer: 'Correct answer: The claim is false',
+                { id: 'a', prompt: 'Critique the claim: "Creative people are born with high divergent thinking ability; training can only marginally improve creativity." Use evidence from.', answer: 'The claim is false',
                   options: ['Correct answer: The claim is false', 'talent', 'trained skill', 'taking a break'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students equate "creative thinking" with "artistic talent" or "unconstrained wild ideas." They believe originality means "never been done.' }

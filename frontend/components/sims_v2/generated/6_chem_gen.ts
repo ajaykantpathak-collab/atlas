@@ -111,15 +111,15 @@ export const C6_CHEM_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What are the two essential characteristics that define anything as \"matter\"?",
-    "answer": "Matter must occupy space (volume) and have mass",
+    "question": "Design a simple experiment to test if a new material is soluble in water.",
+    "answer": "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue",
     "options": [
-     "Such a material is called lustrous",
-     "Non-metals are generally dull (lack lustre) and are poor conductors of heat and electricity",
-     "Matter must occupy space (volume) and have mass"
+     "Place one iron nail in a completely dry container (with a drying agent) and another in a container with water",
+     "The sugar dissolves (soluble), while the pebble remains unchanged (insoluble). This demonstrates the property of solubility",
+     "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue"
     ],
     "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "A wrong answer—such as \"it must be solid\"—reveals a misunderstanding that matter exists only in one state, ignoring that liquids and gases are also matter.",
+    "misconception": "A poor answer fails to include the \"stirring\" or \"observation\" steps, showing a lack of understanding of the process of dissolution.",
     "id": "gen_c6_chem_ch04_q1",
     "nodeId": "c6_chemistry_ch04_001",
     "difficulty": "standard",
@@ -132,15 +132,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What do we call a material that has a shiny surface when light falls on it?",
-    "answer": "Such a material is called lustrous",
+    "question": "You have a glass of water. You add a spoonful of sand to it and stir. Will the sand disappear? Why or why not?",
+    "answer": "The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly into water to become invisible, unlike sugar or salt",
     "options": [
-     "Matter must occupy space (volume) and have mass",
-     "Non-metals are generally dull (lack lustre) and are poor conductors of heat and electricity",
-     "Such a material is called lustrous"
+     "The material must be opaque, insoluble in water, and likely flexible. A poor answer would ignore the function (e",
+     "Examples: 1. A glass window made of wood (no light). 2. A notebook made of iron sheets (cannot write on it)",
+     "The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly into water to become invisible, unlike sugar or salt"
     ],
     "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"hard\" reveals the student is confusing the property of appearance with the property of texture or resistance to touch.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly",
     "id": "gen_c6_chem_ch04_q2",
     "nodeId": "c6_chemistry_ch04_002",
     "difficulty": "standard",
@@ -153,15 +153,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why does a shiny iron nail lose its shine after being left in a humid garden for a week?",
-    "answer": "The iron has reacted with oxygen and water to form iron oxide, which is a new substance covering the metal",
+    "question": "If you coat an iron rod completely with oil or paint, why does it prevent rusting?",
+    "answer": "The coating acts as a barrier that prevents oxygen and water from touching the iron surface",
     "options": [
-     "We use metal because it conducts heat efficiently, allowing the food to cook, whereas wood is a poor conductor of heat",
-     "The dullness is the early stage of corrosion, where the metal's surface has reacted with moisture in the air",
-     "The iron has reacted with oxygen and water to form iron oxide, which is a new substance covering the metal"
+     "This is incorrect; gold is a metal, but it is \"noble,\" meaning it is very unreactive and does not corrode easily in normal conditions",
+     "Yes, because gold is inert and does not react with air or moisture, meaning it does not lose its luster or develop a coating",
+     "The coating acts as a barrier that prevents oxygen and water from touching the iron surface"
     ],
     "hint": "Straight from the 'Rusting' slide -- match the key terms.",
-    "misconception": "If a student says \"it just got dirty,\" they fail to recognize that the surface of the iron itself has undergone a chemical change.",
+    "misconception": "If a student says \"it makes it look pretty,\" they are missing the protective scientific purpose of the barrier.",
     "id": "gen_c6_chem_ch04_q3",
     "nodeId": "c6_chemistry_ch04_003",
     "difficulty": "standard",
@@ -174,15 +174,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If aluminium and iron both react with air, why does an aluminium window frame not crumble away like an old iron gate?",
-    "answer": "Aluminium forms a protective oxide layer that shields the metal underneath from further damage, whereas iron rust flakes off",
+    "question": "A shopkeeper tells you a ring is made of \"pure gold\" because it hasn't lost its shine after ten years. Is this a good way to test for gold? Why?",
+    "answer": "Yes, because gold is inert and does not react with air or moisture, meaning it does not lose its luster or develop a coating",
     "options": [
-     "Place one iron nail in a completely dry container (with a drying agent) and another in a container with water",
-     "It is a chemical reaction because a new substance (iron oxide) is created that has different properties than the original iron",
-     "Aluminium forms a protective oxide layer that shields the metal underneath from further damage, whereas iron rust flakes off"
+     "You pick the wooden door. Steps: 1. Identify transparency levels (Glass: transparent, Frosted: translucent, Wood: opaque)",
+     "You should use paint. Step 1: Clean the chair surface of dust. Step 2: Apply a smooth, even coat of paint over the entire metal surface",
+     "Yes, because gold is inert and does not react with air or moisture, meaning it does not lose its luster or develop a coating"
     ],
     "hint": "Straight from the 'Metals react with air and' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student hasn't grasped the concept of a \"protective\" versus \"destructive\" coating.",
+    "misconception": "If a student says \"No,\" they likely don't understand that inertness is a specific property of noble metals like gold.",
     "id": "gen_c6_chem_ch04_q4",
     "nodeId": "c6_chemistry_ch04_004",
     "difficulty": "standard",
@@ -195,15 +195,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Name two physical properties that distinguish most non-metals from metals.",
-    "answer": "Non-metals are generally dull (lack lustre) and are poor conductors of heat and electricity",
+    "question": "Could you use a non-metal like rubber to make a cooking pot? Why or why not?",
+    "answer": "No, because rubber is a poor conductor of heat and would melt or burn before cooking the food, unlike metal which transfers heat efficiently",
     "options": [
-     "Such a material is called lustrous",
-     "The process is called rusting",
-     "Non-metals are generally dull (lack lustre) and are poor conductors of heat and electricity"
+     "No, it is inaccurate because non-metals are essential for life itself. Without non-metals, there would be no living organisms to live in those houses",
+     "[Correct answer] A steel spoon is harder than a rubber eraser, so it would be the better choice for scratching a surface",
+     "No, because rubber is a poor conductor of heat and would melt or burn before cooking the food, unlike metal which transfers heat efficiently"
     ],
     "hint": "Straight from the 'Non-metals' slide -- match the key terms.",
-    "misconception": "A student who says \"non-metals are hard and shiny\" is likely confusing them with metals, revealing they have not yet grasped the basic appearance difference.",
+    "misconception": "If a student says \"yes,\" they fail to understand the property of thermal conductivity required for kitchenware.",
     "id": "gen_c6_chem_ch04_q5",
     "nodeId": "c6_chemistry_ch04_005",
     "difficulty": "standard",
@@ -219,8 +219,8 @@ export const C6_CHEM_GEN: SimDef[] = [
     "question": "Why would a human be unable to survive for more than a few minutes without oxygen?",
     "answer": "Oxygen is required for cells to perform respiration and extract energy from food",
     "options": [
-     "Some non-metals or synthetic materials can be made to look shiny through polishing or coatings, even though they aren't metals",
-     "The dullness is the early stage of corrosion, where the metal's surface has reacted with moisture in the air",
+     "No, it is inaccurate because non-metals are essential for life itself. Without non-metals, there would be no living organisms to live in those houses",
+     "Iron provides static structural strength for external objects, while oxygen provides dynamic energy for internal biological survival",
      "Oxygen is required for cells to perform respiration and extract energy from food"
     ],
     "hint": "Straight from the 'Non-metals' slide -- match the key terms.",
@@ -237,15 +237,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why do we prefer using metal for the base of a cooking pan instead of wood?",
-    "answer": "We use metal because it conducts heat efficiently, allowing the food to cook, whereas wood is a poor conductor of heat",
+    "question": "If you were asked to design a raincoat, would you choose cotton cloth or a thin plastic sheet? Why?",
+    "answer": "You would choose plastic because it is waterproof (insoluble and non-absorbent)",
     "options": [
-     "The dullness is the early stage of corrosion, where the metal's surface has reacted with moisture in the air",
-     "The iron has reacted with oxygen and water to form iron oxide, which is a new substance covering the metal",
-     "We use metal because it conducts heat efficiently, allowing the food to cook, whereas wood is a poor conductor of heat"
+     "You would explain that even though air feels light, it occupies space inside the balloon (volume) and has mass, therefore it is definitely matter",
+     "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue",
+     "You would choose plastic because it is waterproof (insoluble and non-absorbent)"
     ],
     "hint": "Straight from the 'Material selection' slide -- match the key terms.",
-    "misconception": "Answering that \"metal is stronger\" misses the point; the student might not realize that conductivity is the specific property required for cooking.",
+    "misconception": "If a student chooses cotton because it is \"soft,\" they are confusing comfort with the functional purpose of keeping the wearer dry.",
     "id": "gen_c6_chem_ch04_q7",
     "nodeId": "c6_chemistry_ch04_007",
     "difficulty": "advanced",
@@ -258,15 +258,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you find a material that is dull and breaks easily when you hit it with a hammer, is it likely a metal or a non-metal?",
-    "answer": "It is likely a non-metal",
+    "question": "Design a simple test to determine if a mysterious, unlabelled rod found in your garage is a metal.",
+    "answer": "The student should suggest: 1) Checking if it is shiny (lustre), 2) Checking if it is hard (cannot be scratched by a fingernail)",
     "options": [
      "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue",
-     "No, because rubber is a poor conductor of heat and would melt or burn before cooking the food, unlike metal which transfers heat efficiently",
-     "It is likely a non-metal"
+     "The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly into water to become invisible, unlike sugar or salt",
+     "The student should suggest: 1) Checking if it is shiny (lustre), 2) Checking if it is hard (cannot be scratched by a fingernail)"
     ],
     "hint": "Straight from the 'Metals' slide -- match the key terms.",
-    "misconception": "If a student says \"metal,\" they have failed to connect the property of \"hardness\" and \"lustre\" to the definition of metals, indicating a need to re-examine the physical characteristics provided in the text.",
+    "misconception": "A poor answer fails to list at least two distinct properties, showing a lack of systematic observation skills.",
     "id": "gen_c6_chem_ch04_q8",
     "nodeId": "c6_chemistry_ch04_008",
     "difficulty": "standard",
@@ -283,33 +283,33 @@ export const C6_CHEM_GEN: SimDef[] = [
     "sortItems": [
      {
       "id": "s0",
-      "label": "Apply a second coat to ensure no metal",
+      "label": "Let it dry completely",
       "emoji": "📌",
-      "correctBin": "o4"
+      "correctBin": "o3"
      },
      {
       "id": "s1",
-      "label": "You should use paint",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "Clean the chair surface of dust",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s3",
       "label": "Apply a smooth",
       "emoji": "📌",
       "correctBin": "o2"
      },
      {
-      "id": "s4",
-      "label": "Let it dry completely",
+      "id": "s2",
+      "label": "You should use paint",
       "emoji": "📌",
-      "correctBin": "o3"
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Clean the chair surface of dust",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s4",
+      "label": "Apply a second coat to ensure no metal",
+      "emoji": "📌",
+      "correctBin": "o4"
      }
     ],
     "bins": [
@@ -356,8 +356,8 @@ export const C6_CHEM_GEN: SimDef[] = [
     "question": "What are the two requirements for something to be classified as \"matter\"?",
     "answer": "To be matter, an object must occupy space (have volume) and possess mass",
     "options": [
-     "The process is called rusting",
-     "Such a material is called lustrous",
+     "The student must be able to identify oxygen and carbon as non-metals and explain their specific roles in human life (respiration and structure of organic molecules)",
+     "The student must be able to identify signs of corrosion on common household objects and describe at least two practical methods to prevent this degradation",
      "To be matter, an object must occupy space (have volume) and possess mass"
     ],
     "hint": "Straight from the 'Matter' slide -- match the key terms.",
@@ -374,91 +374,16 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare a sponge and a stone. If you press them, how do you classify them?",
-    "answer": "The sponge is soft (easily compressed) and the stone is hard (difficult to compress)",
-    "options": [
-     "The copper patina protects the metal underneath and keeps it sound, while iron rust weakens the metal by flaking off and exposing new layers to damage",
-     "Iron provides static structural strength for external objects, while oxygen provides dynamic energy for internal biological survival",
-     "The sponge is soft (easily compressed) and the stone is hard (difficult to compress)"
-    ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student is not using the \"hardness\" property correctly as a relative measure of resistance to pressure.",
-    "id": "gen_c6_chem_ch04_q11",
-    "nodeId": "c6_chemistry_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment to test if a new material is soluble in water.",
-    "answer": "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue",
-    "options": [
-     "The material must be opaque, insoluble in water, and likely flexible. A poor answer would ignore the function (e",
-     "The material is described as soft",
-     "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue"
-    ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "A poor answer fails to include the \"stirring\" or \"observation\" steps, showing a lack of understanding of the process of dissolution.",
-    "id": "gen_c6_chem_ch04_q12",
-    "nodeId": "c6_chemistry_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you have a steel spoon and a wooden spoon, why might you classify them differently in a \"shiny vs. dull\" test?",
-    "answer": "Steel is lustrous (shiny), whereas wood is non-lustrous (dull)",
-    "options": [
-     "You pick the wooden door. Steps: 1. Identify transparency levels (Glass: transparent, Frosted: translucent, Wood: opaque)",
-     "You would choose plastic because it is waterproof (insoluble and non-absorbent)",
-     "Steel is lustrous (shiny), whereas wood is non-lustrous (dull)"
-    ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student hasn't linked \"appearance\" to the category of \"lustre,\" perhaps confusing shine with color or texture.",
-    "id": "gen_c6_chem_ch04_q13",
-    "nodeId": "c6_chemistry_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You need to make a window. Why would you choose glass instead of cardboard?",
-    "answer": "Steps: 1. Identify the purpose (to see outside). 2. Evaluate property of glass (transparent). 3. Evaluate property of cardboard (opaque). 4. Conclude that transparency is required",
-    "options": [
-     "You would choose plastic because it is waterproof (insoluble and non-absorbent)",
-     "Examples: 1. A glass window made of wood (no light). 2. A notebook made of iron sheets (cannot write on it)",
-     "Steps: 1. Identify the purpose (to see outside). 2. Evaluate property of glass (transparent). 3. Evaluate property of cardboard (opaque). 4. Conclude that transparency is required"
-    ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student is not applying the concept of light transmission to real-world utility.",
-    "id": "gen_c6_chem_ch04_q14",
-    "nodeId": "c6_chemistry_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Compare a piece of iron and a piece of rubber. Which one is harder, and how do you know?",
     "answer": "Iron is harder than rubber because it is more difficult to scratch or compress. A student saying they are \"equal\" fails to understand that hardness is a relative property that can",
     "options": [
      "The copper patina protects the metal underneath and keeps it sound, while iron rust weakens the metal by flaking off and exposing new layers to damage",
-     "The sponge is soft (easily compressed) and the stone is hard (difficult to compress)",
+     "Iron provides static structural strength for external objects, while oxygen provides dynamic energy for internal biological survival",
      "Iron is harder than rubber because it is more difficult to scratch or compress. A student saying they are \"equal\" fails to understand that hardness is a relative property that can"
     ],
     "hint": "Straight from the 'Materials' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Iron is harder than rubber because it is more difficult to scratch or compress.",
-    "id": "gen_c6_chem_ch04_q15",
-    "nodeId": "c6_chemistry_ch04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you can easily press a material with your fingers, how would you describe its hardness?",
-    "answer": "The material is described as soft",
-    "options": [
-     "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue",
-     "You pick the wooden door. Steps: 1. Identify transparency levels (Glass: transparent, Frosted: translucent, Wood: opaque)",
-     "The material is described as soft"
-    ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "If the student says it is \"non-lustrous,\" they are confusing the physical property of hardness with the property of light reflection.",
-    "id": "gen_c6_chem_ch04_q16",
+    "id": "gen_c6_chem_ch04_q11",
     "nodeId": "c6_chemistry_ch04_002",
     "difficulty": "standard"
    },
@@ -467,29 +392,104 @@ export const C6_CHEM_GEN: SimDef[] = [
     "question": "Imagine a new material that is opaque, very hard, and insoluble in water. Suggest one object you could make with it.",
     "answer": "An example would be a construction brick or a heavy-duty hammer head. A poor answer would be a \"drinking straw,\" which ignores the requirement for hardness or potentially the need",
     "options": [
-     "Place one iron nail in a completely dry container (with a drying agent) and another in a container with water",
-     "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue",
+     "The material must be opaque, insoluble in water, and likely flexible. A poor answer would ignore the function (e",
+     "You would choose plastic because it is waterproof (insoluble and non-absorbent)",
      "An example would be a construction brick or a heavy-duty hammer head. A poor answer would be a \"drinking straw,\" which ignores the requirement for hardness or potentially the need"
     ],
     "hint": "Straight from the 'Materials' slide -- match the key terms.",
     "misconception": "A poor answer would be a \"drinking straw,\" which ignores the requirement for hardness or potentially the need for transparency/flexibility.",
-    "id": "gen_c6_chem_ch04_q17",
+    "id": "gen_c6_chem_ch04_q12",
     "nodeId": "c6_chemistry_ch04_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "You have a glass of water. You add a spoonful of sand to it and stir. Will the sand disappear? Why or why not?",
-    "answer": "The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly into water to become invisible, unlike sugar or salt",
+    "question": "Your friend wants to make a boat out of paper, but you want to make one out of metal. Which material is more suitable for staying in water for a long time? Justify your answer.",
+    "answer": "The metal boat is more suitable because it is insoluble and holds its form, whereas paper becomes soggy and may disintegrate",
     "options": [
      "You would choose plastic because it is waterproof (insoluble and non-absorbent)",
      "The coating acts as a barrier that prevents oxygen and water from touching the iron surface",
-     "The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly into water to become invisible, unlike sugar or salt"
+     "The metal boat is more suitable because it is insoluble and holds its form, whereas paper becomes soggy and may disintegrate"
     ],
     "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly",
-    "id": "gen_c6_chem_ch04_q18",
+    "misconception": "A wrong answer suggests the student hasn't considered how solubility and material strength affect object durability.",
+    "id": "gen_c6_chem_ch04_q13",
     "nodeId": "c6_chemistry_ch04_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design an experiment to prove that water is necessary for rusting.",
+    "answer": "Place one iron nail in a completely dry container (with a drying agent) and another in a container with water",
+    "options": [
+     "The sand will not disappear; it is insoluble. This is because particles of insoluble materials do not mix uniformly into water to become invisible, unlike sugar or salt",
+     "The metal boat is more suitable because it is insoluble and holds its form, whereas paper becomes soggy and may disintegrate",
+     "Place one iron nail in a completely dry container (with a drying agent) and another in a container with water"
+    ],
+    "hint": "Straight from the 'Rusting' slide -- match the key terms.",
+    "misconception": "A poor answer fails to include a \"control\" (the dry nail) to compare against.",
+    "id": "gen_c6_chem_ch04_q14",
+    "nodeId": "c6_chemistry_ch04_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare the \"skin\" formed on copper to the \"skin\" formed on iron. How do they affect the metal's structure?",
+    "answer": "The copper patina protects the metal underneath and keeps it sound, while iron rust weakens the metal by flaking off and exposing new layers to damage",
+    "options": [
+     "Iron provides static structural strength for external objects, while oxygen provides dynamic energy for internal biological survival",
+     "Iron is harder than rubber because it is more difficult to scratch or compress. A student saying they are \"equal\" fails to understand that hardness is a relative property that can",
+     "The copper patina protects the metal underneath and keeps it sound, while iron rust weakens the metal by flaking off and exposing new layers to damage"
+    ],
+    "hint": "Straight from the 'Metals react with air and' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The copper patina protects the metal underneath and keeps it sound, while iron rust weakens the metal by flaking off",
+    "id": "gen_c6_chem_ch04_q15",
+    "nodeId": "c6_chemistry_ch04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment to prove that gold is more inert than copper.",
+    "answer": "Place a copper coin and a gold ring in a moist, open container for several weeks. The copper coin will show a color change (patina), while the gold ring will remain unchanged",
+    "options": [
+     "The metal boat is more suitable because it is insoluble and holds its form, whereas paper becomes soggy and may disintegrate",
+     "An example would be a construction brick or a heavy-duty hammer head. A poor answer would be a \"drinking straw,\" which ignores the requirement for hardness or potentially the need",
+     "Place a copper coin and a gold ring in a moist, open container for several weeks. The copper coin will show a color change (patina), while the gold ring will remain unchanged"
+    ],
+    "hint": "Straight from the 'Metals react with air and' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Place a copper coin and a gold ring in a moist, open container for several weeks.",
+    "id": "gen_c6_chem_ch04_q16",
+    "nodeId": "c6_chemistry_ch04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you found an old, green-colored metal pipe and a dull, flaky, reddish-brown pipe, which one would you expect to be structurally stronger?",
+    "answer": "The green pipe (copper) is likely stronger because its surface layer protects the structure, while the reddish-brown pipe (iron) is likely weakened by rust",
+    "options": [
+     "Place one iron nail in a completely dry container (with a drying agent) and another in a container with water",
+     "The metal boat is more suitable because it is insoluble and holds its form, whereas paper becomes soggy and may disintegrate",
+     "The green pipe (copper) is likely stronger because its surface layer protects the structure, while the reddish-brown pipe (iron) is likely weakened by rust"
+    ],
+    "hint": "Straight from the 'Metals react with air and' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The green pipe (copper) is likely stronger because its surface layer protects the structure, while the reddish-brown",
+    "id": "gen_c6_chem_ch04_q17",
+    "nodeId": "c6_chemistry_ch04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Think of three non-metals you interact with daily and describe how their property of being a non-metal makes them useful.",
+    "answer": "Examples: Oxygen (gas state, needed for breathing), Plastic (insulator, for electrical safety), and Cotton/Fabric (soft, for clothing)",
+    "options": [
+     "The sugar dissolves (soluble), while the pebble remains unchanged (insoluble). This demonstrates the property of solubility",
+     "The metal boat is more suitable because it is insoluble and holds its form, whereas paper becomes soggy and may disintegrate",
+     "Examples: Oxygen (gas state, needed for breathing), Plastic (insulator, for electrical safety), and Cotton/Fabric (soft, for clothing)"
+    ],
+    "hint": "Straight from the 'Non-metals' slide -- match the key terms.",
+    "misconception": "A poor answer fails to connect the property to the specific use.",
+    "id": "gen_c6_chem_ch04_q18",
+    "nodeId": "c6_chemistry_ch04_005",
     "difficulty": "standard"
    }
   ],
@@ -606,69 +606,16 @@ export const C6_CHEM_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "order",
-    "question": "You have a metal wire. You bend it into a circle. Has a new substance been formed?",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "No",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Observe the change",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Check if the material identity changed",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s3",
-      "label": "Conclude it",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
-      "id": "s4",
-      "label": "Identify the material",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
+    "type": "mcq",
+    "question": "Think of a real-world object in your kitchen. Describe how you could perform a physical change on it.",
+    "answer": "An example would be crushing a dry biscuit into crumbs. The answer is valid if the student identifies that while the biscuit looks different, it is still the same material",
+    "options": [
+     "You could take a photo of the roof today and compare it to a photo taken by your parents five years ago",
+     "It is slow because the change is not visible in a single moment or day",
+     "An example would be crushing a dry biscuit into crumbs. The answer is valid if the student identifies that while the biscuit looks different, it is still the same material"
     ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer suggests the student thinks physical manipulation equals a chemical creation.",
+    "hint": "Straight from the 'physical change' slide -- match the key terms.",
+    "misconception": "A poor answer would suggest something like \"burning a match,\" which is a chemical change.",
     "id": "gen_c6_chem_ch05_q1",
     "nodeId": "c6_chemistry_ch05_001",
     "difficulty": "standard",
@@ -681,15 +628,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the most important sign that a chemical change has occurred?",
-    "answer": "The formation of a new substance with different properties is the key sign",
+    "question": "Think of a kitchen activity. Describe a process where you mix two things and a chemical change happens.",
+    "answer": "Baking a cake is a great example, as the batter (flour, eggs, sugar) changes into a solid, spongy structure through heat",
     "options": [
-     "Weathering and rusting are examples",
-     "A temporary change lasts only as long as the conditions causing it are present",
-     "The formation of a new substance with different properties is the key sign"
+     "No, because the process of weathering takes millions of years, so the change in one year is too small to notice",
+     "No, it will not rust because the necessary reactants (oxygen and water) are absent. This tests the student's ability to apply the conditions of the chemical change to a",
+     "Baking a cake is a great example, as the batter (flour, eggs, sugar) changes into a solid, spongy structure through heat"
     ],
     "hint": "Straight from the 'chemical change' slide -- match the key terms.",
-    "misconception": "If a student says \"a change in shape,\" they are likely confusing physical changes with chemical changes.",
+    "misconception": "A poor answer would be \"mixing salt and water,\" because that is just a mixture, not a chemical change.",
     "id": "gen_c6_chem_ch05_q2",
     "nodeId": "c6_chemistry_ch05_002",
     "difficulty": "standard",
@@ -702,15 +649,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What are the two specific substances present in the environment that must react with iron to cause rusting?",
-    "answer": "The two substances are oxygen (from air) and water (from moisture)",
+    "question": "If you have a block of pure iron and it turns into rust, what happens to its ability to stick to a magnet?",
+    "answer": "The block will lose its ability to stick to a magnet because rust is non-magnetic",
     "options": [
-     "Weathering and rusting are examples",
-     "The two forms of energy released are heat and light",
-     "The two substances are oxygen (from air) and water (from moisture)"
+     "It depends on the intent; if you want yogurt, it is desirable, but if you wanted fresh milk, it is undesirable",
+     "Place one iron nail in a dry container and one in a container with water/moisture, then observe which one changes over a week",
+     "The block will lose its ability to stick to a magnet because rust is non-magnetic"
     ],
     "hint": "Straight from the 'Rusting' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is guessing common environmental factors (like dust or sunlight) rather than identifying the specific chemical reactants needed for oxidation.",
+    "misconception": "A wrong answer indicates the student has not grasped that the physical properties of the material (magnetism) change when the chemical structure changes.",
     "id": "gen_c6_chem_ch05_q3",
     "nodeId": "c6_chemistry_ch05_003",
     "difficulty": "standard",
@@ -723,15 +670,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What are the two forms of energy released during the process of combustion?",
-    "answer": "The two forms of energy released are heat and light",
+    "question": "If you cover a burning candle with a glass jar, the flame eventually goes out. Why does this happen?",
+    "answer": "The flame goes out because the supply of oxygen, a requirement for combustion, is cut off",
     "options": [
-     "The two substances are oxygen (from air) and water (from moisture)",
-     "The formation of a new substance with different properties is the key sign",
-     "The two forms of energy released are heat and light"
+     "You could take a photo of the roof today and compare it to a photo taken by your parents five years ago",
+     "An example would be crushing a dry biscuit into crumbs. The answer is valid if the student identifies that while the biscuit looks different, it is still the same material",
+     "The flame goes out because the supply of oxygen, a requirement for combustion, is cut off"
     ],
     "hint": "Straight from the 'Combustion' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student is confusing physical changes (like melting) with chemical changes (combustion), or is guessing without recalling the energy output.",
+    "misconception": "A wrong answer suggests the student does not understand that oxygen is a necessary reactant, not just an incidental part of the environment.",
     "id": "gen_c6_chem_ch05_q4",
     "nodeId": "c6_chemistry_ch05_004",
     "difficulty": "standard",
@@ -744,15 +691,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you bake a clay pot in a kiln, why is it considered an irreversible change?",
-    "answer": "It is irreversible because the heat causes a permanent change in the material, and you cannot turn the hardened pot back into soft, moldable clay",
+    "question": "Think of a change in your kitchen that is irreversible. Explain why you cannot undo it.",
+    "answer": "Cooking vegetables is a classic example because the heat permanently changes the structure and color of the food",
     "options": [
-     "It is a chemical change because the bacteria change the composition of the milk, and you cannot turn the yogurt back into liquid milk",
-     "It is slow because the change is not visible in a single moment or day",
-     "It is irreversible because the heat causes a permanent change in the material, and you cannot turn the hardened pot back into soft, moldable clay"
+     "It is permanent because the paint stays on the wood even after you stop painting",
+     "This is a physical change because the sugar is still present in the water (it is a mixture), and it can be recovered by evaporating the water",
+     "Cooking vegetables is a classic example because the heat permanently changes the structure and color of the food"
     ],
     "hint": "Straight from the 'reversible change' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student ignores the \"new substance\" or \"permanent state\" aspect of the change.",
+    "misconception": "A poor answer fails to explain *why* (e.g., just saying \"it's done\" without mentioning the inability to revert).",
     "id": "gen_c6_chem_ch05_q5",
     "nodeId": "c6_chemistry_ch05_005",
     "difficulty": "standard",
@@ -765,15 +712,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the defining characteristic of a temporary change?",
-    "answer": "A temporary change lasts only as long as the conditions causing it are present",
+    "question": "If you paint a wooden toy red, is the change temporary or permanent? Why?",
+    "answer": "It is permanent because the paint stays on the wood even after you stop painting",
     "options": [
-     "The formation of a new substance with different properties is the key sign",
-     "The two substances are oxygen (from air) and water (from moisture)",
-     "A temporary change lasts only as long as the conditions causing it are present"
+     "It is slow because the change is not visible in a single moment or day",
+     "This is a physical change because the sugar is still present in the water (it is a mixture), and it can be recovered by evaporating the water",
+     "It is permanent because the paint stays on the wood even after you stop painting"
     ],
     "hint": "Straight from the 'temporary change' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks it is just about \"speed\" of change, rather than the ability to revert to the original state.",
+    "misconception": "If a student says \"temporary,\" they likely confuse the ease of applying paint with the nature of the change itself.",
     "id": "gen_c6_chem_ch05_q6",
     "nodeId": "c6_chemistry_ch05_006",
     "difficulty": "standard",
@@ -789,8 +736,8 @@ export const C6_CHEM_GEN: SimDef[] = [
     "question": "What is the main difference between a desirable change and an undesirable change?",
     "answer": "A desirable change is one that is useful or beneficial to us, while an undesirable change is one that causes harm or damage",
     "options": [
-     "Burning the wick is a chemical change because it reacts with oxygen to produce smoke and ash, whereas melting the wax is a physical change",
-     "Burning a candle is a chemical change because it creates new substances (carbon dioxide and water vapour) and releases energy",
+     "Rusting is a slow change because it takes weeks or months to develop, whereas a swing moving is a fast, repetitive motion",
+     "It is slow because the change is not visible in a single moment or day",
      "A desirable change is one that is useful or beneficial to us, while an undesirable change is one that causes harm or damage"
     ],
     "hint": "Straight from the 'change' slide -- match the key terms.",
@@ -810,9 +757,9 @@ export const C6_CHEM_GEN: SimDef[] = [
     "question": "Name two examples of natural changes that happen very slowly.",
     "answer": "Weathering and rusting are examples",
     "options": [
-     "The two forms of energy released are heat and light",
-     "The formation of a new substance with different properties is the key sign",
-     "It and rusting are examples",
+     "The student must be able to classify various common changes as \"physical\" by demonstrating that the substance remains unchanged in its identity",
+     "The student must be able to identify combustion as a chemical change and list its three main requirements and two primary energy products",
+     "To and rusting are examples",
      "Weathering and rusting are examples"
     ],
     "hint": "Straight from the 'Slow natural changes' slide -- match the key terms.",
@@ -829,15 +776,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the primary difference between a physical change and a chemical change regarding the substance involved?",
-    "answer": "In a physical change, the original substance remains the same, while in a chemical change, a new substance with different properties is formed",
+    "question": "You add sugar to water and it disappears. Is this a physical or chemical change? Justify your answer.",
+    "answer": "This is a physical change because the sugar is still present in the water (it is a mixture), and it can be recovered by evaporating the water",
     "options": [
-     "Burning a candle is a chemical change because it creates new substances (carbon dioxide and water vapour) and releases energy",
-     "Both involve changing the size and shape of the original material without creating a new substance",
-     "In a physical change, the original substance remains the same, while in a chemical change, a new substance with different properties is formed"
+     "It is slow because the change is not visible in a single moment or day",
+     "It is permanent because the paint stays on the wood even after you stop painting",
+     "This is a physical change because the sugar is still present in the water (it is a mixture), and it can be recovered by evaporating the water"
     ],
     "hint": "Straight from the 'physical change alters the state' slide -- match the key terms.",
-    "misconception": "A student who says \"they are just different types of changes\" misses the core concept of new material formation.",
+    "misconception": "A student who calls it chemical because the sugar \"vanished\" fails to recognize that the chemical identity of sugar molecules does not change when dissolved.",
     "id": "gen_c6_chem_ch05_q9",
     "nodeId": "c6_chemistry_ch05_009",
     "difficulty": "advanced",
@@ -850,15 +797,15 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the difference between a physical change and a chemical change in food?",
-    "answer": "A physical change alters the state or shape of food without changing its identity, while a chemical change creates new substances",
+    "question": "Why do we put pickles or jams in jars and seal them tightly?",
+    "answer": "We seal them to stop air and microbes from entering, which prevents the chemical process of spoilage",
     "options": [
-     "A desirable change is one that is useful or beneficial to us, while an undesirable change is one that causes harm or damage",
-     "Rusting is a slow change because it takes weeks or months to develop, whereas a swing moving is a fast, repetitive motion",
-     "A physical change alters the state or shape of food without changing its identity, while a chemical change creates new substances"
+     "We prevent it because corrosion is an undesirable change that eats through metal, causing the bridge to weaken and potentially collapse",
+     "The student must be able to identify examples of slow natural changes and differentiate them from rapid changes by describing the time scale involved",
+     "We seal them to stop air and microbes from entering, which prevents the chemical process of spoilage"
     ],
     "hint": "Straight from the 'Cooking, spoilage, and' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks all changes in food are the same; they likely miss that chemical changes are usually permanent.",
+    "misconception": "A wrong answer suggests they think it is just to keep the food \"clean,\" missing the link between air exposure and chemical spoilage.",
     "id": "gen_c6_chem_ch05_q10",
     "nodeId": "c6_chemistry_ch05_010",
     "difficulty": "standard",
@@ -871,122 +818,122 @@ export const C6_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare tearing a piece of paper to cutting a piece of wood. How are they similar in terms of physical change?",
-    "answer": "Both involve changing the size and shape of the original material without creating a new substance",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to classify various common changes as \"physical\" by demonstrating that the substance remains unchanged in its identity",
     "options": [
-     "A physical change alters the state or shape of food without changing its identity, while a chemical change creates new substances",
-     "A desirable change is one that is useful or beneficial to us, while an undesirable change is one that causes harm or damage",
-     "Both involve changing the size and shape of the original material without creating a new substance"
+     "The student must be able to identify examples of slow natural changes and differentiate them from rapid changes by describing the time scale involved",
+     "The student must be able to categorize a list of everyday actions as reversible or irreversible and provide a logical reason for their classification based on whether the original",
+     "The student must be able to classify various common changes as \"physical\" by demonstrating that the substance remains unchanged in its identity"
     ],
     "hint": "Straight from the 'physical change' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates difficulty in generalizing the concept of \"physical change\" across different types of materials.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to classify various common changes as \"physical\" by demonstrating that the substance remains",
     "id": "gen_c6_chem_ch05_q11",
     "nodeId": "c6_chemistry_ch05_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If a boy breaks a glass bottle, is this a physical change? Justify your answer.",
-    "answer": "Yes, it is a physical change because the glass shards are still glass. The substance has not changed its identity; only its size and shape have changed",
+    "question": "Design an experiment to prove that moisture is necessary for iron to rust.",
+    "answer": "Place one iron nail in a dry container and one in a container with water/moisture, then observe which one changes over a week",
     "options": [
-     "It is a chemical change because the bacteria change the composition of the milk, and you cannot turn the yogurt back into liquid milk",
-     "This is a physical change because the sugar is still present in the water (it is a mixture), and it can be recovered by evaporating the water",
-     "Yes, it is a physical change because the glass shards are still glass. The substance has not changed its identity; only its size and shape have changed"
+     "No, it will not rust because the necessary reactants (oxygen and water) are absent. This tests the student's ability to apply the conditions of the chemical change to a",
+     "The student should propose an experiment (e.g., \"I will freeze water into ice, then let it melt, then freeze it again\")",
+     "Place one iron nail in a dry container and one in a container with water/moisture, then observe which one changes over a week"
     ],
-    "hint": "Straight from the 'physical change' slide -- match the key terms.",
-    "misconception": "A wrong answer implies the student equates \"destruction\" or \"damage\" with \"chemical change.\"",
+    "hint": "Straight from the 'Rusting' slide -- match the key terms.",
+    "misconception": "A poor answer fails to include a \"control\" (the dry nail) to compare against, showing a lack of scientific methodology.",
     "id": "gen_c6_chem_ch05_q12",
-    "nodeId": "c6_chemistry_ch05_001",
+    "nodeId": "c6_chemistry_ch05_003",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If you stretch a rubber band, is it still a rubber band?",
-    "answer": "Yes, it is still a rubber band",
+    "question": "If an iron rod is kept in a vacuum (an area with no air or moisture), will it rust? Explain why.",
+    "answer": "No, it will not rust because the necessary reactants (oxygen and water) are absent. This tests the student's ability to apply the conditions of the chemical change to a",
     "options": [
-     "You could take a photo of the roof today and compare it to a photo taken by your parents five years ago",
-     "No. Step 1: Identify the material (metal wire). Step 2: Observe the change (bending). Step 3: Check if the material identity changed (it is still metal)",
-     "Yes, it is still a rubber band"
+     "The student should propose an experiment (e.g., \"I will freeze water into ice, then let it melt, then freeze it again\")",
+     "The student should suggest slicing an apple, leaving one half exposed to air, and observing the color change to brown",
+     "No, it will not rust because the necessary reactants (oxygen and water) are absent. This tests the student's ability to apply the conditions of the chemical change to a"
     ],
-    "hint": "Straight from the 'physical change' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student confuses \"shape change\" with \"substance change,\" failing to realize the material identity remains constant.",
+    "hint": "Straight from the 'Rusting' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, it will not rust because the necessary reactants (oxygen and water) are absent.",
     "id": "gen_c6_chem_ch05_q13",
-    "nodeId": "c6_chemistry_ch05_001",
+    "nodeId": "c6_chemistry_ch05_003",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Think of a real-world object in your kitchen. Describe how you could perform a physical change on it.",
-    "answer": "An example would be crushing a dry biscuit into crumbs. The answer is valid if the student identifies that while the biscuit looks different, it is still the same material",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify rusting as a chemical change by contrasting the physical properties of iron (grey, hard, magnetic) with those of rust (reddish-brown, brittle",
     "options": [
-     "Yes, it is temporary because the change (stretching) only exists while you apply force",
-     "This is a physical change because the sugar is still present in the water (it is a mixture), and it can be recovered by evaporating the water",
-     "An example would be crushing a dry biscuit into crumbs. The answer is valid if the student identifies that while the biscuit looks different, it is still the same material"
+     "The student must be able to classify various common changes as \"physical\" by demonstrating that the substance remains unchanged in its identity",
+     "The student must be able to identify combustion as a chemical change and list its three main requirements and two primary energy products",
+     "The student must be able to identify rusting as a chemical change by contrasting the physical properties of iron (grey, hard, magnetic) with those of rust (reddish-brown, brittle"
     ],
-    "hint": "Straight from the 'physical change' slide -- match the key terms.",
-    "misconception": "A poor answer would suggest something like \"burning a match,\" which is a chemical change.",
+    "hint": "Straight from the 'Rusting' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify rusting as a chemical change by contrasting the physical properties of iron (grey,",
     "id": "gen_c6_chem_ch05_q14",
-    "nodeId": "c6_chemistry_ch05_001",
+    "nodeId": "c6_chemistry_ch05_003",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "You have a metal wire. You bend it into a circle. Has a new substance been formed?",
-    "answer": "No. Step 1: Identify the material (metal wire). Step 2: Observe the change (bending). Step 3: Check if the material identity changed (it is still metal)",
+    "question": "A piece of wood is left in the sun, but it does not catch fire. Why?",
+    "answer": "While the wood is a fuel and oxygen is present, the temperature of the wood has not reached the point required for combustion to start",
     "options": [
-     "It is a chemical change because heat causes ingredients to react, creating a new substance (bread) that cannot be turned back into raw dough",
-     "Yes, it is reversible; you can recover the salt by evaporating the water",
-     "No. Step 1: Identify the material (metal wire). Step 2: Observe the change (bending). Step 3: Check if the material identity changed (it is still metal)"
+     "No, it will not rust because the necessary reactants (oxygen and water) are absent. This tests the student's ability to apply the conditions of the chemical change to a",
+     "Place one iron nail in a dry container and one in a container with water/moisture, then observe which one changes over a week",
+     "While the wood is a fuel and oxygen is present, the temperature of the wood has not reached the point required for combustion to start"
     ],
-    "hint": "Straight from the 'physical change' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks physical manipulation equals a chemical creation.",
+    "hint": "Straight from the 'Combustion' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student ignores the \"heat\" requirement of the combustion triangle.",
     "id": "gen_c6_chem_ch05_q15",
-    "nodeId": "c6_chemistry_ch05_001",
+    "nodeId": "c6_chemistry_ch05_004",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A baker heats sugar until it turns into a brown, sweet-smelling liquid called caramel. Can this be reversed to get the original white sugar crystals back?",
-    "answer": "No, it cannot be reversed because the heat caused a chemical change, creating a new substance (caramel)",
+    "question": "Design a simple experiment to prove that air is necessary for combustion.",
+    "answer": "Place a candle on a plate and light it. Place a glass jar over it and observe the flame until it dies",
     "options": [
-     "Yes, it is still a rubber band",
-     "No. Step 1: Identify the material (metal wire). Step 2: Observe the change (bending). Step 3: Check if the material identity changed (it is still metal)",
-     "No, it cannot be reversed because the heat caused a chemical change, creating a new substance (caramel)"
+     "While the wood is a fuel and oxygen is present, the temperature of the wood has not reached the point required for combustion to start",
+     "The student should suggest slicing an apple, leaving one half exposed to air, and observing the color change to brown",
+     "Place a candle on a plate and light it. Place a glass jar over it and observe the flame until it dies"
     ],
-    "hint": "Straight from the 'chemical change' slide -- match the key terms.",
-    "misconception": "If the student thinks it can be reversed by cooling, they misunderstand that chemical changes are usually permanent.",
+    "hint": "Straight from the 'Combustion' slide -- match the key terms.",
+    "misconception": "A poor answer fails to include a control (like a candle burning openly) or fails to mention observing the change in flame status.",
     "id": "gen_c6_chem_ch05_q16",
-    "nodeId": "c6_chemistry_ch05_002",
+    "nodeId": "c6_chemistry_ch05_004",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare burning a candle wick to melting the candle wax. Which one is more likely to be a chemical change?",
-    "answer": "Burning the wick is a chemical change because it reacts with oxygen to produce smoke and ash, whereas melting the wax is a physical change",
+    "question": "Is it possible to have combustion if you have plenty of fuel and oxygen, but no way to provide initial heat? Justify your answer.",
+    "answer": "No, combustion will not occur because the \"heat\" component of the combustion triangle is missing to trigger the reaction",
     "options": [
-     "A physical change alters the state or shape of food without changing its identity, while a chemical change creates new substances",
-     "Rusting is a slow change because it takes weeks or months to develop, whereas a swing moving is a fast, repetitive motion",
-     "Burning the wick is a chemical change because it reacts with oxygen to produce smoke and ash, whereas melting the wax is a physical change"
+     "While the wood is a fuel and oxygen is present, the temperature of the wood has not reached the point required for combustion to start",
+     "The flame goes out because the supply of oxygen, a requirement for combustion, is cut off",
+     "No, combustion will not occur because the \"heat\" component of the combustion triangle is missing to trigger the reaction"
     ],
-    "hint": "Straight from the 'chemical change' slide -- match the key terms.",
-    "misconception": "Students often struggle to see that a single object can undergo both types of changes at once.",
+    "hint": "Straight from the 'Combustion' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates the student thinks combustion happens spontaneously without an ignition source.",
     "id": "gen_c6_chem_ch05_q17",
-    "nodeId": "c6_chemistry_ch05_002",
+    "nodeId": "c6_chemistry_ch05_004",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Is it possible for a chemical change to occur without heat? Provide an example.",
-    "answer": "Yes, rusting of iron occurs at room temperature when iron reacts with oxygen and moisture",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify combustion as a chemical change and list its three main requirements and two primary energy products",
     "options": [
-     "No, it cannot be reversed because the heat caused a chemical change, creating a new substance (caramel)",
-     "It is a chemical change because heat causes ingredients to react, creating a new substance (bread) that cannot be turned back into raw dough",
-     "Yes, rusting of iron occurs at room temperature when iron reacts with oxygen and moisture"
+     "The student must be able to categorize various everyday changes as temporary or permanent and provide a valid reason for their classification based on reversibility",
+     "The student must be able to identify examples of slow natural changes and differentiate them from rapid changes by describing the time scale involved",
+     "The student must be able to identify combustion as a chemical change and list its three main requirements and two primary energy products"
     ],
-    "hint": "Straight from the 'chemical change' slide -- match the key terms.",
-    "misconception": "If a student answers \"no,\" they believe that chemical changes always require fire or high heat.",
+    "hint": "Straight from the 'Combustion' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify combustion as a chemical change and list its three main requirements and two",
     "id": "gen_c6_chem_ch05_q18",
-    "nodeId": "c6_chemistry_ch05_002",
+    "nodeId": "c6_chemistry_ch05_004",
     "difficulty": "standard"
    }
   ],
@@ -997,6 +944,358 @@ export const C6_CHEM_GEN: SimDef[] = [
    ]
   },
   "successLine": "Physical Change mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c6_chem_ch06",
+  "title": "Separation Of Substances",
+  "subtitle": "Chemistry · Chapter 6",
+  "classLevel": 6,
+  "mode": "senior",
+  "subject": "chemistry",
+  "topic": "Separation Of Substances",
+  "chapters": [
+   "Chemistry Ch6: Separation Of Substances"
+  ],
+  "nodeIds": [
+   "c6_chemistry_ch06_001",
+   "c6_chemistry_ch06_002",
+   "c6_chemistry_ch06_003"
+  ],
+  "emoji": "🧪",
+  "theme": {
+   "bg": "from-orange-100 to-red-200",
+   "accent": "orange",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Who uses Separation Of Substances in real working life?",
+   "options": [
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
+   ],
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "Separation of substances means removing one component from a mixture using a difference in its properties."
+  },
+  "teaching": [
+   {
+    "title": "Separation Of Substances",
+    "text": "Separation of substances means removing one component from a mixture using a difference in its properties. Handpicking removes large unwanted pieces by hand; threshing beats the crop to free grains from stalks; winnowing uses wind to blow lighter husk away",
+    "emoji": "🧪",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Fine Or Dissolved Mixtures Need Methods",
+    "text": "Fine or dissolved mixtures need methods beyond the hand. Sedimentation lets heavier insoluble particles settle at the bottom; decantation gently pours off the clear liquid above the sediment; filtration passes the mixture through a filter (cloth or filter",
+    "emoji": "🧪",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Magnetic Separation Uses a Magnet To",
+    "text": "Magnetic separation uses a magnet to pull magnetic materials like iron, nickel, or cobalt out of a mixture with non-magnetic materials — such as separating iron nails from sawdust or iron filings from sand.",
+    "emoji": "🧪",
+    "bgColor": "from-amber-400 to-orange-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "Name the four simple hand methods of separating substances.",
+    "answer": "Handpicking, threshing, winnowing, and sieving — each using a different property difference (visibility/size, being stuck, weight, particle size) to pull a mixture apart",
+    "options": [
+     "Define sedimentation, decantation, filtration, evaporation, and churning; choose the correct method for muddy water, tea, saltwater, and curd",
+     "It relies on magnetism — only materials like iron, nickel, and cobalt are attracted to a magnet, so they can be pulled out of a mixture with non-magnetic materials",
+     "Handpicking, threshing, winnowing, and sieving — each using a different property difference (visibility/size, being stuck, weight, particle size) to pull a mixture apart"
+    ],
+    "hint": "Straight from the 'Separation of substances' slide -- match the key terms.",
+    "misconception": "A wrong answer lists only one or invents a lab method — these are the manual, everyday ones.",
+    "id": "gen_c6_chem_ch06_q1",
+    "nodeId": "c6_chemistry_ch06_001",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine your mother asks you to clean a bowl of rice that has a few small stones in it.",
+     "You would not boil it or blow on it — you would pick the stones out one by one.",
+     "That is handpicking, and it works because the stones are few, big, and easy to see.",
+     "Now stand on a farm at harvest: bundles of wheat are beaten against the ground or threshed so the grains pop off the stalks — that is threshing,"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is sedimentation?",
+    "answer": "Sedimentation is the settling of heavier insoluble particles at the bottom of a liquid when the mixture is left undisturbed",
+    "options": [
+     "Handpicking, threshing, winnowing, and sieving — each using a different property difference (visibility/size, being stuck, weight, particle size) to pull a mixture apart",
+     "Handpicking works when the unwanted pieces are few, large, and easy to spot and pick out — like stones in a bowl of rice or spoiled grains in a small amount of pulses",
+     "Sedimentation is the settling of heavier insoluble particles at the bottom of a liquid when the mixture is left undisturbed"
+    ],
+    "hint": "Straight from the 'Fine or dissolved mixtures need' slide -- match the key terms.",
+    "misconception": "A wrong answer calls it \"dissolving\" — settling is the opposite of dissolving; the particles stay whole and sink.",
+    "id": "gen_c6_chem_ch06_q2",
+    "nodeId": "c6_chemistry_ch06_002",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Take a glass of muddy water and just leave it alone — watch the mud slowly sink and collect at the bottom.",
+     "That quiet settling is sedimentation.",
+     "Once the mud has settled, pour the clear water gently into another glass without disturbing the bottom — that careful pour is decantation.",
+     "Some fine dust is still floating, so pass the water through a clean cloth or a piece of filter paper — the cloth traps the particles and clear water"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "How does a magnet separate iron nails from sawdust?",
+    "answer": "A magnet is swept through the mixture and the iron nails — being magnetic — are pulled to it, while the non-magnetic sawdust is left behind",
+    "options": [
+     "Threshing beats the crop so grains break free from the stalks — it frees the grain. Winnowing then uses wind to blow the lighter husk away from the freed grain",
+     "The mixture is passed through a filter — cloth or filter paper — which traps solid particles while the liquid passes through. Tea straining is everyday filtration",
+     "A magnet is swept through the mixture and the iron nails — being magnetic — are pulled to it, while the non-magnetic sawdust is left behind"
+    ],
+    "hint": "Straight from the 'Magnetic separation uses a magnet' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests sieving — the sawdust and nails may be similar sizes; magnetism is the useful difference.",
+    "id": "gen_c6_chem_ch06_q3",
+    "nodeId": "c6_chemistry_ch06_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "A carpenter drops nails into a pile of sawdust — picking them out one by one would take an hour.",
+     "Instead he sweeps a magnet through the pile and every nail leaps to it, leaving the sawdust behind — that is magnetic separation, working because",
+     "Now step back and look at all the methods we have met — handpicking, threshing, winnowing, sieving, sedimentation, decantation, filtration,",
+     "They look like ten different tricks, but they share one secret: each works only because something differs between the two substances."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "How are threshing and winnowing different jobs in getting clean grain?",
+    "answer": "Threshing beats the crop so grains break free from the stalks — it frees the grain. Winnowing then uses wind to blow the lighter husk away from the freed grain",
+    "options": [
+     "Because the salt is dissolved — it breaks into particles far too small for any filter to catch, so it passes through with the water. Only evaporation separates a dissolved solid",
+     "By churning — the curd is agitated until the butter fat clumps together and floats to the top, separating from the liquid",
+     "Threshing beats the crop so grains break free from the stalks — it frees the grain. Winnowing then uses wind to blow the lighter husk away from the freed grain"
+    ],
+    "hint": "Straight from the 'Separation of substances' slide -- match the key terms.",
+    "misconception": "A wrong answer treats them as the same step.",
+    "id": "gen_c6_chem_ch06_q4",
+    "nodeId": "c6_chemistry_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "How does winnowing separate husk from grain?",
+    "answer": "The grain-and-husk mixture is tossed into the air; the wind blows the lighter husk away while the heavier grains fall straight down into a heap — separation by weight difference",
+    "options": [
+     "The mixture is passed through a filter — cloth or filter paper — which traps solid particles while the liquid passes through. Tea straining is everyday filtration",
+     "By evaporation — the water is heated so it turns to vapour and escapes, leaving the dissolved salt behind in the vessel",
+     "The grain-and-husk mixture is tossed into the air; the wind blows the lighter husk away while the heavier grains fall straight down into a heap — separation by weight difference"
+    ],
+    "hint": "Straight from the 'Separation of substances' slide -- match the key terms.",
+    "misconception": "A wrong answer describes sieving — winnowing uses wind and weight, not a mesh.",
+    "id": "gen_c6_chem_ch06_q5",
+    "nodeId": "c6_chemistry_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "On what principle does a sieve work?",
+    "answer": "A sieve separates particles of different sizes — fine particles pass through the mesh holes while bigger pieces stay on top",
+    "options": [
+     "First sweep a magnet to pull out the nails; then add water so the salt dissolves but the sand does not — filter out the sand; then evaporate the water to recover the salt",
+     "Pebbles + sand → sieving (size); wheat + husk → winnowing (weight); muddy water → sedimentation + decantation + filtration (settling)",
+     "A sieve separates particles of different sizes — fine particles pass through the mesh holes while bigger pieces stay on top"
+    ],
+    "hint": "Straight from the 'Separation of substances' slide -- match the key terms.",
+    "misconception": "A wrong answer says it separates by weight — it separates by size, letting only small particles through.",
+    "id": "gen_c6_chem_ch06_q6",
+    "nodeId": "c6_chemistry_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Name the four hand-separation methods with a real mixture each suits, choose the correct method for a described mixture, and state which differing property makes each method work",
+    "options": [
+     "Define sedimentation, decantation, filtration, evaporation, and churning; choose the correct method for muddy water, tea, saltwater, and curd",
+     "It relies on magnetism — only materials like iron, nickel, and cobalt are attracted to a magnet, so they can be pulled out of a mixture with non-magnetic materials",
+     "Name the four hand-separation methods with a real mixture each suits, choose the correct method for a described mixture, and state which differing property makes each method work"
+    ],
+    "hint": "Straight from the 'Separation of substances' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Name the four hand-separation methods with a real mixture each suits, choose the correct method for a described",
+    "id": "gen_c6_chem_ch06_q7",
+    "nodeId": "c6_chemistry_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "When is handpicking the right method?",
+    "answer": "Handpicking works when the unwanted pieces are few, large, and easy to spot and pick out — like stones in a bowl of rice or spoiled grains in a small amount of pulses",
+    "options": [
+     "Name the four hand-separation methods with a real mixture each suits, choose the correct method for a described mixture, and state which differing property makes each method work",
+     "Sedimentation is the settling of heavier insoluble particles at the bottom of a liquid when the mixture is left undisturbed",
+     "Handpicking works when the unwanted pieces are few, large, and easy to spot and pick out — like stones in a bowl of rice or spoiled grains in a small amount of pulses"
+    ],
+    "hint": "Straight from the 'Separation of substances' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests it for a truckload of grain — too many pieces make it impractical.",
+    "id": "gen_c6_chem_ch06_q8",
+    "nodeId": "c6_chemistry_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "You have muddy pebbles mixed with fine sand. Which method separates them and why?",
+    "answer": "Sieving — the fine sand passes through the mesh while the pebbles stay behind, because the two differ in particle size",
+    "options": [
+     "Pebbles + sand → sieving (size); wheat + husk → winnowing (weight); muddy water → sedimentation + decantation + filtration (settling)",
+     "A sieve separates particles of different sizes — fine particles pass through the mesh holes while bigger pieces stay on top",
+     "Sieving — the fine sand passes through the mesh while the pebbles stay behind, because the two differ in particle size"
+    ],
+    "hint": "Straight from the 'Separation of substances' slide -- match the key terms.",
+    "misconception": "A wrong answer chooses winnowing — the pebbles are too heavy for wind, so size, not weight, is the useful difference here.",
+    "id": "gen_c6_chem_ch06_q9",
+    "nodeId": "c6_chemistry_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "How does filtration separate a mixture?",
+    "answer": "The mixture is passed through a filter — cloth or filter paper — which traps solid particles while the liquid passes through. Tea straining is everyday filtration",
+    "options": [
+     "Neither component is dissolved in a liquid, so there is no liquid to evaporate — evaporation needs a dissolved solid; the magnet works because iron is magnetic and sand is not",
+     "By evaporation — the water is heated so it turns to vapour and escapes, leaving the dissolved salt behind in the vessel",
+     "The mixture is passed through a filter — cloth or filter paper — which traps solid particles while the liquid passes through. Tea straining is everyday filtration"
+    ],
+    "hint": "Straight from the 'Fine or dissolved mixtures need' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests it also catches dissolved substances — a filter only holds undissolved particles.",
+    "id": "gen_c6_chem_ch06_q10",
+    "nodeId": "c6_chemistry_ch06_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "How is butter separated from curd?",
+    "answer": "By churning — the curd is agitated until the butter fat clumps together and floats to the top, separating from the liquid",
+    "options": [
+     "By evaporation — the water is heated so it turns to vapour and escapes, leaving the dissolved salt behind in the vessel",
+     "The grain-and-husk mixture is tossed into the air; the wind blows the lighter husk away while the heavier grains fall straight down into a heap — separation by weight difference",
+     "By churning — the curd is agitated until the butter fat clumps together and floats to the top, separating from the liquid"
+    ],
+    "hint": "Straight from the 'Fine or dissolved mixtures need' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests straining — the fat is mixed into the curd and needs agitation to gather.",
+    "id": "gen_c6_chem_ch06_q11",
+    "nodeId": "c6_chemistry_ch06_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "How is salt recovered from salt water?",
+    "answer": "By evaporation — the water is heated so it turns to vapour and escapes, leaving the dissolved salt behind in the vessel",
+    "options": [
+     "A magnet is swept through the mixture and the iron nails — being magnetic — are pulled to it, while the non-magnetic sawdust is left behind",
+     "Neither component is dissolved in a liquid, so there is no liquid to evaporate — evaporation needs a dissolved solid; the magnet works because iron is magnetic and sand is not",
+     "By evaporation — the water is heated so it turns to vapour and escapes, leaving the dissolved salt behind in the vessel"
+    ],
+    "hint": "Straight from the 'Fine or dissolved mixtures need' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests filtering — dissolved salt passes straight through any filter.",
+    "id": "gen_c6_chem_ch06_q12",
+    "nodeId": "c6_chemistry_ch06_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What is decantation and when is it used?",
+    "answer": "Decantation is gently pouring off the clear liquid above a settled sediment — used after sedimentation, as when pouring clean water off settled muddy water",
+    "options": [
+     "Handpicking, threshing, winnowing, and sieving — each using a different property difference (visibility/size, being stuck, weight, particle size) to pull a mixture apart",
+     "Handpicking works when the unwanted pieces are few, large, and easy to spot and pick out — like stones in a bowl of rice or spoiled grains in a small amount of pulses",
+     "Decantation is gently pouring off the clear liquid above a settled sediment — used after sedimentation, as when pouring clean water off settled muddy water"
+    ],
+    "hint": "Straight from the 'Fine or dissolved mixtures need' slide -- match the key terms.",
+    "misconception": "A wrong answer describes stirring — decanting is the opposite, a calm transfer.",
+    "id": "gen_c6_chem_ch06_q13",
+    "nodeId": "c6_chemistry_ch06_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Define sedimentation, decantation, filtration, evaporation, and churning; choose the correct method for muddy water, tea, saltwater, and curd",
+    "options": [
+     "Handpicking works when the unwanted pieces are few, large, and easy to spot and pick out — like stones in a bowl of rice or spoiled grains in a small amount of pulses",
+     "Name the four hand-separation methods with a real mixture each suits, choose the correct method for a described mixture, and state which differing property makes each method work",
+     "Define sedimentation, decantation, filtration, evaporation, and churning; choose the correct method for muddy water, tea, saltwater, and curd"
+    ],
+    "hint": "Straight from the 'Fine or dissolved mixtures need' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Define sedimentation, decantation, filtration, evaporation, and churning; choose the correct method for muddy water,",
+    "id": "gen_c6_chem_ch06_q14",
+    "nodeId": "c6_chemistry_ch06_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Why can salt not be separated from water by filtration?",
+    "answer": "Because the salt is dissolved — it breaks into particles far too small for any filter to catch, so it passes through with the water. Only evaporation separates a dissolved solid",
+    "options": [
+     "A magnet is swept through the mixture and the iron nails — being magnetic — are pulled to it, while the non-magnetic sawdust is left behind",
+     "Neither component is dissolved in a liquid, so there is no liquid to evaporate — evaporation needs a dissolved solid; the magnet works because iron is magnetic and sand is not",
+     "Because the salt is dissolved — it breaks into particles far too small for any filter to catch, so it passes through with the water. Only evaporation separates a dissolved solid"
+    ],
+    "hint": "Straight from the 'Fine or dissolved mixtures need' slide -- match the key terms.",
+    "misconception": "A wrong answer assumes all mixtures can be filtered.",
+    "id": "gen_c6_chem_ch06_q15",
+    "nodeId": "c6_chemistry_ch06_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A mixture holds salt, sand, and iron nails. Describe the steps to get all three back. STEPS-style: show the order of separations.",
+    "answer": "First sweep a magnet to pull out the nails; then add water so the salt dissolves but the sand does not — filter out the sand; then evaporate the water to recover the salt",
+    "options": [
+     "A sieve separates particles of different sizes — fine particles pass through the mesh holes while bigger pieces stay on top",
+     "Sieving — the fine sand passes through the mesh while the pebbles stay behind, because the two differ in particle size",
+     "First sweep a magnet to pull out the nails; then add water so the salt dissolves but the sand does not — filter out the sand; then evaporate the water to recover the salt"
+    ],
+    "hint": "Straight from the 'Magnetic separation uses a magnet' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: First sweep a magnet to pull out the nails; then add water so the salt dissolves but the sand does not — filter out the",
+    "id": "gen_c6_chem_ch06_q16",
+    "nodeId": "c6_chemistry_ch06_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Match the mixture to the method: pebbles + sand; wheat + husk; muddy water; iron filings + sand.",
+    "answer": "Pebbles + sand → sieving (size); wheat + husk → winnowing (weight); muddy water → sedimentation + decantation + filtration (settling)",
+    "options": [
+     "First sweep a magnet to pull out the nails; then add water so the salt dissolves but the sand does not — filter out the sand; then evaporate the water to recover the salt",
+     "A sieve separates particles of different sizes — fine particles pass through the mesh holes while bigger pieces stay on top",
+     "Pebbles + sand → sieving (size); wheat + husk → winnowing (weight); muddy water → sedimentation + decantation + filtration (settling)"
+    ],
+    "hint": "Straight from the 'Magnetic separation uses a magnet' slide -- match the key terms.",
+    "misconception": "A wrong answer pairs each with an unrelated method — the differing property decides.",
+    "id": "gen_c6_chem_ch06_q17",
+    "nodeId": "c6_chemistry_ch06_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "State the rule for choosing a separation method.",
+    "answer": "The method must match a property that differs between the components — size for sieving, weight for winnowing, settling for sedimentation, dissolving for evaporation",
+    "options": [
+     "Sedimentation is the settling of heavier insoluble particles at the bottom of a liquid when the mixture is left undisturbed",
+     "Describe how a magnet separates iron from a mixture, state the method-matches-property rule with one example for each property, and pick the best method for a described pair",
+     "The method must match a property that differs between the components — size for sieving, weight for winnowing, settling for sedimentation, dissolving for evaporation"
+    ],
+    "hint": "Straight from the 'Magnetic separation uses a magnet' slide -- match the key terms.",
+    "misconception": "A wrong answer lists methods without the matching rule.",
+    "id": "gen_c6_chem_ch06_q18",
+    "nodeId": "c6_chemistry_ch06_003",
+    "difficulty": "advanced"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about separation of substances?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Separation Of Substances mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

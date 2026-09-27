@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch01_p1: SimDef = {
     id: 'v3_c11_hin_ar_ch01_p1',
-    title: 'izsepan · Part 1/3',
+    title: 'पाठ 1 · Part 1/3',
     subtitle: 'Read a chess game as the diagnosis of a kingdom already lost.',
-    classLevel: 11, subject: 'hin_ar', topic: 'izsepan · Part 1/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 1 · Part 1/3',
     chapters: ['c11_hin_ar_ch01'],
     nodeIds: ['c11_hin_ar_cbse_01_001', 'c11_hin_ar_cbse_01_002', 'c11_hin_ar_cbse_01_003', 'c11_hin_ar_cbse_01_004', 'c11_hin_ar_cbse_01_005', 'c11_hin_ar_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,55 +19,20 @@ export const c11_hin_ar_ch01_p1: SimDef = {
         hook: 'Premchand wrote 1856 from inside 1924 — the \'polite\' annexation mirrors the reformist colonial rhetoric of his own time.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Context and Background" refers to the historical, social, biographical, and literary circumstances surrounding a text\'s creation.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 1 — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक परिस्थितियों का वह ढाँचा है जो रचना के कथ्य और रूप को निर्धारित करता है; रचनाकार परिचय (Author Introduction).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_01_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Hold the three timelines — 1856 Lucknow, 1924 India, today — and weigh whether shrinking Wajid Ali Shah to a caged bird is a historical error or an artistic necessity.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are watching a period film where two nobles play chess while their kingdom collapses outside.',
-            decisions: [{ prompt: 'What is the specific historical event that forms the immediate political backdrop of "Shatranj ke Khiladi," and in what year did it occur?', options: [
-                { text: 'The annexation of Awadh by the British East India Company under Lord Dalhousie\'s Doctrine', outcome: 'The annexation of Awadh by the British East India Company under Lord Dalhousie\'s Doctrine of Lapse.' },
-                { text: 'the 1857 Revolt', outcome: 'Not quite — Students treat "context" as a static list of dates (Premchand born 1880, story published 1924.', reveals: 'students-treat-context-as-a' },
-                { text: 'Battle of Plassey', outcome: 'Not quite — Students treat "context" as a static list of dates (Premchand born 1880, story published 1924.', reveals: 'students-treat-context-as-a' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Have you ever noticed how a good movie hooks you in the first few minutes, builds tension until you\'re on the edge of your seat, then releases it?',
-            decisions: [{ prompt: 'What is the definition of \'exposition\' in the context of plot structure?', options: [
-                { text: 'Exposition is the opening stage of a plot where the author introduces the setting, main', outcome: 'Exposition is the opening stage of a plot where the author introduces the setting, main characters.' },
-                { text: 'the most exciting part', outcome: 'Not quite — Students often believe "plot" is just a synonym for "summary of what happens" and that "narrative.', reveals: 'plot-is-just-a-synonym' },
-                { text: 'the ending', outcome: 'Not quite — Students often believe "plot" is just a synonym for "summary of what happens" and that "narrative.', reveals: 'plot-is-just-a-synonym' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine walking into a government office where the air feels heavy with unspoken rules, where every clerk seems afraid of the next, and where the building.',
-            decisions: [{ prompt: 'What are the three components of setting in literature, and which one is most prominently developed in the opening pages of "Ued.', options: [
-                { text: 'The three components are physical (place), temporal (time), and social', outcome: 'The three components are physical (place), temporal (time), and social (environment/hierarchy).' },
-                { text: 'government office', outcome: 'Not quite — Students often treat setting as a static "where and when" label and atmosphere as a synonym for.', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re a doctor today pressured to prescribe expensive branded medicines when cheaper generics work just as well - that\'s exactly आयुर्विज्ञान\'s.',
-            decisions: [{ prompt: 'Identify the protagonist\'s full name and profession as explicitly stated in the opening paragraphs of "उद्देश का नक्षत्र".', options: [
-                { text: 'The protagonist is आयुर्विज्ञान, an Ayurvedic physician (वैद्य) running a government', outcome: 'The protagonist is आयुर्विज्ञान, an Ayurvedic physician (वैद्य) running a government dispensary.' },
-                { text: 'ओंकारनाथ', outcome: 'Not quite — Students treat आयुर्विज्ञान as merely "an honest man who loses his job" - a middle-school moral.', reveals: 'students-treat-as-merely-an' },
-                { text: 'डॉक्टर', outcome: 'Not quite — Students treat आयुर्विज्ञान as merely "an honest man who loses his job" - a middle-school moral.', reveals: 'students-treat-as-merely-an' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Think about a cricket match: the captain (protagonist) gets attention, but the wicketkeeper, the bowler who creates pressure, and the fielder who takes.',
-            decisions: [{ prompt: 'Name three supporting characters from "उद्देश्य नक्षत्र" and state one distinct personality trait for each, using only the story text.', options: [
-                { text: 'Correct answer: (1) ओखलाल – practical/grounded (evidence: advises आइंस्टाइन to accept', outcome: 'Correct answer: (1) ओखलाल – practical/grounded (evidence: advises आइंस्टाइन to accept government.' },
-                { text: 'confuses ओखलाल with फिरोज़ shows failure to distinguish character voices', outcome: 'Not quite — Students often treat supporting characters as "background information" – listing them like a cast.', reveals: 'students-often-treat-supporting-characters' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are asked: "What is this story really about?" You might recall the plot—a teacher refuses a government job and goes to jail.',
-            decisions: [{ prompt: 'What is the primary theme of "उद्देश्य का नक्षत्र" as expressed through the conflict between Vyaksihnhu and the government official?', options: [
-                { text: 'The primary theme is the conflict between individual conscience and state authority,', outcome: 'The primary theme is the conflict between individual conscience and state authority, showing that.' },
-                { text: 'It\'s about a teacher getting a job', outcome: 'Not quite — Students often think the primary theme is simply "patriotism" or "freedom struggle." They miss that.', reveals: 'the-primary-theme-is-simply' },
-                { text: 'patriotism', outcome: 'Not quite — Students often think the primary theme is simply "patriotism" or "freedom struggle." They miss that.', reveals: 'the-primary-theme-is-simply' }
-            ] }] } },
+        labels: ['पाठ 1 — पृष्ठभूमि', 'पाठ 1 — कथानक', 'पाठ 1 — पाठ्य-परिवेश', 'पाठ 1 — पात्र-चित्रण', 'पाठ 1 — मुख्य'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_01_002', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 1 · Part 1/3', spots: [
+            { id: 's1', label: '1 -', prompt: 'Which idea is this? — कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम.', answer: '1 -', options: ['1 -', '1 -'] },
+            { id: 's2', label: '1 -', prompt: 'Which idea is this? — पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो.', answer: '1 -', options: ['1 -', '1 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_01_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your class is staging a reading of Premchand\'s \'Shatranj ke Khiladi\'. The director wants to stage it as \'a comedy about two chess-obsessed nobles in old Lucknow — period fun, nothing more.\' You sense the 1856 setting is doing heavier work.',
             decisions: [{ prompt: 'What reading should the production take?', options: [
@@ -77,104 +42,81 @@ export const c11_hin_ar_ch01_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_01_006', title: 'The bigger picture',
           caseStudy: { intro: 'An older Premchand story gave vice and virtue clear names; here nobody is clean — which is exactly what systemic decay looks like.',
-            decisions: [{ prompt: 'What comes next? izsepan · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — izsepan · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 1 · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 1 · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_001', difficulty: 'standard',
-          question: '"Context and Background" refers to the historical, social, biographical, and.',
-          hint: 'If stuck, review Class 10 Hindi textbook\'s "Premchand" introduction chapter (typically.',
-          misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856).',
+          question: 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक.',
+          hint: 'यदि अटके तो कक्षा 10 की हिंदी पाठ्यपुस्तक के किसी भी पाठ का \'लेखक परिचय\' खोलें और देखें.',
+          misconception: 'छात्र समझते हैं कि \'रचनाकार परिचय\' का अर्थ है — जन्मतिथि, मृत्यु तिथि, प्रमुख कृतियों की सूची और पुरस्कार रट लेना। वे.',
           parts: [
-                { id: 'a', prompt: 'Analyze the chess metaphor in the story\'s context: How does the *structure* of chess (rules, pieces, endgame) map onto the political structure of Awadh.', answer: 'Mapping 1: The *immobility of the king* (Wajid Ali Shah)',
-                  options: ['Mapping 1: The *immobility of the king* (Wajid Ali Shah)', 'symbol of laziness'],
-                  hint: 'If stuck, review Class 10 Hindi textbook\'s "Premchand" introduction chapter (typically in *Kshitij*.',
-                  misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856) rather than a *dynamic.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक',
+                  options: ['पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो', 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के'],
+                  hint: 'यदि अटके तो कक्षा 10 की हिंदी पाठ्यपुस्तक के किसी भी पाठ का \'लेखक परिचय\' खोलें और देखें कि वहाँ दिए.',
+                  misconception: 'छात्र समझते हैं कि \'रचनाकार परिचय\' का अर्थ है — जन्मतिथि, मृत्यु तिथि, प्रमुख कृतियों की सूची और पुरस्कार रट लेना। वे यह नहीं देखते कि.' }
           ],
-            remediations: { 'students-treat-context-as-a': { steps: ['Draw a three-column timeline on paper: Column A = 1856 events (annexation, Wajid Ali Shah exiled), Column B = 1924.', 'For each column, ask: "What is the *mood*? (1856: false calm; 1924: suppressed rage; Text: ironic detachment)."', 'Write one paragraph connecting the three moods using the chess metaphor as the bridge.', 'Verify with teacher — does the paragraph explain *why* the story ends with Mir killing Roshan, not the British arriving?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_001', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856).',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "Premchand\'s portrayal of Wajid Ali Shah in the story is historically inaccurate but artistically necessary." Defend your position using.', answer: 'Artistically necessary',
-                  options: ['Artistically necessary', 'inaccuracy'],
-                  hint: 'If stuck, review Class 10 Hindi textbook\'s "Premchand" introduction chapter (typically in *Kshitij*.',
-                  misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856) rather than a *dynamic.' }
-          ],
-            remediations: { 'students-treat-context-as-a': { steps: ['Draw a three-column timeline on paper: Column A = 1856 events (annexation, Wajid Ali Shah exiled), Column B = 1924.', 'For each column, ask: "What is the *mood*? (1856: false calm; 1924: suppressed rage; Text: ironic detachment)."', 'Write one paragraph connecting the three moods using the chess metaphor as the bridge.', 'Verify with teacher — does the paragraph explain *why* the story ends with Mir killing Roshan, not the British arriving?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "रचनाकार की जीवनी से 5 तथ्य चुनो जो तुम्हें \'भावनात्मक\' लगें (दुख, संघर्ष, विद्रोह, प्रेम.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_002', difficulty: 'standard',
-          question: 'Plot is the structured sequence of events in a narrative, organized into five.',
-          hint: 'If stuck, review the story summary focusing only on the station master\'s *decisions* (not.',
-          misconception: 'Students often believe "plot" is just a synonym for "summary of what happens" and that "narrative structure" means only.',
+          question: 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त.',
+          hint: 'यदि अटका महसूस हो तो: **E.M. फॉर्स्टर का मूल उद्धरण** ("The king died and then the queen.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'कथानक = घटनाओं की सूची\' और \'आख्यान-संरचना = अध्यायों/भागों का विभाजन\'। **गलत.',
           parts: [
-                { id: 'a', prompt: 'In your own words, explain how the first two pages of "उद्देश्य का नक्शा" function as exposition.', answer: 'The opening establishes the station master (IafMr vyksihnhu) as a principled,',
-                  options: ['The opening establishes the station master (IafMr vyksihnhu) as a principled,', 'he wakes up, drinks tea, goes to work', 'means only'],
-                  hint: 'If stuck, review the story summary focusing only on the station master\'s *decisions* (not.',
-                  misconception: 'Students often believe "plot" is just a synonym for "summary of what happens" and that "narrative structure" means only "beginning, middle.' },
-                { id: 'b', prompt: 'Identify three specific events from the story that belong to the \'rising action\' stage.', answer: '1) The railway inspector\'s surprise inspection and demand for bribes',
-                  options: ['1) The railway inspector\'s surprise inspection and demand for bribes', 'the station master eats lunch', 'means only', 'picks random events (e'],
-                  hint: 'If stuck, review the story summary focusing only on the station master\'s *decisions* (not.',
-                  misconception: 'Students often believe "plot" is just a synonym for "summary of what happens" and that "narrative structure" means only "beginning, middle.' },
-                { id: 'c', prompt: 'Compare the climax of "उद्देश्य का नक्शा" with a typical commercial short story climax.', answer: 'The climax is the station master submitting his resignation',
-                  options: ['The climax is the station master submitting his resignation', 'climax', 'loudest moment', 'point of irreversible change for the protagonist'],
-                  hint: 'If stuck, review the story summary focusing only on the station master\'s *decisions* (not.',
-                  misconception: 'Students often believe "plot" is just a synonym for "summary of what happens" and that "narrative structure" means only "beginning, middle.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम',
+                  options: ['कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो', 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के'],
+                  hint: 'यदि अटका महसूस हो तो: **E.M. फॉर्स्टर का मूल उद्धरण** ("The king died and then the queen died".',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'कथानक = घटनाओं की सूची\' और \'आख्यान-संरचना = अध्यायों/भागों का विभाजन\'। **गलत तर्क का स्रोत:**.' }
           ],
-            remediations: { 'plot-is-just-a-synonym': { steps: ['If a student cannot map the plot stages: 1) Have them list 8-10 key events in chronological order on sticky notes.', '2) Ask them to physically arrange the notes on a Freytag\'s Pyramid diagram drawn on paper.', '3) For each event, ask: "Does this *introduce*, *complicate*, *turn*, *unwind*, or *conclude*?" 4) Finally, have them.', 'This tactile, function-focused method breaks the "summary habit".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'class-10': { steps: ['**माइक्रो-स्टेप 1:** छात्र से कहें — "किसी भी फिल्म का अंतिम दृश्य याद करो। अब बताओ: वह दृश्य *क्यों* अंत में आया?', 'कौन-सी तीन घटनाएँ उसके *कारण* बनीं?" — यह **कारण-कार्य श्रृंखला (Causal Chain)** बनाने का अभ्यास है। 2.', '**माइक्रो-स्टेप 2:** एक ही लघुकथा को दो तरह से सुनाएँ: (क) रैखिक, (ख) फ्लैशबैक से शुरू। पूछें: "कौन-सी संस्कृति ज्यादा.', 'क्यों?" — यह **संरचना के मनोवैज्ञानिक प्रभाव** का साक्षात्कार है। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
-          hint: 'If stuck, review the historical context of British Indian bureaucracy (node.',
-          misconception: 'Students often treat setting as a static "where and when" label and atmosphere as a synonym for "weather description.".',
+          question: 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित.',
+          hint: 'यदि फंसे हुए महसूस हो तो कथानक और आख्यान-संरचना (c11_hin_ar_cbse_01_002) की घटनाओं के.',
+          misconception: 'छात्र अक्सर यह मानते हैं कि पाठ्य-परिवेश का अर्थ केवल कहानी की भौतिक जगह (जैसे गांव, शहर) है, और वे समय (इतिहासकाल.',
           parts: [
-                { id: 'a', prompt: 'What are the three components of setting in literature, and which one is most prominently developed in the opening pages of "Ued ka Nijkasxak"?', answer: 'The three components are physical (place), temporal (time), and social',
-                  options: ['The three components are physical (place), temporal (time), and social', 'government office'],
-                  hint: 'If stuck, review the historical context of British Indian bureaucracy (node c11_hin_ar_cbse_01_001).',
-                  misconception: 'Students often treat setting as a static "where and when" label and atmosphere as a synonym for "weather description." They write: "The.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो',
+                  options: ['पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के'],
+                  hint: 'यदि फंसे हुए महसूस हो तो कथानक और आख्यान-संरचना (c11_hin_ar_cbse_01_002) की घटनाओं के क्रम और.',
+                  misconception: 'छात्र अक्सर यह मानते हैं कि पाठ्य-परिवेश का अर्थ केवल कहानी की भौतिक जगह (जैसे गांव, शहर) है, और वे समय (इतिहासकाल, मौसम) या सामाजिक.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['1) Have the student reread the first two pages and highlight every noun that names a person, object, or space.', '2) Next to each, write: "What power does this hold?', 'Who controls it?" 3) Then list every adjective and verb describing the office environment.', 'Ask: "Does this word make me feel safe, watched, small, or angry?" 4) Finally, rewrite one paragraph replacing all.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक ही पात्र (जैसे एक किसान) दो अलग-अलग परिवेशों में कैसे अलग व्यवहार करता है: चरण 1 - कहानी A में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves systematically examining the.',
-          hint: 'If stuck, review node 001\'s section on "औपनिवेशिक चिकित्सा नीति" (colonial medical.',
-          misconception: 'Students treat आयुर्विज्ञान as merely "an honest man who loses his job" - a middle-school moral reading.',
+          question: 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र.',
+          hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_01_002 (कथानक और आख्यान-संरचना)** के.',
+          misconception: '**विशिष्ट भ्रांति:** *"पात्र-चित्रण में नायक के गुण-दोषों की सूची (List of Traits) बनाना पर्याप्त है, जैसे: ईमानदार.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why आयुर्विज्ञान refuses the inspector\'s order to use the new allopathic medicines, connecting his refusal to his professional.', answer: 'आयुर्विज्ञान refuses',
-                  options: ['आयुर्विज्ञान refuses', 'stubbornness'],
-                  hint: 'If stuck, review node 001\'s section on "औपनिवेशिक चिकित्सा नीति" (colonial medical policy).',
-                  misconception: 'Students treat आयुर्विज्ञान as merely "an honest man who loses his job" - a middle-school moral reading.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के',
+                  options: ['पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_01_002 (कथानक और आख्यान-संरचना)** के \'चरमोत्कर्ष\'.',
+                  misconception: '**विशिष्ट भ्रांति:** *"पात्र-चित्रण में नायक के गुण-दोषों की सूची (List of Traits) बनाना पर्याप्त है, जैसे: ईमानदार, साहसी, भावुक, क्रोधी.' }
           ],
-            remediations: { 'students-treat-as-merely-an': { steps: ['Have the student re-read ONLY the clinic confrontation scene (pages 6-8) and highlight every word related.', 'Ask: "Who has *real* medical knowledge here - the inspector with his rules or आयुर्विज्ञान with his pulse diagnosis?" 3.', 'Map the binary: अनुभव vs नियम, गुरु-परंपरा vs सरकारी आदेश, आत्मा vs नौकरी.', 'Rewrite one paragraph explaining how आयुर्विज्ञान\'s body (seated, calm, pulse-reading) embodies traditional epistemic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'list-of-traits': { steps: ['**\'क्यों?\' का खेल (5 Whys Technique):** छात्र से नायक के किसी एक कार्य के लिए 5 बार "क्यों?" पूछें — हर उत्तर के बाद.', 'सजा का → क्यों डरता है सजा से?', 'बचपन में पिटता था → तो झूठ **आदत नहीं, आघात-प्रतिक्रिया** है।) 2.', '**साक्ष्य-व्याख्या तालिका (Evidence-Explanation Table):** दो कॉलम बनाएँ — बायाँ: "पाठ से साक्ष्य (संवाद/घटना)", दायाँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_005', difficulty: 'standard',
-          question: 'Supporting characters are fictional figures who interact with the protagonist.',
-          hint: 'Re-read the protagonist analysis node (c11_hin_ar_cbse_01_004) and the plot structure.',
-          misconception: 'Students often treat supporting characters as "background information" – listing them like a cast list – instead.',
+          question: 'सहायक पात्र (Supporting Characters) वे गौण चरित्र होते हैं जो नायक/प्रमुख पात्र.',
+          hint: 'यदि अटके, तो **नोड 004 (नायक चित्रण)** के \'चरित्र-चाप (Character Arc)\' खंड को दोहराएँ और.',
+          misconception: '**विशिष्ट भ्रांति:** "सहायक पात्र का विश्लेषण करते समय उसके **व्यक्तिगत जीवन-वृत्त (Backstory), स्वभाव की सूची (Traits.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters are fictional figures who interact with the protagonist to advance',
-                  options: ['Supporting characters are fictional figures who interact with the protagonist to advance', '"Context and Background" refers to the historical, social, biographical, and literary', 'Plot is the structured sequence of events in a narrative, organized into five stages:', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'Re-read the protagonist analysis node (c11_hin_ar_cbse_01_004) and the plot structure node.',
-                  misconception: 'Students often treat supporting characters as "background information" – listing them like a cast list – instead of analyzing them.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे गौण चरित्र होते हैं जो नायक/प्रमुख पात्र के',
+                  options: ['सहायक पात्र (Supporting Characters) वे गौण चरित्र होते हैं जो नायक/प्रमुख पात्र के', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
+                  hint: 'यदि अटके, तो **नोड 004 (नायक चित्रण)** के \'चरित्र-चाप (Character Arc)\' खंड को दोहराएँ और नायक के.',
+                  misconception: '**विशिष्ट भ्रांति:** "सहायक पात्र का विश्लेषण करते समय उसके **व्यक्तिगत जीवन-वृत्त (Backstory), स्वभाव की सूची (Traits list), या नायक के.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['Give the student a two-column table: Column A = "What the character says/does" (quote 3 actions/dialogues), Column.', 'Model one row for ओखलाल together.', 'Student completes rows for फिरोज़ and मिर्ज़ा independently.', 'Student writes one paragraph synthesizing: "Through ओखलाल\'s practicality, फिरोज़\'s devotion, and मिर्ज़ा\'s skepticism.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'backstory': { steps: ['**चरण 1 — निदान:** छात्र से पूछें: *"इस पात्र को कहानी से हटा दो। नायक का अंतिम निर्णय/क्लाइमेक्स/थीम पर क्या असर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_006', difficulty: 'standard',
-          question: 'Primary theme is the central, unifying idea or message that the author conveys.',
-          hint: 'If stuck, review the character analysis of Vyaksihnhu (node 004) and the plot structure.',
-          misconception: 'Students often think the primary theme is simply "patriotism" or "freedom struggle." They miss that the story.',
+          question: 'मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय विचार या मूल भावना है जिसे.',
+          hint: 'यदि अटके तो **पात्र-चित्रण: नायक (c11_hin_ar_cbse_01_004)** के \'चरित्र विकास क्रम\'.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'शीर्षक को ही मुख्य विषय मान लेते हैं\'** या **\'किसी एक पात्र के एक संवाद को लेखक का.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why Vyaksihnhu refuses the government job offered by Oakh/J, and what this refusal reveals about the story\'s message.', answer: 'Vyaksihnhu refuses',
-                  options: ['Vyaksihnhu refuses', 'patriotism', 'freedom struggle', 'the primary theme is simply "patriotism" or "freedom struggle'],
-                  hint: 'If stuck, review the character analysis of Vyaksihnhu (node 004) and the plot structure (node 002).',
-                  misconception: 'Students often think the primary theme is simply "patriotism" or "freedom struggle." They miss that the story is equally about what.' },
-                { id: 'b', prompt: 'Analyze how the setting (colonial prison, government office) and the supporting character (Oakh/J) function together to sharpen the primary theme.', answer: 'The colonial setting embodies systemic oppression',
-                  options: ['The colonial setting embodies systemic oppression', 'patriotism', 'freedom struggle', 'treats setting as mere backdrop misses its thematic role'],
-                  hint: 'If stuck, review the character analysis of Vyaksihnhu (node 004) and the plot structure (node 002).',
-                  misconception: 'Students often think the primary theme is simply "patriotism" or "freedom struggle." They miss that the story is equally about what.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय विचार या मूल भावना है जिसे लेखक',
+                  options: ['मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय विचार या मूल भावना है जिसे लेखक', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
+                  hint: 'यदि अटके तो **पात्र-चित्रण: नायक (c11_hin_ar_cbse_01_004)** के \'चरित्र विकास क्रम\' (Character Arc).',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'शीर्षक को ही मुख्य विषय मान लेते हैं\'** या **\'किसी एक पात्र के एक संवाद को लेखक का अंतिम संदेश मान लेते.' }
           ],
-            remediations: { 'the-primary-theme-is-simply': { steps: ['Re-read the epigraphs at the start of the chapter—they define education and literature\'s role.', 'Map each major scene to a question: "What does this scene teach about the cost of conscience?" 3.', 'Compare Vyaksihnhu and Oakh/J as foil characters representing two philosophies.', 'Write a one-sentence theme statement using the formula: "The story argues that [abstract idea] because [evidence]."'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**पुनर्पाठ (Re-read) कराएं:** छात्र से कहें — "पाठ के **अंतिम तीन पैराग्राफ** दोबारा पढ़ो और बताओ: लेखक यहाँ नायक के.', 'नायक क्या *महसूस* कर रहा है?', '**द्विआधारी तालिका (Binary Table) बनवाएं:** दो कॉलम बनाएं — \'पात्र के संवाद/विचार\' और \'लेखक का संकेत/व्यंग्य/पुष्टि\'।.', '**विषय-वाक्य लेखन अभ्यास:** छात्र से कहें — "विषय को एक संज्ञा (जैसे \'त्याग\') में न लिखो। एक पूर्ण वाक्य लिखो जिसमें.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

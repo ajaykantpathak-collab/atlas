@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch15_p3: SimDef = {
     id: 'v3_c11_hin_ar_ch15_p3',
-    title: 'eerk dkfy;k · Part 3/3',
+    title: 'पाठ 15 · Part 3/3',
     subtitle: 'Watch a poem dismantle your definitions before it offers its own.',
-    classLevel: 11, subject: 'hin_ar', topic: 'eerk dkfy;k · Part 3/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 15 · Part 3/3',
     chapters: ['c11_hin_ar_ch15'],
     nodeIds: ['c11_hin_ar_cbse_15_013', 'c11_hin_ar_cbse_15_014', 'c11_hin_ar_cbse_15_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,35 +19,20 @@ export const c11_hin_ar_ch15_p3: SimDef = {
         hook: 'The refrain flips at the fourth stanza — \'not this\' becomes \'this is the most dangerous\' — and the imagery turns from home\'s warmth to a worker\'s weary feet.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of examining a text\'s explicit and implicit meanings by evaluating evidence, identifying underlying assumptions, and synthesizing.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 15 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों, भाषा-प्रयोगों और संरचना को व्यवस्थित ढंग से परखकर, उनके परस्पर संबंध और निहितार्थ (implications) स्पष्ट करने की प्रक्रिया है; विश्लेषण.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_15_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Find the stanza where negation flips to assertion, then weigh the title\'s provocation — \'the smallest is not the smallest\' — against 1980s hill migration.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a detective examining a crime scene where the "crime" is the normalization of injustice.',
-            decisions: [{ prompt: 'What is the central metaphor of the poem "Sabse Khatarnak" and how does the poet define it in the opening lines?', options: [
-                { text: 'The central metaphor is "the most dangerous thing" (sabse khatarnak), defined not as', outcome: 'The central metaphor is "the most dangerous thing" (sabse khatarnak), defined not as physical.' },
-                { text: 'the most dangerous thing', outcome: 'Not quite — Students often treat "critical thinking" as "finding faults" or "disagreeing with the poet.".', reveals: 'students-often-treat-critical-thinking' },
-                { text: 'not feeling the heat of injustice', outcome: 'Not quite — Students often treat "critical thinking" as "finding faults" or "disagreeing with the poet.".', reveals: 'students-often-treat-critical-thinking' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the question asks: "कविता में विस्थापन की पीड़ा को कवि ने कैसे व्यक्त किया है?" You know the poem but your mind.',
-            decisions: [{ prompt: 'What does the acronym PEEL stand for in structured answer writing?', options: [
-                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
-                { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe that writing a detailed summary of the poem with a few quoted lines constitutes.', reveals: 'writing-a-detailed-summary-of' },
-                { text: 'lack logical flow', outcome: 'Not quite — Students believe that writing a detailed summary of the poem with a few quoted lines constitutes.', reveals: 'writing-a-detailed-summary-of' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a classroom circle and the teacher asks, "What does the poet mean by \'the most terrifying\'?" You might feel unsure where to start.',
-            decisions: [{ prompt: 'What is the primary purpose of a literary discussion in a Class 11 Hindi classroom?', options: [
-                { text: 'The primary purpose is to collaboratively explore multiple interpretations of a text,', outcome: 'The primary purpose is to collaboratively explore multiple interpretations of a text, deepen.' },
-                { text: 'to find the single correct meaning the teacher expects', outcome: 'Not quite — Students often think a literary discussion is a debate where they must \'win\' by proving their.', reveals: 'a-literary-discussion-is-a' }
-            ] }] } },
+        labels: ['पाठ 15 — आलोचनात्मक', 'पाठ 15 — लेखन', 'पाठ 15 — वाचन-श्रवण'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_15_014', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 15 · Part 3/3', spots: [
+            { id: 's1', label: '15 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह विधि है जिसमें किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंशों.', answer: '15 -', options: ['15 -', '15 - -'] },
+            { id: 's2', label: '15 - -', prompt: 'Which idea is this? — चर्चा-बिंदु वे पूर्व-निर्धारित विषय या प्रश्न होते हैं जो पाठ के वाचन-श्रवण के बाद.', answer: '15 - -', options: ['15 - -', '15 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_15_013', title: 'Use it in the wild',
           caseStudy: { intro: 'At a kavi sammelan themed on migration, someone offers \'Laguta Sabse Chhoti Nahin Hoti\' but introduces it as \'a gentle poem about how small people also matter — mothers\' love, fathers\' laps, childhood warmth.\'',
             decisions: [{ prompt: 'What is the poem actually arguing, and how is it built?', options: [
@@ -62,43 +47,43 @@ export const c11_hin_ar_ch15_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of examining.',
-          hint: 'If stuck, review the distinction between "symbol" (a thing representing another) and.',
-          misconception: 'Students often treat "critical thinking" as "finding faults" or "disagreeing with the poet." In this poem, they may.',
+          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों, भाषा-प्रयोगों और.',
+          hint: 'यदि अटके तो **नोड 15_008 और 15_009** (बिंब/रूपक व विरोधाभास/प्रतीक) के कार्याभ्यास.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "आलोचनात्मक चिंतन = पाठ में कमियाँ निकालना (fault-finding)" या "अपनी निजी राय लिख.',
           parts: [
-                { id: 'a', prompt: 'Apply the concept of "false consciousness" to interpret the lines: "ghar se nikalna kaam par / aur kaam se ghar aana" (leaving home for work and returning from.', answer: 'The routine embodies false consciousness',
-                  options: ['The routine embodies false consciousness', 'it shows hard work is dangerous', 'it describes a daily schedule'],
-                  hint: 'If stuck, review the distinction between "symbol" (a thing representing another) and "conceit" (an.',
-                  misconception: 'Students often treat "critical thinking" as "finding faults" or "disagreeing with the poet." In this poem, they may argue "Paash is too.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों, भाषा-प्रयोगों और संरचना को',
+                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों, भाषा-प्रयोगों और संरचना को', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि अटके तो **नोड 15_008 और 15_009** (बिंब/रूपक व विरोधाभास/प्रतीक) के कार्याभ्यास (worked.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "आलोचनात्मक चिंतन = पाठ में कमियाँ निकालना (fault-finding)" या "अपनी निजी राय लिख देना"।.' }
           ],
-            remediations: { 'students-often-treat-critical-thinking': { steps: ['Ask the student to list three things they do every day without thinking (e.g., scrolling phone, commuting, saying "I\'m.', 'Have them write one sentence explaining how each routine might serve a system they oppose.', 'Return to the poem and map each of Paash\'s examples (work routine, reading newspaper, watching sunset) to this new list.', 'Finally, rewrite their "disagreement" as an analytical question: "What structural purpose does the poet\'s refusal.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'fault-finding': { steps: ['**पुनः परिभाषा स्पष्ट करें:** छात्र से कहें — "आलोचनात्मक चिंतन का अर्थ \'निंदा\' नहीं, \'विवेचन\' है। जैसे डॉक्टर रोगी की.', '**माइक्रो-अभ्यास कराएँ:** पाठ 15 का एक छोटा अंश (3-4 वाक्य) दें और केवल **एक** युक्ति (जैसे: अनुप्रास, विरोधाभास.', '**PEEL ढाँचा जबरन लागू करवाएँ:** हर उत्तर में चार वाक्य अनिवार्य करें — (Point) "लेखक ने X युक्ति प्रयुक्त की है".', '**सहकर्मी समीक्षा (peer review):** दो छात्रों के उत्तर बदलवाएँ और पूछें: "क्या तुम्हारे साथी ने **साक्ष्य से अर्थ तक की.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refer to the ability to compose structured.',
-          hint: 'Review the Theme nodes (006, 007) and Literary Devices nodes (008, 009) to refresh.',
-          misconception: 'Students believe that writing a detailed summary of the poem with a few quoted lines constitutes a good analytical.',
+          question: 'पाठ-आधारित लेखन कौशल वह विधि है जिसमें किसी साहित्यिक पाठ (गद्य/पद्य) के.',
+          hint: 'यदि फँसें तो c11_hin_ar_cbse_15_013 (आलोचनात्मक चिंतन) के "प्रश्न-प्रकार पहचानना" और.',
+          misconception: 'विद्यार्थी समझते हैं कि **पाठ का सारांश (summary) लिख देना ही पाठ-आधारित उत्तर है**। वे प्रश्न के "कैसे/क्यों".',
           parts: [
-                { id: 'a', prompt: 'What does the acronym PEEL stand for in structured answer writing?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
-                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explanation, Line', 'lack logical flow'],
-                  hint: 'Review the Theme nodes (006, 007) and Literary Devices nodes (008, 009) to refresh thematic and.',
-                  misconception: 'Students believe that writing a detailed summary of the poem with a few quoted lines constitutes a good analytical answer.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह विधि है जिसमें किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंशों,',
+                  options: ['पाठ-आधारित लेखन कौशल वह विधि है जिसमें किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंशों,', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि फँसें तो c11_hin_ar_cbse_15_013 (आलोचनात्मक चिंतन) के "प्रश्न-प्रकार पहचानना" और "प्रमाण-चयन".',
+                  misconception: 'विद्यार्थी समझते हैं कि **पाठ का सारांश (summary) लिख देना ही पाठ-आधारित उत्तर है**। वे प्रश्न के "कैसे/क्यों" (how/why) को नज़रअंदाज़ करके.' }
           ],
-            remediations: { 'writing-a-detailed-summary-of': { steps: ['Show the student a model 5-mark answer with each PEEL component highlighted in different colors.', 'Give a new question and ask them to write *only* the Point sentence.', 'Ask them to add two Evidence lines from the poem.', 'Guide them to write Explanation for each evidence: "यह पंक्ति दर्शाती है कि..." 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'summary-how-why-what-happened': { steps: ['**पहचान:** विद्यार्थी से कहो — "अपना उत्तर पढ़ो और हर वाक्य के आगे पूछो: *क्या यह पाठ से प्रमाण दे रहा है?', 'क्या यह बता रहा है कि प्रमाण मेरे कथन को कैसे सिद्ध करता है?*" 2.', '**रंग-कोडिंग:** दो रंगों के पेन से — **नीला** = Point/Link (अपने शब्द), **लाल** = Evidence (पाठ के शब्द), **हरा**.', '**माइक्रो-अभ्यास:** एक छोटे अंश (5-6 पंक्ति) पर केवल **Explanation** लिखने का अभ्यास कराओ — "यह पंक्ति दर्शाती है कि...'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck, review the imagery and metaphor analysis (c11_hin_ar_cbse_15_008) and theme.',
-          misconception: 'Students often think a literary discussion is a debate where they must \'win\' by proving their interpretation.',
+          question: 'चर्चा-बिंदु वे पूर्व-निर्धारित विषय या प्रश्न होते हैं जो पाठ के वाचन-श्रवण के.',
+          hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_15_006 (मुख्य विषय और संदेश) और.',
+          misconception: 'छात्र अक्सर समझते हैं कि चर्चा-बिंदु का अर्थ है \'शिक्षक द्वारा पूछे गए प्रश्नों के सही उत्तर देना\'। वे चर्चा को एकतरफा.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why the poet says "esgur dh ywV lcls [krjukd ugha gksrh" (the burning of the pyre is not the most terrifying) and what this suggests.', answer: 'The poet rejects conventional fears (death, physical pain) to highlight a deeper',
-                  options: ['The poet rejects conventional fears (death, physical pain) to highlight a deeper', 'fire is scary', 'lists literal fears (e'],
-                  hint: 'If stuck, review the imagery and metaphor analysis (c11_hin_ar_cbse_15_008) and theme analysis.',
-                  misconception: 'Students often think a literary discussion is a debate where they must \'win\' by proving their interpretation is correct.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'चर्चा-बिंदु वे पूर्व-निर्धारित विषय या प्रश्न होते हैं जो पाठ के वाचन-श्रवण के बाद',
+                  options: ['चर्चा-बिंदु वे पूर्व-निर्धारित विषय या प्रश्न होते हैं जो पाठ के वाचन-श्रवण के बाद', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                  hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_15_006 (मुख्य विषय और संदेश) और c11_hin_ar_cbse_15_013.',
+                  misconception: 'छात्र अक्सर समझते हैं कि चर्चा-बिंदु का अर्थ है \'शिक्षक द्वारा पूछे गए प्रश्नों के सही उत्तर देना\'। वे चर्चा को एकतरफा प्रश्नोत्तरी (quiz).' }
           ],
-            remediations: { 'a-literary-discussion-is-a': { steps: ['If a student dominates discussion without listening, pause the activity and model \'building language\': "I heard [peer].', 'That connects to line Y because..." Then assign a \'listener role\' where the student must paraphrase three peers\' points.', 'Practice this in small groups with a structured protocol (e.g., \'Save the Last Word for Me\') to internalize listening.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'quiz-objective-questions-15': { steps: ['चरण 1: छात्र को स्पष्ट करें कि चर्चा-बिंदु का कोई \'एक सही उत्तर\' नहीं होता — यह एक **खुला आमंत्रण** है तर्क-वितर्क का।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

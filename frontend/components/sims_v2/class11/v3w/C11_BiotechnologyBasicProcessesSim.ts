@@ -125,11 +125,11 @@ export const w_c11_biotechnologybasicprocessessim: SimDef = {
           hint: 'Review Class 10 Chemistry: c10_chem_cbse_04_001 (Covalent Bonding) and.',
           misconception: 'Students often believe: (1) The peptide bond forms between the carboxyl group of one amino acid and the **R-group**.',
           parts: [
-                { id: 'a', prompt: 'Write the general structural formula of an α-amino acid. Label the α-carbon, the amino group, the carboxyl group, and the R-group.', answer: 'Correct answer: General formula: H₂N–CH(R)–COOH',
+                { id: 'a', prompt: 'Write the general structural formula of an α-amino acid. Label the α-carbon, the amino group, the carboxyl group, and the R-group.', answer: 'General formula: H₂N–CH(R)–COOH',
                   options: ['Correct answer: General formula: H₂N–CH(R)–COOH', '–COOH + –NH₂'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe: (1) The peptide bond forms between the carboxyl group of one amino acid and the **R-group** (side chain) of.' },
-                { id: 'b', prompt: 'Given the amino acids Alanine (Ala, R=–CH₃) and Serine (Ser, R=–CH₂OH), draw the two possible dipeptides (Ala-Ser and Ser-Ala).', answer: 'Correct answer: - Ala-Ser: N-terminal = Ala, C-terminal = Ser',
+                { id: 'b', prompt: 'Given the amino acids Alanine (Ala, R=–CH₃) and Serine (Ser, R=–CH₂OH), draw the two possible dipeptides (Ala-Ser and Ser-Ala).', answer: '- Ala-Ser: N-terminal = Ala, C-terminal = Ser',
                   options: ['Correct answer: - Ala-Ser: N-terminal = Ala, C-terminal = Ser', '–COOH + –NH₂'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe: (1) The peptide bond forms between the carboxyl group of one amino acid and the **R-group** (side chain) of.' }
@@ -140,7 +140,7 @@ export const w_c11_biotechnologybasicprocessessim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often believe: (1) The peptide bond forms between the carboxyl group of one amino acid and the **R-group**.',
           parts: [
-                { id: 'a', prompt: 'A student states: "Peptide bond formation is a hydrolysis reaction because water is produced." Evaluate this claim. Is the student correct?', answer: 'Correct answer: The student is incorrect',
+                { id: 'a', prompt: 'A student states: "Peptide bond formation is a hydrolysis reaction because water is produced." Evaluate this claim. Is the student correct?', answer: 'The student is incorrect',
                   options: ['Correct answer: The student is incorrect', '–COOH + –NH₂'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe: (1) The peptide bond forms between the carboxyl group of one amino acid and the **R-group** (side chain) of.' }

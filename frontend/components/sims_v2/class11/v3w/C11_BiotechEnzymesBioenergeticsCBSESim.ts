@@ -16,7 +16,7 @@ export const w_c11_biotechenzymesbioenergeticscbsesim: SimDef = {
     discovery: {
         question: 'State the two mitochondrial compartments where the TCA cycle enzymes and the electron transport chain complexes are respectively located, and name the membrane.',
         options: ['Correct answer: TCA cycle enzymes are in the mitochondrial matrix', 'mitochondria = ATP', 'ATP is synthesised in the mitochondrial matrix'],
-        answer: 'Correct answer: TCA cycle enzymes are in the mitochondrial matrix',
+        answer: 'TCA cycle enzymes are in the mitochondrial matrix',
         hook: 'Students believe ATP is synthesised in the mitochondrial matrix because the TCA cycle occurs there.',
     },
     teaching: [
@@ -88,7 +88,7 @@ export const w_c11_biotechenzymesbioenergeticscbsesim: SimDef = {
           hint: 'Revisit Class 10 node c10_bio_cbse_01_007 (Respiration: Aerobic vs Anaerobic and Energy.',
           misconception: 'Students believe ATP is synthesised in the mitochondrial matrix because the TCA cycle occurs there.',
           parts: [
-                { id: 'a', prompt: 'State the two mitochondrial compartments where the TCA cycle enzymes and the electron transport chain complexes are respectively located, and name the membrane.', answer: 'Correct answer: TCA cycle enzymes are in the mitochondrial matrix',
+                { id: 'a', prompt: 'State the two mitochondrial compartments where the TCA cycle enzymes and the electron transport chain complexes are respectively located, and name the membrane.', answer: 'TCA cycle enzymes are in the mitochondrial matrix',
                   options: ['Correct answer: TCA cycle enzymes are in the mitochondrial matrix', 'mitochondria = ATP', 'ATP is synthesised in the mitochondrial matrix'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe ATP is synthesised in the mitochondrial matrix because the TCA cycle occurs there.' },

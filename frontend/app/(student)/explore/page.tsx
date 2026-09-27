@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { PrismLogo } from '@/components/prism/PrismLogo';
+import { useAuthStore } from '@/stores/authStore';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowLeft,
@@ -83,7 +84,14 @@ const DAMPING = 0.82;
 /* ------------------------------------------------------------------ */
 
 export default function KnowledgeGraphExplorerPage() {
-  const [classLevel, setClassLevel] = useState<number>(10);
+  const user = useAuthStore((s) => s.user);
+  // CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 1): this was useState(10) and
+  // never read the signed-in student — every fresh signup explored a Class-10
+  // graph (Photosynthesis → IUPAC nomenclature) no matter their class. Start
+  // neutral; once the auth store rehydrates (AFTER first render), adopt the
+  // student's own class_level unless they explicitly picked another.
+  const [classLevel, setClassLevel] = useState<number>(0);
+  const classTouchedRef = useRef<boolean>(false);
   const [activeSubject, setActiveSubject] = useState<string | null>(null);
   const [graphData, setGraphData] = useState<GraphData>({ nodes: [], links: [] });
   const [loading, setLoading] = useState<boolean>(true);
@@ -108,11 +116,22 @@ export default function KnowledgeGraphExplorerPage() {
   const degreeRef = useRef<Map<string | number, number>>(new Map());
 
   /* -------------------------------------------------------------- */
-  /* Fetch graph data                                               */
+  /* Auth hydration sync + fetch graph data                         */
   /* -------------------------------------------------------------- */
 
+  // Once the signed-in student's own class lands in the store, adopt it
+  // unless the child already chose a class themselves.
   useEffect(() => {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001';
+    if (classTouchedRef.current) return;
+    const own = Number((user as { class_level?: number } | null)?.class_level);
+    if (own >= 1 && own <= 12) {
+      setClassLevel((prev) => (prev === own ? prev : own));
+    }
+  }, [user]);
+
+  useEffect(() => {
+    if (!classLevel) return; // wait for hydration — never fetch class 0
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || '';
     let url = `${apiUrl}/api/nodes/graph?class_level=${classLevel}&limit=300`;
     if (activeSubject) {
       url += `&subject=${activeSubject}`;
@@ -448,15 +467,22 @@ export default function KnowledgeGraphExplorerPage() {
         </div>
 
         <div className="glass-card flex items-center gap-2 rounded-xl px-3 py-2">
-          <label className="text-xs font-medium text-white/60">Class</label>
+          <label htmlFor="explore-class-picker" className="text-xs font-medium text-white/60">Class</label>
           <select
-            value={classLevel}
-            onChange={(e) => setClassLevel(Number(e.target.value))}
+            id="explore-class-picker"
+            value={classLevel || ''}
+            onChange={(e) => {
+              classTouchedRef.current = true;
+              setClassLevel(Number(e.target.value));
+            }}
             className="bg-transparent text-sm font-semibold text-white outline-none [&>option]:bg-slate-900"
           >
+            {!classLevel && (
+              <option value="" className="bg-slate-900">Class…</option>
+            )}
             {Array.from({ length: 12 }, (_, i) => i + 1).map((lvl) => (
-              <option key={lvl} value={lvl}>
-                {lvl}
+              <option key={lvl} value={lvl} className="bg-slate-900">
+                Class {lvl}
               </option>
             ))}
           </select>
@@ -478,7 +504,9 @@ export default function KnowledgeGraphExplorerPage() {
             <div>
               <h1 className="text-2xl font-bold text-white">Knowledge Graph</h1>
               <p className="text-sm text-white/50">
-                {graphData.nodes.length} nodes · {graphData.links.length} links
+                {classLevel
+                  ? `Class ${classLevel} · ${graphData.nodes.length} topics · ${graphData.links.length} connections`
+                  : 'Choosing your class…'}
               </p>
             </div>
           </div>
@@ -519,7 +547,7 @@ export default function KnowledgeGraphExplorerPage() {
         style={{ height: 'calc(100vh - 200px)' }}
       >
         <AnimatePresence mode="wait">
-          {loading ? (
+          {loading || !classLevel ? (
             <motion.div
               key="loading"
               initial={{ opacity: 0 }}
@@ -529,7 +557,11 @@ export default function KnowledgeGraphExplorerPage() {
             >
               <div className="glass-card flex flex-col items-center gap-4 rounded-2xl px-10 py-12">
                 <Loader2 className="h-8 w-8 animate-spin text-brand-400" />
-                <p className="text-sm text-white/60">Building knowledge graph…</p>
+                <p className="text-sm text-white/60">
+                  {classLevel
+                    ? `Drawing the Class ${classLevel} map…`
+                    : 'Choosing your class…'}
+                </p>
               </div>
             </motion.div>
           ) : graphData.nodes.length === 0 ? (

@@ -109,6 +109,10 @@ export type AskResponse = {
   socratic?: string | null;
   source?: string;
   topic?: string;
+  /** Doubt→Story bridge: the question resolved to a real corpus node,
+   *  so the answer carries its verified Story Mode deep link
+   *  (/learn/<node>/story). Absent when nothing resolved — never fake. */
+  story_url?: string | null;
 };
 
 export type SubjectProgress = {
@@ -153,6 +157,30 @@ export function tutorStudentId(): string {
   return "guest";
 }
 
+/**
+ * The signed-in student's class (1-12), or null when unknown.
+ * Reads the persisted auth store ("dream-auth" — the same source the
+ * auth hydration uses). Ask payloads carry this as class_level so the
+ * backend's teach lane searches ONLY the student's own class — the
+ * GRADE-MAP fix for cross-class doubt misrouting.
+ */
+export function tutorUserClassLevel(): number | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = window.localStorage.getItem("dream-auth");
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as {
+      state?: { user?: { class_level?: unknown; classLevel?: unknown } | null };
+      user?: { class_level?: unknown; classLevel?: unknown } | null;
+    };
+    const user = parsed?.state?.user ?? parsed?.user ?? null;
+    const v = Number(user?.class_level ?? user?.classLevel);
+    return Number.isFinite(v) && v >= 1 && v <= 12 ? v : null;
+  } catch {
+    return null;
+  }
+}
+
 export function tutorHeaders(json = false): Record<string, string> {
   const headers: Record<string, string> = {};
   const token = tutorAuthToken();
@@ -173,7 +201,21 @@ export function tutorHeaders(json = false): Record<string, string> {
  */
 export function sanitizeTutorText(raw: string): string {
   if (!raw) return "";
-  let s = String(raw);
+  // [object Object] guard (GRADE-MAP P1): backend fields rendered here
+  // (socratic, answer, steps) can arrive as structured objects
+  // (multi-hop verdicts, concept-guidance dicts) — String()-coercing
+  // those put the literal "[object Object]" into student-visible
+  // replies. Only genuine strings (or an object carrying a usable
+  // text/hint string) survive; everything else renders as nothing.
+  let value: unknown = raw;
+  if (typeof value !== "string") {
+    const obj = value as { text?: unknown; hint?: unknown } | null;
+    const inner =
+      obj && typeof obj === "object" ? obj.text ?? obj.hint : undefined;
+    value = typeof inner === "string" ? inner : "";
+  }
+  if (!value) return "";
+  let s = value as string;
   // explicit authoring tags
   s = s.replace(/\b(TOPIC_TAG|ANSWER_TAG|QUESTION_TAG|HINT_TAG)\b/g, "");
   // "ANSWER:" / "TOPIC:" style field labels at line starts

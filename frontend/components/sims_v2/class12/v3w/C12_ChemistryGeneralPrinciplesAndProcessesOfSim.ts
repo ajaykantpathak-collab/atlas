@@ -150,7 +150,7 @@ export const w_c12_chemistrygeneralprinciplesandprocessesofsim: SimDef = {
           hint: 'If stuck, review the redox cycle for V₂O₅ in Contact process (node 006) and the alloy.',
           misconception: 'Students often think "all transition metals are good catalysts" and write generic statements like "Fe catalyzes all.',
           parts: [
-                { id: 'a', prompt: 'Name three transition metals used as catalysts in industrial processes and write the name of the process for each.', answer: 'Correct answer: Vanadium(V) oxide (V₂O₅) in the Contact process for H₂SO₄',
+                { id: 'a', prompt: 'Name three transition metals used as catalysts in industrial processes and write the name of the process for each.', answer: 'Vanadium(V) oxide (V₂O₅) in the Contact process for H₂SO₄',
                   options: ['Correct answer: Vanadium(V) oxide (V₂O₅) in the Contact process for H₂SO₄', 'all transition metals are good catalysts', 'Fe catalyzes all reactions'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "all transition metals are good catalysts" and write generic statements like "Fe catalyzes all reactions." The.' },

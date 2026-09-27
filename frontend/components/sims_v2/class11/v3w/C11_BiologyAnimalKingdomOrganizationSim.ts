@@ -215,11 +215,11 @@ export const w_c11_biologyanimalkingdomorganizationsim: SimDef = {
           hint: 'Review the coelom types in node c11_bio_cbse_04_001 and the flatworm features in node.',
           misconception: 'Students often think "pseudocoelom" means "false coelom" in the sense of being non-functional or a degenerate trait,.',
           parts: [
-                { id: 'a', prompt: 'State the three germ layers present in Aschelminthes and name the body cavity type they possess.', answer: 'Correct answer: Ectoderm, mesoderm, endoderm (triploblastic)',
+                { id: 'a', prompt: 'State the three germ layers present in Aschelminthes and name the body cavity type they possess.', answer: 'Ectoderm, mesoderm, endoderm (triploblastic)',
                   options: ['Correct answer: Ectoderm, mesoderm, endoderm (triploblastic)', 'diploblastic', 'acoelomate'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "pseudocoelom" means "false coelom" in the sense of being non-functional or a degenerate trait, and therefore assume.' },
-                { id: 'b', prompt: 'A cylindrical worm is found in a soil sample. It has a complete digestive system with a muscular pharynx, an excretory pore, and separate sexes.', answer: 'Correct answer: Phylum Aschelminthes',
+                { id: 'b', prompt: 'A cylindrical worm is found in a soil sample. It has a complete digestive system with a muscular pharynx, an excretory pore, and separate sexes.', answer: 'Phylum Aschelminthes',
                   options: ['Correct answer: Phylum Aschelminthes', 'Annelida because it has a body cavity', 'pseudocoelom'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "pseudocoelom" means "false coelom" in the sense of being non-functional or a degenerate trait, and therefore assume.' }
@@ -230,7 +230,7 @@ export const w_c11_biologyanimalkingdomorganizationsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think "pseudocoelom" means "false coelom" in the sense of being non-functional or a degenerate trait,.',
           parts: [
-                { id: 'a', prompt: 'Evaluate this statement: "All Aschelminthes are parasitic worms causing human disease." Provide two counter-examples from the phylum.', answer: 'Correct answer: The statement is false',
+                { id: 'a', prompt: 'Evaluate this statement: "All Aschelminthes are parasitic worms causing human disease." Provide two counter-examples from the phylum.', answer: 'The statement is false',
                   options: ['Correct answer: The statement is false', 'true, all are parasites', 'pseudocoelom', 'false coelom'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "pseudocoelom" means "false coelom" in the sense of being non-functional or a degenerate trait, and therefore assume.' },

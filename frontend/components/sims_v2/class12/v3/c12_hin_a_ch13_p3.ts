@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch13_p3: SimDef = {
     id: 'v3_c12_hin_a_ch13_p3',
-    title: 'Hkh"e lkguh · Part 3/3',
+    title: 'गांधी, नेहरू और यासरि अराफ़ात · Part 3/3',
     subtitle: '1938: the revolutionaries who still knew how to laugh',
-    classLevel: 12, subject: 'hin_a', topic: 'Hkh"e lkguh · Part 3/3',
+    classLevel: 12, subject: 'hin_a', topic: 'गांधी, नेहरू और यासरि अराफ़ात · Part 3/3',
     chapters: ['c12_hin_a_ch13'],
     nodeIds: ['c12_hin_a_cbse_13_013', 'c12_hin_a_cbse_13_014', 'c12_hin_a_cbse_13_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,36 +19,15 @@ export const c12_hin_a_ch13_p3: SimDef = {
         hook: 'The year is precise — 1938, pre-Quit India, not the famous 1942. And the language carries the era: Marathi-inflected Hindi, short colloquial sentences, dialogue over description. Personal memory and national history are woven on the same loom.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of examining a text\'s explicit and implicit meanings by evaluating evidence, identifying patterns, questioning assumptions, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'गांधी, नेहरू और यासरि अराफ़ात — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें कोई पाठ को पढ़कर उसके विषय, पात्रों, लेखक के दृष्टिकोण और सामाजिक संदर्भ का विश्लेषण करता है, तर्क देता है और अपनी व्याख्या प्रस्तुत करता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_13_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Sit in a 1938 Nagpur room: weigh Sakharam\'s warmth against his revolution, separate the provisional government\'s claim from the British one, and hear how colloquial prose carries lived history.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_13_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the question asks: "How does Khaleel use the friendship between Khaleel, Usg, and Kalyan Singh to comment.',
-            decisions: [{ prompt: 'Define "critical interpretation" in the context of Class 12 Hindi prose analysis. How does it differ from literal comprehension?', options: [
-                { text: 'Critical interpretation requires evaluating *how* the text constructs meaning through', outcome: 'Critical interpretation requires evaluating *how* the text constructs meaning through authorial.' },
-                { text: 'personal opinion', outcome: 'Not quite — Students believe "critical analysis" means finding *hidden meanings* the author secretly buried,.', reveals: 'critical-analysis-means-finding-hidden' },
-                { text: 'summary with adjectives', outcome: 'Not quite — Students believe "critical analysis" means finding *hidden meanings* the author secretly buried,.', reveals: 'critical-analysis-means-finding-hidden' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_13_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall and the question reads: "Analyze how ;kLlsj vjkI+kQkr\'s imprisonment scene reveals the chapter\'s concept of nationalism." You.',
-            decisions: [{ prompt: 'What are the four components of the PEEL structure used for writing literature answers in CBSE Class 12 Hindi Core, and what specific.', options: [
-                { text: 'The four components are: **Point**', outcome: 'The four components are: **Point** — one-sentence direct answer to the question (e.g., "vjkI+kQkr.' },
-                { text: 'Introduction, Body, Conclusion', outcome: 'Not quite — **Students believe "good writing" in literature answers means flowery vocabulary, long sentences.', reveals: 'students-believe-good-writing-in' },
-                { text: 'good writing', outcome: 'Not quite — **Students believe "good writing" in literature answers means flowery vocabulary, long sentences.', reveals: 'students-believe-good-writing-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_13_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in an ASL exam and the examiner asks: "How does the woodcutter story reflect partition trauma?" Don\'t summarize the plot.',
-            decisions: [{ prompt: 'List three discussion topics from "xkaèkh, usg: vkSj ;kLlsj vjkI+kQkr" that are suitable for ASL assessment, moving beyond plot summary.', options: [
-                { text: 'Strong topics: (1) "How does Shakun\'s newspaper-reading routine function as quiet', outcome: 'Strong topics: (1) "How does Shakun\'s newspaper-reading routine function as quiet resistance.' },
-                { text: 'In what ways does the woodcutter story (ck', outcome: 'Not quite — Students prepare plot summaries as discussion points. They think "knowing the story" equals.', reveals: 'students-prepare-plot-summaries-as' },
-                { text: 'A wrong answer listing', outcome: 'Not quite — Students prepare plot summaries as discussion points. They think "knowing the story" equals.', reveals: 'students-prepare-plot-summaries-as' }
-            ] }] } },
+        labels: ['गांधी, नेहरू और यासरि'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_13_013', title: 'Use it in the wild',
           caseStudy: { intro: 'A senior who documented a student protest movement now calls it \'my movement, my story\' — editing out the grassroots workers whose songs and sacrifices built it, and ending every retelling on his own reflection.',
             decisions: [{ prompt: 'What does Bhisham Sahni\'s memoir structure say to that?', options: [
@@ -63,66 +42,43 @@ export const c12_hin_a_ch13_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_13_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of examining.',
-          hint: 'If stuck, review **c12_hin_a_cbse_13_008** (imagery/metaphor) and **009**.',
-          misconception: 'Students believe "critical analysis" means finding *hidden meanings* the author secretly buried, so they invent symbols.',
+          question: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें कोई पाठ को पढ़कर उसके विषय, पात्रों.',
+          hint: 'पाठ का सारांश और मुख्य घटनाओं की समीक्षा करें - विशेष रूप से c12_hin_a_cbse_13_002 और.',
+          misconception: 'छात्र अक्सर आलोचनात्मक चिंतन को पाठ का केवल सारांश देना या अपने व्यक्तिगत विचार बताना मानते हैं, जैसे कि "मुझे लगता है.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis is the disciplined process of examining a text\'s',
-                  options: ['Critical thinking in literary analysis is the disciplined process of examining a text\'s', '"Before You Read: Context and Background" provides essential historical, biographical,', 'Plot and narrative structure refers to the organized sequence of events (plot) and the', 'Setting and atmosphere in prose refer to the physical, temporal, and social environment'],
-                  hint: 'If stuck, review **c12_hin_a_cbse_13_008** (imagery/metaphor) and **009** (irony/symbolism).',
-                  misconception: 'Students believe "critical analysis" means finding *hidden meanings* the author secretly buried, so they invent symbols (e.g., "the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें कोई पाठ को पढ़कर उसके विषय, पात्रों, लेखक के',
+                  options: ['आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें कोई पाठ को पढ़कर उसके विषय, पात्रों, लेखक के', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है किसी लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएँ होती हैं, जबकि आख्यान-संरचना वह ढाँचा है जिसमें', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक, राजनीतिक, और सांस्कृतिक परिस्थिति है जिसमें कोई पाठ'],
+                  hint: 'पाठ का सारांश और मुख्य घटनाओं की समीक्षा करें - विशेष रूप से c12_hin_a_cbse_13_002 और.',
+                  misconception: 'छात्र अक्सर आलोचनात्मक चिंतन को पाठ का केवल सारांश देना या अपने व्यक्तिगत विचार बताना मानते हैं, जैसे कि "मुझे लगता है कि गांधी सही थे".' }
           ],
-            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['Return to node **c12_hin_a_cbse_13_012** (Comprehension: Literal and Inferential Questions) and re-do the inferential.', 'Revisit **c12_hin_a_cbse_13_008** and **009** (Literary Devices): make a two-column table — Column A: device (irony.', 'Practice the "PEEL paragraph" structure (Point, Evidence, Explanation, Link) on one theme: communal harmony.', 'Write three PEEL paragraphs using only quotes from pages 92-94.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_13_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "critical analysis" means finding *hidden meanings* the author secretly buried, so they invent symbols.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "Khaleel\'s use of Urdu-inflected Hindi (e.g., \'fno~Q\', \'yCèkizfr"B\', \'lnjeqdke\') is merely decorative." Defend your judgment with textual.', answer: 'The claim is false',
-                  options: ['The claim is false', 'critical analysis', 'the *v[kckj* represents the British Empire', 'interpretation'],
-                  hint: 'If stuck, review **c12_hin_a_cbse_13_008** (imagery/metaphor) and **009** (irony/symbolism).',
-                  misconception: 'Students believe "critical analysis" means finding *hidden meanings* the author secretly buried, so they invent symbols (e.g., "the.' }
-          ],
-            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['Return to node **c12_hin_a_cbse_13_012** (Comprehension: Literal and Inferential Questions) and re-do the inferential.', 'Revisit **c12_hin_a_cbse_13_008** and **009** (Literary Devices): make a two-column table — Column A: device (irony.', 'Practice the "PEEL paragraph" structure (Point, Evidence, Explanation, Link) on one theme: communal harmony.', 'Write three PEEL paragraphs using only quotes from pages 92-94.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र इस गलती को दोहरा रहा है तो उससे कहिए कि वह अपने उत्तर को चार भागों में बाँटे: (1) बिंदु - वह क्या कहना चाहता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_13_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refers to the ability to compose.',
-          hint: 'If stuck on evidence selection, review c12_hin_a_cbse_13_002 (Plot) for incident.',
-          misconception: '**Students believe "good writing" in literature answers means flowery vocabulary, long sentences, and emotional.',
+          question: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र पाठ (काव्य, गद्य, नाटक) से.',
+          hint: 'यदि छात्र पाठ से संबंधित मुख्य विचार पहचानने में कठिनाई महसूस कर रहा है, तो उसे.',
+          misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित लेखन का अर्थ केवल प्रश्न के उत्तर में पाठ से एक वाक्य copy-paste करना है, जैसे.',
           parts: [
-                { id: 'a', prompt: 'What are the four components of the PEEL structure used for writing literature answers in CBSE Class 12 Hindi Core, and what specific function does each serve.', answer: 'The four components are: **Point**',
-                  options: ['The four components are: **Point**', 'Introduction, Body, Conclusion', 'good writing', 'pKk;drk'],
-                  hint: 'If stuck on evidence selection, review c12_hin_a_cbse_13_002 (Plot) for incident references and.',
-                  misconception: '**Students believe "good writing" in literature answers means flowery vocabulary, long sentences, and emotional language.** In reality.' },
-                { id: 'b', prompt: 'Using the PEEL structure, write a 4-sentence analytical paragraph answering: "How does the setting of the lnjeqdke cell (pp.', answer: '**Point:** The lnjeqdke cell operates as a **metaphoric microcosm** of inclusive',
-                  options: ['**Point:** The lnjeqdke cell operates as a **metaphoric microcosm** of inclusive', 'good writing', 'pKk;drk', 'lkQyu rkRi;Z'],
-                  hint: 'If stuck on evidence selection, review c12_hin_a_cbse_13_002 (Plot) for incident references and.',
-                  misconception: '**Students believe "good writing" in literature answers means flowery vocabulary, long sentences, and emotional language.** In reality.' },
-                { id: 'c', prompt: 'Compare how the chapter portrays "cultural patriotism" (xkaèkh th\'s preservation of folk memory, language, ritual) versus "revolutionary patriotism".', answer: '**Structural similarity:** Both are framed through **narrative recursion**',
-                  options: ['**Structural similarity:** Both are framed through **narrative recursion**', 'both love India', 'good writing', 'pKk;drk'],
-                  hint: 'If stuck on evidence selection, review c12_hin_a_cbse_13_002 (Plot) for incident references and.',
-                  misconception: '**Students believe "good writing" in literature answers means flowery vocabulary, long sentences, and emotional language.** In reality.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र पाठ (काव्य, गद्य, नाटक) से सीधे उद्धरण',
+                  options: ['पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र पाठ (काव्य, गद्य, नाटक) से सीधे उद्धरण', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है किसी लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएँ होती हैं, जबकि आख्यान-संरचना वह ढाँचा है जिसमें', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक, राजनीतिक, और सांस्कृतिक परिस्थिति है जिसमें कोई पाठ'],
+                  hint: 'यदि छात्र पाठ से संबंधित मुख्य विचार पहचानने में कठिनाई महसूस कर रहा है, तो उसे.',
+                  misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित लेखन का अर्थ केवल प्रश्न के उत्तर में पाठ से एक वाक्य copy-paste करना है, जैसे "गांधी जी ने कहा.' }
           ],
-            remediations: { 'students-believe-good-writing-in': { steps: ['** Return to **c12_hin_a_cbse_13_004** (Character Analysis: Protagonist) and **c12_hin_a_cbse_13_006** (Theme: Primary.', '** Extract ONE character trait from 004 (e.g., "xkaèkh th\'s loyalty") and ONE theme from 006 (e.g., "cultural.', '** Practice PEEL *only* on this trait-theme pair using Worked Example 1 as template — write 3 versions, each time.', '** Re-attempt Diagnostic Question 3. **'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'copy-paste': { steps: ['छात्र को दिखाइए कि एक बिंदु कैसे अधूरा रहता है यदि केवल उद्धरण दिया जाए: उदाहरण के लिए, यदि वे लिखते हैं "गांधी जी ने.', 'गांधी जी के बारे में हम क्या नया सीखते हैं?" फिर उन्हें निर्देश दीजिए कि वे इस उद्धरण के बाद जोड़ें: "इससे स्पष्ट होता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_13_015', difficulty: 'standard',
-          question: 'Speaking and Listening discussion points are structured conversation prompts.',
-          hint: 'If stuck, review character analysis (c12_hin_a_cbse_13_004, 005) and theme nodes.',
-          misconception: 'Students prepare plot summaries as discussion points. They think "knowing the story" equals "discussing the story.".',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ है पाठ को ध्यानपूर्वक सुनकर या पढ़कर उसके मुख्य.',
+          hint: 'यदि फंसा हो तो कक्षा 11 के किसी भी पाठ के \'पृष्ठभूमि और रचनाकार परिचय\' और \'पाठ्य-परिवेश.',
+          misconception: 'छात्र अक्सर मानते हैं कि गांधी, नेहरू और यासिर अराफ़ात के विचार एक जैसे हैं क्योंकि वे सभी \'शांति\' और \'स्वतंत्रता\' के.',
           parts: [
-                { id: 'a', prompt: 'Explain why "Shakun\'s silence about her past" is a richer discussion point than "Shakun\'s physical description" for an ASL response on character analysis.', answer: 'Physical description (appearance, clothing) yields closed, factual responses',
-                  options: ['Physical description (appearance, clothing) yields closed, factual responses', 'Both are character details'],
-                  hint: 'If stuck, review character analysis (c12_hin_a_cbse_13_004, 005) and theme nodes.',
-                  misconception: 'Students prepare plot summaries as discussion points. They think "knowing the story" equals "discussing the story." Example: A student says.' },
-                { id: 'b', prompt: 'Compare how Usga and Kalpana Vajpayee represent different responses to historical upheaval, using one textual detail for each woman that reveals her.', answer: 'Usga: Domestic storytelling as resistance',
-                  options: ['Usga: Domestic storytelling as resistance', 'अकेली पड़ गई थी'],
-                  hint: 'If stuck, review character analysis (c12_hin_a_cbse_13_004, 005) and theme nodes.',
-                  misconception: 'Students prepare plot summaries as discussion points. They think "knowing the story" equals "discussing the story." Example: A student says.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ है पाठ को ध्यानपूर्वक सुनकर या पढ़कर उसके मुख्य विचारों,',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु का अर्थ है पाठ को ध्यानपूर्वक सुनकर या पढ़कर उसके मुख्य विचारों,', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है किसी लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएँ होती हैं, जबकि आख्यान-संरचना वह ढाँचा है जिसमें', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक, राजनीतिक, और सांस्कृतिक परिस्थिति है जिसमें कोई पाठ'],
+                  hint: 'यदि फंसा हो तो कक्षा 11 के किसी भी पाठ के \'पृष्ठभूमि और रचनाकार परिचय\' और \'पाठ्य-परिवेश और वातावरण\'.',
+                  misconception: 'छात्र अक्सर मानते हैं कि गांधी, नेहरू और यासिर अराफ़ात के विचार एक जैसे हैं क्योंकि वे सभी \'शांति\' और \'स्वतंत्रता\' के लिए लड़े, और इस.' }
           ],
-            remediations: { 'students-prepare-plot-summaries-as': { steps: ['If student defaults to plot summary: (1) Interrupt gently: "That\'s what happens.', 'Now tell me what it *means* and *how* the author shows it." (2) Model conversion: Take their fact "Shakun read.', 'For each, ask: "What does this reveal about gender/partition/author\'s craft?" (4) Re-attempt the original discussion.', 'If still stuck, assign node c12_hin_a_cbse_13_013 (Critical Thinking) for evidence-to-argument practice.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र इस भ्रांति में फंसा हो, तो सबसे पहले उसे पाठ में दिए गए प्रत्येक नेता के विचारों को अलग-अलग पंक्तियों में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

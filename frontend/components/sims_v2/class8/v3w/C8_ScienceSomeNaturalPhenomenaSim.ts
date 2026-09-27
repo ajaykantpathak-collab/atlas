@@ -16,7 +16,7 @@ export const w_c8_sciencesomenaturalphenomenasim: SimDef = {
     discovery: {
         question: 'A student wonders, "Why do shadows change during the day?" Which of the following rewrites this as a focused, testable question for a Class 8 investigation?',
         options: ['Correct answer: B', 'more detailed', 'How does the *hot* temperature affect...?'],
-        answer: 'Correct answer: B',
+        answer: 'B',
         hook: 'Students believe a focused question is just a "more detailed" version of a broad question — they add adjectives ("How.',
     },
     teaching: [
@@ -94,7 +94,7 @@ export const w_c8_sciencesomenaturalphenomenasim: SimDef = {
           hint: 'Revisit Class 7 "Science as a Process: Asking Questions and Exploring".',
           misconception: 'Students believe a focused question is just a "more detailed" version of a broad question — they add adjectives ("How.',
           parts: [
-                { id: 'a', prompt: 'A student wonders, "Why do shadows change during the day?" Which of the following rewrites this as a focused, testable question for a Class 8 investigation?', answer: 'Correct answer: B',
+                { id: 'a', prompt: 'A student wonders, "Why do shadows change during the day?" Which of the following rewrites this as a focused, testable question for a Class 8 investigation?', answer: 'B',
                   options: ['Correct answer: B', 'more detailed', 'How does the *hot* temperature affect...?'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe a focused question is just a "more detailed" version of a broad question — they add adjectives ("How does the *hot*.' },

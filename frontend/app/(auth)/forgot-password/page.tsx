@@ -2,25 +2,49 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Mail, ArrowRight, ArrowLeft, CheckCircle2, AlertCircle } from 'lucide-react'
+import { Mail, ArrowRight, ArrowLeft, KeyRound, AlertCircle, Info } from 'lucide-react'
 import Link from 'next/link'
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState('')
-  const [sent, setSent] = useState(false)
+  const [busy, setBusy] = useState(false)
+  const [done, setDone] = useState(false)
+  const [resetToken, setResetToken] = useState<string | null>(null)
   const [error, setError] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
     if (!email) {
       setError('Please enter your email address')
       return
     }
-    setSent(true)
+    setBusy(true)
+    try {
+      const res = await fetch('/api/auth/forgot-password', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      })
+      if (!res.ok) {
+        setError('Something went wrong — please try again')
+        return
+      }
+      const body = await res.json()
+      // demo delivery: no mailer is configured in this deployment, so the
+      // API hands back the one-time token instead of pretending to email it
+      setResetToken(
+        body?.delivery === 'demo' && body?.reset_token ? body.reset_token : null,
+      )
+      setDone(true)
+    } catch {
+      setError('Network error — please try again')
+    } finally {
+      setBusy(false)
+    }
   }
 
-  if (sent) {
+  if (done) {
     return (
       <div className="text-center">
         <motion.div
@@ -29,14 +53,34 @@ export default function ForgotPasswordPage() {
           transition={{ type: 'spring', duration: 0.8 }}
           className="w-16 h-16 rounded-full bg-mint-500/15 border border-mint-500/30 flex items-center justify-center mx-auto mb-6"
         >
-          <CheckCircle2 className="w-8 h-8 text-mint-300" />
+          <KeyRound className="w-8 h-8 text-mint-300" />
         </motion.div>
 
-        <h2 className="font-display text-2xl font-bold text-white mb-3">Check your email</h2>
+        <h2 className="font-display text-2xl font-bold text-white mb-3">Reset your password</h2>
         <p className="text-surface-600 text-sm mb-6 max-w-sm mx-auto">
-          We&apos;ve sent a password reset link to{' '}
-          <span className="text-gold-300 font-medium">{email}</span>. The link will expire in 30 minutes.
+          If an account exists for{' '}
+          <span className="text-gold-300 font-medium">{email}</span>, a reset link
+          was generated. The link expires in 30 minutes.
         </p>
+
+        {resetToken ? (
+          <div className="mb-6 max-w-sm mx-auto text-left rounded-xl bg-gold-500/10 border border-gold-500/30 px-4 py-3">
+            <div className="flex items-start gap-2 text-gold-200 text-xs mb-3">
+              <Info className="w-4 h-4 flex-shrink-0 mt-0.5" />
+              <span>
+                Email delivery isn&apos;t configured in this deployment — no email
+                was sent. Use this one-time link to set a new password:
+              </span>
+            </div>
+            <Link
+              href={`/reset-password?token=${encodeURIComponent(resetToken)}`}
+              className="btn-primary w-full"
+            >
+              Set a new password
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        ) : null}
 
         <Link href="/login" className="btn-secondary">
           <ArrowLeft className="w-4 h-4" />
@@ -51,7 +95,7 @@ export default function ForgotPasswordPage() {
       <div className="mb-8">
         <h2 className="font-display text-3xl font-bold text-white">Reset password</h2>
         <p className="text-surface-600 text-sm mt-2">
-          Enter your email and we&apos;ll send you a reset link
+          Enter your email and we&apos;ll generate a reset link
         </p>
       </div>
 
@@ -85,9 +129,9 @@ export default function ForgotPasswordPage() {
           )}
         </AnimatePresence>
 
-        <button type="submit" className="btn-primary w-full">
-          Send Reset Link
-          <ArrowRight className="w-4 h-4" />
+        <button type="submit" className="btn-primary w-full" disabled={busy}>
+          {busy ? 'Generating…' : 'Generate Reset Link'}
+          {!busy && <ArrowRight className="w-4 h-4" />}
         </button>
       </form>
 

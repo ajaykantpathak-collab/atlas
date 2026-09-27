@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch07_p2: SimDef = {
     id: 'v3_c12_hin_ar_ch07_p2',
-    title: 'fQjkd xksj[kiqjh · Part 2/3',
+    title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप · Part 2/3',
     subtitle: 'He wrote the Ramayana where everyone could reach it',
-    classLevel: 12, subject: 'hin_ar', topic: 'fQjkd xksj[kiqjh · Part 2/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप · Part 2/3',
     chapters: ['c12_hin_ar_ch07'],
     nodeIds: ['c12_hin_ar_cbse_07_007', 'c12_hin_ar_cbse_07_008', 'c12_hin_ar_cbse_07_009', 'c12_hin_ar_cbse_07_010', 'c12_hin_ar_cbse_07_011', 'c12_hin_ar_cbse_07_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,29 +19,20 @@ export const c12_hin_ar_ch07_p2: SimDef = {
         hook: 'His five forms here aren\'t experiments — they\'re classical metres mastered and matched to mood: चप्पय\'s even matras for philosophy, दोहा\'s rolling asymmetry for narrative. Variety is discipline, not rebellion; form follows function.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas, motifs, or concerns that run parallel to the primary theme in a literary text, enriching its texture by exploring complementary dimensions of human.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द, वस्तु, पात्र या घटना जो अपने स्थूल अर्थ के अतिरिक्त एक गहरा, अमूर्त, व्यापक अर्थ (भाव, विचार, सिद्धांत) को संकेतित/व्यंजित करता है। **बिंब.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_07_007', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Enter the Bhakti workshop: place Tulsidas among the saints, learn what each chhand is built to carry, and weigh how a \'simple\' language shift levelled a hierarchy.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_07_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading the first poem (fdlch fdlku...) aloud and you stumble over \'fHk[kkjh\' and \'pkdj\' — the verb endings feel unfamiliar and the word order.',
-            decisions: [{ prompt: 'What is the defining matra structure of pkSikbZ chhand as described in the chapter, and where does the yati (caesura) fall?', options: [
-                { text: 'pkSikbZ chhand has four quarters (charan) of 16 matras each, with a yati after the 8th', outcome: 'pkSikbZ chhand has four quarters (charan) of 16 matras each, with a yati after the 8th matra.' },
-                { text: '16 matras total', outcome: 'Not quite — Students treat chhand as a labeling exercise ("this is pkSikbZ") rather than a scanning skill.', reveals: 'students-treat-chhand-as-a' },
-                { text: 'yati after 10', outcome: 'Not quite — Students treat chhand as a labeling exercise ("this is pkSikbZ") rather than a scanning skill.', reveals: 'students-treat-chhand-as-a' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_07_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see a question: "According to the poet, why do the poor suffer?" You might panic because the poem doesn\'t say "the.',
-            decisions: [{ prompt: 'What is the defining difference between a literal comprehension question and an inferential comprehension question?', options: [
-                { text: 'A literal question\'s answer is explicitly stated in the text (e.g., "What does the poet', outcome: 'A literal question\'s answer is explicitly stated in the text (e.g., "What does the poet compare the.' },
-                { text: 'literal questions are easy and inferential are hard', outcome: 'Not quite — Students believe inferential questions allow any personal opinion ("I think the poet means...").', reveals: 'inferential-questions-allow-any-personal' },
-                { text: 'I think the poet means', outcome: 'Not quite — Students believe inferential questions allow any personal opinion ("I think the poet means...").', reveals: 'inferential-questions-allow-any-personal' }
-            ] }] } },
+        labels: ['कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c12_hin_ar_cbse_07_008', title: 'Identify each idea',
+          dissect: { specimen: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप · Part 2/3', spots: [
+            { id: 's1', label: '- -', prompt: 'Which idea is this? — पद्य में भाषा-प्रयोग का अर्थ है — काव्य की छंदबद्ध संरचना में शब्दों के चयन, उनके.', answer: '- -', options: ['- -', '- - -'] },
+            { id: 's2', label: '- - -', prompt: 'Which idea is this? — वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ के प्रत्यक्ष तथ्यों, घटनाओं, पात्रों या.', answer: '- - -', options: ['- - -', '- -'] }
+          ] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_07_007', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re cutting a farewell video for a beloved coach. A teammate says the interview clips where the players hesitate before thanking him \'break the flow\' and should be dropped so the highlight reel stays \'propulsive.\'',
             decisions: [{ prompt: 'What would Tulsidas\'s design of the Guha episode argue?', options: [
@@ -51,100 +42,81 @@ export const c12_hin_ar_ch07_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_07_012', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read Tulsidas as both devotion and democratisation — metre chosen with a craftsman\'s ear, language chosen with a leveller\'s heart.',
-            decisions: [{ prompt: 'What comes next? fQjkd xksj[kiqjh · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — fQjkd xksj[kiqjh · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas, motifs, or concerns that run.',
-          hint: 'If stuck, revisit Class 11 Chapter 7 (c11_hin_ar_cbse_07_007) where secondary themes were.',
-          misconception: '**विशिष्ट भ्रांति:** विद्यार्थी समझते हैं कि \'गौण विषय\' का अर्थ है \'कम महत्वपूर्ण विषय\' या \'केवल उल्लिखित प्रसंग\'। वे.',
+          question: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द, वस्तु, पात्र या घटना जो अपने.',
+          hint: 'यदि अटके: **c11_hin_ar_cbse_07_008 (बिंब और रूपक)** के \'बिंब के प्रकार\' खंड व.',
+          misconception: '**सबसे घातक भ्रम:** छात्र **\'बिंब\' और \'प्रतीक\' को परस्पर विनिमेय (Interchangeable) मान लेते हैं**। **उदाहरण:** "लक्ष्मण.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the supporting ideas, motifs, or concerns that run parallel to the',
-                  options: ['Secondary themes are the supporting ideas, motifs, or concerns that run parallel to the', '"Before You Read: Context and Background" for Chapter 7 (fQjkd xksj[kiqjh) is the', 'Plot and Narrative Structure in this chapter refers to the organization of events in the', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, revisit Class 11 Chapter 7 (c11_hin_ar_cbse_07_007) where secondary themes were.',
-                  misconception: '**विशिष्ट भ्रांति:** विद्यार्थी समझते हैं कि \'गौण विषय\' का अर्थ है \'कम महत्वपूर्ण विषय\' या \'केवल उल्लिखित प्रसंग\'। वे गौण विषयों को.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द, वस्तु, पात्र या घटना जो अपने स्थूल अर्थ',
+                  options: ['**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द, वस्तु, पात्र या घटना जो अपने स्थूल अर्थ', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                  hint: 'यदि अटके: **c11_hin_ar_cbse_07_008 (बिंब और रूपक)** के \'बिंब के प्रकार\' खंड व.',
+                  misconception: '**सबसे घातक भ्रम:** छात्र **\'बिंब\' और \'प्रतीक\' को परस्पर विनिमेय (Interchangeable) मान लेते हैं**। **उदाहरण:** "लक्ष्मण मूर्च्छित पड़े हैं".' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1:** विद्यार्थी से कहें: "पाठ के तीनों पदों और गद्यांश को फिर से पढ़ें, केवल उन वाक्यों/पंक्तियों को रेखांकित.', 'दो गौण विषय पहचानें और उनके साक्ष्य दें।"'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'interchangeable': { steps: ['**तत्काल पुनरावृत्ति:** Class 11 के नोड **c11_hin_ar_cbse_07_008 (बिंब और रूपक)** व **c11_hin_ar_cbse_07_009 (विरोधाभास.', '**माइक्रो-अभ्यास:** कवितावली के किसी 4-5 पंक्ति के अंश से **2 बिंब + 2 प्रतीक** निकालकर **अलग-अलग कॉलम** में लिखें.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_1 व 2 को बिना नोट्स देखे हल करें। यदि फिर गलती हो, तो शिक्षक से **\'बिंब.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_008', difficulty: 'standard',
-          question: 'Imagery (fp=k.k) is the use of vivid, sensory language that appeals to the five.',
-          hint: 'If stuck on vehicle/tenor: practice with 10 Hindi proverbs (e.g., "haath kangan ko aarsi.',
-          misconception: 'Students treat imagery and metaphor as identification tasks: "Find the metaphor in stanza 2" → underline "isV dh vkx" →.',
+          question: 'कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में गोस्वामी.',
+          hint: 'यदि \'राजधर्म\' या \'लोकमंगल\' अस्पष्ट हो → कक्षा 11 आरोह गद्य खंड \'आवारा मसीहा\'.',
+          misconception: '**विशिष्ट भ्रांति:** "कवितावली में राम का विलाप देखकर लगता है वे **कमज़ोर, भावुक, और अधीर** हैं — वे राजा जैसे नहीं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery (fp=k.k) is the use of vivid, sensory language that appeals to the five senses',
-                  options: ['Imagery (fp=k.k) is the use of vivid, sensory language that appeals to the five senses', '"Before You Read: Context and Background" for Chapter 7 (fQjkd xksj[kiqjh) is the', 'Plot and Narrative Structure in this chapter refers to the organization of events in the', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck on vehicle/tenor: practice with 10 Hindi proverbs (e.g., "haath kangan ko aarsi kya".',
-                  misconception: 'Students treat imagery and metaphor as identification tasks: "Find the metaphor in stanza 2" → underline "isV dh vkx" → done.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में गोस्वामी तुलसीदास',
+                  options: ['कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में गोस्वामी तुलसीदास', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                  hint: 'यदि \'राजधर्म\' या \'लोकमंगल\' अस्पष्ट हो → कक्षा 11 आरोह गद्य खंड \'आवारा मसीहा\'.',
+                  misconception: '**विशिष्ट भ्रांति:** "कवितावली में राम का विलाप देखकर लगता है वे **कमज़ोर, भावुक, और अधीर** हैं — वे राजा जैसे नहीं लगते।" **क्यों होती.' }
           ],
-            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['Re-read c11_hin_ar_cbse_07_008 (Class 11 Imagery & Metaphor) focusing ONLY on the \'vehicle/tenor\' distinction table and.', 'Take Poem 1, stanza 1. Circle 5 sensory words. For each, write: Sense → Concrete Noun → Abstract Idea it carries.', 'Find the central metaphor. Fill a 2-column table: Vehicle (concrete farming term) | Tenor (abstract life concept) |.', 'Re-attempt Diagnostic Q2 and Q4. If still stuck, the gap is \'abstraction from concrete\' — practice with 5 daily-life.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_008', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students treat imagery and metaphor as identification tasks: "Find the metaphor in stanza 2" → underline "isV dh vkx" →.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this claim: "The extended metaphor of \'jke\' (Rama) as \'isV\' (harvest/life) in the third poem (èkwr dgkS) is more effective for a modern urban reader.', answer: 'Correct evaluation: Refute',
-                  options: ['Correct evaluation: Refute', 'urban readers relate to Rama as ideal'],
-                  hint: 'If stuck on vehicle/tenor: practice with 10 Hindi proverbs (e.g., "haath kangan ko aarsi kya".',
-                  misconception: 'Students treat imagery and metaphor as identification tasks: "Find the metaphor in stanza 2" → underline "isV dh vkx" → done.' }
-          ],
-            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['Re-read c11_hin_ar_cbse_07_008 (Class 11 Imagery & Metaphor) focusing ONLY on the \'vehicle/tenor\' distinction table and.', 'Take Poem 1, stanza 1. Circle 5 sensory words. For each, write: Sense → Concrete Noun → Abstract Idea it carries.', 'Find the central metaphor. Fill a 2-column table: Vehicle (concrete farming term) | Tenor (abstract life concept) |.', 'Re-attempt Diagnostic Q2 and Q4. If still stuck, the gap is \'abstraction from concrete\' — practice with 5 daily-life.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**पुनर्पाठ (Re-read):** प्रसंग के **पहले 3 पद** केवल भावार्थ के लिए पढ़ें — राम के संबोधन बदलते देखें: "लखनु प्रानु" →.', '**तुलनात्मक चार्ट बनाएँ:** दो कॉलम — "व्यक्तिगत शोक के शब्द" और "सार्वजनिक कर्तव्य के शब्द" — प्रत्येक पद से 2-2 उदाहरण.', '**मौखिक व्याख्या:** किसी साथी को 2 मिनट में समझाएँ: "राम यहाँ क्यों रोते हैं और फिर क्यों चुप हो जाते हैं?" — यदि आप.', '**पुनः निदान (Re-diagnostic):** DIAGNOSTIC_QUESTION_2 और _5 फिर से हल करें — अबकी बार **\'व्यष्टि से समष्टि\'** और **\'शोक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_009', difficulty: 'standard',
-          question: 'Irony (व्यंग्य/विडंबना) is a literary device where the intended meaning.',
-          hint: 'If stuck on "symbol vs metaphor," review **c12_hin_ar_cbse_07_008 WORKED_EXAMPLE_2**.',
-          misconception: '**Misconception:** "Irony and symbolism are separate devices — irony is for prose/criticism, symbolism is for.',
+          question: '**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक भाव है जो मुख्य भाव.',
+          hint: 'यदि मुख्य कथा-प्रवाह ही स्पष्ट न हो, तो पहले **c12_hin_ar_cbse_07_002 (कथानक और.',
+          misconception: '**सबसे आम भ्रम:** छात्र **गौण भाव** को \'मुख्य भाव का उप-भाव\' (Sub-emotion) मान लेते हैं — जैसे करुण रस में \'शोक\' मुख्य.',
           parts: [
-                { id: 'a', prompt: 'In the *doha* "isV gh oQks ipr] cspr csVk&csVdh" (तीर ही को पार, चस्पा चस्पा चस्पा), explain why the arrow (तीर) is a **symbol** and not merely a metaphor.', answer: '**Correct Answer:** A metaphor is a direct comparison ("A is B")',
-                  options: ['**Correct Answer:** A metaphor is a direct comparison ("A is B")', 'metaphor for devotion'],
-                  hint: 'If stuck on "symbol vs metaphor," review **c12_hin_ar_cbse_07_008 WORKED_EXAMPLE_2** (metaphor.',
-                  misconception: '**Misconception:** "Irony and symbolism are separate devices — irony is for prose/criticism, symbolism is for poems/beauty." **Why it\'s.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक भाव है जो मुख्य भाव (राम का',
+                  options: ['**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक भाव है जो मुख्य भाव (राम का', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                  hint: 'यदि मुख्य कथा-प्रवाह ही स्पष्ट न हो, तो पहले **c12_hin_ar_cbse_07_002 (कथानक और आख्यान-संरचना)** व.',
+                  misconception: '**सबसे आम भ्रम:** छात्र **गौण भाव** को \'मुख्य भाव का उप-भाव\' (Sub-emotion) मान लेते हैं — जैसे करुण रस में \'शोक\' मुख्य भाव है तो \'आँसू.' }
           ],
-            remediations: { 'misconception-irony-and-symbolism-are': { steps: ['If the student cannot integrate irony and symbolism: 1.', '**Re-read** the three poems and prose *only for contrasts* — highlight every "but/그러나/परंतु" moment (e.g., king becomes.', '**Make a two-column table**: Column A = Concrete Object (arrow, dust, forest, bow, fire); Column B = Abstract Meaning.', '**Practice the "So what?" drill**: For each entry, ask "How does the *irony* deepen this symbol?" — e.g., "Dust.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'sub-emotion': { steps: ['**चरण 1:** छात्र से कहें: "पाठ को फिर से पढ़ो, इस बार **लाल पेन से** हर उस वाक्य/पंक्ति को रेखांकित करो जो **लक्ष्मण.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the ability to determine the precise meaning.',
-          hint: 'If stuck on a word\'s contextual meaning: (1) Locate its *exact line* in the poem/prose.',
-          misconception: '**Misconception:** "Vocabulary in context means memorizing the \'shabdarth\' (word-meanings) list at the end of the.',
+          question: 'पदावली के अंतर्गत कवितावली (उत्तरकांड) के पदों में प्रयुक्त कठिन ब्रजभाषा.',
+          hint: 'यदि व्युत्पत्ति में अटके तो c11_hin_ar_cbse_07_011 (व्याकरण: पाठ में भाषा-प्रयोग) के.',
+          misconception: '**सबसे घातक भ्रम:** "कठिन शब्दों का अर्थ शब्दकोश से ढूँढ़कर लिख देना पर्याप्त है।" **वास्तविकता:** तुलसीदास के शब्द.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context refers to the ability to determine the precise meaning,',
-                  options: ['Vocabulary in Context refers to the ability to determine the precise meaning,', '"Before You Read: Context and Background" for Chapter 7 (fQjkd xksj[kiqjh) is the', 'Plot and Narrative Structure in this chapter refers to the organization of events in the', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck on a word\'s contextual meaning: (1) Locate its *exact line* in the poem/prose.',
-                  misconception: '**Misconception:** "Vocabulary in context means memorizing the \'shabdarth\' (word-meanings) list at the end of the chapter for the board.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली के अंतर्गत कवितावली (उत्तरकांड) के पदों में प्रयुक्त कठिन ब्रजभाषा शब्दों,',
+                  options: ['पदावली के अंतर्गत कवितावली (उत्तरकांड) के पदों में प्रयुक्त कठिन ब्रजभाषा शब्दों,', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                  hint: 'यदि व्युत्पत्ति में अटके तो c11_hin_ar_cbse_07_011 (व्याकरण: पाठ में भाषा-प्रयोग) के.',
+                  misconception: '**सबसे घातक भ्रम:** "कठिन शब्दों का अर्थ शब्दकोश से ढूँढ़कर लिख देना पर्याप्त है।" **वास्तविकता:** तुलसीदास के शब्द **प्रसंग-सापेक्ष** हैं।.' }
           ],
-            remediations: { 'misconception-vocabulary-in-context-means': { steps: ['**Revisit the shabdarth list** (NCERT pg 45-46) and for *each* word, write: (a) Dictionary meaning, (b).', '**Re-read c12_hin_ar_cbse_07_008 (Imagery/Metaphor)** and c12_hin_ar_cbse_07_009 (Irony/Symbolism) — vocabulary *is*.', 'Identify 3 words that function as metaphors (e.g., \'isV dh vkx\' = separation\'s pain).', '**Practice:** Take 5 words from the list.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**पुनर्पाठ:** संबंधित पद को **सस्वर 3 बार पढ़ें**, कठिन शब्दों को घेरें। 2.', '**मूल-रूप खोज:** प्रत्येक घिरे शब्द का **मूल रूप** (धातु/संज्ञा + प्रत्यय) लिखें — c11_hin_ar_cbse_07_010 (पदावली.', '**प्रसंग-मिलान:** पद का **भाव/रस** पहचानें (करुण/वीर/शांत) और जाँचें कि शब्दार्थ उससे मेल खाता है या नहीं। 4.', '**पुनः-निदान:** DIAGNOSTIC_QUESTION_3 ("प्रान बाँधि") का उत्तर बिना देखे लिखें; यदि "आत्महत्या" जैसा अर्थ आए तो चरण 2-3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_011', difficulty: 'standard',
-          question: 'This node covers the grammatical and linguistic features of Tulsidas\'s poems.',
-          hint: 'If stuck on matra counting, revisit the laghu/guru rule with the \'kṣaṇ\' example: \'kṣa\'.',
-          misconception: 'Students treat chhand as a labeling exercise ("this is pkSikbZ") rather than a scanning skill.',
+          question: 'पद्य में भाषा-प्रयोग का अर्थ है — काव्य की छंदबद्ध संरचना में शब्दों के चयन.',
+          hint: 'यदि समास-विग्रह या प्रत्यय-पहचान में अटके हों, तो तुरंत **c11_hin_ar_cbse_16_011 (पद्य.',
+          misconception: 'छात्र समझते हैं कि \'पद्य में भाषा-प्रयोग\' का अर्थ केवल **कठिन शब्दों के अर्थ लिखना** या **अलंकारों के नाम गिनाना** है।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'This node covers the grammatical and linguistic features of Tulsidas\'s poems in Chapter',
-                  options: ['This node covers the grammatical and linguistic features of Tulsidas\'s poems in Chapter', '"Before You Read: Context and Background" for Chapter 7 (fQjkd xksj[kiqjh) is the', 'Plot and Narrative Structure in this chapter refers to the organization of events in the', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck on matra counting, revisit the laghu/guru rule with the \'kṣaṇ\' example: \'kṣa\' (conjunct).',
-                  misconception: 'Students treat chhand as a labeling exercise ("this is pkSikbZ") rather than a scanning skill.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्य में भाषा-प्रयोग का अर्थ है',
+                  options: ['पद्य में भाषा-प्रयोग का अर्थ है', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                  hint: 'यदि समास-विग्रह या प्रत्यय-पहचान में अटके हों, तो तुरंत **c11_hin_ar_cbse_16_011 (पद्य में.',
+                  misconception: 'छात्र समझते हैं कि \'पद्य में भाषा-प्रयोग\' का अर्थ केवल **कठिन शब्दों के अर्थ लिखना** या **अलंकारों के नाम गिनाना** है। वे **व्याकरणिक रूप.' }
           ],
-            remediations: { 'students-treat-chhand-as-a': { steps: ['Return to the chhand definitions at the end of the chapter (pkSikbZ, nksgk, etc.) and write them as flashcards: name.', 'Practice matra counting on 5 lines from the poems using the laghu/guru rule: say each word aloud, clap once for short.', 'Make a two-column table: Braj form (from poem) → Modern Hindi equivalent → grammatical category (verb, postposition.', 'Re-attempt Diagnostic Question 3 with the table and flashcards.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें — "पद से 5 शब्द चुनो जिनके रूप तुम्हें अस्पष्ट लगते हैं (जैसे व्याकुल, मूर्च्छा, विलाप, अनाथ.', '**चरण 2:** प्रत्येक शब्द का **रूपांतर-विच्छेद** कराएं: मूल धातु/प्रातिपदिक + प्रत्यय + विभक्ति/वचन (उदाहरण: व्याकुल.', '**चरण 3:** पूछें — "यदि कवि \'व्याकुल\' के स्थान पर \'दुःखित\' (दुःख + इन्) प्रयोग करता तो अर्थ में क्या अंतर आता?" — इससे.', '**चरण 4:** पुनः निदान प्रश्न 2 और 3 हल कराएं — अब छात्र व्याकरणिक रूप को अर्थ से जोड़ पाएगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers that are directly stated in the.',
-          hint: 'If stuck, revisit c11_hin_ar_cbse_07_012 (Class 11 Comprehension) and practice with its.',
-          misconception: 'Students believe inferential questions allow any personal opinion ("I think the poet means...").',
+          question: 'वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ के प्रत्यक्ष तथ्यों, घटनाओं.',
+          hint: 'यदि आशय-सूचक उत्तर में साक्ष्य नहीं दे पा रहे हों, तो c12_hin_ar_cbse_07_008 (बिंब-रूपक).',
+          misconception: 'छात्र समझते हैं कि आशय-सूचक प्रश्नों का उत्तर \'अपनी भाषा में\' लिखने का अर्थ \'पाठ से दूर जाकर कल्पना करना\' है — जबकि.',
           parts: [
-                { id: 'a', prompt: 'Read this question: "In the first poem of the chapter, the poet describes the sun rising. Is this a literal or inferential question? Explain your reasoning."', answer: 'This is a literal question',
-                  options: ['This is a literal question', 'describes', 'I think the poet means', 'reading between the lines'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_07_012 (Class 11 Comprehension) and practice with its worked.',
-                  misconception: 'Students believe inferential questions allow any personal opinion ("I think the poet means...").' },
-                { id: 'b', prompt: 'Based on the second poem in the chapter (which depicts a conversation between a poor farmer and a rich landlord), answer: (a) Literal: What does the farmer say.', answer: 'Literal: What does the farmer say about his crops?',
-                  options: ['Literal: What does the farmer say about his crops?', 'he is angry', 'I think the poet means', 'reading between the lines'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_07_012 (Class 11 Comprehension) and practice with its worked.',
-                  misconception: 'Students believe inferential questions allow any personal opinion ("I think the poet means...").' },
-                { id: 'c', prompt: 'Compare these two inferential questions about the third poem: (i) "Why does the poet repeat the phrase \'राम नाम\'?" (ii) "How does the repetition of \'राम नाम\'.', answer: 'Question (ii) requires deeper inference',
-                  options: ['Question (ii) requires deeper inference', 'I think the poet means', 'reading between the lines', 'bringing outside ideas'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_07_012 (Class 11 Comprehension) and practice with its worked.',
-                  misconception: 'Students believe inferential questions allow any personal opinion ("I think the poet means...").' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ के प्रत्यक्ष तथ्यों, घटनाओं, पात्रों या',
+                  options: ['वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ के प्रत्यक्ष तथ्यों, घटनाओं, पात्रों या', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                  hint: 'यदि आशय-सूचक उत्तर में साक्ष्य नहीं दे पा रहे हों, तो c12_hin_ar_cbse_07_008 (बिंब-रूपक) और.',
+                  misconception: 'छात्र समझते हैं कि आशय-सूचक प्रश्नों का उत्तर \'अपनी भाषा में\' लिखने का अर्थ \'पाठ से दूर जाकर कल्पना करना\' है — जबकि वास्तव में \'अपनी भाषा.' }
           ],
-            remediations: { 'inferential-questions-allow-any-personal': { steps: ['Give the student a short 4-line poem (unseen).', 'Ask them to write one literal and one inferential question with answers.', 'For the inferential answer, require them to highlight the exact words in the poem that support their inference.', 'If they cannot highlight words, have them re-read the poem and list all adjectives/verbs/metaphors — then rebuild the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'quotes-references-interpretation': { steps: ['चरण 1: छात्र से कहें कि वह पाठ का कोई एक आशय-सूचक प्रश्न चुने और उसका उत्तर केवल पंक्तियाँ उद्धृत करके दे (बिना.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

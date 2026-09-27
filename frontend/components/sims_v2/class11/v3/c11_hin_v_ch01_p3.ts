@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_v_ch01_p3: SimDef = {
     id: 'v3_c11_hin_v_ch01_p3',
-    title: 'tc lsD\'ku vkfI+kQlj · Part 3/3',
+    title: 'पाठ 1 · Part 3/3',
     subtitle: 'Watch theatre\'s grammar shift from the spoken word to the seen image.',
-    classLevel: 11, subject: 'hin_v', topic: 'tc lsD\'ku vkfI+kQlj · Part 3/3',
+    classLevel: 11, subject: 'hin_v', topic: 'पाठ 1 · Part 3/3',
     chapters: ['c11_hin_v_ch01'],
     nodeIds: ['c11_hin_v_cbse_01_013', 'c11_hin_v_cbse_01_014', 'c11_hin_v_cbse_01_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,35 +19,20 @@ export const c11_hin_v_ch01_p3: SimDef = {
         hook: 'Agyeya opens by hearing a gramophone before seeing anything — a miniature of his thesis: modern theatre detached sound from sight and rewired the senses.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of examining a text\'s arguments, evidence, and underlying assumptions to form an independent, reasoned judgment about its meaning.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 1 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें पाठ के स्पष्ट अर्थ से आगे जाकर उसके अंतर्निहित अभिप्राय, संरचनात्मक युक्तियों, वैचारिक पूर्वाग्रहों और सौंदर्यात्मक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_01_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Split classical Sanskrit, Parsi-folk and Mohan Rakesh\'s realism into their governing principles, then judge whether word-dominant and visual-dominant theatre can even be compared.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['पाठ 1 — आलोचनात्मक', 'पाठ 1 — लेखन', 'पाठ 1 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are watching a heated debate between a novelist and a painter about which art form is "superior." The novelist argues words capture the inner soul.',
-            decisions: [{ prompt: 'What is the central thesis (pramukh pratipadya) that the author, Upendranath Ashk, establishes in the essay "Hkkjrh; xkf;dkvksa esa.', options: [
-                { text: 'The central thesis is that visual art (chitrakala) is the primal, more universal, and', outcome: 'The central thesis is that visual art (chitrakala) is the primal, more universal, and more.' },
-                { text: 'both are equal', outcome: 'Not quite — Students often confuse **\'Critical Analysis\' with \'Finding Faults\' (Dos nikalna)**.', reveals: 'students-often-confuse-critical-analysis' },
-                { text: 'literary art is superior', outcome: 'Not quite — Students often confuse **\'Critical Analysis\' with \'Finding Faults\' (Dos nikalna)**.', reveals: 'students-often-confuse-critical-analysis' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 5-mark question: "How does Valmiki establish that visual art is not subordinate to literary art?" Most students freeze.',
-            decisions: [{ prompt: 'What is the PEEL structure for writing analytical answers, and what does each letter stand for in the context of Hindi literary analysis?', options: [
-                { text: 'PEEL stands for Point (main claim), Evidence (textual reference from the chapter),', outcome: 'PEEL stands for Point (main claim), Evidence (textual reference from the chapter), Explanation.' },
-                { text: 'Point means topic sentence', outcome: 'Not quite — Students believe "writing based on the chapter" means summarizing the story or listing the author\'s.', reveals: 'writing-based-on-the-chapter' },
-                { text: 'writing based on the chapter', outcome: 'Not quite — Students believe "writing based on the chapter" means summarizing the story or listing the author\'s.', reveals: 'writing-based-on-the-chapter' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are at a village haat (fair) and see a Madhubani painter selling work beside a classically trained artist — who decides which art is "superior"?',
-            decisions: [{ prompt: 'What is the author\'s primary argument regarding the relationship between classical (shastriya) and folk (lok) painting in the essay?', options: [
-                { text: 'The author argues that folk painting is not inferior to classical painting but possesses', outcome: 'The author argues that folk painting is not inferior to classical painting but possesses its own.' },
-                { text: 'folk painting is simpler', outcome: 'Not quite — Students treat "discussion" as a round-robin of personal opinions ("I feel folk art is beautiful").', reveals: 'students-treat-discussion-as-a' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_v_cbse_01_014', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 1 · Part 3/3', spots: [
+            { id: 's1', label: '1 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र पाठ्यपुस्तक.', answer: '1 -', options: ['1 -', '1 - -'] },
+            { id: 's2', label: '1 - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी साहित्यिक.', answer: '1 - -', options: ['1 - -', '1 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_01_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your theatre club is adapting a stage play into a short film. A member says: \'Just film the play — theatre is literature, cinema is just literature with a camera. Agyeya\'s essay on Mohan Rakesh is basically a biography of a playwright.\'',
             decisions: [{ prompt: 'What does Agyeya\'s argument actually say?', options: [
@@ -67,61 +52,38 @@ export const c11_hin_v_ch01_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of examining.',
-          hint: 'If stuck, review **Node 006 (Primary Theme)** to re-identify the thesis, and **Node 012.',
-          misconception: 'Students often confuse **\'Critical Analysis\' with \'Finding Faults\' (Dos nikalna)**.',
+          question: 'आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें.',
+          hint: 'यदि विश्लेषण शुरू न हो पा रहा हो, तो **\'तीन-स्तरीय पठन\'** (भाषिक → साहित्यिक → विषयगत) का.',
+          misconception: 'छात्र समझते हैं कि **\'आलोचनात्मक\' का अर्थ \'नकारात्मक आलोचना\' (fault-finding) होता है** — इसलिए वे या तो पाठ की प्रशंसा.',
           parts: [
-                { id: 'a', prompt: 'The author uses a personal anecdote about hearing a mysterious sound (Loj) in his room to introduce the artist Yaksh Eksadjak.', answer: 'The anecdote establishes that sound (Loj)',
-                  options: ['The anecdote establishes that sound (Loj)', 'the author met a painter'],
-                  hint: 'If stuck, review **Node 006 (Primary Theme)** to re-identify the thesis, and **Node 012.',
-                  misconception: 'Students often confuse **\'Critical Analysis\' with \'Finding Faults\' (Dos nikalna)**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें पाठ के',
+                  options: ['आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें पाठ के', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि विश्लेषण शुरू न हो पा रहा हो, तो **\'तीन-स्तरीय पठन\'** (भाषिक → साहित्यिक → विषयगत) का अभ्यास.',
+                  misconception: 'छात्र समझते हैं कि **\'आलोचनात्मक\' का अर्थ \'नकारात्मक आलोचना\' (fault-finding) होता है** — इसलिए वे या तो पाठ की प्रशंसा में डूब जाते हैं (यह.' }
           ],
-            remediations: { 'students-often-confuse-critical-analysis': { steps: ['If a student writes a "fault-finding" response: 1.', '**Stop and Define**: Ask: "If a structural engineer \'critically analyzes\' a bridge, do they just say \'it\'s ugly\'?', 'No, they check load-bearing logic.', 'We are checking *argumentative load-bearing logic*." 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'fault-finding': { steps: ['**स्पष्ट करें:** "Critical = निंदा नहीं, विवेचन है।" बोर्ड परीक्षा के मार्किंग स्कीम में \'critical appreciation\' का.', '**अभ्यास दें:** पाठ 1 के दो विपरीत अंश दें (एक प्रशंसात्मक, एक आलोचनात्मक/संकेतात्मक) और पूछें: "दोनों को मिलाकर एक.', '**मॉडल दिखाएं:** एक कमजोर उत्तर (केवल प्रशंसा) और एक सशक्त उत्तर (साक्ष्य-आधारित विश्लेषण) साथ रखकर अंतर स्पष्ट करें। 4.', '**चेकलिस्ट दें:** "क्या मैंने पाठ से उद्धरण दिया?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
-          hint: 'If stuck, review c11_hin_v_cbse_01_013 (Critical Thinking) to relearn how to extract.',
-          misconception: 'Students believe "writing based on the chapter" means summarizing the story or listing the author\'s opinions.',
+          question: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र.',
+          hint: 'If stuck, review **c11_hin_v_cbse_01_013 (आलोचनात्मक चिंतन)** to re-learn how to generate.',
+          misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर लिखने का अर्थ है पाठ की पंक्तियों को ज्यों-का-त्यों कॉपी कर देना (Verbatim.',
           parts: [
-                { id: 'a', prompt: 'In Valmiki\'s essay, he argues that visual art creates "xkuiu" (aesthetic experience) through three feuV (brushstrokes).', answer: 'The three feuV are Loj (sound), y',
-                  options: ['The three feuV are Loj (sound), y', 'color, line, shape', 'writing based on the chapter'],
-                  hint: 'If stuck, review c11_hin_v_cbse_01_013 (Critical Thinking) to relearn how to extract arguable.',
-                  misconception: 'Students believe "writing based on the chapter" means summarizing the story or listing the author\'s opinions.' },
-                { id: 'b', prompt: 'Compare the author\'s view of the artist\'s relationship with society in visual art versus literary art.', answer: 'The author argues visual art is inherently democratic',
-                  options: ['The author argues visual art is inherently democratic', 'more people see paintings than read books', 'writing based on the chapter'],
-                  hint: 'If stuck, review c11_hin_v_cbse_01_013 (Critical Thinking) to relearn how to extract arguable.',
-                  misconception: 'Students believe "writing based on the chapter" means summarizing the story or listing the author\'s opinions.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र पाठ्यपुस्तक',
+                  options: ['पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र पाठ्यपुस्तक', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'If stuck, review **c11_hin_v_cbse_01_013 (आलोचनात्मक चिंतन)** to re-learn how to generate.',
+                  misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर लिखने का अर्थ है पाठ की पंक्तियों को ज्यों-का-त्यों कॉपी कर देना (Verbatim Copying) या पूरे.' }
           ],
-            remediations: { 'writing-based-on-the-chapter': { steps: ['If a student writes summary instead of analysis: (1) Have them highlight every sentence in their answer — if.', '(2) Give them a 3-column template: Column 1 = Claim, Column 2 = Quote/Reference (para #), Column 3 = Explanation of how.', '(3) Practice converting one summary sentence into PEEL: "Visual art reaches everyone" → Point: "Visual art.', 'vkèks rkyksa\'" | Explanation: "Illiterate audiences access art through rhythm/color without literacy barrier" | Link.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_014', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "writing based on the chapter" means summarizing the story or listing the author\'s opinions.',
-          parts: [
-                { id: 'a', prompt: 'Critique this student claim: "Valmiki says visual art is better than literary art because it uses color and sound." Is this an accurate representation of the.', answer: 'No, this misrepresents the thesis',
-                  options: ['No, this misrepresents the thesis', 'different but equal', 'better', 'writing based on the chapter'],
-                  hint: 'If stuck, review c11_hin_v_cbse_01_013 (Critical Thinking) to relearn how to extract arguable.',
-                  misconception: 'Students believe "writing based on the chapter" means summarizing the story or listing the author\'s opinions.' },
-                { id: 'b', prompt: 'Draft a 100-word response to: "Explain how Valmiki\'s personal experience with the painter Yeark Eakselji illustrates his theoretical position on visual art.".', answer: 'A strong response: Valmiki\'s encounter with Yeark begins with sensory immersion',
-                  options: ['A strong response: Valmiki\'s encounter with Yeark begins with sensory immersion', 'writing based on the chapter'],
-                  hint: 'If stuck, review c11_hin_v_cbse_01_013 (Critical Thinking) to relearn how to extract arguable.',
-                  misconception: 'Students believe "writing based on the chapter" means summarizing the story or listing the author\'s opinions.' }
-          ],
-            remediations: { 'writing-based-on-the-chapter': { steps: ['If a student writes summary instead of analysis: (1) Have them highlight every sentence in their answer — if.', '(2) Give them a 3-column template: Column 1 = Claim, Column 2 = Quote/Reference (para #), Column 3 = Explanation of how.', '(3) Practice converting one summary sentence into PEEL: "Visual art reaches everyone" → Point: "Visual art.', 'vkèks rkyksa\'" | Explanation: "Illiterate audiences access art through rhythm/color without literacy barrier" | Link.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'verbatim-copying-text-based-quote': { steps: ['**लक्षित सुधार (Targeted Remediation):** 1.', '**\'हाइलाइट एंड टैग\' अभ्यास (Highlight & Tag Drill):** छात्र को पाठ का एक पृष्ठ देकर कहें: *"इसमें से केवल वही 3 वाक्य.', '**\'कॉपी-पेस्ट बनाम विश्लेषण\' तुलना तालिका:** बोर्ड के दो नमूना उत्तर दिखाएँ—एक जिसमें केवल उद्धरण हैं (0-1 अंक), दूसरा.', '**\'एक प्रमाण, तीन व्याख्या\' खेल:** एक ही उद्धरण देकर पूछें: *"इसे \'दृढ़ता\' सिद्ध करने के लिए कैसे लिखोगे?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck, review the "Theme: Primary Theme and Message" (c11_hin_v_cbse_01_006) and.',
-          misconception: 'Students treat "discussion" as a round-robin of personal opinions ("I feel folk art is beautiful") rather than.',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी.',
+          hint: 'यदि अटका महसूस हो तो **c11_hin_v_cbse_01_008 (बिंब और रूपक)** और **c11_hin_v_cbse_01_009.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि चर्चा-बिंदु का अर्थ है — "पाठ के बारे में अपने विचार (opinions) रखना" और इसके.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why the author rejects the question "What is the place of folk painting in classical literature?" as invalid.', answer: 'The author rejects the question',
-                  options: ['The author rejects the question', 'because folk painting is not in books'],
-                  hint: 'If stuck, review the "Theme: Primary Theme and Message" (c11_hin_v_cbse_01_006) and "Literary.',
-                  misconception: 'Students treat "discussion" as a round-robin of personal opinions ("I feel folk art is beautiful") rather than a textual interrogation.' },
-                { id: 'b', prompt: 'Compare the author\'s view of "xuiu" (spontaneity/creative impulse) in folk painting with its role in classical painting as implied in the text.', answer: 'In folk painting, xuiu is the *primary driving force* (mul adhar)',
-                  options: ['In folk painting, xuiu is the *primary driving force* (mul adhar)', 'inspiration'],
-                  hint: 'If stuck, review the "Theme: Primary Theme and Message" (c11_hin_v_cbse_01_006) and "Literary.',
-                  misconception: 'Students treat "discussion" as a round-robin of personal opinions ("I feel folk art is beautiful") rather than a textual interrogation.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी साहित्यिक',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी साहित्यिक', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि अटका महसूस हो तो **c11_hin_v_cbse_01_008 (बिंब और रूपक)** और **c11_hin_v_cbse_01_009 (विरोधाभास.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि चर्चा-बिंदु का अर्थ है — "पाठ के बारे में अपने विचार (opinions) रखना" और इसके लिए पाठ खोलने की.' }
           ],
-            remediations: { 'students-treat-discussion-as-a': { steps: ['**Interrupt the opinion loop**: When a student offers an unsupported view, say: "That\'s an interesting reaction — now.', '**Model the move**: Take their idea, locate the textual anchor yourself aloud ("Here in para 3, Verma writes.', '**Anchor chart**: Post a 3-step stem on the board: *Claim → "In paragraph X, Verma writes..." → "This means..."*.', '**Peer-enforce**: Assign a "Textual Evidence Monitor" in each group whose only job is to tap the table when a claim.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'opinions': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**मॉडलिंग (Modelling):** शिक्षक पाठ 1 का एक छोटा अंश (3-4 पंक्तियाँ) पढ़कर दिखाए: "देखो, मैं इस पंक्ति पर रुकता हूँ.', '**संयुक्त अभ्यास (Guided Practice):** छात्रों को जोड़ियों में बाँटकर एक-एक \'साक्ष्य-पर्ची\' (evidence slip) दें जिस पर.', '**स्वतंत्र अभ्यास (Independent Practice):** गृहकार्य: "पाठ 1 से 3 साक्ष्य-पर्चियाँ खुद चुनो, प्रत्येक से एक चर्चा-बिंदु.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

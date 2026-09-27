@@ -37,7 +37,7 @@ export async function solveProblem(req: SolveRequest): Promise<SolverResponse> {
   } catch (err: any) {
     // Fallback: try fetch directly
     try {
-      const r = await fetch("http://localhost:8001/api/solver/solve", {
+      const r = await fetch("/api/solver/solve", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(req),

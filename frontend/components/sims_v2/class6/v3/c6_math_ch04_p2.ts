@@ -8,7 +8,7 @@ export const c6_math_ch04_p2: SimDef = {
     subtitle: 'This node covers dividing a decimal by a decimal and a decimal by a whole number.',
     classLevel: 6, subject: 'mathematics', topic: 'Decimals · Part 2/2',
     chapters: ['c6_math_ch04'],
-    nodeIds: ['c6_math_ch04_048', 'c6_math_ch04_049', 'c6_math_ch04_050', 'c6_math_ch04_042'],
+    nodeIds: ['c6_math_ch04_048', 'c6_math_ch04_049', 'c6_math_ch04_050', 'c6_math_ch04_051'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you have 4.5 metres of ribbon and you want to cut it into small pieces that are each 0.5 metres long.', goal: 'Master every idea in this chapter.' },

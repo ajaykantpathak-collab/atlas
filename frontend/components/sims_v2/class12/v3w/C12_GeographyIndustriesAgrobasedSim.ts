@@ -176,7 +176,7 @@ export const w_c12_geographyindustriesagrobasedsim: SimDef = {
           hint: 'If the material index logic feels shaky, re-work c10_geo_cbse_06_007 Example 2 (iron vs.',
           misconception: 'Students believe "cotton textile mills are located only where cotton grows" and therefore place all mills on a map in.',
           parts: [
-                { id: 'a', prompt: 'Name the four major cotton textile industrial clusters in India and give one representative centre for each.', answer: 'Correct answer: (1) Western Cluster – Mumbai/Ahmedabad, (2) Southern Cluster –',
+                { id: 'a', prompt: 'Name the four major cotton textile industrial clusters in India and give one representative centre for each.', answer: '(1) Western Cluster – Mumbai/Ahmedabad, (2) Southern Cluster –',
                   options: ['Correct answer: (1) Western Cluster – Mumbai/Ahmedabad, (2) Southern Cluster –', 'Punjab', 'Haryana'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "cotton textile mills are located only where cotton grows" and therefore place all mills on a map in Maharashtra/Gujarat.' },

@@ -14,7 +14,7 @@ export const c12_hs_ch01_p2: SimDef = {
     scenario: { role: 'Work psychologist', intro: 'Why does identical labour feel like a prison to one person and a purpose to another? The answer isn\'t in the task.', goal: 'Distinguish job, career and calling — and what makes work meaningful beyond the paycheque.' },
     discovery: {
         question: 'Three people break the same stone: one sees a wage, one a livelihood, one a statue being born. What separates them?',
-        options: ['Orientation — job, career and calling are relationships to work, not kinds of work; the third man\'s hammer blows build his becoming', 'Skill levels', 'Different stones', 'Pay grades'],
+        options: ['Orientation — job, career and calling are relationships to work, not kinds of work; the third man\'s hammer blows build his becoming', 'Skill level — the statue-builder simply has the most training of the three', 'Different stones — each man\'s block serves a different purpose entirely', 'Pay grade — a calling is just a job with higher wages attached'],
         answer: 'Orientation — job, career and calling are relationships to work, not kinds of work; the third man\'s hammer blows build his becoming',
         hook: 'Meaningful work isn\'t high-paying work — it\'s useful, responsible, enjoyable, skill-using work. And ergonomics isn\'t expensive chairs: it\'s adapting the whole work environment to the worker, which is what dignity of labour actually looks like in design.',
     },

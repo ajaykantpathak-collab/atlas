@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch10_p3: SimDef = {
     id: 'v3_c11_hin_ar_ch10_p3',
-    title: 'tSusanz dekj · Part 3/3',
+    title: 'पाठ 10 · Part 3/3',
     subtitle: 'Read a devotional poem as a plot of the soul, not a description of love.',
-    classLevel: 11, subject: 'hin_ar', topic: 'tSusanz dekj · Part 3/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 10 · Part 3/3',
     chapters: ['c11_hin_ar_ch10'],
     nodeIds: ['c11_hin_ar_cbse_10_013', 'c11_hin_ar_cbse_10_014', 'c11_hin_ar_cbse_10_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,36 +19,20 @@ export const c11_hin_ar_ch10_p3: SimDef = {
         hook: 'Bhakti verse plots the soul\'s trajectory, not the body\'s — \'discarding jewellery\' is the poem\'s rising action, abandonment is its climax.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the disciplined process of examining a literary text beyond its surface meaning to uncover underlying themes, evaluate the author\'s stylistic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 10 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक कृति के आंतरिक तर्क, संरचना, भाषा-प्रयोग और अंतर्निहित मान्यताओं का व्यवस्थित विश्लेषण और व्याख्या करने की बौद्धिक प्रक्रिया है, जिसमें पाठ के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_10_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Trace Meera\'s stanzas from a mind fixed on Giridhar to the shedding of every social marker, and defend the poem\'s narrative arc against \'nothing happens.\'',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['पाठ 10 — आलोचनात्मक', 'पाठ 10 — लेखन', 'पाठ 10 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are reading Raidas\'s poem and feel the words are beautiful but you cannot explain *why* they move you or what they truly say about society.',
-            decisions: [{ prompt: 'What is the primary difference between *literal comprehension* and *critical interpretation* of a literary text?', options: [
-                { text: 'Literal comprehension retrieves facts explicitly stated in the text (who, what, where),', outcome: 'Literal comprehension retrieves facts explicitly stated in the text (who, what, where), while.' },
-                { text: 'personal opinion', outcome: 'Not quite — Students often believe "critical interpretation" means expressing any personal feeling about the.', reveals: 'critical-interpretation-means-expressing-any' },
-                { text: 'critical interpretation', outcome: 'Not quite — Students often believe "critical interpretation" means expressing any personal feeling about the.', reveals: 'critical-interpretation-means-expressing-any' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit in the exam hall and see this question: "Meera\'s poetry blends personal devotion with social rebellion.',
-            decisions: [{ prompt: 'What is the PEEL structure for writing analytical answers in CBSE Class 11 Hindi, and what does each letter stand for?', options: [
-                { text: 'PEEL stands for Point (main argument), Evidence (textual reference), Explanation', outcome: 'PEEL stands for Point (main argument), Evidence (textual reference), Explanation (analysis.' },
-                { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing skills based on the chapter" means *summarizing the poem in their own.', reveals: 'writing-skills-based-on-the' },
-                { text: 'Explanation', outcome: 'Not quite — Students believe "writing skills based on the chapter" means *summarizing the poem in their own.', reveals: 'writing-skills-based-on-the' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a literature circle where the teacher asks, "Kabir says \'nwèk dh eFkfu;k¡ cM+s izse ls foyks;h\' – what does this burning away of rituals.',
-            decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a Class 11 Hindi literature class when analyzing a poem like "ehjk"?', options: [
-                { text: 'A discussion point is an interpretive question or observation grounded in a specific', outcome: 'A discussion point is an interpretive question or observation grounded in a specific textual detail.' },
-                { text: 'When was Kabir born?', outcome: 'Not quite — Students believe a "good discussion" in Hindi literature means agreeing with the teacher\'s.', reveals: 'a-good-discussion-in-hindi' },
-                { text: 'To summarize the poem', outcome: 'Not quite — Students believe a "good discussion" in Hindi literature means agreeing with the teacher\'s.', reveals: 'a-good-discussion-in-hindi' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_10_014', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 10 · Part 3/3', spots: [
+            { id: 's1', label: '10 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र किसी दिए गए गद्यांश या काव्यांश के आधार.', answer: '10 -', options: ['10 -', '10 - -'] },
+            { id: 's2', label: '10 - -', prompt: 'Which idea is this? — "वाचन-श्रवण: चर्चा-बिंदु" refers to the structured pedagogical process where students.', answer: '10 - -', options: ['10 - -', '10 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_10_013', title: 'Use it in the wild',
           caseStudy: { intro: 'In a poetry-analysis session, a student presents Meera\'s bhajan and concludes: \'Nothing happens — Meera just describes her feelings. No events, no plot, so there\'s no structure to analyse.\'',
             decisions: [{ prompt: 'How do you show the poem\'s narrative architecture?', options: [
@@ -68,65 +52,38 @@ export const c11_hin_ar_ch10_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the disciplined process.',
-          hint: 'Review the metaphor and symbolism nodes (c11_hin_ar_cbse_10_008, c11_hin_ar_cbse_10_009).',
-          misconception: 'Students often believe "critical interpretation" means expressing any personal feeling about the poem, or they think.',
+          question: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक कृति के आंतरिक तर्क.',
+          hint: 'यदि फँस जाएँ तो **\'साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक\' (c11_hin_ar_cbse_10_009)**.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि आलोचनात्मक चिंतन का अर्थ है **"पाठ में कमियाँ निकालना"** (fault-finding) या.',
           parts: [
-                { id: 'a', prompt: 'In Raidas\'s poem, the line "valqou ty lhafp&lhafp] izse&csfy cks;h" (lake of love, shade of devotion) appears.', answer: 'The metaphor portrays divine love as a sustaining, cooling, and immersive refuge',
-                  options: ['The metaphor portrays divine love as a sustaining, cooling, and immersive refuge', 'metaphor', 'critical interpretation', 'lake = love'],
-                  hint: 'Review the metaphor and symbolism nodes (c11_hin_ar_cbse_10_008, c11_hin_ar_cbse_10_009) with focus.',
-                  misconception: 'Students often believe "critical interpretation" means expressing any personal feeling about the poem, or they think identifying a metaphor.' },
-                { id: 'b', prompt: 'Compare the use of *water imagery* in the first stanza ("izse dh xr izse tk.kS") and the second stanza ("valqou ty").', answer: 'In stanza one, water (rain/river) dissolves the ego ("izse dh xr izse tk.kS"',
-                  options: ['In stanza one, water (rain/river) dissolves the ego ("izse dh xr izse tk.kS"', 'water symbols', 'critical interpretation', 'lake = love'],
-                  hint: 'Review the metaphor and symbolism nodes (c11_hin_ar_cbse_10_008, c11_hin_ar_cbse_10_009) with focus.',
-                  misconception: 'Students often believe "critical interpretation" means expressing any personal feeling about the poem, or they think identifying a metaphor.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक कृति के आंतरिक तर्क, संरचना,',
+                  options: ['आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक कृति के आंतरिक तर्क, संरचना,', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि फँस जाएँ तो **\'साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक\' (c11_hin_ar_cbse_10_009)** और.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि आलोचनात्मक चिंतन का अर्थ है **"पाठ में कमियाँ निकालना"** (fault-finding) या **"अपनी राय देना"**.' }
           ],
-            remediations: { 'critical-interpretation-means-expressing-any': { steps: ['Give the student a scaffolded template: "Raidas uses [device] in line [X] to compare [A] to [B].', 'This is significant because Raidas was a [caste/occupation], so [A] represents [lived experience].', 'By linking it to [B], he argues that [theme]." 2.', 'Practice with one stanza: have them fill the template for the "boat" metaphor.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often believe "critical interpretation" means expressing any personal feeling about the poem, or they think.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "Raidas\'s poetry is primarily devotional; its social critique is merely a by-product." Defend or refute using at least two specific textual.', answer: 'Refute',
-                  options: ['Refute', 'critical interpretation', 'lake = love', 'identifying a metaphor (e'],
-                  hint: 'Review the metaphor and symbolism nodes (c11_hin_ar_cbse_10_008, c11_hin_ar_cbse_10_009) with focus.',
-                  misconception: 'Students often believe "critical interpretation" means expressing any personal feeling about the poem, or they think identifying a metaphor.' }
-          ],
-            remediations: { 'critical-interpretation-means-expressing-any': { steps: ['Give the student a scaffolded template: "Raidas uses [device] in line [X] to compare [A] to [B].', 'This is significant because Raidas was a [caste/occupation], so [A] represents [lived experience].', 'By linking it to [B], he argues that [theme]." 2.', 'Practice with one stanza: have them fill the template for the "boat" metaphor.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'fault-finding-giving-opinion': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**भाषा बदलें:** छात्र से कहें — "अब से \'अच्छी/बुरी\', \'पसंद/नापसंद\', \'सही/गलत\' शब्द **वर्जित** हैं। इनके स्थान पर प्रयोग.', '**साक्ष्य-आधारित अभ्यास:** एक छोटा अंश दें और कहें — "केवल **तीन भाषाई विशेषताएँ** (शब्द चयन, वाक्य विन्यास, बिंब.', '**\'क्यों\' की श्रृंखला:** छात्र के हर कथन पर पूछें — "पाठ में **कहाँ** लिखा है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Meera Ke Pad" refers to the ability.',
-          hint: 'If stuck, review c11_hin_ar_cbse_10_008 (Imagery and Metaphor) and c11_hin_ar_cbse_10_009.',
-          misconception: 'Students believe "writing skills based on the chapter" means *summarizing the poem in their own words* or *memorizing.',
+          question: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र किसी दिए गए गद्यांश या.',
+          hint: 'यदि अटके तो **c11_hin_ar_cbse_10_013 (आलोचनात्मक चिंतन)** और **c11_hin_ar_cbse_10_006.',
+          misconception: '**विशिष्ट भ्रांति:** "पाठ-आधारित उत्तर में पाठ के **महत्वपूर्ण शब्द/वाक्य उद्धृत (Quote) कर देना ही पर्याप्त Evidence.',
           parts: [
-                { id: 'a', prompt: 'What is the PEEL structure for writing analytical answers in CBSE Class 11 Hindi, and what does each letter stand for?', answer: 'PEEL stands for Point (main argument), Evidence (textual reference), Explanation',
-                  options: ['PEEL stands for Point (main argument), Evidence (textual reference), Explanation', 'Paragraph, Example, Explain, Line', 'Explanation', 'writing skills based on the chapter'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_10_008 (Imagery and Metaphor) and c11_hin_ar_cbse_10_009 (Irony.',
-                  misconception: 'Students believe "writing skills based on the chapter" means *summarizing the poem in their own words* or *memorizing a model answer*.' },
-                { id: 'b', prompt: 'A student writes: "Meera loves Krishna very much. She says he is her husband. She suffers a lot but still loves him.', answer: 'The answer is a narrative summary, not an analytical response',
-                  options: ['The answer is a narrative summary, not an analytical response', 'writing skills based on the chapter'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_10_008 (Imagery and Metaphor) and c11_hin_ar_cbse_10_009 (Irony.',
-                  misconception: 'Students believe "writing skills based on the chapter" means *summarizing the poem in their own words* or *memorizing a model answer*.' },
-                { id: 'c', prompt: 'Using the PEEL framework, write a 4-sentence analytical paragraph responding to: "How does Meera use the metaphor of marriage in the first pad to express her.', answer: '**Point:** Meera redefines marriage as an exclusive spiritual bond with Krishna,',
-                  options: ['**Point:** Meera redefines marriage as an exclusive spiritual bond with Krishna,', 'writing skills based on the chapter'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_10_008 (Imagery and Metaphor) and c11_hin_ar_cbse_10_009 (Irony.',
-                  misconception: 'Students believe "writing skills based on the chapter" means *summarizing the poem in their own words* or *memorizing a model answer*.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र किसी दिए गए गद्यांश या काव्यांश के आधार',
+                  options: ['पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र किसी दिए गए गद्यांश या काव्यांश के आधार', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटके तो **c11_hin_ar_cbse_10_013 (आलोचनात्मक चिंतन)** और **c11_hin_ar_cbse_10_006 (मुख्य.',
+                  misconception: '**विशिष्ट भ्रांति:** "पाठ-आधारित उत्तर में पाठ के **महत्वपूर्ण शब्द/वाक्य उद्धृत (Quote) कर देना ही पर्याप्त Evidence है।**" **गलत तर्क:**.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a summary instead of analysis: (1) Return the answer with three highlighters — yellow for.', 'Ask: "Where is the green?" (2) Model the conversion: take their summary sentence "Meera suffers pain" → rewrite as "The.', 'Repeat until they can generate analytical language automatically.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'quote-evidence': { steps: ['**चरण 1:** छात्र से कहें — "अपना लिखा उत्तर पढ़ो और हर वाक्य के आगे लिखो: यह Point है / Evidence है / Explanation है.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck, review the metaphor of \'inkoyh\' (weaving) in node c11_hin_ar_cbse_10_008.',
-          misconception: 'Students believe a "good discussion" in Hindi literature means agreeing with the teacher\'s interpretation or the.',
+          question: '"वाचन-श्रवण: चर्चा-बिंदु" refers to the structured pedagogical process where.',
+          hint: 'Review c11_hin_ar_cbse_10_013\'s "Evidence vs. Interpretation" drill and.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "चर्चा-बिंदु" का उत्तर देने का अर्थ है पाठ में से *सही उत्तर ढूंढना* (finding.',
           parts: [
-                { id: 'a', prompt: 'In the poem "ehjk", the line \'valqou ty lhafp&lhafp] izse&csfy cks;h\' uses juxtaposition.', answer: 'The juxtaposition of \'valqou ty\' (calm, cool bank/shore) with \'lhafp&lhafp\'',
-                  options: ['The juxtaposition of \'valqou ty\' (calm, cool bank/shore) with \'lhafp&lhafp\'', 'It shows the weather is hot and cold', 'good discussion'],
-                  hint: 'If stuck, review the metaphor of \'inkoyh\' (weaving) in node c11_hin_ar_cbse_10_008 (Literary.',
-                  misconception: 'Students believe a "good discussion" in Hindi literature means agreeing with the teacher\'s interpretation or the textbook\'s \'vH;kl\'.' },
-                { id: 'b', prompt: 'Analyze how the poet\'s self-identification as a \'julaha\' (weaver) in the introductory prose shapes the *ethos* (credibility/authority) of the speaker in the.', answer: 'The prose introduction establishes Kabir\'s \'julaha\' identity as a lived reality:',
-                  options: ['The prose introduction establishes Kabir\'s \'julaha\' identity as a lived reality:', 'good discussion'],
-                  hint: 'If stuck, review the metaphor of \'inkoyh\' (weaving) in node c11_hin_ar_cbse_10_008 (Literary.',
-                  misconception: 'Students believe a "good discussion" in Hindi literature means agreeing with the teacher\'s interpretation or the textbook\'s \'vH;kl\'.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"वाचन-श्रवण: चर्चा-बिंदु" refers to the structured pedagogical process where students',
+                  options: ['"वाचन-श्रवण: चर्चा-बिंदु" refers to the structured pedagogical process where students', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'Review c11_hin_ar_cbse_10_013\'s "Evidence vs. Interpretation" drill and c11_hin_ar_cbse_10_004\'s.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "चर्चा-बिंदु" का उत्तर देने का अर्थ है पाठ में से *सही उत्तर ढूंढना* (finding the right answer).' }
           ],
-            remediations: { 'a-good-discussion-in-hindi': { steps: ['**Interrupt the memorization loop:** Ask the student to put the textbook/guide away.', 'Give them a single printed stanza (e.g., stanza 2: \'valqou ty...\') and a blank paper.', '**Force textual anchoring:** Set a 5-minute timer: "Write three *genuine* questions this stanza raises for *you*.', 'No \'what does X mean?\', only \'why does the poet...?\' or \'what if...?\'." 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'finding-the-right-answer': { steps: ['**चरणबद्ध उपचार:** 1) **पृथक्करण अभ्यास (Separation Drill):** छात्र को 5 वाक्य दें — 3 तथ्यात्मक (factual), 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

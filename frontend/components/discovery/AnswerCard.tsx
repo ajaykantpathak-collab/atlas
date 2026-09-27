@@ -10,7 +10,15 @@
  * to /learn/{nodeId}. The visible title is always friendlyNodeTitle-form
  * ("Class 10 · Physics · Chapter 1 · Topic 1") via prettyNodeTitle —
  * raw node ids never reach the screen.
+ *
+ * Doubt→Story bridge: when the ask response carries a backend-attached
+ * story_url (the subject-anchored teach lane resolved a corpus node), a
+ * prominent "Open the full Story" button deep-links to Story Mode and
+ * the node's authored walkthrough steps render inline (fetched from the
+ * enrichment endpoint). No story_url → no story button — never a fake
+ * link.
  */
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { ArrowRight, BookOpen, Sparkles, TrendingUp, X } from 'lucide-react'
@@ -28,6 +36,8 @@ export type AtlasAnswer = {
   source: 'live' | 'sample'
   /** resolved graph node id for the gold deep-link card (null = none) */
   nodeId: string | null
+  /** backend-attached Story Mode deep link (null = no node resolved) */
+  storyUrl?: string | null
   /** optional prerequisite names (offline sample lane) */
   prerequisites?: string[]
 }
@@ -61,6 +71,41 @@ function sanitizeAnswerText(text: string): string {
   )
 }
 
+/** Sentence-pair beats from the authored walkthrough, capped at 4 —
+ *  the same deterministic split Story Mode uses. */
+function walkthroughBeats(text: string): string[] {
+  const sentences = String(text || '').match(/[^.!?]+[.!?]+["')\]]*\s*/g) || [String(text || '')]
+  const beats: string[] = []
+  for (let i = 0; i < sentences.length; i += 2) {
+    const beat = sentences.slice(i, i + 2).join(' ').trim()
+    if (beat) beats.push(beat)
+    if (beats.length === 4) break
+  }
+  return beats.map(sanitizeAnswerText).filter(Boolean)
+}
+
+/** The node's authored walkthrough, fetched live from the enrichment
+ *  endpoint. Empty until it lands; failures just leave it empty. */
+function useWalkthroughSteps(nodeId: string | null): string[] {
+  const [steps, setSteps] = useState<string[]>([])
+  useEffect(() => {
+    setSteps([])
+    if (!nodeId) return
+    let alive = true
+    fetch(`/api/content/nodes/${encodeURIComponent(nodeId)}/enrichment`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((d) => {
+        if (!alive) return
+        setSteps(walkthroughBeats(String(d?.text_walkthrough || '')))
+      })
+      .catch(() => {})
+    return () => {
+      alive = false
+    }
+  }, [nodeId])
+  return steps
+}
+
 export default function AnswerCard({
   answer,
   onClose,
@@ -72,6 +117,11 @@ export default function AnswerCard({
   const learnHref = answer.nodeId
     ? `/learn/${encodeURIComponent(answer.nodeId)}`
     : '/signup'
+  const storyHref =
+    answer.storyUrl && answer.storyUrl.startsWith('/learn/')
+      ? answer.storyUrl
+      : null
+  const walkthrough = useWalkthroughSteps(answer.nodeId)
   const bodyText = sanitizeAnswerText(answer.answer)
   const steps = answer.steps.map(sanitizeAnswerText)
 
@@ -126,6 +176,28 @@ export default function AnswerCard({
           </motion.div>
         )}
 
+        {/* Doubt→Story bridge — prominent deep link into Story Mode,
+            only when the ask lane resolved a real corpus node */}
+        {storyHref && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, ease }}
+          >
+            <Link
+              href={storyHref}
+              data-testid="open-story"
+              className="group flex items-center justify-center gap-2.5 w-full rounded-xl border border-gold-400/50 bg-gradient-to-r from-gold-500/[0.16] to-gold-500/[0.06] px-4 py-3.5 transition-all duration-200 hover:border-gold-400/80 hover:shadow-lg hover:shadow-gold-500/15"
+            >
+              <BookOpen className="w-4 h-4 text-gold-300 flex-shrink-0" />
+              <span className="text-sm font-display font-semibold text-gold-200">
+                Open the full Story
+              </span>
+              <ArrowRight className="w-4 h-4 text-gold-300 group-hover:translate-x-0.5 transition-transform" />
+            </Link>
+          </motion.div>
+        )}
+
         {/* Answer body + honesty badge */}
         <div>
           <div className="flex items-center justify-between mb-2 gap-2">
@@ -148,6 +220,34 @@ export default function AnswerCard({
             {bodyText}
           </p>
         </div>
+
+        {/* Walkthrough steps — authored corpus content from the node's
+            enrichment payload, shown when the story resolved */}
+        {storyHref && walkthrough.length > 0 && (
+          <div>
+            <div className="font-display text-xs text-surface-600 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+              <BookOpen className="w-3 h-3" /> From the full Story
+            </div>
+            <div className="space-y-2">
+              {walkthrough.map((s, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.1 + i * 0.07, duration: 0.35, ease }}
+                  className="flex items-start gap-2.5 px-3 py-2 rounded-lg bg-white/5"
+                >
+                  <span className="flex items-center justify-center w-5 h-5 rounded-md bg-gold-400/15 text-[10px] font-display font-bold text-gold-300 flex-shrink-0 mt-0.5">
+                    {i + 1}
+                  </span>
+                  <span className="text-sm text-surface-300 leading-relaxed">
+                    {s}
+                  </span>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Verified solver steps */}
         {steps.length > 0 && (

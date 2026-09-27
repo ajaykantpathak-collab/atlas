@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_v_ch02_p3: SimDef = {
     id: 'v3_c12_hin_v_ch02_p3',
-    title: 'ikB\'kkyk tkus osQ fy, eu rM+irk Fkk · Part 3/3',
+    title: 'जूझ · Part 3/3',
     subtitle: 'She stitched quilts on credit — so the goats could be someone else\'s',
-    classLevel: 12, subject: 'hin_v', topic: 'ikB\'kkyk tkus osQ fy, eu rM+irk Fkk · Part 3/3',
+    classLevel: 12, subject: 'hin_v', topic: 'जूझ · Part 3/3',
     chapters: ['c12_hin_v_ch02'],
     nodeIds: ['c12_hin_v_cbse_02_013', 'c12_hin_v_cbse_02_014', 'c12_hin_v_cbse_02_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,28 +19,15 @@ export const c12_hin_v_ch02_p3: SimDef = {
         hook: 'Read it as calculation, not just sentiment — and notice what the classroom reveals: the fluent classmate\'s ease is cultural capital, not talent. Even the teacher\'s method is real pedagogy — rhythm, repetition and emotion make poems survive decades in a student\'s memory.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis refers to the disciplined process of examining a text beyond its surface meaning to evaluate the author\'s choices, uncover implicit themes, assess the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'जूझ — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) in literary analysis is the disciplined process of actively examining a text\'s structural choices, linguistic devices, and thematic architecture to evaluate *how*.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_v_cbse_02_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Follow a goat-herd into a classroom: weigh a mother\'s economic logic, decode what separates the ready student from the late one, and ask what made one teacher\'s verse unforgettable.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['जूझ — आलोचनात्मक चिंतन', 'जूझ — लेखन कौशल', 'जूझ — वाचन-श्रवण: चर्चा-बिंदु'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_02_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are asked in the board exam: "How does the author use the symbol of the \'pen\' to trace his journey from a reluctant student to a poet?" Most.',
-            decisions: [{ prompt: 'What is the primary narrative perspective used in \'ikB\'kkyk tkus osQ fy, eu rM+irk Fkk\' and how does it limit or expand the reader\'s access.', options: [
-                { text: 'The narrative uses a first-person retrospective perspective (\'eSa\' as adult narrator', outcome: 'The narrative uses a first-person retrospective perspective (\'eSa\' as adult narrator recalling.' },
-                { text: 'The author criticizes his father', outcome: 'Not quite — Students equate \'critical analysis\' with \'finding hidden meanings\' or \'disagreeing with the.', reveals: 'students-equate-critical-analysis-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_v_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a CUET interview panel and asked: "Is the mother\'s decision to force the narrator to school justified, or does it violate his autonomy?" You.',
-            decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in the CBSE Class 12 Hindi Speaking and Listening assessment for a prose chapter like.', options: [
-                { text: 'The primary purpose is to evaluate the student\'s ability to orally analyze literary', outcome: 'The primary purpose is to evaluate the student\'s ability to orally analyze literary elements.' },
-                { text: 'to check if the student read the story', outcome: 'Not quite — Students believe "Speaking and Listening" means *memorizing a speech* on the chapter.', reveals: 'speaking-and-listening-means-memorizing' },
-                { text: 'Speaking and Listening', outcome: 'Not quite — Students believe "Speaking and Listening" means *memorizing a speech* on the chapter.', reveals: 'speaking-and-listening-means-memorizing' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_v_cbse_02_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Profiling a self-made poet for the alumni magazine, you compress his schooling into one line — \'attended village school\' — and spend the word count on his awards. Your subject objects: \'the whole story is in the teacher who stayed after class.\'',
             decisions: [{ prompt: 'What does the pacing of \'पाठशाला जाने के लिए मन तड़पता था\' confirm?', options: [
@@ -60,57 +47,38 @@ export const c12_hin_v_ch02_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis refers to the disciplined process.',
-          hint: 'If stuck on narrative perspective, review c12_hin_v_cbse_02_002 (Plot and Narrative.',
-          misconception: 'Students equate \'critical analysis\' with \'finding hidden meanings\' or \'disagreeing with the author\'.',
+          question: 'आलोचनात्मक चिंतन (Critical Thinking) in literary analysis is the disciplined.',
+          hint: 'यदि फँसे हों, तो **c12_hin_v_cbse_02_008 (बिंब/रूपक)** और **c12_hin_v_cbse_02_009.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "आलोचनात्मक विश्लेषण" = "पाठ की कमियाँ निकालना" या "अपनी निजी राय देना" (जैसे.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why the narrator describes his mother\'s bangles (pah) as \'lwvj\' (wavering/unsteady) in the opening scene.', answer: 'The \'wavering bangles\' symbolize the mother\'s precarious emotional balance',
-                  options: ['The \'wavering bangles\' symbolize the mother\'s precarious emotional balance', 'The author criticizes his father'],
-                  hint: 'If stuck on narrative perspective, review c12_hin_v_cbse_02_002 (Plot and Narrative Structure).',
-                  misconception: 'Students equate \'critical analysis\' with \'finding hidden meanings\' or \'disagreeing with the author\'.' },
-                { id: 'b', prompt: 'Apply the concept of \'dramatic irony\' to the scene where the headmaster (nÙkk th jko) gives the narrator a pen saying, "Write, and don\'t let poverty stop you.".', answer: 'Step 1: Identify the literal event',
-                  options: ['Step 1: Identify the literal event', 'The author criticizes his father'],
-                  hint: 'If stuck on narrative perspective, review c12_hin_v_cbse_02_002 (Plot and Narrative Structure).',
-                  misconception: 'Students equate \'critical analysis\' with \'finding hidden meanings\' or \'disagreeing with the author\'.' },
-                { id: 'c', prompt: 'Analyze how the author structures time in the narrative. The story moves between three distinct temporal layers.', answer: 'Layer 1: Childhood \'present\' (village school, father\'s stick, mother\'s bangles)',
-                  options: ['Layer 1: Childhood \'present\' (village school, father\'s stick, mother\'s bangles)', 'The author criticizes his father'],
-                  hint: 'If stuck on narrative perspective, review c12_hin_v_cbse_02_002 (Plot and Narrative Structure).',
-                  misconception: 'Students equate \'critical analysis\' with \'finding hidden meanings\' or \'disagreeing with the author\'.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) in literary analysis is the disciplined process of',
+                  options: ['आलोचनात्मक चिंतन (Critical Thinking) in literary analysis is the disciplined process of', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि फँसे हों, तो **c12_hin_v_cbse_02_008 (बिंब/रूपक)** और **c12_hin_v_cbse_02_009.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "आलोचनात्मक विश्लेषण" = "पाठ की कमियाँ निकालना" या "अपनी निजी राय देना" (जैसे "मुझे अंत पसंद नहीं.' }
           ],
-            remediations: { 'students-equate-critical-analysis-with': { steps: ['Revisit c12_hin_v_cbse_02_004 (Character Analysis: Protagonist) to re-map the narrator\'s dual position.', 'Re-read the opening and closing paragraphs side-by-side; highlight every verb tense shift (past vs present perfect).', 'Practice the \'What the child saw / What the adult knows\' exercise on three key scenes (pen gift, poetry discovery.', 'Re-attempt Diagnostic Question 4 with this scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students equate \'critical analysis\' with \'finding hidden meanings\' or \'disagreeing with the author\'.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the narrator\'s claim at the end: "My real education began when I stopped fearing the stick and started loving the word." Is this a reliable.', answer: 'It is a *romanticized construction*',
-                  options: ['It is a *romanticized construction*', 'The author criticizes his father'],
-                  hint: 'If stuck on narrative perspective, review c12_hin_v_cbse_02_002 (Plot and Narrative Structure).',
-                  misconception: 'Students equate \'critical analysis\' with \'finding hidden meanings\' or \'disagreeing with the author\'.' }
-          ],
-            remediations: { 'students-equate-critical-analysis-with': { steps: ['Revisit c12_hin_v_cbse_02_004 (Character Analysis: Protagonist) to re-map the narrator\'s dual position.', 'Re-read the opening and closing paragraphs side-by-side; highlight every verb tense shift (past vs present perfect).', 'Practice the \'What the child saw / What the adult knows\' exercise on three key scenes (pen gift, poetry discovery.', 'Re-attempt Diagnostic Question 4 with this scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'internal-logic': { steps: ['**चरण 1:** छात्र से कहें: "पाठ का कोई **एक वाक्य** चुनो जो तुम्हें \'महत्वपूर्ण\' लगा। अब बताओ: **लेखक ने यह वाक्य *यहाँ*.', 'अगर यह वाक्य हटा दें तो क्या खो जाएगा?" — यह **कथात्मक कार्य (narrative function)** सिखाता है। **चरण 2:** उन्हें **PEEL.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
-          hint: 'If stuck, revisit **c12_hin_v_cbse_02_013 (Critical Thinking)** — specifically the.',
-          misconception: '**विशिष्ट भ्रांति:** "लेखन कौशल (Writing Skills) का अर्थ है पाठ का सारांश (summary) लिखना या पात्रों का वर्णन करना।".',
+          question: 'पाठ-आधारित लेखन कौशल का अर्थ है: दिए गए पाठ (यहाँ \'जूझ\') के विशिष्ट अंशों.',
+          hint: 'यदि फंसें तो: c12_hin_v_cbse_02_004 (पात्र-चित्रण) और c12_hin_v_cbse_02_006 (मुख्य विषय).',
+          misconception: 'छात्र मानते हैं कि \'पाठ-आधारित लेखन\' का अर्थ है पाठ का सारांश लिखना या पात्र की जीवनी दोहराना। वे \'विश्लेषण\' और \'वर्णन\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing Skills based on the chapter refers to the ability to compose structured,',
-                  options: ['Writing Skills based on the chapter refers to the ability to compose structured,', '"Before You Read: Context and Background" prepares students to engage deeply with the', 'Plot and narrative structure refers to the organized sequence of events in a story (plot)', 'Setting and atmosphere refer to the time, place, physical environment, and emotional mood'],
-                  hint: 'If stuck, revisit **c12_hin_v_cbse_02_013 (Critical Thinking)** — specifically the.',
-                  misconception: '**विशिष्ट भ्रांति:** "लेखन कौशल (Writing Skills) का अर्थ है पाठ का सारांश (summary) लिखना या पात्रों का वर्णन करना।" **क्यों गलत है:** CBSE.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल का अर्थ है: दिए गए पाठ (यहाँ \'जूझ\') के विशिष्ट अंशों, संवादों,',
+                  options: ['पाठ-आधारित लेखन कौशल का अर्थ है: दिए गए पाठ (यहाँ \'जूझ\') के विशिष्ट अंशों, संवादों,', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि फंसें तो: c12_hin_v_cbse_02_004 (पात्र-चित्रण) और c12_hin_v_cbse_02_006 (मुख्य विषय) दोबारा.',
+                  misconception: 'छात्र मानते हैं कि \'पाठ-आधारित लेखन\' का अर्थ है पाठ का सारांश लिखना या पात्र की जीवनी दोहराना। वे \'विश्लेषण\' और \'वर्णन\' का अंतर नहीं समझते।.' }
           ],
-            remediations: { 'writing-skills-summary-cbse-cuet': { steps: ['**चरण 1:** छात्र से कहें: "एक बोर्ड-शैली प्रश्न चुनो (उदाहरण: \'माँ के चरित्र का चित्रण कीजिए\') और 5 मिनट में **बिना.', '- ☐ Evidence: क्या पाठ से 2 सटीक संदर्भ/उद्धरण हैं?', '- ☐ Explanation: क्या प्रत्येक साक्ष्य का *अर्थ* समझाया गया है?', '- ☐ Link: क्या अंतिम वाक्य थीम/प्रश्न से जुड़ता है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को PEEL संरचना का एक खाका (template) दें: "बिंदु: ______, प्रमाण: \'पाठ से सटीक पंक्ति\', व्याख्या: \'यह प्रमाण.', '\'जूझ\' के 5 प्रमुख प्रसंग चुनें (जैसे: गाँव में रहना, शब्दकोश निर्माण, हिंदी आंदोलन, ग्रामीणों से सीखना, अंतिम दिन) और.', 'छात्र से कहें: "पहले केवल प्रमाण ढूंढो, फिर लिखो।" 4.', 'पुनः निदान: वही प्रश्न दें, देखें कि क्या अब प्रमाण + व्याख्या + जुड़ाव है।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck, return to c12_hin_v_cbse_02_013 and complete the "Critical Thinking: Analysis.',
-          misconception: 'Students believe "Speaking and Listening" means *memorizing a speech* on the chapter.',
+          question: 'चर्चा-बिंदु (Discussion Points) are open-ended, text-anchored prompts designed.',
+          hint: 'यदि छात्र चर्चा में मौन रह जाएँ या केवल व्यक्तिगत राय दें — तुरंत **c12_hin_v_cbse_02_013.',
+          misconception: '**सबसे घातक भ्रम:** छात्र (और कई शिक्षक) मानते हैं कि चर्चा-बिंदु का उद्देश्य **\'सही उत्तर\' तक पहुँचना** है।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', '"Before You Read: Context and Background" prepares students to engage deeply with the', 'Plot and narrative structure refers to the organized sequence of events in a story (plot)', 'Setting and atmosphere refer to the time, place, physical environment, and emotional mood'],
-                  hint: 'If stuck, return to c12_hin_v_cbse_02_013 and complete the "Critical Thinking: Analysis and.',
-                  misconception: 'Students believe "Speaking and Listening" means *memorizing a speech* on the chapter.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'चर्चा-बिंदु (Discussion Points) are open-ended, text-anchored prompts designed to',
+                  options: ['चर्चा-बिंदु (Discussion Points) are open-ended, text-anchored prompts designed to', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि छात्र चर्चा में मौन रह जाएँ या केवल व्यक्तिगत राय दें — तुरंत **c12_hin_v_cbse_02_013.',
+                  misconception: '**सबसे घातक भ्रम:** छात्र (और कई शिक्षक) मानते हैं कि चर्चा-बिंदु का उद्देश्य **\'सही उत्तर\' तक पहुँचना** है। **वास्तविकता:** चर्चा-बिंदु का.' }
           ],
-            remediations: { 'speaking-and-listening-means-memorizing': { steps: ['If a student freezes or recites a script: 1.', '**Interrupt gently:** "Ruko.', 'Ab mujhe batao: Nanak Singh ne tumhe sabse zyada kya diya — kavita ya aatmvishwas?" (Force spontaneous answer).', '**Model the framework:** Demonstrate Stance-Evidence-Counter-Synthesis for that exact question in 60 seconds.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**चरण 1 (निदान):** छात्र से कहें: *"तुम्हारे अनुसार इस चर्चा-बिंदु का \'सही उत्तर\' क्या है?"* — यदि वे एक वाक्य में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

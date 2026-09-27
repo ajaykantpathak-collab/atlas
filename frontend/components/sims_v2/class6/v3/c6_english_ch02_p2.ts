@@ -8,7 +8,7 @@ export const c6_english_ch02_p2: SimDef = {
     subtitle: 'This node covers vocabulary analysis within the provided unit (Wit and Humour/Friendship).',
     classLevel: 6, subject: 'english', topic: 'Wit and Humour · Part 2/2',
     chapters: ['c6_english_ch02'],
-    nodeIds: ['c6_english_u2_017', 'c6_english_u2_011', 'c6_english_u2_019', 'c6_english_u2_012'],
+    nodeIds: ['c6_english_u2_017', 'c6_english_u2_018', 'c6_english_u2_019', 'c6_english_u2_020'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever seen a word in a story that you didn\'t know, but you still understood what was happening?', goal: 'Master every idea in this chapter.' },

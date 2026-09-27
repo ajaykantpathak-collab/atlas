@@ -1,38 +1,22 @@
-const withPWA = require("next-pwa")({
-  dest: "public",
-  register: true,
-  skipWaiting: true,
-  disable: process.env.NODE_ENV === "development",
-  // ── Precache hygiene (Phase 5.1, 2026-09-16) ──────────────────────────
-  // public/ carries ~4.9GB of on-demand assets: doodle_cards/ is 9,024
-  // files / 4.8GB, sims/ is 2,520 files / 75MB, plus rive/ and data/.
-  // next-pwa globs ALL of public/ into the SW precache manifest, which
-  // (a) made the generated sw.js blow past 500KB (the ">500KB" build
-  // warning) and (b) would make a service-worker install try to download
-  // ~4.9GB. These trees stay SERVED as-is; they are simply never swept
-  // into the precache. ('!noprecache/**/*' is the plugin default, kept.)
-  publicExcludes: [
-    "!noprecache/**/*",
-    "!doodle_cards/**/*",
-    "!sims/**/*",
-    "!rive/**/*",
-    "!data/**/*",
-  ],
-  // The /sims-v2 route emits a ~2.6MB shared chunk (sim registry + engine,
-  // chunks/41779-* in the 2026-09 build). Workbox's default
-  // maximumFileSizeToCacheInBytes is 2MB, so that chunk was dropped from
-  // the precache with a "exceeds size, not precached" warning on every
-  // build. Ship decision: RAISE the ceiling to 5MB so the chunk precaches
-  // cleanly and /sims-v2 keeps working offline — a bounded ~2.6MB one-time
-  // install cost, versus excluding it and silently losing offline support.
-  maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
-});
-
+// PWA note (2026-09-19): next-pwa was REMOVED from the build pipeline.
+// Its workbox precache SW was the original offender — it cached dead chunk
+// hashes and served a stale app (purged via /unregister-sw), and any prod
+// build would regenerate public/sw.js over the hand-written worker.
+// Atlas now ships a hand-written, versioned service worker at public/sw.js
+// (app shell + stale-while-revalidate static/game data + network-first API
+// with honest offline fallbacks), registered from the student/premium
+// layouts via components/pwa/PWAProvider. Nothing here may inject or
+// generate another service worker.
 const createNextIntlPlugin = require('next-intl/plugin');
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 const nextConfig = {
   reactStrictMode: true,
+  // Isolated build dir for parallel sessions: two `next dev`/`next build`
+  // processes in this tree (multiple agents share it) trample each other's
+  // .next artifacts and randomly 404 existing routes. Set NEXT_DIST_DIR to
+  // give a second instance its own build output; unset = default '.next'.
+  distDir: process.env.NEXT_DIST_DIR || ".next",
   // Dockerfile.frontend copies .next/standalone — required or stage 3 fails.
   output: "standalone",
   // Type gate is `npx tsc --noEmit` (passes clean as of the sim-JSON emit
@@ -51,7 +35,7 @@ const nextConfig = {
       { source: "/competency-tutor", destination: "/tutor", permanent: false },
       { source: "/tutoring", destination: "/tutor", permanent: false },
       // Exam variants → /exam (canonical exam player; attempts live at /exam/[examId]).
-      { source: "/exam-prep", destination: "/exam", permanent: false },
+      // (/exam-prep is NO LONGER redirected — it is now the Pre-Board Simulator page.)
       { source: "/exam-simulator", destination: "/exam", permanent: false },
       { source: "/exam-simulator/:examId", destination: "/exam/:examId", permanent: false },
       // One Atlas showcase: the design-system preview folds into the real app.
@@ -79,4 +63,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withNextIntl(withPWA(nextConfig));
+module.exports = withNextIntl(nextConfig);

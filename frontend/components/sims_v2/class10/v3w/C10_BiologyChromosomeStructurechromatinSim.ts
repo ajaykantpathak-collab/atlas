@@ -125,7 +125,7 @@ export const w_c10_biologychromosomestructurechromatinsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think the 9:3:3:1 ratio appears in the F1 generation, or that the F1 plants show all four phenotypes.',
           parts: [
-                { id: 'a', prompt: 'A student claims: "The 9:3:3:1 ratio proves that the genes for seed shape and seed colour are on different chromosomes." Evaluate this statement.', answer: 'Correct answer: Partially correct',
+                { id: 'a', prompt: 'A student claims: "The 9:3:3:1 ratio proves that the genes for seed shape and seed colour are on different chromosomes." Evaluate this statement.', answer: 'Partially correct',
                   options: ['Correct answer: Partially correct', 'fully correct', 'incorrect'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think the 9:3:3:1 ratio appears in the F1 generation, or that the F1 plants show all four phenotypes.' }
@@ -136,7 +136,7 @@ export const w_c10_biologychromosomestructurechromatinsim: SimDef = {
           hint: 'Revisit c9_bio_ch1_12 (Cell Division: Mitosis and Meiosis) and focus on the difference.',
           misconception: 'Students often think "dominance means the dominant allele physically suppresses or destroys the recessive allele." In.',
           parts: [
-                { id: 'a', prompt: 'In a dihybrid cross between two heterozygous parents (RrYy × RrYy), the phenotypic ratio is 9:3:3:1.', answer: 'Correct answer: The 9:3:3:1 ratio arises',
+                { id: 'a', prompt: 'In a dihybrid cross between two heterozygous parents (RrYy × RrYy), the phenotypic ratio is 9:3:3:1.', answer: 'The 9:3:3:1 ratio arises',
                   options: ['Correct answer: The 9:3:3:1 ratio arises', 'the ratio is 9:3:3:1'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "dominance means the dominant allele physically suppresses or destroys the recessive allele." In reality, dominance is.' }

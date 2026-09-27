@@ -861,7 +861,7 @@ export function PrismGraphOrb({ size = 32, className = '' }: { size?: number; cl
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   PrismGraphWordmark — graph orb + "Prism" text. Used in navigation.
+   PrismGraphWordmark — graph orb + "Atlas" text. Used in navigation.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 export function PrismGraphWordmark({ className = '' }: { className?: string }) {

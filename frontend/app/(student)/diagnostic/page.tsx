@@ -15,10 +15,60 @@ import {
   type Subject as DiagSubject,
 } from "@/services/diagnostic.service";
 import { useAuthStore } from "@/stores/authStore";
+import { getAuthToken, refreshOn401 } from "@/lib/api";
+import { matchFreeText } from "@/lib/answerMatch";
+import { sanitizeHtml } from "@/lib/sanitize";
+import { fetchRescueHint, isNodeId } from "@/lib/examReady";
+import AskHelpPanel from "@/components/student/AskHelpPanel";
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
-type Subject = "math" | "science" | "english";
+type Subject =
+  | "math" | "science" | "english"
+  | "physics" | "chemistry" | "biology"
+  | "hindi" | "history" | "geography" | "economics" | "computer_science";
+
+// chapter chips per subject — used for the local fallback bank + display;
+// the API diagnostic engine adapts within the subject regardless.
+// DIAG-03: these were senior-only labels (Calculus, Freedom Struggle,
+// Money & Credit) shown to every grade — a Class 6 child was offered
+// Class 10-12 chapters. Now class-banded: 6-8 get middle-school strands,
+// 9-10 get board strands, 11-12 get senior strands.
+const SUBJECT_CHAPTERS_JUNIOR: Record<Subject, string[]> = {
+  math: ["Numbers", "Fractions", "Geometry", "Mensuration"],
+  science: ["Food", "Materials", "Plants", "Motion & Measurement"],
+  english: ["Grammar", "Comprehension", "Writing"],
+  physics: ["Motion", "Force", "Energy"],
+  chemistry: ["Materials", "Air & Water"],
+  biology: ["Plants", "Body", "Food & Health"],
+  hindi: ["व्याकरण", "गद्य", "पद्य", "लेखन"],
+  history: ["Early Societies", "Kingdoms", "Heritage"],
+  geography: ["Earth", "Maps", "Environment"],
+  economics: ["Livelihoods", "Markets"],
+  computer_science: ["Computers", "Internet Safety", "Typing"],
+};
+const SUBJECT_CHAPTERS: Record<Subject, string[]> = {
+  math: ["Algebra", "Geometry", "Trigonometry", "Calculus"],
+  science: ["Physics", "Chemistry", "Biology"],
+  english: ["Grammar", "Comprehension", "Writing"],
+  physics: ["Motion", "Electricity", "Light", "Magnetism"],
+  chemistry: ["Atoms & Molecules", "Reactions", "Acids & Bases", "Metals"],
+  biology: ["Life Processes", "Cell", "Heredity", "Ecology"],
+  hindi: ["व्याकरण", "गद्य", "पद्य", "लेखन"],
+  history: ["Nationalism", "Industrialisation", "Freedom Struggle", "Modern World"],
+  geography: ["Resources", "Agriculture", "Industries", "Climate"],
+  economics: ["Development", "Sectors", "Money & Credit", "Globalisation"],
+  computer_science: ["Programming", "Data Structures", "Databases", "Networks"],
+};
+
+import { isJunior } from '@/lib/classBands'
+
+function chaptersFor(subject: Subject, classLevel?: number | null): string[] {
+  // Junior is classes 1-5 (see lib/classBands). This read `<= 8`, so the
+  // junior chapter list was handed to classes 6, 7 and 8 as well.
+  if (isJunior(classLevel)) return SUBJECT_CHAPTERS_JUNIOR[subject] ?? SUBJECT_CHAPTERS[subject];
+  return SUBJECT_CHAPTERS[subject];
+}
 type Phase = "setup" | "active" | "calculating" | "results" | "remediation";
 
 type Difficulty = "easy" | "medium" | "hard";
@@ -37,6 +87,8 @@ interface Question {
   correctAnswer: number | string;
   explanation: string;
   misconception?: string;
+  // Backing corpus node — powers the "I don't get it" hint (fetch param).
+  nodeId?: string | null;
 }
 
 interface SubskillResult {
@@ -63,9 +115,11 @@ const translations = {
   en: {
     selectSubject: "Select Subject",
     selectChapter: "Select Chapter",
-    startDiagnostic: "Start Diagnostic",
-    timeEstimate: "⏱️ This will take about 15 minutes.",
-    subtitle: "We'll find out what you know and what you need to learn.",
+    chapterAutoPicked: "We picked a starting chapter for your class — change it if you like.",
+    startDiagnostic: "Find my level",
+    pickSubjectToStart: "Pick a subject above to start — that's all it takes.",
+    timeEstimate: "⏱️ Just 5 quick questions — about 3 minutes.",
+    subtitle: "A few questions so we can start you at exactly the right spot — not too easy, not too hard.",
     ready: "Ready?",
     math: "Mathematics",
     science: "Science",
@@ -78,18 +132,18 @@ const translations = {
     submit: "Submit",
     next: "Next",
     timeRemaining: "Time",
-    resultsTitle: "Your Diagnostic Results",
-    overallMastery: "Overall Mastery",
-    strongAreas: "💪 Strong Areas",
-    weakAreas: "📚 Needs Practice",
-    misconceptions: "⚠️ Misconceptions Identified",
-    remediationPath: "🗺️ Your Remediation Path",
-    startRemediation: "Start Remediation",
-    retakeDiagnostic: "Retake Diagnostic",
+    resultsTitle: "Your Level Check",
+    overallMastery: "Your Level",
+    strongAreas: "💪 Things you already know",
+    weakAreas: "📚 Things to practice",
+    misconceptions: "⚠️ Tricky spots we spotted",
+    remediationPath: "🗺️ Your fix-it plan",
+    startRemediation: "Start my fix-it plan",
+    retakeDiagnostic: "Check again",
     masteryHigh: "Excellent!",
     masteryMedium: "Good Progress",
     masteryLow: "Let's Build Up",
-    remediationTitle: "Your Learning Plan",
+    remediationTitle: "Your Fix-It Plan",
     day: "Day",
     minutes: "min",
     startActivity: "Start",
@@ -99,14 +153,14 @@ const translations = {
     correct: "correct",
     incorrect: "incorrect",
     explanation: "Explanation",
-    subskillLabel: "Subskill",
+    subskillLabel: "Topic",
     questionsLabel: "questions",
-    masteryPercent: "% mastery",
+    masteryPercent: "mastery",
     yourProgress: "Your Progress",
     activityLabel: "Activity",
     durationLabel: "Duration",
     notAttempted: "Not attempted",
-    diagnosticComplete: "Diagnostic Complete!",
+    diagnosticComplete: "Level check complete!",
     selectSubjectFirst: "Please select a subject first.",
     selectChapterFirst: "Please select a chapter.",
     confirmQuit: "Are you sure you want to quit? Progress will be lost.",
@@ -115,12 +169,19 @@ const translations = {
     quit: "Quit",
     langLabel: "Language",
     offlineReady: "✅ Available offline",
+    offlineSet: "Practice set",
+    offlineSetNote: "Your saved offline set — the full level check needs internet.",
+    lastCheckTitle: "Your last level check",
+    seeResults: "See my results",
+    partCredit: "Partly there — you found one part of the answer.",
   },
   hi: {
     selectSubject: "विषय चुनें",
     selectChapter: "अध्याय चुनें",
+    chapterAutoPicked: "हमने आपकी कक्षा के लिए एक अध्याय चुना है — आप इसे बदल सकते हैं।",
     startDiagnostic: "डायग्नोस्टिक शुरू करें",
-    timeEstimate: "⏱️ इसमें लगभग 15 मिनट लगेंगे।",
+    pickSubjectToStart: "शुरू करने के लिए ऊपर एक विषय चुनें — बस इतना ही।",
+    timeEstimate: "⏱️ सिर्फ़ 5 छोटे सवाल — लगभग 3 मिनट।",
     subtitle: "हम यह पता लगाएंगे कि आप क्या जानते हैं और क्या सीखने की आवश्यकता है।",
     ready: "तैयार हैं?",
     math: "गणित",
@@ -134,14 +195,14 @@ const translations = {
     submit: "जमा करें",
     next: "अगला",
     timeRemaining: "समय",
-    resultsTitle: "आपके डायग्नोस्टिक परिणाम",
-    overallMastery: "कुल मास्टरी",
-    strongAreas: "💪 मजबूत क्षेत्र",
-    weakAreas: "📚 अभ्यास की आवश्यकता",
-    misconceptions: "⚠️ गलत धारणाएं",
+    resultsTitle: "आपकी लेवल जाँच",
+    overallMastery: "आपका लेवल",
+    strongAreas: "💪 जो आपको पहले से आता है",
+    weakAreas: "📚 जिनका अभ्यास चाहिए",
+    misconceptions: "⚠️ जहाँ गलती हुई",
     remediationPath: "🗺️ आपकी सुधार योजना",
-    startRemediation: "सुधार शुरू करें",
-    retakeDiagnostic: "दोबारा परीक्षण करें",
+    startRemediation: "मेरी सुधार योजना शुरू करें",
+    retakeDiagnostic: "फिर जाँचें",
     masteryHigh: "उत्कृष्ट!",
     masteryMedium: "अच्छी प्रगति",
     masteryLow: "आइए मजबूत करें",
@@ -155,9 +216,9 @@ const translations = {
     correct: "सही",
     incorrect: "गलत",
     explanation: "व्याख्या",
-    subskillLabel: "उपकौशल",
+    subskillLabel: "विषय",
     questionsLabel: "प्रश्न",
-    masteryPercent: "% मास्टरी",
+    masteryPercent: "मास्टरी",
     yourProgress: "आपकी प्रगति",
     activityLabel: "गतिविधि",
     durationLabel: "अवधि",
@@ -171,12 +232,19 @@ const translations = {
     quit: "छोड़ें",
     langLabel: "भाषा",
     offlineReady: "✅ ऑफलाइन उपलब्ध",
+    offlineSet: "अभ्यास सेट",
+    offlineSetNote: "आपका सहेजा हुआ ऑफ़लाइन सेट — पूरी लेवल जाँच के लिए इंटरनेट चाहिए।",
+    lastCheckTitle: "आपकी पिछली लेवल जाँच",
+    seeResults: "मेरे परिणाम देखें",
+    partCredit: "थोड़ा सही — आपको उत्तर का एक हिस्सा मिला।",
   },
   hinglish: {
     selectSubject: "Subject Choose Karo",
     selectChapter: "Chapter Choose Karo",
-    startDiagnostic: "Diagnostic Shuru Karo",
-    timeEstimate: "⏱️ Ismein 15 minute lagenge.",
+    chapterAutoPicked: "Humne aapki class ke liye ek chapter chuna hai — change kar sakte ho.",
+    startDiagnostic: "Mera level find karo",
+    pickSubjectToStart: "Shuru karne ke liye upar subject choose karo — bas itna hi.",
+    timeEstimate: "⏱️ Bas 5 quick questions — karib 3 minute.",
     subtitle: "Hum batayenge ki aap kya jaante ho aur kya seekhne ki zaroorat hai.",
     ready: "Ready Ho?",
     math: "Mathematics",
@@ -190,14 +258,14 @@ const translations = {
     submit: "Submit",
     next: "Next",
     timeRemaining: "Time",
-    resultsTitle: "Aapke Diagnostic Results",
-    overallMastery: "Overall Mastery",
-    strongAreas: "💪 Strong Areas",
+    resultsTitle: "Aapka Level Check",
+    overallMastery: "Aapka Level",
+    strongAreas: "💪 Jo aapko aata hai",
     weakAreas: "📚 Practice Chahiye",
-    misconceptions: "⚠️ Galat Samajh",
-    remediationPath: "🗺️ Aapki Learning Plan",
-    startRemediation: "Remediation Shuru Karo",
-    retakeDiagnostic: "Phir Se Test Karo",
+    misconceptions: "⚠️ Jahan galti hui",
+    remediationPath: "🗺️ Aapki Fix-It Plan",
+    startRemediation: "Meri fix-it plan shuru karo",
+    retakeDiagnostic: "Phir se check karo",
     masteryHigh: "Bahut Badhiya!",
     masteryMedium: "Achha Progress",
     masteryLow: "Chalo Thoda Mehnat Karte Hain",
@@ -211,9 +279,9 @@ const translations = {
     correct: "Sahi",
     incorrect: "Galat",
     explanation: "Explanation",
-    subskillLabel: "Subskill",
+    subskillLabel: "Topic",
     questionsLabel: "questions",
-    masteryPercent: "% mastery",
+    masteryPercent: "mastery",
     yourProgress: "Tumhari Progress",
     activityLabel: "Activity",
     durationLabel: "Duration",
@@ -227,6 +295,11 @@ const translations = {
     quit: "Quit",
     langLabel: "Language",
     offlineReady: "✅ Offline Available",
+    offlineSet: "Practice set",
+    offlineSetNote: "Saved offline set — full level check needs internet.",
+    lastCheckTitle: "Your last level check",
+    seeResults: "See my results",
+    partCredit: "Thoda sahi — ek part mila, poora answer dekho.",
   },
 } as const;
 
@@ -237,7 +310,10 @@ const LANG_ORDER: Lang[] = ["en", "hinglish", "hi"];
 
 // ─── Question Bank ─────────────────────────────────────────────────────────
 
-const QUESTION_BANK: Record<Subject, Record<string, Question[]>> = {
+// Partial: the offline fallback honestly covers only the subjects with an
+// authored mini-bank (math/science/english); every other subject resolves
+// through the API engine, and the accessors below already fall back to [].
+const QUESTION_BANK: Partial<Record<Subject, Record<string, Question[]>>> = {
   math: {
     Algebra: [
       {
@@ -480,7 +556,9 @@ const QUESTION_BANK: Record<Subject, Record<string, Question[]>> = {
 
 // ─── Remediation Data ──────────────────────────────────────────────────────
 
-const REMEDIATION_TEMPLATES: Record<Subject, RemediationStep[]> = {
+// Partial, same honesty rule as QUESTION_BANK: templates exist only for the
+// subjects the offline flow can actually diagnose; the accessor falls back.
+const REMEDIATION_TEMPLATES: Partial<Record<Subject, RemediationStep[]>> = {
   math: [
     { day: 1, title: "Linear Equations", description: "Master solving one-variable linear equations.", activity: "5 practice problems + video lesson", duration: "20 min", completed: false },
     { day: 2, title: "Geometry Basics", description: "Learn area and perimeter formulas.", activity: "Interactive geometry worksheet", duration: "25 min", completed: false },
@@ -551,8 +629,12 @@ function computeSubskillResults(questions: Question[], answers: (number | string
   questions.forEach((q, i) => {
     const existing = map.get(q.subskill) || { correct: 0, total: 0 };
     existing.total++;
-    const isCorrect = answers[i] !== null && answers[i] !== undefined &&
-      String(answers[i]).toLowerCase() === String(q.correctAnswer).toLowerCase();
+    const a = answers[i];
+    const isCorrect = a !== null && a !== undefined && (
+      q.type === "mcq"
+        ? a === q.correctAnswer
+        : matchFreeText(String(a), String(q.correctAnswer)) === "correct"
+    );
     if (isCorrect) existing.correct++;
     if (!isCorrect && q.misconception && !existing.misconception) {
       existing.misconception = q.misconception;
@@ -573,6 +655,28 @@ function computeSubskillResults(questions: Question[], answers: (number | string
 // ─── Local Storage ─────────────────────────────────────────────────────────
 
 const STORAGE_KEY = "diagnostic_state_v1";
+const RESULTS_KEY = "atlas_diag_result_v1";
+
+interface SavedResult {
+  savedAt: string;
+  subject: string;
+  chapter: string;
+  mastery: number;
+  subskillResults: SubskillResult[];
+  questions: Question[];
+  answers: (number | string | null)[];
+}
+
+function saveResult(r: SavedResult) {
+  try { localStorage.setItem(RESULTS_KEY, JSON.stringify(r)); } catch {}
+}
+
+function loadResult(): SavedResult | null {
+  try {
+    const raw = localStorage.getItem(RESULTS_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch { return null; }
+}
 
 function saveState(state: unknown) {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch {}
@@ -648,7 +752,7 @@ function LangSwitcher({ lang, onChange }: { lang: Lang; onChange: (l: Lang) => v
           aria-checked={lang === l}
           onClick={() => onChange(l)}
           className={`px-3 py-1.5 text-xs font-semibold rounded-full transition-all duration-300
-            ${lang === l ? "bg-white text-indigo-700 shadow-md" : "text-white/70 hover:text-white hover:bg-white/10"}`}
+            ${lang === l ? "bg-white text-slate-900 shadow-md" : "text-white/70 hover:text-white hover:bg-white/10"}`}
         >
           {labels[l]}
         </button>
@@ -674,6 +778,14 @@ function SubjectCard({
     math: "from-blue-500 to-indigo-600",
     science: "from-emerald-500 to-teal-600",
     english: "from-pink-500 to-rose-600",
+    physics: "from-sky-500 to-blue-600",
+    chemistry: "from-violet-500 to-purple-600",
+    biology: "from-green-500 to-emerald-600",
+    hindi: "from-orange-500 to-amber-600",
+    history: "from-amber-500 to-yellow-600",
+    geography: "from-teal-500 to-cyan-600",
+    economics: "from-lime-500 to-green-600",
+    computer_science: "from-cyan-500 to-sky-600",
   };
 
   return (
@@ -690,7 +802,7 @@ function SubjectCard({
         <span className="text-4xl">{icon}</span>
         <div>
           <p className="text-white font-bold text-lg">{label}</p>
-          <p className="text-white/60 text-sm">Class 8 – 10</p>
+          <p className="text-white/60 text-sm">Class 6 – 12</p>
         </div>
         {selected && (
           <motion.div
@@ -719,7 +831,7 @@ function ChapterChips({ chapters, selected, onSelect }: { chapters: string[]; se
           onClick={() => onSelect(ch)}
           className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 border
             ${selected === ch
-              ? "bg-white text-indigo-700 border-white shadow-lg"
+              ? "bg-white text-slate-900 border-white shadow-lg"
               : "bg-white/10 text-white/80 border-white/20 hover:bg-white/20"}`}
           role="radio"
           aria-checked={selected === ch}
@@ -733,6 +845,98 @@ function ChapterChips({ chapters, selected, onSelect }: { chapters: string[]; se
 
 // ─── Setup Screen ──────────────────────────────────────────────────────────
 
+// Which corpus subject codes each diagnostic subject maps to — used with
+// /api/nodes/stats `per_class_subject` counts to hide subjects the
+// student's class has NO content for (C10 audit: the UI advertised a Hindi
+// card to a class-10 account whose class has zero Hindi nodes, and the
+// diagnostic then died in a 503).
+const SUBJECT_CORPUS_CODES: Record<string, string[]> = {
+  math: ["math", "maths", "mathematics"],
+  // junior classes store full-word subject codes (physics/chemistry), senior
+  // classes short codes (phy/chem); grammar rides English; civics rides
+  // History as the social-science card.
+  science: ["phy", "physics", "chem", "chemistry", "bio", "biology", "sci"],
+  english: ["engl", "english", "eng", "gram", "grammar"],
+  physics: ["phy", "physics"],
+  chemistry: ["chem", "chemistry"],
+  biology: ["bio", "biology"],
+  // hindi books: hin (c6-8), hin_ga (c9), hin_kr/ks/sp (c10), hin_a/ar/al/v (c11-12)
+  hindi: ["hin", "hin_a", "hin_ar", "hin_al", "hin_v", "hin_b", "hin_ga",
+    "hin_kr", "hin_ks", "hin_sp", "hindi"],
+  history: ["hist", "history", "civ", "civics"],
+  geography: ["geo", "geography"],
+  economics: ["eco", "economics"],
+  computer_science: ["cs", "comp", "computer"],
+};
+
+// CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 2): a subject tap is all it
+// takes to start — the chapter is auto-picked per class band from the
+// corpus chapters this diagnostic actually serves (the API engine is
+// class-aware; the chip only aims the local fallback bank and the label).
+// Children never see a hidden second step before the button comes alive.
+const CHAPTERS_BY_CLASS_BAND: Record<Subject, { max: number; chapter: string }[]> = {
+  math: [
+    { max: 8, chapter: "Algebra" },
+    { max: 10, chapter: "Algebra" },
+    { max: 12, chapter: "Calculus" },
+  ],
+  science: [
+    { max: 7, chapter: "Biology" },
+    { max: 10, chapter: "Physics" },
+    { max: 12, chapter: "Chemistry" },
+  ],
+  english: [
+    { max: 5, chapter: "Grammar" },
+    { max: 8, chapter: "Comprehension" },
+    { max: 12, chapter: "Writing" },
+  ],
+  physics: [
+    { max: 8, chapter: "Light" },
+    { max: 10, chapter: "Electricity" },
+    { max: 12, chapter: "Motion" },
+  ],
+  chemistry: [
+    { max: 8, chapter: "Acids & Bases" },
+    { max: 10, chapter: "Atoms & Molecules" },
+    { max: 12, chapter: "Reactions" },
+  ],
+  biology: [
+    { max: 8, chapter: "Cell" },
+    { max: 10, chapter: "Life Processes" },
+    { max: 12, chapter: "Ecology" },
+  ],
+  hindi: [
+    { max: 5, chapter: "व्याकरण" },
+    { max: 10, chapter: "गद्य" },
+    { max: 12, chapter: "पद्य" },
+  ],
+  history: [
+    { max: 5, chapter: "Freedom Struggle" },
+    { max: 10, chapter: "Nationalism" },
+    { max: 12, chapter: "Modern World" },
+  ],
+  geography: [
+    { max: 5, chapter: "Resources" },
+    { max: 10, chapter: "Agriculture" },
+    { max: 12, chapter: "Climate" },
+  ],
+  economics: [
+    { max: 10, chapter: "Development" },
+    { max: 12, chapter: "Money & Credit" },
+  ],
+  computer_science: [
+    { max: 10, chapter: "Programming" },
+    { max: 12, chapter: "Databases" },
+  ],
+};
+
+function autoChapterForClass(subject: Subject, classLevel?: number): string {
+  const bands = CHAPTERS_BY_CLASS_BAND[subject] ?? [];
+  const cls = classLevel ?? 0;
+  const band = bands.find((b) => cls <= b.max) ?? bands[bands.length - 1];
+  return band?.chapter ?? "";
+}
+
 function SetupScreen({
   lang,
   t,
@@ -741,6 +945,10 @@ function SetupScreen({
   chapter,
   setChapter,
   onStart,
+  classLevel,
+  corpusByClass,
+  lastResult,
+  onSeeLastResult,
 }: {
   lang: Lang;
   t: Translation;
@@ -749,14 +957,42 @@ function SetupScreen({
   chapter: string;
   setChapter: (c: string) => void;
   onStart: () => void;
+  classLevel?: number;
+  corpusByClass?: Record<string, Record<string, number>> | null;
+  lastResult?: SavedResult | null;
+  onSeeLastResult?: () => void;
 }) {
   const subjectMeta: Record<Subject, { label: string; icon: string }> = {
     math: { label: t.math, icon: "📐" },
     science: { label: t.science, icon: "🔬" },
     english: { label: t.english, icon: "📖" },
+    physics: { label: "Physics", icon: "⚡" },
+    chemistry: { label: "Chemistry", icon: "🧪" },
+    biology: { label: "Biology", icon: "🧬" },
+    hindi: { label: "Hindi", icon: "🪔" },
+    history: { label: "History", icon: "🏛️" },
+    geography: { label: "Geography", icon: "🌍" },
+    economics: { label: "Economics", icon: "📈" },
+    computer_science: { label: "Computer Science", icon: "💻" },
   };
 
-  const canStart = subject !== "" && chapter !== "";
+  // CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 2): ONE tap starts the
+  // check-up. Picking a subject auto-picks the class-appropriate chapter,
+  // so the Start button is live after a single choice. The old
+  // `canStart = subject && chapter` left a silent dead button — the
+  // classic child give-up moment; now a visible reason sits under it.
+  const canStart = subject !== "";
+
+  // Honest subject cards: a subject the student's class has no nodes for
+  // is hidden entirely (fail-open — before stats load, everything shows).
+  const classCounts = classLevel
+    ? corpusByClass?.[String(classLevel)] ?? null
+    : null;
+  const availableSubjects = (Object.keys(subjectMeta) as Subject[]).filter((sub) => {
+    if (!classCounts) return true;
+    const codes = SUBJECT_CORPUS_CODES[sub] ?? [];
+    return codes.some((code) => (classCounts[code] ?? 0) > 0);
+  });
 
   return (
     <motion.div
@@ -778,27 +1014,30 @@ function SetupScreen({
         </div>
         <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">{t.ready}</h1>
         <p className="text-white/70 text-sm leading-relaxed">{t.subtitle}</p>
-        <p className="text-white/50 text-xs mt-2 flex items-center justify-center gap-1">{t.offlineReady}</p>
       </motion.div>
 
       {/* Subject Selection */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="mb-6">
         <label className="block text-white/80 text-sm font-semibold mb-3">{t.selectSubject}</label>
         <div className="space-y-3">
-          {(Object.keys(subjectMeta) as Subject[]).map((s) => (
+          {availableSubjects.map((s) => (
             <SubjectCard
               key={s}
               subject={s}
               label={subjectMeta[s].label}
               icon={subjectMeta[s].icon}
               selected={subject === s}
-              onClick={() => { setSubject(s); setChapter(""); }}
+              onClick={() => {
+                setSubject(s);
+                // one tap → chapter auto-picked per class; still overridable below
+                setChapter(autoChapterForClass(s, classLevel));
+              }}
             />
           ))}
         </div>
       </motion.div>
 
-      {/* Chapter Selection */}
+      {/* Chapter Selection — optional override over the class-aware pick */}
       <AnimatePresence>
         {subject && (
           <motion.div
@@ -808,9 +1047,14 @@ function SetupScreen({
             transition={{ duration: 0.3 }}
             className="mb-6 overflow-hidden"
           >
-            <label className="block text-white/80 text-sm font-semibold mb-3">{t.selectChapter}</label>
+            <label className="block text-white/80 text-sm font-semibold mb-1">{t.selectChapter}</label>
+            <p className="text-white/50 text-xs mb-3">{t.chapterAutoPicked}</p>
             <ChapterChips
-              chapters={(t as unknown as Record<string, string[]>)[`chapters_${subject}`] || []}
+              chapters={
+                (t as unknown as Record<string, string[]>)[`chapters_${subject}`]
+                || chaptersFor(subject, classLevel)
+                || []
+              }
               selected={chapter}
               onSelect={setChapter}
             />
@@ -829,25 +1073,62 @@ function SetupScreen({
         <p className="text-white/50 text-xs text-center mt-1">{t.subtitle}</p>
       </motion.div>
 
-      {/* Start Button */}
+      {/* Start Button — with a visible reason whenever it can't start */}
       <motion.button
         whileHover={canStart ? { scale: 1.02 } : {}}
         whileTap={canStart ? { scale: 0.98 } : {}}
         onClick={onStart}
         disabled={!canStart}
+        aria-disabled={!canStart}
         className={`w-full py-4 rounded-2xl font-bold text-lg transition-all duration-300
           ${canStart
-            ? "bg-gradient-to-r from-indigo-500 to-pink-500 text-white shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50"
+            ? "bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50"
             : "bg-white/10 text-white/30 cursor-not-allowed"}`}
         aria-label={t.startDiagnostic}
       >
         {t.startDiagnostic}
       </motion.button>
+      {!canStart && (
+        <p role="status" className="text-center text-white/50 text-xs mt-3">
+          {t.pickSubjectToStart}
+        </p>
+      )}
+
+      {/* Last saved level check — results must survive navigation (§2). */}
+      {lastResult && onSeeLastResult && (
+        <motion.button
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          onClick={onSeeLastResult}
+          className="w-full mt-6 bg-white/5 border border-white/15 rounded-2xl p-4 flex items-center gap-3 text-left hover:bg-white/10 transition-colors"
+          data-testid="last-result-card"
+        >
+          <span className="text-2xl">📋</span>
+          <span className="flex-1 min-w-0">
+            <span className="block text-white/80 text-sm font-semibold">{t.lastCheckTitle}</span>
+            <span className="block text-white/50 text-xs truncate">
+              {lastResult.subject} · {lastResult.mastery}% · {new Date(lastResult.savedAt).toLocaleDateString()}
+            </span>
+          </span>
+          <span className="text-indigo-300 text-xs font-bold shrink-0">{t.seeResults} →</span>
+        </motion.button>
+      )}
     </motion.div>
   );
 }
 
 // ─── Question Screen ───────────────────────────────────────────────────────
+
+/** What the child sees after submitting — from the server (API sessions) or
+ * local grading (offline bank). `partial` = the answer caught one part of a
+ * multi-part key (e.g. one root of two). */
+interface GradeVerdict {
+  isCorrect: boolean;
+  partial?: boolean;
+  correctText?: string;
+  explanation?: string;
+}
 
 function QuestionScreen({
   lang,
@@ -857,6 +1138,11 @@ function QuestionScreen({
   totalQuestions,
   onSubmit,
   onQuit,
+  classLevel,
+  gradeAnswer,
+  offlineSet,
+  topicName,
+  hintNode,
 }: {
   lang: Lang;
   t: Translation;
@@ -865,40 +1151,108 @@ function QuestionScreen({
   totalQuestions: number;
   onSubmit: (answer: number | string) => void;
   onQuit: () => void;
+  classLevel?: number;
+  /** API sessions: posts the answer and returns the server's verdict so the
+   * feedback card never guesses (correctOptionId is withheld by design). */
+  gradeAnswer?: (answer: number | string) => Promise<GradeVerdict | null>;
+  /** true when this question came from the offline fallback bank. */
+  offlineSet?: boolean;
+  /** chapter-code ("ch11") → real chapter title; passthrough otherwise */
+  topicName?: (label: string) => string;
+  /** authored node backing the "I don't get it" hint when the question
+   *  itself carries no node_id (matched by topic label). */
+  hintNode?: string;
 }) {
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [mathAnswer, setMathAnswer] = useState("");
   const [showFeedback, setShowFeedback] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
+  const [isPartial, setIsPartial] = useState(false);
+  const [ungraded, setUngraded] = useState(false);
+  const [serverExplanation, setServerExplanation] = useState<string | null>(null);
+  const [grading, setGrading] = useState(false);
+  // "I don't get it" — the node's OWN authored idea in simple words
+  // (eli5 → walkthrough opener → definition), fetched once on demand.
+  const [hint, setHint] = useState<string | null>(null);
+  const [hintState, setHintState] = useState<"idle" | "loading" | "none">("idle");
 
-  const TOTAL_TIME = 15 * 60; // 15 min
+  // CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 2): Classes 6-9 get a calm
+  // count-up (how long they've been going, never a shrinking alarm);
+  // Classes 10-12 keep the per-question countdown they know from exams.
+  const countUp = (classLevel ?? 0) > 0 && (classLevel as number) <= 9;
+  const TOTAL_TIME = 10 * 60; // countdown mode: ~2 min per question across 5
   const elapsedPerQuestion = TOTAL_TIME / totalQuestions;
   const timer = useTimer(Math.round(elapsedPerQuestion), !showFeedback);
+
+  const [elapsedUp, setElapsedUp] = useState(0);
+  useEffect(() => {
+    setElapsedUp(0);
+  }, [question.id]);
+  useEffect(() => {
+    if (!countUp || showFeedback) return;
+    const id = setInterval(() => setElapsedUp((s) => s + 1), 1000);
+    return () => clearInterval(id);
+  }, [countUp, showFeedback, question.id]);
+  const formatUp = (s: number) => {
+    const m = Math.floor(s / 60);
+    const sec = s % 60;
+    return `${m}:${sec.toString().padStart(2, "0")}`;
+  };
 
   useEffect(() => {
     setSelectedOption(null);
     setMathAnswer("");
     setShowFeedback(false);
     setIsCorrect(false);
+    setIsPartial(false);
+    setUngraded(false);
+    setServerExplanation(null);
+    setGrading(false);
+    setHint(null);
+    setHintState("idle");
   }, [question.id]);
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     let answer: number | string;
-    let correct = false;
 
     if (question.type === "mcq") {
       if (selectedOption === null) return;
       answer = selectedOption;
-      correct = selectedOption === question.correctAnswer;
     } else {
       if (!mathAnswer.trim()) return;
       answer = mathAnswer.trim();
-      const correctStr = String(question.correctAnswer).toLowerCase().replace(/[^a-z0-9=,.]/g, "");
-      const userStr = mathAnswer.trim().toLowerCase().replace(/[^a-z0-9=,.]/g, "");
-      correct = userStr === correctStr || correctStr.includes(userStr) || userStr.includes(correctStr);
     }
 
-    setIsCorrect(correct);
+    // Server-authoritative grading first (API sessions): the question
+    // payload deliberately withholds the answer key, so the ONLY honest
+    // verdict is the one POST /answer returns. Local compare stays as the
+    // offline path and as a graceful fallback if the post fails.
+    let verdict: GradeVerdict | null = null;
+    if (gradeAnswer) {
+      setGrading(true);
+      try { verdict = await gradeAnswer(answer); } catch { verdict = null; }
+      setGrading(false);
+    }
+    if (!verdict && gradeAnswer) {
+      // API session but the grade post failed — the honest card says
+      // "saved, marked later"; a wrong red/green verdict is worse.
+      setUngraded(true);
+      setShowFeedback(true);
+      setTimeout(() => onSubmit(answer), 1500);
+      return;
+    }
+    if (!verdict) {
+      if (question.type === "mcq") {
+        verdict = { isCorrect: selectedOption === question.correctAnswer };
+      } else {
+        const m = matchFreeText(String(answer), String(question.correctAnswer));
+        verdict = { isCorrect: m === "correct", partial: m === "partial" };
+      }
+    }
+
+    setIsCorrect(verdict.isCorrect);
+    setIsPartial(!!verdict.partial);
+    setServerExplanation(verdict.explanation || null);
     setShowFeedback(true);
 
     setTimeout(() => {
@@ -934,20 +1288,26 @@ function QuestionScreen({
       {/* Progress Bar */}
       <div className="w-full h-2 bg-white/10 rounded-full mb-6 overflow-hidden">
         <motion.div
-          className="h-full bg-gradient-to-r from-indigo-400 to-pink-400 rounded-full"
+          className="h-full bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"
           initial={{ width: 0 }}
           animate={{ width: `${((questionNumber) / totalQuestions) * 100}%` }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         />
       </div>
 
-      {/* Timer */}
+      {/* Timer — count-up (calm) for C6-9, countdown for C10-12 */}
       <div className="flex justify-end mb-4">
         <div className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5" aria-live="polite" aria-label={t.timeRemaining}>
           <span className="text-sm">⏱️</span>
-          <span className={`text-sm font-mono font-medium ${timer.seconds < 30 ? "text-red-300 animate-pulse" : "text-white/70"}`}>
-            {timer.formatted}
-          </span>
+          {countUp ? (
+            <span className="text-sm font-mono font-medium text-white/70">
+              {formatUp(elapsedUp)}
+            </span>
+          ) : (
+            <span className={`text-sm font-mono font-medium ${timer.seconds < 30 ? "text-red-300 animate-pulse" : "text-white/70"}`}>
+              {timer.formatted}
+            </span>
+          )}
         </div>
       </div>
 
@@ -960,11 +1320,59 @@ function QuestionScreen({
       >
         {/* Subskill tag */}
         <span className="inline-block bg-indigo-500/30 text-indigo-200 text-xs font-semibold px-3 py-1 rounded-full mb-4">
-          {t.subskillLabel}: {question.subskill}
+          {t.subskillLabel}: {topicName ? topicName(question.subskill) : question.subskill}
         </span>
 
         {/* Question stem */}
         <div className="text-white text-lg font-medium leading-relaxed mb-6" dangerouslySetInnerHTML={{ __html: renderStem(question.stem) }} />
+
+        {/* "I don't get it" — decompose before answering. The hint is the
+            node's own authored idea in simple words, never the answer; a
+            question with no resolvable node shows nothing — no fake hint. */}
+        {!showFeedback && isNodeId(hintNode || question.nodeId) && (
+          <div className="mb-5 -mt-3">
+            {hintState === "idle" && (
+              <button
+                onClick={() => {
+                  setHintState("loading");
+                  fetchRescueHint((hintNode || question.nodeId)!).then((h) => {
+                    if (h) { setHint(h); setHintState("idle"); }
+                    else setHintState("none");
+                  });
+                }}
+                className="text-xs text-indigo-300/90 hover:text-indigo-200 underline underline-offset-2 transition-colors"
+                data-testid="idontgetit"
+              >
+                I don&apos;t get it — explain the idea first
+              </button>
+            )}
+            {hintState === "loading" && (
+              <p className="text-xs text-white/40" role="status">Finding the simple version…</p>
+            )}
+            {hint && (
+              <motion.div
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="rounded-xl px-3.5 py-2.5 bg-indigo-500/10 border border-indigo-400/25"
+                data-testid="idontgetit-hint"
+              >
+                <p className="text-[10px] uppercase tracking-widest text-indigo-300 font-semibold mb-1">The idea, simply</p>
+                <p className="text-sm text-white/80 leading-relaxed" dangerouslySetInnerHTML={{ __html: renderStem(hint) }} />
+              </motion.div>
+            )}
+          </div>
+        )}
+
+        {/* Live rescue lane — always available, even when no node backs the
+            question: the ask is anchored to the corpus by the tutor and can
+            be taken in Hindi/Hinglish. */}
+        {!showFeedback && (
+          <div className="mb-4">
+            <AskHelpPanel
+              seed={`${question.subskill}: ${question.stem.replace(/\s+/g, ' ').replace(/\[math\]/g, '').replace(/\$/g, '').slice(0, 220)}`}
+            />
+          </div>
+        )}
 
         {/* Options / Math Input */}
         {question.type === "mcq" && question.options ? (
@@ -981,7 +1389,7 @@ function QuestionScreen({
                   disabled={showFeedback}
                   className={`w-full text-left p-4 rounded-xl border-2 transition-all duration-300 flex items-center gap-3
                     ${isSelected
-                      ? "border-indigo-400 bg-indigo-500/20 shadow-md shadow-indigo-500/10"
+                      ? "border-indigo-400 bg-indigo-500/20 shadow-md shadow-amber-500/10"
                       : "border-white/15 bg-white/5 hover:border-white/30 hover:bg-white/10"}
                     ${showFeedback ? "cursor-default" : "cursor-pointer"}`}
                   role="radio"
@@ -991,7 +1399,7 @@ function QuestionScreen({
                     ${isSelected ? "bg-indigo-500 text-white" : "bg-white/10 text-white/50"}`}>
                     {String.fromCharCode(65 + i)}
                   </span>
-                  <span className="text-white/90 text-sm" dangerouslySetInnerHTML={{ __html: opt }} />
+                  <span className="text-white/90 text-sm" dangerouslySetInnerHTML={{ __html: renderStem(opt) }} />
                 </motion.button>
               );
             })}
@@ -1017,16 +1425,25 @@ function QuestionScreen({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className={`mt-4 p-4 rounded-xl border ${isCorrect ? "bg-green-500/15 border-green-400/30" : "bg-red-500/15 border-red-400/30"}`}
+            className={`mt-4 p-4 rounded-xl border ${ungraded ? "bg-white/10 border-white/20" : isCorrect ? "bg-green-500/15 border-green-400/30" : isPartial ? "bg-amber-500/15 border-amber-400/30" : "bg-red-500/15 border-red-400/30"}`}
             role="alert"
           >
-            <p className={`font-semibold text-sm mb-1 ${isCorrect ? "text-green-300" : "text-red-300"}`}>
-              {isCorrect ? "✅ " + t.correct : "❌ " + t.incorrect}
+            <p className={`font-semibold text-sm mb-1 ${ungraded ? "text-white/80" : isCorrect ? "text-green-300" : isPartial ? "text-amber-300" : "text-red-300"}`}>
+              {ungraded ? "✏️ Saved — we\u2019ll mark it at the end" : isCorrect ? "✅ " + t.correct : isPartial ? "🟡 " + t.partCredit : "❌ " + t.incorrect}
             </p>
-            <p className="text-white/70 text-xs leading-relaxed" dangerouslySetInnerHTML={{ __html: question.explanation }} />
+            {!ungraded && (
+              <p className="text-white/70 text-xs leading-relaxed" dangerouslySetInnerHTML={{ __html: renderStem(serverExplanation || question.explanation || "") }} />
+            )}
           </motion.div>
         )}
       </motion.div>
+
+      {/* Offline-set honesty tag */}
+      {offlineSet && (
+        <p className="text-white/40 text-xs text-center mb-3" data-testid="offline-set-note">
+          {t.offlineSet} · {t.offlineSetNote}
+        </p>
+      )}
 
       {/* Submit Button */}
       {!showFeedback && (
@@ -1034,13 +1451,13 @@ function QuestionScreen({
           whileHover={{ scale: 1.01 }}
           whileTap={{ scale: 0.98 }}
           onClick={handleSubmit}
-          disabled={question.type === "mcq" ? selectedOption === null : !mathAnswer.trim()}
+          disabled={grading || (question.type === "mcq" ? selectedOption === null : !mathAnswer.trim())}
           className={`w-full py-4 rounded-2xl font-bold text-lg transition-all duration-300
             ${(question.type === "mcq" ? selectedOption !== null : mathAnswer.trim())
-              ? "bg-gradient-to-r from-indigo-500 to-pink-500 text-white shadow-lg"
+              ? "bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-lg"
               : "bg-white/10 text-white/30 cursor-not-allowed"}`}
         >
-          {t.submit}
+          {grading ? "…" : t.submit}
         </motion.button>
       )}
     </motion.div>
@@ -1058,6 +1475,9 @@ function ResultsScreen({
   answers,
   onStartRemediation,
   onRetake,
+  verdicts,
+  topicName,
+  localOnly,
 }: {
   lang: Lang;
   t: Translation;
@@ -1067,6 +1487,11 @@ function ResultsScreen({
   answers: (number | string | null)[];
   onStartRemediation: () => void;
   onRetake: () => void;
+  verdicts?: Map<string, boolean>;
+  /** chapter-code ("ch11") → real chapter title; passthrough otherwise */
+  topicName?: (label: string) => string;
+  /** DIAG-02: true when the server never saw this run — show honest badge */
+  localOnly?: boolean;
 }) {
   const strong = subskillResults.filter((r) => r.isStrong);
   const weak = subskillResults.filter((r) => !r.isStrong);
@@ -1088,6 +1513,14 @@ function ResultsScreen({
       className="w-full max-w-lg mx-auto px-4 py-8"
     >
       <h2 className="text-2xl font-bold text-white text-center mb-6">{t.resultsTitle}</h2>
+
+      {/* DIAG-02 honest flag: these numbers never reached the server — call
+          them an estimate, not a grade */}
+      {localOnly && (
+        <div className="mb-4 px-4 py-2.5 rounded-xl bg-amber-500/10 border border-amber-500/25 text-center">
+          <p className="text-xs text-amber-300">Offline estimate — we couldn&apos;t save this run to your profile. Retake when the connection is back.</p>
+        </div>
+      )}
 
       {/* Mastery Circle */}
       <motion.div
@@ -1151,7 +1584,7 @@ function ResultsScreen({
               <div key={r.name} className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="text-green-400 text-lg">✅</span>
-                  <span className="text-white/90 text-sm">{r.name}</span>
+                  <span className="text-white/90 text-sm">{topicName ? topicName(r.name) : r.name}</span>
                 </div>
                 <span className="text-green-300 text-xs font-semibold">{r.correct}/{r.total} {t.correct}</span>
               </div>
@@ -1173,7 +1606,7 @@ function ResultsScreen({
             {weak.map((r) => (
               <div key={r.name} className="bg-white/5 rounded-xl p-3">
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-white/90 text-sm font-medium">{r.name}</span>
+                  <span className="text-white/90 text-sm font-medium">{topicName ? topicName(r.name) : r.name}</span>
                   <span className="text-red-300 text-xs font-semibold">{r.mastery}% {t.masteryPercent}</span>
                 </div>
                 <div className="w-full h-1.5 bg-white/10 rounded-full overflow-hidden">
@@ -1200,7 +1633,7 @@ function ResultsScreen({
               <div key={r.name} className="flex gap-3">
                 <span className="text-amber-400 text-lg mt-0.5">⚠️</span>
                 <div>
-                  <p className="text-white/80 text-sm font-medium">{r.name}</p>
+                  <p className="text-white/80 text-sm font-medium">{topicName ? topicName(r.name) : r.name}</p>
                   <p className="text-white/50 text-xs mt-1 leading-relaxed">{r.misconception}</p>
                 </div>
               </div>
@@ -1220,7 +1653,10 @@ function ResultsScreen({
         <div className="space-y-2 max-h-48 overflow-y-auto pr-2 custom-scrollbar">
           {questions.map((q, i) => {
             const answered = answers[i] !== null && answers[i] !== undefined;
-            const correct = answered && String(answers[i]).toLowerCase() === String(q.correctAnswer).toLowerCase();
+            const serverVerdict = verdicts?.get(q.id);
+            const correct = answered && (serverVerdict ?? (q.type === "mcq"
+              ? answers[i] === q.correctAnswer
+              : matchFreeText(String(answers[i]), String(q.correctAnswer)) === "correct"));
             return (
               <div key={q.id} className="flex items-center gap-2 text-xs">
                 <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold shrink-0
@@ -1228,7 +1664,7 @@ function ResultsScreen({
                   {correct ? "✓" : answered ? "✗" : "–"}
                 </span>
                 <span className="text-white/60 truncate">
-                  {q.stem.replace(/\$[^$]*\$/g, "[math]").substring(0, 50)}...
+                  {q.stem.replace(/\$([^$]*)\$/g, "$1").substring(0, 50)}…
                 </span>
               </div>
             );
@@ -1247,7 +1683,7 @@ function ResultsScreen({
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           onClick={onStartRemediation}
-          className="w-full py-4 rounded-2xl font-bold text-lg bg-gradient-to-r from-indigo-500 to-pink-500 text-white shadow-lg shadow-indigo-500/30"
+          className="w-full py-4 rounded-2xl font-bold text-lg bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-lg shadow-amber-500/30"
         >
           {t.startRemediation}
         </motion.button>
@@ -1353,7 +1789,7 @@ function RemediationScreen({
                   ${step.completed
                     ? "bg-green-500/10 border-green-400/20"
                     : i === currentStep
-                      ? "bg-indigo-500/10 border-indigo-400/30 shadow-lg shadow-indigo-500/10"
+                      ? "bg-indigo-500/10 border-indigo-400/30 shadow-lg shadow-amber-500/10"
                       : "bg-white/5 border-white/10 opacity-60"}`}
               >
                 <div className="flex items-start justify-between mb-1">
@@ -1404,14 +1840,18 @@ function RemediationScreen({
 // ─── Utility ───────────────────────────────────────────────────────────────
 
 function renderStem(stem: string): string {
-  // Convert inline $...$ to a span that KaTeX will process
-  return stem.replace(/\$([^$]+)\$/g, (_, tex) => {
+  // Convert inline $...$ to a span that KaTeX will process.
+  // SECURITY: output passes through sanitizeHtml before dangerouslySetInnerHTML —
+  // question text, hints, and explanations are corpus/LLM-authored and must
+  // never carry script/event handlers to the DOM.
+  const html = stem.replace(/\$([^$]+)\$/g, (_, tex) => {
     try {
       return katex.renderToString(tex, { throwOnError: false, displayMode: false });
     } catch {
       return `<code>${tex}</code>`;
     }
   });
+  return sanitizeHtml(html);
 }
 
 // ─── Confirmation Modal ────────────────────────────────────────────────────
@@ -1495,6 +1935,108 @@ export default function DiagnosticPage() {
   const [sessionId, setSessionId] = useState<string | undefined>(undefined);
   const [apiResult, setApiResult] = useState<DiagnosticResult | null>(null);
   const [apiRemediation, setApiRemediation] = useState<RemediationPath | null>(null);
+  // true when the active questions came from the offline fallback bank —
+  // the question screen labels them honestly as a practice set.
+  const [usedFallback, setUsedFallback] = useState(false);
+  // Server verdicts per question id (API sessions) — the batch submit's
+  // isCorrect hint replays THESE, never a local guess against a key the
+  // payload deliberately withheld.
+  const verdictsRef = useRef<Map<string, boolean>>(new Map());
+  // Question ids already recorded via POST /answer — excluded from the
+  // final batch submit so nothing double-counts.
+  const postedRef = useRef<Set<string>>(new Set());
+  // A previously saved result snapshot (results survive navigation).
+  const [restored, setRestored] = useState<{
+    mastery: number; subskillResults: SubskillResult[];
+    questions: Question[]; answers: (number | string | null)[];
+  } | null>(null);
+  // Per-class corpus counts — the honest-subject-cards source.
+  const [corpusByClass, setCorpusByClass] = useState<Record<string, Record<string, number>> | null>(null);
+  // Chapter-code → real chapter title map: the API labels topics with the
+  // bank's chapter codes ("ch11") — the results screen must show the real
+  // name ("Chapter 11 · Real Numbers"), never the code.
+  const [chapterTitles, setChapterTitles] = useState<Record<string, string>>({});
+  // Node title → node_id (same fetch) — backs the "I don't get it" hint on
+  // questions that arrive without a node_id (generator topics).
+  const [topicNodes, setTopicNodes] = useState<Record<string, string>>({});
+  const [chapterNodes, setChapterNodes] = useState<Record<string, string>>({});
+  useEffect(() => {
+    if (!subject || !user?.class_level) return;
+    let cancelled = false;
+    const tok = getAuthToken();
+    fetch(`/api/content/enrichment?subject=${encodeURIComponent(subject)}&class_level=${user.class_level}&limit=500`,
+      { headers: tok ? { Authorization: `Bearer ${tok}` } : {} })
+      .then(r => (r.ok ? r.json() : null))
+      .then(d => {
+        if (cancelled) return;
+        const m: Record<string, string> = {};
+        const nid: Record<string, string> = {};
+        const chap: Record<string, string> = {};
+        for (const n of d?.nodes || []) {
+          if (n?.chapter && n?.chapter_title) {
+            m[String(n.chapter).toLowerCase()] = n.chapter_title;
+          }
+          // title → node_id so node-less questions can still fetch an
+          // authored hint for their topic (hint stays corpus-backed).
+          if (n?.title && n?.node_id && (n.has_eli5 || n.has_walkthrough)) {
+            nid[String(n.title).toLowerCase()] = n.node_id;
+            // chapter-code ("ch11") → first hint-bearing node in the chapter
+            if (n.chapter && !chap[ String(n.chapter).toLowerCase() ]) {
+              chap[String(n.chapter).toLowerCase()] = n.node_id;
+            }
+          }
+        }
+        setChapterTitles(m);
+        setTopicNodes(nid);
+        setChapterNodes(chap);
+      })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, [subject, user?.class_level]);
+  /** Hint node for a question: the served node_id, else the authored node
+   *  whose title matches the question's topic label — never invented.
+   *  Generator topics ("Integers") rarely equal node titles exactly, so
+   *  fall back to the shortest title containing the key (or vice-versa). */
+  const hintNodeFor = useCallback((q: Question): string | undefined => {
+    if (q.nodeId) return q.nodeId;
+    const key = (q.subskill || "").trim().toLowerCase();
+    if (!key || key.length < 3) return undefined;
+    // chapter-code topics ("ch11") → any hint-bearing node in that chapter
+    const chm = /^ch(\d+)$/i.exec(key);
+    if (chm) {
+      const variants = [key, "ch" + chm[1].padStart(2, "0"), "ch" + chm[1].replace(/^0+/, "")];
+      for (const v of variants) if (chapterNodes[v]) return chapterNodes[v];
+    }
+    if (topicNodes[key]) return topicNodes[key];
+    let best: string | undefined;
+    for (const [title, id] of Object.entries(topicNodes)) {
+      if (title.includes(key) || key.includes(title)) {
+        if (!best || title.length < best.length) best = title;
+      }
+    }
+    return best ? topicNodes[best] : undefined;
+  }, [topicNodes, chapterNodes]);
+  const friendlyTopic = useCallback((label: string): string => {
+    const l = (label || "").trim();
+    if (!/^ch\d+$/i.test(l)) return label;
+    const norm = "ch" + l.replace(/^ch/i, "").padStart(2, "0");
+    const bare = "ch" + l.replace(/^ch/i, "").replace(/^0+/, "");
+    return chapterTitles[l.toLowerCase()] || chapterTitles[norm] || chapterTitles[bare] || label;
+  }, [chapterTitles]);
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch("/api/nodes/stats");
+        if (!res.ok) return;
+        const stats = await res.json();
+        if (!cancelled && stats?.per_class_subject) {
+          setCorpusByClass(stats.per_class_subject);
+        }
+      } catch { /* fail-open: all cards stay visible */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   const t = translations[lang];
 
@@ -1547,16 +2089,48 @@ export default function DiagnosticPage() {
     }
   }, [phase, currentQIndex, answers]);
 
-  // Map local subject to API subject
+  // Persist the finished result so a child can always get back to it —
+  // the audit found results vanished on any navigation (§2). Saved once
+  // real numbers exist, never an empty placeholder.
+  useEffect(() => {
+    if (phase !== "results") return;
+    const r = getMasteryAndResults();
+    if (!r.subskillResults.length && !r.mastery) return;
+    saveResult({
+      savedAt: new Date().toISOString(),
+      subject: String(subject || ""),
+      chapter,
+      mastery: r.mastery,
+      subskillResults: r.subskillResults,
+      questions: r.questions,
+      answers: r.answers,
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, apiResult]);
+
+  // A saved result from an earlier session — offered on the setup screen.
+  const [lastResult, setLastResult] = useState<SavedResult | null>(null);
+  useEffect(() => { setLastResult(loadResult()); }, []);
+
+  // Map local subject to API subject (corpus subject names)
   const mapSubject = (s: Subject): DiagSubject => {
-    if (s === "math") return "Mathematics";
-    if (s === "science") return "Science";
-    return "English";
+    const map: Record<Subject, string> = {
+      math: "Mathematics", science: "Science", english: "English",
+      physics: "Physics", chemistry: "Chemistry", biology: "Biology",
+      hindi: "Hindi", history: "History", geography: "Geography",
+      economics: "Economics", computer_science: "Computer Science",
+    };
+    return map[s] as DiagSubject;
   };
 
   const handleStart = useCallback(async () => {
     if (!subject) { alert(t.selectSubjectFirst); return; }
     if (!chapter) { alert(t.selectChapterFirst); return; }
+
+    verdictsRef.current = new Map();
+    postedRef.current = new Set();
+    setRestored(null);
+    setUsedFallback(false);
 
     // Try API first
     try {
@@ -1567,7 +2141,9 @@ export default function DiagnosticPage() {
           gradeLevel: user?.class_level || 10,
           board: (user?.board as "CBSE" | "ICSE" | "State" | "IB" | "NCERT") || "CBSE",
           language: lang === "hi" ? "hi" : "en",
-          questionCountPerSubject: 15,
+          // CHILD-LENS (fix 2): the copy promises "5 quick questions" — the
+          // config must match, never "about 15 minutes" for what is 5.
+          questionCountPerSubject: 5,
           adaptiveEnabled: true,
         },
       });
@@ -1584,6 +2160,7 @@ export default function DiagnosticPage() {
         options: dq.options?.map(o => o.text),
         correctAnswer: dq.options?.findIndex(o => o.optionId === dq.correctOptionId) ?? 0,
         explanation: dq.explanation,
+        nodeId: dq.nodeId ?? null,
       }));
       if (apiQuestions.length > 0) {
         setQuestions(apiQuestions);
@@ -1596,14 +2173,91 @@ export default function DiagnosticPage() {
       // Fall through to local question bank
     }
 
-    // Fallback: local question bank
-    const qs = selectAdaptiveQuestions(subject, chapter, 15);
+    // Fallback: local question bank (same 5-question promise as the copy)
+    const qs = selectAdaptiveQuestions(subject, chapter, 5);
     if (qs.length === 0) return;
+    setUsedFallback(true);
     setQuestions(qs);
     setAnswers(new Array(qs.length).fill(null));
     setCurrentQIndex(0);
     setPhase("active");
   }, [subject, chapter, t, startDiagnostic, user, lang]);
+
+  // API sessions: POST the answer NOW so the feedback card shows the
+  // server's verdict (the served payload withholds the answer key on
+  // purpose). Also steers the next question and records the answer so the
+  // final submit only sends what the server hasn't already seen.
+  const gradeAndRecord = useCallback(async (answer: number | string): Promise<GradeVerdict | null> => {
+    if (!sessionId) return null;
+    const q = questions[currentQIndex];
+    if (!q) return null;
+    const isMcq = Array.isArray(q.options) && q.options.length > 0;
+    const record = {
+      questionId: q.id,
+      selectedOptionId: isMcq ? String(answer) : "",
+      answerText: isMcq ? "" : String(answer),
+      timeSpentSeconds: 60,
+    };
+    const apiBase = process.env.NEXT_PUBLIC_API_URL ?? "";
+    const answerUrl = `${apiBase}/api/diagnostics/${sessionId}/answer`;
+    const postAnswer = () => {
+      const token = typeof window !== "undefined" ? getAuthToken() : null;
+      return fetch(answerUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
+        body: JSON.stringify(record),
+        signal: AbortSignal.timeout(8000),
+      });
+    };
+    try {
+      let res = await postAnswer();
+      if (res.status === 401) {
+        const refreshed = await refreshOn401();
+        if (refreshed) res = await postAnswer();
+      }
+      if (!res.ok) return null;
+      const data = await res.json();
+      postedRef.current.add(q.id);
+      if (typeof data.isCorrect === "boolean") verdictsRef.current.set(q.id, data.isCorrect);
+      // ADAPT: splice the server-steered next question into position.
+      const nq = data.nextQuestion;
+      const nextIdx = currentQIndex + 1;
+      if (nq && nq.questionId && data.questionsRemaining > 0) {
+        setQuestions((prev) => {
+          if (prev.some((p) => p.id === nq.questionId)) return prev;
+          if (nextIdx >= prev.length) return prev;
+          const spliced = [...prev];
+          spliced[nextIdx] = {
+            id: nq.questionId,
+            type: nq.options && nq.options.length > 0 ? "mcq" : "math",
+            difficulty: nq.difficulty,
+            subject: (subject || "math") as Subject,
+            chapter: nq.topic,
+            subskill: nq.topic,
+            stem: nq.questionText,
+            options: nq.options?.map((o: { text: string }) => o.text),
+            correctAnswer:
+              nq.options?.findIndex(
+                (o: { optionId: string }) => o.optionId === nq.correctOptionId
+              ) ?? 0,
+            explanation: nq.explanation,
+            nodeId: nq.nodeId ?? null,
+          };
+          return spliced;
+        });
+      }
+      return {
+        isCorrect: !!data.isCorrect,
+        correctText: data.correctAnswer,
+        explanation: data.explanation,
+      };
+    } catch {
+      return null;
+    }
+  }, [sessionId, questions, currentQIndex, subject]);
 
   const handleAnswer = useCallback(
     (answer: number | string) => {
@@ -1612,53 +2266,74 @@ export default function DiagnosticPage() {
         next[currentQIndex] = answer;
         return next;
       });
-      setCurrentQIndex((prev) => {
-        if (prev + 1 >= questions.length) {
-          // All questions answered — submit to API or compute locally
-          const allAnswers = [...answers, answer];
-          setTimeout(async () => {
-            // Try API submission
-            if (sessionId) {
-              try {
-                const answerRecords = questions.map((q, i) => ({
-                  questionId: q.id,
-                  selectedOptionId: String(allAnswers[i] ?? ""),
-                  isCorrect: String(allAnswers[i]).toLowerCase() === String(q.correctAnswer).toLowerCase(),
-                  timeSpentSeconds: 60,
-                  submittedAt: new Date().toISOString(),
-                }));
-                const result = await submitDiagnostic.mutateAsync({
-                  answers: answerRecords,
-                  completedAt: new Date().toISOString(),
-                });
-                setApiResult(result);
-                setPhase("calculating");
-                clearState();
-                setTimeout(() => setPhase("results"), 2000);
-                return;
-              } catch {
-                // Fall through to local computation
-              }
-            }
 
-            // Fallback: local computation
-            const subskillResults = computeSubskillResults(questions, allAnswers);
-            const totalCorrect = subskillResults.reduce((sum, r) => sum + r.correct, 0);
-            const totalQuestions = subskillResults.reduce((sum, r) => sum + r.total, 0);
-            const mastery = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
-            setPhase("calculating");
-            clearState();
-            setTimeout(() => {
-              setPhase("results");
-              (window as unknown as Record<string, unknown>).__diagnosticResults = { mastery, subskillResults, questions, answers: allAnswers };
-            }, 2000);
-          }, 500);
+      const isLast = currentQIndex + 1 >= questions.length;
+      const advance = () => {
+        setCurrentQIndex((prev) => {
+          if (prev + 1 >= questions.length) {
+            // All questions answered — submit to API or compute locally
+            const allAnswers = [...answers, answer];
+            setTimeout(async () => {
+              // Try API submission
+              if (sessionId) {
+                try {
+                  const answerRecords = questions
+                    .map((q, i) => ({ q, i }))
+                    .filter(({ q }) => !postedRef.current.has(q.id))
+                    .map(({ q, i }) => ({
+                      questionId: q.id,
+                      selectedOptionId: String(allAnswers[i] ?? ""),
+                      // honest hint: the server's own verdict when we have
+                      // one, else a normalised local compare (never a raw
+                      // string-equality guess against a withheld key).
+                      isCorrect: verdictsRef.current.get(q.id)
+                        ?? (q.type === "mcq"
+                          ? allAnswers[i] === q.correctAnswer
+                          : matchFreeText(String(allAnswers[i] ?? ""), String(q.correctAnswer)) === "correct"),
+                      timeSpentSeconds: 60,
+                      submittedAt: new Date().toISOString(),
+                    }));
+                  const result = await submitDiagnostic.mutateAsync({
+                    answers: answerRecords,
+                    completedAt: new Date().toISOString(),
+                  });
+                  setApiResult(result);
+                  setPhase("calculating");
+                  clearState();
+                  setTimeout(() => setPhase("results"), 2000);
+                  return;
+                } catch {
+                  // Fall through to local computation
+                }
+              }
+
+              // DIAG-02: server submit failed — still show the child an
+              // estimate, but FLAG it as local-only so the results screen
+              // can say honestly "this didn't reach the server" instead of
+              // silently presenting a fake mastery %.
+              const subskillResults = computeSubskillResults(questions, allAnswers);
+              const totalCorrect = subskillResults.reduce((sum, r) => sum + r.correct, 0);
+              const totalQuestions = subskillResults.reduce((sum, r) => sum + r.total, 0);
+              const mastery = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+              setPhase("calculating");
+              clearState();
+              setTimeout(() => {
+                setPhase("results");
+                (window as unknown as Record<string, unknown>).__diagnosticResults = { mastery, subskillResults, questions, answers: allAnswers, localOnly: true };
+              }, 2000);
+            }, 500);
+            return prev + 1;
+          }
           return prev + 1;
-        }
-        return prev + 1;
-      });
+        });
+      };
+
+      // The per-answer POST + next-question steering already happened
+      // inside gradeAndRecord (called by the question screen before this
+      // callback fires) — here we only advance the index / finish.
+      advance();
     },
-    [currentQIndex, questions, answers, sessionId, submitDiagnostic]
+    [currentQIndex, questions, answers, sessionId, submitDiagnostic, subject]
   );
 
   const handleStartRemediation = useCallback(() => {
@@ -1679,11 +2354,27 @@ export default function DiagnosticPage() {
     }
 
     // Fallback: local remediation templates
-    const steps = REMEDIATION_TEMPLATES[subject as Subject] || REMEDIATION_TEMPLATES.math;
+    const steps = REMEDIATION_TEMPLATES[subject as Subject] || REMEDIATION_TEMPLATES.math || [];
     setRemediationSteps(steps);
     setActiveRemediation(0);
     setPhase("remediation");
   }, [subject, apiRemediation]);
+
+  // Reopen a previously saved result (survives navigation — §2 fix).
+  const handleSeeLastResult = useCallback(() => {
+    if (!lastResult) return;
+    setSubject(lastResult.subject as Subject);
+    setChapter(lastResult.chapter);
+    setQuestions(lastResult.questions);
+    setAnswers(lastResult.answers);
+    setRestored({
+      mastery: lastResult.mastery,
+      subskillResults: lastResult.subskillResults,
+      questions: lastResult.questions,
+      answers: lastResult.answers,
+    });
+    setPhase("results");
+  }, [lastResult]);
 
   const handleRetake = useCallback(() => {
     clearState();
@@ -1693,6 +2384,8 @@ export default function DiagnosticPage() {
     setSessionId(undefined);
     setApiResult(null);
     setApiRemediation(null);
+    setRestored(null);
+    setUsedFallback(false);
     setPhase("setup");
   }, []);
 
@@ -1702,6 +2395,8 @@ export default function DiagnosticPage() {
     setAnswers([]);
     setCurrentQIndex(0);
     setSessionId(undefined);
+    setRestored(null);
+    setUsedFallback(false);
     setShowQuitModal(false);
     setPhase("setup");
   }, []);
@@ -1737,8 +2432,9 @@ export default function DiagnosticPage() {
     // Fallback: local results
     const results = (window as unknown as Record<string, { mastery: number; subskillResults: SubskillResult[]; questions: Question[]; answers: (number | string | null)[] }>).__diagnosticResults;
     if (results) return results;
+    if (restored) return restored;
     return { mastery: 0, subskillResults: [], questions: [], answers: [] };
-  }, [apiResult, questions, answers]);
+  }, [apiResult, questions, answers, restored]);
 
   const renderPhase = () => {
     switch (phase) {
@@ -1752,6 +2448,10 @@ export default function DiagnosticPage() {
             chapter={chapter}
             setChapter={setChapter}
             onStart={handleStart}
+            classLevel={user?.class_level}
+            corpusByClass={corpusByClass}
+            lastResult={lastResult}
+            onSeeLastResult={handleSeeLastResult}
           />
         );
 
@@ -1767,6 +2467,11 @@ export default function DiagnosticPage() {
             totalQuestions={questions.length}
             onSubmit={handleAnswer}
             onQuit={() => setShowQuitModal(true)}
+            classLevel={user?.class_level}
+            gradeAnswer={sessionId ? gradeAndRecord : undefined}
+            offlineSet={usedFallback}
+            topicName={friendlyTopic}
+            hintNode={hintNodeFor(q)}
           />
         );
       }
@@ -1776,6 +2481,7 @@ export default function DiagnosticPage() {
 
       case "results": {
         const { mastery, subskillResults, questions: qs, answers: ans } = getMasteryAndResults();
+        const localOnly = !apiResult && !!(window as unknown as Record<string, { localOnly?: boolean }>).__diagnosticResults?.localOnly;
         return (
           <ResultsScreen
             lang={lang}
@@ -1786,6 +2492,9 @@ export default function DiagnosticPage() {
             answers={ans}
             onStartRemediation={handleStartRemediation}
             onRetake={handleRetake}
+            verdicts={verdictsRef.current}
+            topicName={friendlyTopic}
+            localOnly={localOnly}
           />
         );
       }
@@ -1812,7 +2521,7 @@ export default function DiagnosticPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-slate-950 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
         <motion.div
@@ -1835,10 +2544,10 @@ export default function DiagnosticPage() {
       {/* Header */}
       <header className="relative z-10 flex items-center justify-between px-4 py-4">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-400 to-pink-400 flex items-center justify-center text-white font-bold text-xs">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-white font-bold text-xs">
             L
           </div>
-          <span className="text-white/80 font-bold text-sm hidden sm:inline">LearnPath</span>
+          <span className="text-white/80 font-bold text-sm hidden sm:inline">Atlas</span>
         </div>
         <LangSwitcher lang={lang} onChange={setLang} />
       </header>

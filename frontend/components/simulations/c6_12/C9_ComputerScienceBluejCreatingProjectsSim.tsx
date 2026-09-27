@@ -585,7 +585,7 @@ const DEFAULT_PROPS: Props = {
     { question: 'How many bytes does a char occupy in Java?', options: ['1 byte', '2 bytes (Unicode)', '4 bytes', '8 bytes'], correctIndex: 1 },
     { question: 'What is the result of (int) 7.89 in Java?', options: ['8', '7', '7.0', 'Compile Error'], correctIndex: 1 },
     { question: 'What does 17 % 5 evaluate to?', options: ['3', '2', '3.4', '1'], correctIndex: 1 },
-    { question: 'If int x = 4; int y = ++x;, what is y?', options: ['4', '5', '6', 'Undefined'], correctIndex: 1 },
+    { question: 'If int x = 4; int y = ++x; what is y?', options: ['4', '5', '6', 'Undefined'], correctIndex: 1 },
     { question: 'Which package contains the Scanner class?', options: ['java.lang', 'java.io', 'java.util', 'java.net'], correctIndex: 2 },
     { question: 'Which specifier formats a decimal with 2 decimal places in printf?', options: ['%2d', '%.2f', '%f2', '%s.2'], correctIndex: 1 },
     { question: 'Can float be used as the selector expression in a switch statement?', options: ['Yes', 'No', 'Only in Java 17', 'Only with break'], correctIndex: 1 },

@@ -566,7 +566,7 @@ export const offlineCache: OfflineCacheAPI = {
       try {
         const endpoint = `/api/sync/${action.action_type}`;
         const response = await fetch(
-          `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001"}${endpoint}`,
+          `${process.env.NEXT_PUBLIC_API_URL || ""}${endpoint}`,
           {
             method: "POST",
             headers: {

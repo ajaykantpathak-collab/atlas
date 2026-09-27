@@ -8,7 +8,7 @@ export const c6_geography_ch02_p1: SimDef = {
     subtitle: 'This node covers the distinction between weather and climate. It excludes meteorology.',
     classLevel: 6, subject: 'geography', topic: 'Understanding the Weather · Part 1/2',
     chapters: ['c6_geography_ch02'],
-    nodeIds: ['c6_geography_ch02_008', 'c6_geography_ch02_009', 'c6_geography_ch02_011', 'c6_geography_ch02_012'],
+    nodeIds: ['c6_geography_ch02_008', 'c6_geography_ch02_009', 'c6_geography_ch02_010', 'c6_geography_ch02_011', 'c6_geography_ch02_012', 'c6_geography_ch02_013'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are packing your school bag in the morning. If you see dark clouds, you pack an umbrella—that.', goal: 'Master every idea in this chapter.' },

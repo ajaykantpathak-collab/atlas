@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c10_gram_ch90 The Twelve Rooms (tense system).
  * Nodes: c10_gram_cbse_90_001 (grid), 90_002 (statives), 90_003 (markers). */
 export const c10_gram_ch90: SimDef = {
-    id: 'v3_c10_gram_ch90',
+    id: 'v3w_c10_gram_ch90',
     title: 'The Twelve Rooms',
     subtitle: 'One action, twelve grammatical outfits — learn to move a verb through time and aspect',
     classLevel: 10, subject: 'english-grammar', topic: 'Tenses — the 12-form grid',

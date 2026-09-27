@@ -8,7 +8,7 @@ export const c6_chemistry_ch05_p2: SimDef = {
     subtitle: 'Same stuff in disguise, or brand-new substance?',
     classLevel: 6, subject: 'chemistry', topic: 'Changes Around Us: Physical and Chemical · Part 2/2',
     chapters: ['c6_chemistry_ch05'],
-    nodeIds: ['c6_chemistry_ch05_007', 'c6_chemistry_ch05_008', 'c6_chemistry_ch05_001', 'c6_chemistry_ch05_002'],
+    nodeIds: ['c6_chemistry_ch05_007', 'c6_chemistry_ch05_008', 'c6_chemistry_ch05_009', 'c6_chemistry_ch05_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a change detective in a kitchen full of mysteries', intro: 'Ice melting, chalk crushed to powder, a nail going orange with rust — your job is to decide which changes only dressed matter up and which truly transformed it.', goal: 'Separate physical from chemical changes using the one question that matters: did a new substance appear?' },

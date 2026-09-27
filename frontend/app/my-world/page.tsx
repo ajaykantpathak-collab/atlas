@@ -4,37 +4,47 @@
  * My World — the student's GOLDEN GALAXY (owner call: the galaxy replaces
  * the grassland living-world view; same gamification data, premium shell).
  *
- * The hero is the same GoldenGalaxy that anchors the Atlas landing — the
- * syllabus as one living object. Streak / badges / unlocked elements are
- * the real GamificationManager values, restyled to the black-gold system.
- * No invented numbers: every figure on this page is read from state.
+ * Every figure here streams from the SAME live endpoints as /dashboard
+ * (GET /api/progress/dashboard, /api/progress/overview,
+ * /api/achievements/?filter=all) so the numbers match across pages —
+ * no local, per-load-reset game-engine state. Loading / offline /
+ * signed-out states are honest; nothing is estimated.
  */
 
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { WorldMap3D } from '../../components/world/WorldMap3D';
-import { LearningAnalytics } from '../../lib/game-engine/analytics/LearningAnalytics';
-import { GamificationManager } from '../../lib/game-engine/gamification/GamificationManager';
+import { useDashboardData, achievementItems } from '@/components/dashboard/useDashboardData';
+import type { Achievement } from '@/components/dashboard/types';
+import {
+  achievementIcon,
+  ErrorState,
+  SignedOutState,
+  SkeletonBlock,
+} from '@/components/dashboard/ui';
 import Link from 'next/link';
-import { ArrowLeft, Flame, Award, Sparkles, Trophy } from 'lucide-react';
+import { ArrowLeft, Flame, Award, Lock, Trophy } from 'lucide-react';
 
 export default function MyWorldPage() {
-  const [analytics] = useState(() => {
-    const a = new LearningAnalytics();
-    a.init('student_001', 'Student', 1);
-    return a;
-  });
-  const [gamification] = useState(() => new GamificationManager(analytics));
-  const [worldState] = useState(() => gamification.getWorldState());
-  const [streakInfo] = useState(() => gamification.getStreakInfo());
-  const [allBadges] = useState(() => gamification.getAllBadges());
-  const [earnedBadges] = useState(() => gamification.getEarnedBadges());
+  const { signedOut, dashboard, overview, achievements } = useDashboardData();
+
+  const dash = dashboard.data;
+  const level = dash?.level ?? dash?.user?.current_level ?? 0;
+  const streak = dash?.streak ?? dash?.user?.streak_days ?? 0;
+  const masteredTopics = overview.data?.masteredNodes ?? 0;
+
+  const badgeList: Achievement[] = achievementItems(achievements.data);
+  const earnedBadges = badgeList.filter((a) => Boolean(a.unlocked));
+  const badgesReady = achievements.status === 'ready';
 
   const stats = [
-    { value: worldState.worldLevel, label: 'Galaxy Level', accent: 'text-gold-400' },
-    { value: worldState.masteredTopics, label: 'Topics Mastered', accent: 'text-brand-300' },
-    { value: streakInfo.current, label: 'Day Streak', accent: 'text-amber-400' },
-    { value: earnedBadges.length, label: 'Badges Earned', accent: 'text-yellow-300' },
+    { value: level, label: 'Galaxy Level', accent: 'text-gold-400' },
+    { value: masteredTopics, label: 'Topics Mastered', accent: 'text-brand-300' },
+    { value: streak, label: 'Day Streak', accent: 'text-amber-400' },
+    {
+      value: `${earnedBadges.length}/${badgeList.length}`,
+      label: 'Badges Earned',
+      accent: 'text-yellow-300',
+    },
   ];
 
   return (
@@ -69,90 +79,116 @@ export default function MyWorldPage() {
           </Link>
         </div>
 
-        {/* Galaxy hero — the REAL syllabus universe: all 9,010 official
-            nodes as stars (owner call: WorldMap3D replaces the decorative
-            GoldenGalaxy here). Mastery-lit, hover-legible, click-to-sim. */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.97 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
-          className="relative h-[560px] sm:h-[640px] rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_80px_-20px_rgba(212,175,55,0.25)] mb-8"
-        >
-          <WorldMap3D />
-          <div className="absolute bottom-4 left-4 flex items-center gap-2 pointer-events-none">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/60 border border-gold-400/25 text-xs font-semibold text-gold-300 backdrop-blur">
-              <Flame className="w-3.5 h-3.5" />
-              {streakInfo.current} day streak
-            </span>
-            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/60 border border-white/10 text-xs font-semibold text-surface-400 backdrop-blur">
-              <Trophy className="w-3.5 h-3.5" />
-              {earnedBadges.length}/{allBadges.length} badges
-            </span>
-          </div>
-        </motion.div>
-
-        {/* Stats */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
-          {stats.map((s, i) => (
+        {signedOut ? (
+          <SignedOutState />
+        ) : (
+          <>
+            {/* Galaxy hero — the REAL syllabus universe: all 9,099 official
+                nodes as stars (owner call: WorldMap3D replaces the decorative
+                GoldenGalaxy here). Mastery-lit, hover-legible, click-to-sim. */}
             <motion.div
-              key={s.label}
-              initial={{ opacity: 0, y: 14 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 + i * 0.06 }}
-              className="glass-card p-4 text-center"
+              initial={{ opacity: 0, scale: 0.97 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, ease: 'easeOut' }}
+              className="relative h-[560px] sm:h-[640px] rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_80px_-20px_rgba(212,175,55,0.25)] mb-8"
             >
-              <div className={`text-3xl font-black font-display ${s.accent}`}>{s.value}</div>
-              <div className="text-[11px] uppercase tracking-wider text-surface-500 font-semibold mt-1">
-                {s.label}
+              <WorldMap3D />
+              <div className="absolute bottom-4 left-4 flex items-center gap-2 pointer-events-none">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/60 border border-gold-400/25 text-xs font-semibold text-gold-300 backdrop-blur">
+                  <Flame className="w-3.5 h-3.5" />
+                  {streak} day streak
+                </span>
+                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/60 border border-white/10 text-xs font-semibold text-surface-400 backdrop-blur">
+                  <Trophy className="w-3.5 h-3.5" />
+                  {badgesReady ? `${earnedBadges.length}/${badgeList.length}` : '…'} badges
+                </span>
               </div>
             </motion.div>
-          ))}
-        </div>
 
-        {/* Badges */}
-        <div className="glass-card p-6 mb-6">
-          <div className="flex items-center gap-2 mb-4">
-            <Award className="w-5 h-5 text-gold-400" />
-            <h2 className="font-display text-lg font-semibold">Badges</h2>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
-            {allBadges.map(({ badge, earned }) => (
-              <div
-                key={badge.id}
-                className={`rounded-xl p-3 text-center border transition-all ${
-                  earned
-                    ? 'bg-gold-400/[0.07] border-gold-400/40 shadow-[0_0_24px_-8px_rgba(212,175,55,0.4)]'
-                    : 'bg-white/[0.02] border-white/5 opacity-45'
-                }`}
-              >
-                <div className="text-3xl mb-1">{earned ? badge.emoji : '🔒'}</div>
-                <div className="text-xs font-bold text-white">{badge.name}</div>
-                <div className="text-[11px] text-surface-500 mt-1 leading-snug">{badge.description}</div>
+            {/* Stats */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+              {stats.map((s, i) => (
+                <motion.div
+                  key={s.label}
+                  initial={{ opacity: 0, y: 14 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 + i * 0.06 }}
+                  className="glass-card p-4 text-center"
+                >
+                  <div className={`text-3xl font-black font-display ${s.accent}`}>
+                    {dashboard.status === 'loading' && i < 3 ? (
+                      <SkeletonBlock className="h-9 w-12 mx-auto" />
+                    ) : (
+                      s.value
+                    )}
+                  </div>
+                  <div className="text-[11px] uppercase tracking-wider text-surface-500 font-semibold mt-1">
+                    {s.label}
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {dashboard.status === 'error' && (
+              <div className="mb-8">
+                <ErrorState title="Your progress stats are offline right now" />
               </div>
-            ))}
-          </div>
-        </div>
+            )}
 
-        {/* Unlocked elements */}
-        <div className="glass-card p-6">
-          <div className="flex items-center gap-2 mb-4">
-            <Sparkles className="w-5 h-5 text-brand-300" />
-            <h2 className="font-display text-lg font-semibold">Constellations Unlocked</h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {worldState.elements.map((el, i) => (
-              <span
-                key={i}
-                className="px-3 py-1.5 rounded-lg bg-brand-500/10 border border-brand-500/20 text-xs font-semibold text-brand-300 capitalize"
-              >
-                {el.replace(/_/g, ' ')}
-              </span>
-            ))}
-          </div>
-          <p className="text-[11px] text-surface-600 mt-3">
-            Season: {worldState.season} · Time: {worldState.timeOfDay}
-          </p>
-        </div>
+            {/* Badges */}
+            <div className="glass-card p-6 mb-6">
+              <div className="flex items-center gap-2 mb-4">
+                <Award className="w-5 h-5 text-gold-400" />
+                <h2 className="font-display text-lg font-semibold">Badges</h2>
+              </div>
+              {achievements.status === 'loading' && (
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+                  {[0, 1, 2, 3, 4].map((i) => (
+                    <div key={i} className="rounded-xl p-3 text-center border border-white/5 bg-white/[0.02]">
+                      <SkeletonBlock className="w-9 h-9 rounded-xl mx-auto mb-2" />
+                      <SkeletonBlock className="h-3 w-16 mx-auto" />
+                    </div>
+                  ))}
+                </div>
+              )}
+              {achievements.status === 'error' && (
+                <ErrorState title="Badges are offline right now" />
+              )}
+              {badgesReady && badgeList.length === 0 && (
+                <p className="text-sm text-surface-500">
+                  No badges defined for your account yet — they appear here as soon as they exist.
+                </p>
+              )}
+              {badgesReady && badgeList.length > 0 && (
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+                  {badgeList.map((a, i) => {
+                    const { title, description, unlocked, iconName, icon } = a;
+                    const Icon = achievementIcon(iconName ?? icon ?? undefined);
+                    return (
+                      <div
+                        key={`${a.id ?? a.achievementId ?? title}-${i}`}
+                        className={`rounded-xl p-3 text-center border transition-all ${
+                          unlocked
+                            ? 'bg-gold-400/[0.07] border-gold-400/40 shadow-[0_0_24px_-8px_rgba(212,175,55,0.4)]'
+                            : 'bg-white/[0.02] border-white/5 opacity-45'
+                        }`}
+                      >
+                        <div className="w-9 h-9 mx-auto mb-1 flex items-center justify-center">
+                          <Icon className={`w-8 h-8 ${unlocked ? 'text-gold-300' : 'text-surface-600'}`} />
+                          {!unlocked && (
+                            <Lock className="w-3 h-3 text-surface-600 -ml-2 mt-4" aria-label="locked" />
+                          )}
+                        </div>
+                        <div className="text-xs font-bold text-white">{title}</div>
+                        <div className="text-[11px] text-surface-500 mt-1 leading-snug">{description}</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

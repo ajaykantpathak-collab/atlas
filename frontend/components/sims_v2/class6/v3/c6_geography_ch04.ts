@@ -8,7 +8,7 @@ export const c6_geography_ch04: SimDef = {
     subtitle: 'This node covers the transition from basic food production to organized agriculture.',
     classLevel: 6, subject: 'geography', topic: 'The Story of Indian Farming',
     chapters: ['c6_geography_ch04'],
-    nodeIds: ['c6_geography_ch04_020', 'c6_geography_ch04_021', 'c6_geography_ch04_023', 'c6_geography_ch04_025'],
+    nodeIds: ['c6_geography_ch04_020', 'c6_geography_ch04_021', 'c6_geography_ch04_022', 'c6_geography_ch04_023', 'c6_geography_ch04_024', 'c6_geography_ch04_025'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Think about your favorite meal—where do you think the rice or wheat on your plate actually comes from?', goal: 'Master every idea in this chapter.' },

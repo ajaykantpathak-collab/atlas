@@ -383,10 +383,10 @@
     },
     {
       "type": "sort_habits",
-      "question": "Drag each length to its correct conversion!",
+      "question": "Drag each conversion into the right bin — is it correct or wrong?",
       "answer": "sort",
       "options": [],
-      "hint": "To convert metres to cm, multiply by 100. 1 m = 100 cm, 2 m = 200 cm!",
+      "hint": "To convert metres to cm multiply by 100. Check each one: does it follow the rule?",
       "misconception": "Multiply metres by 100 to get centimetres! 2 metres = 200 cm, and 500 cm = 5 metres.",
       "storyBeat": "rising",
       "easierVariant": {
@@ -462,33 +462,63 @@
         {
           "id": "m1",
           "label": "1 m = 100 cm",
-          "emoji": "",
-          "correctBin": "correct"
+          "icon": "CM",
+          "emoji": "📏",
+          "correctBin": "bin-correct"
         },
         {
           "id": "m2",
           "label": "2 m = 200 cm",
-          "emoji": "",
-          "correctBin": "correct"
+          "icon": "CM",
+          "emoji": "📏",
+          "correctBin": "bin-correct"
         },
         {
           "id": "m3",
           "label": "500 cm = 5 m",
-          "emoji": "",
-          "correctBin": "correct"
+          "icon": "M",
+          "emoji": "📐",
+          "correctBin": "bin-correct"
         },
         {
           "id": "m4",
           "label": "150 cm = 1.5 m",
-          "emoji": "",
-          "correctBin": "correct"
+          "icon": "M",
+          "emoji": "📐",
+          "correctBin": "bin-correct"
+        },
+        {
+          "id": "w1",
+          "label": "1 m = 10 cm",
+          "icon": "X",
+          "emoji": "🚫",
+          "correctBin": "bin-wrong"
+        },
+        {
+          "id": "w2",
+          "label": "500 cm = 50 m",
+          "icon": "X",
+          "emoji": "🚫",
+          "correctBin": "bin-wrong"
+        },
+        {
+          "id": "w3",
+          "label": "150 cm = 15 m",
+          "icon": "X",
+          "emoji": "🚫",
+          "correctBin": "bin-wrong"
         }
       ],
       "bins": [
         {
-          "id": "correct",
-          "label": "Correct Match ✅",
+          "id": "bin-correct",
+          "label": "Correct ✅",
           "color": "#10B981"
+        },
+        {
+          "id": "bin-wrong",
+          "label": "Wrong ❌",
+          "color": "#EF4444"
         }
       ]
     },

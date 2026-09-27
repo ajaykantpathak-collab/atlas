@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useAuthStore } from '@/stores/authStore';
+import { getAuthToken } from '@/lib/api';
 
 // ─── Type Definitions ───────────────────────────────────────────
 
@@ -36,14 +38,17 @@ interface ActivityItem {
 const translations: Record<Language, Record<string, any>> = {
   en: {
     parentDashboard: 'Parent Dashboard',
-    childName: 'Aarav',
-    childClass: 'Class 10th',
-    schoolName: 'DPS, Rohini',
+    childName: 'Child',
     todayOverview: "Today's Overview",
-    mathsCompleted: 'Maths Homework Completed',
-    ofProblems: 'of 10 problems solved',
+    mathsHomework: 'Maths Homework',
+    ofCount: 'of',
+    tasksCompleted: 'tasks completed',
+    noHomework: 'No homework this week yet',
+    noMathsHomework: 'No maths homework this week yet',
+    lastActiveLabel: 'Last active',
+    noActivityYet: 'No activity recorded yet',
     streak: 'Day Streak',
-    streakMessage: 'Keep it up, Aarav! 🔥',
+    streakMessage: 'Keep the streak going! 🔥',
     thisWeek: 'This Week',
     homeworkDone: 'Homework Done',
     homeworkPending: 'Pending',
@@ -51,11 +56,7 @@ const translations: Record<Language, Record<string, any>> = {
     mastery: 'Subject Mastery',
     recentActivity: 'Recent Activity',
     upcoming: 'Upcoming',
-    mathsExam: 'Maths Exam',
-    examDate: 'March 15, 2025',
-    examSubtitle: 'Chapter 5-8 · Algebra & Geometry',
     connectWhatsApp: '📱 Connect on WhatsApp',
-    whatsAppSubtitle: 'Get instant updates about Aarav\'s progress',
     viewFullReport: 'View Full Report',
     solvedProblems: 'solved problems',
     askedTutor: 'asked tutor',
@@ -81,14 +82,17 @@ const translations: Record<Language, Record<string, any>> = {
   },
   hinglish: {
     parentDashboard: 'Parent Dashboard',
-    childName: 'Aarav',
-    childClass: 'Class 10th',
-    schoolName: 'DPS, Rohini',
+    childName: 'Child',
     todayOverview: "Aaj ka Saransh",
-    mathsCompleted: 'Maths Homework Complete',
-    ofProblems: '10 problems mein se solve kiye',
+    mathsHomework: 'Maths Homework',
+    ofCount: 'of',
+    tasksCompleted: 'tasks complete hue',
+    noHomework: 'Is hafta abhi koi homework nahi',
+    noMathsHomework: 'Is hafta koi maths homework nahi',
+    lastActiveLabel: 'Last active',
+    noActivityYet: 'Abhi koi activity record nahi hui',
     streak: 'Din ka Streak',
-    streakMessage: 'Shabash, Aarav! 🔥',
+    streakMessage: 'Streak jari rakho! 🔥',
     thisWeek: 'Is Hafta',
     homeworkDone: 'Homework Done',
     homeworkPending: 'Baki Hai',
@@ -96,11 +100,7 @@ const translations: Record<Language, Record<string, any>> = {
     mastery: 'Subject Mastery',
     recentActivity: 'Recent Activity',
     upcoming: 'Aane Wala',
-    mathsExam: 'Maths Exam',
-    examDate: '15 March, 2025',
-    examSubtitle: 'Chapter 5-8 · Algebra & Geometry',
     connectWhatsApp: '📱 WhatsApp pe Connect Karein',
-    whatsAppSubtitle: 'Aarav ki progress ke baare mein turant updates paayein',
     viewFullReport: 'Full Report Dekhein',
     solvedProblems: 'problems solve kiye',
     askedTutor: 'tutor se poocha',
@@ -126,14 +126,17 @@ const translations: Record<Language, Record<string, any>> = {
   },
   hindi: {
     parentDashboard: 'माता-पिता डैशबोर्ड',
-    childName: 'आरव',
-    childClass: 'कक्षा 10वीं',
-    schoolName: 'DPS, रोहिणी',
+    childName: 'बच्चा',
     todayOverview: 'आज का सारांश',
-    mathsCompleted: 'गणित का होमवर्क पूर्ण',
-    ofProblems: '10 प्रश्नों में से हल किए',
+    mathsHomework: 'गणित होमवर्क',
+    ofCount: 'में से',
+    tasksCompleted: 'कार्य पूर्ण हुए',
+    noHomework: 'इस सप्ताह अभी कोई होमवर्क नहीं',
+    noMathsHomework: 'इस सप्ताह कोई गणित होमवर्क नहीं',
+    lastActiveLabel: 'अंतिम सक्रिय',
+    noActivityYet: 'अभी कोई गतिविधि दर्ज नहीं',
     streak: 'दिन का स्ट्रीक',
-    streakMessage: 'शाबाश, आरव! 🔥',
+    streakMessage: 'सिलसिला जारी रखो! 🔥',
     thisWeek: 'इस सप्ताह',
     homeworkDone: 'होमवर्क पूर्ण',
     homeworkPending: 'बाकी है',
@@ -141,11 +144,7 @@ const translations: Record<Language, Record<string, any>> = {
     mastery: 'विषय में प्रभुत्व',
     recentActivity: 'हाल की गतिविधि',
     upcoming: 'आगामी',
-    mathsExam: 'गणित परीक्षा',
-    examDate: '15 मार्च, 2025',
-    examSubtitle: 'अध्याय 5-8 · बीजगणित और ज्यामिति',
     connectWhatsApp: '📱 व्हाट्सएप पर जुड़ें',
-    whatsAppSubtitle: 'आरव की प्रगति के बारे में तुरंत अपडेट प्राप्त करें',
     viewFullReport: 'पूरी रिपोर्ट देखें',
     solvedProblems: 'प्रश्न हल किए',
     askedTutor: 'ट्यूटर से पूछा',
@@ -173,44 +172,36 @@ const translations: Record<Language, Record<string, any>> = {
 
 // ─── Fallback demo data (shown only when the API is unreachable) ─
 
-const DEMO_SUBJECT_MASTERY: SubjectMastery[] = [
-  { subject: 'maths', name: 'Mathematics', percentage: 73 },
-  { subject: 'physics', name: 'Physics', percentage: 45 },
-  { subject: 'chemistry', name: 'Chemistry', percentage: 62 },
-];
-
-const DEMO_HOMEWORK: HomeworkItem[] = [
-  { subject: 'maths', title: 'Algebra Practice Set', status: 'completed', date: 'Mon', score: '8/10' },
-  { subject: 'physics', title: 'Laws of Motion Worksheet', status: 'completed', date: 'Tue' },
-  { subject: 'chemistry', title: 'Chemical Reactions Quiz', status: 'completed', date: 'Wed' },
-];
-
-const DEMO_ACTIVITIES: ActivityItem[] = [
-  { id: '1', description: 'Solved problems in Mathematics', time: 'recently', icon: '✅', type: 'solved' },
-];
-
 const SUBJECT_KEYS: Record<string, Subject> = {
   mathematics: 'maths', maths: 'maths', math: 'maths',
   physics: 'physics', chemistry: 'chemistry',
 };
 
-const WHATSAPP_NUMBER = '919876543210';
+const WHATSAPP_NUMBER = ''; // owner: set the school/teacher WhatsApp number to enable this share
 
 // ─── Helpers ─────────────────────────────────────────────────────
 
 function getLevelInfo(percentage: number) {
-  if (percentage > 70) return { color: 'emerald', label: 'levels.excellent', barColor: 'bg-emerald-500' };
-  if (percentage >= 40) return { color: 'amber', label: 'levels.good', barColor: 'bg-amber-500' };
-  return { color: 'rose', label: 'levels.needsWork', barColor: 'bg-rose-500' };
+  if (percentage > 70) return { color: 'emerald', label: 'Excellent', barColor: 'bg-emerald-500/20' };
+  if (percentage >= 40) return { color: 'amber', label: 'Good', barColor: 'bg-amber-500/20' };
+  return { color: 'rose', label: 'Needs work', barColor: 'bg-rose-500/20' };
 }
 
 function getStatusConfig(status: string) {
   switch (status) {
-    case 'completed': return { bg: 'bg-emerald-50', border: 'border-emerald-200', text: 'text-emerald-700', dot: 'bg-emerald-500', label: 'homeworkDone' };
-    case 'pending': return { bg: 'bg-amber-50', border: 'border-amber-200', text: 'text-amber-700', dot: 'bg-amber-400', label: 'homeworkPending' };
-    case 'overdue': return { bg: 'bg-rose-50', border: 'border-rose-200', text: 'text-rose-700', dot: 'bg-rose-500', label: 'homeworkOverdue' };
-    default: return { bg: 'bg-gray-50', border: 'border-gray-200', text: 'text-gray-700', dot: 'bg-gray-400', label: '' };
+    case 'completed': return { bg: 'bg-emerald-500/15', border: 'border-emerald-500/25', text: 'text-emerald-300', dot: 'bg-emerald-500/20', label: 'homeworkDone' };
+    case 'pending': return { bg: 'bg-amber-500/15', border: 'border-amber-500/25', text: 'text-amber-300', dot: 'bg-amber-400', label: 'homeworkPending' };
+    case 'overdue': return { bg: 'bg-rose-500/15', border: 'border-rose-500/25', text: 'text-rose-300', dot: 'bg-rose-500/20', label: 'homeworkOverdue' };
+    default: return { bg: 'bg-slate-800/60', border: 'border-slate-700', text: 'text-slate-200', dot: 'bg-slate-500', label: '' };
   }
+}
+
+/** Short human date (e.g. "Sep 18") for a real ISO timestamp; '' when absent/invalid. */
+function fmtWhen(iso: string | null): string {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return '';
+  return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
 }
 
 // ─── Animation Variants ──────────────────────────────────────────
@@ -252,23 +243,23 @@ function MasteryBar({ percentage, labelKey, name, lang }: { percentage: number; 
     <motion.div
       variants={itemVariants}
       whileHover={{ scale: 1.02 }}
-      className="bg-white/70 backdrop-blur-sm rounded-2xl p-4 sm:p-5 border border-white/50 shadow-sm hover:shadow-md transition-shadow"
+      className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-4 sm:p-5 border border-slate-600/40 shadow-sm hover:shadow-md transition-shadow"
     >
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-3">
           <div
             className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg font-bold ${
               level.color === 'emerald'
-                ? 'bg-emerald-100 text-emerald-700'
+                ? 'bg-emerald-100 text-emerald-300'
                 : level.color === 'amber'
-                ? 'bg-amber-100 text-amber-700'
-                : 'bg-rose-100 text-rose-700'
+                ? 'bg-amber-100 text-amber-300'
+                : 'bg-rose-100 text-rose-300'
             }`}
           >
             {displayName.charAt(0)}
           </div>
           <div>
-            <p className="font-semibold text-gray-800 text-base sm:text-lg">{displayName}</p>
+            <p className="font-semibold text-white text-base sm:text-lg">{displayName}</p>
             <p className={`text-xs sm:text-sm font-medium ${
               level.color === 'emerald' ? 'text-emerald-600' :
               level.color === 'amber' ? 'text-amber-600' : 'text-rose-600'
@@ -289,7 +280,7 @@ function MasteryBar({ percentage, labelKey, name, lang }: { percentage: number; 
           {percentage}%
         </motion.span>
       </div>
-      <div className="w-full bg-gray-100 rounded-full h-3 sm:h-4 overflow-hidden" role="progressbar" aria-valuenow={percentage} aria-valuemin={0} aria-valuemax={100} aria-label={`${displayName} mastery: ${percentage}%`}>
+      <div className="w-full bg-slate-700 rounded-full h-3 sm:h-4 overflow-hidden" role="progressbar" aria-valuenow={percentage} aria-valuemin={0} aria-valuemax={100} aria-label={`${displayName} mastery: ${percentage}%`}>
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: `${percentage}%` }}
@@ -322,12 +313,12 @@ function ActivityTimeline({ activities, lang }: { activities: ActivityItem[]; la
         >
           {/* Timeline connector */}
           {index < activities.length - 1 && (
-            <div className="absolute left-[19px] sm:left-[23px] top-10 w-0.5 h-full bg-gray-100" />
+            <div className="absolute left-[19px] sm:left-[23px] top-10 w-0.5 h-full bg-slate-700" />
           )}
           {/* Icon */}
           <motion.div
             whileHover={{ scale: 1.15 }}
-            className="relative z-10 w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-white border border-gray-100 shadow-sm flex items-center justify-center text-base sm:text-lg flex-shrink-0"
+            className="relative z-10 w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-slate-800 border border-slate-700 shadow-sm flex items-center justify-center text-base sm:text-lg flex-shrink-0"
           >
             {activity.icon}
           </motion.div>
@@ -336,8 +327,8 @@ function ActivityTimeline({ activities, lang }: { activities: ActivityItem[]; la
             whileHover={{ x: 4 }}
             className="flex-1 pb-5 pt-1"
           >
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{activity.description}</p>
-            <p className="text-xs text-gray-400 mt-1 font-medium">{activity.time}</p>
+            <p className="text-sm sm:text-base text-slate-200 leading-relaxed">{activity.description}</p>
+            <p className="text-xs text-slate-500 mt-1 font-medium">{activity.time}</p>
           </motion.div>
         </motion.div>
       ))}
@@ -353,7 +344,7 @@ function StreakFlame({ days, lang }: { days: number; lang: Language }) {
   return (
     <motion.div
       variants={itemVariants}
-      className="bg-gradient-to-br from-orange-50 to-rose-50 rounded-2xl p-4 sm:p-6 border border-orange-100/50 text-center"
+      className="bg-gradient-to-br from-orange-500/10 to-rose-500/10 rounded-2xl p-4 sm:p-6 border border-orange-500/20 text-center"
     >
       <motion.div
         animate={{
@@ -374,7 +365,7 @@ function StreakFlame({ days, lang }: { days: number; lang: Language }) {
       >
         {days}
       </motion.div>
-      <p className="text-sm sm:text-base font-semibold text-gray-600 mt-1">{t.streak}</p>
+      <p className="text-sm sm:text-base font-semibold text-slate-300 mt-1">{t.streak}</p>
       <p className="text-xs text-orange-500/80 mt-2 font-medium italic">{t.streakMessage}</p>
     </motion.div>
   );
@@ -404,10 +395,10 @@ function HomeworkSummary({ items, lang }: { items: HomeworkItem[]; lang: Languag
           transition={{ delay: 0.4 + index * 0.1, type: 'spring', stiffness: 300 }}
           className={`rounded-xl sm:rounded-2xl p-3 sm:p-4 text-center border ${
             stat.color === 'emerald'
-              ? 'bg-emerald-50/80 border-emerald-100'
+              ? 'bg-emerald-500/20/15 border-emerald-500/25'
               : stat.color === 'amber'
-              ? 'bg-amber-50/80 border-amber-100'
-              : 'bg-rose-50/80 border-rose-100'
+              ? 'bg-amber-500/20/15 border-amber-500/25'
+              : 'bg-rose-500/20/15 border-rose-500/25'
           }`}
         >
           <div className="text-xl sm:text-2xl mb-1">{stat.icon}</div>
@@ -417,7 +408,7 @@ function HomeworkSummary({ items, lang }: { items: HomeworkItem[]; lang: Languag
           }`}>
             {stat.count}
           </div>
-          <div className="text-[10px] sm:text-xs text-gray-500 font-semibold mt-0.5 leading-tight">{stat.label}</div>
+          <div className="text-[10px] sm:text-xs text-slate-400 font-semibold mt-0.5 leading-tight">{stat.label}</div>
         </motion.div>
       ))}
     </motion.div>
@@ -437,7 +428,7 @@ function LanguageSwitcher({ current, onChange }: { current: Language; onChange: 
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="flex bg-white/60 backdrop-blur-sm rounded-xl p-1 border border-white/50 shadow-sm"
+      className="flex bg-slate-800/50 backdrop-blur-sm rounded-xl p-1 border border-slate-600/40 shadow-sm"
       role="radiogroup"
       aria-label="Select language"
     >
@@ -450,7 +441,7 @@ function LanguageSwitcher({ current, onChange }: { current: Language; onChange: 
           className={`px-2 sm:px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
             current === lang.code
               ? 'bg-indigo-500 text-white shadow-md'
-              : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100/50'
+              : 'text-slate-400 hover:text-slate-200 hover:bg-slate-700/50'
           }`}
         >
           {lang.native}
@@ -462,13 +453,24 @@ function LanguageSwitcher({ current, onChange }: { current: Language; onChange: 
 
 // ─── WhatsApp Button ──────────────────────────────────────────────
 
-function WhatsAppButton({ lang }: { lang: Language }) {
+function WhatsAppButton({ lang, childName }: { lang: Language; childName: string | null }) {
   const t = translations[lang];
+  const waText = childName
+    ? `Namaste! Main parent hoon. Mere bacche ${childName} ka progress update chahiye.`
+    : 'Namaste! Main parent hoon. Mere bacche ka progress update chahiye.';
+
+  if (!WHATSAPP_NUMBER) {
+    return (
+      <div className="flex items-center justify-center gap-3 w-full rounded-2xl py-4 px-6 font-bold text-base sm:text-lg bg-white/5 border border-white/10 text-slate-300 text-center text-sm">
+        {t.connectWhatsApp} — ask your school for the link
+      </div>
+    );
+  }
 
   return (
     <motion.a
       variants={itemVariants}
-      href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Namaste! Main Aarav ka parent hoon. Mera baccha ka progress update chahiye.')}`}
+      href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(waText)}`}
       target="_blank"
       rel="noopener noreferrer"
       whileHover={{ scale: 1.03 }}
@@ -484,6 +486,41 @@ function WhatsAppButton({ lang }: { lang: Language }) {
 }
 
 // ─── Language-stored State ───────────────────────────────────────
+
+/** WHATSAPP-DIGEST — one-tap copy of the child's weekly summary as a
+ *  WhatsApp-pasteable message. Reads the same live data the dashboard
+ *  already shows; parent shares it into their school/family group. */
+function DigestCopy({ lang, live, subjectMastery }: { lang: Language; live: any; subjectMastery: { subject: Subject; name: string; percentage: number }[] }) {
+  const [copied, setCopied] = useState(false);
+  const t = translations[lang];
+  const name = live?.childName ?? 'your child';
+  const masteryLine = subjectMastery.length
+    ? subjectMastery.map(s => `${s.name || s.subject}: ${s.percentage}%`).join(' | ')
+    : 'No mastery data yet';
+  const actCount = (live?.activities ?? []).length;
+  const streak = live?.streakDays ?? live?.streak ?? 0;
+  const text = [
+    `*${name}'s weekly Atlas summary*`,
+    `🔥 Streak: ${streak} day${streak === 1 ? '' : 's'}`,
+    `🎯 Mastery: ${masteryLine}`,
+    `⚡ Activities this week: ${actCount}`,
+    ``,
+    `— via Atlas`,
+  ].join('\n');
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch { /* clipboard denied */ }
+  };
+  return (
+    <button onClick={copy}
+      className="w-full rounded-2xl py-3 px-6 font-semibold text-sm bg-white/5 border border-white/10 text-slate-200 hover:bg-white/10 transition-colors flex items-center justify-center gap-2">
+      {copied ? '✓ Copied!' : '📋 Copy weekly summary for WhatsApp'}
+    </button>
+  );
+}
 
 const LANG_STORAGE_KEY = 'parent-dashboard-language';
 
@@ -502,11 +539,11 @@ function getInitialLanguage(): Language {
 
 // ─── Live data wiring ─────────────────────────────────────────────
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || '';
 
 function authHeaders(): Record<string, string> {
   if (typeof window === 'undefined') return {};
-  const token = localStorage.getItem('token') || localStorage.getItem('auth_token');
+  const token = getAuthToken();
   return token ? { Authorization: `Bearer ${token}` } : {};
 }
 
@@ -529,6 +566,7 @@ function subjectKey(name: string): Subject {
 interface LiveData {
   childName: string | null;
   childGrade: string | null;
+  lastActiveAt: string | null;
   streak: number;
   mastery: SubjectMastery[];
   homework: HomeworkItem[];
@@ -536,7 +574,7 @@ interface LiveData {
 }
 
 const EMPTY_LIVE: LiveData = {
-  childName: null, childGrade: null, streak: 0,
+  childName: null, childGrade: null, lastActiveAt: null, streak: 0,
   mastery: [], homework: [], activities: [],
 };
 
@@ -551,6 +589,7 @@ async function loadLiveData(parentId: string): Promise<LiveData> {
 
   out.childName = child.student_name;
   out.childGrade = child.grade;
+  out.lastActiveAt = child.last_active_at ?? null;
   out.streak = child.current_streak ?? 0;
 
   // Per-subject mastery from the child's student dashboard
@@ -597,11 +636,16 @@ export default function ParentDashboard() {
   const [lang, setLang] = useState<Language>(getInitialLanguage);
   const [isLoaded, setIsLoaded] = useState(false);
   const [live, setLive] = useState<LiveData>(EMPTY_LIVE);
+  const authUser = useAuthStore((s) => s.user);
 
   const t = translations[lang];
-  const subjectMastery = live.mastery.length ? live.mastery : DEMO_SUBJECT_MASTERY;
-  const weeklyHomework = live.homework.length ? live.homework : DEMO_HOMEWORK;
-  const recentActivities = live.activities.length ? live.activities : DEMO_ACTIVITIES;
+  // Live data only — no demo fallbacks. An empty list renders an honest
+  // "nothing recorded yet" state below.
+  const subjectMastery = live.mastery;
+  const weeklyHomework = live.homework;
+  const recentActivities = live.activities;
+  const mathsHomework = weeklyHomework.filter(h => h.subject === 'maths');
+  const mathsDone = mathsHomework.filter(h => h.status === 'completed').length;
 
   useEffect(() => {
     localStorage.setItem(LANG_STORAGE_KEY, lang);
@@ -613,22 +657,25 @@ export default function ParentDashboard() {
   }, []);
 
   useEffect(() => {
-    const pid = getParentId();
+    // Signed-in parent id comes from the auth store; the legacy
+    // student-storage profile is only a fallback. Without an id (or without
+    // auth) the page stays on honest empty states — never demo data.
+    const pid = authUser?.id || getParentId();
     if (!pid) return;
     let cancelled = false;
     loadLiveData(pid).then(d => { if (!cancelled) setLive(d); });
     return () => { cancelled = true; };
-  }, []);
+  }, [authUser?.id]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50" dir={lang === 'hindi' ? 'ltr' : 'ltr'}>
+    <div className="min-h-screen bg-slate-950" dir={lang === 'hindi' ? 'ltr' : 'ltr'}>
       {/* Skip link for accessibility */}
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-indigo-600 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg">
         Skip to main content
       </a>
 
       {/* ─── Header ───────────────────────────── */}
-      <header className="sticky top-0 z-40 backdrop-blur-xl bg-white/70 border-b border-white/50">
+      <header className="sticky top-0 z-40 backdrop-blur-xl bg-slate-900/80 border-b border-slate-600/40">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -639,8 +686,8 @@ export default function ParentDashboard() {
               <span className="text-white font-bold text-lg sm:text-xl" aria-hidden="true">📚</span>
             </div>
             <div>
-              <h1 className="text-base sm:text-lg font-bold text-gray-800 leading-tight">{t.parentDashboard}</h1>
-              <p className="text-[10px] sm:text-xs text-gray-500 font-medium">Atlas · Smart Learning</p>
+              <h1 className="text-base sm:text-lg font-bold text-white leading-tight">{t.parentDashboard}</h1>
+              <p className="text-[10px] sm:text-xs text-slate-400 font-medium">Atlas · Smart Learning</p>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }}>
@@ -673,22 +720,30 @@ export default function ParentDashboard() {
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
                       transition={{ type: 'spring', stiffness: 400, damping: 15, delay: 0.3 }}
-                      className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white/20 backdrop-blur-sm border-2 border-white/30 flex items-center justify-center text-3xl sm:text-4xl shadow-lg"
+                      className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white/10 backdrop-blur-sm border-2 border-slate-500/40 flex items-center justify-center text-3xl sm:text-4xl shadow-lg"
                     >
                       👦
                     </motion.div>
                     <div className="flex-1 min-w-0">
                       <h2 className="text-xl sm:text-2xl font-bold">{live.childName || t.childName}</h2>
-                      <p className="text-white/80 text-sm sm:text-base font-medium mt-0.5">{live.childGrade ? `Class ${live.childGrade}` : t.childClass} · {t.schoolName}</p>
+                      {live.childGrade && (
+                        <p className="text-white/80 text-sm sm:text-base font-medium mt-0.5">Class {live.childGrade}</p>
+                      )}
                       <div className="flex items-center gap-1.5 mt-2">
-                        <span className="w-2 h-2 bg-green-300 rounded-full animate-pulse" aria-hidden="true" />
-                        <span className="text-xs sm:text-sm text-white/90 font-medium">Online · Learning now</span>
+                        {live.lastActiveAt ? (
+                          <>
+                            <span className="w-2 h-2 bg-slate-300 rounded-full" aria-hidden="true" />
+                            <span className="text-xs sm:text-sm text-white/80 font-medium">{t.lastActiveLabel} {fmtWhen(live.lastActiveAt)}</span>
+                          </>
+                        ) : (
+                          <span className="text-xs sm:text-sm text-white/70 font-medium">{t.noActivityYet}</span>
+                        )}
                       </div>
                     </div>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-white/20 backdrop-blur-sm hover:bg-white/30 rounded-xl p-2.5 transition-colors border border-white/20"
+                      className="bg-white/10 backdrop-blur-sm hover:bg-white/10 rounded-xl p-2.5 transition-colors border border-slate-500/30"
                       aria-label="Settings"
                     >
                       <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -702,53 +757,61 @@ export default function ParentDashboard() {
 
               {/* ── Today Overview ──────────────── */}
               <motion.section variants={itemVariants} aria-labelledby="today-heading">
-                <h3 id="today-heading" className="text-lg sm:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                <h3 id="today-heading" className="text-lg sm:text-xl font-bold text-white mb-3 flex items-center gap-2">
                   <span aria-hidden="true">📊</span> {t.todayOverview}
                 </h3>
-                <div className="bg-white/70 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-white/50 shadow-sm space-y-4">
-                  {/* Maths homework completed */}
+                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-slate-600/40 shadow-sm space-y-4">
+                  {/* Maths homework — real counts from the homework API */}
                   <div className="flex items-center gap-3 sm:gap-4">
-                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-indigo-50 border border-indigo-100 flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-indigo-500/15 border border-indigo-500/25 flex items-center justify-center flex-shrink-0">
                       <span className="text-xl sm:text-2xl" aria-hidden="true">📐</span>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm sm:text-base font-bold text-gray-800">{t.mathsCompleted}</p>
-                      <p className="text-xs sm:text-sm text-gray-500">8{t.ofProblems}</p>
+                      <p className="text-sm sm:text-base font-bold text-white">{t.mathsHomework}</p>
+                      <p className="text-xs sm:text-sm text-slate-400">
+                        {mathsHomework.length === 0
+                          ? (weeklyHomework.length === 0 ? t.noHomework : t.noMathsHomework)
+                          : `${mathsDone} ${t.ofCount} ${mathsHomework.length} ${t.tasksCompleted}`}
+                      </p>
                     </div>
-                    <div className="text-right flex-shrink-0">
-                      <span className="text-2xl sm:text-3xl font-extrabold text-indigo-600">8</span>
-                      <span className="text-sm text-gray-400 font-semibold">/10</span>
-                    </div>
+                    {mathsHomework.length > 0 && (
+                      <div className="text-right flex-shrink-0">
+                        <span className="text-2xl sm:text-3xl font-extrabold text-indigo-300">{mathsDone}</span>
+                        <span className="text-sm text-slate-500 font-semibold">/{mathsHomework.length}</span>
+                      </div>
+                    )}
                   </div>
 
                   {/* Divider */}
-                  <div className="border-t border-gray-100" role="separator" />
+                  <div className="border-t border-slate-700" role="separator" />
 
                   {/* Streak */}
                   <div className="flex items-center gap-3 sm:gap-4">
-                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-orange-50 border border-orange-100 flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-orange-500/15 border border-orange-500/25 flex items-center justify-center flex-shrink-0">
                       <span className="text-xl sm:text-2xl" aria-hidden="true">🔥</span>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm sm:text-base font-bold text-gray-800">{t.streak}</p>
+                      <p className="text-sm sm:text-base font-bold text-white">{t.streak}</p>
                       <p className="text-xs sm:text-sm text-orange-500 font-medium">{t.streakMessage}</p>
                     </div>
-                    <StreakFlame days={live.streak || 7} lang={lang} />
+                    <StreakFlame days={live.streak || 0} lang={lang} />
                   </div>
                 </div>
               </motion.section>
 
               {/* ── This Week ────────────────────── */}
               <motion.section variants={itemVariants} aria-labelledby="week-heading">
-                <h3 id="week-heading" className="text-lg sm:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                <h3 id="week-heading" className="text-lg sm:text-xl font-bold text-white mb-3 flex items-center gap-2">
                   <span aria-hidden="true">📅</span> {t.thisWeek}
                 </h3>
-                <div className="bg-white/70 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-white/50 shadow-sm">
+                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-slate-600/40 shadow-sm">
                   <HomeworkSummary items={weeklyHomework} lang={lang} />
 
                   {/* Individual homework items */}
                   <div className="mt-4 space-y-2" role="list" aria-label="Homework list">
-                    {weeklyHomework.map((hw, index) => {
+                    {weeklyHomework.length === 0 ? (
+                      <p className="text-sm text-slate-500 text-center py-3">No homework recorded yet.</p>
+                    ) : weeklyHomework.map((hw, index) => {
                       const statusConfig = getStatusConfig(hw.status);
                       const subjectNames: Record<Subject, string> = {
                         maths: t.subjects.maths,
@@ -768,7 +831,7 @@ export default function ParentDashboard() {
                           <span className={`w-2 h-2 rounded-full ${statusConfig.dot} flex-shrink-0`} aria-hidden="true" />
                           <div className="flex-1 min-w-0">
                             <p className={`text-xs sm:text-sm font-semibold ${statusConfig.text} truncate`}>{hw.title}</p>
-                            <p className="text-[10px] sm:text-xs text-gray-400">{subjectNames[hw.subject]} · {hw.date}</p>
+                            <p className="text-[10px] sm:text-xs text-slate-500">{subjectNames[hw.subject]} · {hw.date}</p>
                           </div>
                           {hw.score && (
                             <span className="text-xs sm:text-sm font-bold text-emerald-600 flex-shrink-0">{hw.score}</span>
@@ -785,12 +848,16 @@ export default function ParentDashboard() {
 
               {/* ── Subject Mastery ─────────────── */}
               <motion.section variants={itemVariants} aria-labelledby="mastery-heading">
-                <h3 id="mastery-heading" className="text-lg sm:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                <h3 id="mastery-heading" className="text-lg sm:text-xl font-bold text-white mb-3 flex items-center gap-2">
                   <span aria-hidden="true">🎯</span> {t.mastery}
                 </h3>
-                <div className="bg-white/70 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-white/50 shadow-sm">
+                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-slate-600/40 shadow-sm">
                   <div className="space-y-3 sm:space-y-4">
-                    {subjectMastery.map((subject) => (
+                    {subjectMastery.length === 0 ? (
+                      <p className="text-sm text-slate-500 text-center py-3">
+                        No mastery data yet — it appears as your child completes lessons.
+                      </p>
+                    ) : subjectMastery.map((subject) => (
                       <MasteryBar
                         key={subject.subject}
                         percentage={subject.percentage}
@@ -800,7 +867,7 @@ export default function ParentDashboard() {
                       />
                     ))}
                   </div>
-                  <p className="text-[10px] sm:text-xs text-gray-400 mt-4 text-center italic">
+                  <p className="text-[10px] sm:text-xs text-slate-500 mt-4 text-center italic">
                     {t.masteryNote}
                   </p>
                 </div>
@@ -808,69 +875,42 @@ export default function ParentDashboard() {
 
               {/* ── Recent Activity ─────────────── */}
               <motion.section variants={itemVariants} aria-labelledby="activity-heading">
-                <h3 id="activity-heading" className="text-lg sm:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                <h3 id="activity-heading" className="text-lg sm:text-xl font-bold text-white mb-3 flex items-center gap-2">
                   <span aria-hidden="true">⚡</span> {t.recentActivity}
                 </h3>
-                <div className="bg-white/70 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-white/50 shadow-sm">
-                  <ActivityTimeline activities={recentActivities} lang={lang} />
+                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-slate-600/40 shadow-sm">
+                  {recentActivities.length === 0 ? (
+                    <p className="text-sm text-slate-500 text-center py-3">{t.noActivity}</p>
+                  ) : (
+                    <ActivityTimeline activities={recentActivities} lang={lang} />
+                  )}
                 </div>
               </motion.section>
 
               {/* ── Upcoming Exam ───────────────── */}
               <motion.section variants={itemVariants} aria-labelledby="upcoming-heading">
-                <h3 id="upcoming-heading" className="text-lg sm:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                <h3 id="upcoming-heading" className="text-lg sm:text-xl font-bold text-white mb-3 flex items-center gap-2">
                   <span aria-hidden="true">📅</span> {t.upcoming}
                 </h3>
-                <motion.div
-                  whileHover={{ scale: 1.01 }}
-                  className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-indigo-100/50 shadow-sm"
-                >
-                  <div className="flex items-start gap-3 sm:gap-4">
-                    <div className="w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-xl sm:rounded-2xl border border-indigo-100 shadow-sm flex flex-col items-center justify-center flex-shrink-0">
-                      <span className="text-[10px] sm:text-xs font-bold text-indigo-400 uppercase">Mar</span>
-                      <span className="text-xl sm:text-2xl font-extrabold text-indigo-600 leading-none">15</span>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <h4 className="text-base sm:text-lg font-bold text-gray-800">{t.mathsExam}</h4>
-                      <p className="text-xs sm:text-sm text-gray-500 mt-0.5">{t.examDate}</p>
-                      <p className="text-xs text-indigo-500/80 font-medium mt-1">{t.examSubtitle}</p>
-                    </div>
-                    <motion.div
-                      animate={{ y: [0, -3, 0] }}
-                      transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
-                      className="text-2xl sm:text-3xl flex-shrink-0"
-                      aria-hidden="true"
-                    >
-                      📝
-                    </motion.div>
-                  </div>
-
-                  {/* Preparation progress */}
-                  <div className="mt-4">
-                    <div className="flex items-center justify-between mb-1.5">
-                      <span className="text-xs font-semibold text-gray-600">Preparation Progress</span>
-                      <span className="text-xs font-bold text-indigo-600">60%</span>
-                    </div>
-                    <div className="w-full bg-indigo-100/80 rounded-full h-2">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        animate={{ width: '60%' }}
-                        transition={{ duration: 1.5, ease: 'easeOut', delay: 1 }}
-                        className="h-2 rounded-full bg-gradient-to-r from-indigo-400 to-purple-500"
-                      />
-                    </div>
-                  </div>
-                </motion.div>
+                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-slate-600/40 shadow-sm">
+                  <p className="text-sm text-slate-500 text-center py-3">
+                    No exams scheduled yet. Exam dates show up here once your child&apos;s class schedules them.
+                  </p>
+                </div>
               </motion.section>
 
-              {/* ── WhatsApp Connect ────────────── */}
-              <motion.section variants={itemVariants}>
-                <WhatsAppButton lang={lang} />
+              {/* ── WhatsApp Connect + weekly digest copy ────────────── */}
+              <motion.section variants={itemVariants} className="space-y-3">
+                <WhatsAppButton lang={lang} childName={live.childName} />
+                {/* WHATSAPP-DIGEST: build a shareable weekly summary the
+                    parent can paste straight into WhatsApp — real data,
+                    not a "send me the update" plea. */}
+                <DigestCopy lang={lang} live={live} subjectMastery={subjectMastery} />
               </motion.section>
 
               {/* ── Footer ──────────────────────── */}
               <motion.div variants={itemVariants} className="text-center py-4 sm:py-6">
-                <p className="text-[10px] sm:text-xs text-gray-400">
+                <p className="text-[10px] sm:text-xs text-slate-500">
                   Atlas · Empowering every child to learn smarter
                 </p>
               </motion.div>

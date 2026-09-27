@@ -157,7 +157,7 @@ export const w_c11_businessstudiesmeaningfeaturesbusinesssim: SimDef = {
           hint: 'If stuck, revisit c11_bs_cbse_10_002 (Wholesale Trade) and explicitly list the three.',
           misconception: 'Students incorrectly believe that "retailer = small shop" and "wholesaler = big shop/warehouse".',
           parts: [
-                { id: 'a', prompt: 'A manufacturer sells 500 units of a product to a trader who sells 50 units each to 10 different buyers.', answer: 'Correct answer: No, the second trader is NOT a retailer',
+                { id: 'a', prompt: 'A manufacturer sells 500 units of a product to a trader who sells 50 units each to 10 different buyers.', answer: 'No, the second trader is NOT a retailer',
                   options: ['Correct answer: No, the second trader is NOT a retailer', 'yes, because they sold in small quantity'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students incorrectly believe that "retailer = small shop" and "wholesaler = big shop/warehouse".' }

@@ -16,7 +16,7 @@ export const w_c9_historycivicsdefinitionconstitutionsignificancesim: SimDef = {
     discovery: {
         question: 'A country holds elections every five years with universal adult franchise.',
         options: ['Correct answer: No, it lacks substantive democracy', 'yes because elections are held', 'democracy = majority rule'],
-        answer: 'Correct answer: No, it lacks substantive democracy',
+        answer: 'No, it lacks substantive democracy',
         hook: 'Students often think "democracy = majority rule" and therefore believe that if a government wins an election with 51%.',
     },
     teaching: [
@@ -64,7 +64,7 @@ export const w_c9_historycivicsdefinitionconstitutionsignificancesim: SimDef = {
           hint: 'Revisit Article 326 (universal adult franchise) and the Preamble\'s "We the people" –.',
           misconception: 'Students often think "democracy = majority rule" and therefore believe that if a government wins an election with 51%.',
           parts: [
-                { id: 'a', prompt: 'A country holds elections every five years with universal adult franchise.', answer: 'Correct answer: No, it lacks substantive democracy',
+                { id: 'a', prompt: 'A country holds elections every five years with universal adult franchise.', answer: 'No, it lacks substantive democracy',
                   options: ['Correct answer: No, it lacks substantive democracy', 'yes because elections are held', 'democracy = majority rule'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "democracy = majority rule" and therefore believe that if a government wins an election with 51% votes, it can do.' }
@@ -75,7 +75,7 @@ export const w_c9_historycivicsdefinitionconstitutionsignificancesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think "democracy = majority rule" and therefore believe that if a government wins an election with 51%.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the statement: "A democracy that does not protect minority rights against majority decisions is not a true democracy." Use the concepts of.', answer: 'Correct answer: The statement is correct',
+                { id: 'a', prompt: 'Evaluate the statement: "A democracy that does not protect minority rights against majority decisions is not a true democracy." Use the concepts of.', answer: 'The statement is correct',
                   options: ['Correct answer: The statement is correct', 'democracy = majority rule', 'it has the mandate'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "democracy = majority rule" and therefore believe that if a government wins an election with 51% votes, it can do.' }

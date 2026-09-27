@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch12_p3: SimDef = {
     id: 'v3_c11_hin_ar_ch12_p3',
-    title: 'Q.kh\'oj ukFk js.kq · Part 3/3',
+    title: 'पाठ 12 · Part 3/3',
     subtitle: 'Follow a village postman who delivers an argument instead of a letter.',
-    classLevel: 11, subject: 'hin_ar', topic: 'Q.kh\'oj ukFk js.kq · Part 3/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 12 · Part 3/3',
     chapters: ['c11_hin_ar_ch12'],
     nodeIds: ['c11_hin_ar_cbse_12_013', 'c11_hin_ar_cbse_12_014', 'c11_hin_ar_cbse_12_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,29 +19,20 @@ export const c11_hin_ar_ch12_p3: SimDef = {
         hook: 'Agyeya the linguist wrote in the people\'s dialect on purpose — the poem isn\'t about letters, it\'s about reclaiming agency.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of actively examining a text\'s explicit and implicit layers—its structure, language, perspective, and socio-cultural context—to form.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 12 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है जिसमें पाठक पाठ की संरचना, भाषा-शैली, प्रतीक-योजना, लेखकीय दृष्टिकोण और अंतर्निहित मान्यताओं की जांच करके.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_12_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Chart the postman\'s arrival to the command \'पढ़ ले!\' as a narrative arc, then argue whether a revolutionary poet\'s literacy poem can be called propaganda.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['पाठ 12 — आलोचनात्मक', 'पाठ 12 — लेखन', 'पाठ 12 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_12_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you receive a letter from your village home but cannot read it yourself—you must wait for someone else to read it aloud, wondering if they might skip.',
-            decisions: [{ prompt: 'Identify the central structural irony in the poem "पाइक दकस दकस" and state it in one sentence.', options: [
-                { text: 'The central structural irony is that the Paik\'s profession revolves entirely around', outcome: 'The central structural irony is that the Paik\'s profession revolves entirely around transporting.' },
-                { text: 'the Paik is poor', outcome: 'Not quite — Students often treat "critical analysis" as hunting for a hidden "message" or "moral" (e.g.', reveals: 'students-often-treat-critical-analysis' },
-                { text: 'the poet is educated', outcome: 'Not quite — Students often treat "critical analysis" as hunting for a hidden "message" or "moral" (e.g.', reveals: 'students-often-treat-critical-analysis' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_12_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you get a board exam question: "पाइक के चरित्र की विशेषताओं का वर्णन कीजिए।" You write a paragraph summarizing the poem but the teacher says it lacks.',
-            decisions: [{ prompt: 'What is the full form of PEEL in the context of writing analytical paragraphs for literature?', options: [
-                { text: 'PEEL stands for Point (topic sentence), Evidence (textual support), Explanation (analysis', outcome: 'PEEL stands for Point (topic sentence), Evidence (textual support), Explanation (analysis.' },
-                { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe that writing a character sketch means listing adjectives (e.g., "पाइक जिद्दी.', reveals: 'writing-a-character-sketch-means' },
-                { text: 'पाइक जिद्दी, अनपढ़, डरपोक है', outcome: 'Not quite — Students believe that writing a character sketch means listing adjectives (e.g., "पाइक जिद्दी.', reveals: 'writing-a-character-sketch-means' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_12_014', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 12 · Part 3/3', spots: [
+            { id: 's1', label: '12 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य लेकर, उसके विश्लेषण के.', answer: '12 -', options: ['12 -', '12 - -'] },
+            { id: 's2', label: '12 - -', prompt: 'Which idea is this? — चर्चा-बिंदु (Discussion Points) are analytically framed, text-anchored prompts designed.', answer: '12 - -', options: ['12 - -', '12 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_12_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your class is adapting Agyeya\'s poem — a postman urging an illiterate villager to read — for a street play. The adapter wants to add a narrator to \'explain the poet\'s sadness about illiteracy\' and soften the postman\'s command \'पढ़ ले!\' into polite persuasion.',
             decisions: [{ prompt: 'Why do both changes miss the poem\'s design?', options: [
@@ -61,53 +52,38 @@ export const c11_hin_ar_ch12_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of actively.',
-          hint: 'If stuck, review c11_hin_ar_cbse_12_009 (Irony and Symbolism) to refresh how to track.',
-          misconception: 'Students often treat "critical analysis" as hunting for a hidden "message" or "moral" (e.g., "education is important").',
+          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह.',
+          hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_12_008 और c11_hin_ar_cbse_12_009 (साहित्यिक.',
+          misconception: 'छात्र मानते हैं कि आलोचनात्मक चिंतन का अर्थ \'कमियाँ निकालना\' या \'लेखक से असहमत होना\' है, जबकि वास्तव में यह पाठ की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis is the disciplined process of actively examining a',
-                  options: ['Critical thinking in literary analysis is the disciplined process of actively examining a', '"Before You Read: Context and Background" is a pre-reading pedagogical step that provides', 'Plot and narrative structure in a narrative poem refers to the organized sequence of', 'Setting and atmosphere in poetry refer to the physical, temporal, and emotional backdrop'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_12_009 (Irony and Symbolism) to refresh how to track an evolving.',
-                  misconception: 'Students often treat "critical analysis" as hunting for a hidden "message" or "moral" (e.g., "education is important") and then quoting.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है',
+                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_12_008 और c11_hin_ar_cbse_12_009 (साहित्यिक युक्तियाँ) को.',
+                  misconception: 'छात्र मानते हैं कि आलोचनात्मक चिंतन का अर्थ \'कमियाँ निकालना\' या \'लेखक से असहमत होना\' है, जबकि वास्तव में यह पाठ की आंतरिक सांगठनिकता.' }
           ],
-            remediations: { 'students-often-treat-critical-analysis': { steps: ['Return to the poem\'s opening stanza: have the student read aloud the Paik\'s self-description ("पाइक लुंज की यादग.', 'Map the dialogue exchanges on a two-column table: Poet\'s argument vs.', 'Trace the single image "छाती पर चट फट" across three occurrences, noting what changes in the context each time.', 'Finally, ask: "If the poem ended with the Paik becoming a clerk, would it be stronger or weaker?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat "critical analysis" as hunting for a hidden "message" or "moral" (e.g., "education is important").',
-          parts: [
-                { id: 'a', prompt: 'Critique the interpretation that the poem presents a simplistic "literacy solves all problems" message.', answer: 'The poem complicates the literacy narrative by giving the Paik a valid economic',
-                  options: ['The poem complicates the literacy narrative by giving the Paik a valid economic', 'the poem shows education changes everything immediately'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_12_009 (Irony and Symbolism) to refresh how to track an evolving.',
-                  misconception: 'Students often treat "critical analysis" as hunting for a hidden "message" or "moral" (e.g., "education is important") and then quoting.' }
-          ],
-            remediations: { 'students-often-treat-critical-analysis': { steps: ['Return to the poem\'s opening stanza: have the student read aloud the Paik\'s self-description ("पाइक लुंज की यादग.', 'Map the dialogue exchanges on a two-column table: Poet\'s argument vs.', 'Trace the single image "छाती पर चट फट" across three occurrences, noting what changes in the context each time.', 'Finally, ask: "If the poem ended with the Paik becoming a clerk, would it be stronger or weaker?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें कि वह पाठ का कोई एक छोटा अंश (5-6 पंक्तियाँ) चुने और केवल यह लिखे: \'लेखक यहाँ क्या कर रहा है?\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refer to the ability to compose structured.',
-          hint: 'If stuck, revisit c11_hin_ar_cbse_12_012 (Comprehension) for evidence-finding practice.',
-          misconception: 'Students believe that writing a character sketch means listing adjectives (e.g., "पाइक जिद्दी, अनपढ़, डरपोक है") with.',
+          question: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य लेकर, उसके.',
+          hint: 'यदि PEEL के Explanation चरण में फंसें, तो नोड c11_hin_ar_cbse_12_006 से मुख्य विषय की.',
+          misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर लिखने का अर्थ है केवल पाठ की पंक्तियों को कॉपी करके उत्तर में डाल देना, बिना.',
           parts: [
-                { id: 'a', prompt: 'Using the poem, write a PEEL paragraph (4-5 sentences) on the theme "Fear of change perpetuates illiteracy." Use evidence from the interaction between पाइक and.', answer: 'Point: The poem illustrates how fear of change traps generations in illiteracy',
-                  options: ['Point: The poem illustrates how fear of change traps generations in illiteracy', 'पाइक जिद्दी, अनपढ़, डरपोक है', 'writing a character sketch means listing adjectives (e'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_12_012 (Comprehension) for evidence-finding practice and.',
-                  misconception: 'Students believe that writing a character sketch means listing adjectives (e.g., "पाइक जिद्दी, अनपढ़, डरपोक है") with a few lines quoted.' },
-                { id: 'b', prompt: 'Compare the effectiveness of two openings for a critical appreciation: (A) "यह कविता पाइक नामक एक स्त्री के बारे में है।" (B) "फकीर मोहन सेनापति की कविता \'पाइक.', answer: 'Opening B is better',
-                  options: ['Opening B is better', 'पाइक जिद्दी, अनपढ़, डरपोक है', 'writing a character sketch means listing adjectives (e'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_12_012 (Comprehension) for evidence-finding practice and.',
-                  misconception: 'Students believe that writing a character sketch means listing adjectives (e.g., "पाइक जिद्दी, अनपढ़, डरपोक है") with a few lines quoted.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य लेकर, उसके विश्लेषण के',
+                  options: ['पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य लेकर, उसके विश्लेषण के', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'यदि PEEL के Explanation चरण में फंसें, तो नोड c11_hin_ar_cbse_12_006 से मुख्य विषय की पहचान करने की.',
+                  misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर लिखने का अर्थ है केवल पाठ की पंक्तियों को कॉपी करके उत्तर में डाल देना, बिना उनके अर्थ की.' }
           ],
-            remediations: { 'writing-a-character-sketch-means': { steps: ['Have the student highlight every adjective they used in their character sketch.', 'For each adjective, demand: "Which stanza/line shows this?', 'Ask: "What does this line *do* — reveal stubbornness?', 'Rewrite each point as: "The poet shows पाइक\'s stubbornness in Stanza 3 when she says \'नहीं, मुझे नहीं पढ़ना\' — the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "ठीक है, आपने पाठ से एक वाक्य लिया। अब मैं आपसे एक सवाल पूछता हूँ: इस वाक्य के बाद क्या होता है?', 'इस वाक्य से हमें पात्र के बारे में क्या नया पता चलता है जिसे हम पहले नहीं जानते थे?" फिर उन्हें निर्देश दें कि वे वाक्य.', 'क्या यह केवल sadness है या कुछ गहरा जैसे निराशा या अकेलापन?" इस प्रक्रिया से वे fact और analysis के बीच का अंतर देखना.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for this chapter refers to the.',
-          hint: 'If stuck, return to c11_hin_ar_cbse_12_010 (Vocabulary in Context) and rebuild the.',
-          misconception: 'Students often treat the father\'s illiteracy as a deficit to be fixed, mirroring the son\'s initial view.',
+          question: 'चर्चा-बिंदु (Discussion Points) are analytically framed, text-anchored prompts.',
+          hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_12_013 (आलोचनात्मक चिंतन) के "व्याख्यात्मक तनाव.',
+          misconception: 'छात्र अक्सर मानते हैं कि "चर्चा-बिंदु" का अर्थ है "विषय दे दो, हम बोल लेंगे" — वे विषय (topic) और चर्चा-बिंदु.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points for this chapter refers to the structured oral',
-                  options: ['Speaking and Listening: Discussion Points for this chapter refers to the structured oral', '"Before You Read: Context and Background" is a pre-reading pedagogical step that provides', 'Plot and narrative structure in a narrative poem refers to the organized sequence of', 'Setting and atmosphere in poetry refer to the physical, temporal, and emotional backdrop'],
-                  hint: 'If stuck, return to c11_hin_ar_cbse_12_010 (Vocabulary in Context) and rebuild the Bundelkhandi.',
-                  misconception: 'Students often treat the father\'s illiteracy as a deficit to be fixed, mirroring the son\'s initial view.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'चर्चा-बिंदु (Discussion Points) are analytically framed, text-anchored prompts designed',
+                  options: ['चर्चा-बिंदु (Discussion Points) are analytically framed, text-anchored prompts designed', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_12_013 (आलोचनात्मक चिंतन) के "व्याख्यात्मक तनाव पहचानना".',
+                  misconception: 'छात्र अक्सर मानते हैं कि "चर्चा-बिंदु" का अर्थ है "विषय दे दो, हम बोल लेंगे" — वे विषय (topic) और चर्चा-बिंदु (discussion point) में भेद.' }
           ],
-            remediations: { 'students-often-treat-the-father': { steps: ['If a student insists the father is \'backward\', do not lecture.', 'Instead: (1) Ask them to list five things the father knows without reading (farming cycles, folk medicine, oral.', '(2) Have them re-read stanza 3 where the father predicts the son\'s future betrayal (\'त्क ड्यडक्क्स से कह द्गा...', 'त्क ड्यडक्क्स इज क्त्ज फ्क्जस\').'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र को एक ही पाठ के दो प्रश्न दिखाएँ — एक विषय (topic), एक चर्चा-बिंदु (discussion point) — और पूछें "कौन-सा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -174,7 +174,7 @@ export const w_c12_businessstudiesbusinessenvironmentmeaningsim: SimDef = {
           hint: 'If stuck, revisit Class 11 Chapter 1 \'Nature and Significance of Management\'.',
           misconception: 'Students often memorise the 7 nature points and 6 significance points as isolated lists, but in board exams they fail.',
           parts: [
-                { id: 'a', prompt: 'State the exact NCERT definition of \'principles of management\' and give one example of a managerial decision where two different principles could lead to.', answer: 'Correct answer: "A managerial principle is a broad and general guideline for',
+                { id: 'a', prompt: 'State the exact NCERT definition of \'principles of management\' and give one example of a managerial decision where two different principles could lead to.', answer: '"A managerial principle is a broad and general guideline for',
                   options: ['Correct answer: "A managerial principle is a broad and general guideline for', 'principles are rigid rules like laws of physics'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often memorise the 7 nature points and 6 significance points as isolated lists, but in board exams they fail to apply them to a.' }
@@ -185,11 +185,11 @@ export const w_c12_businessstudiesbusinessenvironmentmeaningsim: SimDef = {
           hint: 'If unable to recall the seven features or six importance points, revisit node.',
           misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent.',
           parts: [
-                { id: 'a', prompt: 'A small furniture manufacturer in Jodhpur reads that the RBI has reduced the repo rate by 75 bps.', answer: 'Correct answer: Dimension = Economic Environment (interest rate change)',
+                { id: 'a', prompt: 'A small furniture manufacturer in Jodhpur reads that the RBI has reduced the repo rate by 75 bps.', answer: 'Dimension = Economic Environment (interest rate change)',
                   options: ['Correct answer: Dimension = Economic Environment (interest rate change)', 'it will increase profits directly'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent checklists.' },
-                { id: 'b', prompt: 'Compare the "Political Environment" and "Legal Environment" dimensions.', answer: 'Correct answer: Political environment refers to the broader political',
+                { id: 'b', prompt: 'Compare the "Political Environment" and "Legal Environment" dimensions.', answer: 'Political environment refers to the broader political',
                   options: ['Correct answer: Political environment refers to the broader political', 'government policy'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent checklists.' }
@@ -200,7 +200,7 @@ export const w_c12_businessstudiesbusinessenvironmentmeaningsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent.',
           parts: [
-                { id: 'a', prompt: 'Compare the "Political Environment" and "Legal Environment" dimensions.', answer: 'Correct answer: Political environment refers to the broader political',
+                { id: 'a', prompt: 'Compare the "Political Environment" and "Legal Environment" dimensions.', answer: 'Political environment refers to the broader political',
                   options: ['Correct answer: Political environment refers to the broader political', 'government policy'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often memorise the five dimension names and a few bullet-point examples but treat them as independent checklists.' }

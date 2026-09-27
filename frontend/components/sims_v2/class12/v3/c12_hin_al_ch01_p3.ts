@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_al_ch01_p3: SimDef = {
     id: 'v3_c12_hin_al_ch01_p3',
-    title: 'lwjnkl dh >ksaiM+h · Part 3/3',
+    title: 'सूरदास की झोंपड़ी · Part 3/3',
     subtitle: 'In this village, even the dead owed the landlord',
-    classLevel: 12, subject: 'hin_al', topic: 'lwjnkl dh >ksaiM+h · Part 3/3',
+    classLevel: 12, subject: 'hin_al', topic: 'सूरदास की झोंपड़ी · Part 3/3',
     chapters: ['c12_hin_al_ch01'],
     nodeIds: ['c12_hin_al_cbse_01_013', 'c12_hin_al_cbse_01_014', 'c12_hin_al_cbse_01_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,22 +19,15 @@ export const c12_hin_al_ch01_p3: SimDef = {
         hook: 'This isn\'t a funeral rite — it\'s feudal economics with the corpse as collateral, turning even death into a transaction. Renu was a Quit India fighter and rural journalist: the आंचलिक dialect and documented detail make it an indictment, not a village sketch.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation in this chapter refers to the ability to move beyond literal comprehension of "ल्वजंक्ल की >कसाईम" to examine the author\'s craft, evaluate character.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सूरदास की झोंपड़ी — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह कौशल है जिसमें छात्र किसी साहित्यिक पाठ के तत्वों—जैसे पात्र, विषय, साहित्यिक युक्तियाँ, और संदर्भ—to तोड़कर उनके बीच के संबंधों को समझता है, साक्ष्य के आधार.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_al_cbse_01_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Enter Renu\'s Bihar as a documentarian: decode the custom that auctions the dead, weigh the zamindar-peasant power imbalance, and read dialect as resistance.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['सूरदास की झोंपड़ी —'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_al_cbse_01_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you see an elderly person struggling to carry a heavy bag while their adult children walk ahead absorbed in their phones. What would you do?',
-            decisions: [{ prompt: 'List three major themes from "lwjnkl dh >ksaiM+h" that can serve as the basis for a structured class discussion.', options: [
-                { text: 'Correct answer: (1) Aging and loss of dignity, (2) Family responsibility vs', outcome: 'Correct answer: (1) Aging and loss of dignity, (2) Family responsibility vs.' },
-                { text: 'the stick breaks, the son gets angry, the old man leaves', outcome: 'Not quite — Students believe a "discussion point" is simply retelling a scene or stating whether they liked.', reveals: 'a-discussion-point-is-simply' },
-                { text: 'discussion point', outcome: 'Not quite — Students believe a "discussion point" is simply retelling a scene or stating whether they liked.', reveals: 'a-discussion-point-is-simply' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_al_cbse_01_013', title: 'Use it in the wild',
           caseStudy: { intro: 'On an NGO internship in a village, you watch a moneylender stall a poor family\'s funeral until they \'settle his dues\' — the crowd shrugs that debt must be honoured. Your field note reads: \'cruel individual.\'',
             decisions: [{ prompt: 'What does the context of Renu\'s \'साईँ\' add to that diagnosis?', options: [
@@ -54,57 +47,38 @@ export const c12_hin_al_ch01_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation in this chapter refers to the.',
-          hint: 'If stuck, revisit the PEEL paragraph structure using a simple fable (e.g., "The Tortoise.',
-          misconception: 'Students often believe critical interpretation means expressing a personal opinion about whether they \'liked\' the story.',
+          question: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह कौशल है जिसमें छात्र किसी साहित्यिक.',
+          hint: 'पात्र-चित्रण: नायक/प्रमुख पात्र (c12_hin_al_cbse_01_004) की समीक्षा करें, जहाँ पात्रों के.',
+          misconception: 'छात्र अक्सर सूरदास की झोंपड़ी के विश्लेषण में पात्रों के कार्यों का केवल वर्णन करके सोचते हैं कि उन्होंने आलोचनात्मक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation in this chapter refers to the ability to',
-                  options: ['Critical Thinking: Analysis and Interpretation in this chapter refers to the ability to', '"Before You Read: Context and Background" is the preparatory phase where students', 'Plot and Narrative Structure refers to the organized sequence of events in a story and', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, revisit the PEEL paragraph structure using a simple fable (e.g., "The Tortoise and the.',
-                  misconception: 'Students often believe critical interpretation means expressing a personal opinion about whether they \'liked\' the story or \'agree\' with the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह कौशल है जिसमें छात्र किसी साहित्यिक पाठ के',
+                  options: ['आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह कौशल है जिसमें छात्र किसी साहित्यिक पाठ के', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'पात्र-चित्रण: नायक/प्रमुख पात्र (c12_hin_al_cbse_01_004) की समीक्षा करें, जहाँ पात्रों के व्यवहार.',
+                  misconception: 'छात्र अक्सर सूरदास की झोंपड़ी के विश्लेषण में पात्रों के कार्यों का केवल वर्णन करके सोचते हैं कि उन्होंने आलोचनात्मक चिंतन किया है, जैसे.' }
           ],
-            remediations: { 'critical-interpretation-means-expressing-a': { steps: ['If a student cannot move beyond moralizing, do this 3-step remediation: (1) Give them two paragraphs — one a moral.', '(2) Have them re-read the NCERT questions at the end of the chapter (e.g., "ल्वजंक्ल त्क्सेज ल्स वकु सुक दक दकस.', '(3) Assign a micro-task: "Find three quotes where the author *shows* the son\'s pressure without *telling* us he.', 'Explain the technique." This builds the habit of evidence-based analysis.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमजोर उत्तर जैसे "सूरदास झोंपड़ी नहीं सुधारते" को कैसे सुधारा जाए: पहले पूछिए कि "क्या हो सकता है.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
-          hint: 'यदि PEEL संरचना लागू करने में अटकें, तो कक्षा 11 अंतरा के किसी भी अध्याय के लेखन कौशल नोड.',
-          misconception: '**विशिष्ट भ्रांति:** "लेखन कौशल (Writing Skills) का अर्थ है कहानी का सारांश (summary) लिखना या अपने शब्दों में कथानक.',
+          question: 'पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र दिए गए पाठ्यांश से संबंधित.',
+          hint: 'अगर छात्र पाठ से उचित साक्ष्य नहीं चुन पा रहा है, तो उसे c12_hin_al_cbse_01_004 और.',
+          misconception: 'छात्र अक्सर पाठ-आधारित उत्तर लिखते समय प्रश्न के अनुसार उत्तर नहीं देते हैं, बल्कि पाठ से याद किए गए किसी भी तथ्य को.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing Skills based on the chapter refers to the ability to compose structured,',
-                  options: ['Writing Skills based on the chapter refers to the ability to compose structured,', '"Before You Read: Context and Background" is the preparatory phase where students', 'Plot and Narrative Structure refers to the organized sequence of events in a story and', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'यदि PEEL संरचना लागू करने में अटकें, तो कक्षा 11 अंतरा के किसी भी अध्याय के लेखन कौशल नोड.',
-                  misconception: '**विशिष्ट भ्रांति:** "लेखन कौशल (Writing Skills) का अर्थ है कहानी का सारांश (summary) लिखना या अपने शब्दों में कथानक दोहराना।".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र दिए गए पाठ्यांश से संबंधित जानकारी को',
+                  options: ['पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र दिए गए पाठ्यांश से संबंधित जानकारी को', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'अगर छात्र पाठ से उचित साक्ष्य नहीं चुन पा रहा है, तो उसे c12_hin_al_cbse_01_004 और.',
+                  misconception: 'छात्र अक्सर पाठ-आधारित उत्तर लिखते समय प्रश्न के अनुसार उत्तर नहीं देते हैं, बल्कि पाठ से याद किए गए किसी भी तथ्य को लिख देना शुरू कर देते.' }
           ],
-            remediations: { 'writing-skills-summary-cbse-writing': { steps: ['**चरण 1:** छात्र से कहें — "पाठ से कोई एक वाक्य चुनो जो तुम्हें सबसे मार्मिक (poignant) लगा। उसे कॉपी में लिखो।".', '**E** = पाठ में लिखा है...', '**L** = इससे कहानी का विषय...', 'उभरता है। **चरण 4:** छात्र से इसी टेम्पलेट में 3 वाक्य लिखवाएँ। अगले दिन वही प्रश्न दोहराएँ — यदि संरचना सही परंतु.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले प्रश्न को दो बार पढ़कर पूछना चाहिए: "इस प्रश्न में वास्तव� क्या पूछा जा रहा है?" फिर उसे प्रश्न के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_015', difficulty: 'standard',
-          question: 'Speaking and Listening Discussion Points for "lwjnkl dh >ksaiM+h" are.',
-          hint: 'If stuck, revisit character analysis (nodes 004, 005) and theme analysis (nodes 006, 007).',
-          misconception: 'Students believe a "discussion point" is simply retelling a scene or stating whether they liked a character.',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु वह प्रक्रिया है जिसमें छात्र पाठ को聲लय, रुकावट और.',
+          hint: 'यदि आवाज़ modulation में कठिनाई हो तो c12_hin_al_cbse_01_003 (पाठ्य-परिवेश और वातावरण) की.',
+          misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण का अर्थ केवल सही उच्चारण और तेज़ गति से पढ़ना है, जबकि असल में यह पाठ की聲लय, रुकावट.',
           parts: [
-                { id: 'a', prompt: 'List three major themes from "lwjnkl dh >ksaiM+h" that can serve as the basis for a structured class discussion.', answer: 'Correct answer: (1) Aging and loss of dignity, (2) Family responsibility vs',
-                  options: ['Correct answer: (1) Aging and loss of dignity, (2) Family responsibility vs', 'the stick breaks, the son gets angry, the old man leaves', 'discussion point', 'lists plot events (e'],
-                  hint: 'If stuck, revisit character analysis (nodes 004, 005) and theme analysis (nodes 006, 007) to gather.',
-                  misconception: 'Students believe a "discussion point" is simply retelling a scene or stating whether they liked a character.' },
-                { id: 'b', prompt: 'Given the discussion prompt "Is the son justified in his behavior toward his father?", outline two arguments for and two against, using textual evidence for.', answer: 'Correct answer: For: (1) Son provides food and shelter',
-                  options: ['Correct answer: For: (1) Son provides food and shelter', 'he is mean', 'discussion point'],
-                  hint: 'If stuck, revisit character analysis (nodes 004, 005) and theme analysis (nodes 006, 007) to gather.',
-                  misconception: 'Students believe a "discussion point" is simply retelling a scene or stating whether they liked a character.' },
-                { id: 'c', prompt: 'Compare the daughter-in-law\'s treatment of the old man with the grandson\'s attitude. What does this contrast reveal about generational change in the family?', answer: 'Correct answer: The daughter-in-law is cruel and calculating',
-                  options: ['Correct answer: The daughter-in-law is cruel and calculating', 'both are bad', 'grandson is good', 'discussion point'],
-                  hint: 'If stuck, revisit character analysis (nodes 004, 005) and theme analysis (nodes 006, 007) to gather.',
-                  misconception: 'Students believe a "discussion point" is simply retelling a scene or stating whether they liked a character.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु वह प्रक्रिया है जिसमें छात्र पाठ को聲लय, रुकावट और भावभंगिमा के',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु वह प्रक्रिया है जिसमें छात्र पाठ को聲लय, रुकावट और भावभंगिमा के', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'यदि आवाज़ modulation में कठिनाई हो तो c12_hin_al_cbse_01_003 (पाठ्य-परिवेश और वातावरण) की समीक्षा.',
+                  misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण का अर्थ केवल सही उच्चारण और तेज़ गति से पढ़ना है, जबकि असल में यह पाठ की聲लय, रुकावट और भावभंगिमा को.' }
           ],
-            remediations: { 'a-discussion-point-is-simply': { steps: ['Have the student re-read three key scenes: the stick-breaking demand (pp.', '3-4), the old man\'s monologue about the five sticks (p.', '5), and the final departure (p.', 'For each scene, write one Claim-Evidence-Explanation paragraph (e.g., Claim: The stick holds memories.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_015', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe a "discussion point" is simply retelling a scene or stating whether they liked a character.',
-          parts: [
-                { id: 'a', prompt: 'Judge the effectiveness of the ending (old man walking away with the stick) as a discussion starter. Does it resolve or deepen the conflict?', answer: 'Correct answer: It deepens the conflict',
-                  options: ['Correct answer: It deepens the conflict', 'it resolves everything', 'discussion point'],
-                  hint: 'If stuck, revisit character analysis (nodes 004, 005) and theme analysis (nodes 006, 007) to gather.',
-                  misconception: 'Students believe a "discussion point" is simply retelling a scene or stating whether they liked a character.' }
-          ],
-            remediations: { 'a-discussion-point-is-simply': { steps: ['Have the student re-read three key scenes: the stick-breaking demand (pp.', '3-4), the old man\'s monologue about the five sticks (p.', '5), and the final departure (p.', 'For each scene, write one Claim-Evidence-Explanation paragraph (e.g., Claim: The stick holds memories.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को पहले एक छोटा अंश (2-3 पंक्तियाँ) देकर धीमी गति से पढ़ने के लिए कहें, फिर पूछें कि "आपकी आवाज़ में किन शब्दों.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

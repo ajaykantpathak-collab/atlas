@@ -451,10 +451,10 @@ function LanguageSwitcher() {
           onClick={() => setLanguage(o.value)}
           aria-pressed={lang === o.value}
           aria-label={o.label}
-          className={`px-3 py-2 rounded-xl text-sm font-medium transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] ${
+          className={`px-3 py-2 rounded-xl text-sm font-medium transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-500 ${
             lang === o.value
-              ? "bg-[var(--accent)] text-white shadow-lg shadow-pink-200/40"
-              : "bg-white/50 text-gray-600 hover:bg-white/80 hover:text-gray-900"
+              ? "bg-white/10 text-white border border-gold-500/30"
+              : "bg-white/5 text-surface-600 hover:bg-white/10 hover:text-white border border-transparent"
           }`}
         >
           {o.native}
@@ -560,15 +560,15 @@ function LivePreview({ settings }: { settings: AccessibilitySettings }) {
             </span>
           </motion.div>
 
-          <div className="flex flex-wrap gap-2 text-xs text-gray-500">
-            <span className="px-2 py-1 bg-gray-100 rounded-md">
+          <div className="flex flex-wrap gap-2 text-xs text-surface-600">
+            <span className="px-2 py-1 bg-surface-200/40 text-surface-800 rounded-md">
               {t.fontSize}: {fontSizeLabel}
             </span>
-            <span className="px-2 py-1 bg-gray-100 rounded-md">
+            <span className="px-2 py-1 bg-surface-200/40 text-surface-800 rounded-md">
               {t.extendedTime}: {extendedLabel}
             </span>
             {settings.visualColorblindMode !== "none" && (
-              <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-md">
+              <span className="px-2 py-1 bg-brand-500/15 text-brand-300 rounded-md">
                 {t.colorblindMode}: {t[`colorblind${capitalize(settings.visualColorblindMode)}` as keyof typeof t] as string}
               </span>
             )}
@@ -615,13 +615,13 @@ function Toggle({
   return (
     <div className="flex items-center justify-between gap-4 py-2">
       <div className="flex-1 min-w-0">
-        <span className={`block font-medium text-gray-900 ${size === "md" ? "text-base" : "text-sm"}`}>
+        <span className={`block font-medium text-white ${size === "md" ? "text-base" : "text-sm"}`}>
           {label}
         </span>
         {description && (
           <p
             id={ariaDescribedBy}
-            className={`text-gray-500 mt-0.5 ${size === "md" ? "text-sm" : "text-xs"}`}
+            className={`text-surface-600 mt-0.5 ${size === "md" ? "text-sm" : "text-xs"}`}
           >
             {description}
           </p>
@@ -637,9 +637,9 @@ function Toggle({
         tabIndex={disabled ? -1 : 0}
         className={`
           relative shrink-0 rounded-full transition-colors duration-300 ease-in-out
-          focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]
+          focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-500
           ${btnSize}
-          ${checked ? "bg-[var(--accent)]" : "bg-gray-300"}
+          ${checked ? "bg-gold-500" : "bg-surface-600"}
           ${disabled ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}
         `}
       >
@@ -689,8 +689,8 @@ function SegmentedControl<T extends string>({
 
   return (
     <div role="radiogroup" aria-label={label} className="space-y-2">
-      <span className="block text-sm font-medium text-gray-700">{label}</span>
-      <div ref={groupRef} className="flex rounded-xl bg-gray-100/80 p-1 gap-0.5">
+      <span className="block text-sm font-medium text-surface-800">{label}</span>
+      <div ref={groupRef} className="flex rounded-xl bg-surface-200/40 p-1 gap-0.5 border border-surface-300/20">
         {options.map((opt, i) => (
           <button
             key={opt.value}
@@ -701,11 +701,11 @@ function SegmentedControl<T extends string>({
             onClick={() => onChange(opt.value)}
             onKeyDown={(e) => handleKeyDown(e, i)}
             className={`
-              flex-1 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200
-              focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]
+              flex-1 min-w-0 px-2 sm:px-3 py-2.5 rounded-lg text-xs sm:text-sm font-medium leading-tight transition-all duration-200
+              focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-500
               ${value === opt.value
-                ? "bg-white text-gray-900 shadow-sm"
-                : "text-gray-500 hover:text-gray-700"
+                ? "bg-white/10 text-white shadow-sm"
+                : "text-surface-600 hover:text-white"
               }
             `}
           >
@@ -745,18 +745,18 @@ function Section({
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-50px" }}
-      className="bg-white/60 backdrop-blur-xl rounded-2xl p-5 sm:p-6 shadow-lg border border-white/30"
+      className="glass-card rounded-2xl p-5 sm:p-6"
       aria-labelledby={`${id}-heading`}
     >
       <div className="flex items-start gap-3 mb-5">
-        <div className="shrink-0 w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 text-white flex items-center justify-center shadow-lg shadow-indigo-200/50">
+        <div className="shrink-0 w-10 h-10 rounded-xl bg-gold-500/15 border border-gold-500/25 text-gold-300 flex items-center justify-center">
           {icon}
         </div>
         <div>
-          <h2 id={`${id}-heading`} className="text-lg font-bold text-gray-900">
+          <h2 id={`${id}-heading`} className="font-display text-lg font-bold text-white">
             {title}
           </h2>
-          <p className="text-sm text-gray-500 mt-0.5">{description}</p>
+          <p className="text-sm text-surface-600 mt-0.5">{description}</p>
         </div>
       </div>
       <div className="space-y-1">{children}</div>
@@ -923,7 +923,7 @@ export default function AccessibilitySettingsPage() {
     <div
       className={`
         min-h-screen transition-colors duration-300
-        ${visualHighContrast ? "bg-black text-white" : "bg-gradient-to-br from-gray-50 via-indigo-50/30 to-pink-50/20 text-gray-900"}
+        ${visualHighContrast ? "bg-black text-white" : "mesh-bg text-white"}
       `}
       style={{
         fontFamily: visualDyslexicFont ? "'OpenDyslexic', 'Comic Sans MS', sans-serif" : undefined,
@@ -942,20 +942,20 @@ export default function AccessibilitySettingsPage() {
       {/* Skip to main link */}
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-3 focus:bg-[var(--accent)] focus:text-white focus:rounded-xl focus:shadow-xl"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-3 focus:bg-gold-500 focus:text-black focus:rounded-xl focus:shadow-xl"
       >
         {language === "hindi" ? "मुख्य सामग्री पर जाएं" : language === "hinglish" ? "Main content par jayen" : "Skip to main content"}
       </a>
 
       {/* ── HEADER ── */}
-      <header className="sticky top-0 z-40 backdrop-blur-xl border-b transition-colors duration-300" style={{ borderColor: visualHighContrast ? "#333" : "rgba(255,255,255,0.2)", backgroundColor: visualHighContrast ? "rgba(0,0,0,0.95)" : "rgba(255,255,255,0.7)" }}>
+      <header className="sticky top-0 z-40 glass-strong border-b border-surface-300/30 transition-colors duration-300" style={{ borderColor: visualHighContrast ? "#333" : undefined, backgroundColor: visualHighContrast ? "rgba(0,0,0,0.95)" : undefined }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
-              <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-indigo-600 to-pink-500 bg-clip-text text-transparent">
+              <h1 className="font-display text-xl sm:text-2xl font-bold text-white">
                 {t.pageTitle}
               </h1>
-              <p className={`text-gray-500 mt-0.5 ${visualFontSize === "xlarge" ? "text-base" : "text-sm"}`}>
+              <p className={`text-surface-600 mt-0.5 ${visualFontSize === "xlarge" ? "text-base" : "text-sm"}`}>
                 {t.pageSubtitle}
               </p>
             </div>
@@ -1082,7 +1082,7 @@ export default function AccessibilitySettingsPage() {
                 disabled={!hearingCaptions}
               />
               {!hearingCaptions && motorVoiceControl && (
-                <p className="text-xs text-amber-600 mt-1 pl-1">
+                <p className="text-xs text-amber-400 mt-1 pl-1">
                   ⚠ {t.captions} must be enabled for {t.voiceControl} to work.
                 </p>
               )}
@@ -1141,17 +1141,17 @@ export default function AccessibilitySettingsPage() {
                   className={`
                     w-full py-3 px-4 rounded-xl font-medium text-sm transition-all duration-300
                     flex items-center justify-center gap-2
-                    focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]
+                    focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-500
                     ${screenReaderEnabled
-                      ? "bg-gradient-to-r from-indigo-500 to-indigo-600 text-white hover:from-indigo-600 hover:to-indigo-700 shadow-lg shadow-indigo-200/40"
-                      : "bg-gray-200 text-gray-400 cursor-not-allowed"
+                      ? "bg-gold-500/15 text-gold-300 border border-gold-500/30 hover:bg-gold-500/25"
+                      : "bg-white/5 text-surface-600 cursor-not-allowed"
                     }
                   `}
                 >
                   <span aria-hidden="true">🔊</span>
                   {t.testAnnouncement}
                 </button>
-                <p className="text-xs text-gray-400 mt-2 text-center">
+                <p className="text-xs text-surface-600 mt-2 text-center">
                   {t.testAnnouncementDesc}
                 </p>
               </div>
@@ -1167,7 +1167,7 @@ export default function AccessibilitySettingsPage() {
               <AnimateVisibility show={!confirmReset}>
                 <button
                   onClick={handleResetClick}
-                  className="group flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-medium text-gray-500 hover:text-red-600 hover:bg-red-50 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400"
+                  className="group flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-medium text-surface-600 hover:text-red-400 hover:bg-red-500/10 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400"
                 >
                   <Icons.reset />
                   {t.resetAll}
@@ -1176,11 +1176,11 @@ export default function AccessibilitySettingsPage() {
 
               <AnimateVisibility show={confirmReset}>
                 <motion.div
-                  className="flex items-center gap-2 p-3 bg-red-50 border border-red-200 rounded-xl"
+                  className="flex items-center gap-2 p-3 bg-red-500/10 border border-red-500/30 rounded-xl"
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                 >
-                  <p className="text-sm text-red-700 font-medium">{t.resetConfirm}</p>
+                  <p className="text-sm text-red-300 font-medium">{t.resetConfirm}</p>
                   <button
                     onClick={handleReset}
                     className="px-4 py-1.5 bg-red-600 text-white text-sm font-medium rounded-lg hover:bg-red-700 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400"
@@ -1192,7 +1192,7 @@ export default function AccessibilitySettingsPage() {
                       setConfirmReset(false);
                       if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current);
                     }}
-                    className="px-4 py-1.5 bg-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-300 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-400"
+                    className="px-4 py-1.5 bg-white/10 text-white text-sm font-medium rounded-lg hover:bg-white/20 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400"
                   >
                     {language === "hindi" ? "नहीं" : language === "hinglish" ? "Nahi" : "No"}
                   </button>
@@ -1204,7 +1204,7 @@ export default function AccessibilitySettingsPage() {
           {/* Preview column */}
           <div className="hidden lg:block">
             <motion.div
-              className="mb-4 flex items-center gap-2 text-sm font-medium text-gray-600"
+              className="mb-4 flex items-center gap-2 text-sm font-medium text-surface-600"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 }}
@@ -1218,8 +1218,8 @@ export default function AccessibilitySettingsPage() {
 
         {/* Mobile preview strip */}
         <div className="lg:hidden mt-6">
-          <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-4 shadow-lg border border-white/30">
-            <p className="text-sm font-medium text-gray-600 mb-3 flex items-center gap-2">
+          <div className="glass-card rounded-2xl p-4">
+            <p className="text-sm font-medium text-surface-600 mb-3 flex items-center gap-2">
               <Icons.preview />
               {t.livePreview}
             </p>
@@ -1248,12 +1248,12 @@ export default function AccessibilitySettingsPage() {
 
         {/* Settings saved indicator */}
         <motion.div
-          className="fixed bottom-6 right-6 z-50"
+          className="fixed bottom-6 right-4 sm:right-6 z-50"
           initial={{ opacity: 0, y: 20, scale: 0.9 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ delay: 0.8 }}
         >
-          <div className="flex items-center gap-2 px-4 py-2.5 bg-white/90 backdrop-blur-xl rounded-full shadow-lg border border-white/30 text-sm text-gray-600">
+          <div className="flex items-center gap-2 px-4 py-2.5 bg-[#12121a]/90 hc-toast backdrop-blur-xl rounded-full shadow-lg border border-surface-300/20 text-sm text-surface-800">
             <Icons.check />
             {t.settingsSaved}
           </div>
@@ -1291,8 +1291,7 @@ export default function AccessibilitySettingsPage() {
           border-color: #ffffff !important;
         }
         [data-high-contrast="true"] .glass-card,
-        [data-high-contrast="true"] .bg-white\\/60,
-        [data-high-contrast="true"] .bg-white\\/90 {
+        [data-high-contrast="true"] .hc-toast {
           background: #111111 !important;
           color: #ffffff !important;
         }
@@ -1324,27 +1323,27 @@ export default function AccessibilitySettingsPage() {
 
         /* Keyboard-only mode */
         .keyboard-only-mode *:focus {
-          outline: 2px solid #ec4899 !important;
+          outline: 2px solid #f59e0b !important;
           outline-offset: 2px !important;
         }
         .keyboard-only-mode *:focus:not(:focus-visible) {
           outline: none !important;
         }
         .keyboard-only-mode .keyboard-focused *:focus-visible {
-          outline: 2px solid #ec4899 !important;
+          outline: 2px solid #f59e0b !important;
           outline-offset: 2px !important;
         }
         .keyboard-only-mode :focus {
           outline: none;
         }
         .keyboard-only-mode .keyboard-focused :focus {
-          outline: 2px solid #ec4899;
+          outline: 2px solid #f59e0b;
           outline-offset: 2px;
         }
 
         /* Simplified UI */
         [data-simplified="true"] .bg-gradient-to-br {
-          background: #f9fafb !important;
+          background: rgba(255, 255, 255, 0.03) !important;
         }
         [data-simplified="true"] .shadow-lg,
         [data-simplified="true"] .shadow-xl {
@@ -1362,7 +1361,7 @@ export default function AccessibilitySettingsPage() {
 
         /* Focus visible for all interactive elements */
         :focus-visible {
-          outline: 2px solid #6366f1;
+          outline: 2px solid #f59e0b;
           outline-offset: 2px;
           border-radius: 4px;
         }
@@ -1373,8 +1372,8 @@ export default function AccessibilitySettingsPage() {
         /* Custom scrollbar */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #c7d2fe; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #a5b4fc; }
+        ::-webkit-scrollbar-thumb { background: rgba(251, 191, 36, 0.35); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(251, 191, 36, 0.55); }
 
         /* Skip link */
         .sr-only {

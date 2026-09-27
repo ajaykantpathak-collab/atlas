@@ -1,0 +1,672 @@
+{
+ "gameFile": "HinWordsGame",
+ "classLevel": 2,
+ "cisceNodes": [
+  "c2_hin_002"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Words with Matras 🌺",
+   "text": "You know akshars — now matras make them richer! क + ा + न = कान (ear)!",
+   "emoji": "🌺",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  },
+  {
+   "title": "Two-Sound Words 🌈",
+   "text": "नाव (boat), दादी (grandma), पापा (papa) — two akshars each with their matras!",
+   "emoji": "🌈",
+   "bgColor": "from-yellow-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "Family Words 👨‍👩‍👧",
+   "text": "माँ, पिता, भाई, बहन — family words are the first we learn because we love them!",
+   "emoji": "👨‍👩‍👧",
+   "bgColor": "from-orange-400 to-red-500",
+   "spoken": ""
+  },
+  {
+   "title": "Opposite Words 🔄",
+   "text": "बड़ा-छोटा, गर्म-ठंडा, दिन-रात — every word has its flip partner!",
+   "emoji": "🔄",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Build Your Own! 🏗️",
+   "text": "Take an akshar, add a matra, join another — and you've built a word!",
+   "emoji": "🏗️",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "क + ा + न = ?",
+   "answer": "कान",
+   "options": [
+    "कान",
+    "कन",
+    "किन"
+   ],
+   "hint": "ka + aa + na — say it!",
+   "misconception": "'कान' (ear) = क + ा + न — the aa-matra stretches the ka!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "कान",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "कन",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "किन",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "कान",
+     "कन"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which word means 'boat'?",
+   "answer": "नाव",
+   "options": [
+    "नाव",
+    "नव",
+    "वन"
+   ],
+   "hint": "naa-va!",
+   "misconception": "'नाव' = न + ा + व — 'नव' means nine/new, different word!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "नाव",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "नव",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "वन",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "नाव",
+     "नव"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "The opposite of 'बड़ा' is—",
+   "answer": "छोटा",
+   "options": [
+    "छोटा",
+    "मोटा",
+    "लंबा"
+   ],
+   "hint": "Small!",
+   "misconception": "'छोटा' — 'मोटा' means fat, 'लंबा' means tall; the size-opposite is छोटा!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "छोटा",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "मोटा",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "लंबा",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "छोटा",
+     "मोटा"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match the family words!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Who is who in the family?",
+   "misconception": "माँ=mother, पिता=father, भाई=brother, बहन=sister!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "माँ",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "पिता",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "भाई",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "बहन",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "माँ",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "पिता",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "भाई",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "बहन",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "mother",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "father",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "brother",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "sister",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "माँ",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "पिता",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'गर्म' (hot) pairs with—",
+   "answer": "ठंडा",
+   "options": [
+    "ठंडा",
+    "नरम",
+    "सफेद"
+   ],
+   "hint": "The temperature opposite!",
+   "misconception": "'ठंडा' (cold) — temperature opposites; नरम=soft, सफेद=white are different pairs!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "ठंडा",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "नरम",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "सफेद",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ठंडा",
+     "नरम"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "How many akshars in 'दादी'?",
+   "answer": "2",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "hint": "दा + दी — two syllable-blocks!",
+   "misconception": "'दादी' = दा + दी = 2 akshars (each with its matra)!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "2",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "3",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "4",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "2",
+     "3"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which pair is OPPOSITES?",
+   "answer": "दिन - रात",
+   "options": [
+    "दिन - रात",
+    "दिन - दोपहर",
+    "रात - शाम"
+   ],
+   "hint": "Complete flip, not related times!",
+   "misconception": "दिन↔रात (day↔night) are opposites; दोपहर and शाम are parts of day/evening!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "दिन - रात",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "दिन - दोपहर",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "रात - शाम",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "दिन - रात",
+     "दिन - दोपहर"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort by meaning: body word or family word?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Body part or family member?",
+   "misconception": "कान(ear)/नाक(nose) are body; माँ/पिता are family!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "कान",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "माँ",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "नाक",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "पिता",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "कान",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "माँ",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "नाक",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "label": "पिता",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "body",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "family",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "कान",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "माँ",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "word-bazaar",
+ "storyArc": {
+  "theme": "Piku trades words in the Hindi word bazaar",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Word Bazaar Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c2_hin_002",
+  "region": "Aksharlok",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🌺",
+  "prerequisites": []
+ },
+ "subject": "hindi"
+}

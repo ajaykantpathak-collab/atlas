@@ -1,0 +1,682 @@
+{
+ "gameFile": "EngAlphabetGame",
+ "classLevel": 1,
+ "cisceNodes": [
+  "c1_eng_001"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Letters are Sounds! 🔤",
+   "text": "Every letter has a name AND a sound! 'A' is named 'ay' but sounds like 'aah' in 'apple'!",
+   "emoji": "🔤",
+   "bgColor": "from-red-400 to-rose-500",
+   "spoken": ""
+  },
+  {
+   "title": "Big and Small ✍️",
+   "text": "Every letter has a big shape (A) and a small shape (a). Big letters start names and sentences!",
+   "emoji": "✍️",
+   "bgColor": "from-orange-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "Letter Shapes 🎨",
+   "text": "Look at curves and lines: O is all curve, L is all lines, S is a twisty snake!",
+   "emoji": "🎨",
+   "bgColor": "from-yellow-400 to-lime-500",
+   "spoken": ""
+  },
+  {
+   "title": "Vowels are Special ⭐",
+   "text": "A, E, I, O, U — five special letters that appear in EVERY word you read!",
+   "emoji": "⭐",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Alphabet Order 🎵",
+   "text": "A-B-C-D... sing the alphabet song! Order helps us find letters fast, like rungs on a ladder!",
+   "emoji": "🎵",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "Which letter says 'sss' like a snake?",
+   "answer": "S",
+   "options": [
+    "S",
+    "Z",
+    "C"
+   ],
+   "hint": "Ssss — hiss like a snake!",
+   "misconception": "'S' is the snake letter — its sound is 'sss', not 'zee' (that's Z)!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "S",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "Z",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "C",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "S",
+     "Z"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which is the BIG letter of 'a'?",
+   "answer": "A",
+   "options": [
+    "A",
+    "a",
+    "e"
+   ],
+   "hint": "Big letters are taller and straighter!",
+   "misconception": "Big A is the capital; small a is its little partner — same letter, two shapes!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "A",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "a",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "e",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "A",
+     "a"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which of these is a VOWEL?",
+   "answer": "E",
+   "options": [
+    "E",
+    "T",
+    "M"
+   ],
+   "hint": "The five vowels are A, E, I, O, U!",
+   "misconception": "Only A, E, I, O, U are vowels — T and M are consonants!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "E",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "T",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "M",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "E",
+     "T"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Put the letters in alphabet order!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Sing the song: C... D-E-F... G-H-I-J... then P!",
+   "misconception": "Alphabet order: C(3), F(6), J(10), P(16) — each letter has its place!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "C",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "F",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "J",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "P",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "C",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "F",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "J",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "P",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "1st",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "2nd",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "3rd",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "4th",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "C",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "F",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "What letter comes right after 'M'?",
+   "answer": "N",
+   "options": [
+    "N",
+    "L",
+    "O"
+   ],
+   "hint": "L-M-N-O-P — sing it!",
+   "misconception": "After M comes N — the alphabet order never changes!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "N",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "L",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "O",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "N",
+     "L"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'B' sounds like 'buh' — which word STARTS with B?",
+   "answer": "ball",
+   "options": [
+    "ball",
+    "sun",
+    "moon"
+   ],
+   "hint": "Say 'ball' slowly — what's the first sound?",
+   "misconception": "'buh-all' — the first sound is 'buh' which is letter B!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "ball",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "sun",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "moon",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ball",
+     "sun"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which letter is made of only CURVES, no straight lines?",
+   "answer": "O",
+   "options": [
+    "O",
+    "T",
+    "L"
+   ],
+   "hint": "O is a perfect circle — all curve!",
+   "misconception": "O is all curve; T and L are all straight lines!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "O",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "T",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "L",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "O",
+     "T"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match big letters to their small partners!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Every big letter has a matching small twin!",
+   "misconception": "Each capital pairs with its lowercase twin — same letter, different size!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "A",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "K",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "R",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "T",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "A",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "K",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "R",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "T",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "a",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "k",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "r",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "t",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "A",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "K",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "abc-forest",
+ "storyArc": {
+  "theme": "Piku follows the alphabet trail through the forest",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Alphabet Explorer Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c1_eng_001",
+  "region": "Wordville",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🔤",
+  "prerequisites": []
+ },
+ "subject": "english"
+}

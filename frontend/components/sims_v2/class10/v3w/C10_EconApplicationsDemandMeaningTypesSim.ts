@@ -6,7 +6,7 @@ import C10_EconApplicationsDemandMeaningTypesSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_econapplicationsdemandmeaningtypessim: SimDef = {
     id: 'v3w_c10_econapplicationsdemandmeaningtypessim',
-    title: 'n Applications Demand Meaning Types',
+    title: 'Demand: Meaning and Types',
     subtitle: 'Covers government employment generation measures discussed in NCERT Class 10 Chapter 2:.',
     classLevel: 10, subject: 'economics', topic: 'How to Create More Employment: Government Initiatives',
     chapters: [],
@@ -16,7 +16,7 @@ export const w_c10_econapplicationsdemandmeaningtypessim: SimDef = {
     discovery: {
         question: 'Compare the employment impact of (a) building a new highway versus (b) waiving farm loans. Which creates more sustainable employment?',
         options: ['Correct answer: Highway construction creates more sustainable employment', 'it helps farmers immediately', 'how does a dam create jobs?'],
-        answer: 'Correct answer: Highway construction creates more sustainable employment',
+        answer: 'Highway construction creates more sustainable employment',
         hook: 'Students believe government creates employment only by directly hiring workers (like MGNREGA) or giving cash transfers.',
     },
     teaching: [
@@ -43,7 +43,7 @@ export const w_c10_econapplicationsdemandmeaningtypessim: SimDef = {
             { text: 'Legal remedy — File complaint at District Consumer Disputes Redressal Commission (jurisdiction: value < ₹1 crore) under.', faded: true, blankAnswer: 'All four rights violated. Remedy: Full refund of ₹300 +.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_eco_cbse_05_002', title: 'Identify each idea',
-          dissect: { specimen: 'n Applications Demand Meaning Types', spots: [
+          dissect: { specimen: 'Demand: Meaning and Types', spots: [
             { id: 's1', label: 'Government employment generation initiatives refer', prompt: 'Which idea is this? — Government employment generation initiatives refer to policies and programs designed to.', answer: 'Government employment generation initiatives refer', options: ['Government employment generation initiatives refer', 'The four fundamental consumer rights'] },
             { id: 's2', label: 'The four fundamental consumer rights', prompt: 'Which idea is this? — The four fundamental consumer rights — Safety, Information, Choice, and Redressal — are.', answer: 'The four fundamental consumer rights', options: ['The four fundamental consumer rights', 'Government employment generation initiatives refer'] }
           ] } }
@@ -59,7 +59,7 @@ export const w_c10_econapplicationsdemandmeaningtypessim: SimDef = {
                   options: ['Step 1: Direct jobs = 2,000 (secondary sector: food processing, packaging)', 'how does a dam create jobs?'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe government creates employment only by directly hiring workers (like MGNREGA) or giving cash transfers.' },
-                { id: 'b', prompt: 'Compare the employment impact of (a) building a new highway versus (b) waiving farm loans. Which creates more sustainable employment?', answer: 'Correct answer: Highway construction creates more sustainable employment',
+                { id: 'b', prompt: 'Compare the employment impact of (a) building a new highway versus (b) waiving farm loans. Which creates more sustainable employment?', answer: 'Highway construction creates more sustainable employment',
                   options: ['Correct answer: Highway construction creates more sustainable employment', 'it helps farmers immediately', 'how does a dam create jobs?'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe government creates employment only by directly hiring workers (like MGNREGA) or giving cash transfers.' }
@@ -74,7 +74,7 @@ export const w_c10_econapplicationsdemandmeaningtypessim: SimDef = {
                   options: ['Correct evaluation: The statement is flawed', 'modern sector bias', 'how does a dam create jobs?'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe government creates employment only by directly hiring workers (like MGNREGA) or giving cash transfers.' },
-                { id: 'b', prompt: 'Compare the employment impact of (a) building a new highway versus (b) waiving farm loans. Which creates more sustainable employment?', answer: 'Correct answer: Highway construction creates more sustainable employment',
+                { id: 'b', prompt: 'Compare the employment impact of (a) building a new highway versus (b) waiving farm loans. Which creates more sustainable employment?', answer: 'Highway construction creates more sustainable employment',
                   options: ['Correct answer: Highway construction creates more sustainable employment', 'it helps farmers immediately', 'how does a dam create jobs?'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe government creates employment only by directly hiring workers (like MGNREGA) or giving cash transfers.' }

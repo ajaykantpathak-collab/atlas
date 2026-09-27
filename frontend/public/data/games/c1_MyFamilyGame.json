@@ -1,0 +1,406 @@
+{
+ "gameFile": "MyFamilyGame",
+ "classLevel": 1,
+ "cisceNodes": [],
+ "mascot": "Family Friend Rina — a warm didi (big sister) with a photo album under her arm and a bag of mangoes to share",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "My Family, My World 🏡",
+   "text": "A FAMILY is a group of people who love and care for each other. Amma, Appa, brothers, sisters, grandparents — family is where we all belong!",
+   "emoji": "🏡",
+   "bgColor": "from-rose-400 to-pink-500",
+   "spoken": "A family is the group of people who love and care for us.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Who is in a family",
+    "data": {
+     "steps": [
+      "Amma and Appa",
+      "Brothers and sisters",
+      "Grandparents",
+      "We are family!"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Families Help Each Other 🤝",
+   "text": "In a family, everyone helps! Appa may go to work, Amma may cook, grandpa tells stories, and YOU can help too — by keeping your toys away and watering the plants!",
+   "emoji": "🤝",
+   "bgColor": "from-emerald-400 to-teal-500",
+   "spoken": "Everyone in a family helps in their own way.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "We all help",
+    "data": {
+     "steps": [
+      "Appa goes to work",
+      "Amma cooks food",
+      "I keep my toys away!"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Big Families and Small Families 👨‍👩‍👧‍👦",
+   "text": "A SMALL family has parents and children. A JOINT family has grandparents, uncles, aunts and cousins too! Big or small, every family is special.",
+   "emoji": "👨‍👩‍👧‍👦",
+   "bgColor": "from-amber-400 to-orange-500",
+   "spoken": "Families can be small or joint — both are full of love.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Types of families",
+    "data": {
+     "steps": [
+      "Small family",
+      "Joint family",
+      "Both are special!"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Our Family Tree 🌳",
+   "text": "A family tree shows how we are connected! Grandparents are like the roots, Amma and Appa are the strong branches, and YOU are the newest leaf. Draw yours at home and label everyone!",
+   "emoji": "🌱",
+   "bgColor": "from-emerald-400 to-teal-500",
+   "spoken": "Grandparents are at the top of the family tree; you are the newest leaf!",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "The family tree",
+    "data": {
+     "steps": [
+      "Grandparents",
+      "Amma and Appa",
+      "YOU!"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Caring for Our Family ❤️",
+   "text": "Families grow strong with CARE! Speak kind words, share your things, help grandparents walk, and give a big hug. Caring makes family love grow!",
+   "emoji": "❤️",
+   "bgColor": "from-rose-400 to-red-500",
+   "spoken": "Kind words and helping hands keep a family happy.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Caring habits",
+    "data": {
+     "steps": [
+      "Kind words",
+      "Share and help",
+      "Big warm hugs"
+     ]
+    }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "choose_calc",
+   "question": "Your mother's mother is your ______.",
+   "answer": "Grandmother",
+   "options": [
+    "Aunt",
+    "Grandmother",
+    "Sister"
+   ],
+   "hint": "Your mother's mother — the mother of your mother!",
+   "misconception": "Your mother's mother is your grandmother.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flower",
+     "label": "Aunt",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EC4899",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flower",
+     "label": "Grandmother",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EC4899",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flower",
+     "label": "Sister",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EC4899",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "Your father's father is your ______.",
+   "answer": "Grandfather",
+   "options": [
+    "Uncle",
+    "Grandfather",
+    "Brother"
+   ],
+   "hint": "Your father's father — think of the oldest man in family photos!",
+   "misconception": "Your father's father is your grandfather.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flower",
+     "label": "Uncle",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flower",
+     "label": "Grandfather",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flower",
+     "label": "Brother",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "Who all live together in a JOINT family?",
+   "answer": "Parents, children and grandparents",
+   "options": [
+    "Nobody at all",
+    "Parents, children and grandparents",
+    "Only one person"
+   ],
+   "hint": "Joint means joined together — many family members!",
+   "misconception": "A joint family has grandparents, parents, uncles, aunts and children together.",
+   "storyBeat": "inciting"
+  },
+  {
+   "type": "choose_calc",
+   "question": "How can YOU help at home?",
+   "answer": "Keep my toys away",
+   "options": [
+    "Never help anyone",
+    "Keep my toys away",
+    "Hide Amma's slippers"
+   ],
+   "hint": "What small thing do YOU do that helps the family?",
+   "misconception": "Keeping our own toys away is a real help at home!",
+   "storyBeat": "inciting"
+  },
+  {
+   "type": "sort_family",
+   "question": "Sort each person: family or not family?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Family members live with us and love us like our own.",
+   "misconception": "Grandmother and brother are family. Shopkeepers and postmen are helpers, not family.",
+   "sortItems": [
+    {
+     "id": "s1",
+     "label": "My grandmother",
+     "emoji": "👵",
+     "correctBin": "family"
+    },
+    {
+     "id": "s2",
+     "label": "The shopkeeper",
+     "emoji": "🏪",
+     "correctBin": "not_family"
+    },
+    {
+     "id": "s3",
+     "label": "My little brother",
+     "emoji": "👦",
+     "correctBin": "family"
+    },
+    {
+     "id": "s4",
+     "label": "The postman",
+     "emoji": "📮",
+     "correctBin": "not_family"
+    }
+   ],
+   "bins": [
+    {
+     "id": "family",
+     "label": "My family ❤️",
+     "color": "#EC4899"
+    },
+    {
+     "id": "not_family",
+     "label": "Not my family 🌍",
+     "color": "#3B82F6"
+    }
+   ],
+   "storyBeat": "rising"
+  },
+  {
+   "type": "choose_calc",
+   "question": "When grandparents feel tired, what should we do?",
+   "answer": "Help them and bring water",
+   "options": [
+    "Run away and hide",
+    "Help them and bring water",
+    "Make loud noises"
+   ],
+   "hint": "Think of the kindest thing to do!",
+   "misconception": "Helping tired grandparents and bringing them water shows we care.",
+   "storyBeat": "rising"
+  },
+  {
+   "type": "choose_calc",
+   "question": "What does a family give us?",
+   "answer": "Love and care",
+   "options": [
+    "Money only",
+    "Love and care",
+    "Nothing"
+   ],
+   "hint": "More than toys — what does family really give?",
+   "misconception": "A family gives us love, care and safety.",
+   "storyBeat": "climax"
+  },
+  {
+   "type": "choose_calc",
+   "question": "Your mother's sister is your ______.",
+   "answer": "Aunt",
+   "options": [
+    "Aunt",
+    "Uncle",
+    "Cousin"
+   ],
+   "hint": "Your mother's sister — a special elder in the family!",
+   "misconception": "Your mother's sister is your aunt.",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "flower",
+     "label": "Aunt",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EC4899",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "flower",
+     "label": "Uncle",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EC4899",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "flower",
+     "label": "Cousin",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EC4899",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  }
+ ],
+ "subject": "evs",
+ "theme": "outdoor",
+ "storyArc": {
+  "theme": "Rina didi opens her family photo album",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "Rina shows the first family photo",
+    "mascotDialogue": "Come! Let's meet my family!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "Everyone in the photo does something helpful",
+    "mascotDialogue": "See how we all help each other?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "A wedding brings the BIG family together",
+    "mascotDialogue": "Now the tree grows wider — joint family!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The family-tree puzzle",
+    "mascotDialogue": "The big one: who comes where on our tree?"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The album closes with a family hug",
+    "mascotDialogue": "Family love makes us strong. You learned it all!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "growing-tree",
+  "title": "Our Family Tree",
+  "totalPieces": 8
+ }
+}

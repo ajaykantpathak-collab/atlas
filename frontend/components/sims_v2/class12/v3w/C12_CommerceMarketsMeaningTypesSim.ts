@@ -119,7 +119,7 @@ export const w_c12_commercemarketsmeaningtypessim: SimDef = {
           hint: 'If stuck, revisit c11_bs_cbse_01_006 (Commerce: Trade and Auxiliaries to Trade) and.',
           misconception: 'Students consistently equate marketing with only advertising or selling.',
           parts: [
-                { id: 'a', prompt: 'Define marketing in one sentence using the Philip Kotler definition. Include the phrases "social process" and "freely exchanging."', answer: 'Correct answer: Marketing is a social process by',
+                { id: 'a', prompt: 'Define marketing in one sentence using the Philip Kotler definition. Include the phrases "social process" and "freely exchanging."', answer: 'Marketing is a social process by',
                   options: ['Correct answer: Marketing is a social process by', 'marketing is selling products', 'marketing is advertising'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students consistently equate marketing with only advertising or selling.' },
@@ -127,7 +127,7 @@ export const w_c12_commercemarketsmeaningtypessim: SimDef = {
                   options: ['Correct answer (any three with valid examples): Services', 'cakes, pastries, bread'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students consistently equate marketing with only advertising or selling.' },
-                { id: 'c', prompt: 'Compare the AMA (2017) definition of marketing with the Kotler definition. Identify ONE key similarity and ONE key difference in their emphasis.', answer: 'Correct answer: Similarity',
+                { id: 'c', prompt: 'Compare the AMA (2017) definition of marketing with the Kotler definition. Identify ONE key similarity and ONE key difference in their emphasis.', answer: 'Similarity',
                   options: ['Correct answer: Similarity', 'both are same', 'AMA includes stakeholders'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students consistently equate marketing with only advertising or selling.' }

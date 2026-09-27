@@ -79,13 +79,41 @@ function StarRow({ count, total }: { count: number; total: number }) {
 
 function TeachScreen({ def, junior, onDone }: { def: SimDef; junior: boolean; onDone: () => void }) {
     const [idx, setIdx] = useState(0);
-    const slide = def.teaching[idx];
+    // junior recall beat — after the last slide, a "say it back" card pulls
+    // the first authored reflect prompt (retrieval practice, not passive
+    // re-reading: teaching without recall is exposure, not learning)
+    const [recalling, setRecalling] = useState(false);
     const last = idx === def.teaching.length - 1;
+    const slide = def.teaching[Math.min(idx, def.teaching.length - 1)];
 
     useEffect(() => {
+        if (recalling) { if (junior && def.reflect?.prompts?.[0]) speechManager.speak(def.reflect.prompts[0]); return; }
         if (junior) speechManager.speak(`${slide.title}. ${slide.text}`);
         return () => speechManager.stop();
-    }, [idx, junior, slide]);
+    }, [idx, junior, slide, recalling, def.reflect]);
+
+    if (recalling && junior && def.reflect?.prompts?.length) {
+        return (
+            <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
+                className="z-10 flex flex-col items-center text-center rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-sky-500 to-blue-600 shadow-2xl max-w-lg w-full my-auto">
+                <div className="text-6xl mb-3">🗣️</div>
+                <div className="text-[11px] font-black uppercase tracking-widest text-sky-200 mb-2">Tell me back!</div>
+                <h2 className="text-xl font-black text-white mb-5 flex items-center justify-center">
+                    {def.reflect.prompts[0]}
+                    <SpeakButton text={def.reflect.prompts[0]} junior={junior} />
+                </h2>
+                <div className="flex flex-col gap-2 w-full">
+                    <motion.button whileTap={{ scale: 0.95 }} onClick={onDone}
+                        className="px-4 py-3 rounded-2xl font-bold text-sm bg-white text-sky-800 shadow-md hover:bg-sky-50">
+                        I can say it! 🎤
+                    </motion.button>
+                    <button onClick={() => setIdx(0)} className="px-4 py-2.5 rounded-2xl font-bold text-sm bg-white/20 text-white/80">
+                        Hmm, show me again 🔁
+                    </button>
+                </div>
+            </motion.div>
+        );
+    }
 
     return (
         <motion.div key={idx} initial={{ opacity: 0, x: 60 }} animate={{ opacity: 1, x: 0 }}
@@ -95,7 +123,18 @@ function TeachScreen({ def, junior, onDone }: { def: SimDef; junior: boolean; on
                 {slide.title}
                 <SpeakButton text={`${slide.title}. ${slide.text}`} junior={junior} />
             </h2>
-            <p className="text-base font-semibold text-white/95 leading-relaxed mb-6">{slide.text}</p>
+            <p className="text-base font-semibold text-white/95 leading-relaxed mb-6">
+                {/* keyword spotlight — the slide's own title term bolded in the
+                    body text, so the vocabulary anchor is visible, not just heard */}
+                {(() => {
+                    const term = (slide.title.match(/[A-Za-z\u0900-\u097F]{4,}/g) ?? [])[0];
+                    if (!term) return slide.text;
+                    const parts = slide.text.split(new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'));
+                    return parts.map((p, i) => p.toLowerCase() === term.toLowerCase()
+                        ? <strong key={i} className="text-white bg-white/20 rounded px-1">{p}</strong>
+                        : <span key={i}>{p}</span>);
+                })()}
+            </p>
             <div className="flex items-center gap-3">
                 <div className="flex gap-1.5">
                     {def.teaching.map((_, i) => (
@@ -103,9 +142,9 @@ function TeachScreen({ def, junior, onDone }: { def: SimDef; junior: boolean; on
                     ))}
                 </div>
                 <motion.button whileTap={{ scale: 0.92 }}
-                    onClick={() => { audioManager.play('tap'); last ? onDone() : setIdx(i => i + 1); }}
+                    onClick={() => { audioManager.play('tap'); last ? (junior && def.reflect?.prompts?.length ? setRecalling(true) : onDone()) : setIdx(i => i + 1); }}
                     className="px-6 py-2.5 rounded-2xl bg-white text-gray-900 font-black shadow-lg">
-                    {last ? (def.explore ? "Let's Play! 🎮" : "Let's Go! 🚀") : 'Next →'}
+                    {last ? (junior && def.reflect?.prompts?.length ? 'Tell me! 🗣️' : def.explore ? "Let's Play! 🎮" : "Let's Go! 🚀") : 'Next →'}
                 </motion.button>
             </div>
         </motion.div>
@@ -260,7 +299,7 @@ function PredictCard({ p, junior, onDone }: { p: NonNullable<SimDef['predict']>;
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="w-full">
                     <p className="text-fuchsia-100 font-semibold text-sm mb-3">{p.verifyPrompt}</p>
                     <div className="w-full bg-white/20 rounded-2xl p-3 mb-3 min-h-[140px] flex items-center justify-center">
-                        {VerifyWidget ? <VerifyWidget onChange={() => {}} /> : <p className="text-white font-bold">{p.verifyPrompt}</p>}
+                        {VerifyWidget ? <VerifyWidget onChange={() => {}} labels={(p as { verifyLabels?: string[] }).verifyLabels} /> : <p className="text-white font-bold">{p.verifyPrompt}</p>}
                     </div>
                     <p className={`font-bold text-sm mb-3 ${wasRight ? 'text-emerald-300' : 'text-amber-200'}`}>
                         {wasRight ? 'Your prediction was RIGHT! 🎉' : `Interesting — the answer was "${p.answer}". Now you know! 💡`}
@@ -464,6 +503,9 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
     const junior = mode ? mode === 'junior' : def.classLevel <= 5;
     const buddy = useBuddyStore();
     const growIsland = useIslandStore(s => s.grow);
+
+    // language-aware TTS — Hindi sims speak Devanagari in hi-IN voice
+    useEffect(() => { speechManager.setLang(def.subject === 'hindi' ? 'hi' : 'en'); }, [def.subject]);
 
     // Resolved challenge list — generated + fixed, sampled. Computed once
     // per mount so each playthrough serves fresh/different questions.
@@ -921,7 +963,7 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                                 ? (() => { const C = (def.explore!.component ?? SIM_COMPONENTS[def.explore!.componentId!]) as ComponentType; return <C /> })()
                                 : def.explore.lab && LABS[def.explore.lab]
                                 ? <CanvasLab spec={LABS[def.explore.lab]} onChange={setWidgetState} />
-                                : Widget ? <Widget onChange={setWidgetState} /> : <p className="text-gray-500 font-bold">Explore!</p>}
+                                : Widget ? <Widget onChange={setWidgetState} labels={def.explore.labels} /> : <p className="text-gray-500 font-bold">Explore!</p>}
                         </div>
                         <motion.button whileTap={{ scale: 0.92 }} onClick={() => goNext('explore')}
                             className="mt-4 px-8 py-3 rounded-2xl bg-gradient-to-r from-emerald-400 to-teal-500 text-white font-black shadow-lg text-lg">
@@ -953,9 +995,9 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                                 <div className="w-full flex flex-col items-center mb-4">
                                     <p className="text-sm font-bold text-gray-700 mb-2 text-center">{remediation.labTask.instruction}</p>
                                     {WIDGETS[remediation.labTask.widget]
-                                        ? (() => { const W = WIDGETS[remediation.labTask!.widget]; return <W onChange={setWidgetState} />; })()
+                                        ? (() => { const W = WIDGETS[remediation.labTask!.widget]; return <W onChange={setWidgetState} labels={remediation.labTask!.labels} />; })()
                                         : LABS[remediation.labTask.widget]
-                                        ? <CanvasLab spec={LABS[remediation.labTask.widget]} onChange={setWidgetState} />
+                                        ? <CanvasLab spec={LABS[remediation.labTask.widget]} onChange={setWidgetState} labels={remediation.labTask.labels} />
                                         : null}
                                 </div>
                             )}
@@ -1040,7 +1082,7 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                                     <p className="text-sm font-bold text-gray-600 mb-2">{challenge.interactGoal?.instruction}
                                         <SpeakButton text={challenge.interactGoal?.instruction ?? ''} junior={junior} /></p>
                                     {(!junior && LabFor) ? <CanvasLab spec={LabFor} onChange={setWidgetState} />
-                                        : Widget ? <Widget onChange={setWidgetState} />
+                                        : Widget ? <Widget onChange={setWidgetState} labels={challenge.interactGoal?.labels} />
                                         : LabFor ? <CanvasLab spec={LabFor} onChange={setWidgetState} /> : null}
                                     <motion.button whileTap={{ scale: 0.92 }} onClick={checkInteract}
                                         className="mt-3 px-6 py-2 rounded-2xl bg-emerald-500 text-white font-black shadow-md">

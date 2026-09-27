@@ -1,0 +1,613 @@
+{
+ "gameFile": "HinReadingGame",
+ "classLevel": 4,
+ "cisceNodes": [
+  "c4_hin_003"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "गद्यांश — Passage Reading 📖",
+   "text": "'राम गाँव में रहता था। वह रोज़ खेत जाता था।' — a passage is a mini-story to decode!",
+   "emoji": "📖",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "कौन, क्या, कहाँ, क्यों 🔍",
+   "text": "Four questions unlock any passage: who (कौन), what (क्या), where (कहाँ), why (क्यों)!",
+   "emoji": "🔍",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "मुख्य विचार — Main Idea 🎯",
+   "text": "The main idea is the one sentence the whole passage supports — everything else is detail!",
+   "emoji": "🎯",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "निष्कर्ष — Inference 🔎",
+   "text": "'राम थक गया' implies he worked hard — the text hints, you conclude!",
+   "emoji": "🔎",
+   "bgColor": "from-orange-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "उत्तर पाठ से ✅",
+   "text": "Every answer must come FROM the passage — point to the sentence that proves it!",
+   "emoji": "✅",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "पाठ: 'मोहन रोज़ सुबह उठता है। वह व्यायाम करता है।' — मोहन कब उठता है?",
+   "answer": "सुबह",
+   "options": [
+    "सुबह",
+    "शाम",
+    "रात"
+   ],
+   "hint": "The first sentence says when!",
+   "misconception": "'रोज़ सुबह' — the time is given directly!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "सुबह",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "शाम",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "रात",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "सुबह",
+     "शाम"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "मोहन क्या करता है?",
+   "answer": "व्यायाम",
+   "options": [
+    "व्यायाम",
+    "खेल",
+    "पढ़ाई"
+   ],
+   "hint": "The second sentence says the action!",
+   "misconception": "'व्यायाम करता है' — the text states the activity!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "व्यायाम",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "खेल",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "पढ़ाई",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "व्यायाम",
+     "खेल"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "This passage's मुख्य विचार is—",
+   "answer": "मोहन की दिनचर्या",
+   "options": [
+    "मोहन की दिनचर्या",
+    "व्यायाम के फायदे",
+    "सुबह का समय"
+   ],
+   "hint": "What is it mostly about?",
+   "misconception": "It's about मोहन's daily routine — व्यायाम is a detail within it!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "मोहन की दिनचर्या",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "व्यायाम के फायदे",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "सुबह का समय",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "मोहन की दिनचर्या",
+     "व्यायाम के फायदे"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'वह रोज़ व्यायाम करता था' — this suggests मोहन was—",
+   "answer": "स्वस्थ और मेहनती",
+   "options": [
+    "स्वस्थ और मेहनती",
+    "आलसी",
+    "बीमार"
+   ],
+   "hint": "Daily exercise implies what kind of person?",
+   "misconception": "Daily discipline implies स्वस्थ/मेहनती — inference from the habit!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "स्वस्थ और मेहनती",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "आलसी",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "बीमार",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "स्वस्थ और मेहनती",
+     "आलसी"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match question word to its answer-type!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Each question word seeks a different kind!",
+   "misconception": "कौन→person, कहाँ→place, क्यों→reason, कब→time!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "कौन",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "कहाँ",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "क्यों",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "कब",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "कौन",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "कहाँ",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "क्यों",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "कब",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "person",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "place",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "reason",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "time",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "कौन",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "कहाँ",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "पाठ: 'राधा ने दीया जलाया।' — राधा ने क्या जलाया?",
+   "answer": "दीया",
+   "options": [
+    "दीया",
+    "बत्ती",
+    "आग"
+   ],
+   "hint": "The object of 'जलाया'!",
+   "misconception": "'दीया' — the direct object is the answer!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "दीया",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "बत्ती",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "आग",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "दीया",
+     "बत्ती"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'दीया जलाकर राधा प्रार्थना की' — this suggests she was—",
+   "answer": "धार्मिक/श्रद्धालु",
+   "options": [
+    "धार्मिक/श्रद्धालु",
+    "खेल रही",
+    "सो रही"
+   ],
+   "hint": "Lighting a lamp + praying implies?",
+   "misconception": "Prayer after lamp-lighting suggests devotion — inferred from actions!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "धार्मिक/श्रद्धालु",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "खेल रही",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "सो रही",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "धार्मिक/श्रद्धालु",
+     "खेल रही"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "A passage answer must be—",
+   "answer": "from the text",
+   "options": [
+    "from the text",
+    "your guess",
+    "always 'yes'"
+   ],
+   "hint": "Evidence-based!",
+   "misconception": "Only the passage counts — answers live inside it!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "from the text",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "your guess",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "always 'yes'",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "from the text",
+     "your guess"
+    ]
+   }
+  }
+ ],
+ "theme": "story-bazaar",
+ "storyArc": {
+  "theme": "Piku reads Hindi passages and finds answers inside",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Passage Pro Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c4_hin_003",
+  "region": "Aksharlok",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "📖",
+  "prerequisites": []
+ },
+ "subject": "hindi"
+}

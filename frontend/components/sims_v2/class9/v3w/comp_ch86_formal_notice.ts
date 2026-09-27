@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
 /** HAND-AUTHORED — c9_comp_ch86 The Official Desk (formal letter + notice).
- * Nodes: c9_comp_cbse_86_001, 86_002, 86_003. */
+ * Nodes: c9_engl_cbse_86_001, 86_002, 86_003. */
 export const c9_comp_ch86: SimDef = {
-    id: 'v3_c9_comp_ch86',
+    id: 'v3w_c9_comp_ch86',
     title: 'The Official Desk',
     subtitle: 'The eight-block skeleton, the register rules, and the boxed 50-word notice — formal formats earn marks before content is read',
     classLevel: 9, subject: 'english-composition', topic: 'Formal letter and notice writing',
     chapters: ['c9_comp_ch86'],
-    nodeIds: ['c9_comp_cbse_86_001', 'c9_comp_cbse_86_002', 'c9_comp_cbse_86_003'],
+    nodeIds: ['c9_engl_cbse_86_001', 'c9_engl_cbse_86_002', 'c9_engl_cbse_86_003'],
     emoji: '📮', theme: { bg: 'from-slate-900 to-cyan-950', accent: 'cyan', scene: 'senior' },
 
     scenario: {
@@ -33,20 +33,20 @@ export const c9_comp_ch86: SimDef = {
     ],
 
     beats: [
-        { type: 'build', nodeId: 'c9_comp_cbse_86_001', title: 'Assemble the header',
+        { type: 'build', nodeId: 'c9_engl_cbse_86_001', title: 'Assemble the header',
           build: {
             prompt: 'Order the formal letter header:',
             blocks: ['salutation', 'subject', "receiver's address", "sender's address", 'date'],
             answer: "sender's address, date, receiver's address, subject, salutation",
           } },
-        { type: 'dissect', nodeId: 'c9_comp_cbse_86_002', title: 'Hunt the informal markers',
+        { type: 'dissect', nodeId: 'c9_engl_cbse_86_002', title: 'Hunt the informal markers',
           dissect: { specimen: 'a complaint letter leaking register',
           spots: [
             { id: 's1', label: 'contraction', prompt: '"I\'m writing coz the streetlight hasn\'t worked…" — fix the opening.', answer: 'I am writing to report — no contractions, no "coz"; state the purpose formally', options: ['I am writing to report — no contractions, no "coz"; state the purpose formally', 'I\'m writing is fine', 'I write to say', 'just remove coz'] },
             { id: 's2', label: 'emotion', prompt: '"it\'s super annoying!!!" — the register fix?', answer: 'convert the feeling to a fact — "poses a daily inconvenience" or "remains non-functional"', options: ['convert the feeling to a fact — "poses a daily inconvenience" or "remains non-functional"', 'just remove the exclamation marks', 'say it louder — it is urgent', 'add more exclamations'] },
             { id: 's3', label: 'indianism', prompt: '"kindly do the needful" — acceptable?', answer: 'no — a dated Indianism boards mark down; say the actual action needed', options: ['no — a dated Indianism boards mark down; say the actual action needed', 'yes — it is formal', 'yes — everyone writes it', 'only in complaints'] },
           ] } },
-        { type: 'case', nodeId: 'c9_comp_cbse_86_003', title: 'The 50-word box',
+        { type: 'case', nodeId: 'c9_engl_cbse_86_003', title: 'The 50-word box',
           caseStudy: {
             intro: 'Notices are the most mechanical format — and the most butchered.',
             decisions: [
@@ -60,7 +60,7 @@ export const c9_comp_ch86: SimDef = {
                 ] },
             ],
           } },
-        { type: 'scaffold', nodeId: 'c9_comp_cbse_86_002', title: 'The courteous command',
+        { type: 'scaffold', nodeId: 'c9_engl_cbse_86_002', title: 'The courteous command',
           scaffold: {
             problem: 'Close a complaint letter requesting action on garbage collection.',
             steps: [
@@ -73,7 +73,7 @@ export const c9_comp_ch86: SimDef = {
     ],
 
     challenges: [
-        { type: 'mcq', nodeId: 'c9_comp_cbse_86_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c9_engl_cbse_86_001', difficulty: 'standard',
           question: 'Order the header: salutation, subject, receiver\'s address, sender\'s address, date.',
           options: [
               { text: "sender's address → date → receiver's address → subject → salutation" },
@@ -86,7 +86,7 @@ export const c9_comp_ch86: SimDef = {
           },
           hint: 'Who → when → to whom → about what → hello.',
           misconception: 'students know the pieces but not the legal order' },
-        { type: 'mcq', nodeId: 'c9_comp_cbse_86_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c9_engl_cbse_86_001', difficulty: 'standard',
           question: 'Write the subject line for: inquiry about computer courses at an institute.',
           options: [
               { text: 'Inquiry regarding computer courses offered' },
@@ -100,7 +100,7 @@ export const c9_comp_ch86: SimDef = {
           },
           hint: 'Headline, not sentence.',
           misconception: 'students write full sentences as subjects — the subject is a headline' },
-        { type: 'mcq', nodeId: 'c9_comp_cbse_86_002', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c9_engl_cbse_86_002', difficulty: 'standard',
           question: 'Which request close earns the mark?',
           options: [
               { text: 'I would be grateful if you could look into the matter at the earliest.' },
@@ -114,7 +114,7 @@ export const c9_comp_ch86: SimDef = {
           },
           hint: 'Formal commands through courtesy.',
           misconception: 'students think formality means assertiveness — it means courtesy that commands' },
-        { type: 'sort', nodeId: 'c9_comp_cbse_86_003', difficulty: 'foundation',
+        { type: 'sort', nodeId: 'c9_engl_cbse_86_003', difficulty: 'foundation',
           question: 'Notice element or letter element?',
           sortItems: [
               { id: 'a', label: 'organization name at top', emoji: '🏫', correctBin: 'notice' },
@@ -130,7 +130,7 @@ export const c9_comp_ch86: SimDef = {
           ],
           hint: 'The notice has no salutation and no subject line — authority leads instead.',
           misconception: 'students merge the two skeletons — subject lines inside notices, org-name headers inside letters' },
-        { type: 'subpart', nodeId: 'c9_comp_cbse_86_001', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c9_engl_cbse_86_001', difficulty: 'advanced',
           question: 'Audit: letter has sender\'s address, "Dear Sir", body, "Yours sincerely", name — but no date, receiver\'s address, or subject.',
           hint: 'Count missing blocks AND check the pairing.',
           misconception: 'spots the subject gap but misses the pairing error',

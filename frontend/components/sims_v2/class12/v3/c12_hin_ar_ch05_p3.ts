@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch05_p3: SimDef = {
     id: 'v3_c12_hin_ar_ch05_p3',
-    title: 'lw;Zdkar f=ikBh ^fujkyk · Part 3/3',
+    title: 'उषा · Part 3/3',
     subtitle: 'The poem is the plough — and inequality is the field',
-    classLevel: 12, subject: 'hin_ar', topic: 'lw;Zdkar f=ikBh ^fujkyk · Part 3/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'उषा · Part 3/3',
     chapters: ['c12_hin_ar_ch05'],
     nodeIds: ['c12_hin_ar_cbse_05_013', 'c12_hin_ar_cbse_05_014', 'c12_hin_ar_cbse_05_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,29 +19,15 @@ export const c12_hin_ar_ch05_p3: SimDef = {
         hook: 'After 1943 his images stopped describing and started symbolising — the maize field is a rural world, the dark night its weight, the plough the poet\'s intervention. \'Makka\' grows from a folk tale: read the field as a symbolic landscape, not a sketch.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literature involves analyzing and interpreting a text by examining its themes, literary devices, structure, and context to form a reasoned judgment about its meaning and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'उषा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण (Interpretation/Explanation of Purport) वह प्रक्रिया है जिसमें काव्य-पंक्तियों के शब्दार्थ से आगे बढ़कर उनके गहन भाव, प्रसंगानुकूल अभिप्राय, अलंकारिक सौंदर्य और कवि के अभीष्ट संदेश को.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_05_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Work the symbolic field: trace folk-tale roots into the poem\'s images, decode what maize, night and plough each stand for, and judge a poet who ploughs inequality rather than just watching it.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re standing in a cornfield at sunset - the golden stalks swaying, wind whispering through leaves, children\'s laughter echoing.',
-            decisions: [{ prompt: 'What is the central theme of the poem "मक्का" as reflected in the imagery of the cornfield and the wind?', options: [
-                { text: 'The central theme is the harmonious coexistence of nature and human life, where the', outcome: 'The central theme is the harmonious coexistence of nature and human life, where the cornfield.' },
-                { text: 'description of a farm', outcome: 'Not quite — Students often think "critical analysis" means finding faults or criticizing the poem.', reveals: 'critical-analysis-means-finding-faults' },
-                { text: 'critical analysis', outcome: 'Not quite — Students often think "critical analysis" means finding faults or criticizing the poem.', reveals: 'critical-analysis-means-finding-faults' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_05_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing Question 4: "Compare the three poems on imagery, word-choice, and experience." Your mind races — you know the poems but.',
-            decisions: [{ prompt: 'What does PEEL stand for in the context of writing literature answers for CBSE Class 12?', options: [
-                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
-                { text: 'Paragraph, Example, Explanation, Conclusion', outcome: 'Not quite — **Exact error**: Students believe "writing based on the chapter" means *reproducing* the teacher\'s.', reveals: 'exact-error-students-believe-writing' },
-                { text: 'writing based on the chapter', outcome: 'Not quite — **Exact error**: Students believe "writing based on the chapter" means *reproducing* the teacher\'s.', reveals: 'exact-error-students-believe-writing' }
-            ] }] } },
+        labels: ['उषा — आशय-स्पष्टीकरण और', 'उषा — परीक्षा-उत्तर लेखन', 'उषा — वाचन-पाठ और'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_05_013', title: 'Use it in the wild',
           caseStudy: { intro: 'For a photo-story assignment, your partner wants to scrap shots of a foggy winter field — \'nothing happens in them; we need drama.\' You suspect the quiet frames are the story.',
             decisions: [{ prompt: 'How does Nirala\'s \'मक्क\' settle the argument?', options: [
@@ -56,62 +42,43 @@ export const c12_hin_ar_ch05_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_013', difficulty: 'standard',
-          question: 'Critical thinking in literature involves analyzing and interpreting a text.',
-          hint: 'Review the 4-step analysis method (Observe, Connect, Interpret, Evaluate) practiced.',
-          misconception: 'Students often think "critical analysis" means finding faults or criticizing the poem.',
+          question: 'आशय-स्पष्टीकरण (Interpretation/Explanation of Purport) वह प्रक्रिया है जिसमें.',
+          hint: 'यदि किसी पंक्ति का **भावार्थ नहीं खुल रहा**, तो तुरंत c12_hin_ar_cbse_05_002 (पद्यांश-वार.',
+          misconception: '**विशिष्ट भ्रांति:** विद्यार्थी समझते हैं कि **आशय-स्पष्टीकरण = शब्दार्थ + अनुवाद**। वे पंक्ति-दर-पंक्ति हिंदी अर्थ.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literature involves analyzing and interpreting a text by examining',
-                  options: ['Critical thinking in literature involves analyzing and interpreting a text by examining', 'This node covers the "Before You Read" section', 'In poetry, narrative structure refers to the deliberate organization of images, ideas,', 'Setting refers to the time, place, and physical environment in'],
-                  hint: 'Review the 4-step analysis method (Observe, Connect, Interpret, Evaluate) practiced in Class 11.',
-                  misconception: 'Students often think "critical analysis" means finding faults or criticizing the poem.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण (Interpretation/Explanation of Purport) वह प्रक्रिया है जिसमें',
+                  options: ['आशय-स्पष्टीकरण (Interpretation/Explanation of Purport) वह प्रक्रिया है जिसमें', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि किसी पंक्ति का **भावार्थ नहीं खुल रहा**, तो तुरंत c12_hin_ar_cbse_05_002 (पद्यांश-वार भावार्थ).',
+                  misconception: '**विशिष्ट भ्रांति:** विद्यार्थी समझते हैं कि **आशय-स्पष्टीकरण = शब्दार्थ + अनुवाद**। वे पंक्ति-दर-पंक्ति हिंदी अर्थ लिखकर समझते हैं कि.' }
           ],
-            remediations: { 'critical-analysis-means-finding-faults': { steps: ['Ask the student to explain the difference between "criticizing" and "analyzing" using a simple example (e.g., a movie.', 'understanding a movie\'s message).', 'Have them re-read the poem with the prompt: "What is the poet trying to make me feel/understand?" not "What is wrong.', 'Practice with a familiar poem (like Class 11\'s "कबीर की साखी") using the 4-step method: Observe -> Connect -> Interpret.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often think "critical analysis" means finding faults or criticizing the poem.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate whether the poem\'s ending (the wind continuing its journey) suggests optimism or melancholy about the passage of time.', answer: 'The ending suggests quiet optimism - the wind\'s endless journey mirrors life\'s',
-                  options: ['The ending suggests quiet optimism - the wind\'s endless journey mirrors life\'s', 'sadness because things end', 'critical analysis', 'The poem is good but could have more rhyme'],
-                  hint: 'Review the 4-step analysis method (Observe, Connect, Interpret, Evaluate) practiced in Class 11.',
-                  misconception: 'Students often think "critical analysis" means finding faults or criticizing the poem.' }
-          ],
-            remediations: { 'critical-analysis-means-finding-faults': { steps: ['Ask the student to explain the difference between "criticizing" and "analyzing" using a simple example (e.g., a movie.', 'understanding a movie\'s message).', 'Have them re-read the poem with the prompt: "What is the poet trying to make me feel/understand?" not "What is wrong.', 'Practice with a familiar poem (like Class 11\'s "कबीर की साखी") using the 4-step method: Observe -> Connect -> Interpret.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'cbse-3-5-context': { steps: ['**पुनः पढ़ें:** c12_hin_ar_cbse_05_002 (पद्यांश-वार भावार्थ) और c12_hin_ar_cbse_05_007 (प्रतीक और बिंब) — वहाँ दिए गए.', '**अभ्यास:** \'उषा\' के किसी एक पद्यांश को लेकर **PEEL शीट** बनाएँ — Point (क्या कहना है), Evidence (कौन-सी पंक्ति/शब्द).', '**परीक्षण:** c12_hin_ar_cbse_05_012 (बोध-प्रश्न) के **आशय-सूचक प्रश्नों** को हल करें और अपने उत्तरों को मार्किंग स्कीम.', '**फीडबैक:** शिक्षक/सहपाठी से पूछें: "मेरे उत्तर में कौन-सा बिंदु (प्रसंग/भाव/अलंकार/केंद्रीय भाव/शैली) छूटा है?"'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_014', difficulty: 'standard',
-          question: 'Writing Skills: Based on the Chapter refers to the ability to compose.',
-          hint: 'If stuck on device identification, revisit **c12_hin_ar_cbse_05_008** (Imagery and.',
-          misconception: '**Exact error**: Students believe "writing based on the chapter" means *reproducing* the teacher\'s notes or the.',
+          question: 'परीक्षा-उत्तर लेखन कौशल, CBSE बोर्ड परीक्षा के मानक (marking scheme) और.',
+          hint: 'यदि PEEL संरचना में फँसें, तो कक्षा 11 के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_014) या.',
+          misconception: '**विशिष्ट भ्रांति:** *"लंबा उत्तर = अधिक अंक"* — छात्र मानते हैं कि 5 अंकों के प्रश्न में **पूरी कविता का भावार्थ** लिख.',
           parts: [
-                { id: 'a', prompt: 'What does PEEL stand for in the context of writing literature answers for CBSE Class 12?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
-                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explanation, Conclusion', 'writing based on the chapter', 'narrate rather than analyse'],
-                  hint: 'If stuck on device identification, revisit **c12_hin_ar_cbse_05_008** (Imagery and Metaphor) and.',
-                  misconception: '**Exact error**: Students believe "writing based on the chapter" means *reproducing* the teacher\'s notes or the textbook\'s critical.' },
-                { id: 'b', prompt: 'Apply the PEEL structure to write a 4-sentence response to: "Identify one metaphor in \'मक्क\' and explain its effect." Use the corn-cob imagery.', answer: '**Point**: The poet uses metaphor to animate the cornfield',
-                  options: ['**Point**: The poet uses metaphor to animate the cornfield', 'writing based on the chapter'],
-                  hint: 'If stuck on device identification, revisit **c12_hin_ar_cbse_05_008** (Imagery and Metaphor) and.',
-                  misconception: '**Exact error**: Students believe "writing based on the chapter" means *reproducing* the teacher\'s notes or the textbook\'s critical.' },
-                { id: 'c', prompt: 'Analyze how the imagery of \'light\' functions differently in \'मक्क\' (evening lamp/glow) versus \'चकोरक वग्सज\' (moonlight).', answer: 'In \'मक्क\', light is domestic and fleeting',
-                  options: ['In \'मक्क\', light is domestic and fleeting', 'writing based on the chapter'],
-                  hint: 'If stuck on device identification, revisit **c12_hin_ar_cbse_05_008** (Imagery and Metaphor) and.',
-                  misconception: '**Exact error**: Students believe "writing based on the chapter" means *reproducing* the teacher\'s notes or the textbook\'s critical.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल, CBSE बोर्ड परीक्षा के मानक (marking scheme) और समय-सीमा के',
+                  options: ['परीक्षा-उत्तर लेखन कौशल, CBSE बोर्ड परीक्षा के मानक (marking scheme) और समय-सीमा के', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि PEEL संरचना में फँसें, तो कक्षा 11 के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_014) या.',
+                  misconception: '**विशिष्ट भ्रांति:** *"लंबा उत्तर = अधिक अंक"* — छात्र मानते हैं कि 5 अंकों के प्रश्न में **पूरी कविता का भावार्थ** लिख देने से पूरे अंक.' }
           ],
-            remediations: { 'exact-error-students-believe-writing': { steps: ['**Day 1**: Take ONE stanza from \'मक्क\' (e.g., the corn-cob stanza).', 'Write 3 PEEL paragraphs on it — each focusing on ONE device (personification, auditory imagery, color symbolism).', 'Use the template: "The poet uses [device] in \'[phrase]\' to suggest [effect], which reinforces [theme]." 2.', '**Day 2**: Compare two stanzas — one from \'मक्क\', one from \'चकोरक वग्सج\' — on *one* criterion (e.g., treatment.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { '5-cbse-conciseness-relevance-2023': { steps: ['**तत्काल निदान:** छात्र से पिछले वर्ष के बोर्ड पेपर का कोई 5-अंकीय प्रश्न लेकर **टाइमर लगा कर 7 मिनट में उत्तर.', '**PEEL ड्रिल:** उसी प्रश्न पर **केवल PEEL संरचना में बुलेट पॉइंट्स** बनवाएँ (पूर्ण वाक्य नहीं)। फिर उन बुलेट्स को 80-90.', '**उद्धरण-चयन अभ्यास:** कविता से 10 पंक्तियाँ दें, छात्र से कहें — *"इनमें से केवल वे 2 पंक्तियाँ छाँटो जो इस प्रश्न का.', '**पुनः निदान:** एक सप्ताह बाद नया प्रश्न देकर वही प्रक्रिया दोहराएँ — अब अंक सुधार और समय पालन दोनों जाँचें।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_05_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck, revisit c12_hin_ar_cbse_05_008 (Literary Devices: Imagery and Metaphor).',
-          misconception: 'छात्र अक्सर समझते हैं कि \'चर्चा बिंदु\' (discussion points) का अर्थ है — कविता के बारे में जो मन में आए, बोल देना। वे.',
+          question: 'वाचन-पाठ कविता के शब्दों को सही उच्चारण, लय, गति और भाव के साथ मौखिक रूप से.',
+          hint: 'यदि अटके तो c12_hin_ar_cbse_05_005 (छंद-लय) और c12_hin_ar_cbse_05_007 (प्रतीक-बिंब) पर.',
+          misconception: 'छात्र समझते हैं कि वाचन-पाठ = \'तेज़ और साफ़ बोलना\'। वास्तव में वाचन-पाठ = \'भावानुसार स्वर-विधान\'। उदाहरण: "उषा!',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', 'This node covers the "Before You Read" section', 'In poetry, narrative structure refers to the deliberate organization of images, ideas,', 'Setting refers to the time, place, and physical environment in'],
-                  hint: 'If stuck, revisit c12_hin_ar_cbse_05_008 (Literary Devices: Imagery and Metaphor) to re-learn how.',
-                  misconception: 'छात्र अक्सर समझते हैं कि \'चर्चा बिंदु\' (discussion points) का अर्थ है — कविता के बारे में जो मन में आए, बोल देना। वे सोचते हैं: "मुझे कविता.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ कविता के शब्दों को सही उच्चारण, लय, गति और भाव के साथ मौखिक रूप से प्रस्तुत करने',
+                  options: ['वाचन-पाठ कविता के शब्दों को सही उच्चारण, लय, गति और भाव के साथ मौखिक रूप से प्रस्तुत करने', 'उषा — कवि परिचय और पृष्ठभूमि का तात्पर्य कवियत्री उषा के व्यक्तिगत जीवन, साहित्यिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza) का स्वतंत्र अर्थ', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                  hint: 'यदि अटके तो c12_hin_ar_cbse_05_005 (छंद-लय) और c12_hin_ar_cbse_05_007 (प्रतीक-बिंब) पर लौटें.',
+                  misconception: 'छात्र समझते हैं कि वाचन-पाठ = \'तेज़ और साफ़ बोलना\'। वास्तव में वाचन-पाठ = \'भावानुसार स्वर-विधान\'। उदाहरण: "उषा!' }
           ],
-            remediations: { 'discussion-points': { steps: ['चरण 1: छात्र से कहें — "कविता की कोई एक पंक्ति चुनो जो तुम्हें सबसे प्रभावशाली लगे। उसे जोर से पढ़ो। अब बताओ: इस पंक्ति.', '(ख) इसकी ध्वनि क्या करती है?', 'चरण 3: छात्र को उसी शब्द पर 60 सेकंड बोलने को कहें — केवल उस शब्द पर। चरण 4: फिर दूसरी पंक्ति पर यही प्रक्रिया दोहराएं।.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को c12_hin_ar_cbse_05_005 (छंद और लय-विधान) दोबारा पढ़वाएँ और प्रत्येक पद को ताली बजाकर लय में बोलने को कहें। 2.', 'c12_hin_ar_cbse_05_007 (प्रतीक और बिंब) से दो बिंब चुनवाएँ और पूछें: "इस बिंब को पढ़ते समय तुम्हारा चेहरा कैसा होगा?".', 'एक पद रिकॉर्ड करवाएँ, फिर शिक्षक का आदर्श वाचन सुनवाएँ; अंतर पहचानने को कहें। 4.', 'पुनः निदान: DIAGNOSTIC_QUESTION_3 दोहराएँ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

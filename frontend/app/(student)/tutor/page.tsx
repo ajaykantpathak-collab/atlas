@@ -11,11 +11,15 @@ import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import katex from 'katex';
+// Same omission as practice/page.tsx: KaTeX markup without its stylesheet.
+import 'katex/dist/katex.min.css';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useStudentStore } from '@/stores/studentStore';
 import { useAuthStore } from '@/stores/authStore';
+import { getAuthToken } from '@/lib/api';
 import { offlineCache } from '@/lib/offlineCache';
 import { friendlyNodeTitle, subjectName } from '@/lib/nodeTitle';
+import { sanitizeHtml } from '@/lib/sanitize';
 
 // ─── Local toast shim (sonner not installed) ──────────────
 // Minimal no-op implementation so toast.success/error/info/loading
@@ -121,7 +125,7 @@ interface TutorApiResponse {
 
 // ─── Constants ────────────────────────────────────────────
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8001';
+const API_URL = process.env.NEXT_PUBLIC_API_URL ?? '';
 // Ride the same origin as the API (nginx :80 in prod). A hardcoded 8001
 // bypasses the reverse proxy and breaks outside the dev machine.
 const TUTOR_WS_URL =
@@ -170,7 +174,16 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     explainError: "Couldn't load explanation. Try again.",
     topic: 'Topic',
     mastery: 'Mastery',
-    // Suggestions
+    // Suggestions — CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 7): starter
+    // chips are class- and subject-aware. "Derivatives" (Class 11-12
+    // calculus) must never reach a Class 6 child; each band gets a topic
+    // from its own year.
+    s_math_junior: "I don't understand fractions",
+    s_math_mid: "I don't understand linear equations",
+    s_sci_junior: "I don't understand photosynthesis",
+    s_sci_mid: "I don't understand chemical reactions",
+    s_sci_senior: "I don't understand thermodynamics",
+    s_generic: "I don't understand today's topic",
     s_derivatives: "I don't understand derivatives",
     s_hint: 'Give me a hint',
     s_example: 'Show me an example',
@@ -224,6 +237,12 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     explainError: 'Explanation load nahi ho paya. Phir try karein.',
     topic: 'Topic',
     mastery: 'Mastery',
+    s_math_junior: 'Fractions samajh nahi aaye',
+    s_math_mid: 'Linear equations samajh nahi aaye',
+    s_sci_junior: 'Photosynthesis samajh nahi aaya',
+    s_sci_mid: 'Chemical reactions samajh nahi aaye',
+    s_sci_senior: 'Thermodynamics samajh nahi aaya',
+    s_generic: "Aaj ka topic samajh nahi aaya",
     s_derivatives: 'Derivatives samajh nahi aaye',
     s_hint: 'Hint do',
     s_example: 'Example dikhao',
@@ -277,6 +296,12 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     explainError: 'व्याख्या लोड नहीं हो पाई। फिर प्रयास करें।',
     topic: 'विषय',
     mastery: 'महारत',
+    s_math_junior: 'भिन्न (fractions) समझ नहीं आए',
+    s_math_mid: 'रैखिक समीकरण समझ नहीं आए',
+    s_sci_junior: 'प्रकाश संश्लेषण समझ नहीं आया',
+    s_sci_mid: 'रासायनिक अभिक्रियाएँ समझ नहीं आईं',
+    s_sci_senior: 'ऊष्मागतिकी समझ नहीं आई',
+    s_generic: 'आज का विषय समझ नहीं आया',
     s_derivatives: 'डेरिवेटिव्स समझ नहीं आए',
     s_hint: 'संकेत दो',
     s_example: 'उदाहरण दिखाओ',
@@ -304,6 +329,32 @@ const SUGGESTION_KEYS: Record<string, string[]> = {
   escalate: ['s_askTeacher', 's_differentExplanation', 's_startOver'],
   quickActions: ['s_exampleNav', 's_practiceNav', 's_progressNav'],
 };
+
+import { getClassBand } from '@/lib/classBands'
+
+// CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 7): the opening chip is picked
+// from the child's OWN class band and subject. Band 0 = class unknown
+// (generic, claims nothing); 1 = junior 1-5; 2 = middle 6-10; 3 = senior 11-12.
+// This used `classLevel <= 8 ? 1 : ...`, so classes 6-8 were handed the
+// `s_*_junior` chips — a babyish tutor voice for 13-14 year olds.
+function initialChipKeys(subject: string, classLevel: number | null | undefined): string[] {
+  const band = getClassBand(classLevel);
+  const s = (subject || '').toLowerCase();
+  const rest = ['s_hint', 's_example'];
+  if (s.includes('math')) {
+    if (band === 3) return ['s_derivatives', ...rest];
+    if (band === 2) return ['s_math_mid', ...rest];
+    if (band === 1) return ['s_math_junior', ...rest];
+    return ['s_generic', ...rest];
+  }
+  if (/(science|sci|phys|chem|bio)/.test(s)) {
+    if (band === 3) return ['s_sci_senior', ...rest];
+    if (band === 2) return ['s_sci_mid', ...rest];
+    if (band === 1) return ['s_sci_junior', ...rest];
+    return ['s_generic', ...rest];
+  }
+  return band === 0 ? ['s_generic', ...rest] : [band === 1 ? 's_sci_junior' : band === 2 ? 's_math_mid' : 's_derivatives', ...rest];
+}
 
 // ─── Helper: render inline math ────────────────────────────
 
@@ -350,6 +401,11 @@ function renderMath(text: string): string {
     .join('');
 }
 
+/** Defense-in-depth: escape pipeline + sanitizer before innerHTML. */
+function renderMathSafe(text: string): string {
+  return sanitizeHtml(renderMath(text));
+}
+
 // ─── t() helper ────────────────────────────────────────────
 
 function t(lang: Language, key: string): string {
@@ -374,7 +430,7 @@ function masteryLabel(value: number, lang: Language): string {
 
 export default function TutorPage({
   userId,
-  nodeId,
+  nodeId: nodeIdProp,
   mastery: masteryProp,
   subject: subjectProp,
   classLevel: classLevelProp,
@@ -386,6 +442,12 @@ export default function TutorPage({
   classLevel?: number;
 }) {
   const router = useRouter();
+  // TUTOR-CTX: /tutor?node=<id> carries the current topic into the doubt
+  // thread so the answer anchors on what the student is actually studying.
+  const urlNodeId = typeof window !== 'undefined'
+    ? new URLSearchParams(window.location.search).get('node') ?? undefined
+    : undefined;
+  const nodeId = nodeIdProp ?? urlNodeId;
 
   // ─── State ───────────────────────────────────────────────
 
@@ -397,8 +459,33 @@ export default function TutorPage({
   const [openHints, setOpenHints] = useState<Set<string>>(new Set());
   const [language, setLanguage] = useState<Language>('en');
   const [langMenuOpen, setLangMenuOpen] = useState(false);
-  const [mastery, setMastery] = useState(masteryProp ?? 0.3);
+  // CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 7): the fabricated default
+  // mastery (?? 0.3) is gone. No answered questions → no mastery shown
+  // anywhere; the real number appears only once the tutor engine reports
+  // one from actual answers.
+  const [mastery, setMastery] = useState<number | null>(masteryProp ?? null);
   const [isExplaining, setIsExplaining] = useState(false);
+  // CHILD-LENS (fix 7): Hinglish is never forced on a child who chose EN.
+  // studentStore's languagePref defaults to 'hinglish' for untouched
+  // profiles, so an unchosen profile must not count as a Hinglish choice —
+  // the language resolves: in-chat explicit pick → profile (when it isn't
+  // the untouched default) → onboarding choice → English.
+  const [explicitLang, setExplicitLang] = useState<Language | null>(null);
+  const [onboardingLang, setOnboardingLang] = useState<Language | null>(null);
+
+  useEffect(() => {
+    try {
+      const picked = localStorage.getItem('atlas.tutor.lang');
+      if (picked === 'en' || picked === 'hinglish' || picked === 'hi') setExplicitLang(picked);
+    } catch { /* storage unavailable */ }
+    try {
+      const raw = localStorage.getItem('onboarding_state');
+      const saved = raw ? JSON.parse(raw) : null;
+      if (saved && (saved.language === 'en' || saved.language === 'hinglish' || saved.language === 'hi')) {
+        setOnboardingLang(saved.language);
+      }
+    } catch { /* no onboarding record */ }
+  }, []);
 
   // ─── Refs ────────────────────────────────────────────────
 
@@ -413,6 +500,7 @@ export default function TutorPage({
   // ─── Stores ─────────────────────────────────────────────
 
   const queryClient = useQueryClient();
+  const authUser = useAuthStore((s) => s.user);
   const authUserId = useAuthStore((s) => s.user?.id);
   const studentId = useStudentStore((s) => s.profile.id);
   const studentName = useStudentStore((s) => s.profile.name);
@@ -425,10 +513,39 @@ export default function TutorPage({
   // Never serialize undefined into wire payloads — anonymous visitors get a
   // stable guest id so WS params and message bodies stay well-formed.
   const wireUserId = effectiveUserId ?? 'guest';
-  const effectiveLang = storeLang ?? language;
+  // (lang resolution moved below — explicit pick → profile → onboarding → EN)
   const effectiveSubject = subjectProp ?? storeSubject ?? 'Mathematics';
+  // C10 audit [STUDENT-C10][P3 TUTOR-CLASS-MISMATCH]: the tutor used to
+  // fall back to a hardcoded class 11 — a class-10 child saw "Class 11"
+  // and the tutor anchored to off-grade content. Bind to the signed-in
+  // student's real class (onboarding profile → auth user → /api/auth/me);
+  // when unknown, no class chip is shown and no class is claimed.
+  const [meClass, setMeClass] = useState<number | null>(null);
+  const authUserClass = Number(authUser?.class_level ?? authUser?.classLevel) || 0;
   const effectiveClassLevel =
-    classLevelProp ?? (storeClassLevel && storeClassLevel > 0 ? storeClassLevel : 11);
+    classLevelProp ??
+    (storeClassLevel && storeClassLevel > 0 ? storeClassLevel : null) ??
+    (authUserClass > 0 ? authUserClass : null) ??
+    meClass;
+
+  useEffect(() => {
+    if (effectiveClassLevel) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const apiBase = process.env.NEXT_PUBLIC_API_URL ?? '';
+        const token = typeof window !== 'undefined' ? getAuthToken() : null;
+        const res = await fetch(`${apiBase}/api/auth/me`, {
+          headers: token ? { Authorization: `Bearer ${token}` } : {},
+        });
+        if (!res.ok) return;
+        const me = await res.json();
+        const cls = Number(me?.class_level) || 0;
+        if (!cancelled && cls > 0) setMeClass(cls);
+      } catch { /* class stays unknown — the header omits it honestly */ }
+    })();
+    return () => { cancelled = true; };
+  }, [effectiveClassLevel]);
 
   // ─── Derived ─────────────────────────────────────────────
 
@@ -438,7 +555,9 @@ export default function TutorPage({
   );
   const showEscalation = studentMessageCount >= EXCHANGES_BEFORE_ESCALATION * 2;
   const showQuickActions = studentMessageCount >= 2 && !isLoading;
-  const lang = effectiveLang;
+  const lang: Language =
+    explicitLang ??
+    (storeLang && storeLang !== 'hinglish' ? storeLang : onboardingLang ?? 'en');
 
   // ─── Language menu click-outside ─────────────────────────
 
@@ -623,7 +742,7 @@ export default function TutorPage({
       node_id?: string;
       mastery: number;
       subject: string;
-      class_level: number;
+      class_level?: number;   // omitted when the class is unknown — never a wrong class
       language_pref: Language;
     }): Promise<TutorApiResponse> => {
       const res = await fetch(`${API_URL}/api/tutor/ask`, {
@@ -669,7 +788,7 @@ export default function TutorPage({
             node_id: nodeId,
             context: lastTutor.content,
             hint_level: (lastTutor.hintLevel ?? 0) + 1,
-            mastery,
+            mastery: mastery ?? 0, // no answered-question evidence yet → zero
             language_pref: lang,
           }),
           signal: AbortSignal.timeout(15000),
@@ -783,9 +902,10 @@ export default function TutorPage({
       user_query: text,
       user_id: wireUserId,
       node_id: nodeId,
-      mastery,
+      mastery: mastery ?? 0, // no answered-question evidence yet → zero
       subject: effectiveSubject,
-      class_level: effectiveClassLevel,
+      // class omitted entirely when unknown — never claim a wrong class
+      ...(effectiveClassLevel ? { class_level: effectiveClassLevel } : {}),
       language_pref: lang,
     };
 
@@ -801,7 +921,7 @@ export default function TutorPage({
             query: text,
             user_id: wireUserId,
             node_id: nodeId,
-            mastery,
+            mastery: mastery ?? 0, // no answered-question evidence yet → zero
           }),
         );
         return; // onmessage will handle the response
@@ -906,11 +1026,11 @@ export default function TutorPage({
 
   const suggestions = useMemo(() => {
     if (showQuickActions) return SUGGESTION_KEYS.quickActions;
-    if (messages.length === 0) return SUGGESTION_KEYS.initial;
+    if (messages.length === 0) return initialChipKeys(effectiveSubject, effectiveClassLevel);
     if (showEscalation) return SUGGESTION_KEYS.escalate;
     if (studentMessageCount <= 2) return SUGGESTION_KEYS.struggling;
     return SUGGESTION_KEYS.progressing;
-  }, [messages.length, studentMessageCount, showEscalation, showQuickActions]);
+  }, [messages.length, studentMessageCount, showEscalation, showQuickActions, effectiveSubject, effectiveClassLevel]);
 
   // ─── Navigation ──────────────────────────────────────────
 
@@ -930,6 +1050,9 @@ export default function TutorPage({
     setLanguage((prev) => {
       const next: Language = prev === 'en' ? 'hinglish' : prev === 'hinglish' ? 'hi' : 'en';
       useStudentStore.getState().setLanguagePref(next);
+      // explicit in-chat choice — wins over profile/onboarding defaults
+      setExplicitLang(next);
+      try { localStorage.setItem('atlas.tutor.lang', next); } catch { /* storage unavailable */ }
       return next;
     });
   }, []);
@@ -946,7 +1069,7 @@ export default function TutorPage({
         : 'greeting_evening';
 
   const renderMathContent = (text: string) => {
-    const html = renderMath(text);
+    const html = renderMathSafe(text);
     return <span dangerouslySetInnerHTML={{ __html: html }} />;
   };
 
@@ -1011,28 +1134,35 @@ export default function TutorPage({
               </>
             )}
           </p>
-          {/* Subject · Class · Mastery bar */}
+          {/* Subject · Class · Mastery (only once there is real mastery
+              data — no fabricated % before the child answers anything) */}
           <div className="flex items-center gap-2 mt-1">
             <span className="text-[10px] font-medium text-amber-600 dark:text-amber-400" suppressHydrationWarning>
-              {subjectName(effectiveSubject)} · Class {effectiveClassLevel}
+              {effectiveClassLevel
+                ? `${subjectName(effectiveSubject)} · Class ${effectiveClassLevel}`
+                : subjectName(effectiveSubject)}
             </span>
-            <span className="text-[10px] text-gray-400 dark:text-gray-500" suppressHydrationWarning>
-              · {t(lang, 'mastery')}: {Math.round(mastery * 100)}%
-            </span>
-            <div
-              className="flex-1 h-1.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden"
-              role="progressbar"
-              aria-valuenow={Math.round(mastery * 100)}
-              aria-valuemin={0}
-              aria-valuemax={100}
-              aria-label={`${t(lang, 'mastery')} ${Math.round(mastery * 100)}%`}
-              title={`${masteryLabel(mastery, lang)}: ${Math.round(mastery * 100)}%`}
-            >
-              <div
-                className={`h-full rounded-full transition-all duration-500 ${masteryColor(mastery)}`}
-                style={{ width: `${Math.round(mastery * 100)}%` }}
-              />
-            </div>
+            {mastery != null && (
+              <>
+                <span className="text-[10px] text-gray-400 dark:text-gray-500" suppressHydrationWarning>
+                  · {t(lang, 'mastery')}: {Math.round(mastery * 100)}%
+                </span>
+                <div
+                  className="flex-1 h-1.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden"
+                  role="progressbar"
+                  aria-valuenow={Math.round(mastery * 100)}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-label={`${t(lang, 'mastery')} ${Math.round(mastery * 100)}%`}
+                  title={`${masteryLabel(mastery, lang)}: ${Math.round(mastery * 100)}%`}
+                >
+                  <div
+                    className={`h-full rounded-full transition-all duration-500 ${masteryColor(mastery)}`}
+                    style={{ width: `${Math.round(mastery * 100)}%` }}
+                  />
+                </div>
+              </>
+            )}
           </div>
         </div>
 
@@ -1208,7 +1338,7 @@ export default function TutorPage({
                           .replace(/</g, '&lt;')
                           .replace(/>/g, '&gt;')
                           .replace(/\n/g, '<br/>')
-                      : renderMath(msg.content),
+                      : renderMathSafe(msg.content),
                   }}
                 />
 
@@ -1290,7 +1420,7 @@ export default function TutorPage({
                               <p
                                 className="text-xs text-amber-800 dark:text-amber-300 leading-relaxed"
                                 dangerouslySetInnerHTML={{
-                                  __html: renderMath(msg.hint ?? ''),
+                                  __html: renderMathSafe(msg.hint ?? ''),
                                 }}
                               />
                             </div>
@@ -1514,7 +1644,7 @@ export default function TutorPage({
       {/* ═══════════════════════════════════════════════════
           SUGGESTION CHIPS
       ═══════════════════════════════════════════════════ */}
-      {messages.length > 0 && !isLoading && (
+      {!isLoading && (
         <div className="flex-shrink-0 px-4 pb-2" role="region" aria-label="Quick suggestions">
           <div className="flex gap-2 overflow-x-auto pb-1 -mx-4 px-4 scrollbar-hide">
             {suggestions.map((key) => {

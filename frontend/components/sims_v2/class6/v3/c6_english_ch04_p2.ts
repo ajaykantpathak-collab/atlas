@@ -8,7 +8,7 @@ export const c6_english_ch04_p2: SimDef = {
     subtitle: 'This node covers general vocabulary acquisition strategies using context clues within the.',
     classLevel: 6, subject: 'english', topic: 'The Tunnel · Part 2/2',
     chapters: ['c6_english_ch04'],
-    nodeIds: ['c6_english_u4_037', 'c6_english_u4_031', 'c6_english_u4_032', 'c6_english_u4_033'],
+    nodeIds: ['c6_english_u4_037', 'c6_english_u4_038', 'c6_english_u4_039', 'c6_english_u4_040'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever been reading a story and hit a word you didn\'t know, like \'phenomenon\', but you kept reading.', goal: 'Master every idea in this chapter.' },

@@ -1484,7 +1484,7 @@ const MONUMENT_TIERS: Record<string, MonumentTier> = {
   bronze: { name: 'Bronze', color: '#FB923C', height: 40, icon: '◆' },
   silver: { name: 'Silver', color: '#A09DB8', height: 60, icon: '◇' },
   gold:   { name: 'Gold',   color: '#F5A623', height: 80, icon: '★' },
-  prism:  { name: 'Prism',  color: '#A78BFA', height: 100, icon: '✦' },
+  prism:  { name: 'Atlas',  color: '#A78BFA', height: 100, icon: '✦' },
 };
 
 interface AtlasMasteryMonumentProps {

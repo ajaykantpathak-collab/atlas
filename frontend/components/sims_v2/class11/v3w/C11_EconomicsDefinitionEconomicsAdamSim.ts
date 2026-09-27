@@ -209,7 +209,7 @@ export const w_c11_economicsdefinitioneconomicsadamsim: SimDef = {
           hint: 'If stuck, revisit c11_eco_cbse_06_002 (Labour Force definition) and practice identifying.',
           misconception: 'Students believe "Unemployment Rate" is a single, unambiguous number for India.',
           parts: [
-                { id: 'a', prompt: 'According to the NSO (PLFS), a person who worked for only 1 hour on at least one day during the reference week of 7 days is classified as which of the.', answer: 'Correct answer: (b) Employed',
+                { id: 'a', prompt: 'According to the NSO (PLFS), a person who worked for only 1 hour on at least one day during the reference week of 7 days is classified as which of the.', answer: '(b) Employed',
                   options: ['Correct answer: (b) Employed', 'full-time work', 'Unemployment Rate'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "Unemployment Rate" is a single, unambiguous number for India.' },

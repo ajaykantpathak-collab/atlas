@@ -111,7 +111,7 @@ export const w_c10_economicsdeterminantsdemandnonpricesim: SimDef = {
                   options: ['Step 1: Identify initial demand deposits – Riya: ₹50,000', 'Money in my bank account is just a record', 'Bank deposits are not money, they are just claims'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think **"Money in my bank account is just a record; real money is only cash."** They write in exams: "Bank deposits are not.' },
-                { id: 'b', prompt: 'Compare the following two statements and identify which is correct and why: Statement A: "Currency notes are money because they are made of special paper and.', answer: 'Correct answer: Statement B is correct',
+                { id: 'b', prompt: 'Compare the following two statements and identify which is correct and why: Statement A: "Currency notes are money because they are made of special paper and.', answer: 'Statement B is correct',
                   options: ['Correct answer: Statement B is correct', 'Money in my bank account is just a record', 'Bank deposits are not money, they are just claims'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think **"Money in my bank account is just a record; real money is only cash."** They write in exams: "Bank deposits are not.' }
@@ -126,7 +126,7 @@ export const w_c10_economicsdeterminantsdemandnonpricesim: SimDef = {
                   options: ['Expected flowchart (text description): 1', 'Money in my bank account is just a record', 'Bank deposits are not money, they are just claims', 'Only currency issued by RBI is money'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think **"Money in my bank account is just a record; real money is only cash."** They write in exams: "Bank deposits are not.' },
-                { id: 'b', prompt: 'Compare the following two statements and identify which is correct and why: Statement A: "Currency notes are money because they are made of special paper and.', answer: 'Correct answer: Statement B is correct',
+                { id: 'b', prompt: 'Compare the following two statements and identify which is correct and why: Statement A: "Currency notes are money because they are made of special paper and.', answer: 'Statement B is correct',
                   options: ['Correct answer: Statement B is correct', 'Money in my bank account is just a record', 'Bank deposits are not money, they are just claims', 'Only currency issued by RBI is money'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think **"Money in my bank account is just a record; real money is only cash."** They write in exams: "Bank deposits are not.' }

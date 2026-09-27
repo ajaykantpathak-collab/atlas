@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch16_p1: SimDef = {
     id: 'v3_c12_hin_a_ch16_p1',
-    title: 'gtkjh izlkn f}osnh · Part 1/3',
+    title: 'दूसरा देवदास · Part 1/3',
     subtitle: 'The elephant saw everything — from inside the chain',
-    classLevel: 12, subject: 'hin_a', topic: 'gtkjh izlkn f}osnh · Part 1/3',
+    classLevel: 12, subject: 'hin_a', topic: 'दूसरा देवदास · Part 1/3',
     chapters: ['c12_hin_a_ch16'],
     nodeIds: ['c12_hin_a_cbse_16_001', 'c12_hin_a_cbse_16_002', 'c12_hin_a_cbse_16_003', 'c12_hin_a_cbse_16_004', 'c12_hin_a_cbse_16_005', 'c12_hin_a_cbse_16_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,47 +19,15 @@ export const c12_hin_a_ch16_p1: SimDef = {
         hook: 'This is \'navlekhan\' — new writing — where the elephant isn\'t spectacle but witness, granted agency while humans look away. The Sanskrit-scholar author engineers words for emotional precision: the craft is the empathy.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory literary skill that equips students to situate a prose text within its author\'s life, historical period, socio-cultural milieu, and literary.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'दूसरा देवदास — पृष्ठभूमि और रचनाकार परिचय', text: '"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र चट्टोपाध्याय के क्लासिक उपन्यास "देवदास" का समकालीन पुनर्पाठ (re-reading) करती है, जहाँ पारंपरिक देवदास की आत्मघाती.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_16_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Enter the travelling circus as an anatomy of captivity: weigh the elephant\'s chain against the girl\'s silence, and test how experimental form carries feeling without breaking it.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_16_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a documentary about a travelling circus in 1970s India — you would first want to know who made it, why circuses were culturally.',
-            decisions: [{ prompt: 'Who is the author of "नवलेखन संकलन" and what is her primary literary recognition?', options: [
-                { text: 'The author is ईरक कफ़ी (born 1940), a Sanskrit scholar and former director of the Central', outcome: 'The author is ईरक कफ़ी (born 1940), a Sanskrit scholar and former director of the Central Hindi.' },
-                { text: 'a different author or confusing her with a poet', outcome: 'Not quite — Students treat the "Before You Read" box as optional reading to be skimmed, believing the story.', reveals: 'students-treat-the-before-you' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_16_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are standing at the village well at dusk: you hear the creak of the pulley, smell damp earth, see the banyan tree\'s shadow stretching.',
-            decisions: [{ prompt: 'What are the three components of setting in a narrative, and which component is most prominently established in the opening paragraph.', options: [
-                { text: 'The three components are physical place, time (historical period, season, time of day),', outcome: 'The three components are physical place, time (historical period, season, time of day), and social.' },
-                { text: 'village', outcome: 'Not quite — Students often treat setting as a static backdrop — "the story happens in a village" — and.', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_16_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you meet someone who judges a person by their job rather than their character. That\'s the world Lahko lives in.',
-            decisions: [{ prompt: 'Who is the protagonist of "Navlik Nasonkal" and what is his primary occupation?', options: [
-                { text: 'The protagonist is Lahko (लहको), a young sweeper (xaxkth) who works at the railway station', outcome: 'The protagonist is Lahko (लहको), a young sweeper (xaxkth) who works at the railway station.' },
-                { text: 'Yashoda or Ukha', outcome: 'Not quite — Students often think character analysis means listing adjectives (brave, kind, poor) without.', reveals: 'character-analysis-means-listing-adjectives' },
-                { text: 'character analysis means listing adjectives (brave, kind, poor) without evidence', outcome: 'Not quite — Students often think character analysis means listing adjectives (brave, kind, poor) without.', reveals: 'character-analysis-means-listing-adjectives' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_16_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are casting a play: the lead actor gets the spotlight, but the supporting actors make the lead\'s performance believable.',
-            decisions: [{ prompt: 'List the four most significant supporting characters in "nwljk nsonkl" and state one defining trait for each, using a single phrase from.', options: [
-                { text: 'The four key supporting characters are: (1) yM+dh (daughter)', outcome: 'The four key supporting characters are: (1) yM+dh (daughter) — trait: pragmatic ruthlessness.' },
-                { text: 'character trait', outcome: 'Not quite — Students treat supporting characters as a checklist: "yM+dh is the daughter, iqtkjh is the doctor.".', reveals: 'students-treat-supporting-characters-as' },
-                { text: 'plot action', outcome: 'Not quite — Students treat supporting characters as a checklist: "yM+dh is the daughter, iqtkjh is the doctor.".', reveals: 'students-treat-supporting-characters-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_16_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall and the question reads: "‘नवलेखन संकलन’ का मुख्य विषय क्या है?',
-            decisions: [{ prompt: 'What is the difference between a "topic" and a "theme" in literary analysis? Give one example from any Class 12 Hindi text.', options: [
-                { text: 'A topic is a subject or noun phrase (e.g., "caste," "loneliness," "urban-rural divide")', outcome: 'A topic is a subject or noun phrase (e.g., "caste," "loneliness," "urban-rural divide").' },
-                { text: 'village life', outcome: 'Not quite — **Misconception:** "The theme is \'caste discrimination is bad\' or \'village people are good.\'" **Why.', reveals: 'misconception-the-theme-is-caste' }
-            ] }] } },
+        labels: ['दूसरा देवदास — पृष्ठभूमि', 'दूसरा देवदास — कथानक', 'दूसरा देवदास — पाठ्य-परिवेश', 'दूसरा देवदास — पात्र-चित्रण', 'दूसरा देवदास — मुख्य'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_16_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your uncle visits his widowed mother after years, hands over a cheque, and is back at the station by evening. She tells the family simply: \'I will stay here.\' Relatives declare the matter \'resolved — she\'s decided.\'',
             decisions: [{ prompt: 'How does the story\'s ending read her \'मैं यहीं रहूँगी\'?', options: [
@@ -69,96 +37,81 @@ export const c12_hin_a_ch16_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_16_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read the circus as a freedom allegory — and see how one chained animal can indict every human arrangement around it.',
-            decisions: [{ prompt: 'What comes next? gtkjh izlkn f}osnh · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — gtkjh izlkn f}osnh · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? दूसरा देवदास · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — दूसरा देवदास · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_16_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory literary skill that.',
-          hint: 'If stuck, revisit the "Before You Read" section of any Class 11 Antra chapter (e.g.',
-          misconception: 'Students treat the "Before You Read" box as optional reading to be skimmed, believing the story text alone carries all.',
+          question: '"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र.',
+          hint: 'यदि शरतचंद्र का देवदास याद न हो — तुरंत "आवारा मसीहा" (c11_hin_al_cbse_02_001 से 02_006).',
+          misconception: '**सबसे घातक भ्रम:** छात्र "दूसरा देवदास" को शरतचंद्र के "देवदास" का **सीक्वल (अनुक्रम)** या **रीमेक (नया संस्करण)**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" is a preparatory literary skill that equips',
-                  options: ['"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the organized sequence of events (exposition,', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves examining the central character\'s traits,'],
-                  hint: 'If stuck, revisit the "Before You Read" section of any Class 11 Antra chapter (e.g.',
-                  misconception: 'Students treat the "Before You Read" box as optional reading to be skimmed, believing the story text alone carries all examinable content.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र',
+                  options: ['"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र', 'कथानक (Plot) घटनाओं का तार्किक-कारणात्मक क्रम है जो कहानी बनाता है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, भाषण,'],
+                  hint: 'यदि शरतचंद्र का देवदास याद न हो — तुरंत "आवारा मसीहा" (c11_hin_al_cbse_02_001 से 02_006) के.',
+                  misconception: '**सबसे घातक भ्रम:** छात्र "दूसरा देवदास" को शरतचंद्र के "देवदास" का **सीक्वल (अनुक्रम)** या **रीमेक (नया संस्करण)** समझते हैं। वे सोचते.' }
           ],
-            remediations: { 'students-treat-the-before-you': { steps: ['If a student cannot articulate the author\'s profile or the circus metaphor after reading the blurb, assign this 3-step.', '(2) Watch a 5-minute documentary clip on Indian travelling circuses (1970s-80s) to visualise the setting\'s sensory.', '(3) Write a 50-word prediction paragraph using the blurb\'s keywords (कैद, संवेदना, नवलेखन) — then compare with the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1 — अवधारणा स्पष्ट करो:** छात्र से कहो: "दो कागज लो। एक पर लिखो: \'शरतचंद्र का देवदास — 1917, बांग्ला, सामंती.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_16_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure refers to the organized sequence of events.',
-          hint: 'If stuck, revisit c11_hin_ar_cbse_16_002\'s worked example on "नमक का दारोगा" — identify.',
-          misconception: 'Students treat "plot" as a synonym for "summary" — they list events in order (first this happened, then that) without.',
+          question: 'कथानक (Plot) घटनाओं का तार्किक-कारणात्मक क्रम है जो कहानी बनाता है, जबकि.',
+          hint: 'अगर फ्लैशबैक या पाँच सोपान स्पष्ट न हों, तो कक्षा ११ के नोड c11_hin_a_cbse_01_002 के.',
+          misconception: 'छात्र मानते हैं कि \'कथानक\' और \'आख्यान-संरचना\' पर्यायवाची हैं। वे पाठ में घटनाओं को केवल क्रमवार लिख देते हैं (पहले यह.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and Narrative Structure refers to the organized sequence of events (exposition,',
-                  options: ['Plot and Narrative Structure refers to the organized sequence of events (exposition,', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves examining the central character\'s traits,'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_16_002\'s worked example on "नमक का दारोगा" — identify its.',
-                  misconception: 'Students treat "plot" as a synonym for "summary" — they list events in order (first this happened, then that) without labeling *structural.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) घटनाओं का तार्किक-कारणात्मक क्रम है जो कहानी बनाता है, जबकि आख्यान-संरचना',
+                  options: ['कथानक (Plot) घटनाओं का तार्किक-कारणात्मक क्रम है जो कहानी बनाता है, जबकि आख्यान-संरचना', '"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, भाषण,'],
+                  hint: 'अगर फ्लैशबैक या पाँच सोपान स्पष्ट न हों, तो कक्षा ११ के नोड c11_hin_a_cbse_01_002 के \'कथानक और.',
+                  misconception: 'छात्र मानते हैं कि \'कथानक\' और \'आख्यान-संरचना\' पर्यायवाची हैं। वे पाठ में घटनाओं को केवल क्रमवार लिख देते हैं (पहले यह हुआ, फिर वह हुआ) और.' }
           ],
-            remediations: { 'students-treat-plot-as-a': { steps: ['Give the student a blank Freytag’s pyramid diagram.', 'Ask them to place *only five* key scenes from the story on it (one per stage).', 'For each placement, require a one-sentence justification using the phrase "This is the ___ because ___." 4.', 'Then have them highlight every paragraph that shifts time (past vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_16_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students treat "plot" as a synonym for "summary" — they list events in order (first this happened, then that) without.',
-          parts: [
-                { id: 'a', prompt: 'The story ends with यम्धा saying "मैं यहीं रहूँगी" (I will stay here). Evaluate whether this constitutes a *resolution* or an *open ending*.', answer: 'It is an **open ending**',
-                  options: ['It is an **open ending**', 'resolution'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_16_002\'s worked example on "नमक का दारोगा" — identify its.',
-                  misconception: 'Students treat "plot" as a synonym for "summary" — they list events in order (first this happened, then that) without labeling *structural.' }
-          ],
-            remediations: { 'students-treat-plot-as-a': { steps: ['Give the student a blank Freytag’s pyramid diagram.', 'Ask them to place *only five* key scenes from the story on it (one per stage).', 'For each placement, require a one-sentence justification using the phrase "This is the ___ because ___." 4.', 'Then have them highlight every paragraph that shifts time (past vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण १: छात्र से कहो — \'पाठ की १० प्रमुख घटनाएँ कागज़ पर लिखो। अब उन्हें दो कॉलम में बाँटो: (अ) काल-क्रम (Real Time) और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_16_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
-          hint: 'If stuck, revisit the "Setting and Atmosphere" node from Class 11.',
-          misconception: 'Students often treat setting as a static backdrop — "the story happens in a village" — and atmosphere as a synonym for.',
+          question: 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक.',
+          hint: 'यदि परिवेश के स्तरों में भ्रम हो तो कक्षा 11 के नोड c11_hin_a_cbse_01_003 (पाठ्य-परिवेश.',
+          misconception: 'छात्र प्रायः \'पाठ्य-परिवेश\' को केवल \'जहां कहानी घटित होती है\' (स्थान/समय) तक सीमित कर देते हैं और \'वातावरण\' को.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the time, place, and social environment in',
-                  options: ['Setting refers to the time, place, and social environment in', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the organized sequence of events (exposition,', 'Character analysis of the protagonist involves examining the central character\'s traits,'],
-                  hint: 'If stuck, revisit the "Setting and Atmosphere" node from Class 11 (c11_hin_ar_cbse_16_003) and.',
-                  misconception: 'Students often treat setting as a static backdrop — "the story happens in a village" — and atmosphere as a synonym for "weather.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,',
+                  options: ['पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,', '"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र', 'कथानक (Plot) घटनाओं का तार्किक-कारणात्मक क्रम है जो कहानी बनाता है, जबकि आख्यान-संरचना', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, भाषण,'],
+                  hint: 'यदि परिवेश के स्तरों में भ्रम हो तो कक्षा 11 के नोड c11_hin_a_cbse_01_003 (पाठ्य-परिवेश और वातावरण).',
+                  misconception: 'छात्र प्रायः \'पाठ्य-परिवेश\' को केवल \'जहां कहानी घटित होती है\' (स्थान/समय) तक सीमित कर देते हैं और \'वातावरण\' को \'मौसम/माहौल\' मान लेते हैं।.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Re-read the first two pages of the story and underline every noun that names a physical object (well, tree, bell, dust.', 'For each object, write the sensory adjective attached (creaking, damp, ancient, fine, cold).', 'Group objects by sense (sight, sound, smell, touch).', 'Write one sentence per group: "The auditory details (creak, bell, flute) build a rhythm of routine." 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र को कहानी के 5-6 मुख्य दृश्य पुनः पढ़वाएं और प्रत्येक में केवल भौतिक विवरण (रंग, ध्वनि, गंध, स्पर्श) पीले.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_16_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
-          hint: 'If stuck, re-read the "Before You Read" (node 001) for author\'s intent and the "Plot".',
-          misconception: 'Students often think character analysis means listing adjectives (brave, kind, poor) without evidence.',
+          question: 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार.',
+          hint: 'यदि पात्र के आंतरिक मनोवैज्ञानिक विश्लेषण में कठिनाई हो, तो कक्षा 11 के पात्र-चित्रण के.',
+          misconception: 'छात्र अक्सर देवदास के पात्र को केवल उनके बाहरी व्यवहार (जैसे शराब पीना या दुखी दिखना) के आधार पर मूल्यांकन करते हैं, और.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why Lahko considers sweeping not just a job but his life (थोडक व जीवन).', answer: 'Lahko sees sweeping as his identity and source of dignity',
-                  options: ['Lahko sees sweeping as his identity and source of dignity', 'character analysis means listing adjectives (brave, kind, poor) without evidence'],
-                  hint: 'If stuck, re-read the "Before You Read" (node 001) for author\'s intent and the "Plot" (node 002).',
-                  misconception: 'Students often think character analysis means listing adjectives (brave, kind, poor) without evidence.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, भाषण,',
+                  options: ['पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, भाषण,', '"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र', 'कथानक (Plot) घटनाओं का तार्किक-कारणात्मक क्रम है जो कहानी बनाता है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि पात्र के आंतरिक मनोवैज्ञानिक विश्लेषण में कठिनाई हो, तो कक्षा 11 के पात्र-चित्रण के आधारभूत.',
+                  misconception: 'छात्र अक्सर देवदास के पात्र को केवल उनके बाहरी व्यवहार (जैसे शराब पीना या दुखी दिखना) के आधार पर मूल्यांकन करते हैं, और मानते हैं कि उनका.' }
           ],
-            remediations: { 'character-analysis-means-listing-adjectives': { steps: ['If a student cannot cite evidence, have them re-read the text with a highlighter, marking every action/dialogue.', 'Then, for each highlighted part, ask: "What does this show about him?" Guide them to group similar markings into traits.', 'Finally, have them write one PEEL paragraph per trait.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र देवदास के पात्र को केवल उनके बाहरी व्यवहार से समझने की गलती कर रहा है, तो पहले उसे देवदास के एक विशिष्ट दृश्य.', 'उनके चुप रहने का क्या कारण हो सकता है?" फिर उसे बताइए कि उनके चुप रहने और शराब पीने का अर्थ उनके अंदर के संघर्ष (जैसे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_16_005', difficulty: 'standard',
-          question: 'Supporting characters are fictional figures who interact with the protagonist.',
-          hint: 'If unable to separate plot from function, review the "Character Function Checklist" from.',
-          misconception: 'Students treat supporting characters as a checklist: "yM+dh is the daughter, iqtkjh is the doctor." They describe.',
+          question: 'सहायक पात्र वे पात्र हैं जो नायक के समानांतर या उसके संपर्क में रहकर कथानक को.',
+          hint: 'यदि अटके तो c12_hin_a_cbse_16_003 (पाठ्य-परिवेश) पुनः पढ़ें — सामाजिक पृष्ठभूमि स्पष्ट.',
+          misconception: 'छात्र सहायक पात्रों को \'नायक की कहानी में सहायता करने वाले\' मानकर उनका स्वतंत्र अस्तित्व और सामाजिक प्रतीकात्मकता भूल.',
           parts: [
-                { id: 'a', prompt: 'List the four most significant supporting characters in "nwljk nsonkl" and state one defining trait for each, using a single phrase from the text as evidence.', answer: 'The four key supporting characters are: (1) yM+dh (daughter)',
-                  options: ['The four key supporting characters are: (1) yM+dh (daughter)', 'character trait', 'plot action'],
-                  hint: 'If unable to separate plot from function, review the "Character Function Checklist" from Class 11.',
-                  misconception: 'Students treat supporting characters as a checklist: "yM+dh is the daughter, iqtkjh is the doctor." They describe *what* the character does.' },
-                { id: 'b', prompt: 'Apply the concept of "foil" to iqtkjh and yM+dh: both abandon xaxk th, but their stated reasons differ.', answer: 'Step 1: Identify the shared outcome',
-                  options: ['Step 1: Identify the shared outcome', 'both are selfish', 'character trait', 'plot action'],
-                  hint: 'If unable to separate plot from function, review the "Character Function Checklist" from Class 11.',
-                  misconception: 'Students treat supporting characters as a checklist: "yM+dh is the daughter, iqtkjh is the doctor." They describe *what* the character does.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे पात्र हैं जो नायक के समानांतर या उसके संपर्क में रहकर कथानक को गति देते',
+                  options: ['सहायक पात्र वे पात्र हैं जो नायक के समानांतर या उसके संपर्क में रहकर कथानक को गति देते', '"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र', 'कथानक (Plot) घटनाओं का तार्किक-कारणात्मक क्रम है जो कहानी बनाता है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि अटके तो c12_hin_a_cbse_16_003 (पाठ्य-परिवेश) पुनः पढ़ें — सामाजिक पृष्ठभूमि स्पष्ट होते ही.',
+                  misconception: 'छात्र सहायक पात्रों को \'नायक की कहानी में सहायता करने वाले\' मानकर उनका स्वतंत्र अस्तित्व और सामाजिक प्रतीकात्मकता भूल जाते हैं। उदाहरण.' }
           ],
-            remediations: { 'students-treat-supporting-characters-as': { steps: ['Re-read only the scenes where yM+dh and iqtkjh speak to xaxk th (pages 119-122).', 'Create a two-column table: Column A = "Character\'s exact words/actions," Column B = "What this *reveals* about their.', 'Write one PEEL paragraph for yM+dh using the table.', 'If still stuck, revisit Class 11 node c11_hin_ar_cbse_16_005 (Character Analysis: Supporting Characters) for the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: पाठ से प्रत्येक सहायक पात्र के 3-3 संवाद/कार्य निकालें जो उनकी स्वतंत्र मानसिकता दर्शाते हों (न कि नायक के प्रति.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_16_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea — the.',
-          hint: 'If stuck on thematic synthesis, revisit the **Thematic Statement Formula** above and fill.',
-          misconception: '**Misconception:** "The theme is \'caste discrimination is bad\' or \'village people are good.\'" **Why it\'s wrong:** This.',
+          question: 'दूसरा देवदास का मुख्य विषय सामाजिक रूढ़ियों, विशेषकर जाति और वर्ग भेदभाव का.',
+          hint: 'यदि फंसे हुए महसूस हो, तो कक्षा 11 के नोड c11_hin_a_cbse_01_006 (मुख्य विषय और संदेश) की.',
+          misconception: 'छात्र अक्सर दूसरे देवदास के मुख्य विषय को केवल दासु और परवंती की असफल प्रेम कहानी तक सीमित रखते हैं और लिखते हैं कि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of a literary work is its central, unifying idea',
-                  options: ['The primary theme of a literary work is its central, unifying idea', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and Narrative Structure refers to the organized sequence of events (exposition,', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck on thematic synthesis, revisit the **Thematic Statement Formula** above and fill each.',
-                  misconception: '**Misconception:** "The theme is \'caste discrimination is bad\' or \'village people are good.\'" **Why it\'s wrong:** This reduces a complex.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'दूसरा देवदास का मुख्य विषय सामाजिक रूढ़ियों, विशेषकर जाति और वर्ग भेदभाव का आलोचनात्मक',
+                  options: ['दूसरा देवदास का मुख्य विषय सामाजिक रूढ़ियों, विशेषकर जाति और वर्ग भेदभाव का आलोचनात्मक', '"दूसरा देवदास" मन्नू भंडारी द्वारा लिखित एक आधुनिक हिंदी कहानी है जो शरतचंद्र', 'कथानक (Plot) घटनाओं का तार्किक-कारणात्मक क्रम है जो कहानी बनाता है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण का अर्थ है रचना में चित्रित वह समग्र भौतिक, सामाजिक, सांस्कृतिक,'],
+                  hint: 'यदि फंसे हुए महसूस हो, तो कक्षा 11 के नोड c11_hin_a_cbse_01_006 (मुख्य विषय और संदेश) की मुख्य विषय.',
+                  misconception: 'छात्र अक्सर दूसरे देवदास के मुख्य विषय को केवल दासु और परवंती की असफल प्रेम कहानी तक सीमित रखते हैं और लिखते हैं कि "कहानी का संदेश यह है.' }
           ],
-            remediations: { 'misconception-the-theme-is-caste': { steps: ['If a student cannot move from plot points to thematic statement: 1.', '**Return to node c12_hin_a_cbse_16_002 (Plot)** and map the 5 major turning points.', '**Return to node c12_hin_a_cbse_16_004 (Protagonist)** and list Lahko\'s 3 key internal shifts (with page references).', '**Do this micro-exercise:** Take one turning point (e.g., the shared meal).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'complete': { steps: ['छात्र को बताइए कि पहले वह कहानी के उन अंशों को दोबारा पढ़े जहाँ सामाजिक प्रतिक्रिया स्पष्ट हो — जैसे परवंती के परिवार.', 'इस तुलना के माध्यम से उसे समझायें कि मुख्य विषय व्यक्तिगत दुख नहीं, बल्कि सामाजिक बंधनों द्वारा व्यक्तिगत इच्छाओं का.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

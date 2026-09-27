@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch15_p1: SimDef = {
     id: 'v3_c12_hin_a_ch15_p1',
-    title: 'eerk dkfy;k · Part 1/3',
+    title: 'जहाँ कोई वापसी नहीं · Part 1/3',
     subtitle: 'The survey line was straight; the damage wasn\'t',
-    classLevel: 12, subject: 'hin_a', topic: 'eerk dkfy;k · Part 1/3',
+    classLevel: 12, subject: 'hin_a', topic: 'जहाँ कोई वापसी नहीं · Part 1/3',
     chapters: ['c12_hin_a_ch15'],
     nodeIds: ['c12_hin_a_cbse_15_001', 'c12_hin_a_cbse_15_002', 'c12_hin_a_cbse_15_003', 'c12_hin_a_cbse_15_004', 'c12_hin_a_cbse_15_005', 'c12_hin_a_cbse_15_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,53 +19,15 @@ export const c12_hin_a_ch15_p1: SimDef = {
         hook: 'This is reportage-fiction about a real wound — the Koel-Karo project threatening 120+ villages. Renu captures the pre-movement moment: resistance raw and leaderless, dismissed as backwardness before it could become an Andolan. The deepest irony — the democratic state itself ran the displacement.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory section that provides essential information about the author (Phanishwar Nath Renu), the historical-social milieu of the story "टेढ़ी लकीर".', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'जहाँ कोई वापसी नहीं — पृष्ठभूमि और रचनाकार परिचय', text: '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक जीवन, कहानी के लिखे जाने के ऐतिहासिक संदेश, सामाजिक परिस्थितियों और साहित्यिक उद्देश्यों का विस्तृत अध्ययन.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_15_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Walk the Chotanagpur hills before the dam: weigh whose \'development\' submerges whom, compare raw tribal refusal with organised protest, and decode the crooked line\'s triple meaning.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['जहाँ कोई वापसी नहीं'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a movie set in a remote tribal village where a massive dam is being built. You would want to know: Who made this film?',
-            decisions: [{ prompt: 'Who is the author of the story "टेढ़ी लकीर" and what is his most famous novel that established him as a pioneer of the "Anchalik".', options: [
-                { text: 'The author is Phanishwar Nath Renu (1929–2005)', outcome: 'The author is Phanishwar Nath Renu (1929–2005). His most famous novel is *Maila Anchal* (1954).' },
-                { text: 'social realism', outcome: 'Not quite — Students treat the "Before You Read" section as optional background reading — skimming the author.', reveals: 'students-treat-the-before-you' },
-                { text: 'regional realism', outcome: 'Not quite — Students treat the "Before You Read" section as optional background reading — skimming the author.', reveals: 'students-treat-the-before-you' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you see two photographs of your ancestral village: one taken fifty years ago showing green fields and a flowing river, and another taken today showing.',
-            decisions: [{ prompt: 'What is the name of the village where the story "tgk¡ dksbZ okilh ugha" is set?', options: [
-                { text: 'The village is called Veerpur (ve>j xk¡o)', outcome: 'The village is called Veerpur (ve>j xk¡o). A wrong answer (e.g., naming a different village from.' },
-                { text: 'a different village from another story', outcome: 'Not quite — Students often treat the story as a simple chronological report: "First the village was nice, then.', reveals: 'students-often-treat-the-story' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are a journalist visiting Uokhao village today — what would you see, smell, hear, and feel? That sensory immersion is exactly what Renu achieves.',
-            decisions: [{ prompt: 'What are the three key elements of \'setting\' in a narrative, and which specific element is most emphasized in the opening description.', options: [
-                { text: 'The three key elements are time (historical period), place (physical geography), and', outcome: 'The three key elements are time (historical period), place (physical geography), and social.' },
-                { text: 'social environment', outcome: 'Not quite — Students often treat setting as a static "background" and atmosphere as a single adjective ("sad,".', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are visiting a remote village for the first time and you see people living without basic healthcare, yet they possess a deep connection to nature.',
-            decisions: [{ prompt: 'What is the primary role of the first-person narrator in \'जहाँ कोई दवाखाना नहीं\'? State in one sentence.', options: [
-                { text: 'The narrator serves as a sensitive outsider who witnesses and documents the ecological', outcome: 'The narrator serves as a sensitive outsider who witnesses and documents the ecological and cultural.' },
-                { text: 'every thought is autobiographical fact', outcome: 'Not quite — Students often confuse the narrator with the author (Fuezy OekZ) and assume every thought.', reveals: 'students-often-confuse-the-narrator' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are watching a documentary about a dam project in the Himalayas.',
-            decisions: [{ prompt: 'Identify three supporting characters in "वहाँ कोई नहीं" and state one key trait for each.', options: [
-                { text: 'Correct answer: The old woman (बुढ़िया)', outcome: 'Correct answer: The old woman (बुढ़िया) — wise, keeper of oral history; the contractor (ठेकेदार).' },
-                { text: 'flashbacks', outcome: 'Not quite — Students often treat supporting characters as "minor" and therefore less important for exams.', reveals: 'students-often-treat-supporting-characters' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you see a news headline: *"Coal mine expansion displaces 500 tribal families in Jharkhand."* You feel uneasy — but can you explain *why* this isn\'t.',
-            decisions: [{ prompt: 'What is the primary theme of *tgk¡ dksbZ okilh ugha* in one precise sentence? (Do not list events — state the central idea.)', options: [
-                { text: '**Correct answer:** The primary theme is the irreversible destruction of tribal identity,', outcome: '**Correct answer:** The primary theme is the irreversible destruction of tribal identity, ecology.' },
-                { text: 'The story is about coal mining in Santhal Parganas', outcome: 'Not quite — **Misconception:** "The primary theme is \'industrialization is bad\' or \'tribals are exploited.\'".', reveals: 'misconception-the-primary-theme-is' },
-                { text: 'It shows tribals losing their land', outcome: 'Not quite — **Misconception:** "The primary theme is \'industrialization is bad\' or \'tribals are exploited.\'".', reveals: 'misconception-the-primary-theme-is' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_15_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Writing a piece on your hometown\'s transformation — the river now a drain, fields under a factory — your editor wants it chronological: \'village past, then highway, then industry, then today.\'',
             decisions: [{ prompt: 'What structure does Renu\'s \'जहाँ कोई वापसी नहीं\' use instead, and why?', options: [
@@ -75,8 +37,8 @@ export const c12_hin_a_ch15_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_15_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read a dam story as an invoice for the city\'s electricity — paid in forests, rivers and a people\'s memory.',
-            decisions: [{ prompt: 'What comes next? eerk dkfy;k · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — eerk dkfy;k · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? जहाँ कोई वापसी नहीं · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — जहाँ कोई वापसी नहीं · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -85,90 +47,71 @@ export const c12_hin_a_ch15_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory section that.',
-          hint: 'If stuck on the "development irony," revisit Class 11 Economics node on "Critical.',
-          misconception: 'Students treat the "Before You Read" section as optional background reading — skimming the author bio and skipping the.',
+          question: '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और.',
+          hint: 'यदि फंस रहे हों, तो Class 11 के किसी भी पाठ के \'पृष्ठभूमि और रचनाकार परिचय\' नोड (जैसे.',
+          misconception: 'छात्र अक्सर सोचते हैं कि \'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में केवल लेखक के जन्म-तिथि, प्रकाशन वर्ष.',
           parts: [
-                { id: 'a', prompt: 'Who is the author of the story "टेढ़ी लकीर" and what is his most famous novel that established him as a pioneer of the "Anchalik" (regional) novel in Hindi?', answer: 'The author is Phanishwar Nath Renu (1929–2005)',
-                  options: ['The author is Phanishwar Nath Renu (1929–2005)', 'social realism', 'regional realism', 'Premchand or identifying *Godaan* as Renu\'s work'],
-                  hint: 'If stuck on the "development irony," revisit Class 11 Economics node on "Critical Appraisal.',
-                  misconception: 'Students treat the "Before You Read" section as optional background reading — skimming the author bio and skipping the historical context.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक',
+                  options: ['\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, विचार,'],
+                  hint: 'यदि फंस रहे हों, तो Class 11 के किसी भी पाठ के \'पृष्ठभूमि और रचनाकार परिचय\' नोड (जैसे.',
+                  misconception: 'छात्र अक्सर सोचते हैं कि \'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में केवल लेखक के जन्म-तिथि, प्रकाशन वर्ष और कुछ सामान्य वाक्य.' }
           ],
-            remediations: { 'students-treat-the-before-you': { steps: ['**Immediate remediation:** Re-read the NCERT "Before You Read" page (pp.', '108-109) *aloud* — hearing the terms "कोयल-कारो परियोजना," "पाँचवीं अनुसूची," "आदिवासी विस्थापन" anchors them.', '**Targeted research (15 mins):** Search "Koel Karo project tribal resistance 1970s" — watch one 5-min video (e.g., from.', '**Re-diagnostic:** Answer Diagnostic Question 3 again *in writing*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र इस गलती कर रहा हो, तो उसे बताइए कि पहले वह Krishna Sobti के जीवन की एक विशिष्ट घटना (जैसे उनका पाकिस्तान से.', 'इस 3-चरणीय प्रक्रिया से वह समझ जाएगा कि पृष्ठभूमि कहानी के अर्थ को सक्रिय रूप से आकार देती है, न कि केवल इसे सजाती है।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_002', difficulty: 'standard',
-          question: 'Plot refers to the sequence of events in a story, while narrative structure.',
-          hint: 'Review the difference between linear and non-linear narrative structures using the Class.',
-          misconception: 'Students often treat the story as a simple chronological report: "First the village was nice, then a factory came, then.',
+          question: 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना.',
+          hint: 'यदि छात्र कथानक के चरणों को पहचानने में फंस जाए, तो उसे c11_hin_a_cbse_01_002 पर वापस.',
+          misconception: 'छात्र अक्सर कथानक को केवल कहानी में हुई घटनाओं की एक straight list मान लेते हैं, जैसे "पहले यह हुआ, फिर यह, फिर यह".',
           parts: [
-                { id: 'a', prompt: 'What is the name of the village where the story "tgk¡ dksbZ okilh ugha" is set?', answer: 'The village is called Veerpur (ve>j xk¡o)',
-                  options: ['The village is called Veerpur (ve>j xk¡o)', 'a different village from another story'],
-                  hint: 'Review the difference between linear and non-linear narrative structures using the Class 11 node.',
-                  misconception: 'Students often treat the story as a simple chronological report: "First the village was nice, then a factory came, then it got polluted.".' },
-                { id: 'b', prompt: 'In your own words, explain how the narrative moves between past and present in the story. Does it follow a straight timeline?', answer: 'The narrative does not follow a straight timeline',
-                  options: ['The narrative does not follow a straight timeline', 'it goes from past to present in order'],
-                  hint: 'Review the difference between linear and non-linear narrative structures using the Class 11 node.',
-                  misconception: 'Students often treat the story as a simple chronological report: "First the village was nice, then a factory came, then it got polluted.".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका',
+                  options: ['कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, विचार,'],
+                  hint: 'यदि छात्र कथानक के चरणों को पहचानने में फंस जाए, तो उसे c11_hin_a_cbse_01_002 पर वापस जाना चाहिए.',
+                  misconception: 'छात्र अक्सर कथानक को केवल कहानी में हुई घटनाओं की एक straight list मान लेते हैं, जैसे "पहले यह हुआ, फिर यह, फिर यह" — बिना यह समझे कि इन.' }
           ],
-            remediations: { 'students-often-treat-the-story': { steps: ['Have the student draw two timelines: one with events in *historical order* (village life → land acquisition → factory →.', 'Ask: "Why did the author put the factory\'s arrival *after* the description of the polluted river?" 3.', 'Guide them to see that the structure makes the reader feel the *result* before the *cause*, creating a sense.', 'Re-attempt Diagnostic Question 4 with this visual aid.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat the story as a simple chronological report: "First the village was nice, then a factory came, then.',
-          parts: [
-                { id: 'a', prompt: 'Is the reflective narrative structure effective in conveying the author\'s message about development? Justify your answer with two specific structural choices.', answer: 'Yes, it is effective',
-                  options: ['Yes, it is effective', 'yes, it\'s good'],
-                  hint: 'Review the difference between linear and non-linear narrative structures using the Class 11 node.',
-                  misconception: 'Students often treat the story as a simple chronological report: "First the village was nice, then a factory came, then it got polluted.".' }
-          ],
-            remediations: { 'students-often-treat-the-story': { steps: ['Have the student draw two timelines: one with events in *historical order* (village life → land acquisition → factory →.', 'Ask: "Why did the author put the factory\'s arrival *after* the description of the polluted river?" 3.', 'Guide them to see that the structure makes the reader feel the *result* before the *cause*, creating a sense.', 'Re-attempt Diagnostic Question 4 with this visual aid.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'straight-list': { steps: ['छात्र से कहिए कि वह कोई एक घटना चुन ले (जैसे किसी पात्र का रोना)। फिर पूछिए: "यदि इस घटना को कहानी से हटा दिया जाए, तो.', 'यदि हाँ, तो कैसे और क्यों?" इस तरह वह देखेगा कि घटनाएँ बस घटित होने वाली बातें नहीं हैं, बल्कि कहानी के अर्थ को आकार.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
-          hint: 'If stuck, revisit **c11_hin_ar_cbse_15_003** (Class 11 Setting & Atmosphere) and practice.',
-          misconception: 'Students often treat setting as a static "background" and atmosphere as a single adjective ("sad," "tense").',
+          question: 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई.',
+          hint: 'यदि फंस रहे हैं, तो कक्षा 11 के किसी भी पाठ में पाठ्य-परिवेश और वातावरण (जैसे.',
+          misconception: 'छात्र अक्सर यह मान लेते हैं कि पाठ्य-परिवेश केवल कहानी में आने वाले भौतिक विवरणों (जैसे घर का रंग, नदी का नाम, मौसम) को.',
           parts: [
-                { id: 'a', prompt: 'Analyze how the use of local dialect words (e.g., "ve>j", "isM+", "ewd lR;kxzg") contributes to the authenticity of the setting and the emotional texture.', answer: 'Dialect words ground the setting in **lived specificity**',
-                  options: ['Dialect words ground the setting in **lived specificity**', 'it makes it realistic'],
-                  hint: 'If stuck, revisit **c11_hin_ar_cbse_15_003** (Class 11 Setting & Atmosphere) and practice the.',
-                  misconception: 'Students often treat setting as a static "background" and atmosphere as a single adjective ("sad," "tense").' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी',
+                  options: ['पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, विचार,'],
+                  hint: 'यदि फंस रहे हैं, तो कक्षा 11 के किसी भी पाठ में पाठ्य-परिवेश और वातावरण (जैसे.',
+                  misconception: 'छात्र अक्सर यह मान लेते हैं कि पाठ्य-परिवेश केवल कहानी में आने वाले भौतिक विवरणों (जैसे घर का रंग, नदी का नाम, मौसम) को शामिल करता है, जबकि.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student re-read the first three paragraphs of the story with a highlighter: **yellow** for physical details.', 'Ask them to draw a two-column map: Column A = "What the text *says* exists" (dispensary, road, hospital); Column.', 'Have them write one sentence connecting each pair: "The dispensary exists (A) but has no doctor (B) → creates.', 'Re-attempt Diagnostic Question 3 using this map.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से पूछिए कि वह अपने own जीवन में एक ऐसी स्थिति याद करे जब वह किसी नए miejscu गया और वहां के अनौपचारिक नियमों को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
-          hint: 'Review Class 11 node c11_hin_ar_cbse_01_004 for the step-by-step method of protagonist.',
-          misconception: 'Students often confuse the narrator with the author (Fuezy OekZ) and assume every thought is autobiographical fact.',
+          question: 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार.',
+          hint: 'यदि पात्र के आंतरिक संघर्ष को समझने में कठिनाई हो तो c11_hin_a_cbse_04_004 (हुसैन की.',
+          misconception: 'छात्र अक्सर सुरेंद्र के चरित्र को केवल उसके अंतिम कार्यों (जैसे पछताना या पकड़ा जाना) के आधार पर आंकते हैं, मानकर चलते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves examining the central character\'s traits,',
-                  options: ['Character analysis of the protagonist involves examining the central character\'s traits,', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot refers to the sequence of events in a story, while narrative structure is the', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'Review Class 11 node c11_hin_ar_cbse_01_004 for the step-by-step method of protagonist analysis.',
-                  misconception: 'Students often confuse the narrator with the author (Fuezy OekZ) and assume every thought is autobiographical fact.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, विचार,',
+                  options: ['पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक लक्षण, व्यवहार, विचार,', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
+                  hint: 'यदि पात्र के आंतरिक संघर्ष को समझने में कठिनाई हो तो c11_hin_a_cbse_04_004 (हुसैन की कहानी अपनी.',
+                  misconception: 'छात्र अक्सर सुरेंद्र के चरित्र को केवल उसके अंतिम कार्यों (जैसे पछताना या पकड़ा जाना) के आधार पर आंकते हैं, मानकर चलते हैं कि उसका पूरा.' }
           ],
-            remediations: { 'students-often-confuse-the-narrator': { steps: ['If a student makes this error, guide them to: 1) Re-read the opening paragraph where the narrator sets up his purpose.', '2) Identify three moments where the narrator explicitly contrasts city and village values.', '3) Rewrite one paragraph replacing \'pity\' words with \'admiration/critique\' words.', '4) Re-attempt Diagnostic Question 2 with the new lens.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['इस गलती को दूर करने के लिए, छात्र को कहानी को समय-k्रम में विभक्त करने के लिए कहें: (1) सुरेंद्र का प्रारंभिक अवस्था.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining the roles.',
-          hint: 'If stuck, review the "Character Analysis: Protagonist" node (c12_hin_a_cbse_15_004) and.',
-          misconception: 'Students often treat supporting characters as "minor" and therefore less important for exams.',
+          question: 'सहायक पात्र वे पात्र होते हैं जो मुख्य नायक या नायिका के साथ कहानी को आगे.',
+          hint: 'यदि फंसें तो पात्र-चित्रण: सहायक पात्र (c11_hin_a_cbse_01_005) की कक्षा 11 की आधारभूत समझ.',
+          misconception: 'छात्र अक्सर सोचते हैं कि सहायक पात्र का अर्थ केवल \'दूसरे महत्व वाले पात्र\' से है, इसलिए वे उनके नाम, उपस्थिति, और.',
           parts: [
-                { id: 'a', prompt: 'Identify three supporting characters in "वहाँ कोई नहीं" and state one key trait for each.', answer: 'Correct answer: The old woman (बुढ़िया)',
-                  options: ['Correct answer: The old woman (बुढ़िया)', 'flashbacks'],
-                  hint: 'If stuck, review the "Character Analysis: Protagonist" node (c12_hin_a_cbse_15_004) and the Class.',
-                  misconception: 'Students often treat supporting characters as "minor" and therefore less important for exams.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे पात्र होते हैं जो मुख्य नायक या नायिका के साथ कहानी को आगे बढ़ाते हैं,',
+                  options: ['सहायक पात्र वे पात्र होते हैं जो मुख्य नायक या नायिका के साथ कहानी को आगे बढ़ाते हैं,', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
+                  hint: 'यदि फंसें तो पात्र-चित्रण: सहायक पात्र (c11_hin_a_cbse_01_005) की कक्षा 11 की आधारभूत समझ को पुनः.',
+                  misconception: 'छात्र अक्सर सोचते हैं कि सहायक पात्र का अर्थ केवल \'दूसरे महत्व वाले पात्र\' से है, इसलिए वे उनके नाम, उपस्थिति, और एक-два लक्षण बताकर.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['Re-read the story marking every scene where a non-Vej character speaks or acts.', 'For each, write one sentence: "This character represents ______ because ______."', 'Pick two characters and write a PEEL paragraph each (Point, Evidence, Explanation, Link to theme).', 'Compare your paragraphs with the model answers in the textbook\'s "अभ्यास" section.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि कैसे एक वाक्य जैसे "रामदीन ईमानदार है" को विश्लेषणात्मक बनाया जाए: पहले उससे पूछिए कि "इस ईमानदारी.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea — the.',
-          hint: 'If stuck, return to **c12_hin_a_cbse_15_003 (Setting)** and **c12_hin_a_cbse_15_004.',
-          misconception: '**Misconception:** "The primary theme is \'industrialization is bad\' or \'tribals are exploited.\'" **Why this is wrong.',
+          question: 'कहानी का मुख्य विषय वह गहरा संदेश या सार्वभौमिक सत्य है जो पात्रों के संघर्ष.',
+          hint: 'यदि मुख्य विषय पहचानने में कठिनाई हो तो कथानक संरचना (c12_hin_a_cbse_15_002) और.',
+          misconception: 'छात्र अक्सर मुख्य विषय को कहानी के अंत में दिए गए स्पष्ट निष्कर्ष या लेखक के सीधे कथन के रूप में समझते हैं, जैसे कि.',
           parts: [
-                { id: 'a', prompt: 'The story never has a character say "Industrialization is evil." How, then, does Renu convey his critical message?', answer: '**Correct answer:** Renu uses **implied contrast** (showing, not telling)',
-                  options: ['**Correct answer:** Renu uses **implied contrast** (showing, not telling)', 'The author describes the mine badly', 'supported'],
-                  hint: 'If stuck, return to **c12_hin_a_cbse_15_003 (Setting)** and **c12_hin_a_cbse_15_004 (Protagonist)**.',
-                  misconception: '**Misconception:** "The primary theme is \'industrialization is bad\' or \'tribals are exploited.\'" **Why this is wrong and why students make.' },
-                { id: 'b', prompt: 'Analyze how the **setting** (*uokxk¡o* — its *ipkl*, *xk¡o*, *vke*, *isM+*) functions as a **carrier of the primary theme**, not just a backdrop.', answer: '**Correct answer:** The setting *is* the theme made physical',
-                  options: ['**Correct answer:** The setting *is* the theme made physical', 'The setting shows the village is beautiful and then it gets dirty', 'supported'],
-                  hint: 'If stuck, return to **c12_hin_a_cbse_15_003 (Setting)** and **c12_hin_a_cbse_15_004 (Protagonist)**.',
-                  misconception: '**Misconception:** "The primary theme is \'industrialization is bad\' or \'tribals are exploited.\'" **Why this is wrong and why students make.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कहानी का मुख्य विषय वह गहरा संदेश या सार्वभौमिक सत्य है जो पात्रों के संघर्ष, निर्णयों और',
+                  options: ['कहानी का मुख्य विषय वह गहरा संदेश या सार्वभौमिक सत्य है जो पात्रों के संघर्ष, निर्णयों और', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
+                  hint: 'यदि मुख्य विषय पहचानने में कठिनाई हो तो कथानक संरचना (c12_hin_a_cbse_15_002) और पात्र-चित्रण.',
+                  misconception: 'छात्र अक्सर मुख्य विषय को कहानी के अंत में दिए गए स्पष्ट निष्कर्ष या लेखक के सीधे कथन के रूप में समझते हैं, जैसे कि "लेखक ने कहा कि वापस.' }
           ],
-            remediations: { 'misconception-the-primary-theme-is': { steps: ['**Remediation path (3 steps):** 1.', '**Revisit node c12_hin_a_cbse_15_003 (Setting and Atmosphere):** Re-read the *uokxk¡o* description.', 'List 5 Santhal-specific terms for landscape (*ipkl, xk¡o, vke, isM+, ve>j*) and 5 industrial terms that replace them.', 'This rebuilds the **vocabulary of the theme**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को कहानी के तीन अलग-अलग हिस्सों (आरंभ, मध्य, अंत) चुनने के लिए कहें जहाँ पात्र फंसे महसूस करते हैं। प्रत्येक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

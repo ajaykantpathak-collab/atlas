@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch15_p3: SimDef = {
     id: 'v3_c12_hin_a_ch15_p3',
-    title: 'eerk dkfy;k · Part 3/3',
+    title: 'जहाँ कोई वापसी नहीं · Part 3/3',
     subtitle: 'The survey line was straight; the damage wasn\'t',
-    classLevel: 12, subject: 'hin_a', topic: 'eerk dkfy;k · Part 3/3',
+    classLevel: 12, subject: 'hin_a', topic: 'जहाँ कोई वापसी नहीं · Part 3/3',
     chapters: ['c12_hin_a_ch15'],
     nodeIds: ['c12_hin_a_cbse_15_013', 'c12_hin_a_cbse_15_014', 'c12_hin_a_cbse_15_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,36 +19,15 @@ export const c12_hin_a_ch15_p3: SimDef = {
         hook: 'This is reportage-fiction about a real wound — the Koel-Karo project threatening 120+ villages. Renu captures the pre-movement moment: resistance raw and leaderless, dismissed as backwardness before it could become an Andolan. The deepest irony — the democratic state itself ran the displacement.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the systematic process of examining a text\'s explicit and implicit meanings by evaluating evidence, identifying underlying assumptions, and synthesizing.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'जहाँ कोई वापसी नहीं — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ के तथ्यों को केवल याद करने के बजाय उसके पीछे के अर्थ, लेखक के उद्देश्य, उपयोग की गई साहित्यिक युक्तियों, और पाठ के सामाजिक या ऐतिहासिक संदेश को.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_15_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Walk the Chotanagpur hills before the dam: weigh whose \'development\' submerges whom, compare raw tribal refusal with organised protest, and decode the crooked line\'s triple meaning.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['जहाँ कोई वापसी नहीं'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a journalist visiting Veerji\'s village ten years after the factory was built.',
-            decisions: [{ prompt: 'What is the primary function of irony in "tgk¡ dksbZ okilh ugha" as a tool for social critique?', options: [
-                { text: '**Correct Answer:** Irony exposes the gap between the state\'s rhetoric of "development"', outcome: '**Correct Answer:** Irony exposes the gap between the state\'s rhetoric of "development" (vikas) and.' },
-                { text: 'irony makes the story funny', outcome: 'Not quite — **Misconception:** "Critical analysis means criticizing the author or finding faults in the story.".', reveals: 'misconception-critical-analysis-means-criticizin' },
-                { text: 'it shows the villagers are backward', outcome: 'Not quite — **Misconception:** "Critical analysis means criticizing the author or finding faults in the story.".', reveals: 'misconception-critical-analysis-means-criticizin' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine a student staring at a 5-mark question: "How does the author portray the conflict between development and tribal life in \'eerk dkfy;k\'?" They write.',
-            decisions: [{ prompt: 'What does PEEL stand for in answer writing, and what is the function of each component?', options: [
-                { text: 'PEEL = Point, Evidence, Explanation, Link', outcome: 'PEEL = Point, Evidence, Explanation, Link. Point = topic sentence stating the argument.' },
-                { text: 'Point, Example, Explain, Conclusion', outcome: 'Not quite — Students believe "writing skills" means using flowery vocabulary and long sentences.', reveals: 'writing-skills-means-using-flowery' },
-                { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means using flowery vocabulary and long sentences.', reveals: 'writing-skills-means-using-flowery' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_15_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are at a village panchayat meeting where a company wants to build a factory on forest land — how would you express your concern without shouting?',
-            decisions: [{ prompt: 'What are the two main discussion formats recommended by CBSE for the Assessment of Speaking and Listening (ASL) that can be applied to this.', options: [
-                { text: 'The two main formats are Group Discussion (GD) and Debate', outcome: 'The two main formats are Group Discussion (GD) and Debate. A wrong answer (e.g., "speech and.' },
-                { text: 'speech and interview', outcome: 'Not quite — Students think speaking and listening is just about talking fluently in Hindi.', reveals: 'speaking-and-listening-is-just' },
-                { text: 'speaking and listening is just about talking fluently in Hindi', outcome: 'Not quite — Students think speaking and listening is just about talking fluently in Hindi.', reveals: 'speaking-and-listening-is-just' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_15_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Writing a piece on your hometown\'s transformation — the river now a drain, fields under a factory — your editor wants it chronological: \'village past, then highway, then industry, then today.\'',
             decisions: [{ prompt: 'What structure does Renu\'s \'जहाँ कोई वापसी नहीं\' use instead, and why?', options: [
@@ -68,61 +47,38 @@ export const c12_hin_a_ch15_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the systematic process of examining.',
-          hint: 'If stuck, return to the "Irony and Symbolism" node (c12_hin_a_cbse_15_009) and practice.',
-          misconception: '**Misconception:** "Critical analysis means criticizing the author or finding faults in the story." **Why students make.',
+          question: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ के तथ्यों को केवल याद करने.',
+          hint: 'यदि छात्र आलोचनात्मक चिंतन में कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_15_012.',
+          misconception: 'छात्र अक्सर कविता के विश्लेषण में केवल शब्दों के शब्दार्थिक अर्थ पर ध्यान देते हैं और रूपक, उपमा, या प्रतीक जैसे.',
           parts: [
-                { id: 'a', prompt: 'The story describes the village\'s transformation from "cSoqaQB" (self-sufficient) to "dkyk ikuh" (dark well).', answer: '**Correct Answer:** The shift signifies that industrial "development" replaces a',
-                  options: ['**Correct Answer:** The shift signifies that industrial "development" replaces a', 'it means the village became modern', 'life got harder'],
-                  hint: 'If stuck, return to the "Irony and Symbolism" node (c12_hin_a_cbse_15_009) and practice the "Tone.',
-                  misconception: '**Misconception:** "Critical analysis means criticizing the author or finding faults in the story." **Why students make this error:** The.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ के तथ्यों को केवल याद करने के बजाय',
+                  options: ['आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ के तथ्यों को केवल याद करने के बजाय', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
+                  hint: 'यदि छात्र आलोचनात्मक चिंतन में कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_15_012 (बोध-प्रश्न.',
+                  misconception: 'छात्र अक्सर कविता के विश्लेषण में केवल शब्दों के शब्दार्थिक अर्थ पर ध्यान देते हैं और रूपक, उपमा, या प्रतीक जैसे साहित्यिक युक्तियों के.' }
           ],
-            remediations: { 'misconception-critical-analysis-means-criticizin': { steps: ['**Revisit Node c12_hin_a_cbse_15_009 (Irony and Symbolism):** Re-learn the *definition* and *function* of irony as.', '**Revisit Node c12_hin_a_cbse_15_006 (Primary Theme):** Map the theme "development vs.', 'displacement" across 5 key scenes using a two-column table: "State\'s Claim" vs.', '**Re-diagnostic:** Take Diagnostic Question 3 again.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: '**Misconception:** "Critical analysis means criticizing the author or finding faults in the story." **Why students make.',
-          parts: [
-                { id: 'a', prompt: 'Write a 150-word "counter-narrative" from the perspective of a young tribal person who *accepts* the factory job and sees it as liberation.', answer: '**Criteria for a strong answer:** (1) Authentic voice',
-                  options: ['**Criteria for a strong answer:** (1) Authentic voice', 'I hate my culture'],
-                  hint: 'If stuck, return to the "Irony and Symbolism" node (c12_hin_a_cbse_15_009) and practice the "Tone.',
-                  misconception: '**Misconception:** "Critical analysis means criticizing the author or finding faults in the story." **Why students make this error:** The.' }
-          ],
-            remediations: { 'misconception-critical-analysis-means-criticizin': { steps: ['**Revisit Node c12_hin_a_cbse_15_009 (Irony and Symbolism):** Re-learn the *definition* and *function* of irony as.', '**Revisit Node c12_hin_a_cbse_15_006 (Primary Theme):** Map the theme "development vs.', 'displacement" across 5 key scenes using a two-column table: "State\'s Claim" vs.', '**Re-diagnostic:** Take Diagnostic Question 3 again.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले एक सरल वाक्य दें जिसमें स्पष्ट रूपक हो (जैसे "वह शेर है") और पूछें: "यदि कोई वास्तविक शेर यहाँ नहीं.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refers to the ability to compose.',
-          hint: 'If unable to find evidence, return to node c12_hin_a_cbse_15_012 (Comprehension) and.',
-          misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.',
+          question: 'पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र NCERT पाठ्यपुस्तक के किसी.',
+          hint: 'यदि प्रमाण चुनने में अटकें: **c12_hin_a_cbse_15_008** (बिंब/रूपक) और.',
+          misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर में पाठ की ज्यादा-से-ज्यादा पंक्तियाँ उद्धृत करने से अंक बढ़ते हैं।"*.',
           parts: [
-                { id: 'a', prompt: 'What does PEEL stand for in answer writing, and what is the function of each component?', answer: 'PEEL = Point, Evidence, Explanation, Link',
-                  options: ['PEEL = Point, Evidence, Explanation, Link', 'Point, Example, Explain, Conclusion', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
-                  hint: 'If unable to find evidence, return to node c12_hin_a_cbse_15_012 (Comprehension) and practice the.',
-                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' },
-                { id: 'b', prompt: 'Compare two student answers to "Explain the irony in the term \'vk/qfud \'kj.kkFkhZ\' (modern pioneers) for the industrialists": Answer A: "It is ironic because.', answer: 'Answer B demonstrates analysis',
-                  options: ['Answer B demonstrates analysis', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
-                  hint: 'If unable to find evidence, return to node c12_hin_a_cbse_15_012 (Comprehension) and practice the.',
-                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र NCERT पाठ्यपुस्तक के किसी गद्य/पद्य अंश को',
+                  options: ['पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र NCERT पाठ्यपुस्तक के किसी गद्य/पद्य अंश को', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
+                  hint: 'यदि प्रमाण चुनने में अटकें: **c12_hin_a_cbse_15_008** (बिंब/रूपक) और **c12_hin_a_cbse_15_009**.',
+                  misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर में पाठ की ज्यादा-से-ज्यादा पंक्तियाँ उद्धृत करने से अंक बढ़ते हैं।"* **वास्तविकता:** CBSE मार्किंग.' }
           ],
-            remediations: { 'writing-skills-means-using-flowery': { steps: ['If student writes plot summaries instead of analysis: Step 1 — Take a 5-mark question they attempted.', 'Step 2 — Highlight every sentence: P (point), E (evidence), Ex (explanation), L (link).', 'Step 3 — Count how many sentences are pure plot retelling (mark as "N" for narrative).', 'Step 4 — Rewrite keeping only P/E/Ex/L sentences, replacing N-sentences with evidence+analysis.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'cbse-relevance-depth-of-explanation': { steps: ['**चरण 1:** छात्र से कहें: "अपना लिखा उत्तर पढ़ो और हर पैराग्राफ के आगे लिखो: P / E / E / L — कौन-सा चरण गायब है?" **चरण.', '\'क्यों\' और \'कैसे\' लिखो।" **चरण 3:** **पुनः अभ्यास:** वही प्रश्न, नया उद्धरण, केवल Explanation चरण लिखने को कहें — 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
-          hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core.',
-          misconception: 'Students think speaking and listening is just about talking fluently in Hindi.',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें छात्र पाठ को ध्यान से सुनते या पढ़ते.',
+          hint: 'यदि फंसे हुए महसूस हो तो Class 11 के समान पाठों पर चर्चा-बिंदु बनाने की गतिविधि दोहराएँ.',
+          misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण में चर्चा-बिंदु तैयार करना बस पाठ के किसी भी वाक्य को दोहराना या अपने व्यक्तिगत.',
           parts: [
-                { id: 'a', prompt: 'What are the two main discussion formats recommended by CBSE for the Assessment of Speaking and Listening (ASL) that can be applied to this chapter?', answer: 'The two main formats are Group Discussion (GD) and Debate',
-                  options: ['The two main formats are Group Discussion (GD) and Debate', 'speech and interview', 'speaking and listening is just about talking fluently in Hindi'],
-                  hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core arguments from the.',
-                  misconception: 'Students think speaking and listening is just about talking fluently in Hindi.' },
-                { id: 'b', prompt: 'Explain why the title "Tahan koi okil nahi" (There is no lawyer there) is an effective discussion starter for this chapter.', answer: 'The title is ironic',
-                  options: ['The title is ironic', 'it tells us the setting', 'speaking and listening is just about talking fluently in Hindi'],
-                  hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core arguments from the.',
-                  misconception: 'Students think speaking and listening is just about talking fluently in Hindi.' },
-                { id: 'c', prompt: 'Compare the perspectives of the contractor and the tribal elder in the chapter. How would you structure a debate between them?', answer: 'Contractor: "Progress needs sacrifice',
-                  options: ['Contractor: "Progress needs sacrifice', 'speaking and listening is just about talking fluently in Hindi'],
-                  hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core arguments from the.',
-                  misconception: 'Students think speaking and listening is just about talking fluently in Hindi.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें छात्र पाठ को ध्यान से सुनते या पढ़ते हैं, उसके',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें छात्र पाठ को ध्यान से सुनते या पढ़ते हैं, उसके', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
+                  hint: 'यदि फंसे हुए महसूस हो तो Class 11 के समान पाठों पर चर्चा-बिंदु बनाने की गतिविधि दोहराएँ, जैसे.',
+                  misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण में चर्चा-बिंदु तैयार करना बस पाठ के किसी भी वाक्य को दोहराना या अपने व्यक्तिगत भावना को बिना कारण बताए.' }
           ],
-            remediations: { 'speaking-and-listening-is-just': { steps: ['If a student cannot anchor discussion in text: 1) Have them re-read the Critical Thinking node (c12_hin_a_cbse_15_013).', '2) Practice with a peer using a checklist: State claim → Quote 1 line from text → Explain in own words → Ask "Do you.', 'Repeat until both are yes.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमज़ोर चर्चा-बिंदु (जैसे "पाठ बहुत भारी था") कैसे कमज़ोर है - क्योंकि यह केवल भावना है, कोई कारण.', 'किस पंक्ति या घटना के कारण?" जब वे किसी विशिष्ट पहलू (जैसे पात्र का अंतिम निर्णय) की ओर इशारा करें, तो कहिए: "अब इसी.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

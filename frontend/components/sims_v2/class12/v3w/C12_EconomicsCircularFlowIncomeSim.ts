@@ -181,7 +181,7 @@ export const w_c12_economicscircularflowincomesim: SimDef = {
           hint: 'If stuck, review the four-sector circular flow diagram (node c12_eco_cbse_07_004) and.',
           misconception: 'Students often think imports are an injection because they bring goods into the country, and exports are a leakage.',
           parts: [
-                { id: 'a', prompt: 'List the three leakages and three injections in a four-sector circular flow model.', answer: 'Correct answer: Leakages',
+                { id: 'a', prompt: 'List the three leakages and three injections in a four-sector circular flow model.', answer: 'Leakages',
                   options: ['Correct answer: Leakages', 'goods leaving the country'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think imports are an injection because they bring goods into the country, and exports are a leakage because goods leave the.' },

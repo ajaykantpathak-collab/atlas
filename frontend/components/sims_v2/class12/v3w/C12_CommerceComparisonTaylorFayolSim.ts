@@ -16,7 +16,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
     discovery: {
         question: 'A company has two divisions — one manufacturing electric scooters and another manufacturing electric bicycles.',
         options: ['Correct answer: This illustrates Unity of Direction', 'it shows Unity of Command', 'Unity of Direction means each employee should have only one boss'],
-        answer: 'Correct answer: This illustrates Unity of Direction',
+        answer: 'This illustrates Unity of Direction',
         hook: 'Students often confuse Unity of Direction with Unity of Command, writing "Unity of Direction means each employee should.',
     },
     teaching: [
@@ -105,7 +105,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
           hint: 'Revisit c12_bs_cbse_02_001 (Nature of Principles of Management) and c12_bs_cbse_02_004.',
           misconception: 'Students often confuse Unity of Direction with Unity of Command, writing "Unity of Direction means each employee should.',
           parts: [
-                { id: 'a', prompt: 'A company has two divisions — one manufacturing electric scooters and another manufacturing electric bicycles.', answer: 'Correct answer: This illustrates Unity of Direction',
+                { id: 'a', prompt: 'A company has two divisions — one manufacturing electric scooters and another manufacturing electric bicycles.', answer: 'This illustrates Unity of Direction',
                   options: ['Correct answer: This illustrates Unity of Direction', 'it shows Unity of Command', 'Unity of Direction means each employee should have only one boss'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse Unity of Direction with Unity of Command, writing "Unity of Direction means each employee should have only one boss".' },
@@ -120,7 +120,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often confuse Unity of Direction with Unity of Command, writing "Unity of Direction means each employee should.',
           parts: [
-                { id: 'a', prompt: 'Critique the following management decision using the principle of Equity: "To motivate the sales team, the VP announces that the top performer each quarter.', answer: 'Correct answer: The VP’s reasoning is invalid',
+                { id: 'a', prompt: 'Critique the following management decision using the principle of Equity: "To motivate the sales team, the VP announces that the top performer each quarter.', answer: 'The VP’s reasoning is invalid',
                   options: ['Correct answer: The VP’s reasoning is invalid', 'it’s equitable because rules are same for all', 'Unity of Direction means each employee should have only one boss'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse Unity of Direction with Unity of Command, writing "Unity of Direction means each employee should have only one boss".' }
@@ -142,7 +142,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
           hint: 'If stuck, revisit Class 11 Chapter 1 \'Nature and Significance of Management\'.',
           misconception: 'Students often memorise the 7 nature points and 6 significance points as isolated lists, but in board exams they fail.',
           parts: [
-                { id: 'a', prompt: 'State the exact NCERT definition of \'principles of management\' and give one example of a managerial decision where two different principles could lead to.', answer: 'Correct answer: "A managerial principle is a broad and general guideline for',
+                { id: 'a', prompt: 'State the exact NCERT definition of \'principles of management\' and give one example of a managerial decision where two different principles could lead to.', answer: '"A managerial principle is a broad and general guideline for',
                   options: ['Correct answer: "A managerial principle is a broad and general guideline for', 'principles are rigid rules like laws of physics'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often memorise the 7 nature points and 6 significance points as isolated lists, but in board exams they fail to apply them to a.' }
@@ -179,7 +179,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
           hint: 'Revisit c12_bs_cbse_02_007 (Fayol vs Taylor comparison) to clarify the administrative vs.',
           misconception: 'Students consistently confuse \'Initiative\' with \'doing whatever you want\' and \'Esprit de Corps\' with \'being friendly.\'.',
           parts: [
-                { id: 'a', prompt: 'A startup with 15 employees has the founder making all decisions: hiring, vendor selection, pricing, leave approvals.', answer: 'Correct answer: Fayol states "The degree of centralisation will depend upon the',
+                { id: 'a', prompt: 'A startup with 15 employees has the founder making all decisions: hiring, vendor selection, pricing, leave approvals.', answer: 'Fayol states "The degree of centralisation will depend upon the',
                   options: ['Correct answer: Fayol states "The degree of centralisation will depend upon the', 'Initiative means employees can take decisions on their own', 'within the framework of organisational policies'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students consistently confuse \'Initiative\' with \'doing whatever you want\' and \'Esprit de Corps\' with \'being friendly.\' They write in exams:.' }

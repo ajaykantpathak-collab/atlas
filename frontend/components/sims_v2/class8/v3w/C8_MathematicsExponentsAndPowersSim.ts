@@ -183,7 +183,7 @@ export const w_c8_mathematicsexponentsandpowerssim: SimDef = {
           hint: 'Revisit prime factorisation (c6_math_ch01_015) and the definition of base/exponent.',
           misconception: 'Students treat the exponent as a "zero counter" only for base 10.',
           parts: [
-                { id: 'a', prompt: 'Write the number 70,000 in standard form (scientific notation).', answer: 'Correct answer: \\( 7 \\times 10^4 \\)',
+                { id: 'a', prompt: 'Write the number 70,000 in standard form (scientific notation).', answer: '\\( 7 \\times 10^4 \\)',
                   options: ['Correct answer: \\( 7 \\times 10^4 \\)', 'base × exponent', 'base multiplied by itself exponent times'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students treat the exponent as a "zero counter" only for base 10.' },

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch06_p3: SimDef = {
     id: 'v3_c11_hin_ar_ch06_p3',
-    title: 'le; gh og jax · Part 3/3',
+    title: 'पाठ 6 · Part 3/3',
     subtitle: 'Watch a tuition room become the whole education system in miniature.',
-    classLevel: 11, subject: 'hin_ar', topic: 'le; gh og jax · Part 3/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 6 · Part 3/3',
     chapters: ['c11_hin_ar_ch06'],
     nodeIds: ['c11_hin_ar_cbse_06_013', 'c11_hin_ar_cbse_06_014', 'c11_hin_ar_cbse_06_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,28 +19,20 @@ export const c11_hin_ar_ch06_p3: SimDef = {
         hook: 'One room, one act, no exits — the form itself is the argument: students and parents have nowhere to step out to.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the systematic process of examining a literary text beyond its surface meaning to uncover underlying themes, evaluate authorial choices, assess.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 6 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें किसी पाठ के घटकों (विषय, शिल्प, भाषा, संरचना) को **विश्लेषण** (Analysis) द्वारा अलग-अलग समझा जाता है और फिर **व्याख्या** (Interpretation).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_06_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Mark the entrances and exits as French scenes, place the climax where the tuition teacher confronts the principal, and defend the unresolved close.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['पाठ 6 — आलोचनात्मक', 'पाठ 6 — लेखन', 'पाठ 6 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_06_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a parent at a PTA meeting where the principal announces a new policy: "No student may take private tuition; school teaching is sufficient." You.',
-            decisions: [{ prompt: 'What is the primary dramatic function of the character \'Director\' (फुंस\'क) in the play "जतूह"? State in one sentence.', options: [
-                { text: 'The Director represents institutional authority that perpetuates a contradictory system:', outcome: 'The Director represents institutional authority that perpetuates a contradictory system:.' },
-                { text: 'He is the villain who hates students', outcome: 'Not quite — Students equate "critical analysis" with "finding faults" in characters or plot.', reveals: 'students-equate-critical-analysis-with' },
-                { text: 'Jatuh is rude to the Director', outcome: 'Not quite — Students equate "critical analysis" with "finding faults" in characters or plot.', reveals: 'students-equate-critical-analysis-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_06_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are a journalist assigned to cover the protest meeting depicted in the play.',
-            decisions: [{ prompt: 'What are the four essential components of a character sketch written for a board exam answer?', options: [
-                { text: 'The four components are: (1) a clear topic sentence stating the dominant trait, (2)', outcome: 'The four components are: (1) a clear topic sentence stating the dominant trait, (2) textual.' },
-                { text: 'introduction, body, conclusion', outcome: 'Not quite — Students often treat writing tasks as plot summary, listing events in chronological order without.', reveals: 'students-often-treat-writing-tasks' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_06_014', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 6 · Part 3/3', spots: [
+            { id: 's1', label: '6 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ (गद्य या पद्य) का विश्लेषण करके.', answer: '6 -', options: ['6 -', '6 - -'] },
+            { id: 's2', label: '6 - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी पाठ को.', answer: '6 - -', options: ['6 - -', '6 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_06_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your drama club is rehearsing Usha Priyamvada\'s one-act play about a family fighting over a son\'s tuition fees. The student director plans to \'break it into three scenes for variety\' and end with an uplifting speech where the parents renounce tuition.',
             decisions: [{ prompt: 'Why do both changes betray the play\'s design?', options: [
@@ -60,38 +52,38 @@ export const c11_hin_ar_ch06_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_06_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the systematic process.',
-          hint: 'If stuck, review node 012 (Comprehension) and practice converting three inferential.',
-          misconception: 'Students equate "critical analysis" with "finding faults" in characters or plot.',
+          question: 'आलोचनात्मक चिंतन एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें किसी पाठ के घटकों.',
+          hint: 'यदि अटके तो **नोड 008 और 009** दोबारा पढ़ें: बिंब/रूपक/प्रतीक/विरोधाभास की परिभाषा और पाठ.',
+          misconception: 'छात्र समझते हैं कि **\'विश्लेषण\' = \'लंबा उत्तर लिखना\'** और **\'व्याख्या\' = \'अपनी राय जोड़ना\'**। वास्तव में: विश्लेषण.',
           parts: [
-                { id: 'a', prompt: 'Analyze the significance of the stage direction "नक़ल...नक़ल...नक़ल" (repeated thrice) in the tuition scene.', answer: 'Literally: students mindlessly copy',
-                  options: ['Literally: students mindlessly copy', 'Jatuh is rude to the Director', 'The play is unrealistic'],
-                  hint: 'If stuck, review node 012 (Comprehension) and practice converting three inferential answers into.',
-                  misconception: 'Students equate "critical analysis" with "finding faults" in characters or plot.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें किसी पाठ के घटकों (विषय, शिल्प,',
+                  options: ['आलोचनात्मक चिंतन एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें किसी पाठ के घटकों (विषय, शिल्प,', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के **जीवन-परिचय,', 'कथानक (Plot) घटनाओं का तार्किक और कारणात्मक क्रम है जो किसी रचना में संघर्ष, चरमोत्कर्ष', 'पाठ्य-परिवेश (Setting) किसी रचना का काल, स्थान, सामाजिक-आर्थिक यथार्थ और सांस्कृतिक'],
+                  hint: 'यदि अटके तो **नोड 008 और 009** दोबारा पढ़ें: बिंब/रूपक/प्रतीक/विरोधाभास की परिभाषा और पाठ से एक-एक.',
+                  misconception: 'छात्र समझते हैं कि **\'विश्लेषण\' = \'लंबा उत्तर लिखना\'** और **\'व्याख्या\' = \'अपनी राय जोड़ना\'**। वास्तव में: विश्लेषण = **पाठ-आधारित साक्ष्य.' }
           ],
-            remediations: { 'students-equate-critical-analysis-with': { steps: ['Ask the student to list three things Jatuh *does* (not says) that challenge the system.', 'For each action, identify the stage direction or dialogue that shows the system\'s reaction.', 'Have them complete this sentence frame: "When Jatuh does X, the play reveals Y about the education system, because Z.".', 'Practice converting one frame into a PEEL paragraph.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'textual-evidence-selection-logical-warranting': { steps: ['**साक्ष्य-चयन अभ्यास:** पाठ 6 के 5 वाक्य छांटें जिनमें कोई साहित्यिक युक्ति हो (बिंब/रूपक/प्रतीक)। प्रत्येक के आगे.', '**वारंट-लेखन:** प्रत्येक चयनित वाक्य के नीचे एक तीर खींचकर लिखें: "इसका अर्थ *X* है क्योंकि *Y* (संदर्भ/पूर्व प्रसंग)".', '**PEEL पैराग्राफ बनाएं:** Point (युक्ति का नाम) → Evidence (उद्धरण) → Explanation (वारंट) → Link (मुख्य विषय से संबंध)।.', '**स्व-जांच:** पूछें — "क्या मैंने पाठ से बाहर की बात कही?" यदि हाँ, तो हटाएं।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_06_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refer to the ability to compose structured.',
-          hint: 'If stuck, review node 06_012 (Comprehension) and 06_013 (Critical Thinking) for.',
-          misconception: 'Students often treat writing tasks as plot summary, listing events in chronological order without analysis.',
+          question: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ (गद्य या पद्य) का.',
+          hint: 'यदि छात्र साक्ष्य से अर्थ निकालने में कठिनाई महसूस कर रहा है, तो उसे साहित्यिक युक्तियों.',
+          misconception: 'Class 11 के छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबे उद्धरण डालने से उनका उत्तर अधिक मज़बूत हो जाता है, इसलिए.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills based on the chapter refer to the ability to compose structured written',
-                  options: ['Writing skills based on the chapter refer to the ability to compose structured written', '"Before You Read: Context and Background" prepares students to engage with the one-act', 'Plot and Narrative Structure refers to the sequence of events (plot) and the framework', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, review node 06_012 (Comprehension) and 06_013 (Critical Thinking) for evidence-gathering.',
-                  misconception: 'Students often treat writing tasks as plot summary, listing events in chronological order without analysis.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ (गद्य या पद्य) का विश्लेषण करके,',
+                  options: ['पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ (गद्य या पद्य) का विश्लेषण करके,', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के **जीवन-परिचय,', 'कथानक (Plot) घटनाओं का तार्किक और कारणात्मक क्रम है जो किसी रचना में संघर्ष, चरमोत्कर्ष', 'पाठ्य-परिवेश (Setting) किसी रचना का काल, स्थान, सामाजिक-आर्थिक यथार्थ और सांस्कृतिक'],
+                  hint: 'यदि छात्र साक्ष्य से अर्थ निकालने में कठिनाई महसूस कर रहा है, तो उसे साहित्यिक युक्तियों: बिंब और.',
+                  misconception: 'Class 11 के छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबे उद्धरण डालने से उनका उत्तर अधिक मज़बूत हो जाता है, इसलिए वे पाठ के बड़े.' }
           ],
-            remediations: { 'students-often-treat-writing-tasks': { steps: ['Show the student a side-by-side comparison: a plot-summary paragraph vs.', 'a PEEL-structured character sketch on the same character.', 'Highlight the four PEEL components in color (Point, Evidence, Explanation, Link).', 'Have the student practice by taking one trait ("idealistic") and finding two quotes from the play, then writing the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'class-11': { steps: ['छात्र को दिखाइए कि दो उत्तर दिए गए हैं: उत्तर A: "लेखक ने कहा, \'जीवन एक कठिन संघर्ष है जिसमें हर दिन नई चुनौतियाँ आती.', 'फिर छात्र को अभ्यास कराइए कि वे एक लंबा उद्धरण लें, उससे केवल 4-5 शब्द चुनें (जैसे "नई चुनौतियाँ"), और उन शब्दों के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_06_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "जतुः" refers to the structured.',
-          hint: 'If stuck, review c11_hin_ar_cbse_06_006 (Primary Theme) to re-anchor in the play\'s.',
-          misconception: 'Students conflate "discussion points" with "opinions about the story" — they treat the play as a source of debatable.',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी.',
+          hint: 'यदि अटका हुआ महसूस हो तो **नोड 013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या)** पर लौटें.',
+          misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **\'चर्चा-बिंदु\' = \'पाठ के महत्वपूर्ण प्रश्नों की सूची\'** जिसे याद करके परीक्षा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points for "जतुः" refers to the structured oral',
-                  options: ['Speaking and Listening: Discussion Points for "जतुः" refers to the structured oral', '"Before You Read: Context and Background" prepares students to engage with the one-act', 'Plot and Narrative Structure refers to the sequence of events (plot) and the framework', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_06_006 (Primary Theme) to re-anchor in the play\'s systemic thesis.',
-                  misconception: 'Students conflate "discussion points" with "opinions about the story" — they treat the play as a source of debatable topics (e.g., "Should.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी पाठ को',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी पाठ को', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के **जीवन-परिचय,', 'कथानक (Plot) घटनाओं का तार्किक और कारणात्मक क्रम है जो किसी रचना में संघर्ष, चरमोत्कर्ष', 'पाठ्य-परिवेश (Setting) किसी रचना का काल, स्थान, सामाजिक-आर्थिक यथार्थ और सांस्कृतिक'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **नोड 013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या)** पर लौटें — वहाँ सीखे.',
+                  misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **\'चर्चा-बिंदु\' = \'पाठ के महत्वपूर्ण प्रश्नों की सूची\'** जिसे याद करके परीक्षा में लिख देना है।.' }
           ],
-            remediations: { 'students-conflate-discussion-points-with': { steps: ['If a student offers opinion untethered from text: (1) Pause and ask "Which line or stage direction makes you say that?".', '(2) If they cannot cite, direct them to the relevant page cluster (e.g., "Look at pages 79-81 where the Principal and.', '(3) Then ask: "What does the Principal mean by \'नियम\'?', 'What does Jtuh mean?" — forcing semantic analysis.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { '6-10-15': { steps: ['**लक्षित सुधार (4 चरण)**: 1.', '**भेद स्पष्ट करें**: छात्र के सामने **दो सूची** रखें — (क) \'परीक्षा-प्रश्न\' (बंद/तथ्यात्मक/उत्तर-निर्धारित) और (ख).', '**\'क्यों/कैसे\' का अभ्यास**: पाठ 6 के किसी एक प्रसंग (जैसे नायक का निर्णय) पर **केवल \'क्यों\' और \'कैसे\' से शुरू होने वाले.', '**लाइव चर्चा में \'गलत उत्तर\' का उत्सव**: कक्षा में जानबूझकर एक **\'असामान्य/विवादास्पद\' व्याख्या** प्रस्तुत करें और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

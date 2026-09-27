@@ -1,6 +1,6 @@
 import type { SimDef } from '../../engine/types';
 
-/** v3 generated — c12_ca_ch03 (3 nodes). Deterministic build
+/** v3 generated — c12_ca_ch03 (4 nodes). Deterministic build
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_ca_ch03: SimDef = {
     id: 'v3_c12_ca_ch03',
@@ -8,7 +8,7 @@ export const c12_ca_ch03: SimDef = {
     subtitle: '₹25,000 basic, 3 days absent — so why did the sheet pay full DA?',
     classLevel: 12, subject: 'computerised_accounting', topic: 'OVERVIEW OF',
     chapters: ['c12_ca_ch03'],
-    nodeIds: ['c12_ca_cbse_03_001', 'c12_ca_cbse_03_002', 'c12_ca_cbse_03_003'],
+    nodeIds: ['c12_ca_cbse_03_001', 'c12_ca_cbse_03_002', 'c12_ca_cbse_03_003', 'c12_ca_cbse_03_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'Payroll accountant', intro: 'Every salary slip is a chain of formulas — earnings up, deductions down, net pay out. Build the chain and it\'ll run forever.', goal: 'Design a payroll spreadsheet using BPE logic, nested IFs and absolute referencing.' },
@@ -59,6 +59,12 @@ export const c12_ca_ch03: SimDef = {
             { text: 'Compute: PMT = ₹7,465.49 (approx). This is the fixed monthly payment.' },
             { text: 'Verify: Total paid = 7,465.49 × 48 = ₹3,58,343.52. Total interest = ₹58,343.52.', faded: true, blankAnswer: '₹7,465.49 per month' }
             ] } },
+        { type: 'case', nodeId: 'c12_ca_cbse_03_004', title: 'Statutory compliance in computerised.',
+          caseStudy: { intro: '1. Record a sale of ₹10,000 with 18% GST — the software splits it into revenue ₹10,000 + GST payable ₹1,800 automatically. 2.',
+            decisions: [{ prompt: 'A sale of ₹10,000 at 18% GST is recorded — what does the software do automatically?', options: [
+                { text: 'Splits the entry into revenue ₹10,000 and GST payable ₹1,800, and tags it for the GST', outcome: 'Splits the entry into revenue ₹10,000 and GST payable ₹1,800, and tags it for the GST returns.' },
+                { text: 'compliance reporting is a separate manual task done at year-end', outcome: 'Not quite — Students think compliance reporting is a separate manual task done at year-end.', reveals: 'compliance-reporting-is-a-separate' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_ca_cbse_03_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Processing March payroll, a junior accountant computes DA, HRA and PF directly on contractual Basic Pay for an employee who had 4 leave-without-pay days. The numbers look neat and she submits the sheet.',
             decisions: [{ prompt: 'Where did the computation go wrong?', options: [
@@ -66,7 +72,7 @@ export const c12_ca_ch03: SimDef = {
                 { text: 'Nothing — Basic Pay is Basic Pay; days absent are handled separately, not inside salary formulas.', outcome: 'BPE exists precisely to fold attendance into pay; skipping it overpays DA, HRA and deducts excess PF for days never worked.', reveals: 'bp-equals-bpe' },
                 { text: 'Nothing — and if a supervisor\'s HRA shows zero, the IF formula itself must be broken.', outcome: 'A zero HRA more often means the type cell reads \'Sup \' or \'sup\' — text matching is exact, so data entry, not the formula, is the culprit.', reveals: 'formula-blamed-for-typo' }
             ] }] } },
-        { type: 'case', nodeId: 'c12_ca_cbse_03_003', title: 'You made it',
+        { type: 'case', nodeId: 'c12_ca_cbse_03_004', title: 'You made it',
           caseStudy: { intro: 'You\'ve built the spreadsheet every salary slip in the country is secretly running on. Attendance-to-net-pay logic is a guaranteed practical — and a real job skill.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [
                 { text: 'Show me my results', outcome: 'Your mastery map is waiting.' },
@@ -128,11 +134,26 @@ export const c12_ca_ch03: SimDef = {
           misconception: 'Students frequently use the annual interest rate directly with monthly periods (e.g., `=PMT(10%, 24, -100000)`).',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A loan repayment schedule is a structured plan that breaks down a borrowed principal',
-                  options: ['A loan repayment schedule is a structured plan that breaks down a borrowed principal', 'Payroll Accounting is the systematic process of computing an employee\'s gross earnings', 'Asset Accounting in computerised accounting refers to the systematic process of'],
+                  options: ['A loan repayment schedule is a structured plan that breaks down a borrowed principal', 'Payroll Accounting is the systematic process of computing an employee\'s gross earnings', 'Asset Accounting in computerised accounting refers to the systematic process of', 'Statutory compliance in computerised accounting refers to the system\'s built-in handling'],
                   hint: 'If stuck, revisit the simple interest formula (c8_math_ch8_9) and practice calculating interest for.',
                   misconception: 'Students frequently use the annual interest rate directly with monthly periods (e.g., `=PMT(10%, 24, -100000)`), forgetting to divide the.' }
           ],
-            remediations: { 'students-frequently-use-the-annual': { steps: ['Revisit the concept of periodic vs annual interest rate using node c8_math_ch8_9 (Simple Interest) to reinforce that.', 'Practice the cash-flow sign convention: draw a simple timeline showing loan received (positive) and payments made.', 'Re-do the textbook Example 1 step-by-step in Excel, first with the textbook\'s yearly method, then with the correct.', 'Use the Evaluate Formula tool (Formulas tab) to see how PMT computes internally.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-frequently-use-the-annual': { steps: ['Revisit the concept of periodic vs annual interest rate using node c8_math_ch8_9 (Simple Interest) to reinforce that.', 'Practice the cash-flow sign convention: draw a simple timeline showing loan received (positive) and payments made.', 'Re-do the textbook Example 1 step-by-step in Excel, first with the textbook\'s yearly method, then with the correct.', 'Use the Evaluate Formula tool (Formulas tab) to see how PMT computes internally.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_ca_cbse_03_004', difficulty: 'standard',
+          question: 'Statutory compliance in computerised accounting refers to the system\'s built-in.',
+          hint: 'Work step by step.',
+          misconception: 'Students think compliance reporting is a separate manual task done at year-end.',
+          parts: [
+                { id: 'a', prompt: 'Name two statutory outputs a computerised accounting system can generate.', answer: 'GST invoices/returns (GSTR-1, GSTR-3B) and TDS deduction reports',
+                  options: ['GST invoices/returns (GSTR-1, GSTR-3B) and TDS deduction reports', 'compliance reporting is a separate manual task done at year-end'],
+                  hint: 'Think about the key idea.',
+                  misconception: 'Students think compliance reporting is a separate manual task done at year-end.' },
+                { id: 'b', prompt: 'What is TDS and when does accounting software apply it?', answer: 'Tax Deducted at Source',
+                  options: ['Tax Deducted at Source', 'compliance reporting is a separate manual task done at year-end'],
+                  hint: 'Think about the key idea.',
+                  misconception: 'Students think compliance reporting is a separate manual task done at year-end.' }
+          ],
+            remediations: { 'compliance-reporting-is-a-separate': { steps: ['Trace one transaction end-to-end: record the sale → see the GST split → see the GSTR report pick it up.', 'Compliance in computerised accounting is automatic because the tax rides on the transaction.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

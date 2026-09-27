@@ -8,7 +8,7 @@ export const c6_math_ch03_p2: SimDef = {
     subtitle: 'This node covers the multiplication of two proper or improper fractions.',
     classLevel: 6, subject: 'mathematics', topic: 'Fractions · Part 2/3',
     chapters: ['c6_math_ch03'],
-    nodeIds: ['c6_math_ch03_035', 'c6_math_ch03_036', 'c6_math_ch03_037', 'c6_math_ch03_038', 'c6_math_ch03_029', 'c6_math_ch03_040'],
+    nodeIds: ['c6_math_ch03_035', 'c6_math_ch03_036', 'c6_math_ch03_037', 'c6_math_ch03_038', 'c6_math_ch03_039', 'c6_math_ch03_040'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you have half a bar of chikki and you want to give one-third of that half to your friend.', goal: 'Master every idea in this chapter.' },

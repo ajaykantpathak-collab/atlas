@@ -16,7 +16,7 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
     discovery: {
         question: 'A 45-year-old man whose wife died two months ago alternates between: (a) looking at her photos and crying intensely, and (b) focusing on repairing the house.',
         options: ['Correct answer: (a) is loss-oriented coping (confronting grief directly), (b) is', 'stages of grief', 'he should only grieve'],
-        answer: 'Correct answer: (a) is loss-oriented coping (confronting grief directly), (b) is',
+        answer: '(a) is loss-oriented coping (confronting grief directly), (b) is',
         hook: 'Students believe Kübler-Ross\'s stages apply identically to both the dying person AND the bereaved family members.',
     },
     teaching: [
@@ -94,15 +94,15 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
           hint: 'Revisit c12_hs_cbse_07_011 (Late Adulthood) for Erikson\'s stage and family role changes,.',
           misconception: 'Students believe Kübler-Ross\'s stages apply identically to both the dying person AND the bereaved family members.',
           parts: [
-                { id: 'a', prompt: 'A terminally ill patient says, "The test results must be wrong — I feel perfectly fine, so there\'s no way I have only months to live." Which Kübler-Ross stage.', answer: 'Correct answer: Denial',
+                { id: 'a', prompt: 'A terminally ill patient says, "The test results must be wrong — I feel perfectly fine, so there\'s no way I have only months to live." Which Kübler-Ross stage.', answer: 'Denial',
                   options: ['Correct answer: Denial', 'bargaining'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe Kübler-Ross\'s stages apply identically to both the dying person AND the bereaved family members.' },
-                { id: 'b', prompt: 'Explain why Kübler-Ross\'s stages should not be treated as a fixed linear sequence that every dying person passes through in order.', answer: 'Correct answer: Kübler-Ross herself emphasized that stages are not linear',
+                { id: 'b', prompt: 'Explain why Kübler-Ross\'s stages should not be treated as a fixed linear sequence that every dying person passes through in order.', answer: 'Kübler-Ross herself emphasized that stages are not linear',
                   options: ['Correct answer: Kübler-Ross herself emphasized that stages are not linear', 'everyone goes through all five stages in order'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe Kübler-Ross\'s stages apply identically to both the dying person AND the bereaved family members.' },
-                { id: 'c', prompt: 'A 45-year-old man whose wife died two months ago alternates between: (a) looking at her photos and crying intensely, and (b) focusing on repairing the house.', answer: 'Correct answer: (a) is loss-oriented coping (confronting grief directly), (b) is',
+                { id: 'c', prompt: 'A 45-year-old man whose wife died two months ago alternates between: (a) looking at her photos and crying intensely, and (b) focusing on repairing the house.', answer: '(a) is loss-oriented coping (confronting grief directly), (b) is',
                   options: ['Correct answer: (a) is loss-oriented coping (confronting grief directly), (b) is', 'stages of grief', 'he should only grieve'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe Kübler-Ross\'s stages apply identically to both the dying person AND the bereaved family members.' }
@@ -113,7 +113,7 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
           hint: 'If stuck, revisit c12_hs_cbse_03_002 (Stages of Human Development) and.',
           misconception: 'Students often believe "inclusion = admission" — that enrolling a child with disability in a regular school constitutes.',
           parts: [
-                { id: 'a', prompt: 'A REMEMBER level question: List the three models of disability (medical, social, and bio-psycho-social) and state the core belief of each in one sentence.', answer: 'Correct answer: Medical model',
+                { id: 'a', prompt: 'A REMEMBER level question: List the three models of disability (medical, social, and bio-psycho-social) and state the core belief of each in one sentence.', answer: 'Medical model',
                   options: ['Correct answer: Medical model', 'fixing the person', 'removing barriers'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "inclusion = admission" — that enrolling a child with disability in a regular school constitutes inclusion.' }
@@ -165,11 +165,11 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
           hint: 'If unable to zone a plan, revisit c11_hs_cbse_07_010 and practice colour-coding.',
           misconception: 'Students often believe "space planning = furniture arrangement".',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why the orientation of a house matters for natural lighting and ventilation in the Indian context.', answer: 'Correct answer: In India, the sun traverses the southern sky',
+                { id: 'a', prompt: 'Explain in your own words why the orientation of a house matters for natural lighting and ventilation in the Indian context.', answer: 'In India, the sun traverses the southern sky',
                   options: ['Correct answer: In India, the sun traverses the southern sky', 'orientation doesn\'t matter', 'space planning = furniture arrangement'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "space planning = furniture arrangement".' },
-                { id: 'b', prompt: 'Compare two house plans for a family of four: Plan A has a long central corridor connecting all rooms; Plan B uses a central living area as the circulation hub.', answer: 'Correct answer: Plan B is superior',
+                { id: 'b', prompt: 'Compare two house plans for a family of four: Plan A has a long central corridor connecting all rooms; Plan B uses a central living area as the circulation hub.', answer: 'Plan B is superior',
                   options: ['Correct answer: Plan B is superior', 'corridors provide privacy', 'space planning = furniture arrangement'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "space planning = furniture arrangement".' }
@@ -180,7 +180,7 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often believe "space planning = furniture arrangement".',
           parts: [
-                { id: 'a', prompt: 'A builder advertises a flat with "100% space utilisation — no wasted corridors!" The floor plan shows the main door opening directly into the master bedroom,.', answer: 'Correct answer: The claim is misleading',
+                { id: 'a', prompt: 'A builder advertises a flat with "100% space utilisation — no wasted corridors!" The floor plan shows the main door opening directly into the master bedroom,.', answer: 'The claim is misleading',
                   options: ['Correct answer: The claim is misleading', 'saving space', 'space planning = furniture arrangement', '"space planning = furniture arrangement"'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "space planning = furniture arrangement".' },
@@ -188,7 +188,7 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
                   options: ['Expected answer: Zone 1 (Sleeping/Private)', 'space planning = furniture arrangement', '"space planning = furniture arrangement"'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "space planning = furniture arrangement".' },
-                { id: 'c', prompt: 'Compare two house plans for a family of four: Plan A has a long central corridor connecting all rooms; Plan B uses a central living area as the circulation hub.', answer: 'Correct answer: Plan B is superior',
+                { id: 'c', prompt: 'Compare two house plans for a family of four: Plan A has a long central corridor connecting all rooms; Plan B uses a central living area as the circulation hub.', answer: 'Plan B is superior',
                   options: ['Correct answer: Plan B is superior', 'corridors provide privacy', 'space planning = furniture arrangement', '"space planning = furniture arrangement"'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "space planning = furniture arrangement".' }

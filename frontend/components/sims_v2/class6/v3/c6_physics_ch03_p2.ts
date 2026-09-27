@@ -8,7 +8,7 @@ export const c6_physics_ch03_p2: SimDef = {
     subtitle: 'Your first real circuits — make a bulb glow, break it, and learn why.',
     classLevel: 6, subject: 'physics', topic: 'Electricity: Circuits and Components · Part 2/2',
     chapters: ['c6_physics_ch03'],
-    nodeIds: ['c6_physics_ch03_017', 'c6_physics_ch03_011'],
+    nodeIds: ['c6_physics_ch03_017', 'c6_physics_ch03_018'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a young inventor fixing a torch', intro: 'Your torch went dark at the worst moment. Battery\'s fine, bulb\'s fine — so what part of the loop gave up?', goal: 'Build working circuits from cells, wires and bulbs — and know why a circuit must be a complete loop.' },

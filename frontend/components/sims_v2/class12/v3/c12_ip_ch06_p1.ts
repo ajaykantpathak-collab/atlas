@@ -14,7 +14,7 @@ export const c12_ip_ch06_p1: SimDef = {
     scenario: { role: 'Web-page builder', intro: 'Before a single visible word, every page negotiates with the browser through tags nobody sees.', goal: 'Structure a valid HTML5 document — doctype, head metadata, body content — and know what each part controls.' },
     discovery: {
         question: 'A student writes a heading inside the head tag and wonders why it never renders — the browser obeyed perfectly. What\'s the head actually for?',
-        options: ['Invisible instructions — metadata like charset, viewport and title that steer the browser but never paint the page; visible content lives in body', 'Page headers', 'Styling only', 'SEO only'],
+        options: ['Invisible instructions — metadata like charset, viewport and title that steer the browser but never paint the page; visible content lives in body', 'Page headers — the head tag is where top-of-page titles belong', 'Styling only — head exists to hold CSS links and fonts', 'SEO tags only — search engines read it but browsers ignore it entirely'],
         answer: 'Invisible instructions — metadata like charset, viewport and title that steer the browser but never paint the page; visible content lives in body',
         hook: 'The doctype isn\'t a tag — it\'s a mode switch telling the browser \'standards, not quirks.\' And head versus body isn\'t optional decoration: it\'s the contract between your code and the rendering engine.',
     },

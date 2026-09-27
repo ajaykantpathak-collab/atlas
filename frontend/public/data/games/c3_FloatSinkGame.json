@@ -532,7 +532,7 @@
       }
     },
     {
-      "type": "match_density",
+      "type": "sort_density",
       "question": "Match each object to its correct behavior in water!",
       "answer": "sort",
       "options": [],
@@ -576,10 +576,52 @@
           "isCorrect": false,
           "interaction": "tap"
         }
+      ],
+      "bins": [
+        {
+          "id": "bin-float",
+          "label": "Floats ⬆️",
+          "color": "#22C55E"
+        },
+        {
+          "id": "bin-sink",
+          "label": "Sinks ⬇️",
+          "color": "#EF4444"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "d1",
+          "label": "Cork",
+          "icon": "CORK",
+          "emoji": "🟤",
+          "correctBin": "bin-float"
+        },
+        {
+          "id": "d2",
+          "label": "Plastic bottle (empty)",
+          "icon": "BOTTLE",
+          "emoji": "🍼",
+          "correctBin": "bin-float"
+        },
+        {
+          "id": "d3",
+          "label": "Glass marble",
+          "icon": "MARBLE",
+          "emoji": "⚪",
+          "correctBin": "bin-sink"
+        },
+        {
+          "id": "d4",
+          "label": "Iron ball",
+          "icon": "IRONBALL",
+          "emoji": "⚫",
+          "correctBin": "bin-sink"
+        }
       ]
     },
     {
-      "type": "material_sort",
+      "type": "sort_material",
       "question": "Sort these special objects: Feather, Sponge (dry), Metal Key, Gold Ring!",
       "answer": "sort",
       "options": [],
@@ -622,6 +664,48 @@
           "color": "#6c5ce7",
           "isCorrect": false,
           "interaction": "tap"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-float",
+          "label": "Floats ⬆️",
+          "color": "#22C55E"
+        },
+        {
+          "id": "bin-sink",
+          "label": "Sinks ⬇️",
+          "color": "#EF4444"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "m1",
+          "label": "Feather",
+          "icon": "FEATHER",
+          "emoji": "🪶",
+          "correctBin": "bin-float"
+        },
+        {
+          "id": "m2",
+          "label": "Dry sponge",
+          "icon": "SPONGE",
+          "emoji": "🧽",
+          "correctBin": "bin-float"
+        },
+        {
+          "id": "m3",
+          "label": "Metal key",
+          "icon": "KEY",
+          "emoji": "🔑",
+          "correctBin": "bin-sink"
+        },
+        {
+          "id": "m4",
+          "label": "Gold ring",
+          "icon": "RING",
+          "emoji": "💍",
+          "correctBin": "bin-sink"
         }
       ]
     }

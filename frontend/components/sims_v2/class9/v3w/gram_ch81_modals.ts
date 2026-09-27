@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c9_gram_ch81 The Function Dial (modals + modal perfects).
  * Nodes: c9_gram_cbse_81_001, 81_002. */
 export const c9_gram_ch81: SimDef = {
-    id: 'v3_c9_gram_ch81',
+    id: 'v3w_c9_gram_ch81',
     title: 'The Function Dial',
     subtitle: 'Modals are graded on function, not feel — permission, advice, obligation, possibility each has its own word and strength',
     classLevel: 9, subject: 'english-grammar', topic: 'Modals and modal perfects',

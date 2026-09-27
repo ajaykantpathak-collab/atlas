@@ -16,7 +16,7 @@ export const w_c11_psylearningcbsesim: SimDef = {
     discovery: {
         question: 'A student says: "Watson ignored the mind because he didn\'t believe it existed." Explain why this statement is a misinterpretation of Watson\'s position, using.',
         options: ['Correct answer: Watson did not deny the existence of private mental events', 'Watson proved the mind doesn\'t exist', 'Behaviourism says thoughts are illusions'],
-        answer: 'Correct answer: Watson did not deny the existence of private mental events',
+        answer: 'Watson did not deny the existence of private mental events',
         hook: 'Students often believe "Behaviourism ignores internal processes entirely" and therefore think Watson would deny that.',
     },
     teaching: [
@@ -94,15 +94,15 @@ export const w_c11_psylearningcbsesim: SimDef = {
           hint: 'If stuck, revisit Class 10 Biology Chapter 2 "Reflex Action and Reflex Arc" (node.',
           misconception: 'Students often believe "Behaviourism ignores internal processes entirely" and therefore think Watson would deny that.',
           parts: [
-                { id: 'a', prompt: 'A student says: "Watson ignored the mind because he didn\'t believe it existed." Explain why this statement is a misinterpretation of Watson\'s position, using.', answer: 'Correct answer: Watson did not deny the existence of private mental events',
+                { id: 'a', prompt: 'A student says: "Watson ignored the mind because he didn\'t believe it existed." Explain why this statement is a misinterpretation of Watson\'s position, using.', answer: 'Watson did not deny the existence of private mental events',
                   options: ['Correct answer: Watson did not deny the existence of private mental events', 'Watson proved the mind doesn\'t exist', 'Behaviourism says thoughts are illusions'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "Behaviourism ignores internal processes entirely" and therefore think Watson would deny that *thinking* or.' },
-                { id: 'b', prompt: 'Apply the S-R framework to this scenario: During a board exam, Priya\'s heart rate increases (internal physiological response) when she sees a difficult.', answer: 'Correct answer: 1',
+                { id: 'b', prompt: 'Apply the S-R framework to this scenario: During a board exam, Priya\'s heart rate increases (internal physiological response) when she sees a difficult.', answer: '1',
                   options: ['Correct answer: 1', 'conscious decision to calm down', 'Behaviourism ignores internal processes entirely'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "Behaviourism ignores internal processes entirely" and therefore think Watson would deny that *thinking* or.' },
-                { id: 'c', prompt: 'Compare and contrast how Structuralism (Wundt), Functionalism (James), and Behaviourism (Watson) would each study "fear of dogs." Create a 3-row table with.', answer: 'Correct answer: | School | Subject Matter | Method | Unit of Analysis |',
+                { id: 'c', prompt: 'Compare and contrast how Structuralism (Wundt), Functionalism (James), and Behaviourism (Watson) would each study "fear of dogs." Create a 3-row table with.', answer: '| School | Subject Matter | Method | Unit of Analysis |',
                   options: ['Correct answer: | School | Subject Matter | Method | Unit of Analysis |', 'stimulus-response', 'introspection'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "Behaviourism ignores internal processes entirely" and therefore think Watson would deny that *thinking* or.' }

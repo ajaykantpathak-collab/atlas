@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c10_gram_ch94 Small Words, Big Marks (determiners).
  * Nodes: c10_gram_cbse_94_001 (articles), 94_002 (quantifiers). */
 export const c10_gram_ch94: SimDef = {
-    id: 'v3_c10_gram_ch94',
+    id: 'v3w_c10_gram_ch94',
     title: 'Small Words, Big Marks',
     subtitle: 'a/an/the/zero is an algorithm, and the "a" in "a few" flips scarcity into sufficiency',
     classLevel: 10, subject: 'english-grammar', topic: 'Articles and quantifiers',

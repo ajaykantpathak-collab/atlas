@@ -8,7 +8,7 @@ export const c6_math_ch10_p2: SimDef = {
     subtitle: 'This node covers the definition of tessellation and the properties of regular/irregular.',
     classLevel: 6, subject: 'mathematics', topic: 'Symmetry · Part 2/2',
     chapters: ['c6_math_ch10'],
-    nodeIds: ['c6_math_ch10_111', 'c6_math_ch10_105'],
+    nodeIds: ['c6_math_ch10_111', 'c6_math_ch10_112'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a brick wall or a tiled floor and wondered why they look so neat and perfectly.', goal: 'Master every idea in this chapter.' },

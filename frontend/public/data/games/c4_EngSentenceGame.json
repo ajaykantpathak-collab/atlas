@@ -1,0 +1,682 @@
+{
+ "gameFile": "EngSentenceGame",
+ "classLevel": 4,
+ "cisceNodes": [
+  "c4_eng_002"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Sentence Structure 🏗️",
+   "text": "A sentence = Subject + Verb + Object: 'The boy (S) kicked (V) the ball (O).' Order carries meaning!",
+   "emoji": "🏗️",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Statement vs Question vs Command 🎭",
+   "text": "'You are late.' (statement) 'Are you late?' (question) 'Sit down!' (command) — same idea, different form!",
+   "emoji": "🎭",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "The Question Flip 🔄",
+   "text": "Questions flip the helper verb to the front: 'You are late' → 'Are you late?' — word order changes the type!",
+   "emoji": "🔄",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Punctuation Tells the Type ❗",
+   "text": ". = statement, ? = question, ! = command/feeling — the mark is the sentence's mood!",
+   "emoji": "❗",
+   "bgColor": "from-orange-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "Expanded Sentences 🌳",
+   "text": "'The dog ran.' → 'The big black dog ran quickly home.' — adjectives and adverbs grow the sentence!",
+   "emoji": "🌳",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "In 'The girl read a book', the subject is—",
+   "answer": "the girl",
+   "options": [
+    "the girl",
+    "read",
+    "a book"
+   ],
+   "hint": "WHO is doing the reading?",
+   "misconception": "'the girl' is the subject; 'read' is the verb, 'a book' is the object!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "the girl",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "read",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "a book",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "the girl",
+     "read"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which is a question?",
+   "answer": "Is she here?",
+   "options": [
+    "Is she here?",
+    "She is here.",
+    "Be here!"
+   ],
+   "hint": "A question asks — ends with '?'!",
+   "misconception": "'Is she here?' is a question — the helper 'is' moved to the front!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "mark",
+     "label": "Is she here?",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "mark",
+     "label": "She is here.",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "mark",
+     "label": "Be here!",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "Is she here?",
+     "She is here."
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Change to a question: 'You are ready.'",
+   "answer": "Are you ready?",
+   "options": [
+    "Are you ready?",
+    "You are ready?",
+    "Ready are you?"
+   ],
+   "hint": "Flip 'you are' to 'are you'!",
+   "misconception": "'Are you ready?' — inversion makes it a question!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "mark",
+     "label": "Are you ready?",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "mark",
+     "label": "You are ready?",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "mark",
+     "label": "Ready are you?",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "Are you ready?",
+     "You are ready?"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort by sentence type!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Period? Question mark? Command or feeling?",
+   "misconception": "Commands order ('open'), questions ask ('where'), statements declare, exclamations feel!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "Open the door.",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "Where is my bag?",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "I love cricket.",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "What a day!",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "Open the door.",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "Where is my bag?",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "I love cricket.",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "What a day!",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "command",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "question",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "statement",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "exclamation",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "Open the door.",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "Where is my bag?",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which is correct word order?",
+   "answer": "She gave me a gift.",
+   "options": [
+    "She gave me a gift.",
+    "Gave she me a gift.",
+    "She me gave a gift."
+   ],
+   "hint": "Subject → verb → object!",
+   "misconception": "S + V + O: 'She gave me a gift' — English follows this order!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "She gave me a gift.",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "Gave she me a gift.",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "She me gave a gift.",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "She gave me a gift.",
+     "Gave she me a gift."
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Expand 'The dog ran.' with an adjective+adverb.",
+   "answer": "The big dog ran quickly.",
+   "options": [
+    "The big dog ran quickly.",
+    "The ran dog big quickly.",
+    "Big ran the dog quickly."
+   ],
+   "hint": "Adjective before noun, adverb after verb!",
+   "misconception": "'The big dog ran quickly' — 'big' describes dog, 'quickly' describes ran!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "The big dog ran quickly.",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "The ran dog big quickly.",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "Big ran the dog quickly.",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "The big dog ran quickly.",
+     "The ran dog big quickly."
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'What a beautiful day!' is—",
+   "answer": "an exclamation",
+   "options": [
+    "an exclamation",
+    "a question",
+    "a statement"
+   ],
+   "hint": "'What a...' + '!' = strong feeling!",
+   "misconception": "The '!' and 'what a' frame mark it as exclamation — feeling, not question!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "mark",
+     "label": "an exclamation",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "mark",
+     "label": "a question",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "mark",
+     "label": "a statement",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "an exclamation",
+     "a question"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match each to its type!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Each sentence's punctuation and form tell its type!",
+   "misconception": "Commands order, questions ask, statements declare, exclamations burst!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "Come here!",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "What time is it?",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "The sky is blue.",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "Hurray! We won!",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "Come here!",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "What time is it?",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "The sky is blue.",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "Hurray! We won!",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "command",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "question",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "statement",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "exclamation",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "Come here!",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "What time is it?",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "sentence-forge",
+ "storyArc": {
+  "theme": "Piku forges sentences with correct word order",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Sentence Forge Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c4_eng_002",
+  "region": "Wordville",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🏗️",
+  "prerequisites": []
+ },
+ "subject": "english"
+}

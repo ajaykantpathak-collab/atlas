@@ -860,7 +860,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
               <ul className="text-xs text-slate-400 space-y-1.5 leading-relaxed">
                 <li>• Cramer values are computed with exact integer arithmetic in the numerators; the only rounding anywhere is the 4-decimal display.</li>
                 <li>• The verification strip recomputes a·x + b·y + c from YOUR sliders and shows the residual — if it is not 0, the bug is on screen, not hidden.</li>
-                <li>• Slope is shown as −a/b (a vertical line when b = 0 gets an honest &quot;vertical&quot;, not a fake number).</li>
+                <li>• Slope is shown as −a/b (a vertical line when b = 0 gets an honest &quot;vertical&quot; not a fake number).</li>
                 <li>• Word problems (boat &amp; stream, cost &amp; quantity) reduce to exactly this machine: define variables, build the pair, then cross / parallel / merge.</li>
               </ul>
             </div>

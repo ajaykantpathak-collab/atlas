@@ -14,7 +14,7 @@ export const c12_psy_ch04_p1: SimDef = {
     scenario: { role: 'Clinical frame-builder', intro: 'Two students before exams — one studies hard, one can\'t open a book. The line between them has four letters.', goal: 'Apply the Four Ds and the social-norms versus maladaptive lenses to judge abnormal behaviour.' },
     discovery: {
         question: 'A traffic policeman waves his arms wildly at an intersection; a pedestrian does the same on a quiet sidewalk. Same motion — why is only one maybe abnormal?',
-        options: ['Context — deviance is judged against the role and the norm; the policeman\'s waving is prescribed by his job, the pedestrian\'s violates the unstated rule of calm public movement', 'Uniforms exempt', 'Both abnormal', 'Neither is'],
+        options: ['Context — deviance is judged against the role and the norm; the policeman\'s waving is prescribed by his job, the pedestrian\'s violates the unstated rule of calm public movement', 'The uniform exempts him — officials cannot be deviant while on duty', 'Both are abnormal — wild arm-waving is deviant wherever it occurs', 'Neither is abnormal — free movement covers both actions equally'],
         answer: 'Context — deviance is judged against the role and the norm; the policeman\'s waving is prescribed by his job, the pedestrian\'s violates the unstated rule of calm public movement',
         hook: 'The Four Ds aren\'t a checklist demanding all four — deviance, distress and dysfunction together usually suffice without danger. And \'weird = abnormal\' fails: a ritual or a job can license behaviour that looks deviant but functions perfectly — the maladaptive lens asks whether it blocks a life.',
     },

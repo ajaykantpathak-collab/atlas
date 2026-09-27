@@ -96,11 +96,11 @@ export const w_c10_scienceacidsbasesandsaltssim: SimDef = {
           hint: 'If stuck, review writing chemical formulae (c9_chem_ch3_6) and the difference between.',
           misconception: 'Students often think that all acids are corrosive and all bases are safe, leading them to write in exams that "acids.',
           parts: [
-                { id: 'a', prompt: 'Why does dry HCl gas not turn blue litmus red, but aqueous HCl does? Explain using the Arrhenius concept.', answer: 'Correct answer: Dry HCl gas does not dissociate into H⁺ ions',
+                { id: 'a', prompt: 'Why does dry HCl gas not turn blue litmus red, but aqueous HCl does? Explain using the Arrhenius concept.', answer: 'Dry HCl gas does not dissociate into H⁺ ions',
                   options: ['Correct answer: Dry HCl gas does not dissociate into H⁺ ions', 'acids burn skin but bases do not'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that all acids are corrosive and all bases are safe, leading them to write in exams that "acids burn skin but bases do.' },
-                { id: 'b', prompt: 'A student has three colorless solutions: dilute HCl, dilute NaOH, and water.', answer: 'Correct answer: Step 1: Dip blue litmus paper into each solution',
+                { id: 'b', prompt: 'A student has three colorless solutions: dilute HCl, dilute NaOH, and water.', answer: 'Step 1: Dip blue litmus paper into each solution',
                   options: ['Correct answer: Step 1: Dip blue litmus paper into each solution', 'acids burn skin but bases do not'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that all acids are corrosive and all bases are safe, leading them to write in exams that "acids burn skin but bases do.' }
@@ -111,7 +111,7 @@ export const w_c10_scienceacidsbasesandsaltssim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think that all acids are corrosive and all bases are safe, leading them to write in exams that "acids.',
           parts: [
-                { id: 'a', prompt: 'A student writes: "All bases are alkalis, but all alkalis are not bases." Evaluate this statement and correct it if necessary.', answer: 'Correct answer: The statement is incorrect',
+                { id: 'a', prompt: 'A student writes: "All bases are alkalis, but all alkalis are not bases." Evaluate this statement and correct it if necessary.', answer: 'The statement is incorrect',
                   options: ['Correct answer: The statement is incorrect', 'acids burn skin but bases do not'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that all acids are corrosive and all bases are safe, leading them to write in exams that "acids burn skin but bases do.' },

@@ -1,6 +1,6 @@
 import type { SimDef } from '../../engine/types';
 
-/** v3 generated — c12_ca_ch04 (3 nodes). Deterministic build
+/** v3 generated — c12_ca_ch04 (4 nodes). Deterministic build
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_ca_ch04: SimDef = {
     id: 'v3_c12_ca_ch04',
@@ -8,7 +8,7 @@ export const c12_ca_ch04: SimDef = {
     subtitle: 'The pie chart that hid five years of decline',
     classLevel: 12, subject: 'computerised_accounting', topic: 'OVERVIEW OF',
     chapters: ['c12_ca_ch04'],
-    nodeIds: ['c12_ca_cbse_04_001', 'c12_ca_cbse_04_002', 'c12_ca_cbse_04_003'],
+    nodeIds: ['c12_ca_cbse_04_001', 'c12_ca_cbse_04_002', 'c12_ca_cbse_04_003', 'c12_ca_cbse_04_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'Data storyteller', intro: 'Rows of numbers hide every pattern; the right chart makes them shout. Choose wrong, and it whispers a lie.', goal: 'Identify chart elements and select the correct chart type for a given business question.' },
@@ -56,7 +56,7 @@ export const c12_ca_ch04: SimDef = {
                 { text: 'Yes — Excel will arrange any data into any chart type correctly.', outcome: 'Pie charts take exactly one positive series of up to seven categories; the other quarters are silently dropped and a loss can\'t even be a slice.', reveals: 'any-chart-works' },
                 { text: 'Yes — and he can add a second ring to the pie to show both this year and last year.', outcome: 'That\'s a doughnut chart, and stacking rings of shares still can\'t render a time trend or negative quarters.', reveals: 'pie-for-time-trend' }
             ] }] } },
-        { type: 'case', nodeId: 'c12_ca_cbse_04_003', title: 'You made it',
+        { type: 'case', nodeId: 'c12_ca_cbse_04_004', title: 'You made it',
           caseStudy: { intro: 'You can now match a business question to the chart that answers it — and spot the chart that quietly lies. That\'s the whole of this chapter and half of real-world reporting.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [
                 { text: 'Show me my results', outcome: 'Your mastery map is waiting.' },
@@ -126,7 +126,18 @@ export const c12_ca_ch04: SimDef = {
                   hint: 'If unsure which chart type serves which advantage, return to **c12_ca_cbse_04_001 Figure 4.1**.',
                   misconception: '**Misconception:** "Graphs are just for making reports look professional; the real analysis happens in pivot tables." **Why students make.' }
           ],
-            remediations: { 'misconception-graphs-are-just-for': { steps: ['**Revisit node c12_ca_cbse_04_001 (Graphs And Charts)** — specifically the "Elements of a Chart" and "2D vs 3D".', 'Identify *which visual channel* (position, length, angle, area) each chart type uses.', '**Re-do Diagnostic Q4** with a fresh dataset: create both a pie and stacked 100% bar for the same 7-category data.', 'Physically measure slice angles vs bar lengths with a ruler — quantify the perception error.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'misconception-graphs-are-just-for': { steps: ['**Revisit node c12_ca_cbse_04_001 (Graphs And Charts)** — specifically the "Elements of a Chart" and "2D vs 3D".', 'Identify *which visual channel* (position, length, angle, area) each chart type uses.', '**Re-do Diagnostic Q4** with a fresh dataset: create both a pie and stacked 100% bar for the same 7-category data.', 'Physically measure slice angles vs bar lengths with a ruler — quantify the perception error.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_ca_cbse_04_004', difficulty: 'standard',
+          question: 'Chart selection and interpretation in computerised accounting is the skill.',
+          hint: 'Work step by step.',
+          misconception: 'Students pick the prettiest chart type rather than the matching one — a pie of monthly sales tells nothing.',
+          parts: [
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Chart selection and interpretation in computerised accounting is the skill of matching',
+                  options: ['Chart selection and interpretation in computerised accounting is the skill of matching', 'A graph or chart in computerised accounting is a visual representation of financial or', 'The basic steps for creating graphs/charts in Excel involve: (1) entering structured data', 'The advantages of using graphs and charts in computerised accounting refer to the three'],
+                  hint: 'Recall the definition.',
+                  misconception: 'Students pick the prettiest chart type rather than the matching one — a pie of monthly sales tells nothing.' }
+          ],
+            remediations: { 'students-pick-the-prettiest-chart': { steps: ['Name the data\'s question first: \'how does it change over time\' → line; \'what share does each part take\' → pie; \'which.', 'Then read the axes before reading the shape.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

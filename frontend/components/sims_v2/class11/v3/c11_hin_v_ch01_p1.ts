@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_v_ch01_p1: SimDef = {
     id: 'v3_c11_hin_v_ch01_p1',
-    title: 'tc lsD\'ku vkfI+kQlj · Part 1/3',
+    title: 'पाठ 1 · Part 1/3',
     subtitle: 'Watch theatre\'s grammar shift from the spoken word to the seen image.',
-    classLevel: 11, subject: 'hin_v', topic: 'tc lsD\'ku vkfI+kQlj · Part 1/3',
+    classLevel: 11, subject: 'hin_v', topic: 'पाठ 1 · Part 1/3',
     chapters: ['c11_hin_v_ch01'],
     nodeIds: ['c11_hin_v_cbse_01_001', 'c11_hin_v_cbse_01_002', 'c11_hin_v_cbse_01_003', 'c11_hin_v_cbse_01_004', 'c11_hin_v_cbse_01_005', 'c11_hin_v_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,48 +19,20 @@ export const c11_hin_v_ch01_p1: SimDef = {
         hook: 'Agyeya opens by hearing a gramophone before seeing anything — a miniature of his thesis: modern theatre detached sound from sight and rewired the senses.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the historical, cultural, and literary framework necessary to understand the essay "Hkkjrh; xkf;dkvksa esa cstksM+µyrk eaxs\'kdj" by Agyeya.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 1 — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है — पाठ की रचना के ऐतिहासिक, सामाजिक, सांस्कृतिक संदर्भ (पृष्ठभूमि) तथा लेखक के जीवन, साहित्यिक यात्रा, विचारधारा और प्रमुख कृतियों का संक्षिप्त विवरण (रचनाकार.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_01_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Split classical Sanskrit, Parsi-folk and Mohan Rakesh\'s realism into their governing principles, then judge whether word-dominant and visual-dominant theatre can even be compared.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['पाठ 1 — पृष्ठभूमि', 'पाठ 1 — कथानक', 'पाठ 1 — पाठ्य-परिवेश', 'पाठ 1 — पात्र-चित्रण', 'पाठ 1 — मुख्य'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a play but the programme notes are in a language you barely understand—you\'d miss half the meaning.',
-            decisions: [{ prompt: 'According to the background context, what is the fundamental difference between साहित्यिक नाट्य (literary drama) and रंगमंचीय नाट्य.', options: [
-                { text: 'साहित्यिक नाट्य is written primarily for reading—its medium is language on the page, and', outcome: 'साहित्यिक नाट्य is written primarily for reading—its medium is language on the page, and its.' },
-                { text: 'one is old, one is new', outcome: 'Not quite — Students treat \'context and background\' as a list of facts to memorize (dates, names, movements).', reveals: 'students-treat-context-and-background' },
-                { text: 'one is better than the other', outcome: 'Not quite — Students treat \'context and background\' as a list of facts to memorize (dates, names, movements).', reveals: 'students-treat-context-and-background' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a film and suddenly the screen goes black — you only hear sounds.',
-            decisions: [{ prompt: 'What are the three structural components (feuV) of a traditional play as referenced in the text, and which term does the author use for the.', options: [
-                { text: 'The three components are: प्रस्तावना (exposition), विकास (development/rising action), and', outcome: 'The three components are: प्रस्तावना (exposition), विकास (development/rising action), and उपसंहार.' },
-                { text: 'climax', outcome: 'Not quite — Students confuse "plot" (what happens in the story) with "narrative structure" (how the story.', reveals: 'students-confuse-plot-what-happens' },
-                { text: 'rising action', outcome: 'Not quite — Students confuse "plot" (what happens in the story) with "narrative structure" (how the story.', reveals: 'students-confuse-plot-what-happens' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you walk into your grandfather\'s study and hear an old gramophone crackle to life—suddenly the room feels thicker with history than with furniture.',
-            decisions: [{ prompt: 'What is the primary physical setting where the narrator first hears the \'लोज\' (sound), and what time of day does it occur?', options: [
-                { text: 'The primary physical setting is the narrator\'s private study/room (ड्योढ़ी/कमरा) and it', outcome: 'The primary physical setting is the narrator\'s private study/room (ड्योढ़ी/कमरा) and it occurs.' },
-                { text: 'art gallery', outcome: 'Not quite — Students often treat \'setting\' as only the physical location (the room) and \'atmosphere\' as.', reveals: 'students-often-treat-setting-as' },
-                { text: 'daytime', outcome: 'Not quite — Students often treat \'setting\' as only the physical location (the room) and \'atmosphere\' as.', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are introducing your friend to a remarkable artist you met — you wouldn\'t just say "she paints well"; you\'d describe the moment she mixed colours.',
-            decisions: [{ prompt: 'What is the primary textual evidence used to establish Yashodhara\'s impatience with superficial art appreciation in the opening paragraph?', options: [
-                { text: 'The author describes Yashodhara becoming restless ("व्याकुल") and speaking sharply', outcome: 'The author describes Yashodhara becoming restless ("व्याकुल") and speaking sharply ("तीक्ष्ण स्वर").' },
-                { text: 'she smiled politely', outcome: 'Not quite — Students often treat Yashodhara as a fictional character with a plotted arc, expecting a clear.', reveals: 'students-often-treat-yashodhara-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re watching a documentary about a blind painter. The camera focuses on the painter, but you notice the people around them—the teacher who first.',
-            decisions: [{ prompt: 'List all supporting characters (individuals or groups) explicitly mentioned or referenced in the essay "Hkkjrh; xkf;dkvksa esa cstksM+µyrk.', options: [
-                { text: 'The supporting characters are: (1) The blind painter\'s first teacher (uwjtgk¡), who', outcome: 'The supporting characters are: (1) The blind painter\'s first teacher (uwjtgk¡), who introduced him.' },
-                { text: 'character', outcome: 'Not quite — Students often treat supporting characters in non-fiction essays as mere "background information".', reveals: 'students-often-treat-supporting-characters' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_v_cbse_01_002', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 1 · Part 1/3', spots: [
+            { id: 's1', label: '1 -', prompt: 'Which idea is this? — **कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो.', answer: '1 -', options: ['1 -', '1 -'] },
+            { id: 's2', label: '1 -', prompt: 'Which idea is this? — पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक.', answer: '1 -', options: ['1 -', '1 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_01_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your theatre club is adapting a stage play into a short film. A member says: \'Just film the play — theatre is literature, cinema is just literature with a camera. Agyeya\'s essay on Mohan Rakesh is basically a biography of a playwright.\'',
             decisions: [{ prompt: 'What does Agyeya\'s argument actually say?', options: [
@@ -70,8 +42,8 @@ export const c11_hin_v_ch01_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_01_006', title: 'The bigger picture',
           caseStudy: { intro: 'Comparing classical and cinematic theatre is like comparing poetry to architecture — different substances, different rules, different eyes.',
-            decisions: [{ prompt: 'What comes next? tc lsD\'ku vkfI+kQlj · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — tc lsD\'ku vkfI+kQlj · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 1 · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 1 · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -80,94 +52,71 @@ export const c11_hin_v_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the historical, cultural.',
-          hint: 'If stuck, review the difference between नाट्यशैली (dramatic style/convention) and.',
-          misconception: 'Students treat \'context and background\' as a list of facts to memorize (dates, names, movements) rather than as.',
+          question: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है — पाठ की रचना के ऐतिहासिक, सामाजिक.',
+          hint: 'यदि अटका हुआ महसूस हो तो: \'हिंदी साहित्य का इतिहास — आधुनिक काल की प्रमुख प्रवृत्तियाँ\'.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'रचनाकार परिचय\' का अर्थ है — जन्मतिथि, मृत्युतिथि, शिक्षा, पुरस्कारों की सूची.',
           parts: [
-                { id: 'a', prompt: 'Agyeya states: "चित्रकाव्य नाट्य के कारण लेखिक नाट्य की परम्परा उपेक्षित नहीं हुई, बल्कि दर्शकों का साहित्यिक नाट्य को देखने का दृष्टिकोण भी बदल गया।" Explain.', answer: 'Visual drama did not replace or diminish literary drama',
-                  options: ['Visual drama did not replace or diminish literary drama', 'visual drama killed literary drama', 'they have nothing to do with each other'],
-                  hint: 'If stuck, review the difference between नाट्यशैली (dramatic style/convention) and यथार्थवाद.',
-                  misconception: 'Students treat \'context and background\' as a list of facts to memorize (dates, names, movements) rather than as a conceptual lens.' },
-                { id: 'b', prompt: 'The text mentions three historical phases: classical Sanskrit theatre (with its निर्दिष्ट नियम), Parsi/folk theatre (लोक-रंजक), and modern realistic theatre.', answer: 'It inherits primarily from the modern realistic phase (Mohan Rakesh)',
-                  options: ['It inherits primarily from the modern realistic phase (Mohan Rakesh)', 'classical'],
-                  hint: 'If stuck, review the difference between नाट्यशैली (dramatic style/convention) and यथार्थवाद.',
-                  misconception: 'Students treat \'context and background\' as a list of facts to memorize (dates, names, movements) rather than as a conceptual lens.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है',
+                  options: ['पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: \'हिंदी साहित्य का इतिहास — आधुनिक काल की प्रमुख प्रवृत्तियाँ\' (कक्षा.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'रचनाकार परिचय\' का अर्थ है — जन्मतिथि, मृत्युतिथि, शिक्षा, पुरस्कारों की सूची रट लेना (बायोडेटा.' }
           ],
-            remediations: { 'students-treat-context-and-background': { steps: ['Ask the student to read aloud the paragraph where Agyeya describes "ध्वनि, प्रकाश, मौन" as the grammar of visual drama.', 'Have them list three things a novel can do that a stage play cannot, and three things a stage play can do that a novel.', 'Show a 2-minute clip of a modern Hindi play (e.g., Mohan Rakesh\'s "Aadhe Adhure" staging) with sound off, then with.', 'Re-read the essay\'s opening anecdote (Agyeya hearing a sound in his room, mistaking it for a ghost, then realizing it\'s.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरणबद्ध उपचार:** 1) छात्र से कहें: \'रचनाकार की जन्मतिथि भूल जाओ, केवल यह बताओ कि उनके जीवन की कौन-सी एक बात तुम्हें.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure refers to the organized sequence of events in.',
-          hint: 'Review the story/discourse distinction using a familiar fairy tale: Cinderella\'s story.',
-          misconception: 'Students confuse "plot" (what happens in the story) with "narrative structure" (how the story is arranged and told).',
+          question: '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम.',
+          hint: 'यदि अटका हुआ महसूस हो तो **\'घटना-मानचित्र\' (Event Map)** बनाएँ: एक रेखा खींचें, उस पर.',
+          misconception: '**विशिष्ट भ्रम:** छात्र **\'कालक्रम भंग\' (anachrony)** को **\'कथानक में छेद\' (plot hole)** समझ लेते हैं। **गलत तर्क:**.',
           parts: [
-                { id: 'a', prompt: 'The author states: "fp=kiV laxhr dk rky izkFkfed voLFkk dk rky gksrk gS" (Cinematic theatre\'s director is the director of the fundamental state).', answer: '"voLFkk" here means the foundational visual-aural reality of the performance',
-                  options: ['"voLFkk" here means the foundational visual-aural reality of the performance', 'director vs playwright hierarchy'],
-                  hint: 'Review the story/discourse distinction using a familiar fairy tale: Cinderella\'s story = girl loses.',
-                  misconception: 'Students confuse "plot" (what happens in the story) with "narrative structure" (how the story is arranged and told).' },
-                { id: 'b', prompt: 'Compare the narrative function of "djQ.k jl" (delicate water/water-like subtlety) in the author\'s description of his own writing versus "xkuiu" in fp=kiV.', answer: '"djQ.k jl" represents the author\'s literary method: subtle, inferential, flowing',
-                  options: ['"djQ.k jl" represents the author\'s literary method: subtle, inferential, flowing', 'both mean subtlety'],
-                  hint: 'Review the story/discourse distinction using a familiar fairy tale: Cinderella\'s story = girl loses.',
-                  misconception: 'Students confuse "plot" (what happens in the story) with "narrative structure" (how the story is arranged and told).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो',
+                  options: ['**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **\'घटना-मानचित्र\' (Event Map)** बनाएँ: एक रेखा खींचें, उस पर घटनाएँ.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र **\'कालक्रम भंग\' (anachrony)** को **\'कथानक में छेद\' (plot hole)** समझ लेते हैं। **गलत तर्क:** "लेखक ने घटनाएँ उलझा.' }
           ],
-            remediations: { 'students-confuse-plot-what-happens': { steps: ['Have the student draw a horizontal line. Mark three points: "Gramophone Memory," "Film Case Study," "Theory of Two.', 'Ask: "What does each section DO for the reader?" (Hook → Illustrate → Generalize).', 'Give them a new short text (e.g., a film review) and ask them to map its structure using the same three labels.', 'Explicitly contrast: "Plot = beads. Structure = the string and the pattern." Repeat until they label function, not.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'anachrony-plot-hole': { steps: ['**दृश्यीकरण (Visualize):** छात्र से कहें — कहानी की 5-6 प्रमुख घटनाएँ **इंडेक्स कार्ड** पर लिखें। उन्हें **कालक्रम.', '**पुनर्व्यवस्था (Reorder):** अब कार्ड्स को **पाठ के क्रम** में जमाएँ — जहाँ अंतर दिखे, वहाँ **रंगीन पेन से तीर खींचें**.', '**कार्य-प्रश्न (Function Question):** हर तीर पर पूछें: *"लेखक ने यहाँ क्रम क्यों तोड़ा?', 'पाठक को क्या महसूस कराना चाहा?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_003', difficulty: 'standard',
-          question: 'Setting in this essay refers to the physical, temporal, and cultural backdrop.',
-          hint: 'If stuck, review the distinction between \'frame narrative\' (the night in the room) and.',
-          misconception: 'Students often treat \'setting\' as only the physical location (the room) and \'atmosphere\' as a single mood (sadness).',
+          question: 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं.',
+          hint: 'यदि अटका हुआ महसूस हो तो **कक्षा 10 की किसी भी कहानी (जैसे \'बड़े भाई साहब\', \'डायरी का एक.',
+          misconception: '**विशिष्ट भ्रांति**: छात्र अक्सर मानते हैं कि **"वातावरण = मौसम (Weather) या ऋतु (Season)"** — क्योंकि हिंदी में.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words how the \'atmosphere\' of the opening paragraph differs from the atmosphere of the paragraph where the author discusses Raja Ravi.', answer: 'The opening atmosphere is intimate, suspenseful, and subjective—dominated by the',
-                  options: ['The opening atmosphere is intimate, suspenseful, and subjective—dominated by the', 'informative'],
-                  hint: 'If stuck, review the distinction between \'frame narrative\' (the night in the room) and \'embedded.',
-                  misconception: 'Students often treat \'setting\' as only the physical location (the room) and \'atmosphere\' as a single mood (sadness).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक',
+                  options: ['पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **कक्षा 10 की किसी भी कहानी (जैसे \'बड़े भाई साहब\', \'डायरी का एक पन्ना\') को.',
+                  misconception: '**विशिष्ट भ्रांति**: छात्र अक्सर मानते हैं कि **"वातावरण = मौसम (Weather) या ऋतु (Season)"** — क्योंकि हिंदी में \'वातावरण\' शब्द दैनिक.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student draw three concentric circles labeled \'Room\', \'Studio\', \'Art Market\'.', 'Ask them to place 5 textual quotes in the correct circle (e.g., "मेरे कमरे में लोज" → Room; "चित्रकार के पास शिष्य.', 'For each circle, write one adjective describing the atmosphere (e.g., Room: claustrophobic; Studio: emptied; Market.', 'Finally, ask: "Which circle does the author\'s voice occupy at the end?" (Answer: all three simultaneously—this is the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_003', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat \'setting\' as only the physical location (the room) and \'atmosphere\' as a single mood (sadness).',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the author\'s decision to end the essay with the image of "रात के तीन-तीन पहर" (three watches of the night) and the continuing sound of the record.', answer: 'It strengthens the argument',
-                  options: ['It strengthens the argument', 'just a nice ending'],
-                  hint: 'If stuck, review the distinction between \'frame narrative\' (the night in the room) and \'embedded.',
-                  misconception: 'Students often treat \'setting\' as only the physical location (the room) and \'atmosphere\' as a single mood (sadness).' }
-          ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student draw three concentric circles labeled \'Room\', \'Studio\', \'Art Market\'.', 'Ask them to place 5 textual quotes in the correct circle (e.g., "मेरे कमरे में लोज" → Room; "चित्रकार के पास शिष्य.', 'For each circle, write one adjective describing the atmosphere (e.g., Room: claustrophobic; Studio: emptied; Market.', 'Finally, ask: "Which circle does the author\'s voice occupy at the end?" (Answer: all three simultaneously—this is the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'weather-season': { steps: ['**चरणबद्ध उपचार**: १) छात्र से कहें: "कमरे की खिड़की से बाहर देखो और **पाँच संज्ञाएँ** लिखो जो दिखें (पेड़, सड़क, कार.', 'कैसे?" — इससे वे समझेंगे कि **वस्तु (परिवेश) वही, दृष्टि (वातावरण) बदली**। ४) अंत में पाठ से एक अंश देकर दोनों पहचानने.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves systematically examining the.',
-          hint: 'Review the difference between biography and character portrayal in memoir — re-read node.',
-          misconception: 'Students often treat Yashodhara as a fictional character with a plotted arc, expecting a clear \'beginning-middle-end\'.',
+          question: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें.',
+          hint: 'यदि अटके तो **c11_hin_v_cbse_01_002 (कथानक और आख्यान-संरचना)** के \'मोड़ प्रसंग पहचान\' खंड.',
+          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **\'पात्र-चित्रण\' = \'पात्र का वर्णन\' (description)** — अर्थात् नायक के गुणों की.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why the author considers Yashodhara\'s blending of traditional techniques with modern sensibility as her defining artistic trait.', answer: 'The author values this blend',
-                  options: ['The author values this blend', 'she uses old colours'],
-                  hint: 'Review the difference between biography and character portrayal in memoir — re-read node 002\'s.',
-                  misconception: 'Students often treat Yashodhara as a fictional character with a plotted arc, expecting a clear \'beginning-middle-end\' transformation.' },
-                { id: 'b', prompt: 'The author writes: "उसकी कला में लोक का सौन्दर्य और शास्त्र की गहराई दोनों हैं।" Identify two specific moments in the text where Yashodhara demonstrates folk.', answer: 'Folk aesthetics: (1) using village women\'s tattoo patterns as border motifs, (2)',
-                  options: ['Folk aesthetics: (1) using village women\'s tattoo patterns as border motifs, (2)', 'she paints villages'],
-                  hint: 'Review the difference between biography and character portrayal in memoir — re-read node 002\'s.',
-                  misconception: 'Students often treat Yashodhara as a fictional character with a plotted arc, expecting a clear \'beginning-middle-end\' transformation.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के',
+                  options: ['पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें नायक/प्रमुख पात्र के', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि अटके तो **c11_hin_v_cbse_01_002 (कथानक और आख्यान-संरचना)** के \'मोड़ प्रसंग पहचान\' खंड को.',
+                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **\'पात्र-चित्रण\' = \'पात्र का वर्णन\' (description)** — अर्थात् नायक के गुणों की **सूची (list.' }
           ],
-            remediations: { 'students-often-treat-yashodhara-as': { steps: ['Have the student list all author-narrated incidents chronologically on index cards.', 'Colour-code each card by the author\'s apparent purpose: \'shows technique\', \'shows philosophy\', \'shows social role\'.', 'Ask: "Which pile has the most cards?', 'Why did the author need so many examples of that trait?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'description-list-of-traits': { steps: ['**मॉडलिंग**: छात्र को एक **कमजोर उत्तर** (केवल विशेषणों की सूची) और एक **बलशाली उत्तर** (PEEL संरचना में प्रमाण सहित).', '**संयुक्त अभ्यास**: एक छोटा प्रसंग दो, छात्र से कहो — "इससे नायक के बारे में **एक** निष्कर्ष निकालो और **पाठ से एक.', '**आयाम-विस्तार**: जब वह एक गुण + प्रमाण दे सके, तब कहो — "अब **दूसरा आयाम** ढूँढो जो पहले से **विपरीत या पूरक** हो.', '**स्व-मूल्यांकन चेकलिस्ट**: उसे दें — "क्या मेरे उत्तर में: (क) Point है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining how secondary.',
-          hint: 'Review the protagonist\'s key traits: blindness as artistic method, rejection of classical.',
-          misconception: 'Students often treat supporting characters in non-fiction essays as mere "background information" or "examples" rather.',
+          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के.',
+          hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_v_cbse_01_004 (नायक पात्र-चित्रण)** के अपने नोट्स.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"सहायक पात्र का विश्लेषण करने का अर्थ है — उसका अलग से \'चरित्र-चित्रण\'.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words how the essay portrays the difference between classical artists (shastriya kalakar) and folk artists (lok kalakar) as collective.', answer: 'Classical artists are portrayed as rigid, rule-bound, and focused on technical',
-                  options: ['Classical artists are portrayed as rigid, rule-bound, and focused on technical', 'different styles'],
-                  hint: 'Review the protagonist\'s key traits: blindness as artistic method, rejection of classical training.',
-                  misconception: 'Students often treat supporting characters in non-fiction essays as mere "background information" or "examples" rather than deliberate.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के कथानक-गति,',
+                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के कथानक-गति,', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_v_cbse_01_004 (नायक पात्र-चित्रण)** के अपने नोट्स दोबारा पढ़ें.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"सहायक पात्र का विश्लेषण करने का अर्थ है — उसका अलग से \'चरित्र-चित्रण\' (character sketch) लिख.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['Create a two-column chart. Column A: Each supporting character/group.', 'For each row, find one sentence from the text proving the Column B claim.', 'Draw arrows showing how each Column B idea connects to the essay\'s central thesis: "Folk art\'s vitality lies in its.', 'Ask the student to explain aloud: "If this character were removed, what argument would weaken?" This makes their.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'character-sketch': { steps: ['**लक्षित उपचार (Targeted Remediation):** 1.', '**चरण 1 — शब्दावली परिवर्तन:** छात्र से कहें: "आज से \'पात्र\' को \'व्यक्ति\' मत कहो, उसे **\'उपकरण\' (tool)** या **\'कार्य\'.', '**चरण 2 — \'हटाओ-परीक्षण\' (Deletion Test) अभ्यास:** पाठ के 3 सहायक पात्र चुनें। प्रत्येक के लिए पूछें: *"इसे मिटा दो। अब.', '**चरण 3 — लेबलिंग ड्रिल:** प्रत्येक पात्र के आगे एक **कार्यात्मक टैग (functional tag)** चिपकाएँ: [प्रतिपक्षी], [फॉयल].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_006', difficulty: 'standard',
-          question: 'The primary theme is the central, unifying idea or message that the author.',
-          hint: 'If stuck, review the plot summary (c11_hin_v_cbse_01_002) and the protagonist\'s character.',
-          misconception: 'Students often confuse the **primary theme** with the **protagonist\'s biography** or a **moral lesson**.',
+          question: 'मुख्य विषय (Central Theme) वह केंद्रीय विचार या सार्वभौमिक सत्य है जिसे रचनाकार.',
+          hint: 'यदि अटके तो **c11_hin_v_cbse_01_002 (कथानक और आख्यान-संरचना)** के \'क्लाइमेक्स\' और.',
+          misconception: 'छात्र अक्सर **\'मुख्य विषय\' को \'कहानी का नैतिक उपदेश\' (Moral of the story) मान लेते हैं** — जैसे "झूठ मत बोलो", "बड़ों.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme is the central, unifying idea or message that the author conveys',
-                  options: ['The primary theme is the central, unifying idea or message that the author conveys', '"Before You Read: Context and Background" provides the historical, cultural, and literary', 'Plot and Narrative Structure refers to the organized sequence of events in a literary', 'Setting in this essay refers to the physical, temporal, and cultural backdrop against'],
-                  hint: 'If stuck, review the plot summary (c11_hin_v_cbse_01_002) and the protagonist\'s character arc.',
-                  misconception: 'Students often confuse the **primary theme** with the **protagonist\'s biography** or a **moral lesson**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय (Central Theme) वह केंद्रीय विचार या सार्वभौमिक सत्य है जिसे रचनाकार संपूर्ण',
+                  options: ['मुख्य विषय (Central Theme) वह केंद्रीय विचार या सार्वभौमिक सत्य है जिसे रचनाकार संपूर्ण', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि अटके तो **c11_hin_v_cbse_01_002 (कथानक और आख्यान-संरचना)** के \'क्लाइमेक्स\' और \'निर्णायक मोड़\'.',
+                  misconception: 'छात्र अक्सर **\'मुख्य विषय\' को \'कहानी का नैतिक उपदेश\' (Moral of the story) मान लेते हैं** — जैसे "झूठ मत बोलो", "बड़ों का आदर करो"। यह भूल.' }
           ],
-            remediations: { 'students-often-confuse-the-primary': { steps: ['**Re-read only the author\'s reflective passages** (ignore narrative events) – highlight every sentence starting with.', '**List the key claims** made in those passages (e.g., "Art is xkuiu", "Traditional and modern art cannot compromise").', '**Group the claims** into one coherent statement: "The chapter argues that modern Indian painting is a necessary.', '**Verify** by checking if *every* major event in the narrative serves as an example for this statement.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'moral-of-the-story': { steps: ['**पुनर्परिभाषित करें:** छात्र से कहें — "मुख्य विषय वह **प्रश्न** है जो रचना बार-बार पूछती है, **उत्तर** नहीं। पाठ 1.', '(उदाहरण: \'क्या चुप रहना सुरक्षित है?\')" 2.', '**सबूत-आधारित निष्कर्षण:** छात्र से पाठ के **3 विशिष्ट स्थल** (पृष्ठ/पंक्ति) मांगें जहां वह प्रश्न गूंजता हो — संवाद.', '**सामान्यीकरण का अभ्यास:** उन 3 स्थलों से **एक वाक्य में पैटर्न** निकालने को कहें: "हर बार जब नायक बोलना चाहता है.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

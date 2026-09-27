@@ -1696,7 +1696,7 @@ function C12_MassMediaRoleSocialMediaSim({
                       <div>
                         <h4 className="font-bold text-sky-300 text-sm">Online Frauds & UPI Scams (IT Act 66D)</h4>
                         <p className="text-slate-300 mt-1 leading-relaxed">
-                          Phishing, fake &quot;KBC WhatsApp lotteries&quot;, OTP theft, and QR code scams. Constitutes ~60% of all registered cyber crimes according to NCRB.
+                          Phishing, fake &quot;KBC WhatsApp lotteries&quot; OTP theft, and QR code scams. Constitutes ~60% of all registered cyber crimes according to NCRB.
                         </p>
                         <div className="mt-2 text-emerald-400 font-semibold">
                           ✓ Immediate Action: Call 1930 Helpline immediately to freeze transaction channels.

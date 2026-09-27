@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch02_p1: SimDef = {
     id: 'v3_c12_hin_a_ch02_p1',
-    title: 'lfPpnkuan ghjkuan okRL;k;u ^vKs; · Part 1/3',
+    title: 'सरोज स्मृति · Part 1/3',
     subtitle: 'He lost everything — and gained every register of the language',
-    classLevel: 12, subject: 'hin_a', topic: 'lfPpnkuan ghjkuan okRL;k;u ^vKs; · Part 1/3',
+    classLevel: 12, subject: 'hin_a', topic: 'सरोज स्मृति · Part 1/3',
     chapters: ['c12_hin_a_ch02'],
     nodeIds: ['c12_hin_a_cbse_02_001', 'c12_hin_a_cbse_02_002', 'c12_hin_a_cbse_02_003', 'c12_hin_a_cbse_02_004', 'c12_hin_a_cbse_02_005', 'c12_hin_a_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,48 +19,15 @@ export const c12_hin_a_ch02_p1: SimDef = {
         hook: 'Nirala outgrew Chhayavad\'s self-centred lyricism — from subjective romance to epic history, satire and metaphysical inquiry. His language had \'many forms and levels\': the same pen wrote high-Sanskrit prayer and village-cornfield satire. Grief was the fuel; craft was the engine.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory section that provides essential biographical, historical, and literary information about the author (फुज्क्यक/निराला) and the socio-cultural.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सरोज स्मृति — कवि परिचय और पृष्ठभूमि', text: 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों, राष्ट्रभक्ति और सामाजिक चेतना को दर्शाता है, जिसमें काव्यात्मक सौंदर्य और गहरे भावनात्मक संदेश समाहित हैं।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_02_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Trace a poet\'s alchemy: follow the losses that forged him, map his leap beyond Chhayavad\'s bounds, and hear one voice speak in epic Sanskrit and village Avadhi both.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['सरोज स्मृति — कवि', 'सरोज स्मृति — पद्यांश-वार', 'सरोज स्मृति — काव्य-संरचना', 'सरोज स्मृति — केंद्रीय', 'सरोज स्मृति — छंद', 'सरोज स्मृति — साहित्यिक'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_02_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a film but the director gives you a 2-minute prelude: "This story was written by a man who lost his mother at 12, his father.',
-            decisions: [{ prompt: 'Identify the three major personal losses फुज्क्यक suffered before age 40, and state the year his first published poem "तवघ्र की दह".', options: [
-                { text: 'Correct answer: Mother\'s death (1918), father\'s death (shortly after), wife\'s death (year', outcome: 'Correct answer: Mother\'s death (1918), father\'s death (shortly after), wife\'s death (year not.' },
-                { text: 'only mother died', outcome: 'Not quite — Students treat "Before You Read" as optional background reading rather than examinable content.', reveals: 'students-treat-before-you-read' },
-                { text: 'first poem in 1922', outcome: 'Not quite — Students treat "Before You Read" as optional background reading rather than examinable content.', reveals: 'students-treat-before-you-read' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_02_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you open a family album and see a faded photograph of a young woman you never met. The photo sparks curiosity: Who was she? What happened?',
-            decisions: [{ prompt: 'Define "plot" and "narrative structure" in the context of a narrative poem. How do they differ from a simple summary?', options: [
-                { text: 'Plot is the causal sequence of events (what happens and why)', outcome: 'Plot is the causal sequence of events (what happens and why); narrative structure is the artistic.' },
-                { text: 'structure', outcome: 'Not quite — Students often treat "plot" as a mere list of "what happens" and "structure" as synonymous with.', reveals: 'students-often-treat-plot-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_02_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you walk into your grandmother\'s house at dusk — the smell of incense, the sound of a ticking clock, the soft light through the curtains — and you.',
-            decisions: [{ prompt: 'What are the two main components of setting in a poem, and give one example of each from the first stanza of "ljkst Le`fr"?', options: [
-                { text: 'The two main components are time and place', outcome: 'The two main components are time and place. In the first stanza, time is "evening" (fookg, vkewy.' },
-                { text: 'characters and plot', outcome: 'Not quite — Students often treat setting as a static list of physical details (time: evening, place: riverbank).', reveals: 'students-often-treat-setting-as' },
-                { text: 'the poet feels happy', outcome: 'Not quite — Students often treat setting as a static list of physical details (time: evening, place: riverbank).', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_02_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re describing your best friend to someone who\'s never met them — you\'d mention their habits, how they react in crises, and how they\'ve changed over.',
-            decisions: [{ prompt: 'What is the literal meaning of the protagonist\'s name "लज्जा" and how does the poet use it ironically in the opening stanza?', options: [
-                { text: '"लज्जा" literally means "shame" or "modesty/shyness"', outcome: '"लज्जा" literally means "shame" or "modesty/shyness". The poet uses it ironically because the name.' },
-                { text: 'her name means beauty', outcome: 'Not quite — Students treat लज्जा as a static symbol of "Indian womanhood" rather than a dynamic character with.', reveals: 'students-treat-as-a-static' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_02_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the question asks: "What is the central theme of \'ljkst Le`fr\' and how does the poet convey his message?" Most.',
-            decisions: [{ prompt: 'What is the definition of \'primary theme\' in a poem, and how does it differ from a \'secondary theme\'?', options: [
-                { text: 'The primary theme is the central, overarching idea that structures the entire poem', outcome: 'The primary theme is the central, overarching idea that structures the entire poem; secondary.' },
-                { text: 'death, memory, duty', outcome: 'Not quite — Students often think the primary theme is simply "the poet misses his mother" or "death is sad.".', reveals: 'the-primary-theme-is-simply' },
-                { text: 'the poet misses his mother', outcome: 'Not quite — Students often think the primary theme is simply "the poet misses his mother" or "death is sad.".', reveals: 'the-primary-theme-is-simply' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_02_001', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re making a memorial film for a departed grandparent. The editor wants strict chronology — birth, childhood, marriage, death — \'so it\'s clear.\' Your best asset is a single fading photograph of her as a young woman.',
             decisions: [{ prompt: 'What does the structure of Agyeya\'s \'लज्जत लेखा\' advise?', options: [
@@ -70,8 +37,8 @@ export const c12_hin_a_ch02_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_02_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read a life into its poetry — and see how Nirala turned personal catastrophe into the widest range in modern Hindi verse.',
-            decisions: [{ prompt: 'What comes next? lfPpnkuan ghjkuan okRL;k;u ^vKs; · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — lfPpnkuan ghjkuan okRL;k;u ^vKs; · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? सरोज स्मृति · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — सरोज स्मृति · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -80,86 +47,71 @@ export const c12_hin_a_ch02_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory section that.',
-          hint: 'If unable to list 5 facts from pp. 8–11 in 3 minutes, revisit Class 11 "Before You Read".',
-          misconception: 'Students treat "Before You Read" as optional background reading rather than examinable content.',
+          question: 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों.',
+          hint: 'यदि फंसे हुए महसूस हो रहे हैं, तो कक्षा 11 के इतिहास नोड c11_his_cbse_03_001 (स्वतंत्रता.',
+          misconception: 'छात्र अक्सर मानते हैं कि सरोज स्मृति केवल सरोजिनी नायडू की व्यक्तिगत भावनाओं का अभिव्यक्ति है और इसका राष्ट्रीय या.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" is a preparatory section that provides',
-                  options: ['"Before You Read: Context and Background" is a preparatory section that provides', 'Plot in a narrative poem refers to the sequence of events arranged by the poet to convey', 'Setting refers to the time, place, and physical environment in', 'Character analysis of the protagonist involves examining the central character\'s'],
-                  hint: 'If unable to list 5 facts from pp. 8–11 in 3 minutes, revisit Class 11 "Before You Read".',
-                  misconception: 'Students treat "Before You Read" as optional background reading rather than examinable content.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,',
+                  options: ['सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय', 'केंद्रीय भाव वह मुख्य विचार या अनुभव है जो कविता के सभी छंदों में एकजुट होकर व्यक्त होता'],
+                  hint: 'यदि फंसे हुए महसूस हो रहे हैं, तो कक्षा 11 के इतिहास नोड c11_his_cbse_03_001 (स्वतंत्रता आंदोलन) को.',
+                  misconception: 'छात्र अक्सर मानते हैं कि सरोज स्मृति केवल सरोजिनी नायडू की व्यक्तिगत भावनाओं का अभिव्यक्ति है और इसका राष्ट्रीय या सामाजिक आयाम नहीं है.' }
           ],
-            remediations: { 'students-treat-before-you-read': { steps: ['Re-read pp. 8–11 with a highlighter. Mark every date, place, person, and work title in three colours: LIFE (red).', 'Create a two-column table: LEFT column = biographical fact; RIGHT column = probable textual manifestation (e.g.', 'Orally explain the table to a peer/teacher without notes.', 'Attempt Diagnostic Questions 2 and 4 again — they test the life-work synthesis most students miss.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['इस误解 को दूर करने के लिए, छात्र से पूछिए कि वे सरोज स्मृति की कोई भी कविता पढ़ें और दो कॉलम बनाएँ: एक में व्यक्तिगत भाव.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_002', difficulty: 'standard',
-          question: 'Plot in a narrative poem refers to the sequence of events arranged by the poet.',
-          hint: 'If stuck, review Class 11 node c11_hin_ar_cbse_01_002 "Text: Plot and Narrative.',
-          misconception: 'Students often treat "plot" as a mere list of "what happens" and "structure" as synonymous with "paragraphs".',
+          question: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का.',
+          hint: 'यदि छात्र भावार्थ निकालने में फंस जाए तो उसे कक्षा 11 के पाठ 3 के साहित्यिक युक्तियाँ.',
+          misconception: 'छात्र अक्सर सरोज स्मृति के पद्यांश में किसी भी भावपूर्ण शब्द (जैसे "अकेला", "रोया", "भुला") को पढ़कर तुरंत मान लेते हैं.',
           parts: [
-                { id: 'a', prompt: 'Define "plot" and "narrative structure" in the context of a narrative poem. How do they differ from a simple summary?', answer: 'Plot is the causal sequence of events (what happens and why)',
-                  options: ['Plot is the causal sequence of events (what happens and why)', 'structure'],
-                  hint: 'If stuck, review Class 11 node c11_hin_ar_cbse_01_002 "Text: Plot and Narrative Structure".',
-                  misconception: 'Students often treat "plot" as a mere list of "what happens" and "structure" as synonymous with "paragraphs" or "stanzas".' },
-                { id: 'b', prompt: 'The poem opens with the line "ns[kk fookg vkewy uoy" (I saw a portrait...).', answer: 'The portrait acts as a *frame*',
-                  options: ['The portrait acts as a *frame*', 'to introduce the character'],
-                  hint: 'If stuck, review Class 11 node c11_hin_ar_cbse_01_002 "Text: Plot and Narrative Structure".',
-                  misconception: 'Students often treat "plot" as a mere list of "what happens" and "structure" as synonymous with "paragraphs" or "stanzas".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण',
+                  options: ['पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय', 'केंद्रीय भाव वह मुख्य विचार या अनुभव है जो कविता के सभी छंदों में एकजुट होकर व्यक्त होता'],
+                  hint: 'यदि छात्र भावार्थ निकालने में फंस जाए तो उसे कक्षा 11 के पाठ 3 के साहित्यिक युक्तियाँ: बिंब और रूपक.',
+                  misconception: 'छात्र अक्सर सरोज स्मृति के पद्यांश में किसी भी भावपूर्ण शब्द (जैसे "अकेला", "रोया", "भुला") को पढ़कर तुरंत मान लेते हैं कि कवि दुखी है.' }
           ],
-            remediations: { 'students-often-treat-plot-as': { steps: ['If a student cannot distinguish plot from structure: (1) Give them a 3-sentence story: "She died.', 'She lived." Ask: "Is this a plot?', 'Why/why not?" (2) Show the same events in chronological order vs the poem\'s order.', 'Ask: "What changes in how you feel?" (3) Have them draw a *story map* with arrows for time jumps, labeling each jump.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को बताइए कि भावार्थ निकालना किसी जासूस की तरह काम करना है: पहले पद्यांश को पढ़ें और उन 2-3 शब्दों को घेरे जो आपको.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment in which a literary.',
-          hint: 'Review the Class 11 node on imagery (c11_hin_ar_cbse_02_008) and practice identifying.',
-          misconception: 'Students often treat setting as a static list of physical details (time: evening, place: riverbank) and atmosphere as.',
+          question: 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों.',
+          hint: 'यदि मुक्तछंद की आंतरिक लय समझ न आए, तो c11_hin_a_cbse_13_005 (जाग तुझको दूर जाना — छंद और.',
+          misconception: '**\'मुक्तछंद का अर्थ है बिना नियम की कविता\'** — यह सबसे घातक भ्रम है। छात्र समझते हैं कि निराला ने \'मनमाने ढंग से\'.',
           parts: [
-                { id: 'a', prompt: 'What are the two main components of setting in a poem, and give one example of each from the first stanza of "ljkst Le`fr"?', answer: 'The two main components are time and place',
-                  options: ['The two main components are time and place', 'characters and plot', 'the poet feels happy', 'the setting creates a tranquil mood that reflects the poet\'s tenderness'],
-                  hint: 'Review the Class 11 node on imagery (c11_hin_ar_cbse_02_008) and practice identifying sensory words.',
-                  misconception: 'Students often treat setting as a static list of physical details (time: evening, place: riverbank) and atmosphere as a single adjective.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय',
+                  options: ['काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'केंद्रीय भाव वह मुख्य विचार या अनुभव है जो कविता के सभी छंदों में एकजुट होकर व्यक्त होता'],
+                  hint: 'यदि मुक्तछंद की आंतरिक लय समझ न आए, तो c11_hin_a_cbse_13_005 (जाग तुझको दूर जाना — छंद और लय-विधान).',
+                  misconception: '**\'मुक्तछंद का अर्थ है बिना नियम की कविता\'** — यह सबसे घातक भ्रम है। छात्र समझते हैं कि निराला ने \'मनमाने ढंग से\' पंक्तियाँ तोड़ी हैं, जबकि.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['If the student cannot link setting to atmosphere: 1.', 'Have them reread one stanza and underline every sensory word (sight, sound, touch, smell).', 'For each underlined word, ask: "What does this make you feel?', 'Group the feelings into 2-3 dominant moods (e.g., protection, wonder, nostalgia).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_003', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat setting as a static list of physical details (time: evening, place: riverbank) and atmosphere as.',
-          parts: [
-                { id: 'a', prompt: 'The poem ends with the speaker praying: "bl iFk ij] esjs dk;Z ldy gksa Hkz"V \'khr osQ&ls \'krny!" (at this very point, may my work be finished, away from the.', answer: 'The evening setting is inherently transitional',
-                  options: ['The evening setting is inherently transitional', 'the poet feels happy', 'the setting creates a tranquil mood that reflects the poet\'s tenderness', 'explain how setting creates atmosphere'],
-                  hint: 'Review the Class 11 node on imagery (c11_hin_ar_cbse_02_008) and practice identifying sensory words.',
-                  misconception: 'Students often treat setting as a static list of physical details (time: evening, place: riverbank) and atmosphere as a single adjective.' }
-          ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['If the student cannot link setting to atmosphere: 1.', 'Have them reread one stanza and underline every sensory word (sight, sound, touch, smell).', 'For each underlined word, ask: "What does this make you feel?', 'Group the feelings into 2-3 dominant moods (e.g., protection, wonder, nostalgia).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को **पद 10-12 जोर से पढ़वाएँ** — उससे पूछें: "कहाँ तुम्हारी साँस स्वाभाविक रूप से रुकती है?" फिर दिखाएँ कि निराला.', '**दो संस्करण लिखवाएँ**: एक निराला का मूल, दूसरा उसी भाव को गद्य-अनुच्छेद (prose paragraph) में — फिर दोनों का पाठकीय.', 'यदि फिर भी न समझे, तो **c11_hin_a_cbse_13_003 (जाग तुझको दूर जाना — काव्य-संरचना)** और **c11_hin_a_cbse_14_003 (बादल को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
-          hint: 'If unable to write evidence-based claims, review "Show vs. Tell in Character Analysis".',
-          misconception: 'Students treat लज्जा as a static symbol of "Indian womanhood" rather than a dynamic character with specific textual.',
+          question: 'केंद्रीय भाव वह मुख्य विचार या अनुभव है जो कविता के सभी छंदों में एकजुट होकर.',
+          hint: 'यदि छात्र केंद्रीय भाव और रस को जोड़ने में कठिनाई महसूस कर रहे हैं, तो उन्हें.',
+          misconception: 'छात्र अक्सर मानते हैं कि केंद्रीय भाव और रस एक ही बात हैं — जैसे यदि कविता दुखी है तो उसका रस automatisch करुण हो.',
           parts: [
-                { id: 'a', prompt: 'What is the literal meaning of the protagonist\'s name "लज्जा" and how does the poet use it ironically in the opening stanza?', answer: '"लज्जा" literally means "shame" or "modesty/shyness"',
-                  options: ['"लज्जा" literally means "shame" or "modesty/shyness"', 'her name means beauty'],
-                  hint: 'If unable to write evidence-based claims, review "Show vs. Tell in Character Analysis" from.',
-                  misconception: 'Students treat लज्जा as a static symbol of "Indian womanhood" rather than a dynamic character with specific textual turning points.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव वह मुख्य विचार या अनुभव है जो कविता के सभी छंदों में एकजुट होकर व्यक्त होता',
+                  options: ['केंद्रीय भाव वह मुख्य विचार या अनुभव है जो कविता के सभी छंदों में एकजुट होकर व्यक्त होता', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
+                  hint: 'यदि छात्र केंद्रीय भाव और रस को जोड़ने में कठिनाई महसूस कर रहे हैं, तो उन्हें c12_hin_a_cbse_02_003.',
+                  misconception: 'छात्र अक्सर मानते हैं कि केंद्रीय भाव और रस एक ही बात हैं — जैसे यदि कविता दुखी है तो उसका रस automatisch करुण हो जाएगा। वे यह नहीं समझते.' }
           ],
-            remediations: { 'students-treat-as-a-static': { steps: ['Re-read the poem *only* for लज्जा\'s verbs (highlight every action verb: सकुचाई, सुनी, उठी, चली, मिलाती).', 'Create a 3-column table: Stanza | Verb/Action | What it reveals.', 'Rewrite one PEEL paragraph using *only* verb evidence.', 'Re-attempt Diagnostic Question 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'automatisch': { steps: ['यदि छात्र केंद्रीय भाव और रस को एक ही मान रहे हैं, तो उन्हें दो अलग-अलग कविताएँ दें जिनका विषय एक ही हो (जैसे बिछोह).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters in a poem involves examining how.',
-          hint: 'Review "indirect characterisation in poetry" from c11_hin_ar_cbse_02_005 — specifically.',
-          misconception: 'Students often treat the daughter and mother as *flat symbols* (daughter = innocence, mother = suffering) rather than.',
+          question: 'सरोज स्मृति में निराला जी ने **मुक्त छंद (Free Verse)** का प्रयोग किया है.',
+          hint: 'अगर अटका लगे तो कक्षा 11 के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_005) का छंद-विश्लेषण.',
+          misconception: 'छात्र समझते हैं कि \'मुक्त छंद\' का अर्थ है **\'कुछ भी लिख दो, पंक्तियाँ तोड़ दो\'** — वे मात्रा-गणना न होने को \'नियमहीनता\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of supporting characters in a poem involves examining how secondary',
-                  options: ['Character analysis of supporting characters in a poem involves examining how secondary', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot in a narrative poem refers to the sequence of events arranged by the poet to convey', 'Setting refers to the time, place, and physical environment in'],
-                  hint: 'Review "indirect characterisation in poetry" from c11_hin_ar_cbse_02_005 — specifically how.',
-                  misconception: 'Students often treat the daughter and mother as *flat symbols* (daughter = innocence, mother = suffering) rather than *reconstructed.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सरोज स्मृति में निराला जी ने **मुक्त छंद (Free Verse)** का प्रयोग किया है जिसमें निश्चित',
+                  options: ['सरोज स्मृति में निराला जी ने **मुक्त छंद (Free Verse)** का प्रयोग किया है जिसमें निश्चित', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
+                  hint: 'अगर अटका लगे तो कक्षा 11 के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_005) का छंद-विश्लेषण दोहराएँ.',
+                  misconception: 'छात्र समझते हैं कि \'मुक्त छंद\' का अर्थ है **\'कुछ भी लिख दो, पंक्तियाँ तोड़ दो\'** — वे मात्रा-गणना न होने को \'नियमहीनता\' मान लेते हैं।.' }
           ],
-            remediations: { 'students-often-treat-the-daughter': { steps: ['Re-read stanza 1-2 aloud, circling every sensory verb/noun tied to the daughter (e.g., "ककककक", "ककककक", "ककककक").', 'List them in two columns: \'Sound\' and \'Movement\'.', 'For each, ask: "What does this *specific* detail reveal that \'she was playful\' does not?" 4.', 'Repeat for mother in stanza 3 using "ककककक", "कककककक".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को कविता के **केवल पहले और अंतिम पद** जोर से पढ़वाएँ, साँस-रोक (breath-hold) अंतर महसूस करवाएँ। 2.', 'फिर उनसे पूछें: "कहाँ साँस लंबी खिंची?', 'कहाँ बार-बार अटकी?" — इसे लय-गति से जोड़ें। 3.', 'अब **कक्षा 11 के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_005)** या \'बादल को घरिते देखा है\' (c11_hin_a_cbse_14_005) के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
-          hint: 'If stuck, revisit Class 11 node c11_hin_ar_cbse_01_006 (Theme: Primary Theme and Message).',
-          misconception: 'Students often think the primary theme is simply "the poet misses his mother" or "death is sad." They treat the poem.',
+          question: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में सजावट के साथ-साथ अर्थ को गहरा.',
+          hint: 'यदि stuck हो तो c11_hin_a_cbse_01_008 और c11_hin_a_cbse_02_008 पर रूपक और उपमा की आधारभूत.',
+          misconception: 'छात्र अक्सर मानते हैं कि यदि कोई शब्द दोहराया गया है तो वह अनुप्रास है, जैसे "मन मन करता है" में "मन" का दोहराव.',
           parts: [
-                { id: 'a', prompt: 'Apply the \'identify–evidence–universalise\' method to the final stanza of "ljkst Le`fr" and write a two-sentence answer stating the poem\'s message.', answer: 'Step 1: Identify the concluding stance',
-                  options: ['Step 1: Identify the concluding stance', 'the poet misses his mother', 'death is sad', 'the primary theme is simply "the poet misses his mother" or "death is sad'],
-                  hint: 'If stuck, revisit Class 11 node c11_hin_ar_cbse_01_006 (Theme: Primary Theme and Message) and.',
-                  misconception: 'Students often think the primary theme is simply "the poet misses his mother" or "death is sad." They treat the poem as a biographical.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में सजावट के साथ-साथ अर्थ को गहरा करती हैं, भाव',
+                  options: ['अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में सजावट के साथ-साथ अर्थ को गहरा करती हैं, भाव', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
+                  hint: 'यदि stuck हो तो c11_hin_a_cbse_01_008 और c11_hin_a_cbse_02_008 पर रूपक और उपमा की आधारभूत पहचान की.',
+                  misconception: 'छात्र अक्सर मानते हैं कि यदि कोई शब्द दोहराया गया है तो वह अनुप्रास है, जैसे "मन मन करता है" में "मन" का दोहराव अनुप्रास होना। यह गलत है.' }
           ],
-            remediations: { 'the-primary-theme-is-simply': { steps: ['If a student cannot distinguish theme from subject, take them back to the poem\'s first and last stanzas.', 'Ask: "What changes between these two moments?" Guide them to note the shift from passive suffering ("ns[kk fookg vkewy.', 'Then have them list three concrete images that mark this shift.', 'Finally, co-construct a theme statement: "The poem argues that ______." Repeat with a different poem from Class 11.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को पहले ध्वनि पर ध्यान देने के लिए कहिए: शब्द बंद आँखों से पढ़िए और शुरुआती अक्षर की ध्वनि पर ध्यान दीजिए - यदि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

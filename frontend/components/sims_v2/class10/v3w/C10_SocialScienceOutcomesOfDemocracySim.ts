@@ -206,7 +206,7 @@ export const w_c10_socialscienceoutcomesofdemocracysim: SimDef = {
           hint: 'If stuck, revisit the specific sibling node for that criterion (e.g., for "accommodation.',
           misconception: 'Students often believe **"Democracy\'s outcome is just whether elections are held regularly and freely."** They equate.',
           parts: [
-                { id: 'a', prompt: 'Name any three criteria used to assess the outcomes of democracy as per the Class 10 NCERT framework.', answer: 'Correct answer: Any three of',
+                { id: 'a', prompt: 'Name any three criteria used to assess the outcomes of democracy as per the Class 10 NCERT framework.', answer: 'Any three of',
                   options: ['Correct answer: Any three of', 'free media, independent judiciary, federalism', 'Democracy\'s outcome is just whether elections are held regularly and freely'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe **"Democracy\'s outcome is just whether elections are held regularly and freely."** They equate *procedural.' }

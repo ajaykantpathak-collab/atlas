@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c8_gram_ch81 The Spotlight Flip (active ↔ passive).
  * Nodes: c8_gram_cbse_81_001, 81_002. */
 export const c8_gram_ch81: SimDef = {
-    id: 'v3_c8_gram_ch81',
+    id: 'v3w_c8_gram_ch81',
     title: 'The Spotlight Flip',
     subtitle: 'Move the receiver into the spotlight — object to subject, verb to be+V3, and the doer demoted or deleted',
     classLevel: 8, subject: 'english-grammar', topic: 'Active and passive voice',

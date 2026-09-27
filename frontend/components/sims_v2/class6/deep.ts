@@ -4,37 +4,6 @@
 
 import type { SimDef } from '../engine/types';
 
-export const d_biology_ch06: SimDef = {
-    id: 'd_biology_ch06', title: 'Growing With Age', subtitle: 'Growing With Age: What Happens During Teenage',
-    classLevel: 6, subject: 'science', topic: 'Growing With Age',
-    chapters: ['c6_biology_ch06'],
-    nodeIds: ['c6_biology_ch06_001','c6_biology_ch06_002','c6_biology_ch06_003','c6_biology_ch06_004','c6_biology_ch06_005','c6_biology_ch06_008'],
-    emoji: '🔬', theme: { bg: 'from-slate-100 to-gray-200', accent: 'science', scene: 'senior' },
-    scenario: { role: 'a learner', intro: 'Deep-dive: Growing With Age', goal: 'Master every part of Growing With Age' },
-    discovery: { question: 'What is the key idea in Growing With Age?', options: ['It connects several concepts','It is random','It is simple'], answer: 'It connects several concepts', hook: 'Every part of Growing With Age builds on the last.' },
-    teaching: [
-            { title: 'Growing With Age: What Happens During', text: 'Adolescence is a transformative stage of human development occurring between childhood and adulthood, typically spanning from age eleven or twelve to nineteen, characteri Have you ever looked at old photos of yourself from four ye', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-            { title: 'Physical Changes in Adolescence: Heigh', text: 'Physical changes in adolescence refer to the rapid, visible growth and transformation of the body\'s structure, including height, weight, and overall body shape, marking t Have you ever looked at old photos of yourself from four ye', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-            { title: 'Changes Indicating Reproductive Maturi', text: 'Reproductive maturity is the stage during adolescence when an individual\'s body develops the biological capacity to produce offspring. It is marked by specific physical a Have you ever noticed how your older siblings or cousins su', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-            { title: 'Emotional and Behavioural Changes Duri', text: 'Adolescence is a transitional stage of growth between childhood and adulthood where the brain undergoes structural reorganization, leading to more intense emotional exper Have you ever felt like you were super happy one minute and', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-            { title: 'Making Adolescence a Joyful Experience', text: 'Coping strategies in adolescence are healthy, proactive ways to manage the new emotional and social challenges that arise during this stage of rapid growth, primarily thr Have you ever felt like a small problem in your day—like a', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-            { title: 'The \'Why\' Question: Hormones Behind th', text: 'Hormones are invisible chemical messengers produced by glands in the body that travel through the bloodstream to signal specific tissues to grow or change. They act as th Have you ever wondered why your voice changes or why you su', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-            { title: 'Personal Hygiene and Care During Adole', text: 'Personal hygiene during adolescence involves the regular maintenance of cleanliness to manage increased sweat and oil gland activity, which helps prevent body odour and s Have you noticed that you feel stickier or more prone to', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-            { title: 'Nutrition and Exercise Needs During Ad', text: 'Adolescence is a specific stage of human growth characterized by rapid physical, emotional, and social development, necessitating increased nutrient intake and physical a Have you noticed how you seem to grow out of your clothes m', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
-        ],
-    explore: { lab: 'grow', prompt: 'Work through each idea in Growing With Age' },
-    challenges: [
-        { type: 'subpart', question: 'Apply what you learned in Growing With Age:', hint: 'Work through each part step by step.', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', parts: [
-            { id: 'a', prompt: 'What is the typical age range for the stage known as adolescence?', answer: 'Adolescence generally begins around age eleven or twelve and', hint: 'Think: Growing With Age: What Happens During Teenage', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', workedExample: ['First, explain that human development is like a race where e','Ask them to look at a variety of trees in a garden—some are ','Emphasize that normal has a wide range, and their body\'s ti'] },
-            { id: 'b', prompt: 'If your friend starts their growth spurt at age eleven and you start yours at age thirteen, does this mean one', answer: 'No, it is normal because the start and end points of adolesc', hint: 'Think: Growing With Age: What Happens During Teenage', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', workedExample: ['First, explain that human development is like a race where e','Ask them to look at a variety of trees in a garden—some are ','Emphasize that normal has a wide range, and their body\'s ti'] },
-            { id: 'c', prompt: 'Why is adolescence described as a dramatic transformation rather than just getting older?', answer: 'It refers to the sharp acceleration in growth rates and sign', hint: 'Think: Growing With Age: What Happens During Teenage', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', workedExample: ['First, explain that human development is like a race where e','Ask them to look at a variety of trees in a garden—some are ','Emphasize that normal has a wide range, and their body\'s ti'] },
-            { id: 'd', prompt: 'Compare the growth you experienced as a toddler (ages 1-3) to the growth expected during adolescence. What is', answer: 'As a toddler, growth is a continuous process, whereas in ado', hint: 'Think: Growing With Age: What Happens During Teenage', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', workedExample: ['First, explain that human development is like a race where e','Ask them to look at a variety of trees in a garden—some are ','Emphasize that normal has a wide range, and their body\'s ti'] }
-        ] },
-    ],
-    reflect: { prompts: ['Which part of Growing With Age was hardest?','How do the ideas in Growing With Age connect?'] },
-    successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
-};
-
 export const d_biology_ch09: SimDef = {
     id: 'd_biology_ch09', title: 'Nutrition in Animals', subtitle: 'Nutrition in Animals: The Digestive System',
     classLevel: 6, subject: 'science', topic: 'Nutrition in Animals',
@@ -159,37 +128,6 @@ export const d_chemistry_ch05: SimDef = {
         ] },
     ],
     reflect: { prompts: ['Which part of Physical Changes was hardest?','How do the ideas in Physical Changes connect?'] },
-    successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
-};
-
-export const d_civics_ch10: SimDef = {
-    id: 'd_civics_ch10', title: 'What Are Human Rights?', subtitle: 'What Are Human Rights?',
-    classLevel: 6, subject: 'social', topic: 'What Are Human Rights?',
-    chapters: ['c6_civics_ch10'],
-    nodeIds: ['c6_civics_ch10_002','c6_civics_ch10_003','c6_civics_ch10_004','c6_civics_ch10_006','c6_civics_ch10_007'],
-    emoji: '🌍', theme: { bg: 'from-slate-100 to-gray-200', accent: 'social', scene: 'senior' },
-    scenario: { role: 'a learner', intro: 'Deep-dive: What Are Human Rights?', goal: 'Master every part of What Are Human Rights?' },
-    discovery: { question: 'What is the key idea in What Are Human Rights??', options: ['It connects several concepts','It is random','It is simple'], answer: 'It connects several concepts', hook: 'Every part of What Are Human Rights? builds on the last.' },
-    teaching: [
-            { title: 'What Are Human Rights?', text: 'Human rights are the essential freedoms and protections that every person possesses simply by being human, regardless of their nationality, status, or background. They ar Imagine you are playing a game where the rules are not writ', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Fundamental Rights in the Indian Const', text: 'Fundamental Rights are a set of basic guarantees provided by the Indian Constitution to every citizen to ensure dignity, equality, and freedom. These rights are protected Imagine you are at school and the teacher tells you that on', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Right to Equality: Meaning and Applica', text: 'Right to Equality is a Fundamental Right ensuring that all citizens are treated equally by the law, regardless of their background. It means no person is above the law an Have you ever wondered why the rules in a game of cricket a', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Right to Freedom: Speech, Expression,', text: 'The Right to Freedom of Speech and Expression is a fundamental right that allows citizens to share their thoughts, ideas, and opinions openly without fear of punishment.  Have you ever wanted to tell your teacher that a school rul', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Right against Exploitation: Ending Inj', text: 'The Right against Exploitation is a constitutional guarantee that protects vulnerable people from being mistreated or forced into unfair work by others. It specifically p Have you ever seen someone being forced to do work they did', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Fundamental Duties of Citizens', text: 'Fundamental Duties are the moral and legal responsibilities that every citizen must fulfill to protect the nation\'s values, unity, and progress. They act as a balance to  Think about your home: you have the right to be fed and car', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Rights and Duties: Two Sides of Citize', text: 'Fundamental rights and duties are a pair of responsibilities and benefits that exist together, where every freedom you enjoy is balanced by a specific task you must perfo Imagine you are at a school playground.', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'How Rights Are Protected: Courts and R', text: 'The Right to Constitutional Remedies is a Fundamental Right that allows citizens to go to court to protect their other rights if they are ignored or violated by anyone, i Imagine you are playing a game where the rules are written', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' }
-        ],
-    explore: { lab: 'grow', prompt: 'Work through each idea in What Are Human Rights?' },
-    challenges: [
-        { type: 'subpart', question: 'Apply what you learned in What Are Human Rights?:', hint: 'Work through each part step by step.', misconception: 'Students often confuse Human Rights with Government Privileges. They assume that because a government prov', parts: [
-            { id: 'a', prompt: 'What does it mean to say that human rights are inherent?', answer: 'It means these rights exist naturally from birth and are not', hint: 'Think: What Are Human Rights?', misconception: 'Students often confuse Human Rights with Government Privileges. They assume that because a government prov', workedExample: ['Ask the student: If a government were to disappear tomorrow,'] },
-            { id: 'b', prompt: 'If a government decides to take away a person\'s right to express their opinion, have they successfully removed', answer: 'No, the right still exists as a human right, but the person', hint: 'Think: What Are Human Rights?', misconception: 'Students often confuse Human Rights with Government Privileges. They assume that because a government prov', workedExample: ['Ask the student: If a government were to disappear tomorrow,'] },
-            { id: 'c', prompt: 'Which of these is a human right: the right to own a luxury car or the right to education? Why?', answer: 'The right to education is a human right because it is essent', hint: 'Think: What Are Human Rights?', misconception: 'Students often confuse Human Rights with Government Privileges. They assume that because a government prov', workedExample: ['Ask the student: If a government were to disappear tomorrow,'] },
-            { id: 'd', prompt: 'Why did the concept of human rights develop over time instead of appearing all at once?', answer: 'It developed because people had to fight against historical', hint: 'Think: What Are Human Rights?', misconception: 'Students often confuse Human Rights with Government Privileges. They assume that because a government prov', workedExample: ['Ask the student: If a government were to disappear tomorrow,'] }
-        ] },
-    ],
-    reflect: { prompts: ['Which part of What Are Human Rights? was hardest?','How do the ideas in What Are Human Rights? connect?'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
 };
 
@@ -364,64 +302,6 @@ export const d_civics_ch16: SimDef = {
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
 };
 
-export const d_economics_ch07: SimDef = {
-    id: 'd_economics_ch07', title: 'What is Infrastructure and Why It Matter', subtitle: 'What is Infrastructure and Why It Matters',
-    classLevel: 6, subject: 'social', topic: 'What is Infrastructure and Why It Matter',
-    chapters: ['c6_economics_ch07'],
-    nodeIds: ['c6_economics_ch07_001','c6_economics_ch07_002','c6_economics_ch07_003','c6_economics_ch07_004','c6_economics_ch07_005','c6_economics_ch07_006'],
-    emoji: '🌍', theme: { bg: 'from-slate-100 to-gray-200', accent: 'social', scene: 'senior' },
-    scenario: { role: 'a learner', intro: 'Deep-dive: What is Infrastructure and Why It Matter', goal: 'Master every part of What is Infrastructure and Why It Matter' },
-    discovery: { question: 'What is the key idea in What is Infrastructure and Why It Matter?', options: ['It connects several concepts','It is random','It is simple'], answer: 'It connects several concepts', hook: 'Every part of What is Infrastructure and Why It Matter builds on the last.' },
-    teaching: [
-            { title: 'What is Infrastructure and Why It Matt', text: 'Infrastructure refers to the essential physical structures and service systems—such as roads, power plants, and schools—that enable a society to function and economic act Imagine you are trying to sell fresh strawberries from a fa', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Physical Infrastructure: Roads, Bridge', text: 'Physical infrastructure consists of the basic, tangible structures—such as roads, power grids, bridges, and water systems—that allow an economy to function and grow by co Have you ever noticed how your morning glass of milk arrive', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Social Infrastructure: Schools, Hospit', text: 'Social infrastructure refers to the essential public facilities, such as schools and hospitals, that support human development and improve the quality of life for a commu Think about your school building—why do you go there every', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Transport Networks: Connecting People', text: 'Transport networks are the interconnected systems of roads, railways, waterways, and airways that act as the economy\'s arteries to move people and goods from one location Think about how the milk in your morning tea reaches your h', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Communication Networks: From Post to I', text: 'Communication networks are systems that allow the exchange of information across distances, connecting people, businesses, and government services. They are a vital part  How did your grandparents send a message to a relative in a', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Infrastructure and Economic Growth: Th', text: 'Infrastructure refers to the basic physical and organizational structures—such as roads, electricity, and water supply—that are necessary for a country to function and fo Imagine you live in a village where there is no road to rea', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' }
-        ],
-    explore: { lab: 'grow', prompt: 'Work through each idea in What is Infrastructure and Why It Matter' },
-    challenges: [
-        { type: 'subpart', question: 'Apply what you learned in What is Infrastructure and Why It M:', hint: 'Work through each part step by step.', misconception: 'Students often confuse infrastructure with manufacturing machines. They might think that a loom in a texti', parts: [
-            { id: 'a', prompt: 'List three examples of infrastructure from your daily life.', answer: 'Roads, schools, and electricity supply', hint: 'Think: What is Infrastructure and Why It Matters', misconception: 'Students often confuse infrastructure with manufacturing machines. They might think that a loom in a texti', workedExample: ['Ask the student: Does the loom provide power to the whole vi'] },
-            { id: 'b', prompt: 'Why is infrastructure called the backbone of an economy?', answer: 'It is called the backbone because it provides the necessary', hint: 'Think: What is Infrastructure and Why It Matters', misconception: 'Students often confuse infrastructure with manufacturing machines. They might think that a loom in a texti', workedExample: ['Ask the student: Does the loom provide power to the whole vi'] },
-            { id: 'c', prompt: 'If a city had no communication networks (like internet or phones), how would a local shopkeeper be affected?', answer: 'The shopkeeper could not order new stock from wholesalers, i', hint: 'Think: What is Infrastructure and Why It Matters', misconception: 'Students often confuse infrastructure with manufacturing machines. They might think that a loom in a texti', workedExample: ['Ask the student: Does the loom provide power to the whole vi'] },
-            { id: 'd', prompt: 'Compare the impact of a road network on a farmer versus a factory worker.', answer: 'The farmer needs roads to transport perishable crops to the', hint: 'Think: What is Infrastructure and Why It Matters', misconception: 'Students often confuse infrastructure with manufacturing machines. They might think that a loom in a texti', workedExample: ['Ask the student: Does the loom provide power to the whole vi'] }
-        ] },
-    ],
-    reflect: { prompts: ['Which part of What is Infrastructure and Why It M was hardest?','How do the ideas in What is Infrastructure and Why It M connect?'] },
-    successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
-};
-
-export const d_economics_ch08: SimDef = {
-    id: 'd_economics_ch08', title: 'What is a Bank? A Safe Place for Money', subtitle: 'What is a Bank? A Safe Place for Money',
-    classLevel: 6, subject: 'social', topic: 'What is a Bank? A Safe Place for Money',
-    chapters: ['c6_economics_ch08'],
-    nodeIds: ['c6_economics_ch08_001','c6_economics_ch08_002','c6_economics_ch08_003','c6_economics_ch08_006'],
-    emoji: '🌍', theme: { bg: 'from-slate-100 to-gray-200', accent: 'social', scene: 'senior' },
-    scenario: { role: 'a learner', intro: 'Deep-dive: What is a Bank? A Safe Place for Money', goal: 'Master every part of What is a Bank? A Safe Place for Money' },
-    discovery: { question: 'What is the key idea in What is a Bank? A Safe Place for Money?', options: ['It connects several concepts','It is random','It is simple'], answer: 'It connects several concepts', hook: 'Every part of What is a Bank? A Safe Place for Money builds on the last.' },
-    teaching: [
-            { title: 'What is a Bank? A Safe Place for Money', text: 'A bank is a financial institution that acts as a safe storage place for money, accepting deposits from people who have extra cash and lending that money to people who nee Think about a time you saved money in a piggy bank—where di', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Saving and Borrowing: Two Sides of Ban', text: 'Banks act as financial bridges by collecting money from people who have extra savings (savers) and lending that money to people who need it for specific purposes (borrowe Imagine you have a piggy bank that is full, but your friend', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Understanding Interest: The Cost of Bo', text: 'Interest is the price paid for using someone else\'s money; it acts as a reward when you save money in a bank and a cost when you borrow money from one. It is typically ex Have you ever wondered why, if you put 1,000 rupees in a pi', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Types of Bank Accounts: Savings, Curre', text: 'Bank accounts are specialized services provided by banks that allow individuals and businesses to store money safely, earn interest, or manage frequent payments. They fun Imagine you have a piggy bank, but instead of just holding', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Banking Services: Cheques, ATMs, Onlin', text: 'Banking services are modern financial tools—like cheques, ATMs, and online banking—that allow people to manage, store, and transfer their money safely without always need Have you ever wondered how your parents pay for expensive t', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Banks and the Economy: How Banks Keep', text: 'Banks are financial institutions that act as a bridge by collecting money from people who have extra savings and lending it to those who need capital for productive activ Have you ever wondered what happens to the money your paren', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' }
-        ],
-    explore: { lab: 'grow', prompt: 'Work through each idea in What is a Bank? A Safe Place for Money' },
-    challenges: [
-        { type: 'subpart', question: 'Apply what you learned in What is a Bank? A Safe Place for Mo:', hint: 'Work through each part step by step.', misconception: 'Students often think a bank is just a vault or a big safe that holds cash. They fail to understand the lend', parts: [
-            { id: 'a', prompt: 'What are the two main functions of a bank? (Recall)', answer: 'The two main functions are accepting deposits from people wi', hint: 'Think: What is a Bank? A Safe Place for Money', misconception: 'Students often think a bank is just a vault or a big safe that holds cash. They fail to understand the lend', workedExample: ['Ask the student: If the bank just hid your money in a box, h'] },
-            { id: 'b', prompt: 'Keeping money in a bank keeps it safe and prevents it from sitting idle, whereas money under a bed earns nothi', answer: '**Correct Answer:** Keeping money in a bank is better becaus', hint: 'Think: What is a Bank? A Safe Place for Money', misconception: 'Students often think a bank is just a vault or a big safe that holds cash. They fail to understand the lend', workedExample: ['Ask the student: If the bank just hid your money in a box, h'] },
-            { id: 'c', prompt: 'If your neighbour needs money to open a small bakery, where can they go to get it, and what is that process ca', answer: 'They can go to a bank to request a loan', hint: 'Think: What is a Bank? A Safe Place for Money', misconception: 'Students often think a bank is just a vault or a big safe that holds cash. They fail to understand the lend', workedExample: ['Ask the student: If the bank just hid your money in a box, h'] },
-            { id: 'd', prompt: 'How do banks help connect two different types of people in a town? (Analyze)', answer: 'Banks connect people with extra money (depositors) to peop', hint: 'Think: What is a Bank? A Safe Place for Money', misconception: 'Students often think a bank is just a vault or a big safe that holds cash. They fail to understand the lend', workedExample: ['Ask the student: If the bank just hid your money in a box, h'] }
-        ] },
-    ],
-    reflect: { prompts: ['Which part of What is a Bank? A Safe Place for Mo was hardest?','How do the ideas in What is a Bank? A Safe Place for Mo connect?'] },
-    successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
-};
-
 export const d_economics_ch11: SimDef = {
     id: 'd_economics_ch11', title: 'The Barter System', subtitle: 'The Barter System: How People Exchanged Befor',
     classLevel: 6, subject: 'social', topic: 'The Barter System',
@@ -448,35 +328,6 @@ export const d_economics_ch11: SimDef = {
         ] },
     ],
     reflect: { prompts: ['Which part of The Barter System was hardest?','How do the ideas in The Barter System connect?'] },
-    successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
-};
-
-export const d_economics_ch12: SimDef = {
-    id: 'd_economics_ch12', title: 'What is a Market? Buyers, Sellers, and E', subtitle: 'What is a Market? Buyers, Sellers, and Exchan',
-    classLevel: 6, subject: 'social', topic: 'What is a Market? Buyers, Sellers, and E',
-    chapters: ['c6_economics_ch12'],
-    nodeIds: ['c6_economics_ch12_001','c6_economics_ch12_002','c6_economics_ch12_003','c6_economics_ch12_005'],
-    emoji: '🌍', theme: { bg: 'from-slate-100 to-gray-200', accent: 'social', scene: 'senior' },
-    scenario: { role: 'a learner', intro: 'Deep-dive: What is a Market? Buyers, Sellers, and E', goal: 'Master every part of What is a Market? Buyers, Sellers, and E' },
-    discovery: { question: 'What is the key idea in What is a Market? Buyers, Sellers, and E?', options: ['It connects several concepts','It is random','It is simple'], answer: 'It connects several concepts', hook: 'Every part of What is a Market? Buyers, Sellers, and E builds on the last.' },
-    teaching: [
-            { title: 'What is a Market? Buyers, Sellers, and', text: 'A market is any environment, physical or digital, where buyers and sellers meet to exchange goods or services for a price. It acts as the central link that connects produ Have you ever wondered what happens when you buy a pencil f', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Types of Markets: Local, National, and', text: 'Markets are categorized based on their geographical reach, where local markets serve immediate neighborhoods, national markets cover an entire country, and global markets Think about the fresh vegetables your mother buys from the', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'How Prices Are Determined: Supply and', text: 'Supply is the total amount of a product that sellers are willing to offer at a specific price, while demand is the total amount that buyers are willing and able to purcha Have you ever wondered why the price of umbrellas goes up w', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Competition in Markets: Many Sellers,', text: 'Market competition is a situation where multiple sellers offer products to many buyers, which forces sellers to keep prices fair and quality high. A monopoly occurs when  Have you ever wondered why there are so many different shop', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Consumer Awareness: Rights and Protect', text: 'Consumer awareness is the process of understanding your rights as a buyer and learning how to protect yourself from unfair market practices like overcharging, selling def Have you ever bought a packet of chips only to find it was', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' },
-            { title: 'Markets in Daily Life: From Vegetable', text: 'Markets are the physical or virtual spaces where people buy and sell goods and services in exchange for money. They act as the meeting point between those who produce ite Think about how you got your breakfast today; did you use m', emoji: '💡', bgColor: 'from-emerald-400 to-teal-500' }
-        ],
-    explore: { lab: 'grow', prompt: 'Work through each idea in What is a Market? Buyers, Sellers, and E' },
-    challenges: [
-        { type: 'subpart', question: 'Apply what you learned in What is a Market? Buyers, Sellers,:', hint: 'Work through each part step by step.', misconception: 'Students often believe a market must be a physical place they can visit. They think if they cannot walk into a', parts: [
-            { id: 'a', prompt: 'What are the three essential components that make a market?', answer: 'The three components are the buyer, the seller, and the exch', hint: 'Think: What is a Market? Buyers, Sellers, and Exchan', misconception: 'Students often believe a market must be a physical place they can visit. They think if they cannot walk into a', workedExample: ['First, ask the student to describe how they get a digital ga','Ask: Who made it? (Seller) and Who got it? (Buyer)','Point out that since money and products moved between them, '] },
-            { id: 'b', prompt: 'Is a mobile app where you order groceries a market? Why or why not?', answer: 'Yes, it is a market because it functions as a mechanism wher', hint: 'Think: What is a Market? Buyers, Sellers, and Exchan', misconception: 'Students often believe a market must be a physical place they can visit. They think if they cannot walk into a', workedExample: ['First, ask the student to describe how they get a digital ga','Ask: Who made it? (Seller) and Who got it? (Buyer)','Point out that since money and products moved between them, '] },
-            { id: 'c', prompt: 'If a farmer gives wheat to a neighbor in exchange for labor, is this a market transaction? Explain.', answer: 'Yes, it is a market transaction because there is an exchange', hint: 'Think: What is a Market? Buyers, Sellers, and Exchan', misconception: 'Students often believe a market must be a physical place they can visit. They think if they cannot walk into a', workedExample: ['First, ask the student to describe how they get a digital ga','Ask: Who made it? (Seller) and Who got it? (Buyer)','Point out that since money and products moved between them, '] },
-            { id: 'd', prompt: 'How do the roles of the buyer and seller differ in a village vegetable market compared to a large online shopp', answer: 'The roles remain the same: the buyer seeks a product and the', hint: 'Think: What is a Market? Buyers, Sellers, and Exchan', misconception: 'Students often believe a market must be a physical place they can visit. They think if they cannot walk into a', workedExample: ['First, ask the student to describe how they get a digital ga','Ask: Who made it? (Seller) and Who got it? (Buyer)','Point out that since money and products moved between them, '] }
-        ] },
-    ],
-    reflect: { prompts: ['Which part of What is a Market? Buyers, Sellers,  was hardest?','How do the ideas in What is a Market? Buyers, Sellers,  connect?'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
 };
 
@@ -1666,4 +1517,4 @@ export const d_physics_ch12: SimDef = {
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the teaching slides.',
 };
 
-export const C6_DEEP = [d_biology_ch06, d_biology_ch09, d_biology_ch10, d_chemistry_ch04, d_chemistry_ch05, d_civics_ch10, d_civics_ch11, d_civics_ch12, d_civics_ch13, d_civics_ch14, d_civics_ch15, d_civics_ch16, d_economics_ch07, d_economics_ch08, d_economics_ch11, d_economics_ch12, d_english_u1, d_english_u2, d_english_u3, d_english_u4, d_english_u5, d_geography_ch01, d_geography_ch02, d_geography_ch03, d_geography_ch04, d_geography_ch05, d_history_ch04, d_history_ch05, d_history_ch06, d_history_ch07, d_history_ch08, d_history_ch09, d_history_ch10, d_history_ch11, d_history_ch12, d_math_ch01, d_math_ch02, d_math_ch03, d_math_ch04, d_math_ch05, d_math_ch06, d_math_ch07, d_math_ch08, d_math_ch09, d_math_ch10, d_math_ch11, d_math_ch12, d_physics_ch01, d_physics_ch02, d_physics_ch03, d_physics_ch07, d_physics_ch08, d_physics_ch11, d_physics_ch12];
+export const C6_DEEP = [d_biology_ch09, d_biology_ch10, d_chemistry_ch04, d_chemistry_ch05, d_civics_ch11, d_civics_ch12, d_civics_ch13, d_civics_ch14, d_civics_ch15, d_civics_ch16, d_economics_ch11, d_english_u1, d_english_u2, d_english_u3, d_english_u4, d_english_u5, d_geography_ch01, d_geography_ch02, d_geography_ch03, d_geography_ch04, d_geography_ch05, d_history_ch04, d_history_ch05, d_history_ch06, d_history_ch07, d_history_ch08, d_history_ch09, d_history_ch10, d_history_ch11, d_history_ch12, d_math_ch01, d_math_ch02, d_math_ch03, d_math_ch04, d_math_ch05, d_math_ch06, d_math_ch07, d_math_ch08, d_math_ch09, d_math_ch10, d_math_ch11, d_math_ch12, d_physics_ch01, d_physics_ch02, d_physics_ch03, d_physics_ch07, d_physics_ch08, d_physics_ch11, d_physics_ch12];

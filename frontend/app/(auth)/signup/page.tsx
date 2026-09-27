@@ -17,7 +17,12 @@ export default function SignupPage() {
   const [showPassword, setShowPassword] = useState(false)
   const [role, setRole] = useState<UserRole>('student')
   const [board, setBoard] = useState<'CBSE' | 'CISCE'>('CBSE')
-  const [classLevel, setClassLevel] = useState(10)
+  // CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fixes 3 + 13): the class dropdown
+  // used to default to Class 10 — a distracted 11-year-old could create a
+  // Class-10 account in one tap and every class-aware surface would serve
+  // the wrong year. Now it starts at an explicit "Pick your class" and the
+  // form refuses to submit until the child chooses their own.
+  const [classLevel, setClassLevel] = useState(0)
   const [error, setError] = useState('')
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -31,9 +36,22 @@ export default function SignupPage() {
       setError('Password must be at least 6 characters')
       return
     }
+    if (role === 'student' && classLevel < 1) {
+      setError('Pick your class so we can bring the right lessons for you')
+      return
+    }
     try {
-      await signup({ name, email, password, role, board, classLevel })
-      router.push('/dashboard')
+      await signup({ name, email, password, role, board, classLevel: role === 'student' ? classLevel : undefined })
+      if (role === 'student') {
+        // CHILD-LENS (fix 3): a fresh student walks the onboarding tour and
+        // lands inside their own class's first Story lesson — never a bare
+        // stats page. Clear any previous child's onboarding state first so
+        // the new account gets the full welcome.
+        try { localStorage.removeItem('onboarding_state') } catch { /* storage unavailable */ }
+        router.push('/onboarding')
+      } else {
+        router.push('/dashboard')
+      }
     } catch {
       setError('Signup failed. Please try again.')
     }
@@ -157,10 +175,11 @@ export default function SignupPage() {
               <div>
                 <label className="text-xs font-medium text-surface-700 mb-2 block">Class</label>
                 <select
-                  value={classLevel}
+                  value={classLevel || ''}
                   onChange={(e) => setClassLevel(Number(e.target.value))}
                   className="input-field cursor-pointer"
                 >
+                  <option value="" className="bg-surface-100">Pick your class</option>
                   {Array.from({ length: 12 }, (_, i) => i + 1).map((c) => (
                     <option key={c} value={c} className="bg-surface-100">
                       Class {c}

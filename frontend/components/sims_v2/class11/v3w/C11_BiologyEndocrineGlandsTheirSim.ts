@@ -173,11 +173,11 @@ export const w_c11_biologyendocrineglandstheirsim: SimDef = {
           hint: 'If stuck, revisit c11_bio_cbse_19_001 (hypothalamus-pituitary) and c11_bio_cbse_19_007.',
           misconception: 'Students believe "goitre always means hypothyroidism" — they see thyroid enlargement and assume low function.',
           parts: [
-                { id: 'a', prompt: 'Why does iodine deficiency cause goitre (thyroid enlargement) despite LOW thyroid hormone levels? Explain the feedback mechanism involved.', answer: 'Correct answer: Low iodine → low T3/T4 synthesis → reduced negative feedback on',
+                { id: 'a', prompt: 'Why does iodine deficiency cause goitre (thyroid enlargement) despite LOW thyroid hormone levels? Explain the feedback mechanism involved.', answer: 'Low iodine → low T3/T4 synthesis → reduced negative feedback on',
                   options: ['Correct answer: Low iodine → low T3/T4 synthesis → reduced negative feedback on', 'TSH decreases', 'thyroid atrophies'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "goitre always means hypothyroidism" — they see thyroid enlargement and assume low function.' },
-                { id: 'b', prompt: 'A 12-year-old boy shows accelerated growth, coarse facial features, and enlarged hands/feet. His GH levels are high, but IGF-1 (somatomedin) is normal.', answer: 'Correct answer: Liver (post-receptor defect / GH resistance / Laron syndrome)',
+                { id: 'b', prompt: 'A 12-year-old boy shows accelerated growth, coarse facial features, and enlarged hands/feet. His GH levels are high, but IGF-1 (somatomedin) is normal.', answer: 'Liver (post-receptor defect / GH resistance / Laron syndrome)',
                   options: ['Correct answer: Liver (post-receptor defect / GH resistance / Laron syndrome)', 'pituitary tumor', 'goitre always means hypothyroidism'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "goitre always means hypothyroidism" — they see thyroid enlargement and assume low function.' }
@@ -188,7 +188,7 @@ export const w_c11_biologyendocrineglandstheirsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe "goitre always means hypothyroidism" — they see thyroid enlargement and assume low function.',
           parts: [
-                { id: 'a', prompt: 'Evaluate this statement: "In Type 2 Diabetes Mellitus, insulin therapy is never required because the problem is insulin resistance, not insulin deficiency." Is.', answer: 'Correct answer: FALSE',
+                { id: 'a', prompt: 'Evaluate this statement: "In Type 2 Diabetes Mellitus, insulin therapy is never required because the problem is insulin resistance, not insulin deficiency." Is.', answer: 'FALSE',
                   options: ['Correct answer: FALSE', 'goitre always means hypothyroidism', 'low function'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "goitre always means hypothyroidism" — they see thyroid enlargement and assume low function.' }

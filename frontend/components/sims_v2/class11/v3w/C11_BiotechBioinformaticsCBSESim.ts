@@ -183,11 +183,11 @@ export const w_c11_biotechbioinformaticscbsesim: SimDef = {
           hint: 'Revisit c11_biotech_cbse_11_002 (Python basics) and practice file I/O with plain Python:.',
           misconception: 'Students believe `SeqIO.parse()` returns a list of SeqRecord objects, so they write `records =.',
           parts: [
-                { id: 'a', prompt: 'List the five most commonly used Biopython modules and state one primary function of each.', answer: 'Correct answer: (1) Bio.SeqIO',
+                { id: 'a', prompt: 'List the five most commonly used Biopython modules and state one primary function of each.', answer: '(1) Bio.SeqIO',
                   options: ['Correct answer: (1) Bio.SeqIO', 'Bio.BLAST', 'Bio.PDB'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe `SeqIO.parse()` returns a list of SeqRecord objects, so they write `records = SeqIO.parse("file.fasta", "fasta")` followed.' },
-                { id: 'b', prompt: 'Compare and contrast parsing a GenBank file with `SeqIO.parse()` versus manually splitting lines by "//" delimiter.', answer: 'Correct answer: `SeqIO.parse("file.gb", "genbank")` returns an iterator yielding',
+                { id: 'b', prompt: 'Compare and contrast parsing a GenBank file with `SeqIO.parse()` versus manually splitting lines by "//" delimiter.', answer: '`SeqIO.parse("file.gb", "genbank")` returns an iterator yielding',
                   options: ['Correct answer: `SeqIO.parse("file.gb", "genbank")` returns an iterator yielding', 'both are equivalent for simple tasks', 'file.fasta'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe `SeqIO.parse()` returns a list of SeqRecord objects, so they write `records = SeqIO.parse("file.fasta", "fasta")` followed.' }
@@ -198,7 +198,7 @@ export const w_c11_biotechbioinformaticscbsesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe `SeqIO.parse()` returns a list of SeqRecord objects, so they write `records =.',
           parts: [
-                { id: 'a', prompt: 'A student writes this script to download 10,000 nucleotide sequences from NCBI using Entrez.', answer: 'Correct answer: Flaw 1: No `Entrez.api_key`',
+                { id: 'a', prompt: 'A student writes this script to download 10,000 nucleotide sequences from NCBI using Entrez.', answer: 'Flaw 1: No `Entrez.api_key`',
                   options: ['Correct answer: Flaw 1: No `Entrez.api_key`', 'missing import SeqIO', 'file.fasta', '`SeqIO'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe `SeqIO.parse()` returns a list of SeqRecord objects, so they write `records = SeqIO.parse("file.fasta", "fasta")` followed.' },
@@ -206,7 +206,7 @@ export const w_c11_biotechbioinformaticscbsesim: SimDef = {
                   options: ['Expected answer criteria: (1) Use `SeqIO.parse()` to iterate genome contigs', 'file.fasta', '`SeqIO'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe `SeqIO.parse()` returns a list of SeqRecord objects, so they write `records = SeqIO.parse("file.fasta", "fasta")` followed.' },
-                { id: 'c', prompt: 'Compare and contrast parsing a GenBank file with `SeqIO.parse()` versus manually splitting lines by "//" delimiter.', answer: 'Correct answer: `SeqIO.parse("file.gb", "genbank")` returns an iterator yielding',
+                { id: 'c', prompt: 'Compare and contrast parsing a GenBank file with `SeqIO.parse()` versus manually splitting lines by "//" delimiter.', answer: '`SeqIO.parse("file.gb", "genbank")` returns an iterator yielding',
                   options: ['Correct answer: `SeqIO.parse("file.gb", "genbank")` returns an iterator yielding', 'both are equivalent for simple tasks', 'file.fasta', '`SeqIO'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe `SeqIO.parse()` returns a list of SeqRecord objects, so they write `records = SeqIO.parse("file.fasta", "fasta")` followed.' }

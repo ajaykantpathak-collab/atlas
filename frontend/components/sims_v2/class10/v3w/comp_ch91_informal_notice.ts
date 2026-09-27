@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
 /** HAND-AUTHORED — c10_comp_ch91 The Noticeboard (informal letter + notice).
- * Nodes: c10_comp_cbse_91_001 (informal letter), 91_002 (notice). */
+ * Nodes: c10_engl_cbse_91_001 (informal letter), 91_002 (notice). */
 export const c10_comp_ch91: SimDef = {
-    id: 'v3_c10_comp_ch91',
+    id: 'v3w_c10_comp_ch91',
     title: 'The Noticeboard',
     subtitle: 'Two formats, opposite registers — warmth inside a letter to a friend, cold precision inside a boxed notice',
     classLevel: 10, subject: 'english-composition', topic: 'Informal letter and notice writing',
     chapters: ['c10_comp_ch91'],
-    nodeIds: ['c10_comp_cbse_91_001', 'c10_comp_cbse_91_002'],
+    nodeIds: ['c10_engl_cbse_91_001', 'c10_engl_cbse_91_002'],
     emoji: '📌', theme: { bg: 'from-slate-900 to-lime-950', accent: 'lime', scene: 'senior' },
 
     scenario: {
@@ -33,7 +33,7 @@ export const c10_comp_ch91: SimDef = {
     ],
 
     beats: [
-        { type: 'scaffold', nodeId: 'c10_comp_cbse_91_001', title: 'Sound like a person',
+        { type: 'scaffold', nodeId: 'c10_engl_cbse_91_001', title: 'Sound like a person',
           scaffold: {
             problem: 'Rewrite this robot-opener for a letter to your cousin: "I am writing to apprise you of my recent academic achievement."',
             steps: [
@@ -44,14 +44,14 @@ export const c10_comp_ch91: SimDef = {
                 { text: 'You: share news of winning a prize → "___"', blankAnswer: 'Guess what! I won first prize!' },
             ],
           } },
-        { type: 'dissect', nodeId: 'c10_comp_cbse_91_002', title: 'Strip the notice',
+        { type: 'dissect', nodeId: 'c10_engl_cbse_91_002', title: 'Strip the notice',
           dissect: { specimen: 'a defective school notice',
           spots: [
             { id: 's1', label: 'header', prompt: 'Correct header order for a notice?', answer: 'organization name → NOTICE → date → heading', options: ['organization name → NOTICE → date → heading', 'heading → NOTICE → date → org name', 'NOTICE → org name → heading → date', 'date → org name → NOTICE → heading'] },
             { id: 's2', label: 'person', prompt: '"I am happy to inform you all that…" — what is the register violation?', answer: 'first person — notices announce in third person; the institution speaks, not the writer', options: ['first person — notices announce in third person; the institution speaks, not the writer', 'too many words only', 'happy is an emotion word', 'inform has wrong tense'] },
             { id: 's3', label: 'limit', prompt: 'The body is 68 words. What is the legal limit and what gets cut first?', answer: '50 words — cut enthusiasm-performance first (very exciting, definitely, fun), keep the 4W facts', options: ['50 words — cut enthusiasm-performance first (very exciting, definitely, fun), keep the 4W facts', '100 words — trim anywhere', '30 words — drop the venue', 'no limit — completeness matters more'] },
           ] } },
-        { type: 'case', nodeId: 'c10_comp_cbse_91_001', title: 'Warmth or stiffness?',
+        { type: 'case', nodeId: 'c10_engl_cbse_91_001', title: 'Warmth or stiffness?',
           caseStudy: {
             intro: 'Informal letters are marked on sounding human. Pick the line a friend would actually write.',
             decisions: [
@@ -65,7 +65,7 @@ export const c10_comp_ch91: SimDef = {
                 ] },
             ],
           } },
-        { type: 'build', nodeId: 'c10_comp_cbse_91_002', title: 'Stack the notice header',
+        { type: 'build', nodeId: 'c10_engl_cbse_91_002', title: 'Stack the notice header',
           build: {
             prompt: 'Order the notice header blocks:',
             blocks: ['heading', 'date', 'NOTICE', 'organization name'],
@@ -74,7 +74,7 @@ export const c10_comp_ch91: SimDef = {
     ],
 
     challenges: [
-        { type: 'mcq', nodeId: 'c10_comp_cbse_91_001', difficulty: 'foundation',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_91_001', difficulty: 'foundation',
           question: 'Sign-off for a letter to your cousin:',
           options: [
               { text: 'Yours lovingly' },
@@ -87,7 +87,7 @@ export const c10_comp_ch91: SimDef = {
           },
           hint: 'Who is reading — a stranger, a professional, or family?',
           misconception: 'students memorize one sign-off pair and apply it universally' },
-        { type: 'mcq', nodeId: 'c10_comp_cbse_91_002', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_91_002', difficulty: 'standard',
           question: 'Which body sentence belongs in a notice?',
           options: [
               { text: 'Interested students may register with the undersigned by 10 March.' },
@@ -101,7 +101,7 @@ export const c10_comp_ch91: SimDef = {
           },
           hint: 'Inform, don\'t invite — and the institution speaks, not you.',
           misconception: 'students write notices as personal invitations — enthusiasm is a register violation' },
-        { type: 'mcq', nodeId: 'c10_comp_cbse_91_002', difficulty: 'advanced',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_91_002', difficulty: 'advanced',
           question: 'A 68-word notice reads: "I am happy to inform you all that we are having a very exciting annual day on 15 March at 10 am in the auditorium and everyone should come!!!" — count the violations.',
           options: [
               { text: 'first person, exclamations, over-limit, missing org name/date/heading/contact — nearly everything' },
@@ -115,7 +115,7 @@ export const c10_comp_ch91: SimDef = {
           },
           hint: 'Audit the skeleton AND the register — not just the word count.',
           misconception: 'students spot the limit but not the register violations — notices need systematic audit' },
-        { type: 'sort', nodeId: 'c10_comp_cbse_91_001', difficulty: 'foundation',
+        { type: 'sort', nodeId: 'c10_engl_cbse_91_001', difficulty: 'foundation',
           question: 'Which register — informal letter or notice?',
           sortItems: [
               { id: 'a', label: 'Guess what happened today!', emoji: '🎉', correctBin: 'letter' },
@@ -131,7 +131,7 @@ export const c10_comp_ch91: SimDef = {
           ],
           hint: 'Sounds like speech → letter. Sounds like an institution → notice.',
           misconception: 'students cannot keep the two registers separate — the same hand writes both contracts' },
-        { type: 'subpart', nodeId: 'c10_comp_cbse_91_002', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c10_engl_cbse_91_002', difficulty: 'advanced',
           question: 'Draft the body of a notice: inter-school debate, 22 March, 11 am, main hall, register with Mrs Rao by 18 March.',
       hint: 'Work the parts in order — each answer feeds the next.',
       misconception: 'rushes to the final answer without building the chain',

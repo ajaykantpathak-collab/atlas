@@ -8,7 +8,7 @@ export const c6_physics_ch01: SimDef = {
     subtitle: 'This node covers the definition of science and the basic scientific method (observation.',
     classLevel: 6, subject: 'physics', topic: 'The Ever-Evolving World of Science',
     chapters: ['c6_physics_ch01'],
-    nodeIds: ['c6_physics_ch01_001', 'c6_physics_ch01_002', 'c6_physics_ch01_003', 'c6_physics_ch01_004'],
+    nodeIds: ['c6_physics_ch01_001', 'c6_physics_ch01_002', 'c6_physics_ch01_003', 'c6_physics_ch01_004', 'c6_physics_ch01_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine your favorite flashlight suddenly stops working; what is the first thing you do?', goal: 'Master every idea in this chapter.' },

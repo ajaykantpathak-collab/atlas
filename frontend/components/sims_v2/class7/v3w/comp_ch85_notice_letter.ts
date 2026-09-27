@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
 /** HAND-AUTHORED — c7_comp_ch85 The Bulletin Board (notice + informal letter with purpose).
- * Nodes: c7_comp_cbse_85_001, 85_002. */
+ * Nodes: c7_gram_cbse_85_001, 85_002. */
 export const c7_comp_ch85: SimDef = {
-    id: 'v3_c7_comp_ch85',
+    id: 'v3w_c7_comp_ch85',
     title: 'The Bulletin Board',
     subtitle: 'The notice speaks for the school; the letter speaks like you — two contracts, one desk',
     classLevel: 7, subject: 'english-composition', topic: 'Notices and purpose-driven informal letters',
     chapters: ['c7_comp_ch85'],
-    nodeIds: ['c7_comp_cbse_85_001', 'c7_comp_cbse_85_002'],
+    nodeIds: ['c7_gram_cbse_85_001', 'c7_gram_cbse_85_002'],
     emoji: '📌', theme: { bg: 'from-slate-900 to-lime-950', accent: 'lime', scene: 'junior' },
 
     scenario: {
@@ -33,7 +33,7 @@ export const c7_comp_ch85: SimDef = {
     ],
 
     beats: [
-        { type: 'scaffold', nodeId: 'c7_comp_cbse_85_001', title: 'Stack the notice',
+        { type: 'scaffold', nodeId: 'c7_gram_cbse_85_001', title: 'Stack the notice',
           scaffold: {
             problem: 'Draft a notice: inter-class quiz, 20 May, 10 am, library; register with Mr Sen by 15 May.',
             steps: [
@@ -44,14 +44,14 @@ export const c7_comp_ch85: SimDef = {
                 { text: 'You: heading for a lost-watch notice → "___"', blankAnswer: 'Lost and Found — Wrist Watch' },
             ],
           } },
-        { type: 'dissect', nodeId: 'c7_comp_cbse_85_001', title: 'Audit this notice',
+        { type: 'dissect', nodeId: 'c7_gram_cbse_85_001', title: 'Audit this notice',
           dissect: { specimen: 'a 68-word first-person notice',
           spots: [
             { id: 's1', label: 'person', prompt: '"I am happy to inform you all that we are having a very exciting annual day…" — first fault?', answer: 'first person — the institution speaks, never the writer', options: ['first person — the institution speaks, never the writer', 'the comma splice', 'annual should be capital', 'nothing wrong'] },
             { id: 's2', label: 'limit', prompt: 'It runs 68 words. The limit?', answer: 'about 50 — cut enthusiasm first, keep the 4W facts', options: ['about 50 — cut enthusiasm first, keep the 4W facts', '100 words', 'no limit', '30 words'] },
             { id: 's3', label: 'header', prompt: 'The header order?', answer: 'org name → NOTICE → date → heading', options: ['org name → NOTICE → date → heading', 'heading → NOTICE → org name', 'NOTICE → heading → date', 'date first, always'] },
           ] } },
-        { type: 'case', nodeId: 'c7_comp_cbse_85_002', title: 'Postcard or letter?',
+        { type: 'case', nodeId: 'c7_gram_cbse_85_002', title: 'Postcard or letter?',
           caseStudy: {
             intro: 'A letter body does three jobs — news, questions, forward-look. Judge these drafts.',
             decisions: [
@@ -65,7 +65,7 @@ export const c7_comp_ch85: SimDef = {
                 ] },
             ],
           } },
-        { type: 'build', nodeId: 'c7_comp_cbse_85_002', title: 'Assemble the warm body',
+        { type: 'build', nodeId: 'c7_gram_cbse_85_002', title: 'Assemble the warm body',
           build: {
             prompt: 'Order the three letter-body jobs:',
             blocks: ['questions about them', 'your news', 'a forward look (invite/plan/write-back)'],
@@ -74,7 +74,7 @@ export const c7_comp_ch85: SimDef = {
     ],
 
     challenges: [
-        { type: 'mcq', nodeId: 'c7_comp_cbse_85_001', difficulty: 'foundation',
+        { type: 'mcq', nodeId: 'c7_gram_cbse_85_001', difficulty: 'foundation',
           question: 'Where does the school\'s name go in a notice?',
           options: [
               { text: 'At the very top, above NOTICE — the issuing authority leads' },
@@ -88,7 +88,7 @@ export const c7_comp_ch85: SimDef = {
           },
           hint: 'Who is announcing? That name leads.',
           misconception: 'students treat the org name like a signature instead of the issuing authority' },
-        { type: 'mcq', nodeId: 'c7_comp_cbse_85_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c7_gram_cbse_85_001', difficulty: 'standard',
           question: '"NOTICE — Hi friends! We are having a super fun book fair next week, please come all!!!" — count the violations.',
           options: [
               { text: 'First person, exclamations, no org name/date/heading/contact, invitation-tone — nearly everything' },
@@ -101,7 +101,7 @@ export const c7_comp_ch85: SimDef = {
           },
           hint: 'Check the skeleton AND the register — two passes.',
           misconception: 'students spot one fault and stop — notices need systematic audit' },
-        { type: 'mcq', nodeId: 'c7_comp_cbse_85_002', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c7_gram_cbse_85_002', difficulty: 'standard',
           question: 'What three jobs does an informal letter body do?',
           options: [
               { text: 'Share your news, ask about them, close looking forward' },
@@ -115,7 +115,7 @@ export const c7_comp_ch85: SimDef = {
           },
           hint: 'Does the letter talk TO the reader or only ABOUT your week?',
           misconception: 'students write report-bodies — letters need reader-interaction' },
-        { type: 'sort', nodeId: 'c7_comp_cbse_85_001', difficulty: 'foundation',
+        { type: 'sort', nodeId: 'c7_gram_cbse_85_001', difficulty: 'foundation',
           question: 'Notice-legal or notice-illegal?',
           sortItems: [
               { id: 'a', label: 'All students are informed that…', emoji: '📢', correctBin: 'legal' },
@@ -130,7 +130,7 @@ export const c7_comp_ch85: SimDef = {
           ],
           hint: 'Third person + facts = legal. I/you + excitement = illegal.',
           misconception: 'students import letter-warmth into the clipped notice register' },
-        { type: 'subpart', nodeId: 'c7_comp_cbse_85_002', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c7_gram_cbse_85_002', difficulty: 'standard',
           question: 'Letter to a friend apologizing for missing their party — build it.',
           hint: 'Warm voice, real reason, forward look.',
           misconception: 'apologizes coldly ("I regret to inform") or skips the reason',

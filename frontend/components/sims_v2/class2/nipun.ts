@@ -1,0 +1,120 @@
+/**
+ * Class 2 NIPUN extension sims — riddles + decodable reading.
+ * Fills: NIPUN 3NE6 (riddles), Class-2 reading fluency Lakshya.
+ */
+import type { SimDef } from '../engine/types';
+
+// ═══ Number & Shape Riddles ═══════════════════════════════════
+export const c2Riddles: SimDef = {
+    id: 'c2_riddles', title: 'Number Riddles', subtitle: 'I am a mystery number — find me!',
+    classLevel: 2, subject: 'maths', topic: 'Number Riddles & Logic',
+    chapters: ['NIPUN Lakshya 3NE6: solving riddles with numbers and shapes'],
+    emoji: '🧩', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'riddles' },
+    scenario: { role: "a riddle-solver", intro: "The cave of numbers hides answers in clues. Solve each riddle!", goal: "Crack every riddle." },
+    discovery: {
+        question: "I am bigger than 5 but smaller than 7. Who am I?",
+        options: ["6", "8", "4"],
+        answer: "6",
+        hook: "6 sits right between 5 and 7 — you just solved a riddle!",
+    },
+    teaching: [
+        { title: 'What is a Riddle? 🧩', text: 'A riddle hides a number in clues! "I am after 7" means the answer is 8. Clues tell you what to look for!', emoji: '🧩', bgColor: 'from-purple-400 to-violet-500' },
+        { title: 'Even and Odd 🎭', text: 'Even numbers pair up: 2, 4, 6, 8. Odd numbers leave one alone: 3, 5, 7. A clue saying "even" cuts out half the numbers!', emoji: '🎭', bgColor: 'from-emerald-400 to-teal-500' },
+        { title: 'Before, After, Between ↔️', text: '"I come after 9" is 10. "I am between 4 and 6" is 5. Neighbour clues are the easiest!', emoji: '↔️', bgColor: 'from-amber-400 to-orange-500' },
+        { title: 'Shape Riddles Too! 🔺', text: '"I have 3 sides" — triangle! "I roll and have no corners" — circle! Riddles work for shapes, not just numbers!', emoji: '🔺', bgColor: 'from-rose-400 to-pink-500' },
+        { title: 'Check Every Clue ✅', text: 'Every clue must be true. If a number fails even one clue, it is out!', emoji: '✅', bgColor: 'from-blue-400 to-indigo-500' },
+    ],
+    explore: { widget: 'numberline', prompt: 'Hop on the number line and test your riddle guesses!' },
+    predict: {
+        question: "Riddle: 'I am even and between 10 and 14.' Guess before testing!",
+        options: ["12", "11", "13"],
+        answer: "12",
+        verifyWidget: "numberline",
+        verifyPrompt: "Mark 11, 12, 13 on the line — which is even AND between?",
+    },
+        generate: { kind: 'add,sub', count: 3, level: 2 },
+challenges: [
+        { type: 'mcq', question: 'I am bigger than 5 and smaller than 7. Who am I?', answer: '6', options: ['4', '6', '8'],
+          hint: 'Count: 5, ?, 7!', misconception: '6 is the only number between 5 and 7 — both clues hold!',
+          workedExample: ['Bigger than 5: 6, 7, 8...', 'Smaller than 7: keeps only 6.', 'Answer: 6.'] },
+        { type: 'mcq', question: 'I come right after 19 when counting. Who am I?', answer: '20', options: ['18', '20', '21'],
+          hint: '19, then comes...?', misconception: 'Right after 19 is 20 — the counting order never skips!',
+          workedExample: ['Count: ...18, 19, 20.', 'After 19 comes 20.'] },
+        { type: 'mcq', question: 'I am odd, bigger than 5, smaller than 8. Who am I?', answer: '7', options: ['6', '7', '9'],
+          hint: 'Between 5 and 8: 6 or 7 — which is odd?', misconception: '7 is odd AND between 5 and 8; 6 is even so it fails a clue!',
+          workedExample: ['Between 5 and 8: 6, 7.', '6 is even (fails).', '7 is odd — answer!'] },
+        { type: 'mcq', question: 'I have 4 equal sides and 4 corners. Who am I?', answer: 'Square', options: ['Rectangle', 'Triangle', 'Square'],
+          hint: 'All sides equal + 4 corners!', misconception: 'Square has 4 EQUAL sides; rectangle sides differ, triangle has 3!',
+          workedExample: ['4 equal sides.', '4 corners.', 'Only the square fits both.'] },
+        { type: 'mcq', question: 'I am the biggest TWO-digit number. Who am I?', answer: '99', options: ['90', '99', '100'],
+          hint: 'Two digits, as big as possible — fill both with 9!', misconception: '99 is the biggest two-digit number — 100 has THREE digits!',
+          workedExample: ['Two digits only.', 'Biggest digit is 9.', '9 and 9 = 99.'] },
+        { type: 'mcq', question: 'I am even, bigger than 10, smaller than 12. Who am I?', answer: 'No number fits!', options: ['11', '10', 'No number fits!'],
+          hint: 'Between 10 and 12 is only 11 — and is 11 even?', misconception: 'Only 11 sits between 10 and 12, but 11 is ODD — no number satisfies every clue!',
+          workedExample: ['Between 10-12: only 11.', 'Is 11 even? No!', 'No number fits all clues.'] },
+        { type: 'mcq', question: 'I have no corners and I roll. Who am I?', answer: 'Circle', options: ['Square', 'Triangle', 'Circle'],
+          hint: 'Round and rolling!', misconception: 'A circle has no corners and rolls — squares and triangles have corners and slide!',
+          workedExample: ['No corners = round.', 'Rolls = circle, not flat sides.'] },
+        { type: 'interact', question: 'Solve: "I am a number on the line between 6 and 8." Hop to that number!', options: [],
+          interactGoal: { instruction: 'Move to position 7 on the number line', widget: 'numberline', validate: 'numberline:pos=7' },
+          hint: 'Between 6 and 8 is 7!', misconception: 'Between means exactly in the middle — 7 sits between 6 and 8!',
+          workedExample: ['Between 6 and 8.', 'Middle is 7.', 'Hop to 7.'] },
+    ],
+    reflect: { prompts: ['Which riddle was trickiest?', 'Make a riddle for a friend!'] },
+    successLine: 'Riddle master! 🧩', tryAgainLine: 'Check every clue!',
+};
+
+// ═══ Decodable Reading — Little Readers ═══════════════════════
+export const c2EngReading: SimDef = {
+    id: 'c2_eng_reading', title: 'Little Readers', subtitle: 'Read the story, find the answer!',
+    classLevel: 2, subject: 'english', topic: 'Reading Comprehension',
+    chapters: ['Marigold-2: reading lessons', 'NIPUN: read short sentences fluently'],
+    emoji: '📖', theme: { bg: 'from-amber-100 to-orange-200', accent: 'amber', scene: 'story' },
+    scenario: { role: "a story-detective", intro: "Every story hides answers inside its words. Read and find them!", goal: "Answer every story question." },
+    discovery: {
+        question: "Read: 'The sun is big.' — What is big?",
+        options: ["The sun", "The moon", "The star"],
+        answer: "The sun",
+        hook: "The sentence itself told you — reading IS finding!",
+    },
+    teaching: [
+        { title: 'Read Every Word 👀', text: 'Do not guess! Read each word slowly: "The dog is brown" — brown is the dog\'s colour!', emoji: '👀', bgColor: 'from-amber-400 to-orange-500' },
+        { title: 'Who? What? Where? 🔍', text: 'Every sentence answers questions. WHO does it? WHAT happens? WHERE? Find them in the words!', emoji: '🔍', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'One Sentence at a Time ⏸️', text: 'Stop after each sentence. Ask: what did I just learn? Then read the next!', emoji: '⏸️', bgColor: 'from-emerald-400 to-teal-500' },
+        { title: 'Answer from the Text ✅', text: 'The answer is always inside the sentence — point to the words that prove it!', emoji: '✅', bgColor: 'from-violet-400 to-purple-500' },
+    ],
+    explore: { widget: 'fluency', prompt: 'Read it aloud!', labels: ['The cat sat on the mat.', 'She had a red hat.', 'The dog ran fast.'] },
+    challenges: [
+        { type: 'mcq', question: 'Read: "The dog is brown." — What colour is the dog?', answer: 'brown', options: ['black', 'brown', 'white'],
+          hint: 'The sentence names the colour!', misconception: '"brown" — the answer lives inside the sentence!',
+          workedExample: ['Find the colour word.', '"brown" is in the sentence.'] },
+        { type: 'mcq', question: '"Ram has a red kite." — What does Ram have?', answer: 'a red kite', options: ['a blue kite', 'a red kite', 'a ball'],
+          hint: '"has a ___" — read the words after has!', misconception: 'A "red kite" — exact words from the text!',
+          workedExample: ['"has a" tells what he owns.', '"red kite" follows.'] },
+        { type: 'mcq', question: '"The fish swims in water." — Where does the fish swim?', answer: 'in water', options: ['on land', 'in air', 'in water'],
+          hint: 'Look at the end of the sentence!', misconception: '"in water" — the place is stated at the end!',
+          workedExample: ['"swims ___" is the place.', '"in water" is written.'] },
+        { type: 'mcq', question: '"Meena saw a bird on the tree." — What did Meena see?', answer: 'a bird', options: ['a tree', 'a bird', 'a cat'],
+          hint: 'What was ON the tree?', misconception: '"a bird" — the tree is where it sat, not what she saw!',
+          workedExample: ['"saw a ___" is what she saw.', '"bird" comes next.'] },
+        { type: 'mcq', question: '"We eat mangoes in summer." — When do we eat mangoes?', answer: 'in summer', options: ['in winter', 'in summer', 'in rain'],
+          hint: 'The time word is at the end!', misconception: '"in summer" — the season word says when!',
+          workedExample: ['"eat mangoes ___" asks when.', '"in summer" is the answer.'] },
+        { type: 'mcq', question: 'To answer a story question, you should—', answer: 'find the answer in the text', options: ['guess from memory', 'skip the story', 'find the answer in the text'],
+          hint: 'The story holds the answer!', misconception: 'The text always has the answer — read it, do not guess!',
+          workedExample: ['Go back to the sentence.', 'Find the matching words.'] },
+        { type: 'interact', question: 'Build the sentence: "The cat sat on the mat." Put the words in order!', options: [],
+          interactGoal: { instruction: 'Tap the words in order: The cat sat', widget: 'order', validate: 'order:correct=3' },
+          hint: 'Start with "The"!', misconception: 'A sentence starts with who — "The cat", then the action "sat"!',
+          workedExample: ['"The" first.', '"cat" second.', '"sat" third.'] },
+        { type: 'interact', question: "Read the passage — aim for 60+ words/min!", options: [],
+          interactGoal: { instruction: 'Read the passage — aim for 60+ words/min!', widget: 'fluency', validate: 'fluency:level>0', labels: ['The cat sat on the mat.', 'She had a red hat.', 'The dog ran fast.'] },
+          hint: 'Take your time!', misconception: 'Practice makes the shape stick!',
+          workedExample: ['Watch the guide.', 'Trace carefully.', 'Try again if needed.'] },
+
+    ],
+    reflect: { prompts: ['Which sentence was hardest to read?', 'Read one sentence aloud to a friend!'] },
+    successLine: 'Reading star! 📖', tryAgainLine: 'Go back to the sentence!',
+};
+
+export const class2NipunSims: SimDef[] = [c2Riddles, c2EngReading];

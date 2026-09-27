@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch10_p2: SimDef = {
     id: 'v3_c12_hin_ar_ch10_p2',
-    title: 'èkeZohj Hkkjrh · Part 2/3',
+    title: 'भक्तनि · Part 2/3',
     subtitle: 'A poet wrote prose so a servant\'s life would count',
-    classLevel: 12, subject: 'hin_ar', topic: 'èkeZohj Hkkjrh · Part 2/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'भक्तनि · Part 2/3',
     chapters: ['c12_hin_ar_ch10'],
     nodeIds: ['c12_hin_ar_cbse_10_007', 'c12_hin_ar_cbse_10_008', 'c12_hin_ar_cbse_10_009', 'c12_hin_ar_cbse_10_010', 'c12_hin_ar_cbse_10_011', 'c12_hin_ar_cbse_10_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,47 +19,20 @@ export const c12_hin_ar_ch10_p2: SimDef = {
         hook: 'Don\'t read it as just a sad servant story — the context stages a power binary (master-servant, caste, literacy) that the child\'s innocent gaze both reveals and unsettles. The Avadhi dialect she speaks is authenticity itself: identity recorded with respect, not corrected.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas, motifs, and concerns that run parallel to the primary theme of a literary work, enriching its texture by exploring complementary or contrasting dimensions.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'भक्तनि — गौण विषय', text: 'गौण विषय (Sub-themes) वे सहायक विषय-वस्तुएँ हैं जो पाठ के मुख्य विषय (Central Theme) को पुष्ट करती हैं, उसका विस्तार करती हैं या उसके विविध आयाम उजागर करती हैं; ये कथानक में समानांतर चलते हुए मुख्य.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_10_007', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'See through the child-narrator\'s eyes: map the household\'s hierarchy before a word of plot, weigh dialect as dignity, and read a memory sketch as social evidence.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
+        labels: ['भक्तनि — गौण विषय', 'भक्तनि — साहित्यिक युक्तियाँ', 'भक्तनि — पदावली: मुख्य', 'भक्तनि — व्याकरण: पाठ', 'भक्तनि — बोध-प्रश्न: वस्तुनिष्ठ'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are reading "HkfDru" and suddenly pause at the line describing HkfDru\'s hands: "काले-काले हाथ...',
-            decisions: [{ prompt: 'Define \'imagery\' (बिम्ब) and \'metaphor\' (रूपक) in your own words, giving one example of each from the text "HkfDru" (do not quote more than.', options: [
-                { text: '**Correct answer:** Imagery = sensory language creating mental pictures (e.g., "काले-काले', outcome: '**Correct answer:** Imagery = sensory language creating mental pictures (e.g., "काले-काले हाथ...' },
-                { text: 'HkfDru\'s hands were black', outcome: 'Not quite — **The "Imagery = Description" Trap:** Students equate *any* descriptive detail with imagery.', reveals: 'the-imagery-description-trap-students' },
-                { text: 'HkfDru is like a bird', outcome: 'Not quite — **The "Imagery = Description" Trap:** Students equate *any* descriptive detail with imagery.', reveals: 'the-imagery-description-trap-students' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are reading "HkfDru" and notice the protagonist’s name means "great" or "grand", yet she is a poor, illiterate domestic worker — this jarring.',
-            decisions: [{ prompt: 'Define irony and symbolism in your own words, giving one generic example of each (not from the textbook).', options: [
-                { text: 'Irony: A contrast between expectation and reality (e.g., a fire station burning down)', outcome: 'Irony: A contrast between expectation and reality (e.g., a fire station burning down).' },
-                { text: 'bad luck', outcome: 'Not quite — Students often label any unfortunate event as "irony" (e.g., "It’s ironic that HkfDru is poor").', reveals: 'students-often-label-any-unfortunate' },
-                { text: 'sarcasm only', outcome: 'Not quite — Students often label any unfortunate event as "irony" (e.g., "It’s ironic that HkfDru is poor").', reveals: 'students-often-label-any-unfortunate' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading HkfDru and encounter the phrase "bZ dmu cM+h ckr vk;A" — a dictionary gives "dmu = big, ckr = matter", but that misses the affectionate.',
-            decisions: [{ prompt: 'What is the primary strategy for determining the meaning of an unfamiliar word in a literary text like HkfDru?', options: [
-                { text: 'The primary strategy is to analyze the surrounding context', outcome: 'The primary strategy is to analyze the surrounding context — including tone, imagery, character.' },
-                { text: 'look it up in a dictionary first', outcome: 'Not quite — Students treat the \'kCn&Nfo (word-meanings) list as a definitive answer key, memorizing glosses.', reveals: 'students-treat-the-kcn-nfo' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are listening to an elderly grandmother in a village narrating her life story — she doesn\'t speak textbook Hindi; her verbs end in \'th\' instead.',
-            decisions: [{ prompt: 'Identify the specific verb ending used by HkfDru in the text that replaces the standard Hindi \'है\' (hai) or \'हैं\' (hain), and give one.', options: [
-                { text: 'The verb ending is \'थ\' (th) used for both singular and plural present tense (e.g., "गक', outcome: 'The verb ending is \'थ\' (th) used for both singular and plural present tense (e.g., "गक; गस" -> "गक.' },
-                { text: '\'है\' or \'हो\'', outcome: 'Not quite — Students treat dialectal forms in "HkfDru" as *errors* or *deviations* from "correct" Hindi that.', reveals: 'students-treat-dialectal-forms-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see a question: "Why does HkfDru hide her real name?" You might panic because the story never says it directly.',
-            decisions: [{ prompt: 'Define literal and inferential comprehension questions in your own words.', options: [
-                { text: 'Literal questions ask for facts explicitly stated in the text (e.g., "What is HkfDru\'s', outcome: 'Literal questions ask for facts explicitly stated in the text (e.g., "What is HkfDru\'s age when she.' },
-                { text: 'not directly stated', outcome: 'Not quite — Students treat inferential questions as "opinion questions" and answer from personal feeling (e.g.', reveals: 'students-treat-inferential-questions-as' },
-                { text: 'not in the text at all', outcome: 'Not quite — Students treat inferential questions as "opinion questions" and answer from personal feeling (e.g.', reveals: 'students-treat-inferential-questions-as' }
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_010', title: 'भक्तनि — पदावली: मुख्य शब्द',
+          caseStudy: { intro: 'Imagine you are writing a 5-mark answer on "भक्तनि का चरित्र-चित्रण" and you write "भक्तनि बहुत अच्छी थी" — the examiner gives 1 mark.',
+            decisions: [{ prompt: 'पाठ \'भक्तनि\' की NCERT पदावली में दिए गए शब्द **\'लोकाचार\'** का *पाठगत अर्थ* (contextual meaning) लिखिए और बताइए कि यह शब्द भक्तनि के चरित्र.', options: [
+                { text: '**Correct Answer:** \'लोकाचार\' का पाठगत अर्थ है', outcome: '**Correct Answer:** \'लोकाचार\' का पाठगत अर्थ है — \'समाज में प्रचलित मान्य परंपराएँ, रीति-रिवाज और.' },
+                { text: 'लोगों का व्यवहार', outcome: 'Not quite — **"पदावली रटने के लिए है, समझने के लिए नहीं।"** Students treat the \'पदावली\' box as a **vocabulary.', reveals: 'wrong-idea' }
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_10_007', title: 'Use it in the wild',
           caseStudy: { intro: 'For a features-writing course, you\'re profiling the woman who\'s run your hostel kitchen for 30 years. Your editor wants a \'heartwarming\' ending where she cries as the final batch of students leaves — \'that\'s the emotional payoff.\'',
@@ -70,8 +43,8 @@ export const c12_hin_ar_ch10_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_10_012', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read an autobiographical sketch as a reformer\'s document — where one remembered woman exposes a whole system\'s quiet cruelties.',
-            decisions: [{ prompt: 'What comes next? èkeZohj Hkkjrh · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — èkeZohj Hkkjrh · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? भक्तनि · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — भक्तनि · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -80,94 +53,71 @@ export const c12_hin_ar_ch10_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas, motifs, and concerns that run.',
-          hint: 'If unable to separate primary from secondary themes, review the "Theme: Primary Theme and.',
-          misconception: 'Students often treat secondary themes as "minor themes" — less important, less developed, or just "extra topics.',
+          question: 'गौण विषय (Sub-themes) वे सहायक विषय-वस्तुएँ हैं जो पाठ के मुख्य विषय (Central.',
+          hint: 'यदि मुख्य विषय स्पष्ट न हो तो c12_hin_ar_cbse_10_006 पर लौटें; यदि गौण विषय की मूल.',
+          misconception: '**विशिष्ट भ्रांति**: *"गौण विषय का अर्थ है कहानी में आए छोटे-मोटे प्रसंग या पात्र, जिनका मुख्य कथानक से सीधा संबंध न.',
           parts: [
-                { id: 'a', prompt: 'In "HkfDru", the narrator consistently uses the masculine pronoun "th" (तह) and the name "HkfDru" for a female squirrel.', answer: 'The narrator\'s refusal to gender HkfDru linguistically',
-                  options: ['The narrator\'s refusal to gender HkfDru linguistically', 'mistake', 'mlus viuk le`f¼&lwpd uke fdlh dks crkrh ugha'],
-                  hint: 'If unable to separate primary from secondary themes, review the "Theme: Primary Theme and Message".',
-                  misconception: 'Students often treat secondary themes as "minor themes" — less important, less developed, or just "extra topics mentioned." They write.' },
-                { id: 'b', prompt: 'Compare how the secondary theme of "critique of institutional education" appears in the narrator\'s role as a teacher versus HkfDru\'s "education." What contrast.', answer: 'The narrator teaches in a formal system: rigid schedules, prescribed curricula,',
-                  options: ['The narrator teaches in a formal system: rigid schedules, prescribed curricula,', 'both learn'],
-                  hint: 'If unable to separate primary from secondary themes, review the "Theme: Primary Theme and Message".',
-                  misconception: 'Students often treat secondary themes as "minor themes" — less important, less developed, or just "extra topics mentioned." They write.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-themes) वे सहायक विषय-वस्तुएँ हैं जो पाठ के मुख्य विषय (Central Theme) को',
+                  options: ['गौण विषय (Sub-themes) वे सहायक विषय-वस्तुएँ हैं जो पाठ के मुख्य विषय (Central Theme) को', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                  hint: 'यदि मुख्य विषय स्पष्ट न हो तो c12_hin_ar_cbse_10_006 पर लौटें; यदि गौण विषय की मूल अवधारणा कमजोर हो.',
+                  misconception: '**विशिष्ट भ्रांति**: *"गौण विषय का अर्थ है कहानी में आए छोटे-मोटे प्रसंग या पात्र, जिनका मुख्य कथानक से सीधा संबंध न हो।"* **क्यों गलत.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student lists themes without tracing them textually: 1) Assign re-reading of **three specific passages** (HkfDru\'s.', '3) Ask them to write **one analytical paragraph** connecting two themes using the structure: "Theme A [evidence].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_007', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat secondary themes as "minor themes" — less important, less developed, or just "extra topics.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The secondary theme of maternal instinct in \'HkfDru\' reinforces traditional gender roles rather than subverting them." Defend your.', answer: 'The claim is **false**',
-                  options: ['The claim is **false**', 'motherhood = traditional femininity'],
-                  hint: 'If unable to separate primary from secondary themes, review the "Theme: Primary Theme and Message".',
-                  misconception: 'Students often treat secondary themes as "minor themes" — less important, less developed, or just "extra topics mentioned." They write.' }
-          ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student lists themes without tracing them textually: 1) Assign re-reading of **three specific passages** (HkfDru\'s.', '3) Ask them to write **one analytical paragraph** connecting two themes using the structure: "Theme A [evidence].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "पाठ से 5 प्रसंग चुनो जहाँ मुख्य कथानक (भक्तनि की भक्ति यात्रा) रुककर कोई अन्य बात होती लगे — जैसे.', 'प्रत्येक प्रसंग के लिए पूछें: "यह प्रसंग कौन-सा *संदेश/विचार* दे रहा है?" — उत्तर में आए शब्द (छुआछूत, स्त्री विद्रोह.', 'अब प्रत्येक गौण विषय के लिए लिखवाएँ: "यह मुख्य विषय \'भक्ति-मुक्ति\' को कैसे मजबूत करता है?" — यह चरण \'विषय\' और \'प्रसंग\'.', 'पुनः डायग्नोस्टिक प्रश्न 2 और 3 हल करवाएँ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_008', difficulty: 'standard',
-          question: 'Imagery (बिम्ब/प्रतिबिम्ब) refers to the use of vivid, sensory language that.',
-          hint: 'If stuck on tenor/vehicle: revisit **c11_hin_ar_cbse_10_008** Step 2 "Metaphor Surgery".',
-          misconception: '**The "Imagery = Description" Trap:** Students equate *any* descriptive detail with imagery.',
+          question: '**बिंब (Imagery/Simile)** वह साहित्यिक युक्ति है जहाँ किन्हीं दो वस्तुओं/भावों.',
+          hint: 'यदि अटके तो **कक्षा 11 नोड c11_hin_ar_cbse_10_008** की **\'पहचान तालिका\' (Identification.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **हर तुलना रूपक ही होती है** और \'जैसे/सा\' वाले वाक्यों को भी रूपक लिख देते हैं।.',
           parts: [
-                { id: 'a', prompt: 'Compare the **extended metaphor of the "cage" (पिंजरा)** for society (pp. 68-69) with the **repeated "bird" imagery** for HkfDru (pp. 64, 72).', answer: '**Correct answer:** The "cage" metaphor frames society as an *active, confining',
-                  options: ['**Correct answer:** The "cage" metaphor frames society as an *active, confining', 'extended metaphor', 'symbols'],
-                  hint: 'If stuck on tenor/vehicle: revisit **c11_hin_ar_cbse_10_008** Step 2 "Metaphor Surgery" exercise.',
-                  misconception: '**The "Imagery = Description" Trap:** Students equate *any* descriptive detail with imagery.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery/Simile)** वह साहित्यिक युक्ति है जहाँ किन्हीं दो वस्तुओं/भावों की समानता',
+                  options: ['**बिंब (Imagery/Simile)** वह साहित्यिक युक्ति है जहाँ किन्हीं दो वस्तुओं/भावों की समानता', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                  hint: 'यदि अटके तो **कक्षा 11 नोड c11_hin_ar_cbse_10_008** की **\'पहचान तालिका\' (Identification Table)**.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **हर तुलना रूपक ही होती है** और \'जैसे/सा\' वाले वाक्यों को भी रूपक लिख देते हैं। *कारण:* कक्षा 9-10 में.' }
           ],
-            remediations: { 'the-imagery-description-trap-students': { steps: ['**Step 1 (5 min):** Re-read Class 11 node **c11_hin_ar_cbse_10_008** (Literary Devices: Imagery and Metaphor) — focus.', '**Step 2 (10 min):** Take the *first paragraph* of "HkfDru" (p.', 'Highlight: 🟡 visual, 🔵 auditory, 🟢 tactile, 🟠 olfactory, 🟣 gustatory.', 'Count — if <3 senses, re-read with a partner, asking "What do I *feel/smell/hear* here?" **Step 3 (5 min):** Do the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { '9-10': { steps: ['छात्र को **कक्षा 11 के नोड c11_hin_ar_cbse_10_008** (भक्तिन — बिंब और रूपक) पर वापस भेजें: वहाँ दी गई **संरचनात्मक भेद.', '**पुनर्निदान (Re-diagnostic):** पाठ से 5 वाक्य निकालें — 3 बिंब, 2 रूपक — और छात्र से **केवल \'जैसे/सा\' छाँटने** को.', 'फिर **भाव-प्रभाव अभ्यास:** प्रत्येक युक्ति के लिए पूछें — "लेखिका ने *यहाँ* रूपक/बिंब क्यों चुना?" — उत्तर में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contradiction between appearance.',
-          hint: 'If unable to separate irony from mere contrast, review the "expectation vs.',
-          misconception: 'Students often label any unfortunate event as "irony" (e.g., "It’s ironic that HkfDru is poor") — this is *situational.',
+          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में असंगत या.',
+          hint: 'यदि \'रूपक बनाम प्रतीक\' का भेद स्पष्ट न हो, तो c11_hin_ar_cbse_10_008 (कक्षा 11, बिंब और.',
+          misconception: '**विशिष्ट भ्रम:** छात्र **विरोधाभास (Paradox)** और **विरोधाभासी पद-युग्म / ऑक्सीमोरॉन (Oxymoron)** को एक मान लेते हैं।.',
           parts: [
-                { id: 'a', prompt: 'In "HkfDru", the narrator initially finds HkfDru’s lack of a formal name amusing, yet later realizes HkfDru’s identity is deeply rooted in her relationships.', answer: 'Situational irony occurs when the outcome is the opposite of what is expected',
-                  options: ['Situational irony occurs when the outcome is the opposite of what is expected', 'dramatic irony', 'verbal irony'],
-                  hint: 'If unable to separate irony from mere contrast, review the "expectation vs.',
-                  misconception: 'Students often label any unfortunate event as "irony" (e.g., "It’s ironic that HkfDru is poor") — this is *situational misfortune*, not.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में असंगत या बेतुका लगता है,',
+                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में असंगत या बेतुका लगता है,', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                  hint: 'यदि \'रूपक बनाम प्रतीक\' का भेद स्पष्ट न हो, तो c11_hin_ar_cbse_10_008 (कक्षा 11, बिंब और रूपक) के.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र **विरोधाभास (Paradox)** और **विरोधाभासी पद-युग्म / ऑक्सीमोरॉन (Oxymoron)** को एक मान लेते हैं। **उदाहरण:** पाठ में.' }
           ],
-            remediations: { 'students-often-label-any-unfortunate': { steps: ['Re-read the three key scenes: HkfDru’s introduction (name irony), the *chulha* scenes (symbolism), the name-writing.', 'For each, fill a two-column table: Column A = "Literal Event/Object", Column B = "Opposite Meaning / Abstract Idea".', 'Re-attempt Diagnostic Questions 2 and 3 using this table.', 'If stuck, revisit node c12_hin_ar_cbse_10_008 (Imagery and Metaphor) to reinforce the distinction between one-time.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'paradox-oxymoron': { steps: ['**पुनः पढ़ो:** पाठ के वे अंश जहाँ कथन पहली बार \'गलत\' लगे (विरोधाभास) और जहाँ कोई वस्तु/क्रिया \'अधिक अर्थ\' देती लगे.', '**तालिका बनाओ:** दो कॉलम — "शाब्दिक अर्थ" और "प्रतीकात्मक/गहरा अर्थ"। पाठ के 5 उदाहरण भरो। 3.', '**परीक्षण करो:** प्रत्येक उदाहरण के लिए पूछो — "क्या यह ऑक्सीमोरॉन है या पूर्ण-वाक्य विरोधाभास?" "क्या यह तुलना (रूपक).', '**पुनः-निदान:** उपरोक्त डायग्नोस्टिक प्रश्न 1 और 2 फिर से हल करो। यदि अब सही आए, आगे बढ़ो; अन्यथा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the meaning.',
-          hint: 'If stuck, re-read the "Hkk"kk dh ckr" (Language Talk) section at the end of the chapter.',
-          misconception: 'Students treat the \'kCn&Nfo (word-meanings) list as a definitive answer key, memorizing glosses like "vLi"V.',
+          question: '"पदावली: मुख्य शब्द" refers to the curated glossary of high-frequency.',
+          hint: 'If stuck on *contextual meaning*: Re-read the **specific paragraph** where the word.',
+          misconception: '**"पदावली रटने के लिए है, समझने के लिए नहीं।"** Students treat the \'पदावली\' box as a **vocabulary list for MCQs**.',
           parts: [
-                { id: 'a', prompt: 'What is the primary strategy for determining the meaning of an unfamiliar word in a literary text like HkfDru?', answer: 'The primary strategy is to analyze the surrounding context',
-                  options: ['The primary strategy is to analyze the surrounding context', 'look it up in a dictionary first'],
-                  hint: 'If stuck, re-read the "Hkk"kk dh ckr" (Language Talk) section at the end of the chapter — it is the.',
-                  misconception: 'Students treat the \'kCn&Nfo (word-meanings) list as a definitive answer key, memorizing glosses like "vLi"V iqujko`fÙk;k¡ = clear.' },
-                { id: 'b', prompt: 'In the sentence "gekjs ekyfdu rkS jkr&fnu fdrfc;u ek¡ xM+h jgrh gSa", the phrase "fdrfc;u ek¡" literally means "hands full of work", but what does.', answer: 'It conveys overwhelmed helplessness mixed with tender resignation',
-                  options: ['It conveys overwhelmed helplessness mixed with tender resignation', 'she has a lot of work'],
-                  hint: 'If stuck, re-read the "Hkk"kk dh ckr" (Language Talk) section at the end of the chapter — it is the.',
-                  misconception: 'Students treat the \'kCn&Nfo (word-meanings) list as a definitive answer key, memorizing glosses like "vLi"V iqujko`fÙk;k¡ = clear.' }
+                { id: 'a', prompt: 'पाठ \'भक्तनि\' की NCERT पदावली में दिए गए शब्द **\'लोकाचार\'** का *पाठगत अर्थ* (contextual meaning) लिखिए और बताइए कि यह शब्द भक्तनि के चरित्र की कौन-सी विशेषता.', answer: '**Correct Answer:** \'लोकाचार\' का पाठगत अर्थ है',
+                  options: ['**Correct Answer:** \'लोकाचार\' का पाठगत अर्थ है', 'लोगों का व्यवहार'],
+                  hint: 'If stuck on *contextual meaning*: Re-read the **specific paragraph** where the word appears (use.',
+                  misconception: '**"पदावली रटने के लिए है, समझने के लिए नहीं।"** Students treat the \'पदावली\' box as a **vocabulary list for MCQs** (meaning.' }
           ],
-            remediations: { 'students-treat-the-kcn-nfo': { steps: ['If a student cannot move beyond dictionary meanings: (1) Give them the sentence "HkfDru dh oaQtwlh osQ izk.k iawthHkwr.', '(2) Have them read the paragraph aloud in Braj rhythm, then in flat standard Hindi — hear the difference.', '(3) Assign: find 3 words where the glossary meaning feels "thin" and write 2 lines explaining the missing emotional.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['** Pick the **3 words you got wrong** in the diagnostics above. **', '** Open the NCERT text. **Find the exact paragraph** where each word appears (or is implied). Highlight the sentence. **', '** For each word, write **one PEEL paragraph** (4 lines) answering: "इस शब्द के बिना इस प्रसंग का अर्थ कैसे अधूरा.', '** Re-attempt **Diagnostic Q6** using *only* those 3 words. Compare with the criteria. **'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic study of how.',
-          hint: 'If stuck, review Class 11 Chapter 10 Grammar node (c11_hin_ar_cbse_10_011) — specifically.',
-          misconception: 'Students treat dialectal forms in "HkfDru" as *errors* or *deviations* from "correct" Hindi that the author "couldn\'t.',
+          question: '\'भक्तिन\' पाठ में भाषा-प्रयोग का तात्पर्य लेखक (महादेवी वर्मा) द्वारा कथानक.',
+          hint: 'यदि अटको, तो **कक्षा 11 आरोह भाग-1, पाठ 1 (c11_hin_ar_cbse_01_011)** के \'व्याकरण: पाठ में.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'भाषा-प्रयोग\' प्रश्न का उत्तर **शब्दार्थ लिखना** या **अलंकार का नाम बताना** मात्र.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Grammar: Language Usage in the Text refers to the systematic study of how grammatical',
-                  options: ['Grammar: Language Usage in the Text refers to the systematic study of how grammatical', '"Before You Read: Context and Background" is a pre-reading section that provides', 'Plot and narrative structure refer to the sequence of events in a story (plot) and the', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, review Class 11 Chapter 10 Grammar node (c11_hin_ar_cbse_10_011) — specifically the.',
-                  misconception: 'Students treat dialectal forms in "HkfDru" as *errors* or *deviations* from "correct" Hindi that the author "couldn\'t avoid" because the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'भक्तिन\' पाठ में भाषा-प्रयोग का तात्पर्य लेखक (महादेवी वर्मा) द्वारा कथानक, पात्र-चित्रण,',
+                  options: ['\'भक्तिन\' पाठ में भाषा-प्रयोग का तात्पर्य लेखक (महादेवी वर्मा) द्वारा कथानक, पात्र-चित्रण,', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                  hint: 'यदि अटको, तो **कक्षा 11 आरोह भाग-1, पाठ 1 (c11_hin_ar_cbse_01_011)** के \'व्याकरण: पाठ में.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'भाषा-प्रयोग\' प्रश्न का उत्तर **शब्दार्थ लिखना** या **अलंकार का नाम बताना** मात्र है। **वास्तविकता:**.' }
           ],
-            remediations: { 'students-treat-dialectal-forms-in': { steps: ['If a student holds this misconception: Step 1 — Give them two sentences: one with a genuine performance error (e.g.', 'Ask: "Which follows a *system*?" Step 2 — Show the Braj grammar rule: present tense 3rd person singular ends in -th.', 'Step 3 — Have them find 5 consistent \'th\' endings in the text.', 'Step 4 — Ask: "If it were random errors, would it be this consistent?" Step 5 — Re-read the narrator\'s reaction: she.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1:** पाठ के **पैराग्राफ 2, 5, 9** को फिर से पढ़ो — केवल **वाक्य-लंबाई गिनो** (शब्दों में) और नोट करो: कहाँ छोटे.', '**चरण 2:** प्रत्येक पैराग्राफ में **तीन तत्सम, तीन तद्भव, दो देशज शब्द** छाँटो। 3.', '**चरण 3:** एक-एक कर पूछो — "लेखक ने **यही** शब्द/वाक्य **यहाँ** क्यों चुना?" — उत्तर PEEL फॉर्मेट में लिखो। 4.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_4 को दोबारा हल करो — अब मुहावरों का **कार्यात्मक विश्लेषण** (सिर्फ अर्थ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_012', difficulty: 'standard',
-          question: 'Literal comprehension questions ask for information directly stated in the text.',
-          hint: 'If stuck, review the chapter summary and character sketches from nodes.',
-          misconception: 'Students treat inferential questions as "opinion questions" and answer from personal feeling (e.g., "I think she.',
+          question: 'वस्तुनिष्ठ बोध-प्रश्न वे हैं जिनका उत्तर पाठ से सीधे तथ्य, घटना, पात्र या विवरण.',
+          hint: 'यदि पात्र/प्रसंग/युक्ति याद न आए तो तुरंत **c12_hin_ar_cbse_10_004** (पात्र-चित्रण).',
+          misconception: 'छात्र समझते हैं कि आशय-सूचक प्रश्न का उत्तर **\'अपनी राय\'** देना है — "मुझे लगता है भक्तिन बहुत अच्छी थी" — जबकि वास्तव.',
           parts: [
-                { id: 'a', prompt: 'Read the question: "What work does HkfDru do in the narrator\'s house?" Is this literal or inferential? Explain how you know.', answer: 'This is a literal question',
-                  options: ['This is a literal question', 'detail-rich', 'implicit', 'not directly stated'],
-                  hint: 'If stuck, review the chapter summary and character sketches from nodes c12_hin_ar_cbse_10_002 and.',
-                  misconception: 'Students treat inferential questions as "opinion questions" and answer from personal feeling (e.g., "I think she is sad") instead.' },
-                { id: 'b', prompt: 'Answer this literal question using the text: "What name does the narrator\'s mother give HkfDru, and why does she choose it?"', answer: 'Steps: 1) Identify keywords: "mother", "give HkfDru", "name"',
-                  options: ['Steps: 1) Identify keywords: "mother", "give HkfDru", "name"', 'not directly stated', 'not in the text at all'],
-                  hint: 'If stuck, review the chapter summary and character sketches from nodes c12_hin_ar_cbse_10_002 and.',
-                  misconception: 'Students treat inferential questions as "opinion questions" and answer from personal feeling (e.g., "I think she is sad") instead.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ बोध-प्रश्न वे हैं जिनका उत्तर पाठ से सीधे तथ्य, घटना, पात्र या विवरण के रूप',
+                  options: ['वस्तुनिष्ठ बोध-प्रश्न वे हैं जिनका उत्तर पाठ से सीधे तथ्य, घटना, पात्र या विवरण के रूप', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                  hint: 'यदि पात्र/प्रसंग/युक्ति याद न आए तो तुरंत **c12_hin_ar_cbse_10_004** (पात्र-चित्रण).',
+                  misconception: 'छात्र समझते हैं कि आशय-सूचक प्रश्न का उत्तर **\'अपनी राय\'** देना है — "मुझे लगता है भक्तिन बहुत अच्छी थी" — जबकि वास्तव में उत्तर.' }
           ],
-            remediations: { 'students-treat-inferential-questions-as': { steps: ['Give the student a short paragraph from the chapter.', 'Ask them to write one literal and one inferential question about it.', 'Have them swap with a partner and answer each other\'s questions, highlighting the exact words used.', 'Debrief: for inferential answers, demand "Show me the two sentences that led you there." Repeat with three new.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['चरण १: छात्र को एक ही गद्यांश पर ३ वस्तुनिष्ठ और ३ आशय-सूचक प्रश्न देकर **अंतर स्पष्ट करवाएँ** — वस्तुनिष्ठ के उत्तर एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

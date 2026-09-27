@@ -161,7 +161,7 @@ export const w_c12_biotechnologyhostvectorsystemsim: SimDef = {
           hint: 'If stuck on glycosylation differences, review c11_biotech_cbse_02_005 (Golgi) and.',
           misconception: 'Students believe "yeast glycosylation is just like human glycosylation because both are eukaryotes." In reality, yeast.',
           parts: [
-                { id: 'a', prompt: 'Explain why a human glycoprotein produced in wild-type S. cerevisiae often triggers immune reactions when administered to patients, whereas the same protein.', answer: 'Correct answer: Wild-type yeast performs hypermannosylation',
+                { id: 'a', prompt: 'Explain why a human glycoprotein produced in wild-type S. cerevisiae often triggers immune reactions when administered to patients, whereas the same protein.', answer: 'Wild-type yeast performs hypermannosylation',
                   options: ['Correct answer: Wild-type yeast performs hypermannosylation', 'yeast glycosylates differently', '"yeast glycosylation is just like human glycosylation'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "yeast glycosylation is just like human glycosylation because both are eukaryotes." In reality, yeast adds only.' }

@@ -89,7 +89,7 @@ export const w_c10_physicshousewiringpowersim: SimDef = {
           hint: 'If stuck, revisit c10_phy_cbse_01_003 (Ohm\'s law) for V=IR manipulation and.',
           misconception: 'Students believe that in a parallel circuit, "the current is the same through all resistors" — this is the series rule.',
           parts: [
-                { id: 'a', prompt: 'State the formula for the equivalent resistance of three resistors R₁, R₂, R₃ connected in parallel. Write the SI unit of equivalent resistance.', answer: 'Correct answer: 1/R_eq = 1/R₁ + 1/R₂ + 1/R₃',
+                { id: 'a', prompt: 'State the formula for the equivalent resistance of three resistors R₁, R₂, R₃ connected in parallel. Write the SI unit of equivalent resistance.', answer: '1/R_eq = 1/R₁ + 1/R₂ + 1/R₃',
                   options: ['Correct answer: 1/R_eq = 1/R₁ + 1/R₂ + 1/R₃', 'siemens', 'the current is the same through all resistors'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that in a parallel circuit, "the current is the same through all resistors" — this is the series rule incorrectly.' },

@@ -181,11 +181,11 @@ export const w_c12_biotechplanttissueculturecbsesim: SimDef = {
           hint: 'If stuck, revisit c12_biotech_cbse_06_001 (totipotency basis) and c11_biotech_cbse_12_011.',
           misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all.',
           parts: [
-                { id: 'a', prompt: 'A REMEMBER level question: List the four most common chemical disinfectants used for plant explant surface sterilization and state the typical concentration.', answer: 'Correct answer: (1) Sodium hypochlorite (NaOCl)',
+                { id: 'a', prompt: 'A REMEMBER level question: List the four most common chemical disinfectants used for plant explant surface sterilization and state the typical concentration.', answer: '(1) Sodium hypochlorite (NaOCl)',
                   options: ['Correct answer: (1) Sodium hypochlorite (NaOCl)', '5% NaOCl for 30 min', 'stronger sterilization = cleaner culture'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all explants.' },
-                { id: 'b', prompt: 'An UNDERSTAND level question: Explain why meristem-tip culture (0.1–0.5 mm) is the preferred explant for virus elimination in crops like potato and banana,.', answer: 'Correct answer: Meristems lack vascular tissue and often have no virus particles',
+                { id: 'b', prompt: 'An UNDERSTAND level question: Explain why meristem-tip culture (0.1–0.5 mm) is the preferred explant for virus elimination in crops like potato and banana,.', answer: 'Meristems lack vascular tissue and often have no virus particles',
                   options: ['Correct answer: Meristems lack vascular tissue and often have no virus particles', 'meristems are more totipotent', 'leaf discs are too differentiated'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all explants.' },

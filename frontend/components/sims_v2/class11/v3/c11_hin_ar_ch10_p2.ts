@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch10_p2: SimDef = {
     id: 'v3_c11_hin_ar_ch10_p2',
-    title: 'tSusanz dekj · Part 2/3',
+    title: 'पाठ 10 · Part 2/3',
     subtitle: 'Read a devotional poem as a plot of the soul, not a description of love.',
-    classLevel: 11, subject: 'hin_ar', topic: 'tSusanz dekj · Part 2/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 10 · Part 2/3',
     chapters: ['c11_hin_ar_ch10'],
     nodeIds: ['c11_hin_ar_cbse_10_007', 'c11_hin_ar_cbse_10_008', 'c11_hin_ar_cbse_10_009', 'c11_hin_ar_cbse_10_010', 'c11_hin_ar_cbse_10_011', 'c11_hin_ar_cbse_10_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,42 +19,21 @@ export const c11_hin_ar_ch10_p2: SimDef = {
         hook: 'Bhakti verse plots the soul\'s trajectory, not the body\'s — \'discarding jewellery\' is the poem\'s rising action, abandonment is its climax.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas, social concerns, and philosophical dimensions that run parallel to the primary theme of devotion in a literary work, enriching the text by revealing the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 10 — गौण विषय', text: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता हुआ, उसे समृद्ध, विस्तृत या जटिल बनाता है, तथा पात्रों के जीवन की बहु-आयामिता (multidimensionality) को उजागर करता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_10_007', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Trace Meera\'s stanzas from a mind fixed on Giridhar to the shedding of every social marker, and defend the poem\'s narrative arc against \'nothing happens.\'',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
+        labels: ['पाठ 10 — गौण', 'पाठ 10 — साहित्यिक', 'पाठ 10 — पदावली', 'पाठ 10 — व्याकरण', 'पाठ 10 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to a bhajan at a temple and suddenly realize the singer isn\'t just praising God — she\'s also quietly questioning why women can\'t.',
-            decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme?', options: [
-                { text: 'A secondary theme is a subsidiary idea that runs parallel to the primary theme, adding', outcome: 'A secondary theme is a subsidiary idea that runs parallel to the primary theme, adding depth and.' },
-                { text: 'minor topics', outcome: 'Not quite — Students often believe secondary themes are "less important" than the primary theme and can.', reveals: 'secondary-themes-are-less-important' },
-                { text: 'subplots', outcome: 'Not quite — Students often believe secondary themes are "less important" than the primary theme and can.', reveals: 'secondary-themes-are-less-important' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading a poem and stumble on the word "dkfu" – you don\'t know it, but the line says "laru f<x cSfB&cSfB] yksd&ykt [kks;h".',
-            decisions: [{ prompt: 'What is the primary strategy for determining the meaning of a key word in a poem when a dictionary definition is insufficient?', options: [
-                { text: 'The primary strategy is to analyze the immediate linguistic context (surrounding words,', outcome: 'The primary strategy is to analyze the immediate linguistic context (surrounding words, syntax) and.' },
-                { text: 'look it up in a dictionary', outcome: 'Not quite — Students often think that the glossary meanings provided in the textbook (e.g., "dkfu = e;kZnk").', reveals: 'the-glossary-meanings-provided-in' },
-                { text: 'dkfu = e;kZnk', outcome: 'Not quite — Students often think that the glossary meanings provided in the textbook (e.g., "dkfu = e;kZnk").', reveals: 'the-glossary-meanings-provided-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading Meerabai\'s poem and stumble on words like "fxjèkj", "lhafp&lhafp", or "dkf<+" that don\'t follow modern Hindi grammar rules.',
-            decisions: [{ prompt: 'What is the name of the literary dialect used by Meerabai in her poetry, and which modern Hindi region does it historically belong to?', options: [
-                { text: 'The dialect is Braj Bhasha, historically spoken in the Braj region (Mathura-Vrindavan', outcome: 'The dialect is Braj Bhasha, historically spoken in the Braj region (Mathura-Vrindavan area).' },
-                { text: 'Awadhi', outcome: 'Not quite — Students treat Braj Bhasha forms as "incorrect" or "corrupted" modern Hindi rather than.', reveals: 'students-treat-braj-bhasha-forms' },
-                { text: 'Khari Boli', outcome: 'Not quite — Students treat Braj Bhasha forms as "incorrect" or "corrupted" modern Hindi rather than.', reveals: 'students-treat-braj-bhasha-forms' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see a question: "Why does Kabir say \'no one knows my address\'?" You panic because the poem doesn\'t directly say.',
-            decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
-                { text: 'A literal comprehension question has its answer directly stated in the text, while an', outcome: 'A literal comprehension question has its answer directly stated in the text, while an inferential.' },
-                { text: 'literal questions are easy, inferential are hard', outcome: 'Not quite — Students often think inferential questions are "opinion questions" where any answer is acceptable.', reveals: 'inferential-questions-are-opinion-questions' },
-                { text: 'opinion questions', outcome: 'Not quite — Students often think inferential questions are "opinion questions" where any answer is acceptable.', reveals: 'inferential-questions-are-opinion-questions' }
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_012', title: 'पाठ 10 — बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक',
+          caseStudy: { intro: 'You open your Hindi exam paper and see Question 2: "लेखक ने बाजार का वर्णन क्यों किया है?" and Question 3: "बाजार में कौन-सी दुकानें थीं?" Your heart races.',
+            decisions: [{ prompt: 'पाठ 10 के संदर्भ में, \'वस्तुनिष्ठ प्रश्न\' की परिभाषा लिखिए और एक उदाहरण दीजिए जो पाठ से सीधे तथ्य पूछता हो।', options: [
+                { text: '**Correct Answer:** वस्तुनिष्ठ प्रश्न वह है जिसका उत्तर पाठ में स्पष्ट रूप से लिखित तथ्य,', outcome: '**Correct Answer:** वस्तुनिष्ठ प्रश्न वह है जिसका उत्तर पाठ में स्पष्ट रूप से लिखित तथ्य, विवरण.' },
+                { text: 'पाठ के अनुसार, नायक ने सुबह क्या खाया?', outcome: 'Not quite — **Specific Error:** Students believe "आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं — बस ध्यान.', reveals: 'specific-error-students-believe-this' },
+                { text: 'नायक ने सुबह दूध और रोटी खाई', outcome: 'Not quite — **Specific Error:** Students believe "आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं — बस ध्यान.', reveals: 'specific-error-students-believe-this' }
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_10_007', title: 'Use it in the wild',
           caseStudy: { intro: 'In a poetry-analysis session, a student presents Meera\'s bhajan and concludes: \'Nothing happens — Meera just describes her feelings. No events, no plot, so there\'s no structure to analyse.\'',
@@ -65,8 +44,8 @@ export const c11_hin_ar_ch10_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_10_012', title: 'The bigger picture',
           caseStudy: { intro: 'The stanza that wastes the body and drops the ornaments *is* the plot — renunciation told as a sequence of irreversible acts.',
-            decisions: [{ prompt: 'What comes next? tSusanz dekj · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — tSusanz dekj · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 10 · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 10 · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -75,94 +54,75 @@ export const c11_hin_ar_ch10_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas, social concerns, and philosophical.',
-          hint: 'If stuck, review the primary theme of "prem-bhakti as total surrender to Krishna" (node.',
-          misconception: 'Students often believe secondary themes are "less important" than the primary theme and can be listed as separate.',
+          question: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता.',
+          hint: 'यदि अटके तो c11_hin_ar_cbse_10_006 (मुख्य विषय और संदेश) को दोबारा पढ़ें और पाठ के 3.',
+          misconception: 'छात्र अक्सर \'गौण विषय\' को \'उपकथानक\' (sub-plot) या \'विवरण\' (detail) मान लेते हैं। उदाहरण: पाठ 10 में \'नायक का गाँव जाना\'.',
           parts: [
-                { id: 'a', prompt: 'In the biographical note (page 113), the text states Meera "ges\'kk fojksèk fd;k" (broke social customs) regarding intercaste dining and purdah.', answer: 'Meera\'s real-life defiance of caste and gender norms becomes a secondary theme',
-                  options: ['Meera\'s real-life defiance of caste and gender norms becomes a secondary theme', 'background information', 'less important'],
-                  hint: 'If stuck, review the primary theme of "prem-bhakti as total surrender to Krishna" (node 006) and.',
-                  misconception: 'Students often believe secondary themes are "less important" than the primary theme and can be listed as separate bullet points (e.g.' },
-                { id: 'b', prompt: 'Apply the concept of secondary themes to the first stanza of the poem.', answer: 'Step 1: Identify "fxjèkj" (line 1)',
-                  options: ['Step 1: Identify "fxjèkj" (line 1)', 'less important'],
-                  hint: 'If stuck, review the primary theme of "prem-bhakti as total surrender to Krishna" (node 006) and.',
-                  misconception: 'Students often believe secondary themes are "less important" than the primary theme and can be listed as separate bullet points (e.g.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता हुआ, उसे',
+                  options: ['गौण विषय (Sub-theme) वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता हुआ, उसे', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटके तो c11_hin_ar_cbse_10_006 (मुख्य विषय और संदेश) को दोबारा पढ़ें और पाठ के 3 केंद्रीय.',
+                  misconception: 'छात्र अक्सर \'गौण विषय\' को \'उपकथानक\' (sub-plot) या \'विवरण\' (detail) मान लेते हैं। उदाहरण: पाठ 10 में \'नायक का गाँव जाना\' एक घटना/प्रसंग है.' }
           ],
-            remediations: { 'secondary-themes-are-less-important': { steps: ['If the student cannot integrate secondary themes with the primary theme: Step 1 — Have them re-read the biographical.', 'Step 2 — Ask: "If Meera had obeyed every social rule, would her Krishna-bhakti be the same?" Guide them to see that her.', 'Step 3 — Give a mini-writing task: "Rewrite the first stanza as if Meera were a compliant Rajput princess.', 'What disappears?" The comparison will reveal that the secondary themes are the poem\'s engine, not its decoration.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_007', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often believe secondary themes are "less important" than the primary theme and can be listed as separate.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "Meera Bai\'s secondary themes of social reform are merely incidental to her primary theme of devotion; the poetry would remain unchanged.', answer: 'Refute',
-                  options: ['Refute', 'less important'],
-                  hint: 'If stuck, review the primary theme of "prem-bhakti as total surrender to Krishna" (node 006) and.',
-                  misconception: 'Students often believe secondary themes are "less important" than the primary theme and can be listed as separate bullet points (e.g.' }
-          ],
-            remediations: { 'secondary-themes-are-less-important': { steps: ['If the student cannot integrate secondary themes with the primary theme: Step 1 — Have them re-read the biographical.', 'Step 2 — Ask: "If Meera had obeyed every social rule, would her Krishna-bhakti be the same?" Guide them to see that her.', 'Step 3 — Give a mini-writing task: "Rewrite the first stanza as if Meera were a compliant Rajput princess.', 'What disappears?" The comparison will reveal that the secondary themes are the poem\'s engine, not its decoration.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'sub-plot-detail-10': { steps: ['चरण 1: छात्र से कहें — "पाठ के 5 प्रमुख प्रसंग लिखो। अब हर प्रसंग के सामने लिखो: \'यह प्रसंग किस विचार को आगे बढ़ाता.', 'कैसे?" चरण 4: जो दावेदार यह परीक्षा पास करें, उन्हें \'गौण विषय\' मानें। यह प्रक्रिया \'घटना\' और \'विचार-प्रवाह\' का भेद.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid and descriptive language that appeals to the senses.',
-          hint: 'Review the definitions of imagery and metaphor with simple examples (e.g., "The classroom.',
-          misconception: 'Students often think that any descriptive word in the poem is an \'image\' and any comparison is a \'metaphor\'.',
+          question: '**बिंब (Imagery)** काव्यभाषा की वह शक्ति है जिसके द्वारा कवि शब्दों के माध्यम.',
+          hint: 'यदि अटके तो c11_hin_ar_cbse_10_006 (मुख्य विषय और संदेश) दोहराएँ — विशेष रूप से \'भाव.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'प्रतीक (Symbol)\' और \'रूपक (Metaphor)\' को एक मान लेते हैं**। उदाहरण: "कविता में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery is the use of vivid and descriptive language that appeals to the senses (sight,',
-                  options: ['Imagery is the use of vivid and descriptive language that appeals to the senses (sight,', 'Context and background refer to the historical, social, cultural, and biographical', 'Plot and narrative structure in poetry refers to the organized sequence of events,', 'Setting in poetry refers to the spatial, temporal, and emotional backdrop against'],
-                  hint: 'Review the definitions of imagery and metaphor with simple examples (e.g., "The classroom was.',
-                  misconception: 'Students often think that any descriptive word in the poem is an \'image\' and any comparison is a \'metaphor\'.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** काव्यभाषा की वह शक्ति है जिसके द्वारा कवि शब्दों के माध्यम से पाठक के',
+                  options: ['**बिंब (Imagery)** काव्यभाषा की वह शक्ति है जिसके द्वारा कवि शब्दों के माध्यम से पाठक के', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटके तो c11_hin_ar_cbse_10_006 (मुख्य विषय और संदेश) दोहराएँ — विशेष रूप से \'भाव पहचान\' और.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'प्रतीक (Symbol)\' और \'रूपक (Metaphor)\' को एक मान लेते हैं**। उदाहरण: "कविता में \'कबूतर शांति का प्रतीक.' }
           ],
-            remediations: { 'any-descriptive-word-in-the': { steps: ['Ask the student to list all weaving-related words in the poem (loom, shuttle, thread, cloth, weaver).', 'For each word, have them decide: is it used literally (describing the actual craft) or figuratively (representing.', 'Guide them to see that words like "शटल" (shuttle) are literal in the first stanza but become metaphorical for "breath".', 'Practice with a simpler poem where the metaphor is more explicit (e.g., "Time is a river") before returning to Kabir.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'symbol-metaphor-local-global': { steps: ['**चरण 1:** छात्र को दो वाक्य दें — (अ) "वह शेर है" (रूपक) और (ब) "कविता में बार-बार आने वाला \'टूटा पिंजरा\' स्वतंत्रता.', 'दूसरा कहाँ तक फैला है?" **चरण 2:** समझाएँ — रूपक = **एक प्रसंग, एक आरोप**; प्रतीक = **पूरी रचना, बहु-अर्थी उपस्थिति**।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_009', difficulty: 'standard',
-          question: 'Irony in Kabir\'s poetry is the deliberate contrast between surface meaning and.',
-          hint: 'If stuck, review c11_hin_ar_cbse_10_006 (Theme: Primary Theme) — specifically the concept.',
-          misconception: 'Students often confuse Kabir\'s *paradoxes* with *irony* — they label every contradictory statement as "irony" without.',
+          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में तर्क-विरुद्ध.',
+          hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_10_008 के \'रूपक के प्रकार\' और \'बिंब के वर्गीकरण\'.',
+          misconception: '**विशिष्ट भ्रांति:** विद्यार्थी मानते हैं कि **\'प्रतीक\' और \'रूपक (Metaphor)\' एक ही हैं** क्योंकि दोनों में \'एक वस्तु.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony in Kabir\'s poetry is the deliberate contrast between surface meaning and deeper',
-                  options: ['Irony in Kabir\'s poetry is the deliberate contrast between surface meaning and deeper', 'Context and background refer to the historical, social, cultural, and biographical', 'Plot and narrative structure in poetry refers to the organized sequence of events,', 'Setting in poetry refers to the spatial, temporal, and emotional backdrop against'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_10_006 (Theme: Primary Theme) — specifically the concept.',
-                  misconception: 'Students often confuse Kabir\'s *paradoxes* with *irony* — they label every contradictory statement as "irony" without checking if there\'s.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में तर्क-विरुद्ध, असंगत या',
+                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में तर्क-विरुद्ध, असंगत या', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_10_008 के \'रूपक के प्रकार\' और \'बिंब के वर्गीकरण\' खंड को.',
+                  misconception: '**विशिष्ट भ्रांति:** विद्यार्थी मानते हैं कि **\'प्रतीक\' और \'रूपक (Metaphor)\' एक ही हैं** क्योंकि दोनों में \'एक वस्तु दूसरी वस्तु के लिए.' }
           ],
-            remediations: { 'students-often-confuse-kabir-s': { steps: ['Give the student three short Kabir lines — one paradox, one irony, one plain statement — and ask them to sort them.', 'For the irony, ask: "Who is being mocked here? What did they expect vs what happened?"', 'For symbols, give the same symbol (e.g., "charkha" / spinning wheel) in two different Kabir verses and ask: "Does.', 'Have them rewrite a non-ironic line into an ironic one by adding a hypocritical speaker.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'metaphor-9-10-x-is': { steps: ['**चरण 1:** विद्यार्थी से कहें: "एक वाक्य में रूपक लिखो (उदाहरण: \'कक्षा एक चिड़ियाघर है\')। अब उसी \'चिड़ियाघर\' को लेकर 5.', 'दूसरे में कहाँ तक फैला?" — इससे **सीमा (Scope) और बहु-अर्थता (Polyvalence)** का भेद स्पष्ट होगा। **चरण 3:** अब.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
-          hint: 'If stuck, review the concept of "context clues" from Class 10 Hindi (or English) and.',
-          misconception: 'Students often think that the glossary meanings provided in the textbook (e.g., "dkfu = e;kZnk") are the only meanings.',
+          question: 'पदावली के मुख्य शब्द वे **महत्वपूर्ण शब्द** होते हैं जो किसी रचना के विषय, भाव.',
+          hint: 'यदि अटके तो **\'अपठित गद्यांश/पद्यांश में शब्दों के प्रसंगगत अर्थ निकालने\'** का अभ्यास.',
+          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **मुख्य शब्द = कठिन/क्लिष्ट शब्द** (difficult/obscure words)। **गलत तर्क**: वे.',
           parts: [
-                { id: 'a', prompt: 'In the line "valqou ty lhafp&lhafp] izse&csfy cks;h", the word "csfy" is glossed as "izse dh csy".', answer: 'The compound "izse&csfy" (evening-shadow) evokes a specific visual and temporal',
-                  options: ['The compound "izse&csfy" (evening-shadow) evokes a specific visual and temporal', 'they mean the same thing', 'dkfu = e;kZnk', 'the glossary meanings provided in the textbook (e'],
-                  hint: 'If stuck, review the concept of "context clues" from Class 10 Hindi (or English) and practice with.',
-                  misconception: 'Students often think that the glossary meanings provided in the textbook (e.g., "dkfu = e;kZnk") are the only meanings needed, and that the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली के मुख्य शब्द वे **महत्वपूर्ण शब्द** होते हैं जो किसी रचना के विषय, भाव, या कथ्य',
+                  options: ['पदावली के मुख्य शब्द वे **महत्वपूर्ण शब्द** होते हैं जो किसी रचना के विषय, भाव, या कथ्य', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटके तो **\'अपठित गद्यांश/पद्यांश में शब्दों के प्रसंगगत अर्थ निकालने\'** का अभ्यास दोहराएँ.',
+                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **मुख्य शब्द = कठिन/क्लिष्ट शब्द** (difficult/obscure words)। **गलत तर्क**: वे सोचते हैं "अनुभूति".' }
           ],
-            remediations: { 'the-glossary-meanings-provided-in': { steps: ['Have the student read the stanza aloud three times, emphasizing the key word each time.', 'Ask: "What images, sounds, or feelings come to mind when you hear this word in this line?" 3.', 'Together, list all words in the stanza that relate to the key word (e.g., for "dkfu": yksd, ykt, [kks;h).', 'Guide the student to write a "word portrait": a 3-sentence description of the word\'s personality in this poem (e.g.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'difficult-obscure-words': { steps: ['छात्र से कहें: **"कोई भी सरल शब्द लो — जैसे \'चाय\' — और 3 अलग-अलग स्थितियाँ लिखो जहाँ इसका अर्थ पूरी तरह बदल जाए"**.', 'फिर पूछें: **"कौन-सी स्थिति में \'चाय\' मुख्य शब्द बनेगा और क्यों?"** — इससे प्रसंगगत अर्थ-निर्माण स्पष्ट होगा। 3.', 'अंत में: **आरोह के किसी पाठ का एक पैराग्राफ दें** और कहें: **"यहाँ 3 सरल शब्द ढूँढो जो मुख्य शब्द की तरह काम कर रहे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of grammatical.',
-          hint: 'If stuck, review c11_hin_ar_cbse_10_010 (Vocabulary) for word meanings and.',
-          misconception: 'Students treat Braj Bhasha forms as "incorrect" or "corrupted" modern Hindi rather than a rule-governed literary.',
+          question: 'पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के उद्देश्य, पात्र-चरित्र.',
+          hint: 'यदि अटके तो नोड 004 (नायक पात्र-चित्रण) और नोड 003 (पाठ्य-परिवेश) दोबारा पढ़ें — भाषा का.',
+          misconception: 'छात्र समझते हैं कि \'भाषा-प्रयोग\' का अर्थ **कठिन/सजावटी शब्दों** का प्रयोग है, जबकि पाठ 10 में लेखक सरलतम तद्भव/देशज.',
           parts: [
-                { id: 'a', prompt: 'Explain why Meerabai chose to compose in Braj Bhasha rather than Sanskrit, and how this choice relates to the Bhakti movement\'s core philosophy.', answer: 'Meerabai used Braj Bhasha',
-                  options: ['Meerabai used Braj Bhasha', 'she didn\'t know Sanskrit', 'it was her mother tongue'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_10_010 (Vocabulary) for word meanings and c11_hin_ar_cbse_10_001.',
-                  misconception: 'Students treat Braj Bhasha forms as "incorrect" or "corrupted" modern Hindi rather than a rule-governed literary dialect with its own.' },
-                { id: 'b', prompt: 'In the line "vc r csfy iSQfy x;h] vk.kan&iQy gks;h", identify the verb forms "x;h" and "gks;h", state their modern Hindi equivalents, and name the grammatical.', answer: '"x;h" = "thī" (past habitual/feminine singular), "gks;h" = "huī" (past',
-                  options: ['"x;h" = "thī" (past habitual/feminine singular), "gks;h" = "huī" (past', 'thā/thī'],
-                  hint: 'If stuck, review c11_hin_ar_cbse_10_010 (Vocabulary) for word meanings and c11_hin_ar_cbse_10_001.',
-                  misconception: 'Students treat Braj Bhasha forms as "incorrect" or "corrupted" modern Hindi rather than a rule-governed literary dialect with its own.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के उद्देश्य, पात्र-चरित्र, परिवेश और',
+                  options: ['पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के उद्देश्य, पात्र-चरित्र, परिवेश और', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                  hint: 'यदि अटके तो नोड 004 (नायक पात्र-चित्रण) और नोड 003 (पाठ्य-परिवेश) दोबारा पढ़ें — भाषा का \'कौन\' और.',
+                  misconception: 'छात्र समझते हैं कि \'भाषा-प्रयोग\' का अर्थ **कठिन/सजावटी शब्दों** का प्रयोग है, जबकि पाठ 10 में लेखक सरलतम तद्भव/देशज शब्दों ("भौजी".' }
           ],
-            remediations: { 'students-treat-braj-bhasha-forms': { steps: ['Create a three-column table: Column A = Braj form from poem (e.g., "x;h", "dkfu", "kau"), Column B = Modern Khari Boli.', 'Have the student fill it for 10 words from the poem.', 'Ask them to formulate one generalization per category (e.g., "Braj past habitual feminine ends in -ī like Khari Boli.', 'Finally, give a new Braj line and ask them to predict the Khari Boli translation using their generalizations.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "पाठ का कोई एक पृष्ठ खोलो और **लाल पेन** से हर सर्वनाम घेरो; फिर **नीले पेन** से हर क्रिया-रूप रेखांकित.', 'अब पूछें: "लाल/नीले निशानों का पैटर्न क्या बताता है पात्र के बारे में?" 3.', 'यदि फिर भी अटके, तो **दो वाक्य** लिखवाएँ — एक "मैं" से शुरू, दूसरा "हम" से — और दोनों का भावात्मक अंतर बोलकर बताने को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_012', difficulty: 'standard',
-          question: 'Literal comprehension questions ask for information explicitly stated in the.',
-          hint: 'Review the vocabulary list (c11_hin_ar_cbse_10_010) and the plot summary.',
-          misconception: 'Students often think inferential questions are "opinion questions" where any answer is acceptable.',
+          question: '**वस्तुनिष्ठ बोध-प्रश्न (Objective Comprehension Questions)** test literal.',
+          hint: 'If stuck, review **c11_hin_ar_cbse_10_010 (पदावली: मुख्य शब्द)** and.',
+          misconception: '**Specific Error:** Students believe "आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं — बस ध्यान से पढ़ना है।" This.',
           parts: [
-                { id: 'a', prompt: 'In the poem, Kabir says: "esjs rks fxjèkj xksiky] nwljks u dksbZ tk osQ flj eksj&eqoqQV] esjks ifr lksbZ".', answer: 'This is a literal question',
-                  options: ['This is a literal question', 'opinion questions', 'inferential questions are "opinion questions" where any answer is acceptable'],
-                  hint: 'Review the vocabulary list (c11_hin_ar_cbse_10_010) and the plot summary (c11_hin_ar_cbse_10_002).',
-                  misconception: 'Students often think inferential questions are "opinion questions" where any answer is acceptable.' },
-                { id: 'b', prompt: 'Compare the two questions: (a) "What does Kabir say about his birth?" (b) "Why does Kabir reject the label of a weaver (julaha)?" Analyze the cognitive demand.', answer: 'Question (a) is literal – the poem states "tUe % lu~ 1498] oqQM+dh xk¡o"',
-                  options: ['Question (a) is literal – the poem states "tUe % lu~ 1498] oqQM+dh xk¡o"', 'opinion questions', 'inferential questions are "opinion questions" where any answer is acceptable'],
-                  hint: 'Review the vocabulary list (c11_hin_ar_cbse_10_010) and the plot summary (c11_hin_ar_cbse_10_002).',
-                  misconception: 'Students often think inferential questions are "opinion questions" where any answer is acceptable.' }
+                { id: 'a', prompt: '\'आशय-सूचक प्रश्न\' और \'वस्तुनिष्ठ प्रश्न\' में मूल अंतर समझाते हुए बताइए कि "लेखक ने शीर्षक \'XYZ\' क्यों चुना?" किस श्रेणी में आएगा और क्यों?', answer: '**Correct Answer:** मूल अंतर: वस्तुनिष्ठ प्रश्न *पाठ में क्या लिखा है* पूछता है',
+                  options: ['**Correct Answer:** मूल अंतर: वस्तुनिष्ठ प्रश्न *पाठ में क्या लिखा है* पूछता है', 'लेखक ने शीर्षक \'XYZ\' क्यों चुना?', 'title is in the text', 'आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं'],
+                  hint: 'If stuck, review **c11_hin_ar_cbse_10_010 (पदावली: मुख्य शब्द)** and **c11_hin_ar_cbse_10_011.',
+                  misconception: '**Specific Error:** Students believe "आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं — बस ध्यान से पढ़ना है।" This is **wrong** because.' },
+                { id: 'b', prompt: 'निम्नलिखित प्रश्नों को वस्तुनिष्ठ/आशय-सूचक में वर्गीकृत कीजिए और प्रत्येक के लिए *पाठगत साक्ष्य का प्रकार* बताइए जो उत्तर में चाहिए: (क) "नायक का नाम क्या है?".', answer: '**Correct Answer:** (क) वस्तुनिष्ठ',
+                  options: ['**Correct Answer:** (क) वस्तुनिष्ठ', 'meaning', 'character', 'आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं'],
+                  hint: 'If stuck, review **c11_hin_ar_cbse_10_010 (पदावली: मुख्य शब्द)** and **c11_hin_ar_cbse_10_011.',
+                  misconception: '**Specific Error:** Students believe "आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं — बस ध्यान से पढ़ना है।" This is **wrong** because.' }
           ],
-            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['Give the student a short excerpt from the poem (2-3 lines) and ask them to write one literal and one inferential.', 'Have them swap with a partner and classify each other\'s questions.', 'For each inferential question, require the partner to underline the exact words in the excerpt that support the.', 'Debrief: highlight that if no words can be underlined, the inference is unsupported.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'specific-error-students-believe-this': { steps: ['**Step-by-Step Remediation:** 1.', '**Contrast Drill:** Give the student 5 questions (mixed types).', 'Ask them to *only* label each as "Locate" (वस्तुनिष्ठ) or "Build" (आशय-सूचक) — no answering.', 'Discuss *why* each label fits using the "Can I point to one sentence?" test.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

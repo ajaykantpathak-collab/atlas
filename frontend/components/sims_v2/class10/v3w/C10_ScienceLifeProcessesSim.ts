@@ -116,11 +116,11 @@ export const w_c10_sciencelifeprocessessim: SimDef = {
           hint: 'If stuck, revisit Class 9 Animal Tissues (c9_bio_ch2_6) for blood as connective tissue,.',
           misconception: 'Students think "WBCs are only of one type and all WBCs eat bacteria." They write "WBCs engulf pathogens" as the sole.',
           parts: [
-                { id: 'a', prompt: 'Name the iron-containing pigment in red blood cells that binds reversibly with oxygen, and state the average lifespan of a human RBC in circulation.', answer: 'Correct answer: Hemoglobin (or haemoglobin)',
+                { id: 'a', prompt: 'Name the iron-containing pigment in red blood cells that binds reversibly with oxygen, and state the average lifespan of a human RBC in circulation.', answer: 'Hemoglobin (or haemoglobin)',
                   options: ['Correct answer: Hemoglobin (or haemoglobin)', 'hemocyanin', 'WBCs are only of one type and all WBCs eat bacteria'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "WBCs are only of one type and all WBCs eat bacteria." They write "WBCs engulf pathogens" as the sole function, ignoring.' },
-                { id: 'b', prompt: 'Explain why mature human RBCs lack a nucleus and mitochondria, and how this structural adaptation directly supports their primary function.', answer: 'Correct answer: Absence of nucleus and mitochondria maximizes internal space for',
+                { id: 'b', prompt: 'Explain why mature human RBCs lack a nucleus and mitochondria, and how this structural adaptation directly supports their primary function.', answer: 'Absence of nucleus and mitochondria maximizes internal space for',
                   options: ['Correct answer: Absence of nucleus and mitochondria maximizes internal space for', 'RBCs are dead cells', 'they don\'t need energy'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "WBCs are only of one type and all WBCs eat bacteria." They write "WBCs engulf pathogens" as the sole function, ignoring.' }

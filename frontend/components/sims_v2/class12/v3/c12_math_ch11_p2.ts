@@ -14,7 +14,7 @@ export const c12_math_ch11_p2: SimDef = {
     scenario: { role: '3D navigator', intro: 'A drone needs its heading as cosines against three axes — one identity keeps the math honest.', goal: 'Compute direction cosines and ratios — and read parallel/perpendicular lines from them.' },
     discovery: {
         question: 'A line\'s direction ratios are 2, −3, 6 — so its direction cosines are... 2, −3, 6? What\'s missing?',
-        options: ['Normalisation — divide by √(4+9+36)=7 to get 2/7, −3/7, 6/7; cosines are a unit vector\'s components and must satisfy l²+m²+n²=1', 'Nothing — same thing', 'Absolute values', 'The angles'],
+        options: ['Normalisation — divide by √(4+9+36)=7 to get 2/7, −3/7, 6/7; cosines are a unit vector\'s components and must satisfy l²+m²+n²=1', 'Nothing — direction ratios and direction cosines are the same triple', 'Absolute values — cosines are always positive lengths, never signed', 'The angles — cosines must be measured from inclinations, not computed'],
         answer: 'Normalisation — divide by √(4+9+36)=7 to get 2/7, −3/7, 6/7; cosines are a unit vector\'s components and must satisfy l²+m²+n²=1',
         hook: 'Ratios are any proportional triple; cosines are the unique normalised version. And l is cos α, not α — (2/7, 3/7, 6/7) are cosines; the angles are cos⁻¹ of each. Proportional ratios mean parallel lines; the dot product\'s zero means perpendicular.',
     },

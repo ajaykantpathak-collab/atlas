@@ -19,7 +19,7 @@ const STAGES = [
   {
     icon: Lightbulb,
     label: 'Scanned',
-    desc: 'Prism AI scans your knowledge. Finds your gaps.',
+    desc: 'Atlas AI scans your knowledge. Finds your gaps.',
     color: '#FFD93D',
   },
   {

@@ -22,6 +22,7 @@ const FRONTEND = path.resolve(SIMS_DIR, '..', '..');
 const MASTER_DIRS = [
     path.join(FRONTEND, 'components', 'simulations', 'c6_12'),
     path.join(FRONTEND, 'components', 'simulations', 'c6_12_new'),
+    path.join(FRONTEND, 'components', 'simulations', 'three'),
 ];
 const MD_DIR = process.env.SIM_MD_CACHE ?? 'C:\\Users\\Alesha4285\\Desktop\\enhanced_nodes\\md_cache';
 const SRC_DIR = process.env.SIM_NODE_SRC ?? path.join(path.dirname(MD_DIR), 'source');
@@ -305,7 +306,7 @@ function wrapMaster(file, dir) {
     }
     const simId = `v3w_${comp.toLowerCase()}`;
     const def = `import type { SimDef } from '../../engine/types';
-import ${comp} from '../../../simulations/${dir.includes('c6_12_new') ? 'c6_12_new' : 'c6_12'}/${comp}';
+import ${comp} from '../../../simulations/${path.basename(dir)}/${comp}';
 
 /** v3 wrapped master — ${comp}. Rich bespoke scene mounted inside the
  * adaptive loop; diagnostics generated from its declared node ids.

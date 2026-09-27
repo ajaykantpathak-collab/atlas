@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch08_p1: SimDef = {
     id: 'v3_c12_hin_ar_ch08_p1',
-    title: 'mek\'kadj tks\'kh · Part 1/3',
+    title: 'रुबाइयाँ · Part 1/3',
     subtitle: 'The village finally spoke — in its own voice',
-    classLevel: 12, subject: 'hin_ar', topic: 'mek\'kadj tks\'kh · Part 1/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'रुबाइयाँ · Part 1/3',
     chapters: ['c12_hin_ar_ch08'],
     nodeIds: ['c12_hin_ar_cbse_08_001', 'c12_hin_ar_cbse_08_002', 'c12_hin_ar_cbse_08_003', 'c12_hin_ar_cbse_08_004', 'c12_hin_ar_cbse_08_005', 'c12_hin_ar_cbse_08_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,47 +19,15 @@ export const c12_hin_ar_ch08_p1: SimDef = {
         hook: 'Renu\'s philosophy erased the body-mind split — mud on knees IS knowing the world. A Quit India prisoner writing children\'s free play isn\'t just nostalgic: that village is the autonomous world he fought for, reclaimed in folk speech.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" for Chapter 8 provides the essential historical, biographical, and literary framework needed to interpret Phanishwar Nath Renu\'s poem — including the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'रुबाइयाँ — कवि परिचय और पृष्ठभूमि', text: 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका छंद विधान AABA या AAAA होता है और जो प्रायः दर्शन, प्रेम, विरह, क्षणभंगुरता और अस्तित्ववाद जैसे गूढ़ विषयों को.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_08_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Hear a poem in lok-bhasha: weigh dialect as political choice, read bodily play as a way of knowing, and connect a freedom fighter\'s childhood to the freedom he couldn\'t finish.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['रुबाइयाँ — कवि परिचय', 'रुबाइयाँ — पद्यांश-वार भावार्थ', 'रुबाइयाँ — काव्य-संरचना और', 'रुबाइयाँ — केंद्रीय भाव', 'रुबाइयाँ — छंद और', 'रुबाइयाँ — साहित्यिक युक्तियाँ'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re handed a letter written in a dialect you barely recognize, from a village you\'ve never visited, describing a childhood that feels both alien and.',
-            decisions: [{ prompt: 'Who is the author of the poem in Chapter 8 of Aroh (Class 12), and what is his most recognized contribution to Hindi literature?', options: [
-                { text: 'The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), born 1921 in Araria, Bihar', outcome: 'The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), born 1921 in Araria, Bihar.' },
-                { text: 'Hindi Sahitya', outcome: 'Not quite — Students treat the "Before You Read" section as skippable trivia — author birth/death dates, a list.', reveals: 'students-treat-the-before-you' },
-                { text: 'incorrect Hindi', outcome: 'Not quite — Students treat the "Before You Read" section as skippable trivia — author birth/death dates, a list.', reveals: 'students-treat-the-before-you' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are listening to a village elder telling a story by the fire — they don\'t just list events; they circle back to a refrain, zoom from a child\'s eye.',
-            decisions: [{ prompt: 'Identify the number of stanzas in the poem and describe the structural pattern of the first three stanzas versus the fourth stanza.', options: [
-                { text: 'The poem has four stanzas', outcome: 'The poem has four stanzas. The first three stanzas follow a similar pattern: each presents a vivid.' },
-                { text: 'all four stanzas end with the refrain', outcome: 'Not quite — Students often treat the poem as a loose collection of village images rather than a tightly.', reveals: 'students-often-treat-the-poem' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are sitting on a charpoy in a Bihar village during the first monsoon shower — the smell of wet earth (mitti ki khushboo), the sound of rain on tin.',
-            decisions: [{ prompt: 'What are the three core components of \'setting\' in a narrative, and which component is most prominent in Renu\'s autobiographical sketches?', options: [
-                { text: 'The three core components are geographical location (physical place), temporal context', outcome: 'The three core components are geographical location (physical place), temporal context (time.' },
-                { text: 'village', outcome: 'Not quite — Students treat setting as a static "where and when" label (e.g., "village in Bihar, 1920s") and.', reveals: 'students-treat-setting-as-a' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re watching a cricket match — the captain (protagonist) gets all the attention, but the match turns because of a fielder\'s stunning catch,.',
-            decisions: [{ prompt: 'Define \'foil character\' and give one example from any Class 11 or 12 Hindi prose text you have studied.', options: [
-                { text: 'A foil character is a supporting character whose contrasting qualities highlight the', outcome: 'A foil character is a supporting character whose contrasting qualities highlight the protagonist\'s.' },
-                { text: 'वह अच्छा दोस्त है', outcome: 'Not quite — Students believe supporting characters are \'easier\' to analyze because they have fewer lines,.', reveals: 'supporting-characters-are-easier-to' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_08_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re listening to your grandmother describe the games she played as a child — spinning tops, flying kites, singing folk songs — and you realize she\'s.',
-            decisions: [{ prompt: 'What is the definition of "primary theme" in literary analysis, and how does it differ from a "subject" or "topic" of a text?', options: [
-                { text: 'The primary theme is the central insight about life/human experience conveyed through the', outcome: 'The primary theme is the central insight about life/human experience conveyed through the work.' },
-                { text: 'the theme is folk songs', outcome: 'Not quite — Students conflate "theme" with "author\'s biography" or "historical context" — e.g., writing "The.', reveals: 'students-conflate-theme-with-author' },
-                { text: '"the theme is folk songs"', outcome: 'Not quite — Students conflate "theme" with "author\'s biography" or "historical context" — e.g., writing "The.', reveals: 'students-conflate-theme-with-author' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_08_001', title: 'Use it in the wild',
           caseStudy: { intro: 'A friend selected for a national poetry fest wants to strip the dialect words from her village poems — \'real Hindi shouldn\'t smell of fields.\' The poems\' best lines are built from exactly those folk words and her grandmother\'s sayings.',
             decisions: [{ prompt: 'What does Renu\'s poem with the vine refrain say to her plan?', options: [
@@ -69,8 +37,8 @@ export const c12_hin_ar_ch08_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_08_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now hear regional speech as literature\'s politics — and read a child\'s muddy play as reclaimed freedom.',
-            decisions: [{ prompt: 'What comes next? mek\'kadj tks\'kh · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — mek\'kadj tks\'kh · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? रुबाइयाँ · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — रुबाइयाँ · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -79,94 +47,71 @@ export const c12_hin_ar_ch08_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" for Chapter 8 provides the essential.',
-          hint: 'If stuck, revisit Class 11 Aroh Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and.',
-          misconception: 'Students treat the "Before You Read" section as skippable trivia — author birth/death dates, a list of awards — and.',
+          question: 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती.',
+          hint: 'यदि कवि-परिचय का ढांचा याद न हो तो कक्षा 11 के किसी भी कवि-परिचय नोड (जैसे.',
+          misconception: 'छात्र समझते हैं कि \'खय्याम = शराबी शायर\' और \'रुबाई = शराबखाने के गीत\'। यह भूल दो स्रोतों से आती है: (1) फिट्जेराल्ड के.',
           parts: [
-                { id: 'a', prompt: 'Who is the author of the poem in Chapter 8 of Aroh (Class 12), and what is his most recognized contribution to Hindi literature?', answer: 'The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), born 1921 in Araria, Bihar',
-                  options: ['The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), born 1921 in Araria, Bihar', 'Hindi Sahitya', 'incorrect Hindi', 'Premchand or Nirala'],
-                  hint: 'If stuck, revisit Class 11 Aroh Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and re-do its.',
-                  misconception: 'Students treat the "Before You Read" section as skippable trivia — author birth/death dates, a list of awards — and jump straight to the.' },
-                { id: 'b', prompt: 'Explain in your own words why Renu\'s use of Maithili/Bhojpuri-inflected Hindi in his poetry is considered a literary innovation, not a linguistic deficiency.', answer: 'Renu elevated the spoken language of marginalized rural communities',
-                  options: ['Renu elevated the spoken language of marginalized rural communities', 'simple language', 'villagers\' Hindi'],
-                  hint: 'If stuck, revisit Class 11 Aroh Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and re-do its.',
-                  misconception: 'Students treat the "Before You Read" section as skippable trivia — author birth/death dates, a list of awards — and jump straight to the.' },
-                { id: 'c', prompt: 'The NCERT introductory note mentions Renu participated in the 1942 Quit India Movement and was imprisoned.', answer: 'Step 1: Note the biographical fact',
-                  options: ['Step 1: Note the biographical fact', 'he went to jail'],
-                  hint: 'If stuck, revisit Class 11 Aroh Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and re-do its.',
-                  misconception: 'Students treat the "Before You Read" section as skippable trivia — author birth/death dates, a list of awards — and jump straight to the.' },
-                { id: 'd', prompt: 'Compare Renu\'s literary project (as described in the NCERT note) with Premchand\'s.', answer: 'Premchand wrote *about* villages in standardized Khari Boli, adopting an',
-                  options: ['Premchand wrote *about* villages in standardized Khari Boli, adopting an', 'both wrote village stories', 'social realism'],
-                  hint: 'If stuck, revisit Class 11 Aroh Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and re-do its.',
-                  misconception: 'Students treat the "Before You Read" section as skippable trivia — author birth/death dates, a list of awards — and jump straight to the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका',
+                  options: ['रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं', 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश या सार है जो सभी पंक्तियों, बिंबों और'],
+                  hint: 'यदि कवि-परिचय का ढांचा याद न हो तो कक्षा 11 के किसी भी कवि-परिचय नोड (जैसे c11_hin_ar_cbse_16_001).',
+                  misconception: 'छात्र समझते हैं कि \'खय्याम = शराबी शायर\' और \'रुबाई = शराबखाने के गीत\'। यह भूल दो स्रोतों से आती है: (1) फिट्जेराल्ड के अंग्रेजी अनुवाद का.' }
           ],
-            remediations: { 'students-treat-the-before-you': { steps: ['Have the student re-read the NCERT introductory note aloud, circling every phrase that links Renu\'s life to his.', 'Assign a 5-minute free-write: "Describe your grandmother\'s kitchen using ONLY words she would use — no \'standard\'.', 'Compare their free-write to Renu\'s approach: both privilege the speaker\'s authentic tongue over the textbook\'s.', 'Re-attempt Diagnostic Question 6.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { '1': { steps: ['चरण 1: छात्र से पूछें — "यदि कोई कहे \'गीता केवल युद्ध की पुस्तक है\', तो आप क्या कहेंगे?" (प्रतीक/रूपक की ओर ध्यान जाए)।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in a narrative poem refers to the sequence.',
-          hint: 'If stuck, review "stanza division" and "refrain" in Class 11 Hindi textbook (Aroh Chapter.',
-          misconception: 'Students often treat the poem as a loose collection of village images rather than a tightly structured argument.',
+          question: 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के.',
+          hint: 'यदि अटकें तो कक्षा 11 के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_002) या \'बादल को घरिते.',
+          misconception: 'विद्यार्थी समझते हैं कि \'भावार्थ\' = \'शब्दार्थ + सरल भाषा में अनुवाद\'। वे प्रत्येक पंक्ति का शब्दशः हिंदी अनुवाद लिख.',
           parts: [
-                { id: 'a', prompt: 'Identify the number of stanzas in the poem and describe the structural pattern of the first three stanzas versus the fourth stanza.', answer: 'The poem has four stanzas',
-                  options: ['The poem has four stanzas', 'all four stanzas end with the refrain'],
-                  hint: 'If stuck, review "stanza division" and "refrain" in Class 11 Hindi textbook (Aroh Chapter 1 or 8).',
-                  misconception: 'Students often treat the poem as a loose collection of village images rather than a tightly structured argument.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,',
+                  options: ['पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं', 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश या सार है जो सभी पंक्तियों, बिंबों और'],
+                  hint: 'यदि अटकें तो कक्षा 11 के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_002) या \'बादल को घरिते देखा है\'.',
+                  misconception: 'विद्यार्थी समझते हैं कि \'भावार्थ\' = \'शब्दार्थ + सरल भाषा में अनुवाद\'। वे प्रत्येक पंक्ति का शब्दशः हिंदी अनुवाद लिख देते हैं (जैसे "बुलबुला.' }
           ],
-            remediations: { 'students-often-treat-the-poem': { steps: ['If a student cannot map the stanza-by-stanza progression, have them: (1) Number the stanzas 1–4 in the textbook.', '(2) Write one sentence summarizing the *core image* of each stanza.', '(3) Circle the refrain in stanzas 1–3 and put an X in stanza 4 where it\'s missing.', '(4) Answer: "What changes in stanza 4?" (5) Re-read the NCERT\'s own structural note: "jQckbZ mnwZ vkSj I+kQkjlh dk ,d.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "पहली रुबाई की पहली पंक्ति उठाओ, केवल उसका शब्दार्थ मत दो, मुझे बताओ: कवि यहाँ कौन-सा दृश्य दिखा.', 'कौन-सा भाव जगा रहा है?" चरण 2: यदि अटकें, तो पूछें — "अच्छा, \'खेल\' शब्द सुनते ही तुम्हारे मन में क्या आता है?', 'अब कवि ने जीवन को \'खेल\' क्यों कहा?" चरण 3: उनके उत्तर से \'लीला\', \'नियति\', \'अनासक्ति\' जैसे भाव निकलवाएँ और बोर्ड पर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_003', difficulty: 'standard',
-          question: 'Setting and Atmosphere refers to the time, place, physical environment, and.',
-          hint: 'If stuck, revisit c11_hin_ar_cbse_08_003\'s worked example on identifying sensory clusters.',
-          misconception: 'Students treat setting as a static "where and when" label (e.g., "village in Bihar, 1920s") and atmosphere as a single.',
+          question: 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)**.',
+          hint: 'यदि तुक पहचानने में अटके: **कक्षा 11 आरोह — \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_003).',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **रुबाई = कोई भी चार पंक्ति की कविता (चौपाई/मुक्तक/कवित्त)**। वे **तुक-अनुक्रम की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting and Atmosphere refers to the time, place, physical environment, and',
-                  options: ['Setting and Atmosphere refers to the time, place, physical environment, and', '"Before You Read: Context and Background" for Chapter 8 provides the essential', 'Plot and Narrative Structure in a narrative poem refers to the sequence of events,', 'Character analysis of the protagonist in a poem involves examining the central figure\'s'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_08_003\'s worked example on identifying sensory clusters in.',
-                  misconception: 'Students treat setting as a static "where and when" label (e.g., "village in Bihar, 1920s") and atmosphere as a single adjective (e.g.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं',
+                  options: ['रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश या सार है जो सभी पंक्तियों, बिंबों और'],
+                  hint: 'यदि तुक पहचानने में अटके: **कक्षा 11 आरोह — \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_003) का.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **रुबाई = कोई भी चार पंक्ति की कविता (चौपाई/मुक्तक/कवित्त)**। वे **तुक-अनुक्रम की अनिवार्यता (AABA)**.' }
           ],
-            remediations: { 'students-treat-setting-as-a': { steps: ['Have the student re-read the opening paragraphs of the chapter with a highlighter, marking ONLY sensory words (smell.', 'Ask them to group these sensory details into clusters (monsoon, childhood play, domestic space, school/exam).', 'For each cluster, write one sentence: "This cluster makes the reader feel ______ because ______." 4.', 'Finally, compare two clusters: how does the atmosphere shift?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'aaba-volta-turn-liberalized-aaaa': { steps: ['**चरण 1:** छात्र को **फारसी रुबाई के 3-4 मौलिक उदाहरण** (उमर खय्याम/हाफ़िज़ के अनुवाद) दिखाओ — हर में AABA और तीसरी.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a poem involves examining the central.',
-          hint: 'If stuck, review "Identifying Speaker vs Protagonist in Poetry" from.',
-          misconception: 'Students often treat the protagonist as a generic "child" without analyzing how specific folk images (मिट्टी के खिलौने.',
+          question: 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश या सार है जो सभी पंक्तियों.',
+          hint: 'यदि रस-सूत्र या विभाव-अनुभाव-संचारी भाव स्पष्ट न हों, तो कक्षा 11 के नोड्स.',
+          misconception: 'छात्र समझते हैं कि **रस केवल स्थायी भाव का नाम है** (जैसे: शृंगार = रति, करुण = शोक) — इसलिए वे रुबाई पढ़ते ही पहला.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist in a poem involves examining the central figure\'s',
-                  options: ['Character analysis of the protagonist in a poem involves examining the central figure\'s', '"Before You Read: Context and Background" for Chapter 8 provides the essential', 'Plot and Narrative Structure in a narrative poem refers to the sequence of events,', 'Setting and Atmosphere refers to the time, place, physical environment, and'],
-                  hint: 'If stuck, review "Identifying Speaker vs Protagonist in Poetry" from c11_hin_ar_cbse_01_004 and.',
-                  misconception: 'Students often treat the protagonist as a generic "child" without analyzing how specific folk images (मिट्टी के खिलौने, चाँद मांगना.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश या सार है जो सभी पंक्तियों, बिंबों और',
+                  options: ['केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश या सार है जो सभी पंक्तियों, बिंबों और', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'यदि रस-सूत्र या विभाव-अनुभाव-संचारी भाव स्पष्ट न हों, तो कक्षा 11 के नोड्स c11_hin_a_cbse_13_004.',
+                  misconception: 'छात्र समझते हैं कि **रस केवल स्थायी भाव का नाम है** (जैसे: शृंगार = रति, करुण = शोक) — इसलिए वे रुबाई पढ़ते ही पहला दिखने वाला भाव (जैसे.' }
           ],
-            remediations: { 'students-often-treat-the-protagonist': { steps: ['Re-read the poem aloud, circling every verb associated with the child (खेलता, बनाता, ताकता, मांगता, बैठा).', 'For each verb, write the exact line and the image it creates.', 'Revisit node c12_hin_ar_cbse_08_003 (Setting and Atmosphere) to see how the rural setting shapes these actions.', 'Re-attempt Diagnostic Question 4 with this evidence table.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['1) छात्र को NCERT की **रुबाई संख्या 1-2** दें और कहें: "पहले केवल **चौथी पंक्ति** पढ़ो — कवि अंत में क्या कहना चाहता है?', 'वही केंद्रीय भाव है।" 2) फिर पूछें: "इस अंतिम बात को पहुँचाने के लिए पहली तीन पंक्तियों ने कौन-सा दृश्य (विभाव) रचा?', 'कौन-सी क्रिया/भाव (अनुभाव) दिखाए?', 'कौन-से सहायक भाव (संचारी) साथ आए?" — इसे **तालिका** में भरवाएँ। 3) अब रस का नाम पूछें — यदि अभी भी गलत हो, तो **भरत.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_005', difficulty: 'standard',
-          question: 'Supporting characters are secondary figures in a narrative who interact with.',
-          hint: 'If stuck on identifying functions, review the \'Character Typology Cheat Sheet\' in Class.',
-          misconception: 'Students believe supporting characters are \'easier\' to analyze because they have fewer lines, so they write superficial.',
+          question: 'रुबाइयाँ छंद एक विशिष्ट फारसी मूल का चौपाई-प्रकार है जिसमें प्रत्येक रुबाई.',
+          hint: 'यदि मात्रा-गणना में अटकें: प्रत्येक शब्द को उच्चारित करें, संयुक्त व्यंजन (जैसे \'फूलों\'.',
+          misconception: 'छात्र मानते हैं कि \'छंद विश्लेषण\' का अर्थ केवल मात्राएँ गिनकर छंद-नाम बता देना है — वे भूल जाते हैं कि बोर्ड परीक्षा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters are secondary figures in a narrative who interact with the',
-                  options: ['Supporting characters are secondary figures in a narrative who interact with the', '"Before You Read: Context and Background" for Chapter 8 provides the essential', 'Plot and Narrative Structure in a narrative poem refers to the sequence of events,', 'Setting and Atmosphere refers to the time, place, physical environment, and'],
-                  hint: 'If stuck on identifying functions, review the \'Character Typology Cheat Sheet\' in Class 11 node.',
-                  misconception: 'Students believe supporting characters are \'easier\' to analyze because they have fewer lines, so they write superficial summaries ("वह.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रुबाइयाँ छंद एक विशिष्ट फारसी मूल का चौपाई-प्रकार है जिसमें प्रत्येक रुबाई (चतुष्पदी) की',
+                  options: ['रुबाइयाँ छंद एक विशिष्ट फारसी मूल का चौपाई-प्रकार है जिसमें प्रत्येक रुबाई (चतुष्पदी) की', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'यदि मात्रा-गणना में अटकें: प्रत्येक शब्द को उच्चारित करें, संयुक्त व्यंजन (जैसे \'फूलों\' में \'ल्\').',
+                  misconception: 'छात्र मानते हैं कि \'छंद विश्लेषण\' का अर्थ केवल मात्राएँ गिनकर छंद-नाम बता देना है — वे भूल जाते हैं कि बोर्ड परीक्षा (और CUET) में पूछा.' }
           ],
-            remediations: { 'supporting-characters-are-easier-to': { steps: ['If a student cannot move beyond description: 1.', 'Have them list every scene the character appears in (column 1), the character\'s action/dialogue (column 2), the.', 'Use the table to write one PEEL paragraph per character.', 'Re-attempt Diagnostic Question 3 with a different character.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_005', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe supporting characters are \'easier\' to analyze because they have fewer lines, so they write superficial.',
-          parts: [
-                { id: 'a', prompt: 'Critique this student claim: "Supporting characters are only included to make the story realistic; they have no thematic purpose." Defend or refute using.', answer: 'Refute',
-                  options: ['Refute', 'वह अच्छा दोस्त है'],
-                  hint: 'If stuck on identifying functions, review the \'Character Typology Cheat Sheet\' in Class 11 node.',
-                  misconception: 'Students believe supporting characters are \'easier\' to analyze because they have fewer lines, so they write superficial summaries ("वह.' }
-          ],
-            remediations: { 'supporting-characters-are-easier-to': { steps: ['If a student cannot move beyond description: 1.', 'Have them list every scene the character appears in (column 1), the character\'s action/dialogue (column 2), the.', 'Use the table to write one PEEL paragraph per character.', 'Re-attempt Diagnostic Question 3 with a different character.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'cuet-b': { steps: ['चरण 1: c12_hin_ar_cbse_08_003 (काव्य-संरचना) दोबारा पढ़ें — वहाँ पंक्ति-वार मात्रा गणना का अभ्यास है। चरण 2: एक रुबाई.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_08_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea — the.',
-          hint: 'If stuck, return to c11_hin_ar_cbse_01_006 (Theme: Primary Theme and Message — Class 11.',
-          misconception: 'Students conflate "theme" with "author\'s biography" or "historical context" — e.g., writing "The theme is रेणु\'s life.',
+          question: 'अलंकार काव्य की वह रसायनिक क्रिया है जिसमें शब्दों के माध्यम से अर्थ की विशेष.',
+          hint: 'यदि अलंकार पहचानने में अटकें तो कक्षा 11 के नोड **c11_hin_a_cbse_13_006** के कार्यित.',
+          misconception: '**सबसे घातक गलतफहमी**: छात्र अलंकार को **सजावटी उपकरण** (decoration) मानते हैं, **अर्थ-व्यंजना की प्रक्रिया**.',
           parts: [
-                { id: 'a', prompt: 'Apply the "theme-evidence-link" method: Select ONE stanza from the "झाँकी" poem and show how its imagery (mud pies, kite-flying, spinning tops) supports the.', answer: 'Step 1: Identify stanza',
-                  options: ['Step 1: Identify stanza', 'harmony'],
-                  hint: 'If stuck, return to c11_hin_ar_cbse_01_006 (Theme: Primary Theme and Message — Class 11 Chapter 1).',
-                  misconception: 'Students conflate "theme" with "author\'s biography" or "historical context" — e.g., writing "The theme is रेणु\'s life in Bihar" or "The.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार काव्य की वह रसायनिक क्रिया है जिसमें शब्दों के माध्यम से अर्थ की विशेष व्यंजना,',
+                  options: ['अलंकार काव्य की वह रसायनिक क्रिया है जिसमें शब्दों के माध्यम से अर्थ की विशेष व्यंजना,', 'रुबाई फ़ारसी साहित्य की एक छंद शैली है जिसमें चार पंक्तियाँ (चतुष्पदी) होती हैं, जिसका', 'पद्यांश-वार भावार्थ का अर्थ है प्रत्येक रुबाई (चार पंक्तियों का छंद) के शब्दार्थ,', 'रुबाई (Rubai) फारसी मूल का एक छंद-प्रकार है जिसमें **चार पंक्तियाँ (चतुष्पदी)** होती हैं'],
+                  hint: 'यदि अलंकार पहचानने में अटकें तो कक्षा 11 के नोड **c11_hin_a_cbse_13_006** के कार्यित उदाहरण 1-2.',
+                  misconception: '**सबसे घातक गलतफहमी**: छात्र अलंकार को **सजावटी उपकरण** (decoration) मानते हैं, **अर्थ-व्यंजना की प्रक्रिया** (meaning-making process).' }
           ],
-            remediations: { 'students-conflate-theme-with-author': { steps: ['Re-read the "झाँकी" poem *only* — ignore the prose — and list every noun that is a natural object (tree, mud, wind.', 'For each noun, write one sentence: "This object shows children ______." 3.', 'Find the common verb pattern (play, run, fly, float, grow).', 'Formulate: "The theme is childhood ______ nature." 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'decoration': { steps: ['**पुनरावृत्ति चरण**: नोड **c11_hin_a_cbse_13_006** (जाग तुझको दूर जाना — अलंकार) और **c11_hin_a_cbse_14_006** (बादल को.', '**अभ्यास चरण**: रुबाइयों के 5 पद्यांश लीजिए (नोड 002 से), प्रत्येक में **केवल एक अलंकार** पहचानिए, फिर उसकी **व्यंजना.', '**परीक्षण चरण**: नोड **007 (प्रतीक-बिंब)** के डायग्नोस्टिक प्रश्न 3-4 हल कीजिए — वहाँ अलंकार और प्रतीक का अंतर स्पष्ट.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

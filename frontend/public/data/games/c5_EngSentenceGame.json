@@ -1,0 +1,316 @@
+{
+  "gameFile": "EngSentenceGame",
+  "classLevel": 5,
+  "cisceNodes": [],
+  "mascot": "Bolt the Beaver — a busy beaver builder who builds sentence bridges plank by plank, word by word, always in the right order.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Build It Right! 🌉",
+      "text": "A sentence is a bridge of words. Every plank (word) must be in the right place, or the bridge wobbles! 'Ravi eats a mango' — strong bridge!",
+      "emoji": "🌉",
+      "bgColor": "from-orange-400 to-amber-500",
+      "spoken": "A sentence is a bridge of words — every word in the right place!"
+    },
+    {
+      "title": "Who + Does What 🧱",
+      "text": "A good sentence has a who (subject) and a does-what (verb): 'The cat sleeps.' Who? The cat. Does what? Sleeps. Complete!",
+      "emoji": "🧱",
+      "bgColor": "from-sky-400 to-blue-500",
+      "spoken": "A sentence needs a who and a does-what: 'The cat sleeps.'"
+    },
+    {
+      "title": "Word Order Matters 🔢",
+      "text": "'Ravi eats a mango' is right. 'Eats Ravi a mango' is wobbly! In English, the who usually comes first, then the does-what.",
+      "emoji": "🔢",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "The who comes first, then the does-what: Ravi eats a mango!"
+    },
+    {
+      "title": "Telling and Asking 💬",
+      "text": "Telling sentences share: 'We won the match.' Asking sentences wonder: 'What is your name?' Both need capitals and end marks!",
+      "emoji": "💬",
+      "bgColor": "from-rose-400 to-pink-500",
+      "spoken": "Telling sentences share. Asking sentences wonder. Both need capitals and end marks!"
+    },
+    {
+      "title": "Check Before You Finish ✅",
+      "text": "Great builders check their bridges: Capital letter at the start? Full stop at the end? Words in order? Perfect — well built!",
+      "emoji": "✅",
+      "bgColor": "from-purple-400 to-fuchsia-500",
+      "spoken": "Check your sentence: capital at the start, full stop at the end, words in order!"
+    }
+  ],
+  "challenges": [
+    {
+      "type": "sent_complete",
+      "question": "Which group of words is a complete sentence?",
+      "answer": "The children play in the park.",
+      "options": [
+        "The children play in the park.",
+        "In the park playing.",
+        "The children in the park."
+      ],
+      "hint": "A complete sentence tells a whole thought: who AND what they do!",
+      "misconception": "'The children play in the park.' is complete — who (children) and what (play). The others are only fragments!",
+      "easierVariant": {
+        "options": [
+          "The children play in the park.",
+          "In the park playing."
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_order",
+      "question": "Drag the words to build the sentence: 'The cat sleeps.'",
+      "answer": "sort",
+      "options": [],
+      "hint": "First comes The, then cat, then sleeps!",
+      "misconception": "'The cat sleeps.' — The first, cat second, sleeps last!",
+      "sortItems": [
+        {
+          "id": "w-the",
+          "label": "The",
+          "icon": "1️⃣",
+          "emoji": "1️⃣",
+          "correctBin": "w1"
+        },
+        {
+          "id": "w-cat",
+          "label": "cat",
+          "icon": "2️⃣",
+          "emoji": "2️⃣",
+          "correctBin": "w2"
+        },
+        {
+          "id": "w-sleeps",
+          "label": "sleeps",
+          "icon": "3️⃣",
+          "emoji": "3️⃣",
+          "correctBin": "w3"
+        }
+      ],
+      "bins": [
+        {
+          "id": "w1",
+          "label": "1st word",
+          "color": "#EF4444"
+        },
+        {
+          "id": "w2",
+          "label": "2nd word",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "w3",
+          "label": "3rd word",
+          "color": "#3B82F6"
+        }
+      ],
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sent_order",
+      "question": "Which sentence has the right word order?",
+      "answer": "Ravi eats a mango.",
+      "options": [
+        "Ravi eats a mango.",
+        "Eats Ravi a mango.",
+        "A mango Ravi eats."
+      ],
+      "hint": "The who comes first, then what he does!",
+      "misconception": "'Ravi eats a mango.' has the right order: who (Ravi), then does-what (eats).",
+      "easierVariant": {
+        "options": [
+          "Ravi eats a mango.",
+          "Eats Ravi a mango."
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sent_asking",
+      "question": "Which sentence asks a question?",
+      "answer": "Have you seen my pencil?",
+      "options": [
+        "Have you seen my pencil?",
+        "I have a pencil.",
+        "What a shiny pencil!"
+      ],
+      "hint": "One of these sentences wants an answer back!",
+      "misconception": "'Have you seen my pencil?' asks something and needs an answer!",
+      "easierVariant": {
+        "options": [
+          "Have you seen my pencil?",
+          "I have a pencil."
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sent_and",
+      "question": "Fill the blank: 'I like apples and ___ like bananas.'",
+      "answer": "I",
+      "options": [
+        "I",
+        "Me",
+        "My"
+      ],
+      "hint": "The second part also needs the doer word: who likes bananas?",
+      "misconception": "'I like apples and I like bananas.' — the doer word I is right! Me and my do not fit as the doer.",
+      "easierVariant": {
+        "options": [
+          "I",
+          "Me"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_tell_ask",
+      "question": "Drag each sentence! Is it a telling sentence or a question?",
+      "answer": "sort",
+      "options": [],
+      "hint": "'The sky is blue' and 'We won the match' tell. 'Where are you going' and 'What is your name' ask!",
+      "misconception": "'The sky is blue' and 'We won the match' tell something. 'Where are you going' and 'What is your name' ask questions!",
+      "sortItems": [
+        {
+          "id": "w-sky",
+          "label": "The sky is blue",
+          "icon": "🌤️",
+          "emoji": "🌤️",
+          "correctBin": "tell"
+        },
+        {
+          "id": "w-going",
+          "label": "Where are you going",
+          "icon": "🤔",
+          "emoji": "🤔",
+          "correctBin": "ask"
+        },
+        {
+          "id": "w-won",
+          "label": "We won the match",
+          "icon": "🏅",
+          "emoji": "🏅",
+          "correctBin": "tell"
+        },
+        {
+          "id": "w-name",
+          "label": "What is your name",
+          "icon": "🙋",
+          "emoji": "🙋",
+          "correctBin": "ask"
+        }
+      ],
+      "bins": [
+        {
+          "id": "tell",
+          "label": "Telling (.)",
+          "color": "#10B981"
+        },
+        {
+          "id": "ask",
+          "label": "Question (?)",
+          "color": "#3B82F6"
+        }
+      ],
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sent_the",
+      "question": "Fill the blank: 'The birds are flying in ___ sky.'",
+      "answer": "the",
+      "options": [
+        "the",
+        "a",
+        "an"
+      ],
+      "hint": "We both know WHICH sky — the one right above us! That needs a special little word.",
+      "misconception": "'The birds are flying in the sky.' — we use the for the one sky we all share, not a or an!",
+      "easierVariant": {
+        "options": [
+          "the",
+          "a"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sent_punct",
+      "question": "Which sentence is written correctly?",
+      "answer": "We play cricket on Sunday.",
+      "options": [
+        "we play cricket on sunday.",
+        "We play cricket on Sunday.",
+        "We play cricket on sunday"
+      ],
+      "hint": "Capital at the start, capital for the day name, full stop at the end!",
+      "misconception": "'We play cricket on Sunday.' is correct: capital W, capital S for Sunday, and a full stop!",
+      "easierVariant": {
+        "options": [
+          "We play cricket on Sunday.",
+          "we play cricket on sunday."
+        ]
+      },
+      "storyBeat": "resolution"
+    }
+  ],
+  "subject": "english",
+  "theme": "city",
+  "storyArc": {
+    "theme": "An English explorer masters new words, one story at a time",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let us explore English together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A playful challenge appears that needs the new skill",
+        "mascotDialogue": "Here comes a challenge — can you work it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The tasks grow trickier as understanding deepens",
+        "mascotDialogue": "You are getting stronger! Try these!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest test of the new skill",
+        "mascotDialogue": "This is the big one! Show me what you learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "Mastery shown and celebrated",
+        "mascotDialogue": "Amazing! You have mastered this!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Sentence Bridge Tower",
+    "totalPieces": 8
+  }
+}

@@ -8,7 +8,7 @@ export const c6_history_ch12: SimDef = {
     subtitle: 'This node covers the historical origin and the creation process of the Indian.',
     classLevel: 6, subject: 'history', topic: 'India After Independence',
     chapters: ['c6_history_ch12'],
-    nodeIds: ['c6_history_ch12_051'],
+    nodeIds: ['c6_history_ch12_051', 'c6_history_ch12_052', 'c6_history_ch12_053', 'c6_history_ch12_054', 'c6_history_ch12_055', 'c6_history_ch12_056'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are starting a new sports club with fifty friends, but you have no rules—everyone would argue.', goal: 'Master every idea in this chapter.' },

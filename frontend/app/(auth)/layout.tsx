@@ -40,7 +40,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
               <span className="spectrum-text">in a new light.</span>
             </h1>
             <p className="text-surface-700 text-lg mt-4 max-w-md">
-              AI-powered learning for CBSE, ICSE &amp; ISC. All subjects, all classes. Diagnose gaps. Master concepts. Score higher.
+              AI-powered learning for CBSE. All subjects, all classes. Diagnose gaps. Master concepts. Score higher.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
           <div className="space-y-3 max-w-md">
             {[
               { icon: Brain, label: 'Socratic AI Tutor — guides you to answers, never just gives them', color: 'text-gold-300' },
-              { icon: GraduationCap, label: 'A knowledge graph spanning CBSE, ICSE & ISC — concepts, prerequisites and gaps', color: 'text-mint-300' },
+              { icon: GraduationCap, label: 'A knowledge graph spanning all of CBSE — concepts, prerequisites and gaps', color: 'text-mint-300' },
               { icon: Trophy, label: 'Streaks, XP, mastery rings, and adaptive learning paths', color: 'text-gold-400' },
             ].map((f, i) => (
               <motion.div

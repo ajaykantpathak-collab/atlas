@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
 /** HAND-AUTHORED — c8_comp_ch86 The Relay (message + informal invitation).
- * Nodes: c8_comp_cbse_86_001, 86_002. */
+ * Nodes: c8_engl_cbse_86_001, 86_002. */
 export const c8_comp_ch86: SimDef = {
-    id: 'v3_c8_comp_ch86',
+    id: 'v3w_c8_comp_ch86',
     title: 'The Relay',
     subtitle: 'Compress a phone call into 50 words of reported facts — then write an invitation that actually tells people when and where',
     classLevel: 8, subject: 'english-composition', topic: 'Message writing and informal invitations',
     chapters: ['c8_comp_ch86'],
-    nodeIds: ['c8_comp_cbse_86_001', 'c8_comp_cbse_86_002'],
+    nodeIds: ['c8_engl_cbse_86_001', 'c8_engl_cbse_86_002'],
     emoji: '📞', theme: { bg: 'from-slate-900 to-orange-950', accent: 'orange', scene: 'junior' },
 
     scenario: {
@@ -32,7 +32,7 @@ export const c8_comp_ch86: SimDef = {
     ],
 
     beats: [
-        { type: 'scaffold', nodeId: 'c8_comp_cbse_86_001', title: 'Compress the call',
+        { type: 'scaffold', nodeId: 'c8_engl_cbse_86_001', title: 'Compress the call',
           scaffold: {
             problem: 'Caller: "Tell Rahul I will bring the book tomorrow and we can start the project." Write the message to Rahul.',
             steps: [
@@ -43,14 +43,14 @@ export const c8_comp_ch86: SimDef = {
                 { text: 'You: caller says "I am coming at 5" → "she said ___"', blankAnswer: 'she would come at 5' },
             ],
           } },
-        { type: 'dissect', nodeId: 'c8_comp_cbse_86_001', title: 'Message audit',
+        { type: 'dissect', nodeId: 'c8_engl_cbse_86_001', title: 'Message audit',
           dissect: { specimen: 'an 85-word chatty note',
           spots: [
             { id: 's1', label: 'limit', prompt: 'The note runs 85 words with "It was such a nice chat, hello hello!" — the fault?', answer: 'limit breach + conversational filler — messages relay facts, not the chat', options: ['limit breach + conversational filler — messages relay facts, not the chat', 'only the word limit', 'hello is rude', 'nothing wrong'] },
             { id: 's2', label: 'quote', prompt: 'It reads: "Anil said, I will collect it at 6." — what is wrong?', answer: 'direct quote leaked in — report it: "Anil said he would collect it at 6"', options: ['direct quote leaked in — report it: "Anil said he would collect it at 6"', 'Anil needs a surname', '6 should be six', 'nothing wrong'] },
             { id: 's3', label: 'stamp', prompt: 'No date or time at the top — why does that matter?', answer: 'the timestamp is an element — a message must record WHEN it was written', options: ['the timestamp is an element — a message must record WHEN it was written', 'it does not matter', 'only the receiver name matters', 'time goes at the bottom'] },
           ] } },
-        { type: 'case', nodeId: 'c8_comp_cbse_86_002', title: 'Invitation essentials',
+        { type: 'case', nodeId: 'c8_engl_cbse_86_002', title: 'Invitation essentials',
           caseStudy: {
             intro: 'Warm letters still need logistics — and replies must actually answer.',
             decisions: [
@@ -64,7 +64,7 @@ export const c8_comp_ch86: SimDef = {
                 ] },
             ],
           } },
-        { type: 'build', nodeId: 'c8_comp_cbse_86_001', title: 'Stack the message',
+        { type: 'build', nodeId: 'c8_engl_cbse_86_001', title: 'Stack the message',
           build: {
             prompt: 'Order the message elements:',
             blocks: ['writer\'s name', 'reported message body', 'date + time', 'receiver\'s name'],
@@ -73,7 +73,7 @@ export const c8_comp_ch86: SimDef = {
     ],
 
     challenges: [
-        { type: 'mcq', nodeId: 'c8_comp_cbse_86_001', difficulty: 'foundation',
+        { type: 'mcq', nodeId: 'c8_engl_cbse_86_001', difficulty: 'foundation',
           question: 'What are the five elements of a message?',
           options: [
               { text: 'Date, time, receiver\'s name, reported message, writer\'s name' },
@@ -87,7 +87,7 @@ export const c8_comp_ch86: SimDef = {
           },
           hint: 'The timestamp is what makes it a message, not a letter.',
           misconception: 'students treat messages like mini-letters and drop the timestamp' },
-        { type: 'mcq', nodeId: 'c8_comp_cbse_86_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c8_engl_cbse_86_001', difficulty: 'standard',
           question: 'Convert for a message: "Tell Rahul that I said, \'I will bring the book tomorrow.\'"',
           options: [
               { text: 'he said he would bring the book the next day — direct speech must convert' },
@@ -100,7 +100,7 @@ export const c8_comp_ch86: SimDef = {
           },
           hint: 'Does a message quote people, or report them?',
           misconception: 'students copy the caller\'s direct words into the message — the quote-leak' },
-        { type: 'mcq', nodeId: 'c8_comp_cbse_86_002', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c8_engl_cbse_86_002', difficulty: 'standard',
           question: 'An invitation letter must carry which logistics?',
           options: [
               { text: 'What (occasion), When (date/time), Where (place)' },
@@ -114,7 +114,7 @@ export const c8_comp_ch86: SimDef = {
           },
           hint: 'What does the reader need to actually show up?',
           misconception: 'students write warm invites that forget the actual logistics' },
-        { type: 'sort', nodeId: 'c8_comp_cbse_86_002', difficulty: 'foundation',
+        { type: 'sort', nodeId: 'c8_engl_cbse_86_002', difficulty: 'foundation',
           question: 'Invitation or reply — which lines belong where?',
           sortItems: [
               { id: 'a', label: 'Having a birthday dinner Saturday 7 pm', emoji: '🎂', correctBin: 'invite' },
@@ -128,7 +128,7 @@ export const c8_comp_ch86: SimDef = {
           ],
           hint: 'Invitations give logistics + do-come. Replies answer yes/no + reason.',
           misconception: 'students blur the two contracts — invites without logistics, replies without answers' },
-        { type: 'subpart', nodeId: 'c8_comp_cbse_86_001', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c8_engl_cbse_86_001', difficulty: 'advanced',
           question: 'The phone rang; Dad is out; caller Mr Sharma said "the meeting moved to Monday." Write the message.',
           hint: 'Five elements, reported form, ~50 words.',
           misconception: 'writes a letter-style note or leaks direct speech',

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch08_p1: SimDef = {
     id: 'v3_c12_hin_a_ch08_p1',
-    title: 'iQ.kh\'ojukFk ^js.kq · Part 1/3',
+    title: 'वद्यिापति · Part 1/3',
     subtitle: 'A weaver taught God to speak the market\'s language',
-    classLevel: 12, subject: 'hin_a', topic: 'iQ.kh\'ojukFk ^js.kq · Part 1/3',
+    classLevel: 12, subject: 'hin_a', topic: 'वद्यिापति · Part 1/3',
     chapters: ['c12_hin_a_ch08'],
     nodeIds: ['c12_hin_a_cbse_08_001', 'c12_hin_a_cbse_08_002', 'c12_hin_a_cbse_08_003', 'c12_hin_a_cbse_08_004', 'c12_hin_a_cbse_08_005', 'c12_hin_a_cbse_08_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,47 +19,15 @@ export const c12_hin_a_ch08_p1: SimDef = {
         hook: 'Don\'t confuse simple words with simple thought — his loom, his market, his courtyard are dense metaphysics in a worker\'s vocabulary. Life is cloth on the loom of time; see the weaving before it\'s finished. The weaver\'s craft is the epistemology.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Context and Background refers to the historical, social, cultural, and biographical circumstances surrounding a literary work and its author, which shape the themes, language, and perspectives.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'वद्यिापति — कवि परिचय और पृष्ठभूमि', text: 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के वैदिक-भावनात्मक कवि वद्यिापति के व्यक्तिगत जीवन, सामाजिक-धार्मिक परिदृश्य, भाषा प्रभाव और रचनात्मक प्रेरणा के स्रोतों.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_08_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Sit at Kabir\'s loom: trace how a julaha\'s tools became metaphysical vocabulary, weigh Nirgun devotion against both orthodoxies, and hear a marketplace tongue carry the sublime.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_08_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are handed a letter written in a mix of dialects, referencing weaving, markets, and temples, but you don’t know who wrote it or why.',
-            decisions: [{ prompt: 'Who was Kabir (fo|kifr), and what are the two most defining aspects of his identity that appear in his poetry?', options: [
-                { text: 'Kabir was a 15th‑century poet‑saint from Kashi, born into a weaver (julaha) family, and a', outcome: 'Kabir was a 15th‑century poet‑saint from Kashi, born into a weaver (julaha) family, and a central.' },
-                { text: 'Kabir was a Brahmin priest who wrote in Sanskrit', outcome: 'Not quite — Students often treat “Context and Background” as a list of dates and names to memorise for a 1‑mark.', reveals: 'students-often-treat-context-and' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_08_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you’re watching a short film with three scenes: a woman staring at an empty road (scene 1), the same woman at midnight hearing wind howl (scene 2), and.',
-            decisions: [{ prompt: 'What is the primary narrative function of the first stanza in *Phool Kee*?', options: [
-                { text: 'The first stanza serves as **exposition**: it introduces the protagonist (the separated', outcome: 'The first stanza serves as **exposition**: it introduces the protagonist (the separated woman), her.' },
-                { text: 'it describes the night', outcome: 'Not quite — Students treat each stanza as an **independent poem** on “separation” and write three separate.', reveals: 'students-treat-each-stanza-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_08_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re reading a late-night message from someone far away — the words on screen carry weight, but the rain tapping your window, the darkness outside.',
-            decisions: [{ prompt: 'What are the two main components of \'setting\' in a literary text, and how does \'atmosphere\' differ from setting?', options: [
-                { text: 'Setting comprises time (historical period, time of day, season) and place (geographical', outcome: 'Setting comprises time (historical period, time of day, season) and place (geographical location.' },
-                { text: 'setting is the mood', outcome: 'Not quite — Students treat \'setting\' as only physical backdrop (time/place) and \'atmosphere\' as a separate.', reveals: 'students-treat-setting-as-only' },
-                { text: 'conflates setting with atmosphere (e', outcome: 'Not quite — Students treat \'setting\' as only physical backdrop (time/place) and \'atmosphere\' as a separate.', reveals: 'students-treat-setting-as-only' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_08_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are listening to a friend describe a dream where a door refuses to open and a thorn pricks their foot — you instantly know the door and thorn.',
-            decisions: [{ prompt: 'Identify the supporting character addressed as "xksoqQy" in the first poem and state their single dramatic function in that stanza.', options: [
-                { text: 'The *xksoqQy* (sakhi/friend) is addressed in stanza 1 ("xksoqQy rsft eèkqiqj cl js du', outcome: 'The *xksoqQy* (sakhi/friend) is addressed in stanza 1 ("xksoqQy rsft eèkqiqj cl js du vitl ysy").' },
-                { text: 'the sakhi is the protagonist\'s wife', outcome: 'Not quite — Students treat every noun in the poem as a "character" with equal weight (e.g., analyzing "cksy".', reveals: 'students-treat-every-noun-in' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_08_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re asked in the board exam: "Kabir\'s poetry rejects external rituals.',
-            decisions: [{ prompt: 'What is the central theme of Kabir\'s poetry as presented in the three padas of Chapter 8?', options: [
-                { text: 'The central theme is **Nirguna Bhakti**', outcome: 'The central theme is **Nirguna Bhakti** — devotion to a formless, attribute-less Divine realized.' },
-                { text: 'Bhakti', outcome: 'Not quite — **Misconception:** "Kabir\'s main message is that all religions are the same / Hindu-Muslim unity.', reveals: 'misconception-kabir-s-main-message' },
-                { text: 'devotion to God', outcome: 'Not quite — **Misconception:** "Kabir\'s main message is that all religions are the same / Hindu-Muslim unity.', reveals: 'misconception-kabir-s-main-message' }
-            ] }] } },
+        labels: ['वद्यिापति — कवि परिचय', 'वद्यिापति — पद्यांश-वार भावार्थ', 'वद्यिापति — काव्य-संरचना और', 'वद्यिापति — केंद्रीय भाव', 'वद्यिापति — छंद और', 'वद्यिापति — साहित्यिक युक्तियाँ'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_08_001', title: 'Use it in the wild',
           caseStudy: { intro: 'A friend\'s mother has been sinking into helpless waiting since her husband\'s posting abroad — she watches the gate all day and does nothing else. In the chapter\'s three-stanza poem, the separated woman ends by turning to the lamp and commanding it to stay lit so he can find his way home.',
             decisions: [{ prompt: 'What does that final stanza suggest your friend could offer her?', options: [
@@ -69,100 +37,81 @@ export const c12_hin_a_ch08_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_08_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read Kabir\'s \'simple\' words as surgical philosophy — and see language choice as the heart of his defiance.',
-            decisions: [{ prompt: 'What comes next? iQ.kh\'ojukFk ^js.kq · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — iQ.kh\'ojukFk ^js.kq · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? वद्यिापति · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — वद्यिापति · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_001', difficulty: 'standard',
-          question: 'Context and Background refers to the historical, social, cultural, and.',
-          hint: 'If stuck, revisit the Class 11 chapter on Kabir (Aaroh Chapter 6) and the History.',
-          misconception: 'Students often treat “Context and Background” as a list of dates and names to memorise for a 1‑mark question.',
+          question: 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी.',
+          hint: 'यदि छात्र फंसे महसूस करे तो उसे कक्षा 11 के c11_hin_a_cbse_01_001 नोड (पाठ 1 — पृष्ठभूमि.',
+          misconception: 'छात्र अक्सर सोचते हैं कि वद्यिापति के पृष्ठभूमि का अर्थ केवल उनके जन्म तिथि, पिता का नाम, और居住地 को याद करना है — जैसे.',
           parts: [
-                { id: 'a', prompt: 'The first poem in the chapter opens with the line “eksjk fivre iklA” (इस जक फिवरे इकल).', answer: '“Fivre” (फिवरे) means a weaver’s loom or the act of weaving',
-                  options: ['“Fivre” (फिवरे) means a weaver’s loom or the act of weaving', 'fivre means a market', 'it refers to a temple'],
-                  hint: 'If stuck, revisit the Class 11 chapter on Kabir (Aaroh Chapter 6) and the History textbook section.',
-                  misconception: 'Students often treat “Context and Background” as a list of dates and names to memorise for a 1‑mark question.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के',
+                  options: ['वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण', 'केंद्रीय भाव किसी काव्य-रचना का वह मूल सार या मुख्य संदेश होता है जो समस्त पंक्तियों,'],
+                  hint: 'यदि छात्र फंसे महसूस करे तो उसे कक्षा 11 के c11_hin_a_cbse_01_001 नोड (पाठ 1 — पृष्ठभूमि और रचनाकार.',
+                  misconception: 'छात्र अक्सर सोचते हैं कि वद्यिापति के पृष्ठभूमि का अर्थ केवल उनके जन्म तिथि, पिता का नाम, और居住地 को याद करना है — जैसे "वद्यिापति 1350 में.' }
           ],
-            remediations: { 'students-often-treat-context-and': { steps: ['If a student cannot link Kabir’s weaving background to the poem’s imagery, take them through this 3‑step remediation.', '(2) Open the first poem (page 49) and circle every word that belongs to the semantic field of weaving, trade,.', '(3) Write one sentence for each circled word explaining how the poet’s life experience transforms that word into.', 'Then re‑attempt Diagnostic Question 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को बताइए कि आज हम एक छोटा प्रयोग करेंगे: ले लीजिए कोई सामान्य हिंदी दोहा (जैसे "पानी रे पानी") और पूछिए कि यदि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in poetry refers to the organization of events.',
-          hint: 'If stuck, revisit the **vocabulary glossary** at the end of NCERT Chapter 8 (words like.',
-          misconception: 'Students treat each stanza as an **independent poem** on “separation” and write three separate summaries.',
+          question: 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान.',
+          hint: 'यदि भावार्थ समझने में कठिनाई हो, तो छात्र को वद्यिापति के पद्य में प्रयुक्त प्रमुख.',
+          misconception: 'छात्र अक्सर मानते हैं कि पद्यांश-वार भावार्थ का मतलब है प्रत्येक पंक्ति का शब्दशः हिन्दी में अनुवाद करना — जैसे कि "जल.',
           parts: [
-                { id: 'a', prompt: 'Identify the exact phrase in stanza 3 that marks the **climax** of the narrative arc and justify why it is the turning point.', answer: 'The phrase **“dj nsb >k¡ib dku” (extinguish the lamp, O lamp)**',
-                  options: ['The phrase **“dj nsb >k¡ib dku” (extinguish the lamp, O lamp)**', 'ewfn jg, nq u;ku'],
-                  hint: 'If stuck, revisit the **vocabulary glossary** at the end of NCERT Chapter 8 (words like *fivk.',
-                  misconception: 'Students treat each stanza as an **independent poem** on “separation” and write three separate summaries.' },
-                { id: 'b', prompt: 'Compare the narrative role of the **lamp (dkuu)** in stanza 3 with the **path (Hkou)** in stanza 1. How does the shift from path to lamp restructure the story?', answer: 'The **path** in stanza 1 is a *passive symbol* of hope (she watches it)',
-                  options: ['The **path** in stanza 1 is a *passive symbol* of hope (she watches it)', 'symbols of hope'],
-                  hint: 'If stuck, revisit the **vocabulary glossary** at the end of NCERT Chapter 8 (words like *fivk.',
-                  misconception: 'Students treat each stanza as an **independent poem** on “separation” and write three separate summaries.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर',
+                  options: ['पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण', 'केंद्रीय भाव किसी काव्य-रचना का वह मूल सार या मुख्य संदेश होता है जो समस्त पंक्तियों,'],
+                  hint: 'यदि भावार्थ समझने में कठिनाई हो, तो छात्र को वद्यिापति के पद्य में प्रयुक्त प्रमुख प्रतीकों (जैसे.',
+                  misconception: 'छात्र अक्सर मानते हैं कि पद्यांश-वार भावार्थ का मतलब है प्रत्येक पंक्ति का शब्दशः हिन्दी में अनुवाद करना — जैसे कि "जल थल राहु केसरि" को.' }
           ],
-            remediations: { 'students-treat-each-stanza-as': { steps: ['**Re-read the three stanzas in one sitting** without stopping for meanings.', '**Draw a 3-box storyboard**: Box 1 = “Woman on road at dusk”, Box 2 = “Same woman at midnight with wind”, Box 3.', 'Label each box with the stanza number.', '**Revisit node c11_hin_ar_cbse_01_002** (Class 11 Plot & Narrative Structure) — redo its worked example on “identifying.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र पद्यांश का शब्दशः अनुवाद करके भावार्थ समझ रहा है, तो उसे इस प्रकार सुधारें: पहले उसे पद्यांश को आवाज़ में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_003', difficulty: 'standard',
-          question: 'Setting and Atmosphere in literature refers to the time, place, season, and.',
-          hint: 'If stuck, review \'Ritu-varnana in Bhakti poetry\' from Class 11 Hindi.',
-          misconception: 'Students treat \'setting\' as only physical backdrop (time/place) and \'atmosphere\' as a separate add-on, missing that.',
+          question: 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण — स्टांजा की संख्या.',
+          hint: 'यदि stuck हों, तो c12_hin_a_cbse_08_002 (पद्यांश-वार भावार्थ) पर वापस जाएँ और कविता के.',
+          misconception: 'छात्र अक्सर मानते हैं कि कविता के भाव को समझने के लिए केवल शब्दों के अर्थ पर्याप्त हैं और पद्य-विन्यास या छंद जैसी.',
           parts: [
-                { id: 'a', prompt: 'Given this new couplet in Braj: "बरखा बरसत देखि सखी, विरह बिथा बढ़ी अति जाय / बिजुरी चमके घटा घनघोर, प्रियतम न आवत नाहिं" — identify the setting markers and.', answer: 'Setting markers: "बरखा बरसत" (rain falling',
-                  options: ['Setting markers: "बरखा बरसत" (rain falling', 'rain and clouds'],
-                  hint: 'If stuck, review \'Ritu-varnana in Bhakti poetry\' from Class 11 Hindi (c11_hin_ar_cbse_08_003) and.',
-                  misconception: 'Students treat \'setting\' as only physical backdrop (time/place) and \'atmosphere\' as a separate add-on, missing that in Bhakti/viraha.' },
-                { id: 'b', prompt: 'Compare how the first and third poems use \'night\' (रात्रि/निशा) differently to construct atmosphere.', answer: 'First poem: "eèkqiqj" (एकएक)',
-                  options: ['First poem: "eèkqiqj" (एकएक)', 'both show night is sad'],
-                  hint: 'If stuck, review \'Ritu-varnana in Bhakti poetry\' from Class 11 Hindi (c11_hin_ar_cbse_08_003) and.',
-                  misconception: 'Students treat \'setting\' as only physical backdrop (time/place) and \'atmosphere\' as a separate add-on, missing that in Bhakti/viraha.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण',
+                  options: ['काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण', 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'केंद्रीय भाव किसी काव्य-रचना का वह मूल सार या मुख्य संदेश होता है जो समस्त पंक्तियों,'],
+                  hint: 'यदि stuck हों, तो c12_hin_a_cbse_08_002 (पद्यांश-वार भावार्थ) पर वापस जाएँ और कविता के अर्थ को.',
+                  misconception: 'छात्र अक्सर मानते हैं कि कविता के भाव को समझने के लिए केवल शब्दों के अर्थ पर्याप्त हैं और पद्य-विन्यास या छंद जैसी तकनीकी बातें केवल.' }
           ],
-            remediations: { 'students-treat-setting-as-only': { steps: ['Re-read the three poems ALOUD in Braj, marking every sensory word (sound, sight, touch) with a highlighter.', 'Create a two-column table: Column A = Setting Detail (quote), Column B = Atmosphere Effect (what feeling it creates).', 'Revisit c11_hin_ar_cbse_08_003 (Class 11 Setting and Atmosphere) for the foundational framework of setting-atmosphere.', 'Re-do Diagnostic Question 4 as a written exercise with the table as scaffold.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'role-prose': { steps: ['छात्र से कहिए कि वह कविता को धीरे-धीरे आवाज़ में पढ़े और हर stanza के बाद रुककर पूछे: "मेरी आवाज़ की गति यहाँ बढ़ी या.', 'क्या कुछ शब्द विशेष रूप से बलित हुए?" फिर इन अवलोकनों को भाव से जोड़ने का अभ्यास करवाएँ — जैसे कि धीमी लय को शोक से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in poetry involves systematically.',
-          hint: 'If stuck, revisit the "Speaker ≠ Poet" mini-lesson from Class 11 Antra Chapter 8 (node.',
-          misconception: 'Students conflate the **historical poet (fo|kifr, 1380–1460, multilingual scholar-saint)** with the **literary.',
+          question: 'केंद्रीय भाव किसी काव्य-रचना का वह मूल सार या मुख्य संदेश होता है जो समस्त.',
+          hint: 'यदि रस-सूत्र (विभाव/अनुभाव/संचारी) स्पष्ट न हो तो **c11_hin_a_cbse_13_004** या.',
+          misconception: '**सटीक भ्रम**: "विद्यापति के हर पद में एक ही रस होता है — या तो शृंगार या करुण" — क्योंकि छात्र **पारंपरिक रस-सिद्धांत.',
           parts: [
-                { id: 'a', prompt: 'Apply the "action–image–tone" method to the third poem\'s opening: "oqQlqfer dkuu gsfj deyeqf[k] / ewfn jg, nq u;ku".', answer: '**Action:** "gsfj" (watching/guarding',
-                  options: ['**Action:** "gsfj" (watching/guarding', 'praying'],
-                  hint: 'If stuck, revisit the "Speaker ≠ Poet" mini-lesson from Class 11 Antra Chapter 8 (node.',
-                  misconception: 'Students conflate the **historical poet (fo|kifr, 1380–1460, multilingual scholar-saint)** with the **literary protagonist (the "I" of the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव किसी काव्य-रचना का वह मूल सार या मुख्य संदेश होता है जो समस्त पंक्तियों,',
+                  options: ['केंद्रीय भाव किसी काव्य-रचना का वह मूल सार या मुख्य संदेश होता है जो समस्त पंक्तियों,', 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण'],
+                  hint: 'यदि रस-सूत्र (विभाव/अनुभाव/संचारी) स्पष्ट न हो तो **c11_hin_a_cbse_13_004** या.',
+                  misconception: '**सटीक भ्रम**: "विद्यापति के हर पद में एक ही रस होता है — या तो शृंगार या करुण" — क्योंकि छात्र **पारंपरिक रस-सिद्धांत (भरत मुनि: एक काव्य.' }
           ],
-            remediations: { 'students-conflate-the-historical-poet': { steps: ['**Re-read the preface (node 001) and the poems side-by-side:** Highlight every "I/me/my" in the poems.', 'Ask: "Does the text *say* the speaker is a king\'s guru?', 'No — it says \'my heart is at your door\'." 2.', '**Do a "Persona vs Poet" T-chart:** Left column = textual evidence from poems only; Right column = preface facts.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_004', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students conflate the **historical poet (fo|kifr, 1380–1460, multilingual scholar-saint)** with the **literary.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this claim: "The protagonist is a passive victim of circumstance; the poems only show suffering." Use evidence from all three poems to defend.', answer: '**Refute.** The protagonist exercises **radical agency through vulnerability**',
-                  options: ['**Refute.** The protagonist exercises **radical agency through vulnerability**', 'helplessness', 'passivity'],
-                  hint: 'If stuck, revisit the "Speaker ≠ Poet" mini-lesson from Class 11 Antra Chapter 8 (node.',
-                  misconception: 'Students conflate the **historical poet (fo|kifr, 1380–1460, multilingual scholar-saint)** with the **literary protagonist (the "I" of the.' }
-          ],
-            remediations: { 'students-conflate-the-historical-poet': { steps: ['**Re-read the preface (node 001) and the poems side-by-side:** Highlight every "I/me/my" in the poems.', 'Ask: "Does the text *say* the speaker is a king\'s guru?', 'No — it says \'my heart is at your door\'." 2.', '**Do a "Persona vs Poet" T-chart:** Left column = textual evidence from poems only; Right column = preface facts.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को **भरत मुनि के रस-सूत्र (विभावानुभावव्यभिचारिसंयोगाद्रसनिष्पत्तिः)** लिखवाओ और फिर विद्यापति के एक पद (जैसे.', 'फिर **दूसरे पद ("भजु रे मना")** पर यही प्रक्रिया दोहराओ — अब वीर+शांत पहचानवाओ। 3.', 'अंत में **तुलनात्मक चार्ट** बनवाओ: पद 1 में रस-यात्रा क्या थी?', 'इससे **रस-संवलन की गतिशीलता** समझ आएगी। **पुनः निदान**: "विद्यापति के किन्हीं दो पदों में रस-परिवर्तन का क्रम लिखो".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_005', difficulty: 'standard',
-          question: 'Supporting characters in poetry are the secondary voices, personified entities.',
-          hint: 'If the distinction between *sakhi* as character vs *sakhi* as narrative device.',
-          misconception: 'Students treat every noun in the poem as a "character" with equal weight (e.g., analyzing "cksy" hair, "dkuu" door.',
+          question: 'छंद पदों में मात्राओं की गणना और उनके समूहन का नियमित पैटर्न है, जबकि लय-विधान.',
+          hint: 'यदि मात्रा गणना में कठिनाई हो, तो c11_hin_a_cbse_15_005 ("हस्तक्षेप" से मात्रा गणना का.',
+          misconception: 'छात्र अक्सर मानते हैं कि छंद केवल मात्राओं की कुल संख्या से निर्धारित होता है, जैसे कि "8 मात्राएँ = चौपाई", बिना.',
           parts: [
-                { id: 'a', prompt: 'Compare the role of the *sakhi* (xksoqQy/lf[k) in poem 1 and poem 2.', answer: 'In poem 1, the *sakhi* is a passive confidante ("xksoqQy rsft...") receiving the',
-                  options: ['In poem 1, the *sakhi* is a passive confidante ("xksoqQy rsft...") receiving the', 'the sakhi is the same in both'],
-                  hint: 'If the distinction between *sakhi* as character vs *sakhi* as narrative device is unclear, review.',
-                  misconception: 'Students treat every noun in the poem as a "character" with equal weight (e.g., analyzing "cksy" hair, "dkuu" door, "xksoqQy" sakhi, "jeku".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद पदों में मात्राओं की गणना और उनके समूहन का नियमित पैटर्न है, जबकि लय-विधान उस पैटर्न',
+                  options: ['छंद पदों में मात्राओं की गणना और उनके समूहन का नियमित पैटर्न है, जबकि लय-विधान उस पैटर्न', 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण'],
+                  hint: 'यदि मात्रा गणना में कठिनाई हो, तो c11_hin_a_cbse_15_005 ("हस्तक्षेप" से मात्रा गणना का अभ्यास) पर.',
+                  misconception: 'छात्र अक्सर मानते हैं कि छंद केवल मात्राओं की कुल संख्या से निर्धारित होता है, जैसे कि "8 मात्राएँ = चौपाई", बिना मात्राओं के क्रम.' }
           ],
-            remediations: { 'students-treat-every-noun-in': { steps: ['Re-read node c12_hin_a_cbse_08_004 (Protagonist) to re-establish the protagonist\'s *bhāva* trajectory.', 'Make a 3-column table: Entity | Verbs/Actions Assigned | Symbolic Tier (Primary/Mediator/Instrument).', 'Re-attempt Diagnostic Q4 using this table.', 'If still stuck, revisit c11_hin_ar_cbse_08_005 (Class 11 Supporting Characters) for the *sakhi* convention basics.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दो पंक्तियाँ दें जिनमें समान मात्राएँ हों लेकिन अलग छंद हों (जैसे दोहा: "रामायण महाबharत" - 6+2, और सोरठा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_08_006', difficulty: 'standard',
-          question: 'The primary theme of Kabir\'s poetry in this chapter is **Nirguna Bhakti**.',
-          hint: 'If stuck on "What is Nirguna?", revisit **c11_hin_ar_cbse_08_006** (Class 11 Kabir theme).',
-          misconception: '**Misconception:** "Kabir\'s main message is that all religions are the same / Hindu-Muslim unity / social equality.".',
+          question: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा को सजावट, प्रभाव और गहराई प्रदान करने.',
+          hint: 'ध्वनि के दोहराव के प्रकार (व्यंजन vs स्वर) की समीक्षा करने के लिए c12_hin_a_cbse_08_005.',
+          misconception: 'छात्र अक्सर अनुप्रास और असonנס (vowel दोहराव) को भ्रमित करते हैं — वे किसी भी दोहराव को अनुप्रास मान लेते हैं, चाहे वह.',
           parts: [
-                { id: 'a', prompt: 'What is the central theme of Kabir\'s poetry as presented in the three padas of Chapter 8?', answer: 'The central theme is **Nirguna Bhakti**',
-                  options: ['The central theme is **Nirguna Bhakti**', 'Bhakti', 'devotion to God', 'Nirguna'],
-                  hint: 'If stuck on "What is Nirguna?", revisit **c11_hin_ar_cbse_08_006** (Class 11 Kabir theme) and.',
-                  misconception: '**Misconception:** "Kabir\'s main message is that all religions are the same / Hindu-Muslim unity / social equality." **Why students make.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा को सजावट, प्रभाव और गहराई प्रदान करने के लिए',
+                  options: ['अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा को सजावट, प्रभाव और गहराई प्रदान करने के लिए', 'वद्यिापति — कवि परिचय और पृष्ठभूमि का अर्थ है मिथिला क्षेत्र के 14वीं शताब्दी के', 'पद्यांश-वार भावार्थ की प्रक्रिया में कविता के प्रत्येक खंड (पद्यांश) को ध्यान से पढ़कर', 'काव्य-संरचना का अर्थ है कविता के आंतरिक ढांचे का विश्लेषण'],
+                  hint: 'ध्वनि के दोहराव के प्रकार (व्यंजन vs स्वर) की समीक्षा करने के लिए c12_hin_a_cbse_08_005 पर लौटें।',
+                  misconception: 'छात्र अक्सर अनुप्रास और असonנס (vowel दोहराव) को भ्रमित करते हैं — वे किसी भी दोहराव को अनुप्रास मान लेते हैं, चाहे वह स्वर हो या व्यंजन।.' }
           ],
-            remediations: { 'misconception-kabir-s-main-message': { steps: ['** Ask the student to re-read Pada 1 and underline every word referring to *external* practices (Kashi, Kaaba, mandir.', '** Have them write two columns: "What Kabir Rejects" vs "What Kabir Affirms." Force them to see the pattern: *every*.', '** Give them this prompt: "If Kabir wanted Hindu-Muslim unity, he would say \'Both temple and mosque lead to God.\' Find.', '** Re-attempt Diagnostic Question 5. If they still write "unity," assign re-reading of **c11_hin_ar_cbse_08_006**.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'on-vowel': { steps: ['छात्र को eerst देvanagari वर्णमाला दिखाइए और व्यंजन (क, ख, ग, घ...) और स्वर (अ, आ, इ, ई...) को अलग करके बताइए। फिर दो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

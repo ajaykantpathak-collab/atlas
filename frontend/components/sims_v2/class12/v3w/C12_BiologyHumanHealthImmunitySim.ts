@@ -228,15 +228,15 @@ export const w_c12_biologyhumanhealthimmunitysim: SimDef = {
           hint: 'If stuck, revisit Class 11 Neural Control and Coordination: specifically the synapse.',
           misconception: 'Students often believe "addiction is just a lack of willpower" and that "withdrawal is only psychological." The exact.',
           parts: [
-                { id: 'a', prompt: 'Name the neurotransmitter primarily involved in the brain\'s reward pathway that is hijacked by almost all addictive drugs, and state the specific brain region.', answer: 'Correct answer: Dopamine is the key neurotransmitter',
+                { id: 'a', prompt: 'Name the neurotransmitter primarily involved in the brain\'s reward pathway that is hijacked by almost all addictive drugs, and state the specific brain region.', answer: 'Dopamine is the key neurotransmitter',
                   options: ['Correct answer: Dopamine is the key neurotransmitter', 'serotonin', 'adrenaline'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "addiction is just a lack of willpower" and that "withdrawal is only psychological." The exact wrong reasoning: they.' },
-                { id: 'b', prompt: 'Explain why a chronic alcohol user develops tolerance and experiences withdrawal symptoms like tremors and seizures when they stop drinking, linking your.', answer: 'Correct answer: Alcohol enhances GABAergic inhibition and inhibits glutamatergic',
+                { id: 'b', prompt: 'Explain why a chronic alcohol user develops tolerance and experiences withdrawal symptoms like tremors and seizures when they stop drinking, linking your.', answer: 'Alcohol enhances GABAergic inhibition and inhibits glutamatergic',
                   options: ['Correct answer: Alcohol enhances GABAergic inhibition and inhibits glutamatergic', 'addiction is just a lack of willpower', 'withdrawal is only psychological'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "addiction is just a lack of willpower" and that "withdrawal is only psychological." The exact wrong reasoning: they.' },
-                { id: 'c', prompt: 'A 25-year-old male injects heroin daily. He develops pinpoint pupils, respiratory depression, and constipation.', answer: 'Correct answer: Heroin is an opioid',
+                { id: 'c', prompt: 'A 25-year-old male injects heroin daily. He develops pinpoint pupils, respiratory depression, and constipation.', answer: 'Heroin is an opioid',
                   options: ['Correct answer: Heroin is an opioid', 'addiction is just a lack of willpower', 'withdrawal is only psychological'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "addiction is just a lack of willpower" and that "withdrawal is only psychological." The exact wrong reasoning: they.' }

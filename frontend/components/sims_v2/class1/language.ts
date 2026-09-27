@@ -28,7 +28,8 @@ export const c1EngLetters: SimDef = {
         { title: 'Big and Small Letters 🔠', text: 'Every letter has a big form (A) and a small form (a). They look different but sound the same!', emoji: '🔠', bgColor: 'from-violet-400 to-purple-500' },
         { title: 'Sounds Build Words 🏗️', text: 'C-A-T says "cat"! When we put letter sounds together, we read words!', emoji: '🏗️', bgColor: 'from-amber-400 to-orange-500' },
     ],
-    challenges: [
+        explore: { widget: 'trace', prompt: 'Trace it!', labels: ['A'] },
+challenges: [
         { type: 'mcq', question: 'Which word starts with the letter B?', answer: 'Ball', options: ['Apple', 'Ball', 'Cat'],
           hint: 'Say the word slowly — what is the first sound?', misconception: 'B says "buh" — Ball starts with "buh"! Apple starts with A, Cat with C.',
           workedExample: ['Say "Ball" slowly.', 'First sound = "buh".', '"Buh" = letter B.'] },
@@ -56,6 +57,11 @@ export const c1EngLetters: SimDef = {
         { type: 'mcq', question: 'Which letter does "Elephant" start with?', answer: 'E', options: ['A', 'E', 'I'],
           hint: 'Eh-lephant — hear the first sound?', misconception: 'Elephant starts with "eh" — the letter E!',
           workedExample: ['Say elephant slowly.', 'First sound = "eh".', '"Eh" = letter E.'] },
+        { type: 'interact', question: "Trace the letter A — cover the whole letter!", options: [],
+          interactGoal: { instruction: 'Trace the letter A — cover the whole letter!', widget: 'trace', validate: 'trace:score>60', labels: ['A'] },
+          hint: 'Take your time!', misconception: 'Practice makes the shape stick!',
+          workedExample: ['Watch the guide.', 'Trace carefully.', 'Try again if needed.'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'Letter star! ⭐', tryAgainLine: 'Say the word slowly!',
@@ -79,7 +85,8 @@ export const c1EngRhyme: SimDef = {
         { title: 'Rhyme Families 👨‍👩‍👧', text: 'Rhyming words live in families: the "at" family has cat, bat, hat, mat. The "og" family has dog, log, frog!', emoji: '👨‍👩‍👧', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Rhymes in Poems 📜', text: 'Poems use rhymes to sound musical — "Twinkle twinkle little STAR, how I wonder what you ARE"!', emoji: '📜', bgColor: 'from-amber-400 to-orange-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match the rhyming pairs!', labels: ['cat', 'hat', 'dog', 'frog', 'sun', 'fun'] },
+challenges: [
         { type: 'mcq', question: 'Which word rhymes with CAT?', answer: 'Hat', options: ['Cup', 'Hat', 'Dog'],
           hint: 'Listen for the "at" ending!', misconception: 'Hat ends in "at" like cat — cup and dog end differently!',
           workedExample: ['Say cat — ends in "at".', 'Check each word for "at".', 'Hat = "at" → rhyme!'] },
@@ -124,7 +131,8 @@ export const c1EngWords: SimDef = {
         { title: 'Spot the Difference! 🔍', text: '"The dog runs." Dog is a naming word (a thing). Runs is a doing word (an action). See the difference?', emoji: '🔍', bgColor: 'from-violet-400 to-purple-500' },
         { title: 'Opposites ↔️', text: 'Some words have opposite partners: hot-cold, big-small, day-night. Opposites make language rich!', emoji: '↔️', bgColor: 'from-rose-400 to-pink-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Naming or doing? Match the words!', labels: ['boy', 'naming', 'run', 'doing', 'ball', 'naming'] },
+challenges: [
         { type: 'sort', question: 'Sort: NAMING words vs DOING words!', options: [],
           sortItems: [
             { id: 'w1', label: 'Ball', emoji: '⚽', correctBin: 'naming' },
@@ -170,7 +178,8 @@ export const c1EngStory: SimDef = {
         { title: 'Middle 🎭', text: 'The middle is where the action happens — the pigs build their houses and the wolf arrives!', emoji: '🎭', bgColor: 'from-violet-400 to-purple-500' },
         { title: 'End 🏁', text: 'The end shows how it all finishes — the strong brick house keeps everyone safe!', emoji: '🏁', bgColor: 'from-emerald-400 to-teal-500' },
     ],
-    challenges: [
+        explore: { widget: 'order', prompt: 'Put the story in order!', labels: ['First the seed', 'Then the sprout', 'Then the flower', 'Last the fruit'] },
+challenges: [
         { type: 'order', question: 'Put the Three Little Pigs story in order!', options: [],
           sortItems: [
             { id: 'st2', label: 'Pigs build houses', emoji: '🏠', correctBin: 'mid' },
@@ -214,7 +223,8 @@ export const c1HinVarnamala: SimDef = {
         { title: 'अ से अनार 🍎', text: 'अ for अनार (pomegranate), आ for आम (mango), इ for इमली (tamarind). Every letter has a picture friend!', emoji: '🍎', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'क से कबूतर 🕊️', text: 'क for कबूतर (pigeon), ख for खरगोश (rabbit), ग for गाय (cow). Listen to the first sound!', emoji: '🕊️', bgColor: 'from-sky-400 to-blue-500' },
     ],
-    challenges: [
+        explore: { widget: 'trace', prompt: 'Trace it!', labels: ['क'] },
+challenges: [
         { type: 'mcq', question: 'आम (mango) starts with which letter?', answer: 'आ', options: ['अ', 'आ', 'इ'],
           hint: 'Say it slowly: आ-म!', misconception: 'आम starts with आ — the long "aa" sound, not the short अ!',
           workedExample: ['Say आम slowly.', 'First sound = आ (long aa).', 'Answer: आ.'] },
@@ -239,6 +249,11 @@ export const c1HinVarnamala: SimDef = {
         { type: 'mcq', question: 'Which is a स्वर (vowel)?', answer: 'ओ', options: ['ओ', 'म', 'श'],
           hint: 'Swar sing alone — अ आ इ ई उ ऊ ए ऐ ओ औ!', misconception: 'ओ is a swar — म and श are vyanjan that need swar to speak!',
           workedExample: ['Recall swar list.', 'ओ is in it.', 'म, श are vyanjan.'] },
+        { type: 'interact', question: "अक्षर क पर लिखो — पूरा ढको!", options: [],
+          interactGoal: { instruction: 'अक्षर क पर लिखो — पूरा ढको!', widget: 'trace', validate: 'trace:score>60', labels: ['क'] },
+          hint: 'Take your time!', misconception: 'Practice makes the shape stick!',
+          workedExample: ['Watch the guide.', 'Trace carefully.', 'Try again if needed.'] },
+
     ],
     reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
     successLine: 'वर्णमाला स्टार! ⭐', tryAgainLine: 'धीरे से बोलो!',
@@ -262,7 +277,8 @@ export const c1HinWords: SimDef = {
         { title: 'काम के शब्द 🏃', text: 'Some words tell actions: खेलना (play), दौड़ना (run), गाना (sing). They tell us what is HAPPENING!', emoji: '🏃', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'उल्टे शब्द ↔️', text: 'Opposite words: दिन-रात (day-night), बड़ा-छोटा (big-small), ऊपर-नीचे (up-down)!', emoji: '↔️', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'शब्द से चित्र मिलाओ!', labels: ['माँ', 'माँ', 'घर', 'घर', 'फल', 'फल'] },
+challenges: [
         { type: 'sort', question: 'Sort: नाम के शब्द (naming) vs काम के शब्द (doing)!', options: [],
           sortItems: [
             { id: 'hw1', label: 'घर (home)', emoji: '🏠', correctBin: 'naam' },
@@ -305,7 +321,8 @@ export const c1HinRhyme: SimDef = {
         { title: 'एक जैसी ध्वनि 🎶', text: 'Rhyming words end in the same sound: गाना-बाना, ताल-ढोल. That is तुकबंदी!', emoji: '🎶', bgColor: 'from-fuchsia-400 to-pink-500' },
         { title: 'कविता में तुकबंदी 📜', text: 'Poems sound musical because of rhyming words — like "झूला झूले गुड़िया"!', emoji: '📜', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'तुकबंदी जोड़े मिलाओ!', labels: ['गाय', 'माय', 'रात', 'बात', 'चाँद', 'गाँव'] },
+challenges: [
         { type: 'mcq', question: '"गाना" (song) से तुकबंदी (rhyme) कौन सा शब्द करता है?', answer: 'बाना', options: ['बाना', 'घर', 'पेड़'],
           hint: 'सुनो आख़िरी आवाज़ — "आना"!', misconception: 'बाना ends like गाना — "आना"! घर and पेड़ end differently.',
           workedExample: ['Say गाना — ends in "आना".', 'Check each word.', 'बाना rhymes.'] },

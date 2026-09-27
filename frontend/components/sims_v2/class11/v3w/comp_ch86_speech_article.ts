@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
 /** HAND-AUTHORED — c11_comp_ch86 Three Voices (speech, article, report).
- * Nodes: c11_comp_cbse_86_001, 86_002, 86_003. */
+ * Nodes: c11_engl_cbse_86_001, 86_002, 86_003. */
 export const c11_comp_ch86: SimDef = {
-    id: 'v3_c11_comp_ch86',
+    id: 'v3w_c11_comp_ch86',
     title: 'Three Voices',
     subtitle: 'The speech talks AT an audience, the article performs a voice, the report forbids one — three registers, three contracts',
     classLevel: 11, subject: 'english-composition', topic: 'Speech, article and report writing',
     chapters: ['c11_comp_ch86'],
-    nodeIds: ['c11_comp_cbse_86_001', 'c11_comp_cbse_86_002', 'c11_comp_cbse_86_003'],
+    nodeIds: ['c11_engl_cbse_86_001', 'c11_engl_cbse_86_002', 'c11_engl_cbse_86_003'],
     emoji: '🎤', theme: { bg: 'from-slate-900 to-indigo-950', accent: 'indigo', scene: 'senior' },
 
     scenario: {
@@ -33,14 +33,14 @@ export const c11_comp_ch86: SimDef = {
     ],
 
     beats: [
-        { type: 'dissect', nodeId: 'c11_comp_cbse_86_001', title: 'The essay-disguised speech',
+        { type: 'dissect', nodeId: 'c11_engl_cbse_86_001', title: 'The essay-disguised speech',
           dissect: { specimen: 'a speech that forgot its audience',
           spots: [
             { id: 's1', label: 'greeting', prompt: 'The draft opens straight with "Pollution is a serious problem." — first fault?', answer: 'no greeting — speeches must name the audience order: Principal → teachers → friends', options: ['no greeting — speeches must name the audience order: Principal → teachers → friends', 'pollution is a weak topic', 'the sentence is too short', 'nothing wrong'] },
             { id: 's2', label: 'address', prompt: 'The whole draft never says "you" or asks a question — the fault?', answer: 'no audience-address — written for the ear means rhetorical questions and direct address', options: ['no audience-address — written for the ear means rhetorical questions and direct address', 'questions are informal', 'audiences do not matter', 'you is rude'] },
             { id: 's3', label: 'sentence-length', prompt: 'One sentence runs five subordinate clauses — the fault?', answer: 'written for the eye — the audience cannot re-read; break into 2-3 direct sentences', options: ['written for the eye — the audience cannot re-read; break into 2-3 direct sentences', 'long sentences sound smart', 'commas fix it', 'no fault'] },
           ] } },
-        { type: 'case', nodeId: 'c11_comp_cbse_86_002', title: 'Genre-boundary',
+        { type: 'case', nodeId: 'c11_engl_cbse_86_002', title: 'Genre-boundary',
           caseStudy: {
             intro: 'Article vs report vs essay — the same event in three registers. Pick the right voice.',
             decisions: [
@@ -55,7 +55,7 @@ export const c11_comp_ch86: SimDef = {
                 ] },
             ],
           } },
-        { type: 'scaffold', nodeId: 'c11_comp_cbse_86_003', title: 'The 4W lead',
+        { type: 'scaffold', nodeId: 'c11_engl_cbse_86_003', title: 'The 4W lead',
           scaffold: {
             problem: 'Write the lead for a blood-donation camp report.',
             steps: [
@@ -66,7 +66,7 @@ export const c11_comp_ch86: SimDef = {
                 { text: 'You: lead for a science exhibition, 5 Aug, auditorium → "___"', blankAnswer: 'The annual science exhibition was held on 5 August in the school auditorium' },
             ],
           } },
-        { type: 'build', nodeId: 'c11_comp_cbse_86_003', title: 'Stack the pyramid',
+        { type: 'build', nodeId: 'c11_engl_cbse_86_003', title: 'Stack the pyramid',
           build: {
             prompt: 'Order the report elements:',
             blocks: ['body details + quote', 'headline', 'lead (4W)', 'byline + dateline', 'closing line on outcome'],
@@ -75,7 +75,7 @@ export const c11_comp_ch86: SimDef = {
     ],
 
     challenges: [
-        { type: 'mcq', nodeId: 'c11_comp_cbse_86_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c11_engl_cbse_86_001', difficulty: 'standard',
           question: 'What marks spoken register in a written speech?',
           options: [
               { text: 'Direct address, rhetorical questions, short sentences, call-to-action close' },
@@ -89,7 +89,7 @@ export const c11_comp_ch86: SimDef = {
           },
           hint: 'Who is the speech talking TO?',
           misconception: 'students write essay-style speeches — the audience disappears' },
-        { type: 'mcq', nodeId: 'c11_comp_cbse_86_002', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c11_engl_cbse_86_002', difficulty: 'standard',
           question: 'What format elements does an article need that an essay does not?',
           options: [
               { text: 'A catchy title and a byline ("By Name, Class")' },
@@ -102,7 +102,7 @@ export const c11_comp_ch86: SimDef = {
           },
           hint: 'What sits at the very top of a magazine piece?',
           misconception: 'students import letter-format elements into articles' },
-        { type: 'mcq', nodeId: 'c11_comp_cbse_86_003', difficulty: 'advanced',
+        { type: 'mcq', nodeId: 'c11_engl_cbse_86_003', difficulty: 'advanced',
           question: 'Fix for report register: "I was thrilled to see the amazing projects!!!"',
           options: [
               { text: '"The exhibition featured 40 student projects" — quantify and attribute, never exclaim' },
@@ -115,7 +115,7 @@ export const c11_comp_ch86: SimDef = {
           },
           hint: 'The reporter must vanish — who is the real subject?',
           misconception: 'first-person narrative drift — reports keep the writer invisible' },
-        { type: 'sort', nodeId: 'c11_comp_cbse_86_003', difficulty: 'foundation',
+        { type: 'sort', nodeId: 'c11_engl_cbse_86_003', difficulty: 'foundation',
           question: 'Which genre does each line belong to?',
           sortItems: [
               { id: 'a', label: 'Respected Principal, teachers, and friends', emoji: '🎤', correctBin: 'speech' },
@@ -131,7 +131,7 @@ export const c11_comp_ch86: SimDef = {
           ],
           hint: 'Address = speech. Byline = article. Numbers + attribution = report.',
           misconception: 'students cannot separate the three registers — one voice bleeds into all formats' },
-        { type: 'subpart', nodeId: 'c11_comp_cbse_86_003', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c11_engl_cbse_86_003', difficulty: 'advanced',
           question: 'A report reads "the principal was very happy." — fix it.',
           hint: 'Certify feelings through quotation, not adjectives.',
           misconception: 'asserts emotions directly instead of converting to attributed quotes',

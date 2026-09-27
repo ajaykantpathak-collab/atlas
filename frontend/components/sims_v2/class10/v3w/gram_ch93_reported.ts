@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c10_gram_ch93 The Messenger (reported speech).
  * Nodes: c10_gram_cbse_93_001 (backshift), 93_002 (questions), 93_003 (commands). */
 export const c10_gram_ch93: SimDef = {
-    id: 'v3_c10_gram_ch93',
+    id: 'v3w_c10_gram_ch93',
     title: 'The Messenger',
     subtitle: 'Report what was said — shift the tense, re-anchor the pointing words, kill the question mark',
     classLevel: 10, subject: 'english-grammar', topic: 'Direct and indirect speech',

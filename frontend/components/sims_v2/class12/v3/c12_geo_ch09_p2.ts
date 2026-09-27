@@ -14,7 +14,7 @@ export const c12_geo_ch09_p2: SimDef = {
     scenario: { role: 'Population analyst', intro: 'One in six Indians lives in UP. One in nine hundred in Arunachal. The map of where we live is a story of rivers, canals and mines.', goal: 'Explain India\'s population distribution — its physical template and socio-economic rewrites — and separate distribution from density.' },
     discovery: {
         question: 'UP holds 16.5% of India\'s people — but on density it trails Bihar, West Bengal and Kerala. How can the \'most populated\' state not be the most crowded?',
-        options: ['Distribution ≠ density — UP\'s share is absolute numbers over area; density is the ratio, and smaller states can pack tighter', 'Data error', 'UP is actually densest', 'Area cancels out'],
+        options: ['Distribution ≠ density — UP\'s share is absolute numbers over area; density is the ratio, and smaller states can pack tighter', 'Data lag — density tables trail the census that gave UP its 16.5% share', 'UP is densest — the lower ranking only counts metro districts, not the whole state', 'Area cancels out — density ignores size, so the population share should match it'],
         answer: 'Distribution ≠ density — UP\'s share is absolute numbers over area; density is the ratio, and smaller states can pack tighter',
         hook: 'India\'s dark patches sit on alluvium and water — the Indo-Gangetic template — but human intervention redrafts the map: the Indira Gandhi Canal lights up the Thar, Jharkhand\'s minerals pull workers to rock. Physical factors set the board; history and development move the pieces.',
     },

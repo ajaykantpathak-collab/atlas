@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c8_gram_ch83+84 Head Games & Verb-Shapes (concord + non-finites).
  * Nodes: c8_gram_cbse_83_001, 84_001, 84_002. */
 export const c8_gram_ch8384: SimDef = {
-    id: 'v3_c8_gram_ch8384',
+    id: 'v3w_c8_gram_ch8384',
     title: 'Head Games & Verb-Shapes',
     subtitle: 'The verb obeys the head noun — and some verb-forms quit being verbs to become nouns and adjectives',
     classLevel: 8, subject: 'english-grammar', topic: 'Subject-verb concord and non-finite verbs',

@@ -32,6 +32,12 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     }
   }, [pathname]);
 
+  // Keep <html lang> in sync with the active chrome language (a11y,
+  // Devanagari font selection, screen-reader pronunciation).
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
+
   const setLocale = (newLocale: Locale) => {
     setLocaleState(newLocale);
     localStorage.setItem(STORAGE_KEY, newLocale);

@@ -12,13 +12,13 @@ import { groupColor, subjectIdentity } from '@/components/sims_browser/subjectTh
 /**
  * /sims-v2 — the Simulation Gallery.
  *
- * 3,018 adaptive simulations across Classes VI–XII covering 9,010 official
+ * 3,919 adaptive simulations across Classes VI–XII covering 9,099 official
  * topic nodes (both counts computed live from the catalog — never faked).
  * Metadata-only rendering via SIM_INDEX (lite) keeps this page light; full
  * SimDefs load lazily, one sim at a time, at play time.
  *
  * Perf: filtering is O(n) memoized; the grid renders in chunks of 48 with a
- * "show more" pager, so no filter change ever mounts 3,018 cards at once.
+ * "show more" pager, so no filter change ever mounts 3,919 cards at once.
  */
 
 const CLASSES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -76,14 +76,37 @@ export default function SimsGallery() {
     }, [inClass])
 
     const filtered = useMemo(() => {
-        return inClass.filter((s): s is SimMeta => {
+        const list = inClass.filter((s): s is SimMeta => {
             if (subject && subjectIdentity(s.s).group !== subject) return false
             if (!dq) return true
             return s.t.toLowerCase().includes(dq)
                 || (s.d ?? '').toLowerCase().includes(dq)
                 || subjectIdentity(s.s).label.toLowerCase().includes(dq)
         })
-    }, [inClass, subject, dq])
+        // Default (unfiltered) view: SIM_INDEX is class-clustered, so the
+        // first 48-card chunk was all class-10 — round-robin classes so
+        // every class is discoverable without touching the filters.
+        if (cls == null && !subject && !dq) {
+            const byClass = new Map<number, SimMeta[]>()
+            for (const s of list) {
+                const arr = byClass.get(s.c) ?? []
+                arr.push(s)
+                byClass.set(s.c, arr)
+            }
+            const keys = Array.from(byClass.keys()).sort((a, b) => a - b)
+            const out: SimMeta[] = []
+            let i = 0
+            while (out.length < list.length) {
+                for (const k of keys) {
+                    const s = byClass.get(k)![i]
+                    if (s) out.push(s)
+                }
+                i++
+            }
+            return out
+        }
+        return list
+    }, [inClass, subject, dq, cls])
 
     // only the rendered chunk is mounted — and only its nodes are measured
     const chunk = useMemo(() => filtered.slice(0, visible), [filtered, visible])

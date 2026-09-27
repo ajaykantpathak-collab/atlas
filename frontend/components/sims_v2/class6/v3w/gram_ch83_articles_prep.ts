@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c6_gram_ch83 Little Words, Big Jobs (articles, prepositions, conjunctions).
  * Nodes: c6_gram_cbse_83_001, 83_002, 83_003. */
 export const c6_gram_ch83: SimDef = {
-    id: 'v3_c6_gram_ch83',
+    id: 'v3w_c6_gram_ch83',
     title: 'Little Words, Big Jobs',
     subtitle: 'a/an/the chooses by sound and shared knowledge, prepositions place things, conjunctions carry the logic',
     classLevel: 6, subject: 'english-grammar', topic: 'Articles, prepositions and conjunctions',

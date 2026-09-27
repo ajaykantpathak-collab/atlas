@@ -8,7 +8,7 @@ export const c6_english_ch01_p1: SimDef = {
     subtitle: 'This node covers the identification of plot (beginning, middle, end) and setting.',
     classLevel: 6, subject: 'english', topic: 'Learning Together · Part 1/2',
     chapters: ['c6_english_ch01'],
-    nodeIds: ['c6_english_u1_001', 'c6_english_u1_002', 'c6_english_u1_003', 'c6_english_u1_004', 'c6_english_u1_005', 'c6_english_u1_009'],
+    nodeIds: ['c6_english_u1_001', 'c6_english_u1_002', 'c6_english_u1_003', 'c6_english_u1_004', 'c6_english_u1_005', 'c6_english_u1_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are playing your favorite game; you need to know where you are standing (setting) and what.', goal: 'Master every idea in this chapter.' },

@@ -231,7 +231,7 @@ export const w_c11_physicsprojectilemotionsim: SimDef = {
           hint: 'If stuck, revisit c11_phy_cbse_03_011 for velocity components and c11_phy_cbse_03_012 for.',
           misconception: 'Students believe the maximum height formula H = (u² sin²θ)/(2g) can be used for any projection angle including.',
           parts: [
-                { id: 'a', prompt: 'Two projectiles are launched with the same initial speed u. Projectile A is launched at angle θ, and Projectile B at angle (90° - θ).', answer: 'Correct answer: Range formula R = (u² sin2θ)/g depends on sin2θ',
+                { id: 'a', prompt: 'Two projectiles are launched with the same initial speed u. Projectile A is launched at angle θ, and Projectile B at angle (90° - θ).', answer: 'Range formula R = (u² sin2θ)/g depends on sin2θ',
                   options: ['Correct answer: Range formula R = (u² sin2θ)/g depends on sin2θ', 'complementary angles give same range', 'heights are also equal'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe the maximum height formula H = (u² sin²θ)/(2g) can be used for any projection angle including horizontal projection (θ =.' }

@@ -222,7 +222,7 @@ export const w_c12_geographywaterresourcesirrigationsim: SimDef = {
           hint: 'If stuck, revisit "Variability of Rainfall and Water Scarcity in India".',
           misconception: 'Students often think "khadin, tanka, johad" are just synonyms for "pond" and can be used interchangeably.',
           parts: [
-                { id: 'a', prompt: 'Name the traditional rainwater harvesting structure that is a covered underground tank used primarily for drinking water in western Rajasthan, and state the.', answer: 'Correct answer: Tanka (or Kund), lined with lime plaster (chuna)',
+                { id: 'a', prompt: 'Name the traditional rainwater harvesting structure that is a covered underground tank used primarily for drinking water in western Rajasthan, and state the.', answer: 'Tanka (or Kund), lined with lime plaster (chuna)',
                   options: ['Correct answer: Tanka (or Kund), lined with lime plaster (chuna)', 'khadin', 'khadin, tanka, johad'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "khadin, tanka, johad" are just synonyms for "pond" and can be used interchangeably.' },

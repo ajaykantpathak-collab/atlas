@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c10_gram_ch92 The Power Words (modals + modal perfects).
  * Nodes: c10_gram_cbse_92_001 (function map), 92_002 (modal perfects). */
 export const c10_gram_ch92: SimDef = {
-    id: 'v3_c10_gram_ch92',
+    id: 'v3w_c10_gram_ch92',
     title: 'The Power Words',
     subtitle: 'may &lt; should &lt; must — modals are function words, and boards test the function',
     classLevel: 10, subject: 'english-grammar', topic: 'Modals and modal perfects',

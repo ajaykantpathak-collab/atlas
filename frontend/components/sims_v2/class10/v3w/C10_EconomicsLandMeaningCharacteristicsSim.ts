@@ -134,7 +134,7 @@ export const w_c10_economicslandmeaningcharacteristicssim: SimDef = {
           hint: 'If stuck, revisit "Competition in Markets: Many Sellers, Many Buyers".',
           misconception: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.',
           parts: [
-                { id: 'a', prompt: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.', answer: 'Correct answer: The IT firm benefits more',
+                { id: 'a', prompt: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.', answer: 'The IT firm benefits more',
                   options: ['Correct answer: The IT firm benefits more', 'IT firms are bigger so they win', 'globalisation benefits consumers ONLY through cheaper imported goods'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.' }
@@ -153,7 +153,7 @@ export const w_c10_economicslandmeaningcharacteristicssim: SimDef = {
                   options: ['Expected answer: Example', 'globalisation benefits consumers ONLY through cheaper imported goods'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.' },
-                { id: 'c', prompt: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.', answer: 'Correct answer: The IT firm benefits more',
+                { id: 'c', prompt: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.', answer: 'The IT firm benefits more',
                   options: ['Correct answer: The IT firm benefits more', 'IT firms are bigger so they win', 'globalisation benefits consumers ONLY through cheaper imported goods'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.' }

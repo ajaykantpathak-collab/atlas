@@ -126,7 +126,7 @@ export const w_c12_biotechanimalcellculturecbsesim: SimDef = {
           hint: 'Revisit c11_biotech_cbse_03_010 (minerals/vitamins roles), c11_chem_cbse_07_013 (buffer.',
           misconception: 'Students conflate "serum-free" with "chemically defined" and "protein-free" — treating them as synonyms.',
           parts: [
-                { id: 'a', prompt: 'A researcher is culturing primary human fibroblasts for a wound-healing study. She uses DMEM supplemented with 10% fetal bovine serum (FBS).', answer: 'Correct answer: Synthetic medium, serum-containing sub-category',
+                { id: 'a', prompt: 'A researcher is culturing primary human fibroblasts for a wound-healing study. She uses DMEM supplemented with 10% fetal bovine serum (FBS).', answer: 'Synthetic medium, serum-containing sub-category',
                   options: ['Correct answer: Synthetic medium, serum-containing sub-category', 'natural medium because serum is natural', 'basal medium with supplements such as hormones, growth factors, serum'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students conflate "serum-free" with "chemically defined" and "protein-free" — treating them as synonyms.' },
@@ -160,15 +160,15 @@ export const w_c12_biotechanimalcellculturecbsesim: SimDef = {
           hint: 'Revisit c12_biotech_cbse_08_004 (Culture Media types) and create a comparison table:.',
           misconception: 'Students often equate "serum-free" with "protein-free" or "chemically defined", not realizing serum-free media.',
           parts: [
-                { id: 'a', prompt: 'List three distinct categories of biomolecules provided by fetal bovine serum that are critical for animal cell culture, and give one specific example for each.', answer: 'Correct answer: (1) Growth factors',
+                { id: 'a', prompt: 'List three distinct categories of biomolecules provided by fetal bovine serum that are critical for animal cell culture, and give one specific example for each.', answer: '(1) Growth factors',
                   options: ['Correct answer: (1) Growth factors', 'nutrients like amino acids and glucose'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often equate "serum-free" with "protein-free" or "chemically defined", not realizing serum-free media frequently contain bovine.' },
-                { id: 'b', prompt: 'Explain why serum is described as an "undefined" supplement and how this creates two specific problems for pharmaceutical manufacturing under Good.', answer: 'Correct answer: Serum is undefined',
+                { id: 'b', prompt: 'Explain why serum is described as an "undefined" supplement and how this creates two specific problems for pharmaceutical manufacturing under Good.', answer: 'Serum is undefined',
                   options: ['Correct answer: Serum is undefined', 'ethical concerns'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often equate "serum-free" with "protein-free" or "chemically defined", not realizing serum-free media frequently contain bovine.' },
-                { id: 'c', prompt: 'A researcher switches a fibroblast cell line from 10% FBS to a serum-free medium supplemented only with insulin, transferrin, and selenium (ITS).', answer: 'Correct answer: Missing factors: (1) Adhesion factors (fibronectin, vitronectin)',
+                { id: 'c', prompt: 'A researcher switches a fibroblast cell line from 10% FBS to a serum-free medium supplemented only with insulin, transferrin, and selenium (ITS).', answer: 'Missing factors: (1) Adhesion factors (fibronectin, vitronectin)',
                   options: ['Correct answer: Missing factors: (1) Adhesion factors (fibronectin, vitronectin)', 'add more amino acids'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often equate "serum-free" with "protein-free" or "chemically defined", not realizing serum-free media frequently contain bovine.' }

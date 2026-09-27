@@ -1,915 +1,922 @@
 {
-  "gameFile": "TimeDataPatternsGame",
-  "classLevel": 4,
-  "cisceNodes": [],
-  "mascot": "Unknown",
-  "slideCount": 5,
-  "challengeCount": 8,
-  "slides": [
-    {
-      "title": "Time Units & Conversions ⏰",
-      "text": "Time is measured in days, hours, and minutes! Remember the golden rules: 1 day = 24 hours, 1 hour = 60 minutes, and 1 minute = 60 seconds. To convert bigger to smaller units, we multiply! To convert smaller to bigger units, we divide!",
-      "emoji": "⏰",
-      "bgColor": "from-blue-500 to-indigo-600",
-      "spoken": "Time is measured in days, hours, and minutes! 1 day equals 24 hours, 1 hour equals 60 minutes, and 1 minute equals 60 seconds. To convert bigger to smaller units, we multiply!",
-      "diagram": {
-        "type": "timeline",
-        "animate": true,
-        "data": {
-          "events": [
-            {
-              "time": "9:00",
-              "label": "Start"
-            },
-            {
-              "time": "12:00",
-              "label": "Lunch"
-            },
-            {
-              "time": "3:00",
-              "label": "End"
-            }
-          ]
-        }
+ "gameFile": "TimeDataPatternsGame",
+ "classLevel": 4,
+ "cisceNodes": [
+  "c4_math_036",
+  "c4_math_037",
+  "c4_math_038",
+  "c4_math_039",
+  "c4_math_040",
+  "c4_math_041"
+ ],
+ "mascot": "Unknown",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Time Units & Conversions ⏰",
+   "text": "Time is measured in days, hours, and minutes! Remember the golden rules: 1 day = 24 hours, 1 hour = 60 minutes, and 1 minute = 60 seconds. To convert bigger to smaller units, we multiply! To convert smaller to bigger units, we divide!",
+   "emoji": "⏰",
+   "bgColor": "from-blue-500 to-indigo-600",
+   "spoken": "Time is measured in days, hours, and minutes! 1 day equals 24 hours, 1 hour equals 60 minutes, and 1 minute equals 60 seconds. To convert bigger to smaller units, we multiply!",
+   "diagram": {
+    "type": "timeline",
+    "animate": true,
+    "data": {
+     "events": [
+      {
+       "time": "9:00",
+       "label": "Start"
+      },
+      {
+       "time": "12:00",
+       "label": "Lunch"
+      },
+      {
+       "time": "3:00",
+       "label": "End"
       }
-    },
-    {
-      "title": "Clock Reading & a.m. / p.m. ☀️🌙",
-      "text": "A clock has two hands: short hour hand and long minute hand. a.m. stands for hours before noon (from midnight to just before noon), while p.m. stands for hours after noon (from noon to just before midnight). Always write a.m. or p.m.!",
-      "emoji": "☀️",
-      "bgColor": "from-indigo-500 to-purple-600",
-      "spoken": "A clock has a short hour hand and a long minute hand. a.m. is before noon, and p.m. is after noon. Always label your times with a.m. or p.m.!",
-      "diagram": {
-        "type": "counting-objects",
-        "animate": true,
-        "data": {
-          "count": 5,
-          "shape": "star"
-        }
-      }
-    },
-    {
-      "title": "Time Elapsed / Duration ⏳",
-      "text": "Time elapsed is the duration between a start time and an end time. We can find it using forward counting, backward counting, or subtraction. Remember to borrow 60 minutes when the end minutes are smaller than the start minutes!",
-      "emoji": "⏳",
-      "bgColor": "from-purple-500 to-pink-600",
-      "spoken": "Time elapsed is the duration between a start time and an end time. We can find it by subtraction, borrowing 60 minutes when needed!",
-      "diagram": {
-        "type": "counting-objects",
-        "animate": true,
-        "data": {
-          "count": 5,
-          "shape": "apple"
-        }
-      }
-    },
-    {
-      "title": "Pictographs & Bar Graphs 📊",
-      "text": "Pictographs use picture symbols to show data, using a scale like '1 symbol equals 5 students'. Bar graphs use rectangular bars where height shows quantity. The tallest bar is the most, and the shortest bar is the least!",
-      "emoji": "📊",
-      "bgColor": "from-emerald-500 to-teal-600",
-      "spoken": "Pictographs use picture symbols and a scale. Bar graphs use rectangular bars where height shows quantity. The tallest bar is the most!",
-      "diagram": {
-        "type": "bar-chart",
-        "animate": true,
-        "data": {
-          "bars": [
-            {
-              "label": "A",
-              "value": 30
-            },
-            {
-              "label": "B",
-              "value": 50
-            },
-            {
-              "label": "C",
-              "value": 40
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Growing & Reducing Patterns 📈📉",
-      "text": "A pattern follows a rule! A growing pattern increases by a fixed amount each step (like 5, 8, 11 — adding 3). A reducing pattern decreases by a fixed amount each step (like 20, 17, 14 — subtracting 3). Always verify the rule before extending!",
-      "emoji": "📈",
-      "bgColor": "from-amber-500 to-orange-600",
-      "spoken": "A pattern follows a rule! Growing patterns increase by a fixed amount each step. Reducing patterns decrease by a fixed amount each step. Always verify your rule!",
-      "diagram": {
-        "type": "pattern-builder",
-        "animate": true,
-        "data": {
-          "pattern": [
-            "red",
-            "blue",
-            "red",
-            "blue"
-          ],
-          "missingIndex": 3
-        }
-      }
+     ]
     }
-  ],
-  "challenges": [
-    {
-      "type": "identify",
-      "question": "How many hours are in 2 days?",
-      "answer": "48 hours",
-      "options": [
-        "24 hours",
-        "48 hours",
-        "12 hours"
-      ],
-      "hint": "Remember: 1 day = 24 hours. So 2 days = 2 x 24 = ?",
-      "misconception": "To convert days to hours, multiply by 24! 2 days = 2 x 24 = 48 hours. Do not confuse days with hours!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "circle",
-          "label": "24 hours",
-          "x": 0.25,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "circle",
-          "label": "48 hours",
-          "x": 0.5,
-          "y": 0.65,
-          "size": 55,
-          "color": "#22c55e",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "circle",
-          "label": "12 hours",
-          "x": 0.75,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "48 hours",
-          "24 hours"
-        ]
-      },
-      "storyBeat": "setup"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each time conversion to its correct answer!",
-      "answer": "sort",
-      "options": [],
-      "hint": "1 day = 24 hours, 1 hour = 60 minutes, 1 minute = 60 seconds!",
-      "misconception": "Remember our conversion rules: bigger to smaller units means multiply by 24 or 60! Smaller to bigger means divide!",
-      "storyBeat": "setup",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "item-1",
-            "label": "1 day = 24 hrs",
-            "correctBin": "bin-a"
-          },
-          {
-            "id": "item-2",
-            "label": "1 hr = 60 mins",
-            "correctBin": "bin-a"
-          },
-          {
-            "id": "item-3",
-            "label": "1 min = 60 secs",
-            "correctBin": "bin-a"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "item-1",
-          "kind": "circle",
-          "label": "1 day = 24 hrs",
-          "x": 0.14285714285714285,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-a",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-a"
-        },
-        {
-          "id": "item-2",
-          "kind": "circle",
-          "label": "1 hr = 60 mins",
-          "x": 0.2857142857142857,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-a",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-a"
-        },
-        {
-          "id": "item-3",
-          "kind": "circle",
-          "label": "1 min = 60 secs",
-          "x": 0.42857142857142855,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-a",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-a"
-        },
-        {
-          "id": "item-4",
-          "kind": "circle",
-          "label": "2 days = 48 hrs",
-          "x": 0.5714285714285714,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-b",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-b"
-        },
-        {
-          "id": "item-5",
-          "kind": "circle",
-          "label": "180 mins = 3 hrs",
-          "x": 0.7142857142857142,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-b",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-b"
-        },
-        {
-          "id": "item-6",
-          "kind": "circle",
-          "label": "3 hrs = 180 mins",
-          "x": 0.8571428571428571,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-b",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-b"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "item-1",
-          "label": "1 day = 24 hrs",
-          "emoji": "",
-          "correctBin": "bin-a"
-        },
-        {
-          "id": "item-2",
-          "label": "1 hr = 60 mins",
-          "emoji": "",
-          "correctBin": "bin-a"
-        },
-        {
-          "id": "item-3",
-          "label": "1 min = 60 secs",
-          "emoji": "",
-          "correctBin": "bin-a"
-        },
-        {
-          "id": "item-4",
-          "label": "2 days = 48 hrs",
-          "emoji": "",
-          "correctBin": "bin-b"
-        },
-        {
-          "id": "item-5",
-          "label": "180 mins = 3 hrs",
-          "emoji": "",
-          "correctBin": "bin-b"
-        },
-        {
-          "id": "item-6",
-          "label": "3 hrs = 180 mins",
-          "emoji": "",
-          "correctBin": "bin-b"
-        }
-      ],
-      "bins": [
-        {
-          "id": "bin-a",
-          "label": "Golden Rules 🌟",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "bin-b",
-          "label": "Converted Values 🔄",
-          "color": "#10B981"
-        }
-      ]
-    },
-    {
-      "type": "identify",
-      "question": "A train departs at 7:30 a.m. and arrives at 11:30 a.m. How long was the journey?",
-      "answer": "4 hours",
-      "options": [
-        "3 hours",
-        "4 hours",
-        "5 hours"
-      ],
-      "hint": "Count forward from 7:30 to 11:30 hour by hour: 8:30, 9:30, 10:30, 11:30!",
-      "misconception": "Subtract the start time from the end time: 11:30 minus 7:30 = 4 hours! Forward counting gives 4 hours exact.",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "circle",
-          "label": "3 hours",
-          "x": 0.25,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "circle",
-          "label": "4 hours",
-          "x": 0.5,
-          "y": 0.65,
-          "size": 55,
-          "color": "#22c55e",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "circle",
-          "label": "5 hours",
-          "x": 0.75,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "3 hours",
-          "4 hours"
-        ]
-      },
-      "storyBeat": "inciting"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each time to a.m. (morning) or p.m. (afternoon/evening)!",
-      "answer": "sort",
-      "options": [],
-      "hint": "a.m. is midnight to noon. p.m. is noon to midnight.",
-      "misconception": "Remember: morning and breakfast times are a.m., while evening, dinner, and bedtime are p.m.!",
-      "storyBeat": "inciting",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "am-1",
-            "label": "6:00 Morning",
-            "correctBin": "bin-am"
-          },
-          {
-            "id": "am-2",
-            "label": "10:30 School Start",
-            "correctBin": "bin-am"
-          },
-          {
-            "id": "pm-1",
-            "label": "3:00 Afternoon",
-            "correctBin": "bin-pm"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "am-1",
-          "kind": "circle",
-          "label": "6:00 Morning",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-am",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-am"
-        },
-        {
-          "id": "am-2",
-          "kind": "star",
-          "label": "10:30 School Start",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#ffd700",
-          "category": "bin-am",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-am"
-        },
-        {
-          "id": "pm-1",
-          "kind": "circle",
-          "label": "3:00 Afternoon",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-pm",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-pm"
-        },
-        {
-          "id": "pm-2",
-          "kind": "circle",
-          "label": "7:00 Dinner",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-pm",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-pm"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "am-1",
-          "label": "6:00 Morning",
-          "emoji": "",
-          "correctBin": "bin-am"
-        },
-        {
-          "id": "am-2",
-          "label": "10:30 School Start",
-          "emoji": "",
-          "correctBin": "bin-am"
-        },
-        {
-          "id": "pm-1",
-          "label": "3:00 Afternoon",
-          "emoji": "",
-          "correctBin": "bin-pm"
-        },
-        {
-          "id": "pm-2",
-          "label": "7:00 Dinner",
-          "emoji": "",
-          "correctBin": "bin-pm"
-        }
-      ],
-      "bins": [
-        {
-          "id": "bin-am",
-          "label": "a.m. (Before Noon) ☀️",
-          "color": "#F59E0B"
-        },
-        {
-          "id": "bin-pm",
-          "label": "p.m. (After Noon) 🌙",
-          "color": "#6366F1"
-        }
-      ]
-    },
-    {
-      "type": "identify",
-      "question": "In a pictograph, 1 symbol = 5 students. If there are 4 symbols for Class 4A, how many students are in 4A?",
-      "answer": "20 students",
-      "options": [
-        "9 students",
-        "20 students",
-        "25 students"
-      ],
-      "hint": "Multiply the number of symbols by the scale value! 4 symbols x 5 students = ?",
-      "misconception": "Do not just count the symbols as 4! Each symbol stands for 5 students, so 4 symbols x 5 = 20 students!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "circle",
-          "label": "9 students",
-          "x": 0.25,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "circle",
-          "label": "20 students",
-          "x": 0.5,
-          "y": 0.65,
-          "size": 55,
-          "color": "#22c55e",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "circle",
-          "label": "25 students",
-          "x": 0.75,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "9 students",
-          "20 students"
-        ]
-      },
-      "storyBeat": "rising"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each bar graph term to its correct description!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Tallest = most, Shortest = least, y-axis = scale/numbers!",
-      "misconception": "The tallest bar always represents the highest count (most), and the shortest bar represents the lowest count (least)!",
-      "storyBeat": "rising",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "bg-1",
-            "label": "Tallest bar",
-            "correctBin": "bin-most"
-          },
-          {
-            "id": "bg-2",
-            "label": "Shortest bar",
-            "correctBin": "bin-least"
-          },
-          {
-            "id": "bg-3",
-            "label": "y-axis numbers",
-            "correctBin": "bin-scale"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "bg-1",
-          "kind": "circle",
-          "label": "Tallest bar",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-most",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-most"
-        },
-        {
-          "id": "bg-2",
-          "kind": "circle",
-          "label": "Shortest bar",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-least",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-least"
-        },
-        {
-          "id": "bg-3",
-          "kind": "circle",
-          "label": "y-axis numbers",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-scale",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-scale"
-        },
-        {
-          "id": "bg-4",
-          "kind": "circle",
-          "label": "x-axis labels",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-cat",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-cat"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "bg-1",
-          "label": "Tallest bar",
-          "emoji": "",
-          "correctBin": "bin-most"
-        },
-        {
-          "id": "bg-2",
-          "label": "Shortest bar",
-          "emoji": "",
-          "correctBin": "bin-least"
-        },
-        {
-          "id": "bg-3",
-          "label": "y-axis numbers",
-          "emoji": "",
-          "correctBin": "bin-scale"
-        },
-        {
-          "id": "bg-4",
-          "label": "x-axis labels",
-          "emoji": "",
-          "correctBin": "bin-cat"
-        }
-      ],
-      "bins": [
-        {
-          "id": "bin-most",
-          "label": "Most / Highest 📈",
-          "color": "#10B981"
-        },
-        {
-          "id": "bin-least",
-          "label": "Least / Lowest 📉",
-          "color": "#EF4444"
-        },
-        {
-          "id": "bin-scale",
-          "label": "Scale / Values 🔢",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "bin-cat",
-          "label": "Categories 🏷️",
-          "color": "#8B5CF6"
-        }
-      ]
-    },
-    {
-      "type": "identify",
-      "question": "What is the next number in this GROWING pattern: 5, 8, 11, 14, __?",
-      "answer": "17",
-      "options": [
-        "16",
-        "17",
-        "20"
-      ],
-      "hint": "Find the difference between consecutive terms: 8 - 5 = 3. Add 3 to 14!",
-      "misconception": "This is a growing pattern with a rule of \"add 3 each time\"! 14 + 3 = 17. Do not guess randomly!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "circle",
-          "label": "16",
-          "x": 0.25,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "circle",
-          "label": "17",
-          "x": 0.5,
-          "y": 0.65,
-          "size": 55,
-          "color": "#22c55e",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "circle",
-          "label": "20",
-          "x": 0.75,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "16",
-          "17"
-        ]
-      },
-      "storyBeat": "climax"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each number pattern to its correct rule!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Check if numbers are growing (+) or reducing (-) and find the difference!",
-      "misconception": "Growing patterns add a constant amount each time (+), while reducing patterns subtract a constant amount each time (-)!",
-      "storyBeat": "resolution",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "p-1",
-            "label": "5, 8, 11, 14",
-            "correctBin": "bin-add3"
-          },
-          {
-            "id": "p-2",
-            "label": "20, 17, 14, 11",
-            "correctBin": "bin-sub3"
-          },
-          {
-            "id": "p-3",
-            "label": "2, 4, 6, 8",
-            "correctBin": "bin-add2"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "p-1",
-          "kind": "circle",
-          "label": "5, 8, 11, 14",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-add3",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-add3"
-        },
-        {
-          "id": "p-2",
-          "kind": "circle",
-          "label": "20, 17, 14, 11",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-sub3",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-sub3"
-        },
-        {
-          "id": "p-3",
-          "kind": "circle",
-          "label": "2, 4, 6, 8",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-add2",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-add2"
-        },
-        {
-          "id": "p-4",
-          "kind": "circle",
-          "label": "50, 45, 40, 35",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-sub5",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-sub5"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "p-1",
-          "label": "5, 8, 11, 14",
-          "emoji": "",
-          "correctBin": "bin-add3"
-        },
-        {
-          "id": "p-2",
-          "label": "20, 17, 14, 11",
-          "emoji": "",
-          "correctBin": "bin-sub3"
-        },
-        {
-          "id": "p-3",
-          "label": "2, 4, 6, 8",
-          "emoji": "",
-          "correctBin": "bin-add2"
-        },
-        {
-          "id": "p-4",
-          "label": "50, 45, 40, 35",
-          "emoji": "",
-          "correctBin": "bin-sub5"
-        }
-      ],
-      "bins": [
-        {
-          "id": "bin-add3",
-          "label": "Add 3 each time ➕",
-          "color": "#10B981"
-        },
-        {
-          "id": "bin-sub3",
-          "label": "Subtract 3 each time ➖",
-          "color": "#EF4444"
-        },
-        {
-          "id": "bin-add2",
-          "label": "Add 2 each time ➕",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "bin-sub5",
-          "label": "Subtract 5 each time ➖",
-          "color": "#F59E0B"
-        }
-      ]
+   }
+  },
+  {
+   "title": "Clock Reading & a.m. / p.m. ☀️🌙",
+   "text": "A clock has two hands: short hour hand and long minute hand. a.m. stands for hours before noon (from midnight to just before noon), while p.m. stands for hours after noon (from noon to just before midnight). Always write a.m. or p.m.!",
+   "emoji": "☀️",
+   "bgColor": "from-indigo-500 to-purple-600",
+   "spoken": "A clock has a short hour hand and a long minute hand. a.m. is before noon, and p.m. is after noon. Always label your times with a.m. or p.m.!",
+   "diagram": {
+    "type": "counting-objects",
+    "animate": true,
+    "data": {
+     "count": 5,
+     "shape": "star"
     }
-  ],
-  "theme": "classroom",
-  "storyArc": {
-    "theme": "A young mathematician discovers the power of numbers",
-    "beats": [
+   }
+  },
+  {
+   "title": "Time Elapsed / Duration ⏳",
+   "text": "Time elapsed is the duration between a start time and an end time. We can find it using forward counting, backward counting, or subtraction. Remember to borrow 60 minutes when the end minutes are smaller than the start minutes!",
+   "emoji": "⏳",
+   "bgColor": "from-purple-500 to-pink-600",
+   "spoken": "Time elapsed is the duration between a start time and an end time. We can find it by subtraction, borrowing 60 minutes when needed!",
+   "diagram": {
+    "type": "counting-objects",
+    "animate": true,
+    "data": {
+     "count": 5,
+     "shape": "apple"
+    }
+   }
+  },
+  {
+   "title": "Pictographs & Bar Graphs 📊",
+   "text": "Pictographs use picture symbols to show data, using a scale like '1 symbol equals 5 students'. Bar graphs use rectangular bars where height shows quantity. The tallest bar is the most, and the shortest bar is the least!",
+   "emoji": "📊",
+   "bgColor": "from-emerald-500 to-teal-600",
+   "spoken": "Pictographs use picture symbols and a scale. Bar graphs use rectangular bars where height shows quantity. The tallest bar is the most!",
+   "diagram": {
+    "type": "bar-chart",
+    "animate": true,
+    "data": {
+     "bars": [
       {
-        "name": "setup",
-        "challengeIndices": [
-          0,
-          1
-        ],
-        "sceneDescription": "The mascot welcomes the student and introduces the topic",
-        "mascotDialogue": "Welcome! Let's explore this together!"
+       "label": "A",
+       "value": 30
       },
       {
-        "name": "inciting",
-        "challengeIndices": [
-          2,
-          3
-        ],
-        "sceneDescription": "A problem is presented that requires the new knowledge",
-        "mascotDialogue": "Here is a challenge — can you figure it out?"
+       "label": "B",
+       "value": 50
       },
       {
-        "name": "rising",
-        "challengeIndices": [
-          4,
-          5
-        ],
-        "sceneDescription": "The challenges get harder as understanding deepens",
-        "mascotDialogue": "You are getting better! Try these harder ones!"
-      },
-      {
-        "name": "climax",
-        "challengeIndices": [
-          6
-        ],
-        "sceneDescription": "The hardest challenge — a real test of mastery",
-        "mascotDialogue": "This is the big one! Show me what you have learned!"
-      },
-      {
-        "name": "resolution",
-        "challengeIndices": [
-          7
-        ],
-        "sceneDescription": "The student demonstrates mastery and celebrates",
-        "mascotDialogue": "Amazing! You have mastered this topic!"
+       "label": "C",
+       "value": 40
       }
+     ]
+    }
+   }
+  },
+  {
+   "title": "Growing & Reducing Patterns 📈📉",
+   "text": "A pattern follows a rule! A growing pattern increases by a fixed amount each step (like 5, 8, 11 — adding 3). A reducing pattern decreases by a fixed amount each step (like 20, 17, 14 — subtracting 3). Always verify the rule before extending!",
+   "emoji": "📈",
+   "bgColor": "from-amber-500 to-orange-600",
+   "spoken": "A pattern follows a rule! Growing patterns increase by a fixed amount each step. Reducing patterns decrease by a fixed amount each step. Always verify your rule!",
+   "diagram": {
+    "type": "pattern-builder",
+    "animate": true,
+    "data": {
+     "pattern": [
+      "red",
+      "blue",
+      "red",
+      "blue"
+     ],
+     "missingIndex": 3
+    }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "How many hours are in 2 days?",
+   "answer": "48 hours",
+   "options": [
+    "24 hours",
+    "48 hours",
+    "12 hours"
+   ],
+   "hint": "Remember: 1 day = 24 hours. So 2 days = 2 x 24 = ?",
+   "misconception": "To convert days to hours, multiply by 24! 2 days = 2 x 24 = 48 hours. Do not confuse days with hours!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "24 hours",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "48 hours",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#22c55e",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "12 hours",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "48 hours",
+     "24 hours"
     ]
+   },
+   "storyBeat": "setup"
   },
-  "learningArtifact": {
-    "type": "filling-chart",
-    "title": "Math Master Chart",
-    "totalPieces": 8
+  {
+   "type": "sort",
+   "question": "Drag each time conversion to its correct answer!",
+   "answer": "sort",
+   "options": [],
+   "hint": "1 day = 24 hours, 1 hour = 60 minutes, 1 minute = 60 seconds!",
+   "misconception": "Remember our conversion rules: bigger to smaller units means multiply by 24 or 60! Smaller to bigger means divide!",
+   "storyBeat": "setup",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-1",
+      "label": "1 day = 24 hrs",
+      "correctBin": "bin-a"
+     },
+     {
+      "id": "item-2",
+      "label": "1 hr = 60 mins",
+      "correctBin": "bin-a"
+     },
+     {
+      "id": "item-3",
+      "label": "1 min = 60 secs",
+      "correctBin": "bin-a"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "1 day = 24 hrs",
+     "x": 0.14285714285714285,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-a",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-a"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "1 hr = 60 mins",
+     "x": 0.2857142857142857,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-a",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-a"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "1 min = 60 secs",
+     "x": 0.42857142857142855,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-a",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-a"
+    },
+    {
+     "id": "item-4",
+     "kind": "circle",
+     "label": "2 days = 48 hrs",
+     "x": 0.5714285714285714,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-b",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-b"
+    },
+    {
+     "id": "item-5",
+     "kind": "circle",
+     "label": "180 mins = 3 hrs",
+     "x": 0.7142857142857142,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-b",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-b"
+    },
+    {
+     "id": "item-6",
+     "kind": "circle",
+     "label": "3 hrs = 180 mins",
+     "x": 0.8571428571428571,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-b",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-b"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-1",
+     "label": "1 day = 24 hrs",
+     "emoji": "",
+     "correctBin": "bin-a"
+    },
+    {
+     "id": "item-2",
+     "label": "1 hr = 60 mins",
+     "emoji": "",
+     "correctBin": "bin-a"
+    },
+    {
+     "id": "item-3",
+     "label": "1 min = 60 secs",
+     "emoji": "",
+     "correctBin": "bin-a"
+    },
+    {
+     "id": "item-4",
+     "label": "2 days = 48 hrs",
+     "emoji": "",
+     "correctBin": "bin-b"
+    },
+    {
+     "id": "item-5",
+     "label": "180 mins = 3 hrs",
+     "emoji": "",
+     "correctBin": "bin-b"
+    },
+    {
+     "id": "item-6",
+     "label": "3 hrs = 180 mins",
+     "emoji": "",
+     "correctBin": "bin-b"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-a",
+     "label": "Golden Rules 🌟",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "bin-b",
+     "label": "Converted Values 🔄",
+     "color": "#10B981"
+    }
+   ]
   },
-  "worldMapNode": {
-    "nodeId": "c4_TimeDataPatternsGame",
-    "region": "Mathland",
-    "mapX": 1.04,
-    "mapY": 1.11,
-    "icon": "🔢",
-    "prerequisites": []
+  {
+   "type": "identify",
+   "question": "A train departs at 7:30 a.m. and arrives at 11:30 a.m. How long was the journey?",
+   "answer": "4 hours",
+   "options": [
+    "3 hours",
+    "4 hours",
+    "5 hours"
+   ],
+   "hint": "Count forward from 7:30 to 11:30 hour by hour: 8:30, 9:30, 10:30, 11:30!",
+   "misconception": "Subtract the start time from the end time: 11:30 minus 7:30 = 4 hours! Forward counting gives 4 hours exact.",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "3 hours",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "4 hours",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#22c55e",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "5 hours",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "3 hours",
+     "4 hours"
+    ]
+   },
+   "storyBeat": "inciting"
   },
-  "subject": "maths"
+  {
+   "type": "sort",
+   "question": "Drag each time to a.m. (morning) or p.m. (afternoon/evening)!",
+   "answer": "sort",
+   "options": [],
+   "hint": "a.m. is midnight to noon. p.m. is noon to midnight.",
+   "misconception": "Remember: morning and breakfast times are a.m., while evening, dinner, and bedtime are p.m.!",
+   "storyBeat": "inciting",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "am-1",
+      "label": "6:00 Morning",
+      "correctBin": "bin-am"
+     },
+     {
+      "id": "am-2",
+      "label": "10:30 School Start",
+      "correctBin": "bin-am"
+     },
+     {
+      "id": "pm-1",
+      "label": "3:00 Afternoon",
+      "correctBin": "bin-pm"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "am-1",
+     "kind": "circle",
+     "label": "6:00 Morning",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-am",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-am"
+    },
+    {
+     "id": "am-2",
+     "kind": "star",
+     "label": "10:30 School Start",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#ffd700",
+     "category": "bin-am",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-am"
+    },
+    {
+     "id": "pm-1",
+     "kind": "circle",
+     "label": "3:00 Afternoon",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-pm",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-pm"
+    },
+    {
+     "id": "pm-2",
+     "kind": "circle",
+     "label": "7:00 Dinner",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-pm",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-pm"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "am-1",
+     "label": "6:00 Morning",
+     "emoji": "",
+     "correctBin": "bin-am"
+    },
+    {
+     "id": "am-2",
+     "label": "10:30 School Start",
+     "emoji": "",
+     "correctBin": "bin-am"
+    },
+    {
+     "id": "pm-1",
+     "label": "3:00 Afternoon",
+     "emoji": "",
+     "correctBin": "bin-pm"
+    },
+    {
+     "id": "pm-2",
+     "label": "7:00 Dinner",
+     "emoji": "",
+     "correctBin": "bin-pm"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-am",
+     "label": "a.m. (Before Noon) ☀️",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-pm",
+     "label": "p.m. (After Noon) 🌙",
+     "color": "#6366F1"
+    }
+   ]
+  },
+  {
+   "type": "identify",
+   "question": "In a pictograph, 1 symbol = 5 students. If there are 4 symbols for Class 4A, how many students are in 4A?",
+   "answer": "20 students",
+   "options": [
+    "9 students",
+    "20 students",
+    "25 students"
+   ],
+   "hint": "Multiply the number of symbols by the scale value! 4 symbols x 5 students = ?",
+   "misconception": "Do not just count the symbols as 4! Each symbol stands for 5 students, so 4 symbols x 5 = 20 students!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "9 students",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "20 students",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#22c55e",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "25 students",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "9 students",
+     "20 students"
+    ]
+   },
+   "storyBeat": "rising"
+  },
+  {
+   "type": "sort",
+   "question": "Drag each bar graph term to its correct description!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Tallest = most, Shortest = least, y-axis = scale/numbers!",
+   "misconception": "The tallest bar always represents the highest count (most), and the shortest bar represents the lowest count (least)!",
+   "storyBeat": "rising",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "bg-1",
+      "label": "Tallest bar",
+      "correctBin": "bin-most"
+     },
+     {
+      "id": "bg-2",
+      "label": "Shortest bar",
+      "correctBin": "bin-least"
+     },
+     {
+      "id": "bg-3",
+      "label": "y-axis numbers",
+      "correctBin": "bin-scale"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "bg-1",
+     "kind": "circle",
+     "label": "Tallest bar",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-most",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-most"
+    },
+    {
+     "id": "bg-2",
+     "kind": "circle",
+     "label": "Shortest bar",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-least",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-least"
+    },
+    {
+     "id": "bg-3",
+     "kind": "circle",
+     "label": "y-axis numbers",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-scale",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-scale"
+    },
+    {
+     "id": "bg-4",
+     "kind": "circle",
+     "label": "x-axis labels",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-cat",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-cat"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "bg-1",
+     "label": "Tallest bar",
+     "emoji": "",
+     "correctBin": "bin-most"
+    },
+    {
+     "id": "bg-2",
+     "label": "Shortest bar",
+     "emoji": "",
+     "correctBin": "bin-least"
+    },
+    {
+     "id": "bg-3",
+     "label": "y-axis numbers",
+     "emoji": "",
+     "correctBin": "bin-scale"
+    },
+    {
+     "id": "bg-4",
+     "label": "x-axis labels",
+     "emoji": "",
+     "correctBin": "bin-cat"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-most",
+     "label": "Most / Highest 📈",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-least",
+     "label": "Least / Lowest 📉",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-scale",
+     "label": "Scale / Values 🔢",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "bin-cat",
+     "label": "Categories 🏷️",
+     "color": "#8B5CF6"
+    }
+   ]
+  },
+  {
+   "type": "identify",
+   "question": "What is the next number in this GROWING pattern: 5, 8, 11, 14, __?",
+   "answer": "17",
+   "options": [
+    "16",
+    "17",
+    "20"
+   ],
+   "hint": "Find the difference between consecutive terms: 8 - 5 = 3. Add 3 to 14!",
+   "misconception": "This is a growing pattern with a rule of \"add 3 each time\"! 14 + 3 = 17. Do not guess randomly!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "16",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "17",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#22c55e",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "20",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "16",
+     "17"
+    ]
+   },
+   "storyBeat": "climax"
+  },
+  {
+   "type": "sort",
+   "question": "Drag each number pattern to its correct rule!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Check if numbers are growing (+) or reducing (-) and find the difference!",
+   "misconception": "Growing patterns add a constant amount each time (+), while reducing patterns subtract a constant amount each time (-)!",
+   "storyBeat": "resolution",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "p-1",
+      "label": "5, 8, 11, 14",
+      "correctBin": "bin-add3"
+     },
+     {
+      "id": "p-2",
+      "label": "20, 17, 14, 11",
+      "correctBin": "bin-sub3"
+     },
+     {
+      "id": "p-3",
+      "label": "2, 4, 6, 8",
+      "correctBin": "bin-add2"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "p-1",
+     "kind": "circle",
+     "label": "5, 8, 11, 14",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-add3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-add3"
+    },
+    {
+     "id": "p-2",
+     "kind": "circle",
+     "label": "20, 17, 14, 11",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-sub3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-sub3"
+    },
+    {
+     "id": "p-3",
+     "kind": "circle",
+     "label": "2, 4, 6, 8",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-add2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-add2"
+    },
+    {
+     "id": "p-4",
+     "kind": "circle",
+     "label": "50, 45, 40, 35",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-sub5",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-sub5"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "p-1",
+     "label": "5, 8, 11, 14",
+     "emoji": "",
+     "correctBin": "bin-add3"
+    },
+    {
+     "id": "p-2",
+     "label": "20, 17, 14, 11",
+     "emoji": "",
+     "correctBin": "bin-sub3"
+    },
+    {
+     "id": "p-3",
+     "label": "2, 4, 6, 8",
+     "emoji": "",
+     "correctBin": "bin-add2"
+    },
+    {
+     "id": "p-4",
+     "label": "50, 45, 40, 35",
+     "emoji": "",
+     "correctBin": "bin-sub5"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-add3",
+     "label": "Add 3 each time ➕",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-sub3",
+     "label": "Subtract 3 each time ➖",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-add2",
+     "label": "Add 2 each time ➕",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "bin-sub5",
+     "label": "Subtract 5 each time ➖",
+     "color": "#F59E0B"
+    }
+   ]
+  }
+ ],
+ "theme": "classroom",
+ "storyArc": {
+  "theme": "A young mathematician discovers the power of numbers",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Math Master Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c4_TimeDataPatternsGame",
+  "region": "Mathland",
+  "mapX": 1.04,
+  "mapY": 1.11,
+  "icon": "🔢",
+  "prerequisites": []
+ },
+ "subject": "maths"
 }

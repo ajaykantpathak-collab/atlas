@@ -133,7 +133,7 @@ function cleanAnswer(answer: string): string {
 
 export function InteractiveDemo() {
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'ai', text: "Hi! I'm Prism AI, powered by your curriculum knowledge graph. Ask me anything — I'll explain it using real content from the syllabus, then check your understanding." },
+    { role: 'ai', text: "Hi! I'm Atlas AI, powered by your curriculum knowledge graph. Ask me anything — I'll explain it using real content from the syllabus, then check your understanding." },
   ])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
@@ -331,7 +331,7 @@ export function InteractiveDemo() {
   }
 
   function resetChat() {
-    setMessages([{ role: 'ai', text: "Hi! I'm Prism AI, powered by your curriculum knowledge graph. Ask me anything — I'll explain it using real content from the syllabus, then check your understanding." }])
+    setMessages([{ role: 'ai', text: "Hi! I'm Atlas AI, powered by your curriculum knowledge graph. Ask me anything — I'll explain it using real content from the syllabus, then check your understanding." }])
     setCurrentNodeId(null)
     setCurrentEnrichment(null)
     setPhase('idle')
@@ -340,7 +340,7 @@ export function InteractiveDemo() {
     setSuggestions(shuffle(SUGGESTIONS).slice(0, 4))
   }
 
-  const placeholder = phase === 'checking' ? 'Type your answer...' : 'Ask Prism AI anything...'
+  const placeholder = phase === 'checking' ? 'Type your answer...' : 'Ask Atlas AI anything...'
 
   return (
     <div className="glass-card rounded-3xl p-1 max-w-md w-full">
@@ -351,7 +351,7 @@ export function InteractiveDemo() {
             <Sparkles className="w-4.5 h-4.5 text-white" />
           </div>
           <div>
-            <div className="text-sm font-semibold text-white">Prism AI</div>
+            <div className="text-sm font-semibold text-white">Atlas AI</div>
             <div className="text-xs text-emerald-400 flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
               Online · Real curriculum data

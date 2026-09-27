@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_v_ch03_p1: SimDef = {
     id: 'v3_c11_hin_v_ch03_p1',
-    title: 'vHkh Hkh eqvutks&nM+ks · Part 1/3',
+    title: 'पाठ 3 · Part 1/3',
     subtitle: 'Watch a domestic worker cross the line from serving stories to writing one.',
-    classLevel: 11, subject: 'hin_v', topic: 'vHkh Hkh eqvutks&nM+ks · Part 1/3',
+    classLevel: 11, subject: 'hin_v', topic: 'पाठ 3 · Part 1/3',
     chapters: ['c11_hin_v_ch03'],
     nodeIds: ['c11_hin_v_cbse_03_001', 'c11_hin_v_cbse_03_002', 'c11_hin_v_cbse_03_003', 'c11_hin_v_cbse_03_004', 'c11_hin_v_cbse_03_005', 'c11_hin_v_cbse_03_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,42 +19,20 @@ export const c11_hin_v_ch03_p1: SimDef = {
         hook: 'The protagonist performs the \'good servant\' when it suits her and refuses questions when it doesn\'t — resistance here is tactical, not absolute.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, social, biographical, and literary framework needed to comprehend Krishna Sobti\'s autobiographical narrative "व्यक्ति".', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 3 — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त (Biography), रचनाकालीन सामाजिक-ऐतिहासिक-राजनीतिक परिस्थितियाँ (Socio-historical context), रचनाकार की साहित्यिक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_03_001', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Find the inciting incident — the lawyer\'s wife handing over a notebook — and defend the climax where a servant reads her own story aloud.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_03_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re meeting a new classmate who speaks a different dialect, wears clothes unfamiliar to you, and mentions working three jobs before school—you\'d.',
-            decisions: [{ prompt: 'Krishna Sobti\'s "व्यक्ति" is considered a landmark text in Hindi literature primarily because it:', options: [
-                { text: 'Correct answer: It centers a domestic worker\'s first-person narrative, challenging the', outcome: 'Correct answer: It centers a domestic worker\'s first-person narrative, challenging the middle-class.' },
-                { text: 'it uses beautiful language', outcome: 'Not quite — Students often confuse \'context\' with \'summary\'—they retell the story\'s events (husband left.', reveals: 'students-often-confuse-context-with' },
-                { text: 'it describes Partition', outcome: 'Not quite — Students often confuse \'context\' with \'summary\'—they retell the story\'s events (husband left.', reveals: 'students-often-confuse-context-with' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_03_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you enter a house where every movement is watched, every question feels like an interrogation, and the air itself feels heavy with judgment — this.',
-            decisions: [{ prompt: 'Identify the three primary physical settings in "vkyks&vk¡èkkfj" and state one distinctive physical detail for each that establishes its.', options: [
-                { text: 'The three primary settings are: (1) lquhy\'s household', outcome: 'The three primary settings are: (1) lquhy\'s household — distinctive detail: "V^h&is\'kkc osQ.' },
-                { text: 'big house', outcome: 'Not quite — Students treat setting as "where the story happens" and atmosphere as "mood words like sad.', reveals: 'students-treat-setting-as-where' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_03_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Think of someone you know who works in others\' homes—what do you notice about how they\'re treated versus who they really are?',
-            decisions: [{ prompt: 'What is the name of the protagonist in "वकील की बेटी" and what is her primary occupation at the start of the story?', options: [
-                { text: 'The protagonist is the unnamed narrator (a woman), and her primary occupation is domestic', outcome: 'The protagonist is the unnamed narrator (a woman), and her primary occupation is domestic work.' },
-                { text: 'वकील की बेटी', outcome: 'Not quite — Students often confuse the protagonist (the narrator/domestic worker) with the title character.', reveals: 'students-often-confuse-the-protagonist' },
-                { text: 'the lawyer\'s daughter as protagonist', outcome: 'Not quite — Students often confuse the protagonist (the narrator/domestic worker) with the title character.', reveals: 'students-often-confuse-the-protagonist' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_03_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are the narrator—someone who spends decades cleaning strangers\' homes, raising their children, eating leftovers, and being asked "Where is your.',
-            decisions: [{ prompt: 'What is the definition of \'primary theme\' in a literary text, and how does it differ from a \'subject\' or \'topic\'?', options: [
-                { text: 'The primary theme is the central insight about life or human nature that the author', outcome: 'The primary theme is the central insight about life or human nature that the author conveys through.' },
-                { text: 'The theme is domestic work', outcome: 'Not quite — Students consistently confuse the *primary theme* with the *social issue* depicted in the text.', reveals: 'students-consistently-confuse-the-primary' },
-                { text: 'confuses theme with topic (e', outcome: 'Not quite — Students consistently confuse the *primary theme* with the *social issue* depicted in the text.', reveals: 'students-consistently-confuse-the-primary' }
-            ] }] } },
+        labels: ['पाठ 3 — पृष्ठभूमि', 'पाठ 3 — कथानक', 'पाठ 3 — पाठ्य-परिवेश', 'पाठ 3 — पात्र-चित्रण', 'पाठ 3 — मुख्य'],
+            observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'dissect', nodeId: 'c11_hin_v_cbse_03_002', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 3 · Part 1/3', spots: [
+            { id: 's1', label: '3 -', prompt: 'Which idea is this? — कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे.', answer: '3 -', options: ['3 -', '3 -'] },
+            { id: 's2', label: '3 -', prompt: 'Which idea is this? — पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है.', answer: '3 -', options: ['3 -', '3 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_03_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your reading group discusses Krishna Sobti\'s \'व्यक्ति\' — a widowed domestic worker in a lawyer\'s household narrating her own life. A member says: \'It\'s a simple sad life story — husband left, children grew, mother died. Nothing literary about it.\'',
             decisions: [{ prompt: 'What makes the text a literary act, not just a sad story?', options: [
@@ -64,96 +42,81 @@ export const c11_hin_v_ch03_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_03_006', title: 'The bigger picture',
           caseStudy: { intro: 'The notebook and pen turn a worker into an author — the climax isn\'t publication, it\'s being heard by the person who gave them.',
-            decisions: [{ prompt: 'What comes next? vHkh Hkh eqvutks&nM+ks · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — vHkh Hkh eqvutks&nM+ks · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 3 · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 3 · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
-          hint: 'If stuck, review Class 10 Hindi "डायरी का एक पन्ना" (Diary of Anne Frank) — practice.',
-          misconception: 'Students often confuse \'context\' with \'summary\'—they retell the story\'s events (husband left, children grew up, mother.',
+          question: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के.',
+          hint: 'यदि छात्र अज्ञेय के जीवन-क्रम में उलझें, तो **NCERT पाठ्यपुस्तक \'वितान\' भाग-1 के पाठ 3 के.',
+          misconception: '**विशिष्ट भ्रांति:** "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — लेखक का जन्म, मृत्यु, शिक्षा, प्रमुख रचनाएँ और पुरस्कारों.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" provides the essential historical, social,',
-                  options: ['"Before You Read: Context and Background" provides the essential historical, social,', 'Plot is the causal sequence of events that make up a story, structured typically as', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves examining the narrator\'s personality,'],
-                  hint: 'If stuck, review Class 10 Hindi "डायरी का एक पन्ना" (Diary of Anne Frank) — practice separating.',
-                  misconception: 'Students often confuse \'context\' with \'summary\'—they retell the story\'s events (husband left, children grew up, mother died) instead.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त',
+                  options: ['पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें प्रमुख पात्र (नायक)'],
+                  hint: 'यदि छात्र अज्ञेय के जीवन-क्रम में उलझें, तो **NCERT पाठ्यपुस्तक \'वितान\' भाग-1 के पाठ 3 के आरंभ में.',
+                  misconception: '**विशिष्ट भ्रांति:** "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — लेखक का जन्म, मृत्यु, शिक्षा, प्रमुख रचनाएँ और पुरस्कारों की सूची रट लेना।.' }
           ],
-            remediations: { 'students-often-confuse-context-with': { steps: ['If a student conflates context with summary: (1) Give them two columns—label one "Inside the Story" (characters.', '(2) Have them place 10 items (e.g., "Partition 1947," "Protagonist\'s husband leaves," "Sobti wins Jnanpith 2017,".', '(3) Ask: "Which column helps you understand *why* Sobti chose first-person narration?" (4) Assign: write 3 sentences.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1: भ्रांति तोड़ना (5 मिनट):** छात्र से पूछें — "अगर मुझे तुम्हारी जन्मतिथि, स्कूल और प्रिय विषय पता चल जाए, तो.', '→ यातना जानी, एकांत मिला, आत्म-संवाद हुआ → पाठ में नायक का आंतरिक द्वंद्व यहीं से आया।" **चरण 3: मैट्रिक्स बनाना (15.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_002', difficulty: 'standard',
-          question: 'Plot is the causal sequence of events that make up a story, structured.',
-          hint: 'If unable to summarize, revisit the \'Before You Read\' node (c11_hin_v_cbse_03_001) and.',
-          misconception: 'Students often equate \'plot\' with a simple chronological summary of *all* events (story).',
+          question: 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है.',
+          hint: 'यदि छात्र कथानक और आख्यान में अंतर करने में कठिनाई महसूस कर रहा है, तो उसे "घटनाओं की.',
+          misconception: 'छात्र अक्सर मानते हैं कि यदि कथानक में घटनाएँ समय के अनुसार नहीं हैं (जैसे फ्लैशबैक या फॉरवर्ड), तो इसका मतलब है कि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot is the causal sequence of events that make up a story, structured typically as',
-                  options: ['Plot is the causal sequence of events that make up a story, structured typically as', '"Before You Read: Context and Background" provides the essential historical, social,', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves examining the narrator\'s personality,'],
-                  hint: 'If unable to summarize, revisit the \'Before You Read\' node (c11_hin_v_cbse_03_001) and re-read the.',
-                  misconception: 'Students often equate \'plot\' with a simple chronological summary of *all* events (story).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे',
+                  options: ['कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें प्रमुख पात्र (नायक)'],
+                  hint: 'यदि छात्र कथानक और आख्यान में अंतर करने में कठिनाई महसूस कर रहा है, तो उसे "घटनाओं की सूची बनाना".',
+                  misconception: 'छात्र अक्सर मानते हैं कि यदि कथानक में घटनाएँ समय के अनुसार नहीं हैं (जैसे फ्लैशबैक या फॉरवर्ड), तो इसका मतलब है कि कथानक स्वयं टूटा हुआ या.' }
           ],
-            remediations: { 'students-often-equate-plot-with': { steps: ['Plot**: Use a familiar folktale (e.g., "The Thirsty Crow").', 'Story = crow drops pebbles, water rises, drinks.', 'Plot = crow is thirsty (exposition) → tries to reach water but fails (rising action) → gets idea to drop pebbles.', '**Timeline Activity**: Have student draw a horizontal timeline of the narrator\'s *life* (birth, marriage, widowhood.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "क्या आपने कभी ऐसा देखा कि कोई फिल्म ट्रेलर में क्लाइमैक्स दिखाती है, फिर कहती है \'इस तक कैसे.', 'नहीं—केवल हम उनका अनुभव बदलता है।" फिर एक सरल कथानक दें (जैसे: बच्चा स्कूल जाता है → परीक्षा में फेल हो जाता है → घर.', 'नहीं—हमने केवल आख्यान बदल दिया। अब, इस क्रम से क्या भाव बदलता है?', 'शायद अब हमें लगता है कि बच्चा गलत नहीं, systém गलत है।" इस प्रकार, कथानक को स्थिर (लेखक द्वारा चुनी गई घटनाओं का सेट).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a narrative.',
-          hint: 'Review c11_hin_v_cbse_03_002 (Plot and Narrative Structure) focusing on the "movement.',
-          misconception: 'Students treat setting as "where the story happens" and atmosphere as "mood words like sad or happy.".',
+          question: 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र.',
+          hint: 'यदि अटका हुआ महसूस हो तो **कथानक-सारांश (Plot Summary)** दोबारा लिखें और प्रत्येक घटना के.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र \'पाठ्य-परिवेश\' को **स्थिर पृष्ठभूमि (Static Backdrop)** मानते हैं जिसे लेखक कहानी शुरू होने.',
           parts: [
-                { id: 'a', prompt: 'Identify the three primary physical settings in "vkyks&vk¡èkkfj" and state one distinctive physical detail for each that establishes its atmosphere.', answer: 'The three primary settings are: (1) lquhy\'s household',
-                  options: ['The three primary settings are: (1) lquhy\'s household', 'big house'],
-                  hint: 'Review c11_hin_v_cbse_03_002 (Plot and Narrative Structure) focusing on the "movement across.',
-                  misconception: 'Students treat setting as "where the story happens" and atmosphere as "mood words like sad or happy." In "vkyks&vk¡èkkfj," they miss how.' },
-                { id: 'b', prompt: 'Trace how the atmosphere shifts when the narrator moves from lquhy\'s house to rkrq\'k\'s house to her own home.', answer: 'The progression: (1) lquhy\'s house',
-                  options: ['The progression: (1) lquhy\'s house', 'improvement'],
-                  hint: 'Review c11_hin_v_cbse_03_002 (Plot and Narrative Structure) focusing on the "movement across.',
-                  misconception: 'Students treat setting as "where the story happens" and atmosphere as "mood words like sad or happy." In "vkyks&vk¡èkkfj," they miss how.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है',
+                  options: ['पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें प्रमुख पात्र (नायक)'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **कथानक-सारांश (Plot Summary)** दोबारा लिखें और प्रत्येक घटना के आगे.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र \'पाठ्य-परिवेश\' को **स्थिर पृष्ठभूमि (Static Backdrop)** मानते हैं जिसे लेखक कहानी शुरू होने से पहले \'सेट\' कर.' }
           ],
-            remediations: { 'students-treat-setting-as-where': { steps: ['Have the student reread the lquhy household section (pages 21-22) and list every verb describing what the narrator DOES.', 'Repeat for rkrq\'k\'s household (writes, reads, learns, resists, complies).', 'Compare the verb lists — first setting = survival verbs; second = negotiation verbs.', 'Ask: "If setting were just background, why do her verbs change?" This makes visible how setting shapes agency.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'static-backdrop-dynamic': { steps: ['**चरण 1:** छात्र को एक छोटा गद्यांश दें (5-6 वाक्य) और कहें: *"केवल वे शब्द/वाक्यांश रेखांकित करो जो तुम्हें बताते हैं.', '**चरण 2:** पूछें: *"यदि काल बदल जाए (दिन→रात), तो कौन-से शब्द बदलेंगे?', 'यदि सामाजिक स्थिति बदल जाए (ऊँची जाति→दलित), तो मनोदशा कैसे बदलेगी?"* — **काउंटरफैक्टुअल तर्क (Counterfactual.', '**चरण 3:** छात्र से कहें: *"अब इसी स्थान का परिवेश-चित्रण दो अलग-अलग काल/मनोदशा में लिखो।"* — इससे परिवेश की गतिशीलता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the narrator\'s.',
-          hint: 'If confused about who the protagonist is, review c11_hin_v_cbse_03_002 (Plot and.',
-          misconception: 'Students often confuse the protagonist (the narrator/domestic worker) with the title character "वकील की बेटी" (the.',
+          question: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें प्रमुख.',
+          hint: 'यदि अटके तो **c11_hin_v_cbse_03_002 (कथानक और आख्यान-संरचना)** दोहराएँ — विशेषकर.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'पात्र-चित्रण\' = \'गुणों की सूची (List of Traits) + प्रशंसा/निंदा\'**। **गलत.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves examining the narrator\'s personality,',
-                  options: ['Character analysis of the protagonist involves examining the narrator\'s personality,', '"Before You Read: Context and Background" provides the essential historical, social,', 'Plot is the causal sequence of events that make up a story, structured typically as', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If confused about who the protagonist is, review c11_hin_v_cbse_03_002 (Plot and Narrative.',
-                  misconception: 'Students often confuse the protagonist (the narrator/domestic worker) with the title character "वकील की बेटी" (the lawyer\'s daughter.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें प्रमुख पात्र (नायक)',
+                  options: ['पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें प्रमुख पात्र (नायक)', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है'],
+                  hint: 'यदि अटके तो **c11_hin_v_cbse_03_002 (कथानक और आख्यान-संरचना)** दोहराएँ — विशेषकर **\'उत्कर्ष.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'पात्र-चित्रण\' = \'गुणों की सूची (List of Traits) + प्रशंसा/निंदा\'**। **गलत तर्क का उदाहरण:**.' }
           ],
-            remediations: { 'students-often-confuse-the-protagonist': { steps: ['Have student re-read the first 3 pages identifying every "eSa" (I) statement—this establishes the narrative voice.', 'Create a two-column chart: "Title Character (वकील की बेटी)" vs "Narrator/Protagonist" with textual evidence for each.', 'Ask: "Whose thoughts do we hear?', 'Whose life spans the whole story?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_004', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often confuse the protagonist (the narrator/domestic worker) with the title character "वकील की बेटी" (the.',
-          parts: [
-                { id: 'a', prompt: 'Critique the author\'s choice to keep the protagonist unnamed throughout the story.', answer: 'Strengthens: The anonymity universalizes her experience—she represents countless',
-                  options: ['Strengthens: The anonymity universalizes her experience—she represents countless', 'वकील की बेटी'],
-                  hint: 'If confused about who the protagonist is, review c11_hin_v_cbse_03_002 (Plot and Narrative.',
-                  misconception: 'Students often confuse the protagonist (the narrator/domestic worker) with the title character "वकील की बेटी" (the lawyer\'s daughter.' }
-          ],
-            remediations: { 'students-often-confuse-the-protagonist': { steps: ['Have student re-read the first 3 pages identifying every "eSa" (I) statement—this establishes the narrative voice.', 'Create a two-column chart: "Title Character (वकील की बेटी)" vs "Narrator/Protagonist" with textual evidence for each.', 'Ask: "Whose thoughts do we hear?', 'Whose life spans the whole story?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'list-of-traits': { steps: ['**चरणबद्ध सुधार (Remediation):** 1.', '**पहला चरण:** छात्र से कहें — "पाठ खोलो और नायक के **किसी एक गुण** के लिए **ठीक 3 साक्ष्य** ढूँढ़ो: एक संवाद, एक कार्य.', '**दूसरा चरण:** प्रत्येक साक्ष्य के आगे लिखवाएँ: **"यह साक्ष्य इस गुण को कैसे सिद्ध करता है?"** — उत्तर **एक वाक्य** में.', '**तीसरा चरण:** अब कहें — "इन तीनों को जोड़कर **एक अनुच्छेद** लिखो जो **PEEL** संरचना में हो।" (संरचना देना सिखाता है)।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining how secondary.',
-          hint: 'Review node 004 (Character Analysis: Protagonist) worked examples on tracking the.',
-          misconception: 'Students treat supporting characters as "background information" to be listed, not as structural elements that.',
+          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के.',
+          hint: 'यदि अटका हुआ महसूस हो तो **नोड 004 (नायक चित्रण)** के \'चरित्र-चाप\' और \'आंतरिक संघर्ष\'.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र सहायक पात्रों को **\'कम महत्वपूर्ण\' (less important)** मानते हैं क्योंकि शब्द में \'सहायक\' लगा.',
           parts: [
-                { id: 'a', prompt: 'Compare how Rakhi\'s husband and Tsbw each respond to the protagonist\'s writing. What does this comparison reveal about gender and class positions in the text?', answer: 'Correct answer: Rakhi\'s husband (educated, male, employer-class) offers public',
-                  options: ['Correct answer: Rakhi\'s husband (educated, male, employer-class) offers public', 'support'],
-                  hint: 'Review node 004 (Character Analysis: Protagonist) worked examples on tracking the protagonist\'s.',
-                  misconception: 'Students treat supporting characters as "background information" to be listed, not as structural elements that construct the protagonist\'s.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ रहकर',
+                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ रहकर', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **नोड 004 (नायक चित्रण)** के \'चरित्र-चाप\' और \'आंतरिक संघर्ष\' अनुभाग को.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र सहायक पात्रों को **\'कम महत्वपूर्ण\' (less important)** मानते हैं क्योंकि शब्द में \'सहायक\' लगा है। वे सोचते हैं कि.' }
           ],
-            remediations: { 'students-treat-supporting-characters-as': { steps: ['Have the student pick ONE supporting character and find three moments where that character speaks directly to the.', 'For each moment, ask: "What does the protagonist learn about her own position from this exchange?"', 'Ask: "If this character were removed, what would the protagonist NOT understand about her world?"', 'Guide the student to write one paragraph answering: "This character exists in the narrative to show that ______." This.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'less-important-1-2-3': { steps: ['**पुनर्नामकरण अभ्यास:** छात्र से कहें — "आज से इन्हें \'सहायक पात्र\' नहीं, **\'संरचनात्मक पात्र\' (Structural.', '**विलोपन परीक्षण (Deletion Test):** पाठ का एक दृश्य लें, एक सहायक पात्र को मानसिक रूप से हटाएँ और पूछें — "अब नायक का.', 'कथानक में क्या छूटेगा?" लिखित में 3 अंतर नोट करवाएँ। 3.', '**कार्य-सारणी (Function Table) बनवाएँ:** स्तंभ — पात्र नाम | प्रकार (फॉयल/कॉन्फिडेंट/एंटागोनिस्ट/चोरस) | नायक पर प्रभाव.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_006', difficulty: 'standard',
-          question: 'The primary theme is the central, unifying idea or message that the author.',
-          hint: 'Review the protagonist\'s diary entries and letters in the text—these are the clearest.',
-          misconception: 'Students consistently confuse the *primary theme* with the *social issue* depicted in the text.',
+          question: 'मुख्य विषय (Central Theme) वह मूल विचार या केंद्रीय भाव है जो संपूर्ण रचना में.',
+          hint: 'यदि अटके, तो node 004 (पात्र-चित्रण: नायक) के \'आंतरिक संघर्ष\' खंड को दोहराएँ — वही विषय.',
+          misconception: '**विषय = संदेश = नीति-वाक्य (Moral)** — यह सबसे घातक भ्रांति है। छात्र पाठ 3 पढ़कर लिखते हैं: "मुख्य विषय: ईमानदारी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme is the central, unifying idea or message that the author conveys',
-                  options: ['The primary theme is the central, unifying idea or message that the author conveys', '"Before You Read: Context and Background" provides the essential historical, social,', 'Plot is the causal sequence of events that make up a story, structured typically as', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'Review the protagonist\'s diary entries and letters in the text—these are the clearest markers.',
-                  misconception: 'Students consistently confuse the *primary theme* with the *social issue* depicted in the text.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय (Central Theme) वह मूल विचार या केंद्रीय भाव है जो संपूर्ण रचना में सूत्र की',
+                  options: ['मुख्य विषय (Central Theme) वह मूल विचार या केंद्रीय भाव है जो संपूर्ण रचना में सूत्र की', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है'],
+                  hint: 'यदि अटके, तो node 004 (पात्र-चित्रण: नायक) के \'आंतरिक संघर्ष\' खंड को दोहराएँ — वही विषय की कुंजी है।',
+                  misconception: '**विषय = संदेश = नीति-वाक्य (Moral)** — यह सबसे घातक भ्रांति है। छात्र पाठ 3 पढ़कर लिखते हैं: "मुख्य विषय: ईमानदारी सर्वोत्तम नीति है" या.' }
           ],
-            remediations: { 'students-consistently-confuse-the-primary': { steps: ['Ask the student to write the *last paragraph* of the chapter in their own words.', 'Ask: "What does the narrator *have* at the end that she didn\'t have at the start?" (Answer: a published book,.', 'Guide them to complete this sentence: "The book argues that ______ is the way out of ______."', 'Have them replace the blanks with abstract nouns (literacy/dignity; invisibility/silence).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'moral-3-class-10-3': { steps: ['**चरण 1:** छात्र से कहें: "पाठ के तीन निर्णायक क्षण (turning points) लिखो जहाँ नायक के पास दो रास्ते थे।" — यदि वह केवल.', '**चरण 2:** प्रत्येक क्षण पर पूछें: "नायक ने *क्यों* चुना?', 'सिद्धांत से?" — उत्तर \'सिद्धांत\' हो तो विषय की ओर संकेत करता है। 3.', '**चरण 3:** अब कहें: "इन तीनों चुनावों को जोड़ने वाला एक *संज्ञा-वाक्यांश* लिखो (क्रिया नहीं, विशेषण नहीं)।" — यही विषय.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

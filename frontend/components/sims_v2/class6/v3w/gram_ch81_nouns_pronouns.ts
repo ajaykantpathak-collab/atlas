@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c6_gram_ch81 The Naming Lab (noun families, pronouns, plurals).
  * Nodes: c6_gram_cbse_81_001, 81_002, 81_003. */
 export const c6_gram_ch81: SimDef = {
-    id: 'v3_c6_gram_ch81',
+    id: 'v3w_c6_gram_ch81',
     title: 'The Naming Lab',
     subtitle: 'Every noun has a family, every pronoun points back to someone, and plurals follow five rules',
     classLevel: 6, subject: 'english-grammar', topic: 'Nouns, pronouns and plurals',

@@ -16,7 +16,7 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
     discovery: {
         question: 'Name the four whorls of a typical angiosperm flower in correct acropetal order (from base to apex) and state the primary function of each whorl in one phrase.',
         options: ['Correct answer: Calyx (sepals) – protection of bud', 'complete flower = bisexual flower', 'incomplete flower = unisexual flower'],
-        answer: 'Correct answer: Calyx (sepals) – protection of bud',
+        answer: 'Calyx (sepals) – protection of bud',
         hook: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the.',
     },
     teaching: [
@@ -85,15 +85,15 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
           hint: 'If stuck on whorl identification or sexuality terms, review c11_bio_cbse_05_005 and.',
           misconception: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the.',
           parts: [
-                { id: 'a', prompt: 'Name the four whorls of a typical angiosperm flower in correct acropetal order (from base to apex) and state the primary function of each whorl in one phrase.', answer: 'Correct answer: Calyx (sepals) – protection of bud',
+                { id: 'a', prompt: 'Name the four whorls of a typical angiosperm flower in correct acropetal order (from base to apex) and state the primary function of each whorl in one phrase.', answer: 'Calyx (sepals) – protection of bud',
                   options: ['Correct answer: Calyx (sepals) – protection of bud', 'complete flower = bisexual flower', 'incomplete flower = unisexual flower'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the definitions but fail.' },
-                { id: 'b', prompt: 'In a longitudinal section of a flower, you observe that the thalamus is cup-shaped and the ovary sits at the bottom of the cup with sepals, petals, and stamens.', answer: 'Correct answer: The ovary is inferior (epigynous flower)',
+                { id: 'b', prompt: 'In a longitudinal section of a flower, you observe that the thalamus is cup-shaped and the ovary sits at the bottom of the cup with sepals, petals, and stamens.', answer: 'The ovary is inferior (epigynous flower)',
                   options: ['Correct answer: The ovary is inferior (epigynous flower)', 'superior ovary', 'fruit type unchanged'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the definitions but fail.' },
-                { id: 'c', prompt: 'Compare the floral formulae of Brassicaceae (⊕ ♂♀ K4 C4 A2+4 G(2)) and Fabaceae (↑ ♂♀ K(5) C1+2+(2) A(9)+1 G1).', answer: 'Correct answer: Brassicaceae has tetradynamous stamens (2+4) and a syncarpous',
+                { id: 'c', prompt: 'Compare the floral formulae of Brassicaceae (⊕ ♂♀ K4 C4 A2+4 G(2)) and Fabaceae (↑ ♂♀ K(5) C1+2+(2) A(9)+1 G1).', answer: 'Brassicaceae has tetradynamous stamens (2+4) and a syncarpous',
                   options: ['Correct answer: Brassicaceae has tetradynamous stamens (2+4) and a syncarpous', 'complete flower = bisexual flower', 'incomplete flower = unisexual flower'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the definitions but fail.' }
@@ -104,7 +104,7 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the.',
           parts: [
-                { id: 'a', prompt: 'Evaluate this statement: "In a zygomorphic flower, the calyx is always bilabiate and the corolla is always papilionaceous." Is it correct?', answer: 'Correct answer: The statement is false',
+                { id: 'a', prompt: 'Evaluate this statement: "In a zygomorphic flower, the calyx is always bilabiate and the corolla is always papilionaceous." Is it correct?', answer: 'The statement is false',
                   options: ['Correct answer: The statement is false', 'complete flower = bisexual flower', 'incomplete flower = unisexual flower', '"complete flower = bisexual flower" and "incomplete flower = unisexual flower'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the definitions but fail.' },
@@ -130,7 +130,7 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think the **tapetum is haploid** because it is "inside" the anther and associated with pollen formation.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the statement: "The tapetum is the only anther wall layer that contributes directly to the pollen wall (exine)." Is this true or false?', answer: 'Correct answer: TRUE',
+                { id: 'a', prompt: 'Evaluate the statement: "The tapetum is the only anther wall layer that contributes directly to the pollen wall (exine)." Is this true or false?', answer: 'TRUE',
                   options: ['Correct answer: TRUE', 'False, endothecium also contributes', 'inside'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think the **tapetum is haploid** because it is "inside" the anther and associated with pollen formation.' }

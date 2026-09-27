@@ -114,7 +114,7 @@ export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
           hint: 'If stuck on why classification is needed, revisit the "Four Ds" node.',
           misconception: 'Students often think DSM-5 and ICD-10 are "competing" systems where one is "better" or "more scientific." They write in.',
           parts: [
-                { id: 'a', prompt: '**REMEMBER**: Name the three broad historical perspectives used to explain abnormal behaviour and give one key figure associated with each perspective.', answer: 'Correct answer: (1) Supernatural perspective',
+                { id: 'a', prompt: '**REMEMBER**: Name the three broad historical perspectives used to explain abnormal behaviour and give one key figure associated with each perspective.', answer: '(1) Supernatural perspective',
                   options: ['Correct answer: (1) Supernatural perspective', 'competing', 'better'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think DSM-5 and ICD-10 are "competing" systems where one is "better" or "more scientific." They write in exams: "DSM-5 is.' }
@@ -162,11 +162,11 @@ export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
           hint: 'If stuck, re-read NCERT Class 12 Chapter 4 section "Factors Underlying Abnormal.',
           misconception: '**Specific error:** Students equate "diathesis" with "genetic mutation" and believe the model means **"If you have the.',
           parts: [
-                { id: 'a', prompt: 'Define the three components of the diathesis-stress model using NCERT terminology. What does "diathesis" specifically refer to in this model?', answer: 'Correct answer: (1) **Diathesis**',
+                { id: 'a', prompt: 'Define the three components of the diathesis-stress model using NCERT terminology. What does "diathesis" specifically refer to in this model?', answer: '(1) **Diathesis**',
                   options: ['Correct answer: (1) **Diathesis**', 'the disorder', 'stress'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: '**Specific error:** Students equate "diathesis" with "genetic mutation" and believe the model means **"If you have the bad gene, stress.' },
-                { id: 'b', prompt: 'Explain in your own words why two individuals with the same biological diathesis for depression (e.g., serotonin transporter gene variant) might not both.', answer: 'Correct answer: The diathesis-stress model posits a **threshold**',
+                { id: 'b', prompt: 'Explain in your own words why two individuals with the same biological diathesis for depression (e.g., serotonin transporter gene variant) might not both.', answer: 'The diathesis-stress model posits a **threshold**',
                   options: ['Correct answer: The diathesis-stress model posits a **threshold**', 'one has stronger willpower'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: '**Specific error:** Students equate "diathesis" with "genetic mutation" and believe the model means **"If you have the bad gene, stress.' }
@@ -177,7 +177,7 @@ export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: '**Specific error:** Students equate "diathesis" with "genetic mutation" and believe the model means **"If you have the.',
           parts: [
-                { id: 'a', prompt: 'Critique the statement: "The diathesis-stress model implies that preventing all stressors would eliminate psychological disorders in vulnerable individuals.".', answer: 'Correct answer: **Invalid implication.** The model does not claim stressors are',
+                { id: 'a', prompt: 'Critique the statement: "The diathesis-stress model implies that preventing all stressors would eliminate psychological disorders in vulnerable individuals.".', answer: '**Invalid implication.** The model does not claim stressors are',
                   options: ['Correct answer: **Invalid implication.** The model does not claim stressors are', 'pathogenic stressors'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: '**Specific error:** Students equate "diathesis" with "genetic mutation" and believe the model means **"If you have the bad gene, stress.' }
@@ -214,15 +214,15 @@ export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
           hint: 'If stuck, revisit c12_psy_cbse_04_001 (Four Ds) and c12_psy_cbse_04_002 (classification).',
           misconception: 'Students frequently confuse OCD with Obsessive-Compulsive Personality Disorder (OCPD) and believe "being OCD" means.',
           parts: [
-                { id: 'a', prompt: 'A student writes: "OCD is when you like things clean and organised." Identify the two fundamental errors in this statement based on DSM-5 criteria.', answer: 'Correct answer: (1) OCD compulsions are not preferences',
+                { id: 'a', prompt: 'A student writes: "OCD is when you like things clean and organised." Identify the two fundamental errors in this statement based on DSM-5 criteria.', answer: '(1) OCD compulsions are not preferences',
                   options: ['Correct answer: (1) OCD compulsions are not preferences', 'Four Ds', 'being OCD'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students frequently confuse OCD with Obsessive-Compulsive Personality Disorder (OCPD) and believe "being OCD" means being perfectionistic,.' },
-                { id: 'b', prompt: 'Explain why a person with contamination obsessions who washes hands for 3 hours daily meets OCD criteria, while a surgeon who scrubs for 10 minutes before each.', answer: 'Correct answer: The surgeon\'s handwashing is context-appropriate, goal-directed',
+                { id: 'b', prompt: 'Explain why a person with contamination obsessions who washes hands for 3 hours daily meets OCD criteria, while a surgeon who scrubs for 10 minutes before each.', answer: 'The surgeon\'s handwashing is context-appropriate, goal-directed',
                   options: ['Correct answer: The surgeon\'s handwashing is context-appropriate, goal-directed', 'being OCD', '"being OCD" means being perfectionistic, neat, or organised'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students frequently confuse OCD with Obsessive-Compulsive Personality Disorder (OCPD) and believe "being OCD" means being perfectionistic,.' },
-                { id: 'c', prompt: 'Compare the role of avoidance in OCD vs. PTSD. A student claims: "In both disorders, avoidance reduces anxiety, so the mechanism is identical." Analyse this.', answer: 'Correct answer: The claim is partially correct but incomplete',
+                { id: 'c', prompt: 'Compare the role of avoidance in OCD vs. PTSD. A student claims: "In both disorders, avoidance reduces anxiety, so the mechanism is identical." Analyse this.', answer: 'The claim is partially correct but incomplete',
                   options: ['Correct answer: The claim is partially correct but incomplete', 'being OCD', '"being OCD" means being perfectionistic, neat, or organised'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students frequently confuse OCD with Obsessive-Compulsive Personality Disorder (OCPD) and believe "being OCD" means being perfectionistic,.' }
@@ -233,7 +233,7 @@ export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students frequently confuse OCD with Obsessive-Compulsive Personality Disorder (OCPD) and believe "being OCD" means.',
           parts: [
-                { id: 'a', prompt: 'Evaluate this statement for a board exam answer: "Hoarding Disorder is just a severe form of OCD because both involve difficulty discarding items." Defend or.', answer: 'Correct answer: Refute',
+                { id: 'a', prompt: 'Evaluate this statement for a board exam answer: "Hoarding Disorder is just a severe form of OCD because both involve difficulty discarding items." Defend or.', answer: 'Refute',
                   options: ['Correct answer: Refute', 'being OCD', '"being OCD" means being perfectionistic, neat, or organised'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students frequently confuse OCD with Obsessive-Compulsive Personality Disorder (OCPD) and believe "being OCD" means being perfectionistic,.' },

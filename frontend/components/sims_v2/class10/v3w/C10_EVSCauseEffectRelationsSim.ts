@@ -16,7 +16,7 @@ export const w_c10_evscauseeffectrelationssim: SimDef = {
     discovery: {
         question: 'Name any four contraceptive methods and state the category (barrier, chemical, surgical, natural) each belongs to.',
         options: ['Correct answer: Condom (barrier), Oral contraceptive pills (chemical), Vasectomy', 'copper-T', 'killing the egg'],
-        answer: 'Correct answer: Condom (barrier), Oral contraceptive pills (chemical), Vasectomy',
+        answer: 'Condom (barrier), Oral contraceptive pills (chemical), Vasectomy',
         hook: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing.',
     },
     teaching: [
@@ -55,15 +55,15 @@ export const w_c10_evscauseeffectrelationssim: SimDef = {
           hint: 'If stuck, revisit c10_bio_cbse_03_010 (fertilisation and implantation) and.',
           misconception: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing.',
           parts: [
-                { id: 'a', prompt: 'Name any four contraceptive methods and state the category (barrier, chemical, surgical, natural) each belongs to.', answer: 'Correct answer: Condom (barrier), Oral contraceptive pills (chemical), Vasectomy',
+                { id: 'a', prompt: 'Name any four contraceptive methods and state the category (barrier, chemical, surgical, natural) each belongs to.', answer: 'Condom (barrier), Oral contraceptive pills (chemical), Vasectomy',
                   options: ['Correct answer: Condom (barrier), Oral contraceptive pills (chemical), Vasectomy', 'copper-T', 'killing the egg'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing abortion.' },
-                { id: 'b', prompt: 'A newly married couple wants to delay their first child by two years but plans to have children later.', answer: 'Correct answer: Copper-T (intrauterine device) is ideal',
+                { id: 'b', prompt: 'A newly married couple wants to delay their first child by two years but plans to have children later.', answer: 'Copper-T (intrauterine device) is ideal',
                   options: ['Correct answer: Copper-T (intrauterine device) is ideal', 'no daily action', 'minimal hormonal side effects'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing abortion.' },
-                { id: 'c', prompt: 'Compare the effectiveness of surgical methods (vasectomy/tubectomy) versus natural methods (rhythm/withdrawal) in preventing pregnancy.', answer: 'Correct answer: Surgical methods are nearly 100% effective',
+                { id: 'c', prompt: 'Compare the effectiveness of surgical methods (vasectomy/tubectomy) versus natural methods (rhythm/withdrawal) in preventing pregnancy.', answer: 'Surgical methods are nearly 100% effective',
                   options: ['Correct answer: Surgical methods are nearly 100% effective', 'surgical is better', 'killing the egg'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing abortion.' }
@@ -74,7 +74,7 @@ export const w_c10_evscauseeffectrelationssim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing.',
           parts: [
-                { id: 'a', prompt: 'Evaluate this statement: "Contraception is only needed for population control; if a country has low population density, contraceptive access is not a public.', answer: 'Correct answer: The statement is incorrect',
+                { id: 'a', prompt: 'Evaluate this statement: "Contraception is only needed for population control; if a country has low population density, contraceptive access is not a public.', answer: 'The statement is incorrect',
                   options: ['Correct answer: The statement is incorrect', 'killing the egg'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing abortion.' },

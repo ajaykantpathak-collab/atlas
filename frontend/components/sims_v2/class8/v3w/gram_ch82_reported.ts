@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c8_gram_ch82 The Reporter's Camera (reported speech intro).
  * Nodes: c8_gram_cbse_82_001, 82_002. */
 export const c8_gram_ch82: SimDef = {
-    id: 'v3_c8_gram_ch82',
+    id: 'v3w_c8_gram_ch82',
     title: "The Reporter's Camera",
     subtitle: 'Retell what was said — the tense steps back, the pronouns re-anchor, and the pointing words move',
     classLevel: 8, subject: 'english-grammar', topic: 'Direct and indirect speech — statements, questions, commands',

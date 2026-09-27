@@ -43,6 +43,9 @@ export interface GameData {
   learningArtifact?: ArtifactConfig;
   /** Living world map node (UPGRADE 4) */
   worldMapNode?: WorldMapNode;
+  /** Linked sims_v2 id — set by the play page from _sim_map.json so the
+   * completion screen can offer a deeper interactive exploration. */
+  simId?: string;
 }
 
 export interface TeachingSlide {

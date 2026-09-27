@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch04_p1: SimDef = {
     id: 'v3_c12_hin_ar_ch04_p1',
-    title: '\'ke\'ksj cgknqj flag · Part 1/3',
+    title: 'कैमरे में बंद अपाहजि · Part 1/3',
     subtitle: 'He wrote in the people\'s tongue so the people could read it',
-    classLevel: 12, subject: 'hin_ar', topic: '\'ke\'ksj cgknqj flag · Part 1/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'कैमरे में बंद अपाहजि · Part 1/3',
     chapters: ['c12_hin_ar_ch04'],
     nodeIds: ['c12_hin_ar_cbse_04_001', 'c12_hin_ar_cbse_04_002', 'c12_hin_ar_cbse_04_003', 'c12_hin_ar_cbse_04_004', 'c12_hin_ar_cbse_04_005', 'c12_hin_ar_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,50 +19,15 @@ export const c12_hin_ar_ch04_p1: SimDef = {
         hook: 'Progressive poets like Nagarjun — journalist, trilingual, champion of the ignored — prove the micro reveals the macro: a street performer\'s day exposes the whole machinery of exploitation. Journalism trained the eye; poetry carried the indictment.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'This node introduces the poet Nagarjun (नागार्जुन), his literary significance, the socio-historical context of his works, and the background of the poem "दसेजस एस कन विक्फग्त" to prepare students for.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कैमरे में बंद अपाहजि — कवि परिचय और पृष्ठभूमि', text: 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे के लेंस में फंसा हुआ चित्रित करता है, ताकि शारीरिक सीमाओं के बावजूद मानव consciousness की गहराई, आंतरिक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_04_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Walk with the street performer: read rustic speech as deliberate politics, trace how one \'small\' life opens onto the entire structure that exploits it, and test why context turns description into critique.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['कैमरे में बंद अपाहजि'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_04_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a movie but you don\'t know the director, the era it\'s set in, or the real-life events that inspired it — you\'d miss half the.',
-            decisions: [{ prompt: 'Who is Nagarjun (नागार्जुन) and what is his primary literary identity? (Answer in 2-3 sentences.)', options: [
-                { text: 'Nagarjun (1929–1990) was a prominent Hindi poet, novelist, and journalist associated with', outcome: 'Nagarjun (1929–1990) was a prominent Hindi poet, novelist, and journalist associated with the.' },
-                { text: 'He was a classical Sanskrit poet', outcome: 'Not quite — Students often think "Before You Read" is just a biographical sketch to memorize for 1-mark.', reveals: 'before-you-read-is-just' },
-                { text: 'Before You Read', outcome: 'Not quite — Students often think "Before You Read" is just a biographical sketch to memorize for 1-mark.', reveals: 'before-you-read-is-just' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_04_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are trying to describe your ancestral village to a friend who has never been there — you would not just list buildings and fields; you would choose.',
-            decisions: [{ prompt: 'What is the difference between \'setting\' and \'atmosphere\' in a poem? Answer in two sentences.', options: [
-                { text: 'Setting is the concrete spatiotemporal and social context (where, when, under what', outcome: 'Setting is the concrete spatiotemporal and social context (where, when, under what circumstances).' },
-                { text: 'How does the poet create atmosphere *through* setting?', outcome: 'Not quite — Students often believe that "setting" means only the physical location (village, river, tree) and.', reveals: 'setting-means-only-the-physical' },
-                { text: 'setting', outcome: 'Not quite — Students often believe that "setting" means only the physical location (village, river, tree) and.', reveals: 'setting-means-only-the-physical' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_04_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are a detective trying to understand why a usually energetic friend suddenly says, “I’m so tired I can’t even lift my pen.” You would observe their.',
-            decisions: [{ prompt: 'What is the primary textual evidence that establishes the protagonist’s physical exhaustion in the opening stanza of “dSejs esa can vikfgt”?', options: [
-                { text: 'The phrase “can vikfgt” (tired to the bone) and the line “vkidk vikfgtiu rks nq[k nsrk', outcome: 'The phrase “can vikfgt” (tired to the bone) and the line “vkidk vikfgtiu rks nq[k nsrk gksxk” (your.' },
-                { text: 'ge nwjn\'kZu ij cksysaxs', outcome: 'Not quite — Students often treat the protagonist as a mere mouthpiece for the poet’s biography (e.g., “j?kqohj.', reveals: 'students-often-treat-the-protagonist' },
-                { text: 'author background', outcome: 'Not quite — Students often treat the protagonist as a mere mouthpiece for the poet’s biography (e.g., “j?kqohj.', reveals: 'students-often-treat-the-protagonist' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_04_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are asked in the board exam: "How does the character of the village elder in the story reflect the theme of generational conflict?" You might.',
-            decisions: [{ prompt: 'Define "foil character" in the context of Hindi narrative prose and give one example from any Class 11 Aroh story you have studied.', options: [
-                { text: 'A foil character is a supporting character whose contrasting traits (values, behaviour,', outcome: 'A foil character is a supporting character whose contrasting traits (values, behaviour, fate).' },
-                { text: 'a friend who helps the hero', outcome: 'Not quite — Students treat supporting characters as "background information" and write answers like "Character.', reveals: 'students-treat-supporting-characters-as' },
-                { text: 'confidant', outcome: 'Not quite — Students treat supporting characters as "background information" and write answers like "Character.', reveals: 'students-treat-supporting-characters-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_04_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are a labourer reading this poem at a worksite during a break — the contractor has just promised "navnirman" (reconstruction) while your wages are.',
-            decisions: [{ prompt: 'What is the literal meaning of the phrase "देश में चाँद विकृत" in the title of the poem?', options: [
-                { text: 'The literal meaning is "the moon in the country is distorted/reflected imperfectly." A', outcome: 'The literal meaning is "the moon in the country is distorted/reflected imperfectly." A wrong answer.' },
-                { text: 'the moon in the country is distorted/reflected imperfectly', outcome: 'Not quite — Students often equate the **primary theme** with the **subject matter** — writing "the poem.', reveals: 'students-often-equate-the-primary' },
-                { text: 'the moon is ugly', outcome: 'Not quite — Students often equate the **primary theme** with the **subject matter** — writing "the poem.', reveals: 'students-often-equate-the-primary' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_04_001', title: 'Use it in the wild',
           caseStudy: { intro: 'After a funds scandal in your student council, your group\'s protest poster is all slogans — \'We will shout for change!\' A senior suggests adding a line addressing each silent member by name, and clipping the actual audit report to the bottom.',
             decisions: [{ prompt: 'What does the structure of \'देश में चाँद विकृत\' say about the senior\'s edits?', options: [
@@ -72,8 +37,8 @@ export const c12_hin_ar_ch04_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_04_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now hear a poem\'s language as its argument — and see how progressive literature makes the marginal the centre.',
-            decisions: [{ prompt: 'What comes next? \'ke\'ksj cgknqj flag · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — \'ke\'ksj cgknqj flag · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? कैमरे में बंद अपाहजि · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — कैमरे में बंद अपाहजि · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -82,90 +47,71 @@ export const c12_hin_ar_ch04_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_001', difficulty: 'standard',
-          question: 'This node introduces the poet Nagarjun (नागार्जुन), his literary significance.',
-          hint: 'Review the \'Before You Read\' section of any Class 11 Aroh chapter (e.g.',
-          misconception: 'Students often think "Before You Read" is just a biographical sketch to memorize for 1-mark questions.',
+          question: 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ.',
+          hint: 'यदि कवि के सामाजिक संदेश को समझने में कठिनाई हो, तो कक्षा 11 के समाजशास्त्र नोड.',
+          misconception: 'छात्र अक्सर यह मानते हैं कि कवि का उद्देश्य केवल अपाहजि के शारीरिक कष्ट को दर्शाना है, और इसलिए वे उत्तर में केवल शरीर.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why knowing the socio-political context of a poem is essential before analyzing its literary devices.', answer: 'Literary devices serve the poet\'s message',
-                  options: ['Literary devices serve the poet\'s message', 'Context is only for history class', 'Before You Read', '"Before You Read" is just a biographical sketch to memorize for 1-mark questions'],
-                  hint: 'Review the \'Before You Read\' section of any Class 11 Aroh chapter (e.g., c11_hin_ar_cbse_01_001).',
-                  misconception: 'Students often think "Before You Read" is just a biographical sketch to memorize for 1-mark questions.' },
-                { id: 'b', prompt: 'Compare the background note on Nagarjun with what you know about Premchand (from Class 11).', answer: 'Both worked as journalists',
-                  options: ['Both worked as journalists', 'Journalism has no effect on fiction', 'Before You Read', '"Before You Read" is just a biographical sketch to memorize for 1-mark questions'],
-                  hint: 'Review the \'Before You Read\' section of any Class 11 Aroh chapter (e.g., c11_hin_ar_cbse_01_001).',
-                  misconception: 'Students often think "Before You Read" is just a biographical sketch to memorize for 1-mark questions.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे',
+                  options: ['कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,', 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश है जिसे कवि सभी बिंबों, प्रतीकों और'],
+                  hint: 'यदि कवि के सामाजिक संदेश को समझने में कठिनाई हो, तो कक्षा 11 के समाजशास्त्र नोड.',
+                  misconception: 'छात्र अक्सर यह मानते हैं कि कवि का उद्देश्य केवल अपाहजि के शारीरिक कष्ट को दर्शाना है, और इसलिए वे उत्तर में केवल शरीर की immobilization.' }
           ],
-            remediations: { 'before-you-read-is-just': { steps: ['If a student cannot articulate the poet\'s context, have them: (1) Re-read the \'Before You Read\' box and underline three.', '(2) Watch a 5-minute YouTube summary of the Progressive Writers\' Movement (search "प्रगतिशील लेखक आंदोलन नागार्जुन").', '(3) Write two sentences linking each underlined fact to a possible theme in the poem.', 'Then re-attempt Diagnostic Questions 2 and 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को यह समझाने के लिए कि कवि का ध्यान मन पर है, पहले उन्हें कविता की उन पंक्तियों को खोजने के लिए कहें जहाँ मन की.', 'इससे उन्हें एहसास होगा कि कवि शरीर और मन के बीच एक विभेद बना रहा है — जहाँ शरीर बंधन में है, मन मुक्त है। इस विश्लेषण.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in poetry refers to the organized sequence.',
-          hint: 'If stuck, revisit Class 11 "काव्य सौंदर्य" chapter (c11_hin_ar_cbse_04_002) exercise.',
-          misconception: 'Students treat "plot" in poetry as "what happens" and look for characters, events, and chronological order.',
+          question: '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का.',
+          hint: 'यदि अटके तो **c11_hin_ar_cbse_13_006 (जाग तुझको दूर जाना — साहित्यिक युक्तियाँ: अलंकार)**.',
+          misconception: '**विशिष्ट भ्रम:** छात्र प्रायः इस कविता को **\'एक अपाहिज व्यक्ति की दुखद कहानी\'** मानकर भावार्थ लिखते हैं, जबकि कविता का.',
           parts: [
-                { id: 'a', prompt: 'Compare the structural function of the line "गें हम खुले बाँहों से कहेंगे कि क्या ऐसा है" (stanza 4) with "फिर हम चाँद पर लिखेंगे" (stanza 5).', answer: 'Correct: "कहेंगे" marks oral, public declaration',
-                  options: ['Correct: "कहेंगे" marks oral, public declaration', 'express'],
-                  hint: 'If stuck, revisit Class 11 "काव्य सौंदर्य" chapter (c11_hin_ar_cbse_04_002) exercise on mapping.',
-                  misconception: 'Students treat "plot" in poetry as "what happens" and look for characters, events, and chronological order.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल',
+                  options: ['\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,', 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश है जिसे कवि सभी बिंबों, प्रतीकों और'],
+                  hint: 'यदि अटके तो **c11_hin_ar_cbse_13_006 (जाग तुझको दूर जाना — साहित्यिक युक्तियाँ: अलंकार)** में.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र प्रायः इस कविता को **\'एक अपाहिज व्यक्ति की दुखद कहानी\'** मानकर भावार्थ लिखते हैं, जबकि कविता का मूल विषय **\'दुख का.' }
           ],
-            remediations: { 'students-treat-plot-in-poetry': { steps: ['Have the student read only the first and last stanza aloud, then ask: "What changed in *who is speaking* and *what form.', 'Give a 3-column table: Stanza | Speaker/Voice | Grammatical form of "विकृत" | Speech act.', 'Ask: "If you removed the pilot report, what would the poem lose?" — force articulation of the evidentiary function.', 'Re-attempt Diagnostic Question 5 with the table as scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students treat "plot" in poetry as "what happens" and look for characters, events, and chronological order.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate whether the poem\'s structure is better described as "circular" (ending where it began) or "spiral" (returning to the starting image at a deeper.', answer: 'Correct: Spiral',
-                  options: ['Correct: Spiral', 'circular'],
-                  hint: 'If stuck, revisit Class 11 "काव्य सौंदर्य" chapter (c11_hin_ar_cbse_04_002) exercise on mapping.',
-                  misconception: 'Students treat "plot" in poetry as "what happens" and look for characters, events, and chronological order.' }
-          ],
-            remediations: { 'students-treat-plot-in-poetry': { steps: ['Have the student read only the first and last stanza aloud, then ask: "What changed in *who is speaking* and *what form.', 'Give a 3-column table: Stanza | Speaker/Voice | Grammatical form of "विकृत" | Speech act.', 'Ask: "If you removed the pilot report, what would the poem lose?" — force articulation of the evidentiary function.', 'Re-attempt Diagnostic Question 5 with the table as scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को **c12_hin_ar_cbse_04_001 (कवि परिचय और पृष्ठभूमि)** दोबारा पढ़ने को कहें — रघुवीर सहाय की पत्रकारिता पृष्ठभूमि.', '**c11_hin_ar_cbse_16_002 (आओ, मिलकर बचाएँ — पद्यांश-वार भावार्थ)** का अभ्यास करवाएँ — वहाँ भी \'समाज की नज़र\' और.', 'पुनः निदान: छात्र से पूछें — "अगर तुम उस अपाहिज की जगह होते, तो कैमरे की फ्लैशलाइट तुम्हें \'रोशनी\' लगती या \'पूछताछ\'?".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the time, place, and social environment where the.',
-          hint: 'If stuck, revisit Class 11 node c11_hin_ar_cbse_04_008 (Imagery and Metaphor) to practice.',
-          misconception: 'Students often believe that "setting" means only the physical location (village, river, tree) and "atmosphere" means.',
+          question: 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें.',
+          hint: 'यदि अटका हुआ महसूस करें तो कक्षा ११ के \'हस्तक्षेप\' कविता (c11_hin_ar_cbse_15_003) का.',
+          misconception: 'विद्यार्थी समझते हैं कि \'काव्य-संरचना\' का अर्थ केवल छंद पहचानना (जैसे दोहा, चौपाई) या तुकांत बताना है — वे संरचना को.',
           parts: [
-                { id: 'a', prompt: 'Compare the physical setting of the poem\'s opening stanza (fields, narrow paths, old banyan) with the setting introduced later (the new road, the "शहर की.', answer: 'The opening setting is organic, layered, and human-scaled (पगडंडी, बरगद, चौपाल)',
-                  options: ['The opening setting is organic, layered, and human-scaled (पगडंडी, बरगद, चौपाल)', 'setting', 'atmosphere'],
-                  hint: 'If stuck, revisit Class 11 node c11_hin_ar_cbse_04_008 (Imagery and Metaphor) to practice.',
-                  misconception: 'Students often believe that "setting" means only the physical location (village, river, tree) and "atmosphere" means the weather (rain.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,',
+                  options: ['काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश है जिसे कवि सभी बिंबों, प्रतीकों और'],
+                  hint: 'यदि अटका हुआ महसूस करें तो कक्षा ११ के \'हस्तक्षेप\' कविता (c11_hin_ar_cbse_15_003) का.',
+                  misconception: 'विद्यार्थी समझते हैं कि \'काव्य-संरचना\' का अर्थ केवल छंद पहचानना (जैसे दोहा, चौपाई) या तुकांत बताना है — वे संरचना को स्थैतिक (स्टैटिक).' }
           ],
-            remediations: { 'setting-means-only-the-physical': { steps: ['If a student cannot separate setting from atmosphere, do this 3-step remediation: (1) Give them a single stanza and ask.', '(2) Have them rewrite the stanza *changing only the verbs and metaphors* to flip the atmosphere (e.g., make a peaceful.', '(3) Finally, ask them to explain in one sentence how the *same* setting produced two opposite atmospheres.', 'This forces the realization that atmosphere lives in the *poet\'s choices*, not the setting itself.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण १: विद्यार्थी से कविता जोर से पढ़वाएँ और केवल विराम चिह्नों (कॉमा, पूर्ण विराम, डैश) को चिह्नित करने को कहें.', 'कहाँ तेज चलती है?\' चरण २: प्रत्येक पद की पंक्तियाँ गिनवाएँ और तुकांत शब्दों को रेखांकित करवाएँ — पूछें: \'पैटर्न कहाँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves systematically examining the.',
-          hint: 'If stuck, revisit c11_hin_ar_cbse_01_004 and re‑write one PEEL paragraph on a familiar.',
-          misconception: 'Students often treat the protagonist as a mere mouthpiece for the poet’s biography (e.g., “j?kqohj lgk; was.',
+          question: 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश है जिसे कवि सभी बिंबों.',
+          hint: 'यदि विभाव/अनुभाव/संचारी भाव में भ्रम हो तो **कक्षा 11 आरोह, पाठ 13 (जाग तुझको दूर जाना).',
+          misconception: '**विशिष्ट भ्रांति:** छात्र प्रायः मान लेते हैं कि \'करुण रस\' का अर्थ केवल **दया/सहानुभूति जगाना** है, इसलिए वे कविता को.',
           parts: [
-                { id: 'a', prompt: 'Apply the “Action → Trait → Theme” framework to the protagonist’s act of sharing a cigarette (“ge ,d nqcZy dks yk,¡xs”). Write the three-step inference chain.', answer: 'Step 1 (Action): The protagonist lights and shares a single cigarette',
-                  options: ['Step 1 (Action): The protagonist lights and shares a single cigarette', 'they smoke', 'author background'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_01_004 and re‑write one PEEL paragraph on a familiar character.',
-                  misconception: 'Students often treat the protagonist as a mere mouthpiece for the poet’s biography (e.g., “j?kqohj lgk; was a journalist, so the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश है जिसे कवि सभी बिंबों, प्रतीकों और',
+                  options: ['केंद्रीय भाव (Central Theme) कविता का वह मूल संदेश है जिसे कवि सभी बिंबों, प्रतीकों और', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
+                  hint: 'यदि विभाव/अनुभाव/संचारी भाव में भ्रम हो तो **कक्षा 11 आरोह, पाठ 13 (जाग तुझको दूर जाना) का नोड.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र प्रायः मान लेते हैं कि \'करुण रस\' का अर्थ केवल **दया/सहानुभूति जगाना** है, इसलिए वे कविता को \'एक बेचारे अपाहिज की.' }
           ],
-            remediations: { 'students-often-treat-the-protagonist': { steps: ['Re‑read the poem *without* the introductory biography.', 'Highlight every verb associated with the speaker (first‑person plural “ge”, “hum”).', 'For each verb, ask: “What choice does this verb reveal?” 4.', 'Write one sentence per verb linking the choice to a trait (e.g., “chooses to sit on floor → rejects false comfort →.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें: "कविता को फिर पढ़ो, लेकिन इस बार **\'अपाहिज\' शब्द को \'दिव्यांग व्यक्ति\' से बदलकर** पढ़ो — क्या.', 'किन शब्दों से पता चलता है?" **चरण 3:** रस-निष्पत्ति का चार्ट बनवाएँ: तीन कॉलम — विभाव, अनुभाव, संचारी भाव — केवल पद 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_005', difficulty: 'standard',
-          question: 'Supporting characters are secondary figures in a narrative who interact with.',
-          hint: 'If stuck, re-do the "Character Function Mapping" exercise from c11_hin_ar_cbse_04_005.',
-          misconception: 'Students treat supporting characters as "background information" and write answers like "Character X helps the hero.',
+          question: 'छंद कविता का वह निश्चित **मात्रिक/वर्णिक नियम-बद्ध ढाँचा** है जो पंक्तियों की.',
+          hint: 'यदि गुरु-लघु या गण बनाने में अटके: **c11_hin_a_cbse_13_005** के \'मात्रा-गण अभ्यास खंड\' को.',
+          misconception: 'छात्र समझते हैं कि **\'मात्रा गिनकर गण बना लेना ही छंद-विश्लेषण पूरा हो गया\'** — जबकि बोर्ड/CUET में पूछा जाता है: **"इस.',
           parts: [
-                { id: 'a', prompt: 'Given this new scenario: In a story, a minor character (a postman) appears in only one scene, delivering a letter that changes the protagonist\'s decision.', answer: 'Yes, the postman is a supporting character',
-                  options: ['Yes, the postman is a supporting character', 'no, he has no personality'],
-                  hint: 'If stuck, re-do the "Character Function Mapping" exercise from c11_hin_ar_cbse_04_005: list 3.',
-                  misconception: 'Students treat supporting characters as "background information" and write answers like "Character X helps the hero by giving money." This.' },
-                { id: 'b', prompt: 'Compare the roles of two supporting characters in the Chapter 4 narrative: one who openly opposes the protagonist (antagonist) and one who silently enables the.', answer: 'The antagonist (e.g., the moneylender) vocalises collective pressure',
-                  options: ['The antagonist (e.g., the moneylender) vocalises collective pressure', 'one shouts, one helps'],
-                  hint: 'If stuck, re-do the "Character Function Mapping" exercise from c11_hin_ar_cbse_04_005: list 3.',
-                  misconception: 'Students treat supporting characters as "background information" and write answers like "Character X helps the hero by giving money." This.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद कविता का वह निश्चित **मात्रिक/वर्णिक नियम-बद्ध ढाँचा** है जो पंक्तियों की लंबाई,',
+                  options: ['छंद कविता का वह निश्चित **मात्रिक/वर्णिक नियम-बद्ध ढाँचा** है जो पंक्तियों की लंबाई,', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
+                  hint: 'यदि गुरु-लघु या गण बनाने में अटके: **c11_hin_a_cbse_13_005** के \'मात्रा-गण अभ्यास खंड\' को 15 मिनट.',
+                  misconception: 'छात्र समझते हैं कि **\'मात्रा गिनकर गण बना लेना ही छंद-विश्लेषण पूरा हो गया\'** — जबकि बोर्ड/CUET में पूछा जाता है: **"इस छंद/लय/यति/अनुप्रास.' }
           ],
-            remediations: { 'students-treat-supporting-characters-as': { steps: ['Re-read the narrative text *only* for scenes involving non-protagonist characters.', 'For each marked moment, write one sentence: "This reveals the author wants us to see [theme/conflict] through this.', 'Revisit node c12_hin_ar_cbse_04_004 (Protagonist) and map each supporting character\'s interaction to a specific.', 'Practice writing one PEEL paragraph per character using the template: "The author uses [Character] as.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'cuet': { steps: ['**पुनः पढ़ो**: कविता की पहली 4 पंक्तियाँ **ताली बजाते हुए** पढ़ो — जहाँ ताली पड़े, वहाँ यति चिह्नित करो। 2.', '**मात्रा-तालिका बनाओ**: प्रत्येक शब्द के नीचे गुरु(2)/लघु(1) लिखो, फिर गण बाँधो (कविता के पहले दो पदों के लिए)। 3.', '**भाव-सेतु जोड़ो**: हर गण/यति/अनुप्रास के सामने एक वाक्य लिखो: "यह ——— भाव देता है क्योंकि ———"। 4.', '**पुनः-निदान**: उपरोक्त DIAGNOSTIC_Q2 और Q3 फिर से हल करो — अब उत्तर में \'भाव-प्रभाव\' अनिवार्य रूप से आएगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
-          hint: 'If stuck, review the "Speaker Identification" mini-lesson in node c12_hin_ar_cbse_04_002.',
-          misconception: 'Students often equate the **primary theme** with the **subject matter** — writing "the poem is about labourers building.',
+          question: 'अलंकार काव्य में शब्दों या अर्थों की विशेष वक्रता/सौंदर्य-वृद्धि करने वाली.',
+          hint: 'यदि अटका महसूस हो तो **c11_hin_a_cbse_13_006 (जाग तुझको दूर जाना — अलंकार)** के कार्यित.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र \'कैमरे में बंद\' को **केवल रूपक** मानकर रुक जाते हैं, जबकि यह **बहु-स्तरीय अलंकार-युक्ति.',
           parts: [
-                { id: 'a', prompt: 'Analyse how the single word "नचनी" (dancer/entertainer) in the contractor\'s promise encapsulates the poem\'s critique of cultural diversion as a tool.', answer: '"नचनी" condenses three layers: (a) literal',
-                  options: ['"नचनी" condenses three layers: (a) literal', 'as just a plot detail ('],
-                  hint: 'If stuck, review the "Speaker Identification" mini-lesson in node c12_hin_ar_cbse_04_002 and the.',
-                  misconception: 'Students often equate the **primary theme** with the **subject matter** — writing "the poem is about labourers building a road" — or with.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार काव्य में शब्दों या अर्थों की विशेष वक्रता/सौंदर्य-वृद्धि करने वाली रचनात्मक',
+                  options: ['अलंकार काव्य में शब्दों या अर्थों की विशेष वक्रता/सौंदर्य-वृद्धि करने वाली रचनात्मक', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
+                  hint: 'यदि अटका महसूस हो तो **c11_hin_a_cbse_13_006 (जाग तुझको दूर जाना — अलंकार)** के कार्यित उदाहरण.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र \'कैमरे में बंद\' को **केवल रूपक** मानकर रुक जाते हैं, जबकि यह **बहु-स्तरीय अलंकार-युक्ति (Multi-layered.' }
           ],
-            remediations: { 'students-often-equate-the-primary': { steps: ['Re-read the poem **only for speaker shifts** — mark every "हम" and every contractor line in two colours.', 'List side-by-side: Contractor\'s Promises vs.', 'Workers\' Reality (use a T-chart).', 'Revisit node **c12_hin_ar_cbse_04_008** (Imagery and Metaphor) to see how the moon symbol is built, then return here.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें — "कविता की कोई एक पंक्ति चुनो जो तुम्हें सबसे अधिक चुभी हो। उसे कॉपी में लिखो।" **चरण 2:**.', '(जैसे \'चीख़ती\' तस्वीर के लिए)।" **चरण 3:** उस शब्द के **वाच्यार्थ (Literal)** और **लक्ष्यार्थ (Suggested)** में अंतर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

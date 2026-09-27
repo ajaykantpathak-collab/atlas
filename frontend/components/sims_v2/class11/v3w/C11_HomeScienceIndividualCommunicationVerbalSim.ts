@@ -114,7 +114,7 @@ export const w_c11_homescienceindividualcommunicationverbalsim: SimDef = {
           hint: 'Revisit c11_hs_cbse_06_001 for the "shared understanding" definition and.',
           misconception: 'Students often believe the classification depends solely on the number of people present: "2 people = inter-personal,.',
           parts: [
-                { id: 'a', prompt: 'A student says, "Writing a diary entry every night is inter-personal communication because I am expressing my feelings to the diary." Is this correct?', answer: 'Correct answer: No, it is intra-personal communication',
+                { id: 'a', prompt: 'A student says, "Writing a diary entry every night is inter-personal communication because I am expressing my feelings to the diary." Is this correct?', answer: 'No, it is intra-personal communication',
                   options: ['Correct answer: No, it is intra-personal communication', 'expressing to an object', 'interacting with a person'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe the classification depends solely on the number of people present: "2 people = inter-personal, 3+ = group." This.' },

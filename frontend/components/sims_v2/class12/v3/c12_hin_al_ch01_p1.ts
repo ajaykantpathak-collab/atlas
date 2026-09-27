@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_al_ch01_p1: SimDef = {
     id: 'v3_c12_hin_al_ch01_p1',
-    title: 'lwjnkl dh >ksaiM+h · Part 1/3',
+    title: 'सूरदास की झोंपड़ी · Part 1/3',
     subtitle: 'In this village, even the dead owed the landlord',
-    classLevel: 12, subject: 'hin_al', topic: 'lwjnkl dh >ksaiM+h · Part 1/3',
+    classLevel: 12, subject: 'hin_al', topic: 'सूरदास की झोंपड़ी · Part 1/3',
     chapters: ['c12_hin_al_ch01'],
     nodeIds: ['c12_hin_al_cbse_01_001', 'c12_hin_al_cbse_01_002', 'c12_hin_al_cbse_01_003', 'c12_hin_al_cbse_01_004', 'c12_hin_al_cbse_01_005', 'c12_hin_al_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,39 +19,15 @@ export const c12_hin_al_ch01_p1: SimDef = {
         hook: 'This isn\'t a funeral rite — it\'s feudal economics with the corpse as collateral, turning even death into a transaction. Renu was a Quit India fighter and rural journalist: the आंचलिक dialect and documented detail make it an indictment, not a village sketch.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is the preparatory phase where students investigate the author\'s biography, the historical period, the cultural setting (rural Bihar, 1950s), and the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय', text: 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके सामाजिक-धार्मिक संदर्भ और रचना के प्रेरणा स्रोतों को समझाता है, जिससे पाठ के गहरे अर्थों की व्याख्या की जा सके।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_al_cbse_01_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Enter Renu\'s Bihar as a documentarian: decode the custom that auctions the dead, weigh the zamindar-peasant power imbalance, and read dialect as resistance.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['सूरदास की झोंपड़ी —'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_al_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a film set in a 1950s Bihar village where a poor family’s dead relative is being auctioned to pay a landlord’s debt.',
-            decisions: [{ prompt: 'Who is the author of "लड़कनक की साईँ" and what is the literal meaning of the word \'साईँ\' in the title?', options: [
-                { text: 'The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), a prominent आंचलिक कथाकार from Bihar', outcome: 'The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), a prominent आंचलिक कथाकार from Bihar.' },
-                { text: 'Premchand or defining \'साईँ\' as a funeral ritual', outcome: 'Not quite — Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral.', reveals: 'students-often-treat-before-you' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_al_cbse_01_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you walk into a room where the air feels heavy, the walls are damp, and a single flickering bulb casts long shadows — you instantly feel uneasy without.',
-            decisions: [{ prompt: 'What are the three components of setting in a narrative, and which component is most prominent in the opening scene of "ल्वज्नकल ध >कसईम+h"?', options: [
-                { text: 'The three components are time, place, and social environment', outcome: 'The three components are time, place, and social environment. In the opening scene, the physical.' },
-                { text: 'village', outcome: 'Not quite — Students often treat setting as a static backdrop — just "where and when" — and atmosphere as.', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_al_cbse_01_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are asked to describe your grandfather\'s personality to a friend who never met him.',
-            decisions: [{ prompt: 'Who is the protagonist of "ल्वज्न्कल ध >कसैम+ह" and what is the central conflict he faces?', options: [
-                { text: 'The protagonist is ल्वज्न्कल, an elderly man whose son and daughter-in-law force him out', outcome: 'The protagonist is ल्वज्न्कल, an elderly man whose son and daughter-in-law force him out of his own.' },
-                { text: 'the son txèkj as protagonist', outcome: 'Not quite — Students often treat character analysis as a trait-listing exercise: "ल्वज्न्कल is old, poor, sad.', reveals: 'students-often-treat-character-analysis' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_al_cbse_01_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are watching a family argument where everyone has an opinion about your career choice — some support you, some mock you, some stay silent.',
-            decisions: [{ prompt: 'Name three supporting characters in the chapter and state one defining trait for each, based solely on the text.', options: [
-                { text: 'Correct answer: ह्क्स्ज्का (पत्नी)', outcome: 'Correct answer: ह्क्स्ज्का (पत्नी) — व्यावहारिक और सुरक्षात्मक; त्एक्ज्क (मित्र) — संवेदनशील और.' },
-                { text: 'assigns traits not supported by dialogue (e', outcome: 'Not quite — Students often treat supporting characters as mere "helpers" or "obstacles" to the protagonist.', reveals: 'students-often-treat-supporting-characters' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_al_cbse_01_001', title: 'Use it in the wild',
           caseStudy: { intro: 'On an NGO internship in a village, you watch a moneylender stall a poor family\'s funeral until they \'settle his dues\' — the crowd shrugs that debt must be honoured. Your field note reads: \'cruel individual.\'',
             decisions: [{ prompt: 'What does the context of Renu\'s \'साईँ\' add to that diagnosis?', options: [
@@ -61,8 +37,8 @@ export const c12_hin_al_ch01_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_al_cbse_01_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read a regional story as evidence of a system — where even grief was mortgaged to the landlord.',
-            decisions: [{ prompt: 'What comes next? lwjnkl dh >ksaiM+h · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — lwjnkl dh >ksaiM+h · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? सूरदास की झोंपड़ी · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — सूरदास की झोंपड़ी · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -71,94 +47,71 @@ export const c12_hin_al_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is the preparatory phase where.',
-          hint: 'If stuck, review the "पाठ परिचय" section of any Class 11 Hindi chapter (e.g.',
-          misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.',
+          question: 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन.',
+          hint: 'यदि फंसें तो कक्षा 11 के पृष्ठभूमि और रचनाकार परिचय (c11_hin_a_cbse_01_001) की अवधारणा को.',
+          misconception: 'छात्र अक्सर सूरदास की झोंपड़ी को उनके जीवन के एक विशिष्ट ऐतिहासिक घटना से जोड़कर समझते हैं, जैसे मानते हैं कि वे वास्तव.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why the custom of \'साईँ\' emerged in rural Bihar and what it tells us about the relationship between peasants and landlords.', answer: '\'साईँ\' emerged because peasants had no access to formal credit',
-                  options: ['\'साईँ\' emerged because peasants had no access to formal credit', 'poverty'],
-                  hint: 'If stuck, review the "पाठ परिचय" section of any Class 11 Hindi chapter (e.g.',
-                  misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.' },
-                { id: 'b', prompt: 'Phanishwar Nath Renu participated in the 1942 Quit India Movement and worked as a journalist in rural Bihar.', answer: 'His involvement in the freedom struggle exposed him to the gap between political',
-                  options: ['His involvement in the freedom struggle exposed him to the gap between political', 'he wrote realistically'],
-                  hint: 'If stuck, review the "पाठ परिचय" section of any Class 11 Hindi chapter (e.g.',
-                  misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके',
+                  options: ['सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और', 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के'],
+                  hint: 'यदि फंसें तो कक्षा 11 के पृष्ठभूमि और रचनाकार परिचय (c11_hin_a_cbse_01_001) की अवधारणा को दोबारा.',
+                  misconception: 'छात्र अक्सर सूरदास की झोंपड़ी को उनके जीवन के एक विशिष्ट ऐतिहासिक घटना से जोड़कर समझते हैं, जैसे मानते हैं कि वे वास्तव में किसी विशेष.' }
           ],
-            remediations: { 'students-often-treat-before-you': { steps: ['Re‑read the "पाठ परिचय" (Text Introduction) in the NCERT textbook and underline every proper noun (author, region.', 'Watch a 5‑minute video on "जमींदारी प्रथा और ग्रामीण ऋण" (e.g., from NCERT’s official YouTube channel) to visualize the.', 'Discuss with the teacher: "If the landlord already owns the land, why does he need the body?" — this question forces.', 'Re‑attempt Diagnostic Questions 2 and 4; if answers improve, move forward.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_001', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "A reader can fully appreciate \'लड़कनक की साईँ\' without any knowledge of the historical context or the custom of \'साईँ\' because the story’s.', answer: 'The claim is false',
-                  options: ['The claim is false', 'universalist'],
-                  hint: 'If stuck, review the "पाठ परिचय" section of any Class 11 Hindi chapter (e.g.',
-                  misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.' }
-          ],
-            remediations: { 'students-often-treat-before-you': { steps: ['Re‑read the "पाठ परिचय" (Text Introduction) in the NCERT textbook and underline every proper noun (author, region.', 'Watch a 5‑minute video on "जमींदारी प्रथा और ग्रामीण ऋण" (e.g., from NCERT’s official YouTube channel) to visualize the.', 'Discuss with the teacher: "If the landlord already owns the land, why does he need the body?" — this question forces.', 'Re‑attempt Diagnostic Questions 2 and 4; if answers improve, move forward.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि पाठ में किस जगह स्पष्ट रूप से कहा गया है कि झोंपड़ी का अर्थ आंतरिक है - जैसे कि इसमें शुद्ध हृदय.', 'अंत में, एक सरल उदाहरण दीजिए: जैसे हम कहते हैं "दिल का घर साफ रखो" और मतलब आंतरिक शुद्धता से लगाते हैं, वैसे ही सूरदास.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure refers to the organized sequence of events in.',
-          hint: 'If unable to map reading vs. chronological order, practice with a familiar film (e.g.',
-          misconception: 'Students equate "plot" with "what happens" and "structure" with "beginning-middle-end", treating them as synonyms.',
+          question: 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो.',
+          hint: 'अगर फंसे हों तो c11_hin_a_cbse_01_002 के \'कथानक के सोपान\' और \'आख्यान-युक्तियां\' खंड.',
+          misconception: 'छात्र अक्सर समझते हैं कि \'कथानक\' और \'आख्यान-संरचना\' पर्यायवाची हैं — जैसे \'कहानी क्या हुई\' और \'कहानी कैसे कही गई\' में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and Narrative Structure refers to the organized sequence of events in a story and',
-                  options: ['Plot and Narrative Structure refers to the organized sequence of events in a story and', '"Before You Read: Context and Background" is the preparatory phase where students', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves systematically examining the main'],
-                  hint: 'If unable to map reading vs. chronological order, practice with a familiar film (e.g., "Baghban".',
-                  misconception: 'Students equate "plot" with "what happens" and "structure" with "beginning-middle-end", treating them as synonyms.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध',
+                  options: ['कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और', 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के'],
+                  hint: 'अगर फंसे हों तो c11_hin_a_cbse_01_002 के \'कथानक के सोपान\' और \'आख्यान-युक्तियां\' खंड दोहराएं.',
+                  misconception: 'छात्र अक्सर समझते हैं कि \'कथानक\' और \'आख्यान-संरचना\' पर्यायवाची हैं — जैसे \'कहानी क्या हुई\' और \'कहानी कैसे कही गई\' में कोई अंतर नहीं। असल.' }
           ],
-            remediations: { 'students-equate-plot-with-what': { steps: ['Have the student take ANY short story (even a fable) and create a two-column table: Column A = events in reading order.', 'For every row where A ≠ B, write one sentence: "The author places [event] here instead of chronologically to achieve.', 'Practice with the NCERT story — map the ledger scene (reading order: late; chronological: middle) and articulate its.', 'Re-attempt Diagnostic Question 3. If still stuck, revisit c11_hin_ar_cbse_01_002 (Class 11 Plot basics) and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — \'पाठ की 8-10 प्रमुख घटनाएं कागज पर तीर के निशान (→) से जोड़कर लिखो जैसे वे घटीं (कालानुक्रम)।\'.', 'कहां दो दृश्य साथ-साथ चले?\' चरण 3: दोनों टाइमलाइन साथ रखकर अंतर चिह्नित करें — यही आख्यान-संरचना है। चरण 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
-          hint: 'If stuck, review the "Setting Analysis Template" from c11_hin_ar_cbse_01_003: list.',
-          misconception: 'Students often treat setting as a static backdrop — just "where and when" — and atmosphere as a synonym for "weather.',
+          question: 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक.',
+          hint: 'यदि अटके, तो कक्षा 11 के \'हुसैन की कहानी अपनी ज़बानी\' (c11_hin_al_cbse_01_003) का.',
+          misconception: 'छात्र अक्सर \'परिवेश\' (Setting) को केवल \'स्थान और समय\' (Place and Time) मान लेते हैं, और \'वातावरण\' (Atmosphere) को.',
           parts: [
-                { id: 'a', prompt: 'What are the three components of setting in a narrative, and which component is most prominent in the opening scene of "ल्वज्नकल ध >कसईम+h"?', answer: 'The three components are time, place, and social environment',
-                  options: ['The three components are time, place, and social environment', 'village'],
-                  hint: 'If stuck, review the "Setting Analysis Template" from c11_hin_ar_cbse_01_003: list physical details.',
-                  misconception: 'Students often treat setting as a static backdrop — just "where and when" — and atmosphere as a synonym for "weather description".' },
-                { id: 'b', prompt: 'The story describes the roof leaking onto ल्वज्नकल during a critical conversation.', answer: 'Pathetic fallacy is the attribution of human emotions to nature',
-                  options: ['Pathetic fallacy is the attribution of human emotions to nature', 'it shows the house is old'],
-                  hint: 'If stuck, review the "Setting Analysis Template" from c11_hin_ar_cbse_01_003: list physical details.',
-                  misconception: 'Students often treat setting as a static backdrop — just "where and when" — and atmosphere as a synonym for "weather description".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और',
+                  options: ['पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के'],
+                  hint: 'यदि अटके, तो कक्षा 11 के \'हुसैन की कहानी अपनी ज़बानी\' (c11_hin_al_cbse_01_003) का परिवेश-वातावरण.',
+                  misconception: 'छात्र अक्सर \'परिवेश\' (Setting) को केवल \'स्थान और समय\' (Place and Time) मान लेते हैं, और \'वातावरण\' (Atmosphere) को \'मौसम\' (Weather) समझते.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student reread only the descriptive passages (skip dialogues) and highlight every noun-adjective pair related.', 'For each highlighted phrase, ask: "What does this make the reader feel?', 'What does it tell us about the character\'s state?" 3.', 'Create a two-column table: Column A = Physical Detail, Column B = Emotional Effect.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-place-and-time': { steps: ['चरण 1: छात्र को कहानी के पहले दो पैराग्राफ जोर से पढ़वाएं और हर संज्ञा (Noun) को घेरने को कहें — फिर पूछें: \'इनमें से.', 'लेखक ने इन्हें क्यों चुना?\' चरण 3: छात्र से कहें कि वह झोंपड़ी का चित्र बनाए और हर भाग को लेबल करे — फिर प्रत्येक लेबल.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves systematically examining the.',
-          hint: 'If stuck, re-read the story marking every paragraph where ल्वज्न्कल speaks or acts; then.',
-          misconception: 'Students often treat character analysis as a trait-listing exercise: "ल्वज्न्कल is old, poor, sad, and lonely." They.',
+          question: 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष.',
+          hint: 'यदि छात्र मुख्य पात्र की पहचान में कठिनाई महसूस कर रहा है, तो उसे पात्र के आंतरिक लक्षणों.',
+          misconception: 'छात्र अक्सर मुख्य पात्र की पहचान करते समय केवल उसके बाहरी दिखावे, सामाजिक स्थिति या कहानी में आने वाली बारंबारता पर.',
           parts: [
-                { id: 'a', prompt: 'Using the PEEL structure, write a 4-sentence paragraph analyzing ल्वज्न्कल\'s dignity in the final scene where he builds a new house.', answer: '**Point:** ल्वज्न्कल\'s act of building a new house reclaims his agency',
-                  options: ['**Point:** ल्वज्न्कल\'s act of building a new house reclaims his agency', 'he built a house'],
-                  hint: 'If stuck, re-read the story marking every paragraph where ल्वज्न्कल speaks or acts; then list those.',
-                  misconception: 'Students often treat character analysis as a trait-listing exercise: "ल्वज्न्कल is old, poor, sad, and lonely." They hunt for adjectives.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के',
+                  options: ['मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'यदि छात्र मुख्य पात्र की पहचान में कठिनाई महसूस कर रहा है, तो उसे पात्र के आंतरिक लक्षणों (विचार.',
+                  misconception: 'छात्र अक्सर मुख्य पात्र की पहचान करते समय केवल उसके बाहरी दिखावे, सामाजिक स्थिति या कहानी में आने वाली बारंबारता पर निर्भर करते हैं, जैसे.' }
           ],
-            remediations: { 'students-often-treat-character-analysis': { steps: ['If the student cannot move beyond trait-listing, do this 3-step remediation: (1) Have them re-read only the three.', '3-4), the dialogue about the house papers (pp.', '5-6), and the final building scene (pp.', '(2) For each scene, ask them to complete a table: **Action/Dialogue** | **What it shows** | **Why the author includes.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र इस गलती को दोहराता है, तो उसे निम्नलिखित चरणों का पालन करना चाहिए: - चरण 1: पाठ को दोबारा पढ़ें और प्रत्येक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining the traits.',
-          hint: 'If stuck, review the "Character Analysis: Supporting Characters" nodes from Class 11.',
-          misconception: 'Students often treat supporting characters as mere "helpers" or "obstacles" to the protagonist, labeling them simply.',
+          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के.',
+          hint: 'यदि नायक की विशेषताएं (तर्कशीलता, गरिमा, विद्रोह) स्पष्ट न हों, तो c12_hin_al_cbse_01_004.',
+          misconception: 'छात्र मानते हैं कि सहायक पात्रों का चित्रण केवल \'उनके नाम और एक वाक्य में भूमिका\' लिखना है। **गलत:** बोर्ड/CUET में.',
           parts: [
-                { id: 'a', prompt: 'Name three supporting characters in the chapter and state one defining trait for each, based solely on the text.', answer: 'Correct answer: ह्क्स्ज्का (पत्नी)',
-                  options: ['Correct answer: ह्क्स्ज्का (पत्नी)', 'assigns traits not supported by dialogue (e'],
-                  hint: 'If stuck, review the "Character Analysis: Supporting Characters" nodes from Class 11 (e.g.',
-                  misconception: 'Students often treat supporting characters as mere "helpers" or "obstacles" to the protagonist, labeling them simply as "good" or "bad.".' },
-                { id: 'b', prompt: 'Using the PEEL structure (Point, Evidence, Explanation, Link), write a short paragraph analyzing how त्एक्ज्क\'s dialogue in the scene where he confronts.', answer: 'Correct answer: Point',
-                  options: ['Correct answer: Point', 'angry at ह्क्स्ज्का', 'claims त्एक्ज्क is "angry at ह्क्स्ज्का" misses the nuance of his motivation'],
-                  hint: 'If stuck, review the "Character Analysis: Supporting Characters" nodes from Class 11 (e.g.',
-                  misconception: 'Students often treat supporting characters as mere "helpers" or "obstacles" to the protagonist, labeling them simply as "good" or "bad.".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ कथानक',
+                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ कथानक', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'यदि नायक की विशेषताएं (तर्कशीलता, गरिमा, विद्रोह) स्पष्ट न हों, तो c12_hin_al_cbse_01_004 के.',
+                  misconception: 'छात्र मानते हैं कि सहायक पात्रों का चित्रण केवल \'उनके नाम और एक वाक्य में भूमिका\' लिखना है। **गलत:** बोर्ड/CUET में पूछा जाता है — "पुजारी.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['Have the student re-read only the dialogue scenes involving ह्क्स्ज्का and त्एक्ज्क (pages 3-5 in the reference text).', 'Ask: "What does each character explicitly say they fear?" List the exact words.', 'Then ask: "What would happen to their family if they acted differently?" 4.', 'Finally, guide them to rewrite their character notes using the sentence frame: "Character X says ___ because they fear.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'cuet': { steps: ['चरण 1: c12_hin_al_cbse_01_002 (कथानक) दोबारा पढ़ें — घटनाक्रम में सहायक पात्र कब-कहाँ आते हैं, चिह्नित करें। चरण 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
-          hint: 'If stuck, review the \'Theme Statement Frame\' from Class 11: "The author uses.',
-          misconception: 'Students equate the primary theme with the *most repeated topic* (e.g., "old age homes") rather than the *author\'s.',
+          question: 'किसी पाठ का मुख्य विषय वह केंद्रीय विचार या भाव है जिसे लेखक दोहराता, विकसित.',
+          hint: 'यदि फंसें तो c12_hin_al_cbse_01_002 (कथानक और आख्यान-संरचना) पर दोबारा जाएं — घटनाओं के.',
+          misconception: 'छात्र अक्सर मुख्य विषय को पाठ के पहले या最后 वाक्य से जोड़कर मान लेते हैं कि वह वहीं स्पष्ट रूप से लिखा है — जैसे यदि पाठ.',
           parts: [
-                { id: 'a', prompt: 'Apply the \'theme-tracking\' method to Lvajnakl\'s dialogue with the manager (when he says, "रक्स ge lkS yk[k ckj cuk,¡xs").', answer: 'The dialogue reveals the theme of *reciprocal justice*',
-                  options: ['The dialogue reveals the theme of *reciprocal justice*', 'he promises to build more homes'],
-                  hint: 'If stuck, review the \'Theme Statement Frame\' from Class 11: "The author uses [character/conflict].',
-                  misconception: 'Students equate the primary theme with the *most repeated topic* (e.g., "old age homes") rather than the *author\'s perspective on that.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'किसी पाठ का मुख्य विषय वह केंद्रीय विचार या भाव है जिसे लेखक दोहराता, विकसित करता और',
+                  options: ['किसी पाठ का मुख्य विषय वह केंद्रीय विचार या भाव है जिसे लेखक दोहराता, विकसित करता और', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                  hint: 'यदि फंसें तो c12_hin_al_cbse_01_002 (कथानक और आख्यान-संरचना) पर दोबारा जाएं — घटनाओं के क्रम को.',
+                  misconception: 'छात्र अक्सर मुख्य विषय को पाठ के पहले या最后 वाक्य से जोड़कर मान लेते हैं कि वह वहीं स्पष्ट रूप से लिखा है — जैसे यदि पाठ शुरू में "झोंपड़ी.' }
           ],
-            remediations: { 'students-equate-the-primary-theme': { steps: ['If a student cannot distinguish topic from theme, do this 3-step remediation: (1) Give them two one-sentence summaries.', '(2) Have them complete this frame for Lvajnakl: "The author shows [topic] to prove that [universal truth about human.', 'If they still write plot events, revisit node c12_hin_al_cbse_01_002 (Plot and Narrative Structure) to separate.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को पहले पाठ पढ़ने के लिए कहिए और प्रत्येक stanza के बाद पूछिए: "यहां क्या दोहराया जा रहा है?" फिर उसके उत्तर पर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

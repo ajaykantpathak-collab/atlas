@@ -1,16 +1,38 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import QueryClientWrapper from "@/components/QueryClientWrapper";
-import { NextIntlClientProvider } from "next-intl";
-import { LanguageProvider } from "@/lib/i18n/LanguageProvider";
-import enMessages from "@/messages/en.json";
+import ErrorInit from "@/components/providers/ErrorInit";
+import IntlProviderBridge from "@/components/providers/IntlProviderBridge";
+
+// Define --font-inter app-wide: tailwind's `font-sans` and every explicit
+// 'Plus Jakarta Sans' reference resolve through this variable. Without it the
+// var() made font-family declarations invalid at computed-value time and all
+// student pages inherited the browser's default SERIF font.
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 export const dynamic = "force-dynamic";
 
+// PWA viewport: theme color matches the manifest (#0a0a0f) and
+// viewport-fit=cover lets standalone mode paint the whole notched screen —
+// safe-area padding is applied via the .sticky.top-0 / safe-* rules in
+// globals.css. The service worker is NOT registered here: registration lives
+// in the student/premium layouts (components/pwa/PWAProvider).
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#0a0a0f",
+  viewportFit: "cover",
+};
+
 export const metadata: Metadata = {
-  title: "Atlas — Every answer verified, never guessed | CBSE · ICSE · ISC",
+  title: "Atlas — Every answer verified, never guessed | CBSE",
   description:
-    "Atlas maps your entire syllabus as a living galaxy — interactive simulations, verified step-by-step solutions, per-concept mastery and board-pattern exams for Classes 1–12 across CBSE, ICSE & ISC.",
+    "Atlas maps your entire syllabus as a living galaxy — interactive simulations, verified step-by-step solutions, per-concept mastery and board-pattern exams for Classes 1–12 across CBSE.",
   manifest: "/manifest.json",
 };
 
@@ -19,34 +41,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const locale = "en";
-  const messages = enMessages;
-
+  // SSR always renders EN; the stored EN/हिंदी preference is applied
+  // client-side by IntlProviderBridge (LanguageProvider effect) with no
+  // hydration drift. Chrome strings translate; authored corpus content
+  // stays in its authored language.
   return (
-    <html lang={locale}>
-      <body className="min-h-screen bg-gray-50">
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{
-              if(localStorage.getItem('sw-purged')) return;
-              localStorage.setItem('sw-purged','1');
-              if('serviceWorker' in navigator){
-                navigator.serviceWorker.getRegistrations().then(function(rs){
-                  rs.forEach(function(r){ r.unregister(); });
-                });
-              }
-              if(window.caches && caches.keys){
-                caches.keys().then(function(ks){ ks.forEach(function(k){ caches.delete(k); }); });
-              }
-            }catch(e){}})();`,
-          }}
-        />
+    <html lang="en" className={`dark ${jakarta.variable}`}>
+      <body className="min-h-screen bg-[#0a0a0f] text-slate-100 font-sans">
         <a href="#main-content" className="skip-link">Skip to content</a>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <LanguageProvider>
-            <QueryClientWrapper>{children}</QueryClientWrapper>
-          </LanguageProvider>
-        </NextIntlClientProvider>
+        <IntlProviderBridge>
+          <QueryClientWrapper>{children}</QueryClientWrapper>
+          {/* MON-01 lite: client error reporting (deduped, throttled) */}
+          <ErrorInit />
+        </IntlProviderBridge>
       </body>
     </html>
   );

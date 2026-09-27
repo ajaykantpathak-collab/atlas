@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch02_p3: SimDef = {
     id: 'v3_c12_hin_a_ch02_p3',
-    title: 'lfPpnkuan ghjkuan okRL;k;u ^vKs; · Part 3/3',
+    title: 'सरोज स्मृति · Part 3/3',
     subtitle: 'He lost everything — and gained every register of the language',
-    classLevel: 12, subject: 'hin_a', topic: 'lfPpnkuan ghjkuan okRL;k;u ^vKs; · Part 3/3',
+    classLevel: 12, subject: 'hin_a', topic: 'सरोज स्मृति · Part 3/3',
     chapters: ['c12_hin_a_ch02'],
     nodeIds: ['c12_hin_a_cbse_02_013', 'c12_hin_a_cbse_02_014', 'c12_hin_a_cbse_02_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,36 +19,15 @@ export const c12_hin_a_ch02_p3: SimDef = {
         hook: 'Nirala outgrew Chhayavad\'s self-centred lyricism — from subjective romance to epic history, satire and metaphysical inquiry. His language had \'many forms and levels\': the same pen wrote high-Sanskrit prayer and village-cornfield satire. Grief was the fuel; craft was the engine.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of examining a text beyond its surface meaning to uncover underlying themes, evaluate the author\'s choices (language, structure.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सरोज स्मृति — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण और विश्लेषण अभ्यास में छात्र को कविता के पद्यांश का विस्तृत भावार्थ देना, काव्यात्मक युक्तियों की पहचान करना, और केंद्रीय भाव से जोड़कर व्याख्या करना सिखाया जाता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_02_013', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Trace a poet\'s alchemy: follow the losses that forged him, map his leap beyond Chhayavad\'s bounds, and hear one voice speak in epic Sanskrit and village Avadhi both.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
+        labels: ['सरोज स्मृति — आशय-स्पष्टीकरण', 'सरोज स्मृति — परीक्षा-उत्तर', 'सरोज स्मृति — वाचन-पाठ'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_02_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a detective arriving at a crime scene — the poem is the scene, and the clues are the words, images, and structure left by the poet.',
-            decisions: [{ prompt: 'What is the primary difference between *literal comprehension* (node 012) and *critical interpretation* (this node) when analyzing a poem?', options: [
-                { text: 'Literal comprehension retrieves facts explicitly stated in the text (e.g., "The poet', outcome: 'Literal comprehension retrieves facts explicitly stated in the text (e.g., "The poet remembers his.' },
-                { text: 'critical analysis', outcome: 'Not quite — Students believe "critical analysis" means *finding faults* or *criticizing* the poem.', reveals: 'critical-analysis-means-finding-faults' },
-                { text: 'The poem is good but the language is difficult', outcome: 'Not quite — Students believe "critical analysis" means *finding faults* or *criticizing* the poem.', reveals: 'critical-analysis-means-finding-faults' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_02_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit in the exam hall and see: "ljkst Le`fr osQ \'kCnksa dk vFkZ Li"V dhft, vkSj dfo dh vedk dks o.kZ dhft,".',
-            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
-                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
-                { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing skills" means memorizing model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-model' },
-                { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means memorizing model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-model' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a literature circle where each student must share one insight about the father\'s grief in "ljkst Le`fr" and then build on a classmate\'s.',
-            decisions: [{ prompt: 'What is the primary purpose of a structured literary discussion in a Class 12 Hindi classroom?', options: [
-                { text: 'The primary purpose is to develop students\' ability to articulate evidence‑based', outcome: 'The primary purpose is to develop students\' ability to articulate evidence‑based interpretations.' },
-                { text: 'to memorize the poem', outcome: 'Not quite — Students often treat speaking and listening as "just talking" and believe that sharing personal.', reveals: 'students-often-treat-speaking-and' },
-                { text: 'It was sad', outcome: 'Not quite — Students often treat speaking and listening as "just talking" and believe that sharing personal.', reveals: 'students-often-treat-speaking-and' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_02_013', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re making a memorial film for a departed grandparent. The editor wants strict chronology — birth, childhood, marriage, death — \'so it\'s clear.\' Your best asset is a single fading photograph of her as a young woman.',
             decisions: [{ prompt: 'What does the structure of Agyeya\'s \'लज्जत लेखा\' advise?', options: [
@@ -68,65 +47,38 @@ export const c12_hin_a_ch02_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of examining.',
-          hint: 'If stuck, return to c12_hin_a_cbse_02_008 (Imagery and Metaphor) and.',
-          misconception: 'Students believe "critical analysis" means *finding faults* or *criticizing* the poem.',
+          question: 'आशय-स्पष्टीकरण और विश्लेषण अभ्यास में छात्र को कविता के पद्यांश का विस्तृत.',
+          hint: 'यदि फंसे हों तो पद्यांश-वार भावार्थ (c12_hin_a_cbse_02_002) की दोबारा समीक्षा करें और.',
+          misconception: 'छात्र अक्सर आशय-स्पष्टीकरण में केवल पद्यांश के शब्दार्थ का अनुवाद करके भाव-विश्लेषण को छोड़ देते हैं, जैसे "फूलों की.',
           parts: [
-                { id: 'a', prompt: 'Apply the concept of *juxtaposition* to compare the imagery of the mother in stanza 2 ("ns[krh eq>s rw g¡lh ean / gksBksa esa fctyh i¡Qlh Lian") with the.', answer: 'Step 1: Identify mother\'s imagery',
-                  options: ['Step 1: Identify mother\'s imagery', 'critical analysis', 'The poem is good but the language is difficult', 'Nirala should have used simpler words'],
-                  hint: 'If stuck, return to c12_hin_a_cbse_02_008 (Imagery and Metaphor) and c12_hin_a_cbse_02_009 (Irony.',
-                  misconception: 'Students believe "critical analysis" means *finding faults* or *criticizing* the poem.' },
-                { id: 'b', prompt: 'Analyze how the refrain "nq[k gh thou dh dFkk jgh / D;k dgw¡ vkt tks ugha dgh" functions structurally and philosophically across the poem\'s three appearances.', answer: 'Structurally, the refrain acts as an anchor',
-                  options: ['Structurally, the refrain acts as an anchor', 'critical analysis', 'The poem is good but the language is difficult', 'Nirala should have used simpler words'],
-                  hint: 'If stuck, return to c12_hin_a_cbse_02_008 (Imagery and Metaphor) and c12_hin_a_cbse_02_009 (Irony.',
-                  misconception: 'Students believe "critical analysis" means *finding faults* or *criticizing* the poem.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण और विश्लेषण अभ्यास में छात्र को कविता के पद्यांश का विस्तृत भावार्थ देना,',
+                  options: ['आशय-स्पष्टीकरण और विश्लेषण अभ्यास में छात्र को कविता के पद्यांश का विस्तृत भावार्थ देना,', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
+                  hint: 'यदि फंसे हों तो पद्यांश-वार भावार्थ (c12_hin_a_cbse_02_002) की दोबारा समीक्षा करें और विशेष रूप से.',
+                  misconception: 'छात्र अक्सर आशय-स्पष्टीकरण में केवल पद्यांश के शब्दार्थ का अनुवाद करके भाव-विश्लेषण को छोड़ देते हैं, जैसे "फूलों की चादर" को बस "फूलों से.' }
           ],
-            remediations: { 'critical-analysis-means-finding-faults': { steps: ['If a student exhibits the "criticism vs.', 'analysis" misconception: Step 1 — Show a model board answer (from CBSE marking scheme) that analyzes a device without.', 'Step 2 — Give them a 2-line excerpt from the poem (e.g., "ur u;uksa ls vkyksd mrj") and ask: "What *work* does the word.', 'Step 3 — Have them rewrite their previous "critical" answer replacing every opinion ("I feel", "It should be") with.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "critical analysis" means *finding faults* or *criticizing* the poem.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "Nirala\'s use of Braj-inflected Khari Boli in \'ljkst Le`fr\' is merely a stylistic flourish; the poem would have the same emotional impact.', answer: 'The claim is false',
-                  options: ['The claim is false', 'critical analysis', 'The poem is good but the language is difficult', 'Nirala should have used simpler words'],
-                  hint: 'If stuck, return to c12_hin_a_cbse_02_008 (Imagery and Metaphor) and c12_hin_a_cbse_02_009 (Irony.',
-                  misconception: 'Students believe "critical analysis" means *finding faults* or *criticizing* the poem.' }
-          ],
-            remediations: { 'critical-analysis-means-finding-faults': { steps: ['If a student exhibits the "criticism vs.', 'analysis" misconception: Step 1 — Show a model board answer (from CBSE marking scheme) that analyzes a device without.', 'Step 2 — Give them a 2-line excerpt from the poem (e.g., "ur u;uksa ls vkyksd mrj") and ask: "What *work* does the word.', 'Step 3 — Have them rewrite their previous "critical" answer replacing every opinion ("I feel", "It should be") with.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को बताइए कि पहले पद्यांश को दो बार पढ़िए: पहली बार सिर्फ शब्दों को समझने के लिए, दूसरी बार भाव महसूस करने के लिए।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
-          hint: 'If the student cannot generate a Point for a given question, they should re-read the.',
-          misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.',
+          question: 'परीक्षा-उत्तर लेखन कौशल (\'सरोज स्मृति\' के संदर्भ में) वह संरचित लेखन-प्रक्रिया.',
+          hint: 'यदि उत्तर-लेखन कठिन लगे तो पहले आशय-स्पष्टीकरण के सरल अभ्यास करें — एक पंक्ति का अर्थ और.',
+          misconception: 'छात्र मान लेते हैं कि काव्य-प्रश्न का उत्तर \'भावना\' लिखने से पूरा हो जाता है। सटीक गलत कदम: वे दावा लिखकर रुक जाते हैं.',
           parts: [
-                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
-                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explain, Line', 'writing skills', '"writing skills" means memorizing model answers for predicted questions'],
-                  hint: 'If the student cannot generate a Point for a given question, they should re-read the Critical.',
-                  misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.' },
-                { id: 'b', prompt: 'A student writes: "In the poem, the father misses his daughter. He sees her in the rainbow.', answer: 'Weaknesses: (1) No textual evidence',
-                  options: ['Weaknesses: (1) No textual evidence', 'writing skills', '"writing skills" means memorizing model answers for predicted questions'],
-                  hint: 'If the student cannot generate a Point for a given question, they should re-read the Critical.',
-                  misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल (\'सरोज स्मृति\' के संदर्भ में) वह संरचित लेखन-प्रक्रिया है जिसमें',
+                  options: ['परीक्षा-उत्तर लेखन कौशल (\'सरोज स्मृति\' के संदर्भ में) वह संरचित लेखन-प्रक्रिया है जिसमें', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
+                  hint: 'यदि उत्तर-लेखन कठिन लगे तो पहले आशय-स्पष्टीकरण के सरल अभ्यास करें — एक पंक्ति का अर्थ और भाव बताना.',
+                  misconception: 'छात्र मान लेते हैं कि काव्य-प्रश्न का उत्तर \'भावना\' लिखने से पूरा हो जाता है। सटीक गलत कदम: वे दावा लिखकर रुक जाते हैं — \'कवि शोकग्रस्त है\'.' }
           ],
-            remediations: { 'writing-skills-means-memorizing-model': { steps: ['Have the student take one past board question (e.g., 2023: "ljkst osQ uo&oèkw :i dk o.kZu dhft,") and write a fresh.', 'Together, highlight each PEEL component in their answer using four coloured pens.', 'Identify missing components (usually Explanation and Link).', 'Rewrite only the weak paragraphs, keeping the strong Point and Evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { '3-5': { steps: ['PEEL ढाँचा स्मरण कराएँ — एक प्रश्न पर चारों परतें अलग-अलग रंग से लिखवाएँ ताकि हर परत दिखे। 2.', 'दो उत्तर दिखाएँ — एक सिर्फ-दावा, एक पूर्ण-PEEL — और अंक-अंतर बतवाएँ (1 अंक बनाम 3 अंक)। 3.', 'एक पंक्ति दें और पूछें \'यह पंक्ति शोक को कैसे दिखाती है?\' — \'क्या कहती है\' नहीं। 4.', 'समय-बंधित अभ्यास: 3-अंकीय उत्तर 5 मिनट में PEEL-ढाँचे में संरचित करवाएँ। 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
-          hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" (c12_hin_a_cbse_02_008) and.',
-          misconception: 'Students often treat speaking and listening as "just talking" and believe that sharing personal feelings without.',
+          question: 'वाचन-पाठ और चर्चा-बिंदु (\'सरोज स्मृति\' के संदर्भ में) वह मौखिक-सहयोगी कौशल है.',
+          hint: 'यदि चर्चा-बिंदु न बन पाएँ तो पहले पाठ पर सरल \'क्यों/कैसे\' प्रश्न लिखने का अभ्यास करें.',
+          misconception: 'छात्र मान लेते हैं कि चर्चा-बिंदु का अर्थ है पाठ से कोई भी प्रश्न बनाना। सटीक गलत कदम: वे तथ्यात्मक प्रश्न लिखते हैं.',
           parts: [
-                { id: 'a', prompt: 'What is the primary purpose of a structured literary discussion in a Class 12 Hindi classroom?', answer: 'The primary purpose is to develop students\' ability to articulate evidence‑based',
-                  options: ['The primary purpose is to develop students\' ability to articulate evidence‑based', 'to memorize the poem', 'It was sad'],
-                  hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" (c12_hin_a_cbse_02_008) and "Critical.',
-                  misconception: 'Students often treat speaking and listening as "just talking" and believe that sharing personal feelings without textual anchoring.' },
-                { id: 'b', prompt: 'During a discussion on the metaphor "nq[k gh thou dh dFkk jgh", a peer says, "This means life is short." How would you apply the concept of metaphor analysis.', answer: 'Step 1: Identify the tenor (life) and vehicle (unfinished story)',
-                  options: ['Step 1: Identify the tenor (life) and vehicle (unfinished story)', 'life is short', 'It was sad'],
-                  hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" (c12_hin_a_cbse_02_008) and "Critical.',
-                  misconception: 'Students often treat speaking and listening as "just talking" and believe that sharing personal feelings without textual anchoring.' },
-                { id: 'c', prompt: 'Compare two possible discussion openings: (A) "I felt sad reading this poem." (B) "The repetition of \'Fkj&Fkj&Fkj\' in stanza 2 creates a rhythmic echo of the.', answer: 'Opening B is more productive',
-                  options: ['Opening B is more productive', 'It was sad'],
-                  hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" (c12_hin_a_cbse_02_008) and "Critical.',
-                  misconception: 'Students often treat speaking and listening as "just talking" and believe that sharing personal feelings without textual anchoring.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ और चर्चा-बिंदु (\'सरोज स्मृति\' के संदर्भ में) वह मौखिक-सहयोगी कौशल है जिसमें',
+                  options: ['वाचन-पाठ और चर्चा-बिंदु (\'सरोज स्मृति\' के संदर्भ में) वह मौखिक-सहयोगी कौशल है जिसमें', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
+                  hint: 'यदि चर्चा-बिंदु न बन पाएँ तो पहले पाठ पर सरल \'क्यों/कैसे\' प्रश्न लिखने का अभ्यास करें — फिर उन्हें.',
+                  misconception: 'छात्र मान लेते हैं कि चर्चा-बिंदु का अर्थ है पाठ से कोई भी प्रश्न बनाना। सटीक गलत कदम: वे तथ्यात्मक प्रश्न लिखते हैं (\'कविता किसने लिखी?\'.' }
           ],
-            remediations: { 'students-often-treat-speaking-and': { steps: ['Revisit the poem with a highlighter: mark every image, metaphor, and sound device.', 'Practice the "Quote‑Analyse‑Question" routine: pick one marked line, write a two‑sentence analysis, then frame an open.', 'Record a 1‑minute solo response, playback, and check for textual evidence and analytical vocabulary.', 'Pair with a peer and do a timed 2‑minute exchange using the routine; give each other feedback on evidence use.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['बंद-प्रश्न और खुले-प्रश्न के जोड़े दिखाकर अंतर समझाएँ — \'क्या हुआ?\' बनाम \'क्यों ऐसा हुआ और इसका क्या अर्थ है?\' 2.', 'पाठ का एक अंश पढ़कर तीन चर्चा-बिंदु निकालवाएँ — फिर उन्हें खुले/बंद में वर्गीकृत करवाएँ। 3.', 'वाचन का मॉडल दें — एक अंश भाव के साथ पढ़ें, फिर बिना भाव के — अंतर सुनवाएँ। 4.', 'युगल-चर्चा करवाएँ जहाँ दोनों को विपरीत पक्ष रखना हो — \'स्मरण सांत्वना है\' बनाम \'स्मरण पीड़ा है\'। 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

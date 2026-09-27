@@ -6,16 +6,58 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AtlasMark } from '@/components/atlas/AtlasMark'
+import { useAuthStore } from '@/stores/authStore'
+import { getAuthToken } from '@/lib/api'
 
 const navItems = [
   { href: '/parent-overview', label: 'Overview', icon: LayoutDashboard },
 ]
 
+function authHeaders(): Record<string, string> {
+  if (typeof window === 'undefined') return {}
+  const token = getAuthToken()
+  return token ? { Authorization: `Bearer ${token}` } : {}
+}
+
+/** Get the logged-in parent's id from the persisted student-store. */
+function getParentId(): string | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const raw = localStorage.getItem('student-storage');
+    if (!raw) return null;
+    return JSON.parse(raw)?.state?.profile?.id || null;
+  } catch {
+    return null;
+  }
+}
+
+function initials(name: string): string {
+  return name.split(' ').filter(Boolean).map((w) => w.charAt(0)).slice(0, 2).join('').toUpperCase() || 'P';
+}
+
 export default function ParentLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const user = useAuthStore((s) => s.user)
+  // Real first linked child from the parent dashboard API — no hardcoded
+  // demo identities. Chip stays hidden until real data arrives.
+  const [child, setChild] = useState<{ name: string; grade: string | null } | null>(null)
+
+  useEffect(() => {
+    const pid = user?.id || getParentId()
+    if (!pid) return
+    let cancelled = false
+    fetch(`/api/dashboard/parent/${pid}`, { headers: authHeaders() })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        const c = d?.children?.[0]
+        if (c?.student_name && !cancelled) setChild({ name: c.student_name, grade: c.grade ?? null })
+      })
+      .catch(() => {})
+    return () => { cancelled = true }
+  }, [user?.id])
 
   return (
     <div className="min-h-screen mesh-bg flex">
@@ -54,17 +96,19 @@ export default function ParentLayout({ children }: { children: React.ReactNode }
         </nav>
 
         <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-surface-300/20">
-          <div className="glass-card p-3">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-brand-gradient flex items-center justify-center text-xs font-bold text-white">
-                A
-              </div>
-              <div className="min-w-0">
-                <p className="text-xs font-medium text-white truncate">Aarav Sharma</p>
-                <p className="text-[10px] text-surface-600">Class 10 · CBSE</p>
+          {child && (
+            <div className="glass-card p-3">
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-full bg-brand-gradient flex items-center justify-center text-xs font-bold text-white">
+                  {child.name.charAt(0).toUpperCase()}
+                </div>
+                <div className="min-w-0">
+                  <p className="text-xs font-medium text-white truncate">{child.name}</p>
+                  {child.grade && <p className="text-[10px] text-surface-600">Class {child.grade}</p>}
+                </div>
               </div>
             </div>
-          </div>
+          )}
         </div>
       </aside>
 
@@ -91,9 +135,9 @@ export default function ParentLayout({ children }: { children: React.ReactNode }
               </button>
               <div className="flex items-center gap-2 cursor-pointer">
                 <div className="w-8 h-8 rounded-full bg-mint-gradient flex items-center justify-center text-xs font-bold text-white">
-                  PS
+                  {initials(user?.name || 'Parent')}
                 </div>
-                <span className="text-xs text-white hidden sm:block">Priya Sharma</span>
+                <span className="text-xs text-white hidden sm:block">{user?.name || 'Parent'}</span>
                 <ChevronDown className="w-3 h-3 text-surface-600 hidden sm:block" />
               </div>
             </div>

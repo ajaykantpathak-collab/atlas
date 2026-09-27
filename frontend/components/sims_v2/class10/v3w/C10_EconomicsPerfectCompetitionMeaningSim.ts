@@ -16,7 +16,7 @@ export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
     discovery: {
         question: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.',
         options: ['Correct answer: The IT firm benefits more', 'IT firms are bigger so they win', 'globalisation benefits consumers ONLY through cheaper imported goods'],
-        answer: 'Correct answer: The IT firm benefits more',
+        answer: 'The IT firm benefits more',
         hook: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.',
     },
     teaching: [
@@ -86,7 +86,7 @@ export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
           hint: 'If stuck, revisit "Competition in Markets: Many Sellers, Many Buyers".',
           misconception: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.',
           parts: [
-                { id: 'a', prompt: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.', answer: 'Correct answer: The IT firm benefits more',
+                { id: 'a', prompt: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.', answer: 'The IT firm benefits more',
                   options: ['Correct answer: The IT firm benefits more', 'IT firms are bigger so they win', 'globalisation benefits consumers ONLY through cheaper imported goods'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.' }
@@ -105,7 +105,7 @@ export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
                   options: ['Expected answer: Example', 'globalisation benefits consumers ONLY through cheaper imported goods'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.' },
-                { id: 'c', prompt: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.', answer: 'Correct answer: The IT firm benefits more',
+                { id: 'c', prompt: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.', answer: 'The IT firm benefits more',
                   options: ['Correct answer: The IT firm benefits more', 'IT firms are bigger so they win', 'globalisation benefits consumers ONLY through cheaper imported goods'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.' }
@@ -146,7 +146,7 @@ export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
           hint: 'If stuck, revisit c10_eco_cbse_04_004 (Liberalisation) and c8_eco_ch1_2 (Factors of.',
           misconception: 'Students often think "globalisation hurts all small producers equally" and write generic answers like "small industries.',
           parts: [
-                { id: 'a', prompt: 'Explain why a small garment manufacturer in Tirupur might lose business to a large MNC-branded garment company even if both sell similar quality cotton shirts.', answer: 'Correct answer: The MNC benefits from economies of scale (bulk purchasing of raw',
+                { id: 'a', prompt: 'Explain why a small garment manufacturer in Tirupur might lose business to a large MNC-branded garment company even if both sell similar quality cotton shirts.', answer: 'The MNC benefits from economies of scale (bulk purchasing of raw',
                   options: ['Correct answer: The MNC benefits from economies of scale (bulk purchasing of raw', 'the MNC pays lower wages', 'globalisation hurts all small producers equally'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "globalisation hurts all small producers equally" and write generic answers like "small industries closed down." The.' },

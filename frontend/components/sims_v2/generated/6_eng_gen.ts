@@ -111,15 +111,15 @@ export const C6_ENG_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What is the \"plot\" of a story?",
-    "answer": "The plot is the sequence of events that tell the story, usually starting with a situation, moving through a conflict or change, and ending with a resolution",
+    "question": "If the story took place in a crowded classroom instead of a quiet riverbank, how might Jahnavi's experience change?",
+    "answer": "Steps: 1. Identify the current setting's impact (solitude/reflection). 2. Imagine the new setting (distraction/noise)",
     "options": [
-     "A rhyme scheme is the pattern of sounds at the ends of lines in a poem, labeled using letters (like AABB)",
-     "The imagery is \"golden sun,\" \"cold morning dew,\" and \"banana leaves.\" To identify this, look for words that trigger sight (golden), touch (cold), or nature (banana leaves)",
-     "The plot is the sequence of events that tell the story, usually starting with a situation, moving through a conflict or change, and ending with a resolution"
+     "She would likely feel torn; she values her family, but her desire for an education is strong enough to make her consider the opportunity",
+     "It makes her more frustrated because she is \"bright and capable\" enough to know what she is missing",
+     "Steps: 1. Identify the current setting's impact (solitude/reflection). 2. Imagine the new setting (distraction/noise)"
     ],
     "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student confuses \"plot\" with \"characters\" or \"theme,\" showing they lack a basic structure for narrative.",
+    "misconception": "A wrong answer shows the student does not understand how setting influences character behavior.",
     "id": "gen_c6_eng_ch01_q1",
     "nodeId": "c6_english_u1_001",
     "difficulty": "advanced",
@@ -135,8 +135,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Why is it difficult for Jahnavi to achieve her dream of education?",
     "answer": "Her family's economic situation and gender expectations limit her access to schooling",
     "options": [
-     "He watched the spider because he was feeling defeated and looking for inspiration",
-     "The spider represents the quality of persistence; just as the spider refuses to stop spinning despite falling, Bruce refuses to stop fighting despite losing",
+     "Using context keeps your reading flow smooth and helps you practice critical thinking rather than just memorizing facts",
+     "We use them to help the reader experience the object through their imagination, making the writing feel real",
      "Her family's economic situation and gender expectations limit her access to schooling"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
@@ -153,15 +153,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is a 'theme' in a story?",
-    "answer": "A theme is the main message or life lesson an author shares",
+    "question": "Why might an author choose to show a character failing many times before they finally succeed?",
+    "answer": "To highlight that determination is a process, not a one-time event",
     "options": [
-     "A rhyme scheme is the pattern of sounds at the ends of lines in a poem, labeled using letters (like AABB)",
-     "The imagery is \"golden sun,\" \"cold morning dew,\" and \"banana leaves.\" To identify this, look for words that trigger sight (golden), touch (cold), or nature (banana leaves)",
-     "A theme is the main message or life lesson an author shares"
+     "The spider represents the quality of persistence; just as the spider refuses to stop spinning despite falling, Bruce refuses to stop fighting despite losing",
+     "Using context keeps your reading flow smooth and helps you practice critical thinking rather than just memorizing facts",
+     "To highlight that determination is a process, not a one-time event"
     ],
     "hint": "Straight from the 'theme' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"the plot\" or \"the summary\") reveals that the student is confusing *what happens* in the story with *why it matters*.",
+    "misconception": "A student who misses this likely views \"success\" as something that should happen instantly, missing the point of the struggle.",
     "id": "gen_c6_eng_ch01_q3",
     "nodeId": "c6_english_u1_003",
     "difficulty": "advanced",
@@ -177,8 +177,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Why did King Bruce watch the spider in the cave?",
     "answer": "He watched the spider because he was feeling defeated and looking for inspiration",
     "options": [
-     "To highlight that determination is a process, not a one-time event",
-     "The problem creates a reason for characters to act, pushing the plot forward toward a solution",
+     "We use them to help the reader experience the object through their imagination, making the writing feel real",
+     "It keeps the listeners interested and helps them understand which parts of your idea are most important",
      "He watched the spider because he was feeling defeated and looking for inspiration"
     ],
     "hint": "Straight from the 'narrative poem' slide -- match the key terms.",
@@ -195,15 +195,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is a rhyme scheme, and how do we label it?",
-    "answer": "A rhyme scheme is the pattern of sounds at the ends of lines in a poem, labeled using letters (like AABB)",
+    "question": "Explain the difference between a direct description (e.g., \"The field was green\") and a metaphor (e.g., \"The field was a velvet blanket\").",
+    "answer": "A direct description states a fact, but a metaphor creates a deeper meaning by saying the field *is* the blanket, suggesting softness and comfort",
     "options": [
-     "The plot is the sequence of events that tell the story, usually starting with a situation, moving through a conflict or change, and ending with a resolution",
-     "A theme is the main message or life lesson an author shares",
-     "A rhyme scheme is the pattern of sounds at the ends of lines in a poem, labeled using letters (like AABB)"
+     "A dictionary gives a fixed, general definition, whereas context clues provide a meaning specific to how the word is used in that particular story",
+     "The second sentence is better because it adds texture, color, and taste",
+     "A direct description states a fact, but a metaphor creates a deeper meaning by saying the field *is* the blanket, suggesting softness and comfort"
     ],
     "hint": "Straight from the 'Poetic devices' slide -- match the key terms.",
-    "misconception": "If a student says \"it’s just the last word,\" they are missing the pattern aspect—the labels show which lines match, not just the existence of the word.",
+    "misconception": "A wrong answer usually confuses metaphors with similes (which use \"like\" or \"as\"), showing the student doesn't realize metaphors drop those comparison words.",
     "id": "gen_c6_eng_ch01_q5",
     "nodeId": "c6_english_u1_005",
     "difficulty": "standard",
@@ -216,15 +216,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What are the three essential components that make a poem a \"narrative\" poem?",
-    "answer": "A narrative poem must have characters, a setting, and a plot (sequence of events)",
+    "question": "If a poem describes the beauty of a sunset without mentioning any characters or actions, is it a narrative poem? Why or why not?",
+    "answer": "No, it is not a narrative poem because it lacks a plot, characters, and a sequence of events",
     "options": [
-     "The three parts are stating the idea, providing a reason for it, and giving an example",
-     "A rhyme scheme is the pattern of sounds at the ends of lines in a poem, labeled using letters (like AABB)",
-     "A narrative poem must have characters, a setting, and a plot (sequence of events)"
+     "Steps: 1. Identify the current setting's impact (solitude/reflection). 2. Imagine the new setting (distraction/noise)",
+     "She would likely feel torn; she values her family, but her desire for an education is strong enough to make her consider the opportunity",
+     "No, it is not a narrative poem because it lacks a plot, characters, and a sequence of events"
     ],
     "hint": "Straight from the 'Narrative poetry' slide -- match the key terms.",
-    "misconception": "A student who lists only \"rhyme\" or \"feelings\" shows they are confusing narrative poetry with general lyric or sound-based poetry.",
+    "misconception": "A wrong answer suggests the student thinks any poem that uses descriptive words is a story.",
     "id": "gen_c6_eng_ch01_q6",
     "nodeId": "c6_english_u1_006",
     "difficulty": "standard",
@@ -300,15 +300,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the difference between a noun and a pronoun?",
-    "answer": "A noun names a specific person, place, or thing, while a pronoun takes the place of that noun",
+    "question": "In the sentence, \"Madhumati worked hard, and Madhumati sold the fruits,\" why is it better to use a pronoun?",
+    "answer": "It is better because it avoids repeating the name 'Madhumati', making the sentence less repetitive",
     "options": [
-     "Informal letters are written to friends and family with casual language, while formal letters are for officials or businesses using specific formats",
-     "The second sentence is better because it adds texture, color, and taste",
-     "A noun names a specific person, place, or thing, while a pronoun takes the place of that noun"
+     "The response should be: \"The Sage tricked him because he wanted to teach him that hard work creates wealth, like how the banana plantation grew after six years",
+     "Steps: 1. Identify the current setting's impact (solitude/reflection). 2. Imagine the new setting (distraction/noise)",
+     "It is better because it avoids repeating the name 'Madhumati', making the sentence less repetitive"
     ],
     "hint": "Straight from the 'noun' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student confuses nouns with action words or adjectives, indicating they need to revisit naming words first.",
+    "misconception": "A wrong answer shows the student does not yet understand the purpose of pronouns in improving writing flow.",
     "id": "gen_c6_eng_ch01_q8",
     "nodeId": "c6_english_u1_008",
     "difficulty": "standard",
@@ -321,15 +321,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the primary difference between an informal letter and a formal letter?",
-    "answer": "Informal letters are written to friends and family with casual language, while formal letters are for officials or businesses using specific formats",
+    "question": "Why do we use sensory details when writing a description?",
+    "answer": "We use them to help the reader experience the object through their imagination, making the writing feel real",
     "options": [
-     "A noun names a specific person, place, or thing, while a pronoun takes the place of that noun",
-     "The second sentence is better because it adds texture, color, and taste",
-     "Informal letters are written to friends and family with casual language, while formal letters are for officials or businesses using specific formats"
+     "The spider represents the quality of persistence; just as the spider refuses to stop spinning despite falling, Bruce refuses to stop fighting despite losing",
+     "Using context keeps your reading flow smooth and helps you practice critical thinking rather than just memorizing facts",
+     "We use them to help the reader experience the object through their imagination, making the writing feel real"
     ],
     "hint": "Straight from the 'Letter writing' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student hasn't grasped the purpose of the audience in communication.",
+    "misconception": "A wrong answer indicates the student thinks \"description\" is just listing facts rather than creating an experience.",
     "id": "gen_c6_eng_ch01_q9",
     "nodeId": "c6_english_u1_009",
     "difficulty": "advanced",
@@ -342,15 +342,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What are the three parts of a well-organized spoken idea?",
-    "answer": "The three parts are stating the idea, providing a reason for it, and giving an example",
+    "question": "If your friend is explaining a story and you have a different opinion, what is the best way to handle it?",
+    "answer": "The best way is to listen until they finish without interrupting, then politely say, \"I see your point, but I think",
     "options": [
-     "A rhyme scheme is the pattern of sounds at the ends of lines in a poem, labeled using letters (like AABB)",
-     "The imagery is \"golden sun,\" \"cold morning dew,\" and \"banana leaves.\" To identify this, look for words that trigger sight (golden), touch (cold), or nature (banana leaves)",
-     "The three parts are stating the idea, providing a reason for it, and giving an example"
+     "It makes her more frustrated because she is \"bright and capable\" enough to know what she is missing",
+     "The 'King Bruce' way is to try a fourth time, perhaps changing your technique",
+     "The best way is to listen until they finish without interrupting, then politely say, \"I see your point, but I think"
     ],
     "hint": "Straight from the 'Speaking and listening' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student believes speaking is just \"talking\" without structure, which leads to rambling responses.",
+    "misconception": "A wrong answer (interrupting or ignoring) shows a lack of awareness of the \"active\" nature of listening.",
     "id": "gen_c6_eng_ch01_q10",
     "nodeId": "c6_english_u1_010",
     "difficulty": "advanced",
@@ -363,21 +363,6 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Analyze the relationship between the moment of \"despair\" and the \"river speaking.\" What does this tell us about the plot?",
-    "answer": "The despair is the \"inciting incident,\" providing the motivation for the character to seek change, which leads to the river speaking",
-    "options": [
-     "The problem creates a reason for characters to act, pushing the plot forward toward a solution",
-     "Her family's economic situation and gender expectations limit her access to schooling",
-     "The despair is the \"inciting incident,\" providing the motivation for the character to seek change, which leads to the river speaking"
-    ],
-    "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student views the events as random occurrences rather than a connected chain of cause and effect.",
-    "id": "gen_c6_eng_ch01_q11",
-    "nodeId": "c6_english_u1_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
     "question": "Create a one-sentence change to the setting and explain how it would change the plot's \"turning point.\"",
     "answer": "Example: \"If the river was a dry, dusty road, the character would hear a voice from the ground instead of water",
     "options": [
@@ -387,22 +372,7 @@ export const C6_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
     "misconception": "A poor answer lacks imagination or fails to connect the new setting to the character's discovery.",
-    "id": "gen_c6_eng_ch01_q12",
-    "nodeId": "c6_english_u1_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "If the story took place in a crowded classroom instead of a quiet riverbank, how might Jahnavi's experience change?",
-    "answer": "Steps: 1. Identify the current setting's impact (solitude/reflection). 2. Imagine the new setting (distraction/noise)",
-    "options": [
-     "It makes her more frustrated because she is \"bright and capable\" enough to know what she is missing",
-     "The entry should show her noticing something beyond her village or working hard despite her limitations",
-     "Steps: 1. Identify the current setting's impact (solitude/reflection). 2. Imagine the new setting (distraction/noise)"
-    ],
-    "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student does not understand how setting influences character behavior.",
-    "id": "gen_c6_eng_ch01_q13",
+    "id": "gen_c6_eng_ch01_q11",
     "nodeId": "c6_english_u1_001",
     "difficulty": "advanced"
    },
@@ -411,28 +381,28 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Is the setting just a background, or is it an active part of the story? Justify your answer.",
     "answer": "It is an active part because it triggers the change in the main character; without the river's presence, the plot cannot move forward",
     "options": [
-     "Yes, a narrative poem is defined by telling a story, not by the moral it teaches. This tests if the student can separate the \"form\" (storytelling) from the \"purpose\" (the lesson)",
-     "The answer should show a clear link between a specific failure and a specific, persistent action",
+     "A good answer would include sensory details like \"the smell of wet earth\" or \"the rhythmic tapping of rain on tin roofs",
+     "The answer must include a character and a starting action (e.g., \"Rohan walked through the park and heard a soft whimper behind the bushes\")",
      "It is an active part because it triggers the change in the main character; without the river's presence, the plot cannot move forward"
     ],
     "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student thinks settings are merely decorative rather than functional.",
-    "id": "gen_c6_eng_ch01_q14",
+    "id": "gen_c6_eng_ch01_q12",
     "nodeId": "c6_english_u1_001",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Why is the riverbank in this story considered a \"liminal\" or border space?",
-    "answer": "It is a boundary between the familiar village and the vast, unknown world",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify the key events in a narrative and explain how the location influences the characters' actions and feelings",
     "options": [
-     "To highlight that determination is a process, not a one-time event",
-     "He watched the spider because he was feeling defeated and looking for inspiration",
-     "It is a boundary between the familiar village and the vast, unknown world"
+     "The student must be able to identify the core components of a narrative poem (characters, setting",
+     "The student must be able to identify the core theme of a story and provide evidence (actions or choices of characters) that supports how that theme is developed",
+     "The student must be able to identify the key events in a narrative and explain how the location influences the characters' actions and feelings"
     ],
     "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student is looking only at the physical scenery rather than the symbolic meaning of the setting in relation to the character's growth.",
-    "id": "gen_c6_eng_ch01_q15",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the key events in a narrative and explain how the location influences the",
+    "id": "gen_c6_eng_ch01_q13",
     "nodeId": "c6_english_u1_001",
     "difficulty": "advanced"
    },
@@ -441,13 +411,13 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Compare Jahnavi’s situation to her environment. How does the \"coastal village\" serve as more than just a place to live for her?",
     "answer": "It represents the \"confines\" or limits of her current world, acting as a barrier to her growth. A student failing to see this sees the setting as just a location rather than a",
     "options": [
-     "A noun names a specific person, place, or thing, while a pronoun takes the place of that noun",
+     "The second sentence is better because it adds texture, color, and taste",
      "A direct description states a fact, but a metaphor creates a deeper meaning by saying the field *is* the blanket, suggesting softness and comfort",
      "It represents the \"confines\" or limits of her current world, acting as a barrier to her growth. A student failing to see this sees the setting as just a location rather than a"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: It represents the \"confines\" or limits of her current world, acting as a barrier to her growth.",
-    "id": "gen_c6_eng_ch01_q16",
+    "id": "gen_c6_eng_ch01_q14",
     "nodeId": "c6_english_u1_002",
     "difficulty": "advanced"
    },
@@ -456,13 +426,13 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Do you think Jahnavi’s intelligence makes her more or less frustrated with her life? Why?",
     "answer": "It makes her more frustrated because she is \"bright and capable\" enough to know what she is missing",
     "options": [
-     "It is an active part because it triggers the change in the main character; without the river's presence, the plot cannot move forward",
-     "Yes, because dreams provide the motivation needed to improve one's life",
+     "The entry should show her noticing something beyond her village or working hard despite her limitations",
+     "Yes, it is a metaphor because it compares life to a rollercoaster to suggest it has ups and downs, without using \"like\" or \"as",
      "It makes her more frustrated because she is \"bright and capable\" enough to know what she is missing"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
     "misconception": "A wrong answer treats intelligence as a neutral trait rather than a source of her internal tension.",
-    "id": "gen_c6_eng_ch01_q17",
+    "id": "gen_c6_eng_ch01_q15",
     "nodeId": "c6_english_u1_002",
     "difficulty": "advanced"
    },
@@ -471,12 +441,42 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "If Jahnavi were offered a chance to travel to a city for school but had to leave her brothers behind, how might she react based on her character?",
     "answer": "She would likely feel torn; she values her family, but her desire for an education is strong enough to make her consider the opportunity",
     "options": [
-     "The student should identify a specific action taken because of a goal. A poor answer would be a vague statement like \"they worked hard\" without explaining *what* they were working",
-     "The 'King Bruce' way is to try a fourth time, perhaps changing your technique",
+     "A good answer would include sensory details like \"the smell of wet earth\" or \"the rhythmic tapping of rain on tin roofs",
+     "It makes her more frustrated because she is \"bright and capable\" enough to know what she is missing",
      "She would likely feel torn; she values her family, but her desire for an education is strong enough to make her consider the opportunity"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
     "misconception": "A wrong answer ignores the internal conflict that defines her.",
+    "id": "gen_c6_eng_ch01_q16",
+    "nodeId": "c6_english_u1_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify at least two traits of a character and provide one piece of evidence from the story that supports each trait",
+    "options": [
+     "The student must be able to identify the core theme of a story and provide evidence (actions or choices of characters) that supports how that theme is developed",
+     "The student must be able to identify a synonym or a functional meaning for a challenging word by highlighting specific context clues (definitions, examples",
+     "The student must be able to identify at least two traits of a character and provide one piece of evidence from the story that supports each trait"
+    ],
+    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify at least two traits of a character and provide one piece of evidence from the",
+    "id": "gen_c6_eng_ch01_q17",
+    "nodeId": "c6_english_u1_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Write a short diary entry from Jahnavi’s perspective describing one thing she did today that shows her desire for a different life.",
+    "answer": "The entry should show her noticing something beyond her village or working hard despite her limitations",
+    "options": [
+     "Steps: 1. Identify the current setting's impact (solitude/reflection). 2. Imagine the new setting (distraction/noise)",
+     "It is an active part because it triggers the change in the main character; without the river's presence, the plot cannot move forward",
+     "The entry should show her noticing something beyond her village or working hard despite her limitations"
+    ],
+    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "misconception": "A poor answer is generic and does not connect to her specific desire for education or her village life.",
     "id": "gen_c6_eng_ch01_q18",
     "nodeId": "c6_english_u1_002",
     "difficulty": "advanced"
@@ -596,15 +596,15 @@ export const C6_ENG_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "If a doctor suddenly started asking a stray dog about its stomach ache, what part of the 'humour' criteria would this satisfy?",
-    "answer": "This satisfies the 'reversal of roles' criteria, as the animal becomes the patient",
+    "question": "Do you think the animals' observations about humans make the story better? Why or why not?",
+    "answer": "Yes, because it gives a 'fresh perspective' on human habits, making the reader laugh at themselves",
     "options": [
-     "Yes, communication happens through actions, expressions, and gestures, such as wagging a tail or sharing food to show kindness",
-     "The answer should include characters observing each other's needs before trying to interact. A poor answer would involve one character forcing their will on the other without",
-     "This satisfies the 'reversal of roles' criteria, as the animal becomes the patient"
+     "The tone is absurd or playful. Steps: 1. Identify the action (swimming). 2. Identify the setting (desert)",
+     "It is unlikely, as the tone is the \"mood\" the author sets",
+     "Yes, because it gives a 'fresh perspective' on human habits, making the reader laugh at themselves"
     ],
     "hint": "Straight from the 'plot' slide -- match the key terms.",
-    "misconception": "A wrong answer shows confusion between a 'funny situation' and a 'character trait.'",
+    "misconception": "A wrong answer indicates the student hasn't considered the author's purpose in adding these observations.",
     "id": "gen_c6_eng_ch02_q1",
     "nodeId": "c6_english_u2_011",
     "difficulty": "advanced",
@@ -620,8 +620,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What are 'character traits'?",
     "answer": "Character traits are the specific qualities or personality features that describe a character, such as being kind, curious, or funny",
     "options": [
-     "Tone is the poet’s attitude toward the subject, such as being playful, serious, or excited",
-     "The rhyme scheme is AABBA",
+     "An unlikely friend is someone who, due to differences in background, species, or nature, would not typically be expected to form a bond",
+     "The student must be able to identify the tone of a short poem and explain how a specific action or detail creates humour by breaking a pattern of expectation",
      "Character traits are the specific qualities or personality features that describe a character, such as being kind, curious, or funny"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
@@ -641,8 +641,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What does it mean to be an \"unlikely friend\"?",
     "answer": "An unlikely friend is someone who, due to differences in background, species, or nature, would not typically be expected to form a bond",
     "options": [
-     "The rhyme scheme is AABBA",
-     "It means using the surrounding sentences and the story's events to figure out what a word means",
+     "The student must be able to identify the tone of a short poem and explain how a specific action or detail creates humour by breaking a pattern of expectation",
+     "The student must be able to identify examples of repetition, rhyme, and word play in a short verse and explain why the poet chose these specific tools to create humor",
      "An unlikely friend is someone who, due to differences in background, species, or nature, would not typically be expected to form a bond"
     ],
     "hint": "Straight from the 'Communication and empathy' slide -- match the key terms.",
@@ -659,15 +659,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What do we mean by the \"tone\" of a poem? Answer: The tone is the poet's attitude or mood toward the subject. A wrong answer suggests the student confuses \"tone\" with \"topic,\" which means they aren't looking at the *feel* of the words.",
-    "answer": "Tone is the poet’s attitude toward the subject, such as being playful, serious, or excited",
+    "question": "If a poem describes a man wearing shoes on his hands, why is this funny? Answer: It is funny because it is the opposite of what we expect. A wrong answer suggests the student doesn't see the connection between \"expectation\" and \"comedy.\"",
+    "answer": "It is funny because it creates a surprise—we expect shoes on feet, not hands",
     "options": [
-     "The rhyme scheme is AABBA",
-     "Quotation marks (also called speech marks or inverted commas: \" \")",
-     "Tone is the poet’s attitude toward the subject, such as being playful, serious, or excited"
+     "You would label this character as 'compassionate' or 'kind.' A student who guesses \"hungry\" is focusing on the situation rather than the character's internal quality",
+     "The answer should include a trait (e.g., 'brave') and an action (e.g., 'standing up to a bully'). A poor answer would list traits without any supporting evidence from a story",
+     "It is funny because it creates a surprise—we expect shoes on feet, not hands"
     ],
     "hint": "Straight from the 'Tone in poetry' slide -- match the key terms.",
-    "misconception": "A student who says \"the tone is about a funny man\" is confusing the *subject* with the *attitude*; this reveals they need help distinguishing between *what* the poem is about and *how* the poet feels about it.",
+    "misconception": "If a student answers \"because he is weird,\" they are missing the mechanism of humour (the gap between expectation and reality); they need to focus on identifying the \"normal\" expectation first.",
     "id": "gen_c6_eng_ch02_q4",
     "nodeId": "c6_english_u2_014",
     "difficulty": "standard",
@@ -680,15 +680,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If a poem uses the words \"cat\" and \"hat\" at the end of two lines, what device is the poet using? Explain why this makes the poem feel \"light.\"",
-    "answer": "The poet is using rhyme. This creates a musical or bouncy quality, which makes the poem feel playful rather than like a serious textbook passage",
+    "question": "Look at this line: \"The baker was a kneady person because he always needed dough.\" Identify the word play (pun) and explain the double meaning of \"kneady/needy\" or \"dough.\"",
+    "answer": "The word play is on \"kneady\" (sounds like \"needy\") and \"dough\" (means both bread mixture and money). The student must link the baker's job to these double meanings",
     "options": [
-     "No, because \"nice\" is too general; a deep analysis requires specific traits like 'compassionate' or 'curious' backed by evidence",
-     "The answer should include a trait (e.g., 'brave') and an action (e.g., 'standing up to a bully'). A poor answer would list traits without any supporting evidence from a story",
-     "The poet is using rhyme. This creates a musical or bouncy quality, which makes the poem feel playful rather than like a serious textbook passage"
+     "Steps: 1. Identify the speaker (Rahul). 2. Identify the listener (his sister). 3. Identify the message (I ate the last mango)",
+     "The answer is \"talked.\" Step 1: Identify the action (talk). Step 2: Determine the time (past). Step 3: Add the suffix -ed",
+     "The word play is on \"kneady\" (sounds like \"needy\") and \"dough\" (means both bread mixture and money). The student must link the baker's job to these double meanings"
     ],
     "hint": "Straight from the 'Poetic devices' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student does not understand how sound patterns affect the mood of a poem.",
+    "misconception": "A wrong answer shows an inability to distinguish between standard definitions and clever word associations.",
     "id": "gen_c6_eng_ch02_q5",
     "nodeId": "c6_english_u2_015",
     "difficulty": "advanced",
@@ -701,16 +701,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the rhyme scheme of a standard limerick?",
-    "answer": "The rhyme scheme is AABBA",
+    "question": "Why are the third and fourth lines of a limerick usually shorter than the others?",
+    "answer": "They are shorter to create a faster, bouncier rhythm that contrasts with the longer lines, helping the poem build toward the punchline",
     "options": [
-     "Character traits are the specific qualities or personality features that describe a character, such as being kind, curious, or funny",
-     "An unlikely friend is someone who, due to differences in background, species, or nature, would not typically be expected to form a bond",
-     "The rhyme scheme is Rahul",
-     "The rhyme scheme is AABBA"
+     "The author repeats \"he ran\" to show the character's exhaustion or to create a comedic, panting rhythm",
+     "\"Strayed\" implies the dog was lost or wandered away by mistake, which explains why he was \"tired and hungry",
+     "They are shorter to create a faster, bouncier rhythm that contrasts with the longer lines, helping the poem build toward the punchline"
     ],
     "hint": "Straight from the 'limerick' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student has not yet internalized the structural pattern, requiring a review of rhyme identification.",
+    "misconception": "A wrong answer indicates the student is viewing the poem as just prose rather than a rhythmic, musical structure.",
     "id": "gen_c6_eng_ch02_q6",
     "nodeId": "c6_english_u2_016",
     "difficulty": "advanced",
@@ -723,15 +722,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What does it mean to understand a word \"in context\"?",
-    "answer": "It means using the surrounding sentences and the story's events to figure out what a word means",
+    "question": "In the story of Gajaraj, if the text says he \"winced\" when his friend was pulled away, why is \"winced\" a sign of sadness?",
+    "answer": "Because the sentence mentions \"tears\" and the friend being taken away, showing that \"winced\" is a reaction to pain or distress",
     "options": [
-     "The rhyme scheme is AABBA",
-     "Quotation marks (also called speech marks or inverted commas: \" \")",
-     "It means using the surrounding sentences and the story's events to figure out what a word means"
+     "You would label this character as 'compassionate' or 'kind.' A student who guesses \"hungry\" is focusing on the situation rather than the character's internal quality",
+     "No, because \"nice\" is too general; a deep analysis requires specific traits like 'compassionate' or 'curious' backed by evidence",
+     "Because the sentence mentions \"tears\" and the friend being taken away, showing that \"winced\" is a reaction to pain or distress"
     ],
     "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks they must always use a dictionary, failing to use clues in the text.",
+    "misconception": "A wrong answer shows the student is ignoring the emotional clues provided in the paragraph.",
     "id": "gen_c6_eng_ch02_q7",
     "nodeId": "c6_english_u2_017",
     "difficulty": "advanced",
@@ -748,21 +747,21 @@ export const C6_ENG_GEN: SimDef[] = [
     "sortItems": [
      {
       "id": "s0",
-      "label": "Add the suffix -ed",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
       "label": "Determine the time",
       "emoji": "📌",
       "correctBin": "o1"
      },
      {
-      "id": "s2",
+      "id": "s1",
       "label": "Identify the action",
       "emoji": "📌",
       "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Add the suffix -ed",
+      "emoji": "📌",
+      "correctBin": "o2"
      }
     ],
     "bins": [
@@ -799,9 +798,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What punctuation mark must always be used to show that a character is speaking?",
     "answer": "Quotation marks (also called speech marks or inverted commas: \" \")",
     "options": [
-     "It means using the surrounding sentences and the story's events to figure out what a word means",
-     "Two techniques are varying the pace (speed) and changing the pitch (tone) of the voice for different characters",
-     "Label marks (also called speech marks or inverted commas: \" \")",
+     "The student must be able to identify examples of repetition, rhyme, and word play in a short verse and explain why the poet chose these specific tools to create humor",
+     "The student can identify the tense of a sentence and transform a simple present action into a past action accurately using standard verb forms",
      "Quotation marks (also called speech marks or inverted commas: \" \")"
     ],
     "hint": "Straight from the 'Dialogue writing' slide -- match the key terms.",
@@ -821,8 +819,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What are two vocal techniques a storyteller can use to keep an audience interested?",
     "answer": "Two techniques are varying the pace (speed) and changing the pitch (tone) of the voice for different characters",
     "options": [
-     "Tone is the poet’s attitude toward the subject, such as being playful, serious, or excited",
-     "The rhyme scheme is AABBA",
+     "The student must be able to identify at least three specific personality traits of a character and provide one piece of evidence from the story for each trait",
+     "An unlikely friend is someone who, due to differences in background, species, or nature, would not typically be expected to form a bond",
      "Two techniques are varying the pace (speed) and changing the pitch (tone) of the voice for different characters"
     ],
     "hint": "Straight from the 'Storytelling and recitation' slide -- match the key terms.",
@@ -839,46 +837,16 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the doctor's interaction with humans versus his interaction with animals. How does this drive the plot?",
-    "answer": "The doctor moves from a traditional medical practice to a new, strange one, creating the central conflict and progression of the story",
-    "options": [
-     "The present tense describes things happening now or regularly, while the past tense describes things that already happened",
-     "The first is 'compassionate' or 'empathetic,' while the second is 'indifferent' or 'unconcerned.' A wrong answer shows the student is not yet able to contrast opposing personality",
-     "The doctor moves from a traditional medical practice to a new, strange one, creating the central conflict and progression of the story"
-    ],
-    "hint": "Straight from the 'plot' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student sees the events as random rather than a chain of cause-and-effect.",
-    "id": "gen_c6_eng_ch02_q11",
-    "nodeId": "c6_english_u2_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Do you think the animals' observations about humans make the story better? Why or why not?",
-    "answer": "Yes, because it gives a 'fresh perspective' on human habits, making the reader laugh at themselves",
-    "options": [
-     "The answer is \"The bird flew.\" A wrong answer indicates the student is struggling with irregular verbs, which do not always follow the simple -ed pattern",
-     "It shows he is curious and open-minded because he is willing to try a new, unconventional path",
-     "Yes, because it gives a 'fresh perspective' on human habits, making the reader laugh at themselves"
-    ],
-    "hint": "Straight from the 'plot' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student hasn't considered the author's purpose in adding these observations.",
-    "id": "gen_c6_eng_ch02_q12",
-    "nodeId": "c6_english_u2_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
     "question": "Imagine a new scene where Dr. Dolittle tries to give a parrot medicine. How would you make this scene humorous?",
     "answer": "The scene could be humorous if the parrot tries to tell the doctor how to be a better doctor or critiques the medicine",
     "options": [
-     "It fails because it contains no new information, conflict, or character development; it is just a greeting",
-     "It shows he is curious and open-minded because he is willing to try a new, unconventional path",
+     "No, because \"nice\" is too general; a deep analysis requires specific traits like 'compassionate' or 'curious' backed by evidence",
+     "The answer should include a trait (e.g., 'brave') and an action (e.g., 'standing up to a bully'). A poor answer would list traits without any supporting evidence from a story",
      "The scene could be humorous if the parrot tries to tell the doctor how to be a better doctor or critiques the medicine"
     ],
     "hint": "Straight from the 'plot' slide -- match the key terms.",
     "misconception": "A poor answer would just be a standard description of a medical check-up without any 'absurd' or 'role-reversal' elements.",
-    "id": "gen_c6_eng_ch02_q13",
+    "id": "gen_c6_eng_ch02_q11",
     "nodeId": "c6_english_u2_011",
     "difficulty": "advanced"
    },
@@ -887,13 +855,13 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "A character gives away their last piece of bread to a hungry stray dog. How would you label this character?",
     "answer": "You would label this character as 'compassionate' or 'kind.' A student who guesses \"hungry\" is focusing on the situation rather than the character's internal quality",
     "options": [
-     "\"There was a great elephant, Lou.\" Any opening that introduces a character and a setting is valid. An empty or off-topic response indicates the student hasn't grasped the",
-     "The word play is on \"kneady\" (sounds like \"needy\") and \"dough\" (means both bread mixture and money). The student must link the baker's job to these double meanings",
+     "Because the sentence mentions \"tears\" and the friend being taken away, showing that \"winced\" is a reaction to pain or distress",
+     "The answer should include characters observing each other's needs before trying to interact. A poor answer would involve one character forcing their will on the other without",
      "You would label this character as 'compassionate' or 'kind.' A student who guesses \"hungry\" is focusing on the situation rather than the character's internal quality"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: You would label this character as 'compassionate' or 'kind.' A student who guesses \"hungry\" is focusing on the",
-    "id": "gen_c6_eng_ch02_q14",
+    "id": "gen_c6_eng_ch02_q12",
     "nodeId": "c6_english_u2_012",
     "difficulty": "advanced"
    },
@@ -902,13 +870,13 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Compare the character of a doctor who loves animals to a person who ignores them. What is the difference in their 'trait'?",
     "answer": "The first is 'compassionate' or 'empathetic,' while the second is 'indifferent' or 'unconcerned.' A wrong answer shows the student is not yet able to contrast opposing personality",
     "options": [
-     "The present tense describes things happening now or regularly, while the past tense describes things that already happened",
-     "The doctor moves from a traditional medical practice to a new, strange one, creating the central conflict and progression of the story",
+     "It fails because it contains no new information, conflict, or character development; it is just a greeting",
+     "The scene could be humorous if the parrot tries to tell the doctor how to be a better doctor or critiques the medicine",
      "The first is 'compassionate' or 'empathetic,' while the second is 'indifferent' or 'unconcerned.' A wrong answer shows the student is not yet able to contrast opposing personality"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student is not yet able to contrast opposing personality types.",
-    "id": "gen_c6_eng_ch02_q15",
+    "id": "gen_c6_eng_ch02_q13",
     "nodeId": "c6_english_u2_012",
     "difficulty": "advanced"
    },
@@ -917,28 +885,13 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Create a list of three traits for a character you know, and for each, write one action that proves it.",
     "answer": "The answer should include a trait (e.g., 'brave') and an action (e.g., 'standing up to a bully'). A poor answer would list traits without any supporting evidence from a story",
     "options": [
-     "No, they are not, because empathy requires an action or a response to someone's emotional state",
-     "It fails because it contains no new information, conflict, or character development; it is just a greeting",
+     "\"There was a great elephant, Lou.\" Any opening that introduces a character and a setting is valid. An empty or off-topic response indicates the student hasn't grasped the",
+     "Yes, because it gives a 'fresh perspective' on human habits, making the reader laugh at themselves",
      "The answer should include a trait (e.g., 'brave') and an action (e.g., 'standing up to a bully'). A poor answer would list traits without any supporting evidence from a story"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
     "misconception": "A poor answer would list traits without any supporting evidence from a story.",
-    "id": "gen_c6_eng_ch02_q16",
-    "nodeId": "c6_english_u2_012",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "If Dr. Dolittle decides to learn animal languages instead of treating humans, what does this tell us about his character?",
-    "answer": "It shows he is curious and open-minded because he is willing to try a new, unconventional path",
-    "options": [
-     "Steps: 1. Identify the speaker (Rahul). 2. Identify the listener (his sister). 3. Identify the message (I ate the last mango)",
-     "You would label this character as 'compassionate' or 'kind.' A student who guesses \"hungry\" is focusing on the situation rather than the character's internal quality",
-     "It shows he is curious and open-minded because he is willing to try a new, unconventional path"
-    ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "If a student says he is \"just weird,\" it shows they are judging the character without analyzing the motivation behind his actions.",
-    "id": "gen_c6_eng_ch02_q17",
+    "id": "gen_c6_eng_ch02_q14",
     "nodeId": "c6_english_u2_012",
     "difficulty": "advanced"
    },
@@ -947,14 +900,59 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Is it enough to say \"Dr. Dolittle is nice\"? Why or why not?",
     "answer": "No, because \"nice\" is too general; a deep analysis requires specific traits like 'compassionate' or 'curious' backed by evidence",
     "options": [
+     "It is unlikely, as the tone is the \"mood\" the author sets",
      "\"The chef tried to stir his soup with a giant ladder.\" This works because a ladder is clearly the wrong tool for soup",
-     "The poet is using rhyme. This creates a musical or bouncy quality, which makes the poem feel playful rather than like a serious textbook passage",
      "No, because \"nice\" is too general; a deep analysis requires specific traits like 'compassionate' or 'curious' backed by evidence"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks simple labels are sufficient for analysis.",
-    "id": "gen_c6_eng_ch02_q18",
+    "id": "gen_c6_eng_ch02_q15",
     "nodeId": "c6_english_u2_012",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify at least three specific personality traits of a character and provide one piece of evidence from the story for each trait",
+    "options": [
+     "An unlikely friend is someone who, due to differences in background, species, or nature, would not typically be expected to form a bond",
+     "The student can identify the tense of a sentence and transform a simple present action into a past action accurately using standard verb forms",
+     "The student must be able to identify at least three specific personality traits of a character and provide one piece of evidence from the story for each trait"
+    ],
+    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify at least three specific personality traits of a character and provide one piece of",
+    "id": "gen_c6_eng_ch02_q16",
+    "nodeId": "c6_english_u2_012",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a scenario where two very different characters must communicate to solve a problem. What is the first step they should take?",
+    "answer": "The answer should include characters observing each other's needs before trying to interact. A poor answer would involve one character forcing their will on the other without",
+    "options": [
+     "It is funny because it creates a surprise—we expect shoes on feet, not hands",
+     "The tone is absurd or playful. Steps: 1. Identify the action (swimming). 2. Identify the setting (desert)",
+     "The answer should include characters observing each other's needs before trying to interact. A poor answer would involve one character forcing their will on the other without"
+    ],
+    "hint": "Straight from the 'Communication and empathy' slide -- match the key terms.",
+    "misconception": "A poor answer would involve one character forcing their will on the other without considering the other's perspective, showing a lack of empathy.",
+    "id": "gen_c6_eng_ch02_q17",
+    "nodeId": "c6_english_u2_013",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it possible to communicate without using spoken words? Support your answer with an example.",
+    "answer": "Yes, communication happens through actions, expressions, and gestures, such as wagging a tail or sharing food to show kindness",
+    "options": [
+     "The answer should include a trait (e.g., 'brave') and an action (e.g., 'standing up to a bully'). A poor answer would list traits without any supporting evidence from a story",
+     "The answer should include characters observing each other's needs before trying to interact. A poor answer would involve one character forcing their will on the other without",
+     "Yes, communication happens through actions, expressions, and gestures, such as wagging a tail or sharing food to show kindness"
+    ],
+    "hint": "Straight from the 'Communication and empathy' slide -- match the key terms.",
+    "misconception": "A student who struggles here likely limits their definition of communication to speech only, ignoring the power of non-verbal empathy.",
+    "id": "gen_c6_eng_ch02_q18",
+    "nodeId": "c6_english_u2_013",
     "difficulty": "advanced"
    }
   ],
@@ -1072,15 +1070,15 @@ export const C6_ENG_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What is the \"opening incident\" in the story about Anand’s inventions?",
-    "answer": "The opening incident is the burglar alarm made from a water bag that soaks the father",
+    "question": "Is it possible for the \"climax\" or most disastrous invention to happen in the first paragraph? Why or why not?",
+    "answer": "No, because the plot builds tension through the *repetition* of failed attempts; putting the biggest failure first would leave nowhere for the story to build",
     "options": [
-     "The purpose is to understand the meaning of the word based on the information provided in the text",
-     "The three components are: a clear introduction, supporting evidence or reasons, and a summary/conclusion",
-     "The opening incident is the burglar alarm made from a water bag that soaks the father"
+     "The answer should use descriptive words (adjectives/verbs) related to the boat and the message. A poor answer lacks imagery (e",
+     "Possible answers: 'carefully', 'neatly', 'quickly'. To solve this, identify the verb 'planted' and choose a word ending in '-ly' that explains the manner of planting",
+     "No, because the plot builds tension through the *repetition* of failed attempts; putting the biggest failure first would leave nowhere for the story to build"
     ],
     "hint": "Straight from the 'Plot and sequence refer to the' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student is mixing up different inventions or failing to identify the starting point of the narrative chain.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, because the plot builds tension through the *repetition* of failed attempts; putting the biggest failure first",
     "id": "gen_c6_eng_ch03_q1",
     "nodeId": "c6_english_u3_021",
     "difficulty": "advanced",
@@ -1093,15 +1091,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why does the author describe Anand as \"stubborn\"?",
-    "answer": "He is described as stubborn because he continues to work on his inventions even after they fail repeatedly",
+    "question": "How does the narrator's perspective highlight Anand’s naivety?",
+    "answer": "The narrator (his sister) sees the flaws in the designs that Anand ignores, showing he lacks a realistic perspective",
     "options": [
-     "The narrator (his sister) sees the flaws in the designs that Anand ignores, showing he lacks a realistic perspective",
-     "The sequence is important because each invention is more ambitious and disastrous than the last, showing how the tension builds",
-     "He is described as stubborn because he continues to work on his inventions even after they fail repeatedly"
+     "Step 1: Assign a human-like goal (e.g., to travel into a soup). Step 2: Describe its texture (rough, wrinkled)",
+     "The reflection adds a sense of vastness and wonder, making the small stream feel connected to the wide sky",
+     "The narrator (his sister) sees the flaws in the designs that Anand ignores, showing he lacks a realistic perspective"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"because he listens to his sister\" shows the student has not understood the conflict in the story.",
+    "misconception": "A student who misses this fails to see how the narrator serves as a foil to Anand.",
     "id": "gen_c6_eng_ch03_q2",
     "nodeId": "c6_english_u3_022",
     "difficulty": "advanced",
@@ -1116,8 +1114,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What is the primary role of curiosity in the process of innovation?",
     "answer": "Curiosity acts as the spark that encourages people to ask questions and seek new information",
     "options": [
-     "The three components are: a clear introduction, supporting evidence or reasons, and a summary/conclusion",
-     "The opening incident is the burglar alarm made from a water bag that soaks the father",
+     "The student can identify alliteration, personification, and symbolism in a short poem and explain how each device contributes to the poem's overall meaning",
+     "The student must be able to arrange five out-of-order story events into a logical chronological sequence and identify the cause-effect relationship between an invention and its",
      "Curiosity acts as the spark that encourages people to ask questions and seek new information"
     ],
     "hint": "Straight from the 'spirit of innovation' slide -- match the key terms.",
@@ -1137,8 +1135,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What is an example of an image from the poem that describes what the child sees?",
     "answer": "The child sees white paper boats floating on the stream",
     "options": [
-     "This is called alliteration",
-     "The purpose is to understand the meaning of the word based on the information provided in the text",
+     "The student must be able to identify if a poem is free verse by checking for the absence of a rhyme scheme and must be able to create a short poem (3-4 lines) that focuses on",
+     "The student must be able to identify at least three character traits of Anand and provide a specific example of an action or behavior from the text that supports each trait",
      "The child sees white paper boats floating on the stream"
     ],
     "hint": "Straight from the '\"Paper Boats\"' slide -- match the key terms.",
@@ -1154,16 +1152,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What do we call it when a poet repeats the same starting sound in words placed close together?",
-    "answer": "This is called alliteration",
+    "question": "In the sentence, \"The angry wind howled at the window,\" why is this an example of personification?",
+    "answer": "It is personification because the wind is given the human action of \"howling\" and \"being angry.\" A wrong answer suggests the student thinks it is just a literal description of",
     "options": [
-     "The purpose is to understand the meaning of the word based on the information provided in the text",
-     "The three components are: a clear introduction, supporting evidence or reasons, and a summary/conclusion",
-     "Step is called alliteration",
-     "This is called alliteration"
+     "Steps: 1. Identify why it wobbles (the problem). 2. Observe the legs (curiosity). 3. Try placing a piece of cardboard under one leg (experimenting)",
+     "Yes, because the knowledge gained during the process can lead to a completely different discovery or application than originally intended",
+     "It is personification because the wind is given the human action of \"howling\" and \"being angry.\" A wrong answer suggests the student thinks it is just a literal description of"
     ],
     "hint": "Straight from the 'Poetic devices' slide -- match the key terms.",
-    "misconception": "If a student answers \"rhyme,\" they are confusing the sound of the *start* of the word with the sound of the *end* of the word.",
+    "misconception": "A wrong answer suggests the student thinks it is just a literal description of weather, missing the human comparison.",
     "id": "gen_c6_eng_ch03_q5",
     "nodeId": "c6_english_u3_025",
     "difficulty": "advanced",
@@ -1176,15 +1173,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the primary difference between a rhyming poem and a free verse poem?",
-    "answer": "A rhyming poem follows a specific pattern of sounds at the end of lines, while free verse does not",
+    "question": "If a poem has no rhyme scheme, does that mean it is just a paragraph of writing broken into smaller chunks? Explain why or why not.",
+    "answer": "No, it is not just broken prose because free verse intentionally uses line breaks to control speed, emphasis, and pauses",
     "options": [
-     "Factual writing only lists real information, while creative writing uses your imagination to add feelings, personality, or stories to that information",
-     "The second sentence is better because it adds adjectives (\"tired,\" \"soft\") and a purpose (\"dreaming of chasing shadows\") that invites the reader into the cat's experience",
-     "A rhyming poem follows a specific pattern of sounds at the end of lines, while free verse does not"
+     "Steps: 1. Identify why it wobbles (the problem). 2. Observe the legs (curiosity). 3. Try placing a piece of cardboard under one leg (experimenting)",
+     "Yes, because the knowledge gained during the process can lead to a completely different discovery or application than originally intended",
+     "No, it is not just broken prose because free verse intentionally uses line breaks to control speed, emphasis, and pauses"
     ],
     "hint": "Straight from the 'Free verse' slide -- match the key terms.",
-    "misconception": "A student who says \"free verse has no rhythm at all\" is wrong, as free verse has its own natural rhythm based on speech rather than a mechanical beat.",
+    "misconception": "If a student thinks it is \"just cut-up prose,\" they are missing the importance of how the poet chooses to structure the poem to create a specific feeling or focus.",
     "id": "gen_c6_eng_ch03_q6",
     "nodeId": "c6_english_u3_026",
     "difficulty": "standard",
@@ -1200,8 +1197,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What is the purpose of using context clues when you encounter a new word in a story?",
     "answer": "The purpose is to understand the meaning of the word based on the information provided in the text",
     "options": [
-     "The flowers represent gifts, hopes, or messages the child is sending away",
-     "This is called alliteration",
+     "The student must be able to identify an example of a \"failed\" attempt that leads to a new discovery and explain how a questioning attitude contributes to solving real-world",
+     "The student must be able to identify specific images in the poem and explain how they represent the child's feelings or wishes, moving beyond the literal story",
      "The purpose is to understand the meaning of the word based on the information provided in the text"
     ],
     "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
@@ -1218,15 +1215,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the difference between an adjective and an adverb based on the words they describe?",
-    "answer": "An adjective describes a noun (like 'green' leaf), whereas an adverb describes an action or verb (like 'slowly' falling)",
+    "question": "In the sentence, \"The clever girl spoke softly,\" identify the adjective and the adverb and explain what each is describing.",
+    "answer": "'Clever' is the adjective describing the noun 'girl', and 'softly' is the adverb describing the verb 'spoke'",
     "options": [
-     "'Stagnant' is the opposite of flowing",
-     "Factual writing only lists real information, while creative writing uses your imagination to add feelings, personality, or stories to that information",
-     "An adjective describes a noun (like 'green' leaf), whereas an adverb describes an action or verb (like 'slowly' falling)"
+     "Steps: 1. Identify a small, portable object (like a kite or a paper bird). 2. Explain why it fits (it flies, it travels far)",
+     "Steps: 1. Identify the action (eating crops). 2. Recognize the consequence (the fields are ruined)",
+     "'Clever' is the adjective describing the noun 'girl', and 'softly' is the adverb describing the verb 'spoke'"
     ],
     "hint": "Straight from the 'adjective' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student confuses parts of speech; they might think both describe nouns, which ignores the 'action' aspect of adverbs.",
+    "misconception": "A wrong answer shows the student cannot distinguish between who is performing the action and how the action is performed.",
     "id": "gen_c6_eng_ch03_q8",
     "nodeId": "c6_english_u3_028",
     "difficulty": "advanced",
@@ -1305,8 +1302,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What are the three essential components of a well-organized idea presentation?",
     "answer": "The three components are: a clear introduction, supporting evidence or reasons, and a summary/conclusion",
     "options": [
-     "The purpose is to understand the meaning of the word based on the information provided in the text",
-     "The opening incident is the burglar alarm made from a water bag that soaks the father",
+     "The child sees white paper boats floating on the stream",
+     "The student can structure a 3-part presentation (introduction, main points with evidence, and conclusion) and can identify two opposing arguments for a simple proposition",
      "The three components are: a clear introduction, supporting evidence or reasons, and a summary/conclusion"
     ],
     "hint": "Straight from the 'Presenting ideas' slide -- match the key terms.",
@@ -1323,123 +1320,123 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Analyze the pattern: Anand builds -> Invention fails -> Chaos happens. How does this cycle affect the reader's expectation?",
-    "answer": "The reader begins to expect disaster instead of success, which creates humor",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to arrange five out-of-order story events into a logical chronological sequence and identify the cause-effect relationship between an invention and its",
     "options": [
-     "The narrator (his sister) sees the flaws in the designs that Anand ignores, showing he lacks a realistic perspective",
-     "An answer should describe an imaginative but likely flawed machine and explain that Anand would keep tinkering with it despite others telling him it won't work",
-     "The reader begins to expect disaster instead of success, which creates humor"
+     "The student must be able to identify at least three character traits of Anand and provide a specific example of an action or behavior from the text that supports each trait",
+     "The student must be able to identify an example of a \"failed\" attempt that leads to a new discovery and explain how a questioning attitude contributes to solving real-world",
+     "The student must be able to arrange five out-of-order story events into a logical chronological sequence and identify the cause-effect relationship between an invention and its"
     ],
     "hint": "Straight from the 'Plot and sequence refer to the' slide -- match the key terms.",
-    "misconception": "A student who fails to see this pattern misses the irony of the story’s development.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to arrange five out-of-order story events into a logical chronological sequence and identify",
     "id": "gen_c6_eng_ch03_q11",
     "nodeId": "c6_english_u3_021",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Create a new, simple invention for Anand and describe what consequence would follow it to keep the story's pattern going.",
-    "answer": "The student should describe an invention (e.g., a \"flying toaster\") and a result (e.g., it burns the curtains)",
+    "question": "Is Anand’s persistence a positive or negative trait in this story? Justify your answer.",
+    "answer": "It can be argued as positive (shows dedication) or negative (shows a lack of realism). The justification must cite his repeated failures vs. his refusal to stop",
     "options": [
-     "Steps: 1. Identify the action (eating crops). 2. Recognize the consequence (the fields are ruined)",
-     "\"The teacher was nurturing, gently helping the struggling student finish their work and encouraging them to keep trying",
-     "The student should describe an invention (e.g., a \"flying toaster\") and a result (e.g., it burns the curtains)"
+     "A good answer asks about the shape, material, or weight of the spoon (e.g., \"Why is the handle curved?",
+     "The answer should use descriptive words (adjectives/verbs) related to the boat and the message. A poor answer lacks imagery (e",
+     "It can be argued as positive (shows dedication) or negative (shows a lack of realism). The justification must cite his repeated failures vs. his refusal to stop"
     ],
-    "hint": "Straight from the 'Plot and sequence refer to the' slide -- match the key terms.",
-    "misconception": "A poor answer would be one where the invention works perfectly, breaking the established pattern of the story.",
+    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "misconception": "A wrong answer lacks evidence from the text.",
     "id": "gen_c6_eng_ch03_q12",
-    "nodeId": "c6_english_u3_021",
+    "nodeId": "c6_english_u3_022",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "If Anand invents a \"robot\" that accidentally paints the walls, what should logically happen next in the sequence?",
-    "answer": "The next step must be the family's reaction or the father's discovery of the mess",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify at least three character traits of Anand and provide a specific example of an action or behavior from the text that supports each trait",
     "options": [
-     "Yes, because the knowledge gained during the process can lead to a completely different discovery or application than originally intended",
-     "A good answer asks about the shape, material, or weight of the spoon (e.g., \"Why is the handle curved?",
-     "The next step must be the family's reaction or the father's discovery of the mess"
+     "The student must be able to identify an example of a \"failed\" attempt that leads to a new discovery and explain how a questioning attitude contributes to solving real-world",
+     "The student must be able to select the correct meaning of a word from a list or provide a synonym based on clues found in a paragraph",
+     "The student must be able to identify at least three character traits of Anand and provide a specific example of an action or behavior from the text that supports each trait"
     ],
-    "hint": "Straight from the 'Plot and sequence refer to the' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"Anand goes to school\") ignores the consequence of the previous action, showing a lack of understanding of narrative flow.",
+    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify at least three character traits of Anand and provide a specific example of an",
     "id": "gen_c6_eng_ch03_q13",
-    "nodeId": "c6_english_u3_021",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it possible for the \"climax\" or most disastrous invention to happen in the first paragraph? Why or why not?",
-    "answer": "No, because the plot builds tension through the *repetition* of failed attempts; putting the biggest failure first would leave nowhere for the story to build",
-    "options": [
-     "A good answer asks about the shape, material, or weight of the spoon (e.g., \"Why is the handle curved?",
-     "Steps: 1. Identify a small, portable object (like a kite or a paper bird). 2. Explain why it fits (it flies, it travels far)",
-     "No, because the plot builds tension through the *repetition* of failed attempts; putting the biggest failure first would leave nowhere for the story to build"
-    ],
-    "hint": "Straight from the 'Plot and sequence refer to the' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, because the plot builds tension through the *repetition* of failed attempts; putting the biggest failure first",
-    "id": "gen_c6_eng_ch03_q14",
-    "nodeId": "c6_english_u3_021",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is it important to follow the sequence of Anand's inventions rather than just reading them randomly?",
-    "answer": "The sequence is important because each invention is more ambitious and disastrous than the last, showing how the tension builds",
-    "options": [
-     "He is described as stubborn because he continues to work on his inventions even after they fail repeatedly",
-     "Listening helps you understand the opposing point so you can respond directly rather than just repeating your own points",
-     "The sequence is important because each invention is more ambitious and disastrous than the last, showing how the tension builds"
-    ],
-    "hint": "Straight from the 'Plot and sequence refer to the' slide -- match the key terms.",
-    "misconception": "If a student says \"it doesn't matter,\" they misunderstand that plot is a cause-and-effect chain, not just a random list of facts.",
-    "id": "gen_c6_eng_ch03_q15",
-    "nodeId": "c6_english_u3_021",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Describe a new invention Anand might make and how his traits (curiosity/stubbornness) would influence him.",
-    "answer": "An answer should describe an imaginative but likely flawed machine and explain that Anand would keep tinkering with it despite others telling him it won't work",
-    "options": [
-     "Yes, it is free verse because it relies on imagery and natural flow rather than structural constraints",
-     "The narrator (his sister) sees the flaws in the designs that Anand ignores, showing he lacks a realistic perspective",
-     "An answer should describe an imaginative but likely flawed machine and explain that Anand would keep tinkering with it despite others telling him it won't work"
-    ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "A poor answer ignores his specific personality traits.",
-    "id": "gen_c6_eng_ch03_q16",
     "nodeId": "c6_english_u3_022",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "How does the narrator's perspective highlight Anand’s naivety?",
-    "answer": "The narrator (his sister) sees the flaws in the designs that Anand ignores, showing he lacks a realistic perspective",
+    "question": "A student wants to fix a wobbly table. How can they apply the spirit of innovation to this task?",
+    "answer": "Steps: 1. Identify why it wobbles (the problem). 2. Observe the legs (curiosity). 3. Try placing a piece of cardboard under one leg (experimenting)",
     "options": [
-     "Yes, it is free verse because it relies on imagery and natural flow rather than structural constraints",
-     "Context clues provide evidence from the author, making your understanding more accurate and logical",
-     "The narrator (his sister) sees the flaws in the designs that Anand ignores, showing he lacks a realistic perspective"
-    ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "A student who misses this fails to see how the narrator serves as a foil to Anand.",
-    "id": "gen_c6_eng_ch03_q17",
-    "nodeId": "c6_english_u3_022",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "If Anand’s invention fails, how would he likely react compared to a \"practical\" person?",
-    "answer": "Anand would likely try to fix it or start a new version, while a practical person might stop to assess if the design is actually possible",
-    "options": [
+     "You must describe the mechanism or process, such as \"It uses solar power to charge devices.\" If a student just lists features",
      "It is personification because the wind is given the human action of \"howling\" and \"being angry.\" A wrong answer suggests the student thinks it is just a literal description of",
-     "The student should describe an invention (e.g., a \"flying toaster\") and a result (e.g., it burns the curtains)",
-     "Anand would likely try to fix it or start a new version, while a practical person might stop to assess if the design is actually possible"
+     "Steps: 1. Identify why it wobbles (the problem). 2. Observe the legs (curiosity). 3. Try placing a piece of cardboard under one leg (experimenting)"
     ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "If the student says \"he would give up,\" they are failing to apply the trait of \"confidence\" mentioned in the text.",
+    "hint": "Straight from the 'spirit of innovation' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student expects the table to be fixed perfectly on the first try without testing.",
+    "id": "gen_c6_eng_ch03_q14",
+    "nodeId": "c6_english_u3_023",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a \"Curiosity Journal\" entry for a common household object (like a spoon). What is one question you have about its design?",
+    "answer": "A good answer asks about the shape, material, or weight of the spoon (e.g., \"Why is the handle curved?",
+    "options": [
+     "You must describe the mechanism or process, such as \"It uses solar power to charge devices.\" If a student just lists features",
+     "[Correct answer] The poetic device being used is symbolism, where a concrete object (the white dove) is used to represent an abstract idea (peace)",
+     "A good answer asks about the shape, material, or weight of the spoon (e.g., \"Why is the handle curved?"
+    ],
+    "hint": "Straight from the 'spirit of innovation' slide -- match the key terms.",
+    "misconception": "A poor answer describes how the spoon is used without questioning its design or purpose.",
+    "id": "gen_c6_eng_ch03_q15",
+    "nodeId": "c6_english_u3_023",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If an experiment fails to produce the desired result, why is it still considered a valuable part of the innovation process?",
+    "answer": "A failed experiment provides evidence of what does not work, which narrows down the options for finding a successful solution",
+    "options": [
+     "It is meaningful because it expresses the child's inner world and desire to reach out to the unknown",
+     "The answer should use descriptive words (adjectives/verbs) related to the boat and the message. A poor answer lacks imagery (e",
+     "A failed experiment provides evidence of what does not work, which narrows down the options for finding a successful solution"
+    ],
+    "hint": "Straight from the 'spirit of innovation' slide -- match the key terms.",
+    "misconception": "If a student thinks failure is \"useless,\" they have missed the core concept that failure is an information-gathering tool.",
+    "id": "gen_c6_eng_ch03_q16",
+    "nodeId": "c6_english_u3_023",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it possible for a \"failed\" invention to be successful in a different way? Justify your answer.",
+    "answer": "Yes, because the knowledge gained during the process can lead to a completely different discovery or application than originally intended",
+    "options": [
+     "The answer should use descriptive words (adjectives/verbs) related to the boat and the message. A poor answer lacks imagery (e",
+     "\"Every school must plant a neem tree in its garden to improve the environment.\" A poor answer would be a simple question like \"Is the neem tree good?",
+     "Yes, because the knowledge gained during the process can lead to a completely different discovery or application than originally intended"
+    ],
+    "hint": "Straight from the 'spirit of innovation' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student defines success too narrowly, ignoring the process of learning.",
+    "id": "gen_c6_eng_ch03_q17",
+    "nodeId": "c6_english_u3_023",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify an example of a \"failed\" attempt that leads to a new discovery and explain how a questioning attitude contributes to solving real-world",
+    "options": [
+     "The student must be able to select the correct meaning of a word from a list or provide a synonym based on clues found in a paragraph",
+     "The student must be able to identify if a poem is free verse by checking for the absence of a rhyme scheme and must be able to create a short poem (3-4 lines) that focuses on",
+     "The student must be able to identify an example of a \"failed\" attempt that leads to a new discovery and explain how a questioning attitude contributes to solving real-world"
+    ],
+    "hint": "Straight from the 'spirit of innovation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify an example of a \"failed\" attempt that leads to a new discovery and explain how a",
     "id": "gen_c6_eng_ch03_q18",
-    "nodeId": "c6_english_u3_022",
-    "difficulty": "advanced"
+    "nodeId": "c6_english_u3_023",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -1556,15 +1553,15 @@ export const C6_ENG_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What are the two main elements of a story that tell us \"where it is\" and \"what happens\"?",
-    "answer": "The two elements are the setting and the plot",
+    "question": "Think of a place near your school. Write three sentences: one describing the setting, one describing a character's routine, and one describing an unexpected event (the plot).",
+    "answer": "The answer should show a clear location (e.g., the playground), a habit (e.g., playing football), and a twist (e",
     "options": [
-     "A context clue is a piece of information, such as a definition, synonym, or example, found near an unknown word that helps explain what it means",
-     "The three elements are pace, volume, and expression (or tone)",
-     "The two elements are the setting and the plot"
+     "Yes, because in this context, 'conducted' refers to the act of setting up or running an event",
+     "\"Sports.\" Any other word would be incorrect because Line 1 must be exactly one noun",
+     "The answer should show a clear location (e.g., the playground), a habit (e.g., playing football), and a twist (e"
     ],
     "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "A student who answers only one shows they are missing the connection between the physical space of the story and the actions of the characters.",
+    "misconception": "A poor answer would lack a clear sequence or fail to distinguish between the place and the action.",
     "id": "gen_c6_eng_ch04_q1",
     "nodeId": "c6_english_u4_031",
     "difficulty": "standard",
@@ -1580,8 +1577,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What is a character trait?",
     "answer": "A character trait is a quality or characteristic of a person's personality, like being brave or curious",
     "options": [
-     "Personification is giving human qualities or actions to non-human things",
      "These are called sound words or onomatopoeia",
+     "The student must be able to identify an example of imagery, contrast, or sound words in a short poem and explain how that specific device changes their experience of the text",
      "A character trait is a quality or characteristic of a person's personality, like being brave or curious"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
@@ -1601,8 +1598,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "If a character enters a mysterious forest because they want to see what is on the other side, are they being courageous? Why?",
     "answer": "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown",
     "options": [
-     "The tone is intense, aggressive, or stormy",
      "A good answer will show the character choosing to open the gate despite their fear. A poor answer focuses only on the character being scared and walking away",
+     "The wind is being given the human ability to whisper or communicate",
      "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown"
     ],
     "hint": "Straight from the 'Courage and adventure' slide -- match the key terms.",
@@ -1619,15 +1616,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the definition of personification?",
-    "answer": "Personification is giving human qualities or actions to non-human things",
+    "question": "If a poem describes the wind as \"whispering secrets to the trees,\" what human quality is being given to the wind?",
+    "answer": "The wind is being given the human ability to whisper or communicate",
     "options": [
-     "The two elements are the setting and the plot",
-     "A character trait is a quality or characteristic of a person's personality, like being brave or curious",
-     "Personification is giving human qualities or actions to non-human things"
+     "The author is using contrast. A student answering \"imagery\" may be focusing on the visual aspect, but missing the deliberate placement of opposites to create impact",
+     "Yes, it is imagery because it creates a clear visual picture for the reader",
+     "The wind is being given the human ability to whisper or communicate"
     ],
     "hint": "Straight from the 'Personification' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student is confusing it with a metaphor or simile, which compare two different things rather than assigning human traits.",
+    "misconception": "If a student says the wind is just \"blowing,\" they have missed the human action entirely, showing they need help identifying figurative language.",
     "id": "gen_c6_eng_ch04_q4",
     "nodeId": "c6_english_u4_034",
     "difficulty": "advanced",
@@ -1643,7 +1640,7 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What do we call words that imitate the natural sound of an object or action, like 'rumble' or 'hiss'?",
     "answer": "These are called sound words or onomatopoeia",
     "options": [
-     "Line 3 requires three \"-ing\" words (participles) describing the first subject",
+     "The student must be able to identify an example of imagery, contrast, or sound words in a short poem and explain how that specific device changes their experience of the text",
      "A character trait is a quality or characteristic of a person's personality, like being brave or curious",
      "These are called sound words or onomatopoeia"
     ],
@@ -1683,8 +1680,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What is a 'context clue' in a reading passage?",
     "answer": "A context clue is a piece of information, such as a definition, synonym, or example, found near an unknown word that helps explain what it means",
     "options": [
+     "The student must demonstrate the ability to adjust their reading volume, speed, and tone to match the mood of a narrative passage and use one simple physical gesture or facial",
      "You could slump your shoulders and look down while reading the line to show sadness",
-     "The two elements are the setting and the plot",
      "A context clue is a piece of information, such as a definition, synonym, or example, found near an unknown word that helps explain what it means"
     ],
     "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
@@ -1701,15 +1698,16 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the main difference between a simple sentence and a complex sentence?",
-    "answer": "A simple sentence has one independent clause, while a complex sentence includes at least one dependent clause",
+    "question": "Read this: \"Although Prabhat felt nervous, he played the game.\" Is this a simple or complex sentence? Why?",
+    "answer": "It is a complex sentence because \"Although Prabhat felt nervous\" cannot stand alone as a sentence",
     "options": [
-     "You would lower your volume and slow down for the secret, but increase volume and pitch for the shout",
-     "The character watching the storm represents adventure because they are actively engaging with the unknown",
-     "A simple sentence has one independent clause, while a complex sentence includes at least one dependent clause"
+     "A good answer will show the character choosing to open the gate despite their fear. A poor answer focuses only on the character being scared and walking away",
+     "The wind is being given the human ability to whisper or communicate",
+     "It is a complex sentence because \"Loss felt nervous\" cannot stand alone as a sentence",
+     "It is a complex sentence because \"Although Prabhat felt nervous\" cannot stand alone as a sentence"
     ],
     "hint": "Straight from the 'simple sentence contains one' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student confuses them with compound sentences or does not recognize what a \"complete thought\" is.",
+    "misconception": "A wrong answer reveals the student thinks the presence of two verbs automatically makes it a \"simple\" sentence.",
     "id": "gen_c6_eng_ch04_q8",
     "nodeId": "c6_english_u4_038",
     "difficulty": "standard",
@@ -1726,7 +1724,7 @@ export const C6_ENG_GEN: SimDef[] = [
     "answer": "The three components are a clear setting, a character with a goal, and a series of obstacles or dangers",
     "options": [
      "The three elements are pace, volume, and expression (or tone)",
-     "Line 3 requires three \"-ing\" words (participles) describing the first subject",
+     "A character trait is a quality or characteristic of a person's personality, like being brave or curious",
      "The three components are a clear setting, a character with a goal, and a series of obstacles or dangers"
     ],
     "hint": "Straight from the 'Adventure writing' slide -- match the key terms.",
@@ -1746,8 +1744,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What are the three main elements of voice that change when reading a story aloud?",
     "answer": "The three elements are pace, volume, and expression (or tone)",
     "options": [
-     "You could slump your shoulders and look down while reading the line to show sadness",
      "A character trait is a quality or characteristic of a person's personality, like being brave or curious",
+     "The student can identify instances of personification in a text and explain how the chosen words create a specific tone (e.g., joyful, lonely, or urgent)",
      "The three elements are pace, volume, and expression (or tone)"
     ],
     "hint": "Straight from the 'Reading aloud and dramatisation' slide -- match the key terms.",
@@ -1764,81 +1762,6 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If a story starts with a boy waiting at a train tunnel, why is it important to know that the jungle is \"still\" and \"hot\"?",
-    "answer": "The description helps us understand the atmosphere and the mood of the setting",
-    "options": [
-     "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown",
-     "No, because every true adventure involves some level of risk or uncertainty that requires the character to overcome their hesitation",
-     "The description helps us understand the atmosphere and the mood of the setting"
-    ],
-    "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student views descriptions as \"extra\" words rather than tools the author uses to make the scene feel real.",
-    "id": "gen_c6_eng_ch04_q11",
-    "nodeId": "c6_english_u4_031",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were to rewrite the beginning of a story set in a jungle, how would you change the setting if you moved the story to a busy city street?",
-    "answer": "You would change the sights and sounds, replacing \"still jungle\" with \"noisy traffic\" or \"crowded markets",
-    "options": [
-     "No, setting also includes the time of day or the atmosphere (like heat or silence). A student missing this thinks setting is just a location on a map, ignoring the sensory details",
-     "It tells us he is independent and adventurous",
-     "You would change the sights and sounds, replacing \"still jungle\" with \"noisy traffic\" or \"crowded markets"
-    ],
-    "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: You would change the sights and sounds, replacing \"still jungle\" with \"noisy traffic\" or \"crowded markets.",
-    "id": "gen_c6_eng_ch04_q12",
-    "nodeId": "c6_english_u4_031",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "In a story about a train tunnel, why does the author tell us what the boy does every day before the \"danger\" happens?",
-    "answer": "The author establishes a \"routine\" to show us what is normal, making the moment of danger feel more surprising",
-    "options": [
-     "Yes, because courage is acting in spite of fear, not the absence of fear",
-     "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown",
-     "The author establishes a \"routine\" to show us what is normal, making the moment of danger feel more surprising"
-    ],
-    "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student doesn't see how the plot builds tension through contrast.",
-    "id": "gen_c6_eng_ch04_q13",
-    "nodeId": "c6_english_u4_031",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is a story's setting only about the physical place, like a jungle or a house? Explain.",
-    "answer": "No, setting also includes the time of day or the atmosphere (like heat or silence). A student missing this thinks setting is just a location on a map, ignoring the sensory details",
-    "options": [
-     "Yes, because courage is acting in spite of fear, not the absence of fear",
-     "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown",
-     "No, setting also includes the time of day or the atmosphere (like heat or silence). A student missing this thinks setting is just a location on a map, ignoring the sensory details"
-    ],
-    "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, setting also includes the time of day or the atmosphere (like heat or silence).",
-    "id": "gen_c6_eng_ch04_q14",
-    "nodeId": "c6_english_u4_031",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Think of a place near your school. Write three sentences: one describing the setting, one describing a character's routine, and one describing an unexpected event (the plot).",
-    "answer": "The answer should show a clear location (e.g., the playground), a habit (e.g., playing football), and a twist (e",
-    "options": [
-     "Yes, because courage is acting in spite of fear, not the absence of fear",
-     "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown",
-     "The answer should show a clear location (e.g., the playground), a habit (e.g., playing football), and a twist (e"
-    ],
-    "hint": "Straight from the '\"plot\"' slide -- match the key terms.",
-    "misconception": "A poor answer would lack a clear sequence or fail to distinguish between the place and the action.",
-    "id": "gen_c6_eng_ch04_q15",
-    "nodeId": "c6_english_u4_031",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Describe Suraj as if you were introducing him to a new friend. What would you highlight?",
     "answer": "A good answer mentions his curiosity about the tunnel and his independent spirit. A poor answer just lists \"he likes trains,\" which is a preference, not a character trait",
     "options": [
@@ -1848,38 +1771,114 @@ export const C6_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
     "misconception": "A poor answer just lists \"he likes trains,\" which is a preference, not a character trait.",
-    "id": "gen_c6_eng_ch04_q16",
+    "id": "gen_c6_eng_ch04_q11",
     "nodeId": "c6_english_u4_032",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "How does Suraj’s reaction to danger help us understand his character?",
-    "answer": "His calm response shows he possesses courage",
+    "question": "Is it fair to call Suraj \"courageous\" if he is also afraid? Why or why not?",
+    "answer": "Yes, because courage is acting in spite of fear, not the absence of fear",
     "options": [
-     "It signals that Prabhat and Surya have opposite feelings. Since we know Prabhat felt 'terrible', 'relaxed' must mean the opposite of 'terrible' (calm or at peace)",
-     "Dependent: \"Because it was raining\"; Independent: \"we stopped the game.\" A wrong answer shows the student cannot identify which part of the sentence provides a complete meaning",
-     "His calm response shows he possesses courage"
-    ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "If the student says \"it makes the story exciting,\" they are focusing on the plot instead of the character analysis.",
-    "id": "gen_c6_eng_ch04_q17",
-    "nodeId": "c6_english_u4_032",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "If Suraj explores the jungle alone, what does this tell us about him?",
-    "answer": "It tells us he is independent and adventurous",
-    "options": [
-     "The answer should show a clear location (e.g., the playground), a habit (e.g., playing football), and a twist (e",
+     "Yes, it is imagery because it creates a clear visual picture for the reader",
      "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown",
-     "It tells us he is independent and adventurous"
+     "You, because courage is acting in spite of fear, not the absence of fear",
+     "Yes, because courage is acting in spite of fear, not the absence of fear"
     ],
     "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"he is bored\") ignores the implication of his willingness to be on his own, suggesting the student is guessing rather than interpreting behavior.",
-    "id": "gen_c6_eng_ch04_q18",
+    "misconception": "If a student says \"No, he can't be brave if he's afraid,\" they misunderstand that true courage requires overcoming an internal challenge.",
+    "id": "gen_c6_eng_ch04_q12",
     "nodeId": "c6_english_u4_032",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare a character who stays home to avoid a storm with a character who goes out to watch the lightning. Which one represents the theme of \"adventure\"?",
+    "answer": "The character watching the storm represents adventure because they are actively engaging with the unknown",
+    "options": [
+     "The second version uses personification (\"raced hungrily\") to show the train is powerful and eager, creating an excited or urgent tone",
+     "You would lower your volume and slow down for the secret, but increase volume and pitch for the shout",
+     "The character watching the storm represents adventure because they are actively engaging with the unknown"
+    ],
+    "hint": "Straight from the 'Courage and adventure' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student does not understand that adventure requires participation, not just observation from safety.",
+    "id": "gen_c6_eng_ch04_q13",
+    "nodeId": "c6_english_u4_033",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it possible to have an adventure without being courageous? Explain your reasoning.",
+    "answer": "No, because every true adventure involves some level of risk or uncertainty that requires the character to overcome their hesitation",
+    "options": [
+     "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown",
+     "The wind is being given the human ability to whisper or communicate",
+     "No, because every true adventure involves some level of risk or uncertainty that requires the character to overcome their hesitation"
+    ],
+    "hint": "Straight from the 'Courage and adventure' slide -- match the key terms.",
+    "misconception": "If a student says \"yes, you can have an adventure while sitting on a sofa,\" they are conflating \"adventure\" with \"imagination\" rather than the literary theme of taking risks.",
+    "id": "gen_c6_eng_ch04_q14",
+    "nodeId": "c6_english_u4_033",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Write a one-sentence ending for a story where a character stands before a locked, mysterious gate.",
+    "answer": "A good answer will show the character choosing to open the gate despite their fear. A poor answer focuses only on the character being scared and walking away",
+    "options": [
+     "\"Sports.\" Any other word would be incorrect because Line 1 must be exactly one noun",
+     "It is a complex sentence because \"Although Prabhat felt nervous\" cannot stand alone as a sentence",
+     "A good answer will show the character choosing to open the gate despite their fear. A poor answer focuses only on the character being scared and walking away"
+    ],
+    "hint": "Straight from the 'Courage and adventure' slide -- match the key terms.",
+    "misconception": "A poor answer focuses only on the character being scared and walking away, which fails to capture the theme of adventure.",
+    "id": "gen_c6_eng_ch04_q15",
+    "nodeId": "c6_english_u4_033",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A poet writes: \"The angry clouds shouted at the earth.\" How would you describe the tone of these lines?",
+    "answer": "The tone is intense, aggressive, or stormy",
+    "options": [
+     "Yes, because courage is acting in spite of fear, not the absence of fear",
+     "Yes, they are being courageous because they are choosing to leave their comfort zone to explore the unknown",
+     "The tone is intense, aggressive, or stormy"
+    ],
+    "hint": "Straight from the 'Personification' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"happy\" shows the student is not connecting the \"angry\" personification to the overall feeling of the poem.",
+    "id": "gen_c6_eng_ch04_q16",
+    "nodeId": "c6_english_u4_034",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare these two descriptions: \"The train moved quickly through the station\" and \"The train raced hungrily toward the city.\" How does the second one change the reader's view?",
+    "answer": "The second version uses personification (\"raced hungrily\") to show the train is powerful and eager, creating an excited or urgent tone",
+    "options": [
+     "The character watching the storm represents adventure because they are actively engaging with the unknown",
+     "You would lower your volume and slow down for the secret, but increase volume and pitch for the shout",
+     "The second version uses personification (\"raced hungrily\") to show the train is powerful and eager, creating an excited or urgent tone"
+    ],
+    "hint": "Straight from the 'Personification' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The second version uses personification (\"raced hungrily\") to show the train is powerful and eager, creating an excited",
+    "id": "gen_c6_eng_ch04_q17",
+    "nodeId": "c6_english_u4_034",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can identify instances of personification in a text and explain how the chosen words create a specific tone (e.g., joyful, lonely, or urgent)",
+    "options": [
+     "The student must be able to identify the correct part of speech for each of the seven lines and construct a poem that follows the 1-2-3-4-3-2-1 word count and structural pattern",
+     "The student must be able to identify an example of imagery, contrast, or sound words in a short poem and explain how that specific device changes their experience of the text",
+     "The student can identify instances of personification in a text and explain how the chosen words create a specific tone (e.g., joyful, lonely, or urgent)"
+    ],
+    "hint": "Straight from the 'Personification' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can identify instances of personification in a text and explain how the chosen words create a specific tone",
+    "id": "gen_c6_eng_ch04_q18",
+    "nodeId": "c6_english_u4_034",
     "difficulty": "advanced"
    }
   ],
@@ -1997,16 +1996,15 @@ export const C6_ENG_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What are the two most important structural parts that make a letter different from a newspaper report?",
-    "answer": "The salutation (e.g., Dear friend) and the sign-off (e.g., Yours lovingly)",
+    "question": "Evaluate the choice of using letters to discuss patriotism; is it more effective than a speech? Why?",
+    "answer": "Yes, because patriotism is a deep, personal feeling; a letter makes it feel like a shared secret between friends rather than a lecture",
     "options": [
-     "It is a monument built to honor and pay respects to the soldiers of the Indian armed forces who died in the service of the nation",
-     "The first letters spell out the subject word or phrase of the poem",
-     "The salutation (e.g., Dear friend) and the sign-off (e.g., Acknowledge lovingly)",
-     "The salutation (e.g., Dear friend) and the sign-off (e.g., Yours lovingly)"
+     "Sacrifice is the proof that a person values the country’s safety more than their own life",
+     "The memorial serves as a physical reminder that keeps the stories of brave individuals alive for new generations",
+     "Yes, because patriotism is a deep, personal feeling; a letter makes it feel like a shared secret between friends rather than a lecture"
     ],
     "hint": "Straight from the 'epistolary prose style uses' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the student is confusing the letter format with a factual summary or an essay.",
+    "misconception": "A wrong answer fails to see that personal expression is often more persuasive than public speaking.",
     "id": "gen_c6_eng_ch05_q1",
     "nodeId": "c6_english_u5_041",
     "difficulty": "standard",
@@ -2022,8 +2020,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Why is the concept of \"sacrifice\" considered a core part of patriotism in this chapter?",
     "answer": "Sacrifice is the proof that a person values the country’s safety more than their own life",
     "options": [
-     "It creates a personal, intimate tone that feels like a conversation",
-     "The reader would lose the character's personal reaction and the sense of friendship, making the information feel \"cold",
+     "The second definition is better because 'braveheart' refers to a quality of character, not just a profession",
+     "No, it is not appropriate because it is rude and demanding. A formal letter should be polite and clear, not bossy",
      "Sacrifice is the proof that a person values the country’s safety more than their own life"
     ],
     "hint": "Straight from the 'Patriotism' slide -- match the key terms.",
@@ -2043,8 +2041,8 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of the National War Memorial in New Delhi?",
     "answer": "It is a monument built to honor and pay respects to the soldiers of the Indian armed forces who died in the service of the nation",
     "options": [
-     "'Homage' is a public display of honor or deep respect",
      "Active. The steps are: 1) Identify the subject (The teacher). 2) Identify the verb (told). 3) Ask, \"Did the teacher tell the story?",
+     "The student can identify the differences in tone between formal and informal writing and can draft a simple letter including the correct salutation, body",
      "It is a monument built to honor and pay respects to the soldiers of the Indian armed forces who died in the service of the nation"
     ],
     "hint": "Straight from the 'National War Memorial' slide -- match the key terms.",
@@ -2061,15 +2059,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the difference between the 'theme' of a poem and the 'emotion' of a poem?",
-    "answer": "The theme is the main topic or lesson (like patriotism), while the emotion is the feeling the poet wants the reader to share (like gratitude)",
+    "question": "Look for words that suggest absence or memory (like \"quiet\" or \"empty\"). If the student focuses only on the uniform being an object, they miss the emotional \"weight\" the poet is trying to create.",
+    "answer": "[Correct answer] To determine the emotion, you should analyze the specific adjectives used to describe the uniform and consider the context of its placement",
     "options": [
-     "Reading is processing words; reciting adds emotion, rhythm, and tone, which brings the poem's theme to life",
-     "An informal letter is for personal communication with friends/family, while a formal letter is for professional or official requests",
-     "The theme is the main topic or lesson (like patriotism), while the emotion is the feeling the poet wants the reader to share (like gratitude)"
+     "You would be quiet, respectful, and reflective because it is a place for paying homage, not for playing or loud activities",
+     "The author uses \"determination\" to emphasize the intensity, perseverance, and emotional strength behind the character’s actions",
+     "[Correct answer] To determine the emotion, you should analyze the specific adjectives used to describe the uniform and consider the context of its placement"
     ],
     "hint": "Straight from the 'theme of a poem' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student confuses \"what the poem is about\" with \"how the poem makes us feel.\"",
+    "misconception": "A wrong answer reveals that the student is likely struggling with literary inference, specifically the inability to connect physical imagery (the uniform) to abstract emotional states (the mood).",
     "id": "gen_c6_eng_ch05_q4",
     "nodeId": "c6_english_u5_044",
     "difficulty": "standard",
@@ -2082,15 +2080,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is an acrostic poem?",
-    "answer": "An acrostic poem is one where the first letter of each line spells out a word vertically",
+    "question": "If a poem describes a \"scorching, dry, golden desert,\" which poetic device is the author using?",
+    "answer": "The author is using imagery",
     "options": [
-     "The salutation (e.g., Dear friend) and the sign-off (e.g., Yours lovingly)",
-     "It is a monument built to honor and pay respects to the soldiers of the Indian armed forces who died in the service of the nation",
-     "An acrostic poem is one where the first letter of each line spells out a word vertically"
+     "You would be quiet, respectful, and reflective because it is a place for paying homage, not for playing or loud activities",
+     "No, it is for all citizens because the freedom that every citizen enjoys today was protected by those soldiers, making it a shared national responsibility to remember them",
+     "The author is using imagery"
     ],
     "hint": "Straight from the 'Poetic devices' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is confusing it with a regular paragraph, indicating they need to practice looking at the left-hand margin of poems.",
+    "misconception": "A wrong answer (like \"repetition\") shows the student does not yet distinguish between descriptive sensory language and word patterns.",
     "id": "gen_c6_eng_ch05_q5",
     "nodeId": "c6_english_u5_045",
     "difficulty": "standard",
@@ -2103,15 +2101,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What happens when you read the first letter of every line in an acrostic poem vertically?",
-    "answer": "The first letters spell out the subject word or phrase of the poem",
+    "question": "If you are writing an acrostic poem for the word \"DANCE,\" why must every line relate to movement or rhythm?",
+    "answer": "Because the lines must describe the topic to create a meaningful poem",
     "options": [
-     "An acrostic poem is one where the first letter of each line spells out a word vertically",
-     "You should control your articulation (speaking each word clearly) and your pacing (speed)",
-     "The first letters spell out the subject word or phrase of the poem"
+     "You should use warm, casual language because the goal is to share personal feelings",
+     "You would be quiet, respectful, and reflective because it is a place for paying homage, not for playing or loud activities",
+     "Because the lines must describe the topic to create a meaningful poem"
     ],
     "hint": "Straight from the 'acrostic poem' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks the poem is read horizontally or doesn't understand the vertical structure.",
+    "misconception": "A wrong answer shows the student treats it as a random word game rather than a form of creative expression.",
     "id": "gen_c6_eng_ch05_q6",
     "nodeId": "c6_english_u5_046",
     "difficulty": "advanced",
@@ -2124,16 +2122,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What does the word 'homage' mean in the context of showing respect to someone who served their country?",
-    "answer": "'Homage' is a public display of honor or deep respect",
+    "question": "'Determination' implies a strong, internal will to succeed regardless of obstacles, whereas \"tried\" could mean a casual attempt. A wrong answer suggests the student is ignoring the emotional intensity the author is trying to convey.",
+    "answer": "The author uses \"determination\" to emphasize the intensity, perseverance, and emotional strength behind the character’s actions",
     "options": [
-     "The salutation (e.g., Dear friend) and the sign-off (e.g., Yours lovingly)",
-     "It is a monument built to honor and pay respects to the soldiers of the Indian armed forces who died in the service of the nation",
-     "'Thank' is a public display of honor or deep respect",
-     "'Homage' is a public display of honor or deep respect"
+     "The author is using imagery",
+     "You should use warm, casual language because the goal is to share personal feelings",
+     "The author uses \"determination\" to emphasize the intensity, perseverance, and emotional strength behind the character’s actions"
     ],
     "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"a gift\") reveals the student is looking for a physical object rather than the emotional act of remembrance.",
+    "misconception": "A wrong answer reveals that the student is struggling to distinguish between denotation (the literal definition) and connotation (the emotional or implied weight of a word). If a student argues that the words mean the exact same thing, it shows they are reading for basic plot information rather than analyzing how an",
     "id": "gen_c6_eng_ch05_q7",
     "nodeId": "c6_english_u5_047",
     "difficulty": "standard",
@@ -2146,15 +2143,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "In the sentence \"The artist painted a picture,\" who is performing the action?",
-    "answer": "The artist is performing the action",
+    "question": "Identify if the following sentence is active or passive: \"The teacher told a story to the students.\"",
+    "answer": "Active. The steps are: 1) Identify the subject (The teacher). 2) Identify the verb (told). 3) Ask, \"Did the teacher tell the story?",
     "options": [
-     "No, it is for all citizens because the freedom that every citizen enjoys today was protected by those soldiers, making it a shared national responsibility to remember them",
-     "A good answer would include a symbol of their service, their name, and a short message of gratitude to guide others in reflecting on their contribution",
-     "The artist is performing the action"
+     "The student must be able to identify these three devices in a short poem and explain how they contribute to the poem's theme or mood",
+     "The student can identify the differences in tone between formal and informal writing and can draft a simple letter including the correct salutation, body",
+     "Active. The steps are: 1) Identify the subject (The teacher). 2) Identify the verb (told). 3) Ask, \"Did the teacher tell the story?"
     ],
     "hint": "Straight from the 'Voice explains the relationship' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is confused about identifying the \"doer\" versus the \"thing being acted upon\" in a sentence.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Active. The steps are: 1) Identify the subject (The teacher). 2) Identify the verb (told).",
     "id": "gen_c6_eng_ch05_q8",
     "nodeId": "c6_english_u5_048",
     "difficulty": "standard",
@@ -2167,15 +2164,15 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the main difference between the purpose of a formal letter and an informal letter?",
-    "answer": "An informal letter is for personal communication with friends/family, while a formal letter is for professional or official requests",
+    "question": "If you are writing to a friend about a trip to a memorial, should you use complex, strict language or warm, casual language? Why?",
+    "answer": "You should use warm, casual language because the goal is to share personal feelings",
     "options": [
-     "The theme is the main topic or lesson (like patriotism), while the emotion is the feeling the poet wants the reader to share (like gratitude)",
-     "Prose gives facts, while poetry uses rhythm, imagery, and short, powerful phrases to hit the reader's emotions quickly",
-     "An informal letter is for personal communication with friends/family, while a formal letter is for professional or official requests"
+     "Steps: 1. Acknowledge the peer (e.g., \"I agree with you\"). 2. Rephrase their point (e.g., \"Her determination to use her feet was impressive\")",
+     "You would be quiet, respectful, and reflective because it is a place for paying homage, not for playing or loud activities",
+     "You should use warm, casual language because the goal is to share personal feelings"
     ],
     "hint": "Straight from the 'letter' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student does not distinguish between social and institutional relationships.",
+    "misconception": "A wrong answer shows confusion about the purpose of tone in letter writing.",
     "id": "gen_c6_eng_ch05_q9",
     "nodeId": "c6_english_u5_049",
     "difficulty": "advanced",
@@ -2192,7 +2189,7 @@ export const C6_ENG_GEN: SimDef[] = [
     "answer": "You should control your articulation (speaking each word clearly) and your pacing (speed)",
     "options": [
      "Active. The steps are: 1) Identify the subject (The teacher). 2) Identify the verb (told). 3) Ask, \"Did the teacher tell the story?",
-     "The first letters spell out the subject word or phrase of the poem",
+     "The student can recite a short poem using clear articulation and respectful tone, and can contribute two relevant points to a group discussion while paraphrasing one point made by",
      "You should control your articulation (speaking each word clearly) and your pacing (speed)"
     ],
     "hint": "Straight from the 'Recitation' slide -- match the key terms.",
@@ -2209,76 +2206,16 @@ export const C6_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Analyze this: If the letters were removed and replaced by a neutral narrator describing the memorial, what would the reader lose?",
-    "answer": "The reader would lose the character's personal reaction and the sense of friendship, making the information feel \"cold",
-    "options": [
-     "It is not a good acrostic because the lines do not describe being 'BRAVE'",
-     "The memorial serves as a physical reminder that keeps the stories of brave individuals alive for new generations",
-     "The reader would lose the character's personal reaction and the sense of friendship, making the information feel \"cold"
-    ],
-    "hint": "Straight from the 'epistolary prose style uses' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student does not grasp the emotional value of the narrator's perspective.",
-    "id": "gen_c6_eng_ch05_q11",
-    "nodeId": "c6_english_u5_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the choice of using letters to discuss patriotism; is it more effective than a speech? Why?",
-    "answer": "Yes, because patriotism is a deep, personal feeling; a letter makes it feel like a shared secret between friends rather than a lecture",
-    "options": [
-     "It ensures that the identity and sacrifice of every soldier are permanently recorded and remembered by the public",
-     "It serves as a tangible lesson that brings the abstract idea of \"sacrifice for the nation\" to life, making history feel personal rather than just text in a book",
-     "Yes, because patriotism is a deep, personal feeling; a letter makes it feel like a shared secret between friends rather than a lecture"
-    ],
-    "hint": "Straight from the 'epistolary prose style uses' slide -- match the key terms.",
-    "misconception": "A wrong answer fails to see that personal expression is often more persuasive than public speaking.",
-    "id": "gen_c6_eng_ch05_q12",
-    "nodeId": "c6_english_u5_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were writing a letter about a visit to a memorial, how would your language change compared to writing a factual paragraph for a history project?",
-    "answer": "You would use \"I\" and \"me,\" describe how you *felt* (scared, proud, sad), and use conversational words like \"guess what?",
-    "options": [
-     "You could say, \"What do you think about this, [Name]?\" or \"Would you like to share your view?\" This demonstrates leadership and empathy",
-     "\"I am writing to request information regarding the National War Memorial.\" A poor answer would be too vague or use slang",
-     "You would use \"I\" and \"me,\" describe how you *felt* (scared, proud, sad), and use conversational words like \"guess what?"
-    ],
-    "hint": "Straight from the 'epistolary prose style uses' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student is still using academic, detached language.",
-    "id": "gen_c6_eng_ch05_q13",
-    "nodeId": "c6_english_u5_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does an author choose to write a story as a series of letters instead of a formal report?",
-    "answer": "It creates a personal, intimate tone that feels like a conversation",
-    "options": [
-     "Sacrifice is the proof that a person values the country’s safety more than their own life",
-     "The memorial serves as a physical reminder that keeps the stories of brave individuals alive for new generations",
-     "It creates a personal, intimate tone that feels like a conversation"
-    ],
-    "hint": "Straight from the 'epistolary prose style uses' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks letters are just for \"sharing news,\" missing the emotional connection between friends.",
-    "id": "gen_c6_eng_ch05_q14",
-    "nodeId": "c6_english_u5_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
     "question": "Write the opening two lines of a letter to a friend describing a place that makes you feel proud of India.",
     "answer": "The response should include a proper salutation and a personal, enthusiastic opening sentence (e.g",
     "options": [
-     "You would use \"I\" and \"me,\" describe how you *felt* (scared, proud, sad), and use conversational words like \"guess what?",
-     "Because the lines must describe the topic to create a meaningful poem",
+     "You could say, \"What do you think about this, [Name]?\" or \"Would you like to share your view?\" This demonstrates leadership and empathy",
+     "The correct word is 'memorial'. The steps to reach this are: 1) Identify that a structure is being built, 2) Recognize that 'memorial' refers to a place of remembrance",
      "The response should include a proper salutation and a personal, enthusiastic opening sentence (e.g"
     ],
     "hint": "Straight from the 'epistolary prose style uses' slide -- match the key terms.",
     "misconception": "A poor answer would sound like a textbook description without any personal excitement.",
-    "id": "gen_c6_eng_ch05_q15",
+    "id": "gen_c6_eng_ch05_q11",
     "nodeId": "c6_english_u5_041",
     "difficulty": "standard"
    },
@@ -2287,13 +2224,13 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "Create a short \"thank you\" message for a memorial stone that captures the essence of both patriotism and sacrifice.",
     "answer": "The message should express both pride in the country and gratitude for the individual's life. A poor answer is generic",
     "options": [
-     "You would be quiet, respectful, and reflective because it is a place for paying homage, not for playing or loud activities",
-     "You would use \"I\" and \"me,\" describe how you *felt* (scared, proud, sad), and use conversational words like \"guess what?",
+     "A good answer would include a symbol of their service, their name, and a short message of gratitude to guide others in reflecting on their contribution",
+     "Because the lines must describe the topic to create a meaningful poem",
      "The message should express both pride in the country and gratitude for the individual's life. A poor answer is generic"
     ],
     "hint": "Straight from the 'Patriotism' slide -- match the key terms.",
     "misconception": "A poor answer is generic, like \"Thank you for your help,\" which ignores the depth of the theme.",
-    "id": "gen_c6_eng_ch05_q16",
+    "id": "gen_c6_eng_ch05_q12",
     "nodeId": "c6_english_u5_042",
     "difficulty": "standard"
    },
@@ -2302,29 +2239,89 @@ export const C6_ENG_GEN: SimDef[] = [
     "question": "How does the existence of a memorial (like the one in Delhi) help people today understand the sacrifices made by soldiers in the past?",
     "answer": "The memorial serves as a physical reminder that keeps the stories of brave individuals alive for new generations",
     "options": [
-     "It ensures that the identity and sacrifice of every soldier are permanently recorded and remembered by the public",
-     "It serves as a tangible lesson that brings the abstract idea of \"sacrifice for the nation\" to life, making history feel personal rather than just text in a book",
+     "No, it is not appropriate because it is rude and demanding. A formal letter should be polite and clear, not bossy",
+     "Yes, because patriotism is a deep, personal feeling; a letter makes it feel like a shared secret between friends rather than a lecture",
      "The memorial serves as a physical reminder that keeps the stories of brave individuals alive for new generations"
     ],
     "hint": "Straight from the 'Patriotism' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student views the memorial as just a \"building\" rather than a place of reflection and connection.",
-    "id": "gen_c6_eng_ch05_q17",
+    "id": "gen_c6_eng_ch05_q13",
     "nodeId": "c6_english_u5_042",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If you were writing a letter to a brave soldier, which two details from the concept of sacrifice would you include to show your gratitude?",
-    "answer": "1. Acknowledge their time away from family. 2. Acknowledge their role in keeping the borders safe",
+    "question": "How does the National War Memorial help younger generations, like your own, understand history?",
+    "answer": "It serves as a tangible lesson that brings the abstract idea of \"sacrifice for the nation\" to life, making history feel personal rather than just text in a book",
+    "options": [
+     "The memorial serves as a physical reminder that keeps the stories of brave individuals alive for new generations",
+     "Yes, because patriotism is a deep, personal feeling; a letter makes it feel like a shared secret between friends rather than a lecture",
+     "It serves as a tangible lesson that brings the abstract idea of \"sacrifice for the nation\" to life, making history feel personal rather than just text in a book"
+    ],
+    "hint": "Straight from the 'National War Memorial' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student views it as an isolated structure rather than an educational tool.",
+    "id": "gen_c6_eng_ch05_q14",
+    "nodeId": "c6_english_u5_043",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were asked to design a small corner in your school to honor someone who helped the community, what would you include and why?",
+    "answer": "A good answer would include a symbol of their service, their name, and a short message of gratitude to guide others in reflecting on their contribution",
+    "options": [
+     "You should use warm, casual language because the goal is to share personal feelings",
+     "You would be quiet, respectful, and reflective because it is a place for paying homage, not for playing or loud activities",
+     "A good answer would include a symbol of their service, their name, and a short message of gratitude to guide others in reflecting on their contribution"
+    ],
+    "hint": "Straight from the 'National War Memorial' slide -- match the key terms.",
+    "misconception": "A poor answer focuses only on visual art (like just a poster) without explaining how it helps others remember or respect the person.",
+    "id": "gen_c6_eng_ch05_q15",
+    "nodeId": "c6_english_u5_043",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were visiting the memorial, how would your behavior differ compared to visiting a shopping mall?",
+    "answer": "You would be quiet, respectful, and reflective because it is a place for paying homage, not for playing or loud activities",
+    "options": [
+     "The correct word is 'memorial'. The steps to reach this are: 1) Identify that a structure is being built, 2) Recognize that 'memorial' refers to a place of remembrance",
+     "\"I am writing to request information regarding the National War Memorial.\" A poor answer would be too vague or use slang",
+     "You would be quiet, respectful, and reflective because it is a place for paying homage, not for playing or loud activities"
+    ],
+    "hint": "Straight from the 'National War Memorial' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals a lack of understanding regarding the social and cultural significance of sacred or commemorative spaces.",
+    "id": "gen_c6_eng_ch05_q16",
+    "nodeId": "c6_english_u5_043",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is a war memorial only for the families of the soldiers who died? Explain your view.",
+    "answer": "No, it is for all citizens because the freedom that every citizen enjoys today was protected by those soldiers, making it a shared national responsibility to remember them",
     "options": [
      "The response should include a proper salutation and a personal, enthusiastic opening sentence (e.g",
-     "You should use warm, casual language because the goal is to share personal feelings",
-     "1. Acknowledge their time away from family. 2. Acknowledge their role in keeping the borders safe"
+     "The message should express both pride in the country and gratitude for the individual's life. A poor answer is generic",
+     "No, it is for all citizens because the freedom that every citizen enjoys today was protected by those soldiers, making it a shared national responsibility to remember them"
     ],
-    "hint": "Straight from the 'Patriotism' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student cannot connect the abstract concept of \"sacrifice\" to concrete, real-life consequences.",
+    "hint": "Straight from the 'National War Memorial' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student does not grasp the concept of collective national gratitude.",
+    "id": "gen_c6_eng_ch05_q17",
+    "nodeId": "c6_english_u5_043",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why do you think the names of soldiers are inscribed on the walls of the memorial?",
+    "answer": "It ensures that the identity and sacrifice of every soldier are permanently recorded and remembered by the public",
+    "options": [
+     "No, it is not appropriate because it is rude and demanding. A formal letter should be polite and clear, not bossy",
+     "It is not a good acrostic because the lines do not describe being 'BRAVE'",
+     "It ensures that the identity and sacrifice of every soldier are permanently recorded and remembered by the public"
+    ],
+    "hint": "Straight from the 'National War Memorial' slide -- match the key terms.",
+    "misconception": "A wrong answer often indicates the student thinks it is just for decoration, failing to understand the concept of \"memorialization\" and honor.",
     "id": "gen_c6_eng_ch05_q18",
-    "nodeId": "c6_english_u5_042",
+    "nodeId": "c6_english_u5_043",
     "difficulty": "standard"
    }
   ],

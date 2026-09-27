@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch14_p1: SimDef = {
     id: 'v3_c12_hin_a_ch14_p1',
-    title: 'vlxj otkgr · Part 1/3',
+    title: 'शेर, पहचान, चार हाथ, साझा · Part 1/3',
     subtitle: 'A lid on the well, a gag on the people',
-    classLevel: 12, subject: 'hin_a', topic: 'vlxj otkgr · Part 1/3',
+    classLevel: 12, subject: 'hin_a', topic: 'शेर, पहचान, चार हाथ, साझा · Part 1/3',
     chapters: ['c12_hin_a_ch14'],
     nodeIds: ['c12_hin_a_cbse_14_001', 'c12_hin_a_cbse_14_002', 'c12_hin_a_cbse_14_003', 'c12_hin_a_cbse_14_004', 'c12_hin_a_cbse_14_005', 'c12_hin_a_cbse_14_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,49 +19,15 @@ export const c12_hin_a_ch14_p1: SimDef = {
         hook: 'The journalist\'s craft is the giveaway — simple spoken language carrying sharp satire; even the glossary is a code: \'myaan\' (scabbard) hints at hidden violence, the fakir\'s words flag hypocrisy. The well\'s lid is the citizenry\'s gagged voice.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'This node provides the essential biographical, historical, and literary context for the chapter "vlxj otkgr" (Chapter 14, Hindi Antra, Class 12).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'शेर, पहचान, चार हाथ, साझा — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और रचनात्मक यात्रा का संक्षिप्त विवरण देना, जिससे पाठ के पीछे के उद्देश्य और संदेश को बेहतर ढंग से समझा जा सके।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_14_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Run the satire four ways: unmask the well\'s lid as silenced dissent, split state-scale from household-scale power, and read the vocabulary list as a map of the stories\' politics.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['शेर, पहचान, चार हाथ,'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_14_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are a film editor given raw footage of four different movies — one a mystery, one a political satire, one a folk tale, and one a comedy.',
-            decisions: [{ prompt: 'Define the five elements of Freytag\'s Pyramid (plot diagram) in the correct order.', options: [
-                { text: 'The five elements are: 1) Exposition (introduction of setting, characters, situation), 2)', outcome: 'The five elements are: 1) Exposition (introduction of setting, characters, situation), 2) Rising.' },
-                { text: 'beginning, middle, end', outcome: 'Not quite — Students often confuse **plot** (the chronological sequence of events: A → B → C) with **narrative.', reveals: 'students-often-confuse-plot-the' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_14_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re watching a film where the opening scene shows a dimly lit, narrow alley with dripping water and distant sirens — before any character speaks.',
-            decisions: [{ prompt: 'In the story \'ksj, what physical details does the author provide about the \'ksj structure and its immediate surroundings in the opening.', options: [
-                { text: 'The author describes the \'ksj as having a "dry face" ([kqyk eq¡g), a raised platform', outcome: 'The author describes the \'ksj as having a "dry face" ([kqyk eq¡g), a raised platform (>kM+h) with.' },
-                { text: 'a building', outcome: 'Not quite — Students often treat setting as a static "where and when" label (e.g., "village," "old times").', reveals: 'students-often-treat-setting-as' },
-                { text: 'a place', outcome: 'Not quite — Students often treat setting as a static "where and when" label (e.g., "village," "old times").', reveals: 'students-often-treat-setting-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_14_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are writing a character reference for a college application — you would cite specific incidents that reveal the person\'s true nature, not just.',
-            decisions: [{ prompt: 'Define "protagonist" and name the protagonist of each of the four stories in this chapter.', options: [
-                { text: 'A protagonist is the central character who drives the narrative\'s primary conflict and', outcome: 'A protagonist is the central character who drives the narrative\'s primary conflict and undergoes.' },
-                { text: 'most pages', outcome: 'Not quite — Students consistently identify the narrator of "कसज" as the protagonist because the story.', reveals: 'students-consistently-identify-the-narrator' },
-                { text: 'protagonist', outcome: 'Not quite — Students consistently identify the narrator of "कसज" as the protagonist because the story.', reveals: 'students-consistently-identify-the-narrator' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_14_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine watching a cricket match where the captain (protagonist) gets all the attention, but the match turns because of a brilliant catch by a fielder or.',
-            decisions: [{ prompt: 'List the supporting characters in the story \'ksj (The Crow) and state the single most important action each performs that affects the.', options: [
-                { text: 'Correct: (1) Narrator', outcome: 'Correct: (1) Narrator — observes the crow and questions its beak, initiating the inquiry.' },
-                { text: 'the child, the woman, the old man', outcome: 'Not quite — Students think "supporting character analysis" means writing a character sketch (appearance.', reveals: 'supporting-character-analysis-means-writing' },
-                { text: 'supporting character analysis', outcome: 'Not quite — Students think "supporting character analysis" means writing a character sketch (appearance.', reveals: 'supporting-character-analysis-means-writing' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_14_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are asked in the board exam: "What is the central message of the four stories in this chapter?" Many students simply retell the plots.',
-            decisions: [{ prompt: 'State the primary theme of the chapter "vlxj otkgr" in one sentence.', options: [
-                { text: 'The primary theme is the abuse of power and the systemic exploitation of the weak by the', outcome: 'The primary theme is the abuse of power and the systemic exploitation of the weak by the strong.' },
-                { text: 'The stories are about animals and kings', outcome: 'Not quite — Students often think "theme" means "the topic of the story" (e.g., "birds," "kings," "horses") and.', reveals: 'theme-means-the-topic-of' },
-                { text: 'horses', outcome: 'Not quite — Students often think "theme" means "the topic of the story" (e.g., "birds," "kings," "horses") and.', reveals: 'theme-means-the-topic-of' }
-            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_14_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your hostel reports a wobbly fan. Weeks later it\'s a \'case\' — the warden consulted the electrician, who consulted the engineer, who proposed a structural audit, who now wants a committee — while the fan still wobbles.',
             decisions: [{ prompt: 'Which of Asghar Wajahat\'s story structures is playing out?', options: [
@@ -71,8 +37,8 @@ export const c12_hin_a_ch14_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_14_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now read a satirist\'s quartet as one argument about power — and spot how a lid on a well is a lid on a people.',
-            decisions: [{ prompt: 'What comes next? vlxj otkgr · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — vlxj otkgr · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? शेर, पहचान, चार हाथ, साझा · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — शेर, पहचान, चार हाथ, साझा · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -81,94 +47,71 @@ export const c12_hin_a_ch14_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_001', difficulty: 'standard',
-          question: 'This node provides the essential biographical, historical, and literary context.',
-          hint: 'If stuck, revisit the Class 11 Antra Chapter 14 "Before You Read".',
-          misconception: 'Students often treat the "Before You Read" section as optional background reading to be skimmed or skipped, believing.',
+          question: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक.',
+          hint: 'यदि फंसे हुए महसूस हो तो Class 11 के किसी भी पाठ के लेखक परिचय (जैसे.',
+          misconception: 'छात्र अक्सर सोचते हैं कि लेखक का परिचय केवल इसलिए महत्वपूर्ण है क्योंकि यह पाठ्यक्रम में दिया गया है और इसे याद करके.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'This node provides the essential biographical, historical, and literary context for the',
-                  options: ['This node provides the essential biographical, historical, and literary context for the', 'Plot and Narrative Structure refers to the deliberate arrangement of events in a story', 'Setting and atmosphere refer to the time, place, physical environment, and emotional mood', 'Character analysis of the protagonist is the systematic examination of the central'],
-                  hint: 'If stuck, revisit the Class 11 Antra Chapter 14 "Before You Read" (c11_hin_ar_cbse_14_001) and.',
-                  misconception: 'Students often treat the "Before You Read" section as optional background reading to be skimmed or skipped, believing the real learning.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और',
+                  options: ['पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई', 'नायक/प्रमुख पात्र का चित्रण वह प्रक्रिया है जिसमें लेखक द्वारा दिखाए गए पात्र के बाह्य'],
+                  hint: 'यदि फंसे हुए महसूस हो तो Class 11 के किसी भी पाठ के लेखक परिचय (जैसे c11_hin_a_cbse_01_001) को.',
+                  misconception: 'छात्र अक्सर सोचते हैं कि लेखक का परिचय केवल इसलिए महत्वपूर्ण है क्योंकि यह पाठ्यक्रम में दिया गया है और इसे याद करके लिखने से बोर्ड परीक्षा.' }
           ],
-            remediations: { 'students-often-treat-the-before': { steps: ['If a student cannot answer the diagnostic questions, do not re-read the section passively.', 'Instead: (1) Have them create a 3-column table: Author Detail | Story Element It Illuminates | Evidence from Summary.', '(2) Ask them to match each vocabulary word to the story summary where it fits best and explain why.', '(3) Have them orally retell the central conflict of each story in one sentence using the words "power", "resistance".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र से पूछिए कि वे अपने पसंदीदा फिल्म या किताब केcreator के बारे में क्या जानते हैं - जैसे कि वे क्यों बने, क्या.', 'इस चरण-दर-चरण संवाद के माध्यम से अवधारणा को concreat बनाइए।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure refers to the deliberate arrangement of events.',
-          hint: 'Review Freytag\'s Pyramid using a known story (e.g., "The Thirsty Crow") and practice.',
-          misconception: 'Students often confuse **plot** (the chronological sequence of events: A → B → C) with **narrative structure** (the.',
+          question: 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल.',
+          hint: 'यदि stuck महसूस हो तो कक्षा 11 के किसी भी पाठ के कथानक-analysis को दोबारा देखें — विशेषकर.',
+          misconception: 'विद्यार्थी अक्सर यह मानते हैं कि यदि कहानी में अतीत की घटनाएँ आएँ तो वह स्वतः ही अनुक्रम-विक्रम संरचना है, भले ही वे.',
           parts: [
-                { id: 'a', prompt: 'Given the following micro-story summary, map its events onto the five-stage plot diagram: "A farmer finds a magical pot that doubles anything put inside.', answer: 'Exposition: Farmer finds magical doubling pot',
-                  options: ['Exposition: Farmer finds magical doubling pot', 'rising action', 'climax'],
-                  hint: 'Review Freytag\'s Pyramid using a known story (e.g., "The Thirsty Crow") and practice labeling each.',
-                  misconception: 'Students often confuse **plot** (the chronological sequence of events: A → B → C) with **narrative structure** (the order in which the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;',
+                  options: ['कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई', 'नायक/प्रमुख पात्र का चित्रण वह प्रक्रिया है जिसमें लेखक द्वारा दिखाए गए पात्र के बाह्य'],
+                  hint: 'यदि stuck महसूस हो तो कक्षा 11 के किसी भी पाठ के कथानक-analysis को दोबारा देखें — विशेषकर वह जहाँ.',
+                  misconception: 'विद्यार्थी अक्सर यह मानते हैं कि यदि कहानी में अतीत की घटनाएँ आएँ तो वह स्वतः ही अनुक्रम-विक्रम संरचना है, भले ही वे केवल पात्र के संवाद या.' }
           ],
-            remediations: { 'students-often-confuse-plot-the': { steps: ['**Re-teach the distinction**: Use a familiar Bollywood movie (e.g., *Andhadhun* or *Drishyam*) — ask the student.', 'The difference is narrative structure.', '**Re-read \'ksj\' with a highlighter**: Mark every paragraph as E (Exposition), R (Rising), C (Climax), F (Falling),.', '**Peer discussion**: Pair with a student who grasped it; have them explain why the author chose first-person limited.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often confuse **plot** (the chronological sequence of events: A → B → C) with **narrative structure** (the.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate which story\'s narrative structure most effectively delivers its central theme. Justify your choice with specific structural evidence.', answer: '\'ksj\' is most effective',
-                  options: ['\'ksj\' is most effective', 'I liked the message of \'igpku\''],
-                  hint: 'Review Freytag\'s Pyramid using a known story (e.g., "The Thirsty Crow") and practice labeling each.',
-                  misconception: 'Students often confuse **plot** (the chronological sequence of events: A → B → C) with **narrative structure** (the order in which the.' }
-          ],
-            remediations: { 'students-often-confuse-plot-the': { steps: ['**Re-teach the distinction**: Use a familiar Bollywood movie (e.g., *Andhadhun* or *Drishyam*) — ask the student.', 'The difference is narrative structure.', '**Re-read \'ksj\' with a highlighter**: Mark every paragraph as E (Exposition), R (Rising), C (Climax), F (Falling),.', '**Peer discussion**: Pair with a student who grasped it; have them explain why the author chose first-person limited.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['विद्यार्थी को दो टुकड़े दें: एक जहाँ पात्र बस कहता है "मैं अपने बचपन को याद कर रहा हूँ" (सामग्री: अतीत, संरचना: रैखिक.', 'दूसरे में क्या रुका?" इससे स्पष्ट होगा कि संरचना में बदलाव केवल समय के उल्लेख से नहीं, बल्कि कथन के प्रवाह के 중단 से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_003', difficulty: 'standard',
-          question: 'Setting and atmosphere refer to the time, place, physical environment, and.',
-          hint: 'If stuck, revisit c11_hin_ar_cbse_14_003\'s worked example on sensory mapping — practice.',
-          misconception: 'Students often treat setting as a static "where and when" label (e.g., "village," "old times") rather than a dynamic.',
+          question: 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है.',
+          hint: 'यदि छात्र पाठ्य-परिवेश की पहचान में फँस गया है, तो उसे कक्षा 11 के पाठ 1, 2 और 3 के.',
+          misconception: 'छात्र अक्सर मानते हैं कि पाठ्य-परिवेश केवल तभी मायने रखता है जब पाठ स्पष्ट रूप से ऐतिहासिक घटनाओं का उल्लेख करे—जैसे.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words how the atmosphere in the \'ksj story shifts from the narrator\'s first visit to the later conversation with the \'ksj keeper.', answer: 'Initially, the atmosphere is curious and observational',
-                  options: ['Initially, the atmosphere is curious and observational', 'the mood changes'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_14_003\'s worked example on sensory mapping — practice converting.',
-                  misconception: 'Students often treat setting as a static "where and when" label (e.g., "village," "old times") rather than a dynamic system of sensory.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई',
+                  options: ['पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'नायक/प्रमुख पात्र का चित्रण वह प्रक्रिया है जिसमें लेखक द्वारा दिखाए गए पात्र के बाह्य'],
+                  hint: 'यदि छात्र पाठ्य-परिवेश की पहचान में फँस गया है, तो उसे कक्षा 11 के पाठ 1, 2 और 3 के "पाठ्य-परिवेश.',
+                  misconception: 'छात्र अक्सर मानते हैं कि पाठ्य-परिवेश केवल तभी मायने रखता है जब पाठ स्पष्ट रूप से ऐतिहासिक घटनाओं का उल्लेख करे—जैसे यदि कोई पाठ "1947 में.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student reread the first two paragraphs of \'ksj and underline every sensory word (sight: [kqyk, >kM+h, ph"k.', 'Ask: "If this were a film, what would the camera show in the first 10 seconds?" — force visual translation.', 'Assign micro-task: rewrite one paragraph replacing all sensory words with neutral ones ("a building," "some steps").', 'Re-diagnose using DIAGNOSTIC_QUESTION_1 — student must now cite three specific sensory phrases.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { '1947': { steps: ['यदि छात्र इस गलतफहमी में फंसा है, तो उसे इस प्रकार सुधारें: पहले, उसे एक ऐसा पाठ दें जिसमें स्पष्ट ऐतिहासिक संदर्भ न हो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist is the systematic examination of the.',
-          hint: 'If stuck on indirect characterization, review Class 11 node c11_hin_ar_cbse_14_004\'s.',
-          misconception: 'Students consistently identify the narrator of "कसज" as the protagonist because the story is filtered through his.',
+          question: 'नायक/प्रमुख पात्र का चित्रण वह प्रक्रिया है जिसमें लेखक द्वारा दिखाए गए पात्र.',
+          hint: 'यदि फँसें तो कक्षा 11 के पात्र-चित्रण के मूल मॉडल (c11_hin_a_cbse_04_004) को पुनः देखें.',
+          misconception: 'छात्र अक्सर नायक के चित्रण को केवल उसके बाह्य लक्षणों (जैसे: वह शेर जैसा दिखता है, चार हाथ हैं) तक सीमित रखते हैं और.',
           parts: [
-                { id: 'a', prompt: 'Using the King in "इगपुकु," explain the difference between a flat and a round character. Is the King flat or round? Justify with two textual details.', answer: 'A flat character embodies a single trait and does not change',
-                  options: ['A flat character embodies a single trait and does not change', 'flat because he is a symbol'],
-                  hint: 'If stuck on indirect characterization, review Class 11 node c11_hin_ar_cbse_14_004\'s "show don\'t.',
-                  misconception: 'Students consistently identify the narrator of "कसज" as the protagonist because the story is filtered through his observations ("मैंने.' },
-                { id: 'b', prompt: 'Read this new paragraph: "The village headman announced a new tax. The farmers whispered but paid. Next month he doubled it. The farmers sold jewelry.', answer: 'Trait 1: Exploitative',
-                  options: ['Trait 1: Exploitative', 'he is bad'],
-                  hint: 'If stuck on indirect characterization, review Class 11 node c11_hin_ar_cbse_14_004\'s "show don\'t.',
-                  misconception: 'Students consistently identify the narrator of "कसज" as the protagonist because the story is filtered through his observations ("मैंने.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'नायक/प्रमुख पात्र का चित्रण वह प्रक्रिया है जिसमें लेखक द्वारा दिखाए गए पात्र के बाह्य',
+                  options: ['नायक/प्रमुख पात्र का चित्रण वह प्रक्रिया है जिसमें लेखक द्वारा दिखाए गए पात्र के बाह्य', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'यदि फँसें तो कक्षा 11 के पात्र-चित्रण के मूल मॉडल (c11_hin_a_cbse_04_004) को पुनः देखें — विशेष रूप.',
+                  misconception: 'छात्र अक्सर नायक के चित्रण को केवल उसके बाह्य लक्षणों (जैसे: वह शेर जैसा दिखता है, चार हाथ हैं) तक सीमित रखते हैं और उसके आंतरिक आयामों.' }
           ],
-            remediations: { 'students-consistently-identify-the-narrator': { steps: ['Re-read the opening of "कसज" (node c12_hin_a_cbse_14_002) and list every character mentioned in the first three.', 'Count textual references: how many paragraphs focus on the narrator\'s actions vs.', 'कसज\'s neck as the site of action?', 'Ask: "If this character were removed, would the plot exist?" Apply to both narrator and कसज.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र केवल बाह्य लक्षणों पर ध्यान दे रहा है, तो उसे निम्नलिखित चरण-दर-चरण अभ्यास करवाएँ: 1.', 'पाठ से दो बाह्य लक्षणों की सूची बनवाएँ (जैसे: कपड़ों का रंग, चलन की शैली)। 2.', 'प्रत्येक बाह्य लक्षण के लिए पूछें: "यह लक्षण नायक के आंतरिक गुण (जैसे: आत्मविश्वास, डर, उदारता) को कैसे दर्शा सकता है?".', 'फिर पाठ से एक ऐसा क्षण चुनें जहाँ नायक का आंतरिक संघर्ष स्पष्ट हो (जैसे: वह कुछ लेना चाहता है लेकिन रोकता है)। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_005', difficulty: 'standard',
-          question: 'A supporting character is a fictional figure who interacts with the protagonist.',
-          hint: 'If stuck, re-read the \'ksj\' dialogue between narrator and old man (mYyw) — it is the.',
-          misconception: 'Students think "supporting character analysis" means writing a character sketch (appearance, personality, background).',
+          question: 'सहायक पात्र वे किरदार होते हैं जो मुख्य पात्र के साथ कहानी में मौजूद रहते हैं.',
+          hint: 'यदि फंसे हों तो मुख्य पात्र के चरित्र-चित्रण (c12_hin_a_cbse_14_004) की समीक्षा करें.',
+          misconception: 'छात्र अक्सर मानते हैं कि सहायक पात्र का महत्व केवल तभी होता है जब वह मुख्य पात्र के लक्ष्य में bezpośred्त रूप से मदद.',
           parts: [
-                { id: 'a', prompt: 'List the supporting characters in the story \'ksj (The Crow) and state the single most important action each performs that affects the protagonist (the crow).', answer: 'Correct: (1) Narrator',
-                  options: ['Correct: (1) Narrator', 'the child, the woman, the old man', 'supporting character analysis'],
-                  hint: 'If stuck, re-read the \'ksj\' dialogue between narrator and old man (mYyw) — it is the clearest.',
-                  misconception: 'Students think "supporting character analysis" means writing a character sketch (appearance, personality, background) like for the.' },
-                { id: 'b', prompt: 'In \'igpku\', the king issues four sequential orders (cover ears, cover eyes, cover mouths, stand on heads).', answer: 'Correct: The three ministers never dissent',
-                  options: ['Correct: The three ministers never dissent', 'wisdom', 'supporting character analysis'],
-                  hint: 'If stuck, re-read the \'ksj\' dialogue between narrator and old man (mYyw) — it is the clearest.',
-                  misconception: 'Students think "supporting character analysis" means writing a character sketch (appearance, personality, background) like for the.' },
-                { id: 'c', prompt: 'In \'pkj gkFk\', the feudal lady (fey ekfyd) summons experts (oSKkfudksa) to attach four legs to laborers.', answer: 'Correct: The experts are failed catalysts',
-                  options: ['Correct: The experts are failed catalysts', 'started the process', 'supporting character analysis'],
-                  hint: 'If stuck, re-read the \'ksj\' dialogue between narrator and old man (mYyw) — it is the clearest.',
-                  misconception: 'Students think "supporting character analysis" means writing a character sketch (appearance, personality, background) like for the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे किरदार होते हैं जो मुख्य पात्र के साथ कहानी में मौजूद रहते हैं, उनके',
+                  options: ['सहायक पात्र वे किरदार होते हैं जो मुख्य पात्र के साथ कहानी में मौजूद रहते हैं, उनके', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'यदि फंसे हों तो मुख्य पात्र के चरित्र-चित्रण (c12_hin_a_cbse_14_004) की समीक्षा करें — वहां मुख्य.',
+                  misconception: 'छात्र अक्सर मानते हैं कि सहायक पात्र का महत्व केवल तभी होता है जब वह मुख्य पात्र के लक्ष्य में bezpośred्त रूप से मदद करता है (जैसे हथियार.' }
           ],
-            remediations: { 'supporting-character-analysis-means-writing': { steps: ['If a student writes descriptive sketches, assign this 3-step remediation: (1) Re-read \'ksj\' and highlight every line.', '(2) For each, write one sentence: "This character exists in the story to ______." (3) Compare answers with the board.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'bezpo-red': { steps: ['छात्र को बताइए कि कहानी को केवल एक \'मिशन\' नहीं, बल्कि एक \'मानव अनुभव\' मानिए। फिर किसी znan कहानी (जैसे \'गोदान\') से एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
-          hint: 'If stuck, re-read the "igpku" story focusing only on the king\'s three orders and the.',
-          misconception: 'Students often think "theme" means "the topic of the story" (e.g., "birds," "kings," "horses") and write a plot summary.',
+          question: '"मुख्य विषय" (Central Theme) वह **केंद्रीय विचार या संदेश** है जो पूरी रचना में.',
+          hint: 'यदि अटके तो **कथानक नोड (c12_hin_a_cbse_14_002)** पर वापस जाएँ और घटनाक्रम का.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "मुख्य विषय" = "कहानी का सारांश" या "नैतिक शिक्षा (मोरल)"। **वास्तविकता:** विषय.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of a literary work is its central, unifying idea or insight about human',
-                  options: ['The primary theme of a literary work is its central, unifying idea or insight about human', 'This node provides the essential biographical, historical, and literary context for the', 'Plot and Narrative Structure refers to the deliberate arrangement of events in a story', 'Setting and atmosphere refer to the time, place, physical environment, and emotional mood'],
-                  hint: 'If stuck, re-read the "igpku" story focusing only on the king\'s three orders and the subjects\'.',
-                  misconception: 'Students often think "theme" means "the topic of the story" (e.g., "birds," "kings," "horses") and write a plot summary instead of the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"मुख्य विषय" (Central Theme) वह **केंद्रीय विचार या संदेश** है जो पूरी रचना में बार-बार',
+                  options: ['"मुख्य विषय" (Central Theme) वह **केंद्रीय विचार या संदेश** है जो पूरी रचना में बार-बार', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई'],
+                  hint: 'यदि अटके तो **कथानक नोड (c12_hin_a_cbse_14_002)** पर वापस जाएँ और घटनाक्रम का **फ्लोचार्ट** बनाएँ.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "मुख्य विषय" = "कहानी का सारांश" या "नैतिक शिक्षा (मोरल)"। **वास्तविकता:** विषय **सार्वभौमिक मानवीय.' }
           ],
-            remediations: { 'theme-means-the-topic-of': { steps: ['Have the student list the four protagonists and the four authority figures side by side in a two-column table.', 'Ask them to write one sentence describing what each authority figure wants (control, profit, obedience, entertainment).', 'Ask them to write one sentence describing what each protagonist loses (voice, dignity, life, freedom).', 'Guide them to complete the sentence: "The chapter shows that when ______ goes unchecked, ______ suffers." This.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "पाठ के **तीन प्रसंग** चुनो जहाँ पात्र **अकेले असफल** हुए और **साथ सफल** हुए।" 2.', 'उनसे प्रत्येक प्रसंग का **एक वाक्य में निचोड़** लिखवाएँ — "अकेला शेर हारा", "पहचान अकेला भटका", "चार हाथ अकेला थका"। 3.', 'अब पूछें: "इन तीनों वाक्यों में **क्या समान है**?" — उत्तर मिलेगा: "अकेलापन = असफलता, साथ = सफलता"। 4.', 'इसी समानता को **सार्वभौमिक वाक्य** में बदलवाएँ — यही मुख्य विषय है।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

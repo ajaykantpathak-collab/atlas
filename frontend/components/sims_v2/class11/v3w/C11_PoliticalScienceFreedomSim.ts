@@ -169,15 +169,15 @@ export const w_c11_politicalsciencefreedomsim: SimDef = {
           hint: 'Revisit c11_ps_cbse_02_002 (Negative Liberty) and the distinction between “freedom from”.',
           misconception: 'Students often believe that only state laws or physical force count as “real” constraints on freedom.',
           parts: [
-                { id: 'a', prompt: 'List the three types of constraints on freedom discussed in this chapter and give a one‑sentence example of each from everyday Indian life.', answer: 'Correct answer: (1) Coercion – e.g., a state law banning a book',
+                { id: 'a', prompt: 'List the three types of constraints on freedom discussed in this chapter and give a one‑sentence example of each from everyday Indian life.', answer: '(1) Coercion – e.g., a state law banning a book',
                   options: ['Correct answer: (1) Coercion – e.g., a state law banning a book', 'only state laws or physical force count as “real” constraints on freedom'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that only state laws or physical force count as “real” constraints on freedom.' },
-                { id: 'b', prompt: 'Explain why ignorance is considered a constraint on freedom even though no one is physically forcing the person to act or not act.', answer: 'Correct answer: Freedom requires the capacity to make informed choices',
+                { id: 'b', prompt: 'Explain why ignorance is considered a constraint on freedom even though no one is physically forcing the person to act or not act.', answer: 'Freedom requires the capacity to make informed choices',
                   options: ['Correct answer: Freedom requires the capacity to make informed choices', 'ignorance is not a constraint', 'only state laws or physical force count as “real” constraints on freedom'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that only state laws or physical force count as “real” constraints on freedom.' },
-                { id: 'c', prompt: 'Compare coercion and social pressure: which is more difficult to challenge in a democratic society, and why?', answer: 'Correct answer: Social pressure is often harder to challenge',
+                { id: 'c', prompt: 'Compare coercion and social pressure: which is more difficult to challenge in a democratic society, and why?', answer: 'Social pressure is often harder to challenge',
                   options: ['Correct answer: Social pressure is often harder to challenge', 'coercion is worse', 'only state laws or physical force count as “real” constraints on freedom'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that only state laws or physical force count as “real” constraints on freedom.' }
@@ -188,7 +188,7 @@ export const w_c11_politicalsciencefreedomsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often believe that only state laws or physical force count as “real” constraints on freedom.',
           parts: [
-                { id: 'a', prompt: 'Evaluate the statement: “Compulsory schooling up to age 14 (RTE Act) removes ignorance as a constraint but simultaneously imposes coercion.” Is this a.', answer: 'Correct answer: Yes, it is a justified constraint',
+                { id: 'a', prompt: 'Evaluate the statement: “Compulsory schooling up to age 14 (RTE Act) removes ignorance as a constraint but simultaneously imposes coercion.” Is this a.', answer: 'Yes, it is a justified constraint',
                   options: ['Correct answer: Yes, it is a justified constraint', 'unjustified coercion', 'only state laws or physical force count as “real” constraints on freedom'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that only state laws or physical force count as “real” constraints on freedom.' }

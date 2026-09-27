@@ -15,8 +15,8 @@
 
 import { motion } from "framer-motion";
 import {
-  ArrowLeft, Brain, ChevronRight, ClipboardList, Flame,
-  ScanLine, Target, Trophy,
+  ArrowLeft, BookOpenCheck, Brain, ChevronRight, ClipboardList, Flame,
+  GraduationCap, ScanLine, Target, Trophy,
 } from "lucide-react";
 import Link from "next/link";
 import { PrismLogo } from "@/components/prism/PrismLogo";
@@ -64,6 +64,22 @@ const ENGINES = [
     icon: ClipboardList,
     title: "Exam Simulation",
     body: "Full timed paper with sections, strategy and real grading.",
+    accent: "text-gold-300",
+    bg: "bg-gold-500/10 border-gold-500/20",
+  },
+  {
+    href: "/chapter-test",
+    icon: BookOpenCheck,
+    title: "Chapter Test",
+    body: "15-25 questions spanning a whole chapter, with a per-topic report and Story links for weak topics.",
+    accent: "text-sky-300",
+    bg: "bg-sky-500/10 border-sky-500/20",
+  },
+  {
+    href: "/exam-prep",
+    icon: GraduationCap,
+    title: "Pre-Board Simulator",
+    body: "Full CBSE-pattern papers for classes 10/12 — sections, internal choice, official marking scheme.",
     accent: "text-gold-300",
     bg: "bg-gold-500/10 border-gold-500/20",
   },

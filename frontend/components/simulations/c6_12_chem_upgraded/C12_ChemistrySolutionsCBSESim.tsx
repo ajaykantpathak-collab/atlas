@@ -1728,7 +1728,7 @@ export default function C12_ChemistrySolutionsCBSESim({
 
                   <div className="flex flex-col gap-2 bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div className="flex justify-between text-xs font-mono">
-                      <span className="text-slate-400">Applied External Pressure ($P_{ext}$):</span>
+                      <span className="text-slate-400">Applied External Pressure (Pₑₓₜ):</span>
                       <span className="text-purple-400 font-bold">{appliedHydraulicPressure} atm</span>
                     </div>
                     <input

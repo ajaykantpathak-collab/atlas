@@ -4,7 +4,7 @@
  * Achievements — the premium badge wall.
  *
  * Fully wired to the live backend:
- *   GET /api/achievements/?filter=all → AchievementListResponse (achievements[], unlockedCount, totalXp)
+ *   GET /api/achievements?filter=all → AchievementListResponse (achievements[], unlockedCount, totalXp)
  *
  * The per-id detail endpoint (/api/achievements/{id}) returns the exact same
  * fields as the list (verified via curl), so the wall renders everything from
@@ -40,6 +40,60 @@ function tierStyle(tier?: string) {
   return TIERS[(tier ?? "bronze").toLowerCase()] ?? TIERS.bronze;
 }
 
+/* ---------------- child-experience layer (CHILD-LENS) ---------------- */
+
+/**
+ * [CHILD-LENS][P2 ACHIEVEMENTS-DUPLICATE-BADGES]: the backend badge seed
+ * ships duplicates — "First Steps" twice, "Week Warrior" twice with
+ * conflicting definitions, "Topic Tamer" and "Concept Builder" with the
+ * identical description. Children read a duplicated wall as fake. The seed
+ * lives server-side (repair deferred — backend deploys are frozen), so the
+ * wall displays only the first badge per title until then. Real data, one
+ * copy of it; nothing invented.
+ */
+function dedupeBadges(badges: Achievement[]): Achievement[] {
+  const seen = new Set<string>();
+  return badges.filter((a) => {
+    const key = (a.title ?? "").trim().toLowerCase();
+    if (!key) return true;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+/**
+ * Adult vocabulary children meet on the badge wall, translated at display
+ * time (audit Q7). Presentation only — unlock criteria are untouched.
+ */
+const CHILD_WORDS: [RegExp, string][] = [
+  [/spaced[- ]repetition (reviews?|scheduling|schedule)/gi, "review sessions"],
+  [/spaced[- ]repetition/gi, "review"],
+  [/knowledge nodes?/gi, "topics"],
+  [/\bnodes\b/gi, "topics"],
+  [/board-level exam/gi, "board-exam style test"],
+  [/review streak/gi, "streak"],
+];
+
+/** Same rule, words a child can act on (Speed Demon reads as pure racing). */
+const BADGE_COPY: Record<string, { title?: string; description?: string }> = {
+  "speed demon": {
+    description: "Lightning fast AND correct — answer 10 questions in under 5 seconds each.",
+  },
+};
+
+function displayBadge(a: Achievement): { title: string; description: string } {
+  const key = (a.title ?? "").trim().toLowerCase();
+  const override = BADGE_COPY[key];
+  let title = override?.title ?? a.title ?? "";
+  let description = override?.description ?? a.description ?? "";
+  for (const [re, rep] of CHILD_WORDS) {
+    title = title.replace(re, rep);
+    description = description.replace(re, rep);
+  }
+  return { title, description };
+}
+
 type Status = "loading" | "ready" | "error" | "unauthorized";
 
 type FilterKey = "all" | "earned" | "locked";
@@ -56,6 +110,7 @@ function BadgeCard({ a, index, onOpen }: { a: Achievement; index: number; onOpen
   const Icon = achievementIcon(a.iconName ?? a.icon ?? undefined);
   const unlocked = Boolean(a.unlocked);
   const tier = tierStyle(a.tier);
+  const { title: displayTitle, description: displayDescription } = displayBadge(a);
   const pct =
     a.progress != null && a.maxProgress ? Math.min(100, Math.round((a.progress / a.maxProgress) * 100)) : null;
 
@@ -66,7 +121,7 @@ function BadgeCard({ a, index, onOpen }: { a: Achievement; index: number; onOpen
       className={`glass-card rounded-2xl p-5 text-left transition-transform will-change-transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-gold-400/40 ${
         unlocked ? `${tier.ring} ${tier.glow}` : "opacity-75 hover:opacity-100"
       }`}
-      aria-label={`${a.title} — ${unlocked ? "earned" : "locked"}. View details`}
+      aria-label={`${displayTitle} — ${unlocked ? "earned" : "locked"}. View details`}
     >
       <div className="flex items-start justify-between mb-4">
         <div
@@ -89,8 +144,8 @@ function BadgeCard({ a, index, onOpen }: { a: Achievement; index: number; onOpen
         )}
       </div>
 
-      <h3 className={`text-sm font-semibold mb-1 ${unlocked ? "text-white" : "text-surface-700"}`}>{a.title}</h3>
-      <p className="text-xs text-surface-600 leading-relaxed mb-4 line-clamp-2">{a.description}</p>
+      <h3 className={`text-sm font-semibold mb-1 ${unlocked ? "text-white" : "text-surface-700"}`}>{displayTitle}</h3>
+      <p className="text-xs text-surface-600 leading-relaxed mb-4 line-clamp-2">{displayDescription}</p>
 
       {pct !== null && !unlocked && (
         <div className="mb-3">
@@ -122,6 +177,7 @@ function DetailModal({ a, onClose }: { a: Achievement | null; onClose: () => voi
   const Icon = achievementIcon(a?.iconName ?? a?.icon ?? undefined);
   const unlocked = Boolean(a?.unlocked);
   const tier = tierStyle(a?.tier);
+  const display = a ? displayBadge(a) : { title: "", description: "" };
   const pct =
     a?.progress != null && a?.maxProgress ? Math.min(100, Math.round((a.progress / a.maxProgress) * 100)) : null;
 
@@ -136,7 +192,7 @@ function DetailModal({ a, onClose }: { a: Achievement | null; onClose: () => voi
           onClick={onClose}
           role="dialog"
           aria-modal="true"
-          aria-label={a.title}
+          aria-label={display.title || a.title}
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.94, y: 16 }}
@@ -160,8 +216,8 @@ function DetailModal({ a, onClose }: { a: Achievement | null; onClose: () => voi
               <Icon className={`w-10 h-10 ${unlocked ? "text-gold-300" : "text-surface-600"}`} />
             </div>
 
-            <h3 className="font-display text-xl font-bold text-white text-center">{a.title}</h3>
-            <p className="text-sm text-surface-600 text-center mt-2 leading-relaxed">{a.description}</p>
+            <h3 className="font-display text-xl font-bold text-white text-center">{display.title}</h3>
+            <p className="text-sm text-surface-600 text-center mt-2 leading-relaxed">{display.description}</p>
 
             <div className="grid grid-cols-3 gap-3 mt-6">
               <div className="text-center rounded-xl bg-white/[0.04] border border-white/5 p-3">
@@ -233,10 +289,10 @@ export default function AchievementsPage() {
     }
     let alive = true;
     api
-      .get<AchievementListResponse>("/api/achievements/?filter=all")
+      .get<AchievementListResponse>("/api/achievements?filter=all")
       .then((res) => {
         if (!alive) return;
-        setList(res.achievements ?? res.items ?? []);
+        setList(dedupeBadges(res.achievements ?? res.items ?? []));
         setStatus("ready");
       })
       .catch((err) => {

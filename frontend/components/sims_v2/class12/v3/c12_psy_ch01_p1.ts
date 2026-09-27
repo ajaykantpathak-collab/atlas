@@ -14,7 +14,7 @@ export const c12_psy_ch01_p1: SimDef = {
     scenario: { role: 'Behaviour analyst', intro: 'Why does one friend race through the test while another barely finishes? The answer is older than the classroom.', goal: 'Explain individual differences through the trait-situation debate and nature-nurture interaction.' },
     discovery: {
         question: 'Rohan is loud and funny with friends, quiet and respectful at the school assembly. Did his personality change — or did something else move?',
-        options: ['The situation — situationism says context can override traits; the aggressive go submissive before a boss, the talkative go quiet in assembly', 'His traits reset', 'He\'s faking', 'Two personalities'],
+        options: ['The situation — situationism says context can override traits; the aggressive go submissive before a boss, the talkative go quiet in assembly', 'His traits reset — personality permanently shifts with each audience', 'He is performing — the quiet assembly version is deliberate masking', 'Two personalities — one for peers and one for authority figures'],
         answer: 'The situation — situationism says context can override traits; the aggressive go submissive before a boss, the talkative go quiet in assembly',
         hook: 'Nature versus nurture isn\'t a contest — heredity sets a reaction range, environment picks where inside it you land. Modern psychology is interactionist: the honest answer to \'trait or situation?\' is both, dynamically.',
     },

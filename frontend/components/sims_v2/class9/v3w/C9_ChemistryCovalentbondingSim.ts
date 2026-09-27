@@ -161,11 +161,11 @@ export const w_c9_chemistrycovalentbondingsim: SimDef = {
           hint: 'If stuck, revisit c9_chem_ch3_4 (covalent bonding) and c9_chem_ch3_5 (ionic bonding) to.',
           misconception: 'Students often think that because HCl is a gas and dissolves in water to conduct electricity, it is an ionic compound.',
           parts: [
-                { id: 'a', prompt: 'A white crystalline solid X has a high melting point (801°C), dissolves in water to give a conducting solution, but does not conduct in solid state.', answer: 'Correct answer: Ionic',
+                { id: 'a', prompt: 'A white crystalline solid X has a high melting point (801°C), dissolves in water to give a conducting solution, but does not conduct in solid state.', answer: 'Ionic',
                   options: ['Correct answer: Ionic', 'covalent because it dissolves'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that because HCl is a gas and dissolves in water to conduct electricity, it is an ionic compound.' },
-                { id: 'b', prompt: 'Compare the solubility of NaCl (ionic) and CCl₄ (covalent) in water and in benzene (organic solvent).', answer: 'Correct answer: NaCl dissolves in water (polar)',
+                { id: 'b', prompt: 'Compare the solubility of NaCl (ionic) and CCl₄ (covalent) in water and in benzene (organic solvent).', answer: 'NaCl dissolves in water (polar)',
                   options: ['Correct answer: NaCl dissolves in water (polar)', 'both dissolve in water', 'all compounds dissolve in water and does not link polarity to solubility'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that because HCl is a gas and dissolves in water to conduct electricity, it is an ionic compound.' }
@@ -176,7 +176,7 @@ export const w_c9_chemistrycovalentbondingsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think that because HCl is a gas and dissolves in water to conduct electricity, it is an ionic compound.',
           parts: [
-                { id: 'a', prompt: 'Compare the solubility of NaCl (ionic) and CCl₄ (covalent) in water and in benzene (organic solvent).', answer: 'Correct answer: NaCl dissolves in water (polar)',
+                { id: 'a', prompt: 'Compare the solubility of NaCl (ionic) and CCl₄ (covalent) in water and in benzene (organic solvent).', answer: 'NaCl dissolves in water (polar)',
                   options: ['Correct answer: NaCl dissolves in water (polar)', 'both dissolve in water', 'all compounds dissolve in water and does not link polarity to solubility'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that because HCl is a gas and dissolves in water to conduct electricity, it is an ionic compound.' }

@@ -1,0 +1,286 @@
+{
+  "gameFile": "EngComprehensionGame",
+  "classLevel": 4,
+  "cisceNodes": [],
+  "mascot": "Dotty the Detective — a curious young detective with a big magnifying glass who hunts for clues inside every story.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Read Like a Detective 🕵️",
+      "text": "Detectives look for clues. Good readers do too! Read the story slowly and look for clues: who, where, when, what!",
+      "emoji": "🕵️",
+      "bgColor": "from-slate-400 to-gray-600",
+      "spoken": "Read like a detective! Look for clues: who, where, when, what!"
+    },
+    {
+      "title": "Clue 1: The WHO 🧑",
+      "text": "Every story has people or animals in it. Ravi? Meera? A little pup? Find out WHO the story is about!",
+      "emoji": "🧑",
+      "bgColor": "from-sky-400 to-blue-500",
+      "spoken": "Clue one: find WHO the story is about!"
+    },
+    {
+      "title": "Clue 2: The WHERE and WHEN 🗺️",
+      "text": "Did it happen in a park or at home? On Friday or in summer? Stories always leave time and place clues!",
+      "emoji": "🗺️",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Clue two: find the place and the time!"
+    },
+    {
+      "title": "Clue 3: The WHAT ⚡",
+      "text": "What happened first? What happened next? Line up the events like clues on a detective board!",
+      "emoji": "⚡",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Clue three: what happened first and what happened next?"
+    },
+    {
+      "title": "Solve the Case! 🏅",
+      "text": "Now answer the questions with your clues! A good detective always says: 'The story told me so!'",
+      "emoji": "🏅",
+      "bgColor": "from-purple-400 to-fuchsia-500",
+      "spoken": "Use your clues to solve the case! The story told you so!"
+    }
+  ],
+  "challenges": [
+    {
+      "type": "comp_detail",
+      "question": "Read: 'Ravi planted a mango plant. He gave it water every day. In twelve months, it became a small tree.' What did Ravi give his plant every day?",
+      "answer": "Water",
+      "options": [
+        "Water",
+        "Milk",
+        "Juice"
+      ],
+      "hint": "Look at the second sentence: he gave it ___ every day.",
+      "misconception": "The story says 'He gave it water every day', so Ravi gave his plant water!",
+      "easierVariant": {
+        "options": [
+          "Water",
+          "Milk"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "comp_detail",
+      "question": "Read: 'Meera loves the rainy season. She has a blue raincoat and jumps in the puddles.' What colour is Meera's raincoat?",
+      "answer": "Blue",
+      "options": [
+        "Blue",
+        "Red",
+        "Yellow"
+      ],
+      "hint": "The story names the colour of her raincoat!",
+      "misconception": "The story says she wears her blue raincoat, so it is blue!",
+      "easierVariant": {
+        "options": [
+          "Blue",
+          "Red"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "comp_when",
+      "question": "Read: 'The school picnic was on Friday. All the children went to the lake. They ate sandwiches under a big banyan tree.' When was the picnic?",
+      "answer": "On Friday",
+      "options": [
+        "On Friday",
+        "On Monday",
+        "On Sunday"
+      ],
+      "hint": "The very first words tell you the day!",
+      "misconception": "The story says 'The school picnic was on Friday', so the picnic was on Friday!",
+      "easierVariant": {
+        "options": [
+          "On Friday",
+          "On Monday"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "comp_who",
+      "question": "Read: 'Arun's kite got stuck in a tall mango tree. His friend Neel brought a long stick and set the kite free.' Who helped Arun?",
+      "answer": "Neel",
+      "options": [
+        "Neel",
+        "Meera",
+        "Ravi"
+      ],
+      "hint": "Who brought the long stick?",
+      "misconception": "His friend Neel brought a long stick and set the kite free — Neel helped Arun!",
+      "easierVariant": {
+        "options": [
+          "Neel",
+          "Meera"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "comp_detail",
+      "question": "Read: 'Grandma tells stories every evening. Her best story is about a clever rabbit and a proud lion.' What is Grandma's best story about?",
+      "answer": "A rabbit and a lion",
+      "options": [
+        "A rabbit and a lion",
+        "A cat and a mouse",
+        "Two little birds"
+      ],
+      "hint": "The second sentence names the two stars of her best story!",
+      "misconception": "Grandma's best story is about a clever rabbit and a proud lion!",
+      "easierVariant": {
+        "options": [
+          "A rabbit and a lion",
+          "A cat and a mouse"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "comp_how",
+      "question": "Read: 'The bus was late, so Anya walked to school with her father.' How did Anya reach school?",
+      "answer": "She walked",
+      "options": [
+        "She walked",
+        "By bus",
+        "By cycle"
+      ],
+      "hint": "The bus was late, so what did Anya do instead?",
+      "misconception": "The bus was late, so Anya walked to school with her father!",
+      "easierVariant": {
+        "options": [
+          "She walked",
+          "By bus"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_who_where",
+      "question": "From today's stories: drag each one! Is it a person or a place?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ravi and Meera are people. The lake and the banyan tree are places!",
+      "misconception": "Ravi and Meera are people from the stories; the lake and the banyan tree are places!",
+      "sortItems": [
+        {
+          "id": "w-ravi",
+          "label": "Ravi",
+          "icon": "👦",
+          "emoji": "👦",
+          "correctBin": "who"
+        },
+        {
+          "id": "w-lake",
+          "label": "The lake",
+          "icon": "🏞️",
+          "emoji": "🏞️",
+          "correctBin": "where"
+        },
+        {
+          "id": "w-meera",
+          "label": "Meera",
+          "icon": "👧",
+          "emoji": "👧",
+          "correctBin": "who"
+        },
+        {
+          "id": "w-tree",
+          "label": "The banyan tree",
+          "icon": "🌳",
+          "emoji": "🌳",
+          "correctBin": "where"
+        }
+      ],
+      "bins": [
+        {
+          "id": "who",
+          "label": "A Person",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "where",
+          "label": "A Place",
+          "color": "#10B981"
+        }
+      ],
+      "storyBeat": "climax"
+    },
+    {
+      "type": "comp_think",
+      "question": "A good reader, after finishing a story, should ___",
+      "answer": "Think about what happened",
+      "options": [
+        "Think about what happened",
+        "Forget it right away",
+        "Close the book and run"
+      ],
+      "hint": "Detectives always review their clues after the case!",
+      "misconception": "A good reader thinks about what happened in the story — that is how comprehension grows!",
+      "easierVariant": {
+        "options": [
+          "Think about what happened",
+          "Forget it right away"
+        ]
+      },
+      "storyBeat": "resolution"
+    }
+  ],
+  "subject": "english",
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "An English explorer masters new words, one story at a time",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let us explore English together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A playful challenge appears that needs the new skill",
+        "mascotDialogue": "Here comes a challenge — can you work it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The tasks grow trickier as understanding deepens",
+        "mascotDialogue": "You are getting stronger! Try these!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest test of the new skill",
+        "mascotDialogue": "This is the big one! Show me what you learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "Mastery shown and celebrated",
+        "mascotDialogue": "Amazing! You have mastered this!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "Clue Board",
+    "totalPieces": 8
+  }
+}

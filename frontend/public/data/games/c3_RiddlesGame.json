@@ -1,0 +1,603 @@
+{
+ "gameFile": "RiddlesGame",
+ "classLevel": 3,
+ "cisceNodes": [
+  "c3_math_012"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Two-Clue Riddles 🧩",
+   "text": "Harder riddles have TWO clues: 'I am even and between 10 and 14' — both must be true!",
+   "emoji": "🧩",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "Multiples Hide in Riddles ✖️",
+   "text": "'I am a multiple of 5' — that's a clue! Multiples of 5 end in 0 or 5!",
+   "emoji": "✖️",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Shape Property Riddles 🔺",
+   "text": "'I have 4 sides, opposite sides equal' — rectangle! Read every property as a clue!",
+   "emoji": "🔺",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Number-Line Riddles 📏",
+   "text": "'I am halfway between 20 and 30' — find the middle! Halfway = (20+30)/2 = 25!",
+   "emoji": "📏",
+   "bgColor": "from-orange-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "Eliminate and Win 🏆",
+   "text": "Cross out numbers that break a clue — the last one standing is the answer!",
+   "emoji": "🏆",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "I am even and between 10 and 14. Who am I?",
+   "answer": "12",
+   "options": [
+    "12",
+    "11",
+    "13"
+   ],
+   "hint": "Between 10 and 14: 11, 12, 13 — which is even?",
+   "misconception": "12 is the only even number between 10 and 14 — both clues must hold!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "12",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "11",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "13",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "12",
+     "11"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "I am a multiple of 5 between 20 and 30. Who am I?",
+   "answer": "25",
+   "options": [
+    "25",
+    "22",
+    "26"
+   ],
+   "hint": "Multiples of 5 end in 0 or 5!",
+   "misconception": "25 ends in 5 and sits between 20-30 — the only multiple of 5 there!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "25",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "22",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "26",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "25",
+     "22"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "I have 4 sides, all equal, but no right angles. Who am I?",
+   "answer": "rhombus",
+   "options": [
+    "rhombus",
+    "square",
+    "rectangle"
+   ],
+   "hint": "Equal sides BUT the corners aren't square!",
+   "misconception": "A rhombus has 4 equal sides without right angles — a square's corners ARE right angles!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "shape",
+     "label": "rhombus",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "shape",
+     "label": "square",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "shape",
+     "label": "rectangle",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "rhombus",
+     "square"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "I am halfway between 40 and 50. Who am I?",
+   "answer": "45",
+   "options": [
+    "45",
+    "44",
+    "46"
+   ],
+   "hint": "(40 + 50) ÷ 2 = ?",
+   "misconception": "Halfway = the average: 90 ÷ 2 = 45!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "45",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "44",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "46",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "45",
+     "44"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort the clues by which gives a UNIQUE answer!",
+   "answer": "sort",
+   "options": [],
+   "hint": "More specific clues = fewer candidates!",
+   "misconception": "Two tight clues (parity + range) pin down ONE number; vague clues leave many!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "bigger than 5",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "even + between 5 and 7",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "smaller than 100",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "odd + multiple of 5 + between 10-15",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "bigger than 5",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "even + between 5 and 7",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "smaller than 100",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "label": "odd + multiple of 5 + between 10-15",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "many answers",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "one answer",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "bigger than 5",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "even + between 5 and 7",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "I am odd, a multiple of 3, and between 20 and 26. Who am I?",
+   "answer": "21",
+   "options": [
+    "21",
+    "23",
+    "25"
+   ],
+   "hint": "Multiples of 3 between 20-26: 21, 24 — which is odd?",
+   "misconception": "21 is odd and 3×7; 24 is even (fails), 23 and 25 aren't multiples of 3!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "21",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "23",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "25",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "21",
+     "23"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "I have 3 sides and 3 corners. I roll? No. Who am I?",
+   "answer": "triangle",
+   "options": [
+    "triangle",
+    "circle",
+    "square"
+   ],
+   "hint": "3 sides + can't roll!",
+   "misconception": "Triangle — 3 sides, 3 corners, can't roll (circles roll)!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "shape",
+     "label": "triangle",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "shape",
+     "label": "circle",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "shape",
+     "label": "square",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "triangle",
+     "circle"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "I am a two-digit number, both digits are 5. Who am I?",
+   "answer": "55",
+   "options": [
+    "55",
+    "50",
+    "15"
+   ],
+   "hint": "Both digits = 5!",
+   "misconception": "55 — both places filled with 5!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "55",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "50",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "15",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "55",
+     "50"
+    ]
+   }
+  }
+ ],
+ "theme": "riddle-cavern",
+ "storyArc": {
+  "theme": "Piku solves harder riddles with two-clue logic",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Riddle Champion Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c3_math_012",
+  "region": "Mathland",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🧩",
+  "prerequisites": []
+ },
+ "subject": "maths"
+}

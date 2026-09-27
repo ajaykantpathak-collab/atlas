@@ -8,7 +8,7 @@ export const c6_chemistry_ch04_p1: SimDef = {
     subtitle: 'Why is your bottle plastic and your window glass?',
     classLevel: 6, subject: 'chemistry', topic: 'Materials: Properties and Reactions · Part 1/2',
     chapters: ['c6_chemistry_ch04'],
-    nodeIds: ['c6_chemistry_ch04_001', 'c6_chemistry_ch04_002', 'c6_chemistry_ch04_003', 'c6_chemistry_ch04_008', 'c6_chemistry_ch04_005', 'c6_chemistry_ch04_009'],
+    nodeIds: ['c6_chemistry_ch04_001', 'c6_chemistry_ch04_002', 'c6_chemistry_ch04_003', 'c6_chemistry_ch04_004', 'c6_chemistry_ch04_005', 'c6_chemistry_ch04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a materials detective sorting a jumbled storeroom', intro: 'A pile of objects — keys, chalk, cloth, glass, salt — all mixed up. Each one is hiding clues in its shine, hardness and see-through-ness.', goal: 'Group materials by their properties and explain why coloured glass is still transparent.' },

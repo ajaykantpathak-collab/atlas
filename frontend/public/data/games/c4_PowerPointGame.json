@@ -301,10 +301,10 @@
     },
     {
       "type": "sort",
-      "question": "Drag the steps to create a new presentation in the correct order!",
+      "question": "Drag each action into the right bin — do you need it to create a new presentation or not?",
       "answer": "sort",
       "options": [],
-      "hint": "First open from Start menu, then choose Blank Presentation, then type your title in the placeholder!",
+      "hint": "First open from Start menu, then choose Blank Presentation, then type your title. Anything else is not needed!",
       "misconception": "The correct sequence starts with opening PowerPoint from the Start menu, choosing Blank Presentation, and typing in the title placeholder!",
       "storyBeat": "inciting",
       "easierVariant": {
@@ -350,29 +350,51 @@
       ],
       "sortItems": [
         {
-          "id": "step1",
-          "label": "1. Open from Start menu",
-          "emoji": "",
-          "correctBin": "bin-order"
+          "id": "s1",
+          "label": "Open PowerPoint from the Start menu",
+          "icon": "OPEN",
+          "emoji": "🪟",
+          "correctBin": "bin-step"
         },
         {
-          "id": "step2",
-          "label": "2. Choose Blank Presentation",
-          "emoji": "",
-          "correctBin": "bin-order"
+          "id": "s2",
+          "label": "Choose Blank Presentation",
+          "icon": "BLANK",
+          "emoji": "📄",
+          "correctBin": "bin-step"
         },
         {
-          "id": "step3",
-          "label": "3. Type in Title placeholder",
-          "emoji": "",
-          "correctBin": "bin-order"
+          "id": "s3",
+          "label": "Type in the Title placeholder",
+          "icon": "TITLE",
+          "emoji": "✏️",
+          "correctBin": "bin-step"
+        },
+        {
+          "id": "x1",
+          "label": "Print 100 copies first",
+          "icon": "X",
+          "emoji": "🚫",
+          "correctBin": "bin-no"
+        },
+        {
+          "id": "x2",
+          "label": "Delete all your slides",
+          "icon": "X",
+          "emoji": "🚫",
+          "correctBin": "bin-no"
         }
       ],
       "bins": [
         {
-          "id": "bin-order",
-          "label": "Creation Steps 📋",
+          "id": "bin-step",
+          "label": "Needed ✅",
           "color": "#F59E0B"
+        },
+        {
+          "id": "bin-no",
+          "label": "Not needed ❌",
+          "color": "#EF4444"
         }
       ]
     },

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_v_ch01_p2: SimDef = {
     id: 'v3_c11_hin_v_ch01_p2',
-    title: 'tc lsD\'ku vkfI+kQlj · Part 2/3',
+    title: 'पाठ 1 · Part 2/3',
     subtitle: 'Watch theatre\'s grammar shift from the spoken word to the seen image.',
-    classLevel: 11, subject: 'hin_v', topic: 'tc lsD\'ku vkfI+kQlj · Part 2/3',
+    classLevel: 11, subject: 'hin_v', topic: 'पाठ 1 · Part 2/3',
     chapters: ['c11_hin_v_ch01'],
     nodeIds: ['c11_hin_v_cbse_01_007', 'c11_hin_v_cbse_01_008', 'c11_hin_v_cbse_01_009', 'c11_hin_v_cbse_01_010', 'c11_hin_v_cbse_01_011', 'c11_hin_v_cbse_01_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,53 +19,20 @@ export const c11_hin_v_ch01_p2: SimDef = {
         hook: 'Agyeya opens by hearing a gramophone before seeing anything — a miniature of his thesis: modern theatre detached sound from sight and rewired the senses.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas, motifs, and concerns that run alongside the primary theme in a literary work, enriching its texture and providing multiple layers of meaning.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 1 — गौण विषय', text: 'गौण विषय वह विचार या भावना है जो पाठ के मुख्य विषय को स्पष्ट, गहरा या विविध पहलुओं से समृद्ध बनाता है, लेकिन मुख्य विषय का स्थान नहीं लेता; यह मुख्य धारा को किनारे से मजबूत करता है, जैसे नदी की मुख्य.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_01_007', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Split classical Sanskrit, Parsi-folk and Mohan Rakesh\'s realism into their governing principles, then judge whether word-dominant and visual-dominant theatre can even be compared.',
-        labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
+        labels: ['पाठ 1 — गौण', 'पाठ 1 — साहित्यिक', 'पाठ 1 — पदावली', 'पाठ 1 — व्याकरण', 'पाठ 1 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to a podcast about a famous painter, and suddenly you realize the host isn\'t just telling a biography—they\'re also exploring how.',
-            decisions: [{ prompt: 'What is the definition of a secondary theme in literary analysis, and how does it differ from the primary theme?', options: [
-                { text: 'A secondary theme is a supporting idea or motif that runs parallel to the primary theme,', outcome: 'A secondary theme is a supporting idea or motif that runs parallel to the primary theme, adding.' },
-                { text: 'subplots', outcome: 'Not quite — Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics.', reveals: 'students-often-confuse-secondary-themes' },
-                { text: 'minor topics', outcome: 'Not quite — Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics.', reveals: 'students-often-confuse-secondary-themes' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re standing before a painting in a museum — you see colors, lines, textures.',
-            decisions: [{ prompt: 'According to the author, what is the primary distinction between fp=kiV laxhr (visual art) and \'kkL=kh; laxhr (literary art) in terms.', options: [
-                { text: 'The author states that fp=kiV laxhr\'s foundation is "izkFkfed voLFkk"', outcome: 'The author states that fp=kiV laxhr\'s foundation is "izkFkfed voLFkk" (immediate/existential state).' },
-                { text: 'visual art uses colors, literary art uses words', outcome: 'Not quite — Students conflate "imagery" with "figurative language" (metaphor, simile, personification) and hunt.', reveals: 'students-conflate-imagery-with-figurative' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re reading a newspaper cartoon where a politician promises "transparency" while standing behind a brick wall labeled "secrecy." You instantly grasp.',
-            decisions: [{ prompt: 'Define verbal irony and situational irony in your own words, giving one example of each from everyday life (not from the textbook).', options: [
-                { text: 'Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying', outcome: 'Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying "Great job!".' },
-                { text: 'situational irony', outcome: 'Not quite — Students often believe irony and symbolism are merely decorative "figures of speech" that authors.', reveals: 'irony-and-symbolism-are-merely' },
-                { text: 'figures of speech', outcome: 'Not quite — Students often believe irony and symbolism are merely decorative "figures of speech" that authors.', reveals: 'irony-and-symbolism-are-merely' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the essay and repeatedly encounter the word "xkuiu" (aesthetic experience).',
-            decisions: [{ prompt: 'What is the most reliable first step when encountering an unfamiliar key word in a senior secondary Hindi prose text?', options: [
-                { text: 'The most reliable first step is to locate all occurrences of the word in the chapter and', outcome: 'The most reliable first step is to locate all occurrences of the word in the chapter and examine.' },
-                { text: 'look up the dictionary meaning first', outcome: 'Not quite — Students believe vocabulary in context means guessing a word\'s meaning from the single sentence.', reveals: 'vocabulary-in-context-means-guessing' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine a teacher who says "The homework is due tomorrow" (declarative — states a fact, positions the student as receiver of information) versus one who says.',
-            decisions: [{ prompt: 'Define the four main sentence types (declarative, interrogative, imperative, exclamatory) in your own words and give one everyday example.', options: [
-                { text: 'Declarative: states a fact or opinion (e.g., "The exam begins at 9 a.m.")', outcome: 'Declarative: states a fact or opinion (e.g., "The exam begins at 9 a.m.") — positions the reader.' },
-                { text: 'declarative ends with a period, interrogative ends with a question mark', outcome: 'Not quite — Students treat grammar as a *separate layer* from meaning — they analyze "what the chapter says".', reveals: 'students-treat-grammar-as-a' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_v_cbse_01_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are reading a WhatsApp forward claiming "Yashodhar\'s art caused a revolution." Your first instinct is to check: does the text actually say that,.',
-            decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question in the context of this.', options: [
-                { text: 'A literal question asks for information directly stated in the text (e.g., "What name was', outcome: 'A literal question asks for information directly stated in the text (e.g., "What name was given.' },
-                { text: 'is automatically inferential, and any', outcome: 'Not quite — Students often believe that any question starting with "Why" or "How" is automatically inferential.', reveals: 'any-question-starting-with-why' }
-            ] }] } },
+        { type: 'dissect', nodeId: 'c11_hin_v_cbse_01_008', title: 'Identify each idea',
+          dissect: { specimen: 'पाठ 1 · Part 2/3', spots: [
+            { id: 's1', label: '1 -', prompt: 'Which idea is this? — पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा अपनी अभिव्यक्ति को प्रभावी, सटीक और.', answer: '1 -', options: ['1 -', '1 - -'] },
+            { id: 's2', label: '1 - -', prompt: 'Which idea is this? — **वस्तुनिष्ठ प्रश्न (Objective Questions):** पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं.', answer: '1 - -', options: ['1 - -', '1 -'] }
+          ] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_01_007', title: 'Use it in the wild',
           caseStudy: { intro: 'Your theatre club is adapting a stage play into a short film. A member says: \'Just film the play — theatre is literature, cinema is just literature with a camera. Agyeya\'s essay on Mohan Rakesh is basically a biography of a playwright.\'',
             decisions: [{ prompt: 'What does Agyeya\'s argument actually say?', options: [
@@ -75,8 +42,8 @@ export const c11_hin_v_ch01_p2: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_01_012', title: 'The bigger picture',
           caseStudy: { intro: 'Comparing classical and cinematic theatre is like comparing poetry to architecture — different substances, different rules, different eyes.',
-            decisions: [{ prompt: 'What comes next? tc lsD\'ku vkfI+kQlj · Part 3/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — tc lsD\'ku vkfI+kQlj · Part 3/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 1 · Part 3/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 1 · Part 3/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -85,90 +52,71 @@ export const c11_hin_v_ch01_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas, motifs, and concerns that run.',
-          hint: 'If stuck, review node 006 (Primary Theme) and practice distinguishing "what happens".',
-          misconception: 'Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics like "radio.',
+          question: 'गौण विषय वह विचार या भावना है जो पाठ के मुख्य विषय को स्पष्ट, गहरा या विविध.',
+          hint: 'यदि मुख्य विषय की पहचान में कठिनाई हो तो नोड c11_hin_v_cbse_01_006 की सामग्री पुनःレビュー.',
+          misconception: 'छात्र अक्सर गौण विषय को मुख्य विषय का समानार्थी या दोहराव मान लेते हैं, जैसे यदि मुख्य विषय "समाज में बदलाव की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the supporting ideas, motifs, and concerns that run alongside the',
-                  options: ['Secondary themes are the supporting ideas, motifs, and concerns that run alongside the', '"Before You Read: Context and Background" provides the historical, cultural, and literary', 'Plot and Narrative Structure refers to the organized sequence of events in a literary', 'Setting in this essay refers to the physical, temporal, and cultural backdrop against'],
-                  hint: 'If stuck, review node 006 (Primary Theme) and practice distinguishing "what happens" (plot/topics).',
-                  misconception: 'Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics like "radio history," "Yaksh.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय वह विचार या भावना है जो पाठ के मुख्य विषय को स्पष्ट, गहरा या विविध पहलुओं से',
+                  options: ['गौण विषय वह विचार या भावना है जो पाठ के मुख्य विषय को स्पष्ट, गहरा या विविध पहलुओं से', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि मुख्य विषय की पहचान में कठिनाई हो तो नोड c11_hin_v_cbse_01_006 की सामग्री पुनःレビュー करें—वहाँ.',
+                  misconception: 'छात्र अक्सर गौण विषय को मुख्य विषय का समानार्थी या दोहराव मान लेते हैं, जैसे यदि मुख्य विषय "समाज में बदलाव की आवश्यकता" है तो वे किसी भी.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists topics instead of themes: (1) Have them reread paragraphs 2-4 and 6-7, highlighting every sentence.', '(2) Ask: "What idea is this claim *an example of*?" (3) Group similar claims into 3-4 clusters—each cluster is.', '(4) Verify each cluster against the primary theme: does it deepen, complicate, or extend the main argument?', 'If not, it\'s a topic, not a theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_007', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics like "radio.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate Saxena\'s claim that "fp=kiV laxhr us yksxksa dks dku fcxkM+ fn, gS" (visual art has given people the gift of seeing).', answer: 'Defensible insight, not overstatement',
-                  options: ['Defensible insight, not overstatement', 'hyperbole', 'rjg&rjg dh y; osQ Hkh izdkj', 'secondary themes'],
-                  hint: 'If stuck, review node 006 (Primary Theme) and practice distinguishing "what happens" (plot/topics).',
-                  misconception: 'Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics like "radio history," "Yaksh.' }
-          ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists topics instead of themes: (1) Have them reread paragraphs 2-4 and 6-7, highlighting every sentence.', '(2) Ask: "What idea is this claim *an example of*?" (3) Group similar claims into 3-4 clusters—each cluster is.', '(4) Verify each cluster against the primary theme: does it deepen, complicate, or extend the main argument?', 'If not, it\'s a topic, not a theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दो रंग के हाइलाइटर दें—एक मुख्य विषय के लिए (जैसे पीला) और दूसर संभावित गौण विषय के लिए (जैसे नीला)। फिर उनसे.', 'क्यों?" इस अभ्यास से वे सतही मिलान से कार्यात्मक विश्लेषण की ओर बढ़ते हैं।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_008', difficulty: 'standard',
-          question: 'Imagery (fp=kiV laxhr) in this chapter refers to the author\'s technique.',
-          hint: 'Review the "Before You Read" context (c11_hin_v_cbse_01_001) on the tradition of Indian.',
-          misconception: 'Students conflate "imagery" with "figurative language" (metaphor, simile, personification) and hunt for decorative.',
+          question: '**बिंब (Imagery)** लेखक द्वारा शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि.',
+          hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_v_cbse_01_002 (कथानक संरचना)** के \'चरमोत्कर्ष\' खंड को.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'रूपक\' और \'उपमा\' को केवल \'तुलना\' मानकर उनका अंतर \'जैसे/मानो शब्द की.',
           parts: [
-                { id: 'a', prompt: 'According to the author, what is the primary distinction between fp=kiV laxhr (visual art) and \'kkL=kh; laxhr (literary art) in terms of their "rky".', answer: 'The author states that fp=kiV laxhr\'s foundation is "izkFkfed voLFkk"',
-                  options: ['The author states that fp=kiV laxhr\'s foundation is "izkFkfed voLFkk"', 'visual art uses colors, literary art uses words'],
-                  hint: 'Review the "Before You Read" context (c11_hin_v_cbse_01_001) on the tradition of Indian xkf;dk.',
-                  misconception: 'Students conflate "imagery" with "figurative language" (metaphor, simile, personification) and hunt for decorative comparisons in the.' },
-                { id: 'b', prompt: 'The author describes three types of "y;" (rhythm): foyafcry; (musical), eè;y; (poetic), and nzqry; (prosaic).', answer: 'Nzqry; is "rs"k" (prosaic/ordinary)',
-                  options: ['Nzqry; is "rs"k" (prosaic/ordinary)', 'nzqry; is the most musical'],
-                  hint: 'Review the "Before You Read" context (c11_hin_v_cbse_01_001) on the tradition of Indian xkf;dk.',
-                  misconception: 'Students conflate "imagery" with "figurative language" (metaphor, simile, personification) and hunt for decorative comparisons in the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** लेखक द्वारा शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण,',
+                  options: ['**बिंब (Imagery)** लेखक द्वारा शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण,', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_v_cbse_01_002 (कथानक संरचना)** के \'चरमोत्कर्ष\' खंड को दोबारा.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'रूपक\' और \'उपमा\' को केवल \'तुलना\' मानकर उनका अंतर \'जैसे/मानो शब्द की उपस्थिति/अनुपस्थिति\' तक सीमित कर.' }
           ],
-            remediations: { 'students-conflate-imagery-with-figurative': { steps: ['Have the student re-read only the first two pages, highlighting every concrete noun (room, paint, brush, canvas, light.', 'Ask: "Which of these details could a camera capture?', 'Which require the writer\'s perception?" 3.', 'Map each highlighted detail to the author\'s claim about fp=kiV laxhr\'s "Loj" and "y;." 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'a-is-like-b': { steps: ['**चरण 1:** छात्र को **दो वाक्य दें**: (क) *"जीवन एक संघर्ष है"* (रूपक) और (ख) *"जीवन संघर्ष की तरह है"* (उपमा)। पूछें.', 'दूसरे में क्या रहा?" — जब तक वह न कहे: "पहले में जीवन **संघर्ष बन गया**, दूसरे में जीवन **मनुष्य ही रहा** जो संघर्ष.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_009', difficulty: 'standard',
-          question: 'Irony (व्यंग्य) is a literary device where the intended meaning of words.',
-          hint: 'If stuck, review the "three colors = three sounds" analogy in the middle of the chapter.',
-          misconception: 'Students often believe irony and symbolism are merely decorative "figures of speech" that authors add for beauty.',
+          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध.',
+          hint: 'यदि अटके तो c11_hin_v_cbse_01_008 (बिंब और रूपक) के \'रूपक विश्लेषण चरण\' को दोहराएं: तुलना.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र **विरोधाभास (Paradox)** को **विरोधाभास अलंकार / ऑक्सीमोरॉन (Oxymoron)** समझ लेते हैं — जैसे.',
           parts: [
-                { id: 'a', prompt: 'In the chapter, the narrator initially mistakes the bell sound for a divine or supernatural occurrence, but it turns out to be the announcement of Yashpal\'s.', answer: 'This is situational irony',
-                  options: ['This is situational irony', 'verbal irony', 'dramatic irony', 'figures of speech'],
-                  hint: 'If stuck, review the "three colors = three sounds" analogy in the middle of the chapter (paragraphs.',
-                  misconception: 'Students often believe irony and symbolism are merely decorative "figures of speech" that authors add for beauty.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध, असंगत या',
+                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध, असंगत या', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि अटके तो c11_hin_v_cbse_01_008 (बिंब और रूपक) के \'रूपक विश्लेषण चरण\' को दोहराएं: तुलना के दो.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र **विरोधाभास (Paradox)** को **विरोधाभास अलंकार / ऑक्सीमोरॉन (Oxymoron)** समझ लेते हैं — जैसे "जीवित मृतक", "मधुर.' }
           ],
-            remediations: { 'irony-and-symbolism-are-merely': { steps: ['Have the student re-read the first two paragraphs and physically mark (with pencil) every sentence where the narrator\'s.', 'Create a two-column table: Column A = concrete object (bell, painting, colors), Column B = abstract idea it represents.', 'Ask: "Which device attacks the old view? Which builds the new view?" Guide them to see irony as the wrecking ball and.', 'Assign a 100-word response: "Explain how the bell\'s meaning changes from para 1 to para 5 using the E/R table and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'paradox-oxymoron': { steps: ['**चरण 1:** छात्र से कहें: "पाठ से कोई एक वाक्य चुनो जो तुम्हें \'गलत\' लगे पर लेखक ने जानबूझकर लिखा हो।" — यह विरोधाभास.', '**चरण 2:** पूछें: "इस वाक्य के दोनों भागों में कौन-सा यथार्थ छिपा है जो साधारण भाषा में नहीं कहा जा सकता?" — इससे.', '**चरण 3:** प्रतीक के लिए: "कहानी में कोई एक वस्तु बताओ जो 3-4 बार अलग-अलग प्रसंगों में आई हो और हर बार उसका अर्थ गहरा.', '**चरण 4:** छात्र से उस वस्तु के **तीन अर्थ-स्तर** लिखवाएं (शाब्दिक, भावनात्मक, दार्शनिक) — इससे प्रतीक की बहु-स्तरीयता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_010', difficulty: 'standard',
-          question: 'Vocabulary in context is the skill of determining the precise meaning of words.',
-          hint: 'Review "Text: Plot and Narrative Structure" (c11_hin_v_cbse_01_002) and practice mapping.',
-          misconception: 'Students believe vocabulary in context means guessing a word\'s meaning from the single sentence where it first appears.',
+          question: 'मुख्य शब्द वे शब्द हैं जो किसी पाठ के central idea, theme या author के प्रमुख.',
+          hint: 'यदि कठिनाई हो तो पहले नोड c11_hin_v_cbse_01_006 (मुख्य विषय और संदेश) की अवधारणा को.',
+          misconception: 'छात्र अक्सर यह मानते हैं कि मुख्य शब्द वे होते हैं जो पाठ में सबसे पहले आते हैं या जो सबसे कठिन या असामान्य होते हैं.',
           parts: [
-                { id: 'a', prompt: 'In the sentence "yrk dh yksdfiz;rk dk eq[; eeZ ;g ^xkuiu* gh gSA" (The main basis of Yashodhara\'s creativity is this \'xkuiu\'), use the surrounding paragraph.', answer: '"xkuiu" means a transformative aesthetic experience that fuses sensory modes and',
-                  options: ['"xkuiu" means a transformative aesthetic experience that fuses sensory modes and', 'artistic feeling'],
-                  hint: 'Review "Text: Plot and Narrative Structure" (c11_hin_v_cbse_01_002) and practice mapping the.',
-                  misconception: 'Students believe vocabulary in context means guessing a word\'s meaning from the single sentence where it first appears.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य शब्द वे शब्द हैं जो किसी पाठ के central idea, theme या author के प्रमुख संदेश को',
+                  options: ['मुख्य शब्द वे शब्द हैं जो किसी पाठ के central idea, theme या author के प्रमुख संदेश को', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि कठिनाई हो तो पहले नोड c11_hin_v_cbse_01_006 (मुख्य विषय और संदेश) की अवधारणा को दोबारा समझिए.',
+                  misconception: 'छात्र अक्सर यह मानते हैं कि मुख्य शब्द वे होते हैं जो पाठ में सबसे पहले आते हैं या जो सबसे कठिन या असामान्य होते हैं, क्योंकि उनका मानना है.' }
           ],
-            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['If a student cannot trace semantic evolution, conduct a "Word Trajectory Mapping" exercise: (1) Select one key term.', '(2) Find all 3-4 occurrences in the chapter.', '(3) For each, copy the full sentence and underline the subject, verb, and object associated with the term.', '(4) Create a two-column table: "Earlier usage" vs.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को स्पष्ट रूप से बताइए कि मुख्य शब्द की पहचान करने के लिए शब्द की स्थिति नहीं, बल्कि उसकी आवृत्ति और tematice.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_011', difficulty: 'standard',
-          question: 'Grammar in the context of literary analysis refers to the study of how.',
-          hint: 'If the student cannot connect grammar to rhetoric, return to node 006 (Theme) and.',
-          misconception: 'Students treat grammar as a *separate layer* from meaning — they analyze "what the chapter says" (content) and "what.',
+          question: 'पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा अपनी अभिव्यक्ति को प्रभावी, सटीक और.',
+          hint: 'यदि अटके तो **\'शब्द-शक्ति (वाच्यार्थ/लक्ष्यार्थ/व्यंग्यार्थ)\'** की कक्षा 10 की व्याकरण.',
+          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **\'भाषा-प्रयोग\' का अर्थ केवल \'कठिन/तत्सम शब्दों का प्रयोग\' या \'अलंकारों की.',
           parts: [
-                { id: 'a', prompt: 'Define the four main sentence types (declarative, interrogative, imperative, exclamatory) in your own words and give one everyday example of each.', answer: 'Declarative: states a fact or opinion (e.g., "The exam begins at 9 a.m.")',
-                  options: ['Declarative: states a fact or opinion (e.g., "The exam begins at 9 a.m.")', 'declarative ends with a period, interrogative ends with a question mark'],
-                  hint: 'If the student cannot connect grammar to rhetoric, return to node 006 (Theme) and re-establish the.',
-                  misconception: 'Students treat grammar as a *separate layer* from meaning — they analyze "what the chapter says" (content) and "what devices it uses".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा अपनी अभिव्यक्ति को प्रभावी, सटीक और',
+                  options: ['पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा अपनी अभिव्यक्ति को प्रभावी, सटीक और', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि अटके तो **\'शब्द-शक्ति (वाच्यार्थ/लक्ष्यार्थ/व्यंग्यार्थ)\'** की कक्षा 10 की व्याकरण पुस्तिका.',
+                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **\'भाषा-प्रयोग\' का अर्थ केवल \'कठिन/तत्सम शब्दों का प्रयोग\' या \'अलंकारों की भरमार\'** है। **गलत तर्क:**.' }
           ],
-            remediations: { 'students-treat-grammar-as-a': { steps: ['Select a key passage from the chapter. Have the student identify every sentence and label its type (declarative.', 'Have the student identify all rhetorical questions in the passage.', 'Have the student identify all verbs and label them active or passive. Ask: "Who is doing the action?', 'Have the student rewrite the passage converting all rhetorical questions to statements and all passive verbs to active.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**चरण 1 — शब्द-शक्ति स्पष्ट करो:** छात्र को तीन वाक्य दो: (क) "वह रोया।" (ख) "उसकी आँखें बरस पड़ीं।" (ग) "वह फूट-फूटकर.', '**चरण 2 — \'प्रतिस्थापन परीक्षण\' (Substitution Test) कराओ:** पाठ 1 के किसी वाक्य का **महत्वपूर्ण शब्द** हटाकर.', '**चरण 3 — PEEL ढाँचे में एक उत्तर लिखवाओ:** Point (कौन-सा प्रयोग), Evidence (उद्धरण), Explanation (कैसे प्रभाव बना).', '**चरण 4 — फीडबैक लूप:** जहां Explanation कमजोर हो, वहाँ **\'क्यों?\'** पूछकर **कारण-कार्य श्रृंखला** पूरी कराओ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
-          hint: 'If stuck, review node c11_hin_v_cbse_01_002 (Plot and Narrative Structure) to refresh the.',
-          misconception: 'Students often believe that any question starting with "Why" or "How" is automatically inferential, and any.',
+          question: '**वस्तुनिष्ठ प्रश्न (Objective Questions):** पाठ में स्पष्टतः लिखित तथ्यों.',
+          hint: 'यदि फँसें तो **c11_hin_v_cbse_01_004 (नायक का पात्र-चित्रण)** और **c11_hin_v_cbse_01_010.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **आशय-सूचक प्रश्नों के उत्तर "अनुमान" (guesswork) होते हैं** — "जो मन में आए.',
           parts: [
-                { id: 'a', prompt: 'The text states: "चित्रकला के कारण जनमानस की दृष्टि और चिंतन में परिवर्तन आया।" If a question asks, "How did visual art affect common people\'s thinking?",.', answer: 'This is a literal question',
-                  options: ['This is a literal question', 'effect', 'is automatically inferential, and any'],
-                  hint: 'If stuck, review node c11_hin_v_cbse_01_002 (Plot and Narrative Structure) to refresh the sequence.',
-                  misconception: 'Students often believe that any question starting with "Why" or "How" is automatically inferential, and any "What/Who/When" question.' },
-                { id: 'b', prompt: 'Based on the passage, answer: "Why did the author feel that Yashodhar\'s sounds (words) had a \'music\' that merged two words into one?" Provide a step-by-step.', answer: 'Step 1: Locate the reference',
-                  options: ['Step 1: Locate the reference', 'is automatically inferential, and any'],
-                  hint: 'If stuck, review node c11_hin_v_cbse_01_002 (Plot and Narrative Structure) to refresh the sequence.',
-                  misconception: 'Students often believe that any question starting with "Why" or "How" is automatically inferential, and any "What/Who/When" question.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वस्तुनिष्ठ प्रश्न (Objective Questions):** पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं,',
+                  options: ['**वस्तुनिष्ठ प्रश्न (Objective Questions):** पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं,', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                  hint: 'यदि फँसें तो **c11_hin_v_cbse_01_004 (नायक का पात्र-चित्रण)** और **c11_hin_v_cbse_01_010 (मुख्य.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **आशय-सूचक प्रश्नों के उत्तर "अनुमान" (guesswork) होते हैं** — "जो मन में आए लिख दो, कोई गलत नहीं.' }
           ],
-            remediations: { 'any-question-starting-with-why': { steps: ['Give the student a mixed list of 10 questions from the chapter exercises.', 'Ask them to highlight the exact sentence(s) that answer each question.', 'For questions where no single sentence contains the full answer, guide them to list the 2-3 sentences they must combine.', 'Have them label each question "प्रत्यक्ष" (literal) or "निहित" (inferential) based on whether the answer was found.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'guesswork': { steps: ['**चरणबद्ध उपचार (3-4 सत्रों में):** 1.', '**पहचान अभ्यास (15 मिनट):** छात्र को 10 मिश्रित प्रश्न दें — प्रत्येक को **O (वस्तुनिष्ठ)** या **A (आशय-सूचक)** लेबल.', '**प्रमाण-खोज खेल (20 मिनट):** एक आशय-सूचक प्रश्न दें (जैसे: "नायक ने ट्रेन की खिड़की से बाहर देखना क्यों बंद कर.', '**PEEL टेम्पलेट लेखन (15 मिनट):** खाली PEEL शीट दें: Point: ____ | Evidence 1: ____ | Evidence 2: ____ | Explanation.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

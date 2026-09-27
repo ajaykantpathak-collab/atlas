@@ -14,7 +14,7 @@ export const c12_ps_ch03_p2: SimDef = {
     scenario: { role: 'Geopolitical analyst', intro: 'The first televised war showed missiles hitting targets live — and a hegemon that still wanted the UN\'s signature.', goal: 'Analyse the First Gulf War — UN legitimation, coalition-building and the display of unipolar military dominance.' },
     discovery: {
         question: 'In 1991 a hegemon had unmatched force — yet still queued at the UN for Resolution 678 before striking Iraq. Why bother?',
-        options: ['Legitimacy multiplies power — UN cover built a 34-nation coalition including Arab states and showed hegemony as rule-shaping, not just force', 'UN required it', 'US was weak', 'Coalitions are cheap'],
+        options: ['Legitimacy multiplies power — UN cover built a 34-nation coalition including Arab states and showed hegemony as rule-shaping, not just force', 'The UN legally required it — force without a mandate is void', 'US forces were overstretched — allies supplied the missing troops', 'Coalitions are cheap — partners pay for the privilege of joining'],
         answer: 'Legitimacy multiplies power — UN cover built a 34-nation coalition including Arab states and showed hegemony as rule-shaping, not just force',
         hook: 'Don\'t merge 1991 with 2003 — the first had a UN mandate and broad Arab participation; the second ran on a thin \'coalition of the willing\' against allied protest. And it wasn\'t just oil: the US restored Kuwait\'s sovereignty and left — collective security, not seizure, was the public logic.',
     },

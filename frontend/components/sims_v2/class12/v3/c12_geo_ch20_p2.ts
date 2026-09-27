@@ -14,7 +14,7 @@ export const c12_geo_ch20_p2: SimDef = {
     scenario: { role: 'Cartographer', intro: 'A table of numbers hides what a drawn line reveals in a glance. But pick the wrong line and it lies.', goal: 'Match data types to graphical methods — line, bar, pie, flow, dot, choropleth, isopleth — under the three construction rules.' },
     discovery: {
         question: 'A district shades uniformly dark on a choropleth — half of it a dense city, half empty desert. The map just lied. Which tool tells the truth?',
-        options: ['A dot map — each dot marks real people where they actually are; choropleths only paint areal averages that flatten internal contrast', 'A pie chart', 'A bigger choropleth', 'An isopleth map'],
+        options: ['A dot map — each dot marks real people where they actually are; choropleths only paint areal averages that flatten internal contrast', 'A pie chart — slicing the district\'s total shows each region\'s true share', 'A finer choropleth — more sub-zones inside the district restore the lost contrast', 'An isopleth map — density contour lines trace the real city-to-desert gradient'],
         answer: 'A dot map — each dot marks real people where they actually are; choropleths only paint areal averages that flatten internal contrast',
         hook: 'Graphs aren\'t interchangeable decorations — each has a data type it\'s built for: lines for continuous time, bars for discrete comparisons, pies for parts of a whole, flow maps for movement, isopleths for continuous fields. Three rules govern all: right method, right scale, complete design (title, legend, direction).',
     },

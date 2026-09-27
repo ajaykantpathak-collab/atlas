@@ -8,25 +8,18 @@ import type { SimDef } from '../engine/types';
 
 export const C6_BIO_GEN: SimDef[] = [
  {
-  "id": "gen_c6_bio_ch06",
-  "title": "Adolescence",
-  "subtitle": "Biology · Chapter 6",
+  "id": "gen_c6_bio_ch01",
+  "title": "Food",
+  "subtitle": "Biology · Chapter 1",
   "classLevel": 6,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Adolescence",
+  "topic": "Food",
   "chapters": [
-   "Biology Ch6: Adolescence"
+   "Biology Ch1: Food"
   ],
   "nodeIds": [
-   "c6_biology_ch06_001",
-   "c6_biology_ch06_002",
-   "c6_biology_ch06_003",
-   "c6_biology_ch06_004",
-   "c6_biology_ch06_005",
-   "c6_biology_ch06_006",
-   "c6_biology_ch06_007",
-   "c6_biology_ch06_008"
+   "c6_biology_ch01_001"
   ],
   "emoji": "🌿",
   "theme": {
@@ -35,415 +28,1197 @@ export const C6_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Adolescence more about facts, or about reasoning?",
+   "question": "Who uses Food in real working life?",
    "options": [
-    "Mostly reasoning from a few core ideas",
-    "Pure memorisation of facts",
-    "Random guessing"
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
    ],
-   "answer": "Mostly reasoning from a few core ideas",
-   "hook": "Adolescence is a transformative stage of human development occurring between childhood and adulthood, typically spanning from age eleven or twelve to"
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "Food is any substance that a living organism consumes to obtain energy for life processes, raw materials for growth and repair, and protection"
   },
   "teaching": [
    {
-    "title": "Adolescence",
-    "text": "Adolescence is a transformative stage of human development occurring between childhood and adulthood, typically spanning from age eleven or twelve to nineteen, characterized by rapid physical and mental growth.",
+    "title": "Food",
+    "text": "Food is any substance that a living organism consumes to obtain energy for life processes, raw materials for growth and repair, and protection against diseases.",
     "emoji": "🌿",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-amber-400 to-orange-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "Name the two ultimate sources of all food on Earth.",
+    "answer": "Plants and animals. All food items trace back either to a plant source or to an animal source — and even animal sources trace back further to the plants those animals ate",
+    "options": [
+     "Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants, and group animals as herbivore, carnivore, or omnivore",
+     "All animals would eventually die, because every food chain begins with green plants — animals cannot make their own food, so without plants there would be nothing to eat",
+     "Plants and animals. All food items trace back either to a plant source or to an animal source — and even animal sources trace back further to the plants those animals ate"
+    ],
+    "hint": "Straight from the 'Food' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"the shop\" or \"the kitchen\" shows the student confuses where food is bought with where food is made.",
+    "id": "gen_c6_bio_ch01_q1",
+    "nodeId": "c6_biology_ch01_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Take any meal you ate today — rice, dal, a glass of milk, maybe an egg.",
+     "Now play detective and trace each item back to where it really began.",
+     "The rice came from a rice plant in a field.",
+     "The dal came from a pulse plant."
+    ]
    },
    {
-    "title": "Physical Changes In Adolescence Refer To",
-    "text": "Physical changes in adolescence refer to the rapid, visible growth and transformation of the body's structure, including height, weight, and overall body shape, marking the transition from childhood to adulthood.",
+    "type": "mcq",
+    "question": "A deer eats grass. A tiger eats the deer. Where does the energy in the tiger's body ultimately come from?",
+    "answer": "From plants — the tiger's food came from the deer, and the deer's food came from grass, so the energy originally entered the chain when the grass made food using sunlight",
+    "options": [
+     "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based",
+     "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)",
+     "From plants — the tiger's food came from the deer, and the deer's food came from grass, so the energy originally entered the chain when the grass made food using sunlight"
+    ],
+    "hint": "Straight from the 'Food' slide -- match the key terms.",
+    "misconception": "A wrong answer stops at the deer, showing the student traces only one step instead of following energy back to its true source.",
+    "id": "gen_c6_bio_ch01_q2",
+    "nodeId": "c6_biology_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Classify the crow, the lion, and the cow as herbivore, carnivore, or omnivore.",
+    "answer": "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)",
+    "options": [
+     "From plants — the tiger's food came from the deer, and the deer's food came from grass, so the energy originally entered the chain when the grass made food using sunlight",
+     "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based",
+     "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)"
+    ],
+    "hint": "Straight from the 'Food' slide -- match the key terms.",
+    "misconception": "A wrong answer usually places the crow as a carnivore — the student forgets it also eats grains and seeds.",
+    "id": "gen_c6_bio_ch01_q3",
+    "nodeId": "c6_biology_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is honey a plant product or an animal product? Explain.",
+    "answer": "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based",
+    "options": [
+     "From plants — the tiger's food came from the deer, and the deer's food came from grass, so the energy originally entered the chain when the grass made food using sunlight",
+     "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)",
+     "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based"
+    ],
+    "hint": "Straight from the 'Food' slide -- match the key terms.",
+    "misconception": "A student who answers only \"plant product\" misses the maker; one who says only \"animal product\" misses the source — the full answer needs both steps.",
+    "id": "gen_c6_bio_ch01_q4",
+    "nodeId": "c6_biology_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants, and group animals as herbivore, carnivore, or omnivore",
+    "options": [
+     "All animals would eventually die, because every food chain begins with green plants — animals cannot make their own food, so without plants there would be nothing to eat",
+     "Plants and animals. All food items trace back either to a plant source or to an animal source — and even animal sources trace back further to the plants those animals ate",
+     "Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants, and group animals as herbivore, carnivore, or omnivore"
+    ],
+    "hint": "Straight from the 'Food' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants,",
+    "id": "gen_c6_bio_ch01_q5",
+    "nodeId": "c6_biology_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What would happen to animals if all green plants disappeared?",
+    "answer": "All animals would eventually die, because every food chain begins with green plants — animals cannot make their own food, so without plants there would be nothing to eat",
+    "options": [
+     "Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants, and group animals as herbivore, carnivore, or omnivore",
+     "Plants and animals. All food items trace back either to a plant source or to an animal source — and even animal sources trace back further to the plants those animals ate",
+     "All animals would eventually die, because every food chain begins with green plants — animals cannot make their own food, so without plants there would be nothing to eat"
+    ],
+    "hint": "Straight from the 'Food' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"animals would eat other food\" shows the student does not yet see plants as the base of all food.",
+    "id": "gen_c6_bio_ch01_q6",
+    "nodeId": "c6_biology_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why are plants called producers?",
+    "answer": "Plants are called producers because they make their own food using sunlight, water, air, and chlorophyll through photosynthesis — no animal can do this",
+    "options": [
+     "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based",
+     "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)",
+     "Plants are called producers because they make their own food using sunlight, water, air, and chlorophyll through photosynthesis — no animal can do this"
+    ],
+    "hint": "Straight from the 'Food' slide -- match the key terms.",
+    "misconception": "A wrong answer that says \"because they give us vegetables\" misses the deeper reason: plants alone can create food energy from sunlight.",
+    "id": "gen_c6_bio_ch01_q7",
+    "nodeId": "c6_biology_ch01_001",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about food?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Food mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
+  "id": "gen_c6_bio_ch02",
+  "title": "Nutrients",
+  "subtitle": "Biology · Chapter 2",
+  "classLevel": 6,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Nutrients",
+  "chapters": [
+   "Biology Ch2: Nutrients"
+  ],
+  "nodeIds": [
+   "c6_biology_ch02_001",
+   "c6_biology_ch02_002"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Who uses Nutrients in real working life?",
+   "options": [
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
+   ],
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "Nutrients are the components of food that the body uses for specific functions."
+  },
+  "teaching": [
+   {
+    "title": "Nutrients",
+    "text": "Nutrients are the components of food that the body uses for specific functions. The major nutrients are carbohydrates and fats (energy-giving), proteins (body-building), vitamins and minerals (protective), plus water and roughage (dietary fibre), which aid",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Balanced Diet",
+    "text": "A balanced diet is one that contains all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage — in amounts suited to the body's age and activity.",
+    "emoji": "🌿",
+    "bgColor": "from-indigo-400 to-blue-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "Name the five nutrient groups and the main job of each.",
+    "answer": "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport",
+    "options": [
+     "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods",
+     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
+     "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport"
+    ],
+    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
+    "misconception": "A wrong answer usually drops roughage or treats vitamins as energy sources — they are protectors, not fuel.",
+    "id": "gen_c6_bio_ch02_q1",
+    "nodeId": "c6_biology_ch02_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Look at an ordinary plate: rice, dal, a little ghee, cucumber salad, a glass of water.",
+     "That plate secretly holds an entire nutrient team doing different jobs.",
+     "The carbohydrates in the rice and the fat in the ghee are your fuel — they burn slowly inside to give energy for running, playing, even thinking.",
+     "The proteins in the dal are your bricks — they build muscles, skin, and blood, and they repair every cut and worn-out part."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is a balanced diet?",
+    "answer": "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
+    "options": [
+     "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods",
+     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
+     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage"
+    ],
+    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
+    "misconception": "A wrong answer lists only \"healthy food\" without the idea of all groups in the right proportion.",
+    "id": "gen_c6_bio_ch02_q2",
+    "nodeId": "c6_biology_ch02_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Think of your body as a cricket team that needs every position filled — fuel players (carbohydrates and fats), builder players (proteins), and",
+     "A balanced diet simply means all the players are on the field every day, in the right amounts for your age and how active you are.",
+     "Now imagine removing one player for months — the team starts losing in a specific way.",
+     "No vitamin A for a long time and your eyes struggle to see in dim light; that is night blindness."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Classify rice, dal, ghee, cucumber, and water by their main nutrient role.",
+    "answer": "Rice is rich in carbohydrates (energy); dal is rich in protein (body-building); ghee is a fat (energy)",
+    "options": [
+     "Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C deficiency → scurvy (bleeding gums)",
+     "The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and roughage for protection and digestion",
+     "Rice is rich in carbohydrates (energy); dal is rich in protein (body-building); ghee is a fat (energy)"
+    ],
+    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
+    "misconception": "A wrong answer often calls dal \"energy food\" — missing its protein role.",
+    "id": "gen_c6_bio_ch02_q3",
+    "nodeId": "c6_biology_ch02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is roughage and why is it needed?",
+    "answer": "Roughage is dietary fibre — the part of plant food the body cannot digest — and it adds bulk so the intestine can push waste out smoothly, preventing constipation",
+    "options": [
+     "Proteins — they build muscles, skin, and blood and heal damaged tissue",
+     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
+     "Roughage is dietary fibre — the part of plant food the body cannot digest — and it adds bulk so the intestine can push waste out smoothly, preventing constipation"
+    ],
+    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
+    "misconception": "A wrong answer treats it as useless because it is \"not digested\" — its job is movement, not nourishment.",
+    "id": "gen_c6_bio_ch02_q4",
+    "nodeId": "c6_biology_ch02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
+    "options": [
+     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
+     "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C",
+     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced"
+    ],
+    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain",
+    "id": "gen_c6_bio_ch02_q5",
+    "nodeId": "c6_biology_ch02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Which nutrient gives the most energy per gram — carbohydrate or fat?",
+    "answer": "Fat gives more energy per gram than carbohydrate, which is why the body stores extra energy as fat",
+    "options": [
+     "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C",
+     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
+     "Fat gives more energy per gram than carbohydrate, which is why the body stores extra energy as fat"
+    ],
+    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
+    "misconception": "A wrong answer that says carbohydrate confuses the everyday fuel with the concentrated reserve.",
+    "id": "gen_c6_bio_ch02_q6",
+    "nodeId": "c6_biology_ch02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Which nutrient group is mainly responsible for growth and repair of the body?",
+    "answer": "Proteins — they build muscles, skin, and blood and heal damaged tissue",
+    "options": [
+     "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C",
+     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
+     "Proteins — they build muscles, skin, and blood and heal damaged tissue"
+    ],
+    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"carbohydrates\" confuses energy-giving with body-building — fuel does not build new tissue, bricks do.",
+    "id": "gen_c6_bio_ch02_q7",
+    "nodeId": "c6_biology_ch02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is eating only rice every day called an unbalanced diet?",
+    "answer": "Rice supplies mostly carbohydrates — so a rice-only diet gives energy but lacks proteins for growth, vitamins and minerals for protection, and roughage for digestion",
+    "options": [
+     "A balanced diet must match the body's needs — growing children need extra protein and minerals to build the body, athletes need extra energy foods",
+     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
+     "Rice supplies mostly carbohydrates — so a rice-only diet gives energy but lacks proteins for growth, vitamins and minerals for protection, and roughage for digestion"
+    ],
+    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"rice is filling so it is enough\" confuses a full stomach with a nourished body.",
+    "id": "gen_c6_bio_ch02_q8",
+    "nodeId": "c6_biology_ch02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Match the deficiency to the disease: iron, vitamin D, vitamin C.",
+    "answer": "Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C deficiency → scurvy (bleeding gums)",
+    "options": [
+     "The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and roughage for protection and digestion",
+     "Rice is rich in carbohydrates (energy); dal is rich in protein (body-building); ghee is a fat (energy)",
+     "Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C deficiency → scurvy (bleeding gums)"
+    ],
+    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C",
+    "id": "gen_c6_bio_ch02_q9",
+    "nodeId": "c6_biology_ch02_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Name one cheap, common food that protects against vitamin A deficiency and one against iron deficiency.",
+    "answer": "Carrot or leafy vegetables supply vitamin A; jaggery or green leafy vegetables supply iron",
+    "options": [
+     "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport",
+     "Proteins — they build muscles, skin, and blood and heal damaged tissue",
+     "Carrot or leafy vegetables supply vitamin A; jaggery or green leafy vegetables supply iron"
+    ],
+    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
+    "misconception": "A wrong answer names expensive foods — protection comes from cheap, everyday foods.",
+    "id": "gen_c6_bio_ch02_q10",
+    "nodeId": "c6_biology_ch02_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Two friends eat daily: one eats only chapati and butter, the other eats chapati, dal, vegetables, curd, and fruit. Whose diet is balanced and why?",
+    "answer": "The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and roughage for protection and digestion",
+    "options": [
+     "Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C deficiency → scurvy (bleeding gums)",
+     "Rice is rich in carbohydrates (energy); dal is rich in protein (body-building); ghee is a fat (energy)",
+     "The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and roughage for protection and digestion"
+    ],
+    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and",
+    "id": "gen_c6_bio_ch02_q11",
+    "nodeId": "c6_biology_ch02_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is a deficiency disease? Give one example.",
+    "answer": "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C",
+    "options": [
+     "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods",
+     "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport",
+     "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C"
+    ],
+    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
+    "misconception": "A wrong answer treats any illness as a deficiency — infections are not deficiency diseases.",
+    "id": "gen_c6_bio_ch02_q12",
+    "nodeId": "c6_biology_ch02_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods",
+    "options": [
+     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
+     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
+     "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods"
+    ],
+    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and",
+    "id": "gen_c6_bio_ch02_q13",
+    "nodeId": "c6_biology_ch02_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why do growing children and athletes need a diet different from a person who sits at a desk all day?",
+    "answer": "A balanced diet must match the body's needs — growing children need extra protein and minerals to build the body, athletes need extra energy foods",
+    "options": [
+     "Rice supplies mostly carbohydrates — so a rice-only diet gives energy but lacks proteins for growth, vitamins and minerals for protection, and roughage for digestion",
+     "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport",
+     "A balanced diet must match the body's needs — growing children need extra protein and minerals to build the body, athletes need extra energy foods"
+    ],
+    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A balanced diet must match the body's needs — growing children need extra protein and minerals to build the body,",
+    "id": "gen_c6_bio_ch02_q14",
+    "nodeId": "c6_biology_ch02_002",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about nutrients?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Nutrients mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c6_bio_ch03",
+  "title": "Typical Flowering Plant Has Two Systems",
+  "subtitle": "Biology · Chapter 3",
+  "classLevel": 6,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Typical Flowering Plant Has Two Systems",
+  "chapters": [
+   "Biology Ch3: Typical Flowering Plant Has Two Systems"
+  ],
+  "nodeIds": [
+   "c6_biology_ch03_001"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Who uses Typical Flowering Plant Has Two in real working life?",
+   "options": [
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
+   ],
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "A typical flowering plant has two systems: the shoot system above the ground — stem, leaves, flowers, and fruits — and the root system below it."
+  },
+  "teaching": [
+   {
+    "title": "Typical Flowering Plant Has Two Systems",
+    "text": "A typical flowering plant has two systems: the shoot system above the ground — stem, leaves, flowers, and fruits — and the root system below it.",
+    "emoji": "🌿",
+    "bgColor": "from-emerald-400 to-teal-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "Name the two systems of a plant and the parts in each.",
+    "answer": "The root system (roots, below ground) and the shoot system (stem, leaves, flowers, and fruits, above ground)",
+    "options": [
+     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
+     "A flower develops into a fruit containing seeds — it matters because the seeds grow into new plants; flowers are how the plant reproduces",
+     "The root system (roots, below ground) and the shoot system (stem, leaves, flowers, and fruits, above ground)"
+    ],
+    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
+    "misconception": "A wrong answer lumps everything above ground as \"the plant\" and forgets the roots' equal share.",
+    "id": "gen_c6_bio_ch03_q1",
+    "nodeId": "c6_biology_ch03_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Pull up a small plant carefully — a mustard seedling or a tuft of grass — and hold the whole thing in your hand.",
+     "The part that was under the soil is the root system; everything above is the shoot system.",
+     "Look at the roots first: they grip the soil like an anchor so wind cannot topple the plant, and they drink — drawing water and minerals up from the",
+     "Some plants push one thick main root straight down, like the carrot or mustard — that is a taproot; others spread a bunch of thin, equal roots, like"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A plant's stem is cut. Which two functions stop working?",
+    "answer": "Support — the plant cannot stand upright — and transport — water from roots to leaves and food from leaves to other parts can no longer move",
+    "options": [
+     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
+     "The root system (roots, below ground) and the shoot system (stem, leaves, flowers, and fruits, above ground)",
+     "Support — the plant cannot stand upright — and transport — water from roots to leaves and food from leaves to other parts can no longer move"
+    ],
+    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
+    "misconception": "A wrong answer mentions only the standing-up role and misses the pipeline role.",
+    "id": "gen_c6_bio_ch03_q2",
+    "nodeId": "c6_biology_ch03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "How are a carrot's roots different from a wheat plant's roots?",
+    "answer": "A carrot has a taproot — one thick main root with side branches; wheat has fibrous roots — a cluster of many thin, equal roots with no main one",
+    "options": [
+     "The leaf is called the kitchen because it prepares food for the whole plant by photosynthesis — using sunlight, water, and carbon dioxide to make sugar",
+     "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each",
+     "A carrot has a taproot — one thick main root with side branches; wheat has fibrous roots — a cluster of many thin, equal roots with no main one"
+    ],
+    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
+    "misconception": "A wrong answer confuses the two types or names the plant part wrong (carrot's root is eaten, wheat's is not).",
+    "id": "gen_c6_bio_ch03_q3",
+    "nodeId": "c6_biology_ch03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What are the two main jobs of roots?",
+    "answer": "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
+    "options": [
+     "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each",
+     "A flower develops into a fruit containing seeds — it matters because the seeds grow into new plants; flowers are how the plant reproduces",
+     "Roots anchor the plant firmly in the soil and absorb water and minerals from it"
+    ],
+    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
+    "misconception": "A wrong answer mentions only anchoring — forgetting that roots are also the plant's mouth, taking in everything the shoot needs.",
+    "id": "gen_c6_bio_ch03_q4",
+    "nodeId": "c6_biology_ch03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What does a flower develop into, and why does it matter?",
+    "answer": "A flower develops into a fruit containing seeds — it matters because the seeds grow into new plants; flowers are how the plant reproduces",
+    "options": [
+     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
+     "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each",
+     "A flower develops into a fruit containing seeds — it matters because the seeds grow into new plants; flowers are how the plant reproduces"
+    ],
+    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
+    "misconception": "A wrong answer treats the flower as decoration only, missing its reproductive job.",
+    "id": "gen_c6_bio_ch03_q5",
+    "nodeId": "c6_biology_ch03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each",
+    "options": [
+     "The root system (roots, below ground) and the shoot system (stem, leaves, flowers, and fruits, above ground)",
+     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
+     "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each"
+    ],
+    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of",
+    "id": "gen_c6_bio_ch03_q6",
+    "nodeId": "c6_biology_ch03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is the leaf called the kitchen of the plant?",
+    "answer": "The leaf is called the kitchen because it prepares food for the whole plant by photosynthesis — using sunlight, water, and carbon dioxide to make sugar",
+    "options": [
+     "A carrot has a taproot — one thick main root with side branches; wheat has fibrous roots — a cluster of many thin, equal roots with no main one",
+     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
+     "The leaf is called the kitchen because it prepares food for the whole plant by photosynthesis — using sunlight, water, and carbon dioxide to make sugar"
+    ],
+    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"because leaves are eaten\" — the kitchen is where food is made, not where it is eaten.",
+    "id": "gen_c6_bio_ch03_q7",
+    "nodeId": "c6_biology_ch03_001",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about typical flowering plant has two systems?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Typical Flowering Plant Has mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
+  "id": "gen_c6_bio_ch04",
+  "title": "Diversity In The Living World",
+  "subtitle": "Biology · Chapter 4",
+  "classLevel": 6,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Diversity In The Living World",
+  "chapters": [
+   "Biology Ch4: Diversity In The Living World"
+  ],
+  "nodeIds": [
+   "c6_biology_ch04_001"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Who uses Diversity In The Living World in real working life?",
+   "options": [
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
+   ],
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "Diversity in the living world means the great variety of living organisms that differ in size, shape, habitat, food habits, and ways of moving and"
+  },
+  "teaching": [
+   {
+    "title": "Diversity In The Living World",
+    "text": "Diversity in the living world means the great variety of living organisms that differ in size, shape, habitat, food habits, and ways of moving and reproducing.",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "What does \"diversity in the living world\" mean?",
+    "answer": "Diversity in the living world means the great variety of living organisms that differ from one another in size, shape, habitat, food habits, movement, and reproduction",
+    "options": [
+     "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move",
+     "Name at least five different organisms with one differing feature each, explain why grouping helps scientists study them",
+     "Diversity in the living world means the great variety of living organisms that differ from one another in size, shape, habitat, food habits, movement, and reproduction"
+    ],
+    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
+    "misconception": "A wrong answer treats diversity as just \"many kinds\" without the idea of differing features.",
+    "id": "gen_c6_bio_ch04_q1",
+    "nodeId": "c6_biology_ch04_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Step outside or picture a park — grass, a banyan tree, an ant, a pigeon, a dog, a butterfly, and you.",
+     "All alive, all different.",
+     "The ant is tiny, the banyan is huge; the fish breathes underwater, the camel survives deserts; the bird flies, the snake crawls, the tree does not",
+     "Now notice the problem — there are lakhs of kinds of living things, and nobody can remember them one by one."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A gardener sees a mushroom growing on a dead tree trunk. Is it a plant? Discuss.",
+    "answer": "A mushroom looks plant-like but is a fungus — it cannot make its own food because it has no green colour (chlorophyll)",
+    "options": [
+     "Water-dwellers: fish, lotus, whale. Land-dwellers: dog, cat. The eagle is an air-and-land dweller — it flies but nests on land or trees",
+     "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features",
+     "A mushroom looks plant-like but is a fungus — it cannot make its own food because it has no green colour (chlorophyll)"
+    ],
+    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
+    "misconception": "A wrong answer calls it a plant based on shape alone.",
+    "id": "gen_c6_bio_ch04_q2",
+    "nodeId": "c6_biology_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Group these into water-dwellers and land-dwellers: fish, dog, lotus, eagle, whale, cat.",
+    "answer": "Water-dwellers: fish, lotus, whale. Land-dwellers: dog, cat. The eagle is an air-and-land dweller — it flies but nests on land or trees",
+    "options": [
+     "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features",
+     "A mushroom looks plant-like but is a fungus — it cannot make its own food because it has no green colour (chlorophyll)",
+     "Water-dwellers: fish, lotus, whale. Land-dwellers: dog, cat. The eagle is an air-and-land dweller — it flies but nests on land or trees"
+    ],
+    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
+    "misconception": "A wrong answer puts the eagle only in water or the lotus only on land.",
+    "id": "gen_c6_bio_ch04_q3",
+    "nodeId": "c6_biology_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is a whale a fish? Answer using the idea of grouping by features.",
+    "answer": "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features",
+    "options": [
+     "Water-dwellers: fish, lotus, whale. Land-dwellers: dog, cat. The eagle is an air-and-land dweller — it flies but nests on land or trees",
+     "A mushroom looks plant-like but is a fungus — it cannot make its own food because it has no green colour (chlorophyll)",
+     "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features"
+    ],
+    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
+    "misconception": "A wrong answer stops at \"it swims, so it is a fish.\"",
+    "id": "gen_c6_bio_ch04_q4",
+    "nodeId": "c6_biology_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Name three features by which living organisms can be grouped.",
+    "answer": "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move",
+    "options": [
+     "Name at least five different organisms with one differing feature each, explain why grouping helps scientists study them",
+     "Diversity in the living world means the great variety of living organisms that differ from one another in size, shape, habitat, food habits, movement, and reproduction",
+     "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move"
+    ],
+    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
+    "misconception": "A wrong answer lists non-observable traits like \"beautiful\" — grouping needs measurable features.",
+    "id": "gen_c6_bio_ch04_q5",
+    "nodeId": "c6_biology_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Name at least five different organisms with one differing feature each, explain why grouping helps scientists study them",
+    "options": [
+     "Diversity in the living world means the great variety of living organisms that differ from one another in size, shape, habitat, food habits, movement, and reproduction",
+     "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move",
+     "Name at least five different organisms with one differing feature each, explain why grouping helps scientists study them"
+    ],
+    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Name at least five different organisms with one differing feature each, explain why grouping helps scientists study",
+    "id": "gen_c6_bio_ch04_q6",
+    "nodeId": "c6_biology_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why do scientists group or classify living organisms?",
+    "answer": "There are millions of kinds of organisms, so studying each one separately is impossible — grouping by common features lets scientists study them systematically and identify them",
+    "options": [
+     "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move",
+     "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features",
+     "There are millions of kinds of organisms, so studying each one separately is impossible — grouping by common features lets scientists study them systematically and identify them"
+    ],
+    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"to make a list\" misses that classification is a tool for understanding, not just counting.",
+    "id": "gen_c6_bio_ch04_q7",
+    "nodeId": "c6_biology_ch04_001",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about diversity in the living world?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Diversity In The Living World mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
+  "id": "gen_c6_bio_ch05",
+  "title": "Habitat",
+  "subtitle": "Biology · Chapter 5",
+  "classLevel": 6,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Habitat",
+  "chapters": [
+   "Biology Ch5: Habitat"
+  ],
+  "nodeIds": [
+   "c6_biology_ch05_001"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Who uses Habitat in real working life?",
+   "options": [
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
+   ],
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "A habitat is the natural home of a living organism — the place where it lives and gets food, water, shelter, and air."
+  },
+  "teaching": [
+   {
+    "title": "Habitat",
+    "text": "A habitat is the natural home of a living organism — the place where it lives and gets food, water, shelter, and air. Adaptation is a special feature of the body or behaviour of an organism that helps it survive in its particular habitat — for example, a",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "What is a habitat? Give two examples.",
+    "answer": "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat",
+    "options": [
+     "Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and a polar bear with its survival benefit",
+     "Adaptation is a special body feature or behaviour that helps an organism survive in its habitat. Example: a camel's hump stores fat that becomes energy and water",
+     "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat"
+    ],
+    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "misconception": "A wrong answer names just \"a place\" — a habitat must supply everything the organism needs.",
+    "id": "gen_c6_bio_ch05_q1",
+    "nodeId": "c6_biology_ch05_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you had to move house permanently — to a desert, or underwater, or to a frozen land.",
+     "You would need completely different tools and clothing for each.",
+     "Creatures cannot move like that — instead, their bodies are already built for their home.",
+     "That home is the habitat: the ocean for a fish, the desert for a camel, the Arctic ice for a polar bear, the river bank for a frog, the soil for an"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A frog lives on land and in water. Name one adaptation for each part of its habitat.",
+    "answer": "For water: the frog has webbed feet for swimming. For land: it has strong hind legs for jumping and lungs to breathe air",
+    "options": [
+     "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats",
+     "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat",
+     "For water: the frog has webbed feet for swimming. For land: it has strong hind legs for jumping and lungs to breathe air"
+    ],
+    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "misconception": "A wrong answer lists only one habitat's toolkit — amphibians carry features for both.",
+    "id": "gen_c6_bio_ch05_q2",
+    "nodeId": "c6_biology_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "How do a fish's gills and fins act as adaptations?",
+    "answer": "Gills take dissolved oxygen out of water so the fish can breathe underwater, and fins work like oars and rudders for swimming — both are features built for a water habitat",
+    "options": [
+     "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats",
+     "A cactus stores water in its thick fleshy stem, has leaves reduced to spines so almost no water is lost, and has a waxy coating — all features that save water where rain is rare",
+     "Gills take dissolved oxygen out of water so the fish can breathe underwater, and fins work like oars and rudders for swimming — both are features built for a water habitat"
+    ],
+    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "misconception": "A wrong answer lists the parts without connecting them to survival in water.",
+    "id": "gen_c6_bio_ch05_q3",
+    "nodeId": "c6_biology_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "How is a cactus adapted to live in a desert?",
+    "answer": "A cactus stores water in its thick fleshy stem, has leaves reduced to spines so almost no water is lost, and has a waxy coating — all features that save water where rain is rare",
+    "options": [
+     "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats",
+     "Gills take dissolved oxygen out of water so the fish can breathe underwater, and fins work like oars and rudders for swimming — both are features built for a water habitat",
+     "A cactus stores water in its thick fleshy stem, has leaves reduced to spines so almost no water is lost, and has a waxy coating — all features that save water where rain is rare"
+    ],
+    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "misconception": "A wrong answer names only \"spines\" without the water-saving reason.",
+    "id": "gen_c6_bio_ch05_q4",
+    "nodeId": "c6_biology_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is adaptation? Explain with one example.",
+    "answer": "Adaptation is a special body feature or behaviour that helps an organism survive in its habitat. Example: a camel's hump stores fat that becomes energy and water",
+    "options": [
+     "Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and a polar bear with its survival benefit",
+     "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat",
+     "Adaptation is a special body feature or behaviour that helps an organism survive in its habitat. Example: a camel's hump stores fat that becomes energy and water"
+    ],
+    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "misconception": "A wrong answer calls adaptation a \"choice\" — features are inherited, not decided.",
+    "id": "gen_c6_bio_ch05_q5",
+    "nodeId": "c6_biology_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and a polar bear with its survival benefit",
+    "options": [
+     "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat",
+     "Adaptation is a special body feature or behaviour that helps an organism survive in its habitat. Example: a camel's hump stores fat that becomes energy and water",
+     "Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and a polar bear with its survival benefit"
+    ],
+    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and",
+    "id": "gen_c6_bio_ch05_q6",
+    "nodeId": "c6_biology_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why would a polar bear's white fur fail as an adaptation in a forest?",
+    "answer": "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats",
+    "options": [
+     "Gills take dissolved oxygen out of water so the fish can breathe underwater, and fins work like oars and rudders for swimming — both are features built for a water habitat",
+     "A cactus stores water in its thick fleshy stem, has leaves reduced to spines so almost no water is lost, and has a waxy coating — all features that save water where rain is rare",
+     "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats"
+    ],
+    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"fur is always good\" — missing that camouflage works only in its own setting.",
+    "id": "gen_c6_bio_ch05_q7",
+    "nodeId": "c6_biology_ch05_001",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about habitat?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Habitat mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
+  "id": "gen_c6_bio_ch07",
+  "title": "Living Things",
+  "subtitle": "Biology · Chapter 7",
+  "classLevel": 6,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Living Things",
+  "chapters": [
+   "Biology Ch7: Living Things"
+  ],
+  "nodeIds": [
+   "c6_biology_ch07_001",
+   "c6_biology_ch07_002"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Who uses Living Things in real working life?",
+   "options": [
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
+   ],
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "Living things are set apart from non-living things by characteristics they all share: they need food for energy (nutrition), they grow, they respire,"
+  },
+  "teaching": [
+   {
+    "title": "Living Things",
+    "text": "Living things are set apart from non-living things by characteristics they all share: they need food for energy (nutrition), they grow, they respire, they respond to stimuli around them, they remove waste (excretion), they move or show movement inside, and",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Reproductive Maturity",
-    "text": "Reproductive maturity is the stage during adolescence when an individual's body develops the biological capacity to produce offspring. It is marked by specific physical and hormonal changes that indicate the body is transitioning from childhood to adulthood.",
+    "title": "Life Cycle",
+    "text": "A life cycle is the sequence of stages an organism passes through from birth to the production of offspring — typically beginning at a seed or egg, passing through growth stages, reaching an adult that reproduces, and ending with death.",
     "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Adolescence",
-    "text": "Adolescence is a transitional stage of growth between childhood and adulthood where the brain undergoes structural reorganization, leading to more intense emotional experiences and frequent mood fluctuations.",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Coping Strategies In Adolescence",
-    "text": "Coping strategies in adolescence are healthy, proactive ways to manage the new emotional and social challenges that arise during this stage of rapid growth, primarily through open communication and sharing experiences.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Hormones",
-    "text": "Hormones are invisible chemical messengers produced by glands in the body that travel through the bloodstream to signal specific tissues to grow or change. They act as the internal instructions that trigger the physical transformations seen during adolescence.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Personal Hygiene During Adolescence",
-    "text": "Personal hygiene during adolescence involves the regular maintenance of cleanliness to manage increased sweat and oil gland activity, which helps prevent body odour and skin irritation.",
-    "emoji": "🌿",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Adolescence",
-    "text": "Adolescence is a specific stage of human growth characterized by rapid physical, emotional, and social development, necessitating increased nutrient intake and physical activity to support changing body structures.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
+    "bgColor": "from-sky-400 to-cyan-500"
    }
   ],
   "challenges": [
    {
     "type": "mcq",
-    "question": "What is the typical age range for the stage known as adolescence?",
-    "answer": "Adolescence generally begins around age eleven or twelve and lasts until about age nineteen",
+    "question": "Name any five characteristics that distinguish living things from non-living things.",
+    "answer": "Living things need food (nutrition), grow, respire, respond to stimuli, excrete waste, move (internally or externally), and reproduce — any five of these",
     "options": [
-     "The three nutrients are protein (for muscle and tissue), calcium (for bones), and iron (for blood)",
-     "The primary indicator is the onset of menstruation",
-     "Adolescence generally begins around age eleven or twelve and lasts until about age nineteen"
+     "Seed → germination → seedling → adult plant → flower → fruit containing seeds → seed dispersal → new seed",
+     "Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from birth to reproduction",
+     "Living things need food (nutrition), grow, respire, respond to stimuli, excrete waste, move (internally or externally), and reproduce — any five of these"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student is guessing or confusing this stage with infancy or early childhood.",
-    "id": "gen_c6_bio_ch06_q1",
-    "nodeId": "c6_biology_ch06_001",
+    "hint": "Straight from the 'Living things' slide -- match the key terms.",
+    "misconception": "A wrong answer lists only movement — the easy trap this node exists to break.",
+    "id": "gen_c6_bio_ch07_q1",
+    "nodeId": "c6_biology_ch07_001",
     "difficulty": "standard",
     "workedExample": [
-     "Have you ever looked at old photos of yourself from four years ago and realized you have outgrown your favorite outfit?",
-     "Think about how your friends might be growing at different speeds—some might be much taller than others, even though you are the same age.",
-     "This period of rapid change is called adolescence.",
-     "To begin, observe that growth isn't a steady, flat line; it happens in \"spurts\" during this special window of time."
+     "Is a car living?",
+     "It moves and needs petrol — but it does not grow from a baby car into an adult car, it does not breathe, and it never makes baby cars.",
+     "Movement alone is not enough.",
+     "Now walk the checklist of life."
     ]
    },
    {
     "type": "mcq",
-    "question": "Why does a teenager's weight typically increase during a growth spurt?",
-    "answer": "Weight increases because of the development of larger bones and increased muscle mass",
+    "question": "What is a life cycle?",
+    "answer": "A life cycle is the sequence of stages an organism passes through — from birth, through growth, to an adult that reproduces and finally dies",
     "options": [
-     "It increases, with emotions feeling more intense and sometimes longer-lasting",
-     "It is cyclical because the uterus lining thickens and sheds repeatedly in a pattern, typically every 28 days, if no fertilisation occurs",
-     "Weight increases because of the development of larger bones and increased muscle mass"
+     "Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from birth to reproduction",
+     "Living things need food (nutrition), grow, respire, respond to stimuli, excrete waste, move (internally or externally), and reproduce — any five of these",
+     "A life cycle is the sequence of stages an organism passes through — from birth, through growth, to an adult that reproduces and finally dies"
     ],
-    "hint": "Straight from the 'Physical changes in adolescence' slide -- match the key terms.",
-    "misconception": "If a student says \"only because of eating more food,\" they are missing the biological fact that the body's internal framework (bones and muscles) is actually getting heavier and denser.",
-    "id": "gen_c6_bio_ch06_q2",
-    "nodeId": "c6_biology_ch06_002",
+    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
+    "misconception": "A wrong answer stops at \"being born and dying\" and misses the repeating loop.",
+    "id": "gen_c6_bio_ch07_q2",
+    "nodeId": "c6_biology_ch07_002",
     "difficulty": "standard",
     "workedExample": [
-     "Have you ever looked at old photos of yourself from four years ago and realized your favorite shirt doesn't fit anymore?",
-     "This happens because your body is going through adolescence, a stage where you grow much faster than in the years before.",
-     "To understand this, start by looking at how your limbs (arms and legs) have stretched, causing a \"growth spurt.",
-     "Think of it as a house renovation: the frame (bones) gets taller and the walls (muscles) get stronger to support the new structure."
+     "Watch a seed buried in wet soil — it swells, splits, sends a root down and a shoot up; that is germination, the start of a plant's life cycle.",
+     "Follow the seedling as it grows into a plant with stems and leaves, until one day it flowers — the flower is where the plant makes seeds.",
+     "The flowers turn into fruits carrying seeds, the seeds scatter, and the cycle starts again: seed → plant → flower → seed.",
+     "Now the mosquito — eggs laid on still water hatch into wrigglers (larvae) that swim in the water; each wriggler becomes a pupa, and the pupa splits"
     ]
    },
    {
     "type": "mcq",
-    "question": "What is the primary indicator of reproductive maturity in females mentioned in the chapter?",
-    "answer": "The primary indicator is the onset of menstruation",
+    "question": "A cloud grows bigger and moves. Is it living? Explain.",
+    "answer": "No. A cloud grows only by collecting more water vapour — it does not eat, respire, or reproduce, so it is non-living despite growing and moving",
     "options": [
-     "Adolescence generally begins around age eleven or twelve and lasts until about age nineteen",
-     "The brain is reorganizing its connections and maturing",
-     "The primary indicator is the onset of menstruation"
+     "At the flower stage — after pollination the flower develops into a fruit that carries the seeds which start the next generation",
+     "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living",
+     "No. A cloud grows only by collecting more water vapour — it does not eat, respire, or reproduce, so it is non-living despite growing and moving"
     ],
-    "hint": "Straight from the 'Reproductive maturity' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"getting taller\") suggests the student is confusing general physical growth with the specific milestone of reproductive maturity.",
-    "id": "gen_c6_bio_ch06_q3",
-    "nodeId": "c6_biology_ch06_003",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever noticed how your older siblings or cousins suddenly seem to change, not just in height, but in how their bodies look and function?",
-     "Think of adolescence as a \"biological upgrade\"—just like a plant moves from a seedling to a stage where it produces flowers and seeds, the human body",
-     "You begin by observing these changes as a sign of your body maturing, much like noticing the first sprout of a bean plant.",
-     "It isn't just about growing taller; it is about your internal systems preparing for the role of adulthood."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What happens to the brain during adolescence that contributes to changes in how we feel?",
-    "answer": "The brain is reorganizing its connections and maturing",
-    "options": [
-     "The primary indicator is the onset of menstruation",
-     "The most effective step is open communication by sharing worries with a trusted adult, sibling, or friend",
-     "The brain is reorganizing its connections and maturing"
-    ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student thinks feelings are random or \"just happening\" without a biological basis.",
-    "id": "gen_c6_bio_ch06_q4",
-    "nodeId": "c6_biology_ch06_004",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever felt like you were super happy one minute and then suddenly annoyed or sad the next, without any big reason?",
-     "Start by remembering that just as your body grows taller, your brain is actively building new connections to help you handle the world as an adult.",
-     "Think of your emotions like a radio where the volume knob has been turned up; feelings that were once \"quiet\" in childhood now feel much louder and",
-     "By acknowledging that these mood swings are a natural part of \"rewiring\" your brain, you can begin to observe your feelings rather than just reacting"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the most effective initial step mentioned for managing worries during adolescence?",
-    "answer": "The most effective step is open communication by sharing worries with a trusted adult, sibling, or friend",
-    "options": [
-     "The three nutrients are protein (for muscle and tissue), calcium (for bones), and iron (for blood)",
-     "Adolescence generally begins around age eleven or twelve and lasts until about age nineteen",
-     "The most effective step is open communication by sharing worries with a trusted adult, sibling, or friend"
-    ],
-    "hint": "Straight from the 'Coping strategies in adolescence' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student believes in isolation, which risks magnifying the problem rather than resolving it.",
-    "id": "gen_c6_bio_ch06_q5",
-    "nodeId": "c6_biology_ch06_005",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever felt like a small problem in your day—like a disagreement with a friend or a worry about school—felt much bigger just because you kept",
-     "Adolescence is a time of many changes, and it is completely normal to feel overwhelmed sometimes.",
-     "To begin coping, try the \"Share and Shrink\" method: identify one trusted person, such as a parent, teacher, or sibling, and speak to them about how",
-     "When you voice your worries, you often realize that others have faced similar feelings, which makes the problem feel manageable."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary role of hormones in the human body?",
-    "answer": "Hormones act as chemical messengers that travel through the bloodstream to give instructions to specific body tissues",
-    "options": [
-     "The brain is reorganizing its connections and maturing",
-     "The most effective step is open communication by sharing worries with a trusted adult, sibling, or friend",
-     "Hormones act as chemical messengers that travel through the bloodstream to give instructions to specific body tissues"
-    ],
-    "hint": "Straight from the 'Hormones' slide -- match the key terms.",
-    "misconception": "A student who says \"hormones are food for growth\" misses the point that they are *signals*, not nutrients.",
-    "id": "gen_c6_bio_ch06_q6",
-    "nodeId": "c6_biology_ch06_006",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered why your voice changes or why you suddenly start growing taller during your teenage years?",
-     "Just like a construction site needs a blueprint to know where to place bricks, your body uses hormones—tiny chemical signals—to tell your bones and",
-     "Imagine your brain as the \"master conductor\" of an orchestra, sending out these signals to different parts of the body.",
-     "When these signals arrive, your body \"reads\" them and starts the process of becoming an adult."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Why do adolescents need to pay more attention to their personal hygiene than they did as children?",
-    "answer": "Adolescents have increased activity in their sweat and oil glands, which creates a better environment for bacteria to grow and cause odour",
-    "options": [
-     "Weight increases because of the development of larger bones and increased muscle mass",
-     "It is called a \"spurt\" because the lengthening happens very rapidly, often over just a few months, rather than at the slow, steady pace seen in childhood",
-     "Adolescents have increased activity in their sweat and oil glands, which creates a better environment for bacteria to grow and cause odour"
-    ],
-    "hint": "Straight from the 'Personal hygiene during' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks it is just about \"getting dirty,\" missing the specific biological change of hormonal shifts.",
-    "id": "gen_c6_bio_ch06_q7",
-    "nodeId": "c6_biology_ch06_007",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Have you noticed that you feel \"stickier\" or more prone to smelling sweaty after a game of football or a long school day compared to when you were",
-     "During adolescence, your body undergoes hormonal changes that cause your sweat and oil glands to become much more active.",
-     "Start your routine by bathing daily with soap to wash away the sweat and bacteria that cause odours, and always change into fresh, clean clothes.",
-     "Think of your skin as a protective barrier that needs daily cleaning to stay healthy."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Name the three nutrients mentioned that are essential for supporting the rapid growth of muscles, bones, and blood during adolescence.",
-    "answer": "The three nutrients are protein (for muscle and tissue), calcium (for bones), and iron (for blood)",
-    "options": [
-     "Adolescence generally begins around age eleven or twelve and lasts until about age nineteen",
-     "The primary indicator is the onset of menstruation",
-     "The three nutrients are protein (for muscle and tissue), calcium (for bones), and iron (for blood)"
-    ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student has not grasped the basic role of these specific nutrients in physical development.",
-    "id": "gen_c6_bio_ch06_q8",
-    "nodeId": "c6_biology_ch06_008",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you noticed how you seem to grow out of your clothes much faster than a few years ago?",
-     "During adolescence, your body is like a construction site—it needs extra raw materials to build stronger bones and more muscle tissue.",
-     "To begin, think of your food as \"building blocks\": protein is for your muscles, calcium acts like the \"cement\" for your growing bones, and iron is",
-     "Just as a building needs a solid foundation, your body needs a varied diet of whole grains, fruits, and dairy to manage this growth spurt."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the growth you experienced as a toddler (ages 1-3) to the growth expected during adolescence. What is the main difference?",
-    "answer": "As a toddler, growth is a continuous process, whereas in adolescence, there is a distinct, sharp acceleration in the rate of growth",
-    "options": [
-     "While the level of sweat might be lower in winter, the glands are still active, and skin continues to shed dead cells",
-     "Sharing shifts the focus from \"my personal burden\" to \"a common human experience,\" which reduces anxiety",
-     "As a toddler, growth is a continuous process, whereas in adolescence, there is a distinct, sharp acceleration in the rate of growth"
-    ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "An incorrect answer indicates a failure to recognize that growth patterns change in intensity over a lifespan.",
-    "id": "gen_c6_bio_ch06_q9",
-    "nodeId": "c6_biology_ch06_001",
+    "hint": "Straight from the 'Living things' slide -- match the key terms.",
+    "misconception": "A wrong answer trusts growth and movement as proof — neither alone is enough.",
+    "id": "gen_c6_bio_ch07_q3",
+    "nodeId": "c6_biology_ch07_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If an adult says, \"I stopped growing at fifteen,\" but your cousin says, \"I am still changing at eighteen,\" who is correct?",
-    "answer": "Both can be correct because the end point of the adolescent phase varies for every individual. Judging one as \"wrong\" reveals a misunderstanding of individual biological",
+    "question": "A dried seed lies in a packet for months. Is it living or non-living?",
+    "answer": "It is living but dormant — the seed is alive inside in a resting state, and it germinates (grows and breathes) the moment it gets water, air, and warmth",
     "options": [
-     "No, it is a common behavior reflecting normal maturation. A \"yes\" answer reveals the student lacks the boundary between normal developmental changes and clinical conditions",
-     "No, they are a natural part of the brain's development. A \"yes\" answer indicates the student is internalizing developmental biology as a personal flaw",
-     "Both can be correct because the end point of the adolescent phase varies for every individual. Judging one as \"wrong\" reveals a misunderstanding of individual biological"
+     "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living",
+     "No. A cloud grows only by collecting more water vapour — it does not eat, respire, or reproduce, so it is non-living despite growing and moving",
+     "It is living but dormant — the seed is alive inside in a resting state, and it germinates (grows and breathes) the moment it gets water, air, and warmth"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Both can be correct because the end point of the adolescent phase varies for every individual.",
-    "id": "gen_c6_bio_ch06_q10",
-    "nodeId": "c6_biology_ch06_001",
+    "hint": "Straight from the 'Living things' slide -- match the key terms.",
+    "misconception": "A wrong answer calls it dead because it does not move — dormancy is paused life, not death.",
+    "id": "gen_c6_bio_ch07_q4",
+    "nodeId": "c6_biology_ch07_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If your friend starts their growth spurt at age eleven and you start yours at age thirteen, does this mean one of you is developing incorrectly?",
-    "answer": "No, it is normal because the start and end points of adolescence vary from individual to individual",
+    "question": "How does a plant show the characteristic of responding to stimuli?",
+    "answer": "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place",
     "options": [
-     "Because growth requires building blocks like protein and minerals (calcium/iron) which a single-source diet lacks, leading to incomplete development",
-     "A good answer explains that their brain is \"under construction\" and it's a normal, temporary stage of growth. A poor answer dismisses the feelings or calls the friend \"crazy.\"",
-     "No, it is normal because the start and end points of adolescence vary from individual to individual"
+     "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells",
+     "A mosquito's life cycle is egg → larva (wriggler, lives in water) → pupa → adult flying mosquito → which lays eggs again",
+     "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student incorrectly believes that human development must follow a rigid, identical schedule for everyone.",
-    "id": "gen_c6_bio_ch06_q11",
-    "nodeId": "c6_biology_ch06_001",
+    "hint": "Straight from the 'Living things' slide -- match the key terms.",
+    "misconception": "A wrong answer claims plants do not respond because they do not \"move.\"",
+    "id": "gen_c6_bio_ch07_q5",
+    "nodeId": "c6_biology_ch07_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Imagine you are writing a manual for a younger student about \"Growing Up.\" How would you explain why they shouldn't worry about being a different height than their classmates?",
-    "answer": "A good answer explains that adolescence is a personal journey with different start and end times for everyone",
+    "question": "Is a car a living thing? Why or why not?",
+    "answer": "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living",
     "options": [
-     "Yes, it is normal because the skeleton and muscles are reshaping to accommodate an adult-sized body",
-     "No, it is a milestone within the growth stage, not the end. Humans continue to develop physically and mentally well after this biological milestone is reached",
-     "A good answer explains that adolescence is a personal journey with different start and end times for everyone"
+     "It is living but dormant — the seed is alive inside in a resting state, and it germinates (grows and breathes) the moment it gets water, air, and warmth",
+     "At the flower stage — after pollination the flower develops into a fruit that carries the seeds which start the next generation",
+     "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "A poor answer ignores individual differences, suggesting there is only one \"right\" way to grow.",
-    "id": "gen_c6_bio_ch06_q12",
-    "nodeId": "c6_biology_ch06_001",
+    "hint": "Straight from the 'Living things' slide -- match the key terms.",
+    "misconception": "A wrong answer stops at \"it moves.\"",
+    "id": "gen_c6_bio_ch07_q6",
+    "nodeId": "c6_biology_ch07_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Why is adolescence described as a \"dramatic transformation\" rather than just \"getting older\"?",
-    "answer": "It refers to the sharp acceleration in growth rates and significant changes in both body and mind, whereas \"getting older\" implies a slow, steady change",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a car, a cloud, or a seed is living",
     "options": [
-     "It increases, with emotions feeling more intense and sometimes longer-lasting",
-     "It is called a \"spurt\" because the lengthening happens very rapidly, often over just a few months, rather than at the slow, steady pace seen in childhood",
-     "It refers to the sharp acceleration in growth rates and significant changes in both body and mind, whereas \"getting older\" implies a slow, steady change"
+     "A life cycle is the sequence of stages an organism passes through — from birth, through growth, to an adult that reproduces and finally dies",
+     "Seed → germination → seedling → adult plant → flower → fruit containing seeds → seed dispersal → new seed",
+     "List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a car, a cloud, or a seed is living"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student fails to distinguish between the steady growth of childhood and the rapid, intense changes of adolescence.",
-    "id": "gen_c6_bio_ch06_q13",
-    "nodeId": "c6_biology_ch06_001",
+    "hint": "Straight from the 'Living things' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a",
+    "id": "gen_c6_bio_ch07_q7",
+    "nodeId": "c6_biology_ch07_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Design a simple way to track your own physical changes over the next three months without using complex medical equipment.",
-    "answer": "A good answer involves measuring height against a wall mark and recording weight on a scale at the same time each month",
+    "question": "Why is growth alone not enough to call something living?",
+    "answer": "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells",
     "options": [
-     "No, it is a milestone within the growth stage, not the end. Humans continue to develop physically and mentally well after this biological milestone is reached",
-     "1. Listen to them without interrupting. 2. Share that it is normal to feel this way during growth. 3",
-     "A good answer involves measuring height against a wall mark and recording weight on a scale at the same time each month"
+     "Because the last stage — the adult reproducing — produces new seeds or eggs that begin the sequence all over again, so the stages loop back to the start, making a circle",
+     "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place",
+     "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells"
     ],
-    "hint": "Straight from the 'Physical changes in adolescence' slide -- match the key terms.",
-    "misconception": "A poor answer would suggest tracking things that don't reflect structural growth, such as \"counting how many hours I sleep\" or \"measuring the length of my hair.\"",
-    "id": "gen_c6_bio_ch06_q14",
-    "nodeId": "c6_biology_ch06_002",
+    "hint": "Straight from the 'Living things' slide -- match the key terms.",
+    "misconception": "A wrong answer treats size increase as proof of life.",
+    "id": "gen_c6_bio_ch07_q8",
+    "nodeId": "c6_biology_ch07_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If a student grows 5 cm in two months, what is happening to their bones?",
-    "answer": "The growth plates in the long bones of the arms and legs are responding to signals to add new bone tissue, causing the bones to physically lengthen",
+    "question": "At which stage does a plant actually make new seeds?",
+    "answer": "At the flower stage — after pollination the flower develops into a fruit that carries the seeds which start the next generation",
     "options": [
-     "No, it is normal because the start and end points of adolescence vary from individual to individual",
-     "Both can be correct because the end point of the adolescent phase varies for every individual. Judging one as \"wrong\" reveals a misunderstanding of individual biological",
-     "The growth plates in the long bones of the arms and legs are responding to signals to add new bone tissue, causing the bones to physically lengthen"
+     "It is living but dormant — the seed is alive inside in a resting state, and it germinates (grows and breathes) the moment it gets water, air, and warmth",
+     "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living",
+     "At the flower stage — after pollination the flower develops into a fruit that carries the seeds which start the next generation"
     ],
-    "hint": "Straight from the 'Physical changes in adolescence' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks bones just \"stretch\" like rubber bands, rather than growing through the addition of new tissue.",
-    "id": "gen_c6_bio_ch06_q15",
-    "nodeId": "c6_biology_ch06_002",
+    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"the seed makes seeds\" — seeds come from flowers.",
+    "id": "gen_c6_bio_ch07_q9",
+    "nodeId": "c6_biology_ch07_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Is it normal for body shape to change significantly during adolescence? Why?",
-    "answer": "Yes, it is normal because the skeleton and muscles are reshaping to accommodate an adult-sized body",
+    "question": "Describe the life cycle of a mosquito.",
+    "answer": "A mosquito's life cycle is egg → larva (wriggler, lives in water) → pupa → adult flying mosquito → which lays eggs again",
     "options": [
-     "No, because the body requires these specific chemical instructions to initiate the maturation process",
-     "1. Listen to them without interrupting. 2. Share that it is normal to feel this way during growth. 3",
-     "Yes, it is normal because the skeleton and muscles are reshaping to accommodate an adult-sized body"
+     "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells",
+     "Both start with eggs in water, but the frog's immature stage is a tadpole that breathes with gills and grows legs while losing its tail — becoming a land-living adult",
+     "A mosquito's life cycle is egg → larva (wriggler, lives in water) → pupa → adult flying mosquito → which lays eggs again"
     ],
-    "hint": "Straight from the 'Physical changes in adolescence' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Yes, it is normal because the skeleton and muscles are reshaping to accommodate an adult-sized body.",
-    "id": "gen_c6_bio_ch06_q16",
-    "nodeId": "c6_biology_ch06_002",
+    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
+    "misconception": "A wrong answer treats the wriggler as a separate animal rather than the mosquito's own young stage.",
+    "id": "gen_c6_bio_ch07_q10",
+    "nodeId": "c6_biology_ch07_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Why is the rapid change in height called a \"growth spurt\"?",
-    "answer": "It is called a \"spurt\" because the lengthening happens very rapidly, often over just a few months, rather than at the slow, steady pace seen in childhood",
+    "question": "How is a frog's life cycle different from a mosquito's?",
+    "answer": "Both start with eggs in water, but the frog's immature stage is a tadpole that breathes with gills and grows legs while losing its tail — becoming a land-living adult",
     "options": [
-     "Keeping concerns to yourself prevents you from gaining new perspectives or realizing that others have faced similar issues",
-     "It refers to the sharp acceleration in growth rates and significant changes in both body and mind, whereas \"getting older\" implies a slow, steady change",
-     "It is called a \"spurt\" because the lengthening happens very rapidly, often over just a few months, rather than at the slow, steady pace seen in childhood"
+     "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place",
+     "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells",
+     "Both start with eggs in water, but the frog's immature stage is a tadpole that breathes with gills and grows legs while losing its tail — becoming a land-living adult"
     ],
-    "hint": "Straight from the 'Physical changes in adolescence' slide -- match the key terms.",
-    "misconception": "An incorrect answer indicates the student does not understand that adolescence is a phase of accelerated, non-linear growth.",
-    "id": "gen_c6_bio_ch06_q17",
-    "nodeId": "c6_biology_ch06_002",
+    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"they are the same\" — the immature stages differ completely.",
+    "id": "gen_c6_bio_ch07_q11",
+    "nodeId": "c6_biology_ch07_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "How does the body's reaction to the absence of fertilisation demonstrate the \"cyclical\" nature of reproductive maturity?",
-    "answer": "The body prepares the uterus lining for a potential pregnancy; when that does not happen, it sheds the lining and resets to start the process again",
+    "question": "List the stages of a plant's life cycle in order.",
+    "answer": "Seed → germination → seedling → adult plant → flower → fruit containing seeds → seed dispersal → new seed",
     "options": [
-     "It refers to the sharp acceleration in growth rates and significant changes in both body and mind, whereas \"getting older\" implies a slow, steady change",
-     "Weight increases because of the development of larger bones and increased muscle mass",
-     "The body prepares the uterus lining for a potential pregnancy; when that does not happen, it sheds the lining and resets to start the process again"
+     "A life cycle is the sequence of stages an organism passes through — from birth, through growth, to an adult that reproduces and finally dies",
+     "List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a car, a cloud, or a seed is living",
+     "Seed → germination → seedling → adult plant → flower → fruit containing seeds → seed dispersal → new seed"
     ],
-    "hint": "Straight from the 'Reproductive maturity' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of understanding that the body is operating on a repeating, planned biological schedule.",
-    "id": "gen_c6_bio_ch06_q18",
-    "nodeId": "c6_biology_ch06_003",
+    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
+    "misconception": "A wrong answer skips the flower or the seed-dispersal step — the loop only closes when seeds leave and sprout again.",
+    "id": "gen_c6_bio_ch07_q12",
+    "nodeId": "c6_biology_ch07_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from birth to reproduction",
+    "options": [
+     "Living things need food (nutrition), grow, respire, respond to stimuli, excrete waste, move (internally or externally), and reproduce — any five of these",
+     "List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a car, a cloud, or a seed is living",
+     "Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from birth to reproduction"
+    ],
+    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from",
+    "id": "gen_c6_bio_ch07_q13",
+    "nodeId": "c6_biology_ch07_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is the life cycle called a cycle and not a line?",
+    "answer": "Because the last stage — the adult reproducing — produces new seeds or eggs that begin the sequence all over again, so the stages loop back to the start, making a circle",
+    "options": [
+     "A mosquito's life cycle is egg → larva (wriggler, lives in water) → pupa → adult flying mosquito → which lays eggs again",
+     "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place",
+     "Because the last stage — the adult reproducing — produces new seeds or eggs that begin the sequence all over again, so the stages loop back to the start, making a circle"
+    ],
+    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
+    "misconception": "A wrong answer treats it as a one-way line ending at death — the offspring restart it.",
+    "id": "gen_c6_bio_ch07_q14",
+    "nodeId": "c6_biology_ch07_002",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about adolescence?",
+    "What surprised you about living things?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Adolescence mastered! 🎯",
+  "successLine": "Living Things mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
-  "id": "gen_c6_bio_ch09",
-  "title": "Digestive System",
-  "subtitle": "Biology · Chapter 9",
+  "id": "gen_c6_bio_ch08",
+  "title": "Air",
+  "subtitle": "Biology · Chapter 8",
   "classLevel": 6,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Digestive System",
+  "topic": "Air",
   "chapters": [
-   "Biology Ch9: Digestive System"
+   "Biology Ch8: Air"
   ],
   "nodeIds": [
-   "c6_biology_ch09_001",
-   "c6_biology_ch09_002",
-   "c6_biology_ch09_003",
-   "c6_biology_ch09_004",
-   "c6_biology_ch09_005",
-   "c6_biology_ch09_006",
-   "c6_biology_ch09_007",
-   "c6_biology_ch09_008"
+   "c6_biology_ch08_001",
+   "c6_biology_ch08_002"
   ],
   "emoji": "🌿",
   "theme": {
@@ -452,61 +1227,25 @@ export const C6_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Digestive System outside the classroom?",
+   "question": "Who uses Air in real working life?",
    "options": [
-    "Hidden in everyday things around us",
-    "Only inside exam papers",
-    "Nowhere -- it is pure theory"
+    "Scientists, engineers and professionals use it daily",
+    "Nobody actually uses it",
+    "Only teachers use it"
    ],
-   "answer": "Hidden in everyday things around us",
-   "hook": "The digestive system is a biological network of organs, including a long muscular tube (the alimentary canal) and accessory organs like the liver and"
+   "answer": "Scientists, engineers and professionals use it daily",
+   "hook": "Air is the mixture of gases around the Earth — mainly nitrogen and oxygen with small amounts of carbon dioxide and other gases — that all living"
   },
   "teaching": [
    {
-    "title": "Digestive System",
-    "text": "The digestive system is a biological network of organs, including a long muscular tube (the alimentary canal) and accessory organs like the liver and pancreas, which work together to break down complex food into simpler substances that the body can absorb for",
+    "title": "Air",
+    "text": "Air is the mixture of gases around the Earth — mainly nitrogen and oxygen with small amounts of carbon dioxide and other gases — that all living things need for respiration and plants need for photosynthesis.",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Animals",
-    "text": "Animals are classified into three main groups based on their dietary habits: herbivores (plant-eaters), carnivores (flesh-eaters), and omnivores (eaters of both plants and animals).",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Digestion",
-    "text": "Digestion is the biological process of breaking down large, complex food molecules into smaller, simpler units that the body can absorb and use for energy, growth, and repair.",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Breathing",
-    "text": "Breathing is the mechanical action of moving air into and out of the lungs to exchange oxygen and carbon dioxide. It is driven by the movement of the diaphragm and rib cage muscles, which changes the size of the chest cavity to allow airflow.",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Cellular Respiration",
-    "text": "Cellular respiration is the process where cells break down digested food (like simple sugars) using oxygen to release the energy needed for all body activities.",
-    "emoji": "🌿",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Food Chain",
-    "text": "A food chain is a linear sequence showing how energy flows from one organism to another, starting from plants that capture sunlight and passing through consumers that eat them.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Balanced Diet",
-    "text": "A balanced diet is a daily food pattern that provides the body with the right proportions of energy-giving carbohydrates and fats, body-building proteins, and protective vitamins and minerals, along with necessary dietary fibre and water.",
-    "emoji": "🌿",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
-    "title": "Circulatory System Acts As The",
-    "text": "The circulatory system acts as the body's transport highway, using the heart as a pump to move blood through vessels to deliver oxygen from the lungs to every individual cell.",
+    "title": "Forests",
+    "text": "Forests are large areas covered with trees that provide wood, medicines, oxygen, and shelter for wildlife and help conserve soil and water. Soil is the thin top layer of Earth where plants grow; rocks are the hard minerals beneath it.",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -514,777 +1253,234 @@ export const C6_BIO_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What is the primary function of the digestive system?",
-    "answer": "The primary function is to break down large, complex food into simpler substances that the body can absorb",
+    "question": "What is air made of, and which gas do living things need for breathing?",
+    "answer": "Air is a mixture of gases — mainly nitrogen and oxygen with small amounts of carbon dioxide and others. Living things need oxygen for breathing (respiration)",
     "options": [
-     "It moves upward, pushing against the lungs to help squeeze the air out",
-     "They are called producers",
-     "The primary function is to break down large, complex food into simpler substances that the body can absorb"
+     "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it",
+     "Fossil fuels are fuels formed from the buried remains of ancient plants and animals over millions of years — coal, petroleum, and natural gas",
+     "Air is a mixture of gases — mainly nitrogen and oxygen with small amounts of carbon dioxide and others. Living things need oxygen for breathing (respiration)"
     ],
-    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student confuses digestion with simply \"chewing\" or \"eating,\" missing the chemical breakdown aspect.",
-    "id": "gen_c6_bio_ch09_q1",
-    "nodeId": "c6_biology_ch09_001",
+    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"air is just oxygen\" — nitrogen makes up most of it.",
+    "id": "gen_c6_bio_ch08_q1",
+    "nodeId": "c6_biology_ch08_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you just ate your favourite snack—how does that bite of bread actually become the energy you use to run or study?",
-     "Think of your body as having a long \"food factory\" tube inside it, starting at your mouth and ending at the anus, which acts like an assembly line.",
-     "As the food moves through this tube, accessory organs like the liver and pancreas act like \"chemists,\" adding special fluids to break the food down",
-     "Without this \"factory,\" your body couldn't use the raw materials from your food to build muscle or fuel your brain."
+     "Hold your breath for ten seconds — uncomfortable, right?",
+     "That invisible stuff you just missed is air, and the part your body wants is oxygen.",
+     "Air is not empty space; it is a real mixture — mostly nitrogen and oxygen, with a pinch of carbon dioxide and other gases.",
+     "Plants use carbon dioxide to make food and release the oxygen animals need; animals breathe out carbon dioxide — a natural swap that keeps both alive."
     ]
    },
    {
     "type": "mcq",
-    "question": "A deer only eats grass, and a lion only eats deer. If we removed all the grass from the forest, what would happen to the deer and the lion?",
-    "answer": "First, the deer would lose its food source and perish. Second, because the lion relies on the deer for food, it would eventually starve as well",
+    "question": "Name three things forests provide us.",
+    "answer": "Forests provide wood, medicines from plants, oxygen, and shelter for wildlife — plus they conserve soil and water",
     "options": [
-     "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next",
-     "An analogy could be a kitchen where the conveyor belt is the tube, but the chefs adding spices and heat are the accessory organs",
-     "First, the deer would lose its food source and perish. Second, because the lion relies on the deer for food, it would eventually starve as well"
+     "Air is polluted by smoke from vehicles and factories and by dust and burning; it makes breathing difficult, irritates eyes, and can cause diseases",
+     "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it",
+     "Forests provide wood, medicines from plants, oxygen, and shelter for wildlife — plus they conserve soil and water"
     ],
-    "hint": "Straight from the 'Animals' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student does not understand that these dietary habits create a chain of dependency.",
-    "id": "gen_c6_bio_ch09_q2",
-    "nodeId": "c6_biology_ch09_002",
+    "hint": "Straight from the 'Forests' slide -- match the key terms.",
+    "misconception": "A wrong answer lists only \"wood\" — forests give far more than timber.",
+    "id": "gen_c6_bio_ch08_q2",
+    "nodeId": "c6_biology_ch08_002",
     "difficulty": "standard",
     "workedExample": [
-     "Have you ever wondered why a cow spends all day chewing grass while a tiger only hunts for meat?",
-     "Start by looking at the food source: if an animal eats only plants (like grains, leaves, or fruits), it is a herbivore.",
-     "If it hunts or scavenges to eat other animals, it is a carnivore.",
-     "If it enjoys a \"mixed diet\" of both plants and animal products, it is an omnivore."
+     "Start with a forest — not just a pretty place of trees, but a treasure house.",
+     "Forests give us wood for furniture and houses, medicines from plants, oxygen to breathe, and homes for countless animals.",
+     "But their hidden work is even bigger — tree roots hold the soil together so rain cannot wash it away, and forests soak up rainwater like a sponge,",
+     "Now dig down: the top layer of Earth where plants grow is soil — a living mix of broken rock, water, air, and dead leaves — and without it no farm"
     ]
    },
    {
     "type": "mcq",
-    "question": "What is the name of the tube that carries food from the mouth to the stomach?",
-    "answer": "The tube is called the oesophagus",
+    "question": "How do plants and animals exchange gases through air?",
+    "answer": "Plants take in carbon dioxide for photosynthesis and release oxygen; animals breathe in oxygen and breathe out carbon dioxide — each supplies what the other needs",
     "options": [
-     "They are called producers",
-     "Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases",
-     "The tube is called the oesophagus"
+     "Tree roots hold soil together so rain cannot wash it away, and forests soak up rainwater like a sponge so it seeps down and refills groundwater",
+     "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out",
+     "Plants take in carbon dioxide for photosynthesis and release oxygen; animals breathe in oxygen and breathe out carbon dioxide — each supplies what the other needs"
     ],
-    "hint": "Straight from the 'Digestion' slide -- match the key terms.",
-    "misconception": "A student who says \"windpipe\" or \"throat\" confuses the digestive pathway with the respiratory system.",
-    "id": "gen_c6_bio_ch09_q3",
-    "nodeId": "c6_biology_ch09_003",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered how a crunchy apple you eat for a snack becomes the energy that helps you run during games?",
-     "It doesn't just disappear; your body acts like a factory.",
-     "First, the \"machinery\" in your mouth grinds the food to increase the surface area for digestion, while saliva begins the chemical breakdown.",
-     "Then, the food is shaped into a soft ball called a bolus and travels down a tube called the oesophagus using rhythmic muscle movements."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary function of the diaphragm during breathing?",
-    "answer": "The diaphragm moves downward to enlarge the chest cavity, allowing air to be drawn into the lungs",
-    "options": [
-     "Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases",
-     "It moves upward, pushing against the lungs to help squeeze the air out",
-     "The diaphragm moves downward to enlarge the chest cavity, allowing air to be drawn into the lungs"
-    ],
-    "hint": "Straight from the 'Breathing' slide -- match the key terms.",
-    "misconception": "A student who says \"it filters the air\" confuses the diaphragm with the nose or trachea, showing they do not understand the mechanical function of the muscle.",
-    "id": "gen_c6_bio_ch09_q4",
-    "nodeId": "c6_biology_ch09_004",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever noticed how your chest moves when you take a deep breath after running?",
-     "To understand this, start by placing your hands gently on your ribs and taking a slow, deep breath.",
-     "You will feel your chest expand as air enters, and contract as you breathe out.",
-     "Imagine your lungs sitting inside your chest like two balloons; they don't move on their own, but are pulled by the sheet of muscle below them called"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "A marathon runner drinks glucose water for \"instant energy.\" How does the cell use this glucose?",
-    "answer": "The cell takes the glucose and oxygen to perform cellular respiration, releasing the energy stored in the sugar",
-    "options": [
-     "No, breathing is the mechanical process of moving air, while cellular respiration is the chemical process inside cells that releases energy from food",
-     "The energy available for the fox decreases. This is because the rabbit has less food, leading to fewer rabbits, which reduces the energy source for the fox",
-     "The cell takes the glucose and oxygen to perform cellular respiration, releasing the energy stored in the sugar"
-    ],
-    "hint": "Straight from the 'Cellular respiration' slide -- match the key terms.",
-    "misconception": "If a student answers \"it just goes to the muscles,\" they are missing the step of the chemical reaction that converts the sugar into usable energy.",
-    "id": "gen_c6_bio_ch09_q5",
-    "nodeId": "c6_biology_ch09_005",
-    "difficulty": "standard",
-    "workedExample": [
-     "Think about why you feel tired after a long game of tag—it's because your \"fuel tank\" is running low.",
-     "You eat a sandwich to get energy, but that food doesn't turn into movement just by sitting in your stomach.",
-     "Your cells have to work like tiny power plants, using oxygen to \"burn\" that food into usable energy.",
-     "Even when you are sleeping or sitting still, your cells are performing this process to keep your heart beating and your body repairing itself."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What do we call the first organism in any food chain that makes its own food using sunlight?",
-    "answer": "They are called producers",
-    "options": [
-     "The heart acts as a muscular pump that contracts to move blood through the body. A student saying it \"makes air\" or \"stores oxygen\" confuses the heart's function with the lungs'",
-     "The tube is called the oesophagus",
-     "Yes are called producers",
-     "They are called producers"
-    ],
-    "hint": "Straight from the 'food chain' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"consumer\") reveals the student does not understand that only plants (producers) start the energy flow by capturing sunlight.",
-    "id": "gen_c6_bio_ch09_q6",
-    "nodeId": "c6_biology_ch09_006",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered why you feel energized after eating a lunch of rice and dal?",
-     "That energy actually started in the sun, which the plants captured to make food.",
-     "To begin understanding this, imagine a simple path: the Sun feeds the plant, the plant feeds a grasshopper, and the grasshopper feeds a frog.",
-     "Think of each organism as a \"link\" in a chain where energy is passed along like a relay race baton."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What are the three main roles that nutrients play in our body?",
-    "answer": "Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases",
-    "options": [
-     "The primary function is to break down large, complex food into simpler substances that the body can absorb",
-     "The heart acts as a muscular pump that contracts to move blood through the body. A student saying it \"makes air\" or \"stores oxygen\" confuses the heart's function with the lungs'",
-     "Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases"
-    ],
-    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases.",
-    "id": "gen_c6_bio_ch09_q7",
-    "nodeId": "c6_biology_ch09_007",
-    "difficulty": "standard",
-    "workedExample": [
-     "Think about how you feel after eating a heavy meal of just sweets versus a meal with dal, roti, and vegetables.",
-     "If you only eat one type of food, your body misses out on the different tools it needs to grow, repair muscles, and fight off sickness.",
-     "Start by identifying the \"roles\" of food: energy (carbohydrates/fats), building (proteins), and protecting (vitamins/minerals).",
-     "To build a balanced diet, you don't need a perfect single meal, but rather a pattern over days that includes variety from these groups."
-    ]
-   },
-   {
-    "type": "order",
-    "question": "A red blood cell is currently in the lung. Describe its journey to a muscle cell in your leg.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "The heart pumps it through arteries",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "It travels to the heart",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "The cell picks up oxygen in the lungs",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "It reaches the leg muscle cell to deliver",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "If the student skips the \"pump\" step, they don't understand the circulatory mechanism.",
-    "id": "gen_c6_bio_ch09_q8",
-    "nodeId": "c6_biology_ch09_008",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you are waiting for a delivery of a parcel at your home.",
-     "Your body is like a massive city, and every single cell is like a house that needs oxygen to stay alive.",
-     "You breathe in, and oxygen enters your lungs, but how does it get to your toes?",
-     "The circulatory system is the delivery service!"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple model or analogy to explain why we need \"accessory\" organs.",
-    "answer": "An analogy could be a kitchen where the conveyor belt is the tube, but the chefs adding spices and heat are the accessory organs",
-    "options": [
-     "Yes, because they consume both plant-based foods (vegetables) and animal-derived foods (eggs)",
-     "Observe the lizard for several days, noting if it eats plant matter (like flower petals or fruit) alongside insects",
-     "An analogy could be a kitchen where the conveyor belt is the tube, but the chefs adding spices and heat are the accessory organs"
-    ],
-    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
-    "misconception": "A poor answer fails to distinguish between the path of the food and the agents that assist in its breakdown.",
-    "id": "gen_c6_bio_ch09_q9",
-    "nodeId": "c6_biology_ch09_001",
+    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "misconception": "A wrong answer says plants \"breathe oxygen like us\" — they also respire, but their signature move is releasing oxygen.",
+    "id": "gen_c6_bio_ch08_q3",
+    "nodeId": "c6_biology_ch08_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "How is the digestive system different from just a simple pipe?",
-    "answer": "A pipe just moves things, but the digestive system is a biological assembly line that modifies the food chemically and physically to extract nutrients",
+    "question": "Name three sources of fresh water.",
+    "answer": "Rain, rivers, and groundwater (from wells and pumps) — lakes and ponds also store fresh water",
     "options": [
-     "Cells are too far from the lungs for oxygen to move through the body on its own; it requires the circulatory system to carry it",
-     "This is incomplete because digestion also involves chemical transformation into absorbable units, not just physical size reduction",
-     "A pipe just moves things, but the digestive system is a biological assembly line that modifies the food chemically and physically to extract nutrients"
+     "Use less electricity and petrol (walk, carpool, switch off lights) and use cleaner fuels or renewable energy like solar and wind where possible",
+     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
+     "Rain, rivers, and groundwater (from wells and pumps) — lakes and ponds also store fresh water"
     ],
-    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
-    "misconception": "A wrong answer implies the student sees digestion as a passive transport rather than an active, transformative process.",
-    "id": "gen_c6_bio_ch09_q10",
-    "nodeId": "c6_biology_ch09_001",
+    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "misconception": "A wrong answer lists the ocean — seawater is salty and not directly usable.",
+    "id": "gen_c6_bio_ch08_q4",
+    "nodeId": "c6_biology_ch08_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If you were to trace a piece of food, what is the sequence of the main \"tube\" it travels through?",
-    "answer": "It travels from the mouth through the esophagus to the stomach, then into the small and large intestines, and finally exits the body",
+    "question": "Name two ways air gets polluted and one effect it has on us.",
+    "answer": "Air is polluted by smoke from vehicles and factories and by dust and burning; it makes breathing difficult, irritates eyes, and can cause diseases",
     "options": [
-     "First, the deer would lose its food source and perish. Second, because the lion relies on the deer for food, it would eventually starve as well",
-     "No, breathing is the mechanical process of moving air, while cellular respiration is the chemical process inside cells that releases energy from food",
-     "It travels from the mouth through the esophagus to the stomach, then into the small and large intestines, and finally exits the body"
+     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
+     "Air is a mixture of gases — mainly nitrogen and oxygen with small amounts of carbon dioxide and others. Living things need oxygen for breathing (respiration)",
+     "Air is polluted by smoke from vehicles and factories and by dust and burning; it makes breathing difficult, irritates eyes, and can cause diseases"
     ],
-    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of understanding of the sequential nature of the digestive tract.",
-    "id": "gen_c6_bio_ch09_q11",
-    "nodeId": "c6_biology_ch09_001",
+    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "misconception": "A wrong answer names only one source — pollution has several everyday causes.",
+    "id": "gen_c6_bio_ch08_q5",
+    "nodeId": "c6_biology_ch08_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Is it more efficient for the body to have one long tube or many separate, disconnected parts for digestion?",
-    "answer": "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next",
+    "question": "Suggest two actions to conserve water at home or school.",
+    "answer": "Fix leaking taps and collect rainwater for gardens (rainwater harvesting); also, turning the tap off while brushing or reusing wash-water for plants saves water daily",
     "options": [
-     "The heart is needed to provide the force to circulate the blood throughout the entire body to reach distant cells",
-     "First, the deer would lose its food source and perish. Second, because the lion relies on the deer for food, it would eventually starve as well",
-     "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next"
+     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
+     "Forests provide wood, medicines from plants, oxygen, and shelter for wildlife — plus they conserve soil and water",
+     "Fix leaking taps and collect rainwater for gardens (rainwater harvesting); also, turning the tap off while brushing or reusing wash-water for plants saves water daily"
     ],
-    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests a failure to understand the interconnected nature of biological systems.",
-    "id": "gen_c6_bio_ch09_q12",
-    "nodeId": "c6_biology_ch09_001",
+    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests big engineering only — small habits conserve too.",
+    "id": "gen_c6_bio_ch08_q6",
+    "nodeId": "c6_biology_ch08_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Why does the body need accessory organs like the liver and pancreas if we already have a long muscular tube?",
-    "answer": "The tube holds the food, but the accessory organs provide essential juices that chemically break the food down",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
     "options": [
-     "Cooking at high heat can destroy sensitive nutrients like Vitamin C",
-     "Cells are too far from the lungs for oxygen to move through the body on its own; it requires the circulatory system to carry it",
-     "The tube holds the food, but the accessory organs provide essential juices that chemically break the food down"
+     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
+     "Air is a mixture of gases — mainly nitrogen and oxygen with small amounts of carbon dioxide and others. Living things need oxygen for breathing (respiration)",
+     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved"
     ],
-    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks the tube alone handles digestion, ignoring the chemical help needed for absorption.",
-    "id": "gen_c6_bio_ch09_q13",
-    "nodeId": "c6_biology_ch09_001",
+    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be",
+    "id": "gen_c6_bio_ch08_q7",
+    "nodeId": "c6_biology_ch08_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Design a simple \"Food Sort\" experiment: How would you determine if a local lizard is an omnivore or a carnivore?",
-    "answer": "Observe the lizard for several days, noting if it eats plant matter (like flower petals or fruit) alongside insects",
+    "question": "Why should we save water even though the Earth looks blue and full of it?",
+    "answer": "Most of Earth's water is salty ocean water that we cannot drink or use for farming — fresh usable water is only a small fraction, so wasting it can create real scarcity",
     "options": [
-     "No, breathing is the mechanical process of moving air, while cellular respiration is the chemical process inside cells that releases energy from food",
-     "The energy available for the fox decreases. This is because the rabbit has less food, leading to fewer rabbits, which reduces the energy source for the fox",
-     "Observe the lizard for several days, noting if it eats plant matter (like flower petals or fruit) alongside insects"
+     "Plants take in carbon dioxide for photosynthesis and release oxygen; animals breathe in oxygen and breathe out carbon dioxide — each supplies what the other needs",
+     "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out",
+     "Most of Earth's water is salty ocean water that we cannot drink or use for farming — fresh usable water is only a small fraction, so wasting it can create real scarcity"
     ],
-    "hint": "Straight from the 'Animals' slide -- match the key terms.",
-    "misconception": "A poor answer would suggest guessing without observation.",
-    "id": "gen_c6_bio_ch09_q14",
-    "nodeId": "c6_biology_ch09_002",
+    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "misconception": "A wrong answer assumes the blue on the globe is drinkable — it is almost all salt water.",
+    "id": "gen_c6_bio_ch08_q8",
+    "nodeId": "c6_biology_ch08_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Is a human being who eats both vegetables and eggs an omnivore? Explain your reasoning.",
-    "answer": "Yes, because they consume both plant-based foods (vegetables) and animal-derived foods (eggs)",
+    "question": "How do forests protect soil and water?",
+    "answer": "Tree roots hold soil together so rain cannot wash it away, and forests soak up rainwater like a sponge so it seeps down and refills groundwater",
     "options": [
-     "The body uses rhythmic muscular contractions (peristalsis) to push food and liquid down the oesophagus",
-     "The stomach will have to work much harder to break down the large chunks, which might lead to incomplete digestion or discomfort",
-     "Yes, because they consume both plant-based foods (vegetables) and animal-derived foods (eggs)"
+     "Plants take in carbon dioxide for photosynthesis and release oxygen; animals breathe in oxygen and breathe out carbon dioxide — each supplies what the other needs",
+     "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out",
+     "Tree roots hold soil together so rain cannot wash it away, and forests soak up rainwater like a sponge so it seeps down and refills groundwater"
     ],
-    "hint": "Straight from the 'Animals' slide -- match the key terms.",
-    "misconception": "If a student says \"no,\" they likely define omnivores too narrowly, perhaps only thinking of wild animals like bears.",
-    "id": "gen_c6_bio_ch09_q15",
-    "nodeId": "c6_biology_ch09_002",
+    "hint": "Straight from the 'Forests' slide -- match the key terms.",
+    "misconception": "A wrong answer says only \"trees give shade\" — missing the soil-holding and water-saving roles.",
+    "id": "gen_c6_bio_ch08_q9",
+    "nodeId": "c6_biology_ch08_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare the role of the mouth and the stomach in digestion. How are their functions different?",
-    "answer": "The mouth performs mechanical grinding and starts sugar breakdown, while the stomach acts as a mixing chamber where food is churned with acid",
+    "question": "Name two ways to conserve fossil fuels.",
+    "answer": "Use less electricity and petrol (walk, carpool, switch off lights) and use cleaner fuels or renewable energy like solar and wind where possible",
     "options": [
-     "Vessels are like roads that connect the source (lungs) to the destination (cells)",
-     "The chest moves faster and deeper after a race because the body needs more oxygen to produce energy quickly",
-     "The mouth performs mechanical grinding and starts sugar breakdown, while the stomach acts as a mixing chamber where food is churned with acid"
+     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
+     "Fossil fuels are fuels formed from the buried remains of ancient plants and animals over millions of years — coal, petroleum, and natural gas",
+     "Use less electricity and petrol (walk, carpool, switch off lights) and use cleaner fuels or renewable energy like solar and wind where possible"
     ],
-    "hint": "Straight from the 'Digestion' slide -- match the key terms.",
-    "misconception": "A student who says they both do the same thing fails to recognize the progression of the process.",
-    "id": "gen_c6_bio_ch09_q16",
-    "nodeId": "c6_biology_ch09_003",
+    "hint": "Straight from the 'Forests' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests only \"stop all fuel\" — conservation means wiser use, not zero use.",
+    "id": "gen_c6_bio_ch08_q10",
+    "nodeId": "c6_biology_ch08_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Evaluate the statement: \"Digestion is only about making food small enough to swallow.\" Why is this incomplete?",
-    "answer": "This is incomplete because digestion also involves chemical transformation into absorbable units, not just physical size reduction",
+    "question": "What are fossil fuels? Name them.",
+    "answer": "Fossil fuels are fuels formed from the buried remains of ancient plants and animals over millions of years — coal, petroleum, and natural gas",
     "options": [
-     "The tube holds the food, but the accessory organs provide essential juices that chemically break the food down",
-     "Grinding increases the surface area of the food, allowing saliva and digestive juices to work more efficiently",
-     "This is incomplete because digestion also involves chemical transformation into absorbable units, not just physical size reduction"
+     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
+     "Use less electricity and petrol (walk, carpool, switch off lights) and use cleaner fuels or renewable energy like solar and wind where possible",
+     "Fossil fuels are fuels formed from the buried remains of ancient plants and animals over millions of years — coal, petroleum, and natural gas"
     ],
-    "hint": "Straight from the 'Digestion' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: This is incomplete because digestion also involves chemical transformation into absorbable units, not just physical",
-    "id": "gen_c6_bio_ch09_q17",
-    "nodeId": "c6_biology_ch09_003",
+    "hint": "Straight from the 'Forests' slide -- match the key terms.",
+    "misconception": "A wrong answer calls them \"minerals we dig up\" — missing that they are ancient life turned to fuel.",
+    "id": "gen_c6_bio_ch08_q11",
+    "nodeId": "c6_biology_ch08_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If you were to drink a glass of water, how does the body move it down to the stomach even if you were standing on your head?",
-    "answer": "The body uses rhythmic muscular contractions (peristalsis) to push food and liquid down the oesophagus",
+    "question": "What is soil, and why is it important?",
+    "answer": "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it",
     "options": [
-     "The stomach will have to work much harder to break down the large chunks, which might lead to incomplete digestion or discomfort",
-     "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next",
-     "The body uses rhythmic muscular contractions (peristalsis) to push food and liquid down the oesophagus"
+     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
+     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
+     "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it"
     ],
-    "hint": "Straight from the 'Digestion' slide -- match the key terms.",
-    "misconception": "A student who thinks it just \"falls\" due to gravity ignores the muscular nature of the digestive tract.",
-    "id": "gen_c6_bio_ch09_q18",
-    "nodeId": "c6_biology_ch09_003",
+    "hint": "Straight from the 'Forests' slide -- match the key terms.",
+    "misconception": "A wrong answer calls soil \"just dirt\" — it is the living base of farming and forests.",
+    "id": "gen_c6_bio_ch08_q12",
+    "nodeId": "c6_biology_ch08_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
+    "options": [
+     "Forests provide wood, medicines from plants, oxygen, and shelter for wildlife — plus they conserve soil and water",
+     "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it",
+     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter"
+    ],
+    "hint": "Straight from the 'Forests' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter, and describe",
+    "id": "gen_c6_bio_ch08_q13",
+    "nodeId": "c6_biology_ch08_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why are fossil fuels called non-renewable resources?",
+    "answer": "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out",
+    "options": [
+     "Most of Earth's water is salty ocean water that we cannot drink or use for farming — fresh usable water is only a small fraction, so wasting it can create real scarcity",
+     "Tree roots hold soil together so rain cannot wash it away, and forests soak up rainwater like a sponge so it seeps down and refills groundwater",
+     "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out"
+    ],
+    "hint": "Straight from the 'Forests' slide -- match the key terms.",
+    "misconception": "A wrong answer thinks we can \"make more\" — the timescale is the problem.",
+    "id": "gen_c6_bio_ch08_q14",
+    "nodeId": "c6_biology_ch08_002",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about digestive system?",
+    "What surprised you about air?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Digestive System mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
-  "sampleChallenges": 8
- },
- {
-  "id": "gen_c6_bio_ch10",
-  "title": "Plant Growth",
-  "subtitle": "Biology · Chapter 10",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "biology",
-  "topic": "Plant Growth",
-  "chapters": [
-   "Biology Ch10: Plant Growth"
-  ],
-  "nodeIds": [
-   "c6_biology_ch10_001",
-   "c6_biology_ch10_002",
-   "c6_biology_ch10_003",
-   "c6_biology_ch10_004",
-   "c6_biology_ch10_005",
-   "c6_biology_ch10_006",
-   "c6_biology_ch10_007"
-  ],
-  "emoji": "🌿",
-  "theme": {
-   "bg": "from-orange-100 to-red-200",
-   "accent": "orange",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "In one line -- what does Plant Growth actually explain?",
-   "options": [
-    "Why things around us behave the way they do",
-    "Nothing -- it is just a name",
-    "Only how to score marks"
-   ],
-   "answer": "Why things around us behave the way they do",
-   "hook": "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a"
-  },
-  "teaching": [
-   {
-    "title": "Plant Growth",
-    "text": "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a shoot upward to reach light.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Photosynthesis",
-    "text": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce sugar (food) and oxygen. It occurs primarily in the leaves, where a green pigment called chlorophyll captures the energy from sunlight.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Transport In Plants",
-    "text": "Transport in plants is the process by which water and minerals are moved from roots to leaves, and food (sugars) is moved from leaves to all other plant parts through specialized conducting tissues.",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Plant Respiration",
-    "text": "Plant respiration is the process by which all living plant cells take in oxygen and release carbon dioxide to break down food and release energy required for survival.",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Plant Sexual Reproduction",
-    "text": "Plant sexual reproduction is the process in flowering plants where male and female parts of a flower interact to produce seeds, which then grow into new plants.",
-    "emoji": "🌿",
-    "bgColor": "from-violet-400 to-purple-500"
-   },
-   {
-    "title": "Seed Germination",
-    "text": "Seed germination is the process by which a dormant seed absorbs water, softens its outer coat, and activates its internal stored food to begin growing into a seedling.",
-    "emoji": "🌿",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Plant Response",
-    "text": "Plant response is the process by which a plant adjusts its growth direction or physical state in reaction to environmental stimuli like light, gravity, or touch to improve its chances of survival.",
-    "emoji": "🌿",
-    "bgColor": "from-sky-400 to-cyan-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "What are the three main things a seed needs to begin the process of growing into a plant?",
-    "answer": "A seed needs moisture, warmth, and air",
-    "options": [
-     "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant",
-     "The shoot grows toward the light source",
-     "A seed needs moisture, warmth, and air"
-    ],
-    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
-    "misconception": "Answering only \"water\" reveals the student ignores the importance of temperature and oxygen, which are critical for the seed to \"breathe\" and activate its growth enzymes.",
-    "id": "gen_c6_bio_ch10_q1",
-    "nodeId": "c6_biology_ch10_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered how a tiny, dry chickpea in your kitchen cupboard can turn into a leafy green plant if left in a wet cloth?",
-     "It begins when a seed \"wakes up\" because it senses moisture, warmth, and air.",
-     "First, the seed absorbs water and swells up like a sponge, causing its hard outer shell to crack open.",
-     "Then, the tiny root pushes down into the soil to find water, while a shoot grows upward toward the light."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What are the three main things a plant needs to carry out the process of photosynthesis?",
-    "answer": "A plant needs sunlight, water, and carbon dioxide",
-    "options": [
-     "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant",
-     "The shoot grows toward the light source",
-     "A plant needs sunlight, water, and carbon dioxide"
-    ],
-    "hint": "Straight from the 'Photosynthesis' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"soil\" or \"fertilizer\") reveals a misunderstanding that plants \"eat\" nutrients like humans, rather than synthesizing their own food from environmental elements.",
-    "id": "gen_c6_bio_ch10_q2",
-    "nodeId": "c6_biology_ch10_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered why you need to eat lunch to have energy to play, but the tree in your garden just stands there without ever eating a meal?",
-     "Plants are like tiny food factories that don't need to hunt for food; they build it themselves!",
-     "To start, imagine a leaf as a solar panel—it catches sunlight using a green pigment called chlorophyll.",
-     "Next, the plant pulls water up from the soil through its roots and takes in carbon dioxide from the air through tiny pores."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the main function of the specialized conducting tissues found in a plant's stem?",
-    "answer": "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant",
-    "options": [
-     "A seed needs moisture, warmth, and air",
-     "The three conditions are water, oxygen, and a suitable temperature",
-     "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant"
-    ],
-    "hint": "Straight from the 'Transport in plants' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks these tissues only provide physical support, ignoring their essential role in moving nutrients.",
-    "id": "gen_c6_bio_ch10_q3",
-    "nodeId": "c6_biology_ch10_003",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered how a tall tree gets water to its highest leaves, even though it doesn't have a pump like a house?",
-     "Start by thinking of a plant as a living building; the roots are the foundation, and the leaves are the kitchen.",
-     "To begin learning, visualize the stem not just as a stick, but as a bundle of tiny straws or pipelines running from bottom to top.",
-     "One set of \"straws\" carries water and minerals up from the soil, while another set carries the sugar \"meals\" made in the leaves down to the roots and"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Do plants only respire when there is sunlight available?",
-    "answer": "No, plants respire all the time, both day and night. A \"Yes\" answer reveals the common misunderstanding that respiration is part of photosynthesis",
-    "options": [
-     "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)",
-     "No, it is incorrect; plants \"capture\" or \"absorb\" sunlight using their green pigment, chlorophyll, to trigger a reaction",
-     "No, plants respire all the time, both day and night. A \"Yes\" answer reveals the common misunderstanding that respiration is part of photosynthesis"
-    ],
-    "hint": "Straight from the 'Plant respiration' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, plants respire all the time, both day and night. A \"Yes\" answer reveals the common misunderstanding that",
-    "id": "gen_c6_bio_ch10_q4",
-    "nodeId": "c6_biology_ch10_004",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered if a tree \"breathes\" while you are sleeping at night?",
-     "It is easy to think plants only care about sunlight, but just like you, every tiny cell in a plant needs energy to stay alive, which they get through",
-     "To start, imagine the plant as a collection of thousands of tiny living rooms; each room (cell) needs to \"breathe\" in oxygen to release energy from",
-     "Since plants don't have a nose or lungs, they use tiny doors called pores on their leaves, small gaps in their stems, and the surface of their roots"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Why do you think flowers have brightly coloured petals if their main job is to produce seeds?",
-    "answer": "Bright petals attract pollinators like butterflies and bees, which help carry pollen between flowers",
-    "options": [
-     "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)",
-     "The root acts as an anchor and a water-seeker, while the shoot acts as a light-seeker",
-     "Bright petals attract pollinators like butterflies and bees, which help carry pollen between flowers"
-    ],
-    "hint": "Straight from the 'Plant sexual reproduction' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks petals are just for decoration, failing to see the link between the plant's appearance and its survival strategy.",
-    "id": "gen_c6_bio_ch10_q5",
-    "nodeId": "c6_biology_ch10_005",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered why a bright, colourful flower eventually disappears and a small fruit or seed pod appears in its place?",
-     "To understand this, imagine the flower as a factory: the petals are the outer walls that attract visitors (pollinators like bees), while the hidden",
-     "Start by looking at a simple flower like a Hibiscus; notice the fine, dust-like powder on the tips of the stalks—this is the \"male\" part.",
-     "Deep inside, protected by these male parts, lies the \"female\" part which acts as the cradle for future seeds."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What are the three essential environmental conditions required for a seed to begin the process of germination?",
-    "answer": "The three conditions are water, oxygen, and a suitable temperature",
-    "options": [
-     "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant",
-     "The shoot grows toward the light source",
-     "The three conditions are water, oxygen, and a suitable temperature"
-    ],
-    "hint": "Straight from the 'Seed germination' slide -- match the key terms.",
-    "misconception": "A wrong answer (like suggesting \"soil\" or \"fertilizer\") indicates the student is confusing germination with later plant growth requirements rather than the specific triggers for the initial start of growth.",
-    "id": "gen_c6_bio_ch10_q6",
-    "nodeId": "c6_biology_ch10_006",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever wondered why a dry bean from your kitchen cupboard doesn't grow into a plant, even though it looks perfectly fine?",
-     "To start the \"magic\" of life, a seed needs a wake-up call.",
-     "First, it needs water to act as a trigger—think of it like a sponge that swells up, breaking its hard shell.",
-     "Once the coat is softened and oxygen enters, the tiny plant inside can finally use its stored food to push out a sprout."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the general direction in which a plant shoot grows compared to the direction of a light source?",
-    "answer": "The shoot grows toward the light source",
-    "options": [
-     "A seed needs moisture, warmth, and air",
-     "The three conditions are water, oxygen, and a suitable temperature",
-     "The shoot grows toward the light source"
-    ],
-    "hint": "Straight from the 'Plant response' slide -- match the key terms.",
-    "misconception": "A wrong answer here suggests the student confuses the root's behavior (growing away from light or into the soil) with the shoot's behavior.",
-    "id": "gen_c6_bio_ch10_q7",
-    "nodeId": "c6_biology_ch10_007",
-    "difficulty": "standard",
-    "workedExample": [
-     "Have you ever noticed a houseplant sitting on a windowsill leaning toward the glass?",
-     "It’s not just reaching for the view; the plant is actually \"sensing\" the light to maximize its food-making process.",
-     "To understand this, imagine you are a plant: if you were buried in the dark, you would grow upward to find the sun for energy (light response), while",
-     "Think of these movements as the plant’s way of \"navigating\" its world without moving its feet."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "A seed is planted in a dark, dry, and cold room. Why will it fail to grow?",
-    "answer": "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)",
-    "options": [
-     "Take two identical sets of dry seeds: keep one set dry and spray the other set with water daily, keeping both in the same room temperature",
-     "No, because it is missing the essential trigger of water, which is required to swell the seed and soften the coat",
-     "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)"
-    ],
-    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
-    "misconception": "If a student says \"because it is dark,\" they are missing the point that germination happens underground in the dark; the absence of light stops the *later* stage of leaf development, but water and warmth are needed for the initial sprout.",
-    "id": "gen_c6_bio_ch10_q8",
-    "nodeId": "c6_biology_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the job of the root and the shoot during the early days of a seedling's life.",
-    "answer": "The root acts as an anchor and a water-seeker, while the shoot acts as a light-seeker",
-    "options": [
-     "Both are directed growth responses (tropisms) that place the plant parts in the best position for survival—shoots get light for energy, and roots get water/anchorage from the soil",
-     "Humans must consume other living things (plants or animals) to get energy, while plants use photosynthesis to manufacture their own energy-rich sugar",
-     "The root acts as an anchor and a water-seeker, while the shoot acts as a light-seeker"
-    ],
-    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
-    "misconception": "If a student confuses these, they have not internalized the basic structural function of plant survival.",
-    "id": "gen_c6_bio_ch10_q9",
-    "nodeId": "c6_biology_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design an experiment to prove that a seed needs water to grow. What would you do?",
-    "answer": "Place two sets of seeds in identical containers with soil and warmth. Provide water to the first set and none to the second",
-    "options": [
-     "No, it is inaccurate because even though a plant is stationary, there is constant internal movement of water, minerals, and sugars through its specialized tissues",
-     "The flower will likely fail to produce seeds because the male \"dust\" (pollen) is required for the female part to create a seed",
-     "Place two sets of seeds in identical containers with soil and warmth. Provide water to the first set and none to the second"
-    ],
-    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
-    "misconception": "If the student fails to keep the other conditions (warmth/light) the same, they do not understand the concept of a \"controlled experiment.\"",
-    "id": "gen_c6_bio_ch10_q10",
-    "nodeId": "c6_biology_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you plant a seed upside down, in which direction will the root grow? Why?",
-    "answer": "The root will still grow downward. This shows the student understands that plants have a natural \"direction\" for growth (geotropism)",
-    "options": [
-     "Yes, the plant will release carbon dioxide. Even without light, the plant's cells must continue to break down food to release energy for survival",
-     "No, because it is missing the essential trigger of water, which is required to swell the seed and soften the coat",
-     "The root will still grow downward. This shows the student understands that plants have a natural \"direction\" for growth (geotropism)"
-    ],
-    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests they think the root just follows the seed's orientation.",
-    "id": "gen_c6_bio_ch10_q11",
-    "nodeId": "c6_biology_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is a seed \"alive\" while it is sitting in a bag of grains? Justify your answer.",
-    "answer": "Yes, it is \"dormant\" or alive but inactive. It contains a miniature plant and stored food, waiting for the right conditions to start the metabolic process of growth",
-    "options": [
-     "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)",
-     "A good answer would use a bundle of plastic straws (representing tissues) inside a cardboard tube (representing the stem)",
-     "Yes, it is \"dormant\" or alive but inactive. It contains a miniature plant and stored food, waiting for the right conditions to start the metabolic process of growth"
-    ],
-    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks growth is the only sign of life.",
-    "id": "gen_c6_bio_ch10_q12",
-    "nodeId": "c6_biology_ch10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A gardener wants to help a plant grow faster. If they provide extra water and plenty of carbon dioxide but keep the plant in a dark shed, will the plant make more food? Why or why not?",
-    "answer": "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process",
-    "options": [
-     "Yes, the plant will release carbon dioxide. Even without light, the plant's cells must continue to break down food to release energy for survival",
-     "The leaves will wilt or stop growing because they will not receive the water and minerals required to function",
-     "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process"
-    ],
-    "hint": "Straight from the 'Photosynthesis' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process.",
-    "id": "gen_c6_bio_ch10_q13",
-    "nodeId": "c6_biology_ch10_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare a plant to a human in terms of how they obtain energy.",
-    "answer": "Humans must consume other living things (plants or animals) to get energy, while plants use photosynthesis to manufacture their own energy-rich sugar",
-    "options": [
-     "The seed swells up and its hard outer coat softens. An answer focusing on the \"sprout\" alone ignores the crucial first step of moisture absorption that makes the shell pliable",
-     "Both are directed growth responses (tropisms) that place the plant parts in the best position for survival—shoots get light for energy, and roots get water/anchorage from the soil",
-     "Humans must consume other living things (plants or animals) to get energy, while plants use photosynthesis to manufacture their own energy-rich sugar"
-    ],
-    "hint": "Straight from the 'Photosynthesis' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Humans must consume other living things (plants or animals) to get energy, while plants use photosynthesis to",
-    "id": "gen_c6_bio_ch10_q14",
-    "nodeId": "c6_biology_ch10_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment using a potted plant to show that light is necessary for plant survival.",
-    "answer": "The student should suggest placing one plant in the sun and one in a dark cupboard for a week, then comparing their health",
-    "options": [
-     "No, it is incorrect; plants \"capture\" or \"absorb\" sunlight using their green pigment, chlorophyll, to trigger a reaction",
-     "No, it is inaccurate because even though a plant is stationary, there is constant internal movement of water, minerals, and sugars through its specialized tissues",
-     "The student should suggest placing one plant in the sun and one in a dark cupboard for a week, then comparing their health"
-    ],
-    "hint": "Straight from the 'Photosynthesis' slide -- match the key terms.",
-    "misconception": "A poor answer focuses on things irrelevant to photosynthesis, like the pot's color or the plant's height, rather than the input of light.",
-    "id": "gen_c6_bio_ch10_q15",
-    "nodeId": "c6_biology_ch10_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a plant is kept in a completely dark room for a long time, why does it struggle to survive?",
-    "answer": "The plant cannot perform photosynthesis because it lacks the sunlight needed to provide the energy for the chemical reaction",
-    "options": [
-     "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process",
-     "No, it does not \"see\" or \"think\" because it lacks a nervous system; it is a chemical and growth-based response to environmental cues",
-     "The plant cannot perform photosynthesis because it lacks the sunlight needed to provide the energy for the chemical reaction"
-    ],
-    "hint": "Straight from the 'Photosynthesis' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks the plant is merely \"thirsty\" or \"needs space,\" missing the essential role of light energy.",
-    "id": "gen_c6_bio_ch10_q16",
-    "nodeId": "c6_biology_ch10_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it correct to say that plants \"breathe in\" sunlight? Defend your answer.",
-    "answer": "No, it is incorrect; plants \"capture\" or \"absorb\" sunlight using their green pigment, chlorophyll, to trigger a reaction",
-    "options": [
-     "A good answer would use a bundle of plastic straws (representing tissues) inside a cardboard tube (representing the stem)",
-     "The roots cannot make their own food because they are underground and lack sunlight; therefore, they rely on the sugar transported from the leaves",
-     "No, it is incorrect; plants \"capture\" or \"absorb\" sunlight using their green pigment, chlorophyll, to trigger a reaction"
-    ],
-    "hint": "Straight from the 'Photosynthesis' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, it is incorrect; plants \"capture\" or \"absorb\" sunlight using their green pigment, chlorophyll, to trigger a",
-    "id": "gen_c6_bio_ch10_q17",
-    "nodeId": "c6_biology_ch10_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the transport of water/minerals with the transport of sugars in a plant regarding their direction.",
-    "answer": "Water and minerals move in one direction (upward from roots), while sugars move to all parts of the plant, including downward to the roots",
-    "options": [
-     "Leaves exchange gases primarily through specialized pores (stomata), while roots exchange gases through their surface skin via air pockets in the soil",
-     "The green parts protect the flower while it is a developing bud, while the central organs perform the actual work of reproduction",
-     "Water and minerals move in one direction (upward from roots), while sugars move to all parts of the plant, including downward to the roots"
-    ],
-    "hint": "Straight from the 'Transport in plants' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student has not grasped the \"two-way\" nature of plant internal traffic.",
-    "id": "gen_c6_bio_ch10_q18",
-    "nodeId": "c6_biology_ch10_003",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about plant growth?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Plant Growth mastered! 🎯",
+  "successLine": "Air mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

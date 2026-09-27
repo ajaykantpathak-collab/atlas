@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch09_p3: SimDef = {
     id: 'v3_c12_hin_a_ch09_p3',
-    title: 'Hkh"e lkguh · Part 3/3',
+    title: 'घनानंद · Part 3/3',
     subtitle: 'Cursed by his guru — he spent a life signing the guru\'s name',
-    classLevel: 12, subject: 'hin_a', topic: 'Hkh"e lkguh · Part 3/3',
+    classLevel: 12, subject: 'hin_a', topic: 'घनानंद · Part 3/3',
     chapters: ['c12_hin_a_ch09'],
     nodeIds: ['c12_hin_a_cbse_09_013', 'c12_hin_a_cbse_09_014', 'c12_hin_a_cbse_09_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -14,34 +14,20 @@ export const c12_hin_a_ch09_p3: SimDef = {
     scenario: { role: 'Braj Bhakti reader', intro: 'Court and guru both cast him out; he answered with a lifetime of poems that begin in longing and end in defiance.', goal: 'Read Ghananand\'s poems as guru-bhakti\'s two registers — virah\'s vigil and the public defence.' },
     discovery: {
         question: 'A court poet is exiled by his king and cursed by his own guru — then spends a lifetime signing the guru\'s name into his verses. What is that signature?',
-        options: ['Devotion beyond betrayal — even expelled by both court and guru, he claims the guru as his; guru-bhakti as identity that outlasts rejection', 'Pride and spite', 'A pen name for style', 'An apology'],
+        options: ['Devotion beyond betrayal — even expelled by both court and guru, he claims the guru as his; guru-bhakti as identity that outlasts rejection', 'Pride disguised — signing the guru\'s name asserts his verses outrank the curse', 'A pen-name convention — court poets always published under a guru\'s seal', 'A public apology — the signature is the exile\'s lifelong plea for forgiveness'],
         answer: 'Devotion beyond betrayal — even expelled by both court and guru, he claims the guru as his; guru-bhakti as identity that outlasts rejection',
         hook: 'The two poems are one argument in two moods — private virah counting sleepless nights, then a public challenge daring the world to fault the guru. And the folk words aren\'t weakness: refined Braj deliberately fused with raw speech is craft, not compromise.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation in Hindi literature is the systematic process of examining a text\'s deeper layers — themes, symbols, structure, language choices, and socio-cultural.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'घनानंद — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश या गद्यांश के शब्दों के शाब्दिक अर्थ को पार करके लेखक के अंतर्निहित भाव, संदेश, संदर्भ और उद्देश्य को समझा और स्पष्ट किया जाता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_09_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Follow the mendicant\'s nights: feel repetition stretch time in the longing poem, then stand in the marketplace challenge — and weigh a devotion that survives its own rejection.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_09_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE board exam and see a 5-mark question: "Kabir\'s poetry uses simple metaphors to convey profound spiritual truths.',
-            decisions: [{ prompt: 'What is the primary difference between *literal comprehension* (understanding what happens in the poem) and *critical interpretation*.', options: [
-                { text: 'Literal comprehension states: "The poet says he was a weaver, his guru\'s name was', outcome: 'Literal comprehension states: "The poet says he was a weaver, his guru\'s name was Ramanand, and.' },
-                { text: 'Critical interpretation explains', outcome: 'Not quite — Students believe "critical analysis" means *finding hidden symbols* — so they invent far-fetched.', reveals: 'critical-analysis-means-finding-hidden' },
-                { text: 'knowledge', outcome: 'Not quite — Students believe "critical analysis" means *finding hidden symbols* — so they invent far-fetched.', reveals: 'critical-analysis-means-finding-hidden' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_09_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the board exam and see this question: "कुकुआन के दोहों में विरह-वेदना को प्रकृति के माध्यम से कैसे व्यक्त किया गया है?',
-            decisions: [{ prompt: 'What is the PEEL structure for writing literature answers, and what does each letter stand for in the context of poetry analysis?', options: [
-                { text: 'PEEL stands for Point (main argument about the poem), Evidence (specific line/word from', outcome: 'PEEL stands for Point (main argument about the poem), Evidence (specific line/word from the text).' },
-                { text: 'Point, Example, Explain, Conclusion', outcome: 'Not quite — Students believe "writing skills for poetry" means memorizing model answers for each question.', reveals: 'writing-skills-for-poetry-means' },
-                { text: 'specifically demands thematic connection, not just summary', outcome: 'Not quite — Students believe "writing skills for poetry" means memorizing model answers for each question.', reveals: 'writing-skills-for-poetry-means' }
-            ] }] } },
+        labels: ['घनानंद — आशय-स्पष्टीकरण और', 'घनानंद — परीक्षा-उत्तर लेखन', 'घनानंद — वाचन-पाठ और'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_09_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your team\'s short play about waiting for exam results ends on the protagonist\'s whispered plea, still unanswered. The director wants to add a closing scene where the result actually arrives \'so the climax is real.\'',
             decisions: [{ prompt: 'What does this chapter\'s treatment of unresolved longing say?', options: [
@@ -56,66 +42,43 @@ export const c12_hin_a_ch09_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation in Hindi literature is the.',
-          hint: 'If stuck on metaphor function (Diagnostic Q2), revisit c12_hin_a_cbse_09_008 "Imagery and.',
-          misconception: 'Students believe "critical analysis" means *finding hidden symbols* — so they invent far-fetched readings (e.g.',
+          question: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश या गद्यांश के शब्दों के.',
+          hint: 'यदि छात्र आशय स्पष्टीकरण में कठिनाई महसूस कर रहा है, तो उसे पद्यांश-वार भावार्थ.',
+          misconception: 'छात्र अक्सर आशय-स्पष्टीकरण को केवल पद्यांश के कठिन शब्दों के अर्थ लिखने या एक-एक वाक्य का शब्दार्थ अनुवाद करने तक सीमित.',
           parts: [
-                { id: 'a', prompt: 'Apply the "Tension → Craft → Effect → Context → Synthesis" method to analyze the second poem\'s opening: "vkukdkuh vkjlh fugkfjcks djkSxs dkSykSa \\ dgk eks pfdr.', answer: '**Tension:** Ritual performance (vkukdkuh vkjlh',
-                  options: ['**Tension:** Ritual performance (vkukdkuh vkjlh', 'how the poem does what it says', 'critical analysis', 'lanslks = the five elements'],
-                  hint: 'If stuck on metaphor function (Diagnostic Q2), revisit c12_hin_a_cbse_09_008 "Imagery and Metaphor".',
-                  misconception: 'Students believe "critical analysis" means *finding hidden symbols* — so they invent far-fetched readings (e.g., "lanslks = the five.' },
-                { id: 'b', prompt: 'Compare the role of "sound patterning" (anunāśik, alliteration, rhythm) in the two prescribed poems.', answer: 'Poem 1: "cgqr fnuku dks vofèk vklikl ijs / [kjs vjcjfu Hkjs gSa mfB tku dks"',
-                  options: ['Poem 1: "cgqr fnuku dks vofèk vklikl ijs / [kjs vjcjfu Hkjs gSa mfB tku dks"', 'alliteration present', 'critical analysis', 'lanslks = the five elements'],
-                  hint: 'If stuck on metaphor function (Diagnostic Q2), revisit c12_hin_a_cbse_09_008 "Imagery and Metaphor".',
-                  misconception: 'Students believe "critical analysis" means *finding hidden symbols* — so they invent far-fetched readings (e.g., "lanslks = the five.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश या गद्यांश के शब्दों के शाब्दिक अर्थ',
+                  options: ['आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश या गद्यांश के शब्दों के शाब्दिक अर्थ', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
+                  hint: 'यदि छात्र आशय स्पष्टीकरण में कठिनाई महसूस कर रहा है, तो उसे पद्यांश-वार भावार्थ.',
+                  misconception: 'छात्र अक्सर आशय-स्पष्टीकरण को केवल पद्यांश के कठिन शब्दों के अर्थ लिखने या एक-एक वाक्य का शब्दार्थ अनुवाद करने तक सीमित मानते हैं, जैसे कि.' }
           ],
-            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['**Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and c12_hin_a_cbse_09_009 (Irony/Symbolism)** — re-do the "metaphor.', '**Revisit c11_hin_ar_cbse_01_013 / 02_013 / 09_013 (Class 11 Critical Thinking)** — practice the 5-step method on.', '**Diagnostic re-test:** Take Diagnostic Questions 2, 3, 4 again after 48 hours.', 'If still scoring <80%, schedule 1:1 with teacher for "think-aloud" modeling of Poem 2 analysis.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "critical analysis" means *finding hidden symbols* — so they invent far-fetched readings (e.g.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this student claim: "Kabir\'s poems are simple village songs — they don\'t need critical analysis because their meaning is obvious." Defend or refute.', answer: 'Refute',
-                  options: ['Refute', 'simplicity fallacy', 'evaluate', 'critical analysis'],
-                  hint: 'If stuck on metaphor function (Diagnostic Q2), revisit c12_hin_a_cbse_09_008 "Imagery and Metaphor".',
-                  misconception: 'Students believe "critical analysis" means *finding hidden symbols* — so they invent far-fetched readings (e.g., "lanslks = the five.' }
-          ],
-            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['**Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and c12_hin_a_cbse_09_009 (Irony/Symbolism)** — re-do the "metaphor.', '**Revisit c11_hin_ar_cbse_01_013 / 02_013 / 09_013 (Class 11 Critical Thinking)** — practice the 5-step method on.', '**Diagnostic re-test:** Take Diagnostic Questions 2, 3, 4 again after 48 hours.', 'If still scoring <80%, schedule 1:1 with teacher for "think-aloud" modeling of Poem 2 analysis.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक पद्यांश लें (जैसे \'घनानंद\' का पहला पद्यांश) और उससे पहले केवल शब्दार्थ लिखने के बजाय, उनसे पूछिए.', 'कौन से शब्द या चित्र इस भावना को बनाते हैं?" फिर उन्हें मार्गदर्शन कीजिए कि वे भावना की पहचान करें, समर्थन करने वाले.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_014', difficulty: 'standard',
-          question: 'Writing Skills based on Chapter 9 (कुकुआन) refers to the ability to compose.',
-          hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
-          misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.',
+          question: 'परीक्षा-उत्तर लेखन कौशल का अर्थ है प्रश्न की मांग को समझकर, सटीक सामग्री चुनकर.',
+          hint: 'यदि छात्र PEEL संरचना में फंस रहा है, तो उसे पहले c12_hin_a_cbse_09_013 (आशय-स्पष्टीकरण.',
+          misconception: 'छात्र अक्सर मानते हैं कि अगर वे कविता का सही अर्थ जानते हैं, तो उत्तर लिखने का तरीका कोई फर्क नहीं पड़ता; वे लंबे.',
           parts: [
-                { id: 'a', prompt: 'A student writes: "कुकुआन के पहले दोहे में बादल बरसते हैं और मोर नाचते हैं जिससे विरहिणी को दुःख होता है।" Identify TWO specific weaknesses in this answer.', answer: 'Weakness 1: No direct textual evidence',
-                  options: ['Weakness 1: No direct textual evidence', 'writing skills for poetry', '"writing skills for poetry" means memorizing model answers for each question'],
-                  hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
-                  misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.' },
-                { id: 'b', prompt: 'Apply the PEEL structure to answer: "दूसरे दोहे में \'रात\' और \'सुबह\' के चक्र का क्या महत्व है?" Write a complete 4-sentence PEEL paragraph.', answer: 'Point: The night-dawn cycle symbolizes the endless waiting in virah',
-                  options: ['Point: The night-dawn cycle symbolizes the endless waiting in virah', 'बहु बेरि', 'writing skills for poetry', '"writing skills for poetry" means memorizing model answers for each question'],
-                  hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
-                  misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.' },
-                { id: 'c', prompt: 'Compare how the FIRST doha uses AUDITORY imagery (sound) versus the SECOND doha using VISUAL imagery (sight). Which creates a stronger sense of virah?', answer: 'First doha: Auditory',
-                  options: ['First doha: Auditory', 'Both are equal', 'writing skills for poetry', '"writing skills for poetry" means memorizing model answers for each question'],
-                  hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
-                  misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल का अर्थ है प्रश्न की मांग को समझकर, सटीक सामग्री चुनकर, उसे PEEL',
+                  options: ['परीक्षा-उत्तर लेखन कौशल का अर्थ है प्रश्न की मांग को समझकर, सटीक सामग्री चुनकर, उसे PEEL', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
+                  hint: 'यदि छात्र PEEL संरचना में फंस रहा है, तो उसे पहले c12_hin_a_cbse_09_013 (आशय-स्पष्टीकरण अभ्यास) पर.',
+                  misconception: 'छात्र अक्सर मानते हैं कि अगर वे कविता का सही अर्थ जानते हैं, तो उत्तर लिखने का तरीका कोई फर्क नहीं पड़ता; वे लंबे पैराग्राफ लिख देते हैं.' }
           ],
-            remediations: { 'writing-skills-for-poetry-means': { steps: ['Have the student pick ONE 3-mark question from the chapter\'s exercise (e.g., Q4 on poetic features).', 'Together, highlight the 3 key words in the question (e.g., "काव्यगत विशेषताएँ" = imagery, language, emotion).', 'For each key word, find ONE line from the dohas — write it verbatim.', 'For each line, complete this sentence starter: "This line uses [device] to show [effect] which connects to [theme].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमजोर उत्तर (जैसे केवल कविता का सारांश) और एक मजबूत उत्तर (PEEL संरचना में) कैसे अलग हैं। फिर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_015', difficulty: 'standard',
-          question: 'Speaking and Listening Discussion Points refer to structured oral activities.',
-          hint: 'If stuck on textual evidence retrieval: Re-read node 008 (Imagery/Metaphor) and node 009.',
-          misconception: 'Students treat "discussion points" as *topic sentences for essays* — e.g., writing "Guru is like a lamp" as a bullet.',
+          question: 'वाचन-पाठ वह प्रक्रिया है जिसमें कविता या गद्यांश को सही उच्चारण, विराम, स्वर.',
+          hint: 'यदि छात्र लय पहचान में कठिनाई महसूस कर रहा है, तो वर्ग 11 के वाचन-श्रवण मॉड्यूल.',
+          misconception: 'छात्र अक्सर मानते हैं कि कविता के वाचन में केवल उच्चारण की शुद्धता मायने रखती है, और लय, ताल या भाव पर ध्यान नहीं देते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening Discussion Points refer to structured oral activities where',
-                  options: ['Speaking and Listening Discussion Points refer to structured oral activities where', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and narrative structure in poetry refers to the organized sequence of events,', 'Setting and atmosphere in poetry refer to the time, place, physical environment, and the'],
-                  hint: 'If stuck on textual evidence retrieval: Re-read node 008 (Imagery/Metaphor) and node 009.',
-                  misconception: 'Students treat "discussion points" as *topic sentences for essays* — e.g., writing "Guru is like a lamp" as a bullet point.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ वह प्रक्रिया है जिसमें कविता या गद्यांश को सही उच्चारण, विराम, स्वर modulation',
+                  options: ['वाचन-पाठ वह प्रक्रिया है जिसमें कविता या गद्यांश को सही उच्चारण, विराम, स्वर modulation', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
+                  hint: 'यदि छात्र लय पहचान में कठिनाई महसूस कर रहा है, तो वर्ग 11 के वाचन-श्रवण मॉड्यूल.',
+                  misconception: 'छात्र अक्सर मानते हैं कि कविता के वाचन में केवल उच्चारण की शुद्धता मायने रखती है, और लय, ताल या भाव पर ध्यान नहीं देते — जैसे वे मानते हैं.' }
           ],
-            remediations: { 'students-treat-discussion-points-as': { steps: ['If a student produces essay-style bullets: (1) Have them pick one bullet and convert it into a *contestable claim*.', '(3) Record 2-minute exchanges; replay and tag each move: "Evidence offered," "Counter-claim," "Clarification sought,".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['छात्र को पहले एक सरल दोहा (जैसे संत की वाणी) देकर बोलें: "इस पंक्ति को अपने हाथ पर ताल रखकर पढ़िए — प्रत्येक ताल पर एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

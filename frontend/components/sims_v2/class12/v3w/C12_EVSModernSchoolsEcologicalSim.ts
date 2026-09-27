@@ -182,7 +182,7 @@ export const w_c12_evsmodernschoolsecologicalsim: SimDef = {
           hint: 'If unclear on determinism vs. possibilism, revisit **c12_geo_cbse_01_004** (Benda\'s story.',
           misconception: 'Students confuse **neo-determinism\'s "stop-and-go" with a simple "balance" or "compromise"** and write:.',
           parts: [
-                { id: 'a', prompt: 'Why did Griffith Taylor propose neo-determinism as a "middle path" (Madhyam Marg) between environmental determinism and possibilism?', answer: 'Correct answer: Determinism (Ratzel, Semple) saw technology as negligible',
+                { id: 'a', prompt: 'Why did Griffith Taylor propose neo-determinism as a "middle path" (Madhyam Marg) between environmental determinism and possibilism?', answer: 'Determinism (Ratzel, Semple) saw technology as negligible',
                   options: ['Correct answer: Determinism (Ratzel, Semple) saw technology as negligible', 'Taylor just compromised', 'stop-and-go'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students confuse **neo-determinism\'s "stop-and-go" with a simple "balance" or "compromise"** and write: "Neo-determinism means we should.' },
@@ -212,11 +212,11 @@ export const w_c12_evsmodernschoolsecologicalsim: SimDef = {
           hint: 'If stuck, revisit c12_geo_cbse_01_001 (definition) and c11_geo_cbse_01_005 (Class 11.',
           misconception: 'Students often confuse "fields of human geography" (Social, Cultural, Political, etc.) with "schools of thought".',
           parts: [
-                { id: 'a', prompt: 'Name the major field of human geography that studies the spatial distribution of voting patterns and electoral behaviour, and identify its sister discipline.', answer: 'Correct answer: Political Geography',
+                { id: 'a', prompt: 'Name the major field of human geography that studies the spatial distribution of voting patterns and electoral behaviour, and identify its sister discipline.', answer: 'Political Geography',
                   options: ['Correct answer: Political Geography', 'Social Geography with Sociology', 'psephology'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse "fields of human geography" (Social, Cultural, Political, etc.) with "schools of thought" (Determinism, Possibilism,.' },
-                { id: 'b', prompt: 'A student maps the locations of all primary health centres in a district and analyses their accessibility for rural populations.', answer: 'Correct answer: Major field: Medical Geography',
+                { id: 'b', prompt: 'A student maps the locations of all primary health centres in a district and analyses their accessibility for rural populations.', answer: 'Major field: Medical Geography',
                   options: ['Correct answer: Major field: Medical Geography', 'Social Geography with Sociology', 'fields of human geography'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse "fields of human geography" (Social, Cultural, Political, etc.) with "schools of thought" (Determinism, Possibilism,.' }
@@ -227,7 +227,7 @@ export const w_c12_evsmodernschoolsecologicalsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often confuse "fields of human geography" (Social, Cultural, Political, etc.) with "schools of thought".',
           parts: [
-                { id: 'a', prompt: 'Evaluate the statement: "Settlement Geography and Urban Geography are the same field because both study human habitations." Use NCERT Table 1.2 to justify your.', answer: 'Correct answer: False',
+                { id: 'a', prompt: 'Evaluate the statement: "Settlement Geography and Urban Geography are the same field because both study human habitations." Use NCERT Table 1.2 to justify your.', answer: 'False',
                   options: ['Correct answer: False', 'True, both study cities', 'fields of human geography', 'schools of thought'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often confuse "fields of human geography" (Social, Cultural, Political, etc.) with "schools of thought" (Determinism, Possibilism,.' }

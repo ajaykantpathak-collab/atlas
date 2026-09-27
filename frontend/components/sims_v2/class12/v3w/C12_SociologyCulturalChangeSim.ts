@@ -121,7 +121,7 @@ export const w_c12_sociologyculturalchangesim: SimDef = {
           hint: 'Revisit the definition and the Kumud Pawade case study in node c12_soc_cbse_09_002; focus.',
           misconception: 'Students often believe that **critiques of Sanskritisation mean the process itself does not happen or is "false."**.',
           parts: [
-                { id: 'a', prompt: 'A dominant OBC community in a region abandons its traditional bride-price system and adopts dowry after Sanskritising.', answer: 'Correct answer: The fourth critique states Sanskritisation leads to adoption of',
+                { id: 'a', prompt: 'A dominant OBC community in a region abandons its traditional bride-price system and adopts dowry after Sanskritising.', answer: 'The fourth critique states Sanskritisation leads to adoption of',
                   options: ['Correct answer: The fourth critique states Sanskritisation leads to adoption of', 'dowry is bad', 'Sanskritisation is criticised, so it is not a real process'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that **critiques of Sanskritisation mean the process itself does not happen or is "false."** They write:.' }

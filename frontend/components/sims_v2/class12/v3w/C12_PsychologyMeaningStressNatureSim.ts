@@ -80,7 +80,7 @@ export const w_c12_psychologymeaningstressnaturesim: SimDef = {
           hint: 'Revisit the "transactional model" paragraph on NCERT page 53 and practice writing.',
           misconception: 'Students consistently write: "Stress is caused by exams / parents / traffic" (i.e., stress = stressor).',
           parts: [
-                { id: 'a', prompt: 'A student says: "Eustress is good stress and distress is bad stress, so we should try to eliminate all distress and only have eustress." Using the concept of.', answer: 'Correct answer: The statement is flawed',
+                { id: 'a', prompt: 'A student says: "Eustress is good stress and distress is bad stress, so we should try to eliminate all distress and only have eustress." Using the concept of.', answer: 'The statement is flawed',
                   options: ['Correct answer: The statement is flawed', 'good/bad', 'Stressors are the stress we feel'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students consistently write: "Stress is caused by exams / parents / traffic" (i.e., stress = stressor).' },

@@ -660,66 +660,8 @@ export const c6ChemDetail: SimDef = {
     successLine: 'Corrosion understood! ⚙️', tryAgainLine: 'Block air + water to stop rust.',
 };
 
-export const c6BioAdolescence: SimDef = {
-    id: 'c6_bio_adolescence', title: 'Growing Up', subtitle: 'Adolescence & change',
-    classLevel: 6, subject: 'science', topic: 'Adolescence',
-    chapters: ['Biology Ch6: Adolescence'],
-    nodeIds: ['c6_biology_ch06_001','c6_biology_ch06_002','c6_biology_ch06_003','c6_biology_ch06_004','c6_biology_ch06_005','c6_biology_ch06_008'],
-    emoji: '🌱', theme: { bg: 'from-green-100 to-teal-200', accent: 'green', scene: 'adolescence' },
-    scenario: { role: "a growing-body expert", intro: "Adolescence is the journey from child to adult — the body changes, hormones drive it, and health matters.", goal: "Understand growing up." },
-    discovery: {
-        question: "Why do teenagers suddenly grow taller and their bodies change so fast?",
-        options: ["Hormones trigger the growth spurt", "They eat more", "It\'s random"],
-        answer: "Hormones trigger the growth spurt",
-        hook: "Hormones are chemical messengers that trigger adolescence — growth, changes, all driven by them!",
-    },
-    teaching: [
-        { title: 'Growing With Age: What Happens During', text: 'Adolescence is a transformative stage of human development occurring between childhood and adulthood, typically spanning from age eleven or twelve to nineteen,  Have you ever looked at old photos of yourself from four years ago and realized', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Physical Changes in Adolescence: Heigh', text: 'Physical changes in adolescence refer to the rapid, visible growth and transformation of the body\'s structure, including height, weight, and overall body shape, Have you ever looked at old photos of yourself from four years ago and realized', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Changes Indicating Reproductive Maturi', text: 'Reproductive maturity is the stage during adolescence when an individual\'s body develops the biological capacity to produce offspring. It is marked by specific  Have you ever noticed how your older siblings or cousins suddenly seem to chang', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Emotional and Behavioural Changes Duri', text: 'Adolescence is a transitional stage of growth between childhood and adulthood where the brain undergoes structural reorganization, leading to more intense emoti Have you ever felt like you were super happy one minute and then suddenly annoy', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Making Adolescence a Joyful Experience', text: 'Coping strategies in adolescence are healthy, proactive ways to manage the new emotional and social challenges that arise during this stage of rapid growth, pri Have you ever felt like a small problem in your day—like a disagreement with a', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'The \'Why\' Question: Hormones Behind th', text: 'Hormones are invisible chemical messengers produced by glands in the body that travel through the bloodstream to signal specific tissues to grow or change. They Have you ever wondered why your voice changes or why you suddenly start growing', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Personal Hygiene and Care During Adole', text: 'Personal hygiene during adolescence involves the regular maintenance of cleanliness to manage increased sweat and oil gland activity, which helps prevent body o Have you noticed that you feel stickier or more prone to smelling sweaty afte', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Nutrition and Exercise Needs During Ad', text: 'Adolescence is a specific stage of human growth characterized by rapid physical, emotional, and social development, necessitating increased nutrient intake and  Have you noticed how you seem to grow out of your clothes much faster than a fe', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
-    ],
-    explore: { component: GrowthTimeline, prompt: 'Watch the heart beat — raise the rate and see the ECG!' },
-    challenges: [
-        { type: 'mcq', question: 'Adolescence is the transition from:', answer: 'child to adult', options: ['baby to child', 'child to adult', 'adult to old'],
-          hint: 'Growing up!', misconception: 'Adolescence = the change from child to adult (10-19 years).',
-          workedExample: ['Child → adolescent → adult.', 'The transition.'] },
-        { type: 'mcq', question: 'Physical changes in adolescence are triggered by:', answer: 'hormones', options: ['food only', 'hormones', 'sleep'],
-          hint: 'Chemical messengers!', misconception: 'Hormones trigger the growth spurt and body changes.',
-          workedExample: ['Hormones released.', 'Trigger changes.', 'Growth spurt.'] },
-        { type: 'sort', question: 'Sort the changes:',
-          sortItems: [
-            { id: 's0', label: 'Growing taller', emoji: '📌', correctBin: 'b0' },
-            { id: 's1', label: 'Mood swings', emoji: '📌', correctBin: 'b1' },
-            { id: 's2', label: 'Voice deepening', emoji: '📌', correctBin: 'b0' }
-          ],
-          bins: [ { id: 'b0', label: 'Physical change', color: '#3b82f6' }, { id: 'b1', label: 'Emotional change', color: '#ef4444' } ],
-          hint: 'Body vs feelings!', misconception: 'Height/voice = physical; mood swings = emotional.',
-          workedExample: ['Taller, voice = physical.', 'Mood = emotional.'] },
-        { type: 'subpart', question: 'Healthy adolescence needs:',
-          parts: [
-            { id: 'a', prompt: 'For the growing body:', answer: 'good nutrition and exercise', hint: 'Fuel + movement!', misconception: 'Growing bodies need nutritious food and exercise.' },
-            { id: 'b', prompt: 'Personal hygiene is important because:', answer: 'the body is changing and needs care', hint: 'Care for change!', misconception: 'The changing body needs extra hygiene and self-care.' },
-          ],
-          hint: 'Fuel and care!', misconception: 'Nutrition + exercise + hygiene keep the adolescent body healthy.',
-          workedExample: ['Nutrition fuels growth.', 'Hygiene cares for it.'] },
-        { type: 'subpart', question: 'Apply what you learned in Growing Up:', hint: 'Work through each part step by step.', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', parts: [
-            { id: 'a', prompt: 'What is the typical age range for the stage known as adolescence?', answer: 'Adolescence generally begins around age eleven or twelve and', hint: 'Think: Growing With Age: What Happens During Teenage', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', workedExample: ['First, explain that human development is like a race where e','Ask them to look at a variety of trees in a garden—some are ','Emphasize that normal has a wide range, and their body\'s ti'] },
-            { id: 'b', prompt: 'If your friend starts their growth spurt at age eleven and you start yours at age thirteen, does this mean one', answer: 'No, it is normal because the start and end points of adolesc', hint: 'Think: Growing With Age: What Happens During Teenage', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', workedExample: ['First, explain that human development is like a race where e','Ask them to look at a variety of trees in a garden—some are ','Emphasize that normal has a wide range, and their body\'s ti'] },
-            { id: 'c', prompt: 'Why is adolescence described as a dramatic transformation rather than just getting older?', answer: 'It refers to the sharp acceleration in growth rates and sign', hint: 'Think: Growing With Age: What Happens During Teenage', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', workedExample: ['First, explain that human development is like a race where e','Ask them to look at a variety of trees in a garden—some are ','Emphasize that normal has a wide range, and their body\'s ti'] },
-            { id: 'd', prompt: 'Compare the growth you experienced as a toddler (ages 1-3) to the growth expected during adolescence. What is', answer: 'As a toddler, growth is a continuous process, whereas in ado', hint: 'Think: Growing With Age: What Happens During Teenage', misconception: 'Students often think that because they are in the same grade, they should all be at the same stage of physical', workedExample: ['First, explain that human development is like a race where e','Ask them to look at a variety of trees in a garden—some are ','Emphasize that normal has a wide range, and their body\'s ti'] }
-        ] },
-    ],
-    reflect: { prompts: ['How do hormones control growth?', 'Why does adolescence need extra nutrition?'] },
-    successLine: 'Adolescence understood! 🌱', tryAgainLine: 'Hormones drive the growth spurt.',
-};
-
 export const c6ScienceSims = [
     c6PhyCircuits, c6PhyHeat, c6PhyMotion, c6PhyLight, c6PhyEarth,
     c6ChemMaterials, c6ChemChanges, c6BioNutrition, c6BioPlants,
-    c6PhyScience, c6ChemDetail, c6BioAdolescence,
+    c6PhyScience, c6ChemDetail,
 ];

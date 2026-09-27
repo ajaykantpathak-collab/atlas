@@ -18,6 +18,26 @@ import * as PIXI from 'pixi.js';
 import { drawStar } from '../pixi-utils';
 import type { DiagramConfig, DiagramType } from '../types';
 
+/**
+ * Options for the DiagramRenderer. Everything is optional — the legacy game
+ * Renderer constructs this class with no options and keeps the historical
+ * behavior exactly.
+ */
+export interface DiagramRendererOptions {
+  /**
+   * Fit the built diagram to the stage: after each build step the content's
+   * measured bounds are scaled (aspect preserved, about the content center)
+   * so sparse diagrams — a 240px timeline or a 110x70 venn — fill the frame
+   * instead of floating in emptiness. Off by default.
+   */
+  fitToStage?: boolean;
+  /**
+   * Device pixel ratio of the display, used with fitToStage to re-rasterize
+   * PIXI.Text at the fitted size (default 1 → labels scale like bitmaps).
+   */
+  textDpr?: number;
+}
+
 export class DiagramRenderer {
   private container: PIXI.Container;
   private width: number;
@@ -26,11 +46,15 @@ export class DiagramRenderer {
   private animationStep: number = 0;
   private animationTimer: number = 0;
   private totalSteps: number = 0;
+  private fitEnabled: boolean;
+  private textDpr: number;
 
-  constructor(container: PIXI.Container, width: number, height: number) {
+  constructor(container: PIXI.Container, width: number, height: number, options: DiagramRendererOptions = {}) {
     this.container = container;
     this.width = width;
     this.height = height;
+    this.fitEnabled = options.fitToStage === true;
+    this.textDpr = options.textDpr ?? 1;
   }
 
   render(config: DiagramConfig): void {
@@ -42,11 +66,16 @@ export class DiagramRenderer {
 
     this.currentDiagram = new PIXI.Container();
     this.currentDiagram.x = this.width / 2;
-    this.currentDiagram.y = this.height / 2 - 50;
+    this.currentDiagram.y = this.centerY();
     this.container.addChild(this.currentDiagram);
 
     this.animationStep = 0;
     this.animationTimer = 0;
+    // Record the request so update() re-renders the SAME diagram at the new
+    // progress (previously these were never set, so the first update tick
+    // redrew every animated diagram as a default generic-flow).
+    this.currentType = config.type;
+    this.currentData = config.data || {};
 
     if (config.animate === false) {
       // Render all at once
@@ -59,6 +88,46 @@ export class DiagramRenderer {
       // Default: animate in one pass
       this.totalSteps = 1;
       this.renderDiagram(config.type, config.data || {}, 0);
+    }
+    this.fitToStage();
+  }
+
+  /** Vertical anchor for the diagram's center. The legacy game slides content
+   *  50px above true center (room for its bottom UI overlay); stage-fit mode
+   *  centers exactly, because the content now owns the whole stage. */
+  private centerY(): number {
+    return this.fitEnabled ? this.height / 2 : this.height / 2 - 50;
+  }
+
+  /**
+   * Scale the current diagram's measured bounds to fill the stage (opt-in,
+   * see DiagramRendererOptions.fitToStage). Aspect-preserving, applied about
+   * the content center so the composition stays centered. Sparse diagrams
+   * (a 240px timeline on a 640px stage, a 110x70 venn) thereby fill their
+   * frame; oversized data shrinks to fit. Labels are re-rasterized at the
+   * fitted size when textDpr > 1 so text stays crisp after the scale.
+   */
+  private fitToStage(): void {
+    if (!this.fitEnabled || !this.currentDiagram) return;
+    const diagram = this.currentDiagram;
+    const bounds = diagram.getLocalBounds();
+    if (!(bounds.width > 1 && bounds.height > 1)) return; // nothing drawn yet
+    const pad = 44; // breathing room inside the stage, in design px
+    const availW = this.width - pad * 2;
+    const availH = this.height - pad * 2;
+    if (availW <= 0 || availH <= 0) return;
+    const MAX_SCALE = 2.6; // tiny defaults must not blow up into caricature
+    const scale = Math.min(availW / bounds.width, availH / bounds.height, MAX_SCALE);
+    diagram.pivot.set(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
+    diagram.position.set(this.width / 2, this.centerY());
+    diagram.scale.set(scale);
+    if (this.textDpr > 1) {
+      const resolution = Math.min(4, Math.max(1, Math.ceil(scale * this.textDpr)));
+      for (const child of diagram.children) {
+        if (child instanceof PIXI.Text && child.resolution !== resolution) {
+          child.resolution = resolution; // lazily re-rasterizes on next render
+        }
+      }
     }
   }
 
@@ -840,35 +909,49 @@ export class DiagramRenderer {
     const g = new PIXI.Graphics();
     const chain = (data.chain as string[]) || ['Plant', 'Grasshopper', 'Frog', 'Snake'];
     const visibleCount = Math.floor(progress * chain.length);
-    const spacing = 70;
-    const startX = -((chain.length - 1) * spacing) / 2;
+
+    // Boxes sized to their labels (fixed 50px boxes clipped longer names).
+    const boxH = 30;
+    const minBoxW = 50;
+    const gap = 20;
+    const labels = chain.map(s => new PIXI.Text(s, { fontSize: 9, fill: 0xffffff, fontWeight: 'bold' }));
+    const widths = labels.map(t => Math.max(minBoxW, Math.ceil(t.width) + 20));
+    const totalW = widths.reduce((a, w) => a + w, 0) + gap * (chain.length - 1);
+    let cursor = -totalW / 2;
 
     for (let i = 0; i < visibleCount; i++) {
-      const x = startX + i * spacing;
+      const bw = widths[i];
+      const cx = cursor + bw / 2;
 
-      // Box
+      g.lineStyle(0);
       g.beginFill(0x6c5ce7, 0.8);
-      g.drawRoundedRect(x - 25, -15, 50, 30, 6);
+      g.drawRoundedRect(cursor, -boxH / 2, bw, boxH, 6);
       g.endFill();
 
-      // Label
-      const labelText = new PIXI.Text(chain[i], {
-        fontSize: 9, fill: 0xffffff, fontWeight: 'bold',
-      });
+      const labelText = labels[i];
       labelText.anchor.set(0.5);
-      labelText.x = x;
+      labelText.x = cx;
       labelText.y = 0;
       this.currentDiagram!.addChild(labelText);
 
-      // Arrow to next
+      cursor += bw + gap;
+    }
+
+    // Arrows after fills (see renderGenericFlow); stop short of the next box.
+    cursor = -totalW / 2;
+    for (let i = 0; i < visibleCount; i++) {
+      const bw = widths[i];
       if (i < visibleCount - 1) {
+        const x0 = cursor + bw;
+        const x1 = cursor + bw + gap - 4;
         g.lineStyle(2, 0xff6b6b);
-        g.moveTo(x + 25, 0);
-        g.lineTo(x + spacing - 25, 0);
-        g.moveTo(x + spacing - 30, -3);
-        g.lineTo(x + spacing - 25, 0);
-        g.lineTo(x + spacing - 30, 3);
+        g.moveTo(x0, 0);
+        g.lineTo(x1, 0);
+        g.moveTo(x1 - 5, -3);
+        g.lineTo(x1, 0);
+        g.lineTo(x1 - 5, 3);
       }
+      cursor += bw + gap;
     }
 
     this.currentDiagram!.addChild(g);
@@ -1009,32 +1092,52 @@ export class DiagramRenderer {
     const g = new PIXI.Graphics();
     const steps = (data.steps as string[]) || ['Input', 'Process', 'Output'];
     const visibleCount = Math.floor(progress * steps.length);
-    const spacing = 80;
-    const startX = -((steps.length - 1) * spacing) / 2;
+
+    // Boxes sized to their labels (the old fixed 60px box overflowed any real
+    // step label); layout flows left→right from a centered total width, so
+    // stage-fit keeps the whole chain in frame.
+    const boxH = 32;
+    const minBoxW = 60;
+    const gap = 26;
+    const labels = steps.map(s => new PIXI.Text(s, { fontSize: 11, fill: 0xffffff, fontWeight: 'bold' }));
+    const widths = labels.map(t => Math.max(minBoxW, Math.ceil(t.width) + 28));
+    const totalW = widths.reduce((a, w) => a + w, 0) + gap * (steps.length - 1);
+    let cursor = -totalW / 2;
 
     for (let i = 0; i < visibleCount; i++) {
-      const x = startX + i * spacing;
+      const bw = widths[i];
+      const cx = cursor + bw / 2;
 
+      g.lineStyle(0);
       g.beginFill(0x6c5ce7, 0.8);
-      g.drawRoundedRect(x - 30, -15, 60, 30, 8);
+      g.drawRoundedRect(cursor, -boxH / 2, bw, boxH, 8);
       g.endFill();
 
-      const labelText = new PIXI.Text(steps[i], {
-        fontSize: 10, fill: 0xffffff, fontWeight: 'bold',
-      });
+      const labelText = labels[i];
       labelText.anchor.set(0.5);
-      labelText.x = x;
+      labelText.x = cx;
       labelText.y = 0;
       this.currentDiagram!.addChild(labelText);
 
+      cursor += bw + gap;
+    }
+
+    // Arrows after fills so box strokes never inherit the arrow color; stop
+    // 4px short of the next box so the head doesn't read as its border.
+    cursor = -totalW / 2;
+    for (let i = 0; i < visibleCount; i++) {
+      const bw = widths[i];
       if (i < visibleCount - 1) {
+        const x0 = cursor + bw;
+        const x1 = cursor + bw + gap - 4;
         g.lineStyle(2, 0xff6b6b);
-        g.moveTo(x + 30, 0);
-        g.lineTo(x + spacing - 30, 0);
-        g.moveTo(x + spacing - 35, -3);
-        g.lineTo(x + spacing - 30, 0);
-        g.lineTo(x + spacing - 35, 3);
+        g.moveTo(x0, 0);
+        g.lineTo(x1, 0);
+        g.moveTo(x1 - 5, -3);
+        g.lineTo(x1, 0);
+        g.lineTo(x1 - 5, 3);
       }
+      cursor += bw + gap;
     }
 
     this.currentDiagram!.addChild(g);
@@ -1057,9 +1160,10 @@ export class DiagramRenderer {
           this.currentDiagram.destroy({ children: true });
           this.currentDiagram = new PIXI.Container();
           this.currentDiagram.x = this.width / 2;
-          this.currentDiagram.y = this.height / 2 - 50;
+          this.currentDiagram.y = this.centerY();
           this.container.addChild(this.currentDiagram);
           this.renderDiagram(this.currentType, this.currentData, this.animationStep / this.totalSteps);
+          this.fitToStage();
         }
       }
     }
@@ -1075,7 +1179,8 @@ export class DiagramRenderer {
     this.height = height;
     if (this.currentDiagram) {
       this.currentDiagram.x = width / 2;
-      this.currentDiagram.y = height / 2 - 50;
+      this.currentDiagram.y = this.centerY();
+      this.fitToStage();
     }
   }
 

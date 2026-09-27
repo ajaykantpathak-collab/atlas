@@ -159,7 +159,7 @@ export const w_c12_psychologyhumanistictraittheoriessim: SimDef = {
           hint: 'If stuck, revisit c12_psy_cbse_02_005 Allport\'s Trait Theory — focus on the section.',
           misconception: 'Students often treat Eysenck\'s Extraversion and Big Five Extraversion as identical because they share the same label.',
           parts: [
-                { id: 'a', prompt: 'List Eysenck\'s three personality dimensions with their high and low pole labels exactly as given in NCERT.', answer: 'Correct answer: (1) Extraversion vs',
+                { id: 'a', prompt: 'List Eysenck\'s three personality dimensions with their high and low pole labels exactly as given in NCERT.', answer: '(1) Extraversion vs',
                   options: ['Correct answer: (1) Extraversion vs', 'Openness', 'Conscientiousness'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often treat Eysenck\'s Extraversion and Big Five Extraversion as identical because they share the same label.' },

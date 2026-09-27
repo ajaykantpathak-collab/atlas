@@ -187,7 +187,7 @@ export const w_c11_geographyaeolianprocesseslandformssim: SimDef = {
           hint: 'If stuck, revisit c11_geo_cbse_06_001 and draw the endogenic-exogenic flowchart with.',
           misconception: 'Students believe "weathering = physical breaking of rocks by temperature changes" and equate it exclusively with frost.',
           parts: [
-                { id: 'a', prompt: 'Define weathering in one sentence and state the single criterion that distinguishes it from erosion.', answer: 'Correct answer: Weathering is the in-situ mechanical disintegration and chemical',
+                { id: 'a', prompt: 'Define weathering in one sentence and state the single criterion that distinguishes it from erosion.', answer: 'Weathering is the in-situ mechanical disintegration and chemical',
                   options: ['Correct answer: Weathering is the in-situ mechanical disintegration and chemical', 'transport', 'movement'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "weathering = physical breaking of rocks by temperature changes" and equate it exclusively with frost wedging or thermal.' },

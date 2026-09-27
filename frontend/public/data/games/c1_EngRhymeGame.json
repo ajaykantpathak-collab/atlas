@@ -1,0 +1,318 @@
+{
+  "gameFile": "EngRhymeGame",
+  "classLevel": 1,
+  "cisceNodes": [],
+  "mascot": "Nibbles the Mouse — a tiny, squeaky mouse with a songbook who rhymes everything with cheese... please!",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "What Is a Rhyme? 🎶",
+      "text": "Rhyming words end with the same sound! Cat and hat rhyme. They both end with -at. Rhymes are word friends!",
+      "emoji": "🎶",
+      "bgColor": "from-fuchsia-400 to-purple-500",
+      "spoken": "Rhyming words end with the same sound, like cat and hat!"
+    },
+    {
+      "title": "The -at Family 🐱",
+      "text": "Here is the -at family: cat, hat, bat, mat, rat. Change the first sound and you get a new rhyme!",
+      "emoji": "🐱",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Cat, hat, bat, mat, rat — the -at family all rhyme together!"
+    },
+    {
+      "title": "The -ig Family 🐷",
+      "text": "The -ig family loves to dig: pig, big, wig, dig. Say them out loud — they all end the same!",
+      "emoji": "🐷",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Pig, big, wig, dig — the -ig family all rhyme!"
+    },
+    {
+      "title": "Rhymes in Songs 🎤",
+      "text": "Songs and poems are full of rhymes. Twinkle twinkle little STAR... how I wonder what you ARE! Star and are rhyme!",
+      "emoji": "🎤",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Songs are full of rhymes, like star and are!"
+    },
+    {
+      "title": "Rhyme Makers ✨",
+      "text": "Now YOU make rhymes! If you know cat, you know hat! If you know sun, you know fun! Let's find the rhyming friends.",
+      "emoji": "✨",
+      "bgColor": "from-rose-400 to-pink-500",
+      "spoken": "You can make rhymes now! Cat-hat, sun-fun. Let us play!"
+    }
+  ],
+  "challenges": [
+    {
+      "type": "rhyme_pick",
+      "question": "Which word rhymes with 'cat'?",
+      "answer": "Hat",
+      "options": [
+        "Dog",
+        "Hat",
+        "Cup"
+      ],
+      "hint": "Say cat... hat... they end with the same sound, -at!",
+      "misconception": "Hat rhymes with cat — both end with -at! Dog and cup end with different sounds.",
+      "easierVariant": {
+        "options": [
+          "Hat",
+          "Dog"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "rhyme_pick",
+      "question": "Which word rhymes with 'star'?",
+      "answer": "Car",
+      "options": [
+        "Sun",
+        "Car",
+        "Tree"
+      ],
+      "hint": "Star... car... listen to the ending: -ar!",
+      "misconception": "Car rhymes with star — both end with -ar! Sun and tree do not.",
+      "easierVariant": {
+        "options": [
+          "Car",
+          "Sun"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "rhyme_yes_no",
+      "question": "Do 'hen' and 'pen' rhyme?",
+      "answer": "Yes",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
+      "hint": "Say hen... pen... do they end with the same sound?",
+      "misconception": "Hen and pen both end with -en, so yes, they rhyme!",
+      "easierVariant": {
+        "options": [
+          "Yes",
+          "No"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "rhyme_pick",
+      "question": "Which word rhymes with 'cake'?",
+      "answer": "Lake",
+      "options": [
+        "Milk",
+        "Lake",
+        "Book"
+      ],
+      "hint": "Cake... lake... they both end with -ake!",
+      "misconception": "Lake rhymes with cake — both end with -ake! Milk and book do not.",
+      "easierVariant": {
+        "options": [
+          "Lake",
+          "Milk"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_rhyme",
+      "question": "Drag each word! Does it rhyme with 'cat' or not?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Hat and bat end with -at, just like cat. Dog and sun end differently!",
+      "misconception": "Hat and bat rhyme with cat (they end with -at). Dog and sun end with other sounds, so they do not rhyme!",
+      "sortItems": [
+        {
+          "id": "w-hat",
+          "label": "Hat",
+          "icon": "🎩",
+          "emoji": "🎩",
+          "correctBin": "rhymes"
+        },
+        {
+          "id": "w-bat",
+          "label": "Bat",
+          "icon": "🦇",
+          "emoji": "🦇",
+          "correctBin": "rhymes"
+        },
+        {
+          "id": "w-dog",
+          "label": "Dog",
+          "icon": "🐶",
+          "emoji": "🐶",
+          "correctBin": "noRhyme"
+        },
+        {
+          "id": "w-sun",
+          "label": "Sun",
+          "icon": "☀️",
+          "emoji": "☀️",
+          "correctBin": "noRhyme"
+        }
+      ],
+      "bins": [
+        {
+          "id": "rhymes",
+          "label": "Rhymes with cat",
+          "color": "#10B981"
+        },
+        {
+          "id": "noRhyme",
+          "label": "Does not rhyme",
+          "color": "#EF4444"
+        }
+      ],
+      "storyBeat": "rising"
+    },
+    {
+      "type": "rhyme_pick",
+      "question": "Which word rhymes with 'snail'?",
+      "answer": "Tail",
+      "options": [
+        "Tail",
+        "Shoe",
+        "Ship"
+      ],
+      "hint": "Snail... tail... they both end with -ail!",
+      "misconception": "Tail rhymes with snail — both end with -ail! Shoe and ship do not.",
+      "easierVariant": {
+        "options": [
+          "Tail",
+          "Shoe"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "rhyme_pick_pair",
+      "question": "Which two words rhyme?",
+      "answer": "Sun and fun",
+      "options": [
+        "Sun and fun",
+        "Cat and cup",
+        "Dog and ball"
+      ],
+      "hint": "Say each pair out loud. Which two end with the same sound?",
+      "misconception": "Sun and fun both end with -un, so they rhyme! The other pairs end differently.",
+      "easierVariant": {
+        "options": [
+          "Sun and fun",
+          "Cat and cup"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort_rhyme2",
+      "question": "Drag each word! Does it rhyme with 'pig' or not?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Big and wig end with -ig, just like pig. Moon and star end differently!",
+      "misconception": "Big and wig rhyme with pig (they end with -ig). Moon and star do not!",
+      "sortItems": [
+        {
+          "id": "w-big",
+          "label": "Big",
+          "icon": "🐘",
+          "emoji": "🐘",
+          "correctBin": "rhymesPig"
+        },
+        {
+          "id": "w-wig",
+          "label": "Wig",
+          "icon": "💇",
+          "emoji": "💇",
+          "correctBin": "rhymesPig"
+        },
+        {
+          "id": "w-moon",
+          "label": "Moon",
+          "icon": "🌙",
+          "emoji": "🌙",
+          "correctBin": "noRhymePig"
+        },
+        {
+          "id": "w-star",
+          "label": "Star",
+          "icon": "⭐",
+          "emoji": "⭐",
+          "correctBin": "noRhymePig"
+        }
+      ],
+      "bins": [
+        {
+          "id": "rhymesPig",
+          "label": "Rhymes with pig",
+          "color": "#10B981"
+        },
+        {
+          "id": "noRhymePig",
+          "label": "Does not rhyme",
+          "color": "#EF4444"
+        }
+      ],
+      "storyBeat": "resolution"
+    }
+  ],
+  "subject": "english",
+  "theme": "art",
+  "storyArc": {
+    "theme": "An English explorer masters new words, one story at a time",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let us explore English together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A playful challenge appears that needs the new skill",
+        "mascotDialogue": "Here comes a challenge — can you work it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The tasks grow trickier as understanding deepens",
+        "mascotDialogue": "You are getting stronger! Try these!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest test of the new skill",
+        "mascotDialogue": "This is the big one! Show me what you learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "Mastery shown and celebrated",
+        "mascotDialogue": "Amazing! You have mastered this!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "collecting-stars",
+    "title": "Rhyme Music Jar",
+    "totalPieces": 8
+  }
+}

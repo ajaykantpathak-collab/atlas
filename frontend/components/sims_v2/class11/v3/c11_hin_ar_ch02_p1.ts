@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c11_hin_ar_ch02_p1: SimDef = {
     id: 'v3_c11_hin_ar_ch02_p1',
-    title: 'vejdkar · Part 1/3',
+    title: 'पाठ 2 · Part 1/3',
     subtitle: 'Watch a quiet cook defeat his master without ever raising his voice.',
-    classLevel: 11, subject: 'hin_ar', topic: 'vejdkar · Part 1/3',
+    classLevel: 11, subject: 'hin_ar', topic: 'पाठ 2 · Part 1/3',
     chapters: ['c11_hin_ar_ch02'],
     nodeIds: ['c11_hin_ar_cbse_02_001', 'c11_hin_ar_cbse_02_002', 'c11_hin_ar_cbse_02_003', 'c11_hin_ar_cbse_02_004', 'c11_hin_ar_cbse_02_005', 'c11_hin_ar_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,55 +19,21 @@ export const c11_hin_ar_ch02_p1: SimDef = {
         hook: 'The story hides its oldest event two-thirds of the way in — a flashback that only lands because we met the dignified cook first.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory section that provides essential information about the author\'s life, literary significance, the socio-historical setting of the story, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 2 — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल है जिसमें किसी रचना के लेखन-कालीन ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश तथा रचनाकार के व्यक्तिगत जीवन-अनुभव.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_02_001', title: 'Your mission',
           mission: { widget: 'flow', validate: 'flow:stage=80',
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Reorder the five scenes by narrative logic rather than chronology, and argue why the colonial-officer flashback lands where it does.',
-        labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
+        labels: ['पाठ 2 — पृष्ठभूमि', 'पाठ 2 — कथानक', 'पाठ 2 — पाठ्य-परिवेश', 'पाठ 2 — पात्र-चित्रण', 'पाठ 2 — मुख्य'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a critically acclaimed film set in a village in 1960s Bihar.',
-            decisions: [{ prompt: 'Who is Phanishwar Nath Renu and what is his primary contribution to Hindi literature?', options: [
-                { text: 'Phanishwar Nath Renu (1925-2019) is a seminal Hindi writer known as the pioneer of', outcome: 'Phanishwar Nath Renu (1925-2019) is a seminal Hindi writer known as the pioneer of \'Anchalik.' },
-                { text: 'him only as a poet or confusing him with Premchand', outcome: 'Not quite — Students often treat \'Context and Background\' as a list of static facts to memorize (author\'s.', reveals: 'students-often-treat-context-and' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a street play where a servant outwits his master without ever raising his voice—that\'s the core experience of reading "फेंकू उल्हनिहु.".',
-            decisions: [{ prompt: 'Identify the inciting incident in "फेंकू उल्हनिहु" that sets the narrator\'s investigation into Phenku\'s past in motion.', options: [
-                { text: 'The inciting incident is the narrator noticing Phenku\'s unusual method of making', outcome: 'The inciting incident is the narrator noticing Phenku\'s unusual method of making puris—flinging.' },
-                { text: 'the narrator hiring Phenku', outcome: 'Not quite — Students treat "plot" as "what happened in chronological order" and "narrative structure".', reveals: 'students-treat-plot-as-what' },
-                { text: 'the colonial officer anecdote', outcome: 'Not quite — Students treat "plot" as "what happened in chronological order" and "narrative structure".', reveals: 'students-treat-plot-as-what' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re walking through a busy Indian market at 7 PM — the fading light, the smell of street food, the sound of vendors calling out, the tired but.',
-            decisions: [{ prompt: 'In "फेरीवाले उलहनी," identify two specific time markers and two specific place markers that establish the physical setting of the opening.', options: [
-                { text: 'Correct answer: Time markers', outcome: 'Correct answer: Time markers — "शाम" (evening) and "अंधेरा घिरने लगा" (darkness gathering); Place.' },
-                { text: 'morning', outcome: 'Not quite — Students believe "setting = where and when" and "atmosphere = mood," treating them as separate.', reveals: 'setting-where-and-when-and' },
-                { text: 'inside a shop', outcome: 'Not quite — Students believe "setting = where and when" and "atmosphere = mood," treating them as separate.', reveals: 'setting-where-and-when-and' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you meet a street vendor who makes beautiful handcrafted dolls but refuses to call herself an artist, insisting she\'s just a labourer.',
-            decisions: [{ prompt: 'What is the protagonist\'s primary occupation as explicitly stated in the text, and what secondary activity does she engage in to supplement.', options: [
-                { text: 'Feeki Uljhan is primarily a school teacher (ukuckbZ) who supplements her income by making', outcome: 'Feeki Uljhan is primarily a school teacher (ukuckbZ) who supplements her income by making and.' },
-                { text: 'she is a full-time doll-maker', outcome: 'Not quite — Students often treat Feeki Uljhan as a "symbol of the poor" or "representative of marginalised.', reveals: 'students-often-treat-feeki-uljhan' },
-                { text: 'She represents the struggle of all poor women', outcome: 'Not quite — Students often treat Feeki Uljhan as a "symbol of the poor" or "representative of marginalised.', reveals: 'students-often-treat-feeki-uljhan' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Think about your favorite film — the hero never exists in isolation.',
-            decisions: [{ prompt: 'List three supporting characters from \'Fe;k¡ ulh#íhu\' and state their primary narrative role in one sentence each.', options: [
-                { text: 'Correct answer: (1) ckn\'kkg lyker', outcome: 'Correct answer: (1) ckn\'kkg lyker — the bureaucratic clerk who demands written identity.' },
-                { text: 'what the character does', outcome: 'Not quite — Students treat supporting characters as "background information" and list their actions (he asked.', reveals: 'students-treat-supporting-characters-as' },
-                { text: 'what the character REPRESENTS', outcome: 'Not quite — Students treat supporting characters as "background information" and list their actions (he asked.', reveals: 'students-treat-supporting-characters-as' }
-            ] }] } },
-        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are sitting with your grandmother who never went to school but can fix any broken thing in the house—would you say she is uneducated?',
-            decisions: [{ prompt: 'What is the definition of \'primary theme\' in a prose narrative?', options: [
-                { text: 'The primary theme is the central, unifying idea that runs through the entire narrative', outcome: 'The primary theme is the central, unifying idea that runs through the entire narrative and.' },
-                { text: 'education', outcome: 'Not quite — Students often think the primary theme is "respect for elders" or "importance of education" because.', reveals: 'the-primary-theme-is-respect' },
-                { text: 'respect for elders', outcome: 'Not quite — Students often think the primary theme is "respect for elders" or "importance of education" because.', reveals: 'the-primary-theme-is-respect' }
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_005', title: 'पाठ 2 — पात्र-चित्रण: सहायक पात्र',
+          caseStudy: { intro: 'Think about your best friend — how they react when you\'re angry reveals your temper, how they support you shows your vulnerabilities, and how they disagree.',
+            decisions: [{ prompt: '\'नमक का दारोगा\' में पंडित अलोपीदीन की भूमिका को एक वाक्य में परिभाषित कीजिए।', options: [
+                { text: 'पंडित अलोपीदीन मुंशी वंशीधर के नैतिक दृढ़ता के प्रतिबिंब (foil) के रूप में कार्य करते', outcome: 'पंडित अलोपीदीन मुंशी वंशीधर के नैतिक दृढ़ता के प्रतिबिंब (foil) के रूप में कार्य करते हैं, जिनका.' },
+                { text: 'वो एक भ्रष्ट जमींदार हैं', outcome: 'Not quite — **Exact error:** Students equate "सहायक पात्र" (supporting character) with "कम महत्वपूर्ण पात्र".', reveals: 'exact-error-students-equate-supporting' },
+                { text: 'description vs', outcome: 'Not quite — **Exact error:** Students equate "सहायक पात्र" (supporting character) with "कम महत्वपूर्ण पात्र".', reveals: 'exact-error-students-equate-supporting' }
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_02_001', title: 'Use it in the wild',
           caseStudy: { intro: 'For a regional-literature seminar you present Renu\'s anchalik katha and Yashpal\'s \'Phenku\' story. A classmate objects: \'These dialect words and folk songs are local colour — decoration. And the Phenku story is simple: master questions cook, cook answers, done in order.\'',
@@ -78,8 +44,8 @@ export const c11_hin_ar_ch02_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_02_006', title: 'The bigger picture',
           caseStudy: { intro: 'A servant who never raises his voice outwits everyone — the structure does the same to the reader.',
-            decisions: [{ prompt: 'What comes next? vejdkar · Part 2/3 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — vejdkar · Part 2/3 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? पाठ 2 · Part 2/3 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — पाठ 2 · Part 2/3 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
@@ -88,94 +54,71 @@ export const c11_hin_ar_ch02_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory section that.',
-          hint: 'Review the concept of \'Anchalik Katha\' (Regional Fiction) and the map of linguistic.',
-          misconception: 'Students often treat \'Context and Background\' as a list of static facts to memorize (author\'s birth/death dates.',
+          question: 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक.',
+          hint: 'यदि अटके तो \'नई कहानी आंदोलन\' की मूल स्थापनाओं (अनुभूति की प्रामाणिकता, शिल्पगत प्रयोग.',
+          misconception: 'छात्र अक्सर \'रचनाकार परिचय\' को \'जीवनी के तथ्य रटना\' (जन्म-तिथि, शिक्षा, पुरस्कार, प्रसिद्ध कृतियाँ) समझ लेते हैं और.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" is a preparatory section that provides',
-                  options: ['"Before You Read: Context and Background" is a preparatory section that provides', 'Plot and Narrative Structure refers to the organized sequence of events (plot) and the', 'Setting refers to the time, place, and physical environment in', 'Character analysis of the protagonist involves a systematic examination of the central'],
-                  hint: 'Review the concept of \'Anchalik Katha\' (Regional Fiction) and the map of linguistic regions.',
-                  misconception: 'Students often treat \'Context and Background\' as a list of static facts to memorize (author\'s birth/death dates, awards, one-line summary.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल',
+                  options: ['पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'यदि अटके तो \'नई कहानी आंदोलन\' की मूल स्थापनाओं (अनुभूति की प्रामाणिकता, शिल्पगत प्रयोग, मध्यवर्गीय.',
+                  misconception: 'छात्र अक्सर \'रचनाकार परिचय\' को \'जीवनी के तथ्य रटना\' (जन्म-तिथि, शिक्षा, पुरस्कार, प्रसिद्ध कृतियाँ) समझ लेते हैं और परीक्षा में वही लिख.' }
           ],
-            remediations: { 'students-often-treat-context-and': { steps: ['**Re-frame the task**: Ask the student: "If you removed all the Bhojpuri/Maithili words and folk references from this.', 'Why or why not?" This forces confrontation with the functional role of context.', '**Mini-research activity**: Assign a 15-minute search for "Renu Anchalik Katha features" and "Bihar 1950s land reforms".', 'Have them write three specific connections they find between the historical facts and textual details in the first two.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से रचनाकार की किन्हीं दो जीवन-घटनाओं को लिखवाएं (जैसे: बचपन में पिता का निधन, शहर में नौकरी के दौरान.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure refers to the organized sequence of events (plot).',
-          hint: 'Review "flashback vs. chronological order" and "first-person narrator reliability" from.',
-          misconception: 'Students treat "plot" as "what happened in chronological order" and "narrative structure" as "beginning, middle, end.".',
+          question: 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता.',
+          hint: 'यदि अटका हुआ महसूस हो तो \'फैबुला बनाम स्यूज़ेट\' (Fabula vs Syuzhet) की रूसी औपचारिकतावादी.',
+          misconception: 'छात्र अक्सर मानते हैं कि \'कथानक = कहानी का सारांश\' और \'आख्यान-संरचना = अध्यायों/भागों का विभाजन\'। यह भ्रम इसलिए होता है.',
           parts: [
-                { id: 'a', prompt: 'Identify the inciting incident in "फेंकू उल्हनिहु" that sets the narrator\'s investigation into Phenku\'s past in motion.', answer: 'The inciting incident is the narrator noticing Phenku\'s unusual method of making',
-                  options: ['The inciting incident is the narrator noticing Phenku\'s unusual method of making', 'the narrator hiring Phenku', 'the colonial officer anecdote'],
-                  hint: 'Review "flashback vs. chronological order" and "first-person narrator reliability" from Class 10.',
-                  misconception: 'Students treat "plot" as "what happened in chronological order" and "narrative structure" as "beginning, middle, end." In "फेंकू उल्हनिहु,".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि',
+                  options: ['कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'यदि अटका हुआ महसूस हो तो \'फैबुला बनाम स्यूज़ेट\' (Fabula vs Syuzhet) की रूसी औपचारिकतावादी अवधारणा.',
+                  misconception: 'छात्र अक्सर मानते हैं कि \'कथानक = कहानी का सारांश\' और \'आख्यान-संरचना = अध्यायों/भागों का विभाजन\'। यह भ्रम इसलिए होता है क्योंकि स्कूली स्तर.' }
           ],
-            remediations: { 'students-treat-plot-as-what': { steps: ['If a student cannot separate chronological from narrative order: (1) Give them 5 event cards from the story; ask them.', '(2) For each displacement, ask: "What does the reader know at this narrative moment that they wouldn\'t if this came.', '(4) Practice with a 3-sentence micro-fiction: write it in narrative order, then reorder chronologically, compare.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को एक परिचित फिल्म (जैसे \'बाहुबली\' या \'दृश्यम\') का कथानक कालानुक्रम में लिखने को कहें (5-6 बिंदु)। 2.', 'फिर उसी फिल्म के दृश्यों का क्रम लिखने को कहें जैसा फिल्म में दिखाया गया है। 3.', 'दोनों सूचियों की तुलना करवाएं: "फिल्म ने घटना X को घटना Y से पहले क्यों दिखाया जबकि वास्तव में Y पहले घटी?" 4.', 'इस अंतर को \'कथानक बनाम आख्यान-संरचना\' का नाम दें। 2-3 अभ्यासों के बाद छात्र स्वयं विचलन पहचानने लगेगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment in which.',
-          hint: 'If stuck, re-read the opening two pages (pages 21-22 in NCERT) marking every word that.',
-          misconception: 'Students believe "setting = where and when" and "atmosphere = mood," treating them as separate labels to identify.',
+          question: '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल.',
+          hint: 'अगर अटका हुआ महसूस हो तो **\'कथानक और आख्यान-संरचना\' (c11_hin_ar_cbse_02_002)** के.',
+          misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **\'वातावरण केवल विशेषणों (Adjectives) से बनता है\'** — जैसे \'डरावना जंगल\'.',
           parts: [
-                { id: 'a', prompt: 'In "फेरीवाले उलहनी," identify two specific time markers and two specific place markers that establish the physical setting of the opening scene.', answer: 'Correct answer: Time markers',
-                  options: ['Correct answer: Time markers', 'morning', 'inside a shop', 'setting = where and when'],
-                  hint: 'If stuck, re-read the opening two pages (pages 21-22 in NCERT) marking every word that appeals.',
-                  misconception: 'Students believe "setting = where and when" and "atmosphere = mood," treating them as separate labels to identify rather than.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),',
+                  options: ['**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के'],
+                  hint: 'अगर अटका हुआ महसूस हो तो **\'कथानक और आख्यान-संरचना\' (c11_hin_ar_cbse_02_002)** के \'चरमोत्कर्ष.',
+                  misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **\'वातावरण केवल विशेषणों (Adjectives) से बनता है\'** — जैसे \'डरावना जंगल\', \'सुंदर बगीचा\', \'उदास.' }
           ],
-            remediations: { 'setting-where-and-when-and': { steps: ['If the student cannot move beyond labeling, do this 3-step remediation: (1) Give them a 50-word setting description.', '(2) Have them physically act out the tea stall scene: one student stands (लखपत), one sits on floor (उलहनी), one leans.', '(3) Assign a micro-writing task: rewrite the opening paragraph changing ONLY the time to noon — what sensory details.', 'What atmospheric effect is lost?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_003', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "setting = where and when" and "atmosphere = mood," treating them as separate labels to identify.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The evening setting in \'फेरीवाले उलहनी\' is merely a temporal backdrop; the story would work equally well at noon." Defend your judgment.', answer: 'Correct answer: The claim is false',
-                  options: ['Correct answer: The claim is false', 'setting = where and when', 'atmosphere = mood'],
-                  hint: 'If stuck, re-read the opening two pages (pages 21-22 in NCERT) marking every word that appeals.',
-                  misconception: 'Students believe "setting = where and when" and "atmosphere = mood," treating them as separate labels to identify rather than.' }
-          ],
-            remediations: { 'setting-where-and-when-and': { steps: ['If the student cannot move beyond labeling, do this 3-step remediation: (1) Give them a 50-word setting description.', '(2) Have them physically act out the tea stall scene: one student stands (लखपत), one sits on floor (उलहनी), one leans.', '(3) Assign a micro-writing task: rewrite the opening paragraph changing ONLY the time to noon — what sensory details.', 'What atmospheric effect is lost?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'adjectives': { steps: ['**माइक्रो-एनालिसिस अभ्यास**: छात्र को एक छोटा अनुच्छेद (५० शब्द) दें — उसे **हर विशेषण को काटकर** केवल **क्रियाओं.', '**तुलनात्मक सारणी बनवाएँ**: दो कॉलम — बायाँ: \'लेखक ने क्या लिखा (पद/पदबंध)\', दायाँ: \'पाठक पर क्या असर हुआ (संवेदना)\'।.', '**\'क्यों\' का पीछा करें**: हर पहचाने गए शब्द/युक्ति के लिए पूछें — "अगर लेखक यहाँ \'चल रहा था\' के बजाय \'घिसट रहा था\'.', '**बोर्ड-उत्तर संरचना सिखाएँ**: (बिंदु) → (उद्धरण/संदर्भ) → (युक्ति का नाम) → (वातावरण पर प्रभाव) → (कथानक/पात्र से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves a systematic examination of the.',
-          hint: 'If stuck, review the "Text: Plot and Narrative Structure" node (c11_hin_ar_cbse_02_002).',
-          misconception: 'Students often treat Feeki Uljhan as a "symbol of the poor" or "representative of marginalised women" rather than.',
+          question: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें.',
+          hint: 'यदि अटके तो **c11_hin_ar_cbse_02_002 (कथानक संरचना)** के \'प्रमुख मोड़\' खंड को दोहराएँ और.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि पात्र-चित्रण का अर्थ है पात्र के **गुणों की सूची (list of traits)** बनाना.',
           parts: [
-                { id: 'a', prompt: 'Explain in your own words why Feeki Uljhan reacts sharply when the narrator calls her "ukuckbZ" (teacher) after she has identified herself as a doll-maker.', answer: 'She rejects the label "teacher"',
-                  options: ['She rejects the label "teacher"', 'she is humble', 'she doesn\'t like teaching', 'She represents the struggle of all poor women'],
-                  hint: 'If stuck, review the "Text: Plot and Narrative Structure" node (c11_hin_ar_cbse_02_002) and create.',
-                  misconception: 'Students often treat Feeki Uljhan as a "symbol of the poor" or "representative of marginalised women" rather than a specific individual.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के',
+                  options: ['पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),'],
+                  hint: 'यदि अटके तो **c11_hin_ar_cbse_02_002 (कथानक संरचना)** के \'प्रमुख मोड़\' खंड को दोहराएँ और पाठ में.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि पात्र-चित्रण का अर्थ है पात्र के **गुणों की सूची (list of traits)** बनाना — जैसे "नायक ईमानदार.' }
           ],
-            remediations: { 'students-often-treat-feeki-uljhan': { steps: ['Have the student list 5 things Feeki Uljhan says that NO other character says (e.g., the poem, the clerk-name.', 'For each, ask: "Could a different poor woman say this?', 'Force them to rewrite one generic sentence ("She represents...") into a specific claim using one unique quote.', 'Verify they use "Feeki Uljhan" not "the protagonist" or "she" in the first three sentences of their next answer.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'list-of-traits': { steps: ['**मॉडलिंग (Modeling):** शिक्षक एक छोटे ज्ञात पात्र (जैसे \'पंचतंत्र का शेर\' या \'मुंशी प्रेमचंद की \'ईदगाह\' का हामिद) लेकर.', '**सैफोल्डिंग (Scaffolding):** छात्र को **\'पात्र-चित्रण ग्राफिक ऑर्गनाइज़र\'** दें जिसमें चार कॉलम हों: *प्रसंग/घटना →.', '**तुलनात्मक अभ्यास:** दो कमज़ोर और एक मजबूत नमूना उत्तर दिखाएँ; छात्रों से कहें **\'कमज़ोर उत्तर में क्या गायब है?\'**.', '**माइक्रो-लेखन:** पूरे चित्रण के बजाय, केवल **एक प्रसंग पर एक पैराग्राफ** लिखने को कहें, सख्त शब्द-सीमा (50 शब्द) में।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters examines how secondary figures.',
-          hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
-          misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made.',
+          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो मुख्य पात्र.',
+          hint: 'Review "नायक का संघर्ष और चरित्र-परिवर्तन" from node c11_hin_ar_cbse_02_004.',
+          misconception: '**Exact error:** Students equate "सहायक पात्र" (supporting character) with "कम महत्वपूर्ण पात्र" (less important.',
           parts: [
-                { id: 'a', prompt: 'List three supporting characters from \'Fe;k¡ ulh#íhu\' and state their primary narrative role in one sentence each.', answer: 'Correct answer: (1) ckn\'kkg lyker',
-                  options: ['Correct answer: (1) ckn\'kkg lyker', 'what the character does', 'what the character REPRESENTS', 'ge Hkêòh cukuk u lh[krs'],
-                  hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
-                  misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made tea, he wrote report).' },
-                { id: 'b', prompt: 'Explain how the clerk (ckn\'kkg lyker) and the woman (flj fgykuk) differently represent the modern bureaucratic world\'s challenge to the tailor\'s oral identity.', answer: 'Correct answer: The clerk represents institutional power',
-                  options: ['Correct answer: The clerk represents institutional power', 'villains', 'what the character does', 'what the character REPRESENTS'],
-                  hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
-                  misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made tea, he wrote report).' },
-                { id: 'c', prompt: 'The journalist (v[kckjuohl) asks the tailor for a "new angle" (ubZ ph"k) on his life.', answer: 'Correct answer: The tailor would reject being made into a "story" or "angle"',
-                  options: ['Correct answer: The tailor would reject being made into a "story" or "angle"', 'what the character does', 'what the character REPRESENTS', 'ge Hkêòh cukuk u lh[krs'],
-                  hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
-                  misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made tea, he wrote report).' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो मुख्य पात्र (नायक/नायिका) के',
+                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो मुख्य पात्र (नायक/नायिका) के', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),'],
+                  hint: 'Review "नायक का संघर्ष और चरित्र-परिवर्तन" from node c11_hin_ar_cbse_02_004 — specifically the PEEL.',
+                  misconception: '**Exact error:** Students equate "सहायक पात्र" (supporting character) with "कम महत्वपूर्ण पात्र" (less important character) and therefore.' }
           ],
-            remediations: { 'students-treat-supporting-characters-as': { steps: ['If a student lists actions without analysis: (1) Pick ONE supporting character — say, the clerk.', '(2) Find TWO specific dialogues he speaks.', '(3) Ask: "What does this REVEAL about the tailor OR about the society the tailor lives in?" (4) Write one sentence.', 'Do not proceed until each character has a "mirror statement" backed by a quote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'exact-error-students-equate-supporting': { steps: ['**Step 1 — Reframe:** Tell the student: "Forget \'important/unimportant\'.', 'Ask: *If I delete this character from the story, which specific scene collapses or changes meaning?*" 2.', '**Step 2 — Map Functions:** Give a 3-column table: Character | Action/Dialogue | Effect on Protagonist/Plot.', 'Fill it for पंडित अलोपीदीन together.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea that the.',
-          hint: 'Review the difference between subject and theme using a familiar fable (e.g., "The.',
-          misconception: 'Students often think the primary theme is "respect for elders" or "importance of education" because these are familiar.',
+          question: '\'मुख्य विषय\' (Central Theme) किसी रचना का वह केंद्रीय विचार, दर्शन या.',
+          hint: 'यदि अटके तो **c11_hin_ar_cbse_02_004 (नायक पात्र-चित्रण)** और **c11_hin_ar_cbse_02_002.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'मुख्य विषय\' पाठ में **स्पष्ट शब्दों में लिखा होता है** (जैसे कोई नैतिक शिक्षा.',
           parts: [
-                { id: 'a', prompt: 'Apply the concept of \'theme vs. subject\' to this story: state the subject and then the primary theme in one sentence each.', answer: 'Subject: The encounter between a literate teacher and an illiterate potter',
-                  options: ['Subject: The encounter between a literate teacher and an illiterate potter', 'We should respect elders', 'respect for elders', 'importance of education'],
-                  hint: 'Review the difference between subject and theme using a familiar fable (e.g., "The Tortoise and the.',
-                  misconception: 'Students often think the primary theme is "respect for elders" or "importance of education" because these are familiar moral lessons.' },
-                { id: 'b', prompt: 'Analyze how the author uses the recurring motif of \'hands\' (Phool Ulaghu\'s clay-stained hands vs. the teacher\'s pen-holding hands) to develop the primary theme.', answer: 'The clay-stained hands symbolize practical, embodied knowledge',
-                  options: ['The clay-stained hands symbolize practical, embodied knowledge', 'respect for elders', 'importance of education'],
-                  hint: 'Review the difference between subject and theme using a familiar fable (e.g., "The Tortoise and the.',
-                  misconception: 'Students often think the primary theme is "respect for elders" or "importance of education" because these are familiar moral lessons.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मुख्य विषय\' (Central Theme) किसी रचना का वह केंद्रीय विचार, दर्शन या सार्वभौमिक सत्य है',
+                  options: ['\'मुख्य विषय\' (Central Theme) किसी रचना का वह केंद्रीय विचार, दर्शन या सार्वभौमिक सत्य है', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),'],
+                  hint: 'यदि अटके तो **c11_hin_ar_cbse_02_004 (नायक पात्र-चित्रण)** और **c11_hin_ar_cbse_02_002 (कथानक.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'मुख्य विषय\' पाठ में **स्पष्ट शब्दों में लिखा होता है** (जैसे कोई नैतिक शिक्षा: "सदा सत्य बोलो").' }
           ],
-            remediations: { 'the-primary-theme-is-respect': { steps: ['If a student states a generic moral, ask them to list three moments where the teacher learns something from Phool.', 'Then have them write a one-sentence theme that includes both directions of learning.', 'Finally, have them compare their sentence with the definition of primary theme to see if it captures the central.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**माइक्रो-टास्क:** पाठ के 5 मुख्य संवाद चुनें; प्रत्येक के लिए लिखें — "पात्र ने क्या कहा" बनाम "पात्र ने क्या अभिप्रेत.', '**पैटर्न खोज:** उन 5 संवादों में कौन-सा **आवर्ती तनाव** (Recurring Tension) है?', '(जैसे: कर्तव्य बनाम इच्छा, व्यक्ति बनाम समाज, सत्य बनाम छल)।<br>3.', '**विषय निर्माण:** उस तनाव को एक **सार्वभौमिक कथन** में बदलें (जैसे: "व्यक्ति जब सामाजिक अपेक्षाओं और निजी सत्य के बीच.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

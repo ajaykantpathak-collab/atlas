@@ -1,7 +1,7 @@
 'use client'
 
 /**
- * Brand shim — the Atlas mark and the real 9,010-node galaxy.
+ * Brand shim — the Atlas mark and the real 9,099-node galaxy.
  *
  * `PrismLogo` / `PrismCardGraph` / `PrismGlow` are kept as aliases so every
  * existing import gets the Atlas identity without touching call sites.

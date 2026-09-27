@@ -198,7 +198,7 @@ export const w_c12_mathematicsmatrixmultiplicationsim: SimDef = {
           hint: 'If matrix multiplication itself is shaky, revisit c12_math_cbse_03_005 and practice 5-10.',
           misconception: 'Students believe that if AB and BA are both defined and of the same order (e.g., both 2×2), then AB = BA must hold.',
           parts: [
-                { id: 'a', prompt: 'Given matrices A (2×3) and B (3×2), which of the following statements is correct?', answer: 'Correct answer: (b)',
+                { id: 'a', prompt: 'Given matrices A (2×3) and B (3×2), which of the following statements is correct?', answer: '(b)',
                   options: ['Correct answer: (b)', 'non-commutative', 'never commutative'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that if AB and BA are both defined and of the same order (e.g., both 2×2), then AB = BA must hold.' },

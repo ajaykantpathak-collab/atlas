@@ -1,934 +1,941 @@
 {
-  "gameFile": "AnglesSymmetryGame",
-  "classLevel": 5,
-  "cisceNodes": [],
-  "mascot": "Unknown",
-  "slideCount": 5,
-  "challengeCount": 8,
-  "slides": [
-    {
-      "title": "Angles & Their Measures 📐",
-      "text": "An angle is formed when two rays meet at a common vertex! We measure angles in degrees using a protractor. A right angle is exactly 90 degrees, an acute angle is less than 90 degrees, and an obtuse angle is greater than 90 but less than 180 degrees!",
-      "emoji": "📐",
-      "bgColor": "from-amber-400 to-orange-500",
-      "spoken": "An angle is formed when two rays meet at a common vertex! Right angles are 90 degrees, acute angles are smaller, and obtuse angles are wider!",
-      "diagram": {
-        "type": "shape-sorter",
-        "animate": true,
-        "data": {
-          "shapes": [
-            "triangle",
-            "square",
-            "circle"
-          ]
-        }
-      }
-    },
-    {
-      "title": "Classifying Angles 🔍",
-      "text": "Look at the opening between the arms! A square corner is a right angle (90 deg). Sharper openings like 45 degrees are acute. Wider openings like 120 degrees are obtuse. Straight lines form straight angles (180 deg)!",
-      "emoji": "🔍",
-      "bgColor": "from-blue-400 to-indigo-500",
-      "spoken": "Look at the opening! Square corners are right angles, sharper are acute, wider are obtuse, and flat lines are straight angles!",
-      "diagram": {
-        "type": "shape-sorter",
-        "animate": true,
-        "data": {
-          "shapes": [
-            "triangle",
-            "square",
-            "circle"
-          ]
-        }
-      }
-    },
-    {
-      "title": "Symmetry in 3D Shapes 🏛️",
-      "text": "3D shapes have planes of symmetry that slice them into two identical mirror halves. A cube has several symmetry planes through opposite faces and edges. Famous buildings like the Taj Mahal and the human body show bilateral reflection symmetry!",
-      "emoji": "🏛️",
-      "bgColor": "from-purple-400 to-pink-500",
-      "spoken": "Three dimensional shapes have planes of symmetry that slice them into mirror halves! The human body and buildings like the Taj Mahal show reflection symmetry!",
-      "diagram": {
-        "type": "shape-sorter",
-        "animate": true,
-        "data": {
-          "shapes": [
-            "triangle",
-            "square",
-            "circle"
-          ]
-        }
-      }
-    },
-    {
-      "title": "Reflection & Rotational 2D Symmetry 🦋",
-      "text": "Reflection symmetry is when one half mirrors the other across a line. A square has 4 lines of symmetry, a rectangle has 2. Rotational symmetry is when a shape looks identical after being turned around its centre!",
-      "emoji": "🦋",
-      "bgColor": "from-green-400 to-teal-500",
-      "spoken": "Reflection symmetry means one half mirrors the other across a line. Rotational symmetry means the shape looks identical after being turned!",
-      "diagram": {
-        "type": "shape-sorter",
-        "animate": true,
-        "data": {
-          "shapes": [
-            "triangle",
-            "square",
-            "circle"
-          ]
-        }
-      }
-    },
-    {
-      "title": "Nets of 3D Shapes 📦",
-      "text": "A net is a flat 2D pattern that folds up into a 3D solid! A cube's net is 6 squares in a cross. A cylinder's net is a rectangle plus 2 circles. A cone's net is a sector plus a circle!",
-      "emoji": "📦",
-      "bgColor": "from-rose-400 to-pink-500",
-      "spoken": "A net is a flat pattern that folds into a 3D solid! A cube uses 6 squares, a cylinder uses a rectangle and two circles!",
-      "diagram": {
-        "type": "shape-sorter",
-        "animate": true,
-        "data": {
-          "shapes": [
-            "triangle",
-            "square",
-            "circle",
-            "rectangle"
-          ]
-        }
-      }
+ "gameFile": "AnglesSymmetryGame",
+ "classLevel": 5,
+ "cisceNodes": [
+  "c5_math_046",
+  "c5_math_047",
+  "c5_math_048",
+  "c5_math_049",
+  "c5_math_050",
+  "c5_math_051"
+ ],
+ "mascot": "Unknown",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Angles & Their Measures 📐",
+   "text": "An angle is formed when two rays meet at a common vertex! We measure angles in degrees using a protractor. A right angle is exactly 90 degrees, an acute angle is less than 90 degrees, and an obtuse angle is greater than 90 but less than 180 degrees!",
+   "emoji": "📐",
+   "bgColor": "from-amber-400 to-orange-500",
+   "spoken": "An angle is formed when two rays meet at a common vertex! Right angles are 90 degrees, acute angles are smaller, and obtuse angles are wider!",
+   "diagram": {
+    "type": "shape-sorter",
+    "animate": true,
+    "data": {
+     "shapes": [
+      "triangle",
+      "square",
+      "circle"
+     ]
     }
-  ],
-  "challenges": [
-    {
-      "type": "identify",
-      "question": "What type of angle measures exactly 90 degrees with a square corner?",
-      "answer": "Right angle",
-      "options": [
-        "Acute angle",
-        "Right angle",
-        "Obtuse angle",
-        "Straight angle"
-      ],
-      "hint": "Think of the corner of a square book or a postcard!",
-      "misconception": "A right angle always measures exactly 90 degrees, marked with a small square at the vertex. Don't confuse it with acute or obtuse angles!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "square",
-          "label": "Acute angle",
-          "x": 0.2,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "square",
-          "label": "Right angle",
-          "x": 0.4,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "square",
-          "label": "Obtuse angle",
-          "x": 0.6000000000000001,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_3",
-          "kind": "square",
-          "label": "Straight angle",
-          "x": 0.8,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "Right angle",
-          "Acute angle"
-        ]
-      },
-      "storyBeat": "setup"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each angle measure to its correct classification!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Acute < 90°, Right = 90°, Obtuse between 90° and 180°, Straight = 180°.",
-      "misconception": "An angle of 45° is acute (less than 90°). An angle of 120° is obtuse (greater than 90° but less than 180°). Check your degree ranges!",
-      "storyBeat": "setup",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "a1",
-            "label": "45 degrees",
-            "correctBin": "acute-bin"
-          },
-          {
-            "id": "a2",
-            "label": "90 degrees",
-            "correctBin": "right-bin"
-          },
-          {
-            "id": "a3",
-            "label": "120 degrees",
-            "correctBin": "obtuse-bin"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "a1",
-          "kind": "circle",
-          "label": "45 degrees",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "acute-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "acute-bin"
-        },
-        {
-          "id": "a2",
-          "kind": "circle",
-          "label": "90 degrees",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "right-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "right-bin"
-        },
-        {
-          "id": "a3",
-          "kind": "circle",
-          "label": "120 degrees",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "obtuse-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "obtuse-bin"
-        },
-        {
-          "id": "a4",
-          "kind": "circle",
-          "label": "180 degrees",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "straight-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "straight-bin"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "a1",
-          "label": "45 degrees",
-          "emoji": "",
-          "correctBin": "acute-bin"
-        },
-        {
-          "id": "a2",
-          "label": "90 degrees",
-          "emoji": "",
-          "correctBin": "right-bin"
-        },
-        {
-          "id": "a3",
-          "label": "120 degrees",
-          "emoji": "",
-          "correctBin": "obtuse-bin"
-        },
-        {
-          "id": "a4",
-          "label": "180 degrees",
-          "emoji": "",
-          "correctBin": "straight-bin"
-        }
-      ],
-      "bins": [
-        {
-          "id": "acute-bin",
-          "label": "Acute (<90°)",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "right-bin",
-          "label": "Right (90°)",
-          "color": "#10B981"
-        },
-        {
-          "id": "obtuse-bin",
-          "label": "Obtuse (>90°)",
-          "color": "#F59E0B"
-        },
-        {
-          "id": "straight-bin",
-          "label": "Straight (180°)",
-          "color": "#EC4899"
-        }
-      ]
-    },
-    {
-      "type": "identify",
-      "question": "How many lines of reflection symmetry does a SQUARE have?",
-      "answer": "4 lines",
-      "options": [
-        "2 lines",
-        "3 lines",
-        "4 lines",
-        "Infinite lines"
-      ],
-      "hint": "Count them: vertical, horizontal, and 2 diagonals!",
-      "misconception": "A square has 4 lines of symmetry: 2 through the midpoints of opposite sides and 2 along the diagonal corners. Don't forget the diagonals!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "square",
-          "label": "2 lines",
-          "x": 0.2,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "square",
-          "label": "3 lines",
-          "x": 0.4,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "square",
-          "label": "4 lines",
-          "x": 0.6000000000000001,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_3",
-          "kind": "square",
-          "label": "Infinite lines",
-          "x": 0.8,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "4 lines",
-          "2 lines"
-        ]
-      },
-      "storyBeat": "inciting"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each 2D shape to its correct number of lines of symmetry!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Square = 4, Rectangle = 2, Equilateral Triangle = 3, Circle = Infinite.",
-      "misconception": "A rectangle has ONLY 2 lines of symmetry (horizontal and vertical) because its diagonals do not match when folded! A circle has infinite.",
-      "storyBeat": "inciting",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "s-sq",
-            "label": "Square",
-            "correctBin": "bin-4"
-          },
-          {
-            "id": "s-rec",
-            "label": "Rectangle",
-            "correctBin": "bin-2"
-          },
-          {
-            "id": "s-tri",
-            "label": "Eq. Triangle",
-            "correctBin": "bin-3"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "s-sq",
-          "kind": "circle",
-          "label": "Square",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-4",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-4"
-        },
-        {
-          "id": "s-rec",
-          "kind": "circle",
-          "label": "Rectangle",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-2",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-2"
-        },
-        {
-          "id": "s-tri",
-          "kind": "circle",
-          "label": "Eq. Triangle",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-3",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-3"
-        },
-        {
-          "id": "s-circ",
-          "kind": "circle",
-          "label": "Circle",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-inf",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-inf"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "s-sq",
-          "label": "Square",
-          "emoji": "",
-          "correctBin": "bin-4"
-        },
-        {
-          "id": "s-rec",
-          "label": "Rectangle",
-          "emoji": "",
-          "correctBin": "bin-2"
-        },
-        {
-          "id": "s-tri",
-          "label": "Eq. Triangle",
-          "emoji": "",
-          "correctBin": "bin-3"
-        },
-        {
-          "id": "s-circ",
-          "label": "Circle",
-          "emoji": "",
-          "correctBin": "bin-inf"
-        }
-      ],
-      "bins": [
-        {
-          "id": "bin-2",
-          "label": "2 Lines",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "bin-3",
-          "label": "3 Lines",
-          "color": "#8B5CF6"
-        },
-        {
-          "id": "bin-4",
-          "label": "4 Lines",
-          "color": "#10B981"
-        },
-        {
-          "id": "bin-inf",
-          "label": "Infinite",
-          "color": "#EC4899"
-        }
-      ]
-    },
-    {
-      "type": "identify",
-      "question": "Which 3D shape has circular top and bottom faces and a curved surface?",
-      "answer": "Cylinder",
-      "options": [
-        "Cube",
-        "Cylinder",
-        "Cone",
-        "Cuboid"
-      ],
-      "hint": "Think of a cold drink tin can or a water pipe!",
-      "misconception": "A cylinder has two circular parallel flat faces and one curved surface. A cone has only one circular base and tapers to a point!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "square",
-          "label": "Cube",
-          "x": 0.2,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "square",
-          "label": "Cylinder",
-          "x": 0.4,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "square",
-          "label": "Cone",
-          "x": 0.6000000000000001,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_3",
-          "kind": "square",
-          "label": "Cuboid",
-          "x": 0.8,
-          "y": 0.65,
-          "size": 55,
-          "color": "#4ecdc4",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "Cylinder",
-          "Cube"
-        ]
-      },
-      "storyBeat": "rising"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each 3D shape to its correct net (flat pattern)!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Cube = 6 squares. Cylinder = rectangle + 2 circles. Cone = sector + 1 circle.",
-      "misconception": "The net of a cylinder consists of a rectangle (whose length equals the circle's circumference) plus two equal circles. Don't confuse it with a cone net!",
-      "storyBeat": "rising",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "n-cube",
-            "label": "Cube Net",
-            "correctBin": "cube-bin"
-          },
-          {
-            "id": "n-cyl",
-            "label": "Cylinder Net",
-            "correctBin": "cylinder-bin"
-          },
-          {
-            "id": "n-cone",
-            "label": "Cone Net",
-            "correctBin": "cone-bin"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "n-cube",
-          "kind": "circle",
-          "label": "Cube Net",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "cube-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "cube-bin"
-        },
-        {
-          "id": "n-cyl",
-          "kind": "circle",
-          "label": "Cylinder Net",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "cylinder-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "cylinder-bin"
-        },
-        {
-          "id": "n-cone",
-          "kind": "circle",
-          "label": "Cone Net",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "cone-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "cone-bin"
-        },
-        {
-          "id": "n-cub",
-          "kind": "circle",
-          "label": "Cuboid Net",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "cuboid-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "cuboid-bin"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "n-cube",
-          "label": "Cube Net",
-          "emoji": "",
-          "correctBin": "cube-bin"
-        },
-        {
-          "id": "n-cyl",
-          "label": "Cylinder Net",
-          "emoji": "",
-          "correctBin": "cylinder-bin"
-        },
-        {
-          "id": "n-cone",
-          "label": "Cone Net",
-          "emoji": "",
-          "correctBin": "cone-bin"
-        },
-        {
-          "id": "n-cub",
-          "label": "Cuboid Net",
-          "emoji": "",
-          "correctBin": "cuboid-bin"
-        }
-      ],
-      "bins": [
-        {
-          "id": "cube-bin",
-          "label": "6 Squares",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "cylinder-bin",
-          "label": "Rect + 2 Circles",
-          "color": "#10B981"
-        },
-        {
-          "id": "cone-bin",
-          "label": "Sector + Circle",
-          "color": "#F59E0B"
-        },
-        {
-          "id": "cuboid-bin",
-          "label": "6 Rectangles",
-          "color": "#8B5CF6"
-        }
-      ]
-    },
-    {
-      "type": "identify",
-      "question": "How many faces, edges, and vertices does a CUBE have?",
-      "answer": "6 faces, 12 edges, 8 vertices",
-      "options": [
-        "6 faces, 8 edges, 12 vertices",
-        "6 faces, 12 edges, 8 vertices",
-        "8 faces, 12 edges, 6 vertices",
-        "12 faces, 6 edges, 8 vertices"
-      ],
-      "hint": "Count the square faces (6), the straight lines where they meet (12), and the corner points (8)!",
-      "misconception": "A cube has 6 square faces, 12 straight edges, and 8 corner vertices. Make sure you count edges and vertices correctly!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "circle",
-          "label": "6 faces, 8 edges, 12 vertices",
-          "x": 0.2,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "circle",
-          "label": "6 faces, 12 edges, 8 vertices",
-          "x": 0.4,
-          "y": 0.65,
-          "size": 55,
-          "color": "#22c55e",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "circle",
-          "label": "8 faces, 12 edges, 6 vertices",
-          "x": 0.6000000000000001,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_3",
-          "kind": "circle",
-          "label": "12 faces, 6 edges, 8 vertices",
-          "x": 0.8,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "6 faces, 8 edges, 12 vertices",
-          "6 faces, 12 edges, 8 vertices"
-        ]
-      },
-      "storyBeat": "climax"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each object or shape to its symmetry type!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Human body = bilateral reflection symmetry. Wheel = rotational symmetry.",
-      "misconception": "A ceiling fan or wheel has rotational symmetry because it looks identical after turning. A human body has bilateral reflection symmetry along the centre!",
-      "storyBeat": "resolution",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "sym-body",
-            "label": "Human Body",
-            "correctBin": "reflect-bin"
-          },
-          {
-            "id": "sym-wheel",
-            "label": "Bicycle Wheel",
-            "correctBin": "rotate-bin"
-          },
-          {
-            "id": "sym-cube",
-            "label": "Cube Solid",
-            "correctBin": "both-bin"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "sym-body",
-          "kind": "circle",
-          "label": "Human Body",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "reflect-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "reflect-bin"
-        },
-        {
-          "id": "sym-wheel",
-          "kind": "circle",
-          "label": "Bicycle Wheel",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "rotate-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "rotate-bin"
-        },
-        {
-          "id": "sym-cube",
-          "kind": "circle",
-          "label": "Cube Solid",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "both-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "both-bin"
-        },
-        {
-          "id": "sym-rock",
-          "kind": "circle",
-          "label": "Irregular Rock",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "none-bin",
-          "interaction": "drag-to-bin",
-          "targetBin": "none-bin"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "sym-body",
-          "label": "Human Body",
-          "emoji": "",
-          "correctBin": "reflect-bin"
-        },
-        {
-          "id": "sym-wheel",
-          "label": "Bicycle Wheel",
-          "emoji": "",
-          "correctBin": "rotate-bin"
-        },
-        {
-          "id": "sym-cube",
-          "label": "Cube Solid",
-          "emoji": "",
-          "correctBin": "both-bin"
-        },
-        {
-          "id": "sym-rock",
-          "label": "Irregular Rock",
-          "emoji": "",
-          "correctBin": "none-bin"
-        }
-      ],
-      "bins": [
-        {
-          "id": "reflect-bin",
-          "label": "Reflection Only",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "rotate-bin",
-          "label": "Rotational Only",
-          "color": "#10B981"
-        },
-        {
-          "id": "both-bin",
-          "label": "Both Symmetries",
-          "color": "#8B5CF6"
-        },
-        {
-          "id": "none-bin",
-          "label": "No Symmetry",
-          "color": "#EF4444"
-        }
-      ]
+   }
+  },
+  {
+   "title": "Classifying Angles 🔍",
+   "text": "Look at the opening between the arms! A square corner is a right angle (90 deg). Sharper openings like 45 degrees are acute. Wider openings like 120 degrees are obtuse. Straight lines form straight angles (180 deg)!",
+   "emoji": "🔍",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": "Look at the opening! Square corners are right angles, sharper are acute, wider are obtuse, and flat lines are straight angles!",
+   "diagram": {
+    "type": "shape-sorter",
+    "animate": true,
+    "data": {
+     "shapes": [
+      "triangle",
+      "square",
+      "circle"
+     ]
     }
-  ],
-  "theme": "art",
-  "storyArc": {
-    "theme": "A young mathematician discovers the power of numbers",
-    "beats": [
-      {
-        "name": "setup",
-        "challengeIndices": [
-          0,
-          1
-        ],
-        "sceneDescription": "The mascot welcomes the student and introduces the topic",
-        "mascotDialogue": "Welcome! Let's explore this together!"
-      },
-      {
-        "name": "inciting",
-        "challengeIndices": [
-          2,
-          3
-        ],
-        "sceneDescription": "A problem is presented that requires the new knowledge",
-        "mascotDialogue": "Here is a challenge — can you figure it out?"
-      },
-      {
-        "name": "rising",
-        "challengeIndices": [
-          4,
-          5
-        ],
-        "sceneDescription": "The challenges get harder as understanding deepens",
-        "mascotDialogue": "You are getting better! Try these harder ones!"
-      },
-      {
-        "name": "climax",
-        "challengeIndices": [
-          6
-        ],
-        "sceneDescription": "The hardest challenge — a real test of mastery",
-        "mascotDialogue": "This is the big one! Show me what you have learned!"
-      },
-      {
-        "name": "resolution",
-        "challengeIndices": [
-          7
-        ],
-        "sceneDescription": "The student demonstrates mastery and celebrates",
-        "mascotDialogue": "Amazing! You have mastered this topic!"
-      }
+   }
+  },
+  {
+   "title": "Symmetry in 3D Shapes 🏛️",
+   "text": "3D shapes have planes of symmetry that slice them into two identical mirror halves. A cube has several symmetry planes through opposite faces and edges. Famous buildings like the Taj Mahal and the human body show bilateral reflection symmetry!",
+   "emoji": "🏛️",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": "Three dimensional shapes have planes of symmetry that slice them into mirror halves! The human body and buildings like the Taj Mahal show reflection symmetry!",
+   "diagram": {
+    "type": "shape-sorter",
+    "animate": true,
+    "data": {
+     "shapes": [
+      "triangle",
+      "square",
+      "circle"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Reflection & Rotational 2D Symmetry 🦋",
+   "text": "Reflection symmetry is when one half mirrors the other across a line. A square has 4 lines of symmetry, a rectangle has 2. Rotational symmetry is when a shape looks identical after being turned around its centre!",
+   "emoji": "🦋",
+   "bgColor": "from-green-400 to-teal-500",
+   "spoken": "Reflection symmetry means one half mirrors the other across a line. Rotational symmetry means the shape looks identical after being turned!",
+   "diagram": {
+    "type": "shape-sorter",
+    "animate": true,
+    "data": {
+     "shapes": [
+      "triangle",
+      "square",
+      "circle"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Nets of 3D Shapes 📦",
+   "text": "A net is a flat 2D pattern that folds up into a 3D solid! A cube's net is 6 squares in a cross. A cylinder's net is a rectangle plus 2 circles. A cone's net is a sector plus a circle!",
+   "emoji": "📦",
+   "bgColor": "from-rose-400 to-pink-500",
+   "spoken": "A net is a flat pattern that folds into a 3D solid! A cube uses 6 squares, a cylinder uses a rectangle and two circles!",
+   "diagram": {
+    "type": "shape-sorter",
+    "animate": true,
+    "data": {
+     "shapes": [
+      "triangle",
+      "square",
+      "circle",
+      "rectangle"
+     ]
+    }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "What type of angle measures exactly 90 degrees with a square corner?",
+   "answer": "Right angle",
+   "options": [
+    "Acute angle",
+    "Right angle",
+    "Obtuse angle",
+    "Straight angle"
+   ],
+   "hint": "Think of the corner of a square book or a postcard!",
+   "misconception": "A right angle always measures exactly 90 degrees, marked with a small square at the vertex. Don't confuse it with acute or obtuse angles!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "square",
+     "label": "Acute angle",
+     "x": 0.2,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "square",
+     "label": "Right angle",
+     "x": 0.4,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "square",
+     "label": "Obtuse angle",
+     "x": 0.6000000000000001,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_3",
+     "kind": "square",
+     "label": "Straight angle",
+     "x": 0.8,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "Right angle",
+     "Acute angle"
     ]
+   },
+   "storyBeat": "setup"
   },
-  "learningArtifact": {
-    "type": "filling-chart",
-    "title": "Math Master Chart",
-    "totalPieces": 8
+  {
+   "type": "sort",
+   "question": "Drag each angle measure to its correct classification!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Acute < 90°, Right = 90°, Obtuse between 90° and 180°, Straight = 180°.",
+   "misconception": "An angle of 45° is acute (less than 90°). An angle of 120° is obtuse (greater than 90° but less than 180°). Check your degree ranges!",
+   "storyBeat": "setup",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "a1",
+      "label": "45 degrees",
+      "correctBin": "acute-bin"
+     },
+     {
+      "id": "a2",
+      "label": "90 degrees",
+      "correctBin": "right-bin"
+     },
+     {
+      "id": "a3",
+      "label": "120 degrees",
+      "correctBin": "obtuse-bin"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "a1",
+     "kind": "circle",
+     "label": "45 degrees",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "acute-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "acute-bin"
+    },
+    {
+     "id": "a2",
+     "kind": "circle",
+     "label": "90 degrees",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "right-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "right-bin"
+    },
+    {
+     "id": "a3",
+     "kind": "circle",
+     "label": "120 degrees",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "obtuse-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "obtuse-bin"
+    },
+    {
+     "id": "a4",
+     "kind": "circle",
+     "label": "180 degrees",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "straight-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "straight-bin"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "a1",
+     "label": "45 degrees",
+     "emoji": "",
+     "correctBin": "acute-bin"
+    },
+    {
+     "id": "a2",
+     "label": "90 degrees",
+     "emoji": "",
+     "correctBin": "right-bin"
+    },
+    {
+     "id": "a3",
+     "label": "120 degrees",
+     "emoji": "",
+     "correctBin": "obtuse-bin"
+    },
+    {
+     "id": "a4",
+     "label": "180 degrees",
+     "emoji": "",
+     "correctBin": "straight-bin"
+    }
+   ],
+   "bins": [
+    {
+     "id": "acute-bin",
+     "label": "Acute (<90°)",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "right-bin",
+     "label": "Right (90°)",
+     "color": "#10B981"
+    },
+    {
+     "id": "obtuse-bin",
+     "label": "Obtuse (>90°)",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "straight-bin",
+     "label": "Straight (180°)",
+     "color": "#EC4899"
+    }
+   ]
   },
-  "worldMapNode": {
-    "nodeId": "c5_AnglesSymmetryGame",
-    "region": "Mathland",
-    "mapX": 0.5800000000000001,
-    "mapY": 1.07,
-    "icon": "🔢",
-    "prerequisites": []
+  {
+   "type": "identify",
+   "question": "How many lines of reflection symmetry does a SQUARE have?",
+   "answer": "4 lines",
+   "options": [
+    "2 lines",
+    "3 lines",
+    "4 lines",
+    "Infinite lines"
+   ],
+   "hint": "Count them: vertical, horizontal, and 2 diagonals!",
+   "misconception": "A square has 4 lines of symmetry: 2 through the midpoints of opposite sides and 2 along the diagonal corners. Don't forget the diagonals!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "square",
+     "label": "2 lines",
+     "x": 0.2,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "square",
+     "label": "3 lines",
+     "x": 0.4,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "square",
+     "label": "4 lines",
+     "x": 0.6000000000000001,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_3",
+     "kind": "square",
+     "label": "Infinite lines",
+     "x": 0.8,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "4 lines",
+     "2 lines"
+    ]
+   },
+   "storyBeat": "inciting"
   },
-  "subject": "maths"
+  {
+   "type": "sort",
+   "question": "Drag each 2D shape to its correct number of lines of symmetry!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Square = 4, Rectangle = 2, Equilateral Triangle = 3, Circle = Infinite.",
+   "misconception": "A rectangle has ONLY 2 lines of symmetry (horizontal and vertical) because its diagonals do not match when folded! A circle has infinite.",
+   "storyBeat": "inciting",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "s-sq",
+      "label": "Square",
+      "correctBin": "bin-4"
+     },
+     {
+      "id": "s-rec",
+      "label": "Rectangle",
+      "correctBin": "bin-2"
+     },
+     {
+      "id": "s-tri",
+      "label": "Eq. Triangle",
+      "correctBin": "bin-3"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "s-sq",
+     "kind": "circle",
+     "label": "Square",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-4",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-4"
+    },
+    {
+     "id": "s-rec",
+     "kind": "circle",
+     "label": "Rectangle",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "s-tri",
+     "kind": "circle",
+     "label": "Eq. Triangle",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    },
+    {
+     "id": "s-circ",
+     "kind": "circle",
+     "label": "Circle",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-inf",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-inf"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "s-sq",
+     "label": "Square",
+     "emoji": "",
+     "correctBin": "bin-4"
+    },
+    {
+     "id": "s-rec",
+     "label": "Rectangle",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "s-tri",
+     "label": "Eq. Triangle",
+     "emoji": "",
+     "correctBin": "bin-3"
+    },
+    {
+     "id": "s-circ",
+     "label": "Circle",
+     "emoji": "",
+     "correctBin": "bin-inf"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-2",
+     "label": "2 Lines",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "bin-3",
+     "label": "3 Lines",
+     "color": "#8B5CF6"
+    },
+    {
+     "id": "bin-4",
+     "label": "4 Lines",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-inf",
+     "label": "Infinite",
+     "color": "#EC4899"
+    }
+   ]
+  },
+  {
+   "type": "identify",
+   "question": "Which 3D shape has circular top and bottom faces and a curved surface?",
+   "answer": "Cylinder",
+   "options": [
+    "Cube",
+    "Cylinder",
+    "Cone",
+    "Cuboid"
+   ],
+   "hint": "Think of a cold drink tin can or a water pipe!",
+   "misconception": "A cylinder has two circular parallel flat faces and one curved surface. A cone has only one circular base and tapers to a point!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "square",
+     "label": "Cube",
+     "x": 0.2,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "square",
+     "label": "Cylinder",
+     "x": 0.4,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "square",
+     "label": "Cone",
+     "x": 0.6000000000000001,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_3",
+     "kind": "square",
+     "label": "Cuboid",
+     "x": 0.8,
+     "y": 0.65,
+     "size": 55,
+     "color": "#4ecdc4",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "Cylinder",
+     "Cube"
+    ]
+   },
+   "storyBeat": "rising"
+  },
+  {
+   "type": "sort",
+   "question": "Drag each 3D shape to its correct net (flat pattern)!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Cube = 6 squares. Cylinder = rectangle + 2 circles. Cone = sector + 1 circle.",
+   "misconception": "The net of a cylinder consists of a rectangle (whose length equals the circle's circumference) plus two equal circles. Don't confuse it with a cone net!",
+   "storyBeat": "rising",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "n-cube",
+      "label": "Cube Net",
+      "correctBin": "cube-bin"
+     },
+     {
+      "id": "n-cyl",
+      "label": "Cylinder Net",
+      "correctBin": "cylinder-bin"
+     },
+     {
+      "id": "n-cone",
+      "label": "Cone Net",
+      "correctBin": "cone-bin"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "n-cube",
+     "kind": "circle",
+     "label": "Cube Net",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "cube-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "cube-bin"
+    },
+    {
+     "id": "n-cyl",
+     "kind": "circle",
+     "label": "Cylinder Net",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "cylinder-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "cylinder-bin"
+    },
+    {
+     "id": "n-cone",
+     "kind": "circle",
+     "label": "Cone Net",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "cone-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "cone-bin"
+    },
+    {
+     "id": "n-cub",
+     "kind": "circle",
+     "label": "Cuboid Net",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "cuboid-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "cuboid-bin"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "n-cube",
+     "label": "Cube Net",
+     "emoji": "",
+     "correctBin": "cube-bin"
+    },
+    {
+     "id": "n-cyl",
+     "label": "Cylinder Net",
+     "emoji": "",
+     "correctBin": "cylinder-bin"
+    },
+    {
+     "id": "n-cone",
+     "label": "Cone Net",
+     "emoji": "",
+     "correctBin": "cone-bin"
+    },
+    {
+     "id": "n-cub",
+     "label": "Cuboid Net",
+     "emoji": "",
+     "correctBin": "cuboid-bin"
+    }
+   ],
+   "bins": [
+    {
+     "id": "cube-bin",
+     "label": "6 Squares",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "cylinder-bin",
+     "label": "Rect + 2 Circles",
+     "color": "#10B981"
+    },
+    {
+     "id": "cone-bin",
+     "label": "Sector + Circle",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "cuboid-bin",
+     "label": "6 Rectangles",
+     "color": "#8B5CF6"
+    }
+   ]
+  },
+  {
+   "type": "identify",
+   "question": "How many faces, edges, and vertices does a CUBE have?",
+   "answer": "6 faces, 12 edges, 8 vertices",
+   "options": [
+    "6 faces, 8 edges, 12 vertices",
+    "6 faces, 12 edges, 8 vertices",
+    "8 faces, 12 edges, 6 vertices",
+    "12 faces, 6 edges, 8 vertices"
+   ],
+   "hint": "Count the square faces (6), the straight lines where they meet (12), and the corner points (8)!",
+   "misconception": "A cube has 6 square faces, 12 straight edges, and 8 corner vertices. Make sure you count edges and vertices correctly!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "6 faces, 8 edges, 12 vertices",
+     "x": 0.2,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "6 faces, 12 edges, 8 vertices",
+     "x": 0.4,
+     "y": 0.65,
+     "size": 55,
+     "color": "#22c55e",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "8 faces, 12 edges, 6 vertices",
+     "x": 0.6000000000000001,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_3",
+     "kind": "circle",
+     "label": "12 faces, 6 edges, 8 vertices",
+     "x": 0.8,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "6 faces, 8 edges, 12 vertices",
+     "6 faces, 12 edges, 8 vertices"
+    ]
+   },
+   "storyBeat": "climax"
+  },
+  {
+   "type": "sort",
+   "question": "Drag each object or shape to its symmetry type!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Human body = bilateral reflection symmetry. Wheel = rotational symmetry.",
+   "misconception": "A ceiling fan or wheel has rotational symmetry because it looks identical after turning. A human body has bilateral reflection symmetry along the centre!",
+   "storyBeat": "resolution",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "sym-body",
+      "label": "Human Body",
+      "correctBin": "reflect-bin"
+     },
+     {
+      "id": "sym-wheel",
+      "label": "Bicycle Wheel",
+      "correctBin": "rotate-bin"
+     },
+     {
+      "id": "sym-cube",
+      "label": "Cube Solid",
+      "correctBin": "both-bin"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "sym-body",
+     "kind": "circle",
+     "label": "Human Body",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "reflect-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "reflect-bin"
+    },
+    {
+     "id": "sym-wheel",
+     "kind": "circle",
+     "label": "Bicycle Wheel",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "rotate-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "rotate-bin"
+    },
+    {
+     "id": "sym-cube",
+     "kind": "circle",
+     "label": "Cube Solid",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "both-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "both-bin"
+    },
+    {
+     "id": "sym-rock",
+     "kind": "circle",
+     "label": "Irregular Rock",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "none-bin",
+     "interaction": "drag-to-bin",
+     "targetBin": "none-bin"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "sym-body",
+     "label": "Human Body",
+     "emoji": "",
+     "correctBin": "reflect-bin"
+    },
+    {
+     "id": "sym-wheel",
+     "label": "Bicycle Wheel",
+     "emoji": "",
+     "correctBin": "rotate-bin"
+    },
+    {
+     "id": "sym-cube",
+     "label": "Cube Solid",
+     "emoji": "",
+     "correctBin": "both-bin"
+    },
+    {
+     "id": "sym-rock",
+     "label": "Irregular Rock",
+     "emoji": "",
+     "correctBin": "none-bin"
+    }
+   ],
+   "bins": [
+    {
+     "id": "reflect-bin",
+     "label": "Reflection Only",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "rotate-bin",
+     "label": "Rotational Only",
+     "color": "#10B981"
+    },
+    {
+     "id": "both-bin",
+     "label": "Both Symmetries",
+     "color": "#8B5CF6"
+    },
+    {
+     "id": "none-bin",
+     "label": "No Symmetry",
+     "color": "#EF4444"
+    }
+   ]
+  }
+ ],
+ "theme": "art",
+ "storyArc": {
+  "theme": "A young mathematician discovers the power of numbers",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Math Master Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c5_AnglesSymmetryGame",
+  "region": "Mathland",
+  "mapX": 0.5800000000000001,
+  "mapY": 1.07,
+  "icon": "🔢",
+  "prerequisites": []
+ },
+ "subject": "maths"
 }

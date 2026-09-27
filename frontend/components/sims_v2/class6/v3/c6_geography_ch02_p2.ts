@@ -8,7 +8,7 @@ export const c6_geography_ch02_p2: SimDef = {
     subtitle: 'This node covers the daily impact of weather on human life and economic activities like.',
     classLevel: 6, subject: 'geography', topic: 'Understanding the Weather · Part 2/2',
     chapters: ['c6_geography_ch02'],
-    nodeIds: ['c6_geography_ch02_008'],
+    nodeIds: ['c6_geography_ch02_014'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Think about the last time you decided what to wear to school—did you check if it was raining or sunny?', goal: 'Master every idea in this chapter.' },

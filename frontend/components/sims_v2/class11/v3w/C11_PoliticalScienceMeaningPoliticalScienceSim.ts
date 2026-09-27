@@ -132,7 +132,7 @@ export const w_c11_politicalsciencemeaningpoliticalsciencesim: SimDef = {
           hint: 'Review the distinction between Article 14 (equality before law) and Article 15(4)/16(4).',
           misconception: 'Students often think "equality" means only legal equality (Article 14) and that providing the same rights to everyone.',
           parts: [
-                { id: 'a', prompt: 'List the four dimensions of equality discussed in the chapter and give one constitutional provision or right that exemplifies each dimension.', answer: 'Correct answer: Political – universal adult franchise (Article 326)',
+                { id: 'a', prompt: 'List the four dimensions of equality discussed in the chapter and give one constitutional provision or right that exemplifies each dimension.', answer: 'Political – universal adult franchise (Article 326)',
                   options: ['Correct answer: Political – universal adult franchise (Article 326)', 'equality'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "equality" means only legal equality (Article 14) and that providing the same rights to everyone automatically creates.' }
@@ -143,7 +143,7 @@ export const w_c11_politicalsciencemeaningpoliticalsciencesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think "equality" means only legal equality (Article 14) and that providing the same rights to everyone.',
           parts: [
-                { id: 'a', prompt: 'Assess the statement: \'Legal equality is sufficient for a just society; social and economic inequalities are outcomes of individual effort.\' Use evidence from.', answer: 'Correct answer: The statement is flawed',
+                { id: 'a', prompt: 'Assess the statement: \'Legal equality is sufficient for a just society; social and economic inequalities are outcomes of individual effort.\' Use evidence from.', answer: 'The statement is flawed',
                   options: ['Correct answer: The statement is flawed', 'equality'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "equality" means only legal equality (Article 14) and that providing the same rights to everyone automatically creates.' }

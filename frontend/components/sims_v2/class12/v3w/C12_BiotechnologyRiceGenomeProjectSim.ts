@@ -131,7 +131,7 @@ export const w_c12_biotechnologyricegenomeprojectsim: SimDef = {
           hint: 'Revisit c11_biotech_cbse_12_008 (Recombinant DNA Technology: Vectors and Cloning) and.',
           misconception: 'Students often believe that *Agrobacterium* transfers the entire Ti plasmid into the plant cell.',
           parts: [
-                { id: 'a', prompt: 'Name the two principal gene transfer methods used for creating transgenic plants and state the biological basis of each method in one sentence.', answer: 'Correct answer: (1) *Agrobacterium tumefaciens*-mediated transformation',
+                { id: 'a', prompt: 'Name the two principal gene transfer methods used for creating transgenic plants and state the biological basis of each method in one sentence.', answer: '(1) *Agrobacterium tumefaciens*-mediated transformation',
                   options: ['Correct answer: (1) *Agrobacterium tumefaciens*-mediated transformation', 'electroporation and microinjection', '*Agrobacterium* transfers the entire Ti plasmid into the plant cell'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that *Agrobacterium* transfers the entire Ti plasmid into the plant cell.' }

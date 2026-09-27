@@ -1,0 +1,672 @@
+{
+ "gameFile": "HinMatraSentenceGame",
+ "classLevel": 2,
+ "cisceNodes": [
+  "c2_hin_001"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Matras in Real Words 🪔",
+   "text": "You know matras — now they hide inside real sentences! 'मीना खेलती है' — find the matras!",
+   "emoji": "🪔",
+   "bgColor": "from-orange-400 to-red-500",
+   "spoken": ""
+  },
+  {
+   "title": "ी vs ि — Long and Short ⏱️",
+   "text": "बी (bee) vs बि (bi) — the matra's length changes the sound AND the meaning!",
+   "emoji": "⏱️",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "ु vs ू — Short and Long 🔄",
+   "text": "कु (ku) vs कू (koo) — the small matra under the letter is short, the deeper hook is long!",
+   "emoji": "🔄",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Matra Changes Meaning 🔀",
+   "text": "मल vs माल — the ा matra turns 'mal' (dirt) into 'maal' (goods)! One mark, new word!",
+   "emoji": "🔀",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "Read the Full Sentence 📖",
+   "text": "'मोहन की माला हरी है' — read each akshar+matra, and the sentence sings!",
+   "emoji": "📖",
+   "bgColor": "from-pink-400 to-rose-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "Which matra is in 'बीच'?",
+   "answer": "ी (ee)",
+   "options": [
+    "ी (ee)",
+    "ि (i)",
+    "ु (u)"
+   ],
+   "hint": "'beech' — the long ee sound!",
+   "misconception": "'बीच' has ी — the long 'ee' matra on the right!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "ी (ee)",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "ि (i)",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "ु (u)",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ी (ee)",
+     "ि (i)"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'मिल' vs 'मील' — which means 'mile/distance'?",
+   "answer": "मील",
+   "options": [
+    "मील",
+    "मिल",
+    "both"
+   ],
+   "hint": "Long 'ee' = distance; short 'i' = to meet!",
+   "misconception": "'मील' (long ी) = distance; 'मिल' (short ि) = meet — matra length changes meaning!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "मील",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "मिल",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "both",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "मील",
+     "मिल"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "कु + ल = ?",
+   "answer": "कुल",
+   "options": [
+    "कुल",
+    "कूल",
+    "किल"
+   ],
+   "hint": "ku + la = kula!",
+   "misconception": "'कुल' = क + ु + ल — the ु matra sits under क!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "कुल",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "कूल",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "किल",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "कुल",
+     "कूल"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort the words by their vowel sound!",
+   "answer": "sort",
+   "options": [],
+   "hint": "'ee' words vs 'u' words — say each aloud!",
+   "misconception": "नील/पील carry ी (ee); कुल/सुल carry ु (u)!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "नील",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "पील",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "कुल",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "सुल",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "नील",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "पील",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-2",
+     "label": "कुल",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-3",
+     "label": "सुल",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "ee words",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "u words",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "नील",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "पील",
+      "emoji": "",
+      "correctBin": "bin-0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'सीता' — which matra is on स?",
+   "answer": "ी (ee)",
+   "options": [
+    "ी (ee)",
+    "ा (aa)",
+    "े (e)"
+   ],
+   "hint": "'See-ta' — स needs the 'ee' sound!",
+   "misconception": "'सीता' = स + ी + त + ा — the ी matra makes the 'see'!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "ी (ee)",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "ा (aa)",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "े (e)",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ी (ee)",
+     "ा (aa)"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which sentence reads correctly?",
+   "answer": "मोहन की माला हरी है।",
+   "options": [
+    "मोहन की माला हरी है।",
+    "मोहन का माल हर है।",
+    "मोहन क माल हरी है।"
+   ],
+   "hint": "The first has proper matras and the possessive 'की'!",
+   "misconception": "'की' (ki) marks possession correctly; 'का' would be wrong gender, missing matra breaks the word!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "मोहन की माला हरी है।",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "मोहन का माल हर है।",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "मोहन क माल हरी है।",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "मोहन की माला हरी है।",
+     "मोहन का माल हर है।"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'पानी' has which matra on प?",
+   "answer": "ा (aa)",
+   "options": [
+    "ा (aa)",
+    "ि (i)",
+    "ी (ee)"
+   ],
+   "hint": "'paa-nee' — long 'aa' first!",
+   "misconception": "'पानी' = प + ा (aa) + न + ी — the ा makes 'paa'!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "letter",
+     "label": "ा (aa)",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "letter",
+     "label": "ि (i)",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "letter",
+     "label": "ी (ee)",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "ा (aa)",
+     "ि (i)"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match the word to its meaning!",
+   "answer": "sort",
+   "options": [],
+   "hint": "The matra tells you which meaning!",
+   "misconception": "माला has ा + ा (garland), माल has just ा (goods), मिल has ि (meet), मील has ी (mile)!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "माला",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "माल",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "मिल",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "मील",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "माला",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "माल",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "मिल",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "मील",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "garland",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "goods",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "meet",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "mile",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "माला",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "माल",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "matra-bridge",
+ "storyArc": {
+  "theme": "Piku bridges akshars with matras to build sentences",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Matra Bridge Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c2_hin_001",
+  "region": "Aksharlok",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "🪔",
+  "prerequisites": []
+ },
+ "subject": "hindi"
+}

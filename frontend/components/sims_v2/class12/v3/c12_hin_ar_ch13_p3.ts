@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_ar_ch13_p3: SimDef = {
     id: 'v3_c12_hin_ar_ch13_p3',
-    title: 'ckck lkgsc Hkhejko · Part 3/3',
+    title: 'पहलवान की ढोलक · Part 3/3',
     subtitle: 'The king knew his name; the new order didn\'t',
-    classLevel: 12, subject: 'hin_ar', topic: 'ckck lkgsc Hkhejko · Part 3/3',
+    classLevel: 12, subject: 'hin_ar', topic: 'पहलवान की ढोलक · Part 3/3',
     chapters: ['c12_hin_ar_ch13'],
     nodeIds: ['c12_hin_ar_cbse_13_013', 'c12_hin_ar_cbse_13_014', 'c12_hin_ar_cbse_13_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,29 +19,15 @@ export const c12_hin_ar_ch13_p3: SimDef = {
         hook: 'Dwivedi pioneered experimental fiction in Hindi — folk speech, oral rhythm, the lives of common people rendered with documentary warmth. The story isn\'t nostalgia for kings; it stages the collision where \'the system\' replaced \'the sovereign\' — and nobody told the artist.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the disciplined process of examining a literary text beyond its literal meaning to uncover layered significance, evaluate authorial choices, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पहलवान की ढोलक — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) इस पाठ में पाठ्य-सामग्री के पार जाकर लेखक के अंतर्निहित उद्देश्य, प्रतीकों की बहु-स्तरीय व्याख्या, पात्रों के मनोवैज्ञानिक द्वंद्व और सामाजिक यथार्थ की पड़ताल.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_13_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Watch a folk artist meet the new order: weigh the king\'s court against bureaucratic law, track how art becomes \'profession\' under pressure, and find where dignity survives the transition.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_13_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 6-mark question: "How does the story use the motif of the \'shadow\' to critique the relationship between art and.',
-            decisions: [{ prompt: 'Define "critical interpretation" in the context of Class 12 Hindi prose analysis.', options: [
-                { text: '**Correct answer:** Critical interpretation is the process of constructing an arguable', outcome: '**Correct answer:** Critical interpretation is the process of constructing an arguable claim about.' },
-                { text: 'the story uses a shadow motif', outcome: 'Not quite — **"Analysis means finding hidden symbols" — students hunt for "secret meanings" (e.g., "the fire.', reveals: 'analysis-means-finding-hidden-symbols' },
-                { text: '**What a wrong answer reveals:** If', outcome: 'Not quite — **"Analysis means finding hidden symbols" — students hunt for "secret meanings" (e.g., "the fire.', reveals: 'analysis-means-finding-hidden-symbols' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_13_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are asked to write a letter to the editor about the exploitation of child artists after reading this story — where do you begin?',
-            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', options: [
-                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Plot, Event, Ending.' },
-                { text: 'Plot, Event, Ending, Lesson', outcome: 'Not quite — Students believe that writing a "character sketch" means listing physical traits and then adding.', reveals: 'writing-a-character-sketch-means' },
-                { text: 'character sketch', outcome: 'Not quite — Students believe that writing a "character sketch" means listing physical traits and then adding.', reveals: 'writing-a-character-sketch-means' }
-            ] }] } },
+        labels: ['पहलवान की ढोलक —'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_13_013', title: 'Use it in the wild',
           caseStudy: { intro: 'A folk singer from your district gets signed by a big label that drops her dialect, renames her, and reworks her songs into a commercial formula. Two years later she returns to perform in a hometown she barely recognises — and only family gathers to listen.',
             decisions: [{ prompt: 'How does \'युगुक की ढोलकी\' / the flautist\'s tale frame her trajectory?', options: [
@@ -56,58 +42,43 @@ export const c12_hin_ar_ch13_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the disciplined process.',
-          hint: 'If stuck, return to c12_hin_ar_cbse_13_012 (Comprehension) and c12_hin_ar_cbse_13_008-009.',
-          misconception: '**"Analysis means finding hidden symbols" — students hunt for "secret meanings" (e.g., "the fire represents passion").',
+          question: 'आलोचनात्मक चिंतन (Critical Thinking) इस पाठ में पाठ्य-सामग्री के पार जाकर लेखक.',
+          hint: 'यदि प्रतीक व्याख्या में अटके: c12_hin_ar_cbse_13_008 (बिंब और रूपक) और.',
+          misconception: 'छात्र अक्सर \'आलोचनात्मक चिंतन\' को \'नकारात्मक आलोचना\' (fault-finding) समझ बैठते हैं और पाठ में केवल कमियाँ गिनाने लगते.',
           parts: [
-                { id: 'a', prompt: 'In "Igokhu ki Khayad," the king initially honors Igokhu (giving him land, title, protection) but later imprisons him.', answer: '**Correct answer:** No, this is not a valid critical interpretation',
-                  options: ['**Correct answer:** No, this is not a valid critical interpretation', 'character psychology', 'textual analysis'],
-                  hint: 'If stuck, return to c12_hin_ar_cbse_13_012 (Comprehension) and c12_hin_ar_cbse_13_008-009 (Literary.',
-                  misconception: '**"Analysis means finding hidden symbols" — students hunt for "secret meanings" (e.g., "the fire represents passion") instead of analyzing.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) इस पाठ में पाठ्य-सामग्री के पार जाकर लेखक के',
+                  options: ['आलोचनात्मक चिंतन (Critical Thinking) इस पाठ में पाठ्य-सामग्री के पार जाकर लेखक के', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
+                  hint: 'यदि प्रतीक व्याख्या में अटके: c12_hin_ar_cbse_13_008 (बिंब और रूपक) और c12_hin_ar_cbse_13_009.',
+                  misconception: 'छात्र अक्सर \'आलोचनात्मक चिंतन\' को \'नकारात्मक आलोचना\' (fault-finding) समझ बैठते हैं और पाठ में केवल कमियाँ गिनाने लगते हैं (जैसे: \'लेखक ने.' }
           ],
-            remediations: { 'analysis-means-finding-hidden-symbols': { steps: ['If a student cannot move beyond plot summary or device-spotting: 1.', '**Return to node 012 (Comprehension):** Have them list 5 *specific* textual moments (with page/line refs) where the.', 'No interpretation — just evidence collection.', '**Return to nodes 008-009 (Literary Devices):** For each moment, name *one* device at work (motif, parallelism.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_013', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: '**"Analysis means finding hidden symbols" — students hunt for "secret meanings" (e.g., "the fire represents passion").',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this interpretive claim: "The character of the Yuvraj (prince) represents the inevitable modernization of tribal society; his harshness.', answer: '**Correct answer:** Refute',
-                  options: ['**Correct answer:** Refute', 'historical context', 'textual evidence'],
-                  hint: 'If stuck, return to c12_hin_ar_cbse_13_012 (Comprehension) and c12_hin_ar_cbse_13_008-009 (Literary.',
-                  misconception: '**"Analysis means finding hidden symbols" — students hunt for "secret meanings" (e.g., "the fire represents passion") instead of analyzing.' }
-          ],
-            remediations: { 'analysis-means-finding-hidden-symbols': { steps: ['If a student cannot move beyond plot summary or device-spotting: 1.', '**Return to node 012 (Comprehension):** Have them list 5 *specific* textual moments (with page/line refs) where the.', 'No interpretation — just evidence collection.', '**Return to nodes 008-009 (Literary Devices):** For each moment, name *one* device at work (motif, parallelism.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'fault-finding': { steps: ['चरण 1: छात्र से कहें — "पाठ का कोई एक वाक्य चुनो जो तुम्हें \'अजीब\' या \'विरोधाभासी\' लगा हो (जैसे: बलवान पहलवान नाचता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refer to the ability to compose structured.',
-          hint: 'If stuck on Evidence selection, review node **c12_hin_ar_cbse_13_012** (Comprehension).',
-          misconception: 'Students believe that writing a "character sketch" means listing physical traits and then adding a moral lesson at the.',
+          question: '"लेखन कौशल: पाठ-आधारित" का अर्थ है NCERT पाठ "पहलवान की ढोलक" के कथ्य, पात्र.',
+          hint: 'यदि PEEL संरचना लागू करने में अटके → **c11_hin_ar_cbse_13_014** (कक्षा 11 का समान नोड) पर.',
+          misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित लेखन का अर्थ है पाठ की बातें अपने शब्दों में दोहराना (paraphrasing)।"*.',
           parts: [
-                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
-                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Plot, Event, Ending, Lesson', 'character sketch', 'इग्योकु बहुत बहादुर था, हमें भी बहादुर बनना चाहिए'],
-                  hint: 'If stuck on Evidence selection, review node **c12_hin_ar_cbse_13_012** (Comprehension) and re-read.',
-                  misconception: 'Students believe that writing a "character sketch" means listing physical traits and then adding a moral lesson at the end (e.g., "इग्योकु.' },
-                { id: 'b', prompt: 'Compare the king\'s attitude toward Igyoku at the beginning of the story (when he "adopts" him) and at the end (when he discards him).', answer: 'Initially, the king treats Igyoku as a prized possession',
-                  options: ['Initially, the king treats Igyoku as a prized possession', 'the king was good then became bad', 'character sketch', 'इग्योकु बहुत बहादुर था, हमें भी बहादुर बनना चाहिए'],
-                  hint: 'If stuck on Evidence selection, review node **c12_hin_ar_cbse_13_012** (Comprehension) and re-read.',
-                  misconception: 'Students believe that writing a "character sketch" means listing physical traits and then adding a moral lesson at the end (e.g., "इग्योकु.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"लेखन कौशल: पाठ-आधारित" का अर्थ है NCERT पाठ "पहलवान की ढोलक" के कथ्य, पात्र, शिल्प,',
+                  options: ['"लेखन कौशल: पाठ-आधारित" का अर्थ है NCERT पाठ "पहलवान की ढोलक" के कथ्य, पात्र, शिल्प,', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
+                  hint: 'यदि PEEL संरचना लागू करने में अटके → **c11_hin_ar_cbse_13_014** (कक्षा 11 का समान नोड) पर लौटें.',
+                  misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित लेखन का अर्थ है पाठ की बातें अपने शब्दों में दोहराना (paraphrasing)।"* **वास्तविकता:** बोर्ड/प्रतियोगी.' }
           ],
-            remediations: { 'writing-a-character-sketch-means': { steps: ['Revisit **c11_hin_ar_cbse_13_014** (Class 11 Writing Skills for this chapter) and re-do the PEEL exercise on a simpler.', 'With the teacher, annotate a model analytical paragraph from the board\'s marking scheme: highlight Point (yellow).', 'Practice: take one theme from node **c12_hin_ar_cbse_13_006** (Primary Theme) and write a PEEL paragraph in 15 minutes.', 'Get feedback on whether Evidence is *paraphrased* (not quoted verbatim) and Explanation connects to the *author\'s.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'paraphrasing-1-2': { steps: ['**चरणबद्ध उपचार (यदि छात्र उपरोक्त भ्रांति में फँसा है):** 1.', '**पुनः पाठ पढ़ें — पर इस बार "पेंसिल से"**: हर उस वाक्य/शब्द को **अंडरलाइन/हाइलाइट** करें जो — (क) चरित्र-परिवर्तन.', '**एक प्रश्न चुनें** (जैसे: "शीर्षक की सार्थकता") और **केवल 3 साक्ष्य** ढूंढें — पूरा उत्तर न लिखें, केवल **साक्ष्य.', '**PEEL का केवल Point और Evidence लिखें** — Explanation और Link बाद में। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
-          hint: 'If stuck, return to c12_hin_ar_cbse_13_013 and re-do the "Theme Tracking Table" exercise.',
-          misconception: 'Students treat "discussion points" as a list of opinions to memorize ("Yagyu is brave," "King is cruel") rather than.',
+          question: 'वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शिक्षण प्रक्रिया है जिसमें विद्यार्थी पाठ का.',
+          hint: 'यदि अटका महसूस हो तो c12_hin_ar_cbse_13_006 (मुख्य विषय) और c12_hin_ar_cbse_13_008.',
+          misconception: 'विद्यार्थी समझते हैं कि "वाचन-श्रवण: चर्चा-बिंदु" का अर्थ है **शिक्षक द्वारा पूछे गए प्रश्नों के उत्तर रटना** या **पाठ.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', '"Before You Read: Context and Background" is a pre-reading section that provides', 'Plot and narrative structure refer to the sequence of events (plot) and the technique', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, return to c12_hin_ar_cbse_13_013 and re-do the "Theme Tracking Table" exercise — map each.',
-                  misconception: 'Students treat "discussion points" as a list of opinions to memorize ("Yagyu is brave," "King is cruel") rather than a framework for.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शिक्षण प्रक्रिया है जिसमें विद्यार्थी पाठ का सस्वर वाचन',
+                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शिक्षण प्रक्रिया है जिसमें विद्यार्थी पाठ का सस्वर वाचन', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
+                  hint: 'यदि अटका महसूस हो तो c12_hin_ar_cbse_13_006 (मुख्य विषय) और c12_hin_ar_cbse_13_008 (बिंब-रूपक) पर.',
+                  misconception: 'विद्यार्थी समझते हैं कि "वाचन-श्रवण: चर्चा-बिंदु" का अर्थ है **शिक्षक द्वारा पूछे गए प्रश्नों के उत्तर रटना** या **पाठ का अनुवाद करना**।.' }
           ],
-            remediations: { 'students-treat-discussion-points-as': { steps: ['If a student cannot move beyond opinion-sharing: Step 1 — Give them a "Claim-Evidence-Reasoning" template card.', 'Step 2 — Practice with a non-literary topic first (e.g., "Should street vendors need licenses?") to isolate the skill.', 'Step 3 — Return to the text: assign *one* claim ("Yagyu\'s art is political") and require three distinct textual.', 'Step 4 — Record their 2-minute response; playback and self-score using the CBSE speaking rubric (fluency, coherence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['विद्यार्थी को पाठ के **तीन भाव-शिखर** (पहलवान का परिचय, ढोलक संग अकेलापन, अंतिम विदाई) चिह्नित कराकर प्रत्येक का.', 'कक्षा में **\'विचार-विनिमय वृत्त\' (थिंक-पेयर-शेयर)** चलाएँ: पहले अकेले सोचें, फिर जोड़ी में बाँटें, फिर पूरे समूह में.', 'पुनः निदान: पैरा 6 का वाचन कराकर पूछें "यहाँ पहलवान की आवाज़ में क्या सुनाई देता है — गर्व, पीड़ा, या दोनों?" — यदि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

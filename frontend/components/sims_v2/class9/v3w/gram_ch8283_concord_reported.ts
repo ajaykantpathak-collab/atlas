@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c9_gram_ch82+83 The Agreement Court + The Report Machine (board pair).
  * Nodes: c9_gram_cbse_82_001, 83_001. */
 export const c9_gram_ch8283: SimDef = {
-    id: 'v3_c9_gram_ch8283',
+    id: 'v3w_c9_gram_ch8283',
     title: 'The Agreement Court & The Report Machine',
     subtitle: 'Indefinites with fixed number, neither-nor proximity — then the full reported-speech frames for all three sentence types',
     classLevel: 9, subject: 'english-grammar', topic: 'Concord and reported speech — the board pair',

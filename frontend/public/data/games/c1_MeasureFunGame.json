@@ -1,0 +1,636 @@
+{
+ "gameFile": "MeasureFunGame",
+ "classLevel": 1,
+ "cisceNodes": [
+  "c1_math_005"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Measuring Without a Ruler ✋",
+   "text": "Before rulers, people measured with their own bodies! A handspan is the widest stretch of your hand!",
+   "emoji": "✋",
+   "bgColor": "from-purple-400 to-violet-500",
+   "spoken": ""
+  },
+  {
+   "title": "Your Foot is a Ruler! 🦶",
+   "text": "Walk heel-to-toe across the classroom — each footstep is one unit! Count your steps to measure the room!",
+   "emoji": "🦶",
+   "bgColor": "from-teal-400 to-cyan-500",
+   "spoken": ""
+  },
+  {
+   "title": "Cups Measure Water 🥤",
+   "text": "How much water is in the jug? Count how many small cups fill it up!",
+   "emoji": "🥤",
+   "bgColor": "from-blue-400 to-sky-500",
+   "spoken": ""
+  },
+  {
+   "title": "Long or Short? 📏",
+   "text": "The pencil is 6 finger-widths long. Your eraser is only 2 — the pencil is longer!",
+   "emoji": "📏",
+   "bgColor": "from-rose-400 to-pink-500",
+   "spoken": ""
+  },
+  {
+   "title": "Same Unit, Fair Measure ⚖️",
+   "text": "Only compare with the SAME unit! Measure the table AND the book with handspans — never mix!",
+   "emoji": "⚖️",
+   "bgColor": "from-amber-400 to-orange-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "Piku's desk is 4 handspans long. Her book is 2 handspans. Which is longer?",
+   "answer": "the desk",
+   "options": [
+    "the desk",
+    "the book",
+    "same length"
+   ],
+   "hint": "4 handspans vs 2 handspans — which number is bigger?",
+   "misconception": "Same unit means we compare numbers — 4 > 2, so the desk is longer!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "star",
+     "label": "the desk",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "star",
+     "label": "the book",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "star",
+     "label": "same length",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "the desk",
+     "the book"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "How do you measure the classroom without a ruler?",
+   "answer": "count your footsteps",
+   "options": [
+    "count your footsteps",
+    "guess with your eyes",
+    "use a pencil box"
+   ],
+   "hint": "Walk heel-to-toe and count each step!",
+   "misconception": "Footsteps are a measuring unit — walk evenly and count!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "foot",
+     "label": "count your footsteps",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "foot",
+     "label": "guess with your eyes",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "foot",
+     "label": "use a pencil box",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "count your footsteps",
+     "guess with your eyes"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "A jug fills exactly 6 small cups. How many cups of water are in the jug?",
+   "answer": "6 cups",
+   "options": [
+    "6 cups",
+    "3 cups",
+    "10 cups"
+   ],
+   "hint": "The jug was filled by pouring 6 cups in!",
+   "misconception": "If 6 cups filled it, it holds 6 cups — the cups ARE the measurement!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "cup",
+     "label": "6 cups",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "cup",
+     "label": "3 cups",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "cup",
+     "label": "10 cups",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "6 cups",
+     "3 cups"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Arrange these units from smallest to biggest measure!",
+   "answer": "sort",
+   "options": [],
+   "hint": "A finger is tiny, a hand is bigger, a footstep is biggest!",
+   "misconception": "Your finger is narrower than your open hand, and your step is longer than both!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "finger-width",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "handspan",
+     "x": 0.5,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "footstep",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "finger-width",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "handspan",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "footstep",
+     "emoji": "",
+     "correctBin": "bin-2"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "Smallest",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "Middle",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "Biggest",
+     "color": "#10B981"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "finger-width",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "handspan",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Why can't Piku compare her book's handspans with her friend's footstep measure?",
+   "answer": "different units can't compare fairly",
+   "options": [
+    "different units can't compare fairly",
+    "hands and feet are the same",
+    "feet are always wrong"
+   ],
+   "hint": "A handspan and a footstep are different sizes!",
+   "misconception": "To compare, both must be measured in the SAME unit — mixing units makes the numbers meaningless!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "balance",
+     "label": "different units can't compare fairly",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "balance",
+     "label": "hands and feet are the same",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "balance",
+     "label": "feet are always wrong",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "different units can't compare fairly",
+     "hands and feet are the same"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Piku's ribbon is 5 finger-widths. A rainbow ribbon is 8 finger-widths. Which ribbon is longer?",
+   "answer": "rainbow ribbon",
+   "options": [
+    "rainbow ribbon",
+    "Piku's ribbon",
+    "they're equal"
+   ],
+   "hint": "8 > 5 in the same unit!",
+   "misconception": "Same unit (finger-widths) — just compare 8 vs 5!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "ribbon",
+     "label": "rainbow ribbon",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "ribbon",
+     "label": "Piku's ribbon",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "ribbon",
+     "label": "they're equal",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "rainbow ribbon",
+     "Piku's ribbon"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "A table is 6 handspans long. A chair is 3. How many more handspans is the table?",
+   "answer": "3",
+   "options": [
+    "3",
+    "9",
+    "6"
+   ],
+   "hint": "6 − 3 = ?",
+   "misconception": "6 − 3 = 3 — the difference in the same unit tells you how much longer!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "star",
+     "label": "3",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "star",
+     "label": "9",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "star",
+     "label": "6",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "3",
+     "9"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Put these in order of how much water they hold!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Teaspoon holds a sip, a cup holds a drink, a bucket holds a bath!",
+   "misconception": "Capacity grows: teaspoon < cup < bucket!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "teaspoon",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "cup",
+     "x": 0.5,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "bucket",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "teaspoon",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "cup",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "bucket",
+     "emoji": "",
+     "correctBin": "bin-2"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "Least",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "Middle",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "Most",
+     "color": "#10B981"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "teaspoon",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "cup",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "playground",
+ "storyArc": {
+  "theme": "Piku measures everything with her hands and feet",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Measure Master Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c1_math_005",
+  "region": "Mathland",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "📏",
+  "prerequisites": []
+ },
+ "subject": "maths"
+}

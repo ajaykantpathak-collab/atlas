@@ -1,14 +1,14 @@
 import type { SimDef } from '../../engine/types';
 
 /** HAND-AUTHORED — c10_comp_ch93 The Columnist (essay).
- * Nodes: c10_comp_cbse_93_001 (argumentative spine), 93_002 (narrative/descriptive). */
+ * Nodes: c10_engl_cbse_93_001 (argumentative spine), 93_002 (narrative/descriptive). */
 export const c10_comp_ch93: SimDef = {
-    id: 'v3_c10_comp_ch93',
+    id: 'v3w_c10_comp_ch93',
     title: 'The Columnist',
     subtitle: 'A thesis you can argue with, three witnesses, and an ending the evidence earned',
     classLevel: 10, subject: 'english-composition', topic: 'Essay — argumentative spine and descriptive craft',
     chapters: ['c10_comp_ch93'],
-    nodeIds: ['c10_comp_cbse_93_001', 'c10_comp_cbse_93_002'],
+    nodeIds: ['c10_engl_cbse_93_001', 'c10_engl_cbse_93_002'],
     emoji: '✒️', theme: { bg: 'from-slate-900 to-violet-950', accent: 'violet', scene: 'senior' },
 
     scenario: {
@@ -33,7 +33,7 @@ export const c10_comp_ch93: SimDef = {
     ],
 
     beats: [
-        { type: 'scaffold', nodeId: 'c10_comp_cbse_93_001', title: 'Build the legal case',
+        { type: 'scaffold', nodeId: 'c10_engl_cbse_93_001', title: 'Build the legal case',
           scaffold: {
             problem: 'Draft the spine for "Social media should be limited for under-16s."',
             steps: [
@@ -44,14 +44,14 @@ export const c10_comp_ch93: SimDef = {
                 { text: 'You: topic sentence for reason 2 → "Beyond safety, ___"', blankAnswer: 'social media\'s design deliberately fractures adolescent attention' },
             ],
           } },
-        { type: 'dissect', nodeId: 'c10_comp_cbse_93_001', title: 'The delete test',
+        { type: 'dissect', nodeId: 'c10_engl_cbse_93_001', title: 'The delete test',
           dissect: { specimen: 'a body paragraph that does nothing',
           spots: [
             { id: 's1', label: 'content', prompt: '"Many students play sports. Sports include cricket and football. Cricket is popular in India." — what is wrong?', answer: 'it never advances the thesis — a list, not an argument; missing reason + link-back', options: ['it never advances the thesis — a list, not an argument; missing reason + link-back', 'cricket is off-topic', 'too short', 'needs more facts'] },
             { id: 's2', label: 'function', prompt: 'What question must every body paragraph answer?', answer: 'what reason does this give for the thesis — and how does the evidence prove it', options: ['what reason does this give for the thesis — and how does the evidence prove it', 'is it long enough', 'does it have big words', 'is the handwriting neat'] },
             { id: 's3', label: 'delete', prompt: 'Apply the delete test to this paragraph — does it survive?', answer: 'delete it — the argument loses nothing, so it was decoration', options: ['delete it — the argument loses nothing, so it was decoration', 'keep it — more content is better', 'expand it with more sports names', 'move it to the conclusion'] },
           ] } },
-        { type: 'case', nodeId: 'c10_comp_cbse_93_002', title: 'Earn the ending',
+        { type: 'case', nodeId: 'c10_engl_cbse_93_002', title: 'Earn the ending',
           caseStudy: {
             intro: 'The insight must grow from the events — if a moral could end ANY essay, it ends none.',
             decisions: [
@@ -66,7 +66,7 @@ export const c10_comp_ch93: SimDef = {
                 ] },
             ],
           } },
-        { type: 'build', nodeId: 'c10_comp_cbse_93_001', title: 'Stack the spine',
+        { type: 'build', nodeId: 'c10_engl_cbse_93_001', title: 'Stack the spine',
           build: {
             prompt: 'Order the essay spine:',
             blocks: ['conclusion (so-what)', 'body para 2 (reason 2)', 'introduction + thesis', 'body para 3 (reason 3)', 'body para 1 (reason 1)'],
@@ -75,7 +75,7 @@ export const c10_comp_ch93: SimDef = {
     ],
 
     challenges: [
-        { type: 'mcq', nodeId: 'c10_comp_cbse_93_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_93_001', difficulty: 'standard',
           question: 'A body paragraph reads: "Many students play sports. Sports include cricket and football. Cricket is very popular in India." — what is wrong?',
           options: [
               { text: 'It never advances the thesis — a list, not an argument; missing reason and link-back' },
@@ -88,7 +88,7 @@ export const c10_comp_ch93: SimDef = {
           },
           hint: 'What reason does this paragraph give the thesis?',
           misconception: 'students grade paragraphs by content-presence, not argumentative function' },
-        { type: 'mcq', nodeId: 'c10_comp_cbse_93_001', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_93_001', difficulty: 'standard',
           question: 'Which introduction earns marks for "Discipline"?',
           options: [
               { text: 'Discipline converts talent into results — without it, potential stays potential.' },
@@ -102,7 +102,7 @@ export const c10_comp_ch93: SimDef = {
           },
           hint: 'Can anyone disagree with the sentence? If not, it is not a thesis.',
           misconception: 'students open with narration or definitions instead of a contestable claim' },
-        { type: 'mcq', nodeId: 'c10_comp_cbse_93_002', difficulty: 'standard',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_93_002', difficulty: 'standard',
           question: 'Show, don\'t tell: "The market was very crowded and noisy."',
           options: [
               { text: 'Shoulders brushed mine at every step; above the bargaining din a vendor\'s cry rose and fell.' },
@@ -116,7 +116,7 @@ export const c10_comp_ch93: SimDef = {
           },
           hint: 'What would a camera record? Write the footage, not the review.',
           misconception: 'students think showing = stronger adjectives — it is swapping evaluation for evidence' },
-        { type: 'mcq', nodeId: 'c10_comp_cbse_93_002', difficulty: 'advanced',
+        { type: 'mcq', nodeId: 'c10_engl_cbse_93_002', difficulty: 'advanced',
           question: 'Which ending earns marks?',
           options: [
               { text: 'Grandmother\'s torn note lay in my palm — the five rupees I had almost kept, now heavier than anything I had ever held.' },
@@ -130,7 +130,7 @@ export const c10_comp_ch93: SimDef = {
           },
           hint: 'Which ending could ONLY belong to THIS story?',
           misconception: 'students believe conclusions exist to state morals rather than to land meaning' },
-        { type: 'subpart', nodeId: 'c10_comp_cbse_93_001', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c10_engl_cbse_93_001', difficulty: 'advanced',
           question: 'Plan an essay: "Uniforms should be abolished in schools."',
       hint: 'Work the parts in order — each answer feeds the next.',
       misconception: 'rushes to the final answer without building the chain',

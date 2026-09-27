@@ -25,7 +25,8 @@ export const c3EngTense: SimDef = {
         { title: 'Past = Already Done ⏪', text: 'Already happened: "She read a book." Often adds -ed: play→played, jump→jumped!', emoji: '⏪', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Future = Will Come ⏩', text: 'Not yet: "She will read a book." Future uses "will"!', emoji: '⏩', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match to its time!', labels: ['is playing', 'now', 'played', 'before', 'will play', 'later'] },
+challenges: [
         { type: 'mcq', question: '"She played yesterday." This is...', answer: 'Past tense', options: ['Present', 'Past tense', 'Future'],
           hint: '"Yesterday" + "played" = already done!', misconception: '"Played" + "yesterday" = past — it already happened!',
           workedExample: ['"played" = done.', '"yesterday" = past.', 'Past tense.'] },
@@ -60,7 +61,8 @@ export const c3EngArticles: SimDef = {
         { title: 'A vs An 🔤', text: 'Use "an" before vowel sounds (a,e,i,o,u): an apple, an egg. Use "a" before others: a cat, a dog!', emoji: '🔤', bgColor: 'from-sky-400 to-blue-500' },
         { title: 'The = That One 🎯', text: '"The" points to a special one: "the sun" (there is only one!). "A" means any one: "a cat" (any cat).', emoji: '🎯', bgColor: 'from-amber-400 to-orange-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'a, an or the?', labels: ['apple', 'an', 'ball', 'a', 'sun', 'the'] },
+challenges: [
         { type: 'mcq', question: '"___ apple a day" — which fits?', answer: 'An', options: ['A', 'An', 'The'],
           hint: 'Apple starts with a vowel sound!', misconception: 'Apple starts with "a" (vowel) — use "an"!',
           workedExample: ['Apple starts with a.', 'Vowel → an.', '"An apple."'] },
@@ -95,7 +97,8 @@ export const c3HinVakya: SimDef = {
         { title: 'कर्ता और क्रिया 🏃', text: 'Every sentence has WHO (कर्ता) and DOES (क्रिया): "बिल्ली दूध पीती है" — cat drinks milk!', emoji: '🏃', bgColor: 'from-sky-400 to-blue-500' },
         { title: 'क्रम ज़रूरी है 🔢', text: 'Order matters! "राम ने खाना खाया" not "खाया राम खाना" — right order makes sense!', emoji: '🔢', bgColor: 'from-violet-400 to-purple-500' },
     ],
-    challenges: [
+        explore: { widget: 'order', prompt: 'वाक्य सही क्रम में लगाओ!', labels: ['राम', 'स्कूल', 'जाता', 'है'] },
+challenges: [
         { type: 'mcq', question: 'Which is a correct वाक्य (sentence)?', answer: 'बिल्ली दूध पीती है', options: ['दूध बिल्ली है पीती', 'बिल्ली दूध पीती है', 'पीती दूध बिल्ली'],
           hint: 'Who + what + does!', misconception: 'Correct order: बिल्ली (who) दूध (what) पीती है (does)!',
           workedExample: ['Who? बिल्ली.', 'What? दूध.', 'Does? पीती है.', 'बिल्ली दूध पीती है.'] },
@@ -126,7 +129,8 @@ export const c3HinSangya: SimDef = {
         { title: 'संज्ञा = नाम 🏷️', text: 'Sangya = naming words! Person (राम), place (स्कूल), thing (किताब), animal (कुत्ता) — all names are sangya!', emoji: '🏷️', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'Kinds of Sangya 📚', text: 'व्यक्तिवाचक (one name: राम), जातिवाचक (a type: लड़का), भाववाचक (a feeling: खुशी)!', emoji: '📚', bgColor: 'from-sky-400 to-blue-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'संज्ञा मिलाओ!', labels: ['लड़का', 'पुरुष', 'नदी', 'स्थान', 'चूड़ी', 'वस्तु'] },
+challenges: [
         { type: 'mcq', question: 'Which is a संज्ञा (naming word)?', answer: 'किताब', options: ['दौड़ना', 'किताब', 'तेज़'],
           hint: 'Does it name a thing?', misconception: 'किताब names a thing — दौड़ना is an action, तेज़ describes!',
           workedExample: ['Naming = thing/person/place.', 'किताब = book = thing.', 'Sangya!'] },

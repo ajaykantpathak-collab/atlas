@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c11_gram_ch82+83 The Reality Ladder & The Harmony Rule.
  * Nodes: c11_gram_cbse_82_001, 82_002, 83_001. */
 export const c11_gram_ch8283: SimDef = {
-    id: 'v3_c11_gram_ch8283',
+    id: 'v3w_c11_gram_ch8283',
     title: 'The Reality Ladder & The Harmony Rule',
     subtitle: 'Three conditionals measure distance from reality — and every subordinate clause must harmonize with its main clause\'s tense-zone',
     classLevel: 11, subject: 'english-grammar', topic: 'Conditionals, advanced non-finites, sequence of tenses',

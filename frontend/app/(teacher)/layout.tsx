@@ -2,24 +2,34 @@
 
 import { motion } from 'framer-motion'
 import {
-  LayoutDashboard, BarChart3, Sparkles,
+  LayoutDashboard, BarChart3, Sparkles, ClipboardList,
   Bell, Search, ChevronDown,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { AtlasMark } from '@/components/atlas/AtlasMark'
+import { useAuthStore } from '@/stores/authStore'
 
 // Links must be real URL paths — route groups like (teacher) never appear
 // in the URL, so '/(teacher)/x' hrefs would 404.
 const navItems = [
   { href: '/teacher-overview', label: 'Dashboard', icon: LayoutDashboard },
+  { href: '/teacher-assignments', label: 'Assignments', icon: ClipboardList },
   { href: '/teacher-dashboard', label: 'Analytics', icon: BarChart3 },
 ]
 
 export default function TeacherLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const user = useAuthStore((s) => s.user)
+
+  const displayName = user?.name?.trim() || 'Teacher'
+  const initials = displayName
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((w) => w[0]?.toUpperCase() ?? '')
+    .join('') || 'T'
 
   return (
     <div className="min-h-screen mesh-bg flex">
@@ -92,9 +102,9 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
               </button>
               <div className="flex items-center gap-2 cursor-pointer">
                 <div className="w-8 h-8 rounded-full bg-accent-gradient flex items-center justify-center text-xs font-bold text-white">
-                  RK
+                  {initials}
                 </div>
-                <span className="text-xs text-white hidden sm:block">Rajesh Kumar</span>
+                <span className="text-xs text-white hidden sm:block">{displayName}</span>
                 <ChevronDown className="w-3 h-3 text-surface-600 hidden sm:block" />
               </div>
             </div>

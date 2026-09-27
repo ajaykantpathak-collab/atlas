@@ -1,0 +1,79 @@
+{
+ "generatedAt": "2026-09-16T16:21:54.306Z",
+ "loginMethod": "ui",
+ "flows": [
+  {
+   "flow": "practice",
+   "result": "pass",
+   "steps": [
+    "clicked Start Practice",
+    "submitted option 0",
+    "advanced (button=false)"
+   ],
+   "feedback": "Skip to content | Practice | Mathematics | 0% | 4 Days 🔥 | 🎉 | Correct! ✓ | Bilkul sahi! Perfect understanding. | +10 points | Mastery: 0% → 8% | ↑8% | Sahi jawab: Great thinking! You identified the right approach. | See your results (2s) | Auto-advancing in 2s • Ya phir button dabao",
+   "afterAdvance": "Skip to content | Practice | Mathematics | 0% | 4 Days 🔥 | 🎉 | Correct! ✓ | Bilkul sahi! Perfect understanding. | +10 points | Mastery: 0% → 8% | ↑8% | Sahi jawab: Great thinking! You identified the right approach. | See your results (0s) | Auto-ad",
+   "apiErrors": [
+    {
+     "status": 404,
+     "url": "/api/practice/237a9854-5ed5-4ce8-8f1d-aa60f3da926c/submit"
+    }
+   ],
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+   ]
+  },
+  {
+   "flow": "tutor",
+   "result": "partial",
+   "sent": true,
+   "replyExcerpt": "Pythagorean theorem? Give me a hint. | 09:50 PM | Tutor soch raha hai… | Apna answer ya question type karein… | Enter dabayein bhejne ke liye ·Enter to send · Shift+Enter for new line",
+   "replyAppeared": false,
+   "apiErrors": [],
+   "consoleErrors": []
+  },
+  {
+   "flow": "progress",
+   "result": "pass",
+   "bodyTextExcerpt": "Skip to content | Your Progress | Live data | THE FULL REPORT | Loading your report… | Mastery, activity and retention — measured from your real answer history against the official syllabus. Nothing estimated. | Mastery by Subject | Live from your answer history — counts include every tracked node | This Week | Your last 7 days of study activity | Recent Activity | Your last recorded sessions | Study Calendar | Your last 18 weeks — squares light up as you study | Review Queue | Topics you have studied return her",
+   "apiErrors": [],
+   "consoleErrors": []
+  },
+  {
+   "flow": "achievements",
+   "result": "pass",
+   "bodyTextExcerpt": "Skip to content | Achievements | Badge wall | 0 | Earned | 24 | Locked | 0 | Badge XP earned | 0% | Wall complete | All | Earned | Locked | Any Tier | Bronze | Silver | Gold | Platinum | Locked | First Steps | Complete your first lesson | 0 / 1 | 0% | BRONZE | +50 XP | Locked | On Fire | Maintain a 7-day review streak | 0 / 7 | 0% | BRONZE | +100 XP | Locked | Week Warrior | Maintain a 14-day review streak | 0 / 14 | 0% | SILVER | +250 XP | Locked | Month Master | Maintain a 30-day review streak | 0 / 30 | 0% | GOLD | +500 XP | Locked | Century Club | Complete 100 lessons | ",
+   "apiErrors": [],
+   "consoleErrors": []
+  },
+  {
+   "flow": "probe_diagnostic",
+   "route": "/diagnostic",
+   "result": "probe",
+   "bodyTextExcerpt": "Skip to content | L | LearnPath | EN | हिं | हि | 🎯 | Ready? | We'll find out what you know and what you need to learn. | ✅ Available offline | Select Subject | 📐 | Mathematics | Class 8 – 10 | 🔬 | Science | Class 8 – 10 | 📖 | English | Class 8 – 10 | ⏱️ This will take about 15 minutes. | We'll find out what you know and what you need to learn. | Start Diagnostic",
+   "clicked": false,
+   "afterClickText": "Skip to content | L | LearnPath | EN | हिं | हि | 🎯 | Ready? | We'll find out what you know and what you need to learn. | ✅ Available offline | Select Subject | 📐 | Mathematics | Class 8 – 10 | 🔬 | Science | Class 8 – 10 | 📖 | English | Class 8 – 10 | ⏱️ This will take about 15 minutes. | We'll find out what you know and what you need to learn. | Start Diagnostic",
+   "apiErrors": [],
+   "consoleErrors": []
+  },
+  {
+   "flow": "probe_exam_simulator",
+   "route": "/exam-simulator",
+   "result": "probe",
+   "bodyTextExcerpt": "Skip to content | Exam Simulator | CBSE Class 10 | Choose Your Exam | Full board-style exams and chapter tests with real marking schemes | Exams Available | 3 | Best Score | — | Avg Score | 0% | All | Science | Mathematics | Science Pre-Board 2025 | Science · 5 sections | Board-Level | Light | Electricity | Carbon Compounds | Life Processes | +1 | 180 min | 80 marks | New → | Mathematics Pre-Board 2025 | Mathematics · 4 sections | Board-L",
+   "clicked": false,
+   "noButton": true,
+   "apiErrors": [],
+   "consoleErrors": []
+  },
+  {
+   "flow": "probe_junior",
+   "route": "/junior",
+   "result": "probe",
+   "bodyTextExcerpt": "Skip to content | ⭐ | 0 | 🌐 | Hing | Aaj hum kya seekhenge? | 👇 Aaj hum kya seekhenge? | 🔢 | Maths | 🔤 | English | 🔬 | Science | 🌍 | GK | 🔒",
+   "clicked": false,
+   "noButton": true,
+   "apiErrors": [],
+   "consoleErrors": []
+  }
+ ]
+}

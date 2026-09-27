@@ -1,0 +1,127 @@
+{
+  "results": [
+    {
+      "name": "SW registered+active",
+      "pass": true,
+      "detail": "scope=http://127.0.0.1:3004/"
+    },
+    {
+      "name": "SW controls the page (claim)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "galaxy no horizontal overflow @390",
+      "pass": true,
+      "detail": "{\"scrollW\":390,\"clientW\":390}"
+    },
+    {
+      "name": "versioned caches exist",
+      "pass": true,
+      "detail": "[\"atlas-api-v3.2026.09.19.4\",\"atlas-pages-v3.2026.09.19.4\",\"atlas-runtime-v3.2026.09.19.4\",\"atlas-shell-v3.2026.09.19.4\"]"
+    },
+    {
+      "name": "offline fallback precached",
+      "pass": true,
+      "detail": "[\"/offline\",\"/manifest.json\",\"/icons/icon-192.png\",\"/icons/icon-512.png\"]"
+    },
+    {
+      "name": "manifest + icons precached",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "static/game data cached (runtime SWR)",
+      "pass": true,
+      "detail": "28 entries"
+    },
+    {
+      "name": "visited API GETs cached",
+      "pass": true,
+      "detail": "2 entries"
+    },
+    {
+      "name": "star tap -> topic panel -> open Story",
+      "pass": true,
+      "detail": "http://127.0.0.1:3004/learn/c12_psy_cbse_07_006/story"
+    },
+    {
+      "name": "story renders (scenes + progress bar)",
+      "pass": true,
+      "detail": "http://127.0.0.1:3004/learn/c12_psy_cbse_07_006/story"
+    },
+    {
+      "name": "story no horizontal overflow @390",
+      "pass": false,
+      "detail": "{\"scrollW\":401,\"clientW\":390}"
+    },
+    {
+      "name": "story enrichment pinned to atlas-stories-v1",
+      "pass": true,
+      "detail": "[\"/api/content/nodes/c12_psy_cbse_07_006/enrichment\",\"/api/content/nodes/c12_psy_cbse_07_006\"]"
+    },
+    {
+      "name": "/premium/offline shows real count",
+      "pass": true,
+      "detail": "page says \"1 story saved\", cache has 1"
+    },
+    {
+      "name": "/premium/offline lists the pinned story",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "premium/offline no horizontal overflow @390",
+      "pass": true,
+      "detail": "{\"scrollW\":390,\"clientW\":390}"
+    },
+    {
+      "name": "A2HS banner appears on beforeinstallprompt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "A2HS banner dismissable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "A2HS dismissal persisted",
+      "pass": true,
+      "detail": "atlas-a2hs-dismissed-at=1789856686728"
+    },
+    {
+      "name": "A2HS stays dismissed after reload",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "practice session starts from galaxy handoff",
+      "pass": true,
+      "detail": "Question 1 of 5"
+    },
+    {
+      "name": "practice no horizontal overflow @390",
+      "pass": false,
+      "detail": "{\"scrollW\":433,\"clientW\":390}"
+    },
+    {
+      "name": "story reopens OFFLINE from cache",
+      "pass": false,
+      "detail": "http://127.0.0.1:3004/learn/c12_psy_cbse_07_006/story"
+    },
+    {
+      "name": "/premium/offline works offline with real counts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unvisited page offline -> graceful fallback page",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "errors": [
+    "console: Failed to load resource: the server responded with a status of 504 ()"
+  ]
+}

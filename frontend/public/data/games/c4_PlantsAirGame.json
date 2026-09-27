@@ -1,826 +1,826 @@
 {
-  "gameFile": "PlantsAirGame",
-  "classLevel": 4,
-  "cisceNodes": [
-    "c4_bio_014",
-    "c4_bio_015",
-    "c4_bio_016",
-    "c4_bio_017",
-    "c4_bio_018"
-  ],
-  "mascot": "Unknown",
-  "slideCount": 5,
-  "challengeCount": 8,
-  "slides": [
-    {
-      "title": "Root Types: Tap and Fibrous 🌱",
-      "text": "Plants have roots to anchor them and absorb water! A tap root has one thick main root with side branches (like carrot and mustard). A fibrous root has many thin equal roots spreading out (like grass and onion).",
-      "emoji": "🌱",
-      "bgColor": "from-emerald-400 to-green-600",
-      "spoken": "Plants have roots to anchor them and absorb water! A tap root has one thick main root with side branches like carrot. A fibrous root has many thin equal roots like grass!",
-      "diagram": {
-        "type": "plant-parts",
-        "animate": true,
-        "data": {}
-      }
-    },
-    {
-      "title": "Photosynthesis: The Leaf's Kitchen ☀️",
-      "text": "Green leaves make food using sunlight! Chlorophyll (green pigment) traps sunlight. The leaf mixes water from roots and carbon dioxide from air to make starch (food) and releases oxygen!",
-      "emoji": "🍃",
-      "bgColor": "from-green-400 to-teal-600",
-      "spoken": "Green leaves make food using sunlight! Chlorophyll traps sunlight. The leaf mixes water and carbon dioxide to make starch food and releases oxygen!",
-      "diagram": {
-        "type": "plant-parts",
-        "animate": true,
-        "data": {}
-      }
-    },
-    {
-      "title": "Transpiration: Leaf Cooling 💧",
-      "text": "Leaves lose extra water as water vapour through tiny pores called stomata! This transpiration keeps the plant cool on hot days and helps pull fresh water up from the roots.",
-      "emoji": "💧",
-      "bgColor": "from-cyan-400 to-blue-600",
-      "spoken": "Leaves lose extra water as water vapour through tiny pores called stomata! This transpiration keeps the plant cool and pulls water up from the roots.",
-      "diagram": {
-        "type": "plant-parts",
-        "animate": true,
-        "data": {}
-      }
-    },
-    {
-      "title": "Composition of Air 🌬️",
-      "text": "Air is a mixture of gases! Nitrogen makes up about 78 percent of air. Oxygen makes up about 21 percent. Carbon dioxide is about 0.04 percent. Air also has water vapour and dust.",
-      "emoji": "🌬️",
-      "bgColor": "from-blue-400 to-indigo-600",
-      "spoken": "Air is a mixture of gases! Nitrogen makes up about 78 percent of air. Oxygen makes up about 21 percent. Carbon dioxide is a tiny bit at 0.04 percent.",
-      "diagram": {
-        "type": "body-diagram",
-        "animate": true,
-        "data": {
-          "parts": [
-            "Head",
-            "Chest",
-            "Arms",
-            "Legs"
-          ],
-          "highlightIndex": 3
-        }
-      }
-    },
-    {
-      "title": "Breathing and Burning 🔥",
-      "text": "Both breathing and burning need oxygen! Breathing takes in oxygen for living cells. Burning needs oxygen to keep a fire or candle flame going. Without oxygen, a candle goes out!",
-      "emoji": "🔥",
-      "bgColor": "from-amber-400 to-orange-600",
-      "spoken": "Both breathing and burning need oxygen! Breathing takes in oxygen for living cells. Burning needs oxygen to keep a candle flame going. Without oxygen, a fire goes out!",
-      "diagram": {
-        "type": "food-chain",
-        "animate": true,
-        "data": {
-          "chain": [
-            "Plant",
-            "Goat",
-            "Lion"
-          ]
-        }
-      }
+ "gameFile": "PlantsAirGame",
+ "classLevel": 4,
+ "cisceNodes": [
+  "c4_bio_014",
+  "c4_bio_015",
+  "c4_bio_016",
+  "c4_bio_017",
+  "c4_bio_018"
+ ],
+ "mascot": "Unknown",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Root Types: Tap and Fibrous 🌱",
+   "text": "Plants have roots to anchor them and absorb water! A tap root has one thick main root with side branches (like carrot and mustard). A fibrous root has many thin equal roots spreading out (like grass and onion).",
+   "emoji": "🌱",
+   "bgColor": "from-emerald-400 to-green-600",
+   "spoken": "Plants have roots to anchor them and absorb water! A tap root has one thick main root with side branches like carrot. A fibrous root has many thin equal roots like grass!",
+   "diagram": {
+    "type": "plant-parts",
+    "animate": true,
+    "data": {}
+   }
+  },
+  {
+   "title": "Photosynthesis: The Leaf's Kitchen ☀️",
+   "text": "Green leaves make food using sunlight! Chlorophyll (green pigment) traps sunlight. The leaf mixes water from roots and carbon dioxide from air to make starch (food) and releases oxygen!",
+   "emoji": "🍃",
+   "bgColor": "from-green-400 to-teal-600",
+   "spoken": "Green leaves make food using sunlight! Chlorophyll traps sunlight. The leaf mixes water and carbon dioxide to make starch food and releases oxygen!",
+   "diagram": {
+    "type": "plant-parts",
+    "animate": true,
+    "data": {}
+   }
+  },
+  {
+   "title": "Transpiration: Leaf Cooling 💧",
+   "text": "Leaves lose extra water as water vapour through tiny pores called stomata! This transpiration keeps the plant cool on hot days and helps pull fresh water up from the roots.",
+   "emoji": "💧",
+   "bgColor": "from-cyan-400 to-blue-600",
+   "spoken": "Leaves lose extra water as water vapour through tiny pores called stomata! This transpiration keeps the plant cool and pulls water up from the roots.",
+   "diagram": {
+    "type": "plant-parts",
+    "animate": true,
+    "data": {}
+   }
+  },
+  {
+   "title": "Composition of Air 🌬️",
+   "text": "Air is a mixture of gases! Nitrogen makes up about 78 percent of air. Oxygen makes up about 21 percent. Carbon dioxide is about 0.04 percent. Air also has water vapour and dust.",
+   "emoji": "🌬️",
+   "bgColor": "from-blue-400 to-indigo-600",
+   "spoken": "Air is a mixture of gases! Nitrogen makes up about 78 percent of air. Oxygen makes up about 21 percent. Carbon dioxide is a tiny bit at 0.04 percent.",
+   "diagram": {
+    "type": "body-diagram",
+    "animate": true,
+    "data": {
+     "parts": [
+      "Head",
+      "Chest",
+      "Arms",
+      "Legs"
+     ],
+     "highlightIndex": 3
     }
-  ],
-  "challenges": [
-    {
-      "type": "identify",
-      "question": "What is PHOTOSYNTHESIS?",
-      "answer": "The process by which green leaves make food using sunlight, water, and carbon dioxide",
-      "options": [
-        "The process by which green leaves make food using sunlight, water, and carbon dioxide",
-        "The process by which plants drink water from soil",
-        "The process by which plants breathe in oxygen"
-      ],
-      "hint": "Think about what a green leaf does in the sun with water and air!",
-      "misconception": "Photosynthesis is NOT just drinking water or breathing! It is the special food-making process where green leaves use sunlight, water, and carbon dioxide to make starch and oxygen!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "circle",
-          "label": "The process by which green leaves make food using sunlight, water, and carbon dioxide",
-          "x": 0.25,
-          "y": 0.65,
-          "size": 55,
-          "color": "#22c55e",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "circle",
-          "label": "The process by which plants drink water from soil",
-          "x": 0.5,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "circle",
-          "label": "The process by which plants breathe in oxygen",
-          "x": 0.75,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "The process by which green leaves make food using sunlight, water, and carbon dioxide",
-          "The process by which plants drink water from soil"
-        ]
-      },
-      "storyBeat": "setup"
-    },
-    {
-      "type": "identify",
-      "question": "Which green substance in leaves traps sunlight for photosynthesis?",
-      "answer": "Chlorophyll",
-      "options": [
-        "Chlorophyll",
-        "Starch",
-        "Iodine"
-      ],
-      "hint": "It is the green pigment inside leaves that gives them their green colour!",
-      "misconception": "The substance is chlorophyll, NOT starch or iodine! Starch is the food made, and iodine is the testing liquid used in the laboratory!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "circle",
-          "label": "Chlorophyll",
-          "x": 0.25,
-          "y": 0.65,
-          "size": 55,
-          "color": "#22c55e",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "circle",
-          "label": "Starch",
-          "x": 0.5,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "circle",
-          "label": "Iodine",
-          "x": 0.75,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "Starch",
-          "Chlorophyll"
-        ]
-      },
-      "storyBeat": "setup"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each item into the correct group: Raw materials vs Products of photosynthesis!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Raw materials are what the leaf takes in (sunlight, water, carbon dioxide). Products are what it makes (starch, oxygen)!",
-      "misconception": "Remember: sunlight, water, and carbon dioxide go INTO the leaf (raw materials), while starch and oxygen come OUT (products)!",
-      "storyBeat": "inciting",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "item-sun",
-            "label": "Sunlight",
-            "correctBin": "raw"
-          },
-          {
-            "id": "item-water",
-            "label": "Water",
-            "correctBin": "raw"
-          },
-          {
-            "id": "item-co2",
-            "label": "Carbon Dioxide",
-            "correctBin": "raw"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "item-sun",
-          "kind": "circle",
-          "label": "Sunlight",
-          "x": 0.16666666666666666,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "raw",
-          "interaction": "drag-to-bin",
-          "targetBin": "raw"
-        },
-        {
-          "id": "item-water",
-          "kind": "water-drop",
-          "label": "Water",
-          "x": 0.3333333333333333,
-          "y": 0.85,
-          "size": 55,
-          "color": "#4a90d9",
-          "category": "raw",
-          "interaction": "drag-to-bin",
-          "targetBin": "raw"
-        },
-        {
-          "id": "item-co2",
-          "kind": "circle",
-          "label": "Carbon Dioxide",
-          "x": 0.5,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "raw",
-          "interaction": "drag-to-bin",
-          "targetBin": "raw"
-        },
-        {
-          "id": "item-starch",
-          "kind": "star",
-          "label": "Starch Food",
-          "x": 0.6666666666666666,
-          "y": 0.85,
-          "size": 55,
-          "color": "#ffd700",
-          "category": "product",
-          "interaction": "drag-to-bin",
-          "targetBin": "product"
-        },
-        {
-          "id": "item-oxygen",
-          "kind": "circle",
-          "label": "Oxygen Gas",
-          "x": 0.8333333333333333,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "product",
-          "interaction": "drag-to-bin",
-          "targetBin": "product"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "item-sun",
-          "label": "Sunlight",
-          "emoji": "",
-          "correctBin": "raw"
-        },
-        {
-          "id": "item-water",
-          "label": "Water",
-          "emoji": "",
-          "correctBin": "raw"
-        },
-        {
-          "id": "item-co2",
-          "label": "Carbon Dioxide",
-          "emoji": "",
-          "correctBin": "raw"
-        },
-        {
-          "id": "item-starch",
-          "label": "Starch Food",
-          "emoji": "",
-          "correctBin": "product"
-        },
-        {
-          "id": "item-oxygen",
-          "label": "Oxygen Gas",
-          "emoji": "",
-          "correctBin": "product"
-        }
-      ],
-      "bins": [
-        {
-          "id": "raw",
-          "label": "Raw Materials 📥",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "product",
-          "label": "Products 📤",
-          "color": "#10B981"
-        }
-      ]
-    },
-    {
-      "type": "identify",
-      "question": "How do we TEST a leaf for the presence of starch?",
-      "answer": "Iodine test ��� turns blue-black if starch is present",
-      "options": [
-        "Iodine test — turns blue-black if starch is present",
-        "Boil the leaf in water and see if it turns green",
-        "Smell the leaf to check for sweet food"
-      ],
-      "hint": "We drop a brownish testing liquid onto the leaf. What colour does it turn if starch is there?",
-      "misconception": "We use the iodine test! When iodine touches starch, it turns a deep blue-black colour. Boiling alone does not test for starch!",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "star",
-          "label": "Iodine test — turns blue-black if starch is present",
-          "x": 0.25,
-          "y": 0.65,
-          "size": 55,
-          "color": "#ffd700",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "star",
-          "label": "Boil the leaf in water and see if it turns green",
-          "x": 0.5,
-          "y": 0.65,
-          "size": 55,
-          "color": "#ffd700",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "star",
-          "label": "Smell the leaf to check for sweet food",
-          "x": 0.75,
-          "y": 0.65,
-          "size": 55,
-          "color": "#ffd700",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "Iodine test — turns blue-black if starch is present",
-          "Iodine test ��� turns blue-black if starch is present"
-        ]
-      },
-      "storyBeat": "inciting"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each plant part to its root system type: Tap root or Fibrous root!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Tap roots have one main thick root (carrot, mustard). Fibrous roots have many equal thin roots (grass, onion)!",
-      "misconception": "Thickness alone is not enough! A tap root has ONE main thick root with side branches (carrot, mustard). A fibrous root has MANY thin equal roots from the stem base (grass, onion)!",
-      "storyBeat": "rising",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "carrot",
-            "label": "Carrot",
-            "correctBin": "tap"
-          },
-          {
-            "id": "mustard",
-            "label": "Mustard",
-            "correctBin": "tap"
-          },
-          {
-            "id": "grass",
-            "label": "Grass",
-            "correctBin": "fibrous"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "carrot",
-          "kind": "circle",
-          "label": "Carrot",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "tap",
-          "interaction": "drag-to-bin",
-          "targetBin": "tap"
-        },
-        {
-          "id": "mustard",
-          "kind": "star",
-          "label": "Mustard",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#ffd700",
-          "category": "tap",
-          "interaction": "drag-to-bin",
-          "targetBin": "tap"
-        },
-        {
-          "id": "grass",
-          "kind": "circle",
-          "label": "Grass",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "fibrous",
-          "interaction": "drag-to-bin",
-          "targetBin": "fibrous"
-        },
-        {
-          "id": "onion",
-          "kind": "circle",
-          "label": "Onion",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "fibrous",
-          "interaction": "drag-to-bin",
-          "targetBin": "fibrous"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "carrot",
-          "label": "Carrot",
-          "emoji": "",
-          "correctBin": "tap"
-        },
-        {
-          "id": "mustard",
-          "label": "Mustard",
-          "emoji": "",
-          "correctBin": "tap"
-        },
-        {
-          "id": "grass",
-          "label": "Grass",
-          "emoji": "",
-          "correctBin": "fibrous"
-        },
-        {
-          "id": "onion",
-          "label": "Onion",
-          "emoji": "",
-          "correctBin": "fibrous"
-        }
-      ],
-      "bins": [
-        {
-          "id": "tap",
-          "label": "Tap Root 🥕",
-          "color": "#F97316"
-        },
-        {
-          "id": "fibrous",
-          "label": "Fibrous Root 🌾",
-          "color": "#EAB308"
-        }
-      ]
-    },
-    {
-      "type": "identify",
-      "question": "Air is a mixture of gases. Which gas makes up the LARGEST part of air?",
-      "answer": "Nitrogen (about 78%)",
-      "options": [
-        "Nitrogen (about 78%)",
-        "Oxygen (about 21%)",
-        "Carbon dioxide (about 0.04%)"
-      ],
-      "hint": "It makes up almost 78 parts out of 100 in the atmosphere, but we do not use it for breathing!",
-      "misconception": "Nitrogen is the LARGEST part at 78%! Oxygen is only 21%. Many students mistakenly think air is mostly oxygen because we need oxygen to survive.",
-      "interactiveObjects": [
-        {
-          "id": "obj_0",
-          "kind": "circle",
-          "label": "Nitrogen (about 78%)",
-          "x": 0.25,
-          "y": 0.65,
-          "size": 55,
-          "color": "#22c55e",
-          "isCorrect": true,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_1",
-          "kind": "circle",
-          "label": "Oxygen (about 21%)",
-          "x": 0.5,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        },
-        {
-          "id": "obj_2",
-          "kind": "circle",
-          "label": "Carbon dioxide (about 0.04%)",
-          "x": 0.75,
-          "y": 0.65,
-          "size": 55,
-          "color": "#6c5ce7",
-          "isCorrect": false,
-          "interaction": "tap"
-        }
-      ],
-      "easierVariant": {
-        "options": [
-          "Oxygen (about 21%)",
-          "Nitrogen (about 78%)"
-        ]
-      },
-      "storyBeat": "rising"
-    },
-    {
-      "type": "sort",
-      "question": "Drag each gas to its correct percentage in air!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Nitrogen is 78%, Oxygen is 21%, Carbon dioxide is 0.04%!",
-      "misconception": "Check the exact numbers: Nitrogen = 78%, Oxygen = 21%, Carbon dioxide = 0.04%! Do not mix up nitrogen and oxygen percentages!",
-      "storyBeat": "climax",
-      "easierVariant": {
-        "hint": "Take it slow. Nitrogen is 78%, Oxygen is 21%, Carbon dioxide is 0.04%!"
-      },
-      "interactiveObjects": [
-        {
-          "id": "n2",
-          "kind": "circle",
-          "label": "Nitrogen (78%)",
-          "x": 0.25,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-78",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-78"
-        },
-        {
-          "id": "o2",
-          "kind": "circle",
-          "label": "Oxygen (21%)",
-          "x": 0.5,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-21",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-21"
-        },
-        {
-          "id": "co2",
-          "kind": "circle",
-          "label": "Carbon Dioxide (0.04%)",
-          "x": 0.75,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "bin-04",
-          "interaction": "drag-to-bin",
-          "targetBin": "bin-04"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "n2",
-          "label": "Nitrogen (78%)",
-          "emoji": "",
-          "correctBin": "bin-78"
-        },
-        {
-          "id": "o2",
-          "label": "Oxygen (21%)",
-          "emoji": "",
-          "correctBin": "bin-21"
-        },
-        {
-          "id": "co2",
-          "label": "Carbon Dioxide (0.04%)",
-          "emoji": "",
-          "correctBin": "bin-04"
-        }
-      ],
-      "bins": [
-        {
-          "id": "bin-78",
-          "label": "78% 🟢",
-          "color": "#10B981"
-        },
-        {
-          "id": "bin-21",
-          "label": "21% 🔵",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "bin-04",
-          "label": "0.04% 🟣",
-          "color": "#8B5CF6"
-        }
-      ]
-    },
-    {
-      "type": "sort",
-      "question": "Drag each statement to Breathing or Burning!",
-      "answer": "sort",
-      "options": [],
-      "hint": "Breathing happens in living bodies and is slow. Burning happens outside with flames and produces heat!",
-      "misconception": "Breathing and burning both use oxygen, but breathing is slow and inside living bodies, while burning is fast, outside, and produces heat and light!",
-      "storyBeat": "resolution",
-      "easierVariant": {
-        "sortItems": [
-          {
-            "id": "b1",
-            "label": "Takes in oxygen in lungs",
-            "correctBin": "breathing"
-          },
-          {
-            "id": "b2",
-            "label": "Done by all living animals",
-            "correctBin": "breathing"
-          },
-          {
-            "id": "burn1",
-            "label": "Needs oxygen for flame",
-            "correctBin": "burning"
-          }
-        ]
-      },
-      "interactiveObjects": [
-        {
-          "id": "b1",
-          "kind": "circle",
-          "label": "Takes in oxygen in lungs",
-          "x": 0.2,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "breathing",
-          "interaction": "drag-to-bin",
-          "targetBin": "breathing"
-        },
-        {
-          "id": "b2",
-          "kind": "circle",
-          "label": "Done by all living animals",
-          "x": 0.4,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "breathing",
-          "interaction": "drag-to-bin",
-          "targetBin": "breathing"
-        },
-        {
-          "id": "burn1",
-          "kind": "circle",
-          "label": "Needs oxygen for flame",
-          "x": 0.6000000000000001,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "burning",
-          "interaction": "drag-to-bin",
-          "targetBin": "burning"
-        },
-        {
-          "id": "burn2",
-          "kind": "circle",
-          "label": "Produces heat and light",
-          "x": 0.8,
-          "y": 0.85,
-          "size": 55,
-          "color": "#6c5ce7",
-          "category": "burning",
-          "interaction": "drag-to-bin",
-          "targetBin": "burning"
-        }
-      ],
-      "sortItems": [
-        {
-          "id": "b1",
-          "label": "Takes in oxygen in lungs",
-          "emoji": "",
-          "correctBin": "breathing"
-        },
-        {
-          "id": "b2",
-          "label": "Done by all living animals",
-          "emoji": "",
-          "correctBin": "breathing"
-        },
-        {
-          "id": "burn1",
-          "label": "Needs oxygen for flame",
-          "emoji": "",
-          "correctBin": "burning"
-        },
-        {
-          "id": "burn2",
-          "label": "Produces heat and light",
-          "emoji": "",
-          "correctBin": "burning"
-        }
-      ],
-      "bins": [
-        {
-          "id": "breathing",
-          "label": "Breathing 🫁",
-          "color": "#3B82F6"
-        },
-        {
-          "id": "burning",
-          "label": "Burning 🔥",
-          "color": "#F97316"
-        }
-      ]
+   }
+  },
+  {
+   "title": "Breathing and Burning 🔥",
+   "text": "Both breathing and burning need oxygen! Breathing takes in oxygen for living cells. Burning needs oxygen to keep a fire or candle flame going. Without oxygen, a candle goes out!",
+   "emoji": "🔥",
+   "bgColor": "from-amber-400 to-orange-600",
+   "spoken": "Both breathing and burning need oxygen! Breathing takes in oxygen for living cells. Burning needs oxygen to keep a candle flame going. Without oxygen, a fire goes out!",
+   "diagram": {
+    "type": "food-chain",
+    "animate": true,
+    "data": {
+     "chain": [
+      "Plant",
+      "Goat",
+      "Lion"
+     ]
     }
-  ],
-  "theme": "garden",
-  "storyArc": {
-    "theme": "A curious explorer uncovers the secrets of living things",
-    "beats": [
-      {
-        "name": "setup",
-        "challengeIndices": [
-          0,
-          1
-        ],
-        "sceneDescription": "The mascot welcomes the student and introduces the topic",
-        "mascotDialogue": "Welcome! Let's explore this together!"
-      },
-      {
-        "name": "inciting",
-        "challengeIndices": [
-          2,
-          3
-        ],
-        "sceneDescription": "A problem is presented that requires the new knowledge",
-        "mascotDialogue": "Here is a challenge — can you figure it out?"
-      },
-      {
-        "name": "rising",
-        "challengeIndices": [
-          4,
-          5
-        ],
-        "sceneDescription": "The challenges get harder as understanding deepens",
-        "mascotDialogue": "You are getting better! Try these harder ones!"
-      },
-      {
-        "name": "climax",
-        "challengeIndices": [
-          6
-        ],
-        "sceneDescription": "The hardest challenge — a real test of mastery",
-        "mascotDialogue": "This is the big one! Show me what you have learned!"
-      },
-      {
-        "name": "resolution",
-        "challengeIndices": [
-          7
-        ],
-        "sceneDescription": "The student demonstrates mastery and celebrates",
-        "mascotDialogue": "Amazing! You have mastered this topic!"
-      }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "What is PHOTOSYNTHESIS?",
+   "answer": "The process by which green leaves make food using sunlight, water, and carbon dioxide",
+   "options": [
+    "The process by which green leaves make food using sunlight, water, and carbon dioxide",
+    "The process by which plants drink water from soil",
+    "The process by which plants breathe in oxygen"
+   ],
+   "hint": "Think about what a green leaf does in the sun with water and air!",
+   "misconception": "Photosynthesis is NOT just drinking water or breathing! It is the special food-making process where green leaves use sunlight, water, and carbon dioxide to make starch and oxygen!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "The process by which green leaves make food using sunlight, water, and carbon dioxide",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#22c55e",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "The process by which plants drink water from soil",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "The process by which plants breathe in oxygen",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "The process by which green leaves make food using sunlight, water, and carbon dioxide",
+     "The process by which plants drink water from soil"
     ]
+   },
+   "storyBeat": "setup"
   },
-  "learningArtifact": {
-    "type": "growing-tree",
-    "title": "Knowledge Tree",
-    "totalPieces": 8
-  },
-  "worldMapNode": {
-    "nodeId": "c4_bio_014",
-    "region": "Biosphere",
-    "mapX": 0.64,
-    "mapY": 1.11,
-    "icon": "🌱",
-    "prerequisites": [
-      "c4_bio_015"
+  {
+   "type": "identify",
+   "question": "Which green substance in leaves traps sunlight for photosynthesis?",
+   "answer": "Chlorophyll",
+   "options": [
+    "Chlorophyll",
+    "Starch",
+    "Iodine"
+   ],
+   "hint": "It is the green pigment inside leaves that gives them their green colour!",
+   "misconception": "The substance is chlorophyll, NOT starch or iodine! Starch is the food made, and iodine is the testing liquid used in the laboratory!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "Chlorophyll",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#22c55e",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "Starch",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "Iodine",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "Starch",
+     "Chlorophyll"
     ]
+   },
+   "storyBeat": "setup"
   },
-  "subject": "biology"
+  {
+   "type": "sort",
+   "question": "Drag each item into the correct group: Raw materials vs Products of photosynthesis!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Raw materials are what the leaf takes in (sunlight, water, carbon dioxide). Products are what it makes (starch, oxygen)!",
+   "misconception": "Remember: sunlight, water, and carbon dioxide go INTO the leaf (raw materials), while starch and oxygen come OUT (products)!",
+   "storyBeat": "inciting",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-sun",
+      "label": "Sunlight",
+      "correctBin": "raw"
+     },
+     {
+      "id": "item-water",
+      "label": "Water",
+      "correctBin": "raw"
+     },
+     {
+      "id": "item-co2",
+      "label": "Carbon Dioxide",
+      "correctBin": "raw"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "item-sun",
+     "kind": "circle",
+     "label": "Sunlight",
+     "x": 0.16666666666666666,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "raw",
+     "interaction": "drag-to-bin",
+     "targetBin": "raw"
+    },
+    {
+     "id": "item-water",
+     "kind": "water-drop",
+     "label": "Water",
+     "x": 0.3333333333333333,
+     "y": 0.85,
+     "size": 55,
+     "color": "#4a90d9",
+     "category": "raw",
+     "interaction": "drag-to-bin",
+     "targetBin": "raw"
+    },
+    {
+     "id": "item-co2",
+     "kind": "circle",
+     "label": "Carbon Dioxide",
+     "x": 0.5,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "raw",
+     "interaction": "drag-to-bin",
+     "targetBin": "raw"
+    },
+    {
+     "id": "item-starch",
+     "kind": "star",
+     "label": "Starch Food",
+     "x": 0.6666666666666666,
+     "y": 0.85,
+     "size": 55,
+     "color": "#ffd700",
+     "category": "product",
+     "interaction": "drag-to-bin",
+     "targetBin": "product"
+    },
+    {
+     "id": "item-oxygen",
+     "kind": "circle",
+     "label": "Oxygen Gas",
+     "x": 0.8333333333333333,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "product",
+     "interaction": "drag-to-bin",
+     "targetBin": "product"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-sun",
+     "label": "Sunlight",
+     "emoji": "",
+     "correctBin": "raw"
+    },
+    {
+     "id": "item-water",
+     "label": "Water",
+     "emoji": "",
+     "correctBin": "raw"
+    },
+    {
+     "id": "item-co2",
+     "label": "Carbon Dioxide",
+     "emoji": "",
+     "correctBin": "raw"
+    },
+    {
+     "id": "item-starch",
+     "label": "Starch Food",
+     "emoji": "",
+     "correctBin": "product"
+    },
+    {
+     "id": "item-oxygen",
+     "label": "Oxygen Gas",
+     "emoji": "",
+     "correctBin": "product"
+    }
+   ],
+   "bins": [
+    {
+     "id": "raw",
+     "label": "Raw Materials 📥",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "product",
+     "label": "Products 📤",
+     "color": "#10B981"
+    }
+   ]
+  },
+  {
+   "type": "identify",
+   "question": "How do we TEST a leaf for the presence of starch?",
+   "answer": "Iodine test — turns blue-black if starch is present",
+   "options": [
+    "Iodine test — turns blue-black if starch is present",
+    "Boil the leaf in water and see if it turns green",
+    "Smell the leaf to check for sweet food"
+   ],
+   "hint": "We drop a brownish testing liquid onto the leaf. What colour does it turn if starch is there?",
+   "misconception": "We use the iodine test! When iodine touches starch, it turns a deep blue-black colour. Boiling alone does not test for starch!",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "star",
+     "label": "Iodine test — turns blue-black if starch is present",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#ffd700",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "star",
+     "label": "Boil the leaf in water and see if it turns green",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#ffd700",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "star",
+     "label": "Smell the leaf to check for sweet food",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#ffd700",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "Iodine test — turns blue-black if starch is present",
+     "Iodine test ��� turns blue-black if starch is present"
+    ]
+   },
+   "storyBeat": "inciting"
+  },
+  {
+   "type": "sort",
+   "question": "Drag each plant part to its root system type: Tap root or Fibrous root!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Tap roots have one main thick root (carrot, mustard). Fibrous roots have many equal thin roots (grass, onion)!",
+   "misconception": "Thickness alone is not enough! A tap root has ONE main thick root with side branches (carrot, mustard). A fibrous root has MANY thin equal roots from the stem base (grass, onion)!",
+   "storyBeat": "rising",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "carrot",
+      "label": "Carrot",
+      "correctBin": "tap"
+     },
+     {
+      "id": "mustard",
+      "label": "Mustard",
+      "correctBin": "tap"
+     },
+     {
+      "id": "grass",
+      "label": "Grass",
+      "correctBin": "fibrous"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "carrot",
+     "kind": "circle",
+     "label": "Carrot",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "tap",
+     "interaction": "drag-to-bin",
+     "targetBin": "tap"
+    },
+    {
+     "id": "mustard",
+     "kind": "star",
+     "label": "Mustard",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#ffd700",
+     "category": "tap",
+     "interaction": "drag-to-bin",
+     "targetBin": "tap"
+    },
+    {
+     "id": "grass",
+     "kind": "circle",
+     "label": "Grass",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "fibrous",
+     "interaction": "drag-to-bin",
+     "targetBin": "fibrous"
+    },
+    {
+     "id": "onion",
+     "kind": "circle",
+     "label": "Onion",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "fibrous",
+     "interaction": "drag-to-bin",
+     "targetBin": "fibrous"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "carrot",
+     "label": "Carrot",
+     "emoji": "",
+     "correctBin": "tap"
+    },
+    {
+     "id": "mustard",
+     "label": "Mustard",
+     "emoji": "",
+     "correctBin": "tap"
+    },
+    {
+     "id": "grass",
+     "label": "Grass",
+     "emoji": "",
+     "correctBin": "fibrous"
+    },
+    {
+     "id": "onion",
+     "label": "Onion",
+     "emoji": "",
+     "correctBin": "fibrous"
+    }
+   ],
+   "bins": [
+    {
+     "id": "tap",
+     "label": "Tap Root 🥕",
+     "color": "#F97316"
+    },
+    {
+     "id": "fibrous",
+     "label": "Fibrous Root 🌾",
+     "color": "#EAB308"
+    }
+   ]
+  },
+  {
+   "type": "identify",
+   "question": "Air is a mixture of gases. Which gas makes up the LARGEST part of air?",
+   "answer": "Nitrogen (about 78%)",
+   "options": [
+    "Nitrogen (about 78%)",
+    "Oxygen (about 21%)",
+    "Carbon dioxide (about 0.04%)"
+   ],
+   "hint": "It makes up almost 78 parts out of 100 in the atmosphere, but we do not use it for breathing!",
+   "misconception": "Nitrogen is the LARGEST part at 78%! Oxygen is only 21%. Many students mistakenly think air is mostly oxygen because we need oxygen to survive.",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "Nitrogen (about 78%)",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#22c55e",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "Oxygen (about 21%)",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "Carbon dioxide (about 0.04%)",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#6c5ce7",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "Oxygen (about 21%)",
+     "Nitrogen (about 78%)"
+    ]
+   },
+   "storyBeat": "rising"
+  },
+  {
+   "type": "sort",
+   "question": "Drag each gas to its correct percentage in air!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Nitrogen is 78%, Oxygen is 21%, Carbon dioxide is 0.04%!",
+   "misconception": "Check the exact numbers: Nitrogen = 78%, Oxygen = 21%, Carbon dioxide = 0.04%! Do not mix up nitrogen and oxygen percentages!",
+   "storyBeat": "climax",
+   "easierVariant": {
+    "hint": "Take it slow. Nitrogen is 78%, Oxygen is 21%, Carbon dioxide is 0.04%!"
+   },
+   "interactiveObjects": [
+    {
+     "id": "n2",
+     "kind": "circle",
+     "label": "Nitrogen (78%)",
+     "x": 0.25,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-78",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-78"
+    },
+    {
+     "id": "o2",
+     "kind": "circle",
+     "label": "Oxygen (21%)",
+     "x": 0.5,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-21",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-21"
+    },
+    {
+     "id": "co2",
+     "kind": "circle",
+     "label": "Carbon Dioxide (0.04%)",
+     "x": 0.75,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "bin-04",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-04"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "n2",
+     "label": "Nitrogen (78%)",
+     "emoji": "",
+     "correctBin": "bin-78"
+    },
+    {
+     "id": "o2",
+     "label": "Oxygen (21%)",
+     "emoji": "",
+     "correctBin": "bin-21"
+    },
+    {
+     "id": "co2",
+     "label": "Carbon Dioxide (0.04%)",
+     "emoji": "",
+     "correctBin": "bin-04"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-78",
+     "label": "78% 🟢",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-21",
+     "label": "21% 🔵",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "bin-04",
+     "label": "0.04% 🟣",
+     "color": "#8B5CF6"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "question": "Drag each statement to Breathing or Burning!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Breathing happens in living bodies and is slow. Burning happens outside with flames and produces heat!",
+   "misconception": "Breathing and burning both use oxygen, but breathing is slow and inside living bodies, while burning is fast, outside, and produces heat and light!",
+   "storyBeat": "resolution",
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "b1",
+      "label": "Takes in oxygen in lungs",
+      "correctBin": "breathing"
+     },
+     {
+      "id": "b2",
+      "label": "Done by all living animals",
+      "correctBin": "breathing"
+     },
+     {
+      "id": "burn1",
+      "label": "Needs oxygen for flame",
+      "correctBin": "burning"
+     }
+    ]
+   },
+   "interactiveObjects": [
+    {
+     "id": "b1",
+     "kind": "circle",
+     "label": "Takes in oxygen in lungs",
+     "x": 0.2,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "breathing",
+     "interaction": "drag-to-bin",
+     "targetBin": "breathing"
+    },
+    {
+     "id": "b2",
+     "kind": "circle",
+     "label": "Done by all living animals",
+     "x": 0.4,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "breathing",
+     "interaction": "drag-to-bin",
+     "targetBin": "breathing"
+    },
+    {
+     "id": "burn1",
+     "kind": "circle",
+     "label": "Needs oxygen for flame",
+     "x": 0.6000000000000001,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "burning",
+     "interaction": "drag-to-bin",
+     "targetBin": "burning"
+    },
+    {
+     "id": "burn2",
+     "kind": "circle",
+     "label": "Produces heat and light",
+     "x": 0.8,
+     "y": 0.85,
+     "size": 55,
+     "color": "#6c5ce7",
+     "category": "burning",
+     "interaction": "drag-to-bin",
+     "targetBin": "burning"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "b1",
+     "label": "Takes in oxygen in lungs",
+     "emoji": "",
+     "correctBin": "breathing"
+    },
+    {
+     "id": "b2",
+     "label": "Done by all living animals",
+     "emoji": "",
+     "correctBin": "breathing"
+    },
+    {
+     "id": "burn1",
+     "label": "Needs oxygen for flame",
+     "emoji": "",
+     "correctBin": "burning"
+    },
+    {
+     "id": "burn2",
+     "label": "Produces heat and light",
+     "emoji": "",
+     "correctBin": "burning"
+    }
+   ],
+   "bins": [
+    {
+     "id": "breathing",
+     "label": "Breathing 🫁",
+     "color": "#3B82F6"
+    },
+    {
+     "id": "burning",
+     "label": "Burning 🔥",
+     "color": "#F97316"
+    }
+   ]
+  }
+ ],
+ "theme": "garden",
+ "storyArc": {
+  "theme": "A curious explorer uncovers the secrets of living things",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "growing-tree",
+  "title": "Knowledge Tree",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c4_bio_014",
+  "region": "Biosphere",
+  "mapX": 0.64,
+  "mapY": 1.11,
+  "icon": "🌱",
+  "prerequisites": [
+   "c4_bio_015"
+  ]
+ },
+ "subject": "biology"
 }

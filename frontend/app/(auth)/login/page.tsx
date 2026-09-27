@@ -1,5 +1,9 @@
 'use client'
 
+// Shell is static (form state + auth are client-side); avoids per-request SSR
+// of the hottest public page (TIER3 load test: /login drove the 200-CCU tail).
+export const dynamic = 'force-static';
+
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Mail, Lock, Eye, EyeOff, ArrowRight, AlertCircle } from 'lucide-react'
@@ -25,7 +29,14 @@ export default function LoginPage() {
     }
     try {
       await login(email, password)
-      router.push('/dashboard')
+      // role-aware landing — parents/teachers don't belong on the student
+      // "Atlas Command Center" dashboard (they'd see their own 0-XP view)
+      const role = useAuthStore.getState().user?.role
+      router.push(
+        role === 'parent' ? '/parent-dashboard'
+        : role === 'teacher' || role === 'admin' ? '/teacher-overview'
+        : '/dashboard'
+      )
     } catch {
       setError('Invalid email or password. Try again.')
     }

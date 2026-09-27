@@ -8,7 +8,7 @@ export const c6_history_ch09: SimDef = {
     subtitle: 'This node covers the establishment of the Mughal Empire by Babur and his victory.',
     classLevel: 6, subject: 'history', topic: 'The Mughal Empire',
     chapters: ['c6_history_ch09'],
-    nodeIds: ['c6_history_ch09_034', 'c6_history_ch09_035', 'c6_history_ch09_036', 'c6_history_ch09_037', 'c6_history_ch09_038'],
+    nodeIds: ['c6_history_ch09_033', 'c6_history_ch09_034', 'c6_history_ch09_035', 'c6_history_ch09_036', 'c6_history_ch09_037', 'c6_history_ch09_038'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Imagine if your school principal changed, and the entire way the school was run suddenly shifted from one.', goal: 'Master every idea in this chapter.' },

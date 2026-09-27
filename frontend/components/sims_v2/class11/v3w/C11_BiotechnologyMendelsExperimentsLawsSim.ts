@@ -16,7 +16,7 @@ export const w_c11_biotechnologymendelsexperimentslawssim: SimDef = {
     discovery: {
         question: 'State any four characteristics of garden pea (*Pisum sativum*) that made it an ideal model organism for Mendel\'s inheritance experiments.',
         options: ['Correct answer: (1) Annual plant', 'easy to grow', 'common plant'],
-        answer: 'Correct answer: (1) Annual plant',
+        answer: '(1) Annual plant',
         hook: 'Students often believe Mendel chose pea plants simply because they were "common" or "easy to grow in the monastery.',
     },
     teaching: [
@@ -40,11 +40,11 @@ export const w_c11_biotechnologymendelsexperimentslawssim: SimDef = {
           hint: 'If stuck, revisit the structure of a pea flower (cleistogamous, bisexual) and the steps.',
           misconception: 'Students often believe Mendel chose pea plants simply because they were "common" or "easy to grow in the monastery.',
           parts: [
-                { id: 'a', prompt: 'State any four characteristics of garden pea (*Pisum sativum*) that made it an ideal model organism for Mendel\'s inheritance experiments.', answer: 'Correct answer: (1) Annual plant',
+                { id: 'a', prompt: 'State any four characteristics of garden pea (*Pisum sativum*) that made it an ideal model organism for Mendel\'s inheritance experiments.', answer: '(1) Annual plant',
                   options: ['Correct answer: (1) Annual plant', 'easy to grow', 'common plant'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe Mendel chose pea plants simply because they were "common" or "easy to grow in the monastery garden." The specific.' },
-                { id: 'b', prompt: 'Compare Mendel\'s approach of counting progeny phenotypes and calculating ratios with the qualitative "like begets like" observations of earlier breeders.', answer: 'Correct answer: Qualitative observations only note that traits reappear',
+                { id: 'b', prompt: 'Compare Mendel\'s approach of counting progeny phenotypes and calculating ratios with the qualitative "like begets like" observations of earlier breeders.', answer: 'Qualitative observations only note that traits reappear',
                   options: ['Correct answer: Qualitative observations only note that traits reappear', 'Mendel used math', 'common'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe Mendel chose pea plants simply because they were "common" or "easy to grow in the monastery garden." The specific.' }
@@ -59,7 +59,7 @@ export const w_c11_biotechnologymendelsexperimentslawssim: SimDef = {
                   options: ['Correct evaluation: The claim is false', 'common', 'easy to grow in the monastery garden'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe Mendel chose pea plants simply because they were "common" or "easy to grow in the monastery garden." The specific.' },
-                { id: 'b', prompt: 'Compare Mendel\'s approach of counting progeny phenotypes and calculating ratios with the qualitative "like begets like" observations of earlier breeders.', answer: 'Correct answer: Qualitative observations only note that traits reappear',
+                { id: 'b', prompt: 'Compare Mendel\'s approach of counting progeny phenotypes and calculating ratios with the qualitative "like begets like" observations of earlier breeders.', answer: 'Qualitative observations only note that traits reappear',
                   options: ['Correct answer: Qualitative observations only note that traits reappear', 'Mendel used math', 'common', 'easy to grow in the monastery garden'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe Mendel chose pea plants simply because they were "common" or "easy to grow in the monastery garden." The specific.' }

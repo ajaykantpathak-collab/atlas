@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c10_gram_ch91 The Head Decides (subject–verb concord).
  * Nodes: c10_gram_cbse_91_001 (head noun), 91_002 (indefinites), 91_003 (collectives). */
 export const c10_gram_ch91: SimDef = {
-    id: 'v3_c10_gram_ch91',
+    id: 'v3w_c10_gram_ch91',
     title: 'The Head Decides',
     subtitle: 'The verb agrees with the head noun — never with the decoy standing next to it',
     classLevel: 10, subject: 'english-grammar', topic: 'Subject–verb concord',

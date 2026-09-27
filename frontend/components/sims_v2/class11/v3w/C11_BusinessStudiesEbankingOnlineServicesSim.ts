@@ -151,7 +151,7 @@ export const w_c11_businessstudiesebankingonlineservicessim: SimDef = {
           hint: 'Revisit c11_bs_cbse_05_001: Focus on the definition of e-business vs e-commerce, and the.',
           misconception: 'Students often think "e-business benefits only big companies" because they see Amazon/Flipkart dominating.',
           parts: [
-                { id: 'a', prompt: 'State any two benefits of e-business for a business organisation as per NCERT.', answer: 'Correct answer: (1) Expands marketplace to national and international markets',
+                { id: 'a', prompt: 'State any two benefits of e-business for a business organisation as per NCERT.', answer: '(1) Expands marketplace to national and international markets',
                   options: ['Correct answer: (1) Expands marketplace to national and international markets', 'e-business eliminates all risks', 'guarantees profit'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think "e-business benefits only big companies" because they see Amazon/Flipkart dominating.' },
@@ -181,15 +181,15 @@ export const w_c11_businessstudiesebankingonlineservicessim: SimDef = {
           hint: 'Revisit c11_bs_cbse_05_001 (E-business Meaning, Scope) and c6_economics_ch12_001 (What is.',
           misconception: 'Students believe "e-business has no physical presence" means zero physical infrastructure.',
           parts: [
-                { id: 'a', prompt: 'State any three bases of distinction between traditional business and e-business from NCERT Table 5.1.', answer: 'Correct answer: Any three from: Ease of formation, Physical presence, Locational',
+                { id: 'a', prompt: 'State any three bases of distinction between traditional business and e-business from NCERT Table 5.1.', answer: 'Any three from: Ease of formation, Physical presence, Locational',
                   options: ['Correct answer: Any three from: Ease of formation, Physical presence, Locational', 'profit margin', 'number of employees'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "e-business has no physical presence" means zero physical infrastructure.' },
-                { id: 'b', prompt: 'Explain in your own words why the "shape of organisational structure" differs between traditional business (vertical/tall) and e-business (horizontal/flat).', answer: 'Correct answer: Traditional business relies on hierarchical chain of command',
+                { id: 'b', prompt: 'Explain in your own words why the "shape of organisational structure" differs between traditional business (vertical/tall) and e-business (horizontal/flat).', answer: 'Traditional business relies on hierarchical chain of command',
                   options: ['Correct answer: Traditional business relies on hierarchical chain of command', 'less managers', 'technology makes it flat'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "e-business has no physical presence" means zero physical infrastructure.' },
-                { id: 'c', prompt: 'A traditional bookstore owner wants to start selling online. Using the "Business processes and length of the cycle" basis, explain how the order-to-delivery.', answer: 'Correct answer: Traditional: Sequential cycle',
+                { id: 'c', prompt: 'A traditional bookstore owner wants to start selling online. Using the "Business processes and length of the cycle" basis, explain how the order-to-delivery.', answer: 'Traditional: Sequential cycle',
                   options: ['Correct answer: Traditional: Sequential cycle', 'faster delivery', 'e-business has no physical presence'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "e-business has no physical presence" means zero physical infrastructure.' }
@@ -200,7 +200,7 @@ export const w_c11_businessstudiesebankingonlineservicessim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe "e-business has no physical presence" means zero physical infrastructure.',
           parts: [
-                { id: 'a', prompt: 'Evaluate: "E-business completely eliminates the need for physical infrastructure." Defend or refute using at least three bases from Table 5.1.', answer: 'Correct answer: Refute',
+                { id: 'a', prompt: 'Evaluate: "E-business completely eliminates the need for physical infrastructure." Defend or refute using at least three bases from Table 5.1.', answer: 'Refute',
                   options: ['Correct answer: Refute', 'virtual', 'zero physical assets', 'e-business has no physical presence'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "e-business has no physical presence" means zero physical infrastructure.' }

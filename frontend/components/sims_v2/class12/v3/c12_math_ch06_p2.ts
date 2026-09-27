@@ -14,7 +14,7 @@ export const c12_math_ch06_p2: SimDef = {
     scenario: { role: 'Rate-of-change solver', intro: 'When two quantities share a clock, their rates are chained — learn to pull one through the other.', goal: 'Apply the chain rule to related rates — geometric, physical and economic.' },
     discovery: {
         question: 'A balloon fills at 900 cm³/s, yet its radius slows as it grows. How do you find how fast the radius rises at r = 15?',
-        options: ['Differentiate the relation in time — dV/dt = 4πr²·dr/dt links the known rate to the unknown; the chain rule does the connecting', 'Divide 900 by r', 'It grows constantly', 'Measure it'],
+        options: ['Differentiate the relation in time — dV/dt = 4πr²·dr/dt links the known rate to the unknown; the chain rule does the connecting', 'Divide dV/dt by r — the growth rate scales inversely with radius', 'The radius rises constantly — a steady inflow means a steady rise', 'Measure dr/dt directly — rates can only be observed, never derived'],
         answer: 'Differentiate the relation in time — dV/dt = 4πr²·dr/dt links the known rate to the unknown; the chain rule does the connecting',
         hook: 'dy/dx = (dy/dt)/(dx/dt) works only while dx/dt ≠ 0 — derivatives aren\'t fractions to cancel blindly. And in the marginal-cost answer, ₹30.015 is mathematically right but wrong on a bill: currency wants ₹30.02 — context is part of the computation.',
     },

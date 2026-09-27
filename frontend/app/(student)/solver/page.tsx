@@ -706,7 +706,7 @@ function MathInputField({
           🔍 Solve Karo
         </motion.button>
 
-        <label className="relative cursor-pointer">
+        <label className="relative cursor-pointer" title="Snap the problem">
           <input
             type="file"
             accept="image/*"
@@ -714,11 +714,22 @@ function MathInputField({
             onChange={async (e) => {
               const file = e.target.files?.[0];
               if (!file) return;
-              // TODO: Send to OCR endpoint
-              // For now, just acknowledge
-              alert("Photo input coming soon! 📸\
-\
-Abhi aap manually type karo — photo OCR feature jaldi add ho raha hai.");
+              e.target.value = "";
+              try {
+                const b64 = await new Promise<string>((res, rej) => {
+                  const r = new FileReader();
+                  r.onload = () => res(String(r.result));
+                  r.onerror = rej;
+                  r.readAsDataURL(file);
+                });
+                const { api } = await import("@/lib/api");
+                const out = await api.post<{ text: string }>("/api/vision/extract", { image: b64 });
+                const text = out?.text?.trim();
+                if (text) onChange(text);
+                else alert("Could not read the photo — try a clearer shot.");
+              } catch {
+                alert("Photo read failed — log in and try again.");
+              }
             }}
             className="hidden"
           />

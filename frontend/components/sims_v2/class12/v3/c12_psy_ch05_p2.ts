@@ -14,7 +14,7 @@ export const c12_psy_ch05_p2: SimDef = {
     scenario: { role: 'Alliance architect', intro: 'A friend says \'don\'t worry.\' A therapist asks you to notice the catastrophic thought. The frame is the difference.', goal: 'Define psychotherapy\'s structure — goals, characteristics, and the alliance\'s contract, duration and empathy.' },
     discovery: {
         question: '\'I understand exactly — I failed my boards too.\' A therapist says this with warmth, and it\'s still the wrong response. What\'s missing?',
-        options: ['Empathy — feeling like the client, not for them; sharing your own story is sympathy, which pulls the focus off the client\'s experience', 'Nothing — kind', 'More advice', 'A diagnosis'],
+        options: ['Empathy — feeling like the client, not for them; sharing your own story is sympathy, which pulls the focus off the client\'s experience', 'Nothing — warmth plus shared experience is textbook empathy', 'More concrete advice — the client needs solutions, not stories', 'A diagnosis first — feelings cannot be addressed before labels'],
         answer: 'Empathy — feeling like the client, not for them; sharing your own story is sympathy, which pulls the focus off the client\'s experience',
         hook: 'Therapy isn\'t \'paid friendship\' — the frame does the healing: a contract with goals, a limited duration, confidentiality with teeth, and regard that doesn\'t depend on the client pleasing you. \'Any caring teacher with a book\' misses that training under supervision is a requirement, not a bonus.',
     },

@@ -8,7 +8,7 @@ export const c6_english_ch02_p1: SimDef = {
     subtitle: 'This node covers the plot structure and sources of humour in the Dr. Dolittle story.',
     classLevel: 6, subject: 'english', topic: 'Wit and Humour · Part 1/2',
     chapters: ['c6_english_ch02'],
-    nodeIds: ['c6_english_u2_011', 'c6_english_u2_012', 'c6_english_u2_017', 'c6_english_u2_014', 'c6_english_u2_015', 'c6_english_u2_016'],
+    nodeIds: ['c6_english_u2_011', 'c6_english_u2_012', 'c6_english_u2_013', 'c6_english_u2_014', 'c6_english_u2_015', 'c6_english_u2_016'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a class 6 learner', intro: 'Have you ever tried to tell a friend about a funny movie? You start with "First this happened, then that.', goal: 'Master every idea in this chapter.' },

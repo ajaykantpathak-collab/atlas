@@ -1,0 +1,672 @@
+{
+ "gameFile": "EngSightWordsGame",
+ "classLevel": 2,
+ "cisceNodes": [
+  "c2_eng_002"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Sight Words are Stars ⭐",
+   "text": "Some words we know INSTANTLY by sight — no sounding needed! 'the', 'is', 'and' — the, is, and!",
+   "emoji": "⭐",
+   "bgColor": "from-yellow-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "Why Sight Words? 👀",
+   "text": "Sounding out 'the' letter-by-letter is slow. Instant sight words make reading FAST and smooth!",
+   "emoji": "👀",
+   "bgColor": "from-orange-400 to-red-500",
+   "spoken": ""
+  },
+  {
+   "title": "Snap! Know it Fast! ⚡",
+   "text": "Flash a word for one second — can you read it? The: THE! Said: SAID! Practice makes instant!",
+   "emoji": "⚡",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Sentence Sprinters 🏃",
+   "text": "Sight words glue sentences: 'The cat is on the mat.' See them, say them, and the sentence flies!",
+   "emoji": "🏃",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Read to See 🌈",
+   "text": "Every sentence has sight-word anchors. Grab them first and the sentence meaning clicks!",
+   "emoji": "🌈",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "Read instantly: 'the'",
+   "answer": "the",
+   "options": [
+    "the",
+    "then",
+    "that"
+   ],
+   "hint": "The most common word in English!",
+   "misconception": "'the' is the #1 sight word — say it instantly, don't sound it out!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "the",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "then",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "that",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "the",
+     "then"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which is a sight word you should know instantly?",
+   "answer": "said",
+   "options": [
+    "said",
+    "suddenly",
+    "stupendous"
+   ],
+   "hint": "Short everyday words — 'said' appears in every story!",
+   "misconception": "'said' is a sight word; 'suddenly' and 'stupendous' are long and decoded by parts!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "said",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "suddenly",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "stupendous",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "said",
+     "suddenly"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Fill in: 'The cat ___ on the mat.'",
+   "answer": "is",
+   "options": [
+    "is",
+    "ate",
+    "jumped"
+   ],
+   "hint": "The linking word — 'the cat IS on the mat'!",
+   "misconception": "'is' is the sight word glue — 'ate' and 'jumped' need a subject first!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "is",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "ate",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "jumped",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "is",
+     "ate"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort: sight words (instant read) vs sound-out words!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Short common words = instant; long words = sound out!",
+   "misconception": "Sight words ('the', 'and') are read instantly; 'elephant' and 'dinosaur' get decoded!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "the",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "and",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "elephant",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "dinosaur",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "the",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "and",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-2",
+     "label": "elephant",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-3",
+     "label": "dinosaur",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "sight word",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "sound out",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "the",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "and",
+      "emoji": "",
+      "correctBin": "bin-0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which sentence reads fastest using sight words?",
+   "answer": "The dog is big.",
+   "options": [
+    "The dog is big.",
+    "The gigantic canine is huge.",
+    "Dogs are animals."
+   ],
+   "hint": "The one with all-common words!",
+   "misconception": "'The dog is big' — four sight words in a row, lightning fast!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "The dog is big.",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "The gigantic canine is huge.",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "Dogs are animals.",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "The dog is big.",
+     "The gigantic canine is huge."
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "What word means 'was + not'?",
+   "answer": "wasn't",
+   "options": [
+    "wasn't",
+    "isnt",
+    "weren't"
+   ],
+   "hint": "'wasn't' — apostrophe replaces the 'o'!",
+   "misconception": "'wasn't' — 'was' + 'not' with 'o' dropped; 'isnt' misses the apostrophe!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "wasn't",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "isnt",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "weren't",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "wasn't",
+     "isnt"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Read instantly: 'because'",
+   "answer": "because",
+   "options": [
+    "because",
+    "before",
+    "besides"
+   ],
+   "hint": "'be-cause' — a common joining word!",
+   "misconception": "'because' is a sight word you know instantly — 'before' and 'besides' are different!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "because",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "before",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "besides",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "because",
+     "before"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Put the sentence in order: 'ball - the - kicked - boy - the'",
+   "answer": "sort",
+   "options": [],
+   "hint": "Subject first: 'The boy...' then what he did!",
+   "misconception": "'The boy kicked the ball' — subject + action + object!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "The",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "boy",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "kicked",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "the ball",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "The",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "boy",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "kicked",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "the ball",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "1st",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "2nd",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "3rd",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "4th",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "The",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "boy",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "sight-word-stars",
+ "storyArc": {
+  "theme": "Piku collects sight-word stars that flash at first sight",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Sight Word Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c2_eng_002",
+  "region": "Wordville",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "⭐",
+  "prerequisites": []
+ },
+ "subject": "english"
+}

@@ -109,13 +109,28 @@ function generateOptions(correct: number, difficulty: 'medium' | 'hard'): string
   const range = difficulty === 'medium' ? 5 : 10;
   const options = new Set<string>([correct.toString()]);
 
-  while (options.size < 3) {
+  // Bounded attempts: for negative `correct` answers (e.g. Integers games) the
+  // `wrong > 0` guard can be unsatisfiable, and this loop then spins forever —
+  // freezing the whole tab with no console error. Cap the random phase, then
+  // pad deterministically so a challenge always renders with 3 options.
+  let attempts = 0;
+  while (options.size < 3 && attempts < 100) {
+    attempts++;
     const offset = Math.floor(Math.random() * range) + 1;
     const sign = Math.random() > 0.5 ? 1 : -1;
     const wrong = correct + sign * offset;
     if (wrong > 0) {
       options.add(wrong.toString());
     }
+  }
+
+  // Fallback for negative/zero answers: nearby distractors on the same side
+  // of zero as `correct` (wrong>0 distractors are meaningless for them).
+  let pad = 1;
+  while (options.size < 3) {
+    const candidate = correct > 0 ? correct + range + pad : correct - range - pad;
+    options.add(candidate.toString());
+    pad++;
   }
 
   // Shuffle

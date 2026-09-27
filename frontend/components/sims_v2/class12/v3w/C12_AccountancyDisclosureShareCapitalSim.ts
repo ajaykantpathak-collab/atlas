@@ -225,7 +225,7 @@ export const w_c12_accountancydisclosuresharecapitalsim: SimDef = {
           hint: 'Revisit c12_acc_cbse_05_003 (Issue of Shares at Par, Premium, Discount) to understand how.',
           misconception: 'Students often think Calls in Arrears reduces Share Capital directly in the Balance Sheet.',
           parts: [
-                { id: 'a', prompt: 'A company issued shares payable as ₹20 on application, ₹30 on allotment, and ₹50 on first & final call.', answer: 'Correct answer: \'Calls in Arrears A/c\' should be debited',
+                { id: 'a', prompt: 'A company issued shares payable as ₹20 on application, ₹30 on allotment, and ₹50 on first & final call.', answer: '\'Calls in Arrears A/c\' should be debited',
                   options: ['Correct answer: \'Calls in Arrears A/c\' should be debited', 'Calls in Arrears reduces Share Capital directly in the Balance Sheet'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think Calls in Arrears reduces Share Capital directly in the Balance Sheet.' },

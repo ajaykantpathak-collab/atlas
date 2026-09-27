@@ -142,7 +142,7 @@ export function C11_InformaticsPracticesFileSystemLimitsSim() {
           </div>
           {mode === 'file' && distinct > 1 && answers.length > 1 && (
             <div className="p-3 rounded-2xl bg-rose-950/40 border border-rose-800 text-xs text-rose-200">
-              The office just asked one simple question and got {distinct} different answers: attendance says &quot;{copies[0]}&quot;, fees says &quot;{copies[1]}&quot;, exam says &quot;{copies[2]}&quot;. Which report card goes to the wrong house?
+              The office just asked one simple question and got {distinct} different answers: attendance says &quot;{copies[0]}&quot; fees says &quot;{copies[1]}&quot; exam says &quot;{copies[2]}&quot;. Which report card goes to the wrong house?
             </div>
           )}
         </div>

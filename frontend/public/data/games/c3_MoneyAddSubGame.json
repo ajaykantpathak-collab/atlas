@@ -1,0 +1,475 @@
+{
+ "gameFile": "MoneyAddSubGame",
+ "classLevel": 3,
+ "cisceNodes": [],
+ "mascot": "Market Meena — a smart Class 3 girl with a red shopping bag, a purse of coins and a handwritten shopping list",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Buying and Selling 🏪",
+   "text": "In a shop, each thing has a PRICE — the money it costs. The buyer pays the money, and the seller gives the thing. A pencil for ₹5 means we pay ₹5 to buy it!",
+   "emoji": "🏪",
+   "bgColor": "from-amber-400 to-orange-500",
+   "spoken": "Every thing in a shop has a price. We pay money to buy it.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "How buying works",
+    "data": {
+     "steps": [
+      "Price tag ₹5",
+      "You pay ₹5",
+      "Pencil is yours!"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Add the Prices 🧮",
+   "text": "Buying many things? ADD the prices! A pencil ₹5 and an eraser ₹3: 5 plus 3 makes 8. Pay ₹8 and take both!",
+   "emoji": "🧮",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": "Add the prices to find how much to pay.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Adding prices",
+    "data": {
+     "steps": [
+      "Pencil ₹5",
+      "+ Eraser ₹3",
+      "= Pay ₹8"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Pay the EXACT Money 🎯",
+   "text": "Paying exactly means using the right notes and coins — no more, no less! Something costs ₹12? A ₹10 note and a ₹2 coin make exactly ₹12. Perfect payment!",
+   "emoji": "🎯",
+   "bgColor": "from-emerald-400 to-teal-500",
+   "spoken": "Exact money means the notes and coins add up to the price.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Exact payment",
+    "data": {
+     "steps": [
+      "Cost ₹12",
+      "₹10 + ₹2",
+      "= ₹12 exactly!"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Change: Pay More, Get Some Back 🔁",
+   "text": "If you pay MORE than the price, the shopkeeper gives money BACK. That is called CHANGE! Price ₹15, you pay ₹20: change = 20 − 15 = ₹5.",
+   "emoji": "🔁",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": "Change is the money you get back when you pay more than the price.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Getting change",
+    "data": {
+     "steps": [
+      "Price ₹15",
+      "You pay ₹20",
+      "Change ₹5"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Count Your Money Before Shopping 👛",
+   "text": "Good shoppers count their money FIRST! You have ₹20. A chocolate costs ₹12. After buying, 20 − 12 = ₹8 is left. Now you know what you can still buy!",
+   "emoji": "👛",
+   "bgColor": "from-rose-400 to-red-500",
+   "spoken": "Subtract to see how much money is left after buying.",
+   "diagram": {
+    "type": "generic-flow",
+    "animate": true,
+    "title": "Money left",
+    "data": {
+     "steps": [
+      "Have ₹20",
+      "Spend ₹12",
+      "Left ₹8"
+     ]
+    }
+   }
+  }
+ ],
+ "challenges": [
+  {
+   "type": "add_money",
+   "question": "A pencil costs ₹5 and an eraser costs ₹3. How much do you pay for both?",
+   "answer": "₹8",
+   "options": [
+    "₹7",
+    "₹8",
+    "₹9"
+   ],
+   "hint": "Add the two prices: 5 plus 3.",
+   "misconception": "5 + 3 = 8, so you pay ₹8 for both.",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹7",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹8",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹9",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "choose_calc",
+   "question": "A ball costs ₹15. Ravi pays a ₹10 note and a ₹5 note. Is that exact?",
+   "answer": "Yes, that is ₹15",
+   "options": [
+    "Yes, that is ₹15",
+    "No, that is ₹16",
+    "No, that is ₹14"
+   ],
+   "hint": "Add what Ravi paid: 10 plus 5. Compare with the price 15.",
+   "misconception": "10 + 5 = 15, so Ravi paid exactly the right money.",
+   "storyBeat": "setup"
+  },
+  {
+   "type": "money_change",
+   "question": "A toy costs ₹18. You give the shopkeeper a ₹20 note. How much change do you get?",
+   "answer": "₹2",
+   "options": [
+    "₹1",
+    "₹2",
+    "₹3"
+   ],
+   "hint": "Change = money paid − price: 20 − 18.",
+   "misconception": "20 − 18 = 2, so you get ₹2 back.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹1",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹2",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹3",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#8B5CF6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "money_change",
+   "question": "A book costs ₹25. Amma pays with a ₹50 note. How much change does she get?",
+   "answer": "₹25",
+   "options": [
+    "₹15",
+    "₹25",
+    "₹35"
+   ],
+   "hint": "50 − 25. Count up from 25 to 50!",
+   "misconception": "50 − 25 = 25, so Amma gets ₹25 back.",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹15",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹25",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹35",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "money_change",
+   "question": "You have ₹20. You buy a chocolate for ₹12. How much money is LEFT?",
+   "answer": "₹8",
+   "options": [
+    "₹6",
+    "₹8",
+    "₹10"
+   ],
+   "hint": "Subtract: 20 − 12. Count up from 12 to 20!",
+   "misconception": "20 − 12 = 8, so ₹8 is left.",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹6",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹8",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹10",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#14B8A6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  },
+  {
+   "type": "sort_can_buy",
+   "question": "You have ₹10 to spend. Sort each thing: can you buy it, or does it need more money?",
+   "answer": "sort",
+   "options": [],
+   "hint": "If the price is 10 or less, ₹10 is enough.",
+   "misconception": "₹5 and ₹3 cost less than ₹10. ₹45 and ₹35 cost more, so ₹10 is not enough.",
+   "sortItems": [
+    {
+     "id": "s1",
+     "label": "Pencil ₹5",
+     "emoji": "✏️",
+     "correctBin": "can_buy"
+    },
+    {
+     "id": "s2",
+     "label": "Football ₹45",
+     "emoji": "⚽",
+     "correctBin": "needs_more"
+    },
+    {
+     "id": "s3",
+     "label": "Eraser ₹3",
+     "emoji": "🩹",
+     "correctBin": "can_buy"
+    },
+    {
+     "id": "s4",
+     "label": "Storybook ₹35",
+     "emoji": "📕",
+     "correctBin": "needs_more"
+    }
+   ],
+   "bins": [
+    {
+     "id": "can_buy",
+     "label": "Can buy with ₹10 ✅",
+     "color": "#10B981"
+    },
+    {
+     "id": "needs_more",
+     "label": "Needs more than ₹10 ❌",
+     "color": "#EF4444"
+    }
+   ],
+   "storyBeat": "rising"
+  },
+  {
+   "type": "choose_calc",
+   "question": "Which thing costs the MOST?",
+   "answer": "School bag ₹150",
+   "options": [
+    "Eraser ₹3",
+    "Pen ₹10",
+    "School bag ₹150"
+   ],
+   "hint": "150 is the biggest number of rupees!",
+   "misconception": "₹150 is the biggest amount, so the school bag costs the most.",
+   "storyBeat": "climax"
+  },
+  {
+   "type": "add_money",
+   "question": "Add the money: ₹6 + ₹6 + ₹6 = ?",
+   "answer": "₹18",
+   "options": [
+    "₹16",
+    "₹18",
+    "₹20"
+   ],
+   "hint": "Count on: 6... 12... 18!",
+   "misconception": "6 + 6 = 12, and 12 + 6 = 18.",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "circle",
+     "label": "₹16",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "circle",
+     "label": "₹18",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "circle",
+     "label": "₹20",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#3B82F6",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ]
+  }
+ ],
+ "subject": "maths",
+ "theme": "market",
+ "storyArc": {
+  "theme": "Meena goes shopping for her school things",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "Meena packs her purse and reads price tags",
+    "mascotDialogue": "Come shopping with me! Let's read the prices!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "Her list has two things to add",
+    "mascotDialogue": "Let's add the prices together!"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "Some prices are bigger than her money",
+    "mascotDialogue": "Careful now — does ₹10 buy it?"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The exact-money puzzle",
+    "mascotDialogue": "Pay EXACTLY the price — no more, no less!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "Meena returns home with change in hand",
+    "mascotDialogue": "Great shopping! You got your change right!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-shelves",
+  "title": "Meena's Shopping Bag",
+  "totalPieces": 8
+ }
+}

@@ -16,7 +16,7 @@ export const w_c11_accountancycashbooksimplesim: SimDef = {
     discovery: {
         question: 'In the ledger account for "Cash", a journal entry shows "Cash A/c Dr. 10,000 To Sales A/c 10,000".',
         options: ['Correct answer: "Sales"', 'Capital', 'Furniture'],
-        answer: 'Correct answer: "Sales"',
+        answer: '"Sales"',
         hook: 'Students believe the Particulars column in a ledger account should repeat the account\'s own name (e.g., writing.',
     },
     teaching: [
@@ -124,11 +124,11 @@ export const w_c11_accountancycashbooksimplesim: SimDef = {
           hint: 'Review "Recording in Journal: Compound Journal Entry" (c11_acc_cbse_03_008) to practice.',
           misconception: 'Students believe the Particulars column in a ledger account should repeat the account\'s own name (e.g., writing.',
           parts: [
-                { id: 'a', prompt: 'In the ledger account for "Cash", a journal entry shows "Cash A/c Dr. 10,000 To Sales A/c 10,000".', answer: 'Correct answer: "Sales"',
+                { id: 'a', prompt: 'In the ledger account for "Cash", a journal entry shows "Cash A/c Dr. 10,000 To Sales A/c 10,000".', answer: '"Sales"',
                   options: ['Correct answer: "Sales"', 'Capital', 'Furniture'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe the Particulars column in a ledger account should repeat the account\'s own name (e.g., writing "Furniture" in Furniture.' },
-                { id: 'b', prompt: 'Why is the Journal Folio (J.F.) column in the ledger filled at the time of posting, not at the time of journalising?', answer: 'Correct answer: The J.F',
+                { id: 'b', prompt: 'Why is the Journal Folio (J.F.) column in the ledger filled at the time of posting, not at the time of journalising?', answer: 'The J.F',
                   options: ['Correct answer: The J.F', 'it\'s filled during journalising', 'Furniture'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe the Particulars column in a ledger account should repeat the account\'s own name (e.g., writing "Furniture" in Furniture.' },

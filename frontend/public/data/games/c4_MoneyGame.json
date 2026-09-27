@@ -1,0 +1,613 @@
+{
+ "gameFile": "MoneyGame",
+ "classLevel": 4,
+ "cisceNodes": [
+  "c4_math_008"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Bigger Money 💰",
+   "text": "Class 4 money is real shopping: ₹50, ₹100, ₹500 notes! You handle prices, totals, change — real math!",
+   "emoji": "💰",
+   "bgColor": "from-amber-400 to-yellow-500",
+   "spoken": ""
+  },
+  {
+   "title": "Making a Total 🧾",
+   "text": "Bill items add up: ₹45 + ₹120 + ₹85 = ₹250! Column-add the prices like normal addition!",
+   "emoji": "🧾",
+   "bgColor": "from-orange-400 to-red-500",
+   "spoken": ""
+  },
+  {
+   "title": "Estimating While Shopping 🔍",
+   "text": "Before counting exactly, estimate! ₹48 ≈ ₹50, ₹102 ≈ ₹100 — rough sums tell you if you have enough!",
+   "emoji": "🔍",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Change & Subtraction 🔄",
+   "text": "Pay ₹500 for a ₹340 bill → ₹160 change. 500 − 340 = 160 — your change is the difference!",
+   "emoji": "🔄",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "Comparing Prices ⚖️",
+   "text": "₹99 vs ₹105 — the ₹99 item is cheaper! Always compare prices before buying!",
+   "emoji": "⚖️",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "Book ₹120 + pen ₹45 = ?",
+   "answer": "₹165",
+   "options": [
+    "₹165",
+    "₹145",
+    "₹155"
+   ],
+   "hint": "120 + 45 — add ones first!",
+   "misconception": "₹120 + ₹45 = ₹165 — line up ones and tens!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "note",
+     "label": "₹165",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "note",
+     "label": "₹145",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "note",
+     "label": "₹155",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "₹165",
+     "₹145"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "You pay ₹100 for a ₹78 toy. Change?",
+   "answer": "₹22",
+   "options": [
+    "₹22",
+    "₹32",
+    "₹178"
+   ],
+   "hint": "100 − 78 = ?",
+   "misconception": "₹100 − ₹78 = ₹22 — change is the difference!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "note",
+     "label": "₹22",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "note",
+     "label": "₹32",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "note",
+     "label": "₹178",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "₹22",
+     "₹32"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "₹48 + ₹52 is approximately—",
+   "answer": "₹100",
+   "options": [
+    "₹100",
+    "₹90",
+    "₹110"
+   ],
+   "hint": "48 ≈ 50, 52 ≈ 50!",
+   "misconception": "≈ ₹50 + ₹50 = ₹100 — estimation uses round numbers!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "note",
+     "label": "₹100",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "note",
+     "label": "₹90",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "note",
+     "label": "₹110",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "₹100",
+     "₹90"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Order these bills cheapest to most expensive!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Compare the numbers as usual!",
+   "misconception": "₹95 < ₹150 < ₹210 < ₹320 — cheapest first!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "₹95",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "₹150",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "₹210",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "₹320",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "₹95",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "₹150",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "₹210",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "₹320",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "1st",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "2nd",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "3rd",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "4th",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "₹95",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "₹150",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Three ₹20 notes + one ₹10 = ?",
+   "answer": "₹70",
+   "options": [
+    "₹70",
+    "₹60",
+    "₹210"
+   ],
+   "hint": "20 + 20 + 20 + 10 = ?",
+   "misconception": "₹20 × 3 + ₹10 = ₹70 — multiply then add!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "note",
+     "label": "₹70",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "note",
+     "label": "₹60",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "note",
+     "label": "₹210",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "₹70",
+     "₹60"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Bill is ₹245, you pay ₹300. How much change?",
+   "answer": "₹55",
+   "options": [
+    "₹55",
+    "₹45",
+    "₹65"
+   ],
+   "hint": "300 − 245 = ?",
+   "misconception": "₹300 − ₹245 = ₹55 — careful borrowing in subtraction!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "note",
+     "label": "₹55",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "note",
+     "label": "₹45",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "note",
+     "label": "₹65",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "₹55",
+     "₹45"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "Which is cheaper per piece: pack of 4 pens ₹40, or single pen ₹12?",
+   "answer": "pack of 4",
+   "options": [
+    "pack of 4",
+    "single pen",
+    "same"
+   ],
+   "hint": "₹40 ÷ 4 = ₹10 per pen!",
+   "misconception": "Pack wins — ₹10 per pen vs ₹12! Unit price is the fair comparison!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "note",
+     "label": "pack of 4",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "note",
+     "label": "single pen",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "note",
+     "label": "same",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "pack of 4",
+     "single pen"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "You have ₹200. Items: ₹85, ₹60, ₹70. Can you buy all three?",
+   "answer": "No — ₹215 needed",
+   "options": [
+    "No — ₹215 needed",
+    "Yes",
+    "Exactly equal"
+   ],
+   "hint": "85 + 60 + 70 = ?",
+   "misconception": "₹85 + ₹60 + ₹70 = ₹215 > ₹200 — you're ₹15 short!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "note",
+     "label": "No — ₹215 needed",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "note",
+     "label": "Yes",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "note",
+     "label": "Exactly equal",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "No — ₹215 needed",
+     "Yes"
+    ]
+   }
+  }
+ ],
+ "theme": "mall-trip",
+ "storyArc": {
+  "theme": "Piku handles a ₹500 shopping trip — budgeting, change, bills",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Budget Boss Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c4_math_008",
+  "region": "Mathland",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "💰",
+  "prerequisites": []
+ },
+ "subject": "maths"
+}

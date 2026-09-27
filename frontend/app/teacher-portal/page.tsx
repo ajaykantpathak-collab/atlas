@@ -5,10 +5,39 @@ import {
   GraduationCap, Users, AlertTriangle, BookOpen,
   TrendingUp, Brain, ClipboardList, UserCheck,
 } from 'lucide-react'
+import { useQuery } from '@tanstack/react-query'
+import { api } from '@/lib/api'
 import {
   useMasteryDistribution, useCommonMisconceptions, useDifficultySummary,
 } from '@/hooks/useAnalytics'
 import AuthGuard from '@/components/AuthGuard'
+
+// Real per-student cohort state from the tutor store (same source as
+// /teacher-dashboard's CohortPulse) — no fabricated roster or averages.
+interface RosterRow {
+  student_id: string
+  class_level: string | null
+  attempts: number
+  concepts_touched: number
+  avg_mastery: number | null
+  mastered: number
+  weak_concepts: number
+  open_mistakes: number
+}
+interface CohortOverview {
+  has_data: boolean
+  reason: string | null
+  students: { tracked: number; active: number }
+  cohort: { avg_mastery: number | null; total_attempts: number; open_mistakes: number }
+  roster: RosterRow[]
+}
+
+function useCohortOverview() {
+  return useQuery({
+    queryKey: ['cohort-overview', 'portal'],
+    queryFn: () => api.get<CohortOverview>('/api/teacher-analytics/overview?roster_limit=60&weak_limit=8'),
+  })
+}
 
 export default function TeacherDashboardPage() {
   return (
@@ -22,14 +51,28 @@ function TeacherDashboardContent() {
   const { data: mastery, isLoading } = useMasteryDistribution()
   const { data: misconceptions } = useCommonMisconceptions(7)
   const { data: difficulty } = useDifficultySummary()
+  const { data: cohort, isLoading: cohortLoading } = useCohortOverview()
 
-  if (isLoading) {
+  if (isLoading || cohortLoading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="animate-pulse text-slate-400">Loading...</div>
       </div>
     )
   }
+
+  // Every card below is computed from the real cohort overview. A dash
+  // means "no recorded data" — never a made-up number.
+  const tracked = cohort?.students?.tracked ?? 0
+  const active = cohort?.students?.active ?? 0
+  const avgMastery = cohort?.cohort?.avg_mastery
+  const needsSupport = (cohort?.roster ?? []).filter(
+    (r) => r.avg_mastery !== null && r.avg_mastery < 0.4,
+  )
+  const weakestStudents = [...(cohort?.roster ?? [])]
+    .filter((r) => r.weak_concepts > 0 || r.avg_mastery !== null)
+    .sort((a, b) => (a.avg_mastery ?? 2) - (b.avg_mastery ?? 2))
+    .slice(0, 6)
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 p-6">
@@ -45,10 +88,10 @@ function TeacherDashboardContent() {
 
         {/* Class stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <StatCard icon={<Users className="w-5 h-5" />} label="Total students" value="42" color="text-blue-400" />
-          <StatCard icon={<BookOpen className="w-5 h-5" />} label="Active today" value="28" color="text-green-400" />
-          <StatCard icon={<AlertTriangle className="w-5 h-5" />} label="Need intervention" value="7" color="text-red-400" />
-          <StatCard icon={<TrendingUp className="w-5 h-5" />} label="Class avg mastery" value="62%" color="text-purple-400" />
+          <StatCard icon={<Users className="w-5 h-5" />} label="Students tracked" value={String(tracked)} color="text-blue-400" />
+          <StatCard icon={<BookOpen className="w-5 h-5" />} label="Active learners" value={String(active)} color="text-green-400" />
+          <StatCard icon={<AlertTriangle className="w-5 h-5" />} label="Below 40% mastery" value={String(needsSupport.length)} color="text-red-400" />
+          <StatCard icon={<TrendingUp className="w-5 h-5" />} label="Cohort avg mastery" value={avgMastery === null || avgMastery === undefined ? '—' : `${Math.round(avgMastery * 100)}%`} color="text-purple-400" />
         </div>
 
         {/* Class mastery overview */}
@@ -95,20 +138,30 @@ function TeacherDashboardContent() {
             <AlertTriangle className="w-5 h-5 text-red-400" />
             Students Needing Intervention
           </h2>
-          <div className="space-y-2">
-            {['Aarav S.', 'Priya K.', 'Rohan M.', 'Ananya R.'].map((name, i) => (
-              <div key={i} className="flex items-center justify-between py-2 border-b border-red-500/10">
-                <div className="flex items-center gap-3">
-                  <UserCheck className="w-4 h-4 text-slate-500" />
-                  <span className="text-sm text-slate-300">{name}</span>
+          {weakestStudents.length === 0 ? (
+            <p className="text-sm text-slate-500 py-4 text-center">
+              {cohort?.has_data
+                ? 'No student data flagged — nobody is below the weak threshold.'
+                : 'No student data yet — rows appear as students practise.'}
+            </p>
+          ) : (
+            <div className="space-y-2">
+              {weakestStudents.map((r, i) => (
+                <div key={r.student_id} className="flex items-center justify-between py-2 border-b border-red-500/10">
+                  <div className="flex items-center gap-3">
+                    <UserCheck className="w-4 h-4 text-slate-500" />
+                    <span className="text-sm text-slate-300">Student {i + 1}{r.class_level ? ` · Class ${r.class_level}` : ''}</span>
+                  </div>
+                  <div className="flex items-center gap-3 text-xs">
+                    <span className={r.avg_mastery === null ? 'text-slate-500' : 'text-red-400'}>
+                      {r.avg_mastery === null ? 'No mastery yet' : `Mastery: ${Math.round(r.avg_mastery * 100)}%`}
+                    </span>
+                    <span className="text-slate-500">{r.attempts} recorded {r.attempts === 1 ? 'answer' : 'answers'}</span>
+                  </div>
                 </div>
-                <div className="flex items-center gap-3 text-xs">
-                  <span className="text-red-400">Mastery: 28%</span>
-                  <span className="text-slate-500">Last active: 5 days ago</span>
-                </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Common misconceptions */}

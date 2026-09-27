@@ -16,7 +16,7 @@ export const w_c11_biologyexcretionnitrogenouswastessim: SimDef = {
     discovery: {
         question: 'An APPLY level question: A patient\'s 24-hour urine shows: volume 1.2 L, urea 18 g, creatinine 0.8 g, glucose 45 g, ketones positive.',
         options: ['Correct answer: Diabetes mellitus (uncontrolled)', 'urine composition is fixed', '"urine composition is fixed"'],
-        answer: 'Correct answer: Diabetes mellitus (uncontrolled)',
+        answer: 'Diabetes mellitus (uncontrolled)',
         hook: 'Students believe that "urine composition is fixed" — i.e., the kidney produces urine of constant composition regardless.',
     },
     teaching: [
@@ -85,7 +85,7 @@ export const w_c11_biologyexcretionnitrogenouswastessim: SimDef = {
           hint: 'If stuck, revisit the "Reabsorption and secretion of major substances at different parts.',
           misconception: 'Students believe that "urine composition is fixed" — i.e., the kidney produces urine of constant composition regardless.',
           parts: [
-                { id: 'a', prompt: 'An APPLY level question: A patient\'s 24-hour urine shows: volume 1.2 L, urea 18 g, creatinine 0.8 g, glucose 45 g, ketones positive.', answer: 'Correct answer: Diabetes mellitus (uncontrolled)',
+                { id: 'a', prompt: 'An APPLY level question: A patient\'s 24-hour urine shows: volume 1.2 L, urea 18 g, creatinine 0.8 g, glucose 45 g, ketones positive.', answer: 'Diabetes mellitus (uncontrolled)',
                   options: ['Correct answer: Diabetes mellitus (uncontrolled)', 'urine composition is fixed', '"urine composition is fixed"'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that "urine composition is fixed" — i.e., the kidney produces urine of constant composition regardless of hydration, diet,.' }
@@ -96,7 +96,7 @@ export const w_c11_biologyexcretionnitrogenouswastessim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe that "urine composition is fixed" — i.e., the kidney produces urine of constant composition regardless.',
           parts: [
-                { id: 'a', prompt: 'An EVALUATE level question: A student claims: "Since urine pH is normally acidic (~6.0), the kidney must secrete H⁺ into the filtrate throughout the nephron.".', answer: 'Correct answer: Partially correct but incomplete',
+                { id: 'a', prompt: 'An EVALUATE level question: A student claims: "Since urine pH is normally acidic (~6.0), the kidney must secrete H⁺ into the filtrate throughout the nephron.".', answer: 'Partially correct but incomplete',
                   options: ['Correct answer: Partially correct but incomplete', 'urine composition is fixed', '"urine composition is fixed"'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that "urine composition is fixed" — i.e., the kidney produces urine of constant composition regardless of hydration, diet,.' }

@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_hin_a_ch01_p3: SimDef = {
     id: 'v3_c12_hin_a_ch01_p3',
-    title: 'lw;Zdkar f=kikBh ^fujkyk · Part 3/3',
+    title: 'देवसेना का गीत, कार्नेलयिा का गीत · Part 3/3',
     subtitle: 'Same god, different century — context is the lens',
-    classLevel: 12, subject: 'hin_a', topic: 'lw;Zdkar f=kikBh ^fujkyk · Part 3/3',
+    classLevel: 12, subject: 'hin_a', topic: 'देवसेना का गीत, कार्नेलयिा का गीत · Part 3/3',
     chapters: ['c12_hin_a_ch01'],
     nodeIds: ['c12_hin_a_cbse_01_013', 'c12_hin_a_cbse_01_014', 'c12_hin_a_cbse_01_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -19,29 +19,15 @@ export const c12_hin_a_ch01_p3: SimDef = {
         hook: '\'Before You Read\' isn\'t optional décor — without it, Tulsidas\'s Rama reads as just mythology instead of a personal god open to every caste. Three questions unlock any poem: whose life, which movement, what tongue.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its literal meaning to interpret themes, evaluate author\'s choices, analyze literary devices, and synthesize evidence to form.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'देवसेना का गीत, कार्नेलयिा का गीत — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश के शब्दों के सतही अर्थ से आगे जाकर, कवि के गहरे भाव, संदेश, संदर्भ और अभिप्राय को समझाया और व्याख्या किया जाता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_01_013', title: 'Your mission',
-          mission: { widget: 'timeline', validate: 'timeline:year=80',
-            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
+          mission: { widget: 'flow', validate: 'flow:stage=80',
+            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         context: 'Build the lens before the poem: reconstruct Tulsidas\'s Bhakti world — Mughal era, Awadhi, devotion for all — and test how context changes what a single word can mean.',
-        labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the timeline interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_01_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine the board exam asks: "Compare the vision of India in दकुसजफ्यक का छर with the personal spiritual journey in नसोलसुक का छर." Where do you begin?',
-            decisions: [{ prompt: 'What is the central theme of नसोलसुक का छर?', options: [
-                { text: 'Central theme: The futility of worldly attachments and the search for spiritual', outcome: 'Central theme: The futility of worldly attachments and the search for spiritual liberation through.' },
-                { text: 'it\'s about a sad woman remembering her life', outcome: 'Not quite — Students think "analysis" means listing literary devices found in the poem.', reveals: 'analysis-means-listing-literary-devices' },
-                { text: 'analysis', outcome: 'Not quite — Students think "analysis" means listing literary devices found in the poem.', reveals: 'analysis-means-listing-literary-devices' }
-            ] }] } },
-        { type: 'case', nodeId: 'c12_hin_a_cbse_01_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 6-mark question: "नसोल्सुक के छर्रे में कवि ने स्वतंत्रता की लालसा को कैसे व्यक्त किया है?" Most students freeze.',
-            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 12 Hindi?', options: [
-                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
-                { text: 'Paragraph, Example, Explain, Language', outcome: 'Not quite — Students believe "writing skills" means memorizing model answers for each question.', reveals: 'writing-skills-means-memorizing-model' },
-                { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means memorizing model answers for each question.', reveals: 'writing-skills-means-memorizing-model' }
-            ] }] } },
+        labels: ['देवसेना का गीत, कार्नेलयिा'],
+            observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_01_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your batch wants a song for the annual day honouring the school\'s retiring matron. The lyricist drafts a literal timeline — joined in this year, served in that year — and it reads like a résumé set to music.',
             decisions: [{ prompt: 'How does Nirala\'s structuring of \'देवसेना का गीत\' and \'कानेसरिया का गीत\' suggest fixing it?', options: [
@@ -56,74 +42,43 @@ export const c12_hin_a_ch01_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
+    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
-          hint: 'If stuck, revisit c12_hin_a_cbse_01_008 (Imagery and Metaphor) and c12_hin_a_cbse_01_009.',
-          misconception: 'Students think "analysis" means listing literary devices found in the poem.',
+          question: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश के शब्दों के सतही अर्थ से.',
+          hint: 'यदि छात्र आशय और वर्णन में अंतर नहीं कर पा रहा है, तो उसे c12_hin_a_cbse_01_004 (केंद्रीय.',
+          misconception: 'छात्र अक्सर मानते हैं कि आशय-स्पष्टीकरण का अर्थ है पद्यांश के शब्दों का सरल हिंदी में अनुवाद या सारांश देना—जैसे.',
           parts: [
-                { id: 'a', prompt: 'What is the central theme of नसोलसुक का छर?', answer: 'Central theme: The futility of worldly attachments and the search for spiritual',
-                  options: ['Central theme: The futility of worldly attachments and the search for spiritual', 'it\'s about a sad woman remembering her life', 'analysis', '"analysis" means listing literary devices found in the poem'],
-                  hint: 'If stuck, revisit c12_hin_a_cbse_01_008 (Imagery and Metaphor) and c12_hin_a_cbse_01_009 (Irony and.',
-                  misconception: 'Students think "analysis" means listing literary devices found in the poem.' },
-                { id: 'b', prompt: 'Explain why the poet addresses "करुणा" (compassion) as "कोयल" (cuckoo) in नसोलसुक का छर.', answer: 'The cuckoo\'s call signals spring/renewal',
-                  options: ['The cuckoo\'s call signals spring/renewal', 'because the cuckoo sings sweetly', 'analysis', '"analysis" means listing literary devices found in the poem'],
-                  hint: 'If stuck, revisit c12_hin_a_cbse_01_008 (Imagery and Metaphor) and c12_hin_a_cbse_01_009 (Irony and.',
-                  misconception: 'Students think "analysis" means listing literary devices found in the poem.' },
-                { id: 'c', prompt: 'In दकुसजफ्यक का छर, the line "गसे ओकककक यक मकक लोसजकककक" uses a specific literary device. Identify it and explain its effect in 2-3 sentences.', answer: 'Device: व्यक्ति अलंकार (personification) combined with रूपक (metaphor)—the',
-                  options: ['Device: व्यक्ति अलंकार (personification) combined with रूपक (metaphor)—the', 'personification', 'analysis', '"analysis" means listing literary devices found in the poem'],
-                  hint: 'If stuck, revisit c12_hin_a_cbse_01_008 (Imagery and Metaphor) and c12_hin_a_cbse_01_009 (Irony and.',
-                  misconception: 'Students think "analysis" means listing literary devices found in the poem.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश के शब्दों के सतही अर्थ से आगे जाकर,',
+                  options: ['आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश के शब्दों के सतही अर्थ से आगे जाकर,', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                  hint: 'यदि छात्र आशय और वर्णन में अंतर नहीं कर पा रहा है, तो उसे c12_hin_a_cbse_01_004 (केंद्रीय भाव और.',
+                  misconception: 'छात्र अक्सर मानते हैं कि आशय-स्पष्टीकरण का अर्थ है पद्यांश के शब्दों का सरल हिंदी में अनुवाद या सारांश देना—जैसे "देवसेना ने युद्ध के लिए.' }
           ],
-            remediations: { 'analysis-means-listing-literary-devices': { steps: ['Have student pick ONE image from नसोलसुक का छर (e.g., "नकचय इन चय" or "गख गकस+ यकसवक यक लरयक नथ").', 'Ask three questions in sequence: "What does this literally describe?" → "What does it suggest about the speaker\'s state.', 'Guide them to write 3 sentences following PEEL: Point (the image suggests X), Evidence (the line "..."), Explanation.', 'therefore...), Link (this reinforces the theme of...).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक ही पंक्ति दो तरीकों से कैसे समझी जा सकती है: (1) लिटरल: "वीर जवान सीमा पर गए" → केवल तथ्य। (2).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
-          hint: 'If unable to generate Points for a question, revisit c12_hin_a_cbse_01_006 (Theme.',
-          misconception: 'Students believe "writing skills" means memorizing model answers for each question.',
+          question: 'परीक्षा-उत्तर लेखन कौशल वह प्रणालीबद्ध प्रक्रिया है जिसमें प्रश्न की मांग को.',
+          hint: 'यदि छात्र उत्तर में साक्ष्य नहीं जोड़ पा रहा है, तो उसे देवसेना का गीत, कार्नेलयिा का गीत.',
+          misconception: 'छात्र अक्सर मानते हैं कि परीक्षा उत्तर में लंबाई ही गुणवत्ता निर्धारित करती है — इसलिए वे अनावश्यक विस्तार, परिचय-भरे.',
           parts: [
-                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 12 Hindi?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
-                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explain, Language', 'writing skills', '"writing skills" means memorizing model answers for each question'],
-                  hint: 'If unable to generate Points for a question, revisit c12_hin_a_cbse_01_006 (Theme: Primary) and.',
-                  misconception: 'Students believe "writing skills" means memorizing model answers for each question.' },
-                { id: 'b', prompt: 'A student writes: "नसोल्सुक का छर्रा स्वतंत्रता के बारे में है। नसोल्सुक जेल में है और वह आजाद होना चाहता है। कवि ने बहुत सुंदर शब्दों का प्रयोग किया है।".', answer: 'Weaknesses: (1) No clear Point',
-                  options: ['Weaknesses: (1) No clear Point', 'writing skills', '"writing skills" means memorizing model answers for each question'],
-                  hint: 'If unable to generate Points for a question, revisit c12_hin_a_cbse_01_006 (Theme: Primary) and.',
-                  misconception: 'Students believe "writing skills" means memorizing model answers for each question.' },
-                { id: 'c', prompt: 'Compare how the two poems in Chapter 1 (नसोल्सुक का छर्रा and डकुस्ज़फ़िक का छर्रा) use the image of "chain/bondage" (शृंखला/बेड़ी).', answer: 'Point 1 (नसोल्सुक): Chains are internalized sorrow',
-                  options: ['Point 1 (नसोल्सुक): Chains are internalized sorrow', 'writing skills', '"writing skills" means memorizing model answers for each question'],
-                  hint: 'If unable to generate Points for a question, revisit c12_hin_a_cbse_01_006 (Theme: Primary) and.',
-                  misconception: 'Students believe "writing skills" means memorizing model answers for each question.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल वह प्रणालीबद्ध प्रक्रिया है जिसमें प्रश्न की मांग को पहचानकर,',
+                  options: ['परीक्षा-उत्तर लेखन कौशल वह प्रणालीबद्ध प्रक्रिया है जिसमें प्रश्न की मांग को पहचानकर,', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                  hint: 'यदि छात्र उत्तर में साक्ष्य नहीं जोड़ पा रहा है, तो उसे देवसेना का गीत, कार्नेलयिा का गीत — पदावली.',
+                  misconception: 'छात्र अक्सर मानते हैं कि परीक्षा उत्तर में लंबाई ही गुणवत्ता निर्धारित करती है — इसलिए वे अनावश्यक विस्तार, परिचय-भरे पैराग्राफ या.' }
           ],
-            remediations: { 'writing-skills-means-memorizing-model': { steps: ['Take the last 3 years\' CBSE Hindi Core sample papers. Extract every 5-6 mark question from Chapter 1.', 'For each question, write ONLY the Point (topic sentence) and list 2 evidence quotes with stanza numbers — do NOT write.', 'Check if your Points directly answer the specific question verb (विश्लेषण कीजिए / तुलना कीजिए / व्याख्या कीजिए).', 'Rewrite Points that don\'t match.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_014', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "writing skills" means memorizing model answers for each question.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate this student claim: "दोनों छर्रों में कवि ने एक ही भाव व्यक्त किया है — देशभक्ति।" Is this a valid interpretation?', answer: 'Invalid',
-                  options: ['Invalid', 'writing skills', '"writing skills" means memorizing model answers for each question'],
-                  hint: 'If unable to generate Points for a question, revisit c12_hin_a_cbse_01_006 (Theme: Primary) and.',
-                  misconception: 'Students believe "writing skills" means memorizing model answers for each question.' },
-                { id: 'b', prompt: 'Write a 4-line original stanza in Hindi (using Tulsidas\'s style: simple vocabulary, rhythmic meter, nature imagery) that could serve as a third poem in this.', answer: 'Title: "स्वतंत्रता के बाद" vjQ.k ;g eèkqe',
-                  options: ['Title: "स्वतंत्रता के बाद" vjQ.k ;g eèkqe', 'writing skills', '"writing skills" means memorizing model answers for each question'],
-                  hint: 'If unable to generate Points for a question, revisit c12_hin_a_cbse_01_006 (Theme: Primary) and.',
-                  misconception: 'Students believe "writing skills" means memorizing model answers for each question.' }
-          ],
-            remediations: { 'writing-skills-means-memorizing-model': { steps: ['Take the last 3 years\' CBSE Hindi Core sample papers. Extract every 5-6 mark question from Chapter 1.', 'For each question, write ONLY the Point (topic sentence) and list 2 evidence quotes with stanza numbers — do NOT write.', 'Check if your Points directly answer the specific question verb (विश्लेषण कीजिए / तुलना कीजिए / व्याख्या कीजिए).', 'Rewrite Points that don\'t match.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['यदि छात्र इस गलती को दोहराता है, तो उसे इस अभ्यास के माध्यम से सुधारा जाए: उसे एक प्रश्न दें (जैसे "देवसेना का गीत में.', 'क्या इसमें नया साक्ष्य या तर्क है?" जो वाक्य इन शर्तों को पूरा नहीं करते, उन्हें हटाएँ। इस प्रक्रिया को दोहराएँ तक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_015', difficulty: 'standard',
-          question: 'Speaking and Listening discussion points are structured oral communication.',
-          hint: 'If stuck, revisit c12_hin_a_cbse_01_008 (Imagery and Metaphor) — list 5 images from each.',
-          misconception: 'छात्र समझते हैं कि ASL चर्चा में \'अच्छा बोलना\' = \'तेज़ बोलना\', \'भारी शब्दावली\', या \'लंबा बोलना\' है। वास्तव में CBSE ASL.',
+          question: 'वाचन-पाठ और चर्चा-बिंदु का अर्थ है कविता को सही लय, उच्चारण और भाव-भंगिमा के.',
+          hint: 'यदि फंसे हों, तो देवसेना का गीत, कार्नेलयिा का गीत — केंद्रीय भाव और रस.',
+          misconception: 'छात्र spesso मानते हैं कि वाचन-पाठ केवल सही उच्चारण और गति से पढ़ना है, और चर्चा-बिंदु केवल कविता के भावार्थ को दोहराना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening discussion points are structured oral communication activities',
-                  options: ['Speaking and Listening discussion points are structured oral communication activities', '"Before You Read: Context and Background" refers to the preparatory step of understanding', 'Plot and Narrative Structure in poetry refers to the organized sequence of emotions,', 'Setting refers to the time, place, and social environment in'],
-                  hint: 'If stuck, revisit c12_hin_a_cbse_01_008 (Imagery and Metaphor) — list 5 images from each poem with.',
-                  misconception: 'छात्र समझते हैं कि ASL चर्चा में \'अच्छा बोलना\' = \'तेज़ बोलना\', \'भारी शब्दावली\', या \'लंबा बोलना\' है। वास्तव में CBSE ASL रूब्रिक में \'विषय.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ और चर्चा-बिंदु का अर्थ है कविता को सही लय, उच्चारण और भाव-भंगिमा के साथ पढ़कर',
+                  options: ['वाचन-पाठ और चर्चा-बिंदु का अर्थ है कविता को सही लय, उच्चारण और भाव-भंगिमा के साथ पढ़कर', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                  hint: 'यदि फंसे हों, तो देवसेना का गीत, कार्नेलयिा का गीत — केंद्रीय भाव और रस (c12_hin_a_cbse_01_004) को.',
+                  misconception: 'छात्र spesso मानते हैं कि वाचन-पाठ केवल सही उच्चारण और गति से पढ़ना है, और चर्चा-बिंदु केवल कविता के भावार्थ को दोहराना है। वे यह नहीं समझ.' }
           ],
-            remediations: { 'asl': { steps: ['चरण 1: छात्र को एक ही कविता (नसोलसुक) का एक स्टैंजा देकर कहें: "इसमें से तीन प्रतीक चुनो और प्रत्येक का एक वाक्य में.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
+            remediations: { 'spesso': { steps: ['छात्र को पहले कविता की एक पंक्ति चुनकर उसे तीन अलग-अलग भावों (जैसे शोक, गर्व, निर्भीकता) के साथ पढ़ने के लिए कहें। फिर.', 'इससे भाव का अर्थ कैसे बदल गया?" इस अभ्यास के बाद, चर्चा-बिंदु पर जाएं और पूछें: "अगर इस पंक्ति को शोक के साथ पढ़ा जाए.', 'क्यों?" इससे छात्र को समझ आएगा कि वाचन अर्थ को आकार देता है, और चर्चा का उद्देश्य इस संबंध का विश्लेषण करना है।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

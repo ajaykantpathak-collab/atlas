@@ -16,7 +16,7 @@ export const w_c10_geographytopographicalmapsinterpretationsim: SimDef = {
     discovery: {
         question: 'State the primary geological reason why minerals like haematite and bauxite are considered non-renewable resources.',
         options: ['Correct answer: Minerals like haematite and bauxite form through extremely slow', 'they are deep underground', 'we use them fast'],
-        answer: 'Correct answer: Minerals like haematite and bauxite form through extremely slow',
+        answer: 'Minerals like haematite and bauxite form through extremely slow',
         hook: 'Students think "conservation of minerals" means only "do not use them" or "recycle paper/plastic", missing that mineral.',
     },
     teaching: [
@@ -55,7 +55,7 @@ export const w_c10_geographytopographicalmapsinterpretationsim: SimDef = {
           hint: 'If stuck, revisit c8_geo_ch1_3 (renewable vs non-renewable classification) and.',
           misconception: 'Students think "conservation of minerals" means only "do not use them" or "recycle paper/plastic", missing that mineral.',
           parts: [
-                { id: 'a', prompt: 'State the primary geological reason why minerals like haematite and bauxite are considered non-renewable resources.', answer: 'Correct answer: Minerals like haematite and bauxite form through extremely slow',
+                { id: 'a', prompt: 'State the primary geological reason why minerals like haematite and bauxite are considered non-renewable resources.', answer: 'Minerals like haematite and bauxite form through extremely slow',
                   options: ['Correct answer: Minerals like haematite and bauxite form through extremely slow', 'they are deep underground', 'we use them fast'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "conservation of minerals" means only "do not use them" or "recycle paper/plastic", missing that mineral conservation.' }

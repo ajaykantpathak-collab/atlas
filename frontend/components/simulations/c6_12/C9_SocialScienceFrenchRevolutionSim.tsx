@@ -292,7 +292,7 @@ export function C9_SocialScienceFrenchRevolutionSim() {
               <div className="flex-1 bg-emerald-700 rounded-t-lg relative" style={{ height: '100%' }}><span className="absolute -top-4 left-1 text-[9px]">Third Estate ~97% -- pays {taxShare}% of direct taxes</span></div>
             </div>
             <p className="text-[11px] text-slate-500 mt-4">The first two estates owned much land and paid almost no direct tax -- yet by the by-ORDER rule each held one vote, so 3% outvoted 97%.</p>
-            <p className="text-[11px] text-slate-500 mt-1">Glossary: livre = French money unit; sans-culottes = &quot;without knee-breeches&quot;, the working poor of Paris; tithe = church tax.</p>
+            <p className="text-[11px] text-slate-500 mt-1">Glossary: livre = French money unit; sans-culottes = &quot;without knee-breeches&quot; the working poor of Paris; tithe = church tax.</p>
             <p className="text-[11px] text-slate-500 mt-1">Why nobles blocked reform: they paid almost no land tax -- any change by head-vote meant finally paying their share.</p>
           </div>
 

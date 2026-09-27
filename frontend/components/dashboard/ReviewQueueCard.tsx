@@ -31,18 +31,18 @@ export default function ReviewQueueCard({
       <div className="flex items-end justify-between gap-3 mb-1">
         <h2 className="font-display text-base font-bold text-white flex items-center gap-2">
           <AlarmClock className="w-5 h-5 text-gold-400" />
-          Review Queue
+          Don&apos;t Forget!
         </h2>
         {retention != null && retention > 0 && (
           <span className="text-[11px] text-surface-600">
-            Retention <GoldNumber className="text-[11px]">{Math.round(retention)}%</GoldNumber>
+            Remembered <GoldNumber className="text-[11px]">{Math.round(retention)}%</GoldNumber>
           </span>
         )}
       </div>
       <p className="text-xs text-surface-600 mb-4">
         {items.length > 0
-          ? `${items.length} ${items.length === 1 ? "topic" : "topics"} due — spaced repetition picks up where memory fades`
-          : "Topics you have studied return here when it is time to review them"}
+          ? `${items.length} ${items.length === 1 ? "topic" : "topics"} ready to practice again — a quick round keeps them fresh`
+          : "Topics you have studied come back here when it's time to practice them again"}
       </p>
 
       {loading && (
@@ -56,10 +56,10 @@ export default function ReviewQueueCard({
       {!loading && items.length === 0 && (
         <EmptyState
           icon={Brain}
-          title="Nothing due for review"
-          body="Learn a topic and smart scheduling will bring it back right before you would forget it."
-          ctaHref="/explore"
-          ctaLabel="Explore topics"
+          title="Nothing to review right now"
+          body="Learn a topic and it will come back here right before you would forget it."
+          ctaHref="/learn"
+          ctaLabel="Find a topic to learn"
         />
       )}
 

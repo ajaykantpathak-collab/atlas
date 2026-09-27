@@ -117,11 +117,11 @@ export const w_c12_physicsdispersionthroughprismsim: SimDef = {
           hint: 'If stuck, review the derivation of Snell\'s law in node c12_phy_cbse_09_003 and the.',
           misconception: 'Students often believe that Total Internal Reflection occurs when light travels from a rarer medium to a denser medium.',
           parts: [
-                { id: 'a', prompt: 'A ray of light travels from glass (n = 1.5) to air (n = 1.0). The angle of incidence is 40°. Will total internal reflection occur?', answer: 'Correct answer: Critical angle ic = sin⁻¹(1/1.5) = sin⁻¹(0.6667) ≈ 41.8°',
+                { id: 'a', prompt: 'A ray of light travels from glass (n = 1.5) to air (n = 1.0). The angle of incidence is 40°. Will total internal reflection occur?', answer: 'Critical angle ic = sin⁻¹(1/1.5) = sin⁻¹(0.6667) ≈ 41.8°',
                   options: ['Correct answer: Critical angle ic = sin⁻¹(1/1.5) = sin⁻¹(0.6667) ≈ 41.8°', 'bending more and more', '"bending more and more" eventually leads to reflection'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that Total Internal Reflection occurs when light travels from a rarer medium to a denser medium (e.g., air to glass).' },
-                { id: 'b', prompt: 'Calculate the critical angle for a diamond-air interface (refractive index of diamond = 2.42).', answer: 'Correct answer: ic = sin⁻¹(1/2.42) = sin⁻¹(0.4132) ≈ 24.4°',
+                { id: 'b', prompt: 'Calculate the critical angle for a diamond-air interface (refractive index of diamond = 2.42).', answer: 'ic = sin⁻¹(1/2.42) = sin⁻¹(0.4132) ≈ 24.4°',
                   options: ['Correct answer: ic = sin⁻¹(1/2.42) = sin⁻¹(0.4132) ≈ 24.4°', 'bending more and more', '"bending more and more" eventually leads to reflection'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that Total Internal Reflection occurs when light travels from a rarer medium to a denser medium (e.g., air to glass).' }

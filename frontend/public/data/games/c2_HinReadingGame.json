@@ -1,0 +1,672 @@
+{
+ "gameFile": "HinReadingGame",
+ "classLevel": 2,
+ "cisceNodes": [
+  "c2_hin_003"
+ ],
+ "mascot": "Piku",
+ "slideCount": 5,
+ "challengeCount": 8,
+ "slides": [
+  {
+   "title": "Read Slow, Read True 📖",
+   "text": "'मीना खेलती है।' — read each word, no rushing! Slow Hindi is strong Hindi!",
+   "emoji": "📖",
+   "bgColor": "from-yellow-400 to-amber-500",
+   "spoken": ""
+  },
+  {
+   "title": "कौन? क्या? 🔍",
+   "text": "Every sentence answers WHO and WHAT: 'राम आम खाता है' — राम is who, खाता है is what he does!",
+   "emoji": "🔍",
+   "bgColor": "from-blue-400 to-indigo-500",
+   "spoken": ""
+  },
+  {
+   "title": "Words to Meaning 💡",
+   "text": "'पानी' means water — when you read it, picture water! Hindi words are pictures in sound!",
+   "emoji": "💡",
+   "bgColor": "from-green-400 to-emerald-500",
+   "spoken": ""
+  },
+  {
+   "title": "The । Ends the Thought 🛑",
+   "text": "When you see '।' the sentence is done — stop, ask: what did I just learn?",
+   "emoji": "🛑",
+   "bgColor": "from-orange-400 to-red-500",
+   "spoken": ""
+  },
+  {
+   "title": "Answer from the Sentence ✅",
+   "text": "Question: 'मीना क्या करती है?' Answer lives inside: 'खेलती है' — find it!",
+   "emoji": "✅",
+   "bgColor": "from-purple-400 to-pink-500",
+   "spoken": ""
+  }
+ ],
+ "challenges": [
+  {
+   "type": "identify",
+   "question": "'राम आम खाता है।' — कौन खाता है?",
+   "answer": "राम",
+   "options": [
+    "राम",
+    "आम",
+    "सीता"
+   ],
+   "hint": "Who does the action?",
+   "misconception": "'राम' is the doer — आम is what he eats!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "राम",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "आम",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "सीता",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "राम",
+     "आम"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'बिल्ली दूध पीती है।' — बिल्ली क्या पीती है?",
+   "answer": "दूध",
+   "options": [
+    "दूध",
+    "पानी",
+    "चाय"
+   ],
+   "hint": "What does the cat drink? It's in the sentence!",
+   "misconception": "'दूध' — the object is the answer!",
+   "storyBeat": "setup",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "दूध",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "पानी",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "चाय",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "दूध",
+     "पानी"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'मैं स्कूल जाता हूँ।' — मैं कहाँ जाता हूँ?",
+   "answer": "स्कूल",
+   "options": [
+    "स्कूल",
+    "घर",
+    "बाज़ार"
+   ],
+   "hint": "The place-word at the end!",
+   "misconception": "'स्कूल' — the destination is in the text!",
+   "storyBeat": "inciting",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "स्कूल",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "घर",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "बाज़ार",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "स्कूल",
+     "घर"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Match the doer to its action!",
+   "answer": "sort",
+   "options": [],
+   "hint": "Each subject pairs with its verb!",
+   "misconception": "राम plays, मीना sings, बिल्ली runs, पक्षी flies!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "राम",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "मीना",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "बिल्ली",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-2",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "पक्षी",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-3",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-3"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "राम",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "मीना",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "बिल्ली",
+     "emoji": "",
+     "correctBin": "bin-2"
+    },
+    {
+     "id": "item-3",
+     "label": "पक्षी",
+     "emoji": "",
+     "correctBin": "bin-3"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "खेलता है",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "गाती है",
+     "color": "#F59E0B"
+    },
+    {
+     "id": "bin-2",
+     "label": "दौड़ती है",
+     "color": "#10B981"
+    },
+    {
+     "id": "bin-3",
+     "label": "उड़ता है",
+     "color": "#3B82F6"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "राम",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "मीना",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'सीता और गीता सहेलियाँ हैं।' — the two friends are?",
+   "answer": "सीता और गीता",
+   "options": [
+    "सीता और गीता",
+    "राम और श्याम",
+    "मीना और टीना"
+   ],
+   "hint": "Read the names in the sentence!",
+   "misconception": "'सीता और गीता' — the names are given in the text!",
+   "storyBeat": "rising",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "सीता और गीता",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "राम और श्याम",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "मीना और टीना",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "सीता और गीता",
+     "राम और श्याम"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "'पेड़ पर पक्षी बैठा है।' — पक्षी कहाँ है?",
+   "answer": "पेड़ पर",
+   "options": [
+    "पेड़ पर",
+    "घर में",
+    "नदी में"
+   ],
+   "hint": "The bird sits ON something — find 'पर'!",
+   "misconception": "'पेड़ पर' = on the tree — the location is 'पर' + place!",
+   "storyBeat": "climax",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "पेड़ पर",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "घर में",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "नदी में",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "पेड़ पर",
+     "घर में"
+    ]
+   }
+  },
+  {
+   "type": "identify",
+   "question": "After reading 'मोहन भागा।' — कौन भागा?",
+   "answer": "मोहन",
+   "options": [
+    "मोहन",
+    "मीना",
+    "कोई नहीं"
+   ],
+   "hint": "The name before the verb!",
+   "misconception": "'मोहन' ran — the subject is the first word!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "obj_0",
+     "kind": "word",
+     "label": "मोहन",
+     "x": 0.25,
+     "y": 0.65,
+     "size": 55,
+     "color": "#EF4444",
+     "isCorrect": true,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_1",
+     "kind": "word",
+     "label": "मीना",
+     "x": 0.5,
+     "y": 0.65,
+     "size": 55,
+     "color": "#F59E0B",
+     "isCorrect": false,
+     "interaction": "tap"
+    },
+    {
+     "id": "obj_2",
+     "kind": "word",
+     "label": "कोई नहीं",
+     "x": 0.75,
+     "y": 0.65,
+     "size": 55,
+     "color": "#10B981",
+     "isCorrect": false,
+     "interaction": "tap"
+    }
+   ],
+   "easierVariant": {
+    "options": [
+     "मोहन",
+     "मीना"
+    ]
+   }
+  },
+  {
+   "type": "sort",
+   "question": "Sort: correct sentence or broken?",
+   "answer": "sort",
+   "options": [],
+   "hint": "Complete = doer + action + ।!",
+   "misconception": "Complete sentences end with है/हूँ + '।'; missing pieces are broken!",
+   "storyBeat": "resolution",
+   "interactiveObjects": [
+    {
+     "id": "item-0",
+     "kind": "circle",
+     "label": "राम खेलता है।",
+     "x": 0.15,
+     "y": 0.85,
+     "size": 50,
+     "color": "#EF4444",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "kind": "circle",
+     "label": "राम खेलता",
+     "x": 0.383,
+     "y": 0.85,
+     "size": 50,
+     "color": "#F59E0B",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "kind": "circle",
+     "label": "बिल्ली दूध पीती है।",
+     "x": 0.617,
+     "y": 0.85,
+     "size": 50,
+     "color": "#10B981",
+     "category": "bin-0",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "kind": "circle",
+     "label": "दूध पीती",
+     "x": 0.85,
+     "y": 0.85,
+     "size": 50,
+     "color": "#3B82F6",
+     "category": "bin-1",
+     "interaction": "drag-to-bin",
+     "targetBin": "bin-1"
+    }
+   ],
+   "sortItems": [
+    {
+     "id": "item-0",
+     "label": "राम खेलता है।",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-1",
+     "label": "राम खेलता",
+     "emoji": "",
+     "correctBin": "bin-1"
+    },
+    {
+     "id": "item-2",
+     "label": "बिल्ली दूध पीती है।",
+     "emoji": "",
+     "correctBin": "bin-0"
+    },
+    {
+     "id": "item-3",
+     "label": "दूध पीती",
+     "emoji": "",
+     "correctBin": "bin-1"
+    }
+   ],
+   "bins": [
+    {
+     "id": "bin-0",
+     "label": "correct",
+     "color": "#EF4444"
+    },
+    {
+     "id": "bin-1",
+     "label": "broken",
+     "color": "#F59E0B"
+    }
+   ],
+   "easierVariant": {
+    "sortItems": [
+     {
+      "id": "item-0",
+      "label": "राम खेलता है।",
+      "emoji": "",
+      "correctBin": "bin-0"
+     },
+     {
+      "id": "item-1",
+      "label": "राम खेलता",
+      "emoji": "",
+      "correctBin": "bin-1"
+     }
+    ]
+   }
+  }
+ ],
+ "theme": "story-steps",
+ "storyArc": {
+  "theme": "Piku reads Hindi sentences and answers who/what",
+  "beats": [
+   {
+    "name": "setup",
+    "challengeIndices": [
+     0,
+     1
+    ],
+    "sceneDescription": "The mascot welcomes the student and introduces the topic",
+    "mascotDialogue": "Welcome! Let's explore this together!"
+   },
+   {
+    "name": "inciting",
+    "challengeIndices": [
+     2,
+     3
+    ],
+    "sceneDescription": "A problem is presented that requires the new knowledge",
+    "mascotDialogue": "Here is a challenge — can you figure it out?"
+   },
+   {
+    "name": "rising",
+    "challengeIndices": [
+     4,
+     5
+    ],
+    "sceneDescription": "The challenges get harder as understanding deepens",
+    "mascotDialogue": "You are getting better! Try these harder ones!"
+   },
+   {
+    "name": "climax",
+    "challengeIndices": [
+     6
+    ],
+    "sceneDescription": "The hardest challenge — a real test of mastery",
+    "mascotDialogue": "This is the big one! Show me what you have learned!"
+   },
+   {
+    "name": "resolution",
+    "challengeIndices": [
+     7
+    ],
+    "sceneDescription": "The student demonstrates mastery and celebrates",
+    "mascotDialogue": "Amazing! You have mastered this topic!"
+   }
+  ]
+ },
+ "learningArtifact": {
+  "type": "filling-chart",
+  "title": "Hindi Reader Chart",
+  "totalPieces": 8
+ },
+ "worldMapNode": {
+  "nodeId": "c2_hin_003",
+  "region": "Aksharlok",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "icon": "📖",
+  "prerequisites": []
+ },
+ "subject": "hindi"
+}

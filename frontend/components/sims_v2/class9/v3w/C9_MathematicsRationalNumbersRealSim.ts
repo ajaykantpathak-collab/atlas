@@ -217,15 +217,15 @@ export const w_c9_mathematicsrationalnumbersrealsim: SimDef = {
           hint: 'Review c9_math_ch3_7 and c9_math_ch3_8 for the two types of rational decimal expansions.',
           misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case.',
           parts: [
-                { id: 'a', prompt: 'Which of the following decimal expansions represents an irrational number? (A) 0.125 (B) 0.333... (C) 0.101001000100001... (D) 0.142857142857...', answer: 'Correct answer: (C) 0.101001000100001',
+                { id: 'a', prompt: 'Which of the following decimal expansions represents an irrational number? (A) 0.125 (B) 0.333... (C) 0.101001000100001... (D) 0.142857142857...', answer: '(C) 0.101001000100001',
                   options: ['Correct answer: (C) 0.101001000100001', 'any infinite decimal is irrational', 'any non-terminating decimal is irrational, ignoring the recurring case'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' },
-                { id: 'b', prompt: 'A student claims: "Since 1/7 = 0.142857142857... has a repeating block, it is irrational because the decimals go on forever." Explain why this reasoning is.', answer: 'Correct answer: The student confuses "non-terminating" with "non-recurring"',
+                { id: 'b', prompt: 'A student claims: "Since 1/7 = 0.142857142857... has a repeating block, it is irrational because the decimals go on forever." Explain why this reasoning is.', answer: 'The student confuses "non-terminating" with "non-recurring"',
                   options: ['Correct answer: The student confuses "non-terminating" with "non-recurring"', 'non-terminating', 'non-recurring'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' },
-                { id: 'c', prompt: 'Determine whether the number 0.1234567891011121314... (formed by concatenating natural numbers) is rational or irrational. Justify your answer.', answer: 'Correct answer: Irrational',
+                { id: 'c', prompt: 'Determine whether the number 0.1234567891011121314... (formed by concatenating natural numbers) is rational or irrational. Justify your answer.', answer: 'Irrational',
                   options: ['Correct answer: Irrational', 'counting numbers', 'any non-terminating decimal is irrational, ignoring the recurring case'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' }
@@ -236,11 +236,11 @@ export const w_c9_mathematicsrationalnumbersrealsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case.',
           parts: [
-                { id: 'a', prompt: 'A student writes: "π = 3.14159... is irrational because its decimal expansion is non-terminating.', answer: 'Correct answer: The statement is false',
+                { id: 'a', prompt: 'A student writes: "π = 3.14159... is irrational because its decimal expansion is non-terminating.', answer: 'The statement is false',
                   options: ['Correct answer: The statement is false', 'any non-terminating decimal is irrational, ignoring the recurring case'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' },
-                { id: 'b', prompt: 'Construct a decimal number between 0.5 and 0.6 that is guaranteed to be irrational. Explain your construction method and prove it is irrational.', answer: 'Correct answer: Example: 0.501001000100001',
+                { id: 'b', prompt: 'Construct a decimal number between 0.5 and 0.6 that is guaranteed to be irrational. Explain your construction method and prove it is irrational.', answer: 'Example: 0.501001000100001',
                   options: ['Correct answer: Example: 0.501001000100001', 'any non-terminating decimal is irrational, ignoring the recurring case'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' }

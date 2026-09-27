@@ -122,7 +122,7 @@ export const w_c12_mathematicslinearprogrammingsim: SimDef = {
           hint: 'If stuck, revisit c11_math_cbse_06_006 (graphing linear inequalities) and c9_math_ch2_5.',
           misconception: 'Students often shade the wrong side of a constraint line (e.g., shade above \\(x+y \\le 5\\) instead of below) because.',
           parts: [
-                { id: 'a', prompt: 'Consider the LPP: Minimise \\(Z = -x + 2y\\) subject to \\(x \\ge 3\\), \\(x + y \\ge 5\\), \\(x + 2y \\ge 6\\), \\(y \\ge 0\\). The feasible region is unbounded.', answer: 'Correct answer: No, we cannot conclude yet',
+                { id: 'a', prompt: 'Consider the LPP: Minimise \\(Z = -x + 2y\\) subject to \\(x \\ge 3\\), \\(x + y \\ge 5\\), \\(x + 2y \\ge 6\\), \\(y \\ge 0\\). The feasible region is unbounded.', answer: 'No, we cannot conclude yet',
                   options: ['Correct answer: No, we cannot conclude yet', 'Yes, minimum is 1'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often shade the wrong side of a constraint line (e.g., shade above \\(x+y \\le 5\\) instead of below) because they test the origin.' }
@@ -133,7 +133,7 @@ export const w_c12_mathematicslinearprogrammingsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often shade the wrong side of a constraint line (e.g., shade above \\(x+y \\le 5\\) instead of below) because.',
           parts: [
-                { id: 'a', prompt: 'Consider the LPP: Minimise \\(Z = -x + 2y\\) subject to \\(x \\ge 3\\), \\(x + y \\ge 5\\), \\(x + 2y \\ge 6\\), \\(y \\ge 0\\). The feasible region is unbounded.', answer: 'Correct answer: No, we cannot conclude yet',
+                { id: 'a', prompt: 'Consider the LPP: Minimise \\(Z = -x + 2y\\) subject to \\(x \\ge 3\\), \\(x + y \\ge 5\\), \\(x + 2y \\ge 6\\), \\(y \\ge 0\\). The feasible region is unbounded.', answer: 'No, we cannot conclude yet',
                   options: ['Correct answer: No, we cannot conclude yet', 'Yes, minimum is 1'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often shade the wrong side of a constraint line (e.g., shade above \\(x+y \\le 5\\) instead of below) because they test the origin.' }
@@ -211,7 +211,7 @@ export const w_c12_mathematicslinearprogrammingsim: SimDef = {
           hint: 'If stuck on formulation, revisit c11_math_cbse_06_007 (Word Problems: Applications of.',
           misconception: 'Students often write the constraints for a diet problem with the inequality sign reversed: they use ≤ for minimum.',
           parts: [
-                { id: 'a', prompt: 'In a diet problem, a dietician wants to mix two foods X and Y to meet minimum daily requirements of vitamin A (at least 80 units) and vitamin B (at least 100.', answer: 'Correct answer: B) 4x + 2y ≥ 80',
+                { id: 'a', prompt: 'In a diet problem, a dietician wants to mix two foods X and Y to meet minimum daily requirements of vitamin A (at least 80 units) and vitamin B (at least 100.', answer: 'B) 4x + 2y ≥ 80',
                   options: ['Correct answer: B) 4x + 2y ≥ 80', 'at least'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often write the constraints for a diet problem with the inequality sign reversed: they use ≤ for minimum nutrient requirements.' },

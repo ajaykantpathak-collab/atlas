@@ -3,7 +3,7 @@ import type { SimDef } from '../../engine/types';
 /** HAND-AUTHORED — c6_gram_ch80 The Sentence Lab (subject/predicate, 4 types, word order).
  * Nodes: c6_gram_cbse_80_001, 80_002, 80_003. */
 export const c6_gram_ch80: SimDef = {
-    id: 'v3_c6_gram_ch80',
+    id: 'v3w_c6_gram_ch80',
     title: 'The Sentence Lab',
     subtitle: 'Every sentence needs two parts — learn to find them, name the four sentence jobs, and unscramble word order',
     classLevel: 6, subject: 'english-grammar', topic: 'The sentence — parts and types',

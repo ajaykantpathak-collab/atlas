@@ -94,8 +94,8 @@ export default function ProgressPage() {
             )}
           </motion.h2>
           <motion.p variants={riseItem} className="text-surface-600 text-sm mt-2">
-            Mastery, activity and retention — measured from your real answer history against the
-            official syllabus. Nothing estimated.
+            Mastery, activity and how much you remember — measured from your real answer history
+            against the official syllabus. Nothing estimated.
           </motion.p>
         </motion.header>
 
@@ -124,7 +124,7 @@ export default function ProgressPage() {
                     <span className="text-white font-semibold">{masteredNodes.toLocaleString("en-IN")}</span>{" "}
                     of{" "}
                     <span className="text-white font-semibold">{totalNodes.toLocaleString("en-IN")}</span>{" "}
-                    nodes mastered
+                    topics mastered
                   </p>
                 </div>
                 <div className="flex items-center gap-2.5">
@@ -134,6 +134,16 @@ export default function ProgressPage() {
                     {studyHours === 1 ? "hour" : "hours"} of tracked study
                   </p>
                 </div>
+                {/* CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 6): the one
+                    sentence that answers "how is this helping me?" — what the
+                    child can now do. Shown only when the mastery is real. */}
+                {masteredNodes > 0 && (
+                  <p className="text-xs text-mint-300 flex items-center gap-1.5" data-testid="you-can-now">
+                    <Trophy className="w-3.5 h-3.5 shrink-0" />
+                    You can now walk into a test with {masteredNodes} mastered{" "}
+                    {masteredNodes === 1 ? "topic" : "topics"} — that&apos;s yours, from real practice.
+                  </p>
+                )}
                 {totalNodes === 0 && (
                   <Link href="/diagnostic" className="text-xs text-gold-300 hover:text-gold-200 font-medium">
                     Take your first diagnostic →
@@ -219,7 +229,7 @@ export default function ProgressPage() {
         )}
 
         <p className="text-center text-[11px] text-surface-600 pt-2">
-          Powered by the official Atlas syllabus graph — 9,010 nodes, tracked honestly.
+          Powered by the official Atlas syllabus — every figure here comes from your real practice.
         </p>
       </div>
     </div>

@@ -85,15 +85,15 @@ export const w_c12_biologyclinicalnutritioncbsesim: SimDef = {
           hint: 'Review c11_bio_cbse_09_001 and c11_bio_cbse_09_002 for nutrient biochemistry, and.',
           misconception: 'Students believe "broilers are injected with hormones to grow fast" — this is biologically impossible and illegal.',
           parts: [
-                { id: 'a', prompt: 'List the four major categories of poultry breeds used commercially in India with one example each, and state the primary selection criterion for layer vs.', answer: 'Correct answer: 1) Egg-type (layers) e.g., White Leghorn',
+                { id: 'a', prompt: 'List the four major categories of poultry breeds used commercially in India with one example each, and state the primary selection criterion for layer vs.', answer: '1) Egg-type (layers) e.g., White Leghorn',
                   options: ['Correct answer: 1) Egg-type (layers) e.g., White Leghorn', 'chicken breeds', 'broilers are injected with hormones to grow fast'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "broilers are injected with hormones to grow fast" — this is biologically impossible and illegal.' },
-                { id: 'b', prompt: 'Explain why deep litter system is preferred over cage system for broiler production in India, but cage system dominates layer farming.', answer: 'Correct answer: Broilers are reared for only 6-7 weeks',
+                { id: 'b', prompt: 'Explain why deep litter system is preferred over cage system for broiler production in India, but cage system dominates layer farming.', answer: 'Broilers are reared for only 6-7 weeks',
                   options: ['Correct answer: Broilers are reared for only 6-7 weeks', 'broilers are injected with hormones to grow fast'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "broilers are injected with hormones to grow fast" — this is biologically impossible and illegal.' },
-                { id: 'c', prompt: 'A farmer switches from mash to pelleted feed for his 20,000-bird layer farm.', answer: 'Correct answer: (a) FCR improves (decreases)',
+                { id: 'c', prompt: 'A farmer switches from mash to pelleted feed for his 20,000-bird layer farm.', answer: '(a) FCR improves (decreases)',
                   options: ['Correct answer: (a) FCR improves (decreases)', 'FCR worsens because pellets are expensive', 'broilers are injected with hormones to grow fast'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "broilers are injected with hormones to grow fast" — this is biologically impossible and illegal.' }
@@ -104,7 +104,7 @@ export const w_c12_biologyclinicalnutritioncbsesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students believe "broilers are injected with hormones to grow fast" — this is biologically impossible and illegal.',
           parts: [
-                { id: 'a', prompt: 'Evaluate this statement: "Adding antibiotics to poultry feed as growth promoters is essential for profitable commercial farming in India." Consider current.', answer: 'Correct answer: The statement is false',
+                { id: 'a', prompt: 'Evaluate this statement: "Adding antibiotics to poultry feed as growth promoters is essential for profitable commercial farming in India." Consider current.', answer: 'The statement is false',
                   options: ['Correct answer: The statement is false', 'broilers are injected with hormones to grow fast'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "broilers are injected with hormones to grow fast" — this is biologically impossible and illegal.' },

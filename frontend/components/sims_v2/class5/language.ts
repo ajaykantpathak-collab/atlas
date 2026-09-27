@@ -23,7 +23,8 @@ export const c5EngDegrees: SimDef = {
         { title: 'Add -er and -est ➕', text: 'Most words: tall → taller → tallest. Some change: good → better → best!', emoji: '➕', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'More and Most 🌟', text: 'Long words use more/most: beautiful → more beautiful → most beautiful!', emoji: '🌟', bgColor: 'from-amber-400 to-orange-500' },
     ],
-    challenges: [
+        explore: { widget: 'order', prompt: 'Order the degrees!', labels: ['big', 'bigger', 'biggest'] },
+challenges: [
         { type: 'mcq', question: 'Tall → taller → ?', answer: 'tallest', options: ['more tall', 'tallest', 'tallester'],
           hint: 'Superlative adds -est!', misconception: 'The superlative adds -est: tall → taller → tallest!',
           workedExample: ['Positive: tall.', 'Comparative: taller.', 'Superlative: tallest.'] },
@@ -58,7 +59,8 @@ export const c5EngVoice: SimDef = {
         { title: 'Active = Doer First 1️⃣', text: 'In active voice, the doer comes first: "Riya baked a cake." Riya is doing!', emoji: '1️⃣', bgColor: 'from-sky-400 to-blue-500' },
         { title: 'Passive = Receiver First 2️⃣', text: 'In passive, the receiver comes first: "The cake was baked by Riya." The cake receives!', emoji: '2️⃣', bgColor: 'from-emerald-400 to-teal-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'Match active to passive!', labels: ['Ram eats rice', 'Rice is eaten by Ram', 'Sita sings a song', 'A song is sung by Sita'] },
+challenges: [
         { type: 'mcq', question: '"The cat chased the mouse." Who does the action?', answer: 'The cat', options: ['The mouse', 'The cat', 'No one'],
           hint: 'Who is chasing?', misconception: 'Active voice — the cat (first) does the chasing!',
           workedExample: ['Doer comes first.', 'The cat chases.'] },
@@ -89,7 +91,8 @@ export const c5HinKriya: SimDef = {
         { title: 'क्रिया = काम का शब्द 🏃', text: 'Kriya = action words! दौड़ना (run), खाना (eat), पढ़ना (read) — words that show action!', emoji: '🏃', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'क्रिया बदलती है ⏳', text: 'Verbs change with time: खाता है (eats), खाया (ate), खाएगा (will eat) — kaal changes kriya!', emoji: '⏳', bgColor: 'from-sky-400 to-blue-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'क्रिया मिलाओ!', labels: ['दौड़ना', 'run', 'खाना', 'eat', 'गाना', 'sing'] },
+challenges: [
         { type: 'mcq', question: 'Which is a क्रिया (action word)?', answer: 'दौड़ना', options: ['दौड़ना', 'लाल', 'घर'],
           hint: 'Which shows an action?', misconception: 'दौड़ना (to run) is an action — क्रिया!',
           workedExample: ['Action word = kriya.', 'दौड़ना = run.'] },
@@ -120,7 +123,8 @@ export const c5HinParyay: SimDef = {
         { title: 'पर्यायवाची = समान अर्थ 🔀', text: 'Synonyms mean the same: आसमान = अम्बर = गगन (all mean sky)!', emoji: '🔀', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Many Words, One Meaning 🌊', text: 'जल = पानी = नीर (water). सूर्य = रवि = भानु (sun). Same thing, many names!', emoji: '🌊', bgColor: 'from-sky-400 to-blue-500' },
     ],
-    challenges: [
+        explore: { widget: 'match', prompt: 'पर्यायवाची मिलाओ!', labels: ['फूल', 'पुष्प', 'नदी', 'सरिता', 'चाँद', 'चंद्रमा'] },
+challenges: [
         { type: 'mcq', question: 'पानी का पर्यायवाची (synonym) है...', answer: 'जल', options: ['अग्नि', 'जल', 'वायु'],
           hint: 'Another word for water!', misconception: 'जल, नीर are synonyms of पानी — all mean water!',
           workedExample: ['पानी = water.', 'जल = same.', 'Synonym.'] },
@@ -155,7 +159,8 @@ export const c5EngLetter: SimDef = {
         { title: 'Start with Dear 💌', text: 'Begin with a greeting: "Dear Riya," — then write your news and questions!', emoji: '💌', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'End with Love ❤️', text: 'Close with "Yours lovingly" or "Your friend" and your name!', emoji: '❤️', bgColor: 'from-rose-400 to-pink-500' },
     ],
-    challenges: [
+        explore: { widget: 'order', prompt: 'Order the letter parts!', labels: ['Dear Ravi,', 'I hope you are well.', 'Come visit soon!', 'Your friend, Arjun'] },
+challenges: [
         { type: 'order', question: 'Put the letter parts in order!', options: [],
           sortItems: [
             { id: 'L1', label: 'Yours lovingly, Riya', emoji: '❤️', correctBin: 's3' },

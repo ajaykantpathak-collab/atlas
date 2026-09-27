@@ -8,7 +8,7 @@ export const c6_civics_ch12_p1: SimDef = {
     subtitle: 'Why does the smallest government often solve the biggest local problems?',
     classLevel: 6, subject: 'civics', topic: 'Grassroots Democracy · Part 1/2',
     chapters: ['c6_civics_ch12'],
-    nodeIds: ['c6_civics_ch12_015', 'c6_civics_ch12_022', 'c6_civics_ch12_018', 'c6_civics_ch12_019', 'c6_civics_ch12_020'],
+    nodeIds: ['c6_civics_ch12_015', 'c6_civics_ch12_016', 'c6_civics_ch12_017', 'c6_civics_ch12_018', 'c6_civics_ch12_019', 'c6_civics_ch12_020'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
     scenario: { role: 'a Gram Sabha member with a broken fence to fix', intro: 'The playground fence is broken and the state office is 300 km away. Luckily, democracy has roots — and they reach right into your village square.', goal: 'Experience participation as everyday problem-solving, not just election-day voting.' },

@@ -128,11 +128,11 @@ export const w_c12_biologyreproductivehealthcbsesim: SimDef = {
           hint: 'If stuck, revisit c8_bio_ch2_1 (Health definition) and c9_bio_ch3_9 (Human reproductive.',
           misconception: 'Students often think reproductive health is synonymous with “family planning” or “contraception” or simply “absence of.',
           parts: [
-                { id: 'a', prompt: 'Explain why the WHO definition of reproductive health goes beyond the mere absence of reproductive tract infections or diseases.', answer: 'Correct answer: The definition explicitly includes positive aspects',
+                { id: 'a', prompt: 'Explain why the WHO definition of reproductive health goes beyond the mere absence of reproductive tract infections or diseases.', answer: 'The definition explicitly includes positive aspects',
                   options: ['Correct answer: The definition explicitly includes positive aspects', 'family planning', 'contraception'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think reproductive health is synonymous with “family planning” or “contraception” or simply “absence of STDs”.' },
-                { id: 'b', prompt: 'A 16‑year‑old girl in a rural Indian village is married early, has no access to menstrual hygiene products, and is pressured to conceive immediately.', answer: 'Correct answer: (1) Physical well‑being',
+                { id: 'b', prompt: 'A 16‑year‑old girl in a rural Indian village is married early, has no access to menstrual hygiene products, and is pressured to conceive immediately.', answer: '(1) Physical well‑being',
                   options: ['Correct answer: (1) Physical well‑being', 'early marriage is bad', 'family planning'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think reproductive health is synonymous with “family planning” or “contraception” or simply “absence of STDs”.' }
@@ -143,7 +143,7 @@ export const w_c12_biologyreproductivehealthcbsesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think reproductive health is synonymous with “family planning” or “contraception” or simply “absence of.',
           parts: [
-                { id: 'a', prompt: 'Critique the statement: “If a country eliminates all sexually transmitted infections, it has achieved reproductive health for its population.” Justify your.', answer: 'Correct answer: The statement is false',
+                { id: 'a', prompt: 'Critique the statement: “If a country eliminates all sexually transmitted infections, it has achieved reproductive health for its population.” Justify your.', answer: 'The statement is false',
                   options: ['Correct answer: The statement is false', 'family planning', 'contraception', 'absence of STDs'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think reproductive health is synonymous with “family planning” or “contraception” or simply “absence of STDs”.' },
