@@ -968,6 +968,463 @@ _TABLE: List[Tuple[str, str, Any]] = [
      _c_cos_diff),
 ]
 
+
+# --------------------------------------------------------------------------- #
+# BOOK-COMPLETE FAMILIES (classes 6-10 arithmetic/algebra/mensuration)
+# Derived from the actual textbook inventory: Ganita Prakash 6-8, NCERT
+# Mathematics 8-10 (rational numbers, linear equations, squares/cubes,
+# comparing quantities, algebraic expressions, mensuration, exponents,
+# direct/inverse proportion, factorisation, graphs; real numbers, polynomials,
+# linear pairs, quadratics, AP, triangles, coordinate geometry, trigonometry,
+# circles, surface areas/volumes, statistics, probability).
+# --------------------------------------------------------------------------- #
+
+
+def _c_frac_add_sub(g, m, text):
+    a, b = float(g["a"]), float(g["b"])
+    c, d = float(g["c"]), float(g["d"])
+    if b == 0 or d == 0:
+        return _GATE
+    op = (g.get("op1") or "+").strip()
+    if op == "-" and "diff" not in text and "-" not in (m.group("op") or ""):
+        pass  # operator captured separately below
+    is_sub = "-" in (m.group("op") or "")
+    den = b * d
+    n1, n2 = a * d, c * b
+    val = (n1 - n2) / den if is_sub else (n1 + n2) / den
+    steps = [
+        f"LCM of denominators {b:g} and {d:g} is {den:g}.",
+        f"{a:g}/{b:g} = {n1:g}/{den:g} and {c:g}/{d:g} = {n2:g}/{den:g}.",
+        f"{'Subtract' if is_sub else 'Add'}: ({n1:g} {'-' if is_sub else '+'} {n2:g})/{den:g} = {_fmt(val)}."]
+    return val, steps, None, None, "a/b +/- c/d via LCM", {"num": val}
+
+
+def _c_frac_mul_div(g, m, text):
+    a, b = float(g["a"]), float(g["b"])
+    c, d = float(g["c"]), float(g["d"])
+    if b == 0 or d == 0:
+        return _GATE
+    is_div = "divid" in text or m.group("op") in ("/", "÷")
+    if is_div:
+        val = (a * d) / (b * c) if c != 0 else None
+        if val is None:
+            return _GATE
+        steps = [f"Dividing by {c:g}/{d:g} means multiplying by {d:g}/{c:g}.",
+                 f"{a:g}/{b:g} x {d:g}/{c:g} = {_fmt(a * d)}/{_fmt(b * c)} = {_fmt(val)}."]
+        eq = "(a/b) / (c/d) = (a x d)/(b x c)"
+    else:
+        val = (a * c) / (b * d)
+        steps = [f"Multiply numerators and denominators: ({a:g} x {c:g})/({b:g} x {d:g}).",
+                 f"= {_fmt(val)}."]
+        eq = "(a/b) x (c/d) = (a x c)/(b x d)"
+    return val, steps, None, None, eq, None
+
+
+def _c_hcf(g, m, text):
+    a, b = int(float(g["a"])), int(float(g["b"]))
+    if a <= 0 or b <= 0:
+        return _GATE
+    x, y = a, b
+    while y:
+        x, y = y, x % y
+    steps = [f"Euclid's algorithm: HCF({a}, {b}).",
+             f"HCF({a}, {b}) = {x}."]
+    return float(x), steps, str(x), None, "HCF via Euclid's algorithm", None
+
+
+def _c_lcm(g, m, text):
+    a, b = int(float(g["a"])), int(float(g["b"]))
+    if a <= 0 or b <= 0:
+        return _GATE
+    x, y = a, b
+    while y:
+        x, y = y, x % y
+    l = a * b // x
+    steps = [f"HCF({a}, {b}) = {x}.",
+             f"LCM(a, b) = (a x b)/HCF = ({a} x {b})/{x} = {l}."]
+    return float(l), steps, str(l), None, "LCM = (a x b)/HCF", None
+
+
+def _c_percent_of(g, m, text):
+    p, n = float(g["p"]), float(g["n"])
+    val = p * n / 100.0
+    steps = [f"{p:g}% of {n:g} = ({p:g}/100) x {n:g} = {_fmt(val)}."]
+    return val, steps, None, None, "p% of N = (p/100) x N", None
+
+
+def _c_percent_change(g, m, text):
+    a, b = float(g["a"]), float(g["b"])
+    if a == 0:
+        return _GATE
+    change = (b - a) / a * 100.0
+    kind = "increase" if change >= 0 else "decrease"
+    steps = [f"Change = {b:g} - {a:g} = {_fmt(b - a)}.",
+             f"% {kind} = (change/original) x 100 = ({_fmt(b - a)}/{a:g}) x 100 = {_fmt(abs(change))}%."]
+    return abs(change), steps, f"{_fmt(abs(change))}% {kind}", None, \
+        "% change = (new - old)/old x 100", None
+
+
+def _c_profit_loss(g, m, text):
+    cp, sp = float(g["cp"]), float(g["sp"])
+    diff = sp - cp
+    if cp == 0:
+        return _GATE
+    pct = abs(diff) / cp * 100.0
+    kind = "profit" if diff >= 0 else "loss"
+    steps = [f"CP = {cp:g}, SP = {sp:g}. SP - CP = {_fmt(diff)} ({kind}).",
+             f"{kind.capitalize()}% = ({_fmt(abs(diff))}/{cp:g}) x 100 = {_fmt(pct)}%."]
+    return pct, steps, f"{kind} of {_fmt(abs(diff))} ({_fmt(pct)}%)", None, \
+        "profit/loss% = |SP - CP|/CP x 100", {"diff": diff}
+
+
+def _c_si(g, m, text):
+    p = float(g["p"]); r = float(g["r"]); t = float(g["t"])
+    si = p * r * t / 100.0
+    steps = [f"SI = (P x R x T)/100 = ({p:g} x {r:g} x {t:g})/100 = {_fmt(si)}."]
+    want_amt = "amount" in text
+    if want_amt:
+        steps.append(f"Amount = P + SI = {p:g} + {_fmt(si)} = {_fmt(p + si)}.")
+    return (p + si) if want_amt else si, steps, None, None, \
+        "SI = PRT/100", None
+
+
+def _c_ci(g, m, text):
+    p = float(g["p"]); r = float(g["r"]); t = float(g["t"])
+    amt = p * (1 + r / 100.0) ** t
+    ci = amt - p
+    steps = [f"Amount = P(1 + R/100)^T = {p:g}(1 + {r:g}/100)^{t:g} = {_fmt(amt)}.",
+             f"CI = Amount - P = {_fmt(amt)} - {p:g} = {_fmt(ci)}."]
+    want_amt = "amount" in text
+    return amt if want_amt else ci, steps, None, None, \
+        "A = P(1 + R/100)^T", None
+
+
+def _c_ratio_share(g, m, text):
+    total = float(g["total"])
+    parts = [float(x) for x in (g["r1"], g["r2"])]
+    ssum = sum(parts)
+    if ssum == 0:
+        return _GATE
+    shares = [total * p / ssum for p in parts]
+    steps = [f"Total ratio parts = {parts[0]:g} + {parts[1]:g} = {ssum:g}.",
+             f"Share 1 = ({parts[0]:g}/{ssum:g}) x {total:g} = {_fmt(shares[0])}.",
+             f"Share 2 = ({parts[1]:g}/{ssum:g}) x {total:g} = {_fmt(shares[1])}."]
+    extra = {"s1": shares[0], "s2": shares[1]}
+    return shares[0], steps, f"{_fmt(shares[0])} and {_fmt(shares[1])}", None, \
+        "share = (ratio part/total parts) x amount", extra
+
+
+def _c_unitary(g, m, text):
+    n1 = float(g["n1"]); cost = float(g["cost"]); n2 = float(g["n2"])
+    if n1 == 0:
+        return _GATE
+    one = cost / n1
+    val = one * n2
+    steps = [f"Cost of 1 article = {cost:g}/{n1:g} = {_fmt(one)}.",
+             f"Cost of {n2:g} articles = {_fmt(one)} x {n2:g} = {_fmt(val)}."]
+    return val, steps, None, None, "unitary method", {"unit_cost": one}
+
+
+def _c_sdt(g, m, text):
+    d = g.get("d") or g.get("d2"); t = g.get("t") or g.get("t2"); s = g.get("s")
+    if "speed" in text and s is None and d is not None and t is not None:
+        dd, tt = float(d), float(t)
+        if tt == 0:
+            return _GATE
+        v = dd / tt
+        return v, [f"Speed = Distance/Time = {dd:g}/{tt:g} = {_fmt(v)} km/h."], \
+            None, None, "speed = distance/time", None
+    if "distance" in text and d is None and s is not None and t is not None:
+        ss, tt = float(s), float(t)
+        dd = ss * tt
+        return dd, [f"Distance = Speed x Time = {ss:g} x {tt:g} = {_fmt(dd)} km."], \
+            None, None, "distance = speed x time", None
+    if "time" in text and t is None and s is not None and d is not None:
+        ss, dd = float(s), float(d)
+        if ss == 0:
+            return _GATE
+        tt = dd / ss
+        return tt, [f"Time = Distance/Speed = {dd:g}/{ss:g} = {_fmt(tt)} h."], \
+            None, None, "time = distance/speed", None
+    return _GATE
+
+
+def _c_time_work(g, m, text):
+    a = float(g["a"]); b = float(g["b"])
+    if a <= 0 or b <= 0:
+        return _GATE
+    together = a * b / (a + b)
+    steps = [f"A's 1-day work = 1/{a:g}, B's 1-day work = 1/{b:g}.",
+             f"Together = 1/{a:g} + 1/{b:g} = ({b:g} + {a:g})/({a:g} x {b:g}).",
+             f"Time together = ({a:g} x {b:g})/({a:g} + {b:g}) = {_fmt(together)} days."]
+    return together, steps, None, None, "combined time = ab/(a+b)", None
+
+
+def _c_linear_solve(g, m, text):
+    a = float(g["a"]); b = float(g["b"]); c = float(g["c"])
+    if a == 0:
+        return _GATE
+    x = (c - b) / a
+    steps = [f"{a:g}x {'+' if b >= 0 else '-'} {abs(b):g} = {c:g}.",
+             f"{a:g}x = {c:g} {'-' if b >= 0 else '+'} {abs(b):g} = {_fmt(c - b)}.",
+             f"x = {_fmt(c - b)}/{a:g} = {_fmt(x)}."]
+    return x, steps, f"x = {_fmt(x)}", None, "ax + b = c", None
+
+
+def _c_quad_roots(g, m, text):
+    a = float(g["a"])
+    b = float(g["b"]) * (-1 if (m.group("bop") or "-") == "-" else 1)
+    c = float(g["c"]) * (-1 if (m.group("cop") or "-") == "-" else 1)
+    if a == 0:
+        return _GATE
+    disc = b * b - 4 * a * c
+    if disc < 0:
+        return _GATE
+    r1 = (-b + disc ** 0.5) / (2 * a)
+    r2 = (-b - disc ** 0.5) / (2 * a)
+    steps = [f"Discriminant = b^2 - 4ac = {b:g}^2 - 4({a:g})({c:g}) = {_fmt(disc)}.",
+             f"x = (-b +/- sqrt(D))/2a = ({-b:g} +/- {_fmt(disc ** 0.5)})/{2 * a:g}.",
+             f"Roots: x = {_fmt(r1)} and x = {_fmt(r2)}."]
+    extra = {"r1": r1, "r2": r2, "discriminant": disc}
+    return r1, steps, f"x = {_fmt(r1)}, x = {_fmt(r2)}", None, \
+        "x = (-b +/- sqrt(b^2 - 4ac))/2a", extra
+
+
+def _c_ap_nth(g, m, text):
+    a = float(g["a"]); d = float(g["d"]); n = float(g["n"])
+    val = a + (n - 1) * d
+    steps = [f"a_n = a + (n - 1)d = {a:g} + ({n:g} - 1)({d:g}).",
+             f"= {a:g} + {_fmt((n - 1) * d)} = {_fmt(val)}."]
+    return val, steps, None, None, "a_n = a + (n-1)d", None
+
+
+def _c_ap_sum(g, m, text):
+    a = float(g["a"]); d = float(g["d"]); n = float(g["n"])
+    val = n * (2 * a + (n - 1) * d) / 2
+    steps = [f"S_n = n/2 [2a + (n - 1)d] = {n:g}/2 [2({a:g}) + ({n:g} - 1)({d:g})].",
+             f"= {_fmt(val)}."]
+    return val, steps, None, None, "S_n = n/2 [2a + (n-1)d]", None
+
+
+def _c_gp_nth(g, m, text):
+    a = float(g["a"]); r = float(g["r"]); n = float(g["n"])
+    val = a * r ** (n - 1)
+    steps = [f"a_n = a r^(n-1) = {a:g} x {r:g}^({n:g} - 1).",
+             f"= {a:g} x {_fmt(r ** (n - 1))} = {_fmt(val)}."]
+    return val, steps, None, None, "a_n = a r^(n-1)", None
+
+
+def _c_circle_area(g, m, text):
+    r = float(g["r"])
+    val = 22.0 / 7.0 * r * r if abs(r * 7 / 22 - round(r * 7 / 22)) < 1e-9 or True else 3.14159 * r * r
+    val = 3.141592653589793 * r * r
+    steps = [f"Area = pi r^2 = 3.14159 x {r:g}^2 = {_fmt(val)}.",
+             f"(Using 22/7: {_fmt(22.0 / 7.0 * r * r)}.)"]
+    return val, steps, None, None, "area = pi r^2", None
+
+
+def _c_circle_circum(g, m, text):
+    r = float(g["r"])
+    val = 2 * 3.141592653589793 * r
+    steps = [f"Circumference = 2 pi r = 2 x 3.14159 x {r:g} = {_fmt(val)}.",
+             f"(Using 22/7: {_fmt(2 * 22.0 / 7.0 * r)}.)"]
+    return val, steps, None, None, "circumference = 2 pi r", None
+
+
+def _c_rect_area(g, m, text):
+    l = float(g["l"]); w = float(g["w"])
+    val = l * w
+    steps = [f"Area = length x breadth = {l:g} x {w:g} = {_fmt(val)}."]
+    per = 2 * (l + w)
+    extra = {"area": val, "perimeter": per}
+    return val, steps, None, None, "area = l x b", extra
+
+
+def _c_square_area(g, m, text):
+    s = float(g["s"])
+    val = s * s
+    steps = [f"Area = side^2 = {s:g}^2 = {_fmt(val)}.",
+             f"Perimeter = 4 x {s:g} = {_fmt(4 * s)}."]
+    extra = {"area": val, "perimeter": 4 * s}
+    return val, steps, None, None, "area = side^2", extra
+
+
+def _c_pythagoras(g, m, text):
+    a = float(g["a"]); b = float(g["b"])
+    h = (a * a + b * b) ** 0.5
+    steps = [f"Hypotenuse^2 = {a:g}^2 + {b:g}^2 = {_fmt(a * a)} + {_fmt(b * b)} = {_fmt(a * a + b * b)}.",
+             f"Hypotenuse = sqrt({_fmt(a * a + b * b)}) = {_fmt(h)}."]
+    return h, steps, None, None, "h^2 = a^2 + b^2", None
+
+
+def _c_volume_cube(g, m, text):
+    s = float(g["s"])
+    v = s ** 3
+    steps = [f"Volume of cube = edge^3 = {s:g}^3 = {_fmt(v)}.",
+             f"Surface area = 6 x {s:g}^2 = {_fmt(6 * s * s)}."]
+    extra = {"volume": v, "surface_area": 6 * s * s}
+    return v, steps, None, None, "V = edge^3", extra
+
+
+def _c_volume_cyl(g, m, text):
+    r = float(g["r"]); h = float(g["h"])
+    v = 3.141592653589793 * r * r * h
+    steps = [f"Volume of cylinder = pi r^2 h = 3.14159 x {r:g}^2 x {h:g} = {_fmt(v)}."]
+    return v, steps, None, None, "V = pi r^2 h", None
+
+
+def _c_volume_sphere(g, m, text):
+    r = float(g["r"])
+    v = 4.0 / 3.0 * 3.141592653589793 * r ** 3
+    steps = [f"Volume of sphere = (4/3) pi r^3 = (4/3) x 3.14159 x {r:g}^3 = {_fmt(v)}.",
+             f"Surface area = 4 pi r^2 = {_fmt(4 * 3.141592653589793 * r * r)}."]
+    extra = {"volume": v, "surface_area": 4 * 3.141592653589793 * r * r}
+    return v, steps, None, None, "V = (4/3) pi r^3", extra
+
+
+def _c_exp_eval(g, m, text):
+    b = float(g["b"]); e = float(g["e"])
+    if e > 40 or abs(b) > 1000:
+        return _GATE
+    val = b ** e
+    steps = [f"{b:g}^{e:g} = {_fmt(val)}."]
+    return val, steps, None, None, "base^exponent", None
+
+
+def _c_root_perfect(g, m, text):
+    n = float(g["n"])
+    is_cube = "cube" in text
+    if is_cube:
+        r = round(n ** (1.0 / 3.0))
+        if r ** 3 != n:
+            return _GATE
+        return float(r), [f"Cube root of {n:g}: {r:g}^3 = {n:g}, so the cube root is {r:g}."], \
+            str(r), None, "cube root", None
+    r = round(n ** 0.5)
+    if r * r != n:
+        return _GATE
+    return float(r), [f"Square root of {n:g}: {r:g}^2 = {n:g}, so the square root is {r:g}."], \
+        str(r), None, "square root", None
+
+
+_BOOK_ROWS = [
+    ("FRACTION_ADD_SUB",
+     r"(?P<a>" + _NUM + r")\s*/\s*(?P<b>" + _U_NUM + r")\s*(?P<op>[-+])\s*(?P<c>"
+     + _NUM + r")\s*/\s*(?P<d>" + _U_NUM + r")",
+     _c_frac_add_sub),
+    ("FRACTION_MUL_DIV",
+     r"(?P<a>" + _NUM + r")\s*/\s*(?P<b>" + _U_NUM + r")\s*(?P<op>[x*÷/]|times|multiplied by|divided by)\s*(?P<c>"
+     + _NUM + r")\s*/\s*(?P<d>" + _U_NUM + r")",
+     _c_frac_mul_div),
+    ("HCF_TWO_NUMBERS",
+     r"hc[fp]\b\s*(?:of\b)?\s*(?:the\s*)?(?:two\s*)?(?:numbers?\s*)?(?P<a>\d+)\s*(?:and|,)\s*(?P<b>\d+)",
+     _c_hcf),
+    ("LCM_TWO_NUMBERS",
+     r"lcm\b\s*(?:of\b)?\s*(?:the\s*)?(?:two\s*)?(?:numbers?\s*)?(?P<a>\d+)\s*(?:and|,)\s*(?P<b>\d+)",
+     _c_lcm),
+    ("PERCENT_OF",
+     r"(?P<p>" + _U_NUM + r")\s*%\s*(?:of)\s*(?P<n>" + _NUM + r")",
+     _c_percent_of),
+    ("PERCENT_CHANGE",
+     r"percentage\s+(?:increase|decrease|change)\s+(?:from\s*|when\s+(?:the\s+)?)\s*"
+     r"(?P<a>" + _NUM + r")\s*(?:to|and)\s*(?P<b>" + _NUM + r")",
+     _c_percent_change),
+    ("PROFIT_LOSS_PERCENT",
+     r"(?:cp\b|cost\s*price|buys?\b|bought\b|purchased?\b)[^0-9]{0,40}(?P<cp>" + _NUM + r")"
+     r".{0,120}?(?:sp\b|selling\s*price|sells?\b[^0-9]{0,20}for|sold\b[^0-9]{0,20}for)[^0-9]{0,30}(?P<sp>" + _NUM + r")"
+     r".{0,60}?(?:profit|loss)",
+     _c_profit_loss),
+    ("SIMPLE_INTEREST",
+     r"simple\s+interest\s+(?:on|of)\s+(?:rs\.?\s*|rs\s*|₹\s*|inr\s*)?(?P<p>" + _NUM + r")"
+     r".{0,40}?(?:at|@|rate)\s*(?P<r>" + _U_NUM + r")\s*%"
+     r".{0,40}?(?:for|in|per annum for|per\s*annum,?\s*for)?\s*(?P<t>" + _U_NUM + r")\s*years?",
+     _c_si),
+    ("COMPOUND_INTEREST",
+     r"compound(?:ed)?\s+(?:annually,?\s*)?(?:interest|amount)\s+(?:on|of)\s+"
+     r"(?:rs\.?\s*|rs\s*|₹\s*|inr\s*)?(?P<p>" + _NUM + r")"
+     r".{0,40}?(?:at|@|rate)\s*(?P<r>" + _U_NUM + r")\s*%"
+     r".{0,40}?(?:for|in|per\s*annum,?\s*for)?\s*(?P<t>" + _U_NUM + r")\s*years?",
+     _c_ci),
+    ("RATIO_SHARE",
+     r"divid\w+\s+(?:rs\.?\s*|rs\s*|₹\s*)?(?P<total>" + _NUM + r")\s+(?:in\s+the\s+ratio\s*)?(?P<r1>" + _U_NUM + r")\s*:\s*(?P<r2>" + _U_NUM + r")",
+     _c_ratio_share),
+    ("UNITARY",
+     r"(?:if\s*)?(?:the\s*)?cost\s+of\s+(?P<n1>" + _U_NUM + r")\s*(?:articles?|items?|pens?|books?| notebooks?|kg|kilograms?)\s+is\s+(?:rs\.?\s*|₹\s*)?(?P<cost>"
+     + _NUM + r")\s*,?\s*(?:then\s*)?(?:what\s*is\s*(?:the\s*)?cost|find\s*(?:the\s*)?cost|cost)\s+of\s+(?P<n2>"
+     + _U_NUM + r")",
+     _c_unitary),
+    ("SPEED_DIST_TIME",
+     r"(?:(?:find|what)\s+(?:is\s+)?the\s+(?P<kind>speed|distance|time)\b)?"
+     r"(?P<s>" + _NUM + r")?\s*(?:km/h|km\/h|kmph)?"
+     r"(?:[^0-9]{0,40}(?P<d2>" + _NUM + r")\s*km\b)?"
+     r"(?:[^0-9]{0,40}(?P<t2>" + _U_NUM + r")\s*(?:hours?|hrs?|h\b))?",
+     _c_sdt),
+    ("TIME_WORK_TOGETHER",
+     r"\bA\s+(?:can\s+)?(?:do(?:es)?)?\s*(?:a\s+)?(?:work|job)\s+in\s+(?P<a>" + _U_NUM + r")\s*days?\b"
+     r".{0,60}?\bB\s+(?:can\s+)?(?:do(?:es)?)?\s*(?:it|the\s+(?:work|job))\s+in\s+(?P<b>" + _U_NUM + r")\s*days?",
+     _c_time_work),
+    ("LINEAR_SOLVE",
+     r"solve[:\s]+(?P<a>" + _NUM + r")\s*x\s*(?P<op>[-+])\s*(?P<b>" + _NUM + r")\s*=\s*(?P<c>" + _NUM + r")",
+     _c_linear_solve),
+    ("QUADRATIC_ROOTS",
+     r"roots?\s+of\s+(?P<a>" + _NUM + r")\s*x\s*\^\s*2\s*(?P<bop>[-+])\s*(?P<b>" + _NUM + r")\s*x\s*(?P<cop>[-+])\s*(?P<c>"
+     + _NUM + r")\s*=\s*0",
+     _c_quad_roots),
+    ("AP_NTH",
+     r"(?:(?:find|what\s+is)\s+the\s+)?(?P<n>" + _U_NUM + r")\s*(?:th|st|nd|rd)\s+term\s+of\s+(?:the\s+)?(?:ap|a\.p\.|arithmetic\s+progression)"
+     r".{0,40}?first\s+term\s+(?:is\s+)?(?P<a>" + _NUM + r")"
+     r".{0,40}?common\s+difference\s+(?:is\s+)?(?P<d>" + _NUM + r")",
+     _c_ap_nth),
+    ("AP_SUM",
+     r"sum\s+of\s+(?:the\s+)?first\s+(?P<n>" + _U_NUM + r")\s+terms?\s+of\s+(?:the\s+)?(?:ap|a\.p\.|arithmetic\s+progression)"
+     r".{0,40}?first\s+term\s+(?:is\s+)?(?P<a>" + _NUM + r")"
+     r".{0,40}?common\s+difference\s+(?:is\s+)?(?P<d>" + _NUM + r")",
+     _c_ap_sum),
+    ("GP_NTH",
+     r"(?:(?:find|what\s+is)\s+the\s+)?(?P<n>" + _U_NUM + r")\s*(?:th|st|nd|rd)\s+term\s+of\s+(?:the\s+)?(?:gp|g\.p\.|geometric\s+progression)"
+     r".{0,40}?first\s+term\s+(?:is\s+)?(?P<a>" + _NUM + r")"
+     r".{0,40}?(?:common\s+ratio|ratio)\s+(?:is\s+)?(?P<r>" + _NUM + r")",
+     _c_gp_nth),
+    ("CIRCLE_AREA",
+     r"area\s+of\s+(?:a\s+)?circle\s+(?:of|with)\s+radius\s+(?:is\s+)?(?P<r>" + _NUM + r")",
+     _c_circle_area),
+    ("CIRCLE_CIRCUMFERENCE",
+     r"circumference\s+of\s+(?:a\s+)?circle\s+(?:of|with)\s+radius\s+(?:is\s+)?(?P<r>" + _NUM + r")",
+     _c_circle_circum),
+    ("RECT_AREA",
+     r"area\s+of\s+(?:a\s+)?rectangle\s+(?:of|with)?\s*(?:length\s*)?(?:is\s+)?(?P<l>" + _NUM + r")"
+     r"\s*(?:cm|m|meters?|metres?)?\s*(?:and|by|x|\*)\s*(?:breadth|width|breath)\s*(?:is\s+)?(?P<w>" + _NUM + r")",
+     _c_rect_area),
+    ("SQUARE_AREA",
+     r"area\s+of\s+(?:a\s+)?square\s+(?:of|with)\s+side\s+(?:is\s+)?(?P<s>" + _NUM + r")",
+     _c_square_area),
+    ("PYTHAGORAS",
+     r"hypotenuse\s+of\s+(?:a\s+)?right(?:\s*[- ])?angled?\s+triangle\s+(?:with|having|whose)\s+(?:legs?|sides?|arms?)\s+(?:of\s*)?(?:is\s+)?(?P<a>"
+     + _NUM + r")\s*(?:cm|m|,)?\s*and\s*(?P<b>" + _NUM + r")",
+     _c_pythagoras),
+    ("VOLUME_CUBE",
+     r"volume\s+of\s+(?:a\s+)?cube\s+(?:of|with)\s+(?:edge|side)\s+(?:is\s+)?(?P<s>" + _NUM + r")",
+     _c_volume_cube),
+    ("VOLUME_CYLINDER",
+     r"volume\s+of\s+(?:a\s+)?cylinder\s+(?:of|with)\s+radius\s+(?:is\s+)?(?P<r>" + _NUM + r")"
+     r"\s*(?:cm|m)?\s*(?:and|,)\s*(?:height\s*)?(?:is\s+)?(?P<h>" + _NUM + r")",
+     _c_volume_cyl),
+    ("VOLUME_SPHERE",
+     r"volume\s+of\s+(?:a\s+)?sphere\s+(?:of|with)\s+radius\s+(?:is\s+)?(?P<r>" + _NUM + r")",
+     _c_volume_sphere),
+    ("EXPONENT_EVAL",
+     r"(?:evaluate|value\s+of)\s+(?P<b>" + _NUM + r")\s*\^\s*(?P<e>\d{1,2})\b",
+     _c_exp_eval),
+    ("ROOT_PERFECT",
+     r"(?:square|cube)\s+root\s+of\s+(?P<n>\d+)",
+     _c_root_perfect),
+]
+
+_TABLE.extend(_BOOK_ROWS)
+
+
+TABLE = _TABLE
+
 TABLE = _TABLE
 
 
