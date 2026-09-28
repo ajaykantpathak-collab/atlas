@@ -109,3 +109,40 @@ async def examiner_grade(body: ExaminerBody):
 @router.get("/api/passport/{user_id}")
 async def mastery_passport(user_id: str, db: AsyncSession = Depends(get_db)):
     return await passport.build_passport(db, user_id)
+
+# ── 4b. Examiner Mode — photo input (vision extraction → grade) ──────────
+class ExaminerImageBody(BaseModel):
+    node_id: str
+    image: str  # base64 or data-url photo of the handwritten answer
+
+
+@router.post("/api/examiner/grade-image")
+async def examiner_grade_image(body: ExaminerImageBody):
+    """Photo of handwritten answer → OCR/vision extraction → graded against
+    the node's authored MARKING_POINTS. One round trip; falls back honestly
+    when the vision key/config is missing."""
+    extracted_text = ""
+    source = "none"
+    try:
+        from backend.api.vision import (
+            _call_parse, _call_vision, _nvidia_key, _to_data_url,
+        )
+        key = _nvidia_key()
+        if key:
+            data_url = _to_data_url(body.image, None)
+            text, regions = await _call_parse(data_url, key)
+            if not text or len(text) < 20:
+                text = await _call_vision(data_url, key)
+                source = "vision"
+            else:
+                source = "parse"
+            extracted_text = text or ""
+    except Exception:
+        extracted_text = ""
+    result = examiner.grade_answer(
+        body.node_id, extracted_text) if extracted_text else {
+        "graded": False,
+        "error": "could not extract text from the photo — retake in better light, or type the answer",
+    }
+    return {"extracted_text": extracted_text[:2000], "extraction_source": source,
+            **result}
